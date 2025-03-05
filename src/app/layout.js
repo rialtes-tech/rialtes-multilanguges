@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <header>
             <Header />
           </header>
-          <main className="xl:mt-[85px]">{children}</main>
+          <main>{children}</main>
           <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
             <Footer />
           </footer>

@@ -99,11 +99,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .react-multi-carousel-dot-list {
+  /* .react-multi-carousel-dot-list {
     left: 0px !important;
     top: 61rem !important;
     visibility: hidden !important;
-  }
+  } */
 
   .react-multi-carousel-dot-list>button {
     width: 50px;

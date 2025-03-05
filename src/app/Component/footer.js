@@ -35,7 +35,7 @@ const Footer = () => {
 
     return (
         <footer className="xl:pr-5 px-6 pt-10 h-auto footer-background pb-10 mt-auto items-center flex flex-col">
-            <div className="flex flex-col xl:pl-[280px] lg:flex-row md:flex-row border-b-[1px] xl:gap-24 lg:gap-10 pb-10 mt-4 w-full mx-auto">
+            <div className="flex flex-col xl:pl-[235px] lg:flex-row md:flex-row border-b-[1px] xl:gap-24 lg:gap-10 pb-10 mt-4 w-full mx-auto">
 
                 <div className="flex gap-5 lg:flex-row flex-col">
                     <Image

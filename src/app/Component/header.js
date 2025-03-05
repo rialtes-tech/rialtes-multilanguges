@@ -4,10 +4,10 @@ import Link from "next/link"
 import { useEffect, useState } from "react";
 
 
-const MenuItem = ({ label, link, onHover,className,onClick }) => {
+const MenuItem = ({ label, link, onHover, className, onClick }) => {
   return (
     <Link href={link}>
-      <div  onClick={onClick} onMouseEnter={onHover} className={`cursor-pointer xl:pb-3 md:pb-3 xl:pt-0 hover:text-[#0092E1] ${className}`}>
+      <div onClick={onClick} onMouseEnter={onHover} className={`cursor-pointer  xl:pb-3 md:pb-3 xl:pt-0 hover:text-[#0092E1] ${className}`}>
         {label}
       </div>
     </Link>
@@ -205,72 +205,73 @@ const Header = () => {
   return (
     <section>
 
-      <div className="hidden md:justify-between md:flex xl:px-[260px] lg:px-[85px] md:pr-[26px] md:pl-[85px] xl:justify-between lg:justify-between  bg-white fixed top-0 z-50 shadow-lg pt-8 items-center pb-5 right-0 left-0">
+      <div className="hidden bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
+        <div className="col-span-4">
+          <Link href="/" passHref>
+            <Image
+              className="z-[999] cursor-pointer w-[200px] object-cover"
+              alt="Company logo"
+              width={0}
+              height={0}
+              sizes="100vw"
+              src="/images/homepage/logo.png"
+            />
+          </Link>
+        </div>
 
-        <Link href="/" passHref>
-          <Image
-            loading="lazy"
-            className="z-[999] cursor-pointer xl:w-full md:w-32"
-            alt="Company logo"
-            height="150"
-            width="200"
-            src="/images/homepage/logo.png"
+
+        <div className="col-span-8 flex gap-5">
+          <MenuItem
+            label="About Us"
+            link="/"
+            onHover={() => handleCardHover(1)}
+            onClick={() => handleMenuClick(1)}
+            className={`font-bold md:font-normal ${activeMenu === 1 ? 'text-blue-500' : ''}`}
           />
-        </Link>
-
-        <div className="flex gap-5">
-        <MenuItem
-        label="About Us"
-        link="/"
-        onHover={() => handleCardHover(1)}
-        onClick={() => handleMenuClick(1)}
-        className={activeMenu === 1 ? 'text-blue-500 font-bold' : ''}
-      />
-      <MenuItem
-        label="Services"
-        link="/"
-        onHover={() => handleCardHover(2)}
-        onClick={() => handleMenuClick(2)}
-        className={activeMenu === 2 ? 'text-blue-500 font-bold' : ''}
-      />
-      <MenuItem
-        label="Industries"
-        link="/"
-        onHover={() => handleCardHover(3)}
-        onClick={() => handleMenuClick(3)}
-        className={activeMenu === 3 ? 'text-blue-500 font-bold' : ''}
-      />
-      <MenuItem
-        label="Insights"
-        link="/"
-        onHover={() => handleCardHover(4)}
-        onClick={() => handleMenuClick(4)}
-        className={activeMenu === 4 ? 'text-blue-500 font-bold' : ''}
-      />
-      <MenuItem
-        label="Contact Us"
-        link="/contact-us"
-        onHover={() => handleCardHover(5)}
-        onClick={() => handleMenuClick(5)}
-        className={activeMenu === 5 ? 'text-blue-500 font-bold' : ''}
-      />
+          <MenuItem
+            label="Services"
+            link="/services"
+            onHover={() => handleCardHover(2)}
+            onClick={() => handleMenuClick(2)}
+            className={`font-bold md:font-normal ${activeMenu === 2 ? 'text-blue-500' : ''}`}
+          />
+          <MenuItem
+            label="Industries"
+            link="/"
+            onHover={() => handleCardHover(3)}
+            onClick={() => handleMenuClick(3)}
+            className={`font-bold md:font-normal ${activeMenu === 3 ? 'text-blue-500' : ''}`}
+          />
+          <MenuItem
+            label="Insights"
+            link="/"
+            onHover={() => handleCardHover(4)}
+            onClick={() => handleMenuClick(4)}
+            className={`font-bold md:font-normal ${activeMenu === 4 ? 'text-blue-500' : ''}`}
+          />
+          <MenuItem
+            label="Contact Us"
+            link="/contact-us"
+            onHover={() => handleCardHover(5)}
+            onClick={() => handleMenuClick(5)}
+            className={`font-bold md:font-normal ${activeMenu === 5 ? 'text-blue-500' : ''}`}
+          />
         </div>
       </div>
 
       {/* Cards for each menu item */}
-      <div className="mt-4 hidden md:flex">
+      <div>
         {/* About Us Card */}
         {activeCard === 1 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white w-full h-56 fixed xl:top-[12%] md:top-[7%] left-0 z-30 border-t-2">
-            <div className="flex xl:pl-[17rem] xl:pr-[19rem] lg:gap-[125px] xl:gap-0 xl:px-[10rem] lg:pl-[7.25rem] md:gap-[20px] md:pl-[6.25rem] md:mt-16 xl:justify-between xl:w-[79%] xl:mt-10">
-              <div className="md:w-[25%] xl:w-full">
+          <div className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-3 left-0 z-30 border-t-2">
+            <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
+              <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl">
                   We Help Those Who Build The Future To Make It Amazing.
                 </h3>
                 <h6 className="mt-3">More About Rialtes →</h6>
               </div>
-              <div className="border-r-2 h-32 md:hidden xl:block xl:mr-[12rem]"></div>
-              <div>
+              <div className="col-span-8">
                 <MenuItem className='font-bold' label="Leadership" link="/leadership" onHover={() => { }} />
                 <MenuItem className='font-bold' label="Partners" link="/partners" onHover={() => { }} />
               </div>
@@ -280,49 +281,48 @@ const Header = () => {
 
         {/* Services Card */}
         {activeCard === 2 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[600px] fixed xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
-            <div className="flex xl:pl-[17rem] xl:pr-[11rem] xl:w-full lg:pl-[7.25rem]  lg:gap-10 md:pl-[100px] md:pr-2 md:mt-16 xl:justify-between md:justify-center xl:mt-10">
-              <div className="xl:w-[50%] md:w-[50%]">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  left-0 z-20 border-t-2">
+            <div className="grid grid-cols-12 xl:pl-[280px] xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
+              <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl">
                   Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
                 </h3>
                 <h6 className="mt-3">More About Realforce →</h6>
               </div>
-              <div className="border-r-2 h-32 md:hidden xl:block xl:mr-[16rem]"></div>
-              <div>
-              <div className="flex md:gap-2 lg:gap-16">
-                <div>
-                  <MenuItem className='font-bold w-[176px]' label="Artificial Intelligence" link="/services/ai" onHover={() => { }} />
-                  <MenuItem className='font-bold' label="Salesforce" link="/services/salesforce" onHover={() => { }} />
-                  <MenuItem label="Digital Desk" link="/services/digital-desk" onHover={() => { }} />
-                  <MenuItem label="Health Cloud" link="/services/health-cloud" onHover={() => { }} />
-                  <MenuItem label="Agentforce" link="/services/agentforce" onHover={() => { }} />
-                  <MenuItem label="Data Cloud" link="/services/data-cloud" onHover={() => { }} />
-                  <MenuItem label="Implementation" link="/services/implementation" onHover={() => { }} />
-                  <MenuItem label="Managed Services" link="/services/managed-services" onHover={() => { }} />
+              <div className="col-span-8">
+                <div className="flex md:gap-2 lg:gap-16">
+                  <div>
+                    <MenuItem className='font-bold' label="Artificial Intelligence" link="/services/ai" onHover={() => { }} />
+                    <MenuItem className='font-bold' label="Salesforce" link="/services/salesforce" onHover={() => { }} />
+                    <MenuItem label="Digital Desk" link="/services/digital-desk" onHover={() => { }} />
+                    <MenuItem label="Health Cloud" link="/services/health-cloud" onHover={() => { }} />
+                    <MenuItem label="Agentforce" link="/services/agentforce" onHover={() => { }} />
+                    <MenuItem label="Data Cloud" link="/services/data-cloud" onHover={() => { }} />
+                    <MenuItem label="Implementation" link="/services/implementation" onHover={() => { }} />
+                    <MenuItem label="Managed Services" link="/services/managed-services" onHover={() => { }} />
+                  </div>
+                  <div>
+                    <MenuItem className='font-bold' label="SAP" link="/services/sap" onHover={() => { }} />
+                    <MenuItem  label="RISE with SAP" link="/rise-with-sap" onHover={() => { }} />
+                    <MenuItem label="GROW with SAP" link="/grow-with-sap" onHover={() => { }} />
+                    <MenuItem label="Successfactor" link="/success-factors" onHover={() => { }} />
+                    <MenuItem  label="Application Development" link="/services/implementation" onHover={() => { }} />
+                    <MenuItem label="SAP ARIBA" link="/services/managed-services" onHover={() => { }} />
+                    <MenuItem label="SAP BTP" link="/services/yardi" onHover={() => { }} />
+
+                    <MenuItem className='font-bold' label="Yardi" link="/services/sap" onHover={() => { }} />
+                    <MenuItem className='font-bold' label="Data Analytics" link="/services/sap" onHover={() => { }} />
+
+                    <MenuItem label="Power BI" link="/services/data-analytics" onHover={() => { }} />
+                    <MenuItem label="QLIK Sense" link="/services/cloud-migration" onHover={() => { }} />
+                    <MenuItem label="ALTERYX" link="/services/testing" onHover={() => { }} />
+
+
+                    <MenuItem className='font-bold' label="Cloud Migration" link="/services/sap" onHover={() => { }} />
+                    <MenuItem className='font-bold' label="Quality Management (Testing)" link="/services/sap" onHover={() => { }} />
+                    <MenuItem className='font-bold' label="Integration" link="/services/sap" onHover={() => { }} />
+                  </div>
                 </div>
-                <div>
-                  <MenuItem className='font-bold' label="SAP" link="/services/sap" onHover={() => { }} />
-                  <MenuItem className='w-[176px]' label="RISE with SAP" link="/services/digital-desk" onHover={() => { }} />
-                  <MenuItem label="GROW with SAP" link="/services/health-cloud" onHover={() => { }} />
-                  <MenuItem label="Successfactor" link="/services/agentforce" onHover={() => { }} />
-                  <MenuItem className='w-[210px]' label="Application Development" link="/services/implementation" onHover={() => { }} />
-                  <MenuItem label="SAP ARIBA" link="/services/managed-services" onHover={() => { }} />
-                  <MenuItem label="SAP BTP" link="/services/yardi" onHover={() => { }} />
-                  
-                  <MenuItem className='font-bold' label="Yardi" link="/services/sap" onHover={() => { }} />
-                  <MenuItem className='font-bold' label="Data Analytics" link="/services/sap" onHover={() => { }} />
-
-                  <MenuItem label="Power BI" link="/services/data-analytics" onHover={() => { }} />
-                  <MenuItem label="QLIK Sense" link="/services/cloud-migration" onHover={() => { }} />
-                  <MenuItem label="ALTERYX" link="/services/testing" onHover={() => { }} />
-
-
-                  <MenuItem className='font-bold' label="Cloud Migration" link="/services/sap" onHover={() => { }} />
-                  <MenuItem className='font-bold w-[300px]' label="Quality Management (Testing)" link="/services/sap" onHover={() => { }} />
-                  <MenuItem className='font-bold' label="Integration" link="/services/sap" onHover={() => { }} />
-                </div>
-              </div>
               </div>
             </div>
           </div>
@@ -330,16 +330,15 @@ const Header = () => {
 
         {/* Industries Card */}
         {activeCard === 3 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[300px] fixed xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
-            <div className="flex xl:pl-[17rem] xl:pr-[17rem] w-full lg:gap-[80px] xl:gap-[22px]  lg:pl-[7.25rem] md:pl-[100px] md:mt-16 xl:mt-10">
-              <div className="xl:w-[30%] md:w-[30%]">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  left-0 z-20 border-t-2">
+            <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+              <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl">
                   Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
                 </h3>
                 <h6 className="mt-3">More About Service →</h6>
               </div>
-              <div className="border-r-2 h-32 md:hidden xl:block xl:mr-[12rem]"></div>
-              <div className="flex gap-5">
+              <div className="col-span-8">
                 <div>
                   <MenuItem className='font-bold' label="Healthcare" link="/services/ai" onHover={() => { }} />
                   <MenuItem className='font-bold' label="Real Estate" link="/services/salesforce" onHover={() => { }} />
@@ -355,18 +354,17 @@ const Header = () => {
 
         {/* Insights Card */}
         {activeCard === 4 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[250px] fixed xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
-            <div className="flex xl:pl-[17rem] xl:pr-[26rem] lg:pl-[7.25rem] lg:gap-[135px] xl:gap-0 md:pl-[100px] md:mt-16 xl:mt-10">
-              <div className="xl:w-[41%] md:w-[30%] lg:w-[28%]">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[250px]  xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
+            <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+              <div className="col-span-4 border-r-2 h-auto">
                 <h3 className="md:text-sm xl:text-2xl">
                   Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
                 </h3>
                 <h6 className="mt-3">More About Industries →</h6>
               </div>
-              <div className="border-r-2 h-32 md:hidden xl:block xl:mr-[12rem]"></div>
-              <div className="xl:w-[16%] md:w-[72%]">
-                <MenuItem className='font-bold' label="Blog" link="/industries/healthcare" onHover={() => { }} />
-                <MenuItem className='font-bold' label="Case Studies" link="/industries/real-estate" onHover={() => { }} />
+              <div className="col-span-4">
+                <MenuItem className='font-bold' label="Blog" link="/blog" onHover={() => { }} />
+                <MenuItem className='font-bold' label="Case Studies" link="/case-study" onHover={() => { }} />
                 <MenuItem className='font-bold' label="Webinar" link="/industries/manufacturing" onHover={() => { }} />
                 <MenuItem className='font-bold' label="Events" link="/industries/finance" onHover={() => { }} />
               </div>

@@ -269,7 +269,7 @@ const Home = () => {
         keywords="home, website, welcome"
       />
       {/* main slider */}
-      <section className='xl:mt-20 '>
+      <section>
         <ResponsiveCarousel autoPlay={true} renderIndicator={renderIndicator}>
           <div>
             <Image width={0}
@@ -281,7 +281,7 @@ const Home = () => {
                 objectFit: "cover",
               }}
               priority className='relative w-full' alt='demo' src='/images/homepage/Asset1.webp' />
-              <h1 className='absolute text-white md:text-3xl xl:mt-20 xl:text-[42px] xl:top-[16rem] md:top-[6rem] md:left-[7rem]  top-[1rem] xl:left-[17rem] pl-5 xl:p-0 md:pl-0 lg:ml-[15px]'>AI-Powered Insights for</h1>
+              <h2 className='absolute text-white md:text-3xl xl:mt-20 xl:text-[42px] xl:top-[16rem] md:top-[6rem] md:left-[7rem]  top-[1rem] xl:left-[17rem] pl-5 xl:p-0 md:pl-0 lg:ml-[15px]'>AI-Powered Insights for</h2>
             <h4 className='absolute  text-white text-[16px] lg:mt-20 md:text-2lg xl:text-[40px] xl:top-[18.25rem] md:top-[8rem] md:left-[8rem] left-[23px]  top-[3rem] xl:left-[24rem] xl:mt-2'>Smarter Customer Engagement</h4>
 
             <h3 className='absolute text-white xl:top-[35.25rem] xl:text-2lg text-sm md:left-[7rem] md:top-[16rem] lg:top-[21rem] xl:left-[17rem] top-[6rem] left-[2rem]'>Know More</h3>
