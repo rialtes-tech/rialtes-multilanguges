@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-family);
+}
+@layer base {
+  html {
+    font-family: var(--font-family);
+  }
+
+  /* Typography styles */
+  h1 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  /* Second h3 variant with class */
+  .h3-bold {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+
+  /* Desktop styles */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 42px;
+    }
+
+    h2 {
+      font-size: 42px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .h3-bold {
+      font-size: 20px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+   
+
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* Ensure content is always visible on mobile */
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .react-multi-carousel-dot-list {
+    left: 0px !important;
+    top: 61rem !important;
+    visibility: hidden !important;
+  }
+
+  .react-multi-carousel-dot-list>button {
+    width: 50px;
+  }
+
+
+
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    text-align: left !important;
+    padding-left: 28px !important;
+    top: 6rem;
+
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    text-align: left !important;
+    padding-left: 108px !important;
+    top: 17rem !important;
+  }
+}
+
+.react-multi-carousel-dot-list {
+  justify-content: left !important;
+}
+
+.footer-background {
+  background-image: url('/images/homepage/footert.png');
+  color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* .react-multi-carousel-dot-list {
+    left: 85px !important;
+    top: 91rem !important;
+  } */
+
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    text-align: left !important;
+    padding-left: 270px !important;
+  }
+
+}
+
+.get-inspired .react-multi-carousel-item {
+  width: 896px !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: none;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.react-multiple-carousel__arrow--right {
+  display: none;
+}
+
+.react-multiple-carousel__arrow--left {
+  display: none;
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
