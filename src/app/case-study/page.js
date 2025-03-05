@@ -1,0 +1,477 @@
+"use client";
+// pages/case-study.js
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from 'react';
+import BlogsCarousel from '../components/latestBlogCarousel';
+const latestCaseStudy = [
+  {
+    id: 1,
+    image: "/images/case-studies/case-study-1_thumb.webp",
+    category: "Manufacturing",
+    industry: "Retail & e-Commerce",
+    date: "8 Jan 2025",
+    url: "/case-study-3",
+    title: "Streamlined DevOps using Copado and Salesforce",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+  },
+  {
+    id: 2,
+    image: "/images/case-studies/case-study-2_thumb.webp",
+    category: "Real Estate",
+    industry: "Hi-tech",
+    date: "22 Dec 2024",
+    url: "/case-study-2",
+    title: "RealForce Banking Module - ACH",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+  },
+  {
+    id: 3,
+    image: "/images/case-studies/case-study-3_thumb.webp",
+    category: "Healthcare",
+    industry: "Real Estate",
+    date: "17 Nov 2024",
+    url: "/case-study-1",
+    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+    description: "A global medical technology company that develops and manufactures innovative products",
+  },
+  {
+    id: 4,
+    image: "/images/case-studies/case-study-4_thumb.webp",
+    category: "Real Estate",
+    industry: "Healthcare",
+    date: "14 Oct 2024",
+    url: "/case-study-7",
+    title: "Omnichannel case management with Salesforce Service Cloud",
+    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+  },
+  {
+    id: 5,
+    image: "/images/case-studies/case-study-5_thumb.webp",
+    category: "Public Sector",
+    industry: "Finance",
+    date: "27 Sept 2024",
+    url: "/case-study-6",
+    title: "A public housing in US",
+    description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
+  },
+  {
+    id: 6,
+    image: "/images/case-studies/case-study-6_thumb.webp",
+    category: "Healthcare",
+    industry: "Manufacturing",
+    date: "4 Sept 2024",
+    url: "/case-study-5",
+    title: "Yardi Managed Services",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+  },
+  {
+    id: 7,
+    image: "/images/case-studies/case-study-7_thumb.webp",
+    category: "SAP",
+    industry: "Retail & e-Commerce",
+    date: "25 Oct 2024",
+    url: "/case-study-4",
+    title: "Digitizing patient journey using Salesforce health cloud",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+  },
+  {
+    id: 8,
+    image: "/images/case-studies/case-study-8_thumb.webp",
+    category: "Salesforce",
+    industry: "Hi-tech",
+    date: "25 Oct 2024",
+    url: "/case-study-8",
+    title: "Salesforce Health Cloud, Prior Authorization",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+  },
+  // Add more case study objects as needed
+];
+
+const CaseStudyCard = ({ casestudy }) => (
+  <div className="border border-[#707070] w-full h-full flex flex-col group">
+    <div className="relative overflow-hidden">
+    <Link href={casestudy.url}>
+      <Image
+        className="w-full transition-transform duration-300 hover:scale-105"
+        src={casestudy.image}
+        alt={casestudy.title}
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        priority
+      />
+      </Link>
+    </div>
+    <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+      <div>
+        <div className='pb-2 md:pb-4'>
+          <span className='text-[#0092E0]'>{casestudy.category}</span>
+          <span className='text-[#ACACAC]'> | </span>
+          {casestudy.date}
+        </div>
+        <Link href={casestudy.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-4">{casestudy.title}</h4></Link>
+      </div>
+      <div className="flex flex-col">
+        <p className='line-clamp-4 md:mb-4 mb-2'>{casestudy.description}</p>
+      </div>
+    </div>
+  </div>
+);
+
+const CaseStudy = () => {
+  const [visibleCaseStudy, setvisibleCaseStudy] = useState(6);
+  const [showOptionsIndustry, setShowOptionsIndustry] = useState(false);
+  const [showOptionsCategory, setShowOptionsCategory] = useState(false);
+
+  const loadMoreCaseStudy = () => {
+    setvisibleCaseStudy((prevvisibleCaseStudy) => prevvisibleCaseStudy + 6);
+  };
+
+  const toggleOptionsIndustry = () => {
+    setShowOptionsIndustry(!showOptionsIndustry);
+  };
+
+  const toggleOptionsCategory = () => {
+    setShowOptionsCategory(!showOptionsCategory);
+  };
+
+
+  const [selectedIndustry, setSelectedIndustry] = useState('All');
+
+  const filterCaseStudyByIndustry = (industry) => {
+    setSelectedIndustry(industry);
+    setShowOptionsIndustry(false);
+  };
+
+  const filteredBlogs = selectedIndustry === 'All' ? latestCaseStudy : latestCaseStudy.filter(blog => blog.industry === selectedIndustry);
+
+  const [selectedCategory, setSelectedCategory] = useState('All');
+
+  const filterCaseStudyByCategory = (category) => {
+    setSelectedCategory(category);
+    setShowOptionsCategory(false);
+  };
+
+  const filteredCaseStudyByCategory = selectedCategory === 'All' ? filteredBlogs : filteredBlogs.filter(blog => blog.category === selectedCategory);
+
+  const isLoadMoreVisible = visibleCaseStudy < filteredCaseStudyByCategory.length;
+
+  return (
+    <div className="container mx-auto px-6 text-black">
+      <div className="flex md:flex-row flex-col pb-4 items-center">
+        <div className="flex flex-col md:pb-0 pb-4">
+          <h3 className="text-black">Search result by {selectedIndustry} industry / {selectedCategory} category</h3>
+        </div>
+        <div className="relative flex md:flex-row md:ml-auto h-[60px]">
+          <div className="relative">
+            <button className='relative border border-[#707070] w-40 py-4 px-2 sm:mr-4 mr-0 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+              <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
+              <svg
+                className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
+                fill='none'
+                stroke='currentColor'
+                viewBox='0 0 24 24'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </button>
+            {showOptionsIndustry && (
+              <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] sm:mr-4 mr-0 right-0 z-10'>
+                <ul>
+                  <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('All')}>All</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Healthcare')}>Healthcare</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Finance')}>Finance</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi-tech')}>Hi-tech</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Retail & e-Commerce')}>Retail & e-Commerce</li>
+                </ul>
+              </div>
+            )}
+          </div>
+          <div className="relative">
+            <button className='relative border border-[#707070] py-4 px-2 w-40 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
+              <span className="pr-5">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
+              <svg
+                className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
+                fill='none'
+                stroke='currentColor'
+                viewBox='0 0 24 24'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
+              </svg>
+            </button>
+            {showOptionsCategory && (
+              <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] right-0 z-10'>
+                <ul>
+                  <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('All')}>All</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('SAP')}>SAP</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Salesforce')}>Salesforce</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Real Estate')}>Real Estate</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Healthcare')}>Healthcare</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('AI')}>AI</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Cloud Migration')}>Cloud Migration</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Cloud Analytics')}>Cloud Analytics</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Yardi')}>Yardi</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Integration')}>Integration</li>
+                </ul>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div className="py-6"></div>
+
+      {filteredCaseStudyByCategory.length === 0 ? (
+        <p className='text-center text-xl py-4'>No Case Study Found</p>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
+          {filteredCaseStudyByCategory.slice(0, visibleCaseStudy).map((casestudy) => (
+            <CaseStudyCard key={casestudy.id} casestudy={casestudy} />
+          ))}
+        </div>
+      )}
+
+      {isLoadMoreVisible && (
+        <div className='w-full mx-auto text-center md:py-20 py-10'>
+          <button
+            type='button'
+            className={`border border-[#707070]  font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED] ${visibleCaseStudy >= filteredCaseStudyByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
+            onClick={loadMoreCaseStudy}
+            disabled={visibleCaseStudy >= filteredCaseStudyByCategory.length}
+          >
+            <span className='group-hover:pr-4 transition-all duration-300'>Load more</span>
+            <svg
+              className='w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
+            </svg>
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+const FeaturedCarousel = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const slides = [
+    {
+      imgSrc: '/images/case-studies/case-study-slider-thumb-1.webp',
+      category: 'Healthcare and Life Sciences',
+      date: '25 Oct 2024',
+      url: "/case-study-1",
+      title: 'Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
+      description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
+    },
+    {
+      imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
+      category: 'Healthcare and Life Sciences',
+      date: '25 Oct 2024',
+      url: "/case-study-4",
+      title: 'Digitizing patient journey using Salesforce health cloud',
+      description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
+    }
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  const nextSlideIndex = (currentSlide + 1) % slides.length;
+
+  return (
+    <section className="relative pb-16 bg-white">
+      <div className="container mx-auto pl-6">
+        <div className="flex flex-row justify-between md:mr-24 mr-0">
+          <h2 className="text-black mb-6">Latest Studies</h2>
+          <div className="flex">
+            <button className="bg-white p-2 mr-2 group transition-all duration-300" onClick={prevSlide}>
+              <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+                <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+              </svg>
+            </button>
+            <button className="bg-white p-2 group transition-all duration-300" onClick={nextSlide}>
+              <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+                <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div className="relative overflow-hidden flex">
+          <div className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] md:mr-12 sm:mr-6 group">
+            <div className="basis-full sm:basis-2/3 lg:basis-4/3">
+            <Link href={slides[currentSlide].url}>
+              <Image
+                src={slides[currentSlide].imgSrc}
+                alt={slides[currentSlide].title}
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                priority
+              />
+              </Link>
+            </div>
+            <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] sm:basis-2/3 py-4 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-4">
+              <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
+                <span className='text-[#0092E0]'>{slides[currentSlide].category}</span> <span className='text-[#ACACAC]'>|</span> {slides[currentSlide].date}
+              </div>
+              <Link href={slides[currentSlide].url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slides[currentSlide].title}</h3></Link>
+              <p>{slides[currentSlide].description}</p>
+            </div>
+          </div>
+          <div className="sm:basis-[5%] basis-[0%] basis-none">
+            <Image
+              src={slides[nextSlideIndex].imgSrc}
+              alt={slides[nextSlideIndex].title}
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              priority
+            />
+          </div>
+
+        </div>
+        <div className="flex justify-start mt-6 sm:mt-8">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              className={`w-3 h-1 md:px-8 px-4 mr-3 ${currentSlide === index ? 'bg-[#134874]' : 'bg-[#D1D1D1]'}`}
+              onClick={() => goToSlide(index)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+
+export default function Page() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Head>
+        <title>Case Study | Company Name</title>
+        <meta name="description" content="About our company" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+        <Image
+          src="/images/case-studies/case-study-header.webp"
+          alt="Case Study"
+          fill
+          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+          priority
+        />
+        <div
+          className="
+                                      container h-full relative
+                                      ml-[280px] w-[calc(100%-280px)] mr-0
+                               
+                                      xl:ml-[200px] xl:w-[calc(100%-200px)]
+                                      lg:ml-[150px] lg:w-[calc(100%-150px)]
+                                      md:ml-[100px] md:w-[calc(100%-100px)]
+                                      sm:mx-5 sm:w-[calc(100%-40px)]
+                                      xs:mx-4 xs:w-[calc(100%-32px)]"
+        >
+          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+            <h1 className="max-w-2xl text-white">Case Study</h1>
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="
+        container
+        ml-[280px] w-[calc(100%-280px)] mr-0
+        
+        xl:ml-[200px] xl:w-[calc(100%-200px)]
+        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+      >
+
+        <div className="md:py-10 py-6 bg-white">
+          <div className="container mx-auto px-6">
+            <p className="text-[#000000] py-6 max-w-4xl xl:w-1/2">Take a tour of our insights section to see our latest blogs, press releases, case studies, news coverage, updates and upcoming events.</p>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Latest Studies */}
+      <div
+        className="
+        container
+        ml-[280px] w-[calc(100%-280px)] mr-0
+        
+        xl:ml-[200px] xl:w-[calc(100%-200px)]
+        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+      >
+        <FeaturedCarousel />
+
+      </div>
+
+      {/* Latest Case Study Section */}
+      <div
+        className="
+        container
+        ml-[280px] w-[calc(100%-280px)] mr-0
+
+        xl:ml-[200px] xl:w-[calc(100%-200px)]
+        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+      >
+        <section className="pb-16 bg-white">
+
+          <CaseStudy />
+
+        </section>
+      </div>
+
+      {/* Latest Blogs */}
+      <div
+        className="
+        container
+        ml-[280px] w-[calc(100%-280px)] mr-0
+        
+        xl:ml-[200px] xl:w-[calc(100%-200px)]
+        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+      >
+        <BlogsCarousel />
+
+      </div>
+    </div>
+  );
+}
