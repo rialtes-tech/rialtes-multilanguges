@@ -5,6 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
 import BlogsCarousel from '../components/latestBlogCarousel';
+import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel';
+
 const latestCaseStudy = [
   {
     id: 1,
@@ -264,10 +267,9 @@ const CaseStudy = () => {
 };
 
 const FeaturedCarousel = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
   const slides = [
     {
+      id: 1,
       imgSrc: '/images/case-studies/case-study-slider-thumb-1.webp',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
@@ -276,6 +278,7 @@ const FeaturedCarousel = () => {
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
     {
+      id: 2,
       imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
@@ -284,46 +287,95 @@ const FeaturedCarousel = () => {
       description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
     }
   ];
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      partialVisibilityGutter: 100,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 575 },
+      items: 1,
+      centerMode: true,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1,
+      centerMode: true,
+    },
   };
 
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  const ButtonGroup = ({ next, previous, ...rest }) => {
+    const { carouselState: { currentSlide } } = rest;
+    return (
+      <div className="flex carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+            <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+          </svg>
+        </button>
+        <button className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+            <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+          </svg>
+        </button>
+      </div>
+    );
   };
 
-  const goToSlide = (index) => {
-    setCurrentSlide(index);
+  const CustomDot = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      index,
+      active,
+      carouselState: { currentSlide, deviceType }
+    } = rest;
+    return (
+      <button
+        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+        onClick={() => onClick()}
+      />
+    );
   };
-
-  const nextSlideIndex = (currentSlide + 1) % slides.length;
 
   return (
-    <section className="relative pb-16 bg-white">
+    <section className="relative pb-10 bg-white">
       <div className="container mx-auto pl-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Latest Studies</h2>
-          <div className="flex">
-            <button className="bg-white p-2 mr-2 group transition-all duration-300" onClick={prevSlide}>
-              <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-                <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
-              </svg>
-            </button>
-            <button className="bg-white p-2 group transition-all duration-300" onClick={nextSlide}>
-              <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-                <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
-              </svg>
-            </button>
-          </div>
+          <h2 className="text-black mb-6">Latest Blogs</h2>
         </div>
-        <div className="relative overflow-hidden flex">
-          <div className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] md:mr-12 sm:mr-6 group">
+        <Carousel
+          swipeable={true}
+          draggable={true}
+          showDots={true}
+          responsive={responsive}
+          ssr={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          keyBoardControl={true}
+          customTransition="all .5s"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          itemClass="carousel-item-padding-40-px"
+          partialVisible={true}
+          arrows={false}
+          renderButtonGroupOutside={true}
+          customButtonGroup={<ButtonGroup />}
+          renderDotsOutside={true}
+          customDot={<CustomDot />}
+        >
+          {slides.map((slide) => (
+            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] md:mr-12 sm:mr-6 group">
             <div className="basis-full sm:basis-2/3 lg:basis-4/3">
-            <Link href={slides[currentSlide].url}>
+            <Link href={slide.url}>
               <Image
-                src={slides[currentSlide].imgSrc}
-                alt={slides[currentSlide].title}
+                src={slide.imgSrc}
+                alt={slide.title}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -334,39 +386,18 @@ const FeaturedCarousel = () => {
             </div>
             <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] sm:basis-2/3 py-4 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-4">
               <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
-                <span className='text-[#0092E0]'>{slides[currentSlide].category}</span> <span className='text-[#ACACAC]'>|</span> {slides[currentSlide].date}
+                <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
               </div>
-              <Link href={slides[currentSlide].url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slides[currentSlide].title}</h3></Link>
-              <p>{slides[currentSlide].description}</p>
+              <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
+              <p>{slide.description}</p>
             </div>
           </div>
-          <div className="sm:basis-[5%] basis-[0%] basis-none">
-            <Image
-              src={slides[nextSlideIndex].imgSrc}
-              alt={slides[nextSlideIndex].title}
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              priority
-            />
-          </div>
-
-        </div>
-        <div className="flex justify-start mt-6 sm:mt-8">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              className={`w-3 h-1 md:px-8 px-4 mr-3 ${currentSlide === index ? 'bg-[#134874]' : 'bg-[#D1D1D1]'}`}
-              onClick={() => goToSlide(index)}
-            />
           ))}
-        </div>
+        </Carousel>
       </div>
     </section>
   );
-};
-
+}
 
 export default function Page() {
   return (
@@ -416,7 +447,7 @@ export default function Page() {
 
         <div className="md:py-10 py-6 bg-white">
           <div className="container mx-auto px-6">
-            <p className="text-[#000000] py-6 max-w-4xl xl:w-1/2">Take a tour of our insights section to see our latest blogs, press releases, case studies, news coverage, updates and upcoming events.</p>
+            <p className="text-[#000000] py-6 max-w-4xl xl:max-w-2xl">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
           </div>
         </div>
       </section>
@@ -450,7 +481,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="pb-16 bg-white">
+        <section className="py-16 bg-white">
 
           <CaseStudy />
 

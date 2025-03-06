@@ -3,116 +3,137 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from 'react';
+import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel';
+
 
 const latestBlogs = [
   {
     id: 1,
     image: "images/blog/blog-1.webp",
-    category: "SAP",
-    industry: "Retail & e-Commerce",
-    date: "25 Oct 2024",
-    title: "Mastering Time and Attendance Management with SAP SuccessFactors",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "30 Sept 2024",
+    title: "How Salesforce Agentforce Actually Works",
+    description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
   },
   {
     id: 2,
     image: "images/blog/blog-2.webp",
-    category: "Salesforce",
-    industry: "Hi-tech",
-    date: "25 Oct 2024",
-    title: "Committing to a Greener Planet: Why We’re Pledging to 1t.org’s One Trillion Trees Initiative",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "21 Oct 2024",
+    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
   },
   {
     id: 3,
     image: "images/blog/blog-3.webp",
-    category: "Integration",
-    industry: "Real Estate",
-    date: "25 Oct 2024",
-    title: "Optimizing Healthcare Operations with KIPU EMR Integration and Salesforce",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "28 Oct 2024",
+    title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
   },
   {
     id: 4,
     image: "images/blog/blog-4.webp",
-    category: "AI",
-    industry: "Healthcare",
-    date: "25 Oct 2024",
-    title: "Maximize Business Potential with Integration of SAP S/4HANA with SAP Business Technology Platform (BTP)",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "25 Nov 2024",
+    title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+    description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
   },
   {
     id: 5,
     image: "images/blog/blog-5.webp",
-    category: "Cloud Migration",
-    industry: "Finance",
-    date: "25 Oct 2024",
-    title: "From Insights to Action: Leveraging Salesforce Data Cloud for 360° Customer Views",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "SAP SuccessFactors",
+    industry: "Human Resources",
+    date: "24 Dec 2024",
+    title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+    description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
   },
-  {
+  /* {
     id: 6,
     image: "images/blog/blog-6.webp",
-    category: "Cloud Analytics",
-    industry: "Manufacturing",
-    date: "25 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Cloud Green Technology",
+    industry: "Agriculture",
+    date: "17 Sept 2024",
+    title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+    description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
   },
   {
     id: 7,
     image: "images/blog/blog-7.webp",
-    category: "SAP",
-    industry: "Retail & e-Commerce",
-    date: "25 Oct 2024",
-    title: "Mastering Time and Attendance Management with SAP SuccessFactors",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "SAP SuccessFactors",
+    industry: "Human Resources",
+    date: "29 Oct 2024",
+    title: "SAP SuccessFactors Performance and Goal Management",
+    description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
   {
     id: 8,
     image: "images/blog/blog-8.webp",
-    category: "Salesforce",
-    industry: "Hi-tech",
-    date: "25 Oct 2024",
-    title: "Committing to a Greener Planet: Why We’re Pledging to 1t.org’s One Trillion Trees Initiative",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    category: "Integration",
+    industry: "Healthcare",
+    date: "11 Nov 2024",
+    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
+    description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
   },
   {
     id: 9,
     image: "images/blog/blog-9.webp",
-    category: "Integration",
-    industry: "Real Estate",
-    date: "25 Oct 2024",
-    title: "Optimizing Healthcare Operations with KIPU EMR Integration and Salesforce",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Diversity & Inclusion",
+    industry: "Human Resources",
+    date: "12 Nov 2024",
+    title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
+    description: "Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success.",
   },
   {
     id: 10,
     image: "images/blog/blog-10.webp",
-    category: "AI",
-    industry: "Healthcare",
-    date: "25 Oct 2024",
-    title: "Maximize Business Potential with Integration of SAP S/4HANA with SAP Business Technology Platform (BTP)",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "SAP GTS",
+    industry: "Generic",
+    date: "19 Dec 2024",
+    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+    description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
   },
   {
     id: 11,
     image: "images/blog/blog-11.webp",
-    category: "Cloud Migration",
-    industry: "Finance",
-    date: "25 Oct 2024",
-    title: "From Insights to Action: Leveraging Salesforce Data Cloud for 360° Customer Views",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "30 Dec 2024",
+    title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
+    description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
   },
   {
     id: 12,
     image: "images/blog/blog-12.webp",
-    category: "Cloud Analytics",
-    industry: "Manufacturing",
-    date: "25 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "13 Jan 2025",
+    title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
+    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
   },
+  {
+    id: 13,
+    image: "images/blog/blog-12.webp",
+    category: "SAP SuccessFactors",
+    industry: "Human Resources",
+    date: "21 Jan 2025",
+    title: "How SAP SuccessFactors Enhances Remote Work Management",
+    description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
+  },
+  {
+    id: 14,
+    image: "images/blog/blog-12.webp",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "03 Feb 2025",
+    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
+    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
+  }, */
   // Add more blog objects as needed
 ];
 
@@ -198,12 +219,15 @@ const BlogList = () => {
               <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] sm:mr-4 mr-0 right-0'>
                 <ul>
                   <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('All')}>All</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Healthcare')}>Healthcare</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Real Estate')}>Real Estate</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Manufacturing')}>Manufacturing</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Agriculture')}>Agriculture</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Finance')}>Finance</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Generic')}>Generic</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Healthcare')}>Healthcare</li>
                   <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Hi-tech')}>Hi-tech</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Retail & e-Commerce')}>Retail & e-Commerce</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Human Resources')}>Human Resources</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Manufacturing')}>Manufacturing</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Public Sector')}>Public Sector</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Retail & Ecommerce')}>Retail & Ecommerce</li>
                 </ul>
               </div>
             )}
@@ -225,15 +249,19 @@ const BlogList = () => {
               <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] right-0'>
                 <ul>
                   <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterBlogsByCategory('All')}>All</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP')}>SAP</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce')}>Salesforce</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Real Estate')}>Real Estate</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Healthcare')}>Healthcare</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('AI')}>AI</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Cloud Migration')}>Cloud Migration</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Cloud Analytics')}>Cloud Analytics</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Yardi')}>Yardi</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Integration')}>Integration</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Diversity & Inclusion')}>Diversity & Inclusion</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Green Technology')}>Green Technology</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Grow with SAP')}>Grow with SAP</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Integration')}>Integration</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Rise with SAP')}>Rise with SAP</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce Agentforce')}>Salesforce Agentforce</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce Data Cloud')}>Salesforce Data Cloud</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce Health Cloud')}>Salesforce Health Cloud</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce MuleSoft')}>Salesforce MuleSoft</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP BTP')}>SAP BTP</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP GTS')}>SAP GTS</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP S/4HANA')}>SAP S/4HANA</li>
+                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP SuccessFactors')}>SAP SuccessFactors</li>
                 </ul>
               </div>
             )}
@@ -279,108 +307,136 @@ const BlogList = () => {
   );
 };
 
-
 const FeaturedCarousel = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
   const slides = [
     {
-      imgSrc: '/images/blog/slider-blog-1.webp',
-      category: 'Data Cloud',
-      date: 'January 30, 2025',
-      title: 'The Data Cloud Trinity: How Unification, Insights, and Activation Drive Smarter Business Decisions',
-      description: 'Salesforce Data Cloud is a transformative tool that streamlines data for businesses. Unifying data from various sources creates a real-time view of customers, enabling smarter decisions,'
+      id: 1,
+      imgSrc: "/images/blog/blog-1-thumb.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "30 Sept 2024",
+      title: "How Salesforce Agentforce Actually Works",
+      description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
     },
     {
-      imgSrc: '/images/blog/slider-blog-2.webp',
-      category: 'Agentforce',
-      date: 'February 3, 2025',
-      title: 'Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)',
-      description: 'Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy.'
-    }
+      id: 2,
+      imgSrc: "/images/blog/blog-2-thumb.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "21 Oct 2024",
+      title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+      description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
+    },
   ];
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      partialVisibilityGutter: 100,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 575 },
+      items: 1,
+      centerMode: true,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1,
+      centerMode: true,
+    },
   };
 
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  const ButtonGroup = ({ next, previous, ...rest }) => {
+    const { carouselState: { currentSlide } } = rest;
+    return (
+      <div className="flex carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+            <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+          </svg>
+        </button>
+        <button className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+            <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+          </svg>
+        </button>
+      </div>
+    );
   };
 
-  const goToSlide = (index) => {
-    setCurrentSlide(index);
+  const CustomDot = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      index,
+      active,
+      carouselState: { currentSlide, deviceType }
+    } = rest;
+    return (
+      <button
+        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+        onClick={() => onClick()}
+      />
+    );
   };
-
-  const nextSlideIndex = (currentSlide + 1) % slides.length;
 
   return (
-    <section className="relative pb-16 bg-white">
+    <section className="relative pb-10 bg-white">
       <div className="container mx-auto pl-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Featured</h2>
-          <div className="flex">
-            <button className="bg-white p-2 mr-2 group transition-all duration-300" onClick={prevSlide}>
-              <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-                <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
-              </svg>
-            </button>
-            <button className="bg-white p-2 group transition-all duration-300" onClick={nextSlide}>
-              <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-                <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
-              </svg>
-            </button>
-          </div>
+          <h2 className="text-black mb-6">Latest Blogs</h2>
         </div>
-        <div className="relative overflow-hidden flex">
-          <div className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] md:mr-4 sm:mr-2 group">
-            <div className="basis-full sm:basis-2/3 lg:basis-4/3">
-              <Image
-                src={slides[currentSlide].imgSrc}
-                alt={slides[currentSlide].title}
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                priority
-              />
-            </div>
-            <div className="flex flex-col basis-full sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-0 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
-              <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
-                <span className='text-[#0092E0]'>{slides[currentSlide].category}</span> <span className='text-[#ACACAC]'>|</span> {slides[currentSlide].date}
+        <Carousel
+          swipeable={true}
+          draggable={true}
+          showDots={true}
+          responsive={responsive}
+          ssr={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          keyBoardControl={true}
+          customTransition="all .5s"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          itemClass="carousel-item-padding-40-px"
+          partialVisible={true}
+          arrows={false}
+          renderButtonGroupOutside={true}
+          customButtonGroup={<ButtonGroup />}
+          renderDotsOutside={true}
+          customDot={<CustomDot />}
+        >
+          {slides.map((slide) => (
+            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group">
+              <div className="basis-full sm:basis-2/3 lg:basis-4/3">
+                <Image
+                  src={slide.imgSrc}
+                  alt={slide.title}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  priority
+                />
               </div>
-              <h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slides[currentSlide].title}</h3>
-              <p>{slides[currentSlide].description}</p>
+              <div className="flex flex-col basis-full sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-0 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
+                  <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
+                </div>
+                <h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3>
+                <p>{slide.description}</p>
+              </div>
             </div>
-          </div>
-          <div className="sm:basis-[5%] basis-[0%] basis-none">
-            <Image
-              src={slides[nextSlideIndex].imgSrc}
-              alt={slides[nextSlideIndex].title}
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              priority
-            />
-          </div>
-
-        </div>
-        <div className="flex justify-start mt-6 sm:mt-8">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              className={`w-3 h-1 md:px-8 px-4 mr-3 ${currentSlide === index ? 'bg-[#134874]' : 'bg-[#D1D1D1]'}`}
-              onClick={() => goToSlide(index)}
-            />
           ))}
-        </div>
+        </Carousel>
       </div>
     </section>
   );
-};
-
-
+}
 
 
 export default function Page() {
@@ -432,7 +488,7 @@ export default function Page() {
 
         <div className="md:py-10 py-6 bg-white">
           <div className="container mx-auto px-6">
-            <p className="text-[#000000] py-6 sm:max-w-4xl xl:w-1/2">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            <p className="text-[#000000] py-6 sm:max-w-4xl xl:max-w-6xl">Stay ahead in the digital transformation journey with expert insights from Rialtes. Our blog covers the latest trends, best practices, and innovations in SAP, Salesforce, AI, and enterprise technology.</p>
           </div>
         </div>
       </section>

@@ -114,7 +114,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto px-6">
-            <h1 className="text-[#000000] py-6 max-w-4xl xl:w-3/2">Omnichannel case management with Salesforce Service Cloud</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">Omnichannel case management with Salesforce Service Cloud</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto px-6">
@@ -172,7 +172,7 @@ export default function Page() {
 
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
               <p className="text-black">A leading provider of high-performance analog semiconductors for wireless and wired connectivity. Their core products include amplifiers, filters, switches, and integrated modules that enable efficient wireless transmission. Beyond being a major supplier for smartphones, their innovative technology is also used in wireless routers, medical devices, automobiles, and a growing list of applications. </p>
 
@@ -210,7 +210,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
 
               <p className="text-black pb-6">Single point of contact which allowed streamlined customer support across all channels (internal, external). </p>

@@ -114,7 +114,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto px-6">
-            <h1 className="text-[#000000] py-6 max-w-4xl xl:w-3/2">Salesforce Health Cloud, Prior Authorization</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">Salesforce Health Cloud, Prior Authorization</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto px-6">
@@ -172,7 +172,7 @@ export default function Page() {
 
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
 
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
@@ -210,7 +210,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
 
 

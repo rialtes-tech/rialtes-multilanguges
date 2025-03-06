@@ -126,6 +126,7 @@ export default function Contact() {
                 ))}
             </div>
             <ContactForm />
+            <div className="pb-6"></div>
         </div>
     )
 }

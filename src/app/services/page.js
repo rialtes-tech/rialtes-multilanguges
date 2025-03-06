@@ -73,7 +73,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black xl:pr-96 md:pr-20">
+    <div className="container mx-auto px-6 text-black xl:pr-80 md:pr-20">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
