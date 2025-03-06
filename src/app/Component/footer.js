@@ -45,6 +45,7 @@ const Footer = () => {
                         className="w-40 h-32"
                         alt="Company Logo"
                         loading="lazy"
+                        href='/'
                     />
                     <div className="xl:mt-10">
                         <h3><span className="text-lg lg:text-2xl">Simplifying</span> <span className="opacity-50 text-lg lg:text-2xl">Problems</span></h3>
@@ -56,9 +57,9 @@ const Footer = () => {
                     {/* Links Section */}
                     <div className="flex  md:gap-5 gap-5   xl:justify-start mt-5 lg:mt-0 xl:mt-10">
                         <div className="opacity-60">
-                            <Link href="/about">About Us</Link>
+                            <Link href="/about-us">About Us</Link>
                             <p className="mt-3"><Link href="/service">Services</Link></p>
-                            <p className="mt-3"><Link href="/industries">Industries</Link></p>
+                            <p className="mt-3"><Link href="/industry">Industries</Link></p>
                             <p className="mt-3"><Link href="/insights">Insights</Link></p>
                             <p className="mt-3"><Link href="/contact-us">Contact Us</Link></p>
                         </div>
@@ -75,7 +76,7 @@ const Footer = () => {
                     {/* Social Media Links (for both mobile and desktop) */}
                     <div className="flex flex-row xl:flex-col md:flex-col gap-3 sm:gap-5 lg:justify-start xl:mt-10">
                         <div className="mt-3">
-                            <Link href="/link" title="Visit our LinkedIn">
+                            <Link href="https://www.linkedin.com/company/rialtes-technologies-llc/" title="Visit our LinkedIn">
                                 <Image className="h-8 w-10" alt="linkedin" src="/images/homepage/Asset5.svg" height={100} width={100} />
                             </Link>
                         </div>
@@ -85,17 +86,17 @@ const Footer = () => {
                             </Link>
                         </div>
                         <div className="mt-3">
-                            <Link href="/twitter" title="Follow us on Twitter">
+                            <Link href="https://x.com/Rialtestech" title="Follow us on Twitter">
                                 <Image className="h-8 w-10" alt="twitter" src="/images/homepage/Asset2.svg" height={100} width={100} />
                             </Link>
                         </div>
                         <div className="mt-3">
-                            <Link href="/twitter" title="Follow us on Twitter">
+                            <Link href="https://www.instagram.com/rialtes_technologies/" title="Follow us on Twitter">
                                 <Image className="h-8 w-10" alt="twitter" src="/images/homepage/Asset3.svg" height={100} width={100} />
                             </Link>
                         </div>
                         <div className="mt-3">
-                            <Link href="/twitter" title="Follow us on Twitter">
+                            <Link href="https://www.youtube.com/@rialtes" title="Follow us on Twitter">
                                 <Image className="h-8 w-10" alt="twitter" src="/images/homepage/Asset4.svg" height={100} width={100} />
                             </Link>
                         </div>

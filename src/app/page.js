@@ -5,7 +5,7 @@ import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import ContactForm from '../app/Component/contactForm';
+import ContactForm from '../app/components/contactform';
 import Seo from './Component/Seo';
 
 const CustomArrow = ({ onClick, arrowType }) => {
@@ -270,52 +270,60 @@ const Home = () => {
       />
       {/* main slider */}
       <section>
-        <ResponsiveCarousel autoPlay={true} renderIndicator={renderIndicator}>
-          <div>
+        <ResponsiveCarousel autoPlay={false} renderIndicator={renderIndicator}>
+          <div className='relative'>
             <Image width={0}
               height={0}
               sizes="100vw"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-              priority className='relative w-full' alt='demo' src='/images/homepage/Asset1.webp' />
-              <h2 className='absolute text-white md:text-3xl xl:mt-20 xl:text-[42px] xl:top-[16rem] md:top-[6rem] md:left-[7rem]  top-[1rem] xl:left-[17rem] pl-5 xl:p-0 md:pl-0 lg:ml-[15px]'>AI-Powered Insights for</h2>
-            <h4 className='absolute  text-white text-[16px] lg:mt-20 md:text-2lg xl:text-[40px] xl:top-[18.25rem] md:top-[8rem] md:left-[8rem] left-[23px]  top-[3rem] xl:left-[24rem] xl:mt-2'>Smarter Customer Engagement</h4>
 
-            <h3 className='absolute text-white xl:top-[35.25rem] xl:text-2lg text-sm md:left-[7rem] md:top-[16rem] lg:top-[21rem] xl:left-[17rem] top-[6rem] left-[2rem]'>Know More</h3>
-          </div>
-          <div>
-            <Image width={0}
-              height={0}
-              sizes="100vw"
               style={{
                 width: "100%",
-                height: "100%",
                 objectFit: "cover",
-              }}
-              priority className='relative w-full' alt='demo' src='/images/homepage/Asset2.webp' />
-            <h4 className='absolute text-black md:text-3xl xl:text-[42px] xl:top-[16rem] md:top-[6rem] md:left-[7rem]  top-[1rem] xl:left-[17rem] pl-5 xl:p-0 md:pl-0 lg:ml-[15px]'>Your Complete Path to</h4>
-            <h2 className='absolute  text-black md:text-2xl  text-[18px] xl:text-[40px] xl:top-[18.25rem] md:top-[8rem] left-[23px] md:left-[8rem]  top-[3rem] xl:left-[24rem] xl:mt-2'>Scalable and Intelligent ERP  </h2>
-            <h3 className='absolute text-black xl:top-[35.25rem] xl:text-2xl text-sm  md:left-[7rem] md:top-[16rem] lg:top-[21rem]  xl:left-[17rem] top-[5rem] left-[2rem]'>Know More</h3>
-          </div>
-          <div>
-            <Image width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-              priority className='relative w-full' alt='demo' src='/images/homepage/Asset3.webp' />
-              <div className='text-white'>
-              <h4 className='absolute md:text-3xl xl:text-[42px] xl:top-[16rem] md:top-[6rem] md:left-[7rem]  top-[1rem] xl:left-[17rem] xl:p-0 pl-5 md:pl-0 lg:ml-[15px]'>Streamline HR processes   </h4>
-            <h2 className='absolute   text-[18px] md:text-2xl xl:text-[40px] xl:top-[18.25rem] md:top-[8rem] md:left-[8rem] left-[23px]  top-[3rem] xl:left-[24rem] xl:mt-2'>for the Modern Workspace</h2>
-            <h3 className='absolute  xl:top-[35.25rem] xl:text-2xl text-sm md:left-[7rem] md:top-[16rem] lg:top-[21rem]   xl:left-[17rem] top-[5rem] left-[2rem]'>Know More</h3>
 
-              </div>
+              }}
+              priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed' alt='demo' src='/images/homepage/Asset1.webp' />
+            <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+              <h2 >AI-Powered Insights for</h2>
+              <h3 className='xl:left-20 absolute'>Smarter Customer Engagement</h3>
+
+            </div>
+            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
+
+          </div>
+          <div className='relative'>
+            <Image width={0}
+              height={0}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                objectFit: "cover",
+              }}
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/Asset2.webp' />
+
+            <div className='absolute text-black top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+              <h2>Your Complete Path to</h2>
+              <h3 className='xl:left-20 absolute'>Scalable and Intelligent ERP</h3>
+
+            </div>
+            <h4 className='bottom-[15%] absolute text-black xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
+          </div>
+          <div className='relative'>
+            <Image width={0}
+              height={0}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                objectFit: "cover",
+              }}
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/Asset3.webp' />
+
+            <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+              <h2>Streamline HR processes</h2>
+              <h3 className='xl:left-20 absolute'>for the Modern Workspace</h3>
+
+            </div>
+            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
+
           </div>
         </ResponsiveCarousel>
       </section>
@@ -379,10 +387,13 @@ const Home = () => {
       {/* shaping our services section */}
       <section>
         <div className='grid xl:grid-cols-4 grid-cols-1 mx-6 xl:mx-[280px] md:mx-[100px]  xl:mr-0 mt-20'>
-          <h2 className='xl:col-span-2'>Shaping Tomorrow with Our Services</h2>
+          <div className='col-span-2'>
+            <h2 >Shaping Tomorrow with </h2>
+            <h2>Our Services</h2>
+          </div>
           <p className='xl:col-span-1'>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
         </div>
-        <div className='grid gap-5 xl:ml-[280px] md:ml-[100px]  mx-6 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-5'>
+        <div className='grid gap-5 xl:ml-[280px] md:ml-[100px]  mx-6 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10'>
           {ourServices.map((service) => {
             return (
               <div key={service.id} className='relative group overflow-hidden'>
@@ -405,9 +416,9 @@ const Home = () => {
             {industryData.map((industry, index) => {
               const showDivider = [1, 2, 4, 5].includes(index);
               return (
-                <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-80'}`}>
+                <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}>
                   <div
-                    className={`group hover:bg-white transition-all duration-300 h-[325px] relative xl:p-12 md:p-2 p-3`}
+                    className={`group hover:bg-white transition-all duration-300 h-[400px] relative xl:p-12 md:p-2 p-3`}
                   >
                     <h3 className="font-bold">{industry.title}</h3>
                     <p className="mt-3">{industry.description}</p>
@@ -436,10 +447,8 @@ const Home = () => {
         <Carousel
           swipeable={true}
           draggable={false}
-          showDots={true}
           ref={carouselRefInsites}
           responsive={responsive}
-          customDot={<CustomDot />}
           ssr={true}
           infinite={true}
           autoPlay={false}
@@ -500,7 +509,10 @@ const Home = () => {
         </div>
       </section>
       {/* //form section */}
-      <ContactForm />
+      <section className='mt-20 xl:mx-[280px] md:mx-[100px]  mx-6 pb-16'>
+        <ContactForm />
+
+      </section>
 
     </section>
 
