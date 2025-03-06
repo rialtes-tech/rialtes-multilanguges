@@ -270,7 +270,7 @@ const Home = () => {
       />
       {/* main slider */}
       <section>
-        <ResponsiveCarousel autoPlay={false} renderIndicator={renderIndicator}>
+        <ResponsiveCarousel autoPlay={true} renderIndicator={renderIndicator}>
           <div className='relative'>
             <Image width={0}
               height={0}
@@ -330,8 +330,8 @@ const Home = () => {
       {/* success stories section */}
       <section className='xl:mt-20 mx-6 xl:mx-[280px] md:mx-[100px] md:mr-0 xl:mr-0'>
         <div className='items-center grid xl:grid-cols-3 grid-cols-1'>
-          <h2>Success Stories</h2>
-          <p>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
+          <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Success Stories</h2>
+          <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
           <div className='justify-center gap-10 hidden xl:flex'>
             <CustomArrow arrowType="prev" onClick={goToPrevious} />
             <CustomArrow arrowType="next" onClick={goToNext} />
@@ -343,7 +343,7 @@ const Home = () => {
           responsive={responsive}
           ssr={true}
           infinite={true}
-          autoPlay={false}
+          autoPlay={true}
           autoPlaySpeed={2000}
           keyBoardControl={true}
           itemClass="carousel-item-padding-40-px"
@@ -388,10 +388,10 @@ const Home = () => {
       <section>
         <div className='grid xl:grid-cols-4 grid-cols-1 mx-6 xl:mx-[280px] md:mx-[100px]  xl:mr-0 mt-20'>
           <div className='col-span-2'>
-            <h2 >Shaping Tomorrow with </h2>
-            <h2>Our Services</h2>
+            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Shaping Tomorrow with </h2>
+            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Our Services</h2>
           </div>
-          <p className='xl:col-span-1'>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
+          <p className='xl:col-span-1 mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5'>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
         </div>
         <div className='grid gap-5 xl:ml-[280px] md:ml-[100px]  mx-6 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10'>
           {ourServices.map((service) => {
@@ -408,8 +408,11 @@ const Home = () => {
       {/* industries experties section section*/}
       <section>
         <div className='bg-[#EFEFEF] mt-20 xl:pb-28'>
-          <div className='grid xl:grid-cols-2 gap-10 grid-cols-1 xl:mx-[280px] md:mx-[100px]  mx-6 pt-10'>
-            <h2>Industry Expertise and Solutions</h2>
+          <div className='grid xl:grid-cols-2 gap-10 grid-cols-1 xl:ml-[280px] md:mx-[100px]  mx-6 pt-10'>
+            <div>
+            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Industry Expertise </h2>
+            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>and Solutions</h2>
+            </div>
             <p>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
           </div>
           <div className='grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:ml-[230px] md:ml-[100px] px-6 mt-16 sm:px-0'>
@@ -418,10 +421,10 @@ const Home = () => {
               return (
                 <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}>
                   <div
-                    className={`group hover:bg-white transition-all duration-300 h-[400px] relative xl:p-12 md:p-2 p-3`}
+                    className={`group hover:bg-white transition-all duration-300 h-[400px] relative xl:p-10 md:p-2 p-3`}
                   >
                     <h3 className="font-bold">{industry.title}</h3>
-                    <p className="mt-3">{industry.description}</p>
+                    <p className="mt-3 text-[15px]">{industry.description}</p>
                     <p className="text-[#0092E0] font-bold mt-5 cursor-pointer">
                       {industry.knowMore}
                       <span className="ml-2 text-[#0092E0] transform translate-x-0 group-hover:translate-x-1 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -451,7 +454,7 @@ const Home = () => {
           responsive={responsive}
           ssr={true}
           infinite={true}
-          autoPlay={false}
+          autoPlay={true}
           autoPlaySpeed={2000}
           keyBoardControl={true}
           itemClass="carousel-item-padding-40-px "
@@ -485,25 +488,25 @@ const Home = () => {
       {/*life science section */}
       <section className='xl:mt-40 mt-5 relative'>
         <div className='group overflow-hidden'>
-          <div className='w-full'>
-            <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full xl:h-[350px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/lifesci.png' />
+          <div>
+            <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full h-full hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/lifesci.png' />
           </div>
         </div>
-        <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[28%] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
+        <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
           <h2>Life Science</h2>
           <p className='mt-5'>Rialtes is committed to driving innovation in healthcare technology to empower medical professionals with the tools they need to improve patient care. We have helped Healthcare providers tackle their unique challenges and build a healthier future through Salesforce.</p>
-          <p className='mt-8'>Learn More</p>
+          <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
         </div>
       </section>
 
       {/* life at rialtes section */}
-      <section className='xl:mt-20 xl:mx-[280px] md:mx-[100px]  mx-6'>
-        <div className='flex gap-10 xl:flex-row flex-col'>
-          <div>
+      <section className='xl:mt-20 xl:mx-[280px] md:mx-[100px] md:mt-20 mt-10  mx-6'>
+        <div className='flex gap-16 xl:flex-row flex-col'>
+          <div className='xl:w-1/2'>
             <h2>Life at Rialtes</h2>
             <p className='mt-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
           </div>
-          <div className='relative group overflow-hidden'>
+          <div className='relative group overflow-hidden xl:w-1/2'>
             <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/lifeat.png' />
           </div>
         </div>

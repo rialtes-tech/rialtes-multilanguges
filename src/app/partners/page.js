@@ -149,7 +149,7 @@ export default function Contact() {
                 description="Welcome to the Rialtes On partners page"
                 keywords="Partners, website, welcome"
             />
-            <div>
+            <div className="relative">
                 <Image
                     src="/images/partners/Partners.webp"
                     alt="Leadership Team"
@@ -163,7 +163,7 @@ export default function Contact() {
                     }}
                     priority
                 />
-                <div className="absolute xl:px-[280px] lg:px-[100px]  md:px-[100px] px-6 top-[13%]  lg:text-start xl:top-[50%] md:top-[40%] text-white">
+                <div className="absolute xl:px-[280px] lg:px-[100px]  md:px-[100px] px-6 top-[13%]  lg:text-start xl:top-[35%] md:top-[40%] text-white">
                     <h3 className="font-bold">Our Partners</h3>
                     <h1>Global Alliances</h1>
                 </div>

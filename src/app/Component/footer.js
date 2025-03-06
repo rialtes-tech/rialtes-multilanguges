@@ -74,7 +74,7 @@ const Footer = () => {
                     </div>
 
                     {/* Social Media Links (for both mobile and desktop) */}
-                    <div className="flex flex-row xl:flex-col md:flex-col gap-3 sm:gap-5 lg:justify-start xl:mt-10">
+                    <div className="flex flex-row xl:flex-col md:flex-col lg:justify-start xl:mt-10">
                         <div className="mt-3">
                             <Link href="https://www.linkedin.com/company/rialtes-technologies-llc/" title="Visit our LinkedIn">
                                 <Image className="h-8 w-10" alt="linkedin" src="/images/homepage/Asset5.svg" height={100} width={100} />
@@ -109,7 +109,7 @@ const Footer = () => {
             {isVisible && (
                 <div
                     onClick={scrollToTop}
-                    className="fixed bottom-4 right-4 h-10 w-10 flex justify-center items-center p-2 rounded-full shadow-md border border-gray-300 cursor-pointer"
+                    className="fixed bottom-4 right-4 h-10 w-10 flex justify-center items-center p-2 rounded-full shadow-md text-blue-600 border border-blue-300 cursor-pointer"
                 >
                     ^
                 </div>

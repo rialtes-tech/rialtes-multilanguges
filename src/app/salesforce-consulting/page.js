@@ -381,7 +381,7 @@ export default function SalesForceConsulting() {
             <section className='xl:mt-40 relative'>
                 <div className='group overflow-hidden'>
                     <div className='w-full'>
-                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:h-[350px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting/doc.png' />
+                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:h-[350px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting-services/agentforceb.png' />
                     </div>
                 </div>
                 <div className='bg-[#134874] hidden xl:block absolute p-10 text-white lg:w-[28%] lg:right-[20rem] lg:top-[-3rem] top-[392px]'>
@@ -390,9 +390,11 @@ export default function SalesForceConsulting() {
                     <p className='mt-8'>Learn More <span> &#8594;</span></p>
                 </div>
             </section>
+<section className="pb-20">
+<ContactForm />
 
+</section>
             {/* contact section */}
-            <ContactForm />
 
         </div>
     )

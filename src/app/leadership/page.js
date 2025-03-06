@@ -66,7 +66,7 @@ export default function Leadership() {
                 description="Welcome to the Rialtes On Leadership page"
                 keywords="Leadership, website, welcome"
             />
-            <div>
+            <div className="relative">
                 <Image
                     src="/images/about-us/leadership-thumb.webp"
                     alt="Leadership Team"
@@ -80,7 +80,7 @@ export default function Leadership() {
                     }}
                     priority
                 />
-                <div className="absolute xl:px-[280px] md:px-[100px] px-6 top-[5%]  lg:text-start xl:top-[35%] md:top-[20%] text-white">
+                <div className="absolute xl:px-[280px] md:px-[100px] px-6 top-[5%]  lg:text-start xl:top-[35%] md:top-[20%] text-white z-20">
                     <h3 className="font-bold">Meet our</h3>
                     <h1>Leadership Team</h1>
                     <p className="lg:mt-5">To know the people behind Rialtes who lead </p>

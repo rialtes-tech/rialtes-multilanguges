@@ -65,7 +65,7 @@ export default function HealthCloud() {
         <section>
             <div className='relative group overflow-hidden'>
                 <Image
-                    src="/images/salesforce-consulting-services/health-banner.png"
+                    src="/images/salesforce-consulting-services/AdobeStock_493462153_Preview.png"
                     alt="Salesforce Consulting Team"
                     className="transform transition-transform duration-500 group-hover:scale-110 h-[270px] lg:h-[650px] object-cover md:h-full xl:h-full"
                     width={0}
@@ -193,7 +193,10 @@ export default function HealthCloud() {
             <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10'>
                 <ExploreMoreCarousel />
             </section>
+            <section className="pb-20">
             <ContactForm />
+
+            </section>
         </section>
     )
 }

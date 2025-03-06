@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick }) => {
+
+
+
   return (
     <Link href={link}>
       <div onClick={onClick} onMouseEnter={onHover} className={`cursor-pointer  xl:pb-3 md:pb-3 xl:pt-0 hover:text-[#0092E1] ${className}`}>
@@ -16,6 +19,7 @@ const MenuItem = ({ label, link, onHover, className, onClick }) => {
 
 
 const Header = () => {
+  const [currentOpen, setCurrentOpen] = useState(null);
   const [activeCard, setActiveCard] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
   const [expanded, setExpanded] = useState(null);
@@ -23,6 +27,13 @@ const Header = () => {
   const [expandedSub, setExpandedSub] = useState(null);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [activeMenu, setActiveMenu] = useState(null);
+
+
+  const toggleDropdown = (dropdownId) => {
+    setCurrentOpen(currentOpen === dropdownId ? null : dropdownId); // Close if the same dropdown is clicked
+  };
+
+
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const toggleAccordion = (index) => {
@@ -205,7 +216,7 @@ const Header = () => {
   return (
     <section>
 
-      <div className="hidden bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
+      <div className="hidden relative bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
         <div className="col-span-4">
           <Link href="/" passHref>
             <Image
@@ -290,39 +301,96 @@ const Header = () => {
                 <h6 className="mt-3">More About Realforce →</h6>
               </div>
               <div className="col-span-8">
-                <div className="flex md:gap-2 lg:gap-16">
-                  <div>
-                    <MenuItem className='font-bold' label="Artificial Intelligence" link="/services/ai" onHover={() => { }} />
-                    <MenuItem className='font-bold' label="Salesforce" link="/services/salesforce" onHover={() => { }} />
-                    <MenuItem label="Digital Desk" link="/services/digital-desk" onHover={() => { }} />
-                    <MenuItem label="Health Cloud" link="/salesforce-consulting/health-cloud" onHover={() => { }} />
+                <div className="flex text-center items-center">
+                  <MenuItem
+                    className="font-bold cursor-pointer"
+                    label="Salesforce"
+                    link="/"
+                    onClick={() => toggleDropdown(1)}
+                  />
+                  <span className={`ml-2 transition-transform duration-300 cursor-pointer text-xs pb-3 ${currentOpen === 1 ? 'rotate-180' : ''}`}>
+                    ▼
+                  </span>
+
+
+                </div>
+                {currentOpen === 1 && (
+                  <div className="mt-2">
                     <MenuItem label="Agentforce" link="/salesforce-consulting/agentforce" onHover={() => { }} />
                     <MenuItem label="Data Cloud" link="/data-cloud" onHover={() => { }} />
+                    <MenuItem label="Health Cloud" link="/salesforce-consulting/health-cloud" onHover={() => { }} />
                     <MenuItem label="Implementation" link="/services/implementation" onHover={() => { }} />
                     <MenuItem label="Managed Services" link="/services/managed-services" onHover={() => { }} />
+                    <MenuItem label="MuleSoft" link="/services/managed-services" onHover={() => { }} />
+                    <MenuItem label="Revenue Cloud" link="/services/managed-services" onHover={() => { }} />
                   </div>
-                  <div>
-                    <MenuItem className='font-bold' label="SAP" link="/services/sap" onHover={() => { }} />
-                    <MenuItem label="RISE with SAP" link="/rise-with-sap" onHover={() => { }} />
-                    <MenuItem label="GROW with SAP" link="/grow-with-sap" onHover={() => { }} />
-                    <MenuItem label="Successfactor" link="/success-factors" onHover={() => { }} />
+                )}
+                <div className="flex text-center items-center">
+                  <MenuItem
+                    className="font-bold cursor-pointer"
+                    label="SAP"
+                    link="/"
+                    onClick={() => toggleDropdown(2)}
+                  />
+                  <span className={`ml-2 transition-transform duration-300 cursor-pointer text-xs pb-3 ${currentOpen === 2 ? 'rotate-180' : ''}`}>
+                    ▼
+                  </span>
+
+
+                </div>
+                {currentOpen === 2 && (
+                  <div className="mt-2">
                     <MenuItem label="Application Development" link="/services/implementation" onHover={() => { }} />
+                    <MenuItem label="GROW with SAP" link="/grow-with-sap" onHover={() => { }} />
+                    <MenuItem label="RISE with SAP" link="/rise-with-sap" onHover={() => { }} />
                     <MenuItem label="SAP ARIBA" link="/services/managed-services" onHover={() => { }} />
                     <MenuItem label="SAP BTP" link="/services/yardi" onHover={() => { }} />
-
-                    <MenuItem className='font-bold' label="Yardi" link="/services/sap" onHover={() => { }} />
-                    <MenuItem className='font-bold' label="Data Analytics" link="/services/sap" onHover={() => { }} />
-
-                    <MenuItem label="Power BI" link="/services/data-analytics" onHover={() => { }} />
-                    <MenuItem label="QLIK Sense" link="/services/cloud-migration" onHover={() => { }} />
-                    <MenuItem label="ALTERYX" link="/services/testing" onHover={() => { }} />
-
-
-                    <MenuItem className='font-bold' label="Cloud Migration" link="/services/sap" onHover={() => { }} />
-                    <MenuItem className='font-bold' label="Quality Management (Testing)" link="/services/sap" onHover={() => { }} />
-                    <MenuItem className='font-bold' label="Integration" link="/services/sap" onHover={() => { }} />
+                    <MenuItem label="SAP GTS" link="/services/yardi" onHover={() => { }} />
+                    <MenuItem label="SAP Integration" link="/services/yardi" onHover={() => { }} />
+                    <MenuItem label="Successfactor" link="/success-factors" onHover={() => { }} />
                   </div>
+                )}
+                <MenuItem label="Yardi" className='font-bold' link="/services/data-analytics" onHover={() => { }} />
+                <MenuItem label="Cloud Migration" className='font-bold' link="/services/data-analytics" onHover={() => { }} />
+                <MenuItem label="Integration" className='font-bold' link="/services/data-analytics" onHover={() => { }} />
+
+
+                <div className="flex text-center items-center">
+                  <MenuItem
+                    className="font-bold cursor-pointer"
+                    label="Data Analytics"
+                    link="/"
+                    onClick={() => toggleDropdown(3)}
+                  />
+                  {/* Dropdown icon stays aligned with the text */}
+                  <span className={`ml-2 transition-transform duration-300 cursor-pointer text-xs pb-3 ${currentOpen === 3 ? 'rotate-180' : ''}`}>
+                    ▼
+                  </span>
                 </div>
+                {currentOpen === 3 && (
+                  <div className="mt-2">
+                    <MenuItem label="Alterys" link="/" onHover={() => { }} />
+                    <MenuItem label="Power BI" link="/data-cloud" onHover={() => { }} />
+                    <MenuItem label="Quik Sense" link="/salesforce-consulting/health-cloud" onHover={() => { }} />
+                  </div>
+                )}
+                <div className="flex text-center items-center">
+                  <MenuItem
+                    className="font-bold cursor-pointer"
+                    label="Quality Management(testing)"
+                    link="/"
+                    onClick={() => toggleDropdown(4)}
+                  />
+                  <span className={`ml-2 transition-transform duration-300 cursor-pointer text-xs pb-3 ${currentOpen === 4 ? 'rotate-180' : ''}`}>
+                    ▼
+                  </span>
+
+                </div>
+                {currentOpen === 4 && (
+                  <div className="mt-2">
+                    <MenuItem label="Tosca" link="/" onHover={() => { }} />
+                  </div>
+                )}
               </div>
             </div>
           </div>
