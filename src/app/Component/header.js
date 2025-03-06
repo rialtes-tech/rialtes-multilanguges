@@ -78,19 +78,19 @@ const Header = () => {
           label: 'Salesforce',
           subLinks: [
             { label: 'Digital Desk', href: '/partner-1' },
-            { label: 'Health Cloud', href: '/partner-2' },
-            { label: 'Agentforce', href: '/partner-2' },
-            { label: 'Data Cloud', href: '/partner-2' },
+            { label: 'Health Cloud', href: '/salesforce-consulting/health-cloud' },
+            { label: 'Agentforce', href: '/salesforce-consulting/agentforce' },
+            { label: 'Data Cloud', href: '/data-cloud' },
             { label: 'Implementation', href: '/partner-2' },
-            { label: 'Managed Services', href: '/partner-2' },
+            { label: 'Managed Services', href: '/services/managed-services' },
           ],
         },
         {
           label: 'SAP',
           subLinks: [
-            { label: 'RISE with SAP', href: '/partner-2' },
-            { label: 'GROW with SAP', href: '/partner-2' },
-            { label: 'Successfactor', href: '/partner-2' },
+            { label: 'RISE with SAP', href: '/rise-with-sap' },
+            { label: 'GROW with SAP', href: '/grow-with-sap' },
+            { label: 'Successfactor', href: '/success-factors' },
             { label: 'Application Development', href: '/partner-2' },
             { label: 'SAP Integration', href: '/partner-2' },
             { label: 'SAP ARIBA', href: '/partner-2' },
@@ -125,9 +125,9 @@ const Header = () => {
     {
       label: 'Contact Us',
       links: [
-        { label: 'Blog', href: '/leadership' },
-        { label: 'Case Studies', href: '/partners' },
-        { label: 'Webinar', href: '/partners' },
+        { label: 'Blog', href: '/blog' },
+        { label: 'Case Studies', href: '/case-studies' },
+        { label: 'Webinar', href: '/webinar' },
         { label: 'Events', href: '/partners' },
       ],
     },
@@ -223,38 +223,38 @@ const Header = () => {
         <div className="col-span-8 flex gap-5">
           <MenuItem
             label="About Us"
-            link="/"
+            link="/about-us"
             onHover={() => handleCardHover(1)}
             onClick={() => handleMenuClick(1)}
-            className={`font-bold md:font-normal ${activeMenu === 1 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal  ${activeMenu === 1 ? 'text-blue-500' : ''}`}
           />
           <MenuItem
             label="Services"
             link="/services"
             onHover={() => handleCardHover(2)}
             onClick={() => handleMenuClick(2)}
-            className={`font-bold md:font-normal ${activeMenu === 2 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal ${activeMenu === 2 ? 'text-blue-500' : ''}`}
           />
           <MenuItem
             label="Industries"
-            link="/"
+            link="/industry"
             onHover={() => handleCardHover(3)}
             onClick={() => handleMenuClick(3)}
-            className={`font-bold md:font-normal ${activeMenu === 3 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal  ${activeMenu === 3 ? 'text-blue-500' : ''}`}
           />
           <MenuItem
             label="Insights"
-            link="/"
+            link="/insights"
             onHover={() => handleCardHover(4)}
             onClick={() => handleMenuClick(4)}
-            className={`font-bold md:font-normal ${activeMenu === 4 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal ${activeMenu === 4 ? 'text-blue-500' : ''}`}
           />
           <MenuItem
             label="Contact Us"
             link="/contact-us"
             onHover={() => handleCardHover(5)}
             onClick={() => handleMenuClick(5)}
-            className={`font-bold md:font-normal ${activeMenu === 5 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-blue-500' : ''}`}
           />
         </div>
       </div>
@@ -295,18 +295,18 @@ const Header = () => {
                     <MenuItem className='font-bold' label="Artificial Intelligence" link="/services/ai" onHover={() => { }} />
                     <MenuItem className='font-bold' label="Salesforce" link="/services/salesforce" onHover={() => { }} />
                     <MenuItem label="Digital Desk" link="/services/digital-desk" onHover={() => { }} />
-                    <MenuItem label="Health Cloud" link="/services/health-cloud" onHover={() => { }} />
-                    <MenuItem label="Agentforce" link="/services/agentforce" onHover={() => { }} />
-                    <MenuItem label="Data Cloud" link="/services/data-cloud" onHover={() => { }} />
+                    <MenuItem label="Health Cloud" link="/salesforce-consulting/health-cloud" onHover={() => { }} />
+                    <MenuItem label="Agentforce" link="/salesforce-consulting/agentforce" onHover={() => { }} />
+                    <MenuItem label="Data Cloud" link="/data-cloud" onHover={() => { }} />
                     <MenuItem label="Implementation" link="/services/implementation" onHover={() => { }} />
                     <MenuItem label="Managed Services" link="/services/managed-services" onHover={() => { }} />
                   </div>
                   <div>
                     <MenuItem className='font-bold' label="SAP" link="/services/sap" onHover={() => { }} />
-                    <MenuItem  label="RISE with SAP" link="/rise-with-sap" onHover={() => { }} />
+                    <MenuItem label="RISE with SAP" link="/rise-with-sap" onHover={() => { }} />
                     <MenuItem label="GROW with SAP" link="/grow-with-sap" onHover={() => { }} />
                     <MenuItem label="Successfactor" link="/success-factors" onHover={() => { }} />
-                    <MenuItem  label="Application Development" link="/services/implementation" onHover={() => { }} />
+                    <MenuItem label="Application Development" link="/services/implementation" onHover={() => { }} />
                     <MenuItem label="SAP ARIBA" link="/services/managed-services" onHover={() => { }} />
                     <MenuItem label="SAP BTP" link="/services/yardi" onHover={() => { }} />
 
@@ -354,7 +354,7 @@ const Header = () => {
 
         {/* Insights Card */}
         {activeCard === 4 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[250px]  xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[200px]  xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2 h-auto">
                 <h3 className="md:text-sm xl:text-2xl">
@@ -379,7 +379,7 @@ const Header = () => {
           <Image
             loading="lazy"
             className="cursor-pointer"
-            href='/home'
+            href='/'
             alt="Company Logo"
             lang="Company Logo2"
             height='150'
@@ -451,7 +451,7 @@ const Header = () => {
                 <Image
                   loading="lazy"
                   className="cursor-pointer"
-                  href='/home'
+                  href='/'
                   alt="Company Logo"
                   lang="Company Logo2"
                   height='150'

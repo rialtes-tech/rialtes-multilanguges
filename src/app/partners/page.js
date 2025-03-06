@@ -85,7 +85,7 @@ export default function Contact() {
                     key={index}
                     src={src}
                     alt="Leadership Team"
-                    className="w-1/2 h-full saturate-0 hover:saturate-100 border-0"
+                    className="h-full saturate-0 hover:saturate-100 border-0"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -104,7 +104,7 @@ export default function Contact() {
         <section>
             <div className="bg-[#EDEDED] lg:py-16 py-10">
                 <h2 className="xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6">Our Approach</h2>
-                <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6 mt-5 lg:gap-[20%] gap-5">
+                <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6 mt-5 lg:gap-[12%] gap-5">
                     {approachData.map((data, index) => (
                         <div key={index}>
                             <Image
@@ -163,7 +163,7 @@ export default function Contact() {
                     }}
                     priority
                 />
-                <div className="absolute xl:px-[280px] lg:px-[100px]  md:px-[100px] px-6 top-[13%]  lg:text-start xl:top-[35%] md:top-[20%] text-white">
+                <div className="absolute xl:px-[280px] lg:px-[100px]  md:px-[100px] px-6 top-[13%]  lg:text-start xl:top-[50%] md:top-[40%] text-white">
                     <h3 className="font-bold">Our Partners</h3>
                     <h1>Global Alliances</h1>
                 </div>
@@ -188,7 +188,7 @@ export default function Contact() {
                                 key={index}
                                 src={partner.src}
                                 alt={partner.alt}
-                                className="w-1/2 h-full saturate-0 hover:saturate-100"
+                                className=" h-full saturate-0 hover:saturate-100"
                                 width={0}
                                 height={0}
                                 sizes="100vw"
