@@ -270,7 +270,8 @@ const Home = () => {
       />
       {/* main slider */}
       <section>
-        <ResponsiveCarousel autoPlay={true} renderIndicator={renderIndicator}>
+        <ResponsiveCarousel autoPlay={true} infinite={true} 
+          autoPlaySpeed={3000} renderIndicator={renderIndicator}>
           <div className='relative'>
             <Image width={0}
               height={0}
