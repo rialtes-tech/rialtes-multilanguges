@@ -262,13 +262,7 @@ export default function About() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-6">
             <h2 className="text-[#000000] text-[20px] sm:text-[26px] py-6 max-w-4xl mb-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Join industry leaders and technology experts in Rialtes' exclusive webinars. Explore cutting-edge solutions in SAP, Salesforce, AI, and digital transformation through live discussions, expert panels, and interactive Q&A sessions.
             </h2>
 
             <div className="w-full">

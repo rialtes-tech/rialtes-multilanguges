@@ -52,15 +52,6 @@ export default function BlogsCarousel() {
             title: "From Insights to Action: Leveraging Salesforce Data Cloud for 360° Customer Views",
             description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
           },
-          {
-            id: 6,
-            image: "/images/blog/blog-6.webp",
-            category: "Cloud Analytics",
-            industry: "Manufacturing",
-            date: "25 Oct 2024",
-            title: "SAP SuccessFactors Performance and Goal Management",
-            description: "Time recording is crucial for paying employees, invoicing customers, and allocating costs, particularly in manufacturing, the public sector, and professional services. It ties into vacation booking",
-          },
           // Add more blog objects as needed
         ];
         const responsive = {

@@ -114,7 +114,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto px-6">
-            <h1 className="text-[#000000] py-6 max-w-4xl xl:w-3/2">A public housing in US</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">A public housing in US</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto px-6">
@@ -172,7 +172,7 @@ export default function Page() {
 
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
               <p className="text-black">A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone. These programs include Section 8 vouchers, project-based housing, VASH programs, Section 3 programs, and others administered by the Department of Housing and Urban Development (HUD). </p>
@@ -211,7 +211,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
               <p className="text-black pb-6">Improved response time to applicants and residents </p>
 

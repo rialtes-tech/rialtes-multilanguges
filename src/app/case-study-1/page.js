@@ -113,7 +113,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto px-6">
-            <h1 className="text-[#000000] py-6 max-w-4xl xl:w-1/2">Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP</h1>
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
@@ -171,7 +171,7 @@ export default function Page() {
 
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
               <p className="text-black">Client Profile A global medical technology company that develops and manufactures innovative products used by doctors to diagnose, treat, and monitor people with cardiovascular and endovascular conditions. This includes pacemakers, defibrillators for regulating heart rhythm and remote monitoring systems for patients with implanted devices. Their main goal is to improve the lives of people diagnosed with heart and blood vessel diseases.</p>
               <div className="py-6"></div>
@@ -181,7 +181,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions</h3>
 
               <ul className="list-disc marker:text-[#0092E0] text-black pl-4">
@@ -195,7 +195,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
 
               <ul className="list-disc marker:text-[#0092E0] text-black pl-4">
