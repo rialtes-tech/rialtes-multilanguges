@@ -391,7 +391,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   text-black py-6"
       >
-        <ContactForm />
+        <ContactForm title={'Take the next step to operational excellence with us.'} />
 
       </div >
 

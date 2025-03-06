@@ -36,7 +36,7 @@ export default function ContactForm({ title }) {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 border lg:w-1/4 border-gray-300  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Name*"
                         required
                     />
@@ -46,7 +46,7 @@ export default function ContactForm({ title }) {
                         name="name"
                         value={formData.surname}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 border lg:w-1/4 border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Surname*"
                         required
                     />
@@ -58,7 +58,7 @@ export default function ContactForm({ title }) {
                         name="name"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 border lg:w-1/4 border-gray-300  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Email*"
                         required
                     />
@@ -68,7 +68,7 @@ export default function ContactForm({ title }) {
                         name="name"
                         value={formData.company}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 border lg:w-1/4 border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Company*"
                         required
                     />
@@ -80,7 +80,7 @@ export default function ContactForm({ title }) {
                         name="name"
                         value={formData.jobTitle}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 lg:w-1/4 border border-gray-300  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Job Title*"
                         required
                     />
@@ -90,7 +90,7 @@ export default function ContactForm({ title }) {
                         name="name"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 lg:w-1/4  border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 lg:w-1/4  border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Phone*"
                         required
                     />
@@ -101,7 +101,7 @@ export default function ContactForm({ title }) {
                         name="message"
                         value={formData.message}
                         onChange={handleInputChange}
-                        className="mt-1 block px-3 py-2 border lg:w-[51%] w-full border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="mt-1 block px-3 py-2 border lg:w-[51%] w-full placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Message*"
                         rows="4"
                         required
