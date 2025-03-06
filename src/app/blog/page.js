@@ -311,7 +311,7 @@ const FeaturedCarousel = () => {
   const slides = [
     {
       id: 1,
-      imgSrc: "/images/blog/blog-1-thumb.webp",
+      imgSrc: "/images/blog/blog-1.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "30 Sept 2024",
@@ -320,7 +320,7 @@ const FeaturedCarousel = () => {
     },
     {
       id: 2,
-      imgSrc: "/images/blog/blog-2-thumb.webp",
+      imgSrc: "/images/blog/blog-2.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "21 Oct 2024",
