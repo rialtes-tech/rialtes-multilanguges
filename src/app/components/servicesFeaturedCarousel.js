@@ -119,7 +119,7 @@ export default function servicesFeaturedCarousel() {
     <section className="relative pb-10">
       <div className="container mx-auto pl-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6 max-w-4xl">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
+          <h2 className="text-black mb-6 max-w-4xl sm:mr-0 mr-20">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -145,7 +145,7 @@ export default function servicesFeaturedCarousel() {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-full sm:mr-12 group">
+            <div key={slide.id} className="flex sm:flex-row flex-col basis-full sm:mr-12 mr-6 group">
               <div className="basis-full sm:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
                   <Image

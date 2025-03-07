@@ -8,49 +8,49 @@ import InsightsCarousel from '../components/servicesInsightsCarousel';
 const latestServices = [
   {
     id: 1,
-    image: "images/services/salesforce.png",
+    image: "/images/services/salesforce.png",
     title: "Salesforce",
     description: "Enhance your people, processes, and tools with a Salesforce partner that meets your unique needs.",
   },
   {
     id: 2,
-    image: "images/services/sap.png",
+    image: "/images/services/sap.png",
     title: "SAP",
     description: "Value-driven managed SAP services for clients to help modernize and streamline their SAP workloads with better ROI",
   },
   {
     id: 3,
-    image: "images/services/ai.png",
+    image: "/images/services/ai.png",
     title: "Artificial Intelligence",
     description: "Accelerate your journey towards Enterprise AI for an AI-led business transformation",
   },
   {
     id: 4,
-    image: "images/services/yardi.png",
+    image: "/images/services/yardi.png",
     title: "YARDI",
     description: "Manage your property portfolio seamlessly with a single, central property management solution that caters to a broad range of real estate needs",
   },
   {
     id: 5,
-    image: "images/services/data-analytics.png",
+    image: "/images/services/data-analytics.png",
     title: "Data Analytics",
     description: "Transform data into information, insights, and improved business outcomes with a solid data and AI strategy tailored to your industry.",
   },
   {
     id: 6,
-    image: "images/services/cloud-migration.png",
+    image: "/images/services/cloud-migration.png",
     title: "Cloud Migration",
     description: "Cloud migration services for a seamless transition. Become a scalable, robust, and intelligent enterprise by migrating from on-premises to cloud infrastructure.",
   },
   {
     id: 7,
-    image: "images/services/quality-management.png",
+    image: "/images/services/quality-management.png",
     title: "Quality Management",
     description: "Facing in-house testing challenges? Reduce development costs, save time, and boost profitability with a streamlined testing process designed to enhance the performance of your software.",
   },
   {
     id: 8,
-    image: "images/services/integration.png",
+    image: "/images/services/integration.png",
     title: "Integration",
     description: "Seamlessly integrate applications, data, and processes into business-critical enterprise systems.",
   },
@@ -59,7 +59,16 @@ const latestServices = [
 const ServicesCard = ({ services }) => (
   <div className="w-full h-full flex flex-col pb-6">
     <div className="relative overflow-hidden">
-      <img src={services.image} alt={services.title} className="w-full transition-transform duration-300 hover:scale-105" />
+      <Image
+        className="w-full transition-transform duration-300 ease-out hover:scale-105"
+        src={services.image}
+        alt={services.title}
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        priority
+      />
     </div>
     <div className="flex-grow flex flex-col pt-4">
       <h3 className="mb-[10px] md:mb-[15px] font-semibold text-lg line-clamp-4">{services.title}</h3>
@@ -73,7 +82,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black xl:pr-80 md:pr-20">
+    <div className="container mx-auto px-6 text-black 2xl:pr-80 xl:pr-40 md:pr-20">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (

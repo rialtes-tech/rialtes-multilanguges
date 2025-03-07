@@ -44,7 +44,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black xl:pr-96 md:pr-20">
+    <div className="container mx-auto px-6 text-black 2xl:pr-80 xl:pr-40 md:pr-20">
       <h2 className="text-black mb-6">Businesses never stop exploring newer growth opportunities</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
@@ -121,12 +121,12 @@ export default function Page() {
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6 xl:pr-72 md:pr-20">
+          <div className="container mx-auto px-6 2xl:pr-80 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row items-center py-6">
-              <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
+              <div className="flex flex-col w-full xl:w-2/3 xl:mr-20 xl:mb-0 mb-4">
                 <h2 className="text-black md:pb-0 pb-4">Pragmatic Approach To Solving Problems</h2>
               </div>
-              <div className="flex flex-col w-full xl:w-1/2">
+              <div className="flex flex-col w-full xl:w-2/3">
                 <p className="text-[#000000]">Every business requires room for innovation to drive profitable growth. “Expect the unexpected” is inevitable in business; implementing RISE with SAP eases your approach to tackling real-time problems more practical, predictable, effective, and measurable.</p>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function Page() {
               <div className="flex flex-col w-full">
                 <h2 className="pb-6 text-black xl:flex hidden">Our Solution to Success</h2>
                 <p className="text-black pb-6">RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system to avoid business risks</p>
-                <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
                   <li className="pb-4">SAP S/4HANA Migration </li>
                   <li className="pb-4">Robotic Process Automation </li>
                   <li className="pb-4">Conversational Chatbot </li>
@@ -297,7 +297,7 @@ export default function Page() {
               <div className="flex flex-col w-full">
                 <h2 className="pb-6 text-black xl:flex hidden">Enterprise-focused solutions for everything your business needs!</h2>
                 <p className="pb-6 text-black">No matter what your SLAs, cloud needs, or technical support requirements are, our comprehensive solutions are curated to serve all business needs, irrespective of location.</p>
-                <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
                   <li className="pb-4">SAP S/4HANA Cloud </li>
                   <li className="pb-4">Business Process Transformation </li>
                   <li className="pb-4">Robotic Process Automation </li>

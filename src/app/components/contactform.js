@@ -27,7 +27,7 @@ export default function ContactForm({ title }) {
     };
     return (
         <section className='container px-6'>
-            <h2>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}</h2>
+            <h2 className="max-w-4xl">{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input

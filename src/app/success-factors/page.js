@@ -53,7 +53,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black xl:pr-96 md:pr-20">
+    <div className="container mx-auto px-6 text-black 2xl:pr-80 xl:pr-40 md:pr-20">
       <h2 className="text-black mb-6">End-to-end SAP SuccessFactors Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
@@ -128,7 +128,7 @@ export default function Page() {
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6 xl:pr-72 md:pr-20">
+          <div className="container mx-auto px-6 2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row items-center py-6">
               <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
                 <h2 className="text-black md:pb-0 pb-4">Achieve Performance Excellence with SuccessFactors Consulting</h2>
@@ -295,7 +295,7 @@ export default function Page() {
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden">
                   <Image
-                    className="w-full transition-transform duration-300 hover:scale-105"
+                    className="w-full transition-transform duration-300 ease-out hover:scale-110"
                     src='/images/success-factors/maximize-hr-efficiency.webp'
                     alt="Maximize HR Efficiency in Your Organization"
                     width={0}

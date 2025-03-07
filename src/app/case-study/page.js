@@ -95,17 +95,17 @@ const latestCaseStudy = [
 const CaseStudyCard = ({ casestudy }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
     <div className="relative overflow-hidden">
-    <Link href={casestudy.url}>
-      <Image
-        className="w-full transition-transform duration-300 hover:scale-105"
-        src={casestudy.image}
-        alt={casestudy.title}
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-        priority
-      />
+      <Link href={casestudy.url}>
+        <Image
+          className="w-full transition-transform duration-300 hover:scale-105"
+          src={casestudy.image}
+          alt={casestudy.title}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          priority
+        />
       </Link>
     </div>
     <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
@@ -371,27 +371,27 @@ const FeaturedCarousel = () => {
         >
           {slides.map((slide) => (
             <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] md:mr-12 sm:mr-6 group">
-            <div className="basis-full sm:basis-2/3 lg:basis-4/3">
-            <Link href={slide.url}>
-              <Image
-                src={slide.imgSrc}
-                alt={slide.title}
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                priority
-              />
-              </Link>
-            </div>
-            <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] sm:basis-2/3 py-4 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-4">
-              <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
-                <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
+              <div className="basis-full sm:basis-2/3 lg:basis-4/3">
+                <Link href={slide.url}>
+                  <Image
+                    src={slide.imgSrc}
+                    alt={slide.title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                  />
+                </Link>
               </div>
-              <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
-              <p>{slide.description}</p>
+              <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] sm:basis-2/3 py-4 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-4">
+                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
+                  <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
+                </div>
+                <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
+                <p>{slide.description}</p>
+              </div>
             </div>
-          </div>
           ))}
         </Carousel>
       </div>
@@ -428,7 +428,12 @@ export default function Page() {
                                       xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto px-6 h-full flex flex-col justify-center">
-            <h1 className="max-w-2xl text-white">Case Study</h1>
+            <div className="flex flex-col">
+              <h3 className="text-white text-[300] font-medium mb-2">Case Study</h3>
+              <h1 className="text-white max-w-2xl">
+                Rial Results, Rial Impact
+              </h1>
+            </div>
           </div>
         </div>
       </section>

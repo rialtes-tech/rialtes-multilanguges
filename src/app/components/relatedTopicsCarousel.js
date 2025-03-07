@@ -106,8 +106,8 @@ export default function RelatedTopicsCarousel({ slides }) {
               </div>
               <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
-                <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                <h5 className="my-4 line-clamp-4 font-bold">{slide.title}</h5>
+                  <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
+                  <h5 className="my-4 line-clamp-4 font-bold">{slide.title}</h5>
                 </div>
                 <p className="line-clamp-4">{slide.description}</p>
               </div>
