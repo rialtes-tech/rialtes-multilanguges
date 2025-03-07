@@ -12,6 +12,7 @@ export default function ContactForm() {
         phone: '',
         message: '',
     });
+    const [isRobotChecked, setIsRobotChecked] = useState(false);
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -24,6 +25,10 @@ export default function ContactForm() {
         console.log('Form submitted:', formData);
         alert('Form submitted!');
     };
+
+    const handleCheckboxChange = () => {
+        setIsRobotChecked(!isRobotChecked);
+      };
     return (
         <section className='mt-20 xl:px-[280px]  md:px-[100px] px-6'>
             <h2>Ready to take the next step? Let’s kick off</h2>
@@ -107,14 +112,29 @@ export default function ContactForm() {
                         required
                     />
                 </div>
-                <div className='mt-5'>
+                <div className='mt-5 flex gap-5'>
                     <button
                         type="submit"
-                        className="py-2 px-4 text-white bg-[#134874] focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="py-3 px-5 text-white bg-[#134874] focus:outline-none focus:ring-2 font-medium focus:ring-blue-500"
+                        disabled={!isRobotChecked}
                     >
                         Let’s Begin
                     </button>
+
+                    <div className="flex items-center gap-2 border p-2 border-gray-500">
+          <input
+            type="checkbox"
+            id="robotCheck"
+            checked={isRobotChecked}
+            onChange={handleCheckboxChange}
+            className="h-5 w-5"
+          />
+          <h4 htmlFor="robotCheck" className="text-sm text-[#134874]">
+            I'm not a robot
+          </h4>
+        </div>
                 </div>
+               
             </form>
         </section>
     )

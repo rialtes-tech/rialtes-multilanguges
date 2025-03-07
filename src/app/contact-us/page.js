@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ContactForm from "../Component/contactForm"
+import ContactForm from "../components/contactform"
 import Seo from "../Component/Seo"
 export default function Contact() {
 
@@ -96,16 +96,17 @@ export default function Contact() {
                 description="Welcome to the Rialtes On Contact Us"
                 keywords="Contact, website, welcome"
             />
-            <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 lg:mt-40 md:mt-20 mt-10">
+            <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 mt-10">
                 <div>
                     <h1>Our presence across the Globe</h1>
-                    <h5 className="mt-5">How can we help you?</h5>
+                    <h4 className="mt-5">How can we help you?</h4>
                     <p> Contact us, we would love to hear from you</p>
                 </div>
+                <div className="xl:pr-[200px]">
                 <Image
                     src="/images/contact-us/Contact-map.webp"
                     alt="Rialtes Map"
-                    className="pt-10 relative"
+                    className="pt-10 relative "
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -116,6 +117,8 @@ export default function Contact() {
                     }}
                     priority
                 />
+                </div>
+                
                 {groupedLocations.map((group, groupIndex) => (
                     <div
                         key={groupIndex}
@@ -125,7 +128,10 @@ export default function Contact() {
                     </div>
                 ))}
             </div>
+            <section className="xl:ml-[280px] mt-20 mx-6 lg:ml-[100px] pb-10 md:ml-[100px]">
             <ContactForm />
+
+            </section>
             <div className="pb-6"></div>
         </div>
     )

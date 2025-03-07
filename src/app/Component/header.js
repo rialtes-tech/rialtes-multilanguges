@@ -145,7 +145,7 @@ const Header = () => {
   ];
 
 
-  const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub }) => {
+  const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub,onMenuItemClick }) => {
     return (
       <li className="py-2">
         <button onClick={onToggle} className="w-full text-left flex justify-between items-center">
@@ -193,6 +193,7 @@ const Header = () => {
                           <div key={subIdx} className="border-b-[2px] pb-2 pt-2">
                             <Link
                               href={subLink.href}
+                              onClick={onMenuItemClick}
                             >
                               <h5 className="text-sm">{subLink.label}</h5>
                             </Link>
@@ -278,7 +279,7 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl">
-                  We Help Those Who Build The Future To Make It Amazing.
+                Your Trusted Partner for Innovation and DigitalTransformation
                 </h3>
                 <Link href='/about-us'>
                   <h6 className="mt-3">More About Rialtes →</h6>
@@ -298,7 +299,8 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl">
-                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
+                Comprehensive Solutions to Transform Experiences andShape your Digital Future
+               
                 </h3>
                 <Link href='/services'>
                   <h6 className="mt-3">More About Services →</h6>
@@ -382,7 +384,7 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl">
-                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
+                Precision solutions, custom-crafted for Across DiverseSectors
                 </h3>
                 <Link href='/industry'>
                   <h6 className="mt-3">More About Industry →</h6>
@@ -408,7 +410,7 @@ const Header = () => {
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2 h-auto">
                 <h3 className="md:text-sm xl:text-2xl">
-                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
+                Unlocking Knowledge to Drive Smarter Decisions
                 </h3>
                 <Link href='/insights'>
                   <h6 className="mt-3">More About Insights →</h6>
@@ -418,7 +420,7 @@ const Header = () => {
               <div className="col-span-4">
                 <MenuItem className='font-bold pb-3' label="Blog" link="/blog" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Case Studies" link="/case-study" onHover={() => { }} />
-                <MenuItem className='font-bold pb-3' label="Webinar" link="/industries/manufacturing" onHover={() => { }} />
+                <MenuItem className='font-bold pb-3' label="Webinar" link="webinar" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Events" link="/industries/finance" onHover={() => { }} />
               </div>
             </div>
@@ -527,6 +529,7 @@ const Header = () => {
                     onToggle={() => toggleAccordion(idx)}
                     toggleSubAccordion={toggleSubAccordion}
                     expandedSub={expandedSub}
+                    onMenuItemClick={() => toggleMenu()}
                   />
                 ))}
               </ul>
