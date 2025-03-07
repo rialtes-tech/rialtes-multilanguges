@@ -48,7 +48,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black xl:pr-80 md:pr-20">
+    <div className="container mx-auto px-6 text-black 2xl:pr-80 xl:pr-40 md:pr-20">
       <h2 className="text-black mb-6">GROW with SAP Solutions for Your Business</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
@@ -191,12 +191,12 @@ export default function Page() {
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6 xl:pr-72 md:pr-20">
+          <div className="container mx-auto px-6 2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row py-6">
-              <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
+              <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4">
                 <h2 className="text-black md:pb-0 pb-4">Empowering Your Business to Scale and Succeed</h2>
               </div>
-              <div className="flex flex-col w-full xl:w-1/2">
+              <div className="flex flex-col w-full">
                 <p className="text-[#000000]">We understand that as your business grows, so do your support needs, and we’re here to help every step of the way. Grow with SAP services provides a comprehensive solution, community support, and learning resources to help you adopt Cloud ERP with speed, reliability, and ongoing innovation.</p>
               </div>
             </div>
@@ -300,7 +300,7 @@ export default function Page() {
               <div className="flex flex-col w-full mr-4">
                 <h2 className="pb-6 text-black xl:flex hidden">We Help You Grow and Thrive</h2>
                 <p className="pb-6 text-black">At Rialtes, we’re committed to being more than just a technology provider; we’re your partner in growth. With Grow with SAP, you’ll benefit from:</p>
-                <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
                   <li className="pb-4"><span className="font-semibold">Expert Guidance:</span> Our dedicated consultants and industry experts will work with you to create a roadmap that aligns with your business objectives. </li>
 
                   <li className="pb-4"><span className="font-semibold">Continuous Innovation:</span> Stay ahead of the curve with regular updates, new features, and continuous improvements to your SAP solutions. </li>
@@ -311,7 +311,7 @@ export default function Page() {
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden">
                   <Image
-                    className="w-full transition-transform duration-300 hover:scale-105"
+                    className="w-full transition-transform duration-300 ease-out hover:scale-110"
                     src='/images/services/grow-with-sap/grow-and-thrive.webp'
                     alt="We Help You Grow and Thrive"
                     width={0}

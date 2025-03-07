@@ -3,45 +3,72 @@
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import Link from "next/link";
 
 
 export default function servicesInsightsCarousel() {
   const slides = [
     {
       id: 1,
-      category: "Salesforce Agentforce",
       image: "/images/blog/blog-1.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "30 Sept 2024",
+      url: '/how-salesforce-agentforce-actually-works',
       title: "How Salesforce Agentforce Actually Works",
       description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-        },
+    },
     {
       id: 2,
-      category: "Salesforce Agentforce",
       image: "/images/blog/blog-2.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "21 Oct 2024",
+      url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
       title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
       description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
     },
     {
       id: 3,
-      category: "Salesforce Agentforce",
       image: "/images/blog/blog-3.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "28 Oct 2024",
+      url: '/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
       title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
       description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
     },
     {
       id: 4,
-      category: "Salesforce Agentforce",
       image: "/images/blog/blog-4.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "25 Nov 2024",
+      url: '/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
       title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
       description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
     },
     {
       id: 5,
-      category: "SAP SuccessFactors",
       image: "/images/blog/blog-5.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "24 Dec 2024",
+      url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
       title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
       description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },    
+    },
+    {
+      id: 6,
+      image: "/images/blog/blog-6.webp",
+      category: "Cloud Green Technology",
+      industry: "Agriculture",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    // Add more blog objects as needed
   ];
 
   const responsive = {
@@ -128,19 +155,21 @@ export default function servicesInsightsCarousel() {
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
+              className={`flex md:flex-row flex-col border border-[#707070] sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
             >
               <div className="min-h-[350px] min-w-full relative">
-                <Image
-                  className="min-h-[350px]"
-                  src={slide.image}
-                  alt={slide.title}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  priority
-                />
+                
+                  <Image
+                    className="min-h-[350px]"
+                    src={slide.image}
+                    alt={slide.title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                  />
+                
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
                   <h4 className="line-clamp-4 md:line-clamp-4">{slide.category}</h4>
                 </div>
@@ -150,7 +179,7 @@ export default function servicesInsightsCarousel() {
                 <h4 className="my-4 line-clamp-4 md:line-clamp-none">{slide.category}</h4>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
-                  <a href="#" className="font-medium">Learn more &#8594;</a>
+                  <Link href={'/blog' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
                 </div>
               </div>
             </div>
