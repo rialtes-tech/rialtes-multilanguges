@@ -145,7 +145,7 @@ const Header = () => {
   ];
 
 
-  const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub,onMenuItemClick }) => {
+  const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub, onMenuItemClick }) => {
     return (
       <li className="py-2">
         <button onClick={onToggle} className="w-full text-left flex justify-between items-center">
@@ -203,7 +203,7 @@ const Header = () => {
                     )}
                   </>
                 ) : (
-                  <Link href={link.href} className="text-[#505050] hover:text-[#05B1FD] cursor-pointer">
+                  <Link href={link.href} onClick={onMenuItemClick} className="text-[#505050] hover:text-[#05B1FD] cursor-pointer">
                     <h5>{link.label}</h5>
                   </Link>
                 )}
@@ -217,7 +217,7 @@ const Header = () => {
   return (
     <section>
 
-      <div className="hidden relative bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
+      <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
         <div className="col-span-4">
           <Link href="/" passHref>
             <Image
@@ -238,35 +238,35 @@ const Header = () => {
             link="/about-us"
             onHover={() => handleCardHover(1)}
             onClick={() => handleMenuClick(1)}
-            className={`xl:font-bold font-normal  ${activeMenu === 1 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal  ${activeMenu === 1 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Services"
             link="/services"
             onHover={() => handleCardHover(2)}
             onClick={() => handleMenuClick(2)}
-            className={`xl:font-bold font-normal ${activeMenu === 2 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal ${activeMenu === 2 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Industries"
             link="/industry"
             onHover={() => handleCardHover(3)}
             onClick={() => handleMenuClick(3)}
-            className={`xl:font-bold font-normal  ${activeMenu === 3 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal  ${activeMenu === 3 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Insights"
             link="/insights"
             onHover={() => handleCardHover(4)}
             onClick={() => handleMenuClick(4)}
-            className={`xl:font-bold font-normal ${activeMenu === 4 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal ${activeMenu === 4 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Contact Us"
             link="/contact-us"
             onHover={() => handleCardHover(5)}
             onClick={() => handleMenuClick(5)}
-            className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-blue-500' : ''}`}
+            className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-[#0092E0]' : ''}`}
           />
         </div>
       </div>
@@ -275,11 +275,11 @@ const Header = () => {
       <div>
         {/* About Us Card */}
         {activeCard === 1 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-3 left-0 z-30 border-t-2">
+          <div className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2">
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
               <div className="col-span-4 border-r-2">
-                <h3 className="md:text-sm xl:text-2xl">
-                Your Trusted Partner for Innovation and DigitalTransformation
+                <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
+                  Your Trusted Partner for Innovation and DigitalTransformation
                 </h3>
                 <Link href='/about-us'>
                   <h6 className="mt-3">More About Rialtes →</h6>
@@ -295,12 +295,12 @@ const Header = () => {
 
         {/* Services Card */}
         {activeCard === 2 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  left-0 z-20 border-t-2">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2">
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-4 border-r-2">
-                <h3 className="md:text-sm xl:text-2xl">
-                Comprehensive Solutions to Transform Experiences andShape your Digital Future
-               
+                <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
+                  Comprehensive Solutions to Transform Experiences and Shape your Digital Future
+
                 </h3>
                 <Link href='/services'>
                   <h6 className="mt-3">More About Services →</h6>
@@ -325,7 +325,7 @@ const Header = () => {
                     </div>
                   </div>
 
-                  <MenuItem label="Yardi"  className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
+                  <MenuItem label="Yardi" className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
                   <MenuItem label="Cloud Migration" className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
                   <MenuItem label="Integration" className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
 
@@ -355,22 +355,25 @@ const Header = () => {
                   <div>
                     <MenuItem
                       className="font-bold cursor-pointer pb-3"
-                      label="Data Analytics"
-                      link="/"
-                    />
-                    <MenuItem label="Alterys"  className='pb-3' link="/" onHover={() => { }} />
-                    <MenuItem label="Power BI" className='pb-3' link="/data-cloud" onHover={() => { }} />
-                    <MenuItem label="Quik Sense" className='pb-3' link="/salesforce-consulting/health-cloud" onHover={() => { }} />
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <MenuItem
-                      className="font-bold cursor-pointer pb-3"
-                      label="Quality Management(testing)"
+                      label="Testing"
                       link="/"
                     />
                     <MenuItem label="Tosca" className='pb-3' link="/" onHover={() => { }} />
+                  </div>
+                </div>
+                <div>
+
+
+
+                  <div>
+                    <MenuItem
+                      className="font-bold cursor-pointer pb-3"
+                      label="Data Analytics"
+                      link="/"
+                    />
+                    <MenuItem label="Alterys" className='pb-3' link="/" onHover={() => { }} />
+                    <MenuItem label="Power BI" className='pb-3' link="/data-cloud" onHover={() => { }} />
+                    <MenuItem label="Quik Sense" className='pb-3' link="/salesforce-consulting/health-cloud" onHover={() => { }} />
                   </div>
                 </div>
               </div>
@@ -380,11 +383,11 @@ const Header = () => {
 
         {/* Industries Card */}
         {activeCard === 3 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  left-0 z-20 border-t-2">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2">
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2">
-                <h3 className="md:text-sm xl:text-2xl">
-                Precision solutions, custom-crafted for Across DiverseSectors
+                <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
+                  Precision solutions, custom-crafted for Across DiverseSectors
                 </h3>
                 <Link href='/industry'>
                   <h6 className="mt-3">More About Industry →</h6>
@@ -406,11 +409,11 @@ const Header = () => {
 
         {/* Insights Card */}
         {activeCard === 4 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[200px]  xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
+          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[230px] xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2 h-auto">
-                <h3 className="md:text-sm xl:text-2xl">
-                Unlocking Knowledge to Drive Smarter Decisions
+                <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
+                  Unlocking Knowledge to Drive Smarter Decisions
                 </h3>
                 <Link href='/insights'>
                   <h6 className="mt-3">More About Insights →</h6>
@@ -475,7 +478,6 @@ const Header = () => {
               </svg>
             )}
           </button>
-
         </div>
 
         {/* Drawer Menu (Mobile only) */}
@@ -500,7 +502,6 @@ const Header = () => {
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>
-
               </div>
               <div>
                 <Image
@@ -514,8 +515,6 @@ const Header = () => {
                   src='/images/homepage/logo.png'
                 />
               </div>
-
-
             </div>
 
             <nav className="mt-5 border-t-2 p-3">

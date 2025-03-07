@@ -79,7 +79,7 @@ export default function Contact() {
 
 
     const renderImageSection = (images) => (
-        <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 border-0 gap-20">
+        <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 border-0 gap-10">
             {images.map((src, index) => (
                 <Image
                     key={index}
@@ -104,7 +104,7 @@ export default function Contact() {
         <section>
             <div className="bg-[#EDEDED] lg:py-16 py-10">
                 <h2 className="xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6">Our Approach</h2>
-                <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6 mt-5 lg:gap-[12%] gap-5">
+                <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6 mt-8 lg:gap-[12%] gap-5">
                     {approachData.map((data, index) => (
                         <div key={index}>
                             <Image
@@ -172,17 +172,21 @@ export default function Contact() {
 
             <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] px-6">
                 <div className="grid lg:grid-cols-2 mt-16 mb-16 lg:gap-20">
-                    <h2>Our Strategic Partners</h2>
-                    <p>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
+                    <div>
+                    <h2>Our Strategic</h2>
+                    <h2>Partners</h2>
+                    </div>
+                   
+                    <p className="mt-5">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
                 </div>
             </section>
-            <div>
+            <div className="pb-20">
                 <OurApproachSection />
                 <KeyPartnerships />
                 <RegionalPartnerships />
                 <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] px-6 mt-16 ">
                     <h4 className="text-[#0092E0] mb-16">ALL PARTNERSHIPS</h4>
-                    <div className="grid xl:grid-cols-5 lg:grid-cols-4  sm:grid-cols-2 grid-cols-2 border-0 gap-20">
+                    <div className="grid xl:grid-cols-5 lg:grid-cols-4  sm:grid-cols-2 grid-cols-2 border-0 gap-10">
                         {allPartnerships.map((partner, index) => (
                             <Image
                                 key={index}

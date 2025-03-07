@@ -513,7 +513,9 @@ const Home = () => {
         </div>
       </section>
       {/* //form section */}
-      <section className='pb-20'>
+      <section className='pb-20 mt-20 xl:px-[280px]  md:px-[100px] px-6'>
+      <h2>Ready to take the next step? Let’s kick off</h2>
+      <h2>your journey to operational excellence</h2>
         <ContactForm />
 
       </section>
