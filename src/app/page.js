@@ -5,7 +5,7 @@ import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import ContactForm from '../app/components/contactform';
+import ContactForm from '../app/Component/contactForm';
 import Seo from './Component/Seo';
 
 const CustomArrow = ({ onClick, arrowType }) => {
@@ -331,7 +331,7 @@ const Home = () => {
       {/* success stories section */}
       <section className='xl:mt-20 mx-6 xl:mx-[280px] md:mx-[100px] md:mr-0 xl:mr-0'>
         <div className='items-center grid xl:grid-cols-3 grid-cols-1'>
-          <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Success Stories</h2>
+          <h2>Success Stories</h2>
           <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
           <div className='justify-center gap-10 hidden xl:flex'>
             <CustomArrow arrowType="prev" onClick={goToPrevious} />
@@ -389,8 +389,8 @@ const Home = () => {
       <section>
         <div className='grid xl:grid-cols-4 grid-cols-1 mx-6 xl:mx-[280px] md:mx-[100px]  xl:mr-0 mt-20'>
           <div className='col-span-2'>
-            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Shaping Tomorrow with </h2>
-            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Our Services</h2>
+            <h2 >Shaping Tomorrow with </h2>
+            <h2 >Our Services</h2>
           </div>
           <p className='xl:col-span-1 mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5'>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
         </div>
@@ -411,8 +411,8 @@ const Home = () => {
         <div className='bg-[#EFEFEF] mt-20 xl:pb-28'>
           <div className='grid xl:grid-cols-2 gap-10 grid-cols-1 xl:ml-[280px] md:mx-[100px]  mx-6 pt-10'>
             <div>
-            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>Industry Expertise </h2>
-            <h2 className='text-[6vw] sm:text-[4vw] md:text-[3vw]'>and Solutions</h2>
+            <h2>Industry Expertise </h2>
+            <h2>and Solutions</h2>
             </div>
             <p>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
           </div>
@@ -513,7 +513,9 @@ const Home = () => {
         </div>
       </section>
       {/* //form section */}
-      <section className='mt-20 xl:mx-[280px] md:mx-[100px]  mx-6 pb-16'>
+      <section className='pb-20 mt-20 xl:px-[280px]  md:px-[100px] px-6'>
+      <h2>Ready to take the next step? Let’s kick off</h2>
+      <h2>your journey to operational excellence</h2>
         <ContactForm />
 
       </section>
