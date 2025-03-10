@@ -127,7 +127,7 @@ export default function BlogsCarousel() {
   };
 
   return (
-    <section className="relative pb-10 bg-white">
+    <section className="relative sm:pb-10 pb-16 bg-white">
       <div className="container mx-auto pl-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Latest Blogs</h2>
@@ -177,7 +177,7 @@ export default function BlogsCarousel() {
               <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                  <Link href={'/blog'+slide.url}><h5 className="my-4 line-clamp-4 font-bold">{slide.title}</h5></Link>
+                  <Link href={'/blog'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
                 </div>
                 <p className="line-clamp-4">{slide.description}</p>
               </div>

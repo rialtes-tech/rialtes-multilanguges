@@ -154,8 +154,8 @@ const latestBlogs = [
 
 const BlogCard = ({ blog }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
-    <div className="max-h-[350px]">
-      <Link href={'/blog'+blog.url}>
+    <div className="max-h-[300px]">
+      <Link href={'/blog' + blog.url}>
         <Image
           src={blog.image}
           alt={blog.title}
@@ -174,7 +174,7 @@ const BlogCard = ({ blog }) => (
           <span className='text-[#ACACAC]'> | </span>
           {blog.date}
         </div>
-        <Link href={'/blog'+blog.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-4">{blog.title}</h4></Link>
+        <Link href={'/blog' + blog.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-3 xl:line-clamp-4">{blog.title}</h4></Link>
       </div>
       <div className="flex flex-col">
         <p className='line-clamp-4 md:mb-4 mb-2'>{blog.description}</p>
@@ -182,7 +182,6 @@ const BlogCard = ({ blog }) => (
     </div>
   </div>
 );
-
 
 const BlogList = () => {
   const [visibleBlogs, setVisibleBlogs] = useState(6);
@@ -195,10 +194,12 @@ const BlogList = () => {
 
   const toggleOptionsIndustry = () => {
     setShowOptionsIndustry(!showOptionsIndustry);
+    setShowOptionsCategory(false);
   };
 
   const toggleOptionsCategory = () => {
     setShowOptionsCategory(!showOptionsCategory);
+    setShowOptionsIndustry(false);
   };
 
 
@@ -223,14 +224,14 @@ const BlogList = () => {
   const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
   return (
-    <div className="container mx-auto px-6">
+    <div className="container mx-auto px-6 xl:pr-[150px]">
       <div className="flex md:flex-row flex-col pb-4">
         <div className="flex flex-col md:pb-0 pb-4">
           <h2 className="text-black">Latest Blogs</h2>
         </div>
         <div className="relative flex md:flex-row md:ml-auto h-[60px]">
           <div className="relative">
-            <button className='relative border border-[#707070] w-40 py-4 px-2 sm:mr-4 mr-4 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-4 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
               <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -243,7 +244,7 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsIndustry && (
-              <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] sm:mr-4 mr-0 right-0'>
+              <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2'>
                 <ul>
                   <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Agriculture')}>Agriculture</li>
@@ -260,7 +261,7 @@ const BlogList = () => {
             )}
           </div>
           <div className="relative">
-            <button className='relative border border-[#707070] py-4 px-2 w-40 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
+            <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
               <span className="pr-5">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -273,7 +274,7 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsCategory && (
-              <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] right-0'>
+              <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0'>
                 <ul>
                   <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterBlogsByCategory('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Diversity & Inclusion')}>Diversity & Inclusion</li>
@@ -361,7 +362,7 @@ const FeaturedCarousel = () => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
-      partialVisibilityGutter: 100,
+      partialVisibilityGutter: 150,
       slidesToSlide: 1,
     },
     tablet: {
@@ -380,7 +381,7 @@ const FeaturedCarousel = () => {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+      <div className="flex carousel-button-group absolute top-0 lg:right-40 right-4 md:mt-4">
         <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -412,9 +413,9 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div className="container mx-auto pl-6">
+      <div className="container mx-auto sm:pl-6 sm:px-0 px-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Latest Blogs</h2>
+          <h2 className="text-black mb-6">Featured Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -441,8 +442,8 @@ const FeaturedCarousel = () => {
         >
           {slides.map((slide) => (
             <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group">
-              <div className="basis-full sm:basis-2/3 lg:basis-4/3">
-                <Link href={'/blog'+slide.url}>
+              <div className="basis-full">
+                <Link href={'/blog' + slide.url}>
                   <Image
                     src={slide.image}
                     alt={slide.title}
@@ -454,12 +455,12 @@ const FeaturedCarousel = () => {
                   />
                 </Link>
               </div>
-              <div className="flex flex-col basis-full sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-0 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+              <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
                   <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                 </div>
-                <Link href={'/blog'+slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
-                <p>{slide.description}</p>
+                <Link href={'/blog' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold sm:line-clamp-none line-clamp-3">{slide.title}</h3></Link>
+                <p className="xl:line-clamp-none line-clamp-5">{slide.description}</p>
               </div>
             </div>
           ))}
@@ -558,7 +559,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="pb-16 bg-white">
+        <section className="py-16 bg-white">
 
           <BlogList />
 
