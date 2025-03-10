@@ -117,7 +117,7 @@ export default function servicesFeaturedCarousel() {
 
   return (
     <section className="relative pb-10">
-      <div className="container mx-auto pl-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6 max-w-4xl sm:mr-0 mr-20">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>

@@ -125,7 +125,7 @@ export default function servicesInsightsCarousel() {
 
   return (
     <section className="relative pb-8 bg-white">
-      <div className="container mx-auto pl-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Insights</h2>
         </div>

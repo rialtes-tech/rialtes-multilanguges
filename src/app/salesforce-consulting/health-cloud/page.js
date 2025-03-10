@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import ContactForm from "@/app/Component/contactForm";
+import ContactForm from "../../components/contactform";
 import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
 import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';

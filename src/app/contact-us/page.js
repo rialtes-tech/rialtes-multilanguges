@@ -1,6 +1,6 @@
 import Image from "next/image"
-import ContactForm from "../Component/contactForm"
-import Seo from "../Component/Seo"
+import ContactForm from "../components/contactform"
+import Seo from "../components/Seo"
 export default function Contact() {
 
     const locations = [
@@ -85,7 +85,7 @@ export default function Contact() {
         },
 
         {
-            country: 'Dehradun',
+            city: 'Dehradun',
             address: (
                 <>
                     Dehradun IT Park, Weblan Unit A
@@ -150,20 +150,14 @@ export default function Contact() {
                 {groupedLocations.map((group, groupIndex) => (
                     <div
                         key={groupIndex}
-                        className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 mt-20"
+                        className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 mt-5"
                     >
                         {group.map((location, index) => renderLocation(location, index))}
                     </div>
                 ))}
             </div>
-            <section className="xl:ml-[280px] mt-20 mx-6 lg:ml-[100px] pb-10 md:ml-[100px]">
-                <div>
-                <h2>
-                Ready to take the next step?   </h2>
-                <h2>Let’s kick off your journey to operational</h2>
-                 <h2>excellence</h2>
-                 </div>
-                <ContactForm />
+            <section className="xl:ml-[280px] mt-32 mx-6 lg:ml-[100px] pb-10 md:ml-[100px]">
+                <ContactForm className='xl:w-[52%] w-full'  title='Ready to take the next step? Let’s kick off your journey to operational excellence'/>
 
             </section>
             <div className="pb-6"></div>

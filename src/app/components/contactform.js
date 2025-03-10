@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
-export default function ContactForm({ title }) {
+export default function ContactForm({ title, className }) {
     const [formData, setFormData] = useState({
         name: '',
         surname: '',
@@ -12,6 +13,12 @@ export default function ContactForm({ title }) {
         phone: '',
         message: '',
     });
+
+
+
+    const [isRobotChecked, setIsRobotChecked] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
+
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -19,15 +26,25 @@ export default function ContactForm({ title }) {
             [name]: value,
         });
     };
+
+    const handleCheckboxChange = () => {
+        setIsLoading(true); // Start loading when the checkbox is clicked
+        setIsRobotChecked(false)
+        setTimeout(() => {
+            // After 1 second, mark the checkbox as checked
+            setIsLoading(false); // Stop the loader
+            setIsRobotChecked(true);
+        }, 1000); // You can adjust the timeout duration
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Form submitted:', formData);
-        // Here you would typically send the form data to an API or backend
         alert('Form submitted!');
     };
     return (
-        <section className='container px-6'>
-            <h2 className="max-w-4xl">{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}</h2>
+        <section className='container'>
+            <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input
@@ -107,12 +124,56 @@ export default function ContactForm({ title }) {
                         required
                     />
                 </div>
-                <div className='mt-5'>
-                    <button
-                        type="submit"
-                        className="py-2 px-4 text-white bg-[#134874] focus:outline-none focus:ring-2 focus:ring-blue-500"
+
+
+                <div className='mt-5 flex gap-8'>
+                <div
+                        className={`flex items-center gap-2 border p-2 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
                     >
-                        Let’s Begin
+                        <div className="flex gap-3">
+                            {/* Checkbox with loading animation */}
+                            <div className="relative">
+                                <input
+                                    type="checkbox"
+                                    id="robotCheck"
+                                    checked={isRobotChecked}
+                                    onChange={handleCheckboxChange}
+                                    className={`h-5 w-5 ${isRobotChecked ? "bg-[#134874]" : "bg-white"}`}
+                                />
+
+                                {/* Circle loader shown during the loading state */}
+                                {isLoading && (
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <div className="w-5 h-5 border-4 border-t-4 border-gray-300 border-t-[#134874] rounded-full animate-spin"></div>
+                                    </div>
+                                )}
+                            </div>
+
+                            {/* Text for CAPTCHA */}
+                            <label
+                                htmlFor="robotCheck"
+                                className={`text-sm font-bold ${isRobotChecked ? "text-white" : "text-[#134874]"}`}
+                            >
+                                I'm not a robot
+                            </label>
+
+                            {/* Captcha Image */}
+                            <Image
+                                src={isRobotChecked ? '/images/homepage/recaptcha_blue.svg' : '/images/partners/recaptcha.svg'}
+                                className="w-[30px]"
+                                alt="captcha"
+                                width={30}
+                                height={30}
+                                sizes="100vw"
+                                style={{
+                                    objectFit: "cover",
+                                }}
+                                priority
+                            />
+                        </div>
+                        </div>
+                    <button disabled={!isRobotChecked} className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                        Let's Begin
                     </button>
                 </div>
             </form>
