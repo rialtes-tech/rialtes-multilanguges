@@ -93,6 +93,14 @@ body {
   }
 }
 
+.header {
+  position: sticky;
+  top: 0;  /* Keeps the header at the top */
+  z-index: 50;  /* Ensure the header is above the content */
+  background-color: white;  /* Make sure the background is not transparent */
+  width: 100%;
+}
+
 @media (max-width: 767px) {
 
   /* Ensure content is always visible on mobile */

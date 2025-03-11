@@ -5,7 +5,7 @@ import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 
 
-import ContactForm from "@/app/Component/contactForm";
+import ContactForm from "../../components/contactform";
 
 export default function SalesForceManage() {
 

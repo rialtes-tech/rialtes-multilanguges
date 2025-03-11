@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Seo from "../Component/Seo";
+import Seo from "../components/Seo";
 
 export default function Contact() {
 
@@ -50,7 +50,7 @@ export default function Contact() {
         "/images/partners/copa.webp",
         "/images/partners/docus.webp",
         "/images/partners/inform.png",
-        "/images/partners/successf.png"
+        "/images/partners/SAP-Success-Factor-HCM-1.webp"
     ];
 
     const allPartnerships = [
@@ -63,9 +63,9 @@ export default function Contact() {
         { src: "/images/partners/copa.webp", alt: "Copa" },
         { src: "/images/partners/docus.webp", alt: "Docus" },
         { src: "/images/partners/inform.png", alt: "Inform" },
-        { src: "/images/partners/successf.png", alt: "Successf" },
+        { src: "/images/partners/SAP-Success-Factor-HCM-1.webp", alt: "Successf" },
         { src: "/images/partners/dynam.webp", alt: "Dynam" },
-        { src: "/images/partners/successf.png", alt: "Successf" },
+        { src: "/images/partners/power BI.webp", alt: "Successf" },
         { src: "/images/partners/muls.webp", alt: "Muls" },
         { src: "/images/partners/pardot.png", alt: "Pardot" },
         { src: "/images/partners/callc.webp", alt: "Callc" },

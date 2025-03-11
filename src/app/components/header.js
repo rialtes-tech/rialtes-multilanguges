@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import Link from "next/link"
-import { useEffect, useState } from "react";
+import { useRef, useState } from "react";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick }) => {
@@ -19,20 +19,19 @@ const MenuItem = ({ label, link, onHover, className, onClick }) => {
 
 
 const Header = () => {
-  const [currentOpen, setCurrentOpen] = useState(null);
   const [activeCard, setActiveCard] = useState(null);
-  const [isScrolled, setIsScrolled] = useState(false);
   const [expanded, setExpanded] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState(null);
-  const [lastScrollY, setLastScrollY] = useState(0);
   const [activeMenu, setActiveMenu] = useState(null);
-
-
-  const toggleDropdown = (dropdownId) => {
-    setCurrentOpen(currentOpen === dropdownId ? null : dropdownId); // Close if the same dropdown is clicked
+  const cardRef = useRef(null);
+  const handleMouseEnterCard = (cardId) => {
+    setActiveCard(cardId); 
   };
 
+  const handleMouseLeaveCard = () => {
+    setActiveCard(null); 
+  };
 
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -49,29 +48,8 @@ const Header = () => {
   };
 
 
-  const handleCardHover = (cardNumber) => {
-    setActiveCard(cardNumber);
-  };
-
-  const handleScroll = () => {
-    const currentScrollY = window.scrollY;
-
-    if (currentScrollY > 100) {
-      setIsScrolled(true);
-    } else {
-      setIsScrolled(false);
-    }
-    if (currentScrollY < lastScrollY) {
-      setActiveCard(null);
-    }
-    setLastScrollY(currentScrollY);
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [lastScrollY]);
+  
+  
 
   const menuItems = [
     {
@@ -143,7 +121,6 @@ const Header = () => {
       ],
     },
   ];
-
 
   const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub, onMenuItemClick }) => {
     return (
@@ -236,46 +213,44 @@ const Header = () => {
           <MenuItem
             label="About Us"
             link="/about-us"
-            onHover={() => handleCardHover(1)}
+            onHover={() => handleMouseEnterCard(1)}
             onClick={() => handleMenuClick(1)}
             className={`xl:font-bold font-normal  ${activeMenu === 1 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Services"
             link="/services"
-            onHover={() => handleCardHover(2)}
+            onHover={() => handleMouseEnterCard(2)}
             onClick={() => handleMenuClick(2)}
             className={`xl:font-bold font-normal ${activeMenu === 2 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Industries"
             link="/industry"
-            onHover={() => handleCardHover(3)}
+            onHover={() => handleMouseEnterCard(3)}
             onClick={() => handleMenuClick(3)}
             className={`xl:font-bold font-normal  ${activeMenu === 3 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Insights"
             link="/insights"
-            onHover={() => handleCardHover(4)}
+            onHover={() => handleMouseEnterCard(4)}
             onClick={() => handleMenuClick(4)}
             className={`xl:font-bold font-normal ${activeMenu === 4 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
             label="Contact Us"
             link="/contact-us"
-            onHover={() => handleCardHover(5)}
-            onClick={() => handleMenuClick(5)}
             className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-[#0092E0]' : ''}`}
           />
         </div>
       </div>
 
       {/* Cards for each menu item */}
-      <div>
+      <div className="relative" ref={cardRef}>
         {/* About Us Card */}
-        {activeCard === 1 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2">
+        {activeCard === 1 && (
+          <div  onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
@@ -294,8 +269,8 @@ const Header = () => {
         )}
 
         {/* Services Card */}
-        {activeCard === 2 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2">
+        {activeCard === 2 && (
+          <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
@@ -382,8 +357,8 @@ const Header = () => {
         )}
 
         {/* Industries Card */}
-        {activeCard === 3 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2">
+        {activeCard === 3 &&  (
+          <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
@@ -408,8 +383,8 @@ const Header = () => {
         )}
 
         {/* Insights Card */}
-        {activeCard === 4 && !isScrolled && (
-          <div className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[230px] xl:top-[12%] md:top-[7%] left-0 z-20 border-t-2">
+        {activeCard === 4 && (
+          <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[230px] left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2 h-auto">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">

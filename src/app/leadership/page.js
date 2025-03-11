@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Seo from "../Component/Seo";
+import Seo from "../components/Seo";
 export default function Leadership() {
     const leadershipTeam = [
         {

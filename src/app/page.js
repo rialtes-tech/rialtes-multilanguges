@@ -5,8 +5,8 @@ import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import ContactForm from '../app/Component/contactForm';
-import Seo from './Component/Seo';
+import ContactForm from '../app/components/contactform';
+import Seo from './components/Seo';
 
 const CustomArrow = ({ onClick, arrowType }) => {
   return (
@@ -284,8 +284,8 @@ const Home = () => {
               }}
               priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed' alt='demo' src='/images/homepage/Asset1.webp' />
             <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
-              <h2 >AI-Powered Insights for</h2>
-              <h3 className='xl:left-20 absolute'>Smarter Customer Engagement</h3>
+              <div className='xl:text-5xl text-xl'>AI-Powered Insights for</div>
+              <div className='xl:left-20 absolute xl:text-2xl text-lg'>Smarter Customer Engagement</div>
 
             </div>
             <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
@@ -302,8 +302,8 @@ const Home = () => {
               priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/Asset2.webp' />
 
             <div className='absolute text-black top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
-              <h2>Your Complete Path to</h2>
-              <h3 className='xl:left-20 absolute'>Scalable and Intelligent ERP</h3>
+              <div className='xl:text-5xl text-xl'>Your Complete Path to</div>
+              <div className='xl:left-20 absolute xl:text-2xl text-lg'>Scalable and Intelligent ERP</div>
 
             </div>
             <h4 className='bottom-[15%] absolute text-black xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
@@ -319,8 +319,8 @@ const Home = () => {
               priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/Asset3.webp' />
 
             <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
-              <h2>Streamline HR processes</h2>
-              <h3 className='xl:left-20 absolute'>for the Modern Workspace</h3>
+              <div className='xl:text-5xl text-xl'>Streamline HR processes</div>
+              <div className='xl:left-20 absolute xl:text-2xl text-lg'>for the Modern Workspace</div>
 
             </div>
             <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
@@ -387,12 +387,11 @@ const Home = () => {
       </section>
       {/* shaping our services section */}
       <section>
-        <div className='grid xl:grid-cols-4 grid-cols-1 mx-6 xl:mx-[280px] md:mx-[100px]  xl:mr-0 mt-20'>
-          <div className='col-span-2'>
-            <h2 >Shaping Tomorrow with </h2>
-            <h2 >Our Services</h2>
+        <div className='flex  mx-6 xl:mx-[280px] md:mx-[100px]  xl:mr-[400px] mt-20 '>
+          <div className=''>
+            <h2 className='xl:w-[75%] w-full'>Shaping Tomorrow with Our Services</h2>
           </div>
-          <p className='xl:col-span-1 mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5'>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
+          <p className='xl:col-span-1 mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 w-[40%]'>Rialtes partnered with the most innovative enterprise software companies to provide you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
         </div>
         <div className='grid gap-5 xl:ml-[280px] md:ml-[100px]  mx-6 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-10'>
           {ourServices.map((service) => {
@@ -409,10 +408,9 @@ const Home = () => {
       {/* industries experties section section*/}
       <section>
         <div className='bg-[#EFEFEF] mt-20 xl:pb-28'>
-          <div className='grid xl:grid-cols-2 gap-10 grid-cols-1 xl:ml-[280px] md:mx-[100px]  mx-6 pt-10'>
+          <div className='grid xl:grid-cols-2 grid-cols-1 xl:ml-[280px] md:mx-[300px]  mx-6 pt-10'>
             <div>
-            <h2>Industry Expertise </h2>
-            <h2>and Solutions</h2>
+            <h2 className='xl:w-[70%] w-full'>Industry Expertise and Solutions</h2>
             </div>
             <p>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
           </div>
@@ -514,10 +512,7 @@ const Home = () => {
       </section>
       {/* //form section */}
       <section className='pb-20 mt-20 xl:px-[280px]  md:px-[100px] px-6'>
-      <h2>Ready to take the next step? Let’s kick off</h2>
-      <h2>your journey to operational excellence</h2>
-        <ContactForm />
-
+        <ContactForm className='xl:w-[75%] w-full' title='Ready to take the next step? Let’s kick off your journey to operational excellence'/>
       </section>
 
     </section>
