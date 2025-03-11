@@ -329,6 +329,8 @@ const Home = () => {
         </ResponsiveCarousel>
       </section>
       {/* success stories section */}
+      {/* //show 8 */}
+      {/* // 4 cards show 1 dash */}
       <section className='xl:mt-20 mx-6 xl:mx-[280px] md:mx-[100px] md:mr-0 xl:mr-0'>
         <div className='items-center grid xl:grid-cols-3 grid-cols-1'>
           <h2>Success Stories</h2>
@@ -344,7 +346,7 @@ const Home = () => {
           responsive={responsive}
           ssr={true}
           infinite={true}
-          autoPlay={true}
+          autoPlay={false}
           autoPlaySpeed={2000}
           keyBoardControl={true}
           itemClass="carousel-item-padding-40-px"

@@ -28,11 +28,11 @@ export default function Contact() {
     ];
 
     const keyPartners = [
+        "/images/partners/salesf2.webp",
+        "/images/partners/sap2.webp",
         "/images/partners/adobe.webp",
         "/images/partners/ama2.webp",
         "/images/partners/aum2.webp",
-        "/images/partners/salesf2.webp",
-        "/images/partners/sap2.webp",
         "/images/partners/azur2.webp",
         "/images/partners/azd.webp",
         "/images/partners/conga.webp",
@@ -85,7 +85,7 @@ export default function Contact() {
                     key={index}
                     src={src}
                     alt="Leadership Team"
-                    className="h-full saturate-0 hover:saturate-100 border-0"
+                    className="h-full"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -192,7 +192,7 @@ export default function Contact() {
                                 key={index}
                                 src={partner.src}
                                 alt={partner.alt}
-                                className=" h-full saturate-0 hover:saturate-100"
+                                className=" h-full"
                                 width={0}
                                 height={0}
                                 sizes="100vw"
