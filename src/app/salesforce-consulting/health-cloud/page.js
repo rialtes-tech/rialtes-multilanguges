@@ -160,7 +160,7 @@ export default function HealthCloud() {
                         />
                         <h2 className="mt-10">Healthcare made cloud-friendly</h2>
                         <p className="mt-10 mb-10">Uplifting tech and health disruptions are inevitable but adapting the Health Cloud with Rialtes is idyllic</p>
-                        <ul className="list-disc px-3 lg:px-0">
+                        <ul className="list-disc list-inside">
                             <li className="marker:text-blue-500">Dedicated Professionals to meet compliance</li>
                             <li className="marker:text-blue-500 mt-2">Trusted by businesses and industry pioneers</li>
                             <li className="marker:text-blue-500 mt-2">Resources access going beyond life science and healthcare</li>
@@ -193,7 +193,7 @@ export default function HealthCloud() {
             <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10'>
                 <ExploreMoreCarousel />
             </section>
-            <section className="pb-20">
+            <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">
             <ContactForm />
 
             </section>

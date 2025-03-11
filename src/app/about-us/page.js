@@ -2,6 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import ContactForm from "../components/contactform";
 
 export default function About() {
   return (
@@ -16,17 +17,15 @@ export default function About() {
         <div
           className="
         container h-full
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="absolute inset-0 opacity-70"></div>
           <div className="absolute inset-0 opacity-50"></div>
-          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center">
             <h3 className="text-white text-[300] font-medium mb-2">About US</h3>
             <h1 className="text-white max-w-2xl">
               HIGHLY ACCOMPLISHED STRATEGISTS, DESIGNERS, ARCHITECTS, AND
@@ -40,16 +39,14 @@ export default function About() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h2 className="text-[#000000] text-[20px] sm:text-[26px] py-6 max-w-4xl">
               We have been helping customers, across industries, ranging from
               real estate to financial services to healthcare, achieve greater
@@ -132,13 +129,12 @@ export default function About() {
       {/* Mission & Vision Section */}
       <div
         className="
-        container px-6
-        ml-[280px] mr-0
-        
-        lg:ml-[150px] 
-        md:ml-[100px]
-        sm:mx-5 
-        xs:mx-4 "
+        container 
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 w-full relative overflow-hidden group">
           <div className="absolute inset-0">
@@ -163,7 +159,7 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white/80"></div>
             </div>
           </div>
-          <div className="container mx-auto px-6 relative z-10">
+          <div className="container mx-auto relative z-10">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-full md:w-2/5">
                 <div className="w-full h-64 bg-[url('/images/about-us/vision-mission.webp')] md:bg-none bg-cover bg-left overflow-hidden">
@@ -204,16 +200,14 @@ export default function About() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="flex flex-col md:flex-row gap-8 mb-16 items-center">
               <div className="w-[300px] md:w-1/5">
                 <h2 className="text-[#000000]">Our Values</h2>
@@ -347,15 +341,13 @@ export default function About() {
         <div
           className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h2 className="text-[#000000] mb-8">Our Partnerships</h2>
 
             <p className="text-[#000000] mb-12 max-w-3xl">
@@ -402,7 +394,7 @@ export default function About() {
             <div className="flex justify-start">
               <button className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
                 <span className="inline-flex items-center group-hover:-translate-x-1 transition-transform duration-300">
-                <Link href='partners'>  View All Our Partners</Link>
+                  <Link href='partners'>  View All Our Partners</Link>
                   <span className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 ml-1">
                     &gt;
                   </span>
@@ -417,16 +409,14 @@ export default function About() {
       <div
         className="
   container
-  ml-[280px] w-[calc(100%-280px)] mr-0
-  
-  xl:ml-[200px] xl:w-[calc(100%-200px)]
-  lg:ml-[150px] lg:w-[calc(100%-150px)]
+  ml-[15px] w-[calc(100%-15px)] mr-0
+  xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="flex flex-col md:flex-row items-center">
               <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-12 order-2 md:order-1">
                 <h2 className="text-[#000000] mb-6 order-1">
@@ -469,90 +459,14 @@ export default function About() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        xs:mx-4 xs:w-[calc(100%-32px)]
+        text-black py-6"
       >
-        <section className="py-16 bg-white px-6">
-          <div className="container max-w-5xl">
-            <h2 className="text-[#000000] md:mb-8 max-w-4xl mb-6">
-              Ready to take the next step? Let's kick off your journey to
-              operational excellence
-            </h2>
-
-            <form className="max-w-3xl">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Name*"
-                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Surname*"
-                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    placeholder="Email*"
-                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Company*"
-                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Job Title*"
-                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="tel"
-                    placeholder="Phone*"
-                    className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <textarea
-                  placeholder="Message*"
-                  rows="6"
-                  className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
-                  required
-                ></textarea>
-              </div>
-
-              <div>
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                  Let's Begin
-                </button>
-              </div>
-            </form>
-          </div>
-        </section>
+        <ContactForm />
       </div>
     </div>
   );

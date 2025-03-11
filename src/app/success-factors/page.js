@@ -53,7 +53,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black 2xl:pr-80 xl:pr-40 md:pr-20">
+    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20">
       <h2 className="text-black mb-6">End-to-end SAP SuccessFactors Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
@@ -86,15 +86,13 @@ export default function Page() {
         <div
           className="
                     container h-full relative
-                    ml-[280px] w-[calc(100%-280px)] mr-0
-             
-                    xl:ml-[200px] xl:w-[calc(100%-200px)]
-                    lg:ml-[150px] lg:w-[calc(100%-150px)]
-                    md:ml-[100px] md:w-[calc(100%-100px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
                     sm:mx-5 sm:w-[calc(100%-40px)]
                     xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center">
             <h3 className="text-white text-[300] font-medium mb-2">SuccessFactor</h3>
             <h1 className="text-white max-w-2xl">
               HR Transformation Enabled Using SuccessFactors
@@ -118,17 +116,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6 2xl:pr-72 xl:pr-40 md:pr-20">
+          <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row items-center py-6">
               <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
                 <h2 className="text-black md:pb-0 pb-4">Achieve Performance Excellence with SuccessFactors Consulting</h2>
@@ -146,10 +142,8 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
@@ -166,16 +160,14 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-10">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h2 className="pb-8 text-black">SuccessFactors Integration Solutions</h2>
             <div className="flex md:flex-row flex-col justify-between gap-6 mr-6">
               <div className="flex items-center">
@@ -232,16 +224,14 @@ export default function Page() {
         <div
           className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <section className="py-10">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto">
               <h2 className="pb-8 text-black">Reimagine Employee Experiences and Optimize HR Operations</h2>
               <div className="flex md:flex-row flex-col gap-6">
                 <div className="flex flex-col xl:w-1/4 md:w-1/3">
@@ -268,16 +258,14 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="pb-16 pt-16 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h2 className="pb-6 text-black xl:hidden flex">Maximize HR Efficiency in Your Organization</h2>
             <div className="flex flex-col-reverse md:flex-row gap-6 py-6">
               <div className="flex flex-col w-full">
@@ -316,10 +304,8 @@ export default function Page() {
         <div
           className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
@@ -333,16 +319,14 @@ export default function Page() {
       < div
         className="
   container
-  ml-[280px] w-[calc(100%-280px)] mr-0
-  
-  xl:ml-[200px] xl:w-[calc(100%-200px)]
-  lg:ml-[150px] lg:w-[calc(100%-150px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
   py-10"
       >
-        <InsightsCarousel padding={"px-6"} />
+        <InsightsCarousel />
 
       </div >
 
@@ -351,10 +335,8 @@ export default function Page() {
         <div
           className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
@@ -369,16 +351,14 @@ export default function Page() {
       < div
         className="
   container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]
   text-black py-6"
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} padding={'px-6'} />
+        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 
       </div >
 

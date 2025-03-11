@@ -230,15 +230,13 @@ export default function About() {
         <div
           className="
         container h-full relative
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center">
             <h1 className="text-[#000000] max-w-2xl">
               A symphony of
               <br />
@@ -251,16 +249,14 @@ export default function About() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h2 className="text-[#000000] text-[20px] sm:text-[26px] py-6 max-w-4xl mb-12">
             Join industry leaders and technology experts in Rialtes' exclusive webinars. Explore cutting-edge solutions in SAP, Salesforce, AI, and digital transformation through live discussions, expert panels, and interactive Q&A sessions.
             </h2>
@@ -460,15 +456,13 @@ export default function About() {
       <div
         className="
               container
-              ml-[280px] w-[calc(100%-280px)] mr-0
-      
-              xl:ml-[200px] xl:w-[calc(100%-200px)]
-              lg:ml-[150px] lg:w-[calc(100%-150px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
               sm:mx-5 sm:w-[calc(100%-40px)]
               xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="container px-4 py-8 lg:max-w-[800px] xl:max-w-[1600px]">
+        <section className="container py-8 lg:max-w-[800px] xl:max-w-[1600px]">
           <h2 className="mb-6">Past Webinar</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">

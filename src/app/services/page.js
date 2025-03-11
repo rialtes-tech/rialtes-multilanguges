@@ -82,7 +82,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 text-black 2xl:pr-80 xl:pr-40 md:pr-20">
+    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
@@ -115,15 +115,13 @@ export default function Page() {
         <div
           className="
                           container h-full relative
-                          ml-[280px] w-[calc(100%-280px)] mr-0
-                   
-                          xl:ml-[200px] xl:w-[calc(100%-200px)]
-                          lg:ml-[150px] lg:w-[calc(100%-150px)]
-                          md:ml-[100px] md:w-[calc(100%-100px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
                           sm:mx-5 sm:w-[calc(100%-40px)]
                           xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center">
             <h3 className="text-white text-[300] font-medium mb-2">Services</h3>
             <h1 className="text-white max-w-2xl">
               Comprehensive Solutions to Transform Experiences and Shape your Digital Future
@@ -136,17 +134,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6 xl:pr-72 md:pr-20">
+          <div className="container mx-auto xl:pr-72 md:pr-20">
             <div className="flex flex-col xl:flex-row items-center py-6">
               <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
                 <h2 className="text-black md:pb-0 pb-4">Our Enterprise Management Services For A Secure And Sustainable Future</h2>
@@ -164,10 +160,8 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
@@ -183,10 +177,8 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
@@ -201,10 +193,8 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]

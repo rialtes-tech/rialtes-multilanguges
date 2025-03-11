@@ -47,7 +47,7 @@ const Header = () => {
     }
   };
 
-  
+
 
   const toggleSubAccordion = (label) => {
     setExpandedSub(expandedSub === label ? null : label);
@@ -204,8 +204,8 @@ const Header = () => {
       <div className="hidden relative bg-white my-auto mx-auto xl:gap-5 md:gap-2 container
       ml-[200px] w-[calc(100%-200px)] mr-0  
         xl:ml-[280px] xl:w-[calc(100%-280px)]
-        lg:ml-[100px] lg:w-[calc(100%-100px)]
-        md:ml-[100px] md:w-[calc(100%-100px)] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12 py-6">
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12 py-6">
         <div className="lg:col-span-5 col-span-4">
           <Link href="/" passHref>
             <Image
@@ -214,7 +214,7 @@ const Header = () => {
               width={0}
               height={0}
               sizes="100vw"
-              src="/images/homepage/logo.png"
+              src="/images/homepage/logo.svg"
               style={{ width: "165px", objectFit: "cover", objectPosition: "35% 20%" }}
               priority
             />
@@ -370,7 +370,7 @@ const Header = () => {
         )}
 
         {/* Industries Card */}
-        {activeCard === 3 &&  (
+        {activeCard === 3 && (
           <div onClick={() => setActiveCard(null)} onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2">
@@ -430,7 +430,7 @@ const Header = () => {
             lang="Company Logo2"
             height='150'
             width='100'
-            src='/images/homepage/logo.png'
+            src='/images/homepage/logo.svg'
           />
           <button onClick={toggleMenu} className="p-4">
             {/* Hamburger Icon or Close Icon */}
@@ -500,7 +500,7 @@ const Header = () => {
                   lang="Company Logo2"
                   height='150'
                   width='100'
-                  src='/images/homepage/logo.png'
+                  src='/images/homepage/logo.svg'
                 />
               </div>
             </div>

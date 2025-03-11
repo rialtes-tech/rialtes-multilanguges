@@ -60,7 +60,7 @@ export default function RelatedTopicsCarousel({ slides }) {
 
   return (
     <section className="relative pb-6 bg-white">
-      <div className="container mx-auto pl-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Related Topics</h2>
         </div>
@@ -78,7 +78,7 @@ export default function RelatedTopicsCarousel({ slides }) {
           transitionDuration={500}
           containerClass="carousel-container pb-4"
           removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"
           partialVisible={true}
           arrows={false}

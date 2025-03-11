@@ -158,17 +158,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Diversity & Inclusion</span> <span className='text-[#ACACAC]'> | </span>12 Nov 2024
@@ -219,11 +217,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives</h1>
           </div>
 
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="max-w-4xl md:w-4/2">
 
               <p className="text-black pb-4">Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success. Leading companies understand that <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/embracing-diversity-in-the-workplace-the-key-to-a-thriving-business/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=SuccessFactors_Supports_Diversity"}><span className="font-bold">fostering a diverse and inclusive environment</span></Link> allows employees to bring their authentic selves to work, which enhances creativity, productivity, and ultimately, business growth. In today’s tech-driven world, DEI initiatives require not only commitment but also the right tools.</p>
@@ -297,13 +295,12 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        xs:mx-4 xs:w-[calc(100%-32px)]
+        pb-10"
       >
         <BlogsCarousel slides={blogs} />
 

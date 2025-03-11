@@ -143,7 +143,7 @@ export default function servicesInsightsCarousel({ padding }) {
           transitionDuration={500}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"
           partialVisible={true}
           arrows={false}

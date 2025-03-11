@@ -158,17 +158,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Integration</span> <span className='text-[#ACACAC]'> | </span>11 Nov 2024
@@ -219,11 +217,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration</h1>
           </div>
 
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="max-w-4xl md:w-4/2">
 
               <p className="text-black pb-4">Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market. Delivering a seamless patient experience is as important as providing quality care. With the increasing need for efficient patient management and data integration, healthcare providers are turning to strategic <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/optimizing-healthcare-operations-with-kipu-emr-integration-and-salesforce/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=athenahealth_salesforce_integration"}><span className="font-bold">EHR/EMR app integrations</span></Link> and data operations to enhance their CRM systems.</p>
@@ -320,13 +318,12 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        xs:mx-4 xs:w-[calc(100%-32px)]
+        pb-10"
       >
         <BlogsCarousel slides={blogs} />
 
