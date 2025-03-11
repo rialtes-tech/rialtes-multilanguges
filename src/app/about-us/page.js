@@ -214,7 +214,7 @@ export default function About() {
       >
         <section className="py-16 bg-white">
           <div className="container mx-auto px-6">
-            <div className="flex flex-col md:flex-row gap-8 mb-16">
+            <div className="flex flex-col md:flex-row gap-8 mb-16 items-center">
               <div className="w-[300px] md:w-1/5">
                 <h2 className="text-[#000000]">Our Values</h2>
               </div>
@@ -402,7 +402,7 @@ export default function About() {
             <div className="flex justify-start">
               <button className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
                 <span className="inline-flex items-center group-hover:-translate-x-1 transition-transform duration-300">
-                  View All Our Partners
+                <Link href='partners'>  View All Our Partners</Link>
                   <span className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 ml-1">
                     &gt;
                   </span>

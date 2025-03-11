@@ -55,7 +55,6 @@ const Footer = () => {
         handleResize();
         window.addEventListener("resize", handleResize);
     
-        // Clean up the event listener when the component is unmounted
         return () => {
           window.removeEventListener("resize", handleResize);
         };
@@ -64,8 +63,8 @@ const Footer = () => {
     return (
         <footer
         className={`${
-          isCentered ? "flex justify-center items-center" : "xl:px-0 lg:px-6 px-6"
-        } pt-10 h-auto footer-background pb-10 flex flex-col items-center justify-center`}
+          isCentered ? "flex" : "xl:px-0 lg:px-6 px-6"
+        } pt-10 h-auto footer-background pb-10 flex flex-col`}
       >        <div className="flex flex-col xl:pl-[14%] lg:flex-row md:flex-row border-b-[1px] px-6 md:pl-[100px] xl:gap-[18rem] lg:gap-10 pb-10 mt-4 w-full xl:pr-0 lg:pr-[50px] xl:justify-start mx-auto">
     
             <div className="flex gap-5 lg:flex-row flex-col">
@@ -73,29 +72,29 @@ const Footer = () => {
                     height="100"
                     width="150"
                     src="/images/homepage/footerlogo.png"
-                    className="w-40 h-32"
+                    className="w-40 h-32 mt-[25px]"
                     alt="Company Logo"
                     loading="lazy"
                     href='/'
                 />
                 <div className="xl:mt-10">
-                    <h3><span className="text-lg lg:text-2xl">Simplifying</span> <span className="opacity-50 text-lg lg:text-2xl">Problems</span></h3>
-                    <h3><span className="text-lg lg:text-2xl">Enabling</span> <span className="opacity-50 text-lg lg:text-2xl">Solutions</span></h3>
-                    <h3><span className="text-lg lg:text-2xl">Empowering</span> <span className="opacity-50 text-lg lg:text-2xl">Customers</span></h3>
+                    <h3><span className="text-lg lg:text-xl font-bold">Simplifying</span> <span className="opacity-50 text-lg lg:text-xl">Problems</span></h3>
+                    <h3><span className="text-lg lg:text-xl font-bold">Enabling</span> <span className="opacity-50 text-lg lg:text-xl">Solutions</span></h3>
+                    <h3><span className="text-lg lg:text-xl font-bold">Empowering</span> <span className="opacity-50 text-lg lg:text-xl">Customers</span></h3>
                 </div>
             </div>
     
             <div className="flex gap-10 flex-col xl:flex-row md:flex-row">
                 {/* Links Section */}
                 <div className="flex md:gap-5 gap-5 xl:justify-start mt-5 lg:mt-0 xl:mt-10">
-                    <div className="opacity-60">
+                    <div>
                         <Link href="/about-us">About Us</Link>
                         <p className="mt-3"><Link href="/service">Services</Link></p>
                         <p className="mt-3"><Link href="/industry">Industries</Link></p>
                         <p className="mt-3"><Link href="/insights">Insights</Link></p>
                         <p className="mt-3"><Link href="/contact-us">Contact Us</Link></p>
                     </div>
-                    <div className="opacity-60">
+                    <div>
                         <div>
                             <p><Link href="/sitemap">Sitemap</Link></p>
                             <p className="mt-3"><Link href="/terms">Terms of use</Link></p>
@@ -135,6 +134,8 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <p className="mt-5 text-start flex px-6 xl:px-[280px]">©2025 Rialtes Technology, All rights reserved</p>
+
     
         {/* Scroll to Top Button */}
         {isVisible && (
@@ -147,7 +148,6 @@ const Footer = () => {
         )}
     
         {/* Footer Text */}
-        <p className="mt-3 xl:text-start text-center">©2025 Rialtes Technology, All rights reserved</p>
     </footer>
     
 
