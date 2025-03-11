@@ -28,8 +28,8 @@ export default function ContactForm({ title, className, padding }) {
     };
 
     const handleCheckboxChange = () => {
-        setIsLoading(true); // Start loading when the checkbox is clicked
-        setIsRobotChecked(false)
+        setIsLoading(true); 
+        setIsRobotChecked(false);
         setTimeout(() => {
             // After 1 second, mark the checkbox as checked
             setIsLoading(false); // Stop the loader
@@ -126,30 +126,28 @@ export default function ContactForm({ title, className, padding }) {
                 </div>
 
 
-                <div className='mt-5 flex gap-8'>
-                <div
-                        className={`flex items-center gap-2 border p-2 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
+                <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
+                    <div
+                        className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
                     >
-                        <div className="flex gap-3">
-                            {/* Checkbox with loading animation */}
+                        <div className="flex gap-3 items-center">
                             <div className="relative">
                                 <input
                                     type="checkbox"
                                     id="robotCheck"
                                     checked={isRobotChecked}
                                     onChange={handleCheckboxChange}
-                                    className={`h-5 w-5 ${isRobotChecked ? "bg-[#134874]" : "bg-white"}`}
-                                />
+                                    className={`h-8 w-8 border-2 flex rounded-sm transition-all 
+                                        ${isRobotChecked ? 'border-green-500 bg-white' : 'border-gray-300 bg-white'}`}                                />
+                              
 
-                                {/* Circle loader shown during the loading state */}
                                 {isLoading && (
                                     <div className="absolute inset-0 flex items-center justify-center">
-                                        <div className="w-5 h-5 border-4 border-t-4 border-gray-300 border-t-[#134874] rounded-full animate-spin"></div>
+                                        <div className="w-[32px] h-[32px] border-4 border-t-4 border-gray-300 border-t-[#71acdb] rounded-full animate-spin"></div>
                                     </div>
                                 )}
                             </div>
 
-                            {/* Text for CAPTCHA */}
                             <label
                                 htmlFor="robotCheck"
                                 className={`text-sm font-bold ${isRobotChecked ? "text-white" : "text-[#134874]"}`}
@@ -157,7 +155,6 @@ export default function ContactForm({ title, className, padding }) {
                                 I'm not a robot
                             </label>
 
-                            {/* Captcha Image */}
                             <Image
                                 src={isRobotChecked ? '/images/homepage/recaptcha_blue.svg' : '/images/partners/recaptcha.svg'}
                                 className="w-[30px]"
@@ -171,7 +168,7 @@ export default function ContactForm({ title, className, padding }) {
                                 priority
                             />
                         </div>
-                        </div>
+                    </div>
                     <button disabled={!isRobotChecked} className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
                     </button>

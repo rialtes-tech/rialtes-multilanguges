@@ -291,16 +291,18 @@ export default function SalesForceConsulting() {
                                 <div className="p-8">
                                     <h3 className="mt-5 text-[22px] font-bold text-[#1F3F69]">{product.title}</h3>
                                     <p className="mt-5">{product.description}</p>
-                                    <ul className="mt-5 list-inside">
+                                    <ul className="mt-5">
                                         {product?.productsDetails?.map((details, index) => {
                                             return (
                                                 <li
-                                                    key={index}
-                                                    className="inline-block font-medium  before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:pr-2"
-                                                >
-                                                    {details}
-                                                </li>
-
+                                                key={index}
+                                                className="font-medium flex mt-3 items-baseline before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2   before:inline align-middle before:leading-[30px]"
+                                            >
+                                                {details}
+                                            </li>
+                                            
+                                            
+                                            
                                             )
                                         })}
                                     </ul>

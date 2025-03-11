@@ -2,56 +2,40 @@
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 
-
 export default function servicesInsightsCarousel() {
   const slides = [
-    {
-      id: 1,
-      category: "Healthcare",
-      description: "Our Salesforce healthcare CRM can help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels, MedTech services, and patient engagement solutions to facilitate exceptional patient care.",
-        },
-    {
-      id: 2,
-      category: "Real Estate",
-      description: "Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties, and rental agreements with our property management software.",
-    },
-    {
-      id: 3,
-      category: "Manufacturing",
-      description: "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies with Salesforce. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly.",
-    },
-    {
-      id: 4,
-      category: "Hi-tech",
-      description: "Our Salesforce consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms.",
-    },
-    {
-      id: 5,
-      category: "Finance",
-      description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust.",
-    },    
-    {
-        id: 6,
-        category: "Public Sector",
-        description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we're shaping the future of the public sector",
-      },    
+    { id: 1, category: "Healthcare", description: "Our Salesforce healthcare CRM can help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels, MedTech services, and patient engagement solutions to facilitate exceptional patient care." },
+    { id: 2, category: "Real Estate", description: "Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties, and rental agreements with our property management software." },
+    { id: 3, category: "Manufacturing", description: "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies with Salesforce. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly." },
+    { id: 4, category: "Hi-tech", description: "Our Salesforce consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms." },
+    { id: 5, category: "Finance", description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust." },
+    { id: 6, category: "Public Sector", description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we're shaping the future of the public sector" },
   ];
 
+  // Limit to only 6 items
+  const limitedSlides = [
+    // First slide: Healthcare, Real Estate, Manufacturing, Hi-tech
+    [slides[0], slides[1], slides[2], slides[3]],
+    
+    // Second slide: Manufacturing, Hi-tech, Finance, Public Sector
+    [slides[2], slides[3], slides[4], slides[5]],
+  ];
+  // Adjust the responsive settings for showing 4 items on the first slide, 2 on the second
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 4,  // Show 4 items per slide for desktop
       slidesToSlide: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 575 },
-      items: 2,
+      items: 2,  // Show 2 items per slide for tablets
       centerMode: true,
       slidesToSlide: 2,
     },
     mobile: {
       breakpoint: { max: 575, min: 0 },
-      items: 1,
+      items: 1,  // Show 1 item per slide for mobile
       centerMode: true,
     },
   };
@@ -93,11 +77,10 @@ export default function servicesInsightsCarousel() {
     <section className="relative pb-8 bg-white">
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pb-5">
-            <div>
+          <div>
             <h2 className="text-black mb-6">Different industries, different mindsets</h2>
-          <p className="w-[60%]">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
-
-            </div>
+            <p className="w-[60%]">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
+          </div>
         </div>
         <Carousel
           swipeable={true}
@@ -128,9 +111,8 @@ export default function servicesInsightsCarousel() {
               className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group md:min-h-[450px] min-h-[350px]`}
             >
               <div className="min-h-[350px] min-w-full relative">
-               
                 <div className="absolute inset-0 p-6 my-4">
-                  <h4 className="line-clamp-4 md:line-clamp-4 mt-3">{slide.category}</h4>
+                  <div className=" mt-3 font-bold text-[18px]">{slide.category}</div>
                   <p className="mt-3">{slide.description}</p>
                 </div>
               </div>
@@ -140,5 +122,4 @@ export default function servicesInsightsCarousel() {
       </div>
     </section>
   );
-
 }
