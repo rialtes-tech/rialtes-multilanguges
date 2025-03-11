@@ -26,11 +26,11 @@ const Header = () => {
   const [activeMenu, setActiveMenu] = useState(null);
   const cardRef = useRef(null);
   const handleMouseEnterCard = (cardId) => {
-    setActiveCard(cardId); 
+    setActiveCard(cardId);
   };
 
   const handleMouseLeaveCard = () => {
-    setActiveCard(null); 
+    setActiveCard(null);
   };
 
 
@@ -48,8 +48,8 @@ const Header = () => {
   };
 
 
-  
-  
+
+
 
   const menuItems = [
     {
@@ -193,23 +193,30 @@ const Header = () => {
   };
   return (
     <section>
+      {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
 
-      <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
-        <div className="col-span-4">
+      <div className="hidden relative bg-white my-auto mx-auto xl:gap-5 md:gap-2 container
+      ml-[200px] w-[calc(100%-200px)] mr-0  
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        md:ml-[100px] md:w-[calc(100%-100px)] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12 py-6">
+        <div className="col-span-5">
           <Link href="/" passHref>
             <Image
-              className="z-[999] cursor-pointer w-[200px] object-cover"
+              className="z-[999] cursor-pointer"
               alt="Company logo"
               width={0}
               height={0}
               sizes="100vw"
               src="/images/homepage/logo.png"
+              style={{ width: "165px", objectFit: "cover", objectPosition: "35% 20%" }}
+              priority
             />
           </Link>
         </div>
 
 
-        <div className="col-span-8 flex gap-5">
+        <div className="col-span-7 flex gap-8">
           <MenuItem
             label="About Us"
             link="/about-us"
@@ -250,7 +257,7 @@ const Header = () => {
       <div className="relative" ref={cardRef}>
         {/* About Us Card */}
         {activeCard === 1 && (
-          <div  onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute">
+          <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
@@ -357,7 +364,7 @@ const Header = () => {
         )}
 
         {/* Industries Card */}
-        {activeCard === 3 &&  (
+        {activeCard === 3 && (
           <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2">

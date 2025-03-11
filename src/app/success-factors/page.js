@@ -342,7 +342,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   py-10"
       >
-        <InsightsCarousel />
+        <InsightsCarousel padding={"px-6"} />
 
       </div >
 
@@ -369,16 +369,16 @@ export default function Page() {
       < div
         className="
   container
-  ml-[280px] w-[calc(100%-280px)] mr-0
-  
-  xl:ml-[200px] xl:w-[calc(100%-200px)]
-  lg:ml-[150px] lg:w-[calc(100%-150px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
+        ml-[280px] w-[calc(100%-280px)] mr-0
+        
+        xl:ml-[200px] xl:w-[calc(100%-200px)]
+        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]
   text-black py-6"
       >
-        <ContactForm />
+        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} padding={'px-6'} />
 
       </div >
 
