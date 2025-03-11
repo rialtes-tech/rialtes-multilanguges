@@ -198,9 +198,9 @@ const Header = () => {
       <div className="hidden relative bg-white my-auto mx-auto xl:gap-5 md:gap-2 container
       ml-[200px] w-[calc(100%-200px)] mr-0  
         xl:ml-[280px] xl:w-[calc(100%-280px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        lg:ml-[100px] lg:w-[calc(100%-100px)]
         md:ml-[100px] md:w-[calc(100%-100px)] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12 py-6">
-        <div className="col-span-5">
+        <div className="lg:col-span-5 col-span-4">
           <Link href="/" passHref>
             <Image
               className="z-[999] cursor-pointer"
@@ -216,7 +216,7 @@ const Header = () => {
         </div>
 
 
-        <div className="col-span-7 flex gap-8">
+        <div className="lg:col-span-7 col-span-8 flex lg:gap-8 gap-6">
           <MenuItem
             label="About Us"
             link="/about-us"
