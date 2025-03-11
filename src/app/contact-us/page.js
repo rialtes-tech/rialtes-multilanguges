@@ -92,9 +92,11 @@ export default function Contact() {
                     <br />
                     2nd Floor, Sahastradhara
                     <br />
-                    Road, Dehradun, Uttarakhand-
+                    Road, Dehradun
                     <br />
-                    248001
+                    Uttarakhand - 248001
+                    <br/>
+                    E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
 
                 </>
             ),
@@ -127,7 +129,7 @@ export default function Contact() {
             <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 xl:pr-16 mt-10">
                 <div>
                     <h1>Our presence across the Globe</h1>
-                    <h4 className="mt-5">How can we help you?</h4>
+                    <h4 className="mt-5 text-2xl">How can we help you?</h4>
                     <p> Contact us, we would love to hear from you</p>
                 </div>
                 <div className="xl:pr-[200px]">

@@ -40,8 +40,14 @@ const Header = () => {
   };
 
   const handleMenuClick = (menuIndex) => {
-    setActiveMenu(menuIndex);
+    if (activeCard === menuIndex) {
+      setActiveCard(null);  // Close the card if clicked again
+    } else {
+      setActiveCard(menuIndex);  // Open the clicked card
+    }
   };
+
+  
 
   const toggleSubAccordion = (label) => {
     setExpandedSub(expandedSub === label ? null : label);
@@ -250,11 +256,11 @@ const Header = () => {
       <div className="relative" ref={cardRef}>
         {/* About Us Card */}
         {activeCard === 1 && (
-          <div  onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute">
+          <div onClick={() => setActiveCard(null)} onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
-                  Your Trusted Partner for Innovation and DigitalTransformation
+                  Your Trusted Partner for Innovation and Digital Transformation
                 </h3>
                 <Link href='/about-us'>
                   <h6 className="mt-3">More About Rialtes →</h6>
@@ -270,7 +276,7 @@ const Header = () => {
 
         {/* Services Card */}
         {activeCard === 2 && (
-          <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
+          <div onClick={() => setActiveCard(null)} onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
@@ -358,11 +364,11 @@ const Header = () => {
 
         {/* Industries Card */}
         {activeCard === 3 &&  (
-          <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2 absolute">
+          <div onClick={() => setActiveCard(null)} onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-8 left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
-                  Precision solutions, custom-crafted for Across DiverseSectors
+                  Precision solutions, custom-crafted for Across Diverse Sectors
                 </h3>
                 <Link href='/industry'>
                   <h6 className="mt-3">More About Industry →</h6>
@@ -384,7 +390,7 @@ const Header = () => {
 
         {/* Insights Card */}
         {activeCard === 4 && (
-          <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[230px] left-0 z-20 border-t-2 absolute">
+          <div onClick={() => setActiveCard(null)} onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-[230px] left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-4 border-r-2 h-auto">
                 <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">

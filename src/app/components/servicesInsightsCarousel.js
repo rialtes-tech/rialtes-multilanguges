@@ -155,7 +155,7 @@ export default function servicesInsightsCarousel() {
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className={`flex md:flex-row flex-col border border-[#707070] sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
+              className={`flex md:flex-row flex-col sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
             >
               <div className="min-w-full relative">
                 

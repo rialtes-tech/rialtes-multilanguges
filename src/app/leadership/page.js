@@ -11,14 +11,14 @@ export default function Leadership() {
         },
         {
             id: 2,
-            imageUr: '/images/leadership/Anuraagd.webp',
+            imageUr: '/images/leadership/Anuraag Aggarwal.webp',
             name: 'Anuraag Aggarwal',
             designation: ' AI practice Lead',
             viewMore: 'View Bio'
         },
         {
             id: 3,
-            imageUr: '/images/leadership/Akshay.webp',
+            imageUr: '/images/leadership/Akshay Kale (1).webp',
             name: 'Akshay Kale',
             designation: ' SAP Practice Lead',
             viewMore: 'View Bio'
@@ -32,7 +32,7 @@ export default function Leadership() {
         },
         {
             id: 5,
-            imageUr: '/images/leadership/Pawan.webp',
+            imageUr: '/images/leadership/Pawan Tyagi (1).webp',
             name: 'Pawan Tyagi',
             designation: 'Sr.Managing Director - Salesforce Services',
             viewMore: 'View Bio'
@@ -46,14 +46,14 @@ export default function Leadership() {
         },
         {
             id: 7,
-            imageUr: '/images/leadership/Samadhan.webp',
+            imageUr: '/images/leadership/Samadhan Patil (1).webp',
             name: 'Samadhan Patil',
             designation: ' Finance & Operations Lead',
             viewMore: 'View Bio'
         },
         {
             id: 8,
-            imageUr: '/images/leadership/Rajani.webp',
+            imageUr: '/images/leadership/Rajani Patel (1).webp',
             name: 'Rajani Patel',
             designation: ' Senior Human Resources Manager',
             viewMore: 'View Bio'

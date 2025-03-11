@@ -339,17 +339,17 @@ export default function SalesForceConsulting() {
                         <div className=" col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20" >
                             <div>
                                 <div className="text-[#0092E0] font-bold text-5xl">1%</div>
-                                <div className="text-[#0092E0] text-xl">growth</div>
+                                <div className="text-[#0092E0] text-xl font-bold">growth</div>
                                 <p className="mt-5">revenue for our customer</p>
                             </div>
                             <div>
                                 <div className="text-[#0092E0] font-bold text-5xl">35%</div>
-                                <div className="text-[#0092E0] text-xl">growth</div>
+                                <div className="text-[#0092E0] text-xl font-bold">growth</div>
                                 <p className="mt-5">customer service level satisfaction</p>
                             </div>
                             <div>
                                 <div className="text-[#0092E0] font-bold text-5xl">45%</div>
-                                <div className="text-[#0092E0] text-xl">growth</div>
+                                <div className="text-[#0092E0] text-xl font-bold">growth</div>
                                 <p className="mt-5">decision-making efficiency</p>
                             </div>
                         </div>
