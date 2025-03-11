@@ -135,10 +135,12 @@ const CaseStudy = () => {
 
   const toggleOptionsIndustry = () => {
     setShowOptionsIndustry(!showOptionsIndustry);
+    setShowOptionsCategory(false);
   };
 
   const toggleOptionsCategory = () => {
     setShowOptionsCategory(!showOptionsCategory);
+    setShowOptionsIndustry(false);
   };
 
 
@@ -163,14 +165,14 @@ const CaseStudy = () => {
   const isLoadMoreVisible = visibleCaseStudy < filteredCaseStudyByCategory.length;
 
   return (
-    <div className="container mx-auto px-6 text-black">
+    <div className="container mx-auto px-6 text-black xl:pr-[150px]">
       <div className="flex md:flex-row flex-col pb-4 items-center">
         <div className="flex flex-col md:pb-0 pb-4">
           <h3 className="text-black">Search result by {selectedIndustry} industry / {selectedCategory} category</h3>
         </div>
         <div className="relative flex md:flex-row md:ml-auto h-[60px]">
           <div className="relative">
-            <button className='relative border border-[#707070] w-40 py-4 px-2 sm:mr-4 mr-0 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-4 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
               <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -183,7 +185,7 @@ const CaseStudy = () => {
               </svg>
             </button>
             {showOptionsIndustry && (
-              <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] sm:mr-4 mr-0 right-0 z-10'>
+              <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 z-10'>
                 <ul>
                   <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Healthcare')}>Healthcare</li>
@@ -197,7 +199,7 @@ const CaseStudy = () => {
             )}
           </div>
           <div className="relative">
-            <button className='relative border border-[#707070] py-4 px-2 w-40 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
+            <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
               <span className="pr-5">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -210,7 +212,7 @@ const CaseStudy = () => {
               </svg>
             </button>
             {showOptionsCategory && (
-              <div className='absolute bg-white border border-[#707070] w-full md:w-[250px] right-0 z-10'>
+              <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 z-10'>
                 <ul>
                   <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('SAP')}>SAP</li>
@@ -291,7 +293,7 @@ const FeaturedCarousel = () => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
-      partialVisibilityGutter: 100,
+      partialVisibilityGutter: 200,
       slidesToSlide: 1,
     },
     tablet: {
@@ -310,8 +312,8 @@ const FeaturedCarousel = () => {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
-        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+      <div className="flex carousel-button-group absolute top-0 lg:right-[175px] right-4 md:mt-4">
+        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-5 group transition-all duration-300' : 'bg-white p-2 mr-5 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
@@ -342,9 +344,9 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div className="container mx-auto pl-6">
+      <div className="container mx-auto sm:pl-6 sm:px-0 px-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Latest Blogs</h2>
+          <h2 className="text-black mb-6">Latest Studies</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -429,7 +431,7 @@ export default function Page() {
         >
           <div className="container mx-auto px-6 h-full flex flex-col justify-center">
             <div className="flex flex-col">
-              <h3 className="text-white text-[300] font-medium mb-2">Case Study</h3>
+              <h3 className="text-white text-[300] font-medium mb-2">Case Studies</h3>
               <h1 className="text-white max-w-2xl">
                 Rial Results, Rial Impact
               </h1>
@@ -503,7 +505,7 @@ export default function Page() {
         lg:ml-[150px] lg:w-[calc(100%-150px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        xs:mx-4 xs:w-[calc(100%-32px)] mb-10"
       >
         <BlogsCarousel />
 

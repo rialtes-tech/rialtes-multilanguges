@@ -66,7 +66,7 @@ export default function servicesFeaturedCarousel() {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
-      partialVisibilityGutter: 80,
+      partialVisibilityGutter: 250,
       slidesToSlide: 1,
     },
     tablet: {
@@ -85,7 +85,7 @@ export default function servicesFeaturedCarousel() {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+      <div className="flex carousel-button-group absolute top-0 xl:right-52 lg:right-20 md:right-10 right-4 md:mt-20">
         <button className={currentSlide === 0 ? 'disable  p-2 mr-2 group transition-all duration-300' : ' p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -117,9 +117,9 @@ export default function servicesFeaturedCarousel() {
 
   return (
     <section className="relative pb-10">
-      <div className="container mx-auto">
+      <div className="container mx-auto sm:pl-6 sm:px-0 px-6">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6 max-w-4xl sm:mr-0 mr-20">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
+          <h2 className="text-black mb-10 max-w-2xl sm:mr-0 mr-20">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -145,7 +145,7 @@ export default function servicesFeaturedCarousel() {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col basis-full sm:mr-12 mr-6 group">
+            <div key={slide.id} className="flex sm:flex-row flex-col basis-full xl:mr-12 sm:mr-6 mr-0 group">
               <div className="basis-full sm:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
                   <Image

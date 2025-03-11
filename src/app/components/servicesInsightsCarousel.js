@@ -10,7 +10,7 @@ export default function servicesInsightsCarousel() {
   const slides = [
     {
       id: 1,
-      image: "/images/blog/blog-1.webp",
+      image: "/images/blog/blog-1-long-thumb.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "30 Sept 2024",
@@ -20,7 +20,7 @@ export default function servicesInsightsCarousel() {
     },
     {
       id: 2,
-      image: "/images/blog/blog-2.webp",
+      image: "/images/blog/blog-2-long-thumb.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "21 Oct 2024",
@@ -30,7 +30,7 @@ export default function servicesInsightsCarousel() {
     },
     {
       id: 3,
-      image: "/images/blog/blog-3.webp",
+      image: "/images/blog/blog-3-long-thumb.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "28 Oct 2024",
@@ -40,7 +40,7 @@ export default function servicesInsightsCarousel() {
     },
     {
       id: 4,
-      image: "/images/blog/blog-4.webp",
+      image: "/images/blog/blog-4-long-thumb.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "25 Nov 2024",
@@ -50,7 +50,7 @@ export default function servicesInsightsCarousel() {
     },
     {
       id: 5,
-      image: "/images/blog/blog-5.webp",
+      image: "/images/blog/blog-5-long-thumb.webp",
       category: "SAP SuccessFactors",
       industry: "Human Resources",
       date: "24 Dec 2024",
@@ -60,7 +60,7 @@ export default function servicesInsightsCarousel() {
     },
     {
       id: 6,
-      image: "/images/blog/blog-6.webp",
+      image: "/images/blog/blog-6-long-thumb.webp",
       category: "Cloud Green Technology",
       industry: "Agriculture",
       date: "17 Sept 2024",
@@ -157,10 +157,9 @@ export default function servicesInsightsCarousel() {
               key={slide.id}
               className={`flex md:flex-row flex-col border border-[#707070] sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
             >
-              <div className="min-h-[350px] min-w-full relative">
+              <div className="min-w-full relative">
                 
                   <Image
-                    className="min-h-[350px]"
                     src={slide.image}
                     alt={slide.title}
                     width={0}
