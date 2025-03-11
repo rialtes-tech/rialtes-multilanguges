@@ -6,44 +6,52 @@ import React, { memo, useEffect, useState } from "react";
 const Footer = () => {
 
     const [isCentered, setIsCentered] = useState(false);
-
+    const [prevScrollY, setPrevScrollY] = useState(0); // Track previous scroll position
+    const [scrollDirection, setScrollDirection] = useState("");
     const [isVisible, setIsVisible] = useState(false);
+
+
     const handleScroll = () => {
-        if (typeof window !== 'undefined' && window.scrollY > 300) {
-            setIsVisible(true);
+        const currentScrollY = window.scrollY;
+    
+        // Toggle visibility of the scroll button after 300px scroll
+        if (currentScrollY > 300) {
+          setIsVisible(true);
         } else {
-            setIsVisible(false);
+          setIsVisible(false);
         }
-    };
-
-    const scrollToTop = () => {
+    
+        // Determine scroll direction (up or down)
+        if (currentScrollY > prevScrollY) {
+          setScrollDirection("down"); // Scrolling down
+        } else if (currentScrollY < prevScrollY) {
+          setScrollDirection("up"); // Scrolling up
+        }
+    
+        setPrevScrollY(currentScrollY); // Update previous scroll position
+      };
+    
+      const scrollToTop = () => {
         window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
+          top: 0,
+          behavior: "smooth",
         });
-    };
-
-
-   
-
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            window.addEventListener('scroll', handleScroll);
+      };
+    
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          window.addEventListener("scroll", handleScroll);
         }
-
+    
         return () => {
-            if (typeof window !== 'undefined') {
-                window.removeEventListener('scroll', handleScroll);
-            }
+          if (typeof window !== "undefined") {
+            window.removeEventListener("scroll", handleScroll);
+          }
         };
-    }, []);
-
-
+      }, [prevScrollY]);
     
-    
-    useEffect(() => {
+      useEffect(() => {
         const handleResize = () => {
-          // Check if window width is less than a threshold (e.g., 1024px) to center-align content
           if (window.innerWidth < 1024) {
             setIsCentered(true);
           } else {
@@ -51,21 +59,19 @@ const Footer = () => {
           }
         };
     
-        // Initial check and event listener for resizing
         handleResize();
         window.addEventListener("resize", handleResize);
     
         return () => {
           window.removeEventListener("resize", handleResize);
         };
-      }, []);
-    
+      }, []);    
     return (
         <footer
         className={`${
           isCentered ? "flex" : "xl:px-0 lg:px-6 px-6"
         } pt-10 h-auto footer-background pb-10 flex flex-col`}
-      >        <div className="flex flex-col xl:pl-[14%] lg:flex-row md:flex-row border-b-[1px] px-6 md:pl-[100px] xl:gap-[18rem] lg:gap-10 pb-10 mt-4 w-full xl:pr-0 lg:pr-[50px] xl:justify-start mx-auto">
+      >        <div className="flex flex-col xl:pl-[14%] lg:flex-row md:flex-row border-b-[1px] px-6 md:pl-[100px] xl:gap-[22rem] lg:gap-10 pb-10 mt-4 w-full xl:pr-0 lg:pr-[50px] xl:justify-start mx-auto">
     
             <div className="flex gap-5 lg:flex-row flex-col">
                 <Image
@@ -106,7 +112,7 @@ const Footer = () => {
     
                 {/* Social Media Links (for both mobile and desktop) */}
                 <div className="flex flex-row xl:flex-col md:flex-col lg:justify-start xl:mt-10">
-                    <div className="mt-3">
+                    <div className="xl:mt-0 mt-3">
                         <Link href="https://www.linkedin.com/company/rialtes-technologies-llc/" title="Visit our LinkedIn">
                             <Image className="h-8 w-10" alt="linkedin" src="/images/homepage/Asset5.svg" height={100} width={100} />
                         </Link>
@@ -139,14 +145,18 @@ const Footer = () => {
     
         {/* Scroll to Top Button */}
         {isVisible && (
-            <div
-                onClick={scrollToTop}
-                className="fixed bottom-4 right-4 h-10 w-10 flex justify-center items-center p-2 rounded-full shadow-md text-blue-600 border border-blue-300 cursor-pointer"
-            >
-                ^
-            </div>
-        )}
-    
+        <div
+          onClick={scrollToTop}
+          className="fixed bottom-4 right-4 cursor-pointer"
+        >
+          {/* Change image based on scroll direction */}
+          {scrollDirection === "up" ? (
+            <Image src="/images/homepage/floting arrow gray.svg"className="w-16" alt="Up arrow" width={24} height={24} />
+          ) : (
+            <Image src="/images/homepage/floting arrow white.svg" alt="Up arrow" className="w-16" width={24} height={24} />
+          )}
+        </div>
+      )}
         {/* Footer Text */}
     </footer>
     

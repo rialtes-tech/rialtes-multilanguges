@@ -87,7 +87,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex flex-col max-w-[532px] mt-[0px] md:mt-[200px]">
+              <div className="flex flex-col max-w-[545px] mt-[0px] md:mt-[200px]">
                 <h2 className="text-[#000000] mb-6">What we do?</h2>
                 <div className="w-full overflow-hidden mb-6">
                   <div className="transition-transform duration-300 hover:scale-110 w-full h-full">
@@ -464,7 +464,7 @@ export default function About() {
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black py-6"
+        text-black py-20"
       >
         <ContactForm />
       </div>

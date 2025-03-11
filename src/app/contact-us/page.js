@@ -1,8 +1,9 @@
-import Image from "next/image"
-import ContactForm from "../components/contactform"
-import Seo from "../components/Seo"
-export default function Contact() {
+import React from 'react';
+import ContactForm from "../components/contactform";
+import Seo from "../components/Seo";
+import Image from "next/image";
 
+const LocationPage = () => {
     const locations = [
         {
             country: 'UNITED STATES',
@@ -44,11 +45,11 @@ export default function Contact() {
                 </>
             ),
         },
-
         {
+            country: 'UNITED STATES', // California location
             city: 'California',
             address: (
-                < div className="border-b-2 w-1/2 pb-6">
+                <div className="border-b-2 w-full pb-6">
                     5251 California Avenue Ave,
                     <br />
                     Suite 110, Irvine, California, 9261
@@ -58,6 +59,7 @@ export default function Contact() {
             addBorderBottom: true,
         },
         {
+            country: 'INDIA', // Noida location
             city: 'Noida',
             address: (
                 <>
@@ -83,8 +85,8 @@ export default function Contact() {
                 </>
             ),
         },
-
         {
+            country: 'INDIA', // Dehradun location
             city: 'Dehradun',
             address: (
                 <>
@@ -95,32 +97,20 @@ export default function Contact() {
                     Road, Dehradun
                     <br />
                     Uttarakhand - 248001
-                    <br/>
+                    <br />
                     E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
-
                 </>
             ),
-        }
-    ];
-    const groupedLocations = [
-        locations.slice(0, 3),
-        locations.slice(3, 5),
-        locations.slice(5),
+        },
     ];
 
-    const renderLocation = (location, index) => {
-        const isCountry = location.country;
-        return (
-            <div key={index}>
-                {isCountry && <h4 className="uppercase text-[#0092E0] pb-4">{location.country}</h4>}
-                {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
-                {location.city && <h5 className="font-bold">{location.city}</h5>}
-                <div>{location.address}</div>
-            </div>
-        );
+    // Group locations by country
+    const groupByCountry = (countryName) => {
+        return locations.filter(location => location.country === countryName);
     };
+
     return (
-        <div>
+        <div className="">
             <Seo
                 title="Contact Us Page"
                 description="Welcome to the Rialtes On Contact Us"
@@ -148,21 +138,86 @@ export default function Contact() {
                         priority
                     />
                 </div>
+                <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[16rem] gap-10'>
+                    <div className="location-group flex flex-col">
 
-                {groupedLocations.map((group, groupIndex) => (
-                    <div
-                        key={groupIndex}
-                        className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 mt-5"
-                    >
-                        {group.map((location, index) => renderLocation(location, index))}
+                        <h4 className="uppercase text-[#0092E0]">UNITED STATES</h4>
+
+                        <div className="flex flex-col gap-6">
+                            {groupByCountry('UNITED STATES').map((location, index) => (
+                                <div key={index} className="location-item flex flex-col mt-3">
+                                    <div>
+
+                                        {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
+                                        {location.city && <h5 className="font-bold">{location.city}</h5>}
+                                        <p>{location.address}</p>
+                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                    </div>
+                                </div>
+                            ))}
+
+                            {/* Canada Locations */}
+                            {groupByCountry('CANADA').map((location, index) => (
+                                <div key={index} className="location-item flex flex-col">
+                                    <div>
+                                        {location.country && (
+                                            <h4 className="uppercase text-[#0092E0] pb-4">{location.country}</h4>
+                                        )}
+                                        {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
+                                        {location.city && <h5 className="font-bold">{location.city}</h5>}
+                                        <p>{location.address}</p>
+                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                ))}
-            </div>
-            <section className="xl:ml-[280px] mt-32 mx-6 lg:ml-[100px] pb-10 md:ml-[100px]">
-                <ContactForm className='xl:w-[52%] w-full'  title='Ready to take the next step? Let’s kick off your journey to operational excellence'/>
 
-            </section>
-            <div className="pb-6"></div>
+                    {/* India */}
+                    <div className="location-group flex flex-col">
+                        <h4 className="uppercase text-[#0092E0]">India</h4>
+
+                        <div className="flex flex-col gap-6">
+                            {groupByCountry('INDIA').map((location, index) => (
+                                <div key={index} className="location-item flex flex-col mt-3">
+                                    <div>
+                                        {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
+                                        {location.city && <h5 className="font-bold">{location.city}</h5>}
+                                        <p>{location.address}</p>
+                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Singapore */}
+                    <div className="location-group flex flex-col gap-6">
+                        <div className="flex flex-wrap gap-6">
+                            {groupByCountry('SINGAPORE').map((location, index) => (
+                                <div key={index} className="location-item flex flex-col">
+                                    <div>
+                                        {location.country && (
+                                            <h4 className="uppercase text-[#0092E0] pb-4">{location.country}</h4>
+                                        )}
+                                        {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
+                                        {location.city && <h5 className="font-bold">{location.city}</h5>}
+                                        <p>{location.address}</p>
+                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                <section className=" mt-32 mx-6 pb-10">
+                    <ContactForm className='xl:w-[52%] w-full' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                </section>
+                <div className="pb-6"></div>
+            </div>
         </div>
-    )
-}
+    );
+};
+
+export default LocationPage;
