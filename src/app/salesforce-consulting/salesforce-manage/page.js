@@ -201,7 +201,7 @@ export default function SalesForceManage() {
             <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10'>
                 <ExploreMoreCarousel />
             </section>
-            <section className="pb-20">
+            <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">
                 <ContactForm />
 
             </section>

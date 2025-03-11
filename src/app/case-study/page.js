@@ -12,8 +12,7 @@ const latestCaseStudy = [
   {
     id: 1,
     image: "/images/case-studies/case-study-1_thumb.webp",
-    category: "Manufacturing",
-    industry: "Retail & e-Commerce",
+    industry: "Manufacturing",
     date: "8 Jan 2025",
     url: "/case-study-3",
     title: "Streamlined DevOps using Copado and Salesforce",
@@ -22,8 +21,7 @@ const latestCaseStudy = [
   {
     id: 2,
     image: "/images/case-studies/case-study-2_thumb.webp",
-    category: "Real Estate",
-    industry: "Hi-tech",
+    industry: "Real Estate",
     date: "22 Dec 2024",
     url: "/case-study-2",
     title: "RealForce Banking Module - ACH",
@@ -32,8 +30,7 @@ const latestCaseStudy = [
   {
     id: 3,
     image: "/images/case-studies/case-study-3_thumb.webp",
-    category: "Healthcare",
-    industry: "Real Estate",
+    industry: "Healthcare",
     date: "17 Nov 2024",
     url: "/case-study-1",
     title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
@@ -42,8 +39,7 @@ const latestCaseStudy = [
   {
     id: 4,
     image: "/images/case-studies/case-study-4_thumb.webp",
-    category: "Real Estate",
-    industry: "Healthcare",
+    industry: "Manufacturing",
     date: "14 Oct 2024",
     url: "/case-study-7",
     title: "Omnichannel case management with Salesforce Service Cloud",
@@ -52,8 +48,7 @@ const latestCaseStudy = [
   {
     id: 5,
     image: "/images/case-studies/case-study-5_thumb.webp",
-    category: "Public Sector",
-    industry: "Finance",
+    industry: "Public Sector",
     date: "27 Sept 2024",
     url: "/case-study-6",
     title: "A public housing in US",
@@ -62,8 +57,7 @@ const latestCaseStudy = [
   {
     id: 6,
     image: "/images/case-studies/case-study-6_thumb.webp",
-    category: "Healthcare",
-    industry: "Manufacturing",
+    industry: "Real Estate",
     date: "4 Sept 2024",
     url: "/case-study-5",
     title: "Yardi Managed Services",
@@ -72,8 +66,7 @@ const latestCaseStudy = [
   {
     id: 7,
     image: "/images/case-studies/case-study-7_thumb.webp",
-    category: "SAP",
-    industry: "Retail & e-Commerce",
+    industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/case-study-4",
     title: "Digitizing patient journey using Salesforce health cloud",
@@ -82,8 +75,7 @@ const latestCaseStudy = [
   {
     id: 8,
     image: "/images/case-studies/case-study-8_thumb.webp",
-    category: "Salesforce",
-    industry: "Hi-tech",
+    industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/case-study-8",
     title: "Salesforce Health Cloud, Prior Authorization",
@@ -111,7 +103,7 @@ const CaseStudyCard = ({ casestudy }) => (
     <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
         <div className='pb-2 md:pb-4'>
-          <span className='text-[#0092E0]'>{casestudy.category}</span>
+          <span className='text-[#0092E0]'>{casestudy.industry}</span>
           <span className='text-[#ACACAC]'> | </span>
           {casestudy.date}
         </div>
@@ -165,14 +157,14 @@ const CaseStudy = () => {
   const isLoadMoreVisible = visibleCaseStudy < filteredCaseStudyByCategory.length;
 
   return (
-    <div className="container mx-auto px-6 text-black xl:pr-[150px]">
-      <div className="flex md:flex-row flex-col pb-4 items-center">
+    <div className="container mx-auto text-black xl:pr-[150px] pr-6">
+      <div className="flex md:flex-row flex-col pb-4 sm:items-center">
         <div className="flex flex-col md:pb-0 pb-4">
-          <h3 className="text-black">Search result by {selectedIndustry} industry / {selectedCategory} category</h3>
+          <h3 className="text-black">Search result by {selectedIndustry} industry</h3>
         </div>
         <div className="relative flex md:flex-row md:ml-auto h-[60px]">
           <div className="relative">
-            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-4 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
               <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -185,49 +177,20 @@ const CaseStudy = () => {
               </svg>
             </button>
             {showOptionsIndustry && (
-              <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 z-10'>
+              <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] right-0 z-10'>
                 <ul>
                   <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Healthcare')}>Healthcare</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi tech')}>Hi tech</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Finance')}>Finance</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi-tech')}>Hi-tech</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Retail & e-Commerce')}>Retail & e-Commerce</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Public Sector')}>Public Sector</li>
                 </ul>
               </div>
             )}
           </div>
-          <div className="relative">
-            <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l w-100 hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
-              <span className="pr-5">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
-              <svg
-                className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
-                fill='none'
-                stroke='currentColor'
-                viewBox='0 0 24 24'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
-              </svg>
-            </button>
-            {showOptionsCategory && (
-              <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 z-10'>
-                <ul>
-                  <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('All')}>All</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('SAP')}>SAP</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Salesforce')}>Salesforce</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Real Estate')}>Real Estate</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Healthcare')}>Healthcare</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('AI')}>AI</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Cloud Migration')}>Cloud Migration</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Cloud Analytics')}>Cloud Analytics</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Yardi')}>Yardi</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByCategory('Integration')}>Integration</li>
-                </ul>
-              </div>
-            )}
-          </div>
+
         </div>
       </div>
 
@@ -312,7 +275,7 @@ const FeaturedCarousel = () => {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 lg:right-[175px] right-4 md:mt-4">
+      <div className="flex carousel-button-group absolute top-0 xl:right-[175px] right-6 md:mt-4">
         <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-5 group transition-all duration-300' : 'bg-white p-2 mr-5 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -344,7 +307,7 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div className="container mx-auto sm:pl-6 sm:px-0 px-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Latest Studies</h2>
         </div>
@@ -362,7 +325,7 @@ const FeaturedCarousel = () => {
           transitionDuration={500}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"
           partialVisible={true}
           arrows={false}
@@ -372,7 +335,7 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] md:mr-12 sm:mr-6 group">
+            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-6 group">
               <div className="basis-full sm:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
                   <Image
@@ -420,16 +383,14 @@ export default function Page() {
         />
         <div
           className="
-                                      container h-full relative
-                                      ml-[280px] w-[calc(100%-280px)] mr-0
-                               
-                                      xl:ml-[200px] xl:w-[calc(100%-200px)]
-                                      lg:ml-[150px] lg:w-[calc(100%-150px)]
-                                      md:ml-[100px] md:w-[calc(100%-100px)]
-                                      sm:mx-5 sm:w-[calc(100%-40px)]
-                                      xs:mx-4 xs:w-[calc(100%-32px)]"
+          container h-full relative
+          ml-[15px] w-[calc(100%-15px)] mr-0
+          xl:ml-[280px] xl:w-[calc(100%-280px)]
+          md:ml-[100px] md:w-[calc(100%-100px)]
+          sm:mx-5 sm:w-[calc(100%-40px)]
+          xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center">
             <div className="flex flex-col">
               <h3 className="text-white text-[300] font-medium mb-2">Case Studies</h3>
               <h1 className="text-white max-w-2xl">
@@ -443,17 +404,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          ml-[15px] w-[calc(100%-15px)] mr-0
+          xl:ml-[280px] xl:w-[calc(100%-280px)]
+          md:ml-[100px] md:w-[calc(100%-100px)]
+          sm:mx-6 sm:w-[calc(100%-40px)]
+          xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="md:py-10 py-6 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <p className="text-[#000000] py-6 max-w-4xl xl:max-w-2xl">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
           </div>
         </div>
@@ -464,13 +423,11 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          ml-[15px] w-[calc(100%-15px)] mr-0
+          xl:ml-[280px] xl:w-[calc(100%-280px)]
+          md:ml-[100px] md:w-[calc(100%-100px)]
+          sm:mx-5 sm:w-[calc(100%-40px)]
+          xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <FeaturedCarousel />
 
@@ -480,13 +437,11 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          ml-[15px] w-[calc(100%-15px)] mr-0
+          xl:ml-[280px] xl:w-[calc(100%-280px)]
+          md:ml-[100px] md:w-[calc(100%-100px)]
+          sm:mx-5 sm:w-[calc(100%-40px)]
+          xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 bg-white">
 
@@ -499,13 +454,12 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)] mb-10"
+          ml-[15px] w-[calc(100%-15px)] mr-0
+          xl:ml-[280px] xl:w-[calc(100%-280px)]
+          md:ml-[100px] md:w-[calc(100%-100px)]
+          sm:mx-5 sm:w-[calc(100%-40px)]
+          xs:mx-4 xs:w-[calc(100%-32px)]
+          mb-10"
       >
         <BlogsCarousel />
 

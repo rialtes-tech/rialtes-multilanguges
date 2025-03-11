@@ -61,7 +61,7 @@ const blogs = [
     title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
     description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
   },
-   {
+  {
     id: 7,
     image: "/images/blog/blog-7.webp",
     category: "SAP SuccessFactors",
@@ -158,17 +158,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>30 Sept 2024
@@ -219,11 +217,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">How Salesforce Agentforce Actually Works</h1>
           </div>
 
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <div className="max-w-4xl md:w-4/2">
 
               <p className="text-black pb-4">Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel. The platform uses AI to automate tasks and help businesses improve their operations, customer experience, and productivity. Agentforce platform works by integrating AI agents with Salesforce’s CRM and other tools like Data Cloud to ensure data is actionable. </p>
@@ -292,13 +290,12 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        xs:mx-4 xs:w-[calc(100%-32px)]
+        pb-10"
       >
         <BlogsCarousel slides={blogs} />
 

@@ -96,7 +96,7 @@ export default function BlogsCarousel() {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+      <div className="flex carousel-button-group absolute top-0 xl:right-32 right-6 md:mt-4">
         <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -128,7 +128,7 @@ export default function BlogsCarousel() {
 
   return (
     <section className="relative sm:pb-10 pb-16 bg-white">
-      <div className="container mx-auto pl-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Latest Blogs</h2>
         </div>
@@ -146,7 +146,7 @@ export default function BlogsCarousel() {
           transitionDuration={500}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"
           partialVisible={true}
           arrows={false}
@@ -158,7 +158,7 @@ export default function BlogsCarousel() {
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className="flex flex-col sm:basis-1/4 border border-[#707070] mr-4 mb-4 h-full group"
+              className="flex flex-col sm:basis-1/4 border border-[#707070] mr-6 mb-4 h-full group"
             >
 
               <div className="relative max-h-[300px]">

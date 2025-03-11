@@ -86,7 +86,7 @@ export default function servicesFeaturedCarousel() {
     const { carouselState: { currentSlide } } = rest;
     return (
       <div className="flex carousel-button-group absolute top-0 xl:right-52 lg:right-20 md:right-10 right-4 md:mt-20">
-        <button className={currentSlide === 0 ? 'disable  p-2 mr-2 group transition-all duration-300' : ' p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+        <button className={currentSlide === 0 ? 'disable  p-2 mr-4 group transition-all duration-300' : ' p-2 mr-4 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
@@ -117,7 +117,7 @@ export default function servicesFeaturedCarousel() {
 
   return (
     <section className="relative pb-10">
-      <div className="container mx-auto sm:pl-6 sm:px-0 px-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-10 max-w-2xl sm:mr-0 mr-20">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>
@@ -135,7 +135,7 @@ export default function servicesFeaturedCarousel() {
           transitionDuration={500}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"
           partialVisible={true}
           arrows={false}

@@ -224,7 +224,7 @@ const BlogList = () => {
   const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
   return (
-    <div className="container mx-auto px-6 xl:pr-[150px]">
+    <div className="container mx-auto xl:pr-[150px]">
       <div className="flex md:flex-row flex-col pb-4">
         <div className="flex flex-col md:pb-0 pb-4">
           <h2 className="text-black">Latest Blogs</h2>
@@ -413,7 +413,7 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div className="container mx-auto sm:pl-6 sm:px-0 px-6">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Featured Blogs</h2>
         </div>
@@ -431,7 +431,7 @@ const FeaturedCarousel = () => {
           transitionDuration={500}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start !pl-6 flex-wrap"
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"
           partialVisible={true}
           arrows={false}
@@ -490,16 +490,14 @@ export default function Page() {
         />
         <div
           className="
-                                container h-full relative
-                                ml-[280px] w-[calc(100%-280px)] mr-0
-                         
-                                xl:ml-[200px] xl:w-[calc(100%-200px)]
-                                lg:ml-[150px] lg:w-[calc(100%-150px)]
-                                md:ml-[100px] md:w-[calc(100%-100px)]
-                                sm:mx-5 sm:w-[calc(100%-40px)]
-                                xs:mx-4 xs:w-[calc(100%-32px)]"
+          container h-full relative
+          ml-[15px] w-[calc(100%-15px)] mr-0
+          xl:ml-[280px] xl:w-[calc(100%-280px)]
+          md:ml-[100px] md:w-[calc(100%-100px)]
+          sm:mx-5 sm:w-[calc(100%-40px)]
+          xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto px-6 h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center">
             <div className="flex flex-col">
               <h3 className="text-[300] font-medium mb-2">Blogs</h3>
               <h1 className="max-w-2xl">
@@ -514,17 +512,15 @@ export default function Page() {
       <section
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
 
         <div className="md:py-10 py-6 bg-white">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto">
             <p className="text-[#000000] py-6 sm:max-w-2xl">Stay ahead in the digital transformation journey with expert insights from Rialtes. Our blog covers the latest trends, best practices, and innovations in SAP, Salesforce, AI, and enterprise technology.</p>
           </div>
         </div>
@@ -535,10 +531,8 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-        
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
@@ -551,10 +545,8 @@ export default function Page() {
       <div
         className="
         container
-        ml-[280px] w-[calc(100%-280px)] mr-0
-
-        xl:ml-[200px] xl:w-[calc(100%-200px)]
-        lg:ml-[150px] lg:w-[calc(100%-150px)]
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
