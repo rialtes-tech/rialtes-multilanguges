@@ -6,7 +6,7 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 
 
-export default function servicesInsightsCarousel() {
+export default function servicesInsightsCarousel({ padding }) {
   const slides = [
     {
       id: 1,
@@ -125,7 +125,7 @@ export default function servicesInsightsCarousel() {
 
   return (
     <section className="relative pb-8 bg-white">
-      <div className="container mx-auto">
+      <div className={"container mx-auto "+ padding ? padding : ''}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Insights</h2>
         </div>

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export default function ContactForm({ title, className }) {
+export default function ContactForm({ title, className, padding }) {
     const [formData, setFormData] = useState({
         name: '',
         surname: '',
@@ -43,7 +43,7 @@ export default function ContactForm({ title, className }) {
         alert('Form submitted!');
     };
     return (
-        <section className='container'>
+        <section className={'container '+ padding ? padding : ''}>
             <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>

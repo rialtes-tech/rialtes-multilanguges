@@ -358,7 +358,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   py-10"
       >
-        <InsightsCarousel />
+        <InsightsCarousel padding={"px-6"} />
 
       </div >
 
@@ -394,7 +394,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   text-black py-6"
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} />
+        <ContactForm title={'Take the next step to operational excellence with us.'} padding={"px-6"} className={"max-w-4xl"} />
 
       </div >
 

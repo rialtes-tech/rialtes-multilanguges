@@ -26,11 +26,11 @@ const Header = () => {
   const [activeMenu, setActiveMenu] = useState(null);
   const cardRef = useRef(null);
   const handleMouseEnterCard = (cardId) => {
-    setActiveCard(cardId); 
+    setActiveCard(cardId);
   };
 
   const handleMouseLeaveCard = () => {
-    setActiveCard(null); 
+    setActiveCard(null);
   };
 
 
@@ -54,8 +54,8 @@ const Header = () => {
   };
 
 
-  
-  
+
+
 
   const menuItems = [
     {
@@ -199,23 +199,30 @@ const Header = () => {
   };
   return (
     <section>
+      {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
 
-      <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12">
-        <div className="col-span-4">
+      <div className="hidden relative bg-white my-auto mx-auto xl:gap-5 md:gap-2 container
+      ml-[200px] w-[calc(100%-200px)] mr-0  
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        lg:ml-[100px] lg:w-[calc(100%-100px)]
+        md:ml-[100px] md:w-[calc(100%-100px)] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12 py-6">
+        <div className="lg:col-span-5 col-span-4">
           <Link href="/" passHref>
             <Image
-              className="z-[999] cursor-pointer w-[200px] object-cover"
+              className="z-[999] cursor-pointer"
               alt="Company logo"
               width={0}
               height={0}
               sizes="100vw"
               src="/images/homepage/logo.png"
+              style={{ width: "165px", objectFit: "cover", objectPosition: "35% 20%" }}
+              priority
             />
           </Link>
         </div>
 
 
-        <div className="col-span-8 flex gap-5">
+        <div className="lg:col-span-7 col-span-8 flex lg:gap-8 gap-6">
           <MenuItem
             label="About Us"
             link="/about-us"
