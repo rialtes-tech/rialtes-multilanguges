@@ -92,6 +92,8 @@ const Header = () => {
             { label: 'Data Cloud', href: '/data-cloud' },
             { label: 'Implementation', href: '/partner-2' },
             { label: 'Managed Services', href: '/services/managed-services' },
+            { label: 'Mulesoft', href: '/' },
+            { label: 'Revenue Cloud', href: '/salesforce-consulting/revenue-cloud' },
           ],
         },
         {
@@ -127,7 +129,7 @@ const Header = () => {
         { label: 'Real Estate', href: '/partners' },
         { label: 'Manufacturing', href: '/partners' },
         { label: 'Finance', href: '/partners' },
-        { label: 'Hi-Tech', href: '/partners' },
+        { label: 'Hi-Tech', href: '/industry/hi-tech' },
         { label: 'Public Sector', href: '/partners' },
       ],
     },
@@ -373,7 +375,7 @@ const Header = () => {
                       <MenuItem label="Implementation" className='pb-3' link="/services/implementation" onHover={() => { }} />
                       <MenuItem label="Managed Services" className='pb-3' link="/services/managed-services" onHover={() => { }} />
                       <MenuItem label="MuleSoft" className='pb-3' link="/services/managed-services" onHover={() => { }} />
-                      <MenuItem label="Revenue Cloud" className='pb-3' link="/services/managed-services" onHover={() => { }} />
+                      <MenuItem label="Revenue Cloud" className='pb-3' link="/salesforce-consulting/revenue-cloud" onHover={() => { }} />
                     </div>
                   </div>
 
@@ -451,7 +453,7 @@ const Header = () => {
                   <MenuItem className='font-bold pb-3' label="Real Estate" link="/services/salesforce" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Manufacturing" link="/services/digital-desk" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Finance" link="/services/health-cloud" onHover={() => { }} />
-                  <MenuItem className='font-bold pb-3' label="Hi-Tech" link="/services/agentforce" onHover={() => { }} />
+                  <MenuItem className='font-bold pb-3' label="Hi-Tech" link="/industry/hi-tech" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Public Sector" link="/services/data-cloud" onHover={() => { }} />
                 </div>
               </div>

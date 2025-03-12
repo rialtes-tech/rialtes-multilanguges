@@ -52,7 +52,7 @@ const LocationPage = () => {
                 <>
                     5251 California Avenue Ave,
                     <br />
-                    Suite 110, Irvine, California, 9261
+                    Suite 110, Irvine, California, 92617
                     <br />
                 </>
             ),
@@ -116,7 +116,7 @@ const LocationPage = () => {
                 description="Welcome to the Rialtes On Contact Us"
                 keywords="Contact, website, welcome"
             />
-            <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 xl:pr-16 mt-10">
+            <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 xl:pr-16 pt-16">
                 <div>
                     <h1>Our presence across the Globe</h1>
                     <h4 className="mt-5 text-2xl">How can we help you?</h4>
@@ -138,7 +138,7 @@ const LocationPage = () => {
                         priority
                     />
                 </div>
-                <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[16rem] gap-10'>
+                <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-16 gap-6'>
                     <div className="location-group flex flex-col">
 
                         <h4 className="uppercase text-[#0092E0]">UNITED STATES</h4>
@@ -151,7 +151,7 @@ const LocationPage = () => {
                                         {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
                                         {location.city && <h5 className="font-bold">{location.city}</h5>}
                                         <p>{location.address}</p>
-                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                        {location.addBorderBottom && <hr className="hidden xl:flex xl:border-b-2 xl:w-full xl:mt-6" />}
                                     </div>
                                 </div>
                             ))}
@@ -166,7 +166,7 @@ const LocationPage = () => {
                                         {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
                                         {location.city && <h5 className="font-bold">{location.city}</h5>}
                                         <p>{location.address}</p>
-                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                        {location.addBorderBottom && <hr className="hidden xl:flex xl:border-b-2 xl:w-full xl:mt-6" />}
                                     </div>
                                 </div>
                             ))}
@@ -184,7 +184,7 @@ const LocationPage = () => {
                                         {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
                                         {location.city && <h5 className="font-bold">{location.city}</h5>}
                                         <p>{location.address}</p>
-                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                        {location.addBorderBottom && <hr className="hidden xl:flex xl:border-b-2 xl:w-full xl:mt-6" />}
                                     </div>
                                 </div>
                             ))}
@@ -203,7 +203,7 @@ const LocationPage = () => {
                                         {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
                                         {location.city && <h5 className="font-bold">{location.city}</h5>}
                                         <p>{location.address}</p>
-                                        {location.addBorderBottom && <hr className="border-b-2 w-full" />}
+                                        {location.addBorderBottom && <hr className="lg:border-b-2 lg:w-full lg:mt-6" />}
                                     </div>
                                 </div>
                             ))}
@@ -211,8 +211,8 @@ const LocationPage = () => {
                     </div>
                 </div>
 
-                <section className=" mt-32 mx-6 pb-10">
-                    <ContactForm className='xl:w-[52%] w-full' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                <section className="mt-32 pb-10">
+                    <ContactForm className='max-w-3xl' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
                 </section>
                 <div className="pb-6"></div>
             </div>
