@@ -49,12 +49,12 @@ const LocationPage = () => {
             country: 'UNITED STATES', // California location
             city: 'California',
             address: (
-                <div className="border-b-2 w-full pb-6">
+                <>
                     5251 California Avenue Ave,
                     <br />
                     Suite 110, Irvine, California, 9261
                     <br />
-                </div>
+                </>
             ),
             addBorderBottom: true,
         },
