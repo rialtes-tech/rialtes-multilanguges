@@ -8,28 +8,8 @@ import InsightsCarousel from '../../app/components/servicesInsightsCarousel';
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
 import Link from "next/link";
 export default function SalesForceConsulting() {
-    const handleChange = (index) => {
-        setCurrentIndex(index);
-    };
 
-    const responsive = {
-        superLargeDesktop: {
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 4
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
-    }
+  
     const salesForce = [
         {
             id: 1,
@@ -165,29 +145,6 @@ export default function SalesForceConsulting() {
             description: 'Over 96% of Salesforce users vouch for its efficiency, exceeding ROI expectations, and offering impeccable customer service'
         },
 
-    ]
-
-    const actionData = [
-        {
-            id: 1,
-            title: 'Healthcare',
-            description: 'Our Salesforce healthcare CRM can help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels, MedTech services, and patient engagement solutions to facilitate exceptional patient care.',
-        },
-        {
-            id: 2,
-            title: 'Real Estate',
-            description: 'Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties, and rental agreements with our property management software.',
-        },
-        {
-            id: 3,
-            title: 'Manufacturing',
-            description: 'Streamline customer relationships, sales processes, and supply chain management in manufacturing companies with Salesforce. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly.',
-        },
-        {
-            id: 4,
-            title: 'Hi-tech',
-            description: 'Our Salesforce consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms.',
-        }
     ]
 
 

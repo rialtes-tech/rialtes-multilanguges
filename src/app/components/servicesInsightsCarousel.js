@@ -68,7 +68,87 @@ export default function servicesInsightsCarousel({ padding }) {
       title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
       description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
     },
-    // Add more blog objects as needed
+    {
+      id: 7,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 8,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "Integration",
+      industry: "Healthcare",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 9,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "Diversity & Inclusion",
+      industry: "Human Resources",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 10,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "SAP GTS",
+      industry: "Generic",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 11,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 12,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 13,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    {
+      id: 14,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+    
   ];
 
   const responsive = {
@@ -152,7 +232,7 @@ export default function servicesInsightsCarousel({ padding }) {
           renderDotsOutside={true}
           customDot={<CustomDot />}
         >
-          {slides.map((slide) => (
+          {slides?.map((slide) => (
             <div
               key={slide.id}
               className={`flex md:flex-row flex-col sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}

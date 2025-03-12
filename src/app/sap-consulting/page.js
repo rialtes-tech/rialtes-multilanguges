@@ -4,38 +4,10 @@ import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../components/contactform";
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
-import InsightsCarousel from '../components/servicesInsightsCarousel';
-import ExploreMoreCarousel from '../components/servicesExploreMoreCarousel';
 import CarouselComponent from "../components/useCarousel";
-
+import ServicesBlogs from "@/app/components/servicesBlogs";
+import { useState } from "react";
 import Link from "next/link";
-
-const latestServices = [
-    {
-        id: 1,
-        title: "Inability to quantify the incremental capabilities through next-generation business processes",
-    },
-    {
-        id: 2,
-        title: "The inability to integrate a broader technological ecosystem effectively",
-    },
-    {
-        id: 3,
-        title: "Digitally transforming business means disregarding years of efforts in the existing IT environment",
-    },
-    {
-        id: 4,
-        title: "Lack of real-time visibility on the overall performance",
-    },
-    {
-        id: 5,
-        title: "The fear of execution and inherent governance risk",
-    },
-    {
-        id: 6,
-        title: "Cyber-security is the last but most crucial point of concern",
-    },
-];
 
 
 const solutionSuccess = [
@@ -189,6 +161,8 @@ const solutionSuccess = [
 
 
 export default function Page() {
+    const [slides, setSlides] = useState([]);
+
     return (
         <div className="min-h-screen bg-white">
             <Head>
@@ -333,9 +307,17 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className='px-6 md:px-0 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 mt-10'>
-                <InsightsCarousel />
-            </section>
+            <div
+                className="mt-20 mb-20
+                               ml-[15px] w-[calc(100%-15px)] mr-0
+                               xl:ml-[280px] xl:w-[calc(100%-280px)]
+                               md:ml-[100px] md:w-[calc(100%-100px)]
+                               sm:mx-5 sm:w-[calc(100%-40px)]
+                               xs:mx-4 xs:w-[calc(100%-32px)]"
+            >
+                <ServicesBlogs slides={slides} />
+
+            </div>
             {/*life science section */}
             <section className='xl:mt-40 mt-5 relative'>
                 <div className='group overflow-hidden'>

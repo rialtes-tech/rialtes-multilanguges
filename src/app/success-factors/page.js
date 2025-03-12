@@ -5,9 +5,9 @@ import Image from "next/image";
 import { useState } from "react";
 import ContactForm from "../components/contactform";
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
-import InsightsCarousel from '../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../components/servicesExploreMoreCarousel';
 import Link from "next/link";
+import ServicesBlogs from '../components/servicesBlogs';
 
 
 const latestServices = [
@@ -52,6 +52,8 @@ const ServicesCard = ({ services }) => (
   </div>
 );
 
+
+
 const Services = () => {
   return (
     <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20">
@@ -71,6 +73,47 @@ const Services = () => {
 
 
 export default function Page() {
+
+  const slides = [
+
+
+    {
+      id: 5,
+      image: "/images/blog/blog-5-long-thumb.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "24 Dec 2024",
+      url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
+      title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+      description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
+    },
+
+    {
+      id: 7,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+
+
+
+    {
+      id: 13,
+      image: "/images/blog/blog-6-long-thumb.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "17 Sept 2024",
+      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+    },
+
+
+  ];
   return (
     <div className="min-h-screen bg-white">
       <Head>
@@ -322,19 +365,21 @@ export default function Page() {
       </div>
 
       {/* Latest Blogs */}
-      < div
-        className="
-  container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  py-10"
+      <div
+        className="mt-20 mb-20
+                         ml-[15px] w-[calc(100%-15px)] mr-0
+                         xl:ml-[280px] xl:w-[calc(100%-280px)]
+                         md:ml-[100px] md:w-[calc(100%-100px)]
+                         sm:mx-5 sm:w-[calc(100%-40px)]
+                         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <InsightsCarousel />
+       {slides && slides.length > 0 ? (
+  <ServicesBlogs slides={slides || []} />
+) : (
+  <p>No blogs available at the moment.</p>
+)}
 
-      </div >
+      </div>
 
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >

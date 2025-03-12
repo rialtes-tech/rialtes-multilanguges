@@ -2,11 +2,14 @@
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
-import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
-import Link from "next/link";
+import ServicesBlogs from "@/app/components/servicesBlogs";
+import { useState } from "react";
+
 
 export default function HealthCloud() {
+    const [slides, setSlides] = useState([]);
+
 
     const salesForce = [
         {
@@ -224,11 +227,17 @@ export default function HealthCloud() {
             </section>
 
 
-            {/* insights section */}
-            <section className='px-6 md:px-0 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 mt-10'>
-                <InsightsCarousel />
-            </section>
-
+            <div
+              className="mt-20 mb-20
+                               ml-[15px] w-[calc(100%-15px)] mr-0
+                               xl:ml-[280px] xl:w-[calc(100%-280px)]
+                               md:ml-[100px] md:w-[calc(100%-100px)]
+                               sm:mx-5 sm:w-[calc(100%-40px)]
+                               xs:mx-4 xs:w-[calc(100%-32px)]"
+            >
+              <ServicesBlogs slides={slides} />
+      
+            </div>
 
             <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10'>
                 <ExploreMoreCarousel />
