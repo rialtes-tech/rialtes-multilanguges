@@ -78,7 +78,6 @@ export default function servicesInsightsCarousel() {
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pb-5">
           <div>
-            <h2 className="text-black mb-6">Different industries, different mindsets</h2>
             <p className="w-[60%]">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
           </div>
         </div>
