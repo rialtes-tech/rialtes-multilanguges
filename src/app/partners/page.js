@@ -151,7 +151,7 @@ export default function Contact() {
             />
             <div className="relative">
                 <Image
-                    src="/images/partners/Partners.webp"
+                    src="/images/partners/Partners banner (1).webp"
                     alt="Leadership Team"
                     width={0}
                     height={0}

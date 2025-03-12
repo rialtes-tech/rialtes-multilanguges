@@ -84,7 +84,7 @@ const Header = () => {
       links: [
         { label: 'Artificial Intelligence', href: '/partners' },
         {
-          label: 'Salesforce',
+          label: 'Salesforce',href: '/salesforce-consulting',
           subLinks: [
             { label: 'Digital Desk', href: '/partner-1' },
             { label: 'Health Cloud', href: '/salesforce-consulting/health-cloud' },
@@ -364,7 +364,7 @@ const Header = () => {
                     <MenuItem
                       className="font-bold cursor-pointer"
                       label="Salesforce"
-                      link="/"
+                      link="/salesforce-consulting"
                     />
                     <div className="mt-2">
                       <MenuItem label="Agentforce" className='pb-3' link="/salesforce-consulting/agentforce" onHover={() => { }} />

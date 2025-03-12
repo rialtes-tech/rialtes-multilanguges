@@ -93,7 +93,7 @@ export default function servicesExploreMoreCarousel() {
 
   return (
     <section className="relative sm:pb-10 pb-16">
-      <div className="container mx-auto">
+      <div className=" mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-white mb-6">Explore More</h2>
         </div>

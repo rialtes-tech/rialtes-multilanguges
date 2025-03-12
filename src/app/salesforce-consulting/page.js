@@ -298,13 +298,13 @@ export default function SalesForceConsulting() {
                                             return (
                                                 <li
                                                 key={index}
-                                                className="font-medium flex mt-3 items-baseline before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2   before:inline align-middle before:leading-[30px]"
+                                                className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
                                             >
-                                                {details}
-                                            </li>
-                                            
-                                            
-                                            
+                                                    {details}
+                                                </li>
+
+
+
                                             )
                                         })}
                                     </ul>
@@ -367,15 +367,23 @@ export default function SalesForceConsulting() {
 
 
             <section className="lg:mt-32 mt-10 pb-20">
+
                 <div
                     className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
                 >
+                    <h2 className="text-black mb-6">Different industries, different mindsets</h2>
+
                     <CarouselComponent />
                 </div>
             </section>
-            <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20">
+            <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20 pt-20">
                 <div
-                    className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0 pt-10"
+                    className="
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)] "
                 >
                     <FeaturedCarousel />
                 </div>
