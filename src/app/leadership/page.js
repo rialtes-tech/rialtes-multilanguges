@@ -46,7 +46,7 @@ export default function Leadership() {
         },
         {
             id: 7,
-            imageUr: '/images/leadership/ImageSam4.png',
+            imageUr: '/images/leadership/ImageSam5.png',
             name: 'Samadhan Patil',
             designation: ' Finance & Operations Lead',
             viewMore: 'View Bio'
@@ -103,7 +103,7 @@ export default function Leadership() {
                                     <Image
                                         src={leader.imageUr}
                                         alt="Leadership Main"
-                                        className="relative mt-10 lg:mt-0 h-[400px]"
+                                        className="relative mt-10 lg:mt-0"
                                         width={0}
                                         height={0}
                                         sizes="100vw"
