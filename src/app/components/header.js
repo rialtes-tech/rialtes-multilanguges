@@ -66,6 +66,20 @@ const Header = () => {
       ],
     },
     {
+      label: 'Products',
+      links: [
+        { label: 'RialChat', href: '/' },
+        {
+          label: 'Exelona',
+          subLinks: [
+            { label: 'Experience Cloud', href: '/' },
+            { label: 'Property Cloud', href: '/' },
+          ],
+        },
+        { label: 'MediAina', href: '/' },
+      ],
+    },
+    {
       label: 'Services',
       links: [
         { label: 'Artificial Intelligence', href: '/partners' },
@@ -231,6 +245,13 @@ const Header = () => {
             className={`xl:font-bold font-normal  ${activeMenu === 1 ? 'text-[#0092E0]' : ''}`}
           />
           <MenuItem
+            label="Products"
+            link="/"
+            onHover={() => handleMouseEnterCard(6)}
+            onClick={() => handleMenuClick(6)}
+            className={`xl:font-bold font-normal  ${activeMenu === 6 ? 'text-[#0092E0]' : '6'}`}
+          />
+          <MenuItem
             label="Services"
             link="/services"
             onHover={() => handleMouseEnterCard(2)}
@@ -279,6 +300,46 @@ const Header = () => {
               <div className="col-span-8">
                 <MenuItem className='font-bold pb-3' label="Leadership" link="/leadership" onHover={() => { }} />
                 <MenuItem className='font-bold' label="Partners" link="/partners" onHover={() => { }} />
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Products Card */}
+        {activeCard === 6 && (
+          <div onClick={() => setActiveCard(null)} onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
+            <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
+              <div className="col-span-4 border-r-2">
+                <h3 className="md:text-sm xl:text-2xl xl:w-[70%]">
+                  Comprehensive Solutions to Transform Experiences and Shape your Digital Future
+
+                </h3>
+                <Link href='/services'>
+                  <h6 className="mt-3">More About Products →</h6>
+                </Link>
+              </div>
+              <div className="col-span-8  grid grid-cols-3">
+                <div>
+                  <div>
+                  <MenuItem
+                      className="font-bold cursor-pointer pb-3"
+                      label="RialChat"
+                      link="/"
+                    />
+                    <MenuItem
+                      className="font-bold cursor-pointer"
+                      label="Exelona"
+                      link="/"
+                    />
+                    <div className="mt-2">
+                      <MenuItem label="Experience Cloud" className='pb-3' link="/" onHover={() => { }} />
+                      <MenuItem label="Property Cloud" className='pb-3' link="/" onHover={() => { }} />
+                    </div>
+                  </div>
+
+                  <MenuItem label="MediAina" className='font-bold pb-3' link="/" onHover={() => { }} />
+
+                </div>
               </div>
             </div>
           </div>
