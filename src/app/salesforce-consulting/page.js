@@ -197,7 +197,7 @@ export default function SalesForceConsulting() {
                 title="Salesforce Consulting Services Company | Rialtes"
                 description="Partner with Rialtes, a top Salesforce consulting services company, delivering AI-powered Salesforce solutions customized to accelerate your business growth."
                 canonical='https://www.rialtes.com/services/salesforce-consulting'
-                
+
             />
 
             <div className='relative group overflow-hidden'>
@@ -267,8 +267,10 @@ export default function SalesForceConsulting() {
                             </div>
                         )
                     })}
-
                 </div>
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                    <Link href=''>Learn More</Link>
+                </button>
             </section>
             {/* Salesforce product */}
 
@@ -362,7 +364,7 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* different industries different mindset */}
-           
+
 
             <section className="lg:mt-32 mt-10 pb-20">
                 <div
@@ -395,7 +397,7 @@ export default function SalesForceConsulting() {
                 </div>
             </section>
             <section className="pb-20 xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0 pt-10 mt-20">
-                       <ContactForm className='xl:w-[70%] w-full'  title={'Take the next step to operational excellence with Salesforce Consulting.'} />
+                <ContactForm className='xl:w-[70%] w-full' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
             {/* contact section */}
 

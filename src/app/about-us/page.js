@@ -429,7 +429,7 @@ export default function About() {
                   excellence and innovation.
                 </p>
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4">
-                  <Link href='leadership'>  Know Our Leaders</Link>
+                  <Link href=''>  Know Our Leaders</Link>
                 </button>
               </div>
 

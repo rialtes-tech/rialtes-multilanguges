@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import Link from "next/link"
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick }) => {
@@ -198,31 +198,31 @@ const Header = () => {
     );
   };
   return (
-    <section>
+    <section className="fixed w-full bg-white top-0 z-50 shadow-md lg:pr-0 md:pr-36">
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
 
-      <div className="hidden relative bg-white my-auto mx-auto xl:gap-5 md:gap-2 container
-      ml-[200px] w-[calc(100%-200px)] mr-0  
+      <div className="md:grid hidden relative bg-white my-auto mx-auto xl:gap-6 md:gap-4 container
+      ml-[200px] w-[calc(100%-200px)]  
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
-        top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12 py-6">
-        <div className="lg:col-span-5 col-span-4">
+        top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6 mr-6">
+        <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 md:pr-0 pr-6">
           <Link href="/" passHref>
             <Image
-              className="z-[999] cursor-pointer"
+              className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
               alt="Company logo"
               width={0}
               height={0}
               sizes="100vw"
               src="/images/homepage/logo.svg"
-              style={{ width: "165px", objectFit: "cover", objectPosition: "35% 20%" }}
+              style={{ objectFit: "cover", objectPosition: "35% 20%" }}
               priority
             />
           </Link>
         </div>
 
 
-        <div className="lg:col-span-7 col-span-8 flex lg:gap-8 gap-6">
+        <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-6 md:gap-4 items-center text-nowrap">
           <MenuItem
             label="About Us"
             link="/about-us"
@@ -256,6 +256,9 @@ const Header = () => {
             link="/contact-us"
             className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-[#0092E0]' : ''}`}
           />
+          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white lg:py-3 py-2 lg:px-8 px-4 transition duration-300 order-4">
+            <Link href=''>Let's Begin</Link>
+          </button>
         </div>
       </div>
 
@@ -519,6 +522,9 @@ const Header = () => {
                     onMenuItemClick={() => toggleMenu()}
                   />
                 ))}
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                  <Link href=''>Let's Begin</Link>
+                </button>
               </ul>
             </nav>
           </div>

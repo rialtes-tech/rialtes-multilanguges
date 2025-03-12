@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <header>
             <Header />
           </header>
-          <main>{children}</main>
+          <main className="lg:mt-[103px] md:mt-[96px] mt-[56px]">{children}</main>
           <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
             <Footer />
           </footer>

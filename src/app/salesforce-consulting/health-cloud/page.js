@@ -4,7 +4,9 @@ import ContactForm from "../../components/contactform";
 import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
 import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
-export default function HealthCloud() { 
+import Link from "next/link";
+
+export default function HealthCloud() {
 
     const salesForce = [
         {
@@ -58,9 +60,9 @@ export default function HealthCloud() {
         }
 
     ]
-   
 
-   
+
+
     return (
         <section>
             <div className='relative group overflow-hidden'>
@@ -171,6 +173,9 @@ export default function HealthCloud() {
                     <div className="lg:w-1/2">
                         <h2>Driving efficiency whilst lowering costs</h2>
                         <p className="mt-5">The healthcare industry needs heroes daily, and Salesforce healthcare solutions make it happen. A 360-degree patient view simplifies patient accessibility, delivers single-view patient insights, and enables 1-on-1 patient journeys.</p>
+                        <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                            <Link href=''>Learn More</Link>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -194,7 +199,7 @@ export default function HealthCloud() {
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">
-            <ContactForm />
+                <ContactForm />
 
             </section>
         </section>
