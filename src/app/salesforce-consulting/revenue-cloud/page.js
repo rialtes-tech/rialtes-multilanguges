@@ -166,17 +166,21 @@ export default function HealthCloud() {
 
                 </div>
                 <h2 className="mt-20">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 my-10">
-                    {salesForce2.map((sales) => {
-                        return (
-                            <div key={sales.id} className="border-2 p-8 hover:bg-[#D9F2FF] hover:border-transparent transition-all duration-300">
+                <div className="my-10">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5">
+                        {salesForce2.map((sales) => {
+                            return (
+                                <div key={sales.id} className="border-2 p-8 hover:bg-[#D9F2FF] hover:border-transparent transition-all duration-300">
 
-                                <h3 className="mt-5 text-[#1F3F69]">{sales.title}</h3>
-                                <p className="mt-5">{sales.description}</p>
-                            </div>
-                        )
-                    })}
-
+                                    <h3 className="mt-5 text-[#1F3F69]">{sales.title}</h3>
+                                    <p className="mt-5">{sales.description}</p>
+                                </div>
+                            )
+                        })}
+                    </div>
+                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                        <Link href=''>Learn More</Link>
+                    </button>
                 </div>
             </section>
 
