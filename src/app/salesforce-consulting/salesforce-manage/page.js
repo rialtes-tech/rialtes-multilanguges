@@ -3,6 +3,7 @@ import Image from "next/image";
 import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
 import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
+import Link from "next/link";
 
 
 import ContactForm from "../../components/contactform";
@@ -156,8 +157,11 @@ export default function SalesForceManage() {
                             </div>
                         )
                     })}
-
                 </div>
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                    <Link href=''>Learn More</Link>
+                </button>
+
                 <div className="flex mt-20 gap-16 flex-col lg:flex-row">
                     <div className="lg:w-1/2">
                         <Image
@@ -183,6 +187,9 @@ export default function SalesForceManage() {
                     <div className="lg:w-1/2">
                         <h2>Welcome to the World of Endless Possibilities!</h2>
                         <p className="mt-5">Salesforce implementations are as daunting as they’re complex. Picking the right partner to “Solve your Problems” is the ideal decision in every situation. An experienced Salesforce partner helps you with Salesforce managed services while your team can prioritize revenue-generating projects.</p>
+                        <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                            <Link href=''>Learn More</Link>
+                        </button>
                     </div>
                 </div>
             </section>

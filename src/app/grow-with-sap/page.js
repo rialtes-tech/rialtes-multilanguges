@@ -6,6 +6,7 @@ import ContactForm from "../components/contactform";
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
 import InsightsCarousel from '../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../components/servicesExploreMoreCarousel';
+import Link from "next/link";
 
 
 
@@ -55,6 +56,9 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
+      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+        <Link href=''>Learn More</Link>
+      </button>
     </div>
   );
 };
@@ -93,7 +97,7 @@ const growLatestServices = [
 ];
 
 const GrowServicesCard = ({ services }) => (
-  <div className="w-full h-full flex flex-col">
+  <div className="w-full h-full">
     <div className="relative overflow-hidden">
       <Image
         className="w-full transition-transform duration-300 hover:scale-105"
@@ -110,7 +114,9 @@ const GrowServicesCard = ({ services }) => (
       <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
     </div>
     <p className='md:mb-[15px] mb-10'>{services.description}</p>
-
+    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+      <Link href=''>Learn More</Link>
+    </button>
   </div>
 );
 
@@ -285,7 +291,7 @@ export default function Page() {
           <div className="container mx-auto">
             <h2 className="pb-6 text-black xl:hidden flex">We Help You Grow and Thrive</h2>
             <div className="flex md:flex-row flex-col-reverse gap-6 py-6">
-              <div className="flex flex-col w-full mr-4">
+              <div className="w-full mr-4">
                 <h2 className="pb-6 text-black xl:flex hidden">We Help You Grow and Thrive</h2>
                 <p className="pb-6 text-black">At Rialtes, we’re committed to being more than just a technology provider; we’re your partner in growth. With Grow with SAP, you’ll benefit from:</p>
                 <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
@@ -295,6 +301,9 @@ export default function Page() {
 
                   <li className="pb-4"><span className="font-semibold">Community and Networking Opportunities:</span> Access a global community of SAP customers and partners to share insights, best practices, and growth strategies.</li>
                 </ul>
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                  <Link href=''>Learn More</Link>
+                </button>
               </div>
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden">

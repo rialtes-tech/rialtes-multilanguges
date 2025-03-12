@@ -7,6 +7,7 @@ import ContactForm from "../components/contactform";
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
 import InsightsCarousel from '../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../components/servicesExploreMoreCarousel';
+import Link from "next/link";
 
 
 const latestServices = [
@@ -60,6 +61,9 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
+      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+        <Link href=''>Learn More</Link>
+      </button>
     </div>
   );
 };
@@ -268,7 +272,7 @@ export default function Page() {
           <div className="container mx-auto">
             <h2 className="pb-6 text-black xl:hidden flex">Maximize HR Efficiency in Your Organization</h2>
             <div className="flex flex-col-reverse md:flex-row gap-6 py-6">
-              <div className="flex flex-col w-full">
+              <div className="w-full">
                 <h2 className="pb-6 text-black  xl:flex hidden">Maximize HR Efficiency in Your Organization</h2>
                 <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
 
@@ -277,8 +281,10 @@ export default function Page() {
                   <li className="pb-4">Proactive approach to managing evolving customer environments and requirements</li>
                   <li className="pb-4">Comprehensive support for long-term analysis, implementation, and transition from on-premises to cloud </li>
                   <li className="pb-4">A well-established SuccessFactors Center of Excellence with ready-to-use content</li>
-
                 </ul>
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                  <Link href=''>Learn More</Link>
+                </button>
               </div>
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden">

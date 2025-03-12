@@ -4,6 +4,7 @@ import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
 import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import ContactForm from "../../components/contactform";
+import Link from "next/link";
 
 export default function Agentforce() {
 
@@ -187,8 +188,10 @@ export default function Agentforce() {
                             </div>
                         )
                     })}
-
                 </div>
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                    <Link href=''>Learn More</Link>
+                </button>
 
             </section>
             <section className="lg:mt-20 px-6 xl:pl-[280px] md:pl-[100px] mt-10">
@@ -287,10 +290,12 @@ export default function Agentforce() {
 
                                 <h4 className="mt-5">{benifite.title}</h4>
                                 <p className="mt-3">{benifite.description}</p>
+                                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+                                    <Link href=''>Learn More</Link>
+                                </button>
                             </div>
                         )
                     })}
-
                 </div>
             </section>
 

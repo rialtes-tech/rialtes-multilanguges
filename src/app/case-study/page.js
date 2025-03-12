@@ -184,7 +184,7 @@ const CaseStudy = () => {
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi tech')}>Hi tech</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Finance')}>Finance</li>
+                  {/* <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Finance')}>Finance</li> */}
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Public Sector')}>Public Sector</li>
                 </ul>
               </div>

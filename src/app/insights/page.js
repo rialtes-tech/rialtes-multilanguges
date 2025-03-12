@@ -86,7 +86,7 @@ export default function InsightsPage() {
             <div className="hidden sm:block">
               {" "}
               <Link
-                href="/case-studies"
+                href="/blog"
                 className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">See All Blogs</span>
@@ -99,7 +99,7 @@ export default function InsightsPage() {
               className="border w-full xl:w-2/5 lg:w-full border-gray-200 overflow-hidden"
               onMouseEnter={handleMouseEnter("blog1")}
               onMouseLeave={handleMouseLeave("blog1")}
-              onClick={handleClick("/about-us")}
+              onClick={handleClick("/blog/how-salesforce-agentforce-actually-works")}
               style={{ cursor: "pointer" }}
             >
               <div className="relative h-[300px] md:h-[500px] w-full overflow-hidden">
@@ -112,7 +112,7 @@ export default function InsightsPage() {
                   }}
                 >
                   <Image
-                    src="/images/insights/green-computing-blog.webp"
+                    src="/images/blog/blog-1.webp"
                     alt="Green computing illustration showing tree and circuit integration"
                     fill
                     sizes="100vw"
@@ -132,25 +132,22 @@ export default function InsightsPage() {
               >
                 <div className="flex flex-row items-center mb-4">
                   <span className="text-[#0092E0] font-medium">
-                    Sustainability
+                  Salesforce Agentforce
                   </span>
                   <span className="mx-2">|</span>
-                  <span className="text-sm">25 Oct 2024</span>
+                  <span className="text-sm">30 Sept 2024</span>
                 </div>
 
                 <h3 className="mb-3">
-                  Green Computing: Reducing the IT Industry's Carbon Footprint
+                How Salesforce Agentforce Actually Works
                 </h3>
 
                 <p className="mb-4">
-                  Every industry must contribute to sustainability, and tech is
-                  no exception. Green computing, from energy-efficient data
-                  centers to eco-friendly hardware and software, is reshaping
-                  the industry's environmental impact.
+                Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
                 </p>
 
                 <Link
-                  href="/blog/green-computing"
+                  href="/blog/how-salesforce-agentforce-actually-works"
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
                   <span>Read More</span>
@@ -177,7 +174,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-auto sm:h-[400px]"
                 onMouseEnter={handleMouseEnter("blog2")}
                 onMouseLeave={handleMouseLeave("blog2")}
-                onClick={handleClick("/about-us")}
+                onClick={handleClick("/blog/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
                 style={{ cursor: "pointer" }}
               >
                 <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
@@ -190,7 +187,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/embracing-diversity-blog.webp"
+                      src="/images/blog/blog-2.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -210,26 +207,23 @@ export default function InsightsPage() {
                 >
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
-                      Salesforce
+                    Salesforce Agentforce
                     </span>
                     <span className="text-gray-500 mx-2">|</span>
-                    <span className="text-gray-600 text-sm">25 Oct 2024</span>
+                    <span className="text-gray-600 text-sm">21 Oct 2024</span>
                   </div>
 
                   <h3 className="mb-3">
-                    Embracing Diversity in the Workplace: The Key to a Thriving
-                    Business
+                  The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
                   </h3>
 
                   <p className="mb-2">
-                    Companies with high racial diversity see a 15-fold increase
-                    in sales revenue, and inclusive organizations are 1.7 times
-                    more likely to lead in innovation.
+                  As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation.
                   </p>
 
                   <div className="mt-auto">
                     <Link
-                      href="/blog/diversity"
+                      href="/blog/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                     >
                       <span>Read More</span>
@@ -256,7 +250,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-auto sm:h-[400px]"
                 onMouseEnter={handleMouseEnter("blog3")}
                 onMouseLeave={handleMouseLeave("blog3")}
-                onClick={handleClick("/about-us")}
+                onClick={handleClick("/blog/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
                 style={{ cursor: "pointer" }}
               >
                 <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
@@ -269,7 +263,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/agent-copilots-blog.webp"
+                      src="/images/blog/blog-3.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -289,10 +283,10 @@ export default function InsightsPage() {
                 >
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
-                      Salesforce
+                      Salesforce Agentforce
                     </span>
                     <span className="text-gray-500 mx-2">|</span>
-                    <span className="text-gray-600 text-sm">25 Oct 2024</span>
+                    <span className="text-gray-600 text-sm">28 Oct 2024</span>
                   </div>
 
                   <h3 className="mb-3">
@@ -308,7 +302,7 @@ export default function InsightsPage() {
 
                   <div className="mt-auto">
                     <Link
-                      href="/blog/diversity"
+                      href="/blog/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                     >
                       <span>Read More</span>
@@ -336,7 +330,7 @@ export default function InsightsPage() {
           <div className="block sm:hidden mt-12">
             {" "}
             <Link
-              href="/case-studies"
+              href="/blog"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
             >
               <span className="inline-flex items-center">See All Blogs</span>
@@ -366,7 +360,7 @@ export default function InsightsPage() {
 
               <div className="hidden sm:block">
                 <Link
-                  href="/case-studies"
+                  href="/case-study"
                   className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
                 >
                   <span className="inline-flex items-center">
@@ -380,7 +374,7 @@ export default function InsightsPage() {
               className="border h-full border-gray-200 overflow-hidden mb-6 flex flex-col md:flex-row"
               onMouseEnter={handleMouseEnter("case-study-1")}
               onMouseLeave={handleMouseLeave("case-study-1")}
-              onClick={handleClick("/about-us")}
+              onClick={handleClick("/case-study-4")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
@@ -388,26 +382,27 @@ export default function InsightsPage() {
                   hoveredBlog === "case-study-1" ? "#f1f1f1" : "#ffffff",
               }}
             >
+
               <div className="md:w-2/5 h-[300px] md:h-[400px] overflow-hidden">
-                <div
-                  className="h-full w-full"
-                  style={{
-                    transition: "transform 0.3s ease",
-                    transform:
-                      hoveredBlog === "case-study-1"
-                        ? "scale(1.05)"
-                        : "scale(1)",
-                  }}
-                >
-                  <Image
-                    src="/images/insights/healthcare-case-study.webp"
-                    alt="Diversity illustration"
-                    fill
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                    className="object-cover"
-                    priority
-                  />
-                </div>
+                  <div
+                    className="h-full w-full"
+                    style={{
+                      transition: "transform 0.3s ease",
+                      transform:
+                        hoveredBlog === "case-study-1"
+                          ? "scale(1.05)"
+                          : "scale(1)",
+                    }}
+                  >
+                    <Image
+                      src="/images/insights/healthcare-case-study.webp"
+                      alt="Diversity illustration"
+                      fill
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
               </div>
               <div className="w-full h-full">
                 <div className="md:w-3/5 p-6 xl:p-12 max-w-2xl">
@@ -418,10 +413,10 @@ export default function InsightsPage() {
                     <span className="mx-2">|</span>
                     <span className="text-sm">25 Oct 2024</span>
                   </div>
-                  <h3 className="mb-3">
-                    How Rialtes simplified patient journey process using
-                    Salesforce experience cloud.
-                  </h3>
+                    <h3 className="mb-3">
+                      How Rialtes simplified patient journey process using
+                      Salesforce experience cloud.
+                    </h3>
                   <p>
                     A global medical technology company that develops and
                     manufactures innovative products used by doctors to
@@ -438,7 +433,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-2")}
                 onMouseLeave={handleMouseLeave("case-study-2")}
-                onClick={handleClick("/about-us")}
+                onClick={handleClick("/case-study-3")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -488,7 +483,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-3")}
                 onMouseLeave={handleMouseLeave("case-study-3")}
-                onClick={handleClick("/about-us")}
+                onClick={handleClick("/case-study-2")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -536,7 +531,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-4")}
                 onMouseLeave={handleMouseLeave("case-study-4")}
-                onClick={handleClick("/about-us")}
+                onClick={handleClick("/case-study-1")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -586,7 +581,7 @@ export default function InsightsPage() {
           <div className="block sm:hidden mt-12">
             {" "}
             <Link
-              href="/case-studies"
+              href="/case-study"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
             >
               <span className="inline-flex items-center">
