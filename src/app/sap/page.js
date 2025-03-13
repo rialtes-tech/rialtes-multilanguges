@@ -22,7 +22,7 @@ const solutionSuccess = [
             'Conversational Chatbot',
             'Customized Application'
         ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
+        knowMore: '/rise-with-sap'
 
     },
     {
@@ -93,7 +93,7 @@ const solutionSuccess = [
             'Strengthened customer relationships',
             'Works seamlessly with MuleSoft, Tableau, and more'
         ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
+        knowMore: '/grow-with-sap'
 
     },
     {
@@ -107,7 +107,7 @@ const solutionSuccess = [
             'Strengthened customer relationships',
             'Works seamlessly with MuleSoft, Tableau, and more'
         ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
+        knowMore: '/success-factors'
 
     },
     {
@@ -135,7 +135,7 @@ const solutionSuccess = [
             'Strengthened customer relationships',
             'Works seamlessly with MuleSoft, Tableau, and more'
         ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
+        knowMore: '/sap/sap-ariba'
 
     },
     {
@@ -149,7 +149,7 @@ const solutionSuccess = [
             'Strengthened customer relationships',
             'Works seamlessly with MuleSoft, Tableau, and more'
         ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
+        knowMore: '/sap/sap-btp'
 
     },
 
