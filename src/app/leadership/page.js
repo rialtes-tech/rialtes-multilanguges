@@ -10,19 +10,20 @@ export default function Leadership() {
             viewMore: 'View Bio'
         },
         {
-            id: 2,
-            imageUr: '/images/leadership/mayur.png',
-            name: 'Mayur Tyagi',
-            designation: 'Sr. Managing Director - Sales & Marketing',
-            viewMore: 'View Bio'
-        },
-        {
             id: 3,
             imageUr: '/images/leadership/Anuraag Aggarwal.webp',
             name: 'Anuraag Aggarwal',
             designation: ' AI practice Lead',
             viewMore: 'View Bio'
         },
+        {
+            id: 2,
+            imageUr: '/images/leadership/Mayur-updated.webp',
+            name: 'Mayur Tyagi',
+            designation: 'Sr. Managing Director - Sales & Marketing',
+            viewMore: 'View Bio'
+        },
+        
         {
             id: 4,
             imageUr: '/images/leadership/Akshay Kale (1).webp',
