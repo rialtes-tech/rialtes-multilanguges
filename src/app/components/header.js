@@ -139,7 +139,7 @@ const Header = () => {
         { label: 'Blog', href: '/blog' },
         { label: 'Case Studies', href: '/case-studies' },
         { label: 'Webinar', href: '/webinar' },
-        { label: 'Events', href: '/partners' },
+        { label: 'Events', href: '/events' },
       ],
     },
   ];
@@ -478,7 +478,7 @@ const Header = () => {
                 <MenuItem className='font-bold pb-3' label="Blog" link="/blog" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Case Studies" link="/case-study" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Webinar" link="webinar" onHover={() => { }} />
-                <MenuItem className='font-bold pb-3' label="Events" link="/industries/finance" onHover={() => { }} />
+                <MenuItem className='font-bold pb-3' label="Events" link="/events" onHover={() => { }} />
               </div>
             </div>
           </div>
