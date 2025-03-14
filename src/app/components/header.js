@@ -78,7 +78,7 @@ const Header = () => {
             { label: 'Property Cloud', href: '/' },
           ],
         },
-        { label: 'MediAina', href: '/product/mediyina' },
+        { label: 'MediAina', href: '/' },
       ],
     },
     {
@@ -343,7 +343,7 @@ const Header = () => {
                     </div>
                   </div>
 
-                  <MenuItem label="MediAina" className='font-bold pb-3' link="/product/mediyina" onHover={() => { }} />
+                  <MenuItem label="MediAina" className='font-bold pb-3' link="/" onHover={() => { }} />
 
                 </div>
               </div>
