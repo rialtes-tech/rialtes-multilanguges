@@ -20,6 +20,10 @@ body {
   background: var(--background);
   font-family: var(--font-family);
 }
+.bg-safe-rialchat{
+ background-image: url("../../public/images/industry/rialchat/bg.png");
+
+}
 
 .serve:first-child {
   margin-left: 0 !important;
@@ -36,8 +40,6 @@ body {
   html {
     font-family: var(--font-family);
   }
-
-  /* Typography styles */
   h1 {
     font-size: 23px;
     font-weight: 300;

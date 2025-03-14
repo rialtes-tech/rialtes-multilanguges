@@ -63,12 +63,14 @@ const Header = () => {
       links: [
         { label: 'Leadership', href: '/leadership' },
         { label: 'Partners', href: '/partners' },
+        { label: 'Career', href: '/career' },
+
       ],
     },
     {
       label: 'Products',
       links: [
-        { label: 'RialChat', href: '/' },
+        { label: 'RialChat', href: '/product/rialchat' },
         {
           label: 'Exelona',
           subLinks: [
@@ -82,15 +84,15 @@ const Header = () => {
     {
       label: 'Services',
       links: [
-        { label: 'Artificial Intelligence', href: '/partners' },
+        { label: 'Artificial Intelligence', href: '/' },
         {
           label: 'Salesforce',href: '/salesforce-consulting',
           subLinks: [
-            { label: 'Digital Desk', href: '/partner-1' },
+            { label: 'Digital Desk', href: '/' },
             { label: 'Health Cloud', href: '/salesforce-consulting/health-cloud' },
             { label: 'Agentforce', href: '/salesforce-consulting/agentforce' },
             { label: 'Data Cloud', href: '/data-cloud' },
-            { label: 'Implementation', href: '/partner-2' },
+            { label: 'Implementation', href: '/' },
             { label: 'Managed Services', href: '/services/managed-services' },
             { label: 'Mulesoft', href: '/' },
             { label: 'Revenue Cloud', href: '/salesforce-consulting/revenue-cloud' },
@@ -102,35 +104,35 @@ const Header = () => {
             { label: 'RISE with SAP', href: '/rise-with-sap' },
             { label: 'GROW with SAP', href: '/grow-with-sap' },
             { label: 'Successfactor', href: '/success-factors' },
-            { label: 'Application Development', href: '/partner-2' },
-            { label: 'SAP Integration', href: '/partner-2' },
-            { label: 'SAP ARIBA', href: '/partner-2' },
+            { label: 'Application Development', href: '/' },
+            { label: 'SAP Integration', href: '/sap/sap-integration' },
+            { label: 'SAP ARIBA', href: '/sap/sap-ariba' },
             { label: 'SAP BTP', href: '/sap/sap-btp' },
           ],
         },
-        { label: 'Yardi', href: '/partners' },
+        { label: 'Yardi', href: '/' },
         {
           label: 'Data Analytics',
           subLinks: [
-            { label: 'Power BI', href: '/partner-2' },
-            { label: 'QLIK Sense', href: '/partner-2' },
-            { label: 'ALTERYX', href: '/partner-2' },
+            { label: 'Power BI', href: '/' },
+            { label: 'QLIK Sense', href: '/' },
+            { label: 'ALTERYX', href: '/' },
           ],
         },
-        { label: 'Cloud Migration', href: '/partners' },
-        { label: 'Quality Management (Testing)', href: '/partners' },
-        { label: 'Integration', href: '/partners' },
+        { label: 'Cloud Migration', href: '/' },
+        { label: 'Testing', href: '/' },
+        { label: 'Integration', href: '/' },
       ],
     },
     {
       label: 'Industry',
       links: [
         { label: 'Healthcare', href: '/healthcare' },
-        { label: 'Real Estate', href: '/partners' },
+        { label: 'Real Estate', href: '/industry/real-estate' },
         { label: 'Manufacturing', href: '/industry/manufacturing' },
-        { label: 'Finance', href: '/partners' },
+        { label: 'Finance', href: '/' },
         { label: 'Hi-Tech', href: '/industry/hi-tech' },
-        { label: 'Public Sector', href: '/partners' },
+        { label: 'Public Sector', href: '/' },
       ],
     },
     {
@@ -301,7 +303,9 @@ const Header = () => {
               </div>
               <div className="col-span-8">
                 <MenuItem className='font-bold pb-3' label="Leadership" link="/leadership" onHover={() => { }} />
-                <MenuItem className='font-bold' label="Partners" link="/partners" onHover={() => { }} />
+                <MenuItem className='font-bold pb-3' label="Partners" link="/partners" onHover={() => { }} />
+                <MenuItem className='font-bold ' label="Career" link="/career" onHover={() => { }} />
+
               </div>
             </div>
           </div>
@@ -326,7 +330,7 @@ const Header = () => {
                   <MenuItem
                       className="font-bold cursor-pointer pb-3"
                       label="RialChat"
-                      link="/"
+                      link="/product/rialchat"
                     />
                     <MenuItem
                       className="font-bold cursor-pointer"
@@ -374,7 +378,7 @@ const Header = () => {
                       <MenuItem label="Health Cloud" className='pb-3' link="/salesforce-consulting/health-cloud" onHover={() => { }} />
                       <MenuItem label="Implementation" className='pb-3' link="/services/implementation" onHover={() => { }} />
                       <MenuItem label="Managed Services" className='pb-3' link="/salesforce-consulting/salesforce-manage" onHover={() => { }} />
-                      <MenuItem label="MuleSoft" className='pb-3' link="/services/managed-services" onHover={() => { }} />
+                      <MenuItem label="MuleSoft" className='pb-3' link="/" onHover={() => { }} />
                       <MenuItem label="Revenue Cloud" className='pb-3' link="/salesforce-consulting/revenue-cloud" onHover={() => { }} />
                     </div>
                   </div>
@@ -395,17 +399,13 @@ const Header = () => {
                       <MenuItem label="Application Development" className='pb-3' link="/services/implementation" onHover={() => { }} />
                       <MenuItem label="GROW with SAP" className='pb-3' link="/grow-with-sap" onHover={() => { }} />
                       <MenuItem label="RISE with SAP" className='pb-3' link="/rise-with-sap" onHover={() => { }} />
-                      <MenuItem label="SAP ARIBA" className='pb-3' link="/services/managed-services" onHover={() => { }} />
+                      <MenuItem label="SAP ARIBA" className='pb-3' link="/sap/sap-ariba" onHover={() => { }} />
                       <MenuItem label="SAP BTP" className='pb-3' link="/sap/sap-btp" onHover={() => { }} />
                       <MenuItem label="SAP GTS" className='pb-3' link="/services/yardi" onHover={() => { }} />
-                      <MenuItem label="SAP Integration" className='pb-3' link="/services/yardi" onHover={() => { }} />
+                      <MenuItem label="SAP Integration" className='pb-3' link="/sap/sap-integration" onHover={() => { }} />
                       <MenuItem label="Successfactor" className='pb-3' link="/success-factors" onHover={() => { }} />
                     </div>
-
-
                   </div>
-
-
                   <div>
                     <MenuItem
                       className="font-bold cursor-pointer pb-3"
@@ -423,7 +423,7 @@ const Header = () => {
                     <MenuItem
                       className="font-bold cursor-pointer pb-3"
                       label="Data Analytics"
-                      link="/"
+                      link="/services/data-analytics"
                     />
                     <MenuItem label="Alterys" className='pb-3' link="/" onHover={() => { }} />
                     <MenuItem label="Power BI" className='pb-3' link="/data-cloud" onHover={() => { }} />
@@ -450,7 +450,7 @@ const Header = () => {
               <div className="col-span-8">
                 <div>
                   <MenuItem className='font-bold pb-3' label="Healthcare" link="/healthcare" onHover={() => { }} />
-                  <MenuItem className='font-bold pb-3' label="Real Estate" link="/services/salesforce" onHover={() => { }} />
+                  <MenuItem className='font-bold pb-3' label="Real Estate" link="/industry/real-estate" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Manufacturing" link="/industry/manufacturing" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Finance" link="/services/health-cloud" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Hi-Tech" link="/industry/hi-tech" onHover={() => { }} />
@@ -586,7 +586,7 @@ const Header = () => {
                   />
                 ))}
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                  <Link href=''>Let's Begin</Link>
+                  <Link href='/'>Let's Begin</Link>
                 </button>
               </ul>
             </nav>
