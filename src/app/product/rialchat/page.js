@@ -20,7 +20,7 @@ export default function Page() {
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
-                    src="/images/industry/mediyina/Rialchat Banner.png"
+                    src="/images/industry/rialchat/banner.png"
                     alt="RISE with SAP"
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
