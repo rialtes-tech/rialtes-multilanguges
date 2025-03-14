@@ -3,10 +3,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import { useState } from "react";
-
-
-
 
 export default function Page() {
 

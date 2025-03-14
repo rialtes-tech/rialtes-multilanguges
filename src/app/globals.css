@@ -78,7 +78,7 @@ body {
   /* Desktop styles */
   @media (min-width: 768px) {
     h1 {
-      font-size: 42px;
+      font-size: 44px;
     }
 
     h2 {

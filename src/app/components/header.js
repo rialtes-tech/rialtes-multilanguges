@@ -94,7 +94,7 @@ const Header = () => {
             { label: 'Data Cloud', href: '/data-cloud' },
             { label: 'Implementation', href: '/' },
             { label: 'Managed Services', href: '/services/managed-services' },
-            { label: 'Mulesoft', href: '/' },
+            { label: 'Mulesoft', href: '/mulesoft-integration' },
             { label: 'Revenue Cloud', href: '/salesforce-consulting/revenue-cloud' },
           ],
         },
@@ -376,16 +376,16 @@ const Header = () => {
                       <MenuItem label="Agentforce" className='pb-3' link="/salesforce-consulting/agentforce" onHover={() => { }} />
                       <MenuItem label="Data Cloud" className='pb-3' link="/data-cloud" onHover={() => { }} />
                       <MenuItem label="Health Cloud" className='pb-3' link="/salesforce-consulting/health-cloud" onHover={() => { }} />
-                      <MenuItem label="Implementation" className='pb-3' link="/services/implementation" onHover={() => { }} />
+                      <MenuItem label="Implementation" className='pb-3' link="/" onHover={() => { }} />
                       <MenuItem label="Managed Services" className='pb-3' link="/salesforce-consulting/salesforce-manage" onHover={() => { }} />
-                      <MenuItem label="MuleSoft" className='pb-3' link="/" onHover={() => { }} />
+                      <MenuItem label="MuleSoft" className='pb-3' link="/mulesoft-integration" onHover={() => { }} />
                       <MenuItem label="Revenue Cloud" className='pb-3' link="/salesforce-consulting/revenue-cloud" onHover={() => { }} />
                     </div>
                   </div>
 
-                  <MenuItem label="Yardi" className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
-                  <MenuItem label="Cloud Migration" className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
-                  <MenuItem label="Integration" className='font-bold pb-3' link="/services/data-analytics" onHover={() => { }} />
+                  <MenuItem label="Yardi" className='font-bold pb-3' link="/" onHover={() => { }} />
+                  <MenuItem label="Cloud Migration" className='font-bold pb-3' link="/" onHover={() => { }} />
+                  <MenuItem label="Integration" className='font-bold pb-3' link="/" onHover={() => { }} />
 
                 </div>
                 <div>
@@ -396,12 +396,12 @@ const Header = () => {
                       link="/sap"
                     />
                     <div className="mt-2">
-                      <MenuItem label="Application Development" className='pb-3' link="/services/implementation" onHover={() => { }} />
+                      <MenuItem label="Application Development" className='pb-3' link="/" onHover={() => { }} />
                       <MenuItem label="GROW with SAP" className='pb-3' link="/grow-with-sap" onHover={() => { }} />
                       <MenuItem label="RISE with SAP" className='pb-3' link="/rise-with-sap" onHover={() => { }} />
                       <MenuItem label="SAP ARIBA" className='pb-3' link="/sap/sap-ariba" onHover={() => { }} />
                       <MenuItem label="SAP BTP" className='pb-3' link="/sap/sap-btp" onHover={() => { }} />
-                      <MenuItem label="SAP GTS" className='pb-3' link="/services/yardi" onHover={() => { }} />
+                      <MenuItem label="SAP GTS" className='pb-3' link="/" onHover={() => { }} />
                       <MenuItem label="SAP Integration" className='pb-3' link="/sap/sap-integration" onHover={() => { }} />
                       <MenuItem label="Successfactor" className='pb-3' link="/success-factors" onHover={() => { }} />
                     </div>
@@ -426,8 +426,8 @@ const Header = () => {
                       link="/services/data-analytics"
                     />
                     <MenuItem label="Alterys" className='pb-3' link="/" onHover={() => { }} />
-                    <MenuItem label="Power BI" className='pb-3' link="/data-cloud" onHover={() => { }} />
-                    <MenuItem label="Quik Sense" className='pb-3' link="/salesforce-consulting/health-cloud" onHover={() => { }} />
+                    <MenuItem label="Power BI" className='pb-3' link="/" onHover={() => { }} />
+                    <MenuItem label="Quik Sense" className='pb-3' link="/" onHover={() => { }} />
                   </div>
                 </div>
               </div>
@@ -452,9 +452,9 @@ const Header = () => {
                   <MenuItem className='font-bold pb-3' label="Healthcare" link="/healthcare" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Real Estate" link="/industry/real-estate" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Manufacturing" link="/industry/manufacturing" onHover={() => { }} />
-                  <MenuItem className='font-bold pb-3' label="Finance" link="/services/health-cloud" onHover={() => { }} />
+                  <MenuItem className='font-bold pb-3' label="Finance" link="/" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Hi-Tech" link="/industry/hi-tech" onHover={() => { }} />
-                  <MenuItem className='font-bold pb-3' label="Public Sector" link="/services/data-cloud" onHover={() => { }} />
+                  <MenuItem className='font-bold pb-3' label="Public Sector" link="/" onHover={() => { }} />
                 </div>
               </div>
             </div>
@@ -477,7 +477,7 @@ const Header = () => {
               <div className="col-span-4">
                 <MenuItem className='font-bold pb-3' label="Blog" link="/blog" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Case Studies" link="/case-study" onHover={() => { }} />
-                <MenuItem className='font-bold pb-3' label="Webinar" link="webinar" onHover={() => { }} />
+                <MenuItem className='font-bold pb-3' label="Webinar" link="/webinar" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Events" link="/events" onHover={() => { }} />
               </div>
             </div>

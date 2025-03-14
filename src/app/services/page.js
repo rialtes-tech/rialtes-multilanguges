@@ -207,10 +207,10 @@ export default function Page() {
                           xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
-            <h3 className="text-white text-[300] font-medium mb-2">Services</h3>
-            <h1 className="text-white max-w-2xl">
+            <div className="text-white text-[300] font-medium mb-2 xl:text-2xl text-lg">Services</div>
+            <div className="text-white max-w-2xl xl:text-[44px] text-xl xl:leading-[50px] leading-[26px]">
               Comprehensive Solutions to Transform Experiences and Shape your Digital Future
-            </h1>
+            </div>
           </div>
         </div>
       </section>
@@ -228,9 +228,9 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto xl:pr-72 md:pr-20">
-            <div className="flex flex-col xl:flex-row items-center py-6">
+            <div className="flex flex-col xl:flex-row items-center py-6 gap-20">
               <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
-                <h2 className="text-black md:pb-0 pb-4">Our Enterprise Management Services For A Secure And Sustainable Future</h2>
+                <h1 className="text-black md:pb-0 pb-4">Enterprise Platform Services and Solutions for a Secure and Sustainable Future</h1>
               </div>
               <div className="flex flex-col w-full xl:w-1/4">
                 <p className="text-[#000000]">Rialtes is a trusted partner with leading organizations working towards a shared goal of providing you with tailored data-driven solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
