@@ -21,6 +21,17 @@ body {
   font-family: var(--font-family);
 }
 
+.serve:first-child {
+  margin-left: 0 !important;
+}
+
+.containerr {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1410px;
+}
+
 @layer base {
   html {
     font-family: var(--font-family);
@@ -88,21 +99,18 @@ body {
     h4 {
       font-size: 18px;
     }
-
-
   }
 }
 
 .header {
   position: sticky;
-  top: 0;  /* Keeps the header at the top */
-  z-index: 50;  /* Ensure the header is above the content */
-  background-color: white;  /* Make sure the background is not transparent */
+  top: 0; /* Keeps the header at the top */
+  z-index: 50; /* Ensure the header is above the content */
+  background-color: white; /* Make sure the background is not transparent */
   width: 100%;
 }
 
 @media (max-width: 767px) {
-
   /* Ensure content is always visible on mobile */
   .group:hover .group-hover\:opacity-100 {
     opacity: 1 !important;
@@ -116,11 +124,9 @@ body {
     visibility: hidden !important;
   } */
 
-  .react-multi-carousel-dot-list>button {
+  .react-multi-carousel-dot-list > button {
     width: 50px;
   }
-
-
 
   .carousel .control-dots {
     position: absolute;
@@ -132,11 +138,8 @@ body {
     text-align: left !important;
     padding-left: 28px !important;
     /* top: 6rem; */
-
   }
 }
-
-
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .carousel .control-dots {
@@ -157,7 +160,7 @@ body {
 }
 
 .footer-background {
-  background-image: url('/images/homepage/footer-Bg.png');
+  background-image: url("/images/homepage/footer-Bg.png");
   color: white;
 }
 
@@ -177,7 +180,6 @@ body {
     text-align: left !important;
     padding-left: 270px !important;
   }
-
 }
 
 .get-inspired .react-multi-carousel-item {
