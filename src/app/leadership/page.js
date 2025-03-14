@@ -10,49 +10,57 @@ export default function Leadership() {
             viewMore: 'View Bio'
         },
         {
-            id: 2,
+            id: 3,
             imageUr: '/images/leadership/Anuraag Aggarwal.webp',
             name: 'Anuraag Aggarwal',
             designation: ' AI practice Lead',
             viewMore: 'View Bio'
         },
         {
-            id: 3,
+            id: 2,
+            imageUr: '/images/leadership/Mayur-updated.webp',
+            name: 'Mayur Tyagi',
+            designation: 'Sr. Managing Director - Sales & Marketing',
+            viewMore: 'View Bio'
+        },
+        
+        {
+            id: 4,
             imageUr: '/images/leadership/Akshay Kale (1).webp',
             name: 'Akshay Kale',
             designation: ' SAP Practice Lead',
             viewMore: 'View Bio'
         },
         {
-            id: 4,
+            id: 5,
             imageUr: '/images/leadership/Prasad.webp',
             name: 'Prasad Venkatesan',
             designation: ' Vice President, Global Partnership and Alliances',
             viewMore: 'View Bio'
         },
         {
-            id: 5,
+            id: 6,
             imageUr: '/images/leadership/Pawan Tyagi (1).webp',
             name: 'Pawan Tyagi',
             designation: 'Sr.Managing Director - Salesforce Services',
             viewMore: 'View Bio'
         },
         {
-            id: 6,
+            id: 7,
             imageUr: '/images/leadership/Anand.webp',
             name: 'Anand Unadkat',
             designation: ' Infrastructure and Cloud Migration Practice Lead',
             viewMore: 'View Bio'
         },
         {
-            id: 7,
-            imageUr: '/images/leadership/ImageSam4.png',
+            id: 8,
+            imageUr: '/images/leadership/ImageSam5.png',
             name: 'Samadhan Patil',
             designation: ' Finance & Operations Lead',
             viewMore: 'View Bio'
         },
         {
-            id: 8,
+            id: 9,
             imageUr: '/images/leadership/Rajani Patel (1).webp',
             name: 'Rajani Patel',
             designation: ' Senior Human Resources Manager',
@@ -79,7 +87,7 @@ export default function Leadership() {
                         objectFit: "cover",
                     }}
                     priority
-                    className="xl:h-[650px]"
+                    className="xl:h-[650px] h-[200px]"
                 />
                 <div className="absolute xl:px-[280px] md:px-[100px] px-6 top-[5%]  lg:text-start xl:top-[35%] md:top-[20%] text-white z-20">
                     <h3 className="font-bold">Meet our</h3>
@@ -94,16 +102,16 @@ export default function Leadership() {
                 <p className="mt-8 lg:w-1/2">With a deep commitment to our clients at the heart of their leadership philosophy, they are the driving force behind our mission towards simplifying our customers’ problems, enabling them to find the right solutions, and empowering them for upcoming challenges.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-16">
                     {leadershipTeam.map((leader, index) => {
-                        const applyMarginTop = (index === 3 || index === 4 || index === 5 || index === 6 || index === 7);
+                        const applyMarginTop = (index === 3 || index === 4 || index === 5 || index === 6 || index === 7 || index ===8);
 
                         return (
 
-                            <div key={leader?.id} className={`${applyMarginTop ? 'lg:mt-16 mt-10 md:mt-0' : ''}`} >
+                            <div key={leader?.id} className={`${applyMarginTop ? 'mt-10' : ''}`} >
                                 <div>
                                     <Image
                                         src={leader.imageUr}
                                         alt="Leadership Main"
-                                        className="relative mt-10 lg:mt-0 h-[400px]"
+                                        className="relative mt-10 lg:mt-0"
                                         width={0}
                                         height={0}
                                         sizes="100vw"

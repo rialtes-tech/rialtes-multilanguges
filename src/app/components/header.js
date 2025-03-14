@@ -97,7 +97,7 @@ const Header = () => {
           ],
         },
         {
-          label: 'SAP',
+          label: 'SAP',href: '/sap',
           subLinks: [
             { label: 'RISE with SAP', href: '/rise-with-sap' },
             { label: 'GROW with SAP', href: '/grow-with-sap' },
@@ -105,7 +105,7 @@ const Header = () => {
             { label: 'Application Development', href: '/partner-2' },
             { label: 'SAP Integration', href: '/partner-2' },
             { label: 'SAP ARIBA', href: '/partner-2' },
-            { label: 'SAP BTP', href: '/partner-2' },
+            { label: 'SAP BTP', href: '/sap/sap-btp' },
           ],
         },
         { label: 'Yardi', href: '/partners' },
@@ -125,7 +125,7 @@ const Header = () => {
     {
       label: 'Industry',
       links: [
-        { label: 'Healthcare', href: '/leadership' },
+        { label: 'Healthcare', href: '/healthcare' },
         { label: 'Real Estate', href: '/partners' },
         { label: 'Manufacturing', href: '/industry/manufacturing' },
         { label: 'Finance', href: '/partners' },
@@ -139,7 +139,7 @@ const Header = () => {
         { label: 'Blog', href: '/blog' },
         { label: 'Case Studies', href: '/case-studies' },
         { label: 'Webinar', href: '/webinar' },
-        { label: 'Events', href: '/partners' },
+        { label: 'Events', href: '/events' },
       ],
     },
   ];
@@ -389,14 +389,14 @@ const Header = () => {
                     <MenuItem
                       className="font-bold cursor-pointer"
                       label="SAP"
-                      link="/"
+                      link="/sap"
                     />
                     <div className="mt-2">
                       <MenuItem label="Application Development" className='pb-3' link="/services/implementation" onHover={() => { }} />
                       <MenuItem label="GROW with SAP" className='pb-3' link="/grow-with-sap" onHover={() => { }} />
                       <MenuItem label="RISE with SAP" className='pb-3' link="/rise-with-sap" onHover={() => { }} />
                       <MenuItem label="SAP ARIBA" className='pb-3' link="/services/managed-services" onHover={() => { }} />
-                      <MenuItem label="SAP BTP" className='pb-3' link="/services/yardi" onHover={() => { }} />
+                      <MenuItem label="SAP BTP" className='pb-3' link="/sap/sap-btp" onHover={() => { }} />
                       <MenuItem label="SAP GTS" className='pb-3' link="/services/yardi" onHover={() => { }} />
                       <MenuItem label="SAP Integration" className='pb-3' link="/services/yardi" onHover={() => { }} />
                       <MenuItem label="Successfactor" className='pb-3' link="/success-factors" onHover={() => { }} />
@@ -449,7 +449,7 @@ const Header = () => {
               </div>
               <div className="col-span-8">
                 <div>
-                  <MenuItem className='font-bold pb-3' label="Healthcare" link="/services/ai" onHover={() => { }} />
+                  <MenuItem className='font-bold pb-3' label="Healthcare" link="/healthcare" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Real Estate" link="/services/salesforce" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Manufacturing" link="/industry/manufacturing" onHover={() => { }} />
                   <MenuItem className='font-bold pb-3' label="Finance" link="/services/health-cloud" onHover={() => { }} />
@@ -478,7 +478,7 @@ const Header = () => {
                 <MenuItem className='font-bold pb-3' label="Blog" link="/blog" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Case Studies" link="/case-study" onHover={() => { }} />
                 <MenuItem className='font-bold pb-3' label="Webinar" link="webinar" onHover={() => { }} />
-                <MenuItem className='font-bold pb-3' label="Events" link="/industries/finance" onHover={() => { }} />
+                <MenuItem className='font-bold pb-3' label="Events" link="/events" onHover={() => { }} />
               </div>
             </div>
           </div>
