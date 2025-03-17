@@ -323,15 +323,15 @@ const Header = () => {
 
                 {/* Enterprise Platform Consulting Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "enterprise" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-5 ${openSection === "enterprise" ? "bg-white pr-5 pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("enterprise")}
                 >
-                  Enterprise Platform Consulting
+                  Enterprise Platforms
                 </div>
 
                 {/* Integration Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "integration" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-5 ${openSection === "integration" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("integration")}
                 >
                   Integration
@@ -339,7 +339,7 @@ const Header = () => {
 
                 {/* Cloud Migration Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "cloudeMigration" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-5 ${openSection === "cloudeMigration" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("cloudeMigration")}
                 >
                   Cloud Migration
@@ -347,7 +347,7 @@ const Header = () => {
 
                 {/* Artificial Intelligence Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "artificialIntelligence" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-5 ${openSection === "artificialIntelligence" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("artificialIntelligence")}
                 >
                   Artificial Intelligence
@@ -355,7 +355,7 @@ const Header = () => {
 
                 {/* Quality Engineering & Assurance Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "qualityEnAss" ? "bg-white p-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-5 ${openSection === "qualityEnAss" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("qualityEnAss")}
                 >
                   Quality Engineering & Assurance
@@ -363,7 +363,7 @@ const Header = () => {
 
                 {/* AI Automation Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "aiAutomation" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-5 ${openSection === "aiAutomation" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("aiAutomation")}
                 >
                   AI Automation
@@ -412,7 +412,7 @@ const Header = () => {
                             <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP" link="/sap" onHover={() => { }} onClick={handleLinkClick} />
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/salesforce-consulting" onHover={() => { }} onClick={handleLinkClick} />
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} />
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP ARIBA" link="/sap/sap-ariba" onHover={() => { }} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP ARIBA" link="/sap/sap-ariba" onHover={() => { }}  onClick={handleLinkClick} />
                             <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/salesforce-consulting/revenue-cloud" onClick={handleLinkClick} onHover={() => { }} />
 
                           </div>
