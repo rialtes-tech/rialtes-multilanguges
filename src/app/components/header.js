@@ -300,9 +300,9 @@ const Header = () => {
             link="/contact-us"
             className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-[#0092E0]' : ''}`}
           />
-       <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                  <Link href='/'>Let's Begin</Link>
-                </button>
+          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+            <Link href='/'>Let's Begin</Link>
+          </button>
         </div>
       </div>
 
@@ -312,65 +312,76 @@ const Header = () => {
         {activeCard === 1 && (
           <div className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
-              <div className="col-span-3 bg-[#deebf8] p-3">
+              <div className="col-span-3 bg-[#deebf8] p-3 relative">
+                {/* Data & AI Section */}
                 <div
-                  className={`cursor-pointer ${openSection === "dataAI" ? "bg-blue-200 p-5" : ""}`}
+                  className={`cursor-pointer ${openSection === "dataAI" ? "bg-white p-5 left-0 right-0 top-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("dataAI")}
                 >
                   Data & AI
                 </div>
+
+                {/* Enterprise Platform Consulting Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "enterprise" ? "bg-white p-5" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "enterprise" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("enterprise")}
                 >
                   Enterprise Platform Consulting
                 </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "integration" ? "bg-blue-200 p-5" : ""}`}
 
+                {/* Integration Section */}
+                <div
+                  className={`cursor-pointer mt-5 ${openSection === "integration" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("integration")}
                 >
                   Integration
                 </div>
+
+                {/* Cloud Migration Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "cloudeMigration" ? "bg-blue-200 p-5" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "cloudeMigration" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("cloudeMigration")}
                 >
                   Cloud Migration
                 </div>
+
+                {/* Artificial Intelligence Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "artificialIntelligence" ? "bg-blue-200 p-5" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "artificialIntelligence" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("artificialIntelligence")}
                 >
                   Artificial Intelligence
                 </div>
+
+                {/* Quality Engineering & Assurance Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "qualityEnAss" ? "bg-blue-200 p-5" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "qualityEnAss" ? "bg-white p-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("qualityEnAss")}
                 >
                   Quality Engineering & Assurance
                 </div>
 
+                {/* AI Automation Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "aiAutomation" ? "bg-blue-200 p-5" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "aiAutomation" ? "bg-white p-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("aiAutomation")}
                 >
                   AI Automation
                 </div>
-
               </div>
+
               {openSection === "dataAI" && (
                 <div className="col-span-8 flex space-x-5"  >
-                  <div className="flex-1 p-5">
+                  <div className=" p-5">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Data and AI</div>
-                      <div>Data and AI Info</div>
+                      <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
+                      <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
                     </div>
 
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Tableau" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="PowerBI" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
@@ -382,273 +393,167 @@ const Header = () => {
                     </div>
 
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+
                 </div>
               )}
 
               {openSection === "enterprise" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> Enterprise Platform Consulting</div>
-                      <div>Enterprise Platform Consulting Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="SAP" link="/" onHover={() => { }} />
-                          <p>SAP info</p>
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Salesforce" link="/" onHover={() => { }} />
-                          <p>Salesforce Info</p>
-                        </div>
-                      </div>
-                      <div className="flex justify-between mt-5">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="YARDI" link="/" onHover={() => { }} />
-                          <p>YARDI info</p>
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Agentforce" link="/" onHover={() => { }} />
-                          <p>Agentforce Info</p>
-                        </div>
-                      </div>
-                      <div className="flex justify-between mt-5">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="SAP Successfactors" link="/" onHover={() => { }} />
-                          <p>SAP Successfactors info</p>
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Oracle EBS" link="/" onHover={() => { }} />
-                          <p>Oracle EBS Info</p>
-                        </div>
-                      </div>
-                      <div className="flex justify-between mt-5">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="SAP ARIBA" link="/" onHover={() => { }} />
-                          <p>SAP ARIBA info</p>
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Kinaxis RapidResponse" link="/" onHover={() => { }} />
-                          <p>Kinaxis RapidResponse Info</p>
-                        </div>
-                      </div>
+                <div className="col-span-6 flex space-x-5">
 
+                  <div>
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Transform. Automate. Lead — The Power of Intelligent Enterprise</div>
+                        <p className="mt-3">Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.</p>
+                      </div>
                       <div className="mt-5">
-                        <MenuItem className="font-bold" label="Revenue Cloud" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        <p>Revenue Cloud Info</p>
+                        <div className="grid grid-cols-2 gap-32">
+                          <div>
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP" link="/sap" onHover={() => { }} onClick={handleLinkClick} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/salesforce-consulting" onHover={() => { }} onClick={handleLinkClick} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP ARIBA" link="/sap/sap-ariba" onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/salesforce-consulting/revenue-cloud" onClick={handleLinkClick} onHover={() => { }} />
 
+                          </div>
+                          <div>
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/salesforce-consulting/agentforce" onClick={handleLinkClick} onHover={() => { }} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Successfactors" link="/success-factors" onClick={handleLinkClick} onHover={() => { }} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle EBS" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Kinaxis RapidResponse" link="/" onHover={() => { }} onClick={handleLinkClick} />
+
+                          </div>
+
+                          <div>
+                          </div>
+                        </div>
                       </div>
                     </div>
+
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+
+
                 </div>
+
               )}
+
+
               {openSection === "integration" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Integration</div>
-                      <div>Integration Info</div>
+                      <div className="font-bold mt-5">Smarter Connections. Faster Growth. Intelligent Integration Services</div>
+                      <p className="mt-3">Future-ready integration strategies that align business goals with seamless technology execution</p>
                     </div>
                     <div className="mt-5">
-                      <div className="flex justify-between">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Mulesoft" link="/" onHover={() => { }} />
-                          <p>Mulesoft info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Mulesoft" link="/mulesoft-integration" onHover={() => { }} onClick={handleLinkClick} />
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP CPI" link="/" onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold pb-3" label="SAP CPI" link="/" onHover={() => { }} />
-                          <p>SAP CPI Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Workato" link="/" onClick={handleLinkClick} onHover={() => { }} />
+
                         </div>
-                      </div>
-                      <div className="mt-5">
-                        <MenuItem className="font-bold" label="Workato" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        <p>Workato Info</p>
 
                       </div>
+
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+
                 </div>
               )}
               {openSection === "cloudeMigration" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Cloud Migration</div>
-                      <div>Cloud Migration Info</div>
+                      <div className="font-bold mt-5">Transform Legacy Systems with Expert Cloud Migration</div>
+                      <p className="mt-3">Move beyond outdated infrastructure and embrace the future with secure, optimized cloud environments</p>
                     </div>
                     <div className="mt-5">
 
-                      <div className="flex justify-between">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Amazon Web Services" link="/" onHover={() => { }} />
-                          <p>Amazon Web Services info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Amazon Web Services" link="/" onHover={() => { }} onClick={handleLinkClick} />
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Google Cloud Platform" link="/" onHover={() => { }} onClick={handleLinkClick} />
+
+
                         </div>
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Google Cloud Platform" link="/" onHover={() => { }} />
-                          <p>Google Cloud Platform Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Microsoft Azure Platform" link="/" onClick={handleLinkClick} onHover={() => { }} />
+
                         </div>
-                      </div>
-                      <div className="mt-5">
-                        <MenuItem className="font-bold" label="Microsoft Azure Platform" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        <p>Microsoft Azure Platform Info</p>
 
                       </div>
+
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+
                 </div>
               )}
               {openSection === "artificialIntelligence" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">Artificial Intelligence</div>
-                      <div>Artificial Intelligence Info</div>
+                      <div className="font-bold mt-5">Make AI Your Competitive Advantage</div>
+                      <p className="mt-3">Empowering businesses to solve complex problems, automate workflows, and deliver real-time insights with AI.</p>
                     </div>
                     <div className="mt-5">
 
-                      <div className="flex justify-between">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold pb-3" label="RialBot" link="/" onHover={() => { }} />
-                          <p>RialBot info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="RialBot" link="/" onHover={() => { }} onClick={handleLinkClick} />
+                          <MenuItem className="font-bold pb-3 mt-6 text-[#2f78c4]" label="Microsoft Co-Pilot" link="/" onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Microsoft Co-Pilot" link="/" onHover={() => { }} />
-                          <p>Microsoft Co-Pilot Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Agentforce" link="/salesforce-consulting/agentforce" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
-                      </div>
-                      <div className="mt-5">
-                        <MenuItem className="font-bold" label="Agentforce" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        <p>Agentforce Info</p>
-
                       </div>
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-
                 </div>
               )}
               {openSection === "qualityEnAss" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">Quality Engineering Assurance</div>
-                      <div>Quality Engineering Assurance Info</div>
+                      <div className="font-bold mt-5">Quality Engineering and Assurance (QE & QA) services</div>
+                      <p className="mt-3">Ensuring Every Digital Experience is Exceptional</p>
+                      <p>Delivering quality-first outcomes with AI, automation, and deep domain expertise.</p>
                     </div>
                     <div className="mt-5">
-
-                      <div className="flex justify-between">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold pb-3" label="TOSCA" link="/" onHover={() => { }} />
-                          <p>TOSCA info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="TOSCA" link="/" onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Automated Testing" link="/" onHover={() => { }} />
-                          <p>Automated Testing Info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Automated Testing" link="/" onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                       </div>
-
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-
                 </div>
               )}
               {openSection === "aiAutomation" && (
-
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">AI Automation</div>
-                      <div>AI Automation Info</div>
+                      <div className="font-bold mt-5">Agility Meets Efficiency with Next-Gen Process Automation</div>
+                      <p className="mt-3">Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.</p>
                     </div>
                     <div className="mt-5">
-
-                      <div className="flex justify-between">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Automation Anywhere" link="/" onHover={() => { }} />
-                          <p>Automation Anywhere info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Automation Anywhere" link="/" onHover={() => { }} onClick={handleLinkClick} />
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Agentforce" link="/salesforce-consulting/agentforce" onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold pb-3" label="Agentforce" link="/" onHover={() => { }} />
-                          <p>Agentforce Info</p>
-                        </div>
-                      </div>
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="UIPath" link="/" onHover={() => { }} />
-                          <p>UIPath info</p>
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Alteryx" link="/" onHover={() => { }} />
-                          <p>Alteryx Info</p>
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/" onHover={() => { }} onClick={handleLinkClick} />
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Alteryx" link="/" onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                       </div>
-
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-
                 </div>
               )}
             </div>
@@ -1399,8 +1304,8 @@ const Header = () => {
                       <div className="mt-3">Leverage the capabilities of the Bolt in-app design, specifically tailored for the automotive industry, and accelerate your growth today!</div>
                       <div>Accelerate to Growth today!</div>
                       <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                  <Link href='/'>Let's Begin</Link>
-                </button>
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
 
 
@@ -1451,19 +1356,16 @@ const Header = () => {
                       <div className="font-bold"> LifeSciences</div>
                       <div className="mt-3">Transform clinical trials and prior authorization with AI and data from enterprise soures</div>
                       <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                  <Link href='/'>Let's Begin</Link>
-                </button>
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-3">
                       <div className="flex justify-between">
                         <div>
                           <MenuItem className="font-bold" label="Medical Devices" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Medical Devices Info</p>
-
                         </div>
                         <div>
                           <MenuItem className="font-bold" label="Healthcare" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Healthcare</p>
                         </div>
 
 
@@ -1471,7 +1373,6 @@ const Header = () => {
 
                       <div className="mt-5">
                         <MenuItem className="font-bold" label="Pharma and Bio" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        <p>Pharma and Bio</p>
 
                       </div>
                     </div>
@@ -1520,7 +1421,6 @@ const Header = () => {
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold"> Retail</div>
-                      <div>Retail Info</div>
                     </div>
                   </div>
                 </div>
@@ -1530,7 +1430,6 @@ const Header = () => {
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold"> Travel and Hospitality</div>
-                      <div>Travel and Hospitality Info</div>
                     </div>
                   </div>
                 </div>
@@ -1540,7 +1439,6 @@ const Header = () => {
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold"> Finance</div>
-                      <div>Finance</div>
                     </div>
                   </div>
                 </div>
@@ -1550,7 +1448,6 @@ const Header = () => {
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold"> Hi-Tech</div>
-                      <div>Hi- Tech Info</div>
                     </div>
                   </div>
                 </div>
@@ -1560,7 +1457,6 @@ const Header = () => {
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold">Manufacturing</div>
-                      <div>Manufacturing Info</div>
                     </div>
                   </div>
                 </div>
@@ -1625,13 +1521,11 @@ const Header = () => {
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold"> Leadership</div>
-                      <div>Leadership Info</div>
                     </div>
                     <div className="mt-3">
                       <div className="flex justify-between">
                         <div>
                           <MenuItem className="font-bold" label="Leadership" link="/leadership" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>leadership Info</p>
                         </div>
                       </div>
                     </div>
@@ -1918,7 +1812,6 @@ const Header = () => {
                       <div className="flex justify-between">
                         <div>
                           <MenuItem className="font-bold pb-3" label="Case Studies" link="/case-studies" onHover={() => { }} />
-                          <p>Case Studies Info</p>
                         </div>
 
                       </div>
