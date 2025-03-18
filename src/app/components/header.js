@@ -310,12 +310,12 @@ const Header = () => {
       <div>
         {/* solutions Card */}
         {activeCard === 1 && (
-          <div className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
+          <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
             <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
               <div className="col-span-3 bg-[#deebf8] p-3 relative">
                 {/* Data & AI Section */}
                 <div
-                  className={`cursor-pointer ${openSection === "dataAI" ? "bg-white p-5 left-0 right-0 top-0" : "p-3"}`}
+                  className={`cursor-pointer ${openSection === "dataAI" ? "bg-white pr-5 pl-3 pt-5 pb-5 left-0 right-0 top-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("dataAI")}
                 >
                   Data & AI
@@ -731,7 +731,7 @@ const Header = () => {
                           <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Advantage+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="RialEstate+" link="/industry/real-estate" onClick={handleLinkClick} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="AutoSense" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="AutoSense" link="/autosense" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Empower+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Retail+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="LifeAI+" link="/" onClick={handleLinkClick} onHover={() => { }} />
@@ -933,7 +933,7 @@ const Header = () => {
                           <MenuItem className="font-bold text-[#2f78c4]" label="Medical Devices" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Healthcare" link="/healthcare" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] " label="Healthcare" link="/healthcare" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                       <div className="mt-6">
