@@ -366,18 +366,17 @@ const Header = () => {
                   className={`cursor-pointer mt-5 ${openSection === "aiAutomation" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("aiAutomation")}
                 >
-                  AI Automation
+                  Process Automation
                 </div>
               </div>
 
               {openSection === "dataAI" && (
                 <div className="col-span-8 flex space-x-5"  >
-                  <div className=" p-5">
+                  <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
                       <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
                     </div>
-
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
@@ -391,9 +390,7 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-
                   </div>
-
                 </div>
               )}
 
@@ -412,7 +409,7 @@ const Header = () => {
                             <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP" link="/sap" onHover={() => { }} onClick={handleLinkClick} />
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/salesforce-consulting" onHover={() => { }} onClick={handleLinkClick} />
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} />
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP ARIBA" link="/sap/sap-ariba" onHover={() => { }}  onClick={handleLinkClick} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP ARIBA" link="/sap/sap-ariba" onHover={() => { }} onClick={handleLinkClick} />
                             <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/salesforce-consulting/revenue-cloud" onClick={handleLinkClick} onHover={() => { }} />
 
                           </div>
@@ -422,9 +419,6 @@ const Header = () => {
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle EBS" link="/" onClick={handleLinkClick} onHover={() => { }} />
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Kinaxis RapidResponse" link="/" onHover={() => { }} onClick={handleLinkClick} />
 
-                          </div>
-
-                          <div>
                           </div>
                         </div>
                       </div>
@@ -566,19 +560,19 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
                 <div
-                  className={`cursor-pointer ${openSection === "rialchat" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "rialchat" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("rialchat")}
                 >
                   RialChat
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "exelona" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "exelona" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("exelona")}
                 >
                   Exelona
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "mediAIna" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "mediAIna" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("mediAIna")}
                 >
@@ -587,87 +581,43 @@ const Header = () => {
               </div>
               {openSection === "rialchat" && (
                 <div className="col-span-8 flex space-x-5"  >
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> Rialchat</div>
-                      <div>Rialchat Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Rialchat" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Rialchat Info</p>
-
-                        </div>
-
-                      </div>
-                    </div>
+                   <div>
+                  <div className="border-b pb-5">
+                    <div className="font-bold mt-5"></div>
+                    <p className="mt-3"></p>
+                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                      <Link href='/product/rialchat'>Let's Begin</Link>
+                    </button>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+                </div>
 
                 </div>
               )}
 
               {openSection === "exelona" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> Exelona</div>
-                      <div>Exelona Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Exelona" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Exelona Info</p>
-                        </div>
-                      </div>
-                    </div>
+                 <div>
+                  <div className="border-b pb-5">
+                    <div className="font-bold mt-5"></div>
+                    <p className="mt-3"></p>
+                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                      <Link href='/'>Let's Begin</Link>
+                    </button>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+                </div>
                 </div>
               )}
               {openSection === "mediAIna" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> MediAIna</div>
-                      <div>MediAIna Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="MediAIna" link="/product/mediyina" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>MediAIna Info</p>
-                        </div>
-                      </div>
-                    </div>
+                  <div>
+                  <div className="border-b pb-5">
+                    <div className="font-bold mt-5"></div>
+                    <p className="mt-3"></p>
+                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                      <Link href='/product/mediyina'>Let's Begin</Link>
+                    </button>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+                </div>
                 </div>
               )}
             </div>
@@ -680,548 +630,190 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
                 <div
-                  className={`cursor-pointer ${openSection === "rialFinance" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("rialFinance")}
+                  className={`cursor-pointer mt-5 ${openSection === "businessTransform" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  onClick={() => handleSubMenuClick("businessTransform")}
                 >
-                  RialFinance+
+                  Business Transformation
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "advantage" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("advantage")}
+                  className={`cursor-pointer mt-5 ${openSection === "applicationServices" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  onClick={() => handleSubMenuClick("applicationServices")}
                 >
-                  Advantage+
+                  Application Services
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "sAPBuy" ? "bg-blue-200" : ""}`}
-
-                  onClick={() => handleSubMenuClick("sAPBuy")}
+                  className={`cursor-pointer mt-5 ${openSection === "lobServices" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  onClick={() => handleSubMenuClick("lobServices")}
                 >
-                  SAPBuy+
+                  LOB Services
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "rialEstate" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("rialEstate")}
+                  className={`cursor-pointer mt-5 ${openSection === "intelligentScm" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  onClick={() => handleSubMenuClick("intelligentScm")}
                 >
-                  RialEstate+
+                  Intelligent SCM
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "autoSense" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("autoSense")}
+                  className={`cursor-pointer mt-5 ${openSection === "spentMangemnet" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  onClick={() => handleSubMenuClick("spentMangemnet")}
                 >
-                  AutoSense
+                  Spent Management
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "empower" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("empower")}
+                  className={`cursor-pointer mt-5 ${openSection === "hxmTransformation" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  onClick={() => handleSubMenuClick("hxmTransformation")}
                 >
-                  Empower+
-                </div>
-
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "runAgents" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("runAgents")}
-                >
-                  RunAgents+
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "manageAgents" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("manageAgents")}
-                >
-                  ManageAgents+
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "success" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("success")}
-                >
-                  Success+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "voyagerNext" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("voyagerNext")}
-                >
-                  VoyagerNext+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "voyager" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("voyager")}
-                >
-                  Voyager+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "retail" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("retail")}
-                >
-                  Retail+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "lifeAI" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("lifeAI")}
-                >
-                  LifeAI+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "travel" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("travel")}
-                >
-                  Travel+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "demand+" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("demand")}
-                >
-                  Demand+
-                </div> <div
-                  className={`cursor-pointer mt-5 ${openSection === "eduA" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("eduA")}
-                >
-                  EduA+
+                  HXM Transformation
                 </div>
               </div>
-              {openSection === "rialFinance" && (
+              {openSection === "businessTransform" && (
                 <div className="col-span-8 flex space-x-5"  >
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold"> [ Financial ]</div>
-                      <div>[ Financial ] Info</div>
+                      <div className="font-bold mt-5"></div>
+                      <p className="mt-3"></p>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex">
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold" label="Financial" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Financial Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="VoyagerNext" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Voyager+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="For Grow with SAP" link="/grow-with-sap" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-
-              {openSection === "advantage" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> Advantage</div>
-                      <div>Advantage Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Advantage" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Advantage Info</p>
-                        </div>
-                      </div>
-                    </div>
-
-
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "sAPBuy" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> SAPBuy</div>
-                      <div>SAPBuy Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="SAPBuy" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>SAPBuy Info</p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "rialEstate" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">RialEstate</div>
-                      <div>RialEstate Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="RialEstate" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>RialEstate Info</p>
-                        </div>
-                      </div>
-                    </div>
-
-
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "autoSense" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">AutoSense</div>
-                      <div>AutoSense Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="AutoSense" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>AutoSense Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "empower" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Empower</div>
-                      <div>Empower Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Empower" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Empower Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "runAgents" && (
-
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">RunAgents</div>
-                      <div>RunAgents Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="RunAgents" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>RunAgents Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
 
                 </div>
               )}
-              {openSection === "manageAgents" && (
 
+              {openSection === "applicationServices" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">ManageAgents</div>
-                      <div>ManageAgents Info</div>
+                      <div className="font-bold mt-5"></div>
+                      <p className="mt-3"></p>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold" label="ManageAgents" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>ManageAgents Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="RunAgents+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for Salesforce AMS" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="YARDI+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+
                         </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="ManageAgents+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for SAP AMS" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For YARDI AMS" link="/" onClick={handleLinkClick} onHover={() => { }} />
+
+                        </div>
+
                       </div>
                     </div>
-                  </div>
-
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "success" && (
-
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Success</div>
-                      <div>Success Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Success" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Success Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "voyagerNext" && (
-
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">VoyagerNext</div>
-                      <div>VoyagerNext Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="VoyagerNext" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>VoyagerNext Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
 
                 </div>
               )}
-              {openSection === "voyager" && (
-
+              {openSection === "lobServices" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">Voyager</div>
-                      <div>Voyager Info</div>
+                      <div className="font-bold mt-5"></div>
+                      <p className="mt-3"></p>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold" label="Voyager" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Voyager Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Advantage+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="RialEstate+" link="/industry/real-estate" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="AutoSense" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Empower+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Retail+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="LifeAI+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Travel+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="EduA+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="[ Financial ]" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for marketing industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for real estate industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for automotive industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for non profit industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for Retail Industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For life sciences industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="a TTH service" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For Education Industry" link="/" onClick={handleLinkClick} onHover={() => { }} />
+
+                        </div>
+
                       </div>
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
+                </div>
+              )}
+              {openSection === "intelligentScm" && (
+                <div className="col-span-8 flex space-x-5">
+                  <div>
+                    <div className="border-b pb-5">
+                      <div className="font-bold mt-5"></div>
+                      <p className="mt-3"></p>
+                    </div>
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Demand+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="for Kinaxis Implementation" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
                 </div>
               )}
-              {openSection === "retail" && (
-
+              {openSection === "spentMangemnet" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">Retail</div>
-                      <div>Retail Info</div>
+                      <div className="font-bold mt-5"></div>
+                      <p className="mt-3"></p>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold" label="Retail" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Retail Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="for ARIBA Implementation" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-
-                </div>
-              )}
-              {openSection === "lifeAI" && (
-
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">LifeAI</div>
-                      <div>LifeAI Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="LifeAI" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>LifeAI Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
                 </div>
               )}
-              {openSection === "travel" && (
-
+              {openSection === "hxmTransformation" && (
                 <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
+                  <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold">Travel</div>
-                      <div>Travel Info</div>
+                      <div className="font-bold mt-5"></div>
+                      <p className="mt-3"></p>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold" label="Travel" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Travel Info</p>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Success+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="for SuccessFactor Implementation" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "demand" && (
-
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Demand</div>
-                      <div>Demand Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Demand" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Demand Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "eduA" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">EduA</div>
-                      <div>eduA Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="EduA" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>EduA Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
                 </div>
               )}
@@ -1235,61 +827,61 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
                 <div
-                  className={`cursor-pointer ${openSection === "automotive" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "automotive" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("automotive")}
                 >
                   Automotive
                 </div>
                 <div
-                  className={`cursor-pointer  mt-5 ${openSection === "education" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "education" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
                   onClick={() => handleSubMenuClick("education")}
                 >
                   Education
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "lifeSciences" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "lifeSciences" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("lifeSciences")}
                 >
                   Life Sciences
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "nonProfit" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "nonProfit" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("nonProfit")}
                 >
                   Non Profit
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "retail" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "retail" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("retail")}
                 >
                   Retail
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "travelHospitality" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "travelHospitality" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("travelHospitality")}
                 >
                   Travel and Hospitality
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "finance" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "finance" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("finance")}
                 >
                   Finance
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "hiTech" ? "bg-white" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "hiTech" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("hiTech")}
                 >
                   Hi-Tech
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "manufacturing" ? "bg-blue-200" : ""}`}
+                  className={`cursor-pointer mt-5 ${openSection === "manufacturing" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
 
                   onClick={() => handleSubMenuClick("manufacturing")}
                 >
@@ -1300,24 +892,12 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5"  >
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold text-xl"> Automotive</div>
-                      <div className="mt-3">Leverage the capabilities of the Bolt in-app design, specifically tailored for the automotive industry, and accelerate your growth today!</div>
-                      <div>Accelerate to Growth today!</div>
+                      <div className="font-bold mt-5"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
+                      <div className="mt-3">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
                       <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
                         <Link href='/'>Let's Begin</Link>
                       </button>
                     </div>
-
-
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
                 </div>
               )}
@@ -1326,65 +906,40 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Education</div>
-                      <div>Education Info</div>
+                      <div className="font-bold mt-5"> Smarter Campuses. Engaged Students. Seamless Administration</div>
+                      <p className="mt-3">Helping educational institutions innovate and thrive with integrated, intelligent technology solutions</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Education" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Education Info</p>
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
+
                 </div>
               )}
               {openSection === "lifeSciences" && (
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> LifeSciences</div>
-                      <div className="mt-3">Transform clinical trials and prior authorization with AI and data from enterprise soures</div>
+                      <div className="font-bold mt-5"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
+                      <p className="mt-3">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
                       <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
                         <Link href='/'>Let's Begin</Link>
                       </button>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
+                    <div className="mt-10">
+                      <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold" label="Medical Devices" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Medical Devices" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold" label="Healthcare" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Healthcare" link="/healthcare" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
-
-
                       </div>
-
-                      <div className="mt-5">
-                        <MenuItem className="font-bold" label="Pharma and Bio" link="/" onClick={handleLinkClick} onHover={() => { }} />
-
+                      <div className="mt-6">
+                        <MenuItem className="font-bold text-[#2f78c4]" label="Pharma and Bio" link="/" onClick={handleLinkClick} onHover={() => { }} />
                       </div>
                     </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
                 </div>
 
@@ -1393,26 +948,12 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Non Profit</div>
-                      <div>Non Profit Info</div>
+                      <div className="font-bold mt-5"> Accelerating Mission Impact — Enterprise Transformation for Non-Profits</div>
+                      <p className="mt-3">Strategic consulting for global non-profits to drive donor engagement, operational agility,and community outcomes with confidence</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="MediAIna" link="/product/mediyina" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>MediAIna Info</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
                   </div>
                 </div>
               )}
@@ -1420,7 +961,11 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Retail</div>
+                      <div className="font-bold mt-5"> Elevate Retail — Engage Customers, Optimize Operations, Drive Growth</div>
+                      <p className="mt-3">End-to-end consulting solutions to help retail enterprises thrive in a digital, customer-firstworld</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1429,7 +974,11 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Travel and Hospitality</div>
+                      <div className="font-bold mt-5">From Check-In to Check-Out — Reinventing Hospitality with Innovation</div>
+                      <p className="mt-3">Helping leading hospitality brands deliver seamless, connected, and memorable guest experiences at every touch point</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1438,7 +987,11 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Finance</div>
+                      <div className="font-bold mt-5"> Powering Finance — From Risk to Revenue with Intelligent Solutions</div>
+                      <p className="mt-3">Enabling large banks and financial firms to optimize risk, unlock new revenue streams, andmeet evolving regulatory demands with AI and automation</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/'>Let's Begin</Link>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1447,7 +1000,11 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold"> Hi-Tech</div>
+                      <div className="font-bold mt-5">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
+                      <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/industry/hi-tech'>Let's Begin</Link>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1456,7 +1013,11 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
-                      <div className="font-bold">Manufacturing</div>
+                      <div className="font-bold mt-5">Manufacturing</div>
+                      <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
+                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                        <Link href='/industry/manufacturing'>Let's Begin</Link>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1470,247 +1031,36 @@ const Header = () => {
           <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
-                <div
-                  className={`cursor-pointer ${openSection === "leadership" ? "bg-blue-200 p-5" : ""}`}
-                  onClick={() => handleSubMenuClick("leadership")}
-                >
-                  Leadership
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "cultureValues" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("cultureValues")}
-                >
-                  Culture and Values
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "partnership" ? "bg-blue-200" : ""}`}
-
-                  onClick={() => handleSubMenuClick("partnership")}
-                >
-                  Partnership
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "sponsorships" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("sponsorships")}
-                >
-                  Sponsorships
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "corporateCitizenship" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("corporateCitizenship")}
-                >
-                  Corporate Citizenship
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "Newspressreleases" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("Newspressreleases")}
-                >
-                  News and press releases
-                </div>
-
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "contactus" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("contactus")}
-                >
-                  Contact Us
+              </div>
+              <div className="col-span-8 flex space-x-5"  >
+                <div>
+                  <div className="border-b pb-5">
+                    <div className="font-bold mt-5"></div>
+                    <p className="mt-3"></p>
+                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                      <Link href='/about-us'>Let's Begin</Link>
+                    </button>
+                  </div>
+                  <div className="mt-10">
+                    <div className="grid grid-cols-2 gap-32">
+                      <div>
+                        <MenuItem className="font-bold text-[#2f78c4]" label="Leadership" link="/leadership" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Culture and Values" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Partnership" link="/partners" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Contact Us" link="/contact-us" onClick={handleLinkClick} onHover={() => { }} />
+                      </div>
+                      <div>
+                        <MenuItem className="font-bold text-[#2f78c4]" label="Sponsorships" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Corporate Citizenship" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and press releases" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                      </div>
+                      <div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
               </div>
-              {openSection === "leadership" && (
-                <div className="col-span-8 flex space-x-5"  >
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold"> Leadership</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Leadership" link="/leadership" onClick={handleLinkClick} onHover={() => { }} />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-
-              {openSection === "cultureValues" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Culture and Values</div>
-                      <div>Culture and Values Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Culture and Values" link="/" onHover={() => { }} />
-                          <p>Culture and Values Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "partnership" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Partnership</div>
-                      <div>Partnership Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Partnership" link="/" onHover={() => { }} />
-                          <p>Partnership Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "sponsorships" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Sponsorships</div>
-                      <div>Sponsorships Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Sponsorships" link="/" onHover={() => { }} />
-                          <p>Sponsorships Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "corporateCitizenship" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Corporate Citizenship</div>
-                      <div>Corporate Citizenship Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Corporate Citizenship" link="/" onHover={() => { }} />
-                          <p>Corporate Citizenship Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "Newspressreleases" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">News and Press releases</div>
-                      <div>News and Press releases Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="News and Press releases" link="/" onHover={() => { }} />
-                          <p>News and Press releases Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "contactus" && (
-
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Contact us</div>
-                      <div>Contact us Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Contact us" link="/contact-us" onHover={() => { }} />
-                          <p>Contact us Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
             </div>
           </div>
         )}
@@ -1719,143 +1069,37 @@ const Header = () => {
           <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
-                <div
-                  className={`cursor-pointer ${openSection === "blogs" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("blogs")}
-                >
-                  Blogs
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "webinars" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("webinars")}
-                >
-                  Webinars
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "caseStudies" ? "bg-blue-200" : ""}`}
-
-                  onClick={() => handleSubMenuClick("caseStudies")}
-                >
-                  Case Studies
-                </div>
-                <div
-                  className={`cursor-pointer mt-5 ${openSection === "events" ? "bg-blue-200" : ""}`}
-                  onClick={() => handleSubMenuClick("events")}
-                >
-                  Events
-                </div>
+               
               </div>
-              {openSection === "blogs" && (
+             
                 <div className="col-span-8 flex space-x-5"  >
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Blogs</div>
-                      <div>Blogs Info</div>
-                    </div>
-                    <div className="mt-3">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold" label="Blogs" link="/blog" onClick={handleLinkClick} onHover={() => { }} />
-                          <p>Blogs Info</p>
-                        </div>
+                <div>
+                  <div className="border-b pb-5">
+                    <div className="font-bold mt-5"></div>
+                    <p className="mt-3"></p>
+                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                      <Link href='/'>Let's Begin</Link>
+                    </button>
+                  </div>
+                  <div className="mt-10">
+                    <div className="grid grid-cols-2 gap-32">
+                      <div>
+                        <MenuItem className="font-bold text-[#2f78c4]" label="Blogs" link="/blog" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/webinar" onClick={handleLinkClick} onHover={() => { }} />
+                      </div>
+                      <div>
+                        <MenuItem className="font-bold text-[#2f78c4]" label="Case Studies" link="/case-study" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} />
+                      </div>
+                      <div>
                       </div>
                     </div>
                   </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
                 </div>
-              )}
-
-              {openSection === "webinars" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Webinars</div>
-                      <div>Webinars Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Webinars" link="/webinar" onHover={() => { }} />
-                          <p>Webinars Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
                 </div>
-              )}
-              {openSection === "caseStudies" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Case Studies</div>
-                      <div>Case Studies Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Case Studies" link="/case-studies" onHover={() => { }} />
-                        </div>
+              
 
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
-              {openSection === "events" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div className="flex-1">
-                    <div className="border-b pb-5">
-                      <div className="font-bold">Events</div>
-                      <div>Events Info</div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="flex justify-between">
-                        <div>
-                          <MenuItem className="font-bold pb-3" label="Events" link="/events" onHover={() => { }} />
-                          <p>Events Info</p>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/images/blog/blog-2.webp"
-                      alt="Webinar Header"
-                      className="w-full h-full"
-                      width='0'
-                      height='0'
-                    />
-                  </div>
-                </div>
-              )}
+             
             </div>
           </div>
         )}
