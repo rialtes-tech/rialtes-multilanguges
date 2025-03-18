@@ -282,13 +282,13 @@ const Home = () => {
                 objectFit: "cover",
 
               }}
-              priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed' alt='demo' src='/images/homepage/Asset1.webp' />
-            <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+              priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed' alt='demo' src='/images/homepage/automotive.webp' />
+            {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>AI-Powered Insights for</div>
               <div className='xl:left-20 absolute xl:text-2xl text-lg'>Smarter Customer Engagement</div>
 
             </div>
-            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
+            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
 
           </div>
           <div className='relative'>
@@ -299,14 +299,14 @@ const Home = () => {
                 width: "100%",
                 objectFit: "cover",
               }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/Asset2.webp' />
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/lifescience.webp' />
 
-            <div className='absolute text-black top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+            {/* <div className='absolute text-black top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>Your Complete Path to</div>
               <div className='xl:left-20 absolute xl:text-2xl text-lg'>Scalable and Intelligent ERP</div>
 
             </div>
-            <h4 className='bottom-[15%] absolute text-black xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
+            <h4 className='bottom-[15%] absolute text-black xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
           </div>
           <div className='relative'>
             <Image width={0}
@@ -316,14 +316,32 @@ const Home = () => {
                 width: "100%",
                 objectFit: "cover",
               }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/Asset3.webp' />
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 1.webp' />
 
-            <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+            {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>Streamline HR processes</div>
               <div className='xl:left-20 absolute xl:text-2xl text-lg'>for the Modern Workspace</div>
 
             </div>
-            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4>
+            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
+
+          </div>
+          <div className='relative'>
+            <Image width={0}
+              height={0}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                objectFit: "cover",
+              }}
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 2.webp' />
+
+            {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
+              <div className='xl:text-5xl text-xl'>Streamline HR processes</div>
+              <div className='xl:left-20 absolute xl:text-2xl text-lg'>for the Modern Workspace</div>
+
+            </div>
+            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
 
           </div>
         </ResponsiveCarousel>
