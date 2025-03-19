@@ -386,7 +386,7 @@ const Header = () => {
                       <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
                       <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -415,7 +415,7 @@ const Header = () => {
                         <div className="font-bold mt-5">Transform. Automate. Lead — The Power of Intelligent Enterprise</div>
                         <p className="mt-3">Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/about-us'>Let's Begin</Link>
+                          <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                         </button>
                       </div>
                       <div className="mt-5">
@@ -454,7 +454,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Smarter Connections. Faster Growth. Intelligent Integration Services</div>
                       <p className="mt-3">Future-ready integration strategies that align business goals with seamless technology execution</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/sap/sap-integration' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-5">
@@ -482,7 +482,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Transform Legacy Systems with Expert Cloud Migration</div>
                       <p className="mt-3">Move beyond outdated infrastructure and embrace the future with secure, optimized cloud environments</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-5">
@@ -513,7 +513,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Make AI Your Competitive Advantage</div>
                       <p className="mt-3">Empowering businesses to solve complex problems, automate workflows, and deliver real-time insights with AI.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-5">
@@ -539,7 +539,7 @@ const Header = () => {
                       <p className="mt-3">Ensuring Every Digital Experience is Exceptional</p>
                       <p>Delivering quality-first outcomes with AI, automation, and deep domain expertise.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-5">
@@ -562,7 +562,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Agility Meets Efficiency with Next-Gen Process Automation</div>
                       <p className="mt-3">Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-5">
@@ -614,10 +614,9 @@ const Header = () => {
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.</div>
-                      <div className="font-bold mt-3">AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversations efficiently, and automate workflows — all without leaving Salesforce.</div>
                       <p className="mt-3">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/product/rialchat' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -630,13 +629,12 @@ const Header = () => {
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Exelona: Built for Real Estate, Powered by AI</div>
-                      <div className="font-bold mt-2">From lead management to lease renewals, Exelona delivers 360-degree visibility into your properties and finances. </div>
                       <p className="mt-3">Real Estate CRM, property accounting, and operationns — all connected, automated, and empowered by advanced AI analytics.
                         Optimize decision-making and drive profitability with a unified view of your real estate portfolio.
 
                       </p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -649,11 +647,10 @@ const Header = () => {
                       <div className="font-bold mt-5">Unify trial management, prior authorization, and long-term care coordination in one intelligent, AI-driven healthcare CRM platform. </div>
                       <p className="mt-3"> Manage the entire patient lifecycle with ease — from trial management to long-term care — all powered by predictive AI insights.
                         Gain actionable insights, reduce administrative burdens, and ensure patients receive timely, personalized care.
-
                       </p>
 
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/product/mediyina' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -712,7 +709,7 @@ const Header = () => {
                       <div className="font-bold mt-5">From Vision to Value — Transform Smarter, Grow Faster</div>
                       <p className="mt-3">From strategy to execution, we accelerate your transformation journey with AI-powered insights and industry-leading expertise, turning challenges into competitive advantages</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -739,7 +736,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Your Partner for Resilient, Scalable, and Secure IT Operations</div>
                       <p className="mt-3">Simplify operations and maximize efficiency with our global managed services — delivering 24/7 support, proactive monitoring, and seamless scalability with onsite, nearshore and offshore teams.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -770,7 +767,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Tailored Industry Solutions, Unmatched Results</div>
                       <p className="mt-3">From healthcare to automotive, our industry-specific consulting services deliver actionable insights and innovative solutions that drive sustainable growth.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -811,7 +808,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Transform Complexity into Competitive Advantage</div>
                       <p className="mt-3">Our end-to-end supply chain consulting services ensure visibility, agility, and operational excellence across your value chain</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -836,7 +833,7 @@ const Header = () => {
                       <p className="mt-3">Our comprehensive spend management services deliver transparency and accountability, transforming how you manage business expenses.
                       </p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -859,7 +856,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Empower Your Workforce with Smarter HCM Solutions</div>
                       <p className="mt-3">From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -954,7 +951,7 @@ const Header = () => {
                       <div className="font-bold mt-5"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
                       <div className="mt-3">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -967,7 +964,7 @@ const Header = () => {
                       <div className="font-bold mt-5"> Smarter Campuses. Engaged Students. Seamless Administration</div>
                       <p className="mt-3">Helping educational institutions innovate and thrive with integrated, intelligent technology solutions</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
 
@@ -982,7 +979,7 @@ const Header = () => {
                       <div className="font-bold mt-5"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
                       <p className="mt-3">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -1009,7 +1006,7 @@ const Header = () => {
                       <div className="font-bold mt-5"> Accelerating Mission Impact — Enterprise Transformation for Non-Profits</div>
                       <p className="mt-3">Strategic consulting for global non-profits to drive donor engagement, operational agility,and community outcomes with confidence</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1022,7 +1019,7 @@ const Header = () => {
                       <div className="font-bold mt-5"> Elevate Retail — Engage Customers, Optimize Operations, Drive Growth</div>
                       <p className="mt-3">End-to-end consulting solutions to help retail enterprises thrive in a digital, customer-firstworld</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1035,7 +1032,7 @@ const Header = () => {
                       <div className="font-bold mt-5">From Check-In to Check-Out — Reinventing Hospitality with Innovation</div>
                       <p className="mt-3">Helping leading hospitality brands deliver seamless, connected, and memorable guest experiences at every touch point</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1048,7 +1045,7 @@ const Header = () => {
                       <div className="font-bold mt-5"> Powering Finance — From Risk to Revenue with Intelligent Solutions</div>
                       <p className="mt-3">Enabling large banks and financial firms to optimize risk, unlock new revenue streams, andmeet evolving regulatory demands with AI and automation</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1061,7 +1058,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                       <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/industry/hi-tech' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1074,7 +1071,7 @@ const Header = () => {
                       <div className="font-bold mt-5">Manufacturing</div>
                       <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
                       <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us'>Let's Begin</Link>
+                        <Link href='/industry/manufacturing' onClick={handleLinkClick}>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1088,13 +1085,16 @@ const Header = () => {
         {activeCard === 5 && (
           <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-              <div className="col-span-3 bg-[#deebf8] p-3 overflow-y-scroll h-[50vh] relative">
-                <div
-                  className="cursor-pointer font-bold bg-white pt-3 pl-3 pb-3"
-                >
-                  About Rialtes: Innovating with Impact
+              <div className="col-span-3  p-3">
+
+                <div className="bg-[#deebf8] p-3">
+                  <div
+                    className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3"
+                  >
+                    About Rialtes: Innovating with Impact
+                  </div>
                 </div>
-                <p className="mt-10 border-b-[2px] pb-5 border-black">
+                {/* <p className="mt-10 border-b-[2px] pb-5 border-black">
                   At <strong className="font-bold">Rialtes</strong>, we’re more than a consulting company — we’re a force for positive change. Our commitment to <strong className="font-bold">innovation</strong>,  <strong className="font-bold">sustainability</strong>, and  <strong className="font-bold">inclusion</strong> drives everything we do. From empowering businesses through AI and digital transformation to supporting communities and the environment, we believe in making a lasting impact.
 
                 </p>
@@ -1114,7 +1114,7 @@ const Header = () => {
                   <h4>🤝 Diversity, Equity, and Inclusion (DEI)</h4>
                   <p className="mt-3">We believe diversity fuels innovation. Rialtes fosters an inclusive workplace where <strong className="font-bold">women in tech</strong>  thrive, <strong className="font-bold">veterans</strong>  are celebrated, and every individual’s perspective is valued. Through mentorship programs, leadership opportunities, and a supportive culture, we ensure all voices are heard. Our dedication to <strong className="font-bold">DEI</strong>  shapes both our internal culture and our client solutions, creating lasting social impact.
                   </p>
-                </div>
+                </div> */}
               </div>
               <div className="col-span-8 flex space-x-5"  >
                 <div>
@@ -1122,7 +1122,7 @@ const Header = () => {
                     <div className="font-bold mt-5">Beyond Business: A Commitment to Change</div>
                     <p className="mt-3">Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                     <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                      <Link href='/about-us'>Let's Begin</Link>
+                      <Link href='/about-us' onClick={handleLinkClick}>Let's Begin</Link>
                     </button>
                   </div>
                   <div className="mt-10">
@@ -1167,7 +1167,7 @@ const Header = () => {
                     <div className="font-bold mt-5">Explore Our Insights: Blogs, Case Studies, and Thought Leadership</div>
                     <p className="mt-3">Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.</p>
                     <button className=" text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                      <Link href='/'>Let's Begin</Link>
+                      <Link href='/insights' onClick={handleLinkClick}>Let's Begin</Link>
                     </button>
                   </div>
                   <div className="mt-10">
