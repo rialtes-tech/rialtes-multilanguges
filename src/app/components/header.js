@@ -24,13 +24,28 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState(null);
   const [activeMenu, setActiveMenu] = useState(null);
-  const [openSection, setOpenSection] = useState(null);
+  const [openSection, setOpenSection] = useState("automotive");
+  const [openSectionbusiness, setOpenSectionBusiness] = useState("businessTransform");
+  const [openSectionSolution, setOpenSectionSolution] = useState("dataAI");
+  const [openSectionProduct, setOpenSectionProduct] = useState("rialchat");
 
 
 
 
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
+  };
+
+  const handleSubMenuClickBusiness = (section) => {
+    setOpenSectionBusiness(section);
+  };
+  const handleSubMenuClickSolution = (section) => {
+    setOpenSectionSolution(section);
+  };
+
+
+  const handleSubMenuClickProduct = (section) => {
+    setOpenSectionProduct(section);
   };
 
   const cardRef = useRef(null);
@@ -82,7 +97,7 @@ const Header = () => {
     {
       label: 'Products',
       links: [
-        { label: 'RialChat', href: '/product/rialchat' },
+        { label: 'AgentChat', href: '/product/rialchat' },
         {
           label: 'Exelona',
           subLinks: [
@@ -315,67 +330,64 @@ const Header = () => {
               <div className="col-span-3 bg-[#deebf8] p-3 relative">
                 {/* Data & AI Section */}
                 <div
-                  className={`cursor-pointer ${openSection === "dataAI" ? "bg-white pr-5 pl-3 pt-5 pb-5 left-0 right-0 top-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("dataAI")}
+                  className={`cursor-pointer font-bold mt-3 ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("dataAI")}
                 >
                   Data & AI
                 </div>
 
-                {/* Enterprise Platform Consulting Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "enterprise" ? "bg-white pr-5 pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("enterprise")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("enterprise")}
                 >
                   Enterprise Platforms
                 </div>
 
-                {/* Integration Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "integration" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("integration")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("integration")}
                 >
                   Integration
                 </div>
 
-                {/* Cloud Migration Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "cloudeMigration" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("cloudeMigration")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "cloudeMigration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("cloudeMigration")}
                 >
                   Cloud Migration
                 </div>
 
-                {/* Artificial Intelligence Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "artificialIntelligence" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("artificialIntelligence")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
                 >
                   Artificial Intelligence
                 </div>
 
-                {/* Quality Engineering & Assurance Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "qualityEnAss" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("qualityEnAss")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "qualityEnAss" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("qualityEnAss")}
                 >
                   Quality Engineering & Assurance
                 </div>
 
-                {/* AI Automation Section */}
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "aiAutomation" ? "bg-white pl-3 pt-5 pb-5  left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("aiAutomation")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("aiAutomation")}
                 >
                   Process Automation
                 </div>
               </div>
 
-              {openSection === "dataAI" && (
+              {openSectionSolution === "dataAI" && (
                 <div className="col-span-8 flex space-x-5"  >
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
                       <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -394,7 +406,7 @@ const Header = () => {
                 </div>
               )}
 
-              {openSection === "enterprise" && (
+              {openSectionSolution === "enterprise" && (
                 <div className="col-span-6 flex space-x-5">
 
                   <div>
@@ -402,6 +414,9 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5">Transform. Automate. Lead — The Power of Intelligent Enterprise</div>
                         <p className="mt-3">Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/about-us'>Let's Begin</Link>
+                        </button>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
@@ -432,12 +447,15 @@ const Header = () => {
               )}
 
 
-              {openSection === "integration" && (
+              {openSectionSolution === "integration" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Smarter Connections. Faster Growth. Intelligent Integration Services</div>
                       <p className="mt-3">Future-ready integration strategies that align business goals with seamless technology execution</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
@@ -457,12 +475,15 @@ const Header = () => {
 
                 </div>
               )}
-              {openSection === "cloudeMigration" && (
+              {openSectionSolution === "cloudeMigration" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Transform Legacy Systems with Expert Cloud Migration</div>
                       <p className="mt-3">Move beyond outdated infrastructure and embrace the future with secure, optimized cloud environments</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-5">
 
@@ -485,12 +506,15 @@ const Header = () => {
 
                 </div>
               )}
-              {openSection === "artificialIntelligence" && (
+              {openSectionSolution === "artificialIntelligence" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Make AI Your Competitive Advantage</div>
                       <p className="mt-3">Empowering businesses to solve complex problems, automate workflows, and deliver real-time insights with AI.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-5">
 
@@ -507,13 +531,16 @@ const Header = () => {
                   </div>
                 </div>
               )}
-              {openSection === "qualityEnAss" && (
+              {openSectionSolution === "qualityEnAss" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Quality Engineering and Assurance (QE & QA) services</div>
                       <p className="mt-3">Ensuring Every Digital Experience is Exceptional</p>
                       <p>Delivering quality-first outcomes with AI, automation, and deep domain expertise.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
@@ -528,12 +555,15 @@ const Header = () => {
                   </div>
                 </div>
               )}
-              {openSection === "aiAutomation" && (
+              {openSectionSolution === "aiAutomation" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Agility Meets Efficiency with Next-Gen Process Automation</div>
                       <p className="mt-3">Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
@@ -560,64 +590,73 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "rialchat" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("rialchat")}
+                  className={`cursor-pointer font-bold ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickProduct("rialchat")}
                 >
-                  RialChat
+                  AgentChat
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "exelona" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("exelona")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickProduct("exelona")}
                 >
                   Exelona
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "mediAIna" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionProduct === "mediAIna" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
-                  onClick={() => handleSubMenuClick("mediAIna")}
+                  onClick={() => handleSubMenuClickProduct("mediAIna")}
                 >
                   MediAIna
                 </div>
               </div>
-              {openSection === "rialchat" && (
+              {openSectionProduct === "rialchat" && (
                 <div className="col-span-8 flex space-x-5"  >
-                   <div>
-                  <div className="border-b pb-5">
-                    <div className="font-bold mt-5"></div>
-                    <p className="mt-3"></p>
-                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                      <Link href='/product/rialchat'>Let's Begin</Link>
-                    </button>
+                  <div>
+                    <div className="border-b pb-5">
+                      <div className="font-bold mt-5">Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.</div>
+                      <div className="font-bold mt-3">AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversations efficiently, and automate workflows — all without leaving Salesforce.</div>
+                      <p className="mt-3">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
+                    </div>
                   </div>
-                </div>
 
                 </div>
               )}
 
-              {openSection === "exelona" && (
-                <div className="col-span-8 flex space-x-5">
-                 <div>
-                  <div className="border-b pb-5">
-                    <div className="font-bold mt-5"></div>
-                    <p className="mt-3"></p>
-                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                      <Link href='/'>Let's Begin</Link>
-                    </button>
-                  </div>
-                </div>
-                </div>
-              )}
-              {openSection === "mediAIna" && (
+              {openSectionProduct === "exelona" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
-                  <div className="border-b pb-5">
-                    <div className="font-bold mt-5"></div>
-                    <p className="mt-3"></p>
-                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                      <Link href='/product/mediyina'>Let's Begin</Link>
-                    </button>
+                    <div className="border-b pb-5">
+                      <div className="font-bold mt-5">Exelona: Built for Real Estate, Powered by AI</div>
+                      <div className="font-bold mt-2">From lead management to lease renewals, Exelona delivers 360-degree visibility into your properties and finances. </div>
+                      <p className="mt-3">Real Estate CRM, property accounting, and operationns — all connected, automated, and empowered by advanced AI analytics.
+                        Optimize decision-making and drive profitability with a unified view of your real estate portfolio.
+
+                      </p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
+                    </div>
                   </div>
                 </div>
+              )}
+              {openSectionProduct === "mediAIna" && (
+                <div className="col-span-8 flex space-x-5">
+                  <div>
+                    <div className="border-b pb-5">
+                      <div className="font-bold mt-5">Unify trial management, prior authorization, and long-term care coordination in one intelligent, AI-driven healthcare CRM platform. </div>
+                      <p className="mt-3"> Manage the entire patient lifecycle with ease — from trial management to long-term care — all powered by predictive AI insights.
+                        Gain actionable insights, reduce administrative burdens, and ensure patients receive timely, personalized care.
+
+                      </p>
+
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
@@ -630,48 +669,51 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "businessTransform" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("businessTransform")}
+                  className={`cursor-pointer font-bold ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickBusiness("businessTransform")}
                 >
                   Business Transformation
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "applicationServices" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("applicationServices")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickBusiness("applicationServices")}
                 >
                   Application Services
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "lobServices" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("lobServices")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "lobServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickBusiness("lobServices")}
                 >
                   LOB Services
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "intelligentScm" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("intelligentScm")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickBusiness("intelligentScm")}
                 >
                   Intelligent SCM
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "spentMangemnet" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("spentMangemnet")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
                 >
                   Spent Management
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "hxmTransformation" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
-                  onClick={() => handleSubMenuClick("hxmTransformation")}
+                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickBusiness("hxmTransformation")}
                 >
                   HXM Transformation
                 </div>
               </div>
-              {openSection === "businessTransform" && (
+              {openSectionbusiness === "businessTransform" && (
                 <div className="col-span-8 flex space-x-5"  >
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5"></div>
-                      <p className="mt-3"></p>
+                      <div className="font-bold mt-5">From Vision to Value — Transform Smarter, Grow Faster</div>
+                      <p className="mt-3">From strategy to execution, we accelerate your transformation journey with AI-powered insights and industry-leading expertise, turning challenges into competitive advantages</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -690,12 +732,15 @@ const Header = () => {
                 </div>
               )}
 
-              {openSection === "applicationServices" && (
+              {openSectionbusiness === "applicationServices" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5"></div>
-                      <p className="mt-3"></p>
+                      <div className="font-bold mt-5">Your Partner for Resilient, Scalable, and Secure IT Operations</div>
+                      <p className="mt-3">Simplify operations and maximize efficiency with our global managed services — delivering 24/7 support, proactive monitoring, and seamless scalability with onsite, nearshore and offshore teams.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -718,12 +763,15 @@ const Header = () => {
 
                 </div>
               )}
-              {openSection === "lobServices" && (
+              {openSectionbusiness === "lobServices" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5"></div>
-                      <p className="mt-3"></p>
+                      <div className="font-bold mt-5">Tailored Industry Solutions, Unmatched Results</div>
+                      <p className="mt-3">From healthcare to automotive, our industry-specific consulting services deliver actionable insights and innovative solutions that drive sustainable growth.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -756,12 +804,15 @@ const Header = () => {
                   </div>
                 </div>
               )}
-              {openSection === "intelligentScm" && (
+              {openSectionbusiness === "intelligentScm" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5"></div>
-                      <p className="mt-3"></p>
+                      <div className="font-bold mt-5">Transform Complexity into Competitive Advantage</div>
+                      <p className="mt-3">Our end-to-end supply chain consulting services ensure visibility, agility, and operational excellence across your value chain</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -777,12 +828,16 @@ const Header = () => {
 
                 </div>
               )}
-              {openSection === "spentMangemnet" && (
+              {openSectionbusiness === "spentMangemnet" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5"></div>
-                      <p className="mt-3"></p>
+                      <div className="font-bold mt-5">Visibility. Control. Savings.</div>
+                      <p className="mt-3">Our comprehensive spend management services deliver transparency and accountability, transforming how you manage business expenses.
+                      </p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -797,12 +852,15 @@ const Header = () => {
                   </div>
                 </div>
               )}
-              {openSection === "hxmTransformation" && (
+              {openSectionbusiness === "hxmTransformation" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5"></div>
-                      <p className="mt-3"></p>
+                      <div className="font-bold mt-5">Empower Your Workforce with Smarter HCM Solutions</div>
+                      <p className="mt-3">From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.</p>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
+                      </button>
                     </div>
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
@@ -827,61 +885,62 @@ const Header = () => {
             <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
               <div className="col-span-3 bg-[#deebf8] p-3">
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "automotive" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClick("automotive")}
+
                 >
                   Automotive
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "education" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClick("education")}
                 >
                   Education
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "lifeSciences" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("lifeSciences")}
                 >
                   Life Sciences
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "nonProfit" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "nonProfit" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("nonProfit")}
                 >
                   Non Profit
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "retail" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "retail" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("retail")}
                 >
                   Retail
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "travelHospitality" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("travelHospitality")}
                 >
                   Travel and Hospitality
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "finance" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "finance" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("finance")}
                 >
                   Finance
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "hiTech" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("hiTech")}
                 >
                   Hi-Tech
                 </div>
                 <div
-                  className={`cursor-pointer mt-5 ${openSection === "manufacturing" ? "bg-white pl-3 pt-5 pb-5 left-0 right-0" : "p-3"}`}
+                  className={`cursor-pointer mt-3 font-bold ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("manufacturing")}
                 >
@@ -894,22 +953,21 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
                       <div className="mt-3">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
                 </div>
               )}
-
               {openSection === "education" && (
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5"> Smarter Campuses. Engaged Students. Seamless Administration</div>
                       <p className="mt-3">Helping educational institutions innovate and thrive with integrated, intelligent technology solutions</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
 
@@ -923,8 +981,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
                       <p className="mt-3">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                     <div className="mt-10">
@@ -950,8 +1008,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5"> Accelerating Mission Impact — Enterprise Transformation for Non-Profits</div>
                       <p className="mt-3">Strategic consulting for global non-profits to drive donor engagement, operational agility,and community outcomes with confidence</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -963,8 +1021,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5"> Elevate Retail — Engage Customers, Optimize Operations, Drive Growth</div>
                       <p className="mt-3">End-to-end consulting solutions to help retail enterprises thrive in a digital, customer-firstworld</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -976,8 +1034,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">From Check-In to Check-Out — Reinventing Hospitality with Innovation</div>
                       <p className="mt-3">Helping leading hospitality brands deliver seamless, connected, and memorable guest experiences at every touch point</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -989,8 +1047,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5"> Powering Finance — From Risk to Revenue with Intelligent Solutions</div>
                       <p className="mt-3">Enabling large banks and financial firms to optimize risk, unlock new revenue streams, andmeet evolving regulatory demands with AI and automation</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1002,8 +1060,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                       <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/industry/hi-tech'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1015,8 +1073,8 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5">Manufacturing</div>
                       <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
-                      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                        <Link href='/industry/manufacturing'>Let's Begin</Link>
+                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/about-us'>Let's Begin</Link>
                       </button>
                     </div>
                   </div>
@@ -1030,14 +1088,40 @@ const Header = () => {
         {activeCard === 5 && (
           <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-              <div className="col-span-3 bg-[#deebf8] p-3">
+              <div className="col-span-3 bg-[#deebf8] p-3 overflow-y-scroll h-[50vh] relative">
+                <div
+                  className="cursor-pointer font-bold bg-white pt-3 pl-3 pb-3"
+                >
+                  About Rialtes: Innovating with Impact
+                </div>
+                <p className="mt-10 border-b-[2px] pb-5 border-black">
+                  At <strong className="font-bold">Rialtes</strong>, we’re more than a consulting company — we’re a force for positive change. Our commitment to <strong className="font-bold">innovation</strong>,  <strong className="font-bold">sustainability</strong>, and  <strong className="font-bold">inclusion</strong> drives everything we do. From empowering businesses through AI and digital transformation to supporting communities and the environment, we believe in making a lasting impact.
+
+                </p>
+                <div className="mt-5 border-b-[2px] pb-5 border-black">
+                  <h4>🌿 Leading with Thought Leadership</h4>
+                  <p className="mt-3">Innovation starts with knowledge. At Rialtes, we lead the conversation with actionable insights and future-ready strategies. Our experts collaborate with industry leaders like <strong className="font-bold">SAP</strong>  and <strong className="font-bold">Salesforce</strong>  to solve complex challenges, sharing our knowledge through <strong className="font-bold">blogs</strong> , <strong className="font-bold">white papers</strong>, and <strong className="font-bold">case studies</strong> . With a finger on the pulse of emerging technology, we guide businesses toward smarter decisions.
+                  </p>
+                </div>
+                <div className="mt-5 border-b-[2px] pb-5 border-black">
+                  <h4>🌎 Sustainability for a Greener Future</h4>
+                  <p className="mt-3">A commitment to sustainability is at the heart of Rialtes. As proud members of <strong className="font-bold">1t.org</strong> , we contribute to the growth of <strong className="font-bold">1 trillion trees</strong>  to combat climate change. Our solutions promote eco-friendly operations by helping organizations track and reduce their carbon footprint through data-driven insights. Every partnership is an opportunity to drive responsible business practices for a sustainable tomorrow.
+
+                  </p>
+                </div>
+
+                <div className="mt-5">
+                  <h4>🤝 Diversity, Equity, and Inclusion (DEI)</h4>
+                  <p className="mt-3">We believe diversity fuels innovation. Rialtes fosters an inclusive workplace where <strong className="font-bold">women in tech</strong>  thrive, <strong className="font-bold">veterans</strong>  are celebrated, and every individual’s perspective is valued. Through mentorship programs, leadership opportunities, and a supportive culture, we ensure all voices are heard. Our dedication to <strong className="font-bold">DEI</strong>  shapes both our internal culture and our client solutions, creating lasting social impact.
+                  </p>
+                </div>
               </div>
               <div className="col-span-8 flex space-x-5"  >
                 <div>
                   <div className="border-b pb-5">
-                    <div className="font-bold mt-5"></div>
-                    <p className="mt-3"></p>
-                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                    <div className="font-bold mt-5">Beyond Business: A Commitment to Change</div>
+                    <p className="mt-3">Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                    <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                       <Link href='/about-us'>Let's Begin</Link>
                     </button>
                   </div>
@@ -1068,16 +1152,21 @@ const Header = () => {
         {activeCard === 6 && (
           <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
             <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-              <div className="col-span-3 bg-[#deebf8] p-3">
-               
+              <div className="col-span-3">
+                <div className="bg-[#deebf8] p-3">
+                  <div
+                    className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3"
+                  >
+                    Insights
+                  </div>
+                </div>
               </div>
-             
-                <div className="col-span-8 flex space-x-5"  >
+              <div className="col-span-8 flex space-x-5"  >
                 <div>
                   <div className="border-b pb-5">
-                    <div className="font-bold mt-5"></div>
-                    <p className="mt-3"></p>
-                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                    <div className="font-bold mt-5">Explore Our Insights: Blogs, Case Studies, and Thought Leadership</div>
+                    <p className="mt-3">Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.</p>
+                    <button className=" text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                       <Link href='/'>Let's Begin</Link>
                     </button>
                   </div>
@@ -1096,10 +1185,7 @@ const Header = () => {
                     </div>
                   </div>
                 </div>
-                </div>
-              
-
-             
+              </div>
             </div>
           </div>
         )}
