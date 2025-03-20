@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="205.78" height="260.795" viewBox="0 0 205.78 260.795">
+  <defs>
+    <filter id="Path_453" x="0" y="0" width="205.78" height="105.535" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_383" data-name="Group 383" transform="translate(-1185.83 -7154)">
+    <path id="Path_454" data-name="Path 454" d="M38.239,0H0L38.239,16.69Z" transform="translate(1188.83 7243.655)" fill="#134874"/>
+    <line id="Line_104" data-name="Line 104" y1="205.795" transform="translate(1226.609 7209)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g transform="matrix(1, 0, 0, 1, 1185.83, 7154)" filter="url(#Path_453)">
+      <path id="Path_453-2" data-name="Path 453" d="M0,0H151.733L187.78,44.017,151.733,87.535H0Z" transform="translate(3 3)" fill="#fff"/>
+    </g>
+    <text id="_4" data-name="4" transform="translate(1284.83 7170)" fill="#ff9301" font-size="50" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="48">4</tspan></text>
+    <text id="STEP" transform="translate(1207.83 7186)" fill="#0092e0" font-size="25" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="24">STEP</tspan></text>
+  </g>
+</svg>

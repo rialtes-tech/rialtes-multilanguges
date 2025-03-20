@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="276" height="249" viewBox="0 0 276 249">
+  <g id="Group_378" data-name="Group 378" transform="translate(-1268 -663)">
+    <rect id="Rectangle_341" data-name="Rectangle 341" width="276" height="249" transform="translate(1268 663)" fill="#fff"/>
+    <g id="Group_312" data-name="Group 312" transform="translate(1036.785 -1272)">
+      <rect id="Rectangle_281" data-name="Rectangle 281" width="198.194" height="164.086" transform="translate(278.844 1974)" fill="none"/>
+      <g id="Layer_1" data-name="Layer 1" transform="translate(265.216 1991.744)">
+        <g id="Group_311" data-name="Group 311" transform="translate(0 0)">
+          <text id="AgentChat" transform="translate(0 143.427)" font-size="36" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">AgentChat</tspan></text>
+          <g id="Group_310" data-name="Group 310" transform="translate(59.46)">
+            <path id="Path_389" data-name="Path 389" d="M112.714,0H90.61L62.22,61.737h50.5A30.869,30.869,0,1,0,112.714,0Z" transform="translate(-62.21)" fill="#046fb7"/>
+            <g id="Group_309" data-name="Group 309" transform="translate(28.649 25.401)">
+              <path id="Path_390" data-name="Path 390" d="M96.016,35.951a3.866,3.866,0,1,1,3.866-3.866A3.867,3.867,0,0,1,96.016,35.951Z" transform="translate(-92.15 -26.618)" fill="#fff"/>
+              <circle id="Ellipse_212" data-name="Ellipse 212" cx="3.866" cy="3.866" r="3.866" transform="translate(12.203 8.338) rotate(-76.72)" fill="#fff"/>
+              <circle id="Ellipse_213" data-name="Ellipse 213" cx="3.866" cy="3.866" r="3.866" transform="translate(24.391 5.467) rotate(-45)" fill="#fff"/>
+            </g>
+            <path id="Path_391" data-name="Path 391" d="M108.465,67.548H62.21l59.556,26.744L111.7,67.5c-.593.029-2.631.048-3.234.048Z" transform="translate(-62.21 -2.911)" fill="#00ad21"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
