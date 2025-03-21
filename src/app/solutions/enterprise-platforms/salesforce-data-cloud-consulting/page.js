@@ -3,9 +3,9 @@
 import Image from "next/image";
 import Seo from "../../../components/Seo";
 import ContactForm from "../../../components/contactform";
-import CarouselComponent from "../components/useCarousel";
-import InsightsCarousel from '../../app/components/servicesInsightsCarousel';
-import FeaturedCarousel from '../components/servicesFeaturedCarousel';
+import CarouselComponent from "../../../components/useCarousel";
+import InsightsCarousel from '../../../components/servicesInsightsCarousel';
+import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import Link from "next/link";
 export default function SalesForceConsulting() {
 
