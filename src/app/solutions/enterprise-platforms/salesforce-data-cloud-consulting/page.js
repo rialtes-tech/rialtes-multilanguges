@@ -1,8 +1,8 @@
 
 "use client";
 import Image from "next/image";
-import Seo from "../components/Seo";
-import ContactForm from "../components/contactform";
+import Seo from "../../../components/Seo";
+import ContactForm from "../../../components/contactform";
 import CarouselComponent from "../components/useCarousel";
 import InsightsCarousel from '../../app/components/servicesInsightsCarousel';
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
