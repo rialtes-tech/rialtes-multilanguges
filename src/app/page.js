@@ -7,6 +7,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ContactForm from '../app/components/contactform';
 import Seo from './components/Seo';
+import Link from 'next/link';
 
 const CustomArrow = ({ onClick, arrowType }) => {
   return (
@@ -113,37 +114,45 @@ const Home = () => {
       id: 1,
       title: 'Healthcare',
       description: 'Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels, MedTech services, and patient engagement solutions to facilitate exceptional patient care.',
-      knowMore: 'Know More'
+      knowMore: 'Know More',
+      url:'industry/life-sciences/healthcare-medtech-patient-care'
+
     },
     {
       id: 2,
       title: 'Real Estate',
       description: 'Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties, and rental agreements with our property management software.',
-      knowMore: 'Know More'
+      knowMore: 'Know More',
+      url:'industry/real-estate-property-management'
     },
     {
       id: 3,
       title: 'Manufacturing',
       description: 'Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly.',
-      knowMore: 'Know More'
+      knowMore: 'Know More',
+      url:'industry/real-estate-property-management'
     },
     {
       id: 4,
       title: 'Finance',
       description: 'From banking payment solutions to financial services automation, our dedicated and knowledgeable team is ready to help you achieve operational excellence and build customer trust while staying compliant with government regulations.',
-      knowMore: 'Know More'
+      knowMore: 'Know More',
+      url:''
     },
     {
       id: 5,
       title: 'Hi-tech',
       description: 'Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.',
-      knowMore: 'Know More'
+      knowMore: 'Know More',
+      url:'industry/hitech-semiconductor'
+
     },
     {
       id: 6,
       title: 'Retail & e-Commerce',
       description: 'We streamline business processes by connecting everyone with the information they need. We offer Salesforce Sales and other solutions for businesses that collect sales, marketing, and customer data and help them improve sales strategies.',
-      knowMore: 'Know More'
+      knowMore: 'Know More',
+      url:''
     },
   ]
 
@@ -152,29 +161,35 @@ const Home = () => {
       id: 1,
       imageUrl: '/images/homepage/case1.webp',
       title: 'HealthCare',
-      description: 'Real-time patient interaction with mobile app',
-      para: 'Expand'
+      description: 'Mulesoft for Salesforce Health Cloud and SAP',
+      para: 'Expand',
+      url:'insights/case-studies/case-study-1'
+
     },
     {
       id: 2,
       imageUrl: '/images/homepage/case2.webp',
       title: 'Real Estate',
-      description: 'A Public Housing authority in US',
-      para: 'Expand'
+      description: 'RealForce Banking Module - ACH',
+      para: 'Expand',
+      url:'insights/case-studies/case-study-2'
+
     },
     {
       id: 3,
       imageUrl: '/images/homepage/case3.webp',
       title: 'Manufacturing',
-      description: 'Digitalize loyalty programs using Salesforce, DocuSign & SAP',
-      para: 'Expand'
+      description: 'Streamlined DevOps using Copado and Salesforce',
+      para: 'Expand',
+     url:'insights/case-studies/case-study-3'
     },
     {
       id: 4,
       imageUrl: '/images/homepage/case4.webp',
-      title: 'Real Estate',
-      description: 'RealForce Banking Modul-ACH, ConAM',
-      para: 'Expand'
+      title: 'HealthCare',
+      description: 'Digitizing patient journey using Salesforce health cloud',
+      para: 'Expand',
+       url:'insights/case-studies/case-study-4'
     }
   ]
   const ourServices = [
@@ -218,32 +233,36 @@ const Home = () => {
   const insightsdata = [
     {
       id: 1,
-      imageUrl: '/images/homepage/Blog1.webp',
+      imageUrl: '/images/homepage/Blog 2 Long thumb.webp',
       label: 'Blogs',
-      description: 'The Data Cloud Trinity: How Unification Insights, and Activation Drive Smarter Business Decisions',
+      description: 'The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce',
+      url:'https://rialtes.netlify.app/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/'
     },
     {
       id: 2,
-      imageUrl: '/images/homepage/event-blog.png',
-      label: 'Events',
-      description: 'How Events Are Shaping The Future of Data Science',
+      imageUrl: '/images/homepage/Blog 4 Long thumb.webp',
+      label: 'Blogs',
+      description: 'Agentforce Testing Center: Redefining AI Testing with Synthetic Data',
+      url:'https://rialtes.netlify.app/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data'
     },
     {
       id: 3,
-      imageUrl: '/images/homepage/insites.png',
-      label: 'News',
-      description: 'Breaking News: Big Data in the News!',
+      imageUrl: '/images/homepage/Blog 5 Long thumb.webp',
+      label: 'Blogs',
+      description: 'Success factor',
+      url:'https://rialtes.netlify.app/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration'
     },
     {
       id: 4,
       imageUrl: '/images/homepage/blog4.png',
       label: 'Case Study',
       description: 'Case Study: Leveraging Data for Business Growth',
+      url:'insights/case-studies'
     },
   ];
 
 
-  const CarouselItem = ({ imageUrl, label, description, alt }) => (
+  const CarouselItem = ({ imageUrl, label, description, alt,url }) => (
     <div className="relative group overflow-hidden w-[95%]">
       <div className='absolute w-full inset-0 bg-black opacity-50 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
       <Image
@@ -257,7 +276,9 @@ const Home = () => {
       <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-50 text-white  group-hover:opacity-100 transition-opacity duration-300">
         <span>{label}</span>
         <p className="absolute mb-5 bottom-10">{description}</p>
+        <Link href={'/' + url}>
         <p className="bottom-0 absolute mb-5">Learn More →</p>
+        </Link>
       </div>
     </div>
   );
@@ -273,6 +294,7 @@ const Home = () => {
         <ResponsiveCarousel autoPlay={true} infinite={true} 
           autoPlaySpeed={3000} renderIndicator={renderIndicator}>
           <div className='relative'>
+            <Link href='/services/lob/autosense-automotive-digital-transformation-services'>
             <Image width={0}
               height={0}
               sizes="100vw"
@@ -282,15 +304,10 @@ const Home = () => {
                 objectFit: "cover",
 
               }}
-              priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed' alt='demo' src='/images/homepage/automotive.webp' />
-            {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
-              <div className='xl:text-5xl text-xl'>AI-Powered Insights for</div>
-              <div className='xl:left-20 absolute xl:text-2xl text-lg'>Smarter Customer Engagement</div>
-
-            </div>
-            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
-
+              priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer' alt='demo' src='/images/homepage/automotive.webp' />
+       </Link>
           </div>
+
           <div className='relative'>
             <Image width={0}
               height={0}
@@ -326,24 +343,7 @@ const Home = () => {
             <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
 
           </div>
-          <div className='relative'>
-            <Image width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                objectFit: "cover",
-              }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 2.webp' />
-
-            {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
-              <div className='xl:text-5xl text-xl'>Streamline HR processes</div>
-              <div className='xl:left-20 absolute xl:text-2xl text-lg'>for the Modern Workspace</div>
-
-            </div>
-            <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
-
-          </div>
+         
         </ResponsiveCarousel>
       </section>
       {/* success stories section */}
@@ -388,7 +388,10 @@ const Home = () => {
                 <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-50 text-white  group-hover:opacity-100 transition-opacity duration-300">
                   <span> {success.title}</span>
                   <p className="absolute mb-5 bottom-10">{success.description}</p>
+                  <Link href={'/'+ success.url}>
                   <p className="bottom-0 absolute mb-5">{success.para} →</p>
+
+                  </Link>
                 </div>
               </div>
             )
@@ -406,7 +409,7 @@ const Home = () => {
         </div>
       </section>
       {/* shaping our services section */}
-      <section>
+      {/* <section>
         <div className='flex  mx-6 xl:mx-[280px] md:mx-[100px]  xl:mr-[400px] mt-20 '>
           <div className=''>
             <h2 className='xl:w-[75%] w-full'>Shaping Tomorrow with Our Services</h2>
@@ -423,7 +426,7 @@ const Home = () => {
             )
           })}
         </div>
-      </section>
+      </section> */}
 
       {/* industries experties section section*/}
       <section>
@@ -444,12 +447,14 @@ const Home = () => {
                   >
                     <h3 className="font-bold">{industry.title}</h3>
                     <p className="mt-3 text-[15px]">{industry.description}</p>
+                    <Link href={'/' + industry.url}>
                     <p className="text-[#0092E0] font-bold mt-5 cursor-pointer">
                       {industry.knowMore}
                       <span className="ml-2 text-[#0092E0] transform translate-x-0 group-hover:translate-x-1 opacity-0 group-hover:opacity-100 transition-all duration-300">
                         &#8594;
                       </span>
                     </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -487,6 +492,7 @@ const Home = () => {
                 imageUrl={item.imageUrl}
                 label={item.label}
                 description={item.description}
+                url={item.url}
                 alt={`Insites${index + 1}`}
               />
             </div>
@@ -514,7 +520,9 @@ const Home = () => {
         <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
           <h2>Life Science</h2>
           <p className='mt-5'>Rialtes is committed to driving innovation in healthcare technology to empower medical professionals with the tools they need to improve patient care. We have helped Healthcare providers tackle their unique challenges and build a healthier future through Salesforce.</p>
+          <Link href='/industry/life-sciences/healthcare-medtech-patient-care'>
           <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
+          </Link>
         </div>
       </section>
 
