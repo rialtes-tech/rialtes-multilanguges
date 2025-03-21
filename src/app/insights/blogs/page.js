@@ -155,7 +155,7 @@ const latestBlogs = [
 const BlogCard = ({ blog }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
     <div className="max-h-[300px]">
-      <Link href={'/blog' + blog.url}>
+      <Link href={'/blogs' + blog.url}>
         <Image
           src={blog.image}
           alt={blog.title}
@@ -174,7 +174,7 @@ const BlogCard = ({ blog }) => (
           <span className='text-[#ACACAC]'> | </span>
           {blog.date}
         </div>
-        <Link href={'/blog' + blog.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-3 xl:line-clamp-4">{blog.title}</h4></Link>
+        <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-3 xl:line-clamp-4">{blog.title}</h4></Link>
       </div>
       <div className="flex flex-col">
         <p className='line-clamp-4 md:mb-4 mb-2'>{blog.description}</p>
@@ -443,7 +443,7 @@ const FeaturedCarousel = () => {
           {slides.map((slide) => (
             <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group">
               <div className="basis-full">
-                <Link href={'/blog' + slide.url}>
+                <Link href={'/insights/blogs' + slide.url}>
                   <Image
                     src={slide.image}
                     alt={slide.title}
@@ -459,7 +459,7 @@ const FeaturedCarousel = () => {
                 <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
                   <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                 </div>
-                <Link href={'/blog' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold sm:line-clamp-none line-clamp-3">{slide.title}</h3></Link>
+                <Link href={'/insights/blogs' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold sm:line-clamp-none line-clamp-3">{slide.title}</h3></Link>
                 <p className="xl:line-clamp-none line-clamp-5">{slide.description}</p>
               </div>
             </div>

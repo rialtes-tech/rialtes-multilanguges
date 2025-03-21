@@ -21,53 +21,74 @@ export default function ContactForm({ title, className, padding }) {
     return (
         <section className={'container ' + padding ? padding : ''}>
             <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
-            <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DEk00000M4fsj" method="POST" className="space-y-4 mt-10">
-                <input type="hidden" name="oid" value="00DEk00000M4fsj" />
-                <input type="hidden" name="retURL" value="http://rialtes.netlify.app/thank-you"/>
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
+            <input type="hidden" name="oid" value="00D8V000002Xglg"/>
+            <input type="hidden" name="retURL" value="http://rialtes.netlify.app/thank-you"/>
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input
-                        id="first_name" maxlength="40" name="first_name" type="text" required
+                        id="first_name" maxLength="40" name="first_name" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Name*"
                     />
                     <input
-                        id="last_name" maxlength="80" name="last_name" type="text" required
+                        id="last_name" maxLength="80" name="last_name" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Surname*"
                     />
                 </div>
                 <div className='flex gap-3 lg:flex-row flex-col'>
                     <input
-                        id="email" maxlength="80" name="email" type="text" required
+                        id="email" maxLength="80" name="email" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Email*"
                     />
                     <input
-                        id="company" maxlength="40" name="company" type="text" required
+                        id="company" maxLength="40" name="company" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Company*"
                     />
                 </div>
+
                 <div className='flex gap-3 lg:flex-row flex-col'>
                     <input
-                        id="title" maxlength="40" name="title" type="text"
+                        id="title" maxLength="40" name="title" type="text"
                         className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Job Title*"
                     />
                     <input
-                        id="phone" maxlength="10" name="phone" 
+                        id="phone" maxLength="10" name="phone" 
                       
                         className="mt-1 block px-3 py-2 lg:w-1/4  border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Phone*"
                     />
                 </div>
                 <div className="pb-5">
-                    <textarea id="messages" name="00NEk00000Dd2nF" rows="3" wrap="soft"
+                    <textarea id="00NQh0000041tRZ" name="00NQh0000041tRZ" rows="3" wrap="soft"
                         className="mt-1 block px-3 py-2 border lg:w-[51%] w-full placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Message*"
                         required
                     />
                 </div>
+                {/* <label for="lead_source">Lead Source</label> */}
+                {/* <select  id="lead_source" name="lead_source"><option value="">
+                    </option><option value="Linkedin">Linkedin</option>
+<option value="Employee Referral">Employee Referral</option>
+<option value="External Referral">External Referral</option>
+<option value="Partner">Partner</option>
+<option value="Public Relations">Public Relations</option>
+<option value="Seminar - Internal">Seminar - Internal</option>
+<option value="Seminar - Partner">Seminar - Partner</option>
+<option value="Trade Show">Trade Show</option>
+<option value="Web">Web</option>
+<option value="Word of mouth">Word of mouth</option>
+<option value="Other">Other</option>
+<option value="Conference">Conference</option>
+<option value="Webinar">Webinar</option>
+<option value="Salesforce World Tour NYC 2024">Salesforce World Tour NYC 2024</option>
+<option value="BOMA 24">BOMA 24</option>
+<option value="Inside Sales">Inside Sales</option>
+</select> */}
+
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
                     <div

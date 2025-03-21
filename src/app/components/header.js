@@ -5,9 +5,6 @@ import { useRef, useState, useEffect } from "react";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick }) => {
-
-
-
   return (
     <Link href={link}>
       <div onClick={onClick} onMouseEnter={onHover} className={`cursor-pointer xl:pt-0 hover:text-[#0092E1] ${className}`}>
@@ -86,12 +83,32 @@ const Header = () => {
 
   const menuItems = [
     {
-      label: 'About Us',
+      label: 'Solutions',
       links: [
-        { label: 'Leadership', href: '/leadership' },
-        { label: 'Partners', href: '/partners' },
-        { label: 'Career', href: '/career' },
-
+        {
+          label: 'Data & AI', href: '/sap',
+          subLinks: [
+            { label: 'RISE with SAP', href: '/rise-with-sap' },
+            { label: 'GROW with SAP', href: '/grow-with-sap' },
+            { label: 'Successfactor', href: '/success-factors' },
+            { label: 'Application Development', href: '/' },
+            { label: 'SAP Integration', href: '/sap/sap-integration' },
+            { label: 'SAP ARIBA', href: '/sap/sap-ariba' },
+            { label: 'SAP BTP', href: '/sap/sap-btp' },
+          ],
+        },
+        { label: 'Yardi', href: '/' },
+        {
+          label: 'Data Analytics',
+          subLinks: [
+            { label: 'Power BI', href: '/' },
+            { label: 'QLIK Sense', href: '/' },
+            { label: 'ALTERYX', href: '/' },
+          ],
+        },
+        { label: 'Cloud Migration', href: '/' },
+        { label: 'Testing', href: '/' },
+        { label: 'Integration', href: '/' },
       ],
     },
     {
@@ -115,7 +132,7 @@ const Header = () => {
         {
           label: 'Salesforce', href: '/salesforce-consulting',
           subLinks: [
-            { label: 'Digital Desk', href: '/' },
+            { label: 'Salesforce Data Cloud', href: '/' },
             { label: 'Health Cloud', href: '/salesforce-consulting/health-cloud' },
             { label: 'Agentforce', href: '/salesforce-consulting/agentforce' },
             { label: 'Data Cloud', href: '/solution/data-cloud' },
@@ -720,14 +737,14 @@ const Header = () => {
                     <div className="mt-10">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                       <MenuItem className="font-bold text-[#2f78c4]" label="VoyagerNext" link="/services/business-transformation/voyagernext-grow-with-sap-services" onClick={handleLinkClick} onHover={() => { }} /> 
+                       <MenuItem className="font-bold text-[#2f78c4]" label="Grow with SAP" link="/services/business-transformation/grow-with-sap-services" onClick={handleLinkClick} onHover={() => { }} /> 
                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="For Grow with SAP" link="/grow-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
 
                         </div>
 
                         <div>
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Voyager+" link="/services/business-transformation/voyagerplus-rise-with-sap-services
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services
 
 " onClick={handleLinkClick} onHover={() => { }} />
 
