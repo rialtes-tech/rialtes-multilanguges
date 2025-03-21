@@ -23,7 +23,7 @@ export default function ContactForm({ title, className, padding }) {
             <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
             <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DEk00000M4fsj" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00DEk00000M4fsj" />
-                <input type="hidden" name="retURL" value="/thank-you" />
+                <input type="hidden" name="retURL" value="http://rialtes.netlify.app/thank-you"/>
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input
                         id="first_name" maxlength="40" name="first_name" type="text" required
