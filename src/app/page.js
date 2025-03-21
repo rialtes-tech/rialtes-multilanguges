@@ -526,7 +526,7 @@ const Home = () => {
             <p className='mt-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
           </div>
           <div className='relative group overflow-hidden xl:w-1/2'>
-            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/lifeat.png' />
+            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/lifeatrialtes.jpg' />
           </div>
         </div>
       </section>

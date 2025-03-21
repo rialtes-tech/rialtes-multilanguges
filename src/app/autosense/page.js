@@ -24,7 +24,7 @@ export default function Autosense() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
-            <div className="text-white text-[300] font-bold mb-2 xl:text-2xl text-lg xl:w-[20%] w-full border-b pb-3">Automotive Industry Solutions</div>
+            <div className="text-white text-[300] font-bold mb-2 xl:text-2xl text-lg xl:w-[20%] w-full border-b pb-3">Automotive Industry Service</div>
 
             <div className="text-white max-w-3xl xl:text-[44px] text-xl xl:leading-[50px] leading-[26px]">
               Accelerate Your Automotive Business with <span className="font-bold">Rialtes’ AutoSense</span>

@@ -55,19 +55,20 @@ export default function ContactForm({ title, className, padding }) {
                         placeholder="Job Title*"
                     />
                     <input
-                        id="phone" maxlength="40" name="phone" type="tel"
+                        id="phone" maxlength="10" name="phone" 
+                      
                         className="mt-1 block px-3 py-2 lg:w-1/4  border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Phone*"
                     />
                 </div>
                 <div className="pb-5">
-                    <textarea
-                        id="comments" name="00NQh000000s2Al" rows="3" wrap="soft"
+                    <textarea id="messages" name="00NEk00000Dd2nF" rows="3" wrap="soft"
                         className="mt-1 block px-3 py-2 border lg:w-[51%] w-full placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Message*"
                         required
                     />
                 </div>
+                <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
                     <div
                         className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
