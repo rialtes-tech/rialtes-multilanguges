@@ -117,11 +117,11 @@ const Footer = () => {
                             <Image className="h-8 w-10" alt="linkedin" src="/images/homepage/Asset5.svg" height={100} width={100} />
                         </Link>
                     </div>
-                    <div className="mt-3">
+                    {/* <div className="mt-3">
                         <Link href="/facebook" title="Follow us on Facebook">
                             <Image className="h-8 w-10" alt="facebook" src="/images/homepage/Asset1.svg" height={100} width={100} />
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="mt-3">
                         <Link href="https://x.com/Rialtestech" title="Follow us on Twitter">
                             <Image className="h-8 w-10" alt="twitter" src="/images/homepage/Asset2.svg" height={100} width={100} />
