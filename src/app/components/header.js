@@ -241,7 +241,7 @@ const Header = () => {
         {expanded && (
           <div className="pt-2 text-gray-600">
             {links.map((link, idx) => (
-              <div key={idx} className="border-b-[2px] pb-2 pt-2">
+              <div key={idx} className="pb-2 pt-2">
                 {link.subLinks ? (
                   <>
                     <button
@@ -361,8 +361,8 @@ const Header = () => {
             link="/contact-us"
             className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-[#0092E0]' : ''}`}
           />
-          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-            <Link href='/contact-us'>Let's Begin</Link>
+          <button  className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+            <Link href='/contact-us#section1'>Let's Begin</Link>
           </button>
         </div>
       </div>

@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../../../components/contactform";
+import LearnMore from "@/app/components/learnMore";
 
 
 const featureBoxes = [
@@ -248,9 +248,7 @@ export default function DataCloud() {
               </div>
             ))}
           </div>
-          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-            <Link href=''>Learn More</Link>
-          </button>
+        <LearnMore/>
         </section>
       </div>
 
@@ -335,9 +333,7 @@ export default function DataCloud() {
                 </div>
                 <h3 className="h3-bold mb-3">{service.title}</h3>
                 <p className="text-[#000000]">{service.description}</p>
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                    <Link href=''>Learn More</Link>
-                </button>
+              <LearnMore/>
               </div>
             ))}
           </div>

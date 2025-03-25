@@ -5,6 +5,7 @@ import ServicesBlogs from '../../../components/servicesBlogs';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ContactForm from "../../../components/contactform";
 import Link from "next/link";
+import LearnMore from "@/app/components/learnMore";
 
 export default function Agentforce() {
 
@@ -63,9 +64,8 @@ export default function Agentforce() {
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "30 Sept 2024",
-            url: '/how-salesforce-agentforce-actually-works',
+            url: 'insights/blogs/how-salesforce-agentforce-actually-works',
             title: "How Salesforce Agentforce Actually Works",
-            description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
         },
         {
             id: 2,
@@ -73,9 +73,8 @@ export default function Agentforce() {
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "21 Oct 2024",
-            url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
+            url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
             title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-            description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
         },
         {
             id: 3,
@@ -83,9 +82,8 @@ export default function Agentforce() {
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "28 Oct 2024",
-            url: '/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
+            url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
             title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-            description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
         },
         {
             id: 4,
@@ -93,40 +91,36 @@ export default function Agentforce() {
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "25 Nov 2024",
-            url: '/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
+            url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
             title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-            description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
         },
         {
             id: 11,
-            image: "/images/blog/blog-6-long-thumb.webp",
+            image: "/images/blog/blog-12-long-thumb.webp",
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "17 Sept 2024",
-            url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-            title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-            description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+            url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
+            title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
         },
         {
             id: 12,
-            image: "/images/blog/blog-6-long-thumb.webp",
+            image: "/images/blog/blog-11-long-thumb.webp",
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "17 Sept 2024",
-            url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-            title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-            description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+            url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce',
+            title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
         },
 
         {
             id: 14,
-            image: "/images/blog/blog-6-long-thumb.webp",
+            image: "/images/blog/blog-14-long-thumb.webp",
             category: "Salesforce Agentforce",
             industry: "Generic",
             date: "17 Sept 2024",
-            url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-            title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-            description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+            url: 'insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
+            title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
         },
 
     ];
@@ -206,10 +200,10 @@ export default function Agentforce() {
 
             <div className=" grid lg:grid-cols-10  gap-5 px-6 xl:px-[280px] md:px-[100px]  lg:mt-16 mt-5">
                 <div className="lg:col-span-6">
-                    <h2>Salesforce Agentforce: What You Need To Know</h2>
+                    <h1>Salesforce Agentforce: What You Need To Know</h1>
                 </div>
             </div>
-            <div className="flex gap-10 px-6 xl:pl-[280px] md:px-[100px]  flex-col lg:flex-row lg:mt-16 mt-5">
+            <div className="flex gap-32 px-6 xl:pl-[280px] md:px-[100px]  flex-col lg:flex-row lg:mt-10 mt-5">
                 <div className="lg:w-1/2">
                     <p>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                     <p className="mt-10">Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.</p>
@@ -226,8 +220,8 @@ export default function Agentforce() {
                     />
                 </div>
             </div>
-            <section className="lg:mt-20 px-6 xl:pl-[280px] md:pl-[100px] mt-10">
-                <h2>Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
+            <section className="lg:mt-20 px-6 xl:px-[280px] md:pl-[100px] mt-10">
+                <h2 className="xl:w-[70%] w-full">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-10 gap-10 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -264,12 +258,10 @@ export default function Agentforce() {
                         )
                     })}
                 </div>
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                    <Link href=''>Learn More</Link>
-                </button>
+                <LearnMore/>
 
             </section>
-            <section className="lg:mt-20 px-6 xl:pl-[280px] md:pl-[100px] mt-10">
+            <section className="lg:mt-20 px-6 xl:px-[280px] md:pl-[100px] mt-10">
                 <h2 className="xl:w-[75%]">The Building Blocks to Configure Your Agentforce Agents</h2>
                 <div className="flex mt-10 flex-col lg:flex-row gap-16">
                     <div className="flex xl:gap-5">
@@ -340,7 +332,7 @@ export default function Agentforce() {
             </section>
             {/* //industries benifites */}
             <section className="lg:mt-20 px-6 xl:pl-[280px] lg:pr-[100px] md:pl-[100px] mt-10">
-                <h2 className="lg:w-[75%]">Industry-specific Benefits That We Bring to Our Clients</h2>
+                <h2 className="xl:w-[60%] w-full">Industry-specific Benefits That We Bring to Our Clients</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
 
                     {industryBenifite.map((benifite) => {
@@ -365,9 +357,7 @@ export default function Agentforce() {
 
                                 <h4 className="mt-5">{benifite.title}</h4>
                                 <p className="mt-3">{benifite.description}</p>
-                                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                                    <Link href=''>Learn More</Link>
-                                </button>
+                               <LearnMore/>
                             </div>
                         )
                     })}
@@ -391,7 +381,7 @@ export default function Agentforce() {
             >
                 <ServicesBlogs slides={slides} />
             </div>
-            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10'>
+            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">
