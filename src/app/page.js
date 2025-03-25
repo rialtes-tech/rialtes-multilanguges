@@ -292,7 +292,7 @@ const Home = () => {
       {/* main slider */}
       <section>
         <ResponsiveCarousel autoPlay={true} infinite={true} 
-          autoPlaySpeed={3000} renderIndicator={renderIndicator}>
+          autoPlaySpeed={1000} renderIndicator={renderIndicator}>
           <div className='relative'>
             <a href='/services/lob/autosense-automotive-digital-transformation-services'
              style={{ display: 'block' }} 
