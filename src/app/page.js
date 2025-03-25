@@ -115,7 +115,7 @@ const Home = () => {
       title: 'Healthcare',
       description: 'Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels, MedTech services, and patient engagement solutions to facilitate exceptional patient care.',
       knowMore: 'Know More',
-      url:'industry/life-sciences/healthcare-medtech-patient-care'
+      url: 'industry/life-sciences/healthcare-medtech-patient-care'
 
     },
     {
@@ -123,14 +123,14 @@ const Home = () => {
       title: 'Real Estate',
       description: 'Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties, and rental agreements with our property management software.',
       knowMore: 'Know More',
-      url:'industry/real-estate-property-management'
+      url: 'industry/real-estate-property-management'
     },
     {
       id: 3,
       title: 'Manufacturing',
       description: 'Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly.',
       knowMore: 'Know More',
-      url:'industry/real-estate-property-management'
+      url: 'industry/real-estate-property-management'
     },
     // {
     //   id: 4,
@@ -144,7 +144,7 @@ const Home = () => {
       title: 'Hi-tech',
       description: 'Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.',
       knowMore: 'Know More',
-      url:'industry/hitech-semiconductor'
+      url: 'industry/hitech-semiconductor'
 
     },
     // {
@@ -163,16 +163,16 @@ const Home = () => {
       title: 'HealthCare',
       description: 'Mulesoft for Salesforce Health Cloud and SAP',
       para: 'Expand',
-      url:'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+      url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
 
-    }, 
+    },
     {
       id: 2,
       imageUrl: '/images/homepage/case2.webp',
       title: 'Real Estate',
       description: 'RealForce Banking Module - ACH',
       para: 'Expand',
-      url:'insights/case-studies/realForce-banking-module-ach'
+      url: 'insights/case-studies/realForce-banking-module-ach'
 
     },
     {
@@ -181,7 +181,7 @@ const Home = () => {
       title: 'Manufacturing',
       description: 'Streamlined DevOps using Copado and Salesforce',
       para: 'Expand',
-     url:'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
+      url: 'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
     },
     {
       id: 4,
@@ -189,7 +189,7 @@ const Home = () => {
       title: 'HealthCare',
       description: 'Digitizing patient journey using Salesforce health cloud',
       para: 'Expand',
-       url:'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
+      url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
     }
   ]
   const ourServices = [
@@ -236,33 +236,33 @@ const Home = () => {
       imageUrl: '/images/homepage/Blog 2 Long thumb.webp',
       label: 'Blogs',
       description: 'The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce',
-      url:'https://rialtes.netlify.app/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/'
+      url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/'
     },
     {
       id: 2,
       imageUrl: '/images/homepage/Blog 4 Long thumb.webp',
       label: 'Blogs',
       description: 'Agentforce Testing Center: Redefining AI Testing with Synthetic Data',
-      url:'https://rialtes.netlify.app/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data'
+      url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data'
     },
     {
       id: 3,
       imageUrl: '/images/homepage/Blog 5 Long thumb.webp',
       label: 'Blogs',
       description: 'How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration',
-      url:'https://rialtes.netlify.app/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration'
+      url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration'
     },
     {
       id: 4,
       imageUrl: '/images/homepage/blog4.png',
       label: 'Case Study',
       description: 'Omnichannel case management with Salesforce Service Cloud',
-      url:'https://rialtes.netlify.app/insights/case-studies/case-study-7'
+      url: 'insights/case-studies/case-study-7'
     },
   ];
 
 
-  const CarouselItem = ({ imageUrl, label, description, alt,url }) => (
+  const CarouselItem = ({ imageUrl, label, description, alt, url }) => (
     <div className="relative group overflow-hidden w-[95%]">
       <div className='absolute w-full inset-0 bg-black opacity-50 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
       <Image
@@ -277,7 +277,7 @@ const Home = () => {
         <span>{label}</span>
         <p className="absolute mb-5 bottom-10">{description}</p>
         <Link href={'/' + url}>
-        <p className="bottom-0 absolute mb-5">Learn More →</p>
+          <p className="bottom-0 absolute mb-5">Learn More →</p>
         </Link>
       </div>
     </div>
@@ -291,41 +291,41 @@ const Home = () => {
       />
       {/* main slider */}
       <section>
-        <ResponsiveCarousel autoPlay={true}  infiniteLoop={true}
+        <ResponsiveCarousel autoPlay={true} infiniteLoop={true}
           interval={2000} renderIndicator={renderIndicator}>
           <div className='relative'>
             <a href='/services/lob/autosense-automotive-digital-transformation-services'
-             style={{ display: 'block' }} 
-            className='relative block'>
-            <Image width={0}
-              height={0}
-              sizes="100vw"
+              style={{ display: 'block' }}
+              className='relative block'>
+              <Image width={0}
+                height={0}
+                sizes="100vw"
 
-              style={{
-                width: "100%",
-                objectFit: "cover",
+                style={{
+                  width: "100%",
+                  objectFit: "cover",
 
-              }}
-              priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer' alt='demo' src='/images/homepage/automotive.webp' />
-          
-       </a>
+                }}
+                priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer' alt='demo' src='/images/homepage/automotive.webp' />
+
+            </a>
           </div>
 
           <div className='relative'>
-            <a href='/salesforce-consulting/health-cloud'
-             style={{ display: 'block' }} 
-             className='relative block'>
-            
-            <Image width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                objectFit: "cover",
-              }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/lifescience.webp' /> 
+            <a href='/industry/life-sciences/healthcare-medtech-patient-care'
+              style={{ display: 'block' }}
+              className='relative block'>
+
+              <Image width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  objectFit: "cover",
+                }}
+                priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/lifescience.webp' />
             </a>
-            
+
 
             {/* <div className='absolute text-black top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>Your Complete Path to</div>
@@ -335,18 +335,18 @@ const Home = () => {
             <h4 className='bottom-[15%] absolute text-black xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
           </div>
           <div className='relative'>
-            <a  href='/industry/hitech-semiconductor'
-             style={{ display: 'block' }} 
-             className='relative block'>
-            <Image width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                objectFit: "cover",
-              }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 1.webp' /> 
-              </a>
+            <a href='/industry/hitech-semiconductor'
+              style={{ display: 'block' }}
+              className='relative block'>
+              <Image width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  objectFit: "cover",
+                }}
+                priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 1.webp' />
+            </a>
 
             {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>Streamline HR processes</div>
@@ -356,7 +356,7 @@ const Home = () => {
             <h4 className='bottom-[15%] absolute text-white xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
 
           </div>
-         
+
         </ResponsiveCarousel>
       </section>
       {/* success stories section */}
@@ -401,8 +401,8 @@ const Home = () => {
                 <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-50 text-white  group-hover:opacity-100 transition-opacity duration-300">
                   <span> {success.title}</span>
                   <p className="absolute mb-5 bottom-10">{success.description}</p>
-                  <Link href={'/'+ success.url}>
-                  <p className="bottom-0 absolute mb-5">{success.para} →</p>
+                  <Link href={'/' + success.url}>
+                    <p className="bottom-0 absolute mb-5">{success.para} →</p>
 
                   </Link>
                 </div>
@@ -446,7 +446,7 @@ const Home = () => {
         <div className='bg-[#EFEFEF] mt-20 xl:pb-28'>
           <div className='grid xl:grid-cols-2 grid-cols-1 xl:ml-[280px] md:mx-[300px]  mx-6 pt-10'>
             <div>
-            <h2 className='xl:w-[70%] w-full'>Industry Expertise and Solutions</h2>
+              <h2 className='xl:w-[70%] w-full'>Industry Expertise and Solutions</h2>
             </div>
             <p>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
           </div>
@@ -461,12 +461,12 @@ const Home = () => {
                     <h3 className="font-bold">{industry.title}</h3>
                     <p className="mt-3 text-[15px]">{industry.description}</p>
                     <Link href={'/' + industry.url}>
-                    <p className="text-[#0092E0] font-bold mt-5 cursor-pointer">
-                      {industry.knowMore}
-                      <span className="ml-2 text-[#0092E0] transform translate-x-0 group-hover:translate-x-1 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                        &#8594;
-                      </span>
-                    </p>
+                      <p className="text-[#0092E0] font-bold mt-5 cursor-pointer">
+                        {industry.knowMore}
+                        <span className="ml-2 text-[#0092E0] transform translate-x-0 group-hover:translate-x-1 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                          &#8594;
+                        </span>
+                      </p>
                     </Link>
                   </div>
                 </div>
@@ -534,7 +534,7 @@ const Home = () => {
           <h2>Life Science</h2>
           <p className='mt-5'>Rialtes is committed to driving innovation in healthcare technology to empower medical professionals with the tools they need to improve patient care. We have helped Healthcare providers tackle their unique challenges and build a healthier future through Salesforce.</p>
           <Link href='/industry/life-sciences/healthcare-medtech-patient-care'>
-          <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
+            <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
           </Link>
         </div>
       </section>
@@ -553,7 +553,7 @@ const Home = () => {
       </section>
       {/* //form section */}
       <section className='pb-20 mt-20 xl:px-[280px]  md:px-[100px] px-6'>
-        <ContactForm className='xl:w-[75%] w-full' title='Ready to take the next step? Let’s kick off your journey to operational excellence'/>
+        <ContactForm className='xl:w-[75%] w-full' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
       </section>
 
     </section>
