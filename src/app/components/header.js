@@ -86,107 +86,136 @@ const Header = () => {
       label: 'Solutions',
       links: [
         {
-          label: 'Data & AI', href: '/sap',
+          label: 'Data & AI', href: '/',
           subLinks: [
-            { label: 'RISE with SAP', href: '/rise-with-sap' },
-            { label: 'GROW with SAP', href: '/grow-with-sap' },
-            { label: 'Successfactor', href: '/success-factors' },
-            { label: 'Application Development', href: '/' },
-            { label: 'SAP Integration', href: '/sap/sap-integration' },
-            { label: 'SAP ARIBA', href: '/sap/sap-ariba' },
-            { label: 'SAP BTP', href: '/sap/sap-btp' },
+            { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
+
           ],
         },
-        { label: 'Yardi', href: '/' },
         {
-          label: 'Data Analytics',
+          label: 'Enterprise Platforms', href: '/',
           subLinks: [
-            { label: 'Power BI', href: '/' },
-            { label: 'QLIK Sense', href: '/' },
-            { label: 'ALTERYX', href: '/' },
+            { label: 'SAP', href: '/solutions/enterprise-platforms/sap-consulting' },
+            { label: 'Salesforce', href: '/solutions/enterprise-platforms/salesforce-consulting' },
+            { label: 'SAP Ariba', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
+            { label: 'Revenue Cloud', href: '/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' },
+            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
+            { label: 'SAP Successfactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
           ],
         },
-        { label: 'Cloud Migration', href: '/' },
-        { label: 'Testing', href: '/' },
-        { label: 'Integration', href: '/' },
+        {
+          label: 'Integration', href: '/',
+          subLinks: [
+            { label: 'Mulesoft', href: '/solutions/integration/mulesoft-salesforce' },
+
+          ],
+        },
+        {
+          label: 'Artificial Intelligence', href: '/',
+          subLinks: [
+            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
+          ],
+        },
+        {
+          label: 'Process Automation', href: '/',
+          subLinks: [
+            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
+          ],
+        },
       ],
     },
     {
       label: 'Products',
       links: [
-        { label: 'AgentChat', href: '/product/rialchat' },
-        // {
-        //   label: 'Exelona',
-        //   subLinks: [
-        //     { label: 'Experience Cloud', href: '/' },
-        //     { label: 'Property Cloud', href: '/' },
-        //   ],
-        // },
-        { label: 'MediAina', href: '/' },
+        { label: 'AgentChat', href: '/products/agentchat' },
       ],
     },
     {
       label: 'Services',
       links: [
-        { label: 'Artificial Intelligence', href: '/' },
         {
-          label: 'Salesforce', href: '/salesforce-consulting',
+          label: 'Business Transformation', href: '/',
           subLinks: [
-            { label: 'Salesforce Data Cloud', href: '/' },
-            { label: 'Health Cloud', href: '/salesforce-consulting/health-cloud' },
-            { label: 'Agentforce', href: '/salesforce-consulting/agentforce' },
-            { label: 'Data Cloud', href: '/solution/data-cloud' },
-            { label: 'Implementation', href: '/' },
-            { label: 'Managed Services', href: '/services/managed-services' },
-            { label: 'Mulesoft', href: '/mulesoft-integration' },
-            { label: 'Revenue Cloud', href: '/salesforce-consulting/revenue-cloud' },
+            { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
+            { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
           ],
         },
         {
-          label: 'SAP', href: '/sap',
+          label: 'LOB Services', href: '/',
           subLinks: [
-            { label: 'RISE with SAP', href: '/rise-with-sap' },
-            { label: 'GROW with SAP', href: '/grow-with-sap' },
-            { label: 'Successfactor', href: '/success-factors' },
-            { label: 'Application Development', href: '/' },
-            { label: 'SAP Integration', href: '/sap/sap-integration' },
-            { label: 'SAP ARIBA', href: '/sap/sap-ariba' },
-            { label: 'SAP BTP', href: '/sap/sap-btp' },
-          ],
+            { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },],
         },
-        { label: 'Yardi', href: '/' },
         {
-          label: 'Data Analytics',
+          label: 'Spend Management', href: '/',
           subLinks: [
-            { label: 'Power BI', href: '/' },
-            { label: 'QLIK Sense', href: '/' },
-            { label: 'ALTERYX', href: '/' },
-          ],
+            { label: 'For ARIBA Implementation', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
         },
-        { label: 'Cloud Migration', href: '/' },
-        { label: 'Testing', href: '/' },
-        { label: 'Integration', href: '/' },
+        {
+          label: 'HXM Transformation', href: '/',
+          subLinks: [
+            { label: 'For SuccessFactor Implementation', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },],
+        },
+
       ],
     },
     {
-      label: 'Industry',
+      label: 'Industries',
       links: [
-        { label: 'Healthcare', href: '/healthcare' },
-        { label: 'Real Estate', href: '/industry/real-estate' },
-        { label: 'Manufacturing', href: '/industry/manufacturing' },
-        { label: 'Finance', href: '/' },
-        { label: 'Hi-Tech', href: '/industry/hi-tech' },
-        { label: 'Public Sector', href: '/' },
+        {
+          label: 'Real Estate', href: '/industry/real-estate-property-management',
+        },
+        {
+          label: 'Life Sciences', href: '/',
+          subLinks: [
+            { label: 'Healthcare', href: '/industry/life-sciences/healthcare-medtech-patient-care' },
+          ],
+
+        },
+        {
+          label: 'Hi-Tech', href: '/industry/hitech-semiconductor',
+
+        },
+        {
+          label: 'Manufacturing', href: '/industry/manufacturing-cloud-erp',
+
+        },
+
+      ],
+    },
+    {
+      label: 'About Us',
+      links: [
+        {
+          label: 'About Rialtes: Innovating with Impact', href: '/about-us',
+          subLinks: [
+            { label: 'Leadership', href: '/about-us/leadership' },
+            { label: 'Contact Us', href: '/contact-us' },
+            { label: 'Partnership', href: '/about-us/global-alliences' },
+          ],
+
+        }
+      ],
+    },
+    {
+      label: 'Insights',
+      links: [
+        {
+          label: 'Insights', href: '/insights',
+          subLinks: [
+            { label: 'Blogs', href: '/insights/blogs' },
+            { label: 'Webinar', href: '/insights/webinars' },
+            { label: 'Case Studies', href: '/insights/case-studies' },
+          ],
+
+        }
       ],
     },
     {
       label: 'Contact Us',
       links: [
-        { label: 'Blog', href: '/blog' },
-        { label: 'Case Studies', href: '/case-studies' },
-        { label: 'Webinar', href: '/webinar' },
-        { label: 'Events', href: '/events' },
-      ],
+        {
+          label: 'Contact Us', href: '/contact-us',
+        }]
     },
   ];
 
@@ -406,7 +435,7 @@ const Header = () => {
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={handleLinkClick} onHover={() => { }} />
@@ -442,14 +471,14 @@ const Header = () => {
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/solutions/enterprise-platforms/salesforce-consulting
 " onHover={() => { }} onClick={handleLinkClick} />
                             {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} /> */}
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP ARIBA" link="/solutions/enterprise-platforms/sap-ariba-consulting" onHover={() => { }} onClick={handleLinkClick} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Ariba" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onHover={() => { }} onClick={handleLinkClick} />
                             <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={handleLinkClick} onHover={() => { }} />
 
                           </div>
                           <div>
                             <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting
 " onClick={handleLinkClick} onHover={() => { }} />
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Successfactors" link="/solutions/enterprise-platforms/sap-successfactors-consulting" onClick={handleLinkClick} onHover={() => { }} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={handleLinkClick} onHover={() => { }} />
                             {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle EBS" link="/" onClick={handleLinkClick} onHover={() => { }} />
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Kinaxis RapidResponse" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
 
@@ -590,7 +619,7 @@ const Header = () => {
                       <div className="grid grid-cols-2 gap-32">
                         <div>
                           {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Automation Anywhere" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
-                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting
+                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting
 " onHover={() => { }} onClick={handleLinkClick} />
                         </div>
                         <div>
@@ -734,17 +763,17 @@ const Header = () => {
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                       <MenuItem className="font-bold text-[#2f78c4]" label="Grow with SAP" link="/services/business-transformation/grow-with-sap-services" onClick={handleLinkClick} onHover={() => { }} /> 
-                           {/* <MenuItem className="font-bold text-[#2f78c4]" label="For Grow with SAP" link="/grow-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Grow with SAP" link="/services/business-transformation/grow-with-sap-services" onClick={handleLinkClick} onHover={() => { }} />
+                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="For Grow with SAP" link="/grow-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
 
                         </div>
 
                         <div>
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services
 
 " onClick={handleLinkClick} onHover={() => { }} />
 
@@ -797,10 +826,10 @@ const Header = () => {
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
+                          <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
 " onClick={handleLinkClick} onHover={() => { }} />
 
                           {/* <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} /> */}
@@ -866,13 +895,13 @@ const Header = () => {
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         {/* <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="For ARIBA Implementation" link="/services/spend-management/sapbuyplus-ariba-implementation-services
+                          <MenuItem className="font-bold text-[#2f78c4]" label="SAP Ariba " link="/services/spend-management/sapbuyplus-ariba-implementation-services
 " onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
@@ -890,13 +919,13 @@ const Header = () => {
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         {/* <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Success+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="For SuccessFactor Implementation" link="/services/hxm-transformation/successplus-successfactors-implementation-services" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-services" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                     </div>
@@ -917,7 +946,7 @@ const Header = () => {
                   onClick={() => handleSubMenuClick("automotive")}
 
                 >
-                  RialEstate
+                  Real Estate
                 </div>
                 {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
@@ -1013,7 +1042,7 @@ const Header = () => {
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         {/* <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Medical Devices" link="/" onClick={handleLinkClick} onHover={() => { }} />
@@ -1156,7 +1185,7 @@ const Header = () => {
                       <Link href='/about-us' onClick={handleLinkClick}>Let's Begin</Link>
                     </button>
                   </div>
-                  <div className="mt-10">
+                  <div className="mt-5">
                     <div className="grid grid-cols-2 gap-32">
                       <div>
                         <MenuItem className="font-bold text-[#2f78c4]" label="Leadership" link="/about-us/leadership" onClick={handleLinkClick} onHover={() => { }} />
@@ -1167,7 +1196,7 @@ const Header = () => {
                         {/* <MenuItem className="font-bold text-[#2f78c4]" label="Sponsorships" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Corporate Citizenship" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and press releases" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                                             <MenuItem className="font-bold text-[#2f78c4]" label="Partnership" link="/about-us/global-alliences" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4]" label="Partnership" link="/about-us/global-alliences" onClick={handleLinkClick} onHover={() => { }} />
 
                       </div>
                       <div>
@@ -1202,7 +1231,7 @@ const Header = () => {
                       <Link href='/insights' onClick={handleLinkClick}>Let's Begin</Link>
                     </button>
                   </div>
-                  <div className="mt-10">
+                  <div className="mt-5">
                     <div className="grid grid-cols-2 gap-32">
                       <div>
                         <MenuItem className="font-bold text-[#2f78c4]" label="Blogs" link="/insights/blogs" onClick={handleLinkClick} onHover={() => { }} />
