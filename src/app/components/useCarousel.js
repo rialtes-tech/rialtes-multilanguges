@@ -4,12 +4,12 @@ import Carousel from 'react-multi-carousel';
 
 export default function servicesInsightsCarousel() {
   const slides = [
-    { id: 1, category: "Healthcare", description: "Our Salesforce healthcare CRM can help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels, MedTech services, and patient engagement solutions to facilitate exceptional patient care." },
-    { id: 2, category: "Real Estate", description: "Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties, and rental agreements with our property management software." },
-    { id: 3, category: "Manufacturing", description: "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies with Salesforce. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly." },
-    { id: 4, category: "Hi-tech", description: "Our Salesforce consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms." },
-    { id: 5, category: "Finance", description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust." },
-    { id: 6, category: "Public Sector", description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we're shaping the future of the public sector" },
+    { id: 1, category: "Healthcare", description: "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities" },
+    { id: 2, category: "Real Estate", description: "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions." },
+    { id: 3, category: "Manufacturing", description: "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer manufacturing Software to help you keep your production lines running smoothly." },
+    { id: 4, category: "Hi-tech", description: "Our consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms." },
+    // { id: 5, category: "Finance", description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust." },
+    // { id: 6, category: "Public Sector", description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we're shaping the future of the public sector" },
   ];
 
   // Limit to only 6 items
@@ -78,7 +78,7 @@ export default function servicesInsightsCarousel() {
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pb-5">
           <div>
-            <p className="w-[60%]">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
+            <p className="xl:w-[70%] w-full">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
           </div>
         </div>
         <Carousel

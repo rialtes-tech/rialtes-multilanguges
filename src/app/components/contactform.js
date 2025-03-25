@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function ContactForm({ title, className, padding }) {
 
     const [isRobotChecked, setIsRobotChecked] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
+    const section1Ref = useRef(null);
 
     const handleCheckboxChange = () => {
         setIsLoading(true);
@@ -18,8 +19,21 @@ export default function ContactForm({ title, className, padding }) {
         }, 1000);
     };
 
+      useEffect(() => {
+        const sectionId = window.location.hash.replace('#', '');
+    
+        if (sectionId === 'section1' && section1Ref.current) {
+            // const position = section1Ref.current.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+              behavior: 'smooth',
+            });
+          }
+       
+      }, []); 
+      
+
     return (
-        <section className={'container ' + padding ? padding : ''}>
+        <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
             <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
             <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
             <input type="hidden" name="oid" value="00D8V000002Xglg"/>

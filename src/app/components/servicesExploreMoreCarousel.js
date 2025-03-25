@@ -11,32 +11,36 @@ export default function servicesExploreMoreCarousel() {
       id: 1,
       image: "/images/industry/manufacturing.webp",
       title: "Manufacturing",
+      url:'/industry/manufacturing-cloud-erp'
     },
     {
       id: 2,
       image: "/images/industry/healthcare.webp",
       title: "Healthcare",
+      url:'/industry/life-sciences/healthcare-medtech-patient-care'
     },
     {
       id: 3,
       image: "/images/industry/real-estate.webp",
       title: "Real Estate",
+      url:'/industry/real-estate-property-management'
     },
     {
       id: 4,
       image: "/images/industry/hi-tech.webp",
       title: "Hi-tech",
+      url:'/industry/hitech-semiconductor'
     },
-    {
-      id: 5,
-      image: "/images/industry/finance.webp",
-      title: "Finance",
-    },
-    {
-      id: 6,
-      image: "/images/industry/public-sector.webp",
-      title: "Public Sector",
-    },
+    // {
+    //   id: 5,
+    //   image: "/images/industry/finance.webp",
+    //   title: "Finance",
+    // },
+    // {
+    //   id: 6,
+    //   image: "/images/industry/public-sector.webp",
+    //   title: "Public Sector",
+    // },
   ];
 
   const responsive = {
@@ -126,6 +130,9 @@ export default function servicesExploreMoreCarousel() {
               className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mr-6 relative group text-white`}
             >
               <div className="w-full relative overflow-hidden group">
+                <a href={slide.url}
+             style={{ display: 'block' }} 
+            className='relative block'>
                 <Image
                   className="transition-transform duration-300 group-hover:scale-105"
                   src={slide.image}
@@ -137,6 +144,7 @@ export default function servicesExploreMoreCarousel() {
                   priority
                 />
                 <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none">{slide.title}</h4>
+                </a>
               </div>
             </div>
           ))}

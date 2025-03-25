@@ -10,21 +10,21 @@ export default function servicesFeaturedCarousel() {
   const slides = [
     {
       id: 1,
-      url: "/case-study-3",
+      url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
       imgSrc: "/images/insights/manufacturing-case-study.webp",
       title: "Streamlined DevOps using Copado and Salesforce",
       description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
     },
     {
       id: 2,
-      url: "/case-study-2",
+      url: "/insights/case-studies/realForce-banking-module-ach",
       imgSrc: "/images/insights/real-estate-case-study.webp",
       title: "RealForce Banking Module - ACH",
       description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
     },
     {
       id: 3,
-      url: "/case-study-1",
+      url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
       imgSrc: "/images/insights/healthcare-case-study-2.webp",
       title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
       description: "A global medical technology company that develops and manufactures innovative products",

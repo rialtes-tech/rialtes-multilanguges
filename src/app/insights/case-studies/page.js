@@ -38,7 +38,7 @@ const latestCaseStudy = [
   },
   {
     id: 4,
-    image: "/images/case-studies/case-study-4_thumb.webp",
+    image: "/images/case-studies/case-study-4_thumb.webp", 
     industry: "Manufacturing",
     date: "14 Oct 2024",
     url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",

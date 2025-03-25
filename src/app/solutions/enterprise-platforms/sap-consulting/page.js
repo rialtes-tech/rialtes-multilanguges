@@ -22,136 +22,137 @@ const solutionSuccess = [
             'Conversational Chatbot',
             'Customized Application'
         ],
-        knowMore: '/rise-with-sap'
-
+        knowMore: '/services/business-transformation/rise-with-sap-services'
     },
+    // {
+    //     id: 2,
+    //     imageUrl: '/images/sap-consulting/SAP Integration.png',
+    //     title: 'SAP Integration',
+    //     description: 'Experience a smooth integration process with our SAP System Integrators. Our SAP Integration Services offer you managed infrastructure, fully managed dedicated servers, private cloud with one tenant, hybrid cloud, and cooperative support packages.',
+    //     productsDetails: [
+    //         'Integration consulting',
+    //         'Integration development, consolidation, and migration',
+    //         'Integration architecture design',
+    //         'Maintenance of integrated applications'
+    //     ],
+    //     knowMore: '/solutions/enterprise-platforms/sap-consulting'
+
+    // },
+    // {
+
+    //     id: 3,
+    //     imageUrl: '/images/sap-consulting/SAP Managed Services.png',
+    //     title: 'SAP Managed Services',
+    //     description: 'As your SAP Managed Service Provider, we offer transformational business intelligence.',
+    //     productsDetails: [
+    //         'Managed Infrastructure, Migration & Provisioning',
+    //         'SAP Implementation & Support',
+    //         'Monitoring and Audits',
+    //         'Security & Governance',
+    //         'Business Continuity',
+    //     ],
+    //     knowMore: '/salesforce-consulting/salesforce-manage'
+
+    // },
+    // {
+    //     id: 4,
+    //     imageUrl: '/images/sap-consulting/Application Development thumb.png',
+    //     title: 'Application Development',
+    //     description: 'Turn raw data into insights by unifying and transforming it, unlocking a sea of opportunities for your business.',
+    //     productsDetails: [
+    //         'Customer 360 view',
+    //         'Zero copy integration',
+    //         'Omnichannel engagement'
+    //     ],
+    //     knowMore: '/salesforce-consulting/salesforce-manage'
+
+    // },
+    // {
+    //     id: 5,
+    //     imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
+    //     title: 'SAP Analytics Cloud',
+    //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+    //     productsDetails: [
+    //         'Optimized sales and revenue growth',
+    //         'Targeted marketing campaign',
+    //         'Strengthened customer relationships',
+    //         'Works seamlessly with MuleSoft, Tableau, and more'
+    //     ],
+    //     knowMore: '/salesforce-consulting/salesforce-manage'
+
+    // },
     {
         id: 2,
-        imageUrl: '/images/sap-consulting/SAP Integration.png',
-        title: 'SAP Integration',
-        description: 'Experience a smooth integration process with our SAP System Integrators. Our SAP Integration Services offer you managed infrastructure, fully managed dedicated servers, private cloud with one tenant, hybrid cloud, and cooperative support packages.',
-        productsDetails: [
-            'Integration consulting',
-            'Integration development, consolidation, and migration',
-            'Integration architecture design',
-            'Maintenance of integrated applications'
-        ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
-
-    },
-    {
-
-        id: 3,
-        imageUrl: '/images/sap-consulting/SAP Managed Services.png',
-        title: 'SAP Managed Services',
-        description: 'As your SAP Managed Service Provider, we offer transformational business intelligence.',
-        productsDetails: [
-            'Managed Infrastructure, Migration & Provisioning',
-            'SAP Implementation & Support',
-            'Monitoring and Audits',
-            'Security & Governance',
-            'Business Continuity',
-        ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
-
-    },
-    {
-        id: 4,
-        imageUrl: '/images/sap-consulting/Application Development thumb.png',
-        title: 'Application Development',
-        description: 'Turn raw data into insights by unifying and transforming it, unlocking a sea of opportunities for your business.',
-        productsDetails: [
-            'Customer 360 view',
-            'Zero copy integration',
-            'Omnichannel engagement'
-        ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
-
-    },
-    {
-        id: 5,
-        imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-        title: 'SAP Analytics Cloud',
-        description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-        productsDetails: [
-            'Optimized sales and revenue growth',
-            'Targeted marketing campaign',
-            'Strengthened customer relationships',
-            'Works seamlessly with MuleSoft, Tableau, and more'
-        ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
-
-    },
-    {
-        id: 6,
         imageUrl: '/images/sap-consulting/GROW with SAP thumb.png',
         title: 'GROW with SAP',
-        description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+        description: 'Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably',
         productsDetails: [
-            'Optimized sales and revenue growth',
-            'Targeted marketing campaign',
-            'Strengthened customer relationships',
-            'Works seamlessly with MuleSoft, Tableau, and more'
+            'Accelerate Your Digital Transformation',
+            'Flexible and Scalable ERP Solutions',
+            'Increase in operational efficiency',
+            'Integrated AI and automation',
+            'Flexible Pricing Options'
         ],
-        knowMore: '/grow-with-sap'
+        knowMore: '/services/business-transformation/grow-with-sap-services'
 
     },
     {
-        id: 7,
+        id: 3,
         imageUrl: '/images/sap-consulting/Successfactor thumb.png',
-        title: 'Successfactor',
-        description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+        title: 'SuccessFactors',
+        description: 'SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.',
         productsDetails: [
-            'Optimized sales and revenue growth',
-            'Targeted marketing campaign',
-            'Strengthened customer relationships',
-            'Works seamlessly with MuleSoft, Tableau, and more'
+            'Employee Central & Employee Central Payroll',
+            'Talent Acquisition',
+            'SAP HR Analytics and Workforce Planning',
+            'SAP Learning Management'
         ],
-        knowMore: '/success-factors'
+        knowMore: '/services/hxm-transformation/successplus-successfactors-implementation-partner'
 
     },
+    // {
+    //     id: 8,
+    //     imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
+    //     title: 'Integration',
+    //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+    //     productsDetails: [
+    //         'Optimized sales and revenue growth',
+    //         'Targeted marketing campaign',
+    //         'Strengthened customer relationships',
+    //         'Works seamlessly with MuleSoft, Tableau, and more'
+    //     ],
+    //     knowMore: '/salesforce-consulting/salesforce-manage'
+
+    // },
     {
-        id: 8,
+        id: 4,
         imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-        title: 'Integration',
-        description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+        title: 'Ariba',
+        description: 'Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management',
         productsDetails: [
-            'Optimized sales and revenue growth',
-            'Targeted marketing campaign',
-            'Strengthened customer relationships',
-            'Works seamlessly with MuleSoft, Tableau, and more'
+            'Procurement and supply chain metrics',
+            'Improved accuracy of operational task',
+            'Effective compliance management',
+            'Automation of time-consuming processes',
+            'Increased visibility of tail-end spend'
         ],
-        knowMore: '/salesforce-consulting/salesforce-manage'
+        knowMore: '/services/spend-management/sapbuyplus-ariba-implementation-partner'
 
     },
-    {
-        id: 8,
-        imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-        title: 'ARIBA',
-        description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-        productsDetails: [
-            'Optimized sales and revenue growth',
-            'Targeted marketing campaign',
-            'Strengthened customer relationships',
-            'Works seamlessly with MuleSoft, Tableau, and more'
-        ],
-        knowMore: '/sap/sap-ariba'
+    // {
+    //     id: 8,
+    //     imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
+    //     title: 'BTP',
+    //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+    //     productsDetails: [
+    //         'Optimized sales and revenue growth',
+    //         'Targeted marketing campaign',
+    //         'Strengthened customer relationships',
+    //         'Works seamlessly with MuleSoft, Tableau, and more'
+    //     ],
+    //     knowMore: '/sap/sap-btp'
 
-    },
-    {
-        id: 8,
-        imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-        title: 'BTP',
-        description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-        productsDetails: [
-            'Optimized sales and revenue growth',
-            'Targeted marketing campaign',
-            'Strengthened customer relationships',
-            'Works seamlessly with MuleSoft, Tableau, and more'
-        ],
-        knowMore: '/sap/sap-btp'
-
-    },
+    // },
 
 
 ]
@@ -195,7 +196,7 @@ export default function Page() {
                             <h1 className="max-w-2xl">
                                 Leaning towards a better tomorrow.
                             </h1>
-                            <h3 className="w-[75%] font-bold">Leveraging SAP Consulting Services for reliable business operations.</h3>
+                            <h3 className="w-[75%] font-bold">Confidently Reduce efforts and increase efficiency with SAP solutions.</h3>
                             <div className="md:w-32 w-20 pt-6">
                                 <Image
                                     src="/images/success-factors/sap-partner-logo.webp"
@@ -227,8 +228,8 @@ export default function Page() {
                 <div className="py-10 bg-white">
                     <div className="container mx-auto 2xl:pr-80 xl:pr-40 md:pr-20">
                         <div className="flex flex-col xl:flex-row items-center py-6">
-                            <div className="flex flex-col w-full xl:w-2/3 xl:mr-20 xl:mb-0 mb-4">
-                                <h2 className="text-black md:pb-0 pb-4">Reducing Efforts, Increasing Efficiency.</h2>
+                            <div className="flex flex-col w-full xl:mr-20 xl:mb-0 mb-4">
+                                <h1 className="text-black md:pb-0 pb-4">Leverage SAP Consulting Services for Reliable Business Operations</h1>
                             </div>
                             <div className="flex flex-col w-full xl:w-2/3">
                                 <p className="text-[#000000]">What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.</p>
@@ -241,7 +242,7 @@ export default function Page() {
 
 
             <section className="lg:mt-20 mt-10 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
-                <h2>Our Solution to Success</h2>
+                <h2>Our Solutions to Success</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
                     {solutionSuccess.map((product) => {
                         return (
@@ -328,7 +329,9 @@ export default function Page() {
                 <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
                     <h2>RISE with SAP</h2>
                     <p className='mt-5'>Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.</p>
+                   <Link href='/services/business-transformation/rise-with-sap-services'>
                     <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
+                    </Link>
                 </div>
             </section>
             {/* Contact Form */}
