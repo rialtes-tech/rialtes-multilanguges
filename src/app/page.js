@@ -132,13 +132,13 @@ const Home = () => {
       knowMore: 'Know More',
       url:'industry/real-estate-property-management'
     },
-    {
-      id: 4,
-      title: 'Finance',
-      description: 'From banking payment solutions to financial services automation, our dedicated and knowledgeable team is ready to help you achieve operational excellence and build customer trust while staying compliant with government regulations.',
-      knowMore: 'Know More',
-      url:''
-    },
+    // {
+    //   id: 4,
+    //   title: 'Finance',
+    //   description: 'From banking payment solutions to financial services automation, our dedicated and knowledgeable team is ready to help you achieve operational excellence and build customer trust while staying compliant with government regulations.',
+    //   knowMore: 'Know More',
+    //   url:''
+    // },
     {
       id: 5,
       title: 'Hi-tech',
@@ -147,13 +147,13 @@ const Home = () => {
       url:'industry/hitech-semiconductor'
 
     },
-    {
-      id: 6,
-      title: 'Retail & e-Commerce',
-      description: 'We streamline business processes by connecting everyone with the information they need. We offer Salesforce Sales and other solutions for businesses that collect sales, marketing, and customer data and help them improve sales strategies.',
-      knowMore: 'Know More',
-      url:''
-    },
+    // {
+    //   id: 6,
+    //   title: 'Retail & e-Commerce',
+    //   description: 'We streamline business processes by connecting everyone with the information they need. We offer Salesforce Sales and other solutions for businesses that collect sales, marketing, and customer data and help them improve sales strategies.',
+    //   knowMore: 'Know More',
+    //   url:''
+    // },
   ]
 
   const successStoryData = [
@@ -163,16 +163,16 @@ const Home = () => {
       title: 'HealthCare',
       description: 'Mulesoft for Salesforce Health Cloud and SAP',
       para: 'Expand',
-      url:'insights/case-studies/case-study-1'
+      url:'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
 
-    },
+    }, 
     {
       id: 2,
       imageUrl: '/images/homepage/case2.webp',
       title: 'Real Estate',
       description: 'RealForce Banking Module - ACH',
       para: 'Expand',
-      url:'insights/case-studies/case-study-2'
+      url:'insights/case-studies/realForce-banking-module-ach'
 
     },
     {
@@ -181,7 +181,7 @@ const Home = () => {
       title: 'Manufacturing',
       description: 'Streamlined DevOps using Copado and Salesforce',
       para: 'Expand',
-     url:'insights/case-studies/case-study-3'
+     url:'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
     },
     {
       id: 4,
@@ -189,7 +189,7 @@ const Home = () => {
       title: 'HealthCare',
       description: 'Digitizing patient journey using Salesforce health cloud',
       para: 'Expand',
-       url:'insights/case-studies/case-study-4'
+       url:'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
     }
   ]
   const ourServices = [
@@ -249,15 +249,15 @@ const Home = () => {
       id: 3,
       imageUrl: '/images/homepage/Blog 5 Long thumb.webp',
       label: 'Blogs',
-      description: 'Success factor',
+      description: 'How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration',
       url:'https://rialtes.netlify.app/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration'
     },
     {
       id: 4,
       imageUrl: '/images/homepage/blog4.png',
       label: 'Case Study',
-      description: 'Case Study: Leveraging Data for Business Growth',
-      url:'insights/case-studies'
+      description: 'Omnichannel case management with Salesforce Service Cloud',
+      url:'https://rialtes.netlify.app/insights/case-studies/case-study-7'
     },
   ];
 
@@ -294,7 +294,9 @@ const Home = () => {
         <ResponsiveCarousel autoPlay={true} infinite={true} 
           autoPlaySpeed={3000} renderIndicator={renderIndicator}>
           <div className='relative'>
-            <Link href='/services/lob/autosense-automotive-digital-transformation-services'>
+            <a href='/services/lob/autosense-automotive-digital-transformation-services'
+             style={{ display: 'block' }} 
+            className='relative block'>
             <Image width={0}
               height={0}
               sizes="100vw"
@@ -305,10 +307,15 @@ const Home = () => {
 
               }}
               priority className='w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer' alt='demo' src='/images/homepage/automotive.webp' />
-       </Link>
+          
+       </a>
           </div>
 
           <div className='relative'>
+            <a href='/salesforce-consulting/health-cloud'
+             style={{ display: 'block' }} 
+             className='relative block'>
+            
             <Image width={0}
               height={0}
               sizes="100vw"
@@ -316,7 +323,9 @@ const Home = () => {
                 width: "100%",
                 objectFit: "cover",
               }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/lifescience.webp' />
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/lifescience.webp' /> 
+            </a>
+            
 
             {/* <div className='absolute text-black top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>Your Complete Path to</div>
@@ -326,6 +335,9 @@ const Home = () => {
             <h4 className='bottom-[15%] absolute text-black xl:left-[280px] left-[30px] text-left md:left-[100px]'>Know More</h4> */}
           </div>
           <div className='relative'>
+            <a  href='/industry/hitech-semiconductor'
+             style={{ display: 'block' }} 
+             className='relative block'>
             <Image width={0}
               height={0}
               sizes="100vw"
@@ -333,7 +345,8 @@ const Home = () => {
                 width: "100%",
                 objectFit: "cover",
               }}
-              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 1.webp' />
+              priority className='w-full h-[300px] xl:h-full md:h-full' alt='demo' src='/images/homepage/semiconductor 1.webp' /> 
+              </a>
 
             {/* <div className='absolute text-white top-1/3 xl:left-[280px] left-[30px] md:left-[100px] text-left'>
               <div className='xl:text-5xl text-xl'>Streamline HR processes</div>
@@ -534,7 +547,7 @@ const Home = () => {
             <p className='mt-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
           </div>
           <div className='relative group overflow-hidden xl:w-1/2'>
-            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/lifeatrialtes.jpg' />
+            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/life2.jpg' />
           </div>
         </div>
       </section>

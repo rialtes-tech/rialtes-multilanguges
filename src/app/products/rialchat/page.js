@@ -3,6 +3,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
+import LearnMore from "@/app/components/learnMore";
 
 export default function Page() {
 
@@ -122,9 +123,8 @@ export default function Page() {
                                     Initiate and manage WhatsApp conversations directly within Salesforce, ensuring efficient communication for both sales and support teams.
                                 </p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
                             </div>
 
@@ -137,9 +137,8 @@ export default function Page() {
                                 <hr></hr>
                                 <p className=" pb-6 mt-5 xl:w-[55%] w-full">Send and receive images, videos, and documents effortlessly, making interactions more engaging and personalized.</p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
 
                             </div>
@@ -179,9 +178,8 @@ export default function Page() {
                                 <hr></hr>
                                 <p className=" pb-6 mt-5 xl:w-[55%] w-full">Track and store all WhatsApp conversations within Salesforce, ensuring centralized and accessible records for both sales and customer service interactions.</p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
 
                             </div>
@@ -195,9 +193,8 @@ export default function Page() {
                                 <hr></hr>
                                 <p className=" pb-6 mt-5 xl:w-[55%] w-full">If a sales or support rep leaves the company, the conversation history remains in Salesforce, maintaining continuity and performance tracking.</p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
 
                             </div>
@@ -239,9 +236,8 @@ export default function Page() {
                                 <hr></hr>
                                 <p className="pb-6 mt-5 xl:w-[55%] w-full">Automate workflows, schedule follow-ups, and gain valuable insights into lead interactions and customer support tickets, improving response time and productivity.</p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
 
                             </div>
@@ -257,9 +253,8 @@ export default function Page() {
                                 <hr></hr>
                                 <p className="pb-6 mt-5 xl:w-[55%] w-full">Enable seamless collaboration between sales, service, and support member within Salesforce to provide a unified customer experience.</p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
 
                             </div>
@@ -301,9 +296,8 @@ export default function Page() {
                                 <hr></hr>
                                 <p className="pb-6 mt-5 xl:w-[55%] w-full">Allow service agents to handle customer inquiries, complaints, and support requests efficiently through WhatsApp, ensuring fast resolutions and better customer satisfaction.</p>
                                 <div>
-                                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
+                                    <LearnMore />
+
                                 </div>
                             </div>
 
