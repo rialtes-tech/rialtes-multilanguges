@@ -14,10 +14,8 @@ export default function servicesInsightsCarousel() {
 
   // Limit to only 6 items
   const limitedSlides = [
-    // First slide: Healthcare, Real Estate, Manufacturing, Hi-tech
     [slides[0], slides[1], slides[2], slides[3]],
     
-    // Second slide: Manufacturing, Hi-tech, Finance, Public Sector
     [slides[2], slides[3], slides[4], slides[5]],
   ];
   // Adjust the responsive settings for showing 4 items on the first slide, 2 on the second
