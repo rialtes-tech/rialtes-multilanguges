@@ -77,7 +77,7 @@ export default function Agentforce() {
             title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
         },
         {
-            id: 3,
+            id: 3, 
             image: "/images/blog/blog-3-long-thumb.webp",
             category: "Salesforce Agentforce",
             industry: "Generic",

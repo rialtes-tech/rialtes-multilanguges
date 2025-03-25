@@ -7,6 +7,7 @@ import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
+import LearnMore from "@/app/components/learnMore";
 
 
 
@@ -49,13 +50,16 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20 pr-6 mt-20">
+    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20 pr-6 mt-10">
       <h2 className="text-black mb-6">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
       <p>We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
         ))}
+      </div>
+      <div className="mt-10">
+      <LearnMore/>
       </div>
     </div>
   );
@@ -155,6 +159,9 @@ const GrowServices = () => {
           <GrowServicesCard key={services.id} services={services} />
         ))}
       </div>
+      <div className="mt-5">
+        <LearnMore/>
+      </div>
     </div>
   );
 };
@@ -214,7 +221,7 @@ export default function Page() {
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row py-6 gap-20">
               <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4 ">
-                <h2 className="text-black md:pb-0 pb-4">Patient care and MedTech solutions built on Salesforce Health Cloud</h2>
+                <h1 className="text-black md:pb-0 pb-4">Patient care and MedTech solutions built on Salesforce Health Cloud</h1>
               </div>
               <div className="flex flex-col w-full">
                 <p className="text-[#000000]">The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.
@@ -255,7 +262,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="pb-16 bg-white">
+        <section className="pb-8 bg-white">
 
           <Services />
 

@@ -7,6 +7,7 @@ import CarouselComponent from "../../../components/useCarousel";
 import InsightsCarousel from '../../../components/servicesInsightsCarousel';
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import Link from "next/link";
+import LearnMore from "@/app/components/learnMore";
 export default function SalesForceConsulting() {
 
   
@@ -45,34 +46,34 @@ export default function SalesForceConsulting() {
     ]
 
     const salesForceProduct = [
-        {
-            id: 1,
-            imageUrl: '/images/salesforce-consulting-services/manage.webp',
-            title: 'Salesforce Managed Services',
-            description: 'Managed services provide access to various capabilities, including Salesforce administrators, developers, architects, and consultants.',
-            productsDetails: [
-                'Salesforce optimization and planning',
-                'Ongoing enhancements',
-                'Lightning migration',
-                'Troubleshoot and maintenance'
-            ],
-            knowMore: '/salesforce-consulting/salesforce-manage'
+        // {
+        //     id: 1,
+        //     imageUrl: '/images/salesforce-consulting-services/manage.webp',
+        //     title: 'Salesforce Managed Services',
+        //     description: 'Managed services provide access to various capabilities, including Salesforce administrators, developers, architects, and consultants.',
+        //     productsDetails: [
+        //         'Salesforce optimization and planning',
+        //         'Ongoing enhancements',
+        //         'Lightning migration',
+        //         'Troubleshoot and maintenance'
+        //     ],
+        //     knowMore: '/salesforce-consulting/salesforce-manage'
 
-        },
-        {
-            id: 2,
-            imageUrl: '/images/salesforce-consulting-services/health.webp',
-            title: 'Salesforce Health Cloud',
-            description: 'Centralise patient information, provide health workers with a complete view of patient records and deliver more effective treatments.',
-            productsDetails: [
-                'Get a 360-degree view',
-                'Access real-time updates',
-                'Enhance patient outcome',
-                'Streamline healthcare'
-            ],
-            knowMore: '/salesforce-consulting/salesforce-manage'
+        // },
+        // {
+        //     id: 2,
+        //     imageUrl: '/images/salesforce-consulting-services/health.webp',
+        //     title: 'Salesforce Health Cloud',
+        //     description: 'Centralise patient information, provide health workers with a complete view of patient records and deliver more effective treatments.',
+        //     productsDetails: [
+        //         'Get a 360-degree view',
+        //         'Access real-time updates',
+        //         'Enhance patient outcome',
+        //         'Streamline healthcare'
+        //     ],
+        //     knowMore: '/salesforce-consulting/salesforce-manage'
 
-        },
+        // },
         {
             id: 3,
             imageUrl: '/images/salesforce-consulting-services/agentforce.png',
@@ -84,7 +85,7 @@ export default function SalesForceConsulting() {
                 'Build campaigns',
                 'Automate sales process'
             ],
-            knowMore: '/salesforce-consulting/salesforce-manage'
+            knowMore: '/solutions/artificial-intelligence/salesforce-agentforce-consulting'
 
         },
         {
@@ -97,23 +98,23 @@ export default function SalesForceConsulting() {
                 'Zero copy integration',
                 'Omnichannel engagement'
             ],
-            knowMore: '/salesforce-consulting/salesforce-manage'
+            knowMore: '/solutions/data-ai/salesforce-data-cloud-consulting'
 
         },
-        {
-            id: 5,
-            imageUrl: '/images/salesforce-consulting-services/lap.webp',
-            title: 'Salesforce Implementation',
-            description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-            productsDetails: [
-                'Optimized sales and revenue growth',
-                'Targeted marketing campaign',
-                'Strengthened customer relationships',
-                'Works seamlessly with MuleSoft, Tableau, and more'
-            ],
-            knowMore: '/salesforce-consulting/salesforce-manage'
+        // {
+        //     id: 5,
+        //     imageUrl: '/images/salesforce-consulting-services/lap.webp',
+        //     title: 'Salesforce Implementation',
+        //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
+        //     productsDetails: [
+        //         'Optimized sales and revenue growth',
+        //         'Targeted marketing campaign',
+        //         'Strengthened customer relationships',
+        //         'Works seamlessly with MuleSoft, Tableau, and more'
+        //     ],
+        //     knowMore: '/salesforce-consulting/salesforce-manage'
 
-        },
+        // },
 
     ]
 
@@ -225,15 +226,13 @@ export default function SalesForceConsulting() {
                         )
                     })}
                 </div>
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                    <Link href=''>Learn More</Link>
-                </button>
+               <LearnMore/>
             </section>
             {/* Salesforce product */}
 
             <section className="lg:mt-20 mt-10 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
                 <h2>Salesforce Products</h2>
-                <p className="lg:mt-3 mb-8">Well, Salesforce consulting is just one part of an array of solutions</p>
+                <p className="lg:mt-3 mb-8">Well, Salesforce consulting is just one part of an array of solutions.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
                     {salesForceProduct.map((product) => {
                         return (
@@ -358,7 +357,9 @@ export default function SalesForceConsulting() {
                 <div className='bg-[#134874] hidden xl:block absolute p-10 text-white lg:w-[23%] lg:right-[15rem] lg:top-[-3rem] top-[392px]'>
                     <h2>Agentforce</h2>
                     <p className='mt-5'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
+                   <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
                     <p className='mt-8'>Learn More <span> &#8594;</span></p>
+                    </Link>
                 </div>
             </section>
             <section className="pb-20 xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0 pt-10 mt-20">

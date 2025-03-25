@@ -8,12 +8,13 @@ import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import Link from "next/link";
 import ServicesBlogs from '../../../components/servicesBlogs';
+import LearnMore from "@/app/components/learnMore";
 
 
 const latestServices = [
   {
     id: 1,
-    title: "Salesforce",
+    title: "SuccessFactors Implementation",
     description: "Implementation services for SuccessFactors HR Core, Talent, and Analytics Modules. Optimize your costs, deadlines, and quality with our pre-configured solutions, certified by SAP.",
   },
   {
@@ -63,9 +64,7 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
-      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-        <Link href=''>Learn More</Link>
-      </button>
+     <LearnMore/>
     </div>
   );
 };
@@ -83,33 +82,40 @@ export default function Page() {
       category: "SAP SuccessFactors",
       industry: "Human Resources",
       date: "24 Dec 2024",
-      url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
+      url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
       title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
       description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
     },
 
     {
       id: 7,
-      image: "/images/blog/blog-6-long-thumb.webp",
+      image: "/images/blog/blog-7-long-thumb.webp",
       category: "SAP SuccessFactors",
       industry: "Human Resources",
-      date: "17 Sept 2024",
-      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+      date: "29 Oct 2024",
+      url: 'insights/blogs/sap-successfactors-performance-and-goal-management',
+      title: "SAP SuccessFactors Performance and Goal Management",
     },
 
 
 
     {
       id: 13,
-      image: "/images/blog/blog-6-long-thumb.webp",
+      image: "/images/blog/blog-9-logn-thumb.webp",
       category: "SAP SuccessFactors",
       industry: "Human Resources",
-      date: "17 Sept 2024",
-      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
+      date: "12 Nov 2024",
+      url: 'insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives',
+      title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
+    },
+    {
+      id: 14,
+      image: "/images/blog/blog-13-long-thumb.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "21 Jan 2025",
+      url: 'insights/blogs/how-sap-successfactors-enhances-remote-work-management',
+      title: "How SAP SuccessFactors Enhances Remote Work Management",
     },
 
 
@@ -140,7 +146,7 @@ export default function Page() {
                     xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
-            <h3 className="text-white text-[300] font-medium mb-2">SuccessFactor</h3>
+            <h3 className="text-white text-[300] font-medium mb-2">SuccessFactors</h3>
             <h1 className="text-white max-w-2xl">
               HR Transformation Enabled Using SuccessFactors
             </h1>
@@ -325,9 +331,7 @@ export default function Page() {
                   <li className="pb-4">Comprehensive support for long-term analysis, implementation, and transition from on-premises to cloud </li>
                   <li className="pb-4">A well-established SuccessFactors Center of Excellence with ready-to-use content</li>
                 </ul>
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                  <Link href=''>Learn More</Link>
-                </button>
+               <LearnMore/>
               </div>
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden">
