@@ -11,6 +11,16 @@ import Carousel from 'react-multi-carousel';
 const latestCaseStudy = [
   {
     id: 1,
+    image: "/images/case-studies/sales cloud case study thumb copy.webp",
+    industry: "Manufacturing",
+    date: "26 Mar 2025",
+    url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
+    title: "Optimizing Sales Processes with Salesforce SalesCloud for a Manufacturing Company",
+    description: "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. ",
+  },
+  {
+
+    id: 2,
     image: "/images/case-studies/case-study-1_thumb.webp",
     industry: "Manufacturing",
     date: "8 Jan 2025",
@@ -19,7 +29,7 @@ const latestCaseStudy = [
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
-    id: 2,
+    id: 3,
     image: "/images/case-studies/case-study-2_thumb.webp",
     industry: "Real Estate",
     date: "22 Dec 2024",
@@ -28,7 +38,7 @@ const latestCaseStudy = [
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
-    id: 3,
+    id: 4,
     image: "/images/case-studies/case-study-3_thumb.webp",
     industry: "Healthcare",
     date: "17 Nov 2024",
@@ -37,7 +47,7 @@ const latestCaseStudy = [
     description: "A global medical technology company that develops and manufactures innovative products",
   },
   {
-    id: 4,
+    id: 5,
     image: "/images/case-studies/case-study-4_thumb.webp", 
     industry: "Manufacturing",
     date: "14 Oct 2024",
@@ -46,7 +56,7 @@ const latestCaseStudy = [
     description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
   },
   {
-    id: 5,
+    id: 6,
     image: "/images/case-studies/case-study-5_thumb.webp",
     industry: "Public Sector",
     date: "27 Sept 2024",
@@ -55,7 +65,7 @@ const latestCaseStudy = [
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
-    id: 6,
+    id: 7,
     image: "/images/case-studies/case-study-6_thumb.webp",
     industry: "Real Estate",
     date: "4 Sept 2024",
@@ -64,7 +74,7 @@ const latestCaseStudy = [
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
-    id: 7,
+    id: 8,
     image: "/images/case-studies/case-study-7_thumb.webp",
     industry: "Healthcare",
     date: "25 Oct 2024",
@@ -73,7 +83,7 @@ const latestCaseStudy = [
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
-    id: 8,
+    id: 9,
     image: "/images/case-studies/case-study-8_thumb.webp",
     industry: "Healthcare",
     date: "25 Oct 2024",
@@ -81,6 +91,7 @@ const latestCaseStudy = [
     title: "Salesforce Health Cloud, Prior Authorization",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
+ 
   // Add more case study objects as needed
 ];
 
@@ -238,7 +249,7 @@ const FeaturedCarousel = () => {
       imgSrc: '/images/case-studies/case-study-slider-thumb-1.webp',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
-      url: "/case-study-1",
+      url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
       title: 'Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
@@ -247,7 +258,7 @@ const FeaturedCarousel = () => {
       imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
-      url: "/case-study-4",
+      url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
       title: 'Digitizing patient journey using Salesforce health cloud',
       description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
     }

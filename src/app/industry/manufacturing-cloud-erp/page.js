@@ -4,7 +4,6 @@ import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
-import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 
@@ -81,14 +80,14 @@ const growLatestServices = [
     image: "/images/industry/manufacturing/streamlined-shop-floor-operations.webp",
     title: "Streamlined Shop Floor Operations",
     description: "Take complete control of your shop floor with Shop Floor Management Software designed for real-time tracking and optimization. This helps you to better manage your staff while ensuring balanced resource allocation for production. ",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li>Workflow automation </li> <li>Real-time machine tracking</li> <li>Quality control metrics</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li className="font-medium">Workflow automation </li> <li className="font-medium">Real-time machine tracking</li> <li className="font-medium">Quality control metrics</li></ul>)
   },
   {
     id: 4,
     image: "/images/industry/manufacturing/advanced-production-with-sap-manufacturing-software.webp",
     title: "Advanced Production with SAP Manufacturing Software",
     description: "Harness the power of SAP Manufacturing Software to enhance every aspect of your manufacturing process, from design to delivery. Considering the production lifecycle and often complex systems in this industry, these are efficiencies you cannot miss out on improving. ",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li>Production cycle analytics </li> <li>Integrated supply chain management</li> <li>Real-time quality assessment</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li className="font-medium">Production cycle analytics </li> <li className="font-medium">Integrated supply chain management</li> <li className="font-medium">Real-time quality assessment</li></ul>)
   },
 ];
 
@@ -118,7 +117,7 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
   return (
     <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
-      <h2 className="pb-10 text-black">Optimize with Manufacturing Mobility Solution</h2>
+      <h2 className="text-black">Optimize with Manufacturing Mobility Solution</h2>
       <p className="md:pb-40 pb-20">Break the chains of traditional manufacturing limitations and go mobile with our Manufacturing Mobility Solutions. Your leadership, stakeholders, and management team members need direct access to all operations around the clock from the power of their tablets, smartphones, and other mobile connections.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 lg:gap-28">
         {growLatestServices.map((services) => (
@@ -311,7 +310,7 @@ export default function Page() {
       </div>
 
       {/* Latest Blogs */}
-      < div
+      {/* < div
         className="
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
@@ -323,7 +322,7 @@ export default function Page() {
       >
         <InsightsCarousel />
 
-      </div >
+      </div > */}
 
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
@@ -344,14 +343,14 @@ export default function Page() {
 
       {/* Contact Form */}
       < div
-        className="
+        className="py-20
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6
+  text-black
   lg:pr-0 pr-6"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
