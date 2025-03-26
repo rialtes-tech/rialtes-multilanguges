@@ -1,0 +1,264 @@
+"use client";
+// pages/case-study-detail.js
+import Head from "next/head";
+import Image from "next/image";
+import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+
+const slides = [
+    /* {
+      id: 1,
+      image: "/images/case-studies/case-study-1_thumb.webp",
+      category: "Manufacturing",
+      industry: "Retail & e-Commerce",
+      date: "8 Jan 2025",
+      title: "Streamlined DevOps using Copado and Salesforce",
+      description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+    }, */
+    {
+        id: 2,
+        image: "/images/case-studies/case-study-2_thumb.webp",
+        category: "Real Estate",
+        industry: "Hi-tech",
+        date: "22 Dec 2024",
+        title: "RealForce Banking Module - ACH",
+        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    },
+    {
+        id: 3,
+        image: "/images/case-studies/case-study-3_thumb.webp",
+        category: "Healthcare",
+        industry: "Real Estate",
+        date: "17 Nov 2024",
+        title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        description: "A global medical technology company that develops and manufactures innovative products",
+    },
+    {
+        id: 4,
+        image: "/images/case-studies/case-study-4_thumb.webp",
+        category: "Real Estate",
+        industry: "Healthcare",
+        date: "14 Oct 2024",
+        title: "Omnichannel case management with Salesforce Service Cloud",
+        description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+    },
+    {
+        id: 5,
+        image: "/images/case-studies/case-study-5_thumb.webp",
+        category: "Public Sector",
+        industry: "Finance",
+        date: "27 Sept 2024",
+        title: "A public housing in US",
+        description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
+    },
+    {
+        id: 6,
+        image: "/images/case-studies/case-study-6_thumb.webp",
+        category: "Healthcare",
+        industry: "Manufacturing",
+        date: "4 Sept 2024",
+        title: "Yardi Managed Services",
+        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    },
+    {
+        id: 7,
+        image: "/images/case-studies/case-study-7_thumb.webp",
+        category: "SAP",
+        industry: "Retail & e-Commerce",
+        date: "25 Oct 2024",
+        title: "Streamlined DevOps using Copado and Salesforce",
+        description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+    },
+    {
+        id: 8,
+        image: "/images/case-studies/case-study-8_thumb.webp",
+        category: "Salesforce",
+        industry: "Hi-tech",
+        date: "25 Oct 2024",
+        title: "RealForce Banking Module - ACH",
+        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    },
+    // Add more blog objects as needed
+];
+
+
+export default function Page() {
+    return (
+        <div className="min-h-screen bg-white">
+            <Head>
+                <title>Streamlined DevOps using Copado and Salesforce | Company Name</title>
+                <meta name="description" content="About our company" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
+            <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+                <Image
+                    src="/images/case-studies/sales cloud case study.webp "
+                    alt="Streamlined DevOps using Copado and Salesforce"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "90% 20%" }}
+                    priority
+                />
+            </section>
+
+            <section
+                className="
+        container
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+            >
+
+                <div className="py-10 bg-white">
+                    <div className="container mx-auto">
+                        <h1 className="text-[#000000] py-6 max-w-4xl">Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company</h1>
+                    </div>
+                    <div className="py-4"></div>
+                    <div className="container mx-auto">
+                        <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+                            <div className='pb-6'>
+                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>26 Mar 2025
+                            </div>
+                            <div className="flex flex-col">
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                        <div className="pt-4"></div>
+                        <div className="flex flex-row gap-6 ">
+                            <div className="max-w-[40px]">
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-3&title=Streamlined DevOps using Copado and Salesforce&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
+                                    <Image
+                                        src="/images/case-studies/linkedin.svg"
+                                        alt="LinkedIn"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                            <div className="max-w-[40px]">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-3">
+                                    <Image
+                                        src="/images/case-studies/facebook.svg"
+                                        alt="Facebook"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                            <div className="max-w-[40px]">
+                                <a href="https://twitter.com/intent/tweet?url=/case-study-3&text=Streamlined DevOps using Copado and Salesforce">
+                                    <Image
+                                        src="/images/case-studies/twitter.svg"
+                                        alt="Twitter"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="py-6"></div>
+                    <div className="container mx-auto">
+                        <div className="max-w-4xl">
+
+
+                            <h3 className="h3-bold text-[#0092E0] pb-6">Client Overview</h3>
+                            <p className="text-black">The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. Their sales team comprises engineers who handle sales and technical specifications to meet customer needs. The complexity of the sales process requires a robust solution to maximize sales output, enhance customer engagement, and integrate seamlessly with existing ERP systems. </p>
+                            <div className="py-6"></div>
+                            <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
+                            <h6 className="h3-bold text-[#0092E0] text-sm">Complex Sales Process</h6>
+                            <p className="text-black pb-6 mt-2">Since every product is custom designed, the sales team needs a structured approach to track project details and customer requirements and ensure smooth communication between sales, design, and production teams. The absence of a structured workflow leads to inefficiencies and delays in finalizing sales contracts</p>
+
+                            <h6 className="h3-bold text-[#0092E0] text-sm ">Lack of a Customer Engagement System</h6>
+
+                            <p className="text-black pb-6 mt-2">With multiple ongoing projects and unique specifications for each client, the company faces challenges in maintaining a complete historical record of requirements, preferences, and past communications. This leads to misalignment between sales and engineering teams, delayed responses to customer inquiries, and difficulty in personalizing sales approaches, ultimately affecting customer satisfaction.</p>
+
+                            <h6 className="h3-bold text-[#0092E0]  text-sm">Financial Tracking</h6>
+
+                            <p className="text-black pb-6 mt-2">Managing budgets, order history, and invoices across multiple projects and subsidiaries is demanding. Without an integrated financial tracking system, sales teams can have difficulty monitoring payment schedules, outstanding invoices, and budget adherence. This can occasionally result in revenue leakage and inefficiencies in financial management.</p>
+
+                            <h6 className="h3-bold text-[#0092E0] text-sm">Salesforce-SAP Integration</h6>
+
+                            <p className="text-black mt-2">The company uses SAP for backend project management but requires the sales team to access project progress in real time without exposing sensitive ERP data. </p>
+                            <p className="text-black">The absence of Salesforce integration may cause delays, miscommunication, and increased manual data entry, heightening the risk of errors. A seamless flow from design approval to production is needed.</p>
+                            <h6 className="h3-bold text-[#0092E0] text-sm mt-5">Unified Platform Across Subsidiaries</h6>
+                            <p className="text-black mt-2">The organization operates across multiple countries, each with different workflows and reporting structures. A lack of a unified system means subsidiaries work with their own processes, making it difficult to standardize processes, share data, and collaborate efficiently on global projects.</p>
+                            <h6 className="h3-bold text-[#0092E0]  text-sm mt-5">Limited Language and Localization Support</h6>
+                            <p className="text-black mt-2">With operations spanning multiple regions, sales teams combat language barriers, regional compliance variations, and inconsistent customer interactions. The absence of a system that supports multiple languages and currencies hinders seamless customer service and global sales alignment.</p>
+
+
+                            <div className="py-6"></div>
+                            <h3 className="h3-bold text-[#0092E0] pb-6">Salesforce Implementation and Solutions </h3>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Maximizing Sales Output</h6>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+
+                                <li className="pb-4 text-black">Implement Salesforce Sales Cloud to automate lead qualification and opportunity management </li>
+                                <li className="pb-4 text-black">Using AI-driven analytics to identify high-potential leads and reduce sales cycle times.</li>
+                                <li className="pb-4 text-black">Implementing automated lead tracking and AI-driven recommendations can boost sales team productivity by 30%, reducing the average sales cycle from 45 days to 30 days and enabling faster deal closures. </li>
+                                <li className="pb-4 text-black">A well-defined workflow increases sales cycle efficiency by 30-40%, while a centralized CRM enhances customer satisfaction through improved tracking and personalized interactions. </li>
+                                <li className="pb-4 text-black">Enabling engineers to configure complex quotes with Salesforce CPQ (Configure, Price, Quote), ensuring accurate pricing and quick approvals.</li>
+                            </ul>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Improving Customer Engagement</h6>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                                <li className="pb-4 text-black">Deploying Salesforce Customer 360 using Salesforce Sales Cloud, allowing sales engineers to track every customer interaction, past projects, and service history.</li>
+                                <li className="pb-4 text-black">Integrating Salesforce with email and communication platforms to simplify follow-ups and maintain a structured communication flow.</li>
+                                <li className="pb-4 text-black">Leveraging Einstein AI for personalized recommendations and proactive engagement with customers</li>
+                            </ul>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Salesforce-SAP Integration for Seamless Workflow</h6>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                                <li className="pb-4 text-black">Integrating Sales Cloud with SAP ERP to enable seamless data flow from project design to manufacturing without direct ERP exposure.</li>
+                                <li className="pb-4 text-black">Seamless SAP integration cuts order processing time by 25%, allowing production to begin within 48 hours of design approval and ensuring smooth project execution.</li>
+                                <li className="pb-4 text-black">Creating a bridge between Salesforce and SAP PS (Project Systems), ensuring that approved designs move automatically into production planning.</li>
+                                <li className="pb-4 text-black">Bidirectional Data Sync to ensure engineers and manufacturing teams work with real-time data without directly accessing ERP.</li>
+
+                            </ul>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Managing Budgets, Order History, and Invoices</h6>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                                <li className="pb-4 text-black">Implementing Sales Cloud with Financial Management Tools, enabling real-time tracking of budgets and financial transactions.</li>
+                                <li className="pb-4 text-black">Additionally, real-time financial tracking minimizes invoicing errors and revenue leakage by 15%, improving budgeting accuracy and cash flow management. A unified Salesforce platform supports scalability for global growth while enabling subsidiaries to maintain localized sales strategies.</li>
+                                <li className="pb-4 text-black">Automated invoicing and order tracking, reducing manual errors and improving financial transparency.</li>
+                                <li className="pb-4 text-black">Dashboards for sales and finance teams to monitor revenue, pending payments, and forecasting.</li>
+                            </ul>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Creating a Single Platform for All Subsidiaries</h6>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                                <li className="pb-4 text-black">Standardizing the sales process across multiple global subsidiaries using a single Salesforce instance.</li>
+                                <li className="pb-4 text-black">Centralizing Data Repository for consistency across all subsidiaries.</li>
+                            </ul>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Support for Multi-Language and Localization </h6>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                                <li className="pb-4 text-black">Implementing multi-language and multi-currency support to accommodate regional sales teams and customers.</li>
+                                <li className="pb-4 text-black">Automated Translation Tools to enhance internal and external communication across language barriers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Latest Blogs */}
+            <div
+                className="py-20
+        container
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+            >
+                <RelatedTopicsCarousel slides={slides} />
+
+            </div>
+        </div>
+    );
+}
