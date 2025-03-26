@@ -4,6 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import { useState } from "react";
+import LearnMore from "@/app/components/learnMore";
+import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 
 
 
@@ -58,6 +60,7 @@ const Services = () => {
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
         ))}
+        <LearnMore/>
       </div>
     </div>
   );
@@ -116,7 +119,7 @@ const growLatestServices = [
 ];
 
 const GrowServicesCard = ({ services }) => (
-  <div className="w-full h-full flex flex-col">
+  <div className=" h-full flex flex-col">
     <div className="relative overflow-hidden">
       <Image
         className="w-full transition-transform duration-300 hover:scale-105"
@@ -146,6 +149,7 @@ const GrowServicesCard = ({ services }) => (
         )
       })}
     </ul>
+    <LearnMore className="w-[30%]"/>
   </div>
 );
 
@@ -159,6 +163,7 @@ const GrowServices = () => {
           <GrowServicesCard key={services.id} services={services} />
         ))}
       </div>
+      
     </div>
   );
 };
@@ -217,7 +222,7 @@ export default function Page() {
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row py-6 gap-20">
               <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4 ">
-                <h2 className="text-black md:pb-0 pb-4">Affordable property management software for your real estate operations</h2>
+                <h1 className="text-black md:pb-0 pb-4">Affordable property management software for your real estate operations</h1>
               </div>
               <div className="flex flex-col w-full">
                 <p className="text-[#000000]">The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
@@ -300,7 +305,20 @@ export default function Page() {
      
      
     
+ < div className="bg-[#808080] py-6" >
+        <div
+          className="
+        container
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+        >
+          <ExploreMoreCarousel />
 
+        </div>
+      </div >
       {/* Contact Form */}
       < div
         className="mb-20 mt-20

@@ -177,9 +177,9 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col xl:flex-row py-6">
+            <div className="flex flex-col xl:flex-row py-6 gap-32">
               <div className="flex flex-col w-full xl:max-w-xl xl:mr-10 xl:mb-0 mb-4">
-                <h1 className="text-black md:pb-0 pb-4 xl:text-[50px]">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
+                <h1 className="text-black md:pb-0 pb-4 xl:text-[45px]">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
               </div>
               <div className="flex flex-col w-full xl:max-w-xl">
                 <p className="text-[#000000]">You engineer and manufacture complex products to make consumers’ lives easier. From semiconductor production to biotech technology design, we make hi-tech industry processes simple and seamless with customizable technology solutions. Our experienced team understands the unique challenges hi-tech industries face, from supply chain volatility to evolving customer demands.</p>
@@ -227,7 +227,7 @@ export default function Page() {
 
     
 
-      {/* Latest Customer Success Stories */}
+      {/* Latest Customer Success Stories
       < div className="bg-[#F5F5F5] py-6" >
         <div
           className="
@@ -241,10 +241,10 @@ export default function Page() {
           <FeaturedCarousel />
 
         </div>
-      </div>
+      </div> */}
 
       {/* Latest Blogs */}
-      < div
+      {/* < div
         className="
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
@@ -256,7 +256,7 @@ export default function Page() {
       >
         <InsightsCarousel />
 
-      </div >
+      </div > */}
 
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
@@ -277,14 +277,14 @@ export default function Page() {
 
       {/* Contact Form */}
       < div
-        className="
+        className="py-20
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6
+  text-black
   lg:pr-0 pr-6"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
