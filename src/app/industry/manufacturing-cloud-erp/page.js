@@ -3,7 +3,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
+import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 
@@ -37,6 +37,33 @@ const latestServices = [
   },
 ];
 
+
+const slides = [
+  {
+    id: 1,
+    imgSrc: "/images/case-studies/case-study-4_thumb.webp",
+    title: "Omnichannel case management with Salesforce Service Cloud",
+    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+    url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
+  },
+  {
+    id: 2,
+    url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
+    imgSrc: "/images/case-studies/sales cloud case study thumb copy.webp",
+    title: "Optimizing Sales Processes with Salesforce SalesCloud for a Manufacturing Company",
+    description: "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific",
+  },
+  {
+    id: 3,
+    url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+    imgSrc: "/images/case-studies/case-study-1_thumb.webp",
+    title: "Streamlined DevOps using Copado and Salesforce",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+  },
+  
+
+   
+];
 const ServicesCard = ({ services }) => (
   <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
@@ -114,7 +141,7 @@ const GrowServicesCard = ({ services }) => (
   </div>
 );
 
-const GrowServices = () => {
+const GrowServices = () => { 
   return (
     <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
       <h2 className="text-black">Optimize with Manufacturing Mobility Solution</h2>
@@ -304,26 +331,12 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <FeaturedCarousel />
+          <CaseStudyIndivisual slides={slides} />
 
         </div>
       </div>
 
-      {/* Latest Blogs */}
-      {/* < div
-        className="
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  py-10"
-      >
-        <InsightsCarousel />
-
-      </div > */}
-
+    
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
         <div

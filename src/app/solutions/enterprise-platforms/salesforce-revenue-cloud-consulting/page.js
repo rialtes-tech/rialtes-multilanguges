@@ -6,6 +6,7 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import Link from "next/link";
+import LearnMore from "@/app/components/learnMore";
 
 
 export default function HealthCloud() {
@@ -143,7 +144,7 @@ export default function HealthCloud() {
                 />
             </section>
 
-            <section className="lg:mt-20 px-6 xl:px-[280px] md:px-[100px] mt-10">
+            <section className="lg:mt-20 px-6 xl:px-[280px] md:px-[100px] mt-10 pb-10">
                 <h2>Streamline your Quote-to-Cash Process</h2>
                 <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 lg:mt-10 gap-5">
                     {salesForce.map((sales) => {
@@ -182,9 +183,7 @@ export default function HealthCloud() {
                             )
                         })}
                     </div>
-                    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                        <Link href=''>Learn More</Link>
-                    </button>
+                    <LearnMore />
                 </div>
             </section>
 
@@ -233,18 +232,18 @@ export default function HealthCloud() {
 
 
             <div
-              className="mt-20 mb-20
+                className="mt-20 mb-20
                                ml-[15px] w-[calc(100%-15px)] mr-0
                                xl:ml-[280px] xl:w-[calc(100%-280px)]
                                md:ml-[100px] md:w-[calc(100%-100px)]
                                sm:mx-5 sm:w-[calc(100%-40px)]
                                xs:mx-4 xs:w-[calc(100%-32px)]"
             >
-              <ServicesBlogs slides={slides} />
-      
+                <ServicesBlogs slides={slides} />
+
             </div>
 
-            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10'>
+            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">

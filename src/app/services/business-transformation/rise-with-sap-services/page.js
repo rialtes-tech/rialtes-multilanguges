@@ -7,6 +7,7 @@ import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
+import LearnMore from "@/app/components/learnMore";
 
 const latestServices = [
   {
@@ -52,6 +53,7 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
+      <LearnMore/>
     </div>
   );
 };
@@ -311,6 +313,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
+            <LearnMore/>
           </div>
         </section>
       </div>

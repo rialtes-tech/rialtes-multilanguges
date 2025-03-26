@@ -2,11 +2,9 @@
 // pages/success-factors.js
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import Link from "next/link";
 import ServicesBlogs from '../../../components/servicesBlogs';
 import LearnMore from "@/app/components/learnMore";
 
