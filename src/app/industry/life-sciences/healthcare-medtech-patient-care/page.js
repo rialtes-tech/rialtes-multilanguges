@@ -3,12 +3,36 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
-import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
+import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 
+
+const slidesCaseStudy = [
+  {
+    id: 1,
+    url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+    imgSrc: "/images/case-studies/case-study-7_thumb.webp",
+    title: "Digitizing patient journey using Salesforce health cloud",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+  },
+  {
+    id: 2,
+    url: "/insights/case-studies/salesforce-health-cloud-prior-authorization",
+    imgSrc: "/images/case-studies/case-study-8_thumb.webp",
+    title: "Salesforce Health Cloud, Prior Authorization",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+  },
+  {
+    id: 3,
+    url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+    imgSrc: "/images/case-studies/case-study-3_thumb.webp",
+    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+    description: "A global medical technology company that develops and manufactures innovative products.",
+  },
+];
 
 
 const latestServices = [
@@ -281,7 +305,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <FeaturedCarousel />
+           <CaseStudyIndivisual slides={slidesCaseStudy} />
 
         </div>
       </div>

@@ -8,6 +8,7 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import Link from "next/link";
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
+import LearnMore from "@/app/components/learnMore";
 
 
 const latestServices = [
@@ -56,9 +57,7 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
-      <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-        <Link href=''>Learn More</Link>
-      </button>
+     <LearnMore/>
     </div>
   );
 };
@@ -113,10 +112,8 @@ const GrowServicesCard = ({ services }) => (
     <div className="flex flex-col pt-4">
       <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
     </div>
-    <p className='md:mb-[15px] mb-10'>{services.description}</p>
-    <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-      <Link href=''>Learn More</Link>
-    </button>
+    <p className='md:mb-[15px]'>{services.description}</p>
+   <LearnMore/>
   </div>
 );
 
@@ -124,7 +121,7 @@ const GrowServices = () => {
   return (
     <div className="container mx-auto text-black lg:pr-20 md:pr-10 pr-6">
       <h2 className="pb-10 text-black">Fuel Your Growth with GROW with SAP</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 lg:gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 pb-10">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
         ))}
@@ -238,7 +235,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
+        <section className="xl:py-16 bg-white">
           <GrowServices />
         </section>
       </div>
@@ -381,7 +378,7 @@ export default function Page() {
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black py-20"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
 

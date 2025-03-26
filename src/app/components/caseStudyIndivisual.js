@@ -5,60 +5,8 @@ import Link from "next/link";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 
-export default function servicesFeaturedCarousel() {
-  const slides = [
-    {
-      id: 1,
-      url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-      imgSrc: "/images/insights/manufacturing-case-study.webp",
-      title: "Streamlined DevOps using Copado and Salesforce",
-      description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    },
-    {
-      id: 2,
-      url: "/insights/case-studies/realForce-banking-module-ach",
-      imgSrc: "/images/insights/real-estate-case-study.webp",
-      title: "RealForce Banking Module - ACH",
-      description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    },
-    {
-      id: 3,
-      url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      imgSrc: "/images/insights/healthcare-case-study-2.webp",
-      title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-      description: "A global medical technology company that develops and manufactures innovative products",
-    },
-    /*{
-      id: 4,
-      imgSrc: "/images/case-studies/case-study-4_thumb.webp",
-      title: "Omnichannel case management with Salesforce Service Cloud",
-      description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-    },
-     {
-      id: 5,
-      imgSrc: "/images/case-studies/case-study-5_thumb.webp",
-      title: "A public housing in US",
-      description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
-    },
-    {
-      id: 6,
-      imgSrc: "/images/case-studies/case-study-6_thumb.webp",
-      title: "Yardi Managed Services",
-      description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    },
-    {
-      id: 7,
-      imgSrc: "/images/case-studies/case-study-7_thumb.webp",
-      title: "Streamlined DevOps using Copado and Salesforce",
-      description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    },
-    {
-      id: 8,
-      imgSrc: "/images/case-studies/case-study-8_thumb.webp",
-      title: "RealForce Banking Module - ACH",
-      description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    }, */
-  ];
+export default function servicesFeaturedCarousel({ slides }) {
+  
 
   const responsive = {
     desktop: {
@@ -145,7 +93,7 @@ export default function servicesFeaturedCarousel() {
           {slides.map((slide) => (
             <div key={slide.id} className="flex sm:flex-row flex-col basis-full xl:mr-12 sm:mr-6 mr-0 group">
               <div className="basis-full sm:basis-2/3 lg:basis-4/3">
-                <Link href={slide.url}>
+                <Link href={slide?.url}>
                   <Image
                     src={slide.imgSrc}
                     alt={slide.title}
@@ -158,9 +106,9 @@ export default function servicesFeaturedCarousel() {
                 </Link>
               </div>
               <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-6">
-                <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
+                <Link href={slide?.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
                 <p className="pb-6">{slide.description}</p>
-                <Link href={slide.url} className="font-medium text-[#0092E0]">Know More</Link>
+                <Link href={slide?.url} className="font-medium text-[#0092E0]">Know More</Link>
               </div>
             </div>
           ))}

@@ -3,11 +3,28 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
+import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
+const slides = [
+  {
+    id: 1,
+    imgSrc: "/images/case-studies/case-study-2_thumb.webp",
+    title: "RealForce Banking Module - ACH",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: "/insights/case-studies/realForce-banking-module-ach",
+  },
+  {
+    id: 2,
+    url: "/insights/case-studies/yardi-managed-services",
+    imgSrc: "/images/case-studies/case-study-6_thumb.webp",
+    title: "Yardi Managed Services",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+  },
+  
 
-
+   
+];
 
 const latestServices = [
   {
@@ -119,7 +136,7 @@ const growLatestServices = [
 ];
 
 const GrowServicesCard = ({ services }) => (
-  <div className=" h-full flex flex-col">
+  <div className=" h-full">
     <div className="relative overflow-hidden">
       <Image
         className="w-full transition-transform duration-300 hover:scale-105"
@@ -155,7 +172,7 @@ const GrowServicesCard = ({ services }) => (
 
 const GrowServices = () => {
   return (
-    <div className="container mx-auto text-black lg:pr-20 md:pr-10 pr-6 ">
+    <div className="text-black lg:pr-20 md:pr-10 pr-6 ">
       <h2 className="pb-10 text-black xl:w-1/2 w-fill">Enhance your real estate operations with our customizable service offerings</h2>
       <p className="xl:w-1/2 w-full">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
@@ -301,7 +318,20 @@ export default function Page() {
         </section>
       </div>
 
+< div className="bg-[#F5F5F5] py-6" >
+        <div
+          className="
+        container
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
+        >
+          <CaseStudyIndivisual slides={slides} />
 
+        </div>
+      </div>
      
      
     

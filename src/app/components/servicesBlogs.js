@@ -6,12 +6,11 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 
 export default function ServicesBlogs({ slides, padding }) {
-  // If no slides are passed, return null or any fallback UI you prefer
   if (!slides || slides.length === 0) {
-    return null; // or you can return a message like "No blogs available."
+    return null; 
   }
 
-  const responsive = {
+  const responsive = { 
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4,
@@ -32,7 +31,6 @@ export default function ServicesBlogs({ slides, padding }) {
 
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
-    // Check if the number of blogs is greater than 4 to show navigation buttons
     const showNavigation = slides.length > 4;
 
     return (

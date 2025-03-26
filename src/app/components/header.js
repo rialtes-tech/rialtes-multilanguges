@@ -330,7 +330,7 @@ const Header = () => {
           />
           <MenuItem
             label="Services"
-            link="/services"
+            link="/"
             onHover={() => handleMouseEnterCard(3)}
             onClick={() => handleMenuClick(3)}
             className={`xl:font-bold font-normal ${activeMenu === 2 ? 'text-[#0092E0]' : ''}`}
@@ -901,8 +901,7 @@ const Header = () => {
                           <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="SAP Ariba " link="/services/spend-management/sapbuyplus-ariba-implementation-services
-" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="SAP Ariba " link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                     </div>
@@ -925,7 +924,7 @@ const Header = () => {
                           <MenuItem className="font-bold text-[#2f78c4]" label="Success+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-services" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={handleLinkClick} onHover={() => { }} />
                         </div>
                       </div>
                     </div>

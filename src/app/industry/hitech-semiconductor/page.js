@@ -3,8 +3,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
-import InsightsCarousel from '../../components/servicesInsightsCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 

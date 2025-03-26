@@ -2,6 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
+import LearnMore from "@/app/components/learnMore";
 
 
 
@@ -61,6 +62,7 @@ const Services2 = () => {
                     <ServicesCard key={services.id} services={services} />
                 ))}
             </div>
+            <LearnMore/>
         </div>
     );
 };
@@ -127,7 +129,7 @@ export default function Page() {
                     <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
                         <div className="flex flex-col xl:flex-row py-6 xl:gap-32">
                             <div className="flex flex-col w-full xl:max-w-lg xl:mb-0 mb-4">
-                                <h2 className="text-black md:pb-0 pb-4">Digitally Transform Your Ariba Experience with Strategic SAP Solutions</h2>
+                                <h1 className="text-black md:pb-0 pb-4">Digitally Transform Your Ariba Experience with Strategic SAP Solutions</h1>
                             </div>
                             <div className="flex flex-col w-full">
                                 <p className="text-[#000000]">As an SAP Global Strategic Services Partner, we provide a comprehensive range of services, from strategic consulting to implementation and ongoing support. From initial consultation to the implementation of SAP Ariba solutions, we are your digital transformation partners, ready to reinvent your procurement operations, decision-making, and contract management processes.</p>
@@ -264,8 +266,7 @@ export default function Page() {
                     <section className="py-8">
                         <div className="container mx-auto">
                             <h2 className="pb-8 text-black xl:w-[60%] w-full">Digitalize your Sourcing, Purchasing & Procurement</h2>
-                            <p className="py-10">Digitalize your Sourcing, Purchasing & Procurement</p>
-                            <div className="grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-20 mt-10">
+                            <div className="grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-20 mt-5">
                                     <div className="flex flex-col">
                                         <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">15%</h2>
                                         <p className="text-black">Savings on procurement costs through strategic sourcing.</p>
