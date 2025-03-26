@@ -29,6 +29,9 @@ body {
   margin-left: 0 !important;
 }
 
+.thank-you-bg{
+  background-image: url('../../public/images/homepage/logoback.webp');
+}
 .containerr {
   width: 100%;
   margin: 0 auto;
@@ -138,7 +141,7 @@ body {
     width: 100%;
     z-index: 1;
     text-align: left !important;
-    padding-left: 28px !important;
+    padding-left: 85px !important;
     /* top: 6rem; */
   }
 }
