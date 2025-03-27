@@ -1,5 +1,4 @@
 "use client";
-// pages/case-study.js
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +14,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "26 Mar 2025",
     url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
-    title: "Optimizing Sales Processes with Salesforce SalesCloud for a Manufacturing Company",
+    title: "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
     description: "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. ",
   },
   {

@@ -102,8 +102,8 @@ const Footer = () => {
                     <div>
                         <div>
                             <p><Link href="/sitemap">Sitemap</Link></p>
-                            <p className="mt-3"><Link href="/terms">Terms of use</Link></p>
-                            <p className="mt-3"><Link href="/privacy">Privacy Notice</Link></p>
+                            <p className="mt-3"><Link href="/terms-of-use">Terms of use</Link></p>
+                            <p className="mt-3"><Link href="/privacy-policy">Privacy Notice</Link></p>
                             <p className="mt-3"><Link href="/cookie">Cookie Notice</Link></p>
                         </div>
                     </div>

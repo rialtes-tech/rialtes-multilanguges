@@ -134,7 +134,6 @@ export default function DataCloud() {
           fill
           style={{ objectFit: "cover" }}
           priority
-          className="object-left"
         />
         <div
           className="
@@ -145,15 +144,15 @@ export default function DataCloud() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center xl:items-end items-center">
-            <div className="w-full lg:w-4/5 xl:w-1/2 xl:text-black text-white mt-20">
+          <div className="container mx-auto h-full flex flex-col justify-center xl:items-end ml-[60px] xl:ml-0">
+            <div className="w-full lg:w-4/5 xl:w-1/2 text-black mt-20">
               <h3 className=" text-[300] font-medium mb-2 text-left">
                 Data Cloud
               </h3>
               <h1>
                 Harness the Potential of Salesforce Data Cloud
               </h1>
-              <h3>
+              <h3 className="xl:block hidden">
                 Drive automation, predictive, and generative AI, as well as
                 analytics, within the world’s leading AI-powered CRM
               </h3>
