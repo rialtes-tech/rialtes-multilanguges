@@ -525,7 +525,7 @@ const Home = () => {
               return (
                 <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}>
                   <div
-                    className={`group hover:bg-white transition-all duration-300 xl:h-[400px] relative xl:p-10 md:p-2 p-3`}
+                    className={`group hover:bg-white transition-all duration-300 xl:h-[300px] relative xl:p-10 md:p-2 p-3`}
                   >
                     <h3 className="font-bold">{industry.title}</h3>
                     <p className="mt-3 text-[15px]">{industry.description}</p>

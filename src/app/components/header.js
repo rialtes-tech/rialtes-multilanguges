@@ -25,9 +25,8 @@ const Header = () => {
   const [openSectionbusiness, setOpenSectionBusiness] = useState("businessTransform");
   const [openSectionSolution, setOpenSectionSolution] = useState("dataAI");
   const [openSectionProduct, setOpenSectionProduct] = useState("rialchat");
-
-
-
+  const [activeLink, setActiveLink] = useState(null); // Track active link
+  const [activeSubLink, setActiveSubLink] = useState(null);
 
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
@@ -75,9 +74,14 @@ const Header = () => {
   };
 
   const handleLinkClick = () => {
-    setActiveCard(null);  // Close the card
-  };
+    setActiveLink(null);  // Close the card
+    onMenuItemClick(); // Call the menu item click handler passed as prop
 
+  };
+  const handleSubLinkClick = (label) => {
+    setActiveSubLink(label); // Set the submenu link as active
+    onMenuItemClick(); // Call the menu item click handler passed as prop
+  };
 
 
 
@@ -100,13 +104,13 @@ const Header = () => {
             { label: 'SAP Ariba', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
             { label: 'Revenue Cloud', href: '/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' },
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'SAP Successfactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
+            { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
           ],
         },
         {
           label: 'Integration', href: '/',
           subLinks: [
-            { label: 'Mulesoft', href: '/solutions/integration/mulesoft-salesforce' },
+            { label: 'MuleSoft', href: '/solutions/integration/mulesoft-salesforce' },
 
           ],
         },
@@ -140,20 +144,16 @@ const Header = () => {
             { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
           ],
         },
-        {
-          label: 'LOB Services', href: '/',
-          subLinks: [
-            { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },],
-        },
+
         {
           label: 'Spend Management', href: '/',
           subLinks: [
-            { label: 'For ARIBA Implementation', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
+            { label: 'Ariba Implementation', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
         },
         {
           label: 'HXM Transformation', href: '/',
           subLinks: [
-            { label: 'For SuccessFactor Implementation', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },],
+            { label: 'SuccessFactors Implementation', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },],
         },
 
       ],
@@ -169,45 +169,30 @@ const Header = () => {
           subLinks: [
             { label: 'Healthcare', href: '/industry/life-sciences/healthcare-medtech-patient-care' },
           ],
-
         },
         {
           label: 'Hi-Tech', href: '/industry/hitech-semiconductor',
-
         },
         {
           label: 'Manufacturing', href: '/industry/manufacturing-cloud-erp',
-
         },
 
       ],
     },
     {
-      label: 'About Us',
+      label: 'About Us', href: '/about-us',
       links: [
-        {
-          label: 'About Rialtes: Innovating with Impact', href: '/about-us',
-          subLinks: [
             { label: 'Leadership', href: '/about-us/leadership' },
             { label: 'Contact Us', href: '/contact-us' },
             { label: 'Partnership', href: '/about-us/global-alliences' },
-          ],
-
-        }
       ],
     },
     {
-      label: 'Insights',
+      label: 'Insights', href: '/insights',
       links: [
-        {
-          label: 'Insights', href: '/insights',
-          subLinks: [
             { label: 'Blogs', href: '/insights/blogs' },
-            { label: 'Webinar', href: '/insights/webinars' },
+            // { label: 'Webinar', href: '/insights/webinars' },
             { label: 'Case Studies', href: '/insights/case-studies' },
-          ],
-
-        }
       ],
     },
     {
@@ -222,70 +207,82 @@ const Header = () => {
   const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub, onMenuItemClick }) => {
     return (
       <li className="py-2">
-        <button onClick={onToggle} className="w-full text-left flex justify-between items-center">
-          <h4 className={`text-sm ${expanded ? 'text-[#0092E0]' : ''}`}>
-            {label}
-          </h4>
-          <span>
-            {expanded ? (
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                <path d="M6 9l6 6 6-6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                <path d="M9 6l6 6-6 6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            )}
-          </span>
-        </button>
-        {expanded && (
-          <div className="pt-2 text-gray-600">
-            {links.map((link, idx) => (
-              <div key={idx} className="pb-2 pt-2">
-                {link.subLinks ? (
-                  <>
-                    <button
-                      onClick={() => toggleSubAccordion(link.label)} // Toggle sub-menu for the link
-                      className="w-full text-left flex justify-between items-center"
+      <button onClick={onToggle} className="w-full text-left flex justify-between items-center">
+        <h4 className={`text-sm ${expanded ? 'text-[#0092E0]' : ''}`}>
+          {label}
+        </h4>
+        <span>
+          {expanded ? (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
+              <path d="M6 9l6 6 6-6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
+              <path d="M9 6l6 6-6 6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          )}
+        </span>
+      </button>
+
+      {expanded && (
+        <div className="pt-2 text-gray-600">
+          {links.map((link, idx) => (
+            <div key={idx} className="pb-2 pt-2">
+              {link.subLinks ? (
+                <>
+                  <button
+                    onClick={() => toggleSubAccordion(link.label)} // Toggle sub-menu for the link
+                    className="w-full text-left flex justify-between items-center"
+                  >
+                    <h4
+                      className={`text-sm cursor-pointer ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-black'}`}
+                      onClick={() => handleLinkClick(link.label)} // Handle active state change for submenu
                     >
-                      <h4 className={`text-sm ${expandedSub ? 'text-[#0092E0]' : ''}`}>{link.label}</h4>
-                      <span>
-                        {expandedSub === link.label ?
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                            <path d="M6 9l6 6 6-6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                          </svg>
-                          :
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                            <path d="M9 6l6 6-6 6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                          </svg>
-                        }
-                      </span>
-                    </button>
-                    {expandedSub === link.label && (
-                      <div className="pt-2 text-gray-600">
-                        {link.subLinks.map((subLink, subIdx) => (
-                          <div key={subIdx} className="border-b-[2px] pb-2 pt-2">
-                            <Link
-                              href={subLink.href}
-                              onClick={onMenuItemClick}
-                            >
-                              <h5 className="text-sm">{subLink.label}</h5>
-                            </Link>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </>
-                ) : (
-                  <Link href={link.href} onClick={onMenuItemClick} className="text-[#505050] hover:text-[#05B1FD] cursor-pointer">
-                    <h5>{link.label}</h5>
-                  </Link>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
-      </li>
+                      {link.label}
+                    </h4>
+                    <span>
+                      {expandedSub === link.label ? (
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
+                          <path d="M6 9l6 6 6-6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      ) : (
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
+                          <path d="M9 6l6 6-6 6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      )}
+                    </span>
+                  </button>
+
+                  {expandedSub === link.label && (
+                    <div className="pt-2 text-gray-600">
+                      {link.subLinks.map((subLink, subIdx) => (
+                        <div key={subIdx} className="border-b-[2px] pb-2 pt-2">
+                          <Link
+                            href={subLink.href}
+                            onClick={() => handleSubLinkClick(subLink.label)} // Track active sublink
+                            className={`text-sm ${activeSubLink === subLink.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
+                          >
+                            <h5>{subLink.label}</h5>
+                          </Link>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </>
+              ) : (
+                <Link
+                  href={link.href}
+                  onClick={() => handleLinkClick(link.label)} // Track active link
+                  className={`text-sm ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
+                >
+                  <h5>{link.label}</h5>
+                </Link>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </li>
     );
   };
   return (
@@ -361,7 +358,7 @@ const Header = () => {
             link="/contact-us"
             className={`xl:font-bold font-normal ${activeMenu === 5 ? 'text-[#0092E0]' : ''}`}
           />
-          <button  className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
             <Link href='/contact-us#section1'>Let's Begin</Link>
           </button>
         </div>
@@ -728,12 +725,7 @@ const Header = () => {
                 >
                   Application Services
                 </div> */}
-                <div
-                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "lobServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                  onClick={() => handleSubMenuClickBusiness("lobServices")}
-                >
-                  LOB Services
-                </div>
+
                 {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClickBusiness("intelligentScm")}
@@ -819,46 +811,46 @@ const Header = () => {
               {openSectionbusiness === "lobServices" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
-                    <div className="border-b pb-5">
-                      <div className="font-bold mt-5">Tailored Industry Solutions, Unmatched Results</div>
-                      <p className="mt-3">From healthcare to automotive, our industry-specific consulting services deliver actionable insights and innovative solutions that drive sustainable growth.</p>
-                      {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                    {/* <div className="border-b pb-5"> */}
+                    {/* <div className="font-bold mt-5">Tailored Industry Solutions, Unmatched Results</div> */}
+                    {/* <p className="mt-3">From healthcare to automotive, our industry-specific consulting services deliver actionable insights and innovative solutions that drive sustainable growth.</p> */}
+                    {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                    </div>
-                    <div className="mt-5">
-                      <div className="grid grid-cols-2 gap-32">
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
-" onClick={handleLinkClick} onHover={() => { }} />
+                  </div>
+                  <div className="mt-5">
+                    <div className="grid grid-cols-2 gap-32">
+                      <div>
+                        {/* <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
+" onClick={handleLinkClick} onHover={() => { }} /> */}
 
-                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Advantage+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="RialEstate+" link="/industry/real-estate" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Empower+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Retail+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="LifeAI+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Travel+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="EduA+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                        </div>
-                        <div>
+                        {/* <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Advantage+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="RialEstate+" link="/industry/real-estate" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Empower+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Retail+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="LifeAI+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Travel+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="EduA+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                      </div>
+                      <div>
 
-                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="[ Financial ]" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for marketing industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for real estate industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for automotive industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for non profit industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for Retail Industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For life sciences industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="a TTH service" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        {/* <MenuItem className="font-bold text-[#2f78c4]" label="[ Financial ]" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for marketing industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for real estate industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for automotive industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for non profit industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for Retail Industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For life sciences industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="a TTH service" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For Education Industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
 
-                        </div>
-
                       </div>
+
                     </div>
                   </div>
                 </div>
+                // </div>
               )}
               {/* {openSectionbusiness === "intelligentScm" && (
                 <div className="col-span-8 flex space-x-5">
@@ -1234,7 +1226,7 @@ const Header = () => {
                     <div className="grid grid-cols-2 gap-32">
                       <div>
                         <MenuItem className="font-bold text-[#2f78c4]" label="Blogs" link="/insights/blogs" onClick={handleLinkClick} onHover={() => { }} />
-                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} />
+                        {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} /> */}
                       </div>
                       <div>
                         <MenuItem className="font-bold text-[#2f78c4]" label="Case Studies" link="/insights/case-studies" onClick={handleLinkClick} onHover={() => { }} />
@@ -1254,16 +1246,18 @@ const Header = () => {
       {/* ///mobile menu */}
       <div>
         <div className="xl:hidden md:hidden flex justify-between items-center px-4">
+          <Link href='/'>
           <Image
             loading="lazy"
             className="cursor-pointer"
-            href='/'
             alt="Company Logo"
             lang="Company Logo2"
             height='150'
             width='100'
             src='/images/homepage/logo.svg'
           />
+          </Link>
+         
           <button onClick={toggleMenu} className="p-4">
             {isMenuOpen ? (
               <svg
@@ -1351,7 +1345,7 @@ const Header = () => {
                   />
                 ))}
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-                  <Link href='/'>Let's Begin</Link>
+                  <Link href='/contact-us'>Let's Begin</Link>
                 </button>
               </ul>
             </nav>

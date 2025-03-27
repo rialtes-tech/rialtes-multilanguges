@@ -112,7 +112,7 @@ export default function Page() {
 
                 <div className="py-10 bg-white">
                     <div className="container mx-auto">
-                        <h1 className="text-[#000000] py-6 max-w-4xl">Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company</h1>
+                        <h1 className="text-[#000000] py-6 max-w-4xl">Streamlining Sales with Salesforce Sales Cloud for Manufacturing</h1>
                     </div>
                     <div className="py-4"></div>
                     <div className="container mx-auto">
@@ -174,71 +174,73 @@ export default function Page() {
 
 
                             <h3 className="h3-bold text-[#0092E0] pb-6">Client Overview</h3>
-                            <p className="text-black">The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. Their sales team comprises engineers who handle sales and technical specifications to meet customer needs. The complexity of the sales process requires a robust solution to maximize sales output, enhance customer engagement, and integrate seamlessly with existing ERP systems. </p>
+                            <p className="text-black">The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. Their sales team comprises engineers who handle sales and technical specifications to meet customer needs. The complexity of the sales process requires a robust solution to maximize sales output, enhance customer engagement, and integrate seamlessly with existing ERP systems.</p>
                             <div className="py-6"></div>
                             <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
                             <h6 className="h3-bold text-[#0092E0] text-sm">Complex Sales Process</h6>
-                            <p className="text-black pb-6 mt-2">Since every product is custom designed, the sales team needs a structured approach to track project details and customer requirements and ensure smooth communication between sales, design, and production teams. The absence of a structured workflow leads to inefficiencies and delays in finalizing sales contracts</p>
+                            <p className="text-black pb-6 mt-2">Since every product is custom designed, the sales team needed a structured approach to track project details and customer requirements and ensure smooth communication between the sales, design, and production teams. The absence of a structured workflow led to inefficiencies and delays in finalizing sales contracts.</p>
 
                             <h6 className="h3-bold text-[#0092E0] text-sm ">Lack of a Customer Engagement System</h6>
 
-                            <p className="text-black pb-6 mt-2">With multiple ongoing projects and unique specifications for each client, the company faces challenges in maintaining a complete historical record of requirements, preferences, and past communications. This leads to misalignment between sales and engineering teams, delayed responses to customer inquiries, and difficulty in personalizing sales approaches, ultimately affecting customer satisfaction.</p>
+                            <p className="text-black pb-6 mt-2">With multiple ongoing projects and unique specifications for each client, the company faced challenges in maintaining a complete historical record of requirements, preferences, and past communications. This led to misalignment between sales and engineering teams, delayed responses to customer inquiries, and difficulty in personalizing sales approaches, ultimately affecting customer satisfaction.</p>
 
-                            <h6 className="h3-bold text-[#0092E0]  text-sm">Financial Tracking</h6>
+                            <h6 className="h3-bold text-[#0092E0]  text-sm">Overcoming Budget and Invoice Management Challenges</h6>
 
-                            <p className="text-black pb-6 mt-2">Managing budgets, order history, and invoices across multiple projects and subsidiaries is demanding. Without an integrated financial tracking system, sales teams can have difficulty monitoring payment schedules, outstanding invoices, and budget adherence. This can occasionally result in revenue leakage and inefficiencies in financial management.</p>
+                            <p className="text-black pb-6 mt-2">Managing budgets, order history, and invoices across multiple projects and subsidiaries is demanding. Without an integrated financial tracking system, sales teams were having difficulty monitoring payment schedules, outstanding invoices, and budget adherence. This occasionally resulted in revenue leakage and inefficiencies in financial management.</p>
 
-                            <h6 className="h3-bold text-[#0092E0] text-sm">Salesforce-SAP Integration</h6>
+                            <h6 className="h3-bold text-[#0092E0] text-sm">Lack of ERP-Salesforce Integration Leading to Manual ERP Updating</h6>
 
-                            <p className="text-black mt-2">The company uses SAP for backend project management but requires the sales team to access project progress in real time without exposing sensitive ERP data. </p>
-                            <p className="text-black">The absence of Salesforce integration may cause delays, miscommunication, and increased manual data entry, heightening the risk of errors. A seamless flow from design approval to production is needed.</p>
-                            <h6 className="h3-bold text-[#0092E0] text-sm mt-5">Unified Platform Across Subsidiaries</h6>
-                            <p className="text-black mt-2">The organization operates across multiple countries, each with different workflows and reporting structures. A lack of a unified system means subsidiaries work with their own processes, making it difficult to standardize processes, share data, and collaborate efficiently on global projects.</p>
-                            <h6 className="h3-bold text-[#0092E0]  text-sm mt-5">Limited Language and Localization Support</h6>
-                            <p className="text-black mt-2">With operations spanning multiple regions, sales teams combat language barriers, regional compliance variations, and inconsistent customer interactions. The absence of a system that supports multiple languages and currencies hinders seamless customer service and global sales alignment.</p>
+                            <p className="text-black mt-2">The company used SAP for backend project management but required the sales team to access project progress in real time without exposing sensitive ERP data.  </p>
+                            <p className="text-black">The absence of Salesforce integration caused delays, miscommunication, and manual updating of ERP, heightening the risk of errors. A seamless flow from design approval to production was needed.</p>
+                            <h6 className="h3-bold text-[#0092E0] text-sm mt-5">Isolated Data Across Subsidiaries </h6>
+                            <p className="text-black mt-2">The organization operates across multiple countries, each with different workflows and reporting structures. A lack of a unified system means subsidiaries worked in silos which made it difficult to standardize processes, share data, and collaborate efficiently on global projects.</p>
+                            <h6 className="h3-bold text-[#0092E0]  text-sm mt-5">Limited Language Support and Globalization</h6>
+                            <p className="text-black mt-2">With operations spanning multiple regions, their manufacturing and sales teams combat language barriers, regional compliance variations, and inconsistent customer interactions. The absence of a system that supports multiple languages hinders seamless customer service and global sales alignment.</p>
 
 
                             <div className="py-6"></div>
-                            <h3 className="h3-bold text-[#0092E0] pb-6">Salesforce Implementation and Solutions </h3>
-                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Maximizing Sales Output</h6>
+                            <h3 className="h3-bold text-[#0092E0] pb-6">Impact and Results </h3>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Maximized Sales </h6>
                             <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
 
-                                <li className="pb-4 text-black">Implement Salesforce Sales Cloud to automate lead qualification and opportunity management </li>
-                                <li className="pb-4 text-black">Using AI-driven analytics to identify high-potential leads and reduce sales cycle times.</li>
-                                <li className="pb-4 text-black">Implementing automated lead tracking and AI-driven recommendations can boost sales team productivity by 30%, reducing the average sales cycle from 45 days to 30 days and enabling faster deal closures. </li>
-                                <li className="pb-4 text-black">A well-defined workflow increases sales cycle efficiency by 30-40%, while a centralized CRM enhances customer satisfaction through improved tracking and personalized interactions. </li>
-                                <li className="pb-4 text-black">Enabling engineers to configure complex quotes with Salesforce CPQ (Configure, Price, Quote), ensuring accurate pricing and quick approvals.</li>
+                                <li className="pb-4 text-black">Implemented Salesforce Sales Cloud to automate lead qualification and opportunity management.</li>
+                                <li className="pb-4 text-black">Implementing automated lead tracking and AI-driven recommendations boosted sales team productivity, reducing the average sales cycle from 46 days to 28 days and enabling faster deal closures.</li>
+                                <li className="pb-4 text-black">Our team facilitated the use of analytics to identify high-potential leads and reduce sales cycle times.</li>
+                                <li className="pb-4 text-black">Enabled their sales teams to configure complex quotes with Salesforce CPQ (Configure, Price, Quote), ensuring accurate pricing and quick approvals</li>
                             </ul>
                             <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Improving Customer Engagement</h6>
                             <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
-                                <li className="pb-4 text-black">Deploying Salesforce Customer 360 using Salesforce Sales Cloud, allowing sales engineers to track every customer interaction, past projects, and service history.</li>
-                                <li className="pb-4 text-black">Integrating Salesforce with email and communication platforms to simplify follow-ups and maintain a structured communication flow.</li>
-                                <li className="pb-4 text-black">Leveraging Einstein AI for personalized recommendations and proactive engagement with customers</li>
+                                <li className="pb-4 text-black">We deployed Salesforce Customer 360 using Salesforce Sales Cloud, allowing the sales individuals to track every customer interaction, past project, and service history.</li>
+                                <li className="pb-4 text-black">The well-defined workflow increased their sales cycle efficiency by 30, while a centralized CRM enhanced customer satisfaction through improved tracking and personalized interactions.</li>
+                                <li className="pb-4 text-black">Integrated Salesforce with email and communication platforms to simplify follow-ups and maintain a structured communication flow.</li>
+                                <li className="pb-4 text-black">Leveraged Agentforce for personalized recommendations and proactive engagement with customers.</li>
                             </ul>
-                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Salesforce-SAP Integration for Seamless Workflow</h6>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Salesforce-ERP Integration for Seamless Workflow</h6>
                             <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
-                                <li className="pb-4 text-black">Integrating Sales Cloud with SAP ERP to enable seamless data flow from project design to manufacturing without direct ERP exposure.</li>
-                                <li className="pb-4 text-black">Seamless SAP integration cuts order processing time by 25%, allowing production to begin within 48 hours of design approval and ensuring smooth project execution.</li>
-                                <li className="pb-4 text-black">Creating a bridge between Salesforce and SAP PS (Project Systems), ensuring that approved designs move automatically into production planning.</li>
-                                <li className="pb-4 text-black">Bidirectional Data Sync to ensure engineers and manufacturing teams work with real-time data without directly accessing ERP.</li>
+                                <li className="pb-4 text-black">Integrated Sales Cloud with ERP to enable seamless data flow from project design to manufacturing without exposing ERP data such as leads, PII, and quotes.</li>
+                                <li className="pb-4 text-black">Seamless ERP integration cut order processing time, allowing production to begin within 48 hours of design approval and ensuring smooth project execution.</li>
+                                <li className="pb-4 text-black">Created a bridge between Salesforce and the ERP ecosystem, ensuring that approved designs move automatically into production planning.</li>
+                                <li className="pb-4 text-black">Facilitated bidirectional data sync to ensure sales and manufacturing teams work with real-time data.</li>
 
                             </ul>
                             <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Managing Budgets, Order History, and Invoices</h6>
                             <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
-                                <li className="pb-4 text-black">Implementing Sales Cloud with Financial Management Tools, enabling real-time tracking of budgets and financial transactions.</li>
-                                <li className="pb-4 text-black">Additionally, real-time financial tracking minimizes invoicing errors and revenue leakage by 15%, improving budgeting accuracy and cash flow management. A unified Salesforce platform supports scalability for global growth while enabling subsidiaries to maintain localized sales strategies.</li>
+                                <li className="pb-4 text-black">Implemented Sales Cloud with financial management enhancements,  enabling real-time tracking of budgets and financial transactions.</li>
+                                <li className="pb-4 text-black">Real-time financial tracking minimized invoicing errors and revenue leakage by 1.5%, improving budgeting accuracy and cash flow management.</li>
                                 <li className="pb-4 text-black">Automated invoicing and order tracking, reducing manual errors and improving financial transparency.</li>
-                                <li className="pb-4 text-black">Dashboards for sales and finance teams to monitor revenue, pending payments, and forecasting.</li>
+                                <li className="pb-4 text-black">Allowed sales team to access insightful reports and dashboards to monitor revenue, pending payments, and forecasting.</li>
                             </ul>
-                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Creating a Single Platform for All Subsidiaries</h6>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Unified  Platform for All Subsidiaries</h6>
                             <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
-                                <li className="pb-4 text-black">Standardizing the sales process across multiple global subsidiaries using a single Salesforce instance.</li>
-                                <li className="pb-4 text-black">Centralizing Data Repository for consistency across all subsidiaries.</li>
+                                <li className="pb-4 text-black">Standardized the sales process across multiple global subsidiaries using a single Salesforce instance.</li>
+                                <li className="pb-4 text-black">A unified Salesforce platform supports scalability for global growth while enabling subsidiaries to maintain country-specific sales strategies.</li>
+                                <li className="pb-4 text-black">Centralized their data repository for seamless sharing of financial data, sales, revenue, and expenses across all subsidiaries.</li>
+
                             </ul>
-                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Support for Multi-Language and Localization </h6>
+                            <h6 className="text-sm h3-bold text-[#0092E0] pb-6">Globalization</h6>
                             <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
-                                <li className="pb-4 text-black">Implementing multi-language and multi-currency support to accommodate regional sales teams and customers.</li>
-                                <li className="pb-4 text-black">Automated Translation Tools to enhance internal and external communication across language barriers</li>
+                                <li className="pb-4 text-black">Implemented multi-language and multi-currency support to accommodate regional sales teams and customers.</li>
+                                <li className="pb-4 text-black">Configured country-specific tax rules, pricing models, and regulatory compliance to align with business requirements.</li>
                             </ul>
                         </div>
                     </div>
