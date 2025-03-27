@@ -126,8 +126,8 @@ const solutionSuccess = [
     // },
     {
         id: 4,
-        imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-        title: 'Ariba',
+        imageUrl: '/images/sap-consulting/SAP Ariba.webp',
+        title: 'SAP Ariba',
         description: 'Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management',
         productsDetails: [
             'Procurement and supply chain metrics',
@@ -190,10 +190,10 @@ export default function Page() {
               sm:mx-5 sm:w-[calc(100%-40px)]
               xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
-                    <div className="container  text-black mx-auto px-6 h-full flex flex-col justify-center">
-                        <div className="flex flex-col xl:place-self-end">
+                    <div className="container  text-black mx-auto pl-6 h-full flex flex-col xl:justify-center">
+                        <div className="flex flex-col xl:place-self-end ">
                             <h3 className="text-[200] font-bold mb-2">SAP Consulting</h3>
-                            <h1 className="max-w-2xl">
+                            <h1>
                                 Leaning towards a better tomorrow.
                             </h1>
                             <h3 className="w-[75%] font-bold">Confidently Reduce efforts and increase efficiency with SAP solutions.</h3>
@@ -241,9 +241,9 @@ export default function Page() {
             </section>
 
 
-            <section className="lg:mt-20 mt-10 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
+            <section className="lg:mt-20 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
                 <h2>Our Solutions to Success</h2>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-5 gap-5">
                     {solutionSuccess.map((product) => {
                         return (
                             <div key={product.id} className="border-2">
@@ -285,12 +285,13 @@ export default function Page() {
             </section>
 
 
-            <section className="lg:mt-32 mt-10 pb-20">
+            <section className="lg:mt-32 mt-20 pb-20">
                 <div
                     className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
                 >
                     <h2 className="text-black mb-6 xl:pr-[400px] pr-0">SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations</h2>
-
+                    <div>
+                    </div>
                     <CarouselComponent />
                 </div>
             </section>
@@ -329,21 +330,21 @@ export default function Page() {
                 <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
                     <h2>RISE with SAP</h2>
                     <p className='mt-5'>Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.</p>
-                   <Link href='/services/business-transformation/rise-with-sap-services'>
-                    <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
+                    <Link href='/services/business-transformation/rise-with-sap-services'>
+                        <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
                     </Link>
                 </div>
             </section>
             {/* Contact Form */}
             < div
-                className="pb-20 mt-20
+                className="pb-20
   container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black"
             >
                 <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 

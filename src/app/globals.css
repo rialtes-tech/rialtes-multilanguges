@@ -141,7 +141,7 @@ body {
     width: 100%;
     z-index: 1;
     text-align: left !important;
-    padding-left: 85px !important;
+    padding-left: 20px !important;
     /* top: 6rem; */
   }
 }
@@ -151,12 +151,11 @@ body {
     position: absolute;
     bottom: 0;
     margin: 10px 0;
-    padding: 0;
     width: 100%;
     z-index: 1;
     text-align: left !important;
-    padding-left: 100px !important;
-    top: 17rem !important;
+    padding-left: 55px!important;
+    top: 45rem !important;
   }
 }
 
@@ -179,11 +178,10 @@ body {
     position: absolute;
     bottom: 0;
     margin: 10px 0;
-    padding: 0;
     width: 100%;
     z-index: 1;
     text-align: left !important;
-    padding-left: 270px !important;
+    padding-left: 240px !important;
   }
 }
 

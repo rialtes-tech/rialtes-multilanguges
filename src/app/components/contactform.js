@@ -83,25 +83,7 @@ export default function ContactForm({ title, className, padding }) {
                         required
                     />
                 </div>
-                {/* <label for="lead_source">Lead Source</label> */}
-                {/* <select  id="lead_source" name="lead_source"><option value="">
-                    </option><option value="Linkedin">Linkedin</option>
-<option value="Employee Referral">Employee Referral</option>
-<option value="External Referral">External Referral</option>
-<option value="Partner">Partner</option>
-<option value="Public Relations">Public Relations</option>
-<option value="Seminar - Internal">Seminar - Internal</option>
-<option value="Seminar - Partner">Seminar - Partner</option>
-<option value="Trade Show">Trade Show</option>
-<option value="Web">Web</option>
-<option value="Word of mouth">Word of mouth</option>
-<option value="Other">Other</option>
-<option value="Conference">Conference</option>
-<option value="Webinar">Webinar</option>
-<option value="Salesforce World Tour NYC 2024">Salesforce World Tour NYC 2024</option>
-<option value="BOMA 24">BOMA 24</option>
-<option value="Inside Sales">Inside Sales</option>
-</select> */}
+
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>

@@ -189,8 +189,8 @@ export default function SalesForceConsulting() {
                 </div>
 
             </div>
-            <div className=" grid lg:grid-cols-10 gap-16 px-6 xl:px-[280px] md:px-[100px] lg:pr-0 lg:mt-16 mt-5">
-                <div className="lg:col-span-6">
+            <div className=" grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 xl:px-[280px] md:px-[100px] lg:pr-0 lg:mt-16 mt-5">
+                <div className="lg:col-span-6 mt-5">
                     <h1>Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting</h1>
                 </div>
                 <div className="lg:col-span-4">
@@ -200,7 +200,7 @@ export default function SalesForceConsulting() {
                 </div>
             </div>
             {/* section crm consulting */}
-            <section className="lg:mt-16 mt-10 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
+            <section className="mt-16 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
                 <h2>Our Salesforce CRM Consulting Services</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
                     {salesForce.map((sales) => {
@@ -230,9 +230,9 @@ export default function SalesForceConsulting() {
             </section>
             {/* Salesforce product */}
 
-            <section className="lg:mt-20 mt-10 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
+            <section className="mt-20  px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
                 <h2>Salesforce Products</h2>
-                <p className="lg:mt-3 mb-8">Well, Salesforce consulting is just one part of an array of solutions.</p>
+                <p className="lg:mt-3 mb-8 mt-3">Well, Salesforce consulting is just one part of an array of solutions.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
                     {salesForceProduct.map((product) => {
                         return (
@@ -277,13 +277,13 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* your business */}
-            <section className="lg:mt-16 mt-5 px-6 xl:pl-[280px] xl:pr-[120px] md:pl-[150px] lg:pr-0">
+            <section className="mt-16  px-6 xl:pl-[280px] xl:pr-[120px] md:pl-[150px] lg:pr-0">
                 <h2 className="font-normal xl:w-[70%] w-full">Understanding and targeting the customers correctly for your business</h2>
-                <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 gap-20">
+                <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16">
                     {businessDetails.map((bussiness) => {
                         return (
                             <div key={bussiness.id}>
-                                <h3 className="font-bold">{bussiness.title}</h3>
+                                <h3 className="font-bold mt-3">{bussiness.title}</h3>
                                 <p className="mt-5">{bussiness.description}</p>
                             </div>
                         )
@@ -292,7 +292,7 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* Action section */}
-            <section className="bg-[#EDEDED] lg:mt-20 mt-5 py-20">
+            <section className="bg-[#EDEDED] lg:mt-20 mt-5 py-5">
                 <div className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0">
                     <h3 className="mt-10 mb-10 font-medium">Action is what matters and not just words</h3>
                     <div className="grid lg:grid-cols-10 grid-cols-1">

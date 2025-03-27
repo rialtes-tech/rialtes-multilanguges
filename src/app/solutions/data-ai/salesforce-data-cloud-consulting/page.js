@@ -127,13 +127,14 @@ export default function DataCloud() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/data-cloud/salesforce-data-cloud-header.webp"
           alt="Webinar Header"
           fill
-          style={{ objectFit: "cover", objectPosition: "center" }}
+          style={{ objectFit: "cover" }}
           priority
+          className="object-left"
         />
         <div
           className="
@@ -144,15 +145,15 @@ export default function DataCloud() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center items-end">
-            <div className="w-full lg:w-4/5 xl:w-1/2">
-              <h3 className="text-[#000000] text-[300] font-medium mb-2 text-left">
+          <div className="container mx-auto h-full flex flex-col justify-center xl:items-end items-center">
+            <div className="w-full lg:w-4/5 xl:w-1/2 xl:text-black text-white mt-20">
+              <h3 className=" text-[300] font-medium mb-2 text-left">
                 Data Cloud
               </h3>
-              <h1 className="text-[#000000] max-w-2xl">
+              <h1>
                 Harness the Potential of Salesforce Data Cloud
               </h1>
-              <h3 className="max-w-3xl">
+              <h3>
                 Drive automation, predictive, and generative AI, as well as
                 analytics, within the world’s leading AI-powered CRM
               </h3>
@@ -299,7 +300,7 @@ export default function DataCloud() {
             Our Salesforce Data Cloud Services
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-12 md:gap-12 xl:gap-28">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20 xl:gap-28">
             {services.map((service, index) => (
               <div
                 key={index}
@@ -342,14 +343,14 @@ export default function DataCloud() {
 
       {/* Contact Form Section */}
       <div
-        className="
+        className="py-20
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black py-6"
+        text-black"
       >
         <ContactForm />
       </div>

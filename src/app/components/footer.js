@@ -94,8 +94,7 @@ const Footer = () => {
                 {/* Links Section */}
                 <div className="flex md:gap-5 gap-5 xl:justify-start mt-5 lg:mt-0 xl:mt-10">
                     <div>
-                        <Link href="/about-us">About Us</Link>
-                        <p className="mt-3"><Link href="/service">Services</Link></p>
+                      <p> <Link href="/about-us">About Us</Link></p>
                         <p className="mt-3"><Link href="/industry">Industries</Link></p>
                         <p className="mt-3"><Link href="/insights">Insights</Link></p>
                         <p className="mt-3"><Link href="/contact-us">Contact Us</Link></p>

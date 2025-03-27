@@ -33,7 +33,7 @@ const Home = () => {
   const [currentIndexInsites, setCurrentIndexInsites] = useState(0);
 
   const handleChange = (index) => {
-    setCurrentIndex(index);
+    setCurrentIndexInsites(index);
   };
 
   const handleDotClick = (index) => {
@@ -130,7 +130,7 @@ const Home = () => {
       title: 'Manufacturing',
       description: 'Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer solutions from Salesforce Manufacturing Cloud to SAP Manufacturing Software to help you keep your production lines running smoothly.',
       knowMore: 'Know More',
-      url: 'industry/real-estate-property-management'
+      url: 'industry/manufacturing-cloud-erp'
     },
     // {
     //   id: 4,
@@ -257,7 +257,7 @@ const Home = () => {
       imageUrl: '/images/homepage/blog4.png',
       label: 'Case Study',
       description: 'Omnichannel case management with Salesforce Service Cloud',
-      url: 'insights/case-studies/case-study-7'
+      url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
     },
   ];
 
@@ -299,24 +299,36 @@ const Home = () => {
         >
           {/* First Slide */}
           <div className="relative">
-  <a
-    href="/services/lob/autosense-automotive-digital-transformation-services"
-    style={{ display: 'block' }}
-    className="relative"
-  >
-    {/* Desktop Image */}
-    <Image
-      width={0}
-      height={0}
-      sizes="100vw"
-      style={{ width: '100%', objectFit: 'cover' }} 
-      priority
-      className="w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer object-left"
-      alt="demo"
-      src="/images/homepage/automotive.webp"
-    />
-  </a>
-</div>
+            <a
+              style={{ display: 'block' }}
+              className="relative"
+            >
+              <div className='xl:block hidden'>
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', objectFit: 'cover' }}
+                priority
+                className="w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer object-left xl:block hidden"
+                alt="demo"
+                src="/images/homepage/automotive.webp"
+              />
+              </div>
+              <div className='xl:hidden block'>
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', objectFit: 'cover' }}
+                  priority
+                  className="w-full h-[326px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  alt="demo"
+                  src="/images/homepage/mobile 1 1.webp"
+                />
+              </div>
+            </a>
+          </div>
 
           {/* Second Slide */}
           <div className="relative">
@@ -325,16 +337,31 @@ const Home = () => {
               style={{ display: 'block' }}
               className="relative block"
             >
-              <Image
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', objectFit: 'cover' }}
-                priority
-                className="w-full h-[300px] xl:h-full md:h-full object-left"
-                alt="demo"
-                src="/images/homepage/lifescience.webp"
-              />
+              <div className='xl:block hidden'>
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', objectFit: 'cover' }}
+                  priority
+                  className="w-full h-[300px] xl:h-full md:h-full object-left"
+                  alt="demo"
+                  src="/images/homepage/lifescience.webp"
+                />
+              </div>
+
+              <div className='xl:hidden block'>
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', objectFit: 'cover' }}
+                  priority
+                  className="w-full h-[326px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  alt="demo"
+                  src="/images/homepage/mobile 2 1.webp"
+                />
+              </div>
             </a>
           </div>
 
@@ -345,16 +372,31 @@ const Home = () => {
               style={{ display: 'block' }}
               className="relative block"
             >
+              <div className='xl:block hidden'>
               <Image
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ width: '100%', objectFit: 'cover' }}
                 priority
-                className="w-full h-[300px] xl:h-full md:h-full object-left"
+                className="w-full h-[326px] xl:h-full md:h-full object-left"
                 alt="demo"
                 src="/images/homepage/semiconductor 1.webp"
               />
+              </div>
+              <div className='xl:hidden block'>
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', objectFit: 'cover' }}
+                  priority
+                  className="w-full h-[326px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  alt="demo"
+                  src="/images/homepage/mobile 3 1.webp"
+                />
+              </div>
+              
             </a>
           </div>
         </ResponsiveCarousel>
@@ -372,7 +414,7 @@ const Home = () => {
             <CustomArrow arrowType="next" onClick={goToNext} />
           </div>
         </div>
-        <Carousel className='xl:mt-16 mt-5'
+        <Carousel className='xl:mt-16 mt-5 '
           ref={carouselRef}
           draggable={false}
           responsive={responsive}
@@ -381,7 +423,7 @@ const Home = () => {
           autoPlay={false}
           autoPlaySpeed={2000}
           keyBoardControl={true}
-          itemClass="carousel-item-padding-40-px"
+          itemClass="carousel-item-padding-40-px xl:block hidden"
           selectedItem={currentIndex}
           onChange={handleChange}
 
@@ -411,7 +453,7 @@ const Home = () => {
             )
           })}
         </Carousel>
-        <div className="dots-container">
+        <div className="dots-container xl:block hidden">
           {successStoryData.map((_, index) => (
             <CustomDot
               key={index}
@@ -420,6 +462,32 @@ const Home = () => {
               handleDotClick={handleDotClick}
             />
           ))}
+        </div>
+        <div className='xl:hidden  gap-10 grid'>
+        {successStoryData.map((success) => {
+            return (
+              <div key={success.id} className='relative group overflow-hidden w-[95%]'>
+                <div className='absolute w-full inset-0 bg-black opacity-50 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
+                <Image
+                  loading="lazy"
+                  height='100'
+                  width='280'
+                  alt='Success Stories'
+                  className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
+                  src={success?.imageUrl}
+                />
+                {/* Title with hover effect */}
+                <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-50 text-white  group-hover:opacity-100 transition-opacity duration-300">
+                  <span> {success.title}</span>
+                  <p className="absolute mb-5 bottom-10">{success.description}</p>
+                  <Link href={'/' + success.url}>
+                    <p className="bottom-0 absolute mb-5">{success.para} →</p>
+
+                  </Link>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </section>
       {/* shaping our services section */}
@@ -449,7 +517,7 @@ const Home = () => {
             <div>
               <h2 className='xl:w-[70%] w-full'>Industry Expertise and Solutions</h2>
             </div>
-            <p>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
+            <p className='mt-3'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
           </div>
           <div className='grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:ml-[230px] md:ml-[100px] px-6 mt-16 sm:px-0'>
             {industryData.map((industry, index) => {
@@ -457,7 +525,7 @@ const Home = () => {
               return (
                 <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}>
                   <div
-                    className={`group hover:bg-white transition-all duration-300 h-[400px] relative xl:p-10 md:p-2 p-3`}
+                    className={`group hover:bg-white transition-all duration-300 xl:h-[400px] relative xl:p-10 md:p-2 p-3`}
                   >
                     <h3 className="font-bold">{industry.title}</h3>
                     <p className="mt-3 text-[15px]">{industry.description}</p>
@@ -542,7 +610,7 @@ const Home = () => {
 
       {/* life at rialtes section */}
       <section className='xl:mt-20 xl:mx-[280px] md:mx-[100px] md:mt-20 mt-10  mx-6'>
-        <div className='flex gap-16 xl:flex-row flex-col'>
+        <div className='flex xl:gap-16 gap-5 xl:flex-row flex-col'>
           <div className='xl:w-1/2'>
             <h2>Life at Rialtes</h2>
             <p className='mt-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
