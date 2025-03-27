@@ -1,8 +1,11 @@
 "use client";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import { useRef } from 'react';
 
 export default function servicesInsightsCarousel() {
+  const carouselRef = useRef(null);
+
   const slides = [
     { id: 1, category: "Healthcare", description: "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities" },
     { id: 2, category: "Real Estate", description: "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions." },
@@ -38,18 +41,70 @@ export default function servicesInsightsCarousel() {
     },
   };
 
-  const ButtonGroup = ({ next, previous, ...rest }) => {
-    const { carouselState: { currentSlide } } = rest;
+  // const ButtonGroup = ({ next, previous, ...rest }) => {
+  //   const { carouselState: { currentSlide } } = rest;
+  //   return (
+  //     <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+  //       <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+  //         <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+  //           <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+  //         </svg>
+  //       </button>
+  //       <button className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+  //         <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+  //           <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+  //         </svg>
+  //       </button>
+  //     </div>
+  //   );
+  // };
+  const ButtonGroup = ({ next, previous }) => {
     return (
-      <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
-        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
-          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-            <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+      <div className="carousel-button-group flex">
+        <button
+          className="bg-white p-2 mr-2 group transition-all duration-300"
+          onClick={() => previous()}
+        >
+          <svg
+            width="24px"
+            height="24px"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#707070"
+            strokeWidth="1"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="group-hover:stroke-[#C3C3C3]"
+          >
+            <path
+              d="M3 7.5L11 0V15L3 7.5Z"
+              fill="none"
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"
+            />
           </svg>
         </button>
-        <button className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
-          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-            <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+        <button
+          className="bg-white p-2 group transition-all duration-300"
+          onClick={() => next()}
+        >
+          <svg
+            width="24px"
+            height="24px"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#707070"
+            strokeWidth="1"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="group-hover:stroke-[#C3C3C3]"
+          >
+            <path
+              d="M12 7.5L4 0V15L12 7.5Z"
+              fill="none"
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3]"
+            />
           </svg>
         </button>
       </div>
@@ -73,14 +128,24 @@ export default function servicesInsightsCarousel() {
 
   return (
     <section className="relative pb-8 bg-white">
+       <div className='flex justify-between mt-4'>
+            <p className="xl:w-[70%] w-full">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
+         
+          <div>
+        <ButtonGroup
+          next={() => carouselRef.current.next()}
+          previous={() => carouselRef.current.previous()}
+        />
+
+      </div>
+      </div>
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pb-5">
-          <div>
-            <p className="xl:w-[70%] w-full">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
-          </div>
+         
         </div>
         <Carousel
           swipeable={true}
+          ref={carouselRef}
           draggable={true}
           showDots={true}
           responsive={responsive}
@@ -98,17 +163,16 @@ export default function servicesInsightsCarousel() {
           partialVisible={true}
           arrows={false}
           renderButtonGroupOutside={true}
-          customButtonGroup={<ButtonGroup />}
           renderDotsOutside={true}
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group md:min-h-[450px] min-h-[350px]`}
+              className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group md:min-h-[450px] min-h-[296px]`}
             >
               <div className="min-h-[350px] min-w-full relative">
-                <div className="absolute inset-0 p-6 my-4">
+                <div className="absolute inset-0 p-4 my-2">
                   <div className=" mt-3 font-bold text-[18px]">{slide.category}</div>
                   <p className="mt-3">{slide.description}</p>
                 </div>
