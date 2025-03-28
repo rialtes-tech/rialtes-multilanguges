@@ -140,7 +140,7 @@ const growLatestServices = [
 ];
 
 const GrowServicesCard = ({ services }) => (
-  <div className="w-full h-full flex flex-col">
+  <div className="">
     <div className="relative overflow-hidden">
       <Image
         className="w-full transition-transform duration-300 hover:scale-105"
@@ -170,12 +170,14 @@ const GrowServicesCard = ({ services }) => (
         )
       })}
     </ul>
+    <LearnMore/>
+
   </div>
 );
 
 const GrowServices = () => {
   return (
-    <div className="container mx-auto text-black lg:pr-20 md:pr-10 pr-6 ">
+    <div className="text-black lg:pr-20 md:pr-10 pr-6 ">
       <h2 className="pb-10 text-black xl:w-1/2 w-fill">Pioneering Medical & Patient Care IT Solutions</h2>
       <p className="xl:w-1/2 w-full">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
@@ -183,8 +185,8 @@ const GrowServices = () => {
           <GrowServicesCard key={services.id} services={services} />
         ))}
       </div>
+
       <div className="mt-5">
-        <LearnMore/>
       </div>
     </div>
   );
@@ -222,9 +224,9 @@ export default function Page() {
           <div className="container mx-auto h-full flex flex-col justify-center">
             <div className="flex flex-col">
               <h3 className="text-white text-[300] font-medium mb-2">HEALTHCARE</h3>
-              <h1 className="text-white max-w-2xl">
+              <h2 className="text-white max-w-2xl">
                 Redefining healthcare by keeping patients at the center
-              </h1>
+              </h2>
             </div>
 
           </div>
@@ -243,9 +245,9 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col xl:flex-row py-6 gap-20">
-              <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4 ">
-                <h1 className="text-black md:pb-0 pb-4">Patient care and MedTech solutions built on Salesforce Health Cloud</h1>
+            <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
+              <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 ">
+                <h1 className="text-black md:pb-0 pb-4">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
               </div>
               <div className="flex flex-col w-full">
                 <p className="text-[#000000]">The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.
@@ -272,7 +274,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
+        <section className="xl:py-16 bg-white">
           <GrowServices />
         </section>
       </div>

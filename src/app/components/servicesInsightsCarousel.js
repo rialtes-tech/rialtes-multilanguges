@@ -254,7 +254,7 @@ export default function servicesInsightsCarousel({ padding }) {
                 <h4 className="my-4 line-clamp-4 md:line-clamp-none">{slide.category}</h4>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
-                  <Link href={'/blog' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
+                  <Link href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
                 </div>
               </div>
             </div>

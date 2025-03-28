@@ -92,7 +92,7 @@ export default function Leadership() {
                 <div className="absolute xl:px-[280px] md:px-[100px] px-6 top-[5%]  lg:text-start xl:top-[35%] md:top-[20%] text-white z-20">
                     <h3 className="font-bold">Meet our</h3>
                     <h1>Leadership Team</h1>
-                    <p className="lg:mt-5 xl:w-[52%]">To know the people behind Rialtes who lead the way toward excellence and innovation</p>
+                    <p className="lg:mt-5 xl:w-[52%] w-[90%] mt-[35px]">To know the people behind Rialtes who lead the way toward excellence and innovation</p>
                 </div>
 
             </div>

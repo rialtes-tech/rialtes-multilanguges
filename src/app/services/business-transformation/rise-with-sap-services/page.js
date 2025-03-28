@@ -89,9 +89,9 @@ export default function Page() {
               xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto px-6 h-full flex flex-col justify-center">
-            <div className="flex flex-col xl:place-self-end">
-              <h3 className="text-white text-[300] font-medium mb-2">RISE with SAP</h3>
-              <h1 className="text-white max-w-2xl">
+            <div className="flex flex-col xl:place-self-end xl:text-white text-black">
+              <h3 className=" text-[300] font-medium mb-2">RISE with SAP</h3>
+              <h1 className="max-w-2xl">
                 Gather, analyze and disseminate with ‘RISE with SAP’
               </h1>
             </div>
@@ -147,10 +147,10 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="pb-16 bg-white">
+        <section className="xl:pb-16 bg-white">
           <div className="container mx-auto">
             <h2 className="pb-6 text-black xl:hidden flex">Our Solution to Success</h2>
-            <div className="flex flex-col md:flex-row xl:items-center py-6 gap-6">
+            <div className="flex flex-col md:flex-row xl:items-center xl:py-6 gap-6">
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden mr-6">
                   <Image
@@ -177,6 +177,11 @@ export default function Page() {
               </div>
 
             </div>
+            <div className="mt-[-15px] xl:mt-0">
+            <LearnMore/>
+
+            </div>
+
           </div>
         </section>
       </div>
@@ -184,7 +189,7 @@ export default function Page() {
 
       {/* Latest Services Section */}
       <div
-        className="
+        className="mt-16 xl:mt-0
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
@@ -210,7 +215,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16">
+        <section className="xl:py-16">
           <div className="container mx-auto">
             <h2 className="pb-10 text-black">The 3-Pronged Apparatus</h2>
             <div className="flex md:flex-row flex-col justify-between gap-6 mr-6">
@@ -286,7 +291,7 @@ export default function Page() {
         <section className="py-16 bg-white">
           <div className="container mx-auto">
             <h2 className="pb-6 text-black xl:hidden flex">Enterprise-focused solutions for everything your business needs!</h2>
-            <div className="flex flex-col-reverse md:flex-row gap-6 py-6">
+            <div className="flex flex-col-reverse md:flex-row gap-6 xl:py-6">
               <div className="flex flex-col w-full">
                 <h2 className="pb-6 text-black xl:flex hidden">Enterprise-focused solutions for everything your business needs!</h2>
                 <p className="pb-6 text-black">No matter what your SLAs, cloud needs, or technical support requirements are, our comprehensive solutions are curated to serve all business needs, irrespective of location.</p>
@@ -313,7 +318,10 @@ export default function Page() {
                 </div>
               </div>
             </div>
+            <div className="mt-[-50px] xl:mt-0">
             <LearnMore/>
+
+            </div>
           </div>
         </section>
       </div>
@@ -372,7 +380,7 @@ export default function Page() {
         md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black py-16"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 

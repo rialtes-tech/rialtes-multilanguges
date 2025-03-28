@@ -18,7 +18,7 @@ const slides = [
     id: 2,
     image: "/images/case-studies/case-study-2_thumb.webp",
     category: "Real Estate",
-    industry: "Hi-tech",
+    industry: "Hi-Tech",
     date: "22 Dec 2024",
     title: "RealForce Banking Module - ACH",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",

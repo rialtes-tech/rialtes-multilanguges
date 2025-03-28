@@ -145,9 +145,9 @@ export default function Page() {
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
             <h3 className="text-white text-[300] font-medium mb-2">SuccessFactors</h3>
-            <h1 className="text-white max-w-2xl">
+            <h2 className="text-white max-w-2xl">
               HR Transformation Enabled Using SuccessFactors
-            </h1>
+            </h2>
             <div className="md:max-w-32 w-20 pt-6">
               <Image
                 src="/images/success-factors/sap-partner-logo.webp"
@@ -178,7 +178,7 @@ export default function Page() {
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row items-center py-6">
               <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
-                <h2 className="text-black md:pb-0 pb-4">Achieve Performance Excellence with SuccessFactors Consulting</h2>
+                <h1 className="text-black md:pb-0 pb-4">Achieve Performance Excellence with SuccessFactors Consulting</h1>
               </div>
               <div className="flex flex-col w-full xl:w-1/2">
                 <p className="text-[#000000]">We go beyond SAP SuccessFactors implementation, offering end-to-end global HCM transformation that automates HR processes and enhances both user and employee experiences. By combining the SAP SuccessFactors platform with our artificial intelligence, machine learning, and analytics capabilities, we transform the human experience while aligning with business goals.</p>
@@ -402,14 +402,14 @@ export default function Page() {
 
       {/* Contact Form */}
       < div
-        className="
+        className="py-16
   container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 

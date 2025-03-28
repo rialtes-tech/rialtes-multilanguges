@@ -28,7 +28,7 @@ export default function servicesExploreMoreCarousel() {
     {
       id: 4,
       image: "/images/industry/hi-tech.webp",
-      title: "Hi-tech",
+      title: "Hi-Tech",
       url:'/industry/hitech-semiconductor'
     },
     // {

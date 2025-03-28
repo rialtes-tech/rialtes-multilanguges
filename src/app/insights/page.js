@@ -60,7 +60,7 @@ export default function InsightsPage() {
           <div className="absolute inset-0 opacity-70"></div>
           <div className="absolute inset-0 opacity-50"></div>
           <div className="container mx-auto h-full flex flex-col justify-center">
-            <h1 className="text-[#000000] max-w-2xl">INSIGHTS</h1>
+            <h1 className="xl:text-[#000000] text-white max-w-2xl">INSIGHTS</h1>
           </div>
         </div>
       </section>
@@ -86,7 +86,7 @@ export default function InsightsPage() {
             <div className="hidden sm:block">
               {" "}
               <Link
-                href="/blog"
+                href="/insights/blogs"
                 className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">See All Blogs</span>
@@ -99,7 +99,7 @@ export default function InsightsPage() {
               className="border w-full xl:w-2/5 lg:w-full border-gray-200 overflow-hidden"
               onMouseEnter={handleMouseEnter("blog1")}
               onMouseLeave={handleMouseLeave("blog1")}
-              onClick={handleClick("/blog/how-salesforce-agentforce-actually-works")}
+              onClick={handleClick("/insights/blogs/how-salesforce-agentforce-actually-works")}
               style={{ cursor: "pointer" }}
             >
               <div className="relative h-[300px] md:h-[500px] w-full overflow-hidden">
@@ -147,7 +147,7 @@ export default function InsightsPage() {
                 </p>
 
                 <Link
-                  href="/blog/how-salesforce-agentforce-actually-works"
+                  href="/insights/blogs/how-salesforce-agentforce-actually-works"
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
                   <span>Read More</span>
@@ -174,7 +174,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-auto sm:h-[400px]"
                 onMouseEnter={handleMouseEnter("blog2")}
                 onMouseLeave={handleMouseLeave("blog2")}
-                onClick={handleClick("/blog/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
+                onClick={handleClick("/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
                 style={{ cursor: "pointer" }}
               >
                 <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
@@ -223,7 +223,7 @@ export default function InsightsPage() {
 
                   <div className="mt-auto">
                     <Link
-                      href="/blog/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
+                      href="/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                     >
                       <span>Read More</span>
@@ -250,7 +250,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-auto sm:h-[400px]"
                 onMouseEnter={handleMouseEnter("blog3")}
                 onMouseLeave={handleMouseLeave("blog3")}
-                onClick={handleClick("/blog/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
+                onClick={handleClick("/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
                 style={{ cursor: "pointer" }}
               >
                 <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
@@ -302,7 +302,7 @@ export default function InsightsPage() {
 
                   <div className="mt-auto">
                     <Link
-                      href="/blog/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
+                      href="/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                     >
                       <span>Read More</span>
@@ -330,7 +330,7 @@ export default function InsightsPage() {
           <div className="block sm:hidden mt-12">
             {" "}
             <Link
-              href="/blog"
+              href="/insights/blogs"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
             >
               <span className="inline-flex items-center">See All Blogs</span>
@@ -341,7 +341,7 @@ export default function InsightsPage() {
 
       {/* Case Studies Section */}
 
-      <section className="mt-16 mb-16 py-16 bg-[#f1f1f1]">
+      <section className="mt-16 py-16 bg-[#f1f1f1]">
         <div
           className="
         container
@@ -360,7 +360,7 @@ export default function InsightsPage() {
 
               <div className="hidden sm:block">
                 <Link
-                  href="/case-study"
+                  href="/insights/case-studies"
                   className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
                 >
                   <span className="inline-flex items-center">
@@ -395,7 +395,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/healthcare-case-study.webp"
+                      src="/images/case-studies/case-study-8_thumb.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -414,8 +414,7 @@ export default function InsightsPage() {
                     <span className="text-sm">25 Oct 2024</span>
                   </div>
                     <h3 className="mb-3">
-                      How Rialtes simplified patient journey process using
-                      Salesforce experience cloud.
+                    Salesforce Health Cloud, Prior Authorization
                     </h3>
                   <p>
                     A global medical technology company that develops and
@@ -433,7 +432,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-2")}
                 onMouseLeave={handleMouseLeave("case-study-2")}
-                onClick={handleClick("/case-study-3")}
+                onClick={handleClick("/insights/case-studies/streamlined-devops-using-copado-and-salesforce")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -453,7 +452,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/manufacturing-case-study.webp"
+                      src="/images/case-studies/case study 3_thumb_Carousal_n 1.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -483,7 +482,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-3")}
                 onMouseLeave={handleMouseLeave("case-study-3")}
-                onClick={handleClick("/case-study-2")}
+                onClick={handleClick("/insights/case-studies/realForce-banking-module-ach")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -503,7 +502,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/real-estate-case-study.webp"
+                      src="/images/case-studies/case study 2_thumb_Carousal_n 1.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -531,7 +530,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-4")}
                 onMouseLeave={handleMouseLeave("case-study-4")}
-                onClick={handleClick("/case-study-1")}
+                onClick={handleClick("/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -551,7 +550,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/healthcare-case-study-2.webp"
+                      src="/images/case-studies/case study 1_thumb_Carousal 2.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -581,7 +580,7 @@ export default function InsightsPage() {
           <div className="block sm:hidden mt-12">
             {" "}
             <Link
-              href="/case-study"
+              href="/insights/case-studies"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
             >
               <span className="inline-flex items-center">
@@ -593,7 +592,7 @@ export default function InsightsPage() {
       </section>
 
       {/* Events Section */}
-      <div
+      {/* <div
         className="
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
@@ -846,10 +845,10 @@ export default function InsightsPage() {
             </Link>
           </div>
         </section>
-      </div>
+      </div> */}
 
       {/* Webinar Section */}
-      <div
+      {/* <div
         className="
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
@@ -1122,18 +1121,18 @@ export default function InsightsPage() {
             </Link>
           </div>
         </section>
-      </div>
+      </div> */}
 
       {/* Contact Form Section */}
       <div
-        className="
+        className="py-16
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black py-6"
+        text-black"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
       </div>

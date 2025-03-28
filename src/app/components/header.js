@@ -182,7 +182,7 @@ const Header = () => {
     {
       label: 'About Us', href: '/about-us',
       links: [
-            { label: 'Leadership', href: '/about-us/leadership' },
+            // { label: 'Leadership', href: '/about-us/leadership' },
             { label: 'Contact Us', href: '/contact-us' },
             { label: 'Partnership', href: '/about-us/global-alliences' },
       ],
@@ -1179,9 +1179,9 @@ const Header = () => {
                   <div className="mt-5">
                     <div className="grid grid-cols-2 gap-32">
                       <div>
-                        <MenuItem className="font-bold text-[#2f78c4]" label="Leadership" link="/about-us/leadership" onClick={handleLinkClick} onHover={() => { }} />
+                        {/* <MenuItem className="font-bold text-[#2f78c4]" label="Leadership" link="/about-us/leadership" onClick={handleLinkClick} onHover={() => { }} /> */}
                         {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Culture and Values" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                        <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Contact Us" link="/contact-us" onClick={handleLinkClick} onHover={() => { }} />
+                        <MenuItem className="font-bold text-[#2f78c4]" label=" Contact Us" link="/contact-us" onClick={handleLinkClick} onHover={() => { }} />
                       </div>
                       <div>
                         {/* <MenuItem className="font-bold text-[#2f78c4]" label="Sponsorships" link="/" onClick={handleLinkClick} onHover={() => { }} />
