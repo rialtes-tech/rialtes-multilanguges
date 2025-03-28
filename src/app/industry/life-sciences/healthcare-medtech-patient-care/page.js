@@ -28,7 +28,7 @@ const slidesCaseStudy = [
   {
     id: 3,
     url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-    imgSrc: "/images/case-studies/case-study-3_thumb.webp",
+    imgSrc: "/images/case-studies/healthcare-caro.png",
     title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
     description: "A global medical technology company that develops and manufactures innovative products.",
   },

@@ -405,7 +405,7 @@ export default function About() {
       </section>
 
       {/* Leadership Team Section */}
-      <div
+      {/* <div
         className="
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
@@ -452,7 +452,7 @@ export default function About() {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
 
       {/* Contact Form Section */}
       <div

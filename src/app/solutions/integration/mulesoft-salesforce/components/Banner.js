@@ -13,7 +13,7 @@ const Banner = () => (
       <div className="relative h-[250px] lg:h-screen overflow-hidden">
         <div className="absolute z-40 text-white lg:max-w-[808px] top-2/4 -translate-y-1/2">
           <p className="mb-5 text-2xl">MuleSoft Integration Solutions</p>
-          <h1 className="text-[#ffffff] lg:text-[74px] lg:leading-[86px]">
+          <h1 className="text-[#ffffff]">
             Connecting Digital Businesses using the MuleSoft Platform
           </h1>
         </div>

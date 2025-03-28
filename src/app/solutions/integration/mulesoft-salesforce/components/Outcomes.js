@@ -19,19 +19,19 @@ const DATA = [
 ];
 
 const Outcomes = () => (
-  <div className="bg-[#EDEDED] py-20">
+  <div className="bg-[#EDEDED] py-16 mt-20">
     <div className="containerr">
-      <h3 className="text-[40px] font-light mb-16">
+      <h2 className=" font-light mb-16">
         Drive Measurable Business Outcomes
-      </h3>
+      </h2>
 
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
         {DATA.map(({ _id, percent, des }) => (
           <div key={_id}>
-            <h2 className="font-extrabold text-[70px] text-[#0092E0]">
+            <h2 className="font-extrabold xl:text-[70px] text-[#0092E0]">
               {percent}
             </h2>
-            <p className="text-2xl whitespace-pre-wrap">{des}</p>
+            <p className="xl:text-2xl whitespace-pre-wrap">{des}</p>
           </div>
         ))}
       </div>
