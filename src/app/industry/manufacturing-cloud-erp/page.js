@@ -145,7 +145,7 @@ const GrowServices = () => {
   return (
     <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
       <h2 className="text-black">Optimize with Manufacturing Mobility Solution</h2>
-      <p className="md:pb-40 pb-20">Break the chains of traditional manufacturing limitations and go mobile with our Manufacturing Mobility Solutions. Your leadership, stakeholders, and management team members need direct access to all operations around the clock from the power of their tablets, smartphones, and other mobile connections.</p>
+      <p className="md:pb-40 pb-20 mt-3">Break the chains of traditional manufacturing limitations and go mobile with our Manufacturing Mobility Solutions. Your leadership, stakeholders, and management team members need direct access to all operations around the clock from the power of their tablets, smartphones, and other mobile connections.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 lg:gap-28">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
@@ -252,7 +252,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
+        <section className="xl:py-16 py-5 bg-white">
           <GrowServices />
         </section>
       </div>
@@ -268,7 +268,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
+        <section className="xl:py-16 py-5 bg-white">
           <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
             <h2 className="pb-10 text-black">Manufacturing technology expertise at your fingertips</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14 lg:gap-28">

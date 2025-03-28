@@ -374,7 +374,7 @@ export default function InsightsPage() {
               className="border h-full border-gray-200 overflow-hidden mb-6 flex flex-col md:flex-row"
               onMouseEnter={handleMouseEnter("case-study-1")}
               onMouseLeave={handleMouseLeave("case-study-1")}
-              onClick={handleClick("/case-study-4")}
+              onClick={handleClick("/insights/case-studies/salesforce-health-cloud-prior-authorization")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
