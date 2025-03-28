@@ -42,12 +42,12 @@ export default function ContactForm({ title, className, padding }) {
                     <input
                         id="first_name" maxLength="40" name="first_name" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Name*"
+                        placeholder="First Name*"
                     />
                     <input
                         id="last_name" maxLength="80" name="last_name" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Surname*"
+                        placeholder="Last Name*"
                     />
                 </div>
                 <div className='flex gap-3 lg:flex-row flex-col'>
@@ -67,13 +67,13 @@ export default function ContactForm({ title, className, padding }) {
                     <input
                         id="title" maxLength="40" name="title" type="text"
                         className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Job Title*"
+                        placeholder="Role*"
                     />
                     <input
                         id="phone" maxLength="10" name="phone" 
                       
                         className="mt-1 block px-3 py-2 lg:w-1/4  border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Phone*"
+                        placeholder="Phone"
                     />
                 </div>
                 <div className="pb-5">
