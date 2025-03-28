@@ -542,7 +542,7 @@ const Home = () => {
 
       {/* industries experties section section*/}
       <section>
-        <div className='bg-[#EFEFEF] mt-20 xl:pb-28'>
+        <div className='bg-[#EFEFEF] mt-20'>
           <div className='grid xl:grid-cols-2 grid-cols-1 xl:ml-[280px] md:mx-[300px]  mx-6 pt-10'>
             <div>
               <h2 className='xl:w-[70%] w-full'>Industry Expertise and Solutions</h2>

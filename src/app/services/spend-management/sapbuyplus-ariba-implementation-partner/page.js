@@ -96,9 +96,9 @@ export default function Page() {
                     <div className="container mx-auto h-full flex flex-col justify-center">
                         <div className="flex flex-col">
                             <h3 className="text-white text-[300] font-medium mb-2">SAP Ariba</h3>
-                            <h1 className="text-white max-w-2xl">
+                            <h2 className="text-white max-w-2xl">
                                 Infuse intelligence into your Sourcing and Procurement Operations
-                            </h1>
+                            </h2>
                         </div>
                         <div className="md:w-32 w-20 pt-6">
                             <Image
@@ -129,7 +129,7 @@ export default function Page() {
                     <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
                         <div className="flex flex-col xl:flex-row py-6 xl:gap-32">
                             <div className="flex flex-col w-full xl:max-w-lg xl:mb-0 mb-4">
-                                <h1 className="text-black md:pb-0 pb-4">Digitally Transform Your Ariba Experience with Strategic SAP Solutions</h1>
+                                <h1 className="text-black md:pb-0 pb-4">Digitally Transform Your Ariba Experience with Strategic SAP Ariba Solutions</h1>
                             </div>
                             <div className="flex flex-col w-full">
                                 <p className="text-[#000000]">As an SAP Global Strategic Services Partner, we provide a comprehensive range of services, from strategic consulting to implementation and ongoing support. From initial consultation to the implementation of SAP Ariba solutions, we are your digital transformation partners, ready to reinvent your procurement operations, decision-making, and contract management processes.</p>
@@ -266,7 +266,7 @@ export default function Page() {
                     <section className="py-8">
                         <div className="container mx-auto">
                             <h2 className="pb-8 text-black xl:w-[60%] w-full">Digitalize your Sourcing, Purchasing & Procurement</h2>
-                            <div className="grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-20 mt-5">
+                            <div className="grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 xl:gap-20 gap-10 mt-5">
                                     <div className="flex flex-col">
                                         <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">15%</h2>
                                         <p className="text-black">Savings on procurement costs through strategic sourcing.</p>
@@ -287,14 +287,14 @@ export default function Page() {
 
             {/* Contact Form */}
             < div
-                className=" mt-20 mb-20
+                className="pb-16
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black"
             >
                 <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
 

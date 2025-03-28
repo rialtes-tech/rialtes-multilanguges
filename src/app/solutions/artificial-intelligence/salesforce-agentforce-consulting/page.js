@@ -170,7 +170,7 @@ export default function Agentforce() {
                 <Image
                     src="/images/salesforce-consulting-services/agentforceb.png"
                     alt="Salesforce Consulting Team"
-                    className="transform transition-transform duration-500 group-hover:scale-110  h-[230px] md:h-[400px]"
+                    className="transform transition-transform duration-500 group-hover:scale-110  h-[300px] md:h-[535px] xl:h-full"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -180,10 +180,10 @@ export default function Agentforce() {
                     }}
                     priority
                 />
-                <div className="absolute px-6 xl:pl-[915px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[11%] md:top-[34%] text-black">
+                <div className="absolute px-6 xl:pl-[915px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[11%] md:top-[34%] xl:text-black text-white">
                     <h4 className="font-bold">Agentforce</h4>
-                    <h2 className="lg:text-4xl text-2xl mt-3 xl:w-[60%]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
-                    <div className="lg:mt-10">
+                    <h2 className="mt-3 xl:w-[60%]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
+                    <div className="mt-10">
                         <Image
                             src="/images/salesforce-consulting-services/salesforce-partner.webp"
                             className="w-[30%] h-full bg-transperent"
@@ -202,7 +202,7 @@ export default function Agentforce() {
                     <h1>Salesforce Agentforce: What You Need To Know</h1>
                 </div>
             </div>
-            <div className="flex gap-32 px-6 xl:pl-[280px] md:px-[100px]  flex-col lg:flex-row lg:mt-10 mt-5">
+            <div className="flex xl:gap-32 gap-10 px-6 xl:pl-[280px] md:px-[100px]  flex-col lg:flex-row lg:mt-10 mt-5">
                 <div className="lg:w-1/2">
                     <p>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                     <p className="mt-10">Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.</p>
@@ -219,9 +219,9 @@ export default function Agentforce() {
                     />
                 </div>
             </div>
-            <section className="lg:mt-20 px-6 xl:px-[280px] md:pl-[100px] mt-10">
+            <section className="mt-20 px-6 xl:px-[280px] md:pl-[100px]">
                 <h2 className="xl:w-[70%] w-full">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
-                <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-10 gap-10 md:grid-cols-2">
+                <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-10 xl:gap-10 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
                             <div key={sales.id}>
@@ -260,9 +260,9 @@ export default function Agentforce() {
                 <LearnMore/>
 
             </section>
-            <section className="lg:mt-20 px-6 xl:px-[280px] md:pl-[100px] mt-10">
+            <section className="mt-20 px-6 xl:px-[280px] md:pl-[100px]">
                 <h2 className="xl:w-[75%]">The Building Blocks to Configure Your Agentforce Agents</h2>
-                <div className="flex mt-10 flex-col lg:flex-row gap-16">
+                <div className="flex mt-10 flex-col lg:flex-row xl:gap-16 gap-5">
                     <div className="flex xl:gap-5">
                         <div>
                             <Image
@@ -330,7 +330,7 @@ export default function Agentforce() {
                 </div>
             </section>
             {/* //industries benifites */}
-            <section className="lg:mt-20 px-6 xl:pl-[280px] lg:pr-[100px] md:pl-[100px] mt-10">
+            <section className="mt-20 px-6 xl:pl-[280px] lg:pr-[100px] md:pl-[100px]">
                 <h2 className="xl:w-[60%] w-full">Industry-specific Benefits That We Bring to Our Clients</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
 
@@ -363,7 +363,7 @@ export default function Agentforce() {
                 </div>
             </section>
 
-            <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20">
+            <section className="bg-[#F5F5F5] lg:mt-32 mt-10 py-10">
                 <div
                     className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
                 >

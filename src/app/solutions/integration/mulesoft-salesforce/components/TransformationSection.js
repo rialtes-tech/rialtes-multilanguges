@@ -1,3 +1,4 @@
+import LearnMore from "@/app/components/learnMore";
 import Image from "next/image";
 import React from "react";
 import { GoDotFill } from "react-icons/go";
@@ -28,21 +29,26 @@ const pointsData = [
 
 const TransformationSection = () => (
   <div className="py-24">
-    <div className="containerr flex items-start max-xl:flex-col justify-between">
+    <div className="containerr flex items-start max-xl:flex-col justify-between gap-10">
       <div className="w-full xl:max-w-[50%] max-w-full">
-        <h2 className="lg:text-6xl text-2xl lg:leading-[75px] w-full mb-8">
+        <h2 className="w-full mb-8">
           Unleashing Digital Transformation with Robust Integration Solution
         </h2>
-        <p className="w-full lg:text-xl text-base">
+        <p className="w-full">
           Unleashing Digital Transformation with Robust Integration Solution
         </p>
 
         <ul className="mt-[40px]">
           {pointsData.map(({ _id, points }) => (
-            <li key={_id} className="flex items-center gap-2 mb-4">
-              <GoDotFill className="text-xs text-[#0092E0]" />
-              <p className="font-medium text-xl">{points}</p>
-            </li>
+           
+
+<li
+key={_id}
+className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
+>
+{points}
+</li>
+
           ))}
         </ul>
       </div>
@@ -56,6 +62,11 @@ const TransformationSection = () => (
           alt=""
         />
       </div>
+
+    </div>
+    <div className="xl:ml-[280px] px-6 xl:px-0">
+    <LearnMore/>
+
     </div>
   </div>
 );

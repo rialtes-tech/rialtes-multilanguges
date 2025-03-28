@@ -56,7 +56,7 @@ const slides = [
   {
     id: 3,
     url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-    imgSrc: "/images/case-studies/case-study-1_thumb.webp",
+    imgSrc: "/images/case-studies/manufac-caro.png",
     title: "Streamlined DevOps using Copado and Salesforce",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
