@@ -97,13 +97,14 @@ const Footer = () => {
                       <p> <Link href="/about-us">About Us</Link></p>
                         <p className="mt-3"><Link href="/industry">Industries</Link></p>
                         <p className="mt-3"><Link href="/insights">Insights</Link></p>
-                        <p className="mt-3"><Link href="/contact-us">Contact Us</Link></p>
                     </div>
                     <div>
                         <div>
                             <p><Link href="/terms-of-use">Terms of use</Link></p>
                             <p className="mt-3"><Link href="/privacy-policy">Privacy Notice</Link></p>
-                            <p className="mt-3"><Link href="/cookie">Cookie Notice</Link></p>
+                            <p className="mt-3"><Link href="/contact-us">Contact Us</Link></p>
+
+                            {/* <p className="mt-3"><Link href="/cookie">Cookie Notice</Link></p> */}
                         </div>
                     </div>
                 </div>

@@ -294,7 +294,7 @@ const Home = () => {
 
   const CarouselItem = ({ imageUrl, label, description, alt, url }) => (
     <div className="relative group overflow-hidden w-[95%]">
-      <div className='absolute w-full inset-0 bg-black opacity-50 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
+      <div className='absolute w-full inset-0 bg-black opacity-30 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
       <Image
         loading="lazy"
         className="object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500"
@@ -303,7 +303,7 @@ const Home = () => {
         alt={alt}
         src={imageUrl}
       />
-      <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-50 text-white  group-hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-30 text-white  group-hover:opacity-100 transition-opacity duration-300">
         <span>{label}</span>
         <p className="absolute mb-5 bottom-10">{description}</p>
         <Link href={'/' + url}>
@@ -322,7 +322,7 @@ const Home = () => {
       {/* main slider */}
       <section>
         <ResponsiveCarousel
-          autoPlay={false}
+          autoPlay={true}
           infiniteLoop={true}
           interval={2000}
           renderIndicator={renderIndicator}
@@ -461,7 +461,7 @@ const Home = () => {
           {successStoryData.map((success) => {
             return (
               <div key={success.id} className='relative group overflow-hidden w-[95%]'>
-                <div className='absolute w-full inset-0 bg-black opacity-50 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
+                <div className='absolute w-full  bg-black  transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>
                 <Image
                   loading="lazy"
                   height='100'
@@ -471,7 +471,7 @@ const Home = () => {
                   src={success?.imageUrl}
                 />
                 {/* Title with hover effect */}
-                <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-50 text-white  group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute w-full pt-5 pl-5 inset-0 bg-black bg-opacity-30 text-white  group-hover:opacity-100 transition-opacity duration-300">
                   <span> {success.title}</span>
                   <p className="absolute mb-5 bottom-10">{success.description}</p>
                   <Link href={'/' + success.url}>
@@ -542,7 +542,7 @@ const Home = () => {
 
       {/* industries experties section section*/}
       <section>
-        <div className='bg-[#EFEFEF] mt-20'>
+        <div className='bg-[#EFEFEF] mt-20 py-10'>
           <div className='grid xl:grid-cols-2 grid-cols-1 xl:ml-[280px] md:mx-[300px]  mx-6 pt-10'>
             <div>
               <h2 className='xl:w-[70%] w-full'>Industry Expertise and Solutions</h2>
