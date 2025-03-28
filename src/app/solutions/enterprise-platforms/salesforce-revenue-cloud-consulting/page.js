@@ -198,7 +198,7 @@ export default function HealthCloud() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
-                    <section className="py-10">
+                    <section className="py-5">
                         <div className="container mx-auto">
                             <h2 className="pb-4 text-black">Reduce Revenue Pitfalls, Supercharge Your Sales Funnel</h2>
                             <p className="pb-8">Businesses using Revenue Cloud have reported:</p>
@@ -243,7 +243,7 @@ export default function HealthCloud() {
 
             </div>
 
-            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
+            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080]  mt-10 py-10'>
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">

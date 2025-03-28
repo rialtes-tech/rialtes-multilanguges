@@ -18,7 +18,7 @@ const slides = [
     id: 2,
     image: "/images/case-studies/case-study-2_thumb.webp",
     category: "Real Estate",
-    industry: "Hi-tech",
+    industry: "Hi-Tech",
     date: "22 Dec 2024",
     title: "RealForce Banking Module - ACH",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
@@ -72,7 +72,7 @@ const slides = [
     id: 8,
     image: "/images/case-studies/case-study-8_thumb.webp",
     category: "Salesforce",
-    industry: "Hi-tech",
+    industry: "Hi-Tech",
     date: "25 Oct 2024",
     title: "RealForce Banking Module - ACH",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
@@ -92,7 +92,7 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/case-studies/case-study-1.webp "
+          src="/images/case-studies/case study 3_n 1.webp "
           alt="Streamlined DevOps using Copado and Salesforce"
           fill
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}

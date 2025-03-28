@@ -61,7 +61,7 @@ const latestServices = [
 ];
 
 const ServicesCard = ({ services }) => (
-  <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
+  <div className="h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
       <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69]">{services.title}</h3>
       <p className='md:mb-[15px] mb-0'>{services.description}</p>
@@ -71,13 +71,12 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20 pr-6 mt-20">
+    <div className="text-black 2xl:pr-80 xl:pr-40 md:pr-20 pr-6 mt-20">
       <h2 className="text-black mb-6">Find the right property management software online with Rialtes</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
         ))}
-        <LearnMore/>
       </div>
     </div>
   );
@@ -213,12 +212,12 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center mt-[-65px] xl:mt-0">
             <div className="flex flex-col">
               <h3 className="text-white text-[300] font-medium mb-2">REAL ESTATE</h3>
-              <h1 className="text-white max-w-2xl">
+              <h2 className="text-white max-w-2xl">
               Manage real estate processes with cloud-based property management software
-              </h1>
+              </h2>
             </div>
 
           </div>
@@ -237,7 +236,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col xl:flex-row py-6 gap-20">
+            <div className="flex flex-col xl:flex-row py-6 xl:gap-20">
               <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4 ">
                 <h1 className="text-black md:pb-0 pb-4">Affordable property management software for your real estate operations</h1>
               </div>
@@ -266,7 +265,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
+        <section className="pb-16 xl:pt-0 bg-white">
           <GrowServices />
         </section>
       </div>
@@ -280,10 +279,10 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="pb-16  pt-20">
+        <section className="pb-16  pt-10">
         <h2>The #1 CRM for real estate business</h2>
          
-<div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-16 gap-20">
+<div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-16 mt-5 xl:gap-20 gap-10">
     <div>
         <p>Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
     </div>
@@ -304,7 +303,6 @@ export default function Page() {
       {/* Latest Services Section */}
       <div
         className="
-        container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
@@ -314,6 +312,7 @@ export default function Page() {
         <section className="pb-16 bg-white">
 
           <Services />
+          <LearnMore/>
 
         </section>
       </div>

@@ -72,7 +72,7 @@ const slides = [
     id: 8,
     image: "/images/case-studies/case-study-8_thumb.webp",
     category: "Salesforce",
-    industry: "Hi-tech",
+    industry: "Hi-Tech",
     date: "25 Oct 2024",
     title: "RealForce Banking Module - ACH",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
@@ -91,7 +91,7 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/case-studies/case-study-2.webp "
+          src="/images/case-studies/case study 2_n 1.webp "
           alt="RealForce Banking Module - ACH"
           fill
           style={{ objectFit: "cover", objectPosition: "10% 20%" }}

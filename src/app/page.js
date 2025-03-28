@@ -141,7 +141,7 @@ const Home = () => {
     // },
     {
       id: 5,
-      title: 'Hi-tech',
+      title: 'Hi-Tech',
       description: 'Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.',
       knowMore: 'Know More',
       url: 'industry/hitech-semiconductor'
@@ -159,7 +159,7 @@ const Home = () => {
   const successStoryData = [
     {
       id: 1,
-      imageUrl: '/images/homepage/case1.webp',
+      imageUrl: '/images/homepage/case study 1_thumb_long.webp',
       title: 'HealthCare',
       description: 'Mulesoft for Salesforce Health Cloud and SAP',
       para: 'Expand',
@@ -168,7 +168,7 @@ const Home = () => {
     },
     {
       id: 2,
-      imageUrl: '/images/homepage/case2.webp',
+      imageUrl: '/images/homepage/case study 2_thumb_long.webp',
       title: 'Real Estate',
       description: 'RealForce Banking Module - ACH',
       para: 'Expand',
@@ -177,7 +177,7 @@ const Home = () => {
     },
     {
       id: 3,
-      imageUrl: '/images/homepage/case3.webp',
+      imageUrl: '/images/homepage/case study 3_thumb_long.webp',
       title: 'Manufacturing',
       description: 'Streamlined DevOps using Copado and Salesforce',
       para: 'Expand',
@@ -252,13 +252,43 @@ const Home = () => {
       description: 'How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration',
       url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration'
     },
+   
     {
-      id: 4,
-      imageUrl: '/images/homepage/blog4.png',
-      label: 'Case Study',
-      description: 'Omnichannel case management with Salesforce Service Cloud',
-      url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
+      id: 5,
+      imageUrl: '/images/blog/blog-9-logn-thumb.webp',
+      label: 'Blogs',
+      description: 'How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives',
+      url: 'insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives'
     },
+    {
+      id: 6,
+      imageUrl: '/images/blog/blog-10-long-thumb.webp',
+      label: 'Blogs',
+      description: 'Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions',
+      url: 'insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions'
+    },
+    {
+      id: 7,
+      imageUrl: '/images/blog/blog-11-long-thumb.webp',
+      label: 'Blogs',
+      description: 'Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce',
+      url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce'
+    },{
+      id: 8,
+      imageUrl: '/images/blog/blog-12-long-thumb.webp',
+      label: 'Blogs',
+      description: 'Agentforce Agents Scales Enterprise Resource Planning Systems with AI',
+      url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai'
+    },{
+      id: 9,
+      imageUrl: '/images/blog/blog-13-long-thumb.webp',
+      label: 'Blogs',
+      description: 'How SAP SuccessFactors Enhances Remote Work Management',
+      url: 'insights/blogs/how-sap-successfactors-enhances-remote-work-management'
+    },
+   
+    
+   
   ];
 
 
@@ -292,7 +322,7 @@ const Home = () => {
       {/* main slider */}
       <section>
         <ResponsiveCarousel
-          autoPlay={true}
+          autoPlay={false}
           infiniteLoop={true}
           interval={2000}
           renderIndicator={renderIndicator}
@@ -322,7 +352,7 @@ const Home = () => {
                   sizes="100vw"
                   style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[326px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  className="w-full h-[360px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 1 1.webp"
                 />
@@ -357,7 +387,7 @@ const Home = () => {
                   sizes="100vw"
                   style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[326px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  className="w-full h-[360px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 2 1.webp"
                 />
@@ -391,7 +421,7 @@ const Home = () => {
                   sizes="100vw"
                   style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[326px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  className="w-full h-[360px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 3 1.webp"
                 />

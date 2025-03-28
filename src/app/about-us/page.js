@@ -206,12 +206,11 @@ export default function About() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row gap-8 mb-16 items-center">
-              <div className="w-[300px] md:w-1/5">
-                <h2 className="text-[#000000]">Our Values</h2>
-              </div>
+        <section className="pb-10 xl:py-16 bg-white">
+          <div>
+            <div className="flex flex-col md:flex-row gap-8 mb-16">
+            <h2 className="text-[#000000]">Our Values</h2>
+
               <div className="w-full md:w-3/5">
                 <p className="text-[#000000]">
                   Our values are not just words on a page, they are the essence
@@ -394,7 +393,7 @@ export default function About() {
             <div className="flex justify-start">
               <button className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
                 <span className="inline-flex items-center group-hover:-translate-x-1 transition-transform duration-300">
-                  <Link href='partners'>  View All Our Partners</Link>
+                  <Link href='/about-us/global-alliences'>  View All Our Partners</Link>
                   <span className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 ml-1">
                     &gt;
                   </span>
@@ -429,7 +428,7 @@ export default function About() {
                   excellence and innovation.
                 </p>
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4">
-                  <Link href=''>  Know Our Leaders</Link>
+                  <Link href='/about-us/leadership'>  Know Our Leaders</Link>
                 </button>
               </div>
 
@@ -464,7 +463,7 @@ export default function About() {
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black py-20"
+        text-black pb-16 xl:py-20"
       >
         <ContactForm />
       </div>
