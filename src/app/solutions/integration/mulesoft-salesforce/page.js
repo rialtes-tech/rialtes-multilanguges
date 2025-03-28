@@ -12,9 +12,9 @@ import ContactForm from "../../../components/contactform";
 const ContentSection = () => (
   <div className="lg:py-28 py-14">
     <div className="containerr flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
-      <h2 className="lg:text-6xl text-2xl lg:leading-[80px] w-full md:max-w-[50%] max-w-full">
+      <h1 className="w-full md:max-w-[50%] max-w-full">
         Leading Platform to Unlock an Integrated View of Your Business
-      </h2>
+      </h1>
       <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base">
         An integration solution should help businesses establish connectivity
         and address integration challenges. MuleSoft offers a future-proof,
@@ -36,7 +36,7 @@ const page = () => (
     <Serve />
     <Outcomes />
     <div
-      className=" py-[69px]
+      className="
         bg-[#F5F5F5]"
     >
       <div
@@ -61,16 +61,16 @@ const page = () => (
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  py-10"
+  "
       >
         <InsightsCarousel />
       </div>
     </div>
     <div
-      className=" py-[69px]
+      className="py-[30px]
         bg-[#808080]"
     >
-      <div className=" py-[69px]">
+      <div>
         <div
           className="ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]

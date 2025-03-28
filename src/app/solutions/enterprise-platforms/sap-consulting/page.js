@@ -191,12 +191,12 @@ export default function Page() {
               xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
                     <div className="container  text-black mx-auto pl-6 h-full flex flex-col xl:justify-center">
-                        <div className="flex flex-col xl:place-self-end ">
+                        <div className="flex flex-col xl:place-self-end mt-[20%] xl:mt-0 ml-[50px] xl:ml-0">
                             <h3 className="text-[200] font-bold mb-2">SAP Consulting</h3>
                             <h1>
                                 Leaning towards a better tomorrow.
                             </h1>
-                            <h3 className="w-[75%] font-bold">Confidently Reduce efforts and increase efficiency with SAP solutions.</h3>
+                            <h3 className="w-[75%] font-bold xl:block hidden">Confidently Reduce efforts and increase efficiency with SAP solutions.</h3>
                             <div className="md:w-32 w-20 pt-6">
                                 <Image
                                     src="/images/success-factors/sap-partner-logo.webp"
@@ -344,7 +344,7 @@ export default function Page() {
         md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black"
+  text-black xl:pt-10"
             >
                 <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 

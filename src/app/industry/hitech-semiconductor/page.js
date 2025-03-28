@@ -44,7 +44,8 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
-     <LearnMore/>
+      <div className="mt-0">     <LearnMore/>
+      </div>
     </div>
   );
 };
@@ -104,9 +105,10 @@ const GrowServicesCard = ({ services }) => (
     <div className="flex flex-col pt-4">
       <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
     </div>
-    <p className='md:mb-[15px] mb-10'>{services.description}</p>
+    <p className='md:mb-[15px]'>{services.description}</p>
     {services.listitems}
-   <LearnMore/>
+    <div className="mt-[-30px] xl:mt-0">   <LearnMore/>
+    </div>
   </div>
 );
 
@@ -115,7 +117,7 @@ const GrowServices = () => {
     <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
       <h2 className="pb-10 text-black">Boost Solutions & Innovation with Rialtes</h2>
       <p className="pb-8">The tech world continually shifts and moves like a living creature lost in a cave. Every day, you hear about incredible innovation that transforms how we do business. If you want to stay updated on the latest tools, benefits, and features of how the Hi-Tech world moves, you will benefit from our team at Rialtes. With services ranging from IoT consulting services to semiconductor manufacturing software, we are your comprehensive guide to all things digital.</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 lg:gap-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-14 lg:gap-28">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
         ))}
@@ -175,7 +177,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col xl:flex-row py-6 gap-32">
+            <div className="flex flex-col xl:flex-row py-6 xl:gap-32">
               <div className="flex flex-col w-full xl:max-w-xl xl:mr-10 xl:mb-0 mb-4">
                 <h1 className="text-black md:pb-0 pb-4 xl:text-[45px]">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
               </div>
@@ -199,7 +201,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="py-16 bg-white">
+        <section className="xl:py-16 bg-white">
           <GrowServices />
         </section>
       </div>
@@ -208,7 +210,7 @@ export default function Page() {
 
       {/* Latest Services Section */}
       <div
-        className="
+        className="py-10
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
