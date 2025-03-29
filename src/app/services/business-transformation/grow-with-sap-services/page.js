@@ -5,7 +5,6 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import Link from "next/link";
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
@@ -300,9 +299,7 @@ export default function Page() {
 
                   <li className="pb-4"><span className="font-semibold">Community and Networking Opportunities:</span> Access a global community of SAP customers and partners to share insights, best practices, and growth strategies.</li>
                 </ul>
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                  <Link href=''>Learn More</Link>
-                </button>
+                <LearnMore/>
               </div>
               <div className="flex flex-col w-full">
                 <div className="relative overflow-hidden">

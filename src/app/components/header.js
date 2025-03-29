@@ -75,8 +75,6 @@ const Header = () => {
 
   const handleLinkClick = () => {
     setActiveLink(null);  // Close the card
-    onMenuItemClick(); // Call the menu item click handler passed as prop
-
   };
   const handleSubLinkClick = (label) => {
     setActiveSubLink(label); // Set the submenu link as active
@@ -272,7 +270,7 @@ const Header = () => {
               ) : (
                 <Link
                   href={link.href}
-                  onClick={() => handleLinkClick(link.label)} // Track active link
+                  onClick={onMenuItemClick}// Track active link
                   className={`text-sm ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
                 >
                   <h5>{link.label}</h5>
