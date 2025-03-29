@@ -72,7 +72,7 @@ export default function Contact() {
         { src: "/images/partners/sapa.png", alt: "Sapa" },
         { src: "/images/partners/smartsheet-logo.png", alt: "Smarts" },
         { src: "/images/partners/Tableau-Logo-2.png", alt: "Table" },
-        { src: "/images/partners/UIPath.png", alt: "Uipa" },
+        { src: "/images/partners/UiPath.png", alt: "Uipa" },
         { src: "/images/partners/windo1.webp", alt: "Windo" },
         { src: "/images/partners/vistex.webp", alt: "Vix" },
     ];

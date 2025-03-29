@@ -20,7 +20,7 @@ const latestCaseStudy = [
   {
 
     id: 2,
-    image: "/images/case-studies/case-study-1_thumb.webp",
+    image: "/images/case-studies/manufac-caro.png",
     industry: "Manufacturing",
     date: "8 Jan 2025",
     url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
@@ -29,7 +29,7 @@ const latestCaseStudy = [
   },
   {
     id: 3,
-    image: "/images/case-studies/case-study-2_thumb.webp",
+    image: "/images/case-studies/realestate-carosesel.png",
     industry: "Real Estate",
     date: "22 Dec 2024",
     url: "/insights/case-studies/realForce-banking-module-ach",
@@ -38,7 +38,7 @@ const latestCaseStudy = [
   },
   {
     id: 4,
-    image: "/images/case-studies/case-study-3_thumb.webp",
+    image: "/images/case-studies/healthcare-caro.png",
     industry: "Healthcare",
     date: "17 Nov 2024",
     url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
@@ -245,7 +245,7 @@ const FeaturedCarousel = () => {
   const slides = [
     {
       id: 1,
-      imgSrc: '/images/case-studies/case-study-slider-thumb-1.webp',
+      imgSrc: '/images/case-studies/healthcare-caro.png',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
       url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",

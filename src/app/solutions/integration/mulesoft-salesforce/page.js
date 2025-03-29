@@ -53,7 +53,7 @@ const page = () => (
       </div>
     </div>
     <div className=" py-[69px]">
-      <div
+      {/* <div
         className="
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
@@ -64,7 +64,7 @@ const page = () => (
   "
       >
         <InsightsCarousel />
-      </div>
+      </div> */}
     </div>
     <div
       className="py-[30px]
