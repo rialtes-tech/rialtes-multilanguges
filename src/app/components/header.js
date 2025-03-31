@@ -132,12 +132,12 @@ const Header = () => {
         },
       ],
     },
-    {
-      label: 'Products',
-      links: [
-        { label: 'AgentChat', href: '/products/agentchat' },
-      ],
-    },
+    // {
+    //   label: 'Products',
+    //   links: [
+    //     { label: 'AgentChat', href: '/products/agentchat' },
+    //   ],
+    // },
     {
       label: 'Services',
       links: [
@@ -290,9 +290,9 @@ const Header = () => {
     );
   };
   return (
-    <section className="fixed w-full bg-white top-0 z-50 shadow-md lg:pr-0 md:pr-36">
+    <section>
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
-
+<div className="fixed w-full bg-white top-0 z-50 shadow-md lg:pr-0 md:pr-36 hidden xl:block md:block lg:block">
       <div className="md:grid hidden relative bg-white my-auto mx-auto xl:gap-6 md:gap-4 container
       ml-[200px] w-[calc(100%-200px)]  
         xl:ml-[280px] xl:w-[calc(100%-280px)]
@@ -307,7 +307,7 @@ const Header = () => {
               height={0}
               sizes="100vw"
               src="/images/homepage/logo.svg"
-              style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+              style={{ objectFit:"cover", objectPosition:"35% 20%" }}
               priority
             />
           </Link>
@@ -1246,10 +1246,11 @@ const Header = () => {
           </div>
         )}
       </div>
+      </div>
 
       {/* ///mobile menu */}
       <div>
-        <div className="xl:hidden md:hidden flex justify-between items-center px-4">
+        <div className="xl:hidden md:block  flex justify-between items-center px-4" id="mobile-menu">
           <Link href='/'>
             <Image
               loading="lazy"

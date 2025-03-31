@@ -83,7 +83,6 @@ export default function Leadership() {
                     sizes="100vw"
                     style={{
                         width: "100%",
-                       
                         objectFit: "cover",
                     }}
                     priority
@@ -117,7 +116,6 @@ export default function Leadership() {
                                         sizes="100vw"
                                         style={{
                                             width: "100%",
-                            
                                             objectFit: "cover",
                                         }}
                                         priority

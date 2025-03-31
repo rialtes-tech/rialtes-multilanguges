@@ -5,81 +5,58 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 
 const slides = [
-  /* {
-    id: 1,
-    image: "/images/case-studies/case-study-1_thumb.webp",
-    category: "Manufacturing",
-    industry: "Retail & e-Commerce",
-    date: "8 Jan 2025",
-    title: "Streamlined DevOps using Copado and Salesforce",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-  }, */
   {
-    id: 2,
-    image: "/images/case-studies/case-study-2_thumb.webp",
-    category: "Real Estate",
-    industry: "Hi-Tech",
-    date: "22 Dec 2024",
-    title: "RealForce Banking Module - ACH",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-  {
-    id: 3,
-    image: "/images/case-studies/case-study-3_thumb.webp",
-    category: "Healthcare",
-    industry: "Real Estate",
-    date: "17 Nov 2024",
-    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-    description: "A global medical technology company that develops and manufactures innovative products",
-  },
-  {
-    id: 4,
-    image: "/images/case-studies/case-study-4_thumb.webp",
-    category: "Real Estate",
-    industry: "Healthcare",
-    date: "14 Oct 2024",
-    title: "Omnichannel case management with Salesforce Service Cloud",
-    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-  },
-  {
-    id: 5,
-    image: "/images/case-studies/case-study-5_thumb.webp",
-    category: "Public Sector",
-    industry: "Finance",
-    date: "27 Sept 2024",
-    title: "A public housing in US",
-    description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
-  },
-  {
-    id: 6,
-    image: "/images/case-studies/case-study-6_thumb.webp",
-    category: "Healthcare",
-    industry: "Manufacturing",
-    date: "4 Sept 2024",
-    title: "Yardi Managed Services",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-  {
-    id: 7,
-    image: "/images/case-studies/case-study-7_thumb.webp",
-    category: "SAP",
-    industry: "Retail & e-Commerce",
-    date: "25 Oct 2024",
-    title: "Streamlined DevOps using Copado and Salesforce",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-  },
-  {
-    id: 8,
-    image: "/images/case-studies/case-study-8_thumb.webp",
-    category: "Salesforce",
-    industry: "Hi-Tech",
-    date: "25 Oct 2024",
-    title: "RealForce Banking Module - ACH",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-  // Add more blog objects as needed
+   id: 3,
+   image: "/images/case-studies/healthcare-caro.png",
+   category: "Healthcare",
+   industry: "Real Estate",
+   date: "17 Nov 2024",
+   title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+   description: "A global medical technology company that develops and manufactures innovative products",
+   url:'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+ },
+ {
+   id: 4,
+   image: "/images/case-studies/case-study-4_thumb.webp",
+   category: "Real Estate",
+   industry: "Healthcare",
+   date: "14 Oct 2024",
+   title: "Omnichannel case management with Salesforce Service Cloud",
+   description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+   url:'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
+ },
+ {
+   id: 6,
+   image: "/images/case-studies/case-study-6_thumb.webp",
+   category: "Healthcare",
+   industry: "Manufacturing",
+   date: "4 Sept 2024",
+   title: "Yardi Managed Services",
+   description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+ url:'insights/case-studies/yardi-managed-services'
+ },
+ {
+   id: 7,
+   image: "/images/case-studies/manufac-caro.png",
+   category: "SAP",
+   industry: "Retail & e-Commerce",
+   date: "25 Oct 2024",
+   title: "Streamlined DevOps using Copado and Salesforce",
+   description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+ url:"insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+ },
+ {
+   id: 8,
+   image: "/images/case-studies/realestate-carosesel.png",
+   category: "Salesforce",
+   industry: "Hi-Tech",
+   date: "25 Oct 2024",
+   title: "RealForce Banking Module - ACH",
+   description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+ url:'insights/case-studies/realForce-banking-module-ach'
+ },
+ // Add more blog objects as needed
 ];
-
 
 export default function Page() {
   return (
@@ -216,7 +193,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-        className="
+        className="py-10
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]

@@ -352,7 +352,7 @@ const Home = () => {
                   sizes="100vw"
                   style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[360px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 1 1.webp"
                 />
@@ -387,7 +387,7 @@ const Home = () => {
                   sizes="100vw"
                   style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[360px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 2 1.webp"
                 />
@@ -421,7 +421,7 @@ const Home = () => {
                   sizes="100vw"
                   style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[360px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
+                  className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 3 1.webp"
                 />
