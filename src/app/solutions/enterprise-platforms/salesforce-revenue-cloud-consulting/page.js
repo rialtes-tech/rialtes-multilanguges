@@ -7,6 +7,7 @@ import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 export default function HealthCloud() {
@@ -80,6 +81,12 @@ export default function HealthCloud() {
 
     return (
         <section>
+               <Seo
+        title="Salesforce Revenue Cloud Implementation Partners | Rialtes"
+        description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
+        keywords="home, website, welcome"
+      />
+
             <div className="relative h-[350px] sm:h-[500px] lg:h-[837px] overflow-hidden">
                 <Image
                     src="/images/revenue-cloud/revenue-cloud-banner.webp"

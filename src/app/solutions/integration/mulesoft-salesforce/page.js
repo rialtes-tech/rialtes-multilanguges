@@ -8,6 +8,7 @@ import FeaturedCarousel from "../../../components/servicesFeaturedCarousel";
 import InsightsCarousel from "../../../components/servicesInsightsCarousel";
 import ExploreMoreCarousel from "../../../components/servicesExploreMoreCarousel";
 import ContactForm from "../../../components/contactform";
+import Seo from "@/app/components/Seo";
 
 const ContentSection = () => (
   <div className="lg:py-28 py-14">
@@ -29,6 +30,10 @@ const ContentSection = () => (
 
 const page = () => (
   <>
+  <Seo
+        title="Salesforce Integration with MuleSoft Consulting | Rialtes"
+        keywords="home, website, welcome"
+      />
     <Banner />
     <ContentSection />
     <ServiceSection />

@@ -5,17 +5,16 @@ import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 export default function Page() {
 
     return (
         <div className="min-h-screen bg-white">
-            <Head>
-                <title>Rise with SAP | Company Name</title>
-                <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
+            <Seo
+                title="AgentChat"
+                keywords="Contact, website, welcome"
+            />
             <div className="relative bg-[#E8E8E8] xl:h-[1100px] h-[900px] xl:mt-[14rem]">
                 <div className="xl:mt-20  h-[700px] absolute
                         ml-[15px] w-[calc(100%-15px)]

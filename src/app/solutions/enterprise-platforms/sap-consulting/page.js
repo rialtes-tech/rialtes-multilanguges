@@ -8,6 +8,7 @@ import CarouselComponent from "../../../components/useCarousel";
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import Link from "next/link";
+import Seo from "@/app/components/Seo";
 
 
 const solutionSuccess = [
@@ -166,11 +167,12 @@ export default function Page() {
 
     return (
         <div className="min-h-screen bg-white">
-            <Head>
-                <title>SAP Consulting | Rialtes</title>
-                <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+              <Seo
+        title="SAP Consulting and Implementation Services Company | Rialtes"
+        description="Our SAP consulting and implementation services, with AI at their core, simplify the process, so you can focus on what matters most—growing your business."
+        keywords="home, website, welcome"
+      />
+
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] group overflow-hidden">
                 <Image

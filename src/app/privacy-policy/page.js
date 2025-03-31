@@ -2,6 +2,7 @@
 // pages/case-study-detail.js
 import Head from "next/head";
 import Image from "next/image";
+import Seo from "../components/Seo";
 
 
 
@@ -9,11 +10,11 @@ import Image from "next/image";
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
-            <Head>
-                <title>Streamlined DevOps using Copado and Salesforce | Company Name</title>
-                <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+           <Seo
+                title="Privacy Policy | Rialtes"
+                description="Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services."
+                keywords="Contact, website, welcome"
+            />
 
 
 
@@ -69,13 +70,13 @@ export default function Page() {
                             <p>We takes appropriate technical and organizational measures to safeguard your data against unauthorized access, alteration, disclosure, or destruction. While we strive to use commercially acceptable means to protect your information, no transmission method over the internet is 100% secure.  </p>
                             <h3 className=" text-[#0092E0] pb-2 mt-10">Your Rights and Choices</h3>
                             <p>Depending on your location, you may have rights regarding your personal information, including:</p>
-                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3">
                                 <li className="pb-4 text-black">The right to access, correct, or delete your data.</li>
                                 <li className="pb-4 text-black">The right to restrict or object to data processing.</li>
                                 <li className="pb-4 text-black">The right to opt out of marketing communications.</li>
                                 <li className="pb-4 text-black">The right to disable cookies via your browser settings.</li>
                             </ul>
-                            <p>To exercise these rights, please contact us at (Email address). We will process your request per applicable laws.</p>
+                            {/* <p>To exercise these rights, please contact us at (Email address). We will process your request per applicable laws.</p> */}
 
                             <h3 className=" text-[#0092E0] pb-2 mt-10">Third-Party Links</h3>
                             <p>Our Website may contain links to third-party websites or services that are not operated by us. We are not responsible for their privacy policies or practices. We encourage you to review their policies before providing any personal data.</p>
@@ -83,8 +84,8 @@ export default function Page() {
                             <p>Our Website is intended for a general audience and is not directed at children under the age of 13. We do not knowingly collect personal data from children. If we become aware that we have inadvertently collected such information, we will take steps to delete it promptly.</p>
                             <h3 className=" text-[#0092E0] pb-2 mt-10">California Residents</h3>
                             <p>If you are a California resident, the California Consumer Privacy Act (CCPA) provides specific rights regarding your personal information. Businesses that collect personal data from California residents must inform you of their data practices and your rights.</p>
-                            <p>Under the CCPA, you have the right to:</p>
-                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                            <p className="mt-3">Under the CCPA, you have the right to:</p>
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3">
                                 <li className="pb-4 text-black">Request information about your personal information, including its categories, sources, business purpose, and disclosures to third parties.</li>
                                 <li className="pb-4 text-black">Request deletion of your personal information, with certain exceptions.</li>
                                 <li className="pb-4 text-black">Opt out of the sale of your personal information.</li>

@@ -112,8 +112,8 @@ const LocationPage = () => {
     return (
         <div className="">
             <Seo
-                title="Contact Us Page"
-                description="Welcome to the Rialtes On Contact Us"
+                title="Contact Us – Expert IT Consulting for Your Business Growth | Rialtes"
+                description="Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success."
                 keywords="Contact, website, welcome"
             />
             <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 xl:pr-16 pt-16">

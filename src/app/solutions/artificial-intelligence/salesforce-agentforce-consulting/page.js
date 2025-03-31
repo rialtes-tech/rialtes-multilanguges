@@ -5,6 +5,7 @@ import ServicesBlogs from '../../../components/servicesBlogs';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 export default function Agentforce() {
 
@@ -166,6 +167,12 @@ export default function Agentforce() {
 
     return (
         <section>
+               <Seo
+        title="Agentforce Consulting Services | Rialtes"
+        description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
+        keywords="home, website, welcome"
+      />
+
             <div className='relative group overflow-hidden'>
                 <Image
                     src="/images/salesforce-consulting-services/agentforceb.png"

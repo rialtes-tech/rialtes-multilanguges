@@ -7,6 +7,7 @@ import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ServicesBlogs from '../../../components/servicesBlogs';
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 const latestServices = [
@@ -120,11 +121,11 @@ export default function Page() {
   ];
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Success Factors | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+       <Seo
+        title="SuccessFactors Implementation Partners | Rialtes"
+        keywords="home, website, welcome"
+      />
+
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
