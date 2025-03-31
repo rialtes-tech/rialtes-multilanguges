@@ -145,8 +145,8 @@ export default function Contact() {
     return (
         <div>
             <Seo
-                title="Partners Page"
-                description="Welcome to the Rialtes On partners page"
+                title="Our Strategic Partners – Empowering Success with Rialtes"
+                description="Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success."
                 keywords="Partners, website, welcome"
             />
             <div className="relative">

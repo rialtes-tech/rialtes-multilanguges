@@ -12,11 +12,7 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={montserrat.variable}>
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>My Rialtes</title>
-      </head>
+     
       <body className="font-sans bg-[#ffffff]">
         <div className="w-full mx-auto max-w-[1920px]">
           <header>

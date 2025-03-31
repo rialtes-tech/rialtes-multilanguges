@@ -315,8 +315,8 @@ const Home = () => {
   return (
     <section>
       <Seo
-        title="Home Page - My Rialtes"
-        description="Welcome to the Rialtes"
+        title="IT Services and IT Consulting Company | Rialtes"
+        description="Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth."
         keywords="home, website, welcome"
       />
       {/* main slider */}

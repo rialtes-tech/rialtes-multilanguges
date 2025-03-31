@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 const featureBoxes = [
@@ -121,11 +122,12 @@ export default function DataCloud() {
 
   return (
     <div className="min-h-screen">
-      <Head>
-        <title>Webinar | Rialtes</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+        <Seo
+        title="Salesforce Data Cloud Consulting and Implementation Services | Rialtes"
+        description="Salesforce Data Cloud consulting services and expert-led implementation to drive innovation and boost your business performance with Rialtes."
+        keywords="home, website, welcome"
+      />
+
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

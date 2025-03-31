@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 
@@ -70,11 +71,10 @@ const Services2 = () => {
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
-            <Head>
-                <title>Grow with SAP | Company Name</title>
-                <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+             <Seo
+        title="SAP Ariba Implementation Partners | Rialtes"
+        keywords="home, website, welcome"
+      />
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image

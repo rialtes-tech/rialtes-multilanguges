@@ -3,15 +3,16 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contactform";
+import Seo from "../components/Seo";
 
 export default function About() {
   return (
     <div className="min-h-screen">
-      <Head>
-        <title>About Us | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+        title="Who We Are – IT Consulting & Digital Innovation at Rialtes"
+        description="As a trusted IT partner, Rialtes empowers organizations with Salesforce, AI, SAP, and automation solutions, driving transformation and excellence at every step."
+        keywords="home, website, welcome"
+      />
 
       <section className="relative h-[650px] bg-[url('/images/about-us/about-us-header.webp')] bg-cover bg-right overflow-hidden">
         <div

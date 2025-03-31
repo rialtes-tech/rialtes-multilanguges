@@ -8,6 +8,7 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 const latestServices = [
   {
@@ -65,11 +66,11 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Rise with SAP | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+     <Seo
+        title="Rise with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
+        description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
+        keywords="home, website, welcome"
+      />
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

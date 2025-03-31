@@ -8,6 +8,7 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 const latestServices = [
@@ -135,11 +136,11 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Grow with SAP | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+       <Seo
+        title="Grow with SAP Solutions: AI-Powered ERP for the Future | Rialtes"
+        description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
+        keywords="home, website, welcome"
+      />
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
