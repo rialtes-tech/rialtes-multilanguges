@@ -3,6 +3,7 @@
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import Link from "next/link";
 
 
 export default function RelatedTopicsCarousel({ slides }) {
@@ -107,7 +108,8 @@ export default function RelatedTopicsCarousel({ slides }) {
               <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                  <h5 className="my-4 line-clamp-4 font-bold">{slide.title}</h5>
+                  <Link href={'/'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
+
                 </div>
                 <p className="line-clamp-4">{slide.description}</p>
               </div>
