@@ -37,7 +37,7 @@ export default function Page() {
                             <p>You may download and print one copy of materials from this Website solely for personal, non-commercial use, if you do not modify the content and retain all copyright, trademark, and proprietary notices.</p>
                             <h3 className=" text-[#0092E0] pb-2 mt-10">No Warranties and Disclaimer</h3>
                             <p>This Website and all content provided herein are offered on an "as is" and "as available" basis without warranties of any kind, either express or implied. Rialtes expressly disclaims all warranties, including but not limited to:</p>
-                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3">
                                 <li className="pb-4 text-black">Warranties of merchantability, fitness for a particular purpose, non-infringement, or accuracy of content.</li>
                                 <li className="pb-4 text-black">Warranties that the Website will be uninterrupted, error-free, secure, or free from harmful elements such as viruses or malware.</li>
                                 <li className="pb-4 text-black">Any guarantee that information provided on the Website is up-to-date or applicable to your specific needs.</li>
@@ -63,7 +63,7 @@ export default function Page() {
                             <h3 className=" text-[#0092E0] pb-2 mt-10">Submissions and Confidentiality</h3>
                             <p>Unless expressly stated otherwise, any information submitted through this Website shall be deemed non-confidential and non-proprietary. By submitting information, you:</p>
 
-                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2">
+                            <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3">
                                 <li className="pb-4 text-black">Warrant that you have the legal right to do so and that the submission does not infringe upon any third-party rights.</li>
                                 <li className="pb-4 text-black">Agree that Rialtes shall have the unrestricted right to use, modify, distribute, and reproduce any information you provide without any compensation.</li>
                                 <li className="pb-4 text-black">Acknowledge that the open nature of the Internet means that we cannot guarantee the confidentiality of any information submitted through this Website.</li>

@@ -92,10 +92,10 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/case-studies/case-study-7.webp "
+          src="/images/case-studies/case-study-7.webp"
           alt="Digitizing patient journey using Salesforce health cloud"
           fill
-          style={{ objectFit: "cover", objectPosition: "40% 20%" }}
+          style={{objectFit: "cover",objectPosition: "40% 20%"}}
           priority
         />
       </section>

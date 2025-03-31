@@ -126,7 +126,7 @@ const LocationPage = () => {
                     <Image
                         src="/images/contact-us/Contact-map.webp"
                         alt="Rialtes Map"
-                        className="pt-10 relative "
+                        className="pt-10 relative"
                         width={0}
                         height={0}
                         sizes="100vw"

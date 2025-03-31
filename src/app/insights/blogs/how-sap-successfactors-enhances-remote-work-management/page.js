@@ -147,7 +147,7 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-13-banner.webp "
+          src="/images/blog/blog-13-banner.webp"
           alt="How SAP SuccessFactors Enhances Remote Work Management"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}

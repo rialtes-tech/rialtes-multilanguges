@@ -1,7 +1,6 @@
 // pages/about.js
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import ContactForm from "../components/contactform";
 
 export default function Autosense() {
@@ -68,7 +67,7 @@ export default function Autosense() {
                     />
                     <h4 className="mt-5">Strategic Advisory & Roadmapping</h4>
 
-                    <ul className="list-disc list-inside mt-3 ">
+                    <ul className="list-disc list-inside mt-3">
                       <li>Future-ready IT and digital strategy aligned to electrification, AI, and CX goals.</li>
                       <li>Process reimagination workshops leveraging SAP Signavio and Salesforce advisory tools.</li>
                       <li> EV market-readiness and regulatory compliance assessments.</li>
@@ -88,7 +87,7 @@ export default function Autosense() {
                     />
                     <h4 className="mt-5">Design & Implementation</h4>
 
-                    <ul className="list-disc list-inside mt-3 ">
+                    <ul className="list-disc list-inside mt-3">
                       <li>Future-ready IT and digital strategy aligned to electrification, AI, and CX goals.</li>
                       <li>Process reimagination workshops leveraging SAP Signavio and Salesforce advisory tools.</li>
                       <li> EV market-readiness and regulatory compliance assessments.</li>
@@ -109,7 +108,7 @@ export default function Autosense() {
                     />
                     <h4 className="mt-5">Integration & Quality Assurance</h4>
 
-                    <ul className="list-disc list-inside mt-3 ">
+                    <ul className="list-disc list-inside mt-3">
                       <li>Future-ready IT and digital strategy aligned to electrification, AI, and CX goals.</li>
                       <li>Process reimagination workshops leveraging SAP Signavio and Salesforce advisory tools.</li>
                       <li> EV market-readiness and regulatory compliance assessments.</li>
@@ -127,7 +126,7 @@ export default function Autosense() {
                     />
                     <h4 className="mt-5">Post Go-Live & Continuous Innovation</h4>
 
-                    <ul className="list-disc list-inside mt-3 ">
+                    <ul className="list-disc list-inside mt-3">
                       <li>Future-ready IT and digital strategy aligned to electrification, AI, and CX goals.</li>
                       <li>Process reimagination workshops leveraging SAP Signavio and Salesforce advisory tools.</li>
                       <li> EV market-readiness and regulatory compliance assessments.</li>
@@ -253,7 +252,7 @@ export default function Autosense() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="xl:w-[50%] w-full  h-full flex flex-col ">
+          <div className="xl:w-[50%] w-full  h-full flex flex-col">
             <h2>Partner with Rialtes to Drive Intelligent Automotive Transformation</h2>
 
             <p className="mt-5">Whether you’re a global OEM, a growing EV brand, or a leading dealership network, Rialtes helps you connect technology with outcomes. From advisory and implementation to ongoing innovation, we are your partner in building the future of mobility.</p>
