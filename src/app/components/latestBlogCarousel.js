@@ -15,7 +15,7 @@ export default function BlogsCarousel() {
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "30 Sept 2024",
-      url: '/how-salesforce-agentforce-actually-works',
+      url: 'insights/blogs/how-salesforce-agentforce-actually-works',
       title: "How Salesforce Agentforce Actually Works",
       description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
     },
@@ -25,7 +25,7 @@ export default function BlogsCarousel() {
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "21 Oct 2024",
-      url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
+      url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
       title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
       description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
     },
@@ -35,7 +35,7 @@ export default function BlogsCarousel() {
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "28 Oct 2024",
-      url: '/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
+      url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
       title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
       description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
     },
@@ -45,7 +45,7 @@ export default function BlogsCarousel() {
       category: "Salesforce Agentforce",
       industry: "Generic",
       date: "25 Nov 2024",
-      url: '/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
+      url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
       title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
       description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
     },
@@ -55,7 +55,7 @@ export default function BlogsCarousel() {
       category: "SAP SuccessFactors",
       industry: "Human Resources",
       date: "24 Dec 2024",
-      url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
+      url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
       title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
       description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
     },
@@ -65,7 +65,7 @@ export default function BlogsCarousel() {
       category: "Cloud Green Technology",
       industry: "Agriculture",
       date: "17 Sept 2024",
-      url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
+      url: 'insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
       title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
       description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
     },
@@ -177,7 +177,7 @@ export default function BlogsCarousel() {
               <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                  <Link href={'/blog'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
+                  <Link href={'/'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
                 </div>
                 <p className="line-clamp-4">{slide.description}</p>
               </div>
