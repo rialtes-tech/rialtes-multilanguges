@@ -3,12 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
+
 
 export default function ContactForm({ title, className, padding }) {
 
     const [isRobotChecked, setIsRobotChecked] = useState(false);
+    const [captchaValue, setCaptchaValue] = useState(false);
+
     const [isLoading, setIsLoading] = useState(false);
     const section1Ref = useRef(null);
+    const reCaptchaRef = useRef(null);
 
     const handleCheckboxChange = () => {
         setIsLoading(true);
@@ -19,25 +24,56 @@ export default function ContactForm({ title, className, padding }) {
         }, 1000);
     };
 
-      useEffect(() => {
+    useEffect(() => {
         const sectionId = window.location.hash.replace('#', '');
-    
+
         if (sectionId === 'section1' && section1Ref.current) {
-            // const position = section1Ref.current.getBoundingClientRect().top + window.pageYOffset;
             window.scrollTo({
-              behavior: 'smooth',
+                behavior: 'smooth',
             });
-          }
-       
-      }, []); 
-      
+        }
+
+    }, []);
+    const handleCaptchaChange = (value) => {
+        setCaptchaValue(value)
+    }
+
+
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            const response = await fetch('/api/captcha', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    captcha: captchaValue,
+                }),
+            });
+
+            if (response.ok) {
+                window.location.href = 'http://rialtes.netlify.app/thank-you';
+            } else {
+                const data = await response.json();
+                alert(data.message);
+            }
+        } catch (error) {
+            console.log('Error during captcha verification:', error);
+            alert('Something went wrong');
+        }
+    };
+
+    
 
     return (
         <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
             <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
-            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
-            <input type="hidden" name="oid" value="00D8V000002Xglg"/>
-            <input type="hidden" name="retURL" value="http://rialtes.netlify.app/thank-you"/>
+            <form onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
+                <input type="hidden" name="oid" value="00D8V000002Xglg" />
+                <input type="hidden" name="retURL" value="http://rialtes.netlify.app/thank-you" />
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input
                         id="first_name" maxLength="40" name="first_name" type="text" required
@@ -70,8 +106,8 @@ export default function ContactForm({ title, className, padding }) {
                         placeholder="Role*"
                     />
                     <input
-                        id="phone" maxLength="10" name="phone" 
-                      
+                        id="phone" maxLength="10" name="phone"
+
                         className="mt-1 block px-3 py-2 lg:w-1/4  border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Phone"
                     />
@@ -87,10 +123,10 @@ export default function ContactForm({ title, className, padding }) {
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                    <div
+                    {/* <div
                         className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
-                    >
-                        <div className="flex gap-3 items-center">
+                    > 
+                     <div className="flex gap-3 items-center">
                             <div className="relative">
                                 <input
                                     type="checkbox"
@@ -128,8 +164,12 @@ export default function ContactForm({ title, className, padding }) {
                                 priority
                             />
                         </div>
-                    </div>
-                    <button disabled={!isRobotChecked} type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                     </div>  */}
+                    <ReCAPTCHA
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                        onChange={handleCaptchaChange}
+                    />,
+                    <button type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
                     </button>
                 </div>
