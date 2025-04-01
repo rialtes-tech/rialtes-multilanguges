@@ -161,8 +161,8 @@ export default function BlogsCarousel() {
               className="flex flex-col sm:basis-1/4 border border-[#707070] mr-6 mb-4 h-full group"
             >
 
-              <div className="relative max-h-[300px]">
-
+              <div className="max-h-[300px]">
+              <Link href={'/' + slide.url}>
                 <Image
                   src={slide.image}
                   alt={slide.title}
@@ -171,8 +171,10 @@ export default function BlogsCarousel() {
                   sizes="100vw"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   priority
+                  className="cursor-pointer"
                 />
-                <div className="absolute inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </Link>
+                <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
