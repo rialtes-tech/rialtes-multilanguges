@@ -155,7 +155,7 @@ const latestBlogs = [
 const BlogCard = ({ blog }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
     <div className="max-h-[300px]">
-      <Link href={'/blogs' + blog.url}>
+      <Link href={'/insights/blogs' + blog.url}>
         <Image
           src={blog.image}
           alt={blog.title}
