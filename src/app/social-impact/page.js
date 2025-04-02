@@ -9,8 +9,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Grow with SAP Solutions: AI-Powered ERP for the Future | Rialtes"
-        description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
+        title="Driving Meaningful Change Through Social Impact | Rialtes"
+        description="We believe in making a real difference! See how Rialtes supports communities, empowers people, and drives sustainable change for a better future"
         keywords="home, website, welcome"
       />
 
@@ -31,7 +31,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center">
+          <div className="container mx-auto h-full flex flex-col justify-center mt-[-80px]">
             <div className="flex flex-col">
               <h3 className="text-white text-[300] font-medium mb-2">Social Impact</h3>
               <h1 className="text-white max-w-2xl">
@@ -56,7 +56,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div>
               <div className="w-full xl:mr-4 xl:mb-0">
-                <h2 className="text-black md:pb-0 pb-4 font-bold">Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.</h2>
+                <h2 className="text-black md:pb-0 pb-4 font-bold xl:w-[94%] w-full">Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.</h2>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className='bg-[#016FBE] xl:bg-[#02467899] absolute xl:p-12 p-5 text-white xl:w-[500px] xl:h-[410px] xl:right-0 top-0 left-0'>
+          <div className='bg-[#016FBE] bg-opacity-[0.8] absolute xl:p-12 p-5 text-white xl:w-[500px] xl:h-[410px] xl:right-0 top-0 left-0'>
             <h3 className="font-normal">ESG Efforts</h3>
             <p className='mt-5'>At Rialtes, we are deeply committed to sustainability and climate action.</p>
             <p className="mt-4">As proud member of the 1t.org initiative, we actively contribute to the global mission of planting 1 trillion trees. Our vision includes achieving net-zero operations, reducing our environmental footprint, and driving impactful climate initiatives.</p>
@@ -134,7 +134,7 @@ export default function Page() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
-          <div className='bg-[#016FBE] xl:bg-[#0060a799] absolute xl:p-12 p-5 text-white xl:w-[500px] xl:h-[410px] xl:right-0 top-0'>
+          <div className='bg-[#016FBE] bg-opacity-[0.8] absolute xl:p-12 p-5 text-white xl:w-[500px] xl:h-[410px] xl:right-0 top-0'>
             <h3 className="font-normal">AI Impact for Future</h3>
             <p className='mt-5'>At Rialtes, we are committed to shaping the future workforce through our flagship program, ‘AI4Future’, focused on training and certifying 500+ graduate trainees in leading global AI certifications.</p>
             <p className="mt-4">We aim to bridge the AI skills gap and create opportunities for the next generation of innovators.</p>
@@ -183,7 +183,7 @@ export default function Page() {
   </div>
 </section>
 
-      <section className="relative h-auto xl:h-[550px] overflow-hidden mt-5 xl:mt-0 xl:hidden block">
+      <section className="relative h-auto xl:h-[550px] overflow-hidden mt-12  xl:hidden block">
   <div className="relative w-full h-[150px] xl:h-full">
     <Image
       src="/images/social-impact/ESG Efforts.webp"
@@ -207,12 +207,12 @@ export default function Page() {
     <p className="mt-4">Building a greener, more sustainable future is at the core of our values and actions.</p>
   </div>
 </section>
-<section className="relative h-auto xl:h-[550px] overflow-hidden mt-5 xl:mt-0 xl:hidden block">
+<section className="relative h-auto xl:h-[550px] overflow-hidden mt-12 xl:hidden block">
   {/* Image Section */}
   <div className="relative w-full h-[150px] xl:h-full">
     <Image
       src="/images/social-impact/AI Impact for Future.webp"
-      alt="GROW with SAP"
+      alt=""
       fill
       className="object-cover xl:object-[35%_20%]"
       priority
@@ -251,7 +251,7 @@ export default function Page() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="bg-white">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-10 mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-16 mt-20">
             <div className="relative">
             <div className=" bg-[#086CB9] p-10 text-white w-full">
                 <div className="flex flex-col">
@@ -320,7 +320,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   text-black pb-20"
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
+        <ContactForm title='Ready to take the next step? Let’s kick off your journey to operational excellence' className={"max-w-4xl"} />
       </div>
     </div >
   );
