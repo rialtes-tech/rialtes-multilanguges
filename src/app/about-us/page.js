@@ -503,10 +503,10 @@ const ServicesCard = ({ services }) => (
         <div className="">
             <h3 className="mb-[15px] md:mb-[25px] font-normal  line-clamp-4 text-[#1F3F69]">{services.title}</h3>
             <p className='md:mb-[15px] mb-0 text-lg'>{services.description}</p>
-          
-          <LearnMore />
-         
-           
+
+            <LearnMore />
+
+
         </div>
     </div>
 );
@@ -540,35 +540,35 @@ export default function About() {
             />
 
             <section className="relative">
-               
 
-<div
-  className="
+
+                <div
+                    className="
     ml-[15px] w-[calc(100%-15px)] mr-0
     xl:ml-[280px] xl:w-[calc(100%-280px)] xl:h-[650px]
     md:ml-[100px] md:w-[calc(100%-100px)]
     sm:mx-5 sm:w-[calc(100%-40px)]
     xs:mx-4 xs:w-[calc(100%-32px)]
      overflow-hidden"
->
-  {/* Image Element */}
-  <Image
-    src="/images/about-us/header-logo.webp"
-    alt="About Us"
-    className="w-full h-[400px] xl:h-[650px] object-cover xl:object-right"
-    width={0}
-    height={0}
-  />
+                >
+                    {/* Image Element */}
+                    <Image
+                        src="/images/about-us/header-logo.webp"
+                        alt="About Us"
+                        className="w-full h-[400px] xl:h-[650px] object-cover xl:object-right"
+                        width={0}
+                        height={0}
+                    />
 
-  {/* Content Box */}
-  <div className="flex bg-[#01335B] xl:flex-row flex-col xl:gap-10 gap-5 xl:p-16 p-5 text-white absolute xl:w-[65%] left-[12%] xl:left-[280px] w-[80%] bottom-[-100px] xl:bottom-[-150px] height-[300px] justify-center items-center">
-    <div className="text-left xl:w-[52%]">
-      <p className="font-bold">About Us</p>
-      <div className="xl:text-5xl text-lg mt-3">Crafting the true purpose of technology in everyday lives.</div>
-    </div>
-    <div className="xl:text-2xl  xl:w-1/2">Imagining how the most complex task can be made simple with AI, data, and technology.</div>
-  </div>
-</div>
+                    {/* Content Box */}
+                    <div className="flex bg-[#01335B] xl:flex-row flex-col xl:gap-10 gap-5 xl:p-16 p-5 text-white absolute xl:w-[65%] left-[12%] xl:left-[280px] w-[80%] bottom-[-100px] xl:bottom-[-150px] height-[300px] justify-center items-center">
+                        <div className="text-left xl:w-[52%]">
+                            <p className="font-bold">About Us</p>
+                            <div className="xl:text-5xl text-lg mt-3">Crafting the true purpose of technology in everyday lives.</div>
+                        </div>
+                        <div className="xl:text-2xl  xl:w-1/2">Imagining how the most complex task can be made simple with AI, data, and technology.</div>
+                    </div>
+                </div>
 
             </section>
 
@@ -584,7 +584,7 @@ export default function About() {
         sm:mx-5 sm:w-[calc(100%-40px)]
         xs:mx-4 xs:w-[calc(100%-32px)]"
             >
-                <h2 className="py-10 xl:w-[65%]">World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.</h2>
+                <h1 className="py-10 xl:w-[65%]">World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.</h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
                     <div className="relative overflow-hidden">
                         <Image
@@ -638,10 +638,12 @@ export default function About() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
                     <div className="container mx-auto">
-                        <h3 className="text-[#000000] mb-8 font-bold">Over the last several years, we have built our relationships with our clients, our employees and are partners with core fundamental principles.</h3>
+                        <h3 className="text-[#000000] mb-8 font-bold xl:w-[85%] w-full">Over the last several years, we have built our relationships with our clients, our employees,
+
+                            and our partners on core fundamental principles</h3>
 
 
-                        <div className="flex flex-col xl:flex-row mb-8 mt-16  gap-32">
+                        <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-64 gap-10">
                             <div className="grid justify-center items-center">
                                 <Image
                                     src="/images/about-us/trust.svg"
@@ -649,9 +651,9 @@ export default function About() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="w-[100px]"
+                                    className="w-[150px]"
                                 />
-                                <p className="mt-5 ml-[28px]">Trust</p>
+                                <p className="mt-5 text-center">Trust</p>
                             </div>
                             <div className="grid justify-center items-center">
                                 <Image
@@ -660,9 +662,9 @@ export default function About() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="w-[100px]"
+                                    className="w-[150px]"
                                 />
-                                <p className="mt-5">Transparency</p>
+                                <p className="mt-5 text-center">Transparency</p>
                             </div>
                             <div className="grid justify-center items-center">
                                 <Image
@@ -671,9 +673,9 @@ export default function About() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="w-[100px]"
+                                    className="w-[150px]"
                                 />
-                                <p className="mt-5">Commitment</p>
+                                <p className="mt-5 text-center">Commitment</p>
                             </div>
                         </div>
 

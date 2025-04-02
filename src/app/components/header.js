@@ -186,7 +186,7 @@ const Header = () => {
     {
       label: 'About Us', href: '/about-us',
       links: [
-        // { label: 'Leadership', href: '/about-us/leadership' },
+        { label: 'About Us', href: '/about-us' },
         { label: 'Contact Us', href: '/contact-us' },
         { label: 'Partnership', href: '/about-us/global-alliences' },
       ],
@@ -194,8 +194,8 @@ const Header = () => {
     {
       label: 'Insights', href: '/insights',
       links: [
+        { label: 'Insights', href: '/insights' },
         { label: 'Blogs', href: '/insights/blogs' },
-        // { label: 'Webinar', href: '/insights/webinars' },
         { label: 'Case Studies', href: '/insights/case-studies' },
       ],
     },
