@@ -358,33 +358,33 @@ export default function Page() {
         md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black"
             >
                 <h2>Use Cases for AgentChat</h2>
-                <div className="xl:grid xl:grid-cols-4 flex justify-between  bg-[#D0EEFF] xl:p-5 p-3 mt-10">
-                    <div className="xl:col-span-1"> <h3 className="xl:font-bold xl:text-[24px] text-[16px]">Use Case</h3></div>
-                    <div className="xl:col-span-2"> <h3 className="xl:font-bold xl:text-[24px] text-[16px]">How AgentChat Helps</h3></div>
-                </div>
-                <div className="xl:grid xl:grid-cols-4 flex justify-between bg-[#F2F2F2] xl:p-5 p-3 mt-5 xl:gap-0 gap-10">
-                    <div className="xl:col-span-1"> <h3 className="xl:text-[24px] text-[16px]">Customer Support</h3></div>
-                    <div className="xl:col-span-2"> <h3 className="xl:text-[24px] text-[16px]">Manage support cases via WhatsApp, instantly.</h3></div>
-                </div>
-                <div className="xl:grid xl:grid-cols-4 flex justify-between  mt-10 xl:gap-0 gap-10 xl:p-5 p-3">
-                    <div className="xl:col-span-1"> <h3 className="xl:text-[24px] text-[16px]">Sales Outreach</h3></div>
-                    <div className="xl:col-span-2">   <h3 className="xl:text-[24px] text-[16px]">Engage leads, close deals with real-time chats.</h3></div>
-                </div>
-                <div className="xl:grid xl:grid-cols-4 flex justify-between bg-[#F2F2F2] xl:p-5 p-3 mt-10 xl:gap-0 gap-10">
-                    <div className="xl:col-span-1">
-                        <h3 className="xl:text-[24px] text-[16px]">Field Operations</h3></div>
-                    <div className="xl:col-span-2"> <h3 className="xl:text-[24px] text-[16px]">Coordinate work orders and updates in real time.</h3></div>
-                </div>
-                <div className="xl:grid xl:grid-cols-4 flex justify-between mt-10 xl:gap-0 gap-10 xl:p-5 p-3">
-                    <div className="xl:col-span-1">  <h3 className="xl:text-[24px] text-[16px]">Student Engagement</h3></div>
-                    <div className="xl:col-span-2"> <h3 className="xl:text-[24px] text-[16px]">Connect with students and alumni seamlessly.</h3></div>
-                </div>
-                <div className="xl:grid xl:grid-cols-4 flex justify-between bg-[#F2F2F2] xl:p-5 p-3 mt-10 xl:gap-0 gap-10">
-                    <div className="xl:col-span-1">  <h3 className="xl:text-[24px] text-[16px]">Donor Management</h3></div>
-                    <div className="xl:col-span-2"> <h3 className="xl:text-[24px] text-[16px]">Stay in touch with donors via personalized chats.</h3></div>
+
+                <div className="overflow-x-auto mt-10">
+                    <table className="w-full border-collapse">
+                        <thead>
+                            <tr className="bg-[#D0EEFF] text-left">
+                                <th className="p-4 text-[16px] md:text-[20px] font-bold">Use Case</th>
+                                <th className="p-4 text-[16px] md:text-[20px] font-bold">How AgentChat Helps</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y">
+                            {[
+                                { title: "Customer Support", desc: "Manage support cases via WhatsApp, instantly." },
+                                { title: "Sales Outreach", desc: "Engage leads, close deals with real-time chats." },
+                                { title: "Field Operations", desc: "Coordinate work orders and updates in real time." },
+                                { title: "Student Engagement", desc: "Connect with students and alumni seamlessly." },
+                                { title: "Donor Management", desc: "Stay in touch with donors via personalized chats." }
+                            ].map((item, index) => (
+                                <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
+                                    <td className="p-4 text-[16px] md:text-[20px]">{item.title}</td>
+                                    <td className="p-4 text-[16px] md:text-[20px]">{item.desc}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
@@ -413,7 +413,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute left-[50px] top-[100px]">Install AgentChat from AppExchange.</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Install AgentChat from AppExchange.</p>
                         </div>
 
                         <div className="relative">
@@ -426,7 +426,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute left-[50px] top-[100px]">Connect your WhatsApp Business Account securely.</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Connect your WhatsApp Business Account securely.</p>
                         </div>
 
                         <div className="relative">
@@ -439,7 +439,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute left-[50px] top-[100px]">Map to Salesforce record types (Cases, Leads, Work Orders, etc.).</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Map to Salesforce record types (Cases, Leads, Work Orders, etc.).</p>
                         </div>
 
                         <div className="relative">
@@ -452,7 +452,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute left-[50px] top-[100px]">Set roles and permissions for teams.</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Set roles and permissions for teams.</p>
                         </div>
 
                         <div className="relative">
@@ -465,7 +465,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute left-[50px] top-[100px]">Start chatting — directly from Salesforce!</p>
+                            <p className="absolute xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Start chatting — directly from Salesforce!</p>
                         </div>
                     </div>
 
