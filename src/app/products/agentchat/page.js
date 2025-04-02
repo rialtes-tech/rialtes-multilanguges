@@ -15,7 +15,7 @@ export default function Page() {
                 title="AgentChat"
                 keywords="Contact, website, welcome"
             />
-            <div className="relative bg-[#E8E8E8] xl:h-[1080px] h-[800px] xl:mt-[6rem]">
+            <div className="relative bg-[#E8E8E8] xl:h-[1080px] h-[760px] xl:mt-[6rem]">
                 <div className=" h-[700px] absolute
                         ml-[15px] w-[calc(100%-15px)]
                         xl:ml-[280px] xl:w-[calc(100%-280px)]
@@ -81,7 +81,7 @@ export default function Page() {
 
 
             <div
-                className="xl:mt-20 mt-10 mb-10
+                className="xl:mt-20 mb-10
   container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
@@ -405,7 +405,7 @@ export default function Page() {
                     <div className="flex flex-col xl:flex-row mt-20 xl:gap-20">
                         <div className="relative">
                             <Image
-                                className="w-[60%]"
+                                className="w-[45%]"
                                 src='/images/industry/rialchat/Group 380.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -418,7 +418,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[60%]"
+                                className="w-[45%]"
                                 src='/images/industry/rialchat/Group 381.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -431,7 +431,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[60%]"
+                                className="w-[45%]"
                                 src='/images/industry/rialchat/Group 382.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -444,7 +444,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[60%]"
+                                className="w-[45%]"
                                 src='/images/industry/rialchat/Group 383.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -457,7 +457,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[60%]"
+                                className="w-[45%]"
                                 src='/images/industry/rialchat/Group 384.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -473,7 +473,7 @@ export default function Page() {
             </div>
 
 
-            <div className="bg-[#134874] text-white py-20">
+            <div className="bg-[#134874] text-white xl:py-20">
 
 
                 < div className="mb-20 container
