@@ -405,7 +405,7 @@ export default function Page() {
                     <div className="flex flex-col xl:flex-row mt-20 xl:gap-20">
                         <div className="relative">
                             <Image
-                                className="w-[45%]"
+                                className="w-[52%]"
                                 src='/images/industry/rialchat/Group 380.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -418,7 +418,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[45%]"
+                                className="w-[52%]"
                                 src='/images/industry/rialchat/Group 381.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -431,7 +431,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[45%]"
+                                className="w-[52%]"
                                 src='/images/industry/rialchat/Group 382.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -444,7 +444,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[45%]"
+                                className="w-[52%]"
                                 src='/images/industry/rialchat/Group 383.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -457,7 +457,7 @@ export default function Page() {
 
                         <div className="relative">
                             <Image
-                                className="w-[45%]"
+                                className="w-[52%]"
                                 src='/images/industry/rialchat/Group 384.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -476,13 +476,13 @@ export default function Page() {
             <div className="bg-[#134874] text-white xl:py-20">
 
 
-                < div className="mb-20 container
+                < div className="mb-10 container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
- py-6"
+ py-8"
                 >
 
                     <div className="grid xl:grid-cols-4">
@@ -540,14 +540,14 @@ export default function Page() {
 
             {/* Contact Form */}
             < div
-                className="mt-20 mb-20
+                className="
   container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+  text-black py-10"
             >
                 <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 
