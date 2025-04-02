@@ -1174,7 +1174,7 @@ const Header = () => {
                     <div className="font-bold mt-5">Beyond Business: A Commitment to Change</div>
                     <p className="mt-3">Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                     <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                      <Link href='/about-us' onClick={handleLinkClick}>Let's Begin</Link>
+                      <Link href='/about-us' onClick={(e) => handleLinkClick(e, "/about-us")}>Let's Begin</Link>
                     </button>
                   </div>
                   <div className="mt-5">
