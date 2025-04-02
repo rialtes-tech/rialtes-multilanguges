@@ -25,6 +25,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      objectPosition: {
+        '35-20': '35% 20%',
+        '11-20': '11% 20%',
+      },
     },
   },
   plugins: [],

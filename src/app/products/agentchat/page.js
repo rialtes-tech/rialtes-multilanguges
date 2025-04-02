@@ -413,7 +413,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Install AgentChat from AppExchange.</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[100px] text-[18px]">Install AgentChat from AppExchange.</p>
                         </div>
 
                         <div className="relative">
@@ -426,7 +426,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Connect your WhatsApp Business Account securely.</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[100px] text-[18px]">Connect your WhatsApp Business Account securely.</p>
                         </div>
 
                         <div className="relative">
@@ -439,7 +439,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Map to Salesforce record types (Cases, Leads, Work Orders, etc.).</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[100px] text-[18px]">Map to Salesforce record types (Cases, Leads, Work Orders, etc.).</p>
                         </div>
 
                         <div className="relative">
@@ -452,7 +452,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Set roles and permissions for teams.</p>
+                            <p className="absolute  xl:left-[40px] xl:top-[70px]  left-[50px] top-[100px] text-[18px]">Set roles and permissions for teams.</p>
                         </div>
 
                         <div className="relative">
@@ -465,7 +465,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute xl:left-[40px] xl:top-[70px]  left-[50px] top-[85px] text-[18px]">Start chatting — directly from Salesforce!</p>
+                            <p className="absolute xl:left-[40px] xl:top-[70px]  left-[50px] top-[100px] text-[18px]">Start chatting — directly from Salesforce!</p>
                         </div>
                     </div>
 

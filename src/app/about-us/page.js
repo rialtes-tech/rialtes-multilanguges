@@ -485,16 +485,19 @@ const latestServices = [
         id: 1,
         title: "Our Values",
         description: "Driven by our clients’ success, we deliver trusted partnerships, tailored solutions, and measurable impact.",
+        url:'/'
     },
     {
         id: 2,
         title: "Who we are",
         description: "Focused on driving Technology adoption today to create transformative impact and competitive advantage for the future",
+        url:'/social-impact'
     },
     {
         id: 3,
         title: "Our mission",
         description: "Committed to giving back, we empower communities through education, innovation, and impactful social initiatives",
+        url:'/social-impact'
     },
 
 ];
@@ -503,8 +506,10 @@ const ServicesCard = ({ services }) => (
         <div className="">
             <h3 className="mb-[15px] md:mb-[25px] font-normal  line-clamp-4 text-[#1F3F69]">{services.title}</h3>
             <p className='md:mb-[15px] mb-0 text-lg'>{services.description}</p>
-
-            <LearnMore />
+            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+        <Link href={services.url}>Learn More</Link>
+      </button>
+           
 
 
         </div>
