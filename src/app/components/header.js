@@ -132,12 +132,12 @@ const Header = () => {
         },
       ],
     },
-    // {
-    //   label: 'Products',
-    //   links: [
-    //     { label: 'AgentChat', href: '/products/agentchat' },
-    //   ],
-    // },
+    {
+      label: 'Products',
+      links: [
+        { label: 'AgentChat', href: '/products/agentchat' },
+      ],
+    },
     {
       label: 'Services',
       links: [
