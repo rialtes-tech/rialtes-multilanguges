@@ -420,6 +420,12 @@ const Header = () => {
                 >
                   Artificial Intelligence
                 </div>
+                <div
+                  className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                  onClick={() => handleSubMenuClickSolution("oracleEbs")}
+                >
+                  Oracle EBS
+                </div>
 
                 {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "qualityEnAss" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
@@ -483,6 +489,7 @@ const Header = () => {
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/solutions/enterprise-platforms/salesforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting")} />
                             {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} /> */}
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Ariba" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle EBS" link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} onHover={() => { }} />
 
                           </div>
                           <div>

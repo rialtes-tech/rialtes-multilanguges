@@ -55,7 +55,7 @@ body {
 
   p {
     font-size: 14px;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
 
   h3 {
@@ -90,7 +90,7 @@ body {
 
     p {
       font-size: 16px;
-      font-weight: 500;
+      /* font-weight: 500; */
     }
 
     h3 {

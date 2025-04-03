@@ -502,18 +502,20 @@ const latestServices = [
 
 ];
 const ServicesCard = ({ services }) => (
-    <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
-        <div className="">
-            <h3 className="mb-[15px] md:mb-[25px] font-normal  line-clamp-4 text-[#1F3F69] xl:text-[35px] text-[30px]">{services.title}</h3>
-            <p className='md:mb-[15px] mb-0 xl:text-[27px] text-[22px]'>{services.description}</p>
-            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-        <Link href={services.url}>Learn More</Link>
-      </button>
-           
-
-
-        </div>
+    <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF] flex flex-col min-h-[400px]">
+    <div className="flex-grow">
+        <h3 className="mb-[15px] md:mb-[25px] font-normal line-clamp-4 text-[#1F3F69] xl:text-[35px] text-[30px]">
+            {services.title}
+        </h3>
+        <p className="md:mb-[15px] mb-0 xl:text-[27px] text-[22px]">{services.description}</p>
     </div>
+    <div className="mt-auto">
+        <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
+            <Link href={services.url}>Learn More</Link>
+        </button>
+    </div>
+</div>
+
 );
 
 
@@ -709,7 +711,7 @@ export default function About() {
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-90px]">
+                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px]">
                                         Simplify <br /> <span className="font-normal">Businesses.</span>
                                     </h2>
                                     <p className="mt-3 xl:text-[30px] text-[25px] font-medium text-gray-900">
@@ -726,7 +728,7 @@ export default function About() {
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-90px]">
+                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px]">
                                         Enable <br /> <span className="font-normal">Solutions.</span>
                                     </h2>
                                     <p className="mt-3 xl:text-[30px] text-[25px] font-medium text-gray-900">
@@ -743,7 +745,7 @@ export default function About() {
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-90px]">
+                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px]">
                                         Empower  <br /> <span className="font-normal">Customers.</span>
                                     </h2>
                                     <p className="mt-3 xl:text-[30px] text-[25px] font-medium text-gray-900">
@@ -764,15 +766,9 @@ export default function About() {
                 </div>
             </section>
 
-
-
-           
-
-
-
  <section className="relative h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
-          src="/images/about-us/AdobeStock_1230722882.png"
+          src="/images/about-us/welcome to the future (1).webp"
           alt="GROW with SAP"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
