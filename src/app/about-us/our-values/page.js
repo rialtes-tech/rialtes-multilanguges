@@ -77,8 +77,7 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Grow with SAP Solutions: AI-Powered ERP for the Future | Rialtes"
-                description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
+                title="Our Values | Rialtes"
                 keywords="home, website, welcome"
             />
 

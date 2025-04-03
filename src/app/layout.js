@@ -46,6 +46,8 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+                <link rel="icon" href="/Rialtes Symbol.jpg" />
+
       </Head>
       <body className="font-sans bg-[#ffffff]">
         {/* GTM Body Snippet for noscript fallback */}
