@@ -24,13 +24,19 @@ export default function Page() {
             >
 
                 <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-                    <Image
-                        src="/images/homepage/inauguration-14 1.webp"
-                        alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
-                        fill
-                        style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-                        priority
-                    />
+                    <div>
+                        <Image
+                            src="/images/homepage/inauguration-14 2.webp"
+                            alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+                            fill
+                            style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+                            priority
+                        />
+                        <h1 className="text-white xl:text-[50px] font-medium xl:w-[65%] absolute container xl:pl-20 xl:pt-40 pl-8 pt-16">Rialtes Opens New Sales Office in Himachal Pradesh</h1>
+
+                    </div>
+
+
                 </section>
                 <div className="py-10 bg-white">
                     <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
@@ -41,7 +47,7 @@ export default function Page() {
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
                                     <div className="max-w-[40px]">
-                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration&summary=Summary%20of%20the%20blog&source=LinkedIn">
+                                        <a href="https://www.linkedin.com/company/rialtes-technologies-llc/">
                                             <Image
                                                 src="/images/case-studies/linkedin.svg"
                                                 alt="LinkedIn"
@@ -53,7 +59,7 @@ export default function Page() {
                                             />
                                         </a>
                                     </div>
-                                    <div className="max-w-[40px]">
+                                    {/* <div className="max-w-[40px]">
                                         <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                                             <Image
                                                 src="/images/case-studies/facebook.svg"
@@ -65,9 +71,9 @@ export default function Page() {
                                                 priority
                                             />
                                         </a>
-                                    </div>
+                                    </div> */}
                                     <div className="max-w-[40px]">
-                                        <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration">
+                                        <a href="https://x.com/Rialtestech">
                                             <Image
                                                 src="/images/case-studies/twitter.svg"
                                                 alt="Twitter"
