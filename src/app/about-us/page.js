@@ -595,7 +595,7 @@ export default function About() {
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
                     <div className="relative overflow-hidden">
                         <Image
-                            src="/images/about-us/Group 408.png"
+                            src="/images/about-us/lifescience.webp"
                             alt="Employee and Client-centric approach"
                             width={100}
                             height={100}
@@ -606,7 +606,7 @@ export default function About() {
                     </div>
                     <div className="relative overflow-hidden">
                         <Image
-                            src="/images/about-us/AdobeStock_536546365_Editorial_Use_Only.png"
+                            src="/images/about-us/singapore.webp"
                             alt="Employee and Client-centric approach"
                             width={100}
                             height={100}
@@ -618,7 +618,7 @@ export default function About() {
                     </div>
                     <div className="relative overflow-hidden">
                         <Image
-                            src="/images/about-us/AdobeStock_1060702148.png"
+                            src="/images/about-us/automotive.webp"
                             alt="Employee and Client-centric approach"
                             width={100}
                             height={100}

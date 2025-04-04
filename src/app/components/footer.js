@@ -77,7 +77,7 @@ const Footer = () => {
                 <Image
                     height="100"
                     width="150"
-                    src="/images/homepage/footerlogo.png"
+                    src="/images/homepage/Rialtes Logo_white.webp"
                     className="w-40 h-32 mt-[25px]"
                     alt="Company Logo"
                     loading="lazy"

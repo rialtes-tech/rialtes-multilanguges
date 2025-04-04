@@ -28,7 +28,7 @@ const slidesCaseStudy = [
   {
     id: 3,
     url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-    imgSrc: "/images/case-studies/healthcare-caro.png",
+    imgSrc: "/images/case-studies/case study 1_thumb_n.webp",
     title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
     description: "A global medical technology company that develops and manufactures innovative products.",
   },
@@ -104,7 +104,7 @@ const growLatestServices = [
   },
   {
     id: 2,
-    image: "/images/healthcare/AdobeStock_200878864.png",
+    image: "/images/healthcare/AdobeStock_200878864 copy.webp",
     title: "Urgent Care & Hospital Enhancements",
     description: "Hospital solutions optimize every aspect of managing your bespoke healthcare delivery, from the administration of team members to boosting quality patient care and post-treatment follow-up appointments.",
     productsDetails: [
@@ -116,7 +116,7 @@ const growLatestServices = [
   },
   {
     id: 3,
-    image: "/images/healthcare/AdobeStock_930210511.png",
+    image: "/images/healthcare/AdobeStock_930210511 copy.webp",
     title: "Tailored Patient Care Solutions",
     description: "Our patient care solutions focus on creating an empathetic healthcare environment. By leveraging these solutions, medical facilities can enhance patient engagement and satisfaction.",
     productsDetails: [

@@ -6,7 +6,7 @@ import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 const slides = [
    {
     id: 3,
-    image: "/images/case-studies/healthcare-caro.png",
+    image: "/images/case-studies/case study 1_thumb_n.webp",
     category: "Healthcare",
     industry: "Real Estate",
     date: "17 Nov 2024",
@@ -36,7 +36,7 @@ const slides = [
   },
   {
     id: 7,
-    image: "/images/case-studies/manufac-caro.png",
+    image: "/images/case-studies/case study 3_thumb_n.webp",
     category: "SAP",
     industry: "Retail & e-Commerce",
     date: "25 Oct 2024",
@@ -46,7 +46,7 @@ const slides = [
   },
   {
     id: 8,
-    image: "/images/case-studies/realestate-carosesel.png",
+    image: "/images/case-studies/case study 2_thumb_n.webp",
     category: "Salesforce",
     industry: "Hi-Tech",
     date: "25 Oct 2024",

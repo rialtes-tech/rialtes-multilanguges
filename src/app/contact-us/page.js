@@ -25,7 +25,7 @@ const LocationPage = () => {
                 <>
                     World Trade Center, 119, Tower-2,
                     <br />
-                    1st Floor, Kharadi, Pune- 411014,
+                    1st Floor, Kharadi, Pune - 411014,
                     <br />
                     Maharashtra, India
                     <br />
@@ -100,6 +100,23 @@ const LocationPage = () => {
                     <br />
                     E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
                 </>
+            ),
+        },
+        {
+            country: 'INDIA', // Dehradun location
+            city: 'Himachal Pradesh',
+            address: (
+                <>
+                    Unit #255, Block - B,
+                    <br />
+                    2nd Floor, Motia Plaza, Baddi,
+                    <br />
+                    Dist. Solan, Himachal Pradesh 173205
+                   <br/>
+                   E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
+
+                </>
+                
             ),
         },
     ];
