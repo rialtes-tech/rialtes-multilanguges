@@ -32,7 +32,7 @@ export default function Page() {
                             style={{ objectFit: "cover", objectPosition: "50% 20%" }}
                             priority
                         />
-                        <h1 className="text-white xl:text-[50px] font-medium xl:w-[65%] absolute container xl:pl-20 xl:pt-40 pl-8 pt-16">Rialtes Opens New Sales Office in Himachal Pradesh</h1>
+                        <h1 className="text-white xl:text-[50px] font-medium xl:w-[65%] absolute container xl:pl-20 xl:pt-[15rem] pl-8 pt-16">Rialtes Opens new Sales Office in Himachal Pradesh, India.</h1>
 
                     </div>
 
