@@ -192,7 +192,7 @@ const Home = () => {
       url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
     }
   ]
-  
+
   const insightsdata = [
     {
       id: 1,
@@ -215,7 +215,7 @@ const Home = () => {
       description: 'How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration',
       url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration'
     },
-   
+
     {
       id: 5,
       imageUrl: '/images/blog/blog-9-logn-thumb.webp',
@@ -236,22 +236,22 @@ const Home = () => {
       label: 'Blogs',
       description: 'Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce',
       url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce'
-    },{
+    }, {
       id: 8,
       imageUrl: '/images/blog/blog-12-long-thumb.webp',
       label: 'Blogs',
       description: 'Agentforce Agents Scales Enterprise Resource Planning Systems with AI',
       url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai'
-    },{
+    }, {
       id: 9,
       imageUrl: '/images/blog/blog-13-long-thumb.webp',
       label: 'Blogs',
       description: 'How SAP SuccessFactors Enhances Remote Work Management',
       url: 'insights/blogs/how-sap-successfactors-enhances-remote-work-management'
     },
-   
-    
-   
+
+
+
   ];
 
 
@@ -281,8 +281,8 @@ const Home = () => {
         title="IT Services and IT Consulting Company | Rialtes"
         description="Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth."
         keywords="home, website, welcome"
-        
-        
+
+
       />
       {/* main slider */}
       <section>
@@ -293,49 +293,67 @@ const Home = () => {
           renderIndicator={renderIndicator}
         >
 
-         <div className="relative">
-          <div className='xl:block hidden'>
-          <Image
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-                className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left"
-                alt="demo"
-                src="/images/homepage/inauguration-14 1.webp"
-              />
-          </div>
-        <div className='xl:hidden block'> 
-        <Image
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-                className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
-                alt="demo"
-                src="/images/homepage/inauguration-15 1.webp"
-              />
-        </div>
-              
-                 <div
-                   className="
+          <div className="relative">
+            <div className='xl:block hidden'>
+              <a
+                href="/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh"
+                style={{ display: 'block' }}
+                className="relative block"
+              >
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  priority
+                  className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left"
+                  alt="demo"
+                  src="/images/homepage/inauguration-14 2.webp"
+                />
+              </a>
+            </div>
+            <div className='xl:hidden block'>
+              <a
+                href="/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh"
+                style={{ display: 'block' }}
+                className="relative block"
+              >
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  priority
+                  className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
+                  alt="demo"
+                  src="/images/homepage/inauguration-15 1.webp"
+                />
+              </a>
+            </div>
+
+            <div
+              className="
                   h-full
                  ml-[15px] w-[calc(100%-15px)] mr-0
                  xl:ml-[280px] xl:w-[calc(100%-280px)]
                  md:ml-[100px] md:w-[calc(100%-100px)]
                  sm:mx-5 sm:w-[calc(100%-40px)]
                  xs:mx-4 xs:w-[calc(100%-32px)]"
-                 >
-                   <div className="absolute xl:top-40 top-20">
-                     <div className="text-left">
-                       <h3 className="text-white xl:text-[50px] font-normal xl:w-[55%]">Rialtes Opens New Sales Office in Himachal Pradesh</h3>
-                       <p className="text-white xl:text-[30px] xl:mt-32 mt-20">
-                        Know more
-                       </p>
-                     </div>
-                   </div>
-                 </div>
-               </div>
+            >
+              <div className="absolute xl:top-[20rem] top-20">
+                <div className="text-left">
+                  <h3 className="text-white xl:text-[50px] font-normal xl:w-[55%]">Rialtes Opens new Sales Office in Himachal Pradesh, India</h3>
+                  <a
+                    href="/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh"
+                    style={{ display: 'block' }}
+                    className="relative block"
+                  >
+                    <p className="text-white xl:text-[30px] xl:mt-32 mt-20 cursor-pointer">
+                      Know more
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 
@@ -351,16 +369,16 @@ const Home = () => {
               className="relative"
             >
               <div className='xl:block hidden'>
-              <Image
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', objectFit: 'cover' }}
-                priority
-                className="w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer object-left xl:block hidden"
-                alt="demo"
-                src="/images/homepage/automotive.webp"
-              />
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', objectFit: 'cover' }}
+                  priority
+                  className="w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer object-left xl:block hidden"
+                  alt="demo"
+                  src="/images/homepage/automotive.webp"
+                />
               </div>
               <div className='xl:hidden block'>
                 <Image
@@ -420,16 +438,16 @@ const Home = () => {
               className="relative block"
             >
               <div className='xl:block hidden'>
-              <Image
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', objectFit: 'cover' }}
-                priority
-                className="w-full h-[326px] xl:h-full md:h-full object-left"
-                alt="demo"
-                src="/images/homepage/semiconductor 1.webp"
-              />
+                <Image
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', objectFit: 'cover' }}
+                  priority
+                  className="w-full h-[326px] xl:h-full md:h-full object-left"
+                  alt="demo"
+                  src="/images/homepage/semiconductor 1.webp"
+                />
               </div>
               <div className='xl:hidden block'>
                 <Image
@@ -443,7 +461,7 @@ const Home = () => {
                   src="/images/homepage/mobile 3 1.webp"
                 />
               </div>
-              
+
             </a>
           </div>
         </ResponsiveCarousel>
@@ -511,7 +529,7 @@ const Home = () => {
           ))}
         </div>
         <div className='xl:hidden  gap-10 grid'>
-        {successStoryData.map((success) => {
+          {successStoryData.map((success) => {
             return (
               <div key={success.id} className='relative group overflow-hidden w-[95%]'>
                 <div className='absolute w-full inset-0 bg-black opacity-50 transition-all duration-500 transform -translate-x-full group-hover:translate-x-0 group-hover:bg-[#134874]'></div>

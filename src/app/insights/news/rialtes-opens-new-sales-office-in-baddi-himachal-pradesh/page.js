@@ -38,7 +38,7 @@ export default function Page() {
 
 
                 </section>
-                <div className="py-10 bg-white">
+                <div className="pt-10 pb-24 bg-white">
                     <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
                             <div className='sm:mb-0 mb-6'>
@@ -107,7 +107,7 @@ export default function Page() {
                             <p className="text-black  xl:text-[22px] text-[18px] mt-8">Rialtes Technologies is a global consulting firm specializing in digital transformation, manufacturing consulting, and technology solutions. With a strong presence in multiple countries, Rialtes Technologies is known for helping businesses optimize their operations and drive growth through cutting-edge technologies and digital strategies.</p>
                             <p className="text-black  xl:text-[22px] text-[18px] mt-10">For media inquiries, please contact:</p>
                             <p className="text-black  xl:text-[22px] text-[18px] mt-10 font-bold">Rialtes Technologies PR Team</p>
-                            <p className="xl:text-[22px] text-[18px]">Email: pr@rialtestech.com</p>
+                            <p className="xl:text-[22px] text-[18px]">Email: pr@rialtes.com</p>
                         </div>
                     </div>
                 </div>
