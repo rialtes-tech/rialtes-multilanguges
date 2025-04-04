@@ -192,44 +192,7 @@ const Home = () => {
       url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
     }
   ]
-  const ourServices = [
-    {
-      id: 1,
-      imageUrl: '/images/homepage/AI.png',
-      title: 'Artificial Intelligence',
-    },
-    {
-      id: 2,
-      imageUrl: '/images/homepage/shap2.png',
-      title: 'Salesforce',
-    },
-    {
-      id: 3,
-      imageUrl: '/images/homepage/sap.png',
-      title: 'SAP',
-    }, {
-      id: 4,
-      imageUrl: '/images/homepage/Yardi.png',
-      title: 'Yardi',
-    }, {
-      id: 5,
-      imageUrl: '/images/homepage/cloud.png',
-      title: 'Cloud Migration',
-    }, {
-      id: 6,
-      imageUrl: '/images/homepage/dataa.png',
-      title: 'Data Analytics',
-    }, {
-      id: 7,
-      imageUrl: '/images/homepage/quolity.png',
-      title: 'Quality Management',
-    },
-    {
-      id: 8,
-      imageUrl: '/images/homepage/Integration.png',
-      title: 'Integration',
-    },
-  ]
+  
   const insightsdata = [
     {
       id: 1,
@@ -324,11 +287,63 @@ const Home = () => {
       {/* main slider */}
       <section>
         <ResponsiveCarousel
-          autoPlay={true}
+          autoPlay={false}
           infiniteLoop={true}
           interval={2000}
           renderIndicator={renderIndicator}
         >
+
+         <div className="relative">
+          <div className='xl:block hidden'>
+          <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                priority
+                className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left"
+                alt="demo"
+                src="/images/homepage/inauguration-14 1.webp"
+              />
+          </div>
+        <div className='xl:hidden block'> 
+        <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                priority
+                className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
+                alt="demo"
+                src="/images/homepage/inauguration-15 1.webp"
+              />
+        </div>
+              
+                 <div
+                   className="
+                  h-full
+                 ml-[15px] w-[calc(100%-15px)] mr-0
+                 xl:ml-[280px] xl:w-[calc(100%-280px)]
+                 md:ml-[100px] md:w-[calc(100%-100px)]
+                 sm:mx-5 sm:w-[calc(100%-40px)]
+                 xs:mx-4 xs:w-[calc(100%-32px)]"
+                 >
+                   <div className="absolute xl:top-40 top-20">
+                     <div className="text-left">
+                       <h3 className="text-white xl:text-[50px] font-normal xl:w-[55%]">Rialtes Opens New Sales Office in Himachal Pradesh</h3>
+                       <p className="text-white xl:text-[30px] xl:mt-32 mt-20">
+                        Know more
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+
+
+
+
+
+
+
+
           {/* First Slide */}
           <div className="relative">
             <a
@@ -628,7 +643,7 @@ const Home = () => {
       <section className='xl:mt-40 mt-5 relative'>
         <div className='group overflow-hidden'>
           <div>
-            <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full h-full hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/lifesci.png' />
+            <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full h-full hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/Life Science.webp' />
           </div>
         </div>
         <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
@@ -648,7 +663,7 @@ const Home = () => {
             <p className='mt-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
           </div>
           <div className='relative group overflow-hidden xl:w-1/2'>
-            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/life2.jpg' />
+            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/life2.webp' />
           </div>
         </div>
       </section>

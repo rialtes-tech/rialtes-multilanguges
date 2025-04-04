@@ -11,7 +11,7 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Oracle EBS Consulting Services | Rialtes"
+                title="Oracle EBS Consulting Services"
             />
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -33,7 +33,7 @@ export default function Page() {
                 >
                     <div className="container mx-auto h-full flex flex-col justify-center">
                         <div className="flex flex-col text-white">
-                            <h3 className="xl:text-[24px] text-[18px] font-bold mb-2">Rialtes Oracle EBS Services</h3>
+                            <h3 className="xl:text-[24px] text-[18px] font-bold mb-2">Oracle EBS Services</h3>
                             <h2 className="xl:text-[60px] text-[40px] xl:w-[34%] w-full leading-[72px]">
                                 Modernizing Your Enterprise, End-to-End
                             </h2>
@@ -62,8 +62,8 @@ export default function Page() {
                             </div>
                             <div className="w-[34%]">
                                 <Image
-                                    src="images/oracle-ebs/oracle EBS logo.webp"
-                                    alt="GROW with SAP"
+                                    src="/images/oracle-ebs/oracle EBS logo.webp"
+                                    alt=""
                                     priority
                                     className="w-[397px] h-[233] xl:mt-[-20px]"
                                     width={0}
@@ -79,7 +79,7 @@ export default function Page() {
             <section className="relative h-[350px] sm:h-[500px] xl:h-[1075px]">
                 <Image
                     src="/images/oracle-ebs/EBSplus.webp"
-                    alt="GROW with SAP"
+                    alt=""
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
@@ -135,7 +135,7 @@ export default function Page() {
             <section className="relative h-[350px] sm:h-[500px] xl:h-[1482px] overflow-hidden z-0">
                 <Image
                     src="/images/oracle-ebs/deep expertise.webp"
-                    alt="GROW with SAP"
+                    alt=""
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
@@ -165,17 +165,17 @@ export default function Page() {
                     {/* Bottom Section with Grid */}
                     <div className="absolute bottom-[115px] left-0 right-0 bg-opacity-80 text-white">
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:pb-20 pr-[85px]">
-                            <div className="  border-r border-white/50">
+                            <div className="  border-r border-white/50 xl:w-[90%]">
                                 <p className="text-[30px] leading-snug font-medium w-[75%]">Leverage autonomous database, AI/ML integrations, and serverless architecture.</p>
                             </div>
-                            <div className="pr-10 pl-8 border-r border-white/50 flex flex-col ">
-                                <p className="text-[30px] leading-snug font-medium">Enable secure and compliant environments for regulated industries.</p>
+                            <div className="border-r border-white/50 flex flex-col xl:w-[90%]">
+                                <p className="text-[30px] leading-snug font-medium xl:w-[90%]">Enable secure and compliant environments for regulated industries.</p>
                             </div>
-                            <div className="pr-10 pl-8 border-r border-white/50 flex flex-col ">
-                                <p className="text-[29px] leading-snug font-medium ">Optimize compute, storage, and networking for global ERP operations.</p>
+                            <div className="border-r border-white/50 flex flex-col w-[89%]">
+                                <p className="text-[29px] leading-snug font-medium xl:w-[90%]">Optimize compute, storage, and networking for global ERP operations.</p>
                             </div>
-                            <div className="pr-10 pl-8 flex flex-col ">  {/* No border on the last column */}
-                                <p className="text-[30px] leading-snug font-medium ">Integrate Oracle EBS with OCI-native solutions for enhanced scalability and performance.</p>
+                            <div className="flex flex-col ">  {/* No border on the last column */}
+                                <p className="text-[30px] leading-snug font-medium w-[80%]">Integrate Oracle EBS with OCI-native solutions for enhanced scalability and performance.</p>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@ export default function Page() {
             <section className="relative h-[350px] sm:h-[500px] xl:h-[999px] z-0 bg-[#F2F2F2] ml-[145px]">
                 <Image
                     src="/images/oracle-ebs/thought leadership.webp"
-                    alt="GROW with SAP"
+                    alt=""
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
@@ -292,7 +292,7 @@ export default function Page() {
             <section className="relative h-[500px] xl:h-[1205px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
                 <Image
                     src="/images/oracle-ebs/sales planning.webp"
-                    alt="GROW with SAP"
+                    alt=""
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
@@ -352,8 +352,8 @@ export default function Page() {
                 >
                     <div className="flex gap-16">
                             <Image
-                                src="images/oracle-ebs/inventory.webp"
-                                alt="GROW with SAP"
+                                src="/images/oracle-ebs/inventory.webp"
+                                alt=""
                                 priority
                                 className="w-[618px] h-[640]"
                                 width={0}
@@ -445,7 +445,7 @@ export default function Page() {
             <section className="relative h-[350px] sm:h-[500px] xl:h-[962px]">
                 <Image
                     src="/images/oracle-ebs/AI transformation.webp"
-                    alt="GROW with SAP"
+                    alt=""
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
@@ -509,7 +509,7 @@ export default function Page() {
                             <div className="w-[30%]">
                                 <Image
                                     src="/images/oracle-ebs/20 yrs ERP.svg"
-                                    alt="Employee and Client-centric approach"
+                                    alt=""
                                     width={100}
                                     height={100}
                                     priority
@@ -520,7 +520,7 @@ export default function Page() {
                             <div className="w-[30%]">
                                 <Image
                                     src="/images/oracle-ebs/oracle certify.svg"
-                                    alt="Employee and Client-centric approach"
+                                    alt=""
                                     width={100}
                                     height={100}
                                     priority
@@ -532,7 +532,7 @@ export default function Page() {
                             <div className="w-[30%]">
                                 <Image
                                     src="/images/oracle-ebs/global delivery.svg"
-                                    alt="Employee and Client-centric approach"
+                                    alt=""
                                     width={100}
                                     height={100}
                                     priority
@@ -547,7 +547,7 @@ export default function Page() {
                         <div className="xl:mt-16  w-[30%]">
                                 <Image
                                     src="/images/oracle-ebs/transformation.svg"
-                                    alt="Employee and Client-centric approach"
+                                    alt=""
                                     width={100}
                                     height={100}
                                     priority
@@ -559,7 +559,7 @@ export default function Page() {
                             <div className="xl:mt-16 w-[30%]">
                                 <Image
                                     src="/images/oracle-ebs/AI approach.svg"
-                                    alt="Employee and Client-centric approach"
+                                    alt=""
                                     width={100}
                                     height={100}
                                     priority
