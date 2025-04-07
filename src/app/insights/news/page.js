@@ -15,47 +15,47 @@ const latestCaseStudy = [
     url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
     title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
   },
-  {
+  // {
 
-    id: 2,
-    image: "/images/news/AdobeStock_1191609729.webp",
-    industry: "News",
-    date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
-  },
-  {
-    id: 3,
-    image: "/images/news/AdobeStock_1336683433.webp",
-    industry: "News",
-    date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
-  },
-  {
-    id: 4,
-    image: "/images/news/AdobeStock_371788649.webp",
-    industry: "News",
-    date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
-  },
-  {
-    id: 5,
-    image: "/images/news/dummy 1.webp", 
-    industry: "News",
-    date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
-  },
-  {
-    id: 6,
-    image: "/images/news/AdobeStock_961147936.webp",
-    industry: "News",
-    date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
-  },
+  //   id: 2,
+  //   image: "/images/news/AdobeStock_1191609729.webp",
+  //   industry: "News",
+  //   date: "4 April 2025",
+  //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+  //   title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
+  // },
+  // {
+  //   id: 3,
+  //   image: "/images/news/AdobeStock_1336683433.webp",
+  //   industry: "News",
+  //   date: "4 April 2025",
+  //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+  //   title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
+  // },
+  // {
+  //   id: 4,
+  //   image: "/images/news/AdobeStock_371788649.webp",
+  //   industry: "News",
+  //   date: "4 April 2025",
+  //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+  //   title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
+  // },
+  // {
+  //   id: 5,
+  //   image: "/images/news/dummy 1.webp", 
+  //   industry: "News",
+  //   date: "4 April 2025",
+  //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+  //   title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
+  // },
+  // {
+  //   id: 6,
+  //   image: "/images/news/AdobeStock_961147936.webp",
+  //   industry: "News",
+  //   date: "4 April 2025",
+  //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+  //   title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
+  // },
  
   // Add more case study objects as needed
 ];
@@ -87,8 +87,11 @@ const CaseStudyCard = ({ casestudy }) => (
             <h4 className="mb-2 md:mb-4 md:font-semibold xl:text-[30px] text-[20px] line-clamp-4">{casestudy.title}</h4>
           </Link>
         </div>
+        <Link href={casestudy.url}>
         <p className="text-[#0092E0] font-bold mt-5 xl:text-[20px] text-[18px]">Read More</p>
+        </Link>
       </div>
+      
     </div>
   );
   const CaseStudy = () => {
@@ -144,15 +147,15 @@ const FeaturedCarousel = () => {
       title: 'Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.',
       description: 'Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales'
     },
-    {
-      id: 2,
-      imgSrc: '/images/news/AdobeStock_1336683433.webp',
-      category: 'News',
-      date: '4 April 2025',
-      url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-      title: 'Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.',
-      description: 'Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales.'
-    }
+    // {
+    //   id: 2,
+    //   imgSrc: '/images/news/AdobeStock_1336683433.webp',
+    //   category: 'News',
+    //   date: '4 April 2025',
+    //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+    //   title: 'Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.',
+    //   description: 'Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales.'
+    // }
   ];
   const responsive = {
     desktop: {
@@ -257,7 +260,9 @@ const FeaturedCarousel = () => {
                 </div>
                 <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold xl:text-[35px]">{slide.title}</h3></Link>
                 <p className="xl:text-[20px] text-[18px]">{slide.description}</p>
+                <Link href={slide.url}>
                 <h4 className="xl:mt-20 text-[#0092E0] xl:text-[20px] mt-5">Read More</h4>
+                </Link>
               </div>
             </div>
           ))}
@@ -314,14 +319,14 @@ export default function Page() {
 
         <div className="md:py-10 py-6 bg-white">
           <div className="container mx-auto">
-            <p className="text-[#000000] py-6 max-w-4xl xl:max-w-2xl xl:text-[20px] text-[18px]">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
+            <p className="text-[#000000] py-6 max-w-4xl  xl:text-[20px] text-[18px]">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
           </div>
         </div>
       </section>
 
 
-      {/* Latest Studies */}
-      <div
+      {/* Latest news */}
+      {/* <div
         className="
           ml-[15px] w-[calc(100%-15px)] mr-0
           xl:ml-[280px] xl:w-[calc(100%-280px)]
@@ -331,7 +336,7 @@ export default function Page() {
       >
         <FeaturedCarousel />
 
-      </div>
+      </div> */}
 
       {/* Latest news Section */}
       <div
@@ -342,7 +347,7 @@ export default function Page() {
           sm:mx-5 sm:w-[calc(100%-40px)]
           xs:mx-4 xs:w-[calc(100%-32px)]"
       >
-        <section className="xl:py-16 py-10 bg-white xl:pr-[142px]">
+        <section className="xl:pb-32  pt-10  pb-16  bg-white xl:pr-[142px]">
 
           <CaseStudy />
 

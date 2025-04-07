@@ -109,6 +109,8 @@ const Header = () => {
             { label: 'Revenue Cloud', href: '/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' },
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
+            // { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
+
           ],
         },
         {
@@ -146,6 +148,8 @@ const Header = () => {
           subLinks: [
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
+            // { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
+
           ],
         },
 
@@ -197,6 +201,8 @@ const Header = () => {
         { label: 'Insights', href: '/insights' },
         { label: 'Blogs', href: '/insights/blogs' },
         { label: 'Case Studies', href: '/insights/case-studies' },
+        { label: 'News', href: '/insights/news' },
+
       ],
     },
     {
