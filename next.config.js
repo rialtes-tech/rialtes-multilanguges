@@ -8,7 +8,7 @@ const nextConfig = {
     return [
       {
         source: "/how-salesforce-agentforce-actually-works",
-        destination: "/insights/blogs/how-salesforce-agentforce-actually-works",
+        destination: "https://rialtes.netlify.app/insights/blogs/how-salesforce-agentforce-actually-works",
         permanent: true,
       },
       {

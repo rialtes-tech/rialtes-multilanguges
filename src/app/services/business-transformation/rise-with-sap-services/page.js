@@ -353,7 +353,7 @@
 //                                xs:mx-4 xs:w-[calc(100%-32px)]"
 //             >
 //               <ServicesBlogs slides={slides} />
-      
+
 //             </div>
 //       {/* Explore More */}
 //       < div className="bg-[#808080] py-6" >
@@ -396,6 +396,7 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
+import Link from "next/link";
 
 
 export default function Page() {
@@ -521,7 +522,7 @@ export default function Page() {
 
 
 
-            <section className="relative h-[2210px] overflow-hidden mt-5 xl:mt-0">
+            <section className="relative h-[2270px] overflow-hidden mt-5 xl:mt-0">
                 <Image
                     src="/images/services/rise-with-sap/Greenfield background.webp"
                     alt=""
@@ -562,9 +563,9 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1  bg-white pt-10 pb-32 pr-10 pl-10">
-                        
+
                         <div className="xl:col-span-5 col-span-12">
-                        <h3 className="xl:text-[30px] font-bold">Our Greenfield Approach Includes:</h3>
+                            <h3 className="xl:text-[30px] font-bold">Our Greenfield Approach Includes:</h3>
 
                             <ul className="list-disc space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-10">
                                 <li><span className="font-bold">Vision and Strategy Alignment — </span>Define business goals and digital vision.</li>
@@ -617,6 +618,10 @@ export default function Page() {
                         </div>
                     </div>
                     <p className="xl:text-[26px] bg-[#0C8AD4] p-5 pl-10 text-white  w-[93%] mt-[-50px] ml-[50px]">Ideal for organizations focused on modernization without disrupting core operations.</p>
+
+                    <button className="text-[20px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-5 py-5  transition duration-300 order-4 mt-16">
+                        <Link href='/contact-s'>Learn More</Link>
+                    </button>
                 </div>
 
             </section>
@@ -640,7 +645,7 @@ export default function Page() {
                         </h2>
                         <h3 className="xl:text-[40px] mt-5">Proven Framework for Success</h3>
                     </div>
-               
+
                     <div className="xl:col-span-4 col-span-12">
                         <p className="xl:text-[22px]">At Rialtes, we blend SAP Signavio’s Business Process Intelligence (BPI) with SAP Activate Methodology to ensure strategic alignment and flawless execution.</p>
                     </div>
@@ -837,6 +842,9 @@ export default function Page() {
                             <p className="xl:text-[22px] mt-5">
                                 AgentChat is a bi-directional WhatsApp conversational app built within Salesforce, designed to integrate seamlessly with SAP S/4HANA and Salesforce Clouds.
                             </p>
+                            <button className="text-[20px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-3  transition duration-300 order-4 mt-16">
+                                <Link href='/products/agentchat'>Know More</Link>
+                            </button>
                         </div>
                         <div className="xl:col-span-1 col-span-12">
                         </div>
