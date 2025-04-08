@@ -71,9 +71,9 @@ export default function ContactForm({ title, className, padding }) {
     return (
         <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
             <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
-            <form onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
-                <input type="hidden" name="retURL" value="http://rialtes.netlify.app/thank-you" />
+                <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input
                         id="first_name" maxLength="40" name="first_name" type="text" required
@@ -123,10 +123,10 @@ export default function ContactForm({ title, className, padding }) {
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                     {/* <div
+                      <div
                         className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
-                    >  */}
-                     {/* <div className="flex gap-3 items-center">
+                    >  
+                      <div className="flex gap-3 items-center">
                             <div className="relative">
                                 <input
                                     type="checkbox"
@@ -163,12 +163,12 @@ export default function ContactForm({ title, className, padding }) {
                                 }}
                                 priority
                             />
-                        </div> */}
-                     {/* </div>   */}
-                    <ReCAPTCHA
+                        </div> 
+                     </div>   
+                    {/* <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
-                    />,
+                    />, */}
                     <button type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
                     </button>
