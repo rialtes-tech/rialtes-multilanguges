@@ -110,7 +110,7 @@ const CaseStudyCard = ({ casestudy }) => (
         />
       </Link>
     </div>
-    <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+    <div className="p-6 flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
         <div className='pb-2 md:pb-4'>
           <span className='text-[#0092E0]'>{casestudy.industry}</span>

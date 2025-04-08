@@ -287,7 +287,7 @@ const Home = () => {
       {/* main slider */}
       <section>
         <ResponsiveCarousel
-          autoPlay={false}
+          autoPlay={true}
           infiniteLoop={true}
           interval={2000}
           renderIndicator={renderIndicator}
@@ -481,7 +481,7 @@ const Home = () => {
         </div>
         <Carousel className='xl:mt-16 mt-5 '
           ref={carouselRef}
-          draggable={false}
+          draggable={true}
           responsive={responsive}
           ssr={true}
           infinite={true}

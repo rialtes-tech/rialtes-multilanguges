@@ -146,8 +146,8 @@ const Header = () => {
         {
           label: 'Business Transformation', href: '/',
           subLinks: [
-            { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
-            { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
+            { label: 'Grow with SAP', href: '/services/business-transformation/new-grow-with-sap' },
+           { label: 'Rise with SAP', href: '/services/business-transformation/new-rise-with-sap' },
             // { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
 
           ],
