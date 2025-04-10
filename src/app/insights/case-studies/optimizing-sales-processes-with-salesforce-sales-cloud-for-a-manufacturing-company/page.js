@@ -6,57 +6,57 @@ import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 
 const slides = [
     {
-     id: 3,
-     image: "/images/case-studies/case study 1_thumb_n.webp",
-     category: "Healthcare",
-     industry: "Real Estate",
-     date: "17 Nov 2024",
-     title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-     description: "A global medical technology company that develops and manufactures innovative products",
-     url:'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-   },
-   {
-     id: 4,
-     image: "/images/case-studies/case-study-4_thumb.webp",
-     category: "Real Estate",
-     industry: "Healthcare",
-     date: "14 Oct 2024",
-     title: "Omnichannel case management with Salesforce Service Cloud",
-     description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-     url:'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-   },
-   {
-     id: 6,
-     image: "/images/case-studies/case-study-6_thumb.webp",
-     category: "Healthcare",
-     industry: "Manufacturing",
-     date: "4 Sept 2024",
-     title: "Yardi Managed Services",
-     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-   url:'insights/case-studies/yardi-managed-services'
-   },
-   {
-     id: 7,
-     image: "/images/case-studies/case study 3_thumb_n.webp",
-     category: "SAP",
-     industry: "Retail & e-Commerce",
-     date: "25 Oct 2024",
-     title: "Streamlined DevOps using Copado and Salesforce",
-     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-   url:"insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-   },
-   {
-     id: 8,
-     image: "/images/case-studies/case study 2_thumb_n.webp",
-     category: "Salesforce",
-     industry: "Hi-Tech",
-     date: "25 Oct 2024",
-     title: "RealForce Banking Module - ACH",
-     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-   url:'insights/case-studies/realForce-banking-module-ach'
-   },
-   // Add more blog objects as needed
- ];
+        id: 3,
+        image: "/images/case-studies/case study 1_thumb_n.webp",
+        category: "Healthcare",
+        industry: "Real Estate",
+        date: "17 Nov 2024",
+        title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        description: "A global medical technology company that develops and manufactures innovative products",
+        url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+    },
+    {
+        id: 4,
+        image: "/images/case-studies/case-study-4_thumb.webp",
+        category: "Real Estate",
+        industry: "Healthcare",
+        date: "14 Oct 2024",
+        title: "Omnichannel case management with Salesforce Service Cloud",
+        description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
+    },
+    {
+        id: 6,
+        image: "/images/case-studies/case-study-6_thumb.webp",
+        category: "Healthcare",
+        industry: "Manufacturing",
+        date: "4 Sept 2024",
+        title: "Yardi Managed Services",
+        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        url: 'insights/case-studies/yardi-managed-services'
+    },
+    {
+        id: 7,
+        image: "/images/case-studies/case study 3_thumb_n.webp",
+        category: "SAP",
+        industry: "Retail & e-Commerce",
+        date: "25 Oct 2024",
+        title: "Streamlined DevOps using Copado and Salesforce",
+        description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+    },
+    {
+        id: 8,
+        image: "/images/case-studies/case-study-2_thumb_n.webp",
+        category: "Salesforce",
+        industry: "Hi-Tech",
+        date: "25 Oct 2024",
+        title: "RealForce Banking Module - ACH",
+        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        url: 'insights/case-studies/realForce-banking-module-ach'
+    },
+    // Add more blog objects as needed
+];
 
 
 export default function Page() {
@@ -105,7 +105,7 @@ export default function Page() {
                         <div className="pt-4"></div>
                         <div className="flex flex-row gap-6 ">
                             <div className="max-w-[40px]">
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-3&title=Streamlined DevOps using Copado and Salesforce&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
+                                <a href="https://www.linkedin.com/company/rialtes-technologies-llc/">
                                     <Image
                                         src="/images/case-studies/linkedin.svg"
                                         alt="LinkedIn"
@@ -117,7 +117,7 @@ export default function Page() {
                                     />
                                 </a>
                             </div>
-                            <div className="max-w-[40px]">
+                            {/* <div className="max-w-[40px]">
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-3">
                                     <Image
                                         src="/images/case-studies/facebook.svg"
@@ -129,9 +129,9 @@ export default function Page() {
                                         priority
                                     />
                                 </a>
-                            </div>
+                            </div>  */}
                             <div className="max-w-[40px]">
-                                <a href="https://twitter.com/intent/tweet?url=/case-study-3&text=Streamlined DevOps using Copado and Salesforce">
+                                <a href="https://x.com/Rialtestech">
                                     <Image
                                         src="/images/case-studies/twitter.svg"
                                         alt="Twitter"

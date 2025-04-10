@@ -62,7 +62,7 @@ export default function Page() {
 
 
             <section
-                className="mt-16
+                className="xl:mt-16 mt-8
               ml-[15px] w-[calc(100%-15px)] mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
               md:ml-[100px] md:w-[calc(100%-100px)]
@@ -75,8 +75,8 @@ export default function Page() {
                         <h2 className="text-[25px] xl:text-[55px]  mt-5">
                             Unlock the Future of Intelligent Enterprise with a Trusted SAP Partner
                         </h2>
-                        <p className="xl:text-[22px] mt-5">At Rialtes, we help organizations future-proof their business with RISE with SAP — combining deep industry expertise, a certified SAP team, and proven methodologies. As a certified SAP partner with global presence in the United States, Canada, India, and Singapore, Rialtes is uniquely positioned to deliver end-to-end SAP S/4HANA transformations that go beyond technology and drive real business outcomes. </p>
-                        <p className="xl:text-[22px] mt-5">Our proprietary Voyager+ framework brings together SAP License Advisory, Solution Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — creating a seamless, value-driven journey for organizations adopting RISE with SAP.</p>
+                        <p className="xl:text-[22px] text-[16px] mt-5">At Rialtes, we help organizations future-proof their business with RISE with SAP — combining deep industry expertise, a certified SAP team, and proven methodologies. As a certified SAP partner with global presence in the United States, Canada, India, and Singapore, Rialtes is uniquely positioned to deliver end-to-end SAP S/4HANA transformations that go beyond technology and drive real business outcomes. </p>
+                        <p className="xl:text-[22px] text-[16px] mt-5">Our proprietary Voyager+ framework brings together SAP License Advisory, Solution Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — creating a seamless, value-driven journey for organizations adopting RISE with SAP.</p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
                     </div>
@@ -85,18 +85,16 @@ export default function Page() {
             </section>
 
 
-            <div className="bg-[#DBDBDB]  mt-10">
+            <div className="bg-[#DBDBDB]  xl:mt-10 pb-10">
                 <section
-                    className="xl:mt-32 mt-10 
-              ml-[15px] w-[calc(100%-15px)] mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]
-              sm:mx-5 sm:w-[calc(100%-40px)]
-              xs:mx-4 xs:w-[calc(100%-32px)]"
+                    className="mt-32
+             xl:mr-[142px]
+              xl:ml-[280px] px-5"
+            
                 >
 
-                    <div className="grid xl:grid-cols-12 grid-cols-1">
-                        <div className="xl:col-span-5 col-span-12 xl:py-16">
+                    <div className="grid-cols-1 xl:gap-20 gap-5 flex flex-col-reverse xl:grid xl:grid-cols-12">
+                        <div className="xl:col-span-6 col-span-12 xl:py-16 ">
                             <h2 className="text-[25px] xl:text-[55px]">
                                 Why Choose RISE with SAP + Rialtes?
                             </h2>
@@ -111,13 +109,13 @@ export default function Page() {
                         </div>
                         <div className="xl:col-span-1 col-span-12">
                         </div>
-                        <div className="xl:col-span-5 col-span-12 mt-5 xl:mt-0">
+                        <div className=" mt-5 xl:mt-0  xl:col-span-5 col-span-12 ">
                             <Image
                                 src="/images/services/rise-with-sap/why rialtes.webp"
                                 alt="SAP Partner Logo"
                                 width={0}
                                 height={0}
-                                className="w-full xl:h-[750px] mt-[-58px] transform transition-transform duration-500 group-hover:scale-110"
+                                className="w-[95%] xl:w-full xl:h-[750px] xl:mt-[-58px] mt-[-70px] !mx-auto xl:mx-0 transform transition-transform duration-500 group-hover:scale-110"
                                 sizes="100vw"
                                 priority
                             />
@@ -129,7 +127,7 @@ export default function Page() {
 
 
 
-            <section className="relative h-[2270px] overflow-hidden mt-5 xl:mt-0">
+            <section className="relative xl:h-[2270px] h-[3850px] overflow-hidden xl:mt-0">
                 <Image
                     src="/images/services/rise-with-sap/Greenfield+background (1).webp"
                     alt=""
@@ -140,7 +138,7 @@ export default function Page() {
                 <div
                     className="
                  container h-full relative
-                 ml-[15px] w-[calc(100%-15px)] mr-0
+                 mx-[15px] w-[calc(100%-15px)] xl:mr-0
                  xl:ml-[280px] xl:w-[calc(100%-280px)]
                  md:ml-[100px] md:w-[calc(100%-100px)]
                  sm:mx-5 sm:w-[calc(100%-40px)]
@@ -184,7 +182,7 @@ export default function Page() {
                         <div className="xl:col-span-1 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12 mt-20">
-                            <ul className="list-disc space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px]">
+                            <ul className="list-disc space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px]">
                                 <li><span className="font-bold"> Data Strategy and Clean Migration — </span>Ensure accurate, clean data migration from legacy platforms.</li>
                                 <li><span className="font-bold">Integration Framework Design with SAP BTP and CPI — </span>Plan integrations with internal and external systems.</li>
                                 <li><span className="font-bold"> User Training and Change Management — </span>Drive adoption and organizational readiness.</li>
@@ -192,7 +190,7 @@ export default function Page() {
                             </ul>
                         </div>
                     </div>
-                    <p className="xl:text-[26px] bg-[#0C8AD4] p-5 pl-10 text-white  w-[93%] mt-[-50px] ml-[50px]">Best for companies aiming for next-gen processes and cloud-first ERP.</p>
+                    <p className="xl:text-[26px] bg-[#0C8AD4] p-5 pl-10 text-white  xl:w-[93%] mt-[-50px] xl:ml-[50px]">Best for companies aiming for next-gen processes and cloud-first ERP.</p>
                     <div className="grid xl:grid-cols-12 grid-cols-1   mt-20 text-white bg-[#713A18] p-12">
                         <div className="xl:col-span-7 col-span-12">
                             <h2 className="xl:text-[45px] text-[25px] font-medium  leading-tight">
@@ -208,7 +206,7 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1  bg-white pt-10 pb-32 pr-10 pl-10">
                         <div className="xl:col-span-5 col-span-12">
                             <h3 className="xl:text-[30px] font-bold">Our Brownfield Expertise Covers:</h3>
-                            <ul className="list-disc space-y-5  marker:font-bold marker:text-2xl pl-5 text-[20px] mt-10">
+                            <ul className="list-disc space-y-5  marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-10">
                                 <li><span className="font-bold">System Landscape and Fit Assessment — </span>Evaluate existing ECC setup and assess conversion readiness.</li>
                                 <li><span className="font-bold">Custom Code and Data Analysis — </span> Review, simplify, and adapt custom developments.</li>
                                 <li><span className="font-bold">Technical System Conversion — </span> Execute SAP S/4HANA conversion using SAP-certified tools.</li>
@@ -217,14 +215,14 @@ export default function Page() {
                         <div className="xl:col-span-1 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12 mt-20">
-                            <ul className="list-disc space-y-5  marker:font-bold marker:text-2xl pl-5 text-[20px]">
+                            <ul className="list-disc space-y-5  marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px]">
                                 <li><span className="font-bold"> Data Transformation and Validation — </span>Migrate high-integrity data with minimal disruption.</li>
                                 <li><span className="font-bold">Functional Testing and Optimization — </span>Ensure system alignment and performance.</li>
                                 <li><span className="font-bold"> Post-Go-Live Optimization and Support — </span>Fine-tune processes and system behaviour post-migration.</li>
                             </ul>
                         </div>
                     </div>
-                    <p className="xl:text-[26px] bg-[#0C8AD4] p-5 pl-10 text-white  w-[93%] mt-[-50px] ml-[50px]">Ideal for organizations focused on modernization without disrupting core operations.</p>
+                    <p className="xl:text-[26px] bg-[#0C8AD4] p-5 pl-10 text-white  xl:w-[93%] mt-[-50px] xl:ml-[50px]">Ideal for organizations focused on modernization without disrupting core operations.</p>
 
                     <button className="text-[20px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-5 py-5  transition duration-300 order-4 mt-16">
                         <Link href='/contact-us'>Learn More</Link>
@@ -243,9 +241,9 @@ export default function Page() {
   md:ml-[100px] md:w-[calc(100%-100px)]
   sm:mx-5 sm:w-[calc(100%-40px)]
   xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-20"
+  text-black xl:py-20 py-10"
             >
-                <div className="grid xl:grid-cols-12 grid-cols-1 items-center gap-20">
+                <div className="grid xl:grid-cols-12 grid-cols-1 items-center xl:gap-20 gap-5">
                     <div className="xl:col-span-8 col-span-12">
                         <h2 className="text-[25px] xl:text-[60px] mt-5 leading-tight">
                             Leveraging SAP Signavio and SAP Activate Methodology
@@ -254,7 +252,7 @@ export default function Page() {
                     </div>
 
                     <div className="xl:col-span-4 col-span-12">
-                        <p className="xl:text-[22px]">At Rialtes, we blend SAP Signavio’s Business Process Intelligence (BPI) with SAP Activate Methodology to ensure strategic alignment and flawless execution.</p>
+                        <p className="xl:text-[22px] text-[16px]">At Rialtes, we blend SAP Signavio’s Business Process Intelligence (BPI) with SAP Activate Methodology to ensure strategic alignment and flawless execution.</p>
                     </div>
                 </div>
             </div>
@@ -270,7 +268,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   text-black"
             >
-                <h2 className="xl:text-[30px] font-bold">Our Activate-Based Delivery Model:</h2>
+                <h2 className="xl:text-[30px] text-[18px] font-bold">Our Activate-Based Delivery Model:</h2>
 
                 <div className="overflow-x-auto mt-5">
                     <table className="w-full border-collapse">
@@ -307,8 +305,8 @@ export default function Page() {
        
   text-black"
             >
-                <div className="grid xl:grid-cols-12 grid-cols-1  bg-[#068EDA] gap-8">
-                    <div className="xl:col-span-3 col-span-12 pl-10 xl:w-[355px]">
+                <div className="grid xl:grid-cols-12 grid-cols-1  bg-[#068EDA] xl:gap-8">
+                    <div className="xl:col-span-3 col-span-12 xl:pl-10 pl-4 xl:w-[355px] w-[300px]">
                         <Image
                             src="/images/services/rise-with-sap/SAP Signavio.webp"
                             alt="SAP Partner Logo"
@@ -319,15 +317,15 @@ export default function Page() {
                             priority
                         />
                     </div>
-                    <div className="xl:col-span-9 col-span-12 text-white p-3 pl-10">
-                        <p className="xl:text-[26px]">By embedding SAP Signavio into Explore and Realize phases, we optimize processes and ensure business alignment, driving higher user adoption and system value.</p>
+                    <div className="xl:col-span-9 col-span-12 text-white p-3 xl:pl-10 pl-4">
+                        <p className="xl:text-[26px] text-[16px]">By embedding SAP Signavio into Explore and Realize phases, we optimize processes and ensure business alignment, driving higher user adoption and system value.</p>
                     </div>
                 </div>
 
             </div>
-            <div className="bg-[#DBDBDB] py-20 mt-40">
+            <div className="bg-[#DBDBDB] xl:py-20 py-10 xl:mt-40 mt-[22rem]">
                 <div
-                    className=" mb-20 container
+                    className=" xl:mb-20 container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
@@ -337,7 +335,7 @@ export default function Page() {
                 >
 
                     <div className="grid xl:grid-cols-12 grid-cols-1">
-                        <div className="xl:col-span-8 mt-16">
+                        <div className="xl:col-span-8 xl:mt-16 mt-5">
                             <h2 className="text-[25px] xl:text-[60px]">Extending Value: Rialtes’ BTP and Integration Expertise</h2>
                         </div>
                         <div className="xl:col-span-4 col-span-12">
@@ -346,9 +344,9 @@ export default function Page() {
 
                     <div className="grid xl:grid-cols-12 grid-cols-1 mt-10 gap-5">
                         <div className="xl:col-span-5 col-span-12">
-                            <h3 className="xl:text-[30px] font-bold">BTP Competency for Tailored Solutions</h3>
-                            <p className="mt-5 xl:text-[22px]">Our certified SAP Business Technology Platform (BTP) experts enable advanced extensions, workflows, and integrations to customize and future-proof SAP S/4HANA solutions.</p>
-                            <ul className="list-disc space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 text-[20px]">
+                            <h3 className="xl:text-[30px] font-bold text-[18px]">BTP Competency for Tailored Solutions</h3>
+                            <p className="mt-5 xl:text-[22px] text-[16px]">Our certified SAP Business Technology Platform (BTP) experts enable advanced extensions, workflows, and integrations to customize and future-proof SAP S/4HANA solutions.</p>
+                            <ul className="list-disc space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px]">
                                 <li className="mt-4">Custom App Development and Extensions</li>
                                 <li>Process Automation with SAP Build</li>
                                 <li>Analytics and Data Intelligence</li>
@@ -358,8 +356,8 @@ export default function Page() {
                         <div className="xl:col-span-1 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12">
-                            <h3 className="xl:text-[30px] font-bold">SAP CPI for Enterprise-Grade Integration</h3>
-                            <p className="mt-5 xl:text-[22px]">We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.</p>
+                            <h3 className="xl:text-[30px] font-bold text-[18px]">SAP CPI for Enterprise-Grade Integration</h3>
+                            <p className="mt-5 xl:text-[22px] text-[16px]">We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.</p>
 
                         </div>
                     </div>
@@ -368,7 +366,7 @@ export default function Page() {
 
 
 
-            <section className="relative h-[500px] xl:h-[589px]  mt-5 xl:mt-0">
+            <section className="relative h-[1100px] xl:h-[589px] xl:mt-0">
                 <Image
                     src="/images/services/rise-with-sap/Connected SAP Solutions.webp"
                     alt=""
@@ -399,15 +397,15 @@ export default function Page() {
                         <div className="xl:col-span-9 col-span-12 flex xl:flex-row flex-col gap-5">
                             <div className="flex-1 pl-8 pr-8 pt-10 pb-10 bg-white text-black">
                                 <h3 className="xl:text-[30px] font-bold">SAP SuccessFactors + S/4HANA</h3>
-                                <p className="xl:text-[20px] mt-5">Rialtes integrates SAP SuccessFactors for seamless HR and talent management, enabling end-to-end workforce lifecycle linked directly to core ERP functions like payroll, projects, and finance.</p>
+                                <p className="xl:text-[20px] mt-5 text-[16px]">Rialtes integrates SAP SuccessFactors for seamless HR and talent management, enabling end-to-end workforce lifecycle linked directly to core ERP functions like payroll, projects, and finance.</p>
                             </div>
                             <div className="flex-1 pl-8 pr-8 pt-10 pb-10 bg-white text-black">
                                 <h3 className="xl:text-[30px] font-bold">SAP Ariba + S/4HANA</h3>
-                                <p className="xl:text-[20px] mt-5">With SAP Ariba, we deliver comprehensive procurement transformation, fully integrated into S/4HANA for direct and indirect sourcing, supplier collaboration, and spend analysis.</p>
+                                <p className="xl:text-[20px] mt-5 text-[16px]">With SAP Ariba, we deliver comprehensive procurement transformation, fully integrated into S/4HANA for direct and indirect sourcing, supplier collaboration, and spend analysis.</p>
                             </div>
                             <div className="flex-1 pl-8 pr-8 pt-10 pb-10 bg-white text-black">
                                 <h3 className="xl:text-[30px] font-bold">Direct and Indirect Procurement</h3>
-                                <p className="xl:text-[20px] mt-5">Design and implement optimized procurement processes that reduce costs, enhance compliance, and improve supplier performance.</p>
+                                <p className="xl:text-[20px] mt-5 text-[16px]">Design and implement optimized procurement processes that reduce costs, enhance compliance, and improve supplier performance.</p>
                             </div>
                         </div>
                         <div className="xl:col-span-3 col-span-12">
@@ -427,14 +425,14 @@ export default function Page() {
                  xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
                     <div className="relative h-[665px] mt-20">
-                        <Image
-                            src="/images/services/rise-with-sap/Agentchat banner.webp"
-                            alt=""
-                            fill
-                            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                            priority
-                            className="w-full"
-                        />
+                    <Image
+            src="/images/services/rise-with-sap/Agentchat banner.webp"
+            alt="AgentChat Banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "center" }} // optional: center it on mobile
+            priority
+            className="w-full h-full"
+        />
                         <div className="grid xl:grid-cols-12 grid-cols-1 absolute left-10">
                             <div className="xl:col-span-5 col-span-12 w-[720px] h-[360px]">
                                 <h2 className="text-[25px] xl:text-[50px] bg-white text-black  p-12">Conversational AI with AgentChat — WhatsApp Business, Made for SAP and Salesforce</h2>
