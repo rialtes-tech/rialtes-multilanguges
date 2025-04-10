@@ -39,6 +39,7 @@ body {
   max-width: 1410px;
 }
 
+
 @layer base {
   html {
     font-family: var(--font-family);
@@ -169,6 +170,11 @@ body {
 .bg-image-grow{
   /* opacity: 1.65;
   background: transparent linear-gradient(180deg, #0253AD00 0%, #0052ABFA 100%) 0% 0% no-repeat padding-box; */
+}
+.border-white{
+  width: 56px;
+height: 17px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
 @keyframes zoom {

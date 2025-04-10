@@ -47,7 +47,7 @@ const slides = [
  },
  {
    id: 8,
-   image: "/images/case-studies/case study 2_thumb_n.webp",
+   image: "/images/case-studies/case-study-2_thumb_n.webp",
    category: "Salesforce",
    industry: "Hi-Tech",
    date: "25 Oct 2024",

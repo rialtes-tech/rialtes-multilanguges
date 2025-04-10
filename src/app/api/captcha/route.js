@@ -11,7 +11,7 @@ export async function POST(req) {
     }
 
     try {
-        const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+        const secretKey = process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY;
 
         // Send the captcha value to Google reCAPTCHA API for validation
         const response = await fetch(

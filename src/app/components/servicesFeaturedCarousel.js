@@ -17,7 +17,7 @@ export default function servicesFeaturedCarousel() {
     {
       id: 2,
       url: "/insights/case-studies/realForce-banking-module-ach",
-      imgSrc: "/images/case-studies/case study 2_thumb_n.webp",
+      imgSrc: "/images/case-studies/case-study-2_thumb_n.webp",
       title: "RealForce Banking Module - ACH",
       description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
     },
