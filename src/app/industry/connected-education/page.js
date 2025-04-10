@@ -80,7 +80,7 @@ export default function Page() {
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-20 mt-20">
                         <div className="xl:col-span-6 col-span-12 pr-16">
-                            <h3 className="text-white xl:text-[24px] font-medium mb-2">Education Industry</h3>
+                            <h3 className="text-white xl:text-[24px] font-medium mb-2 mt-10">Education Industry</h3>
                             <h1 className="text-white xl:text-[60px] leading-tight">
                                 Empowering the Future of Education
                             </h1>
@@ -108,10 +108,10 @@ export default function Page() {
 
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-9 col-span-11">
-                        <h2 className="text-[25px] xl:text-[60px]  mt-5">
+                        <h2 className="text-[25px] xl:text-[60px]  mt-5 leading-tight">
                             Transforming Education with Technology-Driven Student Experiences
                         </h2>
-                        <p className="xl:text-[22px] text-[16px] mt-5 pr-32">Education today is evolving at a rapid pace. Institutions must engage digitally native students, streamline enrollment and academic processes, and foster lifelong relationships with learners. From K-12 to higher education, organizations face challenges in managing fragmented student journeys, disjointed academic operations, and evolving stakeholder expectations.</p>
+                        <p className="xl:text-[22px] text-[16px] mt-10 pr-32">Education today is evolving at a rapid pace. Institutions must engage digitally native students, streamline enrollment and academic processes, and foster lifelong relationships with learners. From K-12 to higher education, organizations face challenges in managing fragmented student journeys, disjointed academic operations, and evolving stakeholder expectations.</p>
                         <p className="xl:text-[22px] text-[16px] mt-5 pr-32"> Rialtes delivers holistic education solutions—covering strategic advisory, seamless implementations, process optimization, and long-term support.</p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
@@ -126,7 +126,7 @@ export default function Page() {
 
 
 
-            <section className="relative xl:h-[821px] h-[3850px] mt-20">
+            <section className="relative xl:h-[850px] h-[3850px] mt-20">
                 <Image
                     src="/images/education/TL.webp"
                     alt=""
@@ -153,7 +153,7 @@ export default function Page() {
                         <div className="xl:col-span-4 col-span-12">
                             <h3 className="xl:text-[26px] font-bold">Key Industry Challenges We Address:</h3>
 
-                            <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
+                            <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-10">
                                 <li>Fragmented student engagement and communication channels.</li>
                                 <li>Complex and inefficient recruitment and admissions processes.</li>
                                 <li>Disconnected case management for student services and support.</li>
@@ -197,7 +197,7 @@ export default function Page() {
 
 
 
-            <section className="relative group overflow-hidden h-[500px] xl:h-[1520px]  mt-5 xl:mt-0 xl:block hidden">
+            <section className="relative group overflow-hidden h-[500px] xl:h-[1620px]  mt-5 xl:mt-0 xl:block hidden">
                 <Image
                     src="/images/education/student journey.webp"
                     alt="GROW with SAP"
@@ -215,8 +215,8 @@ export default function Page() {
         md:ml-[100px]"
                 >
                     <div className="flex">
-                        <div className="relative w-[1014px] h-[1611px]">
-                            <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
+                        <div className="relative w-[1014px] h-[1620px]">
+                            <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply opacity-[0.8]"></div>
 
                             <div className="relative bg-opacity-80 text-white z-10   rounded-lg">
                                 <div className="p-16">
@@ -231,9 +231,9 @@ export default function Page() {
                                 </div>
 
                                 <div className="pl-20 pt-10">
-                                    <h3 className="xl:text-[26px] font-bold">Student Lead Management and Engagement</h3>
+                                    <h3 className="xl:text-[30px] font-bold">Student Lead Management and Engagement</h3>
 
-                                    <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-40">
+                                    <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-64">
                                         <li>Capture student leads from multiple channels (web, social, email, recruitment events) using Salesforce Education Cloud.</li>
                                         <li>Intelligent lead nurturing with Salesforce Marketing Cloud, leveraging personalized journeys based on interests and backgrounds.</li>
                                         <li>AI-based lead scoring and matching to recommend suitable programs and scholarships.</li>
@@ -242,9 +242,9 @@ export default function Page() {
                                 </div>
 
                                 <div className="pl-20 pt-10">
-                                    <h3 className="xl:text-[26px] font-bold">Selection and Admissions</h3>
+                                    <h3 className="xl:text-[30px] font-bold">Selection and Admissions</h3>
 
-                                    <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
+                                    <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-64">
                                         <li>Seamless application management with real-time status updates.</li>
                                         <li>Automated document collection and verification workflows.</li>
                                         <li>Selection committee collaboration portals for holistic application reviews.</li>
@@ -259,7 +259,7 @@ export default function Page() {
                                 </div>
                                 <div className="pl-20 pt-10">
 
-                                    <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-40">
+                                    <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-64">
                                         <li>Create a comprehensive family and guardian chart to manage multi-student relationships.</li>
                                         <li>Track alumni family connections for targeted donor campaigns and legacy admissions.</li>
                                         <li>Map sponsorship and scholarship relationships for financial aid management.</li>
@@ -300,25 +300,29 @@ export default function Page() {
                         <div
                             className="h-full relative ml-[15px] xl:ml-[280px] "
                         >
-                            <h2 className="text-[47px] mt-32 font-medium">Hyper-Personalized Student Engagement with Salesforce Marketing Cloud</h2>
+                            <h2 className="text-[47px] mt-32 font-medium leading-tight">Hyper-Personalized Student Engagement with Salesforce Marketing Cloud</h2>
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
                                 <li>AI-powered segmentation to target prospects by program interests, geography, demographics.</li>
                                 <li>Personalized student journeys for pre-admission, onboarding, academic advising, and alumni engagement.</li>
                                 <li>Behavioral triggers for scholarship offers, deadlines, and personalized content delivery.</li>
                                 <li>Event management and RSVP tracking for open houses, campus tours, and recruitment fairs.</li>
                             </ul>
+                            <div className="mt-5">
                             <LearnMore />
+                            </div>
                         </div>
                     </div>
                     <div className="col-span-6 bg-[#F7E2D4] pr-32 mt-[-3rem] pl-16 pb-20  ">
-                        <h2 className="text-[47px] mt-32 font-medium pr-20">Lifelong Student Support with Salesforce Service Cloud</h2>
-                        <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-40">
+                        <h2 className="text-[47px] mt-32 font-medium pr-20 leading-tight">Lifelong Student Support with Salesforce Service Cloud</h2>
+                        <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-32">
                             <li>End-to-end student case management for academic, financial, and wellness support.</li>
                             <li>AI-assisted case deflection and chatbots for common queries (admission status, course selection, fee details).</li>
                             <li>Proactive student success and retention programs, powered by early alert systems and predictive analytics.</li>
                             <li> Integration with career services for internships, placements, and alumni mentorship.</li>
                         </ul>
-                        <LearnMore />
+                        <div className="mt-5">
+                            <LearnMore />
+                            </div>
                     </div>
 
                 </div>
@@ -350,8 +354,8 @@ export default function Page() {
                     <div className="col-span-6 bg-[#D6CFCF] pr-12 pb-20 -mt-[15rem]">
                         <div className="ml-[15px] xl:ml-[280px]"
                         >
-                            <h2 className="text-[47px] mt-32 font-medium">Self-Service Portals for Students and Faculty</h2>
-                            <h3 className="mt-5 font-bold text-[40px]">Salesforce Experience Cloud</h3>
+                            <h2 className="text-[47px] mt-32 font-medium leading-tight">Self-Service Portals for Students and Faculty</h2>
+                            <h3 className="mt-10 font-bold text-[40px]">Salesforce Experience Cloud</h3>
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
                                 <li>Personalized portals for application tracking, document submissions, fee payments, and course registration.</li>
                                 <li>Faculty portals for advising, mentoring, and grading.</li>
@@ -359,20 +363,24 @@ export default function Page() {
                                 <li>Embedded communication channels (chat, messaging, email) for real-time engagement.</li>
 
                             </ul>
+                            <div className="mt-5">
                             <LearnMore />
+                            </div>
                         </div>
                     </div>
 
                     <div className="col-span-6 bg-[#E8DFC7] pr-32 mt-[-4rem] pl-16 pb-20">
-                        <h2 className="text-[47px] mt-32 font-medium pr-32">Seamless Enrollment, Fee, and Resource Management</h2>
-                        <h3 className="mt-5 font-bold text-[40px]">SAP S/4HANA + Rialtes</h3>
+                        <h2 className="text-[47px] mt-32 font-medium pr-32 leading-tight">Seamless Enrollment, Fee, and Resource Management</h2>
+                        <h3 className="mt-10 font-bold text-[40px]">SAP S/4HANA + Rialtes</h3>
                         <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-32">
                             <li>Fully integrated student information and ERP system for enrollment, finance, and resource management.</li>
                             <li>Real-time visibility into fee status, financial aid, and scholarships.</li>
                             <li>SAP-backed course scheduling, faculty assignment, and resource allocation.</li>
                             <li> Procurement and supplier collaboration via SAP ARIBA for campus infrastructure needs.</li>
                         </ul>
-                        <LearnMore />
+                        <div className="mt-5">
+                            <LearnMore />
+                            </div>
                     </div>
 
                 </div>
@@ -406,30 +414,34 @@ export default function Page() {
                     {/* First Column */}
                     <div className="col-span-6 bg-[#F1D8D9] pr-14 pb-20  -mt-[15rem]">
                         <div className="h-full relative ml-[15px] xl:ml-[280px] group">
-                            <h2 className="text-[47px] mt-32 font-medium">Dynamic Program and Course Pricing</h2>
-                            <h3 className="mt-5 font-bold text-[40px]">Salesforce Revenue Cloud</h3>
+                            <h2 className="text-[47px] mt-32 font-medium leading-tight">Dynamic Program and Course Pricing</h2>
+                            <h3 className="mt-10 font-bold text-[40px]">Salesforce Revenue Cloud</h3>
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
                                 <li>Program and tuition fee configuration based on course, campus, residency status, and scholarship eligibility.</li>
                                 <li>Manage installment plans, discounts, and refunds.</li>
                                 <li> End-to-end quote-to-enrollment processes for executive education and certificate programs.</li>
                                 <li>Integrate with SAP for billing, AR, and finance operations.</li>
                             </ul>
+                            <div className="mt-5">
                             <LearnMore />
+                            </div>
                         </div>
                     </div>
 
                     {/* Second Column */}
-                    <div className="col-span-6 bg-[#C7E8E9] pr-32 mt-80 pl-16 pb-20 mt-[-4rem]">
+                    <div className="col-span-6 bg-[#C7E8E9] pr-32 pl-16 pb-20 mt-[-4rem]">
 
-                        <h2 className="text-[47px] mt-32 font-medium pr-32">Unified Data and Insights</h2>
-                        <h3 className="mt-5 font-bold text-[40px]">Salesforce Data Cloud for Education</h3>
+                        <h2 className="text-[47px] mt-32 font-medium pr-32 leading-tight">Unified Data and Insights</h2>
+                        <h3 className="mt-10 font-bold text-[40px]">Salesforce Data Cloud for Education</h3>
                         <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 pr-32">
                             <li>A 360-degree view of every student: academic progress, financial aid, career services, and engagement.</li>
                             <li>Advanced analytics and AI models for predicting at-risk students and enhancing retention.</li>
                             <li>Real-time data synchronization with SAP S/4HANA, LMS, CRM, and student success platforms.</li>
                             <li> Donor and alumni relationship management for advancement and fundraising.</li>
                         </ul>
-                        <LearnMore />
+                        <div className="mt-5">
+                            <LearnMore />
+                            </div>
                     </div>
                 </div>
             </section>
@@ -448,7 +460,7 @@ export default function Page() {
                 <div className="grid grid-cols-12">
                     <div className="col-span-6 bg-[#C4E2FF] pr-20 pb-32 h-full flex flex-col justify-center -mt-16">
                         <div className="h-full ml-[15px] xl:ml-[280px]">
-                            <h2 className="text-[47px] mt-32 font-medium">Empowering Advisors and Faculty</h2>
+                            <h2 className="text-[47px] mt-32 font-medium leading-tight">Empowering Advisors and Faculty</h2>
                             <h3 className="mt-5 font-bold text-[40px]">Agentforce for Education</h3>
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
                                 <li>Unified view of each student’s academic, financial, wellness, and engagement history.</li>
@@ -456,22 +468,24 @@ export default function Page() {
                                 <li>Manage advising sessions, notes, and follow-ups with integrated case management.</li>
                                 <li>Collaboration tools for cross-departmental student success initiatives.</li>
                             </ul>
+                            <div className="mt-5">
+                            <LearnMore />
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </section>
 
-            <div className="xl:ml-[280px]">
-                <LearnMore />
-            </div>
+           
 
-            <section className="relative h-[1100px] xl:h-[1000px] mt-40">
+            <section className="relative h-[1000px] xl:h-[1000px] mt-32 group overflow-hidden">
                 <Image
                     src="/images/education/agentchat.webp"
                     alt=""
                     fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
+                    className="transform transition-transform duration-500 group-hover:scale-110"
                 />
 
             </section>
@@ -489,7 +503,7 @@ export default function Page() {
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white">
                         <div className="xl:col-span-7 col-span-12">
-                            <h2 className="text-[25px] xl:text-[50px]  text-white leading-tight pr-10">
+                            <h2 className="text-[25px] xl:text-[50px]  text-white leading-tight pr-10 font-medium">
                                 <span className="font-bold text-[70px]">AgentChat</span> <br></br>  Transforming Communication in Education with AI-Powered WhatsApp Integration
                             </h2>
                         </div>
@@ -586,7 +600,7 @@ export default function Page() {
                     <Link href='/products/agentchat'>Learn More</Link>
                 </button>
             </div>
-            <div className="py-20 mt-32">
+            <div className="py-20 mt-20">
                 <div
                     className="
                   h-full relative
@@ -597,7 +611,7 @@ export default function Page() {
                  xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-16">
-                        <div className="xl:col-span-5 col-span-12 relative h-[642px] group overflow-hidden">
+                        <div className="xl:col-span-5 col-span-12 relative h-[680px] group overflow-hidden">
                             <Image
                                 src="/images/education/solutions.webp"
                                 alt=""
@@ -646,7 +660,7 @@ export default function Page() {
 
             {/* Contact Form */}
             <div
-                className="mt-20
+                className="
   container
   ml-[15px] w-[calc(100%-15px)] mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
