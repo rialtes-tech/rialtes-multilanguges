@@ -193,9 +193,7 @@ export default function Page() {
                                 <li>Maintaining submission readiness, audit trails, and risk assessments.</li>
                                 <li>Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions.</li>
                             </ul>
-                            <div className="mt-5">
-                                <LearnMore />
-                            </div>
+                            
 
                         </div>
                         <div className="col-span-1"></div>
@@ -249,9 +247,7 @@ export default function Page() {
                                 <li>Fragmented systems for trial data and adverse event management.</li>
                                 <li>Challenges in ensuring data accuracy for regulatory submissions.</li>
                             </ul>
-                            <div className="mt-5">
-                                <LearnMore />
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -280,9 +276,7 @@ export default function Page() {
                                 <li> Lack of visibility into patient support and outcomes.</li>
                                 <li>Struggles with medical inquiry and adverse event tracking.</li>
                             </ul>
-                            <div className="mt-5">
-                                <LearnMore />
-                            </div>
+                            
                         </div>
                         <div className="col-span-4 relative group overflow-hidden">
                             <Image
@@ -330,12 +324,13 @@ export default function Page() {
                                 <li>Lack of real-time visibility into inventory and shipments.</li>
                                 <li>Inefficiencies in recall, complaint, and adverse event responses.</li>
                             </ul>
-                            <div className="mt-5">
-                                <LearnMore />
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
+                <div className="mt-5">
+                                <LearnMore />
+                            </div>
             </div>
 
 
@@ -345,7 +340,7 @@ export default function Page() {
 
 
 
-            <section className="relative group overflow-hidden h-[500px] xl:h-[1600px]  mt-5 xl:mt-40 xl:block hidden text-white">
+            <section className="relative group overflow-hidden h-[500px] xl:h-[1600px]  mt-5 xl:mt-32 xl:block hidden text-white">
                 <Image
                     src="/images/pharma/Deep Expertise (1).webp"
                     alt="GROW with SAP"
