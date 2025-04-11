@@ -1022,6 +1022,7 @@ const Header = () => {
                   >
                     Education
                   </div>
+                 
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1057,10 +1058,18 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4] " label="Healthcare" link="/industry/life-sciences/healthcare-medtech-patient-care" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/healthcare-medtech-patient-care")}
                               onHover={() => { }} />
                           </div>
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4] " label="Pharma and Biotech" link="/industry/life-sciences/pharma-biotech-digital-transformation" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/pharma-biotech-digital-transformation/")}
+                              onHover={() => { }} />
+                          </div>
                         </div>
                         {/* <div className="mt-6">
                         <MenuItem className="font-bold text-[#2f78c4]" label="Pharma and Bio" link="/" onClick={handleLinkClick} onHover={() => { }} />
                       </div> */}
+                      <div>
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
+                              onHover={() => { }} />
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -1151,7 +1160,7 @@ const Header = () => {
                     <div className="flex-1">
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5">Education</div>
-                        {/* <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p> */}
+                        <p className="mt-3">Igniting the future of learning, Unlocking potential, powering progress—technology for tomorrow’s education.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/connected-education' onClick={(e) => handleLinkClick(e, "/industry/connected-education")}
                           >Let's Begin</Link>
@@ -1160,6 +1169,7 @@ const Header = () => {
                     </div>
                   </div>
                 )}
+                
               </div>
             </div>
           )}

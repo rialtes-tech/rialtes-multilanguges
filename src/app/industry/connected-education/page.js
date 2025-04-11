@@ -55,9 +55,7 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Rise with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
-                description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
-                keywords="home, website, welcome"
+                title="Education Industry"
             />
 
             <section className="relative group overflow-hidden h-[350px] lg:h-[650px]">
@@ -308,7 +306,7 @@ export default function Page() {
                                 <li>Event management and RSVP tracking for open houses, campus tours, and recruitment fairs.</li>
                             </ul>
                             <div className="mt-5">
-                            <LearnMore />
+                                <LearnMore />
                             </div>
                         </div>
                     </div>
@@ -322,7 +320,7 @@ export default function Page() {
                         </ul>
                         <div className="mt-5">
                             <LearnMore />
-                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -364,7 +362,7 @@ export default function Page() {
 
                             </ul>
                             <div className="mt-5">
-                            <LearnMore />
+                                <LearnMore />
                             </div>
                         </div>
                     </div>
@@ -380,7 +378,7 @@ export default function Page() {
                         </ul>
                         <div className="mt-5">
                             <LearnMore />
-                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -388,7 +386,7 @@ export default function Page() {
             <section className="mt-[22rem]">
 
 
-            <div className="relative group overflow-hidden h-[419px] w-[604px] -mt-[22rem] left-[13%]">
+                <div className="relative group overflow-hidden h-[419px] w-[604px] -mt-[22rem] left-[13%]">
                     <Image
                         src="/images/education/revenue cloud.webp"
                         alt=""
@@ -399,16 +397,16 @@ export default function Page() {
                 </div>
                 <div className="relative group overflow-hidden h-[419px] w-[604px] mt-[-15rem]  left-[55%]">
                     <Image
-                                src="/images/education/data cloud.webp"
-                                alt=""
+                        src="/images/education/data cloud.webp"
+                        alt=""
                         fill
                         priority
                         className="!w-[650px] !h-[419px]  origin-center transform transition-transform duration-500 group-hover:scale-110"
                     />
                 </div>
 
-               
-              
+
+
 
                 <div className="grid grid-cols-12 gap-12 items-start">
                     {/* First Column */}
@@ -423,7 +421,7 @@ export default function Page() {
                                 <li>Integrate with SAP for billing, AR, and finance operations.</li>
                             </ul>
                             <div className="mt-5">
-                            <LearnMore />
+                                <LearnMore />
                             </div>
                         </div>
                     </div>
@@ -441,7 +439,7 @@ export default function Page() {
                         </ul>
                         <div className="mt-5">
                             <LearnMore />
-                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -469,15 +467,15 @@ export default function Page() {
                                 <li>Collaboration tools for cross-departmental student success initiatives.</li>
                             </ul>
                             <div className="mt-5">
-                            <LearnMore />
+                                <LearnMore />
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </section>
 
-           
+
 
             <section className="relative h-[1000px] xl:h-[1000px] mt-32 group overflow-hidden">
                 <Image
@@ -486,6 +484,8 @@ export default function Page() {
                     fill
                     priority
                     className="transform transition-transform duration-500 group-hover:scale-110"
+                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+
                 />
 
             </section>
@@ -580,8 +580,6 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
@@ -589,11 +587,8 @@ export default function Page() {
                 className="
                   h-full  xl:mr-[142px]
                  xl:ml-[280px] 
-                 "
-            >
+                 ">
                 <p className="xl:text-[26px] bg-[#0C8AD4]  p-5 pl-10 text-white mt-[-5rem] absolute w-[60%]">With AgentChat, elevate your institution’s communication to new heights—efficient, secure, and fully integrated.</p>
-
-
             </div>
             <div className="mt-20  xl:ml-[280px] ">
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
@@ -624,15 +619,12 @@ export default function Page() {
 
                         <div className="xl:col-span-5 col-span-12 text-black">
                             <h2 className="text-[60px] font-light mb-8">Related Solutions</h2>
-
                             <div className="space-y-10">
-
                                 <div>
                                     <h3 className="text-[#0C8AD4] font-semibold text-[22px]">Salesforce Education Cloud</h3>
                                     <p className="text-gray-700 mt-2 text-[20px]">Manage end-to-end student lifecycle and engagement.</p>
                                     <hr className="mt-8 border-gray-300 border-2" />
                                 </div>
-
                                 <div>
                                     <h3 className="text-[#0C8AD4] font-semibold text-[22px]">SAP S/4HANA for Education</h3>
                                     <p className="text-gray-700 mt-2 text-[20px]">Robust ERP for education finance, HR, and campus operations.</p>
@@ -644,7 +636,6 @@ export default function Page() {
                                     <p className="text-gray-700 mt-2 text-[20px]">Personalized campaigns and dynamic pricing.</p>
                                     <hr className="mt-8 border-gray-300 border-2" />
                                 </div>
-
                                 <div>
                                     <h3 className="text-[#0C8AD4] font-semibold text-[22px]">SAP ARIBA for Education</h3>
                                     <p className="text-gray-700 mt-2 text-[20px]">Procurement solutions for campus operations.</p>
@@ -653,7 +644,6 @@ export default function Page() {
 
                         </div>
                     </div>
-
                 </div>
             </div>
 

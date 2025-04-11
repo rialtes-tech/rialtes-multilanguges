@@ -105,6 +105,7 @@ export default function Page() {
             <div className="flex flex-row gap-6 ">
               <div className="max-w-[40px]">
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-7&title=Omnichannel case management with Salesforce Service Cloud&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
+                  
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
