@@ -1145,7 +1145,7 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Manufacturing</div>
+                        <div className="font-bold mt-5">Powering Smart, Seamless Manufacturing with Mobility and Efficiency</div>
                         <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/manufacturing-cloud-erp' onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp")}

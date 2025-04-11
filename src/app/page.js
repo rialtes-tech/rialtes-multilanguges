@@ -132,28 +132,39 @@ const Home = () => {
       knowMore: 'Know More',
       url: 'industry/manufacturing-cloud-erp'
     },
-    // {
-    //   id: 4,
-    //   title: 'Finance',
-    //   description: 'From banking payment solutions to financial services automation, our dedicated and knowledgeable team is ready to help you achieve operational excellence and build customer trust while staying compliant with government regulations.',
-    //   knowMore: 'Know More',
-    //   url:''
-    // },
     {
-      id: 5,
+      id: 4,
       title: 'Hi-Tech',
       description: 'Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.',
       knowMore: 'Know More',
       url: 'industry/hitech-semiconductor'
 
     },
-    // {
-    //   id: 6,
-    //   title: 'Retail & e-Commerce',
-    //   description: 'We streamline business processes by connecting everyone with the information they need. We offer Salesforce Sales and other solutions for businesses that collect sales, marketing, and customer data and help them improve sales strategies.',
-    //   knowMore: 'Know More',
-    //   url:''
-    // },
+    {
+      id: 5,
+      title: 'Pharma & Biotech',
+      description: 'Drive innovation, ensure regulatory compliance, and accelerate time-to-market with our end-to-end digital solutions. We empower pharma and biotech companies with AI-driven platforms, Salesforce Life Sciences Cloud, and SAP S/4HANA to streamline R&D, regulatory, commercial, and supply chain operations.',
+      knowMore: 'Know More',
+      url: 'industry/life-sciences/pharma-biotech-digital-transformation'
+
+    },
+    {
+      id: 6,
+      title: 'Education',
+      description: 'Transform how institutions engage with students, manage enrollment, and personalize learning journeys. From student lifecycle management to alumni relations, our CRM and automation solutions help educational organizations deliver impactful, data-driven education experiences.',
+      knowMore: 'Know More',
+      url: 'industry/connected-education'
+
+    },
+    {
+      id: 7,
+      title: 'Medical Devices',
+      description: 'Simplify compliance, accelerate innovation, and streamline global operations with our tailored solutions for the medical device industry. From SAP S/4HANA and Salesforce Life Sciences Cloud to AI-driven automation, we help MedTech companies manage complex supply chains and enhance patient outcomes with implementation, integration, and support services.',
+      knowMore: 'Know More',
+      url: 'industry/life-sciences/medical-devices-it-solutions'
+
+    },
+    
   ]
 
   const successStoryData = [
@@ -586,7 +597,7 @@ const Home = () => {
           </div>
           <div className='grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:ml-[230px] md:ml-[100px] px-6 mt-16 sm:px-0'>
             {industryData.map((industry, index) => {
-              const showDivider = [1, 2, 4, 5].includes(index);
+              const showDivider = [1, 2, 4, 5,7,8].includes(index);
               return (
                 <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}>
                   <div
