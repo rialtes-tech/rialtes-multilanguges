@@ -62,14 +62,15 @@ const slides = [
 export default function Page() {
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/a-public-housing-in-us";
-  const imageUrl = "https://www.rialtes.com/images/case-studies/case-study-5.webp";
+  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/src/app/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
+
+
   return (
     <div className="min-h-screen bg-white">
       <Head>
         <meta property="og:title" content="A Public Housing in US" />
         <meta property="og:description" content="Summary of the case study" />
         <meta property="og:url" content={fullUrl} />
-        <meta property="og:image" content={imageUrl} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </Head>
@@ -127,7 +128,7 @@ export default function Page() {
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-6">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -139,8 +140,8 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
-              <div className="max-w-[40px]">
+              </div> */}
+              {/* <div className="max-w-[40px]">
                 <a href="https://twitter.com/intent/tweet?url=/case-study-6&text=A public housing in US">
                   <Image
                     src="/images/case-studies/twitter.svg"
@@ -152,7 +153,7 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

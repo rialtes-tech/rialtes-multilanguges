@@ -59,6 +59,8 @@ const slides = [
 ];
 
 export default function Page() {
+  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/src/app/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud";
+const title = "Digitizing Patient Journey Using Salesforce Health Cloud";
   return (
     <div className="min-h-screen bg-white">
       <Head>
