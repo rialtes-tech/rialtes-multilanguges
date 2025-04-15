@@ -595,11 +595,17 @@ const Home = () => {
             </div>
             <p className='mt-3'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
           </div>
-          <div className='grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:ml-[230px] md:ml-[100px] px-6 mt-16 sm:px-0'>
+          <div className='grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:ml-[230px] md:ml-[100px] px-6 mt-16 sm:px-0 xl:gap-0 gap-10'>
             {industryData.map((industry, index) => {
               const showDivider = [1, 2, 4, 5,7,8].includes(index);
+              const hideOnMobile = index >= industryData.length - 3; //
               return (
-                <div key={industry.id} className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}>
+                <div
+                key={industry.id}
+                className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'} ${
+                  hideOnMobile ? 'hidden sm:block' : ''
+                }`}
+              >
                   <div
                     className={`group hover:bg-white transition-all duration-300 xl:h-[300px] relative xl:p-10 md:p-2 p-3`}
                   >
