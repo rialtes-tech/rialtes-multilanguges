@@ -146,7 +146,7 @@ const Header = () => {
         {
           label: 'Business Transformation', href: '/',
           subLinks: [
-            { label: 'Grow with SAP', href: '/services/business-transformation/new-grow-with-sap' },
+            { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/new-rise-with-sap' },
             // { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
 
@@ -1159,8 +1159,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Education</div>
-                        <p className="mt-3">Igniting the future of learning, Unlocking potential, powering progress—technology for tomorrow’s education.</p>
+                        <div className="font-bold mt-5">Driving Education with Student-Centric Solutions</div>
+                        <p className="mt-3">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/connected-education' onClick={(e) => handleLinkClick(e, "/industry/connected-education")}
                           >Let's Begin</Link>
