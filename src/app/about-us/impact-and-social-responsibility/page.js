@@ -19,7 +19,7 @@ export default function Page() {
           src="/images/social-impact/Social impact header.webp"
           alt="GROW with SAP"
           fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "67% 20%" }}
           priority
         />
         <div
@@ -46,11 +46,9 @@ export default function Page() {
       <section
         className="xl:mt-0 mt-10
         container
-        ml-[15px] w-[calc(100%-15px)] mr-0
+        ml-[30px] mr-[30px]  xl:mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        md:ml-[100px] md:w-[calc(100%-100px)]"
       >
         <div className="xl:py-16 py-5 bg-white">
           <div className="container mx-auto">
@@ -219,9 +217,9 @@ export default function Page() {
       </section>
       <section className="relative  xl:hidden block">
         {/* Image Section */}
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[386px]">
           <Image
-            src="/images/social-impact/AI Impact for Future.webp"
+            src="/images/social-impact/AdobeStock_-2.webp"
             alt=""
             fill
             className="object-cover object-[18%_20%]"
@@ -261,7 +259,7 @@ export default function Page() {
        "
       >
         <section className="bg-white">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-16 mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-16 xl:mt-20 mt-16">
             <div className="relative">
               <div className=" bg-[#086CB9] xl:p-10 p-14 text-white w-full">
                 <div className="flex flex-col">
