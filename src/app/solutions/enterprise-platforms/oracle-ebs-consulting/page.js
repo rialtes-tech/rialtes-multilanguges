@@ -176,7 +176,7 @@ export default function Page() {
 
             {/* Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI) */}
 
-            <section className="relative h-[1224px] pb-10 sm:h-[500px] xl:h-[1482px] z-0">
+            <section className="relative  xl:h-[1482px] z-0">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/oracle-ebs/deep expertise.webp"
@@ -193,7 +193,7 @@ export default function Page() {
                         fill
                         style={{ objectFit: "cover" }}
                         priority
-                        className="!h-auto"
+                        className="pb-20 !h-auto"
                     />
                 </div>
 
@@ -255,7 +255,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="relative h-auto pb-12 xl:pb-0 sm:h-[500px] xl:h-[999px] z-0 bg-[#F2F2F2] xl:ml-[145px] mt-64 xl:mt-0">
+            <section className="relative h-auto pb-12 xl:pb-0 sm:h-[500px] xl:h-[999px] z-0 bg-[#F2F2F2] xl:ml-[145px] mt-10 xl:mt-0">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/oracle-ebs/thought leadership.webp"
@@ -296,7 +296,7 @@ export default function Page() {
                                 <p className="xl:text-[22px] text-[16px] mt-5 leading-tight pr-10 xl:pr-14">
                                     Rialtes is not just a technology partner — we are business transformation leaders. Our industry-driven accelerators, AI-infused solutions, and agile methodologies ensure that clients experience real, measurable value from their Oracle EBS investments.
                                 </p>
-                                <h3 className="xl:text-[30px] xl:mt-8 mt-[30rem] text-[22px] font-bold">Our Thought Leadership Pillars:</h3>
+                                <h3 className="xl:text-[30px] xl:mt-8 mt-[29rem] text-[22px] font-bold">Our Thought Leadership Pillars:</h3>
                                 <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl pr-10">
                                     <li className="mt-5"><span className="font-bold">Bringing AI to Oracle EBS </span> for predictive analytics and intelligent automation.</li>
                                     <li><span className="font-bold">Integrating Kinaxis RapidResponse® </span> for agile supply chain responsiveness.</li>
