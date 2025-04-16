@@ -25,11 +25,9 @@ export default function Page() {
         <div
           className="
         container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
+        mx-[35px] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        md:ml-[100px] md:w-[calc(100%-100px)]"
         >
           <div className="container mx-auto h-full flex flex-col justify-center xl:mt-[-80px]">
             <div className="flex flex-col">
@@ -44,14 +42,13 @@ export default function Page() {
       </section>
 
       <section
-        className="xl:mt-0 mt-10
-        container
-        ml-[30px] mr-[30px]  xl:mr-0
+        className="xl:container xl:mt-0 mt-10
+        mx-[35px]  xl:mr-20
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]"
       >
         <div className="xl:py-16 py-5 bg-white">
-          <div className="container mx-auto">
+          <div className="mx-auto">
             <div>
               <div className="w-full xl:mr-4 xl:mb-0">
                 <h2 className="text-black md:pb-0 pb-4 font-bold  w-full xl:text-[44px] text-[22px]">Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.</h2>
@@ -320,12 +317,11 @@ export default function Page() {
       </div>
       < div
         className="
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
+  xl:container
+  mx-[35px] xl:mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
+ 
   text-black pb-20"
       >
         <ContactForm title='Ready to take the next step? Let’s kick off your journey to operational excellence' className={"max-w-4xl"} />

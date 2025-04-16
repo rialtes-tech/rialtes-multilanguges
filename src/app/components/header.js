@@ -1291,7 +1291,7 @@ const Header = () => {
 
       {/* ///mobile menu */}
       <div>
-        <div className="xl:hidden md:block  flex justify-between items-center px-4" id="mobile-menu">
+        <div className="xl:hidden md:block  flex justify-between items-center px-[35px] py-3" id="mobile-menu">
           <Link href='/'>
             <Image
               loading="lazy"
@@ -1304,7 +1304,7 @@ const Header = () => {
             />
           </Link>
 
-          <button onClick={toggleMenu} className="p-4">
+          <button onClick={toggleMenu} className="pt-4 pb-4">
             {isMenuOpen ? (
               <svg
                 className="w-6 h-6 text-gray-800 transform rotate-45 transition-transform duration-300"
