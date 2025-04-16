@@ -19,18 +19,30 @@ export default function Page() {
       />
 
       <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
-        <Image
-          src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
-          alt=""
-          fill
-          style={{ objectFit: "cover" }}
-          priority
-          className="transform transition-transform duration-500 group-hover:scale-110 objet-[49%_20%]"
-        />
+        <div className="xl:block hidden">
+          <Image
+            src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
+            alt=""
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110 objet-[49%_20%]"
+          />
+        </div>
+        <div className="xl:hidden block">
+          <Image
+            src="/images/services/grow-with-sap/AdobeStock_1335365875 (1).webp"
+            alt=""
+            fill
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
         <div
           className="
          h-full relative
-        ml-[25px] w-[calc(100%-25px)] mr-0
+        mx-[35px] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
        "
@@ -66,7 +78,7 @@ export default function Page() {
 
       <section
         className="mt-16
-              ml-[20px] mr-[30px]  xl:mr-0
+               mx-[35px]  xl:mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
               md:ml-[100px] md:w-[calc(100%-100px)]
              
@@ -91,7 +103,7 @@ export default function Page() {
 
       <div
         className="xl:container
-               xl:ml-[280px]   md:ml-[100px] md:w-[calc(100%-100px)] ml-4  xl:mr-0"
+               xl:ml-[280px]   md:ml-[100px] md:w-[calc(100%-100px)] mx-[35px]  xl:mr-0"
       >
         <div className="grid xl:grid-cols-3 grid-cols-1 mt-16 gap-16">
           <div className="flex items-center xl:gap-5 gap-10 mr-32 xl:mr-0">
@@ -209,7 +221,7 @@ export default function Page() {
             <div className="xl:col-span-7 col-span-12">
             </div>
           </div>
-          <div className="xl:grid xl:grid-cols-12 grid-cols-1 relative xl:pl-16 pl-8 pr-8 flex  flex-row-reverse">
+          <div className="xl:grid xl:grid-cols-12 grid-cols-1 relative xl:pl-16 px-[35px] flex  flex-row-reverse">
             <div className="xl:col-span-5 col-span-12 text-white">
 
               <p className="xl:text-[21px] text-[16px] mt-10">Grow with SAP brings the power of SAP S/4HANA Cloud Public Edition to mid-market and growing enterprises with pre-configured industry best practices, rapid deployment, and flexible licensing — making enterprise-grade ERP affordable, scalable, and fast to implement.</p>
@@ -229,18 +241,29 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="relative h-[1280px] xl:h-[1000px]  xl:mt-32 mt-10 bg-image-grow">
-        <Image
-          src="/images/services/grow-with-sap/Migration.webp"
-          alt=""
-          fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-          priority
-        />
+      <section className="relative h-auto xl:h-[1000px]  xl:mt-32 mt-10 bg-image-grow pb-10">
+        <div className="xl:block hidden">
+          <Image
+            src="/images/services/grow-with-sap/Migration.webp"
+            alt=""
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+          />
+        </div>
+        <div className="xl:hidden block">
+          <Image
+            src="/images/services/grow-with-sap/Group 458.webp"
+            alt=""
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+          />
+        </div>
         <div
           className="
                      h-full relative
-                    ml-[30px] mr-[30px] xl:mr-0
+                    mx-[35px] xl:mr-0
                     xl:ml-[280px] xl:w-[calc(100%-280px)]
                     md:ml-[100px] md:w-[calc(100%-100px)]
                    
@@ -303,12 +326,12 @@ export default function Page() {
 
       <div
         className="
-  container
-  ml-[30px] mr-[30px] xl:mr-0
+  xl:container
+  mx-[35px]  xl:mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
 
-  text-black py-20"
+  text-black py-20 pt-16"
       >
         <div className="grid xl:grid-cols-12 grid-cols-1  xl:gap-20">
           <div className="xl:col-span-8 col-span-12 pr-10">
@@ -335,7 +358,7 @@ export default function Page() {
   
   text-black"
       >
-        <h2 className="xl:text-[30px] text-[18px] font-bold pl-10">Key Phases of SAP Activate Methodology:</h2>
+        <h2 className="xl:text-[30px] text-[18px] font-bold pl-8 xl:mt-10 pr-20">Key Phases of SAP Activate Methodology:</h2>
 
         <div className="overflow-x-auto mt-5">
           <table className="w-full border-collapse">
@@ -455,7 +478,7 @@ export default function Page() {
           />
 
           {/* Content over the image */}
-          <div className="relative mt-[24rem] xl:mt-0 z-10 h-full ml-[30px] mr-[30px]  xl:ml-[280px] xl:w-[calc(100%-280px)] md:ml-[100px] md:w-[calc(100%-100px)] flex">
+          <div className="relative mt-[24rem] xl:mt-0 z-10 h-full mx-[35px]  xl:ml-[280px] xl:w-[calc(100%-280px)] md:ml-[100px] md:w-[calc(100%-100px)] flex">
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
               <div className="xl:col-span-6 col-span-12">
                 <h2 className="text-[25px] xl:text-[60px] text-white leading-tight mt-16">
@@ -466,7 +489,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="relative xl:mt-[-380px] z-20 ml-[30px]  mr-[30px]  xl:ml-[280px] xl:mr-[420px] mt-[-5rem]   md:ml-[100px]">
+        <div className="relative xl:mt-[-380px] z-20 mx-[35px]  xl:ml-[280px] xl:mr-[420px] mt-[-5rem]   md:ml-[100px]">
           <div className="xl:col-span-9 col-span-12 flex xl:flex-row flex-col gap-5">
             <div className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[2px]  hover:border-none">
               <h3 className="xl:text-[30px] font-bold text-[22px]">SAP SuccessFactors + S/4HANA Cloud</h3>
@@ -488,7 +511,7 @@ export default function Page() {
       <div
         className="xl:mt-24 mt-16
                   h-full relative
-                 ml-[30px] mr-[30px] xl:mr-0
+                 mx-[35px] xl:mr-0
                  xl:ml-[280px] xl:w-[calc(100%-280px)]
                  md:ml-[100px] md:w-[calc(100%-100px)]
                 "
@@ -528,7 +551,7 @@ export default function Page() {
         <div
           className="xl:container
                   h-full relative
-                 ml-[30px] mr-[30px] xl:mr-0
+                 mx-[35px] xl:mr-0
                  xl:ml-[280px] xl:w-[calc(100%-280px)]
                  md:ml-[100px] md:w-[calc(100%-100px)]
                "
@@ -576,7 +599,7 @@ export default function Page() {
         <div
           className="
                   h-full relative
-                 ml-[30px] mr-[30px] xl:mr-0
+                 mx-[35px] xl:mr-0
                  xl:ml-[280px] xl:w-[calc(100%-280px)]
                  md:ml-[100px] md:w-[calc(100%-100px)]
                "
@@ -611,8 +634,8 @@ export default function Page() {
       {/* Contact Form */}
       <div
         className="
-  container
-  ml-[30px] mr-[30px] xl:mr-0
+  xl:container
+  mx-[35px]  xl:mr-0
   xl:ml-[280px] xl:w-[calc(100%-280px)]
   md:ml-[100px] md:w-[calc(100%-100px)]
  
