@@ -176,7 +176,7 @@ export default function Page() {
 
             {/* Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI) */}
 
-            <section className="relative  xl:h-[1482px] z-0">
+            <section className="relative h-auto pb-20 xl:h-[1482px] z-0 xl:pb-20">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/oracle-ebs/deep expertise.webp"
@@ -193,7 +193,7 @@ export default function Page() {
                         fill
                         style={{ objectFit: "cover" }}
                         priority
-                        className="pb-20 !h-auto"
+                        className=""
                     />
                 </div>
 
@@ -255,7 +255,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="relative h-auto pb-12 xl:pb-0 sm:h-[500px] xl:h-[999px] z-0 bg-[#F2F2F2] xl:ml-[145px] mt-10 xl:mt-0">
+            <section className="relative pb-12 xl:pb-0 sm:h-[500px] xl:h-[999px] z-0 bg-[#F2F2F2] xl:ml-[145px] xl:mt-0">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/oracle-ebs/thought leadership.webp"
