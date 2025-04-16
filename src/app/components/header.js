@@ -109,7 +109,7 @@ const Header = () => {
             { label: 'Revenue Cloud', href: '/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' },
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
-            // { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
+            { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
 
           ],
         },
