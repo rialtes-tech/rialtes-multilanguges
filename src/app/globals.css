@@ -122,7 +122,11 @@ body {
 
 @media (max-width: 767px) {
   .group:hover .group-hover\:opacity-100 {
-    opacity: 1 !important;
+    opacity: 1 !important;  }
+  .border-white{
+    width: 25px!important;
+  height: 17px!important;
+  background: #FFFFFF 0% 0% no-repeat padding-box!important;
   }
 }
 
@@ -143,6 +147,7 @@ body {
     padding-left: 20px !important;
     /* top: 6rem; */
   }
+ 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

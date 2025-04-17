@@ -319,6 +319,8 @@ const Home = () => {
                   className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left"
                   alt="demo"
                   src="/images/homepage/inauguration-14 2.webp"
+                  rel="preload"
+                  quality={60}                 
                 />
               </a>
             </div>
@@ -336,6 +338,8 @@ const Home = () => {
                   className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/inauguration-15 1.webp"
+                  rel="preload"
+                  quality={60}     
                 />
               </a>
             </div>
@@ -384,11 +388,12 @@ const Home = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: '100%', objectFit: 'cover' }}
                   priority
                   className="w-full h-[300px] xl:h-full md:h-full bg-fixed cursor-pointer object-left xl:block hidden"
                   alt="demo"
                   src="/images/homepage/automotive.webp"
+                  rel="preload"
+                  quality={60}     
                 />
               </div>
               <div className='xl:hidden block'>
@@ -396,11 +401,12 @@ const Home = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: '100%', objectFit: 'cover' }}
                   priority
-                  className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
+                  className="w-full h-[400px]  xl:h-full  bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 1 1.webp"
+                  rel="preload"
+                  quality={60}     
                 />
               </div>
             </a>
@@ -423,6 +429,8 @@ const Home = () => {
                   className="w-full h-[300px] xl:h-full md:h-full object-left"
                   alt="demo"
                   src="/images/homepage/lifescience.webp"
+                  rel="preload"
+                  quality={60}     
                 />
               </div>
 
@@ -436,6 +444,8 @@ const Home = () => {
                   className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 2 1.webp"
+                  rel="preload"
+                  quality={60}     
                 />
               </div>
             </a>
@@ -458,18 +468,22 @@ const Home = () => {
                   className="w-full h-[326px] xl:h-full md:h-full object-left"
                   alt="demo"
                   src="/images/homepage/semiconductor 1.webp"
+                  rel="preload"
+                  quality={60}     
                 />
               </div>
               <div className='xl:hidden block'>
                 <Image
-                  width={0}
-                  height={0}
                   sizes="100vw"
-                  style={{ width: '100%', objectFit: 'cover' }}
                   priority
                   className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left "
                   alt="demo"
                   src="/images/homepage/mobile 3 1.webp"
+                  rel="preload"
+                  quality={60}     
+                   fill
+
+
                 />
               </div>
 

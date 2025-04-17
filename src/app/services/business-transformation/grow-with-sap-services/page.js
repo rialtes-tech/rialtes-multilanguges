@@ -395,19 +395,18 @@ export default function Page() {
   text-black"
       >
         <div className="grid xl:grid-cols-12 grid-cols-1  bg-[#068EDA] xl:gap-8 gap-3 pb-5">
-          <div className="xl:col-span-3 col-span-12 pl-10  xl:w-[355px] w-[370px]">
+          <div className="xl:col-span-3 col-span-12 pl-10  ">
             <Image
               src="/images/services/rise-with-sap/SAP Signavio.webp"
               alt="SAP Partner Logo"
               width={0}
               height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: '100%', objectFit: 'fill' }}
+              // style={{ width: '100%', height: '100%', objectFit: 'fill' }}
               priority
-              className=""
+              className="xl:w-[355px] w-[322px]"
             />
           </div>
-          <div className="xl:col-span-9 col-span-12 text-white p-5 pl-10">
+          <div className="xl:col-span-9 col-span-12 text-white p-5 pl-10 xl:pr-0 pr-20">
             <p className="xl:text-[26px] text-[16px]">SAP Signavio enables process modeling, simulation, and improvement for a future-ready operating model aligned with SAP standards.</p>
           </div>
         </div>
@@ -605,7 +604,7 @@ export default function Page() {
                "
         >
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:pr-[200px]">
-            <div className="xl:col-span-5 col-span-12 relative group overflow-hidden h-[450px] xl:h-full">
+            <div className="xl:col-span-5 col-span-12 relative group overflow-hidden h-[383px] xl:h-full">
               <Image
                 src="/images/services/grow-with-sap/Future-Proofing.webp"
                 alt=""
