@@ -50,10 +50,10 @@ const GrowServicesCard = ({ services }) => (
             />
         </div>
         <div className="flex flex-col pt-4">
-            <h3 className="md:mb-[15px] font-semibold h3-bold text-[22px]  xl:text-[35px] line-clamp-2 min-h-[60px]">{services.title}</h3>
+            <h3 className="md:mb-[15px] font-medium h3-bold text-[22px]  xl:text-[35px] line-clamp-2 min-h-[60px]">{services.title}</h3>
         </div>
-        <p className='mb-[15px] xl:text-[22px] text-[16px]'>{services.description1}</p>
-        <p className='mb-[15px] xl:text-[22px] text-[16px]'>{services.description2}</p>
+        <p className='mb-[15px] xl:text-[22px] text-[16px] pr-10 xl:pr-0'>{services.description1}</p>
+        <p className='mb-[15px] xl:text-[22px] text-[16px] pr-[38px] xl:pr-0'>{services.description2}</p>
 
     </div>
 );
@@ -82,13 +82,24 @@ export default function Page() {
             />
 
             <section className="relative h-[399px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+                <div className="xl:block hidden">
                 <Image
                     src="/images/culture/culture header.webp"
                     alt="GROW with SAP"
                     fill
                     priority
-                    className="object-[71%_20%] xl:object-[35%_20%] object-cover"
+                    className="xl:object-[35%_20%] object-cover"
                 />
+                </div>
+                <div className="xl:hidden block">
+                <Image
+                    src="/images/culture/AdobeStock_1016285553.webp"
+                    alt="GROW with SAP"
+                    fill
+                    priority
+                    className="object-cover"
+                />
+                </div>
                 <div
                     className="
         container h-full relative
@@ -161,6 +172,7 @@ export default function Page() {
                 </div>
             </section>
             <section className="relative h-[788px]  xl:h-[650px] overflow-hidden">
+                <div className="xl:block hidden">
                 <Image
                     src="/images/culture/commitments.webp"
                     alt="GROW with SAP"
@@ -168,6 +180,16 @@ export default function Page() {
                     priority
                     className="xl:object-[35%_20%] object-[80%_20%] object-cover"
                 />
+                </div>
+                <div className="xl:hidden block">
+                <Image
+                    src="/images/culture/AdobeStock_458959285.webp"
+                    alt="GROW with SAP"
+                    fill
+                    priority
+                    className="object-cover"
+                />
+                </div>
                 <div
                     className="
         container h-full relative

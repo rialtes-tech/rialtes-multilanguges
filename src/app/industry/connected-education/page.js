@@ -163,7 +163,7 @@ export default function Page() {
 
                     </div>
 
-                    <div className="grid xl:grid-cols-12 grid-cols-1  pt-10 xl:pb-32 pb-10">
+                    <div className="grid xl:grid-cols-12 grid-cols-1  xl:pt-10 pt-5 xl:pb-32 pb-10">
 
                         <div className="xl:col-span-4 col-span-12">
                             <h3 className="xl:text-[26px] text-[20px] font-bold">Key Industry Challenges We Address:</h3>
@@ -310,7 +310,7 @@ export default function Page() {
 
 
             <section className="xl:mt-[28rem] mt-[24rem]">
-                <div className="relative group overflow-hidden xl:h-[419px] h-[231px] w-[360px] mx-auto xl:w-[604px] -mt-[21rem] xl:left-[-20%]">
+                <div className="relative group overflow-hidden xl:h-[419px] h-[252px] w-[350px] mx-auto xl:w-[604px] -mt-[21rem] xl:left-[-20%]">
                     <div className="xl:block hidden">
                         <Image
                             src="/images/education/marketing.webp"
@@ -350,7 +350,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-6 col-span-12 mt-12 xl:mt-0">
-                        <div className="relative group overflow-hidden xl:h-[419px] xl:w-[604px] h-[231px] w-[360px] mx-auto xl:mt-[-10rem] xl:left-[-10%]">
+                        <div className="relative group overflow-hidden xl:h-[419px] xl:w-[604px] h-[252px] w-[350px] mx-auto xl:mt-[-10rem] xl:left-[-10%]">
                             <div className="xl:block hidden">
                                 <Image
                                     src="/images/education/service cloud.webp"
@@ -388,7 +388,7 @@ export default function Page() {
             </section>
 
             <section className="xl:mt-[28rem] mt-[3rem]">
-                <div className="relative group overflow-hidden xl:h-[419px] h-[231px] w-[360px] mx-auto xl:w-[604px] xl:-mt-[28rem]  xl:left-[-20%]">
+                <div className="relative group overflow-hidden xl:h-[419px] h-[252px] w-[350px] mx-auto xl:w-[604px] xl:-mt-[28rem]  xl:left-[-20%]">
                     <div className="xl:block hidden">
                         <Image
                             src="/images/education/experience cloud.webp"
@@ -430,7 +430,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-6 col-span-12 mt-16 xl:mt-0">
-                        <div className="relative group overflow-hidden xl:h-[419px] xl:w-[604px] h-[231px] w-[360px] mx-auto xl:mt-[-15rem] xl:left-[-10%]">
+                        <div className="relative group overflow-hidden xl:h-[419px] xl:w-[604px] h-[252px] w-[350px] mx-auto xl:mt-[-15rem] xl:left-[-10%]">
                             <div className="xl:block hidden">
                                 <Image
                                     src="/images/education/s4hana.webp"
@@ -468,7 +468,7 @@ export default function Page() {
                 </div>
             </section>
             <section className="xl:mt-[28rem] mt-[3rem]">
-                <div className="relative group overflow-hidden xl:h-[419px] h-[231px] w-[360px] mx-auto xl:w-[604px] xl:-mt-[28rem] xl:left-[-20%]">
+                <div className="relative group overflow-hidden xl:h-[419px] h-[252px] w-[350px] mx-auto xl:w-[604px] xl:-mt-[28rem] xl:left-[-20%]">
                     <div className="xl:block hidden">
                         <Image
                             src="/images/education/revenue cloud.webp"
@@ -509,7 +509,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-6 col-span-12 mt-16 xl:mt-0">
-                        <div className="relative group overflow-hidden xl:h-[419px] xl:w-[604px] h-[231px] w-[360px] mx-auto xl:mt-[-15rem] xl:left-[-10%]">
+                        <div className="relative group overflow-hidden xl:h-[419px] xl:w-[604px] h-[252px] w-[350px] mx-auto xl:mt-[-15rem] xl:left-[-10%]">
                             <div className="xl:block hidden">
                                 <Image
                                     src="/images/education/data cloud.webp"
@@ -547,7 +547,7 @@ export default function Page() {
                 </div>
             </section>
             <section className="xl:mt-[28rem] mt-[3rem]">
-                <div className="relative group overflow-hidden xl:h-[419px] h-[231px] w-[360px] mx-auto xl:w-[604px] xl:-mt-[28rem] xl:left-[-20%]">
+                <div className="relative group overflow-hidden xl:h-[419px] h-[252px] w-[350px] mx-auto xl:w-[604px] xl:-mt-[28rem] xl:left-[-20%]">
                     <div className="xl:block hidden">
                         <Image
                             src="/images/education/eduction agentforce.webp"
@@ -732,7 +732,7 @@ export default function Page() {
             </div>
             <div className="mt-20  xl:ml-[280px] mx-[35px]">
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 text-[16px] xl:text-[22px] px-8 transition duration-300 order-4 mt-6">
-                    <Link href='/products/agentchat'>Learn More</Link>
+                    <Link href='/products/agentchat'>Know More</Link>
                 </button>
             </div>
             <div className="py-20 xl:mt-20">
