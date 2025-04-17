@@ -148,7 +148,7 @@ const Header = () => {
           subLinks: [
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/new-rise-with-sap' },
-            // { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
+             { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
 
           ],
         },
@@ -183,6 +183,9 @@ const Header = () => {
         },
         {
           label: 'Manufacturing', href: '/industry/manufacturing-cloud-erp',
+        },
+        {
+          label: 'Education', href: '/industry/connected-education',
         },
 
       ],
