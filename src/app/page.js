@@ -8,6 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 import ContactForm from '../app/components/contactform';
 import Seo from './components/Seo';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const CustomArrow = ({ onClick, arrowType }) => {
   return (
@@ -288,6 +289,11 @@ const Home = () => {
   );
   return (
     <section>
+      <Head>
+       
+        <link rel="icon" href="/images/homepage/Rialtes symbol 1.jpg" />
+      </Head>
+
       <Seo
         title="IT Services and IT Consulting Company | Rialtes"
         description="Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth."

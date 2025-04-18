@@ -644,80 +644,80 @@ export default function Page() {
                     <div className="xl:mt-20 mt-10">
                         <h3 className="xl:text-[30px] text-[24px]">Key Features:</h3>
                         <div className="flex flex-col xl:flex-row mt-10 xl:gap-20 gap-8 mb-16">
-  <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2">
-    <Image
-      className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-      src='/images/education/Seamless Salesforce Integration.svg'
-      alt="Taking the lead"
-      width={0}
-      height={0}
-      sizes="100vw"
-      priority
-    />
-    <div className="mt-4 xl:mt-0 xl:ml-12">
-      <h3 className="xl:text-[24px] text-[20px]  xl:text-left pr-16 xl:pr-0">Seamless Salesforce Integration</h3>
-      <p className="xl:text-[22px] text-[16px] mt-3  xl:text-left pr-10 xl:pr-0 leading-tight">
-        Effortlessly syncs with Salesforce Education Cloud, providing a unified platform for managing all student interactions in real time.
-      </p>
-    </div>
-  </div>
+                            <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2">
+                                <Image
+                                    className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
+                                    src='/images/education/Seamless Salesforce Integration.svg'
+                                    alt="Taking the lead"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    priority
+                                />
+                                <div className="mt-4 xl:mt-0 xl:ml-12">
+                                    <h3 className="xl:text-[24px] text-[20px]  xl:text-left pr-16 xl:pr-0">Seamless Salesforce Integration</h3>
+                                    <p className="xl:text-[22px] text-[16px] mt-3  xl:text-left pr-10 xl:pr-0 leading-tight">
+                                        Effortlessly syncs with Salesforce Education Cloud, providing a unified platform for managing all student interactions in real time.
+                                    </p>
+                                </div>
+                            </div>
 
-  <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
-    <Image
-      className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-      src='/images/education/AI-Powered Automation & Personalization.svg'
-      alt="Taking the lead"
-      width={0}
-      height={0}
-      sizes="100vw"
-      priority
-    />
-    <div className="mt-4 xl:mt-0 xl:ml-12">
-      <h3 className="xl:text-[24px] text-[20px] pr-16 xl:pr-0 xl:text-left">AI-Powered Automation & Personalization</h3>
-      <p className="xl:text-[22px] text-[16px] mt-3 pr-10 xl:pr-0  xl:text-left leading-tight">
-        Instantly responds with personalized, context-aware answers, automating routine inquiries while adapting to each individual’s needs.
-      </p>
-    </div>
-  </div>
-</div>
+                            <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
+                                <Image
+                                    className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
+                                    src='/images/education/AI-Powered Automation & Personalization.svg'
+                                    alt="Taking the lead"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    priority
+                                />
+                                <div className="mt-4 xl:mt-0 xl:ml-12">
+                                    <h3 className="xl:text-[24px] text-[20px] pr-16 xl:pr-0 xl:text-left">AI-Powered Automation & Personalization</h3>
+                                    <p className="xl:text-[22px] text-[16px] mt-3 pr-10 xl:pr-0  xl:text-left leading-tight">
+                                        Instantly responds with personalized, context-aware answers, automating routine inquiries while adapting to each individual’s needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-<div className="flex flex-col xl:flex-row mt-10 xl:gap-20 gap-8 mb-16">
-  <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
-    <Image
-      className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-      src='/images/education/Scalable & Efficient Communication.svg'
-      alt="Taking the lead"
-      width={0}
-      height={0}
-      sizes="100vw"
-      priority
-    />
-    <div className="mt-4 xl:mt-0 xl:ml-12">
-      <h3 className="xl:text-[24px] text-[20px] pr-16 xl:pr-0 xl:text-left">Scalable & Efficient Communication</h3>
-      <p className="xl:text-[22px] text-[16px] mt-3 pr-10 xl:pr-0 xl:text-left leading-tight">
-        Handles an increasing volume of interactions with ease, improving response times and reducing manual effort, while ensuring high-quality, consistent communication.
-      </p>
-    </div>
-  </div>
+                        <div className="flex flex-col xl:flex-row mt-10 xl:gap-20 gap-8 mb-16">
+                            <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
+                                <Image
+                                    className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
+                                    src='/images/education/Scalable & Efficient Communication.svg'
+                                    alt="Taking the lead"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    priority
+                                />
+                                <div className="mt-4 xl:mt-0 xl:ml-12">
+                                    <h3 className="xl:text-[24px] text-[20px] pr-16 xl:pr-0 xl:text-left">Scalable & Efficient Communication</h3>
+                                    <p className="xl:text-[22px] text-[16px] mt-3 pr-10 xl:pr-0 xl:text-left leading-tight">
+                                        Handles an increasing volume of interactions with ease, improving response times and reducing manual effort, while ensuring high-quality, consistent communication.
+                                    </p>
+                                </div>
+                            </div>
 
-  <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
-    <Image
-      className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-      src='/images/education/Actionable Insights & Data Security.svg'
-      alt="Taking the lead"
-      width={0}
-      height={0}
-      sizes="100vw"
-      priority
-    />
-    <div className="mt-4 xl:mt-0 xl:ml-12">
-      <h3 className="xl:text-[24px] text-[20px] pr-16 xl:pr-0 xl:text-left">Actionable Insights & Data Security</h3>
-      <p className="xl:text-[22px] text-[16px] mt-3 pr-10 xl:pr-0 xl:text-left leading-tight">
-        Unlock valuable engagement insights through advanced analytics, while ensuring top-tier security and compliance with industry standards.
-      </p>
-    </div>
-  </div>
-</div>
+                            <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
+                                <Image
+                                    className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
+                                    src='/images/education/Actionable Insights & Data Security.svg'
+                                    alt="Taking the lead"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    priority
+                                />
+                                <div className="mt-4 xl:mt-0 xl:ml-12">
+                                    <h3 className="xl:text-[24px] text-[20px] pr-16 xl:pr-0 xl:text-left">Actionable Insights & Data Security</h3>
+                                    <p className="xl:text-[22px] text-[16px] mt-3 pr-10 xl:pr-0 xl:text-left leading-tight">
+                                        Unlock valuable engagement insights through advanced analytics, while ensuring top-tier security and compliance with industry standards.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -744,26 +744,25 @@ export default function Page() {
                  md:ml-[100px] md:w-[calc(100%-100px)]"
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-16">
-                        <div className="xl:col-span-5 col-span-12 relative xl:h-[700px] h-[331px] group overflow-hidden">
-                           <div className="xl:block hidden">
-                            <Image
-                                src="/images/education/solutions.webp"
-                                alt=""
-                                fill
-                                style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                                priority
-                                className="w-full !h-[630px] object-cover origin-center  transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
-                            />
+                        <div className="xl:col-span-5 col-span-12 relative xl:h-[536px] h-[331px] group overflow-hidden">
+                            <div className="xl:block hidden">
+                                <Image
+                                    src="/images/education/solutions.webp"
+                                    alt=""
+                                    fill
+                                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                                    priority
+                                    className="w-full !h-[630px] object-cover origin-center  transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
+                                />
                             </div>
                             <div className="xl:hidden block">
-                            <Image
-                                src="/images/education/solutions.webp"
-                                alt=""
-                                fill
-                                style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                                priority
-                                className="w-full !h-[700px] object-cover origin-center  transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
-                            />
+                                <Image
+                                    src="/images/education/solutions.webp"
+                                    alt=""
+                                    fill
+                                    priority
+                                    className="w-full !h-[540px]"
+                                />
                             </div>
                         </div>
 
@@ -771,24 +770,21 @@ export default function Page() {
                             <h2 className="xl:text-[60px] text-[26px] font-light mb-8 mt-10 xl:mt-0">Related Solutions</h2>
                             <div className="space-y-10">
                                 <div>
-                                    <h3 className="text-[#0C8AD4] font-semibold xl:text-[22px] text-[18px]">Salesforce Education Cloud</h3>
-                                    <p className="text-gray-700 mt-2 xl:text-[20px] text-[17px] pr-10 xl:pr-0">Manage end-to-end student lifecycle and engagement.</p>
-                                    <hr className="mt-8 border-gray-300 border-1" />
-                                </div>
-                                <div>
-                                    <h3 className="text-[#0C8AD4] font-semibold xl:text-[22px] text-[18px]">SAP S/4HANA for Education</h3>
+                                    <Link href='/services/business-transformation/grow-with-sap-services' className="text-[#0C8AD4] font-semibold underline xl:text-[22px] text-[18px]">SAP S/4HANA for Education</Link>
                                     <p className="text-gray-700 mt-2 xl:text-[20px] text-[17px] pr-10 xl:pr-0">Robust ERP for education finance, HR, and campus operations.</p>
                                     <hr className="mt-8 border-gray-300 border-1" />
                                 </div>
 
                                 <div>
-                                    <h3 className="text-[#0C8AD4] font-semibold xl:text-[22px] text-[18px] pr-10 xl:pr-0">Salesforce Marketing and Revenue Cloud</h3>
+                                    <Link href='/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' className="text-[#0C8AD4] underline font-semibold xl:text-[22px] text-[18px] pr-10 xl:pr-0">Salesforce Marketing and Revenue Cloud</Link>
                                     <p className="text-gray-700 mt-2 xl:text-[20px] text-[17px] pr-10 xl:pr-0">Personalized campaigns and dynamic pricing.</p>
+                                    
                                     <hr className="mt-8 border-gray-300 border-1" />
                                 </div>
                                 <div>
-                                    <h3 className="text-[#0C8AD4] font-semibold xl:text-[22px] text-[18px]">SAP ARIBA for Education</h3>
+                                    <Link href='/services/spend-management/sapbuyplus-ariba-implementation-partner' className="text-[#0C8AD4] underline font-semibold xl:text-[22px] text-[18px]">SAP ARIBA for Education</Link>
                                     <p className="text-gray-700 mt-2 xl:text-[20px] text-[17px]">Procurement solutions for campus operations.</p>
+                                   
                                 </div>
                             </div>
 
