@@ -49,7 +49,7 @@ const GrowServicesCard = ({ services }) => (
                 priority
             />
         </div>
-        <div className="flex flex-col pt-4">
+        <div className="flex flex-col pt-8">
             <h3 className="md:mb-[15px] font-medium h3-bold text-[22px]  xl:text-[35px] line-clamp-2 min-h-[60px]">{services.title}</h3>
         </div>
         <p className='mb-[15px] xl:text-[22px] text-[16px] pr-10 xl:pr-0'>{services.description1}</p>
@@ -61,7 +61,7 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
     return (
         <div className="container mx-auto text-black">
-            <h2 className="pb-10 text-black xl:text-[60px] text-[26px]">Employee affinity groups</h2>
+            <h2 className="pb-16 text-black xl:text-[60px] text-[26px]">Employee affinity groups</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                 {growLatestServices.map((services) => (
                     <GrowServicesCard key={services.id} services={services} />
@@ -107,10 +107,10 @@ export default function Page() {
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]"
                 >
-                    <div className="container mx-auto h-full flex flex-col justify-center mt-[-60px]">
+                    <div className="container mx-auto h-full flex flex-col justify-center mt-[-70px]">
                         <div className="flex flex-col">
-                            <h3 className="text-[#01335B] xl:text-[24px] text-[18px] font-bold mb-2">Culture Page</h3>
-                            <h1 className="text-[#01335B] max-w-2xl xl:text-[60px] text-[24px] pr-20 xl:pr-0">
+                            <h3 className="xl:text-[#01335B]  xl:text-[24px] text-[18px] font-bold mb-2">Culture and Values</h3>
+                            <h1 className="xl:text-[#01335B] max-w-2xl xl:text-[60px] font-medium text-[24px] pr-20 xl:pr-0">
                                 Building a growth mindset. Each day.
                             </h1>
                         </div>
@@ -126,7 +126,7 @@ export default function Page() {
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]"
                 >
-                    <div className="container mx-auto">
+                    <div className="xl:container mx-auto">
                         <h2 className="xl:text-[60px] text-[26px]">Our Value System.</h2>
                         <p className="mt-3 xl:text-[35px] text-[20px] pr-10 xl:pr-0">Every day, every one of us work with our core values.</p>
 
@@ -139,7 +139,7 @@ export default function Page() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="w-[130px]"
+                                    className="xl:w-[130px] w-[121px] m-auto xl:m-0"
                                 />
                                 <p className="mt-5 text-center xl:text-[35px] text-[26px]">Trust</p>
                             </div>
@@ -150,7 +150,7 @@ export default function Page() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="w-[150px]"
+                                    className="xl:w-[150px] w-[119px] m-auto xl:m-0"
                                 />
                                 <p className="mt-5 text-center xl:text-[35px] text-[26px]">Transparency</p>
                             </div>
@@ -161,7 +161,7 @@ export default function Page() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="w-[150px]"
+                                    className="xl:w-[150px] w-[104px] m-auto xl:m-0"
                                 />
                                 <p className="mt-5 text-center xl:text-[35px] text-[26px]">Commitment</p>
                             </div>
@@ -171,7 +171,7 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            <section className="relative h-[788px]  xl:h-[650px] overflow-hidden">
+            <section className="relative h-[800px]  xl:h-[650px] overflow-hidden">
                 <div className="xl:block hidden">
                 <Image
                     src="/images/culture/commitments.webp"
@@ -190,6 +190,15 @@ export default function Page() {
                     className="object-cover"
                 />
                 </div>
+                <div className="xl:hidden block">
+                <Image
+                    src="/images/culture/quote mark.svg"
+                    alt="GROW with SAP"
+                    fill
+                    priority
+                    className="object-cover !w-[140px] !h-[60px] pl-[35px]"
+                />
+                </div>
                 <div
                     className="
         container h-full relative
@@ -199,8 +208,8 @@ export default function Page() {
                 >
                     <div className="container mx-auto h-full flex flex-col justify-center">
                         <div className="flex flex-col">
-                            <h2 className="xl:text-white text-black max-w-2xl xl:text-[55px] text-[30px] font-medium xl:font-normal mt-[-20rem] xl:mt-0">
-                                Business run on Trust, Grows on Transparency ONLY if we deliver on our commitments
+                            <h2 className="xl:text-white text-black max-w-2xl xl:text-[55px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[-20rem] xl:mt-0">
+                                Business run on Trust, Grows on Transparency <br/>ONLY if we deliver on <br/>our commitments
                             </h2>
                         </div>
 
@@ -211,7 +220,7 @@ export default function Page() {
 
             {/* We Help You Grow and Thrive */}
             <div
-                className="mt-10
+                className="xl:mt-10 mt-16
         xl:container
         mx-[35px] xl:mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]

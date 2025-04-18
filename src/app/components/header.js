@@ -1224,7 +1224,7 @@ const Header = () => {
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Culture and values" link="/about-us/our-values"  onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Culture and Values" link="/about-us/our-values"  onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Partnership" link="/about-us/global-alliences" onClick={(e) => handleLinkClick(e, "/about-us/global-alliences")}
                             onHover={() => { }} />
                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and Press Releases" link="/insights/news"  onClick={(e) => handleLinkClick(e, "/insights/news")} onHover={() => { }} />
