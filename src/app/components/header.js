@@ -194,7 +194,7 @@ const Header = () => {
       label: 'About Us', href: '/about-us',
       links: [
         { label: 'About Us', href: '/about-us' },
-        { label: 'Contact Us', href: '/contact-us' },
+        // { label: 'Contact Us', href: '/contact-us' },
         { label: 'Partnership', href: '/about-us/global-alliences' },
         { label: 'Culture and Values', href: '/about-us/our-values' },
         { label: 'News and Press Releases', href: '/insights/news' },
@@ -212,13 +212,6 @@ const Header = () => {
         // { label: 'News', href: '/insights/news' },
 
       ],
-    },
-    {
-      label: 'Contact Us',
-      links: [
-        {
-          label: 'Contact Us', href: '/contact-us',
-        }]
     },
   ];
 
@@ -386,6 +379,7 @@ const Header = () => {
               className={`xl:font-bold font-normal`}
               isActive={activeCard === 7}
             />
+
             <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
               <Link href='/contact-us#section1'>Let's Begin</Link>
             </button>
@@ -1393,6 +1387,12 @@ const Header = () => {
                     onMenuItemClick={() => toggleMenu()}
                   />
                 ))}
+                <Link onClick={toggleMenu} href='/contact-us'>
+              
+    <h4  className="text-sm mt-3">Contact Us</h4>
+
+                </Link>
+               
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
                   <Link href='/contact-us'>Let's Begin</Link>
                 </button>

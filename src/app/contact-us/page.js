@@ -141,7 +141,7 @@ const LocationPage = () => {
                 </div>
                 <div className="xl:pr-[200px]">
                     <Image
-                        src="/images/contact-us/Contact-map.webp"
+                        src="/images/contact-us/Contact-Us-map.webp"
                         alt="Rialtes Map"
                         className="pt-10 relative"
                         width={0}

@@ -131,7 +131,7 @@ export default function servicesFeaturedCarousel() {
           keyBoardControl={true}
           customTransition="all .5s"
           transitionDuration={500}
-          containerClass="carousel-container"
+          // containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style !justify-start flex-wrap"
           itemClass="carousel-item-padding-40-px"

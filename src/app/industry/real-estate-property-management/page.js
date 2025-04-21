@@ -320,7 +320,6 @@ export default function Page() {
 < div className="bg-[#F5F5F5] py-6" >
         <div
           className="
-        container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
@@ -337,7 +336,6 @@ export default function Page() {
  < div className="bg-[#808080] py-6" >
         <div
           className="
-        container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
