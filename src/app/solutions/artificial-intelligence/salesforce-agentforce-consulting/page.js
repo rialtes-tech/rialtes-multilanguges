@@ -175,7 +175,7 @@ export default function Agentforce() {
 
             <div className='relative group overflow-hidden'>
                 <Image
-                    src="/images/salesforce-consulting-services/agentforceb.png"
+                    src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
                     alt="Salesforce Consulting Team"
                     className="transform transition-transform duration-500 group-hover:scale-110  h-[300px] md:h-[535px] xl:h-full"
                     width={0}
@@ -187,7 +187,7 @@ export default function Agentforce() {
                     }}
                     priority
                 />
-                <div className="absolute px-6 xl:pl-[915px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[11%] md:top-[34%] xl:text-black text-white">
+                <div className="absolute px-6 xl:pl-[915px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
                     <h4 className="font-bold">Agentforce</h4>
                     <h2 className="mt-3 xl:w-[60%]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
                     <div className="mt-10">

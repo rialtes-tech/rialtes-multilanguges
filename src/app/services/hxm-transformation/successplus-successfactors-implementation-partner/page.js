@@ -336,7 +336,7 @@ export default function Page() {
                 <div className="relative overflow-hidden">
                   <Image
                     className="w-full transition-transform duration-300 ease-out hover:scale-110"
-                    src='/images/success-factors/maximize-hr-efficiency.webp'
+                    src='/images/success-factors/Maximize HR Efficiency 2.webp'
                     alt="Maximize HR Efficiency in Your Organization"
                     width={0}
                     height={0}
