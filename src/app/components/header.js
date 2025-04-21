@@ -176,6 +176,8 @@ const Header = () => {
           label: 'Life Sciences', href: '/',
           subLinks: [
             { label: 'Healthcare', href: '/industry/life-sciences/healthcare-medtech-patient-care' },
+            { label: 'Medical Devices', href: '/industry/life-sciences/medical-devices-it-solutions' },
+            { label: 'Pharma And BioTech', href: '/industry/life-sciences/pharma-biotech-digital-transformation' },
           ],
         },
         {
