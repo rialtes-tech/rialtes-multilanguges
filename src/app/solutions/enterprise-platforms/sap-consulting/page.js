@@ -84,7 +84,7 @@ const solutionSuccess = [
     // },
     {
         id: 2,
-        imageUrl: '/images/sap-consulting/GROW with SAP thumb.png',
+        imageUrl: '/images/sap-consulting/thumb 1.webp',
         title: 'GROW with SAP',
         description: 'Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably',
         productsDetails: [
@@ -253,9 +253,9 @@ export default function Page() {
                                     <Image
                                         src={product.imageUrl}
                                         alt="Salesforce Consulting Team"
-                                        className="transform transition-transform duration-500 group-hover:scale-110"
-                                        height={325} width={1250}
-                                        sizes="100vw"
+                                        className="transform w-full h-full transition-transform duration-500 group-hover:scale-110"
+                                        height={0} width={0}
+                                        // sizes="100vw"
                                     />
                                 </div>
                                 <div className="p-8">

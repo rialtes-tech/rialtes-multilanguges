@@ -111,7 +111,7 @@ export default function Page() {
 
             <section className="relative h-[350px]  xl:h-[950px]" >
                 <Image
-                    src="/images/medical/why Rialtes (2).webp"
+                    src="/images/medical/why-rialtes.webp"
                     alt=""
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}

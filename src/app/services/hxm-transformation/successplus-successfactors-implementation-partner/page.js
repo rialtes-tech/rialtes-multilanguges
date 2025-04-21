@@ -56,7 +56,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20">
+    <div className=" mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20">
       <h2 className="text-black mb-6">End-to-end SAP SuccessFactors Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
@@ -354,9 +354,7 @@ export default function Page() {
       {/* Latest Customer Success Stories */}
       < div className="bg-[#F5F5F5] py-6" >
         <div
-          className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
+          className="        ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]
@@ -388,8 +386,7 @@ export default function Page() {
       < div className="bg-[#808080] py-6" >
         <div
           className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
+\        ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
         sm:mx-5 sm:w-[calc(100%-40px)]

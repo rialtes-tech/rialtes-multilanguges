@@ -413,7 +413,7 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div className="container mx-auto">
+      <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Featured Blogs</h2>
         </div>
@@ -530,7 +530,6 @@ export default function Page() {
       {/* Featured Section */}
       <div
         className="
-        container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]

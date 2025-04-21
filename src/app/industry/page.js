@@ -84,11 +84,16 @@ export default function Industry() {
     return (
       <div className="container mx-auto text-black lg:pr-20 md:pr-10 pr-6">
         <h2 className="pb-10 text-black">Industries we serve</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-5 gap-16">
-          {growLatestServices.map((services) => (
-            <GrowServicesCard key={services.id} services={services} />
-          ))}
-        </div>
+        {Array.from({ length: Math.ceil(growLatestServices.length / 3) }).map((_, rowIdx) => {
+  const rowItems = growLatestServices.slice(rowIdx * 3, rowIdx * 3 + 3);
+  return (
+    <div key={rowIdx} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+      {rowItems.map((services) => (
+        <GrowServicesCard key={services.id} services={services} />
+      ))}
+    </div>
+  );
+})}
       </div>
     );
   };

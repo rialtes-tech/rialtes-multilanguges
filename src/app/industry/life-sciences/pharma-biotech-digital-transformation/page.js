@@ -775,10 +775,10 @@ export default function Page() {
                     </div>
                     
                 </div>
-                <div className="h-full  xl:mr-[142px] ">
-                        <p className="xl:text-[25px] mx-[35px] bg-[#068EDA] text-[18px] py-8  p-10 pl-10 text-white mt-[4rem] absolute xl:w-[65%] xl:pr-40 leading-tight">Agentforce enhances field force effectiveness and ensures compliant, personalized HCP interactions.</p>
+                <div className="h-full  xl:mr-[142px] xl:ml-[280px]">
+                        <p className="xl:text-[25px] mx-[35px] xl:mx-0 bg-[#068EDA] text-[18px] py-8  p-10 pl-10 text-white mt-[4rem] absolute xl:w-[65%] xl:pr-40 leading-tight">Agentforce enhances field force effectiveness and ensures compliant, personalized HCP interactions.</p>
                     </div>
-            </div>
+                </div>
 
 
 

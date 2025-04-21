@@ -205,7 +205,7 @@ export default function Page() {
                                     <h4 className="mt-5">Lack of Data Insights</h4>
                                 </div> <div>
                                     <Image
-                                        src="/images/sap-consulting/Mask Group 56.svg"
+                                        src="/images/sap-consulting/Mask Group 55.svg"
                                         alt="GROW with SAP"
                                         className="w-20 h-20"
                                         width={0}
@@ -219,7 +219,7 @@ export default function Page() {
                                     <h4 className="mt-5">Inefficient Processes</h4>
                                 </div> <div>
                                     <Image
-                                        src="/images/sap-consulting/Mask Group 56.svg"
+                                        src="/images/sap-consulting/Poor Collaboration Processes.svg"
                                         alt="GROW with SAP"
                                         className="w-20 h-20"
                                         width={0}
@@ -233,7 +233,7 @@ export default function Page() {
                                     <h4 className="mt-5">Poor Collaboration Processes</h4>
                                 </div> <div>
                                     <Image
-                                        src="/images/sap-consulting/Mask Group 56.svg"
+                                        src="/images/sap-consulting/Insufficient security strategies.svg"
                                         alt="GROW with SAP"
                                         className="w-20 h-20"
                                         width={0}
