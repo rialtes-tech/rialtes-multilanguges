@@ -324,7 +324,7 @@ const Home = () => {
                   priority
                   className="w-full h-[400px] xl:h-full md:h-full bg-fixed cursor-pointer object-left"
                   alt="demo"
-                  src="/images/homepage/inauguration-14 2.webp"
+                  src="/images/homepage/Databricks Partner-01 2.webp"
                   rel="preload"
                   quality={60}                 
                 />
@@ -343,7 +343,7 @@ const Home = () => {
                   priority
                   className="w-full h-[400px] sm:h-[768px] xl:h-full  bg-fixed cursor-pointer object-left "
                   alt="demo"
-                  src="/images/homepage/inauguration-15 1.webp"
+                  src="/images/homepage/Databricks Partner-02 2.webp"
                   rel="preload"
                   quality={60}     
                 />
@@ -359,7 +359,7 @@ const Home = () => {
                  sm:mx-5 sm:w-[calc(100%-40px)]
                  xs:mx-4 xs:w-[calc(100%-32px)]"
             >
-              <div className="absolute xl:top-[20rem] top-20">
+              {/* <div className="absolute xl:top-[20rem] top-20">
                 <div className="text-left">
                   <h3 className="text-white xl:text-[50px] font-normal xl:w-[55%]">Rialtes Opens new Sales Office in Himachal Pradesh, India</h3>
                   <a
@@ -372,7 +372,7 @@ const Home = () => {
                     </p>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -622,9 +622,7 @@ const Home = () => {
               return (
                 <div
                 key={industry.id}
-                className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'} ${
-                  hideOnMobile ? 'hidden sm:block' : ''
-                }`}
+                className={`relative ${showDivider ? 'xl:border-l-[3px] xl:h-20' : 'h-full'}`}
               >
                   <div
                     className={`group hover:bg-white transition-all duration-300 xl:h-[300px] relative xl:p-10 md:p-2 p-3`}
@@ -718,7 +716,7 @@ const Home = () => {
             <p className='mt-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
           </div>
           <div className='relative group overflow-hidden xl:w-1/2'>
-            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/life2.webp' />
+            <Image loading="lazy" height={325} width={1250} alt='Rialtes Life' className='transform transition-transform duration-500 group-hover:scale-110' src='/images/homepage/Group 508.webp' />
           </div>
         </div>
       </section>

@@ -246,12 +246,12 @@ export default function servicesInsightsCarousel({ padding }) {
                   />
                 
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
-                  <span className="line-clamp-4 md:line-clamp-4">{slide.category}</span>
+                  <span className="line-clamp-4 md:line-clamp-4 font-medium text-[20px]">{slide.category}</span>
                 </div>
               </div>
 
               <div className="absolute inset-0 bg-[#134874] bg-opacity-80 p-6 md:opacity-0 opacity-100 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between">
-                <span className="my-4 line-clamp-4 md:line-clamp-none">{slide.category}</span>
+                <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[20px]">{slide.category}</span>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
                   <Link href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
