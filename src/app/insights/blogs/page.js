@@ -10,6 +10,16 @@ import Link from "next/link";
 
 const latestBlogs = [
   {
+    id: 15,
+    image: "/images/blog/SAP Business cloud_Carousal.webp",
+    category: "General",
+    industry: "Generic",
+    date: "22 April 2025",
+    url: '/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success',
+    title: "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
+    description: "Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights.",
+  },
+  {
     id: 1,
     image: "/images/blog/blog-1.webp",
     category: "Salesforce Agentforce",

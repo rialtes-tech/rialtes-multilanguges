@@ -791,7 +791,7 @@ export default function Page() {
   md:ml-[100px] md:w-[calc(100%-100px)]
   text-black py-20"
             >
-                <ContactForm title={'Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence'} className={"max-w-[62rem] xl:font-medium font-light xl:text-[60px] text-[26px] leading-tight pr-10 xl:pr-0"} />
+                <ContactForm title={'Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!'} className={"max-w-[62rem]  font-light xl:text-[60px] text-[26px] leading-tight pr-10 xl:pr-0"} />
             </div >
         </div >
     );

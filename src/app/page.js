@@ -701,11 +701,11 @@ const Home = () => {
             <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full h-full hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/Life Science.webp' />
           </div>
         </div>
-        <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
+        <div className='bg-[#134874] hidden xl:block absolute p-12 text-white xl:w-[532px] xl:h-[500px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
           <h2>Life Science</h2>
           <p className='mt-5'>Rialtes is committed to driving innovation in healthcare technology to empower medical professionals with the tools they need to improve patient care. We have helped Healthcare providers tackle their unique challenges and build a healthier future through Salesforce.</p>
           <Link href='/industry/life-sciences/healthcare-medtech-patient-care'>
-            <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
+            <p className='mt-10 cursor-pointer pb-10'>Learn More →</p>
           </Link>
         </div>
       </section>
@@ -722,9 +722,30 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* <div className="relative w-80 h-96 overflow-hidden group rounded-lg shadow-lg">
+  <div className="absolute inset-0 transform scale-[1]  origin-bottom-right transition-transform duration-300 ease-in-out group-hover:scale-[1.9] group-hover:translate-xy-[10px]"
+      style={{
+        backgroundImage: "url('/images/homepage/healtcare 2.webp')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'left center',
+      }}
+      >
+  </div>
+
+  <div className="absolute inset-0 bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
+
+  <div className="relative z-10 p-6 text-white">
+    <p className="text-sm mb-2">Healthcare</p>
+    <h2 className="text-xl font-semibold leading-tight">
+      Salesforce Health Cloud, Prior Authorization
+    </h2>
+  </div>
+</div> */}
+
       {/* //form section */}
       <section className='pb-20 mt-20 xl:px-[280px]  md:px-[100px] px-6'>
-        <ContactForm className='xl:w-[75%] w-full' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+        <ContactForm className='w-full xl:text-[60px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
       </section>
 
     </section>

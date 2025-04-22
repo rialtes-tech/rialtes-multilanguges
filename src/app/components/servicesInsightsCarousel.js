@@ -21,7 +21,7 @@ export default function servicesInsightsCarousel({ padding }) {
     {
       id: 2,
       image: "/images/blog/blog-2-long-thumb.webp",
-      category: "Salesforce Agentforce",
+      category: "Atlas Reasoning Engine",
       industry: "Generic",
       date: "21 Oct 2024",
       url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
@@ -40,7 +40,7 @@ export default function servicesInsightsCarousel({ padding }) {
     {
       id: 4,
       image: "/images/blog/blog-4-long-thumb.webp",
-      category: "Salesforce Agentforce",
+      category: "Agentforce Testing Center",
       industry: "Generic",
       date: "25 Nov 2024",
       url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
@@ -59,7 +59,7 @@ export default function servicesInsightsCarousel({ padding }) {
     {
       id: 6,
       image: "/images/blog/blog-8-long-thumb.webp",
-      category: "Integration",
+      category: "Athenahealth + Salesforce Integration",
       industry: "HealthCare",
       date: "17 Sept 2024",
       url: 'insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration',
@@ -78,7 +78,7 @@ export default function servicesInsightsCarousel({ padding }) {
     {
       id: 11,
       image: "/images/blog/blog-12-long-thumb.webp",
-      category: "Salesforce Agentforce",
+      category: "Integrate Agentforce with Your ERP",
       industry: "Generic",
       date: "17 Sept 2024",
       url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
@@ -246,12 +246,12 @@ export default function servicesInsightsCarousel({ padding }) {
                   />
                 
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
-                  <h4 className="line-clamp-4 md:line-clamp-4">{slide.category}</h4>
+                  <span className="line-clamp-4 md:line-clamp-4">{slide.category}</span>
                 </div>
               </div>
 
               <div className="absolute inset-0 bg-[#134874] bg-opacity-80 p-6 md:opacity-0 opacity-100 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between">
-                <h4 className="my-4 line-clamp-4 md:line-clamp-none">{slide.category}</h4>
+                <span className="my-4 line-clamp-4 md:line-clamp-none">{slide.category}</span>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
                   <Link href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>

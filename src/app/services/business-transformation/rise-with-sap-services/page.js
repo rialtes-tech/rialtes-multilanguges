@@ -516,7 +516,7 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   text-black py-20"
             >
-                <ContactForm title={'Partner with Rialtes to Transform Your SAP Landscape'} className={"max-w-[55rem] font-medium"} />
+                <ContactForm title={'Partner with Rialtes to Transform Your SAP Landscape!'} className={"max-w-[60rem] font-normal xl:text-[60px] text-[26px]"} />
             </div >
         </div >
     );

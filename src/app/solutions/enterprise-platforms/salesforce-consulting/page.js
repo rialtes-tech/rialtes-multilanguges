@@ -332,7 +332,7 @@ export default function SalesForceConsulting() {
                     <CarouselComponent />
                 </div>
             </section>
-            <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20 pt-20">
+            <section className="bg-[#F5F5F5] xl:mt-12 mt-10 pb-20 pt-20">
                 <div
                     className="
         ml-[15px] w-[calc(100%-15px)] mr-0
@@ -351,10 +351,10 @@ export default function SalesForceConsulting() {
             <section className='xl:mt-40 relative'>
                 <div className='group overflow-hidden'>
                     <div className='w-full'>
-                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:h-[350px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting-services/agentforceb.png' />
+                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting-services/Agentforce banner 2.webp' />
                     </div>
                 </div>
-                <div className='bg-[#134874] hidden xl:block absolute p-10 text-white lg:w-[23%] lg:right-[15rem] lg:top-[-3rem] top-[392px]'>
+                <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[23%] lg:right-[15rem] lg:top-[-3rem] top-[392px]'>
                     <h2>Agentforce</h2>
                     <p className='mt-5'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                    <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
@@ -363,7 +363,7 @@ export default function SalesForceConsulting() {
                 </div>
             </section>
             <section className="pb-20 xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0 pt-10 mt-20">
-                <ContactForm className='xl:w-[70%] w-full' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
+                <ContactForm className='xl:w-[70%] w-full xl:text-[60px] text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
             {/* contact section */}
 

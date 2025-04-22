@@ -241,7 +241,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="relative h-auto xl:h-[1000px]  xl:mt-32 mt-10 bg-image-grow pb-10">
+      <section className="relative h-auto xl:h-[1000px]  xl:mt-32 mt-10 pb-10">
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/Migration.webp"

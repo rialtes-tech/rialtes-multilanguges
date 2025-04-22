@@ -114,12 +114,12 @@ export default function ServicesBlogs({ slides, padding }) {
                   priority
                 />
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
-                  <h4 className="line-clamp-4 md:line-clamp-4">{slide.category}</h4>
+                  <span className="line-clamp-4 md:line-clamp-4">{slide.heading}</span>
                 </div>
               </div>
 
               <div className="absolute inset-0 bg-[#134874] bg-opacity-80 p-6 md:opacity-0 opacity-100 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between">
-                <h4 className="my-4 line-clamp-4 md:line-clamp-none">{slide.category}</h4>
+                <span className="my-4 line-clamp-4 md:line-clamp-none">{slide.heading}</span>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
                   <Link href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>

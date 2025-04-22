@@ -50,7 +50,7 @@ const LocationPage = () => {
             city: 'California',
             address: (
                 <>
-                    5251 California Avenue Ave,
+                    5251 California Ave,
                     <br />
                     Suite 110, Irvine, California, 92617
                     <br />
