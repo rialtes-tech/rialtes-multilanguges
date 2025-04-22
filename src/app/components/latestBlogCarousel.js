@@ -10,6 +10,16 @@ export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
     {
+      id: 9,
+      image: "/images/blog/SAP Business cloud_Carousal.webp",
+      category: "SAP",
+      industry: "SAP",
+      date: "22 April 2025",
+      url: 'insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule',
+      title: "Redefining the Future of Enterprise AI with SAP Joule",
+      description: "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. ",
+    },
+    {
       id: 8,
       image: "/images/blog/SAP Business cloud_Carousal.webp",
       category: "General",

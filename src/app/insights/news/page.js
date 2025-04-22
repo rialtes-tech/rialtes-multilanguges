@@ -15,6 +15,14 @@ const latestCaseStudy = [
     url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
     title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
   },
+  {
+    id: 2,
+    image: "/images/news/generic thumb.webp",
+    industry: "News",
+    date: "18 April 2025",
+    url: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
+    title: "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
+  },
   // {
 
   //   id: 2,
@@ -136,141 +144,6 @@ const CaseStudyCard = ({ casestudy }) => (
 
 
 
-const FeaturedCarousel = () => {
-  const slides = [
-    {
-      id: 1,
-      imgSrc: '/images/news/Latest news thumb.webp',
-      category: 'News',
-      date: '4 April 2025',
-      url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-      title: 'Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.',
-      description: 'Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales'
-    },
-    // {
-    //   id: 2,
-    //   imgSrc: '/images/news/AdobeStock_1336683433.webp',
-    //   category: 'News',
-    //   date: '4 April 2025',
-    //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    //   title: 'Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.',
-    //   description: 'Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales.'
-    // }
-  ];
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 1,
-      partialVisibilityGutter: 200,
-      slidesToSlide: 1,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 575 },
-      items: 1,
-      centerMode: true,
-      slidesToSlide: 1,
-    },
-    mobile: {
-      breakpoint: { max: 575, min: 0 },
-      items: 1,
-      centerMode: true,
-    },
-  };
-
-  const ButtonGroup = ({ next, previous, ...rest }) => {
-    const { carouselState: { currentSlide } } = rest;
-    return (
-      <div className="flex carousel-button-group absolute top-0 xl:right-[175px] right-6 md:mt-4">
-        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-5 group transition-all duration-300' : 'bg-white p-2 mr-5 group transition-all duration-300'} onClick={() => previous()}>
-          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-            <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
-          </svg>
-        </button>
-        <button className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
-          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-            <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
-          </svg>
-        </button>
-      </div>
-    );
-  };
-
-  const CustomDot = ({ onClick, ...rest }) => {
-    const {
-      onMove,
-      index,
-      active,
-      carouselState: { currentSlide, deviceType }
-    } = rest;
-    return (
-      <button
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-      />
-    );
-  };
-
-  return (
-    <section className="relative pb-10 bg-white">
-      <div>
-        <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6 xl:text-[60px] text-[30px]">Latest news</h2>
-        </div>
-        <Carousel
-          swipeable={true}
-          draggable={true}
-          showDots={true}
-          responsive={responsive}
-          ssr={true}
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          keyBoardControl={true}
-          customTransition="all .5s"
-          transitionDuration={500}
-          containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start flex-wrap"
-          itemClass="carousel-item-padding-40-px"
-          partialVisible={true}
-          arrows={false}
-          renderButtonGroupOutside={true}
-          customButtonGroup={<ButtonGroup />}
-          renderDotsOutside={true}
-          customDot={<CustomDot />}
-        >
-          {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-6 group">
-              <div className="basis-full sm:basis-2/3 lg:basis-4/3">
-                <Link href={slide.url}>
-                  <Image
-                    src={slide.imgSrc}
-                    alt={slide.title}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                </Link>
-              </div>
-              <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] sm:basis-2/3 py-4 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-4">
-                <div className='pb-[10px]  text-[20px] sm:pb-[15px] lg:pb-[20px]'>
-                  <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
-                </div>
-                <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold xl:text-[35px]">{slide.title}</h3></Link>
-                <p className="xl:text-[20px] text-[18px]">{slide.description}</p>
-                <Link href={slide.url}>
-                <h4 className="xl:mt-20 text-[#0092E0] xl:text-[20px] mt-5">Read More</h4>
-                </Link>
-              </div>
-            </div>
-          ))}
-        </Carousel>
-      </div>
-    </section>
-  );
-}
 
 export default function Page() {
   return (
