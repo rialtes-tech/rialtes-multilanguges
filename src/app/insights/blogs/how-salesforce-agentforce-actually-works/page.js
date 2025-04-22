@@ -137,12 +137,20 @@ const blogs = [
 ];
 
 export default function Page() {
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
+
   return (
     <div className="min-h-screen bg-white">
       <Head>
         <title>How Salesforce Agentforce Actually Works | Company Name</title>
         <meta name="description" content="About our company" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="A Public Housing in US" />
+        <meta property="og:description" content="Summary of the case study" />
+        <meta property="og:url" content={fullUrl} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
       </Head>
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -174,8 +182,11 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=How Salesforce Agentforce Actually Works&summary=Summary%20of%20the%20blog&source=LinkedIn">
-                      <Image
+                  <a
+                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >                          <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}
@@ -186,7 +197,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
+                  {/* <div className="max-w-[40px]">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
@@ -198,7 +209,7 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                   <div className="max-w-[40px]">
                     <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=How Salesforce Agentforce Actually Works">
                       <Image

@@ -827,7 +827,7 @@ export default function Page() {
   md:ml-[100px] md:w-[calc(100%-100px)]
   text-black py-20"
             >
-                <ContactForm title={'Transform Patient Lives and Medical Device Operations with Rialtes'} className={"max-w-[70rem] xl:font-medium xl:text-[60px] text-[26px] leading-tight"} />
+                <ContactForm title={'Transform Patient Lives and Medical Device Operations with Rialtes!'} className={"max-w-[70rem] xl:text-[60px] text-[26px] leading-tight"} />
             </div >
         </div >
     );

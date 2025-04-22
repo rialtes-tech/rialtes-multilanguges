@@ -29,7 +29,6 @@ export default function Page() {
                             src="/images/homepage/inauguration-14 2.webp"
                             alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
                             fill
-                            style={{ objectFit: "cover", objectPosition: "50% 20%" }}
                             priority
                         />
                         <h1 className="text-white xl:text-[50px] font-medium xl:w-[65%] absolute container xl:pl-20 xl:pt-[15rem] pl-8 pt-16">Rialtes Opens new Sales Office in Himachal Pradesh, India.</h1>

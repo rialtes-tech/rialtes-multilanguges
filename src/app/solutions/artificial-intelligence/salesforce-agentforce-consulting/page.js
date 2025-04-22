@@ -61,54 +61,54 @@ export default function Agentforce() {
         {
             id: 1,
             image: "/images/blog/blog-1-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "30 Sept 2024",
+            heading:'How Agentforce works',
             url: 'insights/blogs/how-salesforce-agentforce-actually-works',
             title: "How Salesforce Agentforce Actually Works",
         },
         {
             id: 2,
             image: "/images/blog/blog-2-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "21 Oct 2024",
+            heading:'Atlas Reasoning Engine',
             url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
             title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
         },
         {
             id: 3, 
             image: "/images/blog/blog-3-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "28 Oct 2024",
+            heading:'Agents vs. Copilots vs. Bots',
             url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
             title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
         },
         {
             id: 4,
             image: "/images/blog/blog-4-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "25 Nov 2024",
+            heading:'Agentforce Testing Center',
             url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
             title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         },
         {
             id: 11,
             image: "/images/blog/blog-12-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "17 Sept 2024",
+            heading:'Integrate Agenforce with Your ERP',
             url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
             title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
         },
         {
             id: 12,
             image: "/images/blog/blog-11-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "17 Sept 2024",
+            heading:'Slack Collaboration with Agentforce',
             url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce',
             title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
         },
@@ -116,9 +116,9 @@ export default function Agentforce() {
         {
             id: 14,
             image: "/images/blog/blog-14-long-thumb.webp",
-            category: "Salesforce Agentforce",
             industry: "Generic",
             date: "17 Sept 2024",
+            heading:'Top Features of Agentforce',
             url: 'insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
             title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
         },
@@ -187,9 +187,11 @@ export default function Agentforce() {
                     }}
                     priority
                 />
-                <div className="absolute px-6 xl:pl-[915px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
+                <div className="grid grid-cols-12 absolute px-6  lg:pr-0  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
+                    <div className="col-span-7"></div>
+                    <div className="col-span-4">
                     <h4 className="font-bold">Agentforce</h4>
-                    <h2 className="mt-3 xl:w-[60%]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
+                    <h2 className="mt-3 xl:text-[60px] text-[26px]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
                     <div className="mt-10">
                         <Image
                             src="/images/salesforce-consulting-services/salesforce-partner.webp"
@@ -201,6 +203,9 @@ export default function Agentforce() {
                             priority
                         />
                     </div>
+                    </div>
+                    <div className="col-span-1"></div>
+                   
                 </div>
             </div>
 
