@@ -212,6 +212,7 @@ export default function About() {
     };
 
     const hasNextSlide = currentIndex < webinars.length - 1;
+    const fullUrl = "https://rialtes.netlify.app/insights/webinars/let-whatsApp-in-salesforce-with-agentChat";
 
     return (
         <div className="min-h-screen">
@@ -248,10 +249,15 @@ export default function About() {
                 </div>
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:ml-[280px] mx-[35px]">
-                <div className="xl:col-span-7 col-span-12 pb-20">
+                <div className="xl:col-span-7 col-span-12 xl:pb-20 pb-10">
                     <div className="flex flex-row gap-6  mt-10">
                         <div className="max-w-[40px]">
-                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-2&title=RealForce Banking Module - ACH&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
+                        <a
+  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=${encodeURIComponent("Let WhatsApp in Salesforce with AgentChat")}&summary=${encodeURIComponent("Join our webinar to explore integrating WhatsApp with Salesforce using AgentChat.")}&source=Rialtes`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+
                                 <Image
                                     src="/images/case-studies/linkedin.svg"
                                     alt="LinkedIn"
@@ -263,7 +269,7 @@ export default function About() {
                                 />
                             </a>
                         </div>
-                        <div className="max-w-[40px]">
+                        {/* <div className="max-w-[40px]">
                             <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-2">
                                 <Image
                                     src="/images/case-studies/facebook.svg"
@@ -275,8 +281,8 @@ export default function About() {
                                     priority
                                 />
                             </a>
-                        </div>
-                        <div className="max-w-[40px]">
+                        </div> */}
+                        {/* <div className="max-w-[40px]">
                             <a href="https://twitter.com/intent/tweet?url=/case-study-2&text=RealForce Banking Module - ACH">
                                 <Image
                                     src="/images/case-studies/twitter.svg"
@@ -288,9 +294,9 @@ export default function About() {
                                     priority
                                 />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
-                    <h1 className="leading-tight mt-10">Let’s WhatsApp in Salesforce with AgentChat</h1>
+                    <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal">Let’s WhatsApp in Salesforce with AgentChat</h1>
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
@@ -304,8 +310,8 @@ export default function About() {
                         </div>
                         <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">
                             <h3 className="xl:text-[24px] text-[#0092E0]">Speaker</h3>
-                            <h3 className="mt-3 xl:text-[29px] font-bold">Lokesh Adhikari</h3>
-                            <h3 className="mt-[-10px] xl:text-[24px]">Associate Software Engineer</h3>
+                            <h3 className="mt-3 xl:text-[29px] font-bold mb-3">Lokesh Adhikari</h3>
+                            <h3 className="mt-[-10px] xl:text-[24px]">Software Engineer - Salesforce</h3>
 
                         </div>
 
@@ -315,14 +321,14 @@ export default function About() {
                     <p className="mt-16 xl:pr-32">Don’t miss this exclusive webinar to discover how <strong>AgentChat</strong>, our native, bidirectional Salesforce WhatsApp integration, transforms the way your teams communicate, directly within Salesforce. Whether you're in Sales, Service, Marketing, or Field Operations, AgentChat brings seamless, real-time WhatsApp conversations to your CRM environment.</p>
 
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You’ll Learn:</h3>
-                    <p className="mt-5 pr-10"><strong>Cross-Cloud Compatibility:</strong> How AgentChat works across every Salesforce Cloud—from Sales and Service to Marketing and Field Ops.</p>
-                    <p className="mt-5 pr-10"><strong>Faster Customer Response Times:</strong> Reduce delays and close conversations faster.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Cross-Cloud Compatibility:</strong> How AgentChat works across every Salesforce Cloud—from Sales and Service to Marketing and Field Ops.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Faster Customer Response Times:</strong> Reduce delays and close conversations faster.</p>
                     <p className="mt-5"><strong>Workflow Automation:</strong> Trigger tasks, alerts, and records based on chat actions.</p>
-                    <p className="mt-5 pr-5"><strong>Features and Benefits: </strong> Explore the core capabilities of AgentChat and the real-world impact they deliver.</p>
-                    <p className="mt-5 pr-10"><strong>Live Demo:</strong> See AgentChat in action and how Salesforce WhatsApp integration fits into your current Salesforce setup.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Features and Benefits: </strong> Explore the core capabilities of AgentChat and the real-world impact they deliver.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Live Demo:</strong> See AgentChat in action and how Salesforce WhatsApp integration fits into your current Salesforce setup.</p>
 
                     <h3 className="mt-16 text-[#0092E0]">Who Should Attend?</h3>
-                    <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 text-[20px] marker:font-bold font-medium">
+                    <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
 
                         <li className="pb-2 mt-5">Salesforce Admins & Developers</li>
                         <li className="pb-2">Sales & Service Team Leads</li>
@@ -333,7 +339,7 @@ export default function About() {
 
                     </ul>
                     <Link href="https://us06web.zoom.us/webinar/register/WN_AzyAJbyIRmm5R_cHgjW9PA#/registration">
-                        <button className="text-white xl:text-[20px] text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
+                        <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
 
                     </Link>
 
