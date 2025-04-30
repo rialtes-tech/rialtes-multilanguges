@@ -211,6 +211,8 @@ const Header = () => {
         { label: 'Insights', href: '/insights' },
         { label: 'Blogs', href: '/insights/blogs' },
         { label: 'Case Studies', href: '/insights/case-studies' },
+        { label: 'Webinars', href: '/insights/webinars' },
+
 
       ],
     },
