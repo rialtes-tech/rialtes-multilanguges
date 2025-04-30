@@ -351,7 +351,7 @@ export default function SalesForceConsulting() {
             <section className='xl:mt-40 relative'>
                 <div className='group overflow-hidden'>
                     <div className='w-full'>
-                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting-services/Agentforce banner 2.webp' />
+                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/agentforce-banner.webp' />
                     </div>
                 </div>
                 <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[23%] lg:right-[15rem] lg:top-[-3rem] top-[392px]'>

@@ -259,7 +259,7 @@ export default function Page() {
                                 </div>
                                 <div>
                                     <div className=" flex items-center xl:gap-5 gap-3">
-                                        <h3 className="border-white"></h3>
+                                        <h3 className="border-white-education"></h3>
                                         <h3 className="xl:text-[35px] text-[20px] font-bold pr-20 xl:pr-0">Recruitment and Enrollment Journey</h3>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@ export default function Page() {
                                 </div>
 
                                 <div className=" flex items-center xl:gap-5 gap-3 mt-10">
-                                    <h3 className="border-white"></h3>
+                                    <h3 className="border-white-education"></h3>
                                     <h3 className="xl:text-[35px] text-[20px] font-bold">Student Family Mapping and Engagement</h3>
                                 </div>
                                 <div className="xl:pl-20 pl-[35px] pt-5">

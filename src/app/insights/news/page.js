@@ -17,7 +17,7 @@ const latestCaseStudy = [
   },
   {
     id: 2,
-    image: "/images/news/generic thumb.webp",
+    image: "/images/news/news2.webp",
     industry: "News",
     date: "18 April 2025",
     url: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
