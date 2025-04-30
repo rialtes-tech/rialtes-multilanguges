@@ -211,7 +211,6 @@ const Header = () => {
         { label: 'Insights', href: '/insights' },
         { label: 'Blogs', href: '/insights/blogs' },
         { label: 'Case Studies', href: '/insights/case-studies' },
-        // { label: 'News', href: '/insights/news' },
 
       ],
     },
@@ -1270,12 +1269,18 @@ const Header = () => {
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-10" label="News" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")}
                             onHover={() => { }} /> */}
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} /> */}
+                          <div>
+                          <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinar" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
+                            onHover={() => { }} />
+                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        </div>
                         </div>
                         <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Case Studies" link="/insights/case-studies" onClick={(e) => handleLinkClick(e, "/insights/case-studies")}
                             onHover={() => { }} />
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
                         </div>
+
                         <div>
                         </div>
                       </div>
