@@ -5,7 +5,7 @@ import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import ContactForm from '../app/components/contactform';
+import ContactForm from './components/contactform';
 import Seo from './components/Seo';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -313,7 +313,7 @@ const Home = () => {
           <div className="relative">
             <div className='xl:block hidden'>
               <a
-                href="/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh"
+                href="/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems"
                 style={{ display: 'block' }}
                 className="relative block"
               >
@@ -332,7 +332,7 @@ const Home = () => {
             </div>
             <div className='xl:hidden block'>
               <a
-                href="/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh"
+                href="/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems"
                 style={{ display: 'block' }}
                 className="relative block"
               >

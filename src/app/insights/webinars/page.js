@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const webinars = [
   {
-    id: 11,
+    id: 1,
     title: "Let’s WhatsApp in Salesforce with AgentChat",
     date: "May 06, 2025",
     time: "10:00 AM CST",
@@ -20,6 +20,20 @@ const webinars = [
     backgroundImage: "/images/webinar/Webinar_sli.webp",
     url: 'insights/webinars/let-whatsApp-in-salesforce-with-agentChat'
   },
+  {
+    id: 2,
+    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+    date: "May 08, 2025",
+    time: "10:00 AM CST",
+    speaker: {
+      name: "Divya Agarwal",
+      role: "Associate Software Engineer",
+      image: "/images/webinar/Divya.webp",
+    },
+    backgroundImage: "/images/webinar/Webinar_8.webp",
+    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+  },
+
 
 ];
 
@@ -227,7 +241,6 @@ export default function About() {
 
       <div
         className="
-        container
         ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
@@ -235,9 +248,9 @@ export default function About() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
       >
         <section className="py-16 bg-white">
-          <div className="container mx-auto">
-            <h2 className="xl:text-[26px]  font-medium">Exclusive Webinars with Expert Panels for Transforming Businesses</h2>
-            <p className="text-[#000000] text-[20px]  py-6 max-w-5xl mb-12 font-normal">
+          <div>
+            <h2 className="xl:text-[28px]  font-medium">Deep Dive with Experts-Led Webinars Curated to Drive Results</h2>
+            <p className="text-[#000000] text-[22px]  py-6 max-w-5xl mb-12 font-normal leading-tight">
            
              Our webinar series brings together industry leaders, seasoned consultants, and technology specialists for deep-dive conversations that move beyond theory into real-world impact. Whether you're navigating a digital transformation, optimizing your ERP systems, or exploring the frontiers of AI and automation, these sessions are designed to equip you with insights that put you on the right path.            </p>
 
