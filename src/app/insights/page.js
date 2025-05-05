@@ -848,7 +848,7 @@ export default function InsightsPage() {
       </div> */}
 
       {/* Webinar Section */}
-      {/* <div
+       <div
         className="
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
@@ -862,7 +862,7 @@ export default function InsightsPage() {
             <h2 className="text-3xl font-normal mb-2 md:mb-0">Webinars</h2>
             <div className="hidden sm:block">
               <Link
-                href="/events"
+                href="/insights/webinars"
                 className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">
@@ -877,7 +877,7 @@ export default function InsightsPage() {
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-1")}
               onMouseLeave={handleMouseLeave("webinar-1")}
-              onClick={handleClick("/about-us")}
+              onClick={handleClick("/insights/webinars/let-whatsApp-in-salesforce-with-agentChat")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
@@ -898,7 +898,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/sap-s4-hana-webinar-1.webp"
+                      src="/images/webinar/Webinar_6.webp"
                       alt="Leadership Team"
                       width={0}
                       height={0}
@@ -918,22 +918,21 @@ export default function InsightsPage() {
               // style={{ backgroundColor: isHovered ? "#f1f1f1" : "ffffff" }}
               >
                 <h3 className=" text-[#134874] mb-4 min-h-[4rem]">
-                  SAP S/4 HANA: Sourcing and Procurement in S/4 HANA Public
-                  Cloud
+                Let’s WhatsApp in Salesforce with AgentChat
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
-                    <span className="font-medium">November 12, 2024</span>
+                    <span className="font-medium">May 06, 2025</span>
                     <span className="mx-2">|</span>
                     <span>10:00 AM CST</span>
                   </div>
                   <div className="space-y-1">
-                    <div className="font-bold">Sapana Chauhan</div>
-                    <div className="">Associate Software Engineer</div>
+                    <div className="font-bold">Lokesh Adhikari</div>
+                    <div className="">Software Engineer - Salesforce</div>
                   </div>
                 </div>
                 <Link
-                  href="/blog/diversity"
+                  href=""
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
                   <span>Register Now</span>
@@ -959,7 +958,7 @@ export default function InsightsPage() {
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-2")}
               onMouseLeave={handleMouseLeave("webinar-2")}
-              onClick={handleClick("/about-us")}
+              onClick={handleClick("/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
@@ -980,7 +979,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/insights/salesforce-webinar-2.webp"
+                      src="/images/webinar/webinar-thumb.webp"
                       alt="Leadership Team"
                       width={0}
                       height={0}
@@ -997,21 +996,21 @@ export default function InsightsPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  Salesforce CPQ: Bundle Configuration and Revenue Cloud Rules
+                Deliver End-to-End Customer Journey with Salesforce Automotive Cloud
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
-                    <span className="font-medium">November 7, 2024</span>
+                    <span className="font-medium">May 08, 2025</span>
                     <span className="mx-2">|</span>
                     <span>10:00 AM CST</span>
                   </div>
                   <div className="space-y-1">
                     <div className="font-bold">Divya Agrawal</div>
-                    <div className="">Associate Software Engineer</div>
+                    <div className="">Software Engineer - Salesforce</div>
                   </div>
                 </div>
                 <Link
-                  href="/blog/diversity"
+                  href=""
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
                   <span>Register Now</span>
@@ -1033,7 +1032,7 @@ export default function InsightsPage() {
               </div>
             </div>
 
-            <div
+            {/* <div
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-3")}
               onMouseLeave={handleMouseLeave("webinar-3")}
@@ -1109,19 +1108,19 @@ export default function InsightsPage() {
                   </svg>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="block sm:hidden mt-12">
             {" "}
             <Link
-              href="/events"
+              href="/insights/webinars"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
             >
               <span className="inline-flex items-center">See All Webinars</span>
             </Link>
           </div>
         </section>
-      </div> */}
+      </div> 
 
       {/* Contact Form Section */}
       <div
