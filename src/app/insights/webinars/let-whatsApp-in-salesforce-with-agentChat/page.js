@@ -170,6 +170,8 @@ export default function About() {
                         <h2 className="font-extrabold">06</h2>
                         <h3>May 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
+                        <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
+
                         <Link href="https://us06web.zoom.us/webinar/register/WN_AzyAJbyIRmm5R_cHgjW9PA#/registration">
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
 

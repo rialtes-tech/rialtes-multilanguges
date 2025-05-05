@@ -11,74 +11,77 @@ const AutoTimerSlider = () => {
         <div className="carousel mt-10 z-0 xl:h-[1100px] h-[851px]">
             <div className="list">
 
-                <div className="item"
+                {/* <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
                     <div className="content">
                         <div className="title">LIFE SCIENCE</div>
-                        <div className="des pr-16">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software.</div>
-                        <button className='!border-2 know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        <div className="des xl:pr-5 pr-32 xl:mt-8 mt-5">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software,</div>
+                        <button className='!border-[1px] know-more !border-white xl:p-4 p-3 xl:text-[20px] !text-[16px] mt-10'>Know More → </button>
 
                     </div>
-                </div>
+                </div> */}
 
                 <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry2.webp")` }}>
                     <div className="content">
-                        <div className="title">REAL ESTATE</div>
-
-                        <div className="des pr-16">CRM solutions for real estate help manage leads, automate tasks, and enhance property listings visibility.</div>
-                        <button className='!border-2 know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
-
+                        <div className="title">MANUFACTURING</div>
+                        <div className="des pr-5 xl:mt-8 mt-5">Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.</div>
+                       <Link href="/industry/manufacturing-cloud-erp">
+                        <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry3.webp")` }}>
                     <div className="content">
-                        <div className="title">HI-TECH</div>
-                        <div className="des pr-16">Drive digital innovation with CRM tools for smarter customer engagement and faster service cycles.</div>
-                        <button className='!border-2 know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
-
+                        <div className="title">REAL ESTATE</div>
+                        <div className="des pr-5 xl:mt-8 mt-5">Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.</div>
+                        <Link href='/industry/real-estate-property-management'>
+                        <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry4.webp")` }}>
                     <div className="content">
+                        <div className="title">HI-TECH</div>
+                        <div className="des pr-5xl:mt-8 mt-5">Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.</div>
+                        <Link href="/industry/hitech-semiconductor">
+                        <button className='!border-[1px]  know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        </Link>
+                    </div>
+                </div>
+
+
+                {/* <div className="item"
+                    style={{ backgroundImage: `url("images/homepage/industry5.webp")` }}>
+                    <div className="content">
                         <div className="title">AUTOMOTIVE</div>
-                        <div className="des pr-16">Empower your digital transformation journey with tailored hi-tech solutions powered by Salesforce.</div>
-                        <button className='!border-2  know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        <div className="des pr-5 xl:mt-8 mt-5">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
+                        <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
 
                     </div>
-                </div>
-
-
+                </div> */}
                 <div className="item"
                     style={{ backgroundImage: `url("images/homepage/industry5.webp")` }}>
                     <div className="content">
-                        <div className="title">Healthcare</div>
-                        <div className="des pr-16">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
-                        <button className='!border-2 know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
-
-                    </div>
-                </div>
-                <div className="item"
-                    style={{ backgroundImage: `url("images/homepage/industry5.webp")` }}>
-                    <div className="content">
-                        <div className="title">Healthcare</div>
-                        <div className="des pr-16">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
-                        <button className='!border-2 know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
-
+                        <div className=" title">Healthcare</div>
+                        <div className="des pr-5 xl:mt-8 mt-5">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
+                        <Link href="/industry/life-sciences/healthcare-medtech-patient-care">
+                        <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        </Link>
                     </div>
                 </div>
 
             </div>
 
 
-            <div className="arrows flex">
-                <div className="flex items-center  gap-0  ml-[35px] xl:ml-2">
-                    <button className="prev bg-white text-black p-2 w-[69px] h-[69px]  border-r-2 border-black hover:bg-gray-200 cursor-pointer">◀</button>
-                    <button className="next bg-white text-black p-2 w-[69px] h-[69px]  hover:bg-gray-200">▶</button>
+            <div className="arrows flex bottom-[70px] xl:bottom-[230px]">
+                <div className="flex items-center  gap-0  xl:ml-2">
+                    <button className="prev bg-white text-black p-2 xl:w-[69px] xl:h-[69px] h-[36px]  w-[36px] border-r-2 border-black hover:bg-gray-200 cursor-pointer">◀</button>
+                    <button className="next bg-white text-black p-2 xl:w-[69px] xl:h-[69px] h-[36px] w-[36px]  hover:bg-gray-200">▶</button>
                 </div>
 
                 <div className="slide-number"></div>
@@ -90,8 +93,8 @@ const AutoTimerSlider = () => {
             <MyComponent />
             
         </div>
-        <div className="flex absolute right-0 mt-[-30px] mr-[200px]">
-    <button className="bg-[#134874] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border border-solid border-[#134874] font-semibold text-white py-5 px-8 transition duration-300">
+        <div className="flex absolute right-0 mt-[-30px] xl:mr-[280px] mr-[100px]">
+    <button className="bg-[#134874] xl:text-[20px] text-[14px] hover:bg-[#ffffff] hover:text-[#134874] border border-solid border-[#134874] font-semibold text-white xl:py-5 py-4 px-8 transition duration-300">
       <Link href='/industry'>View All Industry</Link>
     </button>
   </div>

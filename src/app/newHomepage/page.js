@@ -1,49 +1,57 @@
 "use client";
 import Image from 'next/image';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Seo from '../../app/components/Seo';
 import Head from 'next/head';
-import Link from 'next/link';
 import { useMultipleScrollAnimation } from '../hooks/useScrollAnimation';
 import ContactForm from '../components/contactform';
 import AutoTimerSlider from '../newHome/page';
+import Link from 'next/link';
+
 const carouselData = [
     {
-        title: "LIFE SCIENCE",
+        title: "Blogs",
         description:
-            "Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software.",
-        image: "/images/homepage/industry1.webp",
-        label: "MANUFACTURING",
+            "Redefining the Future of Enterprise AI with SAP Joule",
+        image: "/images/blog/jthumb.webp",
+        link: '/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule'
     },
     {
-        title: "LIFE SCIENCE2",
+        title: "Blogs",
         description:
-            "Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software.",
-        image: "/images/homepage/industry2.webp",
-        label: "MANUFACTURING",
+            "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
+        image: "/images/blog/blog-8.webp",
+        link: '/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration'
     },
     {
-        title: "REAL ESTATE",
+        title: "Blogs",
         description:
-            "CRM solutions for real estate help manage leads, automate tasks, and enhance property listings visibility.",
-        image: "/images/homepage/industry3.webp",
-        label: "REAL ESTATE",
+            "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
+        image: "/images/blog/SAP Business cloud_Blog thumb.webp",
+        link: '/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'
     },
     {
-        title: "HI-TECH",
+        title: "Blogs",
         description:
-            "Empower your digital transformation journey with tailored hi-tech solutions powered by Salesforce.",
-        image: "/images/homepage/industry4.webp",
-        label: "HI-TECH",
+            "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
+        image: "/images/blog/blog-12.webp",
+        link: '/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai'
     },
     {
-        title: "AUTOMOTIVE",
+        title: "Blogs",
         description:
-            "Drive digital innovation with CRM tools for smarter customer engagement and faster service cycles.",
-        image: "/images/homepage/industry5.webp",
-        label: "AUTOMOTIVE",
+            "How SAP SuccessFactors Enhances Remote Work Management",
+        image: "/images/blog/blog-13.webp",
+        link: '/insights/blogs/how-sap-successfactors-enhances-remote-work-management'
+    },
+    {
+        title: "Blogs",
+        description:
+            "How Salesforce Agentforce Actually Works",
+        image: "/images/blog/blog-1.webp",
+        link: '/insights/blogs/how-salesforce-agentforce-actually-works'
     },
 ];
 const successStoryData = [
@@ -126,6 +134,8 @@ const Home = () => {
         setActiveIndexInsights((prevIndex) => (prevIndex === carouselData.length - 1 ? 0 : prevIndex + 1));
     };
 
+
+
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const nextSlide = () => {
@@ -137,109 +147,13 @@ const Home = () => {
     };
 
     const slides = [
-        { headline: 'Headline 1', subHeadline: 'Sub Headline 1', image: '/images/homepage/banner-1.webp' },
-        { headline: 'Headline 2', subHeadline: 'Sub Headline 2', image: '/images/homepage/Asset3.webp' },
+        { headline: 'Headline', link: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems", subHeadline: 'Sub Headline', image: '/images/homepage/databricks.png', imageMobile: '/images/homepage/mobile5.jpg' },
+        // { headline: 'Headline', link: "", subHeadline: 'Sub Headline', image: '/images/homepage/ban1.jpg', imageMobile: '/images/homepage/mobile1.jpg' },
+        // { headline: 'Headline', link: "/products/agentchat", subHeadline: 'Sub Headline', image: '/images/homepage/banner2.jpg', imageMobile: '/images/homepage/mobile2.jpg' },
+        { headline: 'Headline', link: "/products/agentchat", subHeadline: 'Sub Headline', image: '/images/homepage/banner3.jpg', imageMobile: '/images/homepage/mobile3.jpg' },
+        { headline: 'Headline', link: "/industry/manufacturing-cloud-erp", subHeadline: 'Sub Headline', image: '/images/homepage/banner4.jpg', imageMobile: '/images/homepage/mobile4.jpg' },
+
     ]
-
-
-
-
-
-    const slideRef = useRef(null);
-    const [isAnimating, setIsAnimating] = useState(false);
-
-    useEffect(() => {
-        const nextBtn = document.getElementsByClassName('next')[0];
-        const prevBtn = document.getElementsByClassName('prev')[0];
-        const slide = slideRef.current;
-
-        // const handleNextClick = () => {
-        //     if (isAnimating) return;
-        //     setIsAnimating(true);
-
-        //     const firstItem = slide.getElementsByClassName('item')[0];
-
-        //     // Slide up
-        //     firstItem.style.animation = 'slideUp 0.5s ease';
-        //     setTimeout(() => {
-        //         slide.appendChild(firstItem); // move first to end
-        //         firstItem.style.animation = 'none';
-        //         setIsAnimating(false);
-        //     }, 500);
-        // };
-        const handleNextClick = () => {
-            if (isAnimating) return;
-            setIsAnimating(true);
-
-            const slide = slideRef.current;
-            const firstItem = slide.getElementsByClassName('item')[0];
-
-            // Reset animation class if it existed
-            firstItem.classList.remove('animate-card-open');
-            void firstItem.offsetWidth; // Force reflow
-
-            // Add the card open animation
-            firstItem.classList.add('animate-card-open');
-
-            setTimeout(() => {
-                firstItem.classList.remove('animate-card-open');
-                slide.appendChild(firstItem); // move to end
-                setIsAnimating(false);
-            }, 800); // match the animation duration
-        };
-
-        // const handlePrevClick = () => {
-        //     if (isAnimating) return;
-        //     setIsAnimating(true);
-
-        //     const slide = slideRef.current;
-        //     const items = slide.getElementsByClassName('item');
-        //     const lastItem = items[items.length - 1];
-
-        //     // Step 1: Add a temporary class for reverse animation
-        //     lastItem.classList.add('slide-reverse');
-
-        //     // Step 2: Wait for animation to finish, then move DOM
-        //     setTimeout(() => {
-        //         lastItem.classList.remove('slide-reverse');
-        //         slide.insertBefore(lastItem, items[0]); // move to front
-        //         setIsAnimating(false);
-        //     }, 500); // duration matches CSS animation
-        // };
-
-        const handlePrevClick = () => {
-            if (isAnimating) return;
-            setIsAnimating(true);
-
-            const slide = slideRef.current;
-            const items = slide.getElementsByClassName('item');
-            const lastItem = items[items.length - 1];
-
-            // Reset any previous animation
-            lastItem.classList.remove('animate-card-open');
-            void lastItem.offsetWidth; // force reflow to restart animation
-
-            // Add the card animation
-            lastItem.classList.add('animate-card-open');
-
-            setTimeout(() => {
-                lastItem.classList.remove('animate-card-open');
-                slide.insertBefore(lastItem, items[0]); // move to front
-                setIsAnimating(false);
-            }, 800); // duration matches cardOpen animation
-        };
-
-        nextBtn.addEventListener('click', handleNextClick);
-        prevBtn.addEventListener('click', handlePrevClick);
-
-        return () => {
-            nextBtn.removeEventListener('click', handleNextClick);
-            prevBtn.removeEventListener('click', handlePrevClick);
-        };
-    }, [isAnimating]);
-
-
-
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -247,19 +161,16 @@ const Home = () => {
         return () => clearInterval(interval);
     }, [slides.length]);
 
-    const [activeIndex, setActiveIndex] = useState(0);
-
-
     useEffect(() => {
         const interval = setInterval(() => {
             handleNextInsights();
-        }, 5000); // auto-slide every 5s
+        }, 5000);
         return () => clearInterval(interval);
     }, []);
 
 
 
-   
+
 
     return (
         <div>
@@ -275,38 +186,64 @@ const Home = () => {
 
 
             />
-            <div className="relative xl:w-[1360px] xl:h-[711px] w-[350px] xl:ml-[280px] h-[400px] overflow-hidden xl:container xl:m-auto mx-[35px] xl:mx-0 container">
+            <div className="relative xl:w-[1360px] xl:h-[711px] w-[360px] md:w-full xl:ml-[280px] h-[400px] md:ml-[100px] overflow-hidden xl:container xl:m-auto mx-[35px] xl:mx-0 container">
                 {slides.map((slide, index) => (
-                    <div
-                        key={index}
-                        className={`absolute inset-0 transition-transform transform  ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'}`} style={{ backgroundImage: `url(${slide.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }} >
-                        <div
-                            ref={refs[6]}
-                            className={`col-span-4 transition-all duration-1000 ease-out transform  absolute inset-0  bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                                }`}
-                        >
-                            <h1 className="font-bold">{slide.headline}</h1>
-                            <h3>{slide.subHeadline}</h3>
-                            <div className="flex space-x-2 mt-6">
-                                {slides.map((_, i) => (
-                                    <div key={i} className={`h-1 w-[60px] ${i === currentSlide ? 'bg-white' : 'bg-gray-500'}`}></div>
-                                ))}
-                            </div>
+                    <React.Fragment key={index}>
+                        <Link href={slide.link}>
 
-                        </div>
-                    </div>
+                            <div
+                                className={`absolute inset-0 transition-transform transform xl:hidden ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
+                                    }`}
+                                style={{
+                                    backgroundImage: `url(${slide.imageMobile})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                }}
+                            >
+                                <div
+                                    ref={refs[6]}
+                                    className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                        }`}
+                                />
+                            </div>
+                        </Link>
+
+                        <Link href={slide.link}>
+                            <div
+                                className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
+                                    }`}
+                                style={{
+                                    backgroundImage: `url(${slide.image})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                }}
+                            >
+                                <div
+                                    ref={refs[6]}
+                                    className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                        }`}
+                                />
+                            </div>
+                        </Link>
+                    </React.Fragment>
                 ))}
-                <div className="absolute bottom-0 right-[-5rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
+
+                <div className="absolute bottom-0 right-[-4rem] xl:right-[-7rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
                     <div className='text-white xl:text-[35px] font-light'>
                         {currentSlide + 1}/{slides.length}
                     </div>
                     <div>
-                        <button onClick={prevSlide} className="bg-white p-5  shadow-lg">
-                            &lt;
+                        <button
+                            onClick={prevSlide}
+                            className="bg-white p-2 border hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
+                        >
+                            ◀
                         </button>
-
-                        <button onClick={nextSlide} className="bg-white p-5  shadow-lg">
-                            &gt;
+                        <button
+                            onClick={nextSlide}
+                            className="bg-white p-2 border hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
+                        >
+                            ▶
                         </button>
                     </div>
 
@@ -314,7 +251,7 @@ const Home = () => {
             </div>
 
             {/* //innovating section */}
-            <section className='mx-[35px]   mt-20 xl:ml-[280px] xl:mr-[246px]'>
+            <section className='mx-[35px] md:ml-[100px]  mt-20 xl:ml-[280px] xl:mr-[246px]'>
                 <Image
                     loading="lazy"
                     height='100'
@@ -332,9 +269,9 @@ const Home = () => {
                     <div className='xl:col-span-4 col-span-12 xl:border-r border-gray-300 mr-[-16px]'></div>
 
                     <div className='xl:col-span-8 col-span-12 xl:ml-[6rem]'>
-                        <h1 className="xl:text-[120px] font-bold  xl:ml-0  text-[34px] outline-text  xl:h-[125px] xl:mt-[-8px] mt-0">with Impact</h1>
+                        <h1 className="xl:text-[130px] font-bold  xl:ml-0  text-[33px] outline-text pl-[22px] xl:pl-0 xl:h-[125px] xl:mt-[-8px] mt-0 border-l xl:border-none border-gay-300 ml-32">with Impact</h1>
                         <h3 className='xl:text-[34px] text-[26px] text-[#0077CE]  font-bold !mt-[4.25rem] pr-16 xl:pr-0'>Beyond Business: A Commitment to Change</h3>
-                        <p className='mt-5 pr-12 xl:pr-0'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                        <p className='mt-5 pr-8 xl:pr-0'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                     </div>
 
                 </div>
@@ -360,7 +297,7 @@ const Home = () => {
                     <div className='col-span-3'></div>
 
                 </div>
-                <div className='grid xl:grid-cols-4 mt-16 gap-10 xl:gap-0'>
+                <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
                     {successStoryData.map((success, index) => {
                         const isLight = success.theme === "light";
                         return (
@@ -377,8 +314,8 @@ const Home = () => {
 
                                     <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
                                     <div className={`relative  z-10 p-6  ${isLight ? 'text-black' : 'text-white'}`}>
-                                        <p className="mb-5 text-[18px]">{success.title}</p>
-                                        <h3 className="font-medium leading-tight text-[24px]">
+                                        <p className="mb-5 text-[18px] ">{success.title}</p>
+                                        <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
                                             {success.description}
                                         </h3>
                                     </div>
@@ -405,7 +342,7 @@ const Home = () => {
                     </div>
                     <div className='col-span-1'></div>
                     <div className='col-span-5'>
-                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 leading-tight pr-10 xl:pr-0'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
+                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 leading-tight pr-10 xl:pr-5'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
                     </div>
                     <div className='col-span-2'></div>
                 </div>
@@ -414,7 +351,7 @@ const Home = () => {
 
 
             </section>
-            <div className="relative h-auto flex justify-center xl:mx-[280px] mx-[32px] mt-32">
+            <div className="relative h-auto flex justify-center xl:mx-[280px] md:ml-[100px] mx-[32px] mt-32">
                 <div className="flex flex-col xl:flex-row justify-between">
 
                     <div className="xl:w-1/2 flex flex-col order-1 xl:order-2">
@@ -436,29 +373,32 @@ const Home = () => {
                                 className="w-full xl:h-[909px] h-[435px] object-cover"
                             />
                         </div>
-                        <div className="text-white space-y-6 bg-[#184671] p-10  xl:pl-20  pb-0 pr-0 xl:mt-[10rem] xl:h-[610px] h-[370px]">
-                            <h1 className="xl:text-[26px] text-[16px]">
+                        <div className="text-white space-y-6 bg-[#184671] p-10   xl:pl-20  pb-0 pr-0 xl:mt-[10rem] xl:h-[610px] h-[400px]">
+                            <h1 className="xl:text-[26px] text-[16px] mb-10 mt-16">
                                 {carouselData[activeIndexInsights].title}
                             </h1>
-                            <p
-                                ref={refs[5]}
-                                className={`transition-all xl:text-[40px] text-[24px] xl:pr-10 duration-1000 ease-out transform pr-6 ${inViews[5] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                                    }`}
-                            >
-                                {carouselData[activeIndex].description}
-                            </p>
+                            <Link href={carouselData[activeIndexInsights].link} className='!mt-10'>
+                                <p
+                                    ref={refs[5]}
+                                    className={`transition-all xl:text-[40px] font-normal text-[24px] xl:pr-10 duration-1000 ease-out transform pr-6 ${inViews[5] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                                        }`}
+                                >
+                                    {carouselData[activeIndexInsights].description}
+                                </p>
+                            </Link>
+
                             <div className="flex  bottom-0 absolute right-0">
                                 <div className="mr-10 text-white xl:text-[35px] text-[16px] min-w-[40px] text-right">
                                     {activeIndexInsights + 1} / {carouselData.length}
                                 </div>
                                 <button
-                                    onClick={handlePrevInsights}
+                                    onClick={handleNextInsights}
                                     className="bg-white text-black p-2 border hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
                                 >
                                     ◀
                                 </button>
                                 <button
-                                    onClick={handleNextInsights}
+                                    onClick={handlePrevInsights}
                                     className="bg-white text-black p-2 border hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
                                 >
                                     ▶
@@ -473,13 +413,12 @@ const Home = () => {
                             className="w-full xl:h-[909px] h-[435px] object-cover"
                         />
                     </div>
-
                 </div>
             </div>
 
 
 
-            <section className='xl:ml-[280px] xl:mr-[142px] mt-20 mx-[35px] grid xl:grid-cols-12 grid-cols-12'>
+            <section className='xl:ml-[280px] md:ml-[100px] xl:mr-[142px] mt-20 mx-[35px] grid xl:grid-cols-12 grid-cols-12'>
                 <div
                     ref={refs[3]}
                     className={` transition-all duration-1000 ease-out xl:col-span-5 col-span-12 transform items-center   md:mr-0 xl:mr-0 ${inViews[3] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -490,19 +429,19 @@ const Home = () => {
 
                         <div className='text-[#073259] xl:text-[60px] text-[30px] font-extrabold'>@</div>
                     </div>
-                    <div className='xl:text-[180px] text-[89px] text-[#0C8AD4] font-extralight xl:h-[219px] xl:ml-[-16px] h-[108px] w-[675px] leading-tight xl:mt-[-35px]'>RIALTES</div>
-                    <p className='xl:pr-20 mt-10 pr-10'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
-                    <button className="xl:!mt-16 !mt-10 px-6 py-4 xl:text-[20px] text-[12px] bg-[#134874] font-bold border border-white hover:bg-[#134874] text-white  transition">
+                    <div className='xl:text-[170px] text-[89px] text-[#0C8AD4] font-extralight xl:h-[219px] xl:ml-[-16px] h-[108px]  leading-tight xl:mt-[-35px]'>RIALTES</div>
+                    <p className='xl:pr-[6rem] mt-10 pr-5'>Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.</p>
+                    {/* <button className="xl:!mt-16 !mt-10 px-6 py-4 xl:text-[20px] text-[12px] bg-[#134874] font-bold border border-white hover:bg-[#134874] text-white  transition">
                         Explore More
-                    </button>
+                    </button> */}
                 </div>
                 <div
                     ref={refs[4]}
-                    className={` transition-all xl:mt-[10rem] mt-[4rem] xl:col-span-7 col-span-12 duration-1000 ease-out  transform items-center   md:mr-0 xl:mr-0 ${inViews[4] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                    className={` transition-all xl:mt-[11rem] mt-[4rem] xl:col-span-7 col-span-12 duration-1000 ease-out  transform items-center   md:mr-0 xl:mr-0 ${inViews[4] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                         }`}
                 >
                     <Image
-                        className="relative w-full h-full xl:ml-[2rem]"
+                        className="relative w-full h-full xl:ml-[-2rem]"
                         src='/images/homepage/Group 508.webp'
                         alt="Our Solution to Success"
                         width={0}

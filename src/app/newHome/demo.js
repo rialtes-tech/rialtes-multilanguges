@@ -1,4 +1,3 @@
-"use client";
 import { useEffect } from "react";
 
 export default function MyComponent() {
@@ -140,7 +139,6 @@ export default function MyComponent() {
 
   return (
     <div className="my-custom-style">
-      Hello from MyComponent!
     </div>
   );
 }
