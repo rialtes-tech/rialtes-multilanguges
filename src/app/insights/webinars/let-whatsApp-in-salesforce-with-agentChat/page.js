@@ -125,7 +125,7 @@ export default function About() {
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
-                                src="/images/webinar/lokesh.webp"
+                                src="/images/webinar/Lokesh.webp"
                                 alt="RealForce Banking Module - ACH"
                                 priority
                                 className="xl:w-[256px] xl:h-[256px] w-full h-auto"

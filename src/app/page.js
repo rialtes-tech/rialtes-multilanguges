@@ -814,7 +814,8 @@ const successStoryData = [
         imageUrl: '/images/homepage/stremline.webp',
         title: 'Manufacturing',
         description: 'Streamlined DevOps using Copado and Salesforce',
-        url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+        url: 'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
+
 
     },
     {
@@ -822,7 +823,7 @@ const successStoryData = [
         imageUrl: '/images/homepage/salesforce.webp',
         title: 'Healthcare',
         description: 'Salesforce Health Cloud, Prior Authorization',
-        url: 'insights/case-studies/realForce-banking-module-ach'
+        url:'insights/case-studies/salesforce-health-cloud-prior-authorization'
 
     },
     {
@@ -830,36 +831,37 @@ const successStoryData = [
         imageUrl: '/images/homepage/mfg-2.webp',
         title: 'Manufacturing',
         description: 'Omnichannel case management with Salesforce Service Cloud',
-        url: 'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
+        url:'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
     },
     {
         id: 4,
         imageUrl: '/images/homepage/realestate.webp',
         title: 'Public Sector',
         description: 'A public housing in US',
-        url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud',
         theme: "light",
+        url:'/insights/case-studies/a-public-housing-in-us'
     },
     {
         id: 5,
         imageUrl: '/images/homepage/healthcare-2.webp',
         title: 'Healthcare',
         description: 'Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
-        url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
+        url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+
     },
     {
         id: 6,
         imageUrl: '/images/homepage/mfg-3.webp',
         title: 'Manufacturing',
         description: 'Streamlining Sales with Salesforce Sales Cloud for Manufacturing',
-        url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud'
+        url:'insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/'
     },
     {
         id: 7,
         imageUrl: '/images/homepage/realestate-2.webp',
         title: 'Real Estate',
         description: 'RealForce Banking Module - ACH',
-        url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud',
+        url: 'insights/case-studies/realForce-banking-module-ach',
         theme: "light",
 
     },
@@ -1056,6 +1058,7 @@ const Home = () => {
                         const isLight = success.theme === "light";
                         return (
                             <React.Fragment key={index}>
+                              <Link href={success.url}>
                                 <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
                                     <div
                                         className="absolute  inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
@@ -1078,6 +1081,7 @@ const Home = () => {
                                 {(index + 1) % 4 === 0 && (
                                     <div className="w-full xl:col-span-4 xl:mt-10"></div>
                                 )}
+                                </Link>
                             </React.Fragment>
                         );
                     })}

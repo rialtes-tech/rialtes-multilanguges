@@ -15,7 +15,7 @@ const webinars = [
     speaker: {
       name: "Lokesh Adhikari",
       role: "Associate Software Engineer",
-      image: "/images/webinar/lokesh.webp",
+      image: "/images/webinar/Lokesh.webp",
     },
     backgroundImage: "/images/webinar/Webinar_sli.webp",
     url: 'insights/webinars/let-whatsApp-in-salesforce-with-agentChat'
