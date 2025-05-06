@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 export async function handler(event) {
   if (event.httpMethod === 'OPTIONS') {
     return {
@@ -32,7 +30,7 @@ export async function handler(event) {
     };
   }
 
-  const secret = process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY;
+  const secret = process.env.RECAPTCHA_SECRET_KEY;
   const verifyRes = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${captcha}`,
     { method: 'POST' }
