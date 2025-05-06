@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Seo from '../../app/components/Seo';
 import Head from 'next/head';
-import Link from 'next/link';
 import { useMultipleScrollAnimation } from '../hooks/useScrollAnimation';
 
 import ContactForm from '../components/contactform';

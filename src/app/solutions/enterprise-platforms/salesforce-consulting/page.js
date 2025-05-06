@@ -154,8 +154,7 @@ export default function SalesForceConsulting() {
             <Seo
                 title="Salesforce Consulting Services Company | Rialtes"
                 description="Partner with Rialtes, a top Salesforce consulting services company, delivering AI-powered Salesforce solutions customized to accelerate your business growth."
-                canonical='https://www.rialtes.com/services/salesforce-consulting'
-
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}
             />
 
             <div className='relative group overflow-hidden'>

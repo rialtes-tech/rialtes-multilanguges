@@ -13,6 +13,7 @@ export default function Page() {
                 title="Rise with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
                 description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
                 keywords="home, website, welcome"
+                canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
             />
 
             <section className="relative group overflow-hidden h-[350px] lg:h-[650px]">

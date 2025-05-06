@@ -12,6 +12,7 @@ export default function Page() {
         <div className="min-h-screen bg-white">
             <Seo
                 title="Pharma Industry"
+                canonical="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/"
             />
 
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">

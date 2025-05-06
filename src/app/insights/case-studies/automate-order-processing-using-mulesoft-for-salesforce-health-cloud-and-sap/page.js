@@ -1,8 +1,8 @@
 "use client";
 // pages/case-study-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+import Seo from "@/app/components/Seo";
 
 const slides = [
   {
@@ -63,11 +63,10 @@ export default function Page() {
   const title = "Automate Order Processing Using Mulesoft For Salesforce Health Cloud And SAP";
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+        title="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+        canonical="https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

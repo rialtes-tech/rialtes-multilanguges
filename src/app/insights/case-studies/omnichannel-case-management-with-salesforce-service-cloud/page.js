@@ -1,8 +1,8 @@
 "use client";
 // pages/case-study-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+import Seo from "@/app/components/Seo";
 
 const slides = [
   {
@@ -61,11 +61,10 @@ const slides = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Omnichannel case management with Salesforce Service Cloud | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+title="Omnichannel case management with Salesforce Service Cloud"
+canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+/>
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

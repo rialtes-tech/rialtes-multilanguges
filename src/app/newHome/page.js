@@ -24,8 +24,8 @@ const AutoTimerSlider = () => {
                 <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry2.webp")` }}>
                     <div className="content">
-                        <div className="title">MANUFACTURING</div>
-                        <div className="des pr-5 xl:mt-8 mt-5">Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.</div>
+                        <div className="title font-semibold">MANUFACTURING</div>
+                        <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.</div>
                        <Link href="/industry/manufacturing-cloud-erp">
                         <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                         </Link>
@@ -35,8 +35,8 @@ const AutoTimerSlider = () => {
                 <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry3.webp")` }}>
                     <div className="content">
-                        <div className="title">REAL ESTATE</div>
-                        <div className="des pr-5 xl:mt-8 mt-5">Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.</div>
+                        <div className="title font-semibold">REAL ESTATE</div>
+                        <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.</div>
                         <Link href='/industry/real-estate-property-management'>
                         <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                         </Link>
@@ -46,8 +46,8 @@ const AutoTimerSlider = () => {
                 <div className="item"
                     style={{ backgroundImage: `url("/images/homepage/industry4.webp")` }}>
                     <div className="content">
-                        <div className="title">HI-TECH</div>
-                        <div className="des pr-5xl:mt-8 mt-5">Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.</div>
+                        <div className="title font-semibold">HI-TECH</div>
+                        <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.</div>
                         <Link href="/industry/hitech-semiconductor">
                         <button className='!border-[1px]  know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                         </Link>
@@ -65,10 +65,10 @@ const AutoTimerSlider = () => {
                     </div>
                 </div> */}
                 <div className="item"
-                    style={{ backgroundImage: `url("images/homepage/industry5.webp")` }}>
+                    style={{ backgroundImage: `url("/images/homepage/industry5.webp")` }}>
                     <div className="content">
-                        <div className=" title">Healthcare</div>
-                        <div className="des pr-5 xl:mt-8 mt-5">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
+                        <div className="title font-semibold">Healthcare</div>
+                        <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
                         <Link href="/industry/life-sciences/healthcare-medtech-patient-care">
                         <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                         </Link>

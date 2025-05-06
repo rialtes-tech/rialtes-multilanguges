@@ -6,6 +6,7 @@ import ContactForm from "../../components/contactform";
 import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 
@@ -181,11 +182,10 @@ const manufacturing = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>MANUFACTURING | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+                title="MANUFACTURING"
+                canonical="https://www.rialtes.com/industry/manufacturing-cloud-erp/"
+            />
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[837px] overflow-hidden group">
         <Image

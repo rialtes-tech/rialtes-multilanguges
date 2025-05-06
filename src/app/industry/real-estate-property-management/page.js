@@ -6,6 +6,7 @@ import ContactForm from "../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
+import Seo from "@/app/components/Seo";
 const slides = [
   {
     id: 1,
@@ -189,12 +190,11 @@ export default function Page() {
   
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Grow with SAP | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <Seo
+        title="Real-Estate | Rialtes"
+        keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/industry/real-estate-property-management/"
+      />
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp"
@@ -243,7 +243,7 @@ export default function Page() {
               <div className="flex flex-col w-full">
                 <p className="text-[#000000]">The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
                 </p>
-                <p className="mt-5">At Rialtes, we provide top property management software designed to streamline your daily operations. RealForce offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
+                <p className="mt-5">At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
                 </p>
               </div>
             </div>

@@ -472,12 +472,10 @@
 //   );
 // }
 // pages/about.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-import LearnMore from "../components/learnMore";
 
 
 const latestServices = [
@@ -544,6 +542,7 @@ export default function About() {
                 title="About Us | Rialtes - AI-Powered Business Transformation"
                 description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."
                 keywords="home, website, welcome"
+                canonical={"https://www.rialtes.com/about-us/"}
             />
 
             <section className="relative">

@@ -171,25 +171,25 @@ export default function Agentforce() {
         title="Agentforce Consulting Services | Rialtes"
         description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
         keywords="home, website, welcome"
+        canonical={"https://demo.com/"}
       />
 
             <div className='relative group overflow-hidden'>
                 <Image
                     src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
                     alt="Salesforce Consulting Team"
-                    className="transform transition-transform duration-500 group-hover:scale-110  h-[300px] md:h-[535px] xl:h-full"
+                    className="transform transition-transform duration-500 group-hover:scale-110 h-[265px]  md:h-[535px] xl:h-full"
                     width={0}
                     height={0}
                     sizes="100vw"
                     style={{
                         width: "100%",
-                        objectFit: "cover",
                     }}
                     priority
                 />
-                <div className="grid grid-cols-12 absolute px-6  lg:pr-0  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
-                    <div className="col-span-7"></div>
-                    <div className="col-span-4">
+                <div className="grid xl:grid-cols-12 absolute px-6  lg:pr-0  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
+                    <div className="xl:col-span-7"></div>
+                    <div className="xl:col-span-4">
                     <h4 className="font-bold">Agentforce</h4>
                     <h2 className="mt-3 xl:text-[60px] text-[26px]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
                     <div className="mt-10">
@@ -204,7 +204,7 @@ export default function Agentforce() {
                         />
                     </div>
                     </div>
-                    <div className="col-span-1"></div>
+                    <div className="xl:col-span-1"></div>
                    
                 </div>
             </div>
