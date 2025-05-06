@@ -45,6 +45,7 @@ export default function About() {
             <Seo
                 title="Salesforce WhatsApp Integration via AgentChat | Rialtes Webinar"
                 description="See how to integrate WhatsApp with Salesforce using AgentChat and empower CX teams with secure, real-time engagement across all touchpoints"
+                canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
             />
 
 
@@ -178,8 +179,8 @@ export default function About() {
                         </Link>
 
                     </div>
-                    <p className="mt-10">Webinar Starting In</p> 
-                     <div class="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
+                    <p className="mt-10">Webinar Starting In</p>
+                    <div class="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
                         <div class="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.days).padStart(2, "0")}</strong>
                             <span class="text-xs text-black font-normal">Days</span>

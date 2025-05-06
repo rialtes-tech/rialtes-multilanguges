@@ -128,6 +128,7 @@ export default function Page() {
        <Seo
         title="SuccessFactors Implementation Partners | Rialtes"
         keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
       />
 
 

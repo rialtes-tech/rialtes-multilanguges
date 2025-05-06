@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import Head from "next/head";
 import Image from "next/image";
 import { SlControlPlay } from "react-icons/sl";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Seo from "@/app/components/Seo";
 
 const webinars = [
   {
@@ -206,11 +206,10 @@ export default function About() {
 
   return (
     <div className="min-h-screen">
-      <Head>
-        <title>Webinar | Rialtes</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+        title="Webinar"
+        canonical="https://www.rialtes.com/insights/webinars/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -251,8 +250,8 @@ export default function About() {
           <div>
             <h2 className="xl:text-[28px]  font-medium">Deep Dive with Experts-Led Webinars Curated to Drive Results</h2>
             <p className="text-[#000000] text-[22px]  py-6 max-w-5xl mb-12 font-normal leading-tight">
-           
-             Our webinar series brings together industry leaders, seasoned consultants, and technology specialists for deep-dive conversations that move beyond theory into real-world impact. Whether you're navigating a digital transformation, optimizing your ERP systems, or exploring the frontiers of AI and automation, these sessions are designed to equip you with insights that put you on the right path.            </p>
+
+              Our webinar series brings together industry leaders, seasoned consultants, and technology specialists for deep-dive conversations that move beyond theory into real-world impact. Whether you're navigating a digital transformation, optimizing your ERP systems, or exploring the frontiers of AI and automation, these sessions are designed to equip you with insights that put you on the right path.            </p>
 
             <div className="w-full">
               <div className="flex items-center mb-6 justify-between">
@@ -270,8 +269,8 @@ export default function About() {
                         transition: "transform 0.3s ease",
                       }}
                       className={`${currentIndex === 0
-                          ? "opacity-50 cursor-not-allowed"
-                          : "opacity-100 cursor-pointer"
+                        ? "opacity-50 cursor-not-allowed"
+                        : "opacity-100 cursor-pointer"
                         } ${"rotate-180 hover:fill-current"}`}
                     />
                     <SlControlPlay
@@ -284,8 +283,8 @@ export default function About() {
                         transition: "transform 0.3s ease",
                       }}
                       className={`${currentIndex === webinars.length - 1
-                          ? "opacity-50 cursor-not-allowed"
-                          : "opacity-100 cursor-pointer"
+                        ? "opacity-50 cursor-not-allowed"
+                        : "opacity-100 cursor-pointer"
                         } ${"hover:fill-current"}`}
                     />
                   </div>
@@ -404,8 +403,8 @@ export default function About() {
                     key={index}
                     onClick={() => goToSlide(index)}
                     className={`h-1 rounded-full transition-all duration-300 ${index === currentIndex
-                        ? "w-12 bg-[#134874]"
-                        : "w-12 bg-gray-300"
+                      ? "w-12 bg-[#134874]"
+                      : "w-12 bg-gray-300"
                       }`}
                     aria-label={`Go to webinar ${index + 1}`}
                   />
@@ -423,8 +422,8 @@ export default function About() {
                       transition: "transform 0.3s ease",
                     }}
                     className={`${currentIndex === 0
-                        ? "opacity-50 cursor-not-allowed"
-                        : "opacity-100 cursor-pointer"
+                      ? "opacity-50 cursor-not-allowed"
+                      : "opacity-100 cursor-pointer"
                       } ${"rotate-180 hover:fill-current"}`}
                   />
                   <SlControlPlay
@@ -436,8 +435,8 @@ export default function About() {
                       transition: "transform 0.3s ease",
                     }}
                     className={`${currentIndex === webinars.length - 1
-                        ? "opacity-50 cursor-not-allowed"
-                        : "opacity-100 cursor-pointer"
+                      ? "opacity-50 cursor-not-allowed"
+                      : "opacity-100 cursor-pointer"
                       } ${"hover:fill-current"}`}
                   />
                 </div>

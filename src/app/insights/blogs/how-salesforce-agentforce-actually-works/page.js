@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   /*{
@@ -141,17 +142,10 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>How Salesforce Agentforce Actually Works | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="A Public Housing in US" />
-        <meta property="og:description" content="Summary of the case study" />
-        <meta property="og:url" content={fullUrl} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-
-      </Head>
+      <Seo
+        title="How Salesforce Agentforce Actually Works"
+        canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

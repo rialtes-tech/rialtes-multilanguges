@@ -63,7 +63,7 @@ const services = [
   },
   {
     id: 2,
-    image: "/images/data-cloud/data-cloud-consulting.webp",
+    image: "/images/data-cloud/private-cloud-services.webp",
     title: "Private Cloud Services",
     description:
       "Experience the ideal blend of cloud flexibility with the utmost data compliance, and security of private infrastructure - providing you an isolation from the public cloud enterprise workloads.",
@@ -126,6 +126,7 @@ export default function DataCloud() {
         title="Salesforce Data Cloud Consulting and Implementation Services | Rialtes"
         description="Salesforce Data Cloud consulting services and expert-led implementation to drive innovation and boost your business performance with Rialtes."
         keywords="home, website, welcome"
+        canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />
 
 

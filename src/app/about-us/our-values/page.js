@@ -79,6 +79,7 @@ export default function Page() {
             <Seo
                 title="Our Values | Rialtes"
                 keywords="home, website, welcome"
+                canonical={"https://www.rialtes.com/about-us/our-values/"}
             />
 
             <section className="relative h-[399px] sm:h-[500px] lg:h-[650px] overflow-hidden">

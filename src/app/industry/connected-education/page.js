@@ -56,6 +56,7 @@ export default function Page() {
         <div className="min-h-screen bg-white">
             <Seo
                 title="Education Industry"
+                canonical="https://www.rialtes.com/industry/connected-education/"
             />
 
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
@@ -194,7 +195,7 @@ export default function Page() {
                     </div>
                 </div>
 
-                <div className="xl:col-span-4 col-span-12 bg-[#0A69B7] text-white p-10 h-auto pb-16 w-full xl:hidden block">
+                <div className="xl:col-span-4 col-span-12 bg-[#0A69B7] text-white p-10 pb-16 w-full xl:hidden block">
                     <h3 className="xl:text-[26px] text-[20px] font-bold">Rialtes’ Approach:</h3>
 
                     <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-10">

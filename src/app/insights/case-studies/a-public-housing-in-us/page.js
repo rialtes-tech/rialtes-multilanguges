@@ -1,7 +1,7 @@
 "use client";
-import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+import Seo from "@/app/components/Seo";
 
 
 const slides = [
@@ -62,18 +62,14 @@ const slides = [
 export default function Page() {
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/a-public-housing-in-us";
-  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/src/app/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
 
 
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <meta property="og:title" content="A Public Housing in US" />
-        <meta property="og:description" content="Summary of the case study" />
-        <meta property="og:url" content={fullUrl} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-      </Head>
+      <Seo
+        title="A Public Housing"
+        canonical="https://www.rialtes.com/insights/case-studies/a-public-housing-in-us/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

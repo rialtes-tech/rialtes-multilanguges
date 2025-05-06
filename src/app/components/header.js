@@ -147,7 +147,7 @@ const Header = () => {
           label: 'Business Transformation', href: '/',
           subLinks: [
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
-            { label: 'Rise with SAP', href: '/services/business-transformation/new-rise-with-sap' },
+            { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
              { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
 
           ],
@@ -195,7 +195,7 @@ const Header = () => {
     {
       label: 'About Us', href: '/about-us',
       links: [
-        { label: 'About Us', href: '/about-us' },
+        { label: 'Overview', href: '/about-us' },
         // { label: 'Contact Us', href: '/contact-us' },
         { label: 'Partnership', href: '/about-us/global-alliences' },
         { label: 'Culture and Values', href: '/about-us/our-values' },
@@ -208,7 +208,7 @@ const Header = () => {
     {
       label: 'Insights', href: '/insights',
       links: [
-        { label: 'Insights', href: '/insights' },
+        { label: 'Overview', href: '/insights' },
         { label: 'Blogs', href: '/insights/blogs' },
         { label: 'Case Studies', href: '/insights/case-studies' },
         { label: 'Webinars', href: '/insights/webinars' },
@@ -750,12 +750,12 @@ const Header = () => {
                   Application Services
                 </div> */}
 
-                  {/* <div
+                   <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClickBusiness("intelligentScm")}
                 >
-                  Intelligent SCM
-                </div> */}
+                  LOB Services
+                </div> 
                   <div
                     className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
@@ -918,6 +918,31 @@ const Header = () => {
                         </div> */}
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="SAP Ariba " link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
+                              onHover={() => { }} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                 {openSectionbusiness === "intelligentScm" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">AutoSense</div>
+                        <p className="mt-3">AutoSense reimagines the automotive industry with intelligent, connected, and customer-first solutions that drive growth from the showroom to the supply chain.
+                        </p>
+                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
+                      </button> */}
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
+                          {/* <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div> */}
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
                               onHover={() => { }} />
                           </div>
                         </div>
@@ -1402,7 +1427,7 @@ const Header = () => {
 
                 </Link>
                
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                <button onClick={toggleMenu} className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
                   <Link href='/contact-us'>Let's Begin</Link>
                 </button>
               </ul>

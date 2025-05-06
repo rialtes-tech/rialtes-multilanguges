@@ -1,6 +1,5 @@
 "use client";
 // pages/success-factors.js
-import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';

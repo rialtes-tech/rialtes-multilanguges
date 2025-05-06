@@ -33,6 +33,7 @@ const page = () => (
   <Seo
         title="Salesforce Integration with MuleSoft Consulting | Rialtes"
         keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
       />
     <Banner />
     <ContentSection />

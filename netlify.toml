@@ -1,0 +1,10 @@
+[build]
+  publish = "out"
+  command = "npm run build && npm run export"
+
+[functions]
+  directory = "netlify/functions"
+
+[dev]
+  functions = "netlify/functions"
+  port = 8888

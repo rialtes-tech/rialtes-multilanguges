@@ -44,7 +44,8 @@ export default function About() {
             <Seo
                 title="Salesforce WhatsApp Integration via AgentChat | Rialtes Webinar"
                 description="See how to integrate WhatsApp with Salesforce using AgentChat and empower CX teams with secure, real-time engagement across all touchpoints"
-            />
+           canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
+           />
 
 
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">

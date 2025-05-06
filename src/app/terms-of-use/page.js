@@ -1,9 +1,16 @@
 "use client";
 
+import Seo from "../components/Seo";
+
 export default function Page() {
     return (
         <div className="min-h-screen">
-
+ <Seo
+                title="terms | Rialtes"
+                description="Terms"
+                keywords="Contact, website, welcome"
+                canonical={"https://www.rialtes.com/terms-of-use/"}
+            />
             <section
                 className="
         container
