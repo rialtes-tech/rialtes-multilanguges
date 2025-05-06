@@ -1,10 +1,7 @@
 [build]
+  command = "npm run build"
   publish = "out"
-  command = "npm run build && npm run export"
+  node_version = "18"
 
 [functions]
-  directory = "netlify/functions"
-
-[dev]
-  functions = "netlify/functions"
-  port = 8888
+  node_bundler = "esbuild"
