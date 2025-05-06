@@ -140,7 +140,6 @@ export default function MyComponent() {
 
   return (
     <div className="my-custom-style">
-      Hello from MyComponent!
     </div>
   );
 }

@@ -11,7 +11,7 @@ import Link from "next/link";
 const latestBlogs = [
   {
     id: 16,
-    image: "/images/blog/SAP Business cloud_Carousal.webp",
+    image: "/images/blog/jcarosel.webp",
     category: "SAP",
     industry: "SAP",
     date: "22 April 2025",
@@ -19,7 +19,7 @@ const latestBlogs = [
     title: "Redefining the Future of Enterprise AI with SAP Joule",
     description: "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. ",
   },
-  {
+  { 
     id: 15,
     image: "/images/blog/SAP Business cloud_Carousal.webp",
     category: "General",

@@ -11,7 +11,7 @@ export default function BlogsCarousel() {
   const slides = [
     {
       id: 9,
-      image: "/images/blog/SAP Business cloud_Carousal.webp",
+      image: "/images/blog/jthumb.webp",
       category: "SAP",
       industry: "SAP",
       date: "22 April 2025",

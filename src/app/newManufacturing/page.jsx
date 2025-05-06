@@ -1,4 +1,4 @@
-import DigitalTransformationText, { ManufacturingBanner } from "../components/breadcrumb";
+
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 
@@ -378,7 +378,7 @@ export default function Apps() {
             className="w-full h-[662px] object-cover"
           />
           <div className="bg-[#C6791B] w-[670px] h-[652px] text-white p-5 flex-1 flex flex-col justify-between">
-            <div className="pl-[34px] ">
+            <div className="pl-[34px]">
               <h2 className="text-[60px] font-light leading-tight w-[541px] mt-[31px] mb-8">AI & Robotic Manufacturing</h2>
               <h3 className="text-[36px] font-semibold mt-2 leading-tight w-[530px] mb-8">
                 Creating Smart, <br /> Autonomous Factories
