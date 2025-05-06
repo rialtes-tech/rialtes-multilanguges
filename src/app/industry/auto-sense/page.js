@@ -59,7 +59,7 @@ const keyPillarsSectionData = [
 const KeyPillarsSectionDesign = ({ data }) => {
     return (
         <section className="xl:mt-[95px] mt-[79px]">
-            <div className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-5">
+            <div className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-[35px]">
                 <h2 className="text-[000000] xl:text-[30px] text-[18px] font-bold">
                     Key Pillars of AutoSense
                 </h2>
@@ -79,7 +79,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                                             <h3 className="xl:text-[36px] text-[22px] font-semibold text-[#FFFFFF] xl:pt-[31px] xl:pl-[34px] xl:leading-[44px] leading-[27px]">
                                                 {data.title}
                                             </h3>
-                                            <ul className="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[44px] xl:w-[80%] pr-0">
+                                            <ul className="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[80%] pr-0">
                                                 {data.listItems.map((item, index) => (
                                                     <li key={index} className="xl:mt[24px] mt-[19px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px]">{item}</li>
                                                 ))}
@@ -140,7 +140,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                                             <h3 className="xl:text-[36px] text-[22px] font-semibold text-[#FFFFFF] xl:pt-[31px] xl:pl-[34px] xl:leading-[44px] leading-[27px]">
                                                 {data.title}
                                             </h3>
-                                            <ul className="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[44px] xl:w-[90%] pr-0">
+                                            <ul className="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[90%] pr-0">
                                                 {data.listItems.map((item, index) => (
                                                     <li key={index} className="xl:mt[24px] mt-[19px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px]">{item}</li>
                                                 ))}
@@ -187,14 +187,14 @@ const chooseRialtesData = [
 
 const ChooseRialtes = ({ data }) => {
     return (
-        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[60px] mx-5 xl:mt-[135px] mt-[74px]">
+        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[60px] xl:mt-[135px] mt-[74px] mx-[35px]">
             <h2 className="xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] font-light">
                 Why Choose Rialtes for <span className="block">Automotive Transformation?</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:mt-[61px] mt-[37px]">
                 {data.map((item, ind) => {
                     return (
-                        <div key={ind} className="xl:p-[55px] p-[42px] border-[1px] border-[#707070]">
+                        <div key={ind} className="xl:p-[55px] p-[42px] border-[1px] border-[#707070] hover:border-0 hover:bg-[#D9F2FF] transition-colors duration-300">
                             <img src={item.imageUrl} alt={`image-${ind}`} />
                             <h3 className="xl:mt-[46px] mt-[33px] xl:text-[30px] text-[20px] font-semibold xl:leading-[37px] leading-[24px]">{item.title}</h3>
                             <div>
@@ -206,7 +206,7 @@ const ChooseRialtes = ({ data }) => {
                     );
                 })}
             </div>
-            <div className="xl:mt-[52px] mt-[42px]">
+            <div className="xl:mt-[52px] mt-[32px]">
                 <LearnMore />
             </div>
         </section>
@@ -245,7 +245,7 @@ const rialtesMakesWorkData = [
 
 const RialtesMakesWork = ({ data }) => {
     return (
-        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-5 xl:mt-[110px] mt-[70px]">
+        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-[35px] xl:mt-[110px] mt-[70px]">
             <h2 className="text-[26px] xl:text-[60px]">How Rialtes Makes It Work</h2>
             <h3 className="text-[22px] xl:text-[42px] font-semibold xl:mt-[16px] mt-[17px]">
                 Seamless Integration Across the Ecosystem
@@ -262,7 +262,7 @@ const RialtesMakesWork = ({ data }) => {
                             className="xl:mt-[63px] mt-[33px] xl:text-[36px] text-[20px] font-semibold xl:leading-[44px] leading-[24px]">
                             {data[0].title}
                         </h4>
-                        <ul className="list-disc pl-5 xl:mt-[33px] mt-[29px]">
+                        <ul className="list-disc pl-5 xl:mt-[33px] mt-[29px] w-[90%]">
                             {data[0].list.map((descItem, descIndex) => (
                                 <li key={descIndex}
                                     className="xl:text-[20px] text-[16px] xl:mt-[24px] mt-[19px] xl:leading-[24px] leading-[19px]">
@@ -284,7 +284,7 @@ const RialtesMakesWork = ({ data }) => {
                             className="xl:mt-[63px] mt-[33px] xl:text-[36px] text-[20px] font-semibold xl:leading-[44px] leading-[24px]">
                             {data[1].title}
                         </h4>
-                        <ul className="list-disc pl-5 xl:text-[20px] text-[16px] xl:mt-[33px] mt-[29px]">
+                        <ul className="list-disc pl-5 xl:text-[20px] text-[16px] xl:mt-[33px] mt-[29px]  w-[90%]">
                             {data[1].list.map((descItem, descIndex) => (
                                 <li key={descIndex}
                                     className="xl:text-[20px] text-[16px] xl:mt-[24px] mt-[19px] xl:leading-[24px] leading-[19px]">
@@ -307,7 +307,7 @@ const RialtesMakesWork = ({ data }) => {
                             className="xl:mt-[63px] mt-[33px] xl:text-[36px] text-[20px] font-semibold xl:leading-[44px] leading-[24px]">
                             {data[2].title}
                         </h4>
-                        <ul className="list-disc pl-5 xl:mt-[33px] mt-[29px]">
+                        <ul className="list-disc pl-5 xl:mt-[33px] mt-[29px]  w-[90%]">
                             {data[2].list.map((descItem, descIndex) => (
                                 <li key={descIndex}
                                     className="xl:text-[20px] text-[16px] xl:mt-[24px] mt-[19px] xl:leading-[24px] leading-[19px]">
@@ -356,7 +356,7 @@ const ThoughtLeadershipDesign = ({ data }) => {
 
     return (
         <section
-            className="bg-center bg-no-repeat xl:pt[151px] xl:pb[173px] py-[65px] xl:mt-[70px] mt-[57px] mb-[115px] xl:mb-0"
+            className="bg-center bg-no-repeat xl:pt[151px] xl:pb[173px] py-[65px] xl:mt-[70px] mt-[57px] mb-[115px] xl:mb-0 px-[30px] xl:px-2"
             style={
                 bgImage
                     ? {
@@ -368,7 +368,7 @@ const ThoughtLeadershipDesign = ({ data }) => {
         >
             <div className="xl:mx-[210px] md:mx-[100px] xl:pl-[60px] mx-[25px]">
                 <div>
-                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[20pt] font-normal xl:w-[65%] w-[100%] xl:leading-[73px] leading-[32px]">
+                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[20pt] xl:w-[65%] w-[100%] xl:leading-[73px] leading-[32px]">
                         Thought Leadership Themes for Automotive Clients
                     </h2>
                     <p className="text-[#FFFFFF] xl:text-[24px] text-[16pt] font-semibold xl:mt[29px] mt-[26px] xl:leading-[37px] leading-[24px] xl:w-[55%]">
@@ -381,7 +381,7 @@ const ThoughtLeadershipDesign = ({ data }) => {
                                 <h3 className="text-[20px] xl:text-[30px] font-semibold text-[#FFFFFF] xl:leading-[37px] leading-[24px]">
                                     {item.title}
                                 </h3>
-                                <p className="text-[16px] xl:text-[24px] mt-[15px] xl:mt-[29px] text-[#FFFFFF] xl:leading-[29px] leading-[19px] w-[90%]">
+                                <p className="text-[16px] xl:text-[24px] mt-[15px] xl:mt-[29px] text-[#FFFFFF] xl:leading-[29px] leading-[19px] w-[90%] font-light">
                                     {item.description}
                                 </p>
                                 <div className="mt-[38px] xl:mt-[56px] xl:w-[81px] w-[34px] h-[4px] bg-white"></div>
@@ -424,13 +424,13 @@ export default function page() {
                 </div>
 
                 <div
-                    className="h-full relative mx-[16px] xl:mr-0 xl:ml-[280px] xl:w-[calc(100%-280px)] md:ml-[100px] md:w-[calc(100%-100px)]"
+                    className="h-full relative mx-[35px] xl:mr-0 xl:ml-[280px] xl:w-[calc(100%-280px)] md:ml-[100px] md:w-[calc(100%-100px)]"
                 >
-                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-20 xl:mt-20 mt-[60px]">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-20 xl:mt-[100px] mt-[32px]">
                         <div className="xl:col-span-6 col-span-12 xl:pr-16 pr-[35rem]">
-                            <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2 mt-10">AutoSense</h3>
+                            <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-4 mt-10">AutoSense</h3>
                             <h1 className="text-white xl:text-[60px] text-[24px] leading-tight">
-                                Accelerate Your Automotive Business with Rialtes’ AutoSense
+                                Accelerate Your Automotive Business with Rialtes AutoSense
                             </h1>
                         </div>
                         <div className="xl:col-span-6 col-span-12">
@@ -443,9 +443,9 @@ export default function page() {
             {/* page description section */}
             <section
                 className="
-              mx-[16px] xl:mr-0
+              mx-[35px] xl:mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)] xl:mt-[105px] mt-[55px] xl:mb-[134px] mb-[42px]"
+              md:ml-[100px] md:w-[calc(100%-100px)] xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]"
             >
                 <p className="xl:text-[22px] text-[16px] xl:leading-[30px] leading-[19px] xl:w-[70%] w-[96%]">For over a decade, Rialtes has been a trusted partner for global automotive leaders, helping them navigate rapid industry transformation — from electrification and connected vehicles to customer experience innovation and supply chain resilience. Our specialized service suite, AutoSense, brings together deep automotive expertise, Salesforce Automotive Cloud proficiency, and powerful ERP integrations to drive real business outcomes.</p>
 
@@ -455,15 +455,15 @@ export default function page() {
             <section
                 className="
         container
-        ml-[15px] w-[calc(100%-15px)] mr-0
+        w-[calc(100%-15px)] mx-[35px] xl:mx-auto
         xl:ml-[280px] xl:w-[calc(100%-280px)]
         md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        sm:w-[calc(100%-40px)]
+        xs:w-[calc(100%-32px)]"
             >
 
                 <div>
-                    <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
+                    <div className=" 2xl:pr-72 xl:pr-40 md:pr-20">
                         <div className="flex flex-col xl:flex-row">
                             <div className="flex flex-col w-full xl:max-w-xl xl:mr-10 xl:mb-0 mb-4">
                                 <h2 className="text-[#000000] text-[18px] xl:text-[30px] ">Introducing</h2>
@@ -471,7 +471,7 @@ export default function page() {
                                 <div className="text-[#000000] text-[22px] xl:text-[36px] font-semibold xl:mt-[31px] mt-[12px] xl:leading-[40px] leading-[27px] xl:w-full w-[76%]">End-to-End Automotive Solutions</div>
                             </div>
                             <div className="flex flex-col w-full">
-                                <p className="text-[#000000] text-[16px] xl:text-[21px] xl:mt-[20px] xl:leading-[30px] leading-[19px] xl:w-[90%]" >AutoSense is Rialtes’ comprehensive service suite designed specifically for the evolving needs of the automotive ecosystem — including OEMs, suppliers, dealers, and mobility providers. AutoSense combines advisory, implementation, quality assurance, and post-go-live support, fully integrated with OEM technology partners like SAP and Salesforce. </p>
+                                <p className="text-[#000000] text-[16px] xl:text-[21px] xl:mt-[20px] xl:leading-[30px] leading-[19px] xl:w-[90%] w-[90%]" >AutoSense is Rialtes comprehensive service suite designed specifically for the evolving needs of the automotive ecosystem — including OEMs, suppliers, dealers, and mobility providers. AutoSense combines advisory, implementation, quality assurance, and post-go-live support, fully integrated with OEM technology partners like SAP and Salesforce. </p>
                             </div>
                         </div>
                     </div>
@@ -542,9 +542,9 @@ export default function page() {
               mx-[35px] xl:mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
               md:ml-[100px] md:w-[calc(100%-100px)]
-              text-black xl:py-20 pb-10"
+              text-black xl:pb-20 pb-10 xl:pt-[138px]"
             >
-                <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} className={"max-w-[62rem] xl:font-medium xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
+                <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >
 
         </>
