@@ -757,6 +757,13 @@ export default function Apps() {
         Manufacturing Future?
       </>
     }
+    subtitle={
+      <>
+      <p className="w-[800px]" > 
+      Partner with Rialtes to transform your manufacturing operations with AI, SAP, Salesforce, and next-gen tools. Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!
+      </p>
+      </>
+    }   
   />
 </div>
 
