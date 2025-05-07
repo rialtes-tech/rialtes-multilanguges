@@ -55,17 +55,19 @@ const AutoTimerSlider = () => {
                 </div>
 
 
-                {/* <div className="item"
+                <div className="item"
                     style={{ backgroundImage: `url("images/homepage/industry5.webp")` }}>
                     <div className="content">
                         <div className="title">AUTOMOTIVE</div>
                         <div className="des pr-5 xl:mt-8 mt-5">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
-                        <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                        <Link href="/industry/automotive-industry">
 
+                        <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                      </Link>
                     </div>
-                </div> */}
+                </div>
                 <div className="item"
-                    style={{ backgroundImage: `url("/images/homepage/industry5.webp")` }}>
+                    style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
                     <div className="content">
                         <div className="title font-semibold">Healthcare</div>
                         <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
@@ -80,13 +82,13 @@ const AutoTimerSlider = () => {
 
             <div className="arrows flex bottom-[70px] xl:bottom-[230px]">
                 <div className="flex items-center  gap-0  xl:ml-2">
-                        <button class="prev xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                        <button class="prev xl:h-[55px] xl:w-[55px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="15,6 9,12 15,18" />
                             </svg>
                         </button>
 
-                        <button    class="next xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                        <button    class="next xl:h-[55px] xl:w-[55px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="9,6 15,12 9,18" />
                             </svg>

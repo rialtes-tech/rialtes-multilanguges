@@ -193,6 +193,9 @@ const Header = () => {
         {
           label: 'Education', href: '/industry/connected-education',
         },
+        {
+          label: 'Automotive', href: '/industry/automotive-industry',
+        },
 
       ],
     },
@@ -1051,6 +1054,12 @@ const Header = () => {
                   >
                     Education
                   </div>
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("autoinstry")}
+                  >
+                    Automotive
+                  </div>
 
                 </div>
                 {openSection === "automotive" && (
@@ -1164,6 +1173,20 @@ const Header = () => {
                         <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/hitech-semiconductor' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {openSection === "autoinstry" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Accelerating Automotive Innovation — With Smarter Solutions</div>
+                        <p className="mt-3">We empower the automotive industry with cutting-edge smart solutions. Our innovative IT services drive efficiency, streamline operations, and fuel business growth.</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/automotive-industry' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry")}
                           >Let's Begin</Link>
                         </button>
                       </div>
