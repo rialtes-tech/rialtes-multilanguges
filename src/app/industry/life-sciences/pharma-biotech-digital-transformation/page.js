@@ -79,7 +79,7 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            <section className="relative group overflow-hidden xl:h-[950px] h-[1170px] xl:mt-20 mt-16 text-white">
+            <section className="relative group overflow-hidden xl:h-[950px] h-[1190px] xl:mt-20 mt-16 text-white">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/pharma/pharma TL.webp"
