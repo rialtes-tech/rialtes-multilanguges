@@ -2,8 +2,6 @@
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 
-
-
 export default function Apps() {
   return (
     <>
@@ -25,8 +23,8 @@ export default function Apps() {
         </div>
       </div>
 
-      <div className="flex  hidden md:flex justify-center items-center bg-white px-4 h-[1px] mt-[-90px] mb-[80px]">
-        <div className="w-full max-w-3xl md:ml-10% text-gray-800 text-base md:text-lg leading-relaxed mt-[-150px]">
+      <div className="flex  hidden md:flex justify-center items-center bg-white px-4 h-[1px] mt-[-100px] mb-[80px]">
+        <div className="w-full max-w-3xl md:ml-10% text-gray-800 text-base md:text-lg leading-tight mt-[-193px]">
           <p className="text-black text-[22px] w-[946px] ml-[-285px]">
             Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.
           </p>
@@ -58,7 +56,7 @@ export default function Apps() {
         </div>
       </div>
       {/* Section-1 Mobile */}
-      <div className="flex hidden md:flex justify-center items-center bg-white-100">
+      <div className="flex hidden md:flex justify-center items-center bg-white-100 mt-[-31px]">
   <div
     className="relative w-[1778px] h-[692px] bg-cover shadow-lg ml-[-130px]"
     style={{ backgroundImage: "url('/images/manufacture/Group 588.webp')" }}
@@ -284,7 +282,7 @@ export default function Apps() {
       </div>
 
       {/* Mobile Version - Only on small screens */}
-      <div className="md:hidden ]">
+      <div className="md:hidden">
         <div className="w-full h-[578px] bg-cover bg-center mb-6" style={{ backgroundImage: "url('/images/manufacture/Mobile 594.webp')" }}></div>
         <div className="bg-[#DDF74D] mt-[-23px] h-[533px] p-8">
           <h2 className="text-[26px] font-light text-gray-900 leading-snug  w-[322px]">
@@ -384,7 +382,7 @@ export default function Apps() {
                 Creating Smart, <br /> Autonomous Factories
               </h3>
             </div>
-            <p className="text-[20px] w-[530px] mt-4 leading-tight pl-[34px] font-light w-[470px] mb-[80px]">
+            <p className="text-[20px] w-[530px] mt-4 leading-tight pl-[34px] font-light  mb-[80px]">
               AI and Robotics are reshaping manufacturing, and Rialtes helps clients lead this transformation. From AI-powered predictive maintenance to robotic automation of production lines, we enable factories to be self-learning and adaptive. Digital twins and real-time IoT insights power zero-defect manufacturing and higher productivity, reducing human errors and downtime.
             </p>
           </div>
@@ -539,7 +537,7 @@ export default function Apps() {
       </div>
 
 
-      <div className="max-w-8xl hidden md:block mx-auto px-4 py-16 space-y-24 mt-[-50px]">
+      <div className="max-w-8xl hidden md:block mx-auto px-4 py-16 space-y-24 mt-[-100px]">
         {/* Section 1: Overlay Text on Centered Image */}
         <div className="relative flex justify-center ">
           {/* Image Div */}
@@ -568,19 +566,19 @@ export default function Apps() {
         </div><br/>
 
         {/* Section 2: Image Left, Text Right */}
-        <div className="flex flex-col lg:flex-row items-start gap-8 px-0 max-w-none  mt-[-80px] ml-[250px]" >
+        <div className="flex flex-col lg:flex-row items-start gap-8 px-0 max-w-none  mt-[-120px] ml-[250px]" >
           {/* Image aligned to left of screen */}
           <div className="flex-shrink-0">
             <img
               src="/images/manufacture/Group 600.webp"
               alt="SAP and Salesforce"
-              className="w-[1200px] h-[519px] ml-[-300px]"
+              className="w-[1200px] h-[519px] ml-[-300px] mt-[-30px]"
             />
           </div>
 
           {/* Text Content */}
           <div className="flex-1 px-6 py-4">
-            <h2 className="text-[60px] font-light mb-10 leading-tight ml-[-270px] w-[606px] mt-[-35px]">SAP & Salesforce</h2>
+            <h2 className="text-[60px] font-light mb-10 leading-tight ml-[-270px] w-[606px] mt-[-65px]">SAP & Salesforce</h2>
             <h3 className="text-[36px] font-bold leading-tight mb-12 w-[606px] ml-[-270px]">
               The Power Duo for Intelligent Manufacturing
             </h3>
@@ -709,7 +707,7 @@ export default function Apps() {
         {/* Mobile Image */}
 
         {/* Mobile Text Section */}
-        <div className="text-white bg-[#001118] h-[1250px] mt-6 p-6 bg-cover  shadow-lg font-sans " style={{
+        <div className="text-white bg-[#001118] h-[1250px] mt-6 p-6 bg-cover  shadow-lg  " style={{
           backgroundImage: "url('/images/manufacture/Mobile 599.png')", // Your mobile image
         }}>
           <div className="mt-[340px]">
@@ -746,57 +744,21 @@ export default function Apps() {
               <button className="bg-[#134874] hover:bg-white hover:text-[#134874] border border-[#134874] text-white font-semibold  transition duration-300  w-[109px] h-[42px] text-[13px] ">
             <Link href="/contact-us">Learn More</Link>
           </button>
-             
             </div>
-
           </div>
         </div>
-      </div>
-
-      {/* Mobile View: Contact Section */}
-      <div className="block md:hidden  py-10 bg-white px-[55px] ml-[-30px]">
-        {/* Heading and Description */}
-        <h2 className="text-[26px] font-light mb-4 text-[#000] leading-tight">
-          Contact Rialtes today to explore how Retail + can future proof your retail enterprise
-        </h2><br/>
-
-
-        {/* Form */}
-        <form className="space-y-4">
-          <div className="flex flex-col gap-4">
-            <input type="text" placeholder="First Name*" className="border p-3 w-full rounded border border-black" />
-            <input type="text" placeholder="Last Name*" className="border p-3 w-full rounded border border-black" />
-          </div>
-          <div className="flex flex-col gap-4">
-            <input type="email" placeholder="Email*" className="border p-3 w-full rounded border border-black" />
-            <input type="text" placeholder="Company*" className="border p-3 w-full rounded border border-black" />
-          </div>
-          <div className="flex flex-col gap-4">
-            <input type="text" placeholder="Role*" className="border p-3 w-full rounded border border-black" />
-            <input type="tel" placeholder="Phone" className="border p-3 w-full rounded border border-black" />
-          </div>
-          <textarea
-            placeholder="Message*"
-            className="border p-3 w-full h-28 rounded border border-black"
-          ></textarea>
-          <button className="bg-[#002D5F] text-white font-semibold py-2 px-6 rounded w-full mb-[-100px]">
-            Let’s Begin
-          </button><br/><br/>
-        </form>
-
-       
-      </div>
-
-
-
-<br/>
-<div className="ml-0 md:ml-[246px] px-4 sm:px-6 md:px-0">
-<ContactForm title="Ready to Reimagine Your Manufacturing Future"/>
+      </div><br/>
+      <div className="ml-0 md:ml-[246px] px-4 sm:px-6 md:px-0">
+  <ContactForm
+    title={
+      <>
+        Ready to Reimagine Your <br className="hidden md:block" />
+        Manufacturing Future?
+      </>
+    }
+  />
 </div><br/><br/>
-
     </>
-
-
   );
 }
 
