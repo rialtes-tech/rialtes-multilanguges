@@ -12,11 +12,11 @@ export default function Apps() {
           style={{ backgroundImage: "url('/images/manufacture/Group 586.webp')" }}
         >
           <div className="text-left text-white px-0 ml-[-586px] mt-[-37px] ">
-            <h3 className="text-[24px] font-semibold uppercase w-[194px] ml-[-120px]">Manufacturing</h3>
-            <h1 className="text-[60px] leading-tight font-light mt-2 ml-[-120px]">
+            <h3 className="text-[24px] font-semibold uppercase w-[194px] ml-[-128px]">Manufacturing</h3>
+            <h1 className="text-[60px] leading-tight font-light mt-2 ml-[-128px]">
               Powering the Future <br /> of Manufacturing
             </h1>
-            <p className="text-[40px] font-semibold mt-4 ml-[-120px]">
+            <p className="text-[40px] font-semibold mt-4 ml-[-128px]">
               Smarter, Faster, Connected
             </p>
           </div>
@@ -25,7 +25,7 @@ export default function Apps() {
 
       <div className="flex  hidden md:flex justify-center items-center bg-white px-4 h-[1px] mt-[-100px] mb-[80px]">
         <div className="w-full max-w-3xl md:ml-10% text-gray-800 text-base md:text-lg leading-tight mt-[-193px]">
-          <p className="text-black text-[22px] w-[946px] ml-[-285px]">
+          <p className="text-black text-[22px] w-[946px] ml-[-290px]">
             Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.
           </p>
         </div>
@@ -62,10 +62,10 @@ export default function Apps() {
     style={{ backgroundImage: "url('/images/manufacture/Group 588.webp')" }}
   >
   
-    <div className="absolute left-[275px] top-0 w-[552px] bg-opacity-60 h-[692px] bg-[#016FBE]/50 mix-blend-multiply inset-0 p-6 pl-[30px]"></div>
+    <div className="absolute left-[282px] top-0 w-[552px] bg-opacity-60 h-[692px] bg-[#016FBE]/50 mix-blend-multiply inset-0 p-6 pl-[30px]"></div>
 
     
-    <div className="absolute left-[275px] top-0 w-[552px] h-[692px] inset-0 p-6 pl-[30px] z-10 text-white">
+    <div className="absolute left-[275px] top-0 w-[552px] h-[692px] inset-0 p-6 pl-[78px] z-10 text-white">
       <h2 className="text-[60px] font-light mb-8 leading-tight mt-[38px]">Thought Leadership</h2>
       <h3 className="text-[36px] font-semibold mb-8 w-[449px] leading-tight">
         Leading the Digital Reinvention of Manufacturing
@@ -99,7 +99,7 @@ export default function Apps() {
 
       {/* Mobile-only version -Section-2 */}
 
-      <div className="flex hidden md:flex justify-center items-center bg-white-100 ml-[273px] mt-[-5px]">
+      <div className="flex hidden md:flex justify-center items-center bg-white-100 ml-[279px] mt-[-5px]">
         <div
           className="relative w-[1680px] h-[790px] bg-cover bg-center"
           style={{ backgroundImage: "url('/images/manufacture/Group 589.webp')" }}
@@ -153,19 +153,19 @@ export default function Apps() {
 
 
       <div className="flex hidden md:flex justify-center items-center bg-white-100 mt-[-7px]">
-        <div className="flex w-[1790px] h-[780px] rounded-md shadow-lg overflow-hidden ml-[-150px]">
-          <div className="w-[1526px] h-[792px] bg-cover bg-center" style={{ backgroundImage: "url('/images/manufacture/Group 590.webp')" }}></div>
-          <div className="w-[552px] bg-[#bb7f5d] text-white p-8 pt-[13px] flex flex-col justify-center ml-[-20px]">
-            <h2 className="text-[60px] font-light leading-tight mb-8 mt-[78px] w-[452px]">
+        <div className="flex w-[1790px] h-[820px] rounded-md shadow-lg overflow-hidden ml-[-150px]">
+          <div className="w-[1526px] h-[822px] bg-cover bg-center" style={{ backgroundImage: "url('/images/manufacture/Group 590.webp')" }}></div>
+          <div className="w-[682px] bg-[#bb7f5d] text-white p-8 pt-[13px] flex flex-col justify-center ml-[-20px]">
+            <h2 className="text-[60px] font-light leading-tight mb-8 mt-[78px] w-[452px] pl-[30px]">
               Pre-Built<br />Manufacturing<br />Accelerators
             </h2>
-            <h3 className="text-[36px] font-semi mb-8 w-[425px]">Speed, Scale, Success</h3>
-            <p className="text-[20px] w-[438px] h-[264px] leading-tight font-light  mb-6 mt-[7px]">
+            <h3 className="text-[36px] font-semi mb-8 w-[445px] pl-[30px]">Speed, Scale, Success</h3>
+            <p className="text-[20px] w-[448px] h-[264px] leading-tight font-light  mb-6 mt-[7px] pl-[30px]">
               With industry-specific accelerators, Rialtes enables manufacturers to deploy ready-to-use solutions that cut down months of setup time. From smart factory templates to AI-powered predictive workflows, our tools are designed to accelerate value realization, improve productivity, and drive intelligent operations. Our accelerators also ensure regulatory compliance and quality assurance, reducing risks during implementation.
-            </p><br/>
+            </p><br/><br/><br/>
             <Link href="/contact-us">
-              <button className="bg-[#134874] hover:bg-white hover:text-[#134874] border border-[#134874] text-white font-semibold transition duration-300 text-[20px] mt-[35
-              px] w-[162px] h-[62px]">
+              <button className="bg-[#134874] hover:bg-white hover:text-[#134874] border border-[#134874] text-white font-semibold transition duration-300 text-[20px] mt-[56
+              px] w-[162px] h-[62px] ml-[30px] ">
                 Learn More
               </button>
             </Link>
@@ -227,7 +227,7 @@ export default function Apps() {
       </div>
 
       {/* Desktop Version - Hidden on mobile */}
-      <div className="hidden md:flex max-w-[1600px] mx-auto flex-col md:flex-row items-center justify-between px-4 py-16 mt-[30px] gap-13">
+      <div className="hidden md:flex max-w-[1600px] mx-auto flex-col md:flex-row items-center justify-between px-4 py-16 mt-[30px] gap-13 ml-[156px]">
         <div className="flex-1 w-[300px] ml-[0px]">
           <h2 className="text-[60px] font-light text-gray-900 mb-8 w-[532px] leading-tight ml-[97px]">Discrete Manufacturing</h2>
           <h3 className="text-[36px] font-bold text-gray-800 mb-8 w-[532px] leading-tight ml-[97px]">
@@ -270,9 +270,9 @@ export default function Apps() {
       {/* Desktop Version - Only visible on medium and larger screens */}
       <div className="hidden md:block relative  w-[1638px] h-[668px] ml-[14%] mt-[30px]  bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url("/images/manufacture/Group 592.webp")' }}>
         <div className="absolute top-0 right-[14%] mb-[12px] h-[668px] w-[661px] bg-[#038FC6] text-white p-10 flex flex-col justify-center">
-          <h2 className="text-[60px] mb-8 w-[482px] ml-[30px]  leading-tight ">Process Manufacturing</h2>
-          <h3 className="text-[36px] w-[482px] mb-[12px] font-semibold  ml-[30px] leading-tight">Optimize Compliance and Yield</h3>
-          <p className="text-[20px] leading-tight font-light ml-[30px] w-[422px] mt-8">
+          <h2 className="text-[60px] mb-8 w-[482px] ml-[67px]  leading-tight ">Process Manufacturing</h2>
+          <h3 className="text-[36px] w-[482px] mb-[12px] font-semibold  ml-[67px] leading-tight">Optimize Compliance and Yield</h3>
+          <p className="text-[20px] leading-tight font-light ml-[67px] w-[453px] mt-8">
             We support process manufacturers in managing complex formulations, compliance demands (FDA, ISO, GMP),
             and volatile supply chains. Our solutions optimize batch production, yield management, and real-time
             quality tracking, ensuring consistent outputs and reduced waste. Rialtes also enables traceability and
@@ -303,7 +303,7 @@ export default function Apps() {
 
       {/* Desktop Version - Only on medium and larger screens */}
       <div className="hidden md:flex mx-auto ">
-        <div className="w-[822px] h-[725px] bg-[#DDF74D] p-10 flex flex-col justify-center pl-[190px]">
+        <div className="w-[852px] h-[725px] bg-[#DDF74D] p-10 flex flex-col justify-center pl-[250px]">
           <h2 className="text-[60px] font-light text-gray-900 mb-[9px] leading-tight ml-[20px] ">
             Repetitive <br /> Manufacturing
           </h2>
@@ -322,6 +322,7 @@ export default function Apps() {
            
          
         </div>
+
 
         {/* Right Section */}
         <div className="w-[1088px] h-[720px] bg-cover bg-center" style={{ backgroundImage: "url('/images/manufacture/Group 593.webp')" }}></div>
@@ -367,7 +368,7 @@ export default function Apps() {
       </div>
 
       {/* Desktop Version - Only visible on medium and up */}
-      <div className="hidden md:flex max-w-[1200px] mx-auto gap-6 ml-[280px]">
+      <div className="hidden md:flex max-w-[1200px] mx-auto gap-6 ml-[300px]">
         {/* Left Column */}
         <div className="w-[670px] h-[662px] flex flex-col ml-[-30px]">
           <img
@@ -377,12 +378,12 @@ export default function Apps() {
           />
           <div className="bg-[#C6791B] w-[670px] h-[652px] text-white p-5 flex-1 flex flex-col justify-between">
             <div className="pl-[34px]">
-              <h2 className="text-[60px] font-light leading-tight w-[541px] mt-[31px] mb-8">AI & Robotic Manufacturing</h2>
-              <h3 className="text-[36px] font-semibold mt-2 leading-tight w-[530px] mb-8">
+              <h2 className="text-[60px] font-light leading-tight w-[541px] mt-[31px] mb-8 pl-[32px]" >AI & Robotic Manufacturing</h2>
+              <h3 className="text-[36px] font-semibold mt-2 leading-tight w-[530px] mb-8 pl-[32px]">
                 Creating Smart, <br /> Autonomous Factories
               </h3>
             </div>
-            <p className="text-[20px] w-[530px] mt-4 leading-tight pl-[34px] font-light  mb-[80px]">
+            <p className="text-[20px] w-[525px] mt-4 leading-tight  font-light pl-[73px]  mb-[80px]">
               AI and Robotics are reshaping manufacturing, and Rialtes helps clients lead this transformation. From AI-powered predictive maintenance to robotic automation of production lines, we enable factories to be self-learning and adaptive. Digital twins and real-time IoT insights power zero-defect manufacturing and higher productivity, reducing human errors and downtime.
             </p>
           </div>
@@ -397,12 +398,12 @@ export default function Apps() {
           />
           <div className=" w-[670px] h-[702px] bg-[#0061B0] text-white p-5 flex-1 flex flex-col justify-between">
             <div className="pl-[34px]">
-              <h2 className="text-[60px] font-light leading-tight w-[541px] mb-8 mt-[31px]" >Job Shop Manufacturing</h2>
-              <h3 className="text-[36px] font-semibold mt-2 leading-tight w-[530px] mb-8 ">
+              <h2 className="text-[60px] font-light leading-tight w-[541px] mb-8 mt-[31px] pl-[32px]" >Job Shop Manufacturing</h2>
+              <h3 className="text-[36px] font-semibold mt-2 leading-tight w-[530px] mb-8 pl-[32px] ">
                 Managing Custom <br /> Production with<br/> Precision
               </h3>
             </div>
-            <p className="text-[20px] mt-4  w-[530px] leading-tight pl-[34px] w-[430px] font-light mb-[80px]">
+            <p className="text-[20px] mt-4  w-[530px] leading-tight pl-[73px] w-[430px] font-light mb-[80px]">
               Rialtes brings robust solutions for engineer-to-order (ETO) and make-to-order (MTO) job shop environments. Our tailored platforms manage custom project costing, production planning, and supplier coordination, ensuring on-time, on-budget delivery of high-variety, low-volume orders. Real-time dashboards provide visibility into job status, materials, and profitability.
             </p>
           </div>
@@ -440,15 +441,15 @@ export default function Apps() {
 
       {/* ✅ Desktop Version - completely untouched */}
       <div className="hidden md:block w-full h-[1013px] mx-auto relative overflow-hidden bg-cover bg-center overflow-visible mt-[698px] mb-[100px]" style={{ backgroundImage: "url('/images/manufacture/Group 596.webp')" }}>
-        <div className="absolute bottom-6 z-10 left-1/2 -translate-x-1/2 w-[672px] h-[634px] bg-[#B4E0F9] p-12 shadow-lg mt-[760px] top-[-320px] ml-[200px] mr-[20px] mt-[20px] mb-[0px]">
-          <h2 className="text-[60px] font-light mb-6 w-[542px] leading-tight" >Data Cloud & Tableau</h2>
-          <h3 className="text-[36px] font-bold mt-1 mb-6  leading-tight w-[542px]">
+        <div className="absolute bottom-6 z-10 left-1/2 -translate-x-1/2 w-[672px] h-[634px] bg-[#B4E0F9] p-12 shadow-lg mt-[760px] top-[-320px] ml-[250px] mr-[20px] mt-[20px] mb-[0px]">
+          <h2 className="text-[60px] font-light mb-6 w-[542px] leading-tight ml-[46px]" >Data Cloud & Tableau</h2>
+          <h3 className="text-[36px] font-bold mt-1 mb-6  leading-tight w-[542px] ml-[46px]">
             Actionable Insights with <br /> Visual Analytics
           </h3>
-          <p className="text-[20px] mt-3 leading-tight mb-6 text-gray-800 w-[542px]">
+          <p className="text-[20px] mt-3 leading-tight mb-6 text-gray-800 w-[542px] ml-[46px]">
             With Data Cloud and Tableau, Rialtes helps manufacturers turn complex operational data into meaningful insights. From OEE tracking and downtime analysis to supply chain risks and customer demand forecasting our dashboard provide real time visibility for proactive decision making.AI Models further enhance predictive maintenance and inventory optimization.
           </p>
-          <button className="bg-[#073259] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white  transition duration-300 order-4 mt-4 w-[162px] h-[62px]  mt-[24px] text-[20px]">
+          <button className="bg-[#073259] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white  transition duration-300 order-4 mt-4 ml-[45px] w-[162px] h-[62px]  mt-[24px] text-[20px]">
             <Link href="/contact-us">Learn More</Link>
           </button>
         </div>
@@ -498,11 +499,11 @@ export default function Apps() {
         {/* Section 1 */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="flex-1">
-            <h2 className="text-[60px] leading-tight font-light mb-9 mt-[-45px] w-[622px] ml-[170px]">
+            <h2 className="text-[60px] leading-tight font-light mb-9 mt-[-45px] w-[622px] ml-[254px]">
               ERP Integration with SAP & Oracle via MuleSoft
             </h2>
-            <h3 className="text-[32px] font-bold leading-tight mb-9  w-[622px] ml-[170px]">End-to-End Visibility</h3>
-            <p className="text-gray-700 text-[20px]  leading-tight w-[622px]  ml-[170px]">
+            <h3 className="text-[32px] font-bold leading-tight mb-9  w-[622px] ml-[254px]">End-to-End Visibility</h3>
+            <p className="text-gray-700 text-[20px]  leading-tight w-[622px]  ml-[254px]">
               Rialtes ensures seamless integration between front-end systems and back-end ERPs like SAP and Oracle using MuleSoft. This allows manufacturers to orchestrate production planning, order management, procurement, and finance without silos. Real-time data flows enable accurate decision-making, lower costs, and streamlined supply chains.
             </p>
           </div>
@@ -516,13 +517,13 @@ export default function Apps() {
         </div>
 
         {/* Section 2 */}
-        <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 py-16">
+        <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 py-16 ml-[82px]">
           <div className="flex-1 ">
-            <h2 className="text-[60px] leading-tight ont-light mb-18 w-[622px] h-[219px]  mt-[-55px] ">
+            <h2 className="text-[60px] leading-tight ont-light mb-18 w-[622px] h-[219px] ml-[40px]  mt-[-55px] ">
               Demand Planning with Kinaxis RapidResponse
             </h2>
-            <h3 className="text-[36px] font-bold mb-13 w-[622px] h-[52px] mt-[46px] leading-tight ">Staying Ahead of the Curve</h3>
-            <p className="text-gray-700 text-[20px] leading-tight w-[602px] h-[168px] mt-[41px]">
+            <h3 className="text-[36px] font-bold mb-13 w-[622px] h-[52px] mt-[46px] ml-[40px] leading-tight ">Staying Ahead of the Curve</h3>
+            <p className="text-gray-700 text-[20px] leading-tight w-[602px] h-[168px] ml-[40px] mt-[41px]">
               Rialtes leverages Kinaxis RapidResponse to empower manufacturers with dynamic demand forecasting and scenario planning. Our solutions help manage volatile markets, supplier risks, and customer demands, enabling manufacturers to respond in real-time to disruptions. AI-driven demand sensing ensures optimal inventory and supply chain agility.
             </p>
           </div>
@@ -537,11 +538,11 @@ export default function Apps() {
       </div>
 
 
-      <div className="max-w-8xl hidden md:block mx-auto px-4 py-16 space-y-24 mt-[-100px]">
+      <div className="max-w-7xl hidden md:block mx-auto px-4 py-16 space-y-24 mt-[-100px]">
         {/* Section 1: Overlay Text on Centered Image */}
         <div className="relative flex justify-center ">
           {/* Image Div */}
-          <div className="w-[1803x] h-[797px] ml-[50px]">
+          <div className="w-[1603x] h-[797px] ml-[50px]">
             <img
               src="/images/manufacture/Group 599.webp"
               alt="AI in Manufacturing"
@@ -550,23 +551,23 @@ export default function Apps() {
           </div>
 
           {/* Text Overlay */}
-          <div className="absolute top-1/2 -translate-y-1/2 bg-[#33A316] text-white p-8 w-[595px] h-[699px] shadow-lg ml-[-963px]">
-            <h2 className="text-[60px] leading-tight font-light mb-5 w-[494px] mt-[19px]">AI in Manufacturing</h2>
-            <h3 className="text-[36px] font-bold leading-tight mb-7 w-[494px]">Shaping a Smarter <br/>Future</h3>
-            <p className="text-[20px] leading-tight mb-4 w-[494px]">
+          <div className="absolute top-1/2 -translate-y-1/2 bg-[#33A316] text-white p-8 w-[595px] h-[699px] shadow-lg ml-[-790px]">
+            <h2 className="text-[60px] leading-tight font-light mb-5 w-[494px] mt-[19px] ml-[30px]">AI in Manufacturing</h2>
+            <h3 className="text-[36px] font-bold leading-tight mb-7 w-[494px] ml-[30px]">Shaping a Smarter <br/>Future</h3>
+            <p className="text-[20px] leading-tight mb-4 w-[494px] ml-[30px]">
               AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered
               solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting.AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently,
               enhancing both profitability and customer satisfaction.
             </p>
 
-            <button className="bg-[#073259] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white transition duration-300 order-4 mt-4 w-[162px] h-[60px] mt-[33px] text-[20px]  ">
+            <button className="bg-[#073259] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white transition duration-300 order-4 mt-4 w-[162px] h-[60px] mt-[33px] text-[20px] ml-[27px]  ">
               <Link href="/contact-us">Learn More</Link>
             </button>
           </div>
         </div><br/>
 
         {/* Section 2: Image Left, Text Right */}
-        <div className="flex flex-col lg:flex-row items-start gap-8 px-0 max-w-none  mt-[-120px] ml-[250px]" >
+        <div className="flex flex-col lg:flex-row items-start gap-8 px-0 max-w-none  mt-[-120px] ml-[-30px]" >
           {/* Image aligned to left of screen */}
           <div className="flex-shrink-0">
             <img
@@ -655,7 +656,7 @@ export default function Apps() {
     }}
   >
     {/* Overlay content: split into two vertical columns */}
-    <div className="text-white w-[650px] flex justify-between px-8 py-10 rounded shadow-lg ml-[180px] mb-[80px] pt-20 pb-20 relative overflow-visible">
+    <div className="text-white w-[650px] flex justify-between px-8 py-10 rounded shadow-lg ml-[190px] mb-[80px] pt-20 pb-20 relative overflow-visible">
       
       {/* Left Column */}
       <div className="space-y-6 max-w-[50%] relative">
@@ -741,26 +742,24 @@ export default function Apps() {
                 Cloud-enabled systems increase effectiveness by <br />
                 <span className="text-blue-400 text-[40px] font-bold leading-tight">15%</span>
               </p><br/>
-              <button className="bg-[#134874] hover:bg-white hover:text-[#134874] border border-[#134874] text-white font-semibold  transition duration-300  w-[109px] h-[42px] text-[13px] ">
+              <button className="bg-[#134874] hover:bg-white hover:text-[#134874] border border-[#134874] text-white font-semibold  transition duration-300  w-[109px] h-[42px] text-[13px] ml-[10px] ">
             <Link href="/contact-us">Learn More</Link>
           </button>
             </div>
           </div>
         </div>
       </div><br/>
-      <div className="ml-0 md:ml-[246px] px-4 sm:px-6 md:px-0">
-  <ContactForm
-    title={
-      <>
-        Ready to Reimagine Your <br className="hidden md:block" />
-        Manufacturing Future?
-      </>
-    }
+      <div className="ml-0 md:ml-[260px] px-4 sm:px-6 md:px-0">
+  <ContactForm 
+    title="Ready to Reimagine Your Manufacturing Future"
+    description="Tell us more about your goals and let's make innovation happen together."
   />
-</div><br/><br/>
+</div>
+
+     <br/><br/>
+
+     
     </>
   );
 }
 
-
-    
