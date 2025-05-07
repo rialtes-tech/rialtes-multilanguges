@@ -153,11 +153,9 @@ const Home = () => {
     };
 
     const slides = [
-        { headline: 'Headline', link: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems", subHeadline: 'Sub Headline', image: '/images/homepage/databricks.png', imageMobile: '/images/homepage/mobile5.jpg' },
-        // { headline: 'Headline', link: "", subHeadline: 'Sub Headline', image: '/images/homepage/ban1.jpg', imageMobile: '/images/homepage/mobile1.jpg' },
-        // { headline: 'Headline', link: "/products/agentchat", subHeadline: 'Sub Headline', image: '/images/homepage/banner2.jpg', imageMobile: '/images/homepage/mobile2.jpg' },
-        { headline: 'Headline', link: "/products/agentchat", subHeadline: 'Sub Headline', image: '/images/homepage/banner3.jpg', imageMobile: '/images/homepage/mobile3.jpg' },
-        { headline: 'Headline', link: "/industry/manufacturing-cloud-erp", subHeadline: 'Sub Headline', image: '/images/homepage/banner4.jpg', imageMobile: '/images/homepage/mobile4.jpg' },
+        {  link: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems", image: '/images/homepage/databricks.webp', imageMobile: '/images/homepage/databmobile.webp' },
+        {  link: "/products/agentchat", image: '/images/homepage/agentchat.webp', imageMobile: '/images/homepage/agentcmob.webp' },
+        {  link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     useEffect(() => {
@@ -235,24 +233,26 @@ const Home = () => {
                     </React.Fragment>
                 ))}
 
-                <div className="absolute bottom-0 right-[-4rem] xl:right-[-7rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
-                    <div className='text-white xl:text-[35px] font-light'>
+                <div className="absolute bottom-0 right-[-4rem] xl:right-[-6rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
+                    <div className='text-white xl:text-[25px] font-light'>
                         {currentSlide + 1}/{slides.length}
                     </div>
-                    <div>
-                    <button
-  onClick={prevSlide}
-  className="bg-white text-black p-2 border border-black hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
->
-  ◀
-</button>
-<button
-  onClick={nextSlide}
-  className="bg-white text-black p-2 border border-black hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
->
-  ▶
-</button>
+                   
+                  
+                    <div class="flex">
+                        <button   onClick={prevSlide} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                            <svg viewBox="0 0 24 24" fill="black" width="45">
+                                <polygon points="15,6 9,12 15,18" />
+                            </svg>
+                        </button>
+
+                        <button   onClick={nextSlide} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                            <svg viewBox="0 0 24 24" fill="black" width="45">
+                                <polygon points="9,6 15,12 9,18" />
+                            </svg>
+                        </button>
                     </div>
+
 
                 </div>
             </div>
@@ -360,7 +360,7 @@ const Home = () => {
 
 
             </section>
-            <div className="relative h-auto flex justify-center xl:mx-[280px] md:ml-[100px] mx-[32px] mt-32">
+            <div className="relative h-auto flex justify-center xl:mx-[280px] md:ml-[100px] mx-[32px] mt-40">
                 <div className="flex flex-col xl:flex-row justify-between">
 
                     <div className="xl:w-1/2 flex flex-col order-1 xl:order-2">
@@ -371,7 +371,7 @@ const Home = () => {
                                 }`}
                         >
                             <h2 className="leading-tight">Insights</h2>
-                            <p className="mt-5 leading-tight pr-10 xl:pr-0">
+                            <p className="mt-10 leading-tight pr-10 xl:pr-0">
                                 Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.
                             </p>
                         </div>
@@ -379,10 +379,10 @@ const Home = () => {
                             <img
                                 src={carouselData[activeIndexInsights].image}
                                 alt={carouselData[activeIndexInsights].title}
-                                className="w-full xl:h-[909px] h-[435px] object-cover"
+                                className="w-full xl:h-[850px] h-[435px] object-cover"
                             />
                         </div>
-                        <div className="text-white space-y-6 bg-[#184671] p-10   xl:pl-20  pb-0 pr-0 xl:mt-[10rem] xl:h-[610px] h-[400px]">
+                        <div className="text-white space-y-6 bg-[#184671] p-10   xl:pl-20  pb-0 pr-0 xl:mt-[80px] xl:h-[610px] h-[400px]">
                             <h1 className="xl:text-[26px] text-[16px] mb-10 mt-16">
                                 {carouselData[activeIndexInsights].title}
                             </h1>
@@ -396,23 +396,26 @@ const Home = () => {
                                 </p>
                             </Link>
 
-                            <div className="flex  bottom-0 absolute right-0">
-                                <div className="mr-10 text-white xl:text-[35px] text-[16px] min-w-[40px] text-right">
+                            <div className="flex  bottom-0 absolute right-0 items-center">
+                                <div className="mr-10 text-white xl:text-[25px] text-[16px] min-w-[40px] text-right">
                                     {activeIndexInsights + 1} / {carouselData.length}
                                 </div>
-                                <button
-                                    onClick={handlePrevInsights}
-                                    className="bg-white text-black p-2 border hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
-                                >
-                                    ◀ {/* Prev */}
-                                </button>
 
-                                <button
-                                    onClick={handleNextInsights}
-                                    className="bg-white text-black p-2 border hover:bg-gray-200 xl:h-[69px] xl:w-[69px]"
-                                >
-                                    ▶ {/* Next */}
-                                </button>
+
+                                <div class="flex">
+                        <button   onClick={handlePrevInsights} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                            <svg viewBox="0 0 24 24" fill="black" width="45">
+                                <polygon points="15,6 9,12 15,18" />
+                            </svg>
+                        </button>
+
+                        <button   onClick={handleNextInsights} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                            <svg viewBox="0 0 24 24" fill="black" width="45">
+                                <polygon points="9,6 15,12 9,18" />
+                            </svg>
+                        </button>
+                    </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -420,7 +423,7 @@ const Home = () => {
                         <img
                             src={carouselData[activeIndexInsights].image}
                             alt={carouselData[activeIndexInsights].title}
-                            className="w-full xl:h-[909px] h-[435px] object-cover"
+                            className="w-full xl:h-[850px] h-[435px] object-cover"
                         />
                     </div>
                 </div>
