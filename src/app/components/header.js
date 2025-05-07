@@ -148,11 +148,15 @@ const Header = () => {
           subLinks: [
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
-             { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
+            { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
 
           ],
         },
-
+        {
+          label: 'LOB Services', href: '/',
+          subLinks: [
+            { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },],
+        },
         {
           label: 'Spend Management', href: '/',
           subLinks: [
@@ -750,12 +754,12 @@ const Header = () => {
                   Application Services
                 </div> */}
 
-                   <div
-                  className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                  onClick={() => handleSubMenuClickBusiness("intelligentScm")}
-                >
-                  LOB Services
-                </div> 
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClickBusiness("intelligentScm")}
+                  >
+                    LOB Services
+                  </div>
                   <div
                     className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
@@ -925,7 +929,7 @@ const Header = () => {
                     </div>
                   </div>
                 )}
-                 {openSectionbusiness === "intelligentScm" && (
+                {openSectionbusiness === "intelligentScm" && (
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
@@ -1047,7 +1051,7 @@ const Header = () => {
                   >
                     Education
                   </div>
-                 
+
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1091,10 +1095,10 @@ const Header = () => {
                         {/* <div className="mt-6">
                         <MenuItem className="font-bold text-[#2f78c4]" label="Pharma and Bio" link="/" onClick={handleLinkClick} onHover={() => { }} />
                       </div> */}
-                      <div>
-                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
-                              onHover={() => { }} />
-                          </div>
+                        <div>
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
+                            onHover={() => { }} />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1180,7 +1184,7 @@ const Header = () => {
                     </div>
                   </div>
                 )}
-                 {openSection === "education" && (
+                {openSection === "education" && (
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
@@ -1194,7 +1198,7 @@ const Header = () => {
                     </div>
                   </div>
                 )}
-                
+
               </div>
             </div>
           )}
@@ -1246,13 +1250,13 @@ const Header = () => {
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Culture and Values" link="/about-us/our-values"  onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Partnership" link="/about-us/global-alliences" onClick={(e) => handleLinkClick(e, "/about-us/global-alliences")}
                             onHover={() => { }} />
-                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and Press Releases" link="/insights/news"  onClick={(e) => handleLinkClick(e, "/insights/news")} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} onHover={() => { }} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label=" Corporate Citizenship" link="/about-us/impact-and-social-responsibility"  onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4]" label=" Corporate Citizenship" link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Contact Us" link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")}
                             onHover={() => { }} />
                         </div>
@@ -1297,10 +1301,10 @@ const Header = () => {
                             onHover={() => { }} /> */}
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} /> */}
                           <div>
-                          <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinar" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
-                            onHover={() => { }} />
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
-                        </div>
+                            <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinar" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
+                              onHover={() => { }} />
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
+                          </div>
                         </div>
                         <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Case Studies" link="/insights/case-studies" onClick={(e) => handleLinkClick(e, "/insights/case-studies")}
@@ -1422,11 +1426,11 @@ const Header = () => {
                   />
                 ))}
                 <Link onClick={toggleMenu} href='/contact-us'>
-              
-    <h4  className="text-sm mt-3">Contact Us</h4>
+
+                  <h4 className="text-sm mt-3">Contact Us</h4>
 
                 </Link>
-               
+
                 <button onClick={toggleMenu} className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
                   <Link href='/contact-us'>Let's Begin</Link>
                 </button>
