@@ -1,17 +1,13 @@
 "use client";
-import Head from "next/head";
+import Seo from "@/app/components/Seo";
 import Image from "next/image";
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
-            <Head>
-                <title>How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration | Company Name</title>
-                <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
-
-
+            <Seo
+                title="News Becomes"
+                canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
+            />
             <section
                 className="
         container
@@ -34,7 +30,7 @@ export default function Page() {
 
                     </div>
                     <div className="xl:hidden block">
-                    <Image
+                        <Image
                             src="/images/homepage/banner.webp"
                             alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
                             className="!w-full"
@@ -125,9 +121,6 @@ export default function Page() {
 
                             <p className="text-black  xl:text-[22px] text-[18px] mt-8">With these capabilities, Rialtes is not only driving data unification but also shaping the future of enterprise intelligence—making AI accessible, practical, and powerful for businesses worldwide.</p>
                             <p className="text-black  xl:text-[22px] text-[18px] mt-8">For more information on Rialtes' AI and data services, visit <a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> or contact <span className="text-blue-600">pr@rialtes.com </span> </p>
-
-
-
                         </div>
                     </div>
                 </div>

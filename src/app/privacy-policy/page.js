@@ -1,19 +1,14 @@
 "use client";
 // pages/case-study-detail.js
-import Head from "next/head";
-import Image from "next/image";
 import Seo from "../components/Seo";
-
-
-
-
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
-           <Seo
+            <Seo
                 title="Privacy Policy | Rialtes"
                 description="Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services."
                 keywords="Contact, website, welcome"
+                canonical={"https://www.rialtes.com/privacy-policy/"}
             />
 
 

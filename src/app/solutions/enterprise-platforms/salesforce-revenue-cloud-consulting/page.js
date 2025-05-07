@@ -85,6 +85,7 @@ export default function HealthCloud() {
         title="Salesforce Revenue Cloud Implementation Partners | Rialtes"
         description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
         keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
       />
 
             <div className="relative h-[350px] sm:h-[500px] lg:h-[837px] overflow-hidden">

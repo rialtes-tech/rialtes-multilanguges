@@ -1,9 +1,9 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import Head from "next/head";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ContactForm from "../components/contactform";
+import Seo from "../components/Seo";
 
 export default function Industry() {
 
@@ -99,11 +99,12 @@ export default function Industry() {
   };
   return (
     <div className="min-h-screen">
-      <Head>
-        <title>Industry | Rialtes</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    
+      <Seo
+        title="Industry | Rialtes"
+        keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/industry/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

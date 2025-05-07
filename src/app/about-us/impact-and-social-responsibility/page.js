@@ -12,6 +12,7 @@ export default function Page() {
         title="Driving Meaningful Change Through Social Impact | Rialtes"
         description="We believe in making a real difference! See how Rialtes supports communities, empowers people, and drives sustainable change for a better future"
         keywords="home, website, welcome"
+        canonical={"https://www.rialtes.com/about-us/impact-and-social-responsibility/"}
       />
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">

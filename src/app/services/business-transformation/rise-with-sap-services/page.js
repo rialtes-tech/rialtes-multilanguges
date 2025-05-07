@@ -13,6 +13,7 @@ export default function Page() {
                 title="Rise with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
                 description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
                 keywords="home, website, welcome"
+                canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
             />
 
             <section className="relative group overflow-hidden h-[350px] lg:h-[650px]">
@@ -90,7 +91,7 @@ export default function Page() {
                     className="mt-32
              xl:mr-[142px]
               xl:ml-[280px] px-5"
-            
+
                 >
 
                     <div className="grid-cols-1 xl:gap-20 gap-5 flex flex-col-reverse xl:grid xl:grid-cols-12">
@@ -425,17 +426,17 @@ export default function Page() {
                  xs:mx-4 xs:w-[calc(100%-32px)]"
                 >
                     <div className="relative h-[665px] mt-20">
-                    <Image
-            src="/images/services/rise-with-sap/Agentchat banner.webp"
-            alt="AgentChat Banner"
-            fill
-            style={{ objectFit: "cover", objectPosition: "center" }} // optional: center it on mobile
-            priority
-            className="w-full h-full"
-        />
-                        <div className="grid xl:grid-cols-12 grid-cols-1 absolute left-10">
-                            <div className="xl:col-span-5 col-span-12 w-[720px] h-[360px]">
-                                <h2 className="text-[25px] xl:text-[50px] bg-white text-black  p-12">Conversational AI with AgentChat — WhatsApp Business, Made for SAP and Salesforce</h2>
+                        <Image
+                            src="/images/services/rise-with-sap/Agentchat banner.webp"
+                            alt="AgentChat Banner"
+                            fill
+                            style={{ objectFit: "cover", objectPosition: "68%" }}
+                            priority
+                            className="w-full h-full"
+                        />
+                        <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:left-10">
+                            <div className="xl:col-span-5 col-span-12 xl:w-[720px] xl:h-[360px]">
+                                <h2 className="text-[25px] xl:text-[50px] bg-white text-black  xl:p-12 p-5">Conversational AI with AgentChat — WhatsApp Business, Made for SAP and Salesforce</h2>
                             </div>
                             <div className="xl:col-span-7 col-span-12">
                             </div>
@@ -516,7 +517,8 @@ export default function Page() {
   xs:mx-4 xs:w-[calc(100%-32px)]
   text-black py-20"
             >
-                <ContactForm title={'Partner with Rialtes to Transform Your SAP Landscape!'} className={"max-w-[60rem] font-normal xl:text-[60px] text-[26px] leading-tight"} />
+                <ContactForm title={'Partner with Rialtes to Transform Your SAP Landscape!'}
+                    className={"max-w-[60rem] font-normal xl:text-[60px] text-[26px] leading-tight"} />
             </div >
         </div >
     );

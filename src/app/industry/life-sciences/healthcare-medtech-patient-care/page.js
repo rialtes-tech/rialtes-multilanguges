@@ -8,6 +8,7 @@ import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
+import Seo from "@/app/components/Seo";
 
 
 const slidesCaseStudy = [
@@ -198,12 +199,11 @@ export default function Page() {
   
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Grow with SAP | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+       <Seo
+        title="Health Care | Rialtes"
+        keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
+      />
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"

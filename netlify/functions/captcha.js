@@ -1,42 +1,53 @@
-const fetch = require("node-fetch");
-
-exports.handler = async (event) => {
-  try {
-    const body = JSON.parse(event.body);
-    const captcha = body.captcha;
-
-    if (!captcha) {
-      return {
-        statusCode: 400,
-        body: JSON.stringify({ message: "Captcha response is required." }),
-      };
-    }
-
-    const secretKey = process.env.RECAPTCHA_SECRET_KEY;
-
-    const response = await fetch(
-      `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${captcha}`,
-      { method: "POST" }
-    );
-
-    const data = await response.json();
-
-    if (data.success) {
-      return {
-        statusCode: 200,
-        body: JSON.stringify({ message: "Captcha verified successfully." }),
-      };
-    } else {
-      return {
-        statusCode: 400,
-        body: JSON.stringify({ message: "Captcha verification failed." }),
-      };
-    }
-  } catch (error) {
-    console.error("Error verifying captcha:", error);
+export async function handler(event) {
+  if (event.httpMethod === 'OPTIONS') {
     return {
-      statusCode: 500,
-      body: JSON.stringify({ message: "Internal Server Error" }),
+      statusCode: 204,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'POST,OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
+      },
     };
   }
-};
+
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: 'Method Not Allowed' };
+  }
+
+  let body;
+  try {
+    body = JSON.parse(event.body);
+  } catch {
+    return { statusCode: 400, body: 'Invalid JSON' };
+  }
+
+  const { captcha } = body;
+  if (!captcha) {
+    return {
+      statusCode: 400,
+      headers: { 'Access-Control-Allow-Origin': '*' },
+      body: JSON.stringify({ message: 'Captcha response is required.' }),
+    };
+  }
+
+  const secret = process.env.RECAPTCHA_SECRET_KEY;
+  const verifyRes = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${captcha}`,
+    { method: 'POST' }
+  );
+
+  const data = await verifyRes.json();
+
+  return {
+    statusCode: data.success ? 200 : 400,
+    headers: {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+    },
+    body: JSON.stringify({
+      message: data.success
+        ? 'Captcha verified successfully.'
+        : 'Captcha verification failed.',
+    }),
+  };
+}

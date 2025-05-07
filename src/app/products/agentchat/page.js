@@ -14,9 +14,10 @@ export default function Page() {
             <Seo
                 title="AgentChat"
                 keywords="Contact, website, welcome"
+                canonical="https://www.rialtes.com/products/agentchat/"
             />
-            <div className="relative bg-[#E8E8E8] xl:h-[1080px] h-[760px] xl:mt-[6rem]">
-                <div className=" h-[700px] absolute
+            <div className="relative bg-[#E8E8E8] xl:h-[1080px] h-[800px] xl:mt-[6rem]">
+                <div className=" h-[800px] absolute
                         ml-[15px] w-[calc(100%-15px)]
                         xl:ml-[280px] xl:w-[calc(100%-280px)]
                         md:ml-[100px] md:w-[calc(100%-100px)]

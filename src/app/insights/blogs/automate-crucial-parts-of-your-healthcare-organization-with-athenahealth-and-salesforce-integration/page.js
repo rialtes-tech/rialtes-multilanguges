@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   {
@@ -139,11 +140,10 @@ const blogs = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+        title="Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
+        canonical="https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

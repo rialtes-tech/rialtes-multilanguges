@@ -6,6 +6,7 @@ import { useState } from 'react';
 import BlogsCarousel from '../../components/latestBlogCarousel';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import Seo from "@/app/components/Seo";
 
 const latestCaseStudy = [
   {
@@ -377,11 +378,10 @@ const FeaturedCarousel = () => {
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Case Study | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+                title="Case Study"
+                canonical="https://www.rialtes.com/insights/case-studies/"
+            />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

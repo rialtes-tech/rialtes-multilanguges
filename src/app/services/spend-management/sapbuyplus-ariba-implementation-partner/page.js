@@ -74,6 +74,7 @@ export default function Page() {
              <Seo
         title="SAP Ariba Implementation Partners | Rialtes"
         keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/"
       />
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">

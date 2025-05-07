@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
-export default function ContactForm({ title, className, padding }) {
+export default function ContactForm({ title, subtitle, className, padding }) {
 
     const [isRobotChecked, setIsRobotChecked] = useState(false);
     const [captchaValue, setCaptchaValue] = useState(false);
@@ -40,37 +40,67 @@ export default function ContactForm({ title, className, padding }) {
 
 
 
-    const handleSubmit = async (event) => {
-        event.preventDefault();
+
+    //     event.preventDefault();
+
+    //     try {
+    //         const response = await fetch('/api/captcha', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json',
+    //             },
+    //             body: JSON.stringify({
+    //                 captcha: captchaValue,
+    //             }),
+    //         });
+
+    //         if (response.ok) {
+    //             window.location.href = '/thank-you';
+    //         } else {
+    //             const data = await response.json();
+    //             alert(data.message);
+    //         }
+    //     } catch (error) {
+    //         console.log('Error during captcha verification:', error);
+    //         alert('Something went wrong');
+    //     }
+    // };
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
         try {
-            const response = await fetch('/api/captcha', {
+            const response = await fetch('/.netlify/functions/captcha', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    captcha: captchaValue,
-                }),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ captcha: captchaValue }),
             });
+
+            const data = await response.json();
 
             if (response.ok) {
                 window.location.href = '/thank-you';
             } else {
-                const data = await response.json();
                 alert(data.message);
             }
         } catch (error) {
-            console.log('Error during captcha verification:', error);
-            alert('Something went wrong');
+            console.error('Captcha verification failed:', error);
+            alert('Error occurred');
         }
     };
 
-    // onSubmit={handleSubmit}
-
+    //   onSubmit={handleSubmit}
     return (
         <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
-            <h2 className={className}>{title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'} </h2>
+
+            <h2 className={className}>
+                {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
+            </h2>
+
+            {subtitle && (
+                <p className="mt-4 xl:text-[28px] text-[16px]">
+                    {subtitle}
+                </p>
+            )}
             <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
                 <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
@@ -123,10 +153,10 @@ export default function ContactForm({ title, className, padding }) {
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                      <div
+                    <div
                         className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
-                    >  
-                      <div className="flex gap-3 items-center">
+                    >
+                        <div className="flex gap-3 items-center">
                             <div className="relative">
                                 <input
                                     type="checkbox"
@@ -163,8 +193,8 @@ export default function ContactForm({ title, className, padding }) {
                                 }}
                                 priority
                             />
-                        </div> 
-                     </div>   
+                        </div>
+                    </div>
                     {/* <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}

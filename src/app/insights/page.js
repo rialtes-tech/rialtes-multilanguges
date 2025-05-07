@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
+import Seo from "../components/Seo";
 
 export default function InsightsPage() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
@@ -38,13 +39,11 @@ export default function InsightsPage() {
 
   return (
     <div className="min-h-scree">
-      <Head>
-        <title>Insights | Blogs, Case Studies and Events</title>
-        <meta
-          name="description"
-          content="Explore our latest insights, blogs, case studies and upcoming events"
-        />
-      </Head>
+      <Seo
+                title="Insights | Blogs, Case Studies and Events"
+                description="Explore our latest insights, blogs, case studies and upcoming events"
+                canonical="https://www.rialtes.com/insights/"
+            />
 
       {/* Hero Section with Deep Blue Gradient Background */}
       <section className="relative h-[350px] md:h-[450px] xl:h-[650px] bg-[url('/images/insights/insight-header-banner.webp')] bg-cover bg-center overflow-hidden">

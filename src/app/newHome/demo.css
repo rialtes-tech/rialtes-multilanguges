@@ -68,7 +68,7 @@
   transition-delay: 0.3s;
   left: calc(var(--left-position) + 1120px);
 }
-
+  
 .carousel .list .item:nth-child(n + 7) {
   transition-delay: 0.4s;
   left: calc(var(--left-position) + 800px);

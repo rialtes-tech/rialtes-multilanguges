@@ -16,6 +16,7 @@ export default function Page() {
         title="Grow with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
         description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
         keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
       />
 
       <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
@@ -51,7 +52,7 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12">
               <h3 className="text-white xl:text-[24px]  font-bold mb-2">VoyagerNext</h3>
               <h1 className="text-white xl:text-[60px] leading-tight xl:w-full text-[24px] w-[76%]">
-                Grow Faster, Smarter with Rialtes' SAPNext
+                Grow Faster, Smarter with Rialtes' VoyagerNext
               </h1>
               <h3 className="mt-8 xl:text-[35px] text-[18px] text-white xl:font-bold font-medium w-[76%] xl:w-full">Your Partner for SAP S/4HANA Cloud Transformation</h3>
               <div className="md:w-32 w-20 pt-6 mt-5">

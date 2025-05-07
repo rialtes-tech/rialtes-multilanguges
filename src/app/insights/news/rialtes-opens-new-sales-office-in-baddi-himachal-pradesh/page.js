@@ -1,17 +1,14 @@
 "use client";
-import Head from "next/head";
+import Seo from "@/app/components/Seo";
 import Image from "next/image";
-import Link from 'next/link';
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
-            <Head>
-                <title>How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration | Company Name</title>
-                <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
 
-
+            <Seo
+                title="New Office"
+                canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
+            />
 
             <section
                 className="

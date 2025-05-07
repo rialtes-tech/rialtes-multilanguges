@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   {
@@ -139,12 +140,11 @@ const blogs = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
+      <Seo
+        title="Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions"
+        canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+      />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-10-banner.webp "
