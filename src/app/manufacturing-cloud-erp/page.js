@@ -751,10 +751,16 @@ export default function Apps() {
       </div><br/>
       <div className="ml-0 md:ml-[260px] px-4 sm:px-6 md:px-0">
   <ContactForm 
-    title="Ready to Reimagine Your Manufacturing Future"
-    description="Tell us more about your goals and let's make innovation happen together."
+    title={
+      <>
+        Ready to Reimagine Your <br className="hidden md:block" />
+        Manufacturing Future?
+      </>
+    }
   />
 </div>
+
+     
 
      <br/><br/>
 
