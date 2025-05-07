@@ -759,9 +759,16 @@ export default function Apps() {
     }
     subtitle={
       <>
-      <p className="w-[800px]" > 
-      Partner with Rialtes to transform your manufacturing operations with AI, SAP, Salesforce, and next-gen tools. Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!
-      </p>
+     <br/> <p className="hidden lg:block w-[800px] text-[20px] font-light">
+  Partner with Rialtes to transform your manufacturing operations with AI, SAP, Salesforce, and next-gen tools.
+</p>
+<br className="hidden lg:block" />
+<p className="hidden lg:block w-[800px] text-[20px] font-light">
+  Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!
+</p>
+
+  
+    
       </>
     }   
   />
