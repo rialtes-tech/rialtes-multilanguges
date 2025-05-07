@@ -15,7 +15,7 @@ const Seo = ({ title, description, image, url,canonical }) => {
       <meta property="og:title" content={title || defaultTitle} />
       <meta property="og:description" content={description || defaultDescription} />
       <meta property="og:image" content={image || defaultImage} />
-      {/* <link rel="canonical" href={canonical || url || defaultUrl} /> */}
+      <link rel="canonical" href={canonical || url} />
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       {/* <meta name="twitter:url" content={url || defaultUrl} /> */}

@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   {
@@ -139,12 +140,11 @@ const blogs = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <Seo
+        title="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+        keywords="Partners, website, welcome"
+        canonical={"https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"}
+      />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-3-banner.webp "

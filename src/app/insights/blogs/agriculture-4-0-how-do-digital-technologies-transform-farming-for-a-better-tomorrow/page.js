@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   {
@@ -145,6 +146,10 @@ export default function Page() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Seo
+        title="Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?"
+        canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+      />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-6-banner.webp "

@@ -10,6 +10,7 @@ export default function Page() {
         <div className="bg-white">
             <Seo
                 title="Medical Devices"
+                canonical="https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
             />
 
             <section className="relative  h-[400px] lg:h-[650px]">

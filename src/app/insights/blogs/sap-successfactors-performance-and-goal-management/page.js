@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   {
@@ -139,11 +140,10 @@ const blogs = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>SAP SuccessFactors Performance and Goal Management | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+        title="SAP SuccessFactors Performance and Goal Management"
+        canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -287,27 +287,27 @@ export default function Page() {
 
               <p className="text-black pb-4 font-bold">Align Performance and Development</p>
 
-<p className="text-black pb-4">Integrate performance outcomes with learning and development plans. Use insights from performance appraisals to guide employee development and succession planning.</p>
+              <p className="text-black pb-4">Integrate performance outcomes with learning and development plans. Use insights from performance appraisals to guide employee development and succession planning.</p>
 
-<p className="text-black pb-4 font-bold">Encourage 360-Degree Feedback</p>
+              <p className="text-black pb-4 font-bold">Encourage 360-Degree Feedback</p>
 
-<p className="text-black pb-4">360-degree feedback provides a holistic view of employee performance. This multidimensional approach helps identify strengths and areas of improvement that might not be captured in standard appraisals.</p>
+              <p className="text-black pb-4">360-degree feedback provides a holistic view of employee performance. This multidimensional approach helps identify strengths and areas of improvement that might not be captured in standard appraisals.</p>
 
-<p className="text-black pb-4 font-bold">Emphasize Manager Training</p>
+              <p className="text-black pb-4 font-bold">Emphasize Manager Training</p>
 
-<p className="text-black pb-4">Managers play a crucial role in the PMGM process. Train managers on how to set effective goals, provide constructive feedback, and conduct appraisals objectively to maintain consistency across the organization.</p>
+              <p className="text-black pb-4">Managers play a crucial role in the PMGM process. Train managers on how to set effective goals, provide constructive feedback, and conduct appraisals objectively to maintain consistency across the organization.</p>
 
-<p className="text-black pb-4 font-bold">Leverage Analytics for Continuous Improvement</p>
+              <p className="text-black pb-4 font-bold">Leverage Analytics for Continuous Improvement</p>
 
-<p className="text-black pb-4">Use data and analytics from SAP SuccessFactors PMGM to monitor trends, identify skill gaps, and employ <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/sap-successfactors-employee-central-the-hr-master-data-management/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=SAP_SuccessFactors_Performance"}><span className="font-bold">HR data management</span></Link>. Continuous data review enables organizations to optimize processes and adapt to evolving business needs.</p>
+              <p className="text-black pb-4">Use data and analytics from SAP SuccessFactors PMGM to monitor trends, identify skill gaps, and employ <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/sap-successfactors-employee-central-the-hr-master-data-management/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=SAP_SuccessFactors_Performance"}><span className="font-bold">HR data management</span></Link>. Continuous data review enables organizations to optimize processes and adapt to evolving business needs.</p>
 
-<div className="py-6"></div>
+              <div className="py-6"></div>
 
-<h3 className="h3-bold text-[#0092E0] pb-4">Empower Employees and Management to Visualise Progress</h3>
+              <h3 className="h3-bold text-[#0092E0] pb-4">Empower Employees and Management to Visualise Progress</h3>
 
-<p className="text-black pb-4">SAP SuccessFactors is expected to incorporate advanced analytics, AI-driven insights, and even more personalized performance and goal management functionalities. Emerging trends like predictive analytics and artificial intelligence will offer proactive suggestions for goal setting, performance improvement, and personalized development plans.</p>
+              <p className="text-black pb-4">SAP SuccessFactors is expected to incorporate advanced analytics, AI-driven insights, and even more personalized performance and goal management functionalities. Emerging trends like predictive analytics and artificial intelligence will offer proactive suggestions for goal setting, performance improvement, and personalized development plans.</p>
 
-<p className="text-black pb-4">SAP SuccessFactors PMGM goes beyond traditional performance reviews to foster a culture of growth, alignment, and high performance. By <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/sap-consulting-services/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=SAP_SuccessFactors_Performance"}><span className="font-bold">implementing best practices</span></Link> and focusing on continuous development, organizations can leverage this tool to maximize employee potential, align efforts with organizational goals, and drive business success. Are you ready to advance towards a new era of HR process enhancement? Our team has the functional expertise, technical skills, and real-world employee performance and goal management experience to lead you to success. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-bold">sales@rialtes.com</span></Link>  to get started with one of our expert SAP SuccessFactors consultants!</p>
+              <p className="text-black pb-4">SAP SuccessFactors PMGM goes beyond traditional performance reviews to foster a culture of growth, alignment, and high performance. By <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/sap-consulting-services/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=SAP_SuccessFactors_Performance"}><span className="font-bold">implementing best practices</span></Link> and focusing on continuous development, organizations can leverage this tool to maximize employee potential, align efforts with organizational goals, and drive business success. Are you ready to advance towards a new era of HR process enhancement? Our team has the functional expertise, technical skills, and real-world employee performance and goal management experience to lead you to success. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-bold">sales@rialtes.com</span></Link>  to get started with one of our expert SAP SuccessFactors consultants!</p>
 
 
             </div>

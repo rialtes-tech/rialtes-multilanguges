@@ -1,10 +1,10 @@
 "use client";
 // pages/success-factors.js
-import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 
 
 
@@ -130,11 +130,11 @@ const GrowServices = () => {
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Grow with SAP | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
+      <Seo
+                title="Hi-Tech"
+                canonical="https://www.rialtes.com/industry/hitech-semiconductor/"
+            />
 
       <section className="relative h-[350px] sm:h-[500px] lg:h-[837px] overflow-hidden group">
           <Image

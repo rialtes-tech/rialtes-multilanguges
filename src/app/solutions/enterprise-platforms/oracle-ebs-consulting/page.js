@@ -12,6 +12,7 @@ export default function Page() {
         <div className="min-h-screen bg-white">
             <Seo
                 title="Oracle EBS Consulting Services"
+                canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
             />
 
             <section className="relative h-[399px] xl:h-[650px] overflow-hidden">

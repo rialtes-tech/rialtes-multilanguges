@@ -1,11 +1,11 @@
 "use client";
 // pages/blog.js
-import Head from "next/head";
 import Image from "next/image";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
+import Seo from "@/app/components/Seo";
 
 
 const latestBlogs = [
@@ -19,7 +19,7 @@ const latestBlogs = [
     title: "Redefining the Future of Enterprise AI with SAP Joule",
     description: "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. ",
   },
-  { 
+  {
     id: 15,
     image: "/images/blog/SAP Business cloud_Carousal.webp",
     category: "General",
@@ -179,7 +179,7 @@ const BlogCard = ({ blog }) => (
         <Image
           src={blog.image}
           alt={blog.title}
-          width={0} 
+          width={0}
           height={0}
           sizes="100vw"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
@@ -494,18 +494,18 @@ const FeaturedCarousel = () => {
 export default function Page() {
   return (
     <div className="min-h-screen bg-white text-black">
-      <Head>
-        <title>Blog | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
+      <Seo
+        title="Blog"
+        canonical="https://www.rialtes.com/insights/blogs/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-header.webp"
           alt="Blogs"
           fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "11% 20%" }}
           priority
         />
         <div
@@ -520,7 +520,7 @@ export default function Page() {
           <div className="container mx-auto h-full flex flex-col justify-center">
             <div className="flex flex-col">
               <h3 className="text-[300] font-medium mb-2">Blogs</h3>
-              <h1 className="max-w-2xl">
+              <h1 className="max-w-2xl ">
                 Expert Insights for Digital Success
               </h1>
             </div>
