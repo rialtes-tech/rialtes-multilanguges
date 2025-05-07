@@ -147,7 +147,7 @@ export default function Page() {
                     />
                 </div>
 
-                <div className=" xl:ml-[280px] mx-[35px] mt-[-76rem] xl:mt-0">
+                <div className=" xl:ml-[280px] mx-[35px] mt-[-72rem] xl:mt-0">
                     <div className="relative xl:p-12 p-10 pl-12 xl:pl-0 py-10 xl:py-0 xl:w-[670px] xl:h-[475px]">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg ">
@@ -376,22 +376,22 @@ export default function Page() {
 
             <section className="relative  h-auto xl:h-[1100px]  mt-5 xl:mt-20">
                 <div className="xl:block hidden">
-                <Image
-                    src="/images/medical/Expertise in Salesforce.webp"
-                    alt="GROW with SAP"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                    priority
-                    className="transform transition-transform duration-500 group-hover:scale-110"
-                />
+                    <Image
+                        src="/images/medical/Expertise in Salesforce.webp"
+                        alt="GROW with SAP"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src="/images/medical/Expertise in Salesforce (1).webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                />
+                    <Image
+                        src="/images/medical/Expertise in Salesforce (1).webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                    />
                 </div>
                 <div
                     className="text-white
@@ -465,22 +465,22 @@ export default function Page() {
                                        xl:ml-[280px]"
             >
                 <div className="xl:block hidden">
-                <Image
-                    src="/images/medical/AI Impact.webp"
-                    alt="GROW with SAP"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                    priority
-                    className="transform transition-transform duration-500 group-hover:scale-110"
-                />
+                    <Image
+                        src="/images/medical/AI Impact.webp"
+                        alt="GROW with SAP"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src="/images/medical/Key AI Impact (2).webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                />
+                    <Image
+                        src="/images/medical/Key AI Impact (2).webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                    />
                 </div>
 
                 <div className="grid xl:grid-cols-12 grid-cols-1 relative text-white">
@@ -504,22 +504,22 @@ export default function Page() {
                              xl:ml-[280px]"
             >
                 <div className="xl:block hidden">
-                <Image
-                    src="/images/medical/Benefits of AI (1).webp"
-                    alt="GROW with SAP"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                    priority
-                    className="transform transition-transform duration-500 group-hover:scale-110"
-                />
+                    <Image
+                        src="/images/medical/Benefits of AI (1).webp"
+                        alt="GROW with SAP"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src="/images/medical/Benefits of AI (2).webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                />
+                    <Image
+                        src="/images/medical/Benefits of AI (2).webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                    />
                 </div>
 
                 <div className="grid xl:grid-cols-12 grid-cols-1 relative">
@@ -538,65 +538,65 @@ export default function Page() {
 
 
             <div
-  className="xl:mt-32 mt-10 h-full relative mx-[35px] xl:mr-0
+                className="xl:mt-32 mt-10 h-full relative mx-[35px] xl:mr-0
              xl:ml-[280px] xl:w-[calc(100%-280px)]
              md:ml-[100px] md:w-[calc(100%-100px)] "
->
-  <div className="grid xl:grid-cols-12 grid-cols-1">
-    {/* Image - order first on mobile */}
-    <div className="xl:col-span-6 col-span-12 order-1 xl:order-2">
-        <div className="xl:block hidden">
-        <Image
-        src="/images/medical/Outcome Management .webp"
-        alt="Outcome Management"
-        className="w-full h-full"
-        width={0}
-        height={0}
-      />
-        </div>
-        <div className="xl:hidden block">
-        <Image
-        src="/images/medical/Patient Trial & Outcome Management .webp"
-        alt="Outcome Management"
-        className="w-full h-[286px]"
-        width={0}
-        height={0}
-      />
-        </div>
-     
-    </div>
+            >
+                <div className="grid xl:grid-cols-12 grid-cols-1">
+                    {/* Image - order first on mobile */}
+                    <div className="xl:col-span-6 col-span-12 order-1 xl:order-2">
+                        <div className="xl:block hidden">
+                            <Image
+                                src="/images/medical/Outcome Management .webp"
+                                alt="Outcome Management"
+                                className="w-full h-full"
+                                width={0}
+                                height={0}
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/medical/Patient Trial & Outcome Management .webp"
+                                alt="Outcome Management"
+                                className="w-full h-[286px]"
+                                width={0}
+                                height={0}
+                            />
+                        </div>
 
-    <div className="xl:col-span-6 col-span-12 xl:pr-24 order-2 xl:order-1">
-      <h2 className="xl:text-[58px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">
-        Patient Trial & Outcome Management
-      </h2>
-      <h3 className="xl:text-[40px] text-[22px] font-bold leading-tight">
-        Connecting Patients, Providers, and Data
-      </h3>
-      <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 xl:pr-20 text-[16px] pr-8">
-        <li>
-          Integrated Salesforce Life Sciences Cloud for trial participant
-          tracking, engagement, and compliance.
-        </li>
-        <li>
-          Mobile apps and portals for patient-reported outcomes and real-time
-          feedback.
-        </li>
-        <li>
-          AI-enabled insights for trial progress, adverse events, and
-          compliance trends.
-        </li>
-        <li>
-          Data pipelines from trial data to regulatory submission readiness.
-        </li>
-      </ul>
-      <p className="xl:text-[26px] py-8 xl:py-10 text-[18px] bg-[#0E3157] p-10 pl-10 text-white mt-[12%] xl:pr-20 leading-tight">
-        Patient outcomes drive product innovation — Rialtes makes that
-        connection seamless.
-      </p>
-    </div>
-  </div>
-</div>
+                    </div>
+
+                    <div className="xl:col-span-6 col-span-12 xl:pr-24 order-2 xl:order-1">
+                        <h2 className="xl:text-[58px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">
+                            Patient Trial & Outcome Management
+                        </h2>
+                        <h3 className="xl:text-[40px] text-[22px] font-bold leading-tight">
+                            Connecting Patients, Providers, and Data
+                        </h3>
+                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 xl:pr-20 text-[16px] pr-8">
+                            <li>
+                                Integrated Salesforce Life Sciences Cloud for trial participant
+                                tracking, engagement, and compliance.
+                            </li>
+                            <li>
+                                Mobile apps and portals for patient-reported outcomes and real-time
+                                feedback.
+                            </li>
+                            <li>
+                                AI-enabled insights for trial progress, adverse events, and
+                                compliance trends.
+                            </li>
+                            <li>
+                                Data pipelines from trial data to regulatory submission readiness.
+                            </li>
+                        </ul>
+                        <p className="xl:text-[26px] py-8 xl:py-10 text-[18px] bg-[#0E3157] p-10 pl-10 text-white mt-[12%] xl:pr-20 leading-tight">
+                            Patient outcomes drive product innovation — Rialtes makes that
+                            connection seamless.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 
             <div
@@ -704,24 +704,24 @@ export default function Page() {
                 >
                     <div className="relative -mt-[15rem]">
                         <div className="xl:block hidden">
-                        <Image
-                            src="/images/medical/Agentforce.webp"
-                            alt=""
-                            priority
-                            height={0}
-                            width={0}
-                            className="xl:!h-[665px] xl:!w-full !h-[276px] !w-[360px]  transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
-                        />
+                            <Image
+                                src="/images/medical/Agentforce.webp"
+                                alt=""
+                                priority
+                                height={0}
+                                width={0}
+                                className="xl:!h-[665px] xl:!w-full !h-[276px] !w-[360px]  transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
+                            />
                         </div>
                         <div className="xl:hidden block">
-                        <Image
-                            src="/images/medical/Agentforce (2).webp"
-                            alt=""
-                            priority
-                            height={0}
-                            width={0}
-                            className="!h-[276px] !w-[360px]"
-                        />
+                            <Image
+                                src="/images/medical/Agentforce (2).webp"
+                                alt=""
+                                priority
+                                height={0}
+                                width={0}
+                                className="!h-[276px] !w-[360px]"
+                            />
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-10 mt-20 text-white">
@@ -766,25 +766,25 @@ export default function Page() {
           text-black py-20"
                 >
                     <div className="relative -mt-[5rem]">
-                       <div className="xl:block hidden">
-                        <Image
-                            src="/images/medical/AgentChat (2).webp"
-                            alt=""
-                            priority
-                            height={0}
-                            width={0}
-                            className="xl:!h-[612px] !w-full !h-[261px] transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
-                        />
+                        <div className="xl:block hidden">
+                            <Image
+                                src="/images/medical/AgentChat (2).webp"
+                                alt=""
+                                priority
+                                height={0}
+                                width={0}
+                                className="xl:!h-[612px] !w-full !h-[261px] transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
+                            />
                         </div>
                         <div className="xl:hidden block">
-                        <Image
-                            src="/images/medical/AgentChat (4).webp"
-                            alt=""
-                            priority
-                            height={0}
-                            width={0}
-                            className="!w-[360px] !h-[261px]"
-                        />
+                            <Image
+                                src="/images/medical/AgentChat (4).webp"
+                                alt=""
+                                priority
+                                height={0}
+                                width={0}
+                                className="!w-[360px] !h-[261px]"
+                            />
                         </div>
                     </div>
                     <h2 className="xl:text-[50px] text-[26px] text-white mt-10 pr-10 xl:pr-0">Real-Time Communication with RialChat</h2>
