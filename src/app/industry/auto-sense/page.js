@@ -187,14 +187,14 @@ const chooseRialtesData = [
 
 const ChooseRialtes = ({ data }) => {
     return (
-        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[60px] xl:mt-[135px] mt-[74px] mx-[35px]">
+        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] xl:mt-[105px] mt-[68px] mx-[35px]">
             <h2 className="xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] font-light">
                 Why Choose Rialtes for <span className="block">Automotive Transformation?</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:mt-[61px] mt-[37px]">
                 {data.map((item, ind) => {
                     return (
-                        <div key={ind} className="xl:p-[55px] p-[42px] border-[1px] border-[#707070] hover:border-0 hover:bg-[#D9F2FF] transition-colors duration-300">
+                        <div key={ind} className="xl:p-[55px] p-[42px] border-[1px] border-[#707070] hover:border-[#D9F2FF] hover:bg-[#D9F2FF] transition-colors duration-300">
                             <img src={item.imageUrl} alt={`image-${ind}`} />
                             <h3 className="xl:mt-[46px] mt-[33px] xl:text-[30px] text-[20px] font-semibold xl:leading-[37px] leading-[24px]">{item.title}</h3>
                             <div>
@@ -398,7 +398,6 @@ const ThoughtLeadershipDesign = ({ data }) => {
     );
 };
 
-
 export default function page() {
 
     return (
@@ -445,7 +444,7 @@ export default function page() {
                 className="
               mx-[35px] xl:mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)] xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]"
+              md:ml-[100px] md:w-[calc(100%-100px)] xl:mt-[85px] mt-[48px] xl:mb-[84px] mb-[38px]"
             >
                 <p className="xl:text-[22px] text-[16px] xl:leading-[30px] leading-[19px] xl:w-[70%] w-[96%]">For over a decade, Rialtes has been a trusted partner for global automotive leaders, helping them navigate rapid industry transformation — from electrification and connected vehicles to customer experience innovation and supply chain resilience. Our specialized service suite, AutoSense, brings together deep automotive expertise, Salesforce Automotive Cloud proficiency, and powerful ERP integrations to drive real business outcomes.</p>
 
@@ -494,7 +493,7 @@ export default function page() {
                     <Image
                         src="/images/industry/auto-sense/partner-with-rialtes-img.webp"
                         alt="partner-with-rialtes-img"
-                        width={1400}
+                        width={1600}
                         height={100}
                         className="hidden sm:block"
                     />
@@ -544,7 +543,7 @@ export default function page() {
               md:ml-[100px] md:w-[calc(100%-100px)]
               text-black xl:pb-20 pb-10 xl:pt-[138px]"
             >
-                <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
+                <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} subtitle={'The future of automotive is connected, personalized, and intelligent. Rialtes is here to help you lead that future — combining deep industry knowledge, advanced platforms, and integration expertise. Ready to drive innovation? Let’s Begin.'} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >
 
         </>
