@@ -299,7 +299,7 @@ export default function Page() {
                             <h4 className="mt-5">Dell Boomi</h4>
                         </div> <div>
                             <Image
-                                src="/images/sap-consulting/616850bf7aafb0a2cf7e4ea1_sZs4qY21RNWgv2QDH7lN copy.webp"
+                                src="/images/sap-consulting/sap-cpi.webp"
                                 alt="GROW with SAP"
                                 className="w-[150px]"
                                 width={0}

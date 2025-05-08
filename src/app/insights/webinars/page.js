@@ -444,6 +444,86 @@ export default function About() {
             </div>
           </div>
         </section>
+        <div>
+        <section className=" px-4 py-8 lg:max-w-[800px] xl:max-w-[1600px]">
+          <h2 className="mb-6">Past Webinar</h2>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+            {visibleWebinars.map((webinar) => (
+              <div
+                key={webinar.id}
+                className="border border-gray-200 overflow-hidden shadow-sm transition-shadow"
+                onMouseEnter={handleMouseEnter(webinar.id)}
+                onMouseLeave={handleMouseLeave(webinar.id)}
+                onClick={handleClick("/about-us")}
+                style={{
+                  transition: "background-color 0.3s ease",
+                  backgroundColor:
+                    hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
+                  border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
+                  cursor: "pointer",
+                }}
+              >
+                <div className="w-full overflow-hidden">
+                  <div
+                    className="h-full w-full"
+                    style={{
+                      transition: "transform 0.3s ease",
+                      transform:
+                        hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
+                    }}
+                  >
+                    <Image
+                      src={webinar.image}
+                      alt={webinar.title}
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
+                  </div>
+                </div>
+
+                <div className="p-8 h-full flex flex-col items-start gap-2">
+                  <h3 className="text-[#134874] mb-2 max-w-sm">
+                    {webinar.title}
+                  </h3>
+
+                  <div className="text-sm text-gray-600 mb-3">
+                    <p>{webinar.date}</p>
+                    <p>{webinar.time}</p>
+                  </div>
+
+                  <div className="mb-4">
+                    <p className="font-medium">{webinar.speaker}</p>
+                    <p className="text-sm text-gray-600">{webinar.position}</p>
+                  </div>
+
+                  <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
+                    Open Now
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {hasMore && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={handleLoadMore}
+                className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
+              >
+                Load more
+              </button>
+            </div>
+          )}
+        </section>
+      </div>
       </div>
 
 

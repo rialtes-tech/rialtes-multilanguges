@@ -543,7 +543,7 @@ export default function page() {
               md:ml-[100px] md:w-[calc(100%-100px)]
               text-black xl:pb-20 pb-10 xl:pt-[138px]"
             >
-                <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} subtitle={'The future of automotive is connected, personalized, and intelligent. Rialtes is here to help you lead that future — combining deep industry knowledge, advanced platforms, and integration expertise. Ready to drive innovation? Let’s Begin.'} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
+                <ContactForm title='Accelerate Your Automotive Transformation with Rialtes' subtitle='The future of automotive is connected, personalized, and intelligent. Rialtes is here to help you lead that future — combining deep industry knowledge, advanced platforms, and integration expertise. Ready to drive innovation? Let’s Begin.' className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >
 
         </>

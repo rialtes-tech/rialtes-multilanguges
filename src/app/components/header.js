@@ -936,8 +936,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">AutoSense</div>
-                        <p className="mt-3">AutoSense reimagines the automotive industry with intelligent, connected, and customer-first solutions that drive growth from the showroom to the supply chain.
+                        <div className="font-bold mt-5">Reduce operational costs and increase ROI For Every Line of Business</div>
+                        <p className="mt-3">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
                         </p>
                         {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
@@ -945,13 +945,14 @@ const Header = () => {
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
-                          {/* <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        </div> */}
+                          <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Retail+" link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} onHover={() => { }} />
+                        </div>
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
                               onHover={() => { }} />
                           </div>
+
                         </div>
                       </div>
                     </div>
@@ -1183,8 +1184,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Accelerating Automotive Innovation — With Smarter Solutions</div>
-                        <p className="mt-3">We empower the automotive industry with cutting-edge smart solutions. Our innovative IT services drive efficiency, streamline operations, and fuel business growth.</p>
+                        <div className="font-bold mt-5">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
+                        <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/automotive-industry' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry")}
                           >Let's Begin</Link>

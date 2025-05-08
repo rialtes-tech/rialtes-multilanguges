@@ -217,7 +217,7 @@ export default function Page() {
         {/* Image Section */}
         <div className="relative w-full h-[386px]">
           <Image
-            src="/images/social-impact/AdobeStock_-2.webp"
+            src="/images/social-impact/social-impact-to.webp"
             alt=""
             fill
             className="object-cover object-[18%_20%]"

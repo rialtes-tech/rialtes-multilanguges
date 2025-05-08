@@ -3,6 +3,7 @@ import Image from "next/image";
 import LearnMore from "@/app/components/learnMore";
 import { useState, useEffect } from 'react';
 import ContactForm from "@/app/components/contactform";
+import Seo from "@/app/components/Seo";
 
 const keyPillarsSectionData = [
     {
@@ -57,8 +58,16 @@ const keyPillarsSectionData = [
 ];
 
 const KeyPillarsSectionDesign = ({ data }) => {
+
     return (
         <section className="xl:mt-[95px] mt-[79px]">
+            <Seo
+        title="Digital Transformation in Automotive Industry | Rialtes AutoSense"
+        description="Ready for digital transformation in automotive? Rialtes AutoSense brings Salesforce, SAP, and AI to OEMs and dealers. Let's chat with our experts and lead the change!"
+        keywords="home, website, welcome"
+        canonical="https://www.rialtes.com/services/lob/autosense-automotive-digital-transformation-services/"
+      />
+
             <div className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-[35px]">
                 <h2 className="text-[000000] xl:text-[30px] text-[18px] font-bold">
                     Key Pillars of AutoSense
