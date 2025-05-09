@@ -9,62 +9,65 @@ import Seo from "@/app/components/Seo";
 const webinars = [
   {
     id: 1,
-    title: "Let’s WhatsApp in Salesforce with AgentChat",
-    date: "May 06, 2025",
+    title: "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
+    date: "May 13, 2025",
     time: "10:00 AM CST",
     speaker: {
-      name: "Lokesh Adhikari",
-      role: "Associate Software Engineer",
-      image: "/images/webinar/Lokesh.webp",
+      name: "Akshay Kale",
+      role: "Sr. Managing Director – SAP Services",
+      image: "/images/webinar/Akshay-Kale.webp",
     },
-    backgroundImage: "/images/webinar/Webinar_sli.webp",
-    url: 'insights/webinars/let-whatsApp-in-salesforce-with-agentChat'
+    backgroundImage: "/images/webinar/Webinar_13-May-Carousal.webp",
+    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
   },
-  {
-    id: 2,
-    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
-    date: "May 08, 2025",
-    time: "10:00 AM CST",
-    speaker: {
-      name: "Divya Agarwal",
-      role: "Associate Software Engineer",
-      image: "/images/webinar/Divya.webp",
-    },
-    backgroundImage: "/images/webinar/Webinar_8.webp",
-    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
-  },
-
+  // {
+  //   id: 2,
+  //   title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+  //   date: "May 08, 2025",
+  //   time: "10:00 AM CST",
+  //   speaker: {
+  //     name: "Divya Agarwal",
+  //     role: "Associate Software Engineer",
+  //     image: "/images/webinar/Divya.webp",
+  //   },
+  //   backgroundImage: "/images/webinar/Webinar_8.webp",
+  //   url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+  // },
 
 ];
 
 const allWebinars = [
   {
     id: 1,
-    title: "Salesforce CPQ: Bundle Configuration and Revenue Cloud Rules",
-    date: "November 7, 2024",
+    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+    date: "May 08, 2025",
     time: "10:00 AM CST",
-    speaker: "Divya Agrawal",
-    position: "Associate Software Engineer",
-    image: "/images/webinar/webinar-thumb-1.webp",
+    speaker: "Divya Agarwal",
+    position: "Senior Principal Consultant, SAP",
+    image: "/images/webinar/webinar-thumb.webp",
+    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+
   },
   {
     id: 2,
-    title: "SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud",
-    date: "November 5, 2024",
+    title: "Let’s WhatsApp in Salesforce with AgentChat",
+    date: "May 06, 2025",
     time: "10:00 AM CST",
-    speaker: "Kushagra Shah",
-    position: "Senior Principal Consultant, SAP",
-    image: "/images/webinar/webinar-thumb-3.webp",
+    speaker: "Lokesh Adhikari",
+    position: "Associate Software Engineer",
+    image: "/images/webinar/Webinar_6.webp",
+    url: 'insights/webinars/let-whatsApp-in-salesforce-with-agentChat'
   },
-  {
-    id: 3,
-    title: "SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud",
-    date: "November 5, 2024",
-    time: "10:00 AM CST",
-    speaker: "Kushagra Shah",
-    position: "Senior Principal Consultant, SAP",
-    image: "/images/webinar/webinar-thumb-1.webp",
-  },
+
+  // {
+  //   id: 3,
+  //   title: "SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud",
+  //   date: "November 5, 2024",
+  //   time: "10:00 AM CST",
+  //   speaker: "Kushagra Shah",
+  //   position: "Senior Principal Consultant, SAP",
+  //   image: "/images/webinar/webinar-thumb-1.webp",
+  // },
   // {
   //   id: 4,
   //   title: "Cloud Migration Strategies for Enterprise",
@@ -445,85 +448,87 @@ export default function About() {
           </div>
         </section>
         <div>
-        <section className=" px-4 py-8 lg:max-w-[800px] xl:max-w-[1600px]">
-          <h2 className="mb-6">Past Webinar</h2>
+          <section className=" px-4 py-8 lg:max-w-[800px] xl:max-w-[1600px]">
+            <h2 className="mb-6">Past Webinar</h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-            {visibleWebinars.map((webinar) => (
-              <div
-                key={webinar.id}
-                className="border border-gray-200 overflow-hidden shadow-sm transition-shadow"
-                onMouseEnter={handleMouseEnter(webinar.id)}
-                onMouseLeave={handleMouseLeave(webinar.id)}
-                onClick={handleClick("/about-us")}
-                style={{
-                  transition: "background-color 0.3s ease",
-                  backgroundColor:
-                    hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
-                  border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
-                  cursor: "pointer",
-                }}
-              >
-                <div className="w-full overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+              {visibleWebinars.map((webinar) => (
+                <Link href={'/' + webinar.url}>
                   <div
-                    className="h-full w-full"
+                    key={webinar.id}
+                    className="border border-gray-200 overflow-hidden shadow-sm transition-shadow"
+                    onMouseEnter={handleMouseEnter(webinar.id)}
+                    onMouseLeave={handleMouseLeave(webinar.id)}
+                    // onClick={handleClick("/about-us")}
                     style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
+                      transition: "background-color 0.3s ease",
+                      backgroundColor:
+                        hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
+                      border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
+                      cursor: "pointer",
                     }}
                   >
-                    <Image
-                      src={webinar.image}
-                      alt={webinar.title}
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
+                    <div className="w-full overflow-hidden">
+                      <div
+                        className="h-full w-full"
+                        style={{
+                          transition: "transform 0.3s ease",
+                          transform:
+                            hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
+                        }}
+                      >
+                        <Image
+                          src={webinar.image}
+                          alt={webinar.title}
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                          }}
+                          priority
+                        />
+                      </div>
+                    </div>
+
+                    <div className="p-8 h-full flex flex-col items-start gap-2">
+                      <h3 className="text-[#134874] mb-2 max-w-sm">
+                        {webinar.title}
+                      </h3>
+
+                      <div className="text-sm text-gray-600 mb-3">
+                        <p>{webinar.date}</p>
+                        <p>{webinar.time}</p>
+                      </div>
+
+                      <div className="mb-4">
+                        <p className="font-medium">{webinar.speaker}</p>
+                        <p className="text-sm text-gray-600">{webinar.position}</p>
+                      </div>
+
+                      <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
+                        Open Now
+                      </button>
+                    </div>
                   </div>
-                </div>
-
-                <div className="p-8 h-full flex flex-col items-start gap-2">
-                  <h3 className="text-[#134874] mb-2 max-w-sm">
-                    {webinar.title}
-                  </h3>
-
-                  <div className="text-sm text-gray-600 mb-3">
-                    <p>{webinar.date}</p>
-                    <p>{webinar.time}</p>
-                  </div>
-
-                  <div className="mb-4">
-                    <p className="font-medium">{webinar.speaker}</p>
-                    <p className="text-sm text-gray-600">{webinar.position}</p>
-                  </div>
-
-                  <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
-                    Open Now
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {hasMore && (
-            <div className="flex justify-center mt-8">
-              <button
-                onClick={handleLoadMore}
-                className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
-              >
-                Load more
-              </button>
+                </Link>
+              ))}
             </div>
-          )}
-        </section>
-      </div>
+
+            {hasMore && (
+              <div className="flex justify-center mt-8">
+                <button
+                  onClick={handleLoadMore}
+                  className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
+                >
+                  Load more
+                </button>
+              </div>
+            )}
+          </section>
+        </div>
       </div>
 
 
