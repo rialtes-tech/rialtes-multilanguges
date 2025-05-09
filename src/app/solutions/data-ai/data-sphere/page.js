@@ -95,6 +95,7 @@ const BuildIntelligentSection = () => {
             <Seo
                 title="SAP Datasphere Implementation with AI Consulting Services | Rialtes"
                 description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
+
                 canonical={"https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"}
             />
             <section className="xl:ml-[280px] mr-0 bg-[#006FBE] xl:mt-[0px] mt-[0px]">
@@ -249,7 +250,7 @@ const IntelligentAutomativeSection = () => {
 
             <div className="absolute inset-0 flex items-start justify-start xl:mt-[64px] mt-[294px]">
                 <div className="relative mx-[32px] xl:mr-0 xl:ml-[76px] xl:w-[60%]">
-                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[90%]">
                         Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value
                     </h2>
 
@@ -420,10 +421,10 @@ const OmnichannelSmartEducationSection = () => {
                         <h3 className="font-semibold xl:text-[42px] text-[26px] leading-[32px] xl:leading-[52px] mt-[27px] xl:mt-[36px] xl:w-[80%] xl:ml-[28px]">
                             Driving Student Success with AI
                         </h3>
-                        <h4 className="font-semibold xl:text-[36px] text-[20px] leading-[24px] xl:leading-[44px] mt-[23px] xl:mt-[36px] xl:w-[80%] xl:ml-[28px]">
+                        <h4 className="font-semibold xl:text-[36px] text-[20px] leading-[24px] xl:leading-[44px] mt-[23px] xl:mt-[36px] xl:w-[76%] xl:ml-[28px]">
                             From Enrollment to Alumni — AI-Powered Student Journeys
                         </h4>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] xl:ml-[28px]">
+                        <ul className="list-disc pl-[22px] xl:w-[80%] w-[90%] xl:mt-[49px] mt-[25px] xl:ml-[28px]">
                             {educationSectionData.map((data, idx) => (
                                 <li
                                     key={idx}
@@ -466,7 +467,7 @@ const AiPoweredHRAnalyticsSection = () => {
                     <img
                         src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
                         alt="ai-powered-hr-analytics"
-                        className="hidden xl:block w-full h-full"
+                        className="hidden xl:block w-full"
                     />
                 </div>
 
@@ -1021,7 +1022,7 @@ export default function () {
             </section>
 
             {/* future proof section */}
-            <section className="w-full xl:px-[0] px-[35px] md:px-12 xl:mt-[124px] mt-[53px] xl:mb-[79px] mb-[52px]">
+            <section className="w-full xl:px-[0] px-[35px] md:px-12 xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
                 <div className="xl:ml-[280px] mx-auto grid md:grid-cols-2 xl:gap-[20px] gap-[39px]">
                     {/* Left Side */}
                     <div>
