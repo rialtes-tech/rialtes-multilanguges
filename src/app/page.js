@@ -239,14 +239,14 @@ const Home = () => {
                     </div>
                    
                   
-                    <div class="flex">
-                        <button   onClick={prevSlide} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                    <div className="flex">
+                        <button   onClick={prevSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="15,6 9,12 15,18" />
                             </svg>
                         </button>
 
-                        <button   onClick={nextSlide} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                        <button   onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="9,6 15,12 9,18" />
                             </svg>
@@ -402,14 +402,14 @@ const Home = () => {
                                 </div>
 
 
-                                <div class="flex">
-                        <button   onClick={handlePrevInsights} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <div className="flex">
+                        <button   onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="15,6 9,12 15,18" />
                             </svg>
                         </button>
 
-                        <button   onClick={handleNextInsights} class="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                        <button   onClick={handleNextInsights} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="9,6 15,12 9,18" />
                             </svg>
