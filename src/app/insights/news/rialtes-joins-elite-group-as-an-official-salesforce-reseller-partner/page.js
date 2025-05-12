@@ -12,22 +12,25 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="News Becomes"
-                canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
+                title="Rialtes Becomes Official Salesforce Reseller Partner"
+                canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
+                description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
             />
             <section
                 className="
-        container
-        mx-[35px] xl:mx-0 mr-0
+       container
+        ml-[15px] w-[calc(100%-15px)] mr-0
         xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
+        md:ml-[100px] md:w-[calc(100%-100px)]
+        sm:mx-5 sm:w-[calc(100%-40px)]
+        xs:mx-4 xs:w-[calc(100%-32px)]"
             >
 
                 <section className="relative  xl:h-[650px] overflow-hidden">
                     <div className="xl:block hidden">
 
                         <Image
-                            src="/images/news/news-b.webp"
+                            src="/images/news/news-12-banner.webp"
                             alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
                             fill
                             priority
