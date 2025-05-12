@@ -47,9 +47,9 @@ export default function Autosense() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div>
-            <div class="grid grid-cols-12 gap-2">
-              <div class="xl:col-span-4 col-span-12"></div>
-              <div class="p-4 xl:col-span-8 col-span-12">
+            <div className="grid grid-cols-12 gap-2">
+              <div className="xl:col-span-4 col-span-12"></div>
+              <div className="p-4 xl:col-span-8 col-span-12">
                 <h2 className="text-white">Introducing <span className="font-bold">Rialtes AutoSense</span>  End-to-End Automotive Solutions</h2>
 
                 <p className="text-white pb-10 mt-5">AutoSense is Rialtes’ comprehensive service suite designed specifically for the evolving needs of the automotive ecosystem — including OEMs, suppliers, dealers, and mobility providers. AutoSense combines advisory, implementation, quality assurance, and post-go-live support, fully integrated with OEM technology partners like SAP and Salesforce.</p>
@@ -273,9 +273,9 @@ export default function Autosense() {
             <h2>Thought Leadership Themes for Automotive Clients</h2>
 
             <p className="mt-5">Here are 5 high-impact thought leadership ideas Rialtes can drive to position as an industry leader:</p>
-            <div class="grid grid-cols-12 gap-2">
-              <div class="xl:col-span-4 col-span-12"></div>
-              <div class=" p-4 xl:col-span-8 col-span-12">
+            <div className="grid grid-cols-12 gap-2">
+              <div className="xl:col-span-4 col-span-12"></div>
+              <div className=" p-4 xl:col-span-8 col-span-12">
 
                 <div className="border-b-2 pb-5 mt-20">
                   <h3>The Road to EV-First Business Models:</h3>
@@ -325,9 +325,9 @@ export default function Autosense() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
-            <div class="grid grid-cols-12 gap-2">
-              <div class="xl:col-span-6 col-span-12"></div>
-              <div class=" p-4 xl:col-span-6 col-span-12">
+            <div className="grid grid-cols-12 gap-2">
+              <div className="xl:col-span-6 col-span-12"></div>
+              <div className=" p-4 xl:col-span-6 col-span-12">
                 <h2>Accelerate Your Automotive Transformation with Rialtes</h2>
                 <p className="mt-5">The future of automotive is connected, personalized, and intelligent. Rialtes is here to help you lead that future — combining deep industry knowledge, advanced platforms, and integration expertise.</p>
               </div>

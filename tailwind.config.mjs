@@ -1,7 +1,7 @@
 const { fontFamily } = require("tailwindcss/defaultTheme");
-/** @type {import('tailwindcss').Config} */
 
-export default {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -26,8 +26,21 @@ export default {
         foreground: "var(--foreground)",
       },
       objectPosition: {
-        '35-20': '35% 20%',
-        '11-20': '11% 20%',
+        "35-20": "35% 20%",
+        "11-20": "11% 20%",
+      },
+      container: {
+        center: true,
+        padding: "1rem",
+        // You can add custom breakpoints if needed:
+        // screens: {
+        //   sm: "576px",
+        //   md: "768px",
+        //   lg: "992px",
+        //   xl: "1200px",
+        //   "2xl": "1400px",
+        //   "3xl": "1920px",
+        // },
       },
     },
   },
@@ -47,3 +60,7 @@ export default {
     "md:w-[calc(100%-100px)]",
   ],
 };
+
+
+
+// tailwind container code config

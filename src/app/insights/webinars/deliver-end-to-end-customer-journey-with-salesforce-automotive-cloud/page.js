@@ -180,25 +180,25 @@ export default function() {
 
                     </div>
                     <p className="mt-10">Webinar Starting In</p>
-                    <div class="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
-                        <div class="text-[#0092E0]">
+                    <div className="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
+                        <div className="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.days).padStart(2, "0")}</strong>
-                            <span class="text-xs text-black font-normal">Days</span>
+                            <span className="text-xs text-black font-normal">Days</span>
                         </div>
-                        <span class="text-black font-normal">:</span>
-                        <div class="text-[#0092E0]">
+                        <span className="text-black font-normal">:</span>
+                        <div className="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.hours).padStart(2, "0")}</strong>
-                            <span class="text-xs text-black font-normal">Hrs</span>
+                            <span className="text-xs text-black font-normal">Hrs</span>
                         </div>
-                        <span class="text-black font-normal">:</span>
-                        <div class="text-[#0092E0]">
+                        <span className="text-black font-normal">:</span>
+                        <div className="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.minutes).padStart(2, "0")}</strong>
-                            <span class="text-xs text-black font-normal">Min</span>
+                            <span className="text-xs text-black font-normal">Min</span>
                         </div>
-                        <span class="text-black font-normal">:</span>
-                        <div class="text-[#0092E0]">
+                        <span className="text-black font-normal">:</span>
+                        <div className="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.seconds).padStart(2, "0")}</strong>
-                            <span class="text-xs text-black font-normal">Sec</span>
+                            <span className="text-xs text-black font-normal">Sec</span>
                         </div>
                     </div>
                     <h3 className="mt-10">How to Join:</h3>
