@@ -480,7 +480,7 @@ const Header = () => {
                           <div>
                             {/* <MenuItem className="font-bold text-[#2f78c4]" label="Snowflake" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Qlik" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                                                    <MenuItem className="font-bold text-[#2f78c4]" label="Data Sphere" link="/solutions/data-ai/data-sphere" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/data-sphere")} onHover={() => { }} />
+                                                    <MenuItem className="font-bold text-[#2f78c4]" label="Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} onHover={() => { }} />
 
                           </div>
                         </div>
