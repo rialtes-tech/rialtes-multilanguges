@@ -20,19 +20,19 @@ const webinars = [
     backgroundImage: "/images/webinar/Webinar_13-May-Carousal.webp",
     url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
   },
-  // {
-  //   id: 2,
-  //   title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
-  //   date: "May 08, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: {
-  //     name: "Divya Agarwal",
-  //     role: "Associate Software Engineer",
-  //     image: "/images/webinar/Divya.webp",
-  //   },
-  //   backgroundImage: "/images/webinar/Webinar_8.webp",
-  //   url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
-  // },
+  {
+    id: 2,
+    title: "Discover the Agentic Capabilities of Agentforce",
+    date: "May 15, 2025",
+    time: "10:00 AM CST",
+    speaker: {
+      name: "Lokesh Adhikari",
+      role: "Software Engineer - Salesforce",
+      image: "/images/webinar/Lokesh.webp",
+    },
+    backgroundImage: "/images/webinar/Webinar_15 May 25_featured Carousal.webp",
+    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
+  },
 
 ];
 
@@ -43,7 +43,7 @@ const allWebinars = [
     date: "May 08, 2025",
     time: "10:00 AM CST",
     speaker: "Divya Agarwal",
-    position: "Senior Principal Consultant, SAP",
+    position: "Software Engineer - Salesforce",
     image: "/images/webinar/webinar-thumb.webp",
     url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
 
@@ -54,7 +54,7 @@ const allWebinars = [
     date: "May 06, 2025",
     time: "10:00 AM CST",
     speaker: "Lokesh Adhikari",
-    position: "Associate Software Engineer",
+    position: "Software Engineer - Salesforce",
     image: "/images/webinar/Webinar_6.webp",
     url: 'insights/webinars/let-whatsApp-in-salesforce-with-agentChat'
   },
@@ -329,7 +329,7 @@ export default function About() {
                             width: "100%",
                           }}
                         >
-                          <div className="w-full md:w-2/5 relative min-h-[250px] md:h-full overflow-hidden">
+                          <div key={index} className="w-full md:w-2/5 relative min-h-[250px] md:h-full overflow-hidden">
 
                             <div
                               className="h-full w-full"
