@@ -24,6 +24,11 @@ const ThoughtLeadershipSection = () => {
     ];
     return (
         <section className="relative w-full xl:mt-[84px] mt-[64px]">
+            <Seo
+                title="Automotive Industry Cloud Solutions | Rialtes"
+                description="From AI to real-time analytics, automotive industry cloud solutions are redefining how auto brands innovate. Discover what’s next in cloud-powered mobility."
+                canonical="https://www.rialtes.com/industry/automotive-industry-cloud-solutions/"
+            />
             {/* Mobile View */}
             <div className="block md:hidden">
                 <img

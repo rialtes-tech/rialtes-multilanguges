@@ -982,6 +982,11 @@ const GlobalPresenceSection = () => {
 export default function () {
     return (
         <>
+            <Seo
+                title="SAP Datasphere Implementation with AI Consulting Services | Rialtes"
+                description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
+                canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
+            />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 <div className="xl:block hidden">
@@ -1077,7 +1082,7 @@ export default function () {
               md:ml-[100px] md:w-[calc(100%-100px)]
               text-[#000000] pb-10"
             >
-                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"max-w-[66rem] xl:font-normal xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] mt-[52px] xl:mt-[89px]"} />
+                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"max-w-[66rem] xl:font-normal xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] mt-[52px] xl:mt-[89px]"} />
             </div >
         </>
     )
