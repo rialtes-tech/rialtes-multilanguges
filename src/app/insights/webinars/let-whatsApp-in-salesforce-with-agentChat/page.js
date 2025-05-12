@@ -37,7 +37,7 @@ export default function About() {
     }, []);
 
 
-    const fullUrl = "https://rialtes.netlify.app/insights/webinars/let-whatsApp-in-salesforce-with-agentChat";
+    const fullUrl = "https://rialtes.netlify.app/insights/webinars/let-whatsapp-in-salesforce-with-agentchat";
 
     return (
         <div className="min-h-screen">

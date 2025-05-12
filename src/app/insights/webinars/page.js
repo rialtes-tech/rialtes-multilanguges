@@ -56,7 +56,7 @@ const allWebinars = [
     speaker: "Lokesh Adhikari",
     position: "Software Engineer - Salesforce",
     image: "/images/webinar/Webinar_6.webp",
-    url: 'insights/webinars/let-whatsApp-in-salesforce-with-agentChat'
+    url: 'insights/webinars/let-whatsapp-in-salesforce-with-agentchat'
   },
 
   // {
