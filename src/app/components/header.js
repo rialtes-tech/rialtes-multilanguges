@@ -313,11 +313,11 @@ const Header = () => {
   return (
     <section>
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
-      <div className="">
+      <div className="header-navbar">
         <div className="bg-white  shadow-md lg:pr-0 hidden xl:block md:block lg:block">
           <div className="md:grid hidden relative bg-white my-auto mx-auto xl:gap-6 md:gap-4 
-        custom-container top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6" style={{ border: '6px solid pink' }}>
-            <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 pr-0" style={{ border: '6px solid blue' }}>
+        custom-container top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6">
+            <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 pr-0">
               <Link href="/" passHref>
                 <Image
                   className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
@@ -332,7 +332,7 @@ const Header = () => {
               </Link>
             </div>
 
-            <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-[12px] md:gap-[12px] items-center text-nowrap ml-auto" style={{ border: '6px solid red' }}>
+            <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-[12px] md:gap-[12px] items-center text-nowrap ml-auto">
               <MenuItem
                 label="Solutions"
                 link="/"
@@ -1352,7 +1352,7 @@ const Header = () => {
 
       {/* ///mobile menu */}
       <div>
-        <div className="xl:hidden lg:hidden md:hidden flex justify-between items-center px-[35px] py-3" id="mobile-menu">
+        <div className="xl:hidden lg:hidden md:hidden flex justify-between items-center custom-container py-3" id="mobile-menu">
           <Link href='/'>
             <Image
               loading="lazy"

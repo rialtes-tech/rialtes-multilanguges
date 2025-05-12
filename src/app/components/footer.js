@@ -69,8 +69,8 @@ const Footer = () => {
   return (
     <footer
       className={`${isCentered ? "flex" : "xl:px-0 lg:px-6 px-[35px]"
-        } pt-10 h-auto footer-background pb-10 flex flex-col`} style={{ border: '6px solid red' }}
-    >        <div className="flex flex-col lg:flex-row md:flex-row border-b-[1px] custom-container xl:gap-[22rem] lg:gap-10 pb-10 mt-4 w-full xl:pr-0 lg:pr-[50px] xl:justify-start mx-auto"  style={{ border: '6px solid pink' }}>
+        } pt-10 h-auto footer-background pb-10 flex flex-col`}
+    >        <div className="flex flex-col lg:flex-row md:flex-row border-b-[1px] custom-container xl:gap-[22rem] lg:gap-10 pb-10 mt-4 w-full xl:pr-0 lg:pr-[50px] xl:justify-start mx-auto">
 
         <div className="flex gap-5 lg:flex-row flex-col">
           <Image
