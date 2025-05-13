@@ -196,9 +196,9 @@ export default function Page() {
                     <div className="container  text-black mx-auto pl-6 h-full flex flex-col xl:justify-center">
                         <div className="flex flex-col xl:place-self-end mt-[20%] xl:mt-0 ml-[50px] xl:ml-0">
                             <h3 className="text-[200] font-bold mb-2">SAP Consulting</h3>
-                            <h1>
+                            <h2>
                                 Leaning towards a better tomorrow.
-                            </h1>
+                            </h2>
                             <h3 className="w-[75%] font-bold xl:block hidden">Confidently Reduce efforts and increase efficiency with SAP solutions.</h3>
                             <div className="md:w-32 w-20 pt-6">
                                 <Image

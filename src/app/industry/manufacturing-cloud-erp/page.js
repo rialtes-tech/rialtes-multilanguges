@@ -180,7 +180,7 @@ export default function Page() {
             src="/images/industry/manufacture/prebuilt.webp"
             alt=""
             priority
-            className="w-full xl:h-[810px] h-[517px]"
+            className="w-full xl:h-[755px] h-[517px]"
             width={0}
             height={0}
           />

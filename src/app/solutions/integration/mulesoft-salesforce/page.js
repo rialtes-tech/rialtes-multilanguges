@@ -13,9 +13,9 @@ import Seo from "@/app/components/Seo";
 const ContentSection = () => (
   <div className="lg:py-28 py-14">
     <div className="containerr flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
-      <h1 className="w-full md:max-w-[50%] max-w-full">
+      <h2 className="w-full md:max-w-[50%] max-w-full">
         Leading Platform to Unlock an Integrated View of Your Business
-      </h1>
+      </h2>
       <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base">
         An integration solution should help businesses establish connectivity
         and address integration challenges. MuleSoft offers a future-proof,

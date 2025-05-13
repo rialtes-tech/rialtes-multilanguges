@@ -276,7 +276,7 @@ const Home = () => {
                     <div className='xl:col-span-4 col-span-12 xl:border-r-[2px] border-black-900 mr-[-16px]'></div>
 
                     <div className='xl:col-span-8 col-span-12 xl:ml-[6rem]'>
-                        <h1 className="xl:text-[130px] font-bold  xl:ml-0  text-[33px] outline-text pl-[22px] xl:pl-0 xl:h-[125px] xl:mt-[-8px] mt-0 border-l-[2px] xl:border-none border-gay-300 ml-32">with Impact</h1>
+                        <h2 className="xl:text-[130px] font-bold  xl:ml-0  text-[33px] outline-text pl-[22px] xl:pl-0 xl:h-[125px] xl:mt-[-8px] mt-0 border-l-[2px] xl:border-none border-gay-300 ml-32">with Impact</h2>
                         <h3 className='xl:text-[34px] text-[26px] text-[#0077CE]  font-bold !mt-[4.25rem] pr-16 xl:pr-0'>Beyond Business: A Commitment to Change</h3>
                         <p className='mt-5 pr-8 xl:pr-0'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                     </div>
@@ -383,9 +383,9 @@ const Home = () => {
                             />
                         </div>
                         <div className="text-white space-y-6 bg-[#184671] p-10   xl:pl-20  pb-0 pr-0 xl:mt-[80px] xl:h-[610px] h-[400px]">
-                            <h1 className="xl:text-[26px] text-[16px] mb-10 mt-16">
+                            <div className="xl:text-[26px] text-[16px] mb-10 mt-16">
                                 {carouselData[activeIndexInsights].title}
-                            </h1>
+                            </div>
                             <Link href={carouselData[activeIndexInsights].link} className='!mt-10'>
                                 <p
                                     ref={refs[5]}
