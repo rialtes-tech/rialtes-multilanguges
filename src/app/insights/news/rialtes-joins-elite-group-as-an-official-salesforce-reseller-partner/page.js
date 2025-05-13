@@ -30,7 +30,7 @@ export default function Page() {
                     <div className="xl:block hidden">
 
                         <Image
-                            src="/images/news/news-12-banner.webp"
+                            src="/images/news/news-banner.webp"
                             alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
                             fill
                             priority
