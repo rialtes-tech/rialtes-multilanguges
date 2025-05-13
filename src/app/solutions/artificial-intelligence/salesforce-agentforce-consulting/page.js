@@ -63,7 +63,7 @@ export default function Agentforce() {
             image: "/images/blog/blog-1-long-thumb.webp",
             industry: "Generic",
             date: "30 Sept 2024",
-            heading:'How Agentforce works',
+            heading: 'How Agentforce works',
             url: 'insights/blogs/how-salesforce-agentforce-actually-works',
             title: "How Salesforce Agentforce Actually Works",
         },
@@ -72,16 +72,16 @@ export default function Agentforce() {
             image: "/images/blog/blog-2-long-thumb.webp",
             industry: "Generic",
             date: "21 Oct 2024",
-            heading:'Atlas Reasoning Engine',
+            heading: 'Atlas Reasoning Engine',
             url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
             title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
         },
         {
-            id: 3, 
+            id: 3,
             image: "/images/blog/blog-3-long-thumb.webp",
             industry: "Generic",
             date: "28 Oct 2024",
-            heading:'Agents vs. Copilots vs. Bots',
+            heading: 'Agents vs. Copilots vs. Bots',
             url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
             title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
         },
@@ -90,7 +90,7 @@ export default function Agentforce() {
             image: "/images/blog/blog-4-long-thumb.webp",
             industry: "Generic",
             date: "25 Nov 2024",
-            heading:'Agentforce Testing Center',
+            heading: 'Agentforce Testing Center',
             url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
             title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         },
@@ -99,7 +99,7 @@ export default function Agentforce() {
             image: "/images/blog/blog-12-long-thumb.webp",
             industry: "Generic",
             date: "17 Sept 2024",
-            heading:'Integrate Agenforce with Your ERP',
+            heading: 'Integrate Agenforce with Your ERP',
             url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
             title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
         },
@@ -108,7 +108,7 @@ export default function Agentforce() {
             image: "/images/blog/blog-11-long-thumb.webp",
             industry: "Generic",
             date: "17 Sept 2024",
-            heading:'Slack Collaboration with Agentforce',
+            heading: 'Slack Collaboration with Agentforce',
             url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce',
             title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
         },
@@ -118,7 +118,7 @@ export default function Agentforce() {
             image: "/images/blog/blog-14-long-thumb.webp",
             industry: "Generic",
             date: "17 Sept 2024",
-            heading:'Top Features of Agentforce',
+            heading: 'Top Features of Agentforce',
             url: 'insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
             title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
         },
@@ -160,19 +160,17 @@ export default function Agentforce() {
             imageUrl: '/images/salesforce-consulting-services/Healthcare and life sciences.webp',
             title: 'Healthcare and life sciences',
             description: 'Engage with patients, providers, and payers to act across multiple channels.'
-
         },
-
     ]
 
     return (
         <section>
-               <Seo
-        title="Agentforce Consulting Services | Rialtes"
-        description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
-        keywords="home, website, welcome"
-        canonical={"https://demo.com/"}
-      />
+            <Seo
+                title="Agentforce Consulting Services | Rialtes"
+                description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
+                keywords="home, website, welcome"
+                canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+            />
 
             <div className='relative group overflow-hidden'>
                 <Image
@@ -190,22 +188,21 @@ export default function Agentforce() {
                 <div className="grid xl:grid-cols-12 absolute px-6  lg:pr-0  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
                     <div className="xl:col-span-7 col-span-12"></div>
                     <div className="xl:col-span-4 col-span-12">
-                    <h4 className="font-bold">Agentforce</h4>
-                    <h2 className="mt-3 xl:text-[60px] text-[26px]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
-                    <div className="mt-10">
-                        <Image
-                            src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                            className="w-[30%] h-full bg-transperent"
-                            alt="Leadership Team"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            priority
-                        />
-                    </div>
+                        <h4 className="font-bold">Agentforce</h4>
+                        <h2 className="mt-3 xl:text-[60px] text-[26px]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
+                        <div className="mt-10">
+                            <Image
+                                src="/images/salesforce-consulting-services/salesforce-partner.webp"
+                                className="w-[30%] h-full bg-transperent"
+                                alt="Leadership Team"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                priority
+                            />
+                        </div>
                     </div>
                     <div className="xl:col-span-1 col-span-12"></div>
-                   
                 </div>
             </div>
 
@@ -269,7 +266,7 @@ export default function Agentforce() {
                         )
                     })}
                 </div>
-                <LearnMore/>
+                <LearnMore />
 
             </section>
             <section className="mt-20 px-6 xl:px-[280px] md:pl-[100px]">
@@ -301,7 +298,7 @@ export default function Agentforce() {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                               
+
                                 priority
                             />
                         </div>
@@ -319,7 +316,7 @@ export default function Agentforce() {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                    
+
                                 priority
                             />
                         </div>
@@ -358,7 +355,7 @@ export default function Agentforce() {
 
                                 <h4 className="mt-5">{benifite.title}</h4>
                                 <p className="mt-3">{benifite.description}</p>
-                               <LearnMore/>
+                                <LearnMore />
                             </div>
                         )
                     })}

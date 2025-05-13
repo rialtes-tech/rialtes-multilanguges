@@ -7,6 +7,14 @@ import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 
 const latestCaseStudy = [
+   {
+    id: 1,
+    image: "/images/news/new-12-may.webp",
+    industry: "News",
+    date: "12 May 2025",
+    url: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",
+    title: "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
+  },
   {
     id: 2,
     image: "/images/news/news2.webp",
@@ -15,8 +23,10 @@ const latestCaseStudy = [
     url: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
     title: "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
   },
-  {
-    id: 1,
+ 
+ 
+   {
+    id: 3,
     image: "/images/news/generic thumb.webp",
     industry: "News",
     date: "4 April 2025",
@@ -24,15 +34,6 @@ const latestCaseStudy = [
     title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
   },
  
-  // {
-
-  //   id: 2,
-  //   image: "/images/news/AdobeStock_1191609729.webp",
-  //   industry: "News",
-  //   date: "4 April 2025",
-  //   url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-  //   title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh to Tap into Unexplored",
-  // },
   // {
   //   id: 3,
   //   image: "/images/news/AdobeStock_1336683433.webp",

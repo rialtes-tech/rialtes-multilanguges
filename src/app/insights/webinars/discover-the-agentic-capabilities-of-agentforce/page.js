@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function() {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-05-08T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
+        const targetDate = new Date("2025-05-15T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
         const difference = targetDate - now;
 
@@ -37,21 +37,20 @@ export default function() {
     }, []);
 
 
-    const fullUrl = "https://rialtes.netlify.app/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"
-    const titleSlug = "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud";
+    const fullUrl = "https://rialtes.netlify.app/insights/webinars/discover-the-agentic-capabilities-of-agentforce"
+    const titleSlug = "Discover the Agentic Capabilities of Agentforce";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="Salesforce Automotive Cloud Webinar: Transforming Customer Engagement"
-                description="Join our webinar to explore how Salesforce Automotive Cloud enhances customer journeys with unified data, AI-driven insights, and seamless automation."
-                canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
+                title="AI Webinar: Exploring Agentic Capabilities with Agentforce | Rialtes"
+                description="Join our AI webinar to discover how Agentforce’s agentic AI transforms enterprise workflows with autonomous agents, context, and smart integration."
+                canonical="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
             />
-
 
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
-                    src="/images/webinar/thumbc.webp"
+                    src="/images/webinar/Webinar_15 May 25_webinar Banner.webp"
                     alt="Webinar Header"
                     fill
                     style={{ objectFit: "cover", objectPosition: "70% 20%" }}
@@ -84,7 +83,6 @@ export default function() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-
                                 <Image
                                     src="/images/case-studies/linkedin.svg"
                                     alt="LinkedIn"
@@ -123,12 +121,12 @@ export default function() {
                             </a>
                         </div> */}
                     </div>
-                    <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal">Deliver End-to-End Customer Journey with Salesforce Automotive Cloud</h1>
+                    <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal">Discover the Agentic Capabilities of Agentforce</h1>
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
-                                src="/images/webinar/Divya.webp"
-                                alt="RealForce Banking Module - ACH"
+                                src="/images/webinar/Lokesh.webp"
+                                alt="Discover the Agentic Capabilities of Agentforce"
                                 priority
                                 className="xl:w-[256px] xl:h-[256px] w-full h-auto"
                                 width={0}
@@ -137,31 +135,31 @@ export default function() {
                         </div>
                         <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">
                             <h3 className="xl:text-[24px] text-[#0092E0]">Speaker</h3>
-                            <h3 className="mt-3 xl:text-[29px] font-bold mb-3">Divya Agarwal</h3>
+                            <h3 className="mt-3 xl:text-[29px] font-bold mb-3">Lokesh Adhikari</h3>
                             <h3 className="mt-[-10px] xl:text-[24px]">Software Engineer - Salesforce</h3>
                         </div>
                     </div>
                     <p className="mt-16 xl:pr-32">Don’t miss this opportunity to join us for an exclusive webinar to explore how <strong>Salesforce Automotive Cloud</strong> is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.</p>
 
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
-                    <p className="mt-5 xl:pr-32"><strong>Comprehensive Overview:</strong> Understand the core capabilities of Salesforce Automotive Cloud and how it supports a connected customer journey in the automotive sector.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Introduction to the Automotive Cloud:</strong> Learn how the platform addresses industry-specific challenges and use cases tailored to auto manufacturers, dealers, and mobility service providers.</p>
-                    <p className="mt-5"><strong>Key Insights and Stakeholder Scenarios:</strong> Explore how various stakeholders, from sales to service, can leverage Automotive Cloud for personalized engagement and seamless collaboration.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Unified Customer Data: </strong> See how you can unify every touchpoint across sales, service, marketing, and post-sale support for a 360° customer view.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Streamlined Sales & Service:</strong> Experience smarter workflows and automation that enhance response times, reduce friction, and drive conversions.</p>
+                    <p className="mt-5 xl:pr-32"><strong>What is Agentforce? </strong> Understand the fundamentals of Agentic AI and how Agentforce stands apart from traditional bots.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Autonomous Task Execution: </strong>See how intelligent agents can complete tasks without manual intervention.</p>
+                    <p className="mt-5"><strong>Human-like, Contextual Interactions:</strong> Explore how Agentforce understands context, maintains conversation memory, and engages in natural, personalized conversations.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Seamless Integration with Your Tech Stack: </strong> how Agentforce easily plugs into your existing Salesforce ecosystem and other enterprise tools.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Real-World Impact & Bonus Capabilities: </strong> See how Agentforce delivers measurable value across industries and discover additional capabilities like multi-channel support, and AI-driven insight</p>
 
                     <h3 className="mt-16 text-[#0092E0]">Who Should Attend?</h3>
                     <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
 
-                        <li className="pb-2 mt-5">Automotive Sales & Service Leaders</li>
-                        <li className="pb-2">CRM & Digital Transformation Heads</li>
-                        <li className="pb-2">Dealership Owners & Operators</li>
-                        <li className="pb-2">Auto Manufacturer IT Teams</li>
-                        <li className="pb-2">Salesforce Admins & Consultants</li>
-                        <li className="pb-2">Anyone seeking to deliver high-performance customer experiences in the auto industry</li>
+                        <li className="pb-2 mt-5">Business Leaders</li>
+                        <li className="pb-2">Innovation & AI Teams</li>
+                        <li className="pb-2">IT Decision-Makers</li>
+                        <li className="pb-2">Salesforce Administrators and Consultants</li>
+                        <li className="pb-2">Innovation and Digital Transformation Teams</li>
+                        <li className="pb-2">Anyone looking to supercharge workflows with intelligent, agentic AI solutions</li>
 
                     </ul>
-                    <Link href="https://us06web.zoom.us/webinar/register/WN_Jy51QtZpQx2b7AXfPq_gCg#/registration">
+                    <Link href="https://us06web.zoom.us/webinar/register/WN_tRIORWGVReWrt0zEPqV7gQ">
                         <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
 
                     </Link>
@@ -169,11 +167,11 @@ export default function() {
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
                     <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
-                        <h2 className="font-extrabold">08</h2>
+                        <h2 className="font-extrabold">15</h2>
                         <h3>May 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                        <Link href="https://us06web.zoom.us/webinar/register/WN_Jy51QtZpQx2b7AXfPq_gCg#/registration">
+                        <Link href="https://us06web.zoom.us/webinar/register/WN_tRIORWGVReWrt0zEPqV7gQ">
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
 
                         </Link>

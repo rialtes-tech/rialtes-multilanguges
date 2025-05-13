@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
-export default function ContactForm({ title, subtitle, className, padding }) {
+export default function ContactForm({ title, subtitle,subtitle1, className, padding }) {
 
     const [isRobotChecked, setIsRobotChecked] = useState(false);
     const [captchaValue, setCaptchaValue] = useState(false);
@@ -97,8 +97,13 @@ export default function ContactForm({ title, subtitle, className, padding }) {
             </h2>
 
             {subtitle && (
-                <p className="mt-4 xl:text-[28px] text-[16px] xl:w-[76%]">
+                <p className="mt-4 xl:text-[20px] text-[16px] xl:w-[50%] font-light ">
                     {subtitle}
+                </p>
+            )}
+            {subtitle1 && (
+                <p className="mt-4 xl:text-[20px] text-[16px] xl:w-[50%] font-light xl:mt-[24px]">
+                    {subtitle1}
                 </p>
             )}
             <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
