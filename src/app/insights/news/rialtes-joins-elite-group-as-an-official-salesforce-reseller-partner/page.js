@@ -26,7 +26,7 @@ export default function Page() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
             >
 
-                <section className="relative  xl:h-[650px] overflow-hidden">
+                <section className="relative  xl:h-[739px] overflow-hidden">
                     <div className="xl:block hidden">
 
                         <Image
