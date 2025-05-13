@@ -199,7 +199,7 @@ const Header = () => {
           label: 'Education', href: '/industry/connected-education',
         },
         {
-          label: 'Automotive', href: '/industry/automotive-industry',
+          label: 'Automotive', href: '/industry/automotive-industry-cloud-solutions',
         },
 
       ],
@@ -1193,7 +1193,7 @@ const Header = () => {
                         <div className="font-bold mt-5">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
                         <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/automotive-industry' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry")}
+                          <Link href='/industry/automotive-industry-cloud-solutions' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry-cloud-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>

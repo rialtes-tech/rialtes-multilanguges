@@ -986,9 +986,9 @@ export default function page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-20 xl:mt-20 mt-[90px]">
                         <div className="xl:col-span-6 col-span-12 xl:pr-16 pr-[35rem] xl:w-[80%] w-[90%]">
                             <h3 className="text-[#FFFFFF] xl:text-[24px] text-[18px] font-bold xl:mb-[20px] mb-[15.5px] mt-10 leading-[22px] xl:leading-[60px]">Automotive Industry Solutions</h3>
-                            <h1 className="text-[#FFFFFF] xl:text-[60px] text-[24px] leading-[29px] xl:leading-[73px] font-normal">
+                            <h2 className="text-[#FFFFFF] xl:text-[60px] text-[24px] leading-[29px] xl:leading-[73px] font-normal">
                                 Driving Digital Transformation from Showroom to Service Bay
-                            </h1>
+                            </h2>
                         </div>
                         <div className="xl:col-span-6 col-span-12">
                         </div>
@@ -1002,7 +1002,7 @@ export default function page() {
             <section className="mx-[32px] xl:mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
               md:ml-[100px] md:w-[calc(100%-100px)] xl:mt-[112px] mt-[62px]">
-                <h2 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[70%]">Powering the Next-Generation Automotive Ecosystem with Rialtes</h2>
+                <h1 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[70%]">Powering the Next-Generation Automotive Ecosystem with Rialtes</h1>
                 <div className="mt-[22px] xl:mt-[48px]">
                     <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] xl:w-[68%] w-[96%]">The automotive industry is in the midst of a seismic shift — from traditional dealer-centric models to a connected, customer-first mobility ecosystem. OEMs, dealers, and suppliers are challenged to deliver seamless omnichannel experiences, manage complex vehicle lifecycles, and foster brand loyalty in a hyper-competitive market.</p>
                     <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] mt-[22px] xl:mt[48px] xl:w-[68%] w-[96%]"> Rialtes partners with leading automotive brands to navigate these disruptions, combining deep domain expertise with cutting-edge technologies like SAP, Salesforce Automotive Cloud, Marketing Cloud, Revenue Cloud, and more. With offices in the U.S., Canada, India, and Singapore, and certified automotive solution experts, we deliver end-to-end digital transformation — from lead capture to warranty service and beyond.</p>
