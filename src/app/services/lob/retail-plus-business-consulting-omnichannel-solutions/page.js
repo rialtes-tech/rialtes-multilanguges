@@ -9,7 +9,9 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 
 
-export default function Page() {
+
+export default function Retail({ items }) {
+
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -20,24 +22,28 @@ export default function Page() {
             />
 
             <section className="relative h-[435px] lg:h-[650px]">
-                <div className="xl:block hidden">
-                    <Image
-                        src="/images/industry/retail/banner.webp"
-                        alt=""
-                        fill
-                        style={{ objectFit: "cover" }}
-                        priority
-                    />
-                </div>
-                <div className="xl:hidden block">
-                    <Image
-                        src="/images/industry/retail/bannerMob.webp"
-                        alt=""
-                        fill
-                        priority
-                    />
-                </div>
 
+                        <div className="xl:block hidden">
+                            <Image
+                                src="/images/industry/retail/banner.webp"
+                                alt=""
+                                fill
+                                style={{ objectFit: "cover" }}
+                                priority
+                            />
+                            </div>
+
+                            <div className="xl:hidden block">
+                                <Image
+                                    src="/images/industry/retail/bannerMob.webp"
+                                    alt=""
+                                    fill
+                                    priority
+                                />
+                            </div>
+
+                        
+                   
                 <div
                     className="
          h-full relative
@@ -420,23 +426,23 @@ export default function Page() {
                 <h3 className="xl:text-[26px] text-[20px] text-white font-normal leading-tight">With RialChat, enterprises can deliver personalized, secure, and scalable customer interactions — directly on WhatsApp, embedded within Salesforce.</h3>
             </div>
 
-         
+
             <section className="relative h-[1026px] xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
                 <div className="xl:block hidden">
-                <Image
-                    src='/images/industry/retail/why.webp'
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                />
+                    <Image
+                        src='/images/industry/retail/why.webp'
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src='/images/industry/retail/why-mobile.webp'
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                />
+                    <Image
+                        src='/images/industry/retail/why-mobile.webp'
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                    />
                 </div>
                 <div
                     className="
