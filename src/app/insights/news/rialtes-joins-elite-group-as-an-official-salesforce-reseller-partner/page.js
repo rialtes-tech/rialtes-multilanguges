@@ -26,14 +26,16 @@ export default function Page() {
         xs:mx-4 xs:w-[calc(100%-32px)]"
             >
 
-                <section className="relative  xl:h-[650px] overflow-hidden">
+                <section className="relative overflow-hidden">
                     <div className="xl:block hidden">
 
                         <Image
-                            src="/images/news/news-banner.webp"
+                            src="/images/news/sales-news1.webp"
                             alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
-                            fill
                             priority
+                            className="h-[650px] w-full"
+                            width={0}
+                            height={0}
                         />
 
                     </div>
