@@ -748,7 +748,7 @@ export default function Page() {
                                 </li>
                                 <li>Connects sales, service, and compliance teams in a single interface.</li>
                             </ul>
-                        </div>
+                        </div> 
                     </div>
                     <div className="h-full  xl:mr-[142px] ">
                         <p className="xl:text-[25px] mr-[35px] py-8 pr-[45px] xl:py-10 xl:mr-0 bg-[#068EDA] text-[18px] p-10 pl-10 text-white xl:mt-[5rem] mt-[3rem] absolute xl:w-[65%] xl:pr-32 leading-tight">Agentforce delivers a connected, compliant, and patient-first approach to sales and service in Medical Devices.</p>

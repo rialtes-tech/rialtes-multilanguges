@@ -158,7 +158,7 @@ const Header = () => {
           subLinks: [
             { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },
             { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
-              { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
+              // { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
           ],
 
 
@@ -959,10 +959,10 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
                               onHover={() => { }} />
                           </div>
-                          <div>
+                          {/* <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
                               onHover={() => { }} />
-                          </div>
+                          </div> */}
 
                         </div>
                       </div>
