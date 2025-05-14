@@ -40,10 +40,10 @@ export default function InsightsPage() {
   return (
     <div className="min-h-scree">
       <Seo
-                title="Insights | Blogs, Case Studies and Events"
-                description="Explore our latest insights, blogs, case studies and upcoming events"
-                canonical="https://www.rialtes.com/insights/"
-            />
+        title="Insights | Blogs, Case Studies and Events"
+        description="Explore our latest insights, blogs, case studies and upcoming events"
+        canonical="https://www.rialtes.com/insights/"
+      />
 
       {/* Hero Section with Deep Blue Gradient Background */}
       <section className="relative h-[350px] md:h-[450px] xl:h-[650px] bg-[url('/images/insights/insight-header-banner.webp')] bg-cover bg-center overflow-hidden">
@@ -131,18 +131,18 @@ export default function InsightsPage() {
               >
                 <div className="flex flex-row items-center mb-4">
                   <span className="text-[#0092E0] font-medium">
-                  Salesforce Agentforce
+                    Salesforce Agentforce
                   </span>
                   <span className="mx-2">|</span>
                   <span className="text-sm">30 Sept 2024</span>
                 </div>
 
                 <h3 className="mb-3">
-                How Salesforce Agentforce Actually Works
+                  How Salesforce Agentforce Actually Works
                 </h3>
 
                 <p className="mb-4">
-                Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
+                  Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
                 </p>
 
                 <Link
@@ -206,18 +206,18 @@ export default function InsightsPage() {
                 >
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
-                    Salesforce Agentforce
+                      Salesforce Agentforce
                     </span>
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">21 Oct 2024</span>
                   </div>
 
                   <h3 className="mb-3">
-                  The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
+                    The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
                   </h3>
 
                   <p className="mb-2">
-                  As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation.
+                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation.
                   </p>
 
                   <div className="mt-auto">
@@ -383,25 +383,25 @@ export default function InsightsPage() {
             >
 
               <div className="md:w-2/5 h-[300px] md:h-[400px] overflow-hidden">
-                  <div
-                    className="h-full w-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "case-study-1"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/case-studies/case-study-8_thumb.webp"
-                      alt="Diversity illustration"
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
-                      priority
-                    />
-                  </div>
+                <div
+                  className="h-full w-full"
+                  style={{
+                    transition: "transform 0.3s ease",
+                    transform:
+                      hoveredBlog === "case-study-1"
+                        ? "scale(1.05)"
+                        : "scale(1)",
+                  }}
+                >
+                  <Image
+                    src="/images/case-studies/case-study-8_thumb.webp"
+                    alt="Diversity illustration"
+                    fill
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
               <div className="w-full h-full">
                 <div className="md:w-3/5 p-6 xl:p-12 max-w-2xl">
@@ -412,9 +412,9 @@ export default function InsightsPage() {
                     <span className="mx-2">|</span>
                     <span className="text-sm">25 Oct 2024</span>
                   </div>
-                    <h3 className="mb-3">
+                  <h3 className="mb-3">
                     Salesforce Health Cloud, Prior Authorization
-                    </h3>
+                  </h3>
                   <p>
                     A global medical technology company that develops and
                     manufactures innovative products used by doctors to
@@ -847,7 +847,7 @@ export default function InsightsPage() {
       </div> */}
 
       {/* Webinar Section */}
-       <div
+      <div
         className="
         container
         ml-[15px] w-[calc(100%-15px)] mr-0
@@ -858,7 +858,8 @@ export default function InsightsPage() {
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start md:flex-row mb-8">
-            <h2 className="text-3xl font-normal mb-2 md:mb-0">Webinars</h2>
+            {/* <h2 className="text-3xl font-normal mb-2 md:mb-0">Webinars</h2> */}
+            <h2 className="mb-1">Webinars</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/webinars"
@@ -872,16 +873,18 @@ export default function InsightsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+            {/* webinar 3 */}
+
             <div
               className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-1")}
-              onMouseLeave={handleMouseLeave("webinar-1")}
-              onClick={handleClick("/insights/webinars/let-whatsApp-in-salesforce-with-agentChat")}
+              onMouseEnter={handleMouseEnter("webinar-2")}
+              onMouseLeave={handleMouseLeave("webinar-2")}
+              onClick={handleClick("/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
                 backgroundColor:
-                  hoveredBlog === "webinar-1" ? "#f1f1f1" : "transparent",
+                  hoveredBlog === "webinar-2" ? "#f1f1f1" : "transparent",
               }}
             >
               <div className="">
@@ -891,13 +894,13 @@ export default function InsightsPage() {
                     style={{
                       transition: "transform 0.3s ease",
                       transform:
-                        hoveredBlog === "webinar-1"
+                        hoveredBlog === "webinar-2"
                           ? "scale(1.05)"
                           : "scale(1)",
                     }}
                   >
                     <Image
-                      src="/images/webinar/Webinar_6.webp"
+                      src="/images/webinar/Webinar_13 May 25_webinar thumb.webp"
                       alt="Leadership Team"
                       width={0}
                       height={0}
@@ -912,22 +915,19 @@ export default function InsightsPage() {
                   </div>
                 </div>
               </div>
-              <div
-                className="p-6"
-              // style={{ backgroundColor: isHovered ? "#f1f1f1" : "ffffff" }}
-              >
-                <h3 className=" text-[#134874] mb-4 min-h-[4rem]">
-                Let’s WhatsApp in Salesforce with AgentChat
+              <div className="p-6">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                  Databricks and Datasphere — What’s in SAP Business Data Cloud?
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
-                    <span className="font-medium">May 06, 2025</span>
+                    <span className="font-medium">May 13, 2025</span>
                     <span className="mx-2">|</span>
                     <span>10:00 AM CST</span>
                   </div>
                   <div className="space-y-1">
-                    <div className="font-bold">Lokesh Adhikari</div>
-                    <div className="">Software Engineer - Salesforce</div>
+                    <div className="font-bold">Akshay Kale</div>
+                    <div className="">Sr. Managing Director – SAP Services</div>
                   </div>
                 </div>
                 <Link
@@ -952,6 +952,7 @@ export default function InsightsPage() {
                 </Link>
               </div>
             </div>
+            {/* webinar 2 */}
 
             <div
               className="border border-gray-200 overflow-hidden bg-white"
@@ -995,7 +996,7 @@ export default function InsightsPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                Deliver End-to-End Customer Journey with Salesforce Automotive Cloud
+                  Deliver End-to-End Customer Journey with Salesforce Automotive Cloud
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
@@ -1030,6 +1031,88 @@ export default function InsightsPage() {
                 </Link>
               </div>
             </div>
+            {/* webinar 1 */}
+            <div
+              className="border border-gray-200 overflow-hidden bg-white"
+              onMouseEnter={handleMouseEnter("webinar-1")}
+              onMouseLeave={handleMouseLeave("webinar-1")}
+              onClick={handleClick("/insights/webinars/let-whatsapp-in-salesforce-with-agentchat")}
+              style={{
+                cursor: "pointer",
+                transition: "background-color 0.3s ease",
+                backgroundColor:
+                  hoveredBlog === "webinar-1" ? "#f1f1f1" : "transparent",
+              }}
+            >
+              <div className="">
+                <div className="w-full overflow-hidden">
+                  <div
+                    className="w-full h-full"
+                    style={{
+                      transition: "transform 0.3s ease",
+                      transform:
+                        hoveredBlog === "webinar-1"
+                          ? "scale(1.05)"
+                          : "scale(1)",
+                    }}
+                  >
+                    <Image
+                      src="/images/webinar/Webinar_6.webp"
+                      alt="Leadership Team"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="p-6"
+              // style={{ backgroundColor: isHovered ? "#f1f1f1" : "ffffff" }}
+              >
+                <h3 className=" text-[#134874] mb-4 min-h-[4rem]">
+                  Let’s WhatsApp in Salesforce with AgentChat
+                </h3>
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center">
+                    <span className="font-medium">May 06, 2025</span>
+                    <span className="mx-2">|</span>
+                    <span>10:00 AM CST</span>
+                  </div>
+                  <div className="space-y-1">
+                    <div className="font-bold">Lokesh Adhikari</div>
+                    <div className="">Software Engineer - Salesforce</div>
+                  </div>
+                </div>
+                <Link
+                  href=""
+                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
+                >
+                  <span>Register Now</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+
 
             {/* <div
               className="border border-gray-200 overflow-hidden bg-white"
@@ -1119,7 +1202,7 @@ export default function InsightsPage() {
             </Link>
           </div>
         </section>
-      </div> 
+      </div>
 
       {/* Contact Form Section */}
       <div

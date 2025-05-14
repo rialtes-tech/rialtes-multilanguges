@@ -111,7 +111,7 @@ export default function Page() {
                 <div className=" xl:ml-[280px] mx-[35px]">
                     <div className=" flex flex-col text-white relative  xl:py-10 py-6">
                         <div className="xl:mt-20 mt-8">
-                            <h1 className="text-[26px] xl:text-[60px]">EBSPlus</h1>
+                            <h2 className="text-[26px] xl:text-[60px]">EBSPlus</h2>
                             <div className="grid xl:grid-cols-12 grid-cols-1 items-center xl:mt-5 mt-3">
                                 <div className="xl:col-span-9 col-span-12">
                                     <h2 className="text-[22px] xl:text-[42px] xl:font-bold font-medium xl:mt-5 leading-tight pr-10 xl:pr-0">
@@ -210,9 +210,9 @@ export default function Page() {
                     {/* Upper Content */}
                     <div className="grid xl:grid-cols-12 grid-cols-12 items-center text-white">
                         <div className="xl:col-span-7 col-span-12">
-                            <h1 className="xl:text-[60px] text-[26px] xl:mt-32 mt-16 pr-5 xl:pr-0">
+                            <h2 className="xl:text-[60px] text-[26px] xl:mt-32 mt-16 pr-5 xl:pr-0">
                                 Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)
-                            </h1>
+                            </h2>
                             <p className="xl:text-[22px] text-[16px] mt-5 leading-tight pr-10 xl:pr-0">
                                 With highly certified Oracle EBS and OCI experts, Rialtes ensures that your critical workloads and ERP operations
                                 are secure, scalable, and cloud-ready. Our deep understanding of Oracle Cloud Infrastructure (OCI) enables clients to:
@@ -291,9 +291,9 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
                         <div className="xl:col-span-6 col-span-12">
                             <div className="pt-20">
-                                <h1 className="xl:text-[60px] text-[26px] pr-10 xl:pr-0">
+                                <h2 className="xl:text-[60px] text-[26px] pr-10 xl:pr-0">
                                     Thought Leadership: Why Rialtes?
-                                </h1>
+                                </h2>
                                 <p className="xl:text-[22px] text-[16px] mt-5 leading-tight pr-10 xl:pr-14">
                                     Rialtes is not just a technology partner — we are business transformation leaders. Our industry-driven accelerators, AI-infused solutions, and agile methodologies ensure that clients experience real, measurable value from their Oracle EBS investments.
                                 </p>
@@ -336,9 +336,9 @@ export default function Page() {
 
                         {/* Right Section - Text Content (60%) */}
                         <div className="xl:col-span-7 col-span-12">
-                            <h1 className="xl:text-[60px] xl:mt-20 text-[26px] mt-16">
+                            <h2 className="xl:text-[60px] xl:mt-20 text-[26px] mt-16">
                                 Supply Chain Planning
-                            </h1>
+                            </h2>
                             <h2 className="xl:text-[40px] text-[22px] xl:font-bold font-medium mt-5">
                                 Future-Proofing with Oracle EBS & Kinaxis
                             </h2>
@@ -574,7 +574,7 @@ export default function Page() {
                     <div className="container mx-auto h-full flex flex-col justify-center text-white">
                         <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
                             <div className="xl:col-span-8 col-span-12 pr-10 mt-[28rem] xl:mt-0">
-                                <h1 className="xl:text-[60px] text-[26px] pr-10 xl:pr-0 leading-tight">AI & Data-Driven Transformation for Oracle EBS</h1>
+                                <h2 className="xl:text-[60px] text-[26px] pr-10 xl:pr-0 leading-tight">AI & Data-Driven Transformation for Oracle EBS</h2>
                                 <p className="xl:text-[22px] mt-5 text-[16px] leading-tight pr-10 xl:pr-0">AI is redefining how enterprises leverage Oracle EBS for competitive advantage. Rialtes brings AI-driven insights directly into your Oracle EBS workflows:</p>
                                 <div className="flex xl:flex-row flex-col xl:mt-[50px] xl:gap-32 gap-10">
                                     <div>

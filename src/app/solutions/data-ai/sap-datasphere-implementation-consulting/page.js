@@ -982,6 +982,11 @@ const GlobalPresenceSection = () => {
 export default function () {
     return (
         <>
+            <Seo
+                title="SAP Datasphere Implementation with AI Consulting Services | Rialtes"
+                description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
+                canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
+            />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 <div className="xl:block hidden">

@@ -60,7 +60,7 @@ const AutoTimerSlider = () => {
                     <div className="content">
                         <div className="title">AUTOMOTIVE</div>
                         <div className="des pr-5 xl:mt-8 mt-5">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
-                        <Link href="/industry/automotive-industry">
+                        <Link href="/industry/automotive-industry-cloud-solutions">
 
                         <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                       </Link>
