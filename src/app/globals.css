@@ -405,42 +405,158 @@ body {
 
 
 
-
 /* custom container.css */
 .custom-container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
   width: 100%;
 }
 
-@media (min-width: 640px) {
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0) and (max-width: 575.98px) {
   .custom-container {
-    max-width: 640px;
+    max-width: 100%;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .buyingLeftDiv {
+    padding-top: 76%;
   }
 }
 
-@media (min-width: 768px) {
+/* Small devices (landscape phones, between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
   .custom-container {
-    max-width: 768px;
+    max-width: 710px;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .buyingLeftDiv {
+    padding-top: 76%;
   }
 }
 
-@media (min-width: 1024px) {
+/* Medium devices (tablets, between 768px and 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
   .custom-container {
-    max-width: 1024px;
+    max-width: 921px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .buyingLeftDiv {
+    padding-top: 76%;
   }
 }
 
-@media (min-width: 1280px) {
+/* Large devices (desktops, between 992px and 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .custom-container {
+    max-width: 1120px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sapbuy-seamless-section {
+    margin-bottom: 400px;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+/* X-Large devices (large desktops, between 1200px and 1399px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
   .custom-container {
     max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sapbuy-unlock-section {
+    margin-bottom: 580px;
+  }
+
+  .sapbuy-seamless-section {
+    margin-bottom: 400px;
+  }
+
+  .agentChatSection {
+    margin-bottom: 50%;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 6% !important;
   }
 }
 
+@media (min-width: 1400px) and (max-width: 1800px) {
+  .sapbuy-seamless-section {
+    margin-bottom: 360px !important;
+  }
+
+  .agentChatSection {
+    margin-bottom: 40% !important;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 6% !important;
+  }
+
+  .buyingLeftDiv {
+    padding-left: 25%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and above) */
 @media (min-width: 1400px) {
   .custom-container {
     max-width: 1400px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sapbuy-unlock-section {
+    margin-bottom: 500px;
+  }
+
+  .sapbuy-seamless-section {
+    margin-bottom: 280px;
+  }
+
+  .agentChatSection {
+    margin-bottom: 26%;
+  }
+
+  .agentChat-leftDiv {
+    padding-left: 14%;
+  }
+
+  .buyingLeftDiv {
+    padding-left: 25%;
   }
 }
+
+
+
+/* .header-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+} */

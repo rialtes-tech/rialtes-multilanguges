@@ -157,7 +157,8 @@ const Header = () => {
           label: 'LOB Services', href: '/',
           subLinks: [
             { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },
-            { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' }
+            { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
+              // { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
           ],
 
 
@@ -165,7 +166,7 @@ const Header = () => {
         {
           label: 'Spend Management', href: '/',
           subLinks: [
-            { label: 'Ariba Implementation', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
+            { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
         },
         {
           label: 'HXM Transformation', href: '/',
@@ -930,7 +931,7 @@ const Header = () => {
                           <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="SAP Ariba " link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
+                            <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
                               onHover={() => { }} />
                           </div>
                         </div>
@@ -950,7 +951,7 @@ const Header = () => {
                       </button> */}
                       </div>
                       <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
+                        <div className="grid grid-cols-2 gap-10">
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Retail+" link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} onHover={() => { }} />
                           </div>
@@ -958,6 +959,10 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
                               onHover={() => { }} />
                           </div>
+                          {/* <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
+                              onHover={() => { }} />
+                          </div> */}
 
                         </div>
                       </div>
