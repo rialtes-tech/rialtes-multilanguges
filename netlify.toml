@@ -10,12 +10,6 @@
 [dev]
   functions = "netlify/functions"
   publish = "out"
-
-# Optional: uncomment if you're using sensitive env variables during local testing
-#[build.environment]
-#  RECAPTCHA_SECRET_KEY = "your-secret-key"
-
-# Optional: Use only if you're certain you want to disable secrets scanning (not recommended for real keys)
-#[build.environment]
-#  SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_RECAPTCHA_SECRET_KEY"
-#  SECRETS_SCAN_ENABLED = "false"
+  
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "RECAPTCHA_SECRET_KEY"
