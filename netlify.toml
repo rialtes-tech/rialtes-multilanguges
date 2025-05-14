@@ -10,6 +10,6 @@
 [dev]
   functions = "netlify/functions"
   publish = "out"
-  
+
 [build.environment]
-  SECRETS_SCAN_OMIT_KEYS = "RECAPTCHA_SECRET_KEY"
+  SECRETS_SCAN_OMIT_KEYS = "RECAPTCHA_SECRET_KEY,NEXT_PUBLIC_RECAPTCHA_SITE_KEY"
