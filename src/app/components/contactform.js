@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
-export default function ContactForm({ title, subtitle,subtitle1, className, padding }) {
+export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
 
     const [isRobotChecked, setIsRobotChecked] = useState(false);
     const [captchaValue, setCaptchaValue] = useState(false);
@@ -38,38 +38,11 @@ export default function ContactForm({ title, subtitle,subtitle1, className, padd
         setCaptchaValue(value)
     }
 
-
-
-
-    //     event.preventDefault();
-
-    //     try {
-    //         const response = await fetch('/api/captcha', {
-    //             method: 'POST',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify({
-    //                 captcha: captchaValue,
-    //             }),
-    //         });
-
-    //         if (response.ok) {
-    //             window.location.href = '/thank-you';
-    //         } else {
-    //             const data = await response.json();
-    //             alert(data.message);
-    //         }
-    //     } catch (error) {
-    //         console.log('Error during captcha verification:', error);
-    //         alert('Something went wrong');
-    //     }
-    // };
     const handleSubmit = async (e) => {
         e.preventDefault();
 
         try {
-            const response = await fetch('/.netlify/functions/captcha', {
+            const response = await fetch('https://rialtes.netlify.app/.netlify/functions/captcha', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ captcha: captchaValue }),
@@ -106,7 +79,7 @@ export default function ContactForm({ title, subtitle,subtitle1, className, padd
                     {subtitle1}
                 </p>
             )}
-            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
+            <form onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
                 <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
@@ -158,10 +131,10 @@ export default function ContactForm({ title, subtitle,subtitle1, className, padd
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                    <div
+                    {/* <div
                         className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
-                    >
-                        <div className="flex gap-3 items-center">
+                    > 
+                        {/* <div className="flex gap-3 items-center">
                             <div className="relative">
                                 <input
                                     type="checkbox"
@@ -198,12 +171,12 @@ export default function ContactForm({ title, subtitle,subtitle1, className, padd
                                 }}
                                 priority
                             />
-                        </div>
-                    </div>
-                    {/* <ReCAPTCHA
+                        </div> */}
+                    {/* </div> */}
+                    <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
-                    />, */}
+                    />
                     <button type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
                     </button>

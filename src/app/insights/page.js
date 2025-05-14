@@ -1036,7 +1036,7 @@ export default function InsightsPage() {
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-1")}
               onMouseLeave={handleMouseLeave("webinar-1")}
-              onClick={handleClick("/insights/webinars/let-whatsApp-in-salesforce-with-agentChat")}
+              onClick={handleClick("/insights/webinars/let-whatsapp-in-salesforce-with-agentchat")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
