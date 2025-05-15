@@ -158,7 +158,8 @@ const Header = () => {
           subLinks: [
             { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },
             { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
-              // { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
+            { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
+            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
           ],
 
 
@@ -172,6 +173,16 @@ const Header = () => {
           label: 'HXM Transformation', href: '/',
           subLinks: [
             { label: 'SuccessFactors Implementation', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },],
+        },
+        {
+          label: 'Data and AI', href: '/',
+          subLinks: [
+            { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
+            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
+            { label: 'SAP Datasphere', href: '/solutions/data-ai/sap-datasphere-implementation-consulting' }
+
+          ],
+
         },
 
       ],
@@ -481,7 +492,7 @@ const Header = () => {
                           <div>
                             {/* <MenuItem className="font-bold text-[#2f78c4]" label="Snowflake" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Qlik" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                                                    <MenuItem className="font-bold text-[#2f78c4]" label="Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} onHover={() => { }} />
 
                           </div>
                         </div>
@@ -782,6 +793,12 @@ const Header = () => {
                   >
                     HXM Transformation
                   </div>
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClickBusiness("data-ai")}
+                  >
+                    Data and AI
+                  </div>
                 </div>
                 {openSectionbusiness === "businessTransform" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -808,6 +825,30 @@ const Header = () => {
                               onHover={() => { }} />
                           </div>
 
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                )}
+                {openSectionbusiness === "data-ai" && (
+                  <div className="col-span-8 flex space-x-5"  >
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Subtext - Smarter Data. Sharper Decisions. Stronger Outcomes.</div>
+                        <p className="mt-3">Experience the future of consulting — powered by AI and insight-driven innovation.</p>
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")} onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")}
+                              onHover={() => { }} />
+                          </div>
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="SAP Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting")}
+                              onHover={() => { }} />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -959,10 +1000,14 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
                               onHover={() => { }} />
                           </div>
-                          {/* <div>
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
+                              onHover={() => { }} />
+                          </div>
+                          <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
                               onHover={() => { }} />
-                          </div> */}
+                          </div>
 
                         </div>
                       </div>
