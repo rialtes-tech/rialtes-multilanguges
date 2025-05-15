@@ -66,8 +66,8 @@ export default function About() {
     return (
         <div className="min-h-screen">
             <Seo
-                title="About Us | Rialtes - AI-Powered Business Transformation"
-                description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."
+                title="Empowering Enterprise Transformation Journey | About Rialtes"
+                description="Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI."
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/"}
             />

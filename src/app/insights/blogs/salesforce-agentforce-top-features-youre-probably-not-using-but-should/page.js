@@ -141,7 +141,8 @@ export default function Page() {
     <div className="min-h-screen bg-white">
 
       <Seo
-        title="Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
+        title="Agentforce Features You’re Missing (But Should Use!) | Rialtes"
+        description="Salesforce Agentforce is a powerhouse platform that goes past the basics of customer support, empowering agents with AI-driven automation and real-time insights."
         canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
       />
 

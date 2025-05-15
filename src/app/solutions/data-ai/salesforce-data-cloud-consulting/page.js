@@ -123,8 +123,8 @@ export default function DataCloud() {
   return (
     <div className="min-h-screen">
         <Seo
-        title="Salesforce Data Cloud Consulting and Implementation Services | Rialtes"
-        description="Salesforce Data Cloud consulting services and expert-led implementation to drive innovation and boost your business performance with Rialtes."
+        title="Salesforce Data Cloud Implementation and Consulting Services | Rialtes"
+        description="Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes."
         keywords="home, website, welcome"
         canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />

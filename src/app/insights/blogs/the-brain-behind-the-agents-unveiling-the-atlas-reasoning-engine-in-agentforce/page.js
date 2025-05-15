@@ -141,7 +141,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
            <Seo
-                title="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+                title="How Does a Reasoning Engine Work in Agentforce? | Rialtes"
+                description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
                 canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
             />
 

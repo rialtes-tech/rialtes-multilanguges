@@ -3,6 +3,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
+import Seo from "@/app/components/Seo";
 
 const blogs = [
   {
@@ -148,11 +149,11 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Agentforce Agents Scales Enterprise Resource Planning Systems with AI | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo
+                title="SAP Joule AI: Powering the Future of Enterprise | Rialtes"
+                description="SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards."
+                canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
+            />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

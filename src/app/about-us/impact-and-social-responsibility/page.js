@@ -9,8 +9,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Driving Meaningful Change Through Social Impact | Rialtes"
-        description="We believe in making a real difference! See how Rialtes supports communities, empowers people, and drives sustainable change for a better future"
+        title="Driving Sustainability with Responsible AI | Rialtes"
+        description="Rialtes redefines corporate citizenship with sustainable AI, ESG innovation, talent upskilling, and social impact to build a smarter, inclusive future."
         keywords="home, website, welcome"
         canonical={"https://www.rialtes.com/about-us/impact-and-social-responsibility/"}
       />

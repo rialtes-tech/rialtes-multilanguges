@@ -141,7 +141,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+        title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
+        description="Learn the differences among AI Agents, Copilots, and Bots. Discover their unique roles in business automation to enhance productivity."
         keywords="Partners, website, welcome"
         canonical={"https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"}
       />

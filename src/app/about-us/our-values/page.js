@@ -77,7 +77,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Our Values | Rialtes"
+                title="Our Values - Empowering People with Trust & Inclusion | Rialtes"
+                description="At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment."
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/our-values/"}
             />

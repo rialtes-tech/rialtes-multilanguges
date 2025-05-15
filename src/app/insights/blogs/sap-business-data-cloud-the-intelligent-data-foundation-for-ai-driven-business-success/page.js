@@ -148,11 +148,11 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Agentforce Agents Scales Enterprise Resource Planning Systems with AI | Company Name</title>
-        <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+     <Seo
+                title="What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes"
+                description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
+                canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
+            />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image

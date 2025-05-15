@@ -30,14 +30,14 @@ const RelatedSolutionsSection = () => {
     return (
         <section
             className={`
-          xl:ml-[280px] xl:mr-[170px] md:mx-[100px]  mx-[35px] xl:mx-0 xl:mt-[94px] mt-8  pt-[49px]  pb-[59px] 
+          xl:ml-[280px] xl:mr-[170px] md:mx-[100px]  mx-[35px] xl:mx-0 xl:mt-[94px] mt-8   pb-[59px] 
         `}
         >
             <h2 className="leading-tight text-black pr-10 xl:pr-0">
                 Related Solutions & Explore More:
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 xl:mt-[45px] mt-[33px] text-black">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 xl:mt-[45px] mt-[33px] text-black">
                 {relatedSolutionsData.map((item, index) => {
                     // Border 
                     const borderRight = index < 2 ? 'xl:border-r-[1px] xl:border-black' : '';
@@ -52,7 +52,7 @@ const RelatedSolutionsSection = () => {
                                 <h3 className="text-black font-semibold">
                                     {item.title}
                                 </h3>
-                                <p className="text-black mt-10 font-normal pr-20">
+                                <p className="text-black mt-10 font-normal pr-10">
                                     {item.desc}
                                 </p>
                                 <div className={`mt-auto pt-10 ${index === relatedSolutionsData.length - 1 ? 'xl:mt-[37px]' : ''}`}>
@@ -179,7 +179,7 @@ export default function Retail({ items }) {
                         <h2 className="leading-tight">
                             Accelerating Innovation, Compliance, and Growth in Life Sciences with AI and Salesforce Cloud Solutions
                         </h2>
-                        <p className="mt-5 xl:pr-0 pr-8">At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.</p>
+                        <p className="mt-10 xl:pr-0 pr-8">At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.</p>
                         <p className="mt-5 xl:pr-0 pr-8">Introducing Rialtes LifeAI+, our comprehensive consulting service tailored for life sciences enterprises, combining deep industry expertise with Salesforce Life Sciences Cloud, Health Cloud, and AI-powered solutions to help you drive innovation, ensure compliance, and enhance operational efficiency.</p>
 
                     </div>
@@ -237,7 +237,7 @@ export default function Retail({ items }) {
             </section>
 
             {/* why partner with rialtes */}
-            <section className="xl:mt-40 mt-[86rem]">
+            <section className="xl:mt-48 mt-[86rem]">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
 
                     {/* IMAGE FIRST ON MOBILE, SECOND ON DESKTOP */}
@@ -274,7 +274,7 @@ export default function Retail({ items }) {
             </section>
 
             {/* deep section */}
-            <section className="mt-24 relative">
+            <section className="mt-32 relative">
                 <div className="xl:mr-[280px]">
                     <div className="xl:block hidden">
                         <Image
@@ -367,7 +367,7 @@ export default function Retail({ items }) {
                 </div>
             </section>
 
-            <section className="mt-20 bg-[#EDEDED] xl:h-[1200px] h-[2100px]">
+            <section className="mt-32 bg-[#EDEDED] xl:h-[1200px] h-[2100px]">
                 <div className="xl:ml-[280px] xl:mr-[418px] mx-[35px] xl:mx-0">
                     <h2 className="pt-20 pb-10 leading-tight pr-10 xl:pr-0">Specialized Expertise for the Future of Healthcare & Life Sciences</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-5 gap-8 xl:mt-16">
@@ -435,7 +435,7 @@ export default function Retail({ items }) {
 
 
 
-            <section className="relative h-[1207px] xl:h-[970px] overflow-hidden mt-20">
+            <section className="relative h-[1207px] xl:h-[970px] overflow-hidden mt-24">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/lifeai/ai-driven-desktop.webp"
@@ -460,10 +460,10 @@ export default function Retail({ items }) {
         md:ml-[100px] md:w-[calc(100%-100px)]
        "
                 >
-                    <div className="relative p-6 xl:w-[907px] mt-[17rem] xl:mt-0 pb-10">
+                    <div className="relative p-8 xl:w-[907px] mt-[17rem] xl:mt-0 pb-10">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
 
-                        <div className="relative  bg-opacity-80 text-white z-10 xl:p-16 xl:pl-24 p-5 rounded-lg">
+                        <div className="relative  bg-opacity-80 text-white z-10 xl:p-16 xl:pl-24  rounded-lg">
                             <h2 className="leading-tight pr-5 xl:pr-0">AI-Driven Life Sciences with Salesforce Data Cloud & Agentforce</h2>
                             <p className='mt-5 font-normal'>Rialtes helps organizations integrate Salesforce Data Cloud and Agentforce for Health, unlocking powerful AI-driven capabilities:</p>
                             <ul className="list-disc leading-tight xl:space-y-8 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 xl:pr-0 pr-5">
@@ -488,7 +488,7 @@ export default function Retail({ items }) {
   text-black py-16"
 
             >
-                <ContactForm title={'Ready to Innovate and Transform?'} subtitle="Join leading life sciences organizations who trust Rialtes LifeAI+ to future-proof their operations, enhance compliance, and improve patient engagement." subtitle1="Contact us today to schedule a personalized strategy session and demo." className={"xl:max-w-[72%] leading-tight  xl:text-[59px] text-[26px]"} />
+                <ContactForm title={'Ready to Innovate and Transform?'} subtitle="Join leading life sciences organizations who trust Rialtes LifeAI+ to future-proof their operations, enhance compliance, and improve patient engagement." subtitle1="Contact us today to schedule a personalized strategy session and demo." className={"xl:max-w-[72%] leading-tight font-normal xl:text-[59px] text-[26px]"} />
             </div >
         </div >
     );

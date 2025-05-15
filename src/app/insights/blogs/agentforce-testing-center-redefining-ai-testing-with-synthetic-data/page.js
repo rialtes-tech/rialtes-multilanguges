@@ -141,7 +141,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-title="Our Strategic Partners – Empowering Success with Rialtes"
+title="Agentforce Testing Center: Test AI Agents Before Production"
+description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
 canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
 />
 
