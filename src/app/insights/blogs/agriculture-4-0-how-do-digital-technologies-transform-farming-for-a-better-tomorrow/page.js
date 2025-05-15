@@ -147,7 +147,8 @@ export default function Page() {
       </Head>
 
       <Seo
-        title="Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?"
+        title="Salesforce for Agriculture: Digital Farming Revolution | Rialtes"
+        description="Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0."
         canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
       />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">

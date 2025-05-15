@@ -140,7 +140,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="How SAP SuccessFactors Enhances Remote Work Management"
+        title="Your Guide to SAP SuccessFactors for Remote Teams | Rialtes"
+        description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">

@@ -140,7 +140,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+        title="Scale the Future of Enterprise Resource Planning with AI"
+        description="With Salesforce AI, Agentforce automates ERP tasks, provides real-time insights, and ensures seamless collaboration, shaping the future of scalable systems."
         canonical="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
       />
 

@@ -141,7 +141,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce"
+        title="How to Enhance Slack Collaboration with Agentforce | Rialtes"
+        description="Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork."
         canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
       />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">

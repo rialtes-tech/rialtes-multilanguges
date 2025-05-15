@@ -142,7 +142,8 @@ export default function Page() {
     <div className="min-h-screen bg-white">
 
       <Seo
-        title="Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions"
+        title="How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes"
+        description="Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties."
         canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
       />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
