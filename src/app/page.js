@@ -191,7 +191,8 @@ const Home = () => {
 
 
             />
-            <div className="relative xl:w-[1360px] xl:h-[711px] w-[360px] md:w-full xl:ml-[280px] h-[400px] md:ml-[100px] overflow-hidden xl:container xl:m-auto mx-[35px] xl:mx-0 container">
+            <div className='bg-[#F0F0F0] relative xl:h-[1641px] h-[2515px] xl:mt-[20rem] mt-[14rem]'>
+            <div className="absolute xl:w-[1360px] xl:h-[711px] w-[360px] md:w-full xl:ml-[280px] h-[400px] md:ml-[100px] overflow-hidden xl:container mx-[35px] xl:mx-0 container mt-[-215px]">
                 {slides.map((slide, index) => (
                     <React.Fragment key={index}>
                         <Link href={slide.link}>
@@ -258,7 +259,7 @@ const Home = () => {
             </div>
 
             {/* //innovating section */}
-            <section className='mx-[35px] md:ml-[100px]  mt-20 xl:ml-[280px] xl:mr-[246px]'>
+            <section className='absolute mx-[35px] md:ml-[100px]   xl:ml-[280px] xl:mr-[246px] xl:mt-[36rem] mt-[15rem]'>
                 <Image
                     loading="lazy"
                     height='100'
@@ -286,7 +287,7 @@ const Home = () => {
             </section>
 
 
-            <section className='xl:mt-32 mt-20 xl:ml-[280px] md:mx-[100px] mx-[35px] xl:mx-0 md:mr-0 xl:mr-0'>
+            <section className='absolute xl:mt-[75rem] mt-[50rem]  xl:ml-[280px] md:mx-[100px] mx-[35px] xl:mx-0 md:mr-0 xl:mr-0'>
                 <div
 
                     ref={refs[0]}
@@ -339,8 +340,12 @@ const Home = () => {
                 </div>
 
             </section>
+</div>
 
-            <section className='mt-20 xl:mx-0'>
+
+
+
+            <section className='xl:mt-[55rem] mt-[128rem] xl:mx-0'>
                 <div
                     ref={refs[1]}
                     className={`col-span-5 mx-[35px] xl:mx-0 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 xl:ml-[280px] md:mx-[100px] md:mr-0 xl:mr-0 ${inViews[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
