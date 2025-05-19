@@ -5,9 +5,9 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 
 
-export default function() {
+export default function () {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-05-20T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
+        const targetDate = new Date("2025-06-03T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
         const difference = targetDate - now;
 
@@ -139,17 +139,20 @@ export default function() {
                             <h3 className="mt-[-10px] xl:text-[24px]">Vice President of Global Sales</h3>
                         </div>
                     </div>
-                    <p className="mt-16 xl:pr-32">Don’t miss this opportunity to join us for an exclusive webinar to explore how <strong>Salesforce Automotive Cloud</strong> is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.</p>
+                    <p className="mt-16 xl:pr-32">Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.</p>
 
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
-                    <p className="mt-5 xl:pr-32"><strong>Simplify SAP Transformation:</strong> How an integrated approach removes complexity.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Accelerate Cloud Adoption:</strong>Strategies to migrate faster and smarter while minimizing technical debt.</p>
-                    <p className="mt-5"><strong>Process Reimagination with SAP Signavio:</strong> Unlock new efficiencies and innovation opportunities..</p>
-                    <p className="mt-5 xl:pr-32"><strong>Tap into AI and Automation:</strong> Enhance your SAP operations for smarter, autonomous workflows.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Live Demo:</strong> See the Voyager+ framework in action, supporting a smooth RISE with SAP journey.</p>
+                    <ul className="list-disc marker:text-black text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium pr-24">
 
-                    <h3 className="mt-16 text-[#0092E0]">Who Should Attend?</h3>
-                    <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
+                        <li className="pb-2 mt-5"><strong>Simplify SAP Transformation:</strong> How an integrated approach removes complexity.</li>
+                        <li className="pb-2"><strong>Accelerate Cloud Adoption:</strong> Strategies to migrate faster and smarter while minimizing technical debt.</li>
+                        <li className="pb-2"><strong>Process Reimagination with SAP Signavio:</strong> Unlock new efficiencies and innovation opportunities..</li>
+                        <li className="pb-2"><strong>Tap into AI and Automation:</strong> Enhance your SAP operations for smarter, autonomous workflows.</li>
+                        <li className="pb-2"><strong>Live Demo:</strong> See the Voyager+ framework in action, supporting a smooth RISE with SAP journey.</li>
+
+                    </ul>
+                    <h3 className="mt-10 text-[#0092E0]">Who Should Attend?</h3>
+                    <ul className="list-disc marker:text-black text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
 
                         <li className="pb-2 mt-5">CIOs and IT Leaders</li>
                         <li className="pb-2">Digital Transformation Leaders</li>
@@ -159,7 +162,7 @@ export default function() {
                         <li className="pb-2">Anyone planning or accelerating their RISE with SAP transformation</li>
 
                     </ul>
-                    <Link href="https://us06web.zoom.us/webinar/register/WN_l9ckv1LCSI6zhReliozUrw">
+                    <Link href="https://us06web.zoom.us/webinar/register/WN_70Iq56coShaL0BdO-I2jyQ">
                         <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
 
                     </Link>
@@ -167,18 +170,18 @@ export default function() {
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
                     <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
-                        <h2 className="font-extrabold">20</h2>
-                        <h3>May 2025</h3>
+                        <h2 className="font-extrabold">03</h2>
+                        <h3>June 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                        <Link href="https://us06web.zoom.us/webinar/register/WN_l9ckv1LCSI6zhReliozUrw">
+                        <Link href="https://us06web.zoom.us/webinar/register/WN_70Iq56coShaL0BdO-I2jyQ">
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
 
                         </Link>
 
                     </div>
-                     <p className="mt-10">Webinar Starting In</p> 
-                     <div className="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
+                    <p className="mt-10">Webinar Starting In</p>
+                    <div className="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
                         <div className="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.days).padStart(2, "0")}</strong>
                             <span className="text-xs text-black font-normal">Days</span>
@@ -198,7 +201,7 @@ export default function() {
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.seconds).padStart(2, "0")}</strong>
                             <span className="text-xs text-black font-normal">Sec</span>
                         </div>
-                    </div> 
+                    </div>
                     <h3 className="mt-10">How to Join:</h3>
                     <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
                     <h3 className="mt-10">Can’t Make It?</h3>

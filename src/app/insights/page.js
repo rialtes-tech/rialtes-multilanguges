@@ -874,7 +874,161 @@ export default function InsightsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {/* webinar 3 */}
+                <div
+              className="border border-gray-200 overflow-hidden bg-white"
+              onMouseEnter={handleMouseEnter("webinar-2")}
+              onMouseLeave={handleMouseLeave("webinar-2")}
+              onClick={handleClick("/insights/webinars/rise-with-sap-transformation-rialtes")}
+              style={{
+                cursor: "pointer",
+                transition: "background-color 0.3s ease",
+                backgroundColor:
+                  hoveredBlog === "webinar-2" ? "#f1f1f1" : "transparent",
+              }}
+            >
+              <div className="">
+                <div className="w-full overflow-hidden">
+                  <div
+                    className="w-full h-full"
+                    style={{
+                      transition: "transform 0.3s ease",
+                      transform:
+                        hoveredBlog === "webinar-2"
+                          ? "scale(1.05)"
+                          : "scale(1)",
+                    }}
+                  >
+                    <Image
+                      src="/images/webinar/slider-rise.webp"
+                      alt="Leadership Team"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                  Voyage with SAP – Transformational RISE with SAP Services by Rialtes
+                </h3>
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center">
+                    <span className="font-medium">May 20, 2025</span>
+                    <span className="mx-2">|</span>
+                    <span>10:00 AM CST</span>
+                  </div>
+                  <div className="space-y-1">
+                    <div className="font-bold">Anuraag Aggarwal</div>
+                    <div className="">Vice President of Global Sales</div>
+                  </div>
+                </div>
+                <Link
+                  href=""
+                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
+                >
+                  <span>Register Now</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </div>
 
+    <div
+              className="border border-gray-200 overflow-hidden bg-white"
+              onMouseEnter={handleMouseEnter("webinar-2")}
+              onMouseLeave={handleMouseLeave("webinar-2")}
+              onClick={handleClick("/insights/webinars/discover-the-agentic-capabilities-of-agentforce")}
+              style={{
+                cursor: "pointer",
+                transition: "background-color 0.3s ease",
+                backgroundColor:
+                  hoveredBlog === "webinar-2" ? "#f1f1f1" : "transparent",
+              }}
+            >
+              <div className="">
+                <div className="w-full overflow-hidden">
+                  <div
+                    className="w-full h-full"
+                    style={{
+                      transition: "transform 0.3s ease",
+                      transform:
+                        hoveredBlog === "webinar-2"
+                          ? "scale(1.05)"
+                          : "scale(1)",
+                    }}
+                  >
+                    <Image
+                      src="/images/webinar/Webinar_15 May 25_webinar thumb.webp"
+                      alt="Leadership Team"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                  Discover the Agentic Capabilities of Agentforce
+                </h3>
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center">
+                    <span className="font-medium">May 15, 2025</span>
+                    <span className="mx-2">|</span>
+                    <span>10:00 AM CST</span>
+                  </div>
+                  <div className="space-y-1">
+                    <div className="font-bold">Lokesh Adhikari</div>
+                    <div className="">Software Engineer - Salesforce</div>
+                  </div>
+                </div>
+                <Link
+                  href=""
+                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
+                >
+                  <span>Register Now</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </div>
             <div
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-2")}
@@ -954,164 +1108,9 @@ export default function InsightsPage() {
             </div>
             {/* webinar 2 */}
 
-            <div
-              className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-2")}
-              onMouseLeave={handleMouseLeave("webinar-2")}
-              onClick={handleClick("/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud")}
-              style={{
-                cursor: "pointer",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "webinar-2" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="">
-                <div className="w-full overflow-hidden">
-                  <div
-                    className="w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "webinar-2"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/webinar/webinar-thumb.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  Deliver End-to-End Customer Journey with Salesforce Automotive Cloud
-                </h3>
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-center">
-                    <span className="font-medium">May 08, 2025</span>
-                    <span className="mx-2">|</span>
-                    <span>10:00 AM CST</span>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="font-bold">Divya Agrawal</div>
-                    <div className="">Software Engineer - Salesforce</div>
-                  </div>
-                </div>
-                <Link
-                  href=""
-                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                >
-                  <span>Register Now</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </Link>
-              </div>
-            </div>
+        
             {/* webinar 1 */}
-            <div
-              className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-1")}
-              onMouseLeave={handleMouseLeave("webinar-1")}
-              onClick={handleClick("/insights/webinars/let-whatsapp-in-salesforce-with-agentchat")}
-              style={{
-                cursor: "pointer",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "webinar-1" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="">
-                <div className="w-full overflow-hidden">
-                  <div
-                    className="w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "webinar-1"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/webinar/Webinar_6.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
-                className="p-6"
-              // style={{ backgroundColor: isHovered ? "#f1f1f1" : "ffffff" }}
-              >
-                <h3 className=" text-[#134874] mb-4 min-h-[4rem]">
-                  Let’s WhatsApp in Salesforce with AgentChat
-                </h3>
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-center">
-                    <span className="font-medium">May 06, 2025</span>
-                    <span className="mx-2">|</span>
-                    <span>10:00 AM CST</span>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="font-bold">Lokesh Adhikari</div>
-                    <div className="">Software Engineer - Salesforce</div>
-                  </div>
-                </div>
-                <Link
-                  href=""
-                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                >
-                  <span>Register Now</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </Link>
-              </div>
-            </div>
+           
 
 
             {/* <div

@@ -72,8 +72,8 @@ export default function Page() {
                             <h2>Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.</h2>
                         </div>
                         <div className="xl:col-span-5 col-span-1">
-                            <p>RialChat is a bi-directional WhatsApp conversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversations efficiently, and automate workflows — all without leaving Salesforce.</p>
-                            <p className="mt-5">Whether you’re in Sales, Service, Marketing, Field Operations, or Education, RialChat works across all Salesforce Clouds and lets you turn WhatsApp into a powerful engagement tool for every team.</p>
+                            <p>AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversations efficiently, and automate workflows — all without leaving Salesforce.</p>
+                            <p className="mt-5">Whether you’re in Sales, Service, Marketing, Field Operations, or Education, AgentChat works across all Salesforce Clouds and lets you turn WhatsApp into a powerful engagement tool for every team.</p>
                         </div>
                     </div>
                 </div>
