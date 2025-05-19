@@ -209,7 +209,7 @@ export default function About() {
             </div>
             <div className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20">
                 <WebinarForm
-                    redirectUrl="https://www.youtube.com/watch?v=UNe7QQHRMUU&t=569s"
+                    redirectUrl="https://www.youtube.com/watch?v=QGKwqgjEyT4"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
 
                 />

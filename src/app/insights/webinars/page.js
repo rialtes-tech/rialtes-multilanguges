@@ -10,7 +10,7 @@ const webinars = [
   {
     id: 1,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-    date: "May 20, 2025",
+    date: "June 03, 2025",
     time: "10:00 AM CST",
     speaker: {
       name: "Anuraag Aggarwal",
