@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import WebinarForm from "@/app/components/webinarForm";
 
 
 export default function About() {
@@ -44,8 +45,8 @@ export default function About() {
             <Seo
                 title="Salesforce WhatsApp Integration via AgentChat | Rialtes Webinar"
                 description="See how to integrate WhatsApp with Salesforce using AgentChat and empower CX teams with secure, real-time engagement across all touchpoints"
-           canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
-           />
+                canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
+            />
 
 
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
@@ -160,10 +161,7 @@ export default function About() {
                         <li className="pb-2">Anyone looking to improve customer engagement within Salesforce</li>
 
                     </ul>
-                    <Link href="https://us06web.zoom.us/webinar/register/WN_AzyAJbyIRmm5R_cHgjW9PA#/registration">
-                        <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
 
-                    </Link>
 
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
@@ -174,7 +172,7 @@ export default function About() {
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
 
                         <Link href="https://us06web.zoom.us/webinar/register/WN_AzyAJbyIRmm5R_cHgjW9PA#/registration">
-                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
+                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
 
                         </Link>
 
@@ -208,6 +206,14 @@ export default function About() {
                     <p className="mt-10 pb-16 xl:pb-0">For inquiries, please contact sales@rialtes.com.</p>
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
+            </div>
+            <div className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20">
+                <WebinarForm
+                    redirectUrl="https://www.youtube.com/watch?v=UNe7QQHRMUU&t=569s"
+                    emailWebinarLink="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
+
+                />
+
             </div>
         </div>
     );

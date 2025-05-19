@@ -3,9 +3,10 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import WebinarForm from "@/app/components/webinarForm";
 
 
-export default function() {
+export default function () {
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-15T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
@@ -75,7 +76,7 @@ export default function() {
                 </div>
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:ml-[280px] mx-[35px]">
-                <div className="xl:col-span-7 col-span-12 xl:pb-20 pb-10">
+                <div className="xl:col-span-7 col-span-12 pb-10">
                     <div className="flex flex-row gap-6  mt-10">
                         <div className="max-w-[40px]">
                             <a
@@ -159,10 +160,7 @@ export default function() {
                         <li className="pb-2">Anyone looking to supercharge workflows with intelligent, agentic AI solutions</li>
 
                     </ul>
-                    <Link href="https://us06web.zoom.us/webinar/register/WN_tRIORWGVReWrt0zEPqV7gQ">
-                        <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
 
-                    </Link>
 
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
@@ -172,7 +170,7 @@ export default function() {
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
                         <Link href="https://us06web.zoom.us/webinar/register/WN_tRIORWGVReWrt0zEPqV7gQ">
-                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
+                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
 
                         </Link>
 
@@ -207,6 +205,15 @@ export default function() {
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
             </div>
+            <div className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20">
+                <WebinarForm
+                    redirectUrl="https://www.youtube.com/watch?v=UNe7QQHRMUU&t=569s"
+                    emailWebinarLink="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce"
+
+                />
+
+            </div>
+
         </div>
     );
 }

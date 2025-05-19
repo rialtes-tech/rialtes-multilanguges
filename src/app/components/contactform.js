@@ -1,29 +1,12 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
 export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
-
-    const [isRobotChecked, setIsRobotChecked] = useState(false);
     const [captchaValue, setCaptchaValue] = useState(false);
-
-    const [isLoading, setIsLoading] = useState(false);
     const section1Ref = useRef(null);
-    const reCaptchaRef = useRef(null);
-
-    const handleCheckboxChange = () => {
-        setIsLoading(true);
-        setIsRobotChecked(false);
-        setTimeout(() => {
-            setIsLoading(false);
-            setIsRobotChecked(true);
-        }, 1000);
-    };
-
     useEffect(() => {
         const sectionId = window.location.hash.replace('#', '');
 
@@ -61,7 +44,6 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         }
     };
 
-    //   onSubmit={handleSubmit}
     return (
         <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
 
@@ -131,48 +113,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                    {/* <div
-                        className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
-                    > 
-                        {/* <div className="flex gap-3 items-center">
-                            <div className="relative">
-                                <input
-                                    type="checkbox"
-                                    id="robotCheck"
-                                    checked={isRobotChecked}
-                                    onChange={handleCheckboxChange}
-                                    className={`h-8 w-8 border-2 flex rounded-sm transition-all 
-                                        ${isRobotChecked ? 'border-green-500 bg-white' : 'border-gray-300 bg-white'}`} />
-
-
-                                {isLoading && (
-                                    <div className="absolute inset-0 flex items-center justify-center">
-                                        <div className="w-[32px] h-[32px] border-4 border-t-4 border-gray-300 border-t-[#71acdb] rounded-full animate-spin"></div>
-                                    </div>
-                                )}
-                            </div>
-
-                            <label
-                                htmlFor="robotCheck"
-                                className={`text-sm font-bold ${isRobotChecked ? "text-white" : "text-[#134874]"}`}
-                            >
-                                I'm not a robot
-                            </label>
-
-                            <Image
-                                src={isRobotChecked ? '/images/homepage/recaptcha_blue.svg' : '/images/partners/recaptcha.svg'}
-                                className="w-[30px]"
-                                alt="captcha"
-                                width={30}
-                                height={30}
-                                sizes="100vw"
-                                style={{
-                                    objectFit: "cover",
-                                }}
-                                priority
-                            />
-                        </div> */}
-                    {/* </div> */}
+                    
                     <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
