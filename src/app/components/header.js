@@ -526,6 +526,8 @@ const Header = () => {
                               <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
                               <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
+                              {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/solutions/enterprise-platforms/kinaxis" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/kinaxis")} onHover={() => { }} /> */}
+
                             </div>
                           </div>
                         </div>
@@ -1381,7 +1383,7 @@ const Header = () => {
                             onHover={() => { }} /> */}
                           {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} /> */}
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinar" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
+                            <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinars" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
                               onHover={() => { }} />
                             {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
                           </div>

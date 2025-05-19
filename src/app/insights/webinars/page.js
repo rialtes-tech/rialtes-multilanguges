@@ -9,36 +9,43 @@ import Seo from "@/app/components/Seo";
 const webinars = [
   {
     id: 1,
-    title: "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
-    date: "May 13, 2025",
+    title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+    date: "May 20, 2025",
     time: "10:00 AM CST",
     speaker: {
-      name: "Akshay Kale",
-      role: "Sr. Managing Director – SAP Services",
-      image: "/images/webinar/Akshay-Kale.webp",
+      name: "Anuraag Aggarwal",
+      role: "Vice President of Global Sales",
+      image: "/images/webinar/anurag.webp",
     },
-    backgroundImage: "/images/webinar/Webinar_13-May-Carousal.webp",
-    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
+    backgroundImage: "/images/webinar/rise.webp",
+    url: 'insights/webinars/rise-with-sap-transformation-rialtes'
   },
-  {
-    id: 2,
-    title: "Discover the Agentic Capabilities of Agentforce",
-    date: "May 15, 2025",
-    time: "10:00 AM CST",
-    speaker: {
-      name: "Lokesh Adhikari",
-      role: "Software Engineer - Salesforce",
-      image: "/images/webinar/Lokesh.webp",
-    },
-    backgroundImage: "/images/webinar/Webinar_15 May 25_featured Carousal.webp",
-    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
-  },
-
 ];
 
 const allWebinars = [
   {
     id: 1,
+    title: "Discover the Agentic Capabilities of Agentforce",
+    date: "May 15, 2025",
+    time: "10:00 AM CST",
+    speaker: "Lokesh Adhikari",
+    position: "Software Engineer - Salesforce",
+    image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
+
+  },
+  {
+    id: 2,
+    title: "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
+    date: "May 13, 2025",
+    time: "10:00 AM CST",
+    speaker: "Akshay Kale",
+    position: "Sr. Managing Director – SAP Services",
+    image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
+  },
+  {
+    id: 3,
     title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
     date: "May 08, 2025",
     time: "10:00 AM CST",
@@ -49,7 +56,7 @@ const allWebinars = [
 
   },
   {
-    id: 2,
+    id: 4,
     title: "Let’s WhatsApp in Salesforce with AgentChat",
     date: "May 06, 2025",
     time: "10:00 AM CST",
@@ -258,7 +265,7 @@ export default function About() {
 
             <div className="w-full">
               <div className="flex items-center mb-6 justify-between">
-                <h2 className="w-full md:w-3/4">Upcoming webinar</h2>
+                <h2 className="w-full md:w-3/4">Upcoming webinars</h2>
 
                 <div className="w-1/4 hidden sm:block">
                   <div className="h-full flex gap-10">
@@ -449,72 +456,72 @@ export default function About() {
         </section>
         <div>
           <section className=" px-4 py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
-            <h2 className="mb-6">Past Webinar</h2>
+            <h2 className="mb-6">Past Webinars</h2>
 
-         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-  {visibleWebinars.map((webinar) => (
-    <Link href={'/' + webinar.url} key={webinar.id}>
-      <div
-        className="border border-gray-200 overflow-hidden shadow-sm transition-shadow flex flex-col h-full"
-        onMouseEnter={handleMouseEnter(webinar.id)}
-        onMouseLeave={handleMouseLeave(webinar.id)}
-        style={{
-          transition: "background-color 0.3s ease",
-          backgroundColor:
-            hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
-          border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
-          cursor: "pointer",
-        }}
-      >
-        <div className="w-full overflow-hidden">
-          <div
-            className="h-full w-full"
-            style={{
-              transition: "transform 0.3s ease",
-              transform:
-                hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
-            }}
-          >
-            <Image
-              src={webinar.image}
-              alt={webinar.title}
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                aspectRatio: "16 / 9", // Ensures consistent image ratio
-                objectFit: "cover",
-              }}
-              priority
-            />
-          </div>
-        </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+              {visibleWebinars.map((webinar) => (
+                <Link href={'/' + webinar.url} key={webinar.id}>
+                  <div
+                    className="border border-gray-200 overflow-hidden shadow-sm transition-shadow flex flex-col h-full"
+                    onMouseEnter={handleMouseEnter(webinar.id)}
+                    onMouseLeave={handleMouseLeave(webinar.id)}
+                    style={{
+                      transition: "background-color 0.3s ease",
+                      backgroundColor:
+                        hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
+                      border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
+                      cursor: "pointer",
+                    }}
+                  >
+                    <div className="w-full overflow-hidden">
+                      <div
+                        className="h-full w-full"
+                        style={{
+                          transition: "transform 0.3s ease",
+                          transform:
+                            hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
+                        }}
+                      >
+                        <Image
+                          src={webinar.image}
+                          alt={webinar.title}
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{
+                            width: "100%",
+                            height: "auto",
+                            aspectRatio: "16 / 9", // Ensures consistent image ratio
+                            objectFit: "cover",
+                          }}
+                          priority
+                        />
+                      </div>
+                    </div>
 
-        <div className="p-8 flex flex-col flex-grow items-start gap-2">
-          <h3 className="text-[#134874] mb-2  pr-10">{webinar.title}</h3>
+                    <div className="p-8 flex flex-col flex-grow items-start gap-2">
+                      <h3 className="text-[#134874] mb-2  pr-10">{webinar.title}</h3>
 
-          <div className="text-sm text-gray-600 mb-3">
-            <p>{webinar.date}</p>
-            <p>{webinar.time}</p>
-          </div>
+                      <div className="text-sm text-gray-600 mb-3">
+                        <p>{webinar.date}</p>
+                        <p>{webinar.time}</p>
+                      </div>
 
-          <div className="mb-4">
-            <p className="font-medium">{webinar.speaker}</p>
-            <p className="text-sm text-gray-600">{webinar.position}</p>
-          </div>
+                      <div className="mb-4">
+                        <p className="font-medium">{webinar.speaker}</p>
+                        <p className="text-sm text-gray-600">{webinar.position}</p>
+                      </div>
 
-          <div className="mt-auto">
-            <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
-              Open Now
-            </button>
-          </div>
-        </div>
-      </div>
-    </Link>
-  ))}
-</div>
+                      <div className="mt-auto">
+                        <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
+                          Open Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
 
 
             {hasMore && (

@@ -179,7 +179,7 @@ export default function() {
                         </Link>
 
                     </div>
-                    <p className="mt-10">Webinar Starting In</p>
+                    {/* <p className="mt-10">Webinar Starting In</p>
                     <div className="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
                         <div className="text-[#0092E0]">
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.days).padStart(2, "0")}</strong>
@@ -200,7 +200,7 @@ export default function() {
                             <strong className="xl:text-[49px] font-semibold">{String(timeLeft.seconds).padStart(2, "0")}</strong>
                             <span className="text-xs text-black font-normal">Sec</span>
                         </div>
-                    </div>
+                    </div> */}
                     <h3 className="mt-10">How to Join:</h3>
                     <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
                     <h3 className="mt-10">Can’t Make It?</h3>
