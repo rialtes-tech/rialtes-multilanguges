@@ -8,7 +8,112 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Retail Business Consulting Services",
+  "alternateName": "RetailPlus by Rialtes",
+  "url": "https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/",
+  "description": "Retail+ by Rialtes offers intelligent, scalable, and AI-powered retail transformation services for B2B and B2C enterprises across industries such as fashion, electronics, furniture, luxury, food, wellness, and more. Services include advisory, solution design, implementation, integration, quality assurance, and ongoing support using Salesforce and SAP platforms.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United States"
+    },
+    {
+      "@type": "Country",
+      "name": "Canada"
+    },
+    {
+      "@type": "Country",
+      "name": "India"
+    },
+    {
+      "@type": "Country",
+      "name": "Singapore"
+    }
+  ],
+  "serviceType": "Retail Business Consulting",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Retail+ Key Offerings",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Advisory & Strategy Consulting"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Solution Design & Architecture"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Implementation & Rollout"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Quality Assurance & Testing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Systems Integration & Automation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Post Go-Live Optimization & Support"
+        }
+      }
+    ]
+  },
+  "isRelatedTo": [
+    {
+      "@type": "Product",
+      "name": "Salesforce Retail & Consumer Goods Cloud"
+    },
+    {
+      "@type": "Product",
+      "name": "SAP S/4HANA for Retail"
+    },
+    {
+      "@type": "Product",
+      "name": "Exelona by Rialtes"
+    },
+    {
+      "@type": "Product",
+      "name": "RialChat"
+    },
+    {
+      "@type": "Product",
+      "name": "Salesforce Agentforce"
+    },
+    {
+      "@type": "Product",
+      "name": "Salesforce Data Cloud"
+    }
+  ]
+}
 
 export default function Retail({ items }) {
 
@@ -20,30 +125,34 @@ export default function Retail({ items }) {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
             />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section className="relative h-[435px] lg:h-[650px]">
 
-                        <div className="xl:block hidden">
-                            <Image
-                                src="/images/industry/retail/banner.webp"
-                                alt=""
-                                fill
-                                style={{ objectFit: "cover" }}
-                                priority
-                            />
-                            </div>
+                <div className="xl:block hidden">
+                    <Image
+                        src="/images/industry/retail/banner.webp"
+                        alt=""
+                        fill
+                        style={{ objectFit: "cover" }}
+                        priority
+                    />
+                </div>
 
-                            <div className="xl:hidden block">
-                                <Image
-                                    src="/images/industry/retail/bannerMob.webp"
-                                    alt=""
-                                    fill
-                                    priority
-                                />
-                            </div>
+                <div className="xl:hidden block">
+                    <Image
+                        src="/images/industry/retail/bannerMob.webp"
+                        alt=""
+                        fill
+                        priority
+                    />
+                </div>
 
-                        
-                   
+
+
                 <div
                     className="
          h-full relative

@@ -111,10 +111,10 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                         </div>
 
                         <div className='flex gap-20 !mt-10'>
-                            <ReCAPTCHA
+                            {/* <ReCAPTCHA
                                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                                 onChange={handleCaptchaChange}
-                            />
+                            /> */}
                             <button
                                 type="submit"
                                 className="w-1/2 bg-blue-600 text-white py-2 px-4 text-[20px] rounded hover:bg-blue-700"

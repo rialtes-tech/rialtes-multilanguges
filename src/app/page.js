@@ -11,6 +11,27 @@ import AutoTimerSlider from './newHome/page';
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 import ContactForm from './components/contactform';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rialtes Technologies",
+    "description": "Global expert in IT services and IT consulting, Rialtes delivers AI-powered Salesforce and SAP solutions across industries.",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "sales@rialtes.com",
+        "contactType": "Sales",
+        "areaServed": "US, CA, IN, SG"
+    },
+    "sameAs": [
+        "https://www.linkedin.com/company/rialtes-technologies-llc",
+        "https://www.instagram.com/rialtes_technologies",
+        "https://www.youtube.com/@rialtes",
+        "https://x.com/Rialtestech"
+    ]
+}
+
 const carouselData = [
     {
         title: "Blogs",
@@ -153,9 +174,9 @@ const Home = () => {
     };
 
     const slides = [
-        {  link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/sales-mobile.webp' },
-        {  link: "/products/agentchat", image: '/images/homepage/agentchat.webp', imageMobile: '/images/homepage/agentcmob.webp' },
-        {  link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/sales-mobile.webp' },
+        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', imageMobile: '/images/homepage/agentcmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     useEffect(() => {
@@ -179,7 +200,6 @@ const Home = () => {
     return (
         <div>
             <Head>
-
                 <link rel="icon" href="/images/homepage/Rialtes symbol 1.jpg" />
             </Head>
 
@@ -188,159 +208,161 @@ const Home = () => {
                 description="Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth."
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/"}
-
-
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className='bg-[#F0F0F0] relative xl:h-[1641px] h-[2515px] xl:mt-[20rem] mt-[14rem]'>
-            <div className="absolute xl:w-[1360px] xl:h-[711px] w-[360px] md:w-full xl:ml-[280px] h-[400px] md:ml-[100px] overflow-hidden xl:container mx-[35px] xl:mx-0 container mt-[-215px]">
-                {slides.map((slide, index) => (
-                    <React.Fragment key={index}>
-                        <Link href={slide.link}>
+                <div className="absolute xl:w-[1360px] xl:h-[711px] w-[360px] md:w-full xl:ml-[280px] h-[400px] md:ml-[100px] overflow-hidden xl:container mx-[35px] xl:mx-0 container mt-[-215px]">
+                    {slides.map((slide, index) => (
+                        <React.Fragment key={index}>
+                            <Link href={slide.link}>
 
-                            <div
-                                className={`absolute inset-0 transition-transform transform xl:hidden ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
-                                    }`}
-                                style={{
-                                    backgroundImage: `url(${slide.imageMobile})`,
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center',
-                                }}
-                            >
                                 <div
-                                    ref={refs[6]}
-                                    className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                    className={`absolute inset-0 transition-transform transform xl:hidden ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                         }`}
-                                />
-                            </div>
-                        </Link>
+                                    style={{
+                                        backgroundImage: `url(${slide.imageMobile})`,
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center',
+                                    }}
+                                >
+                                    <div
+                                        ref={refs[6]}
+                                        className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                            }`}
+                                    />
+                                </div>
+                            </Link>
 
-                        <Link href={slide.link}>
-                            <div
-                                className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
-                                    }`}
-                                style={{
-                                    backgroundImage: `url(${slide.image})`,
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center',
-                                }}
-                            >
+                            <Link href={slide.link}>
                                 <div
-                                    ref={refs[6]}
-                                    className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                    className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                         }`}
-                                />
-                            </div>
-                        </Link>
-                    </React.Fragment>
-                ))}
+                                    style={{
+                                        backgroundImage: `url(${slide.image})`,
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center',
+                                    }}
+                                >
+                                    <div
+                                        ref={refs[6]}
+                                        className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                            }`}
+                                    />
+                                </div>
+                            </Link>
+                        </React.Fragment>
+                    ))}
 
-                <div className="absolute bottom-0 right-[-4rem] xl:right-[-6rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
-                    <div className='text-white xl:text-[25px] font-light'>
-                        {currentSlide + 1}/{slides.length}
+                    <div className="absolute bottom-0 right-[-4rem] xl:right-[-6rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
+                        <div className='text-white xl:text-[25px] font-light'>
+                            {currentSlide + 1}/{slides.length}
+                        </div>
+
+
+                        <div className="flex">
+                            <button onClick={prevSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <svg viewBox="0 0 24 24" fill="black" width="45">
+                                    <polygon points="15,6 9,12 15,18" />
+                                </svg>
+                            </button>
+
+                            <button onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <svg viewBox="0 0 24 24" fill="black" width="45">
+                                    <polygon points="9,6 15,12 9,18" />
+                                </svg>
+                            </button>
+                        </div>
+
+
                     </div>
-                   
-                  
-                    <div className="flex">
-                        <button   onClick={prevSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
-                            <svg viewBox="0 0 24 24" fill="black" width="45">
-                                <polygon points="15,6 9,12 15,18" />
-                            </svg>
-                        </button>
-
-                        <button   onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
-                            <svg viewBox="0 0 24 24" fill="black" width="45">
-                                <polygon points="9,6 15,12 9,18" />
-                            </svg>
-                        </button>
-                    </div>
-
-
-                </div>
-            </div>
-
-            {/* //innovating section */}
-            <section className='absolute mx-[35px] md:ml-[100px]   xl:ml-[280px] xl:mr-[246px] xl:mt-[36rem] mt-[15rem]'>
-                <Image
-                    loading="lazy"
-                    height='100'
-                    width='280'
-                    alt='Success Stories'
-                    className='object-contain  w-[1360px] h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
-                    src='/images/homepage/AdobeStock_406847557.svg'
-                />
-                <div
-                    ref={refs[7]}
-                    className={`transition-all  duration-1000 ease-out transform grid xl:grid-cols-12 grid-cols-1 ${inViews[7] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                        }`}
-
-                >
-                    <div className='xl:col-span-4 col-span-12 xl:border-r-[2px] border-black-900 mr-[-16px]'></div>
-
-                    <div className='xl:col-span-8 col-span-12 xl:ml-[6rem]'>
-                        <h2 className="xl:text-[130px] font-bold  xl:ml-0  text-[33px] outline-text pl-[22px] xl:pl-0 xl:h-[125px] xl:mt-[-8px] mt-0 border-l-[2px] xl:border-none border-gay-300 ml-32">with Impact</h2>
-                        <h3 className='xl:text-[34px] text-[26px] text-[#0077CE]  font-bold !mt-[4.25rem] pr-16 xl:pr-0'>Beyond Business: A Commitment to Change</h3>
-                        <p className='mt-5 pr-8 xl:pr-0'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
-                    </div>
-
                 </div>
 
-            </section>
+                {/* //innovating section */}
+                <section className='absolute mx-[35px] md:ml-[100px]   xl:ml-[280px] xl:mr-[246px] xl:mt-[36rem] mt-[15rem]'>
+                    <Image
+                        loading="lazy"
+                        height='100'
+                        width='280'
+                        alt='Success Stories'
+                        className='object-contain  w-[1360px] h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
+                        src='/images/homepage/AdobeStock_406847557.svg'
+                    />
+                    <div
+                        ref={refs[7]}
+                        className={`transition-all  duration-1000 ease-out transform grid xl:grid-cols-12 grid-cols-1 ${inViews[7] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                            }`}
 
+                    >
+                        <div className='xl:col-span-4 col-span-12 xl:border-r-[2px] border-black-900 mr-[-16px]'></div>
 
-            <section className='absolute xl:mt-[75rem] mt-[50rem]  xl:ml-[280px] md:mx-[100px] mx-[35px] xl:mx-0 md:mr-0 xl:mr-0'>
-                <div
+                        <div className='xl:col-span-8 col-span-12 xl:ml-[6rem]'>
+                            <h2 className="xl:text-[130px] font-bold  xl:ml-0  text-[33px] outline-text pl-[22px] xl:pl-0 xl:h-[125px] xl:mt-[-8px] mt-0 border-l-[2px] xl:border-none border-gay-300 ml-32">with Impact</h2>
+                            <h3 className='xl:text-[34px] text-[26px] text-[#0077CE]  font-bold !mt-[4.25rem] pr-16 xl:pr-0'>Beyond Business: A Commitment to Change</h3>
+                            <p className='mt-5 pr-8 xl:pr-0'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                        </div>
 
-                    ref={refs[0]}
-                    className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                        }`}
-
-                >
-                    <div className='col-span-4'>
-                        <h2>Success Stories</h2>
                     </div>
-                    <div className='col-span-5'>
-                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
+
+                </section>
+
+
+                <section className='absolute xl:mt-[75rem] mt-[50rem]  xl:ml-[280px] md:mx-[100px] mx-[35px] xl:mx-0 md:mr-0 xl:mr-0'>
+                    <div
+
+                        ref={refs[0]}
+                        className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                            }`}
+
+                    >
+                        <div className='col-span-4'>
+                            <h2>Success Stories</h2>
+                        </div>
+                        <div className='col-span-5'>
+                            <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
+
+                        </div>
+                        <div className='col-span-3'></div>
 
                     </div>
-                    <div className='col-span-3'></div>
+                    <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
+                        {successStoryData.map((success, index) => {
+                            const isLight = success.theme === "light";
+                            return (
+                                <React.Fragment key={index}>
+                                    <Link href={success.url}>
+                                        <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
+                                            <div
+                                                className="absolute  inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
+                                                style={{
+                                                    backgroundImage: `url(${success.imageUrl})`,
+                                                    backgroundSize: 'cover',
+                                                    backgroundPosition: 'left center',
+                                                }}
+                                            ></div>
 
-                </div>
-                <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
-                    {successStoryData.map((success, index) => {
-                        const isLight = success.theme === "light";
-                        return (
-                            <React.Fragment key={index}>
-                                <Link href={success.url}>
-                                    <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
-                                        <div
-                                            className="absolute  inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
-                                            style={{
-                                                backgroundImage: `url(${success.imageUrl})`,
-                                                backgroundSize: 'cover',
-                                                backgroundPosition: 'left center',
-                                            }}
-                                        ></div>
-
-                                        <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
-                                        <div className={`relative  z-10 p-6  ${isLight ? 'text-black' : 'text-white'}`}>
-                                            <p className="mb-5 text-[18px] ">{success.title}</p>
-                                            <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
-                                                {success.description}
-                                            </h3>
+                                            <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
+                                            <div className={`relative  z-10 p-6  ${isLight ? 'text-black' : 'text-white'}`}>
+                                                <p className="mb-5 text-[18px] ">{success.title}</p>
+                                                <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
+                                                    {success.description}
+                                                </h3>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    {(index + 1) % 4 === 0 && (
-                                        <div className="w-full xl:col-span-4 xl:mt-10"></div>
-                                    )}
-                                </Link>
-                            </React.Fragment>
-                        );
-                    })}
-                </div>
+                                        {(index + 1) % 4 === 0 && (
+                                            <div className="w-full xl:col-span-4 xl:mt-10"></div>
+                                        )}
+                                    </Link>
+                                </React.Fragment>
+                            );
+                        })}
+                    </div>
 
-            </section>
-</div>
+                </section>
+            </div>
 
 
 
@@ -408,19 +430,19 @@ const Home = () => {
 
 
                                 <div className="flex">
-                        <button   onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
-                            <svg viewBox="0 0 24 24" fill="black" width="45">
-                                <polygon points="15,6 9,12 15,18" />
-                            </svg>
-                        </button>
+                                    <button onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                        <svg viewBox="0 0 24 24" fill="black" width="45">
+                                            <polygon points="15,6 9,12 15,18" />
+                                        </svg>
+                                    </button>
 
-                        <button   onClick={handleNextInsights} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
-                            <svg viewBox="0 0 24 24" fill="black" width="45">
-                                <polygon points="9,6 15,12 9,18" />
-                            </svg>
-                        </button>
-                    </div>
-                               
+                                    <button onClick={handleNextInsights} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                        <svg viewBox="0 0 24 24" fill="black" width="45">
+                                            <polygon points="9,6 15,12 9,18" />
+                                        </svg>
+                                    </button>
+                                </div>
+
                             </div>
                         </div>
                     </div>

@@ -86,6 +86,7 @@ const Services = () => {
 export default function About() {
     return (
         <div className="min-h-screen">
+            {/* seo and schema tag */}
             <Seo
                 title="About Us | Rialtes - AI-Powered Business Transformation"
                 description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."

@@ -5,6 +5,40 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+    "description": "Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.",
+    "url": "https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes",
+    "startDate": "2025-06-03T20:30:00+05:30",
+    "endDate": "2025-06-03T21:00:00+05:30",
+    "duration": "PT30M",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Rialtes Technology",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "performer": {
+        "@type": "Person",
+        "name": "Anuraag Aggarwal",
+        "jobTitle": "Vice President of Global Sales",
+        "url": "https://www.linkedin.com/in/anuraag-aggarwal/"
+    },
+    "image": "https://www.rialtes.com/images/webinar/banner-rise.webp",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "CIOs, IT Leaders, Digital Transformation Leaders, SAP Technical Consultants, SAP Functional Consultants, Enterprise Architects"
+    },
+    "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes"
+    },
+    "keywords": "SAP Rise webinar, RISE with SAP, Voyager+, Rialtes webinars"
+}
 export default function () {
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-06-03T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
@@ -48,6 +82,10 @@ export default function () {
                 canonical="https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes"
             />
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
                     src="/images/webinar/banner-rise.webp"

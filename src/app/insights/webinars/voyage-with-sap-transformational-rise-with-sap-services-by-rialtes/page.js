@@ -5,7 +5,7 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 
 
-export default function() {
+export default function () {
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-20T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
