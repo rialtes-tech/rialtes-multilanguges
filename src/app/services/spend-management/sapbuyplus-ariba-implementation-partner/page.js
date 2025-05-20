@@ -4,6 +4,88 @@ import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import { HeroSection } from "@/app/components/herosection";
 import Link from "next/link";
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "SAP ARIBA Implementation Services",
+    "alternateName": "SAPBuyPlus by Rialtes",
+    "url": "https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/",
+    "image": "https://www.rialtes.com/assets/images/sapbuyplus-ariba.jpg",
+    "description": "Rialtes SAPBuy+ helps enterprises transform procurement with SAP ARIBA through advisory, implementation, integration, and optimization services. Streamline procure-to-pay operations, enhance supplier collaboration, and maximize ROI with SAPBuy+.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc/",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" }
+    ],
+    "serviceType": "SAP ARIBA Implementation, Integration & Migration",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": [
+            "CIOs",
+            "Procurement Heads",
+            "IT Directors",
+            "Operations Managers"
+        ]
+    },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "SAPBuy+ Service Suite",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP ARIBA License Advisory"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Implementation & Design with SAP Signavio and Activate"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Quality Assurance & Governance"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "System Integration with SAP S/4HANA, SuccessFactors, and Non-SAP Tools"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Post Go-Live Support and Supplier Onboarding"
+                }
+            }
+        ]
+    },
+    "isRelatedTo": [
+        { "@type": "Product", "name": "SAP ARIBA" },
+        { "@type": "Product", "name": "SAP S/4HANA" },
+        { "@type": "Product", "name": "SAP SuccessFactors" },
+        { "@type": "Product", "name": "SAP Business Technology Platform (BTP)" }
+    ]
+}
 const WhyChooseRialtes = () => {
     const whyChooseData = [
         {
@@ -665,6 +747,10 @@ export default function page() {
             {/* hero section */}
             <HeroSection title="Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA" subtitle="SAPBuy+" mobimg="/images/sap-buy/Mobile/sap-buy-banner-mob.webp" deskimg="/images/sap-buy/sap-buy-banner.webp" />
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* page information */}
             <section className="custom-container mt-[51px] lg:mt-[85px] px-[2rem]">
                 <p className="text-[16px] leading-[19px] font-normal w-[96%] xl:text-[22px] xl:leading-[30px] xl:w-[90%] lg:w-[90%]">

@@ -4,6 +4,40 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import WebinarForm from "@/app/components/webinarForm";
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Let’s WhatsApp in Salesforce with AgentChat",
+    "description": "Discover how AgentChat, Rialtes' native, bidirectional Salesforce WhatsApp integration, transforms team communication directly within Salesforce. Learn about cross-cloud compatibility, faster customer response times, workflow automation, and more. This is a recorded webinar.",
+    "url": "https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat",
+    "startDate": "2024-05-06T20:30:00+05:30",
+    "endDate": "2024-05-06T21:00:00+05:30",
+    "duration": "PT30M",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventCompleted",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Rialtes Technology",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "performer": {
+        "@type": "Person",
+        "name": "Lokesh Adhikari",
+        "jobTitle": "Software Engineer - Salesforce",
+        "url": "https://www.linkedin.com/in/lokeshadhikari/"
+    },
+    "image": "https://www.rialtes.com/images/webinar/Webinar_6.webp",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Salesforce Admins & Developers, Sales & Service Team Leads, Customer Experience Managers, Field Operations Managers, CRM & Marketing Professionals"
+    },
+    "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
+    },
+    "keywords": "WhatsApp integration with Salesforce, Salesforce webinar, Salesforce integration webinar"
+}
 
 export default function About() {
      const sectionRef = useRef(null);
@@ -52,7 +86,10 @@ export default function About() {
                 canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
             />
 
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
                     src="/images/webinar/Webinar_6.webp"

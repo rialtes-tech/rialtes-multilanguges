@@ -4,6 +4,40 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import WebinarForm from "@/app/components/webinarForm";
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
+    "description": "Explore how SAP Datasphere integrates with Databricks to create the SAP Business Data Cloud. Learn how you can harmonize data across platforms, streamline your analytics strategy, and enable trusted business-ready data across your organization.",
+    "url": "https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud",
+    "startDate": "2025-05-13T20:30:00+05:30",
+    "endDate": "2025-05-13T21:00:00+05:30",
+    "duration": "PT30M",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventCompleted",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Rialtes Technology",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "performer": {
+        "@type": "Person",
+        "name": "Akshay Kale",
+        "jobTitle": "Sr. Managing Director – SAP Services",
+        "url": "https://www.linkedin.com/in/sap-akshaykale/"
+    },
+    "image": "https://www.rialtes.com/images/webinar/Webinar_13%20May%2025_webinar%20Banner.webp",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Data Engineers, SAP Architects, Analytics Leaders, CIOs, CTOs, BI Professionals"
+    },
+    "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud"
+    },
+    "keywords": "SAP webinar​, SAP Datasphere webinar, Databricks webinar, SAP Business Data Cloud, Rialtes webinars"
+}
 
 export default function () {
     const sectionRef = useRef(null);
@@ -53,6 +87,10 @@ export default function () {
                 canonical="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
             />
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
                     src="/images/webinar/Webinar_13 May 25_webinar Banner.webp"

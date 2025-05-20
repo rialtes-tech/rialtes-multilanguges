@@ -4,7 +4,131 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 
 
-
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Oracle EBS Services",
+    "alternateName": "OracleEBSPlus by Rialtes",
+    "description": "Rialtes offers comprehensive Oracle EBS services through its EBSPlus framework, integrating Kinaxis RapidResponse for supply chain optimization, S&OP, and AI-driven transformation. Services include Oracle EBS implementation, advisory, integration, support, and OCI cloud enablement.",
+    "url": "https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc/",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "areaServed": [
+        {
+            "@type": "Country",
+            "name": "India"
+        },
+        {
+            "@type": "Country",
+            "name": "United States"
+        },
+        {
+            "@type": "Country",
+            "name": "Canada"
+        },
+        {
+            "@type": "Country",
+            "name": "Singapore"
+        }
+    ],
+    "serviceType": [
+        "Oracle EBS Consulting",
+        "Oracle EBS Implementation",
+        "Kinaxis RapidResponse Integration",
+        "Oracle Cloud Infrastructure (OCI) Migration",
+        "Oracle Supply Chain Planning",
+        "Sales and Operations Planning (S&OP)",
+        "Inventory Optimization",
+        "Enterprise Scheduling",
+        "Scenario Planning",
+        "AI & Data-Driven ERP Transformation"
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Oracle EBSPlus Offerings",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "License & Advisory Services",
+                    "description": "Optimize Oracle EBS and Kinaxis licensing with cost-effective strategies."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Implementation & Design",
+                    "description": "End-to-end Oracle EBS implementation using agile and industry best practices."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Quality Assurance & Testing",
+                    "description": "Business-aligned QA and testing for smooth, disruption-free go-lives."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Integration & Data Strategy",
+                    "description": "Seamlessly connect Oracle EBS, Kinaxis, and third-party platforms."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Post Go-Live Support & Optimization",
+                    "description": "Managed services and continuous improvements for Oracle EBS systems."
+                }
+            }
+        ]
+    },
+    "isRelatedTo": [
+        {
+            "@type": "Product",
+            "name": "Oracle E-Business Suite (EBS)"
+        },
+        {
+            "@type": "Product",
+            "name": "Kinaxis RapidResponse"
+        },
+        {
+            "@type": "Product",
+            "name": "Oracle Cloud Infrastructure (OCI)"
+        }
+    ],
+    "audience": {
+        "@type": "Audience",
+        "audienceType": [
+            "Manufacturing",
+            "Healthcare",
+            "Retail",
+            "Semiconductor",
+            "Enterprise IT"
+        ]
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
+    }
+}
 
 export default function Page() {
 
@@ -14,7 +138,10 @@ export default function Page() {
                 title="Oracle EBS Consulting Services"
                 canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
             />
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[399px] xl:h-[650px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image

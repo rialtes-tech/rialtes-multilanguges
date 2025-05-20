@@ -9,6 +9,97 @@ import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 
+const schemaData ={
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Rise with SAP Services",
+  "alternateName": "VoyagerPlus by Rialtes",
+  "url": "https://www.rialtes.com/services/business-transformation/rise-with-sap-services/",
+  "description": "Accelerate your digital transformation with Rialtes Voyager+ for RISE with SAP. Our services include SAP S/4HANA Cloud implementation, Greenfield and Brownfield deployments, SAP BTP integrations, SAP Signavio process intelligence, and post-go-live support — tailored for future-ready enterprises.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+    "sameAs": [
+      "https://www.linkedin.com/company/rialtes-technologies-llc/",
+      "https://www.youtube.com/@rialtes"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
+    }
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United States"
+    },
+    {
+      "@type": "Country",
+      "name": "Canada"
+    },
+    {
+      "@type": "Country",
+      "name": "India"
+    },
+    {
+      "@type": "Country",
+      "name": "Singapore"
+    }
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Enterprises, CIOs, CTOs, ERP Leaders"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "RISE with SAP Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "SAP Cloud ERP Implementation",
+          "description": "End-to-end implementation of SAP S/4HANA Cloud using SAP Activate and Rialtes Voyager+ methodology."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Greenfield SAP Implementation",
+          "description": "Reimagine your ERP from scratch using SAP best practices, SAP Signavio, and data strategy frameworks."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Brownfield SAP System Conversion",
+          "description": "Seamlessly migrate from ECC to SAP S/4HANA while retaining data and business processes."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "SAP Business Technology Platform Integration",
+          "description": "Custom app development, automation, analytics, and integrations with SAP BTP and CPI."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Connected SAP Solutions",
+          "description": "Integrate SAP SuccessFactors, SAP Ariba, and Salesforce with SAP S/4HANA for business synergy."
+        }
+      }
+    ]
+  }
+}
+
 const latestServices = [
   {
     id: 1,
@@ -53,7 +144,7 @@ const Services = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
-      <LearnMore/>
+      <LearnMore />
     </div>
   );
 };
@@ -65,12 +156,15 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-     <Seo
+      <Seo
         title="Rise with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
         description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
         keywords="home, website, welcome"
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/services/rise-with-sap/rise-with-sap-banner.webp"
@@ -178,7 +272,7 @@ export default function Page() {
 
             </div>
             <div className="mt-[-15px] xl:mt-0">
-            <LearnMore/>
+              <LearnMore />
 
             </div>
 
@@ -319,7 +413,7 @@ export default function Page() {
               </div>
             </div>
             <div className="mt-[-50px] xl:mt-0">
-            <LearnMore/>
+              <LearnMore />
 
             </div>
           </div>
@@ -344,16 +438,16 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-              className="mt-20 mb-20
+        className="mt-20 mb-20
                                ml-[15px] w-[calc(100%-15px)] mr-0
                                xl:ml-[280px] xl:w-[calc(100%-280px)]
                                md:ml-[100px] md:w-[calc(100%-100px)]
                                sm:mx-5 sm:w-[calc(100%-40px)]
                                xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
-              <ServicesBlogs slides={slides} />
+      >
+        <ServicesBlogs slides={slides} />
 
-            </div>
+      </div>
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
         <div

@@ -3,7 +3,98 @@
 import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
-
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Us",
+    "url": "https://www.rialtes.com/contact-us/",
+    "about": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "contactType": "Sales",
+                "email": "sales@rialtes.com",
+                "availableLanguage": ["English"]
+            }
+        ],
+        "address": [
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "501 Congress Avenue, Suite 150",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78701",
+                "addressCountry": "US"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "5251 California Ave, Suite 110",
+                "addressLocality": "Irvine",
+                "addressRegion": "CA",
+                "postalCode": "92617",
+                "addressCountry": "US"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "World Trade Center, 119, Tower-2, 1st Floor, Kharadi",
+                "addressLocality": "Pune",
+                "addressRegion": "MH",
+                "postalCode": "411014",
+                "addressCountry": "IN"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "Berger Delhi One, Sector 16B, C-001/A2, Gautam Buddha Nagar",
+                "addressLocality": "Noida",
+                "addressRegion": "UP",
+                "postalCode": "201301",
+                "addressCountry": "IN"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "Dehradun IT Park, Weblan Unit A, Second Floor, Sahastradhara Road",
+                "addressLocality": "Dehradun",
+                "addressRegion": "UK",
+                "postalCode": "248001",
+                "addressCountry": "IN"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit #255, Block - B, 2nd Floor, Motia Plaza",
+                "addressLocality": "Baddi",
+                "addressRegion": "HP",
+                "postalCode": "173205",
+                "addressCountry": "IN"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "Suite 500, 1000 Innovation Dr",
+                "addressLocality": "Kanata",
+                "addressRegion": "ON",
+                "postalCode": "K2K 3E7",
+                "addressCountry": "CA"
+            },
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "30 Cecil Street, #19-08 Prudential Tower",
+                "addressLocality": "Singapore",
+                "addressRegion": "SG",
+                "postalCode": "049712",
+                "addressCountry": "SG"
+            }
+        ]
+    },
+    "sameAs": [
+        "https://www.linkedin.com/company/rialtes-technologies-llc/",
+        "https://www.youtube.com/@rialtes",
+        "https://x.com/Rialtestech",
+        "https://www.instagram.com/rialtes_technologies/"
+    ]
+}
 export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
     const [captchaValue, setCaptchaValue] = useState(false);
     const section1Ref = useRef(null);
@@ -46,7 +137,10 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
     return (
         <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <h2 className={className}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
             </h2>
@@ -113,11 +207,52 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                    
-                    <ReCAPTCHA
+                    {/* <div
+                        className={`flex items-center  gap-2 border p-4 border-gray-500 ${isRobotChecked ? "bg-[#0092E0]" : "bg-white"}`}
+                    > 
+                        {/* <div className="flex gap-3 items-center">
+                            <div className="relative">
+                                <input
+                                    type="checkbox"
+                                    id="robotCheck"
+                                    checked={isRobotChecked}
+                                    onChange={handleCheckboxChange}
+                                    className={`h-8 w-8 border-2 flex rounded-sm transition-all 
+                                        ${isRobotChecked ? 'border-green-500 bg-white' : 'border-gray-300 bg-white'}`} />
+
+
+                                {isLoading && (
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <div className="w-[32px] h-[32px] border-4 border-t-4 border-gray-300 border-t-[#71acdb] rounded-full animate-spin"></div>
+                                    </div>
+                                )}
+                            </div>
+
+                            <label
+                                htmlFor="robotCheck"
+                                className={`text-sm font-bold ${isRobotChecked ? "text-white" : "text-[#134874]"}`}
+                            >
+                                I'm not a robot
+                            </label>
+
+                            <Image
+                                src={isRobotChecked ? '/images/homepage/recaptcha_blue.svg' : '/images/partners/recaptcha.svg'}
+                                className="w-[30px]"
+                                alt="captcha"
+                                width={30}
+                                height={30}
+                                sizes="100vw"
+                                style={{
+                                    objectFit: "cover",
+                                }}
+                                priority
+                            />
+                        </div> */}
+                    {/* </div> */}
+                    {/* <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
-                    />
+                    /> */}
                     <button type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
                     </button>

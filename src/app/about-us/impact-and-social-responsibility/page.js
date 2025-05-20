@@ -3,7 +3,19 @@ import Image from "next/image";
 import ContactForm from "../../../app/components/contactform";
 import Seo from "@/app/components/Seo";
 
-
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "SocialResponsibility",
+  "organization": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/logo.png",
+    "description": "Rialtes supports sustainability, diversity, and social impact through AI and community engagement."
+  },
+  "socialImpact": "Sustainability initiatives, AI workforce training, charity programs, and promoting responsible AI.",
+  "action": "Responsible AI adoption, net-zero carbon footprint, community empowerment, and upskilling youth."
+}
 export default function Page() {
 
   return (
@@ -14,7 +26,10 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical={"https://www.rialtes.com/about-us/impact-and-social-responsibility/"}
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/social-impact/Social impact header.webp"

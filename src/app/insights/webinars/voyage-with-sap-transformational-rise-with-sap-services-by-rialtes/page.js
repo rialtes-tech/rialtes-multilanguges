@@ -5,43 +5,9 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-    "description": "Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.",
-    "url": "https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes",
-    "startDate": "2025-06-03T20:30:00+05:30",
-    "endDate": "2025-06-03T21:00:00+05:30",
-    "duration": "PT30M",
-    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "organizer": {
-        "@type": "Organization",
-        "name": "Rialtes Technology",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "performer": {
-        "@type": "Person",
-        "name": "Anuraag Aggarwal",
-        "jobTitle": "Vice President of Global Sales",
-        "url": "https://www.linkedin.com/in/anuraag-aggarwal/"
-    },
-    "image": "https://www.rialtes.com/images/webinar/banner-rise.webp",
-    "audience": {
-        "@type": "Audience",
-        "audienceType": "CIOs, IT Leaders, Digital Transformation Leaders, SAP Technical Consultants, SAP Functional Consultants, Enterprise Architects"
-    },
-    "location": {
-        "@type": "VirtualLocation",
-        "url": "https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes"
-    },
-    "keywords": "SAP Rise webinar, RISE with SAP, Voyager+, Rialtes webinars"
-}
 export default function () {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-06-03T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
+        const targetDate = new Date("2025-05-20T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
         const difference = targetDate - now;
 
@@ -77,18 +43,14 @@ export default function () {
     return (
         <div className="min-h-screen">
             <Seo
-                title="SAP RISE Webinar: Simplify Your SAP Journey with Voyager+ by Rialtes"
-                description="Join our SAP RISE webinar to explore Voyager+—a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation."
-                canonical="https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes"
+                title="How SAP Business Data Cloud, Databricks & SAP Datasphere Unify Enterprise Data"
+                description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
+                canonical="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
-                    src="/images/webinar/banner-rise.webp"
+                    src="/images/webinar/Webinar_13 May 25_webinar Banner.webp"
                     alt="Webinar Header"
                     fill
                     style={{ objectFit: "cover", objectPosition: "70% 20%" }}
@@ -163,7 +125,7 @@ export default function () {
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
-                                src="/images/webinar/anurag.webp"
+                                src="/images/webinar/Akshay-Kale.webp"
                                 alt="Voyage with SAP – Transformational RISE with SAP Services by Rialtes"
                                 priority
                                 className="xl:w-[256px] xl:h-[256px] w-full h-auto"
@@ -177,20 +139,17 @@ export default function () {
                             <h3 className="mt-[-10px] xl:text-[24px]">Vice President of Global Sales</h3>
                         </div>
                     </div>
-                    <p className="mt-16 xl:pr-32">Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.</p>
+                    <p className="mt-16 xl:pr-32">Don’t miss this opportunity to join us for an exclusive webinar to explore how <strong>Salesforce Automotive Cloud</strong> is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.</p>
 
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
-                    <ul className="list-disc marker:text-black text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium pr-24">
+                    <p className="mt-5 xl:pr-32"><strong>Simplify SAP Transformation:</strong> How an integrated approach removes complexity.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Accelerate Cloud Adoption:</strong>Strategies to migrate faster and smarter while minimizing technical debt.</p>
+                    <p className="mt-5"><strong>Process Reimagination with SAP Signavio:</strong> Unlock new efficiencies and innovation opportunities..</p>
+                    <p className="mt-5 xl:pr-32"><strong>Tap into AI and Automation:</strong> Enhance your SAP operations for smarter, autonomous workflows.</p>
+                    <p className="mt-5 xl:pr-32"><strong>Live Demo:</strong> See the Voyager+ framework in action, supporting a smooth RISE with SAP journey.</p>
 
-                        <li className="pb-2 mt-5"><strong>Simplify SAP Transformation:</strong> How an integrated approach removes complexity.</li>
-                        <li className="pb-2"><strong>Accelerate Cloud Adoption:</strong> Strategies to migrate faster and smarter while minimizing technical debt.</li>
-                        <li className="pb-2"><strong>Process Reimagination with SAP Signavio:</strong> Unlock new efficiencies and innovation opportunities..</li>
-                        <li className="pb-2"><strong>Tap into AI and Automation:</strong> Enhance your SAP operations for smarter, autonomous workflows.</li>
-                        <li className="pb-2"><strong>Live Demo:</strong> See the Voyager+ framework in action, supporting a smooth RISE with SAP journey.</li>
-
-                    </ul>
-                    <h3 className="mt-10 text-[#0092E0]">Who Should Attend?</h3>
-                    <ul className="list-disc marker:text-black text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
+                    <h3 className="mt-16 text-[#0092E0]">Who Should Attend?</h3>
+                    <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
 
                         <li className="pb-2 mt-5">CIOs and IT Leaders</li>
                         <li className="pb-2">Digital Transformation Leaders</li>
@@ -200,7 +159,7 @@ export default function () {
                         <li className="pb-2">Anyone planning or accelerating their RISE with SAP transformation</li>
 
                     </ul>
-                    <Link href="https://us06web.zoom.us/webinar/register/WN_70Iq56coShaL0BdO-I2jyQ">
+                    <Link href="https://us06web.zoom.us/webinar/register/WN_l9ckv1LCSI6zhReliozUrw">
                         <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
 
                     </Link>
@@ -208,11 +167,11 @@ export default function () {
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
                     <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
-                        <h2 className="font-extrabold">03</h2>
-                        <h3>June 2025</h3>
+                        <h2 className="font-extrabold">13</h2>
+                        <h3>May 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                        <Link href="https://us06web.zoom.us/webinar/register/WN_70Iq56coShaL0BdO-I2jyQ">
+                        <Link href="https://us06web.zoom.us/webinar/register/WN_l9ckv1LCSI6zhReliozUrw">
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
 
                         </Link>
