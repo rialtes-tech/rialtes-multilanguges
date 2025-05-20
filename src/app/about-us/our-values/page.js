@@ -2,6 +2,51 @@
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Our Values - Empowering People with Trust & Inclusion | Rialtes",
+    "url": "https://www.rialtes.com/about-us/our-values/",
+    "description": "At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment.",
+    "headline": "Our Value System",
+    "mainEntity": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com"
+    },
+    "about": [
+        {
+            "@type": "Thing",
+            "name": "Equal Opportunity",
+            "description": "We foster a culture of fairness, inclusion, and growth where everyone has an equal chance to thrive."
+        },
+        {
+            "@type": "Thing",
+            "name": "LGBTQ+ Inclusion",
+            "description": "Creating a safe and empowering workplace where LGBTQ+ individuals are valued and supported."
+        },
+        {
+            "@type": "Thing",
+            "name": "Veteran Support",
+            "description": "Honoring the contributions of veterans by supporting their growth and inclusion in our workforce."
+        },
+        {
+            "@type": "Thing",
+            "name": "Women in Tech",
+            "description": "Driving impact through mentorship, leadership development, and equal opportunities for women in technology."
+        },
+        {
+            "@type": "Thing",
+            "name": "Trust & Transparency",
+            "description": "Building lasting relationships through open communication, integrity, and accountability."
+        },
+        {
+            "@type": "Thing",
+            "name": "Growth Mindset",
+            "description": "Encouraging continuous learning, innovation, and personal development across the organization."
+        }
+    ]
+}
 const growLatestServices = [
     {
         id: 1,
@@ -82,25 +127,28 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/our-values/"}
             />
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[399px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <div className="xl:block hidden">
-                <Image
-                    src="/images/culture/culture header.webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                    className="xl:object-[35%_20%] object-cover"
-                />
+                    <Image
+                        src="/images/culture/culture header.webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                        className="xl:object-[35%_20%] object-cover"
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src="/images/culture/AdobeStock_1016285553.webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                    className="object-cover"
-                />
+                    <Image
+                        src="/images/culture/AdobeStock_1016285553.webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                        className="object-cover"
+                    />
                 </div>
                 <div
                     className="
@@ -175,31 +223,31 @@ export default function Page() {
             </section>
             <section className="relative h-[800px]  xl:h-[650px] overflow-hidden">
                 <div className="xl:block hidden">
-                <Image
-                    src="/images/culture/commitments.webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                    className="xl:object-[35%_20%] object-[80%_20%] object-cover"
-                />
+                    <Image
+                        src="/images/culture/commitments.webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                        className="xl:object-[35%_20%] object-[80%_20%] object-cover"
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src="/images/culture/AdobeStock_458959285.webp"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                    className="object-cover"
-                />
+                    <Image
+                        src="/images/culture/AdobeStock_458959285.webp"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                        className="object-cover"
+                    />
                 </div>
                 <div className="xl:hidden block">
-                <Image
-                    src="/images/culture/quote mark.svg"
-                    alt="GROW with SAP"
-                    fill
-                    priority
-                    className="object-cover !w-[140px] !h-[60px] pl-[35px]"
-                />
+                    <Image
+                        src="/images/culture/quote mark.svg"
+                        alt="GROW with SAP"
+                        fill
+                        priority
+                        className="object-cover !w-[140px] !h-[60px] pl-[35px]"
+                    />
                 </div>
                 <div
                     className="
@@ -211,7 +259,7 @@ export default function Page() {
                     <div className="container mx-auto h-full flex flex-col justify-center">
                         <div className="flex flex-col">
                             <h2 className="xl:text-white text-black max-w-2xl xl:text-[55px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[-20rem] xl:mt-0">
-                                Business run on Trust, Grows on Transparency <br/>ONLY if we deliver on <br/>our commitments
+                                Business run on Trust, Grows on Transparency <br />ONLY if we deliver on <br />our commitments
                             </h2>
                         </div>
 
@@ -233,10 +281,10 @@ export default function Page() {
                 </section>
             </div>
 
-           
 
 
-           
+
+
             {/* Contact Form */}
             < div
                 className="

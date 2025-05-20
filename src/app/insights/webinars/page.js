@@ -6,6 +6,19 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Rialtes Webinars",
+  "url": "https://www.rialtes.com/insights/webinars/",
+  "description": "Discover webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  }
+}
+
 const webinars = [
   {
     id: 1,
@@ -220,7 +233,10 @@ export default function About() {
         title="Webinar"
         canonical="https://www.rialtes.com/insights/webinars/"
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/webinar/webinar-header.webp"
