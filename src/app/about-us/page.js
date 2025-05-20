@@ -86,13 +86,16 @@ const Services = () => {
 export default function About() {
     return (
         <div className="min-h-screen">
-            <Head>
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData, null, 2) }}
-                />
-            </Head>
-
+            <Seo
+                title="About Us | Rialtes - AI-Powered Business Transformation"
+                description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."
+                keywords="home, website, welcome"
+                canonical={"https://www.rialtes.com/about-us/"}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative">
                 <div
                     className="
