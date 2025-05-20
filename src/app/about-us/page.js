@@ -89,7 +89,7 @@ export default function About() {
             <Head>
                 <script
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData, null, 2) }}
                 />
             </Head>
 
