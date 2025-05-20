@@ -86,12 +86,6 @@ const Services = () => {
 export default function About() {
     return (
         <div className="min-h-screen">
-            <Seo
-                title="Empowering Enterprise Transformation Journey | About Rialtes"
-                description="Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI."
-                keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/about-us/"}
-            />
             <Head>
                 <script
                     type="application/ld+json"
