@@ -3,7 +3,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
+import BlogsCarousel from '../../../components/latestBlogCarousel';git 
 import Seo from "@/app/components/Seo";
 
 const blogs = [
@@ -141,9 +141,9 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="How Does a Reasoning Engine Work in Agentforce? | Rialtes"
-                description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
-                canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
+                title="Why AgentExchange Is a Game-Changer | Rialtes"
+                description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
+                canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
             />
 
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
