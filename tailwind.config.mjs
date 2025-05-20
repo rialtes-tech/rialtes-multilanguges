@@ -44,7 +44,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+  require('@tailwindcss/typography'),
+],
   safelist: [
     "ml-[280px]",
     "w-[calc(100%-280px)]",
