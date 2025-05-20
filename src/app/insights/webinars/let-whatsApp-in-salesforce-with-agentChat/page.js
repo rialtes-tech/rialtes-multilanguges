@@ -1,12 +1,16 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
 
 
 export default function About() {
+     const sectionRef = useRef(null);
+
+  const handleScroll = () => {
+    sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-06T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
@@ -171,10 +175,10 @@ export default function About() {
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
 
-                        <Link href="https://us06web.zoom.us/webinar/register/WN_AzyAJbyIRmm5R_cHgjW9PA#/registration">
+                        <div onClick={handleScroll}>
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
 
-                        </Link>
+                        </div>
 
                     </div>
                     {/* <p className="mt-10">Webinar Starting In</p> 
@@ -207,7 +211,7 @@ export default function About() {
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
             </div>
-            <div className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20">
+            <div className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20" ref={sectionRef}>
                 <WebinarForm
                     redirectUrl="https://www.youtube.com/watch?v=QGKwqgjEyT4"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"

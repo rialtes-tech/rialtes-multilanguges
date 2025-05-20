@@ -23,17 +23,17 @@ const webinars = [
 ];
 
 const allWebinars = [
-  {
-    id: 1,
-    title: "Discover the Agentic Capabilities of Agentforce",
-    date: "May 15, 2025",
-    time: "10:00 AM CST",
-    speaker: "Lokesh Adhikari",
-    position: "Software Engineer - Salesforce",
-    image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
-    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
+  // {
+  //   id: 1,
+  //   title: "Discover the Agentic Capabilities of Agentforce",
+  //   date: "May 15, 2025",
+  //   time: "10:00 AM CST",
+  //   speaker: "Lokesh Adhikari",
+  //   position: "Software Engineer - Salesforce",
+  //   image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+  //   url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
 
-  },
+  // },
   {
     id: 2,
     title: "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
@@ -44,17 +44,17 @@ const allWebinars = [
     image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
     url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
   },
-  {
-    id: 3,
-    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
-    date: "May 08, 2025",
-    time: "10:00 AM CST",
-    speaker: "Divya Agarwal",
-    position: "Software Engineer - Salesforce",
-    image: "/images/webinar/webinar-thumb.webp",
-    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+  // {
+  //   id: 3,
+  //   title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+  //   date: "May 08, 2025",
+  //   time: "10:00 AM CST",
+  //   speaker: "Divya Agarwal",
+  //   position: "Software Engineer - Salesforce",
+  //   image: "/images/webinar/webinar-thumb.webp",
+  //   url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
 
-  },
+  // },
   {
     id: 4,
     title: "Let’s WhatsApp in Salesforce with AgentChat",

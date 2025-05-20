@@ -111,7 +111,7 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
             { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-
+            { label: 'Kinaxis', href: '/solutions/enterprise-platforms/kinaxis' },
           ],
         },
         {
@@ -526,7 +526,7 @@ const Header = () => {
                               <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
                               <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
-                              {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/solutions/enterprise-platforms/kinaxis" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/kinaxis")} onHover={() => { }} /> */}
+                              <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/solutions/enterprise-platforms/kinaxis" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/kinaxis")} onHover={() => { }} />
 
                             </div>
                           </div>
