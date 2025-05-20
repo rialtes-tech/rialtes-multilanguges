@@ -3,48 +3,45 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-
+import Head from 'next/head';
 
 const latestServices = [
     {
         id: 1,
         title: "Our Values",
         description: "Driven by our clients’ success, we deliver trusted partnerships, tailored solutions, and measurable impact.",
-        url:'/about-us/our-values'
+        url: '/about-us/our-values'
     },
     {
         id: 2,
         title: "Who we are",
         description: "Focused on driving Technology adoption today to create transformative impact and competitive advantage for the future",
-        url:'/about-us/impact-and-social-responsibility'
+        url: '/about-us/impact-and-social-responsibility'
     },
     {
         id: 3,
         title: "Our mission",
         description: "Committed to giving back, we empower communities through education, innovation, and impactful social initiatives",
-        url:'/about-us/impact-and-social-responsibility'
+        url: '/about-us/impact-and-social-responsibility'
     },
 
 ];
 const ServicesCard = ({ services }) => (
     <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF] flex flex-col min-h-[400px]">
-    <div className="flex-grow">
-        <h3 className="mb-[15px] md:mb-[25px] font-normal line-clamp-4 text-[#1F3F69] xl:text-[35px] text-[30px]">
-            {services.title}
-        </h3>
-        <p className="md:mb-[15px] mb-0 xl:text-[27px] text-[22px]">{services.description}</p>
+        <div className="flex-grow">
+            <h3 className="mb-[15px] md:mb-[25px] font-normal line-clamp-4 text-[#1F3F69] xl:text-[35px] text-[30px]">
+                {services.title}
+            </h3>
+            <p className="md:mb-[15px] mb-0 xl:text-[27px] text-[22px]">{services.description}</p>
+        </div>
+        <div className="mt-auto">
+            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
+                <Link href={services.url}>Learn More</Link>
+            </button>
+        </div>
     </div>
-    <div className="mt-auto">
-        <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
-            <Link href={services.url}>Learn More</Link>
-        </button>
-    </div>
-</div>
 
 );
-
-
-
 const Services = () => {
     return (
         <div className="container mx-auto text-black">
@@ -71,10 +68,37 @@ export default function About() {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/"}
             />
+            <Head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        "@context": "https://schema.org",
+                        "@type": "WebPage",
+                        "url": "https://www.rialtes.com/about-us/",
+                        "name": "Empowering Enterprise Transformation Journey | About Rialtes",
+                        "description": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
+                        "mainEntityOfPage": "https://www.rialtes.com/about-us/",
+                        "headline": "World’s largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
+                        "about": {
+                            "@type": "Thing",
+                            "name": "Enterprise Transformation by Rialtes",
+                            "description": "At the intersection of technology and business, Rialtes delivers solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact. Our approach includes:\n\n1. Simplify Businesses – We help businesses simplify their processes using intelligent, scalable solutions that enhance efficiency and drive productivity.\n\n2. Enable Solutions – Rialtes empowers enterprises with solutions that enable innovation, accelerate transformation, and create measurable growth.\n\n3. Empower Customers – We deliver customer-centric solutions that drive business forward, ensuring you build stronger relationships with your clients.\n\n4. Our Culture & Values – Trust, transparency, and commitment are at the core of Rialtes' culture. We strive for excellence and believe in nurturing relationships with our partners, clients, and employees."
+                        },
+                        "mainEntity": {
+                            "@type": "Organization",
+                            "name": "Rialtes",
+                            "url": "https://www.rialtes.com/",
+                            "logo": "https://www.rialtes.com/images/homepage/logo.svg/",
+                            "sameAs": [
+                                "https://www.linkedin.com/company/rialtes-technologies-llc",
+                                "https://www.youtube.com/@rialtes"
+                            ]
+                        }
+                    }}
+                />
+            </Head>
 
             <section className="relative">
-
-
                 <div
                     className="
     ml-[15px] w-[calc(100%-15px)] mr-0
@@ -292,38 +316,38 @@ export default function About() {
                 </div>
             </section>
 
- <section className="relative h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
-        <Image
-          src="/images/about-us/welcome-to.webp"
-          alt="GROW with SAP"
-          fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-          priority
-        />
-        <div
-          className="
+            <section className="relative h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
+                <Image
+                    src="/images/about-us/welcome-to.webp"
+                    alt="GROW with SAP"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                    priority
+                />
+                <div
+                    className="
         h-full relative
         ml-[15px]
         xl:ml-[280px] 
         xl:mr-[156px] 
         md:ml-[100px]"
-        >
-           <div className="flex justify-end">
-  <div className="relative p-10 w-[720px] h-[620px]">
-    <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
+                >
+                    <div className="flex justify-end">
+                        <div className="relative p-10 w-[720px] h-[620px]">
+                            <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
 
-    <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-      <h3 className="xl:text-[45px] font-bold">Welcome to the Future of Intelligent Business.</h3>
-      <p className='mt-5 xl:text-[28px]'>Whether you’re exploring AI adoption, modernizing operations, or reimagining customer experiences, our team is ready to guide you with tailored, results-driven strategies.</p>
-      <p className="mt-5 xl:text-[28px]">Connect with us to accelerate your transformation journey.</p>
+                            <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
+                                <h3 className="xl:text-[45px] font-bold">Welcome to the Future of Intelligent Business.</h3>
+                                <p className='mt-5 xl:text-[28px]'>Whether you’re exploring AI adoption, modernizing operations, or reimagining customer experiences, our team is ready to guide you with tailored, results-driven strategies.</p>
+                                <p className="mt-5 xl:text-[28px]">Connect with us to accelerate your transformation journey.</p>
 
-    </div>
-  </div>
-</div>
+                            </div>
+                        </div>
+                    </div>
 
-         
-        </div>
-      </section>
+
+                </div>
+            </section>
             <div
                 className="mt-[3rem] xl:mt-0 md:mt-[15rem]
         container
