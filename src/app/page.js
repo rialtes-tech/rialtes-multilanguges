@@ -10,6 +10,7 @@ import Seo from './components/Seo';
 import AutoTimerSlider from './newHome/page';
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 import ContactForm from './components/contactform';
+import Script from 'next/script';
 
 const carouselData = [
     {
@@ -172,15 +173,38 @@ const Home = () => {
         return () => clearInterval(interval);
     }, []);
 
-
-
-
-
     return (
         <div>
             <Head>
 
                 <link rel="icon" href="/images/homepage/Rialtes symbol 1.jpg" />
+               <Script
+          id="schema-org"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Rialtes Technologies",
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "description": "Global expert in IT services and IT consulting...",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "sales@rialtes.com",
+              "contactType": "Sales",
+              "areaServed": "US, CA, IN, SG"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/company/rialtes-technologies-llc",
+              "https://www.instagram.com/rialtes_technologies",
+              "https://www.youtube.com/@rialtes",
+              "https://x.com/Rialtestech"
+            ]
+          }),
+        }}
+        />
             </Head>
 
             <Seo
