@@ -38,10 +38,10 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
             }
 
             await emailjs.sendForm(
-                'service_uvlqqwr',
-                'template_kws7xco',
+               'service_af2ly7a',
+                'template_0hotei9',
                 formRef.current,
-                'Zp2xQO0KmJeXSFk-S'
+                'Snkm_XQ04-jspj9Ba'
             );
 
             formRef.current.reset();
@@ -110,14 +110,17 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                             />
                         </div>
 
-                        <div className='flex gap-20 !mt-10'>
-                            {/* <ReCAPTCHA
+                        <div className='flex xl:flex-row flex-col xl:gap-20 gap-5 !mt-10'>
+                            <div>
+                                 <ReCAPTCHA
                                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                                 onChange={handleCaptchaChange}
-                            /> */}
+                            />
+                            </div>
+                           
                             <button
                                 type="submit"
-                                className="w-1/2 bg-blue-600 text-white py-2 px-4 text-[20px] rounded hover:bg-blue-700"
+                                className="xl:w-1/2 w-full bg-blue-600 text-white py-2 px-4 text-[20px] rounded hover:bg-blue-700"
                             >
                                 Watch Webinar
                             </button>
