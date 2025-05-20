@@ -5,6 +5,30 @@ import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Head from 'next/head';
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://www.rialtes.com/about-us/",
+    "name": "Empowering Enterprise Transformation Journey | About Rialtes",
+    "description": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
+    "mainEntityOfPage": "https://www.rialtes.com/about-us/",
+    "headline": "World’s largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
+    "about": {
+        "@type": "Thing",
+        "name": "Enterprise Transformation by Rialtes",
+        "description": "At the intersection of technology and business, Rialtes delivers solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact. Our approach includes:\n\n1. Simplify Businesses – We help businesses simplify their processes using intelligent, scalable solutions that enhance efficiency and drive productivity.\n\n2. Enable Solutions – Rialtes empowers enterprises with solutions that enable innovation, accelerate transformation, and create measurable growth.\n\n3. Empower Customers – We deliver customer-centric solutions that drive business forward, ensuring you build stronger relationships with your clients.\n\n4. Our Culture & Values – Trust, transparency, and commitment are at the core of Rialtes' culture. We strive for excellence and believe in nurturing relationships with our partners, clients, and employees."
+    },
+    "mainEntity": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com/",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg/",
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc",
+            "https://www.youtube.com/@rialtes"
+        ]
+    }
+}
 const latestServices = [
     {
         id: 1,
@@ -71,30 +95,7 @@ export default function About() {
             <Head>
                 <script
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{
-                        "@context": "https://schema.org",
-                        "@type": "WebPage",
-                        "url": "https://www.rialtes.com/about-us/",
-                        "name": "Empowering Enterprise Transformation Journey | About Rialtes",
-                        "description": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
-                        "mainEntityOfPage": "https://www.rialtes.com/about-us/",
-                        "headline": "World’s largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
-                        "about": {
-                            "@type": "Thing",
-                            "name": "Enterprise Transformation by Rialtes",
-                            "description": "At the intersection of technology and business, Rialtes delivers solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact. Our approach includes:\n\n1. Simplify Businesses – We help businesses simplify their processes using intelligent, scalable solutions that enhance efficiency and drive productivity.\n\n2. Enable Solutions – Rialtes empowers enterprises with solutions that enable innovation, accelerate transformation, and create measurable growth.\n\n3. Empower Customers – We deliver customer-centric solutions that drive business forward, ensuring you build stronger relationships with your clients.\n\n4. Our Culture & Values – Trust, transparency, and commitment are at the core of Rialtes' culture. We strive for excellence and believe in nurturing relationships with our partners, clients, and employees."
-                        },
-                        "mainEntity": {
-                            "@type": "Organization",
-                            "name": "Rialtes",
-                            "url": "https://www.rialtes.com/",
-                            "logo": "https://www.rialtes.com/images/homepage/logo.svg/",
-                            "sameAs": [
-                                "https://www.linkedin.com/company/rialtes-technologies-llc",
-                                "https://www.youtube.com/@rialtes"
-                            ]
-                        }
-                    }}
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
                 />
             </Head>
 
