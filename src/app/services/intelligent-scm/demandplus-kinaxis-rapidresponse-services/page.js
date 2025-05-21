@@ -8,6 +8,276 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function DemandPlusSection() {
+
+
+
+    const schemaData = {
+
+
+        "@context": "https://schema.org",
+
+        "@type": "WebPage",
+
+        "name": "Kinaxis RapidResponse: Transform with Rialtes DemandPlus",
+
+        "url": "https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/",
+
+        "description": "Kinaxis rapid response meets AI-driven planning. Rialtes DemandPlus delivers supply chain visibility, predictive agility, and smarter control.",
+
+        "inLanguage": "en",
+
+        "publisher": {
+
+            "@type": "Organization",
+
+            "name": "Rialtes Technologies",
+
+            "url": "https://www.rialtes.com",
+
+            "logo": {
+
+                "@type": "ImageObject",
+
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+
+            }
+
+        },
+
+        "mainEntity": {
+
+            "@type": "Service",
+
+            "name": "Rialtes DemandPlus for Kinaxis RapidResponse",
+
+            "serviceType": "Supply Chain Planning and Integration",
+
+            "provider": {
+
+                "@type": "Organization",
+
+                "name": "Rialtes Technologies",
+
+                "url": "https://www.rialtes.com"
+
+            },
+
+            "areaServed": [
+
+                { "@type": "Country", "name": "United States" },
+
+                { "@type": "Country", "name": "Canada" },
+
+                { "@type": "Country", "name": "India" },
+
+                { "@type": "Country", "name": "Singapore" }
+
+            ],
+
+            "audience": {
+
+                "@type": "Audience",
+
+                "audienceType": "Enterprise, C-Level Executives, Supply Chain Leaders"
+
+            },
+
+            "hasOfferCatalog": {
+
+                "@type": "OfferCatalog",
+
+                "name": "DemandPlus Services",
+
+                "itemListElement": [
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Kinaxis License Advisory & Value Assessment"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Solution Architecture & Design"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Rapid Implementation & Process Configuration"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Quality Assurance, Testing & User Training"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Integration with SAP S/4HANA, Oracle EBS & Non-SAP Systems"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Post-Go-Live Support & Continuous Optimization"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Demand Planning & Forecasting"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Sales & Operations Planning (S&OP)"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Capacity & Production Planning"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Inventory Optimization & Enterprise Scheduling"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Scenario Planning & What-if Simulations"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "Integration via SAP BTP and SAP CPI"
+
+                        }
+
+                    },
+
+                    {
+
+                        "@type": "Offer",
+
+                        "itemOffered": {
+
+                            "@type": "Service",
+
+                            "name": "RialChat – WhatsApp for Supply Chain Teams"
+
+                        }
+
+                    }
+
+                ]
+
+            }
+
+        }
+    }
     const applyMargin = useSmartMargin(1500); // You can tweak this threshold
     const services = [
         {
@@ -33,10 +303,14 @@ export default function DemandPlusSection() {
         <div className="min-h-screen bg-white">
 
             <Seo
-                title="SAP RISE Webinar: Simplify Your SAP Journey with Voyager+ by Rialtes"
-                description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
+                title="Kinaxis RapidResponse for Supply Chain by Rialtes DemandPlus"
+                description="Kinaxis RapidResponse meets AI-driven planning. Rialtes DemandPlus delivers real-time visibility, predictive agility, and smarter supply chain control."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+                canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
             <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
@@ -595,11 +869,11 @@ export default function DemandPlusSection() {
                             </ul>
                             <div className="xl:mt-10">
                                 <Link
-      href="/products/agentchat"
-      className="xl:text-[20px] text-[16px] hover:bg-[#ffffff] bg-[#134874] hover:text-[#134874]   font-semibold text-white py-3 px-8 transition duration-300 mt-6"
-    >
-      Learn More
-    </Link>
+                                    href="/products/agentchat"
+                                    className="xl:text-[20px] text-[16px] hover:bg-[#ffffff] bg-[#134874] hover:text-[#134874]   font-semibold text-white py-3 px-8 transition duration-300 mt-6"
+                                >
+                                    Learn More
+                                </Link>
                             </div>
 
                         </div>
@@ -623,55 +897,55 @@ export default function DemandPlusSection() {
 
             <section className="xl:ml-[280px] relative">
                 <div className="xl:block hidden">
-                <Image
-                    src="/images/solutions/enterprise-platform/kinaxis/leading-desktop.webp"
-                    alt="Warehouse"
-                    className="object-cover w-full"
-                    priority
-                    width={0}
-                    height={0}
-                    bringing-mobile
-                />
+                    <Image
+                        src="/images/solutions/enterprise-platform/kinaxis/leading-desktop.webp"
+                        alt="Warehouse"
+                        className="object-cover w-full"
+                        priority
+                        width={0}
+                        height={0}
+                        bringing-mobile
+                    />
                 </div>
                 <div className="xl:hidden block">
-                     <Image
-                    src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
-                    alt="Warehouse"
-                    className="object-cover w-full h-[850px]"
-                    priority
-                    width={0}
-                    height={0}
-                    bringing-mobile
-                />
+                    <Image
+                        src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
+                        alt="Warehouse"
+                        className="object-cover w-full h-[850px]"
+                        priority
+                        width={0}
+                        height={0}
+                        bringing-mobile
+                    />
                 </div>
                 <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:top-40 top-[20rem] text-white">
                     <div className="col-span-6 xl:px-16 px-14">
                         <h2 className="leading-tight xl:pr-24">Leading the Future with AI, Data, and Integrated Planning</h2>
                         <p className="mt-8 font-light">At Rialtes, we go beyond standard implementations — combining AI, data science, and advanced planning tools to create responsive and resilient supply chains.</p>
-                     <ul className="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5  xl:pr-0">
-                                <li>Rapid deployment within minutes.</li>
-                                <li> Secure, role-based access.</li>
-                                <li>Case, order, and issue delegation by type (orders, inventory, delays).</li>
-                                <li>Fully integrated with Salesforce and SAP environments.</li>
-                            </ul>
-                            <div className="absolute xl:mt-8 mt-4">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
-                            </div>
+                        <ul className="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5  xl:pr-0">
+                            <li>Rapid deployment within minutes.</li>
+                            <li> Secure, role-based access.</li>
+                            <li>Case, order, and issue delegation by type (orders, inventory, delays).</li>
+                            <li>Fully integrated with Salesforce and SAP environments.</li>
+                        </ul>
+                        <div className="absolute xl:mt-8 mt-4">
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                        </div>
                     </div>
-                     <div className="col-span-6"></div>
+                    <div className="col-span-6"></div>
 
                 </div>
             </section>
-                 < div
-                            className="mt-20
+            < div
+                className="mt-20
               xl:container
               mx-[35px] xl:mr-0
               xl:ml-[280px] xl:w-[calc(100%-280px)]
               md:ml-[100px] md:w-[calc(100%-100px)]
               text-black pb-10"
-                        >
-                            <ContactForm title={'Start Your Kinaxis Journey with Rialtes DemandPlus Today'} subtitle={'Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution.'} className={"xl:max-w-[60rem] leading-tight text-[26px] font-light xl:text-[60px] pr-10 xl:pr-0"} />
-                        </div >
+            >
+                <ContactForm title={'Start Your Kinaxis Journey with Rialtes DemandPlus Today'} subtitle={'Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution.'} className={"xl:max-w-[60rem] leading-tight text-[26px] font-light xl:text-[60px] pr-10 xl:pr-0"} />
+            </div >
         </div>
     );
 }
