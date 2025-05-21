@@ -112,10 +112,10 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
 
                         <div className='flex xl:flex-row flex-col xl:gap-20 gap-5 !mt-10'>
                             <div>
-                                 {/* <ReCAPTCHA
+                                 <ReCAPTCHA
                                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                                 onChange={handleCaptchaChange}
-                            /> */}
+                            />
                             </div>
                            
                             <button

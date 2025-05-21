@@ -6,10 +6,11 @@ import Link from "next/link";
 
 
 const schemaData = {
+
 }
 export default function () {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-05-27T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
+        const targetDate = new Date("2025-06-10T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
         const difference = targetDate - now;
 
@@ -171,8 +172,8 @@ export default function () {
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
                     <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
-                        <h2 className="font-extrabold">27</h2>
-                        <h3>May 2025</h3>
+                        <h2 className="font-extrabold">10</h2>
+                        <h3>June 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
                         <Link href="https://us06web.zoom.us/webinar/register/WN_HRKFI4CPRh6HIvh54-M8uw">
