@@ -143,7 +143,7 @@ export default function Page() {
            {/* <Seo
                 title="How Does a Reasoning Engine Work in Agentforce? | Rialtes"
                 description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
-                canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
+                canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
             /> */}
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -236,10 +236,11 @@ export default function Page() {
               <p className="text-black">SAP Ariba is a procurement management software developed by SAP, designed to optimize an organization's supply chain through e-procurement. It automates the acquisition process of goods and services, from requisition to payment, focusing on cataloged purchasing. This ensures that companies receive the right products in the right quantity and at the right time for the best price. While procurement is often linked only to purchasing, it involves strategic management of the entire supply chain, improving efficiency and preventing losses or delays. Strategic procurement aims to develop supply channels to achieve the best total cost, enhancing logistical success and boosting profitability. </p>
 
               <div className="pb-4"></div>
-                            <p className="font-bold pb-2 text-[16px] sm:text-[20px]">Direct Procurement </p>
+                            <h3 className="font-bold pb-2">Direct Procurement </h3>
+
                             <p className="text-black pb-4">Also known as “direct material procurement”, it involves acquiring raw materials, components, and goods that are directly used in the production process. These purchases are critical to manufacturing operations, ensuring production continuity and product quality. </p>
 
-                       <p className="font-bold pb-2 text-[16px] sm:text-[20px]">Indirect Procurement  </p>
+                       <h3 className="font-bold pb-2">Indirect Procurement  </h3>
                                  <p className="text-black ">Indirect procurement refers to acquiring goods and services that support business operations but are not directly involved in manufacturing. This includes office supplies, IT services, marketing expenses, and maintenance services. While indirect procurement may not impact production directly, it plays a crucial role in operational efficiency and cost management. </p>
       
                                   <div className="py-6"></div>
@@ -251,7 +252,7 @@ export default function Page() {
 
               <p className="text-black pb-4">As a strategic purchasing management solution, procurement is structured around four core activities:<span className="font-bold"> Sourcing, Contract Management, Purchasing, and Accounts Payable.</span></p>
 
-          <ul className="list-disc text-black pl-8 pb-6">
+          <ul className="list-disc text-black pl-8 ">
   <li className="pb-2">
     <p>Sourcing focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain. </p>
   </li>
@@ -271,32 +272,32 @@ export default function Page() {
               <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">How SAP Ariba Optimizes Procurement  </h2>
 
 
-               <p className="text-black pb-2 font-bold">1. Centralized Procurement for Greater Visibility </p>
+               <h3 className="text-black pb-2 font-bold">1. Centralized Procurement for Greater Visibility </h3>
               <p className="text-black pb-4">SAP Ariba acts as a single digital hub where businesses can manage procurement activities across multiple categories. Whether it’s direct procurement, like raw materials or indirect procurement like IT services, organizations gain full visibility into spending, contracts, and supplier performance. This helps reduce maverick spending and ensures compliance with procurement policies. </p>
 
-              <p className="text-black pb-2   font-bold">2. Automated Workflows for Efficiency </p>
+              <h3 className="text-black pb-2   font-bold">2. Automated Workflows for Efficiency </h3>
 
               <p className="text-black pb-4">Manual procurement processes can be time-consuming and error-prone. SAP Ariba automates key workflows such as purchase requisitions, approvals, and invoicing. For direct procurement, automation ensures just-in-time delivery of materials, reducing production delays. For indirect procurement, automated approvals and supplier catalogs simplify ordering processes, reducing administrative burdens. </p>
 
-              <p className="text-black pb-2 font-bold">3. Supplier Management and Collaboration </p>
+              <h3 className="text-black pb-2 font-bold">3. Supplier Management and Collaboration </h3>
 
               <p className="text-black pb-4">SAP Ariba enables businesses to onboard, assess, and collaborate with suppliers in real-time. Through the Ariba Network, businesses can engage with a vast ecosystem of suppliers, ensuring they get the best quality, pricing, and reliability. Direct procurement benefits from robust supplier risk management, while indirect procurement teams can optimize vendor contracts and service agreements. </p>
 
 
-              <p className="text-black pb-2  font-bold">4. Cost Optimization with Spend Analytics </p>
+              <h3 className="text-black pb-2  font-bold">4. Cost Optimization with Spend Analytics </h3>
 
               <p className="text-black pb-4">AI-powered analytics provides deep insights into procurement spending. It helps businesses identify cost-saving opportunities, negotiate better contracts, and optimize supplier selection. Direct procurement teams can forecast raw material costs, while indirect procurement teams can analyze non-essential spending to find areas for cost reduction. </p>
 
 
-              <p className="text-black pb-2  font-bold">5. Risk Mitigation in the Supply Chain </p>
+              <h3 className="text-black pb-2  font-bold">5. Risk Mitigation in the Supply Chain </h3>
 
               <p className="text-black pb-4">You can integrate risk management tools to assess supplier stability, geopolitical risks, and compliance issues with SAP Ariba. This ensures businesses can proactively address supply chain risks before they escalate, safeguarding both production and operational continuity. </p>
 
-                           <p className="text-black pb-2  font-bold">6. Seamless Integration with ERP and Other Systems </p>
+                           <h3 className="text-black pb-2  font-bold">6. Seamless Integration with ERP and Other Systems </h3>
 
               <p className="text-black pb-4">SAP Ariba integrates seamlessly with SAP S/4HANA, SAP ERP, and third-party business systems, enabling real-time data exchange. This ensures that procurement teams have access to up-to-date inventory levels, financial data, and supplier performance insights, leading to more informed decision-making. </p>
           
-              <p className="text-black pb-2  font-bold">7. Sustainable and Compliant Procurement </p>
+              <h3 className="text-black pb-2  font-bold">7. Sustainable and Compliant Procurement </h3>
 
               <p className="text-black">SAP Ariba helps businesses adhere to environmental, social, and governance (ESG) standards by providing supplier sustainability ratings, ethical sourcing insights, and compliance tracking. This is particularly beneficial for direct procurement teams managing raw materials with environmental impacts and for indirect procurement teams selecting vendors with sustainable practices.  </p>
      
