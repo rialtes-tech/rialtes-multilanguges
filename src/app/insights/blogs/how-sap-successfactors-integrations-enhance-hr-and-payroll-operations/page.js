@@ -249,7 +249,7 @@ export default function Page() {
                     <p  className="text-black pb-4"><li>Learning</li></p>
                    <p  className="text-black pb-4"> <li>Promotions</li></p>
                     <p  className="text-black pb-4"><li>Payrolls</li></p>
-                    <p  className="text-black pb-4"><li>Performance reviews</li></p>
+                    <p  className="text-black "><li>Performance reviews</li></p>
               </ul>
              </div>
 
@@ -272,7 +272,7 @@ export default function Page() {
                    <p  className="text-black pb-4"><li><span className="font-bold">Automate Processes:</span> Reduce manual data entry and minimize human error.</li></p>
                   <p  className="text-black pb-4">  <li><span className="font-bold">Ensure Data Consistency:</span>Maintain accurate and up-to-date information across all systems.</li></p>
                    <p  className="text-black pb-4"> <li><span className="font-bold">Enhance Reporting:</span>Gain insights through consolidated data and analytics.</li></p>
-                  <p  className="text-black pb-4">  <li><span className="font-bold">Improve Compliance:</span>Ensure adherence to local labor laws and regulations.</li></p>
+                  <p  className="text-black ">  <li><span className="font-bold">Improve Compliance:</span>Ensure adherence to local labor laws and regulations.</li></p>
               </ul>
              </div>
 
@@ -341,7 +341,7 @@ export default function Page() {
                   <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
                  <p  className="text-black pb-4"> <li><strong>Seamless Data Transfer :</strong> Share employee data, tax information, and payroll inputs securely.</li></p>
                    <p  className="text-black pb-4">  <li><strong>Error-Free Processing :</strong> Minimize discrepancies and delays.</li></p>
-                   <p  className="text-black pb-4">  <li><strong>Localized Compliance :</strong> Address country-specific payroll regulations.</li></p>
+                   <p  className="text-black ">  <li><strong>Localized Compliance :</strong> Address country-specific payroll regulations.</li></p>
                 </ul>
             </div>
            
@@ -399,7 +399,7 @@ export default function Page() {
 
                <p className="text-black pb-4 font-bold">Compliance Management</p>
 
-              <p className="text-black pb-4">SAP SuccessFactors Payroll helps businesses comply with ever-changing payroll regulations, easing the burden on HR and payroll teams.</p>
+              <p className="text-black ">SAP SuccessFactors Payroll helps businesses comply with ever-changing payroll regulations, easing the burden on HR and payroll teams.</p>
 
               {/* <p className="text-black">As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts.</p> */}
    <div className="py-6"></div>
