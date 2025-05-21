@@ -336,7 +336,7 @@ export default function Page() {
 
 
                 <h3 className="pb-4 mt-6 h3-bold">5. Integration with Third-Party Payroll Providers</h3>
-                <p  className="text-black pb-4">For organizations that outsource payroll,  <Link href={"https://www.rialtes.com/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span> SuccessFactors integrations with third-party</span></Link> providers such as ADP or Ceridian ensure:</p>
+                <p  className="text-black pb-4">For organizations that outsource payroll,  <Link href={""} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span> SuccessFactors integrations with third-party</span></Link> providers such as ADP or Ceridian ensure:</p>
             <div className="pl-6">
                   <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
                  <p  className="text-black pb-4"> <li><strong>Seamless Data Transfer :</strong> Share employee data, tax information, and payroll inputs securely.</li></p>
@@ -378,7 +378,7 @@ export default function Page() {
 
               <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">SuccessFactors Employee Central Payroll</h2>
 
-              <p className="text-black pb-4"><Link href={"https://www.rialtes.com/sap-successfactors-employee-central-the-hr-master-data-management/?utm_source=internal_traffic&utm_medium=blog&utm_campaign=SuccessFactors_Integration_with_SAP_S/4HANA"} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span>SAP SuccessFactors Employee Central</span></Link> is a cloud-based solution that manages core HR processes like employee data, payroll automation, time tracking, and benefits administration. By consolidating these functions, it improves operational efficiency, compliance, and employee experience. SuccessFactors Employee Central is part of the broader SAP SuccessFactors suite, which includes other modules for performance management, learning and development, recruiting, and more. As part of the SAP SuccessFactors suite, it integrates easily with other SAP solutions and third-party applications, making it suitable for businesses of any size.</p>
+              <p className="text-black pb-4"><Link href={""} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span>SAP SuccessFactors Employee Central</span></Link> is a cloud-based solution that manages core HR processes like employee data, payroll automation, time tracking, and benefits administration. By consolidating these functions, it improves operational efficiency, compliance, and employee experience. SuccessFactors Employee Central is part of the broader SAP SuccessFactors suite, which includes other modules for performance management, learning and development, recruiting, and more. As part of the SAP SuccessFactors suite, it integrates easily with other SAP solutions and third-party applications, making it suitable for businesses of any size.</p>
 
                <p className="text-black pb-4 font-bold">Global Payroll Processing</p>
 
