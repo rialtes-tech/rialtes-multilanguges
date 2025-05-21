@@ -38,15 +38,15 @@ export default function () {
         return () => clearInterval(timer);
     }, []);
 
-    const fullUrl = "https://rialtes.netlify.app/insights/webinars/cig-your-gateway-to-sap-ariba"
-    const titleSlug = "CIG, Your Gateway to SAP Ariba";
+    const fullUrl = "https://rialtes.netlify.app/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
+    const titleSlug = "SAP Ariba CIG Integration Webinar: S/4HANA Cloud Sync | Rialtes";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="CIG, Your Gateway to SAP Ariba"
-                description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
-                canonical="https://www.rialtes.com/insights/webinars/cig-your-gateway-to-sap-ariba/"
+                title="SAP Ariba CIG Integration Webinar: S/4HANA Cloud Sync | Rialtes"
+                description="Discover how SAP Ariba CIG integration helps ERP and S/4HANA users streamline procurement with cloud-based automation and insights."
+                canonical="https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
             />
 
             <script

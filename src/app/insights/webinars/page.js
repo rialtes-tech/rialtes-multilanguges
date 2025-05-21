@@ -31,7 +31,7 @@ const webinars = [
       image: "/images/webinar/Sapna Chauhan.webp",
     },
     backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-    url: 'insights/webinars/cig-your-gateway-to-sap-ariba'
+    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
   },
   {
     id: 2,
