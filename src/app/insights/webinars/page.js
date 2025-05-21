@@ -11,7 +11,7 @@ const schemaData = {
   "@type": "CollectionPage",
   "name": "Rialtes Webinars",
   "url": "https://www.rialtes.com/insights/webinars/",
-  "description": "Discover webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
+  "description": "Discover Webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
   "publisher": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -281,7 +281,7 @@ export default function About() {
 
             <div className="w-full">
               <div className="flex items-center mb-6 justify-between">
-                <h2 className="w-full md:w-3/4">Upcoming webinars</h2>
+                <h2 className="w-full md:w-3/4">Upcoming Webinars</h2>
 
                 <div className="w-1/4 hidden sm:block">
                   <div className="h-full flex gap-10">
