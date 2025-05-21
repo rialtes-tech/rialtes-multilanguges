@@ -268,7 +268,7 @@ export default function Page() {
               {/* <p className="text-black pb-4">For example, if a customer reports an issue with software integration, Atlas doesn’t simply point to troubleshooting guides. Instead, it evaluates the current system environment, past interactions, and even related case resolutions to propose the most efficient steps to resolve the issue. The result? More personalized responses and faster case resolution.</p> */}
 
              <div className="pl-6">
-               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
                    <p  className="text-black pb-4"><li><span className="font-bold">Automate Processes:</span> Reduce manual data entry and minimize human error.</li></p>
                   <p  className="text-black pb-4">  <li><span className="font-bold">Ensure Data Consistency:</span>Maintain accurate and up-to-date information across all systems.</li></p>
                    <p  className="text-black pb-4"> <li><span className="font-bold">Enhance Reporting:</span>Gain insights through consolidated data and analytics.</li></p>
