@@ -55,7 +55,7 @@ const webinars = [
     time: "10:00 AM CST",
     speaker: {
       name: "Sapna Chauhan",
-      role: "Associate Software Engineer",
+      role: "Software Engineer - SAP",
       image: "/images/webinar/Sapna Chauhan.webp",
     },
     backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
