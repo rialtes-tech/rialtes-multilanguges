@@ -111,7 +111,8 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
             { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-            { label: 'Kinaxis', href: '/solutions/enterprise-platforms/kinaxis' },
+             { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
+
           ],
         },
         {
@@ -133,6 +134,7 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
           ],
         },
+         
       ],
     },
     {
@@ -183,6 +185,12 @@ const Header = () => {
 
           ],
 
+        },
+        {
+          label: 'Intelligent SCM', href: '/',
+          subLinks: [
+            { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
+          ],
         },
 
       ],
@@ -525,8 +533,8 @@ const Header = () => {
                             <div>
                               <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/solutions/enterprise-platforms/kinaxis" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/kinaxis")} onHover={() => { }} />
+                              <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
+                              <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} onHover={() => { }} />
 
                             </div>
                           </div>
@@ -801,6 +809,12 @@ const Header = () => {
                   >
                     Data and AI
                   </div>
+                    <div
+                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClickBusiness("intelligent")}
+                  >
+                   Intelligent SCM
+                  </div>
                 </div>
                 {openSectionbusiness === "businessTransform" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1033,6 +1047,30 @@ const Header = () => {
                         </div> */}
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")}
+                              onHover={() => { }} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                 {openSectionbusiness === "intelligent" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Empower Your Workforce with Smarter HCM Solutions</div>
+                        <p className="mt-3">From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.</p>
+                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
+                      </button> */}
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
+                          {/* <div>
+                          <MenuItem className="font-bold text-[#2f78c4]" label="Success+" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                        </div> */}
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Demand+" link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")}
                               onHover={() => { }} />
                           </div>
                         </div>
