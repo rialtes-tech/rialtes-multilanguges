@@ -17,7 +17,7 @@ const schemaData = {
     "eventStatus": "https://schema.org/EventCompleted",
     "organizer": {
         "@type": "Organization",
-        "name": "Rialtes Technology",
+        "name": "Rialtes",
         "url": "https://www.rialtes.com",
         "logo": "https://www.rialtes.com/images/homepage/logo.svg"
     },

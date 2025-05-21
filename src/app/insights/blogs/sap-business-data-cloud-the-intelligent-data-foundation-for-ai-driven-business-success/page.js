@@ -263,9 +263,6 @@ export default function Page() {
                 to combine structured and unstructured data, delivering domain-specific insights while reducing redundancy. Thanks to zero-copy data access, businesses no longer need to replicate massive datasets across multiple environments — a game-changer for enterprises managing petabytes of data.</p>
               <p className="mt-5">Previously, consolidating bulk and IoT data with SAP data cost-effectively was challenging, leading companies to extract SAP data to external data lakehouses. In contrast, SAP BDC provides bidirectional integration with Databricks, allowing data to stay within the SAP environment. This enables efficient management of large datasets from various sources, creating optimal conditions for AI and ML applications.</p>
 
-
-
-
               <h3 className="h3-bold pb-4 mt-10">Creating a Unified Place for SAP and Non-SAP Data</h3>
 
               <p className="text-black">Modern businesses depend on vast and growing volumes of data from both SAP and non-SAP sources to power value-driven use cases and data modelling in SAP. Yet, inconsistent semantic models often create obstacles to innovation, complicating data integration efforts and delaying the realization of business value. SAP BDC addresses this challenge by allowing organizations to seamlessly leverage SAP and non-SAP data within a unified, standardized semantic framework.</p>

@@ -11,7 +11,7 @@ const schemaData = {
   "@type": "CollectionPage",
   "name": "Rialtes Webinars",
   "url": "https://www.rialtes.com/insights/webinars/",
-  "description": "Discover webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
+  "description": "Discover Webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
   "publisher": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -20,8 +20,23 @@ const schemaData = {
 }
 
 const webinars = [
+
   {
-    id: 1,
+    id:1,
+    title: "What’s New with SAP SuccessFactors Onboarding 2.0",
+    date: "May 27, 2025",
+    time: "10:00 AM CST",
+    speaker: {
+      name: "Vidya Kumar",
+      role: "Principal Managing Consultant",
+      image: "/images/webinar/Vidya-Kumar.webp",
+    },
+    backgroundImage: "/images/webinar/banck-what.webp",
+    url: 'insights/webinars/sap-successfactors-onboarding-2-0-integration'
+  },
+  
+  {
+    id: 2,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
     date: "June 03, 2025",
     time: "10:00 AM CST",
@@ -33,6 +48,21 @@ const webinars = [
     backgroundImage: "/images/webinar/rise.webp",
     url: 'insights/webinars/rise-with-sap-transformation-rialtes'
   },
+   {
+    id: 3,
+    title: "CIG, Your Gateway to SAP Ariba",
+    date: "10 June, 2025",
+    time: "10:00 AM CST",
+    speaker: {
+      name: "Sapna Chauhan",
+      role: "Software Engineer - SAP",
+      image: "/images/webinar/Sapna Chauhan.webp",
+    },
+    backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
+  },
+  
+ 
 ];
 
 const allWebinars = [
@@ -281,7 +311,7 @@ export default function About() {
 
             <div className="w-full">
               <div className="flex items-center mb-6 justify-between">
-                <h2 className="w-full md:w-3/4">Upcoming webinars</h2>
+                <h2 className="w-full md:w-3/4">Upcoming Webinars</h2>
 
                 <div className="w-1/4 hidden sm:block">
                   <div className="h-full flex gap-10">
