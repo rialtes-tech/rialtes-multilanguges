@@ -1058,8 +1058,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Empower Your Workforce with Smarter HCM Solutions</div>
-                        <p className="mt-3">From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.</p>
+                        <div className="font-bold mt-5">Reinvent Supply Chains with AI and Real-Time Intelligence</div>
+                        <p className="mt-3">Empower businesses to anticipate demand, automate operations, and respond to disruptions swiftly, turning supply chains into strategic, resilient growth drivers.</p>
                         {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
