@@ -249,10 +249,10 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                             />
                         </div> */}
                     {/* </div> */}
-                     <ReCAPTCHA
+                     {/* <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
-                    /> 
+                    />  */}
                     <button type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
                     </button>

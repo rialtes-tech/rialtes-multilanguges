@@ -3,9 +3,34 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';git 
+import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"
+  },
+  "headline": "Discover AgentExchange by Salesforce",
+  "description": "AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.",
+  "image": "https://www.rialtes.com/images/blog/agentexchange-banner.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-05-22",
+  "dateModified": "2025-05-22"
+}
 const blogs = [
     {
         id: 1,
@@ -145,7 +170,10 @@ export default function Page() {
                 description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
                 canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
             />
-
+    <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
                     src="/images/blog/blog-2-banner.webp "
@@ -261,7 +289,7 @@ export default function Page() {
 
                       
 
-                            <p className="text-black pb-4"><strong>Accelerate AI Adoption: </strong>Businesses can rapidly implement AI agents without extensive development efforts..</p>
+                            <p className="text-black pb-4"><strong>Accelerate AI Adoption: </strong>Businesses can rapidly implement AI agents without extensive development efforts.</p>
 
                             <p className="text-black pb-4"><strong>Ensure Compliance & Security:</strong> All agents available on AgentExchange undergo rigorous security assessments, ensuring compliance with industry standards.</p>
 
