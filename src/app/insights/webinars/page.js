@@ -22,6 +22,19 @@ const schemaData = {
 const webinars = [
   {
     id: 1,
+    title: "CIG, Your Gateway to SAP Ariba",
+    date: "May 27, 2025",
+    time: "10:00 AM CST",
+    speaker: {
+      name: "Sapna Chauhan",
+      role: "Associate Software Engineer",
+      image: "/images/webinar/Sapna Chauhan.webp",
+    },
+    backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+    url: 'insights/webinars/cig-your-gateway-to-sap-ariba'
+  },
+  {
+    id: 2,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
     date: "June 03, 2025",
     time: "10:00 AM CST",
