@@ -20,19 +20,21 @@ const schemaData = {
 }
 
 const webinars = [
+
   {
-    id: 1,
-    title: "CIG, Your Gateway to SAP Ariba",
+    id:1,
+    title: "What’s New with SAP SuccessFactors Onboarding 2.0",
     date: "May 27, 2025",
     time: "10:00 AM CST",
     speaker: {
-      name: "Sapna Chauhan",
-      role: "Associate Software Engineer",
-      image: "/images/webinar/Sapna Chauhan.webp",
+      name: "Vidya Kumar",
+      role: "Principal Managing Consultant",
+      image: "/images/webinar/Vidya-Kumar.webp",
     },
-    backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
+    backgroundImage: "/images/webinar/banck-what.webp",
+    url: 'insights/webinars/sap-successfactors-onboarding-2-0-integration'
   },
+  
   {
     id: 2,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
@@ -46,6 +48,21 @@ const webinars = [
     backgroundImage: "/images/webinar/rise.webp",
     url: 'insights/webinars/rise-with-sap-transformation-rialtes'
   },
+   {
+    id: 3,
+    title: "CIG, Your Gateway to SAP Ariba",
+    date: "10 June, 2025",
+    time: "10:00 AM CST",
+    speaker: {
+      name: "Sapna Chauhan",
+      role: "Associate Software Engineer",
+      image: "/images/webinar/Sapna Chauhan.webp",
+    },
+    backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
+  },
+  
+ 
 ];
 
 const allWebinars = [
