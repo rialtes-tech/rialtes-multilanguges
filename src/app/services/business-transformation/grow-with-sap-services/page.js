@@ -236,7 +236,6 @@ export default function Page() {
       <section
         className="mt-16
               custom-container">
-
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 col-span-11">
             <h2 className="text-[26px] xl:text-[60px]">
@@ -253,10 +252,7 @@ export default function Page() {
 
 
 
-      <div
-        className="xl:container
-               xl:ml-[280px]   md:ml-[100px] md:w-[calc(100%-100px)] mx-[35px]  xl:mr-0"
-      >
+      <div className="custom-container">
         <div className="grid xl:grid-cols-3 grid-cols-1 mt-16 gap-16">
           <div className="flex items-center xl:gap-5 gap-10 mr-32 xl:mr-0">
             <Image
@@ -322,29 +318,21 @@ export default function Page() {
 
       </div>
       <div
-        className="
-                  h-full  xl:mr-[142px]
-                 xl:ml-[280px]   md:ml-[100px]
-                 "
+        className="custom-container"
       >
         <p className="xl:text-[26px] text-[16px] bg-[#0C8AD4] xl:pr-[270px] p-10 pl-10 text-white mt-20 leading-tight">We deliver business value from strategy to execution — enabling you to Grow with SAP and accelerate towards an intelligent, AI-powered enterprise.</p>
 
       </div>
-      <section className="relative h-[1150px] xl:h-[800px] flex flex-col xl:flex-row-reverse mt-16 ">
+      <section className="relative  flex flex-col xl:flex-row-reverse mt-16 custom-container !pr-0 ">
         <div
           className="
-                  h-full relative group overflow-hidden
-                 mr-0
-                 xl:ml-[280px] xl:w-[calc(100%-280px)]
-                 md:ml-[100px] md:w-[calc(100%-100px)]"
-
+                   relative group overflow-hidden pb-16"
         >
           <div className="xl:block hidden">
             <Image
               src="/images/services/grow-with-sap/GWS.webp"
               alt=""
               fill
-              style={{ objectFit: "cover" }}
               priority
 
               className="transform transition-transform duration-500 group-hover:scale-110 object-[35%_20%]"
@@ -355,7 +343,6 @@ export default function Page() {
               src="/images/services/grow-with-sap/Why Now.webp"
               alt=""
               fill
-              style={{ objectFit: "cover" }}
               priority
             />
           </div>
@@ -393,7 +380,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="relative h-auto xl:h-[1000px]  xl:mt-32 mt-10 pb-10">
+      <section className="relative  xl:mt-32 mt-10">
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/Migration.webp"
@@ -415,9 +402,7 @@ export default function Page() {
         <div
           className="
                      h-full relative
-                    mx-[35px] xl:mr-0
-                    xl:ml-[280px] xl:w-[calc(100%-280px)]
-                    md:ml-[100px] md:w-[calc(100%-100px)]
+                    custom-container
                    
                    "
         >
@@ -434,13 +419,13 @@ export default function Page() {
             </div>
             <div className="xl:col-span-1 col-span-12">
             </div>
-            <div className="xl:col-span-3 col-span-12 xl:mt-16 mt-5 pr-16">
+            <div className="xl:col-span-3 col-span-12 xl:mt-16 mt-5">
               <p className="xl:text-[22px] text-[16px]">For businesses running SAP Business One (SAP B1), Rialtes provides a clear, structured path to migrate to SAP S/4HANA Cloud under Grow with SAP.</p>
 
             </div>
           </div>
 
-          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-16 xl:pb-32 xl:pr-10 xl:pl-10">
+          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-16 xl:pb-20 xl:pr-10 xl:pl-10">
 
             <div className="xl:col-span-4 col-span-12">
               <h3 className="xl:text-[30px] text-[22px] xl:font-bold font-medium pr-10">Benefits of Migrating from SAP B1 to S/4HANA Cloud:</h3>
@@ -478,10 +463,7 @@ export default function Page() {
 
       <div
         className="
-  xl:container
-  mx-[35px]  xl:mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
+  custom-container
 
   text-black py-20 pt-16"
       >
@@ -493,7 +475,7 @@ export default function Page() {
             <h3 className="xl:text-[40px] text-[22px] mt-5">Your Roadmap to Success</h3>
           </div>
 
-          <div className="xl:col-span-4 col-span-12 mt-5 xl:mt-0 pr-10">
+          <div className="xl:col-span-4 col-span-12 mt-5 xl:mt-0">
             <p className="xl:text-[22px] text-[16px]">Delivering Success with SAP Activate & SAP Signavio Business Process Intelligence (BPI)</p>
             <p className="xl:text-[22px] text-[16px] mt-5">Rialtes leverages SAP Activate methodology combined with SAP Signavio to ensure a process-first, value-driven ERP transformation.</p>
           </div>
@@ -503,10 +485,7 @@ export default function Page() {
 
       <div
         className="xl:mb-20 mb-10
-  xl:container
-         mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
+  custom-container
   
   text-black"
       >
@@ -542,10 +521,7 @@ export default function Page() {
 
       <div
         className="xl:mb-20 mb-12 xl:mr-[142px] mt-0
-        xl:ml-[280px]   md:ml-[100px] mr-0
-       
-  text-black"
-      >
+        custom-container text-black">
         <div className="grid xl:grid-cols-12 grid-cols-1  bg-[#068EDA] xl:gap-8 gap-3 pb-5">
           <div className="xl:col-span-3 col-span-12 pl-10  ">
             <Image
@@ -553,7 +529,6 @@ export default function Page() {
               alt="SAP Partner Logo"
               width={0}
               height={0}
-              // style={{ width: '100%', height: '100%', objectFit: 'fill' }}
               priority
               className="xl:w-[355px] w-[322px]"
             />
@@ -565,60 +540,8 @@ export default function Page() {
 
       </div>
 
-      {/* <section className="relative h-[500px] xl:h-[720px]  mt-5 xl:mt-0  ">
-      
-        <Image
-          src="/images/services/grow-with-sap/Expanding Value.webp"
-          alt=""
-          fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-          priority
-        />
-        <div
-       
-          className="relative
-                  h-full
-                 ml-[15px] w-[calc(100%-15px)] mr-0
-                 xl:ml-[280px] xl:w-[calc(100%-280px)]
-                 md:ml-[100px] md:w-[calc(100%-100px)]
-                 sm:mx-5 sm:w-[calc(100%-40px)]
-                 xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <div className="grid xl:grid-cols-12 grid-cols-1 gap-20">
-            <div className="xl:col-span-6 col-span-12">
-              <h2 className="text-[25px] xl:text-[60px]  mt-16 text-white leading-tight">
-                Expanding Value with SAP SuccessFactors, Ariba, and Procurement
-              </h2>
-            </div>
-            
-            <div className="xl:col-span-5 col-span-12">
-            </div>
-          </div>
-
-          <div className="grid xl:grid-cols-12 grid-cols-1 mt-8">
-            <div className="xl:col-span-9 col-span-12 flex xl:flex-row flex-col gap-5">
-              <div className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[2px]  hover:border-none">
-                <h3 className="xl:text-[30px] font-bold">SAP SuccessFactors + S/4HANA Cloud</h3>
-                <p className="xl:text-[20px] mt-5 p-2">Enable next-generation HR and workforce management seamlessly integrated with SAP S/4HANA for unified employee and finance data. Manage the entire hire-to-retire lifecycle, aligned with real-time business operations.</p>
-              </div>
-              <div className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[2px] hover:border-none">
-                <h3 className="xl:text-[30px] font-bold">SAP Ariba + S/4HANA Cloud</h3>
-                <p className="xl:text-[20px] mt-5">Integrate direct and indirect procurement seamlessly with S/4HANA to drive supplier collaboration, contract management, and procurement analytics. Rialtes ensures end-to-end Ariba-S/4HANA integrations for global sourcing.</p>
-              </div>
-              <div className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[2px] hover:border-none">
-                <h3 className="xl:text-[30px] font-bold">Direct and Indirect Procurement</h3>
-                <p className="xl:text-[20px] mt-5 p-2">Enable complete procurement transformation, reduce costs, enhance supplier visibility, and ensure compliance with integrated sourcing strategies.</p>
-              </div>
-            </div>
-            <div className="xl:col-span-3 col-span-12">
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-
+     
       <section className="relative w-full group overflow-visible">
-        {/* Background Image container */}
         <div className="relative h-[660px] xl:h-[720px] w-full overflow-hidden">
           <Image
             src="/images/services/grow-with-sap/Expanding Value.webp"
@@ -627,11 +550,9 @@ export default function Page() {
             priority
             className="transition-transform duration-700 group-hover:scale-110 object-cover object-[85%_30%]"
           />
-
-          {/* Content over the image */}
-          <div className="relative mt-[24rem] xl:mt-0 z-10 h-full mx-[35px]  xl:ml-[280px] xl:w-[calc(100%-280px)] md:ml-[100px] md:w-[calc(100%-100px)] flex">
+          <div className="relative mt-[24rem] xl:mt-0 z-10 h-full custom-container">
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
-              <div className="xl:col-span-6 col-span-12">
+              <div className="xl:col-span-7 col-span-12 pb-10">
                 <h2 className="text-[25px] xl:text-[60px] text-white leading-tight mt-16">
                   Expanding Value with SAP SuccessFactors, Ariba, and Procurement
                 </h2>
@@ -640,7 +561,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="relative xl:mt-[-380px] z-20 mx-[35px]  xl:ml-[280px] xl:mr-[420px] mt-[-5rem]   md:ml-[100px]">
+        <div className="relative xl:mt-[-380px] z-20 mx-[35px]  custom-container xl:mr-[420px] mt-[-5rem]">
           <div className="xl:col-span-9 col-span-12 flex xl:flex-row flex-col gap-5">
             <div className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[2px]  hover:border-none">
               <h3 className="xl:text-[30px] font-bold text-[22px]">SAP SuccessFactors + S/4HANA Cloud</h3>
@@ -664,9 +585,7 @@ export default function Page() {
                   h-full relative
                  mx-[35px] xl:mr-0
                  xl:ml-[280px] xl:w-[calc(100%-280px)]
-                 md:ml-[100px] md:w-[calc(100%-100px)]
-                "
-      >
+                 md:ml-[100px] md:w-[calc(100%-100px)]">
         <div className="grid grid-cols-12">
           <div className="xl:col-span-9 col-span-12">
             <h2 className="xl:text-[60px] text-[26px] pr-10">SAP CPI and BTP — Integrated, Customized, and Future-Ready ERP</h2>
