@@ -6,6 +6,33 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
+const schemaData=
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"
+  },
+  "headline": "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
+  "description": "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
+  "image": "https://www.rialtes.com/assets/images/blogs/sap-ariba-procurement.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-05-22",
+  "dateModified": "2025-05-22"
+}
+
 const blogs = [
   {
     id: 1,
@@ -146,7 +173,10 @@ export default function Page() {
                 description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
                 canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
             />
-
+           <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-2-banner.webp "

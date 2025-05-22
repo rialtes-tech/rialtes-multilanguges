@@ -6,6 +6,9 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
+
+
+
 const blogs = [
   {
     id: 1,
