@@ -69,7 +69,7 @@ const AutoTimerSlider = () => {
                         style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
                         <div className="content">
                             <div className="title font-semibold">Healthcare</div>
-                            <div className="des xl:pr-10 pr-10 xl:mt-8 mt-5 font-medium">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
                             <Link href="/industry/life-sciences/healthcare-medtech-patient-care">
                                 <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                             </Link>
