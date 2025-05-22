@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Link from "next/link";
 
 const blogs = [
   {
@@ -300,7 +301,10 @@ export default function Page() {
 
               <h3 className="h3-bold text-[#0092E0] pb-4">Move Towards Smart Farming Technologies with Rialtes</h3>
 
-              <p className="text-black pb-4">Agriculture is a market-driven industry that employs a large segment of the country’s population. Farming technology over the last few years has been enormously helpful in contributing more towards economic growth. Rialtes can assist you in implementing Agribusiness solutions from SAP that help Preserve soil fertility, prevent pollution, and protect biodiversity. We use SAP AI to automate manual tasks and check the status of crops using sensors. Reach out to us to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
+              <p className="text-black pb-4">Agriculture is a market-driven industry that employs a large segment of the country’s population. Farming technology over the last few years has been enormously helpful in contributing more towards economic growth. Rialtes can assist you in implementing Agribusiness solutions from SAP that help Preserve soil fertility, prevent pollution, and protect biodiversity. We use SAP AI to automate manual tasks and check the status of crops using sensors.
+                 <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/contact-us/"}>
+                 <span className="font-bold">Reach out to us </span></Link>
+ to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
 
 
 
