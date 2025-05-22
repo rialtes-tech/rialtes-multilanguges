@@ -546,11 +546,11 @@ export default function About() {
                     </div>
 
                     <div className="p-8 flex flex-col flex-grow items-start gap-2">
-                      <h3 className="text-[#134874] mb-2  pr-10">{webinar.title}</h3>
+                      <h3 className="text-[#134874] mb-2  pr-8">{webinar.title}</h3>
 
                       <div className="text-sm text-gray-600 mb-3">
                         <p>{webinar.date}</p>
-                        <p>{webinar.time}</p>
+                        <p className="mt-3">{webinar.time}</p>
                       </div>
 
                       <div className="mb-4">
