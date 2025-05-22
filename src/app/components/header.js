@@ -315,8 +315,8 @@ const Header = () => {
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
       <div className="header-navbar">
         <div className="bg-white  shadow-md lg:pr-0 hidden xl:block md:block lg:block">
-          <div className="md:grid hidden relative bg-white my-auto mx-auto xl:gap-6 md:gap-4 
-        custom-container top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6">
+          <div className="md:grid hidden  bg-white my-auto mx-auto xl:gap-6 md:gap-4 
+        custom-container top-0 fixed z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6">
             <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 pr-0">
               <Link href="/" passHref>
                 <Image
@@ -390,10 +390,9 @@ const Header = () => {
                 className={`xl:font-bold font-normal`}
                 isActive={activeCard === 7}
               />
-{/* 
               <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
                 <Link href='/contact-us#section1'>Let's Begin</Link>
-              </button> */}
+              </button> 
             </div>
           </div>
 
