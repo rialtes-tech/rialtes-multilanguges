@@ -180,19 +180,19 @@ const Home = () => {
         { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
 
     ]
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 3000);
-        return () => clearInterval(interval);
-    }, [slides.length]);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setCurrentSlide((prev) => (prev + 1) % slides.length);
+    //     }, 3000);
+    //     return () => clearInterval(interval);
+    // }, [slides.length]);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            handleNextInsights();
-        }, 5000);
-        return () => clearInterval(interval);
-    }, []);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         handleNextInsights();
+    //     }, 5000);
+    //     return () => clearInterval(interval);
+    // }, []);
 
     return (
         <div>
@@ -212,10 +212,10 @@ const Home = () => {
             />
             <div className="relative">
                 {/* Background color element */}
-                <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
+                <div className="absolute top-[400px] left-0 w-full h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
                 {/* hero section */}
                 <div className="relative">
-                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[600px] overflow-hidden relative custom-container">
+                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1350px] md:h-[1100px] sm:h-[860px] h-[600px] overflow-hidden relative custom-container">
                         {slides.map((slide, index) => (
                             <React.Fragment key={index}>
                                 <Link href={slide.link}>

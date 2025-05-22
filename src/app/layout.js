@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
           <header>
             <Header />
           </header>
-          <main className="xl:mt-[108px] lg:mt-[20px] md:mt-[20px] mt-0">
+          <main className="xl:mt-[108px] lg:mt-[0px] md:mt-[0px] mt-0">
             {children}
           </main>
           <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
