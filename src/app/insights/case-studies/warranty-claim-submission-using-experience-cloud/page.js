@@ -4,6 +4,34 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
 
+const schemaData=
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud"
+  },
+  "headline": "Case Study: Salesforce Experience Cloud Transforms Warranty Claims for a Roofing Manufacturer",
+  "description": "Rialtes helped a roofing manufacturer in the building materials industry modernize warranty claims using Salesforce Experience Cloud, integrating LWC, address validation, automation, and ERP for better accuracy and efficiency.",
+  "image": "https://www.rialtes.com/images/homepage/logo.svg",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2025-05-23"
+}
+
+
 const slides = [
   {
     id: 3,
@@ -62,9 +90,15 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Warranty Claim Submission Using Experience Cloud"
+        title="Salesforce Experience Cloud for Roofing Manufacturer | Rialtes"
+        description="Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.
+"
         canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud/"
       />
+             <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
