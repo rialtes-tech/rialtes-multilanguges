@@ -6,7 +6,6 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
-import LearnMore from "@/app/components/learnMore";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -172,7 +171,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
+      <section className="relative group overflow-hidden pb-20">
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
@@ -194,20 +193,23 @@ export default function Page() {
         </div>
 
         <div
-          className="
-         h-full relative
-        mx-[35px] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-       "
+          className="relative
+        custom-container"
         >
-          <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20">
-            <div className="xl:col-span-5 col-span-12">
-              <h3 className="text-white xl:text-[24px]  font-bold mb-2">VoyagerNext</h3>
-              <h1 className="text-white xl:text-[60px] leading-tight xl:w-full text-[24px] w-[76%]">
+          <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
+            <div className="xl:col-span-6 col-span-12">
+              <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words">
+                VoyagerNext
+              </h3>
+
+              <h1 className="text-white  leading-tight break-words ">
                 Grow Faster, Smarter with Rialtes' VoyagerNext
               </h1>
-              <h3 className="mt-8 xl:text-[35px] text-[18px] text-white xl:font-bold font-medium w-[76%] xl:w-full">Your Partner for SAP S/4HANA Cloud Transformation</h3>
+
+              <h3 className="mt-8 text-[18px] xl:text-[35px] text-white font-medium xl:font-bold max-w-full break-words">
+                Your Partner for SAP S/4HANA Cloud Transformation
+              </h3>
+
               <div className="md:w-32 w-20 pt-6 mt-5">
                 <Image
                   src="/images/success-factors/sap-partner-logo.webp"
@@ -215,14 +217,15 @@ export default function Page() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                   priority
                 />
               </div>
             </div>
-            <div className="xl:col-span-7 col-span-12">
+            <div className="xl:col-span-6 col-span-12">
             </div>
           </div>
+
 
         </div>
       </section>
@@ -232,12 +235,7 @@ export default function Page() {
 
       <section
         className="mt-16
-               mx-[35px]  xl:mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]
-             
-             "
-      >
+              custom-container">
 
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 col-span-11">

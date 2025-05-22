@@ -97,7 +97,6 @@ const Header = () => {
           label: 'Data & AI', href: '/',
           subLinks: [
             { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
-            { label: 'Data-Sphere', href: '/solutions/data-ai/data-sphere' },
 
           ],
         },
@@ -111,7 +110,6 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
             { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-             { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
 
           ],
         },
@@ -134,7 +132,6 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
           ],
         },
-         
       ],
     },
     {
@@ -159,9 +156,7 @@ const Header = () => {
           label: 'LOB Services', href: '/',
           subLinks: [
             { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },
-            { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
-            { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
-            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
+            { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' }
           ],
 
 
@@ -169,28 +164,12 @@ const Header = () => {
         {
           label: 'Spend Management', href: '/',
           subLinks: [
-            { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
+            { label: 'Ariba Implementation', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
         },
         {
           label: 'HXM Transformation', href: '/',
           subLinks: [
             { label: 'SuccessFactors Implementation', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },],
-        },
-        {
-          label: 'Data and AI', href: '/',
-          subLinks: [
-            { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
-            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'SAP Datasphere', href: '/solutions/data-ai/sap-datasphere-implementation-consulting' }
-
-          ],
-
-        },
-        {
-          label: 'Intelligent SCM', href: '/',
-          subLinks: [
-            { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
-          ],
         },
 
       ],
@@ -219,7 +198,7 @@ const Header = () => {
           label: 'Education', href: '/industry/connected-education',
         },
         {
-          label: 'Automotive', href: '/industry/automotive-industry-cloud-solutions',
+          label: 'Automotive', href: '/industry/automotive-industry',
         },
 
       ],
@@ -334,251 +313,244 @@ const Header = () => {
   return (
     <section>
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
-      <div className="fixed w-full bg-white top-0 z-50 shadow-md lg:pr-0 md:pr-36 hidden xl:block md:block lg:block">
-        <div className="md:grid hidden relative bg-white my-auto mx-auto xl:gap-6 md:gap-4 container
-      ml-[200px] w-[calc(100%-200px)]  
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6 mr-6">
-          <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 md:pr-0 pr-6">
-            <Link href="/" passHref>
-              <Image
-                className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
-                alt="Company logo"
-                width={0}
-                height={0}
-                sizes="100vw"
-                src="/images/homepage/logo.svg"
-                style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                priority
+      <div className="header-navbar">
+        <div className="bg-white  shadow-md lg:pr-0 hidden xl:block md:block lg:block">
+          <div className="md:grid hidden  bg-white my-auto mx-auto xl:gap-6 md:gap-4 
+        custom-container top-0 fixed z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6">
+            <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 pr-0">
+              <Link href="/" passHref>
+                <Image
+                  className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
+                  alt="Company logo"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  src="/images/homepage/logo.svg"
+                  style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                  priority
+                />
+              </Link>
+            </div>
+
+            <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-[12px] md:gap-[12px] items-center text-nowrap ml-auto">
+              <MenuItem
+                label="Solutions"
+                link="/"
+                onHover={() => handleMouseEnterCard(1)}
+                onClick={() => handleMenuClick(1)}
+                className={`xl:font-bold font-normal`}
+                isActive={activeCard === 1}
               />
-            </Link>
+              <MenuItem
+                label="Products"
+                link="/"
+                onHover={() => handleMouseEnterCard(2)}
+                onClick={() => handleMenuClick(2)}
+                isActive={activeCard === 2}
+                className={`xl:font-bold font-normal`}
+
+              />
+              <MenuItem
+                label="Services"
+                link="/"
+                onHover={() => handleMouseEnterCard(3)}
+                onClick={() => handleMenuClick(3)}
+                isActive={activeCard === 3}
+                className={`xl:font-bold font-normal`}
+
+              />
+              <MenuItem
+                label="Industries"
+                link="/industry"
+                onHover={() => handleMouseEnterCard(4)}
+                onClick={() => handleMenuClick(4)}
+                isActive={activeCard === 4}
+                className={`xl:font-bold font-normal`}
+
+              />
+              <MenuItem
+                label="About Us"
+                link="/about-us"
+                onHover={() => handleMouseEnterCard(5)}
+                onClick={() => handleMenuClick(5)}
+                className={`xl:font-bold font-normal`}
+                isActive={activeCard === 5}
+              />
+              <MenuItem
+                label="Insights"
+                link="/insights"
+                onHover={() => handleMouseEnterCard(6)}
+                onClick={() => handleMenuClick(6)}
+                className={`xl:font-bold font-normal`}
+                isActive={activeCard === 6}
+              />
+              <MenuItem
+                label="Contact Us"
+                link="/contact-us"
+                className={`xl:font-bold font-normal`}
+                isActive={activeCard === 7}
+              />
+              <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+                <Link href='/contact-us#section1'>Let's Begin</Link>
+              </button> 
+            </div>
           </div>
 
+          {/* Cards for each menu item */}
+          <div>
+            {/* solutions Card */}
+            {activeCard === 1 && (
+              <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
+                <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
+                  <div className="col-span-3 bg-[#deebf8] p-3 relative">
+                    {/* Data & AI Section */}
+                    <div
+                      className={`cursor-pointer font-bold mt-3 ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("dataAI")}
+                    >
+                      Data & AI
+                    </div>
 
-          <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-6 md:gap-4 items-center text-nowrap">
-            <MenuItem
-              label="Solutions"
-              link="/"
-              onHover={() => handleMouseEnterCard(1)}
-              onClick={() => handleMenuClick(1)}
-              className={`xl:font-bold font-normal`}
-              isActive={activeCard === 1}
-            />
-            <MenuItem
-              label="Products"
-              link="/"
-              onHover={() => handleMouseEnterCard(2)}
-              onClick={() => handleMenuClick(2)}
-              isActive={activeCard === 2}
-              className={`xl:font-bold font-normal`}
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("enterprise")}
+                    >
+                      Enterprise Platforms
+                    </div>
 
-            />
-            <MenuItem
-              label="Services"
-              link="/"
-              onHover={() => handleMouseEnterCard(3)}
-              onClick={() => handleMenuClick(3)}
-              isActive={activeCard === 3}
-              className={`xl:font-bold font-normal`}
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("integration")}
+                    >
+                      Integration
+                    </div>
 
-            />
-            <MenuItem
-              label="Industries"
-              link="/industry"
-              onHover={() => handleMouseEnterCard(4)}
-              onClick={() => handleMenuClick(4)}
-              isActive={activeCard === 4}
-              className={`xl:font-bold font-normal`}
-
-            />
-            <MenuItem
-              label="About Us"
-              link="/about-us"
-              onHover={() => handleMouseEnterCard(5)}
-              onClick={() => handleMenuClick(5)}
-              className={`xl:font-bold font-normal`}
-              isActive={activeCard === 5}
-            />
-            <MenuItem
-              label="Insights"
-              link="/insights"
-              onHover={() => handleMouseEnterCard(6)}
-              onClick={() => handleMenuClick(6)}
-              className={`xl:font-bold font-normal`}
-              isActive={activeCard === 6}
-            />
-            <MenuItem
-              label="Contact Us"
-              link="/contact-us"
-              className={`xl:font-bold font-normal`}
-              isActive={activeCard === 7}
-            />
-
-            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
-              <Link href='/contact-us#section1'>Let's Begin</Link>
-            </button>
-          </div>
-        </div>
-
-        {/* Cards for each menu item */}
-        <div>
-          {/* solutions Card */}
-          {activeCard === 1 && (
-            <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
-              <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
-                <div className="col-span-3 bg-[#deebf8] p-3 relative">
-                  {/* Data & AI Section */}
-                  <div
-                    className={`cursor-pointer font-bold mt-3 ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("dataAI")}
-                  >
-                    Data & AI
-                  </div>
-
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("enterprise")}
-                  >
-                    Enterprise Platforms
-                  </div>
-
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("integration")}
-                  >
-                    Integration
-                  </div>
-
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "cloudeMigration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                   onClick={() => handleSubMenuClickSolution("cloudeMigration")}
                 >
                   Cloud Migration
                 </div> */}
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
-                  >
-                    Artificial Intelligence
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
+                    >
+                      Artificial Intelligence
+                    </div>
 
 
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "qualityEnAss" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                   onClick={() => handleSubMenuClickSolution("qualityEnAss")}
                 >
                   Quality Engineering & Assurance
                 </div> */}
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("aiAutomation")}
-                  >
-                    Process Automation
-                  </div>
-                </div>
-
-                {openSectionSolution === "dataAI" && (
-                  <div className="col-span-8 flex space-x-5"  >
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
-                        <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")}
-                              onHover={() => { }} />
-
-                          </div>
-                          <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="Snowflake" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Qlik" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} onHover={() => { }} />
-
-                          </div>
-                        </div>
-                      </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("aiAutomation")}
+                    >
+                      Process Automation
                     </div>
                   </div>
-                )}
 
-                {openSectionSolution === "enterprise" && (
-                  <div className="col-span-6 flex space-x-5">
-
-                    <div>
+                  {openSectionSolution === "dataAI" && (
+                    <div className="col-span-8 flex space-x-5"  >
                       <div>
                         <div className="border-b pb-5">
-                          <div className="font-bold mt-5">Transform. Automate. Lead — The Power of Intelligent Enterprise</div>
-                          <p className="mt-3">Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.</p>
+                          <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
+                          <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
                           {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                        </button> */}
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
+                      </button> */}
                         </div>
                         <div className="mt-5">
                           <div className="grid grid-cols-2 gap-32">
                             <div>
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP" link="/solutions/enterprise-platforms/sap-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting")} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/solutions/enterprise-platforms/salesforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting")} />
-                              {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} /> */}
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Ariba" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle" link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} onHover={() => { }} />
+                              <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")}
+                                onHover={() => { }} />
+                              {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Tableau" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="PowerBI" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
                             </div>
                             <div>
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} onHover={() => { }} />
-
+                              {/* <MenuItem className="font-bold text-[#2f78c4]" label="Snowflake" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Qlik" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
                             </div>
                           </div>
                         </div>
                       </div>
+                    </div>
+                  )}
+
+                  {openSectionSolution === "enterprise" && (
+                    <div className="col-span-6 flex space-x-5">
+
+                      <div>
+                        <div>
+                          <div className="border-b pb-5">
+                            <div className="font-bold mt-5">Transform. Automate. Lead — The Power of Intelligent Enterprise</div>
+                            <p className="mt-3">Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.</p>
+                            {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
+                        </button> */}
+                          </div>
+                          <div className="mt-5">
+                            <div className="grid grid-cols-2 gap-32">
+                              <div>
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP" link="/solutions/enterprise-platforms/sap-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting")} />
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/solutions/enterprise-platforms/salesforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting")} />
+                                {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} /> */}
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Ariba" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle" link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} onHover={() => { }} />
+                              </div>
+                              <div>
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
+                                <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
 
                     </div>
 
-
-                  </div>
-
-                )}
+                  )}
 
 
-                {openSectionSolution === "integration" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Smarter Connections. Faster Growth. Intelligent Integration Services</div>
-                        <p className="mt-3">Future-ready integration strategies that align business goals with seamless technology execution</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSectionSolution === "integration" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Smarter Connections. Faster Growth. Intelligent Integration Services</div>
+                          <p className="mt-3">Future-ready integration strategies that align business goals with seamless technology execution</p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/sap/sap-integration' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Mulesoft" link="/solutions/integration/mulesoft-salesforce" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")}
-                            />
-                            {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP CPI" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
-                          </div>
-                          <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="Workato" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                        </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            <div>
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Mulesoft" link="/solutions/integration/mulesoft-salesforce" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")}
+                              />
+                              {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP CPI" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
+                            </div>
+                            <div>
+                              {/* <MenuItem className="font-bold text-[#2f78c4]" label="Workato" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+
+                            </div>
 
                           </div>
 
                         </div>
-
                       </div>
-                    </div>
 
-                  </div>
-                )}
-                {/* {openSectionSolution === "cloudeMigration" && (
+                    </div>
+                  )}
+                  {/* {openSectionSolution === "cloudeMigration" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
@@ -609,32 +581,32 @@ const Header = () => {
 
                 </div>
               )} */}
-                {openSectionSolution === "artificialIntelligence" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Make AI Your Competitive Advantage</div>
-                        <p className="mt-3">Empowering businesses to solve complex problems, automate workflows, and deliver real-time insights with AI.</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSectionSolution === "artificialIntelligence" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Make AI Your Competitive Advantage</div>
+                          <p className="mt-3">Empowering businesses to solve complex problems, automate workflows, and deliver real-time insights with AI.</p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
+                        </div>
+                        <div className="mt-5">
 
-                        <div className="grid grid-cols-2 gap-32">
-                          {/* <div>
+                          <div className="grid grid-cols-2 gap-32">
+                            {/* <div>
                           <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="RialBot" link="/" onHover={() => { }} onClick={handleLinkClick} />
                           <MenuItem className="font-bold pb-3 mt-6 text-[#2f78c4]" label="Microsoft Co-Pilot" link="/" onHover={() => { }} onClick={handleLinkClick} />
                         </div> */}
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                )}
-                {/* {openSectionSolution === "qualityEnAss" && (
+                  )}
+                  {/* {openSectionSolution === "qualityEnAss" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
@@ -658,80 +630,80 @@ const Header = () => {
                   </div>
                 </div>
               )} */}
-                {openSectionSolution === "aiAutomation" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Agility Meets Efficiency with Next-Gen Process Automation</div>
-                        <p className="mt-3">Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSectionSolution === "aiAutomation" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Agility Meets Efficiency with Next-Gen Process Automation</div>
+                          <p className="mt-3">Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.</p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          <div>
-                            {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Automation Anywhere" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")}
-                            />
-                          </div>
-                          <div>
-                            {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/" onHover={() => { }} onClick={handleLinkClick} />
+                        </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            <div>
+                              {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Automation Anywhere" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")}
+                              />
+                            </div>
+                            <div>
+                              {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/" onHover={() => { }} onClick={handleLinkClick} />
                           <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Alteryx" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {/* Products Card */}
-          {activeCard === 2 && (
-            <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
-                <div className="col-span-3  p-3">
-                  <div className="bg-[#deebf8] p-3">
-                    <div
-                      className={`cursor-pointer font-bold ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                      onClick={() => handleSubMenuClickProduct("rialchat")}
-                    >
-                      AgentChat
+            {/* Products Card */}
+            {activeCard === 2 && (
+              <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
+                <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
+                  <div className="col-span-3  p-3">
+                    <div className="bg-[#deebf8] p-3">
+                      <div
+                        className={`cursor-pointer font-bold ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                        onClick={() => handleSubMenuClickProduct("rialchat")}
+                      >
+                        AgentChat
+                      </div>
                     </div>
-                  </div>
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClickProduct("exelona")}
                 >
                   Exelona
                 </div> */}
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionProduct === "mediAIna" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClickProduct("mediAIna")}
                 >
                   MediAIna
                 </div> */}
-                </div>
-                {openSectionProduct === "rialchat" && (
-                  <div className="col-span-8 flex space-x-5"  >
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.</div>
-                        <p className="mt-3">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/products/agentchat' onClick={(e) => handleLinkClick(e, "/products/agentchat")}
-                          >Let's Begin</Link>
-                        </button>
-                      </div>
-                    </div>
-
                   </div>
-                )}
+                  {openSectionProduct === "rialchat" && (
+                    <div className="col-span-8 flex space-x-5"  >
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.</div>
+                          <p className="mt-3">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
+                          <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                            <Link href='/products/agentchat' onClick={(e) => handleLinkClick(e, "/products/agentchat")}
+                            >Let's Begin</Link>
+                          </button>
+                        </div>
+                      </div>
 
-                {/* {openSectionProduct === "exelona" && (
+                    </div>
+                  )}
+
+                  {/* {openSectionProduct === "exelona" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
@@ -763,116 +735,80 @@ const Header = () => {
                   </div>
                 </div>
               )} */}
+                </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {/* Services Card */}
-          {activeCard === 3 && (
-            <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] p-3">
-                  <div
-                    className={`cursor-pointer font-bold ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickBusiness("businessTransform")}
-                  >
-                    Business Transformation
-                  </div>
-                  {/* <div
+            {/* Services Card */}
+            {activeCard === 3 && (
+              <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
+                <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
+                  <div className="col-span-3 bg-[#deebf8] p-3">
+                    <div
+                      className={`cursor-pointer font-bold ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickBusiness("businessTransform")}
+                    >
+                      Business Transformation
+                    </div>
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClickBusiness("applicationServices")}
                 >
                   Application Services
                 </div> */}
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickBusiness("intelligentScm")}
-                  >
-                    LOB Services
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
-                  >
-                    Spend Management
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickBusiness("hxmTransformation")}
-                  >
-                    HXM Transformation
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickBusiness("data-ai")}
-                  >
-                    Data and AI
-                  </div>
                     <div
-                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickBusiness("intelligent")}
-                  >
-                   Intelligent SCM
+                      className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickBusiness("intelligentScm")}
+                    >
+                      LOB Services
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
+                    >
+                      Spend Management
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickBusiness("hxmTransformation")}
+                    >
+                      HXM Transformation
+                    </div>
                   </div>
-                </div>
-                {openSectionbusiness === "businessTransform" && (
-                  <div className="col-span-8 flex space-x-5"  >
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">From Vision to Value — Transform Smarter, Grow Faster</div>
-                        <p className="mt-3">From strategy to execution, we accelerate your transformation journey with AI-powered insights and industry-leading expertise, turning challenges into competitive advantages</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSectionbusiness === "businessTransform" && (
+                    <div className="col-span-8 flex space-x-5"  >
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">From Vision to Value — Transform Smarter, Grow Faster</div>
+                          <p className="mt-3">From strategy to execution, we accelerate your transformation journey with AI-powered insights and industry-leading expertise, turning challenges into competitive advantages</p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Grow with SAP" link="/services/business-transformation/grow-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/grow-with-sap-services")} onHover={() => { }} />
-                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="For Grow with SAP" link="/grow-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
-                            <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Oracle EBSPlus" link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")}
-                              onHover={() => { }} />
-                          </div>
-
-                          <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")}
-                              onHover={() => { }} />
-                          </div>
-
                         </div>
-                      </div>
-                    </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4]" label="Grow with SAP" link="/services/business-transformation/grow-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/grow-with-sap-services")} onHover={() => { }} />
+                              {/* <MenuItem className="font-bold text-[#2f78c4]" label="For Grow with SAP" link="/grow-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
+                              <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Oracle EBSPlus" link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")}
+                                onHover={() => { }} />
+                            </div>
 
-                  </div>
-                )}
-                {openSectionbusiness === "data-ai" && (
-                  <div className="col-span-8 flex space-x-5"  >
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Subtext - Smarter Data. Sharper Decisions. Stronger Outcomes.</div>
-                        <p className="mt-3">Experience the future of consulting — powered by AI and insight-driven innovation.</p>
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")} onHover={() => { }} />
-                            <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")}
-                              onHover={() => { }} />
-                          </div>
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="SAP Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting")}
-                              onHover={() => { }} />
+                            <div>
+                              {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
+                              <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")}
+                                onHover={() => { }} />
+                            </div>
+
                           </div>
                         </div>
                       </div>
+
                     </div>
+                  )}
 
-                  </div>
-                )}
-
-                {/* {openSectionbusiness === "applicationServices" && (
+                  {/* {openSectionbusiness === "applicationServices" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
@@ -903,51 +839,51 @@ const Header = () => {
 
                 </div>
               )} */}
-                {openSectionbusiness === "lobServices" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      {/* <div className="border-b pb-5"> */}
-                      {/* <div className="font-bold mt-5">Tailored Industry Solutions, Unmatched Results</div> */}
-                      {/* <p className="mt-3">From healthcare to automotive, our industry-specific consulting services deliver actionable insights and innovative solutions that drive sustainable growth.</p> */}
-                      {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSectionbusiness === "lobServices" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        {/* <div className="border-b pb-5"> */}
+                        {/* <div className="font-bold mt-5">Tailored Industry Solutions, Unmatched Results</div> */}
+                        {/* <p className="mt-3">From healthcare to automotive, our industry-specific consulting services deliver actionable insights and innovative solutions that drive sustainable growth.</p> */}
+                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                    </div>
-                    <div className="mt-5">
-                      <div className="grid grid-cols-2 gap-32">
-                        <div>
-                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
+                          <div>
+                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
 " onClick={handleLinkClick} onHover={() => { }} /> */}
 
-                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Advantage+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="RialEstate+" link="/industry/real-estate" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Empower+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Retail+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="LifeAI+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Travel+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="EduA+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                        </div>
-                        <div>
+                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Advantage+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="RialEstate+" link="/industry/real-estate" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Empower+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Retail+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="LifeAI+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Travel+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="EduA+" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                          </div>
+                          <div>
 
-                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="[ Financial ]" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for marketing industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for real estate industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for automotive industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for non profit industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for Retail Industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For life sciences industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="a TTH service" link="/" onClick={handleLinkClick} onHover={() => { }} />
+                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="[ Financial ]" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for marketing industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for real estate industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for automotive industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for non profit industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="for Retail Industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For life sciences industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="a TTH service" link="/" onClick={handleLinkClick} onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For Education Industry" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
 
-                        </div>
+                          </div>
 
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  // </div>
-                )}
-                {/* {openSectionbusiness === "intelligentScm" && (
+                    // </div>
+                  )}
+                  {/* {openSectionbusiness === "intelligentScm" && (
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
@@ -971,246 +907,214 @@ const Header = () => {
 
                 </div>
               )} */}
-                {openSectionbusiness === "spentMangemnet" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Visibility. Control. Savings.</div>
-                        <p className="mt-3">Our comprehensive spend management services deliver transparency and accountability, transforming how you manage business expenses.
-                        </p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSectionbusiness === "spentMangemnet" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Visibility. Control. Savings.</div>
+                          <p className="mt-3">Our comprehensive spend management services deliver transparency and accountability, transforming how you manage business expenses.
+                          </p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          {/* <div>
+                        </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            {/* <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
-                              onHover={() => { }} />
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4]" label="SAP Ariba " link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
+                                onHover={() => { }} />
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                )}
-                {openSectionbusiness === "intelligentScm" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Reduce operational costs and increase ROI For Every Line of Business</div>
-                        <p className="mt-3">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
-                        </p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  )}
+                  {openSectionbusiness === "intelligentScm" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Reduce operational costs and increase ROI For Every Line of Business</div>
+                          <p className="mt-3">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
+                          </p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-10">
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Retail+" link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} onHover={() => { }} />
-                          </div>
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
-                              onHover={() => { }} />
-                          </div>
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="SAPBuy+" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")}
-                              onHover={() => { }} />
-                          </div>
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
-                              onHover={() => { }} />
-                          </div>
+                        </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4]" label="Retail+" link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} onHover={() => { }} />
+                            </div>
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
+                                onHover={() => { }} />
+                            </div>
 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
-                {openSectionbusiness === "hxmTransformation" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Empower Your Workforce with Smarter HCM Solutions</div>
-                        <p className="mt-3">From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          {/* <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Success+" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                        </div> */}
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")}
-                              onHover={() => { }} />
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                )}
-                 {openSectionbusiness === "intelligent" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div>
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Reinvent Supply Chains with AI and Real-Time Intelligence</div>
-                        <p className="mt-3">Empower businesses to anticipate demand, automate operations, and respond to disruptions swiftly, turning supply chains into strategic, resilient growth drivers.</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  )}
+                  {openSectionbusiness === "hxmTransformation" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div>
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Empower Your Workforce with Smarter HCM Solutions</div>
+                          <p className="mt-3">From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.</p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          {/* <div>
+                        </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            {/* <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Success+" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="Demand+" link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")}
-                              onHover={() => { }} />
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4]" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")}
+                                onHover={() => { }} />
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {/* Industries Card */}
-          {activeCard === 4 && (
-            <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] p-3">
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("automotive")}
-                  >
-                    Real Estate
-                  </div>
-                  {/* <div
+            {/* Industries Card */}
+            {activeCard === 4 && (
+              <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
+                <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+                  <div className="col-span-3 bg-[#deebf8] p-3">
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClick("automotive")}
+                    >
+                      Real Estate
+                    </div>
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                   onClick={() => handleSubMenuClick("education")}
                 >
                   Education
                 </div> */}
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
-                    onClick={() => handleSubMenuClick("lifeSciences")}
-                  >
-                    Life Sciences
-                  </div>
-                  {/* <div
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
+                      onClick={() => handleSubMenuClick("lifeSciences")}
+                    >
+                      Life Sciences
+                    </div>
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSection === "nonProfit" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("nonProfit")}
                 >
                   Non Profit
                 </div> */}
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSection === "retail" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("retail")}
                 >
                   Retail
                 </div> */}
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("travelHospitality")}
                 >
                   Travel and Hospitality
                 </div> */}
-                  {/* <div
+                    {/* <div
                   className={`cursor-pointer mt-3 font-bold ${openSection === "finance" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
 
                   onClick={() => handleSubMenuClick("finance")}
                 >
                   Finance
                 </div> */}
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("hiTech")}
-                  >
-                    Hi-Tech
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("manufacturing")}
-                  >
-                    Manufacturing
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("education")}
-                  >
-                    Education
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("autoinstry")}
-                  >
-                    Automotive
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClick("hiTech")}
+                    >
+                      Hi-Tech
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClick("manufacturing")}
+                    >
+                      Manufacturing
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClick("education")}
+                    >
+                      Education
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClick("autoinstry")}
+                    >
+                      Automotive
+                    </div>
 
-                </div>
-                {openSection === "automotive" && (
-                  <div className="col-span-8 flex space-x-5"  >
-                    <div className="flex-1">
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
-                        <div className="mt-3">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/real-estate-property-management' onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management")}
-                          >Let's Begin</Link>
-                        </button>
+                  </div>
+                  {openSection === "automotive" && (
+                    <div className="col-span-8 flex space-x-5"  >
+                      <div className="flex-1">
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
+                          <div className="mt-3">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
+                          <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                            <Link href='/industry/real-estate-property-management' onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management")}
+                            >Let's Begin</Link>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                )}
+                  )}
 
-                {openSection === "lifeSciences" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
-                        <p className="mt-3">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                  {openSection === "lifeSciences" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div className="flex-1">
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
+                          <p className="mt-3">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
+                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
-                      </div>
-                      <div className="mt-5">
-                        <div className="grid grid-cols-2 gap-32">
-                          {/* <div>
+                        </div>
+                        <div className="mt-5">
+                          <div className="grid grid-cols-2 gap-32">
+                            {/* <div>
                           <MenuItem className="font-bold text-[#2f78c4]" label="Medical Devices" link="/" onClick={handleLinkClick} onHover={() => { }} />
                         </div> */}
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4] " label="Healthcare" link="/industry/life-sciences/healthcare-medtech-patient-care" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/healthcare-medtech-patient-care")}
-                              onHover={() => { }} />
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4] " label="Healthcare" link="/industry/life-sciences/healthcare-medtech-patient-care" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/healthcare-medtech-patient-care")}
+                                onHover={() => { }} />
+                            </div>
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4] " label="Pharma and Biotech" link="/industry/life-sciences/pharma-biotech-digital-transformation" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/pharma-biotech-digital-transformation/")}
+                                onHover={() => { }} />
+                            </div>
                           </div>
-                          <div>
-                            <MenuItem className="font-bold text-[#2f78c4] " label="Pharma and Biotech" link="/industry/life-sciences/pharma-biotech-digital-transformation" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/pharma-biotech-digital-transformation/")}
-                              onHover={() => { }} />
-                          </div>
-                        </div>
-                        {/* <div className="mt-6">
+                          {/* <div className="mt-6">
                         <MenuItem className="font-bold text-[#2f78c4]" label="Pharma and Bio" link="/" onClick={handleLinkClick} onHover={() => { }} />
                       </div> */}
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
-                            onHover={() => { }} />
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
+                              onHover={() => { }} />
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
-                )}
-                {/* {openSection === "nonProfit" && (
+                  )}
+                  {/* {openSection === "nonProfit" && (
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
@@ -1223,7 +1127,7 @@ const Header = () => {
                   </div>
                 </div>
               )} */}
-                {/* {openSection === "retail" && (
+                  {/* {openSection === "retail" && (
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
@@ -1236,7 +1140,7 @@ const Header = () => {
                   </div>
                 </div>
               )} */}
-                {/* {openSection === "travelHospitality" && (
+                  {/* {openSection === "travelHospitality" && (
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
@@ -1249,7 +1153,7 @@ const Header = () => {
                   </div>
                 </div>
               )} */}
-                {/* {openSection === "finance" && (
+                  {/* {openSection === "finance" && (
                 <div className="col-span-8 flex space-x-5">
                   <div className="flex-1">
                     <div className="border-b pb-5">
@@ -1262,81 +1166,81 @@ const Header = () => {
                   </div>
                 </div>
               )} */}
-                {openSection === "hiTech" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
-                        <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/hitech-semiconductor' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor")}
-                          >Let's Begin</Link>
-                        </button>
+                  {openSection === "hiTech" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div className="flex-1">
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
+                          <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
+                          <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                            <Link href='/industry/hitech-semiconductor' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor")}
+                            >Let's Begin</Link>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                )}
-                {openSection === "autoinstry" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
-                        <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/automotive-industry-cloud-solutions' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry-cloud-solutions")}
-                          >Let's Begin</Link>
-                        </button>
+                  )}
+                  {openSection === "autoinstry" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div className="flex-1">
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
+                          <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
+                          <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                            <Link href='/industry/automotive-industry' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry")}
+                            >Let's Begin</Link>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                )}
-                {openSection === "manufacturing" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Powering Smart, Seamless Manufacturing with Mobility and Efficiency</div>
-                        <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/manufacturing-cloud-erp' onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp")}
-                          >Let's Begin</Link>
-                        </button>
+                  )}
+                  {openSection === "manufacturing" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div className="flex-1">
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Powering Smart, Seamless Manufacturing with Mobility and Efficiency</div>
+                          <p className="mt-3">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
+                          <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                            <Link href='/industry/manufacturing-cloud-erp' onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp")}
+                            >Let's Begin</Link>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                )}
-                {openSection === "education" && (
-                  <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
-                      <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Driving Education with Student-Centric Solutions</div>
-                        <p className="mt-3">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/connected-education' onClick={(e) => handleLinkClick(e, "/industry/connected-education")}
-                          >Let's Begin</Link>
-                        </button>
+                  )}
+                  {openSection === "education" && (
+                    <div className="col-span-8 flex space-x-5">
+                      <div className="flex-1">
+                        <div className="border-b pb-5">
+                          <div className="font-bold mt-5">Driving Education with Student-Centric Solutions</div>
+                          <p className="mt-3">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
+                          <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                            <Link href='/industry/connected-education' onClick={(e) => handleLinkClick(e, "/industry/connected-education")}
+                            >Let's Begin</Link>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                )}
+                  )}
 
+                </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {/* about us Card */}
-          {activeCard === 5 && (
-            <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-                <div className="col-span-3  p-3">
+            {/* about us Card */}
+            {activeCard === 5 && (
+              <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
+                <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+                  <div className="col-span-3  p-3">
 
-                  <div className="bg-[#deebf8] p-3">
-                    <div
-                      className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3"
-                    >
-                      About Rialtes: Innovating with Impact
+                    <div className="bg-[#deebf8] p-3">
+                      <div
+                        className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3"
+                      >
+                        About Rialtes: Innovating with Impact
+                      </div>
                     </div>
-                  </div>
-                  {/* <p className="mt-10 border-b-[2px] pb-5 border-black">
+                    {/* <p className="mt-10 border-b-[2px] pb-5 border-black">
                   At <strong className="font-bold">Rialtes</strong>, we’re more than a consulting company — we’re a force for positive change. Our commitment to <strong className="font-bold">innovation</strong>,  <strong className="font-bold">sustainability</strong>, and  <strong className="font-bold">inclusion</strong> drives everything we do. From empowering businesses through AI and digital transformation to supporting communities and the environment, we believe in making a lasting impact.
 
                 </p>
@@ -1357,96 +1261,97 @@ const Header = () => {
                   <p className="mt-3">We believe diversity fuels innovation. Rialtes fosters an inclusive workplace where <strong className="font-bold">women in tech</strong>  thrive, <strong className="font-bold">veterans</strong>  are celebrated, and every individual’s perspective is valued. Through mentorship programs, leadership opportunities, and a supportive culture, we ensure all voices are heard. Our dedication to <strong className="font-bold">DEI</strong>  shapes both our internal culture and our client solutions, creating lasting social impact.
                   </p>
                 </div> */}
-                </div>
-                <div className="col-span-8 flex space-x-5"  >
-                  <div>
-                    <div className="border-b pb-5">
-                      <div className="font-bold mt-5">Beyond Business: A Commitment to Change</div>
-                      <p className="mt-3">Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
-                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/about-us' onClick={(e) => handleLinkClick(e, "/about-us")}>Let's Begin</Link>
-                      </button>
-                    </div>
-                    <div className="mt-5">
-                      <div className="grid grid-cols-2 gap-32">
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Partnership" link="/about-us/global-alliences" onClick={(e) => handleLinkClick(e, "/about-us/global-alliences")}
-                            onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} onHover={() => { }} />
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label=" Corporate Citizenship" link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Contact Us" link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")}
-                            onHover={() => { }} />
-                        </div>
-                        <div>
+                  </div>
+                  <div className="col-span-8 flex space-x-5"  >
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Beyond Business: A Commitment to Change</div>
+                        <p className="mt-3">Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/about-us' onClick={(e) => handleLinkClick(e, "/about-us")}>Let's Begin</Link>
+                        </button>
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Partnership" link="/about-us/global-alliences" onClick={(e) => handleLinkClick(e, "/about-us/global-alliences")}
+                              onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} onHover={() => { }} />
+                          </div>
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label=" Corporate Citizenship" link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6" label=" Contact Us" link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")}
+                              onHover={() => { }} />
+                          </div>
+                          <div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {activeCard === 6 && (
-            <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-                <div className="col-span-3">
-                  <div className="bg-[#deebf8] p-3">
-                    <div
-                      className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3"
-                    >
-                      Insights
+            {activeCard === 6 && (
+              <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
+                <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+                  <div className="col-span-3">
+                    <div className="bg-[#deebf8] p-3">
+                      <div
+                        className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3"
+                      >
+                        Insights
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-span-8 flex space-x-5"  >
-                  <div>
-                    <div className="border-b pb-5">
-                      <div className="font-bold mt-5">Explore Our Insights: Blogs, Case Studies, and Thought Leadership</div>
-                      <p className="mt-3">Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.</p>
-                      <button className=" text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/insights' onClick={(e) => handleLinkClick(e, "/insights")}
-                        >Let's Begin</Link>
-                      </button>
-                    </div>
-                    <div className="mt-5">
-                      <div className="grid grid-cols-2 gap-32">
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Blogs" link="/insights/blogs" onClick={(e) => handleLinkClick(e, "/insights/blogs")}
-                            onHover={() => { }} />
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-10" label="News" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")}
-                            onHover={() => { }} /> */}
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} /> */}
+                  <div className="col-span-8 flex space-x-5"  >
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Explore Our Insights: Blogs, Case Studies, and Thought Leadership</div>
+                        <p className="mt-3">Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.</p>
+                        <button className=" text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/insights' onClick={(e) => handleLinkClick(e, "/insights")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinars" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Blogs" link="/insights/blogs" onClick={(e) => handleLinkClick(e, "/insights/blogs")}
+                              onHover={() => { }} />
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-10" label="News" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")}
+                            onHover={() => { }} /> */}
+                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Webinars" link="/insights/webinars" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            <div>
+                              <MenuItem className="font-bold text-[#2f78c4] mt-10" label="Webinar" link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")}
+                                onHover={() => { }} />
+                              {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
+                            </div>
+                          </div>
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Case Studies" link="/insights/case-studies" onClick={(e) => handleLinkClick(e, "/insights/case-studies")}
                               onHover={() => { }} />
                             {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
                           </div>
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Case Studies" link="/insights/case-studies" onClick={(e) => handleLinkClick(e, "/insights/case-studies")}
-                            onHover={() => { }} />
-                          {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Events" link="/events" onClick={handleLinkClick} onHover={() => { }} /> */}
-                        </div>
 
-                        <div>
+                          <div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
 
       {/* ///mobile menu */}
       <div>
-        <div className="xl:hidden md:block  flex justify-between items-center px-[35px] py-3" id="mobile-menu">
+        <div className="xl:hidden lg:hidden md:hidden flex justify-between items-center custom-container py-3" id="mobile-menu">
           <Link href='/'>
             <Image
               loading="lazy"
