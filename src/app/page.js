@@ -180,19 +180,19 @@ const Home = () => {
         { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
 
     ]
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCurrentSlide((prev) => (prev + 1) % slides.length);
-    //     }, 3000);
-    //     return () => clearInterval(interval);
-    // }, [slides.length]);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentSlide((prev) => (prev + 1) % slides.length);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [slides.length]);
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         handleNextInsights();
-    //     }, 5000);
-    //     return () => clearInterval(interval);
-    // }, []);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNextInsights();
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <div>
