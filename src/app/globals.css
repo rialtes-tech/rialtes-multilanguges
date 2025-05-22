@@ -416,6 +416,8 @@ body {
 @media (min-width: 0) and (max-width: 575.98px) {
   .custom-container {
     max-width: 100%;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
   .agentChat-leftDiv {
@@ -431,7 +433,9 @@ body {
 /* Small devices (landscape phones, between 576px and 767px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .custom-container {
-    max-width: 710px;
+    max-width: 100%;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
   .agentChat-leftDiv {
@@ -447,9 +451,9 @@ body {
 /* Medium devices (tablets, between 768px and 991px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .custom-container {
-    max-width: 921px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100%;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
   .agentChat-leftDiv {
@@ -465,9 +469,9 @@ body {
 /* Large devices (desktops, between 992px and 1199px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .custom-container {
-    max-width: 1120px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100%;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 
   .sapbuy-seamless-section {
@@ -483,13 +487,13 @@ body {
 /* X-Large devices (large desktops, between 1200px and 1399px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .custom-container {
-    max-width: 1280px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .sapbuy-unlock-section {
-    margin-bottom: 580px;
+    margin-bottom: 900px;
   }
 
   .sapbuy-seamless-section {
@@ -505,9 +509,19 @@ body {
   }
 }
 
-@media (min-width: 1400px) and (max-width: 1800px) {
+@media (min-width: 1400px) and (max-width: 1799px) {
+  .custom-container {
+    max-width: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
   .sapbuy-seamless-section {
     margin-bottom: 360px !important;
+  }
+
+  .sapbuy-unlock-section {
+    margin-bottom: 600px !important;
   }
 
   .agentChatSection {
@@ -524,19 +538,19 @@ body {
 }
 
 /* XX-Large devices (larger desktops, 1400px and above) */
-@media (min-width: 1400px) {
+@media (min-width: 1800px) {
   .custom-container {
-    max-width: 1400px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100%;
+    padding-left: 280px;
+    padding-right: 280px;
   }
 
   .sapbuy-unlock-section {
-    margin-bottom: 500px;
+    margin-bottom: 300px;
   }
 
   .sapbuy-seamless-section {
-    margin-bottom: 280px;
+    margin-bottom: 260px;
   }
 
   .agentChatSection {

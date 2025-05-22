@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 const schemaData = {
-  "@context": "https://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "SAP Ariba CIG Integration Webinar: ERP Flows, Simplified",
     "description": "Discover how SAP Ariba Cloud Integration Gateway (CIG) connects your SAP ERP (S/4HANA) to the Ariba Network—streamlining integration, improving efficiency, and simplifying procurement transactions. A must-attend online webinar for ERP and SAP professionals.",
@@ -180,7 +180,7 @@ export default function () {
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
                     <ul className="list-disc marker:text-black text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium pr-24">
                         <li className="pb-2 mt-5"><strong>Simplified Integration:</strong> How CIG bridges SAP ERP and Ariba effortlessly.</li>
-                        <li className="pb-2"><strong>CIG Architecture: </strong> Dive into key components and how they work together.</li>
+                        <li className="pb-2"><strong>CIG Architecture:</strong> Dive into key components and how they work together.</li>
                         <li className="pb-2"><strong>Self-Service Portal:</strong>  Learn how to configure, test, and monitor integrations.</li>
                         <li className="pb-2"><strong>Real-World Use Cases: </strong> Practical examples of how organizations benefit from CIG.</li>
                         <li className="pb-2"><strong>Implementation Best Practices:</strong> Tips for faster deployment and effective error handling.</li>
