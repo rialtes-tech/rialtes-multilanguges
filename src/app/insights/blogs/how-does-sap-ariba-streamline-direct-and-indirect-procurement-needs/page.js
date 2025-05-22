@@ -1,10 +1,7 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
-import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
-import Seo from "@/app/components/Seo";
 
 const blogs = [
   {

@@ -8,6 +8,7 @@ const nextConfig = {
     config.externals['react-google-recaptcha'] = 'commonjs react-google-recaptcha';
     return config;
   },
+  
 
 };
 
