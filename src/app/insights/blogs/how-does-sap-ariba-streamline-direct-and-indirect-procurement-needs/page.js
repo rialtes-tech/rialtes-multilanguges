@@ -3,8 +3,9 @@
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Link from "next/link";
 
-const schemaData=
+const schemaData =
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -165,16 +166,16 @@ const blogs = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-           <Seo
-                title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes
+      <Seo
+        title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes
 "
-                description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
-                canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
-            />
-           <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+        description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
+        canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-2-banner.webp "
@@ -265,43 +266,43 @@ export default function Page() {
               <p className="text-black">SAP Ariba is a procurement management software developed by SAP, designed to optimize an organization's supply chain through e-procurement. It automates the acquisition process of goods and services, from requisition to payment, focusing on cataloged purchasing. This ensures that companies receive the right products in the right quantity and at the right time for the best price. While procurement is often linked only to purchasing, it involves strategic management of the entire supply chain, improving efficiency and preventing losses or delays. Strategic procurement aims to develop supply channels to achieve the best total cost, enhancing logistical success and boosting profitability. </p>
 
               <div className="pb-4"></div>
-                            <h3 className="font-bold pb-2">Direct Procurement </h3>
+              <h3 className="font-bold pb-2">Direct Procurement </h3>
 
-                            <p className="text-black pb-4">Also known as “direct material procurement”, it involves acquiring raw materials, components, and goods that are directly used in the production process. These purchases are critical to manufacturing operations, ensuring production continuity and product quality. </p>
+              <p className="text-black pb-4">Also known as “direct material procurement”, it involves acquiring raw materials, components, and goods that are directly used in the production process. These purchases are critical to manufacturing operations, ensuring production continuity and product quality. </p>
 
-                       <h3 className="font-bold pb-2">Indirect Procurement  </h3>
-                                 <p className="text-black ">Indirect procurement refers to acquiring goods and services that support business operations but are not directly involved in manufacturing. This includes office supplies, IT services, marketing expenses, and maintenance services. While indirect procurement may not impact production directly, it plays a crucial role in operational efficiency and cost management. </p>
-      
-                                  <div className="py-6"></div>
+              <h3 className="font-bold pb-2">Indirect Procurement  </h3>
+              <p className="text-black ">Indirect procurement refers to acquiring goods and services that support business operations but are not directly involved in manufacturing. This includes office supplies, IT services, marketing expenses, and maintenance services. While indirect procurement may not impact production directly, it plays a crucial role in operational efficiency and cost management. </p>
 
-                          <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">The 4 Main Activities of Procurement  </h2>
+              <div className="py-6"></div>
 
-            
-            
+              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">The 4 Main Activities of Procurement  </h2>
+
+
+
 
               <p className="text-black pb-4">As a strategic purchasing management solution, procurement is structured around four core activities:<span className="font-bold"> Sourcing, Contract Management, Purchasing, and Accounts Payable.</span></p>
 
-          <ul className="list-disc text-black pl-8 ">
-               <li className="pb-2">
+              <ul className="list-disc text-black pl-8 ">
+                <li className="pb-2">
                   <p>Sourcing focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain. </p>
-             </li>
-               <li className="pb-2">
+                </li>
+                <li className="pb-2">
                   <p>Contract management oversees the entire contract lifecycle, from initial drafting to termination. This includes continuous contract analysis to secure the best terms, as well as monitoring compliance from both parties. Effective contract management enhances financial and operational performance through well-structured agreements. </p>
-              </li>
-               <li className="pb-2">
+                </li>
+                <li className="pb-2">
                   <p>Purchasing encompasses all operational activities related to acquiring goods and services. This includes purchase requests, order processing, payment execution, and material receipt. Ensuring timely deliveries is a critical performance metric in this area. </p>
-              </li>
-              <li >    
+                </li>
+                <li >
                   <p>Managing financial obligations to suppliers, particularly for credit-based purchases with predefined terms, is vital for financial stability. Closely integrated with purchasing, this function provides a comprehensive view of procurement expenses and helps identify cost-saving opportunities across the process. </p>
-              </li>
-         </ul>
+                </li>
+              </ul>
 
-           <div className="py-6"></div>
+              <div className="py-6"></div>
 
               <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">How SAP Ariba Optimizes Procurement  </h2>
 
 
-               <h3 className="text-black pb-2 font-bold">1. Centralized Procurement for Greater Visibility </h3>
+              <h3 className="text-black pb-2 font-bold">1. Centralized Procurement for Greater Visibility </h3>
               <p className="text-black pb-4">SAP Ariba acts as a single digital hub where businesses can manage procurement activities across multiple categories. Whether it’s direct procurement, like raw materials or indirect procurement like IT services, organizations gain full visibility into spending, contracts, and supplier performance. This helps reduce maverick spending and ensures compliance with procurement policies. </p>
 
               <h3 className="text-black pb-2   font-bold">2. Automated Workflows for Efficiency </h3>
@@ -322,16 +323,16 @@ export default function Page() {
 
               <p className="text-black pb-4">You can integrate risk management tools to assess supplier stability, geopolitical risks, and compliance issues with SAP Ariba. This ensures businesses can proactively address supply chain risks before they escalate, safeguarding both production and operational continuity. </p>
 
-                           <h3 className="text-black pb-2  font-bold">6. Seamless Integration with ERP and Other Systems </h3>
+              <h3 className="text-black pb-2  font-bold">6. Seamless Integration with ERP and Other Systems </h3>
 
               <p className="text-black pb-4">SAP Ariba integrates seamlessly with SAP S/4HANA, SAP ERP, and third-party business systems, enabling real-time data exchange. This ensures that procurement teams have access to up-to-date inventory levels, financial data, and supplier performance insights, leading to more informed decision-making. </p>
-          
+
               <h3 className="text-black pb-2  font-bold">7. Sustainable and Compliant Procurement </h3>
 
               <p className="text-black">SAP Ariba helps businesses adhere to environmental, social, and governance (ESG) standards by providing supplier sustainability ratings, ethical sourcing insights, and compliance tracking. This is particularly beneficial for direct procurement teams managing raw materials with environmental impacts and for indirect procurement teams selecting vendors with sustainable practices.  </p>
-     
+
               <div className="py-6"></div>
-                            <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Integrate the Ariba Procurement System to Revolutionize Purchasing Management  </h2>
+              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Integrate the Ariba Procurement System to Revolutionize Purchasing Management  </h2>
 
 
 
