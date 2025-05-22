@@ -140,11 +140,12 @@ const blogs = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-           {/* <Seo
-                title="How Does a Reasoning Engine Work in Agentforce? | Rialtes"
-                description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
+           <Seo
+                title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes
+"
+                description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
                 canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
-            /> */}
+            />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -253,19 +254,19 @@ export default function Page() {
               <p className="text-black pb-4">As a strategic purchasing management solution, procurement is structured around four core activities:<span className="font-bold"> Sourcing, Contract Management, Purchasing, and Accounts Payable.</span></p>
 
           <ul className="list-disc text-black pl-8 ">
-  <li className="pb-2">
-    <p>Sourcing focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain. </p>
-  </li>
-  <li className="pb-2">
-    <p>Contract management oversees the entire contract lifecycle, from initial drafting to termination. This includes continuous contract analysis to secure the best terms, as well as monitoring compliance from both parties. Effective contract management enhances financial and operational performance through well-structured agreements. </p>
-  </li>
-  <li className="pb-2">
-    <p>Purchasing encompasses all operational activities related to acquiring goods and services. This includes purchase requests, order processing, payment execution, and material receipt. Ensuring timely deliveries is a critical performance metric in this area. </p>
-  </li>
-<li >    
-    <p>Managing financial obligations to suppliers, particularly for credit-based purchases with predefined terms, is vital for financial stability. Closely integrated with purchasing, this function provides a comprehensive view of procurement expenses and helps identify cost-saving opportunities across the process. </p>
-</li>
-</ul>
+               <li className="pb-2">
+                  <p>Sourcing focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain. </p>
+             </li>
+               <li className="pb-2">
+                  <p>Contract management oversees the entire contract lifecycle, from initial drafting to termination. This includes continuous contract analysis to secure the best terms, as well as monitoring compliance from both parties. Effective contract management enhances financial and operational performance through well-structured agreements. </p>
+              </li>
+               <li className="pb-2">
+                  <p>Purchasing encompasses all operational activities related to acquiring goods and services. This includes purchase requests, order processing, payment execution, and material receipt. Ensuring timely deliveries is a critical performance metric in this area. </p>
+              </li>
+              <li >    
+                  <p>Managing financial obligations to suppliers, particularly for credit-based purchases with predefined terms, is vital for financial stability. Closely integrated with purchasing, this function provides a comprehensive view of procurement expenses and helps identify cost-saving opportunities across the process. </p>
+              </li>
+         </ul>
 
            <div className="py-6"></div>
 
@@ -308,7 +309,8 @@ export default function Page() {
 
               <p className="text-black pb-4">SAP Ariba integration revolutionizes procurement operations by digitizing and automating purchasing processes. This leads to reduced costs, improved supplier collaboration, and enhanced compliance. Whether managing raw material supplies or office purchases, SAP Ariba streamlines the entire process from requisition to payment, ensuring transparency and efficiency.  </p>
 
-              <p className="text-black">As an SAP Global Strategic Services Partner, Rialtes offers a range of services, including consulting, implementation, and support. We help reinvent your procurement operations and enhance decision-making through SAP Ariba solutions. </p>
+              <p className="text-black">As an <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog
+" target="_blank">SAP Global Strategic Services Partner</Link> , Rialtes offers a range of services, including consulting, implementation, and support. We help reinvent your procurement operations and enhance decision-making through SAP Ariba solutions. </p>
 
             </div>
           </div>
