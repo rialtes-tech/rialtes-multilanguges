@@ -6,6 +6,38 @@ import Link from "next/link";
 
 
 const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "SAP Ariba CIG Integration Webinar: ERP Flows, Simplified",
+    "description": "Discover how SAP Ariba Cloud Integration Gateway (CIG) connects your SAP ERP (S/4HANA) to the Ariba Network—streamlining integration, improving efficiency, and simplifying procurement transactions. A must-attend online webinar for ERP and SAP professionals.",
+    "url": "https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud",
+    "startDate": "2025-05-27T20:30:00+05:30",
+    "endDate": "2025-05-27T21:00:00+05:30",
+    "duration": "PT30M",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "performer": {
+        "@type": "Person",
+        "name": "Sapna Chauhan",
+        "jobTitle": "Software Engineer",
+        "url": "https://www.linkedin.com/in/sapna-chauhan-a85b32219/"
+    },
+    "image": "https://www.rialtes.com/images/webinar/Webinar_27%20May%2025_webinar%20Banner.webp",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Procurement Leaders, Sourcing Managers, IT Decision-Makers, SAP Consultants, ERP Professionals"
+    },
+    "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
+    },
+    "keywords": "sap ariba cig integration, S4HANA erp cloud, sap procurement webinar"
 }
 export default function () {
     const calculateTimeLeft = () => {
@@ -141,14 +173,14 @@ export default function () {
                         <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">
                             <h3 className="xl:text-[24px] text-[#0092E0]">Speaker</h3>
                             <h3 className="mt-3 xl:text-[29px] font-bold mb-3">Sapna Chauhan</h3>
-                            <h3 className="mt-[-10px] xl:text-[24px]">Associate Software Engineer</h3>
+                            <h3 className="mt-[-10px] xl:text-[24px]">Software Engineer - SAP</h3>
                         </div>
                     </div>
-                    <p className="mt-16 xl:pr-32">Join us for an exclusive webinar to explore how the Ariba Cloud Integration Gateway (CIG) seamlessly connects your SAP ERP (S/4HANA) with the Ariba Network. Discover how CIG centralizes and streamlines procurement transactions, simplifies integration management, and accelerates your journey to smarter, synchronized procurement operations..</p>
+                    <p className="mt-16 xl:pr-32">Join us for an exclusive webinar to explore how the Ariba Cloud Integration Gateway (CIG) seamlessly connects your SAP ERP (S/4HANA) with the Ariba Network. Discover how CIG centralizes and streamlines procurement transactions, simplifies integration management, and accelerates your journey to smarter, synchronized procurement operations.</p>
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
                     <ul className="list-disc marker:text-black text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium pr-24">
-                        <li className="pb-2 mt-5"><strong>Simplified Integration:</strong>How CIG bridges SAP ERP and Ariba effortlessly.</li>
-                        <li className="pb-2"><strong>CIG Architecture:</strong>Dive into key components and how they work together.</li>
+                        <li className="pb-2 mt-5"><strong>Simplified Integration:</strong> How CIG bridges SAP ERP and Ariba effortlessly.</li>
+                        <li className="pb-2"><strong>CIG Architecture:</strong> Dive into key components and how they work together.</li>
                         <li className="pb-2"><strong>Self-Service Portal:</strong>  Learn how to configure, test, and monitor integrations.</li>
                         <li className="pb-2"><strong>Real-World Use Cases: </strong> Practical examples of how organizations benefit from CIG.</li>
                         <li className="pb-2"><strong>Implementation Best Practices:</strong> Tips for faster deployment and effective error handling.</li>
