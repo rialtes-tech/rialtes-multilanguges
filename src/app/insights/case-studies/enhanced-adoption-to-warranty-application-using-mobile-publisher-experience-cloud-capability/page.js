@@ -121,7 +121,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">40% enhanced adoption to warranty application using mobile publisher experience cloud capability</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
