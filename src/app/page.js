@@ -108,7 +108,7 @@ const successStoryData = [
         title: 'Public Sector',
         description: 'A public housing in US',
         theme: "light",
-        url: '/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams journey-with-largest-pha-in-north-america'
+        url: '/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america'
     },
     {
         id: 5,
