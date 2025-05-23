@@ -6,6 +6,31 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"
+  },
+  "headline": "Discover AgentExchange by Salesforce",
+  "description": "AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.",
+  "image": "https://www.rialtes.com/images/blog/agentexchange-banner.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-05-22",
+  "dateModified": "2025-05-22"
+}
 const blogs = [
     {
         id: 1,
@@ -141,11 +166,14 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="How Does a Reasoning Engine Work in Agentforce? | Rialtes"
-                description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
-                canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
+                title="Why AgentExchange Is a Game-Changer | Rialtes"
+                description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
+                canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
             />
-
+    <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
                     src="/images/blog/blog-2-banner.webp "
@@ -249,7 +277,7 @@ export default function Page() {
                             </div>
 
 
-
+                          
 
 
 
@@ -259,9 +287,9 @@ export default function Page() {
 
                             <p className="text-black pb-4">As businesses increasingly integrate AI-driven agents into their customer service, sales, and operational workflows, the demand for a structured, reliable ecosystem has grown. With AgentExchange, Salesforce provides an intuitive platform for organizations.</p>
 
+                      
 
-
-                            <p className="text-black pb-4"><strong>Accelerate AI Adoption: </strong>Businesses can rapidly implement AI agents without extensive development efforts..</p>
+                            <p className="text-black pb-4"><strong>Accelerate AI Adoption: </strong>Businesses can rapidly implement AI agents without extensive development efforts.</p>
 
                             <p className="text-black pb-4"><strong>Ensure Compliance & Security:</strong> All agents available on AgentExchange undergo rigorous security assessments, ensuring compliance with industry standards.</p>
 
@@ -286,8 +314,8 @@ export default function Page() {
                             <p className="text-black ">4.  <strong>Agent Templates:</strong>Build comprehensive AI solutions by combining multiple topics, actions, and metadata into structured, scalable agent models.</p>
                             </div>
 
-
-
+                       
+                      
                             <h3 className="pb-4 mt-6 h3-bold">Seamless AI Solution Discovery and Deployment</h3>
 
                            <p className="text-black pb-4"> <strong>Easily Find, Try, and Buy AI Solutions:  </strong>AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.</p>
@@ -305,7 +333,10 @@ export default function Page() {
                             <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Industries and Departments That Can Benefit from AgentExchange</h2>
 
                             {/* <p className="text-black pb-4 font-bold">Real-Time Reasoning:</p> 
+
                             <p className="text-black pb-4">AgentExchange addresses various industry needs with targeted solutions. In sales and service, it offers DocuSign for document automation and Neuron7 for AI-driven customer service. For finance and HR, Workday automates tasks like onboarding. Productivity tools include Box for data management and Copado for Salesforce DevOps. Industry-specific solutions like Compliance Quest for healthcare and Thynk for hospitality further enhance applicability across sectors.</p>
+
+
                             {/* <p className="text-black pb-4 font-bold">AI-Powered Insights:</p> */}
 
                             <p className="text-black ">Sales teams can deploy AI-powered assistants to automate lead qualification and streamline deal progression, while customer service departments can leverage AI-driven support bots to resolve customer queries with greater efficiency. Marketing professionals can enhance customer engagement and personalize campaigns using intelligent AI agents, ensuring more targeted and effective outreach. Meanwhile, developers and AI practitioners can build, customize, and commercialize AI agents tailored to specific industry needs, driving innovation and scalability across various business functions.</p>
@@ -313,7 +344,7 @@ export default function Page() {
 
 
 
-
+                            
 
                             <div className="py-6"></div>
 

@@ -6,6 +6,9 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
+
+
+
 const blogs = [
   {
     id: 1,
@@ -253,7 +256,7 @@ export default function Page() {
 
               <h3 className="h3-bold text-[#0092E0] pb-4">What Agentforce 2.0 Brings to Slack?</h3>
 
-              <p className="text-black pb-4">The newly unveiled <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/how-agentforce-2-0-enhances-skills-with-seamless-slack-integration-and-advanced-ai-reasoning/"}><span className="font-bold">Salesforce Agentforce 2.0</span></Link>, built on the Salesforce Customer 360 platform, introduces a suite of powerful features to streamline workflows and boost service efficiency for organizations.</p>
+              <p className="text-black pb-4">The newly unveiled Salesforce Agentforce 2.0, built on the Salesforce Customer 360 platform, introduces a suite of powerful features to streamline workflows and boost service efficiency for organizations.</p>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
                 <li><span className="font-bold">Real-Time Conversational Support:</span> AI agents deliver instant responses, enhancing the speed and effectiveness of customer support.</li>

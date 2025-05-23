@@ -285,18 +285,21 @@ export default function DemandPlusSection() {
             title: "SAP S/4 HANA Integration with Mulesoft",
             description:
                 "Seamless ERP Integrations Across SAP, Oracle, and Kinaxis",
+            knowMore: '/solutions/integration/mulesoft-salesforce'
         },
         {
             id: 2,
             title: "Oracle EBS Integration",
             description:
                 "Extend Kinaxis planning to Oracle-based environments for hybrid ERP landscapes.",
+            knowMore: '/solutions/enterprise-platforms/oracle-ebs-consulting'
         },
         {
             id: 3,
             title: "SAP BTP",
             description:
                 "Unifying Planning and Production with Seamless ERP Integrations",
+            knowMore: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services'
         },
     ];
     return (
@@ -495,7 +498,7 @@ export default function DemandPlusSection() {
                     ].map((item, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-md p-8  text-black border border-black"
+                            className=" shadow-md p-8  text-black  border-black  border hover:bg-[#D9F2FF]  transition-all bg-white"
                         >
                             <p className="font-semibold xl:text-[24px] text-[20px]">{item}</p>
                         </div>
@@ -680,8 +683,8 @@ export default function DemandPlusSection() {
                     <div className="col-span-6 xl:bg-[#EAEAEA] xl:p-20 pt-8 xl:pr-[10rem] pr-10">
                         <h2 className="leading-tight">Seamless Integration with SAP, Oracle, and Non-SAP Systems</h2>
                         <h3 className="mt-10 xl:text-[42px] text-[22px] font-semibold">Integrate Kinaxis with Your Existing ERP Ecosystem</h3>
-                        <p className="mt-5 xl:pr-20 pr-10">Rialtes delivers robust integration services using SAP Cloud Platform Integration (SAP CPI) and Kinaxis-certified connectors:</p>
-                        <ul className="list-disc leading-normal xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-8  xl:pr-16">
+                        <p className="mt-5 xl:pr-20 pr-10 font-normal leading-tight">Rialtes delivers robust integration services using SAP Cloud Platform Integration (SAP CPI) and Kinaxis-certified connectors:</p>
+                        <ul className="list-disc leading-normal xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5  xl:pr-16">
                             <li>SAP S/4 HANA and ECC</li>
                             <li> Oracle EBS and Cloud ERP</li>
                             <li>Legacy and non-SAP systems</li>
@@ -694,7 +697,7 @@ export default function DemandPlusSection() {
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-80px] mt-10 mx-[35px] xl:mx-0">
                 <div className="col-span-6"></div>
                 <div className="col-span-5">
-                    <p className="xl:text-[26px] text-[18px] bg-[#163055] p-8 text-white font-normal">Our pre-built accelerators and custom APIs ensure real-time data flow for synchronized planning.</p>
+                    <p className="xl:text-[26px] text-[18px] bg-[#163055] p-8 text-white font-normal xl:pr-32 xl:pl-20">Our pre-built accelerators and custom APIs ensure real-time data flow for synchronized planning.</p>
 
                 </div>
                 <div className="col-span-1"></div>
@@ -718,7 +721,7 @@ export default function DemandPlusSection() {
                     </div>
 
                     <div className="xl:order-1 order-2 col-span-6">
-                        <div className="bg-[#006FBE] p-20 text-white xl:pb-32 pb-[20rem]">
+                        <div className="bg-[#006FBE] xl:p-20 p-10 text-white xl:pb-32 pb-[20rem]">
                             <h2 className="leading-tight">Rialtes’ Strong SAP BTP Competency</h2>
                             <h3 className="xl:text-[42px] text-[22px] mt-5">Extending S/4 HANA Value</h3>
                             <p className="mt-5 font-light leading-tight">
@@ -781,7 +784,15 @@ export default function DemandPlusSection() {
                         >
                             <h3 className="mb-8 text-[#0A6BB8] font-semibold leading-tight">{service.title}</h3>
                             <p className="text-[#000000] leading-tight xl:text-[24px] text-[16px]">{service.description}</p>
-                            <div className="xl:bottom-[30px] xl:absolute"><LearnMore /></div>
+                            <div className="xl:bottom-[30px] xl:absolute">
+
+                                <Link
+                                    href={service.knowMore}
+                                    className={`inline-block  xl:text-[20px] text-[16px] hover:bg-[#134874] bg-[#134874] border-[1px] border-[solid]  font-semibold text-white py-3 px-8 transition duration-300 mt-6`}
+                                >
+                                    Know More
+                                </Link>
+                            </div>
 
                         </div>
                     ))}
@@ -872,7 +883,7 @@ export default function DemandPlusSection() {
                                     href="/products/agentchat"
                                     className="xl:text-[20px] text-[16px] hover:bg-[#ffffff] bg-[#134874] hover:text-[#134874]   font-semibold text-white py-3 px-8 transition duration-300 mt-6"
                                 >
-                                    Learn More
+                                    Know More
                                 </Link>
                             </div>
 

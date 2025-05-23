@@ -139,7 +139,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <p className="mt-5 text-start flex px-[35px] xl:px-[280px]">©2025 Rialtes Technology, All rights reserved</p>
+        <p className="mt-5 text-start flex px-[35px] xl:px-[280px]">©2025 Rialtes , All rights reserved</p>
 
     
         {/* Scroll to Top Button */}

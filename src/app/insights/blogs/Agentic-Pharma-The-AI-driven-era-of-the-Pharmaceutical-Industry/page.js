@@ -6,6 +6,44 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
+const schemaData=
+{
+  
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry"
+  },
+  "headline": "Agentic Pharma – The AI-driven era of the Pharmaceutical Industry",
+  "description": "Discover how Agentic AI is transforming the pharmaceutical industry—from drug discovery to patient support programs—by enhancing compliance, efficiency, and patient outcomes.",
+  "image": "https://www.rialtes.com/images/blogs/agentic-pharma-ai.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-05-21",
+  "dateModified": "2025-05-21",
+  "keywords": [
+    "Agentic AI in pharma",
+    "AI in the pharmaceutical industry",
+    "Pharma AI applications",
+    "Pharma supply chain AI"
+  ],
+  "articleSection": "AI in Pharma",
+  "url": "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry"
+
+}
+
 const blogs = [
   {
     id: 1,
@@ -144,6 +182,10 @@ export default function Page() {
                 title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
                 description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
                 canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-aI-driven-era-of-the-pharmaceutical-industry/"}
+            />
+<script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
