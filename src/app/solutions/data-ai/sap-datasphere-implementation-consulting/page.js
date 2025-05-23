@@ -95,7 +95,6 @@ const BuildIntelligentSection = () => {
             <Seo
                 title="SAP Datasphere Implementation with AI Consulting Services | Rialtes"
                 description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
-
                 canonical={"https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"}
             />
             <section className="xl:ml-[280px] mr-0 bg-[#006FBE] xl:mt-[0px] mt-[0px]">

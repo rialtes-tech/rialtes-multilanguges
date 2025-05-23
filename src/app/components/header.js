@@ -112,7 +112,7 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: 'SAP SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
             { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-             { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
+            { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
 
           ],
         },
@@ -135,7 +135,7 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
           ],
         },
-         
+
       ],
     },
     {
@@ -335,16 +335,15 @@ const Header = () => {
   return (
     <section>
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
-      <div className="fixed w-full bg-white top-0 z-50 shadow-md lg:pr-0 md:pr-36 hidden xl:block md:block lg:block">
-        <div className="md:grid hidden relative bg-white my-auto mx-auto xl:gap-6 md:gap-4 container
-      ml-[200px] w-[calc(100%-200px)]  
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6 mr-6">
-          <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 md:pr-0 pr-6">
+      <div className="hidden lg:block fixed w-full bg-white top-0 z-50 shadow-md">
+
+        <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
+
+          {/* Logo */}
+          <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
             <Link href="/" passHref>
               <Image
-                className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
+                className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px]"
                 alt="Company logo"
                 width={0}
                 height={0}
@@ -356,14 +355,14 @@ const Header = () => {
             </Link>
           </div>
 
-
-          <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-6 md:gap-4 items-center text-nowrap">
+          {/* Menu Items */}
+          <div className="col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10 overflow-x-auto whitespace-nowrap flex items-center justify-end gap-2 md:gap-3 lg:gap-5 xl:gap-6 2xl:gap-8">
             <MenuItem
               label="Solutions"
               link="/"
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 1}
             />
             <MenuItem
@@ -372,7 +371,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
               isActive={activeCard === 2}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
 
             />
             <MenuItem
@@ -381,7 +380,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
               isActive={activeCard === 3}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
 
             />
             <MenuItem
@@ -390,7 +389,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(4)}
               onClick={() => handleMenuClick(4)}
               isActive={activeCard === 4}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
 
             />
             <MenuItem
@@ -398,7 +397,7 @@ const Header = () => {
               link="/about-us"
               onHover={() => handleMouseEnterCard(5)}
               onClick={() => handleMenuClick(5)}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 5}
             />
             <MenuItem
@@ -406,19 +405,19 @@ const Header = () => {
               link="/insights"
               onHover={() => handleMouseEnterCard(6)}
               onClick={() => handleMenuClick(6)}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 6}
             />
             <MenuItem
               label="Contact Us"
               link="/contact-us"
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 7}
             />
 
-            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+            {/* <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
               <Link href='/contact-us#section1'>Let's Begin</Link>
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -427,7 +426,7 @@ const Header = () => {
           {/* solutions Card */}
           {activeCard === 1 && (
             <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
-              <div className="grid grid-cols-12 xl:pl-[280px]  gap-3 md:mt-10 xl:mt-10 md:pl-[100px]">
+              <div className="grid grid-cols-12 custom-container gap-3 md:mt-10 xl:mt-10 ">
                 <div className="col-span-3 bg-[#deebf8] p-3 relative">
                   {/* Data & AI Section */}
                   <div
@@ -541,12 +540,8 @@ const Header = () => {
                           </div>
                         </div>
                       </div>
-
                     </div>
-
-
                   </div>
-
                 )}
 
 
@@ -692,8 +687,8 @@ const Header = () => {
           {/* Products Card */}
           {activeCard === 2 && (
             <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
-                <div className="col-span-3  p-3">
+              <div className="grid grid-cols-12 gap-5 xl:w-full md:gap-5 lg:gap-5  md:mt-10 xl:justify-between md:justify-center xl:mt-10 custom-container">
+                <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
                       className={`cursor-pointer font-bold ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
@@ -771,7 +766,7 @@ const Header = () => {
           {/* Services Card */}
           {activeCard === 3 && (
             <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 xl:pl-[280px] gap-5 xl:w-full lg:pl-[7.25rem] md:gap-5  lg:gap-5 md:pl-[100px] md:pr-2 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
+              <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-5 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
                 <div className="col-span-3 bg-[#deebf8] p-3">
                   <div
                     className={`cursor-pointer font-bold ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
@@ -810,11 +805,11 @@ const Header = () => {
                   >
                     Data and AI
                   </div>
-                    <div
+                  <div
                     className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligent")}
                   >
-                   Intelligent SCM
+                    Intelligent SCM
                   </div>
                 </div>
                 {openSectionbusiness === "businessTransform" && (
@@ -1055,7 +1050,7 @@ const Header = () => {
                     </div>
                   </div>
                 )}
-                 {openSectionbusiness === "intelligent" && (
+                {openSectionbusiness === "intelligent" && (
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
@@ -1086,7 +1081,7 @@ const Header = () => {
           {/* Industries Card */}
           {activeCard === 4 && (
             <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 xl:pl-[280px]  w-full lg:gap-5 xl:gap-[22px] md:gap-5  lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+              <div className="grid grid-cols-12 w-full lg:gap-5 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
                 <div className="col-span-3 bg-[#deebf8] p-3">
                   <div
                     className={`cursor-pointer mt-3 font-bold ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
@@ -1327,8 +1322,8 @@ const Header = () => {
           {/* about us Card */}
           {activeCard === 5 && (
             <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
-                <div className="col-span-3  p-3">
+              <div className="grid grid-cols-12 gap-3 custom-container md:mt-10 xl:mt-10">
+                <div className="col-span-3">
 
                   <div className="bg-[#deebf8] p-3">
                     <div
@@ -1393,7 +1388,7 @@ const Header = () => {
 
           {activeCard === 6 && (
             <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 gap-3 xl:pl-[280px] lg:pl-[7.25rem] md:pl-[100px] md:mt-10 xl:mt-10">
+              <div className="grid grid-cols-12 gap-3 custom-container md:mt-10 xl:mt-10">
                 <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
@@ -1447,7 +1442,8 @@ const Header = () => {
 
       {/* ///mobile menu */}
       <div>
-        <div className="xl:hidden md:block  flex justify-between items-center px-[35px] py-3" id="mobile-menu">
+        <div className="lg:hidden flex justify-between items-center px-[35px] py-3 bg-white w-full z-50 fixed top-0" id="mobile-menu">
+
           <Link href='/'>
             <Image
               loading="lazy"
