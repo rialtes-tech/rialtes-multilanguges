@@ -127,7 +127,7 @@ export default function Page() {
                     <div className="container mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
                             <div className='pb-6'>
-                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>26 Mar 2025
+                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>22 may 2025
                             </div>
                             <div className="flex flex-col">
                                 <span>8 min read</span>
@@ -187,19 +187,19 @@ export default function Page() {
                             <div className="py-6"></div>
                           <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Challenges</h2>
                             {/* <h6 className="h3-bold text-[#0092E0] text-sm">Complex Sales Process</h6> */}
-                            <p className="text-black pb-6 mt-2">The Customers of our client were having a hard time submitting warranty claims from their mobile devices, forcing them to rely on desktops, which was an inconvenient and frustrating process. The Customers had to seek additional support to complete their claims. The lack of mobile accessibility led to delays, inefficiencies, and increased support requests, ultimately reducing customer satisfaction and straining operations.</p>
+                            <p className="text-black pb-12">The Customers of our client were having a hard time submitting warranty claims from their mobile devices, forcing them to rely on desktops, which was an inconvenient and frustrating process. The Customers had to seek additional support to complete their claims. The lack of mobile accessibility led to delays, inefficiencies, and increased support requests, ultimately reducing customer satisfaction and straining operations.</p>
 
                       <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions</h2>
 
-                            <p className="text-black pb-6 mt-2">Rialtes stepped in to improve the warranty claims process by developing a mobile-first portal with Salesforce Experience Cloud.  Our team worked and designed a user-friendly interface specifically for Android, iOS, iPads, and tablets, making it easy for customers to submit claims anytime, from anywhere. </p>
+                            <p className="text-black pb-6 ">Rialtes stepped in to improve the warranty claims process by developing a mobile-first portal with Salesforce Experience Cloud.  Our team worked and designed a user-friendly interface specifically for Android, iOS, iPads, and tablets, making it easy for customers to submit claims anytime, from anywhere. </p>
 
-                             <p className="text-black pb-6 mt-2">We built the portal using Lightning Web Components (LWC) to ensure smooth navigation, fast performance, and a simple, touch-friendly design. This improved experience allows customers to complete warranty claims quickly and effortlessly. </p>
+                             <p className="text-black pb-6 ">We built the portal using Lightning Web Components (LWC) to ensure smooth navigation, fast performance, and a simple, touch-friendly design. This improved experience allows customers to complete warranty claims quickly and effortlessly. </p>
 
-                              <p className="text-black pb-6 mt-2">Our solution enhances customer satisfaction, streamlines operations, and ensures a modern, efficient claims experience across all mobile devices. </p>
+                              <p className="text-black pb-12 ">Our solution enhances customer satisfaction, streamlines operations, and ensures a modern, efficient claims experience across all mobile devices. </p>
 
                             <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
-                            <p className="text-black pb-6 mt-2">Now that the UI is mobile-friendly with improved user experience, it enables their customers to have seamless warranty claim submissions from Android, iOS, iPads, and tablets. With an intuitive design, they require less time in support. Faster processing times and greater accessibility allowed them to submit claims anytime, enhancing satisfaction and improving operational efficiency.</p>
+                            <p className="text-black pb-6 ">Now that the UI is mobile-friendly with improved user experience, it enables their customers to have seamless warranty claim submissions from Android, iOS, iPads, and tablets. With an intuitive design, they require less time in support. Faster processing times and greater accessibility allowed them to submit claims anytime, enhancing satisfaction and improving operational efficiency.</p>
 
                             {/* <h6 className="h3-bold text-[#0092E0] text-sm">Lack of ERP-Salesforce Integration Leading to Manual ERP Updating</h6>
 
