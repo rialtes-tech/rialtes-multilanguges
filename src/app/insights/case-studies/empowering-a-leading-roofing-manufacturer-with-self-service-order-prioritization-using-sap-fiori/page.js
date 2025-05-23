@@ -119,7 +119,7 @@ export default function Page() {
             >
                 <div className="py-10 bg-white">
                     <div className="container mx-auto">
-                        <h1 className="text-[#000000] py-6 max-w-4xl">Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori </h1>
+                        <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori </h1>
                     </div>
                     <div className="py-4"></div>
                     <div className="container mx-auto">
