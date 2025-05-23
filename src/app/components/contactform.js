@@ -64,7 +64,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             <form onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
                 <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
-                <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
+                <div className=' flex mt-5 gap-3 lg:flex-row flex-col'>
                     <input
                         id="first_name" maxLength="40" name="first_name" type="text" required
                         className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700  shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
