@@ -557,7 +557,7 @@ export default function Page() {
             <div className="grid xl:grid-cols-12 grid-cols-1  bg-white pt-10 xl:pb-32 pb-10 xl:gap-20">
 
               <div className="xl:col-span-6 col-span-12">
-                <h3 className="xl:text-[30px] xl:font-semibold font-medium  text-[21px]">SAP Cloud Platform Integration (CPI)</h3>
+                <h3 className="xl:text-[30px] xl:font-semibold font-medium  text-[22px] leading-tight">SAP Cloud Platform Integration (CPI)</h3>
 
                 <ul className="list-disc space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-5 leading-tight">
                   <li><span className="font-bold">Connect SAP S/4HANA with non-SAP apps </span>like Salesforce, ServiceNow, and legacy systems.</li>
@@ -598,7 +598,7 @@ export default function Page() {
             />
             <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:left-10">
               <div className="xl:col-span-7 col-span-12">
-                <h2 className="text-[26px] xl:text-[60px] text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight">Conversational AI with AgentChat — Transforming Customer Engagement</h2>
+                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight">Conversational AI with AgentChat — Transforming Customer Engagement</h2>
               </div>
               <div className="xl:col-span-6 col-span-12">
               </div>
