@@ -106,7 +106,7 @@ const successStoryData = [
         id: 4,
         imageUrl: '/images/homepage/realestate.webp',
         title: 'Public Sector',
-        description: 'A public housing in US',
+        description: 'YARDI Implementation and 5 Years of Successful AMS Journey with The Largest PHA in North America',
         theme: "light",
         url: '/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america'
     },
@@ -129,7 +129,7 @@ const successStoryData = [
         id: 7,
         imageUrl: '/images/homepage/realestate-2.webp',
         title: 'Real Estate',
-        description: 'RealForce Banking Module - ACH',
+        description: 'Automating ACH and Journal Entries with Our Exelona Banking Module',
         url: 'insights/case-studies/realForce-banking-module-ach',
         theme: "light",
 
