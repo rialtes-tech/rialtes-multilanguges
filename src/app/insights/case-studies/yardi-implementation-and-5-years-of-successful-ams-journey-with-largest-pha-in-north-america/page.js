@@ -60,10 +60,6 @@ const slides = [
 
 
 export default function Page() {
-
-  const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america";
-
-
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -109,10 +105,12 @@ export default function Page() {
             <div className="flex flex-row gap-6 ">
               <div className="max-w-[40px]">
                 <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.rialtes.com%2Finsights%2Fcase-studies%2Fyardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america&title=Yardi%20Implementation%20and%205%20Years%20of%20Successful%20AMS%20Journey%20with%20Largest%20PHA%20in%20North%20America&summary=Summary%20of%20the%20case%20study&source=LinkedIn"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+
+
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
@@ -158,53 +156,46 @@ export default function Page() {
             <div className="max-w-4xl">
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone. These programs include Section 8 vouchers, project-based housing, VASH programs, Section 3 programs, and others administered by the Department of Housing and Urban Development (HUD). </p>
-
+              <p className="text-black">A public housing authority responsible for managing and delivering affordable housing programs across multiple counties. Their services include Section 8 vouchers, project-based housing, VASH (Veterans Affairs Supportive Housing), Section 3 employment programs, and other HUD-administered initiatives designed to support low-income individuals and families.</p>
+              <p className="mt-5">Rialtes has been a trusted AMS partner of this authority for over 5 years, supporting their digital transformation and ensuring continuity, stability, and innovation across critical operations. This long-term collaboration reflects our commitment to public sector excellence.</p>
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
-
-              <p className="text-black pb-6">The public housing authority was struggling with an outdated software system called Tenmast. </p>
-
-              <p className="text-black pb-6">Non-responsive resident and applicant portals. </p>
-
-              <p className="text-black pb-6">Manual and paper-based application processes. </p>
-
-              <p className="text-black pb-6">The Tenmast system required a central administrator to install it on laptops. This made updates and maintenance complex and expensive. </p>
-
-              <p className="text-black">The system lacked automation, leading to manual processes and slow response times for applications. </p>
+              <h3 className="h3-bold text-[#0092E0] pb-6">Challenges</h3>
+              <p>The housing authority was operating with outdated legacy software (Tenmast) that created multiple operational inefficiencies and user experience challenges:</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
+                <li className="pb-4">Non-responsive portals for residents and applicants, hindering digital engagement.</li>
+                <li className="pb-4">Manual, paper-based application processes slow down approvals and increase administrative burden.</li>
+                <li className="pb-4">Centralized software installation, requiring an administrator to configure Tenmast on each laptop, makes system updates complex, slow, and costly.</li>
+                <li className="pb-4">Lack of automation leads to time-consuming manual workflows, delayed responses, and limited scalability.</li>
+              </ul>
 
               <div className="py-6"></div>
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
 
-              <p className="text-black pb-6">Rialtes implemented Yardi Voyager 7s, a comprehensive property management software solution. Yardi’s affordable housing module perfectly matched the public housing authority’s requirements. </p>
+              <p className="text-black pb-6">Rialtes partnered with the housing authority to lead a complete digital transformation by implementing Yardi Voyager 7S, a modern property management solution tailored for affordable housing operations.</p>
 
-              <p className="text-black pb-6">Rialtes collaborated with the Housing Authority to understand their current workflows for various programs and Tenmast’s architecture. An “as-is” to “to-be” document was created, outlining improvements and automation opportunities within the new Yardi system. </p>
-
-              <p className="text-black pb-6">The Yardi system was designed and implemented. </p>
-
-              <p className="text-black pb-6">We created a database of the Tenmast system and converted it into a custom SQL-based user interface. It was developed to extract data from Tenmast and convert it into a format compatible with Yardi. </p>
-
-              <p className="text-black pb-6">Rent Café, a resident portal solution, was created to provide a user-friendly self-service platform for applicants and residents. There was a real-time integration between Rent Café and Yardi to ensure a seamless data flow between the portal and backend office. </p>
-
-              <p className="text-black">A two-phase approach was implemented. First, a QA system was used for testing and data migration. Finally, the production system was launched with all functionalities available.</p>
-
+              <p className="text-black pb-6">Implementation Steps:</p>
+              <ul className="list-decimal marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4"> <strong>Collaborative Discovery: </strong> Conducted in-depth sessions with stakeholders to understand existing workflows and identify areas for automation and improvement. Developed an “as-is to to-be” process document to guide transformation.</li>
+                <li className="pb-4"><strong>Data Migration & Integration: </strong> Built an SQL-based interface to extract legacy data from Tenmast and convert it into a format compatible with Yardi, ensuring complete and accurate migration.</li>
+                <li className="pb-4"><strong>Resident Portal Deployment – Rent Café: </strong> Developed a user-friendly, self- service web portal (Rent Café) enabling residents and applicants to submit applications online, access status updates, and interact with housing staff, eliminating the need for paper forms or office visits.</li>
+                <li className="pb-4"><strong>Real-Time System Integration: </strong> Enabled seamless data synchronization between Rent Café and Yardi, ensuring up-to-date information across the resident portal and back-office operations.</li>
+                <li className="pb-4"><strong>Phased Rollout: </strong> Executed the project in two stages—first with a QA/test environment for validation and training, followed by a full-scale launch of the production system with complete functionality.</li>
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
-              <p className="text-black pb-6">Improved response time to applicants and residents </p>
-
-              <p className="text-black pb-6">Applicants can now submit applications online through the Rent Café portal, eliminating the need for paper applications and in-person visits. </p>
-
-              <p className="text-black pb-6">Automation within Yardi helps prioritize applications based on defined criteria, improving efficiency for staff.</p>
-
-              <p className="text-black pb-6">User-friendly reports and dashboards provide valuable insights for the public housing authority </p>
-
-              <p className="text-black">Overall, the Yardi implementation has led to increased productivity and efficiency for the public housing authority staff.</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4"> <strong>Faster Response Times: </strong> Digital application processes reduced response time to resident and applicant inquiries by up to 60%.</li>
+                <li className="pb-4"><strong>Improved Accessibility: </strong> Applicants can now submit applications online 24/7, increasing engagement and convenience, especially for those in remote or underserved areas.</li>
+                <li className="pb-4"><strong>Increased Operational Efficiency: </strong> Automated workflows in Yardi led to a 40% reduction in staff workload related to application processing and document handling.</li>
+                <li className="pb-4"><strong>Reduced Administrative Overhead: </strong> Paper usage dropped by 70%, and manual data entry tasks were reduced by over 50%, lowering processing errors and administrative costs</li>
+                <li className="pb-4"><strong>Enhanced User Experience: </strong> A responsive and intuitive portal interface improved satisfaction for both applicants and residents, reducing support</li>
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>
