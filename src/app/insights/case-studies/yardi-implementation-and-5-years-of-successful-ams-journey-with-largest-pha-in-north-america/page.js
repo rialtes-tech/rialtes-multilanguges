@@ -194,7 +194,7 @@ export default function Page() {
                 <li className="pb-4"><strong>Improved Accessibility: </strong> Applicants can now submit applications online 24/7, increasing engagement and convenience, especially for those in remote or underserved areas.</li>
                 <li className="pb-4"><strong>Increased Operational Efficiency: </strong> Automated workflows in Yardi led to a 40% reduction in staff workload related to application processing and document handling.</li>
                 <li className="pb-4"><strong>Reduced Administrative Overhead: </strong> Paper usage dropped by 70%, and manual data entry tasks were reduced by over 50%, lowering processing errors and administrative costs</li>
-                <li className="pb-4"><strong>Enhanced User Experience: </strong> A responsive and intuitive portal interface improved satisfaction for both applicants and residents, reducing support</li>
+                <li className="pb-4"><strong>Enhanced User Experience: </strong> A responsive and intuitive portal interface improved satisfaction for both applicants and residents, reducing support requests and office visits.</li>
               </ul>
             </div>
           </div>
