@@ -335,14 +335,15 @@ const Header = () => {
   return (
     <section>
       {/* <div className="hidden relative xl:pb-3 bg-white mt-auto mx-auto xl:gap-5  md:gap-2 pt-5  xl:pl-[260px] md:pl-[85px] top-0 z-50 items-center right-0 left-0 xl:grid lg:grid md:grid grid-cols-12"></div> */}
-      <div className="fixed w-full bg-white top-0 z-50 shadow-md lg:pr-0 md:pr-36 hidden xl:block md:block lg:block">
-        <div className="md:grid hidden relative bg-white my-auto xl:gap-6 md:gap-4 
-         custom-container
-        top-0 z-50 items-center right-0 left-0 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md:grid-cols-6 py-6 mr-6">
-          <div className="2xl:col-span-4 xl:col-span-2 lg:col-span-2 md:col-span-1 md:pr-0 pr-6">
+      <div className="hidden lg:block fixed w-full bg-white top-0 z-50 shadow-md">
+
+        <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
+
+          {/* Logo */}
+          <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
             <Link href="/" passHref>
               <Image
-                className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
+                className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px]"
                 alt="Company logo"
                 width={0}
                 height={0}
@@ -354,14 +355,14 @@ const Header = () => {
             </Link>
           </div>
 
-
-          <div className="2xl:col-span-8 xl:col-span-8 lg:col-span-6 md:col-span-5 flex 2xl:gap-8 xl:gap-6 md:gap-4 items-center text-nowrap">
+          {/* Menu Items */}
+          <div className="col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10 overflow-x-auto whitespace-nowrap flex items-center justify-end gap-2 md:gap-3 lg:gap-5 xl:gap-6 2xl:gap-8">
             <MenuItem
               label="Solutions"
               link="/"
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 1}
             />
             <MenuItem
@@ -370,7 +371,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
               isActive={activeCard === 2}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
 
             />
             <MenuItem
@@ -379,7 +380,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
               isActive={activeCard === 3}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
 
             />
             <MenuItem
@@ -388,7 +389,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(4)}
               onClick={() => handleMenuClick(4)}
               isActive={activeCard === 4}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
 
             />
             <MenuItem
@@ -396,7 +397,7 @@ const Header = () => {
               link="/about-us"
               onHover={() => handleMouseEnterCard(5)}
               onClick={() => handleMenuClick(5)}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 5}
             />
             <MenuItem
@@ -404,19 +405,19 @@ const Header = () => {
               link="/insights"
               onHover={() => handleMouseEnterCard(6)}
               onClick={() => handleMenuClick(6)}
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 6}
             />
             <MenuItem
               label="Contact Us"
               link="/contact-us"
-              className={`xl:font-bold font-normal`}
+              className={`md:font-bold font-normal`}
               isActive={activeCard === 7}
             />
 
-            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
+            {/* <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">
               <Link href='/contact-us#section1'>Let's Begin</Link>
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -1441,7 +1442,8 @@ const Header = () => {
 
       {/* ///mobile menu */}
       <div>
-        <div className="xl:hidden md:block  flex justify-between items-center px-[35px] py-3" id="mobile-menu">
+        <div className="lg:hidden flex justify-between items-center px-[35px] py-3 bg-white w-full z-50 fixed top-0" id="mobile-menu">
+
           <Link href='/'>
             <Image
               loading="lazy"
