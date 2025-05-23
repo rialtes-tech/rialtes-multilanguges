@@ -61,14 +61,14 @@ const slides = [
 
 export default function Page() {
 
-  const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams journey-with-largest-pha-in-north-america";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america";
 
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
         title="YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America"
-        canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams journey-with-largest-pha-in-north-america/"
+        canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
