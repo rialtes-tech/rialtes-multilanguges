@@ -121,7 +121,7 @@ export default function Page() {
 
                 <div className="py-10 bg-white">
                     <div className="container mx-auto">
-                        <h1 className="text-[#000000] py-6 max-w-4xl">Warranty Claim Submission Mobile/I-PAD Using Experience Cloud</h1>
+                        <h1 className="text-[#000000] py-6 max-w-4xl">Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities</h1>
                     </div>
                     <div className="py-4"></div>
                     <div className="container mx-auto">
@@ -199,7 +199,18 @@ export default function Page() {
 
                             <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
-                            <p className="text-black pb-6 mt-2">Now that the UI is mobile-friendly with improved user experience, it enables their customers to have seamless warranty claim submissions from Android, iOS, iPads, and tablets. With an intuitive design, they require less time in support. Faster processing times and greater accessibility allowed them to submit claims anytime, enhancing satisfaction and improving operational efficiency.</p>
+                      
+                              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                   <p  className="text-black pb-4"> <li>Enabled complete mobile compatibility, allowing customers to submit claims from smartphones and tablets without needing desktop access.</li></p>
+                   <p  className="text-black pb-4"> <li>Simplified user experience led to a 40% drop in support tickets related to warranty submissions.</li></p>
+                    <p  className="text-black pb-4"><li>Customers can now complete the warranty claim process in under 4 minutes, cutting down processing time by over 60%.</li></p>
+                   <p  className="text-black pb-4"> <li>The convenience of mobile access drove a 35% increase in submitted claims, showing higher engagement and usage.</li></p>
+                      <p  className="text-black pb-4"> <li>User feedback showed a 25% improvement in satisfaction scores, directly linked to faster processing and ease of access.</li></p>
+                           <p  className="text-black pb-4"> <li>Lower dependency on manual support freed up internal teams, reducing claim-handling time by half and improving response rates.</li></p>
+                
+              </ul>
+              
+
 
                             {/* <h6 className="h3-bold text-[#0092E0] text-sm">Lack of ERP-Salesforce Integration Leading to Manual ERP Updating</h6>
 
