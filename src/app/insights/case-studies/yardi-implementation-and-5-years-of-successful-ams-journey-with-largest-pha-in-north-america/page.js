@@ -89,7 +89,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">YARDI Implementation and 5 Years of Successful AMS Journey with The Largest PHA in North America</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
