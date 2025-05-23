@@ -61,14 +61,14 @@ const slides = [
 
 export default function Page() {
 
-  const fullUrl = "https://www.rialtes.com/insights/case-studies/a-public-housing-in-us";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams journey-with-largest-pha-in-north-america";
 
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="A Public Housing"
-        canonical="https://www.rialtes.com/insights/case-studies/a-public-housing-in-us/"
+        title="YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America"
+        canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams journey-with-largest-pha-in-north-america/"
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -93,7 +93,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">A public housing in US</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">

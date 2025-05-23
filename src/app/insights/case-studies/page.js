@@ -60,8 +60,8 @@ const latestCaseStudy = [
     image: "/images/case-studies/case-study-5_thumb.webp",
     industry: "Public Sector",
     date: "27 Sept 2024",
-    url: "/insights/case-studies/a-public-housing-in-us",
-    title: "A public housing in US",
+    url: "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+    title: "YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America",
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
