@@ -79,7 +79,7 @@ export default function () {
             <Seo
                 title="SAP RISE Webinar: Simplify Your SAP Journey with Voyager+ by Rialtes"
                 description="Join our SAP RISE webinar to explore Voyager+—a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation."
-                canonical="https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes"
+                canonical="https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes/"
             />
 
             <script

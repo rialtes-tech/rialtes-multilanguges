@@ -1,6 +1,5 @@
 "use client";
 // pages/case-study-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
@@ -89,13 +88,13 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">RealForce Banking Module - ACH</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Automating ACH and Journal Entries with Our Exelona Banking Module</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>23 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -116,7 +115,7 @@ export default function Page() {
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-2">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -141,7 +140,7 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -149,16 +148,27 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties. The firm offers acquisitions, investing, development, operational excellence, and property repositioning services. Their goal is to create thriving communities for residents while maximizing returns for their investment partners.</p>
+              <p className="text-black">A leading U.S.-based multifamily real estate investment firm focused on acquisitions, development, and operational excellence. With a portfolio of residential properties across the country, the firm’s mission is to build thriving communities for residents while driving strong returns for investors.</p>
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
-              <p className="text-black pb-6">The real estate firm relied on a legacy application built on a dark net (???) for ACH payments and journal entries.</p>
-              <p className="text-black pb-6">It relied on manual data entry for ACH transactions and journal entries and had inefficient bank reconciliation processes.</p>
-              <p className="text-black pb-6">This application was outdated, lacked user-friendliness, reporting, and security features.</p>
-              <p className="text-black">It wasn’t responsive and couldn’t handle future growth.</p>
+              <p className="text-black pb-6">The client was operating on a legacy banking application hosted in a non-standard, outdated environment (referred to as a "dark net" system), which presented several challenges:</p>
+              <ul className="list-decimal marker:text-[#0092E0] text-black pl-4 pb-6 font-medium">
+                <li className="pb-4"><strong>Manual Processes: </strong> Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li>
+                <li className="pb-4"><strong>Inefficient Reconciliation: </strong> Bank reconciliation was time-consuming and lacked visibility and automation.</li>
+                <li className="pb-4"><strong>Lack of Usability: </strong>The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li>
+                <li className="pb-4"><strong>Scalability Issues: </strong>The legacy platform was not responsive or scalable enough to support future growth or integrations.</li>
+              </ul>
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
-              <p className="text-black pb-6">Rialtes proposed to leverage Salesforce Einstein 1 to improve customer experience through a unified platform, improve user experience with a modern interface, consolidate applications and data as well as utilize its reporting, dashboards, and automation features. Rialtes implemented ACH functionality within Salesforce to automate the creation of pre-formatted ACH files for Bank of America and automatically generate journal entries in Excel format for the Yardi accounting system. We scheduled end-to-day upload of ACH files to Bank of America and integrated it with real-time accounting system for automatic journal entries.</p>
+              <p className="text-black pb-6">Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:</p>
+              <ul className="list-decimal marker:text-[#0092E0] text-black pl-4 pb-6 font-medium">
+                <li className="pb-4"><strong>ACH Automation: </strong> Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li>
+                <li className="pb-4"><strong>Automated Journal Entries: </strong> ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li>
+                <li className="pb-4"><strong>Scheduled File Transfers: </strong>Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention.  </li>
+                <li className="pb-4"><strong>Unified Platform: </strong>Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li>
+                <li className="pb-4"><strong>Real-Time Accounting Integration: </strong>Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li>
+
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>
@@ -166,14 +176,13 @@ export default function Page() {
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
               <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
-                <li className="pb-4">Improved user interface for efficient data entry and management. </li>
-                <li className="pb-4">Consolidated platform for future application integration and data management. </li>
-                <li className="pb-4">Powerful reporting and dashboards for financial insights. </li>
-                <li className="pb-4">Automated ACH processing and journal entry creation. </li>
-                <li className="pb-4">Streamlined bank reconciliation process (10x faster). </li>
-                <li className="pb-4">Reduced manual work and replaced a full-time resource. </li>
-                <li className="pb-4">Increased productivity for finance and accounts payable teams. </li>
-                <li>Real-time financial dashboards for better decision-making</li>
+                <li className="pb-4">Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li>
+                <li className="pb-4">Unified platform supports future integration of additional banking or financial tools.</li>
+                <li className="pb-4">Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.</li>
+                <li className="pb-4">Bank reconciliation time reduced from ~10 hours to under 1 hour per cycle, enabling quicker month-end closures.</li>
+                <li className="pb-4">Automation eliminated the need for a full-time resource previously dedicated to this process.</li>
+                <li className="pb-4">Finance and accounts payable teams can now process double the transaction volume in the same time. </li>
+                <li className="pb-4">Real-time dashboards and analytics empower better, faster financial decisions.</li>
               </ul>
             </div>
           </div>

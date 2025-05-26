@@ -1,5 +1,4 @@
 "use client";
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
@@ -34,7 +33,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "22 Dec 2024",
     url: "/insights/case-studies/realForce-banking-module-ach",
-    title: "RealForce Banking Module - ACH",
+    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
@@ -60,8 +59,8 @@ const latestCaseStudy = [
     image: "/images/case-studies/case-study-5_thumb.webp",
     industry: "Public Sector",
     date: "27 Sept 2024",
-    url: "/insights/case-studies/a-public-housing-in-us",
-    title: "A public housing in US",
+    url: "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+    title: "YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America",
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
@@ -70,7 +69,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "4 Sept 2024",
     url: "/insights/case-studies/yardi-managed-services",
-    title: "Yardi Managed Services",
+    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
