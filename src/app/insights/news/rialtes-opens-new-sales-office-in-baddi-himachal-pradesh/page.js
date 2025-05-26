@@ -62,6 +62,7 @@ export default function Page() {
                                             />
                                         </a>
                                     </div> */}
+                                    
                                     <div className="max-w-[40px]">
                                         <a href="https://x.com/Rialtestech">
                                             <Image
