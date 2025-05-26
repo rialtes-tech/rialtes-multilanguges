@@ -9,13 +9,7 @@ export default function Page() {
                 canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
             />
             <section
-                className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+                className="custom-container"
             >
 
                 <section className="relative  xl:h-[650px] overflow-hidden">
@@ -95,7 +89,7 @@ export default function Page() {
                     </div>
                     <div className="py-3"></div>
 
-                    <div className="container mx-auto ">
+                    <div className=" mx-auto ">
                         <div className="xl:w-[1084px]">
 
                             <p className="text-black  xl:text-[22px] text-[18px]">
