@@ -100,8 +100,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Rise with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
-                description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
+                title="Rise with SAP Services from a Trusted Implementation Partner | Rialtes"
+                description="Looking for a SAP Rise implementation partner you can trust? Rialtes’ Voyager+ delivers tailored rise with SAP services for smooth S/4HANA transformation."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
             />
@@ -139,7 +139,7 @@ export default function Page() {
 
 
                         <div className="w-full xl:w-1/2 lg:mt-[81px] lg:mb-[50px]">
-                            <h2 className="text-[26px] xl:text-[60px]">
+                            <h2 className="text-[26px] xl:text-[60px] xl:leading-tight">
                                 Why Choose RISE with SAP + Rialtes?
                             </h2>
                             <p className="mt-5 text-[16px] xl:text-[22px]">
@@ -150,16 +150,16 @@ export default function Page() {
                             </h3>
                             <ul className="list-disc space-y-5 mt-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl">
                                 <li>
-                                    <span className="font-bold">Simplify your SAP transformation</span> with an all-in-one approach.
+                                    <h4 className="font-bold">Simplify your SAP transformation <span className="font-normal">with an all-in-one approach.</span></h4>
                                 </li>
                                 <li>
-                                    <span className="font-bold">Accelerate cloud adoption</span> and reduce technical debt.
+                                    <h4 className="font-bold">Accelerate cloud adoption<span className="font-normal"> and reduce technical debt.</span> </h4 >
                                 </li>
                                 <li>
-                                    <span className="font-bold">Reimagine business processes</span> using SAP Signavio.
+                                    <h4 className="font-bold">Reimagine business processes <span className="font-normal"> using SAP Signavio.</span> </h4 >
                                 </li>
                                 <li>
-                                    <span className="font-bold">Leverage AI and automation</span> to optimize operations.
+                                    <h4 className="font-bold">Leverage AI and automation <span className="font-normal"> to optimize operations.</span> </h4 >
                                 </li>
                             </ul>
                         </div>
@@ -196,8 +196,8 @@ export default function Page() {
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[95x] mt-[48px] text-white">
                         <div className="xl:col-span-12 col-span-12">
-                            <h2 className="text-[26px] xl:text-[60px] w-[70%] lg:w-full">Greenfield and Brownfield: </h2>
-                            <h2 className=" text-[26px] xl:text-[60px] w-[70%] lg:w-full">Two Roads to SAP S/4HANA Success</h2>
+                            <h2 className="text-[26px] xl:text-[60px] xl:leading-tight w-[70%] lg:w-full">Greenfield and Brownfield:<br />
+                                Two Roads to SAP S/4HANA Success</h2>
                         </div>
                         <div className="xl:col-span-2 col-span-12">
                             {/* Empty space for larger screens */}
@@ -206,13 +206,13 @@ export default function Page() {
 
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:mt-[55px] mt-[28px] text-white bg-[#0C723F] lg:p-12 p-[25px]">
                         <div className="lg:col-span-7 col-span-12">
-                            <h2 className="xl:text-[45px] text-[22px] leading-tight font-medium lg:w-[90%]">
+                            <h2 className="xl:text-[45px] text-[26px] leading-tight font-medium xl:w-[90%] lg:w-[70%]">
                                 Greenfield Implementation-Reimagine from Ground Up
                             </h2>
                         </div>
 
                         <div className="lg:col-span-4 col-span-12">
-                            <p className="lg:text-[22px] mt-[16px] lg:mt-0">For organizations looking to rebuild business processes and start fresh on SAP S/4HANA, Greenfield is the right approach.</p>
+                            <p className="xl:text-[22px] mt-[16px] lg:mt-0">For organizations looking to rebuild business processes and start fresh on SAP S/4HANA, Greenfield is the right approach.</p>
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-12 grid-cols-1 bg-white lg:pt-[40px] lg:px-[60px] lg:pb-[109px] px-[26px] pt-[28px] pb-[80px]">
@@ -221,26 +221,26 @@ export default function Page() {
                             <h3 className="xl:text-[30px] font-bold">Our Greenfield Approach Includes:</h3>
 
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px]  xl:mt-[37px] mt-[19px] lg:mr-[20px]">
-                                <li><span className="font-bold">Vision and Strategy Alignment — </span>Define business goals and digital vision.</li>
-                                <li><span className="font-bold">Process Reimagination with SAP Best Practices and Signavio — </span>Redesign processes to leverage the latest innovations.</li>
-                                <li><span className="font-bold">Solution Design and Prototyping —</span> Develop future-state architecture and rapid prototyping.</li>
-                                <li><span className="font-bold">  SAP S/4HANA Cloud Configuration — </span> Build system aligned with fit-to-standard and tailored needs.</li>
+                                <li><h4 className="font-bold inline">Vision and Strategy Alignment — </h4>Define business goals and digital vision.</li>
+                                <li><h4 className="font-bold inline">Process Reimagination with SAP Best Practices and Signavio — </h4>Redesign processes to leverage the latest innovations.</li>
+                                <li><h4 className="font-bold inline">Solution Design and Prototyping —</h4> Develop future-state architecture and rapid prototyping.</li>
+                                <li><h4 className="font-bold inline">  SAP S/4HANA Cloud Configuration — </h4> Build system aligned with fit-to-standard and tailored needs.</li>
                             </ul>
                         </div>
 
                         <div className="lg:col-span-6 col-span-12 lg:mt-12">
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] lg:mt-[37px] mt-[19px] lg:ml-[20px]">
-                                <li><span className="font-bold"> Data Strategy and Clean Migration — </span>Ensure accurate, clean data migration from legacy platforms.</li>
-                                <li><span className="font-bold">Integration Framework Design with SAP BTP and CPI — </span>Plan integrations with internal and external systems.</li>
-                                <li><span className="font-bold"> User Training and Change Management — </span>Drive adoption and organizational readiness.</li>
-                                <li><span className="font-bold">Go-Live and Hypercare Support — </span>Smooth transition with strong post-go-live governance.</li>
+                                <li><h4 className="font-bold inline"> Data Strategy and Clean Migration — </h4>Ensure accurate, clean data migration from legacy platforms.</li>
+                                <li><h4 className="font-bold inline">Integration Framework Design with SAP BTP and CPI — </h4>Plan integrations with internal and external systems.</li>
+                                <li><h4 className="font-bold inline"> User Training and Change Management — </h4>Drive adoption and organizational readiness.</li>
+                                <li><h4 className="font-bold inline">Go-Live and Hypercare Support — </h4>Smooth transition with strong post-go-live governance.</li>
                             </ul>
                         </div>
                     </div>
                     <p className="xl:text-[26px] bg-[#0C8AD4] p-5 pl-10 text-white  xl:w-[93%] mt-[-50px] xl:ml-[50px]">Best for companies aiming for next-gen processes and cloud-first ERP.</p>
                     <div className="grid lg:grid-cols-12 grid-cols-1  mt-20 text-white bg-[#713A18] lg:p-12 p-[25px]">
                         <div className="lg:col-span-7 col-span-12">
-                            <h2 className="lg:text-[45px] text-[25px] font-medium  leading-tight lg:w-[90%] xl:w-full">
+                            <h2 className="xl:text-[45px] text-[26px] font-medium leading-tight xl:w-[90%] lg:w-[70%]">
                                 Brownfield Implementation- Seamless System Conversion
                             </h2>
                         </div>
@@ -255,17 +255,17 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12">
                             <h3 className="xl:text-[30px] font-bold">Our Brownfield Expertise Covers:</h3>
                             <ul className="list-disc space-y-5  marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-[37px] mt-[19px]">
-                                <li><span className="font-bold">System Landscape and Fit Assessment — </span>Evaluate existing ECC setup and assess conversion readiness.</li>
-                                <li><span className="font-bold">Custom Code and Data Analysis — </span> Review, simplify, and adapt custom developments.</li>
-                                <li><span className="font-bold">Technical System Conversion — </span> Execute SAP S/4HANA conversion using SAP-certified tools.</li>
+                                <li><h4 className="font-bold inline">System Landscape and Fit Assessment — </h4>Evaluate existing ECC setup and assess conversion readiness.</li>
+                                <li><h4 className="font-bold inline">Custom Code and Data Analysis — </h4> Review, simplify, and adapt custom developments.</li>
+                                <li><h4 className="font-bold inline">Technical System Conversion — </h4> Execute SAP S/4HANA conversion using SAP-certified tools.</li>
                             </ul>
                         </div>
 
                         <div className="lg:col-span-6 col-span-12 lg:mt-12">
                             <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] lg:mt-[37px] mt-[19px] lg:ml-[20px]">
-                                <li><span className="font-bold"> Data Transformation and Validation — </span>Migrate high-integrity data with minimal disruption.</li>
-                                <li><span className="font-bold">Functional Testing and Optimization — </span>Ensure system alignment and performance.</li>
-                                <li><span className="font-bold"> Post-Go-Live Optimization and Support — </span>Fine-tune processes and system behaviour post-migration.</li>
+                                <li><span className="font-bold inline"> Data Transformation and Validation — </span>Migrate high-integrity data with minimal disruption.</li>
+                                <li><span className="font-bold inline">Functional Testing and Optimization — </span>Ensure system alignment and performance.</li>
+                                <li><span className="font-bold inline"> Post-Go-Live Optimization and Support — </span>Fine-tune processes and system behaviour post-migration.</li>
                             </ul>
                         </div>
                     </div>
@@ -297,14 +297,14 @@ export default function Page() {
                 </div>
             </div>
             <div className="custom-container">
-                <h2 className="xl:text-[30px] text-[18px] font-bold xl:mt-[86px] mt-[32px] w-[80%] lg:w-full">Our Activate-Based Delivery Model:</h2>
+                <h3 className="xl:text-[30px] text-[18px] font-bold xl:mt-[86px] mt-[32px] w-[80%] lg:w-full">Our Activate-Based Delivery Model:</h3>
 
                 <div className="overflow-x-auto xl:mt-[36px] mt-[39px]">
                     <table className="w-full border-collapse">
                         <thead>
                             <tr className="bg-[#D0EEFF] text-left">
-                                <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] text-[16px] md:text-[30px] font-bold">Phase</th>
-                                <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] text-[16px] md:text-[30px] font-bold">Description</th>
+                                <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] text-[16px] xl:text-[30px] font-bold">Phase</th>
+                                <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] text-[16px] xl:text-[30px] font-bold">Description</th>
                             </tr>
                         </thead>
                         <tbody className="divide-y">
@@ -318,8 +318,8 @@ export default function Page() {
 
                             ].map((item, index) => (
                                 <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
-                                    <td className="xl:py-[30px] xl:px-[30px] px-[30px] py-[18px] text-[16px] md:text-[26px]">{item.title}</td>
-                                    <td className="xl:py-[30px] xl:px-[30px] px-[30px] py-[18px] text-[16px] md:text-[26px]">{item.desc}</td>
+                                    <td className="xl:py-[30px] xl:px-[30px] px-[30px] py-[18px] text-[16px] xl:text-[26px]">{item.title}</td>
+                                    <td className="xl:py-[30px] xl:px-[30px] px-[30px] py-[18px] text-[16px] xl:text-[26px]">{item.desc}</td>
                                 </tr>
                             ))}
                         </tbody>
@@ -329,11 +329,11 @@ export default function Page() {
 
             <div className="relative">
                 <div
-                    className="absolute left-0 right-0 xl:mt-[74px] lg:mt-[40px] mt-[104px] sm:mt-[50px] md:mt-[62px]"
+                    className="absolute left-0 right-0 xl:mt-[74px] lg:mt-[95px] mt-[104px] sm:mt-[50px] md:mt-[62px]"
                 >
                     <div className="custom-container">
                         <div className="grid lg:grid-cols-12 grid-cols-1 bg-[#068EDA] lg:gap-8">
-                            <div className="xl:col-span-4 lg:col-span-5 col-span-12 lg:pl-10 px-4">
+                            <div className="xl:col-span-4 lg:col-span-4 col-span-12 lg:pl-10 md:px-4">
                                 <Image
                                     src="/images/services/rise-with-sap/SAP Signavio.webp"
                                     alt="SAP Partner Logo"
@@ -343,8 +343,8 @@ export default function Page() {
                                     priority
                                 />
                             </div>
-                            <div className="xl:col-span-8  lg:col-span-7 col-span-12 text-white p-[24px] lg:py-[19px]">
-                                <p className="lg:text-[26px] text-[16px] font-normal">
+                            <div className="xl:col-span-8 lg:col-span-8 col-span-12 text-white p-[24px] lg:py-[19px]">
+                                <p className="xl:text-[26px] text-[16px] font-normal">
                                     By embedding SAP Signavio into Explore and Realize phases, we optimize processes and ensure business alignment, driving higher user adoption and system value.
                                 </p>
                             </div>
@@ -354,13 +354,13 @@ export default function Page() {
             </div>
 
             {/* extending section */}
-            <div className="bg-[#DBDBDB] lg:py-[132px] lg:mt-[153px] mt-[400px] md:mt-[320px] pt-[45px] pb-[73px]">
+            <div className="bg-[#DBDBDB] lg:py-[102px] lg:pb-[132px] lg:mt-[153px] mt-[400px] md:mt-[320px] pt-[45px] pb-[73px]">
                 <div
                     className="custom-container text-black">
 
                     <div className="grid lg:grid-cols-12 grid-cols-1">
                         <div className="lg:col-span-8 lg:mt-16 mt-5">
-                            <h2 className="text-[25px] lg:text-[60px]">Extending Value: Rialtes’ BTP and Integration Expertise</h2>
+                            <h2 className="text-[25px] xl:text-[60px] xl:leading-tight">Extending Value: Rialtes’ BTP and Integration Expertise</h2>
                         </div>
                         <div className="lg:col-span-4 col-span-12">
                         </div>
@@ -368,9 +368,9 @@ export default function Page() {
 
                     <div className="grid lg:grid-cols-12 grid-cols-1 mt-10 gap-5">
                         <div className="lg:col-span-5 col-span-12">
-                            <h3 className="lg:text-[30px] font-bold text-[18px]">BTP Competency for Tailored Solutions</h3>
-                            <p className="mt-5 lg:text-[22px] text-[16px]">Our certified SAP Business Technology Platform (BTP) experts enable advanced extensions, workflows, and integrations to customize and future-proof SAP S/4HANA solutions.</p>
-                            <ul className="list-disc space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 lg:text-[20px] text-[16px]">
+                            <h3 className="xl:text-[30px] font-bold text-[18px]">BTP Competency for Tailored Solutions</h3>
+                            <p className="mt-5 xl:text-[22px] text-[16px]">Our certified SAP Business Technology Platform (BTP) experts enable advanced extensions, workflows, and integrations to customize and future-proof SAP S/4HANA solutions.</p>
+                            <ul className="list-disc space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px]">
                                 <li className="mt-4">Custom App Development and Extensions</li>
                                 <li>Process Automation with SAP Build</li>
                                 <li>Analytics and Data Intelligence</li>
@@ -380,8 +380,8 @@ export default function Page() {
                         <div className="lg:col-span-1 col-span-12">
                         </div>
                         <div className="lg:col-span-5 col-span-12">
-                            <h3 className="lg:text-[30px] font-bold text-[18px]">SAP CPI for Enterprise-Grade Integration</h3>
-                            <p className="mt-5 lg:text-[22px] text-[16px]">We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.</p>
+                            <h3 className="xl:text-[30px] font-bold text-[18px]">SAP CPI for Enterprise-Grade Integration</h3>
+                            <p className="mt-5 xl:text-[22px] text-[16px]">We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.</p>
 
                         </div>
                     </div>
@@ -453,7 +453,7 @@ export default function Page() {
 
                         <div className="grid xl:grid-cols-12 grid-cols-1 relative xl:absolute xl:top-0 xl:left-0 w-full">
                             <div className="xl:col-span-5 col-span-12 xl:w-[720px] xl:h-[360px]">
-                                <h2 className="text-[25px] xl:text-[50px] bg-white text-black xl:p-12 p-5 xl:mt-0">
+                                <h2 className="text-[25px] xl:text-[50px] xl:leading-tight bg-white text-black xl:p-12 p-5 xl:mt-0">
                                     Conversational AI with AgentChat — WhatsApp Business, Made for SAP and Salesforce
                                 </h2>
                             </div>
@@ -463,7 +463,7 @@ export default function Page() {
 
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:mt-[60px] mt-[28px]">
                         <div className="xl:col-span-4 col-span-12">
-                            <h2 className="xl:text-[40px] font-bold text-[20px] leading-[24px] xl:leading-[49px] w-[80%] lg:w-full">Transform Customer and Supplier Engagement with AgentChat</h2>
+                            <h3 className="xl:text-[40px] font-bold text-[20px] leading-[24px] xl:leading-[49px] w-[80%] lg:w-full">Transform Customer and Supplier Engagement with AgentChat</h3>
                             <p className="xl:text-[22px] font-normal text-[16px] leading-[22px] xl:leading-[30px] xl:mt-[30px] mt-[21px] w-[90%] lg:w-full">
                                 AgentChat is a bi-directional WhatsApp conversational app built within Salesforce, designed to integrate seamlessly with SAP S/4HANA and Salesforce Clouds.
                             </p>
@@ -474,7 +474,7 @@ export default function Page() {
                         <div className="xl:col-span-1 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12 mt-[36px] xl:mt-0">
-                            <h3 className="xl:text-[30px] font-bold">Key Features:</h3>
+                            <h3 className="xl:text-[30px] text-[26px] font-bold">Key Features:</h3>
                             <ul className="list-disc space-y-5 xl:text-[20px] pl-5 marker:font-bold marker:text-2xl">
                                 <li className="mt-5"><span className="font-bold">Quick Setup — </span> Go live in minutes.</li>
                                 <li><span className="font-bold"> Enterprise-Grade Security & Role Management — </span> Supports multiple roles and secure access.</li>
