@@ -158,21 +158,6 @@ export default function Page() {
           <p className="text-[#000000] py-6 max-w-4xl  xl:text-[20px] text-[18px]">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
         </div>
       </section>
-
-      {/* Latest news */}
-      {/* <div
-        className="
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
-        <FeaturedCarousel />
- 
-      </div> */}
-
-      {/* Latest news Section */}
       <div
         className="custom-container">
         <section className="xl:pb-32  pt-10  pb-16  bg-white xl:pr-[142px]">
