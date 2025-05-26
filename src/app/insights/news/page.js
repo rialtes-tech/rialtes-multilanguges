@@ -33,6 +33,7 @@ const latestCaseStudy = [
     url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
     title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
   },
+   
  
   // {
   //   id: 3,
@@ -155,13 +156,15 @@ export default function Page() {
                 canonical="https://www.rialtes.com/insights/news/"
             />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden"> */}
+      <section className="relative w-full h-[180px]  sm:h-[300px] md:h-[400px] lg:h-[650] overflow-hidden">
         <Image
           src="/images/news/news header.webp"
           alt="Case Study"
           fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "center" }}
           priority
+          className="w-full"
         />
         <div
           className="
@@ -183,16 +186,11 @@ export default function Page() {
 
       <section
         className="
-        container
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-6 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
+   px-4 sm:px-5 md:ml-[100px] md:mr-0 md:w-[calc(100%-100px)] xl:ml-[280px] xl:w-[calc(100%-280px)]"
       >
 
         <div className="md:py-10 py-6 bg-white">
-          <div className="container mx-auto">
+          <div className="">
             <p className="text-[#000000] py-6 max-w-4xl  xl:text-[20px] text-[18px]">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
           </div>
         </div>
@@ -215,15 +213,17 @@ export default function Page() {
       {/* Latest news Section */}
       <div
         className="
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
+     
+      px-4 sm:px-5
+       md:ml-[100px] md:mr-0 md:w-[calc(100%-100px)] 
+      xl:ml-[280px] xl:w-[calc(100%-280px)]
+          
+      "
       >
         <section className="xl:pb-32  pt-10  pb-16  bg-white xl:pr-[142px]">
 
           <CaseStudy />
+
 
         </section>
       </div>

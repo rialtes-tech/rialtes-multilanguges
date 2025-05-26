@@ -4,7 +4,7 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
 
-const schemaData=
+const schemaData =
 {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -91,14 +91,13 @@ export default function Page() {
     <div className="min-h-screen bg-white">
       <Seo
         title="Salesforce Experience Cloud for Roofing Manufacturer | Rialtes"
-        description="Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.
-"
-        canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud/"
+        description="Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
+        canonical="https://www.rialtes.com/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability/"
       />
-             <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -122,13 +121,13 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">40% enhanced adoption to warranty application using mobile publisher experience cloud capability</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>23 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -137,7 +136,13 @@ export default function Page() {
             <div className="pt-4"></div>
             <div className="flex flex-row gap-6 ">
               <div className="max-w-[40px]">
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-3&title=Streamlined DevOps using Copado and Salesforce&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
+
+                <a
+                  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frialtes.netlify.app%2Finsights%2Fcase-studies%2Fenhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability&title=40%25%20Enhanced%20Adoption%20to%20Warranty%20Application%20Using%20Mobile%20Publisher%20Experience%20Cloud%20Capability&summary=Summary%20of%20the%20case%20study&source=LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
@@ -149,7 +154,7 @@ export default function Page() {
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-3">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -161,8 +166,8 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
-              <div className="max-w-[40px]">
+              </div> */}
+              {/* <div className="max-w-[40px]">
                 <a href="https://twitter.com/intent/tweet?url=/case-study-3&text=Streamlined DevOps using Copado and Salesforce">
                   <Image
                     src="/images/case-studies/twitter.svg"
@@ -174,7 +179,7 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -185,7 +190,7 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Client Profile</h2>
               <p className="text-black">A top manufacturer of roofing products known for innovation and quality. With decades of experience, they specialize in asphalt shingles, roofing accessories, waterproofing solutions, and underlayments for both residential and commercial use. Committed to sustainability, they invest in advanced manufacturing technologies and maintain a broad distribution network, ensuring that builders, contractors, and homeowners have access to premium roofing solutions.</p>
-            
+
               <div className="py-6"></div>
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Challenges </h2>
               <p className="text-black ">The client needed a structured warranty claim submission process, as no system was in place. They required a user-friendly portal integrated with Salesforce to streamline claim submissions while ensuring accurate address validation. Additionally, the absence of automation for notifications and seamless data integration with SAP and other ERP systems led to inefficiencies in claim tracking and management.</p>
@@ -197,14 +202,21 @@ export default function Page() {
               <p className="text-black pb-6">Carried out automated workflows that eliminated manual intervention, enabling seamless claim handling. Real-time email and SMS notifications kept customers informed about their claim status, enhancing transparency. </p>
 
               <p className="text-black">Additionally, we established SAP and ERP integrations for smooth data exchange, reducing manual effort and significantly improving claim processing efficiency.</p>
-          
+
               <div className="py-6"></div>
 
-                <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Benefits</h2>
-               <p className="text-black">This intuitive web portal streamlined warranty claim submissions, minimizing errors and enhancing the user experience. Built-in address validation ensured data accuracy, preventing processing delays. Automated notifications kept users informed at every step, while seamless SAP and ERP integration enabled real-time data synchronization. With a modern LWC-based UI, accessibility was improved, and process automation reduced manual workload and boosted efficiency for better decision-making.</p>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Benefits</h2>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4">Reduced claim submission time by 60%, allowing customers to complete requests in under 5 minutes through the intuitive web portal.</li>
+                <li className="pb-4">Address validation via Google API reduced incorrect or incomplete address entries by over 85%, eliminating delays caused by manual corrections.</li>
+                <li className="pb-4">Automated workflows decreased manual processing, freeing up internal teams to focus on more strategic tasks.</li>
+                <li className="pb-4">Real-time SMS and email alerts cut down customer follow-ups by 40%, improving transparency and customer satisfaction.</li>
+                <li className="pb-4">Seamless data sync with SAP and ERP systems enabled near real-time tracking of warranty claims, boosting processing accuracy and cutting claim resolution time by half.</li>
+                <li className="pb-4">A modern LWC-based UI improved user accessibility and reduced training time for internal users by 30%.</li>
+              </ul>
 
             </div>
-          </div>    
+          </div>
           <div className="py-6"></div>
         </div>
       </section>

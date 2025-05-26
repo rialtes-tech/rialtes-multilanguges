@@ -33,7 +33,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "22 Dec 2024",
     url: "/insights/case-studies/realForce-banking-module-ach",
-    title: "RealForce Banking Module - ACH",
+    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
@@ -69,7 +69,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "4 Sept 2024",
     url: "/insights/case-studies/yardi-managed-services",
-    title: "Yardi Managed Services",
+    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {

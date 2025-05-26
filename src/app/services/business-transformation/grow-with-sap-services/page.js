@@ -530,7 +530,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="relative xl:mt-[-380px] z-20 mx-[35px]  custom-container xl:mr-[420px] mt-[-5rem]">
+        <div className="relative xl:mt-[-300px] z-20 mx-[35px]  custom-container xl:mr-[420px] mt-[-5rem]">
           <div className="xl:col-span-9 col-span-12 flex xl:flex-row flex-col gap-5">
             <div className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border pb-16">
               <h3 className="xl:text-[30px] font-semibold text-[22px] leading-tight">SAP SuccessFactors + S/4HANA Cloud</h3>
@@ -584,7 +584,7 @@ export default function Page() {
 
       <div className="bg-[#184671] xl:pb-20 pb-10 xl:mt-32 mt-10">
         <div
-          className="xl:container
+          className="
                   h-full relative
                  custom-container">
           <div className="relative xl:h-[665px] h-[341px]">
