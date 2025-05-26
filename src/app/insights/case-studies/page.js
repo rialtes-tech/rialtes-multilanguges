@@ -33,7 +33,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "22 Dec 2024",
     url: "/insights/case-studies/realForce-banking-module-ach",
-    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
