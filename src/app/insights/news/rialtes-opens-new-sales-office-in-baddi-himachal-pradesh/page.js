@@ -11,13 +11,7 @@ export default function Page() {
             />
 
             <section
-                className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+                className="custom-container lg:!pr-0"
             >
 
                 <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -87,8 +81,8 @@ export default function Page() {
                     </div>
                     <div className="py-3"></div>
 
-                    <div className="container mx-auto ">
-                        <div className="xl:w-[1084px]">
+                    <div className="">
+                        <div className="">
 
                             <p className="text-black  xl:text-[22px] text-[18px]"><span className="font-bold">Baddi, Himachal Pradesh – April 3, 2025 – </span>Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales Office in Baddi, Himachal Pradesh, marking a significant step in the company’s expansion strategy. The new office aims to strengthen its presence in the northern part of India, while exploring the immense potential of the region's manufacturing sector.</p>
 
