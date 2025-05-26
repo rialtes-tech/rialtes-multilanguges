@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { memo, useEffect, useState } from "react";
-
 export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtColor }) => {
     return (
         <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -17,7 +16,7 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
                     className="transform transition-transform duration-500 group-hover:scale-110"
                 />
             </div>
-
+ 
             {/* Mobile Image */}
             <div className="block lg:hidden">
                 <Image
@@ -27,7 +26,7 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
                     priority
                 />
             </div>
-
+ 
             <div className="relative h-full custom-container flex items-center">
                 <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                     <div className="col-span-12 xl:col-span-7 lg:col-span-9">
@@ -50,12 +49,12 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
                             />
                         }
                     </div>
-
+ 
                     <div className="col-span-12 lg:col-span-3 xl:col-span-5">
                     </div>
                 </div>
             </div>
         </section>
-
+ 
     )
 }
