@@ -16,9 +16,9 @@ export default function Page() {
                 canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
                 description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
             />
-            <section>
+            <section className="custom-container ">
 
-                <section className="relative overflow-hidden custom-container lg:!pr-0">
+                <section className="relative overflow-hidden  lg:!pr-0">
                     <div className="xl:block hidden">
 
                         <Image
@@ -45,7 +45,7 @@ export default function Page() {
 
 
                 </section>
-                <div className="pt-10 pb-24 bg-white  custom-container">
+                <div className="pt-10 pb-24 bg-white  ">
                     <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
                             <div className='sm:mb-0 mb-6'>
