@@ -143,14 +143,14 @@ export default function DataCloud() {
         >
           <div className="grid xl:grid-cols-12 grid-cols-1  mt-20">
             <div className="xl:col-span-5"></div>
-            <div className="xl:col-span-6 col-span-12 xs:pl-[8rem] xl:pl-0 md:pl-[18rem]">
+            <div className="xl:col-span-6 col-span-12 xs:pl-[10rem] xl:pl-0 md:pl-[18rem]">
                <h3 className="xl:test-[24px] text-[18px] font-bold mb-2 xl:mt-32 mt-5">
                 Data Cloud
               </h3>
               <h1 className="leading-tight mt-5">
                 Harness the Potential of Salesforce Data Cloud
               </h1>
-              <h3 className="font-bold leading-tight mt-10">
+              <h3 className="font-bold leading-tight mt-10 xl:block hidden">
                Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
               </h3>
               <div className="mb-4 relative overflow-hidden mt-8">
