@@ -162,7 +162,7 @@ export default function Page() {
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Business Challenge </h3>
 
-              <ul className="list-decimal marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
                 <li className="pb-4"><strong>Skill Silos: </strong> Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li>
                 <li className="pb-4"><strong>Talent Shortage:</strong> Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li>
                 <li className="pb-4"><strong>Lack of Centralized Oversight:  </strong> Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li>
