@@ -159,16 +159,11 @@ export default function Page() {
         </div>
       </section>
       <div
-        className="
-     custom-container"
-      >
+        className="custom-container">
         <section className="xl:pb-32  pt-10  pb-16  bg-white xl:pr-[142px]">
-
           <CaseStudy />
-
         </section>
       </div>
-
     </div>
   );
 }
