@@ -11,7 +11,7 @@ export default function Page() {
             />
 
             <section
-                className="custom-container lg:!pr-0"
+                className="custom-container "
             >
 
                 <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
