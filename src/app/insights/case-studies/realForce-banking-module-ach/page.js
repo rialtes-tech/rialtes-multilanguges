@@ -152,7 +152,7 @@ export default function Page() {
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
               <p className="text-black pb-6">The client was operating on a legacy banking application hosted in a non-standard, outdated environment (referred to as a "dark net" system), which presented several challenges:</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium">
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
                 <li className="pb-4"><strong>Manual Processes: </strong> Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li>
                 <li className="pb-4"><strong>Inefficient Reconciliation: </strong> Bank reconciliation was time-consuming and lacked visibility and automation.</li>
                 <li className="pb-4"><strong>Lack of Usability: </strong>The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li>
@@ -161,7 +161,7 @@ export default function Page() {
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
               <p className="text-black pb-6">Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium">
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
                 <li className="pb-4"><strong>ACH Automation: </strong> Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li>
                 <li className="pb-4"><strong>Automated Journal Entries: </strong> ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li>
                 <li className="pb-4"><strong>Scheduled File Transfers: </strong>Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention.  </li>
@@ -175,7 +175,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px]">
                 <li className="pb-4">Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li>
                 <li className="pb-4">Unified platform supports future integration of additional banking or financial tools.</li>
                 <li className="pb-4">Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.</li>
