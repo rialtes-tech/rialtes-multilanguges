@@ -101,15 +101,7 @@ export default function Page() {
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
-        <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
+        <div  className="custom-container">
           <div className="relative p-6 w-[720px] h-[484px]">
             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
 
@@ -233,7 +225,7 @@ export default function Page() {
         </div>
 
         <div
-          className="
+          className="consom
     relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE]
     "
         >
