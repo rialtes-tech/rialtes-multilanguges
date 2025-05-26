@@ -182,16 +182,10 @@ export default function DataCloud() {
       </section>
 
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="pt-16 bg-white">
-          <div className="container mx-auto">
+          <div className="mx-auto">
             <h2 className="text-[#000000] md:max-w-xl xl:max-w-4xl mb-8">
               What Is Salesforce Data Cloud?
             </h2>
@@ -214,16 +208,10 @@ export default function DataCloud() {
       </div>
 
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="py-8 md:max-w-3xl xl:max-w-6xl my-10">
-          <h2 className="text-[#000000] max-w-4xl mb-10">
+          <h2 className="text-[#000000] max-w-4xl mb-10 leading-tight">
             Creating Personalized & Impactful Customer Experiences for Your
             Business
           </h2>
@@ -258,13 +246,7 @@ export default function DataCloud() {
       {/* Stats Section */}
       <section className="bg-gray-200 py-8">
         <div
-          className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container"
         >
           <div className="max-w-5xl">
             <h3 className="text-left text-2xl md:text-3xl mb-6 font-[300] max-w-[700px]">
@@ -289,16 +271,10 @@ export default function DataCloud() {
 
       {/* Services Section */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="py-12 md:max-w-3xl xl:max-w-7xl">
-          <h2 className="text-left mb-10">
+          <h2 className="text-left mb-10 leading-tight">
             Our Salesforce Data Cloud Services
           </h2>
 
@@ -345,16 +321,9 @@ export default function DataCloud() {
 
       {/* Contact Form Section */}
       <div
-        className="py-20
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black"
+        className="py-20 custom-container"
       >
-        <ContactForm />
+        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight"/>
       </div>
     </div>
   );

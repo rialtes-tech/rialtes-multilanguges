@@ -107,7 +107,7 @@ export default function Page() {
                 <a
                   href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frialtes.netlify.app%2Finsights%2Fcase-studies%2Fyardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america&title=Yardi%20Implementation%20and%205%20Years%20of%20Successful%20AMS%20Journey%20with%20Largest%20PHA%20in%20North%20America&summary=Summary%20of%20the%20case%20study&source=LinkedIn"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                 >
 
 
