@@ -129,37 +129,31 @@ export default function DataCloud() {
         canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />
 
-
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/data-cloud/salesforce-data-cloud-header.webp"
-          alt="Webinar Header"
-          fill
-          style={{ objectFit: "cover" }}
-          priority
-        />
+   <section className="relative  xl:pb-20">
+        <div>
+          <Image
+            src="/images/data-cloud/salesforce-data-cloud-header.webp"
+            alt=""
+            fill
+            priority
+          />
+        </div>
         <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="relative"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center xl:items-end ml-[60px] xl:ml-0">
-            <div className="w-full lg:w-4/5 xl:w-1/2 text-black mt-20">
-              <h3 className=" text-[300] font-medium mb-2 text-left">
+          <div className="grid xl:grid-cols-12 grid-cols-1  mt-20">
+            <div className="xl:col-span-5"></div>
+            <div className="xl:col-span-6 col-span-12 xs:pl-[8rem] xl:pl-0 md:pl-[18rem]">
+               <h3 className="xl:test-[24px] text-[18px] font-bold mb-2 xl:mt-32 mt-5">
                 Data Cloud
               </h3>
-              <h1>
+              <h1 className="leading-tight mt-5">
                 Harness the Potential of Salesforce Data Cloud
               </h1>
-              <h3 className="xl:block hidden">
-                Drive automation, predictive, and generative AI, as well as
-                analytics, within the world’s leading AI-powered CRM
+              <h3 className="font-bold leading-tight mt-10">
+               Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
               </h3>
-              <div className="h-24 mb-4 relative overflow-hidden mt-6">
+              <div className="mb-4 relative overflow-hidden mt-8">
                 <div className="w-full">
                   <Image
                     src="/images/data-cloud/salesforce-partner.webp"
@@ -176,8 +170,8 @@ export default function DataCloud() {
                   />
                 </div>
               </div>
-            </div>
           </div>
+        </div>
         </div>
       </section>
 

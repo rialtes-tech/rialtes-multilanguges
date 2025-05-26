@@ -1,7 +1,9 @@
+
 "use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { memo, useEffect, useState } from "react";
+ 
 export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtColor }) => {
     return (
         <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -33,10 +35,10 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
                         <h3 className={`${txtColor ? `text-[${txtColor}]` : "text-white"} text-[18px] md:text-[24px] font-bold`}>
                             {subtitle}
                         </h3>
-                        <h1 className={`${txtColor ? `text-[${txtColor}]` : "text-white"}   text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] xl:w-full mt-[11.5px] md:mt-[28.5px]`}>
+                        <h1 className={`${txtColor ? `text-[${txtColor}]` : "text-white"}   text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]`}>
                             {title}
                         </h1>
-
+ 
                         {
                             extraImg &&
                             <Image
@@ -58,3 +60,4 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
  
     )
 }
+ 
