@@ -63,7 +63,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Yardi Managed Services"
+        title="Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services"
         canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
       />
 
