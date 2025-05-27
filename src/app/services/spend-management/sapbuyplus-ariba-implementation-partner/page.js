@@ -785,7 +785,7 @@ export default function page() {
             <AgentChat />
             {/* Contact Form */}
         <div    className="      custom-container   
-                         mt-5 text-black xl:pb-20 pb-10 xl:pt-[138px]"
+                       mt-5 text-black xl:pb-20 pb-10 xl:pt-[138px]"
             >
                 <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >
