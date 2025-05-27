@@ -110,17 +110,17 @@ export default function Page() {
                     />
                 </div>
 
-                <div className="relative h-full custom-container grid grid-cols-12 items-center">
-                    <div className="sm:col-span-3 col-span-1">
+                <div className="relative h-full custom-container grid grid-cols-12 sm:items-center">
+                    <div className="md:col-span-3 sm:col-span-1 col-span">
                        
                     </div>
-                    <div className="sm:col-span-9 col-span-11">
-                        <div className="md:pl-[12rem]">
+                    <div className="md:col-span-9 sm:col-span-11 col-span-12">
+                        <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px]">
                             <h3 className="text-[18px] md:text-[24px] font-bold">SAP Consulting</h3>
-                            <h1 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
+                            <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 Leaning towards a better tomorrow.
-                            </h1>
-                            <h3 className="text-[18px] md:text-[24px] font-bold xl:mt-[29.5px] w-[70%] md:w-[90%]">
+                            </h2>
+                            <h3 className="text-[18px] md:text-[24px] font-bold mt-[16px] xl:mt-[29.5px] w-[100%] md:w-[90%]">
                                 Leveraging SAP Consulting Services for reliable business operations.
                             </h3>
                             <Image
@@ -143,7 +143,7 @@ export default function Page() {
                 <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
 
                     <div>
-                        <h2 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h2>
+                        <h1 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
                     </div>
 
                     <div className="w-full">
