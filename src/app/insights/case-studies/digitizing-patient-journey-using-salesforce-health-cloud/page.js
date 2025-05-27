@@ -91,13 +91,13 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">Digitizing patient journey using Salesforce health cloud</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Digitizing the Patient Journey Using Salesforce Health Cloud</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Healthcare and Life Sciences</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Healthcare and Life Sciences</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -118,7 +118,7 @@ export default function Page() {
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-4">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -143,7 +143,7 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -151,28 +151,35 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A global medical technology company that develops and manufactures innovative products used by doctors to diagnose, treat, and monitor people with cardiovascular and endovascular conditions. This includes pacemakers, defibrillators for regulating heart rhythm and remote monitoring systems for patients with implanted devices. Their main goal is to improve the lives of people diagnosed with heart and blood vessel diseases. </p>
+              <p className="text-black">A global medical technology company dedicated to improving lives through innovative cardiovascular and endovascular care. The company designs and manufactures pacemakers, defibrillators, and remote monitoring systems used by healthcare professionals worldwide. Their mission is to support better patient outcomes by combining advanced medical technology with seamless digital experiences. </p>
 
               <div className="py-6"></div>
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
-              <p className="text-black pb-6">The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience. Patients had difficulties with the following aspects:</p>
+              <p className="text-black pb-6">The company had recently introduced a new patient journey system, but it lacked the critical functionality needed to deliver a truly connected and engaging healthcare experience.</p>
 
-              <p className="text-black pb-6">Previously, all interactions, such as data submissions, appointment scheduling, education, happened through phone calls or physical visits. Educational materials were provided, either through YouTube links, in-person visits at the clinic, or through representatives visiting patients’ homes.</p>
+              <p className="text-black pb-6"><strong>Limited digital engagement: </strong> Patients relied on phone calls, physical visits, and in- person educational sessions for all interactions.</p>
+              <p className="text-black pb-6"><strong>No real-time communication:  </strong> The system lacked virtual touchpoints, making it difficult for patients to contact healthcare providers outside of clinic visits.</p>
+              <p className="text-black pb-6"><strong>No self-service data input: </strong> Patients couldn’t submit important health data—like sleep patterns, activity levels, or medication usage, digitally.</p>
+              <p className="text-black pb-6"><strong>Lack of real-time monitoring: </strong> Providers had no visibility into whether patients were adhering to their therapy plans between visits.</p>
 
-              <p className="text-black pb-6">The system offered no clear touchpoints for patients to interact with healthcare providers outside of physical visits. Due to the limited patient-provider interaction, there was no convenient and fast way to seek help or ask questions.</p>
 
-              <p className="text-black">The system offered no user-friendly way for patients to submit their own health data, such as sleep patterns, medication use and activity levels like steps or running distance. There was no real-time data for healthcare providers to track whether patients are meeting their therapy goal that was set during their medical visit.</p>
 
               <div className="py-6"></div>
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
 
-              <p className="text-black pb-6">The Medtech company engaged Rialtes to address the identified challenges. Rialtes developed a comprehensive mobile application for android and iOS devices that was integrated with Salesforce Health Cloud. This offered patients a convenient and user-friendly platform to manage their healthcare journey. It empowered patients to actively participate in their therapy journey by providing a central place for data submission, real-time progress tracking, and communication.</p>
+              <p className="text-black pb-6">The client partnered with Rialtes to modernize the patient experience by building a fully integrated, digital-first solution.</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
+                <li className="pb-4"><strong>Mobile Application: </strong> Developed for Android and iOS, the app connected seamlessly with <strong> Salesforce Health Cloud </strong> to serve as a central hub for patient engagement.</li>
+                <li className="pb-4"><strong>Self-Guided Onboarding:  </strong> Patients could easily register and access a <strong>personalized dashboard</strong> to view therapy progress, action items, and relevant data.</li>
+                <li className="pb-4"><strong>Data Submission & Tracking:  </strong> Patients could log vital information—such as sleep, discomfort levels, and medication adherence, directly in the app. Integration with wearable devices (e.g., Apple Watch) enabled automatic collection of metrics like heart rate and step count.</li>
+                <li className="pb-4"><strong>Telehealth & Messaging: </strong> Enabled secure, real-time communication between patients and providers for queries, updates, and appointment scheduling.</li>
+                <li className="pb-4"><strong>Gamification & Engagement: </strong> Patients were encouraged to submit data and complete health-related tasks through gamified elements, improving long-term adherence.</li>
+                <li className="pb-4"><strong>Smart Notifications: </strong> Automated reminders prompted patients to share health data consistently, ensuring ongoing visibility for care teams.</li>
+                <li className="pb-4"><strong>In-App Education: </strong> Patients could access videos and articles to understand their conditions and therapies. Providers could monitor content engagement and deliver personalized follow-up materials.</li>
 
-              <p className="text-black pb-6">This solution provided patients with a self-guided registration process, personalized dashboards to easily access therapy details, track progress and view action items.</p>
-
-              <p className="text-black">The app provided patients with seamless data submissions of various health data points directly within the app, including sleep patterns, medication adherence or discomfort scale for specific body parts. In addition, it allowed for integrations with wearable devices, such as Apple Watches, to automatically capture device health data like heart rate, walking pace and more.</p>
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>
@@ -180,16 +187,18 @@ export default function Page() {
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
 
-              <p className="text-black pb-6">Patients could submit health data conveniently, allowing healthcare providers to monitor progress and intervene if necessary. This allowed for improved care coordination through real-time data access and streamlined communication. </p>
-
-              <p className="text-black pb-6">The app allowed for secure communication between patients and healthcare providers through telehealth functionality for queries and appointment scheduling. </p>
-
-              <p className="text-black pb-6">Gamification elements motivated patients to actively participate by submitting data and completing tasks, improving adherence to treatment plans. </p>
-
-              <p className="text-black pb-6">The app sent automated notifications to patients reminding them to submit data, ensuring consistent data collection. </p>
-
-              <p className="text-black">Educational materials offered within the platform allowed patients easy access to relevant information for self-management and therapy understanding. Healthcare providers could track patients’ engagement with these materials and share additional support if required.</p>
-
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
+                <li className="pb-4">30% increase in therapy adherence through gamified engagement and automated reminders.
+                </li>
+                <li className="pb-4">40% improvement in data submission rates, enabling more proactive care.</li>
+                <li className="pb-4">Real-time visibility for providers, improving coordination and faster intervention for at-risk patients.
+                </li>
+                <li className="pb-4">50% reduction in phone-based support as self-service and digital communication became primary channels.
+                </li>
+                <li className="pb-4">Enhanced patient satisfaction with personalized, on-the-go access to therapy information and education.
+                </li>
+                <li>Scalable architecture, ready for future enhancements like AI-driven insights and broader wearable device integration.</li>
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>

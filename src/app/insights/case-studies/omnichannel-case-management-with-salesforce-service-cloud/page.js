@@ -6,65 +6,65 @@ import Seo from "@/app/components/Seo";
 
 const slides = [
   {
-   id: 3,
-   image: "/images/case-studies/case study 1_thumb_n.webp",
-   category: "Healthcare",
-   industry: "Real Estate",
-   date: "17 Nov 2024",
-   title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-   description: "A global medical technology company that develops and manufactures innovative products",
-   url:'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
- },
- {
-   id: 4,
-   image: "/images/case-studies/case-study-4_thumb.webp",
-   category: "Real Estate",
-   industry: "Healthcare",
-   date: "14 Oct 2024",
-   title: "Omnichannel case management with Salesforce Service Cloud",
-   description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-   url:'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
- },
- {
-   id: 6,
-   image: "/images/case-studies/case-study-6_thumb.webp",
-   category: "Healthcare",
-   industry: "Manufacturing",
-   date: "4 Sept 2024",
-   title: "Yardi Managed Services",
-   description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
- url:'insights/case-studies/yardi-managed-services'
- },
- {
-   id: 7,
-   image: "/images/case-studies/case study 3_thumb_n.webp",
-   category: "SAP",
-   industry: "Retail & e-Commerce",
-   date: "25 Oct 2024",
-   title: "Streamlined DevOps using Copado and Salesforce",
-   description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
- url:"insights/case-studies/streamlined-devops-using-copado-and-salesforce"
- },
- {
-   id: 8,
-   image: "/images/case-studies/case-study-2_thumb_n.webp",
-   category: "Salesforce",
-   industry: "Hi-Tech",
-   date: "25 Oct 2024",
-   title: "RealForce Banking Module - ACH",
-   description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
- url:'insights/case-studies/realForce-banking-module-ach'
- },
- // Add more blog objects as needed
+    id: 3,
+    image: "/images/case-studies/case study 1_thumb_n.webp",
+    category: "Healthcare",
+    industry: "Real Estate",
+    date: "17 Nov 2024",
+    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+    description: "A global medical technology company that develops and manufactures innovative products",
+    url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+  },
+  {
+    id: 4,
+    image: "/images/case-studies/case-study-4_thumb.webp",
+    category: "Real Estate",
+    industry: "Healthcare",
+    date: "14 Oct 2024",
+    title: "Omnichannel case management with Salesforce Service Cloud",
+    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+    url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
+  },
+  {
+    id: 6,
+    image: "/images/case-studies/case-study-6_thumb.webp",
+    category: "Healthcare",
+    industry: "Manufacturing",
+    date: "4 Sept 2024",
+    title: "Yardi Managed Services",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: 'insights/case-studies/yardi-managed-services'
+  },
+  {
+    id: 7,
+    image: "/images/case-studies/case study 3_thumb_n.webp",
+    category: "SAP",
+    industry: "Retail & e-Commerce",
+    date: "25 Oct 2024",
+    title: "Streamlined DevOps using Copado and Salesforce",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+    url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+  },
+  {
+    id: 8,
+    image: "/images/case-studies/case-study-2_thumb_n.webp",
+    category: "Salesforce",
+    industry: "Hi-Tech",
+    date: "25 Oct 2024",
+    title: "RealForce Banking Module - ACH",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: 'insights/case-studies/realForce-banking-module-ach'
+  },
+  // Add more blog objects as needed
 ];
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-title="Omnichannel case management with Salesforce Service Cloud"
-canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
-/>
+        title="Omnichannel case management with Salesforce Service Cloud"
+        canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -88,13 +88,13 @@ canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-manage
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">Omnichannel case management with Salesforce Service Cloud</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Transforming Omnichannel Case Management Using Salesforce Service Cloud</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing (Semi-Conductor)</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Manufacturing (Semi-Conductor)</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -104,7 +104,7 @@ canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-manage
             <div className="flex flex-row gap-6 ">
               <div className="max-w-[40px]">
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-7&title=Omnichannel case management with Salesforce Service Cloud&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
-                  
+
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
@@ -116,7 +116,7 @@ canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-manage
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-7">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -141,7 +141,7 @@ canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-manage
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -149,37 +149,44 @@ canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-manage
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A leading provider of high-performance analog semiconductors for wireless and wired connectivity. Their core products include amplifiers, filters, switches, and integrated modules that enable efficient wireless transmission. Beyond being a major supplier for smartphones, their innovative technology is also used in wireless routers, medical devices, automobiles, and a growing list of applications. </p>
+              <p className="text-black">A leading provider of high-performance analog semiconductors powering wireless and wired connectivity across industries. Their core offerings, amplifiers, filters, switches, and integrated modules, support efficient wireless transmission for smartphones, routers, medical devices, automobiles, and more. Renowned for innovation, they are a critical technology partner for both consumer and industrial applications globally.</p>
 
               <div className="py-6"></div>
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
 
-              <p className="text-black">The semiconductor company faced challenges in managing customer service across its global operations. They relied on a legacy platform that lacked features for effective customer interaction and segregated data made it difficult to view the full historical insights about the customers. </p>
-
+              <p className="text-black">The client faced persistent challenges in delivering consistent, high-quality customer service across global regions due to a fragmented, legacy support system. Key issues included:</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
+                <li className="pb-4">Disjointed customer interaction data across platforms, making it hard to track service history.
+                </li>
+                <li className="pb-4">Lack of visibility into historical case data and customer behavior.</li>
+                <li className="pb-4">Manual case management with no automation for routing or resolution.
+                </li>
+                <li className="pb-4">Limited self-service options, forcing customers to rely on email and phone channels.
+                </li>
+              </ul>
               <div className="py-6"></div>
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
 
-              <p className="text-black pb-6">Rialtes implemented Salesforce Service Cloud and Salesforce Experience Cloud to streamline operations and enhance customer experience. </p>
+              <p className="text-black pb-6">Rialtes implemented Salesforce Service Cloud and Experience Cloud to centralize customer support and create a scalable, future-ready solution. Key elements of the implementation:</p>
 
-              <p className="text-black pb-6">We created a unified platform for all customer interactions, including distributors and original equipment manufacturers (OEMs). </p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
+                <li className="pb-4"><strong>Unified Support Platform:</strong> All customer interactions, across internal teams, distributors, and OEMs, are now managed on a single platform.</li>
+                <li className="pb-4"><strong>Self-Service Portal:  </strong> Distributors and OEMs can submit and track cases, and access a robust knowledge base 24/7.</li>
+                <li className="pb-4"><strong>Real-Time Communication:  </strong> Built-in chat and messaging facilitate direct conversations between support teams and customers.</li>
+                <li className="pb-4"><strong>Knowledge Consolidation: </strong> Legacy support content was migrated into a centralized, searchable repository.</li>
+                <li className="pb-4"><strong>Einstein AI Assistance: </strong> AI-driven recommendations help customers resolve issues faster and reduce case volume.</li>
+                <li className="pb-4"><strong>Automated Case Assignment: </strong> Routing logic based on geography and expertise ensures timely and accurate responses.</li>
+                <li className="pb-4"><strong>Cross-Continent Collaboration: </strong> Support teams can now share knowledge and updates effortlessly across time zones.</li>
+                <li className="pb-4"><strong>Segmented Content Delivery: </strong> Targeted release of support updates and critical info to specific customer groups.</li>
+                <li className="pb-4"><strong>Data Migration & Insights: </strong>Historical case data migration enables in-depth trend analysis and smarter decision-making.</li>
 
-              <p className="text-black pb-6">We built a self-service portal for distributors and OEMs to submit cases, track progress, and access knowledge articles. </p>
+              </ul>
 
-              <p className="text-black pb-6">We enabled real-time communication with the customer and the semiconductor company’s support team. </p>
 
-              <p className="text-black pb-6">We consolidated the knowledge depository from legacy systems into a single source of truth for support information. </p>
 
-              <p className="text-black pb-6">We implemented Einstein AI to suggest solutions and relevant knowledge articles to customers based on their inquiries. </p>
 
-              <p className="text-black pb-6">We configured automatic case assignment to appropriate teams based on factors like location and expertise. </p>
-
-              <p className="text-black pb-6">We improved communication and knowledge sharing between support teams across continents. </p>
-
-              <p className="text-black pb-6">We provided the ability to release important updates and support information to specific customer groups. </p>
-
-              <p className="text-black">We migrated historical case data to allow for trend analysis and identification of recurring issues.</p>
 
             </div>
           </div>
@@ -188,19 +195,19 @@ canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-manage
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
 
-              <p className="text-black pb-6">Single point of contact which allowed streamlined customer support across all channels (internal, external). </p>
-
-              <p className="text-black pb-6">Improved customer experience through better communication, self-service capabilities, and faster issue resolution. </p>
-
-              <p className="text-black pb-6">360° customer view with capabilities to conduct customer behavior analysis and targeted upselling opportunities. </p>
-
-              <p className="text-black pb-6">Centralized knowledge repository reduces support workload and improves collaboration. </p>
-
-              <p className="text-black pb-6">Potential for future integration with other Salesforce clouds (CPQ, Marketing Cloud) to further enhance sales and marketing efforts. </p>
-
-              <p className="text-black">Historical case data analysis helps identify trends, create proactive knowledge articles, and offer targeted solutions.</p>
-
-
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
+                <li className="pb-4">60% reduction in average case resolution time, thanks to automation and AI assistance.
+                </li>
+                <li className="pb-4">30% increase in customer self-service adoption, reducing support workload.</li>
+                <li className="pb-4">Enhanced visibility into the complete customer journey, enabling targeted upselling and proactive service.
+                </li>
+                <li className="pb-4">360° customer view across service channels, devices, and global teams.
+                </li>
+                <li className="pb-4">Improved global support consistency and seamless collaboration across continents.
+                </li>
+                <li className="pb-4">Scalability for future integration with Salesforce CPQ and Marketing Cloud, enabling a unified customer lifecycle.</li>
+                <li>Knowledge article usage increased by 45%, improving first-contact resolution.</li>
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>

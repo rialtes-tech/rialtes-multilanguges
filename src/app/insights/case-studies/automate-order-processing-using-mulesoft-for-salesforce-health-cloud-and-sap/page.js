@@ -90,13 +90,13 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">Automating Order Processing using Mulesoft for Salesforce Health Cloud and SAP</h1>
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Healthcare and Life Sciences</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Healthcare and Life Sciences</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -154,23 +154,29 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">Client Profile A global medical technology company that develops and manufactures innovative products used by doctors to diagnose, treat, and monitor people with cardiovascular and endovascular conditions. This includes pacemakers, defibrillators for regulating heart rhythm and remote monitoring systems for patients with implanted devices. Their main goal is to improve the lives of people diagnosed with heart and blood vessel diseases.</p>
+              <p className="text-black">A global medical technology company specializing in the development and manufacture of innovative products for diagnosing, treating, and monitoring cardiovascular and endovascular conditions. Their portfolio includes pacemakers, defibrillators, and remote monitoring systems for patients with implanted devices. The company’s mission is to improve the quality of life for individuals with heart and blood vessel diseases through advanced medical technologies.</p>
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
-              <p className="text-black">The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting. This caused delays, errors and efficiencies. Sales and accounting worked in separate systems with lack of transparency and data silos. Orders required handling various payment methods, including insurance, co-pays, or out-of-pocket payments. This added complexity to the manual order processing workflow. </p>
+              <p className="text-black">The company faced significant inefficiencies due to a manual, disconnected order processing workflow between Salesforce (used for sales and patient management) and SAP (used for finance and accounting). Key challenges included:</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5">
+                <li className="pb-4"><strong>Manual data entry </strong> across systems, leading to frequent delays and human errors</li>
+                <li className="pb-4"><strong>Lack of integration </strong> between sales and finance teams, resulting in data silos and miscommunication.</li>
+                <li className="pb-4"><strong>Complexity in payment processing, </strong> including insurance claims, co-pays, and direct payments, added strain to the already inefficient process.</li>
+              </ul>
+
             </div>
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions</h3>
+              <p>Rialtes implemented an integrated Salesforce-SAP solution using MuleSoft, bridging the gap between systems and automating the entire order lifecycle. Key components of the solution:</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 mt-5 xl:text-[20px] text-[16px]">
+                <li className="pb-4"><strong>Automated Order Syncing: </strong> Orders created in Salesforce now automatically trigger corresponding entries in SAP, eliminating the need for manual duplication.</li>
+                <li className="pb-4"><strong>Real-Time Data Updates:  </strong> Any modifications in one system are instantly reflected in the other, ensuring data accuracy and consistency.</li>
+                <li className="pb-4"><strong>MuleSoft as a Middleware:  </strong> Used to map and translate data between systems, accommodating different formats and adhering to healthcare data privacy regulations.</li>
+                <li className="pb-4"><strong>Role-Based System Segregation: </strong> Salesforce is now focused on patient data and order creation, while SAP manages invoicing, settlements, and accounting—allowing teams to operate within their areas of expertise.</li>
 
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4">
-                <li className="pb-4">Rialtes implemented an integrated solution using Mulsesoft platform. This made it possible to leverage the strengths of both Salesforce and SAP.</li>
-                <li className="pb-4">Orders created in Salesforce now automatically trigger order creations in SAP, which eliminates the manual data entry and reduces errors. </li>
-                <li className="pb-4">Any changes to orders in either system was reflected in real time in the other system, ensuring that data remains consistent across departments. </li>
-                <li className="pb-4">Mulesoft mapped the data between Salesforce and SAP and allows for different data formats that ensure privacy regulations </li>
-                <li>With the segregation of the two systems, Sales team can now focus on patient data and order creation in Salesforce, while the finance team handles invoicing, accounting, and settlements using SAP.</li>
               </ul>
             </div>
           </div>
@@ -178,18 +184,18 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
-
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4">
-                <li className="pb-4">Automated order processing eliminated manual work, saving time and resources for sales and finance teams.
+              <p>The integration delivered measurable improvements across departments:</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
+                <li className="pb-4">60% reduction in order processing time by eliminating manual data entry.
                 </li>
-                <li className="pb-4">Elimination of manual data transfer improved accuracy and efficiency.</li>
-                <li className="pb-4">Real-time data synchronization ensured data consistency across systems, minimizing errors.
+                <li className="pb-4">Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.</li>
+                <li className="pb-4">Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.
                 </li>
-                <li className="pb-4">Sales and finance teams have real-time visibility into order status and financial data, improving collaboration.
+                <li className="pb-4">Up to 40% fewer order discrepancies, thanks to automated validation and real-time updates.
                 </li>
-                <li className="pb-4">The solution allows efficient handling of different payment types.
+                <li className="pb-4">Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.
                 </li>
-                <li>Sales teams can now focus on selling, and finance teams can focus on financial management, leading to improved overall productivity.</li>
+                <li>Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency.</li>
               </ul>
             </div>
           </div>

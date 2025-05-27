@@ -51,7 +51,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "14 Oct 2024",
     url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
-    title: "Omnichannel case management with Salesforce Service Cloud",
+    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
     description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
   },
   {
@@ -78,7 +78,7 @@ const latestCaseStudy = [
     industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-    title: "Digitizing patient journey using Salesforce health cloud",
+    title: "Digitizing the Patient Journey Using Salesforce Health Cloud",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
@@ -87,7 +87,7 @@ const latestCaseStudy = [
     industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/insights/case-studies/salesforce-health-cloud-prior-authorization",
-    title: "Salesforce Health Cloud, Prior Authorization",
+    title: "Accelerating Prior Authorizations Using Salesforce Health Cloud",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
  
@@ -249,7 +249,7 @@ const FeaturedCarousel = () => {
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
       url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      title: 'Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
+      title: 'Automating Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
     {
