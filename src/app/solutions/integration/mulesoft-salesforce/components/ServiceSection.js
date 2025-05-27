@@ -47,7 +47,7 @@ const ServiceSection = () => (
       <h2 className="w-full mb-10">
         MuleSoft Integration Services Aligned with Your Business Needs
       </h2>
-      <p className="w-full lg:text-xl text-base">
+      <p className="w-full lg:text-xl md:text-xl text-base">
         Our experts provide an extensive array of MuleSoft services that share
         your vision and values.
       </p>
