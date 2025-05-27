@@ -221,12 +221,11 @@ const Home = () => {
                                 <Link href={slide.link}>
 
                                     <div
-                                        className={`absolute inset-0 transition-transform transform xl:hidden ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
+                                        className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
                                         style={{
                                             backgroundImage: `url(${slide.imageMobile})`,
-                                            backgroundSize: 'cover',
-                                            backgroundPosition: 'center',
+                                            backgroundSize: '100% 100%',
                                         }}
                                     >
                                         <div

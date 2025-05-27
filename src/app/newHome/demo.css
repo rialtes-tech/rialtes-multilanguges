@@ -153,6 +153,11 @@
     padding: 0 !important;
   }
 
+  .content .des {
+    font-size: 16px !important;
+    width: 360px !important;
+  }
+
   .carousel .list .item {
     width: 155px;
     height: 168px;
