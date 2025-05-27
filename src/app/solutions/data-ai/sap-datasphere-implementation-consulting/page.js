@@ -187,7 +187,7 @@ const IndustryAcceleratorsSection = () => {
                     <img
                         src="/images/solutions/data-sphere/industry-accelerators-img.webp"
                         alt="industry-accelerators-img"
-                        className="w-full h-full hidden md:block"
+                        className="w-full h-full hidden md:block object-cover"
                     />
                 </div>
 
@@ -304,7 +304,7 @@ const AIReadyManufacturingSection = () => {
                     <img
                         src="/images/solutions/data-sphere/ai-ready-img.webp"
                         alt="ai-ready-img"
-                        className="w-full h-full hidden md:block"
+                        className="w-full h-full hidden md:block object-cover"
                     />
                 </div>
 
@@ -462,47 +462,48 @@ const AiPoweredHRAnalyticsSection = () => {
         "Real-time dashboards for leadership decision-making."
     ]
     return (
-        <section className="xl:mt-[142px] mt-[107px]">
-            <div className="grid grid-cols-1 md:grid-cols-[6fr_4fr]">
+        <section className="xl:mt-[142px] mt-[107px] custom-container max-lg:px-0 xl:!pl-0 ">
+            <div className="grid grid-cols-1 xl:grid-cols-[7fr_5fr]">
                 <div>
                     {/* Mobile Image */}
                     <img
                         src="/images/solutions/data-sphere/Mobile/ai-powered-hr-analytics-mob-img.webp"
                         alt="ai-powered-hr-analytics-mob-img"
-                        className="block xl:hidden h-auto mx-auto"
+                        className="block md:hidden h-auto mx-auto"
                     />
 
                     {/* Desktop Image */}
                     <img
                         src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
                         alt="ai-powered-hr-analytics"
-                        className="hidden xl:block w-full"
+                        className="hidden md:block w-full h-full object-cover"
                     />
                 </div>
 
-                <div className="relative text-[#FFFFFF] xl:pl-[72px] xl:ml-[-20%] xl:w-[98%] xl:mt-[100px] mx-[0px] px-[35px] xl:pt-[76px] pt-[42px] bg-[#006FBE] xl:pb-[76px] pb-[142px] overflow-visible">
-                    <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[80%]">
-                        AI-Powered HR Analytics Hub
-                    </h2>
-                    <h3 className="font-semibold xl:text-[42px] text-[26px] leading-[32px] xl:leading-[52px] mt-[27px] xl:mt-[36px] xl:w-[80%]">
-                        Redefine Workforce Intelligence
-                    </h3>
-                    <h4 className="font-semibold xl:text-[36px] text-[20px] leading-[24px] xl:leading-[44px] mt-[23px] xl:mt-[36px] xl:w-full">
-                        Smarter People Decisions with AI
-                    </h4>
-                    <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px]">
-                        {aiPoweredData.map((data, idx) => (
-                            <li
-                                key={idx}
-                                className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
-                            >
-                                {data}
-                            </li>
-                        ))}
-                    </ul>
+                <div className="">
+                    <div className="relative text-[#FFFFFF] xl:pl-[72px] xl:ml-[-20%] xl:mt-[100px] mx-[0px] px-[35px] xl:pt-[76px] pt-[42px] bg-[#006FBE] xl:pb-[76px] pb-[142px] overflow-visible">
+                        <h2 className="xl:text-[50px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[80%]">
+                            AI-Powered HR Analytics Hub
+                        </h2>
+                        <h3 className="font-semibold xl:text-[42px] text-[26px] leading-[32px] xl:leading-[52px] mt-[27px] xl:mt-[36px] xl:w-[80%]">
+                            Redefine Workforce Intelligence
+                        </h3>
+                        <h4 className="font-semibold xl:text-[36px] text-[20px] leading-[24px] xl:leading-[44px] mt-[23px] xl:mt-[36px] xl:w-full">
+                            Smarter People Decisions with AI
+                        </h4>
+                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px]">
+                            {aiPoweredData.map((data, idx) => (
+                                <li
+                                    key={idx}
+                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                >
+                                    {data}
+                                </li>
+                            ))}
+                        </ul>
 
 
-                    <div className="bg-[#163055] 
+                        <div className="bg-[#163055] 
                     w-[80%] left-1/2 
                     transform 
                     -translate-x-1/2 
@@ -516,9 +517,10 @@ const AiPoweredHRAnalyticsSection = () => {
                     xl:mt-[0px] 
                     xl:transform-none
                 ">
-                        <p className="text-[#FFFFFF] xl:text-[26px] text-[20px] leading-[24px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                            Take HR to the next level with AI-powered talent management and compliance.
-                        </p>
+                            <p className="text-[#FFFFFF] xl:text-[26px] text-[20px] leading-[24px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                                Take HR to the next level with AI-powered talent management and compliance.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -559,7 +561,7 @@ const SapAribaSection = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[20px] gap-[20px] xl:mt-[0px] mt-[24px]">
 
                         <div>
-                            <h2 className="text-[#FFFFFF] lg:text-[60px] text-[26px] leading-[32px] lg:leading-[73px] font-light 2xl:w-[80%]">
+                            <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] lg:leading-[73px] font-light 2xl:w-[80%]">
                                 SAP Ariba + SAP Datasphere
                             </h2>
                             <h3 className="text-[#FFFFFF] font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
@@ -572,7 +574,7 @@ const SapAribaSection = () => {
                                 {sapAribaData.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] lg:text-[20px] text-[16px] lg:leading-[24px] leading-[19px] font-light">
+                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] lg:leading-[24px] leading-[19px] font-light">
                                         {item}
                                     </li>
 
@@ -613,7 +615,7 @@ const SapHanaSection = () => {
                         <img
                             src="/images/solutions/data-sphere/sap-hana-img.webp"
                             alt="sap-hana-img"
-                            className="w-full h-full hidden md:block"
+                            className="w-full h-full hidden md:block object-cover"
                         />
                     </div>
                     <div className="text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -664,7 +666,7 @@ const SapSucessFactorSection = () => {
                         <img
                             src="/images/solutions/data-sphere/sap-success-factos-img.webp"
                             alt="sap-success-factos-img"
-                            className="w-full h-full hidden md:block"
+                            className="w-full h-full hidden md:block object-cover"
                         />
                     </div>
 
@@ -717,7 +719,7 @@ const SalesforceSap = () => {
                         <img
                             src="/images/solutions/data-sphere/salesforcesap-img.webp"
                             alt="salesforcesap-img"
-                            className="w-full h-full hidden md:block"
+                            className="w-full h-full hidden md:block object-cover"
                         />
                     </div>
                     <div className="text-[#000000] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -768,7 +770,7 @@ const AdvancedDataSection = () => {
                             <img
                                 src="/images/solutions/data-sphere/advanced-data-img.webp"
                                 alt="advanced-data-img"
-                                className="w-full h-full hidden md:block"
+                                className="w-full h-full hidden md:block object-cover"
                             />
                         </div>
 
@@ -823,11 +825,12 @@ const AIPoweredUseSection = () => {
                     <img
                         src="/images/solutions/data-sphere/Mobile/ai-powered-use-mob-img.webp"
                         alt="ai-powered-use-mob-img"
-                        className="w-full h-auto"
+                        className="w-full h-[1300px] object-cover"
+
                     />
 
                     <div
-                        className="absolute bottom-[220px] left-0 right-0 h-[43%] z-0"
+                        className="absolute bottom-[220px] left-0 right-0 sm:h-[390px] h-[420px] z-0"
                         style={{
                             background: "#006FBE",
                             mixBlendMode: "multiply",
@@ -836,7 +839,7 @@ const AIPoweredUseSection = () => {
                     ></div>
 
 
-                    <div className="mx-[30px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[61px] pb-[73px] z-10 text-white">
+                    <div className="mx-[10px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white">
                         <h2 className="text-[26px] leading-[32px] font-light">
                             AI-Powered Use Cases
                         </h2>
@@ -869,14 +872,13 @@ const AIPoweredUseSection = () => {
                 <img
                     src="/images/solutions/data-sphere/ai-powered-use-img.webp"
                     alt="ai-powered-use-img"
-                    className="hidden md:block w-full h-auto object-contain"
+                    className="hidden md:block w-full md:h-[600px] xl:h-[900px] object-cover"
                 />
 
                 <div className="hidden md:flex absolute inset-0 items-start justify-start custom-container">
                     <div className="relative">
-
                         <div
-                            className="absolute inset-0 z-0 pointer-events-none"
+                            className="absolute inset-0 z-0 pointer-events-none md:h-[392px] xl:h-full"
                             style={{
                                 background: "#006FBE",
                                 mixBlendMode: "multiply",
@@ -884,15 +886,15 @@ const AIPoweredUseSection = () => {
                             }}
                         />
 
-                        <div className="relative z-10 xl:pt-[70px] pt-[57px] xl:pb-[73px] pb-[27px] px-[26px] xl:px-[67px] text-white">
-                            <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <div className="relative z-10 xl:pt-[70px] pt-[57px] xl:pb-[80px] pb-[0px] px-[26px] md:px-[67px] text-white">
+                            <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light w-[70%]">
                                 AI-Powered Use Cases
                             </h2>
                             <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-[27px] xl:leading-[52px]">
                                 Accelerating Innovation
                             </h3>
 
-                            <ul className="list-disc pl-[22px] xl:mt-[43px] mt-[16px]">
+                            <ul className="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]">
                                 {aiPoweredData.map((element, index) => (
                                     <li
                                         key={index}
@@ -903,7 +905,7 @@ const AIPoweredUseSection = () => {
                                 ))}
                             </ul>
 
-                            <div className="mt-[30px]">
+                            <div className="mt-[40px] absolute">
                                 <Link href="/contact-us">
                                     <button className="bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                                         Learn More
@@ -913,11 +915,12 @@ const AIPoweredUseSection = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="bg-[#163055] xl:w-[43%] mx-[35px] xl:ml-[280px] xl:mr-0 absolute xl:-mt-[58px] -mt-[68px]">
-                    <p className="text-[#FFFFFF] xl:text-[26px] text-[22px] leading-[27px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[35px] px-[24px] font-light">
-                        AI brings the future of decision-making to your fingertips.
-                    </p>
+                <div className="custom-container">
+                    <div className="bg-[#163055] absolute xl:-mt-[58px] -mt-[68px] w-[85%] sm:w-[90%] md:w-auto">
+                        <p className="text-[#FFFFFF] xl:text-[26px] text-[22px] leading-[27px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[35px] px-[24px] font-light">
+                            AI brings the future of decision-making to your fingertips.
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -932,39 +935,37 @@ const GlobalPresenceSection = () => {
         "Deep domain expertise in Manufacturing, Automotive, Semiconductor, Retail, HR, and Education."
     ]
     return (
-        <section className="relative xl:ml-[280px] mr-0 xl:mt-[121px] mt-[126px]">
-            <div className="flex flex-col xl:block">
+        <section className="xl:mt-[121px] mt-[126px] custom-container lg:!pr-0 max-md:px-0">
+            <div className="relative">
 
-                <div className="">
+                <div>
                     {/* Mobile Image */}
                     <img
                         src="/images/solutions/data-sphere/Mobile/global-presence-mob-img.webp"
                         alt="global-presence-mob-img"
-                        className="block xl:hidden h-auto object-cover mx-auto z-10"
+                        className="block lg:hidden h-auto mx-auto"
                     />
 
                     {/* Desktop Image */}
                     <img
                         src="/images/solutions/data-sphere/global-presence-img.webp"
                         alt="global-presence-img"
-                        className="hidden xl:block w-full h-[90%] object-cover"
+                        className="hidden lg:block w-full h-full object-cover"
                     />
                 </div>
 
                 <div
-                    className="xl:ml-[-143px] mx-[35px] xl:mt-auto mt-[-166px] xl:px-0 px-[35px] md:absolute md:top-1/2 md:left-0 md:-translate-y-1/2 xl:pt-[74px] pt-[42px] xl:pb-[126px] pb-[52px] xl:w-[65%] z-20"
+                    className="px-[40px] lg:pl-[60px] lg:pr-[40px] xl:pl-[60px] 2xl:pl-[90px] xl:pr-[40px] py-[40px] lg:py-[44px] xl:py-[44px] 2xl:py-[74px] absolute lg:top-1/2 lg:left-[-80px] xl:left-[-120px] lg:transform lg:-translate-y-1/2 z-20 lg:w-[750px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[960px] flex justify-center sm:mx-[52px] w-auto md:w-auto max-lg:mt-[-250px] max-md:mx-auto"
                     style={{
-                        background: "#073259",
-                        mixBlendMode: "multiply",
-                        opacity: 1,
+                        background: "rgba(7, 50, 89, 0.92)",
                     }}
                 >
-                    <div className="xl:ml-[138px] mx-auto xl:mr-[61px] z-30">
-                        <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px]">
+                    <div className="z-30">
+                        <h2 className="text-[#FFFFFF] xl:text-[50px] 2xl:text-[60px] text-[26px] font-light leading-[32px] xl:leading-[73px]">
                             Global Presence, Certified Expertise, Agile Excellence
                         </h2>
 
-                        <div className="grid md:grid-cols-2 xl:gap-x-[40px] xl:w-[78%]">
+                        <div className="grid md:grid-cols-2 md:gap-[40px] lg:gap-[10px] 2xl:gap-[40px]">
                             {globalPresenceData.map((data, ind) => {
                                 const isBorderLeft = ind === 1 || ind === 3;
                                 const isNotLast = ind !== globalPresenceData.length - 1;
@@ -973,13 +974,13 @@ const GlobalPresenceSection = () => {
                                     <div key={ind} className="w-full flex items-center">
                                         <div
                                             className={`
-                          relative
-                          xl:mt-[56px] xl:py-0 py-[31px] xl:w-[100%] w-[90%]
-                          text-[#FFFFFF] xl:text-[20px] text-[18px] font-semibold leading-[22px] xl:leading-[24px] 
-                          ${isBorderLeft ? 'md:border-l-2 md:pl-[68px] border-white' : ''}
-                          ${!isBorderLeft ? "xl:mr-[45px]" : ""}
-                          md:border-b-0
-                        `}
+                relative
+                xl:mt-[56px] mt-[20px] xl:py-0 py-4 xl:w-[100%] w-[90%]
+                text-[#FFFFFF] xl:text-[20px] text-[18px] font-semibold leading-[22px] xl:leading-[24px] 
+                ${isBorderLeft ? 'md:border-l-2 md:pl-[48px] lg:pl-[50px] xl:pl-[68px] border-white' : ''}
+                ${!isBorderLeft ? 'xl:mr-[45px]' : ''}
+                md:border-b-0
+              `}
                                         >
                                             {data}
                                             {isNotLast && (
@@ -992,6 +993,7 @@ const GlobalPresenceSection = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </section>
@@ -1054,11 +1056,11 @@ export default function () {
             <AIPoweredUseSection />
 
             {/* Global Presence Section */}
-            {/* <GlobalPresenceSection /> */}
+            <GlobalPresenceSection />
             {/* Contact Form */}
             <div
                 className="custom-container
-              text-[#000000] pb-10"
+              text-[#000000] pb-10  max-sm:mt-[460px] max-md:mt-[400px] max-lg:mt-[360px]"
             >
                 <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"max-w-[66rem] xl:font-normal xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] mt-[52px] xl:mt-[89px]"} />
             </div >
