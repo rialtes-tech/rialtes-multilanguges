@@ -25,63 +25,6 @@ const solutionSuccess = [
         ],
         knowMore: '/services/business-transformation/rise-with-sap-services'
     },
-    // {
-    //     id: 2,
-    //     imageUrl: '/images/sap-consulting/SAP Integration.png',
-    //     title: 'SAP Integration',
-    //     description: 'Experience a smooth integration process with our SAP System Integrators. Our SAP Integration Services offer you managed infrastructure, fully managed dedicated servers, private cloud with one tenant, hybrid cloud, and cooperative support packages.',
-    //     productsDetails: [
-    //         'Integration consulting',
-    //         'Integration development, consolidation, and migration',
-    //         'Integration architecture design',
-    //         'Maintenance of integrated applications'
-    //     ],
-    //     knowMore: '/solutions/enterprise-platforms/sap-consulting'
-
-    // },
-    // {
-
-    //     id: 3,
-    //     imageUrl: '/images/sap-consulting/SAP Managed Services.png',
-    //     title: 'SAP Managed Services',
-    //     description: 'As your SAP Managed Service Provider, we offer transformational business intelligence.',
-    //     productsDetails: [
-    //         'Managed Infrastructure, Migration & Provisioning',
-    //         'SAP Implementation & Support',
-    //         'Monitoring and Audits',
-    //         'Security & Governance',
-    //         'Business Continuity',
-    //     ],
-    //     knowMore: '/salesforce-consulting/salesforce-manage'
-
-    // },
-    // {
-    //     id: 4,
-    //     imageUrl: '/images/sap-consulting/Application Development thumb.png',
-    //     title: 'Application Development',
-    //     description: 'Turn raw data into insights by unifying and transforming it, unlocking a sea of opportunities for your business.',
-    //     productsDetails: [
-    //         'Customer 360 view',
-    //         'Zero copy integration',
-    //         'Omnichannel engagement'
-    //     ],
-    //     knowMore: '/salesforce-consulting/salesforce-manage'
-
-    // },
-    // {
-    //     id: 5,
-    //     imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-    //     title: 'SAP Analytics Cloud',
-    //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-    //     productsDetails: [
-    //         'Optimized sales and revenue growth',
-    //         'Targeted marketing campaign',
-    //         'Strengthened customer relationships',
-    //         'Works seamlessly with MuleSoft, Tableau, and more'
-    //     ],
-    //     knowMore: '/salesforce-consulting/salesforce-manage'
-
-    // },
     {
         id: 2,
         imageUrl: '/images/sap-consulting/thumb 1.webp',
@@ -110,22 +53,7 @@ const solutionSuccess = [
         ],
         knowMore: '/services/hxm-transformation/successplus-successfactors-implementation-partner'
 
-    },
-    // {
-    //     id: 8,
-    //     imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-    //     title: 'Integration',
-    //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-    //     productsDetails: [
-    //         'Optimized sales and revenue growth',
-    //         'Targeted marketing campaign',
-    //         'Strengthened customer relationships',
-    //         'Works seamlessly with MuleSoft, Tableau, and more'
-    //     ],
-    //     knowMore: '/salesforce-consulting/salesforce-manage'
-
-    // },
-    {
+    }, {
         id: 4,
         imageUrl: '/images/sap-consulting/SAP Ariba.webp',
         title: 'SAP Ariba',
@@ -139,24 +67,7 @@ const solutionSuccess = [
         ],
         knowMore: '/services/spend-management/sapbuyplus-ariba-implementation-partner'
 
-    },
-    // {
-    //     id: 8,
-    //     imageUrl: '/images/sap-consulting/SAP Analytics Cloud thumb.png',
-    //     title: 'BTP',
-    //     description: 'Follow a structured strategy for implementing Salesforce, right from initial planning to post-implementation support.',
-    //     productsDetails: [
-    //         'Optimized sales and revenue growth',
-    //         'Targeted marketing campaign',
-    //         'Strengthened customer relationships',
-    //         'Works seamlessly with MuleSoft, Tableau, and more'
-    //     ],
-    //     knowMore: '/sap/sap-btp'
-
-    // },
-
-
-]
+    },]
 
 
 
@@ -167,86 +78,84 @@ export default function Page() {
 
     return (
         <div className="min-h-screen bg-white">
-              <Seo
-        title="SAP Consulting and Implementation Services Company | Rialtes"
-        description="Our SAP consulting and implementation services, with AI at their core, simplify the process, so you can focus on what matters most—growing your business."
-        keywords="home, website, welcome"
-        canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
-      />
+            <Seo
+                title="SAP Consulting and Implementation Services Company | Rialtes"
+                description="Our SAP consulting and implementation services, with AI at their core, simplify the process, so you can focus on what matters most—growing your business."
+                keywords="home, website, welcome"
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
+            />
 
 
-            <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] group overflow-hidden">
-                <Image
-                    src="/images/sap-consulting/SAP-Consulting-banner.webp"
-                    alt="RISE with SAP"
-                    className="transform transition-transform duration-500 group-hover:scale-110"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                    priority
-                />
-                <div
-                    className="
-              container h-full relative
-              ml-[15px] w-[calc(100%-15px)] mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]
-              sm:mx-5 sm:w-[calc(100%-40px)]
-              xs:mx-4 xs:w-[calc(100%-32px)]"
-                >
-                    <div className="container  text-black mx-auto pl-6 h-full flex flex-col xl:justify-center">
-                        <div className="flex flex-col xl:place-self-end mt-[20%] xl:mt-0 ml-[50px] xl:ml-0">
-                            <h3 className="text-[200] font-bold mb-2">SAP Consulting</h3>
-                            <h2>
+            {/* hero section */}
+            <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
+                {/* Desktop Image */}
+                <div className="hidden lg:block">
+                    <Image
+                        src="/images/sap-consulting/SAP-Consulting-banner.webp"
+                        alt="desktop banner"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
+                </div>
+
+                {/* Mobile Image */}
+                <div className="block lg:hidden">
+                    <Image
+                        src="/images/sap-consulting/SAP-Consulting-banner.webp"
+                        alt="mobile banner"
+                        fill
+                        priority
+                    />
+                </div>
+
+                <div className="relative h-full custom-container grid grid-cols-12 sm:items-center">
+                    <div className="md:col-span-3 sm:col-span-1 col-span">
+                       
+                    </div>
+                    <div className="md:col-span-9 sm:col-span-11 col-span-12">
+                        <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px]">
+                            <h3 className="text-[18px] md:text-[24px] font-bold">SAP Consulting</h3>
+                            <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 Leaning towards a better tomorrow.
                             </h2>
-                            <h3 className="w-[75%] font-bold xl:block hidden">Confidently Reduce efforts and increase efficiency with SAP solutions.</h3>
-                            <div className="md:w-32 w-20 pt-6">
-                                <Image
-                                    src="/images/success-factors/sap-partner-logo.webp"
-                                    alt="SAP Partner Logo"
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                    priority
-                                />
-                            </div>
+                            <h3 className="text-[18px] md:text-[24px] font-bold mt-[16px] xl:mt-[29.5px] w-[100%] md:w-[90%]">
+                                Leveraging SAP Consulting Services for reliable business operations.
+                            </h3>
+                            <Image
+                                src="/images/success-factors/sap-partner-logo.webp"
+                                alt="SAP Partner Logo"
+                                width={0}
+                                height={0}
+                                priority
+                                className="mt-5 w-[25%] sm:w-[16%] md:w-[14%] lg:w-[16%]"
+                            />
                         </div>
-
                     </div>
                 </div>
             </section>
 
 
-            <section
-                className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
+            {/* leverage sap section */}
 
-                <div className="py-10 bg-white">
-                    <div className="container mx-auto 2xl:pr-80 xl:pr-40 md:pr-20">
-                        <div className="flex flex-col xl:flex-row items-center py-6">
-                            <div className="flex flex-col w-full xl:mr-20 xl:mb-0 mb-4">
-                                <h1 className="text-black md:pb-0 pb-4">Leverage SAP Consulting Services for Reliable Business Operations</h1>
-                            </div>
-                            <div className="flex flex-col w-full xl:w-2/3">
-                                <p className="text-[#000000]">What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.</p>
-                            </div>
-                        </div>
+            <section className="w-full custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
+                <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
 
+                    <div>
+                        <h1 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
+                    </div>
+
+                    <div className="w-full">
+                        <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] xl:w-[90%] w-[96%]">What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.</p>
                     </div>
                 </div>
             </section>
 
-
-            <section className="lg:mt-20 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
-                <h2>Our Solutions to Success</h2>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-5 gap-5">
+            {/* our solutions to success section */}
+            <section className="xl:mt-[164px] mt-[64px] custom-container">
+                <h2 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px]">Our Solutions to Success</h2>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-[44px]">
                     {solutionSuccess.map((product) => {
                         return (
                             <div key={product.id} className="border-2">
@@ -256,7 +165,7 @@ export default function Page() {
                                         alt="Salesforce Consulting Team"
                                         className="transform w-full h-full transition-transform duration-500 group-hover:scale-110"
                                         height={0} width={0}
-                                        // sizes="100vw"
+                                    // sizes="100vw"
                                     />
                                 </div>
                                 <div className="p-8">
@@ -288,66 +197,72 @@ export default function Page() {
             </section>
 
 
-            <section className="lg:mt-32 mt-20 pb-20">
+            {/* sap industry section */}
+            <section className="mt-[84px]">
                 <div
-                    className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
+                    className="custom-container md:!pr-0"
                 >
-                    <h2 className="text-black mb-6 xl:pr-[400px] pr-0">SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations</h2>
-                    <div>
+                    <h2 className="text-black xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] md:w-[60%] xl:w-[80%]">SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations</h2>
+                    <div className="mt-[51px]">
                     </div>
                     <CarouselComponent />
                 </div>
             </section>
 
+            {/* get inspired section */}
             <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20 pt-20">
                 <div
-                    className="
-                    ml-[15px] w-[calc(100%-15px)] mr-0
-                    xl:ml-[280px] xl:w-[calc(100%-280px)]
-                    md:ml-[100px] md:w-[calc(100%-100px)]
-                    sm:mx-5 sm:w-[calc(100%-40px)]
-                    xs:mx-4 xs:w-[calc(100%-32px)] "
+                    className="custom-container md:!pr-0 "
                 >
                     <FeaturedCarousel />
                 </div>
             </section>
 
-            <div
-                className="mt-20 mb-20
-                               ml-[15px] w-[calc(100%-15px)] mr-0
-                               xl:ml-[280px] xl:w-[calc(100%-280px)]
-                               md:ml-[100px] md:w-[calc(100%-100px)]
-                               sm:mx-5 sm:w-[calc(100%-40px)]
-                               xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
-                <ServicesBlogs slides={slides} />
-
-            </div>
             {/*life science section */}
-            <section className='xl:mt-40 mt-5 relative'>
+            <section className='mt-[113px] relative'>
                 <div className='group overflow-hidden'>
                     <div>
-                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full h-full hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/sap-consulting/RISE with SAP highlight.webp' />
+                        <Image
+                            quality={100}
+                            layout="responsive"
+                            loading="lazy"
+                            width='100'
+                            height='100'
+                            className='w-full 3xl:!h-[500px] 2xl:!h-[500px] xl:!h-[500px] lg:!h-[380px] md:!h-[384px] sm:!h-[360px] !h-[480px] object-cover transition-transform duration-500 transform group-hover:scale-110'
+                            alt='Life Section'
+                            src='/images/sap-consulting/RISE with SAP highlight.webp'
+                        />
                     </div>
                 </div>
-                <div className='bg-[#134874] hidden xl:block absolute p-8 text-white xl:w-[410px] xl:h-[410px] xl:right-[20rem] xl:top-[-3rem] top-[392px]'>
-                    <h2>RISE with SAP</h2>
-                    <p className='mt-5'>Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.</p>
-                    <Link href='/services/business-transformation/rise-with-sap-services'>
-                        <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
-                    </Link>
+
+                <div className="custom-container">
+                    <div className='bg-[#134874] absolute text-white 
+  w-[90%] max-w-[500px] pt-[52px] pb-[22px] px-[32px]
+  top-[-10%] 
+  md:right-[40px]
+  lg:right-[40px]
+  xl:right-[40px]
+  2xl:right-[200px]
+  left-1/2 md:left-auto 
+  -translate-x-1/2 md:translate-x-0'>
+
+
+                        <h2 className="xl:text-[60px] text-[26px] font-light leading-[32px] xl:leading-[73px]">RISE with SAP</h2>
+                        <p className='xl:text-[20px] text-[16px] font-medium xl:leading-[30px] mt-[23px]'>
+                            Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.
+                        </p>
+                        <Link href='/services/business-transformation/rise-with-sap-services'>
+                            <p className='mt-8 cursor-pointer pb-10'>Learn More →</p>
+                        </Link>
+                    </div>
                 </div>
             </section>
+
             {/* Contact Form */}
             < div
                 className="pb-20
-  container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black xl:pt-10"
+  custom-container
+  text-black xl:mt-[125px] mt-[80px]"
             >
                 <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
 
