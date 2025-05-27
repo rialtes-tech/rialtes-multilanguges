@@ -8,6 +8,7 @@ import { useState } from "react";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 
 export default function HealthCloud() {
@@ -77,68 +78,31 @@ export default function HealthCloud() {
 
     ]
 
-
-
     return (
         <section>
-               <Seo
-        title="Salesforce Revenue Cloud Implementation Partners | Rialtes"
-        description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
-        keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
-      />
+            <Seo
+                title="Salesforce Revenue Cloud Implementation Partners | Rialtes"
+                description="Grow with SAP and harness AI-driven ERP to streamline operations, boost efficiency, and drive business transformation seamlessly. Partner with Rialtes today!"
+                keywords="home, website, welcome"
+                canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
+            />
 
-            <div className="relative h-[350px] sm:h-[500px] lg:h-[837px] overflow-hidden">
-                <Image
-                    src="/images/revenue-cloud/revenue-cloud-banner.webp"
-                    alt="Revenue Cloud"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                    priority
-                />
-                <div
-                    className="
-                container h-full relative
-                ml-[15px] w-[calc(100%-15px)] mr-0
-                xl:ml-[280px] xl:w-[calc(100%-280px)]
-                md:ml-[100px] md:w-[calc(100%-100px)]
-                sm:mx-5 sm:w-[calc(100%-40px)]
-                xs:mx-4 xs:w-[calc(100%-32px)]"
-                >
-                    <div className="container mx-auto h-full flex flex-col justify-center">
-                        <div className="flex flex-col">
-                            <h4 className="text-white text-[300] font-medium mb-2">Salesforce Revenue Cloud</h4>
-                            <h2 className="text-white max-w-lg">
-                                Manage Revenue Streams and Customer Relationships in One Place
-                            </h2>
-                        </div>
-                        <div className="lg:mt-10 mt-6">
-                            <Image
-                                src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                                className="md:w-[300px] w-[100px] h-full bg-transperent"
-                                alt="Leadership Team"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                priority
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
+       
 
-            <div className=" grid lg:grid-cols-10 gap-5 px-6 xl:px-[280px] md:px-[100px]  lg:mt-16 mt-5">
+            <HeroSection title="Manage Revenue Streams and Customer Relationships in One Place" subtitle="Salesforce Revenue Cloud" mobimg="/images/revenue-cloud/revenue-cloud-banner.webp" deskimg="/images/revenue-cloud/revenue-cloud-banner.webp" extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"/>
+
+            <div className="custom-container grid lg:grid-cols-10 gap-9 lg:mt-16 mt-5">
                 <div className="lg:col-span-5">
-                    <h1>Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
+                    <h1 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-light">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
                 </div>
                 <div className="lg:col-span-5">
-                    <p>
+                    <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] w-[96%] xl:w-[80%]">
                         Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.
                     </p>
                 </div>
             </div>
-            <section className="lg:mt-20 px-6 xl:px-[280px] md:px-[100px] py-10">
-                <h3 className="md:text-[30px] md:font-[300]">Revenue Cloud Process Flow</h3>
+            <section className="lg:mt-20 custom-container py-10">
+                <h3 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-normal">Revenue Cloud Process Flow</h3>
                 <Image
                     src='/images/revenue-cloud/revenue-cloud-infographic.webp'
                     alt="Revenue Cloud Process Flow"
@@ -152,8 +116,8 @@ export default function HealthCloud() {
                 />
             </section>
 
-            <section className="lg:mt-20 px-6 xl:px-[280px] md:px-[100px] mt-10 pb-10">
-                <h2>Streamline your Quote-to-Cash Process</h2>
+            <section className="lg:mt-20 custom-container mt-10 pb-10">
+                <h2 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-normal">Streamline your Quote-to-Cash Process</h2>
                 <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 lg:mt-10 gap-5">
                     {salesForce.map((sales) => {
                         return (
@@ -178,7 +142,7 @@ export default function HealthCloud() {
                     })}
 
                 </div>
-                <h2 className="mt-20">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
+                <h2 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-normal mt-20">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
                 <div className="my-10">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5">
                         {salesForce2.map((sales) => {
@@ -198,14 +162,7 @@ export default function HealthCloud() {
             {/* Reduce Revenue Pitfalls, Supercharge Your Sales Funnel */}
             < div className="bg-[#EDEDED] py-6" >
                 <div
-                    className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-                >
+                    className="custom-container">
                     <section className="py-5">
                         <div className="container mx-auto">
                             <h2 className="pb-4 text-black">Reduce Revenue Pitfalls, Supercharge Your Sales Funnel</h2>
@@ -232,7 +189,7 @@ export default function HealthCloud() {
 
             <section className="bg-[#F5F5F5] py-10">
                 <div
-                    className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
+                    className="custom-container"
                 >
                     <FeaturedCarousel />
                 </div>
@@ -240,21 +197,16 @@ export default function HealthCloud() {
 
 
             <div
-                className="mt-20 mb-20
-                               ml-[15px] w-[calc(100%-15px)] mr-0
-                               xl:ml-[280px] xl:w-[calc(100%-280px)]
-                               md:ml-[100px] md:w-[calc(100%-100px)]
-                               sm:mx-5 sm:w-[calc(100%-40px)]
-                               xs:mx-4 xs:w-[calc(100%-32px)]"
+                className="mt-20 mb-20 custom-container"
             >
                 <ServicesBlogs slides={slides} />
 
             </div>
 
-            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080]  mt-10 py-10'>
+            <section className='custom-container md:!pr-0 lg:mt-20 bg-[#808080]  mt-10 py-10'>
                 <ExploreMoreCarousel />
             </section>
-            <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">
+            <section className="custom-container lg:mt-20 pb-20 mt-10">
                 <ContactForm />
 
             </section>
