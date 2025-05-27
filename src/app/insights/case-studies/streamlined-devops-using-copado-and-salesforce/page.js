@@ -88,13 +88,13 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">Streamlined DevOps using Copado and Salesforce</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">DevOps Transformation using Copado and Salesforce</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -115,7 +115,7 @@ export default function Page() {
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-3">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -140,7 +140,7 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -150,38 +150,57 @@ export default function Page() {
 
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects. They offer high-quality products, including roofing (shingles), decking, railing, and waterproofing solutions. Their focus is on helping contractors, builders, and homeowners to enhance the durability, performance, and aesthetics of their buildings. </p>
+              <p className="text-black">A prominent manufacturer specializing in innovative building materials for both residential and commercial construction. Their product portfolio includes roofing shingles, decking, railing, and waterproofing solutions. The company is committed to supporting contractors, builders, and homeowners in enhancing building durability, performance, and visual appeal.</p>
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
-              <p className="text-black pb-6">The company had a complex multi-layered deployment environment with numerous sandboxes for development, QA, pre-production, and production. And this made managing releases difficult. </p>
+              <p className="text-black pb-6">The client was struggling with a fragmented and inefficient deployment process due to a complex, multi-layered environment, which included:</p>
 
-              <p className="text-black pb-6">Releases happened monthly with additional ad-hoc deployments, leading to delays in getting features and fixes to end users. </p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4">Multiple sandboxes across development, QA, pre-production, and production stages.
+                </li>
+                <li className="pb-4">Monthly release cycles supplemented with ad-hoc deployments, leading to delays in delivering new features and fixes.</li>
+                <li className="pb-4">Manual deployment processes that involved cross-functional handoffs, increasing the risk of human error and inconsistencies.
+                </li>
+                <li className="pb-4">Limited version control and a lack of centralized access management make it difficult to maintain a stable, bug-free production environment.
+                </li>
 
-              <p className="text-black pb-6">Deployments were manual that required transfers between development, QA, and production teams, which increased the risk of errors and inconsistencies. </p>
+              </ul>
 
-              <p className="text-black">Version control was challenging, and managing access across different environments was complex, which made maintaining a stable and bug free production environment difficult. </p>
+
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
-              <p className="text-black pb-6">Rialtes implemented a refined DevOps process with improved continuous integration (CI) and continuous development (CD) practices. We introduced Copado, a native Salesforce DevOps platform, to streamline deployments and automate their existing workflows.</p>
-
-              <p className="text-black pb-6">Rialtes analyzed the existing deployment processes of the manufacturing company. We performed a fit gap analysis to identify gaps between current practices and Copado’s capabilities. Additionally, we educated the manufacturing company on DevOps best practices and Copado’s functionalities and defined a deployment landscape with a streamlined process.</p>
-
-              <p className="text-black">We created a simplified DevOps pipeline with Copado and integrated GitHub for version control and Azure DevOps for project management. Deployments were automated with CI/CD practices and centralized control over versions, access, data and the ability to quickly create new environments as needed was provided to the manufacturing company.</p>
+              <p className="text-black pb-6">Rialtes introduced a robust DevOps strategy leveraging Copado, a native Salesforce DevOps platform, to streamline and automate the client's deployment lifecycle.</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
+                <li className="pb-4"><strong>Process Assessment: </strong> Conducted a thorough analysis of the client's existing deployment workflows.</li>
+                <li className="pb-4"><strong>Fit-Gap Analysis:  </strong> Identified gaps between current practices and the capabilities offered by Copado.</li>
+                <li className="pb-4"><strong>Education & Enablement:  </strong> Trained internal teams on DevOps best practices and Copado functionalities.</li>
+                <li className="pb-4"><strong>Deployment Landscape Redesign: </strong> Defined a streamlined deployment architecture tailored to the client’s environment.</li>
+              </ul>
             </div>
           </div>
+          <div className="py-6"></div>
+          <h3 className="h3-bold text-[#0092E0] pb-6">Technology Implementation</h3>
+          <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
+            <li className="pb-4"><strong>CI/CD Pipeline Setup: </strong> Built a simplified and automated DevOps pipeline using Copado.</li>
+            <li className="pb-4"><strong>Tool Integration:  </strong> GitHub for centralized version control.<br />
+              Azure DevOps for agile project and release management.
+            </li>
+            <li className="pb-4"><strong>Centralized Control:  </strong> Enabled consistent oversight of versioning, access, data, and environment provisioning.</li>
+          </ul>
+
+
+
           <div className="py-6"></div>
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
-
-
-
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
-
-                <li className="pb-4">Copado provides a central platform for managing versions, access, data, and deployments, which simplifies oversight and version control. </li>
-                <li className="pb-4">Copado ensures secure development environments and robust version control, preventing code conflicts. </li>
-                <li className="pb-4">Manual deployments are eliminated and replaced by automated workflows with a user-friendly dashboard for monitoring releases. </li>
-                <li>The manufacturing company can now run independent minor, major, and bug fix releases simultaneously and accelerating delivery.</li>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4">Automated CI/CD pipelines and streamlined workflows cut deployment time by more than half, enabling quicker time-to-market for new features and bug fixes.</li>
+                <li className="pb-4">Transitioning from manual to automated deployments drastically reduced human errors, ensuring more stable and reliable releases.</li>
+                <li className="pb-4">The ability to run minor, major, and bug-fix releases simultaneously improved release frequency and responsiveness to business needs. Resulting in 50% faster release cycles.</li>
+                <li className="pb-4"> GitHub integration provided full traceability and transparency across environments, reducing code conflicts and improving audit readiness.</li>
+                <li className="pb-4">With centralized tools and automated workflows, development and QA teams spent less time on repetitive tasks, increasing DevOps Team Productivity by 40%</li>
+                <li>Fewer deployment errors led to higher environment uptime and fewer rollbacks, ensuring a more stable production environment.</li>
               </ul>
 
             </div>

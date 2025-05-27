@@ -24,7 +24,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "8 Jan 2025",
     url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-    title: "Streamlined DevOps using Copado and Salesforce",
+    title: "DevOps Transformation using Copado and Salesforce",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
