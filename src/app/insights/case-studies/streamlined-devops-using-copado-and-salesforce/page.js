@@ -170,7 +170,8 @@ export default function Page() {
               <div className="py-6"></div>
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
               <p className="text-black pb-6">Rialtes introduced a robust DevOps strategy leveraging Copado, a native Salesforce DevOps platform, to streamline and automate the client's deployment lifecycle.</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
+              <p className="font-bold pb-3">Approach</p>
+              <ul className="list-decimal text-black pl-4 xl:text-[20px] text-[16px]">
                 <li className="pb-4"><strong>Process Assessment: </strong> Conducted a thorough analysis of the client's existing deployment workflows.</li>
                 <li className="pb-4"><strong>Fit-Gap Analysis:  </strong> Identified gaps between current practices and the capabilities offered by Copado.</li>
                 <li className="pb-4"><strong>Education & Enablement:  </strong> Trained internal teams on DevOps best practices and Copado functionalities.</li>
@@ -178,16 +179,17 @@ export default function Page() {
               </ul>
             </div>
           </div>
-          <div className="py-6"></div>
-          <h3 className="h3-bold text-[#0092E0] pb-6">Technology Implementation</h3>
-          <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
-            <li className="pb-4"><strong>CI/CD Pipeline Setup: </strong> Built a simplified and automated DevOps pipeline using Copado.</li>
-            <li className="pb-4"><strong>Tool Integration:  </strong> GitHub for centralized version control.<br />
-              Azure DevOps for agile project and release management.
-            </li>
-            <li className="pb-4"><strong>Centralized Control:  </strong> Enabled consistent oversight of versioning, access, data, and environment provisioning.</li>
-          </ul>
-
+          <div className="py-4"></div>
+          <div className="container mx-auto">
+            <p className="h3-bold pb-6">Technology Implementation</p>
+            <ul className="list-decimal  text-black pl-4 xl:text-[20px] text-[16px]">
+              <li className="pb-4"><strong>CI/CD Pipeline Setup: </strong> Built a simplified and automated DevOps pipeline using Copado.</li>
+              <li className="pb-4"><strong>Tool Integration:  </strong> GitHub for centralized version control.<br />
+                Azure DevOps for agile project and release management.
+              </li>
+              <li className="pb-4"><strong>Centralized Control:  </strong> Enabled consistent oversight of versioning, access, data, and environment provisioning.</li>
+            </ul>
+          </div>
 
 
           <div className="py-6"></div>
