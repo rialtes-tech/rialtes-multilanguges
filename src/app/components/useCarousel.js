@@ -14,7 +14,7 @@ export default function servicesInsightsCarousel() {
     // { id: 5, category: "Finance", description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust." },
     // { id: 6, category: "Public Sector", description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we're shaping the future of the public sector" },
   ];
-  
+
   // Adjust the responsive settings for showing 4 items on the first slide, 2 on the second
   const responsive = {
     desktop: {
@@ -105,20 +105,19 @@ export default function servicesInsightsCarousel() {
 
   return (
     <section className="relative pb-8 bg-white">
-       <div className='flex justify-between mt-4'>
-            <p className="xl:w-[70%] w-full">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
-         
-          <div>
-        <ButtonGroup
-          next={() => carouselRef.current.next()}
-          previous={() => carouselRef.current.previous()}
-        />
+      <div className='grid  grid-cols-12  mb-[55px]'>
+        <p className="w-full md:col-span-6 col-span-12 text-[20px]">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
 
-      </div>
+        <div className='md:col-span-4 flex justify-end col-span-12 max-md:mt-6'>
+          <ButtonGroup
+            next={() => carouselRef.current.next()}
+            previous={() => carouselRef.current.previous()}
+          />
+
+        </div>
       </div>
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pb-5">
-         
         </div>
         <Carousel
           swipeable={true}
@@ -146,15 +145,21 @@ export default function servicesInsightsCarousel() {
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group md:min-h-[450px] min-h-[296px]`}
+              className="flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group"
             >
-              <div className="min-h-[250px] min-w-full relative">
-                <div className="absolute inset-0 p-3 my-2">
-                  <div className="mt-3 font-semibold text-[18px] xl:text-[30px]">{slide.category}</div>
-                  <p className="mt-5 xl:text-[20px] text-[16px]">{slide.description}</p>
+              {/* Optional: Add an image or background here if needed */}
+              <div className="w-full h-full min-h-[380px] sm:min-h-[380px] md:min-h-[300px] lg:min-h-[500px] xl:min-h-[600px] 2xl:min-h-[500px] relative bg-white">
+                <div className="absolute inset-0 py-[42px] px-[36px]">
+                  <div className="mt-3 font-semibold text-[18px] xl:text-[30px]">
+                    {slide.category}
+                  </div>
+                  <p className="mt-5 xl:text-[20px] text-[16px]">
+                    {slide.description}
+                  </p>
                 </div>
               </div>
             </div>
+
           ))}
         </Carousel>
       </div>

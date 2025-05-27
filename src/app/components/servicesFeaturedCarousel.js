@@ -28,36 +28,6 @@ export default function servicesFeaturedCarousel() {
       title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
       description: "A global medical technology company that develops and manufactures innovative products",
     },
-    /*{
-      id: 4,
-      imgSrc: "/images/case-studies/case-study-4_thumb.webp",
-      title: "Omnichannel case management with Salesforce Service Cloud",
-      description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-    },
-     {
-      id: 5,
-      imgSrc: "/images/case-studies/case-study-5_thumb.webp",
-      title: "A public housing in US",
-      description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
-    },
-    {
-      id: 6,
-      imgSrc: "/images/case-studies/case-study-6_thumb.webp",
-      title: "Yardi Managed Services",
-      description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    },
-    {
-      id: 7,
-      imgSrc: "/images/case-studies/case-study-7_thumb.webp",
-      title: "Streamlined DevOps using Copado and Salesforce",
-      description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    },
-    {
-      id: 8,
-      imgSrc: "/images/case-studies/case-study-8_thumb.webp",
-      title: "RealForce Banking Module - ACH",
-      description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    }, */
   ];
 
   const responsive = {
@@ -116,8 +86,8 @@ export default function servicesFeaturedCarousel() {
   return (
     <section className="relative pb-10">
       <div>
-        <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3">
-          <h2 className="text-black mb-10 max-w-2xl sm:mr-0 mr-20 leading-tight">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
+        <div className="flex flex-col justify-between">
+          <h2 className="text-black mb-[87px] w-[70%] leading-tight max-sm:text-[18px]">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>
         <Carousel
           swipeable={true}
