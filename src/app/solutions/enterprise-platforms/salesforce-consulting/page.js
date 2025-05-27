@@ -8,6 +8,7 @@ import InsightsCarousel from '../../../components/servicesInsightsCarousel';
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import { HeroSection } from "@/app/components/herosection";
 export default function SalesForceConsulting() {
 
   
@@ -157,7 +158,7 @@ export default function SalesForceConsulting() {
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}
             />
 
-            <div className='relative group overflow-hidden'>
+            {/* <div className='relative group overflow-hidden'>
                 <Image
                     src="/images/salesforce-consulting-services/banner.webp"
                     alt="Salesforce Consulting Team"
@@ -187,19 +188,31 @@ export default function SalesForceConsulting() {
 
                 </div>
 
-            </div>
-            <div className=" grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 xl:px-[280px] md:px-[100px] lg:pr-0 lg:mt-16 mt-5">
+            </div> */}
+
+
+ <HeroSection txtColor="black"
+        title="Transform how you engage with your clients"
+        subtitle="salesforce"
+        mobimg="/images/salesforce-consulting-services/banner.webp"
+        deskimg="/images/salesforce-consulting-services/banner.webp"
+        extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"
+      />
+
+
+
+            <div className=" grid lg:grid-cols-10 xl:gap-16 gap-5 px-6  custom-container lg:mt-16 mt-5">
                 <div className="lg:col-span-6 mt-5">
                     <h1>Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting</h1>
                 </div>
-                <div className="lg:col-span-4">
+                <div className="lg:col-span-4 lg:mt-16 mt-5">
                     <p>
                         Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.
                     </p>
                 </div>
             </div>
             {/* section crm consulting */}
-            <section className="mt-16 px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
+            <section className="mt-16 px-6  custom-container">
                 <h2>Our Salesforce CRM Consulting Services</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
                     {salesForce.map((sales) => {
@@ -229,7 +242,7 @@ export default function SalesForceConsulting() {
             </section>
             {/* Salesforce product */}
 
-            <section className="mt-20  px-6 xl:pl-[280px] xl:pr-[418px] md:pl-[100px] lg:pr-0">
+            <section className="mt-20  px-6  custom-container">
                 <h2>Salesforce Products</h2>
                 <p className="lg:mt-3 mb-8 mt-3">Well, Salesforce consulting is just one part of an array of solutions.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
@@ -258,8 +271,6 @@ export default function SalesForceConsulting() {
                                                     {details}
                                                 </li>
 
-
-
                                             )
                                         })}
                                     </ul>
@@ -276,7 +287,7 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* your business */}
-            <section className="mt-16  px-6 xl:pl-[280px] xl:pr-[120px] md:pl-[150px] lg:pr-0">
+            <section className="mt-16  px-6  custom-container">
                 <h2 className="font-normal xl:w-[70%] w-full">Understanding and targeting the customers correctly for your business</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16">
                     {businessDetails.map((bussiness) => {
@@ -291,8 +302,8 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* Action section */}
-            <section className="bg-[#EDEDED] lg:mt-20 mt-5 py-5">
-                <div className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0">
+            <section className="bg-[#EDEDED] lg:mt-10 mt-5 py-5">
+                <div className="px-6  custom-container">
                     <h3 className="mt-10 mb-10 font-medium">Action is what matters and not just words</h3>
                     <div className="grid lg:grid-cols-10 grid-cols-1">
                         <div className=" col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20" >
@@ -321,29 +332,23 @@ export default function SalesForceConsulting() {
             {/* different industries different mindset */}
 
 
-            <section className="lg:mt-32 mt-10 pb-20">
+            <section className=" custom-container lg:mt-20 mt-5 pb-20">
 
-                <div
-                    className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
-                >
+                <div >
                     <h2 className="text-black mb-6">Different industries, different mindsets</h2>
 
                     <CarouselComponent />
                 </div>
             </section>
-            <section className="bg-[#F5F5F5] xl:mt-12 mt-10 pb-20 pt-20">
+            <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20">
                 <div
                     className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)] "
+       "
                 >
                     <FeaturedCarousel />
                 </div>
             </section>
-            <section className='px-6 md:px-0 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 mt-10'>
+            <section className=' custom-container lg:mt-20 mt-10'>
                 <InsightsCarousel />
             </section>
 
@@ -353,7 +358,7 @@ export default function SalesForceConsulting() {
                         <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/agentforce-banner.webp' />
                     </div>
                 </div>
-                <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[23%] lg:right-[15rem] lg:top-[-3rem] top-[392px]'>
+                <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[33%] lg:right-[8rem] lg:top-[-3.5rem] top-[392px]'>
                     <h2>Agentforce</h2>
                     <p className='mt-5'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                    <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
@@ -361,7 +366,7 @@ export default function SalesForceConsulting() {
                     </Link>
                 </div>
             </section>
-            <section className="pb-20 xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0 pt-10 mt-20">
+            <section className="pb-20  custom-container  pt-10 mt-20">
                 <ContactForm className='xl:w-[70%] w-full xl:text-[60px] text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
             {/* contact section */}
