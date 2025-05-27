@@ -581,7 +581,7 @@ const SeamlessIntergrationsSection = () => {
             />
 
             <div className="absolute bottom-0 lg:top-[40%] w-full lg:px-0">
-                <div className="bg-[#006FBE] text-[#FFFFFF] xl:z-50 xl:py-[64px] xl:px-[60px] 2xl:ml-[25%] md:py-[48px] md:px-[2rem] pt-[42px] pb-[98px] px-[2rem] max-w-[1200px] mx-auto lg:translate-y-[-40px]">
+                <div className="bg-[#006FBE] text-[#FFFFFF] xl:z-50 xl:py-[64px] xl:px-[60px] 2xl:ml-[25%] md:py-[48px] md:px-[2rem] pt-[42px] pb-[98px] px-[2rem] max-w-[1200px] mx-auto lg:translate-y-[-40px] ">
                     <div className="lg:col-span-8 col-span-12">
                         <h2 className="text-[26px] leading-[32px] font-light md:text-[36px] md:leading-[44px] lg:text-[60px] lg:leading-[73px] sm:w-full lg:w-[90%]">
                             Seamless Integrations Powered by SAP CPI & Rialtes BTP Competency
@@ -619,10 +619,10 @@ const BuyingInvoicingSection = () => {
         "AI-powered spend analytics to optimize procurement budgets."
     ]
     return (
-        <section className="text-[#FFFFFF] relative lg:mt-[82px] sm:mt-[200px] md:mt-[200px] mt-[100px]">
+        <section className="text-[#FFFFFF] relative lg:mt-[82px] sm:mt-[200px] md:mt-[200px] mt-[100px] ">
             <div className="flex flex-col-reverse xl:flex-row items-center xl:items-start xl:relative">
                 <div className="z-10 bg-[#073259] xl:w-[60%] w-full xl:my-auto relative">
-                    <div className="px-[2rem] pb-[56px] lg:pt-[59px] lg:pr-[57px] lg:pb-[71px] buyingLeftDiv">
+                    <div className="  custom-container px-[2rem] pb-[56px] lg:pt-[59px] lg:pr-[57px] lg:pb-[71px] buyingLeftDiv">
                         <h2 className="text-[20px] leading-[24px] font-light lg:text-[60px] lg:leading-[73px]">
                             Buying & Invoicing (Procure-to-Pay)
                         </h2>
@@ -656,7 +656,7 @@ const BuyingInvoicingSection = () => {
                         height={100}
                         className="hidden lg:block w-full h-full object-cover"
                     />
-                    <div className="block lg:hidden absolute top-0 left-1/2 translate-x-[-50%] translate-y-[-20%] w-[84%] z-50">
+                    <div className="block lg:hidden absolute top-0 left-1/2 translate-x-[-50%] translate-y-[-20%] w-[84%] z-10">
                         <Image
                             src="/images/sap-buy/Mobile/buying-mob-img.webp"
                             alt="buying-img"
@@ -688,7 +688,7 @@ const AgentChat = () => {
         }
     ];
     return (
-        <section className="relative agentChatSection xl:mt-[143px] mt-[89px]">
+        <section className=" relative agentChatSection xl:mt-[143px] mt-[89px]">
             <div className="xl:ml-[240px] z-50">
                 <Image
                     src="/images/sap-buy/agent-chat-img.webp"
@@ -784,13 +784,8 @@ export default function page() {
             {/* agent chat */}
             <AgentChat />
             {/* Contact Form */}
-            <div
-                className="
-                         xl:container
-                         mx-[35px] xl:mr-0
-                         xl:ml-[280px] xl:w-[calc(100%-280px)]
-                         md:ml-[100px] md:w-[calc(100%-100px)]
-                         text-black xl:pb-20 pb-10 xl:pt-[138px]"
+        <div    className="      custom-container   
+                       mt-5 text-black xl:pb-20 pb-10 xl:pt-[138px]"
             >
                 <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >

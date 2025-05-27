@@ -10,8 +10,6 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import { HeroSection } from "@/app/components/herosection";
 export default function SalesForceConsulting() {
-
-  
     const salesForce = [
         {
             id: 1,
@@ -198,9 +196,6 @@ export default function SalesForceConsulting() {
         deskimg="/images/salesforce-consulting-services/banner.webp"
         extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"
       />
-
-
-
             <div className=" grid lg:grid-cols-10 xl:gap-16 gap-5 px-6  custom-container lg:mt-16 mt-5">
                 <div className="lg:col-span-6 mt-5">
                     <h1>Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting</h1>
