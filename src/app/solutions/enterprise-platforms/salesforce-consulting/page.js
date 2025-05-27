@@ -191,7 +191,7 @@ export default function SalesForceConsulting() {
 
  <HeroSection txtColor="black"
         title="Transform how you engage with your clients"
-        subtitle="salesforce"
+        subtitle="Salesforce"
         mobimg="/images/salesforce-consulting-services/banner.webp"
         deskimg="/images/salesforce-consulting-services/banner.webp"
         extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"
