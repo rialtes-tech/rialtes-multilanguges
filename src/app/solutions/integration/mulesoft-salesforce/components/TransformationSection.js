@@ -29,7 +29,7 @@ const pointsData = [
 
 const TransformationSection = () => (
   <div className="py-24">
-    <div className="containerr flex items-start max-xl:flex-col justify-between gap-10">
+    <div className="custom-container flex items-start max-xl:flex-col justify-between gap-10">
       <div className="w-full xl:max-w-[50%] max-w-full">
         <h2 className="w-full mb-8">
           Unleashing Digital Transformation with Robust Integration Solution
@@ -64,7 +64,7 @@ className="font-medium flex mt-3 items-start before:content-['•'] before:text-
       </div>
 
     </div>
-    <div className="xl:ml-[280px] px-6 xl:px-0">
+    <div className=" custom-container">
     <LearnMore/>
 
     </div>

@@ -32,7 +32,7 @@ const Data = [
 
 const Serve = () => (
   <div>
-    <div className="containerr">
+    <div className="custom-container">
       <div className="w-full mb-14">
         <h2 className="w-full mb-8">
           Industries We Serve
@@ -45,7 +45,7 @@ const Serve = () => (
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 ">
         {Data.map(({ _id, tittle, descrip }) => (
           <div className="border-r border-[#707070] ">
-            <div className="mx-auto max-w-[256px]" key={_id}>
+            <div className="max-w-[256px]" key={_id}>
               <h4 className=" font-semibold">{tittle}</h4>
               <p className=" font-medium">{descrip}</p>
             </div>
