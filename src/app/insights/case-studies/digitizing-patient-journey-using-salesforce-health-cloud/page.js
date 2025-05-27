@@ -171,8 +171,8 @@ export default function Page() {
 
               <p className="text-black pb-6">The client partnered with Rialtes to modernize the patient experience by building a fully integrated, digital-first solution.</p>
               <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>Mobile Application: </strong> Developed for Android and iOS, the app connected seamlessly with <strong> Salesforce Health Cloud </strong> to serve as a central hub for patient engagement.</li>
-                <li className="pb-4"><strong>Self-Guided Onboarding:  </strong> Patients could easily register and access a <strong>personalized dashboard</strong> to view therapy progress, action items, and relevant data.</li>
+                <li className="pb-4"><strong>Mobile Application: </strong> Developed for Android and iOS, the app connected seamlessly with Salesforce Health Cloud  to serve as a central hub for patient engagement.</li>
+                <li className="pb-4"><strong>Self-Guided Onboarding:  </strong> Patients could easily register and access a personalized dashboard to view therapy progress, action items, and relevant data.</li>
                 <li className="pb-4"><strong>Data Submission & Tracking:  </strong> Patients could log vital information—such as sleep, discomfort levels, and medication adherence, directly in the app. Integration with wearable devices (e.g., Apple Watch) enabled automatic collection of metrics like heart rate and step count.</li>
                 <li className="pb-4"><strong>Telehealth & Messaging: </strong> Enabled secure, real-time communication between patients and providers for queries, updates, and appointment scheduling.</li>
                 <li className="pb-4"><strong>Gamification & Engagement: </strong> Patients were encouraged to submit data and complete health-related tasks through gamified elements, improving long-term adherence.</li>
