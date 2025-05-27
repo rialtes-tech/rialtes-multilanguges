@@ -11,8 +11,8 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 
 const ContentSection = () => (
-  <div className="lg:py-28 py-14">
-    <div className="containerr flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
+  <div className="lg:py-28 py-14 custom-container">
+    <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
       <h2 className="w-full md:max-w-[50%] max-w-full">
         Leading Platform to Unlock an Integrated View of Your Business
       </h2>
@@ -47,12 +47,7 @@ const page = () => (
     >
       <div
         className="
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
+  custom-container
   py-10"
       >
         <FeaturedCarousel />
@@ -78,17 +73,13 @@ const page = () => (
     >
       <div>
         <div
-          className="ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container"
         >
           <ExploreMoreCarousel />
         </div>
       </div>
     </div>
-    <div className="!py-[90px] containerr">
+    <div className="!py-[90px] custom-container">
       <ContactForm />
     </div>
   </>
