@@ -16,17 +16,9 @@ export default function Page() {
                 canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
                 description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
             />
-            <section
-                className="
-       container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
+            <section className="custom-container ">
 
-                <section className="relative overflow-hidden">
+                <section className="relative overflow-hidden  lg:!pr-0">
                     <div className="xl:block hidden">
 
                         <Image
@@ -37,6 +29,7 @@ export default function Page() {
                             width={0}
                             height={0}
                         />
+
 
                     </div>
                     <div className="xl:hidden block">
@@ -52,7 +45,7 @@ export default function Page() {
 
 
                 </section>
-                <div className="pt-10 pb-24 bg-white">
+                <div className="pt-10 pb-24 bg-white  ">
                     <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
                             <div className='sm:mb-0 mb-6'>
@@ -109,24 +102,24 @@ export default function Page() {
                     </div>
                     <div className="py-3"></div>
 
-                    <div className="container mx-auto ">
-                        <div className="xl:w-[1084px]">
 
-                            <p className="text-black  xl:text-[22px] text-[18px]">
-                                Rialtes proudly announces that we have officially been named a <strong> Salesforce Reseller Partner,</strong> marking a significant milestone in our strategic journey to deliver enterprise innovation through trusted, cloud-first solutions.</p>
+                    <div className="">
 
-
-                            <p className="text-black  xl:text-[22px] text-[18px] mt-8">Already recognized as a top-rated Salesforce Crest Partner and a provider of Managed Services and Consulting, this new designation expands our capabilities to deliver end-to-end Salesforce value—from license advisory and procurement to implementation, customization, and ongoing managed support, all under one roof.</p>
-
-                            <p className="text-black  xl:text-[22px] text-[18px] mt-8">“This is a pivotal step in our journey,” said <strong> Prasad Venkatesan,</strong> VP of Global Alliances and Partnerships at Rialtes. “Becoming a Salesforce Reseller Partner enables us to simplify technology procurement for our clients while ensuring they receive industry-best advisory and implementation services. We’re excited to deepen our alignment with Salesforce and deliver even greater value.”</p>
-
-                            <p className="text-black  xl:text-[22px] text-[18px] mt-8">Our new status as a Reseller Partner reflects our certified talent, global delivery excellence, and strong collaboration with Salesforce. We're grateful to our incredible team and our partners at Salesforce, and our clients for making this possible. This partnership paves the way for agility, innovation, and simplified cloud adoption for enterprises worldwide.</p>
+                        <p className="text-black  xl:text-[22px] text-[18px]">
+                            Rialtes proudly announces that we have officially been named a <strong> Salesforce Reseller Partner,</strong> marking a significant milestone in our strategic journey to deliver enterprise innovation through trusted, cloud-first solutions.</p>
 
 
+                        <p className="text-black  xl:text-[22px] text-[18px] mt-8">Already recognized as a top-rated Salesforce Crest Partner and a provider of Managed Services and Consulting, this new designation expands our capabilities to deliver end-to-end Salesforce value—from license advisory and procurement to implementation, customization, and ongoing managed support, all under one roof.</p>
 
-                            <p className="text-black  xl:text-[22px] text-[18px] mt-8">For more information on Rialtes' AI and data services, visit <a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> or contact <span className="text-blue-600">pr@rialtes.com </span> </p>
-                        </div>
+                        <p className="text-black  xl:text-[22px] text-[18px] mt-8">“This is a pivotal step in our journey,” said <strong> Prasad Venkatesan,</strong> VP of Global Alliances and Partnerships at Rialtes. “Becoming a Salesforce Reseller Partner enables us to simplify technology procurement for our clients while ensuring they receive industry-best advisory and implementation services. We’re excited to deepen our alignment with Salesforce and deliver even greater value.”</p>
+
+                        <p className="text-black  xl:text-[22px] text-[18px] mt-8">Our new status as a Reseller Partner reflects our certified talent, global delivery excellence, and strong collaboration with Salesforce. We're grateful to our incredible team and our partners at Salesforce, and our clients for making this possible. This partnership paves the way for agility, innovation, and simplified cloud adoption for enterprises worldwide.</p>
+
+
+
+                        <p className="text-black  xl:text-[22px] text-[18px] mt-8">For more information on Rialtes' AI and data services, visit <a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> or contact <span className="text-blue-600">pr@rialtes.com </span> </p>
                     </div>
+
                 </div>
             </section>
         </div>

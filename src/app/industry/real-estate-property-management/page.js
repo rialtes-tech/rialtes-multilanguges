@@ -7,6 +7,7 @@ import LearnMore from "@/app/components/learnMore";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 const slides = [
   {
     id: 1,
@@ -72,9 +73,9 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="text-black 2xl:pr-80 xl:pr-40 md:pr-20 pr-6 mt-20">
+    <div className="text-black 2xl:pr-70 xl:pr-35 md:pr-8 pr-0 mt-20 ">
       <h2 className="text-black mb-6">Find the right property management software online with Rialtes</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 mt-10 w-full">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
         ))}
@@ -172,7 +173,7 @@ const GrowServicesCard = ({ services }) => (
 
 const GrowServices = () => {
   return (
-    <div className="text-black lg:pr-20 md:pr-10 pr-6 ">
+    <div className="text-black lg:pr-20 md:pr-10   pr-6 ">
       <h2 className="pb-10 text-black xl:w-1/2 w-fill">Enhance your real estate operations with our customizable service offerings</h2>
       <p className="xl:w-1/2 w-full">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
@@ -194,8 +195,8 @@ export default function Page() {
         title="Real-Estate | Rialtes"
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/real-estate-property-management/"
-      />
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+       />
+       {/* <section className="relative h-[420px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp"
           alt="GROW with SAP"
@@ -205,12 +206,8 @@ export default function Page() {
         />
         <div
           className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+         h-full relative
+       custom-container"
         >
           <div className="container mx-auto h-full flex flex-col justify-center mt-[-65px] xl:mt-0">
             <div className="flex flex-col">
@@ -222,25 +219,21 @@ export default function Page() {
 
           </div>
         </div>
-      </section>
+      </section> */}
+          <HeroSection title="Manage real estate processes with cloud-based property management software" subtitle="REAL ESTATE" mobimg="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp" deskimg="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp" extraImg="" />
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+       custom-container "
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
+          <div className="">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20">
               <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4 ">
                 <h1 className="text-black md:pb-0 pb-4">Affordable property management software for your real estate operations</h1>
               </div>
-              <div className="flex flex-col w-full">
+              <div className="flex flex-col w-full ">
                 <p className="text-[#000000]">The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
                 </p>
                 <p className="mt-5">At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
@@ -258,12 +251,7 @@ export default function Page() {
       {/* We Help You Grow and Thrive */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+   custom-container "
       >
         <section className="pb-16 xl:pt-0 bg-white">
           <GrowServices />
@@ -272,12 +260,7 @@ export default function Page() {
 
 <div  className="bg-[#EDEDED]">
 <div
-        className="xl:pr-[100px]
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container "
       >
         <section className="pb-16  pt-10">
         <h2>The #1 CRM for real estate business</h2>
@@ -303,11 +286,7 @@ export default function Page() {
       {/* Latest Services Section */}
       <div
         className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+      custom-container "
       >
         <section className="pb-16 bg-white">
 
@@ -320,11 +299,7 @@ export default function Page() {
 < div className="bg-[#F5F5F5] py-6" >
         <div
           className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+   custom-container"
         >
           <CaseStudyIndivisual slides={slides} />
 
@@ -336,11 +311,7 @@ export default function Page() {
  < div className="bg-[#808080] py-6" >
         <div
           className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+     custom-container"
         >
           <ExploreMoreCarousel />
 
@@ -349,12 +320,7 @@ export default function Page() {
       {/* Contact Form */}
       < div
         className="mb-20 mt-20
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
+ custom-container 
   text-black py-6"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />

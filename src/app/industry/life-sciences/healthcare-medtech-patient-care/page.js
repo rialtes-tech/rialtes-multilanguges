@@ -9,7 +9,7 @@ import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
-
+import { HeroSection } from "@/app/components/herosection";
 
 const slidesCaseStudy = [
   {
@@ -75,7 +75,7 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20 pr-6 mt-10">
+    <div className="custom-container mx-auto text-black md: mt-10">
       <h2 className="text-black mb-6">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
       <p>We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
@@ -172,13 +172,11 @@ const GrowServicesCard = ({ services }) => (
       })}
     </ul>
     <LearnMore/>
-
   </div>
 );
-
 const GrowServices = () => {
   return (
-    <div className="text-black lg:pr-20 md:pr-10 pr-6 ">
+    <div className="text-black ">
       <h2 className="pb-10 text-black xl:w-1/2 w-fill">Pioneering Medical & Patient Care IT Solutions</h2>
       <p className="xl:w-1/2 w-full">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
@@ -193,7 +191,6 @@ const GrowServices = () => {
   );
 };
 
-
 export default function Page() {
       const [slides, setSlides] = useState([]);
   
@@ -204,47 +201,19 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
       />
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
-          alt="GROW with SAP"
-          fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-          priority
-        />
-        <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <div className="flex flex-col">
-              <h3 className="text-white text-[300] font-medium mb-2">HEALTHCARE</h3>
-              <h2 className="text-white max-w-2xl">
-                Redefining healthcare by keeping patients at the center
-              </h2>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
+  <HeroSection
+        title="Redefining healthcare by keeping patients at the center"
+        subtitle="HEALTHCARE"
+        mobimg="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
+        deskimg="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
+        extraImg=""
+      />
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+       custom-container"
       >
-
-        <div className="py-10 bg-white">
-          <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
+        <div className="py-5 bg-white">
+          <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
               <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 ">
                 <h1 className="text-black md:pb-0 pb-4">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
@@ -260,97 +229,44 @@ export default function Page() {
         </div>
       </section>
 
-
-
-
-
       {/* We Help You Grow and Thrive */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
-        <section className="xl:py-16 bg-white">
+        className="custom-container">
+        <section className=" bg-white">
           <GrowServices />
         </section>
       </div>
       {/* Latest Services Section */}
-      <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+      <div>
         <section className="pb-8 bg-white">
-
           <Services />
-
         </section>
       </div>
 
 
       {/* Latest Customer Success Stories */}
       < div className="bg-[#F5F5F5] py-6 mt-20" >
-        <div
-          className="
-        
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
+        <div className="custom-container" >
            <CaseStudyIndivisual slides={slidesCaseStudy} />
-
         </div>
       </div>
 
       {/* Latest Blogs */}
-     <div
-              className="mt-20 mb-20
-                               ml-[15px] w-[calc(100%-15px)] mr-0
-                               xl:ml-[280px] xl:w-[calc(100%-280px)]
-                               md:ml-[100px] md:w-[calc(100%-100px)]
-                               sm:mx-5 sm:w-[calc(100%-40px)]
-                               xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
+     <div className="mt-20 mb-20 custom-container">
               <ServicesBlogs slides={slides} />
       
             </div>
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
         <div
-          className="
-        
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
+          className="custom-container">
           <ExploreMoreCarousel />
-
         </div>
       </div >
 
-
       {/* Contact Form */}
       < div
-        className="mb-20 mt-20
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black py-6"
+        className="mb-20 mt-20 custom-container text-black py-6"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
 

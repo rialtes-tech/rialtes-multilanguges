@@ -172,46 +172,49 @@ export default function Agentforce() {
                 canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
             />
 
-            <div className='relative group overflow-hidden'>
-                <Image
-                    src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
-                    alt="Salesforce Consulting Team"
-                    className="transform transition-transform duration-500 group-hover:scale-110 h-[300px]  md:h-[535px] xl:h-full"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                        width: "100%",
-                    }}
-                    priority
-                />
-                <div className="grid xl:grid-cols-12 absolute px-6  lg:pr-0  top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white">
+            <div className="relative group overflow-hidden">
+                <div className="relative w-full h-[260px] md:h-[400px] xl:h-[700px]">
+                    <Image
+                        src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
+                        alt="Salesforce Consulting Team"
+                        fill
+                        className=" transition-transform duration-500 group-hover:scale-110"
+                        priority
+                    />
+                </div>
+
+                <div className="grid xl:grid-cols-12 absolute px-6 lg:pr-0 top-[5%] lg:text-start lg:top-[20%] md:top-[34%] text-white w-full">
                     <div className="xl:col-span-7 col-span-12"></div>
-                    <div className="xl:col-span-4 col-span-12">
-                        <h4 className="font-bold">Agentforce</h4>
-                        <h2 className="mt-3 xl:text-[60px] text-[26px]">Humans + Agents Automate Routine Tasks to Drive Customer Success</h2>
-                        <div className="mt-10">
-                            <Image
-                                src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                                className="w-[30%] h-full bg-transperent"
-                                alt="Leadership Team"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                priority
-                            />
+
+                    <div className="xl:col-span-4 col-span-12 space-y-4">
+                        <h4 className="font-bold text-xl md:text-2xl">Agentforce</h4>
+                        <h2 className="mt-3 text-2xl xl:text-6xl leading-tight ">
+                            Humans + Agents Automate Routine Tasks to Drive Customer Success
+                        </h2>
+                        <div className="mt-6">
+                            <div className="relative w-[120px] h-[40px]">
+                                <Image
+                                    src="/images/salesforce-consulting-services/salesforce-partner.webp"
+                                    alt="Leadership Team"
+                                    fill
+                                    className="object-contain"
+                                    priority
+                                />
+                            </div>
                         </div>
                     </div>
+
                     <div className="xl:col-span-1 col-span-12"></div>
                 </div>
             </div>
 
-            <div className=" grid lg:grid-cols-10  gap-5 px-6 xl:px-[280px] md:px-[100px]  lg:mt-16 mt-5">
+
+            <div className=" grid lg:grid-cols-10  gap-5 px-6 custom-container  lg:mt-16 mt-5">
                 <div className="lg:col-span-6">
-                    <h1>Salesforce Agentforce: What You Need To Know</h1>
+                    <h1 className="leading-tight">Salesforce Agentforce: What You Need To Know</h1>
                 </div>
             </div>
-            <div className="flex xl:gap-32 gap-10 px-6 xl:pl-[280px] md:px-[100px]  flex-col lg:flex-row lg:mt-10 mt-5">
+            <div className="flex xl:gap-32 gap-10 px-6 custom-container  flex-col lg:flex-row lg:mt-10 mt-5">
                 <div className="lg:w-1/2">
                     <p>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                     <p className="mt-10">Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.</p>
@@ -228,8 +231,8 @@ export default function Agentforce() {
                     />
                 </div>
             </div>
-            <section className="mt-20 px-6 xl:px-[280px] md:pl-[100px]">
-                <h2 className="xl:w-[70%] w-full">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
+            <section className="mt-20 px-6 custom-container">
+                <h2 className="xl:w-[70%] w-full leading-tight">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-10 xl:gap-10 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -254,7 +257,7 @@ export default function Agentforce() {
                     })}
 
                 </div>
-                <h2 className="mt-20 xl:w-[75%]">Leverage cutting-edge technologies to deliver innovative solutions with Agentforce</h2>
+                <h2 className="mt-20 xl:w-[75%] leading-tight">Leverage cutting-edge technologies to deliver innovative solutions with Agentforce</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:mt-10 gap-3 mt-10">
                     {salesForce2.map((sales) => {
                         return (
@@ -269,8 +272,8 @@ export default function Agentforce() {
                 <LearnMore />
 
             </section>
-            <section className="mt-20 px-6 xl:px-[280px] md:pl-[100px]">
-                <h2 className="xl:w-[75%]">The Building Blocks to Configure Your Agentforce Agents</h2>
+            <section className="mt-20 px-6 custom-container">
+                <h2 className="xl:w-[75%] leading-tight">The Building Blocks to Configure Your Agentforce Agents</h2>
                 <div className="flex mt-10 flex-col lg:flex-row xl:gap-16 gap-5">
                     <div className="flex xl:gap-5">
                         <div>
@@ -329,8 +332,8 @@ export default function Agentforce() {
                 </div>
             </section>
             {/* //industries benifites */}
-            <section className="mt-20 px-6 xl:pl-[280px] lg:pr-[100px] md:pl-[100px]">
-                <h2 className="xl:w-[60%] w-full">Industry-specific Benefits That We Bring to Our Clients</h2>
+            <section className="mt-20 px-6 custom-container">
+                <h2 className="xl:w-[60%] w-full leading-tight">Industry-specific Benefits That We Bring to Our Clients</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
 
                     {industryBenifite.map((benifite) => {
@@ -364,26 +367,21 @@ export default function Agentforce() {
 
             <section className="bg-[#F5F5F5] lg:mt-32 mt-10 py-10">
                 <div
-                    className="xl:ml-[280px]  md:ml-[100px] px-6 lg:px-0 md:px-0"
+                    className="custom-container px-6"
                 >
                     <FeaturedCarousel />
                 </div>
             </section>
             <div
-                className="mt-20 mb-20
-                    ml-[15px] w-[calc(100%-15px)] mr-0
-                    xl:ml-[280px] xl:w-[calc(100%-280px)]
-                    md:ml-[100px] md:w-[calc(100%-100px)]
-                    sm:mx-5 sm:w-[calc(100%-40px)]
-                    xs:mx-4 xs:w-[calc(100%-32px)]"
+                className="mt-20 mb-20 custom-container"
             >
                 <ServicesBlogs slides={slides} />
             </div>
-            <section className='px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
+            <section className='px-6 custom-container lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
                 <ExploreMoreCarousel />
             </section>
-            <section className="px-6 xl:pl-[280px] md:pl-[100px] lg:pr-0 lg:mt-20 pb-20 mt-10">
-                <ContactForm />
+            <section className="px-6 custom-container lg:pr-0 lg:mt-20 pb-20 mt-10">
+                <ContactForm title="Take the next step to operational excellence with us." className="leading-tight" />
             </section>
         </section>
     )

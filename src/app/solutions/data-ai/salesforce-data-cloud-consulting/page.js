@@ -129,37 +129,31 @@ export default function DataCloud() {
         canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />
 
-
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/data-cloud/salesforce-data-cloud-header.webp"
-          alt="Webinar Header"
-          fill
-          style={{ objectFit: "cover" }}
-          priority
-        />
+   <section className="relative  xl:pb-20">
+        <div>
+          <Image
+            src="/images/data-cloud/salesforce-data-cloud-header.webp"
+            alt=""
+            fill
+            priority
+          />
+        </div>
         <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="relative"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center xl:items-end ml-[60px] xl:ml-0">
-            <div className="w-full lg:w-4/5 xl:w-1/2 text-black mt-20">
-              <h3 className=" text-[300] font-medium mb-2 text-left">
+          <div className="grid xl:grid-cols-12 grid-cols-1  mt-20">
+            <div className="xl:col-span-5"></div>
+            <div className="xl:col-span-6 col-span-12 xs:pl-[10rem] xl:pl-0 md:pl-[18rem]">
+               <h3 className="xl:test-[24px] text-[18px] font-bold mb-2 xl:mt-32 mt-5">
                 Data Cloud
               </h3>
-              <h1>
+              <h1 className="leading-tight mt-5">
                 Harness the Potential of Salesforce Data Cloud
               </h1>
-              <h3 className="xl:block hidden">
-                Drive automation, predictive, and generative AI, as well as
-                analytics, within the world’s leading AI-powered CRM
+              <h3 className="font-bold leading-tight mt-10 xl:block hidden">
+               Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
               </h3>
-              <div className="h-24 mb-4 relative overflow-hidden mt-6">
+              <div className="mb-4 relative overflow-hidden mt-8">
                 <div className="w-full">
                   <Image
                     src="/images/data-cloud/salesforce-partner.webp"
@@ -176,22 +170,16 @@ export default function DataCloud() {
                   />
                 </div>
               </div>
-            </div>
           </div>
+        </div>
         </div>
       </section>
 
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="pt-16 bg-white">
-          <div className="container mx-auto">
+          <div className="mx-auto">
             <h2 className="text-[#000000] md:max-w-xl xl:max-w-4xl mb-8">
               What Is Salesforce Data Cloud?
             </h2>
@@ -214,16 +202,10 @@ export default function DataCloud() {
       </div>
 
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="py-8 md:max-w-3xl xl:max-w-6xl my-10">
-          <h2 className="text-[#000000] max-w-4xl mb-10">
+          <h2 className="text-[#000000] max-w-4xl mb-10 leading-tight">
             Creating Personalized & Impactful Customer Experiences for Your
             Business
           </h2>
@@ -258,13 +240,7 @@ export default function DataCloud() {
       {/* Stats Section */}
       <section className="bg-gray-200 py-8">
         <div
-          className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container"
         >
           <div className="max-w-5xl">
             <h3 className="text-left text-2xl md:text-3xl mb-6 font-[300] max-w-[700px]">
@@ -289,16 +265,10 @@ export default function DataCloud() {
 
       {/* Services Section */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="py-12 md:max-w-3xl xl:max-w-7xl">
-          <h2 className="text-left mb-10">
+          <h2 className="text-left mb-10 leading-tight">
             Our Salesforce Data Cloud Services
           </h2>
 
@@ -345,16 +315,9 @@ export default function DataCloud() {
 
       {/* Contact Form Section */}
       <div
-        className="py-20
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black"
+        className="py-20 custom-container"
       >
-        <ContactForm />
+        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight"/>
       </div>
     </div>
   );

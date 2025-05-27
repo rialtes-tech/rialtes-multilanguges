@@ -63,7 +63,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Yardi Managed Services"
+        title="Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services"
         canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
       />
 
@@ -90,13 +90,13 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">Yardi Managed Services</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services</h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>26 May 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -105,7 +105,13 @@ export default function Page() {
             <div className="pt-4"></div>
             <div className="flex flex-row gap-6 ">
               <div className="max-w-[40px]">
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-5&title=Yardi Managed Services&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
+                <a
+                  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frialtes.netlify.app%2Finsights%2Fcase-studies%2Freduced-downtime-for-a-multifamily-real-estate-firm-using-yardi-managed-services&title=Reduced%20Downtime%20for%20a%20Multifamily%20Real%20Estate%20Firm%20Using%20Yardi%20Managed%20Services&summary=Summary%20of%20the%20case%20study&source=LinkedIn"
+                  target="_blank"
+                  rel="noopener"
+                >
+
+
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
@@ -117,7 +123,7 @@ export default function Page() {
                   />
                 </a>
               </div>
-              <div className="max-w-[40px]">
+              {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-5">
                   <Image
                     src="/images/case-studies/facebook.svg"
@@ -142,7 +148,7 @@ export default function Page() {
                     priority
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -150,34 +156,33 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties. The firm offers acquisitions, investing, development, operational excellence, and property repositioning services. Their goal is to create thriving communities for residents while maximizing returns for their investment partners. </p>
+              <p className="text-black">A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
+              <h3 className="h3-bold text-[#0092E0] pb-6">Business Challenge </h3>
 
-
-              <p className="text-black pb-6">The real estate company faced several challenges in managing their Yardi Voyager 7, MRI, Voyager, RealPage products used for property management. </p>
-
-              <p className="text-black pb-6">The team relied heavily on single individuals for each skillset. If someone was unavailable, tasks would stall.</p>
-
-              <p className="text-black pb-6">The specific software used required specialized skills that were difficult to find in the local market. </p>
-
-              <p className="text-black">Project details lacked central organization, limiting efficient workflow and knowledge transfer. </p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4"><strong>Skill Silos: </strong> Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li>
+                <li className="pb-4"><strong>Talent Shortage:</strong> Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li>
+                <li className="pb-4"><strong>Lack of Centralized Oversight:  </strong> Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li>
+              </ul>
 
               <div className="py-6"></div>
 
               <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
 
-              <p className="text-black pb-6">Rialtes, a Yardi managed service provider, addressed these challenges through a strategic approach: </p>
+              <p className="text-black pb-6">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
 
-              <p className="text-black pb-6">Rialtes assessed the customer’s existing team, identifying skill gaps and needed expertise. </p>
 
-              <p className="text-black pb-6">Rialtes augmented the customer’s team with our own staff, providing immediate support and expertise. </p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4"><strong>Capability Assessment:  </strong> Conducted a thorough review of the client’s internal team and identified skill gaps.</li>
+                <li className="pb-4"><strong>Team Augmentation: </strong> Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage.</li>
+                <li className="pb-4"><strong>Collaborative Transition: </strong> Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li>
+                <li className="pb-4"><strong>End-to-End Ownership: </strong> After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li>
+              </ul>
 
-              <p className="text-black pb-6">Technical aspects and programming were initially handled by Rialtes offshore team, gradually transitioning to a collaborative implementation of new processes and features. </p>
 
-              <p className="text-black">After a successful year of collaboration, Rialtes took full responsibility for Yardi, RealPage, affordable housing, residential services, and commercial IT support, offering comprehensive end-to-end managed services.</p>
             </div>
           </div>
           <div className="py-6"></div>
@@ -185,13 +190,13 @@ export default function Page() {
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
 
-              <p className="text-black pb-6">24/7 support: A follow-the-sun approach offered continuous support across different time zones in the US. </p>
-
-              <p className="text-black pb-6">Reduced risk of people dependency: By having multiple Yardi resources within the Rialtes team, the risk of a single point of failure was eliminated. If a team member was unavailable, others could seamlessly cover their tasks. </p>
-
-              <p className="text-black pb-6">Increased value: Rialtes created additional value by implementing both primary and secondary personnel for critical roles, such as infrastructure services, Yardi, MRI, and RealPage support. This redundancy ensured uninterrupted service and mitigated potential downtime. </p>
-
-              <p className="text-black">Cost savings: Outsourcing to Rialtes offshore team provided a cost-effective solution compared to maintaining an in-house team in California.</p>
+              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4">With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones</li>
+                <li className="pb-4">Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%</li>
+                <li className="pb-4">By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions</li>
+                <li className="pb-4">Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team</li>
+                <li className="pb-4">The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally</li>
+              </ul>
 
             </div>
           </div>
