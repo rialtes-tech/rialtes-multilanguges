@@ -339,7 +339,7 @@ export default function Page() {
                                     alt="SAP Partner Logo"
                                     width={0}
                                     height={0}
-                                    className="lg:w-full md:w-[50%] w-full h-full"
+                                    className="lg:w-full md:w-[50%] w-full h-full object-scale-down"
                                     priority
                                 />
                             </div>
