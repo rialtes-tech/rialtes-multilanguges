@@ -42,7 +42,7 @@ const CARD_DATA = [
 ];
 
 const ServiceSection = () => (
-  <div className="containerr">
+  <div className="custom-container ">
     <div className="lg:mb-[67px] mb-6 md:max-w-[80%] max-w-full">
       <h2 className="w-full mb-10">
         MuleSoft Integration Services Aligned with Your Business Needs
@@ -53,12 +53,13 @@ const ServiceSection = () => (
       </p>
     </div>
 
-    <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 lg:pr-[230px] pr-0">
+    <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 pr-0">
       {CARD_DATA.map(({ _id, tittle, descrip }) => (
         <ServiceCard key={_id} tittle={tittle} descrip={descrip} />
       ))}
     </div>
   </div>
 );
+
 
 export default ServiceSection;

@@ -32,7 +32,7 @@ const Data = [
 
 const Serve = () => (
   <div>
-    <div className="containerr">
+    <div className="custom-container">
       <div className="w-full mb-14">
         <h2 className="w-full mb-8">
           Industries We Serve
