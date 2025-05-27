@@ -8,7 +8,7 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import ServicesBlogs from '../../../components/servicesBlogs';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
-
+import { HeroSection } from "@/app/components/herosection";
 
 const latestServices = [
   {
@@ -56,8 +56,8 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className=" mx-auto text-black 2xl:pr-80 xl:pr-40 md:pr-20">
-      <h2 className="text-black mb-6">End-to-end SAP SuccessFactors Services</h2>
+    <div className="  text-black 2xl:pr-70 xl:pr-30 md:pr-8">
+      <h2 className="text-black mb-6 ">End-to-end SAP SuccessFactors Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -132,7 +132,7 @@ export default function Page() {
       />
 
 
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      {/* <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/success-factors/successfactor-banner.webp"
           alt="SuccessFactor"
@@ -167,21 +167,15 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
-
+      </section> */}
+   <HeroSection title="HR Transformation Enabled Using SuccessFactors" subtitle="SuccessFactors" mobimg="/images/success-factors/successfactor-banner.webp" deskimg="/images/success-factors/successfactor-banner.webp" extraImg="/images/success-factors/sap-partner-logo.webp" />
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
+          <div className="2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col xl:flex-row items-center py-6">
               <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
                 <h1 className="text-black md:pb-0 pb-4">Achieve Performance Excellence with SuccessFactors Consulting</h1>
@@ -197,15 +191,9 @@ export default function Page() {
 
       {/* Latest Services Section */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
-        <section className="pb-16 bg-white">
+        <section className="pb-14 bg-white">
 
           <Services />
 
@@ -215,16 +203,10 @@ export default function Page() {
 
       {/* SuccessFactors Integration Solutions */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="py-10">
-          <div className="container mx-auto">
+          <div className="">
             <h2 className="pb-8 text-black">SuccessFactors Integration Solutions</h2>
             <div className="flex md:flex-row flex-col justify-between gap-6 mr-6">
               <div className="flex items-center">
@@ -279,18 +261,12 @@ export default function Page() {
       {/* Reimagine Employee Experiences and Optimize HR Operations */}
       < div className="bg-[#EDEDED] py-6" >
         <div
-          className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container"
         >
           <section className="py-10">
-            <div className="container mx-auto">
+            <div className="">
               <h2 className="pb-8 text-black">Reimagine Employee Experiences and Optimize HR Operations</h2>
-              <div className="flex md:flex-row flex-col gap-6">
+              <div className="flex md:flex-row flex-col gap-8">
                 <div className="flex flex-col xl:w-1/4 md:w-1/3">
                   <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">290M</h2>
                   <p className="text-black">Users in more than 200 countries</p>
@@ -313,16 +289,10 @@ export default function Page() {
 
       {/* Maximize HR Efficiency */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="pb-16 pt-16 bg-white">
-          <div className="container mx-auto">
+          <div className="">
             <h2 className="pb-6 text-black xl:hidden flex">Maximize HR Efficiency in Your Organization</h2>
             <div className="flex flex-col-reverse md:flex-row gap-6 py-6">
               <div className="w-full">
@@ -359,11 +329,7 @@ export default function Page() {
       {/* Latest Customer Success Stories */}
       < div className="bg-[#F5F5F5] py-6" >
         <div
-          className="        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container"
         >
           <FeaturedCarousel />
 
@@ -373,11 +339,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="mt-20 mb-20
-                         ml-[15px] w-[calc(100%-15px)] mr-0
-                         xl:ml-[280px] xl:w-[calc(100%-280px)]
-                         md:ml-[100px] md:w-[calc(100%-100px)]
-                         sm:mx-5 sm:w-[calc(100%-40px)]
-                         xs:mx-4 xs:w-[calc(100%-32px)]"
+                custom-container"
       >
        {slides && slides.length > 0 ? (
   <ServicesBlogs slides={slides || []} />
@@ -391,11 +353,7 @@ export default function Page() {
       < div className="bg-[#808080] py-6" >
         <div
           className="
-\        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+\   custom-container"
         >
           <ExploreMoreCarousel />
 
@@ -406,12 +364,7 @@ export default function Page() {
       {/* Contact Form */}
       < div
         className="py-16
-  container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+custom-container
   text-black"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
