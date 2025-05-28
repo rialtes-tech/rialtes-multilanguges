@@ -89,7 +89,7 @@ export default function Page() {
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 {/* Desktop Image */}
-                <div className="hidden lg:block">
+                <div className="hidden md:block">
                     <Image
                         src="/images/sap-consulting/SAP-Consulting-banner.webp"
                         alt="desktop banner"
@@ -101,7 +101,7 @@ export default function Page() {
                 </div>
 
                 {/* Mobile Image */}
-                <div className="block lg:hidden">
+                <div className="block md:hidden">
                     <Image
                         src="/images/sap-consulting/SAP-Consulting-banner-mob.webp"
                         alt="mobile banner"
