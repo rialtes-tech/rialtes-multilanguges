@@ -204,7 +204,7 @@ export default function Page() {
   <HeroSection
         title="Redefining healthcare by keeping patients at the center"
         subtitle="HEALTHCARE"
-        mobimg="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
+        mobimg="/images/healthcare/Healthcare.webp"
         deskimg="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
         extraImg=""
       />
