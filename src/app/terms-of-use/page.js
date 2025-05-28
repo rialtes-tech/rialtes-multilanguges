@@ -6,27 +6,21 @@ export default function Page() {
     return (
         <div className="min-h-screen">
  <Seo
-                title="terms | Rialtes"
-                description="Terms"
+                title="Terms of Use | Rialtes"
+                description="Review the terms and conditions for using Rialtes’ website, services, and content. Understand your rights, responsibilities, and legal disclaimers."
                 keywords="Contact, website, welcome"
                 canonical={"https://www.rialtes.com/terms-of-use/"}
             />
             <section
-                className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+                className="custom-container mb-[40px]"
             >
 
                 <div className="py-10">
-                    <div className="container mx-auto">
+                    <div>
                         <h1 className="text-[#0092E0] py-6 max-w-4xl">Rialtes Terms of Use</h1>
                     </div>
 
-                    <div className="container mx-auto">
+                    <div>
                         <div className="max-w-4xl">
                             <p>By accessing and using this website, you acknowledge and agree to be bound by the following terms and conditions, without limitation or qualification. These terms govern your use of our Website, including all content, services, and functionalities. If you do not agree with these terms, please refrain from using our Website.</p>
 

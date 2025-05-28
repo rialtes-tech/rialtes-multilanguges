@@ -4,6 +4,7 @@ import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import { HeroSection } from "@/app/components/herosection";
 import Link from "next/link";
+import Seo from "@/app/components/Seo";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -111,7 +112,12 @@ const WhyChooseRialtes = () => {
         <section className="lg:pt-[89px] lg:pb-[40px] pt-[37px] pb-[42px] text-[#FFFFFF] mt-[53px] lg:mt-[85px]
         lg:bg-[url('/images/sap-buy/why-choose-rialtes-img.webp')]
         bg-[url('/images/sap-buy/Mobile/why-choose-rialtes-mob-img.webp')] bg-cover bg-no-repeat">
-
+            <Seo
+                title="SAP Ariba Implementation Partner and Procurement Solutions | Rialtes"
+                description="As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs."
+                keywords="home, website, welcome"
+                canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+            />
             <div className="custom-container px-[2rem] md:px-auto mt-[110%] lg:mt-0">
                 <div className="">
                     <h2 className="text-[26px] leading-[32px] font-light xl:text-[60px] xl:leading-[73px] lg:w-[50%] w-[70%]">
@@ -784,7 +790,7 @@ export default function page() {
             {/* agent chat */}
             <AgentChat />
             {/* Contact Form */}
-        <div    className="      custom-container   
+            <div className="      custom-container   
                        mt-5 text-black xl:pb-20 pb-10 xl:pt-[138px]"
             >
                 <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />

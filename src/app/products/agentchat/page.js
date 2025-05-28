@@ -12,7 +12,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="AgentChat"
+                title="AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes"
+                description="AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI."
                 keywords="Contact, website, welcome"
                 canonical="https://www.rialtes.com/products/agentchat/"
             />
@@ -50,9 +51,9 @@ export default function Page() {
                         </div>
 
                         <div className="absolute bg-[#134874] text-white xl:p-10 p-3 xl:w-[20%] w-[60%] xl:left-[6%] top-0 xl:top-0">
-                            <p className="xl:text-xl">Introducing  </p>
+                            <h1 className="xl:text-xl font-semibold">Introducing  </h1>
                             <h1 className="xl:text-2xl text-lg">AgentChat:</h1>
-                            <p className="xl:text-xl">Seamless WhatsApp Conversations Inside Salesforce</p>
+                            <h1 className="xl:text-xl font-semibold">Seamless WhatsApp Conversations Inside Salesforce</h1>
                         </div>
 
                         <div className="absolute xl:right-[200px] xl:top-[30rem] top-[76%]">

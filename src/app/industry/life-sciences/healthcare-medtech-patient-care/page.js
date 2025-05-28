@@ -84,7 +84,7 @@ const Services = () => {
         ))}
       </div>
       <div className="mt-10">
-      <LearnMore/>
+        <LearnMore />
       </div>
     </div>
   );
@@ -171,7 +171,7 @@ const GrowServicesCard = ({ services }) => (
         )
       })}
     </ul>
-    <LearnMore/>
+    <LearnMore />
   </div>
 );
 const GrowServices = () => {
@@ -192,22 +192,66 @@ const GrowServices = () => {
 };
 
 export default function Page() {
-      const [slides, setSlides] = useState([]);
-  
+  const [slides, setSlides] = useState([]);
+
   return (
     <div className="min-h-screen bg-white">
-       <Seo
-        title="Health Care | Rialtes"
+      <Seo
+        title="MedTech Healthcare Consulting and Patient Care Solutions | Rialtes"
+        description="Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations."
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
       />
-  <HeroSection
+  {/* <HeroSection
         title="Redefining healthcare by keeping patients at the center"
         subtitle="HEALTHCARE"
         mobimg="/images/healthcare/Healthcare.webp"
         deskimg="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
         extraImg=""
-      />
+      /> */}
+
+
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden lg:block">
+          <Image
+            src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block lg:hidden">
+          <Image
+            src="/images/healthcare/healthcare-banner.webp"
+            alt="mobile banner"
+            fill
+            priority
+          />
+        </div>
+
+        <div className="relative h-full custom-container flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12 xl:col-span-7 lg:col-span-9">
+              <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+                HEALTHCARE
+              </h3>
+              <h2 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+                Redefining healthcare by keeping patients at the center
+              </h2>
+
+            </div>
+
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
         className="
        custom-container"
@@ -224,7 +268,6 @@ export default function Page() {
                 <p className="mt-5">Rialtes helps medical organizations deliver faster, more efficient, and compassionate patient care with specialized healthcare application development solutions. Whether you’re looking for ways to centralize patient records or migrate your data to Salesforce Health Cloud, our dedicated team of healthcare IT experts will help you transform your patients’ experiences.</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -247,15 +290,15 @@ export default function Page() {
       {/* Latest Customer Success Stories */}
       < div className="bg-[#F5F5F5] py-6 mt-20" >
         <div className="custom-container" >
-           <CaseStudyIndivisual slides={slidesCaseStudy} />
+          <CaseStudyIndivisual slides={slidesCaseStudy} />
         </div>
       </div>
 
       {/* Latest Blogs */}
-     <div className="mt-20 mb-20 custom-container">
-              <ServicesBlogs slides={slides} />
-      
-            </div>
+      <div className="mt-20 mb-20 custom-container">
+        <ServicesBlogs slides={slides} />
+
+      </div>
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
         <div

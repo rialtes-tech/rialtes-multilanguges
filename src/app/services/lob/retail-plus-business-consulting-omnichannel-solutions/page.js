@@ -164,9 +164,9 @@ export default function Retail({ items }) {
                     <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-20">
                         <div className="xl:col-span-5 col-span-12 mt-32">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
-                            <h1 className="text-white leading-tight pr-40 xl:pr-0 mt-5">
+                            <h2 className="text-white leading-tight pr-40 xl:pr-0 mt-5">
                                 Intelligent, Connected, and Scalable Retail Transformation
-                            </h1>
+                            </h2>
                         </div>
                         <div className="xl:col-span-7 col-span-12">
                         </div>
@@ -189,9 +189,9 @@ export default function Retail({ items }) {
 
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-8 col-span-12 pr-20">
-                        <h2 className="leading-tight">
+                        <h1 className="leading-tight">
                             Empowering Global Retailers with AI-Driven, Omnichannel Solutions
-                        </h2>
+                        </h1>
                         <p className="xl:text-[22px]  mt-5 pr-8 xl:pr-0">In today’s dynamic and highly competitive retail landscape, customer expectations are evolving rapidly, driven by hyper-personalization, seamless omnichannel engagement, and intelligent operations. At Rialtes, we bring over a decade of global consulting experience to help B2B and B2C retailers successfully navigate these challenges and drive sustainable growth.</p>
                         <p className="xl:text-[22px] mt-5 pr-8 xl:pr-0">Through Retail+, Rialtes delivers an end-to-end suite of services, combining strategic advisory, solution design, implementation, quality assurance, integration, and post-go-live support — designed to accelerate enterprise-wide retail transformation.</p>
                         {/* <p className="xl:text-[22px] mt-5 pr-8 xl:pr-0"> As a certified Salesforce and SAP partner, with offices in India, United States, Canada, and Singapore, Rialtes is uniquely positioned to empower retail brands to optimize operations, enhance customer experience, and leverage AI for data-driven decisions.</p> */}
