@@ -89,7 +89,7 @@ export default function HealthCloud() {
 
        
 
-            <HeroSection title="Manage Revenue Streams and Customer Relationships in One Place" subtitle="Salesforce Revenue Cloud" mobimg="/images/revenue-cloud/revenue-cloud-banner.webp" deskimg="/images/revenue-cloud/revenue-cloud-banner.webp" extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"/>
+            <HeroSection title="Manage Revenue Streams and Customer Relationships in One Place" subtitle="Salesforce Revenue Cloud" mobimg="/images/revenue-cloud/revenue-cloud-banner-mob.webp" deskimg="/images/revenue-cloud/revenue-cloud-banner.webp" extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"/>
 
             <div className="custom-container grid lg:grid-cols-10 gap-9 lg:mt-16 mt-5">
                 <div className="lg:col-span-5">
