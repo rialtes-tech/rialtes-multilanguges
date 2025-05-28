@@ -103,7 +103,7 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block lg:hidden">
                     <Image
-                        src="/images/sap-consulting/SAP-Consulting-banner.webp"
+                        src="/images/sap-consulting/SAP-Consulting-banner-mob.webp"
                         alt="mobile banner"
                         fill
                         priority
@@ -116,11 +116,11 @@ export default function Page() {
                     </div>
                     <div className="md:col-span-9 sm:col-span-11 col-span-12">
                         <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px]">
-                            <h3 className="text-[18px] md:text-[24px] font-bold">SAP Consulting</h3>
-                            <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
+                            <h3 className="text-[18px] md:text-[24px] font-bold  text-black">SAP Consulting</h3>
+                            <h2 className="text-[26px]  text-black leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 Leaning towards a better tomorrow.
                             </h2>
-                            <h3 className="text-[18px] md:text-[24px] font-bold mt-[16px] xl:mt-[29.5px] w-[100%] md:w-[90%]">
+                            <h3 className="text-[18px]  text-black md:text-[24px] font-bold mt-[16px] xl:mt-[29.5px] w-[100%] md:w-[90%]">
                                 Leveraging SAP Consulting Services for reliable business operations.
                             </h3>
                             <Image
