@@ -166,7 +166,7 @@ export default function Contact() {
                 />
                 <div className="absolute xl:px-[280px] lg:px-[100px] px-6  md:px-[100px] top-[13%]  lg:text-start xl:top-[35%] md:top-[40%] text-white">
                     <h3 className="font-bold">Our Partners</h3>
-                    <h1>Global Alliances</h1>
+                    <h2>Global Alliances</h2>
                 </div>
             </div>
             {/* //strategies section */}
@@ -174,7 +174,7 @@ export default function Contact() {
             <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] px-6">
                 <div className="grid lg:grid-cols-2 mt-16 mb-16">
                     <div>
-                    <h2 className="xl:w-[60%] w-full">Our Strategic Partners</h2>
+                    <h1 className="xl:w-[60%] w-full">Our Strategic Partners</h1>
                     </div>
                    
                     <p className="mt-5 xl:w-[75%] w-full">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>

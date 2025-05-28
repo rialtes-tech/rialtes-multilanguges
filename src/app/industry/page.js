@@ -101,7 +101,8 @@ export default function Industry() {
     <div className="min-h-screen">
     
       <Seo
-        title="Industry | Rialtes"
+        title="Salesforce & SAP Solutions by Industry | Rialtes"
+        description="Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve."
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/"
       />
