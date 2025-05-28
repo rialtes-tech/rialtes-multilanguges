@@ -126,7 +126,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
        <Seo
-        title="SuccessFactors Implementation Partners | Rialtes"
+        title="SuccessFactors Consulting Services and Implementation Partner | Rialtes"
+        description="SAP SuccessFactors consulting with Rialtes’ Success+ transforms HR with AI, automation, and insight. Your future-ready SuccessFactors implementation partner."
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
       />

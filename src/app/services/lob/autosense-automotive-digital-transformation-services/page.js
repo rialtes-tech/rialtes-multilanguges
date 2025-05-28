@@ -141,8 +141,8 @@ const KeyPillarsSectionDesign = ({ data }) => {
     return (
         <section className="xl:mt-[95px] mt-[79px]">
             <Seo
-                title="Digital Transformation in Automotive Industry | Rialtes AutoSense"
-                description="Ready for digital transformation in automotive? Rialtes AutoSense brings Salesforce, SAP, and AI to OEMs and dealers. Let's chat with our experts and lead the change!"
+                title="Salesforce Automotive Cloud Solutions and Services | Rialtes AutoSense"
+                description="Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/lob/autosense-automotive-digital-transformation-services/"
             />

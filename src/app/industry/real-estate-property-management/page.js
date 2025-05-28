@@ -23,9 +23,9 @@ const slides = [
     title: "Yardi Managed Services",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
-  
 
-   
+
+
 ];
 
 const latestServices = [
@@ -95,7 +95,7 @@ const growLatestServices = [
       'Centralized Collections management',
       'SMART Monthly Billing ',
     ],
-      
+
   },
   {
     id: 2,
@@ -107,7 +107,7 @@ const growLatestServices = [
       'Chat with property groups',
       'Mobile approvals',
     ],
-      
+
   },
   {
     id: 3,
@@ -119,7 +119,7 @@ const growLatestServices = [
       'Use data to make decisions',
       'Drill down to individual records ',
     ],
-      
+
   },
   {
     id: 4,
@@ -132,7 +132,7 @@ const growLatestServices = [
       'AI Abstraction Automation',
       'Digital Payments in +135 currencies',
     ],
-      
+
   }
 ];
 
@@ -167,7 +167,7 @@ const GrowServicesCard = ({ services }) => (
         )
       })}
     </ul>
-    <LearnMore className="w-[30%]"/>
+    <LearnMore className="w-[30%]" />
   </div>
 );
 
@@ -181,50 +181,66 @@ const GrowServices = () => {
           <GrowServicesCard key={services.id} services={services} />
         ))}
       </div>
-      
+
     </div>
   );
 };
 
 
 export default function Page() {
-  
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Real-Estate | Rialtes"
+        title="Revolutionizing Property Management for Real Estate Industry | Rialtes"
+        description="The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software."
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/real-estate-property-management/"
-       />
-       {/* <section className="relative h-[420px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp"
-          alt="GROW with SAP"
-          fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-          priority
-        />
-        <div
-          className="
-         h-full relative
-       custom-container"
-        >
-          <div className="container mx-auto h-full flex flex-col justify-center mt-[-65px] xl:mt-0">
-            <div className="flex flex-col">
-              <h3 className="text-white text-[300] font-medium mb-2">REAL ESTATE</h3>
-              <h2 className="text-white max-w-2xl">
-              Manage real estate processes with cloud-based property management software
+      />
+
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden lg:block">
+          <Image
+            src="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block lg:hidden">
+          <Image
+            src="/images/industry/real-estate/real-estate-mob.webp"
+            alt="mobile banner"
+            fill
+            priority
+          />
+        </div>
+
+        <div className="relative h-full custom-container flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12 xl:col-span-7 lg:col-span-9">
+              <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+               REAL ESTATE
+              </h3>
+              <h2 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+                Manage real estate processes with cloud-based property management software
               </h2>
             </div>
 
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+            </div>
           </div>
         </div>
-      </section> */}
-          <HeroSection title="Manage real estate processes with cloud-based property management software" subtitle="REAL ESTATE" mobimg="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp" deskimg="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp" extraImg="" />
+      </section>
+
 
       <section
-        className="
-       custom-container "
+        className="custom-container "
       >
 
         <div className="py-10 bg-white">
@@ -258,30 +274,30 @@ export default function Page() {
         </section>
       </div>
 
-<div  className="bg-[#EDEDED]">
-<div
-        className="custom-container "
-      >
-        <section className="pb-16  pt-10">
-        <h2>The #1 CRM for real estate business</h2>
-         
-<div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-16 mt-5 xl:gap-20 gap-10">
-    <div>
-        <p>Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
-    </div>
-    <div>
-        <h4 className="text-[#0092E0]">RealForce Platform</h4>
-        <p className="mt-5"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
-    </div>
-    <div>
-        <h4 className="text-[#0092E0]">RealPay </h4>
-        <p className="mt-5">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
-    </div>
-</div>
-        </section>
+      <div className="bg-[#EDEDED]">
+        <div
+          className="custom-container "
+        >
+          <section className="pb-16  pt-10">
+            <h2>The #1 CRM for real estate business</h2>
+
+            <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-16 mt-5 xl:gap-20 gap-10">
+              <div>
+                <p>Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
+              </div>
+              <div>
+                <h4 className="text-[#0092E0]">RealForce Platform</h4>
+                <p className="mt-5"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
+              </div>
+              <div>
+                <h4 className="text-[#0092E0]">RealPay </h4>
+                <p className="mt-5">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-</div>
-     
+
 
       {/* Latest Services Section */}
       <div
@@ -291,27 +307,27 @@ export default function Page() {
         <section className="pb-16 bg-white">
 
           <Services />
-          <LearnMore/>
+          <LearnMore />
 
         </section>
       </div>
 
-< div className="bg-[#F5F5F5] py-6" >
+      < div className="bg-[#F5F5F5] py-6" >
         <div
           className="
-   custom-container"
+   custom-container md:!pr-0"
         >
           <CaseStudyIndivisual slides={slides} />
 
         </div>
       </div>
-     
-     
-    
- < div className="bg-[#808080] py-6" >
+
+
+
+      < div className="bg-[#808080] py-6" >
         <div
           className="
-     custom-container"
+     custom-container md:!pr-0"
         >
           <ExploreMoreCarousel />
 

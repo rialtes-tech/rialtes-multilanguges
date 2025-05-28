@@ -162,8 +162,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Grow with SAP Services: Future-Proof Your S/4HANA Strategy | Rialtes"
-        description="Rise with SAP and simplify your S/4HANA migration. Rialtes ensures a smooth, secure, and future-ready transformation for your enterprise."
+        title="Grow with SAP Solutions by a Trusted SAP Partner | Rialtes"
+        description="Grow with SAP solutions that deliver measurable business success, powered by Rialtes—a trusted SAP partner driving enterprise-ready innovation and growth."
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
       />
@@ -202,9 +202,9 @@ export default function Page() {
                 VoyagerNext
               </h3>
 
-              <h1 className="text-white  leading-tight break-words">
+              <h2 className="text-white  leading-tight break-words">
                 Grow Faster, Smarter with Rialtes' VoyagerNext
-              </h1>
+              </h2>
 
               <h3 className="mt-8 text-[18px] xl:text-[35px] text-white font-medium leading-tight xl:font-semibold max-w-full break-words pr-24">
                 Your Partner for SAP S/4HANA Cloud Transformation
@@ -238,9 +238,9 @@ export default function Page() {
               custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12">
-            <h2 className="leading-tight">
+            <h1 className="leading-tight">
               Unlock the Power of SAP S/4HANA Cloud with Rialtes SAPNext Services
-            </h2>
+            </h1>
             <p className="xl:text-[22px] text-[16px] mt-5">At Rialtes, we help organizations embrace SAP's next-generation S/4HANA Cloud ERP using Grow with SAP — delivering enterprise-grade solutions built for scalability, agility, and future-proof growth </p>
             <p className="xl:text-[22px] text-[16px] mt-5">As a certified SAP partner with presence in the United States, Canada, India, and Singapore, and a team of highly certified SAP experts, Rialtes is your trusted partner for end-to-end SAP transformation. Our SAPNext services seamlessly combine:</p>
           </div>

@@ -135,7 +135,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Oracle EBS Consulting Services"
+                title="Oracle EBS Consulting Services and Solutions | Rialtes"
+                description="Oracle EBS consulting services and solutions by Rialtes OracleEBSPlus unlock hidden ERP potential to boost efficiency, innovation, and business growth."
                 canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
             />
             <script

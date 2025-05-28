@@ -306,8 +306,8 @@ export default function DemandPlusSection() {
         <div className="min-h-screen bg-white">
 
             <Seo
-                title="Kinaxis RapidResponse for Supply Chain by Rialtes DemandPlus"
-                description="Kinaxis RapidResponse meets AI-driven planning. Rialtes DemandPlus delivers real-time visibility, predictive agility, and smarter supply chain control."
+                title="Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus"
+                description="Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
             />

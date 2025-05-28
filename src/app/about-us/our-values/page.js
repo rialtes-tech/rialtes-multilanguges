@@ -160,9 +160,9 @@ export default function Page() {
                     <div className="container mx-auto h-full flex flex-col justify-center mt-[-70px]">
                         <div className="flex flex-col">
                             <h3 className="xl:text-[#01335B]  xl:text-[24px] text-[18px] font-bold mb-2">Culture and Values</h3>
-                            <h1 className="xl:text-[#01335B] max-w-2xl xl:text-[60px] font-medium text-[24px] pr-20 xl:pr-0">
+                            <h2 className="xl:text-[#01335B] max-w-2xl xl:text-[60px] font-medium text-[24px] pr-20 xl:pr-0">
                                 Building a growth mindset. Each day.
-                            </h1>
+                            </h2>
                         </div>
 
                     </div>
@@ -177,7 +177,7 @@ export default function Page() {
         md:ml-[100px] md:w-[calc(100%-100px)]"
                 >
                     <div className="xl:container mx-auto">
-                        <h2 className="xl:text-[60px] text-[26px]">Our Value System.</h2>
+                        <h1 className="xl:text-[60px] text-[26px]">Our Value System.</h1>
                         <p className="mt-3 xl:text-[35px] text-[20px] pr-10 xl:pr-0">Every day, every one of us work with our core values.</p>
 
 

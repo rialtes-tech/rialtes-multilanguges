@@ -151,9 +151,9 @@ export default function Retail({ items }) {
                     <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-20">
                         <div className="xl:col-span-5 col-span-12 mt-32">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">LifeAI+</h3>
-                            <h1 className="text-white leading-tight pr-32 xl:pr-0 mt-5">
+                            <h2 className="text-white leading-tight pr-32 xl:pr-0 mt-5">
                                 Transforming Life Sciences with Rialtes LifeAI+ Services
-                            </h1>
+                            </h2>
                         </div>
                         <div className="xl:col-span-7 col-span-12">
                         </div>
@@ -176,9 +176,9 @@ export default function Retail({ items }) {
 
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-7 col-span-12 xl:pr-16">
-                        <h2 className="leading-tight">
+                        <h1 className="leading-tight">
                             Accelerating Innovation, Compliance, and Growth in Life Sciences with AI and Salesforce Cloud Solutions
-                        </h2>
+                        </h1>
                         <p className="mt-10 xl:pr-0 pr-8">At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.</p>
                         <p className="mt-5 xl:pr-0 pr-8">Introducing Rialtes LifeAI+, our comprehensive consulting service tailored for life sciences enterprises, combining deep industry expertise with Salesforce Life Sciences Cloud, Health Cloud, and AI-powered solutions to help you drive innovation, ensure compliance, and enhance operational efficiency.</p>
 
