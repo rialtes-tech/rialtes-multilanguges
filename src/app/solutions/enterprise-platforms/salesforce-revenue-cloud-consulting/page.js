@@ -8,7 +8,6 @@ import { useState } from "react";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 
 
 export default function HealthCloud() {
@@ -87,9 +86,54 @@ export default function HealthCloud() {
                 canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
             />
 
-       
 
-            <HeroSection title="Manage Revenue Streams and Customer Relationships in One Place" subtitle="Salesforce Revenue Cloud" mobimg="/images/revenue-cloud/revenue-cloud-banner-mob.webp" deskimg="/images/revenue-cloud/revenue-cloud-banner.webp" extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"/>
+            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+                {/* Desktop Image */}
+                <div className="hidden md:block">
+                    <Image
+                        src="/images/revenue-cloud/revenue-cloud-banner.webp"
+                        alt="desktop banner"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
+                </div>
+
+                {/* Mobile Image */}
+                <div className="block md:hidden">
+                    <Image
+                        src="/images/revenue-cloud/revenue-cloud-banner-mob.webp"
+                        alt="mobile banner"
+                        fill
+                        priority
+                    />
+                </div>
+
+                <div className="relative h-full custom-container flex items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+                        <div className="col-span-12 xl:col-span-7 lg:col-span-9">
+                            <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+                                Salesforce Revenue Cloud
+                            </h3>
+                            <h2 className="text-white   text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+                                Manage Revenue Streams and Customer Relationships in One Place
+                            </h2>
+                            <Image
+                                src="/images/salesforce-consulting-services/salesforce-partner.webp"
+                                alt="SAP Partner Logo"
+                                width={0}
+                                height={0}
+                                priority
+                                className="mt-5 w-[25%] sm:w-[16%] md:w-[14%] lg:w-[16%]"
+                            />
+                        </div>
+
+                        <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <div className="custom-container grid lg:grid-cols-10 gap-9 lg:mt-16 mt-5">
                 <div className="lg:col-span-5">
