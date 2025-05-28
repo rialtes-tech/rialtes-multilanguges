@@ -331,7 +331,7 @@ export default function Page() {
       ">
                     {/* Upper Content */}
                     <div className="grid xl:grid-cols-12 grid-cols-12 items-center text-white">
-                        <div className="xl:col-span-7 col-span-12 text-white md:backdrop-blur-md p-5 md:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
+                        <div className="xl:col-span-9 col-span-12 text-white md:backdrop-blur-md md:p-5 xl:p-0 md:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
                             <h2 className="xl:mt-32 mt-16 pr-5 xl:pr-0 leading-tight">
                                 Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)
                             </h2>
@@ -340,28 +340,28 @@ export default function Page() {
                                 are secure, scalable, and cloud-ready. Our deep understanding of Oracle Cloud Infrastructure (OCI) enables clients to:
                             </p>
                         </div>
-                        <div className="xl:col-span-5 col-span-12">
+                        <div className="xl:col-span-3 col-span-12">
                         </div>
                     </div>
                     {/* Bottom Section with Grid */}
                     <div className="xl:absolute bottom-[80px] xl:bottom-0  bg-opacity-80 text-white">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:pr-[85px] mt-[35rem] xl:mt-0">
+                        <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 xl:pr-[85px] mt-[35rem] xl:mt-0">
                             {/* Column 1 */}
-                            <div className="border-b border-white/50 lg:border-b-0 lg:border-r xl:pr-16 pb-10 lg:pb-0 pr-10">
+                            <div className="border-b border-white/50 lg:border-b-0 xl:border-r xl:pr-16 pb-10 lg:pb-0 pr-10">
                                 <p className="xl:text-[30px] text-[18px] leading-tight font-medium">
                                     Leverage autonomous database, AI/ML integrations, and serverless architecture.
                                 </p>
                             </div>
 
                             {/* Column 2 */}
-                            <div className="border-b border-white/50 lg:border-b-0 lg:border-r flex pt-10 xl:pt-0 flex-col xl:pl-10 pr-10 pb-6 lg:pb-0">
+                            <div className="border-b border-white/50 lg:border-b-0 xl:border-r flex pt-10 md:pt-0 xl:pt-0 flex-col xl:pl-10 pr-10 pb-6 lg:pb-0">
                                 <p className="xl:text-[30px] text-[18px] leading-tight font-medium">
                                     Enable secure and compliant environments for regulated industries.
                                 </p>
                             </div>
 
                             {/* Column 3 */}
-                            <div className="border-b border-white/50 lg:border-b-0 lg:border-r flex flex-col xl:pl-10 pr-10 pb-10 pt-10 xl:pt-0 lg:pb-0">
+                            <div className="border-b border-white/50 lg:border-b-0 xl:border-r flex flex-col xl:pl-10 pr-10 pb-10 pt-10 xl:pt-0 lg:pb-0">
                                 <p className="xl:text-[30px] text-[18px] leading-tight font-medium">
                                     Optimize compute, storage, and networking for global ERP operations.
                                 </p>
@@ -468,7 +468,7 @@ export default function Page() {
                                 In today’s volatile markets, supply chain agility is non-negotiable. Rialtes helps enterprises optimize and future-proof their supply chains using Oracle EBS Supply Chain modules enhanced with Kinaxis RapidResponse® for real-time S&OP (Sales & Operations Planning).
                             </p>
 
-                            <div className="grid xl:grid-cols-2  xl:gap-16 gap-10 mt-10">
+                            <div className="grid xl:grid-cols-2 md:grid-cols-2 xl:gap-16 gap-10 mt-10">
                                 <div>
                                     <h3 className="xl:text-[28px] text-[#006CBC] font-bold">Key Capabilities:</h3>
                                     <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl pr-10 leading-tight">
@@ -541,8 +541,8 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="grid xl:grid-cols-12 grid-cols-12  xl:mt-[65px] xl:gap-20 xl:pr-[138px]">
-                        <div className="xl:col-span-6 col-span-12 mt-10 xl:mt-0">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2  xl:mt-[65px] xl:gap-20 xl:pr-[138px]">
+                        <div className="xl:col-span-6 col-span-12 md:col-span-1 mt-10 xl:mt-0">
                             <h3 className="xl:text-[30px] text-[24px] font-medium">How We Transform S&OP:</h3>
                             <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl pr-10 xl:pr-0 leading-tight">
                                 <li className="xl:mt-5 mt-3">End-to-end integration of Oracle EBS and Kinaxis for unified planning.</li>
@@ -551,7 +551,7 @@ export default function Page() {
                                 <li>AI-based analytics to drive actionable insights and improve consensus planning.</li>
                             </ul>
                         </div>
-                        <div className="xl:col-span-6 col-span-12 mt-10 xl:mt-0">
+                        <div className="xl:col-span-6 col-span-12 md:col-span-1 mt-10 xl:mt-0">
                             <h3 className="xl:text-[30px] text-[24px] font-medium">The Outcome:</h3>
                             <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl pr-10 xl:pr-0">
                                 <li className="xl:mt-5 mt-3">Alignment of demand and supply with corporate goals.</li>
@@ -569,7 +569,7 @@ export default function Page() {
                 <div
                     className="mt-[81rem] md:mt-[64rem] xl:mt-0
        h-auto
-     custom-container xl:gap-16">
+     custom-container xl:gap-16 xl:!pr-0">
                     <div className="flex xl:flex-row flex-col xl:gap-16">
                         <Image
                             src="/images/oracle-ebs/inventory.webp"
@@ -593,8 +593,8 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className="grid xl:grid-cols-12 grid-cols-1  mt-10  xl:gap-24 gap-8">
-                        <div className="xl:col-span-4 col-span-12">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2   mt-10  xl:gap-24 gap-8">
+                        <div className="xl:col-span-4 col-span-12 md:col-span-1">
                             <h3 className="text-[#006CBC] font-bold leading-tight">Inventory Optimization:</h3>
                             <ul className="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] pr-10 xl:pr-0 leading-tight">
                                 <li className="xl:mt-4 mt-2">Demand-driven inventory strategies to avoid overstocking and stock-outs. </li>
@@ -602,7 +602,7 @@ export default function Page() {
                                 <li>Integrated warehouse management for real-time inventory visibility.</li>
                             </ul>
                         </div>
-                        <div className="xl:col-span-4 col-span-12">
+                        <div className="xl:col-span-4 col-span-12 md:col-span-1">
                             <h3 className=" text-[#006CBC] font-bold leading-tight">Enterprise Scheduling:</h3>
                             <ul className="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] leading-tight pr-10 xl:pr-0">
                                 <li className="xl:mt-4 mt-2">Advanced production scheduling integrated with Oracle EBS Manufacturing.</li>
@@ -611,7 +611,7 @@ export default function Page() {
                             </ul>
 
                         </div>
-                        <div className="xl:col-span-4 col-span-12">
+                        <div className="xl:col-span-4 col-span-12 md:col-span-1">
                             <h3 className=" text-[#006CBC] font-bold leading-tight">Real-World Outcomes:</h3>
                             <ul className="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] pr-10 xl:pr-0 leading-tight">
                                 <li className="xl:mt-4 mt-2">Reduced carrying costs and working capital optimization.</li>
@@ -671,7 +671,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <section className="relative  h-auto pb-16 xl:py-10">
+            <section className="relative  xl:h-auto pb-16 xl:py-20">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/oracle-ebs/AI transformation.webp"
@@ -685,21 +685,23 @@ export default function Page() {
                     <Image
                         src="/images/oracle-ebs/AI & Data-Driven-mobile.webp"
                         alt=""
-                        fill
                         priority
+                        width={0}
+                        height={0}
                         sizes="100vw"
+                        className="w-full md:h-[1700px]"
                     />
                 </div>
                 <div
                     className="
-         h-full relative
+         relative
         custom-container">
-                    <div className="h-full flex flex-col justify-center text-white">
-                        <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
-                            <div className="xl:col-span-8 col-span-12 pr-10 mt-[28rem] xl:mt-0">
-                                <h2 className="xl:text-[60px] text-[26px] pr-10 xl:pr-0 leading-tight">AI & Data-Driven Transformation for Oracle EBS</h2>
+                    <div className="flex flex-col justify-center text-white">
+                        <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 items-center">
+                            <div className="xl:col-span-8 col-span-12 md:col-span-2  mt-[-61rem] md:mt-[-88rem] xl:mt-0">
+                                <h2 className="pr-10 xl:pr-0 leading-tight">AI & Data-Driven Transformation for Oracle EBS</h2>
                                 <p className="xl:text-[22px] mt-5 text-[16px] leading-tight pr-10 xl:pr-0">AI is redefining how enterprises leverage Oracle EBS for competitive advantage. Rialtes brings AI-driven insights directly into your Oracle EBS workflows:</p>
-                                <div className="flex xl:flex-row flex-col xl:mt-[50px] xl:gap-24 gap-10">
+                                <div className="flex xl:flex-row md:flex-row flex-col xl:mt-[50px] xl:gap-24 gap-10">
                                     <div>
                                         <h3 className="xl:text-[30px] text-[20px] xl:font-bold font-medium mt-10 xl:mt-0 xl:pr-10">Real-World AI Applications in Oracle EBS:</h3>
                                         <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight">
@@ -709,7 +711,7 @@ export default function Page() {
                                             <li>AI-based risk scoring for supplier and compliance risks.</li>
                                         </ul>
                                     </div>
-                                    <div>
+                                    <div className="md:mt-10 xl:mt-0">
                                         <h3 className="xl:text-[30px] text-[20px] xl:font-bold font-medium pr-10 xl:pr-0">Benefits of AI-Driven Oracle EBS:</h3>
                                         <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight">
                                             <li className="mt-5">Faster decision-making with real-time data.</li>
@@ -733,7 +735,7 @@ export default function Page() {
                     <div>
                         <h2 className="xl:text-[60px] text-[26px]">Why Rialtes -</h2>
                         <h3 className="text-[#000000] mb-8 mt-2 xl:mt-0 xl:font-bold font-medium w-full xl:text-[40px] text-[22px] pr-10 xl:pr-0">Oracle EBS Partner of Choice</h3>
-                        <div className="grid xl:grid-cols-3 grid-cols-1 mb-8 mt-16 xl:gap-5 gap-16">
+                        <div className="grid xl:grid-cols-3 grid-cols-1 md:grid-cols-2 mb-8 mt-16 xl:gap-5 gap-16">
                             <div className="flex xl:block items-start gap-4">
                                 <Image
                                     src="/images/oracle-ebs/20 yrs ERP.svg"
