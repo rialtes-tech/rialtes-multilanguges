@@ -38,7 +38,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
             }
 
             await emailjs.sendForm(
-               'service_af2ly7a',
+                'service_af2ly7a',
                 'template_0hotei9',
                 formRef.current,
                 'Snkm_XQ04-jspj9Ba'
@@ -112,12 +112,12 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
 
                         <div className='flex xl:flex-row flex-col xl:gap-20 gap-5 !mt-10'>
                             <div>
-                                 {/* <ReCAPTCHA
-                                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                                onChange={handleCaptchaChange}
-                            /> */}
+                                <ReCAPTCHA
+                                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                                    onChange={handleCaptchaChange}
+                                />
                             </div>
-                           
+
                             <button
                                 type="submit"
                                 className="xl:w-1/2 w-full bg-blue-600 text-white py-2 px-4 text-[20px] rounded hover:bg-blue-700"
@@ -125,7 +125,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                 Watch Webinar
                             </button>
                         </div>
-                <input type="hidden" name="webinar_link" value={emailWebinarLink} />
+                        <input type="hidden" name="webinar_link" value={emailWebinarLink} />
 
                     </form>
                 </div>

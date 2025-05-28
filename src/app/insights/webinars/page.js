@@ -21,19 +21,7 @@ const schemaData = {
 
 const webinars = [
 
-  {
-    id:1,
-    title: "What’s New with SAP SuccessFactors Onboarding 2.0",
-    date: "May 27, 2025",
-    time: "10:00 AM CST",
-    speaker: {
-      name: "Vidya Kumar",
-      role: "Principal Managing Consultant",
-      image: "/images/webinar/Vidya-Kumar.webp",
-    },
-    backgroundImage: "/images/webinar/banck-what.webp",
-    url: 'insights/webinars/sap-successfactors-onboarding-2-0-integration'
-  },
+  
   
   {
     id: 2,
@@ -76,6 +64,16 @@ const allWebinars = [
   //   image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
   //   url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
 
+  // },
+  // {
+  //   id:1,
+  //   title: "What’s New with SAP SuccessFactors Onboarding 2.0",
+  //   date: "May 27, 2025",
+  //   time: "10:00 AM CST",
+  //   position:"Principal Managing Consultant",
+  //   speaker: "Vidya Kumar",
+  //   image: "/images/webinar/banck-what.webp",
+  //   url: 'insights/webinars/sap-successfactors-onboarding-2-0-integration'
   // },
   {
     id: 2,
