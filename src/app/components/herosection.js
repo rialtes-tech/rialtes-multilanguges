@@ -7,7 +7,7 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
     return (
         <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
             {/* Desktop Image */}
-            <div className="hidden lg:block">
+            <div className="hidden md:block">
                 <Image
                     src={deskimg}
                     alt="desktop banner"
@@ -19,7 +19,7 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
             </div>
  
             {/* Mobile Image */}
-            <div className="block lg:hidden">
+            <div className="block md:hidden">
                 <Image
                     src={mobimg}
                     alt="mobile banner"
