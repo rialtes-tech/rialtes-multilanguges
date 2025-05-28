@@ -4,6 +4,7 @@ import LearnMore from "@/app/components/learnMore";
 import { useState, useEffect } from 'react';
 import ContactForm from "@/app/components/contactform";
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -146,11 +147,8 @@ const KeyPillarsSectionDesign = ({ data }) => {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/lob/autosense-automotive-digital-transformation-services/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
-            <div className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-[35px]">
+
+            <div className="custom-container">
                 <h2 className="text-[000000] xl:text-[30px] text-[18px] font-bold">
                     Key Pillars of AutoSense
                 </h2>
@@ -249,6 +247,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                 </div>
             </div>
         </section>
+
     )
 }
 
@@ -278,11 +277,11 @@ const chooseRialtesData = [
 
 const ChooseRialtes = ({ data }) => {
     return (
-        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[60px] xl:mt-[135px] mt-[74px] mx-[35px]">
+        <section className="custom-container xl:mt-[135px] mt-[74px]">
             <h2 className="xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] font-light">
                 Why Choose Rialtes for <span className="block">Automotive Transformation?</span>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:mt-[61px] mt-[37px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:mt-[61px] mt-[37px]">
                 {data.map((item, ind) => {
                     return (
                         <div key={ind} className="xl:p-[55px] p-[42px] border-[1px] border-[#707070] hover:border-0 hover:bg-[#D9F2FF] transition-colors duration-300">
@@ -336,13 +335,13 @@ const rialtesMakesWorkData = [
 
 const RialtesMakesWork = ({ data }) => {
     return (
-        <section className="xl:mx-[210px] md:mx-[100px] xl:pl-[70px] mx-[35px] xl:mt-[110px] mt-[70px]">
+        <section className="custom-container xl:mt-[110px] mt-[70px]">
             <h2 className="text-[26px] xl:text-[60px]">How Rialtes Makes It Work</h2>
             <h3 className="text-[22px] xl:text-[42px] font-semibold xl:mt-[16px] mt-[17px]">
                 Seamless Integration Across the Ecosystem
             </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-[100px] xl:gap-[158px] xl:mt-[61px] mt-[29px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[60px] lg:gap-[100px] xl:gap-[158px] xl:mt-[61px] mt-[29px]">
                 {/* Left Column */}
                 {data[0] && (
                     <div className="rialtesmakecard-1">
@@ -367,7 +366,7 @@ const RialtesMakesWork = ({ data }) => {
 
                 {/* Right Column */}
                 {data[1] && (
-                    <div className="rialtesmakecard-2 mt-[47px] xl:mt-[230px]">
+                    <div className="rialtesmakecard-2 mt-[47px] md:mt-[160px] xl:mt-[230px]">
                         <img src={data[1].image} alt={data[1].title} className="w-full hidden md:block" />
                         <img src={data[1].mobileImage} alt={data[1].title} className="w-full block md:hidden" />
 
@@ -387,7 +386,7 @@ const RialtesMakesWork = ({ data }) => {
                 )}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 mt-[40px] xl:mt-[-80px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-[40px] md:mt-[-60px] xl:mt-[-40px] 3xl:mt-[-80px]">
                 {/* Left Column */}
                 {data[2] && (
                     <div className="rialtesmakecard-1">
@@ -411,6 +410,7 @@ const RialtesMakesWork = ({ data }) => {
 
             </div>
         </section>
+
     );
 };
 
@@ -447,7 +447,7 @@ const ThoughtLeadershipDesign = ({ data }) => {
 
     return (
         <section
-            className="bg-center bg-no-repeat xl:pt[151px] xl:pb[173px] py-[65px] xl:mt-[70px] mt-[57px] mb-[115px] xl:mb-0 px-[30px] xl:px-2"
+            className="bg-center bg-no-repeat xl:pt[151px] xl:pb[173px] py-[65px] xl:mt-[70px] mt-[57px] px-[30px] xl:px-2"
             style={
                 bgImage
                     ? {
@@ -457,7 +457,7 @@ const ThoughtLeadershipDesign = ({ data }) => {
                     : {}
             }
         >
-            <div className="xl:mx-[210px] md:mx-[100px] xl:pl-[60px] mx-[25px]">
+            <div className="custom-container max-lg:px-0">
                 <div>
                     <h2 className="text-[#FFFFFF] xl:text-[60px] text-[20pt] xl:w-[65%] w-[100%] xl:leading-[73px] leading-[32px]">
                         Thought Leadership Themes for Automotive Clients
@@ -466,7 +466,7 @@ const ThoughtLeadershipDesign = ({ data }) => {
                         Here are 5 high impact thought leadership ideas Rialtes can drive to position as an industry leader:
                     </p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-[89px] gap-[20px] xl:gap-y-auto gap-y-[54px] xl:mt-[84px] mt-[40px]">
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-[89px] gap-[20px] md:gap-[40px] xl:gap-y-auto gap-y-[54px] xl:mt-[84px] mt-[40px]">
                         {data.map((item, index) => (
                             <div key={index}>
                                 <h3 className="text-[20px] xl:text-[30px] font-semibold text-[#FFFFFF] xl:leading-[37px] leading-[24px]">
@@ -495,68 +495,26 @@ export default function page() {
     return (
         <>
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
-                <div className="xl:block hidden">
-                    <Image
-                        src="/images/industry/auto-sense/auto-sense-banner.webp"
-                        alt="auto-sense-banner"
-                        fill
-                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                        priority
-                    />
-                </div>
-                <div className="xl:hidden block">
-                    <Image
-                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"
-                        alt=""
-                        fill
-                        priority
-                    />
-                </div>
 
-                <div
-                    className="h-full relative mx-[35px] xl:mr-0 xl:ml-[280px] xl:w-[calc(100%-280px)] md:ml-[100px] md:w-[calc(100%-100px)]"
-                >
-                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-20 xl:mt-[100px] mt-[32px]">
-                        <div className="xl:col-span-6 col-span-12 xl:pr-16 pr-[35rem]">
-                            <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-4 mt-10">AutoSense</h3>
-                            <h1 className="text-white xl:text-[60px] text-[24px] leading-tight">
-                                Accelerate Your Automotive Business with Rialtes AutoSense
-                            </h1>
-                        </div>
-                        <div className="xl:col-span-6 col-span-12">
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            <HeroSection title="Accelerate Your Automotive Business with Rialtes AutoSense" subtitle="AutoSense" deskimg="/images/industry/auto-sense/auto-sense-banner.webp" mobimg="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp" />
             {/* page description section */}
-            <section
-                className="
-              mx-[35px] xl:mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)] xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]"
-            >
+            <section className="custom-container xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]">
                 <p className="xl:text-[22px] text-[16px] xl:leading-[30px] leading-[19px] xl:w-[70%] w-[96%]">For over a decade, Rialtes has been a trusted partner for global automotive leaders, helping them navigate rapid industry transformation — from electrification and connected vehicles to customer experience innovation and supply chain resilience. Our specialized service suite, AutoSense, brings together deep automotive expertise, Salesforce Automotive Cloud proficiency, and powerful ERP integrations to drive real business outcomes.</p>
 
             </section>
 
             {/* introducing rialtes */}
             <section
-                className="
-        container
-        w-[calc(100%-15px)] mx-[35px] xl:mx-auto
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:w-[calc(100%-40px)]
-        xs:w-[calc(100%-32px)]"
+                className="custom-container"
             >
-
                 <div>
-                    <div className=" 2xl:pr-72 xl:pr-40 md:pr-20">
-                        <div className="flex flex-col xl:flex-row">
-                            <div className="flex flex-col w-full xl:max-w-xl xl:mr-10 xl:mb-0 mb-4">
+                    <div>
+                        <div className="flex flex-col lg:flex-row">
+                            <div className="flex flex-col w-full lg:max-w-xl lg:mb-0 mb-4">
                                 <h2 className="text-[#000000] text-[18px] xl:text-[30px] ">Introducing</h2>
                                 <h2 className="text-[#000000] text-[24px] xl:text-[50px] font-medium ">Rialtes AutoSense</h2>
                                 <div className="text-[#000000] text-[22px] xl:text-[36px] font-semibold xl:mt-[31px] mt-[12px] xl:leading-[40px] leading-[27px] xl:w-full w-[76%]">End-to-End Automotive Solutions</div>
@@ -568,6 +526,7 @@ export default function page() {
                     </div>
                 </div>
             </section>
+
             {/* key pillars of autosense */}
 
             <KeyPillarsSectionDesign data={keyPillarsSectionData} />
@@ -580,43 +539,45 @@ export default function page() {
             {/* partner with rialtes */}
             <section className="relative mt-[60px] xl:mt-[81px]">
                 {/* IMAGE */}
-                <div className="mx-auto">
+                <div className="custom-container md:pl-0 max-md:px-0">
                     {/* Desktop Image */}
                     <Image
                         src="/images/industry/auto-sense/partner-with-rialtes-img.webp"
                         alt="partner-with-rialtes-img"
-                        width={1400}
-                        height={100}
-                        className="hidden sm:block"
+                        width={0}
+                        height={0}
+                        className="hidden lg:block w-full"
                     />
 
                     {/* Mobile Image */}
                     <Image
                         src="/images/industry/auto-sense/Mobile/partner-with-rialtes-img-mobile.webp"
                         alt="partner-with-rialtes-img-mobile"
-                        width={600}
-                        height={100}
-                        className="block sm:hidden"
+                        width={0}
+                        height={0}
+                        className="block lg:hidden w-full"
                     />
                 </div>
 
                 {/* TEXT SECTION */}
-                <div className="relative z-10 bg-[#073259] mt-[-30px] xl:mt-[-60px] xl:w-[100%] xl:ml-auto xl:p-[71px] p-[32px] max-w-[85%] mx-auto xl:mx-0">
+                <div className="custom-container md:pr-0">
+                    <div className="relative z-10 bg-[#073259] mt-[-60px] xl:mt-[-60px] xl:p-[71px] p-[32px] mx-auto">
 
-                    <div className="mx-auto">
-                        <div className="flex flex-col xl:flex-row xl:gap-x-6">
-                            {/* Left Column */}
-                            <div className="flex flex-col xl:w-[40%]">
-                                <h2 className="text-[#FFFFFF] text-[26px] xl:text-[60px] xl:leading-[73px] leading-[32px]">
-                                    Partner with Rialtes to Drive Intelligent Automotive Transformation
-                                </h2>
-                            </div>
+                        <div className="mx-auto custom-container md:pl-0 max-md:px-0">
+                            <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[40px]">
+                                {/* Left Column */}
+                                <div className="">
+                                    <h2 className="text-[#FFFFFF] text-[26px] xl:text-[60px] xl:leading-[73px] leading-[32px] lg:w-[80%] xl:w-full">
+                                        Partner with Rialtes to Drive Intelligent Automotive Transformation
+                                    </h2>
+                                </div>
 
-                            {/* Right Column */}
-                            <div className="flex flex-col xl:w-[27%]  xl:mt-[14px] mt-[27px] xl:ml-[61px]">
-                                <p className="text-[#FFFFFF] text-[16px] xl:text-[24px] xl:leading-[29px] leading-[19px] font-normal">
-                                    Whether you’re a global OEM, a growing EV brand, or a leading dealership network, Rialtes helps you connect technology with outcomes. From advisory and implementation to ongoing innovation, we are your partner in building the future of mobility.
-                                </p>
+                                {/* Right Column */}
+                                <div className="lg:mt-0 2xl:mt-[14px] mt-[27px] xl:ml-[61px] xl:w-[80%] lg:pl-[40px]">
+                                    <p className="text-[#FFFFFF] text-[16px] xl:text-[24px] xl:leading-[29px] leading-[19px] font-normal lg:w-[80%] xl:w-full">
+                                        Whether you’re a global OEM, a growing EV brand, or a leading dealership network, Rialtes helps you connect technology with outcomes. From advisory and implementation to ongoing innovation, we are your partner in building the future of mobility.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -628,12 +589,8 @@ export default function page() {
 
             {/* Contact Form */}
             <div
-                className="
-              xl:container
-              mx-[35px] xl:mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]
-              text-black xl:pb-20 pb-10 xl:pt-[138px]"
+                className="custom-container
+              text-black xl:pb-20 pb-10 pt-[115px] xl:pt-[138px]"
             >
                 <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >
