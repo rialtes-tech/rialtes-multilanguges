@@ -40,22 +40,39 @@ export default function Industry() {
       knowMore: '/industry/hitech-semiconductor'
 
     },
-    // {
-    //   id: 5,
-    //   image: "/images/industry/finance.webp",
-    //   title: "Finance",
-    //   description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust.",
-    //   knowMore: '/salesforce-consulting/salesforce-manage'
 
-    // },
-    // {
-    //   id: 6,
-    //   image: "/images/industry/public-sector.webp",
-    //   title: "Public Sector",
-    //   description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we’re shaping the future of the public sector.",
-    //   knowMore: '/salesforce-consulting/salesforce-manage'
+     {
+      id: 5,
+      image: "/images/pharma/Header Pharma.webp",
+      title: "Pharma & Biotech",
+      description: "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA to help pharma and biotech leaders harness AI, machine learning, and automation for integrated clinical, medical, and commercial operations.",
+      knowMore: '/industry/life-sciences/pharma-biotech-digital-transformation'
 
-    // },
+    },
+     {
+      id: 6,
+      image: "/images/medical/medical-header.webp",
+      title: "Medical Devices",
+      description: "Helping medical device companies turn compliance into a competitive advantage by combining strategy, technology, and patient-centric design to ensure seamless patient journeys from device prescription to outcome tracking.",
+      knowMore: '/industry/life-sciences/medical-devices-it-solutions'
+
+    },
+     {
+      id: 7,
+      image: "/images/education/Group 483.webp",
+      title: "Education",
+      description: "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
+      knowMore: '/industry/connected-education'
+
+    },
+     {
+      id: 8,
+      image: "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+      title: "Automotive",
+      description: "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
+      knowMore: '/industry/automotive-industry-cloud-solutions'
+
+    }
   ];
   const GrowServicesCard = ({ services }) => (
     <div className="w-full h-full">
@@ -153,11 +170,7 @@ export default function Industry() {
             </div>
             <div className="w-full md:w-1/2">
               <p className="mb-6">
-                We specialize in various industries, enabling us to offer
-                comprehensive solutions tailored to meet your specific industry
-                needs. With our expertise and support, clients can respond to
-                evolving industry conditions and leverage emerging trends for
-                their business.
+                We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.
               </p>
             </div>
           </div>
@@ -189,7 +202,7 @@ export default function Industry() {
         xs:mx-4 xs:w-[calc(100%-32px)]
         text-black py-6"
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
+        <ContactForm title={'Ready to take the next step? Let’s kick off your journey'} className={'max-w-4xl'} />
       </div>
     </div>
   );
