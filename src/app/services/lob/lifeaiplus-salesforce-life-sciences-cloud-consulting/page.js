@@ -303,10 +303,10 @@ export default function Retail({ items }) {
                         />
                     </div>
                 </div>
-                <div className="custom-container xl:pr-0">
-                    <div className="grid xl:grid-cols-12 grid-cols-1 lg:gap-[80px] bg-[#0690C9] text-white xl:pb-24 pb-10 mt-[-120px] relative custom-container  ">
-                        <div className="xl:col-span-6 col-span-12 mt-10 ">
-                            <h2 className="leading-tight">Deep Expertise in Salesforce Life Sciences Cloud</h2>
+                <div className="custom-container xl:pr-0 ">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 lg:gap-[80px] bg-[#0690C9] text-white   mt-[-60px] relative custom-container py-[28px] ">
+                        <div className="xl:col-span-6 col-span-12 mt-10 xl:pr-[100px]  ">
+                            <h2 className="leading-tight ">Deep Expertise in Salesforce Life Sciences Cloud</h2>
                             <p className="mt-5 font-normal  ">We help life sciences organizations maximize Salesforce Life Sciences Cloud, configuring its industry-specific modules to streamline workflows and improve compliance:</p>
                             <div className="mt-16 xl:block hidden">
                                 <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
@@ -358,7 +358,7 @@ export default function Retail({ items }) {
                         <p className="mt-5 leading-tight pr-10 xl:pr-0 font-normal">
                             Whether you are a pharma, medical device manufacturer, biotech firm, or healthcare provider, Rialtes helps you:
                         </p>
-                        <ul className="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-10 pr-14">
+                        <ul className="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-6 pr-14">
                             <li>Automate compliance-heavy processes and improve accuracy.</li>
                             <li>Deliver personalized patient engagement through AI and data-driven insights.</li>
                             <li>Ensure full regulatory compliance for each customer and patient interaction.</li>
@@ -370,24 +370,32 @@ export default function Retail({ items }) {
                 </div>
             </section>
 
-            <section className="lg:mt-[95px] mt-[80px] bg-[#EDEDED] py-20">
-                <div className="custom-container relative bottom-[-140px] ">
-                    <h2 className=" pb-10 leading-tight pr-10 xl:pr-0 ">Specialized Expertise for the Future of Healthcare & Life Sciences</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-5 gap-8 xl:mt-16">
-                        {featureBoxes.map((feature, index) => (
-                            <div
-                                key={index}
-                                className="bg-white border hover:border-none border-gray-300 hover:bg-[#D9F2FF] p-12 flex flex-col h-full"
-                            >
-                                <div className="flex flex-col items-start mb-4">
-                                    <h3 className="text-[#0A6BB8] mt-2 leading-tight font-semibold">{feature.title}</h3>
-                                </div>
-                                <p className="mt-2">{feature.description}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+           
+            <section className="mt-[40px] sm:mt-[60px] lg:mt-[95px] bg-[#EDEDED] pb-20">
+  <div className="custom-container relative lg:bottom-[-120px] bottom-[-60px]">
+    <div>
+      <h2 className="pb-8 leading-tight pr-10 xl:pr-0">
+        Specialized Expertise for the Future of Healthcare & Life Sciences
+      </h2>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-5 gap-8 xl:mt-16">
+      {featureBoxes.map((feature, index) => (
+        <div
+          key={index}
+          className="bg-white border hover:border-none border-gray-300 hover:bg-[#D9F2FF] p-12 flex flex-col h-full"
+        >
+          <div className="flex flex-col items-start mb-4">
+            <h3 className="text-[#0A6BB8] mt-2 leading-tight font-semibold">
+              {feature.title}
+            </h3>
+          </div>
+          <p className="mt-2">{feature.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
             <section className="lg:mt-[140px] mt-[110px]">
                 <div className="xl:block hidden">
