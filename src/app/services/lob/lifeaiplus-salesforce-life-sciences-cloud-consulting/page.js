@@ -7,6 +7,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import { HeroSection } from "@/app/components/herosection";
 
 const RelatedSolutionsSection = () => {
     const relatedSolutionsData = [
@@ -30,14 +31,14 @@ const RelatedSolutionsSection = () => {
     return (
         <section
             className={`
-          xl:ml-[280px] xl:mr-[170px] md:mx-[100px]  mx-[35px] xl:mx-0 xl:mt-[94px] mt-8   pb-[59px] 
+          custom-container lg:mt-[95px] mt-[80px] pb-[59px] 
         `}
         >
             <h2 className="leading-tight text-black pr-10 xl:pr-0">
                 Related Solutions & Explore More:
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 xl:mt-[45px] mt-[33px] text-black">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 xl:mt-[45px] mt-[33px] text-black">
                 {relatedSolutionsData.map((item, index) => {
                     // Border 
                     const borderRight = index < 2 ? 'xl:border-r-[1px] xl:border-black' : '';
@@ -117,7 +118,7 @@ export default function Retail({ items }) {
                 canonical="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/"
             />
 
-            <section className="relative h-[435px] lg:h-[650px]">
+            {/* <section className="relative h-[435px] lg:h-[650px]">
 
                 <div className="xl:block hidden">
                     <Image
@@ -160,17 +161,13 @@ export default function Retail({ items }) {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
-
+            <HeroSection title="Transforming Life Sciences with Rialtes LifeAI+ Services" subtitle="LifeAI+" mobimg="/images/services/lob/lifeai/mobile-banner.webp" deskimg="/images/services/lob/lifeai/lifeai-banner.webp" extraImg="" />
 
 
             <section
-                className="mt-16
-               mx-[35px]  xl:mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]
-             
+                className="mt-16 custom-container   
              "
             >
 
@@ -189,61 +186,69 @@ export default function Retail({ items }) {
 
             </section>
 
-            <section className="relative  xl:h-[980px]  mt-20 h-auto pb-[500px]">
-                <div>
+
+            <section className="relative  lg:min-h-[980px] 2xl:min-h-[1100px] lg:mt-[95px] mt-[80px]">
+                <div className="relative w-full h-[500px] lg:h-[980px] ">
                     <Image
                         src="/images/services/lob/lifeai/what-is.webp"
                         alt="GROW with SAP"
                         fill
                         priority
+                        className="object-cover"
                     />
                 </div>
-                <div className="xl:ml-[280px] bg-[#0F71BF] text-white absolute xl:mr-[418px] xl:p-20 p-10 xl:top-[15rem] top-[30rem] w-full xl:w-[1222px]">
-                    <h2>What is LifeAI+?</h2>
-                    <p className="mt-5 font-normal xl:pr-20 pr-10">A 360° consulting service that unites Advisory, Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — ensuring continuous value creation and innovation across your life sciences value chain.</p>
-                    <h3 className="xl:text-[36px] text-[22px] font-semibold mt-5">Our End-to-End Services Include:</h3>
-                    <div className="grid xl:grid-cols-12 grid-cols-1 mt-10 gap-10">
-                        <div className="xl:col-span-4 col-span-12">
-                            <p className="font-bold xl:border-r-[2px]  pb-8 border-white xl:pr-10 pr-[12rem]">Strategic Advisory & Roadmap Development</p>
-                            <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+                <div className="custom-container max-lg:px-0 text-white relative">
+                    <div className="bg-[#0F71BF]  p-14 lg:mt-[-700px]">
+                        <h2>What is LifeAI+?</h2>
+                        <p className="mt-5 font-normal xl:pr-20 pr-10">A 360° consulting service that unites Advisory, Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — ensuring continuous value creation and innovation across your life sciences value chain.</p>
+                        <h3 className="xl:text-[36px] text-[22px] font-semibold mt-5">Our End-to-End Services Include:</h3>
+                        <div className="grid xl:grid-cols-12  grid-cols-1 mt-10 lg:gap-10 gap-y-10">
+                            <div className="xl:col-span-4 col-span-12">
+                                <p className="font-bold xl:border-r-[2px]  pb-8 border-white xl:pr-10 ">Strategic Advisory & Roadmap Development</p>
+                                <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
 
-                            <p className="font-bold mt-10 xl:border-r-[2px]  pb-8  border-white xl:pr-10 pr-[12rem]">Regulatory Compliance & Quality Assurance</p>
-                            <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+                                <p className="font-bold mt-10 xl:border-r-[2px]  pb-8  border-white xl:pr-10 ">Regulatory Compliance & Quality Assurance</p>
+                                <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
 
-                            <p className="font-bold mt-10 xl:pr-10 pr-[12rem] pb-5">Ongoing Support & Optimization for Continuous Improvement</p>
-                            <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+                                <p className="font-bold mt-10 xl:pr-10  pb-5">Ongoing Support & Optimization for Continuous Improvement</p>
+                                <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+
+                            </div>
+                            <div className="xl:col-span-4 col-span-12">
+                                <p className="font-bold xl:border-r-[2px]  border-white xl:pr-10  pb-5 xl:pb-0">Salesforce Life Sciences Cloud & Health Cloud Implementation</p>
+                                <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+
+                                <p className="font-bold mt-10 xl:border-r-[2px]  border-white  xl:pr-10  pb-5 xl:pb-0">System Integration with Backend ERP, EMR, and Partner Platforms</p>
+                                <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+
+                            </div>
+                            <div className="xl:col-span-4 col-span-12">
+                                <p className="font-bold   pb-5 xl:pr-10 ">User-Centric Experience & Journey Design</p>
+                                <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
+
+                                <p className="mt-10 font-bold xl:pr-10 ">AI-Powered Insights & Analytics through Data Cloud</p>
+                                <div className="flex xl:justify-center mt-5 xl:mt-[60px]">  <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} /></div>
+
+
+                            </div>
 
                         </div>
-                        <div className="xl:col-span-4 col-span-12">
-                            <p className="font-bold xl:border-r-[2px]  border-white xl:pr-10 pr-[12rem] pb-5 xl:pb-0">Salesforce Life Sciences Cloud & Health Cloud Implementation</p>
-                            <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
-
-                            <p className="font-bold mt-10 xl:border-r-[2px]  border-white  xl:pr-10 pr-[12rem] pb-5 xl:pb-0">System Integration with Backend ERP, EMR, and Partner Platforms</p>
-                            <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
-
-                        </div>
-                        <div className="xl:col-span-4 col-span-12">
-                            <p className="font-bold   pb-5 xl:pr-10 pr-[12rem]">User-Centric Experience & Journey Design</p>
-                            <div className="absolute  h-[2px] bg-white w-[20%] xl:hidden"></div>
-
-                            <p className="mt-10 font-bold xl:pr-10 pr-[12rem]">AI-Powered Insights & Analytics through Data Cloud</p>
-                            <div className="flex xl:justify-center mt-5 xl:mt-[60px]">  <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} /></div>
-
-
-                        </div>
-
                     </div>
                 </div>
             </section>
 
+
+
+
             {/* why partner with rialtes */}
-            <section className="xl:mt-48 mt-[86rem]">
+
+            <section className="lg:mt-[95px] mt-[80px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
 
                     {/* IMAGE FIRST ON MOBILE, SECOND ON DESKTOP */}
-                    <div className="col-span-5 order-1 xl:order-2">
+                    <div className="col-span-6 order-1 xl:order-2">
                         <Image
-                            className="w-full xl:object-[35%_20%] object-cover"
+                            className="w-full h-full object-cover"
                             src="/images/services/lob/lifeai/why-partner-desktop.webp"
                             alt="Taking the lead"
                             width={0}
@@ -254,17 +259,17 @@ export default function Retail({ items }) {
                     </div>
 
                     {/* CONTENT SECOND ON MOBILE, FIRST ON DESKTOP */}
-                    <div className="col-span-7 bg-[#073259] text-white order-2 xl:order-1 pb-20 xl:pb-0">
-                        <div className="xl:ml-[280px] xl:pt-16 pt-10 xl:pr-[18rem] mx-[35px] xl:mx-0">
+                    <div className="col-span-6 bg-[#073259] text-white order-2 xl:order-1 pb-20 xl:pb-16">
+                        <div className="custom-container xl:pt-16 pt-10 xl:pr-[8rem] mx-[35px] xl:mx-0">
                             <h2 className="leading-tight pr-16 xl:pr-0">Why Partner with Rialtes?</h2>
-                            <ul className="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-12 xl:pr-0">
+                            <ul className="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-12 xl:pr-0" >
                                 <li>Certified Salesforce Partner with global offices in United States, Canada, India, and Singapore.</li>
                                 <li>Highly Certified Salesforce Health Cloud and Life Sciences Cloud Experts.</li>
                                 <li>Deep expertise in payer, provider, medical devices, pharmaceuticals, biotech, and insurance sectors.</li>
                                 <li>Proven ability to deliver secure, compliant, AI-driven life sciences solutions.</li>
                                 <li>Strong focus on AI, automation, and patient-centric innovation.</li>
                             </ul>
-                            <div className="mt-5 absolute">
+                            <div className="mt-5  absolute">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
@@ -274,8 +279,8 @@ export default function Retail({ items }) {
             </section>
 
             {/* deep section */}
-            <section className="mt-32 relative">
-                <div className="xl:mr-[280px]">
+            <section className="lg:mt-[95px] mt-[80px]">
+                <div className=" md:pl-0">
                     <div className="xl:block hidden">
                         <Image
                             className="w-full xl:h-full h-[400px]"
@@ -289,51 +294,49 @@ export default function Retail({ items }) {
                     </div>
                     <div className="xl:hidden block">
                         <Image
-                            className="w-full h-[400px]"
+                            className="w-full h-full object-cover"
                             src="/images/services/lob/lifeai/deep-mobile.webp"
                             alt="Taking the lead"
                             width={0}
                             height={0}
-                            sizes="100vw"
                             priority
                         />
                     </div>
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:ml-[280px] px-[35px] mx-[35px] xl:mx-0 xl:px-0 bg-[#0690C9] text-white xl:pb-20 pb-10 mt-[-120px] absolute">
-                    <div className="xl:col-span-1 col-span-12"></div>
-                    <div className="xl:col-span-4 col-span-12 mt-10">
-                        <h2 className="leading-tight pr-16 xl:pr-0">Deep Expertise in Salesforce Life Sciences Cloud</h2>
-                        <p className="mt-5 font-normal pr-10 xl:pr-0">We help life sciences organizations maximize Salesforce Life Sciences Cloud, configuring its industry-specific modules to streamline workflows and improve compliance:</p>
-                        <div className="mt-16 xl:block hidden">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                <div className="custom-container xl:pr-0">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 lg:gap-[80px] bg-[#0690C9] text-white xl:pb-24 pb-10 mt-[-120px] relative custom-container  ">
+                        <div className="xl:col-span-6 col-span-12 mt-10 ">
+                            <h2 className="leading-tight">Deep Expertise in Salesforce Life Sciences Cloud</h2>
+                            <p className="mt-5 font-normal  ">We help life sciences organizations maximize Salesforce Life Sciences Cloud, configuring its industry-specific modules to streamline workflows and improve compliance:</p>
+                            <div className="mt-16 xl:block hidden">
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                            </div>
                         </div>
-                    </div>
-                    <div className="xl:col-span-1 col-span-12"></div>
-                    <div className="xl:col-span-5 col-span-12 xl:mt-10 mt-5">
-                        <h3 className="xl:text-[36px] text-[22px] font-semibold leading-tight xl:pr-16">Key Salesforce Life Sciences Cloud Modules We Specialize In:</h3>
-                        <ul className="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-10 xl:pr-0">
-                            <li>Care Program & Patient Services Management</li>
-                            <li>Provider & Healthcare Professional (HCP) Relationship Management</li>
-                            <li>Clinical Support & Device Case Management</li>
-                            <li>Medical Affairs & Field Team Enablement</li>
-                            <li>Omnichannel Communication for Patients and Providers</li>
-                            <li>Product Complaint & Inquiry Handling</li>
-                            <li>Investigator & KOL Management</li>
-                            <li>AI-Driven Data Insights with Salesforce Data Cloud
-                            </li>
-                        </ul>
-                        <div className="xl:hidden block">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                        <div className="xl:col-span-6 col-span-12 xl:mt-10 mt-5">
+                            <h3 className="xl:text-[36px] text-[22px] font-semibold leading-tight xl:pr-16">Key Salesforce Life Sciences Cloud Modules We Specialize In:</h3>
+                            <ul className="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 lg:pr-4">
+                                <li>Care Program & Patient Services Management</li>
+                                <li>Provider & Healthcare Professional (HCP) Relationship Management</li>
+                                <li>Clinical Support & Device Case Management</li>
+                                <li>Medical Affairs & Field Team Enablement</li>
+                                <li>Omnichannel Communication for Patients and Providers</li>
+                                <li>Product Complaint & Inquiry Handling</li>
+                                <li>Investigator & KOL Management</li>
+                                <li>AI-Driven Data Insights with Salesforce Data Cloud
+                                </li>
+                            </ul>
+                            <div className="xl:hidden block">
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                            </div>
                         </div>
-                    </div>
-                    <div className="xl:col-span-1 col-span-12"></div>
+                        <div className="xl:col-span-1 col-span-12"></div>
 
 
-                </div>
+                    </div></div>
             </section>
 
 
-            <section className="xl:mx-[280px] xl:mt-[38rem] mt-[58rem] mx-[35px]">
+            <section className="custom-container lg:mt-[95px] mt-[80px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-24 gap-10">
 
                     {/* Image First on Mobile, Second on Desktop */}
@@ -367,9 +370,9 @@ export default function Retail({ items }) {
                 </div>
             </section>
 
-            <section className="mt-32 bg-[#EDEDED] xl:h-[1200px] h-[2100px]">
-                <div className="xl:ml-[280px] xl:mr-[418px] mx-[35px] xl:mx-0">
-                    <h2 className="pt-20 pb-10 leading-tight pr-10 xl:pr-0">Specialized Expertise for the Future of Healthcare & Life Sciences</h2>
+            <section className="lg:mt-[95px] mt-[80px] bg-[#EDEDED] py-20">
+                <div className="custom-container relative bottom-[-140px] ">
+                    <h2 className=" pb-10 leading-tight pr-10 xl:pr-0 ">Specialized Expertise for the Future of Healthcare & Life Sciences</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-5 gap-8 xl:mt-16">
                         {featureBoxes.map((feature, index) => (
                             <div
@@ -386,7 +389,7 @@ export default function Retail({ items }) {
                 </div>
             </section>
 
-            <section className="xl:mt-48 mt-[17rem] relative">
+            <section className="lg:mt-[140px] mt-[110px]">
                 <div className="xl:block hidden">
                     <Image
                         className="w-full"
@@ -409,7 +412,7 @@ export default function Retail({ items }) {
                         priority
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mx-[280px] mx-[35px] bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px]">
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mx-[80px] mx-[35px] bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
                     <div className="col-span-6 xl:pl-20 xl:pt-20 pl-10 pt-10">
                         <h2 className="leading-tight">Prior Authorization Management</h2>
                         <h3 className="xl:text-[42px] text-[20px] mt-5 font-semibold leading-tight">Streamlined, Compliant, Intelligent</h3>
@@ -431,15 +434,16 @@ export default function Retail({ items }) {
 
                 </div>
             </section>
-            <div className="xl:mx-[418px] bg-[#163055] mx-[35px] relative p-8 xl:text-[26px] text-[20px] text-white xl:mt-[-60px] leading-tight">Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
+            <div className="xl:mx-[140px] bg-[#163055] mx-[35px] relative p-8 xl:text-[26px] text-[20px] text-white xl:mt-[-60px] leading-tight">Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
 
 
 
-            <section className="relative h-[1207px] xl:h-[970px] overflow-hidden mt-24">
+            <section className="relative h-full xl:h-[970px] overflow-hidden lg:mt-[95px] mt-[80px]">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/lifeai/ai-driven-desktop.webp"
                         alt="GROW with SAP"
+                        className="object-cover"
                         fill
                         priority
                     />
@@ -449,18 +453,17 @@ export default function Retail({ items }) {
                         src="/images/services/lob/lifeai/ai-dreven-mobile.webp"
                         alt="GROW with SAP"
                         fill
+                        className="object-cover"
                         priority
                     />
                 </div>
                 <div
                     className="
         h-full relative
-        xl:ml-[142px]
-        mx-[35px] xl:mx-0
-        md:ml-[100px] md:w-[calc(100%-100px)]
+      custom-container mt-[0rem] md:mt-0
        "
                 >
-                    <div className="relative p-8 xl:w-[907px] mt-[17rem] xl:mt-0 pb-10">
+                    <div className="relative p-8 xl:w-[907px] mt-[17rem] xl:mt-0 pb-10 ">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
 
                         <div className="relative  bg-opacity-80 text-white z-10 xl:p-16 xl:pl-24  rounded-lg">
@@ -481,9 +484,7 @@ export default function Retail({ items }) {
 
             <RelatedSolutionsSection />
             <div className="
-  mx-[35px] xl:mx-0 xl:mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
+custom-container
  
   text-black py-16"
 
