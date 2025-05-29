@@ -106,7 +106,7 @@ const successStoryData = [
         id: 4,
         imageUrl: '/images/homepage/realestate.webp',
         title: 'Public Sector',
-        description: 'YARDI Implementation and 5 Years of Successful AMS Journey with The Largest PHA in North America',
+        description: "YARDI Transformation Journey with North America's Largest PHA",
         theme: "light",
         url: '/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america'
     },
@@ -327,7 +327,7 @@ const Home = () => {
                     </div>
                     <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
                         {successStoryData.map((success, index) => {
-                            const isLight = success.theme === "light";
+                            // const isLight = success.theme === "light";
                             return (
                                 <React.Fragment key={index}>
                                     <Link href={success.url}>
@@ -342,7 +342,7 @@ const Home = () => {
                                             ></div>
 
                                             <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
-                                            <div className={`relative  z-10 p-6  ${isLight ? 'text-black' : 'text-white'}`}>
+                                            <div className={`relative  z-10 p-6 text-white`}>
                                                 <p className="mb-5 text-[18px] ">{success.title}</p>
                                                 <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
                                                     {success.description}
