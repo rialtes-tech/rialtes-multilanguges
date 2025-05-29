@@ -480,7 +480,8 @@ export default function Retail({ items }) {
       {/* advance AI section */}
       <section className="xl:mt-16  ">
         <div className="grid xl:grid-cols-12 grid-cols-1">
-          <div className="xl:col-span-6 col-span-12 mt-16 xl:mb-16 mb-[-20rem] z-10">
+          <div className="xl:col-span-6 col-span-12 mt-16 xl:mb-16 mb-[-20rem] z-10 flex justify-center lg:justify-start">
+
             <Image
               className="mx-auto md:mx-0 w-[350px] h-[391px] xl:w-full xl:h-[900px]"
               src="/images/industry/retail/advance-ai.webp"
@@ -491,7 +492,7 @@ export default function Retail({ items }) {
               priority
             />
           </div>
-          <div className="bg-[#073259] text-white xl:col-span-6 px-16 xl:px-0 col-span-12 xl:ml-[-150px] xl:pl-[200px] xl:pr-[40px] xl;pb-32 pb-[6rem]  lg:pr-0 z-5">
+          <div className="bg-[#073259] text-white xl:col-span-6 px-16 xl:px-0 col-span-12 xl:ml-[-150px] xl:pl-[200px] xl:pr-[40px] xl;pb-32 pb-[6rem]  lg:pr-12 z-5">
             <h2 className="xl:mt-20 pt-[24rem] xl:pt-0">Advanced AI & Data</h2>
             <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-10 mt-5 leading-tight">
               Salesforce Data Cloud & Agentforce for Retail
@@ -523,6 +524,7 @@ export default function Retail({ items }) {
           </div>
         </div>
       </section>
+
       <section className="custom-container pt-8">
         <h2>Related Salesforce Cloud Capabilities</h2>
         <div className="grid xl:grid-cols-3 grid-cols-1 xl:gap-5 gap-16 mt-5">
@@ -549,7 +551,7 @@ export default function Retail({ items }) {
               <LearnMore />
             </div>
           </div>
-          <div className="border  relative  h-[510px] max-xl:h-[260px] border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
+          <div className=" hidden md:block border  relative  h-[510px] max-xl:h-[260px] border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
             <h3 className="text-[#0A6BB8] xl:pr-20 font-semibold">
               Salesforce Agentforce & Data Cloud
             </h3>
@@ -569,7 +571,7 @@ export default function Retail({ items }) {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="col-span-4 flex justify-center xl:block">
             <Image
-              className="w-full max-w-[350px] xl:max-w-full h-auto mt-16 relative mx-auto xl:mx-0"
+              className="w-full max-w-[450px] md:max-w-[550px] xl:max-w-full h-auto mt-16 relative mx-auto xl:mx-0"
               src="/images/industry/retail/mobile-re.webp"
               alt="Taking the lead"
               width={0}
@@ -638,13 +640,11 @@ export default function Retail({ items }) {
           />
         </div>
         <div
-          className="
-                        h-full relative
+          className="h-full relative
                         mx-[35px] xl:mx-0
                         xl:ml-[280px] 
                         xl:mr-[156px] 
-                        md:ml-[100px]"
-        >
+                        md:ml-[100px]">
           <div className="flex justify-end xl:mt-32 mt-[24rem]">
             <div className="relative p-10 w-[720px] h-[620px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
@@ -675,11 +675,7 @@ export default function Retail({ items }) {
       </section>
 
       <div
-        className="
-  
-  mx-[35px]  custom-container
- 
-  text-black py-16"
+        className="mx-[35px]  custom-container text-black py-16"
       >
         <ContactForm
           title={
