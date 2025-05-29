@@ -410,31 +410,40 @@ export default function Retail({ items }) {
                         height={0}
                         sizes="100vw"
                         priority
+
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mx-[80px] mx-[35px] bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
-                    <div className="col-span-6 xl:pl-20 xl:pt-20 pl-10 pt-10">
-                        <h2 className="leading-tight">Prior Authorization Management</h2>
-                        <h3 className="xl:text-[42px] text-[20px] mt-5 font-semibold leading-tight">Streamlined, Compliant, Intelligent</h3>
-                        <p className="mt-5 font-normal pr-10 xl:pr-0" >Prior Authorization (PA) is often a major bottleneck for patients, providers, and payers. Rialtes’ AI-enhanced Prior Authorization solution leverages Salesforce Life Sciences Cloud to automate and streamline the end-to-end PA process, including:</p>
-                    </div>
-                    <div className="col-span-6  xl:p-16 p-8">
-                        <ul className="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 xl:pr-14 pr-8">
-                            <li>Automated PA Request Intake via multiple channels (portal, phone, EHR).</li>
-                            <li>AI-based Case Triage and Eligibility Check for faster PA decisions.</li>
-                            <li>Dynamic Collaboration with payers, patients, and providers — all from within Salesforce.</li>
-                            <li>Seamless Integration with EMRs, Payers, and Specialty Pharmacies.</li>
-                            <li>Real-time PA Status Tracking for patients and care teams.</li>
-                            <li>  Audit and Compliance Logs maintained for each PA case.</li>
-                        </ul>
-                        <div className="xl:mt-10 mt-5">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                <div className=" custom-container">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 bg-[#A16B5D]  text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
+
+                        <div className="col-span-6 xl:pl-20 xl:pt-20 pl-10 pt-10">
+                            <h2 className="leading-tight">Prior Authorization Management</h2>
+                            <h3 className="xl:text-[42px] text-[20px] mt-5 font-semibold leading-tight">Streamlined, Compliant, Intelligent</h3>
+                            <p className="mt-5 font-normal pr-10 xl:pr-0" >Prior Authorization (PA) is often a major bottleneck for patients, providers, and payers. Rialtes’ AI-enhanced Prior Authorization solution leverages Salesforce Life Sciences Cloud to automate and streamline the end-to-end PA process, including:</p>
+                        </div>
+                        <div className="col-span-6  xl:p-16 p-8">
+                            <ul className="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 xl:pr-14 pr-8">
+                                <li>Automated PA Request Intake via multiple channels (portal, phone, EHR).</li>
+                                <li>AI-based Case Triage and Eligibility Check for faster PA decisions.</li>
+                                <li>Dynamic Collaboration with payers, patients, and providers — all from within Salesforce.</li>
+                                <li>Seamless Integration with EMRs, Payers, and Specialty Pharmacies.</li>
+                                <li>Real-time PA Status Tracking for patients and care teams.</li>
+                                <li>  Audit and Compliance Logs maintained for each PA case.</li>
+                            </ul>
+                            <div className="xl:mt-10 mt-5">
+                                
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </section>
-            <div className="xl:mx-[140px] bg-[#163055] mx-[35px] relative p-8 xl:text-[26px] text-[20px] text-white xl:mt-[-60px] leading-tight">Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
+            <div className=" custom-container relative">
+                <div className=" custom-container max-xl:px-0">
+                    <div className="bg-[#163055]  p-8 xl:text-[26px] text-[20px] text-white xl:mt-[-60px] leading-tight">
+                        Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
+                </div></div>
 
 
 
@@ -460,7 +469,7 @@ export default function Retail({ items }) {
                 <div
                     className="
         h-full relative
-      custom-container mt-[0rem] md:mt-0
+      custom-container mt-[30rem] md:mt-0
        "
                 >
                     <div className="relative p-8 xl:w-[907px] mt-[17rem] xl:mt-0 pb-10 ">
