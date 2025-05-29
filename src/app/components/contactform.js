@@ -113,8 +113,8 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-                 
-                          <ReCAPTCHA
+
+                    <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
                     />       
