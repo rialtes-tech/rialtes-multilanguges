@@ -3,36 +3,43 @@
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
-import useSmartMargin from "@/app/utils/useSmartMargin";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function DemandPlusSection() {
-
-
-
     const schemaData = {
-
 
         "@context": "https://schema.org",
 
-        "@type": "WebPage",
+        "@type": "Article",
 
-        "name": "Kinaxis RapidResponse: Transform with Rialtes DemandPlus",
+        "mainEntityOfPage": {
 
-        "url": "https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/",
+            "@type": "WebPage",
 
-        "description": "Kinaxis rapid response meets AI-driven planning. Rialtes DemandPlus delivers supply chain visibility, predictive agility, and smarter control.",
+            "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
 
-        "inLanguage": "en",
+        },
+
+        "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
+
+        "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
+
+        "image": "https://rialtes.netlify.app/images/case-studies/fiori-banner.webp",
+
+        "author": {
+
+            "@type": "Organization",
+
+            "name": "Rialtes"
+
+        },
 
         "publisher": {
 
             "@type": "Organization",
 
-            "name": "Rialtes Technologies",
-
-            "url": "https://www.rialtes.com",
+            "name": "Rialtes",
 
             "logo": {
 
@@ -44,241 +51,13 @@ export default function DemandPlusSection() {
 
         },
 
-        "mainEntity": {
+        "articleSection": "Case Studies",
 
-            "@type": "Service",
+        "datePublished": "2025-05-29"
 
-            "name": "Rialtes DemandPlus for Kinaxis RapidResponse",
-
-            "serviceType": "Supply Chain Planning and Integration",
-
-            "provider": {
-
-                "@type": "Organization",
-
-                "name": "Rialtes Technologies",
-
-                "url": "https://www.rialtes.com"
-
-            },
-
-            "areaServed": [
-
-                { "@type": "Country", "name": "United States" },
-
-                { "@type": "Country", "name": "Canada" },
-
-                { "@type": "Country", "name": "India" },
-
-                { "@type": "Country", "name": "Singapore" }
-
-            ],
-
-            "audience": {
-
-                "@type": "Audience",
-
-                "audienceType": "Enterprise, C-Level Executives, Supply Chain Leaders"
-
-            },
-
-            "hasOfferCatalog": {
-
-                "@type": "OfferCatalog",
-
-                "name": "DemandPlus Services",
-
-                "itemListElement": [
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Kinaxis License Advisory & Value Assessment"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Solution Architecture & Design"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Rapid Implementation & Process Configuration"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Quality Assurance, Testing & User Training"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Integration with SAP S/4HANA, Oracle EBS & Non-SAP Systems"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Post-Go-Live Support & Continuous Optimization"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Demand Planning & Forecasting"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Sales & Operations Planning (S&OP)"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Capacity & Production Planning"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Inventory Optimization & Enterprise Scheduling"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Scenario Planning & What-if Simulations"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "Integration via SAP BTP and SAP CPI"
-
-                        }
-
-                    },
-
-                    {
-
-                        "@type": "Offer",
-
-                        "itemOffered": {
-
-                            "@type": "Service",
-
-                            "name": "RialChat – WhatsApp for Supply Chain Teams"
-
-                        }
-
-                    }
-
-                ]
-
-            }
-
-        }
     }
-    const applyMargin = useSmartMargin(1500); // You can tweak this threshold
+
+
     const services = [
         {
             id: 1,
@@ -324,7 +103,9 @@ export default function DemandPlusSection() {
                         fill
                         style={{ objectFit: "cover" }}
                         priority
-                        className="transform transition-transform duration-500 group-hover:scale-110"
+                        className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+                        sizes="100vw"
+
                     />
                 </div>
                 <div className="xl:hidden block">
@@ -333,15 +114,17 @@ export default function DemandPlusSection() {
                         alt=""
                         fill
                         priority
-                        className="transform transition-transform duration-500 group-hover:scale-110"
+                        className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+                        sizes="100vw"
+
                     />
                 </div>
 
                 <div
                     className="h-full relative custom-container xl:!pr-0  mr-0"
                 >
-                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20">
-                        <div className="xl:col-span-7 col-span-12">
+                    <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 mt-20">
+                        <div className="xl:col-span-7 md:col-span-2 col-span-12">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">DemandPlus</h3>
                             <h1 className="text-white leading-tight mt-5 pr-14 xl:pr-0 md:text-[42px] xl:text-[60px] text-[26px]">
                                 Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse
@@ -369,79 +152,63 @@ export default function DemandPlusSection() {
             </section>
 
 
-
-            <section className="relative group xl:overflow-hidden h-[510px] xl:h-[800px]   xl:mt-0">
+            <section className="relative xl:h-[700px]">
+                {/* Desktop Image */}
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/demandplus-desktop.webp"
                         alt="GROW with SAP"
-                        className="transform transition-transform duration-500 group-hover:scale-110"
+                        className="object-cover"
                         fill
                         priority
                         sizes="100vw"
-
                     />
                 </div>
+
+                {/* Mobile Image */}
                 <div className="xl:hidden block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/realtes-demadplus-mobile.webp"
                         alt="GROW with SAP"
-                        fill
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        className="w-full h-[400px] object-cover"
                         priority
                     />
                 </div>
+
+                {/* Content Block */}
                 <div
-
-
-                    className="custom-container"
-
+                    className={`
+      custom-container z-10
+      relative
+      xl:absolute xl:top-1/2 top-[-100px]  xl:-translate-y-1/2
+    `}
                 >
-                    <div className="relative p-8 xl:w-[720px] pb-16  xl:mt-0 xl:block hidden">
-                        <div className="absolute inset-0 bg-[#016FBE] opacity-[0.9]"></div>
-
-                        <div className="relative  bg-opacity-80 text-white z-10 p-4 rounded-lg">
-                            <h3 className="font-light xl:text-[30px] text-[18px]">Introducing </h3>
-                            <h3 className="xl:text-[50px] text-[23px] leading-[60px]">Rialtes DemandPlus</h3>
-                            <h3 className="xl:text-[36px] text-[22px] mt-5">End-to-End Kinaxis Services</h3>
-                            <p className='mt-8 text-[22px] leading-tight font-normal'>Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:</p>
-                            <ul className="list-disc leading-tight xl:space-y-5 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-8 pr-12 xl:pr-0">
-                                <li>Kinaxis License Advisory & Value Assessment</li>
-                                <li>Solution Architecture & Design</li>
-                                <li>Rapid Implementation & Process Configuration</li>
-                                <li>Quality Assurance, Testing & User Training</li>
-                                <li> Integration with SAP S/4 HANA, Oracle EBS & Non-SAP Systems</li>
-                                <li>Post-Go-Live Support & Continuous Process Optimization</li>
-                            </ul>
-                            <div className="mt-6 absolute">
-                                <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="relative p-8 xl:w-[720px] xl:pb-16 pb-10   xl:hidden block mx-[35px] ">
-                    <div className="absolute inset-0 bg-[#016FBE] opacity-[0.9] mt-[24rem]"></div>
-
-                    <div className="relative  bg-opacity-80 text-white z-10 xl:p-4 rounded-lg mt-[24rem]">
-                        <h3 className="font-light xl:text-[30px] text-[18px]">Introducing </h3>
-                        <h3 className="xl:text-[50px] text-[23px] xl:leading-[60px]">Rialtes DemandPlus</h3>
+                    <div className="bg-[#016FBE] bg-opacity-90 text-white p-8 xl:w-[720px]">
+                        <h3 className="font-light xl:text-[30px] text-[18px]">Introducing</h3>
+                        <h3 className="xl:text-[50px] text-[23px] leading-[60px]">Rialtes DemandPlus</h3>
                         <h3 className="xl:text-[36px] text-[22px] mt-5">End-to-End Kinaxis Services</h3>
-                        <p className='xl:mt-8 mt-5  leading-tight font-normal'>Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:</p>
-                        <ul className="list-disc leading-tight xl:space-y-5 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-8 pr-6">
+                        <p className="mt-8 text-[22px] leading-tight font-normal">
+                            Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:
+                        </p>
+                        <ul className="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-12 xl:pr-0">
                             <li>Kinaxis License Advisory & Value Assessment</li>
                             <li>Solution Architecture & Design</li>
                             <li>Rapid Implementation & Process Configuration</li>
                             <li>Quality Assurance, Testing & User Training</li>
-                            <li> Integration with SAP S/4 HANA, Oracle EBS & Non-SAP Systems</li>
+                            <li>Integration with SAP S/4 HANA, Oracle EBS & Non-SAP Systems</li>
                             <li>Post-Go-Live Support & Continuous Process Optimization</li>
                         </ul>
-                        <div className="xl:mt-6 xl:absolute">
-                            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
+                        <div className="mt-5">
+                            <LearnMore bgcolor="#134874" bordercolor="#006FBE" />
                         </div>
                     </div>
                 </div>
             </section>
-            <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-70px] sticky mt-[35rem] mx-[35px] xl:mx-0">
+
+            <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-70px] sticky mt-[-7rem] md:mt-[-7rem] mx-[35px] xl:mx-0 z-[99]">
                 <div className="col-span-4"></div>
                 <div className="col-span-7 bg-[#163055] p-8">
                     <p className="xl:text-[26px] text-[18px] text-white leading-tight font-normal xl:pr-10">From strategy to execution, Rialtes enables a seamless and accelerated journey to Kinaxis-driven supply chain transformation.</p>
@@ -477,7 +244,7 @@ export default function DemandPlusSection() {
                         />
                     </div>
 
-                    <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[25rem] top-[18rem]">
+                    <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[25rem] top-[18rem] md:top-[36rem]">
                         <div className="xl:col-span-6 bg-[#0B3A66]  pl-[35px] xl:py-16 py-8 xl:pr-20 pr-10 mr-[100px] xl:mr-0 custom-container">
 
                             <h2 className="mb-4 leading-tight">Why Kinaxis RapidResponse?</h2>
@@ -592,12 +359,12 @@ export default function DemandPlusSection() {
                             priority
                             width={0}
                             height={0}
-                            className="w-full h-[725px]"
+                            className="w-full"
                             sizes="100vw"
                         />
                     </div>
 
-                    <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[34rem] top-[23rem]">
+                    <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[34rem] top-[23rem] md:top-[46rem]">
                         <div className="xl:col-span-7  custom-container xl:!pr-0 pl-[35px] xl:py-16 py-8">
                             <h2 className="mb-4 leading-tight">Inventory Optimization & Enterprise Scheduling</h2>
                             <h3 className="xl:text-[42px] text-[22px] mt-5">Maximize Efficiency</h3>
@@ -640,7 +407,7 @@ export default function DemandPlusSection() {
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/scenario-desktop.webp"
                         alt="Warehouse"
-                        className="w-full h-[700px]"
+                        className="w-full"
                         priority
                         width={0}
                         height={0}
@@ -658,7 +425,7 @@ export default function DemandPlusSection() {
                         sizes="100vw"
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 absolute  top-0  xl:pl-20  xl:pt-20 pt-[20rem] md:pt-[40rem]">
+                <div className="grid xl:grid-cols-12 grid-cols-1 absolute  top-0  xl:pl-20  xl:pt-20 pt-[20rem]">
                     <div className="xl:col-span-6">
                         <h2 className="leading-tight">Scenario Planning</h2>
                         <h3 className="xl:text-[42px] text-[22px] mt-5 font-semibold leading-tight">Prepare for Every Possibility</h3>
@@ -676,7 +443,7 @@ export default function DemandPlusSection() {
             </section>
 
 
-            <section className="mt-[38rem] xl:mt-0">
+            <section className="mt-[38rem] xl:mt-0 md:mt-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 mx-[35px] xl:mx-0">
                     <div className="col-span-6">
 
@@ -814,35 +581,49 @@ export default function DemandPlusSection() {
 
             </section>
 
-            <section className="relative">
-                <div className="xl:block hidden">
+            <section className="relative xl:h-[700px]">
+                {/* Desktop Image */}
+                <div className="hidden xl:block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/sap-ariba-desktop.webp"
                         alt="Warehouse"
-                        className="object-cover w-full h-[855px]"
+                        className="object-cover"
+                        fill
                         priority
-                        width={0}
-                        height={0}
                         sizes="100vw"
                     />
                 </div>
-                <div className="xl:hidden block">
+
+                {/* Mobile Image */}
+                <div className="block xl:hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/sap-ariba-mobile.webp"
                         alt="Warehouse"
-                        className="w-full h-[403px]"
-                        priority
+                        className="w-full h-auto"
                         width={0}
                         height={0}
                         sizes="100vw"
+                        priority
                     />
                 </div>
-                <div className="custom-container  absolute  grid xl:grid-cols-12 grid-cols-1 top-[200px]">
-                    <div className="xl:col-span-6 bg-[#073259] xl:p-16 p-10  text-white">
+
+                {/* Text Block */}
+                <div
+                    className={`
+      custom-container text-white
+      xl:absolute xl:top-[20%] 
+      relative xl:w-[62%] w-full z-10
+    `}
+                >
+                    <div className="bg-[#073259] xl:p-16 p-10">
                         <h2 className="leading-tight pr-20 xl:pr-0">SAP ARIBA & Procurement</h2>
-                        <h3 className="xl:text-[42px] text-[22px] font-semibold leading-tight mt-5 pr-16 xl:pr-0">Direct/indirect procurement visibility connected to supply chain plans.</h3>
+                        <h3 className="xl:text-[42px] text-[22px] font-semibold leading-tight mt-5 pr-16 xl:pr-0">
+                            Direct/indirect procurement visibility connected to supply chain plans.
+                        </h3>
                         <h3 className="mt-5 leading-tight">SAP CPI — Connect S/4 HANA with Non-SAP Systems</h3>
-                        <p className="mt-5 mb-5 font-normal leading-tight">Rialtes leverages SAP CPI to connect S/4 HANA, Kinaxis, and other enterprise systems for a fully synchronized supply chain.</p>
+                        <p className="mt-5 mb-5 font-normal leading-tight">
+                            Rialtes leverages SAP CPI to connect S/4 HANA, Kinaxis, and other enterprise systems for a fully synchronized supply chain.
+                        </p>
                         <div className="absolute">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
@@ -853,7 +634,8 @@ export default function DemandPlusSection() {
 
 
 
-            <div className="bg-[#555555] mt-[20rem] xl:mt-0">
+
+            <div className="bg-[#555555] mt-0">
                 <div className="xl:pt-64 pt-32 mx-[35px] xl:mx-0">
                     <div className="xl:block hidden">
                         <Image
@@ -870,7 +652,7 @@ export default function DemandPlusSection() {
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/enhance-mobile.webp"
                             alt="Warehouse"
-                            className="w-full h-[224px] md:h-[440px]"
+                            className="w-full"
                             priority
                             width={0}
                             height={0}
