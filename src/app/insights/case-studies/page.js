@@ -8,8 +8,17 @@ import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
 
 const latestCaseStudy = [
-  {
+   {
     id: 1,
+    image: "/images/case-studies/fiori-main-page.webp",
+    industry: "Manufacturing",
+    date: "22 May 2025",
+    url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+    title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
+    description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
+  },
+  {
+    id: 2,
     image: "/images/case-studies/sales cloud case study thumb copy.webp",
     industry: "Manufacturing",
     date: "26 Mar 2025",
@@ -19,7 +28,7 @@ const latestCaseStudy = [
   },
   {
 
-    id: 2,
+    id: 3,
     image: "/images/case-studies/case study 3_thumb_n.webp",
     industry: "Manufacturing",
     date: "8 Jan 2025",
@@ -28,7 +37,7 @@ const latestCaseStudy = [
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
-    id: 3,
+    id: 4,
     image: "/images/case-studies/case-study-2_thumb_n.webp",
     industry: "Real Estate",
     date: "22 Dec 2024",
@@ -37,7 +46,7 @@ const latestCaseStudy = [
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
-    id: 4,
+    id: 5,
     image: "/images/case-studies/case study 1_thumb_n.webp",
     industry: "Healthcare",
     date: "17 Nov 2024",
@@ -46,7 +55,7 @@ const latestCaseStudy = [
     description: "A global medical technology company that develops and manufactures innovative products",
   },
   {
-    id: 5,
+    id: 6,
     image: "/images/case-studies/case-study-4_thumb.webp", 
     industry: "Manufacturing",
     date: "14 Oct 2024",
@@ -55,7 +64,7 @@ const latestCaseStudy = [
     description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
   },
   {
-    id: 6,
+    id: 7,
     image: "/images/case-studies/case-study-5_thumb.webp",
     industry: "Public Sector",
     date: "27 Sept 2024",
@@ -64,7 +73,7 @@ const latestCaseStudy = [
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
-    id: 7,
+    id: 8,
     image: "/images/case-studies/case-study-6_thumb.webp",
     industry: "Real Estate",
     date: "4 Sept 2024",
@@ -73,7 +82,7 @@ const latestCaseStudy = [
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
-    id: 8,
+    id: 9,
     image: "/images/case-studies/case-study-7_thumb.webp",
     industry: "Healthcare",
     date: "25 Oct 2024",
@@ -82,7 +91,7 @@ const latestCaseStudy = [
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
-    id: 9,
+    id: 10,
     image: "/images/case-studies/case-study-8_thumb.webp",
     industry: "Healthcare",
     date: "25 Oct 2024",
@@ -241,10 +250,20 @@ const CaseStudy = () => {
   );
 };
 
+
 const FeaturedCarousel = () => {
   const slides = [
-    {
+     {
       id: 1,
+      imgSrc: '/images/case-studies/fiori-main-page.webp',
+      category: 'Manufacturing',
+      date: '22 May 2025',
+      url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+    title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
+    description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
+    },
+    {
+      id: 2,
       imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
@@ -253,7 +272,7 @@ const FeaturedCarousel = () => {
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',

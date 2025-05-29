@@ -99,8 +99,7 @@ export default function Page() {
 
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
-                    // src="/images/case-studies/sales cloud case study.webp "
-                    src="/images/case-studies/case study 2_n 1.webp "
+                    src="/images/case-studies/fiori-banner.webp"
                     alt="Streamlined DevOps using Copado and Salesforce"
                     fill
                     style={{ objectFit: "cover", objectPosition: "90% 20%" }}
