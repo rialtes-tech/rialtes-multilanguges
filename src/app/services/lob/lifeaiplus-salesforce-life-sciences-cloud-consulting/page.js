@@ -412,7 +412,7 @@ export default function Retail({ items }) {
                         priority
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mx-[80px] mx-[35px] bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mx-[200px] mx-[35px] bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
                     <div className="col-span-6 xl:pl-20 xl:pt-20 pl-10 pt-10">
                         <h2 className="leading-tight">Prior Authorization Management</h2>
                         <h3 className="xl:text-[42px] text-[20px] mt-5 font-semibold leading-tight">Streamlined, Compliant, Intelligent</h3>
@@ -434,7 +434,7 @@ export default function Retail({ items }) {
 
                 </div>
             </section>
-            <div className="xl:mx-[140px] bg-[#163055] mx-[35px] relative p-8 xl:text-[26px] text-[20px] text-white xl:mt-[-60px] leading-tight">Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
+            <div className="xl:mx-[300px] bg-[#163055] mx-[35px] relative p-8 xl:text-[26px] text-[20px] text-white xl:mt-[-60px] leading-tight">Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
 
 
 
@@ -460,7 +460,7 @@ export default function Retail({ items }) {
                 <div
                     className="
         h-full relative
-      custom-container mt-[0rem] md:mt-0
+      custom-container mt-[30rem] md:mt-0
        "
                 >
                     <div className="relative p-8 xl:w-[907px] mt-[17rem] xl:mt-0 pb-10 ">
