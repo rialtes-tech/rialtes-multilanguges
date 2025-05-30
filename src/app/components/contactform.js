@@ -1,20 +1,28 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
 export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
     const [captchaValue, setCaptchaValue] = useState(false);
-    const recaptchaRef = useRef(null);
+    const section1Ref = useRef(null);
+    useEffect(() => {
+        const sectionId = window.location.hash.replace('#', '');
 
+        if (sectionId === 'section1' && section1Ref.current) {
+            window.scrollTo({
+                behavior: 'smooth',
+            });
+        }
+
+    }, []);
     const handleCaptchaChange = (value) => {
         setCaptchaValue(value)
     }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const form = e.target;
 
         try {
             const response = await fetch('https://rialtes.netlify.app/.netlify/functions/captcha', {
@@ -26,30 +34,18 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             const data = await response.json();
 
             if (response.ok) {
-                const formData = new FormData(form);
-                formData.append('g-recaptcha-response', captchaValue); // Important!
-
-                await fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg', {
-                    method: 'POST',
-                    body: formData,
-                    mode: 'no-cors',
-                });
-
-                recaptchaRef.current?.reset();
                 window.location.href = '/thank-you';
             } else {
-                alert(data.message || 'Captcha verification failed');
-                recaptchaRef.current?.reset();
+                alert(data.message);
             }
         } catch (error) {
             console.error('Captcha verification failed:', error);
-            alert('An error occurred during captcha verification');
-            recaptchaRef.current?.reset();
+            alert('Error occurred');
         }
     };
 
     return (
-        <section className={'container ' + padding ? padding : ''}>
+        <section ref={section1Ref} className={'container ' + padding ? padding : ''}>
 
             <h2 className={className}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
@@ -61,7 +57,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                 </p>
             )}
             {subtitle1 && (
-                <p className="mt-4 xl:text-[20px] text-[16px] xl:w-[50%]  xl:mt-[24px] font-regular">
+                <p className="mt-4 xl:text-[20px] text-[16px] xl:w-[50%] font-light xl:mt-[24px]">
                     {subtitle1}
                 </p>
             )}
@@ -116,14 +112,11 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web"></input>
-                <input type="hidden" name="g-recaptcha-response" value={captchaValue} />
-
                 <div className='mt-5 flex gap-8 flex-col xl:flex-row md:flex-row'>
-
-                    <ReCAPTCHA
+                 
+                          <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                         onChange={handleCaptchaChange}
-                        ref={recaptchaRef}
                     />
                     <button type="submit" name="submit" value="Submit" className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                         Let's Begin
