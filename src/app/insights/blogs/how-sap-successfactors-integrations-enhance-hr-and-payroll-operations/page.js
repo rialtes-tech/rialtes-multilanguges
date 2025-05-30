@@ -175,32 +175,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+               
                 </div>
               </div>
             </div>
@@ -213,7 +188,7 @@ export default function Page() {
           <div className="">
             <div className="max-w-4xl md:w-4/2">
 
-              {/* <p className="text-black pb-4">As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems. <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/behind-the-magic-understanding-how-salesforce-agentforce-operates/?utm_source=internal-traffic&utm_medium=blog&utm_campaign=The_Brain_Behind_the_Agents" ><span className="font-bold">Salesforce Agentforce</span></Link> provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.</p> */}
+              
               <p className="text-black pb-4">Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction. By combining advanced technology with intuitive features, SuccessFactors Payroll is built to address the evolving demands of modern businesses, ensuring your workforce is always paid accurately and on time.</p>
 
               <p className="text-black pb-4">Here’s an example: A PWC report reveals that 75% of companies using a global payroll system have reduced payroll errors, while 68% have seen improvements in local regulatory compliance.</p>
@@ -228,7 +203,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">HR Management with SAP Success Factors:</h2>
+              <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">HR Management with SAP Success Factors</h2>
 
              <div className="pl-6">
                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
@@ -241,11 +216,7 @@ export default function Page() {
               </ul>
              </div>
 
-              {/* <p className="text-black pb-4">At Dreamforce 2024, Salesforce CEO Clara Shih highlighted the difference between autonomous agent-based AI and Einstein Copilot, noting that the new agents are designed to go beyond content generation by allowing generative AI systems to take independent actions. This marks a significant shift toward AI systems capable of autonomous decision-making and execution.</p>
-
-              <p className="text-black pb-4">AI agents built with Agentforce stand apart from earlier Salesforce-based agents due to their integration with Atlas, a reasoning engine designed to enable these bots to think more like humans. This engine allows Agentforce AI agents to operate autonomously, making decisions and taking actions independently. In contrast, previous generations of Salesforce agents relied on pre-configured workflows to guide their actions, limiting their ability to act without predefined instructions.</p>
-
-              <p className="text-black">The Atlas engine enables the creation of autonomous AI agents through Agentforce, allowing them to think and act like humans. Unlike the previous generation of Salesforce agents, which required pre-configured workflows to perform tasks, these AI agents can independently handle manual system management tasks typically managed by developers or enterprise architects. This frees developers and architects to transition into a supervisory role, without needing to intervene in routine operations.</p> */}
+          
 
               <div className="py-6"></div>
 
@@ -253,7 +224,7 @@ export default function Page() {
 
               <p className="text-black pb-4">HR and payroll processes are inherently complex, involving a range of activities such as recruitment, employee onboarding, benefits administration, time tracking,compliance, and compensation. Managing these processes in isolation often results in inefficiencies, errors, and frustration for HR teams and employees alike. By integrating SAP SuccessFactors with other enterprise systems, organizations can:</p>
 
-              {/* <p className="text-black pb-4">For example, if a customer reports an issue with software integration, Atlas doesn’t simply point to troubleshooting guides. Instead, it evaluates the current system environment, past interactions, and even related case resolutions to propose the most efficient steps to resolve the issue. The result? More personalized responses and faster case resolution.</p> */}
+           
 
              <div className="pl-6">
                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
@@ -276,8 +247,8 @@ export default function Page() {
                 <p className="text-black pb-4">SAP SuccessFactors integrates seamlessly with SAP S/4HANA and other ERP systems to align HR operations with broader business functions. For example:</p>
                 <div className="pl-6">
                   <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                     <p  className="text-black pb-4"> <li><strong>Payroll Accuracy:</strong> Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system</li></p>
-                      <p  className="text-black pb-4"><li><strong>Financial Planning:</strong> Real-time data exchange supports accurate budgeting and forecasting by providing visibility into payroll expenses.</li></p>
+                     <p  className="text-black pb-4"> <li><h4 className="inline">Payroll Accuracy </h4>: Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system</li></p>
+                      <p  className="text-black "><li><h4 className="inline">Financial Planning </h4>: Real-time data exchange supports accurate budgeting and forecasting by providing visibility into payroll expenses.</li></p>
                 </ul>
                 </div>
               
@@ -288,9 +259,9 @@ export default function Page() {
                 <p  className="text-black pb-4">Tracking employee hours is critical for payroll and compliance. SuccessFactors integrates with leading time and attendance solutions to:</p>
            <div className="pl-6">
                  <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                      <p  className="text-black pb-4"><li><strong>Streamline Time Tracking:</strong> Automatically sync employee clock-in/clock-out data.</li></p>
-                     <p  className="text-black pb-4"> <li><strong>Ensure Compliance:</strong>Adhere to overtime and labor laws.</li></p>
-                    <p  className="text-black pb-4">  <li><strong>Optimize Workforce Management:</strong>Leverage accurate attendance data to manage staffing levels effectively.</li></p>
+                      <p  className="text-black pb-4"><li><h4 className="inline">Streamline Time Tracking </h4>:  Automatically sync employee clock-in/clock-out data.</li></p>
+                     <p  className="text-black pb-4"> <li><h4 className="inline">Ensure Compliance </h4>: Adhere to overtime and labor laws.</li></p>
+                    <p  className="text-black ">  <li><h4 className="inline">Optimize Workforce Management </h4>: Leverage accurate attendance data to manage staffing levels effectively.</li></p>
                 </ul>
            </div>
              
@@ -301,9 +272,9 @@ export default function Page() {
                 <p className="text-black pb-4">Employee benefits are a key component of compensation packages. SuccessFactors integrations enable organizations to:</p>
              <div className="pl-6">
                  <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                     <p  className="text-black pb-4"> <li><strong>Automate Enrollment:</strong>Streamline benefits enrollment during onboarding or open enrollment periods.</li></p>
-                     <p  className="text-black pb-4"> <li><strong>Improve Employee Experience:</strong> Provide employees with a self-service portal to manage their benefits. </li></p>
-                    <p  className="text-black pb-4"> <li><strong>Maintain Compliance:</strong>Ensure adherence to government-mandated benefit programs. </li></p>
+                     <p  className="text-black pb-4"> <li><h4 className="inline">Automate Enrollment </h4>: Streamline benefits enrollment during onboarding or open enrollment periods.</li></p>
+                     <p  className="text-black pb-4"> <li><h4 className="inline">Improve Employee Experience </h4>: Provide employees with a self-service portal to manage their benefits. </li></p>
+                    <p  className="text-black "> <li><h4 className="inline">Maintain Compliance </h4 >: Ensure adherence to government-mandated benefit programs. </li></p>
                 </ul>
           
              </div>
@@ -314,9 +285,9 @@ export default function Page() {
                 <p className="text-black pb-4">Continuous learning and development are vital for employee engagement and retention. By integrating with LMS platforms, SuccessFactors helps organizations:</p>
              <div className="pl-6">
                  <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                 <p  className="text-black pb-4"> <li><strong>Deliver Training :</strong> Assign and track training programs tailored to employee roles.</li></p>
-                   <p  className="text-black pb-4">  <li><strong>Measure Impact :</strong> Analyze training outcomes and link them to performance metrics.</li></p>
-                   <p  className="text-black pb-4">  <li><strong>Support Compliance :</strong>Manage mandatory certifications and training requirements.</li></p>
+                 <p  className="text-black pb-4"> <li><h4 className="inline">Deliver Training </h4>: Assign and track training programs tailored to employee roles.</li></p>
+                   <p  className="text-black pb-4">  <li><h4 className="inline">Measure Impact </h4>: Analyze training outcomes and link them to performance metrics.</li></p>
+                   <p  className="text-black ">  <li><h4 className="inline">Support Compliance </h4>: Manage mandatory certifications and training requirements.</li></p>
                 </ul>
             </div>
             
@@ -324,49 +295,21 @@ export default function Page() {
 
 
                 <h3 className="pb-4 mt-6 h3-bold">5. Integration with Third-Party Payroll Providers</h3>
-                <p  className="text-black pb-4">For organizations that outsource payroll,  <Link href={""} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span> SuccessFactors integrations with third-party</span></Link> providers such as ADP or Ceridian ensure:</p>
+                <p  className="text-black pb-4">For organizations that outsource payroll, SuccessFactors integrations with third-party providers such as ADP or Ceridian ensure:</p>
             <div className="pl-6">
                   <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                 <p  className="text-black pb-4"> <li><strong>Seamless Data Transfer :</strong> Share employee data, tax information, and payroll inputs securely.</li></p>
-                   <p  className="text-black pb-4">  <li><strong>Error-Free Processing :</strong> Minimize discrepancies and delays.</li></p>
-                   <p  className="text-black ">  <li><strong>Localized Compliance :</strong> Address country-specific payroll regulations.</li></p>
+                 <p  className="text-black pb-4"> <li><h4 className="inline">Seamless Data Transfer </h4>: Share employee data, tax information, and payroll inputs securely.</li></p>
+                   <p  className="text-black pb-4">  <li><h4 className="inline">Error-Free Processing </h4>: Minimize discrepancies and delays.</li></p>
+                   <p  className="text-black ">  <li><h4 className="inline">Localized Compliance </h4>: Address country-specific payroll regulations.</li></p>
                 </ul>
             </div>
            
-
-
-
-
-              {/* <p className="text-black pb-4 font-bold">Real-Time Reasoning:</p>
-
-              <p className="text-black pb-4">Atlas works in real-time, assisting agents during live interactions by suggesting the next best action, proposing solutions based on case history, and providing relevant knowledge base entries. It accelerates the problem-solving process and ensures more accurate responses.</p> */}
-
-              {/* 
-              <p className="text-black pb-4 font-bold">AI-Powered Insights:</p>
-
-              <p className="text-black pb-4">It goes beyond simple automation by offering AI-driven insights into the root causes of issues. Whether it’s recurring technical problems or common customer complaints, Atlas can identify trends and suggest preventive actions for the future.</p>
-
-
-
-              <p className="text-black pb-4 font-bold">Dynamic Case Management:</p>
-
-              <p className="text-black pb-4">Instead of following a rigid case resolution path, the Atlas Reasoning Engine adjusts the flow based on new inputs, changes in customer information, and live feedback from agents. This adaptability ensures that cases are managed efficiently, even as new challenges arise during interactions.</p>
-
-
-              <p className="text-black pb-4 font-bold">Cross-Platform Integration:</p>
-
-              <p className="text-black pb-4">Atlas seamlessly integrates across different Salesforce environments, including Sales Cloud, Service Cloud, and external platforms. This integration makes it easier for agents to pull customer data, purchase history, or previous case logs into the conversation without juggling multiple systems.</p>
-
-
-              <p className="text-black pb-4 font-bold">Enhanced Agent Productivity:</p>
-
-              <p className="text-black">By handling much of the information gathering and reasoning behind the scenes, Atlas frees up agents to focus on building better customer relationships, instead of spending time on mundane tasks. The engine also offers training suggestions and real-time coaching, making agents more effective.</p> */}
 
               <div className="py-6"></div>
 
               <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">SuccessFactors Employee Central Payroll</h2>
 
-              <p className="text-black pb-4"><Link href={""} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span>SAP SuccessFactors Employee Central</span></Link> is a cloud-based solution that manages core HR processes like employee data, payroll automation, time tracking, and benefits administration. By consolidating these functions, it improves operational efficiency, compliance, and employee experience. SuccessFactors Employee Central is part of the broader SAP SuccessFactors suite, which includes other modules for performance management, learning and development, recruiting, and more. As part of the SAP SuccessFactors suite, it integrates easily with other SAP solutions and third-party applications, making it suitable for businesses of any size.</p>
+              <p className="text-black pb-4">SAP SuccessFactors Employee Central is a cloud-based solution that manages core HR processes like employee data, payroll automation, time tracking, and benefits administration. By consolidating these functions, it improves operational efficiency, compliance, and employee experience. SuccessFactors Employee Central is part of the broader SAP SuccessFactors suite, which includes other modules for performance management, learning and development, recruiting, and more. As part of the SAP SuccessFactors suite, it integrates easily with other SAP solutions and third-party applications, making it suitable for businesses of any size.</p>
 
                <p className="text-black pb-4 font-bold">Global Payroll Processing</p>
 
@@ -389,7 +332,7 @@ export default function Page() {
 
               <p className="text-black ">SAP SuccessFactors Payroll helps businesses comply with ever-changing payroll regulations, easing the burden on HR and payroll teams.</p>
 
-              {/* <p className="text-black">As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts.</p> */}
+              
    <div className="py-6"></div>
 
    <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Overcome SuccessFactors Integration Challenges</h2>

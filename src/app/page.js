@@ -104,7 +104,7 @@ const successStoryData = [
     },
     {
         id: 4,
-        imageUrl: '/images/homepage/realestate.webp',
+        imageUrl: '/images/homepage/public-sector-3.webp',
         title: 'Public Sector',
         description: "YARDI Transformation Journey with North America's Largest PHA",
         theme: "light",
@@ -127,7 +127,7 @@ const successStoryData = [
     },
     {
         id: 7,
-        imageUrl: '/images/homepage/realestate-2.webp',
+        imageUrl: '/images/homepage/realestate-3.webp',
         title: 'Real Estate',
         description: 'Automating ACH and Journal Entries with Our Exelona Banking Module',
         url: 'insights/case-studies/realForce-banking-module-ach',
@@ -136,7 +136,7 @@ const successStoryData = [
     },
     {
         id: 8,
-        imageUrl: '/images/homepage/healtcare-3.webp',
+        imageUrl: '/images/homepage/healthcareImg.webp',
         title: 'Healthcare',
         description: 'Digitizing patient journey using Salesforce health cloud',
         url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud',
