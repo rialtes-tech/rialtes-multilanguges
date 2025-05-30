@@ -34,8 +34,8 @@ export default function BlogsCarousel() {
     {
     id: 12,
     image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
-    category: "SAP",
-    industry: "SAP",
+    category: "AI",
+    industry: "Pharma",
     date: "30 April 2025",
     url: '/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
     title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
