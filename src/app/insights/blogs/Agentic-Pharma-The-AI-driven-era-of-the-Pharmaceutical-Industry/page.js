@@ -341,32 +341,29 @@ export default function Page() {
 
              
             <div className="pl-8">
-              <p className="text-black pb-2 font-bold">1.  Drug Discovery</p>
+              <h3 className="text-black pb-2 h3-bold">1.  Drug Discovery</h3>
               <p className="text-black pb-4">Tasks that once took months can now be done in days. Agentic AI can autonomously analyze vast biological datasets, identify viable molecular targets, and simulate compound interactions. Agents collaborate across datasets, uncovering insights that even expert teams might overlook.</p>
 
-              <p className="text-black pb-2   font-bold">2.  Optimizing PSP Operations</p>
+              <h3 className="text-black pb-2  h3-bold">2.  Optimizing PSP Operations</h3>
 
               <p className="text-black pb-4">Patient Support Programs are vital for improving medication adherence and offering educational resources. Agentic AI can streamline onboarding by verifying eligibility,
                organizing documentation, and automating follow-ups, reducing onboarding times by up to 50%. With real-time analytics, it can also identify patients at risk of non-compliance and initiate timely interventions.</p>
 
-              <p className="text-black pb-2 font-bold">3.  Smarter Clinical Trials</p>
+              <h3 className="text-black pb-2 h3-bold">3.  Smarter Clinical Trials</h3>
 
               <p className="text-black pb-4">AI agents can manage clinical trial logistics, monitor patient recruitment, ensure protocol adherence, and flag potential risks in real time. This not only speeds up the process but also improves trial outcomes and patient safety.</p>
 
 
-              <p className="text-black pb-2  font-bold">4.  Pharmacovigilance and Post-Market Surveillance</p>
+              <h3 className="text-black pb-2  h3-bold">4.  Pharmacovigilance and Post-Market Surveillance</h3>
 
               <p className="text-black pb-4">Autonomous agents can monitor global data streams, identify adverse drug events, and generate reports in compliance with regional guidelines, ensuring patient safety and brand integrity.</p>
 
 
-              <p className="text-black pb-2  font-bold">5.  Supply Chain and Manufacturing Optimization</p>
+              <h3 className="text-black pb-2  h3-bold">5.  Supply Chain and Manufacturing Optimization</h3>
 
               <p className="text-black">Supply chain disruptions in the pharmaceutical industry can lead to severe issues like drug shortages and delayed market entry. By using historical sales and real-time market data, companies can predict demand, manage inventory, and identify disruptions, maintaining lean and agile operations.</p>
 
          </div> 
-
-
-
 
               <div className="py-6"></div>
 
