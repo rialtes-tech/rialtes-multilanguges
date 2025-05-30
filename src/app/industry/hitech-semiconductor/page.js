@@ -5,6 +5,7 @@ import ContactForm from "../../components/contactform";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 
 
@@ -37,14 +38,15 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
-      <h2 className="text-black mb-6">Hi-tech Segments We Serve</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
+    <div className="mx-auto text-black">
+      <h2 className="text-black mb-12">Hi-tech Segments We Serve</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
-      <div className="mt-0">     <LearnMore/>
+      <div className="mt-8">
+        <LearnMore />
       </div>
     </div>
   );
@@ -103,21 +105,21 @@ const GrowServicesCard = ({ services }) => (
       />
     </div>
     <div className="flex flex-col pt-4">
-      <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
+      <h3 className="my-[20px] font-semibold h3-bold line-clamp-2">{services.title}</h3>
     </div>
     <p className='md:mb-[15px]'>{services.description}</p>
     {services.listitems}
-    <div className="mt-[-30px] xl:mt-0">   <LearnMore/>
+    <div className="mt-[10px] xl:mt-0">   <LearnMore />
     </div>
   </div>
 );
 
 const GrowServices = () => {
   return (
-    <div className="container mx-auto text-black 2xl:pr-96 xl:pr-40 md:pr-20 pr-6">
+    <div className="text-black">
       <h2 className="pb-10 text-black">Boost Solutions & Innovation with Rialtes</h2>
       <p className="pb-8">The tech world continually shifts and moves like a living creature lost in a cave. Every day, you hear about incredible innovation that transforms how we do business. If you want to stay updated on the latest tools, benefits, and features of how the Hi-Tech world moves, you will benefit from our team at Rialtes. With services ranging from IoT consulting services to semiconductor manufacturing software, we are your comprehensive guide to all things digital.</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-14 lg:gap-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2  gap-16 md:gap-14 lg:gap-28 mt-[20px] xl:mt-[40px]">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
         ))}
@@ -132,60 +134,24 @@ export default function Page() {
     <div className="min-h-screen bg-white">
 
       <Seo
-                title="Hi-Tech"
-                canonical="https://www.rialtes.com/industry/hitech-semiconductor/"
-            />
+        title="Hi-Tech"
+        canonical="https://www.rialtes.com/industry/hitech-semiconductor/"
+      />
 
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[837px] overflow-hidden group">
-          <Image
-          className="transition duration-300 ease-out group-hover:scale-110"
-            src="/images/industry/hi-tech/hi-tech-banner.webp"
-            alt="HI-TECH"
-            fill
-            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-            priority
-          />
-        <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <div className="flex flex-col">
-              <h3 className="text-white text-[300] font-medium mb-2">HI-TECH</h3>
-              <h2 className="text-white max-w-2xl">
-                Accelerate innovation and meet the rapid demand of digital enterprises
-              </h2>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroSection title="Accelerate innovation and meet the rapid demand of digital enterprises" subtitle="HI-TECH" deskimg="/images/industry/hi-tech/hi-tech-banner.webp" mobimg="/images/industry/hi-tech/hitech-mob-banner.webp" />
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto 2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col xl:flex-row py-6 xl:gap-32">
-              <div className="flex flex-col w-full xl:max-w-xl xl:mr-10 xl:mb-0 mb-4">
-                <h1 className="text-black md:pb-0 pb-4 xl:text-[45px]">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
-              </div>
-              <div className="flex flex-col w-full xl:max-w-xl">
-                <p className="text-[#000000]">You engineer and manufacture complex products to make consumers’ lives easier. From semiconductor production to biotech technology design, we make hi-tech industry processes simple and seamless with customizable technology solutions. Our experienced team understands the unique challenges hi-tech industries face, from supply chain volatility to evolving customer demands.</p>
-              </div>
+          <div className="flex flex-col xl:flex-row py-6 2xl:gap-32 xl:gap-[24px] gap-y-[24px]">
+            <div className="flex flex-col xl:mb-0 mb-4">
+              <h1 className="text-black md:pb-0 pb-4 xl:text-[44px] ">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
             </div>
-
+            <div className="flex flex-col w-full xl:max-w-xl">
+              <p className="text-[#000000]">You engineer and manufacture complex products to make consumers’ lives easier. From semiconductor production to biotech technology design, we make hi-tech industry processes simple and seamless with customizable technology solutions. Our experienced team understands the unique challenges hi-tech industries face, from supply chain volatility to evolving customer demands.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -193,13 +159,7 @@ export default function Page() {
 
       {/* We Help You Grow and Thrive */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
         <section className="xl:py-16 bg-white">
           <GrowServices />
@@ -210,63 +170,17 @@ export default function Page() {
 
       {/* Latest Services Section */}
       <div
-        className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+        className="py-10 mt-8 lg:mt-0  custom-container">
         <section className="pb-16 bg-white">
 
           <Services />
 
         </section>
       </div>
-
-    
-
-      {/* Latest Customer Success Stories
-      < div className="bg-[#F5F5F5] py-6" >
-        <div
-          className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <FeaturedCarousel />
-
-        </div>
-      </div> */}
-
-      {/* Latest Blogs */}
-      {/* < div
-        className="
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  py-10"
-      >
-        <InsightsCarousel />
-
-      </div > */}
-
       {/* Explore More */}
       < div className="bg-[#808080] py-6" >
         <div
-          className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container lg:pr-0"
         >
           <ExploreMoreCarousel />
 
@@ -276,15 +190,7 @@ export default function Page() {
 
       {/* Contact Form */}
       < div
-        className="py-20
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  text-black
-  lg:pr-0 pr-6"
+        className="py-20 custom-container  text-black"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
 
