@@ -47,9 +47,9 @@ export default function Page() {
                         </div>
 
                         <div className="absolute bg-[#134874] text-white xl:p-10 p-3 xl:w-[33%] md:h-[350px] md:w-[385px] w-[65%] xl:left-[6%] top-0 xl:top-[50px]">
-                            <h3 className="xl:text-[30px] text-[17px] font-light">Introducing  </h3>
-                            <h1 className="font-light">AgentChat:</h1>
-                            <h3 className="xl:text-[30px] text-[17px] md:text-[25px] font-light leading-tight">Seamless WhatsApp Conversations Inside Salesforce</h3>
+                            <h1 ><span className="xl:text-[30px] text-[17px] font-light block">Introducing</span> 
+                            <span className="font-light block">AgentChat:</span>
+                            <span  className="xl:text-[30px] text-[17px] md:text-[25px] font-light leading-tight block">Seamless WhatsApp Conversations Inside Salesforce</span></h1>
                         </div>
 
                         <div className="absolute xl:right-[275px] xl:top-[33rem] top-[76%]">
