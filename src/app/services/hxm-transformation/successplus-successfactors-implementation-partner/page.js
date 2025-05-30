@@ -133,7 +133,7 @@ export default function Page() {
       />
 
 
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      {/* <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/success-factors/successfactor-banner.webp"
           alt="SuccessFactor"
@@ -143,8 +143,12 @@ export default function Page() {
         />
         <div
           className="
-                     h-full relative
-       custom-container"
+                    container h-full relative
+        ml-[15px] w-[calc(100%-15px)] mr-0
+        xl:ml-[280px] xl:w-[calc(100%-280px)]
+        md:ml-[100px] md:w-[calc(100%-100px)]
+                    sm:mx-5 sm:w-[calc(100%-40px)]
+                    xs:mx-4 xs:w-[calc(100%-32px)]"
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
             <h3 className="text-white text-[300] font-medium mb-2">SuccessFactors</h3>
@@ -164,9 +168,12 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+   <HeroSection title="HR Transformation Enabled Using SuccessFactors" subtitle="SuccessFactors" mobimg="/images/success-factors/successfactor-banner.webp" deskimg="/images/success-factors/successfactor-banner.webp" extraImg="/images/success-factors/sap-partner-logo.webp" />
 
-      <section  className="custom-container">
+      <section
+        className="custom-container"
+      >
 
         <div className="py-10 bg-white">
           <div className="2xl:pr-72 xl:pr-40 md:pr-20">

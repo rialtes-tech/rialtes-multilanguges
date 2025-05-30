@@ -21,8 +21,8 @@ const schemaData = {
 
 const webinars = [
 
-  
-  
+
+
   {
     id: 2,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
@@ -36,7 +36,7 @@ const webinars = [
     backgroundImage: "/images/webinar/rise.webp",
     url: 'insights/webinars/rise-with-sap-transformation-rialtes'
   },
-   {
+  {
     id: 3,
     title: "CIG, Your Gateway to SAP Ariba",
     date: "10 June, 2025",
@@ -49,8 +49,8 @@ const webinars = [
     backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
     url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
   },
-  
- 
+
+
 ];
 
 const allWebinars = [
@@ -85,17 +85,17 @@ const allWebinars = [
     image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
     url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
   },
-  // {
-  //   id: 3,
-  //   title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
-  //   date: "May 08, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: "Divya Agarwal",
-  //   position: "Software Engineer - Salesforce",
-  //   image: "/images/webinar/webinar-thumb.webp",
-  //   url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+  {
+    id: 3,
+    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+    date: "May 08, 2025",
+    time: "10:00 AM CST",
+    speaker: "Divya Agarwal",
+    position: "Software Engineer - Salesforce",
+    image: "/images/webinar/webinar-thumb.webp",
+    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
 
-  // },
+  },
   {
     id: 4,
     title: "Let’s WhatsApp in Salesforce with AgentChat",
