@@ -83,9 +83,7 @@ export default function Page() {
                 <div
                     className="
          h-full relative
-        mx-[35px] xl:mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
+        custom-container"
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-20 xl:mt-20 mt-[9rem]">
                         <div className="xl:col-span-6 col-span-12 xl:pr-16 pr-[35rem]">
@@ -108,9 +106,7 @@ export default function Page() {
 
             <section
                 className="xl:mt-16 mt-8
-              mx-[35px] xl:mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]"
+             custom-container"
             >
 
                 <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -154,9 +150,7 @@ export default function Page() {
                 </div>
                 <div
                     className="relative xl:mt-16 mt-8
-              mx-[35px] xl:mr-0
-              xl:ml-[280px] xl:w-[calc(100%-280px)]
-              md:ml-[100px] md:w-[calc(100%-100px)]"
+              custom-container"
                 >
                     <div className="xl:pt-16 pt-[24rem]">
                         <h2 className="xl:text-[60px] text-[26px]">Thought Leadership:</h2>
@@ -211,9 +205,7 @@ export default function Page() {
 
             <div
                 className="xl:mt-40 mt-[75rem]
-        mx-[35px] xl:mr-[142px]
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
+       custom-container"
             >
                 <section className="pb-16 bg-white">
                     <Services2 />
@@ -245,9 +237,7 @@ export default function Page() {
                 <div
                     className="
         h-full relative
-        xl:ml-[280px] 
-        xl:mr-[156px] 
-        md:ml-[100px]"
+       custom-container"
                 >
                     <div className="flex">
                         <div className="relative xl:w-[1014px] xl:h-[1621px] pb-16 xl:pb-0">
@@ -336,7 +326,7 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-12 items-start">
                     <div className="xl:col-span-6 col-span-12 bg-[#C4EBEA] xl:pr-20 xl:pb-20 pb-10 -mt-[6rem]">
                         <div
-                            className="h-full relative mx-[35px] xl:ml-[280px]"
+                            className="h-full relative custom-container"
                         >
                             <h2 className="xl:text-[47px] text-[28px] mt-32 font-medium leading-tight">Hyper-Personalized Student Engagement with Salesforce Marketing Cloud</h2>
                             <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-10 xl:pr-0 leading-tight font-medium">
@@ -414,7 +404,7 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-12 items-start">
                     <div className="xl:col-span-6 col-span-12 bg-[#D6CFCF] xl:pr-20 xl:pb-20 pb-10 -mt-[6rem]">
                         <div
-                            className="h-full relative mx-[35px] xl:ml-[280px] "
+                            className="h-full relative custom-container"
                         >
                             <h2 className="xl:text-[47px] text-[28px] mt-32 font-medium leading-tight">Self-Service Portals for Students and Faculty</h2>
                             <h3 className="mt-10 font-bold xl:text-[40px] text-[22px] pr-20 xl:pr-0">Salesforce Experience Cloud</h3>
@@ -494,7 +484,7 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-12 items-start">
                     <div className="xl:col-span-6 col-span-12 bg-[#F1D8D9] pr-20 xl:pb-20 pb-10 -mt-[6rem]">
                         <div
-                            className="h-full relative ml-[35px] xl:ml-[280px] "
+                            className="h-full relative custom-container"
                         >
                             <h2 className="xl:text-[47px] text-[28px] mt-32 font-medium leading-tight">Dynamic Program and Course Pricing</h2>
                             <h3 className="xl:mt-10 mt-5 font-bold xl:text-[40px] text-[22px]">Salesforce Revenue Cloud</h3>
@@ -573,7 +563,7 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-12 items-start">
                     <div className="xl:col-span-6 col-span-12 bg-[#C4E2FF] xl:pr-20 xl:pb-20 pb-10 -mt-[6rem]">
                         <div
-                            className="h-full relative mx-[35px] xl:ml-[280px] "
+                            className="h-full relative custom-container"
                         >
                             <h2 className="xl:text-[47px] text-[28px] mt-32 font-medium leading-tight pr-10 xl:pr-0">Empowering Advisors and Faculty</h2>
                             <h3 className="mt-5 font-bold xl:text-[40px] text-[22px]">Agentforce for Education</h3>
@@ -626,9 +616,7 @@ export default function Page() {
                 <div
                     className="container text-white 
                               h-full relative
-                             mx-[35px] xl:mr-0
-                             xl:ml-[280px] xl:w-[calc(100%-280px)]
-                             md:ml-[100px] md:w-[calc(100%-100px)]"
+                            custom-container"
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white">
                         <div className="xl:col-span-7 col-span-12">
@@ -727,11 +715,11 @@ export default function Page() {
             <div
                 className="
                   h-full  xl:mr-[142px]
-                 xl:ml-[280px] 
+                 custom-container
                  ">
                 <p className="xl:text-[26px] mx-[35px] text-[18px] bg-[#0C8AD4]  p-5 pl-10 text-white mt-[-5rem] absolute xl:w-[60%]">With AgentChat, elevate your institution’s communication to new heights—efficient, secure, and fully integrated.</p>
             </div>
-            <div className="mt-20  xl:ml-[280px] mx-[35px]">
+            <div className="mt-20 cunstom-container">
                 <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 text-[16px] xl:text-[22px] px-8 transition duration-300 order-4 mt-6">
                     <Link href='/products/agentchat'>Know More</Link>
                 </button>
@@ -740,9 +728,7 @@ export default function Page() {
                 <div
                     className="
                   h-full relative
-                 mx-[35px] xl:mr-0
-                 xl:ml-[280px] xl:w-[calc(100%-280px)]
-                 md:ml-[100px] md:w-[calc(100%-100px)]"
+                 custom-container"
                 >
                     <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-16">
                         <div className="xl:col-span-5 col-span-12 relative xl:h-[536px] h-[331px] group overflow-hidden">
@@ -799,9 +785,7 @@ export default function Page() {
             <div
                 className="
   xl:container
-  mx-[35px] xl:mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
+  custom-container
   text-black xl:py-20 pb-10"
             >
                 <ContactForm title={'Ready to Redefine Your Student Experience?'} className={"max-w-[62rem] xl:font-medium xl:text-[60px] text-[26px]"} />
