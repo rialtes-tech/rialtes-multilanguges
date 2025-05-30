@@ -213,7 +213,7 @@ export default function () {
             </div>
             <div ref={sectionRef}  className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20">
                 <WebinarForm
-                    redirectUrl=""
+                    redirectUrl="https://www.youtube.com/watch?v=41Cz_wwRCPU"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"
 
                 />
