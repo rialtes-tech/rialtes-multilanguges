@@ -9,6 +9,16 @@ import Seo from "@/app/components/Seo";
 
 
 const latestBlogs = [
+    {
+    id: 17,
+    image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+    category: "Healthcare",
+    industry: "Healthcare",
+    date: "30 April 2025",
+    url: '/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
+    title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
+    description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
+  },
   {
     id: 16,
     image: "/images/blog/jcarosel.webp",
@@ -573,6 +583,9 @@ export default function Page() {
         <section className="py-16 bg-white">
 
           <BlogList />
+
+
+
 
         </section>
       </div>
