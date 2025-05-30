@@ -9,6 +9,30 @@ import Seo from "@/app/components/Seo";
 
 
 const latestBlogs = [
+   {
+    id:18,
+    image:"/images/blog/sap-ariba-for-carousel.webp",
+    category:"SAP",
+    industry:"Manufacturing",
+    date:"29 May 2025",
+    url:"/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
+    title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
+    description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
+
+
+  },
+   {
+    id:19,
+    image:"/images/blog/successfactor-for-carousel.webp",
+    category:"SAP SuccessFactors",
+    industry:"Human Resources",
+    date:"28 May 2025",
+    url:"/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations",
+    title:"How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
+    description:"Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
+
+
+  },
   {
     id: 16,
     image: "/images/blog/jcarosel.webp",
@@ -170,6 +194,7 @@ const latestBlogs = [
     description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
   },
   // Add more blog objects as needed
+ 
 ];
 
 const BlogCard = ({ blog }) => (
