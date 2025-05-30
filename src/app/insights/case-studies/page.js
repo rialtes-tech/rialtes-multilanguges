@@ -1,5 +1,4 @@
 "use client";
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
@@ -9,6 +8,15 @@ import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
 
 const latestCaseStudy = [
+   {
+    id:10,
+    image:"/images/case-studies/adaptis-for-carousel.webp",
+    industry:"Manufacturing",
+    date:"30 May 2025",
+    url:"/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
+    title:"Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities",
+    description:"A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
+  },
   {
     id: 1,
     image: "/images/case-studies/sales cloud case study thumb copy.webp",
@@ -25,7 +33,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "8 Jan 2025",
     url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-    title: "Streamlined DevOps using Copado and Salesforce",
+    title: "DevOps Transformation using Copado and Salesforce",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
@@ -34,7 +42,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "22 Dec 2024",
     url: "/insights/case-studies/realForce-banking-module-ach",
-    title: "RealForce Banking Module - ACH",
+    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
@@ -52,7 +60,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "14 Oct 2024",
     url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
-    title: "Omnichannel case management with Salesforce Service Cloud",
+    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
     description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
   },
   {
@@ -60,8 +68,8 @@ const latestCaseStudy = [
     image: "/images/case-studies/case-study-5_thumb.webp",
     industry: "Public Sector",
     date: "27 Sept 2024",
-    url: "/insights/case-studies/a-public-housing-in-us",
-    title: "A public housing in US",
+    url: "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+    title: "YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America",
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
@@ -70,7 +78,7 @@ const latestCaseStudy = [
     industry: "Real Estate",
     date: "4 Sept 2024",
     url: "/insights/case-studies/yardi-managed-services",
-    title: "Yardi Managed Services",
+    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
@@ -79,7 +87,7 @@ const latestCaseStudy = [
     industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-    title: "Digitizing patient journey using Salesforce health cloud",
+    title: "Digitizing the Patient Journey Using Salesforce Health Cloud",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
@@ -88,9 +96,10 @@ const latestCaseStudy = [
     industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/insights/case-studies/salesforce-health-cloud-prior-authorization",
-    title: "Salesforce Health Cloud, Prior Authorization",
+    title: "Accelerating Prior Authorizations Using Salesforce Health Cloud",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
+
  
   // Add more case study objects as needed
 ];
@@ -250,7 +259,7 @@ const FeaturedCarousel = () => {
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
       url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      title: 'Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
+      title: 'Automating Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
     {
