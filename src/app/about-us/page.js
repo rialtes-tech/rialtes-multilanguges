@@ -99,13 +99,7 @@ export default function About() {
             />
             <section className="relative">
                 <div
-                    className="
-    ml-[15px] w-[calc(100%-15px)] mr-0
-    xl:ml-[280px] xl:w-[calc(100%-280px)] xl:h-[650px]
-    md:ml-[100px] md:w-[calc(100%-100px)]
-    sm:mx-5 sm:w-[calc(100%-40px)]
-    xs:mx-4 xs:w-[calc(100%-32px)]
-     overflow-hidden"
+                    className="custom-container lg:!pr-0 overflow-hidden max-sm:"
                 >
                     {/* Image Element */}
                     <Image
@@ -128,18 +122,9 @@ export default function About() {
 
             </section>
 
-
-
-
             {/* Mission & Vision Section */}
             <div
-                className="mt-40
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)] 
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
+                className="mt-40 custom-container">
                 <h1 className="py-10 xl:text-[60px] xl:w-[76%]">World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.</h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
                     <div className="relative overflow-hidden">
@@ -151,7 +136,7 @@ export default function About() {
                             priority
                             className="w-full h-full transition-transform duration-300 hover:scale-105"
                         />
-                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 xl:text-[30px] text-[22px]">Launching comprehensive patient centric solution for the largest European life sciences company in United States</div>
+                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 xl:text-[23px] text-[22px]">Launching comprehensive patient centric solution for the largest European life sciences company in United States</div>
                     </div>
                     <div className="relative overflow-hidden">
                         <Image
@@ -162,7 +147,7 @@ export default function About() {
                             priority
                             className="w-full h-full transition-transform duration-300 hover:scale-105"
                         />
-                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 xl:text-[30px] text-[22px]">Empowering Singapore’s largest employer to run their business every day</div>
+                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 xl:text-[23px] text-[22px]">Empowering Singapore’s largest employer to run their business every day</div>
 
                     </div>
                     <div className="relative overflow-hidden">
@@ -174,32 +159,18 @@ export default function About() {
                             priority
                             className="w-full h-full transition-transform duration-300 hover:scale-105"
                         />
-                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 xl:text-[30px] text-[22px]">Accelerating India’s Largest automotive manufacturer to expand in North America</div>
-
+                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 xl:text-[23px] text-[22px]">Accelerating India’s Largest automotive manufacturer to expand in North America</div>
                     </div>
-
-
                 </div>
             </div>
-
-
+            
             <section className="xl:py-16 py-10 bg-gray-100 mt-20">
-                <div
-                    className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-                >
+                <div  className="custom-container">
                     <div className="container mx-auto">
-                        <h3 className="text-[#000000] mb-8 font-bold w-full xl:text-[45px] text-[25px]">Over the last several years, we have built our relationships with our clients, our employees,
+                        <h3 className="text-[#000000] mb-8 font-bold w-full xl:text-[45px] text-[23px]">Over the last several years, we have built our relationships with our clients, our employees,
 
                             and our partners on core fundamental principles</h3>
-
-
-                        <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-64 gap-10">
+                        <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-40 gap-10">
                             <div className="grid justify-center items-center">
                                 <Image
                                     src="/images/about-us/trust.svg"
@@ -207,7 +178,7 @@ export default function About() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="xl:w-[160px] xl:h-[160px] w-[120px] h-[120px]"
+                                    className="xl:w-[177px] xl:h-[177px] w-[135px] h-[135px]"
                                 />
                                 <p className="mt-5 text-center xl:text-[35px] text-[22px]">Trust</p>
                             </div>
@@ -234,29 +205,20 @@ export default function About() {
                                 <p className="mt-5 text-center xl:text-[35px] text-[22px]">Commitment</p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
 
             <section className="xl:py-16 pt-10">
                 <div
-                    className="
-        container
-        ml-[15px] w-[calc(100%-15px)]
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-                >
+                    className="custom-container  max-md:px-0">
                     <div className="container mx-auto">
                         <h2 className="text-[#000000] xl:text-[60px] text-[45px]">What we do</h2>
                         <p className="mt-5 xl:w-[80%] xl:text-[22px] text-[18px]">At the intersection of technology and business, we deliver solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact.</p>
 
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-20 mb-8 mt-20 grid-cols-1">
                             <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[389px]">
+                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[450px] max-md:h-[400px]">
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
@@ -273,7 +235,7 @@ export default function About() {
                                 </div>
                             </div>
                             <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[389px]">
+                                <div className="relative border-b border-l border-r border-gray-300 p-12  h-[450px] max-md:h-[400px]">
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
@@ -290,7 +252,7 @@ export default function About() {
                                 </div>
                             </div>
                             <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[389px]">
+                                <div className="relative border-b border-l border-r border-gray-300 p-12  h-[450px] max-md:h-[400px]">
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
@@ -306,11 +268,7 @@ export default function About() {
                                     <div className="absolute bottom-[3rem] w-12 border-t border-gray-400"></div>
                                 </div>
                             </div>
-
-
                         </div>
-
-
                     </div>
                 </div>
             </section>
@@ -323,60 +281,30 @@ export default function About() {
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
                 />
-                <div
-                    className="
-        h-full relative
-        ml-[15px]
-        xl:ml-[280px] 
-        xl:mr-[156px] 
-        md:ml-[100px]"
-                >
+                <div  className=" h-full relative ml-[15px]   xl:ml-[280px] xl:mr-[156px]  md:ml-[100px]" >
                     <div className="flex justify-end">
                         <div className="relative p-10 w-[720px] h-[620px]">
                             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-
                             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
                                 <h3 className="xl:text-[45px] font-bold">Welcome to the Future of Intelligent Business.</h3>
                                 <p className='mt-5 xl:text-[28px]'>Whether you’re exploring AI adoption, modernizing operations, or reimagining customer experiences, our team is ready to guide you with tailored, results-driven strategies.</p>
                                 <p className="mt-5 xl:text-[28px]">Connect with us to accelerate your transformation journey.</p>
-
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </section>
             <div
-                className="mt-[3rem] xl:mt-0 md:mt-[15rem]
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
+                className="mt-[3rem] xl:mt-0   custom-container max-md:px-0">
                 <section className="pb-16 bg-white">
-
                     <Services />
-
                 </section>
             </div>
-
-
             {/* SuccessFactors
 
             {/* Contact Form Section */}
             <div
-                className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black  xl:pt-16 pb-20"
-            >
+                className="custom-container text-black  xl:pt-16 pb-20">
                 <ContactForm />
             </div>
         </div>
