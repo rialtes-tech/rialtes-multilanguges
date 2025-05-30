@@ -158,7 +158,7 @@ export default function Page() {
                                     />
                                 </a>
                             </div>  */}
-                            <div className="max-w-[40px]">
+                            {/* <div className="max-w-[40px]">
                                 <a href="https://x.com/Rialtestech">
                                     <Image
                                         src="/images/case-studies/twitter.svg"
@@ -170,7 +170,7 @@ export default function Page() {
                                         priority
                                     />
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
