@@ -147,7 +147,7 @@ export default function Page() {
         </div>
         <div
           className="relative text-white grid xl:grid-cols-12 grid-cols-1" >
-            <div className="col-span-2"></div>
+          <div className="col-span-2"></div>
           <div className="xl:pt-10 pt-5 xl:pb-32 pb-10 col-span-4 xl:pl-10">
             <div className="xl:col-span-5 col-span-12 xl:pt-8  xl:mt-0 mt-[38rem] mx-[35px] xl:mx-0">
               <h2 className="leading-tight">Rialtes’ End-to-End Manufacturing Transformation Services</h2>
@@ -462,14 +462,14 @@ export default function Page() {
             />
           </div>
           <div className="xl:col-span-4 col-span-12 bg-[#33A316] p-8 text-white xl:mt-10 mb-10 z-[9] mx-[35px] xl:mx-0 mt-[-115px]">
-              <h2 className="leading-tight  xl:mt-0">AI in Manufacturing</h2>
-              <h3 className="mt-5 xl:text-[42px] text-[22px] leading-tight font-semibold">Shaping a Smarter Future</h3>
-              <p className="mt-8  font-light leading-tight">
-                AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.
-              </p>
-              <div className="xl:mt-5 absolute  xl:relative">
-                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
-              </div>
+            <h2 className="leading-tight  xl:mt-0">AI in Manufacturing</h2>
+            <h3 className="mt-5 xl:text-[42px] text-[22px] leading-tight font-semibold">Shaping a Smarter Future</h3>
+            <p className="mt-8  font-light leading-tight">
+              AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.
+            </p>
+            <div className="xl:mt-5 absolute  xl:relative">
+              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+            </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
             <Image
@@ -577,8 +577,6 @@ export default function Page() {
                 <div className="xl:mt-[65px] mt-[325px] md:mt-0 absolute  xl:relative">
                   <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                 </div>
-
-
               </div>
               <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10 mt-10 xl-mt-0">
                 <div>
@@ -590,26 +588,12 @@ export default function Page() {
                 <div className="mt-10 xl:mt-0">
                   <h3 className="pr-12 leading-tight">Smart factories can boost productivity by up to </h3>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] xl:text-[60px]">30% </h2>
-
                 </div>
-
               </div>
-
             </div>
           </div>
-
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
 
       {/* Contact Form */}
       <div
