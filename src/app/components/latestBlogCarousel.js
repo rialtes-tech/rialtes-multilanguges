@@ -9,6 +9,28 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+       {
+    id:11,
+    image:"/images/blog/sap-ariba-for-carousel.webp",
+    category:"SAP",
+    industry:"Manufacturing",
+    date:"29 May 2025",
+    url:"/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
+    title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
+    description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
+
+
+  },
+    {
+      id: 10,
+      image: "/images/blog/successfactor-for-carousel.webp",
+      category: "SAP SuccessFactors",
+      industry: "Human Resources",
+      date: "28 May 2025",
+      url: "insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations",
+      title: "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
+      description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
+    },
     {
       id: 9,
       image: "/images/blog/jthumb.webp",
@@ -182,24 +204,24 @@ export default function BlogsCarousel() {
             >
 
               <div className="max-h-[300px]">
-              <Link href={'/' + slide.url}>
-                <Image
-                  src={slide.image}
-                  alt={slide.title}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  priority
-                  className="cursor-pointer"
-                />
+                <Link href={'/' + slide.url}>
+                  <Image
+                    src={slide.image}
+                    alt={slide.title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                    className="cursor-pointer"
+                  />
                 </Link>
                 <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                  <Link href={'/'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
+                  <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
                 </div>
                 <p className="line-clamp-4">{slide.description}</p>
               </div>
