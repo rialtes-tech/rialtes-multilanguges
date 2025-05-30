@@ -3,7 +3,7 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-
+import { HeroSection } from "@/app/components/herosection";
 const schemaData ={
   "@context": "https://schema.org",
   "@type": "TechArticle",
@@ -13,7 +13,7 @@ const schemaData ={
   },
   "headline": "Salesforce Experience Cloud Case Study: Mobile Warranty Portal",
   "description": "This case study details how Rialtes implemented a mobile-first Salesforce Experience Cloud solution for a leading roofing manufacturer, streamlining warranty submissions and enhancing customer experience through Lightning Web Components.",
-  "image": "https://www.rialtes.com/images/case-studies/.svg",
+  "image": "https://www.rialtes.com/images/case-studies/Adaptis-for-web-casestudy-banner.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
@@ -28,8 +28,7 @@ const schemaData ={
   },
   "proficiencyLevel": "Expert",
   "articleSection": "Case Studies",
-  "datePublished": "2025-05-22",
-  "dateModified": "2025-05-22"
+  "datePublished": "2025-05-30",
 }
 const slides = [
     {
@@ -99,35 +98,33 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+            {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
-                    src="/images/case-studies/sales cloud case study.webp "
+                    src="/images/case-studies/Adaptis-for-web-casestudy-banner.webp "
                     alt="Streamlined DevOps using Copado and Salesforce"
                     fill
                     style={{ objectFit: "cover", objectPosition: "90% 20%" }}
                     priority
                 />
-            </section>
+            </section> */}
+
+            
+                        <HeroSection title="" subtitle="" mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />
 
             <section
                 className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+    custom-container "
             >
 
                 <div className="py-10 bg-white">
-                    <div className="container mx-auto">
+                    <div className="">
                         <h1 className="text-[#000000] py-6 max-w-4xl">Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities</h1>
                     </div>
                     <div className="py-4"></div>
-                    <div className="container mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+                    <div className="">
+                        <div className="flex flex-col md:flex-row justify-between text-black  ">
                             <div className='pb-6'>
-                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>22 may 2025
+                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
                             </div>
                             <div className="flex flex-col">
                                 <span>8 min read</span>
@@ -178,8 +175,8 @@ export default function Page() {
                     </div>
 
                     <div className="py-6"></div>
-                    <div className="container mx-auto">
-                        <div className="max-w-4xl">
+                    <div className="">
+                        <div className="">
 
 
                              <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
@@ -222,12 +219,7 @@ export default function Page() {
             {/* Latest Blogs */}
             <div
                 className="py-20
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+   custom-container"
             >
                 <RelatedTopicsCarousel slides={slides} />
 

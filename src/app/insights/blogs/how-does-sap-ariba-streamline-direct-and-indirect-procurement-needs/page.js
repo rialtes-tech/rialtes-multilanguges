@@ -4,7 +4,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
-
+import { HeroSection } from "@/app/components/herosection";
 const schemaData =
 {
   "@context": "https://schema.org",
@@ -15,7 +15,7 @@ const schemaData =
   },
   "headline": "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
   "description": "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
-  "image": "https://www.rialtes.com/assets/images/blogs/sap-ariba-procurement.jpg",
+  "image": "https://www.rialtes.com/assets/images/blogs/sap-ariba-web-banner.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
@@ -28,8 +28,7 @@ const schemaData =
       "url": "https://www.rialtes.com/images/homepage/logo.svg"
     }
   },
-  "datePublished": "2025-05-22",
-  "dateModified": "2025-05-22"
+  "datePublished": "2025-05-29",
 }
 
 const blogs = [
@@ -176,7 +175,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-2-banner.webp "
           alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
@@ -184,23 +183,20 @@ export default function Page() {
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}
           priority
         />
-      </section>
+      </section> */}
+       
+                              <HeroSection title="" subtitle="" mobimg="/images/blog/sap-ariba-mobile-banner.webp" deskimg="/images/blog/sap-ariba-web-banner.webp " extraImg="" />
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+     custom-container "
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto">
+          <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>21 Oct 2024
+                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -248,11 +244,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
+          <div className="">
             <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
           </div>
 
-          <div className="container mx-auto">
+          <div className="">
             <div className="max-w-4xl md:w-4/2">
 
               <p className="text-black pb-4">The term "Procurement" encompasses the entire process of acquiring goods or services, from identifying needs to supplying them. Solutions like Guided Sourcing enable companies to conduct market research, find qualified suppliers, and negotiate better contracts. It is about purchasing goods and services and optimizing costs, enhancing supplier relationships, and ensuring supply chain resilience.  </p>
@@ -349,12 +345,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        custom-container
         pb-10"
       >
         <BlogsCarousel slides={blogs} />

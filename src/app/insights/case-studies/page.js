@@ -9,6 +9,15 @@ import Seo from "@/app/components/Seo";
 
 const latestCaseStudy = [
    {
+    id:10,
+    image:"/images/case-studies/adaptis-for-carousel.webp",
+    industry:"Manufacturing",
+    date:"30 May 2025",
+    url:"/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
+    title:"Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities",
+    description:"A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
+  },
+  {
     id: 1,
     image: "/images/case-studies/fiori-main-page.webp",
     industry: "Manufacturing",
@@ -99,6 +108,7 @@ const latestCaseStudy = [
     title: "Accelerating Prior Authorizations Using Salesforce Health Cloud",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
+
  
   // Add more case study objects as needed
 ];
