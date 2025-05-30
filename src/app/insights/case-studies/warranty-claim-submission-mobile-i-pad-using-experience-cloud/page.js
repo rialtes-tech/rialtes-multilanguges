@@ -4,31 +4,31 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
-const schemaData ={
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
-  },
-  "headline": "Salesforce Experience Cloud Case Study: Mobile Warranty Portal",
-  "description": "This case study details how Rialtes implemented a mobile-first Salesforce Experience Cloud solution for a leading roofing manufacturer, streamlining warranty submissions and enhancing customer experience through Lightning Web Components.",
-  "image": "https://www.rialtes.com/images/case-studies/Adaptis-for-web-casestudy-banner.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "proficiencyLevel": "Expert",
-  "articleSection": "Case Studies",
-  "datePublished": "2025-05-30",
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
+    },
+    "headline": "Salesforce Experience Cloud Case Study: Mobile Warranty Portal",
+    "description": "This case study details how Rialtes implemented a mobile-first Salesforce Experience Cloud solution for a leading roofing manufacturer, streamlining warranty submissions and enhancing customer experience through Lightning Web Components.",
+    "image": "https://www.rialtes.com/images/case-studies/Adaptis-for-web-casestudy-banner.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "proficiencyLevel": "Expert",
+    "articleSection": "Case Studies",
+    "datePublished": "2025-05-30",
 }
 const slides = [
     {
@@ -93,7 +93,7 @@ export default function Page() {
                 description=" Discover how a leading roofing brand used Salesforce Experience Cloud to deliver a mobile-friendly warranty claim experience customers love."
                 canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/"
             />
-                <script
+            <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
@@ -108,8 +108,8 @@ export default function Page() {
                 />
             </section> */}
 
-            
-                        <HeroSection title="" subtitle="" mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />
+
+            <HeroSection title="" subtitle="" mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />
 
             <section
                 className="
@@ -179,37 +179,37 @@ export default function Page() {
                         <div className="">
 
 
-                             <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
+                            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
                             <p className="text-black">A leading manufacturer of high-quality roofing solutions designed to protect what matters most. Specializing in durable and innovative products for residential and commercial spaces, they offer a range of asphalt shingles, roofing underlayment, waterproofing solutions, and composite materials for superior protection and aesthetics. </p>
                             <div className="py-6"></div>
-                          <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Challenges</h2>
+                            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Challenges</h2>
                             {/* <h6 className="h3-bold text-[#0092E0] text-sm">Complex Sales Process</h6> */}
                             <p className="text-black pb-12">The Customers of our client were having a hard time submitting warranty claims from their mobile devices, forcing them to rely on desktops, which was an inconvenient and frustrating process. The Customers had to seek additional support to complete their claims. The lack of mobile accessibility led to delays, inefficiencies, and increased support requests, ultimately reducing customer satisfaction and straining operations.</p>
 
-                      <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions</h2>
+                            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions</h2>
 
                             <p className="text-black pb-6 ">Rialtes stepped in to improve the warranty claims process by developing a mobile-first portal with Salesforce Experience Cloud.  Our team worked and designed a user-friendly interface specifically for Android, iOS, iPads, and tablets, making it easy for customers to submit claims anytime, from anywhere. </p>
 
-                             <p className="text-black pb-6 ">We built the portal using Lightning Web Components (LWC) to ensure smooth navigation, fast performance, and a simple, touch-friendly design. This improved experience allows customers to complete warranty claims quickly and effortlessly. </p>
+                            <p className="text-black pb-6 ">We built the portal using Lightning Web Components (LWC) to ensure smooth navigation, fast performance, and a simple, touch-friendly design. This improved experience allows customers to complete warranty claims quickly and effortlessly. </p>
 
-                              <p className="text-black pb-12 ">Our solution enhances customer satisfaction, streamlines operations, and ensures a modern, efficient claims experience across all mobile devices. </p>
+                            <p className="text-black pb-12 ">Our solution enhances customer satisfaction, streamlines operations, and ensures a modern, efficient claims experience across all mobile devices. </p>
 
-                            <h2  className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
-
-                      
-                              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                   <p  className="text-black pb-4"> <li>Enabled complete mobile compatibility, allowing customers to submit claims from smartphones and tablets without needing desktop access.</li></p>
-                   <p  className="text-black pb-4"> <li>Simplified user experience led to a 40% drop in support tickets related to warranty submissions.</li></p>
-                    <p  className="text-black pb-4"><li>Customers can now complete the warranty claim process in under 4 minutes, cutting down processing time by over 60%.</li></p>
-                   <p  className="text-black pb-4"> <li>The convenience of mobile access drove a 35% increase in submitted claims, showing higher engagement and usage.</li></p>
-                      <p  className="text-black pb-4"> <li>User feedback showed a 25% improvement in satisfaction scores, directly linked to faster processing and ease of access.</li></p>
-                           <p  className="text-black pb-4"> <li>Lower dependency on manual support freed up internal teams, reducing claim-handling time by half and improving response rates.</li></p>
-                
-              </ul>
-              
+                            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
 
-                           
+                            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                                <p className="text-black pb-4"> <li>Enabled complete mobile compatibility, allowing customers to submit claims from smartphones and tablets without needing desktop access.</li></p>
+                                <p className="text-black pb-4"> <li>Simplified user experience led to a 40% drop in support tickets related to warranty submissions.</li></p>
+                                <p className="text-black pb-4"><li>Customers can now complete the warranty claim process in under 4 minutes, cutting down processing time by over 60%.</li></p>
+                                <p className="text-black pb-4"> <li>The convenience of mobile access drove a 35% increase in submitted claims, showing higher engagement and usage.</li></p>
+                                <p className="text-black pb-4"> <li>User feedback showed a 25% improvement in satisfaction scores, directly linked to faster processing and ease of access.</li></p>
+                                <p className="text-black pb-4"> <li>Lower dependency on manual support freed up internal teams, reducing claim-handling time by half and improving response rates.</li></p>
+
+                            </ul>
+
+
+
+
                         </div>
                     </div>
 
