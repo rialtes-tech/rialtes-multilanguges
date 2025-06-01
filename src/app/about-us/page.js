@@ -58,7 +58,7 @@ const ServicesCard = ({ services }) => (
             </h3>
             <p className="md:mb-[15px] mb-0 xl:text-[27px] text-[22px]">{services.description}</p>
         </div>
-        <div className="mt-auto">
+        <div className="mt-auto max-sm:mt-3">
             <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
                 <Link href={services.url}>Learn More</Link>
             </button>
@@ -99,7 +99,7 @@ export default function About() {
             />
             <section className="relative">
                 <div
-                    className="custom-container lg:!pr-0 overflow-hidden max-sm:"
+                    className="custom-container lg:!pr-0 overflow-hidden max-md:px-0"
                 >
                     {/* Image Element */}
                     <Image
@@ -218,11 +218,11 @@ export default function About() {
 
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-20 mb-8 mt-20 grid-cols-1">
                             <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[450px] max-md:h-[400px]">
+                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[450px] max-md:h-[340px]">
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px]">
+                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
                                         Simplify <br /> <span className="font-normal">Businesses.</span>
                                     </h2>
                                     <p className="mt-3 xl:text-[30px] text-[25px] font-medium text-gray-900">
@@ -239,7 +239,7 @@ export default function About() {
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px]">
+                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
                                         Enable <br /> <span className="font-normal">Solutions.</span>
                                     </h2>
                                     <p className="mt-3 xl:text-[30px] text-[25px] font-medium text-gray-900">
@@ -256,7 +256,7 @@ export default function About() {
                                     <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                     <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
 
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px]">
+                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
                                         Empower  <br /> <span className="font-normal">Customers.</span>
                                     </h2>
                                     <p className="mt-3 xl:text-[30px] text-[25px] font-medium text-gray-900">
