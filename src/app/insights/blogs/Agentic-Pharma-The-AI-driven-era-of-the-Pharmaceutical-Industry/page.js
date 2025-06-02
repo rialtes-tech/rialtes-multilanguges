@@ -281,7 +281,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agentic Pharma - The <br />AI-driven era of the Pharmaceutical Industry</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agentic Pharma - The <br />AI-Driven Era of the Pharmaceutical Industry</h1>
           </div>
 
           <div className="container mx-auto">
