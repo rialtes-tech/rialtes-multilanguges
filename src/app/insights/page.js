@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-
+import { HeroSection } from "../components/herosection";
 export default function InsightsPage() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
@@ -46,33 +46,11 @@ export default function InsightsPage() {
       />
 
       {/* Hero Section with Deep Blue Gradient Background */}
-      <section className="relative h-[350px] md:h-[450px] xl:h-[650px] bg-[url('/images/insights/insight-header-banner.webp')] bg-cover bg-center overflow-hidden">
-        <div
-          className="
-        container h-full
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <div className="absolute inset-0 opacity-70"></div>
-          <div className="absolute inset-0 opacity-50"></div>
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <h1 className="xl:text-[#000000] text-white max-w-2xl">INSIGHTS</h1>
-          </div>
-        </div>
-      </section>
-
+      <HeroSection title="Insights" subtitle="" mobimg="/images/insights/insight-header-banner.webp" deskimg="/images/insights/insight-header-banner.webp" extraImg=""  txtColor={"black"}/>
       {/* Blog Section */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+      custom-container"
       >
         <section className="mb-16  md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
           <h2 className="text-[#000000] text-[20px] sm:text-[26px] py-6 my-8 max-w-4xl">
@@ -101,7 +79,7 @@ export default function InsightsPage() {
               onClick={handleClick("/insights/blogs/how-salesforce-agentforce-actually-works")}
               style={{ cursor: "pointer" }}
             >
-              <div className="relative h-[300px] md:h-[500px] w-full overflow-hidden">
+              <div className="relative h-[300px]  lg:h-[700px] xl:h-[900px] 2xl:h-[750px] w-full overflow-hidden">
                 <div
                   className="h-full w-full"
                   style={{
@@ -114,8 +92,8 @@ export default function InsightsPage() {
                     src="/images/blog/blog-1.webp"
                     alt="Green computing illustration showing tree and circuit integration"
                     fill
-                    sizes="100vw"
-                    className="object-cover"
+                    className="object-cover h-full"
+                    style={{objectPosition:"65% 70%"}}
                     priority
                   />
                 </div>
@@ -168,15 +146,15 @@ export default function InsightsPage() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-6 w-full xl:w-3/5 lg:w-full">
+            <div className="flex flex-col space-y-10 w-full  xl:w-3/5 lg:w-full   ">
               <div
-                className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-auto sm:h-[400px]"
+                className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog2")}
                 onMouseLeave={handleMouseLeave("blog2")}
                 onClick={handleClick("/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
                 style={{ cursor: "pointer" }}
               >
-                <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
+                <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden ">
                   <div
                     className="h-full w-full"
                     style={{
@@ -189,15 +167,15 @@ export default function InsightsPage() {
                       src="/images/blog/blog-2.webp"
                       alt="Diversity illustration"
                       fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
+                      className="object-cover h-full w-full"
+                      style={{objectPosition:"95% 60%"}}
                       priority
                     />
                   </div>
                 </div>
 
                 <div
-                  className="p-6 sm:p-8 sm:w-1/2 bg-white flex flex-col justify-between"
+                  className="p-6 sm:p-8 sm:w-1/2 bg-white flex flex-col justify-between "
                   style={{
                     transition: "background-color 0.3s ease",
                     backgroundColor:
@@ -217,10 +195,10 @@ export default function InsightsPage() {
                   </h3>
 
                   <p className="mb-2">
-                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation.
+                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  
                   </p>
 
-                  <div className="mt-auto">
+                  <div className="">
                     <Link
                       href="/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
@@ -246,7 +224,7 @@ export default function InsightsPage() {
               </div>
 
               <div
-                className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-auto sm:h-[400px]"
+                className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog3")}
                 onMouseLeave={handleMouseLeave("blog3")}
                 onClick={handleClick("/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
@@ -265,8 +243,8 @@ export default function InsightsPage() {
                       src="/images/blog/blog-3.webp"
                       alt="Diversity illustration"
                       fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
+                      className="object-cover h-full w-full"
+                        style={{objectPosition:"60% 50%"}}
                       priority
                     />
                   </div>
@@ -299,7 +277,7 @@ export default function InsightsPage() {
                     and Bots to the forefront.
                   </p>
 
-                  <div className="mt-auto">
+                  <div className="">
                     <Link
                       href="/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
@@ -343,12 +321,7 @@ export default function InsightsPage() {
       <section className="mt-16 py-16 bg-[#f1f1f1]">
         <div
           className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        custom-container"
         >
           <div className="lg:max-w-[800px]  xl:max-w-[1600px]">
             <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-6">
@@ -382,9 +355,9 @@ export default function InsightsPage() {
               }}
             >
 
-              <div className="md:w-2/5 h-[300px] md:h-[400px] overflow-hidden">
+              <div className="md:w-[80%] overflow-hidden">
                 <div
-                  className="h-full w-full"
+                  className="relative w-full h-64 md:h-full "
                   style={{
                     transition: "transform 0.3s ease",
                     transform:
@@ -397,14 +370,14 @@ export default function InsightsPage() {
                     src="/images/case-studies/case-study-8_thumb.webp"
                     alt="Diversity illustration"
                     fill
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                    className="object-cover"
+                    sizes=""
+                    className="object-cover h-full"
                     priority
                   />
                 </div>
               </div>
               <div className="w-full h-full">
-                <div className="md:w-3/5 p-6 xl:p-12 max-w-2xl">
+                <div className=" p-6 xl:p-12 max-w-2xl">
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">
                       Healthcare and Life Sciences
@@ -849,12 +822,7 @@ export default function InsightsPage() {
       {/* Webinar Section */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+       custom-container"
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start md:flex-row mb-8">
@@ -1206,12 +1174,7 @@ export default function InsightsPage() {
       {/* Contact Form Section */}
       <div
         className="py-16
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+    custom-container
         text-black"
       >
         <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
