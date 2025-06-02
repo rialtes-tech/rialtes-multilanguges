@@ -239,7 +239,7 @@ export default function Page() {
 
                 <div className="custom-container absolute bottom-0">
                     <div className="grid md:grid-cols-12 grid-cols-1">
-                        <div className="md:col-span-7  col-span-12">
+                        <div className="md:col-span-7 col-span-12">
                             <h2 className="xl:text-[60px] text-[26px] xl:mt-10 mt-5">Thought Leadership:</h2>
                             <h3 className="xl:text-[42px] text-[22px] xl:mt-5 mt-3 font-bold leading-tight xl:w-[90%]">Advancing Pharma with Digital, AI, and Data-Driven Approaches</h3>
                             <p className="xl:text-[22px] text-[16px] mt-5 leading-tight">Rialtes partners with leading pharma and biotech organizations to unlock the power of AI, machine learning, cloud, and intelligent automation to:</p>
