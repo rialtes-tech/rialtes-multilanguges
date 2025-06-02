@@ -250,7 +250,7 @@ export default function Page() {
 
 
 
-              <p className="text-black pb-4">As a strategic purchasing management solution, procurement is structured around four core activities:Sourcing, Contract Management, Purchasing, and Accounts Payable.</p>
+              <p className="text-black pb-4">As a strategic purchasing management solution, procurement is structured around four core activities: Sourcing, Contract Management, Purchasing, and Accounts Payable.</p>
 
               <ul className="list-disc text-black pl-8 ">
                 <li className="pb-2">
