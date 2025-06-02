@@ -15,7 +15,7 @@ const latestBlogs = [
     category: "AI",
     industry: "Pharma",
     date: "30 April 2025",
-    url: '/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
+    url: '/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
     title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
     description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
     },
