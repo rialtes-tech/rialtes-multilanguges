@@ -2,6 +2,7 @@
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -105,7 +106,7 @@ const GrowServicesCard = ({ services }) => (
 
 const GrowServices = () => {
     return (
-        <div className="container mx-auto text-black">
+        <div className="container  mx-auto text-black">
             <h2 className="pb-16 text-black xl:text-[60px] text-[26px]">Employee affinity groups</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                 {growLatestServices.map((services) => (
@@ -131,57 +132,17 @@ export default function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <section className="relative h-[399px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-                <div className="xl:block hidden">
-                    <Image
-                        src="/images/culture/culture header.webp"
-                        alt="GROW with SAP"
-                        fill
-                        priority
-                        className="xl:object-[35%_20%] object-cover"
-                    />
-                </div>
-                <div className="xl:hidden block">
-                    <Image
-                        src="/images/culture/AdobeStock_1016285553.webp"
-                        alt="GROW with SAP"
-                        fill
-                        priority
-                        className="object-cover"
-                    />
-                </div>
-                <div
-                    className="
-        container h-full relative
-        mx-[35px] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
-                >
-                    <div className="container mx-auto h-full flex flex-col justify-center mt-[-70px]">
-                        <div className="flex flex-col">
-                            <h3 className="xl:text-[#01335B]  xl:text-[24px] text-[18px] font-bold mb-2">Culture and Values</h3>
-                            <h2 className="xl:text-[#01335B] max-w-2xl xl:text-[60px] font-medium text-[24px] pr-20 xl:pr-0">
-                                Building a growth mindset. Each day.
-                            </h2>
-                        </div>
 
-                    </div>
-                </div>
-            </section>
+    <HeroSection title="Building a growth mindset. Each day." subtitle="Culture and Values" mobimg="/images/culture/AdobeStock_1016285553.webp" deskimg="/images/culture/culture header.webp" extraImg="" txtColor="#01335B" />
+            
             <section className="xl:py-16 py-10">
-                <div
-                    className="
-        container
-        mx-[35px] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
-                >
-                    <div className="xl:container mx-auto">
+                <div className="custom-container">
+                    <div className=" mx-auto">
                         <h1 className="xl:text-[60px] text-[26px]">Our Value System.</h1>
                         <p className="mt-3 xl:text-[35px] text-[20px] pr-10 xl:pr-0">Every day, every one of us work with our core values.</p>
 
 
-                        <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-64 gap-16">
+                        <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-52 gap-10">
                             <div className="grid justify-center items-center">
                                 <Image
                                     src="/images/about-us/trust.svg"
@@ -189,7 +150,7 @@ export default function Page() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="xl:w-[130px] w-[121px] m-auto xl:m-0"
+                                    className="xl:w-[132px] w-[119px]  m-auto xl:m-0"
                                 />
                                 <p className="mt-5 text-center xl:text-[35px] text-[26px]">Trust</p>
                             </div>
@@ -211,7 +172,7 @@ export default function Page() {
                                     width={100}
                                     height={100}
                                     priority
-                                    className="xl:w-[150px] w-[104px] m-auto xl:m-0"
+                                    className="xl:w-[150px] w-[124px] m-auto xl:m-0"
                                 />
                                 <p className="mt-5 text-center xl:text-[35px] text-[26px]">Commitment</p>
                             </div>
@@ -250,12 +211,7 @@ export default function Page() {
                     />
                 </div>
                 <div
-                    className="
-        container h-full relative
-        mx-[35px] xl:mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
-                >
+                    className="custom-container">
                     <div className="container mx-auto h-full flex flex-col justify-center">
                         <div className="flex flex-col">
                             <h2 className="xl:text-white text-black max-w-2xl xl:text-[55px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[-20rem] xl:mt-0">
@@ -269,12 +225,7 @@ export default function Page() {
 
 
             {/* We Help You Grow and Thrive */}
-            <div
-                className="xl:mt-10 mt-16
-        xl:container
-        mx-[35px] xl:mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]"
+            <div  className="xl:mt-10 mt-16 max-sm:px-0 custom-container"
             >
                 <section className="xl:py-16 bg-white">
                     <GrowServices />
@@ -287,13 +238,7 @@ export default function Page() {
 
             {/* Contact Form */}
             < div
-                className="
-  xl:container
-  mx-[35px] xl:mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  text-black pb-10"
-            >
+                className="custom-container text-black pb-10">
                 <ContactForm title={'Ready to take the next step? Let’s kick off your journey to operational excellence'} className={"max-w-4xl text-[26px] xl:text-[60px]"} />
             </div >
         </div >
