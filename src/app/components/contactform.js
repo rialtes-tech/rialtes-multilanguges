@@ -14,8 +14,6 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     const [userAnswer, setUserAnswer] = useState('');
     const [error, setError] = useState('');
     const [formErrors, setFormErrors] = useState({});
-    const [isSubmitting, setIsSubmitting] = useState(false);
-
     const formRef = useRef(null);
 
     const refreshCaptcha = () => {
@@ -78,26 +76,21 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const form = e.currentTarget; // safer way to get the form element
+
+        const form = e.currentTarget;
 
         const errors = validateForm(form);
-
         if (Object.keys(errors).length > 0) {
             setFormErrors(errors);
             setError(errors.captcha || '');
-            setIsSubmitting(false);
             return;
         }
 
         setError('');
         setFormErrors({});
-        setIsSubmitting(true);
 
-        form.submit();
+        HTMLFormElement.prototype.submit.call(form);
     };
-
-
-
 
 
     return (
@@ -156,7 +149,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web" />
 
-                <div className='mt-5 flex flex-col xl:flex-row md:flex-row gap-6 items-start'>
+                <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
                     <div className="flex items-center space-x-4">
                         <span className="font-semibold text-lg text-gray-800">{captcha.num1} + {captcha.num2} = ?</span>
                         <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
@@ -171,18 +164,13 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         required
                     />
-
-
-
                     <button
                         type="submit"
                         name="submit"
                         value="Submit"
-                        disabled={isSubmitting}
-                        className={`bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 ${isSubmitting ? 'bg-opacity-50 cursor-not-allowed' : 'text-white hover:bg-[#ffffff] hover:text-[#134874]'
-                            }`}
+                        className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
                     >
-                        {isSubmitting ? "Submitting..." : "Let's Begin"}
+                        Let's Begin
                     </button>
                 </div>
                 <div>Enter the sum of digits shown in above image e.g (2+3=5)</div>
