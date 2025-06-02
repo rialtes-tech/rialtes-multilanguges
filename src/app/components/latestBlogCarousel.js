@@ -32,6 +32,17 @@ export default function BlogsCarousel() {
       description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
     },
     {
+    id: 12,
+    image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+    category: "AI",
+    industry: "Pharma",
+    date: "30 April 2025",
+    url: '/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
+    title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
+    description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
+    },
+
+    {
       id: 9,
       image: "/images/blog/jthumb.webp",
       category: "SAP",

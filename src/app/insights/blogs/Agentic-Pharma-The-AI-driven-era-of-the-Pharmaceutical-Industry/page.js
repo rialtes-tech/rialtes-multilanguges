@@ -232,7 +232,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>20-5-2025
+                <span className='text-[#0092E0]'>AI</span> <span className='text-[#ACACAC]'> | </span>30-5-2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -249,32 +249,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+              
                 </div>
               </div>
             </div>
@@ -341,32 +316,29 @@ export default function Page() {
 
              
             <div className="pl-8">
-              <p className="text-black pb-2 font-bold">1.  Drug Discovery</p>
+              <h3 className="text-black pb-2 h3-bold">1.  Drug Discovery</h3>
               <p className="text-black pb-4">Tasks that once took months can now be done in days. Agentic AI can autonomously analyze vast biological datasets, identify viable molecular targets, and simulate compound interactions. Agents collaborate across datasets, uncovering insights that even expert teams might overlook.</p>
 
-              <p className="text-black pb-2   font-bold">2.  Optimizing PSP Operations</p>
+              <h3 className="text-black pb-2  h3-bold">2.  Optimizing PSP Operations</h3>
 
               <p className="text-black pb-4">Patient Support Programs are vital for improving medication adherence and offering educational resources. Agentic AI can streamline onboarding by verifying eligibility,
                organizing documentation, and automating follow-ups, reducing onboarding times by up to 50%. With real-time analytics, it can also identify patients at risk of non-compliance and initiate timely interventions.</p>
 
-              <p className="text-black pb-2 font-bold">3.  Smarter Clinical Trials</p>
+              <h3 className="text-black pb-2 h3-bold">3.  Smarter Clinical Trials</h3>
 
               <p className="text-black pb-4">AI agents can manage clinical trial logistics, monitor patient recruitment, ensure protocol adherence, and flag potential risks in real time. This not only speeds up the process but also improves trial outcomes and patient safety.</p>
 
 
-              <p className="text-black pb-2  font-bold">4.  Pharmacovigilance and Post-Market Surveillance</p>
+              <h3 className="text-black pb-2  h3-bold">4.  Pharmacovigilance and Post-Market Surveillance</h3>
 
               <p className="text-black pb-4">Autonomous agents can monitor global data streams, identify adverse drug events, and generate reports in compliance with regional guidelines, ensuring patient safety and brand integrity.</p>
 
 
-              <p className="text-black pb-2  font-bold">5.  Supply Chain and Manufacturing Optimization</p>
+              <h3 className="text-black pb-2  h3-bold">5.  Supply Chain and Manufacturing Optimization</h3>
 
               <p className="text-black">Supply chain disruptions in the pharmaceutical industry can lead to severe issues like drug shortages and delayed market entry. By using historical sales and real-time market data, companies can predict demand, manage inventory, and identify disruptions, maintaining lean and agile operations.</p>
 
          </div> 
-
-
-
 
               <div className="py-6"></div>
 
@@ -374,7 +346,7 @@ export default function Page() {
 
               <p className="text-black pb-4">Of course, implementing Agentic AI at scale comes with its challenges. Issues around data privacy, interoperability, explainability, and trust must be addressed. Moreover, organizations will need to invest in AI governance frameworks, skill development, and cross-functional collaboration to truly harness the power of these autonomous systems. But the momentum is clear. Leading pharmaceutical companies are already piloting or looking for Agentic AI in R&D, regulatory affairs, and manufacturing.</p>
 
-              <p className="text-black">Deploying your own Agentic AI approach with Rialtes enables your company to fully leverage <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog" target="_blank">intelligent automation and decision-making into your pharma operations.</Link> Our pharma and tech experts guide you to simplify AI integration into your workflows, enhancing research, optimizing production, and driving data-backed strategies. Whether enhancing R&D, streamlining manufacturing, or improving customer engagement, they ensure a seamless transition to AI-powered operations.</p>
+              <p className="text-black ">Deploying your own Agentic AI approach with Rialtes enables your company to fully leverage <Link className="text-[#006C1D] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog" target="_blank">intelligent automation and decision-making into your pharma operations.</Link> Our pharma and tech experts guide you to simplify AI integration into your workflows, enhancing research, optimizing production, and driving data-backed strategies. Whether enhancing R&D, streamlining manufacturing, or improving customer engagement, they ensure a seamless transition to AI-powered operations.</p>
             </div>
           </div>
         </div>
