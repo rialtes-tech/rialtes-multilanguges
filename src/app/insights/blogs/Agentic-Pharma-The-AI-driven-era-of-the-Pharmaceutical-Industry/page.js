@@ -1,13 +1,11 @@
 "use client";
-// pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
 
-const schemaData=
+const schemaData =
 {
 
   "@context": "https://schema.org",
@@ -56,7 +54,7 @@ const schemaData=
 
   "datePublished": "2025-05-30",
 
-   "keywords": [
+  "keywords": [
     "Agentic AI in pharma",
 
     "AI in the pharmaceutical industry",
@@ -203,26 +201,27 @@ const blogs = [
   }, */
   // Add more blog objects as needed
 ];
+const fullUrl = "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry";
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-           <Seo
-                title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
-                description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
-                canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-aI-driven-era-of-the-pharmaceutical-industry/"}
-            /><script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
-      
-               <HeroSection
-                  title=""
-                  subtitle=""
-                  mobimg="/images/blog/Agentic Pharma mobile banner.webp"
-                  deskimg="/images//blog/Agentic Pharma_Blog banner.webp"
-                  extraImg=""
-                /> 
+      <Seo
+        title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
+        description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
+        canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-aI-driven-era-of-the-pharmaceutical-industry/"}
+      /><script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
+      <HeroSection
+        title=""
+        subtitle=""
+        mobimg="/images/blog/Agentic Pharma mobile banner.webp"
+        deskimg="/images//blog/Agentic Pharma_Blog banner.webp"
+        extraImg=""
+      />
       <section
         className="
          custom-container"
@@ -230,15 +229,19 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>AI</span> <span className='text-[#ACACAC]'> | </span>30-5-2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce&summary=Summary%20of%20the%20blog&source=LinkedIn">
-                      <Image
+
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                            <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}
@@ -249,18 +252,18 @@ export default function Page() {
                       />
                     </a>
                   </div>
-              
+
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agentic Pharma - The <br />AI-Driven Era of the Pharmaceutical Industry</h1>
+          <div>
+            <h1 className="text-[#000000]  pb-6 max-[1084px] xl:w-[1084px] leading-tight font-semibold">Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry</h1>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div>
+            <div className="max-w-[1084px] md:w-[1084px]">
 
               <p className="text-black pb-4">The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems. Now, in the era of artificial intelligence, the sector is not only experimenting with AI but fully embracing its transformative potential to reshape research and enhance patient care.</p>
 
@@ -273,7 +276,7 @@ export default function Page() {
               <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Breaking Down Agentic AI: The Essentials</h2>
 
               <p className="text-black pb-4">Agentic AI refers to autonomous AI agents—intelligent systems that can perceive their environment, make decisions, and take actions to achieve specific goals. These systems simulate “agency” by managing workflows, identifying inefficiencies, and providing actionable insights. They offer a new level of operational excellence in the pharmaceutical operations and PSPs. This translates to automating repetitive tasks, predicting patient behaviors, and optimizing resource allocation for better results.</p>
-               <p className="text-black ">Unlike traditional automation or even generative AI, Agentic AI is goal-driven, adaptive, and context-aware, capable of managing complex, multi-step workflows with minimal human intervention. We can assign specific roles and constraints to AI agents, enabling them to use tools for automation. By having agents check each other's work, we can identify errors and reduce hallucinations, leading to more accurate and reliable outputs.</p>
+              <p className="text-black ">Unlike traditional automation or even generative AI, Agentic AI is goal-driven, adaptive, and context-aware, capable of managing complex, multi-step workflows with minimal human intervention. We can assign specific roles and constraints to AI agents, enabling them to use tools for automation. By having agents check each other's work, we can identify errors and reduce hallucinations, leading to more accurate and reliable outputs.</p>
               <div className="py-6"></div>
 
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">How Agentic AI Differs from Generative AI</h2>
@@ -289,56 +292,56 @@ export default function Page() {
 
               <p className="text-black pb-4">Pharmaceutical companies are especially well-suited to leverage Agentic AI due to their complex workflows, strict regulatory demands, and increasing focus on patient-centered care. The life sciences and healthcare sectors are notoriously cautious when it comes to adopting emerging technologies, and for good reason. Patient safety, ethical standards, and stringent regulations demand absolute accuracy and accountability. However, the very complexity of pharmaceutical operations from drug discovery to clinical trials to regulatory submissions makes them an ideal ground for intelligent, autonomous systems.</p>
 
-            
-<ul className="list-disc text-black pl-8">
-  <li>
-    <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Pharma’s Rising Operational Complexity:</h3>
-    <p>Coordinating clinical trials, regulatory compliance, supply chain logistics, and patient engagement involves managing diverse teams and disconnected data systems. Manual processes can slow operations and heighten the risk of human error</p>
-  </li>
-  <li>
-    <h3 className="font-bold  pt-2 pb-2 text-[16px] sm:text-[20px]">Growing Patient Expectations:</h3>
-    <p>Patients, particularly those managing chronic or complex conditions, expect real-time, personalized support. Traditional engagement models struggle to deliver scalable personalization without significantly increasing resource requirements.</p>
-  </li>
-  <li>
-    <h3 className="font-bold pt-2 pb-2 text-[16px] sm:text-[20px]">Fragmented Data:</h3>
-    <p>Essential data such as patient records, prescription history, and treatment journeys are often siloed within different departments or platforms, delaying critical decisions and undermining care coordination.</p>
-  </li>
-  <li>
-    <h3 className="font-bold pt-2 pb-2 text-[16px] sm:text-[20px]">Intensifying Regulatory and Cost Pressures:</h3>
-    <p>With stricter regulations and rising operational expenses, pharma companies must improve efficiency, streamline workflows, and reduce costs, all while maintaining high standards of compliance and care.</p>
-  </li>
-</ul>
+
+              <ul className="list-disc text-black">
+                <li>
+                  <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Pharma’s Rising Operational Complexity:</h3>
+                  <p>Coordinating clinical trials, regulatory compliance, supply chain logistics, and patient engagement involves managing diverse teams and disconnected data systems. Manual processes can slow operations and heighten the risk of human error</p>
+                </li>
+                <li>
+                  <h3 className="font-bold  pt-2 pb-2 text-[16px] sm:text-[20px]">Growing Patient Expectations:</h3>
+                  <p>Patients, particularly those managing chronic or complex conditions, expect real-time, personalized support. Traditional engagement models struggle to deliver scalable personalization without significantly increasing resource requirements.</p>
+                </li>
+                <li>
+                  <h3 className="font-bold pt-2 pb-2 text-[16px] sm:text-[20px]">Fragmented Data:</h3>
+                  <p>Essential data such as patient records, prescription history, and treatment journeys are often siloed within different departments or platforms, delaying critical decisions and undermining care coordination.</p>
+                </li>
+                <li>
+                  <h3 className="font-bold pt-2 pb-2 text-[16px] sm:text-[20px]">Intensifying Regulatory and Cost Pressures:</h3>
+                  <p>With stricter regulations and rising operational expenses, pharma companies must improve efficiency, streamline workflows, and reduce costs, all while maintaining high standards of compliance and care.</p>
+                </li>
+              </ul>
 
               <div className="py-6"></div>
 
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Agentic AI Applications in Pharmaceutical</h2>
 
 
-             
-            <div className="pl-8">
-              <h3 className="text-black pb-2 h3-bold">1.  Drug Discovery</h3>
-              <p className="text-black pb-4">Tasks that once took months can now be done in days. Agentic AI can autonomously analyze vast biological datasets, identify viable molecular targets, and simulate compound interactions. Agents collaborate across datasets, uncovering insights that even expert teams might overlook.</p>
 
-              <h3 className="text-black pb-2  h3-bold">2.  Optimizing PSP Operations</h3>
+              <div>
+                <h3 className="text-black pb-2 h3-bold">1.  Drug Discovery</h3>
+                <p className="text-black pb-4">Tasks that once took months can now be done in days. Agentic AI can autonomously analyze vast biological datasets, identify viable molecular targets, and simulate compound interactions. Agents collaborate across datasets, uncovering insights that even expert teams might overlook.</p>
 
-              <p className="text-black pb-4">Patient Support Programs are vital for improving medication adherence and offering educational resources. Agentic AI can streamline onboarding by verifying eligibility,
-               organizing documentation, and automating follow-ups, reducing onboarding times by up to 50%. With real-time analytics, it can also identify patients at risk of non-compliance and initiate timely interventions.</p>
+                <h3 className="text-black pb-2  h3-bold">2.  Optimizing PSP Operations</h3>
 
-              <h3 className="text-black pb-2 h3-bold">3.  Smarter Clinical Trials</h3>
+                <p className="text-black pb-4">Patient Support Programs are vital for improving medication adherence and offering educational resources. Agentic AI can streamline onboarding by verifying eligibility,
+                  organizing documentation, and automating follow-ups, reducing onboarding times by up to 50%. With real-time analytics, it can also identify patients at risk of non-compliance and initiate timely interventions.</p>
 
-              <p className="text-black pb-4">AI agents can manage clinical trial logistics, monitor patient recruitment, ensure protocol adherence, and flag potential risks in real time. This not only speeds up the process but also improves trial outcomes and patient safety.</p>
+                <h3 className="text-black pb-2 h3-bold">3.  Smarter Clinical Trials</h3>
 
-
-              <h3 className="text-black pb-2  h3-bold">4.  Pharmacovigilance and Post-Market Surveillance</h3>
-
-              <p className="text-black pb-4">Autonomous agents can monitor global data streams, identify adverse drug events, and generate reports in compliance with regional guidelines, ensuring patient safety and brand integrity.</p>
+                <p className="text-black pb-4">AI agents can manage clinical trial logistics, monitor patient recruitment, ensure protocol adherence, and flag potential risks in real time. This not only speeds up the process but also improves trial outcomes and patient safety.</p>
 
 
-              <h3 className="text-black pb-2  h3-bold">5.  Supply Chain and Manufacturing Optimization</h3>
+                <h3 className="text-black pb-2  h3-bold">4.  Pharmacovigilance and Post-Market Surveillance</h3>
 
-              <p className="text-black">Supply chain disruptions in the pharmaceutical industry can lead to severe issues like drug shortages and delayed market entry. By using historical sales and real-time market data, companies can predict demand, manage inventory, and identify disruptions, maintaining lean and agile operations.</p>
+                <p className="text-black pb-4">Autonomous agents can monitor global data streams, identify adverse drug events, and generate reports in compliance with regional guidelines, ensuring patient safety and brand integrity.</p>
 
-         </div> 
+
+                <h3 className="text-black pb-2  h3-bold">5.  Supply Chain and Manufacturing Optimization</h3>
+
+                <p className="text-black">Supply chain disruptions in the pharmaceutical industry can lead to severe issues like drug shortages and delayed market entry. By using historical sales and real-time market data, companies can predict demand, manage inventory, and identify disruptions, maintaining lean and agile operations.</p>
+
+              </div>
 
               <div className="py-6"></div>
 
@@ -355,7 +358,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-       custom-container"
+       custom-container xl:!pr-0"
       >
         <BlogsCarousel slides={blogs} />
 

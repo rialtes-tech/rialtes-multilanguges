@@ -149,11 +149,11 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-     <Seo
-                title="What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes"
-                description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
-                canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
-            />
+      <Seo
+        title="What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes"
+        description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
+        canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -266,20 +266,12 @@ export default function Page() {
               <h3 className="h3-bold pb-4 mt-10">Creating a Unified Place for SAP and Non-SAP Data</h3>
 
               <p className="text-black">Modern businesses depend on vast and growing volumes of data from both SAP and non-SAP sources to power value-driven use cases and data modelling in SAP. Yet, inconsistent semantic models often create obstacles to innovation, complicating data integration efforts and delaying the realization of business value. SAP BDC addresses this challenge by allowing organizations to seamlessly leverage SAP and non-SAP data within a unified, standardized semantic framework.</p>
-
-
-
               <h3 className="h3-bold pb-4 mt-10">Delivering Insights and Real-Time Analytics with SAP BDC</h3>
 
               <p className="text-black">Traditionally, businesses have faced significant complexity in harnessing the full potential of data-intensive applications built on SAP data. SAP BDC simplifies this process by providing real-time analytics, insights, and intelligent recommendations. In addition, it empowers companies to access benchmarking capabilities and industry-specific knowledge derived from aggregated, cross-customer SAP data.</p>
 
               <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">How BDC Works: Two Key Scenarios</h2>
               <p className="mt-3">To make the concept more relatable, we're breaking it down into two practical scenarios:</p>
-
-
-
-
-
               <h3 className="h3-bold pb-4 mt-5">Scenario 1: “Out-of-the-Box” SAP Insights Apps with S/4HANA & SAP SuccessFactors</h3>
 
               <p className="text-black pb-4">In this setup, you can connect your S/4HANA and SAP SuccessFactors systems directly to BDC using pre-built connectors and SAP Insights Apps. Here’s how the process unfolds:</p>
