@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Seo from "../../components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 export default function Contact() {
 
@@ -101,10 +102,10 @@ export default function Contact() {
     );
 
     const OurApproachSection = () => (
-        <section>
+        <section className="">
             <div className="bg-[#EDEDED] lg:py-16 py-10">
-                <h2 className="xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6">Our Approach</h2>
-                <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 xl:px-[280px] lg:pl-[100px] md:px-[100px] px-6 mt-8 lg:gap-[12%] gap-5">
+                <h2 className="custom-container">Our Approach</h2>
+                <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 custom-container mt-8 lg:gap-[12%] gap-5">
                     {approachData.map((data, index) => (
                         <div key={index}>
                             <Image
@@ -130,14 +131,14 @@ export default function Contact() {
     );
 
     const KeyPartnerships = () => (
-        <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] mt-16 px-6">
+        <section className="custom-container  mt-16 px-6">
             <h4 className="text-[#0092E0] mb-16">KEY PARTNERSHIPS</h4>
             {renderImageSection(keyPartners)}
         </section>
     );
 
     const RegionalPartnerships = () => (
-        <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] px-6 mt-16 ">
+        <section className="custom-container px-6 mt-16 ">
             <h4 className="text-[#0092E0] mb-16">REGIONAL PARTNERSHIPS</h4>
             {renderImageSection(regionalPartners)}
         </section>
@@ -150,7 +151,7 @@ export default function Contact() {
                 keywords="Partners, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/global-alliences/"}
             />
-            <div className="relative">
+            {/* <div className="relative">
                 <Image
                     src="/images/partners/Partners banner (1).webp"
                     alt="Leadership Team"
@@ -168,10 +169,13 @@ export default function Contact() {
                     <h3 className="font-bold">Our Partners</h3>
                     <h2>Global Alliances</h2>
                 </div>
-            </div>
+            </div> */}
+
+ <HeroSection title="Global Alliances" subtitle="Our Partners" mobimg="/images/partners/partner 1.webp" deskimg="/images/partners/Partners banner (1).webp" extraImg="" />
+            
             {/* //strategies section */}
 
-            <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] px-6">
+            <section className="custom-container">
                 <div className="grid lg:grid-cols-2 mt-16 mb-16">
                     <div>
                     <h1 className="xl:w-[60%] w-full">Our Strategic Partners</h1>
@@ -184,7 +188,7 @@ export default function Contact() {
                 <OurApproachSection />
                 <KeyPartnerships />
                 <RegionalPartnerships />
-                <section className="xl:px-[280px] lg:px-[100px] md:px-[100px] px-6 mt-16 ">
+                <section className="custom-container mt-16 ">
                     <h4 className="text-[#0092E0] mb-16">ALL PARTNERSHIPS</h4>
                     <div className="grid xl:grid-cols-5 lg:grid-cols-4  sm:grid-cols-2 grid-cols-2 border-0 gap-10">
                         {allPartnerships.map((partner, index) => (
