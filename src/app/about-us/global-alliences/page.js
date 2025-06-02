@@ -171,7 +171,7 @@ export default function Contact() {
                 </div>
             </div> */}
 
- <HeroSection title="Global Alliances" subtitle="Our Partners" mobimg="/images/partners/Partners banner (1).webp" deskimg="/images/partners/Partners banner (1).webp" extraImg="" />
+ <HeroSection title="Global Alliances" subtitle="Our Partners" mobimg="/images/partners/partner 1.webp" deskimg="/images/partners/Partners banner (1).webp" extraImg="" />
             
             {/* //strategies section */}
 
