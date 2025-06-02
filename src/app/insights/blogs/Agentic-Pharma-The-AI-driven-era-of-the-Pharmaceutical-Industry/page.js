@@ -290,21 +290,21 @@ export default function Page() {
               <p className="text-black pb-4">Pharmaceutical companies are especially well-suited to leverage Agentic AI due to their complex workflows, strict regulatory demands, and increasing focus on patient-centered care. The life sciences and healthcare sectors are notoriously cautious when it comes to adopting emerging technologies, and for good reason. Patient safety, ethical standards, and stringent regulations demand absolute accuracy and accountability. However, the very complexity of pharmaceutical operations from drug discovery to clinical trials to regulatory submissions makes them an ideal ground for intelligent, autonomous systems.</p>
 
             
-<ul className="list-disc text-black pl-8 pb-6">
+<ul className="list-disc text-black pl-8">
   <li>
     <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Pharma’s Rising Operational Complexity:</h3>
     <p>Coordinating clinical trials, regulatory compliance, supply chain logistics, and patient engagement involves managing diverse teams and disconnected data systems. Manual processes can slow operations and heighten the risk of human error</p>
   </li>
   <li>
-    <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Growing Patient Expectations:</h3>
+    <h3 className="font-bold  pt-2 pb-2 text-[16px] sm:text-[20px]">Growing Patient Expectations:</h3>
     <p>Patients, particularly those managing chronic or complex conditions, expect real-time, personalized support. Traditional engagement models struggle to deliver scalable personalization without significantly increasing resource requirements.</p>
   </li>
   <li>
-    <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Fragmented Data:</h3>
+    <h3 className="font-bold pt-2 pb-2 text-[16px] sm:text-[20px]">Fragmented Data:</h3>
     <p>Essential data such as patient records, prescription history, and treatment journeys are often siloed within different departments or platforms, delaying critical decisions and undermining care coordination.</p>
   </li>
   <li>
-    <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Intensifying Regulatory and Cost Pressures:</h3>
+    <h3 className="font-bold pt-2 pb-2 text-[16px] sm:text-[20px]">Intensifying Regulatory and Cost Pressures:</h3>
     <p>With stricter regulations and rising operational expenses, pharma companies must improve efficiency, streamline workflows, and reduce costs, all while maintaining high standards of compliance and care.</p>
   </li>
 </ul>
