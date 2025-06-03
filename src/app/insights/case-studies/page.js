@@ -8,6 +8,15 @@ import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
 
 const latestCaseStudy = [
+    {
+    id:11,
+    image:"/images/case-studies/revolutionary-filter.webp",
+    industry:"Manufacturing",
+    date:"03 June 2025",
+    url:"/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense",
+    title:"Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+    description:"A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
+  },
    {
     id:10,
     image:"/images/case-studies/adaptis-for-carousel.webp",
@@ -19,7 +28,7 @@ const latestCaseStudy = [
   },
   {
     id: 1,
-    image: "/images/case-studies/fiori-main-page.webp",
+    image: "/images/case-studies/fiory-carosel.webp",
     industry: "Manufacturing",
     date: "22 May 2025",
     url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
@@ -264,6 +273,15 @@ const CaseStudy = () => {
 const FeaturedCarousel = () => {
   const slides = [
      {
+      id: 4,
+      imgSrc: '/images/case-studies/revolutionizing-latest-carosel.webp',
+      category: 'Manufacturing',
+      date: '03 June 2025',
+      url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense",
+    title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+    description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
+    },
+     {
       id: 1,
       imgSrc: '/images/case-studies/fiori-main-page.webp',
       category: 'Manufacturing',
@@ -347,7 +365,7 @@ const FeaturedCarousel = () => {
   return (
     <section className="relative pb-10 bg-white">
       <div className=" mx-auto">
-        <div className="flex flex-row justify-between md:mr-24 mr-0">
+        <div className="flex flex-row justify-between md:mr-24 mr-0 h-full">
           <h2 className="text-black mb-6">Latest Studies</h2>
         </div>
         <Carousel
@@ -374,7 +392,7 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-6 group">
+            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-6 group h-full">
               <div className="basis-full sm:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
                   <Image
