@@ -216,8 +216,7 @@ export default function Page() {
             />
       
                <HeroSection
-                  title=""
-                  subtitle=""
+          
                   mobimg="/images/blog/agentic-pharma-mobile-banner.webp"
                   deskimg="/images/blog/agentic-pharma-blog-banner.webp"
                   extraImg=""
@@ -295,7 +294,7 @@ export default function Page() {
 
               <ul className="list-disc text-black">
                 <li>
-                  <h3 className="font-bold pb-2 text-[16px] sm:text-[20px]">Pharma’s Rising Operational Complexity:</h3>
+                  <h3 className="font-bold pb-2  text-[16px] sm:text-[20px]">Pharma’s Rising Operational Complexity:</h3>
                   <p>Coordinating clinical trials, regulatory compliance, supply chain logistics, and patient engagement involves managing diverse teams and disconnected data systems. Manual processes can slow operations and heighten the risk of human error</p>
                 </li>
                 <li>
@@ -349,7 +348,7 @@ export default function Page() {
 
               <p className="text-black pb-4">Of course, implementing Agentic AI at scale comes with its challenges. Issues around data privacy, interoperability, explainability, and trust must be addressed. Moreover, organizations will need to invest in AI governance frameworks, skill development, and cross-functional collaboration to truly harness the power of these autonomous systems. But the momentum is clear. Leading pharmaceutical companies are already piloting or looking for Agentic AI in R&D, regulatory affairs, and manufacturing.</p>
 
-              <p className="text-black ">Deploying your own Agentic AI approach with Rialtes enables your company to fully leverage <Link className="text-[#006C1D] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog" target="_blank">intelligent automation and decision-making into your pharma operations.</Link> Our pharma and tech experts guide you to simplify AI integration into your workflows, enhancing research, optimizing production, and driving data-backed strategies. Whether enhancing R&D, streamlining manufacturing, or improving customer engagement, they ensure a seamless transition to AI-powered operations.</p>
+              <p className="text-black ">Deploying your own Agentic AI approach with Rialtes enables your company to fully leverage <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog" target="_blank">intelligent automation and decision-making into your pharma operations.</Link> Our pharma and tech experts guide you to simplify AI integration into your workflows, enhancing research, optimizing production, and driving data-backed strategies. Whether enhancing R&D, streamlining manufacturing, or improving customer engagement, they ensure a seamless transition to AI-powered operations.</p>
             </div>
           </div>
         </div>

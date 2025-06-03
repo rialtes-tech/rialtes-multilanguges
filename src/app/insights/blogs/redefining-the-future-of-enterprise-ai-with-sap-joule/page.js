@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Link from "next/link";
 
 const blogs = [
   {
@@ -167,17 +168,11 @@ export default function Page() {
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+        custom-container">
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+          <div className="container pl-0 mx-auto">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
               </div>
@@ -199,32 +194,8 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  {/* <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div> */}
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agentforce Agents Scales Enterprise Resource Planning Systems with AI">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+               
+                 
                 </div>
               </div>
             </div>
@@ -232,54 +203,54 @@ export default function Page() {
           <div className="py-6"></div>
           <div className=" mx-auto grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-8 col-span-12">
-              <h1 className="text-[#000000] font-medium pb-6  leading-tight pr-10 xl:text-[53px] text-[26px]">Redefining the Future of Enterprise AI with SAP Joule</h1>
+              <h1 className="text-[#000000] font-semibold  pb-6  xl:max-w-[1084px] xl:w-[1084px] leading-tight">Redefining the Future of Enterprise AI with SAP Joule</h1>
 
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div className="container pl-0 mx-auto">
+            <div className="xl:max-w-[1084px] xl:w-[1084px]">
 
-              <p className="text-black">SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. Launched in 2023 and updated at the 2024 SAP TechEd event, Joule reflects SAP’s commitment to advancing business AI. By integrating natural language processing and generative AI, <a className="text-[#038EF4]" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> Joule transforms how businesses interact with SAP,</a>  making processes like submitting timesheets, updating project plans, and approving purchase orders more natural and efficient. Collaborative AI agents can unite expertise across business functions to address complex workflows. This evolution enables Joule to support 80% of SAP’s most-used tasks, further reducing organizational silos.</p>
+              <p className="text-black">SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. Launched in 2023 and updated at the 2024 SAP TechEd event, Joule reflects SAP’s commitment to advancing business AI. By integrating natural language processing and generative AI, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> Joule transforms how businesses interact with SAP,</Link>  making processes like submitting timesheets, updating project plans, and approving purchase orders more natural and efficient. Collaborative AI agents can unite expertise across business functions to address complex workflows. This evolution enables Joule to support 80% of SAP’s most-used tasks, further reducing organizational silos.</p>
               <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">A Quick Glimpse at SAP Joule AI</h2>
               <p className='mt-3'>Joule is SAP’s generative AI copilot, built specifically for enterprise use cases. Unlike generic LLMs (Large Language Models), Joule is trained with deep contextual awareness of SAP systems, business logic, and data models. It offers timely information from SAP and third parties, helping you make informed decisions quickly. It acts as an interactive partner, providing suggestions and learning from customer feedback.</p>
               <p className="mt-3">What makes Joule stand out?</p>
               <ul className="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
                 <li className="pb-4">It’s embedded directly into SAP applications like SAP S/4HANA, SuccessFactors, Ariba, and more.</li>
                 <li className="pb-4">It understands natural language queries and provides intelligent, personalized insights.</li>
-                <li className="pb-4">· It acts as a copilot, assisting users in real time with decisions, content creation, and task execution.</li>
+                <li className="pb-4">It acts as a copilot, assisting users in real time with decisions, content creation, and task execution.</li>
               </ul>
               <p>Imagine asking a question in plain language and receiving intelligent, context-aware responses. Joule provides this by leveraging extensive business data from SAP and external sources to deliver insightful answers. Whether you’re an HR manager crafting a performance summary, a procurement specialist looking for supplier analytics, or a CFO reviewing quarterly trends, Joule helps you get there faster and smarter.</p>
               <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">SAP and Generative AI</h2>
               <p className="mt-3">Generative AI refers to artificial intelligence capable of creating new content like text, images, audio, or even code using advanced machine learning models, especially Large Language Models (LLMs) and Generative Adversarial Networks (GANs). SAP Joule brings the power of enterprise-grade Generative AI into your business applications, helping users make decisions, generate content, and interact with data more naturally.</p>
               <p className="mt-3">In the business context, Generative AI helps automate tasks like:</p>
              <ul className="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
-                <li className="pb-4">Drafting reports and documents</li>
-                <li className="pb-4">Generating code or scripts</li>
-                <li className="pb-4">Creating marketing copy</li>
+                <li className="pb-3">Drafting reports and documents</li>
+                <li className="pb-3">Generating code or scripts</li>
+                <li className="pb-3">Creating marketing copy</li>
                 <li>Producing recommendations based on historical data</li>
               </ul>
-              <h3 className="h3-bold mt-10">Responsible AI with SAP Joule</h3>
+              <h3 className="h3-bold mt-5">Responsible AI with SAP Joule</h3>
 
-              <p className="mt-3">SAP Joule is designed with Responsible AI principles, ensuring ethical, secure, and transparent AI use within the enterprise. With Joule, businesses gain AI-driven speed and intelligence without compromising on responsibility</p>
+              <p className="mt-4">SAP Joule is designed with Responsible AI principles, ensuring ethical, secure, and transparent AI use within the enterprise. With Joule, businesses gain AI-driven speed and intelligence without compromising on responsibility</p>
 
-              <ul className="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-5">
-                <li className="pb-4"><span className="font-bold">Data Privacy & Governance:</span>Adheres to enterprise-grade security and global compliance standards.</li>
-                <li className="pb-4"><span className="font-bold">Explainability:</span>Every AI-generated insight is traceable and transparent.</li>
-                <li className="pb-4"><span className="font-bold">Bias Mitigation :</span>Continuous monitoring ensures fair, reliable outcomes.</li>
-                <li className="pb-4"><span className="font-bold">Human-in-the-Loo :</span> AI acts as a copilot, with final decisions made by users.</li>
-                <li className=""><span className="font-bold">Ethical AI Practices :</span> Regular audits and updates align with evolving regulations.</li>
+              <ul className="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
+                <li className="pb-3"><h4 className="font-bold inline">Data Privacy & Governance</h4>: Adheres to enterprise-grade security and global compliance standards.</li>
+                <li className="pb-3"><h4 className="font-bold inline">Explainability</h4>: Every AI-generated insight is traceable and transparent.</li>
+                <li className="pb-3"><h4 className="font-bold inline">Bias Mitigation</h4>: Continuous monitoring ensures fair, reliable outcomes.</li>
+                <li className="pb-3"><h4 className="font-bold inline">Human-in-the-Loo</h4>: AI acts as a copilot, with final decisions made by users.</li>
+                <li className=""><h4 className="font-bold inline">Ethical AI Practices</h4>: Regular audits and updates align with evolving regulations.</li>
 
               </ul>
               <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">How Does Joule Work?</h2>
               <p className="mt-3">SAP Joule integrates with SAP's ecosystem of enterprise applications, utilizing generative AI capabilities through an architecture that reflects human learning and interaction in business. It now supports ABAP developers with AI-powered code completion, explanation, and unit test generation, embedded directly in SAP development environments. Here’s a simplified overview of how it works:</p>
 
-              <h3 className="h3-bold pb-4 mt-10">1. Data Ingestion</h3>
+              <h3 className="h3-bold pb-4 mt-3">1. Data Ingestion</h3>
 
               <p className="text-black">Joule pulls in structured and unstructured data from SAP and third-party systems, including financial data, employee records, transactional logs, and customer information, all governed by enterprise-grade data policies. It processes data from various SAP modules and external sources.</p>
             
-              <h3 className="h3-bold mt-10">2. Model Training</h3>
+              <h3 className="h3-bold mt-3">2. Model Training</h3>
 
 
              <p className="mt-5">Joule utilizes SAP-specific datasets enriched with domain knowledge to gain a deeper understanding of business operations compared to traditional AI. It employs advanced machine learning algorithms to recognize patterns and contexts through large-scale computations and optimization techniques.</p>
@@ -287,13 +258,13 @@ export default function Page() {
 
 
 
-              <h3 className="h3-bold pb-4 mt-10">3. Content Generation</h3>
+              <h3 className="h3-bold pb-4 mt-3">3. Content Generation</h3>
 
               <p className="text-black">Once trained, Joule can generate human-like content based on real-time data. Whether it’s drafting a supplier risk summary, summarizing a project status report, or recommending next steps in a sales cycle, Joule delivers actionable content tailored to the user's role and needs.</p>
 
 
 
-              <h3 className="h3-bold pb-4 mt-10">4. Continuous Learning</h3>
+              <h3 className="h3-bold pb-4 mt-3">4. Continuous Learning</h3>
 
               <p className="text-black">Joule is built on a feedback-driven loop. It continuously improves by learning from user interactions, system updates, and evolving business patterns, ensuring outputs stay relevant, accurate, and personalized over time.</p>
 
@@ -313,22 +284,22 @@ export default function Page() {
                     <p className="mt-3">Integrating SAP Joule with SAP S/4HANA Cloud Public Edition enhances business operations by providing predictive analytics, variance analysis, and automated financial insights.</p>
 
 
-              <h3 className="h3-bold pb-4 mt-5">Smarter Decision-Making</h3>
+              <h3 className="h3-bold pb-4 mt-3">Smarter Decision-Making</h3>
 
               <p className="text-black">SAP Joule processes large volumes of transactional and operational data within S/4HANA, delivering real-time insights and recommendations that enable businesses to make quicker, more informed decisions.</p>
-              <h3 className="h3-bold mt-5">Process Automation</h3>
+              <h3 className="h3-bold mt-3">Process Automation</h3>
               <p className="mt-3">Routine activities like invoice processing, order management, and financial reconciliation are automated through Joule’s generative AI, reducing manual workload, minimizing errors, and increasing operational efficiency.</p>
-              <h3 className="h3-bold  mt-5">Tailored User Experience</h3>
+              <h3 className="h3-bold  mt-3">Tailored User Experience</h3>
               <p className="mt-3">Joule adapts interfaces and reports based on individual user preferences and historical patterns, enhancing overall user satisfaction and boosting productivity.</p>
-              <h3 className="h3-bold  mt-5">Accessible Advanced Analytics</h3>
+              <h3 className="h3-bold  mt-3">Accessible Advanced Analytics</h3>
               <p className="mt-3">By using natural language queries, users can easily generate complex reports and forecasts. This makes advanced analytics available to everyone, empowering broader, data-driven decision-making across the business.</p>
               <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Shift from Human-Driven Operations to AI-Driven Automation</h2>
-<p className="mt-3">Generative AI, as seen in SAP Joule, is transforming business operations through enhanced automation, efficiency, and intelligence. By integrating Joule into its enterprise applications, SAP enables organizations to fully utilize AI while maintaining Responsible AI standards. Joule serves as a powerful AI copilot, automating decisions, generating content, and providing actionable insights to help businesses leverage data effectively.</p>
-            <p className="mt-3">Rialtes understands that every business is unique. We customize our approach to align AI-powered automation with your specific industry needs. <a className="text-[#038EF4]" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">Contact us</a> to explore the future of enterprise AI with SAP Joule, seamlessly integrating it with key SAP platforms like SAP S/4HANA, <a className="text-[#038EF4]" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">SAP SuccessFactors,</a>  and <a className="text-[#038EF4]" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">SAP Ariba.</a> </p> 
+          <p className="mt-3">Generative AI, as seen in SAP Joule, is transforming business operations through enhanced automation, efficiency, and intelligence. By integrating Joule into its enterprise applications, SAP enables organizations to fully utilize AI while maintaining Responsible AI standards. Joule serves as a powerful AI copilot, automating decisions, generating content, and providing actionable insights to help businesses leverage data effectively.</p>
+            <p className="mt-3">Rialtes understands that every business is unique. We customize our approach to align AI-powered automation with your specific industry needs. <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">Contact us</Link> to explore the future of enterprise AI with SAP Joule, seamlessly integrating it with key SAP platforms like SAP S/4HANA, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">SAP SuccessFactors,</Link>  and <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">SAP Ariba.</Link> </p> 
              
              
              
-             
+          
              
             </div>
           </div>
@@ -338,12 +309,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        pb-10"
+      custom-container"
       >
         <BlogsCarousel slides={blogs} />
 

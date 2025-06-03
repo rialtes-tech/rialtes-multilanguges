@@ -2,7 +2,33 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
+  },
+  "headline": "Case Study: Yardi Implementation and 5 Years of Successful AMS Journey with Largest PHA in North America",
+  "description": "Explore how Rialtes partnered with North America’s largest PHA for a full-scale Yardi implementation and provided 5 years of robust AMS support, ensuring operational excellence and compliance.",
+  "image": "https://www.rialtes.com/images/case-studies/case-study-5.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2024-09-27"
 
+}
 
 const slides = [
   {
@@ -63,8 +89,13 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America"
+        title="Yardi Implementation Case Study: 5 Years, 1 PHA, and Big Wins"
+        description="Explore our Yardi implementation case study to see how we supported a 5-year digital transformation journey with Yardi AMS for long-term success."
         canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -95,7 +126,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Public Sector</span> <span className='text-[#ACACAC]'> | </span>25 Oct 2024
+                <span className='text-[#0092E0]'>Public Sector</span> <span className='text-[#ACACAC]'> | </span>27 September 2024
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>

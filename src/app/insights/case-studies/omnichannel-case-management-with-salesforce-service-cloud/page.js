@@ -3,7 +3,33 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+  },
+  "headline": "Case Study: Omnichannel Case Management with Salesforce Service Cloud",
+  "description": "Discover how Rialtes implemented Salesforce Service Cloud to enable seamless omnichannel case management, reduce response time, and enhance customer satisfaction.",
+  "image": "https://www.rialtes.com/images/case-studies/case-study-4.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2025-10-14"
 
+}
 const slides = [
   {
     id: 3,
@@ -62,8 +88,13 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Omnichannel case management with Salesforce Service Cloud"
+        title="Salesforce Service Cloud Case Study: Omnichannel Case Management"
+        description="Discover a Salesforce Service Cloud success story—next-gen case management transformed with automation, faster service, and elevated customer support."
         canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -94,7 +125,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing (Semi-Conductor)</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
+                <span className='text-[#0092E0]'>Manufacturing (Semi-Conductor)</span> <span className='text-[#ACACAC]'> | </span>14 October 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>

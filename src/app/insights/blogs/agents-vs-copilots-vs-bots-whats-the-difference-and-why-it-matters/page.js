@@ -157,17 +157,11 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>28 Oct 2024
@@ -187,7 +181,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
+                  {/* <div className="max-w-[40px]">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
@@ -212,18 +206,18 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters</h1>
-          </div>
+         
+            <h1 className="text-[#000000] font-semibold pb-6  leading-tight">Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters</h1>
+        
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          
+            <div >
 
               <p className="text-black pb-4">Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose. Their differences in functionality, autonomy, and ideal applications make them suited to unique roles in the workplace.</p>
 
@@ -231,31 +225,41 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Agentforce Agents: The Adaptive Problem Solvers</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Agentforce Agents: The Adaptive Problem Solvers</h2>
 
               <p className="text-black pb-4">Agentforce Agents represent the next level in AI, they are trusted conversational AI assistants designed to handle tasks autonomously and adapt to changing scenarios. These are pre-built solutions that can take input from a user and translate that input into a series of actions based on instructions that you can configure and enhance. With machine learning and adaptive algorithms, they can independently recognize opportunities for action, anticipate next steps, and initiate tasks within defined use cases and parameters. Unlike traditional bots, Agentforce Agents can understand and react to context, making them highly valuable for more complex, dynamic environments.</p>
-              <p className="text-black pb-4 font-bold">Applications</p>
+              <h3 className=" pb-4 h3-bold  ">Applications</h3>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Process Optimization:</span> Agentforce Agents monitor workflows and make real-time adjustments to improve efficiency, for example, by reallocating resources in response to demand fluctuations.</li>
+                {/* <li><span className="font-bold">Process Optimization:</span> Agentforce Agents monitor workflows and make real-time adjustments to improve efficiency, for example, by reallocating resources in response to demand fluctuations.</li>
                 <li><span className="font-bold">Customer Experience Personalization:</span> By leveraging data and <Link href={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"} className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400"><span className="font-bold">Atlas Reasoning Engine</span></Link>, agents can create personalized interactions, improving customer satisfaction with tailored responses and proactive solutions.</li>
-                <li><span className="font-bold">Autonomous Decision Making:</span> Agents analyze data, identify patterns, and make decisions without human intervention, which is especially valuable in logistics, supply chain management, and business intelligence.</li>
+                <li><span className="font-bold">Autonomous Decision Making:</span> Agents analyze data, identify patterns, and make decisions without human intervention, which is especially valuable in logistics, supply chain management, and business intelligence.</li> */}
+
+
+
+                 <p  className="text-black pb-4"> <li><h4 className="inline">Process Optimization </h4>: Agentforce Agents monitor workflows and make real-time adjustments to improve efficiency, for example, by reallocating resources in response to demand fluctuations.</li></p>
+                      <p  className="text-black pb-4 "><li><h4 className="inline">Customer Experience Personalization </h4>:  By leveraging data and <Link href={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"><span >Atlas Reasoning Engine</span></Link>, agents can create personalized interactions, improving customer satisfaction with tailored responses and proactive solutions. </li></p>
+                         <p  className="text-black "> <li><h4 className="inline">Autonomous Decision Making </h4>: Agents analyze data, identify patterns, and make decisions without human intervention, which is especially valuable in logistics, supply chain management, and business intelligence.</li></p>
               </ul>
 
               <p className="text-black">Agents excel in adaptability, can respond to real-time data, and continuously refine their performance. This adaptability allows them to perform complex tasks independently, enhancing overall productivity. They handle intricate, context-sensitive situations where the outcome depends on various dynamic inputs, making them far more versatile than bots.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Copilots: The Collaborative Enhancers</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Copilots: The Collaborative Enhancers</h2>
 
               <p className="text-black pb-4">Unlike agents or bots, Copilots are AI assistants that work in tandem with humans, providing suggestions, insights, and feedback without making fully autonomous decisions. For example, Einstein Copilot for Salesforce is integrated directly into the Salesforce interface. You can configure and deploy a single copilot for your team, making it accessible within the Salesforce workflow. This copilot can carry out business tasks on behalf of users within your Salesforce organization. The goal of a Copilot is to support users, particularly in tasks that require creativity or problem-solving, allowing for an augmented collaboration rather than complete automation.</p>
 
-              <p className="text-black pb-4 font-bold">Applications</p>
+              <h3 className="pb-4 h3-bold">Applications</h3>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Coding and Development:</span> Copilots like GitHub Copilot suggest code completions, help troubleshoot, and even provide documentation, making coding faster and less error prone.</li>
+                {/* <li><span className="font-bold">Coding and Development:</span> Copilots like GitHub Copilot suggest code completions, help troubleshoot, and even provide documentation, making coding faster and less error prone.</li>
                 <li><span className="font-bold">Writing and Content Creation:</span> In writing tasks, copilots suggest phrasing, check grammar, and propose ideas, enhancing the creative process.</li>
-                <li><span className="font-bold">Data Analysis and Decision Support:</span> In complex fields like finance and healthcare, copilots help professionals analyze data, understand trends, and make informed decisions based on AI-generated insights.</li>
+                <li><span className="font-bold">Data Analysis and Decision Support:</span> In complex fields like finance and healthcare, copilots help professionals analyze data, understand trends, and make informed decisions based on AI-generated insights.</li> */}
+
+                  <p  className="text-black pb-4"> <li><h4 className="inline">Coding and Development </h4>: Copilots like GitHub Copilot suggest code completions, help troubleshoot, and even provide documentation, making coding faster and less error prone.</li></p>
+                      <p  className="text-black pb-4 "><li><h4 className="inline">Writing and Content Creation </h4>: In writing tasks, copilots suggest phrasing, check grammar, and propose ideas, enhancing the creative process. </li></p>
+                         <p  className="text-black "> <li><h4 className="inline">Data Analysis and Decision Support </h4>: In complex fields like finance and healthcare, copilots help professionals analyze data, understand trends, and make informed decisions based on AI-generated insights.</li></p>
               </ul>
 
               <p className="text-black">Copilots boost human expertise rather than replace it, making them ideal for fields requiring critical thinking, creative input, or contextual understanding. While copilots are highly effective as support tools, they rely heavily on user input and guidance, meaning they’re less useful in scenarios where autonomous decision-making is needed.</p>
@@ -263,23 +267,27 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Bots: The Foundation of Automation</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Bots: The Foundation of Automation</h2>
 
               <p className="text-black pb-4">Bots are the simplest form of AI, typically rule-based programs that handle repetitive, structured tasks. They operate based on predefined instructions, meaning they execute functions without much need for contextual awareness or complex problem-solving.</p>
 
-              <p className="text-black pb-4 font-bold">Applications</p>
+              <h3 className=" pb-4 h3-bold">Applications</h3>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Customer Service:</span> Bots handle basic FAQ-style queries, quickly responding to commonly asked questions in customer support.</li>
+                {/* <li><span className="font-bold">Customer Service:</span> Bots handle basic FAQ-style queries, quickly responding to commonly asked questions in customer support.</li>
                 <li><span className="font-bold">Routine Data Collection:</span> Bots gather and process data for reporting and analysis, commonly used in tasks like monitoring inventory or tracking website traffic.</li>
-                <li><span className="font-bold">Basic Task Automation:</span> Bots automate repetitive processes like sending notifications, sorting emails, and managing simple workflows.</li>
+                <li><span className="font-bold">Basic Task Automation:</span> Bots automate repetitive processes like sending notifications, sorting emails, and managing simple workflows.</li> */}
+                
+                  <p  className="text-black pb-4"> <li><h4 className="inline">Customer Service </h4>: Bots handle basic FAQ-style queries, quickly responding to commonly asked questions in customer support.</li></p>
+                      <p  className="text-black pb-4 "><li><h4 className="inline">Routine Data Collection </h4>: Bots gather and process data for reporting and analysis, commonly used in tasks like monitoring inventory or tracking website traffic. </li></p>
+                         <p  className="text-black"> <li><h4 className="inline">Basic Task Automation </h4>: Bots automate repetitive processes like sending notifications, sorting emails, and managing simple workflows.</li></p>
               </ul>
 
               <p className="text-black">Bots are dependable and efficient for well-defined, repetitive tasks, but their functionality is limited. They lack adaptability and contextual awareness, meaning they struggle when handling unpredictable situations. Unlike Agentforce Agents, they don’t learn from past interactions or make autonomous decisions, making them less suitable for intricate workflows.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Agentforce Agents vs. Copilots vs. Bots: Choose the Right AI for the Job</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Agentforce Agents vs. Copilots vs. Bots: Choose the Right AI for the Job</h2>
 
               <p className="text-black pb-4">Each AI tool is effective within its niche, and the key is knowing which to deploy based on the task at hand. Here’s a comparative look at how they differ:</p>
 
@@ -379,26 +387,20 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">The Future: Streamlining Workflows with AI Assistants</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">The Future: Streamlining Workflows with AI Assistants</h2>
 
               <p className="text-black pb-4">AI’s future will likely see greater integration of these tools. Understanding the strengths of each AI type enables businesses to build better solutions, focusing on productivity without sacrificing quality.</p>
 
-              <p className="text-black">AI agents are the most autonomous form of AI. Unlike AI bots and copilots, they can function independently, make data-driven decisions, and continuously learn from their experiences. They stand out for their high level of autonomy. They can sense their environment through sensors and interact with it through actuators, allowing them to pursue specific goals independently, without human supervision. Interested in <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}><span className="font-bold">learning more about Agentforce agents</span></Link> or need help getting started? We’re here to assist. At Rialtes, we specialize in <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}><span className="font-bold">AI and Analytics solutions for CRM</span></Link>, and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously.</p>
+              <p className="text-black">AI agents are the most autonomous form of AI. Unlike AI bots and copilots, they can function independently, make data-driven decisions, and continuously learn from their experiences. They stand out for their high level of autonomy. They can sense their environment through sensors and interact with it through actuators, allowing them to pursue specific goals independently, without human supervision. Interested in <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}><span >learning more about Agentforce agents</span></Link> or need help getting started? We’re here to assist. At Rialtes, we specialize in <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}><span >AI and Analytics solutions for CRM</span></Link>, and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously.</p>
 
             </div>
-          </div>
+         
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        className="custom-container lg:pr-0
         pb-10"
       >
         <BlogsCarousel slides={blogs} />

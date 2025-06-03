@@ -3,7 +3,33 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/"
+  },
+  "headline": "Case Study: RealForce Banking Module for ACH Integration",
+  "description": "Explore how Rialtes implemented the RealForce Banking Module to enable seamless ACH integration, reduce payment processing time, and enhance financial automation.",
+  "image": "https://www.rialtes.com/images/case-studies/case%20study%202_n%201.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2024-12-22"
 
+}
 const slides = [
   {
     id: 3,
@@ -63,9 +89,15 @@ export default function Page() {
     <div className="min-h-screen bg-white">
 
       <Seo
-        title="RealForce Banking Module - ACH"
+        title="Exelona Case Study: Front Load ACH and Journals"
+        description="Learn how Rialtes helped front load ACH and journal entries using Exelona’s banking module to streamline finance ops and improve accuracy."
         canonical="https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/case-studies/case study 2_n 1.webp "
@@ -94,7 +126,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>23 May 2025
+                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>22 December 2024
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>

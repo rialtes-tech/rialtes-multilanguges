@@ -15,7 +15,7 @@ export default function BlogsCarousel() {
     category:"SAP",
     industry:"Manufacturing",
     date:"29 May 2025",
-    url:"/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
+    url:"insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
     title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
     description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
 
@@ -37,7 +37,7 @@ export default function BlogsCarousel() {
     category: "AI",
     industry: "Pharma",
     date: "30 April 2025",
-    url: '/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
+    url: 'insights/blogs/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
     title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
     description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
     },
