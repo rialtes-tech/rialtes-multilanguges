@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 const blogs = [
   {
@@ -35,15 +36,6 @@ const blogs = [
     title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
     description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
   },
-  /* {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  }, */
   {
     id: 5,
     image: "/images/blog/blog-5.webp",
@@ -71,104 +63,25 @@ const blogs = [
     title: "SAP SuccessFactors Performance and Goal Management",
     description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
-  /*{
-    id: 8,
-    image: "/images/blog/blog-8.webp",
-    category: "Integration",
-    industry: "Healthcare",
-    date: "11 Nov 2024",
-    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-    description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
-  },
-  {
-    id: 9,
-    image: "/images/blog/blog-9.webp",
-    category: "Diversity & Inclusion",
-    industry: "Human Resources",
-    date: "12 Nov 2024",
-    title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-    description: "Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success.",
-  },
-  {
-    id: 10,
-    image: "/images/blog/blog-10.webp",
-    category: "SAP GTS",
-    industry: "Generic",
-    date: "19 Dec 2024",
-    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-    description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
-  },
-  {
-    id: 11,
-    image: "/images/blog/blog-11.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Dec 2024",
-    title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
-    description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
-  },
-  {
-    id: 12,
-    image: "/images/blog/blog-12.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "13 Jan 2025",
-    title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
-  },
-  {
-    id: 13,
-    image: "/images/blog/blog-13.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "21 Jan 2025",
-    title: "How SAP SuccessFactors Enhances Remote Work Management",
-    description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
-  },
-  {
-    id: 14,
-    image: "/images/blog/blog-14.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "03 Feb 2025",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
-  }, */
-  // Add more blog objects as needed
+  
 ];
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-title="Agentforce Testing Center: Test AI Agents Before Production"
-description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
-canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-/>
-
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/blog-4-banner.webp "
-          alt="Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
-          fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-          priority
-        />
-      </section>
+        title="Agentforce Testing Center: Test AI Agents Before Production"
+        description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
+        canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+      />
+      <HeroSection mobimg="/images/blog/blog-4-mob-banner.webp" deskimg="/images/blog/blog-4-banner.webp" />
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+        className="custom-container">
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div>
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>25 Nov 2024
               </div>
@@ -187,43 +100,17 @@ canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-rede
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agentforce Testing Center: Redefining AI Testing with Synthetic Data">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agentforce Testing Center: Redefining AI Testing with Synthetic Data</h1>
+          <div>
+            <h1 className="text-[#000000] font-semibold pb-6 w-full">Agentforce Testing Center: Redefining AI Testing with Synthetic Data</h1>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div>
+            <div className="">
 
               <p className="text-black pb-4">Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production. Agentforce, launched for general availability in September, is a low-code suite designed to help enterprises create AI agents capable of autonomous reasoning for AI-powered solutions across sales, service, marketing, and commerce. The Agentforce Testing Center offers tools to help enterprise users test and evaluate agents before deploying them into production. These agents operate autonomously, a core aspect of agentic AI—a growing enterprise strategy to transform business processes by automating specific functions without human involvement.</p>
 
@@ -288,14 +175,7 @@ canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-rede
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        pb-10"
+        className="custom-container lg:pr-0 pb-10"
       >
         <BlogsCarousel slides={blogs} />
 
