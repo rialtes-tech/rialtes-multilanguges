@@ -81,13 +81,13 @@ const AutoTimerSlider = () => {
 
                 <div className="arrows flex bottom-[70px] xl:bottom-[230px]">
                     <div className="flex items-center  gap-0  xl:ml-2">
-                        <button class="prev xl:h-[55px] xl:w-[55px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                        <button className="prev xl:h-[55px] xl:w-[55px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="15,6 9,12 15,18" />
                             </svg>
                         </button>
 
-                        <button class="next xl:h-[55px] xl:w-[55px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                        <button className="next xl:h-[55px] xl:w-[55px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                             <svg viewBox="0 0 24 24" fill="black" width="45">
                                 <polygon points="9,6 15,12 9,18" />
                             </svg>

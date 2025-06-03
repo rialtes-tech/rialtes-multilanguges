@@ -61,7 +61,7 @@ export default function RelatedTopicsCarousel({ slides }) {
 
   return (
     <section className="relative pb-6 bg-white">
-      <div className="container mx-auto">
+      <div className="mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
           <h2 className="text-black mb-6">Related Topics</h2>
         </div>
