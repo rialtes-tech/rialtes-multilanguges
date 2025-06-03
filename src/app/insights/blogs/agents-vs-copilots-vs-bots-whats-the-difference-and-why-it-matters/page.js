@@ -213,7 +213,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
          
-            <h1 className="text-[#000000] font-semibold pb-6  leading-tight">Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2 leading-tight">Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters</h1>
         
 
           
@@ -312,72 +312,72 @@ export default function Page() {
                   </thead>
                   <tbody>
                     <tr className="odd:bg-white even:bg-gray-100">
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Complexity
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Low, rule-based
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         High, autonomous, and adaptive
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Moderate, human-collaborative
                       </td>
                     </tr>
                     <tr className="odd:bg-white even:bg-gray-100">
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Autonomy
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Limited
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         High
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Minimal
                       </td>
                     </tr>
                     <tr className="odd:bg-white even:bg-gray-100">
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Learning Ability
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         None
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         High, learns from interactions
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         None or minimal
                       </td>
                     </tr>
                     <tr className="odd:bg-white even:bg-gray-100">
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Ideal Use Cases
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Repetitive, structured tasks
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Dynamic, context-rich tasks
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Creativity and complex decision support
                       </td>
                     </tr>
                     <tr className="odd:bg-white even:bg-gray-100">
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Dependency
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Fully independent
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Fully independent
                       </td>
-                      <td className="px-6 py-4">
+                      <td className="px-6 py-4 font-medium text-black">
                         Relies on human collaboration
                       </td>
                     </tr>
