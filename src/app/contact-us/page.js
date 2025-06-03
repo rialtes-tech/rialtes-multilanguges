@@ -325,7 +325,7 @@ const LocationPage = () => {
                     </div>
                 </div>
 
-                <section className="mt-20 pb-10 ">
+                <section className="mt-16 xl:mt-32 pb-10 ">
                     <ContactForm className='max-w-3xl' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
                 </section>
                 <div className="pb-6"></div>
