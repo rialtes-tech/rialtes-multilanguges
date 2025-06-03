@@ -31,12 +31,17 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
             <div className="relative h-full custom-container flex items-center">
                 <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                     <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-                        <h3 className={`${txtColor ? `text-[${txtColor}]` : "text-white"} text-[18px] md:text-[24px] font-bold`}>
-                            {subtitle}
-                        </h3>
-                        <h1 className={`${txtColor ? `text-[${txtColor}]` : "text-white"}   text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]`}>
-                            {title}
-                        </h1>
+                        {
+                            subtitle && <h3 className={`${txtColor ? `text-[${txtColor}]` : "text-white"} text-[18px] md:text-[24px] font-bold`}>
+                                {subtitle}
+                            </h3>
+                        }
+                        {
+                            title && <h1 className={`${txtColor ? `text-[${txtColor}]` : "text-white"}   text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]`}>
+                                {title}
+                            </h1>
+                        }
+
 
                         {
                             extraImg &&
