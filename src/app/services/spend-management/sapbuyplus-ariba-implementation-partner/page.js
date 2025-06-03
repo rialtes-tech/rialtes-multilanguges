@@ -116,7 +116,7 @@ const WhyChooseRialtes = () => {
                 title="SAP Ariba Implementation Partner and Procurement Solutions | Rialtes"
                 description="As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+                canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/"
             />
             <div className="custom-container px-[2rem] md:px-auto mt-[110%] lg:mt-0">
                 <div className="">
@@ -496,12 +496,12 @@ const ExploreRelatedSection = () => {
         {
             title: "SAP SuccessFactors",
             desc: "Align procurement strategies with workforce planning.",
-            link: "hxm-transformation/successplus-successfactors-implementation-partner"
+            link: "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
         },
         {
             title: "SAP S/4HANA",
             desc: "A real-time ERP foundation for procurement, finance, and supply chain management.",
-            link: "business-transformation/grow-with-sap-services"
+            link: "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
 
         }, {
             title: "SAP for Direct & Indirect Procurement",
