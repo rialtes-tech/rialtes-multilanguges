@@ -61,9 +61,9 @@ export default function RelatedTopicsCarousel({ slides }) {
 
   return (
     <section className="relative pb-6 bg-white">
-      <div className="mx-auto">
-        <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Related Topics</h2>
+      <div className="mb-[36px]">
+        <div className="flex flex-row max-md:flex-col justify-between md:mr-24 mr-0">
+          <h2 className="text-black xl:mb-[82px] mb-[40px]">Related <br className="block min-[360px]:hidden"/> Topics</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -105,7 +105,7 @@ export default function RelatedTopicsCarousel({ slides }) {
                 />
                 <div className="absolute inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+              <div className="flex flex-col  text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
                   <Link href={'/'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
