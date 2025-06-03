@@ -15,7 +15,7 @@ const schemaData =
   },
   "headline": "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
   "description": "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
-  "image": "https://www.rialtes.com/assets/images/blogs/sap-ariba-web-banner.webp",
+  "image": "https://www.rialtes.com/images/blogs/sap-ariba-web-banner.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
@@ -175,17 +175,8 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/blog-2-banner.webp "
-          alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
-          fill
-          style={{ objectFit: "cover", objectPosition: "70% 20%" }}
-          priority
-        />
-      </section> */}
-       
-                              <HeroSection title="" subtitle="" mobimg="/images/blog/sap-ariba-mobile-banner.webp" deskimg="/images/blog/sap-ariba-web-banner.webp " extraImg="" />
+     
+         <HeroSection title="" subtitle="" mobimg="/images/blog/sap-ariba-mobile-banner.webp" deskimg="/images/blog/sap-ariba-web-banner.webp " extraImg="" />
 
       <section
         className="custom-container"
