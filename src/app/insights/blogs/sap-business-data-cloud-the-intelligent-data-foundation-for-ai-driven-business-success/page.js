@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Link from "next/link";
 
 const blogs = [
   {
@@ -167,17 +168,12 @@ export default function Page() {
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        custom-container"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+          <div className="container pl-0 mx-auto">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>General</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
               </div>
@@ -212,36 +208,25 @@ export default function Page() {
                       />
                     </a>
                   </div> */}
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agentforce Agents Scales Enterprise Resource Planning Systems with AI">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
           <div className=" mx-auto grid xl:grid-cols-12 grid-cols-1">
+          
             <div className="xl:col-span-8 col-span-12">
-              <h1 className="text-[#000000] font-medium pb-6  leading-tight pr-10 xl:text-[53px] text-[26px]">SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success</h1>
+              <h1 className="text-[#000000] font-semibold  pb-6  xl:max-w-[1084px] xl:w-[1084px] leading-tight">SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success</h1>
 
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div className="container pl-0 mx-auto">
+            <div className=" xl:max-w-[1084px] xl:w-[1084px]">
 
-              <p className="text-black">Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights. Yet, many organizations still grapple with data strategy, transfer delays, and analytical challenges that slow down their digital ambitions. On February 13th, 2025, <a className="text-[#038EF4]" href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/">SAP announced</a> its new managed software-as-a-service, SAP Business Data Cloud (BDC). As of Q1 2025, BDC is in a controlled general availability phase, initially available to selected customers. This unified data management solution addresses key pain points and combines existing and new services from SAP and its partners. BDC acts as a context-aware data foundation for analytical and AI use cases, utilizing a cost-effective SAP-managed object store for data storage.</p>
+              <p className="text-black">Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights. Yet, many organizations still grapple with data strategy, transfer delays, and analytical challenges that slow down their digital ambitions. On February 13th, 2025, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/">SAP announced</Link> its new managed software-as-a-service, SAP Business Data Cloud (BDC). As of Q1 2025, BDC is in a controlled general availability phase, initially available to selected customers. This unified data management solution addresses key pain points and combines existing and new services from SAP and its partners. BDC acts as a context-aware data foundation for analytical and AI use cases, utilizing a cost-effective SAP-managed object store for data storage.</p>
               <p className="mt-3">BDC is an evolution of the business data fabric journey, with Datasphere and SAP Analytics Cloud as core components. The solution integrates various technologies to deliver curated data products, advanced analytics, benchmarking data, and AI-powered insights, utilizing applications like SAP Datasphere, SAP Business Warehouse, and SAP Analytics Cloud.</p>
               <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Understanding SAP Business Data Cloud</h2>
               <p className='mt-3'>SAP Business Data Cloud is a fully managed SaaS solution purpose-built to unify and govern SAP data while seamlessly integrating third-party sources. It combines the powerful capabilities of SAP HANA Cloud, SAP Datasphere, and SAP Analytics Cloud into one cohesive platform. The result? Businesses gain access to real-time, trustworthy data and a scalable, AI-ready environment to support intelligent decision-making. These features lower total cost of ownership (TCO) and data integration costs, achieve quicker time to value, and drive business transformation with AI and analytics.</p>
@@ -252,21 +237,21 @@ export default function Page() {
                 priority
                 className="!w-full !h-full !relative"
               />
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">What's New with SAP Business Data Cloud?</h2>
+              <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">What's New with SAP Business Data Cloud?</h2>
               <p className="mt-5">SAP is revitalizing its Data and Analytics (D&A) platform with BDC, which features enhanced functionality, openness, and adherence to industry standards compared to SAP BW. Unlike before, when transferring SAP data to an external data lakehouse meant losing semantics and business context, SAP BDC preserves these elements. This ensures that curated, consumable data sets can be effectively utilized in analytics, AI, and custom applications.</p>
-              <p className="mt-5">Companies that can effectively consolidate, analyze, and operationalize their data unlock powerful insights, much like striking gold. The deeper and more connected the analysis, the greater the business value. SAP Business Data Cloud is designed to break down these long-standing silos. It allows businesses to seamlessly connect data across SAP applications, third-party platforms, and multiple business domains. This unified approach ensures your decision-makers have access to the latest, most relevant data, whenever and wherever it’s needed.</p>
+              <p className="mt-3">Companies that can effectively consolidate, analyze, and operationalize their data unlock powerful insights, much like striking gold. The deeper and more connected the analysis, the greater the business value. SAP Business Data Cloud is designed to break down these long-standing silos. It allows businesses to seamlessly connect data across SAP applications, third-party platforms, and multiple business domains. This unified approach ensures your decision-makers have access to the latest, most relevant data, whenever and wherever it’s needed.</p>
 
-              <h3 className="h3-bold pb-4 mt-10">SAP BDC integration with Databricks</h3>
+              <h3 className="h3-bold pb-4 mt-8">SAP BDC integration with Databricks</h3>
 
               <p className="text-black pb-4">A standout capability of BDC is its integration with Databricks, the market leader in data engineering and AI-powered analytics. This partnership enables organizations
 
                 to combine structured and unstructured data, delivering domain-specific insights while reducing redundancy. Thanks to zero-copy data access, businesses no longer need to replicate massive datasets across multiple environments — a game-changer for enterprises managing petabytes of data.</p>
-              <p className="mt-5">Previously, consolidating bulk and IoT data with SAP data cost-effectively was challenging, leading companies to extract SAP data to external data lakehouses. In contrast, SAP BDC provides bidirectional integration with Databricks, allowing data to stay within the SAP environment. This enables efficient management of large datasets from various sources, creating optimal conditions for AI and ML applications.</p>
+              <p>Previously, consolidating bulk and IoT data with SAP data cost-effectively was challenging, leading companies to extract SAP data to external data lakehouses. In contrast, SAP BDC provides bidirectional integration with Databricks, allowing data to stay within the SAP environment. This enables efficient management of large datasets from various sources, creating optimal conditions for AI and ML applications.</p>
 
-              <h3 className="h3-bold pb-4 mt-10">Creating a Unified Place for SAP and Non-SAP Data</h3>
+              <h3 className="h3-bold pb-4 mt-3">Creating a Unified Place for SAP and Non-SAP Data</h3>
 
               <p className="text-black">Modern businesses depend on vast and growing volumes of data from both SAP and non-SAP sources to power value-driven use cases and data modelling in SAP. Yet, inconsistent semantic models often create obstacles to innovation, complicating data integration efforts and delaying the realization of business value. SAP BDC addresses this challenge by allowing organizations to seamlessly leverage SAP and non-SAP data within a unified, standardized semantic framework.</p>
-              <h3 className="h3-bold pb-4 mt-10">Delivering Insights and Real-Time Analytics with SAP BDC</h3>
+              <h3 className="h3-bold pb-4 mt-4">Delivering Insights and Real-Time Analytics with SAP BDC</h3>
 
               <p className="text-black">Traditionally, businesses have faced significant complexity in harnessing the full potential of data-intensive applications built on SAP data. SAP BDC simplifies this process by providing real-time analytics, insights, and intelligent recommendations. In addition, it empowers companies to access benchmarking capabilities and industry-specific knowledge derived from aggregated, cross-customer SAP data.</p>
 
@@ -292,7 +277,7 @@ export default function Page() {
               <p className="mt-3">For those of us who’ve battled the daily frustration of outdated data, failed transfers, and a lack of ownership over data pipelines, BDC is more than just another tool. Having worked closely with SAP environments for years, we have experienced firsthand the daily challenges of transferring data from SAP systems to external data repositories, such as dealing with outdated snapshots, transfer errors, and the frustrating lack of end-to-end ownership when issues arise.</p>
               <h2 className="mt-10 font-medium text-[#0092E0] leading-tight xl:text-[30px] text-[20px]">SAP BDC Accelerates the Path from Data to Decisions</h2>
               <p className="mt-3">Inefficiencies in data management frequently lead to business decisions being based on outdated or incomplete information, hindering the effective use of AI-driven insights. However, implementing BDC transforms this scenario by providing real-time access to reliable data, all while ensuring governance and trustworthiness across the entire data landscape.</p>
-              <p className="mt-3">Interested in seeing SAP Business Data Cloud in action? Rialtes is dedicated to helping businesses leverage their data for AI-driven decision-making, streamlined operations, and innovation. <a className='text-[#038EF4]' href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">Contact us</a>  to explore its potential impact on your organization.</p>
+              <p className="mt-3">Interested in seeing SAP Business Data Cloud in action? Rialtes is dedicated to helping businesses leverage their data for AI-driven decision-making, streamlined operations, and innovation. <Link className='text-[#0092E0] underline' href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">Contact us</Link>  to explore its potential impact on your organization.</p>
             </div>
           </div>
         </div>
@@ -301,11 +286,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+     custom-container
         pb-10"
       >
         <BlogsCarousel slides={blogs} />

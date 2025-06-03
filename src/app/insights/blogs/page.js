@@ -25,7 +25,7 @@ const latestBlogs = [
     category:"SAP",
     industry:"Manufacturing",
     date:"29 May 2025",
-    url:"/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
+    url:'/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs',
     title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
     description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
 
