@@ -267,7 +267,7 @@ const FeaturedCarousel = () => {
       id: 1,
       imgSrc: '/images/case-studies/fiori-main-page.webp',
       category: 'Manufacturing',
-      date: '22 May 2025',
+      date: '28 May 2025',
       url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
     title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
     description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
