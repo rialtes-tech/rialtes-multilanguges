@@ -63,7 +63,7 @@ const blogs = [
     title: "SAP SuccessFactors Performance and Goal Management",
     description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
-  
+
 ];
 
 export default function Page() {
@@ -116,7 +116,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">The Rise of Agentic AI and the Role of Testing</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">The Rise of Agentic AI and the Role of Testing</h2>
 
               <p className="text-black pb-4">Agentic AI, characterized by autonomous systems capable of reasoning and decision-making, has emerged as a transformative enterprise strategy. The next phase in the evolution of agentic AI could focus on evaluation and monitoring, as enterprises aim to enhance the observability of the agents they are starting to deploy. By automating specific functions within processes—like handling customer service queries, managing sales workflows, or personalizing marketing outreach—agentic AI enables businesses to improve efficiency and scalability while reducing the need for human intervention.</p>
 
@@ -124,35 +124,35 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Agentforce Testing Center, what is It?</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Agentforce Testing Center, what is It?</h2>
 
               <p className="text-black pb-4">The Agentforce Testing Center is a robust suite of tools designed to help enterprises rigorously test and observe AI agents before deploying them in production. These tools enable businesses to validate their AI models in controlled environments, ensuring they meet performance standards while mitigating risks associated with real-world deployment. The Testing Center upgrade includes tools such as generating synthetic interactions through natural language, secure sandbox environments, and performance monitoring tools for evaluating agents.</p>
 
 
-              <p className="text-black pb-4 font-bold">Applications</p>
+              <h3 className="h3-bold pb-4">Applications</h3>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Synthetic Interaction Generation:</span> Simulates real-world interactions using natural language, allowing agents to experience a wide range of scenarios.</li>
-                <li><span className="font-bold">Secure Sandbox Environments:</span> Isolated testing spaces where agents can be evaluated without impacting live systems or sensitive data.</li>
-                <li><span className="font-bold">Performance Monitoring Tools:</span> Provides insights into how agents respond, reason, and adapt in dynamic situations.</li>
+                <p> <li><h4 className="font-bold inline">Synthetic Interaction Generation:</h4> Simulates real-world interactions using natural language, allowing agents to experience a wide range of scenarios.</li></p>
+                <p><li><h4 className="font-bold inline">Secure Sandbox Environments:</h4> Isolated testing spaces where agents can be evaluated without impacting live systems or sensitive data.</li></p>
+                <p><li><h4 className="font-bold inline">Performance Monitoring Tools:</h4> Provides insights into how agents respond, reason, and adapt in dynamic situations.</li></p>
               </ul>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Redefining Testing with Synthetic Data</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Redefining Testing with Synthetic Data</h2>
 
               <p className="text-black pb-4">Among the Testing Center’s offerings, the use of synthetic data is perhaps the most transformative. Synthetic data refers to artificially generated information that mimics real-world datasets. It allows enterprises to simulate complex customer interactions, edge cases, and rare scenarios that might otherwise be difficult to replicate. Here’s how synthetic data revolutionized AI testing.</p>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Scalability:</span> Synthetic data can be generated in large volumes, ensuring agents are tested against diverse scenarios without the limitations of real-world datasets.</li>
-                <li><span className="font-bold">Cost-Efficiency:</span> Avoids the expenses and logistical challenges of collecting and anonymizing real customer data.</li>
-                <li><span className="font-bold">Privacy and Compliance:</span> Since synthetic data does not involve real user information, it minimizes privacy risks and ensures compliance with data protection regulations like GDPR.</li>
-                <li><span className="font-bold">Edge Case Preparation:</span> Enables testing of rare or extreme scenarios, ensuring agents perform reliably even in unexpected situations.</li>
+                <p> <li><h4 className="font-bold inline">Scalability: </h4>Synthetic data can be generated in large volumes, ensuring agents are tested against diverse scenarios without the limitations of real-world datasets.</li></p>
+                <p> <li><h4 className="font-bold inline">Cost-Efficiency: </h4> Avoids the expenses and logistical challenges of collecting and anonymizing real customer data.</li></p>
+                <p> <li><h4 className="font-bold inline">Privacy and Compliance: </h4> Since synthetic data does not involve real user information, it minimizes privacy risks and ensures compliance with data protection regulations like GDPR.</li></p>
+                <p> <li><h4 className="font-bold inline">Edge Case Preparation: </h4> Enables testing of rare or extreme scenarios, ensuring agents perform reliably even in unexpected situations.</li></p>
 
               </ul>
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">AI-generated Testing and Sandboxes</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">AI-generated Testing and Sandboxes</h2>
 
               <p className="text-black pb-4">AI-generated tests enable companies to leverage AI models to create hundreds of synthetic interactions, assessing how frequently agents respond in alignment with desired outcomes. Sandboxes, as the name implies, provide a secure, isolated environment for testing agents while replicating a company’s data to simulate real-world scenarios. Monitoring and observability enhance this process by introducing an audit trail, which carries over to production once the agents are deployed.</p>
 
@@ -160,13 +160,13 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Why This Matters for You</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Why This Matters for You</h2>
 
               <p className="text-black pb-4">For enterprises, deploying AI agents without rigorous testing can lead to poor customer experiences, operational disruptions, and reputational damage. By leveraging the Agentforce Testing Center’s advanced tools, businesses gain the confidence that their AI agents are ready for real-world applications. The synthetic interaction generation capability ensures that agents are prepared to handle a wide variety of inputs—ranging from routine customer inquiries to complex, nuanced conversations. This level of preparation is critical in building trust, both with internal stakeholders and end-users.</p>
 
               <p className="text-black pb-4">The Agentforce Testing Center is more than just a suite of testing tools—it’s a stepping stone toward a future where agentic AI can seamlessly transform business processes at scale. By redefining AI testing with synthetic data and secure sandbox environments, Salesforce is empowering enterprises to innovate faster, reduce risks, and deliver exceptional AI-driven experiences. It reaffirms its commitment to helping enterprises navigate the complexities of AI adoption.</p>
 
-              <p className="text-black pb-4">Interested in learning  <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-bold">more about Agentforce </span></Link>  or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes.</p>
+              <p className="text-black pb-4">Interested in learning  <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-bold">more about Agentforce </span></Link>  or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes.</p>
 
             </div>
           </div>
