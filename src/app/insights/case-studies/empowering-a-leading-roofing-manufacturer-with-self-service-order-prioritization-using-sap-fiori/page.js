@@ -3,31 +3,32 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
-  },
-  "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
-  "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-  "image": "https://www.rialtes.com/images/case-studies/fiori-banner.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "articleSection": "Case Studies",
-  "datePublished": "2025-05-28"
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
+    },
+    "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
+    "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
+    "image": "https://www.rialtes.com/images/case-studies/fiori-banner.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "articleSection": "Case Studies",
+    "datePublished": "2025-05-28"
 }
 const slides = [
     {
@@ -97,32 +98,16 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-                <Image
-                    src="/images/case-studies/fiori-banner.webp"
-                    alt="Streamlined DevOps using Copado and Salesforce"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "90% 20%" }}
-                    priority
-                />
-            </section>
+            <HeroSection mobimg="/images/case-studies/Sample and literature Request_Case study thumb.webp" deskimg="/images/case-studies/fiori-banner.webp" />
 
-            <section
-                className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
-                <div className="py-10 bg-white">
-                    <div className="container mx-auto">
-                        <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori </h1>
+            <section className="custom-container">
+                <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+                    <div>
+                        <h1 className="text-[#000000] py-6 leading-tight">Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori </h1>
                     </div>
                     <div className="py-4"></div>
-                    <div className="container mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+                    <div>
+                        <div className="flex flex-col md:flex-row justify-between text-black">
                             <div className='pb-6'>
                                 <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>28 May 2025
                             </div>
@@ -149,38 +134,12 @@ export default function Page() {
                                     />
                                 </a>
                             </div>
-                            {/* <div className="max-w-[40px]">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-3">
-                                    <Image
-                                        src="/images/case-studies/facebook.svg"
-                                        alt="Facebook"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        priority
-                                    />
-                                </a>
-                            </div>  */}
-                            {/* <div className="max-w-[40px]">
-                                <a href="https://x.com/Rialtestech">
-                                    <Image
-                                        src="/images/case-studies/twitter.svg"
-                                        alt="Twitter"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        priority
-                                    />
-                                </a>
-                            </div> */}
                         </div>
                     </div>
 
                     <div className="py-6"></div>
-                    <div className="container mx-auto">
-                        <div className="max-w-4xl md:w-4/2">
+                    <div>
+                        <div>
 
 
                             <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
@@ -198,7 +157,7 @@ export default function Page() {
 
                             <p className="text-black ">Rialtes partnered with the client to streamline and digitize their order prioritization process. We developed a custom SAP Fiori app that enabled customers to independently access their open orders and select which orders needed prioritization. Key features of the solution contained: </p>
 
-                            <div className="pl-6">
+                            <div className="pl-2">
                                 <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
                                     <p className="text-black pb-4"> <li>A user-friendly interface for customers to view and select open orders</li></p>
                                     <p className="text-black pb-4"> <li>Planning logic integrated with manufacturing capacity to ensure realistic timelines</li></p>
@@ -212,7 +171,7 @@ export default function Page() {
                             <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
                             <p className="text-black pb-6 mt-2">The implementation of the Fiori app transformed sales order management for our clients, delivering measurable improvements across operations:</p>
-                            <div className="pl-6">
+                            <div className="pl-2">
                                 <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
                                     <p className="text-black pb-4"><li><span className="font-bold">Improved Efficiency: </span>The manual adjustment of over 150 sales orders daily was eliminated. This saved the sales team approximately 25+ hours per week, allowing them to focus more on customer engagement and strategic activities.</li></p>
                                     <p className="text-black pb-4">  <li><span className="font-bold">Customer Empowerment: </span>With direct control over order prioritization via the Fiori app, customers gained transparency and flexibility, leading to a 20% increase in customer satisfaction and a 30% drop in support queries related to order status and changes.</li></p>
@@ -230,14 +189,7 @@ export default function Page() {
 
             {/* Latest Blogs */}
             <div
-                className="py-20
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-            >
+                className="pb-20 custom-container lg:pr-0" >
                 <RelatedTopicsCarousel slides={slides} />
 
             </div>

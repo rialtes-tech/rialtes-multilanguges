@@ -6,16 +6,17 @@ import BlogsCarousel from '../../components/latestBlogCarousel';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
+import { HeroSection } from "@/app/components/herosection";
 
 const latestCaseStudy = [
-   {
-    id:10,
-    image:"/images/case-studies/adaptis-for-carousel.webp",
-    industry:"Manufacturing",
-    date:"30 May 2025",
-    url:"/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
-    title:"Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities",
-    description:"A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
+  {
+    id: 10,
+    image: "/images/case-studies/adaptis-for-carousel.webp",
+    industry: "Manufacturing",
+    date: "30 May 2025",
+    url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
+    title: "Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities",
+    description: "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
   },
   {
     id: 1,
@@ -65,7 +66,7 @@ const latestCaseStudy = [
   },
   {
     id: 6,
-    image: "/images/case-studies/case-study-4_thumb.webp", 
+    image: "/images/case-studies/case-study-4_thumb.webp",
     industry: "Manufacturing",
     date: "14 Oct 2024",
     url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
@@ -109,7 +110,7 @@ const latestCaseStudy = [
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
 
- 
+
   // Add more case study objects as needed
 ];
 
@@ -186,12 +187,12 @@ const CaseStudy = () => {
   const isLoadMoreVisible = visibleCaseStudy < filteredCaseStudyByCategory.length;
 
   return (
-    <div className="container mx-auto text-black xl:pr-[150px] pr-6">
-      <div className="flex md:flex-row flex-col pb-4 sm:items-center">
-        <div className="flex flex-col md:pb-0 pb-4">
-          <h3 className="text-black">Search result by {selectedIndustry} industry</h3>
+    <div className=" text-black">
+      <div className="flex sm:flex-row flex-col pb-4 sm:items-center">
+        <div className="flex flex-col sm:pb-0 pb-4">
+          <h2 className="text-black">Search result by {selectedIndustry} industry</h2>
         </div>
-        <div className="relative flex md:flex-row md:ml-auto h-[60px]">
+        <div className="relative flex sm:flex-row sm:ml-auto h-[60px]">
           <div className="relative">
             <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
               <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
@@ -263,14 +264,14 @@ const CaseStudy = () => {
 
 const FeaturedCarousel = () => {
   const slides = [
-     {
+    {
       id: 1,
       imgSrc: '/images/case-studies/fiori-main-page.webp',
       category: 'Manufacturing',
       date: '28 May 2025',
       url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-    title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
-    description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
+      title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
+      description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
     },
     {
       id: 2,
@@ -346,9 +347,9 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div className=" mx-auto">
+      <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Latest Studies</h2>
+          <h2 className="text-black xl:mb-[82px] mb-[40px]">Latest Studies</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -374,8 +375,8 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col sm:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-6 group">
-              <div className="basis-full sm:basis-2/3 lg:basis-4/3">
+            <div key={slide.id} className="flex md:flex-row flex-col md:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-3 group max-sm:h-[700px] md:h-[600px] lg:h-full mb-[26px]">
+              <div className="basis-full md:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
                   <Image
                     src={slide.imgSrc}
@@ -388,11 +389,11 @@ const FeaturedCarousel = () => {
                   />
                 </Link>
               </div>
-              <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] sm:basis-2/3 py-4 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-4">
-                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
+              <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] md:basis-2/3 py-4 md:py-4 lg:py-10 md:px-10 lg:px-16 px-4 ">
+                <div className='pb-[10px] md:pb-[15px] lg:pb-[20px]'>
                   <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                 </div>
-                <Link href={slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
+                <Link href={slide.url}><h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
                 <p>{slide.description}</p>
               </div>
             </div>
@@ -406,96 +407,34 @@ const FeaturedCarousel = () => {
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Seo
-                title="Case Study"
-                canonical="https://www.rialtes.com/insights/case-studies/"
-            />
+      <Seo title="Case Study" canonical="https://www.rialtes.com/insights/case-studies/" />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/case-studies/case-study-header.webp"
-          alt="Case Study"
-          fill
-          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-          priority
-        />
-        <div
-          className="
-          container h-full relative
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <div className="flex flex-col">
-              <h3 className="text-white text-[300] font-medium mb-2">Case Studies</h3>
-              <h1 className="text-white max-w-2xl">
-                Rial Results, Rial Impact
-              </h1>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <HeroSection title="Rial Results, Rial Impact" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
       <section
-        className="
-        container
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-6 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+        className="custom-container">
 
-        <div className="md:py-10 py-6 bg-white">
-          <div className="container mx-auto">
-            <p className="text-[#000000] py-6 max-w-4xl xl:max-w-2xl">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
-          </div>
+        <div className="xl:mt-[105px] mt-[44px] bg-white">
+          <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
         </div>
       </section>
 
 
       {/* Latest Studies */}
       <div
-        className="
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+        className="custom-container lg:pr-0 xl:mt-[105px] mt-[44px]">
         <FeaturedCarousel />
 
       </div>
 
       {/* Latest Case Study Section */}
       <div
-        className="
-        container
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
-        <section className="py-16 bg-white">
-
-          <CaseStudy />
-
-        </section>
+        className="custom-container xl:mt-[105px] mt-[44px]">
+         <CaseStudy />
       </div>
 
       {/* Latest Blogs */}
       <div
-        className="
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]
-          mb-10"
+        className="custom-container lg:pr-0 xl:mt-[40px] xl:mb-[128px] my-[44px] "
       >
         <BlogsCarousel />
 

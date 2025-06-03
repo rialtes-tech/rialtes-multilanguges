@@ -101,10 +101,7 @@ export default function Page() {
 
             <HeroSection mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />
 
-            <section
-                className="custom-container "
-            >
-
+            <section className="custom-container">
                 <div className="py-10 bg-white">
                     <div className="">
                         <h1 className="text-[#000000] py-6 max-w-4xl">Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities</h1>
