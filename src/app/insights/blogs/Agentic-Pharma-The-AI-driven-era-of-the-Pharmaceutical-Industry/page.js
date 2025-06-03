@@ -263,7 +263,7 @@ export default function Page() {
           </div>
 
           <div>
-            <div className="max-w-[1084px] md:w-[1084px]">
+            <div className="max-w-[1084px] xl:w-[1084px]">
 
               <p className="text-black pb-4">The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems. Now, in the era of artificial intelligence, the sector is not only experimenting with AI but fully embracing its transformative potential to reshape research and enhance patient care.</p>
 

@@ -44,7 +44,7 @@ export default function BlogsCarousel() {
 
     {
       id: 9,
-      image: "/images/blog/jthumb.webp",
+      image: "/images/blog/jcarosel.webp",
       category: "SAP",
       industry: "SAP",
       date: "22 April 2025",
