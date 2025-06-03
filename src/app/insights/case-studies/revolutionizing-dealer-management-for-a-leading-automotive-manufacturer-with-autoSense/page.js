@@ -208,7 +208,7 @@ export default function Page() {
           <div className="py-6"></div>
             <div>
             <div className="max-w-4xl">
-              <h3 className="h3-bold  pb-6">Key Deliverables from Rialtes Under AutoSense:</h3>
+              <h3 className="h3-bold  pb-6 text-[#0092E0]">Key Deliverables from Rialtes Under AutoSense:</h3>
               <ul className="list-decimal marker:text-[#000] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
                 <li className="pb-4"><strong>Comprehensive Design & Requirement Workshops : </strong> Collaborative workshops with the client’s teams to gather business insights, define objectives, and establish functional requirements.</li>
                 <li className="pb-4"><strong>Agile Development & Sprint Planning : </strong> An iterative, sprint-based development process, delivering quick wins while maintaining flexibility to adapt to changing business needs.</li>
@@ -223,7 +223,7 @@ export default function Page() {
           <div className="py-6"></div>
             <div>
             <div className="max-w-4xl">
-              <h3 className="h3-bold  pb-6">Conclusion:</h3>
+              <h3 className="h3-bold  pb-6 text-[#0092E0]">Conclusion:</h3>
               <p>By leveraging <strong>AutoSense</strong>, Rialtes successfully transformed the automotive manufacturer’s outdated legacy dealer portal into a modern, scalable, and efficient solution that empowered their dealers and streamlined internal operations. With Salesforce Experience Cloud and SAP S/4 HANA integrations, AutoSense delivered a superior dealer management experience, providing real-time data, operational efficiencies, and a seamless user interface. This transformation not only enhanced the client’s dealer engagement but also positioned them for continued growth in an increasingly competitive automotive market.</p>
             <p className="mt-5"> <strong>AutoSense</strong> by Rialtes is not just a solution—it's a <strong>game-changer</strong>  for the automotive industry, unlocking new opportunities for growth and success.</p>
             </div>
