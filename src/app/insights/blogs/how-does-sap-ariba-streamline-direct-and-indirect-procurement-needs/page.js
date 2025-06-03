@@ -176,7 +176,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
      
-         <HeroSection title="" subtitle="" mobimg="/images/blog/sap-ariba-mobile-banner.webp" deskimg="/images/blog/sap-ariba-web-banner.webp " extraImg="" />
+         <HeroSection  mobimg="/images/blog/sap-ariba-mobile-banner.webp" deskimg="/images/blog/sap-ariba-web-banner.webp " extraImg="" />
 
       <section
         className="custom-container"
@@ -210,11 +210,11 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold  max-w-[58rem] w-full  xl:w-4/2 pb-3">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
+            <h1 className="text-[#000000] font-semibold  max-w-[58rem] w-full  xl:max-w-[1084px] xl:w-[1084px] leading-tight">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
           </div>
 
           <div className="">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="xl:max-w-[1084px] xl:w-[1084px]">
 
               <p className="text-black pb-4">The term "Procurement" encompasses the entire process of acquiring goods or services, from identifying needs to supplying them. Solutions like Guided Sourcing enable companies to conduct market research, find qualified suppliers, and negotiate better contracts. It is about purchasing goods and services and optimizing costs, enhancing supplier relationships, and ensuring supply chain resilience.  </p>
 
@@ -299,7 +299,7 @@ export default function Page() {
 
               <p className="text-black pb-4">SAP Ariba integration revolutionizes procurement operations by digitizing and automating purchasing processes. This leads to reduced costs, improved supplier collaboration, and enhanced compliance. Whether managing raw material supplies or office purchases, SAP Ariba streamlines the entire process from requisition to payment, ensuring transparency and efficiency.  </p>
 
-              <p className="text-black">As an <Link className="text-[#006C1D] underline transition duration-300 ease-out hover:text-gray-400" href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog
+              <p className="text-black">As an <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog
 " target="_blank">SAP Global Strategic Services Partner</Link> , Rialtes offers a range of services, including consulting, implementation, and support. We help reinvent your procurement operations and enhance decision-making through SAP Ariba solutions. </p>
 
             </div>
