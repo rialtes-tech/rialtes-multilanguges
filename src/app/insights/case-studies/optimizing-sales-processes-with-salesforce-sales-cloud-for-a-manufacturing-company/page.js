@@ -3,7 +3,33 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+    
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+  },
+  "headline": "Case Study: Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company",
+  "description": "Learn how a global manufacturing company streamlined lead management, improved sales productivity, and enhanced reporting using Salesforce Sales Cloud with Rialtes’ expertise.",
+  "image": "https://www.rialtes.com/images/case-studies/sales%20cloud%20case%20study.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2025-03-26"
 
+}
 const slides = [
     {
         id: 3,
@@ -63,9 +89,15 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Optimize"
+                title="Salesforce Sales Cloud Case Study: Front Load in Manufacturing"
+                description="Discover how front loading sales workflows using Salesforce Sales Cloud improved conversion speed and deal closures for a manufacturer."
                 canonical="https://www.rialtes.com/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
             />
+              <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
@@ -95,7 +127,7 @@ export default function Page() {
                     <div className="container mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
                             <div className='pb-6'>
-                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>26 Mar 2025
+                                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>26 March 2025
                             </div>
                             <div className="flex flex-col">
                                 <span>8 min read</span>

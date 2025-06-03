@@ -157,17 +157,11 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>21 Oct 2024
@@ -187,7 +181,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
+                  {/* <div className="max-w-[40px]">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
@@ -212,32 +206,31 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce</h1>
-          </div>
+         
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce</h1>
+       
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+            <div className="">
 
-              <p className="text-black pb-4">As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems. <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/" ><span className="font-bold">Salesforce Agentforce</span></Link> provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.</p>
+              <p className="text-black pb-4">As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems. <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/" ><span >Salesforce Agentforce</span></Link> provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.</p>
 
               <p className="text-black">As the “brain” behind the agents, Atlas formulates a strategic plan based on the specific goal the agent is trying to achieve. It then evaluates and refines this plan, looping to gather additional data if necessary. When executing an action, it assesses which business process is most appropriate and ensures the right one is applied. It engages with the customer or employee through their preferred communication channel, delivering a more seamless and personalized experience. This dynamic adaptability enables Atlas to optimize interactions, driving efficiency and satisfaction in real-time continuously.   Let’s dive into what makes Atlas’s new ways of reasoning and planning special.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">What is the Atlas Reasoning Engine?</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">What is the Atlas Reasoning Engine?</h2>
 
               <p className="text-black">The Atlas Reasoning Engine is an advanced AI-powered decision-making tool within Salesforce Agentforce that transforms how agents handle customer queries. It is built to assist customer service agents by analyzing, reasoning, and guiding interactions in real time. The AI reasoning engine doesn’t just passively retrieve information like many other CRM tools—it actively reasons through problems and provides actionable insights, transforming agents-based systems from problem solvers into proactive solution architects.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">How Does the Atlas Reasoning Engine Work?</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">How Does the Atlas Reasoning Engine Work?</h2>
 
               <p className="text-black pb-4">At Dreamforce 2024, Salesforce CEO Clara Shih highlighted the difference between autonomous agent-based AI and Einstein Copilot, noting that the new agents are designed to go beyond content generation by allowing generative AI systems to take independent actions. This marks a significant shift toward AI systems capable of autonomous decision-making and execution.</p>
 
@@ -247,63 +240,57 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">The Power of Contextual Understanding</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">The Power of Contextual Understanding</h2>
 
               <p className="text-black pb-4">One of the core strengths of the Atlas Reasoning Engine is its contextual understanding. Traditional support systems often rely on rigid workflows and keyword-based searches. However, Atlas leverages natural language processing (NLP) and deep learning to comprehend the context behind customer inquiries. This means it doesn’t just surface relevant knowledge base articles but also connects the dots between customer history, case specifics, and even sentiment analysis, delivering recommendations that are far more aligned with the customer’s needs.</p>
 
-              <p className="text-black pb-4">For example, if a customer reports an issue with software integration, Atlas doesn’t simply point to troubleshooting guides. Instead, it evaluates the current system environment, past interactions, and even related case resolutions to propose the most efficient steps to resolve the issue. The result? More personalized responses and faster case resolution.</p>
+              <p className="text-black ">For example, if a customer reports an issue with software integration, Atlas doesn’t simply point to troubleshooting guides. Instead, it evaluates the current system environment, past interactions, and even related case resolutions to propose the most efficient steps to resolve the issue. The result? More personalized responses and faster case resolution.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Atlas: Going Beyond Simple Conversations and Query Detection</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Atlas: Going Beyond Simple Conversations and Query Detection</h2>
 
-              <p className="text-black pb-4 font-bold">Real-Time Reasoning:</p>
+              <h3 className="pb-4  h3-bold">Real-Time Reasoning</h3>
 
               <p className="text-black pb-4">Atlas works in real-time, assisting agents during live interactions by suggesting the next best action, proposing solutions based on case history, and providing relevant knowledge base entries. It accelerates the problem-solving process and ensures more accurate responses.</p>
 
 
-              <p className="text-black pb-4 font-bold">AI-Powered Insights:</p>
+              <h3 className="pb-4  h3-bold">AI-Powered Insights</h3>
 
               <p className="text-black pb-4">It goes beyond simple automation by offering AI-driven insights into the root causes of issues. Whether it’s recurring technical problems or common customer complaints, Atlas can identify trends and suggest preventive actions for the future.</p>
 
 
 
-              <p className="text-black pb-4 font-bold">Dynamic Case Management:</p>
+              <h3 className="pb-4  h3-bold">Dynamic Case Management</h3>
 
               <p className="text-black pb-4">Instead of following a rigid case resolution path, the Atlas Reasoning Engine adjusts the flow based on new inputs, changes in customer information, and live feedback from agents. This adaptability ensures that cases are managed efficiently, even as new challenges arise during interactions.</p>
 
 
-              <p className="text-black pb-4 font-bold">Cross-Platform Integration:</p>
+              <h3 className="pb-4  h3-bold">Cross-Platform Integration</h3>
 
               <p className="text-black pb-4">Atlas seamlessly integrates across different Salesforce environments, including Sales Cloud, Service Cloud, and external platforms. This integration makes it easier for agents to pull customer data, purchase history, or previous case logs into the conversation without juggling multiple systems.</p>
 
 
-              <p className="text-black pb-4 font-bold">Enhanced Agent Productivity:</p>
+              <h3 className="pb-4  h3-bold">Enhanced Agent Productivity</h3>
 
               <p className="text-black">By handling much of the information gathering and reasoning behind the scenes, Atlas frees up agents to focus on building better customer relationships, instead of spending time on mundane tasks. The engine also offers training suggestions and real-time coaching, making agents more effective.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">A Game Changer for Customer Support</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">A Game Changer for Customer Support</h2>
 
               <p className="text-black pb-4">The Atlas Reasoning Engine elevates Salesforce Agentforce by offering a more intuitive, intelligent, and efficient approach to customer support. As customer expectations continue to rise, businesses need tools that help them stay ahead. Atlas does exactly that by enabling faster response times, higher accuracy in issue resolution, and a more satisfying customer experience.</p>
 
               <p className="text-black">As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts.</p>
 
             </div>
-          </div>
+         
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        className="custom-container lg:pr-0
         pb-10"
       >
         <BlogsCarousel slides={blogs} />
