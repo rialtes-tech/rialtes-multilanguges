@@ -4,7 +4,32 @@ import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
+  },
+  "headline": "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
+  "description": "Explore how Rialtes helped streamline and automate the prior authorization workflow using Salesforce Health Cloud, leading to faster approvals, reduced errors, and improved patient outcomes.",
+  "image": "https://www.rialtes.com/images/case-studies/case-study-8.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2024-08-02"
 
+}
 const slides = [
   {
     id: 3,
@@ -63,8 +88,14 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Salesforce Health Cloud, Prior Authorization"
+        title="Salesforce Health Cloud Case Study: Prior Authorization Streamlined"
+        description="See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care.
+"
         canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
+      />
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -95,7 +126,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Healthcare And Life Sciences</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
+                <span className='text-[#0092E0]'>Healthcare And Life Sciences</span> <span className='text-[#ACACAC]'> | </span>02 August 2024
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>

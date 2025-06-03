@@ -3,7 +3,33 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce/"
+  },
+  "headline": "Case Study: Streamlined DevOps Using Copado and Salesforce",
+  "description": "Discover how Rialtes helped a company enhance release management, improve collaboration, and accelerate DevOps cycles using Copado integrated with Salesforce.",
+  "image": "https://www.rialtes.com/images/case-studies/case%20study%203_n%201.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2025-01-08"
 
+}
 const slides = [
   {
     id: 3,
@@ -62,8 +88,13 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Streamlined DevOps using Copado and Salesforce"
+        title="Salesforce DevOps Case Study: How to Front Load Delivery"
+        description="Discover how front loading DevOps with Copado and Salesforce improved release speed and reduced manual errors for a tech-forward enterprise."
         canonical="https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -94,7 +125,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>27 May 2025
+                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>08 january 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>

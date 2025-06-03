@@ -4,7 +4,33 @@ import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
+  },
+  "headline": "Case Study: Driving Operational Efficiency with Yardi Managed Services",
+  "description": "Learn how Rialtes empowered a public housing authority to achieve operational excellence, ensure regulatory compliance, and streamline workflows through comprehensive Yardi managed services.",
+  "image": "https://www.rialtes.com/images/case-studies/case-study-6.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2024-09-04"
 
+}
 const slides = [
   {
     id: 3,
@@ -63,8 +89,13 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services"
+        title="Yardi Case Study: Reducing Downtime in Multifamily Real Estate"
+        description="Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader."
         canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
@@ -96,7 +127,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>26 May 2025
+                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>04 September 2024
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>

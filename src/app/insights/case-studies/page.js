@@ -6,7 +6,27 @@ import BlogsCarousel from '../../components/latestBlogCarousel';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
+const schemaData ={
+  
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/"
+  },
+  "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
+  "headline": "Real Results with Salesforce and SAP – Customer Success Stories",
+  "description": "Explore how Rialtes empowers organizations across industries with Salesforce, SAP, Yardi, and MuleSoft solutions. Discover real-world case studies that showcase innovation, efficiency, and digital transformation.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
 
+}
 const latestCaseStudy = [
    {
     id:10,
@@ -407,9 +427,15 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-                title="Case Study"
+                title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
+                description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions.
+"
                 canonical="https://www.rialtes.com/insights/case-studies/"
             />
+             <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
