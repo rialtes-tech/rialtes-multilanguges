@@ -125,7 +125,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>08 january 2025
+                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>08 January 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
