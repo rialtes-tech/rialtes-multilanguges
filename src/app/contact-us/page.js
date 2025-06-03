@@ -230,7 +230,7 @@ const LocationPage = () => {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <div className="xl:pl-[280px] lg:pl-[100px] md:pl-[100px] px-6 xl:pr-16 pt-16">
+            <div className="custom-container pt-14">
                 <div>
                     <h1>Our presence across the Globe</h1>
                     <h4 className="mt-5 text-2xl">How can we help you?</h4>
@@ -252,12 +252,12 @@ const LocationPage = () => {
                         priority
                     />
                 </div>
-                <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-16 gap-6'>
+                <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-16 gap-6 '>
                     <div className="location-group flex flex-col">
 
                         <h4 className="uppercase text-[#0092E0]">UNITED STATES</h4>
 
-                        <div className="flex flex-col gap-6">
+                        <div className="flex flex-col gap-6 ">
                             {groupByCountry('UNITED STATES').map((location, index) => (
                                 <div key={index} className="location-item flex flex-col mt-3">
                                     <div>
@@ -306,7 +306,7 @@ const LocationPage = () => {
                     </div>
 
                     {/* Singapore */}
-                    <div className="location-group flex flex-col gap-6">
+                    <div className="location-group flex flex-col gap-6 md:mt-[-20rem] xl:mt-0">
                         <div className="flex flex-wrap gap-6">
                             {groupByCountry('SINGAPORE').map((location, index) => (
                                 <div key={index} className="location-item flex flex-col">
@@ -325,7 +325,7 @@ const LocationPage = () => {
                     </div>
                 </div>
 
-                <section className="mt-32 pb-10">
+                <section className="mt-20 pb-10 ">
                     <ContactForm className='max-w-3xl' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
                 </section>
                 <div className="pb-6"></div>
