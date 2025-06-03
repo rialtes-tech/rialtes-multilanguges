@@ -119,7 +119,7 @@ const CaseStudyCard = ({ casestudy }) => (
     <div className="relative overflow-hidden">
       <Link href={casestudy.url}>
         <Image
-          className="w-full transition-transform duration-300 hover:scale-105"
+          className="w-full transition-transform duration-300 hover:scale-84"
           src={casestudy.image}
           alt={casestudy.title}
           width={0}
@@ -413,7 +413,7 @@ export default function Page() {
       <section
         className="custom-container">
 
-        <div className="xl:mt-[105px] mt-[44px] bg-white">
+        <div className="xl:mt-[84px] mt-[44px] bg-white">
           <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
         </div>
       </section>
@@ -421,14 +421,14 @@ export default function Page() {
 
       {/* Latest Studies */}
       <div
-        className="custom-container lg:pr-0 xl:mt-[105px] mt-[44px]">
+        className="custom-container lg:pr-0 xl:mt-[84px] mt-[44px]">
         <FeaturedCarousel />
 
       </div>
 
       {/* Latest Case Study Section */}
       <div
-        className="custom-container xl:mt-[105px] mt-[44px]">
+        className="custom-container xl:mt-[84px] mt-[44px]">
          <CaseStudy />
       </div>
 
