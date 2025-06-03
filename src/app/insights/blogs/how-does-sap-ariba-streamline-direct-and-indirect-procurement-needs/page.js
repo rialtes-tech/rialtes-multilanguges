@@ -15,7 +15,7 @@ const schemaData =
   },
   "headline": "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
   "description": "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
-  "image": "https://www.rialtes.com/images/blogs/sap-ariba-web-banner.webp",
+  "image": "https://www.rialtes.com/images/blog/sap-ariba-web-banner.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
@@ -210,7 +210,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold  max-w-[58rem] w-full  xl:max-w-[1084px] xl:w-[1084px] leading-tight">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 max-w-[58rem] w-full  xl:max-w-[1084px] xl:w-[1084px] leading-tight">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
           </div>
 
           <div className="">
