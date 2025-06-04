@@ -222,7 +222,7 @@ const BlogCard = ({ blog }) => (
         />
       </Link>
     </div>
-    <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+    <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
         <div className='pb-2 md:pb-4'>
           <span className='text-[#0092E0]'>{blog.category}</span>
@@ -468,9 +468,9 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div>
+      <div className="mb-[36px]">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Featured Blogs</h2>
+          <h2 className="text-black mb-[36px]">Featured Blogs</h2>
         </div>
         <Carousel
           swipeable={true}

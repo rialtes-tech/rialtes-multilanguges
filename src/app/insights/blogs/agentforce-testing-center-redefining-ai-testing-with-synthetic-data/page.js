@@ -166,7 +166,7 @@ export default function Page() {
 
               <p className="text-black pb-4">The Agentforce Testing Center is more than just a suite of testing tools—it’s a stepping stone toward a future where agentic AI can seamlessly transform business processes at scale. By redefining AI testing with synthetic data and secure sandbox environments, Salesforce is empowering enterprises to innovate faster, reduce risks, and deliver exceptional AI-driven experiences. It reaffirms its commitment to helping enterprises navigate the complexities of AI adoption.</p>
 
-              <p className="text-black pb-4">Interested in learning  <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-bold">more about Agentforce </span></Link>  or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes.</p>
+              <p className="text-black pb-4">Interested in learning  <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-normal">more about Agentforce </span></Link>  or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes.</p>
 
             </div>
           </div>
