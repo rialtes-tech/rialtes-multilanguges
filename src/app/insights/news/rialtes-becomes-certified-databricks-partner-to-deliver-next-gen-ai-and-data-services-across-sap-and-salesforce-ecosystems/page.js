@@ -1,13 +1,49 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+
+const schemaData={
+    
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
+  },
+  "headline": "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
+  "description": "Rialtes achieves Databricks partner certification, enabling advanced AI and data-driven solutions across Salesforce and SAP platforms.",
+  "image": "https://www.rialtes.com/images/news/databricks-partner-banner.webp",
+  "datePublished": "2025-04-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "News",
+  "keywords": "Databricks partner, Databricks certified partner, Salesforce AI integration partner, SAP data services, Rialtes news"
+
+
+}
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="News Becomes"
+                title="Rialtes Now a Certified Databricks Partner"
+                description="As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems."
                 canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
             />
+              <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
             <section
                 className="custom-container"
             >

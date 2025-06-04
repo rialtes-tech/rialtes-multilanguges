@@ -7,6 +7,27 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/"
+  },
+  "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
+  "headline": "Insights That Drive Innovation – Salesforce & SAP Blogs",
+  "description": "Stay updated with expert blogs from Rialtes on Salesforce, SAP, Yardi, MuleSoft, and more. Learn how technology trends are shaping industries and driving business success.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
+
+}
 
 const latestBlogs = [
     {
@@ -532,8 +553,13 @@ export default function Page() {
     <div className="min-h-screen bg-white text-black">
 
       <Seo
-        title="Blog"
+        title="Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights"
+        description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
         canonical="https://www.rialtes.com/insights/blogs/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
