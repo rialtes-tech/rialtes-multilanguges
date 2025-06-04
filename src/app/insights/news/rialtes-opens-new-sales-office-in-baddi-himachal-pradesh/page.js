@@ -1,14 +1,48 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+const schemaData={
+    
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
+  },
+  "headline": "Rialtes Opens New Sales Office in Baddi, Himachal Pradesh",
+  "description": "Rialtes expands its regional presence with a new sales office in Baddi, Himachal Pradesh, supporting digital transformation needs in North India.",
+  "image": "https://www.rialtes.com/images/news/baddi-office-banner.webp",
+  "datePublished": "2025-04-04",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "News"
+
+
+}
+
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
 
             <Seo
-                title="New Office"
+                title="Rialtes Opens Sales Office in Baddi, HP"
+                description="Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry."
                 canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
             />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section
                 className="custom-container "
