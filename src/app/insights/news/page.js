@@ -6,6 +6,28 @@ import Link from "next/link";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import { HeroSection } from "@/app/components/herosection";
+
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/news/"
+  },
+  "name": "Rialtes News | Product Launches, Events & Media Mentions",
+  "headline": "Rialtes in the News – Announcements & Industry Coverage",
+  "description": "Stay up to date with the latest news from Rialtes. Discover product launches, partnership announcements, media coverage, and event highlights.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
+
+}
 const latestCaseStudy = [
   {
     id: 1,
@@ -146,8 +168,13 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="News"
+        title="Rialtes News | PR Highlights and Industry Collaborations"
+        description="From headline PR to powerful partnerships—explore how Rialtes leads industry change with innovation, tech moves, and smart collaborations."
         canonical="https://www.rialtes.com/insights/news/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <HeroSection title="News" subtitle="" mobimg="/images/news/news header.webp" deskimg="/images/news/news header.webp" extraImg="" txtColor={"black"} />

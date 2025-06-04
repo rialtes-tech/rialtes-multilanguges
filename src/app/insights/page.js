@@ -8,6 +8,46 @@ import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import { HeroSection } from "../components/herosection";
+
+const schemaData={
+
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/"
+  },
+  "name": "Rialtes Insights | Salesforce, SAP, and Technology Trends",
+  "headline": "Explore Insights That Power Digital Transformation",
+  "description": "Discover Rialtes Insights: A knowledge hub featuring thought leadership blogs, real-world case studies, and expert-led webinars focused on Salesforce, SAP, and enterprise tech innovation.",
+  "hasPart": [
+    {
+      "@type": "CollectionPage",
+      "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
+      "url": "https://www.rialtes.com/insights/blogs/"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
+      "url": "https://www.rialtes.com/insights/case-studies/"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Rialtes Webinars | Learn from Salesforce & SAP Experts",
+      "url": "https://www.rialtes.com/insights/webinars/"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
+
+}
+
 export default function InsightsPage() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
@@ -40,10 +80,15 @@ export default function InsightsPage() {
   return (
     <div className="min-h-scree">
       <Seo
-        title="Insights | Blogs, Case Studies and Events"
-        description="Explore our latest insights, blogs, case studies and upcoming events"
+        title="Rialtes Insights Hub | Salesforce and SAP | Rialtes"
+        description="Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation."
         canonical="https://www.rialtes.com/insights/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
       {/* Hero Section with Deep Blue Gradient Background */}
       <HeroSection title="Insights" subtitle="" mobimg="/images/insights/insight-header-banner.webp" deskimg="/images/insights/insight-header-banner.webp" extraImg=""  txtColor={"black"}/>

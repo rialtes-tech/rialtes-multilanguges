@@ -6,7 +6,33 @@ import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/industry/hitech-semiconductor/"
+  },
+  "name": "Rialtes | Driving Digital Innovation for Hi-Tech & Semiconductor Companies",
+  "headline": "Next-Gen IT Solutions for Hi-Tech & Semiconductor Industry",
+  "description": "Explore how Rialtes enables semiconductor and hi-tech firms to scale operations, streamline supply chains, and innovate faster using Salesforce, SAP, and cloud-native solutions.",
+  "about": {
+    "@type": "Thing",
+    "name": "Hi-Tech and Semiconductor Industry"
+  },
+  "keywords": "Salesforce for semiconductors, SAP solution for hi-tech industry, digital transformation in hi-tech, IT solutions for chip manufacturing, Rialtes consulting",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
 
+}
 
 
 const latestServices = [
@@ -134,8 +160,13 @@ export default function Page() {
     <div className="min-h-screen bg-white">
 
       <Seo
-        title="Hi-Tech"
+        title="IT and Software Solutions for Hi-Tech Semiconductors Industry | Rialtes"
+        description="Struggling with complex supply chains or legacy systems? IT and software solutions for hi-tech semiconductors from Rialtes deliver agility and precision."
         canonical="https://www.rialtes.com/industry/hitech-semiconductor/"
+      />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <HeroSection title="Accelerate innovation and meet the rapid demand of digital enterprises" subtitle="HI-TECH" deskimg="/images/industry/hi-tech/hi-tech-banner.webp" mobimg="/images/industry/hi-tech/hitech-mob-banner.webp" />

@@ -1,6 +1,36 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+
+const schemaData={
+    
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner"
+  },
+  "headline": "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
+  "description": "Rialtes earns the prestigious Salesforce Reseller Partner status, expanding its capacity to deliver end-to-end Salesforce solutions globally.",
+  "image": "https://www.rialtes.com/images/news/salesforce-reseller-partner-banner.webp",
+  "datePublished": "2025-05-12",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "News",
+  "keywords": "Salesforce reseller, Rialtes Salesforce partnership, official Salesforce partner, Rialtes news"
+
+}
+
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner";
     const titleFromUrl = fullUrl
@@ -16,6 +46,11 @@ export default function Page() {
                 canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
                 description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
             />
+              <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
             <section className="custom-container ">
 
                 <section className="relative overflow-hidden  lg:!pr-0">

@@ -7,16 +7,25 @@ import Link from "next/link";
 import Seo from "@/app/components/Seo";
 
 const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Rialtes Webinars",
-  "url": "https://www.rialtes.com/insights/webinars/",
-  "description": "Discover Webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/webinars/"
+  },
+  "name": "Rialtes Webinars | Learn from Industry Experts",
+  "headline": "Expert Webinars on Salesforce, SAP & Digital Innovation",
+  "description": "Discover Rialtes' on-demand and upcoming webinars covering Salesforce, SAP, MuleSoft, Yardi, and more. Gain practical insights from real-world implementations and expert discussions.",
   "publisher": {
     "@type": "Organization",
     "name": "Rialtes",
-    "url": "https://www.rialtes.com"
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
   }
+
 }
 
 const webinars = [
@@ -258,7 +267,8 @@ export default function About() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Webinar"
+        title="SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes" 
+        description="Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy."
         canonical="https://www.rialtes.com/insights/webinars/"
       />
       <script
