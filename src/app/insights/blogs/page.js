@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
-
+import { HeroSection } from "@/app/components/herosection";
 
 const latestBlogs = [
     {
@@ -279,14 +279,14 @@ const BlogList = () => {
   const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
   return (
-    <div className="container mx-auto xl:pr-[150px]">
+    <div className=" ">
       <div className="flex md:flex-row flex-col pb-4">
         <div className="flex flex-col md:pb-0 pb-4">
           <h2 className="text-black">Latest Blogs</h2>
         </div>
-        <div className="relative flex md:flex-row md:ml-auto h-[60px]">
+        <div className="relative flex flex-row max-[320px]:flex-col md:ml-auto h-[60px] mt-4 max-[320px]:mb-12 max-[320px]:gap-2">
           <div className="relative">
-            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-4 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
               <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -496,8 +496,8 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group">
-              <div className="basis-full">
+            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
+              <div className="basis-full h-full ">
                 <Link href={'/insights/blogs' + slide.url}>
                   <Image
                     src={slide.image}
@@ -507,10 +507,11 @@ const FeaturedCarousel = () => {
                     sizes="100vw"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     priority
+                    className="object-cover w-full h-full"
                   />
                 </Link>
               </div>
-              <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+              <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
                 <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
                   <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                 </div>
@@ -535,7 +536,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/"
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/blog-header.webp"
           alt="Blogs"
@@ -545,12 +546,8 @@ export default function Page() {
         />
         <div
           className="
-          container h-full relative
-          ml-[15px] w-[calc(100%-15px)] mr-0
-          xl:ml-[280px] xl:w-[calc(100%-280px)]
-          md:ml-[100px] md:w-[calc(100%-100px)]
-          sm:mx-5 sm:w-[calc(100%-40px)]
-          xs:mx-4 xs:w-[calc(100%-32px)]"
+          custom-container h-full relative
+         "
         >
           <div className="container mx-auto h-full flex flex-col justify-center">
             <div className="flex flex-col">
@@ -561,21 +558,16 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-
+<HeroSection title="Your Guide to Intelligent Enterprise Transformation" subtitle="Blogs" mobimg="/images/blog/blog-header-mobile.webp" deskimg="/images/blog/blog-header-web.webp" extraImg="" />
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+      custom-container "
       >
 
         <div className="md:py-10 py-6 bg-white">
-          <div className="container mx-auto">
+          <div className="">
             <p className="text-[#000000] py-6 sm:max-w-2xl">Stay ahead in the digital transformation journey with expert insights from Rialtes. Our blog covers the latest trends, best practices, and innovations in SAP, Salesforce, AI, and enterprise technology.</p>
           </div>
         </div>
@@ -584,12 +576,7 @@ export default function Page() {
 
       {/* Featured Section */}
       <div
-        className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container lg:pr-0"
       >
         <FeaturedCarousel />
 
@@ -598,12 +585,7 @@ export default function Page() {
       {/* Latest Blogs Section */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+       custom-container"
       >
         <section className="py-16 bg-white">
 
