@@ -229,7 +229,7 @@ export default function BlogsCarousel() {
                 </Link>
                 <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+              <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
                   <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>

@@ -2,7 +2,32 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData =
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/"
+  },
+  "headline": "Case Study: Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+  "description": "Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations.",
+  "image": "https://www.rialtes.com/images/case-studies/revolutionizing-dealer-management-for-a-eading-automotive-anufacturer-with-autosense-case-study-banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "articleSection": "Case Studies",
+  "datePublished": "2025-06-03"
+}
 const slides = [
   {
     id: 3,
@@ -58,15 +83,20 @@ const slides = [
 ];
 
 export default function Page() {
-  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense";
+  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense";
   const title = "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense";
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
-        canonical="https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/"
+        title="Revolutionizing Automotive Dealer Management with AutoSense | Rialtes"
+        description="Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations."
+        canonical="https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/"
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/case-studies/revolutionizing-dealer-management-for-a-eading-automotive-anufacturer-with-autosense-case-study-banner.webp"
@@ -94,7 +124,7 @@ export default function Page() {
               <div className="flex flex-col items-center">
                 <span>8 min read</span>
               </div>
-               <div className="max-w-[40px]">
+              <div className="max-w-[40px]">
                 <a
                   href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl2)}&title=${encodeURIComponent(title)}&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                   target="_blank"
@@ -114,7 +144,7 @@ export default function Page() {
             </div>
             <div className="pt-4"></div>
             <div className="flex flex-row gap-6">
-             
+
               {/* <div className="max-w-[40px]">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-1">
                   <Image
@@ -168,7 +198,7 @@ export default function Page() {
             <div className="max-w-4xl">
               <h3 className="h3-bold text-[#0092E0] pb-6">The AutoSense Solution by Rialtes</h3>
               <p className="pb-10">To address these challenges, Rialtes, a global leader in AI-powered digital transformation, partnered with the automotive manufacturer to deliver AutoSense, a next-generation dealer management platform built on the robust Salesforce Experience Cloud. Rialtes took  a customer-centric approach, running design workshops, creating a detailed agile development plan, and delivering an innovative solution through sprint-based development.</p>
-             <h3 className="h3-bold">Strategic Approach:</h3>
+              <h3 className="h3-bold">Strategic Approach:</h3>
               <ul className="list-decimal marker:text-[#000] text-black pl-4 mt-5 xl:text-[20px] text-[16px]">
                 <li className="pb-4"><strong>Collaborative Design Workshops: </strong> Rialtes initiated the project with a series of <strong>design workshops</strong> , engaging key stakeholders across sales, IT, and dealer management teams. This ensured a deep understanding of pain points and business needs, aligning the solution with the manufacturer’s strategic goals.</li>
                 <li className="pb-4"><strong>Agile Development:  </strong> Rialtes employed an <strong>agile development methodology</strong> , delivering incremental value through well-defined sprints. Each sprint focused on key features, incorporating client feedback and allowing for rapid iterations to meet evolving requirements.</li>
@@ -178,7 +208,7 @@ export default function Page() {
               </ul>
             </div>
           </div>
-           <div>
+          <div>
             <div className="max-w-4xl mt-10">
               <h3 className="h3-bold  ">AutoSense Features: Transforming Dealer Operations</h3>
               <ul className="list-decimal marker:text-[#000] text-black pl-4 mt-5 xl:text-[20px] text-[16px]">
@@ -206,7 +236,7 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-            <div>
+          <div>
             <div className="max-w-4xl">
               <h3 className="h3-bold  pb-6 text-[#0092E0]">Key Deliverables from Rialtes Under AutoSense:</h3>
               <ul className="list-decimal marker:text-[#000] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
@@ -221,11 +251,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-            <div>
+          <div>
             <div className="max-w-4xl">
               <h3 className="h3-bold  pb-6 text-[#0092E0]">Conclusion:</h3>
               <p>By leveraging <strong>AutoSense</strong>, Rialtes successfully transformed the automotive manufacturer’s outdated legacy dealer portal into a modern, scalable, and efficient solution that empowered their dealers and streamlined internal operations. With Salesforce Experience Cloud and SAP S/4 HANA integrations, AutoSense delivered a superior dealer management experience, providing real-time data, operational efficiencies, and a seamless user interface. This transformation not only enhanced the client’s dealer engagement but also positioned them for continued growth in an increasingly competitive automotive market.</p>
-            <p className="mt-5"> <strong>AutoSense</strong> by Rialtes is not just a solution—it's a <strong>game-changer</strong>  for the automotive industry, unlocking new opportunities for growth and success.</p>
+              <p className="mt-5"> <strong>AutoSense</strong> by Rialtes is not just a solution—it's a <strong>game-changer</strong>  for the automotive industry, unlocking new opportunities for growth and success.</p>
             </div>
           </div>
         </div>
