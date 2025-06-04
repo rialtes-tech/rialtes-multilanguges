@@ -130,7 +130,7 @@ const CaseStudyCard = ({ casestudy }) => (
         />
       </Link>
     </div>
-    <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+    <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
         <div className='pb-2 md:pb-4'>
           <span className='text-[#0092E0]'>{casestudy.industry}</span>
@@ -214,7 +214,6 @@ const CaseStudy = () => {
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi tech')}>Hi tech</li>
-                  {/* <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Finance')}>Finance</li> */}
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Public Sector')}>Public Sector</li>
                 </ul>
               </div>
@@ -429,7 +428,7 @@ export default function Page() {
       {/* Latest Case Study Section */}
       <div
         className="custom-container xl:mt-[84px] mt-[44px]">
-         <CaseStudy />
+        <CaseStudy />
       </div>
 
       {/* Latest Blogs */}
