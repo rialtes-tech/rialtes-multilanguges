@@ -191,7 +191,6 @@ export default function Page() {
             <div
                 className="pb-20 custom-container lg:pr-0" >
                 <RelatedTopicsCarousel slides={slides} />
-
             </div>
         </div>
     );
