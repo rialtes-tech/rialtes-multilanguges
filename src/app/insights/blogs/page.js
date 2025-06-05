@@ -49,6 +49,8 @@ const latestBlogs = [
     url:'/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs',
     title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
     description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
+
+
   },
   {
     id: 19,
@@ -184,7 +186,7 @@ const latestBlogs = [
   },
   {
     id: 11,
-    image: "/images/blog/blog-11.webp",
+    image: "/images/blog/agents-as-teammates-carousel-img.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "30 Dec 2024",
@@ -567,6 +569,10 @@ export default function Page() {
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
         </div>
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
         {/* Mobile Image */}
         <div className="block md:hidden">
