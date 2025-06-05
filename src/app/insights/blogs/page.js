@@ -186,7 +186,7 @@ const latestBlogs = [
   },
   {
     id: 11,
-    image: "/images/blog/blog-11.webp",
+    image: "/images/blog/agents-as-teammates-carousel-img.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "30 Dec 2024",

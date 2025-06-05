@@ -357,10 +357,9 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-       custom-container xl:!pr-0"
+       custom-container xl:pr-0 pb-20"
       >
         <BlogsCarousel slides={blogs} />
-
       </div>
     </div>
   );

@@ -7,8 +7,6 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
 
-
-
 const blogs = [
   {
     id: 1,
@@ -148,29 +146,39 @@ export default function Page() {
         description="Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork."
         canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
       />
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/blog-11-banner.webp "
-          alt="Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce"
-          fill
-          style={{ objectFit: "cover", objectPosition: "90% 20%" }}
-          priority
-        />
+
+      {/* hero section */}
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/agents-as-teammates-mob-img.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 30%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/agents-as-teammates-desk-img.webp"
+            alt="mobile banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "60% 20%" }}
+            priority
+          />
+        </div>
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+        className="custom-container" >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div>
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>30 Dec 2024
               </div>
@@ -189,63 +197,35 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce</h1>
+          <div>
+            <h1 className="text-[#000000] font-semibold pb-6 ">Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce</h1>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div>
+            <div>
 
               <p className="text-black">Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf. With their advanced reasoning skills, Agentforce can make decisions and execute tasks such as handling customer cases, assessing sales leads, and enhancing marketing campaigns. It transforms IT support in the workplace by integrating intelligent agents like Remy directly into Slack. This streamlines issue resolution, turning IT help desks into proactive resources that enhance employee productivity through fast, personalized support.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Features of Agentforce for Better Slack Experience</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Features of Agentforce for Better Slack Experience</h2>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-
-                <li><span className="font-bold">Task Automation:</span> Agents can automate repetitive processes, like creating follow-up tasks after meetings or logging updates in Salesforce.</li>
-                <li><span className="font-bold">Data Retrieval:</span> Need to know the latest sales figures or account status? Simply ask the agent, and it’ll pull real-time data from Salesforce or other connected platforms.</li>
-                <li><span className="font-bold">Workflow Orchestration:</span> Agents can manage complex workflows, ensuring the right people are notified and the correct steps are executed at the right time.</li>
-                <li><span className="font-bold">Insights and Recommendations:</span> Agents analyze data trends and suggest actionable insights, helping teams make informed decisions faster.</li>
-                <li><span className="font-bold">Natural Language Interaction:</span> Communicate with agents just as you would with a human teammate, using natural language commands within Slack.</li>
-
+                <p> <li><h4 className="font-bold inline">Task Automation:</h4> Agents can automate repetitive processes, like creating follow-up tasks after meetings or logging updates in Salesforce.</li></p>
+                <p> <li><h4 className="font-bold inline">Data Retrieval:</h4> Need to know the latest sales figures or account status? Simply ask the agent, and it’ll pull real-time data from Salesforce or other connected platforms.</li></p>
+                <p> <li><h4 className="font-bold inline">Workflow Orchestration:</h4> Agents can manage complex workflows, ensuring the right people are notified and the correct steps are executed at the right time.</li></p>
+                <p> <li><h4 className="font-bold inline">Insights and Recommendations:</h4> Agents analyze data trends and suggest actionable insights, helping teams make informed decisions faster.</li></p>
+                <p> <li><h4 className="font-bold inline">Natural Language Interaction:</h4> Communicate with agents just as you would with a human teammate, using natural language commands within Slack.</li></p>
               </ul>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">The Role of Agentforce in Slack</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">The Role of Agentforce in Slack</h2>
 
               <p className="text-black pb-4">Harnessing the power of relevant Slack conversations and your trusted enterprise data, Agentforce provides actionable suggestions and executes tasks seamlessly within your workflow. It enhances team collaboration by embedding smart agents directly into Slack and Transform agents into teammates. These agents are more than just bots – they act as proactive teammates that can automate repetitive tasks, provide instant access to critical data, streamline workflows and enhance decision-making through intelligent insights.</p>
 
@@ -254,21 +234,21 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">What Agentforce 2.0 Brings to Slack?</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">What Agentforce 2.0 Brings to Slack?</h2>
 
               <p className="text-black pb-4">The newly unveiled Salesforce Agentforce 2.0, built on the Salesforce Customer 360 platform, introduces a suite of powerful features to streamline workflows and boost service efficiency for organizations.</p>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Real-Time Conversational Support:</span> AI agents deliver instant responses, enhancing the speed and effectiveness of customer support.</li>
-                <li><span className="font-bold">Intelligent Case Routing:</span> Machine learning ensures queries are directed to the most suitable resolution channel.</li>
-                <li><span className="font-bold">Workflow Automation:</span> Automates routine tasks, freeing up human employees for more complex responsibilities.</li>
-                <li><span className="font-bold">Predictive Analytics and Machine Learning:</span> Anticipates needs to elevate customer satisfaction and ensure smooth operations.</li>
-                <li><span className="font-bold">Atlas Reasoning Engine:</span> Empowers AI agents with advanced reasoning skills, enabling them to handle complex tasks with greater autonomy and precision.</li>
+                <p> <li><h4 className="font-bold inline">Real-Time Conversational Support:</h4> AI agents deliver instant responses, enhancing the speed and effectiveness of customer support.</li></p>
+                <p> <li><h4 className="font-bold inline">Intelligent Case Routing:</h4> Machine learning ensures queries are directed to the most suitable resolution channel.</li></p>
+                <p> <li><h4 className="font-bold inline">Workflow Automation:</h4> Automates routine tasks, freeing up human employees for more complex responsibilities.</li></p>
+                <p> <li><h4 className="font-bold inline">Predictive Analytics and Machine Learning:</h4> Anticipates needs to elevate customer satisfaction and ensure smooth operations.</li></p>
+                <p> <li><h4 className="font-bold inline">Atlas Reasoning Engine:</h4> Empowers AI agents with advanced reasoning skills, enabling them to handle complex tasks with greater autonomy and precision.</li></p>
               </ul>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Integrate Agents into Slack to Transform them into Teammates</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Integrate Agents into Slack to Transform them into Teammates</h2>
 
               <p className="text-black pb-4">No need to log into a separate AI application—Slack seamlessly integrates agents into your team’s existing workflows, allowing users to interact with them just like they would with any other colleague. With over 2,600 enterprise applications available in the Slack Marketplace, it’s the go-to platform for deploying employee-facing enterprise apps, used by 94% of all enterprise companies.</p>
 
@@ -278,31 +258,31 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Bring Agentforce to Slack to Streamline Support Across Business Functions</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Bring Agentforce to Slack to Streamline Support Across Business Functions</h2>
 
-              <p className="text-black pb-4"><span className="font-bold">HR Agent:</span> Enhance onboarding, benefits management, and personalized career guidance by automating these tasks.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">HR Agent:</h4> Enhance onboarding, benefits management, and personalized career guidance by automating these tasks.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">IT Agent:</span> Resolve help desk tickets, run incident communications, and address issues in real time.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">IT Agent:</h4> Resolve help desk tickets, run incident communications, and address issues in real time.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">Service Agent:</span> Identify experts, access historical knowledge, and collaborate to resolve customer issues efficiently.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">Service Agent:</h4> Identify experts, access historical knowledge, and collaborate to resolve customer issues efficiently.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">Sales Agent:</span> Prepare executive briefings, craft proposals, and proactively engage with customers to drive growth.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">Sales Agent:</h4> Prepare executive briefings, craft proposals, and proactively engage with customers to drive growth.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">Marketing Agent:</span> Optimize campaigns, generate content, and collaborate on strategic marketing plans.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">Marketing Agent:</h4> Optimize campaigns, generate content, and collaborate on strategic marketing plans.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">Legal Agent:</span> Simplify regulatory and compliance processes with automation for seamless approvals.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">Legal Agent:</h4> Simplify regulatory and compliance processes with automation for seamless approvals.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">Product and Engineering Agent:</span> Boost agility by assisting in planning, design, development, and quality assurance.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">Product and Engineering Agent:</h4> Boost agility by assisting in planning, design, development, and quality assurance.</p>
 
-              <p className="text-black pb-4"><span className="font-bold">Supply Chain Management Agent:</span> Manage suppliers, automate warehouse operations, and improve demand forecasting.</p>
+              <p className="text-black pb-4"><h4 className="font-bold inline">Supply Chain Management Agent:</h4> Manage suppliers, automate warehouse operations, and improve demand forecasting.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Collaborate your Humans and Agents Seamlessly</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Collaborate your Humans and Agents Seamlessly</h2>
 
               <p className="text-black pb-4">The future of digital labor shines bright with Salesforce’s unwavering commitment to AI. CEO Marc Benioff has unveiled ambitious expansion plans, including the hiring of 2,000 new sales representatives and a bold goal of deploying over a billion AI agents within the next year. This vision highlights the transformative power of advanced AI in workplace platforms like Slack. Agentforce exemplifies how intelligent agents can revolutionize IT support by transforming Slack into a dynamic, collaborative workspace. However, the success of these agents relies heavily on the robust infrastructure that supports them.</p>
 
-              <p className="text-black pb-4">We help you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce-related tasks with the Agentforce platform. With Rialtes, enterprises can ensure their Agentforce deployments are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-bold">sales@rialtes.com</span></Link></p>
+              <p className="text-black pb-4">We help you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce-related tasks with the Agentforce platform. With Rialtes, enterprises can ensure their Agentforce deployments are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-normal">sales@rialtes.com</span></Link></p>
             </div>
           </div>
         </div>
@@ -310,17 +290,8 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        pb-10"
-      >
+        className="custom-container lg:pr-0 pb-10">
         <BlogsCarousel slides={blogs} />
-
       </div>
     </div>
   );
