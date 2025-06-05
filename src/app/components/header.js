@@ -222,7 +222,9 @@ const Header = () => {
         {
           label: 'Automotive', href: '/industry/automotive-industry-cloud-solutions',
         },
-
+        {
+          label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
+        },
       ],
     },
     {
@@ -1153,7 +1155,12 @@ const Header = () => {
                   >
                     Automotive
                   </div>
-
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("travelHospitality")}
+                  >
+                    Travel and Hospitality
+                  </div>
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1280,6 +1287,20 @@ const Header = () => {
                         <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/automotive-industry-cloud-solutions' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry-cloud-solutions")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {openSection === "travelHospitality" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Travel Transportation and Hospitality</div>
+                        {/* <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p> */}
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/travel-hospitality-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>
