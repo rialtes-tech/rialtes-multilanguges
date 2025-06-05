@@ -211,8 +211,46 @@ export default function Page() {
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
                 />
                 {/* herosection */}
-                <HeroSection title="Powering the Next-Gen Travel, Transportation & Hospitality Experience" subtitle="Travel Transportation and Hospitality Industry" deskimg="/images/industry/travel-transporation/hero-section-desktop-banner.webp" mobimg="/images/industry/travel-transporation/Mobile/hero-section-mob-banner.webp" txtColor="#000000" mobStyle={{ objectFit: "cover", objectPosition: "5% 20%" }} desktopStyle={{ objectFit: "cover", objectPosition: "55% 20%" }} />
+                <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+                    {/* Desktop Image */}
+                    <div className="hidden md:block">
+                        <Image
+                            src="/images/industry/travel-transporation/hero-section-desktop-banner.webp"
+                            alt="desktop banner"
+                            fill
+                            style={{ objectFit: "cover", objectPosition: "55% 20%" }}
+                            priority
+                            className="transform transition-transform duration-500 group-hover:scale-110"
+                        />
 
+                    </div>
+
+                    {/* Mobile Image */}
+                    <div className="block md:hidden">
+                        <Image
+                            src="/images/industry/travel-transporation/Mobile/hero-section-mob-banner.webp"
+                            alt="mobile banner"
+                            fill
+                            style={{ objectFit: "cover", objectPosition: "5% 20%" }}
+                            priority
+                        />
+                    </div>
+
+                    <div className="relative h-full custom-container flex items-center">
+                        <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+                            <div className="col-span-12">
+                                <h3 className="text-[#000000] text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
+                                    Travel Transportation and Hospitality Industry
+                                </h3>
+                                <h1 className="text-[#00000] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[55%]">
+                                    Powering the Next-Gen <br className="hidden md:block"/> Travel, Transportation & <br className="hidden md:block"/> Hospitality Experience
+                                </h1>
+                            </div>
+                            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 {/* page description section */}
                 <section className="custom-container xl:mt-[135px] mt-[42px]">
                     <div className="grid grid-cols-1 xl:grid-cols-12 w-full xl:gap-[47px] gap-y-[32px] md:w-[80%] xl:w-full">
@@ -273,7 +311,7 @@ export default function Page() {
                                 </div>
 
                                 {/* Mobile Image */}
-                                <div className="block md:hidden relative w-full h-[400px] md:h-[700px]">
+                                <div className="block md:hidden relative w-full h-[400px] sm:h-[600px] md:h-[700px]">
                                     <Image
                                         src="/images/industry/travel-transporation/Mobile/end-to-end-mob-img.webp"
                                         alt="mobile image"
@@ -306,9 +344,9 @@ export default function Page() {
                             <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[77px]" style={{
                                 background: "#073259",
                             }}>
-                                <h2 className="text-[26px] xl:text-[60px] leading-tight">
+                                <h3 className="text-[26px] xl:text-[60px] leading-tight">
                                     Industry-Focused Accelerators
-                                </h2>
+                                </h3>
                                 <p className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
                                     Launch Fast and Stay Ahead
                                 </p>
@@ -438,7 +476,7 @@ export default function Page() {
                             </div>
 
                             {/* Mobile Image */}
-                            <div className="block lg:hidden  w-full h-[500px] md:h-[750px] relative">
+                            <div className="block lg:hidden  w-full h-[500px] sm:h-[700px] md:h-[750px] relative">
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/elavate-travel-mob-img.webp"
                                     alt="mobile image"
@@ -904,9 +942,9 @@ export default function Page() {
 
                 {/* smarter service section */}
                 <section className="md:pt-[98px] md:mt-0 mt-[67px] custom-container max-md:px-0 bg-[#F5F5F5]">
-                    <h2 className="xl:text-[60px] text-[26px] md:block hidden leading-tight">
+                    <h3 className="xl:text-[60px] text-[26px] md:block hidden leading-tight">
                         Smarter Service & Support
-                    </h2>
+                    </h3>
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-[20px] xl:mt-[48px] xl:gap-[40px] 2xl:gap-[80px] md:gap-[60px] gap-y-[44px]">
                         <div className="md:order-1 order-2 max-md:px-[36px] 2xl:col-span-5 lg:col-span-7 md:col-span-6 col-span-12 md:pt-[20px] xl:pt-0">
                             <h2 className="xl:text-[60px] text-[26px] md:hidden leading-tight">
