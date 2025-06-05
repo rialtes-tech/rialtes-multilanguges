@@ -5,7 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+  },
+  "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
+  "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
+  "image": "https://www.rialtes.com/images/blog/successfactors-diversity-inclusion.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-12",
+  "articleSection": "SAP HXM",
+  "url": "https://www.rialtes.com/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+}
 const blogs = [
   {
     id: 1,
@@ -147,10 +173,14 @@ export default function Page() {
         description="Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes."
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
       />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-9-banner.webp "
+          src="/images/blog/successfactors-diversity-inclusion.webp "
           alt="How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}

@@ -5,6 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+  },
+  "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+  "description": "Understand the distinctions between AI Agents, Copilots, and Bots, and how each plays a role in enhancing automation and productivity in business systems.",
+  "image": "https://www.rialtes.com/images/blog/agents-vs-copilots-vs-bots.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-10-28",
+  "articleSection": "AI Automation",
+  "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+}
 
 const blogs = [
   {
@@ -146,9 +173,14 @@ export default function Page() {
         keywords="Partners, website, welcome"
         canonical={"https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"}
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-3-banner.webp "
+          src="/images/blog/agents-vs-copilots-vs-bots.webp "
           alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}

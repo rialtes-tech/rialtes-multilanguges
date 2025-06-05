@@ -6,7 +6,34 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+  },
+  "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+  "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
+  "image": "https://www.rialtes.com/images/blog/agentforce-testing-center.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-25",
+  "articleSection": "AI Testing",
+  "url": "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
 
+}
 const blogs = [
   {
     id: 1,
@@ -74,7 +101,12 @@ export default function Page() {
         description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
         canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
       />
-      <HeroSection mobimg="/images/blog/blog-4-mob-banner.webp" deskimg="/images/blog/blog-4-banner.webp" />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
+      <HeroSection mobimg="/images/blog/blog-4-mob-banner.webp" deskimg="/images/blog/agentforce-testing-center.webp" />
 
       <section
         className="custom-container">
