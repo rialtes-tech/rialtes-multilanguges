@@ -138,6 +138,8 @@ const blogs = [
 ];
 
 export default function Page() {
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives";
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -157,17 +159,11 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto">
+          <div>
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Diversity & Inclusion</span> <span className='text-[#ACACAC]'> | </span>12 Nov 2024
@@ -175,8 +171,12 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives&summary=Summary%20of%20the%20blog&source=LinkedIn">
-                      <Image
+
+ <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                            <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}
@@ -187,7 +187,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
+                  {/* <div className="max-w-[40px]">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
@@ -212,17 +212,17 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives</h1>
+          <div>
+            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2 leading-tight">How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives</h1>
           </div>
 
-          <div className="container mx-auto">
+          <div>
             <div className="max-w-4xl md:w-4/2">
 
               <p className="text-black pb-4">Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success. Leading companies understand that fostering a diverse and inclusive environment allows employees to bring their authentic selves to work, which enhances creativity, productivity, and ultimately, business growth. In today’s tech-driven world, DEI initiatives require not only commitment but also the right tools.</p>
@@ -294,13 +294,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        className="custom-container xl:pr-0
         pb-10"
       >
         <BlogsCarousel slides={blogs} />
