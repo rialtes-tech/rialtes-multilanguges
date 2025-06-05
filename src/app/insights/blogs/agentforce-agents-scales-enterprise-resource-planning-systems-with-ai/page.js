@@ -157,17 +157,12 @@ export default function Page() {
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+     custom-container"
       >
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center   max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>13 Jan 2025
               </div>
@@ -186,120 +181,95 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agentforce Agents Scales Enterprise Resource Planning Systems with AI">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+              
                 </div>
               </div>
             </div>
           </div>
-          <div className="py-6"></div>
+          <div className="pt-6"></div>
           <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agentforce Agents Scales Enterprise Resource Planning Systems with AI</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">Agentforce Agents Scales Enterprise Resource Planning Systems with AI</h1>
           </div>
 
           <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+            <div className=" max-[1084px] xl:w-[1084px]">
 
               <p className="text-black">Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments. It can result in inefficiencies, delayed decisions, and missed opportunities. Agentforce, powered by Salesforce’s advanced AI capabilities, is designed to address these challenges head-on. By integrating with ERP systems through Salesforce’s Data Cloud, Agentforce unifies data from internal and external sources, including ERP and Supply Chain Management (SCM) systems. This unified approach enables businesses to make informed, data-driven decisions while fostering operational agility.</p>
 
-              <div className="py-6"></div>
+              <div className="py-4"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Agentforce Integrates with ERP and SCM Systems</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[35px] text-[25px] pb-4">Agentforce Integrates with ERP and SCM Systems</h2>
 
-              <p className="text-black pb-4">Agentforce integrates with ERP systems via Salesforce’s Data Cloud, unifying data from various sources, including ERP and Supply Chain Management systems. Tools like MuleSoft’s pre-built connectors for SAP, Oracle, and Microsoft Dynamics enable real-time data synchronization. This allows AI-powered agents to access current information on inventory, orders, and finances, streamlining workflows and minimizing manual data entry. By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making. In agriculture, it predicts demand and optimizes supply chains by examining crop yields and weather patterns. Additionally, in logistics, AI agents can handle higher order volumes during peak seasons, efficiently managing shipment data without overwhelming the workforce.</p>
+              <p className="text-black">Agentforce integrates with ERP systems via Salesforce’s Data Cloud, unifying data from various sources, including ERP and Supply Chain Management systems. Tools like MuleSoft’s pre-built connectors for SAP, Oracle, and Microsoft Dynamics enable real-time data synchronization. This allows AI-powered agents to access current information on inventory, orders, and finances, streamlining workflows and minimizing manual data entry. By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making. In agriculture, it predicts demand and optimizes supply chains by examining crop yields and weather patterns. Additionally, in logistics, AI agents can handle higher order volumes during peak seasons, efficiently managing shipment data without overwhelming the workforce.</p>
 
-              <div className="py-6"></div>
+              <div className="py-4"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">How does Agentforce do that?</h3>
+              <h3 className="h3-bold  pb-4">How does Agentforce do that?</h3>
 
               <p className="text-black pb-4">It uses integrated data to improve customer interactions and operational efficiency. When an AI agent needs customer order information, Salesforce, via MuleSoft, provides real-time access to ERP data, enabling quick and accurate responses. The Atlas Reasoning Engine analyzes this data autonomously for reliable results.</p>
 
-              <p className="text-black pb-4">A key benefit is the integration of Agentforce with ERP and SCM systems, which eliminates routine tasks and allows human workers to concentrate on complex, strategic issues. Achieving the right balance between automation and human expertise is crucial for enhancing decision-making without replacing it.</p>
+              <p className="text-black">A key benefit is the integration of Agentforce with ERP and SCM systems, which eliminates routine tasks and allows human workers to concentrate on complex, strategic issues. Achieving the right balance between automation and human expertise is crucial for enhancing decision-making without replacing it.</p>
 
-              <div className="py-6"></div>
+              <div className="py-4"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Benefits of integrating Agentforce with ERP</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits of integrating Agentforce with ERP</h2>
 
-              <p className="text-black pb-4 font-bold">AI-Driven Automation</p>
+              <h3 className="h3-bold pb-4 ">AI-Driven Automation</h3>
 
               <p className="text-black pb-4">Agentforce uses AI to automate routine tasks in ERP systems like inventory management, order processing, and financial reporting, reducing manual workloads and errors while increasing efficiency. In manufacturing, for instance, it monitors raw material levels and automatically reorders supplies when needed, ensuring smooth production. By analyzing production data, Agentforce helps identify inefficiencies, enabling manufacturers to optimize operations and reduce waste.</p>
 
-              <p className="text-black pb-4 font-bold">Unified Data and its integration</p>
+              <h3 className="h3-bold pb-4 ">Unified Data and its integration</h3>
 
               <p className="text-black pb-4">Salesforce’s Data Cloud is essential for Agentforce, unifying data from various systems to provide real-time analytics and insights. This integration enhances efficiency; for instance, in healthcare, it links ERP data with patient management systems to improve scheduling. In retail, merging CRM data on customer preferences with ERP systems ensures real-time inventory updates, reducing stockouts and boosting customer satisfaction.</p>
 
 
-              <p className="text-black pb-4 font-bold">Predictive Analytics for Proactive Decisions</p>
+              <h3 className="h3-bold pb-4">Predictive Analytics for Proactive Decisions</h3>
 
               <p className="text-black pb-4">Agentforce enables businesses to anticipate trends, forecast demand, and optimize supply chain operations. By analyzing ERP and SCM data, particularly in agriculture, it predicts demand and improves planning. This integration enhances decision-making, boosts productivity, and minimizes disruptions by considering factors like crop yields, inventory levels, distribution schedules, and weather patterns.</p>
 
 
-              <p className="text-black pb-4 font-bold">Scalability</p>
+              <h3 className="h3-bold pb-4">Scalability</h3>
 
               <p className="text-black pb-4">Agentforce efficiently manages increased workloads in ERP and SCM systems without needing extra staff. During peak seasons in logistics, AI agents can process larger volumes of shipment and delivery data, such as tracking numbers and inventory levels, allowing the system to handle more shipments dynamically without overburdening the workforce.</p>
 
 
-              <p className="text-black pb-4 font-bold">Enhanced Collaboration</p>
+              <h3 className="h3-bold pb-4">Enhanced Collaboration</h3>
 
-              <p className="text-black pb-4">Integrated with Salesforce’s ecosystem, Agentforce fosters collaboration across teams by connecting ERP data with tools like Slack and Salesforce Customer 360. This creates a cohesive, connected environment for decision-makers.</p>
+              <p className="text-black ">Integrated with Salesforce’s ecosystem, Agentforce fosters collaboration across teams by connecting ERP data with tools like Slack and Salesforce Customer 360. This creates a cohesive, connected environment for decision-makers.</p>
 
 
-              <div className="py-6"></div>
+              <div className="py-4"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Applications of AI-powered Agents for ERP</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Applications of AI-powered Agents for ERP</h2>
 
               <p className="text-black pb-4">The integration of Agentforce’s AI agents with ERP systems transforms enterprise operations by boosting efficiency, accuracy, and functionality. These agents automate processes, deliver actionable insights, and facilitate seamless workflows across key ERP modules.</p>
 
-              <p className="text-black pb-4 font-bold">Inventory and Supply Chain Management</p>
+              <h3 className="h3-bold pb-4">Inventory and Supply Chain Management</h3>
 
               <p className="text-black pb-4">AI agents track inventory levels, predict demand fluctuations, and automate restocking processes. For instance, they can monitor supply chain disruptions and suggest alternative suppliers to prevent shortages. These capabilities help minimize stockouts and reduce excess inventory, ensuring smoother operations.</p>
 
 
-              <p className="text-black pb-4 font-bold">Financial Operations</p>
+              <h3 className="h3-bold pb-4">Financial Operations</h3>
 
               <p className="text-black pb-4">Better financial workflows by automating tasks such as data reconciliation, generating compliance reports, and detecting transactional anomalies. This improves accuracy, streamlines processes, and reduces the time spent on manual financial tasks, such as accounts payable, receivable, and budgeting.</p>
 
-              <p className="text-black pb-4 font-bold">Customer Relationship Management</p>
+              <h3 className="h3-bold pb-4">Customer Relationship Management</h3>
 
               <p className="text-black pb-4">Agents analyze customer data to provide personalized recommendations and identify upselling opportunities. Chatbots powered by these agents automate responses to customer queries, enhancing engagement and satisfaction. For example, by analyzing purchase histories, agents can predict future needs and refine marketing strategies to maximize customer value.</p>
 
 
-              <p className="text-black pb-4 font-bold">Automated Human Resource Management</p>
+              <h3 className="h3-bold pb-4">Automated Human Resource Management</h3>
 
-              <p className="text-black pb-4">In HR, they streamline processes like recruitment, onboarding, and performance evaluations. They can analyze resumes, schedule interviews, and provide predictive insights into employee retention trends. This enhances HR efficiency while improving overall employee satisfaction and workforce management.</p>
+              <p className="text-black ">In HR, they streamline processes like recruitment, onboarding, and performance evaluations. They can analyze resumes, schedule interviews, and provide predictive insights into employee retention trends. This enhances HR efficiency while improving overall employee satisfaction and workforce management.</p>
 
 
-              <div className="py-6"></div>
+              <div className="py-4"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Future-Proofing ERP with Agentforce</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Future-Proofing ERP with Agentforce</h2>
 
               <p className="text-black pb-4">Agentforce is the future of ERP systems—smart, scalable, and connected. With AI and Salesforce’s Data Cloud, enterprises achieve enhanced efficiency and innovation. Leading ERP providers like SAP, Oracle, and Microsoft are integrating agentic AI for real-time decision-making, predictive analytics, and process automation. These efforts are turning ERP systems into intelligent ecosystems that optimize operations, improve customer experiences, and enable scalable solutions with minimal human intervention.</p>
 
-              <p className="text-black pb-4">Rialtes allows businesses to integrate customized Agentforce agents into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their Agentforce deployments harness reliable data for intelligent automation. Contact us at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-bold">sales@rialtes.com</span></Link>.</p>
+              <p className="text-black pb-4">Rialtes allows businesses to integrate customized Agentforce agents into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their Agentforce deployments harness reliable data for intelligent automation. Contact us at <Link className="underline" href={"mailto:sales@rialtes.com"}>sales@rialtes.com</Link>.</p>
 
             </div>
           </div>
@@ -309,12 +279,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+     custom-container
         pb-10"
       >
         <BlogsCarousel slides={blogs} />
