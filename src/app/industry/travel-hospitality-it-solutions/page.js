@@ -344,9 +344,9 @@ export default function Page() {
                             <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[77px]" style={{
                                 background: "#073259",
                             }}>
-                                <h2 className="text-[26px] xl:text-[60px] leading-tight">
+                                <h3 className="text-[26px] xl:text-[60px] leading-tight">
                                     Industry-Focused Accelerators
-                                </h2>
+                                </h3>
                                 <p className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
                                     Launch Fast and Stay Ahead
                                 </p>
@@ -942,9 +942,9 @@ export default function Page() {
 
                 {/* smarter service section */}
                 <section className="md:pt-[98px] md:mt-0 mt-[67px] custom-container max-md:px-0 bg-[#F5F5F5]">
-                    <h2 className="xl:text-[60px] text-[26px] md:block hidden leading-tight">
+                    <h3 className="xl:text-[60px] text-[26px] md:block hidden leading-tight">
                         Smarter Service & Support
-                    </h2>
+                    </h3>
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-[20px] xl:mt-[48px] xl:gap-[40px] 2xl:gap-[80px] md:gap-[60px] gap-y-[44px]">
                         <div className="md:order-1 order-2 max-md:px-[36px] 2xl:col-span-5 lg:col-span-7 md:col-span-6 col-span-12 md:pt-[20px] xl:pt-0">
                             <h2 className="xl:text-[60px] text-[26px] md:hidden leading-tight">
