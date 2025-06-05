@@ -106,7 +106,7 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)&summary=Summary%20of%20the%20blog&source=LinkedIn">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)&summary=Summary%20of%20the%20blog&source=LinkedIn">
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
