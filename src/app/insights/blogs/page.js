@@ -30,7 +30,7 @@ const schemaData={
 }
 
 const latestBlogs = [
-    {
+  {
     id: 17,
     image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
     category: "AI",
@@ -52,15 +52,15 @@ const latestBlogs = [
 
 
   },
-   {
-    id:19,
-    image:"/images/blog/successfactor-for-carousel.webp",
-    category:"SAP SuccessFactors",
-    industry:"Human Resources",
-    date:"28 May 2025",
-    url:"/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations",
-    title:"How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
-    description:"Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
+  {
+    id: 19,
+    image: "/images/blog/successfactor-for-carousel.webp",
+    category: "SAP SuccessFactors",
+    industry: "Human Resources",
+    date: "28 May 2025",
+    url: "/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations",
+    title: "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
+    description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
 
 
   },
@@ -186,7 +186,7 @@ const latestBlogs = [
   },
   {
     id: 11,
-    image: "/images/blog/blog-11.webp",
+    image: "/images/blog/agents-as-teammates-carousel-img.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "30 Dec 2024",
@@ -221,11 +221,11 @@ const latestBlogs = [
     industry: "Generic",
     date: "03 Feb 2025",
     url: '/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
+    title: "Powerful Features of Agentforce You Should Be Using",
+    description: "Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions.",
   },
   // Add more blog objects as needed
- 
+
 ];
 
 const BlogCard = ({ blog }) => (
@@ -557,40 +557,56 @@ export default function Page() {
         description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
         canonical="https://www.rialtes.com/insights/blogs/"
       />
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/blog-header-web.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
   <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      {/* <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/blog-header.webp"
-          alt="Blogs"
-          fill
-          style={{ objectFit: "cover", objectPosition: "11% 20%" }}
-          priority
-        />
-        <div
-          className="
-          custom-container h-full relative
-         "
-        >
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <div className="flex flex-col">
-              <h3 className="text-[300] font-medium mb-2">Blogs</h3>
-              <h1 className="max-w-2xl ">
-                Expert Insights for Digital Success
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/blog-header-mobile.webp"
+            alt="mobile banner"
+            fill
+            priority
+            style={{ objectFit: "cover", objectPosition: "35% 60%" }}
+          />
+        </div>
+
+        <div className="relative h-full custom-container flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12 xl:col-span-7 lg:col-span-9">
+
+              <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+                Blogs
+              </h3>
+
+              <h1 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
+                Your Guide to<br /> Intelligent Enterprise <br />Transformation
               </h1>
+
+            </div>
+
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
-<HeroSection title="Your Guide to Intelligent Enterprise Transformation" subtitle="Blogs" mobimg="/images/blog/blog-header-mobile.webp" deskimg="/images/blog/blog-header-web.webp" extraImg="" />
       <section
-        className="
-      custom-container "
-      >
+        className="custom-container">
 
         <div className="md:py-10 py-6 bg-white">
           <div className="">

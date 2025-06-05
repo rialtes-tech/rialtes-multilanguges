@@ -105,6 +105,7 @@ export default function HealthCloud() {
                     <Image
                         src="/images/revenue-cloud/revenue-cloud-banner-mob.webp"
                         alt="mobile banner"
+                        style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         fill
                         priority
                     />

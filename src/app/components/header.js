@@ -25,7 +25,6 @@ const Header = () => {
   const [expanded, setExpanded] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState(null);
-  const [activeMenu, setActiveMenu] = useState(null);
   const [openSection, setOpenSection] = useState("automotive");
   const [openSectionbusiness, setOpenSectionBusiness] = useState("businessTransform");
   const [openSectionSolution, setOpenSectionSolution] = useState("dataAI");
@@ -153,7 +152,7 @@ const Header = () => {
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
             { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-
+            { label: 'Sap Digital Desk', href: '/services/business-transformation/sap-managed-services-provider' },
           ],
         },
         {
@@ -222,7 +221,9 @@ const Header = () => {
         {
           label: 'Automotive', href: '/industry/automotive-industry-cloud-solutions',
         },
-
+        {
+          label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
+        },
       ],
     },
     {
@@ -832,9 +833,13 @@ const Header = () => {
                           </div>
 
                           <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
                             <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")}
                               onHover={() => { }} />
+                              <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Sap Digital Desk" link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")}
+                              onHover={() => { }} />
+                          </div>
+                           <div>
+
                           </div>
 
                         </div>
@@ -1153,7 +1158,12 @@ const Header = () => {
                   >
                     Automotive
                   </div>
-
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("travelHospitality")}
+                  >
+                    Travel and Hospitality
+                  </div>
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1280,6 +1290,20 @@ const Header = () => {
                         <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/automotive-industry-cloud-solutions' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry-cloud-solutions")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {openSection === "travelHospitality" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Travel Transportation and Hospitality</div>
+                        {/* <p className="mt-3">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p> */}
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/travel-hospitality-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>
