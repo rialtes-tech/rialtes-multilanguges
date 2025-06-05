@@ -4,7 +4,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
+  },
+  "headline": "Salesforce Agentforce Top Features You’re Probably Not Using but Should",
+  "description": "Uncover the hidden gems of Salesforce Agentforce, including AI-powered routing, custom dashboards, and real-time analytics to boost your support operations.",
+  "image": "https://www.rialtes.com/images/blog/salesforce-agentforce-features.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-02-03",
+  "articleSection": "Salesforce Agentforce",
+  "url": "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
+}
 const blogs = [
   {
     id: 1,
@@ -145,10 +171,14 @@ export default function Page() {
         description="Salesforce Agentforce is a powerhouse platform that goes past the basics of customer support, empowering agents with AI-driven automation and real-time insights."
         canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
       />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-14-banner.webp "
+          src="/images/blog/salesforce-agentforce-features.webp "
           alt="Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
           fill
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}

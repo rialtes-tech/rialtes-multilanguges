@@ -5,7 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+  },
+  "headline": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+  "description": "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
+  "image": "https://www.rialtes.com/images/blog/sap-gts-sanctioned-party-screening.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-12-19",
+  "articleSection": "SAP GTS",
+  "url": "https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+}
 const blogs = [
   {
     id: 1,
@@ -146,9 +172,14 @@ export default function Page() {
         description="Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties."
         canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-10-banner.webp "
+          src="/images/blog/sap-gts-sanctioned-party-screening.webp "
           alt="Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}

@@ -6,7 +6,33 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
+  },
+  "headline": "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
+  "description": "Discover how Agentforce transforms Slack into a collaborative space with AI teammates that automate workflows, manage tasks, and enhance productivity.",
+  "image": "https://www.rialtes.com/images/blog/agentforce-slack-integration.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-12-30",
+  "articleSection": "Agentforce",
+  "url": "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
+}
 
 
 const blogs = [
@@ -148,9 +174,14 @@ export default function Page() {
         description="Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork."
         canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-11-banner.webp "
+          src="/images/blog/agentforce-slack-integration.webp "
           alt="Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce"
           fill
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}

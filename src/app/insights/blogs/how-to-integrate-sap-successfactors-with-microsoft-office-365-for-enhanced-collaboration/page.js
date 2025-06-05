@@ -4,7 +4,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+  },
+  "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+  "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
+  "image": "https://www.rialtes.com/images/blog/successfactors-office365-integration.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-12-24",
+  "articleSection": "SAP Integration",
+  "url": "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+}
 const blogs = [
   {
     id: 1,
@@ -144,9 +170,14 @@ export default function Page() {
         description="Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps."
         canonical="https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-5-banner.webp "
+          src="/images/blog/successfactors-office365-integration.webp "
           alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}

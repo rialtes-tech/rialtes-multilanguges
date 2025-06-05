@@ -5,7 +5,33 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"
+  },
+  "headline": "Redefining the Future of Enterprise AI with SAP Joule",
+  "description": "Discover how SAP Joule is shaping enterprise AI by enabling smarter automation, enhanced decision-making, and transformative business insights.",
+  "image": "https://www.rialtes.com/images/blog/sap-joule-ai.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-04-22",
+  "articleSection": "SAP AI",
+  "url": "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"
+}
 const blogs = [
   {
     id: 8,
@@ -155,10 +181,14 @@ export default function Page() {
                 description="SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards."
                 canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
             />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/julebanner.webp "
+          src="/images/blog/sap-joule-ai.webp "
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}

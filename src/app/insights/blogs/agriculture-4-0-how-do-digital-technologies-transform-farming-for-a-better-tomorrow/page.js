@@ -6,7 +6,33 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
-
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+  },
+  "headline": "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+  "description": "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
+  "image": "https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-09-17",
+  "articleSection": "Salesforce for Agriculture",
+  "url": "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+}
 const blogs = [
   {
     id: 1,
@@ -152,9 +178,14 @@ export default function Page() {
         description="Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0."
         canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-6-banner.webp "
+          src="/images/blog/agriculture-4.0-digital-farming.webp "
           alt="Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
