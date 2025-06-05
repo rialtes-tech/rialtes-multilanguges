@@ -221,8 +221,8 @@ const latestBlogs = [
     industry: "Generic",
     date: "03 Feb 2025",
     url: '/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
+    title: "Powerful Features of Agentforce You Should Be Using",
+    description: "Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions.",
   },
   // Add more blog objects as needed
  
