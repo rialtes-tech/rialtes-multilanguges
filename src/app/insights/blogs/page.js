@@ -176,7 +176,7 @@ const latestBlogs = [
   },
   {
     id: 10,
-    image: "/images/blog/blog-10.webp",
+    image: "/images/blog/blog-10-long-thumb.webp",
     category: "SAP GTS",
     industry: "Generic",
     date: "19 Dec 2024",
