@@ -1,13 +1,43 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const generateCaptcha = () => {
-    const num1 = Math.floor(Math.random() * 10);
-    const num2 = Math.floor(Math.random() * 10);
-    return { num1, num2, sum: num1 + num2 };
+    const operators = ['+', '-', '*', '/'];
+    const operator = operators[Math.floor(Math.random() * operators.length)];
+
+    let num1 = Math.floor(Math.random() * 10) + 1; // Ensure non-zero for division
+    let num2 = Math.floor(Math.random() * 10) + 1;
+    let question = '';
+    let answer = 0;
+
+    switch (operator) {
+        case '+':
+            question = `${num1} + ${num2}`;
+            answer = num1 + num2;
+            break;
+        case '-':
+            if (num2 > num1) [num1, num2] = [num2, num1]; // non-negative result
+            question = `${num1} - ${num2}`;
+            answer = num1 - num2;
+            break;
+        case '*':
+            question = `${num1} × ${num2}`;
+            answer = num1 * num2;
+            break;
+        case '/':
+            answer = num1; // set as quotient
+            num1 = num1 * num2; // so that num1 / num2 = answer (clean integer)
+            question = `${num1} ÷ ${num2}`;
+            break;
+    }
+
+    return { question, answer };
 };
+
+
+
 
 export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
     const [captcha, setCaptcha] = useState(generateCaptcha());
@@ -63,34 +93,60 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             errors.message = "Message should not exceed 1000 characters.";
         }
 
-        // Validate captcha (your existing code)
-        if (!userAnswer.trim()) {
-            errors.captcha = "Captcha is required.";
-        } else if (parseInt(userAnswer) !== captcha.sum) {
-            errors.captcha = "Wrong captcha answer. Please try again.";
-        }
+      if (!userAnswer.trim()) {
+    errors.captcha = "Captcha is required.";
+} else if (parseInt(userAnswer) !== captcha.answer) {
+    errors.captcha = "Wrong captcha answer. Please try again.";
+}
 
         return errors;
     };
 
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+   const handleSubmit = async (e) => {
+    e.preventDefault();
 
-        const form = e.currentTarget;
+    const form = e.currentTarget;
+    const errors = validateForm(form);
+    if (Object.keys(errors).length > 0) {
+        setFormErrors(errors);
+        setError(errors.captcha || '');
+        return;
+    }
 
-        const errors = validateForm(form);
-        if (Object.keys(errors).length > 0) {
-            setFormErrors(errors);
-            setError(errors.captcha || '');
-            return;
-        }
+    setError('');
+    setFormErrors({});
 
-        setError('');
-        setFormErrors({});
+    const formData = new FormData(form);
+    try {
+        const response = await fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            mode: 'no-cors' // Salesforce doesn't return CORS headers
+        });
 
-        HTMLFormElement.prototype.submit.call(form);
-    };
+        form.reset(); // Clears all input values
+        setUserAnswer('');
+        setCaptcha(generateCaptcha());
+
+        window.location.href = "https://www.rialtes.com/thank-you";
+
+    } catch (err) {
+        console.error("Form submission failed", err);
+        setError("There was a problem submitting the form. Please try again.");
+    }
+};
+
+    useEffect(() => {
+    // Reset form and captcha on component mount
+    if (formRef.current) {
+        formRef.current.reset();
+    }
+    setUserAnswer('');
+    setCaptcha(generateCaptcha());
+    setError('');
+    setFormErrors({});
+}, []);
 
 
     return (
@@ -151,7 +207,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
                     <div className="flex items-center space-x-4">
-                        <span className="font-semibold text-lg text-gray-800">{captcha.num1} + {captcha.num2} = ?</span>
+                        <span className="font-semibold text-lg text-gray-800"> {captcha.question} = ?</span>
                         <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
                             ↻
                         </button>
@@ -173,7 +229,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         Let's Begin
                     </button>
                 </div>
-                <div>Enter the sum of digits shown in above image e.g (2+3=5)</div>
+<div>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
 
                 <div>
                     <AnimatePresence>

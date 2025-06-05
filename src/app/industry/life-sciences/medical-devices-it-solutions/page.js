@@ -7,7 +7,33 @@ import Link from "next/link";
 import { HeroSection } from "@/app/components/herosection";
 import LearnMore from "@/app/components/learnMore";
 
+const schemaData={
+    
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
+  },
+  "name": "Rialtes | Digital Transformation for Medical Device Companies",
+  "headline": "Transforming Medical Devices with Next-Gen IT Solutions",
+  "description": "Rialtes delivers tailored Salesforce and SAP solutions for medical device manufacturers. From R&D and QMS to sales and compliance, accelerate innovation with scalable, secure technology.",
+  "about": {
+    "@type": "Thing",
+    "name": "Medical Device Industry"
+  },
+  "keywords": "Salesforce for MedTech, SAP for medical devices, digital transformation in medical device industry​, life sciences IT solutions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
 
+}
 const CriticalChallengesSection = () => {
     const challenges = [
         {
@@ -126,9 +152,15 @@ export default function Page() {
     return (
         <div className="bg-white">
             <Seo
-                title="Medical Devices"
+                title="Salesforce-Powered IT Solutions for Medical Device Companies | Rialtes"
+                description="Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage.
+"
                 canonical="https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
             />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <HeroSection title="Transforming Medical Device Innovation & Compliance" subtitle="Medical Devices" h3title="Rialtes Life Sciences & Medical Devices Solutions" deskimg="/images/medical/Medical device banner.webp" mobimg="/images/medical/medical-header.webp" />
 

@@ -7,6 +7,27 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+const schemaData={
+  
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/"
+  },
+  "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
+  "headline": "Insights That Drive Innovation – Salesforce & SAP Blogs",
+  "description": "Stay updated with expert blogs from Rialtes on Salesforce, SAP, Yardi, MuleSoft, and more. Learn how technology trends are shaping industries and driving business success.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
+
+}
 
 const latestBlogs = [
   {
@@ -18,16 +39,16 @@ const latestBlogs = [
     url: '/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
     title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
     description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
-  },
-  {
-    id: 18,
-    image: "/images/blog/sap-ariba-for-carousel.webp",
-    category: "SAP",
-    industry: "Manufacturing",
-    date: "29 May 2025",
-    url: "/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
-    title: "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
-    description: "The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
+    },
+    {
+    id:18,
+    image:"/images/blog/sap-ariba-for-carousel.webp",
+    category:"SAP",
+    industry:"Manufacturing",
+    date:"29 May 2025",
+    url:'/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs',
+    title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
+    description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
 
 
   },
@@ -222,7 +243,7 @@ const BlogCard = ({ blog }) => (
         />
       </Link>
     </div>
-    <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+    <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
         <div className='pb-2 md:pb-4'>
           <span className='text-[#0092E0]'>{blog.category}</span>
@@ -468,9 +489,9 @@ const FeaturedCarousel = () => {
 
   return (
     <section className="relative pb-10 bg-white">
-      <div>
+      <div className="mb-[36px]">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Featured Blogs</h2>
+          <h2 className="text-black mb-[36px]">Featured Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -532,7 +553,8 @@ export default function Page() {
     <div className="min-h-screen bg-white text-black">
 
       <Seo
-        title="Blog"
+        title="Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights"
+        description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
         canonical="https://www.rialtes.com/insights/blogs/"
       />
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -547,6 +569,10 @@ export default function Page() {
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
         </div>
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
         {/* Mobile Image */}
         <div className="block md:hidden">

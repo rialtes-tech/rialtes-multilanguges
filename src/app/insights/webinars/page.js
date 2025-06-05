@@ -7,35 +7,44 @@ import Link from "next/link";
 import Seo from "@/app/components/Seo";
 
 const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Rialtes Webinars",
-  "url": "https://www.rialtes.com/insights/webinars/",
-  "description": "Discover Webinars hosted by Rialtes covering Salesforce, SAP, digital transformation, and enterprise technology insights.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/webinars/"
+  },
+  "name": "Rialtes Webinars | Learn from Industry Experts",
+  "headline": "Expert Webinars on Salesforce, SAP & Digital Innovation",
+  "description": "Discover Rialtes' on-demand and upcoming webinars covering Salesforce, SAP, MuleSoft, Yardi, and more. Gain practical insights from real-world implementations and expert discussions.",
   "publisher": {
     "@type": "Organization",
     "name": "Rialtes",
-    "url": "https://www.rialtes.com"
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
   }
+
 }
 
 const webinars = [
 
 
 
-  {
-    id: 2,
-    title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-    date: "June 03, 2025",
-    time: "10:00 AM CST",
-    speaker: {
-      name: "Anuraag Aggarwal",
-      role: "Vice President of Global Sales",
-      image: "/images/webinar/anurag.webp",
-    },
-    backgroundImage: "/images/webinar/rise.webp",
-    url: 'insights/webinars/rise-with-sap-transformation-rialtes'
-  },
+  // {
+  //   id: 2,
+  //   title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+  //   date: "June 03, 2025",
+  //   time: "10:00 AM CST",
+  //   speaker: {
+  //     name: "Anuraag Aggarwal",
+  //     role: "Vice President of Global Sales",
+  //     image: "/images/webinar/anurag.webp",
+  //   },
+  //   backgroundImage: "/images/webinar/rise.webp",
+  //   url: 'insights/webinars/rise-with-sap-transformation-rialtes'
+  // },
   {
     id: 3,
     title: "CIG, Your Gateway to SAP Ariba",
@@ -44,7 +53,7 @@ const webinars = [
     speaker: {
       name: "Sapna Chauhan",
       role: "Software Engineer - SAP",
-      image: "/images/webinar/Sapna Chauhan.webp",
+      image: "/images/webinar/sapna-chauhan.webp",
     },
     backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
     url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
@@ -54,17 +63,17 @@ const webinars = [
 ];
 
 const allWebinars = [
-  // {
-  //   id: 1,
-  //   title: "Discover the Agentic Capabilities of Agentforce",
-  //   date: "May 15, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: "Lokesh Adhikari",
-  //   position: "Software Engineer - Salesforce",
-  //   image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
-  //   url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
+  {
+    id: 1,
+    title: "Discover the Agentic Capabilities of Agentforce",
+    date: "May 15, 2025",
+    time: "10:00 AM CST",
+    speaker: "Lokesh Adhikari",
+    position: "Software Engineer - Salesforce",
+    image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
 
-  // },
+  },
   // {
   //   id:1,
   //   title: "What’s New with SAP SuccessFactors Onboarding 2.0",
@@ -258,7 +267,8 @@ export default function About() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Webinar"
+        title="SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes" 
+        description="Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy."
         canonical="https://www.rialtes.com/insights/webinars/"
       />
       <script

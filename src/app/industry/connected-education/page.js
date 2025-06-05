@@ -6,7 +6,33 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 
+const schemaData={
+    
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/industry/connected-education/"
+  },
+  "name": "Rialtes | Salesforce & SAP for Modern Education Ecosystems",
+  "headline": "Smart Solutions for Connected Education & EdTech",
+  "description": "Discover how Rialtes enables connected, data-driven learning experiences for K-12, higher ed, and EdTech firms through scalable Salesforce and SAP solutions.",
+  "about": {
+    "@type": "Thing",
+    "name": "Connected Education and EdTech Industry"
+  },
+  "keywords": "Salesforce for education, Salesforce education cloud consulting, SAP for higher education, EdTech solutions, student lifecycle management, digital learning platforms, Rialtes consulting",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
 
+}
 
 const Services2 = () => {
     return (
@@ -55,9 +81,14 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Education Industry"
+                title="Salesforce Cloud IT Solutions for Education Industry | Rialtes"
+                description="IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today."
                 canonical="https://www.rialtes.com/industry/connected-education/"
             />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section className="relative group overflow-hidden xl:pb-40 pb-10">
                 <div className="xl:block hidden">

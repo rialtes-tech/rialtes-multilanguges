@@ -9,18 +9,18 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
-       {
-    id:11,
-    image:"/images/blog/sap-ariba-for-carousel.webp",
-    category:"SAP",
-    industry:"Manufacturing",
-    date:"29 May 2025",
-    url:"/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
-    title:"How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
-    description:"The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
+    {
+      id: 11,
+      image: "/images/blog/sap-ariba-for-carousel.webp",
+      category: "SAP",
+      industry: "Manufacturing",
+      date: "29 May 2025",
+      url: "insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
+      title: "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
+      description: "The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
 
 
-  },
+    },
     {
       id: 10,
       image: "/images/blog/successfactor-for-carousel.webp",
@@ -32,14 +32,14 @@ export default function BlogsCarousel() {
       description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
     },
     {
-    id: 12,
-    image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
-    category: "AI",
-    industry: "Pharma",
-    date: "30 April 2025",
-    url: '/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
-    title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
-    description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
+      id: 12,
+      image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+      category: "AI",
+      industry: "Pharma",
+      date: "30 April 2025",
+      url: 'insights/blogs/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
+      title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
+      description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
     },
 
     {
@@ -181,9 +181,9 @@ export default function BlogsCarousel() {
 
   return (
     <section className="relative sm:pb-10 pb-16 bg-white">
-      <div className=" mx-auto">
+      <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Latest Blogs</h2>
+          <h2 className="text-black mb-[43px]">Latest Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -229,7 +229,7 @@ export default function BlogsCarousel() {
                 </Link>
                 <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <div className="flex flex-col justify-between text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+              <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
                   <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>

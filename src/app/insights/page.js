@@ -8,6 +8,46 @@ import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import { HeroSection } from "../components/herosection";
+
+const schemaData={
+
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/"
+  },
+  "name": "Rialtes Insights | Salesforce, SAP, and Technology Trends",
+  "headline": "Explore Insights That Power Digital Transformation",
+  "description": "Discover Rialtes Insights: A knowledge hub featuring thought leadership blogs, real-world case studies, and expert-led webinars focused on Salesforce, SAP, and enterprise tech innovation.",
+  "hasPart": [
+    {
+      "@type": "CollectionPage",
+      "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
+      "url": "https://www.rialtes.com/insights/blogs/"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
+      "url": "https://www.rialtes.com/insights/case-studies/"
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Rialtes Webinars | Learn from Salesforce & SAP Experts",
+      "url": "https://www.rialtes.com/insights/webinars/"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  }
+
+}
+
 export default function InsightsPage() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
@@ -40,10 +80,15 @@ export default function InsightsPage() {
   return (
     <div className="min-h-scree">
       <Seo
-        title="Insights | Blogs, Case Studies and Events"
-        description="Explore our latest insights, blogs, case studies and upcoming events"
+        title="Rialtes Insights Hub | Salesforce and SAP | Rialtes"
+        description="Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation."
         canonical="https://www.rialtes.com/insights/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
       {/* Hero Section with Deep Blue Gradient Background */}
       <HeroSection title="Insights" subtitle="" mobimg="/images/insights/insight-header-banner.webp" deskimg="/images/insights/insight-header-banner.webp" extraImg=""  txtColor={"black"}/>
@@ -563,270 +608,13 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Events Section */}
-      {/* <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
-        <section className="mt-16 lg:max-w-[800px]  xl:max-w-[1600px]">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-3xl font-normal">Events</h2>
-            <div className="hidden sm:block">
-              <Link
-                href="/events"
-                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-              >
-                <span className="inline-flex items-center">See All Events</span>
-              </Link>
-            </div>
-          </div>
-
-          <div className="">
-            <div
-              className="w-full flex flex-col md:flex-row pt-6"
-              onMouseEnter={handleMouseEnter("event-1")}
-              onMouseLeave={handleMouseLeave("event-1")}
-              onClick={handleClick("/about-us")}
-              style={{
-                cursor: "pointer",
-                borderBottom: "1px solid #000000",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "event-1" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="w-full md:w-2/6 flex flex-row md:flex-col xl:flex-row">
-                <div className="w-1/2 overflow-hidden mb-6">
-                  <div
-                    className="w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "event-1" ? "scale(1.05)" : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/insights/open-test-event-1.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="80vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-                <div className="inset-0 flex flex-col w-1/2 items-center md:items-start xl:items-center justify-start p-3 pt-0 mb-4 md:mb-0 md:mr-4">
-                  <div className="text-4xl md:text-4xl font-bold text-[#0092E0]">
-                    18-21
-                  </div>
-                  <div className="sm:text-left">
-                    <div className="text-sm md:text-base mt-1">November</div>
-                    <div className="text-sm md:text-base">2024</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-4/6 flex flex-col md:flex-col xl:flex-row md:gap-8 mb-4 md:mb-0">
-                <div className="max-w-[650px] mx-0 md:mx-6 pt-0">
-                  <h3 className="font-bold text-[#134874] mb-4">
-                    OpenText World 2024
-                  </h3>
-                  <p className="mb-4">
-                    The digital landscape is evolving at a lightning pace, and
-                    in this scenario, it is imperative for businesses to
-                    accelerate their transformation journey by keeping
-                    automation and
-                  </p>
-                  <h3 className="sm:text-[20px]">
-                    The Venetian, Las Vegas | Booth #306
-                  </h3>
-                </div>
-
-                <div className="flex items-center sm:mb-[100px] md:mb-[0px] mx-0 md:mx-6 mt-3 md:mt-0">
-                  <Link
-                    href="/events/opentext-world"
-                    className="text-[#0092E0] font-semibold"
-                  >
-                    Know More
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="w-full flex flex-col md:flex-row pt-6"
-              onMouseEnter={handleMouseEnter("event-2")}
-              onMouseLeave={handleMouseLeave("event-2")}
-              onClick={handleClick("/about-us")}
-              style={{
-                cursor: "pointer",
-                borderBottom: "1px solid #000000",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "event-2" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="w-full md:w-2/6 flex flex-row md:flex-col xl:flex-row">
-                <div className="w-1/2 overflow-hidden mb-6">
-                  <div
-                    className="w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "event-2" ? "scale(1.05)" : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/insights/aws-event-2.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="80vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-                <div className="inset-0 flex flex-col w-1/2 items-center md:items-start xl:items-center justify-start p-3 pt-0 mb-4 md:mb-0 md:mr-4">
-                  <div className="text-4xl md:text-4xl font-bold text-[#0092E0]">
-                    2-6
-                  </div>
-                  <div className="sm:text-left">
-                    <div className="text-sm md:text-base mt-1">December</div>
-                    <div className="text-sm md:text-base">2024</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-4/6 flex flex-col md:flex-col xl:flex-row md:gap-8 mb-4 md:mb-0">
-                <div className="max-w-[650px] mx-0 md:mx-6 pt-0">
-                  <h3 className="font-bold text-[#134874] mb-4">
-                    AWS re:Invent 2024
-                  </h3>
-                  <p className="mb-4">
-                    The MedTech Conference is a global hub for the medical
-                    technology sector, bringing together forward-thinking
-                    professionals, industry leaders, and MedTech innovators.
-                  </p>
-                  <h3 className="sm:text-[20px]">Las Vegas, NV | Booth #779</h3>
-                </div>
-
-                <div className="flex items-center sm:mb-[100px] md:mb-[0px] mx-0 md:mx-6 mt-3 md:mt-0">
-                  <Link
-                    href="/events/opentext-world"
-                    className="text-[#0092E0] font-semibold"
-                  >
-                    Know More
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="w-full flex flex-col md:flex-row pt-6"
-              onMouseEnter={handleMouseEnter("event-3")}
-              onMouseLeave={handleMouseLeave("event-3")}
-              onClick={handleClick("/about-us")}
-              style={{
-                cursor: "pointer",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "event-3" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="w-full md:w-2/6 flex flex-row md:flex-col xl:flex-row">
-                <div className="w-1/2 overflow-hidden mb-6">
-                  <div
-                    className="w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "event-3" ? "scale(1.05)" : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/insights/world-economy-event-2.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="80vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-                <div className="inset-0 flex flex-col w-1/2 items-center md:items-start xl:items-center justify-start p-3 pt-0 mb-4 md:mb-0 md:mr-4">
-                  <div className="text-4xl md:text-4xl font-bold text-[#0092E0]">
-                    15-19
-                  </div>
-                  <div className="sm:text-left">
-                    <div className="text-sm md:text-base mt-1">January</div>
-                    <div className="text-sm md:text-base">2025</div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-4/6 flex flex-col md:flex-col xl:flex-row md:gap-8 mb-4 md:mb-0">
-                <div className="max-w-[650px] mx-0 md:mx-6 pt-0">
-                  <h3 className="font-bold text-[#134874] mb-4">
-                    World Economic Forum, Davos
-                  </h3>
-                  <p className="mb-4">
-                    In the wake of generative AI's mainstream adoption,
-                    organizations worldwide grappled with its impact in 2023.
-                    Now a year later at Davos, a deeper understanding of AI's
-                  </p>
-                  <h3 className="sm:text-[20px]">
-                    Toronto, Canada | Booth #628
-                  </h3>
-                </div>
-
-                <div className="flex items-center sm:mb-[100px] md:mb-[0px] mx-0 md:mx-6 mt-3 md:mt-0">
-                  <Link
-                    href="/events/opentext-world"
-                    className="text-[#0092E0] font-semibold"
-                  >
-                    Know More
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="block sm:hidden mt-12">
-            {" "}
-            <Link
-              href="/events"
-              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-            >
-              <span className="inline-flex items-center">See All Events</span>
-            </Link>
-          </div>
-        </section>
-      </div> */}
-
-      {/* Webinar Section */}
+         {/* Webinar Section */}
       <div
         className="
        custom-container"
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start md:flex-row mb-8">
-            {/* <h2 className="text-3xl font-normal mb-2 md:mb-0">Webinars</h2> */}
             <h2 className="mb-1">Webinars</h2>
             <div className="hidden sm:block">
               <Link

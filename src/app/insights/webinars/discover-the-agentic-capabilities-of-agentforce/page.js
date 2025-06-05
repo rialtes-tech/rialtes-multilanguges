@@ -212,11 +212,9 @@ export default function () {
             </div>
             <div className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20" ref={sectionRef}>
                 <WebinarForm
-                    redirectUrl=""
+                    redirectUrl="https://www.youtube.com/watch?v=EcPEwPAG2SM"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce"
-
                 />
-
             </div>
 
         </div>
