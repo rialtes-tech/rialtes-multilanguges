@@ -4,7 +4,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
+  },
+  "headline": "Agentforce Agents Scale Enterprise Resource Planning Systems with AI",
+  "description": "Explore how Agentforce empowers ERP systems with intelligent agents to automate business processes, drive efficiency, and scale operations through AI.",
+  "image": "https://www.rialtes.com/images/blog/agentforce-erp-scaling-ai.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-01-13",
+  "articleSection": "Agentforce AI",
+  "url": "https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
+}
 const blogs = [
   {
     id: 1,
@@ -144,10 +170,15 @@ export default function Page() {
         description="With Salesforce AI, Agentforce automates ERP tasks, provides real-time insights, and ensures seamless collaboration, shaping the future of scalable systems."
         canonical="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-12-banner.webp "
+          src="/images/blog/agentforce-erp-scaling-ai.webp "
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}

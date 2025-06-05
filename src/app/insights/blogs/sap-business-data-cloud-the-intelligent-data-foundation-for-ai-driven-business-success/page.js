@@ -5,7 +5,33 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
-
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"
+  },
+  "headline": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
+  "description": "Explore how SAP Business Data Cloud provides a unified, intelligent data platform that accelerates AI initiatives and drives business transformation.",
+  "image": "https://www.rialtes.com/images/blog/sap-business-data-cloud.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-04-22",
+  "articleSection": "SAP Data Cloud",
+  "url": "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"
+}
 const blogs = [
   {
     id: 8,
@@ -155,10 +181,14 @@ export default function Page() {
         description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
         canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
       />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/SAP-Business-cloud_Banner.webp "
+          src="/images/blog/sap-business-data-cloud.webp "
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}

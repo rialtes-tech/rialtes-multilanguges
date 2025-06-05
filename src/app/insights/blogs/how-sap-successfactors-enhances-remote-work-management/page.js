@@ -4,7 +4,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
+  },
+  "headline": "How SAP SuccessFactors Enhances Remote Work Management",
+  "description": "Learn how SAP SuccessFactors supports remote workforce management with tools for engagement, performance tracking, and seamless collaboration.",
+  "image": "https://www.rialtes.com/images/blog/successfactors-remote-work.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-01-21",
+  "articleSection": "SAP HXM",
+  "url": "https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
+}
 const blogs = [
   {
     id: 1,
@@ -144,9 +170,14 @@ export default function Page() {
         description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-13-banner.webp"
+          src="/images/blog/successfactors-remote-work.webp"
           alt="How SAP SuccessFactors Enhances Remote Work Management"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
