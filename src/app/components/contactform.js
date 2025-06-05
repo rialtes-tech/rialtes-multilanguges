@@ -150,7 +150,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
 
     return (
-        <section className={'container ' + (padding ? padding : '')}>
+        <section className={'' + (padding ? padding : '')}>
             <h2 className={className}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
             </h2>

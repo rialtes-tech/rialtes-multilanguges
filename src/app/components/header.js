@@ -25,7 +25,6 @@ const Header = () => {
   const [expanded, setExpanded] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [expandedSub, setExpandedSub] = useState(null);
-  const [activeMenu, setActiveMenu] = useState(null);
   const [openSection, setOpenSection] = useState("automotive");
   const [openSectionbusiness, setOpenSectionBusiness] = useState("businessTransform");
   const [openSectionSolution, setOpenSectionSolution] = useState("dataAI");
@@ -153,7 +152,7 @@ const Header = () => {
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
             { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-
+            { label: 'Sap Digital Desk', href: '/services/business-transformation/sap-digital-desk' },
           ],
         },
         {
@@ -832,9 +831,13 @@ const Header = () => {
                           </div>
 
                           <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4] mt-6" label="For  Rise with SAP" link="/rise-with-sap" onClick={handleLinkClick} onHover={() => { }} /> */}
                             <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")}
                               onHover={() => { }} />
+                              <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Sap Digital Desk" link="/services/business-transformation/sap-digital-desk" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-digital-desk")}
+                              onHover={() => { }} />
+                          </div>
+                           <div>
+
                           </div>
 
                         </div>
