@@ -187,11 +187,11 @@ export default function Page() {
             </div>
           </div>
           <div className="pt-6"></div>
-          <div className="container mx-auto">
+          <div className="container pl-0 mx-auto">
             <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">Agentforce Agents Scales Enterprise Resource Planning Systems with AI</h1>
           </div>
 
-          <div className="container mx-auto">
+          <div className="container pl-0 mx-auto">
             <div className=" max-[1084px] xl:w-[1084px]">
 
               <p className="text-black">Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments. It can result in inefficiencies, delayed decisions, and missed opportunities. Agentforce, powered by Salesforce’s advanced AI capabilities, is designed to address these challenges head-on. By integrating with ERP systems through Salesforce’s Data Cloud, Agentforce unifies data from internal and external sources, including ERP and Supply Chain Management (SCM) systems. This unified approach enables businesses to make informed, data-driven decisions while fostering operational agility.</p>
@@ -200,7 +200,7 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[35px] text-[25px] pb-4">Agentforce Integrates with ERP and SCM Systems</h2>
 
-              <p className="text-black">Agentforce integrates with ERP systems via Salesforce’s Data Cloud, unifying data from various sources, including ERP and Supply Chain Management systems. Tools like MuleSoft’s pre-built connectors for SAP, Oracle, and Microsoft Dynamics enable real-time data synchronization. This allows AI-powered agents to access current information on inventory, orders, and finances, streamlining workflows and minimizing manual data entry. By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making. In agriculture, it predicts demand and optimizes supply chains by examining crop yields and weather patterns. Additionally, in logistics, AI agents can handle higher order volumes during peak seasons, efficiently managing shipment data without overwhelming the workforce.</p>
+              <p className="text-black">Agentforce integrates with ERP systems via   <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/">Salesforce’s Data Cloud</Link>, unifying data from various sources, including ERP and Supply Chain Management systems. Tools like MuleSoft’s pre-built connectors for SAP, Oracle, and Microsoft Dynamics enable real-time data synchronization. This allows AI-powered agents to access current information on inventory, orders, and finances, streamlining workflows and minimizing manual data entry. By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making. In agriculture, it predicts demand and optimizes supply chains by examining crop yields and weather patterns. Additionally, in logistics, AI agents can handle higher order volumes during peak seasons, efficiently managing shipment data without overwhelming the workforce.</p>
 
               <div className="py-4"></div>
 
@@ -235,7 +235,7 @@ export default function Page() {
 
               <h3 className="h3-bold pb-4">Enhanced Collaboration</h3>
 
-              <p className="text-black ">Integrated with Salesforce’s ecosystem, Agentforce fosters collaboration across teams by connecting ERP data with tools like Slack and Salesforce Customer 360. This creates a cohesive, connected environment for decision-makers.</p>
+              <p className="text-black ">Integrated with Salesforce’s ecosystem, Agentforce fosters collaboration across teams by  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/?utm_source=internal&utm_medium=blog">connecting ERP data with tools like Slack </Link> and Salesforce Customer 360. This creates a cohesive, connected environment for decision-makers.</p>
 
 
               <div className="py-4"></div>
@@ -267,7 +267,7 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Future-Proofing ERP with Agentforce</h2>
 
-              <p className="text-black pb-4">Agentforce is the future of ERP systems—smart, scalable, and connected. With AI and Salesforce’s Data Cloud, enterprises achieve enhanced efficiency and innovation. Leading ERP providers like SAP, Oracle, and Microsoft are integrating agentic AI for real-time decision-making, predictive analytics, and process automation. These efforts are turning ERP systems into intelligent ecosystems that optimize operations, improve customer experiences, and enable scalable solutions with minimal human intervention.</p>
+              <p className="text-black pb-4">Agentforce is the future of ERP systems—smart, scalable, and connected. With AI and Salesforce’s Data Cloud, enterprises achieve enhanced efficiency and innovation. Leading ERP providers like SAP, Oracle, and Microsoft are  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=EcPEwPAG2SM&utm_source=internal&utm_medium=blog">integrating agentic AI</Link> for real-time decision-making, predictive analytics, and process automation. These efforts are turning ERP systems into intelligent ecosystems that optimize operations, improve customer experiences, and enable scalable solutions with minimal human intervention.</p>
 
               <p className="text-black pb-4">Rialtes allows businesses to integrate customized Agentforce agents into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their Agentforce deployments harness reliable data for intelligent automation. Contact us at <Link className="underline" href={"mailto:sales@rialtes.com"}>sales@rialtes.com</Link>.</p>
 
