@@ -113,7 +113,7 @@ export default function Page() {
                             <h3 className="text-[20px] xl:text-[24px] font-bold mb-2 break-words">
                                 SAP Digital Desk
                             </h3>
-                            <h2 className="leading-tight break-words xl:mt-10 mt-5 pr-32 xl:pr-0">
+                            <h2 className="leading-tight break-words xl:mt-10 mt-5 pr-32 xl:pr-0 4xl:text-[56px] text-[26px] xl:text-[50px]">
                                 Maximize Your SAP Investment with Always-On Expertise
                             </h2>
                         </div>
@@ -129,7 +129,7 @@ export default function Page() {
               custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-10 col-span-12">
-                        <h1 className="leading-tight">
+                        <h1 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">
                             Reimagine SAP Support with Rialtes: Agile, Scalable, and Future-Ready Managed Services
                         </h1>
                         <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-32">At Rialtes, we empower organizations to run their SAP landscapes smarter, faster, and more securely. SAP Digital Desk, our next-gen managed services platform, brings together end-to-end SAP expertise — from stabilization and innovation to continuous optimization — ensuring your SAP systems become a strategic driver for business growth, not just an operational tool.  </p>
@@ -170,7 +170,7 @@ export default function Page() {
                     custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white">
                         <div className="xl:col-span-6 col-span-12 xl:pr-20">
-                            <h2 className="text-[25px] xl:text-[60px]  mt-16 leading-tight">
+                            <h2 className="4xl:text-[56px] text-[26px] xl:text-[50px]  mt-16 leading-tight">
                                 Global Delivery, Local Expertise
                             </h2>
                             <h3 className="mt-5 xl:text-[36px] text-[22px] leading-tight">Rialtes’ 24/7 SAP Support That Works Around You</h3>
@@ -230,7 +230,7 @@ export default function Page() {
 
 
             <section className="custom-container xl:mt-32 xl:!pr-0 h-full max-md:px-0 mt-16">
-                <div className="grid xl:grid-cols-12 grid-cols-1 h-full">
+                <div className="grid xl:grid-cols-12 grid-cols-1 h-full gap-10">
 
                     {/* Image first on mobile, second on desktop */}
                     <div className="col-span-7 order-1 xl:order-2 max-md:px-0">
@@ -247,19 +247,19 @@ export default function Page() {
 
                     {/* Content second on mobile, first on desktop */}
                     <div className="col-span-5 order-2 xl:order-1 mt-10 xl:mt-0 mx-[35px] xl:mx-0 md:mx-0">
-                        <h2 className="leading-tight">Project Leadership</h2>
-                        <h3 className="xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
+                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">Project Leadership</h2>
+                        <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
                             Expertly Managed, Seamlessly Delivered
                         </h3>
-                        <p className="mt-5 xl:pr-40 font-medium">
+                        <p className="mt-5 4xl:pr-40 font-medium">
                             All our engagements are driven by PMP® and Scrum®-certified Project Managers, ensuring that every project is delivered on time, within budget, and aligned to business goals.
                         </p>
-                        <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-32 font-medium">
+                        <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 4xl:pr-32 font-medium">
                             <li>Agile and Waterfall methodologies based on business needs.</li>
                             <li>Strong governance, communication, and risk management frameworks.</li>
                             <li>Transparent, KPI-driven service reporting and business outcome focus.</li>
                         </ul>
-                        <p className="mt-10 xl:pr-40 pb-10 font-medium">
+                        <p className="mt-10 4xl:pr-40 pb-10 font-medium">
                             Our SAP-certified consultants are strategically located across USA, Canada, and India, giving you the right mix of proximity, cost-efficiency, and expertise.
                         </p>
 
@@ -371,29 +371,29 @@ export default function Page() {
             </section>
 
             <section className="custom-container xl:mt-40 mt-10  h-full xl:!pl-0 !px-0">
-                <div className="grid xl:grid-cols-12 grid-cols-1 h-full xl:gap-20">
-                    <div className="col-span-7">
+                <div className="grid xl:grid-cols-12 grid-cols-1  xl:gap-20">
+                    <div className="col-span-6">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/future.webp"
                             alt=""
                             priority
-                            className="w-full xl:h-full h-[400px]"
+                            className="w-full 4xl:h-full xl:h-full h-[400px]"
                             width={0}
                             height={0}
                             sizes="100vw"
                         />
                     </div>
-                    <div className="col-span-5 xl:pr-32 mt-10 xl:mt-0 mx-[35px] xl:mx-0 md:mx-0">
-                        <h2 className="leading-tight">Future-Proof Your Core</h2>
+                    <div className="col-span-5 4xl:pr-32 mt-10 xl:mt-0 mx-[35px] xl:mx-0">
+                        <h2 className="4xl:text-[56px] text-[26px] xl:text-[50px] leading-tight">Future-Proof Your Core</h2>
                         <h3 className="xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">Complete SAP S/4HANA Post-Go-Live Support</h3>
                         <p className="mt-5 font-normal">Keep your SAP S/4HANA running at peak performance with our functional, technical, and Basis expertise:</p>
-                        <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3">
+                        <ul className="list-disc 4xl:space-y-3 xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-24">
                             <li> Business process optimization and issue resolution.</li>
                             <li>System performance monitoring and enhancements.</li>
                             <li> Security, compliance, and risk management.</li>
                             <li>                 Continuous improvement of system configurations and workflows.</li>
                         </ul>
-                        <div className="mt-5">
+                        <div className="4xl:mt-10">
                             <LearnMore />
                         </div>
 
@@ -422,16 +422,16 @@ export default function Page() {
                         className="h-[628px]"
                     />
                 </div>
-                <div className=" h-full relative custom-container xl:!ml-[-142px] max-md:px-0">
+                <div className="relative custom-container xl:!ml-[-110px] max-md:px-0">
                     <div className="grid xl:grid-cols-12 grid-cols-1">
                         <div className="col-span-6">
                             <div className="relative xl:p-12 p-10 mt-40 xl:mt-0">
                                 <div className="absolute inset-0 xl:bg-[#016FBE] mix-blend-multiply"></div>
                                 <div className="relative bg-opacity-80 text-white z-10 rounded-lg">
-                                    <h2 className="leading-tight">Revolutionize User Experience</h2>
-                                    <h3 className="xl:text-[36px] text-[20px] mt-5 leading-tight font-semibold">SAP Fiori/UI5 — Built for Your Business</h3>
+                                    <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">Revolutionize User Experience</h2>
+                                    <h3 className="4xl:text-[36px] text-[20px] mt-5 leading-tight font-semibold">SAP Fiori/UI5 — Built for Your Business</h3>
                                     <p className="mt-5 font-normal">Modernize and streamline user interactions with intuitive SAP Fiori/UI5 apps</p>
-                                    <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] font-normal text-[16px] xl:mt-10 mt-3">
+                                    <ul className="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-normal text-[16px] 4xl:mt-10 mt-3">
                                         <li> Role-based custom app development and enhancement.</li>
                                         <li>Mobile-responsive designs for field and remote teams.</li>
                                         <li> Fiori launchpad personalization and optimization.</li>
@@ -446,7 +446,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <div className="bg-[#EFEFEF] xl:mt-20 xl:pb-0 custom-container xl:!px-0 h-full max-md:px-0 pb-20">
+            <div className="bg-[#EFEFEF] xl:mt-20 xl:pb-0 custom-container xl:!px-0 h-full max-md:px-0 pb-64">
                 <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-24  xl:!pr-0">
                     <div className="xl:col-span-6 col-span-12 order-1 xl:order-1">
                         <div className="xl:block hidden h-full">
@@ -473,22 +473,22 @@ export default function Page() {
 
                     {/* Text: comes SECOND in HTML, but appears FIRST on desktop  */}
                     <div className="xl:col-span-6 col-span-12 order-2 xl:order-1 h-full px-[35px] xl:px-0 md:px-0">
-                        <h2 className="xl:text-[60px] text-[26px] mt-10 xl:mt-0 leading-tight xl:pt-16">
+                        <h2 className="4xl:text-[60px] text-[26px] mt-10 xl:mt-0 leading-tight 4xl:pt-16 xl:pt-5">
                             Unleash Innovation
                         </h2>
-                        <h3 className="xl:text-[36px] text-[20px] mt-5 xl:font-bold font-medium  xl:pr-40 leading-tight">
+                        <h3 className="4xl:text-[36px]  text-[20px] mt-5 xl:font-bold font-medium  4xl:pr-40 leading-tight">
                             Maximize SAP BTP to Extend and Personalize SAP
                         </h3>
-                        <p className="mt-5 leading-tight pr-10 xl:pr-40 font-normal">
+                        <p className="mt-5 leading-tight pr-10 4xl:pr-40 font-normal">
                             Take advantage of SAP Business Technology Platform (BTP) to build innovations that drive competitive advantage:
                         </p>
-                        <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-10 xl:pr-0">
+                        <ul className="list-disc 4xl:space-y-5 4xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-10 xl:pr-0">
                             <li className="mt-5">Low-code/no-code application development with SAP Build.</li>
                             <li>AI/ML integrations using SAP AI Core.</li>
                             <li>Event-driven and API-based workflows.</li>
                             <li>Cloud-native extensions that are upgrade-safe and scalable.</li>
                         </ul>
-                        <div className="absolute xl:mt-10 mt-8">
+                        <div className="absolute 4xl:mt-10 mt-8">
                             <LearnMore />
                         </div>
 
@@ -508,7 +508,7 @@ export default function Page() {
                             sizes="100vw"
                         />
                     </div>
-                    <div className="xl:col-span-6 col-span-12 bg-[#068EDA] p-8 text-white xl:mt-10 mb-10 z-[9]  mt-[-175px] custom-container xl:!pr-0 !mx-[35px] !w-[85%] xl:!w-full">
+                    <div className="xl:col-span-6 col-span-12 bg-[#068EDA] p-8 text-white xl:mt-10 mb-10 z-[9]  mt-[-175px] custom-container xl:!pr-0  !w-[85%] xl:!w-full">
                         <h2 className="leading-tight  xl:mt-0">Seamless Connectivity</h2>
                         <h3 className="mt-5 xl:text-[36px] text-[20px] leading-tight font-semibold">End-to-End SAP CPI & Integration Expertise</h3>
                         <p className="mt-8  font-light leading-tight">
@@ -521,7 +521,7 @@ export default function Page() {
                             <li> Post-integration monitoring, maintenance, and support.</li>
                         </ul>
                     </div>
-                    <div className="xl:col-span-6 col-span-12 xl:block hidden xl:ml-[-550px]">
+                    <div className="xl:col-span-6 col-span-12 xl:block hidden xl:ml-[-350px]">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/seamless.webp"
                             alt=""
@@ -563,10 +563,10 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="col-span-4 mx-[35px] xl:mx-0 mt-10 xl:mt-0 md:mx-0">
-                        <h2 className="leading-tight">Code the Future</h2>
-                        <h3 className="xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">SAP ABAP on Cloud — Smarter, Leaner, Faster</h3>
-                        <p className="mt-5">Unlock the next-gen power of ABAP in the cloud:</p>
-                        <ul className="list-disc xl:space-y-3 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3">
+                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">Code the Future</h2>
+                        <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">SAP ABAP on Cloud — Smarter, Leaner, Faster</h3>
+                        <p className="mt-5 leading-tight">Unlock the next-gen power of ABAP in the cloud:</p>
+                        <ul className="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3">
                             <li> Develop and deploy upgrade-safe ABAP extensions.</li>
                             <li>RAP-based RESTful services.</li>
                             <li>Cloud and hybrid environment readiness.</li>
@@ -591,10 +591,10 @@ export default function Page() {
                     </div>
 
                     {/* Content second on mobile, first on desktop */}
-                    <div className="col-span-5  order-2 xl:order-1   h-[500px] xl:h-[860px] 2xl:h-[820px] 4xl:h-[650px]       
+                    <div className="col-span-5  order-2 xl:order-1   h-[500px] xl:h-[720px] 2xl:h-[650px] 4xl:h-[650px]       
    bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]">
-                        <h2 className="leading-tight xl:mt-10">Intelligent Insights</h2>
-                        <h3 className="mt-5 xl:text-[36px] text-[20px] leading-tight font-semibold xl:pr-10">
+                        <h2 className="leading-tight xl:mt-10 4xl:text-[56px] text-[26px] xl:text-[50px]">Intelligent Insights</h2>
+                        <h3 className="mt-5 4xl:text-[36px] text-[20px] leading-tight font-semibold xl:pr-10">
                             Advanced SAP Analytics Cloud & Datasphere Services
                         </h3>
                         <p className="mt-8 font-light leading-tight xl:pr-20">
@@ -639,24 +639,24 @@ export default function Page() {
                             />
                         </div>
 
-                        <div className="absolute xl:inset-0 items-start px-[35px] md:px-0 grid xl:grid-cols-12   xl:px-20 py-20 text-black xl:pr-40">
+                        <div className="absolute xl:inset-0 items-start px-[35px] md:px-0 grid xl:grid-cols-12   xl:px-20 py-24 text-black xl:pr-40">
                             <div className="col-span-10 zoom150:col-span-8 2xl:col-span-6">
-                                <h2 className="text-[25px] xl:text-[60px] leading-tight pr-0 2xl:pr-40">
+                                <h2 className="t4xl:text-[60px] text-[26px] xl:text-[50px] leading-tight pr-0 4xl:pr-64">
                                     Winning the Talent War
                                 </h2>
-                                <h3 className="mt-5 xl:text-[36px] text-[22px] leading-tight font-semibold pr-0 2xl:pr-32">
+                                <h3 className="mt-5 4xl:text-[36px] text-[22px] leading-tight font-semibold pr-0 2xl:pr-32">
                                     End-to-End SAP SuccessFactors Support
                                 </h3>
                                 <p className="mt-5 font-normal">
                                     Put employees at the heart of your digital transformation:
                                 </p>
-                                <ul className="list-disc space-y-3 pl-5 xl:text-[20px] text-[16px] mt-5 ">
+                                <ul className="list-disc 4xl:space-y-5 xl:space-y-3 pl-5 4xl:text-[20px] text-[16px] mt-5 ">
                                     <li>Global HR process optimization.</li>
                                     <li>Ongoing configuration, compliance updates.</li>
                                     <li>Talent management, recruitment, and performance solutions.</li>
                                     <li>Seamless integration with SAP S/4HANA and third-party systems.</li>
                                 </ul>
-                                <div className="mt-6 absolute">
+                                <div className="mt-10 absolute">
                                     <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
                                 </div>
                             </div>
@@ -801,7 +801,7 @@ export default function Page() {
                             <img
                                 src="/images/sap/sap-digital-desk/desktop/supercharge.webp"
                                 alt="Warehouse"
-                                className="w-full h-[500px] xl:h-[860px] 2xl:h-[820px] 4xl:h-[800px]"
+                                className="w-full h-[500px] xl:h-[635px] 2xl:h-[820px] 4xl:h-[800px]"
                             />
                         </picture>
                     </div>
@@ -820,17 +820,17 @@ export default function Page() {
 
                     {/* Content: static on mobile, absolute on desktop */}
                     <div className="py-10 xl:py-20 text-black relative xl:absolute xl:inset-0 xl:flex xl:items-end xl:justify-end -mt-[37rem] md:mt-[-32rem] xl:mt-0 px-[35px] xl:px-0">
-                        <div className="max-w-[700px]">
-                            <h2 className="text-[25px] xl:text-[60px] leading-tight">
+                        <div className="4xl:max-w-[700px] xl:max-w-[500px]">
+                            <h2 className="text-[25px] 4xl:text-[60px] leading-tight">
                                 Supercharge HR with SAP Joule
                             </h2>
-                            <h3 className="mt-5 xl:text-[36px] text-[22px] leading-tight font-semibold">
+                            <h3 className="mt-5 4xl:text-[36px] text-[22px] leading-tight font-semibold">
                                 AI-Powered Business Assistant for SuccessFactors
                             </h3>
                             <p className="mt-5 font-normal">
                                 Meet SAP Joule, your AI-powered co-pilot for HR and enterprise processes. Rialtes helps you leverage Joule for impactful automation and insights:
                             </p>
-                            <ul className="list-disc space-y-3 pl-5 xl:text-[20px] text-[16px] mt-5">
+                            <ul className="list-disc space-y-3 pl-5 4xl:text-[20px] text-[16px] mt-5">
                                 <li>AI-driven employee experience and HR recommendations.</li>
                                 <li>Automated document handling and case resolution.</li>
                                 <li>Conversational AI for managers and employees.</li>
@@ -872,17 +872,17 @@ export default function Page() {
 
                     {/* Content: second on mobile, first on desktop */}
                     <div className="xl:col-span-5 col-span-12 order-2 xl:order-1 mx-[35px] xl:mx-0 mt-10 xl:mt-0 md:mx-0">
-                        <h2 className="leading-tight">Rialtes’ BTP Center of Excellence</h2>
-                        <h3 className="xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
+                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px] mt-16">Rialtes’ BTP Center of Excellence</h2>
+                        <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
                             Innovate, Integrate, and Extend SAP Faster
                         </h3>
-                        <p className="mt-5 xl:pr-20 xl:text-[30px] text-[18px] text-[#006FBE] font-semibold">
+                        <p className="mt-5 xl:pr-20 4xl:text-[30px] text-[18px] text-[#006FBE] font-semibold leading-tight">
                             Certified SAP BTP Experts at Your Service
                         </p>
                         <p className="mt-8 font-normal">
                             From AI-driven workflows to mobile apps and event-driven architectures, our SAP BTP experts ensure:
                         </p>
-                        <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-10">
+                        <ul className="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 xl:pr-10">
                             <li>Fast-track application development using SAP Build.</li>
                             <li>AI/ML-powered extensions using SAP AI Core.</li>
                             <li>Seamless APIs and integrations through API Hub.</li>
