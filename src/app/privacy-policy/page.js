@@ -24,7 +24,7 @@ export default function Page() {
 
                     <div className="">
                         <div className="">
-                            <p>Effective Date:  March 19, 2025.</p>
+                            <p className="text-black pb-4">Effective Date:  March 19, 2025.</p>
                             <p className="text-black pb-4">We value your privacy and are committed to protecting your data. This Privacy Notice explains how we collect, use, disclose, and protect your information when you visit our Website "<a href="https://rialtes.com/" className="text-[#0092E0]">https://www.rialtes.com/</a>".  It also describes your rights and choices regarding your personal information.</p>
                             <p className="text-black ">By accessing or using our Website, you acknowledge and agree to the practices described in this Privacy Policy. If you do not agree with our policies and practices, please discontinue using our Website.</p>
                             <div className="py-6"></div>
