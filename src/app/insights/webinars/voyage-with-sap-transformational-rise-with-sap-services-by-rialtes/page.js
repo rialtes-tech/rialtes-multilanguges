@@ -27,7 +27,7 @@ export default function () {
 
             <section className="relative custom-container xl:!pr-0">
                 <Image
-                    src="/images/webinar/Webinar_13 May 25_webinar Banner.webp"
+                    src="/images/webinar/webinar-20.webp"
                     alt="Webinar Header"
                     priority
                     width={0}

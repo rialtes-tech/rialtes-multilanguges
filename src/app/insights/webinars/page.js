@@ -70,7 +70,7 @@ const allWebinars = [
     time: "10:00 AM CST",
       speaker: "Anuraag Aggarwal",
       position: "Vice President of Global Sales",
-    image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+    image: "/images/webinar/rise.webp",
     url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes'
   },
   {
