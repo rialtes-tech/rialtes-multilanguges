@@ -44,7 +44,7 @@ const carouselData = [
     {
         title: "Blogs",
         description:
-            "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
+            "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
         image: "/images/blog/blog-8.webp",
         link: '/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration'
     },
