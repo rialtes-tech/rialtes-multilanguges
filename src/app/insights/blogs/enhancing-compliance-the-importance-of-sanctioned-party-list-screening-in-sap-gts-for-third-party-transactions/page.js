@@ -227,7 +227,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6">Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions</h1>
+            <h1 className="text-[#000000] font-semibold pb-6">Role of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions</h1>
           </div>
           <div>
             <p className="text-black pb-4">Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws. Failure to comply can result in severe financial penalties, reputational damage, and legal consequences.</p>

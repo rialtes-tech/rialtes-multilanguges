@@ -181,7 +181,7 @@ const latestBlogs = [
     industry: "Generic",
     date: "19 Dec 2024",
     url: '/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions',
-    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+    title: "Role of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
     description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
   },
   {
