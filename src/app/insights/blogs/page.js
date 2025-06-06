@@ -201,7 +201,7 @@ const latestBlogs = [
     industry: "Generic",
     date: "13 Jan 2025",
     url: '/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
-    title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
+    title: "How Agentforce Agents Scale ERP Systems with AI",
     description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
   },
   {
