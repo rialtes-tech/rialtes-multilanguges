@@ -87,7 +87,7 @@ export default function () {
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
-                                src="/images/webinar/Akshay-Kale.webp"
+                                src="/images/webinar/anurag.webp"
                                 alt="Voyage with SAP – Transformational RISE with SAP Services by Rialtes"
                                 priority
                                 className="w-full h-auto"
