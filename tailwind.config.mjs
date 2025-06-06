@@ -17,9 +17,10 @@ module.exports = {
         sm: "576px",
         md: "768px",
         lg: "992px",
-        xl: "1200px",
-        "2xl": "1400px",
-        "3xl": "1920px",
+        xl: "1200px",     
+    "2xl": "1366px",  
+    "3xl": "1536px",  
+    "4xl": "1728px",  
       },
       colors: {
         background: "var(--background)",

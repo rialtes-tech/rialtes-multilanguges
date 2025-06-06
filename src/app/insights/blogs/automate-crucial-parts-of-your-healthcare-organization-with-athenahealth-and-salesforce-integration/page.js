@@ -5,7 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+    "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+  },
+  "headline": "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
+  "description": "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
+  "image": "https://www.rialtes.com/images/blog/athenahealth-salesforce-integration.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-11",
+  "articleSection": "Healthcare Integration",
+  "url": "https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+}
 const blogs = [
   {
     id: 1,
@@ -145,10 +171,15 @@ export default function Page() {
         description="Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey."
         canonical="https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-8-banner.webp "
+          src="/images/blog/athenahealth-salesforce-integration.webp "
           alt="Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
           fill
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}

@@ -5,7 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+  },
+  "headline": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+  "description": "Discover how the Atlas Reasoning Engine powers Salesforce Agentforce, enabling AI agents to make smarter decisions and improve customer engagement.",
+  "image": "https://www.rialtes.com/images/blog/atlas-reasoning-engine-agentforce.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-10-21",
+  "articleSection": "Salesforce AI",
+  "url": "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+}
 const blogs = [
   {
     id: 1,
@@ -145,10 +171,14 @@ export default function Page() {
                 description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
                 canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
             />
+  <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-2-banner.webp "
+          src="/images/blog/atlas-reasoning-engine-agentforce.webp "
           alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
           fill
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}

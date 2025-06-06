@@ -5,7 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+  },
+  "headline": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+  "description": "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
+  "image": "https://www.rialtes.com/images/blog/sap-gts-sanctioned-party-screening.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-12-19",
+  "articleSection": "SAP GTS",
+  "url": "https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+}
 const blogs = [
   {
     id: 1,
@@ -146,29 +172,37 @@ export default function Page() {
         description="Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties."
         canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
       />
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/blog-10-banner.webp "
-          alt="Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions"
-          fill
-          style={{ objectFit: "cover", objectPosition: "40% 20%" }}
-          priority
-        />
+
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/enhancing-compliance-blog-desk-banner.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/enhancing-compliance-blog-mob-banner.webp"
+            alt="mobile banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+          />
+        </div>
       </section>
 
-      <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-      >
+      <section className="custom-container">
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div>
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>SAP GTS</span> <span className='text-[#ACACAC]'> | </span>19 Dec 2024
               </div>
@@ -187,115 +221,66 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions</h1>
+          <div>
+            <h1 className="text-[#000000] font-semibold pb-6">Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions</h1>
+          </div>
+          <div>
+            <p className="text-black pb-4">Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws. Failure to comply can result in severe financial penalties, reputational damage, and legal consequences.</p>
+            <p className="text-black">Many companies assume they can bypass screening their sales and purchase orders against sanctioned party lists when dealing with foreign entities. Some believe they are familiar enough with their business partners, while others are hesitant to invest in a systematic screening process. A few rely on manual checks or conduct screening only after orders have been processed and shipped. Unfortunately, this approach frequently results in fines when they discover they’ve unknowingly shipped to prohibited entities.  SAP’s Global Trade Services (SAP GTS) has world-class screening capabilities that mitigate the risk of trading with sanctioned parties. It offers a comprehensive solution for managing trade compliance using Free Trade Agreements (FTAs) including a robust feature for sanctioned party list (SPL) screening.</p>
+            <div className="py-6"></div>
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Understanding Sanctioned Party List Screening</h2>
+            <p className="text-black pb-4">A sanctioned party list compiles individuals and organizations with whom trade is legally prohibited. These lists are issued by government agencies and are available through data providers. Compliance with sanctioned party lists is mandatory for all traders. Sanctioned Party List (SPL) screening involves verifying that individuals, companies, or entities involved in a transaction are not listed on any government or international watchlists. These lists identify parties with whom trade is prohibited or restricted due to sanctions, embargoes, or security concerns. Examples include the U.S. Department of Treasury’s Specially Designated Nationals (SDN) list and the European Union’s restrictive measures list. For instance, when exporting goods, you can automate the process by comparing the consignees’ addresses with the entries on the sanctioned party list.</p>
+            <p className="text-black pb-4">SAP GTS provides a centralized platform to automate SPL screening processes, ensuring compliance without disrupting business operations. By integrating SPL screening into their workflows, businesses can reduce risks and maintain a proactive compliance stance.</p>
+            <div className="py-6"></div>
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Features of SPL Screening in SAP GTS</h2>
+            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 space-y-3">
+              <p> <li><h4 className="font-bold inline">Sanctioned Party List Screening in the GTS Area Menu with SAP GUI:</h4> To perform sanctioned party list screening within the same environment as other application areas and functions of the GTS system, you can utilize the area menu for seamless integration.</li></p>
+              <p> <li><h4 className="font-bold inline">Sanctioned Party List Screening with the Mobile App:</h4> The SAP Sanctioned Party List for iPhone mobile app allows compliance managers to address urgent and time-sensitive compliance issues on the go. Integrated with the SAP Global Trade Services application, this app provides direct access to exceptions via iPhone, helping compliance managers mitigate risks and avoid negative impacts on the company.</li></p>
+              <p> <li><h4 className="font-bold inline">Centralized Screening:</h4> SAP GTS consolidates screening processes across multiple systems, ensuring all business partners, transactions, and documents are checked against the latest SPL updates.</li></p>
+              <p> <li><h4 className="font-bold inline">Real-Time Screening:</h4> Transactions are screened in real-time, allowing businesses to identify and address potential compliance issues before execution.</li></p>
+              <p> <li><h4 className="font-bold inline">Customizable Rules:</h4> Companies can configure screening rules based on specific regulatory requirements, business needs, or risk tolerance.</li></p>
+              <p> <li><h4 className="font-bold inline">Integration with SAP ERP and Other Systems:</h4> SAP GTS seamlessly integrates with SAP ERP and third-party systems, enabling efficient data exchange and streamlined processes.</li></p>
+              <p> <li><h4 className="font-bold inline">Audit Trail and Reporting:</h4> Comprehensive logs and reporting tools help organizations demonstrate compliance during audits and investigations.</li></p>
+            </ul>
+
+            <div className="py-6"></div>
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Steps to Enable Third-Party Screening in SAP GTS</h2>
+            <p className="text-black pb-4">Third-party screening extends SPL checks beyond direct business partners to include subcontractors, freight forwarders, and other intermediaries. Here’s how organizations can do it:</p>
+
+            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 space-y-3">
+              <p> <li><h4 className="font-bold inline">Define Screening Scenarios:</h4> Identify all third-party entities requiring screening. Examples include suppliers, logistics providers, and financial institutions involved in your supply chain.</li></p>
+              <p> <li><h4 className="font-bold inline">Upload sanctioned party list entries:</h4> Use the transaction code /SAPSLL/SPL_UL01 to upload sanctioned party list entries to the SAP GTS system. </li></p>
+              <p> <li><h4 className="font-bold inline">Configure Business Partner Data:</h4> Ensure that relevant third-party data is maintained in SAP GTS. This includes names, addresses, and contact details.</li></p>
+              <p> <li><h4 className="font-bold inline">Update Sanctioned Party Lists:</h4> Regularly update SPLs in SAP GTS to reflect the latest regulatory changes. Automated updates can be configured to pull data from government or third-party sources.</li></p>
+              <p> <li><h4 className="font-bold inline">Set Up Screening Rules:</h4> Configure screening parameters to include third-party entities. Use fuzzy logic to account for variations in names, spellings, or abbreviations. Define legal regulations to map the relevant legislation of the countries in which you want to use SAP GTS. </li></p>
+              <p> <li><h4 className="font-bold inline">Integrate Third-Party Systems:</h4> Companies using external systems to manage third-party data should establish integration points to ensure seamless data transfer to SAP GTS.</li></p>
+              <p> <li><h4 className="font-bold inline">Set up a Remote Function Call (RFC) connection:</h4> Set up an RFC connection between SAP GTS and TREX. </li></p>
+              <p> <li><h4 className="font-bold inline">Test the Configuration:</h4> Conduct test screenings to validate that third-party entities are appropriately flagged for review or approval.</li></p>
+              <p> <li><h4 className="font-bold inline">Configure email alerts:</h4> Set it so that users are warned when they create a partner or document that is blocked. </li></p>
+              <p> <li><h4 className="font-bold inline">Train Users:</h4> Educate compliance teams on identifying and resolving flagged entities in SAP GTS to ensure efficient issue resolution.</li></p>
+
+            </ul>
+
+            <div className="py-6"></div>
+
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Comply with International Trade Regulations</h2>
+
+            <p className="text-black pb-4">Sanctioned party list screening is a vital component of a company’s compliance strategy. SAP GTS simplifies and enhances this process, offering real-time, automated screening capabilities that integrate seamlessly with existing systems. Enabling third-party screening means businesses can further strengthen their compliance framework, reduce risks, and maintain a competitive edge in global markets.</p>
+
+            <p className="text-black pb-4">Implementing SPL screening and extending it to third-party entities demonstrates a commitment to ethical business practices and regulatory adherence. With SAP GTS, organizations can navigate the complexities of international trade compliance with confidence and efficiency. As a <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://partnerfinder.sap.com/profile/0002050236"}><span className="font-bold">certified SAP partner</span></Link> with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}><span className="font-bold">SAP consultants</span></Link> possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation.</p>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
-
-              <p className="text-black pb-4">Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws. Failure to comply can result in severe financial penalties, reputational damage, and legal consequences.</p>
-
-              <p className="text-black">Many companies assume they can bypass screening their sales and purchase orders against sanctioned party lists when dealing with foreign entities. Some believe they are familiar enough with their business partners, while others are hesitant to invest in a systematic screening process. A few rely on manual checks or conduct screening only after orders have been processed and shipped. Unfortunately, this approach frequently results in fines when they discover they’ve unknowingly shipped to prohibited entities.  SAP’s Global Trade Services (SAP GTS) has world-class screening capabilities that mitigate the risk of trading with sanctioned parties. It offers a comprehensive solution for managing trade compliance using Free Trade Agreements (FTAs) including a robust feature for sanctioned party list (SPL) screening.</p>
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Understanding Sanctioned Party List Screening</h3>
-
-              <p className="text-black pb-4">A sanctioned party list compiles individuals and organizations with whom trade is legally prohibited. These lists are issued by government agencies and are available through data providers. Compliance with sanctioned party lists is mandatory for all traders. Sanctioned Party List (SPL) screening involves verifying that individuals, companies, or entities involved in a transaction are not listed on any government or international watchlists. These lists identify parties with whom trade is prohibited or restricted due to sanctions, embargoes, or security concerns. Examples include the U.S. Department of Treasury’s Specially Designated Nationals (SDN) list and the European Union’s restrictive measures list. For instance, when exporting goods, you can automate the process by comparing the consignees’ addresses with the entries on the sanctioned party list.</p>
-
-              <p className="text-black pb-4">SAP GTS provides a centralized platform to automate SPL screening processes, ensuring compliance without disrupting business operations. By integrating SPL screening into their workflows, businesses can reduce risks and maintain a proactive compliance stance.</p>
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Features of SPL Screening in SAP GTS</h3>
-
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Sanctioned Party List Screening in the GTS Area Menu with SAP GUI:</span> To perform sanctioned party list screening within the same environment as other application areas and functions of the GTS system, you can utilize the area menu for seamless integration.</li>
-                <li><span className="font-bold">Sanctioned Party List Screening with the Mobile App:</span> The SAP Sanctioned Party List for iPhone mobile app allows compliance managers to address urgent and time-sensitive compliance issues on the go. Integrated with the SAP Global Trade Services application, this app provides direct access to exceptions via iPhone, helping compliance managers mitigate risks and avoid negative impacts on the company.</li>
-                <li><span className="font-bold">Centralized Screening:</span> SAP GTS consolidates screening processes across multiple systems, ensuring all business partners, transactions, and documents are checked against the latest SPL updates.</li>
-                <li><span className="font-bold">Real-Time Screening:</span> Transactions are screened in real-time, allowing businesses to identify and address potential compliance issues before execution.</li>
-                <li><span className="font-bold">Customizable Rules:</span> Companies can configure screening rules based on specific regulatory requirements, business needs, or risk tolerance.</li>
-                <li><span className="font-bold">Integration with SAP ERP and Other Systems:</span> SAP GTS seamlessly integrates with SAP ERP and third-party systems, enabling efficient data exchange and streamlined processes.</li>
-                <li><span className="font-bold">Audit Trail and Reporting:</span> Comprehensive logs and reporting tools help organizations demonstrate compliance during audits and investigations.</li>
-              </ul>
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Steps to Enable Third-Party Screening in SAP GTS</h3>
-
-              <p className="text-black pb-4">Third-party screening extends SPL checks beyond direct business partners to include subcontractors, freight forwarders, and other intermediaries. Here’s how organizations can do it:</p>
-
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Define Screening Scenarios:</span> Identify all third-party entities requiring screening. Examples include suppliers, logistics providers, and financial institutions involved in your supply chain.</li>
-                <li><span className="font-bold">Upload sanctioned party list entries:</span> Use the transaction code /SAPSLL/SPL_UL01 to upload sanctioned party list entries to the SAP GTS system. </li>
-                <li><span className="font-bold">Configure Business Partner Data:</span> Ensure that relevant third-party data is maintained in SAP GTS. This includes names, addresses, and contact details.</li>
-                <li><span className="font-bold">Update Sanctioned Party Lists:</span> Regularly update SPLs in SAP GTS to reflect the latest regulatory changes. Automated updates can be configured to pull data from government or third-party sources.</li>
-                <li><span className="font-bold">Set Up Screening Rules:</span> Configure screening parameters to include third-party entities. Use fuzzy logic to account for variations in names, spellings, or abbreviations. Define legal regulations to map the relevant legislation of the countries in which you want to use SAP GTS. </li>
-                <li><span className="font-bold">Integrate Third-Party Systems:</span> Companies using external systems to manage third-party data should establish integration points to ensure seamless data transfer to SAP GTS.</li>
-                <li><span className="font-bold">Set up a Remote Function Call (RFC) connection:</span> Set up an RFC connection between SAP GTS and TREX. </li>
-                <li><span className="font-bold">Test the Configuration:</span> Conduct test screenings to validate that third-party entities are appropriately flagged for review or approval.</li>
-                <li><span className="font-bold">Configure email alerts:</span> Set it so that users are warned when they create a partner or document that is blocked. </li>
-                <li><span className="font-bold">Train Users:</span> Educate compliance teams on identifying and resolving flagged entities in SAP GTS to ensure efficient issue resolution.</li>
-
-              </ul>
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Comply with International Trade Regulations</h3>
-
-              <p className="text-black pb-4">Sanctioned party list screening is a vital component of a company’s compliance strategy. SAP GTS simplifies and enhances this process, offering real-time, automated screening capabilities that integrate seamlessly with existing systems. Enabling third-party screening means businesses can further strengthen their compliance framework, reduce risks, and maintain a competitive edge in global markets.</p>
-
-              <p className="text-black pb-4">Implementing SPL screening and extending it to third-party entities demonstrates a commitment to ethical business practices and regulatory adherence. With SAP GTS, organizations can navigate the complexities of international trade compliance with confidence and efficiency. As a <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://partnerfinder.sap.com/profile/0002050236"}><span className="font-bold">certified SAP partner</span></Link> with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}><span className="font-bold">SAP consultants</span></Link> possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation.</p>
-            </div>
-          </div>
         </div>
       </section>
 
       {/* Latest Blogs */}
-      <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        pb-10"
-      >
+      <div className="custom-container lg:pr-0 pb-10">
         <BlogsCarousel slides={blogs} />
-
       </div>
     </div>
   );

@@ -5,7 +5,33 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-
+const schemaData={
+  "@context": "https://schema.org",
+ "@type": "BlogPosting",
+"mainEntityOfPage": {
+   "@type": "WebPage",
+   "@id": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+ },
+"headline": "How Salesforce Agentforce Actually Works",
+"description": "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
+ "image": "https://www.rialtes.com/images/blog/how-agentforce-works-blog-banner.webp",
+ "author": {
+   "@type": "Organization",
+   "name": "Rialtes",
+   "url": "https://www.rialtes.com"
+ },
+"publisher": {
+   "@type": "Organization",
+   "name": "Rialtes",
+   "logo": {
+    "@type": "ImageObject",
+     "url": "https://www.rialtes.com/images/homepage/logo.svg"
+   }
+ },
+"datePublished": "2024-09-30",
+"articleSection": "Salesforce",
+ "url": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+}
 const blogs = [
   /*{
     id: 1,
@@ -147,10 +173,15 @@ export default function Page() {
         description="Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!"
         canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
       />
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/blog-1-banner.webp "
+          src="/images/blog/how-agentforce-works-blog-banner.webp "
           alt="How Salesforce Agentforce Actually Works"
           fill
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}
