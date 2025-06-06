@@ -58,7 +58,7 @@ const carouselData = [
     {
         title: "Blogs",
         description:
-            "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
+            "How Agentforce Agents Scale ERP Systems with AI ",
         image: "/images/blog/blog-12.webp",
         link: '/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai'
     },
