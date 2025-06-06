@@ -66,6 +66,35 @@ export default function retailPage() {
         "AI-powered insights on loyalty performance and churn risks.",
     ]
 
+    const frictionlessData = [
+        "SAP S/4HANA and Oracle ERP for order-to-cash, finance, and procurement.",
+        "Salesforce Commerce and Marketing Cloud for customer engagement.",
+        "MuleSoft as middleware for API-driven, real-time data flow.",
+        "Automated workflows — from orders and inventory to invoicing and logistics.",
+    ]
+
+    const rightData = [
+        "Build a tailored tech stack aligned with business goals.",
+        "Select optimal SAP, Salesforce, Oracle components.",
+        "Use our accelerators for rapid ROI and minimal disruption.",
+        "Future-proof your operations for scalability and agility.",
+    ]
+
+    const aiPoweredRetailData = [
+        "AI chatbots for instant, personalized service and FAQs.",
+        "Predictive analytics for demand, trends, and customer behavior.",
+        "Smart product recommendations and upselling.",
+        "AI-driven dynamic pricing and inventory optimization.",
+        "AI-powered fraud prevention and loss reduction."
+    ]
+
+    const fastData = [
+        "Instant inventory checks and fulfillment.",
+        "AI-optimized delivery routing and last-mile logistics.",
+        "Real-time customer updates and personalized promotions.",
+        "SAP CAR and Salesforce Commerce integrations for end-to-end quick commerce.",
+        "Pre-integrated mobile apps and POS extensions."
+    ]
     return (
         <section className="min-h-screen">
             <Seo
@@ -391,22 +420,27 @@ export default function retailPage() {
                             Retail success needs harmony between customer-facing and backend systems. Rialtes connects:
                         </p>
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]">
-                            {newRealityData.map((data, ind) => (
+                            {frictionlessData.map((data, ind) => (
                                 <li
                                     className="text-[16px] xl:text-[22px] leading-tight font-normal"
                                     key={ind}
                                 >
-                                    <span className="font-bold">{data.title} </span>{data.subtitle}
+                                    {data}
                                 </li>
                             ))}
                         </ul>
+                        <div className="bg-[#163055] text-[#ffffff] md:mt-[39px] mt-[35px]">
+                            <p className="xl:text-[24px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
+                                Achieve operational excellence with zero silos.
+                            </p>
+                        </div>
                     </div>
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
 
                             <Image
-                                src="/images/industry/retail-industry/Mobile/new-reality-mob-img.webp"
+                                src="/images/industry/retail-industry/Mobile/frictionless-mob-img.webp"
                                 alt="mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
@@ -416,7 +450,7 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/new-reality-desk-img.webp"
+                                src="/images/industry/retail-industry/frictionless-desk-img.webp"
                                 alt="mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
@@ -426,16 +460,171 @@ export default function retailPage() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#163055] md:w-[90%] 2xl:w-[80%] max-md:mx-[36px] text-[#ffffff] max-md:mt-[35px]">
-                    <p className="xl:text-[24px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
-                        At Rialtes, we help you turn these challenges into growth opportunities by crafting modern, AI-powered, integrated solutions tailored for retail.
-                    </p>
-                </div>
+            </section>
 
-                <div className="lg:mt-[50px] mt-[36px] max-md:mx-[36px]">
-                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+            {/* making right section */}
+            <section className="custom-container xl:mt-[71px] mt-[76px] lg:pr-0 max-md:px-0">
+                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 2xl:gap-[80px] gap-y-[41px]">
+                    <div className="md:col-span-5 col-span-12 md:order-1 order-2 max-md:px-[36px]">
+                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                            Making the Right Tech Choices
+                        </h2>
+                        <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[31px] mt-[23px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
+                            How Retailers Can Win with Rialtes
+                        </h3>
+                        <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
+                            Choosing the right tools shapes your brand’s future. Rialtes guides you to:
+                        </p>
+                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] 2xl:w-[80%]">
+                            {rightData.map((data, ind) => (
+                                <li
+                                    className="text-[16px] xl:text-[22px] leading-tight font-normal"
+                                    key={ind}
+                                >
+                                    {data}
+                                </li>
+                            ))}
+                        </ul>
+
+                    </div>
+                    <div className="md:col-span-7 col-span-12 md:order-2 order-1">
+                        {/* Mobile image */}
+                        <div className="block md:hidden w-full h-full">
+
+                            <Image
+                                src="/images/industry/retail-industry/Mobile/right-mob-img.webp"
+                                alt="mobile image"
+                                className="w-full h-full object-cover"
+                                width={0}
+                                height={0}
+                            />
+                        </div>
+                        {/* Desktop image */}
+                        <div className="hidden md:block w-full h-full">
+                            <Image
+                                src="/images/industry/retail-industry/right-desk-img.webp"
+                                alt="mobile image"
+                                className="w-full h-full object-cover"
+                                width={0}
+                                height={0}
+                                style={{ objectPosition: '30% 20%' }}
+                            />
+                        </div>
+                    </div>
                 </div>
             </section>
+
+            {/* ai powered retail section */}
+            <section className="custom-container xl:mt-[123px] mt-[65px] lg:pl-0 max-lg:px-0 bg-[#B2D6D9]">
+                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[50px] 2xl:gap-[80px]">
+                    <div className="md:col-span-6 col-span-12">
+                        {/* Mobile image */}
+                        <div className="block md:hidden w-full h-full">
+
+                            <Image
+                                src="/images/industry/retail-industry/Mobile/ai-powered-mob-img.webp"
+                                alt="mobile image"
+                                className="w-full h-full object-cover"
+                                width={0}
+                                height={0}
+                            />
+                        </div>
+                        {/* Desktop image */}
+                        <div className="hidden md:block w-full h-full">
+                            <Image
+                                src="/images/industry/retail-industry/ai-powered-desk-img.webp"
+                                alt="mobile image"
+                                className="w-full h-full object-cover"
+                                width={0}
+                                height={0}
+                                style={{ objectPosition: '40% 20%' }}
+                            />
+                        </div>
+                    </div>
+                    <div className="md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto lg:pt-[60] pt-[41px]">
+                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                            AI-Powered Retail
+                        </h2>
+                        <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[39px] mt-[23px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
+                            The New Standard for Exceptional Customer Experience
+                        </h3>
+                        <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
+                            Artificial Intelligence is transforming every facet of retail:
+                        </p>
+                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] 2xl:w-[80%]">
+                            {aiPoweredRetailData.map((data, ind) => (
+                                <li
+                                    className="text-[16px] xl:text-[22px] leading-tight font-normal"
+                                    key={ind}
+                                >
+                                    {data}
+                                </li>
+                            ))}
+                        </ul>
+                        <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[31px] mt-[44px]">
+                            With Rialtes, AI becomes an integrated part of your customer and operational strategy.
+                        </p>
+
+                        <div className="xl:mt-[74px] mt-[31px]">
+                            <LearnMore />
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* fast flexible section */}
+            <section className="custom-container xl:mt-[74px] mt-[53px] lg:pl-0 max-lg:px-0 bg-[#EAC84C]">
+                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[20px] 2xl:gap-[80px]">
+
+
+                    <div className="2xl:col-span-7 md:col-span-6 col-span-12">
+                        {/* Mobile Background */}
+                        <div
+                            className="block md:hidden w-full bg-cover h-[420px] sm:h-[630px]"
+                            style={{ backgroundImage: "url('/images/industry/retail-industry/Mobile/fast-mob-img.webp')" }}
+                        />
+
+                        {/* Desktop Background */}
+                        <div
+                            className="hidden md:block w-full h-full bg-cover"
+                            style={{ backgroundImage: "url('/images/industry/retail-industry/fast-desk-img.webp')", backgroundPosition: "8% 20%" }}
+                        />
+                    </div>
+
+
+                    <div className="2xl:col-span-5 md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto lg:pt-[72px] pt-[31px] lg:pb-[97px] pb-[83px]">
+                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                            Fast, Flexible, and Seamless
+                        </h2>
+                        <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[39px] mt-[23px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
+                            Quick Commerce Solutions Powered by SAP & Salesforce
+                        </h3>
+                        <p className="xl:text-[22px] text-[18px] leading-tight font-semibold xl:mt-[41px] mt-[24px]">
+                            Speed is the new loyalty in retail. Rialtes helps you embrace Quick Commerce:
+                        </p>
+                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[31px] pl-[20px]">
+                            {fastData.map((data, ind) => (
+                                <li
+                                    className="text-[16px] xl:text-[22px] leading-tight font-normal"
+                                    key={ind}
+                                >
+                                    {data}
+                                </li>
+                            ))}
+                        </ul>
+                        <div className="absolute md:w-[50%] lg:w-auto">
+                            <div className="bg-[#163055] text-[#ffffff] lg:mt-[62px] mt-[35px]">
+                                <p className="xl:text-[24px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
+                                    Deliver in minutes, delight for years.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             {/* Contact Form */}
             < div className="custom-container lg:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px]">
                 <ContactForm title={'Let’s Transform Retail Together — With Rialtes as Your Strategic Partner'} subtitle="Ready to reimagine your retail journey? Rialtes brings the tools, expertise, and innovation you need to thrive in today’s demanding landscape." subtitle1=" Contact us today to unlock the future of retail." className={"xl:w-[90%] 2xl:w-[70%] lg:w-[90%]"} />
