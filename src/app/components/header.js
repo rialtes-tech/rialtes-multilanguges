@@ -98,6 +98,8 @@ const Header = () => {
           subLinks: [
             { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
             { label: 'Data-Sphere', href: '/solutions/data-ai/data-sphere' },
+          { label: 'SAP BDC', href: '/solutions/data-ai/sap-business-data-cloud-bdc-consulting' },
+
 
           ],
         },
@@ -496,6 +498,7 @@ const Header = () => {
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")}
                               onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-10" label="SAP BDC" link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/")} onHover={() => { }} />
 
                           </div>
                           <div>
