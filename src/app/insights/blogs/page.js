@@ -161,7 +161,7 @@ const latestBlogs = [
     industry: "Healthcare",
     date: "11 Nov 2024",
     url: '/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration',
-    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
+    title: "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
     description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
   },
   {
@@ -181,7 +181,7 @@ const latestBlogs = [
     industry: "Generic",
     date: "19 Dec 2024",
     url: '/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions',
-    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+    title: "Role of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
     description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
   },
   {
