@@ -310,7 +310,6 @@ const handleSearchChange = (event) => {
       <Head>
         <title>Webinar | Rialtes</title>
         <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div

@@ -186,7 +186,6 @@ export default function Page() {
       <Head>
         <title>Services | Company Name</title>
         <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">

@@ -170,7 +170,6 @@ export default function Page() {
       <Head>
         <title>Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow? | Company Name</title>
         <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Seo

@@ -172,7 +172,7 @@ const blogs = [
 ];
 
 export default function Page() {
-  const fullUrl = "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
 
   return (
     <div className="min-h-screen bg-white">

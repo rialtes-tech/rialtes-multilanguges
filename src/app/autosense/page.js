@@ -9,7 +9,6 @@ export default function Autosense() {
       <Head>
         <title>Autosense | Company Name</title>
         <meta name="description" content="About our company" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <section className="relative xl:h-[650px] bg-[url('/images/autosense/Banner-1.webp')] bg-cover bg-right overflow-hidden">

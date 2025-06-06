@@ -188,7 +188,6 @@ export default function Page() {
             <Head>
                 <title>Grow with SAP | Company Name</title>
                 <meta name="description" content="About our company" />
-                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">

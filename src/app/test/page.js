@@ -13,7 +13,6 @@ export default function Home() {
           name="description"
           content="How Salesforce Health Cloud is revolutionizing the MedTech solutions industry"
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
