@@ -188,18 +188,12 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Integration</span> <span className='text-[#ACACAC]'> | </span>11 Nov 2024
               </div>
@@ -218,7 +212,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
+                  {/* <div className="max-w-[40px]">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
@@ -243,18 +237,18 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration</h1>
+          <div className="">
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">Automate Your Healthcare Organization with athenahealth and Salesforce Integration</h1>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div className="">
+            <div className="">
 
               <p className="text-black pb-4">Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market. Delivering a seamless patient experience is as important as providing quality care. With the increasing need for efficient patient management and data integration, healthcare providers are turning to strategic EHR/EMR app integrations and data operations to enhance their CRM systems.</p>
 
@@ -262,84 +256,83 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Understanding athenahealth</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Understanding athenahealth</h2>
 
-              <p className="text-black pb-4">athenahealth is a cloud-based electronic health record (EHR) system designed to support healthcare providers in enhancing patient care. Its user-friendly interface allows access from any location with an internet connection, making it ideal for providers who need to manage patient records across multiple locations. Known for providing cloud-based services for electronic health records (EHR), revenue cycle management and medical billing, patient engagement, care coordination, and population health management. Athenahealth’s EHR system is highly interoperable, allowing seamless integration with other practice management software like laboratory, imaging, and medical billing systems. It also offers advanced analytics capabilities, empowering healthcare providers to make data-driven decisions for improved patient care.</p>
+              <p className="text-black ">athenahealth is a cloud-based electronic health record (EHR) system designed to support healthcare providers in enhancing patient care. Its user-friendly interface allows access from any location with an internet connection, making it ideal for providers who need to manage patient records across multiple locations. Known for providing cloud-based services for electronic health records (EHR), revenue cycle management and medical billing, patient engagement, care coordination, and population health management. Athenahealth’s EHR system is highly interoperable, allowing seamless integration with other practice management software like laboratory, imaging, and medical billing systems. It also offers advanced analytics capabilities, empowering healthcare providers to make data-driven decisions for improved patient care.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">athenahealth and Salesforce Health Cloud Integration</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">athenahealth and Salesforce Health Cloud Integration</h2>
 
               <p className="text-black pb-4">Both athenahealth and Salesforce have strong capabilities, but when used together, they provide a more comprehensive view of patient interactions and data across the healthcare journey. Integrating athenahealth with Salesforce is beneficial in many ways.</p>
 
 
-              <p className="text-black pb-4 font-bold">Unified Patient Profiles</p>
+              <h3 className="text-black pb-4 h3-bold">Unified Patient Profiles</h3>
 
               <p className="text-black pb-4">With integration, healthcare providers gain a unified patient profile, combining clinical data from athenahealth with CRM data from Salesforce. This allows providers to view medical histories, appointment records, and interactions in one place. Having a 360-degree view of each patient enhances patient engagement, enabling personalized care based on complete historical and real-time data.</p>
 
-              <p className="text-black pb-4 font-bold">Enhanced Care Coordination</p>
+              <h3 className="text-black pb-4 h3-bold">Enhanced Care Coordination</h3>
 
               <p className="text-black pb-4">Care teams benefit from real-time updates on patients’ health conditions and treatment plans for better coordination. When patients receive treatment, Salesforce can alert care teams to schedule follow-up appointments and send instructions, ensuring patients are on track with their care plans.</p>
 
 
 
-              <p className="text-black pb-4 font-bold">Streamlined Scheduling and Billing Processes</p>
+              <h3 className="text-black pb-4 h3-bold">Streamlined Scheduling and Billing Processes</h3>
 
               <p className="text-black pb-4">Patient scheduling and billing can often be cumbersome and time-consuming. The integration simplifies this process by automatically synchronizing scheduling and billing data. Patients can book appointments online through the Salesforce interface, and billing information is seamlessly synced with Athenahealth’s billing module, reducing administrative overhead and errors.</p>
 
-              <p className="text-black pb-4 font-bold">Improved Patient Communication</p>
+              <h3 className="text-black pb-4 h3-bold">Improved Patient Communication</h3>
 
               <p className="text-black pb-4">Salesforce allows customized patient outreach through automated emails, SMS, and calls, making appointment reminders, follow-up messages, and wellness check-ins easy to manage. Integration with athenahealth ensures these communications are based on accurate and timely health records, improving response rates and patient satisfaction.</p>
 
-              <p className="text-black pb-4 font-bold">Enhanced Data Analytics and Reporting</p>
+              <h3 className="text-black pb-4 h3-bold">Enhanced Data Analytics and Reporting</h3>
 
-              <p className="text-black pb-4">Salesforce’s advanced reporting capabilities, combined with Athenahealth’s EHR data, enable healthcare providers to create detailed reports for better insights into patient demographics, treatment outcomes, and care efficiency. Analytics-driven insights help providers optimize resources, forecast patient demand, and monitor operational metrics.</p>
+              <p className="text-black ">Salesforce’s advanced reporting capabilities, combined with Athenahealth’s EHR data, enable healthcare providers to create detailed reports for better insights into patient demographics, treatment outcomes, and care efficiency. Analytics-driven insights help providers optimize resources, forecast patient demand, and monitor operational metrics.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">How the Integration Works for Better Data Connections and Patient Communication</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">How the Integration Works for Better Data Connections and Patient Communication</h2>
 
               <p className="text-black pb-4">Integrating athenahealth and Salesforce involves API connections that synchronize data between the two platforms. The integration can be custom-built by developers or facilitated by third-party applications that specialize in healthcare CRM integrations.</p>
 
-              <p className="text-black pb-4 font-bold">Data Mapping and Synchronization</p>
+              <h3 className="text-black pb-4 h3-bold">Data Mapping and Synchronization</h3>
 
               <p className="text-black pb-4">Synchronizing data between athenahealth and Salesforce requires careful data mapping to ensure that information from EHR records is accurately reflected in CRM fields. Patient demographics, appointment details, billing records, and treatment plans are updated in real-time, allowing both systems to remain aligned.</p>
 
-              <p className="text-black pb-4 font-bold">Automated Workflow Management</p>
+              <h3 className="text-black pb-4 h3-bold">Automated Workflow Management</h3>
 
               <p className="text-black pb-4">Salesforce workflows can trigger notifications, reminders, or task assignments based on Athenahealth data. For instance, if a patient’s lab results require immediate follow-up, Salesforce can automatically create tasks and reminders for the care team.</p>
 
-              <p className="text-black pb-4 font-bold">Secure Data Management and Compliance</p>
+              <h3 className="text-black pb-4 h3-bold">Secure Data Management and Compliance</h3>
 
-              <p className="text-black pb-4">The integration between athenahealth and Salesforce must comply with regulations like HIPAA. Both systems have built-in security and compliance protocols, but the integration layer should also incorporate encryption, access controls, and secure APIs to protect patient information.</p>
+              <p className="text-black ">The integration between athenahealth and Salesforce must comply with regulations like HIPAA. Both systems have built-in security and compliance protocols, but the integration layer should also incorporate encryption, access controls, and secure APIs to protect patient information.</p>
 
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Use Cases in Healthcare</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Use Cases in Healthcare</h2>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
-                <li><span className="font-bold">Patient Onboarding and Registration:</span> New patients can fill out forms and provide information directly through Salesforce, which updates Athenahealth EHRs automatically, reducing manual data entry and minimizing errors.</li>
+              <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li><h4 className="inline">Patient Onboarding and Registration </h4> : New patients can fill out forms and provide information directly through Salesforce, which updates Athenahealth EHRs automatically, reducing manual data entry and minimizing errors.</li></p>
+                <p className="text-black pb-4"><li><h4 className="inline">Synchronized Patient Information Management </h4> : It enhances the interchangeability of patient information updates between EHR and CRM systems to maintain accurate, up-to-date patient records across platforms.</li></p>
 
-                <li><span className="font-bold">Synchronized Patient Information Management:</span> It enhances the interchangeability of patient information updates between EHR and CRM systems to maintain accurate, up-to-date patient records across platforms.</li>
+                    <p className="text-black pb-4"><li><h4 className="inline">Proactive Patient Outreach and Wellness Programs </h4> : By using Salesforce’s marketing tools, healthcare providers can segment patients based on their health data from Athenahealth and send tailored wellness tips, reminders for annual checkups, and follow-up care instructions.</li></p>
 
-                <li><span className="font-bold">Proactive Patient Outreach and Wellness Programs:</span> By using Salesforce’s marketing tools, healthcare providers can segment patients based on their health data from Athenahealth and send tailored wellness tips, reminders for annual checkups, and follow-up care instructions.</li>
+                        <p className="text-black pb-4 "><li><h4 className="inline">Chronic Disease Management Programs </h4> : For patients managing chronic conditions, frequent monitoring is essential. Integrating Athenahealth with Salesforce enables care teams to track patient status, send regular check-ins, and provide educational resources on managing specific conditions.</li></p>
 
-                <li><span className="font-bold">Chronic Disease Management Programs:</span> For patients managing chronic conditions, frequent monitoring is essential. Integrating Athenahealth with Salesforce enables care teams to track patient status, send regular check-ins, and provide educational resources on managing specific conditions.</li>
-
-                <li><span className="font-bold">Population Health Management:</span> Athenahealth’s clinical data combined with Salesforce’s CRM insights empowers healthcare providers to analyze population health trends. This enables providers to target high-risk populations with preventive care and health education.</li>
-
-
+                         <p className="text-black "><li><h4 className="inline">Population Health Management </h4> : Athenahealth’s clinical data combined with Salesforce’s CRM insights empowers healthcare providers to analyze population health trends. This enables providers to target high-risk populations with preventive care and health education.</li></p>
+                     
               </ul>
-
+            </div>
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Find the Perfect Fit for Your Healthcare Needs</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Find the Perfect Fit for Your Healthcare Needs</h2>
 
 
-              <p className="text-black pb-4">With Athenahealth and Salesforce, you can securely connect and access data through APIs, enabling you to manage all patient records—from demographic history to post-discharge condition—on a single platform. This streamlined access is made possible through the integration of Athenahealth and Salesforce.</p>
+              <p className="text-black pb-4">You can securely connect and access data through APIs, enabling you to manage all patient records, from demographic history to post-discharge condition, on a single platform. This streamlined access is made possible through the integration of athenahealth and Salesforce.</p>
 
-              <p className="text-black pb-4">Offer the best possible care to your patients, improve care coordination, and reduce the likelihood of medical errors. A dedicated team like ours delivers advanced Salesforce solutions tailored to your specific business needs. Whether your organization aims to enhance its athenahealth platform by integrating it with Salesforce or upgrade an existing Salesforce integration to improve user experience and workflow.  Rialtes, a <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}><span className="font-bold">Salesforce consulting firm</span></Link> with in-depth expertise in the <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"}><span className="font-bold">healthcare industry</span></Link>, is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients.</p>
+              <p className="text-black pb-4">Offer the best possible care to your patients, improve care coordination, and reduce the likelihood of medical errors. A dedicated team like ours delivers advanced Salesforce solutions tailored to your specific business needs. Whether your organization aims to enhance its athenahealth platform by integrating it with Salesforce or upgrade an existing Salesforce integration to improve user experience and workflow.  Rialtes, a <Link className=" text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}><span className="">Salesforce consulting firm</span></Link> with in-depth expertise in the <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"}><span className="">healthcare industry</span></Link>, is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients.</p>
 
             </div>
           </div>
@@ -349,12 +342,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        custom-container lg:pr-0
         pb-10"
       >
         <BlogsCarousel slides={blogs} />
