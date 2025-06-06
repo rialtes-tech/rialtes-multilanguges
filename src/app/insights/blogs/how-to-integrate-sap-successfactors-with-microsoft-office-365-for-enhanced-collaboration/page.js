@@ -163,6 +163,8 @@ const blogs = [
 ];
 
 export default function Page() {
+    const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration";
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -204,8 +206,11 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration&summary=Summary%20of%20the%20blog&source=LinkedIn">
-                      <Image
+                       <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                               <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}

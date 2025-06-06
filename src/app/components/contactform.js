@@ -122,10 +122,10 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         const response = await fetch(form.action, {
             method: 'POST',
             body: formData,
-            mode: 'no-cors' // Salesforce doesn't return CORS headers
+            mode: 'no-cors' 
         });
 
-        form.reset(); // Clears all input values
+        form.reset(); 
         setUserAnswer('');
         setCaptcha(generateCaptcha());
 
@@ -138,7 +138,6 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 };
 
     useEffect(() => {
-    // Reset form and captcha on component mount
     if (formRef.current) {
         formRef.current.reset();
     }
@@ -229,7 +228,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         Let's Begin
                     </button>
                 </div>
-<div>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+             <div>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
 
                 <div>
                     <AnimatePresence>

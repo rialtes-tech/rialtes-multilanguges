@@ -64,6 +64,16 @@ const webinars = [
 
 const allWebinars = [
   {
+    id: 4,
+    title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+    date: "June 03, 2025",
+    time: "10:00 AM CST",
+      speaker: "Anuraag Aggarwal",
+      position: "Vice President of Global Sales",
+    image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+    url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes'
+  },
+  {
     id: 1,
     title: "Discover the Agentic Capabilities of Agentforce",
     date: "May 15, 2025",
@@ -284,16 +294,10 @@ export default function About() {
           priority
         />
         <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+          className="custom-container h-full relative"
         >
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <h1 className="text-[#000000] max-w-2xl">
+          <div className="h-full flex flex-col justify-center">
+            <h1 className="text-[#000000] max-w-2xl leading-tight xl:text-[40px] 4xl:text-[60px]">
               A symphony of
               <br />
               expert voices
@@ -303,12 +307,7 @@ export default function About() {
       </section>
 
       <div
-        className="
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container xl:!pr-0"
       >
         <section className="py-16 bg-white">
           <div>
@@ -319,7 +318,7 @@ export default function About() {
 
             <div className="w-full">
               <div className="flex items-center mb-6 justify-between">
-                <h2 className="w-full md:w-3/4">Upcoming Webinars</h2>
+                <h2 className="w-full md:w-3/4 xl:text-[40px] 4xl:text-[56px]">Upcoming Webinars</h2>
 
                 <div className="w-1/4 hidden sm:block">
                   <div className="h-full flex gap-10">
@@ -509,8 +508,12 @@ export default function About() {
           </div>
         </section>
         <div>
-          <section className=" px-4 py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
-            <h2 className="mb-6">Past Webinars</h2>
+        
+        </div>
+      </div>
+<div className="custom-container xl:!pr-[142px]">
+    <section className="py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
+            <h2 className="mb-6 xl:text-[40px] 4xl:text-[56px]">Past Webinars</h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
               {visibleWebinars.map((webinar) => (
@@ -554,7 +557,7 @@ export default function About() {
                     </div>
 
                     <div className="p-8 flex flex-col flex-grow items-start gap-2">
-                      <h3 className="text-[#134874] mb-2  pr-8">{webinar.title}</h3>
+                      <h3 className="text-[#134874] mb-2  pr-8 xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
 
                       <div className="text-sm text-gray-600 mb-3">
                         <p>{webinar.date}</p>
@@ -589,8 +592,7 @@ export default function About() {
               </div>
             )}
           </section>
-        </div>
-      </div>
+</div>
 
 
     </div>

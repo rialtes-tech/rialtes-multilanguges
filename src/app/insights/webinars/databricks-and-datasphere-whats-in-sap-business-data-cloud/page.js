@@ -91,33 +91,17 @@ export default function () {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
+            <section className="relative  custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/Webinar_13 May 25_webinar Banner.webp"
                     alt="Webinar Header"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                     priority
+                    className="w-full h-full"
+                    width={0}
+                    height={0}
                 />
-                <div
-                    className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-                >
-                    {/* <div className="container mx-auto h-full flex flex-col justify-center">
-                        <h1 className="text-[#000000] max-w-2xl">
-                            A symphony of
-                            <br />
-                            expert voices
-                        </h1>
-                    </div> */}
-                </div>
             </section>
-            <div className="grid xl:grid-cols-12 grid-cols-1 xl:ml-[280px] mx-[35px]">
+            <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
                 <div className="xl:col-span-7 col-span-12 pb-10">
                     <div className="flex flex-row gap-6  mt-10">
                         <div className="max-w-[40px]">
@@ -164,22 +148,22 @@ export default function () {
                             </a>
                         </div> */}
                     </div>
-                    <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal">Databricks and Datasphere — What’s in SAP Business Data Cloud?</h1>
-                    <div className="grid xl:grid-cols-12 xl:mt-16 mt-10">
+                    <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal xl:text-[40px] 4xl:text-[60px]">Databricks and Datasphere — What’s in SAP Business Data Cloud?</h1>
+                    <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
                                 src="/images/webinar/Akshay-Kale.webp"
                                 alt="Databricks and Datasphere — What’s in SAP Business Data Cloud?"
                                 priority
-                                className="xl:w-[256px] xl:h-[256px] w-full h-auto"
+                                className="w-full h-auto"
                                 width={0}
                                 height={0}
                             />
                         </div>
                         <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">
                             <h3 className="xl:text-[24px] text-[#0092E0]">Speaker</h3>
-                            <h3 className="mt-3 xl:text-[29px] font-bold mb-3">Akshay Kale</h3>
-                            <h3 className="mt-[-10px] xl:text-[24px]">Sr. Managing Director – SAP Services</h3>
+                            <h3 className="mt-3 4xl:text-[29px] text-[22px] font-bold mb-3">Akshay Kale</h3>
+                            <h3 className="mt-[-10px] 4xl:text-[24px] xl:text-[20px]">Sr. Managing Director – SAP Services</h3>
                         </div>
                     </div>
                     <p className="mt-16 xl:pr-32">Don’t miss this opportunity to join us for an exclusive webinar to explore how <strong>Salesforce Automotive Cloud</strong> is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.</p>
@@ -246,12 +230,12 @@ export default function () {
                     <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
                     <h3 className="mt-10">Can’t Make It?</h3>
                     <p className="mt-3">No problem! Go ahead and register, and we’ll send you a recording of the webinar afterward, so you can watch it whenever it suits you best.</p>
-                    <p className="mt-10 pb-16 xl:pb-0">For inquiries, please contact sales@rialtes.com.</p>
+                    <p className="mt-10 xl:pb-0">For inquiries, please contact sales@rialtes.com.</p>
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
 
             </div>
-            <div ref={sectionRef}  className="xl:ml-[280px] md:ml-[100px] mx-[35px] mb-20">
+            <div ref={sectionRef}  className="custom-container mb-20">
                 <WebinarForm
                     redirectUrl="https://www.youtube.com/watch?v=UNe7QQHRMUU&t=569s"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"

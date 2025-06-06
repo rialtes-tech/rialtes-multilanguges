@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-const schemaData={
-    "@context": "https://schema.org",
+const schemaData = {
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -171,7 +171,7 @@ export default function Page() {
         description="SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!"
         canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
       />
-  <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
@@ -181,24 +181,18 @@ export default function Page() {
           src="/images/blog/successfactors-performance-goals.webp "
           alt="SAP SuccessFactors Performance and Goal Management"
           fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority
+               style={{ objectFit: "cover", objectPosition: "90% 20%" }}
         />
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>SAP SuccessFactors</span> <span className='text-[#ACACAC]'> | </span>29 Oct 2024
               </div>
@@ -217,7 +211,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
+                  {/* <div className="max-w-[40px]">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
@@ -242,121 +236,118 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">SAP SuccessFactors Performance and Goal Management</h1>
-          </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <h1 className="text-[#000000] font-semibold pb-6 leading-tight">SAP SuccessFactors Performance and Goal Management</h1>
 
-              <p className="text-black pb-4">Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive. SAP SuccessFactors Performance and Goal Management (PMGM) is a powerful tool that supports organizations in aligning individual performance with organizational goals, fostering a high-performance culture, and driving employee engagement.</p>
 
-              <p className="text-black">It enables your employees to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.</p>
+          <div className="">
 
-              <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Describing SAP SuccessFactors Performance and Goal Management</h3>
+            <p className="text-black pb-4">Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive. SAP SuccessFactors Performance and Goal Management (PMGM) is a powerful tool that supports organizations in aligning individual performance with organizational goals, fostering a high-performance culture, and driving employee engagement.</p>
 
-              <p className="text-black pb-4">SAP SuccessFactors PMGM is designed to streamline and optimize the performance management process. The module supports the entire cycle of setting, tracking, and evaluating employee goals, as well as conducting performance appraisals. It aims to promote transparency and alignment, making it easier for managers and employees to understand how individual contributions drive organizational success. Managers can instantly track the status of all the goals across their team to save time and provide HR with outlines of goal distribution and insights into goal progression.</p>
+            <p className="text-black">It enables your employees to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.</p>
 
-              <p className="text-black pb-4 font-bold">Configuration and Implementation</p>
+            <div className="py-6"></div>
 
-              <p className="text-black pb-4">The SuccessFactors Performance and Goals Management solution is highly customizable to meet specific business needs, yet it also offers built-in features that are ready to use immediately upon activation. Customers can implement Performance and Goals Management with support from SAP Implementation Partners. A consultant with access to the backend and frontend interfaces of a customer’s SuccessFactors instance configures system settings and customizes processes and features to prepare it for use.</p>
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Describing SAP SuccessFactors Performance and Goal Management</h2>
 
-              <p className="text-black pb-4 font-bold">Key Features and Functions</p>
+            <p className="text-black pb-4">SAP SuccessFactors PMGM is designed to streamline and optimize the performance management process. The module supports the entire cycle of setting, tracking, and evaluating employee goals, as well as conducting performance appraisals. It aims to promote transparency and alignment, making it easier for managers and employees to understand how individual contributions drive organizational success. Managers can instantly track the status of all the goals across their team to save time and provide HR with outlines of goal distribution and insights into goal progression.</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
-                <li><span className="font-bold">Goal Management</span> – Allows managers and employees to set, align, and track goals. SuccessFactors PMGM ensures that goals are SMART (Specific, Measurable, Achievable, Relevant, Time-Bound), creating a clear path to individual and team success.</li>
-                <li><span className="font-bold">Continuous Performance Management (CPM)</span> – Encourages ongoing dialogue between managers and employees, moving beyond annual reviews to more frequent, constructive check-ins.</li>
-                <li><span className="font-bold">Performance Calibration</span> – Offers calibration tools that allow managers and HR professionals to calibrate ratings and provide consistency across different teams and departments.</li>
-                <li><span className="font-bold">Performance Appraisals</span> – Standardizes the evaluation process, providing customizable templates and tools for both self-assessment and manager assessment, making it easy to evaluate both achievements and development needs.</li>
-                <li><span className="font-bold">360-degree Feedback</span> – Enables comprehensive feedback from peers, subordinates, and supervisors, offering a well-rounded view of an employee’s performance.</li>
-                <li><span className="font-bold">Development and Career Plans</span> – Links performance outcomes to development plans, fostering career growth and aligning employee development with business needs.</li>
+            <h3 className="text-black pb-4 h3-bold">Configuration and Implementation</h3>
 
+            <p className="text-black pb-4">The SuccessFactors Performance and Goals Management solution is highly customizable to meet specific business needs, yet it also offers built-in features that are ready to use immediately upon activation. Customers can implement Performance and Goals Management with support from SAP Implementation Partners. A consultant with access to the backend and frontend interfaces of a customer’s SuccessFactors instance configures system settings and customizes processes and features to prepare it for use.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Key Features and Functions</h3>
+
+            <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li><h4 className="inline">Goal Management </h4> – Allows managers and employees to set, align, and track goals. SuccessFactors PMGM ensures that goals are SMART (Specific, Measurable, Achievable, Relevant, Time-Bound), creating a clear path to individual and team success.</li></p>
+                <p className="text-black pb-4"><li><h4 className="inline">Continuous Performance Management (CPM) </h4>– Encourages ongoing dialogue between managers and employees, moving beyond annual reviews to more frequent, constructive check-ins.</li></p>
+                    <p className="text-black pb-4"><li><h4 className="inline">Performance Calibration </h4>–  Offers calibration tools that allow managers and HR professionals to calibrate ratings and provide consistency across different teams and departments.</li></p>
+                        <p className="text-black pb-4 "><li><h4 className="inline">Performance Appraisals </h4>– Standardizes the evaluation process, providing customizable templates and tools for both self-assessment and manager assessment, making it easy to evaluate both achievements and development needs.</li></p>
+                         <p className="text-black pb-4 "><li><h4 className="inline">360-degree Feedback </h4>– Enables comprehensive feedback from peers, subordinates, and supervisors, offering a well-rounded view of an employee’s performance.</li></p>
+                          <p className="text-black  "><li><h4 className="inline">Development and Career Plans </h4>– Links performance outcomes to development plans, fostering career growth and aligning employee development with business needs.</li></p>
               </ul>
-
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">How SAP SuccessFactors PMGM is Beneficial for You?</h3>
-
-              <p className="text-black pb-4">Adopting SuccessFactors PMGM can lead to several significant benefits for an organization:</p>
-
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
-                <li><span className="font-bold">Goal Alignment:</span> The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li>
-                <li><span className="font-bold">Enhanced Transparency:</span> With visibility into performance expectations and goals, employees understand what’s expected of them. Managers, in turn, gain a clear understanding of each team member’s progress.</li>
-                <li><span className="font-bold">Continuous Improvement:</span> Continuous Performance Management allows for regular, constructive feedback, facilitating timely course correction, motivation, and personal development.</li>
-                <li><span className="font-bold">Data-Driven Decisions:</span> SuccessFactors PMGM aggregates performance data that can be analyzed to make informed decisions about talent management, workforce planning, and strategic initiatives.</li>
-                <li><span className="font-bold">Employee Engagement:</span> A transparent and fair performance process boosts employee morale and fosters a culture of recognition and growth.</li>
-
-              </ul>
-
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Implement SAP SuccessFactors PMGM Effectively</h3>
-
-              <p className="text-black pb-4">You need careful planning and strategic alignment with business objectives for the implementation of this solution.</p>
-
-              <p className="text-black pb-4 font-bold">Define Clear Objectives and Metrics</p>
-
-              <p className="text-black pb-4">Define specific objectives for your performance management program. Use measurable and objective KPIs to ensure that performance is quantifiable and transparent.</p>
-
-              <p className="text-black pb-4 font-bold">Foster a Culture of Continuous Feedback</p>
-
-              <p className="text-black pb-4">Promote a culture where managers and employees engage in continuous dialogue about performance and goals. CPM helps build trust, offers timely feedback, and addresses challenges early on.</p>
-
-              <p className="text-black pb-4 font-bold">Customize Performance Templates</p>
-
-              <p className="text-black pb-4">Each organization has unique needs, so customize appraisal templates to capture relevant performance data and developmental needs that align with your company’s strategic objectives.</p>
-
-              <p className="text-black pb-4 font-bold">Align Performance and Development</p>
-
-              <p className="text-black pb-4">Integrate performance outcomes with learning and development plans. Use insights from performance appraisals to guide employee development and succession planning.</p>
-
-              <p className="text-black pb-4 font-bold">Encourage 360-Degree Feedback</p>
-
-              <p className="text-black pb-4">360-degree feedback provides a holistic view of employee performance. This multidimensional approach helps identify strengths and areas of improvement that might not be captured in standard appraisals.</p>
-
-              <p className="text-black pb-4 font-bold">Emphasize Manager Training</p>
-
-              <p className="text-black pb-4">Managers play a crucial role in the PMGM process. Train managers on how to set effective goals, provide constructive feedback, and conduct appraisals objectively to maintain consistency across the organization.</p>
-
-              <p className="text-black pb-4 font-bold">Leverage Analytics for Continuous Improvement</p>
-
-              <p className="text-black pb-4">Use data and analytics from SAP SuccessFactors PMGM to monitor trends, identify skill gaps, and employ HR data management. Continuous data review enables organizations to optimize processes and adapt to evolving business needs.</p>
-
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Empower Employees and Management to Visualise Progress</h3>
-
-              <p className="text-black pb-4">SAP SuccessFactors is expected to incorporate advanced analytics, AI-driven insights, and even more personalized performance and goal management functionalities. Emerging trends like predictive analytics and artificial intelligence will offer proactive suggestions for goal setting, performance improvement, and personalized development plans.</p>
-
-              <p className="text-black pb-4">SAP SuccessFactors PMGM goes beyond traditional performance reviews to foster a culture of growth, alignment, and high performance. By implementing best practices and focusing on continuous development, organizations can leverage this tool to maximize employee potential, align efforts with organizational goals, and drive business success. Are you ready to advance towards a new era of HR process enhancement? Our team has the functional expertise, technical skills, and real-world employee performance and goal management experience to lead you to success. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-bold">sales@rialtes.com</span></Link>  to get started with one of our <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"}><span className="font-bold">
-expert SAP SuccessFactors consultants </span></Link>
-</p>
-
-
             </div>
+
+
+            <div className="py-6"></div>
+
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">How SAP SuccessFactors PMGM is Beneficial for You?</h2>
+
+            <p className="text-black pb-4">Adopting SuccessFactors PMGM can lead to several significant benefits for an organization:</p>
+
+          
+  <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li><h4 className="inline">Goal Alignment </h4> : The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li></p>
+                <p className="text-black pb-4"><li><h4 className="inline">Enhanced Transparency </h4> : With visibility into performance expectations and goals, employees understand what’s expected of them. Managers, in turn, gain a clear understanding of each team member’s progress.</li></p>
+                    <p className="text-black pb-4"><li><h4 className="inline">Continuous Improvement </h4> :  Continuous Performance Management allows for regular, constructive feedback, facilitating timely course correction, motivation, and personal development.</li></p>
+                        <p className="text-black pb-4 "><li><h4 className="inline">Data-Driven Decisions </h4> :  SuccessFactors PMGM aggregates performance data that can be analyzed to make informed decisions about talent management, workforce planning, and strategic initiatives.</li></p>
+                         <p className="text-black "><li><h4 className="inline">Employee Engagement </h4> : A transparent and fair performance process boosts employee morale and fosters a culture of recognition and growth.</li></p>
+                       
+              </ul>
+            </div>
+
+            <div className="py-6"></div>
+
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Implement SAP SuccessFactors PMGM Effectively</h2>
+
+            <p className="text-black pb-4">You need careful planning and strategic alignment with business objectives for the implementation of this solution.</p>
+
+            <h3 className="text-black pb-4 h3-bold">Define Clear Objectives and Metrics</h3>
+
+            <p className="text-black pb-4">Define specific objectives for your performance management program. Use measurable and objective KPIs to ensure that performance is quantifiable and transparent.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Foster a Culture of Continuous Feedback</h3>
+
+            <p className="text-black pb-4 ">Promote a culture where managers and employees engage in continuous dialogue about performance and goals. CPM helps build trust, offers timely feedback, and addresses challenges early on.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Customize Performance Templates</h3>
+
+            <p className="text-black pb-4">Each organization has unique needs, so customize appraisal templates to capture relevant performance data and developmental needs that align with your company’s strategic objectives.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Align Performance and Development</h3>
+
+            <p className="text-black pb-4">Integrate performance outcomes with learning and development plans. Use insights from performance appraisals to guide employee development and succession planning.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Encourage 360-Degree Feedback</h3>
+
+            <p className="text-black pb-4">360-degree feedback provides a holistic view of employee performance. This multidimensional approach helps identify strengths and areas of improvement that might not be captured in standard appraisals.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Emphasize Manager Training</h3>
+
+            <p className="text-black pb-4">Managers play a crucial role in the PMGM process. Train managers on how to set effective goals, provide constructive feedback, and conduct appraisals objectively to maintain consistency across the organization.</p>
+
+            <h3 className="text-black pb-4 h3-bold ">Leverage Analytics for Continuous Improvement</h3>
+
+            <p className="text-black ">Use data and analytics from SAP SuccessFactors PMGM to monitor trends, identify skill gaps, and employ HR data management. Continuous data review enables organizations to optimize processes and adapt to evolving business needs.</p>
+
+            <div className="py-6"></div>
+
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Empower Employees and Management to Visualise Progress</h2>
+
+            <p className="text-black pb-4">SAP SuccessFactors is expected to incorporate advanced analytics, AI-driven insights, and even more personalized performance and goal management functionalities. Emerging trends like predictive analytics and artificial intelligence will offer proactive suggestions for goal setting, performance improvement, and personalized development plans.</p>
+
+            <p className="text-black pb-4">SAP SuccessFactors PMGM goes beyond traditional performance reviews to foster a culture of growth, alignment, and high performance. By implementing best practices and focusing on continuous development, organizations can leverage this tool to maximize employee potential, align efforts with organizational goals, and drive business success. Are you ready to advance towards a new era of HR process enhancement? Our team has the functional expertise, technical skills, and real-world employee performance and goal management experience to lead you to success. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="">sales@rialtes.com</span></Link>  to get started with one of our <Link className=" text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"}><span className="">
+              expert SAP SuccessFactors consultants </span></Link>
+            </p>
+
+
           </div>
+
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        className="custom-container lg:pr-0
         pb-10"
       >
         <BlogsCarousel slides={blogs} />

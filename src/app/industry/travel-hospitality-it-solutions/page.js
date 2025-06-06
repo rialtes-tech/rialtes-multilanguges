@@ -243,7 +243,7 @@ export default function Page() {
                                     Travel Transportation and Hospitality Industry
                                 </h3>
                                 <h1 className="text-[#00000] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[55%]">
-                                    Powering the Next-Gen <br className="hidden md:block"/> Travel, Transportation & <br className="hidden md:block"/> Hospitality Experience
+                                    Powering the Next-Gen <br className="hidden md:block" /> Travel, Transportation & <br className="hidden md:block" /> Hospitality Experience
                                 </h1>
                             </div>
                             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -1000,9 +1000,9 @@ export default function Page() {
 
                 </section>
                 {/* Contact Form */}
-                < div className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
+                <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
                     <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider — Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
-                </div >
+                </section >
             </div >
         </section >
     )

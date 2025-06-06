@@ -161,6 +161,7 @@ const blogs = [
   }, */
   // Add more blog objects as needed
 ];
+const fullUrl = "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs";
 
 export default function Page() {
   return (
@@ -191,7 +192,11 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce&summary=Summary%20of%20the%20blog&source=LinkedIn">
+                       <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >    
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"

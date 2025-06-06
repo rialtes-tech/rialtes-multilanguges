@@ -35,7 +35,7 @@ const latestCaseStudy = [
     image:"/images/case-studies/revolutionary-filter.webp",
     industry:"Manufacturing",
     date:"03 June 2025",
-    url:"/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense",
+    url:"/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
     title:"Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
     description:"A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
   },
