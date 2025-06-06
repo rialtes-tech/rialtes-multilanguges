@@ -161,7 +161,7 @@ const latestBlogs = [
     industry: "Healthcare",
     date: "11 Nov 2024",
     url: '/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration',
-    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
+    title: "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
     description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
   },
   {
