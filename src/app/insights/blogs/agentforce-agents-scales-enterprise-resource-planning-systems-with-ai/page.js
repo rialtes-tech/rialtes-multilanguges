@@ -219,14 +219,14 @@ export default function Page() {
           </div>
           <div className="pt-6"></div>
           <div className="container pl-0 mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">Agentforce Agents Scales Enterprise Resource Planning Systems with AI</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight ">How Agentforce Agents Scale ERP Systems with AI</h1>
           </div>
 
           <div className="container pl-0 mx-auto">
             <div className=" max-[1084px] xl:w-[1084px]">
 
-              <p className="text-black">Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments. It can result in inefficiencies, delayed decisions, and missed opportunities. Agentforce, powered by Salesforce’s advanced AI capabilities, is designed to address these challenges head-on. By integrating with ERP systems through Salesforce’s Data Cloud, Agentforce unifies data from internal and external sources, including ERP and Supply Chain Management (SCM) systems. This unified approach enables businesses to make informed, data-driven decisions while fostering operational agility.</p>
-
+              <p className="text-black ">Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments. It can result in inefficiencies, delayed decisions, and missed opportunities.</p>
+               <p className="text-black pt-4">Agentforce, powered by Salesforce’s advanced AI capabilities, is designed to address these challenges. By integrating with ERP systems through Salesforce’s Data Cloud, Agentforce unifies data from internal and external sources, including ERP and Supply Chain Management (SCM) systems. This unified approach enables businesses to make informed, data-driven decisions while fostering operational agility.</p>
               <div className="py-4"></div>
 
               <h2 className="font-medium text-[#0092E0] xl:text-[35px] text-[25px] pb-4">Agentforce Integrates with ERP and SCM Systems</h2>
