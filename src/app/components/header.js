@@ -98,6 +98,8 @@ const Header = () => {
           subLinks: [
             { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
             { label: 'Data-Sphere', href: '/solutions/data-ai/data-sphere' },
+          { label: 'SAP BDC', href: '/solutions/data-ai/sap-business-data-cloud-bdc-consulting' },
+
 
           ],
         },
@@ -152,7 +154,7 @@ const Header = () => {
             { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
             { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
             { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-            { label: 'Sap Digital Desk', href: '/services/business-transformation/sap-managed-services-provider' },
+            { label: 'SAP Digital Desk', href: '/services/business-transformation/sap-managed-services-provider' },
           ],
         },
         {
@@ -496,6 +498,7 @@ const Header = () => {
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")}
                               onHover={() => { }} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-10" label="SAP BDC" link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/")} onHover={() => { }} />
 
                           </div>
                           <div>
@@ -835,7 +838,7 @@ const Header = () => {
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")}
                               onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-8" label="Sap Digital Desk" link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")}
+                              <MenuItem className="font-bold text-[#2f78c4] mt-8" label="SAP Digital Desk" link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")}
                               onHover={() => { }} />
                           </div>
                            <div>
