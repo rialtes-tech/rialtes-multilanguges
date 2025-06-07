@@ -134,7 +134,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
             <h3 className="mb-4">Kindly fill the form to watch webinar</h3>
 
             <div className="grid grid-cols-6">
-                <div className="col-span-8 xl:col-span-3 md:col-span-6">
+                <div className="col-span-8 xl:col-span-4 md:col-span-6">
                     <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
 
                         <div className="grid grid-cols-2 gap-4">
@@ -201,54 +201,54 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                             />
                         </div>
 
+                        <div className='flex xl:flex-row flex-col xl:gap-20 gap-5 !mt-10'>
+                            <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
+                                <div className="flex  space-x-4">
+                                    <span className="font-semibold text-lg text-gray-800"> {captcha.question} = ?</span>
+                                    <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
+                                        ↻
+                                    </button>
+                                </div>
+                                <input
+                                    type="number"
+                                    value={userAnswer}
+                                    onChange={(e) => setUserAnswer(e.target.value)}
+                                    placeholder="Enter Captcha"
+                                    className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                                />
+                                <button
+                                    type="submit"
+                                    name="submit"
+                                    value="Submit"
+                                    className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
+                                >
+                                    Watch Webinar
+                                </button>
+                            </div>
 
+
+                        </div>
+                        <div>
+                            <AnimatePresence>
+                                {error && (
+                                    <motion.p
+                                        initial={{ opacity: 0, y: -5 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        exit={{ opacity: 0, y: -5 }}
+                                        className="text-red-600 font-medium text-sm mt-1"
+                                    >
+                                        {error}
+                                    </motion.p>
+                                )}
+                            </AnimatePresence>
+                        </div>
+                        <div className='mt-5'>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
                         <input type="hidden" name="webinar_link" value={emailWebinarLink} />
                     </form>
                 </div>
                 <div className="hidden md:block md:col-span-3"></div>
             </div>
-            <div className='flex xl:flex-row flex-col xl:gap-20 gap-5 !mt-10'>
-                <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
-                    <div className="flex  space-x-4">
-                        <span className="font-semibold text-lg text-gray-800"> {captcha.question} = ?</span>
-                        <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
-                            ↻
-                        </button>
-                    </div>
-                    <input
-                        type="number"
-                        value={userAnswer}
-                        onChange={(e) => setUserAnswer(e.target.value)}
-                        placeholder="Enter Captcha"
-                        className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    />
-                    <button
-                        type="submit"
-                        name="submit"
-                        value="Submit"
-                        className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
-                    >
-                        Watch Webinar
-                    </button>
-                </div>
 
-
-            </div>
-            <div>
-                <AnimatePresence>
-                    {error && (
-                        <motion.p
-                            initial={{ opacity: 0, y: -5 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 0, y: -5 }}
-                            className="text-red-600 font-medium text-sm mt-1"
-                        >
-                            {error}
-                        </motion.p>
-                    )}
-                </AnimatePresence>
-            </div>
-            <div className='mt-5'>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
         </div>
     );
 }
