@@ -6,8 +6,8 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
-const schemaData={
-    "@context": "https://schema.org",
+const schemaData = {
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -165,19 +165,18 @@ const blogs = [
 ];
 
 export default function Page() {
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
+
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow? | Company Name</title>
-        <meta name="description" content="About our company" />
-      </Head>
 
       <Seo
         title="Salesforce for Agriculture: Digital Farming Revolution | Rialtes"
         description="Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0."
         canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+        image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />
-        <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
@@ -211,7 +210,11 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?&summary=Summary%20of%20the%20blog&source=LinkedIn">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -223,8 +226,12 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
+                  {/* <div className="max-w-[40px]">
+                    <a
+                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         src="/images/case-studies/facebook.svg"
                         alt="Facebook"
@@ -235,10 +242,13 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                   <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?">
-                      <Image
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
                         src="/images/case-studies/twitter.svg"
                         alt="Twitter"
                         width={0}
@@ -332,9 +342,9 @@ export default function Page() {
               <h3 className="h3-bold text-[#0092E0] pb-4">Move Towards Smart Farming Technologies with Rialtes</h3>
 
               <p className="text-black pb-4">Agriculture is a market-driven industry that employs a large segment of the country’s population. Farming technology over the last few years has been enormously helpful in contributing more towards economic growth. Rialtes can assist you in implementing Agribusiness solutions from SAP that help Preserve soil fertility, prevent pollution, and protect biodiversity. We use SAP AI to automate manual tasks and check the status of crops using sensors.
-                 <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/contact-us/"}>
-                 <span className="font-bold">Reach out to us </span></Link>
- to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
+                <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/contact-us/"}>
+                  <span className="font-bold">Reach out to us </span></Link>
+                to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
 
 
 

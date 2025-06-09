@@ -163,6 +163,8 @@ const blogs = [
 ];
 
 export default function Page() {
+      const fullUrl = "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success";
+
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -176,7 +178,7 @@ export default function Page() {
             />
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
-                    src="/images/blog/blog-2-banner.webp "
+                    src="/images/blog/blog-2-banner.webp"
                     alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
                     fill
                     style={{ objectFit: "cover", objectPosition: "70% 20%" }}
@@ -200,49 +202,60 @@ export default function Page() {
                             <div className='sm:mb-0 mb-6'>
                                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>21 Oct 2024
                             </div>
-                            <div className="flex flex-col">
-                                <div className="flex flex-row gap-6">
-                                    <div className="max-w-[40px]">
-                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce&summary=Summary%20of%20the%20blog&source=LinkedIn">
-                                            <Image
-                                                src="/images/case-studies/linkedin.svg"
-                                                alt="LinkedIn"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
-                                    <div className="max-w-[40px]">
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                                            <Image
-                                                src="/images/case-studies/facebook.svg"
-                                                alt="Facebook"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
-                                    <div className="max-w-[40px]">
-                                        <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce">
-                                            <Image
-                                                src="/images/case-studies/twitter.svg"
-                                                alt="Twitter"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                          <div className="flex flex-col">
+                <div className="flex flex-row gap-6">
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/images/case-studies/linkedin.svg"
+                        alt="LinkedIn"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                  {/* <div className="max-w-[40px]">
+                    <a
+                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/images/case-studies/facebook.svg"
+                        alt="Facebook"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div> */}
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
+                        src="/images/case-studies/twitter.svg"
+                        alt="Twitter"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
                         </div>
                     </div>
                     <div className="py-6"></div>

@@ -1,36 +1,38 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
-const schemaData={
-    
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
-  },
-  "headline": "Rialtes Opens New Sales Office in Baddi, Himachal Pradesh",
-  "description": "Rialtes expands its regional presence with a new sales office in Baddi, Himachal Pradesh, supporting digital transformation needs in North India.",
-  "image": "https://www.rialtes.com/images/news/baddi-office-banner.webp",
-  "datePublished": "2025-04-04",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "articleSection": "News"
+const schemaData = {
+
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
+    },
+    "headline": "Rialtes Opens New Sales Office in Baddi, Himachal Pradesh",
+    "description": "Rialtes expands its regional presence with a new sales office in Baddi, Himachal Pradesh, supporting digital transformation needs in North India.",
+    "image": "https://www.rialtes.com/images/news/baddi-office-banner.webp",
+    "datePublished": "2025-04-04",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "articleSection": "News"
 
 
 }
 
 export default function Page() {
+    const fullUrl = "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh";
+
     return (
         <div className="min-h-screen bg-white">
 
@@ -39,10 +41,10 @@ export default function Page() {
                 description="Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry."
                 canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
             />
-  <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section
                 className="custom-container "
@@ -71,7 +73,11 @@ export default function Page() {
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
                                     <div className="max-w-[40px]">
-                                        <a href="https://www.linkedin.com/company/rialtes-technologies-llc/">
+                                        <a
+                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
                                             <Image
                                                 src="/images/case-studies/linkedin.svg"
                                                 alt="LinkedIn"
@@ -83,23 +89,12 @@ export default function Page() {
                                             />
                                         </a>
                                     </div>
-                                    {/* <div className="max-w-[40px]">
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                                            <Image
-                                                src="/images/case-studies/facebook.svg"
-                                                alt="Facebook"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div> */}
-                                    
                                     <div className="max-w-[40px]">
-                                        <a href="https://x.com/Rialtestech">
-                                            <Image
+                                        <a
+                                            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >                      <Image
                                                 src="/images/case-studies/twitter.svg"
                                                 alt="Twitter"
                                                 width={0}
