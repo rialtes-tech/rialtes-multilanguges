@@ -10,7 +10,7 @@ const AutoTimerSlider = () => {
             <div className="carousel mt-10 z-0 xl:h-[1100px] h-[851px]">
                 <div className="list">
 
-                    <div className="item"
+                    {/* <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
                         <div className="content">
                             <div className="title">LIFE SCIENCE</div>
@@ -18,7 +18,7 @@ const AutoTimerSlider = () => {
                             <button className='!border-[1px] know-more !border-white xl:p-4 p-3 xl:text-[20px] !text-[16px] mt-10'>Know More → </button>
 
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry2.webp")` }}>
