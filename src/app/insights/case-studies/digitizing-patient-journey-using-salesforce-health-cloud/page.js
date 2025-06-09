@@ -86,8 +86,8 @@ const slides = [
 ];
 
 export default function Page() {
-  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/src/app/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud";
-  const title = "Digitizing Patient Journey Using Salesforce Health Cloud";
+   const fullUrl = "https://www.rialtes.com/insights/blogs/digitizing-patient-journey-using-salesforce-health-cloud";
+
   return (
     <div className="min-h-screen bg-white">
 
@@ -138,47 +138,44 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ">
-              <div className="max-w-[40px]">
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=/case-study-4&title=Digitizing patient journey using Salesforce health cloud&summary=Summary%20of%20the%20case%20study&source=LinkedIn">
-                  <Image
-                    src="/images/case-studies/linkedin.svg"
-                    alt="LinkedIn"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                </a>
-              </div>
-              {/* <div className="max-w-[40px]">
-                <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-4">
-                  <Image
-                    src="/images/case-studies/facebook.svg"
-                    alt="Facebook"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                </a>
-              </div>
-              <div className="max-w-[40px]">
-                <a href="https://twitter.com/intent/tweet?url=/case-study-4&text=Digitizing patient journey using Salesforce health cloud">
-                  <Image
-                    src="/images/case-studies/twitter.svg"
-                    alt="Twitter"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                </a>
-              </div> */}
-            </div>
+              <div className="flex flex-col">
+                           <div className="flex flex-row gap-6">
+                             <div className="max-w-[40px]">
+                               <a
+                                 href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                               >
+                                 <Image
+                                   src="/images/case-studies/linkedin.svg"
+                                   alt="LinkedIn"
+                                   width={0}
+                                   height={0}
+                                   sizes="100vw"
+                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                   priority
+                                 />
+                               </a>
+                             </div>
+                 
+                             <div className="max-w-[40px]">
+                               <a
+                                 href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                               >                      <Image
+                                   src="/images/case-studies/twitter.svg"
+                                   alt="Twitter"
+                                   width={0}
+                                   height={0}
+                                   sizes="100vw"
+                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                   priority
+                                 />
+                               </a>
+                             </div>
+                           </div>
+                         </div>
           </div>
 
           <div className="py-6"></div>

@@ -189,17 +189,12 @@ export default function Page() {
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+    custom-container"
       >
 
         <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+          <div className="container mx-auto pl-0 ">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>SAP SuccessFactors</span> <span className='text-[#ACACAC]'> | </span>24 Dec 2024
               </div>
@@ -221,74 +216,48 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+          
                 </div>
               </div>
             </div>
           </div>
-          <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration</h1>
+          <div className="py-3"></div>
+          <div className="container pl-0 ">
+            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration</h1>
           </div>
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div className="container mx-auto pl-0">
+            <div className="max-[1084px] xl:w-[1084px]">
 
               <p className="text-black">Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools. It enables users to collaborate more seamlessly and complete everyday HR tasks directly within Microsoft 365 applications. Real-time collaboration lets multiple users simultaneously work on documents stored in Office 365 applications like Word, Excel, and PowerPoint, improving collaboration on SuccessFactors-related tasks.</p>
 
-              <div className="py-6"></div>
+              <div className="py-3"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Benefit Integrating SAP SuccessFactors with Microsoft Office 365</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">Benefit Integrating SAP SuccessFactors with Microsoft Office 365</h2>
 
-              <p className="text-black font-bold pb-4">Enhanced Productivity:</p>
+              <h3 className="h3-bold  pb-2">Enhanced Productivity</h3>
 
-              <p className="text-black pb-4">Employees can access HR-related information directly within Office 365 tools such as Microsoft Teams, Outlook, and Word.  They can utilize a familiar interface, which reduces the learning curve and boosts productivity. Additionally, repetitive tasks and workflows between two applications can be automated, such as automatically updating SAP records when a related email arrives in Outlook.</p>
+              <p className="text-black pb-4">: Employees can access HR-related information directly within Office 365 tools such as Microsoft Teams, Outlook, and Word.  They can utilize a familiar interface, which reduces the learning curve and boosts productivity. Additionally, repetitive tasks and workflows between two applications can be automated, such as automatically updating SAP records when a related email arrives in Outlook.</p>
 
-              <p className="text-black font-bold pb-4">Unified Collaboration:</p>
+              <h3 className="h3-bold  pb-2">Unified Collaboration</h3>
 
-              <p className="text-black pb-4">Microsoft tools enable real-time collaboration on HR documents and reports. Users can collaborate on SuccessFactors data and documents in Microsoft Teams using chat, video calls, and shared workspaces. In Outlook, the data can be accessed and manipulated, enabling interaction with workflows, approvals, and notifications directly from the email client.</p>
+              <p className="text-black pb-4">: Microsoft tools enable real-time collaboration on HR documents and reports. Users can collaborate on SuccessFactors data and documents in Microsoft Teams using chat, video calls, and shared workspaces. In Outlook, the data can be accessed and manipulated, enabling interaction with workflows, approvals, and notifications directly from the email client.</p>
 
-              <p className="text-black font-bold pb-4">Improved Employee Experience:</p>
+              <h3 className="h3-bold  pb-2">Improved Employee Experience</h3>
 
-              <p className="text-black pb-4">Deliver HR notifications and tasks using the tools employees use daily. Integrating platforms can foster a cohesive and efficient work environment that enhances collaboration, streamlines operations, improves data management and drives business growth.</p>
+              <p className="text-black pb-4">: Deliver HR notifications and tasks using the tools employees use daily. Integrating platforms can foster a cohesive and efficient work environment that enhances collaboration, streamlines operations, improves data management and drives business growth.</p>
+<h3 className="h3-bold  pb-2">Streamlined HR Processes</h3>
 
-              <p className="text-black font-bold pb-4">Streamlined HR Processes:</p>
+              <p className="text-black pb-4">: Automate routine tasks and streamline workflows like leave approvals, performance reviews, and onboarding, freeing up personnel to focus on more strategic activities and improving overall resource utilization.</p>
 
-              <p className="text-black pb-4">Automate routine tasks and streamline workflows like leave approvals, performance reviews, and onboarding, freeing up personnel to focus on more strategic activities and improving overall resource utilization.</p>
+              <div className="py-3"></div>
 
-              <div className="py-6"></div>
-
-              <h3 className="h3-bold text-[#0092E0] pb-4">Prerequisites</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Prerequisites</h2>
 
               <p className="text-black pb-4">Before starting the integration, ensure you have:</p>
 
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0]  text-black pl-4 xl:text-[20px] text-[16px] pb-6  font-medium ">
                 <li>Administrative access to SAP SuccessFactors and Microsoft Azure Active Directory (Azure AD).</li>
                 <li>Necessary licenses for SAP SuccessFactors and Microsoft Office 365.</li>
                 <li>API access enabled for SAP SuccessFactors.</li>
@@ -298,21 +267,22 @@ export default function Page() {
               <p className="text-black pb-4">As the administrator for your organization’s SAP SuccessFactors system, you’ll need specific permissions or support from your Microsoft 365 implementation partners with the following roles:</p>
 
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">SAP SuccessFactors System Administrator:</span> Responsible for establishing and configuring the connection between SAP SuccessFactors and Microsoft 365 via the Work Tech Configuration page.</li>
-                <li><span className="font-bold">Microsoft 365 Global Admin:</span> Required to grant Microsoft Graph API permissions to SAP SuccessFactors.</li>
-                <li><span className="font-bold">Microsoft 365 Teams Admin:</span> Needed to install the SAP SuccessFactors app in Teams and configure the necessary permission policies.</li>
+
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium ">
+                <li><span className="font-bold pb-4">SAP SuccessFactors System Administrator</span>: Responsible for establishing and configuring the connection between SAP SuccessFactors and Microsoft 365 via the Work Tech Configuration page.</li>
+                <li><span className="font-bold pb-4">Microsoft 365 Global Admin</span>: Required to grant Microsoft Graph API permissions to SAP SuccessFactors.</li>
+                <li><span className="font-bold pb-4">Microsoft 365 Teams Admin</span>: Needed to install the SAP SuccessFactors app in Teams and configure the necessary permission policies.</li>
               </ul>
 
-              <div className="py-6"></div>
+              <div className="py-3"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Step-by-Step Integration Process</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">Step-by-Step Integration Process</h2>
 
-              <p className="text-black pb-4 font-bold">Set Up Single Sign-On (SSO)</p>
+              <h3 className="text-black pb-4 h3-bold ">Set Up Single Sign-On (SSO)</h3>
 
               <p className="text-black pb-4">Single Sign-On simplifies the login process for users, ensuring secure and seamless access to both platforms.</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl  text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li>Configure Azure AD as the Identity Provider (IdP).</li>
                 <li>Set up SAP SuccessFactors as a service provider in Azure AD.</li>
                 <li>Exchange SAML metadata files between the platforms.</li>
@@ -320,11 +290,11 @@ export default function Page() {
               </ul>
 
 
-              <p className="text-black pb-4 font-bold">Enable SAP SuccessFactors APIs</p>
+              <h3 className="text-black pb-4 h3-bold">Enable SAP SuccessFactors APIs</h3>
 
               <p className="text-black pb-4">To allow communication between SAP SuccessFactors and Office 365, enable relevant APIs:</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li>Go to the SAP SuccessFactors Admin Center.</li>
                 <li>Navigate to Manage Integration Tools and enable OData APIs.</li>
                 <li>Generate an API user and assign the required permissions.</li>
@@ -332,11 +302,11 @@ export default function Page() {
 
 
 
-              <p className="text-black pb-4 font-bold">Connect Microsoft Power Automate</p>
+              <h3 className="text-black pb-4 h3-bold">Connect Microsoft Power Automate</h3>
 
               <p className="text-black pb-4">Microsoft Power Automate (formerly Microsoft Flow) is a powerful tool for creating workflows between Office 365 and SAP SuccessFactors.</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li>Log in to Power Automate and create a new workflow.</li>
                 <li>Choose SAP SuccessFactors as the trigger app and Office 365 tools (e.g., Teams, Outlook) as actions.</li>
                 <li>Examples:</li>
@@ -345,11 +315,11 @@ export default function Page() {
               </ul>
 
 
-              <p className="text-black pb-4 font-bold">Integrate Microsoft Teams with SAP SuccessFactors</p>
+              <h3 className="text-black pb-4 h3-bold">Integrate Microsoft Teams with SAP SuccessFactors</h3>
 
               <p className="text-black pb-4">Microsoft Teams is a central collaboration hub, making it a valuable integration point.</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium6">
                 <li>Install the SAP SuccessFactors app from the Microsoft Teams app store.</li>
                 <li>Authenticate using your SAP SuccessFactors credentials.</li>
                 <li>Configure notifications and workflows for tasks such as goal updates, feedback requests, and approvals.</li>
@@ -357,48 +327,48 @@ export default function Page() {
 
 
 
-              <p className="text-black pb-4 font-bold">Embed Office 365 in SAP SuccessFactors</p>
+              <h3 className="text-black pb-4 h3-bold">Embed Office 365 in SAP SuccessFactors</h3>
 
               <p className="text-black pb-4">Integrating Office 365 apps like Word or Excel into SAP SuccessFactors allows HR teams to edit documents without switching platforms.</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li>Use SAP Fiori tools to embed Office 365 apps into the SuccessFactors interface.</li>
                 <li>Enable contextual data sharing between the platforms to streamline document creation and collaboration.</li>
               </ul>
 
 
-              <p className="text-black pb-4 font-bold">Leverage Microsoft Graph API</p>
+              <h3 className="text-black pb-4 h3-bold">Leverage Microsoft Graph API</h3>
 
               <p className="text-black pb-4">Microsoft Graph API provides a unified endpoint to access Office 365 services and integrate them with SAP SuccessFactors data.</p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li>Use Graph API to retrieve and update user data, calendar events, or emails based on HR actions in SuccessFactors.</li>
                 <li>Example: Schedule meetings in Outlook when onboarding new employees.</li>
               </ul>
 
 
 
-              <div className="py-6"></div>
+              <div className="py-3"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">What does this Integration Mean for HR?</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">What does this Integration Mean for HR?</h2>
 
 
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6">
-                <li><span className="font-bold">Start a Teams Chat from SAP SuccessFactors:</span> Depending on the status of the latest People Profile enablement, users can initiate a Teams chat directly from a user’s quick card, profile header, or Profile Preview.</li>
-                <li><span className="font-bold">Access Quick Actions and Notifications via the SAP SuccessFactors App in Teams:</span> Perform quick actions related to Continuous Performance Management, Employee Central, Employee Central Payroll, and Time Tracking. Additionally, they receive notifications for approvals, time-sensitive reminders, and other events.</li>
-                <li><span className="font-bold">Engage with SAP SuccessFactors Processes Using Outlook or Teams Online Meetings:</span> They can leverage features for interview scheduling, enhancing collaboration and efficiency.</li>
-                <li><span className="font-bold">Leverage the AI-Assisted Microsoft Teams App Chat Feature:</span> Powered by a built-in AI engine, users can effortlessly initiate HR transactions or access personal data through natural language queries.</li>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
+                <li><h3 className="h3-bold inline">Start a Teams Chat from SAP SuccessFactors</h3>: Depending on the status of the latest People Profile enablement, users can initiate a Teams chat directly from a user’s quick card, profile header, or Profile Preview.</li>
+                <li><span className="h3-bold inline">Access Quick Actions and Notifications via the SAP SuccessFactors App in Teams</span>: Perform quick actions related to Continuous Performance Management, Employee Central, Employee Central Payroll, and Time Tracking. Additionally, they receive notifications for approvals, time-sensitive reminders, and other events.</li>
+                <li><span className="h3-bold inline">Engage with SAP SuccessFactors Processes Using Outlook or Teams Online Meetings</span>: They can leverage features for interview scheduling, enhancing collaboration and efficiency.</li>
+                <li><span className="h3-bold inline">Leverage the AI-Assisted Microsoft Teams App Chat Feature</span>: Powered by a built-in AI engine, users can effortlessly initiate HR transactions or access personal data through natural language queries.</li>
               </ul>
 
 
-              <div className="py-6"></div>
+              <div className="py-3"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Complete Everyday HR Tasks Right Inside Microsoft 365 Applications</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">Complete Everyday HR Tasks Right Inside Microsoft 365 Applications</h2>
 
               <p className="text-black pb-4">Integrating SAP SuccessFactors with Microsoft Office 365 to unlock powerful synergies that enhance HR operations and improve overall employee experience. Organizations can leverage the combined capabilities of these platforms to streamline workflows, boost productivity, and foster collaboration. Whether you’re automating routine tasks or embedding advanced analytics, this integration ensures that your workforce has the tools to succeed.</p>
 
-              <p className="text-black pb-4">Rialtes specializes in providing tailored comprehensive <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"}><span className="font-bold">SAP SuccessFactors integration solutions </span></Link>to help you share data between any SAP module or third-party solution.  Our team has the functional expertise, technical skills, and real-world experience to assist clients in leveraging cloud-based hr software like SAP SuccessFactors. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="font-bold">sales@rialtes.com</span></Link> to get started with one of our expert SAP SuccessFactors consultants!</p>
+              <p className="text-black pb-4">Rialtes specializes in providing tailored comprehensive <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.netlify.app/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>SAP SuccessFactors integration solutions</Link> to help you share data between any SAP module or third-party solution.  Our team has the functional expertise, technical skills, and real-world experience to assist clients in leveraging cloud-based hr software like SAP SuccessFactors. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link> to get started with one of our expert SAP SuccessFactors consultants!</p>
 
             </div>
           </div>
@@ -408,12 +378,7 @@ export default function Page() {
       {/* Latest Blogs */}
       <div
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+         custom-container xl:pr-0 
         pb-10"
       >
         <BlogsCarousel slides={blogs} />

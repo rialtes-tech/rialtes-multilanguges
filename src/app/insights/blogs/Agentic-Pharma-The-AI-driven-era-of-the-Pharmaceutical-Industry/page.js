@@ -228,7 +228,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>AI</span> <span className='text-[#ACACAC]'> | </span>30-5-2025
               </div>
@@ -243,6 +243,22 @@ export default function Page() {
                     >                            <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                   <div className="max-w-[40px]">
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
+                        src="/images/case-studies/twitter.svg"
+                        alt="Twitter"
                         width={0}
                         height={0}
                         sizes="100vw"

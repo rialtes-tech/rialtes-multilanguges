@@ -7,68 +7,68 @@ import Seo from "@/app/components/Seo";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "../../../components/learnMore";
 
-const schemaData ={
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "SAP Managed Services Provider",
-  "description": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
-  "serviceType": "SAP Managed Services",
-  "provider": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-  },
-  "areaServed": [
-    {
-      "@type": "Place",
-      "name": "India"
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "SAP Managed Services Provider",
+    "description": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
+    "serviceType": "SAP Managed Services",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
     },
-    {
-      "@type": "Place",
-      "name": "United States"
-    },
-    {
-      "@type": "Place",
-      "name": "Canada"
-    },
-    {
-      "@type": "Place",
-      "name": "Singapore"
-    },
-    {
-      "@type": "Place",
-      "name": "Europe"
+    "areaServed": [
+        {
+            "@type": "Place",
+            "name": "India"
+        },
+        {
+            "@type": "Place",
+            "name": "United States"
+        },
+        {
+            "@type": "Place",
+            "name": "Canada"
+        },
+        {
+            "@type": "Place",
+            "name": "Singapore"
+        },
+        {
+            "@type": "Place",
+            "name": "Europe"
+        }
+    ],
+    "url": "https://www.rialtes.com/services/business-transformation/sap-managed-services-provider",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "SAP Services Catalog",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP S/4HANA Support"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP SuccessFactors Support"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP BTP Services"
+                }
+            }
+        ]
     }
-  ],
-  "url": "https://www.rialtes.com/services/business-transformation/sap-managed-services-provider",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "SAP Services Catalog",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "SAP S/4HANA Support"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "SAP SuccessFactors Support"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "SAP BTP Services"
-        }
-      }
-    ]
-  }
 }
 
 export default function Page() {
@@ -130,10 +130,10 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-10 col-span-12">
                         <h1 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">
-                            Reimagine SAP Support with Rialtes: Agile, Scalable, and Future-Ready Managed Services
+                            Reimagine SAP Support with Rialtes Managed Services
                         </h1>
-                        <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-32">At Rialtes, we empower organizations to run their SAP landscapes smarter, faster, and more securely. SAP Digital Desk, our next-gen managed services platform, brings together end-to-end SAP expertise — from stabilization and innovation to continuous optimization — ensuring your SAP systems become a strategic driver for business growth, not just an operational tool.  </p>
-                        <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-40">As a global SAP-certified partner with a presence in India, USA, Canada, and Singapore, and a team of top-tier, SAP-certified experts, Rialtes is committed to delivering unparalleled value, agility, and innovation for every client.
+                        <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-32">At Rialtes, we empower organizations to run their SAP landscapes more efficiently, securely, and effectively. SAP Digital Desk, our next-gen managed services platform, brings together end-to-end SAP expertise, from stabilization and innovation to continuous optimization, ensuring your SAP systems become a strategic driver for business growth, not just an operational tool. </p>
+                        <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-40">As a global SAP-certified partner with a presence in India, the USA, Canada, and Singapore, and a team of top-tier, SAP-certified experts, Rialtes is committed to delivering unparalleled value, agility, and innovation for every client.
                         </p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
@@ -255,12 +255,12 @@ export default function Page() {
                             All our engagements are driven by PMP® and Scrum®-certified Project Managers, ensuring that every project is delivered on time, within budget, and aligned to business goals.
                         </p>
                         <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 4xl:pr-32 font-medium">
-                            <li>Agile and Waterfall methodologies based on business needs.</li>
+                            <li>Agile and Waterfall methodologies are based on business needs.</li>
                             <li>Strong governance, communication, and risk management frameworks.</li>
                             <li>Transparent, KPI-driven service reporting and business outcome focus.</li>
                         </ul>
                         <p className="mt-10 4xl:pr-40 pb-10 font-medium">
-                            Our SAP-certified consultants are strategically located across USA, Canada, and India, giving you the right mix of proximity, cost-efficiency, and expertise.
+                            Our SAP-certified consultants are strategically located across the USA, Canada, and India, giving you the right mix of proximity, cost-efficiency, and expertise.
                         </p>
 
                         <LearnMore />
@@ -315,8 +315,8 @@ export default function Page() {
                         <div className="xl:col-span-6 col-span-12">
                             <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-20">
                                 <li>SAP S/4HANA (Finance, Logistics, Manufacturing, Sales & Distribution, Procurement)</li>
-                                <li> SAP SuccessFactors (EC, LMS, Talent, Onboarding, Compensation, Workforce Analytics)</li>
-                                <li> SAP Ariba (Strategic Sourcing, Contracts, Buying & Invoicing)</li>
+                                <li>SAP SuccessFactors (EC, LMS, Talent, Onboarding, Compensation, Workforce Analytics)</li>
+                                <li>SAP Ariba (Strategic Sourcing, Contracts, Buying & Invoicing)</li>
                                 <li>SAP Business Technology Platform (BTP) — Integration, Extensions, AI/ML, Analytics, App Development</li>
                             </ul>
                         </div>
@@ -325,11 +325,11 @@ export default function Page() {
                         <div className="xl:col-span-5 col-span-12  xl:mt-0">
                             <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3">
                                 <li>SAP CPI & SAP Integration Suite</li>
-                                <li> SAP Fiori and UI5 Development</li>
+                                <li>SAP Fiori and UI5 Development</li>
                                 <li>SAP Signavio for Business Process Intelligence</li>
-                                <li> SAP Datasphere and SAP Analytics Cloud </li>
-                                <li> SAP ABAP and ABAP on Cloud</li>
-                                <li> SAP Joule (AI Assistant) enablement</li>
+                                <li>SAP Datasphere and SAP Analytics Cloud</li>
+                                <li>SAP ABAP and ABAP on Cloud</li>
+                                <li>SAP Joule (AI Assistant) enablement</li>
                                 <li>SAP Basis & Security</li>
                             </ul>
                         </div>
@@ -351,19 +351,19 @@ export default function Page() {
                         </div>
                         <div>
                             <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[17px] font-bold leading-tight">Assurance of Quality and Best Practices </p>
-                            <p className="xl:text-[18px] 4xl:text-[20px] leading-tight">Every solution aligned to SAP’s latest standards and innovations.</p>
+                            <p className="xl:text-[18px] 4xl:text-[20px] leading-tight">Every solution is aligned to SAP’s latest standards and innovations.</p>
                         </div>
                         <div>
-                            <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[17px] font-bold leading-tight">Future-Proof Solutions </p>
+                            <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[17px] font-bold leading-tight">Future-Proof Solutions</p>
                             <p className="xl:text-[18px] 4xl:text-[20px] leading-tight">Deep understanding of the SAP roadmap ensures your investments are protected and scalable.</p>
                         </div>
                         <div>
-                            <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[17px] font-bold leading-tight">Compliance, Governance, and Risk Mitigation </p>
+                            <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[17px] font-bold leading-tight">Compliance, Governance, and Risk Mitigation</p>
                             <p className="xl:text-[18px] 4xl:text-[20px] leading-tight">Solutions built right the first time, adhering to global compliance and SAP guidelines.</p>
                         </div>
                     </div>
                     <div className="xl:pr-64">
-                        <div className="bg-[#163055] p-8 4xl:text-[26px] text-[20px] text-white mt-16 leading-tight ">With Rialtes, you’re not just getting support — you’re gaining a long-term partner to drive continuous SAP innovation and value realization.</div>
+                        <div className="bg-[#163055] p-8 4xl:text-[26px] text-[20px] text-white mt-16 leading-tight">With Rialtes, you’re gaining a long-term partner to drive continuous SAP innovation and value realization.</div>
 
                     </div>
 
@@ -393,7 +393,7 @@ export default function Page() {
                             <li> Security, compliance, and risk management.</li>
                             <li>                 Continuous improvement of system configurations and workflows.</li>
                         </ul>
-                        <div className="4xl:mt-10">
+                        <div className="4xl:mt-10 xl:mt-2">
                             <LearnMore />
                         </div>
 
@@ -488,10 +488,9 @@ export default function Page() {
                             <li>Event-driven and API-based workflows.</li>
                             <li>Cloud-native extensions that are upgrade-safe and scalable.</li>
                         </ul>
-                        <div className="absolute 4xl:mt-10 mt-8">
+                        <div className="absolute 4xl:mt-10 mt-2">
                             <LearnMore />
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -668,14 +667,14 @@ export default function Page() {
             <section className="custom-container xl:mt-20 mt-[38rem] md:mt-[30rem]">
                 <div className="grid xl:grid-cols-12 grid-cols-12">
                     <div className="xl:col-span-6 col-span-12">
-                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[40px]">Smart Procurement, Delivered</h2>
+                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[40px]">Smart Procurement</h2>
                         <h3 className="4xl:text-[36px] xl:text-[30px] text-[20px] mt-5 leading-tight font-semibold">SAP Ariba Managed Services</h3>
                         <p className="mt-5 font-normal">Streamline procurement and supplier collaboration:</p>
                         <ul className="list-disc space-y-3 pl-5 xl:text-[20px] text-[16px] mt-5 ">
                             <li>Ariba Network onboarding and integration.</li>
                             <li>Catalog, sourcing, and contract management.</li>
-                            <li> Guided buying and invoice automation.</li>
-                            <li> Risk management and compliance assurance.</li>
+                            <li>Guided buying and invoice automation.</li>
+                            <li>Risk management and compliance assurance.</li>
                         </ul>
                     </div>
                     <div className="xl:col-span-6 col-span-12 mt-20 xl:mt-0">
@@ -684,9 +683,9 @@ export default function Page() {
                         <p className="mt-5 font-normal">Unlock the full potential of enterprise data:</p>
                         <ul className="list-disc space-y-3 pl-5 xl:text-[20px] text-[16px] mt-5 ">
                             <li>Data federation and virtualization.</li>
-                            <li> Secure data sharing and collaboration.</li>
-                            <li>  Unified business data modeling.</li>
-                            <li>  AI/ML-enabled insights at scale.</li>
+                            <li>Secure data sharing and collaboration.</li>
+                            <li>Unified business data modeling.</li>
+                            <li>AI/ML-enabled insights at scale.</li>
                         </ul>
                     </div>
 
@@ -828,7 +827,7 @@ export default function Page() {
                                 AI-Powered Business Assistant for SuccessFactors
                             </h3>
                             <p className="mt-5 font-normal">
-                                Meet SAP Joule, your AI-powered co-pilot for HR and enterprise processes. Rialtes helps you leverage Joule for impactful automation and insights:
+                                Meet SAP Joule, your AI-powered business assistant for HR and enterprise processes in SuccessFactors. Rialtes helps you leverage Joule for impactful automation and insights:
                             </p>
                             <ul className="list-disc space-y-3 pl-5 4xl:text-[20px] text-[16px] mt-5">
                                 <li>AI-driven employee experience and HR recommendations.</li>
@@ -880,13 +879,13 @@ export default function Page() {
                             Certified SAP BTP Experts at Your Service
                         </p>
                         <p className="4xl:mt-8 xl:mt-4 font-normal 4xl:text-[20px] text-[16px]">
-                            From AI-driven workflows to mobile apps and event-driven architectures, our SAP BTP experts ensure:
+                            From AI-driven workflows to mobile apps and event-driven architectures, our Certified SAP BTP experts ensure:
                         </p>
                         <ul className="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 xl:pr-10">
                             <li>Fast-track application development using SAP Build.</li>
                             <li>AI/ML-powered extensions using SAP AI Core.</li>
                             <li>Seamless APIs and integrations through API Hub.</li>
-                            <li>Event Mesh and Graph for real-time connectivity.</li>
+                            <li>Event Mesh and Graph for real-time connectivity. </li>
                             <li>Full governance, security, and compliance in the cloud.</li>
                         </ul>
                         <div className="mt-5 relative">
@@ -924,7 +923,7 @@ export default function Page() {
                             <h2 className="text-[25px] 4xl:text-[60px] xl:text-[50px] mt-16 leading-tight">
                                 Migrate to SAP SuccessFactors with Confidence
                             </h2>
-                            <h3 className="xl:text-[36px] text-[20px] xl:mt-12 mt-5">SuccessPlus by Rialtes</h3>
+                            <h3 className="xl:text-[36px] text-[20px] xl:mt-12 mt-5">Success+ by Rialtes</h3>
 
                         </div>
 
@@ -936,19 +935,19 @@ export default function Page() {
                         <div className="xl:col-span-6 col-span-12">
                             <h3 className="xl:text-[28px] text-[18px] xl:font-semibold font-medium">Workday to SAP SuccessFactors Migration Services</h3>
                             <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-20">
-                                <li> End-to-end secure migration strategy..</li>
+                                <li>End-to-end secure migration strategy.</li>
                                 <li>Data cleansing, transformation, and migration.</li>
-                                <li> Business process mapping and optimization.</li>
-                                <li> SAP CPI-based integrations for seamless workflows.</li>
+                                <li>Business process mapping and optimization.</li>
+                                <li>SAP CPI-based integrations for seamless workflows.</li>
                             </ul>
                         </div>
                         <div className="xl:col-span-6 col-span-12 mt-10 xl:mt-0">
                             <h3 className="xl:text-[28px] text-[18px] xl:font-semibold font-medium xl:pr-20">ZOHO HR to SAP SuccessFactors Migration</h3>
                             <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-20">
-                                <li> Standardized HR process setup in SuccessFactors.</li>
+                                <li>Standardized HR process setup in SuccessFactors.</li>
                                 <li>Accurate, compliant data migration.</li>
-                                <li> Real-time integration and ongoing support.</li>
-                                <li> Localization and global compliance readiness.</li>
+                                <li>Real-time integration and ongoing support.</li>
+                                <li>Localization and global compliance readiness.</li>
                             </ul>
                         </div>
                     </div>
@@ -971,8 +970,8 @@ export default function Page() {
                         <h2 className="leading-tight xl:text-[40px] 4xl:text-[60px] text-[26px]">Why Partner with Rialtes?</h2>
                         <h3 className="4xl:text-[36px] text-[20px] mt-5 font-semibold leading-tight">Your Success Is Our Mission</h3>
                         <ul className="list-disc 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-5 4xl:mt-10 mt-3">
-                            <li> Global SAP Certified Partner with a proven delivery record.</li>
-                            <li>24/7 SAP Managed Services for uninterrupted operations.</li>
+                            <li>Global SAP Certified Partner with a proven delivery record.</li>
+                            <li>24/7 SAP managed services for uninterrupted operations.</li>
                             <li>SAP BTP, Integration, and AI Center of Excellence.</li>
                             <li>Dedicated customer success managers. </li>
                             <li>Flexible, outcome-based engagement models.</li>

@@ -28,6 +28,7 @@ const schemaData ={
     }
   }
 
+
 }
 const latestCaseStudy = [
     {
@@ -59,7 +60,7 @@ const latestCaseStudy = [
   },
   {
     id: 2,
-    image: "/images/case-studies/sales cloud case study thumb copy.webp",
+    image: "/images/case-studies/carosel.webp",
     industry: "Manufacturing",
     date: "26 Mar 2025",
     url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
@@ -109,7 +110,7 @@ const latestCaseStudy = [
     industry: "Public Sector",
     date: "27 Sept 2024",
     url: "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
-    title: "YARDI Implementation and 5 years of successful AMS journey with largest PHA in North America",
+    title: "Trusted YARDI Partner for North America’s Largest PHA",
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
@@ -445,7 +446,13 @@ const FeaturedCarousel = () => {
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Seo title="Case Study" canonical="https://www.rialtes.com/insights/case-studies/" />
+      <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
+      description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
+       canonical="https://www.rialtes.com/insights/case-studies/" />
+ <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
       <HeroSection title="Rial Results, Rial Impact" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
       <section
