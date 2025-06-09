@@ -154,7 +154,7 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
       <section className="mt-16  ">
         <section className="custom-container">
           <h2 className="2xl:w-[69%] xl:w-[72%] leading-tight pb-6">
-Unify Your Enterprise Data – From Finance to Frontline          </h2>
+Unify Your Enterprise Data  From Finance to Frontline          </h2>
           <p className=" xl:w-[67%] ">
            Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate:
           </p>
@@ -176,10 +176,7 @@ Unify Your Enterprise Data – From Finance to Frontline          </h2>
             </div>
             <div className="lg:w-1/2">
               <p>
-                Whether you’re optimizing profitability, driving operational
-                efficiency, or delivering personalized customer experiences, SAP
-                Business Data Cloud—implemented by Rialtes—gives you a unified
-                and contextualized view of your enterprise landscape.
+              Whether you’re optimizing profitability, driving operational efficiency, or delivering personalized customer experiences, SAP Business Data Cloud, implemented by Rialtes, gives you a unified and contextualized view of your enterprise landscape.
               </p>
             </div>
           </div>
