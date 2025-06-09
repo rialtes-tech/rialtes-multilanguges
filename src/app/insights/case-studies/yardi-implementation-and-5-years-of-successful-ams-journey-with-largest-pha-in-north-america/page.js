@@ -2,8 +2,8 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-const schemaData={
-  
+const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
@@ -73,7 +73,7 @@ const slides = [
   },
   {
     id: 8,
-    image: "/images/case-studies/case study 2_thumb_n.webp",
+    image: "/images/case-studies/case-study-2_thumb_n.webp",
     category: "Salesforce",
     industry: "Hi-Tech",
     date: "25 Oct 2024",
@@ -93,7 +93,7 @@ export default function Page() {
         description="Explore our Yardi implementation case study to see how we supported a 5-year digital transformation journey with Yardi AMS for long-term success."
         canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
       />
-  <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
@@ -109,22 +109,15 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
-
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">YARDI Implementation and 5 Years of Successful AMS Journey with The Largest PHA in North America</h1>
+        <div className="py-10 bg-white xl:max-w-[1000px] xl:w-[1000px]">
+          <div>
+            <h1 className="text-[#000000] py-6">Trusted YARDI Partner for North America’s Largest PHA</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+          <div>
+            <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Public Sector</span> <span className='text-[#ACACAC]'> | </span>27 September 2024
               </div>
@@ -140,8 +133,6 @@ export default function Page() {
                   target="_blank"
                   rel="noopener"
                 >
-
-
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
@@ -153,79 +144,50 @@ export default function Page() {
                   />
                 </a>
               </div>
-              {/* <div className="max-w-[40px]">
-                <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-6">
-                  <Image
-                    src="/images/case-studies/facebook.svg"
-                    alt="Facebook"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                </a>
-              </div> */}
-              {/* <div className="max-w-[40px]">
-                <a href="https://twitter.com/intent/tweet?url=/case-study-6&text=A public housing in US">
-                  <Image
-                    src="/images/case-studies/twitter.svg"
-                    alt="Twitter"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                </a>
-              </div> */}
             </div>
           </div>
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
+          <div>
+            <div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
-              <p className="text-black">A public housing authority responsible for managing and delivering affordable housing programs across multiple counties. Their services include Section 8 vouchers, project-based housing, VASH (Veterans Affairs Supportive Housing), Section 3 employment programs, and other HUD-administered initiatives designed to support low-income individuals and families.</p>
-              <p className="mt-5">Rialtes has been a trusted AMS partner of this authority for over 5 years, supporting their digital transformation and ensuring continuity, stability, and innovation across critical operations. This long-term collaboration reflects our commitment to public sector excellence.</p>
+              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h3>
+              <p className="text-black">A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.</p>
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Challenges</h3>
-              <p>The housing authority was operating with outdated legacy software (Tenmast) that created multiple operational inefficiencies and user experience challenges:</p>
+              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Challenges</h3>
+              <p>The client faced operational inefficiencies in managing multiple property management platforms, including Yardi Voyager 7, MRI, Voyager, and RealPage:</p>
               <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
-                <li className="pb-4">Non-responsive portals for residents and applicants, hindering digital engagement.</li>
-                <li className="pb-4">Manual, paper-based application processes slow down approvals and increase administrative burden.</li>
-                <li className="pb-4">Centralized software installation, requiring an administrator to configure Tenmast on each laptop, makes system updates complex, slow, and costly.</li>
-                <li className="pb-4">Lack of automation leads to time-consuming manual workflows, delayed responses, and limited scalability.</li>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">Skill Silos:</h3> Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li></p>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">Talent Shortage: </h3> Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li></p>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">Lack of Centralized Oversight:</h3> Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li></p>
+
               </ul>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
+              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h3>
 
-              <p className="text-black pb-6">Rialtes partnered with the housing authority to lead a complete digital transformation by implementing Yardi Voyager 7S, a modern property management solution tailored for affordable housing operations.</p>
+              <p className="text-black pb-6">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
 
-              <p className="text-black pb-6">Implementation Steps:</p>
               <ul className="list-decimal marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
-                <li className="pb-4"> <strong>Collaborative Discovery: </strong> Conducted in-depth sessions with stakeholders to understand existing workflows and identify areas for automation and improvement. Developed an “as-is to to-be” process document to guide transformation.</li>
-                <li className="pb-4"><strong>Data Migration & Integration: </strong> Built an SQL-based interface to extract legacy data from Tenmast and convert it into a format compatible with Yardi, ensuring complete and accurate migration.</li>
-                <li className="pb-4"><strong>Resident Portal Deployment – Rent Café: </strong> Developed a user-friendly, self- service web portal (Rent Café) enabling residents and applicants to submit applications online, access status updates, and interact with housing staff, eliminating the need for paper forms or office visits.</li>
-                <li className="pb-4"><strong>Real-Time System Integration: </strong> Enabled seamless data synchronization between Rent Café and Yardi, ensuring up-to-date information across the resident portal and back-office operations.</li>
-                <li className="pb-4"><strong>Phased Rollout: </strong> Executed the project in two stages—first with a QA/test environment for validation and training, followed by a full-scale launch of the production system with complete functionality.</li>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">Capability Assessment:  </h3>Conducted a thorough review of the client’s internal team and identified skill gaps.</li></p>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">Team Augmentation:  </h3> Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage.</li></p>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">Collaborative Transition: </h3> Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li></p>
+                <p><li className="pb-4"> <h3 className="inline h3-bold">End-to-End Ownership:</h3> After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li></p>
               </ul>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
+          <div>
+            <div>
+              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h3>
               <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
-                <li className="pb-4"> <strong>Faster Response Times: </strong> Digital application processes reduced response time to resident and applicant inquiries by up to 60%.</li>
-                <li className="pb-4"><strong>Improved Accessibility: </strong> Applicants can now submit applications online 24/7, increasing engagement and convenience, especially for those in remote or underserved areas.</li>
-                <li className="pb-4"><strong>Increased Operational Efficiency: </strong> Automated workflows in Yardi led to a 40% reduction in staff workload related to application processing and document handling.</li>
-                <li className="pb-4"><strong>Reduced Administrative Overhead: </strong> Paper usage dropped by 70%, and manual data entry tasks were reduced by over 50%, lowering processing errors and administrative costs</li>
-                <li className="pb-4"><strong>Enhanced User Experience: </strong> A responsive and intuitive portal interface improved satisfaction for both applicants and residents, reducing support requests and office visits.</li>
+                <p><li className="pb-4">With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones</li></p>
+                <p><li className="pb-4"> Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%</li></p>
+                <p><li className="pb-4"> By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions</li></p>
+                <p><li className="pb-4"> Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team</li></p>
+                <p><li className="pb-4"> The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally</li></p>
               </ul>
             </div>
           </div>
@@ -235,13 +197,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-        className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="pb-10 custom-container lg:pr-0"
       >
         <RelatedTopicsCarousel slides={slides} />
 
