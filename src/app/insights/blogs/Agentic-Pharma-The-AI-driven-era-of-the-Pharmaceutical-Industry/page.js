@@ -228,7 +228,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>AI</span> <span className='text-[#ACACAC]'> | </span>30-5-2025
               </div>
