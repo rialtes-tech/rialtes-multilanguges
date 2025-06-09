@@ -186,24 +186,18 @@ export default function Page() {
           src="/images/blog/agriculture-4.0-digital-farming.webp "
           alt="Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?"
           fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "70% 20%" }}
           priority
         />
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container "
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>Green Technology</span> <span className='text-[#ACACAC]'> | </span>17 Sept 2024
               </div>
@@ -227,11 +221,7 @@ export default function Page() {
                     </a>
                   </div>
                   {/* <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
                       <Image
                         src="/images/case-studies/facebook.svg"
                         alt="Facebook"
@@ -258,18 +248,18 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> 
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2">Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?</h1>
-          </div>
+         
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?</h1>
+      
 
-          <div className="container mx-auto">
-            <div className="max-w-4xl md:w-4/2">
+          <div className="">
+            <div className="">
 
               <p className="text-black pb-4">Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation. With increasing awareness of environmental issues and the need to better manage available resources, agriculture technologies are gaining traction to enhance sustainability and create more effective farming methods. Approximately 54.6% of the total manpower is engaged in agricultural and related sector activities, the sector accounts for 17.8% of the country’s gross value added (GVA).</p>
 
@@ -277,7 +267,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">What is Agriculture 4.0?</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">What is Agriculture 4.0?</h2>
 
               <p className="text-black pb-4">Modern-day agriculture faces challenges like lowered resources, increasing demand, and rising costs. Industry 4.0 and agriculture are closely related. Industry 4.0 is essentially the industrial revolution, similarly, Agriculture is moving toward its fourth agriculture revolution that uses digital technologies for a smarter, environmentally responsible, and resourceful agriculture sector. It incorporates the evolution of precision agriculture and directs all measures taken in agriculture based on a precise and accurate analysis of data and information collected and transmitted with modern tools and technology.</p>
 
@@ -285,45 +275,49 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Adopting 4.0 solutions in agriculture results in</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Adopting 4.0 solutions in agriculture results in</h2>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
-                <li>Reducing unnecessary wasteby having an estimate of the exact water requirements of the crop or advance detection of certain plant diseases or pests</li>
-                <li>Automation and data management of the tasks that need to be carried out quickly and with precision</li>
-                <li>Saving both time and money by being able to plan all stages of cultivation, sowing, and harvesting with better precision</li>
-                <li>Improving supply chain traceability results in a short, error-free, and sustainable supply chain capable of producing high-quality food.</li>
+             
+
+    <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li>Reducing unnecessary wasteby having an estimate of the exact water requirements of the crop or advance detection of certain plant diseases or pests</li></p>
+                <p className="text-black pb-4"> <li>Automation and data management of the tasks that need to be carried out quickly and with precision</li></p>
+                <p className="text-black pb-4"><li>Saving both time and money by being able to plan all stages of cultivation, sowing, and harvesting with better precision</li></p>
+                <p className="text-black "> <li>Improving supply chain traceability results in a short, error-free, and sustainable supply chain capable of producing high-quality food.</li></p>
+  
               </ul>
-
+            </div>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Technologies Driving Agriculture 4.0</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Technologies Driving Agriculture 4.0</h2>
 
               <p className="text-black">Rialtes helps you leverage SAP to optimize your plan-to-harvest processes and farming services while taking advantage of AgriDrones, IoT-based crop sensors, smart irrigation, and Robotic Irrigation. To understand the impact of Industry 4.0 on agriculture, let’s examine some of the most important technologies used in Agriculture 4.0.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Drones</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Drones</h2>
 
               <p className="text-black">There is a lot of ground to cover in farms, and Drones are becoming a main ingredient for modern agriculture. Thanks to them, many jobs no longer need to be performed manually. They are mainly used for land mapping, typically equipped with various sensors that allow them to collect data. The most advanced versions of these come with infrared sensors and imagery systems to detect issues that cannot be detected on your own. With applications adopted from Industry 4.0 in agriculture, drones can provide useful data regarding soil fertility, disease, and plant maturity in real-time.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Sensors</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Sensors</h2>
 
               <p className="text-black">Sensors work as an extended range of sight and data collection for activities both above and below ground. They obtain information on temperature, soil, and humidity by monitoring light, humidity, soil moisture, temperature, crop health, etc. With this information, you can learn the needs of the crops and take the right steps to fulfill them. They can detect when crops need irrigation, determine the right amount of fertilizer for each crop, and instruct what chemicals should be used and where. </p>
 
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Artificial Intelligence</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Artificial Intelligence</h2>
 
               <p className="text-black">Artificial Intelligence refers to the technology that instructs machines to assess conditions and make decisions. In agriculture, AI helps to automate irrigation, enhance harvest quality, and detect infections and pests in plants to determine the herbicide that needs to be used making crop management precise and effective. It also fosters innovative farming techniques like vertical agriculture, an advanced farming system that fully utilizes resources and increases food production in a smaller area.</p>
 
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Robotics</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Robotics</h2>
 
               <p className="text-black">The incorporation of robots has a wide range of applications within the agricultural industry. For instance, automating the performance of various maintenance tasks in the fields or checking the status of the crops with sensors, and taking the necessary measure. With robotics, it is possible to perform complex tasks such as measuring PH levels in the soil to simpler tasks of planting seeds and harvesting fruits and vegetables.</p>
 
@@ -331,7 +325,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">IoT</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">IoT</h2>
 
               <p className="text-black">IoT enables a variety of tools (e.g. drones, sensors, or satellites) to connect and communicate with each other with an internet network to receive and transmit data useful for improving crop development conditions. It allows field management systems to connect data obtained in real time from GPS-equipped drones, satellites, and sensors.  Systems utilizing IoT technology can adjust irrigation plans automatically according to changes in the weather.</p>
 
@@ -339,12 +333,12 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-4">Move Towards Smart Farming Technologies with Rialtes</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Move Towards Smart Farming Technologies with Rialtes</h2>
 
               <p className="text-black pb-4">Agriculture is a market-driven industry that employs a large segment of the country’s population. Farming technology over the last few years has been enormously helpful in contributing more towards economic growth. Rialtes can assist you in implementing Agribusiness solutions from SAP that help Preserve soil fertility, prevent pollution, and protect biodiversity. We use SAP AI to automate manual tasks and check the status of crops using sensors.
-                <Link className="text-[#006C1D] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/contact-us/"}>
-                  <span className="font-bold">Reach out to us </span></Link>
-                to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
+                 <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}>
+                 <span className="">Reach out to us </span></Link>
+ to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
 
 
 
@@ -358,13 +352,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
+        className="custom-container lg:pr-0
         pb-10"
       >
         <BlogsCarousel slides={blogs} />

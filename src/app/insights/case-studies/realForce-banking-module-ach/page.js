@@ -3,8 +3,8 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-const schemaData={
-  
+const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
@@ -95,7 +95,7 @@ export default function Page() {
         description="Learn how Rialtes helped front load ACH and journal entries using Exelona’s banking module to streamline finance ops and improve accuracy."
         canonical="https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/"
       />
-        <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
@@ -105,28 +105,22 @@ export default function Page() {
           src="/images/case-studies/case study 2_n 1.webp "
           alt="RealForce Banking Module - ACH"
           fill
-          style={{ objectFit: "cover", objectPosition: "10% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "30% 90%" }}
           priority
         />
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Automating ACH and Journal Entries with Our Exelona Banking Module</h1>
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <h1 className="text-[#000000] py-6 leading-tight">Automating ACH and Journal Entries with Our Exelona Banking Module</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black  ">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>22 December 2024
               </div>
@@ -173,37 +167,61 @@ export default function Page() {
           </div>
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
               <p className="text-black">A leading U.S.-based multifamily real estate investment firm focused on acquisitions, development, and operational excellence. With a portfolio of residential properties across the country, the firm’s mission is to build thriving communities for residents while driving strong returns for investors.</p>
+
+
               <div className="py-6"></div>
-              <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
               <p className="text-black pb-6">The client was operating on a legacy banking application hosted in a non-standard, outdated environment (referred to as a "dark net" system), which presented several challenges:</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
+              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
                 <li className="pb-4"><strong>Manual Processes: </strong> Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li>
                 <li className="pb-4"><strong>Inefficient Reconciliation: </strong> Bank reconciliation was time-consuming and lacked visibility and automation.</li>
                 <li className="pb-4"><strong>Lack of Usability: </strong>The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li>
                 <li className="pb-4"><strong>Scalability Issues: </strong>The legacy platform was not responsive or scalable enough to support future growth or integrations.</li>
+              </ul> */}
+  <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li><h4 className="inline">Manual Processes </h4>: Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li></p>
+
+                <p className="text-black pb-4 "><li><h4 className="inline">Inefficient Reconciliation </h4>: Bank reconciliation was time-consuming and lacked visibility and automation.</li></p>
+                 <p className="text-black pb-4 "><li><h4 className="inline">Lack of Usability </h4>: The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li></p>
+               <p className="text-black "><li><h4 className="inline">Scalability Issues </h4>: The legacy platform was not responsive or scalable enough to support future growth or integrations.</li></p>
+              
               </ul>
+            </div>
+
+
               <div className="py-6"></div>
-              <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
               <p className="text-black pb-6">Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
+              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
                 <li className="pb-4"><strong>ACH Automation: </strong> Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li>
                 <li className="pb-4"><strong>Automated Journal Entries: </strong> ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li>
                 <li className="pb-4"><strong>Scheduled File Transfers: </strong>Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention.  </li>
                 <li className="pb-4"><strong>Unified Platform: </strong>Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li>
                 <li className="pb-4"><strong>Real-Time Accounting Integration: </strong>Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li>
 
+              </ul> */}
+               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li><h4 className="inline">ACH Automation </h4>:  Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li></p>
+
+                <p className="text-black pb-4 "><li><h4 className="inline">Automated Journal Entries </h4>: ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li></p>
+
+                 <p className="text-black pb-4 "><li><h4 className="inline">Scheduled File Transfers </h4>: Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention. </li></p>
+               <p className="text-black pb-4"><li><h4 className="inline">Unified Platform </h4>: Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li></p>
+                  <p className="text-black "><li><h4 className="inline">Real-Time Accounting Integration </h4>: Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li></p>
+              
               </ul>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px]">
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
+              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px]">
                 <li className="pb-4">Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li>
                 <li className="pb-4">Unified platform supports future integration of additional banking or financial tools.</li>
                 <li className="pb-4">Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.</li>
@@ -211,22 +229,28 @@ export default function Page() {
                 <li className="pb-4">Automation eliminated the need for a full-time resource previously dedicated to this process.</li>
                 <li className="pb-4">Finance and accounts payable teams can now process double the transaction volume in the same time. </li>
                 <li className="pb-4">Real-time dashboards and analytics empower better, faster financial decisions.</li>
+              </ul> */}
+              <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                <p className="text-black pb-4"> <li>Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li></p>
+                <p className="text-black pb-4"> <li>Unified platform supports future integration of additional banking or financial tools.</li></p>
+                <p className="text-black pb-4"><li>Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.</li></p>
+                <p className="text-black pb-4"> <li>Bank reconciliation time reduced from ~10 hours to under 1 hour per cycle, enabling quicker month-end closures.</li></p>
+                <p className="text-black pb-4"><li>Automation eliminated the need for a full-time resource previously dedicated to this process.</li></p>
+                <p className="text-black pb-4 "><li>Finance and accounts payable teams can now process double the transaction volume in the same time.</li></p>
+                <p className="text-black "><li>Real-time dashboards and analytics empower better, faster financial decisions.</li></p>
               </ul>
             </div>
+            </div>
           </div>
-          <div className="py-6"></div>
+          {/* <div className="py-6"></div> */}
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="py-10 lg:pr-0
+        custom-container "
       >
         <RelatedTopicsCarousel slides={slides} />
 

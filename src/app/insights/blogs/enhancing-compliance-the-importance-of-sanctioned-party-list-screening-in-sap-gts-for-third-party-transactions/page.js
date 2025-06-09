@@ -179,7 +179,7 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/enhancing-compliance-blog-desk-banner.webp"
+            src="/images/blog/sap-gts-sanctioned-party-screening2.webp"
             alt="desktop banner"
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
@@ -191,7 +191,7 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/blog/enhancing-compliance-blog-mob-banner.webp"
+            src="/images/blog/enhancing-compliance-blog-mob-banner2.webp"
             alt="mobile banner"
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
