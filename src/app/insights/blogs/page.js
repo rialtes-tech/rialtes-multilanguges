@@ -593,7 +593,7 @@ export default function Page() {
                 Blogs
               </h3>
 
-              <h1 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[56px] 2xl:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
+              <h1 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
                 Your Guide to<br /> Intelligent Enterprise <br />Transformation
               </h1>
 
