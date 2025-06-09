@@ -4,6 +4,107 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 
 export default function retailPage() {
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Retail Industry Digital Transformation Solutions",
+        "description": "Rialtes empowers retail industry digital transformation through SAP and Salesforce. We offer AI-powered personalization, inventory intelligence, omnichannel engagement, and seamless backend integration tailored for retailers.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc/",
+                "https://www.youtube.com/@rialtes"
+            ]
+        },
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "United States"
+            },
+            {
+                "@type": "Country",
+                "name": "Canada"
+            },
+            {
+                "@type": "Country",
+                "name": "India"
+            },
+            {
+                "@type": "Country",
+                "name": "Singapore"
+            },
+            {
+                "@type": "Continent",
+                "name": "Europe"
+            }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Retail Industry Solutions",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Fashion Retail Accelerators",
+                        "description": "Fashion-specific SAP and Salesforce solutions including trend forecasting, real-time inventory, loyalty, and omnichannel experiences."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce Marketing Cloud for Retail",
+                        "description": "Hyper-personalized marketing campaigns, automated customer journeys, segmentation, and engagement analytics."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Data Cloud Inventory Management",
+                        "description": "AI-powered real-time inventory management, demand forecasting, and smart replenishment across all retail locations."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Retail Loyalty Program Design",
+                        "description": "Multi-tier loyalty programs, AI-driven customer insights, gamification, and personalized retention strategies."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "SAP, Oracle, and MuleSoft Integration",
+                        "description": "Unified backend integration across SAP S/4HANA, Oracle ERP, Salesforce, and MuleSoft for smooth retail operations."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Retail Analytics with Data Cloud & Tableau",
+                        "description": "Executive-level dashboards and AI-driven insights for customer behavior, sales forecasting, and marketing performance."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Quick Commerce Enablement",
+                        "description": "Accelerated delivery, real-time updates, optimized routing, and integrated SAP/Salesforce mobile commerce."
+                    }
+                }
+            ]
+        },
+        "url": "https://www.rialtes.com/industry/retail-industry-digital-transformation"
+    }
 
     const newRealityData = [
         {
@@ -150,15 +251,14 @@ export default function retailPage() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Retail Industry | Rialtes"
-                description="Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency."
-                keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
+                title="Digital Transformation in Retail Industry with SAP | Rialtes"
+                description="Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions."
+                canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation/"
             />
-            {/* <script
+            <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                 {/* Desktop Image */}
