@@ -10,15 +10,15 @@ const AutoTimerSlider = () => {
             <div className="carousel mt-10 z-0 xl:h-[1100px] h-[851px]">
                 <div className="list">
 
-                    {/* <div className="item"
-                    style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
-                    <div className="content">
-                        <div className="title">LIFE SCIENCE</div>
-                        <div className="des xl:pr-5 pr-32 xl:mt-8 mt-5">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software,</div>
-                        <button className='!border-[1px] know-more !border-white xl:p-4 p-3 xl:text-[20px] !text-[16px] mt-10'>Know More → </button>
+                    <div className="item"
+                        style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
+                        <div className="content">
+                            <div className="title">LIFE SCIENCE</div>
+                            <div className="des xl:pr-5 pr-32 xl:mt-8 mt-5">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software,</div>
+                            <button className='!border-[1px] know-more !border-white xl:p-4 p-3 xl:text-[20px] !text-[16px] mt-10'>Know More → </button>
 
+                        </div>
                     </div>
-                </div> */}
 
                     <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry2.webp")` }}>
@@ -72,6 +72,28 @@ const AutoTimerSlider = () => {
                             <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
                             <Link href="/industry/life-sciences/healthcare-medtech-patient-care">
                                 <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="item"
+                        style={{ backgroundImage: `url("/images/industry/travel-transporation/retail+.webp")` }}>
+                        <div className="content">
+                            <div className="title font-semibold">Retail</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.</div>
+                            <Link href="/industry/retail-industry-digital-transformation">
+                                <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="item"
+                        style={{ backgroundImage: `url("/images/industry/travel-transporation/TTH.webp")`, backgroundPosition: "35% 10%" }}>
+                        <div className="content travelContent">
+                            <div className="title travelTitle font-semibold !text-[#000000]">Travel and Hospitality</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium text-[#000000]">Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.</div>
+                            <Link href="/industry/travel-hospitality-it-solutions">
+                                <button className='!border-[1px] know-more !border-black text-[#000000] p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                             </Link>
                         </div>
                     </div>

@@ -228,7 +228,7 @@ const Header = () => {
           label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
         },
         {
-          label: 'Retail Industry', href: '/industry/retail-industry',
+          label: 'Retail Industry', href: '/industry/retail-industry-digital-transformation',
         },
       ],
     },
@@ -1333,7 +1333,7 @@ const Header = () => {
                         <div className="font-bold mt-5">Smart Retail Solutions to Build Intelligent, Scalable Retail Ecosystems</div>
                         <p className="mt-3">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/retail-industry' onClick={(e) => handleLinkClick(e, "/industry/retail-industry")}
+                          <Link href='/industry/retail-industry-digital-transformation' onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation")}
                           >Let's Begin</Link>
                         </button>
                       </div>
