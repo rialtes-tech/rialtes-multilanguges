@@ -41,7 +41,7 @@ export default function Industry() {
 
     },
 
-     {
+    {
       id: 5,
       image: "/images/pharma/Header Pharma.webp",
       title: "Pharma & Biotech",
@@ -49,7 +49,7 @@ export default function Industry() {
       knowMore: '/industry/life-sciences/pharma-biotech-digital-transformation'
 
     },
-     {
+    {
       id: 6,
       image: "/images/medical/medical-header.webp",
       title: "Medical Devices",
@@ -57,7 +57,7 @@ export default function Industry() {
       knowMore: '/industry/life-sciences/medical-devices-it-solutions'
 
     },
-     {
+    {
       id: 7,
       image: "/images/education/Group 483.webp",
       title: "Education",
@@ -65,17 +65,33 @@ export default function Industry() {
       knowMore: '/industry/connected-education'
 
     },
-     {
+    {
       id: 8,
       image: "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
       title: "Automotive",
       description: "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
       knowMore: '/industry/automotive-industry-cloud-solutions'
 
+    },
+    {
+      id: 9,
+      image: "/images/industry/travel-transporation/retail+.webp",
+      title: "Retail",
+      description: "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
+      knowMore: '/industry/retail-industry-digital-transformation'
+
+    },
+    {
+      id: 10,
+      image: "/images/industry/travel-transporation/TTH.webp",
+      title: "Travel and Hospitality",
+      description: "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
+      knowMore: '/industry/travel-hospitality-it-solutions'
+
     }
   ];
   const GrowServicesCard = ({ services }) => (
-    <div className="w-full h-full">
+    <div className="w-full h-full flex flex-col">
       <div className="relative overflow-hidden">
         <Image
           className="w-full transition-transform duration-300 hover:scale-105"
@@ -88,35 +104,33 @@ export default function Industry() {
           priority
         />
       </div>
-      <div className="flex flex-col pt-4">
-        <h3 className="md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
+      <div className="flex flex-col mt-[23px]">
+        <h3 className="lg:text-[30px] text-[20px] font-semibold leading-tight">{services.title}</h3>
       </div>
-      <p className='md:mb-[15px] mb-3'>{services.description}</p>
-      <h5 className="text-[#0092E0] font-bold cursor-pointer">
-                                        <Link href={services?.knowMore}>Know More</Link>
-                                    </h5>
+      <p className='lg:text-[20px] lg:leading-[30px] mt-[25px] mb-[33px]'>{services.description}</p>
+      <h5 className="text-[#0092E0] font-bold cursor-pointer mt-auto text-[20px]">
+        <Link href={services?.knowMore}>Know More</Link>
+      </h5>
     </div>
   );
   const GrowServices = () => {
     return (
-      <div className="container mx-auto text-black lg:pr-20 md:pr-10 pr-6">
-        <h2 className="pb-10 text-black">Industries we serve</h2>
-        {Array.from({ length: Math.ceil(growLatestServices.length / 3) }).map((_, rowIdx) => {
-  const rowItems = growLatestServices.slice(rowIdx * 3, rowIdx * 3 + 3);
-  return (
-    <div key={rowIdx} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
-      {rowItems.map((services) => (
-        <GrowServicesCard key={services.id} services={services} />
-      ))}
-    </div>
-  );
-})}
+      <div>
+        <h2 className="xl:mb-[-20px] xl:text-[60px] text-[26px] mb-[40px] text-black">
+          Industries we serve
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[40px] gap-y-[60px] lg:mt-[78px]">
+          {growLatestServices.map((services) => (
+            <GrowServicesCard key={services.id} services={services} />
+          ))}
+        </div>
       </div>
     );
   };
+
   return (
     <div className="min-h-screen">
-    
+
       <Seo
         title="Salesforce & SAP Solutions by Industry | Rialtes"
         description="Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve."
@@ -124,83 +138,77 @@ export default function Industry() {
         canonical="https://www.rialtes.com/industry/"
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/industry/industry-header.webp"
-          alt="Webinar Header"
-          fill
-          style={{ objectFit: "cover", objectPosition: "70% 20%" }}
-          priority
-        />
-        <div
-          className="
-        container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
-        >
-          <div className="container mx-auto h-full flex flex-col justify-center">
-            <h3 className="text-white text-[300] font-medium mb-2">
-              Industries
-            </h3>
-            <h2 className="text-[#ffffff] max-w-sm">
-              Transform how you engage with your clients
-            </h2>
+      {/* herosection */}
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/industry/industry-header.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "55% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/industry/industry-header.webp"
+            alt="mobile banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "5% 20%" }}
+            priority
+          />
+        </div>
+
+        <div className="relative h-full custom-container flex items-center text-[#ffffff]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12">
+              <h3 className="text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
+                Industries
+              </h3>
+              <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[55%]">
+                Transform how you<br /> engage with <br /> your clients
+              </h2>
+            </div>
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+            </div>
           </div>
         </div>
       </section>
 
-      <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+      <section
+        className="custom-container lg:mt-[111px] mt-[45px]"
       >
-        <section className="pt-16 bg-white">
-          <div className="flex flex-col md:flex-row xl:gap-8 mb-5 max-w-7xl">
-            <div className="w-full md:w-1/3 mr-6">
-              <h1 className="text-[#000000] mb-4 ">
-                Different Industries, Different Mindsets
-              </h1>
-            </div>
-            <div className="w-full md:w-1/2">
-              <p className="mb-6">
-                We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.
-              </p>
-            </div>
+        <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px]">
+          <div className="2xl:col-span-6 xl:col-span-7 col-span-12">
+            <h1 className="text-[#000000] xl:text-[60px] text-[26px] leading-tight">
+              Different Industries, Different Mindsets
+            </h1>
           </div>
-        </section>
-      </div>
+          <div className="2xl:col-span-6 xl:col-span-5 col-span-12">
+            <p className="xl:text-[22px] text-[16px]">
+              We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <div
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container lg:mt-[103px] mt-[60px]"
       >
         <section className=" bg-white">
           <GrowServices />
         </section>
       </div>
 
-{/* Contact Form Section */}
+      {/* Contact Form Section */}
       <div
-        className="mt-5 mb-20
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]
-        text-black py-6"
+        className="custom-container xl:py-[84px] py-[60px]"
       >
         <ContactForm title={'Ready to take the next step? Let’s kick off your journey'} className={'max-w-4xl'} />
       </div>

@@ -119,6 +119,15 @@
   font-weight: 400;
 }
 
+.travelContent .travelTitle::after,
+.travelTitle::before {
+  color: #000 !important;
+}
+
+.travelContent .travelTitle::before {
+   background-color: #000 !important;
+}
+
 .content .name {
   font-size: 10px;
   text-transform: uppercase;
