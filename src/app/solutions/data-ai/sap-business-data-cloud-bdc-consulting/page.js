@@ -80,7 +80,7 @@ const exploreData = [
     desc: " Analyze your existing SAP BW models and data flows to build a tailored migration strategy",
   },
   {
-    title: "Automated Data Replication & Modeling",
+    title: "Automated Data Replication",
     desc: " Use SAP-provided migration tools and Rialtes accelerators to transition existing logic and semantics to SAP Business Data Cloud.",
   },
   {
@@ -154,12 +154,9 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
       <section className="mt-16  ">
         <section className="custom-container">
           <h2 className="2xl:w-[69%] xl:w-[72%] leading-tight pb-6">
-            Unify Your Enterprise Data – From Finance to Frontline
-          </h2>
+Unify Your Enterprise Data – From Finance to Frontline          </h2>
           <p className=" xl:w-[67%] ">
-            Rialtes helps you connect and harmonize enterprise data across your
-            business applications—unlocking insights like never before. With SAP
-            Business Data Cloud, we enable you to integrate:
+           Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate:
           </p>
 
           <div className="flex xl:gap-32 gap-10   flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%] ">
@@ -191,7 +188,7 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
         {/* A Unified, Open Data section */}
         <section className=" custom-container  lg:px-0 ">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center  ">
-            <div className="lg:col-span-6 h-full 2xl:h-[579px] ">
+            <div className="lg:col-span-7 h-full 2xl:h-[709px] ">
               <Image
                 src="/images/sap-bdc-services/Unified-web.webp"
                 alt="Unified"
@@ -208,23 +205,15 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
                 className="block lg:hidden w-full h-full object-cover px-0"
               />
             </div>
-            <div className="lg:col-span-5  xl:pl-8">
-              <h2 className=" text-black 2xl:w-[67%] xl:w-[100%]">
+            <div className="lg:col-span-5  2xl:pl-8 2xl:p-11 2xl:pr-[60px] xl:pr-8 xl:pl-3 ">
+              <h2 className=" text-black 2xl:w-[75%] xl:w-[100%]">
                 A Unified, Open Data Foundation for Intelligent Enterprises
               </h2>
               <p className="text-[16px] lg:text-[20px]">
-                SAP Business Data Cloud is the next evolution in enterprise data
-                management—bringing together the trusted capabilities of SAP’s
-                data platform, native integration with SAP applications, and
-                openness to third-party platforms like Databricks, Google
-                BigQuery, and Snowflake. It helps you unify business context
-                with data from across your enterprise landscape for real-time
-                insights and AI-powered decisions.
+                SAP Business Data Cloud enhances enterprise data management by combining SAP’s data platform capabilities with native integration for SAP applications and compatibility with third-party platforms like Databricks, Google BigQuery, and Snowflake. It enables the unification of business context and data for real-time insights and AI-driven decisions.
               </p>
               <p className="text-[16px] lg:text-[20px] mt-4">
-                As a SAP Authorized Partner and a Databricks Strategic Partner,
-                Rialtes empowers organizations to seamlessly adopt SAP Business
-                Data Cloud and unlock the full value of their enterprise data.
+              As a SAP Authorized Partner and a Databricks Strategic Partner, Rialtes empowers organizations to seamlessly adopt SAP Business Data Cloud and unlock the full value of their enterprise data.
               </p>
               <div className="">
                 <LearnMore />
@@ -260,30 +249,26 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
             </div>
           </div>
 
-          <div className="xl:col-span-6 bg-[#006FBE]  pb-9 p-2 px-10 text-white order-2 xl:order-1  ">
+          <div className="xl:col-span-6 bg-[#006FBE]  p-7  px-10 text-white order-2 xl:order-1  ">
             <h2>SAP Data Fabric</h2>
             <h3 className="xl:text-[36px] font-semibold text-[18px] mt-3 ">
               Powered by SAP Business Data Cloud
             </h3>
-            <p className="mt-3  text-[#FFFFFF] font-light">
-              The SAP Data Fabric—enabled by SAP Business Data Cloud—acts as a
-              smart, connected data layer across your organization. It provides
-              a consistent foundation for accessing, modeling, and governing
-              enterprise data with business context intact.
+            <p className="mt-4  text-[#FFFFFF] font-light">
+              The SAP Data Fabric acts as a smart, connected data layer across your organization. It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.
             </p>
-            <p className="mt-3  text-[#FFFFFF] font-light">
-              With SAP Data Fabric, you can:
-            </p>
+            <p className="mt-4  text-[#FFFFFF] font-light">
+With SAP Data Fabric, you can:            </p>
 
-            <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-2  ">
-              <li className="pb-2">
+            <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4  ">
+              <li className="pb-4">
                 Connect live and replicated data across multi-cloud and hybrid
                 landscapes
               </li>
-              <li className="pb-2">
+              <li className="pb-4">
                 Unify semantic definitions across domains and systems
               </li>
-              <li className="pb-2">
+              <li className="pb-4">
                 Ensure trusted data governance and lineage across all business
                 functions
               </li>
@@ -292,8 +277,7 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
                 data
               </li>
             </ul>
-            <p className="  text-[#FFFFFF] font-light">Rialtes builds intelligent data fabrics customized to your enterprise needs, combining SAP-native and open technologies to make data work smarter, faster, and safer.</p>
-            <div className="absolute mt-[-12px] xl:mt-[-15px] 2xl:mt-[130px]">
+            <div className="absolute mt-[-12px] xl:mt-[-3px] 2xl:mt-[180px] ">
               <LearnMore />
             </div>
           </div>
@@ -386,35 +370,22 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
               Rialtes: Your Trusted SAP & Databricks Partner
             </h2>
             <p className="text-[16px] leading-[19px] mt-[23px] font-normal md:text-[18px] md:leading-[28px] lg:text-[20px] lg:leading-[24px] lg:mt-[33px] xl:pr-20">
-              With a global footprint and a strong team of SAP-certified
-              engineers, Rialtes brings deep expertise in data cloud
-              architecture, implementation, and governance. Our certified teams
-              help you:
+              Rialtes specializes in data cloud architecture, implementation, and governance with a team of SAP-certified engineers. We integrate process intelligence, data engineering, and cloud development to deliver measurable value from your enterprise data. Our certified teams assist you in:
             </p>
             <div>
             
               <ul className="list-disc pt-4 text-black pl-4 xl:text-[20px] text-[16px] xl:pr-20">
                 <li className="pb-2">
-              Design and implement your data fabric using SAP Business Data Cloud
-                </li>
+Finance, Procurement, and Supply Chain Data from SAP S/4HANA                </li>
                 <li className="pb-2">
-                Seamlessly integrate Databricks for AI/ML workloads 
-                </li>
+Workforce and Payroll Intelligence from SAP SuccessFactors                </li>
                 <li>
-                                 Maintain data consistency and compliance with SAP and non-SAP systems 
-
+Sales, Service, and Marketing Insights from Salesforce or SAP CX
                 </li>
-                <li>
-                                  Build a unified data strategy tailored to your industry
-
-                </li>
+                
               </ul>
             </div>
-            <p className="text-[16px] leading-[19px] pt-4 font-normal md:text-[18px] md:leading-[28px] lg:text-[20px] lg:leading-[24px] lg:mt-[6px] xl:pr-20">
-              We combine process intelligence, data engineering, and
-              cloud-native development to give you measurable value from your
-              enterprise data.
-            </p>
+           
             <div className="lg:mt-[7px]">
               <LearnMore />
             </div>
@@ -470,9 +441,7 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
                       capabilities of Datasphere under a unified data
                       architecture. Rialtes makes this transition frictionless:
                     </p>
-                    <p className="mt-5  text-[#FFFFFF] font-light">
-                      With SAP Data Fabric, you can:
-                    </p>
+                    
                     <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4">
                       <li className="pb-1">
                         <div className="font-semibold">
@@ -492,6 +461,7 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
                           preserved during the shift
                         </div>
                       </li>
+                      
                       <li className="pb-1">
                         <div className="font-semibold">Open Extension </div>
                         <div className="font-light">

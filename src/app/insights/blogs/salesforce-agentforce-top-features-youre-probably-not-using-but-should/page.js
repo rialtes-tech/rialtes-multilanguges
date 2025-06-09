@@ -101,6 +101,8 @@ const blogs = [
 ];
 
 export default function Page() {
+    const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should";
+
   return (
     <div className="min-h-screen bg-white">
 
@@ -134,9 +136,14 @@ export default function Page() {
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>03 Feb 2025
               </div>
               <div className="flex flex-col">
+               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)&summary=Summary%20of%20the%20blog&source=LinkedIn">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -149,8 +156,24 @@ export default function Page() {
                     </a>
                   </div>
                  
-                
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
+                        src="/images/case-studies/twitter.svg"
+                        alt="Twitter"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

@@ -188,7 +188,7 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/blog/sap-business-data-cloud.webp "
+          src="/images/blog/sap-business-data-cloud.webp"
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
@@ -207,40 +207,60 @@ export default function Page() {
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>General</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
               </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  {/* <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div> */}
-                 
-                </div>
-              </div>
+            <div className="flex flex-col">
+                           <div className="flex flex-row gap-6">
+                             <div className="max-w-[40px]">
+                               <a
+                                 href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                               >
+                                 <Image
+                                   src="/images/case-studies/linkedin.svg"
+                                   alt="LinkedIn"
+                                   width={0}
+                                   height={0}
+                                   sizes="100vw"
+                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                   priority
+                                 />
+                               </a>
+                             </div>
+                             {/* <div className="max-w-[40px]">
+                               <a
+                                 href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                               >
+                                 <Image
+                                   src="/images/case-studies/facebook.svg"
+                                   alt="Facebook"
+                                   width={0}
+                                   height={0}
+                                   sizes="100vw"
+                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                   priority
+                                 />
+                               </a>
+                             </div> */}
+                             <div className="max-w-[40px]">
+                               <a
+                                 href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                               >                      <Image
+                                   src="/images/case-studies/twitter.svg"
+                                   alt="Twitter"
+                                   width={0}
+                                   height={0}
+                                   sizes="100vw"
+                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                   priority
+                                 />
+                               </a>
+                             </div>
+                           </div>
+                         </div>
             </div>
           </div>
           <div className="py-6"></div>
@@ -266,6 +286,13 @@ export default function Page() {
                 fill
                 priority
                 className="!w-full !h-full !relative"
+              />
+               <Image
+                src="/images/blog/image (5).png"
+                alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+                fill
+                priority
+                className="hidden !w-full !h-full !relative"
               />
               <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">What's New with SAP Business Data Cloud?</h2>
               <p className="mt-5">SAP is revitalizing its Data and Analytics (D&A) platform with BDC, which features enhanced functionality, openness, and adherence to industry standards compared to SAP BW. Unlike before, when transferring SAP data to an external data lakehouse meant losing semantics and business context, SAP BDC preserves these elements. This ensures that curated, consumable data sets can be effectively utilized in analytics, AI, and custom applications.</p>

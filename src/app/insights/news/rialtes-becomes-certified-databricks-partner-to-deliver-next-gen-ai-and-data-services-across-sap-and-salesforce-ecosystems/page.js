@@ -2,36 +2,38 @@
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 
-const schemaData={
-    
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
-  },
-  "headline": "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
-  "description": "Rialtes achieves Databricks partner certification, enabling advanced AI and data-driven solutions across Salesforce and SAP platforms.",
-  "image": "https://www.rialtes.com/images/news/databricks-partner-banner.webp",
-  "datePublished": "2025-04-18",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "articleSection": "News",
-  "keywords": "Databricks partner, Databricks certified partner, Salesforce AI integration partner, SAP data services, Rialtes news"
+const schemaData = {
+
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
+    },
+    "headline": "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
+    "description": "Rialtes achieves Databricks partner certification, enabling advanced AI and data-driven solutions across Salesforce and SAP platforms.",
+    "image": "https://www.rialtes.com/images/news/databricks-partner-banner.webp",
+    "datePublished": "2025-04-18",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "articleSection": "News",
+    "keywords": "Databricks partner, Databricks certified partner, Salesforce AI integration partner, SAP data services, Rialtes news"
 
 
 }
 export default function Page() {
+    const fullUrl = "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems";
+
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -39,15 +41,14 @@ export default function Page() {
                 description="As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems."
                 canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
             />
-              <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section
                 className="custom-container"
             >
-
                 <section className="relative  xl:h-[650px] overflow-hidden">
                     <div className="xl:block hidden">
 
@@ -81,7 +82,11 @@ export default function Page() {
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
                                     <div className="max-w-[40px]">
-                                        <a href="https://www.linkedin.com/company/rialtes-technologies-llc/">
+                                        <a
+                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
                                             <Image
                                                 src="/images/case-studies/linkedin.svg"
                                                 alt="LinkedIn"
@@ -93,22 +98,12 @@ export default function Page() {
                                             />
                                         </a>
                                     </div>
-                                    {/* <div className="max-w-[40px]">
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                                            <Image
-                                                src="/images/case-studies/facebook.svg"
-                                                alt="Facebook"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div> */}
                                     <div className="max-w-[40px]">
-                                        <a href="https://x.com/Rialtestech">
-                                            <Image
+                                        <a
+                                            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >                      <Image
                                                 src="/images/case-studies/twitter.svg"
                                                 alt="Twitter"
                                                 width={0}
