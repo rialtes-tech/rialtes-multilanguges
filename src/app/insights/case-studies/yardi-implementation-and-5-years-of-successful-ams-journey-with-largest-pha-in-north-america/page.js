@@ -115,7 +115,7 @@ export default function Page() {
           <div>
             <h1 className="text-[#000000] py-6">Trusted YARDI Partner for North America’s Largest PHA</h1>
           </div>
-          <div className="py-4"></div>
+          <div className="py-2"></div>
           <div>
             <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
