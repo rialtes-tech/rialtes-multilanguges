@@ -217,22 +217,12 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  {/* <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
                   <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives">
-                      <Image
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
                         src="/images/case-studies/twitter.svg"
                         alt="Twitter"
                         width={0}
@@ -242,7 +232,7 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

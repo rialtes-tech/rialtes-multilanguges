@@ -164,6 +164,8 @@ const blogs = [
 ];
 
 export default function Page() {
+    const fullUrl = "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management";
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -197,9 +199,14 @@ export default function Page() {
                 <span className='text-[#0092E0]'>SAP SuccessFactors</span> <span className='text-[#ACACAC]'> | </span>29 Oct 2024
               </div>
               <div className="flex flex-col">
+                <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=/how-salesforce-agentforce-actually-works&title=SAP SuccessFactors Performance and Goal Management&summary=Summary%20of%20the%20blog&source=LinkedIn">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -212,7 +219,11 @@ export default function Page() {
                     </a>
                   </div>
                   {/* <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
+                    <a
+                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         src="/images/case-studies/facebook.svg"
                         alt="Facebook"
@@ -223,10 +234,13 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div>
+                  </div> */}
                   <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=SAP SuccessFactors Performance and Goal Management">
-                      <Image
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
                         src="/images/case-studies/twitter.svg"
                         alt="Twitter"
                         width={0}
@@ -236,8 +250,10 @@ export default function Page() {
                         priority
                       />
                     </a>
-                  </div> */}
+                  </div>
                 </div>
+              </div>
+
               </div>
             </div>
           </div>
