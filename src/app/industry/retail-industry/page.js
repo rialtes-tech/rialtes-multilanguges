@@ -95,10 +95,62 @@ export default function retailPage() {
         "SAP CAR and Salesforce Commerce integrations for end-to-end quick commerce.",
         "Pre-integrated mobile apps and POS extensions."
     ]
+
+    const proprietaryData = [
+        {
+            title: "Fashion Retail Bolt-On",
+            desc: "Trend lifecycle management, AI collections, digital showrooms.",
+        },
+        {
+            title: "Restaurant Bolt-On",
+            desc: "Menu management, dynamic pricing, integrated loyalty.",
+        },
+        {
+            title: "Inventory and Loyalty Plugins",
+            desc: "Ready-to-use, flexible, and scalable.",
+        },
+    ]
+    const aiPoweredCustomerData = [
+        {
+            mobImgUrl: "/images/industry/retail-industry/Mobile/aiPowered-agentforce-mob-img.webp",
+            deskImgUrl: "/images/industry/retail-industry/aiPowered-agentforce-desk-img.webp",
+            title: "Agentforce",
+            desc: "AI-powered service cloud bots, virtual agents, and personalized support journeys."
+        },
+        {
+            mobImgUrl: "/images/industry/retail-industry/Mobile/aiPowered-datacloud-mob-img.webp",
+            deskImgUrl: "/images/industry/retail-industry/aiPowered-datacloud-desk-img.webp",
+            title: "Data Cloud",
+            desc: "Unified 360° customer profiles for personalized offers, support, and upselling."
+        },
+    ]
+
+    const actionableData = [
+        "Unified dashboards combining sales, marketing, and customer service data.",
+        "Advanced analytics for demand forecasting, trend analysis, and pricing optimization.",
+        "AI-driven insights for faster decision-making.",
+        "Interactive Tableau visualizations for intuitive, executive-level reporting."
+    ]
+
+    const hyperPersonalizationData = [
+        "Segment audiences based on behavior, demographics, and preferences.",
+        "Design AI-driven, personalized campaigns that drive conversions.",
+        "Launch automated journeys — from abandoned cart to loyalty promotions.",
+        "Analyze campaign success and customer engagement in real-time.",
+        "Integrate seamlessly with commerce, service, and loyalty platforms."
+    ]
+
+    const realTimeData = [
+        "Real-time inventory tracking across all locations.",
+        "AI-based demand forecasting for optimal stock levels.",
+        "Dynamic product allocation and smart replenishment.",
+        "Full visibility for customers, staff, and partners — ensuring fulfillment confidence.",
+        "Integration with ecommerce, POS, and warehouse systems."
+    ]
     return (
         <section className="min-h-screen">
             <Seo
-                title="Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes"
+                title="Retail Industry | Rialtes"
                 description="Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
@@ -139,7 +191,7 @@ export default function retailPage() {
                             <h3 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
                                 Retail Industry
                             </h3>
-                            <h1 className="text-[#FFFFFF] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
+                            <h1 className="text-[#FFFFFF] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[56px] 2xl:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
                                 Rialtes: Your Trusted <br /> Partner for Retail <br /> Industry Innovation <br /> and Growth
                             </h1>
                         </div>
@@ -272,11 +324,11 @@ export default function retailPage() {
             </section>
 
             {/* fashion retail section */}
-            <section className="xl:mt-[136px] mt-[93px] text-[#ffffff] md:pt-[63px]">
+            <section className="xl:mt-[81px] mt-[93px] text-[#ffffff] md:pt-[63px]">
                 <div className="relative">
                     <div className="">
                         <div className="custom-container max-lg:px-0">
-                            <div className="lg:pt-[63px] pb-[130px] xl:pb-[63px] bg-[#4DADC7] relative max-lg:px-[36px]">
+                            <div className="lg:pt-[63px] pb-[130px] lg:pb-[43px] xl:pb-[63px] bg-[#4DADC7] relative max-lg:px-[36px]">
                                 <div className="hidden lg:block absolute top-0 2xl:left-[-120px] lg:left-[-50px]  h-full bg-[#4DADC7] z-0 2xl:w-[120px] lg:w-[50px]" />
                                 <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[41px]">
                                     <div className="lg:col-span-6 col-span-12 lg:order-1 order-2 relative">
@@ -341,6 +393,125 @@ export default function retailPage() {
                 </div>
             </section>
 
+            {/* hyper personalization section  */}
+            <section className="custom-container xl:mt-[158px] md:mt-[100px] mt-[88px] lg:pl-0 max-lg:px-0">
+                <div className="grid md:grid-cols-12 grid-cols-1 gap-y-[36px] md:gap-[40px] xl:gap-[50px] 2xl:gap-[80px] relative">
+                    <div className="md:col-span-6 col-span-12">
+                        {/* Mobile image */}
+                        <div className="block md:hidden w-full h-full">
+
+                            <Image
+                                src="/images/industry/retail-industry/Mobile/hyper-mob-img.webp"
+                                alt="mobile image"
+                                className="w-full h-full object-cover"
+                                width={0}
+                                height={0}
+                            />
+                        </div>
+                        {/* Desktop image */}
+                        <div className="hidden md:block w-full h-full">
+                            <Image
+                                src="/images/industry/retail-industry/hyper-desk-img.webp"
+                                alt="mobile image"
+                                className="w-full h-full object-cover"
+                                width={0}
+                                height={0}
+                                style={{ objectPosition: '40% 20%' }}
+                            />
+                        </div>
+                    </div>
+                    <div className="md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px]">
+                        <h2 className="2xl:text-[60px] xl:text-[48px] text-[26px] leading-tight">
+                            Hyper-Personalization at Scale
+                        </h2>
+                        <h3 className="xl:text-[36px] text-[22px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
+                            Salesforce Marketing Cloud + Retail Cloud
+                        </h3>
+                        <h4 className="xl:text-[30px] text-[20px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
+                            Engage the right customers, at the right time, with the right message.
+                        </h4>
+                        <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
+                            Rialtes leverages Salesforce Marketing Cloud and Retail Cloud to:
+                        </p>
+                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[20px] mb-[166px] sm:mb-[136px] md:mb-[106px]">
+                            {hyperPersonalizationData.map((data, ind) => (
+                                <li
+                                    className="text-[16px] xl:text-[22px] leading-tight font-normal"
+                                    key={ind}
+                                >
+                                    {data}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="absolute bottom-0 right-0">
+                        <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px] max-md:mx-[36px] md:mr-[36px] lg:mr-auto">
+                            <p className="xl:text-[24px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
+                                Deliver delightful experiences that turn browsers into loyal brand advocates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/*real time section */}
+            <section className="lg:mt-[84px] mt-[62px] relative">
+                {/* Background Image */}
+                <div className="w-full h-auto hidden md:block md:h-[760px] lg:h-[710px] xl:h-[1160px] 2xl:h-[1150px] 3xl:h-[1136px]">
+                    <Image
+                        src="/images/industry/retail-industry/real-time-desk-img.webp"
+                        alt="Real-Time Inventory"
+                        className="w-full h-full object-cover"
+                        width={0}
+                        height={0}
+                        style={{ objectPosition: "90% 20%" }}
+                    />
+                </div>
+
+                <div className="w-full h-auto block md:hidden">
+                    <Image
+                        src="/images/industry/retail-industry/Mobile/real-time-mob-img.webp"
+                        alt="Real-Time Inventory Mobile"
+                        className="w-full h-full object-cover"
+                        width={0}
+                        height={0}
+                    />
+                </div>
+                <div className="relative md:absolute md:inset-0 md:flex md:items-stretch max-md:mt-[-170px]">
+                    <div className="custom-container md:h-full">
+                        <div className="bg-[rgba(0,111,190,0.85)] h-full w-full md:w-[52%] xl:w-[55%] 2xl:w-[54%] 3xl:w-[54%] text-white flex flex-col xl:pt-[68px] xl:px-[77px] pt-[25px] px-[33px]">
+                            <div>
+                                <h2 className="2xl:text-[60px] xl:text-[48px] text-[26px] leading-tight">
+                                    Real-Time Inventory Intelligence
+                                </h2>
+                                <h3 className="xl:text-[36px] text-[20px] font-semibold mt-[22px] md:mt-[29px] leading-tight">
+                                    Data Cloud-Powered Inventory Management
+                                </h3>
+                                <h4 className="xl:text-[30px] text-[20px] font-semibold mt-[22px] md:mt-[29px] leading-tight">
+                                    Never lose a sale due to stockouts again.
+                                </h4>
+                                <p className="xl:text-[22px] text-[16px] font-normal mt-[22px] md:mt-[29px] leading-tight">
+                                    Our Data Cloud-based inventory solutions ensure:
+                                </p>
+                                <ul className="list-disc mt-[18px] md:mt-[16px] pl-[20px] xl:space-y-[27px] space-y-[19px]">
+                                    {realTimeData.map((data, ind) => (
+                                        <li
+                                            className="text-[16px] xl:text-[22px] leading-tight font-normal"
+                                            key={ind}
+                                        >
+                                            {data}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <div className="mt-auto pt-[40px]">
+                                <LearnMore />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {/* loyalty program section */}
             <section className="custom-container xl:mt-[86px] mt-[61px]">
@@ -371,7 +542,7 @@ export default function retailPage() {
                     </div>
                     <div className="md:col-span-7 col-span-12 max-md:px-[36px] bg-[#EFEFEF]">
                         <div className="md:ml-[40px] md:pt-[64px] md:pb-[56px] pb-[31px] pt-[34px] md:pr-[60px]">
-                            <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                            <h2 className="2xl:text-[60px] xl:text-[52px] text-[26px] leading-tight">
                                 Loyalty Programs that Inspire Repeat Business
                             </h2>
                             <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[34px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
@@ -410,7 +581,7 @@ export default function retailPage() {
             <section className="custom-container xl:mt-[96px] mt-[59px] max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] gap-y-[41px]">
                     <div className="md:col-span-6 col-span-12 md:order-1 order-2 max-md:px-[36px]">
-                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                        <h2 className="2xl:text-[60px] xl:text-[56px] text-[26px] leading-tight">
                             Frictionless Backend Integration
                         </h2>
                         <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[35px] mt-[24px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
@@ -462,11 +633,80 @@ export default function retailPage() {
                 </div>
             </section>
 
+            {/* actionable section */}
+            <section className="custom-container xl:mt-[67px] mt-[51px] max-md:px-0 relative">
+
+                {/* Mobile image */}
+                <div className="block md:hidden w-full h-full">
+
+                    <Image
+                        src="/images/industry/retail-industry/Mobile/actionable-mob-img.webp"
+                        alt="mobile image"
+                        className="w-full h-full object-cover"
+                        width={0}
+                        height={0}
+                    />
+                </div>
+                {/* Desktop image */}
+                <div className="hidden md:block w-full h-full">
+                    <Image
+                        src="/images/industry/retail-industry/actionable-desk-img.webp"
+                        alt="mobile image"
+                        className="w-full h-full object-cover"
+                        width={0}
+                        height={0}
+                    />
+                </div>
+
+                <div className="relative">
+                    <div className="md:mt-[-16%] mt-[-30%]">
+                        <div className="bg-[#FFC143] xl:pt-[48px] pt-[34px] xl:pl-[67px] xl:pr-[73px] max-md:mx-[36px] px-[35px] text-[#000000] lg:w-[94%] md:w-[90%]">
+                            <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[25px]">
+                                <div className="flex flex-col h-full">
+
+                                    <h2 className="2xl:text-[60px] xl:text-[50px] text-[26px] leading-tight font-light">
+                                        Actionable Insights with Data Cloud & Tableau
+                                    </h2>
+
+                                    <p className="xl:text-[36px] text-[20px] leading-tight xl:mt-[31px] mt-[23px]">
+                                        See the Future, Now
+                                    </p>
+                                    <div className="mt-auto max-lg:hidden">
+                                        <LearnMore />
+                                    </div>
+                                </div>
+                                <div>
+                                    <p className="xl:text-[30px] text-[18px] font-semibold leading-tight lg:mt-0 mt-[23px]">
+                                        Transform retail data into real business outcomes.
+                                    </p>
+                                    <p className="xl:text-[22px] text-[16px] leading-tight lg:mt-[27px] mt-[23px]">
+                                        Rialtes helps you unlock the power of data:
+                                    </p>
+                                    <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]">
+                                        {actionableData.map((data, ind) => (
+                                            <li
+                                                className="text-[16px] xl:text-[22px] leading-tight font-normal"
+                                                key={ind}
+                                            >
+                                                {data}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                    <div className="mt-auto block lg:hidden">
+                                        <LearnMore />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* making right section */}
-            <section className="custom-container xl:mt-[71px] mt-[76px] lg:pr-0 max-md:px-0">
+            <section className="custom-container xl:mt-[71px] mt-[51px] lg:pr-0 max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 2xl:gap-[80px] gap-y-[41px]">
                     <div className="md:col-span-5 col-span-12 md:order-1 order-2 max-md:px-[36px]">
-                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                        <h2 className="2xl:text-[60px] xl:text-[54px] text-[26px] leading-tight">
                             Making the Right Tech Choices
                         </h2>
                         <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[31px] mt-[23px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
@@ -613,8 +853,8 @@ export default function retailPage() {
                                 </li>
                             ))}
                         </ul>
-                        <div className="absolute md:w-[50%] lg:w-auto">
-                            <div className="bg-[#163055] text-[#ffffff] lg:mt-[62px] mt-[35px]">
+                        <div className="absolute">
+                            <div className="bg-[#163055] text-[#ffffff] lg:mt-[62px] mt-[35px] max-sm:w-[94%]">
                                 <p className="xl:text-[24px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
                                     Deliver in minutes, delight for years.
                                 </p>
@@ -625,8 +865,85 @@ export default function retailPage() {
                 </div>
             </section>
 
+            {/* proprietary section */}
+            <section
+                className="bg-[url('/images/industry/retail-industry/Mobile/properietary-mob-img.webp')]
+                           md:bg-[url('/images/industry/retail-industry/properietary-desk-img.webp')]
+                           bg-cover bg-no-repeat bg-center xl:pt-[99px] pt-[42px] pb-[71px] xl:pb-[82px] lg:mt-[94px] mt-[89px] text-[#FFFFFF]">
+                <div className="custom-container">
+                    <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                        Proprietary Rialtes Accelerators
+                    </h2>
+                    <h3 className="xl:text-[36px] text-[20px] font-semibold xl:mt-[32px] mt-[23px] leading-tight">
+                        Faster Time to Value
+                    </h3>
+                    <p className="xl:text-[22px] text-[16px] leading-tight font-light xl:mt-[32px] mt-[23px]">
+                        Rialtes industry accelerators include:
+                    </p>
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[45px] mt-[23px] md:gap-[40px] gap-y-[20px] sm:w-[90%] 2xl:w-[80%] xl:w-[86%]">
+                        {
+                            proprietaryData.map((data, ind) => {
+                                return (
+                                    <div key={ind} className="card bg-[#ffffff] xl:py-[45px] py-[34px] xl:px-[40px] px-[28px]">
+                                        <p className="xl:text-[26px] text-[20px] text-[#0A6BB8] leading-tight font-semibold">{data.title}</p>
+                                        <p className="xl:text-[22px] text-[16px] leading-tight xl:mt-[32px] mt-[23px] text-[#000000]">{data.desc}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+
+                    <p className="xl:text-[22px] text-[16px] leading-tight xl:mt-[92px] mt-[31px]">
+                        These accelerators help reduce deployment time and costs — driving faster success.
+                    </p>
+                </div>
+            </section>
+            {/* ai powered customer section */}
+            <section className="custom-container xl:mt-[124px] mt-[58px] max-md:pr-0">
+                <h2 className="xl:text-[54px] 2xl:text-[60px] text-[26px] leading-tight 2xl:w-[80%] max-md:pr-[36px]">
+                    AI-Powered Customer Engagement with Agentforce and 360° Insights with Data Cloud
+                </h2>
+                <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[94px] md:mt-[106px] xl:mt-[126px] mt-[94px]">
+                    {
+                        aiPoweredCustomerData.map((data, ind) => {
+                            return (
+                                <div key={ind} className="card bg-[#EDEDED] lg:pb-[52px] py-[34px] lg:px-[58px] px-[28px] relative">
+                                    {/* Mobile image */}
+                                    <div className="block md:hidden w-[calc(100%-60px)] h-[360px] absolute top-[-50px] left-0">
+
+                                        <Image
+                                            src={data.mobImgUrl}
+                                            alt="mobile image"
+                                            className="w-full h-full object-cover"
+                                            width={0}
+                                            height={0}
+                                            style={{ objectPosition: "64% 20%" }}
+                                        />
+                                    </div>
+                                    {/* Desktop image */}
+                                    <div className="hidden md:block md:w-[calc(100%-60px)] lg:h-[420px] md:h-[360px] absolute top-[-50px] left-0">
+                                        <Image
+                                            src={data.deskImgUrl}
+                                            alt="mobile image"
+                                            className="w-full h-full object-cover"
+                                            width={0}
+                                            height={0}
+                                            style={{ objectPosition: "60% 20%" }}
+                                        />
+                                    </div>
+                                    <div className="lg:mt-[380px] md:mt-[320px] mt-[320px]">
+                                        <p className="xl:text-[36px] text-[20px] text-[#0A6BB8] leading-tight font-semibold">{data.title}</p>
+                                        <p className="xl:text-[22px] text-[16px] leading-tight xl:mt-[29px] mt-[20px] text-[#000000]">{data.desc}</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </section>
+
             {/* Contact Form */}
-            < div className="custom-container lg:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px]">
+            < div className="custom-container md:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px]">
                 <ContactForm title={'Let’s Transform Retail Together — With Rialtes as Your Strategic Partner'} subtitle="Ready to reimagine your retail journey? Rialtes brings the tools, expertise, and innovation you need to thrive in today’s demanding landscape." subtitle1=" Contact us today to unlock the future of retail." className={"xl:w-[90%] 2xl:w-[70%] lg:w-[90%]"} />
             </div >
         </section>
