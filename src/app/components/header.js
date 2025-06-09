@@ -98,7 +98,7 @@ const Header = () => {
           subLinks: [
             { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
             { label: 'Data-Sphere', href: '/solutions/data-ai/data-sphere' },
-          { label: 'SAP Business Data Cloud', href: '/solutions/data-ai/sap-business-data-cloud-bdc-consulting' },
+            { label: 'SAP Business Data Cloud', href: '/solutions/data-ai/sap-business-data-cloud-bdc-consulting' },
 
 
           ],
@@ -226,6 +226,9 @@ const Header = () => {
         },
         {
           label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
+        },
+        {
+          label: 'Retail Industry', href: '/industry/retail-industry',
         },
       ],
     },
@@ -839,10 +842,10 @@ const Header = () => {
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Rise with SAP" link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")}
                               onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-8" label="SAP Digital Desk" link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")}
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8" label="SAP Digital Desk" link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")}
                               onHover={() => { }} />
                           </div>
-                           <div>
+                          <div>
 
                           </div>
 
@@ -869,7 +872,7 @@ const Header = () => {
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="SAP Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting")}
                               onHover={() => { }} />
-                                <MenuItem className="font-bold text-[#2f78c4] mt-8" label="SAP Business Data Cloud" link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting")}
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8" label="SAP Business Data Cloud" link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting")}
                               onHover={() => { }} />
                           </div>
                         </div>
@@ -1170,6 +1173,12 @@ const Header = () => {
                   >
                     Travel and Hospitality
                   </div>
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("retailIndustry")}
+                  >
+                    Retail Industry
+                  </div>
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1310,6 +1319,21 @@ const Header = () => {
                         <p className="mt-3">Our solutions streamline operations, boost agility, and drive revenue across airlines, hotels, logistics, and more</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/travel-hospitality-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {openSection === "retailIndustry" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Smart Retail Solutions to Build Intelligent, Scalable Retail Ecosystems</div>
+                        <p className="mt-3">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/retail-industry' onClick={(e) => handleLinkClick(e, "/industry/retail-industry")}
                           >Let's Begin</Link>
                         </button>
                       </div>

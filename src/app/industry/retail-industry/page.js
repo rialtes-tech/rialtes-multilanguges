@@ -150,7 +150,7 @@ export default function retailPage() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes"
+                title="Retail Industry | Rialtes"
                 description="Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
@@ -898,7 +898,6 @@ export default function retailPage() {
                     </p>
                 </div>
             </section>
-
             {/* ai powered customer section */}
             <section className="custom-container xl:mt-[124px] mt-[58px] max-md:pr-0">
                 <h2 className="xl:text-[54px] 2xl:text-[60px] text-[26px] leading-tight 2xl:w-[80%] max-md:pr-[36px]">
