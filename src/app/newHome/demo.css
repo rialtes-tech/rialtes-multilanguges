@@ -15,7 +15,6 @@
   position: relative;
 }
 
-
 .carousel .list .item {
   width: 339px;
   height: 371px;
@@ -403,7 +402,9 @@
     font-size: 23px !important;
     margin-bottom: 20px;
   }
-
+  .carousel .list .item:nth-child(n+6) {
+    display: none !important;
+  }
 }
 
 
@@ -468,7 +469,9 @@
     font-size: 23px !important;
     margin-bottom: 20px;
   }
-
+  .carousel .list .item:nth-child(n+6) {
+    display: none !important;
+  }
 }
 
 /* X-Large devices (large desktops, between 1200px and 1399px) */
@@ -482,6 +485,10 @@
   .list .item:first-child .content .des,
   .list .item:nth-child(2) .content .des {
     width: 360px !important;
+  }
+
+  .carousel .list .item:nth-child(n+6) {
+    display: none !important;
   }
 }
 
@@ -498,7 +505,9 @@
     width: 360px !important;
   }
 
-
+  .carousel .list .item:nth-child(n+6) {
+    display: none !important;
+  }
 
 }
 
@@ -510,5 +519,9 @@
 
   .carousel .list .item {
     left: calc(var(--left-position) + 3%);
+  }
+
+  .carousel .list .item:nth-child(n+6) {
+    display: none !important;
   }
 }
