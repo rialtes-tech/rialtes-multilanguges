@@ -184,11 +184,11 @@ export default function Page() {
               </ul> */}
   <div className="pl-3">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Manual Processes </h4>: Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li></p>
+                <p className="text-black pb-4"> <li><h3 className=" h3-bold inline">Manual Processes </h3>: Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li></p>
 
-                <p className="text-black pb-4 "><li><h4 className="inline">Inefficient Reconciliation </h4>: Bank reconciliation was time-consuming and lacked visibility and automation.</li></p>
-                 <p className="text-black pb-4 "><li><h4 className="inline">Lack of Usability </h4>: The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li></p>
-               <p className="text-black "><li><h4 className="inline">Scalability Issues </h4>: The legacy platform was not responsive or scalable enough to support future growth or integrations.</li></p>
+                <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Inefficient Reconciliation </h3>: Bank reconciliation was time-consuming and lacked visibility and automation.</li></p>
+                 <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Lack of Usability </h3>: The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li></p>
+               <p className="text-black "><li><h3 className=" h3-bold inline ">Scalability Issues </h3>: The legacy platform was not responsive or scalable enough to support future growth or integrations.</li></p>
               
               </ul>
             </div>
@@ -197,22 +197,15 @@ export default function Page() {
               <div className="py-6"></div>
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
               <p className="text-black pb-6">Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:</p>
-              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>ACH Automation: </strong> Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li>
-                <li className="pb-4"><strong>Automated Journal Entries: </strong> ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li>
-                <li className="pb-4"><strong>Scheduled File Transfers: </strong>Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention.  </li>
-                <li className="pb-4"><strong>Unified Platform: </strong>Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li>
-                <li className="pb-4"><strong>Real-Time Accounting Integration: </strong>Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li>
-
-              </ul> */}
+            
                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">ACH Automation </h4>:  Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li></p>
+                <p className="text-black pb-4"> <li><h3 className="inline h3-bold">ACH Automation </h3>:  Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li></p>
 
-                <p className="text-black pb-4 "><li><h4 className="inline">Automated Journal Entries </h4>: ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li></p>
+                <p className="text-black pb-4 "><li><h3 className="inline h3-bold">Automated Journal Entries </h3>: ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li></p>
 
-                 <p className="text-black pb-4 "><li><h4 className="inline">Scheduled File Transfers </h4>: Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention. </li></p>
-               <p className="text-black pb-4"><li><h4 className="inline">Unified Platform </h4>: Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li></p>
-                  <p className="text-black "><li><h4 className="inline">Real-Time Accounting Integration </h4>: Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li></p>
+                 <p className="text-black pb-4 "><li><h3 className="inline h3-bold">Scheduled File Transfers </h3>: Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention. </li></p>
+               <p className="text-black pb-4"><li><h3 className="inline h3-bold">Unified Platform </h3>: Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li></p>
+                  <p className="text-black "><li><h3 className="inline h3-bold">Real-Time Accounting Integration </h3>: Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li></p>
               
               </ul>
             </div>
@@ -221,15 +214,7 @@ export default function Page() {
           <div className="">
             <div className="">
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
-              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px]">
-                <li className="pb-4">Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li>
-                <li className="pb-4">Unified platform supports future integration of additional banking or financial tools.</li>
-                <li className="pb-4">Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.</li>
-                <li className="pb-4">Bank reconciliation time reduced from ~10 hours to under 1 hour per cycle, enabling quicker month-end closures.</li>
-                <li className="pb-4">Automation eliminated the need for a full-time resource previously dedicated to this process.</li>
-                <li className="pb-4">Finance and accounts payable teams can now process double the transaction volume in the same time. </li>
-                <li className="pb-4">Real-time dashboards and analytics empower better, faster financial decisions.</li>
-              </ul> */}
+           
               <div className="pl-3">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
                 <p className="text-black pb-4"> <li>Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li></p>
