@@ -4,14 +4,57 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
-
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+    "description": "Explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.",
+    "url": "https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud",
+    "startDate": "2025-05-08T20:30:00+05:30",
+    "endDate": "2025-05-08T21:00:00+05:30",
+    "duration": "PT30M",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventCompleted",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "performer": {
+        "@type": "Person",
+        "name": "Divya Agarwal",
+        "jobTitle": "Software Engineer",
+        "url": "https://www.linkedin.com/in/divya-agarwal-071324207/"
+    },
+    "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": [
+            "Automotive Sales & Service Leaders",
+            "CRM & Digital Transformation Heads",
+            "Dealership Owners & Operators",
+            "Auto Manufacturer IT Teams",
+            "Salesforce Admins & Consultants"
+        ]
+    },
+    "keywords": [
+        "Salesforce Automotive Cloud",
+        "automotive cloud webinar",
+        "auto industry webinar",
+        "Rialtes webinars"
+    ]
+}
 
 export default function () {
-     const sectionRef = useRef(null);
+    const sectionRef = useRef(null);
 
-  const handleScroll = () => {
-    sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+    const handleScroll = () => {
+        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+    };
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-08T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
@@ -51,7 +94,10 @@ export default function () {
                 description="Join our webinar to explore how Salesforce Automotive Cloud enhances customer journeys with unified data, AI-driven insights, and seamless automation."
                 canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
             />
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section className="relative custom-container xl:!pr-0">
                 <Image
@@ -66,43 +112,43 @@ export default function () {
             <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
                 <div className="xl:col-span-7 col-span-12  pb-10">
                     <div className="flex flex-row gap-6  mt-10">
-                       <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                </div>
+                        <div className="flex flex-row gap-6">
+                            <div className="max-w-[40px]">
+                                <a
+                                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Image
+                                        src="/images/case-studies/linkedin.svg"
+                                        alt="LinkedIn"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                            <div className="max-w-[40px]">
+                                <a
+                                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >                      <Image
+                                        src="/images/case-studies/twitter.svg"
+                                        alt="Twitter"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
 
-                       
+
                     </div>
                     <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal xl:text-[40px] 4xl:text-[60px]">Deliver End-to-End Customer Journey with Salesforce Automotive Cloud</h1>
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
@@ -151,7 +197,7 @@ export default function () {
                         <h3>May 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                        <div  onClick={handleScroll}>
+                        <div onClick={handleScroll}>
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
                         </div>
 
@@ -186,7 +232,7 @@ export default function () {
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
             </div>
-            <div ref={sectionRef}  className="custom-container mb-20">
+            <div ref={sectionRef} className="custom-container mb-20">
                 <WebinarForm
                     redirectUrl="https://www.youtube.com/watch?v=41Cz_wwRCPU"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"

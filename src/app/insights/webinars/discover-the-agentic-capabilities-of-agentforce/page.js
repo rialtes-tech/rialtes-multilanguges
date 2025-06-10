@@ -5,7 +5,50 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
 
-
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Discover the Agentic Capabilities of Agentforce",
+  "description": "Join this exclusive webinar to explore how Agentforce brings agentic AI to life with intelligent autonomous agents that think, act, learn, and evolve alongside your team. Discover how Agentforce transforms workplaces with proactive AI agents capable of autonomous task execution, contextual human-like interactions, seamless integration, and real-world impact across industries.",
+  "url": "https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce",
+  "startDate": "2025-05-15T20:30:00+05:30",
+  "endDate": "2025-05-15T21:00:00+05:30",
+  "duration": "PT30M",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventCompleted",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Lokesh Adhikari",
+    "jobTitle": "Software Engineer",
+    "url": "https://www.linkedin.com/in/lokeshadhikari/"
+  },
+  "location": {
+    "@type": "VirtualLocation",
+    "url": "https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "Business Leaders",
+      "Innovation & AI Teams",
+      "IT Decision-Makers",
+      "Salesforce Administrators and Consultants",
+      "Anyone looking to supercharge workflows with intelligent, agentic AI solutions"
+    ]
+  },
+  "keywords": [
+    "Agentforce webinar",
+    "agentic AI webinar",
+    "Salesforce AI",
+    "Rialtes webinar"
+  ]
+}
 export default function () {
     const sectionRef = useRef(null);
 
@@ -51,6 +94,10 @@ export default function () {
                 title="AI Webinar: Exploring Agentic Capabilities with Agentforce | Rialtes"
                 description="Join our AI webinar to discover how Agentforce’s agentic AI transforms enterprise workflows with autonomous agents, context, and smart integration."
                 canonical="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+            />
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
             <section className="relative custom-container xl:!pr-0  max-md:px-0">
