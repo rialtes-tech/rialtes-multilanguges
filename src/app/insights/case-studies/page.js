@@ -92,7 +92,7 @@ const latestCaseStudy = [
     industry: "Healthcare",
     date: "17 Nov 2024",
     url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+    title: "Automating Order Processing in Healthcare using MuleSoft",
     description: "A global medical technology company that develops and manufactures innovative products",
   },
   {
@@ -316,9 +316,9 @@ const FeaturedCarousel = () => {
       id: 2,
       imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
       category: 'Healthcare and Life Sciences',
-      date: '25 Oct 2024',
+      date: '17 Nov 2024',
       url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      title: 'Automating Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
+      title: 'Automating Order Processing in Healthcare using MuleSoft',
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
     {
