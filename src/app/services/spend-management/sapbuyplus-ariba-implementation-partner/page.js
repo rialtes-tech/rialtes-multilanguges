@@ -79,13 +79,7 @@ const schemaData = {
                 }
             }
         ]
-    },
-    "isRelatedTo": [
-        { "@type": "Product", "name": "SAP ARIBA" },
-        { "@type": "Product", "name": "SAP S/4HANA" },
-        { "@type": "Product", "name": "SAP SuccessFactors" },
-        { "@type": "Product", "name": "SAP Business Technology Platform (BTP)" }
-    ]
+    }
 }
 const WhyChooseRialtes = () => {
     const whyChooseData = [
