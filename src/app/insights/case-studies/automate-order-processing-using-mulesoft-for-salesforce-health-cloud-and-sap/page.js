@@ -112,7 +112,7 @@ export default function Page() {
         className="custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1000px] xl:w-[1000px]">
+        <div className="py-10 bg-white xl:max-w-[1080px] xl:w-[1080px]">
           <div className="">
             <h1 className="text-[#000000] py-6 leading-tight">Automating Order Processing in Healthcare using MuleSoft</h1>
           </div>
