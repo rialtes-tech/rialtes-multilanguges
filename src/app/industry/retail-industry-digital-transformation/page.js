@@ -153,8 +153,8 @@ export default function retailPage() {
     ];
 
     const fashionRetailData = [
-        "Manage complex product hierarchies — from seasonal collections to custom fits.",
-        "Deliver personalized omnichannel experiences — online, in-store, mobile.",
+        "Manage complex product hierarchies from seasonal collections to custom fits.",
+        "Deliver personalized omnichannel experiences online, in-store, mobile.",
         "Optimize inventory across channels with real-time updates.",
         "Harness AI for trend forecasting, demand planning, and customer preferences.",
         "Enhance customer retention with smart loyalty programs."
@@ -236,7 +236,7 @@ export default function retailPage() {
     const hyperPersonalizationData = [
         "Segment audiences based on behavior, demographics, and preferences.",
         "Design AI-driven, personalized campaigns that drive conversions.",
-        "Launch automated journeys — from abandoned cart to loyalty promotions.",
+        "Launch automated journeys from abandoned cart to loyalty promotions.",
         "Analyze campaign success and customer engagement in real-time.",
         "Integrate seamlessly with commerce, service, and loyalty platforms."
     ]
@@ -245,7 +245,7 @@ export default function retailPage() {
         "Real-time inventory tracking across all locations.",
         "AI-based demand forecasting for optimal stock levels.",
         "Dynamic product allocation and smart replenishment.",
-        "Full visibility for customers, staff, and partners — ensuring fulfillment confidence.",
+        "Full visibility for customers, staff, and partners, ensuring fulfillment confidence.",
         "Integration with ecommerce, POS, and warehouse systems."
     ]
     return (
@@ -292,7 +292,7 @@ export default function retailPage() {
                                 Retail Industry
                             </h3>
                             <h1 className="text-[#FFFFFF] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[56px] 2xl:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
-                                Rialtes: Your Trusted <br /> Partner for Retail <br /> Industry Innovation <br /> and Growth
+                                Rialtes: Your Trusted <br /> Partner for Retail <br /> Industry Innovation
                             </h1>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -308,7 +308,7 @@ export default function retailPage() {
                 </h2>
 
                 <p className="xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] xl:mt-[34px] mt-[23px] xl:w-[80%] max-md:w-[94%]">
-                    In today’s rapidly evolving retail ecosystem, success lies in creating seamless, personalized experiences across every channel — while managing operational complexity behind the scenes. At Rialtes, we empower retailers to embrace the future of commerce by unifying business processes, customer engagement, and intelligent analytics through strategic partnerships with SAP, Salesforce, MuleSoft, and Oracle.
+                    In the retail world, success lies in creating seamless, personalized experiences across every channel while managing operational complexity behind the scenes. At Rialtes, we empower retailers to embrace the future of commerce by unifying business processes, customer engagement, and intelligent analytics through strategic partnerships with SAP, Salesforce, MuleSoft, and Oracle.
 
                     <br /><br />
                     Our proprietary pre-built accelerators for fashion and restaurant verticals ensure you go to market faster, smarter, and with a customer-first focus.
@@ -325,9 +325,7 @@ export default function retailPage() {
                         <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-[24px] mt-[23px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
                             Challenges and Opportunities in a Digital-First World
                         </h3>
-                        <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[37px] mt-[23px]">
-                            Retailers today face unprecedented disruption:
-                        </p>
+
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]">
                             {newRealityData.map((data, ind) => (
                                 <li
@@ -338,6 +336,7 @@ export default function retailPage() {
                                 </li>
                             ))}
                         </ul>
+
                     </div>
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">
                         {/* Mobile image */}
@@ -366,7 +365,7 @@ export default function retailPage() {
                 </div>
                 <div className="bg-[#163055] md:w-[90%] 2xl:w-[80%] max-md:mx-[36px] text-[#ffffff] max-md:mt-[35px]">
                     <p className="xl:text-[24px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
-                        At Rialtes, we help you turn these challenges into growth opportunities by crafting modern, AI-powered, integrated solutions tailored for retail.
+                        We help you turn these challenges into growth opportunities by crafting modern, AI-powered, integrated solutions tailored for retail.
                     </p>
                 </div>
 
@@ -383,10 +382,10 @@ export default function retailPage() {
                         Why Choose Rialtes
                     </h2>
                     <h2 className="xl:text-[32px] 2xl:text-[36px] text-[22px] leading-tight font-semibold mt-[23px] xl:mt-[34px]">
-                        Complete, End-to-End Retail Transformation with ‘RetailNext+’
+                        Complete, End-to-End Retail Transformation with ‘Retail+’
                     </h2>
                     <p className="xl:text-[22px] text-[16px] leading-tight xl:mt-[37px] mt-[23px]">
-                        Our ‘RetailNext+’ offering delivers a 360° transformation journey:
+                        Our Retail+ offering delivers a 360° transformation journey:
                     </p>
                     <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-[87px] mt-[61px] sm:gap-[60px] gap-y-[40px] max-sm:w-[84%] 2xl:w-[84%] lg:w-full">
                         {
@@ -413,8 +412,7 @@ export default function retailPage() {
                     <div className="md:absolute bottom-[-50px] md:ml-[80px]">
                         <div className="bg-[#163055] md:w-[70%] lg:w-[60%] xl:w-[70%] 2xl:w-[60%] text-[#ffffff] max-md:mt-[60px] mx-auto">
                             <p className=" xl:text-[24px] text-[18px] leading-tight py-[24px] px-[28px] md:px-[24px] lg:pl-[31px] font-light">
-                                With global presence (US, Canada, India, Singapore), we bring unparalleled expertise and commitment.
-                            </p>
+                                With global presence (US, Canada, India, Singapore), we bring unparalleled expertise and commitment. </p>
                         </div>
                     </div>
                     <div className="xl:mt-[78px] mt-[54px]">
@@ -436,9 +434,6 @@ export default function retailPage() {
                                             <h2 className="xl:text-[58px] text-[26px] leading-tight">
                                                 Fashion Retail Redefined
                                             </h2>
-                                            <h3 className="xl:text-[36px] text-[20px] font-semibold lg:mt-[36px] mt-[15px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
-                                                Stay Ahead of Trends with Rialtes Smart Solutions
-                                            </h3>
                                             <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[36px] mt-[15px]">
                                                 Fashion is dynamic. So should your retail technology be. Rialtes helps fashion brands:
                                             </p>
@@ -493,7 +488,7 @@ export default function retailPage() {
                 </div>
             </section>
 
-            {/* hyper personalization section  */}
+            {/* salesforce marketing section  */}
             <section className="custom-container xl:mt-[158px] md:mt-[100px] mt-[88px] lg:pl-0 max-lg:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-y-[36px] md:gap-[40px] xl:gap-[50px] 2xl:gap-[80px] relative">
                     <div className="md:col-span-6 col-span-12">
@@ -522,14 +517,11 @@ export default function retailPage() {
                     </div>
                     <div className="md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px]">
                         <h2 className="2xl:text-[60px] xl:text-[48px] text-[26px] leading-tight">
-                            Hyper-Personalization at Scale
-                        </h2>
-                        <h3 className="xl:text-[36px] text-[22px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
                             Salesforce Marketing Cloud + Retail Cloud
-                        </h3>
-                        <h4 className="xl:text-[30px] text-[20px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
+                        </h2>
+                        <h3 className="xl:text-[30px] text-[20px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full">
                             Engage the right customers, at the right time, with the right message.
-                        </h4>
+                        </h3>
                         <p className="xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
                             Rialtes leverages Salesforce Marketing Cloud and Retail Cloud to:
                         </p>
@@ -582,14 +574,11 @@ export default function retailPage() {
                         <div className="bg-[rgba(0,111,190,0.85)] h-full w-full md:w-[52%] xl:w-[55%] 2xl:w-[54%] 3xl:w-[54%] text-white flex flex-col xl:pt-[68px] xl:px-[77px] pt-[25px] px-[33px]">
                             <div>
                                 <h2 className="2xl:text-[60px] xl:text-[48px] text-[26px] leading-tight">
-                                    Real-Time Inventory Intelligence
+                                    Data Cloud-Powered Inventory Management in Real-Time
                                 </h2>
                                 <h3 className="xl:text-[36px] text-[20px] font-semibold mt-[22px] md:mt-[29px] leading-tight">
-                                    Data Cloud-Powered Inventory Management
-                                </h3>
-                                <h4 className="xl:text-[30px] text-[20px] font-semibold mt-[22px] md:mt-[29px] leading-tight">
                                     Never lose a sale due to stockouts again.
-                                </h4>
+                                </h3>
                                 <p className="xl:text-[22px] text-[16px] font-normal mt-[22px] md:mt-[29px] leading-tight">
                                     Our Data Cloud-based inventory solutions ensure:
                                 </p>
@@ -977,9 +966,6 @@ export default function retailPage() {
                     <h3 className="xl:text-[36px] text-[20px] font-semibold xl:mt-[32px] mt-[23px] leading-tight">
                         Faster Time to Value
                     </h3>
-                    <p className="xl:text-[22px] text-[16px] leading-tight font-light xl:mt-[32px] mt-[23px]">
-                        Rialtes industry accelerators include:
-                    </p>
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[45px] mt-[23px] md:gap-[40px] gap-y-[20px] sm:w-[90%] 2xl:w-[80%] xl:w-[86%]">
                         {
                             proprietaryData.map((data, ind) => {
@@ -994,7 +980,7 @@ export default function retailPage() {
                     </div>
 
                     <p className="xl:text-[22px] text-[16px] leading-tight xl:mt-[92px] mt-[31px]">
-                        These accelerators help reduce deployment time and costs — driving faster success.
+                       These accelerators help reduce deployment time and costs — driving faster success.
                     </p>
                 </div>
             </section>
