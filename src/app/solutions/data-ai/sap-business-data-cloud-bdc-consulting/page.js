@@ -154,7 +154,7 @@ Unlock the Future of Data with SAP Business Data Cloud                        </
       <section className="mt-16  ">
         <section className="custom-container">
           <h2 className="2xl:w-[69%] xl:w-[72%] leading-tight pb-6">
-Unify Your Enterprise Data  From Finance to Frontline          </h2>
+Unify Your Enterprise Data  From Finance to Frontline  </h2>
           <p className=" xl:w-[67%] ">
            Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate:
           </p>
@@ -185,7 +185,7 @@ Unify Your Enterprise Data  From Finance to Frontline          </h2>
         {/* A Unified, Open Data section */}
         <section className=" custom-container  lg:px-0 ">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center  ">
-            <div className="lg:col-span-7 h-full 2xl:h-[709px] ">
+            <div className="lg:col-span-7 h-full w-full ">
               <Image
                 src="/images/sap-bdc-services/Unified-web.webp"
                 alt="Unified"
@@ -202,14 +202,14 @@ Unify Your Enterprise Data  From Finance to Frontline          </h2>
                 className="block lg:hidden w-full h-full object-cover px-0"
               />
             </div>
-            <div className="lg:col-span-5  2xl:pl-8 2xl:p-11 2xl:pr-[60px] xl:pr-8 xl:pl-3 ">
-              <h2 className=" text-black 2xl:w-[75%] xl:w-[100%]">
+            <div className="lg:col-span-5  2xl:pl-8 2xl:p-11  xl:pl-3 ">
+              <h2 className=" text-black xl:w-[100%]  2xl:w-[78%] ">
                 A Unified, Open Data Foundation for Intelligent Enterprises
               </h2>
-              <p className="text-[16px] lg:text-[20px]">
+              <p className="text-[16px] lg:text-[20px] 2xl:pr-[53px] ">
                 SAP Business Data Cloud enhances enterprise data management by combining SAP’s data platform capabilities with native integration for SAP applications and compatibility with third-party platforms like Databricks, Google BigQuery, and Snowflake. It enables the unification of business context and data for real-time insights and AI-driven decisions.
               </p>
-              <p className="text-[16px] lg:text-[20px] mt-4">
+              <p className="text-[16px] lg:text-[20px] mt-4 2xl:pr-[53px] ">
               As a SAP Authorized Partner and a Databricks Strategic Partner, Rialtes empowers organizations to seamlessly adopt SAP Business Data Cloud and unlock the full value of their enterprise data.
               </p>
               <div className="">
@@ -255,7 +255,7 @@ Unify Your Enterprise Data  From Finance to Frontline          </h2>
               The SAP Data Fabric acts as a smart, connected data layer across your organization. It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.
             </p>
             <p className="mt-4  text-[#FFFFFF] font-light">
-With SAP Data Fabric, you can:            </p>
+                   With SAP Data Fabric, you can:            </p>
 
             <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4  ">
               <li className="pb-4">
