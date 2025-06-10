@@ -978,7 +978,7 @@ export default function retailPage() {
                     </div>
 
                     <p className="xl:text-[22px] text-[16px] leading-tight xl:mt-[92px] mt-[31px]">
-                       These accelerators help reduce deployment time and costs — driving faster success.
+                       These accelerators help reduce deployment time and costs.
                     </p>
                 </div>
             </section>
