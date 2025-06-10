@@ -349,6 +349,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         {/* Desktop image */}
@@ -359,6 +360,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                                 style={{ objectPosition: '80% 20%' }}
                             />
                         </div>
@@ -399,6 +401,7 @@ export default function retailPage() {
                                             className="lg:w-[138px] lg:h-[138px] w-[100px] h-[100px] object-cover"
                                             width={0}
                                             height={0}
+                                            priority
                                         />
 
 
@@ -471,6 +474,7 @@ export default function retailPage() {
                                                 className="w-full h-full object-cover"
                                                 width={0}
                                                 height={0}
+                                                priority
                                             />
                                         </div>
                                         {/* Desktop image */}
@@ -481,6 +485,7 @@ export default function retailPage() {
                                                 className="w-full h-full object-cover"
                                                 width={0}
                                                 height={0}
+                                                priority
                                                 style={{ objectPosition: '30% 20%' }}
                                             />
                                         </div>
@@ -506,6 +511,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         {/* Desktop image */}
@@ -517,6 +523,7 @@ export default function retailPage() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '40% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -565,6 +572,7 @@ export default function retailPage() {
                         width={0}
                         height={0}
                         style={{ objectPosition: "90% 20%" }}
+                        priority
                     />
                 </div>
 
@@ -575,6 +583,7 @@ export default function retailPage() {
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
+                        priority
                     />
                 </div>
                 <div className="relative md:absolute md:inset-0 md:flex md:items-stretch max-md:mt-[-170px]">
@@ -626,6 +635,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         {/* Desktop image */}
@@ -637,6 +647,7 @@ export default function retailPage() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '50% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -716,6 +727,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         {/* Desktop image */}
@@ -727,6 +739,7 @@ export default function retailPage() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '80% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -745,6 +758,7 @@ export default function retailPage() {
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
+                        priority
                     />
                 </div>
                 {/* Desktop image */}
@@ -755,6 +769,7 @@ export default function retailPage() {
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
+                        priority
                     />
                 </div>
 
@@ -837,6 +852,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         {/* Desktop image */}
@@ -848,6 +864,7 @@ export default function retailPage() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '30% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -867,6 +884,7 @@ export default function retailPage() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         {/* Desktop image */}
@@ -878,6 +896,7 @@ export default function retailPage() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '40% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -1018,6 +1037,7 @@ export default function retailPage() {
                                             width={0}
                                             height={0}
                                             style={{ objectPosition: "64% 20%" }}
+                                            priority
                                         />
                                     </div>
                                     {/* Desktop image */}
@@ -1029,6 +1049,7 @@ export default function retailPage() {
                                             width={0}
                                             height={0}
                                             style={{ objectPosition: "60% 20%" }}
+                                            priority
                                         />
                                     </div>
                                     <div className="lg:mt-[380px] md:mt-[320px] mt-[320px]">

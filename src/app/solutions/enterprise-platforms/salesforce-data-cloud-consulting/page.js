@@ -245,6 +245,7 @@ export default function SalesForceConsulting() {
                                         className="transform transition-transform duration-500 group-hover:scale-110"
                                         height={325} width={1250}
                                         sizes="100vw"
+                                        priority
                                     />
                                 </div>
                                 <div className="p-8">
@@ -352,7 +353,7 @@ export default function SalesForceConsulting() {
             <section className='xl:mt-40 relative'>
                 <div className='group overflow-hidden'>
                     <div className='w-full'>
-                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:h-[350px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting-services/agentforceb.png' />
+                        <Image quality={100} layout="responsive"priority width='100' height='100' className='w-full lg:h-[350px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/salesforce-consulting-services/agentforceb.png' />
                     </div>
                 </div>
                 <div className='bg-[#134874] hidden xl:block absolute p-10 text-white lg:w-[23%] lg:right-[15rem] lg:top-[-3rem] top-[392px]'>

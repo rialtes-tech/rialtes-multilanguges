@@ -187,6 +187,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                                                 width={600}
                                                 height={100}
                                                 className="hidden md:block w-full h-full object-cover"
+                                                priority
                                             />
 
                                             {/* Mobile Image */}
@@ -196,6 +197,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                                                 width={600}
                                                 height={100}
                                                 className="block md:hidden w-full h-full object-cover"
+                                                priority
                                             />
 
                                         </div>
@@ -210,6 +212,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                                                 width={600}
                                                 height={100}
                                                 className="hidden md:block w-full h-full object-cover"
+                                                priority
                                             />
 
                                             {/* Mobile Image */}
@@ -219,6 +222,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                                                 width={600}
                                                 height={100}
                                                 className="block md:hidden w-full h-full object-cover"
+                                                priority
                                             />
 
                                         </div>
@@ -547,6 +551,7 @@ export default function page() {
                         width={0}
                         height={0}
                         className="hidden lg:block w-full"
+                        priority
                     />
 
                     {/* Mobile Image */}
@@ -556,6 +561,7 @@ export default function page() {
                         width={0}
                         height={0}
                         className="block lg:hidden w-full"
+                        priority
                     />
                 </div>
 

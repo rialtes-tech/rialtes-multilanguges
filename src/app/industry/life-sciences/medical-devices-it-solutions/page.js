@@ -113,6 +113,7 @@ const CriticalChallengesSection = () => {
                                     width={800}
                                     height={600}
                                     className="w-full object-cover max-sm:mx-auto sm:w-[80%]"
+                                    priority
                                 />
                             </div>
 
@@ -140,6 +141,7 @@ const CriticalChallengesSection = () => {
                                 width={800}
                                 height={600}
                                 className="h-full w-full object-cover"
+                                priority
                             />
                         </div>
                     </div>
@@ -470,6 +472,7 @@ export default function Page() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
                         <div className="lg:hidden block">
@@ -479,6 +482,7 @@ export default function Page() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
                             />
                         </div>
 
@@ -529,6 +533,7 @@ export default function Page() {
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
+                            priority
                         />
                     </div>
                     <div className="lg:col-span-6 col-span-12">

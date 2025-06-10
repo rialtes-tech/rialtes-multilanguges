@@ -380,6 +380,7 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: "35% 20%" }}
+                                priority
                             />
 
 
@@ -562,6 +563,7 @@ export default function Page() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
 
                             />
                         </div>
@@ -574,6 +576,7 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '25% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -658,6 +661,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
 
                                 />
                             </div>
@@ -671,6 +675,7 @@ export default function Page() {
                                     width={0}
                                     height={0}
                                     style={{ objectPosition: '85% 20%' }}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -691,6 +696,7 @@ export default function Page() {
                                         className="w-full h-full object-cover"
                                         width={0}
                                         height={0}
+                                        priority
 
                                     />
                                 </div>
@@ -703,6 +709,7 @@ export default function Page() {
                                         width={0}
                                         height={0}
                                         style={{ objectPosition: '25% 20%' }}
+                                        priority
                                     />
                                 </div>
                             </div>
@@ -781,6 +788,7 @@ export default function Page() {
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
+                            priority
 
                         />
                     </div>
@@ -793,6 +801,7 @@ export default function Page() {
                             width={0}
                             height={0}
                             style={{ objectPosition: '25% 20%' }}
+                            priority
                         />
                     </div>
 
@@ -864,6 +873,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -874,6 +884,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -923,6 +934,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -933,6 +945,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -983,6 +996,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -993,6 +1007,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                         </div>

@@ -19,17 +19,19 @@ const WhyRialtesSection = () => {
             {/* Image Section */}
             <div className="w-full xl:pt-[100px] z-[0]">
                 {/* Mobile Image */}
-                <img
+                <Image
                     src="/images/solutions/data-sphere/Mobile/why-rialtes-mob-img.webp"
                     alt="why-rialtes-img-mobile"
                     className="w-full block md:hidden"
+                    priority
                 />
 
                 {/* Desktop Image */}
-                <img
+                <Image
                     src="/images/solutions/data-sphere/why-rialtes-img.webp"
                     alt="why-rialtes-img"
                     className="w-full hidden md:block h-[600px] xl:h-[1000px] 2xl:h-[960px]"
+                    priority
                 />
             </div>
 
@@ -102,17 +104,19 @@ const BuildIntelligentSection = () => {
 
                 <div>
                     {/* Mobile Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/build-intelligent-mob-img.webp"
                         alt="build-intelligent-mob-img"
                         className="w-full h-full block md:hidden"
+                        priority
                     />
 
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/build-intelligent-img.webp"
                         alt="build-intelligent-img"
                         className="w-full h-full hidden md:block"
+                        priority
                     />
                 </div>
 
@@ -177,17 +181,19 @@ const IndustryAcceleratorsSection = () => {
 
                 <div className="w-full">
                     {/* Mobile Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/industry-accelerators-mob-img.webp"
                         alt="industry-accelerators-mob-img"
                         className="w-full h-full block md:hidden"
+                        priority
                     />
 
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/industry-accelerators-img.webp"
                         alt="industry-accelerators-img"
                         className="w-full h-full hidden md:block object-cover"
+                        priority
                     />
                 </div>
 
@@ -235,17 +241,19 @@ const IntelligentAutomativeSection = () => {
         <section className="relative xl:mt-[66px] mt-[53px] custom-container max-md:px-0 md:!pr-0">
 
             {/* Mobile Image */}
-            <img
+            <Image
                 src="/images/solutions/data-sphere/Mobile/intelligent-automative-mob-img.webp"
                 alt="intelligent-automative-img"
                 className="block md:hidden w-full h-[1000px]"
+                priority
             />
 
             {/* Desktop Image */}
-            <img
+            <Image
                 src="/images/solutions/data-sphere/intelligent-automative-img.webp"
                 alt="intelligent-automative-img"
                 className="hidden md:block w-full md:h-[600px] lg:h-[600px] xl:h-[1000px] 2xl:h-[860px]"
+                priority
             />
 
 
@@ -295,16 +303,18 @@ const AIReadyManufacturingSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-[6fr_4fr]">
                 <div className="order-1 md:order-2 w-full">
                     {/* Mobile Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/ai-ready-mob-img.webp"
                         alt="ai-ready-mob-img"
                         className="w-full h-full block md:hidden"
+                        priority
                     />
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/ai-ready-img.webp"
                         alt="ai-ready-img"
                         className="w-full h-full hidden md:block object-cover"
+                        priority
                     />
                 </div>
 
@@ -362,18 +372,20 @@ const OmnichannelSmartEducationSection = () => {
                 <div className="">
                     <div className="relative">
                         {/* Mobile Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/Mobile/omnichannel-mob-img.webp"
                             alt="omnichannel-mob-img"
                             className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
+                            priority
                         />
 
                         {/* Desktop Image */}
                         <div className="hidden xl:block w-[80%] mx-auto relative z-10 xl:-mb-[46%]">
-                            <img
+                            <Image
                                 src="/images/solutions/data-sphere/omnichannel-img.webp"
                                 alt="omnichannel-img"
                                 className="w-full"
+                                priority
                             />
                         </div>
                     </div>
@@ -407,18 +419,20 @@ const OmnichannelSmartEducationSection = () => {
                 <div className="xl:mt-[40%] mt-[80px]">
                     <div className="relative">
                         {/* Mobile Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/Mobile/smart-education-mob-img.webp"
                             alt="smart-education-mob-img"
                             className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
+                            priority
                         />
 
                         {/* Desktop Image */}
                         <div className="hidden xl:block w-[80%] mx-auto relative z-10 xl:-mb-[46%]">
-                            <img
+                            <Image
                                 src="/images/solutions/data-sphere/smart-education-img.webp"
                                 alt="smart-education-img"
                                 className="w-full"
+                                priority
                             />
                         </div>
                     </div>
@@ -466,17 +480,19 @@ const AiPoweredHRAnalyticsSection = () => {
             <div className="grid grid-cols-1 xl:grid-cols-[7fr_5fr]">
                 <div>
                     {/* Mobile Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/ai-powered-hr-analytics-mob-img.webp"
                         alt="ai-powered-hr-analytics-mob-img"
                         className="block md:hidden h-auto mx-auto"
+                        priority
                     />
 
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
                         alt="ai-powered-hr-analytics"
                         className="hidden md:block w-full h-full object-cover"
+                        priority
                     />
                 </div>
 
@@ -541,17 +557,19 @@ const SapAribaSection = () => {
                 </h2>
                 <div>
                     {/* Mobile Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/sap-ariba-mob-img.webp"
                         alt="sap-ariba-mob-img"
                         className="w-full h-full block md:hidden mt-[60px]"
+                        priority
                     />
 
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/sap-ariba-img.webp"
                         alt="sap-ariba-img"
                         className="w-full h-full hidden md:block md:mt-[84px]"
+                        priority
                     />
                 </div>
 
@@ -605,17 +623,19 @@ const SapHanaSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-[6fr_5fr]">
                     <div>
                         {/* Mobile Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/Mobile/sap-hana-mob-img.webp"
                             alt="sap-hana-mob-img"
                             className="w-full h-full block md:hidden"
+                            priority
                         />
 
                         {/* Desktop Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/sap-hana-img.webp"
                             alt="sap-hana-img"
                             className="w-full h-full hidden md:block object-cover"
+                            priority
                         />
                     </div>
                     <div className="text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -657,16 +677,18 @@ const SapSucessFactorSection = () => {
 
                     <div className="order-1 md:order-2">
                         {/* Mobile Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/Mobile/sap-success-factos-mob-img.webp"
                             alt="sap-success-factos-mob-img"
                             className="w-full h-full block md:hidden"
+                            priority
                         />
                         {/* Desktop Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/sap-success-factos-img.webp"
                             alt="sap-success-factos-img"
                             className="w-full h-full hidden md:block object-cover"
+                            priority
                         />
                     </div>
 
@@ -709,17 +731,19 @@ const SalesforceSap = () => {
                 <div className="grid grid-cols-1 md:grid-cols-[6fr_5fr]">
                     <div>
                         {/* Mobile Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/Mobile/salesforcesap-mob-img.webp"
                             alt="salesforcesap-mob-img"
                             className="w-full h-full block md:hidden"
+                            priority
                         />
 
                         {/* Desktop Image */}
-                        <img
+                        <Image
                             src="/images/solutions/data-sphere/salesforcesap-img.webp"
                             alt="salesforcesap-img"
                             className="w-full h-full hidden md:block object-cover"
+                            priority
                         />
                     </div>
                     <div className="text-[#000000] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -761,16 +785,18 @@ const AdvancedDataSection = () => {
                     <div className="grid grid-cols-1 md:grid-cols-[5fr_6fr]">
                         <div className="order-1 md:order-2">
                             {/* Mobile Image */}
-                            <img
+                            <Image
                                 src="/images/solutions/data-sphere/Mobile/advanced-data-mob-img.webp"
                                 alt="advanced-data-mob-img"
                                 className="w-full h-full block md:hidden"
+                                priority
                             />
                             {/* Desktop Image */}
-                            <img
+                            <Image
                                 src="/images/solutions/data-sphere/advanced-data-img.webp"
                                 alt="advanced-data-img"
                                 className="w-full h-full hidden md:block object-cover"
+                                priority
                             />
                         </div>
 
@@ -822,10 +848,11 @@ const AIPoweredUseSection = () => {
             <section className="relative 2xl:mt-[141px] xl:mt-[200px] mt-[164px] w-full">
                 {/* Mobile View */}
                 <div className="relative block md:hidden">
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/ai-powered-use-mob-img.webp"
                         alt="ai-powered-use-mob-img"
                         className="w-full h-[1300px] object-cover"
+                        priority
 
                     />
 
@@ -869,10 +896,11 @@ const AIPoweredUseSection = () => {
                 </div>
 
                 {/* Desktop View */}
-                <img
+                <Image
                     src="/images/solutions/data-sphere/ai-powered-use-img.webp"
                     alt="ai-powered-use-img"
                     className="hidden md:block w-full md:h-[600px] xl:h-[900px] object-cover"
+                    priority
                 />
 
                 <div className="hidden md:flex absolute inset-0 items-start justify-start custom-container">
@@ -940,17 +968,19 @@ const GlobalPresenceSection = () => {
 
                 <div>
                     {/* Mobile Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/Mobile/global-presence-mob-img.webp"
                         alt="global-presence-mob-img"
                         className="block lg:hidden h-auto mx-auto"
+                        priority
                     />
 
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/solutions/data-sphere/global-presence-img.webp"
                         alt="global-presence-img"
                         className="hidden lg:block w-full h-full object-cover"
+                        priority
                     />
                 </div>
 
