@@ -11,8 +11,8 @@ const schemaData = {
     "name": "SAP Ariba CIG Integration Webinar: ERP Flows, Simplified",
     "description": "Discover how SAP Ariba Cloud Integration Gateway (CIG) connects your SAP ERP (S/4HANA) to the Ariba Network—streamlining integration, improving efficiency, and simplifying procurement transactions. A must-attend online webinar for ERP and SAP professionals.",
     "url": "https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud",
-    "startDate": "2025-05-27T20:30:00+05:30",
-    "endDate": "2025-05-27T21:00:00+05:30",
+    "startDate": "2025-06-10T20:30:00+05:30",
+    "endDate": "2025-06-10T21:00:00+05:30",
     "duration": "PT30M",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "eventStatus": "https://schema.org/EventScheduled",
@@ -38,6 +38,7 @@ const schemaData = {
         "url": "https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
     },
     "keywords": "sap ariba cig integration, S4HANA erp cloud, sap procurement webinar"
+
 }
 export default function () {
     const calculateTimeLeft = () => {
@@ -97,49 +98,49 @@ export default function () {
             <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
                 <div className="xl:col-span-7 col-span-12">
                     <div className="flex flex-row gap-6  mt-10">
-                       <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                </div>
+                        <div className="flex flex-row gap-6">
+                            <div className="max-w-[40px]">
+                                <a
+                                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Image
+                                        src="/images/case-studies/linkedin.svg"
+                                        alt="LinkedIn"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                            <div className="max-w-[40px]">
+                                <a
+                                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >                      <Image
+                                        src="/images/case-studies/twitter.svg"
+                                        alt="Twitter"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
 
-                       
+
                     </div>
                     <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal xl:text-[40px]">CIG, Your Gateway to SAP Ariba</h1>
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
                         <div className="xl:col-span-4 col-span-12">
                             <Image
-                                src="/images/webinar/Sapna-Chauhan.webp"
+                                src="/images/webinar/sapna-chauhan.webp"
                                 alt="CIG, Your Gateway to SAP Ariba"
                                 priority
                                 className="w-full h-auto"
