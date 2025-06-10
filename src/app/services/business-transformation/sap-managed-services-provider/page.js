@@ -717,7 +717,7 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black">
                         <div className="xl:col-span-9 col-span-12">
                             <h2 className="text-[25px] xl:text-[60px]  mt-16 leading-tight">
-                                SAP Signavio and SAP Activate — Process to Action
+                                SAP Signavio and SAP Activate
                             </h2>
                             {/* <h3 className="4xl:text-[36px] text-[22px] mt-10 leading-tight font-semibold">SAP Signavio and SAP Activate — Process to Action</h3> */}
                         </div>
@@ -874,9 +874,9 @@ export default function Page() {
                         <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
                             Innovate, Integrate, and Extend SAP Faster
                         </h3>
-                        <p className="mt-5 xl:pr-20 4xl:text-[30px] text-[18px] text-[#006FBE] font-semibold leading-tight">
+                        {/* <p className="mt-5 xl:pr-20 4xl:text-[30px] text-[18px] text-[#006FBE] font-semibold leading-tight">
                             Certified SAP BTP Experts at Your Service
-                        </p>
+                        </p> */}
                         <p className="4xl:mt-8 xl:mt-4 font-normal 4xl:text-[20px] text-[16px]">
                             From AI-driven workflows to mobile apps and event-driven architectures, our Certified SAP BTP experts ensure:
                         </p>
