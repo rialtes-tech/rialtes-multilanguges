@@ -12,9 +12,9 @@ const schemaData =
     "@type": "WebPage",
     "@id": "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud"
   },
-  "headline": "Case Study: Salesforce Experience Cloud Transforms Warranty Claims for a Roofing Manufacturer",
+  "headline": "Case Study: 40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability",
   "description": "Rialtes helped a roofing manufacturer in the building materials industry modernize warranty claims using Salesforce Experience Cloud, integrating LWC, address validation, automation, and ERP for better accuracy and efficiency.",
-  "image": "https://www.rialtes.com/images/homepage/logo.svg",
+  "image": "https://www.rialtes.com/images/case-studies/adaptis_web-banner.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
@@ -28,7 +28,7 @@ const schemaData =
     }
   },
   "articleSection": "Case Studies",
-  "datePublished": "2025-05-23"
+  "datePublished": "2025-06-10"
 }
 
 
@@ -103,8 +103,8 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="/images/case-studies/case study 3_n 1.webp "
-          alt="Streamlined DevOps using Copado and Salesforce"
+          src="/images/case-studies/adaptis_web-banner.webp"
+          alt=""
           fill
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}
           priority
@@ -113,23 +113,18 @@ export default function Page() {
 
       <section
         className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+      custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability</h1>
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="container mx-auto px-0 ">
+            <h1 className="text-[#000000] py-6 xl:max-w-[1026px] xl:w-[1026px] leading-tight">40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+          <div className="container mx-auto px-0 ">
+            <div className="flex flex-col md:flex-row justify-between text-black  xl:max-w-[1084px] xl:w-[1084px]">
               <div className='pb-6'>
-                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>23 May 2025
+                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>10 June 2025
               </div>
               <div className="flex flex-col">
                 <span>8 min read</span>
@@ -174,8 +169,8 @@ export default function Page() {
           </div>
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
+          <div className="container px-0 mx-auto">
+            <div className="xl:max-w-[1084px] xl:w-[1084px]">
 
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Client Profile</h2>
@@ -207,19 +202,13 @@ export default function Page() {
 
             </div>
           </div>
-          <div className="py-6"></div>
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
         className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        custom-container"
       >
         <RelatedTopicsCarousel slides={slides} />
 

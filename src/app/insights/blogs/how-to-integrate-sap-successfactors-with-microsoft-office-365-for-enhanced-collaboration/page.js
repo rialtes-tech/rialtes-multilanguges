@@ -246,7 +246,7 @@ export default function Page() {
               <h3 className="h3-bold  pb-2 ">Improved Employee Experience:</h3>
 
               <p className="text-black pb-4"> Deliver HR notifications and tasks using the tools employees use daily. Integrating platforms can foster a cohesive and efficient work environment that enhances collaboration, streamlines operations, improves data management and drives business growth.</p>
-<h3 className="h3-bold  pb-2">Streamlined HR Processes:</h3>
+                 <h3 className="h3-bold  pb-2">Streamlined HR Processes:</h3>
 
               <p className="text-black pb-4"> Automate routine tasks and streamline workflows like leave approvals, performance reviews, and onboarding, freeing up personnel to focus on more strategic activities and improving overall resource utilization.</p>
 
