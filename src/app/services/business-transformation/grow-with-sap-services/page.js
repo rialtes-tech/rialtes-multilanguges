@@ -33,7 +33,7 @@ const schemaData = {
       "name": "United States"
     },
     {
-      "@type": "Country",
+     "@type": "Country",
       "name": "Canada"
     },
     {
@@ -114,44 +114,6 @@ const schemaData = {
       "Digital Transformation Leaders"
     ]
   },
-  "isRelatedTo": [
-    {
-      "@type": "Product",
-      "name": "SAP S/4HANA Cloud Public Edition"
-    },
-    {
-      "@type": "Product",
-      "name": "SAP Activate"
-    },
-    {
-      "@type": "Product",
-      "name": "SAP Signavio"
-    },
-    {
-      "@type": "Product",
-      "name": "SAP Business Technology Platform (BTP)"
-    },
-    {
-      "@type": "Product",
-      "name": "SAP Cloud Platform Integration (CPI)"
-    },
-    {
-      "@type": "Product",
-      "name": "SAP SuccessFactors"
-    },
-    {
-      "@type": "Product",
-      "name": "SAP Ariba"
-    },
-    {
-      "@type": "Product",
-      "name": "Salesforce"
-    },
-    {
-      "@type": "Product",
-      "name": "AgentChat"
-    }
-  ],
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
@@ -526,7 +488,7 @@ export default function Page() {
                 </h2>
               </div>
             </div>
-            
+
           </div>
         </div>
 
