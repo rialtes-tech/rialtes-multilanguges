@@ -234,21 +234,14 @@ export default function Page() {
               <div className="py-3"></div>
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">Benefit Integrating SAP SuccessFactors with Microsoft Office 365</h2>
-
-              <h3 className="h3-bold  pb-2">Enhanced Productivity:</h3>
-
-              <p className="text-black pb-4"> Employees can access HR-related information directly within Office 365 tools such as Microsoft Teams, Outlook, and Word.  They can utilize a familiar interface, which reduces the learning curve and boosts productivity. Additionally, repetitive tasks and workflows between two applications can be automated, such as automatically updating SAP records when a related email arrives in Outlook.</p>
-
-              <h3 className="h3-bold  pb-2">Unified Collaboration:</h3>
-
-              <p className="text-black pb-4"> Microsoft tools enable real-time collaboration on HR documents and reports. Users can collaborate on SuccessFactors data and documents in Microsoft Teams using chat, video calls, and shared workspaces. In Outlook, the data can be accessed and manipulated, enabling interaction with workflows, approvals, and notifications directly from the email client.</p>
-
-              <h3 className="h3-bold  pb-2 ">Improved Employee Experience:</h3>
-
-              <p className="text-black pb-4"> Deliver HR notifications and tasks using the tools employees use daily. Integrating platforms can foster a cohesive and efficient work environment that enhances collaboration, streamlines operations, improves data management and drives business growth.</p>
-                 <h3 className="h3-bold  pb-2">Streamlined HR Processes:</h3>
-
-              <p className="text-black pb-4"> Automate routine tasks and streamline workflows like leave approvals, performance reviews, and onboarding, freeing up personnel to focus on more strategic activities and improving overall resource utilization.</p>
+  
+     <ul className="list-none text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
+                <li className="pb-4"><h3 className="h3-bold inline ">Enhanced Productivity</h3>: Employees can access HR-related information directly within Office 365 tools such as Microsoft Teams, Outlook, and Word.  They can utilize a familiar interface, which reduces the learning curve and boosts productivity. Additionally, repetitive tasks and workflows between two applications can be automated, such as automatically updating SAP records when a related email arrives in Outlook.</li>
+                <li className="pb-4"><h3 className="h3-bold inline ">Unified Collaboration</h3>: Microsoft tools enable real-time collaboration on HR documents and reports. Users can collaborate on SuccessFactors data and documents in Microsoft Teams using chat, video calls, and shared workspaces. In Outlook, the data can be accessed and manipulated, enabling interaction with workflows, approvals, and notifications directly from the email client.</li>
+                <li className="pb-4"><h3 className="h3-bold inline ">Improved Employee Experience</h3>: Deliver HR notifications and tasks using the tools employees use daily. Integrating platforms can foster a cohesive and efficient work environment that enhances collaboration, streamlines operations, improves data management and drives business growth.</li>
+                <li ><h3 className="h3-bold inline ">Streamlined HR Processes</h3>: Automate routine tasks and streamline workflows like leave approvals, performance reviews, and onboarding, freeing up personnel to focus on more strategic activities and improving overall resource utilization.</li>
+              </ul>
+            
 
               <div className="py-3"></div>
 
@@ -356,9 +349,9 @@ export default function Page() {
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li><h3 className="h3-bold inline">Start a Teams Chat from SAP SuccessFactors</h3>: Depending on the status of the latest People Profile enablement, users can initiate a Teams chat directly from a user’s quick card, profile header, or Profile Preview.</li>
-                <li><span className="h3-bold inline">Access Quick Actions and Notifications via the SAP SuccessFactors App in Teams</span>: Perform quick actions related to Continuous Performance Management, Employee Central, Employee Central Payroll, and Time Tracking. Additionally, they receive notifications for approvals, time-sensitive reminders, and other events.</li>
-                <li><span className="h3-bold inline">Engage with SAP SuccessFactors Processes Using Outlook or Teams Online Meetings</span>: They can leverage features for interview scheduling, enhancing collaboration and efficiency.</li>
-                <li><span className="h3-bold inline">Leverage the AI-Assisted Microsoft Teams App Chat Feature</span>: Powered by a built-in AI engine, users can effortlessly initiate HR transactions or access personal data through natural language queries.</li>
+                <li><h3 className="h3-bold inline">Access Quick Actions and Notifications via the SAP SuccessFactors App in Teams</h3>: Perform quick actions related to Continuous Performance Management, Employee Central, Employee Central Payroll, and Time Tracking. Additionally, they receive notifications for approvals, time-sensitive reminders, and other events.</li>
+                <li><h3 className="h3-bold inline">Engage with SAP SuccessFactors Processes Using Outlook or Teams Online Meetings</h3>: They can leverage features for interview scheduling, enhancing collaboration and efficiency.</li>
+                <li><h3 className="h3-bold inline">Leverage the AI-Assisted Microsoft Teams App Chat Feature</h3>: Powered by a built-in AI engine, users can effortlessly initiate HR transactions or access personal data through natural language queries.</li>
               </ul>
 
 
