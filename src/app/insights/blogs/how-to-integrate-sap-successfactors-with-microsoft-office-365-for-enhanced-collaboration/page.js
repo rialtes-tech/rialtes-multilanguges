@@ -235,11 +235,11 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">Benefit Integrating SAP SuccessFactors with Microsoft Office 365</h2>
 
-              <h3 className="h3-bold  pb-2 inline">Enhanced Productivity:</h3>
+              <h3 className="h3-bold  pb-2">Enhanced Productivity:</h3>
 
               <p className="text-black pb-4"> Employees can access HR-related information directly within Office 365 tools such as Microsoft Teams, Outlook, and Word.  They can utilize a familiar interface, which reduces the learning curve and boosts productivity. Additionally, repetitive tasks and workflows between two applications can be automated, such as automatically updating SAP records when a related email arrives in Outlook.</p>
 
-              <h3 className="h3-bold  pb-2 inline">Unified Collaboration:</h3>
+              <h3 className="h3-bold  pb-2">Unified Collaboration:</h3>
 
               <p className="text-black pb-4"> Microsoft tools enable real-time collaboration on HR documents and reports. Users can collaborate on SuccessFactors data and documents in Microsoft Teams using chat, video calls, and shared workspaces. In Outlook, the data can be accessed and manipulated, enabling interaction with workflows, approvals, and notifications directly from the email client.</p>
 
