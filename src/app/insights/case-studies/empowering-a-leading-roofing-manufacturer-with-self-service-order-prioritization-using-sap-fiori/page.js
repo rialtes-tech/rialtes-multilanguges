@@ -105,7 +105,7 @@ export default function Page() {
             <section className="custom-container">
                 <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
                     <div>
-                        <h1 className="text-[#000000] py-6 leading-tight">Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori </h1>
+                        <h1 className="text-[#000000] py-6 leading-tight">150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization</h1>
                     </div>
                     <div className="py-4"></div>
                     <div>

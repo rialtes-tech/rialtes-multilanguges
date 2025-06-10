@@ -46,7 +46,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "30 May 2025",
     url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
-    title: "Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities",
+    title: "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
     description: "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
   },
   {
@@ -55,7 +55,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "22 May 2025",
     url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-    title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
+    title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
     description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
   },
   {
@@ -137,7 +137,7 @@ const latestCaseStudy = [
     industry: "Healthcare",
     date: "25 Oct 2024",
     url: "/insights/case-studies/salesforce-health-cloud-prior-authorization",
-    title: "Accelerating Prior Authorizations Using Salesforce Health Cloud",
+    title: "Digitizing Prior Authorization for Better Patient Outcomes",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
 
@@ -309,7 +309,7 @@ const FeaturedCarousel = () => {
       category: 'Manufacturing',
       date: '28 May 2025',
       url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-      title: "Empowering a Leading Roofing Manufacturer with Self-Service Order Prioritization Using SAP Fiori",
+      title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
       description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
     },
     {
@@ -318,7 +318,7 @@ const FeaturedCarousel = () => {
       category: 'Healthcare and Life Sciences',
       date: '25 Oct 2024',
       url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      title: 'Automating Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
+      title: 'Automating Order Processing in Healthcare using MuleSoft',
       description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
     },
     {

@@ -112,7 +112,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div>
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Revving Up Dealer Management with AutoSense by Rialtes</h1>
           </div>
           <div className="py-6"></div>
           <div>
@@ -192,10 +192,10 @@ export default function Page() {
               <p className="pb-10">To address these challenges, Rialtes, a global leader in AI-powered digital transformation, partnered with the automotive manufacturer to deliver AutoSense, a next-generation dealer management platform built on the robust Salesforce Experience Cloud. Rialtes took  a customer-centric approach, running design workshops, creating a detailed agile development plan, and delivering an innovative solution through sprint-based development.</p>
               <h3 className="h3-bold">Strategic Approach:</h3>
               <ul className="list-decimal marker:text-[#000] text-black pl-4 mt-5 xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>Collaborative Design Workshops: </strong> Rialtes initiated the project with a series of <strong>design workshops</strong> , engaging key stakeholders across sales, IT, and dealer management teams. This ensured a deep understanding of pain points and business needs, aligning the solution with the manufacturer’s strategic goals.</li>
-                <li className="pb-4"><strong>Agile Development:  </strong> Rialtes employed an <strong>agile development methodology</strong> , delivering incremental value through well-defined sprints. Each sprint focused on key features, incorporating client feedback and allowing for rapid iterations to meet evolving requirements.</li>
-                <li className="pb-4"><strong>Salesforce Automotive Cloud Integration:  </strong> The portal was seamlessly integrated with <strong>Salesforce Automotive Cloud</strong> , offering an end-to-end view of dealer operations, real-time data insights, and powerful customer engagement tools.</li>
-                <li className="pb-4"><strong>SAP S/4 HANA Integration for Order & Financial Management: </strong> Rialtes ensured the solution was fully integrated with <strong>SAP S/4 HANA</strong> providing end-to-end visibility into the order and financial management process, streamlining workflows, and enabling efficient financial tracking.</li>
+                <li className="pb-4"><strong>Collaborative Design Workshops: </strong> Rialtes initiated the project with a series of design workshops , engaging key stakeholders across sales, IT, and dealer management teams. This ensured a deep understanding of pain points and business needs, aligning the solution with the manufacturer’s strategic goals.</li>
+                <li className="pb-4"><strong>Agile Development:  </strong> Rialtes employed an agile development methodology , delivering incremental value through well-defined sprints. Each sprint focused on key features, incorporating client feedback and allowing for rapid iterations to meet evolving requirements.</li>
+                <li className="pb-4"><strong>Salesforce Automotive Cloud Integration:  </strong> The portal was seamlessly integrated with Salesforce Automotive Cloud, offering an end-to-end view of dealer operations, real-time data insights, and powerful customer engagement tools.</li>
+                <li className="pb-4"><strong>SAP S/4 HANA Integration for Order & Financial Management: </strong> Rialtes ensured the solution was fully integrated with SAP S/4 HANA providing end-to-end visibility into the order and financial management process, streamlining workflows, and enabling efficient financial tracking.</li>
 
               </ul>
             </div>
@@ -247,7 +247,7 @@ export default function Page() {
             <div className="max-w-4xl">
               <h3 className="h3-bold  pb-6 text-[#0092E0]">Conclusion:</h3>
               <p>By leveraging <strong>AutoSense</strong>, Rialtes successfully transformed the automotive manufacturer’s outdated legacy dealer portal into a modern, scalable, and efficient solution that empowered their dealers and streamlined internal operations. With Salesforce Experience Cloud and SAP S/4 HANA integrations, AutoSense delivered a superior dealer management experience, providing real-time data, operational efficiencies, and a seamless user interface. This transformation not only enhanced the client’s dealer engagement but also positioned them for continued growth in an increasingly competitive automotive market.</p>
-              <p className="mt-5"> <strong>AutoSense</strong> by Rialtes is not just a solution—it's a <strong>game-changer</strong>  for the automotive industry, unlocking new opportunities for growth and success.</p>
+             
             </div>
           </div>
         </div>

@@ -120,7 +120,7 @@ export default function Page() {
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl">Automating Order Processing using Mulesoft for Salesforce Health Cloud and SAP</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl">Automating Order Processing in Healthcare using MuleSoft</h1>
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto">
