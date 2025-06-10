@@ -271,9 +271,7 @@ export default function retailPage() {
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110"
                     />
-
                 </div>
-
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
