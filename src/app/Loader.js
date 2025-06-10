@@ -5,7 +5,6 @@ export default function Loading() {
     return (
         <div className="flex flex-col items-center justify-center h-screen">
             <div className="relative w-[120px] h-[120px] flex items-center justify-center">
-
                 <div className="absolute w-full h-full rounded-full border-4 border-t-transparent border-[#134874] animate-spin"></div>
                 <Image
                     src="/images/rialtes-logo.jpg"
