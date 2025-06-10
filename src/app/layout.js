@@ -1,11 +1,11 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Montserrat } from "next/font/google";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
 import Head from "next/head";
-
+import Loader from "./Loader";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
@@ -14,6 +14,7 @@ const montserrat = Montserrat({
 });
 
 export default function RootLayout({ children }) {
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     // This will ensure the GTM script is loaded only on the client-side
     if (typeof window !== "undefined") {
@@ -27,7 +28,14 @@ export default function RootLayout({ children }) {
       window.dataLayer.push({ event: "gtm.js", start: new Date().getTime() });
     }
   }, []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
 
+    return () => clearTimeout(timer);
+  }, []);
+  
   return (
     <html lang="en" className={montserrat.variable}>
       <Head>
@@ -46,11 +54,12 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-                <link rel="icon" href="/Rialtes Symbol.jpg" />
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/Rialtes Symbol.jpg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+
       <body className="font-sans bg-[#ffffff]">
         {/* GTM Body Snippet for noscript fallback */}
         <noscript>
@@ -61,18 +70,19 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-
-        <div className="w-full mx-auto max-w-[1920px]">
-          <header>
-            <Header />
-          </header>
-          <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
-            {children}
-          </main>
-          <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
-            <Footer />
-          </footer>
-        </div>
+        {isLoading ? <Loader /> :
+          <div className="w-full mx-auto max-w-[1920px]">
+            <header>
+              <Header />
+            </header>
+            <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
+              {children}
+            </main>
+            <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
+              <Footer />
+            </footer>
+          </div>
+        }
       </body>
     </html>
   );

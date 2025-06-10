@@ -189,13 +189,13 @@ export default function SalesForceConsulting() {
             </div> */}
 
 
- <HeroSection txtColor="black"
-        title="Transform how you engage with your clients"
-        subtitle="Salesforce"
-        mobimg="/images/salesforce-consulting-services/banner.webp"
-        deskimg="/images/salesforce-consulting-services/banner.webp"
-        extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"
-      />
+            <HeroSection txtColor="black"
+                title="Transform how you engage with your clients"
+                subtitle="Salesforce"
+                mobimg="/images/salesforce-consulting-services/banner.webp"
+                deskimg="/images/salesforce-consulting-services/banner.webp"
+                extraImg="/images/salesforce-consulting-services/salesforce-partner.webp"
+            />
             <div className=" grid lg:grid-cols-10 xl:gap-16 gap-5 px-6  custom-container lg:mt-16 mt-5">
                 <div className="lg:col-span-6 mt-5">
                     <h1>Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting</h1>
@@ -233,7 +233,7 @@ export default function SalesForceConsulting() {
                         )
                     })}
                 </div>
-               <LearnMore/>
+                <LearnMore />
             </section>
             {/* Salesforce product */}
 
@@ -251,6 +251,7 @@ export default function SalesForceConsulting() {
                                         className="transform transition-transform duration-500 group-hover:scale-110"
                                         height={325} width={1250}
                                         sizes="100vw"
+                                        priority
                                     />
                                 </div>
                                 <div className="p-8">
@@ -260,9 +261,9 @@ export default function SalesForceConsulting() {
                                         {product?.productsDetails?.map((details, index) => {
                                             return (
                                                 <li
-                                                key={index}
-                                                className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
-                                            >
+                                                    key={index}
+                                                    className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
+                                                >
                                                     {details}
                                                 </li>
 
@@ -350,14 +351,14 @@ export default function SalesForceConsulting() {
             <section className='xl:mt-40 relative'>
                 <div className='group overflow-hidden'>
                     <div className='w-full'>
-                        <Image quality={100} layout="responsive" loading="lazy" width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/agentforce-banner.webp' />
+                        <Image quality={100} layout="responsive" priority width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/agentforce-banner.webp' />
                     </div>
                 </div>
                 <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[33%] lg:right-[8rem] lg:top-[-3.5rem] top-[392px]'>
                     <h2>Agentforce</h2>
                     <p className='mt-5'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
-                   <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
-                    <p className='mt-8'>Learn More <span> &#8594;</span></p>
+                    <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
+                        <p className='mt-8'>Learn More <span> &#8594;</span></p>
                     </Link>
                 </div>
             </section>

@@ -5,26 +5,61 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
 
-
+const schemaData = {
+   "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+  "description": "Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.",
+  "url": "https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/",
+  "startDate": "2025-06-03T20:30:00+05:30",
+  "endDate": "2025-06-03T21:00:00+05:30",
+  "duration": "PT30M",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Anuraag Aggarwal",
+    "jobTitle": "Vice President of Global Sales",
+    "url": "https://www.linkedin.com/in/anuraag-aggarwal/"
+  },
+  "image": "https://www.rialtes.com/images/webinar/banner-rise.webp",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "CIOs, IT Leaders, Digital Transformation Leaders, SAP Technical Consultants, SAP Functional Consultants, Enterprise Architects"
+  },
+  "location": {
+    "@type": "VirtualLocation",
+    "url": "https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
+  },
+  "keywords": "SAP Rise webinar, RISE with SAP, Voyager+, Rialtes webinars"
+}
 export default function () {
-    
+
     const sectionRef = useRef(null);
-   
-     const handleScroll = () => {
-       sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
-     };
+
+    const handleScroll = () => {
+        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+    };
 
     const fullUrl = "https://rialtes.netlify.app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
-    const titleSlug = "Voyage with SAP – Transformational RISE with SAP Services by Rialtes";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="How SAP Business Data Cloud, Databricks & SAP Datasphere Unify Enterprise Data"
-                description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
+                title="SAP RISE Webinar: Simplify Your SAP Journey with Voyager+ by Rialtes"
+                description="Join our SAP RISE webinar to explore VoyagerPlus, a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation"
                 canonical="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
             />
-
+  <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/webinar-20.webp"
@@ -34,54 +69,47 @@ export default function () {
                     height={0}
                     className="w-full h-full"
                 />
-             
+
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
                 <div className="xl:col-span-7 col-span-12">
                     <div className="flex flex-row gap-6  mt-10">
-                        <div className="max-w-[40px]">
-                            <a
-                                href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=${encodeURIComponent(titleSlug)}&summary=${encodeURIComponent("Join our webinar to explore integrating WhatsApp with Salesforce using AgentChat.")}&source=Rialtes`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <Image
-                                    src="/images/case-studies/linkedin.svg"
-                                    alt="LinkedIn"
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                    priority
-                                />
-                            </a>
+                        <div className="flex flex-row gap-6">
+                            <div className="max-w-[40px]">
+                                <a
+                                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Image
+                                        src="/images/case-studies/linkedin.svg"
+                                        alt="LinkedIn"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                            <div className="max-w-[40px]">
+                                <a
+                                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >                      <Image
+                                        src="/images/case-studies/twitter.svg"
+                                        alt="Twitter"
+                                        width={0}
+                                        height={0}
+                                        sizes="100vw"
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        priority
+                                    />
+                                </a>
+                            </div>
                         </div>
-                        {/* <div className="max-w-[40px]">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-2">
-                                <Image
-                                    src="/images/case-studies/facebook.svg"
-                                    alt="Facebook"
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                    priority
-                                />
-                            </a>
-                        </div> */}
-                        {/* <div className="max-w-[40px]">
-                            <a href="https://twitter.com/intent/tweet?url=/case-study-2&text=RealForce Banking Module - ACH">
-                                <Image
-                                    src="/images/case-studies/twitter.svg"
-                                    alt="Twitter"
-                                    width={0}
-                                    height={0}
-                                    sizes="100vw"
-                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                    priority
-                                />
-                            </a>
-                        </div> */}
+
                     </div>
                     <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal xl:text-[40px] 4xl:text-[60px]">Voyage with SAP – Transformational RISE with SAP Services by Rialtes</h1>
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
@@ -121,7 +149,7 @@ export default function () {
                         <li className="pb-2">Anyone planning or accelerating their RISE with SAP transformation</li>
 
                     </ul>
-                
+
 
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
@@ -130,14 +158,14 @@ export default function () {
                         <h3>May 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                       <div onClick={handleScroll}>
+                        <div onClick={handleScroll}>
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
 
                         </div>
 
 
                     </div>
-                  
+
                     <h3 className="mt-10">How to Join:</h3>
                     <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
                     <h3 className="mt-10">Can’t Make It?</h3>
@@ -146,7 +174,7 @@ export default function () {
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
             </div>
-             <div className="custom-container mb-20" ref={sectionRef}>
+            <div className="custom-container mb-20" ref={sectionRef}>
                 <WebinarForm
                     redirectUrl="https://www.youtube.com/watch?v=a0ad90kWp0c&t=201s"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/rialtes-web/src/app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"

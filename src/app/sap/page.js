@@ -252,6 +252,7 @@ export default function Page() {
                                         className="transform transition-transform duration-500 group-hover:scale-110"
                                         height={325} width={1250}
                                         sizes="100vw"
+                                        priority
                                     />
                                 </div>
                                 <div className="p-8">

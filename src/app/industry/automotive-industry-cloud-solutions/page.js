@@ -32,10 +32,14 @@ const ThoughtLeadershipSection = () => {
             />
             {/* Mobile View */}
             <div className="block md:hidden">
-                <img
+                <Image
                     src="/images/industry/auto-industry/Mobile/thought-leadership-mob-img.webp"
                     alt="thought-leadership-mob-img"
                     className="w-full h-auto"
+                    width={0}
+                    height={0}
+                    priority
+
                 />
                 <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[57px]" style={{
                     background: "#073259",
@@ -72,10 +76,14 @@ const ThoughtLeadershipSection = () => {
 
             {/* Desktop View */}
             <div className="hidden md:block relative w-full h-[980px] lg:h-[900px] xl:h-[1500px] 2xl:h-[1450px] 3xl:h-[1300px]">
-                <img
+                <Image
                     src="/images/industry/auto-industry/thought-leadership-img.webp"
                     alt="thought-leadership-img"
                     className="w-full h-full object-cover"
+                    width={0}
+                    height={0}
+                    priority
+
                 />
 
                 <div className="absolute inset-0">
@@ -242,16 +250,22 @@ const EndToEndAutomativeSection = () => {
                             className={`${index === 1 ? "lg:mt-[179px]" : "lg:mt[63px]"}`}
                         >
                             {/* Mobile Image */}
-                            <img
+                            <Image
                                 src={section.imgUrlMobile}
                                 alt={section.title}
                                 className="block lg:hidden mb-4"
+                                width={0}
+                                height={0}
+                                priority
                             />
                             {/* Desktop Image */}
-                            <img
+                            <Image
                                 src={section.imgUrlDesktop}
                                 alt={section.title}
                                 className="hidden lg:block mb-4"
+                                width={0}
+                                height={0}
+                                priority
                             />
 
                             <h4 className="mt-[29px] xl:mt-[63px] xl:text-[36px] xl:font-semibold font-medium text-[20px] xl:leading-[44px] leading-[24px]">{section.title}</h4>
@@ -303,18 +317,24 @@ const ComprehensiveCustomerSection = () => {
     return (
         <section className="relative xl:mt-[93px] mt-[107px] w-full">
             {/* Mobile Image */}
-            <img
+            <Image
                 src="/images/industry/auto-industry/Mobile/comprehensive-customer-mob-img.webp"
                 alt="Customer Journey Mobile"
                 className="block md:hidden w-full h-full object-cover"
+                width={0}
+                height={0}
+                priority
             />
 
             {/* Desktop Image */}
             <div className="3xl:h-full xl:h-[700px]">
-                <img
+                <Image
                     src="/images/industry/auto-industry/comprehensive-customer-img.webp"
                     alt="Customer Journey Desktop"
                     className="hidden md:block w-full h-full object-cover"
+                    width={0}
+                    height={0}
+                    priority
                 />
             </div>
 
@@ -425,17 +445,23 @@ const RevolutionizingServiceSection = () => {
         <>
             <div className="mt-[78px] xl:mt-[89px]">
                 {/* Mobile Image */}
-                <img
+                <Image
                     src="/images/industry/auto-industry/Mobile/revolutionizing-service-mob-img.webp"
                     alt="revolutionizing-service-img"
                     className="block md:hidden w-full"
+                    width={0}
+                    height={0}
+                    priority
                 />
 
                 {/* Desktop Image */}
-                <img
+                <Image
                     src="/images/industry/auto-industry/revolutionizing-service-img.webp"
                     alt="revolutionizing-service-img"
                     className="hidden md:block w-full h-full object-cover"
+                    width={0}
+                    height={0}
+                    priority
                 />
             </div>
             <div className="custom-container">
@@ -503,20 +529,26 @@ const EnablingDynamicSection = () => {
                 <div className="w-full relative z-20 md:flex md:items-center">
                     {/* Mobile Image - overlapping on content */}
                     <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
-                        <img
+                        <Image
                             src="/images/industry/auto-industry/Mobile/enabling-dynamic-mob-img.webp"
                             alt="enabling-dynamic-img-mobile"
                             className="h-auto max-w-full object-cover"
+                            width={0}
+                            height={0}
+                            priority
                         />
                     </div>
 
                     {/* Desktop Image */}
                     <div className="absolute h-[80%] w-full hidden md:block">
-                        <img
+                        <Image
                             src="/images/industry/auto-industry/enabling-dyanamic-img.webp"
                             alt="enabling-dynamic-img-desktop"
                             className="w-full object-cover h-full"
                             style={{ objectPosition: '40% 20%' }}
+                            width={0}
+                            height={0}
+                            priority
                         />
                     </div>
                 </div>
@@ -568,17 +600,23 @@ const DealerBuyerSection = () => {
                 <div className="w-full relative z-10 px-[35px] md:px-0 md:flex md:items-center">
                     {/* Mobile Image - overlapping on content */}
                     <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
-                        <img
+                        <Image
                             src="/images/industry/auto-industry/Mobile/dealer-buyer-mob-img.webp"
                             alt="dealer-buyer-mob-img"
                             className="block md:hidden h-full object-cover"
+                            width={0}
+                            height={0}
+                            priority
                         />
                     </div>
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/industry/auto-industry/dealer-buyer-img.webp"
                         alt="dealer-buyer-img"
                         className="hidden md:block w-full h-[80%] lg:h-[90%] object-cover"
+                        width={0}
+                        height={0}
+                        priority
                     />
                 </div>
 
@@ -634,18 +672,24 @@ const EmpoweringDealersSection = () => {
                     {/* Mobile Image - overlapping on content */}
                     <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
 
-                        <img
+                        <Image
                             src="/images/industry/auto-industry/Mobile/empowering-dealers-mob-img.webp"
                             alt="empowering-dealers-mob-img"
                             className="h-auto max-w-full object-cover"
+                            width={0}
+                            height={0}
+                            priority
                         />
                     </div>
                     {/* Desktop Image */}
                     <div className="absolute h-[80%] w-full hidden md:block">
-                        <img
+                        <Image
                             src="/images/industry/auto-industry/empowering-dealers-img.webp"
                             alt="empowering-dealers-img"
                             className="w-full object-cover h-full"
+                            width={0}
+                            height={0}
+                            priority
                         />
                     </div>
                 </div>
@@ -698,17 +742,23 @@ const UnlockingDataSection = () => {
                 <div className="w-full relative z-10 px-[35px] md:px-0 md:flex md:items-center">
                     {/* Mobile Image - overlapping on content */}
                     <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
-                        <img
+                        <Image
                             src="/images/industry/auto-industry/Mobile/unlocking-data-mob-img.webp"
                             alt="unlocking-data-mob-img"
                             className="block md:hidden h-full object-cover"
+                            width={0}
+                            height={0}
+                            priority
                         />
                     </div>
                     {/* Desktop Image */}
-                    <img
+                    <Image
                         src="/images/industry/auto-industry/unlocking-data-img.webp"
                         alt="unlocking-data-img"
                         className="hidden md:block w-full h-[80%] lg:h-[90%] object-cover"
+                        width={0}
+                        height={0}
+                        priority
                     />
                 </div>
 
@@ -758,10 +808,13 @@ const IntegratingAutomativeSection = () => {
             {/* Mobile View */}
             <div className="relative block md:hidden">
                 <div className="sm:h-[1200px] h-full">
-                    <img
+                    <Image
                         src="/images/industry/auto-industry/Mobile/integrating-automative-mob-img.webp"
                         alt="integrating-automative-mob-img"
                         className="w-full h-full object-cover sm:object-[35%_50%]"
+                        width={0}
+                        height={0}
+                        priority
                     />
                 </div>
                 <div className="sm:mx-[100px] mx-[40px] absolute bottom-0 left-0 right-0 bg-[rgba(0,111,190,0.8)] px-[22px] pt-[32px]">
@@ -791,10 +844,13 @@ const IntegratingAutomativeSection = () => {
 
             {/* Desktop View */}
             <div className="2xl:h-[900px] xl:h-[1000px] md:h-[700px]">
-                <img
+                <Image
                     src="/images/industry/auto-industry/integrating-automative-img.webp"
                     alt="integrating-automative-img"
                     className="hidden md:block w-full h-full object-cover"
+                    width={0}
+                    height={0}
+                    priority
                 />
             </div>
 
@@ -848,10 +904,13 @@ const PartenringPowerSection = () => {
             {/* Mobile View */}
             <div className="2xl:h-[900px] xl:h-[1000px] md:h-[700px] block md:hidden">
                 <div className="sm:h-[1200px] h-full">
-                    <img
+                    <Image
                         src="/images/industry/auto-industry/Mobile/partnering-power-mob-img.webp"
                         alt="partnering-power-mob-img"
                         className="w-full h-full"
+                        width={0}
+                        height={0}
+                        priority
                     />
                 </div>
                 <div className="sm:mx-[100px] mx-[40px] absolute bottom-0 left-0 right-0 bg-[rgba(255,255,255,0.8)] px-[14px] pt-[32px] z-10">
@@ -881,10 +940,13 @@ const PartenringPowerSection = () => {
             <div className="hidden md:block relative w-full h-full">
                 {/* Image container with controlled height */}
                 <div className="relative w-full md:h-[570px] lg:h-[500px] xl:h-[810px] 2xl:h-[794px] 3xl:h-[680px]">
-                    <img
+                    <Image
                         src="/images/industry/auto-industry/partnering-power-img.webp"
                         alt="partnering-power-img"
                         className="w-full h-full object-cover"
+                        width={0}
+                        height={0}
+                        priority
                     />
 
                     <div className="absolute inset-0">

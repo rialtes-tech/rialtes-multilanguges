@@ -79,13 +79,7 @@ const schemaData = {
                 }
             }
         ]
-    },
-    "isRelatedTo": [
-        { "@type": "Product", "name": "SAP ARIBA" },
-        { "@type": "Product", "name": "SAP S/4HANA" },
-        { "@type": "Product", "name": "SAP SuccessFactors" },
-        { "@type": "Product", "name": "SAP Business Technology Platform (BTP)" }
-    ]
+    }
 }
 const WhyChooseRialtes = () => {
     const whyChooseData = [
@@ -191,10 +185,10 @@ const UnlockProcurementSection = () => {
     return (
         <section className="custom-container relative sapbuy-unlock-section">
             {/* Desktop Image */}
-            <Image src="/images/sap-buy/unlock-procurement-img.webp" alt="unlock-procurement-img" width={600} height={100} className="hidden md:block w-full h-full object-cover" />
+            <Image src="/images/sap-buy/unlock-procurement-img.webp" priority alt="unlock-procurement-img" width={600} height={100} className="hidden md:block w-full h-full object-cover" />
 
             {/* Mobile Image */}
-            <Image src="/images/sap-buy/unlock-procurement-img.webp" alt="unlock-procurement-img" width={600} height={100} className="block md:hidden w-full h-full object-cover" />
+            <Image src="/images/sap-buy/unlock-procurement-img.webp" priority alt="unlock-procurement-img" width={600} height={100} className="block md:hidden w-full h-full object-cover" />
 
             <div className="xl:absolute xl:top-[35%]">
                 <div className=" bg-[#006FBE]/90 text-[#FFFFFF] xl:z-50 xl:mx-[80px] xl:py-[64px] xl:px-[60px] md:py-[48px] md:px-[2rem] pt-[40px] pb-[59px] px-[2rem]">
@@ -275,6 +269,7 @@ const SapAribaModulesSection = () => {
                         width={800}
                         height={1000}
                         className="w-full hidden md:block h-full"
+                        priority
                     />
                     {/* mob and tablet img */}
                     <Image
@@ -283,6 +278,7 @@ const SapAribaModulesSection = () => {
                         width={800}
                         height={600}
                         className="w-full block md:hidden h-auto"
+                        priority
                     />
                 </div>
                 <div className="order-2 lg:order-1 md:px-[0] px-[2rem]">
@@ -345,6 +341,7 @@ const AribaBusinessNetworkSection = () => {
                         width={800}
                         height={1000}
                         className="w-full hidden md:block h-full"
+                        priority
                     />
                     {/* mob and tablet img */}
                     <Image
@@ -353,6 +350,7 @@ const AribaBusinessNetworkSection = () => {
                         width={800}
                         height={600}
                         className="w-full block md:hidden h-auto"
+                        priority
                     />
                 </div>
 
@@ -404,6 +402,7 @@ const SupplierProfileSection = () => {
                         width={800}
                         height={1000}
                         className="w-full hidden md:block h-full"
+                        priority
                     />
                     <Image
                         src="/images/sap-buy/Mobile/supplier-profile-mob-img.webp"
@@ -411,6 +410,7 @@ const SupplierProfileSection = () => {
                         width={800}
                         height={600}
                         className="w-full block md:hidden h-auto"
+                        priority
                     />
                 </div>
 
@@ -577,6 +577,7 @@ const SeamlessIntergrationsSection = () => {
                 width={600}
                 height={100}
                 className="hidden lg:block w-full h-full object-cover"
+                priority
             />
             <Image
                 src="/images/sap-buy/Mobile/seamless-mob-img.webp"
@@ -584,6 +585,7 @@ const SeamlessIntergrationsSection = () => {
                 width={600}
                 height={100}
                 className="block lg:hidden w-full h-[1200px] object-cover"
+                priority
             />
 
             <div className="absolute bottom-0 lg:top-[40%] w-full lg:px-0">
@@ -661,6 +663,7 @@ const BuyingInvoicingSection = () => {
                         width={600}
                         height={100}
                         className="hidden lg:block w-full h-full object-cover"
+                        priority
                     />
                     <div className="block lg:hidden absolute top-0 left-1/2 translate-x-[-50%] translate-y-[-20%] w-[84%] z-10">
                         <Image
@@ -669,6 +672,7 @@ const BuyingInvoicingSection = () => {
                             width={600}
                             height={100}
                             className="w-full h-auto object-cover"
+                            priority
                         />
                     </div>
                 </div>
@@ -702,6 +706,7 @@ const AgentChat = () => {
                     width={600}
                     height={100}
                     className="hidden lg:block w-full h-full object-cover"
+                    priority
                 />
 
                 <Image
@@ -710,6 +715,7 @@ const AgentChat = () => {
                     width={600}
                     height={100}
                     className="block lg:hidden w-full h-full object-cover"
+                    priority
                 />
             </div>
 
