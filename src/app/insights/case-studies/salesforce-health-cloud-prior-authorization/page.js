@@ -122,7 +122,7 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
 
         <div className="py-10 bg-white">
           <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Accelerating Prior Authorizations Using Salesforce Health Cloud</h1>
+            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Digitizing Prior Authorization for Better Patient Outcomes  </h1>
           </div>
           <div className="py-4"></div>
           <div className="container mx-auto">

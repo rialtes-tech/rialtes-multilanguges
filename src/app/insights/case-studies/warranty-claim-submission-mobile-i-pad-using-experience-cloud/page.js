@@ -106,7 +106,7 @@ export default function Page() {
             <section className="custom-container">
                 <div className="py-10 bg-white">
                     <div className="">
-                        <h1 className="text-[#000000] py-6 max-w-4xl">Enabling Mobile-First Warranty Claim Submissions Using Salesforce Experience Cloud Capabilities</h1>
+                        <h1 className="text-[#000000] py-6 max-w-4xl">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h1>
                     </div>
                     <div className="py-4"></div>
                     <div className="">
