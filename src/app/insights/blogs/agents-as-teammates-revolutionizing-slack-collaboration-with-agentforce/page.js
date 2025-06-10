@@ -270,7 +270,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 ">Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 ">Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0</h1>
           </div>
 
           <div>

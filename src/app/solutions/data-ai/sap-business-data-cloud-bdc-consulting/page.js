@@ -246,38 +246,39 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
             </div>
           </div>
 
-          <div className="xl:col-span-6 bg-[#006FBE]  p-7  px-10 text-white order-2 xl:order-1  ">
-            <h2>SAP Data Fabric</h2>
-            <h3 className="xl:text-[36px] font-semibold text-[18px] mt-3 ">
-              Powered by SAP Business Data Cloud
-            </h3>
-            <p className="mt-4  text-[#FFFFFF] font-light">
-              The SAP Data Fabric acts as a smart, connected data layer across your organization. It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.
-            </p>
-            <p className="mt-4  text-[#FFFFFF] font-light">
-                   With SAP Data Fabric, you can:            </p>
+       <div className="xl:col-span-6 bg-[#006FBE] p-7 px-10 text-white order-2 xl:order-1 relative">
+  <h2>SAP Data Fabric</h2>
+  <h3 className="xl:text-[26px] font-semibold text-[18px] mt-3">
+    Powered by SAP Business Data Cloud
+  </h3>
+  <p className="mt-4 text-[#FFFFFF] font-light">
+    The SAP Data Fabric acts as a smart, connected data layer across your organization.
+    It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.
+  </p>
+  <p className="mt-4 text-[#FFFFFF] font-light">
+    With SAP Data Fabric, you can:
+  </p>
 
-            <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4  ">
-              <li className="pb-4">
-                Connect live and replicated data across multi-cloud and hybrid
-                landscapes
-              </li>
-              <li className="pb-4">
-                Unify semantic definitions across domains and systems
-              </li>
-              <li className="pb-4">
-                Ensure trusted data governance and lineage across all business
-                functions
-              </li>
-              <li className="">
-                Accelerate AI, planning, and analytics with clean, context-rich
-                data
-              </li>
-            </ul>
-            <div className="absolute mt-[-12px] xl:mt-[-3px] 2xl:mt-[180px] ">
-              <LearnMore />
-            </div>
-          </div>
+  <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4">
+    <li className="pb-4">
+      Connect live and replicated data across multi-cloud and hybrid landscapes
+    </li>
+    <li className="pb-4">
+      Unify semantic definitions across domains and systems
+    </li>
+    <li className="pb-4">
+      Ensure trusted data governance and lineage across all business functions
+    </li>
+    <li>
+      Accelerate AI, planning, and analytics with clean, context-rich data
+    </li>
+  </ul>
+
+  {/* Learn More*/}
+<div className="absolute bottom-[-19px]">    <LearnMore />
+  </div>
+</div>
+
         </section>
         <div className="py-7"></div>
         <section className="relative">
@@ -373,7 +374,7 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
             
               <ul className="list-disc pt-4 text-black pl-4 xl:text-[20px] text-[16px] xl:pr-20">
                 <li className="pb-2">
-Finance, Procurement, and Supply Chain Data from SAP S/4HANA                </li>
+                 Finance, Procurement, and Supply Chain Data from SAP S/4HANA                </li>
                 <li className="pb-2">
 Workforce and Payroll Intelligence from SAP SuccessFactors                </li>
                 <li>
@@ -426,10 +427,10 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
 
         <section className="lg:mt-[120px] mt-[10px]">
           <div className="grid lg:grid-cols-12 grid-cols-1">
-            <div className="lg:col-span-6 col-span-12 lg:order-1 order-2  xl:mr-[40px]">
+            <div className="lg:col-span-6 col-span-12 lg:order-1 order-2  ">
               <div className="bg-[#073259] text-[white] lg:py-[55px] lg:w-[600px] xl:w-[750px] 3xl:w-[1110px] 2xl:w-[950px] max-lg:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative">
-                <div className="custom-container max-md:px-0">
-                  <div className="xl:w-[82%] lg:w-[80%] 2xl:w-[100%]">
+                <div className="custom-container max-md:px-0 2xl:pr-0">
+                  <div className="xl:w-[82%] lg:w-[80%] 2xl:w-[62%] ">
                     <h2 className=" leading-tight ">
                       Migrate from SAP Datasphere to SAP Business Data Cloud
                     </h2>
@@ -477,7 +478,7 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
                       </li>
                     </ul>
 
-                    <div className="absolute mt-0 xl:mt-0 sm:mt-[-10px]">
+                    <div className="absolute mt-0 xl:mt-[3px] max-lg:mt-[-10px]">
                       <LearnMore bgcolor={"#006FBE"} />
                     </div>
                   </div>

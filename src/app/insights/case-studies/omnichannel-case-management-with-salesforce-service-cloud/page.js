@@ -3,8 +3,8 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-const schemaData={
-  
+const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
@@ -85,7 +85,7 @@ const slides = [
 ];
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
 
   return (
     <div className="min-h-screen bg-white">
@@ -94,7 +94,7 @@ export default function Page() {
         description="Discover a Salesforce Service Cloud success story—next-gen case management transformed with automation, faster service, and elevated customer support."
         canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
       />
-  <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
@@ -110,22 +110,16 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Transforming Omnichannel Case Management Using Salesforce Service Cloud</h1>
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <h1 className="text-[#000000] py-6 leading-tight">Transforming Omnichannel Case Management Using Salesforce Service Cloud</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Manufacturing (Semi-Conductor)</span> <span className='text-[#ACACAC]'> | </span>14 October 2025
               </div>
@@ -134,81 +128,94 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-          <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                </div>
+            <div className="flex flex-row gap-6">
+              <div className="max-w-[40px]">
+                <a
+                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/images/case-studies/linkedin.svg"
+                    alt="LinkedIn"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                  />
+                </a>
+              </div>
+              <div className="max-w-[40px]">
+                <a
+                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >                      <Image
+                    src="/images/case-studies/twitter.svg"
+                    alt="Twitter"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                  />
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
               <p className="text-black">A leading provider of high-performance analog semiconductors powering wireless and wired connectivity across industries. Their core offerings, amplifiers, filters, switches, and integrated modules, support efficient wireless transmission for smartphones, routers, medical devices, automobiles, and more. Renowned for innovation, they are a critical technology partner for both consumer and industrial applications globally.</p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
 
-              <p className="text-black">The client faced persistent challenges in delivering consistent, high-quality customer service across global regions due to a fragmented, legacy support system. Key issues included:</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
-                <li className="pb-4">Disjointed customer interaction data across platforms, making it hard to track service history.
-                </li>
-                <li className="pb-4">Lack of visibility into historical case data and customer behavior.</li>
-                <li className="pb-4">Manual case management with no automation for routing or resolution.
-                </li>
-                <li className="pb-4">Limited self-service options, forcing customers to rely on email and phone channels.
-                </li>
-              </ul>
+              <p className="text-black pb-2">The client faced persistent challenges in delivering consistent, high-quality customer service across global regions due to a fragmented, legacy support system. Key issues included:</p>
+            
+              <div className="pl-3">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                  <p className="text-black pb-4"> <li>Disjointed customer interaction data across platforms, making it hard to track service history.</li></p>
+                  <p className="text-black pb-4"> <li>Lack of visibility into historical case data and customer behavior.</li></p>
+                  <p className="text-black pb-4"><li>Manual case management with no automation for routing or resolution.</li></p>
+                  <p className="text-black "> <li>Limited self-service options, forcing customers to rely on email and phone channels.</li></p>
+
+                </ul>
+              </div>
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
 
-              <p className="text-black pb-6">Rialtes implemented Salesforce Service Cloud and Experience Cloud to centralize customer support and create a scalable, future-ready solution. Key elements of the implementation:</p>
+              <p className="text-black pb-4">Rialtes implemented Salesforce Service Cloud and Experience Cloud to centralize customer support and create a scalable, future-ready solution. Key elements of the implementation:</p>
 
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>Unified Support Platform:</strong> All customer interactions, across internal teams, distributors, and OEMs, are now managed on a single platform.</li>
-                <li className="pb-4"><strong>Self-Service Portal:  </strong> Distributors and OEMs can submit and track cases, and access a robust knowledge base 24/7.</li>
-                <li className="pb-4"><strong>Real-Time Communication:  </strong> Built-in chat and messaging facilitate direct conversations between support teams and customers.</li>
-                <li className="pb-4"><strong>Knowledge Consolidation: </strong> Legacy support content was migrated into a centralized, searchable repository.</li>
-                <li className="pb-4"><strong>Einstein AI Assistance: </strong> AI-driven recommendations help customers resolve issues faster and reduce case volume.</li>
-                <li className="pb-4"><strong>Automated Case Assignment: </strong> Routing logic based on geography and expertise ensures timely and accurate responses.</li>
-                <li className="pb-4"><strong>Cross-Continent Collaboration: </strong> Support teams can now share knowledge and updates effortlessly across time zones.</li>
-                <li className="pb-4"><strong>Segmented Content Delivery: </strong> Targeted release of support updates and critical info to specific customer groups.</li>
-                <li className="pb-4"><strong>Data Migration & Insights: </strong>Historical case data migration enables in-depth trend analysis and smarter decision-making.</li>
 
-              </ul>
+              <div className="pl-3">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                  <p className="text-black pb-4"> <li><h3 className=" h3-bold inline">Unified Support Platform </h3>: All customer interactions, across internal teams, distributors, and OEMs, are now managed on a single platform.</li></p>
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Self-Service Portal </h3>: Distributors and OEMs can submit and track cases, and access a robust knowledge base 24/7.</li></p>
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Real-Time Communication </h3>: Built-in chat and messaging facilitate direct conversations between support teams and customers.</li></p>
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Knowledge Consolidation </h3>:  Legacy support content was migrated into a centralized, searchable repository.</li></p>
+
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Einstein AI Assistance </h3>:  AI-driven recommendations help customers resolve issues faster and reduce case volume.</li></p>
+
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Automated Case Assignment </h3>:  Routing logic based on geography and expertise ensures timely and accurate responses.</li></p>
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Cross-Continent Collaboration </h3>:  Support teams can now share knowledge and updates effortlessly across time zones.</li></p>
+
+                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Segmented Content Delivery </h3>: Targeted release of support updates and critical info to specific customer groups.</li></p>
+
+                  <p className="text-black  "><li><h3 className=" h3-bold inline ">Data Migration & Insights </h3>:  Historical case data migration enables in-depth trend analysis and smarter decision-making.</li></p>
+                </ul>
+              </div>
 
 
 
@@ -217,38 +224,31 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
-                <li className="pb-4">60% reduction in average case resolution time, thanks to automation and AI assistance.
-                </li>
-                <li className="pb-4">30% increase in customer self-service adoption, reducing support workload.</li>
-                <li className="pb-4">Enhanced visibility into the complete customer journey, enabling targeted upselling and proactive service.
-                </li>
-                <li className="pb-4">360° customer view across service channels, devices, and global teams.
-                </li>
-                <li className="pb-4">Improved global support consistency and seamless collaboration across continents.
-                </li>
-                <li className="pb-4">Scalability for future integration with Salesforce CPQ and Marketing Cloud, enabling a unified customer lifecycle.</li>
-                <li>Knowledge article usage increased by 45%, improving first-contact resolution.</li>
-              </ul>
+           
+              <div className="pl-3">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+                  <p className="text-black pb-4"> <li>60% reduction in average case resolution time, thanks to automation and AI assistance.</li></p>
+                  <p className="text-black pb-4"> <li>30% increase in customer self-service adoption, reducing support workload.</li></p>
+                  <p className="text-black pb-4"><li>Enhanced visibility into the complete customer journey, enabling targeted upselling and proactive service.</li></p>
+                  <p className="text-black pb-4"> <li>360° customer view across service channels, devices, and global teams.</li></p>
+                  <p className="text-black pb-4"> <li>Improved global support consistency and seamless collaboration across continents.</li></p>
+                  <p className="text-black pb-4"> <li>Scalability for future integration with Salesforce CPQ and Marketing Cloud, enabling a unified customer lifecycle.</li></p>
+                  <p className="text-black "> <li>Knowledge article usage increased by 45%, improving first-contact resolution.</li></p>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="py-6"></div>
+        
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="py-10 custom-container lg:pr-0"
       >
         <RelatedTopicsCarousel slides={slides} />
 

@@ -104,36 +104,36 @@ export default function Page() {
     }
 
     const endToEndData = [
-        "Industry-specific Advisory Services to shape your digital roadmap.",
-        "Custom Solution Architecture and Design for unique TTH needs.",
-        "Ready-to-use Accelerators to fast-track deployment and reduce costs.",
-        "Robust Quality Assurance and Testing to ensure flawless performance.",
-        "Agile Implementation and Integration using SAP, Salesforce, and MuleSoft.",
-        "Continuous Optimization and Innovation post-go-live to keep you competitive."
+        "Industry-specific advisory services to shape your digital roadmap.",
+        "Custom solution architecture and design for unique TTH needs.",
+        "Ready-to-use accelerators to fast-track deployment and reduce costs.",
+        "Robust quality assurance and testing to ensure flawless performance.",
+        "Agile implementation and integration using SAP, Salesforce, and MuleSoft.",
+        "Continuous optimization and innovation post-go-live to keep you competitive."
     ]
 
     const industryData = [
-        "Intelligent Travel Booking Engines and Reservation Systems.",
-        "Dynamic Pricing and Yield Management tools.",
-        "Property and Guest Experience Management bolt-ons for hospitality.",
-        "Transportation & Fleet Management solutions.",
-        "Loyalty & Rewards Platform Extensions for enhanced customer retention.",
+        "Intelligent travel booking engines and reservation systems.",
+        "Dynamic pricing and yield management tools.",
+        "Property and guest experience management bolt-ons for hospitality.",
+        "Transportation & fleet management solutions.",
+        "Loyalty & rewards platform extensions for enhanced customer retention.",
     ]
 
     const optimizeData = [
-        "Real-Time Inventory Visibility for rooms, flights, seats, and transport assets.",
-        "AI-Powered Demand Forecasting to optimize pricing and availability.",
-        "Dynamic Pricing based on real-time trends and demand.",
-        "Cross-Channel Inventory Sync between direct and OTA bookings.",
-        "Integrated Capacity Management to prevent overbooking and missed opportunities.",
+        "Real-time inventory visibility for rooms, flights, seats, and transport assets.",
+        "AI-powered demand forecasting to optimize pricing and availability.",
+        "Dynamic pricing based on real-time trends and demand.",
+        "Cross-channel inventory sync between direct and OTA bookings.",
+        "Integrated capacity management to prevent overbooking and missed opportunities.",
     ]
 
     const personalizedData = [
-        "Unified Customer Profiles for hyper-targeted campaigns.",
-        "AI-Driven Segmentation to create unique travel and guest experiences.",
-        "Multi-Channel Engagement: Email, SMS, Social, Web, and Mobile.",
-        "Dynamic Personalization based on travel preferences and behaviors.",
-        "Automated Pre-Trip, In-Trip, and Post-Trip Journeys to keep customers engaged.",
+        "Unified customer profiles for hyper-targeted campaigns.",
+        "AI-driven segmentation to create unique travel and guest experiences.",
+        "Multi-Channel Engagement: email, SMS, social, web, and mobile.",
+        "Dynamic personalization based on travel preferences and behaviors.",
+        "Automated pre-trip, in-trip, and post-trip journeys to keep customers engaged.",
     ]
 
     const rightTechData = [
@@ -144,58 +144,57 @@ export default function Page() {
     ]
 
     const aiPoweredData = [
-        "AI Chatbots and Virtual Assistants for 24/7 traveler and guest support.",
-        "Predictive Maintenance for fleets and transport infrastructure.",
-        "AI-Driven Demand Forecasting for dynamic pricing and resource allocation.",
-        "Personalized Travel and Stay Recommendations based on customer behavior.",
-        "AI-Powered Fraud Prevention and Risk Management."
+        "AI chatbots and virtual assistants for 24/7 traveler and guest support.",
+        "Predictive maintenance for fleets and transport infrastructure.",
+        "AI-Driven demand forecasting for dynamic pricing and resource allocation.",
+        "Personalized travel and stay recommendations based on customer behavior.",
+        "AI-powered fraud prevention and risk management."
     ]
 
     const quickCommereceData = [
-        "SAP and Salesforce enabling real-time bookings and confirmations.",
-        "Instant Upgrades and Cross-Sell Opportunities during booking.",
-        "Mobile-First Experiences for check-in, concierge, and service requests.",
-        "Real-Time Pricing and Availability to capture every opportunity.",
-        "Automated Upsell and Cross-Sell at key touchpoints."
+        "Instant upgrades and cross-sell opportunities during booking.",
+        "Mobile-first experiences for check-in, concierge, and service requests.",
+        "Real-time pricing and availability to capture every opportunity.",
+        "Automated upsell and cross-sell at key touchpoints.",
     ]
 
     const smarterServiceData = [
-        "Agentforce AI-Powered Service Bots for real-time issue resolution.",
-        "Personalized Agent Interactions using complete customer context.",
-        "Data Cloud Unified Traveler/Guest Profiles for personalized service.",
-        "Predictive Customer Support to address issues before they arise.",
-        "Streamlined Case Management for rapid resolutions."
+        "Agentforce AI-powered service bots for real-time issue resolution.",
+        "Personalized agent interactions using complete customer context.",
+        "Data Cloud unified traveler/guest profiles for personalized service.",
+        "Predictive customer support to address issues before they arise.",
+        "Streamlined case management for rapid resolutions."
     ]
     const elavateTravelData = [
-        "End-to-end Travel Booking and Reservation Management.",
-        "AI-Powered Travel Itinerary Recommendations based on preferences.",
-        "Disruption and Delay Management solutions for proactive traveler engagement.",
-        "Integrated Loyalty Management and Personalized Rewards.",
+        "End-to-end travel booking and reservation management.",
+        "AI-Powered travel itinerary recommendations based on preferences.",
+        "Disruption and delay management solutions for proactive traveler engagement.",
+        "Integrated loyalty management and personalized rewards.",
         "Mobile-first traveler experience apps for bookings, check-ins, and updates."
     ]
     const flawlessData = [
-        "SAP S/4HANA for Finance, Procurement, HR, and Supply Chain.",
+        "SAP S/4HANA for finance, procurement, HR, and supply chain.",
         "Oracle ERP and HCM for complete enterprise process management.",
         "MuleSoft APIs for real-time connection between customer platforms and operational systems.",
-        "End-to-End Workflows from booking to billing, operations to customer service.",
-        "Data Synchronization to ensure consistency and accuracy."
+        "End-to-end workflows from booking to billing, operations to customer service.",
+        "Data synchronization to ensure consistency and accuracy."
     ]
 
     const futureReadyData = [
-        "Multi-Level Loyalty Programs tailored for TTH customers.",
-        "AI-Based Customer Recognition for personalized offers and experiences.",
-        "Seamless Loyalty Redemption and Upsell opportunities.",
-        "Gamification Strategies to boost engagement and retention.",
-        "Partner Program Integrations with airlines, hotels, and transport services."
+        "Multi-level loyalty programs tailored for TTH customers.",
+        "AI-based customer recognition for personalized offers and experiences.",
+        "Seamless loyalty redemption and upsell opportunities.",
+        "Gamification strategies to boost engagement and retention.",
+        "Partner program integrations with airlines, hotels, and transport services."
     ]
 
 
     const turnSectionData = [
-        "Unified Dashboards for Customer Insights, Sales, and Operations.",
-        "Real-Time Analytics for demand, capacity, and financial performance.",
-        "Predictive Analytics to forecast trends and optimize pricing.",
-        "Tableau-Powered Visualizations for interactive and actionable insights.",
-        "Executive and Department-Level Views for decision-making at every level."
+        "Unified dashboards for customer insights, sales, and operations.",
+        "Real-time analytics for demand, capacity, and financial performance.",
+        "Predictive analytics to forecast trends and optimize pricing.",
+        "Tableau-powered visualizations for interactive and actionable insights.",
+        "Tableau-powered visualizations for interactive and actionable insights."
     ]
     return (
         <section>
@@ -261,7 +260,7 @@ export default function Page() {
                         </div>
                         <div className="xl:col-span-5 col-span-12">
                             <p className="xl:text-[22px] leading-tight text-[16px] font-normal">
-                                At Rialtes, we specialize in transforming the Travel, Transportation, and Hospitality (TTH) industry through future-ready solutions built on SAP, Salesforce, MuleSoft, and Oracle. From airlines to hotels, cruise lines to logistics providers, our domain expertise and technology know-how help businesses deliver unforgettable, personalized customer journeys while driving operational excellence.
+                                At Rialtes, we specialize in transforming the Travel, Transportation, and Hospitality (TTH) industry through future-ready solutions built on SAP, Salesforce, MuleSoft, and Oracle. From airlines to hotels, cruise lines to logistics providers, our domain expertise enable businesses to deliver unforgettable customer experiences.
                                 <br /> <br />
                                 With our global presence in the US, Canada, India, and Singapore, and as a certified partner of SAP and Salesforce, Rialtes offers seamless advisory, implementation, and post-go-live services, powered by pre-built accelerators tailored for the TTH industry.
                             </p>
@@ -277,9 +276,9 @@ export default function Page() {
 
                             <div className="xl:col-span-7 md:col-span-6 col-span-12 text-[#FFFFFF] md:pl-[61px] md:order-1 order-2">
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight 2xl:w-[88%]">
-                                    End-to-End Industry-Focused Transformation: Why Choose Rialtes?
+                                    Why Choose Rialtes for End-to-End Industry-Focused Transformation:
                                 </h2>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[34px]">We don’t just implement technology — we enable business transformation:</p>
+                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[34px]">With Rialtes, you get a partner who understands the nuances of TTH and delivers measurable outcomes.</p>
 
                                 <ul className="xl:space-y-[24px]  space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]">
                                     {
@@ -290,9 +289,6 @@ export default function Page() {
                                         })
                                     }
                                 </ul>
-
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[34px]">With Rialtes, you get a partner who understands the nuances of TTH and delivers measurable outcomes.</p>
-
                             </div>
 
                             <div className="xl:col-span-5 md:col-span-6 col-span-12 md:order-2 order-1">
@@ -345,13 +341,13 @@ export default function Page() {
                                 background: "#073259",
                             }}>
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight">
-                                    Industry-Focused Accelerators
+                                    Launch Fast and Stay Ahead with Industry-Focused Accelerators:
                                 </h2>
-                                <h3 className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
+                                {/* <h3 className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
                                     Launch Fast and Stay Ahead
-                                </h3>
+                                </h3> */}
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
-                                    Our purpose-built accelerators designed for Travel, Transportation, and Hospitality cover:
+                                    Our purpose-built accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers, and are designed for Travel, Transportation, and Hospitality cover:
                                 </p>
                                 <ul className="xl:space-y-[24px]  space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]">
                                     {
@@ -362,9 +358,7 @@ export default function Page() {
                                         })
                                     }
                                 </ul>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[36px]">
-                                    These accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers.
-                                </p>
+
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
                                     <LearnMore bgcolor="#006FBE" />
                                 </div>
@@ -380,6 +374,7 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: "35% 20%" }}
+                                priority
                             />
 
 
@@ -396,14 +391,14 @@ export default function Page() {
                                             }}
                                         />
                                         <div className="relative z-10 h-full flex flex-col justify-center px-[26px] xl:px-[61px] overflow-y-auto">
-                                            <h2 className="text-[26px] xl:text-[60px] leading-tight">
-                                                Industry-Focused Accelerators
+                                            <h2 className="text-[26px] 2xl:text-[60px] xl:text-[52px] leading-tight">
+                                                Launch Fast and Stay Ahead with Industry-Focused Accelerators:
                                             </h2>
-                                            <p className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
+                                            {/* <p className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
                                                 Launch Fast and Stay Ahead
-                                            </p>
+                                            </p> */}
                                             <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
-                                                Our purpose-built accelerators designed for Travel, Transportation, and Hospitality cover:
+                                                Our purpose-built accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers, and are designed for Travel, Transportation, and Hospitality cover:
                                             </p>
                                             <ul className="xl:space-y-[24px]  space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]">
                                                 {
@@ -414,9 +409,6 @@ export default function Page() {
                                                     })
                                                 }
                                             </ul>
-                                            <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[36px]">
-                                                These accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers.
-                                            </p>
 
                                         </div>
                                         <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
@@ -444,7 +436,7 @@ export default function Page() {
                                     Tailored Solutions for Travel Industry Leaders
                                 </h3>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[26px]  md:w-[70%] lg:w-[90%]">
-                                    Rialtes empowers travel businesses to create seamless and hyper-personalized journeys for their customers:
+                                    With Rialtes, every journey becomes a brand-defining moment, empowering travel businesses to create seamless, hyper-personalized experiences:
                                 </p>
                                 <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[26px] pl-[20px] md:w-[90%] lg:w-[90%]">
                                     {
@@ -455,10 +447,6 @@ export default function Page() {
                                         })
                                     }
                                 </ul>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[53px] mt-[40px] lg:w-[90%]">
-                                    With Rialtes, you turn every journey into a brand-defining moment.
-                                </p>
-
                             </div>
                         </div>
                         <div className="lg:col-span-7 col-span-12 lg:order-2 order-1 max-lg:px-[36px]">
@@ -539,7 +527,7 @@ export default function Page() {
                                         }
                                     </ul>
 
-                                    <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[50px] mt-[28px] ml-[10px]">We help you turn casual travelers into lifelong customers.</p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -562,6 +550,7 @@ export default function Page() {
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
+                                priority
 
                             />
                         </div>
@@ -574,6 +563,7 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: '25% 20%' }}
+                                priority
                             />
                         </div>
                     </div>
@@ -601,9 +591,7 @@ export default function Page() {
                                             </li>
                                         ))}
                                     </ul>
-                                    <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[38px] mt-[36px] md:ml-[10px]">
-                                        Ensure that no room, seat, or service goes unsold.
-                                    </p>
+
                                 </div>
                             </div>
 
@@ -624,8 +612,8 @@ export default function Page() {
                                 <h3 className="text-[22px] xl:text-[42px] leading-tight font-semibold xl:mt-[18px] mt-[22px]">
                                     Future-Ready Loyalty Management Solutions
                                 </h3>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[20px]">
-                                    Keep your guests and travelers coming back for more
+                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[20px] 2xl:w-[80%]">
+                                    Keep your guests and travelers coming back for more by building emotional loyalty, not just transactional.
                                 </p>
                                 <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]">
                                     {futureReadyData.map((data, ind) => (
@@ -637,9 +625,7 @@ export default function Page() {
                                         </li>
                                     ))}
                                 </ul>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[47px] mt-[36px] md:ml-[10px]">
-                                    Rialtes helps you build emotional loyalty, not just transactional.
-                                </p>
+
                                 <div className="mt-[44px] ">
                                     <LearnMore />
                                 </div>
@@ -658,6 +644,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
 
                                 />
                             </div>
@@ -671,6 +658,7 @@ export default function Page() {
                                     width={0}
                                     height={0}
                                     style={{ objectPosition: '85% 20%' }}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -691,6 +679,7 @@ export default function Page() {
                                         className="w-full h-full object-cover"
                                         width={0}
                                         height={0}
+                                        priority
 
                                     />
                                 </div>
@@ -703,6 +692,7 @@ export default function Page() {
                                         width={0}
                                         height={0}
                                         style={{ objectPosition: '25% 20%' }}
+                                        priority
                                     />
                                 </div>
                             </div>
@@ -726,9 +716,6 @@ export default function Page() {
                                         </li>
                                     ))}
                                 </ul>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[38px] mt-[33px] md:ml-[10px]">
-                                    Run your business smoothly, with technology that works together.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -781,6 +768,7 @@ export default function Page() {
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
+                            priority
 
                         />
                     </div>
@@ -793,6 +781,7 @@ export default function Page() {
                             width={0}
                             height={0}
                             style={{ objectPosition: '25% 20%' }}
+                            priority
                         />
                     </div>
 
@@ -806,7 +795,7 @@ export default function Page() {
                                 </div>
                                 <div>
                                     <p className="text-[16px] xl:text-[20px] leading-tight font-normal lg:mt-0 mt-[17px]">
-                                        Choosing the right solution isn’t just about software — it’s about business outcomes:
+                                        Choosing the right solution isn’t just about software, it’s about business outcomes:
                                     </p>
                                     <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]">
                                         {rightTechData.map((data, ind) => (
@@ -818,9 +807,6 @@ export default function Page() {
                                             </li>
                                         ))}
                                     </ul>
-                                    <p className="text-[16px] xl:text-[20px] leading-tight font-normal mt-[32px]">
-                                        Let data lead the way to better decisions.
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -838,7 +824,7 @@ export default function Page() {
                                 How AI is Revolutionizing TTH
                             </h3>
                             <p className=" xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[42px] mt-[20px]">
-                                Artificial Intelligence is not the future — it’s happening now:
+                                Rialtes helps you adopt AI in ways that matter to your customers and your bottom line.
                             </p>
                             <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]">
                                 {aiPoweredData.map((data, ind) => (
@@ -850,9 +836,7 @@ export default function Page() {
                                     </li>
                                 ))}
                             </ul>
-                            <p className=" xl:text-[20px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[48px] mt-[35px]">
-                                Rialtes helps you adopt AI in ways that matter to your customers and your bottom line.
-                            </p>
+
                         </div>
                         <div className="md:order-2 order-1 2xl:col-span-6 md:col-span-6 lg:col-span-5 col-span-12">
                             {/* Mobile Background */}
@@ -864,6 +848,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -874,11 +859,12 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="xl:mt-[50px] mt-[36px] max-md:ml-[36px]">
+                    <div className="xl:mt-[20px] mt-[36px] max-md:ml-[36px]">
                         <LearnMore />
                     </div>
                 </section>
@@ -887,14 +873,14 @@ export default function Page() {
                 <section className="xl:mt-[102px] mt-[64px] custom-container max-lg:px-0 lg:pl-0">
                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px] xl:gap-[60px] lg:gap-[60px] gap-y-[44px]">
                         <div className="order-2 max-lg:px-[36px] lg:col-span-5 col-span-12 lg:pt-[20px] xl:pt-0">
-                            <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px]">
+                            <h2 className="2xl:text-[60px] xl:text-[54px] text-[26px] leading-[32px] xl:leading-[73px]">
                                 Quick Commerce & Instant Experiences
                             </h2>
                             <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-[34px] mt-[26px] leading-[27px] xl:leading-[52px] w-full">
                                 Real-Time Travel and Hospitality with SAP & Salesforce
                             </h3>
                             <p className=" xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[42px] mt-[20px]">
-                                Speed is everything — and Rialtes helps you deliver:
+                                Partner with Rialtes to offer experiences as fast and personalized as your customers expect.SAP and Salesforce enabling real-time bookings and confirmations.
                             </p>
                             <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]">
                                 {quickCommereceData.map((data, ind) => (
@@ -906,9 +892,6 @@ export default function Page() {
                                     </li>
                                 ))}
                             </ul>
-                            <p className=" xl:text-[20px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[45px] mt-[40px]">
-                                Partner with Rialtes to offer experiences as fast and personalized as your customers expect.
-                            </p>
                             <div className="xl:mt-[40px] mt-[36px]">
                                 <LearnMore />
                             </div>
@@ -923,6 +906,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -933,6 +917,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -954,7 +939,7 @@ export default function Page() {
                                 Agentforce and Data Cloud in TTH
                             </h3>
                             <p className="xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[34px] mt-[23px]">
-                                Deliver superior customer service with AI and data:
+                                Deliver service that makes every customer feel valued and understood.
                             </p>
                             <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]">
                                 {smarterServiceData.map((data, ind) => (
@@ -966,14 +951,11 @@ export default function Page() {
                                     </li>
                                 ))}
                             </ul>
-                            <p className=" xl:text-[20px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[48px] mt-[35px]">
-                                Deliver service that makes every customer feel valued and understood.
-                            </p>
                             <div className="xl:mt-[36px] mt-[36px]">
                                 <LearnMore />
                             </div>
                         </div>
-                        <div className="md:order-2 order-1 2xl:col-span-6 lg:col-span-5 md:col-span-6 col-span-12">
+                        <div className="md:order-2 order-1 2xl:col-span-7 lg:col-span-5 md:col-span-6 col-span-12">
                             {/* Mobile Background */}
                             <div className="block md:hidden w-full h-full px-[36px]">
 
@@ -983,6 +965,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -993,6 +976,7 @@ export default function Page() {
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -1001,7 +985,7 @@ export default function Page() {
                 </section>
                 {/* Contact Form */}
                 <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
-                    <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider — Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
+                    <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider, Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
                 </section >
             </div >
         </section >

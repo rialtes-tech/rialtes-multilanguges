@@ -9,110 +9,83 @@ import { HeroSection } from "@/app/components/herosection";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Retail Business Consulting Services",
-  alternateName: "RetailPlus by Rialtes",
-  url: "https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/",
-  description:
-    "Retail+ by Rialtes offers intelligent, scalable, and AI-powered retail transformation services for B2B and B2C enterprises across industries such as fashion, electronics, furniture, luxury, food, wellness, and more. Services include advisory, solution design, implementation, integration, quality assurance, and ongoing support using Salesforce and SAP platforms.",
-  provider: {
+  "name": "Retail Business Consulting Services",
+  "alternateName": "RetailPlus by Rialtes",
+  "url": "https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/",
+  "description": "Retail+ by Rialtes offers intelligent, scalable, and AI-powered retail transformation services for B2B and B2C enterprises across industries such as fashion, electronics, furniture, luxury, food, wellness, and more. Services include advisory, solution design, implementation, integration, quality assurance, and ongoing support using Salesforce and SAP platforms.",
+  "provider": {
     "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
   },
-  areaServed: [
+  "areaServed": [
     {
       "@type": "Country",
-      name: "United States",
+      "name": "United States"
     },
     {
       "@type": "Country",
-      name: "Canada",
+      "name": "Canada"
     },
     {
       "@type": "Country",
-      name: "India",
+      "name": "India"
     },
     {
       "@type": "Country",
-      name: "Singapore",
-    },
+      "name": "Singapore"
+    }
   ],
-  serviceType: "Retail Business Consulting",
-  hasOfferCatalog: {
+  "serviceType": "Retail Business Consulting",
+  "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    name: "Retail+ Key Offerings",
-    itemListElement: [
+    "name": "Retail+ Key Offerings",
+    "itemListElement": [
       {
         "@type": "Offer",
-        itemOffered: {
+        "itemOffered": {
           "@type": "Service",
-          name: "Advisory & Strategy Consulting",
-        },
+          "name": "Advisory & Strategy Consulting"
+        }
       },
       {
         "@type": "Offer",
-        itemOffered: {
+        "itemOffered": {
           "@type": "Service",
-          name: "Solution Design & Architecture",
-        },
+          "name": "Solution Design & Architecture"
+        }
       },
       {
         "@type": "Offer",
-        itemOffered: {
+        "itemOffered": {
           "@type": "Service",
-          name: "Implementation & Rollout",
-        },
+          "name": "Implementation & Rollout"
+        }
       },
       {
         "@type": "Offer",
-        itemOffered: {
+        "itemOffered": {
           "@type": "Service",
-          name: "Quality Assurance & Testing",
-        },
+          "name": "Quality Assurance & Testing"
+        }
       },
       {
         "@type": "Offer",
-        itemOffered: {
+        "itemOffered": {
           "@type": "Service",
-          name: "Systems Integration & Automation",
-        },
+          "name": "Systems Integration & Automation"
+        }
       },
       {
         "@type": "Offer",
-        itemOffered: {
+        "itemOffered": {
           "@type": "Service",
-          name: "Post Go-Live Optimization & Support",
-        },
-      },
-    ],
-  },
-  isRelatedTo: [
-    {
-      "@type": "Product",
-      name: "Salesforce Retail & Consumer Goods Cloud",
-    },
-    {
-      "@type": "Product",
-      name: "SAP S/4HANA for Retail",
-    },
-    {
-      "@type": "Product",
-      name: "Exelona by Rialtes",
-    },
-    {
-      "@type": "Product",
-      name: "RialChat",
-    },
-    {
-      "@type": "Product",
-      name: "Salesforce Agentforce",
-    },
-    {
-      "@type": "Product",
-      name: "Salesforce Data Cloud",
-    },
-  ],
-};
+          "name": "Post Go-Live Optimization & Support"
+        }
+      }
+    ]
+  }
+}
 
 export default function Retail({ items }) {
   return (

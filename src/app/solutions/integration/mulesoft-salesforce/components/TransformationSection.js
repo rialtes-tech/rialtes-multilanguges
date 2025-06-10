@@ -60,6 +60,7 @@ className="font-medium flex mt-3 items-start before:content-['•'] before:text-
           width={650}
           height={500}
           alt=""
+          priority
         />
       </div>
 

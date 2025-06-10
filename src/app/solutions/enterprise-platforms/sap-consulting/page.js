@@ -165,6 +165,7 @@ export default function Page() {
                                         alt="Salesforce Consulting Team"
                                         className="transform w-full h-full transition-transform duration-500 group-hover:scale-110"
                                         height={0} width={0}
+                                        priority
                                     // sizes="100vw"
                                     />
                                 </div>

@@ -100,20 +100,6 @@ const schemaData = {
             }
         ]
     },
-    "isRelatedTo": [
-        {
-            "@type": "Product",
-            "name": "Oracle E-Business Suite (EBS)"
-        },
-        {
-            "@type": "Product",
-            "name": "Kinaxis RapidResponse"
-        },
-        {
-            "@type": "Product",
-            "name": "Oracle Cloud Infrastructure (OCI)"
-        }
-    ],
     "audience": {
         "@type": "Audience",
         "audienceType": [
