@@ -91,7 +91,7 @@ export default function InsightsPage() {
 
 
       {/* Hero Section with Deep Blue Gradient Background */}
-      <HeroSection title="Insights" subtitle="" mobimg="/images/insights/insight-header-banner.webp" deskimg="/images/insights/insight-header-banner.webp" extraImg=""  txtColor={"black"}/>
+      <HeroSection title="Stay Ahead with Expert Industry Insights" subtitle="" mobimg="/images/insights/insight-header-banner-new.webp" deskimg="/images/insights/insight-header-banner-new.webp" extraImg="" />
       {/* Blog Section */}
       <div
         className="
