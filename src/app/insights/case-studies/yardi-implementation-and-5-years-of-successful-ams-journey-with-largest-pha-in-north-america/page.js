@@ -113,9 +113,9 @@ export default function Page() {
       <section
         className="custom-container"
       >
-        <div className="py-10 bg-white xl:max-w-[1000px] xl:w-[1000px]">
+        <div className="py-10 bg-white xl:max-w-[1080px] xl:w-[1080px]">
           <div>
-            <h1 className="text-[#000000] py-6">Trusted YARDI Partner for North America’s Largest PHA</h1>
+            <h1 className="text-[#000000] py-6 leading-tight text-[26px] md:text-[48px] xl:text-[60px]">Trusted YARDI Partner for North America’s Largest PHA</h1>
           </div>
           <div className="py-2"></div>
           <div>
@@ -128,7 +128,7 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-           <div className="flex flex-row gap-6">
+           <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -174,11 +174,11 @@ export default function Page() {
               <div className="py-6"></div>
 
               <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Challenges</h3>
-              <p>The client faced operational inefficiencies in managing multiple property management platforms, including Yardi Voyager 7, MRI, Voyager, and RealPage:</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
-                <p><li className="pb-4"> <h3 className="inline h3-bold">Skill Silos:</h3> Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li></p>
-                <p><li className="pb-4"> <h3 className="inline h3-bold">Talent Shortage: </h3> Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li></p>
-                <p><li className="pb-4"> <h3 className="inline h3-bold">Lack of Centralized Oversight:</h3> Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li></p>
+              <p className="pb-4 text-black">The client faced operational inefficiencies in managing multiple property management platforms, including Yardi Voyager 7, MRI, Voyager, and RealPage:</p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Skill Silos:</h3> Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li>
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Talent Shortage: </h3> Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li>
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Lack of Centralized Oversight:</h3> Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li>
 
               </ul>
 
@@ -186,13 +186,13 @@ export default function Page() {
 
               <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h3>
 
-              <p className="text-black pb-6">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
+              <p className="text-black pb-4">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
 
-              <ul className="list-decimal marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
-                <p><li className="pb-4"> <h3 className="inline h3-bold">Capability Assessment:  </h3>Conducted a thorough review of the client’s internal team and identified skill gaps.</li></p>
-                <p><li className="pb-4"> <h3 className="inline h3-bold">Team Augmentation:  </h3> Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage.</li></p>
-                <p><li className="pb-4"> <h3 className="inline h3-bold">Collaborative Transition: </h3> Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li></p>
-                <p><li className="pb-4"> <h3 className="inline h3-bold">End-to-End Ownership:</h3> After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Capability Assessment:  </h3>Conducted a thorough review of the client’s internal team and identified skill gaps.</li>
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Team Augmentation:  </h3> Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage.</li>
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Collaborative Transition: </h3> Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li>
+                <li className="pb-4"> <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">End-to-End Ownership:</h3> After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li>
               </ul>
             </div>
           </div>

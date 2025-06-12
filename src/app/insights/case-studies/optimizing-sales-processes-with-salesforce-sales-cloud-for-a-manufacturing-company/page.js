@@ -133,71 +133,61 @@ export default function Page() {
                 className="custom-container"
             >
 
-                <div className="py-10 bg-white">
+                <div className="py-10 bg-white xl:max-w-[1100px] xl:w-[1100px]">
 
-                    <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Streamlining Sales with Salesforce Sales Cloud for Manufacturing</h1>
+                    <h1 className="text-[#000000] py-6  leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">Streamlining Sales with Salesforce Sales Cloud for Manufacturing</h1>
                     <div className="py-4"></div>
-                    <div className="flex items-center justify-between">
-                        <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
-
-                            <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>26 March 2025
-                            <div className="flex flex-col">
-                                <span>8 min read</span>
-                            </div>
-                        </div>
-                        <div className="flex flex-row gap-6 items-center">
-                            <div className="max-w-[40px]">
-                                <a
-                                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >                                    <Image
-                                        src="/images/case-studies/linkedin.svg"
-                                        alt="LinkedIn"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        priority
-                                    />
-                                </a>
-                            </div>
-                            {/* <div className="max-w-[40px]">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=/case-study-3">
-                                    <Image
-                                        src="/images/case-studies/facebook.svg"
-                                        alt="Facebook"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        priority
-                                    />
-                                </a>
-                            </div>  */}
-                            <div className="max-w-[40px]">
-                                <a
-                                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Image
-                                        src="/images/case-studies/twitter.svg"
-                                        alt="Twitter"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        priority
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+                  
+                    <div>
+                           <div className="flex flex-col md:flex-row justify-between  text-black">
+                                                <div className='pb-6'>
+                <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>26 March 2025
+                                         </div>
+                                                <div className="flex flex-col">
+                                                    <span>8 min read</span>
+                                                </div>
+                                            </div>
+                                            <div className="pt-4"></div>
+                                          <div className="flex flex-row gap-6 ml-[-8px]">
+                                      <div className="max-w-[40px]">
+                                        <a
+                                          href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >
+                                          <Image
+                                            src="/images/case-studies/linkedin.svg"
+                                            alt="LinkedIn"
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                            priority
+                                          />
+                                        </a>
+                                      </div>
+                    
+                                      <div className="max-w-[40px]">
+                                        <a
+                                          href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >                      <Image
+                                            src="/images/case-studies/twitter.svg"
+                                            alt="Twitter"
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                            priority
+                                          />
+                                        </a>
+                                      </div>
+                                    </div>
+                                        </div>
                     <div className="py-6"></div>
                     <div>
-                        <div className="max-w-4xl">
+                        <div className="">
 
 
                             <h3 className="h3-bold text-[#0092E0] pb-6">Client Overview</h3>

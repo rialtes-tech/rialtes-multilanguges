@@ -116,12 +116,12 @@ export default function Page() {
       custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
-          <div className="container mx-auto px-0 ">
-            <h1 className="text-[#000000] py-6 xl:max-w-[1026px] xl:w-[1026px] leading-tight">40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability</h1>
+        <div className="py-10 bg-white xl:max-w-[1100px] xl:w-[1100px]">
+          <div className=" ">
+            <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto px-0 ">
+          <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black  xl:max-w-[1084px] xl:w-[1084px]">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>10 June 2025
@@ -131,7 +131,7 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-             <div className="flex flex-row gap-6">
+             <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -169,8 +169,8 @@ export default function Page() {
           </div>
 
           <div className="py-6"></div>
-          <div className="container px-0 mx-auto">
-            <div className="xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <div className="">
 
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Client Profile</h2>
@@ -191,14 +191,16 @@ export default function Page() {
               <div className="py-6"></div>
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-6">Benefits</h2>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
+             <div className="pl-2">
+               <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
                 <li className="pb-4">Reduced claim submission time by 60%, allowing customers to complete requests in under 5 minutes through the intuitive web portal.</li>
                 <li className="pb-4">Address validation via Google API reduced incorrect or incomplete address entries by over 85%, eliminating delays caused by manual corrections.</li>
                 <li className="pb-4">Automated workflows decreased manual processing, freeing up internal teams to focus on more strategic tasks.</li>
                 <li className="pb-4">Real-time SMS and email alerts cut down customer follow-ups by 40%, improving transparency and customer satisfaction.</li>
                 <li className="pb-4">Seamless data sync with SAP and ERP systems enabled near real-time tracking of warranty claims, boosting processing accuracy and cutting claim resolution time by half.</li>
-                <li className="pb-4">A modern LWC-based UI improved user accessibility and reduced training time for internal users by 30%.</li>
+                <li >A modern LWC-based UI improved user accessibility and reduced training time for internal users by 30%.</li>
               </ul>
+             </div>
 
             </div>
           </div>
