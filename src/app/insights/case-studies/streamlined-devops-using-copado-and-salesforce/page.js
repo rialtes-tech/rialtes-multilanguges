@@ -110,22 +110,16 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container "
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">DevOps Transformation using Copado and Salesforce</h1>
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">DevOps Transformation using Copado and Salesforce</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>08 January 2025
               </div>
@@ -134,7 +128,7 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-           <div className="flex flex-row gap-6">
+           <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -172,81 +166,82 @@ export default function Page() {
           </div>
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
+          <div className="">
+            <div className="">
 
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
               <p className="text-black">A prominent manufacturer specializing in innovative building materials for both residential and commercial construction. Their product portfolio includes roofing shingles, decking, railing, and waterproofing solutions. The company is committed to supporting contractors, builders, and homeowners in enhancing building durability, performance, and visual appeal.</p>
               <div className="py-6"></div>
-              <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
               <p className="text-black pb-6">The client was struggling with a fragmented and inefficient deployment process due to a complex, multi-layered environment, which included:</p>
 
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium">
-                <li className="pb-4">Multiple sandboxes across development, QA, pre-production, and production stages.
-                </li>
-                <li className="pb-4">Monthly release cycles supplemented with ad-hoc deployments, leading to delays in delivering new features and fixes.</li>
-                <li className="pb-4">Manual deployment processes that involved cross-functional handoffs, increasing the risk of human error and inconsistencies.
-                </li>
-                <li className="pb-4">Limited version control and a lack of centralized access management make it difficult to maintain a stable, bug-free production environment.
-                </li>
+           <div className="pl-2">
+               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
+                 <p className="text-black pb-4"> <li >Multiple sandboxes across development, QA, pre-production, and production stages.
+                </li></p>
+                <p className="text-black pb-4"> <li >Monthly release cycles supplemented with ad-hoc deployments, leading to delays in delivering new features and fixes.</li></p>
+                  <p className="text-black pb-4"><li >Manual deployment processes that involved cross-functional handoffs, increasing the risk of human error and inconsistencies.
+                </li></p>
+                  <p className="text-black "><li>Limited version control and a lack of centralized access management make it difficult to maintain a stable, bug-free production environment.
+                </li></p>
 
               </ul>
+           </div>
 
 
               <div className="py-6"></div>
-              <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
-              <p className="text-black pb-6">Rialtes introduced a robust DevOps strategy leveraging Copado, a native Salesforce DevOps platform, to streamline and automate the client's deployment lifecycle.</p>
-              <p className="font-bold pb-3">Approach</p>
-              <ul className="list-decimal text-black pl-4 xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>Process Assessment: </strong> Conducted a thorough analysis of the client's existing deployment workflows.</li>
-                <li className="pb-4"><strong>Fit-Gap Analysis:  </strong> Identified gaps between current practices and the capabilities offered by Copado.</li>
-                <li className="pb-4"><strong>Education & Enablement:  </strong> Trained internal teams on DevOps best practices and Copado functionalities.</li>
-                <li className="pb-4"><strong>Deployment Landscape Redesign: </strong> Defined a streamlined deployment architecture tailored to the client’s environment.</li>
-              </ul>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
+              <p className="text-black pb-4">Rialtes introduced a robust DevOps strategy leveraging Copado, a native Salesforce DevOps platform, to streamline and automate the client's deployment lifecycle.</p>
+              <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">Approach</h3>
+           <div className="pl-2">  
+             <ul className="list-decimal marker:text-[#000] text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+               <li className="pb-4" ><h4 className=" inline  xl:text-[19px] text-[17px] md:text-[18px]">Process Assessment: </h4> Conducted a thorough analysis of the client's existing deployment workflows.</li>
+                <li className="pb-4"><h4 className=" inline xl:text-[19px] text-[17px] md:text-[18px]">Fit-Gap Analysis:  </h4> Identified gaps between current practices and the capabilities offered by Copado.</li>
+             <li className="pb-4"><h4 className="inline xl:text-[19px] text-[17px] md:text-[18px]">Education & Enablement:  </h4> Trained internal teams on DevOps best practices and Copado functionalities.</li>
+               <li ><h4 className=" inline xl:text-[19px] text-[17px] md:text-[18px]">Deployment Landscape Redesign: </h4> Defined a streamlined deployment architecture tailored to the client’s environment.</li>
+              </ul></div>
             </div>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <p className="h3-bold pb-6">Technology Implementation</p>
-            <ul className="list-decimal  text-black pl-4 xl:text-[20px] text-[16px]">
-              <li className="pb-4"><strong>CI/CD Pipeline Setup: </strong> Built a simplified and automated DevOps pipeline using Copado.</li>
-              <li className="pb-4"><strong>Tool Integration:  </strong> GitHub for centralized version control.<br />
+          <div className="">
+            <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">Technology Implementation</h3>
+         <div className="pl-2">
+             <ul className="list-decimal marker:text-[#000] text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+              <li className="pb-4"><h4 className="inline xl:text-[19px] text-[17px] md:text-[18px]">CI/CD Pipeline Setup: </h4> Built a simplified and automated DevOps pipeline using Copado.</li>
+                 <li className="pb-4"><h4 className="inline xl:text-[19px] text-[17px] md:text-[18px]">Tool Integration:  </h4> GitHub for centralized version control.<br />
                 Azure DevOps for agile project and release management.
               </li>
-              <li className="pb-4"><strong>Centralized Control:  </strong> Enabled consistent oversight of versioning, access, data, and environment provisioning.</li>
+             <li className=""><h4 className="inline xl:text-[19px] text-[17px] md:text-[18px]">Centralized Control:  </h4> Enabled consistent oversight of versioning, access, data, and environment provisioning.</li>
             </ul>
+         </div>
           </div>
 
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
-                <li className="pb-4">Automated CI/CD pipelines and streamlined workflows cut deployment time by more than half, enabling quicker time-to-market for new features and bug fixes.</li>
-                <li className="pb-4">Transitioning from manual to automated deployments drastically reduced human errors, ensuring more stable and reliable releases.</li>
-                <li className="pb-4">The ability to run minor, major, and bug-fix releases simultaneously improved release frequency and responsiveness to business needs. Resulting in 50% faster release cycles.</li>
-                <li className="pb-4"> GitHub integration provided full traceability and transparency across environments, reducing code conflicts and improving audit readiness.</li>
-                <li className="pb-4">With centralized tools and automated workflows, development and QA teams spent less time on repetitive tasks, increasing DevOps Team Productivity by 40%</li>
-                <li>Fewer deployment errors led to higher environment uptime and fewer rollbacks, ensuring a more stable production environment.</li>
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
+           <div className="pl-2">
+               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
+                 <p className="text-black pb-4"> <li >Automated CI/CD pipelines and streamlined workflows cut deployment time by more than half, enabling quicker time-to-market for new features and bug fixes.</li></p>
+                <p className="text-black pb-4">  <li>Transitioning from manual to automated deployments drastically reduced human errors, ensuring more stable and reliable releases.</li></p>
+                <p className="text-black pb-4">  <li >The ability to run minor, major, and bug-fix releases simultaneously improved release frequency and responsiveness to business needs. Resulting in 50% faster release cycles.</li></p>
+                 <p className="text-black pb-4"> <li > GitHub integration provided full traceability and transparency across environments, reducing code conflicts and improving audit readiness.</li></p>
+                 <p className="text-black pb-4"> <li >With centralized tools and automated workflows, development and QA teams spent less time on repetitive tasks, increasing DevOps Team Productivity by 40%</li></p>
+                 <p className="text-black "> <li>Fewer deployment errors led to higher environment uptime and fewer rollbacks, ensuring a more stable production environment.</li></p>
               </ul>
+           </div>
 
             </div>
           </div>
-          <div className="py-6"></div>
+        
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="py-10 custom-container lg::pr-0"
       >
         <RelatedTopicsCarousel slides={slides} />
 
