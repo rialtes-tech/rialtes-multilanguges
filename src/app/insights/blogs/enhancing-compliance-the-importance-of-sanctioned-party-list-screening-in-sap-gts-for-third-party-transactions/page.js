@@ -279,7 +279,7 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6">
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">
               Role of Sanctioned Party List Screening in SAP GTS for Third-Party
               Transactions
             </h1>
@@ -490,12 +490,11 @@ export default function Page() {
               entities demonstrates a commitment to ethical business practices
               and regulatory adherence. With SAP GTS, organizations can navigate
               the complexities of international trade compliance with confidence
-              and efficiency. As a 
-              <Link
+              and efficiency. As a <Link
                 className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                 href={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=blog&utm_medium=organic"}
               >
-                <span> certified SAP partner </span>
+                <span>certified SAP partner </span>
               </Link>
               with deep expertise in global trade and risk management, we
               empower companies to navigate these processes efficiently,
