@@ -179,19 +179,19 @@ const Home = () => {
         { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
 
     ]
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 3000);
-        return () => clearInterval(interval);
-    }, [slides.length]);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setCurrentSlide((prev) => (prev + 1) % slides.length);
+    //     }, 3000);
+    //     return () => clearInterval(interval);
+    // }, [slides.length]);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            handleNextInsights();
-        }, 5000);
-        return () => clearInterval(interval);
-    }, []);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         handleNextInsights();
+    //     }, 5000);
+    //     return () => clearInterval(interval);
+    // }, []);
 
     return (
         <div>
@@ -214,7 +214,7 @@ const Home = () => {
                 <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
                 {/* hero section */}
                 <div className="relative">
-                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[600px] overflow-hidden relative custom-container">
+                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[500px] overflow-hidden relative custom-container">
                         {slides.map((slide, index) => (
                             <React.Fragment key={index}>
                                 <Link href={slide.link}>
@@ -297,8 +297,8 @@ const Home = () => {
                         <div className='lg:col-span-4 col-span-12 lg:border-r-[2px] border-black-900'></div>
 
                         <div className='lg:col-span-8 col-span-12 2xl:pl-[78px] lg:pl-[42px]'>
-                            <h2 className="4xl:text-[110px] xl:text-[80px] md:text-[60px] sm:text-[46px] font-bold text-[33px] outline-text border-l-[2px] xl:border-none border-gay-300 ml-[34%] sm:ml-[35%] md:ml-[32%] pl-[20px] xl:pl-0 xl:ml-auto mt-[20px]">with Impact</h2>
-                            <h3 className='4xl:text-[32px] xl:text-[28px] text-[26px] text-[#0077CE] xl:mt-[30px] mt-[30px] font-bold leading-tight'>Beyond Business: A Commitment to Change</h3>
+                            <h3 className="4xl:text-[110px] xl:text-[80px] md:text-[60px] sm:text-[46px] font-bold text-[33px] outline-text border-l-[2px] xl:border-none border-gay-300 ml-[34%] sm:ml-[35%] md:ml-[32%] pl-[20px] xl:pl-0 xl:ml-auto mt-[20px] leading-tight">with Impact</h3>
+                            <h2 className='4xl:text-[32px] xl:text-[28px] text-[26px] text-[#0077CE] xl:mt-[30px] mt-[30px] font-bold leading-tight'>Beyond Business: A Commitment to Change</h2>
                             <p className='xl:mt-[27px] mt-[16px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                         </div>
 
@@ -344,9 +344,9 @@ const Home = () => {
                                             <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
                                             <div className={`relative z-10 p-6 text-white`}>
                                                 <p className="mb-5 text-[18px] ">{success.title}</p>
-                                                <h3 className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
+                                                <p className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
                                                     {success.description}
-                                                </h3>
+                                                </p>
                                             </div>
                                         </div>
 
@@ -519,7 +519,7 @@ const Home = () => {
             </section>
 
             <section className='pb-20 mt-20 custom-container'>
-                <ContactForm className='xl:w-[80%] 4xl:w-ful w-full 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                <ContactForm className='xl:w-[80%] 4xl:w-ful w-full 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
             </section>
         </div >
     )
