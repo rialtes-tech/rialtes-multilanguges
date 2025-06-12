@@ -262,9 +262,9 @@ const Header = () => {
     return (
       <li className="py-2">
         <button onClick={onToggle} className="w-full text-left flex justify-between items-center">
-          <h4 className={`text-sm ${expanded ? 'text-[#0092E0]' : ''}`}>
+          <p className={`text-sm font-bold ${expanded ? 'text-[#0092E0]' : ''}`}>
             {label}
-          </h4>
+          </p>
           <span>
             {expanded ? (
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
@@ -1598,7 +1598,7 @@ const Header = () => {
                 ))}
                 <Link onClick={toggleMenu} href='/contact-us'>
 
-                  <h4 className="text-sm mt-3">Contact Us</h4>
+                  <p className="text-sm mt-3 font-bold">Contact Us</p>
 
                 </Link>
 

@@ -150,9 +150,9 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
     return (
         <section className={ (padding ? padding : '')}>
-            <h2 className={className}>
+            <p className={`font-normal ${className}`}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
-            </h2>
+            </p>
 
             {subtitle && (
                 <p className="mt-8 leading-tight xl:text-[20px] text-[16px] xl:w-[60%] font-regular">
