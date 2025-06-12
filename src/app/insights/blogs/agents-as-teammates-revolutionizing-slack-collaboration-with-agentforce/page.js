@@ -298,7 +298,7 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 ">
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight ">
               Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0
             </h1>
           </div>
@@ -542,8 +542,7 @@ export default function Page() {
                 the Agentforce platform. With Rialtes, enterprises can ensure
                 their <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.netlify.app/solutions/artificial-intelligence/salesforce-agentforce-consulting?utm_source=blog&utm_medium=organic"}><span>Agentforce deployments</span></Link> are driven by reliable, actionable
                 data, maximizing the potential of intelligent automation. Get in
-                touch with us at
-                <Link className="underline" href={"mailto:sales@rialtes.com"}>
+                touch with us at <Link className="underline" href={"mailto:sales@rialtes.com"}>
                   <span className="font-normal">sales@rialtes.com</span>
                 </Link>
               </p>
