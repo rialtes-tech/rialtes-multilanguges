@@ -7,7 +7,7 @@ const AutoTimerSlider = () => {
     return (
         <div className='relative'>
 
-            <div className="carousel mt-10 z-0 xl:h-[1100px] h-[851px]">
+            <div className="carousel mt-[48px] z-0 lg:h-[1000px] md:h-[950px] h-[851px]">
                 <div className="list">
 
                     {/* <div className="item"
