@@ -7,7 +7,7 @@ const AutoTimerSlider = () => {
     return (
         <div className='relative'>
 
-            <div className="carousel mt-10 z-0 xl:h-[1100px] h-[851px]">
+            <div className="carousel mt-[48px] z-0 lg:h-[1000px] md:h-[950px] h-[851px]">
                 <div className="list">
 
                     {/* <div className="item"
@@ -126,11 +126,10 @@ const AutoTimerSlider = () => {
 
             </div>
             <div className="mt-[-40px] absolute left-1/2 transform -translate-x-1/2 lg:left-auto lg:transform-none lg:right-[200px]">
-                <button className="bg-[#134874] xl:text-[20px] text-[14px] hover:bg-white hover:text-[#134874] border border-solid border-[#134874] font-semibold text-white xl:py-5 py-4 px-8 transition duration-300">
-                    <Link href="/industry">View All Industry</Link>
+                <button className="bg-[#006FBE] xl:text-[20px] text-[14px] hover:bg-white hover:text-[#006FBE] border border-solid border-[#006FBE] font-semibold text-white xl:py-5 py-4 px-8 transition duration-300">
+                    <Link href="/industry">View All Industries</Link>
                 </button>
             </div>
-
         </div>
 
     )

@@ -122,75 +122,89 @@ export default function DataCloud() {
 
   return (
     <div className="min-h-screen">
-        <Seo
+      <Seo
         title="Salesforce Data Cloud Implementation and Consulting Services | Rialtes"
         description="Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes."
         keywords="home, website, welcome"
         canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />
 
-   <section className="relative  xl:pb-20">
-        <div>
+      {/* hero section */}
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
           <Image
             src="/images/data-cloud/salesforce-data-cloud-header.webp"
-            alt=""
+            alt="desktop banner"
             fill
+            style={{ objectFit: "cover", objectPosition: "55% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/data-cloud/salesforce-data-cloud-header.webp"
+            alt="mobile banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
           />
         </div>
-        <div
-          className="relative"
-        >
-          <div className="grid xl:grid-cols-12 grid-cols-1  mt-20">
-            <div className="xl:col-span-5"></div>
-            <div className="xl:col-span-6 col-span-12 xs:pl-[10rem] xl:pl-0 md:pl-[18rem]">
-               <h3 className="xl:test-[24px] text-[18px] font-bold mb-2 xl:mt-32 mt-5">
+
+        <div className="relative h-full custom-container flex items-center text-[#000000]">
+          <div className="grid grid-cols-12 w-full">
+
+            <div className="4xl:col-span-5 md:col-span-4 col-span-4">
+            </div>
+            <div className="4xl:col-span-7 md:col-span-8 col-span-8">
+              <h3 className="text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
                 Data Cloud
               </h3>
-              <h1 className="leading-tight mt-5">
-                Harness the Potential of Salesforce Data Cloud
+              <h1 className="text-[26px] leading-tight xl:text-[44px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+                Harness the Potential <br /> of Salesforce Data Cloud
               </h1>
-              <h3 className="font-bold leading-tight mt-10 xl:block hidden">
-               Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
+              <h3 className="font-bold leading-tight mt-10 xl:text-[26px] 4xl:text-[30px] text-[20px] md:block hidden">
+                Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
               </h3>
-              <div className="mb-4 relative overflow-hidden mt-8">
-                <div className="w-full">
-                  <Image
-                    src="/images/data-cloud/salesforce-partner.webp"
-                    alt="Leadership Team"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "25%",
-                      height: "25%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </div>
+              <div className="w-full mt-10">
+                <Image
+                  src="/images/data-cloud/salesforce-partner.webp"
+                  alt="Leadership Team"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{
+                    width: "30%",
+                    height: "30%",
+                    objectFit: "cover",
+                  }}
+                  priority
+                />
               </div>
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
-      <div
-        className="custom-container"
-      >
+      {/* page description */}
+      <div className="custom-container">
         <section className="pt-16 bg-white">
           <div className="mx-auto">
-            <h2 className="text-[#000000] md:max-w-xl xl:max-w-4xl mb-8">
+            <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] mb-8">
               What Is Salesforce Data Cloud?
             </h2>
-            <p className="md:max-w-xl xl:max-w-4xl mb-8">
+            <p className="md:max-w-xl xl:max-w-4xl mb-8 4xl:text-[22px] xl:text-[18px] text-[16px]">
               Businesses are flooded with vast amounts of data from an
               increasing array of systems, sources, and platforms. The sheer
               scale and diversity of this data can be overwhelming, leaving
               organizations to manage and navigate through countless records
               daily.
             </p>
-            <p className="md:max-w-xl xl:max-w-4xl">
+            <p className="md:max-w-xl xl:max-w-4xl 4xl:text-[22px] xl:text-[18px] text-[16px]">
               Salesforce Data Cloud is designed to assist businesses in
               consolidating customer data from various touchpoints. Combining
               data from multiple sources helps create a unified 360-degree view
@@ -201,19 +215,18 @@ export default function DataCloud() {
         </section>
       </div>
 
-      <div
-        className="custom-container"
-      >
-        <section className="py-8 md:max-w-3xl xl:max-w-6xl my-10">
-          <h2 className="text-[#000000] max-w-4xl mb-10 leading-tight">
+      {/* createing section */}
+      <div className="custom-container">
+        <section className="py-8 my-10">
+          <h2 className="text-[#000000] lg:w-[70%] xl:w-[76%] 4xl:w-[90%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
             Creating Personalized & Impactful Customer Experiences for Your
             Business
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 xl:mt-[67px] mt-[48px]">
             {featureBoxes.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white border hover:bg-[#D9F2FF] p-12 flex flex-col h-full"
+                className="bg-white border hover:bg-[#D9F2FF] 4xl:p-12 p-8 flex flex-col h-full"
               >
                 <div className="flex flex-col items-start mb-4">
                   <div className="w-16 h-16 flex-shrink-0 mb-4">
@@ -227,62 +240,61 @@ export default function DataCloud() {
                       />
                     </div>
                   </div>
-                  <h3 className="text-[#1F3F69] mt-2">{feature.title}</h3>
+                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px]">{feature.title}</h3>
                 </div>
-                <p className="text-[#000000] mt-2">{feature.description}</p>
+                <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[16px]">{feature.description}</p>
               </div>
             ))}
           </div>
-        <LearnMore/>
+          <LearnMore />
         </section>
       </div>
 
       {/* Stats Section */}
-      <section className="bg-gray-200 py-8">
+      <section className="bg-gray-200 xl:pt-[83px] xl:pb-[76px] py-[40px]">
         <div
           className="custom-container"
         >
-          <div className="max-w-5xl">
-            <h3 className="text-left text-2xl md:text-3xl mb-6 font-[300] max-w-[700px]">
+          <div className="">
+            <h3 className="text-left 4xl:text-[36px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[900px]">
               Unite Your Entire Organization around Delivering an Enhanced
               Customer Experience.
             </h3>
-            <div className="flex flex-wrap justify-between gap-8 md:gap-16 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 xl:mt-[64px] mt-[46px]">
               {stats.map((stat, index) => (
-                <div key={index} className="text-left  max-w-52">
+                <div key={index} className="text-left">
                   <div className="mb-4">
                     <span className="text-4xl md:text-5xl font-bold text-[#0092E0]">
                       {stat.percentage}
                     </span>
                   </div>
-                  <p className="text-[#000000]">{stat.description}</p>
+                  <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] lg:w-[70%] md:w-[90%] w-[90%]">{stat.description}</p>
                 </div>
               ))}
             </div>
+
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <div
-        className="custom-container"
-      >
-        <section className="py-12 md:max-w-3xl xl:max-w-7xl">
-          <h2 className="text-left mb-10 leading-tight">
+      <div className="custom-container">
+        <section className="pb-12 pt-20">
+          <h2 className="text-left mb-10 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] ">
             Our Salesforce Data Cloud Services
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20 xl:gap-28">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20 xl:gap-12 xl:gap-y-[60px] mt-12">
             {services.map((service, index) => (
               <div
                 key={index}
-                // className="flex flex-col"
+                className="flex flex-col h-full"
                 onMouseEnter={handleMouseEnter(service.id)}
                 onMouseLeave={handleMouseLeave(service.id)}
               >
-                <div className="h-48 bg-gray-300 mb-4 relative overflow-hidden">
+                <div className=" mb-4">
                   <div
-                    className="w-full"
+                    className="w-full h-full"
                     style={{
                       transition: "transform 0.3s ease",
                       transform:
@@ -294,19 +306,19 @@ export default function DataCloud() {
                       alt="Leadership Team"
                       width={0}
                       height={0}
-                      sizes="100vw"
                       style={{
-                        width: "100%",
-                        height: "100%",
                         objectFit: "cover",
                       }}
+                      className="h-full w-full"
                       priority
                     />
                   </div>
                 </div>
-                <h3 className="h3-bold mb-3">{service.title}</h3>
-                <p className="text-[#000000]">{service.description}</p>
-              <LearnMore/>
+                <h3 className="h3-bold mb-3 4xl:text-[26px] xl:text-[22px] text-[18px] mt-6">{service.title}</h3>
+                <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] mb-6">{service.description}</p>
+                <div className="mt-auto">
+                  <LearnMore />
+                </div>
               </div>
             ))}
           </div>
@@ -317,7 +329,7 @@ export default function DataCloud() {
       <div
         className="py-20 custom-container"
       >
-        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight"/>
+        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] 4xl:w-[80%] xl:w-[70%]" />
       </div>
     </div>
   );

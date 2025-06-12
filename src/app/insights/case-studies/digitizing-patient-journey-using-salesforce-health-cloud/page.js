@@ -4,8 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-const schemaData={
-  
+const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
@@ -29,7 +29,7 @@ const schemaData={
   },
   "articleSection": "Case Studies",
   "datePublished": "2024-08-16"
-  
+
 }
 const slides = [
   {
@@ -86,7 +86,7 @@ const slides = [
 ];
 
 export default function Page() {
-   const fullUrl = "https://www.rialtes.com/insights/blogs/digitizing-patient-journey-using-salesforce-health-cloud";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/digitizing-patient-journey-using-salesforce-health-cloud";
 
   return (
     <div className="min-h-screen bg-white">
@@ -98,7 +98,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/"
       />
 
-        <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
@@ -114,22 +114,16 @@ export default function Page() {
       </section>
 
       <section
-        className="
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Digitizing the Patient Journey Using Salesforce Health Cloud</h1>
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <h1 className="text-[#000000] py-6  leading-tight text-[26px] md:text-[48px] xl:text-[60px]">Digitizing the Patient Journey Using Salesforce Health Cloud</h1>
           </div>
           <div className="py-4"></div>
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-1/2">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Healthcare and Life Sciences</span> <span className='text-[#ACACAC]'> | </span>16 August 2024
               </div>
@@ -138,113 +132,123 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-              <div className="flex flex-col">
-                           <div className="flex flex-row gap-6">
-                             <div className="max-w-[40px]">
-                               <a
-                                 href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                 target="_blank"
-                                 rel="noopener noreferrer"
-                               >
-                                 <Image
-                                   src="/images/case-studies/linkedin.svg"
-                                   alt="LinkedIn"
-                                   width={0}
-                                   height={0}
-                                   sizes="100vw"
-                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                   priority
-                                 />
-                               </a>
-                             </div>
-                 
-                             <div className="max-w-[40px]">
-                               <a
-                                 href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                 target="_blank"
-                                 rel="noopener noreferrer"
-                               >                      <Image
-                                   src="/images/case-studies/twitter.svg"
-                                   alt="Twitter"
-                                   width={0}
-                                   height={0}
-                                   sizes="100vw"
-                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                   priority
-                                 />
-                               </a>
-                             </div>
-                           </div>
-                         </div>
+            <div className="flex flex-col ml-[-8px]">
+              <div className="flex flex-row gap-6">
+                <div className="max-w-[40px]">
+                  <a
+                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/images/case-studies/linkedin.svg"
+                      alt="LinkedIn"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      priority
+                    />
+                  </a>
+                </div>
+
+                <div className="max-w-[40px]">
+                  <a
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >                      <Image
+                      src="/images/case-studies/twitter.svg"
+                      alt="Twitter"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      priority
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Client Profile</h3>
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
               <p className="text-black">A global medical technology company dedicated to improving lives through innovative cardiovascular and endovascular care. The company designs and manufactures pacemakers, defibrillators, and remote monitoring systems used by healthcare professionals worldwide. Their mission is to support better patient outcomes by combining advanced medical technology with seamless digital experiences. </p>
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Problem or Challenge </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
               <p className="text-black pb-6">The company had recently introduced a new patient journey system, but it lacked the critical functionality needed to deliver a truly connected and engaging healthcare experience.</p>
 
-              <p className="text-black pb-6"><strong>Limited digital engagement: </strong> Patients relied on phone calls, physical visits, and in- person educational sessions for all interactions.</p>
-              <p className="text-black pb-6"><strong>No real-time communication:  </strong> The system lacked virtual touchpoints, making it difficult for patients to contact healthcare providers outside of clinic visits.</p>
-              <p className="text-black pb-6"><strong>No self-service data input: </strong> Patients couldn’t submit important health data—like sleep patterns, activity levels, or medication usage, digitally.</p>
-              <p className="text-black pb-6"><strong>Lack of real-time monitoring: </strong> Providers had no visibility into whether patients were adhering to their therapy plans between visits.</p>
+              <div className="pb-4 text-black font-medium xl:text-[20px] text-[16px] md:text-[19px] ">
+                <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Limited digital engagement </h3> <span className=""> : Patients relied on phone calls, physical visits, and in- person educational sessions for all interactions.</span>
+              </div>
+
+              <div className="pb-4 text-black font-medium xl:text-[20px] text-[16px] md:text-[19px] ">
+                <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">No real-time communication  </h3> <span> : The system lacked virtual touchpoints, making it difficult for patients to contact healthcare providers outside of clinic visits.</span></div>
+
+              <div className="pb-4 text-black font-medium xl:text-[20px] text-[16px] md:text-[19px] ">
+                <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">No self-service data input </h3><span> : Patients couldn’t submit important health data—like sleep patterns, activity levels, or medication usage, digitally.</span></div>
+
+              <div className=" text-black font-medium xl:text-[20px] text-[16px] md:text-[19px] ">
+                <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Lack of real-time monitoring </h3><span> : Providers had no visibility into whether patients were adhering to their therapy plans between visits.</span></div>
 
 
 
               <div className="py-6"></div>
 
-              <h3 className="h3-bold text-[#0092E0] pb-6">Solutions </h3>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
 
               <p className="text-black pb-6">The client partnered with Rialtes to modernize the patient experience by building a fully integrated, digital-first solution.</p>
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>Mobile Application: </strong> Developed for Android and iOS, the app connected seamlessly with Salesforce Health Cloud  to serve as a central hub for patient engagement.</li>
-                <li className="pb-4"><strong>Self-Guided Onboarding:  </strong> Patients could easily register and access a personalized dashboard to view therapy progress, action items, and relevant data.</li>
-                <li className="pb-4"><strong>Data Submission & Tracking:  </strong> Patients could log vital information—such as sleep, discomfort levels, and medication adherence, directly in the app. Integration with wearable devices (e.g., Apple Watch) enabled automatic collection of metrics like heart rate and step count.</li>
-                <li className="pb-4"><strong>Telehealth & Messaging: </strong> Enabled secure, real-time communication between patients and providers for queries, updates, and appointment scheduling.</li>
-                <li className="pb-4"><strong>Gamification & Engagement: </strong> Patients were encouraged to submit data and complete health-related tasks through gamified elements, improving long-term adherence.</li>
-                <li className="pb-4"><strong>Smart Notifications: </strong> Automated reminders prompted patients to share health data consistently, ensuring ongoing visibility for care teams.</li>
-                <li className="pb-4"><strong>In-App Education: </strong> Patients could access videos and articles to understand their conditions and therapies. Providers could monitor content engagement and deliver personalized follow-up materials.</li>
+              <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                  <li className="pb-4" ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Mobile Application </h3> : Developed for Android and iOS, the app connected seamlessly with Salesforce Health Cloud  to serve as a central hub for patient engagement.</li>
+                   <li className="pb-4"  ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Self-Guided Onboarding </h3> : Patients could easily register and access a personalized dashboard to view therapy progress, action items, and relevant data.</li>
 
-              </ul>
+                  <li className="pb-4" ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Data Submission & Tracking </h3> : Patients could log vital information—such as sleep, discomfort levels, and medication adherence, directly in the app. Integration with wearable devices (e.g., Apple Watch) enabled automatic collection of metrics like heart rate and step count.</li>
+
+                  <li className="pb-4"  ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Telehealth & Messaging </h3> : Enabled secure, real-time communication between patients and providers for queries, updates, and appointment scheduling.</li>
+
+                  <li className="pb-4" ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Gamification & Engagement </h3> : Patients were encouraged to submit data and complete health-related tasks through gamified elements, improving long-term adherence.</li>
+                <li className="pb-4" ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Smart Notifications </h3> : Automated reminders prompted patients to share health data consistently, ensuring ongoing visibility for care teams.</li>
+
+                 <li ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">In-App Education </h3> : Patients could access videos and articles to understand their conditions and therapies. Providers could monitor content engagement and deliver personalized follow-up materials.</li>
+
+                </ul>
+              </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto">
-            <div className="max-w-4xl">
-              <h3 className="h3-bold text-[#0092E0] pb-6">Benefits</h3>
+          <div className="">
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
-              <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
-                <li className="pb-4">30% increase in therapy adherence through gamified engagement and automated reminders.
-                </li>
-                <li className="pb-4">40% improvement in data submission rates, enabling more proactive care.</li>
-                <li className="pb-4">Real-time visibility for providers, improving coordination and faster intervention for at-risk patients.
-                </li>
-                <li className="pb-4">50% reduction in phone-based support as self-service and digital communication became primary channels.
-                </li>
-                <li className="pb-4">Enhanced patient satisfaction with personalized, on-the-go access to therapy information and education.
-                </li>
-                <li>Scalable architecture, ready for future enhancements like AI-driven insights and broader wearable device integration.</li>
-              </ul>
+              <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                  <p className="text-black pb-4"><li >30% increase in therapy adherence through gamified engagement and automated reminders.
+                  </li></p>
+                  <p className="text-black pb-4"><li >40% improvement in data submission rates, enabling more proactive care.</li></p>
+                  <p className="text-black pb-4"> <li >Real-time visibility for providers, improving coordination and faster intervention for at-risk patients.
+                  </li></p>
+                  <p className="text-black pb-4"> <li >50% reduction in phone-based support as self-service and digital communication became primary channels.
+                  </li></p>
+                  <p className="text-black pb-4"> <li >Enhanced patient satisfaction with personalized, on-the-go access to therapy information and education.
+                  </li></p>
+                  <p className="text-black pb-4"> <li>Scalable architecture, ready for future enhancements like AI-driven insights and broader wearable device integration.</li></p>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="py-6"></div>
+
         </div>
       </section>
 
       {/* Latest Blogs */}
       <div
-        className="py-10
-        container
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-        sm:mx-5 sm:w-[calc(100%-40px)]
-        xs:mx-4 xs:w-[calc(100%-32px)]"
+        className="py-10 custom-container lg:pr-0"
       >
         <RelatedTopicsCarousel slides={slides} />
 

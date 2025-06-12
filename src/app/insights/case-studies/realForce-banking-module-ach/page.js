@@ -116,7 +116,7 @@ export default function Page() {
 
         <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
           <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight">Automating ACH and Journal Entries with Our Exelona Banking Module</h1>
+            <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">Automating ACH and Journal Entries with Our Exelona Banking Module</h1>
           </div>
           <div className="py-4"></div>
           <div className="">
@@ -129,7 +129,7 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-           <div className="flex flex-row gap-6">
+           <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -176,19 +176,14 @@ export default function Page() {
               <div className="py-6"></div>
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
               <p className="text-black pb-6">The client was operating on a legacy banking application hosted in a non-standard, outdated environment (referred to as a "dark net" system), which presented several challenges:</p>
-              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 font-medium xl:text-[20px] text-[16px]">
-                <li className="pb-4"><strong>Manual Processes: </strong> Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li>
-                <li className="pb-4"><strong>Inefficient Reconciliation: </strong> Bank reconciliation was time-consuming and lacked visibility and automation.</li>
-                <li className="pb-4"><strong>Lack of Usability: </strong>The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li>
-                <li className="pb-4"><strong>Scalability Issues: </strong>The legacy platform was not responsive or scalable enough to support future growth or integrations.</li>
-              </ul> */}
-  <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h3 className=" h3-bold inline">Manual Processes </h3>: Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li></p>
+            
+  <div className="pl-2">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+        <li className="pb-4"><h3 className=" h3-bold inline  xl:text-[20px] text-[17px] md:text-[19px]">Manual Processes </h3>: Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing.</li>
 
-                <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Inefficient Reconciliation </h3>: Bank reconciliation was time-consuming and lacked visibility and automation.</li></p>
-                 <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Lack of Usability </h3>: The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li></p>
-               <p className="text-black "><li><h3 className=" h3-bold inline ">Scalability Issues </h3>: The legacy platform was not responsive or scalable enough to support future growth or integrations.</li></p>
+              <li className="pb-4"><h3 className=" h3-bold inline  xl:text-[20px] text-[17px] md:text-[19px]">Inefficient Reconciliation </h3>: Bank reconciliation was time-consuming and lacked visibility and automation.</li>
+        <li className="pb-4"><h3 className=" h3-bold inline  xl:text-[20px] text-[17px] md:text-[19px]">Lack of Usability </h3>: The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs.</li>
+           <li><h3 className=" h3-bold inline  xl:text-[20px] text-[17px] md:text-[19px]">Scalability Issues </h3>: The legacy platform was not responsive or scalable enough to support future growth or integrations.</li>
               
               </ul>
             </div>
@@ -198,16 +193,18 @@ export default function Page() {
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
               <p className="text-black pb-6">Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:</p>
             
-               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h3 className="inline h3-bold">ACH Automation </h3>:  Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li></p>
+           <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">ACH Automation </h3>:  Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America.</li>
 
-                <p className="text-black pb-4 "><li><h3 className="inline h3-bold">Automated Journal Entries </h3>: ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li></p>
+           <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Automated Journal Entries </h3>: ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system. </li>
 
-                 <p className="text-black pb-4 "><li><h3 className="inline h3-bold">Scheduled File Transfers </h3>: Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention. </li></p>
-               <p className="text-black pb-4"><li><h3 className="inline h3-bold">Unified Platform </h3>: Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li></p>
-                  <p className="text-black "><li><h3 className="inline h3-bold">Real-Time Accounting Integration </h3>: Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li></p>
+             <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Scheduled File Transfers </h3>: Scheduled File Transfers: End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention. </li>
+     <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Unified Platform </h3>: Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience.</li>
+               <li><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Real-Time Accounting Integration </h3>: Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility</li>
               
               </ul>
+           </div>
             </div>
           </div>
           <div className="py-6"></div>
@@ -216,7 +213,7 @@ export default function Page() {
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
            
               <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
                 <p className="text-black pb-4"> <li>Improved UI enabled faster, more accurate data entry and streamlined user workflows.</li></p>
                 <p className="text-black pb-4"> <li>Unified platform supports future integration of additional banking or financial tools.</li></p>
                 <p className="text-black pb-4"><li>Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.</li></p>

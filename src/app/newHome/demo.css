@@ -7,7 +7,6 @@
   --transition-time: 1.2s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-
 /* carousel */
 .carousel {
   width: 100%;
@@ -353,8 +352,8 @@
   }
 
   .carousel .list .item {
-    width: 155px;
-    height: 168px;
+    width: 220px;
+    height: 220px;
     bottom: 135px;
   }
 
@@ -379,12 +378,12 @@
 
   .carousel .list .item:nth-child(4) {
     transition-delay: 0.1s;
-    left: calc(var(--left-position) + 172px);
+    left: calc(var(--left-position) + 242px);
   }
 
   .carousel .list .item:nth-child(5) {
     transition-delay: 0.2s;
-    left: calc(var(--left-position) + 350px);
+    left: calc(var(--left-position) + 490px);
   }
 
   .carousel .list .item:nth-child(6) {
@@ -394,7 +393,7 @@
 
   .carousel .list .item:nth-child(n + 7) {
     transition-delay: 0.4s;
-    left: calc(var(--left-position) + 800px);
+    left: calc(var(--left-position) + 740px);
   }
 
   .list .item:nth-child(1) .content .title,
@@ -402,9 +401,7 @@
     font-size: 23px !important;
     margin-bottom: 20px;
   }
-  .carousel .list .item:nth-child(n+6) {
-    display: none !important;
-  }
+
 }
 
 
@@ -420,8 +417,8 @@
   }
 
   .carousel .list .item {
-    width: 155px;
-    height: 168px;
+    width: 255px;
+    height: 268px;
     bottom: 135px;
   }
 
@@ -446,22 +443,22 @@
 
   .carousel .list .item:nth-child(4) {
     transition-delay: 0.1s;
-    left: calc(var(--left-position) + 172px);
+    left: calc(var(--left-position) + 272px);
   }
 
   .carousel .list .item:nth-child(5) {
     transition-delay: 0.2s;
-    left: calc(var(--left-position) + 350px);
+    left: calc(var(--left-position) + 550px);
   }
 
   .carousel .list .item:nth-child(6) {
     transition-delay: 0.3s;
-    left: calc(var(--left-position) + 1120px);
+    left: calc(var(--left-position) + 1090px);
   }
 
   .carousel .list .item:nth-child(n + 7) {
     transition-delay: 0.4s;
-    left: calc(var(--left-position) + 800px);
+    left: calc(var(--left-position) + 820px);
   }
 
   .list .item:nth-child(1) .content .title,
@@ -469,9 +466,7 @@
     font-size: 23px !important;
     margin-bottom: 20px;
   }
-  .carousel .list .item:nth-child(n+6) {
-    display: none !important;
-  }
+
 }
 
 /* X-Large devices (large desktops, between 1200px and 1399px) */
@@ -485,10 +480,33 @@
   .list .item:first-child .content .des,
   .list .item:nth-child(2) .content .des {
     width: 360px !important;
+    font-size: 17px;
   }
 
   .carousel .list .item:nth-child(n+6) {
     display: none !important;
+  }
+
+  .list .item:nth-child(1) .content .title,
+  .list .item:nth-child(2) .content .title {
+    font-size: 20px !important;
+    margin-bottom: 20px;
+  }
+
+  .carousel .list .item {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .carousel .list .item:nth-child(4) {
+    transition-delay: 0.1s;
+    left: calc(var(--left-position) + 330px);
+  }
+
+  .carousel .list .item:nth-child(5) {
+    transition-delay: 0.2s;
+    left: calc(var(--left-position) + 650px);
   }
 }
 
@@ -503,12 +521,18 @@
   .list .item:first-child .content .des,
   .list .item:nth-child(2) .content .des {
     width: 360px !important;
+    font-size: 18px;
   }
 
   .carousel .list .item:nth-child(n+6) {
     display: none !important;
   }
 
+  .list .item:nth-child(1) .content .title,
+  .list .item:nth-child(2) .content .title {
+    font-size: 23px !important;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width:1600px) {

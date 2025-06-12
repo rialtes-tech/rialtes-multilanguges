@@ -115,9 +115,9 @@ export default function Page() {
 
         <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
           <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight">Transforming Omnichannel Case Management Using Salesforce Service Cloud</h1>
+            <h1 className="text-[#000000] py-6 leading-tight text-[26px] md:text-[48px] xl:text-[60px]">Transforming Omnichannel Case Management Using Salesforce Service Cloud</h1>
           </div>
-          <div className="py-4"></div>
+        
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
@@ -128,7 +128,7 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-6 ml-[-8px]">
               <div className="max-w-[40px]">
                 <a
                   href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -176,8 +176,8 @@ export default function Page() {
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
 
               <p className="text-black pb-2">The client faced persistent challenges in delivering consistent, high-quality customer service across global regions due to a fragmented, legacy support system. Key issues included:</p>
-            
-              <div className="pl-3">
+
+              <div className="pl-2">
                 <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
                   <p className="text-black pb-4"> <li>Disjointed customer interaction data across platforms, making it hard to track service history.</li></p>
                   <p className="text-black pb-4"> <li>Lack of visibility into historical case data and customer behavior.</li></p>
@@ -193,27 +193,26 @@ export default function Page() {
               <p className="text-black pb-4">Rialtes implemented Salesforce Service Cloud and Experience Cloud to centralize customer support and create a scalable, future-ready solution. Key elements of the implementation:</p>
 
 
-              <div className="pl-3">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                  <p className="text-black pb-4"> <li><h3 className=" h3-bold inline">Unified Support Platform </h3>: All customer interactions, across internal teams, distributors, and OEMs, are now managed on a single platform.</li></p>
+              <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Unified Support Platform </h3>: All customer interactions, across internal teams, distributors, and OEMs, are now managed on a single platform.</li>
 
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Self-Service Portal </h3>: Distributors and OEMs can submit and track cases, and access a robust knowledge base 24/7.</li></p>
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Self-Service Portal </h3>: Distributors and OEMs can submit and track cases, and access a robust knowledge base 24/7.</li>
+                  <li><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Real-Time Communication </h3>: Built-in chat and messaging facilitate direct conversations between support teams and customers.</li>
 
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline">Real-Time Communication </h3>: Built-in chat and messaging facilitate direct conversations between support teams and customers.</li></p>
-
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Knowledge Consolidation </h3>:  Legacy support content was migrated into a centralized, searchable repository.</li></p>
-
-
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Einstein AI Assistance </h3>:  AI-driven recommendations help customers resolve issues faster and reduce case volume.</li></p>
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] ">Knowledge Consolidation </h3>:  Legacy support content was migrated into a centralized, searchable repository.</li>
 
 
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Automated Case Assignment </h3>:  Routing logic based on geography and expertise ensures timely and accurate responses.</li></p>
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Einstein AI Assistance </h3>:  AI-driven recommendations help customers resolve issues faster and reduce case volume.</li>
 
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Cross-Continent Collaboration </h3>:  Support teams can now share knowledge and updates effortlessly across time zones.</li></p>
 
-                  <p className="text-black pb-4 "><li><h3 className=" h3-bold inline ">Segmented Content Delivery </h3>: Targeted release of support updates and critical info to specific customer groups.</li></p>
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Automated Case Assignment </h3>:  Routing logic based on geography and expertise ensures timely and accurate responses.</li>
 
-                  <p className="text-black  "><li><h3 className=" h3-bold inline ">Data Migration & Insights </h3>:  Historical case data migration enables in-depth trend analysis and smarter decision-making.</li></p>
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Cross-Continent Collaboration </h3>:  Support teams can now share knowledge and updates effortlessly across time zones.</li>
+
+                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] ">Segmented Content Delivery </h3>: Targeted release of support updates and critical info to specific customer groups.</li>
+
+                  <li ><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Data Migration & Insights </h3>:  Historical case data migration enables in-depth trend analysis and smarter decision-making.</li>
                 </ul>
               </div>
 
@@ -228,9 +227,9 @@ export default function Page() {
             <div className="">
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
 
-           
-              <div className="pl-3">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+
+              <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
                   <p className="text-black pb-4"> <li>60% reduction in average case resolution time, thanks to automation and AI assistance.</li></p>
                   <p className="text-black pb-4"> <li>30% increase in customer self-service adoption, reducing support workload.</li></p>
                   <p className="text-black pb-4"><li>Enhanced visibility into the complete customer journey, enabling targeted upselling and proactive service.</li></p>
@@ -242,7 +241,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-        
+
         </div>
       </section>
 

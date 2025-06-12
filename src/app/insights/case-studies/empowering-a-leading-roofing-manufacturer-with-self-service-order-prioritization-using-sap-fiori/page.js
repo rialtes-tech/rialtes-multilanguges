@@ -100,12 +100,12 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <HeroSection mobimg="/images/case-studies/Sample and literature Request_Case study thumb.webp" deskimg="/images/case-studies/fiori-banner.webp" />
+            <HeroSection mobimg="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp" deskimg="/images/case-studies/fiori-banner.webp" />
 
             <section className="custom-container">
                 <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
                     <div>
-                        <h1 className="text-[#000000] py-6 leading-tight">150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization</h1>
+                        <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization</h1>
                     </div>
                     <div className="py-4"></div>
                     <div>
@@ -118,7 +118,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="pt-4"></div>
-                      <div className="flex flex-row gap-6">
+                      <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -174,7 +174,7 @@ export default function Page() {
 
                             <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions</h2>
 
-                            <p className="text-black ">Rialtes partnered with the client to streamline and digitize their order prioritization process. We developed a custom SAP Fiori app that enabled customers to independently access their open orders and select which orders needed prioritization. Key features of the solution contained: </p>
+                            <p className="text-black pb-4 ">Rialtes partnered with the client to streamline and digitize their order prioritization process. We developed a custom SAP Fiori app that enabled customers to independently access their open orders and select which orders needed prioritization. Key features of the solution contained: </p>
 
                             <div className="pl-2">
                                 <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
@@ -191,11 +191,11 @@ export default function Page() {
 
                             <p className="text-black pb-6 mt-2">The implementation of the Fiori app transformed sales order management for our clients, delivering measurable improvements across operations:</p>
                             <div className="pl-2">
-                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                                    <p className="text-black pb-4"><li><span className="font-bold">Improved Efficiency: </span>The manual adjustment of over 150 sales orders daily was eliminated. This saved the sales team approximately 25+ hours per week, allowing them to focus more on customer engagement and strategic activities.</li></p>
-                                    <p className="text-black pb-4">  <li><span className="font-bold">Customer Empowerment: </span>With direct control over order prioritization via the Fiori app, customers gained transparency and flexibility, leading to a 20% increase in customer satisfaction and a 30% drop in support queries related to order status and changes.</li></p>
-                                    <p className="text-black pb-4"> <li><span className="font-bold">Optimized Planning: </span>Real-time visibility into order data enabled smarter alignment of material allocation and production planning with customer demand and plant capacity, improving planning accuracy by 40% and reducing stock outs and missed deliveries by 20%.</li></p>
-                                    <p className="text-black ">  <li><span className="font-bold">Reduced Errors: </span>The removal of manual data entry decreased order processing errors by over 80%, enhancing accuracy and helping achieve a 15% improvement in on-time and in-full (OTIF) delivery metrics, critical for the construction supply chain.</li></p>
+                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                               <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Improved Efficiency </h3> : The manual adjustment of over 150 sales orders daily was eliminated. This saved the sales team approximately 25+ hours per week, allowing them to focus more on customer engagement and strategic activities.</li>
+                                     <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] ">Customer Empowerment </h3> : With direct control over order prioritization via the Fiori app, customers gained transparency and flexibility, leading to a 20% increase in customer satisfaction and a 30% drop in support queries related to order status and changes.</li>
+                                   <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Optimized Planning </h3> : Real-time visibility into order data enabled smarter alignment of material allocation and production planning with customer demand and plant capacity, improving planning accuracy by 40% and reducing stock outs and missed deliveries by 20%.</li>
+                                 <li className=""><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Reduced Errors </h3> : The removal of manual data entry decreased order processing errors by over 80%, enhancing accuracy and helping achieve a 15% improvement in on-time and in-full (OTIF) delivery metrics, critical for the construction supply chain.</li>
                                 </ul>
                             </div>
 

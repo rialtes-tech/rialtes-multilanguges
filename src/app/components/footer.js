@@ -85,18 +85,18 @@ const Footer = () => {
             href='/'
           />
           <div className="lg:text-left">
-            <h3>
+            <p className="mt-4">
               <span className="text-lg lg:text-xl font-bold">Simplifying</span>{" "}
               <span className="opacity-50 text-lg lg:text-xl">Problems</span>
-            </h3>
-            <h3>
+            </p>
+            <p className="mt-4">
               <span className="text-lg lg:text-xl font-bold">Enabling</span>{" "}
               <span className="opacity-50 text-lg lg:text-xl">Solutions</span>
-            </h3>
-            <h3>
+            </p>
+            <p className="mt-4">
               <span className="text-lg lg:text-xl font-bold">Empowering</span>{" "}
               <span className="opacity-50 text-lg lg:text-xl">Customers</span>
-            </h3>
+            </p>
           </div>
         </div>
 
