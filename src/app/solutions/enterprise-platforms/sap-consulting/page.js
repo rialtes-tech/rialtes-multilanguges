@@ -114,7 +114,7 @@ export default function Page() {
                     <div className="md:col-span-9 sm:col-span-11 col-span-12">
                         <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px]">
                             <h3 className="text-[18px] md:text-[24px] font-bold  text-black leading-tight">SAP Consulting</h3>
-                            <h2 className=" text-black leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
+                            <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 Leaning towards a better tomorrow.
                             </h2>
                             <h3 className="text-[18px]  text-black md:text-[24px] font-bold mt-[16px] xl:mt-[29.5px] w-[100%] md:w-[90%] leading-tight">
@@ -140,18 +140,18 @@ export default function Page() {
                 <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
 
                     <div>
-                        <h1 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
+                        <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
                     </div>
 
                     <div className="w-full">
-                        <p className="xl:text-[20px] text-[16px] font-normal leading-tight  xl:w-[90%] w-[96%]">What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.</p>
+                        <p className="text-[16px] xl:text-[18px] 4xl:text-[20px]  font-normal leading-tight  xl:w-[90%] w-[96%]">What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.</p>
                     </div>
                 </div>
             </section>
 
             {/* our solutions to success section */}
             <section className="2xl:mt-[164px] xl:mt-[90px] mt-[64px] custom-container">
-                <h2 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px] font-Light ">Our Solutions to Success</h2>
+                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-Light ">Our Solutions to Success</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-[44px]">
                     {solutionSuccess.map((product) => {
                         return (
@@ -167,9 +167,9 @@ export default function Page() {
                                     />
                                 </div>
                                 <div className="p-8">
-                                    <h3 className=" xl:text-[22px] 2xl:text-[30px] font-bold text-[#1F3F69] leading-tight">{product.title}</h3>
-                                    <p className="mt-5 leading-tight">{product.description}</p>
-                                    <ul className="mt-5 text-[16px] xl:text-[20px] leading-tight">
+                                    <h3 className=" xl:text-[22px] 4xl:text-[30px] font-bold text-[#1F3F69] leading-tight">{product.title}</h3>
+                                    <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{product.description}</p>
+                                    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                                         {product?.productsDetails?.map((details, index) => {
                                             return (
                                                 <li
@@ -200,7 +200,7 @@ export default function Page() {
                 <div
                     className="custom-container md:!pr-0"
                 >
-                    <h2 className="text-black leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-[60%] xl:w-[80%]">SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations</h2>
+                    <h2 className="text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-[60%] xl:w-[80%]">SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations</h2>
                     <div className="mt-[51px]">
                     </div>
                     <CarouselComponent />
@@ -245,8 +245,8 @@ export default function Page() {
   -translate-x-1/2 md:translate-x-0'>
 
 
-                        <h2 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px] font-light ">RISE with SAP</h2>
-                        <p className='xl:text-[20px] text-[16px] font-medium leading-tight mt-[23px]'>
+                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-light ">RISE with SAP</h2>
+                        <p className='text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium t mt-[23px]'>
                             Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.
                         </p>
                         <Link href='/services/business-transformation/rise-with-sap-services'>
@@ -260,9 +260,9 @@ export default function Page() {
             < div
                 className="pb-20
   custom-container
-  text-black xl:mt-[125px] mt-[80px]"
+  text-black xl:mt-[125px] mt-[80px] "
             >
-                <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
+                <ContactForm title={'Take the next step to operational excellence with us.'} className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]" />
 
             </div >
         </div >
