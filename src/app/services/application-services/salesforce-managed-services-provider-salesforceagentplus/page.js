@@ -1,8 +1,100 @@
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 import Image from "next/image";
 
 export default function page() {
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Salesforce Managed Services",
+        "name": "SalesforceAgent+ — Always-On, AI-Ready Salesforce Managed Services",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes Technologies",
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc",
+                "https://x.com/rialtestech"
+            ]
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": ["USA", "Canada", "Singapore", "India"]
+        },
+        "description": "Rialtes' SalesforceAgent+ is a next-gen Salesforce managed services offering that delivers 24x7 support, AI-powered innovations, seamless MuleSoft integrations, and specialized industry cloud expertise. Empower your Salesforce with Agentforce, Einstein GPT, and zero-copy SAP data cloud integration.",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "SalesforceAgent+ Services Catalog",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI-Driven Salesforce Support",
+                        "description": "Conversational AI, Einstein GPT, and Agentforce for sales, service, and field operations."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Lightning Component Development",
+                        "description": "Custom LWC and responsive UX for modern Salesforce experiences."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "MuleSoft Integrations",
+                        "description": "Secure, API-led integrations with SAP, Oracle, NetSuite, Workday, and more."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce Data Migrations",
+                        "description": "Secure, compliant transitions from legacy CRMs to Salesforce."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce Industry Cloud Solutions",
+                        "description": "Healthcare, Manufacturing, Education, Automotive, and more — with compliance-ready workflows."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Tableau CRM & Salesforce Data Cloud",
+                        "description": "Unified customer profiles, zero-copy data, and predictive analytics."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "RialChat - WhatsApp for Salesforce",
+                        "description": "Free WhatsApp messaging, AI bots, and notifications — embedded inside Salesforce."
+                    }
+                }
+            ]
+        },
+        "audience": {
+            "@type": "Audience",
+            "audienceType": ["CIO", "CTO", "CMO", "IT Heads", "Customer Experience Leaders"]
+        },
+        "brand": {
+            "@type": "Brand",
+            "name": "SalesforceAgent+"
+        }
+    }
     const startYourAIData = [
         {
             title: "Rapid AI-readiness assessments",
@@ -171,6 +263,15 @@ export default function page() {
     ]
     return (
         <section>
+            <Seo
+                title="Salesforce Managed Services Provider | Rialtes SalesforceAgent+"
+                description="Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready."
+                canonical="https://www.rialtes.com /services/application-services/salesforce-managed-services-provider-salesforceagentplus"
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                 {/* Desktop Image */}
@@ -199,10 +300,10 @@ export default function page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
                             <h3 className="text-[18px] lg:text-[24px] font-bold">
-                                Salesforce Agent+
+                                SalesforceAgent+
                             </h3>
                             <h1 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[56px] 2xl:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
-                                Unleash the Power of <br /> Salesforce with Rialtes <br /> Salesforce Agent+
+                                Unleash the Power of <br /> Salesforce with Rialtes <br /> SalesforceAgent+
                             </h1>
                             <h4 className="text-[18px] lg:text-[35px] font-bold xl:mt-[23px] mt-[15px]">
                                 AI-Ready, Always-On <br /> Managed Services

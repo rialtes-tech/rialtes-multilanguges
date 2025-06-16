@@ -202,7 +202,12 @@ const Header = () => {
             { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
           ],
         },
-
+        {
+          label: 'Application Services', href: '/',
+          subLinks: [
+            { label: 'Salesforce Agent+', href: '/services/application-services/salesforce-managed-services-provider-salesforceagentplus' },
+          ],
+        },
       ],
     },
     {
@@ -839,6 +844,12 @@ const Header = () => {
                   >
                     Intelligent SCM
                   </div>
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClickBusiness("applicationServices")}
+                  >
+                    Application Services
+                  </div>
                 </div>
                 {openSectionbusiness === "businessTransform" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1053,6 +1064,28 @@ const Header = () => {
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
                               onHover={() => { }} />
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {openSectionbusiness === "applicationServices" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Salesforce Managed Services</div>
+                        {/* <p className="mt-3">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
+                        </p> */}
+                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
+                      </button> */}
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-10">
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="SalesforceAgent+" link="/services/application-services/salesforce-managed-services-provider-salesforceagentplus" onClick={(e) => handleLinkClick(e, "/services/application-services/salesforce-managed-services-provider-salesforceagentplus")} onHover={() => { }} />
                           </div>
 
                         </div>

@@ -24,25 +24,31 @@ const WhyRialtesSection = () => {
                     alt="why-rialtes-img-mobile"
                     className="w-full block md:hidden"
                     priority
+                    width={0}
+                    height={0}
                 />
 
                 {/* Desktop Image */}
-                <Image
-                    src="/images/solutions/data-sphere/why-rialtes-img.webp"
-                    alt="why-rialtes-img"
-                    className="w-full hidden md:block h-[600px] xl:h-[1000px] 2xl:h-[960px]"
-                    priority
-                />
+                <div className="md:h-[600px] lg:h-[830px] xl:h-[860px] 2xl:h-[960px] w-full">
+                    <Image
+                        src="/images/solutions/data-sphere/why-rialtes-img.webp"
+                        alt="why-rialtes-img"
+                        className="w-full hidden md:block h-full md:object-[75%_25%] xl:object-[45%_25%]"
+                        priority
+                        width={0}
+                        height={0}
+                        style={{ objectFit: "cover" }}
+                    />
+                </div>
             </div>
-
             {/* Content Section */}
-            <div className="w-full xl:absolute xl:top-0 xl:left-0 xl:bg-transparent bg-[#80857E] xl:pt-[130px] 2xl:pt-[154px] pt-[37px] xl:pb-[41px] z-[1]">
+            <div className="w-full xl:absolute xl:top-0 xl:left-0 xl:bg-transparent bg-[#80857E] xl:pt-[150px] 2xl:pt-[154px] pt-[37px] xl:pb-[41px] z-[1]">
                 <div className="custom-container mx-auto grid xl:grid-cols-12 xl:gap-[20px] gap-[39px]">
                     <div className="xl:col-span-7">
-                        <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px]">
+                        <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight">
                             Why Rialtes?
                         </h2>
-                        <h3 className="text-[#FFFFFF] xl:text-[42px] text-[22px] font-semibold leading-[27px] xl:leading-[52px] xl:w-[100%] w-[90%] xl:mt-[38px] mt-[17px]">
+                        <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[36px] text-[22px] font-semibold leading-tight xl:w-[100%] w-[90%] xl:mt-[38px] mt-[17px]">
                             Your AI-Powered SAP Datasphere Partner for End-to-End Success
                         </h3>
 
@@ -55,8 +61,8 @@ const WhyRialtesSection = () => {
                                     <div key={ind} className="w-full flex items-center">
                                         <div
                                             className={`relative
-                    lg:mt-[48px] lg:py-0 py-[39px]
-                    text-[#FFFFFF] xl:text-[20px] text-[17px] font-medium leading-[20px] xl:leading-[24px]
+                    4xl:mt-[48px] lg:mt-[38px] lg:py-0 py-[39px]
+                    text-[#FFFFFF] 4xl:text-[20px] xl:text-[16px] text-[17px] font-medium leading-[20px] xl:leading-[24px]
                     ${isBorderLeft ? 'lg:border-l-2 lg:pl-6 border-white' : ''}
                     lg:border-b-0`}
                                         >
@@ -104,6 +110,8 @@ const BuildIntelligentSection = () => {
                         alt="build-intelligent-mob-img"
                         className="w-full h-full block md:hidden"
                         priority
+                        width={0}
+                        height={0}
                     />
 
                     {/* Desktop Image */}
@@ -112,37 +120,39 @@ const BuildIntelligentSection = () => {
                         alt="build-intelligent-img"
                         className="w-full h-full hidden md:block"
                         priority
+                        width={0}
+                        height={0}
                     />
                 </div>
 
             </section>
             <div className="custom-container max-md:px-0">
                 <div className="xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative">
-                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light 2xl:w-[70%]">
+                    <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
                         Build an Intelligent Data Lake with SAP Datasphere
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[71px] gap-[20px] xl:mt-[53px] mt-[24px]">
                         {/* Left Column */}
                         <div>
-                            <h2 className="text-[#FFFFFF] xl:text-[40px] text-[22px] leading-[27px] xl:leading-[44px] font-semibold">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[40px] xl:text-[36px] text-[22px] leading-tight font-semibold">
                                 Your Unified, AI-Driven Business Engine
                             </h2>
-                            <h3 className="text-[#FFFFFF] font-semibold xl:text-[36px] text-[18px] leading-[22px] xl:leading-[44px] mt-[24px] xl:mt-[37px]">
+                            <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[24px] xl:mt-[37px]">
                                 Unlock End-to-End Visibility and Actionable AI Insights
                             </h3>
-                            <p className="text-[#FFFFFF] font-light xl:text-[20px] text-[16px] leading-[19px] xl:leading-[24px] mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
+                            <p className="text-[#FFFFFF] font-light 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
                                 Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.
                             </p>
                         </div>
 
                         {/* Right Column */}
                         <div className="flex flex-col">
-                            <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] xl:mt-0 mt-[26px]">Key Benefits:</p>
+                            <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]">Key Benefits:</p>
                             <ul className="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]">
                                 {buildIntelligentData.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light">
+                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light">
                                         {item}
                                     </li>
 
@@ -181,39 +191,45 @@ const IndustryAcceleratorsSection = () => {
                         alt="industry-accelerators-mob-img"
                         className="w-full h-full block md:hidden"
                         priority
+                        width={0}
+                        height={0}
                     />
 
                     {/* Desktop Image */}
-                    <Image
-                        src="/images/solutions/data-sphere/industry-accelerators-img.webp"
-                        alt="industry-accelerators-img"
-                        className="w-full h-full hidden md:block object-cover"
-                        priority
-                    />
+                    <div className="h-full w-full">
+                        <Image
+                            src="/images/solutions/data-sphere/industry-accelerators-img.webp"
+                            alt="industry-accelerators-img"
+                            className="w-full h-full hidden md:block object-cover"
+                            priority
+                            width={0}
+                            height={0}
+                        />
+                    </div>
                 </div>
 
                 <div className="text-[#000000] xl:pl-[60px] mx-[35px] xl:pt-0 pt-[40px]">
-                    <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
                         Industry-Accelerators
                     </h2>
-                    <h3 className="font-semibold xl:text-[42px] text-[22px] leading-[27px] xl:leading-[52px] mt-[29px] xl:mt-[29px]">
+                    <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight mt-[29px] xl:mt-[29px]">
                         Fast-Track AI Success in Your Industry
                     </h3>
-                    <h3 className="font-semibold xl:text-[36px] text-[18px] leading-[22px] xl:leading-[44px] mt-[22px] xl:mt-[29px] xl:w-[90%]">
+                    <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-tight mt-[22px] xl:mt-[29px] xl:w-[90%]">
                         Pre-Built Connectors & AI Models to Accelerate Your Transformation
                     </h3>
-                    <p className="xl:text-[20px] text-[16px] leading-[19px] xl:leading-[24px] mt-[22px] xl:mt-[45px] xl:w-[86%] font-light">
+                    <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[22px] xl:mt-[45px] xl:w-[86%] font-light">
                         Rialtes’ pre-delivered accelerators make AI data consolidation seamless and impactful. Designed specifically for Manufacturing, Semiconductor, Automotive, Retail, Education, and HR industries, these plug-and-play solutions help you gain immediate business value.
                     </p>
-                    <h4 className="font-semibold xl:text-[22px] text-[18px] leading-[22px] xl:leading-[27px] mt-[29px] xl:mt-[54px]">
+                    <h4 className="font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight mt-[29px] xl:mt-[54px]">
                         Industry-Focused Capabilities:
                     </h4>
 
-                    <ul className="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px]">
+                    <ul className="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]">
                         {industryAcceleratorData.map((data, idx) => (
                             <li
                                 key={idx}
-                                className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light"
                             >
                                 {data}
                             </li>
@@ -241,32 +257,38 @@ const IntelligentAutomativeSection = () => {
                 alt="intelligent-automative-img"
                 className="block md:hidden w-full h-[1000px]"
                 priority
+                width={0}
+                height={0}
             />
 
             {/* Desktop Image */}
-            <Image
-                src="/images/solutions/data-sphere/intelligent-automative-img.webp"
-                alt="intelligent-automative-img"
-                className="hidden md:block w-full md:h-[600px] lg:h-[600px] xl:h-[1000px] 2xl:h-[860px]"
-                priority
-            />
-
+            <div className="md:h-[600px] lg:h-[600px] xl:h-[800px] 2xl:h-[860px]">
+                <Image
+                    src="/images/solutions/data-sphere/intelligent-automative-img.webp"
+                    alt="intelligent-automative-img"
+                    className="hidden md:block w-full h-full object-cover"
+                    style={{ objectPosition: "75% 20%" }}
+                    priority
+                    width={0}
+                    height={0}
+                />
+            </div>
 
             <div className="absolute inset-0 flex items-start justify-start md:mt-[64px] mt-[254px]">
                 <div className="md:w-[86%] custom-container">
-                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[90%] lg:w-[80%]">
+                    <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 4xl:w-[90%] xl:w-[80%] lg:w-[80%]">
                         Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value
                     </h2>
 
-                    <h3 className="text-[#FFFFFF] xl:text-[42px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[45px] mt-[24px] xl:w-[80%] w-[90%]">
+                    <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight font-semibold xl:mt-[45px] mt-[24px] xl:w-[80%] w-[90%]">
                         Drive the Future of Automotive with AI-Integrated Insights
                     </h3>
 
-                    <ul className="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px]">
+                    <ul className="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]">
                         {intelligentData.map((item, idx) => (
                             <li
                                 key={idx}
-                                className="text-[#FFFFFF] mt-[19px] xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px]">
+                                className="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight">
                                 {item}
                             </li>
                         ))}
@@ -274,8 +296,8 @@ const IntelligentAutomativeSection = () => {
                     <div className="xl:mt-[20px] mt-[54px]">
                         <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                     </div>
-                    <div className="bg-[#163055] absolute bottom-[-50px] mx-[32px] ml-[-20px]">
-                        <p className="text-[#FFFFFF] xl:text-[26px] text-[22px] leading-[27px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                    <div className="bg-[#163055] absolute bottom-[-50px] mx-[36px] ml-[-20px]">
+                        <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                             Unlock AI for better vehicle performance, customer experience, and market growth.
                         </p>
                     </div>
@@ -303,6 +325,8 @@ const AIReadyManufacturingSection = () => {
                         alt="ai-ready-mob-img"
                         className="w-full h-full block md:hidden"
                         priority
+                        width={0}
+                        height={0}
                     />
                     {/* Desktop Image */}
                     <Image
@@ -310,26 +334,28 @@ const AIReadyManufacturingSection = () => {
                         alt="ai-ready-img"
                         className="w-full h-full hidden md:block object-cover"
                         priority
+                        width={0}
+                        height={0}
                     />
                 </div>
 
 
                 <div className="order-2 md:order-1 text-[#FFFFFF] custom-container lg:!pr-0 xl:pt-[88px] pt-[46px] pb-[120px] bg-[#64676C]">
-                    <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-full w-[80%]">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-full w-[80%]">
                         AI-Ready Manufacturing & Semiconductor Data Lake
                     </h2>
-                    <h3 className="font-semibold xl:text-[42px] text-[22px] leading-[27px] xl:leading-[52px] mt-[19px] xl:mt-[45px] xl:w-full w-[80%]">
+                    <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[22px] leading-tight mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-full w-[80%]">
                         Precision-Driven Performance
                     </h3>
-                    <h3 className="font-semibold xl:text-[36px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[45px] xl:w-[80%]">
+                    <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-[80%]">
                         Optimize Production, Supply Chain, and Maintenance
                     </h3>
 
-                    <ul className="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px]">
+                    <ul className="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]">
                         {aiReadyData.map((data, idx) => (
                             <li
                                 key={idx}
-                                className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[22px] font-light"
+                                className="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light"
                             >
                                 {data}
                             </li>
@@ -340,7 +366,7 @@ const AIReadyManufacturingSection = () => {
             <div className="custom-container">
                 <div className="md:w-[56%] relative">
                     <div className="bg-[#163055] absolute -bottom-[66px] w-full">
-                        <p className="text-[#FFFFFF] xl:text-[26px] text-[22px] leading-[27px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                        <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[20px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                             Stay competitive with AI-powered, data-driven manufacturing intelligence.
                         </p>
                     </div>
@@ -372,6 +398,8 @@ const OmnichannelSmartEducationSection = () => {
                             alt="omnichannel-mob-img"
                             className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
                             priority
+                            width={0}
+                            height={0}
                         />
 
                         {/* Desktop Image */}
@@ -381,22 +409,24 @@ const OmnichannelSmartEducationSection = () => {
                                 alt="omnichannel-img"
                                 className="w-full"
                                 priority
+                                width={0}
+                                height={0}
                             />
                         </div>
                     </div>
 
                     <div className="relative text-[#000000] bg-[#E0E0E0] xl:pt-[300px] 2xl:pt-[360px] pt-[305px] xl:pb-[145px] pb-[100px] px-[35px] xl:px-[70px] overflow-visible">
-                        <h2 className="2xl:text-[60px] xl:text-[50px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[70%]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
                             Omnichannel Retail Data Intelligence
                         </h2>
-                        <h3 className="font-semibold xl:text-[42px] text-[26px] leading-[32px] xl:leading-[52px] mt-[27px] xl:mt-[39px] xl:w-[90%] 2xl:w-[80%]">
+                        <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[39px] xl:w-[90%] 2xl:w-[80%]">
                             Personalize, Optimize, and Win Customers
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px]">
+                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]">
                             {omniSectionData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light"
                                 >
                                     {data}
                                 </li>
@@ -404,7 +434,7 @@ const OmnichannelSmartEducationSection = () => {
                         </ul>
 
                         <div className="bg-[#163055] xl:mx-auto mx-auto w-[80%] left-1/2 transform -translate-x-1/2 absolute xl:bottom-[-90px] sm:bottom-[-50px] bottom-[-60px] xl:mt-[60px] xl:w-[80%]">
-                            <p className="text-[#FFFFFF] xl:text-[26px] text-[20px] leading-[24px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 Empower retail with hyper-personalized experiences and optimized operations.
                             </p>
                         </div>
@@ -419,6 +449,8 @@ const OmnichannelSmartEducationSection = () => {
                             alt="smart-education-mob-img"
                             className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
                             priority
+                            width={0}
+                            height={0}
                         />
 
                         {/* Desktop Image */}
@@ -428,25 +460,27 @@ const OmnichannelSmartEducationSection = () => {
                                 alt="smart-education-img"
                                 className="w-full"
                                 priority
+                                width={0}
+                                height={0}
                             />
                         </div>
                     </div>
 
                     <div className="relative text-[#000000] bg-[#7AB5BF] xl:pt-[300px] 2xl:pt-[360px] pt-[305px] xl:pb-[145px] pb-[100px] px-[35px] xl:pl-[70px] xl:pr-[40px] overflow-visible">
-                        <h2 className="2xl:text-[60px] xl:text-[50px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[90%]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[90%]">
                             Smart Education Data Platforms
                         </h2>
-                        <h3 className="font-semibold xl:text-[42px] text-[26px] leading-[32px] xl:leading-[52px] mt-[27px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
+                        <h3 className="font-semibold  4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
                             Driving Student Success with AI
                         </h3>
-                        <h4 className="font-semibold xl:text-[36px] text-[20px] leading-[24px] xl:leading-[44px] mt-[23px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
+                        <h4 className="font-semibold xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
                             From Enrollment to Alumni — AI-Powered Student Journeys
                         </h4>
-                        <ul className="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] ">
+                        <ul className="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]">
                             {educationSectionData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light"
                                 >
                                     {data}
                                 </li>
@@ -454,7 +488,7 @@ const OmnichannelSmartEducationSection = () => {
                         </ul>
 
                         <div className="bg-[#163055] xl:mx-auto mx-auto w-[80%] left-1/2 transform -translate-x-1/2 absolute bottom-[-60px] sm:-bottom-[46px] md:-bottom-[40px] lg:-bottom-[70px] xl:-bottom-[90px] xl:left-[50%] xl:mt-[40px] xl:w-[80%]">
-                            <p className="text-[#FFFFFF] xl:text-[26px] text-[20px] leading-[24px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 Future-proof education with AI insights to enhance student outcomes.
                             </p>
                         </div>
@@ -478,35 +512,42 @@ const AiPoweredHRAnalyticsSection = () => {
                     <Image
                         src="/images/solutions/data-sphere/Mobile/ai-powered-hr-analytics-mob-img.webp"
                         alt="ai-powered-hr-analytics-mob-img"
-                        className="block md:hidden h-auto mx-auto"
+                        className="block md:hidden h-full mx-auto object-cover"
                         priority
+                        width={0}
+                        height={0}
                     />
 
                     {/* Desktop Image */}
-                    <Image
-                        src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
-                        alt="ai-powered-hr-analytics"
-                        className="hidden md:block w-full h-full object-cover"
-                        priority
-                    />
+                    <div className="w-full h-full">
+                        <Image
+                            src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
+                            alt="ai-powered-hr-analytics"
+                            className="hidden md:block w-full h-full object-cover"
+                            priority
+                            width={0}
+                            height={0}
+                            style={{objectPosition:"20% 20%"}}
+                        />
+                    </div>
                 </div>
 
                 <div className="">
                     <div className="relative text-[#FFFFFF] xl:pl-[72px] xl:ml-[-20%] xl:mt-[100px] mx-[0px] px-[35px] xl:pt-[76px] pt-[42px] bg-[#006FBE] xl:pb-[76px] pb-[142px] overflow-visible">
-                        <h2 className="xl:text-[50px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[80%]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[80%]">
                             AI-Powered HR Analytics Hub
                         </h2>
-                        <h3 className="font-semibold xl:text-[42px] text-[26px] leading-[32px] xl:leading-[52px] mt-[27px] xl:mt-[36px] xl:w-[80%]">
+                        <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[36px] xl:w-[80%]">
                             Redefine Workforce Intelligence
                         </h3>
-                        <h4 className="font-semibold xl:text-[36px] text-[20px] leading-[24px] xl:leading-[44px] mt-[23px] xl:mt-[36px] xl:w-full">
+                        <h4 className="font-semibold xl:text-[28px] 4xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-full">
                             Smarter People Decisions with AI
                         </h4>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px]">
+                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]">
                             {aiPoweredData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light"
                                 >
                                     {data}
                                 </li>
@@ -528,7 +569,7 @@ const AiPoweredHRAnalyticsSection = () => {
                     xl:mt-[0px] 
                     xl:transform-none
                 ">
-                            <p className="text-[#FFFFFF] xl:text-[26px] text-[20px] leading-[24px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 Take HR to the next level with AI-powered talent management and compliance.
                             </p>
                         </div>
@@ -547,7 +588,7 @@ const SapAribaSection = () => {
     return (
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[240px] mt-[94px]">
-                <h2 className="text-[#000000] xl:text-[60px] md:text-[40px] md:leading-[48px] text-[26px] leading-[32px] xl:leading-[73px] font-light px-[36px] md:px-0">
+                <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0">
                     End-to-End Integration — <br /> Real-Time Data Unification
                 </h2>
                 <div>
@@ -557,6 +598,8 @@ const SapAribaSection = () => {
                         alt="sap-ariba-mob-img"
                         className="w-full h-full block md:hidden mt-[60px]"
                         priority
+                        width={0}
+                        height={0}
                     />
 
                     {/* Desktop Image */}
@@ -565,29 +608,31 @@ const SapAribaSection = () => {
                         alt="sap-ariba-img"
                         className="w-full h-full hidden md:block md:mt-[84px]"
                         priority
+                        width={0}
+                        height={0}
                     />
                 </div>
 
             </section>
             <div className="custom-container max-md:px-0">
-                <div className=" xl:pl-[67px] px-[35px] xl:mt-[-16%] mt-[-30px] xl:pt-[70px] pt-[42px] xl:pb-[68px] pb-[49px] bg-[#3280A3] relative">
+                <div className=" xl:pl-[57px] px-[35px] xl:mt-[-16%] mt-[-30px] xl:pt-[70px] pt-[42px] xl:pb-[68px] pb-[49px] bg-[#3280A3] relative">
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[20px] gap-[20px] xl:mt-[0px] mt-[24px]">
 
                         <div>
-                            <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] lg:leading-[73px] font-light 2xl:w-[80%]">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 2xl:w-[80%]">
                                 SAP Ariba + SAP Datasphere
                             </h2>
-                            <h3 className="text-[#FFFFFF] font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
+                            <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
                                 Procurement Intelligence at Scale
                             </h3>
                         </div>
 
                         <div className="flex flex-col">
-                            <ul className="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px]">
+                            <ul className="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]">
                                 {sapAribaData.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] lg:leading-[24px] leading-[19px] font-light">
+                                        className="text-[#FFFFFF] xl:text-[20px] text-[16px] leading-tight font-light">
                                         {item}
                                     </li>
 
@@ -623,6 +668,8 @@ const SapHanaSection = () => {
                             alt="sap-hana-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
+                            width={0}
+                            height={0}
                         />
 
                         {/* Desktop Image */}
@@ -631,20 +678,22 @@ const SapHanaSection = () => {
                             alt="sap-hana-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
+                            width={0}
+                            height={0}
                         />
                     </div>
                     <div className="text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                        <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
                             SAP S/4HANA + SAP Datasphere
                         </h2>
-                        <h3 className="font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[27px] xl:mt-[37px] xl:w-full">
+                        <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             Enterprise Data Mastery
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px]">
+                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
                             {sapHanaData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="xl:text-[20px] text-[16px] xl:leading-tight font-light"
                                 >
                                     {data}
                                 </li>
@@ -677,6 +726,8 @@ const SapSucessFactorSection = () => {
                             alt="sap-success-factos-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
+                            width={0}
+                            height={0}
                         />
                         {/* Desktop Image */}
                         <Image
@@ -684,22 +735,24 @@ const SapSucessFactorSection = () => {
                             alt="sap-success-factos-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
+                            width={0}
+                            height={0}
                         />
                     </div>
 
 
                     <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                        <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
                             SAP SuccessFactors + SAP Datasphere
                         </h2>
-                        <h3 className="font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[27px] xl:mt-[37px] xl:w-full">
+                        <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             HR Data Reimagined
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px]">
+                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
                             {sapSuccessData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="xl:text-[20px] text-[16px] leading-tight font-light"
                                 >
                                     {data}
                                 </li>
@@ -731,6 +784,8 @@ const SalesforceSap = () => {
                             alt="salesforcesap-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
+                            width={0}
+                            height={0}
                         />
 
                         {/* Desktop Image */}
@@ -739,20 +794,22 @@ const SalesforceSap = () => {
                             alt="salesforcesap-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
+                            width={0}
+                            height={0}
                         />
                     </div>
                     <div className="text-[#000000] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                        <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <h2 className="4xl:text-[60px] xl:text-[40px]  text-[26px] leading-tight font-light">
                             Salesforce + SAP Datasphere
                         </h2>
-                        <h3 className="font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[27px] xl:mt-[37px] xl:w-full">
+                        <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px]  text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             AI-Enhanced Customer 360
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px]">
+                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
                             {salesforcesapData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="xl:text-[20px] text-[16px] xl:leading-tight font-light"
                                 >
                                     {data}
                                 </li>
@@ -785,6 +842,8 @@ const AdvancedDataSection = () => {
                                 alt="advanced-data-mob-img"
                                 className="w-full h-full block md:hidden"
                                 priority
+                                width={0}
+                                height={0}
                             />
                             {/* Desktop Image */}
                             <Image
@@ -792,24 +851,26 @@ const AdvancedDataSection = () => {
                                 alt="advanced-data-img"
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
+                                width={0}
+                                height={0}
                             />
                         </div>
 
                         <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                            <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
                                 Advanced Data Visualization
                             </h2>
-                            <h3 className="font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[19px] xl:mt-[37px] xl:w-[86%]">
+                            <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[19px] xl:mt-[37px] xl:w-[86%]">
                                 Make Data Speak with SAP Analytics Cloud and Tableau
                             </h3>
-                            <h3 className="font-semibold xl:text-[36px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
+                            <h3 className="font-semibold 4xl:text-[36px] xl:text-[24px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
                                 From Raw Data to Actionable Intelligence
                             </h3>
-                            <ul className="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px]">
+                            <ul className="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
                                 {advancedData.map((data, idx) => (
                                     <li
                                         key={idx}
-                                        className="mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                        className="xl:text-[20px] text-[16px] xl:leading-tight font-light"
                                     >
                                         {data}
                                     </li>
@@ -821,8 +882,8 @@ const AdvancedDataSection = () => {
                         </div>
                     </div>
 
-                    <div className="bg-[#163055] xl:w-[57%] mx-[35px] md:ml-[0px] md:mr-0 absolute md:top-[98%] 2xl:top-[95%]">
-                        <p className="text-[#FFFFFF] xl:text-[26px] text-[22px] leading-[27px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[33px] px-[24px] font-light">
+                    <div className="bg-[#163055] 4xl:w-[57%] xl:w-[64%] mx-[35px] md:ml-[0px] md:mr-0 absolute md:top-[98%] 2xl:top-[95%]">
+                        <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[33px] px-[24px] font-light">
                             Transform data into strategic insights that drive results.
                         </p>
                     </div>
@@ -848,11 +909,12 @@ const AIPoweredUseSection = () => {
                         alt="ai-powered-use-mob-img"
                         className="w-full h-[1300px] object-cover"
                         priority
-
+                        width={0}
+                        height={0}
                     />
 
                     <div
-                        className="absolute bottom-[220px] left-0 right-0 sm:h-[390px] h-[420px] z-0"
+                        className="absolute bottom-[220px] left-0 right-0 sm:h-[390px] h-[420px] max-[340px]:h-[510px] z-0"
                         style={{
                             background: "#006FBE",
                             mixBlendMode: "multiply",
@@ -862,18 +924,18 @@ const AIPoweredUseSection = () => {
 
 
                     <div className="mx-[10px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white">
-                        <h2 className="text-[26px] leading-[32px] font-light">
+                        <h2 className="text-[26px] leading-tight font-light">
                             AI-Powered Use Cases
                         </h2>
-                        <h3 className="text-[20px] font-semibold mt-[19px] leading-[24px] w-[90%]">
+                        <h3 className="text-[20px] 4xl:text-[36px] xl:text-[24px] font-semibold mt-[19px] leading-tight w-[90%]">
                             Accelerating Innovation
                         </h3>
 
-                        <ul className="list-disc pl-[22px] mt-[22px]">
+                        <ul className="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]">
                             {aiPoweredData.map((element, index) => (
                                 <li
                                     key={index}
-                                    className="mt-[19px] first:mt-0 text-[16px] leading-[19px]"
+                                    className="text-[16px] leading-[19px]"
                                 >
                                     {element}
                                 </li>
@@ -894,14 +956,16 @@ const AIPoweredUseSection = () => {
                 <Image
                     src="/images/solutions/data-sphere/ai-powered-use-img.webp"
                     alt="ai-powered-use-img"
-                    className="hidden md:block w-full md:h-[600px] xl:h-[900px] object-cover"
+                    className="hidden md:block w-full md:h-[700px] xl:h-[900px] object-cover"
                     priority
+                    width={0}
+                    height={0}
                 />
 
                 <div className="hidden md:flex absolute inset-0 items-start justify-start custom-container">
                     <div className="relative">
                         <div
-                            className="absolute inset-0 z-0 pointer-events-none md:h-[392px] xl:h-full"
+                            className="absolute inset-0 z-0 pointer-events-none md:h-[498px] xl:h-full"
                             style={{
                                 background: "#006FBE",
                                 mixBlendMode: "multiply",
@@ -910,18 +974,18 @@ const AIPoweredUseSection = () => {
                         />
 
                         <div className="relative z-10 xl:pt-[70px] pt-[57px] xl:pb-[80px] pb-[0px] px-[26px] md:px-[67px] text-white">
-                            <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light w-[70%]">
+                            <h2 className=" 4xl:text-[60px] xl:text-[40px] leading-tight font-light w-[70%]">
                                 AI-Powered Use Cases
                             </h2>
-                            <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-[27px] xl:leading-[52px]">
+                            <h3 className=" 4xl:text-[42px] xl:text-[38px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-tight">
                                 Accelerating Innovation
                             </h3>
 
-                            <ul className="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]">
+                            <ul className="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]">
                                 {aiPoweredData.map((element, index) => (
                                     <li
                                         key={index}
-                                        className="mt-[19px] first:mt-0 xl:text-[20px] text-[15px] xl:leading-[24px] leading-[19px] font-light"
+                                        className="xl:text-[20px] text-[15px] leading-tight font-light"
                                     >
                                         {element}
                                     </li>
@@ -940,7 +1004,7 @@ const AIPoweredUseSection = () => {
                 </div>
                 <div className="custom-container">
                     <div className="bg-[#163055] absolute xl:-mt-[58px] -mt-[68px] w-[85%] sm:w-[90%] md:w-auto">
-                        <p className="text-[#FFFFFF] xl:text-[26px] text-[22px] leading-[27px] xl:leading-[32px] xl:py-[37px] py-[27px] xl:px-[35px] px-[24px] font-light">
+                        <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[35px] px-[24px] font-light">
                             AI brings the future of decision-making to your fingertips.
                         </p>
                     </div>
@@ -966,8 +1030,10 @@ const GlobalPresenceSection = () => {
                     <Image
                         src="/images/solutions/data-sphere/Mobile/global-presence-mob-img.webp"
                         alt="global-presence-mob-img"
-                        className="block lg:hidden h-auto mx-auto"
+                        className="block lg:hidden h-full mx-auto w-full"
                         priority
+                        width={0}
+                        height={0}
                     />
 
                     {/* Desktop Image */}
@@ -976,6 +1042,8 @@ const GlobalPresenceSection = () => {
                         alt="global-presence-img"
                         className="hidden lg:block w-full h-full object-cover"
                         priority
+                        width={0}
+                        height={0}
                     />
                 </div>
 
@@ -986,7 +1054,7 @@ const GlobalPresenceSection = () => {
                     }}
                 >
                     <div className="z-30">
-                        <h2 className="text-[#FFFFFF] xl:text-[50px] 2xl:text-[60px] text-[26px] font-light leading-[32px] xl:leading-[73px]">
+                        <h2 className="text-[#FFFFFF] xl:text-[40px] 4xl:text-[60px] text-[26px] font-light leading-tight">
                             Global Presence, Certified Expertise, Agile Excellence
                         </h2>
 
@@ -1001,7 +1069,7 @@ const GlobalPresenceSection = () => {
                                             className={`
                 relative
                 xl:mt-[56px] mt-[20px] xl:py-0 py-4 xl:w-[100%] w-[90%]
-                text-[#FFFFFF] xl:text-[20px] text-[18px] font-semibold leading-[22px] xl:leading-[24px] 
+                text-[#FFFFFF] 4xl:text-[20px] text-[18px] font-semibold leading-[22px] xl:leading-[24px] 
                 ${isBorderLeft ? 'md:border-l-2 md:pl-[48px] lg:pl-[50px] xl:pl-[68px] border-white' : ''}
                 ${!isBorderLeft ? 'xl:mr-[45px]' : ''}
                 md:border-b-0
@@ -1033,20 +1101,62 @@ export default function () {
                 description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
                 canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
             />
+
             {/* hero section */}
-            <HeroSection title="Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere" subtitle="SAP Datasphere" mobimg="/images/solutions/data-sphere/Mobile/data-sphere-mob-banner.webp" deskimg="/images/solutions/data-sphere/data-sphere-banner.webp" />
+            <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
+                {/* Desktop Image */}
+                <div className="hidden md:block">
+                    <Image
+                        src="/images/solutions/data-sphere/data-sphere-banner.webp"
+                        alt="desktop banner"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "55% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
+
+                </div>
+
+                {/* Mobile Image */}
+                <div className="block md:hidden">
+                    <Image
+                        src="/images/solutions/data-sphere/Mobile/data-sphere-mob-banner.webp"
+                        alt="mobile banner"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                    />
+                </div>
+
+                <div className="relative h-full custom-container flex items-center text-[#ffffff]">
+                    <div className="grid grid-cols-12 w-full">
+
+                        <div className="4xl:col-span-7 sm:col-span-8 xl:col-span-6 col-span-11">
+                            <h3 className="text-[18px] md:text-[24px] font-bold">
+                                SAP Datasphere
+                            </h3>
+                            <h1 className="text-[26px] leading-tight xl:text-[44px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+                                Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere
+                            </h1>
+                        </div>
+
+                        <div className="4xl:col-span-5 sm:col-span-4 xl:col-span-6 col-span-1">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {/* future proof section */}
             <section className="custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
-                <div className="grid lg:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px]">
-                    <div className="lg:col-span-7 col-span-12">
-                        <h2 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[100%] w-[90%]">Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration</h2>
+                <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px]">
+                    <div className="4xl:col-span-7 xl:col-span-6 col-span-12">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight xl:w-[100%] lg:w-[80%]">Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration</h2>
                     </div>
 
 
-                    <div className="lg:col-span-5 col-span-12">
-                        <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] w-[96%]">In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.</p>
-                        <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] w-[96%] xl:mt-[30px] mt-[19px]">With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.</p>
+                    <div className="4xl:col-span-5 xl:col-span-6 col-span-12">
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%]">In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.</p>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%] xl:mt-[30px] mt-[19px]">With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.</p>
                     </div>
                 </div>
             </section>
@@ -1085,9 +1195,9 @@ export default function () {
             {/* Contact Form */}
             <div
                 className="custom-container
-              text-[#000000] pb-10  max-sm:mt-[460px] max-md:mt-[400px] max-lg:mt-[360px]"
+              text-[#000000] pb-10 max-sm:mt-[460px] max-md:mt-[400px] max-lg:mt-[360px]"
             >
-                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"max-w-[66rem] xl:font-normal xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] mt-[52px] xl:mt-[89px]"} />
+                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"xl:w-[70%] xl:font-normal 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
             </div >
         </>
     )

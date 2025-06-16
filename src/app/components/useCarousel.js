@@ -106,7 +106,7 @@ export default function servicesInsightsCarousel() {
   return (
     <section className="relative pb-8 bg-white">
       <div className='grid  grid-cols-12  mb-[55px]'>
-        <p className="w-full md:col-span-6 col-span-12 xl:text-[20px] text-[16px]">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
+        <p className="w-full md:col-span-6 col-span-12 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
 
         <div className='md:col-span-4 flex justify-end col-span-12 max-md:mt-6'>
           <ButtonGroup
@@ -148,12 +148,12 @@ export default function servicesInsightsCarousel() {
               className="flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group"
             >
               {/* Optional: Add an image or background here if needed */}
-              <div className="w-full h-full min-h-[380px] sm:min-h-[380px] md:min-h-[300px] lg:min-h-[500px] xl:min-h-[600px] 2xl:min-h-[500px] relative bg-white">
+              <div className="w-full h-full min-h-[380px] sm:min-h-[380px] md:min-h-[300px] lg:min-h-[440px] xl:min-h-[420px] 2xl:min-h-[450px] relative bg-white">
                 <div className="absolute inset-0 py-[42px] px-[36px]">
-                  <div className="mt-3 font-semibold text-[18px]  xl:text-[22px] 2xl:text-[30px] ">
+                  <div className="mt-3 font-semibold text-[18px]  xl:text-[22px] 4xl:text-[30px] ">
                     {slide.category}
                   </div>
-                  <p className="mt-5 xl:text-[20px] text-[16px]">
+                  <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                     {slide.description}
                   </p>
                 </div>
