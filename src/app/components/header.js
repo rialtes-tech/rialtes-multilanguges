@@ -136,6 +136,13 @@ const Header = () => {
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
           ],
         },
+         {
+          label: 'Quality Engineering & Assurance', href: '/',
+          subLinks: [
+            { label: 'Tosca', href: '/solutions/quality-engineering-and-assurance/tosca' },
+          ],
+        },
+
 
       ],
     },
@@ -485,6 +492,12 @@ const Header = () => {
                   >
                     Process Automation
                   </div>
+                   <div
+                    className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClickSolution("quality-engi")}
+                  >
+                    Quality Engineering & Assurance
+                  </div>
                 </div>
 
                 {openSectionSolution === "dataAI" && (
@@ -519,22 +532,17 @@ const Header = () => {
 
                 {openSectionSolution === "enterprise" && (
                   <div className="col-span-6 flex space-x-5">
-
                     <div>
                       <div>
                         <div className="border-b pb-5">
                           <div className="font-bold mt-5">Transform. Automate. Lead — The Power of Intelligent Enterprise</div>
                           <p className="mt-3">Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.</p>
-                          {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                        </button> */}
                         </div>
                         <div className="mt-5">
                           <div className="grid grid-cols-2 gap-32">
                             <div>
                               <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP" link="/solutions/enterprise-platforms/sap-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting")} />
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Salesforce" link="/solutions/enterprise-platforms/salesforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting")} />
-                              {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="YARDI" link="/" onHover={() => { }} /> */}
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP Ariba" link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Oracle" link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} onHover={() => { }} />
                             </div>
@@ -543,7 +551,6 @@ const Header = () => {
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
                               <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
                               <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Kinaxis" link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} onHover={() => { }} />
-
                             </div>
                           </div>
                         </div>
@@ -559,24 +566,37 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5">Smarter Connections. Faster Growth. Intelligent Integration Services</div>
                         <p className="mt-3">Future-ready integration strategies that align business goals with seamless technology execution</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/sap/sap-integration' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
                             <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Mulesoft" link="/solutions/integration/mulesoft-salesforce" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")}
                             />
-                            {/* <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="SAP CPI" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
                           </div>
                           <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="Workato" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
-
                           </div>
-
                         </div>
+                      </div>
+                    </div>
 
+                  </div>
+                )}
+                  {openSectionSolution === "quality-engi" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Empowering Digital Excellence with Advanced Testing Solutions</div>
+                        <p className="mt-3">Ensure the highest standards of software quality, performance, and reliability with our Quality Engineering and Assurance services. </p>
+                      </div>
+                      <div className="mt-5">
+                        <div className="grid grid-cols-2 gap-32">
+                          <div>
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Tosca" link="/solutions/quality-engineering-and-assurance/tosca" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-and-assurance/tosca")}
+                            />
+                          </div>
+                          <div>
+                          </div>
+                        </div>
                       </div>
                     </div>
 
