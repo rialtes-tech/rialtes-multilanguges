@@ -34,10 +34,10 @@ const Serve = () => (
   <div>
     <div className="custom-container">
       <div className="w-full mb-14">
-        <h2 className="w-full mb-8">
+        <h2 className="w-full mb-8 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
           Industries We Serve
         </h2>
-        <p className="w-full lg:text-xl text-base">
+        <p className="w-full  text-[16px] 4xl:text-[20px] xl:text-[18px] leading-tight">
           Our MuleSoft Integration Services cater to a wide range of industries
         </p>
       </div>
@@ -46,8 +46,8 @@ const Serve = () => (
         {Data.map(({ _id, tittle, descrip }) => (
           <div className="border-r border-[#707070] ">
             <div className="max-w-[256px]" key={_id}>
-              <h4 className=" font-semibold">{tittle}</h4>
-              <p className=" font-medium">{descrip}</p>
+              <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px]">{tittle}</h4>
+              <p className="4xl:text-[20px] xl:text-[18px] text-[16px] font-medium">{descrip}</p>
             </div>
           </div>
         ))}
