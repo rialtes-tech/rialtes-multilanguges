@@ -114,11 +114,11 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
         className="custom-container"
       >
 
-        <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <h1 className="text-[#000000] py-6 max-w-4xl leading-tight">Digitizing Prior Authorization for Better Patient Outcomes  </h1>
+        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+          <div className="">
+            <h1 className="text-[#000000] py-6  leading-tight text-[24px] md:text-[48px] xl:text-[60px]">Digitizing Prior Authorization for Better Patient Outcomes  </h1>
           </div>
-          <div className="py-4"></div>
+       
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black">
               <div className='pb-6'>
@@ -130,7 +130,7 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
               </div>
             </div>
             <div className="pt-4"></div>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -181,17 +181,8 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
 
               <p className="text-black pb-6">The prior authorization process, a critical step in patient treatment, was a major bottleneck in the company’s healthcare delivery and revenue cycle operations.</p>
 
-              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px]  font-medium">
-                <li className="pb-4">Patients often had multiple policies with varying coverage rules, leading to confusion and delayed approvals.
-                </li>
-                <li className="pb-4">Patients were frequently unaware of non-covered treatments until they received post-treatment denial notifications, resulting in unexpected costs.</li>
-                <li className="pb-4">Hospitals manually gathered medical data from multiple departments, each needing to match specific formats required by various insurers.
-                </li>
-                <li className="pb-4">Reliance on paper forms or scanned PDFs led to processing delays, impacting treatment timelines and revenue collection.
-                </li>
-              </ul> */}
-  <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+  <div className="pl-2">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
                 <p className="text-black pb-4"> <li>Patients often had multiple policies with varying coverage rules, leading to confusion and delayed approvals.</li></p>
                 <p className="text-black pb-4"> <li>Patients were frequently unaware of non-covered treatments until they received post-treatment denial notifications, resulting in unexpected costs.</li></p>
                 <p className="text-black pb-4"><li>Hospitals manually gathered medical data from multiple departments, each needing to match specific formats required by various insurers.</li></p>
@@ -206,17 +197,17 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
 
               <p className="text-black pb-6">To streamline and digitize the prior authorization process, Rialtes developed a Salesforce-based solution using Salesforce Health Cloud that connected hospitals, healthcare providers, patients, and insurers within a unified digital workflow. </p>
 
-               <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h3 className="inline h3-bold">Unified Digital Platform </h3>: Consolidated insurance details, ICD codes, and treatment information into a single interface accessible to hospitals and care teams.</li></p>
+               <div className="pl-2">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+            <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Unified Digital Platform </h3>: Consolidated insurance details, ICD codes, and treatment information into a single interface accessible to hospitals and care teams.</li>
 
-                <p className="text-black pb-4 "><li><h3 className="inline h3-bold">Medical Input from Physicians </h3>: Enabled doctors to directly enter required clinical data, ensuring accuracy and completeness. </li></p>
+               <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Medical Input from Physicians </h3>: Enabled doctors to directly enter required clinical data, ensuring accuracy and completeness. </li>
 
-                 <p className="text-black pb-4 "><li><h3 className="inline h3-bold">Digital Patient Consent </h3>: Integrated electronic consent collection, ensuring transparency and compliance with patient authorization requirements. </li></p>
+                <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Digital Patient Consent </h3>: Integrated electronic consent collection, ensuring transparency and compliance with patient authorization requirements. </li>
 
-               <p className="text-black pb-4"><li><h3 className="inline h3-bold">Standardized Submissions </h3>: Automated the transmission of complete medical records using industry-standard formats (HL7 and FHIR), compliant with HIPAA regulations.</li></p>
+             <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Standardized Submissions </h3>: Automated the transmission of complete medical records using industry-standard formats (HL7 and FHIR), compliant with HIPAA regulations.</li>
 
-                      <p className="text-black "><li><h3 className="inline h3-bold">Condition-Aware UI </h3>: The user interface dynamically adjusts based on the medical condition, guiding users through all required steps to maximize authorization success.</li></p>
+                <li ><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Condition-Aware UI </h3>: The user interface dynamically adjusts based on the medical condition, guiding users through all required steps to maximize authorization success.</li>
               
               </ul>
             </div>
@@ -227,21 +218,21 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
           <div className="">
             <div className="">
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
-               <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+               <div className="pl-2">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
                 <p className="text-black pb-4"> <li>Streamlined communication between hospitals, providers, patients, and insurers through a single source of truth.</li></p>
                 <p className="text-black pb-4"> <li>Improved accuracy and completeness of submissions reduced insurance denials by 30%, minimizing delays in patient care and revenue loss.</li></p>
 
                 <p className="text-black pb-4"><li>Transitioning from paper to digital submissions cuts prior authorization approval times by up to 50%, improving overall care delivery speed.</li></p>
 
                 <p className="text-black pb-4"> <li>Greater transparency reduced surprise billing and enabled more confident treatment planning.</li></p>
-                <p className="text-black pb-4"><li>Hospital administrative workload for prior authorization processing decreased by 35%, freeing up staff to focus on patient care.</li></p>
+                <p className="text-black "><li>Hospital administrative workload for prior authorization processing decreased by 35%, freeing up staff to focus on patient care.</li></p>
                 
               </ul>
             </div>
             </div>
           </div>
-          <div className="py-6"></div>
+   
         </div>
       </section>
 

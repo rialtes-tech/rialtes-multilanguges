@@ -104,9 +104,9 @@ export default function Page() {
             <HeroSection mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />
 
             <section className="custom-container">
-                <div className="py-10 bg-white">
+                <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
                     <div className="">
-                        <h1 className="text-[#000000] py-6 max-w-4xl">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h1>
+                        <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h1>
                     </div>
                     <div className="py-4"></div>
                     <div className="">
@@ -114,12 +114,12 @@ export default function Page() {
                             <div className='pb-6'>
                                 <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
                             </div>
-                            <div className="flex flex-col">
+                            <div className="flex flex-col ">
                                 <span>8 min read</span>
                             </div>
                         </div>
                         <div className="pt-4"></div>
-                        <div className="flex flex-row gap-6">
+                        <div className="flex flex-row gap-6 ml-[-8px] ">
                             <div className="max-w-[40px]">
                                 <a
                                     href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -185,7 +185,7 @@ export default function Page() {
                                 <p className="text-black pb-4"><li>Customers can now complete the warranty claim process in under 4 minutes, cutting down processing time by over 60%.</li></p>
                                 <p className="text-black pb-4"> <li>The convenience of mobile access drove a 35% increase in submitted claims, showing higher engagement and usage.</li></p>
                                 <p className="text-black pb-4"> <li>User feedback showed a 25% improvement in satisfaction scores, directly linked to faster processing and ease of access.</li></p>
-                                <p className="text-black pb-4"> <li>Lower dependency on manual support freed up internal teams, reducing claim-handling time by half and improving response rates.</li></p>
+                                <p className="text-black "> <li>Lower dependency on manual support freed up internal teams, reducing claim-handling time by half and improving response rates.</li></p>
 
                             </ul>
 

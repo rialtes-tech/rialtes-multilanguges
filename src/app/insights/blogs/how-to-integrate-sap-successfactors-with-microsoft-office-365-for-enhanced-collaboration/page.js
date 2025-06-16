@@ -339,22 +339,15 @@ export default function Page() {
                 <li>Example: Schedule meetings in Outlook when onboarding new employees.</li>
               </ul>
 
-
-
               <div className="py-3"></div>
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">What does this Integration Mean for HR?</h2>
-
-
-
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
                 <li><h3 className="h3-bold inline">Start a Teams Chat from SAP SuccessFactors</h3>: Depending on the status of the latest People Profile enablement, users can initiate a Teams chat directly from a user’s quick card, profile header, or Profile Preview.</li>
                 <li><h3 className="h3-bold inline">Access Quick Actions and Notifications via the SAP SuccessFactors App in Teams</h3>: Perform quick actions related to Continuous Performance Management, Employee Central, Employee Central Payroll, and Time Tracking. Additionally, they receive notifications for approvals, time-sensitive reminders, and other events.</li>
                 <li><h3 className="h3-bold inline">Engage with SAP SuccessFactors Processes Using Outlook or Teams Online Meetings</h3>: They can leverage features for interview scheduling, enhancing collaboration and efficiency.</li>
                 <li><h3 className="h3-bold inline">Leverage the AI-Assisted Microsoft Teams App Chat Feature</h3>: Powered by a built-in AI engine, users can effortlessly initiate HR transactions or access personal data through natural language queries.</li>
               </ul>
-
-
               <div className="py-3"></div>
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px]  pb-4">Complete Everyday HR Tasks Right Inside Microsoft 365 Applications</h2>

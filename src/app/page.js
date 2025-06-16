@@ -32,7 +32,6 @@ const schemaData = {
         "https://x.com/Rialtestech"
     ]
 }
-
 const carouselData = [
     {
         title: "Blogs",
@@ -175,24 +174,24 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/sales-banner-mob.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
         { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', imageMobile: '/images/homepage/agentcmob.webp' },
         { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
 
     ]
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 3000);
-        return () => clearInterval(interval);
-    }, [slides.length]);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setCurrentSlide((prev) => (prev + 1) % slides.length);
+    //     }, 3000);
+    //     return () => clearInterval(interval);
+    // }, [slides.length]);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            handleNextInsights();
-        }, 5000);
-        return () => clearInterval(interval);
-    }, []);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         handleNextInsights();
+    //     }, 5000);
+    //     return () => clearInterval(interval);
+    // }, []);
 
     return (
         <div>
@@ -215,7 +214,7 @@ const Home = () => {
                 <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
                 {/* hero section */}
                 <div className="relative">
-                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[600px] overflow-hidden relative custom-container">
+                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[500px] overflow-hidden relative custom-container">
                         {slides.map((slide, index) => (
                             <React.Fragment key={index}>
                                 <Link href={slide.link}>
@@ -278,28 +277,29 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* //innovating section */}
                 <section className='custom-container xl:mt-[98px] mt-[55px]'>
                     <Image
-                        loading="lazy"
+                        priority
                         height='100'
                         width='280'
                         alt='Success Stories'
-                        className='object-contain  w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
+                        className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
                         src='/images/homepage/AdobeStock_406847557.svg'
                     />
                     <div
                         ref={refs[7]}
-                        className={`transition-all  duration-1000 ease-out transform grid xl:grid-cols-12 grid-cols-1 ${inViews[7] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                        className={`transition-all duration-1000 ease-out transform grid xl:grid-cols-12 grid-cols-1 ${inViews[7] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                             }`}
 
                     >
                         <div className='lg:col-span-4 col-span-12 lg:border-r-[2px] border-black-900'></div>
 
                         <div className='lg:col-span-8 col-span-12 2xl:pl-[78px] lg:pl-[42px]'>
-                            <h2 className="xl:text-[110px] lg:text-[100px] md:text-[80px] font-bold text-[33px] outline-text border-l-[2px] xl:border-none border-gay-300 ml-[34%] sm:ml-[35%] md:ml-[32%] pl-[20px] xl:pl-0 xl:ml-auto">with Impact</h2>
-                            <h3 className='xl:text-[34px] text-[26px] text-[#0077CE] xl:mt-[30px] mt-[30px] font-bold'>Beyond Business: A Commitment to Change</h3>
-                            <p className='xl:mt-[27px] mt-[] lg:text-[20px] lg:leading-[30px] text-[16px] leading-[24px]'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                            <h3 className="4xl:text-[110px] xl:text-[80px] md:text-[60px] sm:text-[46px] font-bold text-[33px] outline-text border-l-[2px] xl:border-none border-gay-300 ml-[34%] sm:ml-[35%] md:ml-[32%] pl-[20px] xl:pl-0 xl:ml-auto mt-[20px] leading-tight">with Impact</h3>
+                            <h2 className='4xl:text-[32px] xl:text-[28px] text-[26px] text-[#0077CE] xl:mt-[30px] mt-[30px] font-bold leading-tight'>Beyond Business: A Commitment to Change</h2>
+                            <p className='xl:mt-[27px] mt-[16px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                         </div>
 
                     </div>
@@ -316,24 +316,24 @@ const Home = () => {
 
                     >
                         <div className='col-span-5'>
-                            <h2>Success Stories</h2>
+                            <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight'>Success Stories</h2>
                         </div>
                         <div className='col-span-7'>
-                            <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
+                            <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%] 4xl:text-[20px] xl:text-[18px] text-[16px]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
 
                         </div>
                         <div className='col-span-3'></div>
 
                     </div>
-                    <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
+                    <div className='grid lg:grid-cols-4 sm:grid-cols-2 mt-16 sm:gap-[20px] gap-y-[22px]'>
                         {successStoryData.map((success, index) => {
                             // const isLight = success.theme === "light";
                             return (
                                 <React.Fragment key={index}>
                                     <Link href={success.url}>
-                                        <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
+                                        <div className="relative  4xl:h-[486px] lg:h-[360px] h-[391px] overflow-hidden group shadow-lg">
                                             <div
-                                                className="absolute  inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
+                                                className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
                                                 style={{
                                                     backgroundImage: `url(${success.imageUrl})`,
                                                     backgroundSize: 'cover',
@@ -342,16 +342,16 @@ const Home = () => {
                                             ></div>
 
                                             <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
-                                            <div className={`relative  z-10 p-6 text-white`}>
+                                            <div className={`relative z-10 p-6 text-white`}>
                                                 <p className="mb-5 text-[18px] ">{success.title}</p>
-                                                <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
+                                                <p className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
                                                     {success.description}
-                                                </h3>
+                                                </p>
                                             </div>
                                         </div>
 
                                         {(index + 1) % 4 === 0 && (
-                                            <div className="w-full xl:col-span-4 xl:mt-10"></div>
+                                            <div className="w-full xl:col-span-4"></div>
                                         )}
                                     </Link>
                                 </React.Fragment>
@@ -364,35 +364,37 @@ const Home = () => {
 
 
             {/* industry experties and solutions */}
-            <section className='xl:mt-[165px] mt-[87px]'>
+            <section className='xl:mt-[158px] mt-[87px]'>
                 <div
                     ref={refs[1]}
                     className={`custom-container transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                         }`}
                 >
-                    <div className='col-span-7'>
-                        <h2 className='leading-tight'>Industry Expertise <br />& Solutions</h2>
+                    <div className='col-span-6'>
+                        <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise <br />& Solutions</h2>
                     </div>
-                    <div className='col-span-5'>
-                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 leading-tight '>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
+                    <div className='col-span-6'>
+                        <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
                     </div>
                 </div>
 
                 <AutoTimerSlider />
 
             </section>
+
             {/* insights section */}
             <section>
-                <div className="custom-container grid xl:grid-cols-2 xl:mt-[182px] mt-[97px] xl:h-[850px]">
+                <div className="custom-container grid lg:grid-cols-2 lg:mt-[182px] mt-[97px] lg:h-[850px]">
+                    {/* mob section */}
                     <div
                         ref={refs[2]}
-                        className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block xl:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                        className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                             }`}
                     >
-                        <h2 className="leading-tight text-[32px] xl:text-[48px] font-bold text-[#073259]">
+                        <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">
                             Insights
                         </h2>
-                        <p className="mt-6 xl:mt-10 text-[16px] xl:text-[20px] leading-tight">
+                        <p className="mt-6 xl:mt-10 text-[16px] 2xl:w-[70%] 4xl:text-[20px] xl:text-[18px] sm:w-[70%] mb-10">
                             Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.
                         </p>
                     </div>
@@ -409,27 +411,28 @@ const Home = () => {
                             <img
                                 src={carouselData[activeIndexInsights].image}
                                 alt={carouselData[activeIndexInsights].title}
-                                className="w-full h-[435px] object-cover"
+                                className="w-full md:h-[900px] sm:h-[500px] h-[435px] object-cover"
+                                style={{ objectPosition: "35% 20%" }}
                             />
                         </div>
                     </div>
 
-
+                    {/* desktop section */}
                     <div className="h-full flex flex-col justify-between pt-0">
                         <div
                             ref={refs[2]}
-                            className={`transition-all duration-1000 ease-out transform xl:pl-[68px] xl:block hidden ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                            className={`transition-all duration-1000 ease-out transform lg:pl-[68px] lg:block hidden ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                                 }`}
                         >
-                            <h2 className="leading-tight text-[32px] xl:text-[48px] font-bold text-[#073259]">
+                            <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">
                                 Insights
                             </h2>
-                            <p className="mt-6 xl:mt-10 text-[16px] xl:text-[20px] leading-tight text-gray-700">
+                            <p className="mt-6 lg:mt-10 text-[16px] 3xl:w-[80%] 4xl:text-[20px] xl:text-[18px] leading-tight text-gray-700">
                                 Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.
                             </p>
                         </div>
 
-                        <div className="text-white space-y-6 bg-[#184671] xl:pl-[65px] pl-[29px] pt-[35px] xl:pt-[78px] xl:mt-0">
+                        <div className="text-white space-y-6 bg-[#184671] lg:pl-[65px] pl-[29px] pt-[35px] lg:pt-[78px] lg:mt-0">
                             <div className="xl:text-[26px] text-[16px]">
                                 {carouselData[activeIndexInsights].title}
                             </div>
@@ -437,7 +440,7 @@ const Home = () => {
                             <Link href={carouselData[activeIndexInsights].link}>
                                 <p
                                     ref={refs[5]}
-                                    className={`transition-all xl:text-[38px] lg:text-[36px] font-normal text-[24px] xl:pb-[60px] xl:pr-[40px] pr-[40px] xl:mt-[38px] mt-[13px] duration-1000 ease-out transform ${inViews[5] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                                    className={`transition-all 4xl:text-[38px] xl:text-[30px] text-[24px] font-normal lg:pb-[60px] lg:pr-[40px] pr-[40px] lg:mt-[38px] mt-[13px] duration-1000 ease-out transform ${inViews[5] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                                         }`}
                                 >
                                     {carouselData[activeIndexInsights].description}
@@ -477,17 +480,17 @@ const Home = () => {
                         }`}
                 >
 
-                    <p className="text-[#073259] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] xl:text-[140px] xl:leading-[219px] lg:text-[80px] font-extrabold">
+                    <p className="text-[#073259] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] 4xl:text-[140px] 4xl:leading-[219px] lg:text-[80px] font-extrabold">
                         <span>LIFE</span>
-                        <span className="text-[#073259] text-[24px] leading-[32px] md:text-[36px] md:leading-[44px] xl:text-[54px] xl:leading-[73px] lg:text-[40px] font-extrabold">
+                        <span className="text-[#073259] text-[24px] leading-[32px] md:text-[36px] md:leading-[44px] 4xl:text-[54px] 4xl:leading-[73px] lg:text-[40px] font-extrabold">
                             @
                         </span>
-                        <p className="text-[#0C8AD4] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] xl:mt-[-64px] xl:text-[130px] xl:leading-[219px] lg:text-[120px] font-extralight">
+                        <p className="text-[#0C8AD4] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] xl:mt-[-64px] 4xl:text-[130px] xl:leading-[219px] lg:text-[100px] font-extralight">
                             RIALTES
                         </p>
                         <span></span>
 
-                        <p className="text-[14px] leading-[20px] md:text-[16px] md:leading-[26px] xl:text-[20px] xl:leading-[30px] font-medium xl:mt-[27px] mt-[19px] xl:w-[90%] w-[90%] ">
+                        <p className="text-[14px] leading-[20px] xl:text-[16px] xl:leading-[26px] 4xl:text-[20px] 4xl:leading-[30px] font-medium xl:mt-[27px] mt-[19px] xl:w-[90%] lg:w-[70%] md:w-[80%] w-[90%] ">
                             Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.
                         </p>
                     </p>
@@ -516,7 +519,7 @@ const Home = () => {
             </section>
 
             <section className='pb-20 mt-20 custom-container'>
-                <ContactForm className='xl:w-[60rem] w-full xl:text-[60px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                <ContactForm className='xl:w-[80%] 4xl:w-ful w-full 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
             </section>
         </div >
     )

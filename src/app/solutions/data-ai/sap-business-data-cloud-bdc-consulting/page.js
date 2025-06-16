@@ -9,53 +9,55 @@ import ContactForm from "../../../components/contactform";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "SAP Business Data Cloud: End Data Chaos Today",
-  "url": "https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting",
-  "headline": "SAP Business Data Cloud: End Data Chaos Today",
-  "description": "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
-  "publisher": {
+  name: "SAP Business Data Cloud: End Data Chaos Today",
+  url: "https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting",
+  headline: "SAP Business Data Cloud: End Data Chaos Today",
+  description:
+    "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
+  publisher: {
     "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
+    name: "Rialtes",
+    url: "https://www.rialtes.com",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
+    },
   },
-  "mainEntity": {
+  mainEntity: {
     "@type": "Product",
-    "name": "SAP Business Data Cloud Services",
-    "brand": {
+    name: "SAP Business Data Cloud Services",
+    brand: {
       "@type": "Brand",
-      "name": "SAP"
+      name: "SAP",
     },
-    "description": "Rialtes helps you implement SAP Business Data Cloud for unified data management, migration from BW/Datasphere, Databricks integration, and intelligent data fabric design.",
-    "offers": {
+    description:
+      "Rialtes helps you implement SAP Business Data Cloud for unified data management, migration from BW/Datasphere, Databricks integration, and intelligent data fabric design.",
+    offers: {
       "@type": "Offer",
-      "price": "Contact for pricing",
-      "priceCurrency": "USD",
-      "url": "https://www.rialtes.com/contact-us"
-    }
+      price: "Contact for pricing",
+      priceCurrency: "USD",
+      url: "https://www.rialtes.com/contact-us",
+    },
   },
-  "about": [
+  about: [
     {
       "@type": "Thing",
-      "name": "Data Fabric"
+      name: "Data Fabric",
     },
     {
       "@type": "Thing",
-      "name": "SAP Integration"
+      name: "SAP Integration",
     },
     {
       "@type": "Thing",
-      "name": "Enterprise Data Management"
+      name: "Enterprise Data Management",
     },
     {
       "@type": "Thing",
-      "name": "Cloud Data Strategy"
-    }
-  ]
-}
+      name: "Cloud Data Strategy",
+    },
+  ],
+};
 const Data = [
   {
     title: "Business-Ready Data",
@@ -114,49 +116,52 @@ export default function Page() {
         extraImg=""
       /> */}
 
- <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
-                {/* Desktop Image */}
-                <div className="xl:block hidden">
-                    <Image
-                        src="/images/sap-bdc-services/sap-bdc-services-web.webp"
-                        alt="SAP Business Data Cloud"
-                        fill
-                        priority
-                        sizes="100vw"
-                        className="object-cover"
-                    />
-                </div>
+      <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
+        {/* Desktop Image */}
+        <div className="xl:block hidden">
+          <Image
+            src="/images/sap-bdc-services/sap-bdc-services-web.webp"
+            alt="SAP Business Data Cloud"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
 
-                {/* Mobile/Tablet Image */}
-                <div className="xl:hidden block">
-                    <Image
-                        src="/images/sap-bdc-services/sap-bdc-services-mobile.webp"
-                        alt="SAP Business Data Cloud"
-                        fill
-                        priority
-                        sizes="100vw"
-                        className="object-cover"
-                    />
-                </div>
+        {/* Mobile/Tablet Image */}
+        <div className="xl:hidden block">
+          <Image
+            src="/images/sap-bdc-services/sap-bdc-services-mobile.webp"
+            alt="SAP Business Data Cloud"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
 
-                {/* Text Content */}
-                <div className="absolute inset-0 flex items-center">
-                    <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container max-md:mr-[12%] text-white xl:mt-0">
-                        <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
-                           SAP Business Data Cloud
-                        </h3>
-                        <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px]  mt-[11.5px] md:mt-[28.5px]">
-Unlock the Future of Data with SAP Business Data Cloud                        </h2>
-                    </div>
-                </div>
-            </section>
+        <div className="absolute inset-0 flex items-center">
+          <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container max-md:mr-[12%] text-white xl:mt-0">
+            <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
+              SAP Business Data Cloud
+            </h3>
+            <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px]  mt-[11.5px] md:mt-[28.5px]">
+              Unlock the Future of Data with SAP Business Data Cloud{" "}
+            </h2>
+          </div>
+        </div>
+      </section>
 
       <section className="mt-16  ">
         <section className="custom-container">
-          <h2 className="2xl:w-[69%] xl:w-[72%] leading-tight pb-6">
-Unify Your Enterprise Data  From Finance to Frontline  </h2>
+          <h2 className="2xl:w-[69%] xl:w-[55%] leading-tight pb-6 2xl:text-[60px] xl:text-[40px] md:text-[26px]">
+            Unify Your Enterprise Data From Finance to Frontline{" "}
+          </h2>
           <p className=" xl:w-[67%] ">
-           Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate:
+            Rialtes helps you connect and harmonize enterprise data across your
+            business applications. With SAP Business Data Cloud, we enable you
+            to integrate:
           </p>
 
           <div className="flex xl:gap-32 gap-10   flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%] ">
@@ -176,7 +181,10 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
             </div>
             <div className="lg:w-1/2">
               <p>
-              Whether you’re optimizing profitability, driving operational efficiency, or delivering personalized customer experiences, SAP Business Data Cloud, implemented by Rialtes, gives you a unified and contextualized view of your enterprise landscape.
+                Whether you’re optimizing profitability, driving operational
+                efficiency, or delivering personalized customer experiences, SAP
+                Business Data Cloud, implemented by Rialtes, gives you a unified
+                and contextualized view of your enterprise landscape.
               </p>
             </div>
           </div>
@@ -202,15 +210,22 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
                 className="block lg:hidden w-full h-full object-cover px-0"
               />
             </div>
-            <div className="lg:col-span-5  2xl:pl-8 2xl:p-11  xl:pl-3 ">
-              <h2 className=" text-black xl:w-[100%]  2xl:w-[78%] ">
+            <div className="lg:col-span-5  2xl:pl-8 2xl:p-11  xl:pl-8 sm:pl-6 ">
+              <h2 className=" text-black  leading-tight  2xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 3xl:w-[84%] 2xl:w-[89%] ">
                 A Unified, Open Data Foundation for Intelligent Enterprises
               </h2>
-              <p className="text-[16px] lg:text-[20px] 2xl:pr-[53px] ">
-                SAP Business Data Cloud enhances enterprise data management by combining SAP’s data platform capabilities with native integration for SAP applications and compatibility with third-party platforms like Databricks, Google BigQuery, and Snowflake. It enables the unification of business context and data for real-time insights and AI-driven decisions.
+              <p className="text-[16px] lg:text-[20px] lg:pr-[56px] leading-tight">
+                SAP Business Data Cloud enhances enterprise data management by
+                combining SAP’s data platform capabilities with native
+                integration for SAP applications and compatibility with
+                third-party platforms like Databricks, Google BigQuery, and
+                Snowflake. It enables the unification of business context and
+                data for real-time insights and AI-driven decisions.
               </p>
-              <p className="text-[16px] lg:text-[20px] mt-4 2xl:pr-[53px] ">
-              As a SAP Authorized Partner and a Databricks Strategic Partner, Rialtes empowers organizations to seamlessly adopt SAP Business Data Cloud and unlock the full value of their enterprise data.
+              <p className="text-[16px] lg:text-[20px] mt-4 lg:pr-[56px] leading-tight">
+                As a SAP Authorized Partner and a Databricks Strategic Partner,
+                Rialtes empowers organizations to seamlessly adopt SAP Business
+                Data Cloud and unlock the full value of their enterprise data.
               </p>
               <div className="">
                 <LearnMore />
@@ -246,39 +261,45 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
             </div>
           </div>
 
-       <div className="xl:col-span-6 bg-[#006FBE] p-7 px-10 text-white order-2 xl:order-1 relative">
-  <h2>SAP Data Fabric</h2>
-  <h3 className="xl:text-[26px] font-semibold text-[18px] mt-3">
-    Powered by SAP Business Data Cloud
-  </h3>
-  <p className="mt-4 text-[#FFFFFF] font-light">
-    The SAP Data Fabric acts as a smart, connected data layer across your organization.
-    It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.
-  </p>
-  <p className="mt-4 text-[#FFFFFF] font-light">
-    With SAP Data Fabric, you can:
-  </p>
+          <div className="xl:col-span-6 bg-[#006FBE] p-7 px-10 text-white order-2 xl:order-1 relative">
+            <h2 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px]">SAP Data Fabric</h2>
+            <h3 className="2xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
+              Powered by SAP Business Data Cloud
+            </h3>
+            <p className="mt-4 text-[#FFFFFF] font-light leading-tight">
+              The SAP Data Fabric acts as a smart, connected data layer across
+              your organization. It provides a consistent foundation for
+              accessing, modeling, and governing enterprise data with business
+              context intact.
+            </p>
+            <p className="mt-4 text-[#FFFFFF] font-light leading-tight">
+              With SAP Data Fabric, you can:
+            </p>
 
-  <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4">
-    <li className="pb-4">
-      Connect live and replicated data across multi-cloud and hybrid landscapes
-    </li>
-    <li className="pb-4">
-      Unify semantic definitions across domains and systems
-    </li>
-    <li className="pb-4">
-      Ensure trusted data governance and lineage across all business functions
-    </li>
-    <li>
-      Accelerate AI, planning, and analytics with clean, context-rich data
-    </li>
-  </ul>
+            <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4 leading-tight">
+              <li className="pb-4  xl:text-[20px]">
+                Connect live and replicated data across multi-cloud and hybrid
+                landscapes
+              </li>
+              <li className="pb-4  xl:text-[20px]">
+                Unify semantic definitions across domains and systems
+              </li>
+              <li className="pb-4  xl:text-[20px]">
+                Ensure trusted data governance and lineage across all business
+                functions
+              </li>
+              <li className=" xl:text-[20px]">
+                Accelerate AI, planning, and analytics with clean, context-rich
+                data
+              </li>
+            </ul>
 
-  {/* Learn More*/}
-<div className="absolute bottom-[-19px]">    <LearnMore />
-  </div>
-</div>
-
+            {/* Learn More*/}
+            <div className="absolute bottom-[-19px]">
+       
+              <LearnMore />
+            </div>
+          </div>
         </section>
         <div className="py-7"></div>
         <section className="relative">
@@ -306,13 +327,10 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
             />
           </div>
 
-
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
-            {/* Left text */}
-            <div className="text-left lg:w-[40%] flex pt-[46px] flex-col ">
-              <h2 className="">Why Choose SAP Business Data Cloud?</h2>
-              <div className="xl:mt-[80px]  ">
-             
+            <div className="text-left lg:w-[40%] flex pt-[59px] flex-col ">
+              <h2 className="leading-tight xl:w-[78%] 2xl:w-[100%]  2xl:text-[60px] xl:text-[40px] lg:text-[45px] m">Why Choose SAP Business Data Cloud?</h2>
+              <div className="lg:mt-[80px]  ">
                 <Link
                   href="/contact-us"
                   className=" bg-[#006FBE]   hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 absolute  max-lg:bottom-[-20px]"
@@ -322,7 +340,6 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
               </div>
             </div>
 
-            {/* Right text */}
 
             <div className="lg:w-[60%] mt-6  lg:relative bottom-0 lg:bottom-[-50px] max-md:pb-10 max-lg:mb-10">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-9 z-90">
@@ -331,10 +348,10 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
                     key={index}
                     className=" bg-white border border-[#707070] p-8 xl:py-[3.5rem] text-black"
                   >
-                    <p className="text-[#0A6BB8] text-[20px] font-bold leading-tight">
+                    <p className="text-[#0A6BB8] 2xl:text-[30px] xl:text-[22px] text-[20px] font-bold leading-tight">
                       {item.title}
                     </p>
-                    <p className="mt-4 text-[16px] leading-[24px] ">
+                    <p className="mt-4 xl:text-[20px] text-[16px] leading-tight ">
                       {item.desc}
                     </p>
                   </div>
@@ -344,8 +361,8 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
           </div>
         </section>
         <div className="py-10"></div>
-        <section className="custom-container  grid grid-cols-1 xl:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-0">
-          <div className="order-1 xl:order-2 2xl:h-[579px] xl:col-span-5">
+        <section className="custom-container  grid grid-cols-1 xl:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-0  xl:mt-6">
+          <div className="order-1 xl:order-2 2xl:h-[579px] h-full xl:col-span-5">
             <Image
               src="/images/sap-bdc-services/Your-Trusted-SAP-web.webp"
               alt="supplier-profile-img"
@@ -363,27 +380,32 @@ Unify Your Enterprise Data  From Finance to Frontline  </h2>
             />
           </div>
 
-          <div className="order-2 xl:order-1  xl:col-span-7  ">
-            <h2 className="xl:mt-[48px] text-[26px] leading-[32px] font-light lg:text-[60px] lg:leading-[73px] md:text-[36px] md:leading-[44px] 2xl:pr-20">
+          <div className="order-2 xl:order-1  xl:col-span-7 ">
+            <h2 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:pr-[40px] 2xl:pr-20 ">
               Rialtes: Your Trusted SAP & Databricks Partner
             </h2>
-            <p className="text-[16px] leading-[19px] mt-[23px] font-normal md:text-[18px] md:leading-[28px] lg:text-[20px] lg:leading-[24px] lg:mt-[33px] xl:pr-20">
-              Rialtes specializes in data cloud architecture, implementation, and governance with a team of SAP-certified engineers. We integrate process intelligence, data engineering, and cloud development to deliver measurable value from your enterprise data. Our certified teams assist you in:
+            <p className="text-[16px] leading-tight mt-[23px] font-normal md:text-[18px]  lg:text-[20px]  lg:mt-[33px] xl:pr-20">
+              Rialtes specializes in data cloud architecture, implementation,
+              and governance with a team of SAP-certified engineers. We
+              integrate process intelligence, data engineering, and cloud
+              development to deliver measurable value from your enterprise data.
+              Our certified teams assist you in:
             </p>
             <div>
-            
-              <ul className="list-disc pt-4 text-black pl-4 xl:text-[20px] text-[16px] xl:pr-20">
+              <ul className="list-disc pt-4 text-black pl-4 xl:text-[20px] text-[16px] xl:pr-20 leading-tight">
                 <li className="pb-2">
-                 Finance, Procurement, and Supply Chain Data from SAP S/4HANA                </li>
-                <li className="pb-2">
-Workforce and Payroll Intelligence from SAP SuccessFactors                </li>
-                <li>
-Sales, Service, and Marketing Insights from Salesforce or SAP CX
+                  Finance, Procurement, and Supply Chain Data from SAP S/4HANA
                 </li>
-                
+                <li className="pb-2">
+                  Workforce and Payroll Intelligence from SAP SuccessFactors
+                </li>
+                <li>
+                  Sales, Service, and Marketing Insights from Salesforce or SAP
+                  CX
+                </li>
               </ul>
             </div>
-           
+
             <div className="lg:mt-[7px]">
               <LearnMore />
             </div>
@@ -391,11 +413,11 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
         </section>
         <div className="py-10"></div>
         <section className="custom-container  px-[2rem]">
-          <h2 className="xl:w-[75%] leading-tight pb-6">
+          <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 2xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Seamless Migration from SAP Business Warehouse to SAP Business Data
             Cloud
           </h2>
-          <p className=" xl:w-[75%] ">
+          <p className=" xl:w-[75%] leading-tight">
             Modernize your analytics and accelerate cloud transformation:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 lg:mt-[53px] mt-[36px]">
@@ -410,10 +432,10 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
                   key={ind}
                 >
                   <div>
-                    <h3 className="text-[#0A6BB8] text-[20px] font-bold leading-tight">
+                    <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] font-bold leading-tight">
                       {data.title}
                     </h3>
-                    <p className="mt-4 text-[16px] leading-[24px] ">
+                    <p className="mt-4  xl:text-[20px] text-[16px] leading-tight">
                       {data.desc}
                     </p>
                   </div>
@@ -431,16 +453,16 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
               <div className="bg-[#073259] text-[white] lg:py-[55px] lg:w-[600px] xl:w-[750px] 3xl:w-[1110px] 2xl:w-[950px] max-lg:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative">
                 <div className="custom-container max-md:px-0 2xl:pr-0">
                   <div className="xl:w-[82%] lg:w-[80%] 2xl:w-[62%] ">
-                    <h2 className=" leading-tight ">
+                    <h2 className=" leading-tight pb-6 2xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                       Migrate from SAP Datasphere to SAP Business Data Cloud
                     </h2>
-                    <p className="mt-5  text-[#FFFFFF] font-light">
+                    <p className="mt-5  text-[#FFFFFF] font-light leading-tight">
                       SAP Business Data Cloud brings the next-generation
                       capabilities of Datasphere under a unified data
                       architecture. Rialtes makes this transition frictionless:
                     </p>
-                    
-                    <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4">
+
+                    <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4 leading-tight">
                       <li className="pb-1">
                         <div className="font-semibold">
                           Data Mapping & Reconciliation
@@ -459,7 +481,7 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
                           preserved during the shift
                         </div>
                       </li>
-                      
+
                       <li className="pb-1">
                         <div className="font-semibold">Open Extension </div>
                         <div className="font-light">
@@ -542,30 +564,29 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
               />
             </div>
 
-            {/* Text Over the Image */}
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 h-full px-4 py-10 text-white max-md:pb-[22rem] ">
-              <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%]  ">
-                <h2 className="leading-tight pb-6 text-black  ">
+              <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%] xl:w-[75%]  ">
+                <h2 className="leading-tight pb-6 text-black  2xl:text-[60px] xl:text-[40px] md:text-[26px]  ">
                   Connect SAP Business Data Cloud with Databricks
                 </h2>
-                <p className="mt-4 text-black  font-light">
+                <p className="mt-4 text-black  font-light leading-tight">
                   As a certified Databricks consulting partner, Rialtes helps
                   you:
                 </p>
                 <ul className="list-disc pt-4 text-black pl-5  font-light">
-                  <li className="pb-2">
+                  <li className="pb-2 xl:text-[20px] leading-tight">
                     Establish bi-directional data pipelines between SAP and
                     Databricks
                   </li>
 
-                  <li className="pb-2">
+                  <li className="pb-2 xl:text-[20px] leading-tight">
                     Use Delta Lake and MLFlow with SAP semantic models
                   </li>
-                  <li className="pb-2">
+                  <li className="pb-2 xl:text-[20px] leading-tight">
                     Enable real-time predictive insights using SAP business
                     context
                   </li>
-                  <li>
+                  <li className="xl:text-[20px] leading-tight">
                     Create industry-specific AI models using unified data across
                     platforms
                   </li>
@@ -577,7 +598,7 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
 
         <div className="py-10"></div>
 
-        <section className="relative max-[417px]:h-[860px] h-[600px] sm:h-[540px] md:h-[740px] lg:h-[600px] xl:h-[900px] 2xl:h-[790px] overflow-hidden">
+        <section className="relative max-[417px]:h-[710px] h-[600px] sm:h-[400px] md:h-[600px] lg:h-[480px] xl:h-[600px] 2xl:h-[712px] overflow-hidden">
           {/* Desktop Background Image */}
           <div className="hidden lg:block">
             <Image
@@ -602,13 +623,11 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
             />
           </div>
 
-          {/* Text Content Section */}
           <div className="custom-container max-md:px-0">
             <div className="relative z-10 grid grid-cols-12 h-full px-4 max-md:px-0 md:ml-0 text-white">
               <div className="md:col-span-6 col-span-12 pt-10 z-10 hidden md:block"></div>
 
               <div className="md:col-span-6 col-span-12 relative h-full">
-                
                 <div className="">
                   <div
                     className="absolute md:inset-0  px-11 py-12 text-white max-[417px]:h-[860px] h-[700px] sm:h-[540px] md:h-[740px] xl:h-[900px] lg:h-[600px] 2xl:h-[790px]"
@@ -619,11 +638,11 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
                     }}
                   >
                     <div style={{ opacity: 1, color: "#FFFFFF" }}>
-                      <h2 className="xl:text-[57px] text-[26px] mb-4 leading-tight">
+                      <h2 className="mb-4 leading-tight  2xl:text-[56px] xl:text-[40px] md:text-[26px]">
                         Our SAP Business Data Cloud Services
                       </h2>
-                     
-                      <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4">
+
+                      <ul className="list-disc leading-tight p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4">
                         <li className="pb-1">
                           <div className="font-semibold">
                             Consulting & Advisory
@@ -661,64 +680,63 @@ Sales, Service, and Marketing Insights from Salesforce or SAP CX
         </section>
         {/* Why Clients Choose Rialtes */}
 
-      
- <section className="custom-container lg:mt-[120px] max-md:px-0">
-  <div className="grid lg:grid-cols-12 grid-cols-1">
-    {/* Text Section */}
-    <div className="lg:col-span-6 col-span-12 lg:order-1 order-2 xl:mr-[40px] relative">
-   {/* Mobile image positioned on top */}
-<div className="block lg:hidden relative z-10 px-6 "> 
-  <Image
-    src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
-    alt="mobile image"
-    width={0}
-    height={0}
-    className="w-full h-[400px] max-w-[320px] mx-auto "
-    style={{ objectFit: "cover", objectPosition: "70% 20%" }}
-    priority
-  />
-</div>
+        <section className="custom-container lg:mt-[120px] max-md:px-0">
+          <div className="grid lg:grid-cols-12 grid-cols-1">
+            <div className="lg:col-span-6 col-span-12 lg:order-1 order-2 xl:mr-[40px] relative">
+              <div className="block lg:hidden relative z-10 px-6 ">
+                <Image
+                  src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
+                  alt="mobile image"
+                  width={0}
+                  height={0}
+                  className="w-full h-[400px] max-w-[320px] mx-auto "
+                  style={{ objectFit: "cover", objectPosition: "70% 20%" }}
+                  priority
+                />
+              </div>
 
+              <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[750px] xl:pl-0 2xl:h-[630px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
+                <div className="custom-container xl:pl-[70px] max-lg:pt-[140px] max-md:px-0">
+                  <div className="xl:w-[70%] lg:w-[80%]">
+                    <h2 className="leading-tight  2xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
+                      Why Clients Choose Rialtes
+                    </h2>
+                    <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] leading-tight">
+                      <li className="pb-2">
+                        SAP-Certified Implementation Experts
+                      </li>
+                      <li className="pb-2">
+                        Accelerators for BW and Datasphere Migration
+                      </li>
+                      <li className="pb-2">
+                        Global Delivery with 24x7 Support
+                      </li>
+                      <li>
+                        Industry-Specific Data Frameworks for Life Sciences,
+                        Retail, Automotive & More
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      {/* Blue Text Box */}
-      <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[750px] xl:pl-0 2xl:h-[630px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
-        <div className="custom-container xl:pl-[70px] max-lg:pt-[140px]">
-          <div className="xl:w-[70%] lg:w-[80%]">
-            <h2 className="leading-tight">Why Clients Choose Rialtes</h2>
-            <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px]">
-              <li className="pb-2">SAP-Certified Implementation Experts</li>
-              <li className="pb-2">Accelerators for BW and Datasphere Migration</li>
-              <li className="pb-2">Global Delivery with 24x7 Support</li>
-              <li>
-                Industry-Specific Data Frameworks for Life Sciences, Retail,
-                Automotive & More
-              </li>
-            </ul>
+            {/* Desktop Image (unchanged) */}
+            <div className="lg:col-span-6 col-span-12 lg:order-2 order-1 xl:mr-5">
+              <div className="hidden lg:block relative w-full h-full top-[-120px] right-0 z-20">
+                <Image
+                  src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
+                  alt="desktop image"
+                  className="w-full h-full"
+                  width={0}
+                  height={0}
+                  style={{ objectFit: "cover", objectPosition: "25% 20%" }}
+                  priority
+                />
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    {/* Desktop Image (unchanged) */}
-    <div className="lg:col-span-6 col-span-12 lg:order-2 order-1 xl:mr-5">
-      <div className="hidden lg:block relative w-full h-full top-[-120px] right-0 z-20">
-        <Image
-          src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
-          alt="desktop image"
-          className="w-full h-full"
-          width={0}
-          height={0}
-          style={{ objectFit: "cover", objectPosition: "25% 20%" }}
-          priority
-        />
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-        
+        </section>
       </section>
       <div className="mx-[35px]  custom-container text-black py-16">
         <ContactForm

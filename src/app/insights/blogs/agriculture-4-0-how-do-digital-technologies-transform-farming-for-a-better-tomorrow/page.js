@@ -339,12 +339,6 @@ export default function Page() {
                  <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}>
                  <span className="">Reach out to us </span></Link>
  to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
-
-
-
-
-
-
             </div>
           </div>
         </div>
