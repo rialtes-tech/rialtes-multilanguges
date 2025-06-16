@@ -31,14 +31,14 @@ const TransformationSection = () => (
   <div className="py-24">
     <div className="custom-container flex items-start max-xl:flex-col justify-between gap-10">
       <div className="w-full xl:max-w-[50%] max-w-full">
-        <h2 className="w-full mb-8">
+        <h2 className="w-full mb-8 4xl:text-[60px] xl:text-[40px] md:text-[26px] leading-tight">
           Unleashing Digital Transformation with Robust Integration Solution
         </h2>
-        <p className="w-full">
+        <p className="w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">
           Unleashing Digital Transformation with Robust Integration Solution
         </p>
 
-        <ul className="mt-[40px]">
+        <ul className="mt-[40px]  4xl:text-[20px] xl:text-[18px] text-[16px]">
           {pointsData.map(({ _id, points }) => (
            
 

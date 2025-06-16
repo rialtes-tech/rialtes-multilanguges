@@ -146,7 +146,7 @@ export default function Page() {
             <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
               SAP Business Data Cloud
             </h3>
-            <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px]  mt-[11.5px] md:mt-[28.5px]">
+            <h2 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
               Unlock the Future of Data with SAP Business Data Cloud{" "}
             </h2>
           </div>
@@ -155,10 +155,10 @@ export default function Page() {
 
       <section className="mt-16  ">
         <section className="custom-container">
-          <h2 className="2xl:w-[69%] xl:w-[55%] leading-tight pb-6 2xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="2xl:w-[69%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Unify Your Enterprise Data From Finance to Frontline{" "}
           </h2>
-          <p className=" xl:w-[67%] ">
+          <p className=" xl:w-[67%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight ">
             Rialtes helps you connect and harmonize enterprise data across your
             business applications. With SAP Business Data Cloud, we enable you
             to integrate:
@@ -166,7 +166,7 @@ export default function Page() {
 
           <div className="flex xl:gap-32 gap-10   flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%] ">
             <div className="lg:w-1/2">
-              <ul className="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium ">
+              <ul className="list-disc text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium ">
                 <li className="pb-4">
                   Finance, Procurement, and Supply Chain Data from SAP S/4HANA
                 </li>
@@ -180,7 +180,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="lg:w-1/2">
-              <p>
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                 Whether you’re optimizing profitability, driving operational
                 efficiency, or delivering personalized customer experiences, SAP
                 Business Data Cloud, implemented by Rialtes, gives you a unified
@@ -211,10 +211,10 @@ export default function Page() {
               />
             </div>
             <div className="lg:col-span-5  2xl:pl-8 2xl:p-11  xl:pl-8 sm:pl-6 ">
-              <h2 className=" text-black  leading-tight  2xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 3xl:w-[84%] 2xl:w-[89%] ">
+              <h2 className=" text-black  leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 3xl:w-[84%] 2xl:w-[89%] ">
                 A Unified, Open Data Foundation for Intelligent Enterprises
               </h2>
-              <p className="text-[16px] lg:text-[20px] lg:pr-[56px] leading-tight">
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] lg:pr-[56px] leading-tight">
                 SAP Business Data Cloud enhances enterprise data management by
                 combining SAP’s data platform capabilities with native
                 integration for SAP applications and compatibility with
@@ -222,7 +222,7 @@ export default function Page() {
                 Snowflake. It enables the unification of business context and
                 data for real-time insights and AI-driven decisions.
               </p>
-              <p className="text-[16px] lg:text-[20px] mt-4 lg:pr-[56px] leading-tight">
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px]  mt-4 lg:pr-[56px] leading-tight">
                 As a SAP Authorized Partner and a Databricks Strategic Partner,
                 Rialtes empowers organizations to seamlessly adopt SAP Business
                 Data Cloud and unlock the full value of their enterprise data.
@@ -262,21 +262,21 @@ export default function Page() {
           </div>
 
           <div className="xl:col-span-6 bg-[#006FBE] p-7 px-10 text-white order-2 xl:order-1 relative">
-            <h2 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px]">SAP Data Fabric</h2>
-            <h3 className="2xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">SAP Data Fabric</h2>
+            <h3 className="4xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
               Powered by SAP Business Data Cloud
             </h3>
-            <p className="mt-4 text-[#FFFFFF] font-light leading-tight">
+            <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
               The SAP Data Fabric acts as a smart, connected data layer across
               your organization. It provides a consistent foundation for
               accessing, modeling, and governing enterprise data with business
               context intact.
             </p>
-            <p className="mt-4 text-[#FFFFFF] font-light leading-tight">
+            <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
               With SAP Data Fabric, you can:
             </p>
 
-            <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4 leading-tight">
+            <ul className="list-disc p-4 text-[#FFFFFF] font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
               <li className="pb-4  xl:text-[20px]">
                 Connect live and replicated data across multi-cloud and hybrid
                 landscapes
@@ -329,7 +329,7 @@ export default function Page() {
 
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
             <div className="text-left lg:w-[40%] flex pt-[59px] flex-col ">
-              <h2 className="leading-tight xl:w-[78%] 2xl:w-[100%]  2xl:text-[60px] xl:text-[40px] lg:text-[45px] m">Why Choose SAP Business Data Cloud?</h2>
+              <h2 className="leading-tight xl:w-[78%] 2xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">Why Choose SAP Business Data Cloud?</h2>
               <div className="lg:mt-[80px]  ">
                 <Link
                   href="/contact-us"
@@ -351,7 +351,7 @@ export default function Page() {
                     <p className="text-[#0A6BB8] 2xl:text-[30px] xl:text-[22px] text-[20px] font-bold leading-tight">
                       {item.title}
                     </p>
-                    <p className="mt-4 xl:text-[20px] text-[16px] leading-tight ">
+                    <p className="mt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                       {item.desc}
                     </p>
                   </div>
@@ -381,10 +381,10 @@ export default function Page() {
           </div>
 
           <div className="order-2 xl:order-1  xl:col-span-7 ">
-            <h2 className="leading-tight 2xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:pr-[40px] 2xl:pr-20 ">
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:pr-[40px] 2xl:pr-20 ">
               Rialtes: Your Trusted SAP & Databricks Partner
             </h2>
-            <p className="text-[16px] leading-tight mt-[23px] font-normal md:text-[18px]  lg:text-[20px]  lg:mt-[33px] xl:pr-20">
+            <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] 4xl:text-[20px]  lg:mt-[33px] xl:pr-20">
               Rialtes specializes in data cloud architecture, implementation,
               and governance with a team of SAP-certified engineers. We
               integrate process intelligence, data engineering, and cloud
@@ -392,7 +392,7 @@ export default function Page() {
               Our certified teams assist you in:
             </p>
             <div>
-              <ul className="list-disc pt-4 text-black pl-4 xl:text-[20px] text-[16px] xl:pr-20 leading-tight">
+              <ul className="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px]  xl:pr-20 leading-tight">
                 <li className="pb-2">
                   Finance, Procurement, and Supply Chain Data from SAP S/4HANA
                 </li>
@@ -413,11 +413,11 @@ export default function Page() {
         </section>
         <div className="py-10"></div>
         <section className="custom-container  px-[2rem]">
-          <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 2xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Seamless Migration from SAP Business Warehouse to SAP Business Data
             Cloud
           </h2>
-          <p className=" xl:w-[75%] leading-tight">
+          <p className=" xl:w-[75%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
             Modernize your analytics and accelerate cloud transformation:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 lg:mt-[53px] mt-[36px]">
@@ -435,7 +435,7 @@ export default function Page() {
                     <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] font-bold leading-tight">
                       {data.title}
                     </h3>
-                    <p className="mt-4  xl:text-[20px] text-[16px] leading-tight">
+                    <p className="mt-4  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                       {data.desc}
                     </p>
                   </div>
@@ -453,16 +453,16 @@ export default function Page() {
               <div className="bg-[#073259] text-[white] lg:py-[55px] lg:w-[600px] xl:w-[750px] 3xl:w-[1110px] 2xl:w-[950px] max-lg:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative">
                 <div className="custom-container max-md:px-0 2xl:pr-0">
                   <div className="xl:w-[82%] lg:w-[80%] 2xl:w-[62%] ">
-                    <h2 className=" leading-tight pb-6 2xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+                    <h2 className=" leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                       Migrate from SAP Datasphere to SAP Business Data Cloud
                     </h2>
-                    <p className="mt-5  text-[#FFFFFF] font-light leading-tight">
+                    <p className="mt-5  text-[#FFFFFF] font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] ">
                       SAP Business Data Cloud brings the next-generation
                       capabilities of Datasphere under a unified data
                       architecture. Rialtes makes this transition frictionless:
                     </p>
 
-                    <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4 leading-tight">
+                    <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px]  space-y-4 leading-tight">
                       <li className="pb-1">
                         <div className="font-semibold">
                           Data Mapping & Reconciliation
@@ -566,27 +566,27 @@ export default function Page() {
 
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 h-full px-4 py-10 text-white max-md:pb-[22rem] ">
               <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%] xl:w-[75%]  ">
-                <h2 className="leading-tight pb-6 text-black  2xl:text-[60px] xl:text-[40px] md:text-[26px]  ">
+                <h2 className="leading-tight pb-6 text-black  4xl:text-[60px] xl:text-[40px] md:text-[26px]  ">
                   Connect SAP Business Data Cloud with Databricks
                 </h2>
-                <p className="mt-4 text-black  font-light leading-tight">
+                <p className="mt-4 text-black  font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                   As a certified Databricks consulting partner, Rialtes helps
                   you:
                 </p>
                 <ul className="list-disc pt-4 text-black pl-5  font-light">
-                  <li className="pb-2 xl:text-[20px] leading-tight">
+                  <li className="pb-2 text-[16px] xl:text-[18px] 4xl:text-[20px]  leading-tight">
                     Establish bi-directional data pipelines between SAP and
                     Databricks
                   </li>
 
-                  <li className="pb-2 xl:text-[20px] leading-tight">
+                  <li className="pb-2 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                     Use Delta Lake and MLFlow with SAP semantic models
                   </li>
-                  <li className="pb-2 xl:text-[20px] leading-tight">
+                  <li className="pb-2 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                     Enable real-time predictive insights using SAP business
                     context
                   </li>
-                  <li className="xl:text-[20px] leading-tight">
+                  <li className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                     Create industry-specific AI models using unified data across
                     platforms
                   </li>
@@ -642,7 +642,7 @@ export default function Page() {
                         Our SAP Business Data Cloud Services
                       </h2>
 
-                      <ul className="list-disc leading-tight p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] space-y-4">
+                      <ul className="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px]  space-y-4">
                         <li className="pb-1">
                           <div className="font-semibold">
                             Consulting & Advisory
@@ -698,10 +698,10 @@ export default function Page() {
               <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[750px] xl:pl-0 2xl:h-[630px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
                 <div className="custom-container xl:pl-[70px] max-lg:pt-[140px] max-md:px-0">
                   <div className="xl:w-[70%] lg:w-[80%]">
-                    <h2 className="leading-tight  2xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
+                    <h2 className="leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
                       Why Clients Choose Rialtes
                     </h2>
-                    <ul className="list-disc p-4 text-white font-light pt-4 xl:text-[20px] text-[16px] leading-tight">
+                    <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                       <li className="pb-2">
                         SAP-Certified Implementation Experts
                       </li>
@@ -739,11 +739,11 @@ export default function Page() {
         </section>
       </section>
       <div className="mx-[35px]  custom-container text-black py-16">
-        <ContactForm
-          title={
-            "Contact Rialtes today to explore how Retail+ can future-proof your retail enterprise."
-          }
-        />
+    <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
+          title=
+            "Let’s Build Your Enterprise Data Cloud Together"
+          subtitle="
+            Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."/>
       </div>
     </div>
   );

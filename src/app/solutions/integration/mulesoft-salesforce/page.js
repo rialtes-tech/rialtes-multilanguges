@@ -13,10 +13,10 @@ import Seo from "@/app/components/Seo";
 const ContentSection = () => (
   <div className="lg:py-28 py-14 custom-container">
     <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
-      <h2 className="w-full md:max-w-[50%] max-w-full">
+      <h2 className="w-full md:max-w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
         Leading Platform to Unlock an Integrated View of Your Business
       </h2>
-      <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base">
+      <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
         An integration solution should help businesses establish connectivity
         and address integration challenges. MuleSoft offers a future-proof,
         low-friction, unified connectivity platform for this purpose. Integrate
@@ -81,7 +81,7 @@ const page = () => (
       </div>
     </div>
     <div className="!py-[90px] custom-container">
-      <ContactForm />
+      <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[88%] 4xl:w-[100%]" title="Take the next step to operational excellence with MuleSoft Integration Services"/>
     </div>
   </>
 );
