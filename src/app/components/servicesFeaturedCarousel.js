@@ -135,7 +135,7 @@ export default function servicesFeaturedCarousel() {
     <section className="relative pb-10">
       <div>
         <div className="flex flex-col justify-between">
-          <h2 className="text-black mb-[87px] 2xl:w-[56%] xl:w-[55%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  max-sm:text-[18px]">
+          <h2 className="text-black mb-[87px] 4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  max-sm:text-[18px]">
             Get Inspired By Our Latest Customer Success Stories, Industry
             Insight, And More
           </h2>

@@ -156,7 +156,7 @@ export default function SalesForceConsulting() {
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}
             />
 
-            {/* <div className='relative group overflow-hidden'>
+             <div className='relative group overflow-hidden'>
                 <Image
                     src="/images/salesforce-consulting-services/banner.webp"
                     alt="Salesforce Consulting Team"
@@ -170,13 +170,13 @@ export default function SalesForceConsulting() {
                     }}
                     priority
                 />
-                <div className="absolute px-6 xl:pl-[280px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[35%] md:top-[30%] text-black">
-                    <h4 className="font-bold">Salesforce</h4>
-                    <h2 className="xl:w-[60%] w-full">Transform how you engage with your clients</h2>
+                <div className="absolute custom-container  top-[5%] lg:text-start lg:top-[25%] md:top-[20%] text-black">
+                    <h4 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce</h4>
+                    <h2 className="xl:w-[55%] 4xl:w-[70%] md:w-[46%] lg:w-[48%] 4xl:text-[74px] xl:text-[45px] text-[26px]">Transform how you engage with your clients</h2>
 
                     <Image
                         src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                        className="w-[30%] h-full bg-transperent lg:mt-20 lg:m-0 mt-2"
+                        className="w-[22%] h-full bg-transperent lg:mt-20 lg:m-0 mt-5"
                         alt="Leadership Team"
                         width={0}
                         height={0}
@@ -186,7 +186,7 @@ export default function SalesForceConsulting() {
 
                 </div>
 
-            </div> */}
+            </div> 
 
 
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -252,7 +252,7 @@ export default function SalesForceConsulting() {
             </div>
             {/* section crm consulting */}
             <section className="mt-16 px-6  custom-container">
-                <h2>Our Salesforce CRM Consulting Services</h2>
+                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Our Salesforce CRM Consulting Services</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
                     {salesForce.map((sales) => {
                         return (
@@ -271,8 +271,8 @@ export default function SalesForceConsulting() {
                                         priority
                                     />
                                 </div>
-                                <h3 className="mt-5 text-[22px] text-[#1F3F69] font-bold">{sales.title}</h3>
-                                <p className="mt-5">{sales.description}</p>
+                                <h3 className="mt-5 4xl:text-[30px] xl:text-[22px] text-[20px] text-[#1F3F69] leading-tight font-bold">{sales.title}</h3>
+                                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{sales.description}</p>
                             </div>
                         )
                     })}
@@ -282,8 +282,8 @@ export default function SalesForceConsulting() {
             {/* Salesforce product */}
 
             <section className="mt-20  px-6  custom-container">
-                <h2>Salesforce Products</h2>
-                <p className="lg:mt-3 mb-8 mt-3">Well, Salesforce consulting is just one part of an array of solutions.</p>
+                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Salesforce Products</h2>
+                <p className="lg:mt-3 mb-8 mt-3 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Well, Salesforce consulting is just one part of an array of solutions.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
                     {salesForceProduct.map((product) => {
                         return (
@@ -299,9 +299,9 @@ export default function SalesForceConsulting() {
                                     />
                                 </div>
                                 <div className="p-8">
-                                    <h3 className="mt-5 text-[22px] font-bold text-[#1F3F69]">{product.title}</h3>
-                                    <p className="mt-5">{product.description}</p>
-                                    <ul className="mt-5">
+                                    <h3 className="mt-5 leading-tight 4xl:text-[30px] xl:text-[22px] text-[20px] font-bold text-[#1F3F69]">{product.title}</h3>
+                                    <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{product.description}</p>
+                                    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                                         {product?.productsDetails?.map((details, index) => {
                                             return (
                                                 <li
@@ -314,7 +314,7 @@ export default function SalesForceConsulting() {
                                             )
                                         })}
                                     </ul>
-                                    <h5 className="text-[#0092E0] mt-10 font-bold cursor-pointer">
+                                    <h5 className="text-[#0092E0] mt-10 font-bold cursor-pointer text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                                         <Link href={product?.knowMore}>Know More</Link>
                                     </h5>
                                 </div>
@@ -328,13 +328,13 @@ export default function SalesForceConsulting() {
 
             {/* your business */}
             <section className="mt-16  px-6  custom-container">
-                <h2 className="font-normal xl:w-[70%] w-full">Understanding and targeting the customers correctly for your business</h2>
+                <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Understanding and targeting the customers correctly for your business</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16">
                     {businessDetails.map((bussiness) => {
                         return (
                             <div key={bussiness.id}>
-                                <h3 className="font-bold mt-3">{bussiness.title}</h3>
-                                <p className="mt-5">{bussiness.description}</p>
+                                <h3 className="font-bold mt-3  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight">{bussiness.title}</h3>
+                                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{bussiness.description}</p>
                             </div>
                         )
                     })}
@@ -342,32 +342,45 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* Action section */}
-            <section className="bg-[#EDEDED] lg:mt-10 mt-5 py-5">
-                <div className="px-6  custom-container">
-                    <h3 className="mt-10 mb-10 font-medium">Action is what matters and not just words</h3>
-                    <div className="grid lg:grid-cols-10 grid-cols-1">
-                        <div className=" col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20" >
-                            <div>
-                                <div className="text-[#0092E0] font-bold text-5xl">1%</div>
-                                <div className="text-[#0092E0] text-xl font-bold">growth</div>
-                                <p className="mt-5">revenue for our customer</p>
-                            </div>
-                            <div>
-                                <div className="text-[#0092E0] font-bold text-5xl">35%</div>
-                                <div className="text-[#0092E0] text-xl font-bold">growth</div>
-                                <p className="mt-5">customer service level satisfaction</p>
-                            </div>
-                            <div>
-                                <div className="text-[#0092E0] font-bold text-5xl">45%</div>
-                                <div className="text-[#0092E0] text-xl font-bold">growth</div>
-                                <p className="mt-5">decision-making efficiency</p>
-                            </div>
-                        </div>
-                        <div className="col-span-1 lg:col-span-4"></div>
+          <section className="bg-[#EDEDED] lg:mt-10 mt-5 py-[70px]">
+  <div className="px-6 custom-container">
+    <h3 className=" mb-10 text-[#000000] 4xl:text-[40px] xl:text-[30px] text-[22px]">
+      Action is what matters and not just words
+    </h3>
+    <div className="grid lg:grid-cols-10 grid-cols-1">
+      <div className="col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20">
+        {/* First block – one line */}
+        <div>
+          <div className="text-[#0092E0] font-bold text-6xl">1%</div>
+          <div className="text-[#0092E0] text-xl font-bold xl:text-[35px]">growth</div>
+          <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+            revenue for our customer
+          </p>
+        </div>
 
-                    </div>
-                </div>
-            </section>
+        {/* Second block – manual line break */}
+        <div>
+          <div className="text-[#0092E0] font-bold text-6xl">35%</div>
+          <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
+          <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+            customer service level <br /> satisfaction
+          </p>
+        </div>
+
+        {/* Third block – manual line break */}
+        <div>
+          <div className="text-[#0092E0] font-bold text-6xl">45%</div>
+          <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
+          <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+            decision-making <br /> efficiency
+          </p>
+        </div>
+      </div>
+      <div className="col-span-1 lg:col-span-4"></div>
+    </div>
+  </div>
+</section>
+
 
             {/* different industries different mindset */}
 
@@ -375,7 +388,7 @@ export default function SalesForceConsulting() {
             <section className=" custom-container lg:mt-20 mt-5 pb-20">
 
                 <div >
-                    <h2 className="text-black mb-6">Different industries, different mindsets</h2>
+                    <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Different industries, different mindsets</h2>
 
                     <CarouselComponent />
                 </div>
@@ -398,16 +411,16 @@ export default function SalesForceConsulting() {
                         <Image quality={100} layout="responsive" priority width='100' height='100' className='w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110' alt='Life Section' src='/images/homepage/agentforce-banner.webp' />
                     </div>
                 </div>
-                <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[33%] lg:right-[8rem] lg:top-[-3.5rem] top-[392px]'>
-                    <h2>Agentforce</h2>
-                    <p className='mt-5'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
+                <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[28%] lg:right-[8rem] lg:top-[-3.5rem] top-[392px]'>
+                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Agentforce</h2>
+                    <p className='mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                     <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
                         <p className='mt-8'>Learn More <span> &#8594;</span></p>
                     </Link>
                 </div>
             </section>
             <section className="pb-20  custom-container  pt-10 mt-20">
-                <ContactForm className='xl:w-[70%] w-full xl:text-[60px] text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
+                <ContactForm className='xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
             {/* contact section */}
 

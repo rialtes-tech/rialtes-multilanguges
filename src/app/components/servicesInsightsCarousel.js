@@ -169,7 +169,7 @@ export default function servicesInsightsCarousel({ padding }) {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+      <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4 ">
         <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -203,7 +203,7 @@ export default function servicesInsightsCarousel({ padding }) {
     <section className="relative pb-8 bg-white">
       <div className={"container mx-auto "+ padding ? padding : ''}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Insights</h2>
+          <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Insights</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -231,7 +231,8 @@ export default function servicesInsightsCarousel({ padding }) {
           {slides?.map((slide) => (
             <div
               key={slide.id}
-              className={`flex md:flex-row flex-col sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
+              className={`flex md:flex-row flex-col 
+ sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
             >
               <div className="min-w-full relative">
                 
@@ -246,12 +247,12 @@ export default function servicesInsightsCarousel({ padding }) {
                   />
                 
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
-                  <span className="line-clamp-4 md:line-clamp-4 font-medium text-[20px]">{slide.category}</span>
+                  <span className="line-clamp-4 md:line-clamp-4 font-medium text-[18px] xl:text-[22px] 4xl:text-[26px] leading-tight">{slide.category}</span>
                 </div>
               </div>
 
               <div className="absolute inset-0 bg-[#134874] bg-opacity-80 p-6 md:opacity-0 opacity-100 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between">
-                <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[20px]">{slide.category}</span>
+                <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[18px] xl:text-[22px] 4xl:text-[26px] leading-tight">{slide.category}</span>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
                   <Link href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
