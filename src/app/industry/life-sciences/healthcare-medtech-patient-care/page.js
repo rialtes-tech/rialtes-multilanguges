@@ -67,17 +67,17 @@ const latestServices = [
 const ServicesCard = ({ services }) => (
   <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69]">{services.title}</h3>
-      <p className='md:mb-[15px] mb-0'>{services.description}</p>
+      <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{services.title}</h3>
+      <p className='md:mb-[15px] mb-0 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description}</p>
     </div>
   </div>
 );
 
 const Services = () => {
   return (
-    <div className="custom-container mx-auto text-black md: mt-10">
-      <h2 className="text-black mb-6">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
-      <p>We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
+    <div className="custom-container mx-auto text-black md:mt-10 xl:mt-[120px]">
+      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[85%]">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
+      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -141,44 +141,53 @@ const growLatestServices = [
 ];
 
 const GrowServicesCard = ({ services }) => (
-  <div className="">
-    <div className="relative overflow-hidden">
-      <Image
-        className="w-full transition-transform duration-300 hover:scale-105"
-        src={services.image}
-        alt={services.title}
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-        priority
-      />
-    </div>
-    <div className="flex flex-col pt-4">
-      <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
-    </div>
-    <p>{services.description}</p>
-    <ul className="mt-5">
-      {services?.productsDetails?.map((details, index) => {
-        return (
-          <li
-            key={index}
-            className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
-          >
-            {details}
-          </li>
+ 
+  <div className="flex flex-col h-full">
+  <div className="relative overflow-hidden">
+    <Image
+      className="w-full transition-transform duration-300 hover:scale-105"
+      src={services.image}
+      alt={services.title}
+      width={0}
+      height={0}
+      sizes="100vw"
+      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+      priority
+    />
+  </div>
 
-        )
-      })}
+  <div className="flex flex-col pt-4 flex-grow">
+    <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]  4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+      {services.title}
+    </h3>
+
+    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+      {services.description}
+    </p>
+
+    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+      {services?.productsDetails?.map((details, index) => (
+        <li
+          key={index}
+          className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]"
+        >
+          {details}
+        </li>
+      ))}
     </ul>
+  </div>
+
+  <div className="mt-auto pt-5">
     <LearnMore />
   </div>
+</div>
+
 );
 const GrowServices = () => {
   return (
-    <div className="text-black ">
-      <h2 className="pb-10 text-black xl:w-1/2 w-fill">Pioneering Medical & Patient Care IT Solutions</h2>
-      <p className="xl:w-1/2 w-full">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
+    <div className="text-black xl:pt-[50px]  ">
+      <h2 className="pb-10 text-black leading-tight xl:w-[60%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Pioneering Medical & Patient Care IT Solutions</h2>
+      <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
@@ -227,7 +236,7 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block lg:hidden">
           <Image
-            src="/images/healthcare/healthcare-banner.webp"
+            src="/images/healthcare/Healthcare-mobile.webp"
             alt="mobile banner"
             fill
             priority
@@ -240,7 +249,7 @@ export default function Page() {
               <h3 className="text-white text-[18px] md:text-[24px] font-bold">
                 HEALTHCARE
               </h3>
-              <h2 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[90%] md:w-[80%] mt-[11.5px] md:mt-[28.5px]">
                 Redefining healthcare by keeping patients at the center
               </h2>
 
@@ -259,13 +268,13 @@ export default function Page() {
         <div className="py-5 bg-white">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
-              <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 ">
-                <h1 className="text-black md:pb-0 pb-4">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
+              <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] xl:mr-4 xl:mb-0 ">
+                <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
               </div>
-              <div className="flex flex-col w-full">
-                <p className="text-[#000000]">The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.
+              <div className="flex flex-col w-full xl:w-[50%] ">
+                <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.
                 </p>
-                <p className="mt-5">Rialtes helps medical organizations deliver faster, more efficient, and compassionate patient care with specialized healthcare application development solutions. Whether you’re looking for ways to centralize patient records or migrate your data to Salesforce Health Cloud, our dedicated team of healthcare IT experts will help you transform your patients’ experiences.</p>
+                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps medical organizations deliver faster, more efficient, and compassionate patient care with specialized healthcare application development solutions. Whether you’re looking for ways to centralize patient records or migrate your data to Salesforce Health Cloud, our dedicated team of healthcare IT experts will help you transform your patients’ experiences.</p>
               </div>
             </div>
           </div>
@@ -309,9 +318,9 @@ export default function Page() {
 
       {/* Contact Form */}
       < div
-        className="mb-20 mt-20 custom-container text-black py-6"
+        className="mb-20 mt-20 custom-container text-black py-6  "
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
+        <ContactForm title={'Take the next step to operational excellence with us.'} className={"xl:w-[75%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"} />
 
       </div >
 

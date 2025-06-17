@@ -188,68 +188,21 @@ export default function SalesForceConsulting() {
 
             </div> 
 
+<div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
+  <div className="lg:col-span-6">
+    <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+      Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
+    </h1>
+  </div>
 
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-                {/* Desktop Image */}
-                <div className="hidden md:block"> <Image
-                    src="/images/salesforce-consulting-services/banner.webp"
-                    alt="desktop banner"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                    priority
-                    className="transform transition-transform duration-500 group-hover:scale-110"
-                />
-                </div>
-
-                {/* Mobile Image */}
-                <div className="block md:hidden">
-
-                    <Image
-                        src="/images/salesforce-consulting-services/banner.webp"
-                        alt="mobile banner"
-                        fill
-                        priority
-                    />
-
-                </div>
-
-                <div className="relative h-full custom-container flex items-center">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                        <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-                            <h3 className=" text-[18px] md:text-[24px] font-bold lg:w-auto">
-                                Salesforce
-                            </h3>
-                            <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] sm:w-[70%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
-                                Transform how you engage with your clients
-                            </h2>
+  <div className="lg:col-span-4">
+    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mr-[96px]">
+      Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.
+    </p>
+  </div>
+</div>
 
 
-                            <Image
-                                src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                                alt="SAP Partner Logo"
-                                width={0}
-                                height={0}
-                                priority
-                                className="mt-5 w-[25%] sm:w-[20%] md:w-[20%] lg:w-[20%]"
-                            />
-
-                        </div>
-
-                        <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div className=" grid lg:grid-cols-10 xl:gap-16 gap-5 px-6  custom-container lg:mt-16 mt-5">
-                <div className="lg:col-span-6 mt-5">
-                    <h1>Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting</h1>
-                </div>
-                <div className="lg:col-span-4 lg:mt-16 mt-5">
-                    <p>
-                        Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.
-                    </p>
-                </div>
-            </div>
             {/* section crm consulting */}
             <section className="mt-16 px-6  custom-container">
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Our Salesforce CRM Consulting Services</h2>
@@ -420,7 +373,7 @@ export default function SalesForceConsulting() {
                 </div>
             </section>
             <section className="pb-20  custom-container  pt-10 mt-20">
-                <ContactForm className='xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
+                <ContactForm className='xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
             {/* contact section */}
 

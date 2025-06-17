@@ -56,8 +56,8 @@ const latestServices = [
 const ServicesCard = ({ services }) => (
   <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] font-[600] line-clamp-4 text-[#1F3F69]">{services.title}</h3>
-      <p className='md:mb-[15px] mb-0'>{services.description}</p>
+      <h3 className="mb-[15px] md:mb-[25px] font-[600] line-clamp-4 text-[#1F3F69] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{services.title}</h3>
+      <p className='md:mb-[15px] mb-0 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description}</p>
     </div>
   </div>
 );
@@ -65,7 +65,7 @@ const ServicesCard = ({ services }) => (
 const Services = () => {
   return (
     <div className="mx-auto text-black">
-      <h2 className="text-black mb-12">Hi-tech Segments We Serve</h2>
+      <h2 className="text-black mb-12 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Hi-tech Segments We Serve</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -84,67 +84,80 @@ const growLatestServices = [
     image: "/images/industry/hi-tech/accelerate-digital-transformation.webp",
     title: "Accelerate Digital Transformation",
     description: "Unlock new avenues for growth through digital transformation. We guide you through a seamless transition into digital maturity, ensuring your business stays ahead of the curve and engages with potential online resources and customers. ",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-5 pb-6"><li>Comprehensive Strategy Planning</li> <li>Implementation of Modern Technologies</li> <li>Integration of Tech Tools with Legacy Systems</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-5 pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"><li>Comprehensive Strategy Planning</li> <li>Implementation of Modern Technologies</li> <li>Integration of Tech Tools with Legacy Systems</li></ul>)
   },
   {
     id: 2,
     image: "/images/industry/hi-tech/unleashing-the-power-of-iot.webp",
     title: "Unleashing The Power of IoT",
     description: "The Internet of Things is changing how we do business in today’s consumer-driven marketplace. Stay ahead with our leading IoT consulting services. Turn your vision into reality and bring unprecedented efficiency to your operations.",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li>IoT device management</li> <li>Security Protocols</li> <li>Analytics and insights</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"><li>IoT device management</li> <li>Security Protocols</li> <li>Analytics and insights</li></ul>)
   },
   {
     id: 3,
     image: "/images/industry/hi-tech/faster-time-to-market-with-product-lifecycle-management.webp",
     title: "Faster Time-to-Market with Product Lifecycle Management",
     description: "Accelerate your development cycles and get your products to market faster than your competitors. With our advanced product lifecycle management, we make the process smooth and efficient.",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li>Feature prioritization</li> <li>Version control</li> <li>Collaborative workflows</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"><li>Feature prioritization</li> <li>Version control</li> <li>Collaborative workflows</li></ul>)
   },
   {
     id: 4,
     image: "/images/industry/hi-tech/navigating-semiconductor-manufacturing.webp",
     title: "Navigating Semiconductor Manufacturing",
     description: "Enhance production efficiency and minimize waste in your semiconductor manufacturing processes with our specialized semiconductor manufacturing software. This ensures you get the project management needed based on the unique markers and systems surrounding semiconductor microchips.",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li>Process automation</li> <li>Quality control analytics</li> <li>Supply chain management</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"><li>Process automation</li> <li>Quality control analytics</li> <li>Supply chain management</li></ul>)
   },
   {
     id: 5,
     image: "/images/industry/hi-tech/hi-tech-software-solutions-for-scalability.webp",
     title: "Hi-Tech Software Solutions for Scalability",
     description: "Meet your growing demands without compromising on performance with our tailored  hi-tech software solutions. We work with your unique needs in an Agile environment to craft tailored solutions using modern tools and services.",
-    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6"><li>Microservices architecture</li> <li>Application modernization</li> <li>Testing services for quality assurance</li></ul>)
+    listitems: (<ul className="list-disc marker:text-[#0092E0] marker:text-2xl text-black pl-4 pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"><li>Microservices architecture</li> <li>Application modernization</li> <li>Testing services for quality assurance</li></ul>)
   },
 ];
 
 const GrowServicesCard = ({ services }) => (
-  <div className="w-full h-full">
-    <div className="relative overflow-hidden">
-      <Image
-        className="w-full transition-transform duration-300 hover:scale-105"
-        src={services.image}
-        alt={services.title}
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-        priority
-      />
-    </div>
-    <div className="flex flex-col pt-4">
-      <h3 className="my-[20px] font-semibold h3-bold line-clamp-2">{services.title}</h3>
-    </div>
-    <p className='md:mb-[15px]'>{services.description}</p>
-    {services.listitems}
-    <div className="mt-[10px] xl:mt-0">   <LearnMore />
-    </div>
+  
+  <div className="flex flex-col h-full w-full">
+
+  <div className="relative overflow-hidden">
+    <Image
+      className="w-full transition-transform duration-300 hover:scale-105"
+      src={services.image}
+      alt={services.title}
+      width={0}
+      height={0}
+      sizes="100vw"
+      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+      priority
+    />
   </div>
+
+ 
+  <div className="flex flex-col pt-4 flex-grow">
+    <h3 className="my-[20px] font-semibold h3-bold line-clamp-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+      {services.title}
+    </h3>
+
+    <p className="md:mb-[15px] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+      {services.description}
+    </p>
+
+    {services.listitems}
+  </div>
+
+  <div className="mt-auto pt-4">
+    <LearnMore />
+  </div>
+</div>
+
 );
 
 const GrowServices = () => {
   return (
     <div className="text-black">
-      <h2 className="pb-10 text-black">Boost Solutions & Innovation with Rialtes</h2>
-      <p className="pb-8">The tech world continually shifts and moves like a living creature lost in a cave. Every day, you hear about incredible innovation that transforms how we do business. If you want to stay updated on the latest tools, benefits, and features of how the Hi-Tech world moves, you will benefit from our team at Rialtes. With services ranging from IoT consulting services to semiconductor manufacturing software, we are your comprehensive guide to all things digital.</p>
+      <h2 className="pb-10 text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Boost Solutions & Innovation with Rialtes</h2>
+      <p className="pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The tech world continually shifts and moves like a living creature lost in a cave. Every day, you hear about incredible innovation that transforms how we do business. If you want to stay updated on the latest tools, benefits, and features of how the Hi-Tech world moves, you will benefit from our team at Rialtes. With services ranging from IoT consulting services to semiconductor manufacturing software, we are your comprehensive guide to all things digital.</p>
       <div className="grid grid-cols-1 lg:grid-cols-2  gap-16 md:gap-14 lg:gap-28 mt-[20px] xl:mt-[40px]">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
@@ -169,19 +182,59 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <HeroSection title="Accelerate innovation and meet the rapid demand of digital enterprises" subtitle="HI-TECH" deskimg="/images/industry/hi-tech/hi-tech-banner.webp" mobimg="/images/industry/hi-tech/hitech-mob-banner.webp" />
+      {/* <HeroSection title="Accelerate innovation and meet the rapid demand of digital enterprises" subtitle="HI-TECH" deskimg="/images/industry/hi-tech/hi-tech-banner.webp" mobimg="/images/industry/hi-tech/hitech-mob-banner.webp" /> */}
+
+    <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        {/* Desktop Image */}
+        <div className="hidden lg:block">
+          <Image
+            src="/images/industry/hi-tech/hi-tech-banner.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block lg:hidden">
+          <Image
+            src="/images/industry/hi-tech/hitech-mob-banner.webp"
+            alt="mobile banner"
+            fill
+            priority
+          />
+        </div>
+
+        <div className="relative h-full custom-container flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12 xl:col-span-7 lg:col-span-9 mb-[160px]">
+              <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+                HI-TECH
+              </h3>
+              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[90%] md:w-[80%]  4xl:w-full mt-[11.5px] md:mt-[28.5px]">
+Accelerate innovation and meet the rapid demand of digital enterprises              </h2>
+
+            </div>
+
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section
         className="custom-container"
       >
 
         <div className="py-10 bg-white">
-          <div className="flex flex-col xl:flex-row py-6 2xl:gap-32 xl:gap-[24px] gap-y-[24px]">
-            <div className="flex flex-col xl:mb-0 mb-4">
-              <h1 className="text-black md:pb-0 pb-4 xl:text-[44px] ">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
+          <div className="flex flex-col xl:flex-row py-6 2xl:gap-[90px] xl:gap-[60px] gap-y-[24px]">
+            <div className="flex flex-col xl:mb-0 mb-4 xl:w-[54%]">
+              <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[74px] xl:text-[54px] md:text-[26px] ">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
             </div>
-            <div className="flex flex-col w-full xl:max-w-xl">
-              <p className="text-[#000000]">You engineer and manufacture complex products to make consumers’ lives easier. From semiconductor production to biotech technology design, we make hi-tech industry processes simple and seamless with customizable technology solutions. Our experienced team understands the unique challenges hi-tech industries face, from supply chain volatility to evolving customer demands.</p>
+            <div className="flex flex-col w-full xl:w-[40%] xl:max-w-xl">
+              <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">You engineer and manufacture complex products to make consumers’ lives easier. From semiconductor production to biotech technology design, we make hi-tech industry processes simple and seamless with customizable technology solutions. Our experienced team understands the unique challenges hi-tech industries face, from supply chain volatility to evolving customer demands.</p>
             </div>
           </div>
         </div>
@@ -222,8 +275,9 @@ export default function Page() {
       {/* Contact Form */}
       < div
         className="py-20 custom-container  text-black"
+        
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
+        <ContactForm title={'Take the next step to elevate control of your manufacturing business'} className={"xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"} />
 
       </div >
 
