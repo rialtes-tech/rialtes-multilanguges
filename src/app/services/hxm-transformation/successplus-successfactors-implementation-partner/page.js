@@ -44,10 +44,10 @@ const latestServices = [
 ];
 
 const ServicesCard = ({ services }) => (
-  <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
+  <div className="  flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] font-[600] text-lg line-clamp-4 text-[#1F3F69]">{services.title}</h3>
-      <p className='md:mb-[15px] mb-0'>{services.description}</p>
+      <h3 className="mb-[15px] md:mb-[25px] font-[600] 2xl:text-[26px] 4xl:text-[30px] line-clamp-4 text-[#1F3F69] 2xl:h-[70px] lg:text-[20px] lg:h-[54px] 4xl:h-[84px] text-[20px] md:text-[20px] ">{services.title}</h3>
+      <p className='md:mb-[15px] mb-0 2xl:text-[20px] 4xl:text-[22px] xl:text-[19px] md:text-[18px] lg:text-[16px]  '>{services.description}</p>
     </div>
   </div>
 );
@@ -56,8 +56,8 @@ const ServicesCard = ({ services }) => (
 
 const Services = () => {
   return (
-    <div className="  text-black 2xl:pr-70 xl:pr-30 md:pr-8">
-      <h2 className="text-black mb-6 ">End-to-end SAP SuccessFactors Services</h2>
+    <div className="  text-black 2xl:pr-70 xl:pr-10 md:pr-8">
+      <h2 className="text-black mb-6 2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1300px]  4xl:text-[60px] 4xl:w-[1300px] lg:text-[38px] lg:w-[900px] text-[24px]  md:text-[32px] ">End-to-end SAP SuccessFactors Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -133,7 +133,7 @@ export default function Page() {
       />
 
 
-      {/* <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/success-factors/successfactor-banner.webp"
           alt="SuccessFactor"
@@ -143,19 +143,15 @@ export default function Page() {
         />
         <div
           className="
-                    container h-full relative
-        ml-[15px] w-[calc(100%-15px)] mr-0
-        xl:ml-[280px] xl:w-[calc(100%-280px)]
-        md:ml-[100px] md:w-[calc(100%-100px)]
-                    sm:mx-5 sm:w-[calc(100%-40px)]
-                    xs:mx-4 xs:w-[calc(100%-32px)]"
+                    custom-container h-full relative
+      "
         >
-          <div className="container mx-auto h-full flex flex-col justify-center">
+          <div className="h-full flex flex-col justify-center">
             <h3 className="text-white text-[300] font-medium mb-2">SuccessFactors</h3>
-            <h2 className="text-white max-w-2xl">
+            <h2 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[500px] 2xl:w-[600px]  4xl:text-[60px] 4xl:w-[670px] lg:text-[38px] lg:w-[400px] leading-tight text-[24px] md:text-[32px]  ">
               HR Transformation Enabled Using SuccessFactors
             </h2>
-            <div className="md:max-w-32 w-20 pt-6">
+            <div className="md:max-w-32 w-20  4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-6">
               <Image
                 src="/images/success-factors/sap-partner-logo.webp"
                 alt="SAP Partner Logo"
@@ -168,21 +164,21 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section> */}
-   <HeroSection title="HR Transformation Enabled Using SuccessFactors" subtitle="SuccessFactors" mobimg="/images/success-factors/successfactor-banner.webp" deskimg="/images/success-factors/successfactor-banner.webp" extraImg="/images/success-factors/sap-partner-logo.webp" />
+      </section> 
+   {/* <HeroSection title="HR Transformation Enabled Using SuccessFactors" subtitle="SuccessFactors" mobimg="/images/success-factors/successfactor.webp" deskimg="/images/success-factors/successfactor-banner.webp" extraImg="/images/success-factors/sap-partner-logo.webp" /> */}
 
       <section
         className="custom-container"
       >
 
-        <div className="py-10 bg-white">
+        <div className="py-8 bg-white">
           <div className="2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col xl:flex-row items-center py-6">
-              <div className="flex flex-col w-full xl:w-2/3 xl:mr-4 xl:mb-0 mb-4">
-                <h1 className="text-black md:pb-0 pb-4">Achieve Performance Excellence with SuccessFactors Consulting</h1>
+            <div className="flex flex-col lg:flex-row items-center py-6">
+              <div className="flex flex-col  xl:mb-0 mb-4 ">
+                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[46px] xl:w-[660px] 2xl:w-[780px]  4xl:text-[60px] 4xl:w-[870px] lg:text-[38px] lg:w-[550px] leading-tight text-[24px] md:text-[32px] ">Achieve Performance Excellence with SuccessFactors Consulting</h1>
               </div>
               <div className="flex flex-col w-full xl:w-1/2">
-                <p className="text-[#000000]">We go beyond SAP SuccessFactors implementation, offering end-to-end global HCM transformation that automates HR processes and enhances both user and employee experiences. By combining the SAP SuccessFactors platform with our artificial intelligence, machine learning, and analytics capabilities, we transform the human experience while aligning with business goals.</p>
+                <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[480px] 4xl:text-[20px] 4xl:w-[550px]  xl:text-[16px] xl:w-[430px] lg:text-[14px] lg:w-[385px] md:text-[18px]">We go beyond SAP SuccessFactors implementation, offering end-to-end global HCM transformation that automates HR processes and enhances both user and employee experiences. By combining the SAP SuccessFactors platform with our artificial intelligence, machine learning, and analytics capabilities, we transform the human experience while aligning with business goals.</p>
               </div>
             </div>
 
@@ -192,9 +188,9 @@ export default function Page() {
 
       {/* Latest Services Section */}
       <div
-        className="custom-container"
+        className="custom-container lg:mt-20 md:mt-6"
       >
-        <section className="pb-14 bg-white">
+        <section className=" bg-white">
 
           <Services />
 
@@ -204,12 +200,12 @@ export default function Page() {
 
       {/* SuccessFactors Integration Solutions */}
       <div
-        className="custom-container"
+        className="custom-container lg:mt-10 mt-6 md:mt-10"
       >
         <section className="py-10">
           <div className="">
-            <h2 className="pb-8 text-black">SuccessFactors Integration Solutions</h2>
-            <div className="flex md:flex-row flex-col justify-between gap-6 mr-6">
+            <h2 className="pb-8 lg:pb-12 text-black  2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] ">SuccessFactors Integration Solutions</h2>
+            <div className="flex md:flex-row flex-col justify-between gap-6 md:gap-1">
               <div className="flex items-center">
                 <div className="md:h-20 h-16 mr-6">
                   <Image
@@ -223,7 +219,7 @@ export default function Page() {
                     priority
                   />
                 </div>
-                <h3 className="text-black md:w-1/3 md:h3-bold">SAP HCM Modules</h3>
+                <h3 className="text-black  md:h3-bold 2xl:text-[26px] 4xl:w-[256px] 4xl:text-[30px] 2xl:w-[200px] xl:text-[24px] md:text-[18px] lg:text-[22px] leading-tight lg:w-[220px] xl:w-[220px] text-[20px] w-[100px] md:w-[200px]">SAP HCM Modules</h3>
               </div>
               <div className="flex items-center">
                 <div className="md:h-20 h-16 mr-6">
@@ -237,7 +233,7 @@ export default function Page() {
                     priority
                   />
                 </div>
-                <h3 className="text-black md:w-1/2 md:h3-bold">SAP Analytics Cloud</h3>
+                <h3 className="text-black  md:h3-bold 2xl:text-[26px] 4xl:w-[256px] 4xl:text-[30px] 2xl:w-[200px] xl:text-[24px] md:text-[18px] lg:text-[22px] leading-tight lg:w-[230px] xl:w-[250px] text-[20px] w-[150px] md:w-[220px]">SAP Analytics Cloud</h3>
               </div>
               <div className="flex items-center">
                 <div className="md:h-20 h-16 mr-6">
@@ -251,7 +247,7 @@ export default function Page() {
                     priority
                   />
                 </div>
-                <h3 className="text-black md:w-1/3 md:h3-bold">Workforce Software</h3>
+                <h3 className="text-black md:w-1/3 md:h3-bold 2xl:text-[26px] 4xl:w-[256px] 4xl:text-[30px] 2xl:w-[200px] xl:text-[24px] md:text-[18px] lg:text-[22px] leading-tight xl:w-[250px] text-[20px] w-[100px]">Workforce Software</h3>
               </div>
             </div>
           </div>
@@ -260,25 +256,25 @@ export default function Page() {
       </div>
 
       {/* Reimagine Employee Experiences and Optimize HR Operations */}
-      < div className="bg-[#EDEDED] py-6" >
+      < div className="bg-[#EDEDED] py-6 lg:mt-20 mt-2 md:mt-10" >
         <div
           className="custom-container"
         >
           <section className="py-10">
             <div className="">
-              <h2 className="pb-8 text-black">Reimagine Employee Experiences and Optimize HR Operations</h2>
-              <div className="flex md:flex-row flex-col gap-8">
-                <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                  <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">290M</h2>
-                  <p className="text-black">Users in more than 200 countries</p>
+              <h2 className="pb-8 text-black leading-tight 2xl:text-[56px] xl:text-[46px] xl:w-[800px] 2xl:w-[1000px]  4xl:text-[60px] 4xl:w-[1100px] lg:text-[38px] lg:w-[700px] text-[24px]  md:text-[32px]  ">Reimagine Employee Experiences and Optimize HR Operations</h2>
+              <div className="flex md:flex-row flex-col gap-8 4xl:gap:10 ">
+                <div className="flex flex-col xl:w-1/3 md:w-1/3">
+                  <h2 className="text-[#0092E0] font-bold 2xl:text-[60px] 4xl:text-[70px] xl:text-[54px] md:text-[40px] lg:text-[50px] mb-2">290M</h2>
+                  <p className="text-black 4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[200px] 4xl:w-[260px] xl:w-[180px] lg:w-[160px]">Users in more than 200 countries</p>
                 </div>
-                <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                  <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">25%</h2>
-                  <p className="text-black">Increase in employee engagement</p>
+                <div className="flex flex-col xl:w-1/3 md:w-1/3">
+                  <h2 className="text-[#0092E0] font-bold 2xl:text-[60px] mb-2 4xl:text-[70px] xl:text-[54px] md:text-[40px] lg:text-[50px]" >25%</h2>
+                  <p className="text-black 4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[19px] 2xl:w-[240px] 4xl:w-[260px] xl:w-[220px] lg:w-[180px]">Increase in employee engagement</p>
                 </div>
-                <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                  <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">60%</h2>
-                  <p className="text-black">Reduction in compliance-related risks and errors</p>
+                <div className="flex flex-col xl:w-1/3 md:w-1/3">
+                  <h2 className="text-[#0092E0] font-bold 2xl:text-[60px] mb-2 4xl:text-[70px] xl:text-[54px] md:text-[40px] lg:text-[50px]">60%</h2>
+                  <p className="text-black 4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[19px] 2xl:w-[240px] 4xl:w-[260px] xl:w-[220px] lg:w-[180px]">Reduction in compliance-related risks and errors</p>
                 </div>
               </div>
             </div>
@@ -290,26 +286,26 @@ export default function Page() {
 
       {/* Maximize HR Efficiency */}
       <div
-        className="custom-container"
+        className="custom-container lg:mt-20 md:mt-8"
       >
-        <section className="pb-16 pt-16 bg-white">
+        <section className="pb-10 pt-16 bg-white">
           <div className="">
-            <h2 className="pb-6 text-black xl:hidden flex">Maximize HR Efficiency in Your Organization</h2>
+          <h2 className="pb-4 text-black xl:hidden flex  leading-tight lg:text-[38px] lg:w-[480px] text-[24px]  md:text-[32px]  ">Maximize HR Efficiency in Your Organization</h2>
             <div className="flex flex-col-reverse md:flex-row gap-6 py-6">
               <div className="w-full">
-                <h2 className="pb-6 text-black  xl:flex hidden">Maximize HR Efficiency in Your Organization</h2>
-                <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6">
+                <h2 className="pb-6 text-black  xl:flex hidden 2xl:text-[56px] xl:text-[46px] xl:w-[630px] 2xl:w-[700px]  4xl:text-[60px] 4xl:w-[780px] lg:text-[38px] lg:w-[520px] leading-tight ">Maximize HR Efficiency in Your Organization</h2>
+                <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 2xl:text-[18px] 4xl:text-[20px] xl:text-[18px] md:text-[16px] lg:text-[18px] 2xl:w-[600px] 4xl:w-[639px] leading-tight ">
 
-                  <li className="pb-4">An experienced SAP partner with deep expertise across various industries </li>
-                  <li className="pb-4">Tailored integration packages designed to meet unique client needs </li>
-                  <li className="pb-4">Proactive approach to managing evolving customer environments and requirements</li>
-                  <li className="pb-4">Comprehensive support for long-term analysis, implementation, and transition from on-premises to cloud </li>
-                  <li className="pb-4">A well-established SuccessFactors Center of Excellence with ready-to-use content</li>
+                  <li className="pb-2">An experienced SAP partner with deep expertise across various industries </li>
+                  <li className="pb-2">Tailored integration packages designed to meet unique client needs </li>
+                  <li className="pb-2">Proactive approach to managing evolving customer environments and requirements</li>
+                  <li className="pb-2">Comprehensive support for long-term analysis, implementation, and transition from on-premises to cloud </li>
+                  <li className="pb-2">A well-established SuccessFactors Center of Excellence with ready-to-use content</li>
                 </ul>
                <LearnMore/>
               </div>
-              <div className="flex flex-col w-full">
-                <div className="relative overflow-hidden">
+              <div className="flex flex-col w-full h-auto">
+                <div className="relative overflow-hidden  ">
                   <Image
                     className="w-full transition-transform duration-300 ease-out hover:scale-110"
                     src='/images/success-factors/Maximize HR Efficiency 2.webp'
@@ -328,7 +324,7 @@ export default function Page() {
       </div>
 
       {/* Latest Customer Success Stories */}
-      < div className="bg-[#F5F5F5] py-6" >
+      < div className="bg-[#F5F5F5] py-6 md:mt-10 mt-4 lg:mt-20" >
         <div
           className="custom-container"
         >
@@ -339,8 +335,8 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div
-        className="mt-20 mb-20
-                custom-container"
+        className=" mb-20
+                custom-container lg:pr-0 md:mt-10 mt-4 lg:mt-20"
       >
        {slides && slides.length > 0 ? (
   <ServicesBlogs slides={slides || []} />
@@ -351,7 +347,7 @@ export default function Page() {
       </div>
 
       {/* Explore More */}
-      < div className="bg-[#808080] py-6" >
+      < div className="bg-[#808080] py-6 md:mt-10 mt-4 lg:mt-20" >
         <div
           className="
 \   custom-container"
