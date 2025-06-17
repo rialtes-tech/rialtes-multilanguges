@@ -65,8 +65,8 @@ const latestServices = [
 const ServicesCard = ({ services }) => (
   <div className="h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69]">{services.title}</h3>
-      <p className='md:mb-[15px] mb-0'>{services.description}</p>
+      <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69] 4xl:text-[30px] xl:text-[24px] text-[20px]">{services.title}</h3>
+      <p className='md:mb-[15px] mb-0 4xl:text-[22px] xl:text-[20px] text-[18px]'>{services.description}</p>
     </div>
   </div>
 );
@@ -74,7 +74,7 @@ const ServicesCard = ({ services }) => (
 const Services = () => {
   return (
     <div className="text-black 2xl:pr-70 xl:pr-35 md:pr-8 pr-0 mt-20 ">
-      <h2 className="text-black mb-6">Find the right property management software online with Rialtes</h2>
+      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[85%] ">Find the right property management software online with Rialtes</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 mt-10 w-full">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -151,10 +151,10 @@ const GrowServicesCard = ({ services }) => (
       />
     </div>
     <div className="flex flex-col pt-4">
-      <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]">{services.title}</h3>
+      <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold 4xl:text-[30px] xl:text-[24px] text-[20px] line-clamp-2 min-h-[60px]">{services.title}</h3>
     </div>
-    <p>{services.description}</p>
-    <ul className="mt-5">
+    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{services.description}</p>
+    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
       {services?.productsDetails?.map((details, index) => {
         return (
           <li
@@ -174,8 +174,8 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
   return (
     <div className="text-black lg:pr-20 md:pr-10   pr-6 ">
-      <h2 className="pb-10 text-black xl:w-1/2 w-fill">Enhance your real estate operations with our customizable service offerings</h2>
-      <p className="xl:w-1/2 w-full">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
+      <h2 className="pb-10 text-black 4xl:w-[72%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Enhance your real estate operations with our customizable service offerings</h2>
+      <p className="xl:w-full w-[85%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
@@ -224,10 +224,10 @@ export default function Page() {
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-              <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+              <h3 className="text-white text-[18px] xl:text-[24px] font-bold">
                REAL ESTATE
               </h3>
-              <h2 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+              <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
                 Manage real estate processes with cloud-based property management software
               </h2>
             </div>
@@ -239,27 +239,32 @@ export default function Page() {
       </section>
 
 
-      <section
-        className="custom-container "
-      >
+  
 
-        <div className="py-10 bg-white">
-          <div className="">
-            <div className="flex flex-col xl:flex-row py-6 xl:gap-20">
-              <div className="flex flex-col w-full xl:max-w-lg xl:mr-4 xl:mb-0 mb-4 ">
-                <h1 className="text-black md:pb-0 pb-4">Affordable property management software for your real estate operations</h1>
-              </div>
-              <div className="flex flex-col w-full ">
-                <p className="text-[#000000]">The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
-                </p>
-                <p className="mt-5">At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
-                </p>
-              </div>
-            </div>
-          </div>
+<section className="custom-container">
+  <div className="py-10 bg-white">
+    <div>
+      <div className="flex flex-col xl:flex-row py-6 xl:gap-5">
+        
+        <div className="flex flex-col w-full xl:w-[60%] xl:mr-4 xl:mb-0 mb-4">
+          <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[74px] xl:text-[54px] md:text-[30px]">
+            Affordable property management software for your real estate operations
+          </h1>
         </div>
-      </section>
 
+        <div className="flex flex-col w-full xl:w-[40%]">
+          <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+            The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
+          </p>
+          <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+            At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -279,19 +284,19 @@ export default function Page() {
           className="custom-container "
         >
           <section className="pb-16  pt-10">
-            <h2>The #1 CRM for real estate business</h2>
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">The #1 CRM for real estate business</h2>
 
             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-16 mt-5 xl:gap-20 gap-10">
               <div>
-                <p>Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
+                <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
               </div>
               <div>
-                <h4 className="text-[#0092E0]">RealForce Platform</h4>
-                <p className="mt-5"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
+                <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight">RealForce Platform</h4>
+                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[22px] leading-tight"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
               </div>
               <div>
-                <h4 className="text-[#0092E0]">RealPay </h4>
-                <p className="mt-5">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
+                <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight">RealPay </h4>
+                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[22px] leading-tight">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
               </div>
             </div>
           </section>
@@ -339,7 +344,7 @@ export default function Page() {
  custom-container 
   text-black py-6"
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={"max-w-4xl"} />
+        <ContactForm title={'Take the next step to elevate your property management.'} className={"leading-tight text-black 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 4xl:w-[80%]"} />
 
       </div >
 
