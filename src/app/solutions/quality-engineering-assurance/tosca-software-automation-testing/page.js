@@ -9,85 +9,105 @@ export default function DemandPlusSection() {
     const schemaData = {
 
         "@context": "https://schema.org",
-
-        "@type": "Article",
-
-        "mainEntityOfPage": {
-
-            "@type": "WebPage",
-
-            "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
-
-        },
-
-        "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
-
-        "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-
-        "image": "https://rialtes.netlify.app/images/case-studies/fiori-banner.webp",
-
-        "author": {
-
+        "@type": "Service",
+        "name": "Tosca Automation Testing Services",
+        "alternateName": "Tricentis Tosca Test Automation by Rialtes",
+        "description": "Rialtes offers end-to-end Tosca automation testing services, including implementation, test management, risk-based testing, and integration with SAP, Salesforce, Oracle, and DevOps pipelines.",
+        "provider": {
             "@type": "Organization",
-
-            "name": "Rialtes"
-
-        },
-
-        "publisher": {
-
-            "@type": "Organization",
-
             "name": "Rialtes",
-
-            "logo": {
-
-                "@type": "ImageObject",
-
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc",
+                "https://x.com/Rialtestech"
+            ]
+        },
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "United States"
+            },
+            {
+                "@type": "Country",
+                "name": "Canada"
+            },
+            {
+                "@type": "Country",
+                "name": "Singapore"
+            },
+            {
+                "@type": "Continent",
+                "name": "Europe"
+            },
+            {
+                "@type": "Country",
+                "name": "India"
             }
-
+        ],
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Enterprises in Manufacturing, Healthcare, Retail, Semiconductor, Automotive, and Financial Services"
         },
-
-        "articleSection": "Case Studies",
-
-        "datePublished": "2025-05-29"
-
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Tosca Automation Testing Offerings",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "Tosca Implementation & Advisory",
+                        "description": "End-to-end Tosca installation, configuration, API/UI/mobile/data testing, DevOps pipeline integration, and AI-powered self-healing automation."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "qTest Test Management Services",
+                        "description": "Centralized test lifecycle management with qTest, including integration with Jira and Tosca, real-time dashboards, and risk-based workflows."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "LiveCompare Implementation",
+                        "description": "AI-based SAP change impact analysis, integration with Tosca/qTest, and continuous testing optimization for SAP updates."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "NeoLoad Performance Testing",
+                        "description": "End-to-end performance, scalability, and endurance testing integrated into CI/CD for SAP, Oracle, Salesforce, and custom apps."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "Certified Tosca Experts",
+                        "description": "Tricentis-certified experts with experience in SAP, Oracle, Salesforce, Agile, DevOps, and enterprise test automation."
+                    }
+                }
+            ]
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing"
+        }
     }
-
-
-    const services = [
-        {
-            id: 1,
-            title: "SAP S/4 HANA Integration with Mulesoft",
-            description:
-                "Seamless ERP Integrations Across SAP, Oracle, and Kinaxis",
-            knowMore: '/solutions/integration/mulesoft-salesforce'
-        },
-        {
-            id: 2,
-            title: "Oracle EBS Integration",
-            description:
-                "Extend Kinaxis planning to Oracle-based environments for hybrid ERP landscapes.",
-            knowMore: '/solutions/enterprise-platforms/oracle-ebs-consulting'
-        },
-        {
-            id: 3,
-            title: "SAP BTP",
-            description:
-                "Unifying Planning and Production with Seamless ERP Integrations",
-            knowMore: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services'
-        },
-    ];
     return (
         <div className="min-h-screen bg-white">
 
             <Seo
-                title="Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus"
-                description="Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision."
+                title="Tosca Software Automation Testing Services | Rialtes"
+                description="Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps"
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
+                canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
             />
             <script
                 type="application/ld+json"
@@ -112,7 +132,7 @@ export default function DemandPlusSection() {
                     <Image
                         src="/images/toska/mobile/banner-mobile.webp"
                         alt="Toska Banner Mobile"
-                        className="w-full"
+                        className="w-full h-[400px] md:h-full"
                         priority
                         sizes="100vw"
                         width={0}
@@ -298,7 +318,7 @@ export default function DemandPlusSection() {
                 </div>
 
             </section>
-            <section className="custom-container sm:mt-[33rem]  lg:mt-[35rem] xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] mt-[48rem] md:mt-[35rem] xl:mt-0 4xl:mt-0">
+            <section className="custom-container sm:mt-[33rem]  lg:mt-[35rem] xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] mt-[50rem] md:mt-[35rem] xl:mt-0 4xl:mt-0">
                 <div className=" bg-[#073259] p-8 4xl:mt-[27rem] xl:mt-[20rem] relative">
                     <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">Rialtes makes qTest a central hub for testing, enabling transparency, collaboration, and control across all test activities.</p>
                 </div>
