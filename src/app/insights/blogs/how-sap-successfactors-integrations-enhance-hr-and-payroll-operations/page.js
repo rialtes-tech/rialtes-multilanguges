@@ -193,11 +193,11 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                           <a
+                    <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                       target="_blank"
                       rel="noopener noreferrer"
-                    >    
+                    >
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -209,7 +209,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-<div className="max-w-[40px]">
+                  <div className="max-w-[40px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"

@@ -519,7 +519,7 @@ const Home = () => {
             </section>
 
             <section className='pb-20 mt-20 custom-container'>
-                <ContactForm className='xl:w-[80%] 4xl:w-ful w-full 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                <ContactForm className='xl:w-[80%] 4xl:w-full w-full 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
             </section>
         </div >
     )

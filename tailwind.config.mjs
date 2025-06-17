@@ -13,14 +13,17 @@ module.exports = {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
       },
       screens: {
+          'md-lg': { min: '1020px', max: '1366px' },
         xs: "375px",
         sm: "576px",
         md: "768px",
         lg: "992px",
-        xl: "1200px",     
-    "2xl": "1366px",  
-    "3xl": "1536px",  
-    "4xl": "1728px",  
+        xl: "1200px",
+        "2xl": "1366px",
+        "3xl": "1536px",
+        "4xl": "1728px",
+      
+
       },
       colors: {
         background: "var(--background)",
@@ -33,21 +36,12 @@ module.exports = {
       container: {
         center: true,
         padding: "1rem",
-        // You can add custom breakpoints if needed:
-        // screens: {
-        //   sm: "576px",
-        //   md: "768px",
-        //   lg: "992px",
-        //   xl: "1200px",
-        //   "2xl": "1400px",
-        //   "3xl": "1920px",
-        // },
       },
     },
   },
   plugins: [
-  require('@tailwindcss/typography'),
-],
+    require('@tailwindcss/typography'),
+  ],
   safelist: [
     "ml-[280px]",
     "w-[calc(100%-280px)]",
