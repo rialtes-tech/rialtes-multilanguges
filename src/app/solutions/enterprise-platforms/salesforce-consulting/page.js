@@ -172,7 +172,7 @@ export default function SalesForceConsulting() {
                 />
                 <div className="absolute custom-container  top-[5%] lg:text-start lg:top-[25%] md:top-[20%] text-black">
                     <h4 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce</h4>
-                    <h2 className="xl:w-[55%] 4xl:w-[70%] md:w-[46%] lg:w-[48%] 4xl:text-[74px] xl:text-[45px] text-[26px]">Transform how you engage with your clients</h2>
+                    <h2 className="4xl:w-[56%] xl:w-[49%] md:w-[46%] lg:w-[48%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
 
                     <Image
                         src="/images/salesforce-consulting-services/salesforce-partner.webp"

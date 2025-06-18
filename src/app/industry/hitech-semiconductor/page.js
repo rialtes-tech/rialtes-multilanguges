@@ -229,9 +229,9 @@ Accelerate innovation and meet the rapid demand of digital enterprises          
       >
 
         <div className="py-10 bg-white">
-          <div className="flex flex-col xl:flex-row py-6 2xl:gap-[90px] xl:gap-[60px] gap-y-[24px]">
-            <div className="flex flex-col xl:mb-0 mb-4 xl:w-[54%]">
-              <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[74px] xl:text-[54px] md:text-[26px] ">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
+          <div className="flex flex-col xl:flex-row py-4 2xl:gap-[90px] xl:gap-[60px] gap-y-[24px]">
+            <div className="flex flex-col xl:mb-0 mb-4 4xl:w-[47%] 2xl:w-[35%] xl:w-[38%]">
+              <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Uncomplicate your tech stack with simple solutions for Hi-Tech enterprises</h1>
             </div>
             <div className="flex flex-col w-full xl:w-[40%] xl:max-w-xl">
               <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">You engineer and manufacture complex products to make consumers’ lives easier. From semiconductor production to biotech technology design, we make hi-tech industry processes simple and seamless with customizable technology solutions. Our experienced team understands the unique challenges hi-tech industries face, from supply chain volatility to evolving customer demands.</p>
@@ -245,7 +245,7 @@ Accelerate innovation and meet the rapid demand of digital enterprises          
       <div
         className="custom-container"
       >
-        <section className="xl:py-16 bg-white">
+        <section className="xl:py-10 bg-white">
           <GrowServices />
         </section>
       </div>

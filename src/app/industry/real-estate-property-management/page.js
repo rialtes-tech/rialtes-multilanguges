@@ -174,7 +174,7 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
   return (
     <div className="text-black lg:pr-20 md:pr-10   pr-6 ">
-      <h2 className="pb-10 text-black 4xl:w-[72%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Enhance your real estate operations with our customizable service offerings</h2>
+      <h2 className="pb-10 text-black 4xl:w-[100%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Enhance your real estate operations with our customizable service offerings</h2>
       <p className="xl:w-full w-[85%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
         {growLatestServices.map((services) => (
@@ -223,11 +223,11 @@ export default function Page() {
 
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-            <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-              <h3 className="text-white text-[18px] xl:text-[24px] font-bold">
+            <div className="col-span-12 xl:col-span-8 lg:col-span-9 mb-[139px] ">
+              <h3 className="text-white text-[18px] xl:text-[24px] font-bold ">
                REAL ESTATE
               </h3>
-              <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+              <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[75%] 4xl:w-[92%] mt-[11.5px] md:mt-[28.5px]">
                 Manage real estate processes with cloud-based property management software
               </h2>
             </div>
@@ -244,10 +244,10 @@ export default function Page() {
 <section className="custom-container">
   <div className="py-10 bg-white">
     <div>
-      <div className="flex flex-col xl:flex-row py-6 xl:gap-5">
+      <div className="flex flex-col xl:flex-row py-6 xl:gap-10">
         
-        <div className="flex flex-col w-full xl:w-[60%] xl:mr-4 xl:mb-0 mb-4">
-          <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[74px] xl:text-[54px] md:text-[30px]">
+        <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] 2xl:w-[35%] xl:mr-4 xl:mb-0 mb-4">
+          <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Affordable property management software for your real estate operations
           </h1>
         </div>
