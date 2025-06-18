@@ -111,12 +111,12 @@ export default function About() {
                     />
 
                     {/* Content Box */}
-                    <div className="flex bg-[#01335B] xl:flex-row flex-col  xl:gap-7 gap-5 xl:p-14 p-5 text-white absolute xl:w-[63%] left-[9%] xl:left-[280px] w-[82%] bottom-[-140px] xl:bottom-[-150px] height-[300px] justify-center items-center">
-                        <div className="text-left">
-                            <p className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px] leading-tight">About Us</p>
-                            <div className="4xl:text-[50px] xl:text-[40px] text-[25px] leading-tight mt-3">Crafting the true purpose of technology in everyday lives.</div>
+                    <div className="flex bg-[#01335B] xl:flex-row flex-col  xl:gap-7 gap-5 xl:p-14 p-7 text-white absolute max-md:left-[9%] xl:w-[63%]  w-[82%] bottom-[-140px] xl:bottom-[-150px] xl:h-[270px] 4xl:h-[340px] justify-center xl:items-center">
+                        <div className="text-left xl:w-[60%]">
+                            <p className="font-bold 4xl:text-[24px] xl:text-[18px] text-[16px] leading-tight">About Us</p>
+                            <div className="4xl:text-[50px] xl:text-[31px] 2xl:text-[36px] text-[22px] leading-tight mt-3">Crafting the true purpose of technology in everyday lives.</div>
                         </div>
-                        <div className="4xl:text-[33px] xl:text-[26px] text-[22px] leading-tight">Imagining how the most complex task can be made simple with AI, data, and technology.</div>
+                        <div className="4xl:text-[33px] xl:text-[22px] text-[18px] leading-tight xl:w-[50%]">Imagining how the most complex task can be made simple with AI, data, and technology.</div>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function About() {
             {/* Mission & Vision Section */}
             <div
                 className="mt-40 custom-container">
-                <h1 className="py-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[76%] 4xl:w-[100%]">World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.</h1>
+                <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[76%] 4xl:w-[100%]">World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.</h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
                     <div className="relative overflow-hidden">
                         <Image
