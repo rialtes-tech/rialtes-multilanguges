@@ -1135,7 +1135,7 @@ export default function () {
                             <h3 className="text-[18px] md:text-[24px] font-bold">
                                 SAP Datasphere
                             </h3>
-                            <h1 className="text-[26px] leading-tight xl:text-[44px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+                            <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
                                 Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere
                             </h1>
                         </div>

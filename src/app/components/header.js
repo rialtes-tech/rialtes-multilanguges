@@ -240,7 +240,10 @@ const Header = () => {
           label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
         },
         {
-          label: 'Retail Industry', href: '/industry/retail-industry-digital-transformation',
+          label: 'Retail', href: '/industry/retail-industry-digital-transformation',
+        },
+        {
+          label: 'Non-Profit', href: '/industry/nonprofit-digital-transformation-it-solutions',
         },
       ],
     },
@@ -1198,7 +1201,13 @@ const Header = () => {
                     className={`cursor-pointer mt-3 font-bold ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClick("retailIndustry")}
                   >
-                    Retail Industry
+                    Retail
+                  </div>
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("nonProfitIndustry")}
+                  >
+                    Non-Profit
                   </div>
                 </div>
                 {openSection === "automotive" && (
@@ -1355,6 +1364,21 @@ const Header = () => {
                         <p className="mt-3">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/retail-industry-digital-transformation' onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {openSection === "nonProfitIndustry" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Partnering with Nonprofits to Scale Mission-Driven Outcomes</div>
+                        <p className="mt-3">We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/nonprofit-digital-transformation-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>
