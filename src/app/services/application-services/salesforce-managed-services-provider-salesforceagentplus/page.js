@@ -385,11 +385,11 @@ export default function page() {
                                     {
                                         startYourAIData.map((data, ind) => {
                                             return (
-                                                <>
-                                                    <li className="xl:text-[22px] text-[16px] leading-tight lg:mt-0 mt-[23px]" key={ind}>
+                                                <div  key={ind}>
+                                                    <li className="xl:text-[22px] text-[16px] leading-tight lg:mt-0 mt-[23px]">
                                                         <span className="font-bold">{data.title}</span> {data.subtitle}
                                                     </li>
-                                                </>
+                                                </div>
                                             )
                                         })
                                     }
@@ -422,10 +422,10 @@ export default function page() {
 
                         salesforceagentData.map((data, ind) => {
                             return (
-                                <div className="border border-[#707070] xl:px-[40px] xl:pb-[46px] xl:pt-[90px] px-[21px] pb-[34px] pt-[55px]">
-                                    <p key={ind} className="xl:text-[30px] text-[20px] leading-tight text-[#006FBE] font-semibold bg-[#ffffff] xl:mt-[-116px] md:mt-[-72px] mt-[-70px] w-fit">
+                                <div key={ind} className="border border-[#707070] xl:px-[40px] xl:pb-[46px] xl:pt-[90px] px-[21px] pb-[34px] pt-[55px]">
+                                    <h4  className="xl:text-[30px] text-[20px] leading-tight text-[#006FBE] font-semibold bg-[#ffffff] xl:mt-[-116px] md:mt-[-72px] mt-[-70px] w-fit">
                                         {data.title}
-                                    </p>
+                                    </h4>
                                     <ul className="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[54px] mt-[30px] xl:ml-[26px] ml-[20px]">
                                         {
                                             data.list.map((listData, ind) => {
@@ -556,11 +556,11 @@ export default function page() {
                                     {
                                         rialChatData.map((data, ind) => {
                                             return (
-                                                <>
-                                                    <li className="xl:text-[22px] text-[16px] leading-tight lg:mt-0 mt-[23px]" key={ind}>
+                                                <div  key={ind}>
+                                                    <li className="xl:text-[22px] text-[16px] leading-tight lg:mt-0 mt-[23px]">
                                                         {data}
                                                     </li>
-                                                </>
+                                                </div>
                                             )
                                         })
                                     }
@@ -590,7 +590,7 @@ export default function page() {
             </section>
 
             {/* our global section */}
-            <section section className="custom-container xl:mt-[117px] mt-[58px]">
+            <section className="custom-container xl:mt-[117px] mt-[58px]">
                 <h2 className="xl:text-[60px] text-[26px] leading-tight font-light 2xl:w-[90%] md:w-[80%] lg:w-full">
                     Our Global, Scalable, 24x7 Salesforce Support Delivery Model
                 </h2>
@@ -602,11 +602,11 @@ export default function page() {
                     {
                         ourGlobalData.map((data, ind) => {
                             return (
-                                <>
-                                    <li className="xl:text-[22px] text-[16px] leading-tight" key={ind}>
+                                <div  key={ind}>
+                                    <li className="xl:text-[22px] text-[16px] leading-tight">
                                         {data}
                                     </li>
-                                </>
+                                </div>
                             )
                         })
                     }
