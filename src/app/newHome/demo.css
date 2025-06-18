@@ -106,7 +106,7 @@
 }
 
 .content .title::after {
-  content: attr(data-item);
+  /* content: attr(data-item); */
   border-radius: 50%;
   color: #fff;
   font-size: 12px;

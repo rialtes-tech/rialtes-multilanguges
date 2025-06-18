@@ -87,7 +87,7 @@ const AutoTimerSlider = () => {
                         </div>
                     </div>
 
-                    <div className="item"
+                    {/* <div className="item"
                         style={{ backgroundImage: `url("/images/industry/travel-transporation/TTH.webp")`, backgroundPosition: "35% 10%" }}>
                         <div className="content travelContent">
                             <div className="title travelTitle font-semibold !text-[#000000]">Travel and Hospitality</div>
@@ -96,7 +96,7 @@ const AutoTimerSlider = () => {
                                 <button className='!border-[1px] know-more !border-black text-[#000000] p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
 
