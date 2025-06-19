@@ -11,7 +11,6 @@ export default function page() {
         "Limited visibility across departments and partner ecosystems.",
         "Slow, fragmented customer and supplier interactions."
     ]
-
     const endToEndData = [
         {
             title: "Integration Strategy, Advisory & Architecture",
@@ -51,7 +50,6 @@ export default function page() {
             ]
         },
     ]
-
     const specializedData = [
         {
             title: "SAP Ariba Integration",
@@ -102,7 +100,6 @@ export default function page() {
             businessData: [
                 "End-to-end HR process automation.",
                 "Better employee experience and faster onboarding.",
-                "",
                 "Compliance with local and global HR regulations.",
             ],
             mobImg: "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
@@ -127,11 +124,88 @@ export default function page() {
             deskImg: "/images/solutions/sap-cpi/salesforce-desk.webp"
         }
     ]
-
     const integrationData = [
         "Finance and HR data flows across platforms.",
         "Supply chain and logistics integration.",
         "Real-time reporting and dashboards."
+    ]
+    const commonSectionsData = [
+        {
+            mobImg: "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
+            deskImg: "/images/solutions/sap-cpi/data-visulization-desk.webp",
+            title: "Data Visualization with Data Cloud and Tableau",
+            subtitle: "Actionable Insights from Connected Data",
+            desc: "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
+            dataList: [
+                "Real-time dashboards across finance, HR, supply chain, and customer service.",
+                "Predictive analytics and AI-driven forecasts.",
+                "Self-service analytics for business users."
+            ]
+        },
+        {
+            mobImg: "/images/solutions/sap-cpi/Mobile/production-mob.webp",
+            deskImg: "/images/solutions/sap-cpi/production-desk.webp",
+            title: "Production Planning & Demand Management using Mulesoft + SAP CPI",
+            desc: "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
+            dataList: [
+                "End-to-end supply chain visibility.",
+                "Automated order and inventory synchronization.",
+                "Real-time capacity and demand updates."
+            ]
+        },
+        {
+            mobImg: "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
+            deskImg: "/images/solutions/sap-cpi/demand-desk.webp",
+            title: "Demand Planning with Kinaxis RapidResponse & SAP CPI",
+            desc: "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
+            dataList: [
+                "AI-driven, agile forecasting.",
+                "Real-time visibility into supply chain disruptions.",
+                "Proactive capacity and production adjustments."
+            ]
+        },
+        {
+            mobImg: "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
+            deskImg: "/images/solutions/sap-cpi/ai-powered-desk.webp",
+            title: "AI-Powered SAP Integrations",
+            subtitle: "The Future of Intelligent Workflows",
+            desc: "AI is transforming integration landscapes, and Rialtes makes this real:",
+            dataList: [
+                "AI-driven decision-making (automated order routing, fraud detection).",
+                "Predictive supply chain and HR analytics.",
+                "Intelligent automation across business units."
+            ]
+        },
+        {
+            mobImg: "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
+            deskImg: "/images/solutions/sap-cpi/agile-desk.webp",
+            title: "Agile, SCRUM-Certified Delivery for Seamless Integrations",
+            desc: "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
+            dataList: [
+                "Agile sprints for rapid value realization.",
+                "Transparent progress and stakeholder engagement.",
+                "Continuous improvement based on iterative feedback."
+            ]
+        },
+        {
+            mobImg: "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
+            deskImg: "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
+            title: "SAP and Salesforce Partnership",
+            subtitle: "The Power of Connected Ecosystems",
+            desc: "As trusted partners with SAP and Salesforce, Rialtes delivers:",
+            dataList: [
+                "Unified data and processes across CRM and ERP.",
+                "End-to-end lead-to-cash automation.",
+                "Enhanced customer, supplier, and employee experiences."
+            ]
+        }
+    ]
+    const whyRialtesData = [
+        "SAP Certified Partner with proven CPI integration success stories.",
+        "Global presence: United States, Canada, Singapore, India.",
+        "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
+        "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
+        "End-to-end support from advisory to post-go-live optimization.",
     ]
     return (
         <section className="min-h-screen">
@@ -194,7 +268,7 @@ export default function page() {
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
                         <p className="xl:text-[22px] text-[16px] leading-tight">
-                            At Rialtes, we specialize in leveraging the SAP Cloud Integration (CPI) platform to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.
+                            At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.
                         </p>
                     </div>
                 </div>
@@ -278,7 +352,7 @@ export default function page() {
 
                                                 return (
                                                     <React.Fragment key={ind}>
-                                                        <li className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight">
+                                                        <li className="xl:text-[18px] 4xl:text-[24px] text-[16px] leading-tight">
                                                             {item}
                                                         </li>
                                                         {!isLastItem && (
@@ -307,7 +381,7 @@ export default function page() {
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[70%] md:w-[50%] xl:w-[52%] 4xl:w-[70%]">
                     Specialized SAP Cloud Integrations Rialtes Delivers
                 </h2>
-                <div className="xl:mt-[92px] mt-[43px] space-y-[43px] lg:space-y-[153px]">
+                <div className="xl:mt-[92px] mt-[43px] space-y-[97px] lg:space-y-[153px]">
                     {
                         specializedData.map((data, ind) => {
                             return (
@@ -439,17 +513,202 @@ export default function page() {
                                     ))}
                                 </ul>
                                 <div className="absolute md:mt-[40px] mt-[60px]">
-                                    <LearnMore/>
+                                    <LearnMore />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            {/* common sections */}
+            <section className="xl:mt-[232px] mt-[120px]">
+                {
+                    commonSectionsData.map((data, ind) => {
+                        const evenSection = ind % 2 == 0;
+                        return (
+                            <div key={ind} className={`custom-container mt-[88px] xl:mt-[144px] ${evenSection ? "md:pr-0" : "md:pl-0"}`}>
+                                {
+                                    evenSection ?
+                                        <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[60px] gap-y-[28px] sm:gap-y-0">
+
+                                            <div className="md:col-span-5 col-span-12 md:order-1 order-2">
+                                                <h2 className="md:block hidden xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
+                                                    {data.title}
+                                                </h2>
+                                                <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
+                                                    {data?.subtitle}
+                                                </h3>
+                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] sm:first:mt-[20px]  font-normal sm:w-[80%] md:w-full`}>
+                                                    {data.desc}
+                                                </p>
+                                                <ul className="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full">
+                                                    {data.dataList.map((data, ind) => (
+                                                        <li key={ind} className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight">
+                                                            {data}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                                <div className="md:mt-[83px] mt-[33px]">
+                                                    <LearnMore />
+                                                </div>
+                                            </div>
+                                            {/* image section */}
+                                            <div className="md:col-span-7 col-span-12 md:order-2 order-1">
+                                                {/* title and subtitle for mob */}
+                                                <div>
+                                                    <p className="md:hidden block xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light sm:w-[80%]">
+                                                        {data.title}
+                                                    </p>
+                                                    <p className="md:hidden block xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
+                                                        {data?.subtitle}
+                                                    </p>
+                                                </div>
+                                                {/* Desktop Image */}
+                                                <div className="hidden md:block w-full h-full">
+                                                    <Image
+                                                        src={data.deskImg}
+                                                        alt="desktop banner"
+                                                        width={0}
+                                                        height={0}
+                                                        className="object-cover object-[55%_20%] h-full w-full"
+                                                        priority
+                                                    />
+                                                </div>
+
+                                                {/* Mobile Image */}
+                                                <div className="block md:hidden w-full mt-[27px] h-[75%] sm:h-[80%] max-[350px]:h-[60%]">
+                                                    <Image
+                                                        src={data.mobImg}
+                                                        alt="mobile banner"
+                                                        width={0}
+                                                        height={0}
+                                                        className="object-cover w-full h-full"
+                                                        priority
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div> :
+                                        <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[60px] 4xl:gap-[80px] gap-y-[28px] sm:gap-y-0">
+                                            {/* image section */}
+                                            <div className="md:col-span-7 col-span-12 order-1">
+                                                {/* title and subtitle for mob */}
+                                                <div>
+                                                    <p className="md:hidden block xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light sm:w-[80%]">
+                                                        {data.title}
+                                                    </p>
+                                                    <p className="md:hidden block xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
+                                                        {data?.subtitle}
+                                                    </p>
+                                                </div>
+                                                {/* Desktop Image */}
+                                                <div className="hidden md:block w-full h-full">
+                                                    <Image
+                                                        src={data.deskImg}
+                                                        alt="desktop banner"
+                                                        width={0}
+                                                        height={0}
+                                                        className="object-cover object-[55%_20%] w-full h-full"
+                                                        priority
+                                                    />
+                                                </div>
+
+                                                {/* Mobile Image */}
+                                                <div className="block md:hidden w-full mt-[27px] h-[75%] sm:h-[80%] max-[350px]:h-[60%]">
+                                                    <Image
+                                                        src={data.mobImg}
+                                                        alt="mobile banner"
+                                                        width={0}
+                                                        height={0}
+                                                        className="object-cover object-center w-full h-full"
+                                                        priority
+                                                    />
+                                                </div>
+                                            </div>
+
+                                            <div className="md:col-span-5 col-span-12 order-2">
+                                                <h2 className="md:block hidden xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
+                                                    {data.title}
+                                                </h2>
+                                                <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
+                                                    {data?.subtitle}
+                                                </h3>
+                                                <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] mt-0 sm:w-[80%] md:w-full font-normal">
+                                                    {data.desc}
+                                                </p>
+                                                <ul className="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full">
+                                                    {data.dataList.map((data, ind) => (
+                                                        <li key={ind} className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight">
+                                                            {data}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                                <div className="lg:mt-[60px] mt-[33px]">
+                                                    <LearnMore />
+                                                </div>
+                                            </div>
+                                        </div>
+                                }
+                            </div>
+                        )
+                    })
+                }
+            </section>
+
+            {/* why rialtes section */}
+            <section className="custom-container relative 4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[42px] max-lg:px-0 xl:mt-[129px] mt-[76px] lg:pr-0">
+                {/* Desktop Image */}
+                <div className="hidden lg:block w-full lg:h-[430px] xl:h-[600px]">
+                    <Image
+                        src="/images/solutions/sap-cpi/why-rialtes-desk.webp"
+                        alt="desktop banner"
+                        width={0}
+                        height={0}
+                        className="object-cover object-center w-full h-full"
+                        priority
+                    />
+                </div>
+
+                {/* Mobile Image */}
+                <div className="block lg:hidden w-full h-full">
+                    <Image
+                        src="/images/solutions/sap-cpi/Mobile/why-rialtes-mob.webp"
+                        alt="mobile banner"
+                        width={0}
+                        height={0}
+                        className="object-cover object-center w-full h-full"
+                        priority
+                    />
+                </div>
+
+                <div className="lg:absolute lg:mt-[-380px] xl:mt-[-520px] 4xl:mt-[-540px] max-lg:px-[36px] mt-[-60px]">
+                    <div className="grid grid-cols-1 lg:grid-cols-12">
+                        <div className="col-span-6 lg:col-span-6 3xl:col-span-5">
+                            <div className="bg-[#006FBE] text-[#ffffff] lg:ml-[60px] xl:pt-[60px] xl:px-[50px] xl:pb-[90px] pt-[29px] lg:px-[36px] px-[24px] pb-[65px]">
+                                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
+                                    Why Rialtes?
+                                </h2>
+                                <ul className="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]">
+                                    {whyRialtesData.map((data, ind) => (
+                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                            {data}
+                                        </li>
+                                    ))}
+                                </ul>
+                                <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
+                                    <LearnMore />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-span-6 lg:col-span-6"></div>
+                    </div>
+                </div>
+            </section>
+
             {/* Contact Form */}
-            <div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px]">
-                <ContactForm title={'Ready to Connect Your Enterprise with SAP Cloud Integration?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:w-[70%] 4xl:w-[80%]" />
+            <div className="custom-container xl:mt-[224px] lg:mt-[164px] xl:mb-[104px] mt-[104px] mb-[45px]">
+                <ContactForm title={'Ready to Connect Your Enterprise with SAP Cloud Integration?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[70%] 4xl:w-[80%]" />
             </div >
-        </section>
+        </section >
     )
 }
