@@ -427,7 +427,7 @@ export default function retailPage() {
                     {
                         preDeliveredData.map((data, ind) => {
                             return (
-                                <div className="pt-[33px] px-[28px] pb-[46px] xl:px-[48px] xl:pt-[52px] xl:pb-[42px] border border-[#707070]" key={ind}>
+                                <div className="pt-[33px] px-[28px] pb-[46px] xl:px-[48px] xl:pt-[52px] xl:pb-[42px] border border-[#707070] hover:bg-[#D9F2FF]" key={ind}>
                                     <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE]">
                                         {data.title}
                                     </p>
