@@ -134,13 +134,24 @@ export default function Page() {
 
 
        <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
+       <div className="xl:block hidden">
+         <Image
           src="/images/success-factors/successfactor-banner.webp"
           alt="SuccessFactor"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
+       </div>
+        <div className="xl:hidden block">
+         <Image
+          src="/images/success-factors/successfactor.webp"
+          alt="SuccessFactor"
+          fill
+          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+          priority
+        />
+       </div>
         <div
           className="
                     custom-container h-full relative
