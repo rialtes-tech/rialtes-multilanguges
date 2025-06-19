@@ -172,7 +172,7 @@ export default function SalesForceConsulting() {
                 />
                 <div className="absolute custom-container  top-[5%] lg:text-start lg:top-[25%] md:top-[20%] text-black">
                     <h4 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce</h4>
-                    <h2 className="4xl:w-[56%] xl:w-[49%] md:w-[46%] lg:w-[48%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
+                    <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%]  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
 
                     <Image
                         src="/images/salesforce-consulting-services/salesforce-partner.webp"
@@ -189,7 +189,7 @@ export default function SalesForceConsulting() {
             </div> 
 
 <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
-  <div className="lg:col-span-6">
+  <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
     <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
       Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
     </h1>
