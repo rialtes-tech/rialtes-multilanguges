@@ -13,7 +13,6 @@ module.exports = {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
       },
       screens: {
-          'md-lg': { min: '1020px', max: '1366px' },
         xs: "375px",
         sm: "576px",
         md: "768px",

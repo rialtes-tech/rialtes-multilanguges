@@ -382,7 +382,7 @@ export default function Agentforce() {
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 custom-container lg:pr-0 lg:mt-20 pb-20 mt-10">
-                <ContactForm title="Take the next step to operational excellence with us." className="leading-tight" />
+                <ContactForm title="Take the next step to operational excellence with us." className="leading-tight 2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px]" />
             </section>
         </section>
     )
