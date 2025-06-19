@@ -301,7 +301,6 @@ export default function Page() {
                             <li className="marker:text-blue-500 mt-3">Share files, media, and quick replies for faster resolutions.</li>
                         </ul>
                         <LearnMore />
-
                     </div>
                     <div className="mt-10 xl:mt-0">
                         <Image

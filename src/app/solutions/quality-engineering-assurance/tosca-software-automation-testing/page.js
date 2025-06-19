@@ -1,4 +1,3 @@
-// components/DemandPlusSection.tsx
 "use client";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
@@ -9,85 +8,105 @@ export default function DemandPlusSection() {
     const schemaData = {
 
         "@context": "https://schema.org",
-
-        "@type": "Article",
-
-        "mainEntityOfPage": {
-
-            "@type": "WebPage",
-
-            "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
-
-        },
-
-        "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
-
-        "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-
-        "image": "https://rialtes.netlify.app/images/case-studies/fiori-banner.webp",
-
-        "author": {
-
+        "@type": "Service",
+        "name": "Tosca Automation Testing Services",
+        "alternateName": "Tricentis Tosca Test Automation by Rialtes",
+        "description": "Rialtes offers end-to-end Tosca automation testing services, including implementation, test management, risk-based testing, and integration with SAP, Salesforce, Oracle, and DevOps pipelines.",
+        "provider": {
             "@type": "Organization",
-
-            "name": "Rialtes"
-
-        },
-
-        "publisher": {
-
-            "@type": "Organization",
-
             "name": "Rialtes",
-
-            "logo": {
-
-                "@type": "ImageObject",
-
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc",
+                "https://x.com/Rialtestech"
+            ]
+        },
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "United States"
+            },
+            {
+                "@type": "Country",
+                "name": "Canada"
+            },
+            {
+                "@type": "Country",
+                "name": "Singapore"
+            },
+            {
+                "@type": "Continent",
+                "name": "Europe"
+            },
+            {
+                "@type": "Country",
+                "name": "India"
             }
-
+        ],
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Enterprises in Manufacturing, Healthcare, Retail, Semiconductor, Automotive, and Financial Services"
         },
-
-        "articleSection": "Case Studies",
-
-        "datePublished": "2025-05-29"
-
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Tosca Automation Testing Offerings",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "Tosca Implementation & Advisory",
+                        "description": "End-to-end Tosca installation, configuration, API/UI/mobile/data testing, DevOps pipeline integration, and AI-powered self-healing automation."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "qTest Test Management Services",
+                        "description": "Centralized test lifecycle management with qTest, including integration with Jira and Tosca, real-time dashboards, and risk-based workflows."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "LiveCompare Implementation",
+                        "description": "AI-based SAP change impact analysis, integration with Tosca/qTest, and continuous testing optimization for SAP updates."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "NeoLoad Performance Testing",
+                        "description": "End-to-end performance, scalability, and endurance testing integrated into CI/CD for SAP, Oracle, Salesforce, and custom apps."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Thing",
+                        "name": "Certified Tosca Experts",
+                        "description": "Tricentis-certified experts with experience in SAP, Oracle, Salesforce, Agile, DevOps, and enterprise test automation."
+                    }
+                }
+            ]
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing"
+        }
     }
-
-
-    const services = [
-        {
-            id: 1,
-            title: "SAP S/4 HANA Integration with Mulesoft",
-            description:
-                "Seamless ERP Integrations Across SAP, Oracle, and Kinaxis",
-            knowMore: '/solutions/integration/mulesoft-salesforce'
-        },
-        {
-            id: 2,
-            title: "Oracle EBS Integration",
-            description:
-                "Extend Kinaxis planning to Oracle-based environments for hybrid ERP landscapes.",
-            knowMore: '/solutions/enterprise-platforms/oracle-ebs-consulting'
-        },
-        {
-            id: 3,
-            title: "SAP BTP",
-            description:
-                "Unifying Planning and Production with Seamless ERP Integrations",
-            knowMore: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services'
-        },
-    ];
     return (
         <div className="min-h-screen bg-white">
 
             <Seo
-                title="Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus"
-                description="Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision."
+                title="Tosca Software Automation Testing Services | Rialtes"
+                description="Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps"
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
+                canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
             />
             <script
                 type="application/ld+json"
@@ -112,7 +131,7 @@ export default function DemandPlusSection() {
                     <Image
                         src="/images/toska/mobile/banner-mobile.webp"
                         alt="Toska Banner Mobile"
-                        className="w-full"
+                        className="w-full h-[400px] md:h-full"
                         priority
                         sizes="100vw"
                         width={0}
@@ -125,7 +144,7 @@ export default function DemandPlusSection() {
                     className="h-full absolute custom-container xl:!pr-0  mr-0 top-0"
                 >
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
-                        <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-20 4xl:pr-16  xl:pr-10 pr-20 md:pr-64">
+                        <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  xl:pr-10 pr-20 md:pr-64">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">TOSCA</h3>
                             <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
                                 Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services
@@ -178,8 +197,8 @@ export default function DemandPlusSection() {
                 <div
                     className="grid xl:grid-cols-12">
                     <div className="xl:col-span-6"></div>
-                    <div className="xl:col-span-6 xl:absolute 4xl:right-[333px] xl:right-[170px]  xl:top-0 top-[290px]">
-                        <div className="bg-[#016FBE] bg-opacity-90 text-white p-8 4xl:w-[765px] xl:w-[550px] 4xl:pb-20 pb-48 xl:pb-10">
+                    <div className="xl:col-span-6 absolute 4xl:right-[333px] xl:right-[170px]  xl:top-0 top-[290px]">
+                        <div className="bg-[#016FBE] xl:bg-opacity-90 text-white p-8 4xl:w-[765px] xl:w-[550px] 4xl:pb-20 pb-48 xl:pb-10">
                             <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px]">Why Choose Rialtes for Tosca Implementation?</h2>
                             <h3 className="4xl:text-[42px] text-[22px] font-semibold leading-tight 4xl:mt-8 xl:mt-5 mt-5 pr-[36px] 4xl:pr-0">Trusted Partner for End-to-End Testing Automation Success</h3>
                             <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0">
@@ -199,7 +218,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-            <section className="custom-container xl:!pr-0 4xl:mt-32 mt-0 md:mt-0 xl:mt-32">
+            <section className="custom-container xl:!pr-0 4xl:mt-32 mt-[39rem] md:mt-[30rem] xl:mt-32">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-8 xl:pr-10 4xl:pr-10">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px] 4xl:block xl:block hidden">End-to-End Tosca Implementation & Advisory Services</h2>
@@ -224,7 +243,7 @@ export default function DemandPlusSection() {
                         <h3 className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight mt-5 4xl:mt-0 xl:mt-0 pr-10 4xl:pr-0">Build a Resilient Automation Foundation</h3>
                         <h3 className="mt-5 text-[#006FBE] font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight">Make Automated Testing a Seamless Part of Your Development Lifecycle</h3>
                         <p className="mt-5 4xl:text-[22px] text-[16px]">Rialtes helps enterprises fully adopt Tosca for modern, agile, and DevOps-driven organizations:</p>
-                        <ul className="list-disc  leading-tight 4xl:space-y-5 xl:space-y-2  marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-light text-[16px] 4xl:mt-8 mt-5 pr-12 xl:pr-0 md:pb-0">
+                        <ul className="list-disc  leading-tight 4xl:space-y-5 xl:space-y-2  marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] 4xl:mt-8 mt-5 pr-16 xl:pr-0 md:pb-0">
                             <li>End-to-end Tosca installation and configuration</li>
                             <li>Test case design, optimization, and risk-based test management</li>
                             <li>API, UI, Mobile, and Data integrity testing using Tosca</li>
@@ -238,13 +257,13 @@ export default function DemandPlusSection() {
             </section>
             <div className="grid xl:grid-cols-12 4xl:mt-[-85px] mt-[1rem] sm:mt-10 xl:mt-[-50px] max-md:px-[35px] custom-container">
                 <div className="xl:col-span-2">
-                    <div className="4xl:mt-[5rem]  xl:mt-[75px] 2xl:mt-[5rem]">
+                    <div className="4xl:mt-[44px]  xl:mt-[75px] 2xl:mt-[5rem]">
                         <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                     </div>
                 </div>
                 <div className="xl:col-span-1">
                 </div>
-                <div className="xl:col-span-9 sm:mt-10 mt-10">
+                <div className="xl:col-span-9 mt-10 4xl:mt-0">
                     <div className="bg-[#163055] p-8">
                         <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">With Rialtes, organizations achieve faster releases, improved quality, and reduced manual efforts through intelligent test automation.</p>
                     </div>
@@ -298,18 +317,18 @@ export default function DemandPlusSection() {
                 </div>
 
             </section>
-            <section className="custom-container sm:mt-[33rem]  lg:mt-[35rem] xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] mt-[48rem] md:mt-[35rem] xl:mt-0 4xl:mt-0">
+            <section className="custom-container sm:mt-[33rem]  lg:mt-[35rem] xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] mt-[50rem] md:mt-[35rem] xl:mt-0 4xl:mt-0">
                 <div className=" bg-[#073259] p-8 4xl:mt-[27rem] xl:mt-[20rem] relative">
                     <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">Rialtes makes qTest a central hub for testing, enabling transparency, collaboration, and control across all test activities.</p>
                 </div>
             </section>
 
 
-            <section className="xl:mt-32 mt-24 xl:custom-container lg:px-0 pl-0  px-0 sm:px-0 md:px-6">
+            <section className="xl:mt-32 mt-24 xl:custom-container lg:px-0 pl-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-5  max-md:px-[35px]">
                         <Image
-                            className="w-full 4xl:mt-16 4xl:mb-16 xl:mt-16  relative px-[35px] xl:px-0"
+                            className="w-full 4xl:h-[760px] 4xl:mt-16 4xl:mb-16 xl:mt-16  relative"
                             src="/images/toska/desktop/live-desk.webp"
                             alt="Live Desktop"
                             width={0}
@@ -319,10 +338,10 @@ export default function DemandPlusSection() {
                         />
                     </div>
 
-                    <div className="xl:col-span-7 bg-[#D0EBFF] text-black 4xl:ml-[-32rem]  xl:ml-[-28rem] pb-[15rem] xl:pb-[9rem] 4xl:pb-[11rem] px-[35px] 4xl:pl-[36rem] xl:pl-[31rem] 4xl:pr-[10rem] xl:pr-[7rem] xl:mt-0 mt-[-200px]">
-                        <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[38px] leading-tight 4xl:pr-16 xl:pr-10 pt-[15rem] 4xl:pt-10 xl:pt-[4rem] 2xl:text-[30px]">LiveCompare Implementation</h2>
+                    <div className="xl:col-span-7 bg-[#D0EBFF] text-black 4xl:ml-[-32rem] max-md:px-[65px]  xl:ml-[-28rem] pb-[15rem] xl:pb-[9rem] 4xl:pb-[11rem] px-[35px] 4xl:pl-[36rem] xl:pl-[31rem] 4xl:pr-[10rem] xl:pr-[7rem] xl:mt-0 mt-[-200px] ">
+                        <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[38px] leading-tight 4xl:pr-16 xl:pr-10 pt-[15rem] 4xl:pt-16 xl:pt-[4rem] 2xl:text-[30px]">LiveCompare Implementation</h2>
                         <h3 className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight  xl:mt-3  xl:pr-0 mt-5 pr-20">AI-Powered Change Impact Analysis</h3>
-                        <h3 className="text-[#006FBE] mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight 4xl:pr-48 pr-20">Accelerate Safe SAP Updates with AI-Driven Impact Analysis</h3>
+                        <h3 className="text-[#006FBE] mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight 4xl:pr-[4rem] pr-20">Accelerate Safe SAP Updates with AI-Driven Impact Analysis</h3>
                         <p className="4xl:text-[22px] xl:text-[14px] text-[16px] font-normal mt-5 pr-10">Rialtes helps organizations use LiveCompare to cut testing time and focus only on what matters most when upgrading SAP systems:</p>
                         <ul className="list-disc leading-tight 4xl:space-y-5   marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[14px] font-normal text-[16px] 4xl:pr-32 4xl:mt-5 mt-5 pr-12 xl:pr-0">
                             <li>LiveCompare deployment and configuration</li>
@@ -339,12 +358,10 @@ export default function DemandPlusSection() {
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-73px] 4xl:mt-[-78px]">
 
-                <div className="xl:col-span-8 col-span-12 mx-[35px] z-[9] xl:mx-0 relative bg-[#163055] p-8 4xl:mt-[-57px] xl:mt-[-40px] mt-[-200px] 4xl:ml-[280px] xl:ml-[78px]">
-                    <h3 className="4xl:text-[26px] xl:text-[16px] text-[20px] text-white font-normal leading-tight">
+                <div className="xl:col-span-8 col-span-12 mx-[35px] z-[9] xl:mx-0 relative bg-[#163055] p-8 4xl:mt-[-57px] xl:mt-[-40px] mt-[-200px] 4xl:ml-[280px] xl:ml-[78px] md:mt-[-150px]">
+                    <p className="4xl:text-[26px] xl:text-[16px] text-[20px] text-white font-normal leading-tight">
                         Rialtes makes SAP testing intelligent, targeted, and faster — reducing risk and effort while accelerating transformation.
-                    </h3>
-
-
+                    </p>
                 </div>
                 <div className="xl:col-span-1"></div>
                 <div className="xl:col-span-2 xl:block hidden">
@@ -356,8 +373,9 @@ export default function DemandPlusSection() {
             <section className="mt-10 xl:custom-container 4xl:px-[142px] max-lg:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-5 col-span-12 mt-10 xl:mt-[10rem] 4xl:ml-[-200px] xl:ml-[-105px] order-1 xl:order-2">
-                        <Image
-                            className="w-full 4xl:mt-16 4xl:mb-16 xl:mt-10 xl:-mb-16 relative px-[35px] xl:px-0 4xl:px-0"
+                       <div className="xl:block hidden">
+                         <Image
+                            className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative"
                             src="/images/toska/desktop/neoload-desktop.webp"
                             alt="Neoload desktop Image"
                             width={0}
@@ -365,9 +383,22 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                             priority
                         />
+                       </div>
+                       <div className="xl:hidden block">
+                         <Image
+                            className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative px-[35px] xl:px-0 4xl:px-0"
+                            src="/images/toska/mobile/neoload-mobile.webp"
+                            alt="Neoload desktop Image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            priority
+                        />
+                       </div>
+                       
                     </div>
 
-                    <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0 pb-[13rem] xl:pb-0 4xl:pb-0">
+                    <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0 pb-[15rem] xl:pb-0 4xl:pb-0">
                         <h2 className="text-[26px] 4xl:text-[60px] xl:text-[40px] leading-tight 4xl:pr-0  pt-[15rem] xl:pt-16 4xl:pt-16">
                             NeoLoad Performance Testing Implementation
                         </h2>
@@ -411,9 +442,10 @@ export default function DemandPlusSection() {
             </div>
 
 
-            <section className="mt-20 4xl:mt-20 xl:mt-32 custom-container 4xl:pl-[280px] 4xl:pr-[181px] 2xl:pl-[142px]">
+            <section className="mt-20 4xl:mt-20 xl:mt-32 custom-container 4xl:pl-[280px] 4xl:pr-[120px] xl:pl-[142px]">
                 <div className="grid xl:grid-cols-12 4xl:gap-16 grid-cols-1">
                     <div className="xl:col-span-5 col-span-12">
+                        <div className="xl:block hidden">
                         <Image
                             className="w-full h-full"
                             src="/images/toska/desktop/new-to.webp"
@@ -423,12 +455,24 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                             priority
                         />
+                        </div>
+                        <div className="xl:hidden block">
+                             <Image
+                            className="w-full h-[440px] md:h-full"
+                            src="/images/toska/mobile/certifide.webp"
+                            alt="Certifide Unamtched Image"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            priority
+                        />
+                        </div>
                     </div>
                     <div className="xl:col-span-7 col-span-12  sm:px-0 md:px-[35px]">
                         <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[40px] 2xl:text-[30px] leading-tight 4xl:pr-64 xl:pr-48 pt-10 xl:pt-0 4xl:pt-0">Rialtes’ Certified Tosca Experts</h2>
                         <h3 className="4xl:text-[40px] xl:text-[25px] text-[20px] font-semibold mt-5">Unmatched Testing Excellence</h3>
                         <p className="4xl:text-[22px] text-[16px] mt-5">Rialtes is proud to have a team of highly certified Tosca, qTest, LiveCompare, and NeoLoad experts, ensuring deep technical knowledge and proven industry practices:</p>
-                        <section className="max-w-6xl mx-auto py-12">
+                        <section className="mx-auto py-12">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
                                 <div className="flex items-start gap-5">
                                     <div className="w-[3px] h-full bg-[#006FBE]"></div>
@@ -474,7 +518,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-            <section className="relative mt-16 xl:custom-container xl:pl-0 4xl:pr-[280px] xl:pr-[80px]">
+            <section className="relative mt-16 4xl:mt-32 xl:custom-container xl:pl-0 4xl:pr-[280px] xl:pr-[80px]">
                 {/* Desktop Image */}
                 <div className="xl:block hidden">
                     <Image
@@ -521,13 +565,13 @@ export default function DemandPlusSection() {
                     </div>
 
                     <div className="xl:grid xl:grid-cols-12">
-                        <div className="order-1 xl:order-3 4xl:mt-[28px] xl:mt-[3px] col-span-2 2xl:mt-[100px]">
+                        <div className="order-1 xl:order-3 4xl:mt-[28px] xl:mt-[3px] mt-10 col-span-2 2xl:mt-[100px]">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
 
                         <div className="order-2 xl:order-2 xl:col-span-1"></div>
 
-                        <div className="order-3 xl:order-1 xl:col-span-7 col-span-12 md:mt-32 mt-10 xl:mt-0 4xl:mt-0 md:mr-[65px] sm:mr-[65px] xl:mr-0 4xl:mr-0">
+                        <div className="order-3 xl:order-1 xl:col-span-7 col-span-12 md:mt-[3rem] mt-10 xl:mt-0 4xl:mt-0  xl:mr-0 4xl:mr-0">
                             <div className="bg-[#073259] p-8 xl:mt-[1rem] 4xl:mt-[3rem] 2xl:mt-[7.5rem]">
                                 <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
                                     With Rialtes, testing becomes a connected, intelligent, and business-aligned process.
@@ -539,11 +583,11 @@ export default function DemandPlusSection() {
                 </div>
 
             </section>
-            <div className="custom-container 4xl:pl-[280px] mt-[6rem] 4xl:pr-0 pr-0 md:mt-40">
-                <section className="bg-[#EAEAEA] px-4 md:px-8 lg:px-16 py-12">
+            <div className="custom-container 4xl:pl-[280px] xl:mt-[6rem] 4xl:pr-0 pr-0 mt-[8rem] md:mt-40 max-md:pr-0">
+                <section className="bg-[#EAEAEA] px-4 md:px-8 lg:px-16 py-12 ">
                     <div className="max-w-7xl  grid grid-cols-1 xl:grid-cols-12 gap-y-10">
                         <div className="xl:col-span-8 col-span-12">
-                            <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[45px] leading-tight">
+                            <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[45px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
                                 Interesting Facts About
                                 Tosca & Automated Testing
                             </h2>
@@ -573,7 +617,7 @@ export default function DemandPlusSection() {
                         <span className="border-b-2 border-gray-400 w-[30%] xl:w-full 4xl:w-full"></span>
 
                         <div className="xl:col-span-12 col-span-12  pl-4">
-                            <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight">
+                            <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight pr-10 xl:pr-0 4xl:pr-0">
                                 Tricentis’ integrated platform (Tosca, qTest, NeoLoad) covers over<br />
                                 <span className="text-[#006FBE] font-bold 4xl:text-[65px] xl:text-[40px] text-[20px]">80%</span> of enterprise testing needs in one suite.
                             </p>
@@ -587,7 +631,7 @@ export default function DemandPlusSection() {
              custom-container
               text-black pb-20"
             >
-                <ContactForm title={'Ready to Transform Your Testing Journey?'} subtitle={'Let Rialtes help you embrace Tosca and modern test automation to ensure every release is high-quality, fast, and secure.'} subtitle1="Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts please fill the below form." className={"4xl:max-w-[59rem] xl:max-w-[44rem] leading-tight text-[26px] font-light 4xl:text-[60px]  xl:text-[45px] pr-10 xl:pr-0"} />
+                <ContactForm title={'Ready to Transform Your Testing Journey?'} subtitle={'Let Rialtes help you embrace Tosca and modern test automation to ensure every release is high-quality, fast, and secure.'} subtitle1="Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form." className={"4xl:max-w-[59rem] xl:max-w-[44rem] leading-tight text-[26px] font-light 4xl:text-[60px]  xl:text-[45px] xl:pr-0"} />
             </div >
         </div>
     );

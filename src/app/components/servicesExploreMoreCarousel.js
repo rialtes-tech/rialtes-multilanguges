@@ -99,8 +99,7 @@ export default function servicesExploreMoreCarousel() {
     <section className="relative sm:pb-10 pb-16">
       <div className=" mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-white mb-6 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] 
-">Explore More</h2>
+          <h2 className="text-white mb-6 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Explore More</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -144,7 +143,7 @@ export default function servicesExploreMoreCarousel() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   priority
                 />
-                <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none">{slide.title}</h4>
+                <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight">{slide.title}</h4>
                 </a>
               </div>
             </div>

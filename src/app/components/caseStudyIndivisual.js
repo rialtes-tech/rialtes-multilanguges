@@ -65,7 +65,7 @@ export default function servicesFeaturedCarousel({ slides }) {
     <section className="relative pb-10">
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3">
-          <h2 className="text-black mb-10 max-w-2xl sm:mr-0 mr-20">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
+          <h2 className="text-black mb-10  sm:mr-0 mr-20  4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -106,9 +106,9 @@ export default function servicesFeaturedCarousel({ slides }) {
                 </Link>
               </div>
               <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-6">
-                <Link href={slide?.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
-                <p className="pb-6">{slide.description}</p>
-                <Link href={slide?.url} className="font-medium text-[#0092E0]">Know More</Link>
+                <Link href={slide?.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight">{slide.title}</h3></Link>
+                <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
+                <Link href={slide?.url} className="font-medium text-[#0092E0] text-[20px] ">Know More</Link>
               </div>
             </div>
           ))}

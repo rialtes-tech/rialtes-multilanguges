@@ -134,12 +134,14 @@ const Header = () => {
           label: 'Process Automation', href: '/',
           subLinks: [
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
+            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-service-providers' },
+
           ],
         },
-         {
+        {
           label: 'Quality Engineering & Assurance', href: '/',
           subLinks: [
-            { label: 'Tosca', href: '/solutions/quality-engineering-and-assurance/tosca' },
+            { label: 'Tosca', href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
           ],
         },
 
@@ -240,7 +242,10 @@ const Header = () => {
           label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
         },
         {
-          label: 'Retail Industry', href: '/industry/retail-industry-digital-transformation',
+          label: 'Retail', href: '/industry/retail-industry-digital-transformation',
+        },
+        {
+          label: 'Non-Profit', href: '/industry/nonprofit-digital-transformation-it-solutions',
         },
       ],
     },
@@ -497,7 +502,7 @@ const Header = () => {
                   >
                     Process Automation
                   </div>
-                   <div
+                  <div
                     className={`cursor-pointer mt-3 font-bold ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("quality-engi")}
                   >
@@ -511,9 +516,6 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
                         <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
@@ -521,13 +523,9 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")}
                               onHover={() => { }} />
                             <MenuItem className="font-bold text-[#2f78c4] mt-10" label="SAP Business Data Cloud" link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/")} onHover={() => { }} />
-
                           </div>
                           <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="Snowflake" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Qlik" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
                             <MenuItem className="font-bold text-[#2f78c4]" label="Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} onHover={() => { }} />
-
                           </div>
                         </div>
                       </div>
@@ -536,7 +534,7 @@ const Header = () => {
                 )}
 
                 {openSectionSolution === "enterprise" && (
-                  <div className="col-span-6 flex space-x-5">
+                  <div className="col-span-8 flex space-x-5">
                     <div>
                       <div>
                         <div className="border-b pb-5">
@@ -586,7 +584,7 @@ const Header = () => {
 
                   </div>
                 )}
-                  {openSectionSolution === "quality-engi" && (
+                {openSectionSolution === "quality-engi" && (
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
@@ -596,7 +594,7 @@ const Header = () => {
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Tosca" link="/solutions/quality-engineering-and-assurance/tosca" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-and-assurance/tosca")}
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Tosca" link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")}
                             />
                           </div>
                           <div>
@@ -607,37 +605,7 @@ const Header = () => {
 
                   </div>
                 )}
-                {/* {openSectionSolution === "cloudeMigration" && (
-                <div className="col-span-8 flex space-x-5">
-                  <div>
-                    <div className="border-b pb-5">
-                      <div className="font-bold mt-5">Transform Legacy Systems with Expert Cloud Migration</div>
-                      <p className="mt-3">Move beyond outdated infrastructure and embrace the future with secure, optimized cloud environments</p>
-                      <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button>
-                    </div>
-                    <div className="mt-5">
 
-                      <div className="grid grid-cols-2 gap-32">
-                        <div>
-                          <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Amazon Web Services" link="/" onHover={() => { }} onClick={handleLinkClick} />
-                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Google Cloud Platform" link="/" onHover={() => { }} onClick={handleLinkClick} />
-
-
-                        </div>
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4]" label="Microsoft Azure Platform" link="/" onClick={handleLinkClick} onHover={() => { }} />
-
-                        </div>
-
-                      </div>
-
-                    </div>
-                  </div>
-
-                </div>
-              )} */}
                 {openSectionSolution === "artificialIntelligence" && (
                   <div className="col-span-8 flex space-x-5">
                     <div>
@@ -693,20 +661,18 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5">Agility Meets Efficiency with Next-Gen Process Automation</div>
                         <p className="mt-3">Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Automation Anywhere" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
                             <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")}
                             />
                           </div>
                           <div>
-                            {/* <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/" onHover={() => { }} onClick={handleLinkClick} />
-                          <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6" label="Alteryx" link="/" onHover={() => { }} onClick={handleLinkClick} /> */}
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/solutions/process-automation/rpa-consulting-service-providers" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-service-providers")}
+                            />
+                          </div>
+                          <div>
                           </div>
                         </div>
                       </div>
@@ -1230,7 +1196,13 @@ const Header = () => {
                     className={`cursor-pointer mt-3 font-bold ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClick("retailIndustry")}
                   >
-                    Retail Industry
+                    Retail
+                  </div>
+                  <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("nonProfitIndustry")}
+                  >
+                    Non-Profit
                   </div>
                 </div>
                 {openSection === "automotive" && (
@@ -1387,6 +1359,21 @@ const Header = () => {
                         <p className="mt-3">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                           <Link href='/industry/retail-industry-digital-transformation' onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation")}
+                          >Let's Begin</Link>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {openSection === "nonProfitIndustry" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Partnering with Nonprofits to Scale Mission-Driven Outcomes</div>
+                        <p className="mt-3">We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/nonprofit-digital-transformation-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>

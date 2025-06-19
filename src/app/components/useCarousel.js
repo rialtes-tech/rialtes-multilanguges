@@ -106,7 +106,7 @@ export default function servicesInsightsCarousel() {
   return (
     <section className="relative pb-8 bg-white">
       <div className='grid  grid-cols-12  mb-[55px]'>
-        <p className="w-full md:col-span-6 col-span-12 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
+        <p className="w-full md:col-span-7 2xl:col-span-6 col-span-12 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
 
         <div className='md:col-span-4 flex justify-end col-span-12 max-md:mt-6'>
           <ButtonGroup

@@ -160,7 +160,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                 </p>
             )}
             {subtitle1 && (
-                <p className="mt-4 xl:text-[20px] text-[16px] xl:w-[50%] xl:mt-[24px] font-regular">
+                <p className="mt-4 xl:text-[20px] text-[16px] xl:w-[60%] xl:mt-[24px] font-regular">
                     {subtitle1}
                 </p>
             )}
