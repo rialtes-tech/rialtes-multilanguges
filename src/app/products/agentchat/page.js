@@ -217,14 +217,12 @@ export default function Page() {
 
                 <div className="grid xl:grid-cols-2 md:grid-cols-2 gris-cols-1 mt-10 border-b-2 hover:bg-gray-100 hover:p-5 hover:shadow-lg  transition-all duration-500 ease-in-out origin-left">
                     <div>
-
                         <h3 className="font-semibold xl:text-[35px] text-[26px] leading-tight">Context-Aware Messaging</h3>
                         <ul className="list-disc list-inside mt-8 xl:text-[20px] text-[16px]">
                             <li className="marker:text-blue-500">Access full customer context from Salesforce while chatting.</li>
                             <li className="marker:text-blue-500 mt-3">Share files, media, and quick replies for faster resolutions.</li>
                         </ul>
                         <LearnMore />
-
                     </div>
                     <div className="mt-10 xl:mt-0">
                         <Image
