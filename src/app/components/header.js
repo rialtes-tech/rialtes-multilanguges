@@ -134,12 +134,14 @@ const Header = () => {
           label: 'Process Automation', href: '/',
           subLinks: [
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
+            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-service-providers' },
+
           ],
         },
         {
           label: 'Quality Engineering & Assurance', href: '/',
           subLinks: [
-            { label: 'Tosca Software Automation Testing', href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
+            { label: 'Tosca', href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
           ],
         },
 
@@ -514,9 +516,6 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5">From Data to Decisions — Smarter, Faster, Better with AI</div>
                         <p className="mt-3">Turn raw data into real-time intelligence that drives efficiency, innovation, and growth</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
@@ -524,13 +523,9 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4]" label="Salesforce Data Cloud" link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")}
                               onHover={() => { }} />
                             <MenuItem className="font-bold text-[#2f78c4] mt-10" label="SAP Business Data Cloud" link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/")} onHover={() => { }} />
-
                           </div>
                           <div>
-                            {/* <MenuItem className="font-bold text-[#2f78c4]" label="Snowflake" link="/" onClick={handleLinkClick} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6" label="Qlik" link="/" onClick={handleLinkClick} onHover={() => { }} /> */}
                             <MenuItem className="font-bold text-[#2f78c4]" label="Datasphere" link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} onHover={() => { }} />
-
                           </div>
                         </div>
                       </div>
@@ -539,7 +534,7 @@ const Header = () => {
                 )}
 
                 {openSectionSolution === "enterprise" && (
-                  <div className="col-span-6 flex space-x-5">
+                  <div className="col-span-8 flex space-x-5">
                     <div>
                       <div>
                         <div className="border-b pb-5">
@@ -599,7 +594,7 @@ const Header = () => {
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Tosca Software Automation Testing" link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")}
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Tosca" link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")}
                             />
                           </div>
                           <div>
@@ -674,7 +669,7 @@ const Header = () => {
                             />
                           </div>
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="RPA Consulting Service Providers" link="/solutions/process-automation/rpa-consulting-service-providers" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-service-providers")}
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/solutions/process-automation/rpa-consulting-service-providers" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-service-providers")}
                             />
                           </div>
                           <div>
