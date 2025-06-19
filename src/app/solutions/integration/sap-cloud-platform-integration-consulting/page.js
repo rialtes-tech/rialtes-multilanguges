@@ -5,6 +5,99 @@ import Image from "next/image";
 import React from "react";
 
 export default function page() {
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "SAP Cloud Platform Integration Services",
+        "url": "https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting",
+        "description": "Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc",
+                "https://x.com/Rialtestech",
+                "https://www.youtube.com/@rialtes"
+            ]
+        },
+        "areaServed": [
+            { "@type": "Country", "name": "United States" },
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Country", "name": "Singapore" },
+            { "@type": "Country", "name": "India" },
+            { "@type": "Continent", "name": "Europe" }
+        ],
+        "serviceType": "SAP CPI Integration, Cloud Integration, SAP to Non-SAP Integration",
+        "category": "SAP Cloud Integration",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "SAP CPI Services Catalog",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Integration Strategy, Advisory & Architecture" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "SAP CPI Implementation & Deployment" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Pre-built Accelerators & Industry Connectors" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Quality Assurance & Compliance Testing" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Post-Go-Live Support & Monitoring" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "SAP Ariba Cloud Integration" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "SAP S/4HANA Cloud Integration" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "SAP SuccessFactors Cloud Integration" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Salesforce SAP CPI Integration" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Oracle & Workday Integrations via SAP CPI" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Data Visualization & Insights with Tableau" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Production & Demand Planning with Mulesoft + SAP CPI" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Kinaxis RapidResponse Integration with SAP" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "AI-Powered SAP CPI Workflows & Automation" }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Agile Delivery with SCRUM-Certified Project Managers" }
+                }
+            ]
+        }
+    }
     const thoughtLeadershipData = [
         "Disconnected systems and data silos limiting agility.",
         "Manual processes draining resources and increasing errors.",
@@ -210,14 +303,14 @@ export default function page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Salesforce Managed Services Provider | Rialtes SalesforceAgent+"
-                description="Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready."
-                canonical="https://www.rialtes.com /services/application-services/salesforce-managed-services-provider-salesforceagentplus"
+                title="SAP Cloud Platform Integration (CPI) Consulting | Rialtes"
+                description="Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights."
+                canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting"
             />
-            {/* <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        /> */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
                 {/* Desktop Image */}
@@ -245,12 +338,12 @@ export default function page() {
                 <div className="relative h-full custom-container flex items-center text-[#ffffff]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
-                            <h3 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[53%]">
+                            <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[53%]">
                                 SAP Cloud Integration Services
-                            </h3>
-                            <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
-                                Empowering Intelligent, <br /> Connected Enterprises
                             </h1>
+                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
+                                Empowering Intelligent, <br /> Connected Enterprises
+                            </h2>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
                         </div>
@@ -385,8 +478,8 @@ export default function page() {
                     {
                         specializedData.map((data, ind) => {
                             return (
-                                <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-x-[40px] 4xl:gap-x-[60px]">
-                                    <div key={ind} className="lg:order-1 order-2 max-lg:mt-[43px]">
+                                <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-x-[40px] 4xl:gap-x-[60px]" key={ind} >
+                                    <div className="lg:order-1 order-2 max-lg:mt-[43px]">
                                         <h3 className="xl:text-[30px] 4xl:text-[48px] text-[25px] leading-tight font-bold text-[#006FBE]">
                                             {data.title}
                                         </h3>
@@ -539,7 +632,7 @@ export default function page() {
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] sm:first:mt-[20px]  font-normal sm:w-[80%] md:w-full`}>
+                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] sm:first:mt-[20px] ${data?.subtitle && "mt-[30px]"} font-normal sm:w-[80%] md:w-full`}>
                                                     {data.desc}
                                                 </p>
                                                 <ul className="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full">
@@ -577,7 +670,7 @@ export default function page() {
                                                 </div>
 
                                                 {/* Mobile Image */}
-                                                <div className="block md:hidden w-full mt-[27px] h-[75%] sm:h-[80%] max-[350px]:h-[60%]">
+                                                <div className="block md:hidden w-full mt-[27px] h-[70%] sm:h-[80%] max-[350px]:h-[60%]">
                                                     <Image
                                                         src={data.mobImg}
                                                         alt="mobile banner"
@@ -614,7 +707,7 @@ export default function page() {
                                                 </div>
 
                                                 {/* Mobile Image */}
-                                                <div className="block md:hidden w-full mt-[27px] h-[75%] sm:h-[80%] max-[350px]:h-[60%]">
+                                                <div className="block md:hidden w-full mt-[27px] h-[70%] sm:h-[80%] max-[350px]:h-[60%]">
                                                     <Image
                                                         src={data.mobImg}
                                                         alt="mobile banner"
@@ -633,7 +726,7 @@ export default function page() {
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] mt-0 sm:w-[80%] md:w-full font-normal">
+                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] mt-0 sm:w-[80%] md:w-full font-normal ${data?.subtitle && "mt-[30px]"}`}>
                                                     {data.desc}
                                                 </p>
                                                 <ul className="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full">
