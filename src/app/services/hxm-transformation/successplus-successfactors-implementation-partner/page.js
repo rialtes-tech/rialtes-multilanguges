@@ -134,13 +134,24 @@ export default function Page() {
 
 
        <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
+       <div className="xl:block hidden">
+         <Image
           src="/images/success-factors/successfactor-banner.webp"
           alt="SuccessFactor"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
+       </div>
+        <div className="xl:hidden block">
+         <Image
+          src="/images/success-factors/successfactor.webp"
+          alt="SuccessFactor"
+          fill
+          style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+          priority
+        />
+       </div>
         <div
           className="
                     custom-container h-full relative
@@ -364,7 +375,7 @@ export default function Page() {
 custom-container
   text-black"
       >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
+        <ContactForm title={'Take the next step to operational excellence with us.'} className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
 
       </div >
 
