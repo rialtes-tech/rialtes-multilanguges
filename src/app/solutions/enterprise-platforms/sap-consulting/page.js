@@ -112,12 +112,13 @@ export default function Page() {
                        
                     </div>
                     <div className="md:col-span-9 sm:col-span-11 col-span-12">
-                        <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px]">
+                        <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px] ">
                             <h3 className="text-[18px] md:text-[24px] font-bold  text-black leading-tight">SAP Consulting</h3>
+                           
                             <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
-                                Leaning towards a better tomorrow.
+                                Leaning towards<span className="block"> a better tomorrow.</span>
                             </h2>
-                            <h3 className="text-[18px]  text-black md:text-[24px] font-bold mt-[16px] xl:mt-[29.5px] w-[100%] md:w-[90%] leading-tight">
+                            <h3 className="text-[18px] xl:text-[24px] 4xl:text-[30px]  text-black font-bold mt-[16px] xl:mt-[29.5px] w-[100%]  xl:w-[75%] 2xl:w-[65%] 4xl:w-[70%] leading-tight">
                                 Leveraging SAP Consulting Services for reliable business operations.
                             </h3>
                             <Image

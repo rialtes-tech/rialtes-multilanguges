@@ -9,7 +9,6 @@ import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 
 const slidesCaseStudy = [
   {
@@ -76,7 +75,7 @@ const ServicesCard = ({ services }) => (
 const Services = () => {
   return (
     <div className="custom-container mx-auto text-black md:mt-10 xl:mt-[120px]">
-      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[85%]">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
+      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%] ">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
       <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
         {latestServices.map((services) => (
@@ -186,7 +185,7 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
   return (
     <div className="text-black xl:pt-[50px]  ">
-      <h2 className="pb-10 text-black leading-tight xl:w-[60%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Pioneering Medical & Patient Care IT Solutions</h2>
+      <h2 className="pb-10 text-black leading-tight xl:w-[60%] 2xl:w-[52%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Pioneering Medical & Patient Care IT Solutions</h2>
       <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
         {growLatestServices.map((services) => (
@@ -249,7 +248,7 @@ export default function Page() {
               <h3 className="text-white text-[18px] md:text-[24px] font-bold">
                 HEALTHCARE
               </h3>
-              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[90%] md:w-[80%] mt-[11.5px] md:mt-[28.5px]">
+              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] 2xl:w-[80%] 4xl:w-[90%]  xl:w-[90%] md:w-[80%] mt-[11.5px] md:mt-[28.5px]">
                 Redefining healthcare by keeping patients at the center
               </h2>
 
