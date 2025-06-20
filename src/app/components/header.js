@@ -121,6 +121,7 @@ const Header = () => {
           label: 'Integration', href: '/',
           subLinks: [
             { label: 'MuleSoft', href: '/solutions/integration/mulesoft-salesforce' },
+            { label: 'SAP CPI', href: '/solutions/integration/sap-cloud-platform-integration-consulting' },
 
           ],
         },
@@ -574,6 +575,10 @@ const Header = () => {
                         <div className="grid grid-cols-2 gap-32">
                           <div>
                             <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="Mulesoft" link="/solutions/integration/mulesoft-salesforce" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")}
+                            />
+                          </div>
+                          <div>
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="SAP CPI" link="/solutions/integration/sap-cloud-platform-integration-consulting" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/integration/sap-cloud-platform-integration-consulting")}
                             />
                           </div>
                           <div>
@@ -1041,9 +1046,9 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Salesforce Managed Services</div>
-                        {/* <p className="mt-3">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
-                        </p> */}
+                        <div className="font-bold mt-5">Expert-Led Managed Services for Application Performance and Maximum Business Impact</div>
+                        <p className="mt-3">From strategic implementation to day-to-day operations, we offer end-to-end managed services for SAP and Salesforce platforms—ensuring performance, scalability, and continuous innovation.
+                        </p>
                         {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
                         <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
                       </button> */}
