@@ -114,10 +114,10 @@ export default function HealthCloud() {
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-                            <h3 className="text-white text-[18px] md:text-[24px] font-bold">
+                            <h3 className="text-white text-[14px] md:text-[20px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] 4xl:text-[24px] font-bold">
                                 Salesforce Revenue Cloud
                             </h3>
-                            <h2 className="text-white   text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] w-[90%] lg:w-[92%] mt-[11.5px] md:mt-[28.5px]">
+                            <h2 className="text-white   text-[24px]  md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[73px]  mt-[11.5px] md:mt-[10px] xl:text-[55px] 2xl:text-[60px] 4xl:text-[74px] w-[300px] md:w-[490px] lg:w-[600px] xl:w-[700px] 2xl:w-[700px] 4xl:w-[878px] leading-tight ">
                                 Manage Revenue Streams and Customer Relationships in One Place
                             </h2>
                             <Image
@@ -126,7 +126,7 @@ export default function HealthCloud() {
                                 width={0}
                                 height={0}
                                 priority
-                                className="mt-5 w-[25%] sm:w-[16%] md:w-[14%] lg:w-[16%]"
+                                className="mt-5 w-[120px] md:w-[180px] lg:w-[190px] xl:w-[200px] 2xl:w-[270px] 4xl:w-[300px] "
                             />
                         </div>
 
@@ -136,18 +136,36 @@ export default function HealthCloud() {
                 </div>
             </section>
 
-            <div className="custom-container grid lg:grid-cols-10 gap-9 lg:mt-16 mt-5">
+            {/* <div className="custom-container grid lg:grid-cols-10 gap-9 lg:mt-16 mt-5">
                 <div className="lg:col-span-5">
-                    <h1 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-light">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
+                    <h1 className=" 2xl:text-[56px] xl:text-[46px] xl:w-[660px] 2xl:w-[780px]  4xl:text-[60px] 4xl:w-[740px] lg:text-[38px] lg:w-[550px] leading-tight text-[26px] md:text-[32px]  xl:leading-[73px] font-light ">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
                 </div>
                 <div className="lg:col-span-5">
-                    <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] w-[96%] xl:w-[80%]">
+                    <p className=" text-[16px] font-normal leading-[19px] xl:leading-[30px] w-[96%]  2xl:text-[18px] 2xl:w-[480px] 4xl:text-[20px] 4xl:w-[550px]  xl:text-[16px] xl:w-[430px] lg:text-[14px] lg:w-[385px] md:text-[18px]">
                         Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.
                     </p>
                 </div>
+            </div> */}
+            <section
+        className="custom-container"
+      >
+
+        <div className="py-8 bg-white">
+          <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">
+            <div className="flex flex-col lg:flex-row items-center py-6 ">
+              <div className="flex flex-col  xl:mb-0 mb-4 ">
+                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[52px] xl:w-[650px] 2xl:w-[700px]  4xl:text-[60px] 4xl:w-[740px] lg:text-[42px] lg:w-[520px] leading-tight text-[26px] md:text-[32px] ">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
+              </div>
+              <div className="flex flex-col w-full ">
+                <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[520px] 4xl:text-[20px] 4xl:w-[580px]  xl:text-[16px] xl:w-[460px] lg:text-[14px] lg:w-[400px] md:text-[18px] 4xl:pl-10 2xl:pl-8 xl:pl-8 lg:pl-6"> Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.</p>
+              </div>
             </div>
+
+          </div>
+        </div>
+      </section>
             <section className="lg:mt-20 custom-container py-10">
-                <h3 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-normal">Revenue Cloud Process Flow</h3>
+                <h3 className="text-[24px] md:text-[24px] lg:text-[30px] xl:text-[34px] 2xl:text-[38px] 4xl:text-[40px] leading-tight  font-normal">Revenue Cloud Process Flow</h3>
                 <Image
                     src='/images/revenue-cloud/revenue-cloud-infographic.webp'
                     alt="Revenue Cloud Process Flow"
@@ -162,7 +180,7 @@ export default function HealthCloud() {
             </section>
 
             <section className="lg:mt-20 custom-container mt-10 pb-10">
-                <h2 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-normal">Streamline your Quote-to-Cash Process</h2>
+                <h2 className="text-[24px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight   font-normal">Streamline your Quote-to-Cash Process</h2>
                 <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 lg:mt-10 gap-5">
                     {salesForce.map((sales) => {
                         return (
@@ -181,21 +199,21 @@ export default function HealthCloud() {
                                         priority
                                     />
                                 </div>
-                                <h4 className="mt-5">{sales.title}</h4>
+                                <h4 className="mt-5 text-[18px] md:text-[22px] lg:text-[20px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[30px] w-[200px] md:w-[210px] lg:w-[160px] xl:w-[180px] 2xl:w-[220px] 4xl:w-[256px]  ">{sales.title}</h4>
                             </div>
                         )
                     })}
 
                 </div>
-                <h2 className="text-[26px] leading-[38px] xl:text-[60px] xl:leading-[73px] font-normal mt-20">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
+                <h2 className="text-[24px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight  font-normal mt-20 lg:mt-40 2xl:w-[980px] 4xl:w-[1084px] xl:w-[860px] lg:w-[730px] ">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
                 <div className="my-10">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5">
                         {salesForce2.map((sales) => {
                             return (
-                                <div key={sales.id} className="border-2 p-8 hover:bg-[#D9F2FF] hover:border-transparent transition-all duration-300">
+                                <div key={sales.id} className="border-2 p-10 hover:bg-[#D9F2FF] hover:border-transparent transition-all duration-300">
 
-                                    <h3 className="mt-5 text-[#1F3F69]">{sales.title}</h3>
-                                    <p className="mt-5">{sales.description}</p>
+                                    <h3 className="mt-5 text-[#1F3F69] text-[22px] md:text-[24px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px] 4xl:text-[30px] md:w-[210px] lg:w-[230px] xl:w-[240px] 2xl:w-[260px] 4xl:w-[301px]">{sales.title}</h3>
+                                    <p className="mt-5 text-[16px] md:text-[18px] lg:text-[14px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] 4xl:w-[304px] 2xl:w-[290px] xl:w-[260px] lg:w-[200px]">{sales.description}</p>
                                 </div>
                             )
                         })}
@@ -205,25 +223,25 @@ export default function HealthCloud() {
             </section>
 
             {/* Reduce Revenue Pitfalls, Supercharge Your Sales Funnel */}
-            < div className="bg-[#EDEDED] py-6" >
+            < div className="bg-[#EDEDED] py-6 " >
                 <div
                     className="custom-container">
-                    <section className="py-5">
-                        <div className="container mx-auto">
-                            <h2 className="pb-4 text-black">Reduce Revenue Pitfalls, Supercharge Your Sales Funnel</h2>
-                            <p className="pb-8">Businesses using Revenue Cloud have reported:</p>
+                    <section className="">
+                        <div className="py-10">
+                            <h2 className="pb-4 text-black text-[24px] md:text-[24px] lg:text-[30px] xl:text-[34px] 2xl:text-[38px] 4xl:text-[40px] leading-tight  font-normal  2xl:w-[1080px] 4xl:w-[1190px] xl:w-[1000px] lg:w-[990px] ">Reduce Revenue Pitfalls, Supercharge Your Sales Funnel</h2>
+                            <p className="pb-8 text-[14px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[18px] 4xl:text-[20px]">Businesses using Revenue Cloud have reported:</p>
                             <div className="flex md:flex-row flex-col gap-6">
-                                <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">40%</h2>
-                                    <p className="text-black">Faster sales cycles due to automated CPQ</p>
+                                <div className="flex flex-col xl:w-1/3 md:w-1/3">
+                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px] ">40%</h2>
+                                    <p className="text-black  4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[260px] 4xl:w-[312px] xl:w-[240px] lg:w-[220px]">Faster sales cycles due to automated CPQ</p>
                                 </div>
                                 <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">30%</h2>
-                                    <p className="text-black">Boost in quote-to-cash efficiency</p>
+                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px] ">30%</h2>
+                                    <p className="text-black  4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[240px] 4xl:w-[312px] xl:w-[220px] lg:w-[200px]">Boost in quote-to-cash efficiency</p>
                                 </div>
                                 <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2">20-25%</h2>
-                                    <p className="text-black">Reduction in administrative costs</p>
+                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px] ">20-25%</h2>
+                                    <p className="text-black  4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[240px] 4xl:w-[312px] xl:w-[220px] lg:w-[200px]">Reduction in administrative costs</p>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +250,7 @@ export default function HealthCloud() {
                 </div>
             </div>
 
-            <section className="bg-[#F5F5F5] py-10">
+            <section className="bg-[#F5F5F5] py-10 ">
                 <div
                     className="custom-container"
                 >
@@ -242,7 +260,7 @@ export default function HealthCloud() {
 
 
             <div
-                className="mt-20 mb-20 custom-container"
+                className="mt-20 mb-20 custom-container "
             >
                 <ServicesBlogs slides={slides} />
 
