@@ -135,7 +135,7 @@ const Header = () => {
           label: 'Process Automation', href: '/',
           subLinks: [
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-service-providers' },
+            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-service-provider' },
 
           ],
         },
@@ -674,7 +674,7 @@ const Header = () => {
                             />
                           </div>
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/solutions/process-automation/rpa-consulting-service-providers" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-service-providers")}
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4]" label="UIPath" link="/solutions/process-automation/rpa-consulting-service-provider" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-service-provider")}
                             />
                           </div>
                           <div>
