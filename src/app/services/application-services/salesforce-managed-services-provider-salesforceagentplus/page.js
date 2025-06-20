@@ -2,6 +2,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function page() {
     const schemaData = {
@@ -357,7 +358,7 @@ export default function page() {
                 </div>
                 <div className="relative z-20 2xl:mt-[-230px] xl:mt-[-160px] lg:mt-[-120px] md:mt-[-120px] sm:mt-[-180px] mt-[-120px]">
                     <div className="custom-container">
-                        <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] 2xl:gap-[80px] bg-[#006FBE] xl:pt-[64px] pt-[26px] xl:pl-[61px] 2xl:pl-[81px] xl:pr-[81px] px-[26px] md:px-[36px] text-[#ffffff]">
+                        <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] 2xl:gap-[80px] bg-[#006FBE] xl:pt-[64px] pt-[26px] xl:pl-[61px] 2xl:pl-[81px] xl:pr-[81px] px-[26px] pl-[36px] pr-[46px] max-[360px]:px-[26px] md:px-[36px] text-[#ffffff]">
                             <div className="lg:col-span-6 xl:col-span-6 col-span-12">
                                 <div className="h-full flex flex-col">
 
@@ -381,11 +382,11 @@ export default function page() {
 
                             </div>
                             <div className="lg:col-span-6 xl:col-span-6 col-span-12">
-                                <ul className="list-disc xl:space-y-[27px] space-y-[19px]">
+                                <ul className="list-disc xl:space-y-[27px] space-y-[19px] max-md:pl-[26px]">
                                     {
                                         startYourAIData.map((data, ind) => {
                                             return (
-                                                <div  key={ind}>
+                                                <div key={ind}>
                                                     <li className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight lg:mt-0 mt-[23px]">
                                                         <span className="font-bold">{data.title}</span> {data.subtitle}
                                                     </li>
@@ -410,20 +411,20 @@ export default function page() {
 
             {/* salesforceagent section */}
             <section className="custom-container lg:mt-[98px] mt-[48px]">
-                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
+                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light max-sm:w-[80%]">
                     SalesforceAgent+ Managed Services
                 </h2>
-                <h3 className="xl:text-[36px] 4xl:text-[30px] text-[22px] leading-tight font-semibold xl:mt-[34px] mt-[15px]">
+                <h3 className="xl:text-[36px] 4xl:text-[30px] text-[22px] leading-tight font-semibold xl:mt-[34px] mt-[15px] max-[345px]:w-full max-sm:w-[90%]">
                     Powering Continuous Salesforce Innovation. <br /> Always-On Support. AI-Driven Innovation. <br /> Industry-Specific Solutions.
                 </h3>
 
-                <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] xl:gap-y-[89px] lg:gap-y-[59px] gap-y-[68px] xl:mt-[106px] mt-[59px] 2xl:w-[80%] md:w-[86%] sm:w-[70%] xl:w-full">
+                <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] xl:gap-y-[89px] lg:gap-y-[59px] gap-y-[68px] xl:mt-[106px] mt-[59px] 2xl:w-[80%] xl:w-[90%] md:w-[86%] sm:w-[70%]">
                     {
 
                         salesforceagentData.map((data, ind) => {
                             return (
                                 <div key={ind} className="border border-[#707070] xl:px-[40px] xl:pb-[46px] xl:pt-[90px] px-[21px] pb-[34px] pt-[55px]">
-                                    <h4  className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight text-[#006FBE] font-semibold bg-[#ffffff] xl:mt-[-112px] md:mt-[-72px] mt-[-70px] w-fit">
+                                    <h4 className={`w-fit max-xl:pr-[20px] pl-[10px] xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight text-[#006FBE] font-semibold bg-[#ffffff] ${ind == 1 || ind == 2 && "xl:w-[88%]"} ${ind == 4 ? "xl:mt-[-110px]" : "xl:mt-[-124px]"} md:mt-[-73px] mt-[-70px]`}>
                                         {data.title}
                                     </h4>
                                     <ul className="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[54px] mt-[30px] xl:ml-[26px] ml-[20px]">
@@ -474,7 +475,7 @@ export default function page() {
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
                             Unlock AI and Data Synergy
                         </h2>
-                        <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[31px] leading-tight font-semibold">
+                        <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[31px] leading-tight font-semibold w-[88%] md:w-full">
                             Salesforce Data Cloud + SAP Data Cloud Zero Copy
                         </h3>
                         <ul className="list-disc xl:mt-[35px] mt-[29px] lg:ml-[26px] ml-[20px]">
@@ -489,14 +490,14 @@ export default function page() {
                             }
                         </ul>
 
-                        <div className="mt-[40px] xl:mt-[53px] xl:p-[32px] p-[24px] bg-[#006FBE] text-[#ffffff] md:w-[90%] lg:w-full">
-                            <p className="xl:text-[20px] 4xl:text-[24px] text-[18px] leading-tight">
+                        <div className="mt-[40px] xl:mt-[53px] xl:p-[32px] p-[24px] bg-[#006FBE] text-[#ffffff] w-[88%] md:w-[90%] lg:w-full">
+                            <p className="xl:text-[20px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
                                 Drive real-time decisions without slowing down operations.
                             </p>
                         </div>
 
 
-                        <div className="xl:mt-[53px] mt-[39px]">
+                        <div className="xl:mt-[53px] mt-[20px]">
                             <LearnMore />
                         </div>
                     </div>
@@ -531,13 +532,13 @@ export default function page() {
                 </div>
                 <div>
                     <div className="custom-container max-lg:px-0">
-                        <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[21px] lg:gap-[60px] 2xl:gap-[80px] bg-[#006FBE] xl:pb-[106px] pb-[77px] xl:pt-[64px] pt-[26px] xl:pl-[61px] 2xl:pl-[81px] xl:pr-[81px] px-[26px] md:px-[36px] text-[#ffffff]">
+                        <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[21px] lg:gap-[60px] 2xl:gap-[80px] lg:bg-[#006FBE] bg-[#068EDA] xl:pb-[106px] pb-[77px] xl:pt-[64px] pt-[26px] xl:pl-[61px] 2xl:pl-[81px] xl:pr-[81px] px-[36px] md:px-[36px] text-[#ffffff]">
                             <div className="lg:col-span-6 xl:col-span-6 col-span-12">
                                 <div className="h-full flex flex-col">
 
                                     <div>
-                                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light lg:w-[70%] xl:w-full">
-                                            RialChat – FREE WhatsApp Service Included with SalesforceAgent+!
+                                        <h2 className="4xl:text-[58px] xl:text-[40px] text-[26px] leading-tight font-light w-[80%] lg:w-[70%] xl:w-full 3xl:w-[80%] 4xl:w-full">
+                                            AgentChat – FREE WhatsApp Service Included with SalesforceAgent+!
                                         </h2>
                                         <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[31px] lg:w-[70%] xl:w-full leading-tight font-semibold">
                                             Turn Every Chat into a Customer Moment.
@@ -549,14 +550,14 @@ export default function page() {
 
                             </div>
                             <div className="lg:col-span-6 xl:col-span-6 col-span-12">
-                                <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-light">
-                                    With every SalesforceAgent+ subscription, you get RialChat — our enterprise-grade WhatsApp integration for Salesforce — FREE.
+                                <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-light w-[90%] md:w-[70%] lg:w-full">
+                                    With every SalesforceAgent+ subscription, you get AgentChat — our enterprise-grade WhatsApp integration for Salesforce — FREE.
                                 </p>
-                                <ul className="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[36px] mt-[25px] xl:ml-[26px] ml-[20px]">
+                                <ul className="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[36px] mt-[25px] xl:ml-[26px] ml-[20px] w-[90%] lg:w-[90%] xl:w-full 3xl:w-[80%]">
                                     {
                                         rialChatData.map((data, ind) => {
                                             return (
-                                                <div  key={ind}>
+                                                <div key={ind}>
                                                     <li className="xl:text-[19px] 4xl:text-[22x] text-[16px] leading-tight lg:mt-0 mt-[23px]">
                                                         {data}
                                                     </li>
@@ -568,10 +569,10 @@ export default function page() {
 
                             </div>
                         </div>
-                        <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[21px] lg:gap-[20px] px-[36px] xl:pl-[61px] 2xl:pl-[81px] xl:mt-[-50px] lg:mt-[-40px] mt-[-40px] xl:pr-[81px]">
+                        <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[10px] lg:gap-[20px] px-[36px] xl:pl-[61px] 2xl:pl-[81px] xl:mt-[-50px] lg:mt-[-40px] mt-[-40px] xl:pr-[81px]">
                             <div className="lg:col-span-9 col-span-12">
                                 <div className="xl:py-[28px] xl:px-[31px] py-[22px] px-[25px] bg-[#073259] text-[#ffffff] sm:w-fit">
-                                    <p className="xl:text-[21px] 4xl:text-[24px] text-[18px] leading-tight">
+                                    <p className="xl:text-[21px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
                                         Engage customers where they are — at no extra cost!
                                     </p>
                                 </div>
@@ -579,7 +580,12 @@ export default function page() {
                             <div className="lg:col-span-3 col-span-12">
                                 <div className="flex flex-row w-full lg:mt-[-10px] xl:mt-0">
                                     <div className="lg:ml-auto">
-                                        <LearnMore />
+                                        <Link
+                                            href="https://www.rialtes.com/products/agentchat/"
+                                            className={`inline-block bg-[#134874] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 mt-6`}
+                                        >
+                                            Know More
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -591,18 +597,18 @@ export default function page() {
 
             {/* our global section */}
             <section className="custom-container xl:mt-[117px] mt-[58px]">
-                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light 4xl:w-[90%] md:w-[80%] xl:w-[80%] lg:w-[60%]">
+                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light w-[90%] 4xl:w-[90%] md:w-[80%] xl:w-[80%] lg:w-[60%]">
                     Our Global, Scalable, 24x7 Salesforce Support Delivery Model
                 </h2>
 
-                <h3 className="xl:text-[24px] 4xl:text-[36px] text-[16px] leading-tight xl:mt-[36px] mt-[22px] font-semibold w-[80%] lg:w-full">
+                <h3 className="xl:text-[24px] 4xl:text-[36px] text-[20px] leading-tight xl:mt-[36px] mt-[22px] font-semibold w-[80%] lg:w-full">
                     Flexible, High-Touch, and Cost-Effective
                 </h3>
                 <ul className="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[58px] mt-[25px] xl:ml-[26px] ml-[20px] md:w-[65%] lg:w-[55%] 2xl:w-[50%]">
                     {
                         ourGlobalData.map((data, ind) => {
                             return (
-                                <div  key={ind}>
+                                <div key={ind}>
                                     <li className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight">
                                         {data}
                                     </li>
@@ -616,7 +622,7 @@ export default function page() {
 
             {/* rialtes salesforce section */}
             <section className="custom-container xl:mt-[129px] mt-[72px]">
-                <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] gap-y-[36px] lg:gap-[60px] 2xl:gap-[80px]">
+                <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] gap-y-[36px] lg:gap-[60px] xl:gap-[40px] 2xl:gap-[60px]">
                     <div>
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
@@ -635,6 +641,7 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/rialtes-salesforce-desk-img.webp"
                                 alt="mobile image"
                                 className="w-full h-full object-cover"
+                                style={{ objectPosition: "95% 20%" }}
                                 width={0}
                                 height={0}
                                 priority
@@ -662,7 +669,7 @@ export default function page() {
                         </ul>
 
                         <div className="mt-[54px] xl:mt-[32px] xl:px-[31px]  xl:py-[26px] p-[24px] bg-[#163055] text-[#ffffff] md:w-[90%] lg:w-full">
-                            <p className="xl:text-[20px] 4xl:text-[24px] text-[18px] leading-tight">
+                            <p className="xl:text-[20px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
                                 Your success is powered by expertise that’s always a step ahead.
                             </p>
                         </div>
@@ -675,19 +682,19 @@ export default function page() {
             <section>
                 <div className="xl:mt-[155px] mt-[110px] bg-[url('/images/services/salesforce-agentforce/Mobile/our-salesforce-mob-bg.webp')] md:bg-[url('/images/services/salesforce-agentforce/our-salesforce-desk-bg.webp')] bg-cover bg-no-repeat bg-center xl:pt-[84px] pt-[52px] xl:pb-[103px] pb-[142px] text-[#ffffff]">
                     <div className="custom-container">
-                        <h2 className="xl:text-[40px] 4xl:text-[60px text-[26px] leading-tight font-light xl:w-[70%] 2xl:w-[60%] lg:w-[40%] sm:w-[60%]">
+                        <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light xl:w-[70%] 2xl:w-[60%] lg:w-[40%] sm:w-[60%]">
                             Our Salesforce Industry Cloud Specializations
                         </h2>
 
-                        <h3 className="xl:text-[26px] 4xl:text-[36px] text-[16px] leading-tight xl:mt-[47px] mt-[31px]">
+                        <h3 className="xl:text-[26px] 4xl:text-[36px] text-[20px] leading-tight xl:mt-[47px] mt-[31px]">
                             Built for Your Business
                         </h3>
 
-                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[21px] lg:mt-[65px] mt-[38px] xl:w-[96%] 4xl:w-[88%] md:w-[90%] sm:w-[70%]">
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[21px] lg:mt-[65px] mt-[38px] xl:w-[96%] 4xl:w-[95%] md:w-[94%] sm:w-[70%]">
                             {
                                 ourSalesforceData.map((data, ind) => {
                                     return (
-                                        <div key={ind} className="2xl:pt-[39px] 2xl:px-[49px] 2xl:pb-[49px] pt-[33px] px-[28px] pb-[38px] bg-[#ffffff]">
+                                        <div key={ind} className="2xl:pt-[39px] 2xl:px-[49px] 2xl:pb-[49px] pt-[33px] px-[22px] pb-[38px] bg-[#ffffff]">
                                             <p className="xl:text-[20px] 4xl:text-[26px] text-[20px] leading-tight text-[#006FBE] font-semibold">
                                                 {data.title}
                                             </p>
@@ -707,7 +714,7 @@ export default function page() {
                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[21px] lg:gap-[20px] xl:mt-[-50px] lg:mt-[-40px] mt-[-40px]">
                         <div className="lg:col-span-9 col-span-12">
                             <div className="xl:py-[28px] xl:px-[31px] py-[22px] px-[25px] bg-[#006FBE] text-[#ffffff] sm:w-fit">
-                                <p className="xl:text-[21px] 4xl:text-[24px] text-[18px] leading-tight">
+                                <p className="xl:text-[21px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
                                     Whatever your industry, Rialtes helps Salesforce work smarter for you.
                                 </p>
                             </div>
@@ -751,7 +758,7 @@ export default function page() {
                         </ul>
 
                         <div className="mt-[34px] xl:mt-[63px] xl:pl-[31px] xl:py-[26px] p-[24px] bg-[#163055] text-[#ffffff] w-fit md:w-[90%] lg:w-full">
-                            <p className="xl:text-[19px] 4xl:text-[24px] text-[18px] leading-tight">
+                            <p className="xl:text-[19px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
                                 Migrate confidently. Operate smarter. Grow faster.
                             </p>
                         </div>
@@ -785,9 +792,9 @@ export default function page() {
             </section>
 
             {/* certified salesforce section */}
-            <section className="custom-container xl:mt-[125px] mt-[83px] md:pl-0 max-md:px-0">
-                <div className="grid md:grid-cols-2 grid-cols-1">
-                    <div>
+            <section className="custom-container  4xl:!pr-[142px] 2xl:!pr-[80px] xl:!pr-[50px] lg:!pr-[42px] xl:mt-[125px] mt-[83px] md:pl-0 max-md:px-0">
+                <div className="grid md:grid-cols-12 grid-cols-1">
+                    <div className="md:col-span-7 xl:col-span-7">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
@@ -805,6 +812,7 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/certified-desk-img.webp"
                                 alt="mobile image"
                                 className="w-full h-full object-cover"
+                                style={{ objectPosition: "35% 20%" }}
                                 width={0}
                                 height={0}
                                 priority
@@ -812,26 +820,27 @@ export default function page() {
                         </div>
 
                     </div>
-                    <div className="bg-[#67C774] xl:pt-[47px] xl:px-[60px] 2xl:px-[80px] xl:pb-[92px] pt-[41px] px-[26px] pb-[79px] md:mt-[20%] max-md:mx-[36px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light sm:w-[80%] md:w-full lg:w-[70%] xl:w-full">
-                            Certified Salesforce Architects & AI Strategists for Every Project
-                        </h2>
-                        <ul className="list-disc xl:mt-[44px] mt-[28px] md:ml-[26px] ml-[20px]">
-                            {
-                                certifiedData.map((data, ind) => {
-                                    return (
-                                        <li key={ind} className="xl:text-[21px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]">
-                                            {data}
-                                        </li>
-                                    )
-                                })
-                            }
-                        </ul>
-                        <div className="absolute xl:mt-[40px] mt-[30px]">
-                            <LearnMore />
+                    <div className="md:col-span-5 xl:col-span-5">
+                        <div className="bg-[#67C774] xl:pt-[47px] xl:px-[60px] 2xl:px-[80px] xl:pb-[92px] pt-[41px] px-[26px] pb-[79px] md:mt-[20%] max-md:mx-[36px]">
+                            <h2 className="4xl:text-[60px] xl:text-[39px] text-[26px] leading-tight font-light sm:w-[80%] md:w-full lg:w-[70%] xl:w-full">
+                                Certified Salesforce Architects & AI Strategists for Every Project
+                            </h2>
+                            <ul className="list-disc xl:mt-[44px] mt-[28px] md:ml-[26px] ml-[20px]">
+                                {
+                                    certifiedData.map((data, ind) => {
+                                        return (
+                                            <li key={ind} className="xl:text-[21px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]">
+                                                {data}
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                            <div className="absolute xl:mt-[40px] mt-[30px]">
+                                <LearnMore />
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </section>
 
@@ -872,7 +881,7 @@ export default function page() {
 
             {/* Contact Form */}
             < div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px]">
-                <ContactForm title={'Let’s Elevate Your Salesforce Together!'} subtitle="Ready to unlock AI, boost productivity, and optimize Salesforce?" subtitle1="Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem." className="4xl:text-[60px] xl:text-[40px] text-[26px]"               />
+                <ContactForm title={'Let’s Elevate Your Salesforce Together!'} subtitle="Ready to unlock AI, boost productivity, and optimize Salesforce?" subtitle1="Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem." className="4xl:text-[60px] xl:text-[40px] text-[26px]" />
             </div >
         </section>
     )
