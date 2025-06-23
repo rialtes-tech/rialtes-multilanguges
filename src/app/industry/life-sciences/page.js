@@ -1,4 +1,5 @@
 import ContactForm from "@/app/components/contactform";
+import LearnMore from "@/app/components/learnMore";
 import Image from "next/image";
 
 export default function page() {
@@ -229,7 +230,7 @@ export default function page() {
                     <h2 className="2xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] md:w-[90%] lg:w-[60%] xl:w-[66%] 2xl:w-[90%] 4xl:w-[80%]">
                         Delivering Innovation and Compliance for Pharma, MedTech, Payers, Providers & Public Health through SAP, Salesforce & AI
                     </h2>
-                    <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight mt-[19px] xl:mt-[49px] w-[80%] lg:w-[60%] xl:w-[70%]">
+                    <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight mt-[19px] xl:mt-[49px] w-[90%] sm:w-[80%] lg:w-[60%] xl:w-[70%]">
                         In a world where patient-centricity, compliance, and innovation are critical, life sciences organizations must move fast, stay compliant, and deliver exceptional value. Rialtes partners with global life sciences leaders to redefine their business models, connect ecosystems, and unlock the potential of AI and cloud technologies.
                     </p>
                 </div>
@@ -241,7 +242,7 @@ export default function page() {
                     <div className="md:col-span-7 col-span-12 border-r border-[#707070]">
                         <div className="relative pt-[33px] pb-[26px] pl-[26px] pr-[23px] xl:pt-[58px] xl:pb-[50px] xl:pl-[49px] xl:pr-[44px]">
                             <p className="xl:text-[36px] 4xl:text-[50px] text-[26px] leading-tight text-[#038EF4] italic w-fit bg-[#ffffff] px-[14px] top-[-20px] absolute">Did you know?</p>
-                            <p className="xl:text-[22px] 4xl:text-[28px] text-[18px] leading-tight">
+                            <p className="xl:text-[22px] 4xl:text-[28px] text-[18px] leading-tight w-[90%] sm:w-full">
                                 The global life sciences market is projected to reach <span className="xl:text-[28px] 4xl:text-[35px] text-[22px] text-[#038EF4] font-bold"> $3.6 trillion by 2030.</span>
                             </p>
                         </div>
@@ -253,7 +254,7 @@ export default function page() {
                     </div>
                     <div className="md:col-span-5 col-span-12">
                         <div className="pt-[29px] pb-[25px] pl-[26px] pr-[26px] xl:pt-[57px] xl:pb-[68px] xl:pl-[57px] xl:pr-[57px] max-md:border-t max-md:border-[#707070]">
-                            <p className="xl:text-[22px] 4xl:text-[28px] text-[18px] leading-tight">
+                            <p className="xl:text-[22px] 4xl:text-[28px] text-[18px] leading-tight w-[90%] sm:w-full">
                                 <span className="xl:text-[28px] 4xl:text-[35px] text-[22px] text-[#038EF4] font-bold"> AI adoption in life sciences is growing at a CAGR of 30% </span> - revolutionizing R&D, clinical trials, and patient engagement.
                             </p>
                         </div>
@@ -265,69 +266,397 @@ export default function page() {
             </section>
 
             {/* why rialtes */}
-            <section className="custom-container max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px]">
-                <div className="relative text-[#ffffff]">
+            <section className="custom-container max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px]  text-white 4xl:h-[1050px] 3xl:h-[945px] 2xl:h-[1050px] xl:h-[900px] lg:h-[700px] md:h-[800px] sm:h-[1050px] h-[1050px] max-[470px]:h-[1200px]">
+                <div className="max-md:px-[36px] lg:pt-[76px] md:pl-[61px] pt-[38px] w-full bg-[url('/images/industry/life-science/Mobile/why-rialtes-mob.webp')] md:bg-[url('/images/industry/life-science/why-rialtes-desk.webp')] bg-cover bg-center bg-no-repeat relative text-white">
 
-                    <div className="absolute inset-0 -z-10">
+                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[90%] md:w-[50%] lg:w-[36%] xl:w-[50%] 2xl:w-[52%]">
+                        Why Rialtes is Your Strategic Partner in Life Sciences Digital Transformation
+                    </h2>
+
+                    <p className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight mt-[16px] xl:mt-[28px]">
+                        Our Promise to Life <br /> Sciences Companies
+                    </p>
+
+                    <div className="md:absolute">
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[23px] xl:mt-[85px] mt-[68px] sm:w-[70%] md:w-[80%] lg:w-[80%] xl:w-[90%] 2xl:w-[80%] 3xl:w-[80%] 4xl:w-[80%]">
+                            {
+                                whyRialtesData.map((data, ind) => (
+                                    <div key={ind} className="bg-white pt-[40px] pb-[31px] pl-[32px] pr-[22px] xl:pt-[51px] xl:pb-[47px] xl:px-[36px] border border-[#707070]">
+                                        <p className="xl:text-[26px] 4xl:text-[30px] text-[22px] leading-tight text-[#038EF4]">{data.title}</p>
+                                        <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight xl:mt-[28px] mt-[16px] text-black">
+                                            {data.desc}
+                                        </p>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            {/* thought leadership */}
+            <section className="lg:pl-0 lg:mt-[226px] md:mt-[280px] mt-[180px]">
+                <div className="bg-[#2C5F74] text-[#ffffff] xl:pt-[83px] xl:pb-[86px] pt-[59px] pb-[77px] relative z-0">
+                    <div className="custom-container lg:pr-0">
+                        <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[31px]">
+                            <div className="lg:col-span-5 col-span-12">
+                                <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[80%] md:w-full lg:w-[70%] xl:w-full">
+                                    Rialtes Thought Leadership
+                                </h2>
+                                <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[35px] mt-[16px] w-[68%] md:w-full lg:w-[76%] xl:w-full">
+                                    Tackling the Life Sciences Industry’s Most Pressing Challenges
+                                </h3>
+                                <div className="relative z-30 lg:hidden block mt-[31px]">
+                                    {/* Mobile Image */}
+                                    <img
+                                        src="/images/industry/life-science/Mobile/thought-leadership-mob.webp"
+                                        alt="Why Rialtes Mobile"
+                                        className="object-cover h-full md:h-[400px] w-full md:w-[80%]"
+                                    />
+                                </div>
+                                <ul className="list-disc xl:mt-[35px] mt-[31px] ml-[20px] space-y-[19px] xl:space-y-[24px] 4xl:w-[80%]  lg:w-[90%] xl:w-full">
+                                    {thoughLeadershipData.map((data, ind) => (
+                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                            {data}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="lg:col-span-7 col-span-12">
+                                <div className="w-full h-full relative z-30 lg:block hidden">
+                                    {/* Desktop Image */}
+                                    <img
+                                        src="/images/industry/life-science/thought-leadership-desk.webp"
+                                        alt="Why Rialtes Desktop"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="absolute bottom-[-20px]">
+                            <LearnMore />
+                        </div>
+                    </div>
+                    {/* white extension for right side */}
+                    <div className="absolute top-0 bottom-0 right-0 4xl:w-[280px] xl:w-[120px] lg:w-[80px] bg-[#ffffff] z-20"></div>
+                </div>
+            </section>
+
+            {/* prebuilt section */}
+            <section className="xl:mt-[94px] mt-[109px]">
+                <div className="custom-container 4xl:!px-[142px] xl:!px-[52px] lg:!px-[32px] max-lg:px-0">
+                    <div>
                         {/* Mobile Image */}
                         <img
-                            src="/images/industry/life-science/Mobile/why-rialtes-mob.webp"
+                            src="/images/industry/life-science/Mobile/pre-build-mob.webp"
                             alt="Why Rialtes Mobile"
                             className="w-full h-full object-cover md:hidden"
                         />
                         {/* Desktop Image */}
                         <img
-                            src="/images/industry/life-science/why-rialtes-desk.webp"
+                            src="/images/industry/life-science/pre-build-desk.webp"
                             alt="Why Rialtes Desktop"
-                            className="w-full h-full object-cover hidden md:block"
+                            className="w-full h-[800px] object-cover hidden md:block"
                         />
                     </div>
+                </div>
+                <div className="custom-container mt-[-120px] sm:mt-[-210px] relative z-20">
+                    <div className="bg-[#006FBE] text-[#ffffff] lg:pt-[83px] 4xl:px-[86px] md:px-[66px] md:pb-[128px] pt-[31px] px-[42px] pb-[110px] relative">
+                        <div className="grid md:grid-cols-2 grid-cols-1 xl:gap-[60px] gap-y-[19px]">
+                            <div>
+                                <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[80%] xl:w-full">
+                                    Pre-built Industry Accelerators: <br /> Body Map & Patient Interaction
+                                </h2>
 
-                    <div className="max-md:px-[36px] lg:pt-[76px] md:pl-[61px] pt-[38px]">
-                        <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[90%] md:w-[50%] lg:w-[36%] xl:w-[50%] 2xl:w-[52%]">
-                            Why Rialtes is Your Strategic Partner in Life Sciences Digital Transformation
-                        </h2>
-                        <p className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight mt-[16px] xl:mt-[28px]">
-                            Our Promise to Life <br /> Sciences Companies
-                        </p>
-
-                        <div className="">
-                            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[23px] xl:mt-[85px] mt-[68px] sm:w-[70%] md:w-[90%] xl:w-[90%] 4xl:w-[80%]">
-                                {
-                                    whyRialtesData.map((data, ind) => (
-                                        <div key={ind} className="bg-[#ffffff] pt-[40px] pb-[31px] pl-[32px] pr-[22px] xl:pt-[51px] xl:pb-[47px] xl:px-[36px]">
-                                            <p className="xl:text-[26px] 4xl:text-[30px] text-[22px] leading-tight text-[#038EF4]">{data.title}</p>
-                                            <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight xl:mt-[28px] mt-[16px] text-[#000000]">
-                                                {data.desc}
-                                            </p>
-                                        </div>
-                                    ))
-                                }
+                                <div className="xl:mt-[77px] mt-[29px] md:block hidden">
+                                    <LearnMore />
+                                </div>
                             </div>
+
+                            <div>
+                                <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold">
+                                    Accelerate your digital transformation journey with Rialtes life sciences-specific accelerators:
+                                </h3>
+                                <ul className="list-disc xl:mt-[37px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px]">
+                                    {prebuiltData.map((data, ind) => (
+                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                            {data}
+                                        </li>
+                                    ))}
+                                </ul>
+
+                                <div className="xl:mt-[77px] mt-[29px] md:hidden block">
+                                    <LearnMore />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="absolute bottom-[-50px] right-0 bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[42px] pb-[32px]">
+                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight">
+                                Ensure rapid deployment and regulatory compliance while focusing on patient care.
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* prebuilt section */}
-            <section className="custom-container 4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[42px] md:pr-0 max-md:px-0">
-                {/* Mobile Image */}
-                <img
-                    src="/images/industry/life-science/Mobile/pre-build-mob.webp"
-                    alt="Why Rialtes Mobile"
-                    className="w-full h-full object-cover md:hidden"
-                />
-                {/* Desktop Image */}
-                <img
-                    src="/images/industry/life-science/pre-build-desk.webp"
-                    alt="Why Rialtes Desktop"
-                    className="w-full h-full object-cover hidden md:block"
-                />
+            {/* common section */}
+            <section className="custom-container xl:mt-[81px] mt-[109px]">
+                {
+                    commonSectionData.map((data, ind) => {
+                        return (
+                            ind % 2 == 0 ?
+                                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[0px] xl:gap-0 xl:mt-[137px] mt-[180px] border border-[#707070] relative" key={ind}>
+                                    <div className="md:col-span-6 lg:col-span-5 xl:col-span-6 col-span-12 xl:pt-[79px] xl:px-[58px] md:pb-[115px] pt-[35px] px-[26px] pb-[35px] md:order-1 order-2">
+                                        <h2 className={`4xl:text-[54px] xl:text-[40px] text-[26px] leading-tight font-light`}>
+                                            {data.title}
+                                        </h2>
+                                        <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[11px] mt-[19px] ${ind == 4 || ind == 6 ? "xl:w-full" : " xl:w-[86%] "}`}>
+                                            {data.subtitle}
+                                        </h3>
+
+                                        <ul className={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`}>
+                                            {data.dataList.map((data, ind) => (
+                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                                    {data}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <div className="mt-[22px] xl:mt-[59px]">
+                                            <LearnMore />
+                                        </div>
+                                        <div className="absolute z-20 max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
+                                                {data.blueCard}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12 md:order-2 order-1">
+                                        <div className="w-full h-full md:block hidden">
+                                            {/* Desktop Image */}
+                                            <img
+                                                src={data.deskImg}
+                                                alt="Why Rialtes Desktop"
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="md:hidden block">
+                                            {/* Mobile Image */}
+                                            <img
+                                                src={data.mobImg}
+                                                alt="Why Rialtes Mobile"
+                                                className="object-cover h-full w-full"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                :
+                                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[0px] xl:mt-[137px] mt-[180px] border border-[#707070] relative" key={ind}>
+                                    <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12">
+                                        <div className="w-full h-full md:block hidden">
+                                            {/* Desktop Image */}
+                                            <img
+                                                src={data.deskImg}
+                                                alt="Why Rialtes Desktop"
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="md:hidden block">
+                                            {/* Mobile Image */}
+                                            <img
+                                                src={data.mobImg}
+                                                alt="Why Rialtes Mobile"
+                                                className="object-cover h-full w-full"
+                                            />
+                                        </div>
+                                        <div className="absolute max-md:top-[100%] md:bottom-[-50px] md:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
+                                                {data.blueCard}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="md:col-span-6 lg:col-span-5 xl:col-span-6 col-span-12 xl:pt-[79px] xl:px-[58px] md:pb-[115px] pt-[35px] px-[26px] pb-[35px]">
+                                        <h2 className={`4xl:text-[54px] xl:text-[40px] text-[26px] leading-tight font-light`}>
+                                            {data.title}
+                                        </h2>
+                                        <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[11px] mt-[19px] w-[88%] sm:w-full ${ind == 5 && "4xl:text-[39px]"}`}>
+                                            {data.subtitle}
+                                        </h3>
+
+                                        <ul className="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]">
+                                            {data.dataList.map((data, ind) => (
+                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                                    {data}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <div className="mt-[22px] xl:mt-[59px]">
+                                            <LearnMore />
+                                        </div>
+                                    </div>
+                                </div>
+                        )
+                    })
+                }
+            </section>
+
+            {/* seamless section */}
+            <section className="bg-[#EAEAEA] relative z-0 xl:pt-[145px] lg:pt-[115px] lg:pb-[42px] md:pb-[120px] xl:pb-[52px] pt-[56px] pb-[172px] 4xl:pr-[162px] lg:pr-[62px] max-lg:px-[36px] max-lg:mt-[100px] max-[450px]:mt-[130px]">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-[35px] lg:gap-[40px] xl:gap-[60px] 4xl:gap-[80px]">
+                    <div>
+                        <div className="w-full h-full lg:block hidden">
+                            {/* Desktop Image */}
+                            <img
+                                src="/images/industry/life-science/seamless-desk.webp"
+                                alt="Why Rialtes Desktop"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div className="lg:hidden block">
+                            {/* Mobile Image */}
+                            <img
+                                src="/images/industry/life-science/Mobile/seamless-mob.webp"
+                                alt="Why Rialtes Mobile"
+                                className="object-cover h-full w-full md:h-[600px]"
+                            />
+                        </div>
+                        {/* blue card */}
+                        <div className="custom-container max-lg:px-0">
+                            <div className="absolute bottom-0 max-lg:mr-[36px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight font-normal w-[90%] sm:w-full">
+                                    Efficient, connected enterprise operations for better outcomes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="relative">
+                        <h2 className={`4xl:text-[54px] xl:text-[40px] text-[26px] leading-tight font-light 4xl:w-[90%] w-[90%] sm:w-full`}>
+                            Seamless Integration with SAP, Oracle, MuleSoft for Unified Life Sciences Operations
+                        </h2>
+                        <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[46px] mt-[29px]`}>
+                            Powered by Data Cloud
+                        </h3>
+
+                        <ul className={`list-disc xl:mt-[46px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`}>
+                            {seamlessData.map((data, ind) => (
+                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                    {data}
+                                </li>
+                            ))}
+                        </ul>
+                        <div className="mt-[41px] xl:mt-[55px] xl:mb-[167px] lg:mb-[97px]">
+                            <LearnMore />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* common section 2 */}
+            <section className="custom-container">
+                {
+                    commonSectionData1.map((data, ind) => {
+                        return (
+                            ind % 2 == 0 ?
+                                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[0px] xl:gap-0 xl:mt-[137px] first:mt-[80px] mt-[180px] border border-[#707070] relative" key={ind}>
+                                    <div className="md:col-span-6 lg:col-span-5 xl:col-span-6 col-span-12 xl:pt-[79px] xl:px-[58px] md:pb-[115px] pt-[35px] px-[26px] pb-[35px] md:order-1 order-2">
+                                        <h2 className={`4xl:text-[54px] xl:text-[40px] text-[26px] leading-tight font-light`}>
+                                            {data.title}
+                                        </h2>
+                                        <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[39px] mt-[19px]`}>
+                                            {data.subtitle}
+                                        </h3>
+
+                                        <ul className={`list-disc xl:mt-[32px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`}>
+                                            {data.dataList.map((data, ind) => (
+                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                                    {data}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <div className="mt-[22px] xl:mt-[59px]">
+                                            <LearnMore />
+                                        </div>
+                                        <div className="absolute max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
+                                                {data.blueCard}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12 md:order-2 order-1">
+                                        <div className="w-full h-full md:block hidden">
+                                            {/* Desktop Image */}
+                                            <img
+                                                src={data.deskImg}
+                                                alt="Why Rialtes Desktop"
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="md:hidden block">
+                                            {/* Mobile Image */}
+                                            <img
+                                                src={data.mobImg}
+                                                alt="Why Rialtes Mobile"
+                                                className="object-cover h-full w-full"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                :
+                                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[0px] xl:mt-[137px] mt-[180px] border border-[#707070] relative" key={ind}>
+                                    <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12">
+                                        <div className="w-full h-full md:block hidden">
+                                            {/* Desktop Image */}
+                                            <img
+                                                src={data.deskImg}
+                                                alt="Why Rialtes Desktop"
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="md:hidden block">
+                                            {/* Mobile Image */}
+                                            <img
+                                                src={data.mobImg}
+                                                alt="Why Rialtes Mobile"
+                                                className="object-cover h-full w-full"
+                                            />
+                                        </div>
+                                        <div className="absolute max-md:top-[100%] md:bottom-[-50px] md:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
+                                                {data.blueCard}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="md:col-span-6 lg:col-span-5 xl:col-span-6 col-span-12 xl:pt-[79px] xl:px-[58px] md:pb-[115px] pt-[35px] px-[26px] pb-[35px]">
+                                        <h2 className={`4xl:text-[54px] xl:text-[40px] text-[26px] leading-tight font-light`}>
+                                            {data.title}
+                                        </h2>
+                                        <h3 className={`xl:text-[30px] 4xl:text-[40px] text-[18px] leading-tight font-semibold xl:mt-[39px] mt-[18px] w-[88%] sm:w-full 4xl:w-[98%]`}>
+                                            {data.subtitle}
+                                        </h3>
+
+                                        <ul className="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]">
+                                            {data.dataList.map((data, ind) => (
+                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
+                                                    {data}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <div className="mt-[22px] xl:mt-[59px]">
+                                            <LearnMore />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                        )
+                    })
+                }
             </section>
             {/* Contact Form */}
-            < div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px]">
+            < div className="custom-container xl:mt-[167px] xl:mb-[104px] mt-[164px] mb-[45px]">
                 <ContactForm title={'Ready to Transform Life Sciences with Rialtes?'} subtitle="Partner with Rialtes to unlock innovation, compliance, and patient-centric solutions across the life sciences ecosystem." subtitle1="Contact us today to discover how Rialtes can drive growth and patient impact for your organization." className="sm:w-[66%] 2xl:w-[60%] 4xl:w-[80%] 4xl:text-[60px] xl:text-[40px] text-[26px]" />
             </div >
-        </section>
+        </section >
     )
 }
