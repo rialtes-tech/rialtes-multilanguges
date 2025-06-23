@@ -7,7 +7,6 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
-import { HeroSection } from "@/app/components/herosection";
 
 const RelatedSolutionsSection = () => {
     const relatedSolutionsData = [

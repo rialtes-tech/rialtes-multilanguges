@@ -65,7 +65,7 @@ export default function servicesFeaturedCarousel({ slides }) {
     <section className="relative pb-10">
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3">
-          <h2 className="text-black mb-10  sm:mr-0 mr-20  4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
+          <h2 className="text-black mb-10  sm:mr-0 mr-20  4xl:w-[70%] xl:w-[55%] w-[55%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
         </div>
         <Carousel
           swipeable={true}
