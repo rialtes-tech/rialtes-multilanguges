@@ -213,9 +213,8 @@ export default function Page() {
               <h3 className="text-white text-[18px] md:text-[24px] font-bold">
                 HI-TECH
               </h3>
-              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[90%] md:w-[80%]  4xl:w-full mt-[11.5px] md:mt-[28.5px]">
-Accelerate innovation and meet the rapid demand of digital enterprises              </h2>
-
+              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[90%] 2xl:w-[80%] md:w-[80%]  4xl:w-full mt-[11.5px] md:mt-[28.5px]">
+             Accelerate innovation and meet the rapid demand of digital enterprises </h2>
             </div>
 
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
