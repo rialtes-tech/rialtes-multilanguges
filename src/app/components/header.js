@@ -220,8 +220,9 @@ const Header = () => {
           label: 'Real Estate', href: '/industry/real-estate-property-management',
         },
         {
-          label: 'Life Sciences', href: '/',
+          label: 'Life Sciences', href: '/industry/life-sciences-digital-transformation',
           subLinks: [
+            { label: 'Overview', href: '/industry/life-sciences-digital-transformation' },
             { label: 'Healthcare', href: '/industry/life-sciences/healthcare-medtech-patient-care' },
             { label: 'Medical Devices', href: '/industry/life-sciences/medical-devices-it-solutions' },
             { label: 'Pharma And BioTech', href: '/industry/life-sciences/pharma-biotech-digital-transformation' },
@@ -1231,9 +1232,9 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
                         <p className="mt-3">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
-                        {/* <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                        <Link href='/' onClick={handleLinkClick}>Let's Begin</Link>
-                      </button> */}
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/life-sciences-digital-transformation' onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation")}>Let's Begin</Link>
+                        </button>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
