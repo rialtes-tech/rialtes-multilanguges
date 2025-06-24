@@ -241,7 +241,7 @@ export default function page() {
                 <div className="grid md:grid-cols-12 grid-cols-1 border border-[#707070]">
                     <div className="md:col-span-7 col-span-12 border-r border-[#707070]">
                         <div className="relative pt-[33px] pb-[26px] pl-[26px] pr-[23px] xl:pt-[58px] xl:pb-[50px] xl:pl-[49px] xl:pr-[44px]">
-                            <p className="xl:text-[36px] 4xl:text-[50px] text-[26px] leading-tight text-[#038EF4] italic w-fit bg-[#ffffff] px-[14px] top-[-20px] absolute">Did you know?</p>
+                            <p className="xl:text-[36px] 4xl:text-[50px] text-[26px] max-[340px]:text-[22px]  leading-tight text-[#038EF4] italic w-fit bg-[#ffffff] px-[14px] top-[-20px] absolute">Did you know?</p>
                             <p className="xl:text-[22px] 4xl:text-[28px] text-[18px] leading-tight w-[90%] sm:w-full">
                                 The global life sciences market is projected to reach <span className="xl:text-[28px] 4xl:text-[35px] text-[22px] text-[#038EF4] font-bold"> $3.6 trillion by 2030.</span>
                             </p>
@@ -266,10 +266,32 @@ export default function page() {
             </section>
 
             {/* why rialtes */}
-            <section className="custom-container max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px]  text-white 4xl:h-[1050px] 3xl:h-[945px] 2xl:h-[1050px] xl:h-[900px] lg:h-[700px] md:h-[800px] sm:h-[1050px] h-[1050px] max-[470px]:h-[1200px]">
-                <div className="max-md:px-[36px] lg:pt-[76px] md:pl-[61px] pt-[38px] w-full bg-[url('/images/industry/life-science/Mobile/why-rialtes-mob.webp')] md:bg-[url('/images/industry/life-science/why-rialtes-desk.webp')] bg-cover bg-center bg-no-repeat relative text-white">
+            <section className="custom-container relative max-[450px]:h-[1180px] max-[409px]:h-[1400px] h-[1150px] sm:h-[1100px] md:h-[890px] lg:h-[780px] xl:h-[950px] 2xl:h-[1100px] 3xl:h-[950px] 4xl:h-[1100px] max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px] text-white">
+                <div className="relative max-md:px-[36px] md:pl-[61px] lg:pt-[76px] pt-[38px] h-full">
+                    <div className="absolute inset-0 -z-10">
+                        {/* Desktop Image */}
+                        <div className="hidden md:block w-full h-full">
+                            <Image
+                                src="/images/industry/life-science/why-rialtes-desk.webp"
+                                alt=""
+                                fill
+                                style={{ objectFit: "cover" }}
+                                priority
+                            />
+                        </div>
+                        {/* Mobile Image */}
+                        <div className="block md:hidden w-full h-full">
+                            <Image
+                                src="/images/industry/life-science/Mobile/why-rialtes-mob.webp"
+                                alt=""
+                                fill
+                                style={{ objectFit: "cover" }}
+                                priority
+                            />
+                        </div>
+                    </div>
 
-                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[90%] md:w-[50%] lg:w-[36%] xl:w-[50%] 2xl:w-[52%]">
+                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[85%] md:w-[50%] lg:w-[40%] xl:w-[48%] 2xl:w-[52%] 4xl:w-[47%]">
                         Why Rialtes is Your Strategic Partner in Life Sciences Digital Transformation
                     </h2>
 
@@ -277,26 +299,25 @@ export default function page() {
                         Our Promise to Life <br /> Sciences Companies
                     </p>
 
-                    <div className="md:absolute">
-                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[23px] xl:mt-[85px] mt-[68px] sm:w-[70%] md:w-[80%] lg:w-[80%] xl:w-[90%] 2xl:w-[80%] 3xl:w-[80%] 4xl:w-[80%]">
-                            {
-                                whyRialtesData.map((data, ind) => (
-                                    <div key={ind} className="bg-white pt-[40px] pb-[31px] pl-[32px] pr-[22px] xl:pt-[51px] xl:pb-[47px] xl:px-[36px] border border-[#707070]">
-                                        <p className="xl:text-[26px] 4xl:text-[30px] text-[22px] leading-tight text-[#038EF4]">{data.title}</p>
-                                        <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight xl:mt-[28px] mt-[16px] text-black">
-                                            {data.desc}
-                                        </p>
-                                    </div>
-                                ))
-                            }
+                    <div className="absolute bottom-[-80px] md:bottom-[-80px] max-sm:mr-[36px]">
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[23px] xl:mt-[85px] mt-[68px] w-[100%] sm:w-[70%] md:w-[80%] lg:w-[80%] xl:w-[90%] 2xl:w-[80%] 3xl:w-[80%] 4xl:w-[80%]">
+                            {whyRialtesData.map((data, ind) => (
+                                <div key={ind} className="bg-white pt-[40px] pb-[31px] pl-[32px] pr-[22px] xl:pt-[51px] xl:pb-[47px] xl:px-[36px] border border-[#707070]">
+                                    <p className="xl:text-[26px] 4xl:text-[30px] text-[22px] leading-tight text-[#038EF4]">
+                                        {data.title}
+                                    </p>
+                                    <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight xl:mt-[28px] mt-[16px] text-black">
+                                        {data.desc}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
-
             </section>
 
             {/* thought leadership */}
-            <section className="lg:pl-0 lg:mt-[226px] md:mt-[280px] mt-[180px]">
+            <section className="lg:pl-0 lg:mt-[226px] md:mt-[226px] mt-[184px]">
                 <div className="bg-[#2C5F74] text-[#ffffff] xl:pt-[83px] xl:pb-[86px] pt-[59px] pb-[77px] relative z-0">
                     <div className="custom-container lg:pr-0">
                         <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[31px]">
@@ -362,7 +383,7 @@ export default function page() {
                     </div>
                 </div>
                 <div className="custom-container mt-[-120px] sm:mt-[-210px] relative z-20">
-                    <div className="bg-[#006FBE] text-[#ffffff] lg:pt-[83px] 4xl:px-[86px] md:px-[66px] md:pb-[128px] pt-[31px] px-[42px] pb-[110px] relative">
+                    <div className="bg-[#006FBE] text-[#ffffff] lg:pt-[83px] 4xl:px-[86px] md:px-[66px] md:pb-[128px] pt-[31px] px-[42px] pb-[110px] max-[430px]:px-[30px] max-[430px]:pb-[160px] relative">
                         <div className="grid md:grid-cols-2 grid-cols-1 xl:gap-[60px] gap-y-[19px]">
                             <div>
                                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[80%] xl:w-full">
@@ -425,7 +446,7 @@ export default function page() {
                                         <div className="mt-[22px] xl:mt-[59px]">
                                             <LearnMore />
                                         </div>
-                                        <div className="absolute z-20 max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                        <div className="absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
                                                 {data.blueCard}
                                             </p>
@@ -469,7 +490,7 @@ export default function page() {
                                                 className="object-cover h-full w-full"
                                             />
                                         </div>
-                                        <div className="absolute max-md:top-[100%] md:bottom-[-50px] md:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                        <div className="absolute max-md:top-[100%] max-md:w-full md:bottom-[-50px] md:left-[26px] lg:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
                                                 {data.blueCard}
                                             </p>
@@ -621,7 +642,7 @@ export default function page() {
                                                 className="object-cover h-full w-full"
                                             />
                                         </div>
-                                        <div className="absolute max-md:top-[100%] md:bottom-[-50px] md:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                        <div className="absolute max-md:top-[100%] md:bottom-[-50px] lg:left-[58px] md:left-[26px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
                                                 {data.blueCard}
                                             </p>
