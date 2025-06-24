@@ -1,8 +1,111 @@
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
 import Image from "next/image";
 
 export default function page() {
+
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Life Sciences Digital Transformation and IT Solutions",
+        "description": "Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, providers, and public health.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc/",
+                "https://www.youtube.com/@rialtes"
+            ]
+        },
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "United States"
+            },
+            {
+                "@type": "Country",
+                "name": "Canada"
+            },
+            {
+                "@type": "Country",
+                "name": "India"
+            },
+            {
+                "@type": "Country",
+                "name": "Singapore"
+            },
+            {
+                "@type": "Continent",
+                "name": "Europe"
+            }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Life Sciences Digital Transformation Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Patient Interaction Platform",
+                        "description": "Deliver end-to-end patient engagement journeys with real-time communication and AI personalization."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Body Map Visualization",
+                        "description": "Interactive visualization for patient medical history, clinical insights, and personalized treatment planning."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Clinical Trial Management Solutions",
+                        "description": "Accelerate clinical trials with AI-powered recruitment, compliance tools, and real-world evidence insights."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce for Life Sciences",
+                        "description": "Implement Salesforce Health Cloud for payer-provider collaboration, patient support programs, and remote monitoring."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "MedTech Device Lifecycle Management",
+                        "description": "Manage connected devices, predictive maintenance, and field service operations for better patient outcomes."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Public Health Analytics and Outreach",
+                        "description": "Drive data-driven public health programs with SDOH analysis, case tracking, and behavioral outreach."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI-Driven Pharma Innovation",
+                        "description": "Enhance patient access, drug safety, and regulatory compliance using AI, Data Cloud, and intelligent workflows."
+                    }
+                }
+            ]
+        },
+        "url": "https://www.rialtes.com/industry/life-sciences-digital-transformation"
+    }
     const whyRialtesData = [
         {
             title: "Industry-Proven Accelerators",
@@ -181,6 +284,17 @@ export default function page() {
     ]
     return (
         <section className="min-h-screen">
+
+            <Seo
+                title="Life Sciences Digital Transformation with AI | Rialtes"
+                description=" Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers."
+                canonical="https://www.rialtes.com/industry/life-sciences-digital-transformation"
+            />
+
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                 {/* Desktop Image */}
