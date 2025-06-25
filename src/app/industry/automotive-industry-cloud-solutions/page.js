@@ -41,7 +41,7 @@ const ThoughtLeadershipSection = () => {
                     priority
 
                 />
-                <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[57px]" style={{
+                <div className="border-none px-[30px] pt-[42px] z-10  xl:pb-[144px] pb-[57px]" style={{
                     background: "#073259",
                 }}>
                     <h2 className="text-[#FFFFFF] text-[26px] leading-[32px]">
@@ -60,7 +60,7 @@ const ThoughtLeadershipSection = () => {
                             </li>
                         ))}
                     </ul>
-                    <h4 className="text-[#FFFFFF] text-[16px] mt-[61px] leading-[19px] font-semibold">
+                    <h4 className="text-[#FFFFFF] text-[18px] mt-[61px] leading-[19px] font-semibold">
                         Rialtes Solutions:
                     </h4>
                     <ul className="list-disc pl-[20px] text-[#FFFFFF]">
@@ -75,7 +75,7 @@ const ThoughtLeadershipSection = () => {
             </div>
 
             {/* Desktop View */}
-            <div className="hidden md:block relative w-full h-[980px] lg:h-[900px] xl:h-[1500px] 2xl:h-[1450px] 3xl:h-[1300px]">
+            <div className="hidden md:block relative w-full h-[980px] lg:h-[1000px] xl:h-[1200px] md:h-[1050px] 2xl:h-[1450px] 3xl:h-[1300px]">
                 <Image
                     src="/images/industry/auto-industry/thought-leadership-img.webp"
                     alt="thought-leadership-img"
@@ -97,29 +97,29 @@ const ThoughtLeadershipSection = () => {
                                     opacity: 1,
                                 }}
                             />
-                            <div className="relative z-10 h-full flex flex-col justify-center px-[26px] xl:px-[61px] overflow-y-auto">
-                                <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px]">
+                            <div className="relative z-10 h-full flex flex-col justify-center px-[26px] xl:px-[40px] overflow-y-auto">
+                                <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] max-[350px]:text-[22px] leading-[32px] xl:leading-[73px] ">
                                     Thought Leadership
                                 </h2>
-                                <h3 className="text-[#FFFFFF] xl:text-[42px] text-[22px] font-semibold xl:mt-[35px] mt-[16px] leading-[27px] xl:leading-[52px] w-full">
+                                <h3 className="text-[#FFFFFF] 4xl:text-[42px] 2xl:text-[38px] xl:text-[32px] lg:text-[30px] md:text-[22px] text-[22px] font-semibold xl:mt-[35px] mt-[16px] leading-tight max-[380px]:text-[20px] ">
                                     Addressing the Complex Challenges in the Automotive Sector
                                 </h3>
-                                <h4 className="text-[#FFFFFF] xl:text-[36px] text-[22px] font-semibold xl:mt-[20px] mt-[16px] leading-[27px] xl:leading-[44px]">
+                                <h4 className="text-[#FFFFFF] 4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[26px] md:text-[22px]  text-[22px] font-semibold xl:mt-[20px] mt-[16px] leading-[27px] xl:leading-[44px]">
                                     Key Industry Challenges We Solve:
                                 </h4>
                                 <ul className="list-disc pl-[22px] text-[#FFFFFF] xl:mt-[23px] mt-[16px]">
                                     {keyIndustryChallenges.map((element, index) => (
-                                        <li key={index} className="mt-[19px] xl:text-[20px] text-[15px] xl:leading-[24px] leading-[19px]">
+                                        <li key={index} className="mt-[19px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[16px] text-[15px] leading-tight">
                                             {element}
                                         </li>
                                     ))}
                                 </ul>
-                                <h4 className="text-[#FFFFFF] xl:text-[36px] text-[22px] font-light xl:mt-[38px] mt-[16px] leading-[27px] xl:leading-[44px]">
+                                <h4 className="text-[#FFFFFF] 4xl:text-[36px] 2xl:text-[32px] xl:text-[30px] lg:text-[28px] md:text-[26px] text-[22px] font-light xl:mt-[38px] mt-[22px] leading-[27px] xl:leading-[44px]">
                                     Rialtes Solutions:
                                 </h4>
                                 <ul className="list-disc pl-[22px] text-[#FFFFFF] xl:mt-[26px] mt-[16px]">
                                     {rialtesSolutions.map((element, index) => (
-                                        <li key={index} className="mt-[19px] xl:text-[20px] text-[15px] xl:leading-[24px] leading-[19px]">
+                                        <li key={index} className="mt-[19px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[16px] text-[15px] leading-tight">
                                             {element}
                                         </li>
                                     ))}
@@ -149,7 +149,7 @@ const PreDeliveredSection = () => {
         },
     ];
     return (
-        <section className="relative mt-[60px] md:mt-0">
+        <section className="relative mt-[60px] md:mt-0 mb-20">
             {/* Background image layer */}
             <div
                 className="
@@ -160,33 +160,33 @@ const PreDeliveredSection = () => {
       bg-no-repeat bg-cover
       z-0" style={{ backgroundSize: "100% 100%" }}></div>
 
-            <div className="relative z-10 pt-[64px] xl:pt-[82px] max-[421px]:h-[1120px] h-[900px] sm:h-[760px] md:h-full">
+            <div className="relative z-10 pt-[64px] xl:pt-[82px] max-[350px]:h-[1100px] h-[1050px] sm:h-[760px] md:h-full  ">
 
                 <div className="custom-container">
-                    <h2 className="text-white xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light xl:w-[70%]">
+                    <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-light lg:w-[58%] max-[380px]:text-[22px]">
                         Rialtes Pre-Delivered Automotive Accelerators
                     </h2>
 
-                    <h3 className="text-white xl:text-[42px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[49px] mt-[21px]">
+                    <h3 className="text-white 4xl:text-[42px] 2xl:text-[38px] xl:text-[26px] lg:text-[30px] md:text-[22px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[49px] mt-[21px] max-[380px]:text-[20px]">
                         Fast-Tracking Success
                     </h3>
 
-                    <p className="text-white xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-light xl:mt-[35px] mt-[21px] xl:w-[80%] w-[80%]">
+                    <p className="text-white 4xl:text-[22px] 2xl:text-[20px] xl:text-[16px] lg:text-[18px] md:text-[18px] text-[16px] leading-[19px] xl:leading-[30px] font-light xl:mt-[35px] mt-[21px] xl:w-[80%] w-[90%]">
                         Our proprietary accelerators are designed to streamline and future-proof automotive operations:
                     </p>
                 </div>
 
-                <div className="md:relative z-10 custom-container md:bottom-[-200px] absolute mt-[34px]">
+                <div className="md:relative z-10 custom-container md:bottom-[-200px] absolute mt-[30px] lg:mt-[2px]">
                     <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-12">
                         {predeliveredCardData.map((card, index) => (
                             <div
                                 key={index}
-                                className="bg-white border border-[#707070] pt-[33px] xl:pt-[65px] pb-[47px] xl:pb-[36px] xl:px-[46px] px-[33px]"
+                                className="bg-white border border-[#707070] pt-[33px] xl:pt-[65px] pb-[47px] xl:pb-[36px] xl:px-[50px] px-[33px]"
                             >
-                                <h4 className="text-[#006FBE] xl:text-[30px] text-[20px] font-semibold leading-[24px] xl:leading-[37px] w-[90%]">
+                                <h4 className="text-[#006FBE] 4xl:text-[30px] 2xl:text-[28px] xl:text-[22px] lg:text-[24px] md:text-[24px] text-[20px] font-semibold leading-[24px] xl:leading-[37px] w-[99%]">
                                     {card.title}
                                 </h4>
-                                <p className="text-black xl:text-[24px] text-[16px] leading-[19px] xl:leading-[29px] font-normal mt-[21px] xl:mt-[33px]">
+                                <p className="text-black 4xl:text-[24px] 2xl:text-[22px] xl:text-[18px] lg:text-[18px]  md:text-[18px] text-[16px] leading-[19px] xl:leading-[29px] font-normal mt-[21px] xl:mt-[20px]">
                                     {card.desc}
                                 </p>
                             </div>
@@ -199,6 +199,7 @@ const PreDeliveredSection = () => {
                 </div>
             </div>
         </section>
+
 
     );
 
@@ -234,16 +235,16 @@ const EndToEndAutomativeSection = () => {
         <section
             className="lg:mt-[263px] md:mt-[282px] mt-[20rem] max-[421px]:mt-[22rem] custom-container lg:pr-0 max-lg:!px-0 relative"
         >
-            <div className=" xl:pt-[67px] pt-[42px] xl:pb-[99px] pb-[89px] border border-[#707070] lg:pl-[40px] max-lg:px-[36px]">
-                <h2 className="text-[#000000] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-Light">
+            <div className=" xl:pt-[67px] pt-[42px] xl:pb-[99px] pb-[89px] border border-[#707070] lg:pl-[40px] max-lg:px-[30px] ">
+                <h2 className="text-[#000000] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-Light max-[380px]:text-[22px]">
                     End-to-End Automotive Buyer Journey
                 </h2>
 
-                <h3 className="text-[#030303] xl:text-[42px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[33px] mt-[17px]">
+                <h3 className="text-[#030303] 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[26px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[33px] mt-[17px] max-[380px]:text-[20px]">
                     Seamless from First Click to Final Delivery
                 </h3>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 xl:gap-[56px] gap-[82px] xl:mt-[63px] mt-[32px] 3xl:pr-[280px] 2xl:pr-[140px] xl:pr-[80px] lg:pr-[48px]">
+                <div className="grid grid-cols-1 lg:grid-cols-2 xl:gap-[60px] gap-[82px] xl:mt-[63px] mt-[32px] 3xl:pr-[280px] 2xl:pr-[140px] xl:pr-[80px] lg:pr-[48px]">
                     {endtoendautomativesection.map((section, index) => (
                         <div
                             key={index}
@@ -253,7 +254,7 @@ const EndToEndAutomativeSection = () => {
                             <Image
                                 src={section.imgUrlMobile}
                                 alt={section.title}
-                                className="block lg:hidden mb-4"
+                                className="block lg:hidden mb-4 h-auto w-full"
                                 width={0}
                                 height={0}
                                 priority
@@ -262,19 +263,19 @@ const EndToEndAutomativeSection = () => {
                             <Image
                                 src={section.imgUrlDesktop}
                                 alt={section.title}
-                                className="hidden lg:block mb-4"
+                                className="hidden lg:block mb-4 h-auto w-full"
                                 width={0}
                                 height={0}
                                 priority
                             />
 
-                            <h4 className="mt-[29px] xl:mt-[63px] xl:text-[36px] xl:font-semibold font-medium text-[20px] xl:leading-[44px] leading-[24px]">{section.title}</h4>
+                            <h4 className="mt-[29px] xl:mt-[63px] 4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] xl:font-semibold font-medium text-[20px] leading-tight">{section.title}</h4>
 
                             <ul className="list-disc xl:mt-[13px] mt-[6px] pl-[22px]">
                                 {section.list.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="mt-[19px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] w-[90%]"
+                                        className="mt-[19px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] xl:leading-[24px] leading-[19px] w-[90%] lg:w-full"
                                     >
                                         {item}
                                     </li>
@@ -340,7 +341,7 @@ const ComprehensiveCustomerSection = () => {
 
             <div className="absolute inset-0 ">
                 <div className="custom-container">
-                    <div className="relative xl:w-[61%] 2xl:w-[55%] max-[420px]:w-[87%] w-[68%] md:w-[40%]">
+                    <div className="relative xl:w-[54%] lg:w-[50%] 2xl:w-[55%] max-[450px]:w-[87%] w-[75%] md:w-[45%]">
 
                         <div
                             className="absolute inset-0 z-0 pointer-events-none"
@@ -352,11 +353,11 @@ const ComprehensiveCustomerSection = () => {
                             }}
                         />
 
-                        <div className="relative z-10 xl:pt-[70px] pt-[32px] xl:pb-[55px] pb-[27px] px-[26px] xl:px-[61px]">
-                            <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <div className="relative z-10 xl:pt-[70px] pt-[32px] xl:pb-[55px] pb-[27px] px-[28px] md:px-[30px] 4xl:px-[100px] 2xl:px-[80px] xl:px-[80px] lg:px-[70px]">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight font-light max-">
                                 Comprehensive Customer Service Journey
                             </h2>
-                            <h3 className="text-[#FFFFFF] xl:text-[42px] text-[22px] font-semibold xl:mt-[39px] mt-[23px] leading-[27px] xl:leading-[52px]">
+                            <h3 className="text-[#FFFFFF] 4xl:text-[42px] 2xl:text-[38px] xl:text-[32px] lg:text-[30px] md:text-[23px] text-[22px] max-[400px]:text-[18px] font-semibold xl:mt-[39px] mt-[23px] leading-[27px] xl:leading-[52px]">
                                 From Ownership to Loyalty
                             </h3>
                         </div>
@@ -368,7 +369,7 @@ const ComprehensiveCustomerSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 xl:gap-x-[87px] gap-y-[58px]">
                     {comprehensiveCustomerData.map((section, index) => (
                         <div key={index}>
-                            <h4 className="xl:text-[36px] font-semibold text-[20px] xl:leading-[44px] leading-[24px]">
+                            <h4 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[26px] font-semibold text-[20px] leading-tight"> 
                                 {section.title}
                             </h4>
 
@@ -376,7 +377,7 @@ const ComprehensiveCustomerSection = () => {
                                 {section.list.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="mt-[19px] xl:mt-[19px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px]"
+                                        className="mt-[19px] xl:mt-[19px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight"
                                     >
                                         {item}
                                     </li>
@@ -410,20 +411,20 @@ const PersonalizingSection = () => {
             <div className="flex items-start justify-start xl:pt-[64px] pt-[38px] xl:pb-[104px] pb-[73px] bg-[url('/images/industry/auto-industry/Mobile/personalizing-mob-img.webp')]
     md:bg-[url('/images/industry/auto-industry/personalizing-img.webp')]
     bg-no-repeat bg-cover ">
-                <div className="relative md:pl-[76px] 2xl:w-[60%] xl:w-[80%] lg:w-[60%] md:w-[70%] sm:w-[80%] max-md:px-[36px]">
-                    <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light 2xl:w-[80%] lg:w-[80%]">
+                <div className="relative md:pl-[76px] 2xl:w-[61%] xl:w-[81%] lg:w-[60%] md:w-[70%] sm:w-[80%] max-md:px-[36px]">
+                    <h2 className="text-[#FFFFFF]  4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight font-light  4xl:w-[732px] 2xl:w-[710px] xl:w-[500px] lg:w-[587px] md:w-[425px] w-[322px] max-[400px]:w-[260px]">
                         Personalizing the Automotive Experience
                     </h2>
 
-                    <h3 className="text-[#FFFFFF] xl:text-[42px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[23px] mt-[20px] lg:w-[80%] 2xl:w-[90%]">
+                    <h3 className="text-[#FFFFFF] 4xl:text-[42px] 2xl:text-[38px] xl:text-[30px] lg:text-[30px] md:text-[23px] text-[22px] max-[400px]:text-[18px] leading-tight font-semibold xl:mt-[23px] mt-[20px] 4xl:w-[670px] 2xl:w-[650px] xl:w-[620px] lg:w-[600px] md:w-[483px] w-[400px] max-[400px]:w-[330px]">
                         Salesforce Marketing Cloud + Automotive Cloud
                     </h3>
 
-                    <ul className="list-disc pl-[22px] xl:w-[70%] mt-[11px] xl:mt-[39px] lg:w-[80%]">
+                    <ul className="list-disc pl-[22px]  4xl:w-[520px] 2xl:w-[519px] xl:w-[470px] lg:w-[420px] md:w-[380px] w-[340px] max-[400px]:w-[270px]" >
                         {personalizedData.map((item, idx) => (
                             <li
                                 key={idx}
-                                className="text-[#FFFFFF] mt-[19px] xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px]">
+                                className="text-[#FFFFFF] mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight">
                                 {item}
                             </li>
                         ))}
@@ -469,21 +470,21 @@ const RevolutionizingServiceSection = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 xl:gap-[71px] gap-[20px]">
                         {/* Left Column */}
                         <div>
-                            <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight 2xl:w-[99%] xl:w-[80%] lg:w-[60%] font-light ">
                                 Revolutionizing Service Operations
                             </h2>
-                            <h3 className="text-[#FFFFFF] font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[13px] xl:mt-[22px]">
+                            <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[30px] lg:text-[30px] md:text-[23px] text-[20px] max-[400px]:text-[18px] leading-tight mt-[13px] xl:mt-[22px]">
                                 Salesforce Service Cloud
                             </h3>
                         </div>
 
                         {/* Right Column */}
                         <div className="flex flex-col">
-                            <ul className="list-disc pl-[22px] xl:w-[96%] 2xl:w-[90%] xl:mt-[20px]">
+                            <ul className="list-disc pl-[22px] 4xl:w-[431px] 2xl:w-[426px] xl:w-[400px] lg:w-[350px]   xl:mt-[20px]">
                                 {revolutionizingData.map((item, idx) => (
                                     <li
                                         key={idx}
-                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px]">
+                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight">
                                         {item}
                                     </li>
 
@@ -532,7 +533,7 @@ const EnablingDynamicSection = () => {
                         <Image
                             src="/images/industry/auto-industry/Mobile/enabling-dynamic-mob-img.webp"
                             alt="enabling-dynamic-img-mobile"
-                            className="h-auto max-w-full object-cover"
+                            className="h-auto w-full max-w-full object-cover"
                             width={0}
                             height={0}
                             priority
@@ -554,21 +555,21 @@ const EnablingDynamicSection = () => {
                 </div>
 
 
-                <div className="md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#A16B4D] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px] px-[35px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
+                <div className="md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#A16B4D] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px]  px-[40px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
                     <div className="max-md:absolute bottom-0">
                         <div className="max-md:pr-[36px]">
-                            <h2 className="text-white xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                            <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[689px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]   max-[380px]:w-[256px] font-light">
                                 Enabling Dynamic Pricing & Configuration
                             </h2>
-                            <h3 className="text-white font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[18px] xl:mt-[39px] w-[80%]">
+                            <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[38px]:text-[18px]   leading-tight mt-[18px] xl:mt-[39px] 2xl:w-[93%] xl:w-[80%] lg:w-[90%] ">
                                 Salesforce Revenue Cloud for CPQ
                             </h3>
 
-                            <ul className="list-disc pl-[22px] xl:mt-[30px] mt-[23px] xl:mb-[74px] mb:[42px]">
+                            <ul className="list-disc pl-[22px] xl:mt-[30px] mt-[23px] xl:mb-[74px] mb:[42px]  2xl:w-full xl:w-[95%] lg:w-[90%] ">
                                 {enablingDynamicData.map((data, idx) => (
                                     <li
                                         key={idx}
-                                        className="text-white first:mt-0 mt-[19px] xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                        className="text-white first:mt-0 mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px] leading-tight font-light"
                                     >
                                         {data}
                                     </li>
@@ -603,7 +604,7 @@ const DealerBuyerSection = () => {
                         <Image
                             src="/images/industry/auto-industry/Mobile/dealer-buyer-mob-img.webp"
                             alt="dealer-buyer-mob-img"
-                            className="block md:hidden h-full object-cover"
+                            className="block md:hidden h-full w-full object-cover"
                             width={0}
                             height={0}
                             priority
@@ -622,19 +623,19 @@ const DealerBuyerSection = () => {
 
 
                 <div className="w-full relative md:-mr-[180px] z-0 bg-[#3B4E59] flex flex-col md:pl-[30px] lg:pl-[50px] md:pr-[194px] lg:pr-[204px] px-[35px] xl:pt-[104px] md:pt-[54px] pb-0h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
-                    <div className="max-md:absolute max-md:bottom-0 pr-[36px]">
-                        <h2 className="text-[#FFFFFF] xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                    <div className="max-md:absolute max-md:bottom-0 pr-[36px] ">
+                        <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[734px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]  max-[350px]:w-[265px] font-light">
                             Dealer and Buyer Portal
                         </h2>
-                        <h3 className="text-[#FFFFFF] font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[19px] xl:mt-[28px]">
+                        <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]   leading-tight  2xl:w-[93%] xl:w-[88%] lg:w-[95%] mt-[19px] xl:mt-[28px]">
                             Salesforce Experience Cloud
                         </h3>
 
-                        <ul className="list-disc pl-[22px] 2xl:w-[70%] xl:mt-[40px] mt-[28px]">
+                        <ul className="list-disc pl-[22px]  2xl:w-[90%] xl:w-[90%] lg:w-[95%]   xl:mt-[40px] mt-[28px] ">
                             {enablingDynamicData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="text-[#FFFFFF] mt-[19px] first:mt-0  xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="text-[#FFFFFF] mt-[19px] first:mt-0  xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px] leading-tight xl:leading-[24px] font-light"
                                 >
                                     {data}
                                 </li>
@@ -675,7 +676,7 @@ const EmpoweringDealersSection = () => {
                         <Image
                             src="/images/industry/auto-industry/Mobile/empowering-dealers-mob-img.webp"
                             alt="empowering-dealers-mob-img"
-                            className="h-auto max-w-full object-cover"
+                            className="h-auto w-full object-cover"
                             width={0}
                             height={0}
                             priority
@@ -697,18 +698,18 @@ const EmpoweringDealersSection = () => {
                 <div className="md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#4087C7] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px] px-[35px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
                     <div className="max-md:absolute bottom-0">
                         <div className="max-md:pr-[36px]">
-                            <h2 className="text-white 2xl:text-[60px] xl:text-[54px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                            <h2 className="text-white  4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[670px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]  max-[350px]:w-[265px]  font-light">
                                 Empowering Dealers & Agents
                             </h2>
-                            <h3 className="text-white font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[18px] xl:mt-[39px] w-[80%] w-[80%]">
+                            <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[400px]:text-[18px]  max-[350px]:w-[256px] leading-tight  2xl:w-[717px] xl:w-full lg:w-[95%]  mt-[18px] xl:mt-[39px] w-[80%] ">
                                 Agentforce in Automotive Cloud
                             </h3>
 
-                            <ul className="list-disc pl-[22px] xl:mt-[40px] mt-[23px]">
-                                {enablingDynamicData.map((data, idx) => (
+                            <ul className="list-disc pl-[22px]  2xl:w-[90%] xl:w-[90%] lg:w-[95%] xl:mt-[40px] mt-[23px]">
+                                {enablingDynamicData.map((data, idx) => ( 
                                     <li
                                         key={idx}
-                                        className="text-white mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                        className="text-white mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px] leading-tight xl:leading-[24px] font-light"
                                     >
                                         {data}
                                     </li>
@@ -745,7 +746,7 @@ const UnlockingDataSection = () => {
                         <Image
                             src="/images/industry/auto-industry/Mobile/unlocking-data-mob-img.webp"
                             alt="unlocking-data-mob-img"
-                            className="block md:hidden h-full object-cover"
+                            className="block md:hidden h-full w-full object-cover"
                             width={0}
                             height={0}
                             priority
@@ -765,18 +766,18 @@ const UnlockingDataSection = () => {
                 <div className="w-full relative md:-mr-[180px] z-0 bg-[#3B4E59] flex flex-col md:pl-[30px] lg:pl-[50px] md:pr-[194px] lg:pr-[204px] px-[35px] xl:pt-[104px] md:pt-[54px] pb-0h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
                     <div className="max-md:absolute max-md:bottom-0 pr-[36px]">
 
-                        <h2 className="text-white xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[689px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]   font-light ">
                             Unlocking Data-Driven Success
                         </h2>
-                        <h3 className="text-white font-semibold xl:text-[42px] text-[20px] leading-[24px] xl:leading-[52px] mt-[18px] xl:mt-[39px]">
+                        <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]  max-[390px]:w-[256px] leading-tight  2xl:w-[689px] xl:w-full lg:w-[95%]   mt-[18px] xl:mt-[39px]">
                             Salesforce Data Cloud for Automotive
                         </h3>
 
-                        <ul className="list-disc pl-[22px] 2xl:w-[70%] mt-[23px] xl:mt-[38px]">
+                        <ul className="list-disc pl-[22px] 2xl:w-[90%] xl:w-[90%] lg:w-[95%] mt-[23px] xl:mt-[38px] ">
                             {unlockingData.map((data, idx) => (
                                 <li
                                     key={idx}
-                                    className="text-white mt-[19px] first:mt-0 xl:mt-[24px] xl:text-[20px] text-[16px] xl:leading-[24px] leading-[19px] font-light"
+                                    className="text-white mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px] xl:leading-[24px] leading-[19px] font-light"
                                 >
                                     {data}
                                 </li>
@@ -818,10 +819,10 @@ const IntegratingAutomativeSection = () => {
                     />
                 </div>
                 <div className="sm:mx-[100px] mx-[40px] absolute bottom-0 left-0 right-0 bg-[rgba(0,111,190,0.8)] px-[22px] pt-[32px]">
-                    <h2 className="text-[#FFFFFF] text-[26px] leading-[32px] font-light">
+                    <h2 className="text-[#FFFFFF] text-[26px] max-[350px]:text-[22px] leading-[32px] font-light">
                         Integrating the Automotive Stack
                     </h2>
-                    <h3 className="text-[#FFFFFF] text-[22px] font-semibold mt-[16px] leading-[27px] w-[90%]">
+                    <h3 className="text-[#FFFFFF] text-[22px] max-[350px]:text-[18px]  font-semibold mt-[16px] leading-[27px] w-[90%]">
                         SAP CPI and BTP Expertise
                     </h3>
 
@@ -836,7 +837,7 @@ const IntegratingAutomativeSection = () => {
                         ))}
                     </ul>
 
-                    <div className="mt-[41px]">
+                    <div className="mt-[51px]">
                         <LearnMore />
                     </div>
                 </div>
@@ -856,7 +857,7 @@ const IntegratingAutomativeSection = () => {
 
             <div className="hidden md:flex absolute inset-0 items-start justify-start">
                 <div className="custom-container">
-                    <div className="relative 2xl:w-[60%] w-[55%] xl:w-[66%]">
+                    <div className="relative 2xl:w-[61%] w-[55%] xl:w-[56%] ">
                         <div
                             className="absolute inset-0 z-0 pointer-events-none"
                             style={{
@@ -864,19 +865,19 @@ const IntegratingAutomativeSection = () => {
                                 borderRadius: "inherit",
                             }}
                         />
-                        <div className="relative z-10 xl:pt-[70px] pt-[32px] xl:pb-[55px] pb-[27px] px-[26px] xl:px-[61px]">
-                            <h2 className="text-[#FFFFFF] xl:text-[54px] 2xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px] font-light">
+                        <div className="relative z-10 xl:pt-[70px] pt-[32px] xl:pb-[55px] pb-[27px] px-[26px] xl:px-[61px] ">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[689px]  2xl:w-[670px] xl:w-[400px] lg:w-[500px] md:w-[350px]   font-light">
                                 Integrating the Automotive Stack
                             </h2>
-                            <h3 className="text-[#FFFFFF] xl:text-[42px] text-[22px] font-semibold xl:mt-[38px] mt-[16px] leading-[27px] xl:leading-[52px]">
+                            <h3 className="text-[#FFFFFF] 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]  max-[390px]:w-[256px] leading-tight  2xl:w-[689px] xl:w-[500px] lg:w-[95%]    font-semibold xl:mt-[38px] mt-[16px]  xl:leading-[52px]">
                                 SAP CPI and BTP Expertise
                             </h3>
 
-                            <ul className="list-disc pl-[22px] text-[#FFFFFF] xl:mt-[40px] mt-[16px]">
+                            <ul className="list-disc pl-[22px] text-[#FFFFFF] xl:mt-[40px] mt-[16px] 4xl:w-[85%] 2xl:w-[89%] xl:w-[90%] lg:w-[95%] ">
                                 {integratingAutomativeData.map((element, index) => (
                                     <li
                                         key={index}
-                                        className="mt-[19px] first:mt-0 xl:text-[20px] text-[15px] xl:leading-[24px] leading-[19px] font-light"
+                                        className="mt-[19px] first:mt-0 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px]  leading-tight font-light"
                                     >
                                         {element}
                                     </li>
@@ -914,10 +915,10 @@ const PartenringPowerSection = () => {
                     />
                 </div>
                 <div className="sm:mx-[100px] mx-[40px] absolute bottom-0 left-0 right-0 bg-[rgba(255,255,255,0.8)] px-[14px] pt-[32px] z-10">
-                    <h2 className="text-[#000000] text-[26px] leading-[32px]">
+                    <h2 className="text-[#000000] text-[26px] max-[350px]:text-[22px]  leading-[32px]">
                         Rialtes Partnering Power
                     </h2>
-                    <h3 className="text-[#0B0B0B] text-[22px] font-semibold xl:mt-[18px] mt-[16px] leading-[27px]">
+                    <h3 className="text-[#0B0B0B] text-[22px]  max-[350px]:text-[18px] font-semibold xl:mt-[18px] mt-[16px] leading-[27px]">
                         SAP and Salesforce Expertise in One
                     </h3>
                     <p className="text-[#000000] text-[16px] mt-[16px] leading-[19px] font-normal">
@@ -953,18 +954,18 @@ const PartenringPowerSection = () => {
                         <div className="custom-container w-full h-full flex items-start justify-end">
 
                             <div className="relative bg-white h-full xl:pt-[66px] pt-[32px] px-[26px] xl:px-[61px] md:w-[55%] w-full">
-                                <h2 className="text-[#000000] xl:text-[56px] 2xl:text-[58px] text-[26px] leading-[32px] xl:leading-[73px]">
+                                <h2 className="text-[#000000] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[624px]  2xl:w-[670px] xl:w-[400px] lg:w-[380px] md:w-[350px]   font-light  ">
                                     Rialtes Partnering Power
                                 </h2>
-                                <h3 className="text-[#0B0B0B] xl:text-[42px] text-[22px] font-semibold xl:mt-[18px] mt-[16px] leading-[27px] xl:leading-[52px]">
+                                <h3 className="text-[#0B0B0B] 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]  max-[390px]:w-[256px] leading-tight  4xl:w-[614px] 2xl:w-[570px] xl:w-[405px] lg:w-[77%] font-semibold xl:mt-[18px] mt-[16px]  ">
                                     SAP and Salesforce Expertise in One
                                 </h3>
-                                <p className="text-[#000000] xl:text-[20px] text-[20px] font-light xl:mt-[11px] mt-[16px] leading-[27px] xl:leading-[24px]">
+                                <p className="text-[#000000] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px] leading-tight font-normal xl:mt-[11px] mt-[16px]  xl:leading-[24px]">
                                     With deep alliances with SAP and Salesforce, Rialtes delivers the most comprehensive, agile, and future-ready automotive solutions on the market. Our experts hold certifications in:
                                 </p>
                                 <ul className="list-disc pl-[22px] text-[#000000] xl:mt-[26px] mt-[16px]">
                                     {partenringPowerData.map((element, index) => (
-                                        <li key={index} className="mt-[19px] xl:text-[20px] text-[15px] xl:leading-[24px] leading-[19px]">
+                                        <li key={index} className="mt-[19px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px]  xl:leading-[24px] leading-[19px]">
                                             {element}
                                         </li>
                                     ))}
@@ -1005,7 +1006,7 @@ const RelatedSolutionsSection = () => {
           md:bg-[url('/images/industry/auto-industry/related-solutions-img.webp')] md:bg-cover md:bg-center
         `}
             >
-                <h2 className="xl:text-[60px] text-[26px] font-light leading-[32px] xl:leading-[73px] text-[#FFFFFF]">
+                <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight font-light   text-[#FFFFFF]">
                     Related Solutions
                 </h2>
 
@@ -1020,7 +1021,7 @@ const RelatedSolutionsSection = () => {
                         if (index === 0) {
                             paddingClass = 'xl:pr-0'; // 1st grid: only right padding
                         } else {
-                            paddingClass = 'xl:px-[40px]'; // Others: left + right
+                            paddingClass = 'xl:px-[30px]'; // Others: left + right
                         }
 
                         return (
@@ -1034,10 +1035,10 @@ const RelatedSolutionsSection = () => {
     `}
                             >
                                 <div className="flex flex-col flex-1 xl:min-h-[300px]">
-                                    <h4 className="text-white xl:text-[30px] text-[18px] xl:font-semibold font-medium leading-[24px] xl:leading-[37px]">
+                                    <h4 className="text-white 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px]  text-[18px] xl:font-semibold font-medium leading-tight">
                                         {item.title}
                                     </h4>
-                                    <p className="text-white xl:text-[20px] text-[16px] font-light leading-[19px] xl:leading-[24px] xl:mt-[18px] mt-[18px] xl:w-[80%]">
+                                    <p className="text-white 2xl:text-[20px] xl:text-[16px] lg:text-[16px] font-light leading-[19px] xl:leading-[24px] xl:mt-[18px] mt-[18px] ">
                                         {item.desc}
                                     </p>
 
@@ -1063,15 +1064,58 @@ export default function page() {
     return (
         <>
             {/* hero section */}
-            <HeroSection title="Driving Digital Transformation from Showroom to Service Bay" subtitle="Automotive Industry Solutions" mobimg="/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp" deskimg="/images/industry/auto-industry/auto-industry-banner.webp" />
+            {/* <HeroSection title="Driving Digital Transformation from Showroom to Service Bay" subtitle="Automotive Industry Solutions" mobimg="/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp" deskimg="/images/industry/auto-industry/auto-industry-banner.webp" /> */}
+             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+                             {/* Desktop Image */}
+                             <div className="hidden md:block">
+                                 <Image
+                                     src="/images/industry/auto-industry/auto-industry-banner.webp"
+                                     alt="desktop banner"
+                                     fill
+                                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                                     priority
+                                     className="transform transition-transform duration-500 group-hover:scale-110"
+                                 />
+                             </div>
+             
+                             {/* Mobile Image */}
+                             <div className="block md:hidden">
+                                 <Image
+                                     src="/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp"
+                                     alt="mobile banner"
+                                     fill
+                                     priority
+                                 />
+                             </div>
+             
+                             <div className="relative h-full custom-container flex items-center">
+                                 <div className="grid grid-cols-1 lg:grid-cols-12 ">
+                                     <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white">
+                                         <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px]  font-bold pr-[60px]">
+                                            Automotive Industry Solutions
+                                         </h3>
+                                         <h1 className="text-[24px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] 4xl:w-[549px] 2xl:w-[520px] xl:w-[450px] lg:w-[430px] md:w-[334px] w-[198px] "  >
+                                          Driving Digital Transformation from Showroom to Service Bay
+                                         </h1>
+             
+                                       
+             
+                                     </div>
+             
+                                     <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+
 
             {/* powering next gen section */}
 
             <section className="custom-container xl:mt-[112px] mt-[62px]">
-                <h2 className="xl:text-[60px] text-[26px] font-Light leading-[32px] xl:leading-[73px] xl:w-[95%] 2xl:w-[86%]">Powering the Next-Generation Automotive Ecosystem with Rialtes</h2>
+                <h2 className="4xl:text-[60px] 2xl:text-[58px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px] max-[400px]:text-[22px]  leading-tight xl:w-[69%] 2xl:w-[85%] lg:w-[77%] font-light">Powering the Next-Generation Automotive Ecosystem with Rialtes</h2>
                 <div className="mt-[22px] xl:mt-[48px]">
-                    <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] xl:w-[78%] w-[96%]">The automotive industry is in the midst of a seismic shift — from traditional dealer-centric models to a connected, customer-first mobility ecosystem. OEMs, dealers, and suppliers are challenged to deliver seamless omnichannel experiences, manage complex vehicle lifecycles, and foster brand loyalty in a hyper-competitive market.</p>
-                    <p className="xl:text-[22px] text-[16px] font-normal leading-[19px] xl:leading-[30px] mt-[22px] xl:mt[48px] xl:w-[78%] w-[96%]"> Rialtes partners with leading automotive brands to navigate these disruptions, combining deep domain expertise with cutting-edge technologies like SAP, Salesforce Automotive Cloud, Marketing Cloud, Revenue Cloud, and more. With offices in the U.S., Canada, India, and Singapore, and certified automotive solution experts, we deliver end-to-end digital transformation — from lead capture to warranty service and beyond.</p>
+                    <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[16px]   text-[16px] font-normal lg:w-[78%] w-[96%]">The automotive industry is in the midst of a seismic shift — from traditional dealer-centric models to a connected, customer-first mobility ecosystem. OEMs, dealers, and suppliers are challenged to deliver seamless omnichannel experiences, manage complex vehicle lifecycles, and foster brand loyalty in a hyper-competitive market.</p>
+                    <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[16px]   text-[16px] font-normal  mt-[22px] xl:mt[48px] lg:w-[78%] w-[96%]"> Rialtes partners with leading automotive brands to navigate these disruptions, combining deep domain expertise with cutting-edge technologies like SAP, Salesforce Automotive Cloud, Marketing Cloud, Revenue Cloud, and more. With offices in the U.S., Canada, India, and Singapore, and certified automotive solution experts, we deliver end-to-end digital transformation — from lead capture to warranty service and beyond.</p>
                 </div>
             </section>
 
@@ -1095,7 +1139,7 @@ export default function page() {
             <div
                 className="custom-container pb-10"
             >
-                <ContactForm title={'Ready to Transform Your Automotive Customer Experience?'} className={"max-w-[66rem] xl:font-normal xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px] mt-[52px] xl:mt-[89px]"} />
+                <ContactForm title={'Ready to Transform Your Automotive Customer Experience?'} className={"max-w-[66rem] xl:font-normal 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
             </div >
         </>
     )
