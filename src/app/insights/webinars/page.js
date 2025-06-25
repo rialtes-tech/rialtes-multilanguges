@@ -30,8 +30,6 @@ const schemaData = {
 
 const webinars = [
 
-
-
   // {
   //   id: 2,
   //   title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
@@ -45,24 +43,33 @@ const webinars = [
   //   backgroundImage: "/images/webinar/rise.webp",
   //   url: 'insights/webinars/rise-with-sap-transformation-rialtes'
   // },
-  {
-    id: 3,
-    title: "CIG, Your Gateway to SAP Ariba",
-    date: "10 June, 2025",
-    time: "10:00 AM CST",
-    speaker: {
-      name: "Sapna Chauhan",
-      role: "Software Engineer - SAP",
-      image: "/images/webinar/sapna-chauhan.webp",
-    },
-    backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
-  },
-
+  // {
+  //   id: 3,
+  //   title: "CIG, Your Gateway to SAP Ariba",
+  //   date: "10 June, 2025",
+  //   time: "10:00 AM CST",
+  //   speaker: {
+  //     name: "Sapna Chauhan",
+  //     role: "Software Engineer - SAP",
+  //     image: "/images/webinar/sapna-chauhan.webp",
+  //   },
+  //   backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+  //   url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
+  // },
 
 ];
 
 const allWebinars = [
+   {
+    id: 5,
+    title: "CIG, Your Gateway to SAP Ariba",
+    date: "10 June, 2025",
+    time: "10:00 AM CST",
+      speaker: "Sapna Chauhan",
+      position: "Software Engineer - SAP",
+    image: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
+  },
   {
     id: 4,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
@@ -273,7 +280,6 @@ export default function About() {
   };
 
   const hasNextSlide = currentIndex < webinars.length - 1;
-
   return (
     <div className="min-h-screen">
       <Seo
@@ -285,7 +291,7 @@ export default function About() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">-
         <Image
           src="/images/webinar/webinar-header.webp"
           alt="Webinar Header"
@@ -309,6 +315,7 @@ export default function About() {
       <div
         className="custom-container xl:!pr-0"
       >
+        {webinars.length > 0 && (
         <section className="py-16 bg-white">
           <div>
             <h2 className="xl:text-[28px]  font-medium">Deep Dive with Experts-Led Webinars Curated to Drive Results</h2>
@@ -507,6 +514,8 @@ export default function About() {
             </div>
           </div>
         </section>
+          
+)}
         <div>
         
         </div>
@@ -556,7 +565,7 @@ export default function About() {
                       </div>
                     </div>
 
-                    <div className="p-8 flex flex-col flex-grow items-start gap-2">
+                    <div className="p-8 flex flex-col flex-grow items-start gap-2 ">
                       <h3 className="text-[#134874] mb-2  pr-8 xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
 
                       <div className="text-sm text-gray-600 mb-3">
@@ -593,8 +602,6 @@ export default function About() {
             )}
           </section>
 </div>
-
-
     </div>
   );
 }
