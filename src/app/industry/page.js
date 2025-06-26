@@ -34,10 +34,10 @@ export default function Industry() {
     },
     {
       id: 4,
-      image: "/images/industry/hi-tech.webp",
-      title: "Hi-Tech",
+      image: "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+      title: "Semiconductor",
       description: "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
-      knowMore: '/industry/hitech-semiconductor'
+      knowMore: '/industry/hitech-semiconductor-ai-it-solutions'
 
     },
 

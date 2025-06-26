@@ -228,7 +228,7 @@ const Header = () => {
           ],
         },
         {
-          label: 'Hi-Tech', href: '/industry/hitech-semiconductor',
+          label: 'Semiconductor', href: '/industry/hitech-semiconductor-ai-it-solutions',
         },
         {
           label: 'Manufacturing', href: '/industry/manufacturing-cloud-erp',
@@ -1171,7 +1171,7 @@ const Header = () => {
                     className={`cursor-pointer mt-3 font-bold ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClick("hiTech")}
                   >
-                    Hi-Tech
+                    Semiconductor
                   </div>
                   <div
                     className={`cursor-pointer mt-3 font-bold ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
@@ -1320,7 +1320,7 @@ const Header = () => {
                         <div className="font-bold mt-5">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                         <p className="mt-3">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/hitech-semiconductor' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor")}
+                          <Link href='/industry/hitech-semiconductor-ai-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>

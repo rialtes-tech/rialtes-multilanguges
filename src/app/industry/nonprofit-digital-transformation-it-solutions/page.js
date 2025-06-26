@@ -776,8 +776,6 @@ export default function retailPage() {
                         </div>
                     </div>
                 </div>
-
-
             </section>
 
             {/* Contact Form */}
