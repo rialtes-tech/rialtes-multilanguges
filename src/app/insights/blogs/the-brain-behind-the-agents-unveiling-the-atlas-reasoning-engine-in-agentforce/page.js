@@ -181,7 +181,7 @@ export default function Page() {
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
-          src="https://rialtes.netlify.app/images/blog/atlas-reasoning-engine-agentforce.jpg"
+          src="https://rialtes.com/images/blog/atlas-reasoning-engine-agentforce.jpg"
           alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
           fill
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}

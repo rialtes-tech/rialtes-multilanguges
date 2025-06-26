@@ -87,8 +87,8 @@ const CriticalChallengesSection = () => {
 
             <div className="custom-container">
                 <div className="grid md:grid-cols-12 grid-cols-1">
-                    <div className="3xl:col-span-10 lg:col-span-7 xl:col-span-12 md:col-span-9 col-span-12">
-                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                    <div className="4xl:col-span-10 lg:col-span-9 2xl:col-span-7 md:col-span-9 col-span-12">
+                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                             Top 4 Critical Challenges Facing the Medical Device Industry Today
                         </h2>
                     </div>
@@ -119,10 +119,10 @@ const CriticalChallengesSection = () => {
 
                             {/* Text Content */}
                             <div className="order-3">
-                                <h2 className="xl:text-[42px] text-[28px] xl:font-bold font-medium mb-6 lg:mt-[46px] mt-[36px] leading-tight sm:w-[80%] lg:w-full">
+                                <h2 className="xl:w-[90%] 4xl:text-[42px] xl:text-[33px] text-[28px] xl:font-bold font-medium mb-6 lg:mt-[46px] mt-[36px] leading-tight sm:w-[80%] lg:w-full">
                                     {challenge.title}
                                 </h2>
-                                <ul className="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] lg:mt-[46px] mt-[25px]">
+                                <ul className="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] lg:mt-[46px]  leading-tight mt-[25px]">
                                     {challenge.points.map((point, i) => (
                                         <li key={i}>{point}</li>
                                     ))}
@@ -150,13 +150,14 @@ const CriticalChallengesSection = () => {
         </section>
     )
 }
+
+
 export default function Page() {
     return (
         <div className="bg-white">
             <Seo
                 title="Salesforce-Powered IT Solutions for Medical Device Companies | Rialtes"
-                description="Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage.
-"
+                description="Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage."
                 canonical="https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
             />
   <script
@@ -164,24 +165,54 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-            <HeroSection title="Transforming Medical Device Innovation & Compliance" subtitle="Medical Devices" h3title="Rialtes Life Sciences & Medical Devices Solutions" deskimg="/images/medical/Medical device banner.webp" mobimg="/images/medical/medical-header.webp" />
+        <section className="relative  h-[400px] lg:h-[650px]">
+                <div className="md:block hidden">
+                    <Image
+                        src="/images/medical/Medical device banner.webp"
+                        alt="Transforming Medical Device img"
+                        fill
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
+                </div>
+                <div className="md:hidden block">
+                    <Image
+                        src="/images/medical/medical-header.webp"
+                        alt="Transforming Medical Device img"
+                        fill
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
+                </div>
+                <div  className="h-full relative custom-container">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20 xl:mt-20">
+                        <div className="4xl:col-span-7 xl:col-span-6 col-span-12 sm:pr-5">
+                            <h3 className="text-white xl:text-[24px] text-[18px] leading-tight font-bold xl:mb-2 mb-5 xl:mt-32 mt-20">Medical Devices</h3>
+                            <h1 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+                                Transforming Medical Device Innovation & Compliance
+                            </h1>
+                            <h3 className="4xl:text-[45px] xl:text-[33px] md:text-[18px] mt-5 text-white font-bold leading-tight pr-16 xl:pr-0">Rialtes Life Sciences & Medical Devices Solutions</h3>
 
+                        </div>
+                        <div className="xl:col-span-6 col-span-12">
+                        </div>
+                    </div>
 
-            <section
-                className="xl:mt-10 mt-4 custom-container"
-            >
+                </div>
+            </section>
+
+        <section className="xl:mt-10 mt-4 custom-container">
 
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-10 col-span-12 leading-tight font-medium">
-                        <p className="xl:text-[22px] text-[16px] mt-10"> In today’s fast-evolving Medical Device industry, companies are under immense pressure to innovate faster, improve patient outcomes, ensure regulatory compliance, and manage complex global supply chains. At Rialtes, we bring deep domain expertise in Medical Devices, SAP S/4 HANA, Salesforce Life Sciences Cloud, and AI-driven solutions to deliver end-to-end consulting, advisory, implementation, integration, and post-go-live services that help medical device companies accelerate their growth while staying compliant and patient-centric.</p>
-                        <p className="xl:text-[22px] text-[16px] mt-5"> With offices in the United States, Canada, India, and Singapore, Rialtes operates as a global partner equipped to solve real-world challenges with next-generation digital solutions.</p>
+                        <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-10"> In today’s fast-evolving Medical Device industry, companies are under immense pressure to innovate faster, improve patient outcomes, ensure regulatory compliance, and manage complex global supply chains. At Rialtes, we bring deep domain expertise in Medical Devices, SAP S/4 HANA, Salesforce Life Sciences Cloud, and AI-driven solutions to deliver end-to-end consulting, advisory, implementation, integration, and post-go-live services that help medical device companies accelerate their growth while staying compliant and patient-centric.</p>
+                        <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-5"> With offices in the United States, Canada, India, and Singapore, Rialtes operates as a global partner equipped to solve real-world challenges with next-generation digital solutions.</p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
                     </div>
                 </div>
             </section>
-
-
             {/* thought leadership section */}
             <section className="relative group overflow-hidden xl:h-[1000px] 2xl:h-[960px] lg:h-[700px] md:h-[650px] sm:h-[850px] h-[900px] xl:mt-24 mt-16 text-white">
                 {/* Desktop Image */}
@@ -210,14 +241,14 @@ export default function Page() {
                 <div className="custom-container absolute md:mt-[86px] lg:mt-[106px] max-md:bottom-[52px] md:bottom-auto">
                     <div className="grid md:grid-cols-12 grid-cols-1">
                         <div className="md:col-span-7 2xl:col-span-6 col-span-12">
-                            <h2 className="xl:text-[60px] text-[26px] xl:mt-10 mt-5">Thought Leadership:</h2>
-                            <h3 className="xl:text-[42px] text-[22px] xl:mt-5 mt-3 font-bold leading-tight xl:w-[90%]">
+                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mt-10 mt-5">Thought Leadership:</h2>
+                            <h3 className="4xl:text-[42px] xl:text-[35px] text-[22px] xl:mt-5 mt-3 font-bold leading-tight xl:w-[90%]">
                                 Helping Medical Device Companies Move from Compliance to Competitive Advantage
                             </h3>
-                            <p className="xl:text-[22px] text-[16px] mt-5 leading-tight">
+                            <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mt-5 leading-tight">
                                 Rialtes focuses on bringing together strategy, technology, and patient-centric design, helping Medical Device companies:
                             </p>
-                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 leading-tight">
+                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] mt-5 leading-tight">
                                 <li>Deliver compliant and seamless patient journeys from device prescription to outcome tracking.</li>
                                 <li>Integrate clinical, supply chain, and sales operations into a unified digital ecosystem.</li>
                                 <li>Leverage AI for proactive monitoring, predictive maintenance, and improved device performance.</li>
@@ -233,7 +264,7 @@ export default function Page() {
                 <div className="lg:block hidden">
                     <Image
                         src="/images/medical/why-rialtes.webp"
-                        alt=""
+                        alt="partner with rialtes img"
                         fill
                         style={{ objectFit: "cover", objectPosition: "65% 20%" }}
                         priority
@@ -242,7 +273,7 @@ export default function Page() {
                 <div className="lg:hidden block">
                     <Image
                         src="/images/medical/why-rialtes-medical.webp"
-                        alt=""
+                        alt="partner with rialtes img"
                         priority
                         className="object-cover sm:object-[35%_50%] md:object-[35%_70%] object-[20%_50%]"
                         fill
@@ -250,10 +281,10 @@ export default function Page() {
                 </div>
 
                 <div className="custom-container">
-                    <div className="relative p-6 md:p-12 lg:w-[828px] lg:h-[350px]">
+                    <div className="relative p-6 md:p-12 4xl:w-[690px] 4xl:h-[430px] xl:w-[520px] xl:h-[367px]">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg ">
-                            <h2 className="xl:text-[60px] text-[26px] leading-tight">Why Partner with Rialtes for Medical Device Transformation</h2>
+                            <h2 className="4xl:text-[60px] xl:text-[42px] text-[26px] leading-tight">Why Partner with Rialtes for Medical Device Transformation</h2>
                         </div>
                     </div>
                 </div>
@@ -281,7 +312,7 @@ export default function Page() {
                             },
                         ].map((item, index) => (
                             <div key={index} className="bg-white xl:p-12 p-[40px] border-[1px] border-solid border-[#707070] hover:bg-[#D9F2FF] text-black sm:mx-auto sm:w-[80%] md:w-full">
-                                <h3 className="xl:text-[24px] text-[20px] font-bold leading-tight">{item.title}</h3>
+                                <h3 className="4xl:text-[24px] xl:text-[22px] text-[20px] font-bold leading-tight">{item.title}</h3>
                             </div>
                         ))}
                     </div>
@@ -321,17 +352,17 @@ export default function Page() {
                     className="text-white custom-container h-full relative"
                 >
                     <div className="grid grid-cols-12">
-                        <div className="2xl:col-span-10 xl:col-span-12 lg:col-span-11 sm:col-span-11 col-span-12 xl:mt-[106px] mt-[52px]">
-                            <h2 className="xl:text-[60px] text-[26px] leading-tight">End-to-End Expertise in Salesforce Life Sciences Cloud & SAP S/4 HANA for Medical Devices</h2>
+                        <div className="4xl:col-span-10 2xl:col-span-7 xl:col-span-8 lg:col-span-11 sm:col-span-11 col-span-12 xl:mt-[106px] mt-[52px]">
+                            <h2 className="leading-tight  4xl:text-[60px] xl:text-[42px] text-[26px]">End-to-End Expertise in Salesforce Life Sciences Cloud & SAP S/4 HANA for Medical Devices</h2>
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-20 pt-10">
 
                         <div className="xl:col-span-5 col-span-12">
-                            <h3 className="xl:text-[40px] text-[28px] font-bold leading-tight">Salesforce Life Sciences Cloud </h3>
-                            <h2 className="xl:text-[35px] text-[22px] leading-tight mt-5 font-medium xl:font-normal">Powering Patient and Provider Journeys</h2>
+                            <h3 className="4xl:text-[40px] xl:text-[33px] text-[28px] font-bold leading-tight">Salesforce Life Sciences Cloud </h3>
+                            <h2 className="4xl:text-[35px] xl:text-[25px] text-[22px] leading-tight mt-5 font-medium xl:font-normal">Powering Patient and Provider Journeys</h2>
 
-                            <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-5 ">
+                            <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-10 mt-5 ">
                                 <li >360° view of patient, provider, and care team interactions.</li>
                                 <li >Clinical trial management integrated with patient support programs.</li>
                                 <li>Real-time complaints and adverse event management.</li>
@@ -342,9 +373,9 @@ export default function Page() {
                         <div className="xl:col-span-2 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12 mt-[72px] xl:mt-0">
-                            <h3 className="xl:text-[40px] text-[28px] font-bold leading-tight">SAP S/4 HANA for Medical Devices </h3>
-                            <h2 className="xl:text-[35px] text-[22px] leading-tight mt-5 font-medium xl:font-normal"> Operational & Financial Backbone</h2>
-                            <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] xl:mt-10 text-[16px] mt-5">
+                            <h3 className="4xl:text-[40px]  xl:text-[33px] text-[28px] font-bold leading-tight">SAP S/4 HANA for Medical Devices </h3>
+                            <h2 className="4xl:text-[35px] xl:text-[25px] text-[22px] leading-tight mt-5 font-medium xl:font-normal"> Operational & Financial Backbone</h2>
+                            <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5  xl:mt-10  mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                                 <li >Manufacturing and batch production control.</li>
                                 <li >Serialized inventory and global traceability.</li>
                                 <li>Integrated quality management and regulatory documentation.</li>
@@ -366,10 +397,10 @@ export default function Page() {
                 className="xl:mt-[136px] mt-[56px] custom-container h-full relative">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="3xl:col-span-8 lg:col-span-10 col-span-12">
-                        <h2 className="xl:text-[60px] text-[26px] leading-tight">
+                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                             AI-Powered Transformation
                         </h2>
-                        <h3 className="xl:text-[40px] text-[22px] font-bold xl:mt-[35px] mt-[22px]">Driving Innovation in Medical Devices</h3>
+                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] font-bold xl:mt-[35px] mt-[22px]">Driving Innovation in Medical Devices</h3>
                     </div>
 
                 </div>
@@ -405,8 +436,8 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12">
                         </div>
                         <div className="lg:col-span-6 lg:order-2 col-span-12 lg:mt-[92px] lg:mb-[123px] mt-[57px] mb-[95px] lg:mx-[61px] mx-[36px]">
-                            <h3 className="xl:text-[40px] text-[22px] font-bold">Key AI Impact Areas:</h3>
-                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5">
+                            <h3 className="4xl:text-[40px] xl:text-[32px] text-[22px] leading-tight font-bold">Key AI Impact Areas:</h3>
+                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-5">
                                 <li>AI-driven patient monitoring for real-time risk alerts.</li>
                                 <li> Personalized recommendations for device adjustments or upgrades.</li>
                                 <li> AI-powered analytics for regulatory submissions.</li>
@@ -446,8 +477,8 @@ export default function Page() {
 
                     <div className="grid lg:grid-cols-12 grid-cols-1 relative">
                         <div className="lg:col-span-7 col-span-12 lg:mt-[92px] lg:mb-[83px] mt-[57px] mb-[95px] lg:mx-[61px] mx-[36px]">
-                            <h3 className="xl:text-[40px] text-[22px] font-bold">Benefits of AI in Medical Devices:</h3>
-                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5">
+                            <h3 className="4xl:text-[40px] xl:text-[32px] text-[22px] leading-tight font-bold">Benefits of AI in Medical Devices:</h3>
+                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-5">
                                 <li>Enhance early risk detection and patient safety.</li>
                                 <li> Improve device reliability and performance with predictive insights.</li>
                                 <li> Streamline regulatory compliance and reporting. </li>
@@ -489,13 +520,14 @@ export default function Page() {
                     </div>
 
                     <div className="lg:col-span-7 2xl:col-span-6 col-span-12 order-2 lg:order-1">
-                        <h2 className="2xl:text-[60px] xl:text-[50px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">
                             Patient Trial & Outcome Management
                         </h2>
-                        <h3 className="xl:text-[40px] text-[22px] font-bold leading-tight">
+                        <div className="xl:pr-12 pr-0">
+                        <h3 className="4xl:text-[40px] xl:text-[33px] text-[22px] font-bold leading-tight">
                             Connecting Patients, Providers, and Data
                         </h3>
-                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 text-[16px]">
+                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">
                             <li>
                                 Integrated Salesforce Life Sciences Cloud for trial participant
                                 tracking, engagement, and compliance.
@@ -512,10 +544,12 @@ export default function Page() {
                                 Data pipelines from trial data to regulatory submission readiness.
                             </li>
                         </ul>
-                        <p className="xl:text-[26px] text-[18px] xl:mt-[68px] mt-[50px] bg-[#0E3157] p-[24px] lg:p-[40px] text-white leading-tight">
+                        
+                        <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[68px] mt-[50px] bg-[#0E3157] p-[24px] lg:p-[40px] text-white leading-tight w-[94%]">
                             Patient outcomes drive product innovation — Rialtes makes that
                             connection seamless.
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -536,9 +570,9 @@ export default function Page() {
                             priority
                         />
                     </div>
-                    <div className="lg:col-span-6 col-span-12">
-                        <h2 className="xl:text-[50px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">Integrated Order Management with SAP & Oracle ERP</h2>
-                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] leading-tight text-[16px] xl:mt-5">
+                    <div className="lg:col-span-6 col-span-12 xl:pl-[55px]">
+                        <h2 className="4xl:text-[50px] xl:text-[39px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">Integrated Order Management with SAP & Oracle ERP</h2>
+                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-5">
                             <li>Unified view of orders, inventory, and fulfillment.</li>
                             <li> Automated compliance checks and documentation.</li>
                             <li>  Integration with Salesforce for real-time sales and field service updates. </li>
@@ -548,7 +582,7 @@ export default function Page() {
                     </div>
 
                 </div>
-                <p className="xl:text-[26px] text-[18px] bg-[#0E3157] xl:py-10  text-white xl:mt-[63px] mt-[35px] p-[24px] 2xl:mr-[40px]">From manufacturing to delivery — Rialtes keeps the supply chain connected and compliant.</p>
+                <p className="4xl:text-[26px] xl:text-[22px] text-[18px]  bg-[#0E3157] xl:py-10  text-white xl:mt-[63px] mt-[35px] p-[24px] 2xl:mr-[40px]">From manufacturing to delivery — Rialtes keeps the supply chain connected and compliant.</p>
 
             </div>
 
@@ -560,7 +594,7 @@ export default function Page() {
                         <div className="relative">
                             <Image
                                 src="/images/medical/Mobile Apps.webp"
-                                alt=""
+                                alt=" Mobile Apps img"
                                 priority
                                 height={0}
                                 width={0}
@@ -568,16 +602,16 @@ export default function Page() {
                             />
                         </div>
 
-                        <h2 className="mt-10 xl:text-[50px] text-[26px] leading-tight">Mobile Apps for Patient-Reported Outcomes</h2>
-                        <h3 className="xl:text-[40px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">Empowering Real-Time Patient Feedback</h3>
+                        <h2 className="mt-10 4xl:text-[50px] xl:text-[40px] text-[26px] leading-tight">Mobile Apps for Patient-Reported Outcomes</h2>
+                        <h3 className="4xl:text-[38px] xl:text-[30px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">Empowering Real-Time Patient Feedback</h3>
 
-                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 leading-tight">
+                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 leading-tight">
                             <li>Self-service portals for monitoring device usage.</li>
                             <li> AI-driven insights based on patient-reported data.</li>
                             <li>Real-time alerts for device malfunctions or patient needs.</li>
                             <li>Integration with field service teams for rapid response.</li>
                         </ul>
-                        <p className="bg-[#068EDA] text-white xl:text-[26px] xl:p-[40px] p-[24px] text-[18px] xl:mt-[56px] mt-[38px] leading-tight">Putting power in the hands of patients for better outcomes and safer devices.</p>
+                        <p className="bg-[#068EDA] text-white 4xl:text-[26px] xl:text-[19px] text-[18px] p-[24px] xl:p-[30px] 4xl:p-[40px]  xl:mt-[56px] mt-[38px] leading-tight">Putting power in the hands of patients for better outcomes and safer devices.</p>
 
                     </div>
 
@@ -585,22 +619,22 @@ export default function Page() {
                         <div className="relative">
                             <Image
                                 src="/images/medical/Remote Device Monitoring.webp"
-                                alt=""
+                                alt="Remote Device img"
                                 priority
                                 height={0}
                                 width={0}
                                 className="h-full w-full transform transition-transform duration-500 group-hover:scale-110"
                             />
                         </div>
-                        <h2 className="mt-10 xl:text-[47px] text-[26px] leading-tight">Remote Device Monitoring</h2>
-                        <h3 className="xl:text-[40px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">Delivering Real-Time Device Insights</h3>
-                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5">
+                        <h2 className="mt-10 4xl:text-[47px] xl:text-[38px] text-[26px] leading-tight">Remote Device Monitoring</h2>
+                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">Delivering Real-Time Device Insights</h3>
+                        <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                             <li>IoT-enabled device connectivity.</li>
                             <li>Predictive maintenance alerts for early intervention.</li>
                             <li>Usage pattern analysis to improve device design.</li>
                             <li>Compliance-ready data collection and reporting.</li>
                         </ul>
-                        <p className="bg-[#068EDA] text-white xl:text-[26px] text-[18px] xl:p-[40px] p-[24px] xl:mt-[62px] mt-[38px]">Better data, better devices, better patient lives.</p>
+                        <p className="bg-[#068EDA] text-white 4xl:text-[26px] xl:text-[19px] text-[18px]  p-[24px] xl:p-[30px] 4xl:p-[40px]  xl:mt-[62px] mt-[38px] leading-tight">Better data, better devices, better patient lives.</p>
                     </div>
                 </div>
             </div>
@@ -613,7 +647,7 @@ export default function Page() {
                         <div className="lg:block hidden">
                             <Image
                                 src="/images/medical/Agentforce.webp"
-                                alt=""
+                                alt="salesforce agentforce img"
                                 priority
                                 height={0}
                                 width={0}
@@ -623,7 +657,7 @@ export default function Page() {
                         <div className="lg:hidden block">
                             <Image
                                 src="/images/medical/Agentforce (2).webp"
-                                alt=""
+                                alt="salesforce agentforce img"
                                 priority
                                 height={0}
                                 width={0}
@@ -633,9 +667,9 @@ export default function Page() {
                     </div>
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:mt-[61px] mt-[66px] text-white lg:gap-[60px]">
                         <div className="lg:col-span-6 col-span-12">
-                            <h2 className="xl:text-[48px] text-[26px]">Salesforce Agentforce  </h2>
-                            <h3 className="xl:text-[42px] text-[26px] leading-tight">Revolutionizing Medical Device Sales & Services</h3>
-                            <p className="xl:text-[22px] xl:mt-5 mt-8 text-[16px] font-normal">Agentforce is a game-changing Salesforce solution that enables Medical Device sales and service teams to manage complex sales cycles, compliance, and patient interactions seamlessly on a single platform. Rialtes has a strong Agentforce practice, deeply aligned with Medical Device and Life Sciences industry needs.</p>
+                            <h2 className="4xl:text-[50px] xl:text-[40px] text-[26px] leading-tight">Salesforce Agentforce  </h2>
+                            <h3 className="4xl:text-[42px] xl:text-[32px] text-[26px] leading-tight xl:font-semibold ">Revolutionizing Medical Device Sales & Services</h3>
+                            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] xl:mt-5 mt-8 font-normal leading-tight">Agentforce is a game-changing Salesforce solution that enables Medical Device sales and service teams to manage complex sales cycles, compliance, and patient interactions seamlessly on a single platform. Rialtes has a strong Agentforce practice, deeply aligned with Medical Device and Life Sciences industry needs.</p>
                             <div className="xl:mt-10 mt-5">
                                 <button className="bg-white xl:text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6">
                                     <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>Know More</Link>
@@ -644,9 +678,8 @@ export default function Page() {
 
                         </div>
                         <div className="lg:col-span-6 col-span-12">
-                            <h3 className="xl:text-[30px] text-[18px] xl:mt-5 mt-8 xl:font-light font-medium">How Agentforce Empowers Medical Device Companies:</h3>
-                            <ul className="list-disc leading-tight xl:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] font-medium text-[16px] mt-5">
-                                <li>Automates medical device sales processes, including complex approvals and contracts.</li>
+                            <h3 className="4xl:text-[30px] xl:text-[23px] text-[18px] xl:mt-5 mt-8 xl:font-semibold ">How Agentforce Empowers Medical Device Companies:</h3>
+                            <ul className="list-disc leading-tight xl:space-y-4 marker:font-bold marker:text-2xl pl-5 font-medium  mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px]">                                <li>Automates medical device sales processes, including complex approvals and contracts.</li>
                                 <li>Empowers field service teams for faster device maintenance and replacement.</li>
                                 <li>Enables case management for patient complaints and adverse events.</li>
                                 <li>Provides real-time device tracking and warranty management.
@@ -660,7 +693,7 @@ export default function Page() {
 
                 <div className="absolute sm:mt-[20px] lg:mt-[38px] xl:mt-0">
                     <div className="custom-container">
-                        <p className="xl:text-[25px] bg-[#068EDA] text-[18px] xl:py-[52px] xl:pl-[48px] p-[24px] text-white leading-tight font-normal">Agentforce delivers a connected, compliant, and patient-first approach to sales and service in Medical Devices.</p>
+                        <p className="4xl:text-[26px] xl:text-[23px] text-[18px]  bg-[#068EDA] xl:py-[52px] xl:pl-[48px] p-[24px] text-white leading-tight font-normal">Agentforce delivers a connected, compliant, and patient-first approach to sales and service in Medical Devices.</p>
                     </div>
                 </div>
             </div>
@@ -674,7 +707,7 @@ export default function Page() {
                         <div className="lg:block hidden">
                             <Image
                                 src="/images/medical/AgentChat (2).webp"
-                                alt=""
+                                alt="real time communication img"
                                 priority
                                 height={0}
                                 width={0}
@@ -684,7 +717,7 @@ export default function Page() {
                         <div className="lg:hidden block">
                             <Image
                                 src="/images/medical/AgentChat (4).webp"
-                                alt=""
+                                alt="real time communication img"
                                 priority
                                 height={0}
                                 width={0}
@@ -692,16 +725,16 @@ export default function Page() {
                             />
                         </div>
                     </div>
-                    <h2 className="xl:text-[50px] text-[26px] text-white mt-10">Real-Time Communication with RialChat</h2>
+                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] text-white mt-10 leading-tight">Real-Time Communication with AgentChat</h2>
                     <div className="grid lg:grid-cols-12 grid-cols-1 text-white mt-8 lg:gap-[60px]">
                         <div className="lg:col-span-6 col-span-12">
-                            <h3 className="xl:text-[40px] text-[26px] leading-tight font-bold">WhatsApp Integration for Medical Devices</h3>
-                            <p className="xl:text-[22px] text-[16px] mt-8">RialChat, our WhatsApp integration solution, brings instant patient, provider, and field service communication:</p>
+                            <h3 className="4xl:text-[40px] xl:text-[34px] text-[26px] leading-tight font-bold">WhatsApp Integration for Medical Devices</h3>
+                            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-8 leading-tight ">RialChat, our WhatsApp integration solution, brings instant patient, provider, and field service communication:</p>
                         </div>
                         {/* <div className="col-span-1">
                                 </div> */}
                         <div className="lg:col-span-6 col-span-12">
-                            <ul className="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] mt-5 font-medium lg:mt-0">
+                            <ul className="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 font-medium lg:mt-0 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                                 <li>Appointment scheduling and follow-ups.</li>
                                 <li>Automated device usage reminders and troubleshooting.</li>
                                 <li>Direct patient feedback and issue reporting.</li>
@@ -720,7 +753,7 @@ export default function Page() {
                 </div>
                 <div className="absolute md:mt-[80px] mt-[60px] 2xl:mt-[90px]">
                     <div className="custom-container">
-                        <p className="xl:text-[25px] bg-[#068EDA] xl:p-[48px] p-[24px] text-[18px] text-white inline-block">
+                        <p className="text-[18px] xl:text-[23px] 4xl:text-[25px] bg-[#068EDA] xl:p-[48px] p-[24px] text-white inline-block">
                             Stay connected with patients and providers on the channel they trust.
                         </p>
                     </div>
@@ -732,7 +765,7 @@ export default function Page() {
             <div
                 className="xl:mt-16 mt-10 custom-container text-black py-20"
             >
-                <ContactForm title={'Transform Patient Lives and Medical Device Operations with Rialtes!'} className={"max-w-[70rem] xl:text-[60px] text-[26px] leading-tight"} />
+                <ContactForm title={'Transform Patient Lives and Medical Device Operations with Rialtes!'} subtitle="Ready to elevate your medical device operations? Contact Rialtes today to lead the way in patient-centric innovation and compliance." className={"max-w-[70rem] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[70%] 4xl:w-full"} />
             </div >
         </div >
     );
