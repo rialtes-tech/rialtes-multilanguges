@@ -12,7 +12,7 @@ const schemaData={
   "@type": "WebPage",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.rialtes.com/industry/connected-education/"
+    "@id": "https://www.rialtes.com/industry/education-cloud-it-solutions/"
   },
   "name": "Rialtes | Salesforce & SAP for Modern Education Ecosystems",
   "headline": "Smart Solutions for Connected Education & EdTech",
@@ -83,7 +83,7 @@ export default function Page() {
             <Seo
                 title="Salesforce Cloud IT Solutions for Education Industry | Rialtes"
                 description="IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today."
-                canonical="https://www.rialtes.com/industry/connected-education/"
+                canonical="https://www.rialtes.com/industry/education-cloud-it-solutions/"
             />
   <script
         type="application/ld+json"

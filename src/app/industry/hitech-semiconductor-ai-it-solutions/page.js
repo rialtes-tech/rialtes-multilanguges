@@ -463,7 +463,7 @@ export default function Page() {
       <Seo
         title="Semiconductor Industry: Digital Solutions That Scale | Rialtes"
         description=" Explore semiconductor industry IT solutions with SAP and Salesforce to streamline chip design, testing, partner collaboration, and customer engagement."
-        canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions-it-solutions/"
+        canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
       />
       <script
         type="application/ld+json"

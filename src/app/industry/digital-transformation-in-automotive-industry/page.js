@@ -28,7 +28,7 @@ const ThoughtLeadershipSection = () => {
             <Seo
                 title="Digital Transformation in Automotive Industry | Rialtes"
                 description="Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth."
-                canonical="https://www.rialtes.com/industry/automotive-industry-cloud-solutions/"
+                canonical="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
             />
             {/* Mobile View */}
             <div className="block md:hidden">

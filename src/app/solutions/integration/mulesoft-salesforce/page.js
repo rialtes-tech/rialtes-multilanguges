@@ -30,12 +30,12 @@ const ContentSection = () => (
 
 const page = () => (
   <>
-  <Seo
-        title="MuleSoft Integration Consulting Solutions and Services | Rialtes"
-        description="Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems."
-        keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
-      />
+    <Seo
+      title="MuleSoft Integration Consulting Solutions and Services | Rialtes"
+      description="Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems."
+      keywords="home, website, welcome"
+      canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
+    />
     <Banner />
     <ContentSection />
     <ServiceSection />
@@ -46,11 +46,7 @@ const page = () => (
       className="
         bg-[#F5F5F5]"
     >
-      <div
-        className="
-  custom-container
-  py-10"
-      >
+      <div className="custom-container py-10">
         <FeaturedCarousel />
       </div>
     </div>
@@ -81,7 +77,7 @@ const page = () => (
       </div>
     </div>
     <div className="!py-[90px] custom-container">
-      <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[88%] 4xl:w-[100%]" title="Take the next step to operational excellence with MuleSoft Integration Services"/>
+      <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[88%] 4xl:w-[100%]" title="Take the next step to operational excellence with MuleSoft Integration Services" />
     </div>
   </>
 );
