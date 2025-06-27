@@ -1,8 +1,9 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,useRef} from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import WebinarForm from "@/app/components/webinarForm";
 
 
 const schemaData = {
@@ -41,36 +42,14 @@ const schemaData = {
 
 }
 export default function () {
-    const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-06-10T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
-        const now = new Date();
-        const difference = targetDate - now;
+    
+     const sectionRef = useRef(null);
+    
+        const handleScroll = () => {
+            sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+        };
 
-        let timeLeft = {};
-        if (difference > 0) {
-            timeLeft = {
-                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-                hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-                minutes: Math.floor((difference / 1000 / 60) % 60),
-                seconds: Math.floor((difference / 1000) % 60),
-            };
-        } else {
-            timeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
-        }
-
-        return timeLeft;
-    };
-
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
-
-        return () => clearInterval(timer);
-    }, []);
-
+   
     const fullUrl = "https://rialtes.netlify.app/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
 
     return (
@@ -173,11 +152,7 @@ export default function () {
                         <li className="pb-2">Anyone looking to simplify and optimize SAP Ariba integrations</li>
 
                     </ul>
-                    <Link href="https://us06web.zoom.us/webinar/register/WN_HRKFI4CPRh6HIvh54-M8uw">
-                        <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Register Now</button>
-
-                    </Link>
-
+                       
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
                     <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
@@ -185,34 +160,12 @@ export default function () {
                         <h3>June 2025</h3>
                         <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                        <Link href="https://us06web.zoom.us/webinar/register/WN_HRKFI4CPRh6HIvh54-M8uw">
-                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Register Now</button>
+                         <div onClick={handleScroll}>
+                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
 
-                        </Link>
-
+                             </div>
                     </div>
-                    <p className="mt-10">Webinar Starting In</p>
-                    <div className="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.days).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Days</span>
-                        </div>
-                        <span className="text-black font-normal">:</span>
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.hours).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Hrs</span>
-                        </div>
-                        <span className="text-black font-normal">:</span>
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.minutes).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Min</span>
-                        </div>
-                        <span className="text-black font-normal">:</span>
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.seconds).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Sec</span>
-                        </div>
-                    </div>
+                   
                     <h3 className="mt-10">How to Join:</h3>
                     <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
                     <h3 className="mt-10">Can’t Make It?</h3>
@@ -220,6 +173,13 @@ export default function () {
                     <p className="mt-10 xl:pb-0">For inquiries, please contact sales@rialtes.com.</p>
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
+            </div>
+             <div className="custom-container mb-20" ref={sectionRef}>
+                <WebinarForm
+                    redirectUrl="https://youtu.be/cBwMv23szkU"
+                    emailWebinarLink="https://www.rialtes.com/insights/webinars/rialtes-web/src/app/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
+                />
+
             </div>
         </div>
     );

@@ -156,7 +156,7 @@ export default function SalesForceConsulting() {
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}
             />
 
-             <div className='relative group overflow-hidden'>
+            <div className='relative group overflow-hidden'>
                 <Image
                     src="/images/salesforce-consulting-services/banner.webp"
                     alt="Salesforce Consulting Team"
@@ -171,7 +171,7 @@ export default function SalesForceConsulting() {
                     priority
                 />
                 <div className="absolute custom-container  top-[5%] lg:text-start lg:top-[25%] md:top-[20%] text-black">
-                    <h4 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce</h4>
+                    <h1 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce Consulting Services</h1>
                     <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%]  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
 
                     <Image
@@ -186,21 +186,21 @@ export default function SalesForceConsulting() {
 
                 </div>
 
-            </div> 
+            </div>
 
-<div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
-  <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
-    <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-      Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
-    </h1>
-  </div>
+            <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
+                <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
+                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+                        Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
+                    </h2>
+                </div>
 
-  <div className="lg:col-span-4">
-    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mr-[96px]">
-      Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.
-    </p>
-  </div>
-</div>
+                <div className="lg:col-span-4">
+                    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mr-[96px]">
+                        Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.
+                    </p>
+                </div>
+            </div>
 
 
             {/* section crm consulting */}
@@ -295,44 +295,44 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* Action section */}
-          <section className="bg-[#EDEDED] lg:mt-10 mt-5 py-[70px]">
-  <div className="px-6 custom-container">
-    <h3 className=" mb-10 text-[#000000] 4xl:text-[40px] xl:text-[30px] text-[22px]">
-      Action is what matters and not just words
-    </h3>
-    <div className="grid lg:grid-cols-10 grid-cols-1">
-      <div className="col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20">
-        {/* First block – one line */}
-        <div>
-          <div className="text-[#0092E0] font-bold text-6xl">1%</div>
-          <div className="text-[#0092E0] text-xl font-bold xl:text-[35px]">growth</div>
-          <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
-            revenue for our customer
-          </p>
-        </div>
+            <section className="bg-[#EDEDED] lg:mt-10 mt-5 py-[70px]">
+                <div className="px-6 custom-container">
+                    <h3 className=" mb-10 text-[#000000] 4xl:text-[40px] xl:text-[30px] text-[22px]">
+                        Action is what matters and not just words
+                    </h3>
+                    <div className="grid lg:grid-cols-10 grid-cols-1">
+                        <div className="col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20">
+                            {/* First block – one line */}
+                            <div>
+                                <div className="text-[#0092E0] font-bold text-6xl">1%</div>
+                                <div className="text-[#0092E0] text-xl font-bold xl:text-[35px]">growth</div>
+                                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+                                    revenue for our customer
+                                </p>
+                            </div>
 
-        {/* Second block – manual line break */}
-        <div>
-          <div className="text-[#0092E0] font-bold text-6xl">35%</div>
-          <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
-          <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
-            customer service level <br /> satisfaction
-          </p>
-        </div>
+                            {/* Second block – manual line break */}
+                            <div>
+                                <div className="text-[#0092E0] font-bold text-6xl">35%</div>
+                                <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
+                                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+                                    customer service level <br /> satisfaction
+                                </p>
+                            </div>
 
-        {/* Third block – manual line break */}
-        <div>
-          <div className="text-[#0092E0] font-bold text-6xl">45%</div>
-          <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
-          <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
-            decision-making <br /> efficiency
-          </p>
-        </div>
-      </div>
-      <div className="col-span-1 lg:col-span-4"></div>
-    </div>
-  </div>
-</section>
+                            {/* Third block – manual line break */}
+                            <div>
+                                <div className="text-[#0092E0] font-bold text-6xl">45%</div>
+                                <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
+                                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+                                    decision-making <br /> efficiency
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-span-1 lg:col-span-4"></div>
+                    </div>
+                </div>
+            </section>
 
 
             {/* different industries different mindset */}

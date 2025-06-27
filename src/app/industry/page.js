@@ -34,10 +34,10 @@ export default function Industry() {
     },
     {
       id: 4,
-      image: "/images/industry/hi-tech.webp",
-      title: "Hi-Tech",
+      image: "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+      title: "Semiconductor",
       description: "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
-      knowMore: '/industry/hitech-semiconductor'
+      knowMore: '/industry/hitech-semiconductor-ai-it-solutions'
 
     },
 
@@ -62,7 +62,7 @@ export default function Industry() {
       image: "/images/education/Group 483.webp",
       title: "Education",
       description: "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
-      knowMore: '/industry/connected-education'
+      knowMore: '/industry/education-cloud-it-solutions'
 
     },
     {
@@ -70,7 +70,7 @@ export default function Industry() {
       image: "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
       title: "Automotive",
       description: "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
-      knowMore: '/industry/automotive-industry-cloud-solutions'
+      knowMore: '/industry/digital-transformation-in-automotive-industry'
 
     },
     {
