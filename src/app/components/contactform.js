@@ -93,63 +93,66 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             errors.message = "Message should not exceed 1000 characters.";
         }
 
-      if (!userAnswer.trim()) {
-    errors.captcha = "Captcha is required.";
-} else if (parseInt(userAnswer) !== captcha.answer) {
-    errors.captcha = "Wrong captcha answer. Please try again.";
-}
+        if (!userAnswer.trim()) {
+            errors.captcha = "Captcha is required.";
+        } else if (parseInt(userAnswer) !== captcha.answer) {
+            errors.captcha = "Wrong captcha answer. Please try again.";
+        }
 
         return errors;
     };
+    const isSpam = (form) => {
+        const honeypot = form.website.value;
+        const email = form.email.value;
+        const message = form['00NQh0000041tRZ'].value;
 
+        if (honeypot) return true;
+        if (/godaddy|yopmail|10minutemail/i.test(email)) return true;
+        if (/http|www|<a\s/i.test(message)) return true;
 
-   const handleSubmit = async (e) => {
-    e.preventDefault();
+        return false;
+    };
 
-    const form = e.currentTarget;
-    const errors = validateForm(form);
-    if (Object.keys(errors).length > 0) {
-        setFormErrors(errors);
-        setError(errors.captcha || '');
-        return;
-    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
 
-    setError('');
-    setFormErrors({});
+        const form = e.currentTarget;
+        const errors = validateForm(form);
+        if (Object.keys(errors).length > 0) {
+            setFormErrors(errors);
+            setError(errors.captcha || '');
+            return;
+        }
+        if (isSpam(form)) {
+            setError("Submission blocked due to suspected spam.");
+            return;
+        }
 
-    const formData = new FormData(form);
-    try {
-        const response = await fetch(form.action, {
-            method: 'POST',
-            body: formData,
-            mode: 'no-cors' 
-        });
+        setError('');
+        setFormErrors({});
 
-        form.reset(); 
+        // Submit the form natively (not using fetch)
+        form.submit(); // ✅ allow browser to handle submission to Salesforce
+
+        // Optionally refresh CAPTCHA and reset state
         setUserAnswer('');
         setCaptcha(generateCaptcha());
+    };
 
-        window.location.href = "https://www.rialtes.com/thank-you";
-
-    } catch (err) {
-        console.error("Form submission failed", err);
-        setError("There was a problem submitting the form. Please try again.");
-    }
-};
 
     useEffect(() => {
-    if (formRef.current) {
-        formRef.current.reset();
-    }
-    setUserAnswer('');
-    setCaptcha(generateCaptcha());
-    setError('');
-    setFormErrors({});
-}, []);
+        if (formRef.current) {
+            formRef.current.reset();
+        }
+        setUserAnswer('');
+        setCaptcha(generateCaptcha());
+        setError('');
+        setFormErrors({});
+    }, []);
 
 
     return (
-        <section className={ (padding ? padding : '')}>
+        <section className={(padding ? padding : '')}>
             <h1 className={`font-light leading-tight ${className}`}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
             </h1>
@@ -165,32 +168,33 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                 </p>
             )}
 
-            <form ref={formRef} onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V000002Xglg" method="POST" className="space-y-4 mt-10">
+            <form ref={formRef} onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
                 <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
+                <input type="text" name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
 
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="first_name" maxLength="40" name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
+                        <input id="first_name" maxLength="40" autoComplete="new-first_name" name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
                         {formErrors.first_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.first_name}</motion.p>}
                     </div>
                     <div className="lg:w-1/4">
-                        <input id="last_name" maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
+                        <input id="last_name" autoComplete="new-last_name" maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
                         {formErrors.last_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.last_name}</motion.p>}
                     </div>
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="email" maxLength="80" name="email" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
+                        <input id="email" maxLength="80" name="email" autoComplete="new-email" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
                         {formErrors.email && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.email}</motion.p>}
                     </div>
-                    <input id="company" maxLength="40" name="company" type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
+                    <input id="company" maxLength="40" name="company" autoComplete="new-company" type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
-                    <input id="title" maxLength="40" name="title" type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
-                    <input id="phone" maxLength="10" name="phone" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
+                    <input id="title" maxLength="40" name="title" autoComplete="new-title" type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
+                    <input id="phone" maxLength="10" name="phone" autoComplete="new-phone" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
                 </div>
 
                 <div className="pb-5">
@@ -219,16 +223,17 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         required
                     />
+                    <input type="hidden" name="form_submit" value="Submit" />
                     <button
                         type="submit"
-                        name="submit"
+
                         value="Submit"
                         className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
                     >
                         Let's Begin
                     </button>
                 </div>
-             <div>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+                <div>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
 
                 <div>
                     <AnimatePresence>
