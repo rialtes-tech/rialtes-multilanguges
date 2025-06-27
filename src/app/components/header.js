@@ -135,7 +135,7 @@ const Header = () => {
           label: 'Process Automation', href: '/',
           subLinks: [
             { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-service-provider' },
+            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-services-provider' },
 
           ],
         },
@@ -170,10 +170,12 @@ const Header = () => {
         {
           label: 'LOB Services', href: '/',
           subLinks: [
-            { label: 'AutoSense', href: '/services/lob/autosense-automotive-digital-transformation-services' },
+            { label: 'AutoSense', href: '/services/lob/salesforce-automotive-cloud-business-solutions-autosense' },
             { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
             { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
-            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
+            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' },
+            { label: 'Life AI+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' }
+
           ],
 
 
@@ -220,24 +222,25 @@ const Header = () => {
           label: 'Real Estate', href: '/industry/real-estate-property-management',
         },
         {
-          label: 'Life Sciences', href: '/',
+          label: 'Life Sciences', href: '/industry/life-sciences-digital-transformation',
           subLinks: [
+            { label: 'Overview', href: '/industry/life-sciences-digital-transformation' },
             { label: 'Healthcare', href: '/industry/life-sciences/healthcare-medtech-patient-care' },
             { label: 'Medical Devices', href: '/industry/life-sciences/medical-devices-it-solutions' },
             { label: 'Pharma And BioTech', href: '/industry/life-sciences/pharma-biotech-digital-transformation' },
           ],
         },
         {
-          label: 'Hi-Tech', href: '/industry/hitech-semiconductor',
+          label: 'Semiconductor', href: '/industry/hitech-semiconductor-ai-it-solutions',
         },
         {
           label: 'Manufacturing', href: '/industry/manufacturing-cloud-erp',
         },
         {
-          label: 'Education', href: '/industry/connected-education',
+          label: 'Education', href: '/industry/education-cloud-it-solutions',
         },
         {
-          label: 'Automotive', href: '/industry/automotive-industry-cloud-solutions',
+          label: 'Automotive', href: '/industry/digital-transformation-in-automotive-industry',
         },
         {
           label: 'Travel and Hospitality', href: '/industry/travel-hospitality-it-solutions',
@@ -928,7 +931,7 @@ const Header = () => {
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/autosense-automotive-digital-transformation-services
+                          {/* <MenuItem className="font-bold text-[#2f78c4]" label="AutoSense" link="/services/lob/salesforce-automotive-cloud-business-solutions-autosense
 " onClick={handleLinkClick} onHover={() => { }} /> */}
 
                           {/* <MenuItem className="font-bold text-[#2f78c4]" label="RunRialFinance+" link="/data-cloud" onClick={handleLinkClick} onHover={() => { }} /> */}
@@ -1034,6 +1037,10 @@ const Header = () => {
                           </div>
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
+                              onHover={() => { }} />
+                          </div>
+                           <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Advantage+" link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")}
                               onHover={() => { }} />
                           </div>
 
@@ -1171,7 +1178,7 @@ const Header = () => {
                     className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClick("hiTech")}
                   >
-                    Hi-Tech
+                    Semiconductor
                   </div>
                   <div
                     className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
@@ -1320,7 +1327,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/hitech-semiconductor' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor")}
+                          <Link href='/industry/hitech-semiconductor-ai-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>
@@ -1334,7 +1341,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/automotive-industry-cloud-solutions' onClick={(e) => handleLinkClick(e, "/industry/automotive-industry-cloud-solutions")}
+                          <Link href='/industry/digital-transformation-in-automotive-industry' onClick={(e) => handleLinkClick(e, "/industry/digital-transformation-in-automotive-industry")}
                           >Let's Begin</Link>
                         </button>
                       </div>
@@ -1406,7 +1413,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Driving Education with Student-Centric Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
                         <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/connected-education' onClick={(e) => handleLinkClick(e, "/industry/connected-education")}
+                          <Link href='/industry/education-cloud-it-solutions' onClick={(e) => handleLinkClick(e, "/industry/education-cloud-it-solutions")}
                           >Let's Begin</Link>
                         </button>
                       </div>

@@ -67,8 +67,29 @@
 /manufacturing  /industry/manufacturing-cloud-erp/  301
 /manufacturing/  /industry/manufacturing-cloud-erp/  301
 
-/hi-tech  /industry/hitech-semiconductor/  301
-/hi-tech/  /industry/hitech-semiconductor/  301
+/hi-tech  /industry/hitech-semiconductor-ai-it-solutions/  301
+/hi-tech/  /industry/hitech-semiconductor-ai-it-solutions/  301
 
 /blogs  /insights/blogs/  301
 /blogs/  /insights/blogs/  301
+
+
+
+/sap-managed-services/  /services/business-transformation/sap-managed-services-provider/  301
+
+/salesforce-health-cloud-implementation-and-consultant/  /industry/life-sciences/healthcare-medtech-patient-care/  301
+
+/salesforce-managed-service-providers/  /services/application-services/salesforce-managed-services-provider-salesforceagentplus/  301
+
+/salesforce-implementation-services/  /solutions/enterprise-platforms/salesforce-consulting/  301
+
+/our-services/sap-application-development/  /solutions/enterprise-platforms/sap-consulting/  301
+
+/sap-integration/  /solutions/integration/sap-cloud-platform-integration-consulting/  301
+
+/new-sap-managed-services-2/  /services/business-transformation/sap-managed-services-provider/  301
+
+/sap-analytics-cloud/  /solutions/data-ai/sap-business-data-cloud-bdc-consulting/  301
+
+/tosca-services/  /solutions/quality-engineering-assurance/tosca-software-automation-testing/ 301
+

@@ -146,16 +146,16 @@ export default function Page() {
             <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
               SAP Business Data Cloud
             </h3>
-            <h2 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
+            <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
               Unlock the Future of Data with SAP Business Data Cloud{" "}
-            </h2>
+            </h1>
           </div>
         </div>
       </section>
 
       <section className="mt-16  ">
         <section className="custom-container">
-          <h2 className="2xl:w-[69%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Unify Your Enterprise Data From Finance to Frontline{" "}
           </h2>
           <p className=" xl:w-[67%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight ">
@@ -211,7 +211,7 @@ export default function Page() {
               />
             </div>
             <div className="lg:col-span-5  2xl:pl-8 2xl:p-11  xl:pl-8 sm:pl-6 ">
-              <h2 className=" text-black  leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 3xl:w-[84%] 2xl:w-[89%] ">
+              <h2 className=" text-black  leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 4xl:w-[84%] 2xl:w-[66%] ">
                 A Unified, Open Data Foundation for Intelligent Enterprises
               </h2>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] lg:pr-[56px] leading-tight">
@@ -302,6 +302,8 @@ export default function Page() {
           </div>
         </section>
         <div className="py-7"></div>
+
+        {/* Why Choose SAP Business Data Cloud? section */}
         <section className="relative">
           {/* Desktop Background Image */}
           <div className="hidden lg:block">
@@ -329,7 +331,7 @@ export default function Page() {
 
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
             <div className="text-left lg:w-[40%] flex pt-[59px] flex-col ">
-              <h2 className="leading-tight xl:w-[78%] 2xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">Why Choose SAP Business Data Cloud?</h2>
+              <h2 className="leading-tight xl:w-[78%] 2xl:w-[75%] 4xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">Why Choose SAP Business Data Cloud?</h2>
               <div className="lg:mt-[80px]  ">
                 <Link
                   href="/contact-us"
@@ -361,6 +363,9 @@ export default function Page() {
           </div>
         </section>
         <div className="py-10"></div>
+
+                      {/* Rialtes: Your Trusted SAP & Databricks Partner */}
+
         <section className="custom-container  grid grid-cols-1 xl:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-0  xl:mt-6">
           <div className="order-1 xl:order-2 2xl:h-[579px] h-full xl:col-span-5">
             <Image
@@ -381,7 +386,7 @@ export default function Page() {
           </div>
 
           <div className="order-2 xl:order-1  xl:col-span-7 ">
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:pr-[40px] 2xl:pr-20 ">
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]   xl:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
               Rialtes: Your Trusted SAP & Databricks Partner
             </h2>
             <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] 4xl:text-[20px]  lg:mt-[33px] xl:pr-20">
@@ -412,6 +417,9 @@ export default function Page() {
           </div>
         </section>
         <div className="py-10"></div>
+
+{/* Seamless Migration from SAP section */}
+
         <section className="custom-container  px-[2rem]">
           <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Seamless Migration from SAP Business Warehouse to SAP Business Data
@@ -446,6 +454,7 @@ export default function Page() {
         </section>
 
         <div className="py-4"></div>
+                      {/* Migrate from SAP Datasphere to SAP Business Data Cloud */}
 
         <section className="lg:mt-[120px] mt-[10px]">
           <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -538,6 +547,8 @@ export default function Page() {
         </section>
         <div className="py-10"></div>
 
+                  {/* Connect SAP Business Data Cloud with Databricks */}
+
         <section className="custom-container xl:pr-0 max-md:px-0">
           <div className="relative overflow-hidden">
             {/* Desktop Background Image */}
@@ -566,7 +577,7 @@ export default function Page() {
 
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 h-full px-4 py-10 text-white max-md:pb-[22rem] ">
               <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%] xl:w-[75%]  ">
-                <h2 className="leading-tight pb-6 text-black  4xl:text-[60px] xl:text-[40px] md:text-[26px]  ">
+                <h2 className="leading-tight pb-6 text-black  4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                   Connect SAP Business Data Cloud with Databricks
                 </h2>
                 <p className="mt-4 text-black  font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
@@ -597,6 +608,8 @@ export default function Page() {
         </section>
 
         <div className="py-10"></div>
+                                {/* Our SAP Business Data Cloud Services */}
+
 
         <section className="relative max-[417px]:h-[710px] h-[600px] sm:h-[400px] md:h-[600px] lg:h-[480px] xl:h-[600px] 2xl:h-[712px] overflow-hidden">
           {/* Desktop Background Image */}
@@ -721,7 +734,7 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Desktop Image (unchanged) */}
+            {/* Desktop Image */}
             <div className="lg:col-span-6 col-span-12 lg:order-2 order-1 xl:mr-5">
               <div className="hidden lg:block relative w-full h-full top-[-120px] right-0 z-20">
                 <Image
