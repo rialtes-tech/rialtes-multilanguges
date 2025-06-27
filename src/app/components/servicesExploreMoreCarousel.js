@@ -29,7 +29,7 @@ export default function servicesExploreMoreCarousel() {
       id: 4,
       image: "/images/industry/hi-tech.webp",
       title: "Hi-Tech",
-      url:'/industry/hitech-semiconductor'
+      url:'/industry/hitech-semiconductor-ai-it-solutions'
     },
     // {
     //   id: 5,

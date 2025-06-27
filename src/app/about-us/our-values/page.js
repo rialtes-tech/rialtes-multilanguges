@@ -132,9 +132,66 @@ export default function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+{/* 
+    <HeroSection title="Building a growth mindset. Each day." subtitle="Culture and Values" mobimg="/images/culture/AdobeStock_1016285553.webp" deskimg="/images/culture/culture header.webp" extraImg="" txtColor="#01335B" /> */}
+         <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+                      {/* Desktop Image */}
+                      <div className="hidden md:block">
+                          <Image
+                              src="/images/culture/culture header.webp"
+                              alt="desktop banner"
+                              fill
+                              style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                              priority
+                              className="transform transition-transform duration-500 group-hover:scale-110"
+                          />
+                      </div>
+      
+                      {/* Mobile Image */}
+                      <div className="block md:hidden">
+                          <Image
+                              src="/images/culture/AdobeStock_1016285553.webp"
+                              alt="mobile banner"
+                              fill
+                              priority
+                          />
+                      </div>
+      
+                      <div className="relative h-full custom-container flex items-center">
+                          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+                              <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white">
+                                  <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px] font-bold text-[#01335B]">
+                                     Culture and Values
+                                  </h3>
+                                  <h2 className="text-[24px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] text-[#01335B] "  >
+                                     Building a growth<br/> mindset. Each day.
+                                  </h2>
+      
+                                 
+      
+                              </div>
+      
+                              <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+                              </div>
+                          </div>
+                      </div>
+                  </section>      
 
-    <HeroSection title="Building a growth mindset. Each day." subtitle="Culture and Values" mobimg="/images/culture/AdobeStock_1016285553.webp" deskimg="/images/culture/culture header.webp" extraImg="" txtColor="#01335B" />
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <section className="xl:py-16 py-10">
                 <div className="custom-container">
                     <div className=" mx-auto">

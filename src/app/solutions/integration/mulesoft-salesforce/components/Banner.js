@@ -12,10 +12,10 @@ const Banner = () => (
     <div className="custom-container">
       <div className="relative h-[250px] lg:h-screen overflow-hidden">
         <div className="absolute z-40 text-white lg:max-w-[808px] top-2/4 -translate-y-1/2">
-          <p className="mb-5 text-[18px] xl:text-[20px] 4xl:text-[24px]">MuleSoft Integration Solutions</p>
-          <h1 className="text-[#ffffff] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-[50%] xl:w-[70%] 4xl:w-[100%]">
+          <h1 className="mb-5 text-[18px] xl:text-[20px] 4xl:text-[24px]">MuleSoft Integration Solutions</h1>
+          <h2 className="text-[#ffffff] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-[50%] xl:w-[70%] 4xl:w-[100%]">
             Connecting Digital Businesses using the MuleSoft Platform
-          </h1>
+          </h2>
         </div>
       </div>
     </div>
