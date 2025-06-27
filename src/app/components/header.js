@@ -173,7 +173,9 @@ const Header = () => {
             { label: 'AutoSense', href: '/services/lob/salesforce-automotive-cloud-business-solutions-autosense' },
             { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
             { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
-            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' }
+            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' },
+            { label: 'Life AI+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' }
+
           ],
 
 
@@ -1035,6 +1037,10 @@ const Header = () => {
                           </div>
                           <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
+                              onHover={() => { }} />
+                          </div>
+                           <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="Advantage+" link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")}
                               onHover={() => { }} />
                           </div>
 
