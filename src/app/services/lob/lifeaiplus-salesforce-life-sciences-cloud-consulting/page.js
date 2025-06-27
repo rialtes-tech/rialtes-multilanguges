@@ -151,7 +151,7 @@ export default function Retail({ items }) {
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-8 2xl:col-span-7 4xl:col-span-9 col-span-12 xl:pr-16">
                         <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-                            Accelerating Innovation, Compliance, and Growth in Life Sciences with AI and Salesforce Cloud Solutions
+                          Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI
                         </h1>
                         <p className="mt-10 xl:pr-0  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.</p>
                         <p className="mt-5 xl:pr-0  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Introducing Rialtes LifeAI+, our comprehensive consulting service tailored for life sciences enterprises, combining deep industry expertise with Salesforce Life Sciences Cloud, Health Cloud, and AI-powered solutions to help you drive innovation, ensure compliance, and enhance operational efficiency.</p>

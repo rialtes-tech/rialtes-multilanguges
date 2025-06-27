@@ -212,9 +212,9 @@ export default function Page() {
         {/* Text Content */}
         <div className="absolute inset-0 flex items-center">
           <div className="custom-container text-white mt-20 xl:mt-0">
-            <h3 className="text-[18px] xl:text-[24px] font-bold mb-2 leading-tight">
+            <h1 className="text-[18px] xl:text-[24px] font-bold mb-2 leading-tight">
               Oracle EBS Services
-            </h3>
+            </h1>
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[45px] text-[24px]  md:text-[26px] xl:font-normal mt-5 font-light pr-20 xl:pr-0  xl:w-[35%] 2xl:w-[30%] 4xl:w-[36%] ">
               Modernizing Your Enterprise, End-to-End
             </h2>
@@ -226,11 +226,11 @@ export default function Page() {
       <section className="xl:py-20 pt-10 pb-5">
         <div className="custom-container">
           <div>
-            <h1 className="4xl:text-[40px]  xl:text-[32px] text-[26px] 4xl:w-[89%] 2xl:w-[78%] xl:w-[88%] w-full  xl:pr-0 leading-tight">
+            <h2 className="4xl:text-[40px]  xl:text-[32px] text-[26px] 4xl:w-[89%] 2xl:w-[78%] xl:w-[88%] w-full  xl:pr-0 leading-tight">
               Empower your enterprise with Rialtes’ cutting-edge Oracle EBS
               solutions, backed by deep industry knowledge, certified expertise,
               and end-to-end ownership — from advisory to post-go-live success.
-            </h1>
+            </h2>
             <div className="xl:grid xl:grid-cols-12 grid-cols-1 mb-8 xl:mt-10  xl:gap-16  flex flex-col-reverse">
               <div className="xl:col-span-7 col-span-12">
                 <p className="4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight ">

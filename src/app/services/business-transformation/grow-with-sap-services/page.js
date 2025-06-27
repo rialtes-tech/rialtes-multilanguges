@@ -243,11 +243,11 @@ export default function Page() {
               custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="4xl:col-span-10 xl:col-span-9 col-span-12">
-            <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8  xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
-              Unlock the Power of SAP S/4HANA Cloud with Rialtes SAPNext Services
+            <h1 className="leading-tight 4xl:text-[56px] xl:text-[40px] md:text-[26px] xl:mb-8  xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
+              Unlock the Power of SAP S/4HANA Cloud with Rialtes VoyagerNext Services
             </h1>
             <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">At Rialtes, we help organizations embrace SAP's next-generation S/4HANA Cloud ERP using Grow with SAP — delivering enterprise-grade solutions built for scalability, agility, and future-proof growth </p>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight  mt-5">As a certified SAP partner with presence in the United States, Canada, India, and Singapore, and a team of highly certified SAP experts, Rialtes is your trusted partner for end-to-end SAP transformation. Our SAPNext services seamlessly combine:</p>
+            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight  mt-5">As a certified SAP partner with presence in the United States, Canada, India, and Singapore, and a team of highly certified SAP experts, Rialtes is your trusted partner for end-to-end SAP transformation. Our VoyagerNext services seamlessly combine:</p>
           </div>
           <div className="xl:col-span-4 col-span-12">
           </div>
@@ -612,7 +612,7 @@ export default function Page() {
       </div>
       <div
         className="custom-container text-black py-16">
-        <ContactForm title={'Ready to Grow with SAP? Partner with Rialtes SAPNext Today!'} subtitle={"Empower your growth journey with SAPNext — the Rialtes way to unlock S/4HANA Cloud potential."} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
+        <ContactForm title={'Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!'} subtitle={"Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
       </div >
     </div >
   );
