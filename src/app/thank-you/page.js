@@ -11,12 +11,8 @@ export default function ThankYou() {
   };
   return (
     <div className="
-    container h-full relative
-    ml-[15px] w-[calc(100%-15px)] mr-0
-    xl:ml-[280px] xl:w-[calc(100%-280px)]
-    md:ml-[100px] md:w-[calc(100%-100px)]
-    sm:mx-5 sm:w-[calc(100%-40px)]
-    xs:mx-4 xs:w-[calc(100%-32px)]
+    custom-container h-full relative
+ 
     thank-you-bg bg-right-bottom bg-cover py-20
     "
     >
@@ -51,9 +47,9 @@ export default function ThankYou() {
         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
         priority
       />
-      <h2 className="text-[#134874] xl:font-bold xl:mt-32 mt-2"><span className="xl:border-b-[3px] border-gray-500 inline pb-5">Thank </span>you for contacting Rialtes! </h2>
-      <h3 className="xl:font-bold xl:mt-20 xl:text-3xl xl:w-[55%] w-full mt-2">Our expert will respond to you shortly via your phone or email address.</h3>
-      <h3 className="xl:font-bold text-[#134874] xl:mt-20 mt-5">For more updates follow us on:</h3>
+      <h2 className="text-[#134874] xl:font-bold xl:mt-32 mt-2 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[30px] text-[26px]"><span className="xl:border-b-[3px] border-gray-500 inline pb-5">Thank </span>you for contacting Rialtes! </h2>
+      <h3 className="xl:font-bold xl:mt-20 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:w-[55%] w-full mt-2">Our expert will respond to you shortly via your phone or email address.</h3>
+      <h3 className="xl:font-bold text-[#134874] 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:mt-20 mt-5">For more updates follow us on:</h3>
 
       <div className="flex flex-col xl:flex-row  xl:mt-10 xl:gap-32">
         <div className="flex">
@@ -62,29 +58,29 @@ export default function ThankYou() {
               <Image className="h-20 w-20" alt="linkedin" src="/images/homepage/Asset5.svg" height={100} width={100} />
             </Link>
           </div>
-          <div className="mt-3">
+          {/* <div className="mt-3">
             <Link href="/facebook" title="Follow us on Facebook">
               <Image className="h-20 w-20" alt="facebook" src="/images/homepage/Asset1.svg" height={100} width={100} />
             </Link>
-          </div>
-          <div className="mt-3">
+          </div> */}
+          {/* <div className="mt-3">
             <Link href="https://x.com/Rialtestech" title="Follow us on Twitter">
               <Image className="h-20 w-20" alt="twitter" src="/images/homepage/Asset2.svg" height={100} width={100} />
             </Link>
-          </div>
-          <div className="mt-3">
+          </div> */}
+          {/* <div className="mt-3">
             <Link href="https://www.instagram.com/rialtes_technologies/" title="Follow us on Instagram">
               <Image className="h-20 w-20" alt="instagram" src="/images/homepage/Asset3.svg" height={100} width={100} />
             </Link>
-          </div>
-          <div className="mt-3">
+          </div> */}
+          <div className="mt-4">
             <Link href="https://www.youtube.com/@rialtes" title="Follow us on YouTube">
               <Image className="h-20 w-20" alt="youtube" src="/images/homepage/Asset4.svg" height={100} width={100} />
             </Link>
           </div>
         </div>
         <div>
-          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
+          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-8">
             <Link href='/'>Close</Link>
           </button>
         </div>
