@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 });
 
 export default function RootLayout({ children }) {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     // This will ensure the GTM script is loaded only on the client-side
     if (typeof window !== "undefined") {
