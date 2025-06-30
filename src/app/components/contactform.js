@@ -131,10 +131,9 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         setError('');
         setFormErrors({});
 
-        // Submit the form natively (not using fetch)
-        form.submit(); // ✅ allow browser to handle submission to Salesforce
 
-        // Optionally refresh CAPTCHA and reset state
+        form.submit();
+
         setUserAnswer('');
         setCaptcha(generateCaptcha());
     };
@@ -171,30 +170,30 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             <form ref={formRef} onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
                 <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
-                <input type="text" name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
+                <input type="text" name="website"  id="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
 
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="first_name" maxLength="40" autoComplete="new-first_name" name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
+                        <input id="first_name" maxLength="40"  name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
                         {formErrors.first_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.first_name}</motion.p>}
                     </div>
                     <div className="lg:w-1/4">
-                        <input id="last_name" autoComplete="new-last_name" maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
+                        <input id="last_name"  maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
                         {formErrors.last_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.last_name}</motion.p>}
                     </div>
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="email" maxLength="80" name="email" autoComplete="new-email" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
+                        <input id="email" maxLength="80" name="email"  type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
                         {formErrors.email && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.email}</motion.p>}
                     </div>
-                    <input id="company" maxLength="40" name="company" autoComplete="new-company" type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
+                    <input id="company" maxLength="40" name="company"  type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
-                    <input id="title" maxLength="40" name="title" autoComplete="new-title" type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
-                    <input id="phone" maxLength="10" name="phone" autoComplete="new-phone" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
+                    <input id="title" maxLength="40" name="title"  type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
+                    <input id="phone" maxLength="10" name="phone"  className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
                 </div>
 
                 <div className="pb-5">
