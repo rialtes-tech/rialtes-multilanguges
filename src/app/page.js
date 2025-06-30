@@ -173,9 +173,9 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
-        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",title:"News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
+        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp',title:"Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp',title:"Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     // useEffect(() => {
@@ -209,14 +209,12 @@ const Home = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative">
-                {/* Background color element */}
                 <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
-                {/* hero section */}
                 <div className="relative">
                     <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[500px] overflow-hidden relative custom-container">
                         {slides.map((slide, index) => (
                             <React.Fragment key={index}>
-                                <Link href={slide.link}>
+                                <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
 
                                     <div
                                         className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
@@ -234,7 +232,7 @@ const Home = () => {
                                     </div>
                                 </Link>
 
-                                <Link href={slide.link}>
+                                <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
                                     <div
                                         className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
@@ -261,13 +259,13 @@ const Home = () => {
 
 
                             <div className="flex">
-                                <button onClick={prevSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <button aria-label="Previous slide" onClick={prevSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                                     <svg viewBox="0 0 24 24" fill="black" width="45">
                                         <polygon points="15,6 9,12 15,18" />
                                     </svg>
                                 </button>
 
-                                <button onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <button  aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                                     <svg viewBox="0 0 24 24" fill="black" width="45">
                                         <polygon points="9,6 15,12 9,18" />
                                     </svg>
@@ -452,12 +450,12 @@ const Home = () => {
                                 </div>
 
                                 <div className="flex">
-                                    <button onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
+                                    <button  aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
                                         <svg viewBox="0 0 24 24" fill="black" width="24">
                                             <polygon points="15,6 9,12 15,18" />
                                         </svg>
                                     </button>
-                                    <button onClick={handleNextInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
+                                    <button aria-label="Next Slide" onClick={handleNextInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
                                         <svg viewBox="0 0 24 24" fill="black" width="24">
                                             <polygon points="9,6 15,12 9,18" />
                                         </svg>
