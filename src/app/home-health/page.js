@@ -38,6 +38,28 @@ export default function Page() {
             deskImg: "/images/home-health/Mobile/limited-mob.webp"
         },
     ]
+    const aiRovolutionizingData = [
+        {
+            title: "Predictive Health Monitoring",
+            desc: "AI algorithms analyze real-time data from wearable devices and remote monitoring tools to detect health anomalies before they become critical."
+        },
+        {
+            title: "Smart Care Planning",
+            desc: "AI assists in creating dynamic care plans based on patient history, behavior, and risk scores pulled from Salesforce Health Cloud and integrated EHR systems."
+        },
+        {
+            title: "Virtual Health Assistants",
+            desc: "Conversational AI and chatbots provide 24/7 support to patients, answering questions, scheduling appointments, and escalating urgent issues to clinicians."
+        },
+        {
+            title: "AI-Powered Diagnostics",
+            desc: "AI enhances decision support by interpreting remote test results, images, or symptom logs, helping clinicians diagnose conditions more accurately and quickly."
+        },
+        {
+            title: "Operational Automation",
+            desc: "From routing home health professionals efficiently to automating documentation, AI streamlines workflows and reduces overhead."
+        },
+    ]
     return (
         <section className="min-h-screen bg-white">
             <Seo
@@ -137,20 +159,59 @@ export default function Page() {
             </section>
 
             {/* global expertise section */}
-            <section className="custom-container xl:mt-[145px] mt-[70px] lg:pr-0">
+            <section className="custom-container xl:mt-[145px] mt-[70px] lg:pr-0 max-md:px-0">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
-                    <div className="lg:col-span-5 col-span-12 my-[40px]">
-                        <div className="bg-[#006FBE] text-[#ffffff] xl:pt-[69px] xl:pb-[96px] xl:pl-[63px] xl:pr-[83px] pt-[39px] pb-[50px] px-[26px]">
-                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-semibold w-[90%] md:w-full">Global Expertise, Locally Delivered</h2>
-                            <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[90%] lg:w-[94%]">With certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA for Pharma, Rialtes brings together global innovation and local compliance. Operating across India, the United States, Canada, and Singapore, we ensure that your home health programs align with regional regulations while following global best practices in healthcare delivery and digital transformation.</p>
+                    <div className="lg:col-span-5 col-span-12 lg:my-[40px] max-md:mx-[36px] lg:mr-[-90px] max-md:mt-[-120px] relative z-20 lg:order-1 order-2">
+                        <div className="bg-[#006FBE] text-[#ffffff] xl:pt-[69px] xl:pb-[96px] lg:pl-[63px] xl:pr-[20px] pt-[39px] pb-[70px] px-[26px]">
+                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] lg:w-[60%] xl:w-full">Global Expertise, Locally Delivered</h2>
+                            <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[94%] lg:w-[90%]">With certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA for Pharma, Rialtes brings together global innovation and local compliance. Operating across India, the United States, Canada, and Singapore, we ensure that your home health programs align with regional regulations while following global best practices in healthcare delivery and digital transformation.</p>
+                            <div className="absolute xl:mt-[40px] mt-[20px]">
+                                <LearnMore />
+                            </div>
                         </div>
                     </div>
-                    <div className="lg:col-span-7 col-span-12">
+                    <div className="lg:col-span-7 col-span-12 lg:order-2 order-1">
                         <Image src="/images/home-health/Mobile/global-mob.webp" alt="mobile" className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
                         <Image src="/images/home-health/global-desk.webp" alt="desktop" className="hidden md:block w-full h-full object-cover" width={0} height={0} priority />
                     </div>
                 </div>
             </section>
+
+            {/* how ai section */}
+            <section className="custom-container xl:mt-[119px] mt-[85px]">
+                <div className="grid xl:grid-cols-12 grid-cols-1 gap-y-[29px] xl:gap-[60px]">
+                    <div className="xl:col-span-7 col-span-12">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
+                            How AI is Revolutionizing <br /> Home Health
+                        </h2>
+                    </div>
+                    <div className="xl:col-span-5 col-span-12">
+                        <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal md:w-[80%] xl:w-full">Artificial Intelligence is redefining what’s possible in home-based care. By enabling predictive insights, personalized treatment, and real-time decision-making, AI empowers care teams to move from reactive to proactive care models, improving patient outcomes while reducing costs.</p>
+                    </div>
+                </div>
+
+                <div className="xl:mt-[65px] mt-[39px]">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[20px] sm:w-[70%] md:w-full">
+
+                        {
+                            aiRovolutionizingData.map((data, ind) => {
+                                return (
+                                    <div key={ind} className="border border-[#707070] xl:pt-[52px] xl:pb-[56px] xl:px-[40px] pt-[32px] pb-[32px] px-[26px]">
+                                        <h3 className="4xl:text-[30px] xl:text-[26px] text-[20px] leading-tight text-[#006FBE] font-semibold">
+                                            {data.title}
+                                        </h3>
+                                        <p className="text-[16px] 4xl:text-[22px] xl:text-[19px] font-normal xl:mt-[31px] mt-[22px] w-[90%] xl:w-full 4xl:w-[86%]">
+                                            {data.desc}
+                                        </p>
+                                    </div>
+
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+            </section>
+
             {/* Contact Form */}
             <section className="custom-container xl:mt-[130px] xl:mb-[130px] mt-[65px] mb-[48px]">
                 <ContactForm title={'Ready to Deliver Proactive, Connected, and Compassionate Care Directly to Patients?'} subtitle="Transform your patient care model with Rialtes’ Salesforce-powered home health solutions" className={"font-normal text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:w-[60%] 4xl:w-[80%]"} />
