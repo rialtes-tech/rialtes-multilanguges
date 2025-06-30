@@ -817,9 +817,8 @@ const Header = () => {
                     <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Reduce operational costs and increase ROI For Every Line of Business</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
-                        </p>
-
+                        <div className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.
+                        </div>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-10">
@@ -994,8 +993,10 @@ const Header = () => {
                     <div className="flex-1">
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
+                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
 
+                        <Link href='/industry/life-sciences-digital-transformation' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-10" onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation")}
+                        >Let's Begin</Link>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
