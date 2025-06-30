@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../../../components/contactform";
@@ -251,7 +250,7 @@ export default function DataCloud() {
       </div>
 
       {/* Stats Section */}
-      <section className="bg-gray-200 xl:pt-[83px] xl:pb-[76px] py-[40px]">
+      <section className="bg-[#EDEDED] xl:pt-[83px] xl:pb-[76px] py-[40px]">
         <div
           className="custom-container"
         >

@@ -8,8 +8,8 @@ import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
 
-const schemaData ={
-  
+const schemaData = {
+
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "mainEntityOfPage": {
@@ -31,25 +31,33 @@ const schemaData ={
 
 }
 const latestCaseStudy = [
-   
   {
-    id:12,
-    image:"/images/case-studies/Adaptis_featured CS.webp",
-    industry:"Manufacturing",
-    date:"10 June 2025",
-    url:"/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability",
+    id: 13,
+    image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+    industry: "Manufacturing",
+    date: "30 June 2025",
+    url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+    title: "Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense",
+    description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
+  },
+  {
+    id: 12,
+    image: "/images/case-studies/Adaptis_featured CS.webp",
+    industry: "Manufacturing",
+    date: "10 June 2025",
+    url: "/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability",
     title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
     description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
 
   },
-    {
-    id:11,
-    image:"/images/case-studies/revolutionary-filter.webp",
-    industry:"Manufacturing",
-    date:"03 June 2025",
-    url:"/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-    title:"Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
-    description:"A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
+  {
+    id: 11,
+    image: "/images/case-studies/revolutionary-filter.webp",
+    industry: "Manufacturing",
+    date: "03 June 2025",
+    url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
+    title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+    description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
   },
   {
     id: 10,
@@ -305,25 +313,34 @@ const CaseStudy = () => {
 
 const FeaturedCarousel = () => {
   const slides = [
-     {
+    {
+      id: 6,
+      imgSrc: '/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp',
+      category: "Manufacturing",
+      date: "30 June 2025",
+      url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+      title: "Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense",
+      description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
+    },
+    {
       id: 5,
       imgSrc: '/images/case-studies/Adaptis_featured CS.webp',
       category: 'Manufacturing',
       date: '10 June 2025',
       url: "/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability",
-    title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
-    description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
+      title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
+      description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
     },
-     {
+    {
       id: 4,
       imgSrc: '/images/case-studies/revolutionizing-latest-carosel.webp',
       category: 'Manufacturing',
       date: '03 June 2025',
       url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-    title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
-    description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
+      title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+      description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
     },
-     {
+    {
       id: 1,
       imgSrc: '/images/case-studies/fiori-main-page.webp',
       category: 'Manufacturing',
@@ -467,12 +484,12 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
-      description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
-       canonical="https://www.rialtes.com/insights/case-studies/" />
- <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+        description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
+        canonical="https://www.rialtes.com/insights/case-studies/" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       <HeroSection title="Rial Results, Rial Impact" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
       <section
