@@ -174,8 +174,8 @@ const Header = () => {
             { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
             { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
             { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' },
-            { label: 'Life AI+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' }
-
+            { label: 'Advantage+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' },
+            { label: 'RialFinance+', href: '/services/lob/rial-finance' }
           ],
 
 
@@ -851,9 +851,7 @@ const Header = () => {
                               onHover={() => { }} />
                           </div>
                           <div>
-
                           </div>
-
                         </div>
                       </div>
                     </div>
@@ -1039,11 +1037,14 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" label="Life AI+" link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")}
                               onHover={() => { }} />
                           </div>
-                           <div>
+                          <div>
                             <MenuItem className="font-bold text-[#2f78c4]" label="Advantage+" link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")}
                               onHover={() => { }} />
                           </div>
-
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4]" label="RialFinance" link="/services/lob/rial-finance" onClick={(e) => handleLinkClick(e, "/services/lob/rial-finance")}
+                              onHover={() => { }} />
+                          </div>
                         </div>
                       </div>
                     </div>
