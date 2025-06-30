@@ -316,7 +316,7 @@ const FeaturedCarousel = () => {
     {
       id: 6,
       imgSrc: '/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp',
-      industry: "Manufacturing",
+      category: "Manufacturing",
       date: "30 June 2025",
       url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
       title: "Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense",
