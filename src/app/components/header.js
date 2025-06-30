@@ -251,6 +251,9 @@ const Header = () => {
         {
           label: 'Non-Profit', href: '/industry/nonprofit-digital-transformation-it-solutions',
         },
+         {
+          label: 'Finance', href: '/industry/financial-services-salesforce-fsc-sap-consulting',
+        },
       ],
     },
     {
@@ -974,6 +977,12 @@ const Header = () => {
                   >
                     Non-Profit
                   </div>
+                   <div
+                    className={`cursor-pointer mt-3 font-bold ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    onClick={() => handleSubMenuClick("financeIndustry")}
+                  >
+                   Finance 
+                  </div>
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -1071,7 +1080,9 @@ const Header = () => {
                   </div>
                 )}
 
-                {openSection === "nonProfitIndustry" && (
+             
+
+                   {openSection === "nonProfitIndustry" && (
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
@@ -1079,6 +1090,21 @@ const Header = () => {
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.</p>
                         <Link href='/industry/nonprofit-digital-transformation-it-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions")}
                         >Let's Begin</Link>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                   {openSection === "financeIndustry" && (
+                  <div className="col-span-8 flex space-x-5">
+                    <div className="flex-1">
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5">Bringing Digital Transformation to Financial Services</div>
+                        <p className="mt-3">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
+                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
+                          <Link href='/industry/financial-services-salesforce-fsc-sap-consulting' onClick={(e) => handleLinkClick(e, "/industry/financial-services-salesforce-fsc-sap-consulting")}
+                          >Let's Begin</Link>
+                        </button>
                       </div>
                     </div>
                   </div>
