@@ -6,6 +6,7 @@ import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Link from "next/link";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -578,7 +579,7 @@ export default function Page() {
 
       {/* end to end section */}
       <section
-        className="custom-container relative xl:mt-[115px] mt-[54px] xl:pt-[119px] pt-[55px] lg:pb-[65px] pb-0
+        className="custom-container relative 4xl:mt-[80px] xl:mt-[40px] mt-[54px] xl:pt-[119px] pt-[55px] lg:pb-[65px] pb-0
              bg-no-repeat bg-cover bg-[20%_30%] lg:bg-[65%_20%]
              bg-[url('/images/industry/semi-conductor/Mobile/end-to-end-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/end-to-end-desk.webp')]"
       >
@@ -718,7 +719,14 @@ export default function Page() {
         </div>
 
         <div className="absolute bottom-0">
-          <LearnMore bgcolor={"#0C8AED"} bordercolor="#0C8AED" />
+          {/* <LearnMore bgcolor="#0C8AED" bordercolor="#0C8AED" /> */}
+          <Link
+            href="/contact-us"
+            className={`inline-block 4xl:text-[20px] text-[16px] border  font-semibold text-white py-3 px-8 transition duration-300 mt-6
+        bg-[#0C8AED] border-[#0C8AED]  hover:bg-white hover:text-[#134874] hover:border-[#134874]`}
+          >
+            Learn More
+          </Link>
         </div>
       </section>
       {/* deep industry section */}
