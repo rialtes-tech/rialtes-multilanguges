@@ -1,7 +1,7 @@
 
 "use client";
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
@@ -10,7 +10,6 @@ import Seo from './components/Seo';
 import AutoTimerSlider from './newHome/page';
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 import ContactForm from './components/contactform';
-import Script from 'next/script';
 
 const schemaData = {
     "@context": "https://schema.org",

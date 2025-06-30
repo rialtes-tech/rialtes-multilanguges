@@ -45,9 +45,9 @@ const AutoTimerSlider = () => {
                     <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry4.webp")` }}>
                         <div className="content">
-                            <div className="title font-semibold">HI-TECH</div>
+                            <div className="title font-semibold">Semiconductor</div>
                             <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.</div>
-                            <Link href="/industry/hitech-semiconductor">
+                            <Link href="/industry/hitech-semiconductor-ai-it-solutions">
                                 <button className='!border-[1px]  know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                             </Link>
                         </div>
@@ -59,7 +59,7 @@ const AutoTimerSlider = () => {
                         <div className="content">
                             <div className="title">AUTOMOTIVE</div>
                             <div className="des pr-5 xl:mt-8 mt-5">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
-                            <Link href="/industry/automotive-industry-cloud-solutions">
+                            <Link href="/industry/digital-transformation-in-automotive-industry">
 
                                 <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
                             </Link>

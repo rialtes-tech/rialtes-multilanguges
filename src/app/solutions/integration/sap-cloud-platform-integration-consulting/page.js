@@ -355,9 +355,9 @@ export default function page() {
             <section className="custom-container xl:mt-[131px] mt-[50px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
-                        <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
+                        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
                             Seamless Integrations. <br /> Smarter Operations. <br /> Elevated Experiences.
-                        </h1>
+                        </h2>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
                         <p className="xl:text-[22px] text-[16px] leading-tight">

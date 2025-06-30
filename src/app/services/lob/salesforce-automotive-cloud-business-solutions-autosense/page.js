@@ -20,7 +20,7 @@ const schemaData = {
             "https://www.youtube.com/@rialtes"
         ]
     },
-    "url": "https://www.rialtes.com/services/lob/autosense-automotive-digital-transformation-services/",
+    "url": "https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/",
     "description": "Rialtes AutoSense offers end-to-end automotive digital transformation services for OEMs, suppliers, dealerships, and mobility providers. From Salesforce Automotive Cloud and SAP S/4HANA implementation to ERP integration and connected vehicle ecosystems, we drive innovation in EV strategy, intelligent operations, and data monetization.",
     "areaServed": [
         { "@type": "Country", "name": "United States" },
@@ -80,7 +80,7 @@ const schemaData = {
     "category": "Automotive Consulting, Digital Transformation, Salesforce Automotive Cloud, SAP S/4HANA for Automotive",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.rialtes.com/services/lob/autosense-automotive-digital-transformation-services/"
+        "@id": "https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
     }
 }
 
@@ -144,7 +144,7 @@ const KeyPillarsSectionDesign = ({ data }) => {
                 title="Salesforce Automotive Cloud Solutions and Services | Rialtes AutoSense"
                 description="Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/autosense-automotive-digital-transformation-services/"
+                canonical="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
             />
 
             <div className="custom-container">
@@ -569,8 +569,8 @@ export default function page() {
                     <div>
                         <div className="flex flex-col lg:flex-row gap-5">
                             <div className="flex flex-col w-full lg:max-w-xl lg:mb-0 mb-4">
-                                <h2 className="text-[#000000] text-[18px] xl:text-[22px] 4xl:text-[30px] leading-tight">Introducing</h2>
-                                <h2 className="text-[#000000] leading-tight 4xl:text-[50px] xl:text-[40px] md:text-[24px]  font-medium ">Rialtes AutoSense</h2>
+                                <p className="text-[#000000] text-[18px] xl:text-[22px] 4xl:text-[30px] leading-tight font-normal">Introducing</p>
+                                <p className="text-[#000000] leading-tight 4xl:text-[50px] xl:text-[40px] md:text-[24px]  font-medium ">Rialtes AutoSense</p>
                                 <div className="text-[#000000] text-[22px] xl:text-[32px] 2xl:text-[34px] 4xl:text-[36px]  leading-tight font-semibold xl:mt-[31px] mt-[12px] xl:w-full w-[76%]">End-to-End Automotive Solutions</div>
                             </div>
                             <div className="flex flex-col w-full">

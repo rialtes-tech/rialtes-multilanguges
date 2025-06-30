@@ -146,9 +146,9 @@ export default function Page() {
             <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
               SAP Business Data Cloud
             </h3>
-            <h2 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
+            <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
               Unlock the Future of Data with SAP Business Data Cloud{" "}
-            </h2>
+            </h1>
           </div>
         </div>
       </section>
