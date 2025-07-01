@@ -115,9 +115,9 @@ export default function Page() {
         className="custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white 4xl:max-w-[1100px] 4xl:w-[1100px] xl:w-[850px]">
           <div className="">
-            <h1 className="text-[#000000] py-6  leading-tight text-[26px] md:text-[48px] xl:text-[60px]">Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services</h1>
+            <h1 className="text-[#000000] py-6  leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services</h1>
           </div>
          
           <div className="">

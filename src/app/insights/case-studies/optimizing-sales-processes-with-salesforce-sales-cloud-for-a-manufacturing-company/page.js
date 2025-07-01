@@ -133,9 +133,9 @@ export default function Page() {
                 className="custom-container"
             >
 
-                <div className="py-10 bg-white xl:max-w-[1100px] xl:w-[1100px]">
+                <div className="py-10 bg-white 4xl:max-w-[1100px] 4xl:w-[1100px] xl:w-[850px]">
 
-                    <h1 className="text-[#000000] py-6  leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">Streamlining Sales with Salesforce Sales Cloud for Manufacturing</h1>
+                    <h1 className="text-[#000000] py-6  leading-tight text-[24px]  4xl:text-[60px] xl:text-[45px] ">Streamlining Sales with Salesforce Sales Cloud for Manufacturing</h1>
                     <div className="py-4"></div>
                   
                     <div>

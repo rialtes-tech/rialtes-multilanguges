@@ -110,9 +110,9 @@ export default function Page() {
         className="custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[840px]">
           <div>
-            <h1 className="text-[#000000] py-6  leading-tight  text-[24px] md:text-[48px] xl:text-[60px] ">Revving Up Dealer Management with AutoSense by Rialtes</h1>
+            <h1 className="text-[#000000] py-6  leading-tight  text-[24px]  4xl:text-[60px] xl:text-[45px] ">Revving Up Dealer Management with AutoSense by Rialtes</h1>
           </div>
           <div className="py-4"></div>
           <div>

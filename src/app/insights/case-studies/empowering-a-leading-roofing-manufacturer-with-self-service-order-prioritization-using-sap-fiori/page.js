@@ -103,9 +103,9 @@ export default function Page() {
             <HeroSection mobimg="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp" deskimg="/images/case-studies/fiori-banner.webp" />
 
             <section className="custom-container">
-                <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+                <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[810px]">
                     <div>
-                        <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization</h1>
+                        <h1 className="text-[#000000] py-6 leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px] ">150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization</h1>
                     </div>
                     <div className="py-4"></div>
                     <div>
