@@ -296,7 +296,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
 
-          <h1 className="text-[#000000] font-semibold pb-6 max-w-4xl xl:w-4/2 leading-tight">
+          <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[900px] xl:w-[600px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">
             Agents vs. Copilots vs. Bots: What’s the Difference and Why It
             Matters
           </h1>
