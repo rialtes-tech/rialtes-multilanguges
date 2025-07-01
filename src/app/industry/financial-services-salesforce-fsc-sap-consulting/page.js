@@ -181,10 +181,10 @@ export default function Page() {
 
         <div className="absolute inset-0 flex items-center">
           <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container  text-white xl:mt-0">
-            <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
+            <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto leading-tight">
               Finance
             </h3>
-            <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
+            <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leading-tight  mt-[11.5px] md:mt-[28.5px]">
               Shaping the Future of Intelligent Financial Experiences
             </h1>
           </div>
@@ -454,7 +454,7 @@ export default function Page() {
             <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] text-[26px] pb-4">
               AI: Revolutionizing the Future of Finance
             </h2>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 ">
+            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 leading-tight ">
               AI is transforming every layer of financial services — from
               customer service to credit decisioning. Rialtes leverages
               Salesforce AI (Einstein, Agentforce) and SAP AI tools to deliver:
@@ -477,9 +477,9 @@ export default function Page() {
       {/* Exelona section */}
       <section className="relative py-7">
         {/* Background Images */}
-        <div className="h-full w-full  relative z-0">
+        <div className="h-full w-full relative z-0">
           {/* Desktop */}
-          <div className="hidden md:block  h-full w-full md:h-[900px] lg:h-[800px] 3xl:h-full">
+          <div className=" hidden md:block h-full w-full md:h-[900px] lg:h-[800px] 3xl:h-full">
             <Image
               src="/images/Finance/Exelona-web.webp"
               alt="Exelona"
@@ -508,8 +508,21 @@ export default function Page() {
         <div className="md:absolute w-full top-[27px] text-white z-10">
           <div className="grid grid-cols-12 gap-2 custom-container max-md:px-0">
             <div className="md:col-span-6 col-span-12 pt-10 hidden md:block"></div>
-            <div className="md:col-span-6 col-span-12 h-full">
-              <div className="bg-[#606060] lg:px-[54px]  lg:pt-[70px] px-[36px]  pt-[40px]  inset-0  mix-blend-multiply z-10 bg-opacity-80 ">
+
+            <div className="md:col-span-6 col-span-12 h-full relative overflow-hidden">
+              {/* Blend layer  */}
+              <div className="hidden md:block absolute inset-0 z-0">
+                <Image
+                  src="/images/Finance/bg-1.jpg"
+                  alt="Exelona"
+                  fill
+                  priority
+                  className="w-full h-full"
+                />
+                <div className="absolute inset-0 bg-[#606060] mix-blend-multiply" />
+              </div>
+
+              <div className="relative z-10 lg:px-[54px] lg:pt-[70px] px-[36px] pt-[40px] max-md:bg-[#606060]">
                 <h2 className="mb-4 leading-tight 2xl:text-[50px] xl:text-[40px] md:text-[26px]">
                   Exelona
                 </h2>
@@ -535,25 +548,28 @@ export default function Page() {
                     AI-driven risk and investment modeling.
                   </li>
                 </ul>
-
+                {/* Desktop  */}
                 <p className="4xl:text-[26px] xl:text-[22px] text-[18px]  bg-[#006FBE] p-[24px] text-white leading-tight block md:hidden">
                   Exelona + FSC: A game-changing combination for Real Estate
                   Finance and Operations.
                 </p>
               </div>
-              <p className="4xl:text-[26px] xl:text-[22px] text-[18px] max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block  ">
+              {/* Mobile */}
+
+              <p className="4xl:text-[26px] xl:text-[22px] text-[18px] max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative mt-[25px] ">
                 Exelona + FSC: A game-changing combination for Real Estate
                 Finance and Operations.
               </p>
             </div>
           </div>
         </div>
-        <div className="max-md:mt-[38px] md:bottom-[28px] max-md:m-[29px] absolute md:left-1/2">
+        <div className="max-md:mt-[5px] md:bottom-[28px] max-md:m-[29px] absolute md:left-1/2">
           <LearnMore />
         </div>
       </section>
+
       {/* AgentChat section */}
-      <section className="pt-14">
+      <section className="md:pt-14 pt-20 ">
         <section className="custom-container xl:pr-0 max-md:px-0">
           <div className=" ">
             <div>
@@ -566,7 +582,6 @@ export default function Page() {
                 width={0}
                 height={0}
               />
-
               {/* Desktop Image */}
               <Image
                 src="/images/Finance/agentchat-web.webp"
@@ -588,7 +603,7 @@ export default function Page() {
                   <h3 className="leading-tight 4xl:text-[38px] xl:text-[30px] font-semibold text-[20px] pb-4">
                     Real-Time WhatsApp Integration for Financial Services Cloud
                   </h3>
-                  <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7">
+                  <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 leading-tight">
                     AgentChat, developed by Rialtes, brings real-time WhatsApp
                     communication inside Salesforce FSC — fully secure and
                     compliant:
@@ -614,7 +629,7 @@ export default function Page() {
                     </li>
                     <li> Seamless document and signature collection.</li>
                   </ul>
-                  <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 max-md:mb-7 lg:mb-0">
+                  <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 max-md:mb-7 lg:mb-0 leading-tight">
                     Included as part of Rialtes’ Financial Services solutions —
                     enabling real-time, modern client engagement.
                   </p>
@@ -689,13 +704,13 @@ export default function Page() {
       {/* Unmatched Salesforce + SAP Competency section */}
       <section className="md:pt-[105] pt-[52px]">
         <div className="bg-[#E6F7FF]  custom-container">
-          <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]  md:pt-[84px] pt-[50px]">
+          <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]  md:pt-[84px] pt-[50px] leading-tight">
             Unmatched Salesforce + SAP Competency
           </h2>
-          <h3 className="4xl:text-[38px] xl:text-[26px] text-[20px] md:py-7 py-5 font-semibold">
+          <h3 className="4xl:text-[38px] xl:text-[26px] text-[20px] md:py-7 py-5 font-semibold leading-tight">
             Built for Financial Services
           </h3>
-          <p className="4xl:text-[22px] xl:text-[18px] text-[16px] w-full xl:w-[50%]  ">
+          <p className="4xl:text-[22px] xl:text-[18px] text-[16px] w-full xl:w-[50%] leading-tight ">
             Rialtes enables real-time, AI-ready data across Salesforce and SAP
             environments using Data Cloud and Zero Copy architecture:
           </p>
@@ -709,12 +724,12 @@ export default function Page() {
                     width={100}
                     height={100}
                     priority
-                    className="xl:w-[150px] xl:h-[150px] w-[100px] h-[100px]"
+                    className="4xl:w-[150px] 4xl:h-[150px] xl:w-[120px] xl:h-[120px] w-[100px] h-[100px]"
                   />
-                  <p className="mt-5 4xl:text-[28px] xl:text-[22px] text-[20px] text-[#006FBE] font-bold">
+                  <p className="mt-5 4xl:text-[28px] xl:text-[22px] text-[20px] text-[#006FBE] font-bold leading-tight">
                     Certified experts
                   </p>
-                  <p className="mt-5  4xl:text-[22px] xl:text-[18px] text-[16px] ">
+                  <p className="mt-5  4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight ">
                     in Salesforce FSC, Data Cloud, Agentforce AI, and SAP S/4
                     HANA.
                   </p>
@@ -726,12 +741,12 @@ export default function Page() {
                     width={100}
                     height={100}
                     priority
-                    className="xl:w-[150px] xl:h-[150px] w-[100px] h-[100px]"
+                    className="4xl:w-[150px] 4xl:h-[150px] xl:w-[120px] xl:h-[120px] w-[100px] h-[100px]"
                   />
-                  <p className="mt-5   4xl:text-[28px] xl:text-[22px] text-[20px] text-[#006FBE] font-bold">
+                  <p className="mt-5 4xl:text-[28px] xl:text-[22px] text-[20px] text-[#006FBE] font-bold leading-tight ">
                     150+ certifications
                   </p>
-                  <p className="mt-5  4xl:text-[22px] xl:text-[18px] text-[16px] ">
+                  <p className="mt-5  4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight  ">
                     in key financial services and technology modules.
                   </p>
                 </div>
@@ -742,12 +757,12 @@ export default function Page() {
                     width={100}
                     height={100}
                     priority
-                    className="xl:w-[150px] xl:h-[150px] w-[100px] h-[100px]"
+                    className="4xl:w-[150px] 4xl:h-[150px] xl:w-[120px] xl:h-[120px] w-[100px] h-[100px]"
                   />
-                  <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+                  <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight  ">
                     Global delivery from
                   </p>
-                  <p className="mt-5  4xl:text-[26px] xl:text-[22px] text-[20px] text-[#006FBE] font-bold">
+                  <p className="mt-5  4xl:text-[26px] xl:text-[22px] text-[20px] text-[#006FBE] font-bold leading-tight ">
                     US, Canada, India, and Singapore.
                   </p>
                 </div>
@@ -758,13 +773,13 @@ export default function Page() {
                     width={100}
                     height={100}
                     priority
-                    className="xl:w-[150px] xl:h-[150px] w-[100px] h-[100px]"
+                    className="4xl:w-[150px] 4xl:h-[150px] xl:w-[120px] xl:h-[120px] w-[100px] h-[100px]"
                   />
-                  <p className="mt-5 text-[#006FBE] font-bold 4xl:text-[28px] xl:text-[22px] text-[20px]">
+                  <p className="mt-5 text-[#006FBE] font-bold 4xl:text-[28px] xl:text-[22px] text-[20px] leading-tight ">
                     24x7 support
                   </p>
 
-                  <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+                  <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight  ">
                     for continuous innovation and optimization.
                   </p>
                 </div>

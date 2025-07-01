@@ -6,6 +6,105 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 
 export default function page() {
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Salesforce Financial Services Cloud Consulting & Implementation Services",
+        "alternateName": "RialFinance+ Salesforce FSC Services",
+        "url": "https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/",
+        "description": "Salesforce Financial Services Cloud Consulting by Rialtes’ RialFinance+ offers AI-led advisory, implementation, and post-go-live support for FSC success.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com",
+            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "sameAs": [
+                "https://www.linkedin.com/company/rialtes-technologies-llc",
+                "https://x.com/Rialtestech",
+                "https://www.youtube.com/@rialtes"
+            ]
+        },
+        "areaServed": [
+            { "@type": "Country", "name": "United States" },
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Country", "name": "Singapore" },
+            { "@type": "Country", "name": "India" },
+            { "@type": "Continent", "name": "Europe" }
+        ],
+        "serviceType": "Salesforce FSC Strategy, AI Advisory, Custom Implementation, and Support",
+        "category": "Salesforce Financial Services Cloud Consulting",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "RialFinance+ FSC Services Catalog",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Advisory & AI-Led Strategy",
+                        "description": "Financial services strategy aligned to FSC features, AI use cases, and regulatory needs across retail, commercial, and corporate banking."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Implementation & Configuration",
+                        "description": "Certified Salesforce FSC implementation tailored to banking, lending, insurance, and asset management workflows with full compliance."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Agentforce & AI Integration",
+                        "description": "Pre-built bots and AI modules for onboarding, fraud detection, lending, and wealth — seamlessly embedded into FSC via Agentforce."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Quality Assurance & Compliance",
+                        "description": "Risk and compliance validations, sandbox testing, UAT, and security checks aligned with global financial regulations."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Integration with SAP & Data Cloud",
+                        "description": "Zero Copy Data integration with Salesforce and SAP ecosystems for a unified client profile and real-time financial insights."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Post Go-Live Support & Enhancements",
+                        "description": "Global 24/7 support, training, enhancement sprints, FSC optimizations, and AI performance monitoring via RialFinance+."
+                    }
+                }
+            ]
+        },
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Certified Salesforce Financial Cloud Expertise",
+                "value": "Experts in FSC, Data Cloud, Agentforce, and industry modules like lending, insurance, and wealth management."
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "AI-Driven FSC Transformation with Agentforce",
+                "value": "Conversational AI, compliance automation, and customer intelligence powered by Salesforce Agentforce."
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Integrated Real Estate & Finance with Exelona",
+                "value": "Extend FSC to manage real estate portfolios, leasing, investor services, and revenue — all in one platform."
+            }
+        ]
+    }
     const startWithData = [
         "Pre-built AI bots for customer onboarding, lending, service, and wealth advisory.",
         "Agentforce enablement workshops for rapid AI readiness.",
@@ -68,8 +167,8 @@ export default function page() {
                 "Integrated mobile banking journeys and self-service portals.",
                 "Branchless banking workflows for enhanced customer reach.",
             ],
-            mobImg: "/images/services/rial-finance/retail-banking-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
+            deskImg: "/images/services/rial-finance/retail-banking-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
         },
         {
             id: "2",
@@ -82,8 +181,8 @@ export default function page() {
                 "Loan origination and approval workflows.",
                 "Seamless client onboarding and account servicing.",
             ],
-            mobImg: "/images/services/rial-finance/commercial-banking-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
+            deskImg: "/images/services/rial-finance/commercial-banking-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
         },
         {
             id: "3",
@@ -96,8 +195,8 @@ export default function page() {
                 "Personalized rate offers and pre-qualification assessments.",
                 "Customer self-service for application tracking and management.",
             ],
-            mobImg: "/images/services/rial-finance/mortgage-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/mortgage-mob.webp"
+            deskImg: "/images/services/rial-finance/mortgage-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/mortgage-mob.webp"
         },
         {
             id: "4",
@@ -110,8 +209,8 @@ export default function page() {
                 "Integrated financial planning and goal tracking.",
                 "Advisor collaboration portals and automated client reports.",
             ],
-            mobImg: "/images/services/rial-finance/wealth-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/wealth-mob.webp"
+            deskImg: "/images/services/rial-finance/wealth-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/wealth-mob.webp"
         },
         {
             id: "5",
@@ -124,8 +223,8 @@ export default function page() {
                 "Integrated policy servicing and claims management.",
                 "Broker-dealer collaboration platforms.",
             ],
-            mobImg: "/images/services/rial-finance/agencies-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/agencies-mob.webp"
+            deskImg: "/images/services/rial-finance/agencies-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/agencies-mob.webp"
         },
         {
             id: "6",
@@ -138,8 +237,8 @@ export default function page() {
                 "Risk and compliance management dashboards.",
                 "Integration with ERP and Treasury platforms.",
             ],
-            mobImg: "/images/services/rial-finance/corporate-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/corporate-mob.webp"
+            deskImg: "/images/services/rial-finance/corporate-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/corporate-mob.webp"
         },
         {
             id: "7",
@@ -152,22 +251,21 @@ export default function page() {
                 "Personalized investor communications and portals.",
                 "Risk and performance analytics dashboards.",
             ],
-            mobImg: "/images/services/rial-finance/asset-desk.webp",
-            deskImg: "/images/services/rial-finance/Mobile/asset-mob.webp"
+            deskImg: "/images/services/rial-finance/asset-desk.webp",
+            mobImg: "/images/services/rial-finance/Mobile/asset-mob.webp"
         },
     ]
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Retail Business Consulting Services and Omnichannel Solutions | Rialtes"
-                description="Retail+ by Rialtes offers expert-led Retail Business Consulting Services and AI-powered Omnichannel Solutions. Start your retail transformation now."
-                keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
+                title="Salesforce Financial Services Cloud Consulting | RialFinance+"
+                description="Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support."
+                canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/"
             />
-            {/* <script
+            <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 {/* Desktop Image */}
@@ -198,9 +296,9 @@ export default function page() {
                             <h3 className="text-[18px] md:text-[24px] font-bold">
                                 RialFinance+
                             </h3>
-                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
+                            <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
                                 Empowering Financial Services with RialFinance+
-                            </h2>
+                            </h1>
                             <h2 className="text-[#000000] text-[20px] leading-tight xl:text-[28px] 4xl:text-[35px] mt-[14px] lg:mt-[46px] font-bold 4xl:w-[80%]">
                                 Transformative Salesforce Solutions for the Future of Finance
                             </h2>
@@ -214,9 +312,9 @@ export default function page() {
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div>
-                    <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
+                    <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
                         AI-Powered Financial Services. <div className="sm:block hidden" /> Personalized Client Journeys. <div className="sm:block hidden" /> Seamless Omnichannel Engagement.
-                    </h1>
+                    </h2>
                     <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%]">
                         At Rialtes, we enable financial institutions to lead with innovation and trust. Our RialFinance+ Managed Services deliver advisory, implementation, customization, AI integration, and post-go-live support, all unified to transform your Salesforce Financial Services Cloud (FSC) experience.
                         <br />

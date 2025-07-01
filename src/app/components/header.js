@@ -175,7 +175,7 @@ const Header = () => {
             { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
             { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' },
             { label: 'Advantage+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' },
-            { label: 'RialFinance+', href: '/services/lob/rial-finance' }
+            { label: 'RialFinance+', href: '/services/lob/salesforce-fsc-consulting-rialfinanceplus/' }
           ],
 
 
@@ -845,7 +845,7 @@ const Header = () => {
                               onHover={() => { }} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="RialFinance" link="/services/lob/rial-finance" onClick={(e) => handleLinkClick(e, "/services/lob/rial-finance")}
+                            <MenuItem className="font-bold text-[#2f78c4]" label="RialFinance+" link="/services/lob/salesforce-fsc-consulting-rialfinanceplus/" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-fsc-consulting-rialfinanceplus/")}
                               onHover={() => { }} />
                           </div>
                         </div>
@@ -978,7 +978,7 @@ const Header = () => {
                     Non-Profit
                   </div>
                    <div
-                    className={`cursor-pointer mt-3 font-bold ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClick("financeIndustry")}
                   >
                    Finance 
@@ -1099,12 +1099,11 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5">Bringing Digital Transformation to Financial Services</div>
-                        <p className="mt-3">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
-                        <button className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-2 px-6 mt-4">
-                          <Link href='/industry/financial-services-salesforce-fsc-sap-consulting' onClick={(e) => handleLinkClick(e, "/industry/financial-services-salesforce-fsc-sap-consulting")}
-                          >Let's Begin</Link>
-                        </button>
+                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Bringing Digital Transformation to Financial Services</div>
+                        <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
+                     
+                          <Link href='/industry/financial-services-salesforce-fsc-sap-consulting' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/financial-services-salesforce-fsc-sap-consulting")}
+                        >Let's Begin</Link>
                       </div>
                     </div>
                   </div>
