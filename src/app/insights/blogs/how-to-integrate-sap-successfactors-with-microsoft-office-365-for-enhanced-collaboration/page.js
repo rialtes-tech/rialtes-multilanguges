@@ -223,7 +223,7 @@ export default function Page() {
           </div>
           <div className="py-3"></div>
           <div className="container pl-0 ">
-            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[760px] 4xl:w-[1154px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration</h1>
           </div>
 
           <div className="container mx-auto pl-0">

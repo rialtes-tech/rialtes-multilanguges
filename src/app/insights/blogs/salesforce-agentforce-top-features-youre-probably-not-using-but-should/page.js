@@ -179,7 +179,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto pl-0">
-            <h1 className="text-[#000000] font-semibold pb-8  max-[1084px] xl:w-[1084px] leading-tight">Powerful Features of Agentforce You Should Be Using</h1>
+            <h1 className="text-[#000000] font-semibold pb-8  xl:w-[750px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Powerful Features of Agentforce You Should Be Using</h1>
           </div>
 
           <div className="container mx-auto pl-0">
