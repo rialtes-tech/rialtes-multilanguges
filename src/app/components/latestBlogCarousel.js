@@ -12,8 +12,8 @@ export default function BlogsCarousel() {
      {
      id: 13,
     image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
-    category: "AI",
-    industry: "Pharma",
+    category: "General",
+    industry: "Manufacturing",
     date: "01 July 2025",
     url: '/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities',
     title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
