@@ -279,7 +279,7 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight 4xl:w-[1084px] xl:w-[754px] text-[26px] xl:text-[40px] 4xl:text-[60px]">
               Role of Sanctioned Party List Screening in SAP GTS for Third-Party
               Transactions
             </h1>

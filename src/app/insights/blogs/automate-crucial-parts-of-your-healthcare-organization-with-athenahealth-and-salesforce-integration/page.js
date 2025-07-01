@@ -218,23 +218,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  {/* <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div> */}
+                
                   <div className="max-w-[40px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
@@ -257,7 +241,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">Automate Your Healthcare Organization with athenahealth and Salesforce Integration</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[750px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Automate Your Healthcare Organization with athenahealth and Salesforce Integration</h1>
           </div>
 
           <div className="">

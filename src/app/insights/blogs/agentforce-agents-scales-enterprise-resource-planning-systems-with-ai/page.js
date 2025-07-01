@@ -257,7 +257,7 @@ export default function Page() {
           </div>
           <div className="pt-6"></div>
           <div className="container pl-0 mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight ">How Agentforce Agents Scale ERP Systems with AI</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[1084px]  xl:w-[884px] text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight">How Agentforce Agents Scale ERP Systems with AI</h1>
           </div>
 
           <div className="container pl-0 mx-auto">

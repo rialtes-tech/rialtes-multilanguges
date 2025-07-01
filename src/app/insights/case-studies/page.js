@@ -491,7 +491,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <HeroSection title="Rial Results, Rial Impact" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
+      <HeroSection title="Success Stories That Inspire" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
       <section
         className="custom-container">
 

@@ -9,6 +9,16 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+     {
+     id: 13,
+    image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
+    category: "General",
+    industry: "Manufacturing",
+    date: "01 July 2025",
+    url: '/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities',
+    title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
+    description: "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable.",
+  },
     {
       id: 11,
       image: "/images/blog/sap-ariba-for-carousel.webp",
@@ -36,8 +46,8 @@ export default function BlogsCarousel() {
       image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
       category: "AI",
       industry: "Pharma",
-      date: "30 April 2025",
-      url: 'insights/blogs/Agentic-Pharma-The-AI-driven-era-of-the-Pharmaceutical-Industry',
+      date: "30 May 2025",
+      url: 'insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
       title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
       description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
     },
