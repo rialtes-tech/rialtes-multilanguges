@@ -320,7 +320,7 @@ export default function page() {
             <section className="custom-container xl:mt-[135px] mt-[42px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
-                        <h2 className="2xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[90%] lg:w-[80%] xl:w-[90%] 2xl:w-full">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[90%] lg:w-[80%] xl:w-[90%] 2xl:w-[70%] 4xl:w-full">
                             Reimagine Salesforce. Empower Your Agents. Deliver Customer Magic.
                         </h2>
                     </div>
