@@ -175,7 +175,7 @@ const Header = () => {
             { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
             { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' },
             { label: 'Advantage+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' },
-            { label: 'RialFinance+', href: '/services/lob/rial-finance' }
+            { label: 'RialFinance+', href: '/services/lob/salesforce-fsc-consulting-rialfinanceplus/' }
           ],
 
 
@@ -845,7 +845,7 @@ const Header = () => {
                               onHover={() => { }} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label="RialFinance" link="/services/lob/rial-finance" onClick={(e) => handleLinkClick(e, "/services/lob/rial-finance")}
+                            <MenuItem className="font-bold text-[#2f78c4]" label="RialFinance+" link="/services/lob/salesforce-fsc-consulting-rialfinanceplus/" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-fsc-consulting-rialfinanceplus/")}
                               onHover={() => { }} />
                           </div>
                         </div>
