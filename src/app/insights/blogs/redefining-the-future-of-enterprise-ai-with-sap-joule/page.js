@@ -246,16 +246,9 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className=" mx-auto grid xl:grid-cols-12 grid-cols-1">
-            <div className="xl:col-span-8 col-span-12">
-              <h1 className="text-[#000000] font-semibold  pb-6  xl:max-w-[1084px] xl:w-[1084px] leading-tight">Redefining the Future of Enterprise AI with SAP Joule</h1>
-
-            </div>
-            <div className="xl:col-span-2 col-span-12"></div>
-          </div>
-
-          <div className="container pl-0 mx-auto">
+      <div className="container pl-0 mx-auto">
             <div className="xl:max-w-[1084px] xl:w-[1084px]">
+              <h1 className="text-[#000000] font-semibold  pb-6  4xl:w-[1084px] xl:w-[720px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Redefining the Future of Enterprise AI with SAP Joule</h1>
 
               <p className="text-black">SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. Launched in 2023 and updated at the 2024 SAP TechEd event, Joule reflects SAP’s commitment to advancing business AI. By integrating natural language processing and generative AI, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> Joule transforms how businesses interact with SAP,</Link>  making processes like submitting timesheets, updating project plans, and approving purchase orders more natural and efficient. Collaborative AI agents can unite expertise across business functions to address complex workflows. This evolution enables Joule to support 80% of SAP’s most-used tasks, further reducing organizational silos.</p>
               <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">A Quick Glimpse at SAP Joule AI</h2>
