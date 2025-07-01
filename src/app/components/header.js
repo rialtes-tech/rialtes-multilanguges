@@ -252,7 +252,7 @@ const Header = () => {
           label: 'Non-Profit', href: '/industry/nonprofit-digital-transformation-it-solutions',
         },
          {
-          label: 'Finance', href: '/industry/financial-services-salesforce-fsc-sap-consulting',
+          label: 'Finance', href: '/industry/finance-industry-digital-transformation-services-solutions',
         },
       ],
     },
@@ -1102,7 +1102,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Bringing Digital Transformation to Financial Services</div>
                         <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
                      
-                          <Link href='/industry/financial-services-salesforce-fsc-sap-consulting' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/financial-services-salesforce-fsc-sap-consulting")}
+                          <Link href='/industry/finance-industry-digital-transformation-services-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions")}
                         >Let's Begin</Link>
                       </div>
                     </div>
