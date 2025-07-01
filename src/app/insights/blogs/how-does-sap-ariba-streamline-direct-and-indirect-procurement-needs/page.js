@@ -247,7 +247,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-[58rem] w-full  xl:max-w-[1084px] xl:w-[1084px] leading-tight">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[775px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
           </div>
 
           <div className="">

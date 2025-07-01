@@ -159,13 +159,13 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 w-full">Agentforce Testing Center: Redefining AI Testing with Synthetic Data</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[804px] text-[26px] xl:text-[45px] 4xl:text-[60px] leading-tight">Agentforce Testing Center: Redefining AI Testing with Synthetic Data</h1>
           </div>
 
           <div>
             <div className="">
 
-              <p className="text-black pb-4">Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production. Agentforce, launched for general availability in September, is a low-code suite designed to help enterprises create AI agents capable of autonomous reasoning for AI-powered solutions across sales, service, marketing, and commerce. The Agentforce Testing Center offers tools to help enterprise users test and evaluate agents before deploying them into production. These agents operate autonomously, a core aspect of agentic AI—a growing enterprise strategy to transform business processes by automating specific functions without human involvement.</p>
+              <p className="text-black pb-4 ">Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production. Agentforce, launched for general availability in September, is a low-code suite designed to help enterprises create AI agents capable of autonomous reasoning for AI-powered solutions across sales, service, marketing, and commerce. The Agentforce Testing Center offers tools to help enterprise users test and evaluate agents before deploying them into production. These agents operate autonomously, a core aspect of agentic AI—a growing enterprise strategy to transform business processes by automating specific functions without human involvement.</p>
 
               <div className="py-6"></div>
 

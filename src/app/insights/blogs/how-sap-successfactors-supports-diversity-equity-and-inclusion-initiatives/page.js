@@ -239,7 +239,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[750px] 4xl:w-[1084px] leading-tight  text-[26px] xl:text-[40px] 4xl:text-[60px]">How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives</h1>
           </div>
 
           <div>
