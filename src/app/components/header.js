@@ -251,7 +251,7 @@ const Header = () => {
         {
           label: 'Non-Profit', href: '/industry/nonprofit-digital-transformation-it-solutions',
         },
-         {
+        {
           label: 'Finance', href: '/industry/finance-industry-digital-transformation-services-solutions',
         },
       ],
@@ -261,7 +261,7 @@ const Header = () => {
       links: [
         { label: 'Overview', href: '/about-us' },
         // { label: 'Contact Us', href: '/contact-us' },
-        { label: 'Partnership', href: '/about-us/global-alliences' },
+        { label: 'Partnership', href: '/about-us/global-alliances' },
         { label: 'Culture and Values', href: '/about-us/our-values' },
         { label: 'News and Press Releases', href: '/insights/news' },
         { label: 'Corporate Citizenship', href: '/about-us/impact-and-social-responsibility' },
@@ -977,11 +977,11 @@ const Header = () => {
                   >
                     Non-Profit
                   </div>
-                   <div
+                  <div
                     className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClick("financeIndustry")}
                   >
-                   Finance 
+                    Finance
                   </div>
                 </div>
                 {openSection === "automotive" && (
@@ -1080,9 +1080,9 @@ const Header = () => {
                   </div>
                 )}
 
-             
 
-                   {openSection === "nonProfitIndustry" && (
+
+                {openSection === "nonProfitIndustry" && (
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
@@ -1095,14 +1095,14 @@ const Header = () => {
                   </div>
                 )}
 
-                   {openSection === "financeIndustry" && (
+                {openSection === "financeIndustry" && (
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Bringing Digital Transformation to Financial Services</div>
                         <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
-                     
-                          <Link href='/industry/finance-industry-digital-transformation-services-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions")}
+
+                        <Link href='/industry/finance-industry-digital-transformation-services-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1163,7 +1163,7 @@ const Header = () => {
                       <div className="grid grid-cols-2 gap-32">
                         <div>
                           <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} onHover={() => { }} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Partnership" link="/about-us/global-alliences" onClick={(e) => handleLinkClick(e, "/about-us/global-alliences")}
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Partnership" link="/about-us/global-alliances" onClick={(e) => handleLinkClick(e, "/about-us/global-alliances")}
                             onHover={() => { }} />
                           <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} onHover={() => { }} />
                         </div>
