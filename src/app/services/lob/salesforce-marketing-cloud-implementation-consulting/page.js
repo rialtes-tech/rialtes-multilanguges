@@ -229,8 +229,7 @@ export default function Page() {
                 title="Salesforce Marketing Cloud Consulting & Implementation Services"
                 description="Salesforce marketing cloud consulting & implementation services by Rialtes Advantage+ deliver AI-powered, personalized journeys across channels, driving real ROI"
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting
-"
+                canonical="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting/"
             />
             <script
                 type="application/ld+json"
