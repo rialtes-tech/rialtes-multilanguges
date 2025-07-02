@@ -123,9 +123,9 @@ export default function Page() {
         className="custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[900px]">
           <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight max-[350px]:text-[22px] text-[26px] md:text-[40px] xl:text-[60px]">Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense</h1>
+            <h1 className="text-[#000000] py-6 leading-tight  text-[26px]  4xl:text-[60px] xl:text-[45px]">Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense</h1>
           </div>
         
           <div className="">
@@ -179,7 +179,7 @@ export default function Page() {
           <div className="">
             <div className="">
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] md:text-[22px] text-[20px] pb-4">Client Overview</h2>
-              <p className="text-black">A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system. The system was built on a <span className="font-bold">Java/J2EE-based dealer portal,</span> which had become cumbersome, difficult to maintain, and lacked the flexibility required to support evolving business needs. The client needed a comprehensive, modern solution to streamline warranty claims, enhance dealer interaction, and optimize overall warranty management processes.</p>
+              <p className="text-black">A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system. The system was built on a Java/J2EE-based dealer portal, which had become cumbersome, difficult to maintain, and lacked the flexibility required to support evolving business needs. The client needed a comprehensive, modern solution to streamline warranty claims, enhance dealer interaction, and optimize overall warranty management processes.</p>
 
               <div className="py-6"></div>
 
@@ -206,17 +206,17 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4 md:text-[22px]">The AutoSense Solution by Rialtes </h2>
 
-              <p className="text-black pb-4">To address these challenges, the automotive manufacturer partnered with <span className="font-bold">Rialtes,</span> a global consulting company known for its expertise in AI-powered digital solutions, to deliver a state-of-the-art <span className="font-bold">Warranty Management System</span> built on <span className="font-bold">Salesforce Automotive Cloud. </span> Rialtes implemented its signature service, <span className="font-bold">AutoSense,</span> to provide a modern, scalable, and integrated warranty management platform.</p>
+              <p className="text-black pb-4">To address these challenges, the automotive manufacturer partnered with Rialtes, a global consulting company known for its expertise in AI-powered digital solutions, to deliver a state-of-the-art Warranty Management System built on Salesforce Automotive Cloud.  Rialtes implemented its signature service, AutoSense, to provide a modern, scalable, and integrated warranty management platform.</p>
 
 <h3 className="h3-bold pb-4 xl:text-[22px] text-[18px] md:text-[19px]">Approach</h3>
               <div className="pl-2">
                 <ol className="list-decimal marker:text-[#000] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">	Design Workshops </h4>: Rialtes began the project with a series of <span className="font-bold">design workshops,</span> engaging key stakeholders from the manufacturer’s warranty, dealer management, and IT teams. These workshops helped define the specific pain points, business requirements, and goals for the new warranty management system.</li>
+                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">	Design Workshops </h4>: Rialtes began the project with a series of design workshops, engaging key stakeholders from the manufacturer’s warranty, dealer management, and IT teams. These workshops helped define the specific pain points, business requirements, and goals for the new warranty management system.</li>
 
-                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Agile Development Process </h4>: Rialtes adopted a <span className="font-bold">detailed agile plan,</span> breaking the solution into manageable sprints to ensure timely delivery of key functionalities. Each sprint focused on delivering high-priority features and capabilities, with regular feedback loops to ensure alignment with the client’s objectives.</li>
-                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px]  md:text-[19px]">Salesforce Automotive Cloud Integration </h4>: The warranty management portal was built on <span className="font-bold">Salesforce Automotive Cloud,</span> leveraging its powerful features to streamline warranty claims, automate workflows, and provide real-time visibility into claims processing, inventory, and vehicle lifecycle data.</li>
+                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Agile Development Process </h4>: Rialtes adopted a detailed agile plan, breaking the solution into manageable sprints to ensure timely delivery of key functionalities. Each sprint focused on delivering high-priority features and capabilities, with regular feedback loops to ensure alignment with the client’s objectives.</li>
+                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px]  md:text-[19px]">Salesforce Automotive Cloud Integration </h4>: The warranty management portal was built on Salesforce Automotive Cloud, leveraging its powerful features to streamline warranty claims, automate workflows, and provide real-time visibility into claims processing, inventory, and vehicle lifecycle data.</li>
 
-                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] "> SAP S/4 HANA Integration for Order & Financial Management </h4>:  Rialtes ensured the solution integrated seamlessly with <span className="font-bold">SAP S/4 HANA</span> to optimize order processing, financial tracking, and warranty claim financial settlements, reducing errors and ensuring accurate invoicing.</li>
+                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] "> SAP S/4 HANA Integration for Order & Financial Management </h4>:  Rialtes ensured the solution integrated seamlessly with SAP S/4 HANA to optimize order processing, financial tracking, and warranty claim financial settlements, reducing errors and ensuring accurate invoicing.</li>
 
                 </ol>
               </div>
@@ -272,9 +272,9 @@ export default function Page() {
 
                   <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">	Agile Solution Development </h4>: Rialtes followed an agile development methodology, delivering the solution in defined sprints, ensuring iterative progress and flexibility to adapt to emerging needs.</li>
 
-                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px]  md:text-[19px]"> Custom Warranty Management Portal Development </h4>: The warranty management portal was built on <span className="font-bold">Salesforce Automotive Cloud,</span> featuring warranty claims submission, order management, inventory tracking, and vehicle lifecycle management.</li>
+                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px]  md:text-[19px]"> Custom Warranty Management Portal Development </h4>: The warranty management portal was built on Salesforce Automotive Cloud, featuring warranty claims submission, order management, inventory tracking, and vehicle lifecycle management.</li>
 
-                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] "> Seamless System Integration </h4>:  Rialtes integrated AutoSense with <span className="font-bold"> SAP S/4 HANA</span>  for order and financial management, ensuring accurate financial tracking and efficient order fulfillment.</li>
+                  <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] "> Seamless System Integration </h4>:  Rialtes integrated AutoSense with SAP S/4 HANA  for order and financial management, ensuring accurate financial tracking and efficient order fulfillment.</li>
 
                    <li className="pb-4"><h4 className=" h3-bold inline xl:text-[20px] text-[17px]  md:text-[19px]">	Testing & Quality Assurance </h4>: Rialtes ensured that the solution met rigorous quality standards, conducting extensive testing to ensure the platform’s performance, security, and usability.</li>
 
@@ -287,8 +287,8 @@ export default function Page() {
           </div>
             <div className="py-6"></div>
  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4 md:text-[22px]">Conclusion</h2>
-              <p className="text-black pb-4">Rialtes successfully delivered a <span className="font-bold">transformative warranty management system </span>for the automotive manufacturer, shifting from the outdated Java/J2EE-based portal to a powerful, integrated solution powered by <span className="font-bold">Salesforce Automotive Cloud</span> and integrated with <span className="font-bold"> SAP S/4 HANA.</span> The result was a more efficient, scalable, and user-friendly warranty management process that significantly enhanced dealer performance, reduced claim resolution times, and improved customer satisfaction.</p>
-              <p className="text-black">With the <span className="font-bold">AutoSense</span> service, Rialtes empowered the client to streamline its warranty claims management, optimize workflows, and gain real-time insights into warranty data, positioning the manufacturer for continued growth in a competitive automotive market.</p>
+              <p className="text-black pb-4">Rialtes successfully delivered a transformative warranty management system for the automotive manufacturer, shifting from the outdated Java/J2EE-based portal to a powerful, integrated solution powered by Salesforce Automotive Cloud and integrated with  SAP S/4 HANA. The result was a more efficient, scalable, and user-friendly warranty management process that significantly enhanced dealer performance, reduced claim resolution times, and improved customer satisfaction.</p>
+              <p className="text-black">With the AutoSense service, Rialtes empowered the client to streamline its warranty claims management, optimize workflows, and gain real-time insights into warranty data, positioning the manufacturer for continued growth in a competitive automotive market.</p>
         </div>
       </section>
 
