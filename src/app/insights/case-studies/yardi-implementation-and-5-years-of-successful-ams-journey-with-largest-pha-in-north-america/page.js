@@ -113,9 +113,9 @@ export default function Page() {
       <section
         className="custom-container"
       >
-        <div className="py-10 bg-white xl:max-w-[1080px] xl:w-[1080px]">
+        <div className="py-10 bg-white 4xl:max-w-[1080px] 4xl:w-[1080px] xl:w-[900px]">
           <div>
-            <h1 className="text-[#000000] py-6 leading-tight text-[26px] md:text-[48px] xl:text-[60px]">Trusted YARDI Partner for North America’s Largest PHA</h1>
+            <h1 className="text-[#000000] py-6 leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">Trusted YARDI Partner for North America’s Largest PHA</h1>
           </div>
           <div className="py-2"></div>
           <div>
