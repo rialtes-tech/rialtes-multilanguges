@@ -173,7 +173,7 @@ export default function Agentforce() {
             />
 
             <div className="relative group overflow-hidden">
-                <div className="relative w-full h-[260px] md:h-[400px] xl:h-[540px] lg:h-[520px] 4xl:h-[800px] 2xl:h-[700px]">
+                <div className="relative w-full h-[360px] md:h-[400px] xl:h-[540px] lg:h-[520px] 4xl:h-[800px] 2xl:h-[700px]">
                     <Image
                         src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
                         alt="Salesforce Consulting Team"
@@ -183,12 +183,12 @@ export default function Agentforce() {
                     />
                 </div>
 
-                <div className="grid xl:grid-cols-12   absolute px-6 lg:pr-0 top-[10%] lg:top-[24%] md:top-[15%] text-white w-full">
-                    <div className="xl:col-span-7 lg:col-span-11 md:col-span-11 col-span-12"></div>
+                <div className="grid xl:grid-cols-12 absolute px-6 lg:pr-0 top-[14%] lg:top-[24%] md:top-[15%] text-white w-full">
+                    <div className="xl:col-span-6 lg:col-span-11 sm:col-span-11 col-span-12"></div>
 
-                    <div className="xl:col-span-4  space-y-4  ">
-                        <h4 className="font-bold lg:text-[24px]  text-[18px] md:text-[20px]" >Agentforce</h4>
-                        <h2 className="  mt-3  leading-tight  2xl:text-[56px] xl:text-[40px] md:text-[30px] 4xl:text-[60px] w-[300px] lg:w-[400px] 2xl:w-[600px] xl:w-[400px] 4xl:w-[700px] md:w-[280px] lg:text-[38px]  ">
+                    <div className="xl:col-span-5 space-y-4 xl:pl-[90px]">
+                        <h4 className="font-bold lg:text-[24px] text-[18px] md:text-[20px]" >Agentforce</h4>
+                        <h2 className="mt-3 leading-tight 2xl:text-[56px] xl:text-[40px] md:text-[30px] 4xl:text-[60px] w-[300px] lg:w-[400px] 2xl:w-[600px] xl:w-[400px] 4xl:w-[600px] md:w-[280px] lg:text-[38px]">
                             Humans + Agents Automate Routine Tasks to Drive Customer Success
                         </h2>
                         <div className="">

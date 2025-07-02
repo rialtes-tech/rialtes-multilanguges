@@ -1,7 +1,7 @@
 
 "use client";
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
@@ -173,24 +173,24 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",title:"News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
-        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp',title:"Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp',title:"Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
+        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCurrentSlide((prev) => (prev + 1) % slides.length);
-    //     }, 3000);
-    //     return () => clearInterval(interval);
-    // }, [slides.length]);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentSlide((prev) => (prev + 1) % slides.length);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [slides.length]);
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         handleNextInsights();
-    //     }, 5000);
-    //     return () => clearInterval(interval);
-    // }, []);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNextInsights();
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <div>
@@ -232,7 +232,7 @@ const Home = () => {
                                     </div>
                                 </Link>
 
-                                <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
+                                <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
                                     <div
                                         className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
@@ -265,7 +265,7 @@ const Home = () => {
                                     </svg>
                                 </button>
 
-                                <button  aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <button aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                                     <svg viewBox="0 0 24 24" fill="black" width="45">
                                         <polygon points="9,6 15,12 9,18" />
                                     </svg>
@@ -341,9 +341,9 @@ const Home = () => {
                                             <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
                                             <div className={`relative z-10 p-6 text-white`}>
                                                 <p className="mb-5 text-[18px] ">{success.title}</p>
-                                                <p className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
+                                                <div className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
                                                     {success.description}
-                                                </p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -450,7 +450,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="flex">
-                                    <button  aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
+                                    <button aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
                                         <svg viewBox="0 0 24 24" fill="black" width="24">
                                             <polygon points="15,6 9,12 15,18" />
                                         </svg>
@@ -491,12 +491,6 @@ const Home = () => {
                             Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.
                         </p>
                     </p>
-
-                    {/*
-    <button className="mt-8 xl:mt-16 px-6 py-4 text-sm xl:text-xl bg-[#134874] text-white font-bold border border-white hover:bg-opacity-90 transition">
-      Explore More
-    </button>
-    */}
                 </div>
                 <div
                     ref={refs[4]}
@@ -510,7 +504,7 @@ const Home = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        priority
+                        loading="lazy"
                     />
                 </div>
             </section>

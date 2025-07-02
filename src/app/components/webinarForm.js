@@ -124,7 +124,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
             window.location.href = redirectUrl;
 
         } catch (err) {
-            console.error("Form submission failed", err);
+            // console.error("Form submission failed", err);
             setError("There was a problem submitting the form. Please try again.");
         }
     };
