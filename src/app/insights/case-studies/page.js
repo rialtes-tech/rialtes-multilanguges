@@ -34,10 +34,10 @@ const latestCaseStudy = [
   {
     id: 13,
     image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
-    industry: "Manufacturing",
+    industry: "Automotive",
     date: "30 June 2025",
     url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
-    title: "Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense",
+    title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
     description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
   },
   {
@@ -56,7 +56,7 @@ const latestCaseStudy = [
     industry: "Manufacturing",
     date: "03 June 2025",
     url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-    title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+    title: "Revving Up Dealer Management with AutoSense by Rialtes",
     description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
   },
   {
@@ -91,7 +91,7 @@ const latestCaseStudy = [
     id: 3,
     image: "/images/case-studies/case study 3_thumb_n.webp",
     industry: "Manufacturing",
-    date: "8 Jan 2025",
+    date: "08 Jan 2025",
     url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
     title: "DevOps Transformation using Copado and Salesforce",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
@@ -136,7 +136,7 @@ const latestCaseStudy = [
     id: 8,
     image: "/images/case-studies/case-study-6_thumb.webp",
     industry: "Real Estate",
-    date: "4 Sept 2024",
+    date: "04 Sept 2024",
     url: "/insights/case-studies/yardi-managed-services",
     title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
@@ -316,10 +316,10 @@ const FeaturedCarousel = () => {
     {
       id: 6,
       imgSrc: '/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp',
-      category: "Manufacturing",
+      category: "Automotive",
       date: "30 June 2025",
       url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
-      title: "Leading Automotive Manufacturer Achieved 35% higher customer satisfaction score with AutoSense",
+      title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
       description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
     },
     {
@@ -337,36 +337,36 @@ const FeaturedCarousel = () => {
       category: 'Manufacturing',
       date: '03 June 2025',
       url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-      title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+      title: "Revving Up Dealer Management with AutoSense by Rialtes",
       description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
     },
-    {
-      id: 1,
-      imgSrc: '/images/case-studies/fiori-main-page.webp',
-      category: 'Manufacturing',
-      date: '28 May 2025',
-      url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-      title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-      description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
-    },
-    {
-      id: 2,
-      imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
-      category: 'Healthcare and Life Sciences',
-      date: '17 Nov 2024',
-      url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      title: 'Automating Order Processing in Healthcare using MuleSoft',
-      description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
-    },
-    {
-      id: 3,
-      imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
-      category: 'Healthcare and Life Sciences',
-      date: '16 Aug 2024',
-      url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-      title: 'Digitizing patient journey using Salesforce health cloud',
-      description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
-    }
+    // {
+    //   id: 1,
+    //   imgSrc: '/images/case-studies/fiori-main-page.webp',
+    //   category: 'Manufacturing',
+    //   date: '28 May 2025',
+    //   url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+    //   title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+    //   description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
+    // },
+    // {
+    //   id: 2,
+    //   imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
+    //   category: 'Healthcare and Life Sciences',
+    //   date: '17 Nov 2024',
+    //   url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+    //   title: 'Automating Order Processing in Healthcare using MuleSoft',
+    //   description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
+    // },
+    // {
+    //   id: 3,
+    //   imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
+    //   category: 'Healthcare and Life Sciences',
+    //   date: '16 Aug 2024',
+    //   url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+    //   title: 'Digitizing patient journey using Salesforce health cloud',
+    //   description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
+    // }
   ];
   const responsive = {
     desktop: {

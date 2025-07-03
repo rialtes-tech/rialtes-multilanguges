@@ -31,59 +31,58 @@ const schemaData = {
     "datePublished": "2025-05-28"
 }
 const slides = [
-    {
-        id: 3,
-        image: "/images/case-studies/case study 1_thumb_n.webp",
-        category: "Healthcare",
-        industry: "Real Estate",
-        date: "17 Nov 2024",
-        title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-        description: "A global medical technology company that develops and manufactures innovative products",
-        url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-    },
-    {
-        id: 4,
-        image: "/images/case-studies/case-study-4_thumb.webp",
-        category: "Real Estate",
-        industry: "Healthcare",
-        date: "14 Oct 2024",
-        title: "Omnichannel case management with Salesforce Service Cloud",
-        description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-    },
-    {
-        id: 6,
-        image: "/images/case-studies/case-study-6_thumb.webp",
-        category: "Healthcare",
-        industry: "Manufacturing",
-        date: "4 Sept 2024",
-        title: "Yardi Managed Services",
-        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        url: 'insights/case-studies/yardi-managed-services'
-    },
-    {
-        id: 7,
-        image: "/images/case-studies/case study 3_thumb_n.webp",
-        category: "SAP",
-        industry: "Retail & e-Commerce",
-        date: "25 Oct 2024",
-        title: "Streamlined DevOps using Copado and Salesforce",
-        description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-    },
-    {
-        id: 8,
-        image: "/images/case-studies/case-study-2_thumb_n.webp",
-        category: "Salesforce",
-        industry: "Hi-Tech",
-        date: "25 Oct 2024",
-        title: "RealForce Banking Module - ACH",
-        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        url: 'insights/case-studies/realForce-banking-module-ach'
-    },
-    // Add more blog objects as needed
+  {
+    id: 3,
+    image: "/images/case-studies/case study 1_thumb_n.webp",
+    category: "Healthcare",
+    industry: "Real Estate",
+    date: "17 Nov 2024",
+    title: "Automating Order Processing in Healthcare using MuleSoft",
+    description: "A global medical technology company that develops and manufactures innovative products",
+    url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+  },
+  {
+    id: 4,
+    image: "/images/case-studies/case-study-4_thumb.webp",
+    category: "Manufacturing",
+    industry: "Healthcare",
+    date: "14 Oct 2024",
+    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+    url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
+  },
+  {
+    id: 6,
+    image: "/images/case-studies/case-study-6_thumb.webp",
+    category: "Real Estate",
+    industry: "Manufacturing",
+    date: "04 Sept 2024",
+    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: 'insights/case-studies/yardi-managed-services'
+  },
+  {
+    id: 7,
+    image: "/images/case-studies/case study 3_thumb_n.webp",
+    category: "Manufacturing",
+    industry: "Retail & e-Commerce",
+    date: "08 Jan 2025",
+    title: "DevOps Transformation using Copado and Salesforce",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+    url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+  },
+  {
+    id: 8,
+    image: "/images/case-studies/case-study-2_thumb_n.webp",
+    category: "Real Estate",
+    industry: "Hi-Tech",
+    date: "22 Dec 2024",
+    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: 'insights/case-studies/realForce-banking-module-ach'
+  },
+  // Add more blog objects as needed
 ];
-
 
 export default function Page() {
       const fullUrl = "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori";
@@ -92,7 +91,7 @@ export default function Page() {
         <div className="min-h-screen bg-white">
             <Seo
                 title="SAP Fiori for Sales Order Prioritization in Manufacturing | Rialtes"
-                description="Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy"
+                description="Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy."
                 canonical="https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
             />
             <script
