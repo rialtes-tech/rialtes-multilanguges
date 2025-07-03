@@ -190,7 +190,6 @@ export default function Page() {
       <section
         className="custom-container"
       > 
-
         <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]  ">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
@@ -257,9 +256,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
 
-          <h1 className="text-[#000000] font-semibold pb-6 leading-tight  ">How SAP SuccessFactors Enhances Remote Work Management</h1>
-
-
+          <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[1084px]  xl:w-[724px] text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight">How SAP SuccessFactors Enhances Remote Work Management</h1>
 
           <div className="">
 

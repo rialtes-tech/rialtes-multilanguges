@@ -255,7 +255,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
          
-            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?</h1>
+            <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[745px] font-semibold pb-6 leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?</h1>
       
 
           <div className="">
@@ -338,7 +338,7 @@ export default function Page() {
               <p className="text-black pb-4">Agriculture is a market-driven industry that employs a large segment of the country’s population. Farming technology over the last few years has been enormously helpful in contributing more towards economic growth. Rialtes can assist you in implementing Agribusiness solutions from SAP that help Preserve soil fertility, prevent pollution, and protect biodiversity. We use SAP AI to automate manual tasks and check the status of crops using sensors.
                  <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}>
                  <span className="">Reach out to us </span></Link>
- to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
+                to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP.</p>
             </div>
           </div>
         </div>

@@ -477,7 +477,7 @@ const Home = () => {
                         }`}
                 >
 
-                    <p className="text-[#073259] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] 4xl:text-[140px] 4xl:leading-[219px] lg:text-[80px] font-extrabold">
+                    <div className="text-[#073259] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] 4xl:text-[140px] 4xl:leading-[219px] lg:text-[80px] font-extrabold">
                         <span>LIFE</span>
                         <span className="text-[#073259] text-[24px] leading-[32px] md:text-[36px] md:leading-[44px] 4xl:text-[54px] 4xl:leading-[73px] lg:text-[40px] font-extrabold">
                             @
@@ -490,7 +490,8 @@ const Home = () => {
                         <p className="text-[14px] leading-[20px] xl:text-[16px] xl:leading-[26px] 4xl:text-[20px] 4xl:leading-[30px] font-medium xl:mt-[27px] mt-[19px] xl:w-[90%] lg:w-[70%] md:w-[80%] w-[90%] ">
                             Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.
                         </p>
-                    </p>
+                    </div>
+
                 </div>
                 <div
                     ref={refs[4]}

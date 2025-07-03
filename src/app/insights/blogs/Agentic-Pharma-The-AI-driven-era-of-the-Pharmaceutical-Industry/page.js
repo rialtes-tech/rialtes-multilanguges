@@ -275,9 +275,8 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000]  pb-6 max-[1084px] xl:w-[1084px] leading-tight font-semibold">Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry</h1>
+            <h1 className="text-[#000000]  pb-6  4xl:w-[1084px] xl:w-[820px]  leading-tight font-semibold text-[26px] xl:text-[45px] 4xl:text-[60px]">Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry</h1>
           </div>
-
           <div>
             <div className="max-w-[1084px] xl:w-[1084px]">
 

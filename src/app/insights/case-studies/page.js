@@ -340,33 +340,33 @@ const FeaturedCarousel = () => {
       title: "Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
       description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
     },
-    {
-      id: 1,
-      imgSrc: '/images/case-studies/fiori-main-page.webp',
-      category: 'Manufacturing',
-      date: '28 May 2025',
-      url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-      title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-      description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
-    },
-    {
-      id: 2,
-      imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
-      category: 'Healthcare and Life Sciences',
-      date: '17 Nov 2024',
-      url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-      title: 'Automating Order Processing in Healthcare using MuleSoft',
-      description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
-    },
-    {
-      id: 3,
-      imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
-      category: 'Healthcare and Life Sciences',
-      date: '16 Aug 2024',
-      url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-      title: 'Digitizing patient journey using Salesforce health cloud',
-      description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
-    }
+    // {
+    //   id: 1,
+    //   imgSrc: '/images/case-studies/fiori-main-page.webp',
+    //   category: 'Manufacturing',
+    //   date: '28 May 2025',
+    //   url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+    //   title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+    //   description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
+    // },
+    // {
+    //   id: 2,
+    //   imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
+    //   category: 'Healthcare and Life Sciences',
+    //   date: '17 Nov 2024',
+    //   url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+    //   title: 'Automating Order Processing in Healthcare using MuleSoft',
+    //   description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
+    // },
+    // {
+    //   id: 3,
+    //   imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
+    //   category: 'Healthcare and Life Sciences',
+    //   date: '16 Aug 2024',
+    //   url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+    //   title: 'Digitizing patient journey using Salesforce health cloud',
+    //   description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
+    // }
   ];
   const responsive = {
     desktop: {
@@ -491,7 +491,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <HeroSection title="Rial Results, Rial Impact" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
+      <HeroSection title="Success Stories That Inspire" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
       <section
         className="custom-container">
 
