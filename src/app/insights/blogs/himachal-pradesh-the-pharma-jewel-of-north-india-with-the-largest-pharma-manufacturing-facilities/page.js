@@ -177,7 +177,7 @@ export default function Page() {
                 className="custom-container"
             >
 
-                <div className="py-10 bg-white  4xl:max-w-[1184px] 4xl:w-[1184px]  xl:w-[900px] xl:max-w-[900px]">
+                <div className="py-10 bg-white  max-w-[1084px] xl:w-[1084px]">
                     <div className="">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
                             <div className='sm:mb-0 mb-6'>
@@ -241,7 +241,7 @@ export default function Page() {
                     </div>
                     <div className="py-6"></div>
                     <div className="">
-                        <h1 className="text-[#000000] font-semibold pb-10  w-full   leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[30px] text-[26px] ">Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities</h1>
+                        <h1 className="text-[#000000] font-semibold pb-10  w-full xl:w-[865px] 4xl:w-[1148px]  leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[30px] text-[26px] ">Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities</h1>
                     </div>
 
                     <div className="">
@@ -330,7 +330,9 @@ export default function Page() {
 
                             <p className="text-black pb-4 ">According to the Indian State Industries Minister, Himachal Pradesh now fulfills 35% of Asia’s current pharmaceutical product demand. This is a testament to both the sheer scale and efficiency of the manufacturing capabilities in the state. Despite its mountainous terrain, Himachal Pradesh has managed to develop robust infrastructure and industrial zones to support pharmaceutical and non-pharmaceutical production.  </p>
 
-                            <p className="text-black">The concentration of manufacturing expertise and government support positions the state as a launchpad for global pharmaceutical exports and innovation. Rialtes Technologies aims to support local manufacturers with cutting-edge digital solutions, aligning with India’s vision of becoming a global manufacturing hub.  We have opened a new sales office in Baddi, Himachal Pradesh, as part of our expansion strategy. Reach out to us  <span className="underline">@sales@rialtes.com </span>to contribute to India's thriving manufacturing landscape.</p>
+                            <p className="text-black">The concentration of manufacturing expertise and government support positions the state as a launchpad for global pharmaceutical exports and innovation. Rialtes Technologies aims to support local manufacturers with cutting-edge digital solutions, aligning with India’s vision of becoming a global manufacturing hub.  We have opened a new sales office in Baddi, Himachal Pradesh, as part of our expansion strategy. Reach out to us  at  <Link className="underline" href={"mailto:sales@rialtes.com"}>
+                  <span>sales@rialtes.com</span>
+                </Link> to contribute to India's thriving manufacturing landscape.</p>
 
                         </div>
                     </div>
