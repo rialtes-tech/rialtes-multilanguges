@@ -180,7 +180,7 @@ export default function Page() {
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-office365-integration.webp "
-          alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+          alt="Discover SAP SuccessFactors and Office 365 integration benefits with vibrant intersecting dots on a sleek blue background."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority

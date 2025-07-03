@@ -48,7 +48,7 @@ export default function BlogsCarousel() {
       industry: "Pharma",
       date: "30 May 2025",
       url: 'insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
-      title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
+      title: "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
       description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
     },
 
@@ -57,7 +57,7 @@ export default function BlogsCarousel() {
       image: "/images/blog/jcarosel.webp",
       category: "SAP",
       industry: "SAP",
-      date: "22 April 2025",
+      date: "25 April 2025",
       url: 'insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule',
       title: "Redefining the Future of Enterprise AI with SAP Joule",
       description: "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. ",

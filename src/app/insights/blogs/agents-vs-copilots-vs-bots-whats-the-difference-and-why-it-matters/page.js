@@ -313,11 +313,11 @@ export default function Page() {
             </p>
 
             <p className="text-black">
-              <span className="font-bold">Agents</span> are AI-driven tools that
+              Agents are AI-driven tools that
               autonomously perform tasks and make decisions with minimal human
-              intervention. <span className="font-bold">Copilots</span> are
+              intervention. Copilots are
               software add-ons that offer real-time assistance to users within
-              application features. <span className="font-bold">Chatbots</span>,
+              application features. Chatbots,
               or simply bots, are computer programs created to mimic human
               conversation through text or voice exchanges. Let’s break down
               each of these AI tools, emphasizing the unique strengths of
@@ -355,7 +355,7 @@ export default function Page() {
               </li>
               <li className="text-black pb-4">
                 <h4 className="inline">Customer Experience Personalization </h4>
-                : By leveraging data and{" "}
+                : By leveraging data and
                 <Link
                   href={
                     "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/?utm_source=blog&utm_medium=organic"
@@ -366,7 +366,7 @@ export default function Page() {
                 </Link>
                 , agents can create personalized interactions, improving
                 customer satisfaction with tailored responses and proactive
-                solutions.{" "}
+                solutions.
               </li>
               <li className="text-black ">
                 <h4 className="inline">Autonomous Decision Making </h4>: Agents

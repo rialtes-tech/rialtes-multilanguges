@@ -204,7 +204,7 @@ export default function Page() {
           <div className="container pl-0 mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
+                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>25 April 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
