@@ -47,7 +47,7 @@ const latestBlogs = [
     industry: "Pharma",
     date: "30 May 2025",
     url: '/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
-    title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
+    title: "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
     description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
     },
     {
@@ -79,7 +79,7 @@ const latestBlogs = [
     image: "/images/blog/jcarosel.webp",
     category: "SAP",
     industry: "SAP",
-    date: "22 April 2025",
+    date: "25 April 2025",
     url: '/redefining-the-future-of-enterprise-ai-with-sap-joule',
     title: "Redefining the Future of Enterprise AI with SAP Joule",
     description: "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. ",
@@ -191,7 +191,7 @@ const latestBlogs = [
     industry: "Generic",
     date: "19 Dec 2024",
     url: '/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions',
-    title: "Role of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
     description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
   },
   {
@@ -201,7 +201,7 @@ const latestBlogs = [
     industry: "Generic",
     date: "30 Dec 2024",
     url: '/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce',
-    title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
+    title: "Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0",
     description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
   },
   {

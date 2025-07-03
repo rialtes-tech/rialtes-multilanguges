@@ -195,7 +195,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/sap-gts-sanctioned-party-screening2.webp"
-            alt="desktop banner"
+            alt="Explore SAP GTS SPL screening for seamless third-party compliance, showcased over a dynamic global trade map."
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -207,7 +207,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/enhancing-compliance-blog-mob-banner2.webp"
-            alt="mobile banner"
+            alt="Explore SAP GTS SPL screening for seamless third-party compliance, showcased over a dynamic global trade map."
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -279,9 +279,8 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 leading-tight 4xl:w-[1084px] xl:w-[754px] text-[26px] xl:text-[40px] 4xl:text-[60px]">
-              Role of Sanctioned Party List Screening in SAP GTS for Third-Party
-              Transactions
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight 4xl:w-[1084px] xl:w-[704px] text-[26px] xl:text-[40px] 4xl:text-[60px]">
+             Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions
             </h1>
           </div>
           <div>
