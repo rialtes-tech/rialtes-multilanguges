@@ -1,4 +1,5 @@
 "use client";
+// pages/case-study-detail.js
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
@@ -115,9 +116,9 @@ export default function Page() {
       custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1100px] xl:w-[1100px]">
+        <div className="py-10 bg-white 4xl:max-w-[1200px] 4xl:w-[1200px] xl:w-[1000px]">
           <div className=" ">
-            <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability</h1>
+            <h1 className="text-[#000000] py-6 leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px] ">40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability</h1>
           </div>
           <div className="py-4"></div>
           <div className="">

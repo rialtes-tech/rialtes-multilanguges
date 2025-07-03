@@ -45,7 +45,7 @@ const latestCaseStudy = [
     image: "/images/case-studies/Adaptis_featured CS.webp",
     industry: "Manufacturing",
     date: "10 June 2025",
-    url: "/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability",
+    url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
     title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
     description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
 
@@ -327,7 +327,7 @@ const FeaturedCarousel = () => {
       imgSrc: '/images/case-studies/Adaptis_featured CS.webp',
       category: 'Manufacturing',
       date: '10 June 2025',
-      url: "/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability",
+      url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
       title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
       description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
     },
