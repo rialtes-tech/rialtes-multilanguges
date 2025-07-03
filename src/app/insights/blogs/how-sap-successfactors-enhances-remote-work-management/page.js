@@ -180,7 +180,7 @@ export default function Page() {
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-remote-work.webp"
-          alt="How SAP SuccessFactors Enhances Remote Work Management"
+          alt="Discover SAP SuccessFactors' role in remote work management, shown with hands on a laptop against a sleek blue backdrop."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority

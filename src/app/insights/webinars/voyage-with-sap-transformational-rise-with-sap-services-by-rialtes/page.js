@@ -43,9 +43,25 @@ export default function () {
 
     const sectionRef = useRef(null);
 
-    const handleScroll = () => {
-        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+   const handleScroll = () => {
+    if (!sectionRef.current) return;
+
+    const getOffset = () => {
+        const width = window.innerWidth;
+        if (width > 1536) return 160; // 2xl+
+        if (width > 1280) return 120; // xl
+        if (width > 768) return 100;  // md
+        return 80; // sm and below
     };
+
+    const offset = getOffset();
+    const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+    window.scrollTo({
+        top: elementPosition - offset,
+        behavior: 'smooth',
+    });
+};
 
     const fullUrl = "https://rialtes.netlify.app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
 
