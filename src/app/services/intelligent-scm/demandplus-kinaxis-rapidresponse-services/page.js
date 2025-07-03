@@ -5,59 +5,33 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Link from "next/link";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function DemandPlusSection() {
     const schemaData = {
-
         "@context": "https://schema.org",
-
         "@type": "Article",
-
         "mainEntityOfPage": {
-
             "@type": "WebPage",
-
             "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
-
         },
-
         "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
-
         "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-
         "image": "https://rialtes.netlify.app/images/case-studies/fiori-banner.webp",
-
         "author": {
-
             "@type": "Organization",
-
             "name": "Rialtes"
-
         },
-
         "publisher": {
-
             "@type": "Organization",
-
             "name": "Rialtes",
-
             "logo": {
-
                 "@type": "ImageObject",
-
                 "url": "https://www.rialtes.com/images/homepage/logo.svg"
-
             }
-
         },
-
         "articleSection": "Case Studies",
-
         "datePublished": "2025-05-29"
-
     }
-
-
     const services = [
         {
             id: 1,
@@ -81,9 +55,66 @@ export default function DemandPlusSection() {
             knowMore: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services'
         },
     ];
+    const endToEndData = [
+        "Kinaxis License Advisory & Value Assessment",
+        "Solution Architecture & Design",
+        "Rapid Implementation & Process Configuration",
+        "Quality Assurance, Testing & User Training",
+        "Integration with SAP S/4 HANA, Oracle EBS & Non-SAP Systems",
+        "Post-Go-Live Support & Continuous Process Optimization",
+    ]
+    const supplyChain = [
+        "Demand Planning & Forecasting",
+        "Supply Planning & Inventory Management",
+        "Sales & Operations Planning (S&OP)",
+        "Capacity & Production Planning",
+        "Supplier Collaboration & Risk Management",
+        "Distribution & Logistics Planning",
+    ]
+    const salesData = [
+        "Align demand and supply plans in real-time.",
+        "Balance financial goals and operational constraints.",
+        "Create what-if scenarios and evaluate trade-offs instantly.",
+        "Enhance cross-functional collaboration across sales, supply chain, and finance.",
+    ]
+    const inventeryOptimizationData = [
+        "End-to-end visibility across multi-echelon inventory.",
+        "Right-sizing inventory levels to balance service and cost.",
+        "Dynamic inventory policies based on real-time demand and supply signals.",
+    ]
+    const enterpriseSchedulingData = [
+        "Finite capacity scheduling for manufacturing and production.",
+        "Optimized allocation of resources and materials.",
+        "Real-time adjustments based on disruptions and priority changes.",
+    ]
+    const scenarioData = [
+        "Model complex supply chain scenarios (supplier delays, demand surges, production downtimes).",
+        "Evaluate impacts in real-time across financials, inventory, and operations.",
+        "Enable leadership teams to make confident, data-driven decisions.",
+    ]
+    const seamlessIntegrationData = [
+        "SAP S/4 HANA and ECC",
+        "Oracle EBS and Cloud ERP",
+        "Legacy and non-SAP systems",
+    ]
+    const rialtesStrongData = [
+        "Custom apps and workflows on BTP.",
+        "Real-time API management and orchestration.",
+        "Advanced analytics and AI integrations.",
+    ]
+    const agentChatData = [
+        "Rapid deployment within minutes.",
+        "Secure, role-based access.",
+        "Case, order, and issue delegation by type (orders, inventory, delays).",
+        "Fully integrated with Salesforce and SAP environments.",
+    ]
+    const leadingData = [
+        "Predictive analytics and machine learning models.",
+        "Integrated AI for demand sensing and forecasting.",
+        "Real-time risk assessment and mitigation.",
+    ]
     return (
         <div className="min-h-screen bg-white">
-
             <Seo
                 title="Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus"
                 description="Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision."
@@ -105,7 +136,6 @@ export default function DemandPlusSection() {
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
                         sizes="100vw"
-
                     />
                 </div>
                 <div className="xl:hidden block">
@@ -139,7 +169,6 @@ export default function DemandPlusSection() {
             </section>
             <section
                 className="custom-container xl:!pr-0">
-
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
                     <div className="xl:col-span-8 xl:pr-0 pr-10">
                         <h2 className="leading-tight md:text-[42px] 4xl:text-[60px] xl:text-[40px] text-[26px]">Agility, Accuracy, and Resilience in Supply Chain — Powered by Kinaxis and Rialtes</h2>
@@ -147,10 +176,8 @@ export default function DemandPlusSection() {
                         <p className="mt-8 pb-16">As a certified Kinaxis and SAP partner with offices in United States, Canada, India, and Singapore, and a team of highly certified Kinaxis experts, Rialtes helps clients leverage RapidResponse to unlock connected, intelligent, and resilient supply chains — ready for tomorrow’s challenges.</p>
                     </div>
                     <div className="xl:col-span-4"></div>
-
                 </div>
             </section>
-
 
             <section className="relative xl:h-[700px] group overflow-hidden">
                 {/* Desktop Image */}
@@ -180,12 +207,7 @@ export default function DemandPlusSection() {
 
                 {/* Content Block */}
                 <div
-                    className={`
-      custom-container z-10
-      relative
-      xl:absolute xl:top-[45%] top-[-100px]  xl:-translate-y-1/2
-    `}
-                >
+                    className={`custom-container z-10 relative xl:absolute xl:top-[45%] top-[-100px]  xl:-translate-y-1/2`}>
                     <div className="bg-[#016FBE] bg-opacity-90 text-white p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32">
                         <h3 className="font-light xl:text-[30px] text-[18px]">Introducing</h3>
                         <h3 className="4xl:text-[50px] xl:text-[40px] text-[23px] leading-[60px]">Rialtes DemandPlus</h3>
@@ -193,16 +215,10 @@ export default function DemandPlusSection() {
                         <p className="mt-8 4xl:text-[22px] text-[16px] leading-tight font-normal">
                             Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:
                         </p>
-                        <ul className="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5  xl:pr-0">
-                            <li>Kinaxis License Advisory & Value Assessment</li>
-                            <li>Solution Architecture & Design</li>
-                            <li>Rapid Implementation & Process Configuration</li>
-                            <li>Quality Assurance, Testing & User Training</li>
-                            <li>Integration with SAP S/4 HANA, Oracle EBS & Non-SAP Systems</li>
-                            <li>Post-Go-Live Support & Continuous Process Optimization</li>
-                        </ul>
+
+                        <UnorderedList arrName={endToEndData} ulClassName="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] " />
                         <div className="mt-5 absolute">
-                            <LearnMore bgcolor="#134874" bordercolor="#006FBE" />
+                            <LearnMore bgcolor="#134874" bordercolor="#134874" />
                         </div>
                     </div>
                 </div>
@@ -214,10 +230,7 @@ export default function DemandPlusSection() {
                     <p className="4xl:text-[26px] text-[18px] text-white leading-tight font-normal xl:pr-10">From strategy to execution, Rialtes enables a seamless and accelerated journey to Kinaxis-driven supply chain transformation.</p>
                 </div>
                 <div className="col-span-1"></div>
-
-
             </div>
-
 
             <section className="relative group overflow-hidden xl:mt-16 xl:mr-[142px]">
                 <div className="w-full xl:h-[1046px] ">
@@ -240,27 +253,21 @@ export default function DemandPlusSection() {
                             height={0}
                             className="w-full  transform transition-transform duration-500 group-hover:scale-110"
                             sizes="100vw"
-
                         />
                     </div>
 
                     <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[25rem] top-[18rem] md:top-[36rem]">
                         <div className="xl:col-span-6 bg-[#0B3A66]  pl-[35px] xl:py-16 py-8 xl:pr-20 pr-10 mr-[100px] xl:mr-0 custom-container">
-
                             <h2 className="mb-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Why Kinaxis RapidResponse?</h2>
                             <p className="font-light pr-[2rem] xl:pr-0 xl:mt-10 mt-5">
                                 Kinaxis RapidResponse is a cloud-based supply chain planning platform that delivers:
                             </p>
                         </div>
                         <div className="xl:col-span-6"></div>
-
                     </div>
                 </div>
 
-                <div
-                    className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 relative  xl:-mt-10 mt-[-40px]  xl:mr-[50px] custom-container xl:!pr-16"
-
-                >
+                <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 relative xl:-mt-10 mt-[-40px]  xl:mr-[50px] custom-container xl:!pr-16">
                     {[
                         "Concurrent planning for synchronized supply chain decisions.",
                         "Real-time visibility across demand, supply, inventory, and capacity.",
@@ -281,11 +288,9 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12">
                     <div className="col-span-6">
                         <h2 className="leading-tight pr-16 4xl:text-[60px] xl:text-[40px] text-[26px] max-md:px-[35px]">Supply Chain Planning Reimagined with Rialtes and Kinaxis</h2>
-
                     </div>
                 </div>
                 <div className="grid xl:grid-cols-12 grid-cols-1">
-
                     <div className="col-span-5  xl:mx-0">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/supply-desktop.webp"
@@ -299,14 +304,7 @@ export default function DemandPlusSection() {
                     </div>
                     <div className="col-span-7 bg-[#006FBE] 4xl:mt-[-2rem] xl:mt-[-1rem] mt-[-4rem] text-white 4xl:ml-[-90px] xl:ml-[-108px] 4xl:mb-[75px] xl:pl-[10rem] px-[35px] pb-16  xl:pb-20">
                         <h3 className="4xl:pt-20 xl:pt-10 pt-24 text-[22px] 4xl:text-[30px] 4xl:pr-[20rem] xl:pr-[14rem]">End-to-End Supply Chain Planning Capabilities:</h3>
-                        <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-2 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-8  xl:pr-0">
-                            <li>Demand Planning & Forecasting</li>
-                            <li>Supply Planning & Inventory Management</li>
-                            <li>Sales & Operations Planning (S&OP)</li>
-                            <li>Capacity & Production Planning</li>
-                            <li> Supplier Collaboration & Risk Management</li>
-                            <li>Distribution & Logistics Planning</li>
-                        </ul>
+                        <UnorderedList arrName={supplyChain} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2 font-light marker:font-bold marker:text-2xl pl-5 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-6 absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                         </div>
@@ -335,14 +333,8 @@ export default function DemandPlusSection() {
                         <p className="mt-5 font-normal 4xl:text-[20px] text-[16px] xl:text-[18px]">
                             Rialtes leverages Kinaxis to deliver best-in-class S&OP capabilities, enabling companies to:
                         </p>
-                        <ul className="list-disc leading-tight xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-8 mt-5">
-                            <li>Align demand and supply plans in real-time.</li>
-                            <li>Balance financial goals and operational constraints.</li>
-                            <li>Create what-if scenarios and evaluate trade-offs instantly.</li>
-                            <li>Enhance cross-functional collaboration across sales, supply chain, and finance.</li>
-                        </ul>
+                        <UnorderedList arrName={salesData} ulClassName="list-disc leading-tight xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
-
                 </div>
             </section>
             <p className="bg-[#163055] p-8  xl:!mx-[280px]  z-[999] max-md:mx-[35px]  text-white 4xl:mt-[-50px] mt-10 relative 4xl:text-[26px] xl:text-[15px] text-[18px] font-normal">Outcome: Greater forecast accuracy, lower inventory, and improved service levels.</p>
@@ -387,11 +379,7 @@ export default function DemandPlusSection() {
             <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:mt-[-100px] mt-[-75px] md:mt-0 custom-container">
                 <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white ">
                     <h3>Inventory Optimization</h3>
-                    <ul className="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-8 mt-5">
-                        <li>End-to-end visibility across multi-echelon inventory.</li>
-                        <li>Right-sizing inventory levels to balance service and cost.</li>
-                        <li>Dynamic inventory policies based on real-time demand and supply signals.</li>
-                    </ul>
+                    <UnorderedList arrName={inventeryOptimizationData} ulClassName="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                 </div>
                 <div className="xl:col-span-1 col-span-12 bg-[#163055] flex xl:items-center xl:justify-center">
                     <div className="border-b border-white  mx-[35px] xl:mx-0 xl:border-b-0 xl:border-r xl:h-[70%] xl:w-auto"></div>
@@ -399,11 +387,7 @@ export default function DemandPlusSection() {
 
                 <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white">
                     <h3>Enterprise Scheduling</h3>
-                    <ul className="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-8 mt-5">
-                        <li>Finite capacity scheduling for manufacturing and production.</li>
-                        <li>Optimized allocation of resources and materials.</li>
-                        <li>Real-time adjustments based on disruptions and priority changes.</li>
-                    </ul>
+                    <UnorderedList arrName={enterpriseSchedulingData} ulClassName="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                 </div>
                 <div className="xl:col-span-3 col-span-12"></div>
             </div>
@@ -436,11 +420,8 @@ export default function DemandPlusSection() {
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Scenario Planning</h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">Prepare for Every Possibility</h3>
                         <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">What-if analysis and scenario simulation are at the heart of Kinaxis RapidResponse, and Rialtes brings the expertise to fully leverage them:</p>
-                        <ul className="list-disc  xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-8   leading-tight">
-                            <li>Model complex supply chain scenarios (supplier delays, demand surges, production downtimes).</li>
-                            <li>Evaluate impacts in real-time across financials, inventory, and operations.</li>
-                            <li>Enable leadership teams to make confident, data-driven decisions.</li>
-                        </ul>
+
+                        <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-6 4xl:mt-10 absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                         </div>
@@ -448,11 +429,9 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-
             <section className="mt-[38rem] xl:mt-0 md:mt-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 mx-[35px] xl:mx-0">
                     <div className="col-span-6">
-
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/seamless-desktop.webp"
                             alt="Warehouse"
@@ -467,31 +446,21 @@ export default function DemandPlusSection() {
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Seamless Integration with SAP, Oracle, and Non-SAP Systems</h2>
                         <h3 className="mt-10 4xl:text-[42px] xl:text-[32px] text-[22px] font-semibold leading-tight">Integrate Kinaxis with Your Existing ERP Ecosystem</h3>
                         <p className="mt-5 xl:pr-20 pr-10 font-normal leading-tight 4xl:text-[20px] text-[16px]">Rialtes delivers robust integration services using SAP Cloud Platform Integration (SAP CPI) and Kinaxis-certified connectors:</p>
-                        <ul className="list-disc leading-normal xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5  xl:pr-16">
-                            <li>SAP S/4 HANA and ECC</li>
-                            <li> Oracle EBS and Cloud ERP</li>
-                            <li className="xl:pb-20">Legacy and non-SAP systems</li>
-                        </ul>
+                        <UnorderedList arrName={seamlessIntegrationData} ulClassName="list-disc leading-normal xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
-
-
                 </div>
             </section>
+
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-80px] mt-10 mx-[35px] xl:mx-0">
                 <div className="col-span-6"></div>
                 <div className="col-span-5">
                     <p className="4xl:text-[26px] text-[18px] bg-[#163055] p-8 text-white font-normal 4xl:pr-32 xl:pl-20 leading-tight">Our pre-built accelerators and custom APIs ensure real-time data flow for synchronized planning.</p>
-
                 </div>
                 <div className="col-span-1"></div>
-
-
             </div>
-
 
             <section className="custom-container xl:!pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
-
                     <div className="xl:order-2 order-1 col-span-6">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/btp-desktop.webp"
@@ -512,22 +481,15 @@ export default function DemandPlusSection() {
                                 Rialtes brings deep expertise in SAP Business Technology Platform (BTP) to extend,
                                 customize, and enhance S/4 HANA integration with Kinaxis:
                             </p>
-                            <ul className="list-disc leading-normal xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-8 xl:pr-16">
-                                <li>Custom apps and workflows on BTP.</li>
-                                <li>Real-time API management and orchestration.</li>
-                                <li>Advanced analytics and AI integrations.</li>
-                            </ul>
+                            <UnorderedList arrName={rialtesStrongData} ulClassName="list-disc leading-normal xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-8 xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="mt-5 absolute">
                                 <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
                         <p className="4xl:text-[26px] text-[18px] bg-[#163055] xl:p-8 p-6 xl:pl-14 pl-10 4xl:pr-32 text-white font-light mx-[35px] xl:mx-0 mt-[-172px] xl:mt-0 leading-tight">Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.</p>
-
                     </div>
                 </div>
             </section>
-
-
 
             <section className="relative">
                 <div className="xl:block hidden">
@@ -616,11 +578,10 @@ export default function DemandPlusSection() {
                 {/* Text Block */}
                 <div
                     className={`
-      custom-container text-white
-      xl:absolute xl:top-[20%] 
-      relative xl:w-[62%] w-full z-10 max-md:px-0
-    `}
-                >
+                                custom-container text-white
+                                xl:absolute xl:top-[20%] 
+                                relative xl:w-[62%] w-full z-10 max-md:px-0
+                             `}>
                     <div className="bg-[#073259] xl:p-16 p-10">
                         <h2 className="leading-tight pr-20 xl:pr-0 4xl:text-[60px] xl:text-[50px] text-[26px]">SAP ARIBA & Procurement</h2>
                         <h3 className="xl:text-[42px] text-[22px] font-semibold leading-tight mt-5 pr-16 xl:pr-0">
@@ -636,10 +597,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
-
-
-
 
             <div className="bg-[#555555] mt-0">
                 <div className="xl:pt-64 pt-32 mx-[35px] xl:mx-0">
@@ -676,21 +633,14 @@ export default function DemandPlusSection() {
                         <h3 className="mt-8 xl:mt-0 pr-16 xl:pr-0 4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight">Introducing AgentChat Your Conversational AI for Supply Chain</h3>
                         <p className="mt-5 font-normal">AgentChat is a bi-directional WhatsApp conversational app, enabling instant collaboration across supply chain teams.</p>
                         <h3 className="xl:text-[24px] text-[18px] mt-10">AgentChat Highlights:</h3>
-                        <ul className="list-disc leading-tight xl:space-y-4 mb-10 font-light marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 pr-12 xl:pr-0">
-                            <li>Rapid deployment within minutes.</li>
-                            <li> Secure, role-based access.</li>
-                            <li>Case, order, and issue delegation by type (orders, inventory, delays).</li>
-                            <li>Fully integrated with Salesforce and SAP environments.</li>
-                        </ul>
+                        <UnorderedList arrName={agentChatData} ulClassName="list-disc leading-tight xl:space-y-4 mb-10 font-light marker:font-bold marker:text-2xl pl-5 mt-5 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="xl:mt-10">
                             <Link
                                 href="/products/agentchat"
-                                className="xl:text-[20px] text-[16px] hover:bg-[#ffffff] bg-[#134874] hover:text-[#134874]   font-semibold text-white py-3 px-8 transition duration-300 mt-6"
-                            >
+                                className="xl:text-[20px] text-[16px] hover:bg-[#ffffff] bg-[#134874] hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300 mt-6">
                                 Know More
                             </Link>
                         </div>
-
                     </div>
 
                 </div>
@@ -700,9 +650,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </div>
-
-
-
 
             <section className="custom-container relative xl:!pr-0 max-md:px-0">
                 <div className="xl:block hidden">
@@ -731,24 +678,17 @@ export default function DemandPlusSection() {
                     <div className="col-span-6 xl:px-16 px-14">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] 4xl:pr-20">Leading the Future with AI, Data, and Integrated Planning</h2>
                         <p className="mt-8 font-light 4xl:text-[20px] text-[16px]">At Rialtes, we go beyond standard implementations — combining AI, data science, and advanced planning tools to create responsive and resilient supply chains.</p>
-                        <ul className="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5  xl:pr-0">
-                            <li>Predictive analytics and machine learning models.</li>
-                            <li>Integrated AI for demand sensing and forecasting.</li>
-                            <li>Real-time risk assessment and mitigation.</li>
-                        </ul>
+                        <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="absolute 4xl:mt-16  mt-4">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
                     </div>
                     <div className="col-span-6"></div>
-
                 </div>
             </section>
-            < div
-                className="mt-20
-             custom-container
-              text-black pb-20"
-            >
+
+            {/* contact form */}
+            <div className="mt-20 custom-container text-black pb-20" >
                 <ContactForm title={'Start Your Kinaxis Journey with Rialtes DemandPlus Today'} subtitle={'Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution.'} className={"4xl:max-w-[60rem] xl:max-w-[40rem] leading-tight text-[26px] font-light 4xl:text-[60px] xl:text-[40px] pr-10 xl:pr-0"} />
             </div >
         </div>

@@ -172,7 +172,8 @@ export default function Agentforce() {
                 canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
             />
 
-            <div className="relative group overflow-hidden">
+            {/* hero section */}
+            <section className="relative group overflow-hidden">
                 <div className="relative w-full h-[360px] md:h-[400px] xl:h-[540px] lg:h-[520px] 4xl:h-[800px] 2xl:h-[700px]">
                     <Image
                         src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
@@ -206,15 +207,15 @@ export default function Agentforce() {
 
                     <div className="xl:col-span-1 col-span-12"></div>
                 </div>
-            </div>
+            </section>
 
- <div className=" grid lg:grid-cols-10  gap-5 px-6 custom-container  lg:mt-16 mt-5">
+            <div className=" grid lg:grid-cols-10  gap-5 px-6 custom-container  lg:mt-16 mt-5">
                 <div className="lg:col-span-6 ">
-                    <h1 className="leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] ">Salesforce Agentforce:<br/> What You Need To Know</h1>
+                    <h1 className="leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] ">Salesforce Agentforce:<br /> What You Need To Know</h1>
                 </div>
             </div>
-            <div className="flex xl:gap-20 gap-10 px-6 custom-container  flex-col lg:flex-row lg:mt-10 mt-5">
-                <div className=" leading-tight md:w-[700px] ">
+            <div className="flex xl:gap-20 gap-10 px-6 custom-container flex-col lg:flex-row lg:mt-10 mt-5">
+                <div className="leading-tight md:w-[700px]">
                     <p className="text-[16px] md:text-[18px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] leading-tight">Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                     <p className="mt-6 text-[16px] md:text-[18px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-tight 4xl:text-[20px]">Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.</p>
                 </div>
@@ -231,7 +232,7 @@ export default function Agentforce() {
                 </div>
             </div>
             <section className="mt-[50px] md:mt-[60px] lg:mt-[94px] lg:pr-0 custom-container">
-                <h2 className="   xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
+                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-16  md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -257,19 +258,19 @@ export default function Agentforce() {
 
                 </div>
                 <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px]">Leverage cutting-edge technologies to deliver innovative solutions with Agentforce</h2>
-             
-                 <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:mt-10 gap-3 mt-10 ">
+
+                <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:mt-10 gap-3 mt-10 ">
                     {salesForce2.map((sales) => {
                         return (
                             <div key={sales.id} className="border-2 p-8 hover:bg-[#A9D6EE] hover:border-transparent transition-all duration-300 ">
 
                                 <h4 className="mt-5 text-[#1F3F69] xl:text-[20px] md:text-[18px] 2xl:text-[26px] 4xl:text-[30px] 2xl:w-[300px]">{sales.title}</h4>
-                                <p className="mt-5 text-[16px] xl:text-[16px] md:text-[18px] lg:text-[15px] 2xl:text-[20px] 4xl:text-[22px] 2xl:w-[290px] 4xl:w-[300px] xl:w-[240px] lg:w-[190px]" >{sales.description}</p>
+                                <p className="mt-5 text-[16px] xl:text-[16px] md:text-[18px] lg:text-[15px] 2xl:text-[20px] 4xl:text-[22px] 4xl:w-[300px]" >{sales.description}</p>
                             </div>
                         )
                     })}
-                
-               </div>
+
+                </div>
                 <LearnMore />
 
             </section>
@@ -302,7 +303,6 @@ export default function Agentforce() {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-
                                 priority
                             />
                         </div>
@@ -320,7 +320,6 @@ export default function Agentforce() {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-
                                 priority
                             />
                         </div>
@@ -356,7 +355,6 @@ export default function Agentforce() {
                                         priority
                                     />
                                 </div>
-
                                 <h4 className="mt-5 text-[20px] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] md:text-[24px] lg:text-[20px]">{benifite.title}</h4>
                                 <p className="mt-3 text-[16px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] 2xl:w-[400px] lg:w-[300px] xl:w-[350px]">{benifite.description}</p>
                                 <LearnMore />
@@ -367,15 +365,11 @@ export default function Agentforce() {
             </section>
 
             <section className="bg-[#F5F5F5] mt-[60px] md:mt-[70px] lg:mt-[94px] py-10">
-                <div
-                    className="custom-container px-6"
-                >
+                <div className="custom-container px-6">
                     <FeaturedCarousel />
                 </div>
             </section>
-            <div
-                className="mt-[60px] md:mt-[70px] lg:mt-[94px] mb-20 custom-container lg:pr-0"
-            >
+            <div className="mt-[60px] md:mt-[70px] lg:mt-[94px] mb-20 custom-container lg:pr-0">
                 <ServicesBlogs slides={slides} />
             </div>
             <section className='px-6 custom-container lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
@@ -387,3 +381,4 @@ export default function Agentforce() {
         </section>
     )
 }
+

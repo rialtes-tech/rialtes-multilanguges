@@ -8,7 +8,7 @@ import InsightsCarousel from '../../../components/servicesInsightsCarousel';
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
-import { HeroSection } from "@/app/components/herosection";
+import React from "react";
 export default function SalesForceConsulting() {
     const salesForce = [
         {
@@ -146,7 +146,23 @@ export default function SalesForceConsulting() {
         },
 
     ]
-
+    const growthData = [
+        {
+            percentage: "1%",
+            label: "growth",
+            description: "revenue for our customer",
+        },
+        {
+            percentage: "35%",
+            label: "growth",
+            description: "customer service level\nsatisfaction",
+        },
+        {
+            percentage: "45%",
+            label: "growth",
+            description: "decision-making\nefficiency",
+        },
+    ];
 
     return (
         <div>
@@ -173,7 +189,6 @@ export default function SalesForceConsulting() {
                 <div className="absolute custom-container  top-[5%] lg:text-start lg:top-[25%] md:top-[20%] text-black">
                     <h1 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce Consulting Services</h1>
                     <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%]  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
-
                     <Image
                         src="/images/salesforce-consulting-services/salesforce-partner.webp"
                         className="w-[22%] h-full bg-transperent lg:mt-20 lg:m-0 mt-5"
@@ -280,7 +295,7 @@ export default function SalesForceConsulting() {
             </section>
 
             {/* your business */}
-            <section className="mt-16  px-6  custom-container">
+            <section className="mt-16 px-6 custom-container">
                 <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Understanding and targeting the customers correctly for your business</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16">
                     {businessDetails.map((bussiness) => {
@@ -301,56 +316,38 @@ export default function SalesForceConsulting() {
                         Action is what matters and not just words
                     </h3>
                     <div className="grid lg:grid-cols-10 grid-cols-1">
-                        <div className="col-span-1 lg:col-span-6 flex lg:flex-row flex-col gap-20">
-                            {/* First block – one line */}
-                            <div>
-                                <div className="text-[#0092E0] font-bold text-6xl">1%</div>
-                                <div className="text-[#0092E0] text-xl font-bold xl:text-[35px]">growth</div>
-                                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
-                                    revenue for our customer
-                                </p>
-                            </div>
-
-                            {/* Second block – manual line break */}
-                            <div>
-                                <div className="text-[#0092E0] font-bold text-6xl">35%</div>
-                                <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
-                                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
-                                    customer service level <br /> satisfaction
-                                </p>
-                            </div>
-
-                            {/* Third block – manual line break */}
-                            <div>
-                                <div className="text-[#0092E0] font-bold text-6xl">45%</div>
-                                <div className="text-[#0092E0] text-xl xl:text-[35px] font-bold">growth</div>
-                                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
-                                    decision-making <br /> efficiency
-                                </p>
-                            </div>
+                        <div className="col-span-1 lg:col-span-6 grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-20 lg:gap-20">
+                            {growthData.map((item, index) => (
+                                <div key={index}>
+                                    <div className="text-[#0092E0] font-bold text-6xl">{item.percentage}</div>
+                                    <div className="text-[#0092E0] text-xl font-bold xl:text-[35px]">{item.label}</div>
+                                    <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+                                        {item.description.split("\n").map((line, i) => (
+                                            <React.Fragment key={i}>
+                                                {line}
+                                                <br />
+                                            </React.Fragment>
+                                        ))}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
                         <div className="col-span-1 lg:col-span-4"></div>
                     </div>
+
                 </div>
             </section>
 
 
             {/* different industries different mindset */}
-
-
             <section className=" custom-container lg:mt-20 mt-5 pb-20">
-
-                <div >
+                <div>
                     <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Different industries, different mindsets</h2>
-
                     <CarouselComponent />
                 </div>
             </section>
             <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20">
-                <div
-                    className="
-       "
-                >
+                <div>
                     <FeaturedCarousel />
                 </div>
             </section>
@@ -375,8 +372,6 @@ export default function SalesForceConsulting() {
             <section className="pb-20  custom-container  pt-10 mt-20">
                 <ContactForm className='xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
-            {/* contact section */}
-
         </div>
     )
 }
