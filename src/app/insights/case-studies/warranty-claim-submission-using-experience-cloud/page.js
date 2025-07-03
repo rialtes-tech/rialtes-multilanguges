@@ -87,14 +87,14 @@ const slides = [
 ];
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability";
+    const fullUrl = "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud";
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
         title="Salesforce Experience Cloud for Roofing Manufacturer | Rialtes"
         description="Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
-        canonical="https://www.rialtes.com/insights/case-studies/enhanced-adoption-to-warranty-application-using-mobile-publisher-experience-cloud-capability/"
+        canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud/"
       />
       <script
         type="application/ld+json"
