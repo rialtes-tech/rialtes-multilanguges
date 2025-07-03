@@ -181,7 +181,7 @@ export default function Page() {
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/agentforce-erp-scaling-ai.webp "
-          alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+          alt="Futuristic robotic hand on a laptop representing AI’s role in revolutionizing ERP systems through Agentforce innovation."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority

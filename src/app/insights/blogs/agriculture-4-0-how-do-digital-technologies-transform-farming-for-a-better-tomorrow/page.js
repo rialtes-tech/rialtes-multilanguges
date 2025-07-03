@@ -184,13 +184,12 @@ export default function Page() {
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/agriculture-4.0-digital-farming.webp "
-          alt="Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?"
+          alt="Drone hovering over agricultural crops, showcasing the future of farming with digital innovations"
           fill
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}
           priority
         />
       </section>
-
       <section
         className="custom-container "
       >

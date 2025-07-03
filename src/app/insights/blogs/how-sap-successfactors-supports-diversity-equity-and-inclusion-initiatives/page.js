@@ -181,7 +181,7 @@ export default function Page() {
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-diversity-inclusion.webp "
-          alt="How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives"
+          alt="SuccessFactors diversity and inclusion: colorful puzzle with gender & accessibility icons, highlighting SAP's DEI commitment"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority
@@ -305,7 +305,7 @@ export default function Page() {
 
               <p className="text-black pb-4">When organizations prioritize DEI, they are not only enhancing employee satisfaction and retention but also positioning themselves for greater innovation and long-term success. Core HR and recruitment technology solutions, including AI tools like machine learning, can help address DE&I challenges. These data-driven AI platforms are specifically designed to disregard traditional biases, using algorithms to disrupt historical patterns of underrepresentation. They support a comprehensive range of talent processes, from hiring decisions to employee management, as well as development, rewards, and promotions.</p>
 
-              <p className="text-black pb-4">Rialtes helps you simplify HR processes and create a workplace that engages its employees whilst meeting the needs of the global workforce.  Build diverse, equitable, and inclusive workplaces where all employees can thrive with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=organic"}><span >our SAP SuccessFactors Employee Central solutions.</span> </Link> Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span >𝘀𝗮𝗹𝗲𝘀@𝗿𝗶𝗮𝗹𝘁𝗲𝘀.𝗰𝗼𝗺</span></Link></p>
+              <p className="text-black pb-4">Rialtes helps you simplify HR processes and create a workplace that engages its employees whilst meeting the needs of the global workforce.  Build diverse, equitable, and inclusive workplaces where all employees can thrive with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=organic"}><span >our SAP SuccessFactors Employee Central solutions.</span> </Link> Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span > sales@rialtes.com</span></Link></p>
 
             </div>
           </div>
