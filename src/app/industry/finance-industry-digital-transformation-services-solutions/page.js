@@ -837,7 +837,7 @@ export default function Page() {
                 </li>
                 <li>
                   Proprietary tools like Exelona (Real Estate Cloud) and
-                  RialChat (WhatsApp Integration).
+                  Agentchat (WhatsApp Integration).
                 </li>
                 <li>
                   Deep AI and Data Cloud integrations for predictive and
