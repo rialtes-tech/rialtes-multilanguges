@@ -5,6 +5,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -192,10 +193,13 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           
+               <Script
+        id="webinar-schema-rise"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
 

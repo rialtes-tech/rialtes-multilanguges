@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -172,11 +173,12 @@ export default function Page() {
         description="Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps."
         canonical="https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
       />
-        <script
+   <Script
+        id="webinar-schema-integrate-sap"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-office365-integration.webp "

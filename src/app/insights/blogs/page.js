@@ -7,6 +7,7 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData={
   
   "@context": "https://schema.org",
@@ -593,8 +594,11 @@ export default function Page() {
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-  <script
+ 
+         <Script
+        id="webinar-schema-blogs"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

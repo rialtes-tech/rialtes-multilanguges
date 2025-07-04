@@ -6,6 +6,7 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData={
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -103,11 +104,13 @@ export default function Page() {
         description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
         canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
       />
-        <script
+       
+   <Script
+        id="webinar-schema-agent-tes"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <HeroSection mobimg="/images/blog/blog-4-mob-banner.webp" deskimg="/images/blog/agentforce-testing-center.webp" />
 
       <section

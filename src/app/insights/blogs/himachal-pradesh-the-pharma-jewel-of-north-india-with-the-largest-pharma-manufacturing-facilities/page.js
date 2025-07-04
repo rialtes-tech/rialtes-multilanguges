@@ -1,10 +1,8 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
-import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData =
 {
  
@@ -150,10 +148,13 @@ export default function Page() {
                 description="Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities"
                 canonical={"https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities"}
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+               <Script
+        id="webinar-schema-himachal"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image

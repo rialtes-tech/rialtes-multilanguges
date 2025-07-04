@@ -5,6 +5,7 @@ import ContactForm from "../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -464,8 +465,11 @@ export default function Page() {
         description=" Explore semiconductor industry IT solutions with SAP and Salesforce to streamline chip design, testing, partner collaboration, and customer engagement."
         canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
       />
-      <script
+     
+           <Script
+        id="webinar-schema-hitech"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* herosection */}

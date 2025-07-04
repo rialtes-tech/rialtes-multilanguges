@@ -1,10 +1,10 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -173,8 +173,11 @@ export default function Page() {
         description="SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!"
         canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
       />
-      <script
+      
+         <Script
+        id="webinar-schema-performance"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

@@ -1,6 +1,7 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 const schemaData = {
 
     "@context": "https://schema.org",
@@ -41,10 +42,13 @@ export default function Page() {
                 description="Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry."
                 canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           
+               <Script
+        id="webinar-schema-rilates-opens"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section
                 className="custom-container "

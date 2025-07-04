@@ -4,7 +4,6 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
-import { HeroSection } from "@/app/components/herosection";
 
 const WhyRialtesSection = () => {
     const whyrialtessectiondata = [

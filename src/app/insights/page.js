@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import { HeroSection } from "../components/herosection";
+import Script from "next/script";
 
 const schemaData={
 
@@ -84,8 +85,11 @@ export default function InsightsPage() {
         description="Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation."
         canonical="https://www.rialtes.com/insights/"
       />
-        <script
+       
+         <Script
+        id="webinar-schema-insights"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

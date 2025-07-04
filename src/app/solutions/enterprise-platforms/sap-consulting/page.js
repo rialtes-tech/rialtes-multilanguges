@@ -1,11 +1,9 @@
 "use client";
 // pages/success-factors.js
-import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import CarouselComponent from "../../../components/useCarousel";
-import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";

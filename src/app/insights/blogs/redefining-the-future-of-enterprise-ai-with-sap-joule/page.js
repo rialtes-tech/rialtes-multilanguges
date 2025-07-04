@@ -5,6 +5,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData={
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -181,11 +182,12 @@ export default function Page() {
                 description="SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards."
                 canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
             />
-  <script
+   <Script
+        id="webinar-schema-redefining"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/sap-joule-ai.webp "

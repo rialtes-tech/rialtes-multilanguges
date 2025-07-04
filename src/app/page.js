@@ -10,6 +10,7 @@ import Seo from './components/Seo';
 import AutoTimerSlider from './newHome/page';
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 import ContactForm from './components/contactform';
+import Script from 'next/script';
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -173,9 +174,9 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",title:"News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
-        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp',title:"Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp',title:"Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
+        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     // useEffect(() => {
@@ -204,8 +205,11 @@ const Home = () => {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/"}
             />
-            <script
+
+            <Script
+                id="webinar-schema-main-page"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative">
@@ -265,7 +269,7 @@ const Home = () => {
                                     </svg>
                                 </button>
 
-                                <button  aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <button aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                                     <svg viewBox="0 0 24 24" fill="black" width="45">
                                         <polygon points="9,6 15,12 9,18" />
                                     </svg>
@@ -450,7 +454,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="flex">
-                                    <button  aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
+                                    <button aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
                                         <svg viewBox="0 0 24 24" fill="black" width="24">
                                             <polygon points="15,6 9,12 15,18" />
                                         </svg>
@@ -492,7 +496,7 @@ const Home = () => {
                         </p>
                     </div>
 
-               
+
                 </div>
                 <div
                     ref={refs[4]}

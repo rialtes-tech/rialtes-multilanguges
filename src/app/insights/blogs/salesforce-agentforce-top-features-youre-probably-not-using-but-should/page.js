@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -111,8 +112,11 @@ export default function Page() {
         description="Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions."
         canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
       />
-  <script
+ 
+         <Script
+        id="webinar-schema-sales-agentforce"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

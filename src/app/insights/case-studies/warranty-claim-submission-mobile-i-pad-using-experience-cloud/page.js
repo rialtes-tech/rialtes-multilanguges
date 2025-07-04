@@ -4,6 +4,7 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
@@ -95,10 +96,13 @@ export default function Page() {
                 description=" Discover how a leading roofing brand used Salesforce Experience Cloud to deliver a mobile-friendly warranty claim experience customers love."
                 canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+               <Script
+        id="webinar-schema-warranty-mobile"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
 
             <HeroSection mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />

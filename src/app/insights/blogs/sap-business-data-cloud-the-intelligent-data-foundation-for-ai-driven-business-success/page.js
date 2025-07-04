@@ -5,6 +5,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -181,8 +182,11 @@ export default function Page() {
         description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
         canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
       />
-  <script
+ 
+         <Script
+        id="webinar-schema-nonprofit"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

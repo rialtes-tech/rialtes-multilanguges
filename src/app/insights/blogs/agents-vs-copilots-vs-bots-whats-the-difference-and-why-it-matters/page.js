@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -191,8 +192,11 @@ export default function Page() {
           "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
         }
       />
-      <script
+     
+         <Script
+        id="webinar-schema-copilots"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
