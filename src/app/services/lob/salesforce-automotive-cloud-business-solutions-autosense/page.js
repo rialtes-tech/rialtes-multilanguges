@@ -4,6 +4,7 @@ import LearnMore from "@/app/components/learnMore";
 import { useState, useEffect } from 'react';
 import ContactForm from "@/app/components/contactform";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -498,10 +499,13 @@ export default function page() {
     return (
         <>
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+              <Script
+        id="webinar-schema-automotive-cloude"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
 
    {/* hero section */}

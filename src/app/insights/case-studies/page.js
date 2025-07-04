@@ -7,6 +7,7 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData = {
 
@@ -486,8 +487,11 @@ export default function Page() {
       <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
         description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
         canonical="https://www.rialtes.com/insights/case-studies/" />
-      <script
+    
+         <Script
+        id="webinar-schema-case-study"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

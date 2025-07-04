@@ -1,9 +1,6 @@
 "use client";
-
-import Head from "next/head";
 import Image from "next/image";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
-import Link from "next/link";
 
 const blogs = [
     {

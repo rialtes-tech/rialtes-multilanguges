@@ -5,6 +5,7 @@ import LearnMore from "@/app/components/learnMore";
 import { HeroSection } from "@/app/components/herosection";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -813,11 +814,13 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+            
+              <Script
+        id="webinar-schema-sap-buy-plus"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             {/* page information */}
             <section className="custom-container mt-[51px] lg:mt-[85px] px-[2rem]">
                 <p className=" leading-tight font-normal w-[96%] 4xl:text-[22px] xl:text-[19px] text-[16px] xl:w-[90%] lg:w-[90%]">
