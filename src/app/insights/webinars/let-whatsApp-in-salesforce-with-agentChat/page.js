@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -102,10 +103,12 @@ export default function About() {
                 canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           <Script
+        id="webinar-schema-let"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/Webinar_6.webp"

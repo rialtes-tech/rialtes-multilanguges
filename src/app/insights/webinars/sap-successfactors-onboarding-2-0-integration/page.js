@@ -4,6 +4,7 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 
 const schemaData = {
@@ -135,10 +136,12 @@ export default function () {
                 canonical="https://www.rialtes.com/insights/webinars/sap-successfactors-onboarding-2-0-integration/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+             <Script
+        id="webinar-schema-sap-success"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
                     src="/images/webinar/banner-what.webp"
