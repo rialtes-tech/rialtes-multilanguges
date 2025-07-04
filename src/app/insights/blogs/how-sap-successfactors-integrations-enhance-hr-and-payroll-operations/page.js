@@ -253,13 +253,13 @@ export default function Page() {
             <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">HR Management with SAP SuccessFactors</h2>
 
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li>Recruitment</li></p>
-                <p className="text-black pb-4"> <li>Onboarding</li></p>
-                <p className="text-black pb-4"><li>Learning</li></p>
-                <p className="text-black pb-4"> <li>Promotions</li></p>
-                <p className="text-black pb-4"><li>Payrolls</li></p>
-                <p className="text-black "><li>Performance reviews</li></p>
+              <ul className="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                <li className="text-black pb-2">Recruitment</li>
+                 <li  className="text-black pb-2">Onboarding</li>
+             <li  className="text-black pb-2">Learning</li>
+               <li  className="text-black pb-2">Promotions</li>
+            <li  className="text-black pb-2">Payrolls</li>
+              <li  className="text-black ">Performance reviews</li>
               </ul>
             </div>
 
@@ -274,11 +274,11 @@ export default function Page() {
 
 
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"><li><h3 className="h3-bold inline">Automate Processes:</h3> Reduce manual data entry and minimize human error.</li></p>
-                <p className="text-black pb-4">  <li><h3 className="h3-bold inline">Ensure Data Consistency:</h3>Maintain accurate and up-to-date information across all systems.</li></p>
-                <p className="text-black pb-4"> <li><h3 className="h3-bold inline">Enhance Reporting:</h3>Gain insights through consolidated data and analytics.</li></p>
-                <p className="text-black ">  <li><h3 className="h3-bold inline">Improve Compliance:</h3>Ensure adherence to local labor laws and regulations.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h3 className="h3-bold inline text-black ">Automate Processes</h3>: Reduce manual data entry and minimize human error.</li>
+                  <li className="pb-2"><h3 className="h3-bold inline text-black ">Ensure Data Consistency</h3>: Maintain accurate and up-to-date information across all systems.</li>
+                 <li className="pb-2"> <h3 className="h3-bold inline text-black ">Enhance Reporting</h3>: Gain insights through consolidated data and analytics.</li>
+                <li><h3 className="h3-bold inline text-black">Improve Compliance</h3>: Ensure adherence to local labor laws and regulations.</li>
               </ul>
             </div>
 
@@ -286,16 +286,12 @@ export default function Page() {
 
             <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] ">SAP SuccessFactors Integrations and Their Impact</h2>
 
-
-
-
-
             <h3 className="pb-4 mt-6 h3-bold">1. Integration with Core ERP Systems</h3>
             <p className="text-black pb-4">SAP SuccessFactors integrates seamlessly with SAP S/4HANA and other ERP systems to align HR operations with broader business functions. For example:</p>
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Payroll Accuracy </h4>: Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system</li></p>
-                <p className="text-black "><li><h4 className="inline">Financial Planning </h4>: Real-time data exchange supports accurate budgeting and forecasting by providing visibility into payroll expenses.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline text-black">Payroll Accuracy </h4>: Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system</li>
+               <li><h4 className="inline text-black">Financial Planning </h4>: Real-time data exchange supports accurate budgeting and forecasting by providing visibility into payroll expenses.</li>
               </ul>
             </div>
 
@@ -305,36 +301,31 @@ export default function Page() {
             <h3 className="pb-4 mt-6 h3-bold">2. Integration with Time and Attendance Systems</h3>
             <p className="text-black pb-4">Tracking employee hours is critical for payroll and compliance. SuccessFactors integrates with leading time and attendance solutions to:</p>
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                <p className="text-black pb-4"><li><h4 className="inline">Streamline Time Tracking </h4>:  Automatically sync employee clock-in/clock-out data.</li></p>
-                <p className="text-black pb-4"> <li><h4 className="inline">Ensure Compliance </h4>: Adhere to overtime and labor laws.</li></p>
-                <p className="text-black ">  <li><h4 className="inline">Optimize Workforce Management </h4>: Leverage accurate attendance data to manage staffing levels effectively.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline">Streamline Time Tracking </h4>:  Automatically sync employee clock-in/clock-out data.</li>
+                 <li className="pb-2"><h4 className="inline">Ensure Compliance </h4>: Adhere to overtime and labor laws.</li>
+                <li><h4 className="inline">Optimize Workforce Management </h4>: Leverage accurate attendance data to manage staffing levels effectively.</li>
               </ul>
             </div>
-
-
-
 
             <h3 className="pb-4 mt-6 h3-bold">3. Integration with Benefits Administration Platforms</h3>
             <p className="text-black pb-4">Employee benefits are a key component of compensation packages. SuccessFactors integrations enable organizations to:</p>
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                <p className="text-black pb-4"> <li><h4 className="inline">Automate Enrollment </h4>: Streamline benefits enrollment during onboarding or open enrollment periods.</li></p>
-                <p className="text-black pb-4"> <li><h4 className="inline">Improve Employee Experience </h4>: Provide employees with a self-service portal to manage their benefits. </li></p>
-                <p className="text-black "> <li><h4 className="inline">Maintain Compliance </h4 >: Ensure adherence to government-mandated benefit programs. </li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+               <li className="pb-2"><h4 className="inline">Automate Enrollment </h4>: Streamline benefits enrollment during onboarding or open enrollment periods.</li>
+               <li className="pb-2"><h4 className="inline">Improve Employee Experience </h4>: Provide employees with a self-service portal to manage their benefits. </li>
+               <li><h4 className="inline">Maintain Compliance </h4 >: Ensure adherence to government-mandated benefit programs. </li>
               </ul>
 
             </div>
 
-
-
             <h3 className="pb-4 mt-6 h3-bold">4. Integration with Learning Management Systems (LMS)</h3>
             <p className="text-black pb-4">Continuous learning and development are vital for employee engagement and retention. By integrating with LMS platforms, SuccessFactors helps organizations:</p>
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4">
-                <p className="text-black pb-4"> <li><h4 className="inline">Deliver Training </h4>: Assign and track training programs tailored to employee roles.</li></p>
-                <p className="text-black pb-4">  <li><h4 className="inline">Measure Impact </h4>: Analyze training outcomes and link them to performance metrics.</li></p>
-                <p className="text-black ">  <li><h4 className="inline">Support Compliance </h4>: Manage mandatory certifications and training requirements.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                 <li className="pb-2"><h4 className="inline">Deliver Training </h4>: Assign and track training programs tailored to employee roles.</li>
+                  <li className="pb-2"><h4 className="inline">Measure Impact </h4>: Analyze training outcomes and link them to performance metrics.</li>
+                 <li><h4 className="inline">Support Compliance </h4>: Manage mandatory certifications and training requirements.</li>
               </ul>
             </div>
 
@@ -344,10 +335,10 @@ export default function Page() {
             <h3 className="pb-4 mt-6 h3-bold">5. Integration with Third-Party Payroll Providers</h3>
             <p className="text-black pb-4">For organizations that outsource payroll, SuccessFactors integrations with third-party providers such as ADP or Ceridian ensure:</p>
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Seamless Data Transfer </h4>: Share employee data, tax information, and payroll inputs securely.</li></p>
-                <p className="text-black pb-4">  <li><h4 className="inline">Error-Free Processing </h4>: Minimize discrepancies and delays.</li></p>
-                <p className="text-black ">  <li><h4 className="inline">Localized Compliance </h4>: Address country-specific payroll regulations.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline">Seamless Data Transfer </h4>: Share employee data, tax information, and payroll inputs securely.</li>
+                 <li className="pb-2"><h4 className="inline">Error-Free Processing </h4>: Minimize discrepancies and delays.</li>
+                <li ><h4 className="inline">Localized Compliance </h4>: Address country-specific payroll regulations.</li>
               </ul>
             </div>
 
