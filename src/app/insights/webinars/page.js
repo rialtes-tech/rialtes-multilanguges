@@ -274,10 +274,6 @@ export default function About() {
         description="Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy."
         canonical="https://www.rialtes.com/insights/webinars/"
       />
-       {/* <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
       <Script
         id="webinar-schema"
         type="application/ld+json"

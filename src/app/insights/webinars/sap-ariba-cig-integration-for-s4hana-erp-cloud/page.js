@@ -1,9 +1,9 @@
 "use client";
-import React, { useState, useEffect ,useRef} from "react";
+import React, { useRef} from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 
 const schemaData = {
@@ -76,10 +76,12 @@ export default function () {
                 canonical="https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           <Script
+        id="webinar-schema-sap"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative custom-container  xl:!pr-0 max-md:px-0">
                 <Image
                     src="/images/webinar/Webinar_27 May 25_webinar Banner.webp"
