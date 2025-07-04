@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -172,10 +173,13 @@ export default function Page() {
                 description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
                 canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
             />
-    <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+   
+               <Script
+        id="webinar-schema-discover"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
                     src="/images/blog/blog-2-banner.webp"

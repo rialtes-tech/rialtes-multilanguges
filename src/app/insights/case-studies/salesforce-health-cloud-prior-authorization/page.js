@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "Article",
@@ -95,8 +96,11 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
 "
         canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
       />
-     <script
+    
+         <Script
+        id="webinar-schema-salesforce-health"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

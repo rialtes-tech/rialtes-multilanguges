@@ -2,6 +2,7 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData =
 {
   "@context": "https://schema.org",
@@ -92,8 +93,11 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/"
       />
 
-      <script
+     
+         <Script
+        id="webinar-schema-revolutionizing"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">

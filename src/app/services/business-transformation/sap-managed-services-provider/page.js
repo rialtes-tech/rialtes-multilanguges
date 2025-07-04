@@ -6,6 +6,7 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "../../../components/learnMore";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -80,10 +81,13 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/business-transformation/sap-managed-services-provider/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+               <Script
+        id="webinar-schema-sap-manage"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative  xl:pb-40 md:pb-[10rem] pb-20">
                 <div className="xl:block hidden">
                     <Image

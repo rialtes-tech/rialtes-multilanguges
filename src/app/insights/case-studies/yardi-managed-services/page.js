@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
 
   "@context": "https://schema.org",
@@ -95,8 +96,11 @@ export default function Page() {
         description="Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader."
         canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
       />
-      <script
+    
+         <Script
+        id="webinar-schema-yardi-managed"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

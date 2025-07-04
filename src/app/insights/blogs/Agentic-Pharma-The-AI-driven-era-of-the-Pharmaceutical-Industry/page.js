@@ -4,6 +4,7 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData =
 {
@@ -210,10 +211,14 @@ export default function Page() {
                 title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
                 description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
                 canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/"}
-            /><script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+           
+               <Script
+        id="webinar-schema-agentic-pharma"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       
                <HeroSection
           

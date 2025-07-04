@@ -5,6 +5,7 @@ import ContactForm from "../../components/contactform"
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "../../components/learnMore";
+import Script from "next/script";
 
 const schemaData = {
 
@@ -85,11 +86,13 @@ export default function Page() {
                 description="IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today."
                 canonical="https://www.rialtes.com/industry/education-cloud-it-solutions/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
-
+           
+                 <Script
+        id="webinar-schema-education"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative group overflow-hidden xl:pb-40 pb-10">
                 <div className="md:block hidden">
                     <Image

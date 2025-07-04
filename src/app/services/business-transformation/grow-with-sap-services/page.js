@@ -6,6 +6,7 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -172,8 +173,11 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
       />
-      <script
+   
+         <Script
+        id="webinar-schema-grow"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative group overflow-hidden pb-20">

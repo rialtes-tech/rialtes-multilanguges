@@ -3,6 +3,7 @@ import Image from "next/image";
 import ContactForm from "../../../app/components/contactform";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -31,8 +32,11 @@ export default function Page() {
           "https://www.rialtes.com/about-us/impact-and-social-responsibility/"
         }
       />
-      <script
+    
+         <Script
+        id="webinar-schema-impact"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

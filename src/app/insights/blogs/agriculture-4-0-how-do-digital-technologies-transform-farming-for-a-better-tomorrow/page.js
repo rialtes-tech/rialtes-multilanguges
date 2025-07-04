@@ -6,6 +6,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -176,8 +177,11 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
         image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />
-      <script
+      
+         <Script
+        id="webinar-schema-agr-4"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

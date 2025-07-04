@@ -3,6 +3,7 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 
 const schemaData =
 {
@@ -98,6 +99,12 @@ export default function Page() {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+         <Script
+        id="webinar-schema-warranty-desktop"
+        type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

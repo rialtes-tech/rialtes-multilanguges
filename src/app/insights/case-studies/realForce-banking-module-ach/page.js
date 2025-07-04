@@ -3,6 +3,7 @@
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
 
   "@context": "https://schema.org",
@@ -95,8 +96,11 @@ export default function Page() {
         description="Learn how Rialtes helped front load ACH and journal entries using Exelona’s banking module to streamline finance ops and improve accuracy."
         canonical="https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/"
       />
-      <script
+    
+         <Script
+        id="webinar-schema-realforce"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

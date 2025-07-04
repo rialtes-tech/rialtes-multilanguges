@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -172,8 +173,10 @@ export default function Page() {
         description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
-        <script
+         <Script
+        id="webinar-schema-how-sap"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
