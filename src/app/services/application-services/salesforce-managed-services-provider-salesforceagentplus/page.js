@@ -270,13 +270,13 @@ export default function page() {
                 description="Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready."
                 canonical="https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
             />
-           
-               <Script
-        id="webinar-schema-salesforceplus"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+
+            <Script
+                id="webinar-schema-salesforceplus"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                 {/* Desktop Image */}
@@ -303,12 +303,12 @@ export default function page() {
 
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                        <div className="col-span-12">
+                        <div className="col-span-12 text-[#ffffff]">
                             <h3 className="text-[18px] lg:text-[24px] font-bold">
                                 SalesforceAgent+
                             </h3>
                             <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-                                Unleash the Power of <br /> Salesforce with Rialtes <br /> SalesforceAgent+
+                                Unleash the Power <br />  of Salesforce with <br /> SalesforceAgent+
                             </h1>
                             <h4 className="text-[20px] leading-tight xl:text-[28px] 4xl:text-[35px] font-bold xl:mt-[23px] mt-[15px]">
                                 AI-Ready, Always-On <br /> Managed Services
