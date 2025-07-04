@@ -310,11 +310,11 @@ export default function page() {
             />
            
               <Script
-        id="webinar-schema-sap-cloud"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+                    id="webinar-schema-sap-cloud"
+                    type="application/ld+json"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}/>
+
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
                 {/* Desktop Image */}
@@ -323,7 +323,7 @@ export default function page() {
                         src="/images/solutions/sap-cpi/hero-desk-banner.webp"
                         alt="desktop banner"
                         fill
-                        style={{ objectFit: "cover", objectPosition: "85% 20%" }}
+                        style={{ objectFit: "cover" }}
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110"
                     />
