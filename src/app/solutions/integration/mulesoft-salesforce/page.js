@@ -43,9 +43,7 @@ const page = () => (
     <Serve />
     <Outcomes />
     <div
-      className="
-        bg-[#F5F5F5]"
-    >
+className="bg-[#F5F5F5]">
       <div className="custom-container py-10">
         <FeaturedCarousel />
       </div>

@@ -61,7 +61,7 @@ const webinars = [
 
 const allWebinars = [
   {
-    id: 5,
+    id: 6,
     title: "CIG, Your Gateway to SAP Ariba",
     date: "10 June, 2025",
     time: "10:00 AM CST",
@@ -71,7 +71,7 @@ const allWebinars = [
     url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
   },
   {
-    id: 4,
+    id: 5,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
     date: "June 03, 2025",
     time: "10:00 AM CST",
