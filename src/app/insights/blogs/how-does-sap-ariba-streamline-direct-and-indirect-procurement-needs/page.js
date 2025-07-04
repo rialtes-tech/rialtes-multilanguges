@@ -5,6 +5,7 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData =
 {
   "@context": "https://schema.org",
@@ -172,8 +173,11 @@ export default function Page() {
         description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
         canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
       />
-      <script
+     
+         <Script
+        id="webinar-schema-how-does"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
      
@@ -247,7 +251,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold pb-6 max-w-[58rem] w-full  xl:max-w-[1084px] xl:w-[1084px] leading-tight">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[775px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
           </div>
 
           <div className="">

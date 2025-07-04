@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -172,15 +173,17 @@ export default function Page() {
         description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
-        <script
+         <Script
+        id="webinar-schema-how-sap"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-remote-work.webp"
-          alt="How SAP SuccessFactors Enhances Remote Work Management"
+          alt="Discover SAP SuccessFactors' role in remote work management, shown with hands on a laptop against a sleek blue backdrop."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority
@@ -190,7 +193,6 @@ export default function Page() {
       <section
         className="custom-container"
       > 
-
         <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]  ">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
@@ -257,9 +259,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
 
-          <h1 className="text-[#000000] font-semibold pb-6 leading-tight  ">How SAP SuccessFactors Enhances Remote Work Management</h1>
-
-
+          <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[1084px]  xl:w-[724px] text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight">How SAP SuccessFactors Enhances Remote Work Management</h1>
 
           <div className="">
 

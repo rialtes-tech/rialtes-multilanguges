@@ -5,8 +5,8 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -218,10 +218,6 @@ const Services = () => {
         </div>
     );
 };
-
-
-
-
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
@@ -229,13 +225,15 @@ export default function Page() {
                 title="Salesforce Marketing Cloud Consulting & Implementation Services"
                 description="Salesforce marketing cloud consulting & implementation services by Rialtes Advantage+ deliver AI-powered, personalized journeys across channels, driving real ROI"
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting
-"
+                canonical="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+              <Script
+        id="webinar-schema-salesforce-marketing"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative group overflow-hidden pb-20">
                 <div className="xl:block hidden pt-20">
                     <Image
@@ -422,28 +420,28 @@ export default function Page() {
                 <div className="bg-[#F0F0F0] relative 4xl:pl-[142px] 4xl:h-[1340px] xl:h-[865px]">
                     <div className="relative z-10 -mt-32 4xl:mr-[-142px] xl:mr-[-100px] xl:ml-[80px] 4xl:ml-0">
                         <div className="xl:block hidden">
-                              <Image
-                            src="/images/services/lob/advantageplus/desktop/reimage.webp"
-                            alt="Cloud Technology"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            className="w-full h-auto object-cover absolute 4xl:mt-[-100px] xl:mt-[-100px] max-md:px-[35px]"
-                            priority
-                        />
+                            <Image
+                                src="/images/services/lob/advantageplus/desktop/reimage.webp"
+                                alt="Cloud Technology"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="w-full h-auto object-cover absolute 4xl:mt-[-100px] xl:mt-[-100px] max-md:px-[35px]"
+                                priority
+                            />
                         </div>
                         <div className="xl:hidden block">
-                              <Image
-                            src="/images/services/lob/advantageplus/mobile/reimage.webp"
-                            alt="Cloud Technology"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            className="w-full h-auto object-cover absolute 4xl:mt-[-100px] xl:mt-[-100px] max-md:px-[35px]"
-                            priority
-                        />
+                            <Image
+                                src="/images/services/lob/advantageplus/mobile/reimage.webp"
+                                alt="Cloud Technology"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="w-full h-auto object-cover absolute 4xl:mt-[-100px] xl:mt-[-100px] max-md:px-[35px]"
+                                priority
+                            />
                         </div>
-                      
+
                     </div>
 
                     <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px]">
@@ -546,7 +544,7 @@ export default function Page() {
                 </div>
             </section>
 
-           
+
 
             <section className="4xl:mt-[14rem] custom-container relative 4xl:pr-[142px] 4xl:pl-[213px] xl:mt-80 mt-[78rem] md:mt-[58rem] max-md:px-0">
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
@@ -603,13 +601,8 @@ export default function Page() {
 
                 </div>
             </section>
-
-
-
-
             <div
-                className="mt-[4rem] 4xl:mt-[5rem] xl:mt-[3rem]"
-            >
+                className="mt-[4rem] 4xl:mt-[5rem] xl:mt-[3rem]">
                 <section className=" bg-white">
 
                     <SalesforceExplore />

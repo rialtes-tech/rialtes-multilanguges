@@ -2,6 +2,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 import React from "react";
 
 export default function page() {
@@ -305,12 +306,15 @@ export default function page() {
             <Seo
                 title="SAP Cloud Platform Integration (CPI) Consulting | Rialtes"
                 description="Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights."
-                canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting"
+                canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           
+              <Script
+        id="webinar-schema-sap-cloud"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
                 {/* Desktop Image */}

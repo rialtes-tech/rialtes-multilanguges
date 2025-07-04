@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 
 
 const schemaData = {
@@ -82,10 +83,12 @@ export default function () {
                 canonical="https://www.rialtes.com/insights/webinars/rise-with-sap-transformation-rialtes/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+             <Script
+        id="webinar-schema-rise"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative h-[250px] sm:h-[500px] xl:h-[650px] overflow-hidden xl:ml-[280px]">
                 <Image
                     src="/images/webinar/banner-rise.webp"

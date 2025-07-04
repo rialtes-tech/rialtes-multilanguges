@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -190,12 +191,18 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
       />
 
+   <Script
+        id="webinar-schema-enhancing"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
             src="/images/blog/sap-gts-sanctioned-party-screening2.webp"
-            alt="desktop banner"
+            alt="Explore SAP GTS SPL screening for seamless third-party compliance, showcased over a dynamic global trade map."
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -207,7 +214,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/enhancing-compliance-blog-mob-banner2.webp"
-            alt="mobile banner"
+            alt="Explore SAP GTS SPL screening for seamless third-party compliance, showcased over a dynamic global trade map."
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -279,9 +286,8 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 leading-tight">
-              Role of Sanctioned Party List Screening in SAP GTS for Third-Party
-              Transactions
+            <h1 className="text-[#000000] font-semibold pb-6 leading-tight 4xl:w-[1084px] xl:w-[704px] text-[26px] xl:text-[40px] 4xl:text-[60px]">
+             Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions
             </h1>
           </div>
           <div>

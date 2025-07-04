@@ -1,10 +1,10 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
   "@context": "https://schema.org",
  "@type": "BlogPosting",
@@ -173,11 +173,13 @@ export default function Page() {
         description="Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!"
         canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
       />
-        <script
+      
+   <Script
+        id="webinar-schema-how-salesforce"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
@@ -241,7 +243,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container pl-0 mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">How Salesforce Agentforce Actually Works</h1>
+            <h1 className="text-[#000000] font-semibold pb-6  xl:w-[584px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How Salesforce Agentforce Actually Works</h1>
           </div>
 
           <div className="container pl-0 mx-auto">
@@ -267,7 +269,7 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Salesforce Agentforce: How It Works?</h2>
 
-              <p className="text-black pb-4">Salesforce Agentforce helps businesses automate customer interactions, sales processes, and internal workflows. It integrates with Salesforce’s CRM and tools like Data Cloud to make all data actionable. Let’s see an instance of Agentforce in action by building an AI service agent to avert incoming support cases by answering a customer question “Where is my order? My email is <Link href="mailto:sales@rialtes.com" className="underline"> <span className="font-semibold">mrjohn@example.com</span></Link>”</p>
+              <p className="text-black pb-4">Salesforce Agentforce helps businesses automate customer interactions, sales processes, and internal workflows. It integrates with Salesforce’s CRM and tools like Data Cloud to make all data actionable. Let’s see an instance of Agentforce in action by building an AI service agent to avert incoming support cases by answering a customer question “Where is my order? My email is <Link href="mailto:sales@rialtes.com" className="underline"> <span >mrjohn@example.com</span></Link>”</p>
 
               <p className="text-black pb-4">Like any chatbot, the agent will answer the question immediately, but you can also expand your agent’s capabilities by enabling it to help with the appointment of installation of the product by adding a new topic. Topics are how you define the jobs your AI agents will and won’t do and it’s how you establish guardrails for your AI agents. But you can expand your agent guardrails by creating a new topic. This is very different from old-style chatbots, there are no dialog trees, just natural language descriptions that help the agent the task to execute.</p>
 

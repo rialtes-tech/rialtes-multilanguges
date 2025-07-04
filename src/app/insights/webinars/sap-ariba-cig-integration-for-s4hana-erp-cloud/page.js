@@ -1,9 +1,9 @@
 "use client";
-import React, { useState, useEffect ,useRef} from "react";
+import React, { useRef} from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 
 const schemaData = {
@@ -45,9 +45,25 @@ export default function () {
     
      const sectionRef = useRef(null);
     
-        const handleScroll = () => {
-            sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
-        };
+      const handleScroll = () => {
+    if (!sectionRef.current) return;
+
+    const getOffset = () => {
+        const width = window.innerWidth;
+        if (width > 1536) return 160; // 2xl+
+        if (width > 1280) return 120; // xl
+        if (width > 768) return 100;  // md
+        return 80; // sm and below
+    };
+
+    const offset = getOffset();
+    const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+    window.scrollTo({
+        top: elementPosition - offset,
+        behavior: 'smooth',
+    });
+};
 
    
     const fullUrl = "https://rialtes.netlify.app/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
@@ -60,10 +76,12 @@ export default function () {
                 canonical="https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           <Script
+        id="webinar-schema-sap"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative custom-container  xl:!pr-0 max-md:px-0">
                 <Image
                     src="/images/webinar/Webinar_27 May 25_webinar Banner.webp"

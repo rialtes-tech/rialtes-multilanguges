@@ -1,10 +1,10 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -174,8 +174,11 @@ export default function Page() {
         canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
         image="https://rialtes.netlify.app/images/blog/atlas-reasoning-engine-agentforce.jpg"
       />
-      <script
+     
+         <Script
+        id="webinar-schema-brain"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -240,7 +243,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
 
-          <h1 className="text-[#000000] font-semibold pb-6 leading-tight">The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce</h1>
+          <h1 className="text-[#000000] font-semibold pb-6 xl:w-[750px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce</h1>
 
 
           <div className="">

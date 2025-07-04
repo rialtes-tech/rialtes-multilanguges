@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -111,8 +112,11 @@ export default function Page() {
         description="Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions."
         canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
       />
-  <script
+ 
+         <Script
+        id="webinar-schema-sales-agentforce"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -179,7 +183,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="container mx-auto pl-0">
-            <h1 className="text-[#000000] font-semibold pb-8  max-[1084px] xl:w-[1084px] leading-tight">Powerful Features of Agentforce You Should Be Using</h1>
+            <h1 className="text-[#000000] font-semibold pb-8  xl:w-[750px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Powerful Features of Agentforce You Should Be Using</h1>
           </div>
 
           <div className="container mx-auto pl-0">
@@ -285,7 +289,7 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Transition to AI-Powered Customer Engagement</h2>
 
-              <p className="text-black pb-4"><Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}>Salesforce Agentforce</Link> is a powerhouse platform that goes past the basics of customer support. Tap into these underutilized features like omnichannel routing, AI-powered assistance, customizable dashboards, intelligent workflow automation, mobile-first functionality, real-time analytics, and seamless integrations to transform your support operations. Not only will this improve efficiency and response times, but it will also empower your agents to deliver a superior customer experience every single time.</p>
+              <p className="text-black pb-4"><Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}>Salesforce Agentforce</Link> is a powerhouse platform that goes past the basics of customer support. Tap into these underutilized features like omnichannel routing, AI-powered assistance, customizable dashboards, intelligent workflow automation, mobile-first functionality, real-time analytics, and seamless integrations to transform your support operations. Not only will this improve efficiency and response times, but it will also empower your agents to deliver a superior customer experience every single time.</p>
 
               <p className="text-black pb-4">Rialtes enables businesses to integrate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows. Using machine learning and natural language processing, we align agents with organizational goals for effective intelligent automation. Get in touch with us at <Link className="underline" href={"mailto:sales@rialtes.com"}>sales@rialtes.com</Link>.</p>
 

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -172,15 +173,16 @@ export default function Page() {
         description="Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps."
         canonical="https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
       />
-        <script
+   <Script
+        id="webinar-schema-integrate-sap"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-office365-integration.webp "
-          alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+          alt="Discover SAP SuccessFactors and Office 365 integration benefits with vibrant intersecting dots on a sleek blue background."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority
@@ -223,7 +225,7 @@ export default function Page() {
           </div>
           <div className="py-3"></div>
           <div className="container pl-0 ">
-            <h1 className="text-[#000000] font-semibold pb-6 max-[1084px] xl:w-[1084px] leading-tight">How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[760px] 4xl:w-[1154px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration</h1>
           </div>
 
           <div className="container mx-auto pl-0">

@@ -2,11 +2,10 @@
 // pages/success-factors.js
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -52,8 +51,8 @@ const schemaData = {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "SAP S/4HANA for Semiconductor",
-          "description": "Streamline fab operations, yield management, and supply chain compliance with SAP S/4HANA."
+          "name": "SAP S/4 HANA for Semiconductor",
+          "description": "Streamline fab operations, yield management, and supply chain compliance with SAP S/4 HANA."
         }
       },
       {
@@ -466,8 +465,11 @@ export default function Page() {
         description=" Explore semiconductor industry IT solutions with SAP and Salesforce to streamline chip design, testing, partner collaboration, and customer engagement."
         canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
       />
-      <script
+     
+           <Script
+        id="webinar-schema-hitech"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* herosection */}
@@ -566,7 +568,7 @@ export default function Page() {
             </ul>
 
             <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[56px] mt-[26px] font-normal w-[90%] lg:w-full">
-              We integrate SAP S/4HANA, Salesforce Industry Clouds, and AI solutions to enable smarter decision-making, faster time-to-market, and enhanced compliance.
+              We integrate SAP S/4 HANA, Salesforce Industry Clouds, and AI solutions to enable smarter decision-making, faster time-to-market, and enhanced compliance.
             </p>
 
             <div className="absolute mt-[20px] xl:mt-[30px]">
@@ -586,9 +588,9 @@ export default function Page() {
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[80%] lg:w-full">
           End-to-End Semiconductor Processes
         </h2>
-        <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] font-semibold xl:mt-[27px] mt-[17px]">
+        <p className="xl:text-[30px] 4xl:text-[36px] text-[22px] font-semibold xl:mt-[27px] mt-[17px]">
           Digitally Enabled with Rialtes
-        </h3>
+        </p>
 
         <div className="relative grid lg:grid-cols-2 grid-cols-1 xl:mt-[66px] mt-[46.5px] md:w-[80%] lg:w-full xl:w-[98%]">
 
@@ -596,9 +598,9 @@ export default function Page() {
             endToEndData.map((data, ind) => {
               return (
                 <div key={ind} className={`lg:w-[82%] ${ind == 2 && "lg:mt-[-100px]"}`}>
-                  <p className={`xl:text-[24px] 4xl:text-[30px] text-[18px] leading-tight font-semibold lg:mt-[80px] mt-[40px] w-[90%] lg:w-full ${(ind == 0) && "!mt-0"} ${(ind == 0 || ind == 1) && "lg:!mt-0"} ${(ind == 4) && "xl:!mt-[40px] lg:!mt-0 2xl:!mt-0 4xl:!mt-[80px]"} text-[#0A6BB8]`}>
+                  <h3 className={`xl:text-[24px] 4xl:text-[30px] text-[18px] leading-tight font-semibold lg:mt-[80px] mt-[40px] w-[90%] lg:w-full ${(ind == 0) && "!mt-0"} ${(ind == 0 || ind == 1) && "lg:!mt-0"} ${(ind == 4) && "xl:!mt-[40px] lg:!mt-0 2xl:!mt-0 4xl:!mt-[80px]"} text-[#0A6BB8]`}>
                     {data.title}
-                  </p>
+                  </h3>
                   {data.desc && <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight font-normal mt-[18px] xl:mt-[40px] w-[90%] lg:w-full">
                     {data.desc}
                   </p>}
@@ -610,7 +612,7 @@ export default function Page() {
                     ))}
                   </ul>
 
-                  <div className={`h-1 w-full bg-gray-300 ${ind == 3 && "lg:bg-transparent"} ${ind == 4 && "bg-transparent"}`}></div>
+                  <div className={`h-[1px] w-full bg-[#707070] ${ind == 3 && "lg:bg-transparent"} ${ind == 4 && "bg-transparent"}`}></div>
 
                   {ind === 3 && (
                     <div className="hidden lg:block absolute lg:bottom-[60px]">
@@ -619,7 +621,7 @@ export default function Page() {
                   )}
 
                   {ind === 4 && (
-                    <div className="block lg:hidden max-lg:mt-[45px]">
+                    <div className="block lg:hidden max-lg:mt-[25px]">
                       <LearnMore />
                     </div>
                   )}
@@ -651,7 +653,7 @@ export default function Page() {
               ))}
             </ul>
 
-            <div className="xl:mt-[87px] mt-[34px]">
+            <div className="xl:mt-[87px] mt-[24px]">
               <LearnMore />
             </div>
           </div>
@@ -684,7 +686,7 @@ export default function Page() {
 
       {/* strategic challenges section */}
 
-      <section className="xl:mt-[117px] mt-[41px] custom-container relative xl:pt-[112px] xl:pb-[151px] pt-[79px] pb-[107px] text-[#ffffff] bg-no-repeat bg-cover
+      <section className="xl:mt-[117px] mt-[64px] custom-container relative xl:pt-[112px] xl:pb-[151px] pt-[79px] pb-[107px] text-[#ffffff] bg-no-repeat bg-cover
              bg-[url('/images/industry/semi-conductor/Mobile/strategic-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/strategic-desk.webp')]">
 
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-[70%] xl:w-[80%]">
@@ -697,7 +699,7 @@ export default function Page() {
               return (
                 <div className={`pt-[51px] xl:px-[46px] pb-[59px] px-[36px] border border-[#FFFFFF] ${ind == 2 && "lg:mt-[-80px] lg:h-[440px] xl:h-[530px] 2xl:h-[520px] 4xl:h-[620px]"}`} key={ind}>
                   <div className="absolute lg:mt-[-80px] xl:mt-[-90px] 4xl:mt-[-100px] mt-[-80px]">
-                    <p className="xl:text-[60px] 4xl:text-[70px] text-[50px] leading-tight px-6 py-0 text-[#FFD800] inline bg-[#073259] mix-blend-hard-light">
+                    <p className="xl:text-[60px] 4xl:text-[70px] text-[50px] leading-tight px-6 py-0 text-[#FFD800] inline bg-[#073259] mix-blend-hard-light font-bold">
                       {data.id}
                     </p>
                   </div>
@@ -779,12 +781,12 @@ export default function Page() {
                 <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] md:mb-[43px] xl:mb-[53px] md:w-[60%] lg:w-[50%] xl:w-[70%] 4xl:w-[70%]">
                   {data.title}
                 </h2>
-                <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-[20px] md:gap-[40px]">
-                  <div>
-                    {data.subtitle && <p className="xl:text-[30px] 4xl:text-[40px] text-[20px] leading-tight font-semibold max-md:mt-[13px] w-[90%] lg:w-[94%]">
+                <div className="grid md:grid-cols-2 xl:grid-cols-12 grid-cols-1 lg:gap-[40px] xl:gap-0 4xl:gap-[40px] md:gap-[20px]">
+                  <div className="xl:col-span-5">
+                    {data.subtitle && <p className="xl:text-[30px] 4xl:text-[40px] text-[20px] leading-tight font-semibold max-md:mt-[13px] w-[90%] lg:w-full">
                       {data.subtitle}
                     </p>}
-                    <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal max-md:mt-[23px] w-[90%] lg:w-[94%] 4xl:w-[80%] ${ind == 2 && "xl:mt-[34px] mt-[23px]"}`}>
+                    <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal max-md:mt-[23px] w-[90%] lg:w-[94%] 4xl:w-full ${ind == 2 && "xl:mt-[34px] mt-[23px]"}`}>
                       {data.desc}
                     </p>
 
@@ -810,7 +812,7 @@ export default function Page() {
                         </p>
                     }
 
-                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[34px] mt-[26px] pl-[20px] 4xl:w-[82%] xl:w-[90%] w-[90%] md:w-full">
+                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[34px] mt-[26px] pl-[20px] 4xl:w-[96%] xl:w-[90%] w-[90%] md:w-full">
                       {data.keyData.map((data, ind) => (
                         <li className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" key={ind}>
                           {data}
@@ -819,14 +821,14 @@ export default function Page() {
                     </ul>
 
                   </div>
-                  <div className="hidden md:block h-full w-full">
+                  <div className="xl:col-span-7 hidden md:block h-full w-full">
                     <Image
                       src={data.deskImg}
                       alt="desktop image"
                       height={0}
                       width={0}
                       priority
-                      className="h-full md:h-[600px] lg:h-full w-full object-cover object-[25%_20%]"
+                      className="h-full md:h-[600px] lg:h-full w-full max-2xl:object-cover object-[25%_20%]"
                     />
                   </div>
 
@@ -872,9 +874,9 @@ export default function Page() {
               <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[80%] 4xl:w-fulll">
                 AI-Driven Innovation in Semiconductor
               </h2>
-              <h3 className="xl:text-[30px] 4xl:text-[40px] text-[20px] leading-tight xl:mt-[34px] mt-[18px] font-semibold">
+              <p className="xl:text-[30px] 4xl:text-[40px] text-[20px] leading-tight xl:mt-[34px] mt-[18px] font-semibold">
                 Practical Impact
-              </h3>
+              </p>
               <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[18px] font-normal w-[90%] md:w-full">
                 Artificial Intelligence (AI) is revolutionizing the semiconductor industry, fundamentally reshaping how companies design, manufacture, test, and manage semiconductors in today’s rapidly evolving markets. From chip design optimization to predictive yield analysis, AI is helping semiconductor manufacturers reduce costs, improve quality, accelerate time-to-market, and address the increasing complexity of advanced chips like AI accelerators, SoCs, and 5G modems.
               </p>
@@ -915,9 +917,9 @@ export default function Page() {
                         />
                       </div>
 
-                      <h3 className="xl:text-[26px] 4xl:text-[40px] text-[18px] leading-tight xl:mt-[45px] mt-[29px] font-semibold text-[#006FBE] w-[90%] md:w-full">
+                      <h4 className="xl:text-[26px] 4xl:text-[40px] text-[18px] leading-tight xl:mt-[45px] mt-[29px] font-semibold text-[#006FBE] w-[90%] md:w-full">
                         {data.title}
-                      </h3>
+                      </h4>
                       <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[24px] font-normal w-[90%] md:w-full">
                         {data.desc}
                       </p>
@@ -964,9 +966,9 @@ export default function Page() {
                 </div>
               </div>
               <div className="md:col-span-6 col-span-12">
-                <h3 className="xl:text-[26px] 4xl:text-[40px] text-[18px] leading-tight md:mt-0 mt-[29px] font-semibold text-[#006FBE]">
+                <h4 className="xl:text-[26px] 4xl:text-[40px] text-[18px] leading-tight md:mt-0 mt-[29px] font-semibold text-[#006FBE]">
                   AI-Enabled Customer & Partner Collaboration (Salesforce & SAP Integration)
-                </h3>
+                </h4>
                 <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[24px] font-normal">
                   AI enhances customer engagement platforms by offering real-time analytics on customer design needs, usage patterns, and product performance. AI-driven insights allow sales, engineering, and partner teams to recommend optimal solutions and pricing, creating a seamless customer experience.
                 </p>
@@ -1023,9 +1025,9 @@ export default function Page() {
               </p>
             </div>
             <div className="lg:col-span-6 xl:col-span-5 col-span-12 ">
-              <h3 className="text-[18px] leading-tight xl:text-[30px] 4xl:text-[38px] font-bold">
+              <h2 className="text-[18px] leading-tight xl:text-[30px] 4xl:text-[38px] font-bold">
                 Deal Registration and Customer Engagement — Streamlined & Intelligent
-              </h3>
+              </h2>
               <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[35px] mt-[21px]`}>
                 In the semiconductor industry, where design wins, long sales cycles, and complex partner ecosystems dominate the landscape, managing deal registration and customer engagement efficiently is critical to success. From OEMs and Tier-1 customers to contract manufacturers and channel partners, transparency, speed, and control over the sales and design collaboration process can mean the difference between winning or losing a major opportunity.
                 <br /><br />
@@ -1044,7 +1046,7 @@ export default function Page() {
         {
           keyPillarsData.map((data, ind) => {
             return (
-              <div className="xl:py-[60px] py-[44px] border-b border-gray-300 last:border-0" key={ind}>
+              <div className="xl:py-[60px] py-[44px] border-b border-[#707070] last:border-0" key={ind}>
                 <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[60px] w-[90%] md:w-[80%] lg:w-full">
                   <div>
                     <div className="flex flex-row xl:gap-[30px] gap-[30px]">
@@ -1067,7 +1069,7 @@ export default function Page() {
                     </p>
                   </div>
                   <div>
-                    <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-semibold  max-lg:mt-[22px]`}>
+                    <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-semibold max-lg:mt-[22px]`}>
                       Strategic Benefits:
                     </p>
                     <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[22px] mt-[18px] pl-[20px] 4xl:w-[82%]">
@@ -1120,9 +1122,9 @@ export default function Page() {
                   <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[80%] xl:w-full">
                     End-to-End Semiconductor Deal Ecosystem
                   </h2>
-                  <h3 className="text-[20px] leading-tight xl:text-[36px] 4xl:text-[40px] xl:mt-[46px] mt-[22px] font-bold lg:w-[80%] xl:w-full">
+                  <p className="text-[20px] leading-tight xl:text-[36px] 4xl:text-[40px] xl:mt-[46px] mt-[22px] font-bold lg:w-[80%] xl:w-full">
                     Powered by Salesforce + Rialtes Advisory
-                  </h3>
+                  </p>
                   <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[37px] mt-[22px] font-normal w-[90%] lg:w-[80%] xl:w-full">
                     Our approach transforms the traditional, manual deal registration processes into a real-time, AI-enhanced ecosystem, where customers, channel partners, and sales teams collaborate effectively, supported by intelligent workflows and deep insights.
                     <br /><br />
@@ -1130,9 +1132,9 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="sm:w-[80%] lg:w-full xl:w-[90%] lg:ml-auto">
-                  <p className="xl:text-[26px] 4xl:text-[32px] text-[17px] leading-tight lg:w-[60%] xl:w-full">
+                  <h3 className="xl:text-[26px] 4xl:text-[32px] text-[17px] leading-tight lg:w-[60%] xl:w-full font-semibold">
                     Benefits for Semiconductor Companies:
-                  </p>
+                  </h3>
                   <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[32px] mt-[22px] pl-[20px] w-[94%] lg:w-full">
                     {endSemiconductorData.map((data, ind) => (
                       <li className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" key={ind}>
@@ -1153,7 +1155,7 @@ export default function Page() {
 
       {/* by combining section */}
       <section className="xl:mt-[65px] mt-[64px] custom-container xl:pt-[49px] xl:pb-[48px] pt-[43px] pb-[47px] px-[34px] text-[#ffffff] bg-no-repeat bg-cover bg-[url('/images/industry/semi-conductor/Mobile/combining-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/combining-desk.webp')]">
-        <p className="xl:text-[28px] 4xl:text-[34px] text-[22px] leading-tight w-[85%] md:w-[70%] lg:w-[60%] xl:w-[76%] 2xl:w-[66%] font-medium">
+        <p className="xl:text-[28px] 4xl:text-[34px] text-[22px] leading-tight w-[85%] md:w-[70%] lg:w-[60%] xl:w-[76%] 2xl:w-[72%] font-medium">
           By combining Salesforce Experience Cloud with Rialtes industry-aligned advisory and implementation services, semiconductor companies can unlock the next level of growth and operational efficiency — transforming deal registration from a bottleneck into a competitive advantage.
         </p>
       </section>
@@ -1201,9 +1203,9 @@ export default function Page() {
       {/* key reasons  */}
       <section className="md:mt-[90px] mt-[50px]">
         <h2 className="custom-container">
-          <p className="text-[17px] leading-tight xl:text-[26px] 4xl:text-[40px] font-bold w-[90%] lg:w-[60%] 2xl:w-[50%] 4xl:w-[80%]">
+          <h3 className="text-[17px] leading-tight xl:text-[26px] 4xl:text-[40px] font-bold w-[90%] lg:w-[60%] 2xl:w-[50%] 4xl:w-[80%]">
             Key Reasons Why Leading Semiconductor Companies Trust Rialtes
-          </p>
+          </h3>
         </h2>
 
         {keyReasonsData.map((data, ind) => {
@@ -1226,7 +1228,7 @@ export default function Page() {
                 <div className={`grid lg:grid-cols-12 grid-cols-1 lg:gap-[30px] xl:gap-[40px] ${isEven ? "4xl:gap-[60px]" : "4xl:gap-[20px]"} max-[400px]:gap-y-[20px] gap-y-[40px] mt-[29px] lg:mt-[97px]`}>
 
                   <div
-                    className={`lg:col-span-4 col-span-12 ${isEven ? "" : "lg:order-2 order-1"
+                    className={`lg:col-span-4 4xl:col-span-5 col-span-12 ${isEven ? "" : "lg:order-2 order-1"
                       }`}
                   >
                     {/* Mobile Image */}
@@ -1253,16 +1255,16 @@ export default function Page() {
                     </div>
                   </div>
                   <div
-                    className={`lg:col-span-8 col-span-12 sm:w-[80%] lg:w-full ${isEven ? "" : "lg:order-1 order-2"
+                    className={`lg:col-span-8 4xl:col-span-7 col-span-12 sm:w-[80%] lg:w-full ${isEven ? "" : "lg:order-1 order-2"
                       }`}
                   >
-                    <h3 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-semibold w-[90%] lg:w-[90%] xl:w-[80%] 2xl:w-[70%] 4xl:w-[80%]">
+                    <h4 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-semibold w-[90%] lg:w-[90%] xl:w-[80%] 2xl:w-[70%] 4xl:w-full">
                       {data.title}
-                    </h3>
+                    </h4>
 
-                    <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[30px] xl:gap-[40px] gap-y-[25px] xl:mt-[99px] mt-[34px] lg:mb-[70px] mb-[100px]">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[30px] xl:gap-[0px] gap-y-[25px] xl:mt-[99px] mt-[34px] lg:mb-[70px] mb-[100px]">
                       <div className="relative">
-                        <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal w-[90%] lg:w-full xl:w-[90%] 4xl:w-[86%]">
+                        <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal w-[90%] lg:w-full xl:w-[90%] 4xl:w-[92%]">
                           {data.desc}
                         </p>
 
@@ -1283,7 +1285,7 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
-                <div className={`absolute bottom-0 ${isEven && "lg:left-1/3 ml-[20px]"}`}>
+                <div className={`absolute bottom-0 ${isEven && "lg:left-1/3 4xl:left-[770px] ml-[20px]"}`}>
                   <LearnMore />
                 </div>
               </div>
@@ -1317,7 +1319,7 @@ export default function Page() {
           />
         </div>
 
-        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:mt-[52px] mt-[30px] max-md:px-[36px] w-[90%] md:w-[80%] lg:w-[70%] 4xl:w-[76%] text-[#000000]">
+        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:mt-[52px] mt-[30px] max-md:px-[36px] w-[90%] md:w-[80%] lg:w-[70%] 4xl:w-[76%] text-[#000000] font-normal">
           Rialtes — Your Strategic Partner for Semiconductor Growth
         </h2>
         <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 4xl:gap-[60px] xl:mt-[59px] mt-[25px] gap-y-[33px] max-md:px-[36px]">
@@ -1339,13 +1341,9 @@ export default function Page() {
             </ul>
           </div>
         </div>
-
-        <div className="3xl:mt-[56px] xl:mt-0 mt-[40px] max-md:px-[36px]">
-          <LearnMore />
-        </div>
       </section>
       {/* Contact Form */}
-      < div className="custom-container md:mt-[142px] xl:mb-[92px] mt-[54px] mb-[45px]">
+      < div className="custom-container md:mt-[122px] xl:mb-[92px] mt-[54px] mb-[45px]">
         <ContactForm title={'Ready to Connect Your Enterprise?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className={" text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]"} />
       </div >
     </section >

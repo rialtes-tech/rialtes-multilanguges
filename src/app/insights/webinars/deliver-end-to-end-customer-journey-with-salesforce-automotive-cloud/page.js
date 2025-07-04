@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -53,7 +53,23 @@ export default function () {
     const sectionRef = useRef(null);
 
     const handleScroll = () => {
-        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+        if (!sectionRef.current) return;
+
+        const getOffset = () => {
+            const width = window.innerWidth;
+            if (width > 1536) return 160; // 2xl+
+            if (width > 1280) return 120; // xl
+            if (width > 768) return 100;  // md
+            return 80; // sm and below
+        };
+
+        const offset = getOffset();
+        const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+        window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth',
+        });
     };
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-08T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
@@ -94,11 +110,12 @@ export default function () {
                 description="Join our webinar to explore how Salesforce Automotive Cloud enhances customer journeys with unified data, AI-driven insights, and seamless automation."
                 canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
             />
-            <script
+            <Script
+                id="webinar-schema-deliver"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
             <section className="relative custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/thumbc.webp"

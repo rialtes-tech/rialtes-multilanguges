@@ -45,6 +45,12 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     const [error, setError] = useState('');
     const [formErrors, setFormErrors] = useState({});
     const formRef = useRef(null);
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+    setMounted(true);
+    generateCaptcha(); // generate on client only
+  }, []);
 
     const refreshCaptcha = () => {
         setCaptcha(generateCaptcha());
@@ -149,12 +155,12 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         setFormErrors({});
     }, []);
 
-
+ if (!mounted) return null;
     return (
         <section className={(padding ? padding : '')}>
-            <h1 className={`font-light leading-tight ${className}`}>
+            <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px] ${className}`}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
-            </h1>
+            </div>
 
             {subtitle && (
                 <p className="mt-8 leading-tight xl:text-[20px] text-[16px] xl:w-[60%] font-regular">

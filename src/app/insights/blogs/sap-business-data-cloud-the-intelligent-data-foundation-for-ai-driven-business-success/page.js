@@ -5,6 +5,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -181,8 +182,11 @@ export default function Page() {
         description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
         canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
       />
-  <script
+ 
+         <Script
+        id="webinar-schema-nonprofit"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -264,19 +268,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className=" mx-auto grid xl:grid-cols-12 grid-cols-1">
-          
-            <div className="xl:col-span-8 col-span-12">
-              <h1 className="text-[#000000] font-semibold  pb-6  xl:max-w-[1084px] xl:w-[1084px] leading-tight">Finally, a Home for All Your Data: Introducing SAP Business Data Cloud
-</h1>
-
-            </div>
-            <div className="xl:col-span-2 col-span-12"></div>
-          </div>
 
           <div className="container pl-0 mx-auto">
             <div className=" xl:max-w-[1084px] xl:w-[1084px]">
-
+              <h1 className="text-[#000000] font-semibold  pb-6  xl:w-[704px] 4xl:w-[1004px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success
+</h1>
               <p className="text-black">On February 13th, 2025, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/">SAP announced</Link> its new managed software-as-a-service, SAP Business Data Cloud (BDC). As of Q1 2025, BDC is in a controlled general availability phase, initially available to selected customers. This unified data management solution addresses key pain points and combines existing and new services from SAP and its partners. BDC acts as a context-aware data foundation for analytical and AI use cases, utilizing a cost-effective SAP-managed object store for data storage.</p>
               <p className="mt-3">BDC is an evolution of the business data fabric journey, with Datasphere and SAP Analytics Cloud as core components. The solution integrates various technologies to deliver curated data products, advanced analytics, benchmarking data, and AI-powered insights, utilizing applications like SAP Datasphere, SAP Business Warehouse, and SAP Analytics Cloud.</p>
               <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Understanding SAP Business Data Cloud</h2>

@@ -10,6 +10,7 @@ import Seo from './components/Seo';
 import AutoTimerSlider from './newHome/page';
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 import ContactForm from './components/contactform';
+import Script from 'next/script';
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -173,9 +174,9 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",title:"News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
-        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp',title:"Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp',title:"Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
+        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     // useEffect(() => {
@@ -204,8 +205,11 @@ const Home = () => {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/"}
             />
-            <script
+
+            <Script
+                id="webinar-schema-main-page"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative">
@@ -265,7 +269,7 @@ const Home = () => {
                                     </svg>
                                 </button>
 
-                                <button  aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
+                                <button aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
                                     <svg viewBox="0 0 24 24" fill="black" width="45">
                                         <polygon points="9,6 15,12 9,18" />
                                     </svg>
@@ -450,7 +454,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="flex">
-                                    <button  aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
+                                    <button aria-label="Previous Slide" onClick={handlePrevInsights} className="xl:h-[60px] xl:w-[60px] h-[45px] w-[45px] bg-white flex items-center justify-center shadow-md hover:bg-gray-100">
                                         <svg viewBox="0 0 24 24" fill="black" width="24">
                                             <polygon points="15,6 9,12 15,18" />
                                         </svg>
@@ -477,7 +481,7 @@ const Home = () => {
                         }`}
                 >
 
-                    <p className="text-[#073259] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] 4xl:text-[140px] 4xl:leading-[219px] lg:text-[80px] font-extrabold">
+                    <div className="text-[#073259] text-[56px] leading-[68px] md:text-[100px] md:leading-[120px] 4xl:text-[140px] 4xl:leading-[219px] lg:text-[80px] font-extrabold">
                         <span>LIFE</span>
                         <span className="text-[#073259] text-[24px] leading-[32px] md:text-[36px] md:leading-[44px] 4xl:text-[54px] 4xl:leading-[73px] lg:text-[40px] font-extrabold">
                             @
@@ -490,13 +494,9 @@ const Home = () => {
                         <p className="text-[14px] leading-[20px] xl:text-[16px] xl:leading-[26px] 4xl:text-[20px] 4xl:leading-[30px] font-medium xl:mt-[27px] mt-[19px] xl:w-[90%] lg:w-[70%] md:w-[80%] w-[90%] ">
                             Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.
                         </p>
-                    </p>
+                    </div>
 
-                    {/*
-    <button className="mt-8 xl:mt-16 px-6 py-4 text-sm xl:text-xl bg-[#134874] text-white font-bold border border-white hover:bg-opacity-90 transition">
-      Explore More
-    </button>
-    */}
+
                 </div>
                 <div
                     ref={refs[4]}

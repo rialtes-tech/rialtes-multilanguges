@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import { HeroSection } from "../components/herosection";
+import Script from "next/script";
 
 const schemaData={
 
@@ -84,8 +85,11 @@ export default function InsightsPage() {
         description="Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation."
         canonical="https://www.rialtes.com/insights/"
       />
-        <script
+       
+         <Script
+        id="webinar-schema-insights"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -391,7 +395,7 @@ export default function InsightsPage() {
               className="border h-full border-gray-200 overflow-hidden mb-6 flex flex-col md:flex-row"
               onMouseEnter={handleMouseEnter("case-study-1")}
               onMouseLeave={handleMouseLeave("case-study-1")}
-              onClick={handleClick("/insights/case-studies/salesforce-health-cloud-prior-authorization")}
+              onClick={handleClick("/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
@@ -412,7 +416,7 @@ export default function InsightsPage() {
                   }}
                 >
                   <Image
-                    src="/images/case-studies/case-study-8_thumb.webp"
+                    src="/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp"
                     alt="Diversity illustration"
                     fill
                     sizes=""
@@ -425,19 +429,16 @@ export default function InsightsPage() {
                 <div className=" p-6 xl:p-12 max-w-2xl">
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">
-                      Healthcare and Life Sciences
+                      Automotive
                     </span>{" "}
                     <span className="mx-2">|</span>
-                    <span className="text-sm">25 Oct 2024</span>
+                    <span className="text-sm">30 June 2025</span>
                   </div>
                   <h3 className="mb-3">
-                    Salesforce Health Cloud, Prior Authorization
+                    Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense
                   </h3>
                   <p>
-                    A global medical technology company that develops and
-                    manufactures innovative products used by doctors to
-                    diagnose, treat, and monitor people with cardiovascular and
-                    endovascular conditions.
+              A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.
                   </p>
                 </div>
               </div>
@@ -449,7 +450,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-2")}
                 onMouseLeave={handleMouseLeave("case-study-2")}
-                onClick={handleClick("/insights/case-studies/streamlined-devops-using-copado-and-salesforce")}
+                onClick={handleClick("/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -469,7 +470,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/case-studies/case study 3_thumb_Carousal_n 1.webp"
+                      src="/images/case-studies/revolutionary-filter.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -482,15 +483,13 @@ export default function InsightsPage() {
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">Manufacturing</span>{" "}
                     <span className="mx-2">|</span>
-                    <span className="text-sm">8 Jan 2025</span>
+                    <span className="text-sm">03 June 2025</span>
                   </div>
                   <h3 className="mb-2">
-                    Streamlined DevOps using Copado and Salesforce
+                 Revving Up Dealer Management with AutoSense by Rialtes
                   </h3>
                   <p className="">
-                    A leading manufacturer that specializes in building
-                    innovative materials for residential and commercial
-                    construction projects.
+                  A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.
                   </p>
                 </div>
               </div>
@@ -499,7 +498,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-3")}
                 onMouseLeave={handleMouseLeave("case-study-3")}
-                onClick={handleClick("/insights/case-studies/realForce-banking-module-ach")}
+                onClick={handleClick("/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -519,7 +518,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/case-studies/case study 2_thumb_Carousal_n 1.webp"
+                      src="/images/case-studies/adaptis-for-carousel.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -530,15 +529,13 @@ export default function InsightsPage() {
                 </div>
                 <div className="p-8">
                   <div className="flex flex-row items-center mb-3">
-                    <span className="text-[#0092E0]">Real Estate</span>{" "}
+                    <span className="text-[#0092E0]">Manufacturing</span>{" "}
                     <span className="mx-2">|</span>
-                    <span className="text-sm">22 Dec 2024</span>
+                    <span className="text-sm">30 May 2025</span>
                   </div>
-                  <h3 className="mb-2">RealForce Banking Module - ACH</h3>
+                  <h3 className="mb-2">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h3>
                   <p className="">
-                    A multifamily real estate firm based out of the US that
-                    specializes in managing and investing in multifamily
-                    properties.
+                    A leading manufacturer of high-quality roofing solutions designed to protect what matters most. 
                   </p>
                 </div>
               </div>
@@ -547,7 +544,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 bg-[#ffffff] overflow-hidden"
                 onMouseEnter={handleMouseEnter("case-study-4")}
                 onMouseLeave={handleMouseLeave("case-study-4")}
-                onClick={handleClick("/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap")}
+                onClick={handleClick("/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori")}
                 style={{
                   cursor: "pointer",
                   transition: "background-color 0.3s ease",
@@ -567,7 +564,7 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/case-studies/case study 1_thumb_Carousal 2.webp"
+                      src="/images/case-studies/fiory-carosel.webp"
                       alt="Diversity illustration"
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
@@ -578,17 +575,15 @@ export default function InsightsPage() {
                 </div>
                 <div className="p-8">
                   <div className="flex flex-row items-center mb-3">
-                    <span className="text-[#0092E0]">Healthcare</span>{" "}
+                    <span className="text-[#0092E0]">Manufacturing</span>{" "}
                     <span className="mx-2">|</span>
-                    <span className="text-sm">17 Nov 2024</span>
+                    <span className="text-sm">28 May 2025</span>
                   </div>
                   <h3 className="mb-2">
-                    Automate Order Processing using Mulesoft for Salesforce
-                    Health Cloud and SAP
+                    150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization
                   </h3>
                   <p className="">
-                    A global medical technology company that develops and
-                    manufactures
+                    Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability. 
                   </p>
                 </div>
               </div>

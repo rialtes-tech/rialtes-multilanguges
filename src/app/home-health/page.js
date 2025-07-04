@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import ContactForm from "../components/contactform";
 import LearnMore from "../components/learnMore";
 

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -191,6 +192,12 @@ export default function Page() {
         description="Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork."
         canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
       />
+         <Script
+        id="webinar-schema-agents-vs"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       {/* hero section */}
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -298,7 +305,7 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 leading-tight ">
+            <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[850px] font-semibold pb-6 leading-tight text-[26px] xl:text-[45px] 4xl:text-[58px]">
               Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0
             </h1>
           </div>

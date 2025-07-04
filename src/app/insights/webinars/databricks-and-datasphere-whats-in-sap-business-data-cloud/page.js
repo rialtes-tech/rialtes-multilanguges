@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -42,9 +43,25 @@ const schemaData = {
 export default function () {
     const sectionRef = useRef(null);
 
-  const handleScroll = () => {
-    sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+ const handleScroll = () => {
+    if (!sectionRef.current) return;
+
+    const getOffset = () => {
+        const width = window.innerWidth;
+        if (width > 1536) return 160; // 2xl+
+        if (width > 1280) return 120; // xl
+        if (width > 768) return 100;  // md
+        return 80; // sm and below
+    };
+
+    const offset = getOffset();
+    const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+    window.scrollTo({
+        top: elementPosition - offset,
+        behavior: 'smooth',
+    });
+};
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-13T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
@@ -85,11 +102,12 @@ export default function () {
                 description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
                 canonical="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
             />
-
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+             <Script
+        id="webinar-schema-databricks"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative  custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/Webinar_13 May 25_webinar Banner.webp"

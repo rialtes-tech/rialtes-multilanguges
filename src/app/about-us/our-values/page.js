@@ -3,6 +3,7 @@ import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -128,10 +129,13 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/our-values/"}
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           
+               <Script
+        id="webinar-schema-our"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 {/* 
     <HeroSection title="Building a growth mindset. Each day." subtitle="Culture and Values" mobimg="/images/culture/AdobeStock_1016285553.webp" deskimg="/images/culture/culture header.webp" extraImg="" txtColor="#01335B" /> */}
          <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">

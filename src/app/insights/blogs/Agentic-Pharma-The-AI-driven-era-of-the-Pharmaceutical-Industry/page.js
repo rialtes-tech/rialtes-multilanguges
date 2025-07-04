@@ -4,6 +4,7 @@ import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData =
 {
@@ -210,10 +211,14 @@ export default function Page() {
                 title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
                 description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
                 canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/"}
-            /><script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+           
+               <Script
+        id="webinar-schema-agentic-pharma"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       
                <HeroSection
           
@@ -230,7 +235,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>AI</span> <span className='text-[#ACACAC]'> | </span>30-5-2025
+                <span className='text-[#0092E0]'>AI</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -274,9 +279,8 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000]  pb-6 max-[1084px] xl:w-[1084px] leading-tight font-semibold">Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry</h1>
+            <h1 className="text-[#000000]  pb-6  4xl:w-[1084px] xl:w-[820px]  leading-tight font-semibold text-[26px] xl:text-[45px] 4xl:text-[60px]">Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry</h1>
           </div>
-
           <div>
             <div className="max-w-[1084px] xl:w-[1084px]">
 

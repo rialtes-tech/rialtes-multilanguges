@@ -1,11 +1,11 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -171,11 +171,13 @@ export default function Page() {
         description="SAP SuccessFactors integrations are a game-changer for HR and payroll operations—enhancing efficiency, accuracy, and compliance for global and local teams."
         canonical={"https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/"}
       />
-      <script
+     
+   <Script
+        id="webinar-schema-how-integrations"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
 
       <HeroSection mobimg="/images/blog/successfactor-mobile-banner.webp" deskimg="/images/blog/successfactor-web-banner.webp" extraImg="" />
 
@@ -231,7 +233,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
 
-          <h1 className="text-[#000000] font-semibold pb-6 leading-tight">How SAP SuccessFactors Integrations Enhance HR and Payroll Operations</h1>
+          <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[750px] font-semibold pb-6 leading-tight  text-[26px] xl:text-[40px] 4xl:text-[60px]">How SAP SuccessFactors Integrations Enhance HR and Payroll Operations</h1>
 
           <div>
 

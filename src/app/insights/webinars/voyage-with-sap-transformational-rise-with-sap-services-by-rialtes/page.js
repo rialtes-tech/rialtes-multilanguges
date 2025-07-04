@@ -4,47 +4,64 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 const schemaData = {
-   "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-  "description": "Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.",
-  "url": "https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/",
-  "startDate": "2025-06-03T20:30:00+05:30",
-  "endDate": "2025-06-03T21:00:00+05:30",
-  "duration": "PT30M",
-  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "organizer": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-  },
-  "performer": {
-    "@type": "Person",
-    "name": "Anuraag Aggarwal",
-    "jobTitle": "Vice President of Global Sales",
-    "url": "https://www.linkedin.com/in/anuraag-aggarwal/"
-  },
-  "image": "https://www.rialtes.com/images/webinar/banner-rise.webp",
-  "audience": {
-    "@type": "Audience",
-    "audienceType": "CIOs, IT Leaders, Digital Transformation Leaders, SAP Technical Consultants, SAP Functional Consultants, Enterprise Architects"
-  },
-  "location": {
-    "@type": "VirtualLocation",
-    "url": "https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
-  },
-  "keywords": "SAP Rise webinar, RISE with SAP, Voyager+, Rialtes webinars"
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+    "description": "Join us for an exclusive deep dive into transformational SAP journeys to explore how Rialtes' Voyager+ framework streamlines every step of your SAP journey, from license advisory to post-go-live success. Discover how you can simplify your RISE with SAP transformation with a clear, value-driven, all-in-one approach designed to accelerate cloud adoption, reduce technical debt, reimagine processes, and infuse AI-powered innovation into your operations.",
+    "url": "https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/",
+    "startDate": "2025-06-03T20:30:00+05:30",
+    "endDate": "2025-06-03T21:00:00+05:30",
+    "duration": "PT30M",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "performer": {
+        "@type": "Person",
+        "name": "Anuraag Aggarwal",
+        "jobTitle": "Vice President of Global Sales",
+        "url": "https://www.linkedin.com/in/anuraag-aggarwal/"
+    },
+    "image": "https://www.rialtes.com/images/webinar/banner-rise.webp",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "CIOs, IT Leaders, Digital Transformation Leaders, SAP Technical Consultants, SAP Functional Consultants, Enterprise Architects"
+    },
+    "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
+    },
+    "keywords": "SAP Rise webinar, RISE with SAP, Voyager+, Rialtes webinars"
 }
 export default function () {
 
     const sectionRef = useRef(null);
 
     const handleScroll = () => {
-        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+        if (!sectionRef.current) return;
+
+        const getOffset = () => {
+            const width = window.innerWidth;
+            if (width > 1536) return 160; // 2xl+
+            if (width > 1280) return 120; // xl
+            if (width > 768) return 100;  // md
+            return 80; // sm and below
+        };
+
+        const offset = getOffset();
+        const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+        window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth',
+        });
     };
 
     const fullUrl = "https://rialtes.netlify.app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
@@ -56,8 +73,11 @@ export default function () {
                 description="Join our SAP RISE webinar to explore VoyagerPlus, a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation"
                 canonical="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
             />
-  <script
+
+            <Script
+                id="webinar-schema-voyage"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <section className="relative custom-container xl:!pr-0">

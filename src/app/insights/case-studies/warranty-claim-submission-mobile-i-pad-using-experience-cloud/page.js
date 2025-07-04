@@ -4,6 +4,7 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
@@ -31,57 +32,57 @@ const schemaData = {
     "datePublished": "2025-05-30",
 }
 const slides = [
-    {
-        id: 3,
-        image: "/images/case-studies/case study 1_thumb_n.webp",
-        category: "Healthcare",
-        industry: "Real Estate",
-        date: "17 Nov 2024",
-        title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-        description: "A global medical technology company that develops and manufactures innovative products",
-        url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-    },
-    {
-        id: 4,
-        image: "/images/case-studies/case-study-4_thumb.webp",
-        category: "Real Estate",
-        industry: "Healthcare",
-        date: "14 Oct 2024",
-        title: "Omnichannel case management with Salesforce Service Cloud",
-        description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-    },
-    {
-        id: 6,
-        image: "/images/case-studies/case-study-6_thumb.webp",
-        category: "Healthcare",
-        industry: "Manufacturing",
-        date: "4 Sept 2024",
-        title: "Yardi Managed Services",
-        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        url: 'insights/case-studies/yardi-managed-services'
-    },
-    {
-        id: 7,
-        image: "/images/case-studies/case study 3_thumb_n.webp",
-        category: "SAP",
-        industry: "Retail & e-Commerce",
-        date: "25 Oct 2024",
-        title: "Streamlined DevOps using Copado and Salesforce",
-        description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-    },
-    {
-        id: 8,
-        image: "/images/case-studies/case-study-2_thumb_n.webp",
-        category: "Salesforce",
-        industry: "Hi-Tech",
-        date: "25 Oct 2024",
-        title: "RealForce Banking Module - ACH",
-        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        url: 'insights/case-studies/realForce-banking-module-ach'
-    },
-    // Add more blog objects as needed
+  {
+    id: 3,
+    image: "/images/case-studies/case study 1_thumb_n.webp",
+    category: "Healthcare",
+    industry: "Real Estate",
+    date: "17 Nov 2024",
+    title: "Automating Order Processing in Healthcare using MuleSoft",
+    description: "A global medical technology company that develops and manufactures innovative products",
+    url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
+  },
+  {
+    id: 4,
+    image: "/images/case-studies/case-study-4_thumb.webp",
+    category: "Manufacturing",
+    industry: "Healthcare",
+    date: "14 Oct 2024",
+    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+    url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
+  },
+  {
+    id: 6,
+    image: "/images/case-studies/case-study-6_thumb.webp",
+    category: "Real Estate",
+    industry: "Manufacturing",
+    date: "04 Sept 2024",
+    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: 'insights/case-studies/yardi-managed-services'
+  },
+  {
+    id: 7,
+    image: "/images/case-studies/case study 3_thumb_n.webp",
+    category: "Manufacturing",
+    industry: "Retail & e-Commerce",
+    date: "08 Jan 2025",
+    title: "DevOps Transformation using Copado and Salesforce",
+    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+    url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+  },
+  {
+    id: 8,
+    image: "/images/case-studies/case-study-2_thumb_n.webp",
+    category: "Real Estate",
+    industry: "Hi-Tech",
+    date: "22 Dec 2024",
+    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
+    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    url: 'insights/case-studies/realForce-banking-module-ach'
+  },
+  // Add more blog objects as needed
 ];
 
 
@@ -95,18 +96,21 @@ export default function Page() {
                 description=" Discover how a leading roofing brand used Salesforce Experience Cloud to deliver a mobile-friendly warranty claim experience customers love."
                 canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+               <Script
+        id="webinar-schema-warranty-mobile"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
 
             <HeroSection mobimg="/images/case-studies/Adaptis-for-mobile-banner.webp" deskimg="/images/case-studies/Adaptis-for-web-casestudy-banner.webp " extraImg="" />
 
             <section className="custom-container">
-                <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+                <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[850px]">
                     <div className="">
-                        <h1 className="text-[#000000] py-6 leading-tight text-[24px] md:text-[48px] xl:text-[60px] ">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h1>
+                        <h1 className="text-[#000000] py-6 leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px] ">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h1>
                     </div>
                     <div className="py-4"></div>
                     <div className="">

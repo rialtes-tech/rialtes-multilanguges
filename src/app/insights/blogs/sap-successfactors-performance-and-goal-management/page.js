@@ -1,10 +1,10 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -173,8 +173,11 @@ export default function Page() {
         description="SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!"
         canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
       />
-      <script
+      
+         <Script
+        id="webinar-schema-performance"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -258,13 +261,8 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-
-          <h1 className="text-[#000000] font-semibold pb-6 leading-tight">SAP SuccessFactors Performance and Goal Management</h1>
-
-
+          <h1 className="text-[#000000]  4xl:w-[1084px] xl:w-[745px]  font-semibold pb-6 leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">SAP SuccessFactors Performance and Goal Management</h1>
           <div className="">
-
-
             <p className="text-black pb-4">Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive. SAP SuccessFactors Performance and Goal Management (PMGM) is a powerful tool that supports organizations in aligning individual performance with organizational goals, fostering a high-performance culture, and driving employee engagement.</p>
 
             <p className="text-black">It enables your employees to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.</p>
@@ -299,7 +297,6 @@ export default function Page() {
 
             <p className="text-black pb-4">Adopting SuccessFactors PMGM can lead to several significant benefits for an organization:</p>
 
-          
   <div className="pl-3">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
                 <p className="text-black pb-4"> <li><h4 className="inline">Goal Alignment </h4> : The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li></p>
@@ -355,9 +352,7 @@ export default function Page() {
               expert SAP SuccessFactors consultants </span></Link>
             </p>
 
-
           </div>
-
         </div>
       </section>
 

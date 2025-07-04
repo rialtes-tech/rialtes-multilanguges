@@ -1,6 +1,7 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 
 const schemaData = {
 
@@ -41,8 +42,11 @@ export default function Page() {
                 description="As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems."
                 canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
             />
-            <script
+
+            <Script
+                id="webinar-schema-rialtes-become"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 

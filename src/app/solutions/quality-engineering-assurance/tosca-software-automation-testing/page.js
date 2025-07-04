@@ -3,6 +3,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function DemandPlusSection() {
     const schemaData = {
@@ -108,10 +109,13 @@ export default function DemandPlusSection() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+              <Script
+        id="webinar-schema-toska"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section className="relative">
                 <div className="xl:block hidden">
