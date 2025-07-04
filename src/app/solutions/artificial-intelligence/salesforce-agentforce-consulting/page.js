@@ -125,7 +125,6 @@ export default function Agentforce() {
 
     ];
 
-
     const industryBenifite = [
         {
             id: 1,
@@ -364,7 +363,7 @@ export default function Agentforce() {
                 </div>
             </section>
 
-            <section className="bg-[#F5F5F5] mt-[60px] md:mt-[70px] lg:mt-[94px] py-10">
+            <section className="bg-[#F5F5F5] mt-[60px] md:mt-[70px] lg:mt-[94px] py-20">
                 <div className="custom-container px-6">
                     <FeaturedCarousel />
                 </div>
@@ -372,7 +371,7 @@ export default function Agentforce() {
             <div className="mt-[60px] md:mt-[70px] lg:mt-[94px] mb-20 custom-container lg:pr-0">
                 <ServicesBlogs slides={slides} />
             </div>
-            <section className='px-6 custom-container lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-10'>
+            <section className='px-6 custom-container lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-20'>
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 custom-container lg:pr-0 lg:mt-20 pb-20 mt-10">

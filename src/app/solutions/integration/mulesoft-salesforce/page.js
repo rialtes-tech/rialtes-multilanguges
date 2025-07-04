@@ -1,32 +1,67 @@
 import React from "react";
-import Banner from "./components/Banner";
 import ServiceSection from "./components/ServiceSection";
-import TransformationSection from "./components/TransformationSection";
-import Serve from "./components/Serve";
-import Outcomes from "./components/Outcomes";
 import FeaturedCarousel from "../../../components/servicesFeaturedCarousel";
-import InsightsCarousel from "../../../components/servicesInsightsCarousel";
 import ExploreMoreCarousel from "../../../components/servicesExploreMoreCarousel";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
+import Image from "next/image";
+import UnorderedList from "@/app/components/unorderedList";
+import LearnMore from "@/app/components/learnMore";
 
-const ContentSection = () => (
-  <div className="lg:py-28 py-14 custom-container">
-    <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
-      <h2 className="w-full md:max-w-[50%] 2xl:w-[40%] 4xl:w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-        Leading Platform to Unlock an Integrated View of Your Business
-      </h2>
-      <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
-        An integration solution should help businesses establish connectivity
-        and address integration challenges. MuleSoft offers a future-proof,
-        low-friction, unified connectivity platform for this purpose. Integrate
-        systems, applications, and data—on-premises and in the cloud for
-        real-time visibility and agility to make decisions and stay ahead of
-        disruption.
-      </p>
-    </div>
-  </div>
-);
+const pointsData = [
+  "Leverage the power of integration to streamline robust workflows",
+  "Deliver exceptional customer experiences",
+  "Reduce maintenance expenses while enhancing efficiency",
+  "Drive operational transformation with modern integration strategies",
+  "Unite applications, devices, and data into one cohesive ecosystem",
+];
+
+const serveData = [
+  {
+    _id: 1,
+    tittle: "Healthcare",
+    descrip:
+      "Ensure seamless patient data exchange across systems for better care delivery.",
+  },
+
+  {
+    _id: 2,
+    tittle: "Retail",
+    descrip:
+      "Connect eCommerce platforms, inventory systems, and payment gateways for a superior customer experience.",
+  },
+
+  {
+    _id: 3,
+    tittle: "Finance",
+    descrip:
+      "Enable real-time data flow across banking systems to improve operational efficiency and compliance.",
+  },
+
+  {
+    _id: 4,
+    tittle: "Manufacturing",
+    descrip:
+      "Integrate supply chain management, ERP, and IoT systems for optimized production and logistics.",
+  },
+];
+const driveData = [
+  {
+    _id: 1,
+    percent: "63%",
+    des: `Reduction in\nmaintenance costs`,
+  },
+  {
+    _id: 2,
+    percent: "4x",
+    des: `Faster time-to-market for\nnew applications and\nservices`,
+  },
+  {
+    _id: 3,
+    percent: "64%",
+    des: `Improvement in\ncustomer satisfaction`,
+  },
+]
 
 const page = () => (
   <>
@@ -36,44 +71,146 @@ const page = () => (
       keywords="home, website, welcome"
       canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
     />
-    <Banner />
-    <ContentSection />
-    <ServiceSection />
-    <TransformationSection />
-    <Serve />
-    <Outcomes />
-    <div
-      className="
-        bg-[#F5F5F5]"
-    >
-      <div className="custom-container py-10">
-        <FeaturedCarousel />
+    {/* hero section */}
+
+
+    <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
+      {/* Desktop Image */}
+      <div className="hidden md:block">
+        <Image
+          src="/images/mulesoft-integration/mulesoftBanner.webp"
+          alt="desktop banner"
+          fill
+          style={{ objectFit: "cover", objectPosition: "85% 40%" }}
+          priority
+          className="transform transition-transform duration-500 group-hover:scale-110"
+        />
+      </div>
+      {/* Mobile Image */}
+      <div className="block md:hidden">
+        <Image
+          src="/images/mulesoft-integration/mulesoftBanner.webp"
+          alt="mobile banner"
+          fill
+          style={{ objectFit: "cover", objectPosition: "25% 40%" }}
+          priority
+        />
+      </div>
+
+      <div className="relative h-full custom-container flex items-center text-[#ffffff]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+          <div className="col-span-12">
+            <h1 className="text-[18px] lg:text-[24px] font-bold">
+              MuleSoft Integration Solutions
+            </h1>
+            <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+              Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
+            </h2>
+          </div>
+          <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* page description */}
+    <div className="lg:py-28 py-14 custom-container">
+      <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
+        <h2 className="w-full md:max-w-[50%] 2xl:w-[40%] 4xl:w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          Leading Platform to Unlock an Integrated View of Your Business
+        </h2>
+        <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+          An integration solution should help businesses establish connectivity
+          and address integration challenges. MuleSoft offers a future-proof,
+          low-friction, unified connectivity platform for this purpose. Integrate
+          systems, applications, and data—on-premises and in the cloud for
+          real-time visibility and agility to make decisions and stay ahead of
+          disruption.
+        </p>
       </div>
     </div>
-    <div className=" py-[69px]">
-      {/* <div
-        className="
-  container
-  ml-[15px] w-[calc(100%-15px)] mr-0
-  xl:ml-[280px] xl:w-[calc(100%-280px)]
-  md:ml-[100px] md:w-[calc(100%-100px)]
-  sm:mx-5 sm:w-[calc(100%-40px)]
-  xs:mx-4 xs:w-[calc(100%-32px)]
-  "
-      >
-        <InsightsCarousel />
-      </div> */}
-    </div>
-    <div
-      className="py-[30px]
-        bg-[#808080]"
-    >
-      <div>
-        <div
-          className="custom-container"
-        >
-          <ExploreMoreCarousel />
+    <ServiceSection />
+    {/* transformation section */}
+    <section className="py-24">
+      <div className="custom-container flex items-start max-xl:flex-col justify-between gap-10">
+        <div className="w-full xl:max-w-[50%] max-w-full">
+          <h2 className="w-full mb-8 4xl:text-[60px] xl:text-[40px] md:text-[26px] leading-tight">
+            Unleashing Digital Transformation with Robust Integration Solution
+          </h2>
+          <p className="w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">
+            Unleashing Digital Transformation with Robust Integration Solution
+          </p>
+          <UnorderedList arrName={pointsData} ulClassName="mt-[40px]  4xl:text-[20px] xl:text-[18px] text-[16px]" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]" />
         </div>
+        <div className="w-full xl:max-w-[50%] h-full max-w-full relative flex xl:justify-end max-xl:gap-5">
+          <Image
+            src="/images/mulesoft-integration/RobustIntegrationSolution.webp"
+            className=""
+            width={650}
+            height={500}
+            alt=""
+            priority
+          />
+        </div>
+
+      </div>
+      <div className="mt-6 custom-container">
+        <LearnMore />
+      </div>
+    </section>
+
+    {/* serve section */}
+    <section className="custom-container">
+      <div className="w-full mb-14">
+        <h2 className="w-full mb-8 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+          Industries We Serve
+        </h2>
+        <p className="w-full  text-[16px] 4xl:text-[20px] xl:text-[18px] leading-tight">
+          Our MuleSoft Integration Services cater to a wide range of industries
+        </p>
+      </div>
+
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 ">
+        {serveData.map(({ _id, tittle, descrip }) => (
+          <div className="border-r border-[#707070] ">
+            <div className="max-w-[256px]" key={_id}>
+              <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px]">{tittle}</h4>
+              <p className="4xl:text-[20px] xl:text-[18px] text-[16px] font-medium">{descrip}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {/* drive data section */}
+    <div className="bg-[#EDEDED] py-16 mt-20">
+      <div className="custom-container">
+        <h2 className=" font-light mb-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+          Drive Measurable Business Outcomes
+        </h2>
+
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 ">
+          {driveData.map(({ _id, percent, des }) => (
+            <div key={_id}>
+              <h2 className="font-extrabold 4xl:text-[70px] xl:text[60px] text-[#0092E0]">
+                {percent}
+              </h2>
+              <p className="4xl:text-[24px] xl:text-[18px]  text-[16px] whitespace-pre-wrap leading-tight">{des}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+
+    <div className="custom-container py-20 bg-[#F5F5F5]">
+      <FeaturedCarousel />
+    </div>
+
+    <div
+      className="mt-[120px] py-20 bg-[#808080]">
+      <div className="custom-container">
+        <ExploreMoreCarousel />
       </div>
     </div>
     <div className="!py-[90px] custom-container">

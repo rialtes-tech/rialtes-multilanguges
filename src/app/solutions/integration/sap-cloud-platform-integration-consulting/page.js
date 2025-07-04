@@ -3,7 +3,7 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import React from "react";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -407,13 +407,7 @@ export default function page() {
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[27px] mt-[14px] font-normal">
                                 In today’s hyper-connected business landscape, companies face mounting challenges:
                             </p>
-                            <ul className="list-disc xl:mt-[27px] mt-[22px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]">
-                                {thoughtLeadershipData.map((data, ind) => (
-                                    <li key={ind} className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight">
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={thoughtLeadershipData} ulClassName="list-disc xl:mt-[27px] mt-[22px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight" />
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[33px] mt-[22px] font-normal">
                                 Rialtes and SAP Cloud Integration enable enterprises to break silos, automate workflows, and unlock real-time intelligence to power modern, responsive businesses.
                             </p>
@@ -495,29 +489,14 @@ export default function page() {
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
                                                     Key Capabilities:
                                                 </p>
-                                                <ul className="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]">
-                                                    {
-                                                        data.keyData.map((data, ind) => {
-                                                            return (
-                                                                <li key={ind} className="xl:text-[17px] text-[16px] leading-tight">{data}</li>
-                                                            )
-                                                        })
-                                                    }
-                                                </ul>
+                                                <UnorderedList arrName={data.keyData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
                                             <div>
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
                                                     Business Benefits:
                                                 </p>
-                                                <ul className="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]">
-                                                    {
-                                                        data.businessData.map((data, ind) => {
-                                                            return (
-                                                                <li key={ind} className="xl:text-[17px] text-[16px] leading-tight">{data}</li>
-                                                            )
-                                                        })
-                                                    }
-                                                </ul>
+
+                                                <UnorderedList arrName={data.businessData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
                                         </div>
                                         <div className="xl:mt-[61px] mt-[44px]">
@@ -547,15 +526,12 @@ export default function page() {
                                                 priority
                                             />
                                         </div>
-
                                     </div>
-
                                 </div>
                             )
                         })
                     }
                 </div>
-
             </section>
 
             {/* integration section */}
@@ -598,13 +574,7 @@ export default function page() {
                                 <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[44px] mt-[19px] font-normal">
                                     We help you connect SAP to Oracle, Workday, and other cloud/on-prem platforms to create a frictionless and intelligent enterprise.
                                 </p>
-                                <ul className="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]">
-                                    {integrationData.map((data, ind) => (
-                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
                                     <LearnMore />
                                 </div>
@@ -635,13 +605,7 @@ export default function page() {
                                                 <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] sm:first:mt-[20px] ${data?.subtitle && "mt-[30px]"} font-normal sm:w-[80%] md:w-full`}>
                                                     {data.desc}
                                                 </p>
-                                                <ul className="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full">
-                                                    {data.dataList.map((data, ind) => (
-                                                        <li key={ind} className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight">
-                                                            {data}
-                                                        </li>
-                                                    ))}
-                                                </ul>
+                                                <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="md:mt-[83px] mt-[33px]">
                                                     <LearnMore />
                                                 </div>
@@ -729,13 +693,7 @@ export default function page() {
                                                 <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] mt-0 sm:w-[80%] md:w-full font-normal ${data?.subtitle && "mt-[30px]"}`}>
                                                     {data.desc}
                                                 </p>
-                                                <ul className="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full">
-                                                    {data.dataList.map((data, ind) => (
-                                                        <li key={ind} className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight">
-                                                            {data}
-                                                        </li>
-                                                    ))}
-                                                </ul>
+                                                <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="lg:mt-[60px] mt-[33px]">
                                                     <LearnMore />
                                                 </div>
@@ -781,13 +739,7 @@ export default function page() {
                                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
                                     Why Rialtes?
                                 </h2>
-                                <ul className="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]">
-                                    {whyRialtesData.map((data, ind) => (
-                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
                                     <LearnMore />
                                 </div>
