@@ -97,10 +97,6 @@ export default function Page() {
         description="Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
         canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud/"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
          <Script
         id="webinar-schema-warranty-desktop"
         type="application/ld+json"

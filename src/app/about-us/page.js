@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-import Head from 'next/head';
 import Script from "next/script";
 
 const schemaData = {

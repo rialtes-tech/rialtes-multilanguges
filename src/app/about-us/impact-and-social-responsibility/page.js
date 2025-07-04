@@ -2,7 +2,6 @@
 import Image from "next/image";
 import ContactForm from "../../../app/components/contactform";
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
 
 const schemaData = {
