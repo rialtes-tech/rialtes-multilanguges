@@ -6,7 +6,6 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
 
-
     
     const [captchaValue, setCaptchaValue] = useState(false);
     const recaptchaRef = useRef(null);
@@ -45,7 +44,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                 recaptchaRef.current?.reset();
             }
         } catch (error) {
-            console.error('Captcha verification failed:', error);
+            // console.error('Captcha verification failed:', error);
             alert('An error occurred during captcha verification');
             recaptchaRef.current?.reset();
         }
