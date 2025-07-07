@@ -228,6 +228,7 @@ const Header = () => {
             { label: 'Healthcare', href: '/industry/life-sciences/healthcare-medtech-patient-care' },
             { label: 'Medical Devices', href: '/industry/life-sciences/medical-devices-it-solutions' },
             { label: 'Pharma And BioTech', href: '/industry/life-sciences/pharma-biotech-digital-transformation' },
+            { label: 'Home Health', href: '/industry/life-sciences/home-health' },
           ],
         },
         {
@@ -1019,10 +1020,15 @@ const Header = () => {
                               onHover={() => { }} />
                           </div>
                         </div>
-
-                        <div>
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
-                            onHover={() => { }} />
+                        <div className="grid grid-cols-2 gap-32">
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")}
+                              onHover={() => { }} />
+                          </div>
+                          <div>
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Home Health" link="/industry/life-sciences/home-health" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/home-health")}
+                              onHover={() => { }} />
+                          </div>
                         </div>
                       </div>
                     </div>

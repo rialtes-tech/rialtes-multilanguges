@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import ContactForm from "../components/contactform";
-import LearnMore from "../components/learnMore";
+import ContactForm from "@/app/components/contactform";
+import LearnMore from "@/app/components/learnMore";
 
 export default function Page() {
     const addressingData = [
@@ -338,7 +338,7 @@ export default function Page() {
                         {
                             capabilitiesData.map((data, ind) => {
                                 return (
-                                    <div className="" key={ind}>
+                                    <div key={ind}>
                                         <h4 className="4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight w-[90%] lg:w-full">
                                             {data.title}
                                         </h4>
