@@ -6,7 +6,7 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -87,8 +87,104 @@ const schemaData = {
     ]
   }
 }
+const retailServices = [
+  {
+    title: "Advisory & Strategy Consulting:",
+    description:
+      "Crafting scalable digital transformation roadmaps aligned with global retail trends and enterprise goals.",
+  },
+  {
+    title: "Solution Design & Architecture:",
+    description:
+      "End-to-end design covering commerce, supply chain, marketing, and customer service — fully integrated with Salesforce and SAP ecosystems.",
+  },
+  {
+    title: "Implementation & Rollout:",
+    description:
+      "Full lifecycle Salesforce Commerce Cloud, Service Cloud, SAP S/4HANA, and AI-driven data integrations, tailored for B2B and B2C models.",
+  },
+  {
+    title: "Quality Assurance & Testing:",
+    description:
+      "Robust functional, performance, and security testing to ensure seamless operations.",
+  },
+  {
+    title: "Systems Integration & Automation:",
+    description:
+      "Real-time integrations with ERP, CRM, OMS, Payment, and Inventory platforms, enhancing operational agility.",
+  },
+  {
+    title: "Post Go-Live Optimization & Support:",
+    description:
+      "Continuous enhancement, AI adoption, and managed services for long-term value realization.",
+  },
+];
+const retailVerticals = [
+  {
+    title: "Fashion & Apparel",
+    icon: "/images/industry/retail/fashan.svg",
+    paddingClass: "xl:pr-20",
+  },
+  {
+    title: "Consumer Electronics",
+    icon: "/images/industry/retail/consumer.svg",
+    paddingClass: "xl:pr-20",
+  },
+  {
+    title: "Home & Furniture",
+    icon: "/images/industry/retail/ferniture.svg",
+    paddingClass: "xl:pr-20",
+  },
+  {
+    title: "Luxury Goods & Lifestyle",
+    icon: "/images/industry/retail/lux.svg",
+    paddingClass: "xl:pr-40",
+  },
+  {
+    title: "Food & Beverage",
+    icon: "/images/industry/retail/foods.svg",
+    paddingClass: "xl:pr-24",
+  },
+  {
+    title: "Health & Wellness",
+    icon: "/images/industry/retail/health.svg",
+    paddingClass: "xl:pr-20",
+  },
+  {
+    title: "Travel Retail and Duty-Free",
+    icon: "/images/industry/retail/travel.svg",
+    paddingClass: "xl:pr-12",
+  },
+];
+const salesforceSolutions = [
+  {
+    title: "Salesforce Service Cloud",
+    description: "Empower customer service teams with omnichannel case management.",
+  },
+  {
+    title: "Salesforce Experience (Community) Cloud",
+    description: "Build branded customer, partner, and employee portals for seamless communication.",
+  },
+  {
+    title: "Salesforce Agentforce & Data Cloud",
+    description: "AI-based automation, customer insights, and intelligent engagement.",
+  },
+];
+const whyChooseData = [
+  "Proven Salesforce & SAP Expertise",
+  "Decade-long experience serving global retailers",
+  "AI, Data, and Omnichannel experts",
+  "Tailored solutions for both B2B and B2C retail",
+  "End-to-end partnership — strategy to post - go - live success",
+]
+const rialChat = [
+  "Ready-to-deploy within minutes, compatible with any Salesforce Cloud (Sales, Service, Marketing, Commerce, etc.).",
+  "Advanced security and role-based access to ensure compliant communications.",
+  "Supports delegation of cases, leads, work orders, service requests, and more by record type and business units.",
+  "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
+]
 
-export default function Retail({ items }) {
+export default function Retail() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -97,14 +193,12 @@ export default function Retail({ items }) {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
       />
-    
-        <Script
+      <Script
         id="schema-retail-plus"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <HeroSection
         title="Intelligent, Connected, and Scalable Retail Transformation"
         subtitle="Retail+"
@@ -112,7 +206,7 @@ export default function Retail({ items }) {
         deskimg="/images/industry/retail/banner.webp"
         extraImg=""
       />
-
+      {/* page description section */}
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 col-span-12 ">
@@ -134,7 +228,6 @@ export default function Retail({ items }) {
               quality assurance, integration, and post-go-live support —
               designed to accelerate enterprise-wide retail transformation.
             </p>
-            {/* <p className="xl:text-[22px] mt-5 pr-8 xl:pr-0"> As a certified Salesforce and SAP partner, with offices in India, United States, Canada, and Singapore, Rialtes is uniquely positioned to empower retail brands to optimize operations, enhance customer experience, and leverage AI for data-driven decisions.</p> */}
           </div>
           <div className="xl:col-span-2 col-span-12"></div>
         </div>
@@ -161,13 +254,9 @@ export default function Retail({ items }) {
             priority
           />
         </div>
-        <div
-          className="
-            custom-container"
-        >
+        <div className="custom-container">
           <div className="relative p-6 xl:w-[828px] xl:pb-32 pb-20  mt-[40rem] md:mt-[60rem] xl:mt-0">
             <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply"></div>
-
             <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg">
               <h2 className="leading-tight xl:w-[80%] pr-20 xl:pr-0">
                 Comprehensive Services for Modern Retail Enterprises
@@ -177,51 +266,12 @@ export default function Retail({ items }) {
               </h3>
               <h3 className="mt-5 text-[20px] xl:text-[30px]">Key Offerings</h3>
               <ul className="list-disc xl:space-y-5 space-y-2 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-12">
-                <li>
-                  <span className="font-bold">
-                    Advisory & Strategy Consulting:{" "}
-                  </span>
-                  Crafting scalable digital transformation roadmaps aligned with
-                  global retail trends and enterprise goals.
-                </li>
-                <li>
-                  <span className="font-bold">
-                    Solution Design & Architecture:{" "}
-                  </span>
-                  End-to-end design covering commerce, supply chain, marketing,
-                  and customer service — fully integrated with Salesforce and
-                  SAP ecosystems.
-                </li>
-                <li>
-                  <span className="font-bold"> Implementation & Rollout:</span>{" "}
-                  Full lifecycle Salesforce Commerce Cloud, Service Cloud, SAP
-                  S/4HANA, and AI-driven data integrations, tailored for B2B and
-                  B2C models.
-                </li>
-                <li>
-                  <span className="font-bold">
-                    {" "}
-                    Quality Assurance & Testing:{" "}
-                  </span>{" "}
-                  Robust functional, performance, and security testing to ensure
-                  seamless operations.
-                </li>
-                <li>
-                  <span className="font-bold">
-                    {" "}
-                    Systems Integration & Automation:
-                  </span>{" "}
-                  Real-time integrations with ERP, CRM, OMS, Payment, and
-                  Inventory platforms, enhancing operational agility.{" "}
-                </li>
-                <li>
-                  <span className="font-bold">
-                    {" "}
-                    Post Go-Live Optimization & Support:
-                  </span>{" "}
-                  Continuous enhancement, AI adoption, and managed services for
-                  long-term value realization.
-                </li>
+                {retailServices.map((service, index) => (
+                  <li key={index}>
+                    <span className="font-bold">{service.title} </span>
+                    {service.description}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -229,127 +279,42 @@ export default function Retail({ items }) {
       </section>
       <Link
         href="/contact-us"
-        className=" bg-[#006FBE] absolute xl:ml-[335px] ml-[50px] mt-[-25px] xl:mt-[-30px] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300"
-      >
+        className=" bg-[#006FBE] absolute xl:ml-[335px] ml-[50px] mt-[-25px] xl:mt-[-30px] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
         Learn More
       </Link>
 
-      <div className="bg-[#E8E8E8] xl:pb-32 pb-48">
+      {/* deep industry section */}
+      <section className="bg-[#E8E8E8] xl:pb-32 pb-48">
         <div className="custom-container ">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-8 col-span-12 xl:mt-32 mt-20">
-              <h2 className="leading-tight">
-                Deep Industry Expertise Across Retail Verticals
-              </h2>
+              <h2 className="leading-tight">Deep Industry Expertise Across Retail Verticals</h2>
               <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold pr-10">
-                Our deep understanding of B2B and B2C retail enables us to
-                address the unique needs of:
+                Our deep understanding of B2B and B2C retail enables us to address the unique needs of:
               </h3>
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
           </div>
+
           <div className="grid xl:grid-cols-4 grid-cols-2 xl:gap-10 gap-16 mt-16">
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/fashan.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold  leading-tight xl:pr-20">
-                Fashion & Apparel
-              </h3>
-            </div>
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/consumer.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold leading-tight xl:pr-20">
-                Consumer Electronics
-              </h3>
-            </div>
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/ferniture.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold xl:pr-20 leading-tight">
-                Home & Furniture
-              </h3>
-            </div>
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/lux.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold xl:pr-40 leading-tight">
-                Luxury Goods & Lifestyle
-              </h3>
-            </div>
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/foods.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold xl:pr-24 leading-tight">
-                Food & Beverage
-              </h3>
-            </div>
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/health.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold xl:pr-20 leading-tight">
-                Health & Wellness
-              </h3>
-            </div>
-            <div>
-              <Image
-                className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
-                src="/images/industry/retail/travel.svg"
-                alt="Taking the lead"
-                width={0}
-                height={0}
-                sizes="100vw"
-                priority
-              />
-              <h3 className="mt-5 font-semibold xl:pr-12 leading-tight">
-                Travel Retail and Duty-Free
-              </h3>
-            </div>
+            {retailVerticals.map((item, index) => (
+              <div key={index}>
+                <Image
+                  className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
+                  src={item.icon}
+                  alt={item.title}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  priority
+                />
+                <h3 className={`mt-5 font-semibold leading-tight ${item.paddingClass}`}>{item.title}</h3>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+
+      </section>
 
       <div className="grid xl:grid-cols-12 grid-cols-1 custom-container ">
         <div className="xl:col-span-10 col-span-12 bg-[#163055] p-8 relative bottom-20">
@@ -363,7 +328,6 @@ export default function Retail({ items }) {
       </div>
 
       <section className="custom-container md:pr-0 grid xl:grid-cols-12 grid-cols-1  sm:mt-4 max-md:px-0">
-        {/* Image block - shown first on mobile (order-1), second on desktop (xl:order-2) */}
         <div className="xl:col-span-6 order-1 xl:order-2">
           <Image
             className="w-full h-full object-cover"
@@ -375,7 +339,6 @@ export default function Retail({ items }) {
           />
         </div>
 
-        {/* Text content - shown second on mobile (order-2), first on desktop (xl:order-1) */}
         <div className="xl:col-span-6 bg-[#006FBE] xl:pt-20 pt-10 px-10 text-white order-2 xl:order-1 pb-20 ">
           <h2>Salesforce & SAP</h2>
           <h3 className="xl:text-[42px] font-semibold text-[22px] mt-5">
@@ -458,7 +421,6 @@ export default function Retail({ items }) {
       <section className="xl:mt-16  ">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-6 col-span-12 mt-16 xl:mb-16 mb-[-20rem] z-10 flex justify-center lg:justify-start">
-
             <Image
               className="mx-auto md:mx-0 w-[350px] h-[391px] xl:w-full xl:h-[900px]"
               src="/images/industry/retail/advance-ai.webp"
@@ -502,45 +464,24 @@ export default function Retail({ items }) {
         </div>
       </section>
 
+      {/* related section */}
       <section className="custom-container pt-8">
         <h2>Related Salesforce Cloud Capabilities</h2>
-        <div className="grid xl:grid-cols-3 grid-cols-1 xl:gap-5 gap-16 mt-5">
-          <div className="border relative h-[510px] max-xl:h-[260px] border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
-            <h3 className="text-[#0A6BB8] xl:pr-20 font-semibold">
-              Salesforce Service Cloud
-            </h3>
-            <p className="xl:text-[24px] text-[16px]  mt-5 font-normal">
-              Empower customer service teams with omnichannel case management.
-            </p>
-            <div className="absolute bottom-[-20px]">
-              <LearnMore />
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-5 gap-16 mt-5 sm:w-[80%] md:w-full">
+          {salesforceSolutions.map((item, index) => (
+            <div
+              key={index}
+              className="border relative border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]"
+            >
+              <h3 className="text-[#0A6BB8] xl:pr-20 font-semibold">{item.title}</h3>
+              <p className="xl:text-[24px] text-[16px] mt-5 xl:pr-10 font-normal mb-[40px]">{item.description}</p>
+              <div className="absolute bottom-[-20px]">
+                <LearnMore />
+              </div>
             </div>
-          </div>
-          <div className="border  relative  h-[510px] max-xl:h-[260px] border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
-            <h3 className="text-[#0A6BB8] xl:pr-20 font-semibold">
-              Salesforce Experience (Community) Cloud
-            </h3>
-            <p className="xl:text-[24px] text-[16px] mt-5 xl:pr-12 font-normal">
-              Build branded customer, partner, and employee portals for seamless
-              communication.
-            </p>
-            <div className="absolute bottom-[-20px]">
-              <LearnMore />
-            </div>
-          </div>
-          <div className=" hidden md:block border  relative  h-[510px] max-xl:h-[260px] border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
-            <h3 className="text-[#0A6BB8] xl:pr-20 font-semibold">
-              Salesforce Agentforce & Data Cloud
-            </h3>
-            <p className="xl:text-[24px] text-[16px] mt-5 xl:pr-10 font-normal">
-              AI-based automation, customer insights, and intelligent
-              engagement.
-            </p>
-            <div className="absolute bottom-[-20px]">
-              <LearnMore />
-            </div>
-          </div>
+          ))}
         </div>
+
       </section>
 
       {/* realchat section */}
@@ -569,25 +510,7 @@ export default function Retail({ items }) {
               enterprise-grade communications across sales, service, and
               operations.
             </p>
-            <ul className="list-disc xl:space-y-3 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 mb-20">
-              <li>
-                Ready-to-deploy within minutes, compatible with any Salesforce
-                Cloud (Sales, Service, Marketing, Commerce, etc.).
-              </li>
-              <li>
-                Advanced security and role-based access to ensure compliant
-                communications.
-              </li>
-              <li>
-                Supports delegation of cases, leads, work orders, service
-                requests, and more by record type and business units.
-              </li>
-              <li>
-                {" "}
-                Fully integrated with Salesforce workflows and automation for
-                real-time, intelligent conversations.
-              </li>
-            </ul>
+            <UnorderedList arrName={rialChat} ulClassName="list-disc xl:space-y-3 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5 mb-20" liClassName="" />
           </div>
         </div>
       </section>
@@ -599,6 +522,7 @@ export default function Retail({ items }) {
         </h3>
       </div>
 
+      {/* why choose section */}
       <section className="relative h-[1026px] xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
         <div className="xl:block hidden">
           <Image
@@ -625,7 +549,6 @@ export default function Retail({ items }) {
           <div className="flex justify-end xl:mt-32 mt-[24rem]">
             <div className="relative p-10 w-[720px] h-[620px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-
               <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
                 <h2 className="leading-tight">
                   Why Choose Rialtes for Retail+?
@@ -633,15 +556,7 @@ export default function Retail({ items }) {
                 <h3 className="xl:text-[42px] text-[22px] font-semibold mt-5">
                   Extending S/4 HANA Value
                 </h3>
-                <ul className="list-disc xl:space-y-3 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5">
-                  <li>Proven Salesforce & SAP Expertise</li>
-                  <li>Decade-long experience serving global retailers</li>
-                  <li>AI, Data, and Omnichannel experts</li>
-                  <li> Tailored solutions for both B2B and B2C retail</li>
-                  <li>
-                    End-to-end partnership — strategy to post-go-live success
-                  </li>
-                </ul>
+                <UnorderedList arrName={whyChooseData} ulClassName="list-disc xl:space-y-3 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] mt-5" liClassName="" />
                 <div className="mt-[60px]">
                   <LearnMore />
                 </div>
@@ -651,9 +566,9 @@ export default function Retail({ items }) {
         </div>
       </section>
 
-      <div
-        className="mx-[35px]  custom-container text-black py-16"
-      >
+
+      {/* contact form */}
+      <div className="mx-[35px]  custom-container text-black py-16">
         <ContactForm
           title={
             "Contact Rialtes today to explore how Retail+ can future-proof your retail enterprise."
