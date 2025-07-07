@@ -158,16 +158,16 @@ export default function DataCloud() {
               <h3 className="font-bold leading-tight mt-10 xl:text-[26px] 4xl:text-[30px] text-[20px] md:block hidden">
                 Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
               </h3>
-              <div className="w-full mt-10">
+              <div className=" w-full xl:mt-10 mt-5">
                 <Image
                   src="/images/data-cloud/salesforce-partner.webp"
                   alt="Leadership Team"
                   width={0}
                   height={0}
                   sizes="100vw"
+                  
+                  className="sm:h-[30%] sm:w-[30%] h-[45%] w-[45%]"
                   style={{
-                    width: "30%",
-                    height: "30%",
                     objectFit: "cover",
                   }}
                   priority

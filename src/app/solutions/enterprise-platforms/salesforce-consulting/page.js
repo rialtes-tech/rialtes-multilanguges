@@ -342,7 +342,9 @@ export default function SalesForceConsulting() {
                 </div>
             </section>
             <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20">
-                <div>
+                <div
+                    className=""
+                >
                     <FeaturedCarousel />
                 </div>
             </section>
