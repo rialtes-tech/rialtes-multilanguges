@@ -228,7 +228,7 @@ const LocationPage = () => {
             />
 
             <Script
-                id="webinar-schema-contact-us"
+                id="schema-contact-us"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

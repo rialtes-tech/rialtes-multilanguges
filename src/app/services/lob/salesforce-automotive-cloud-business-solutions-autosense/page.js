@@ -501,7 +501,7 @@ export default function page() {
 
           
               <Script
-        id="webinar-schema-automotive-cloude"
+        id="schema-automotive-cloude"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

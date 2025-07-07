@@ -816,7 +816,7 @@ export default function page() {
             </section>
             
               <Script
-        id="webinar-schema-sap-buy-plus"
+        id="schema-sap-buy-plus"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

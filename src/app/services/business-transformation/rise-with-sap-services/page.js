@@ -195,7 +195,7 @@ export default function Page() {
             />
            
                <Script
-        id="webinar-schema-rise"
+        id="schema-rise"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

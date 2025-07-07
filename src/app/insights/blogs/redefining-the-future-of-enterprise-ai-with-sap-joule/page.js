@@ -183,7 +183,7 @@ export default function Page() {
                 canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
             />
    <Script
-        id="webinar-schema-redefining"
+        id="schema-redefining"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

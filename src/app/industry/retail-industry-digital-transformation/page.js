@@ -258,7 +258,7 @@ export default function retailPage() {
             />
 
             <Script
-                id="webinar-schema-retail"
+                id="schema-retail"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

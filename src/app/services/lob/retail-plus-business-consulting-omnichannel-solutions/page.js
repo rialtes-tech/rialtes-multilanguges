@@ -99,7 +99,7 @@ export default function Retail({ items }) {
       />
     
         <Script
-        id="webinar-schema-retail-plus"
+        id="schema-retail-plus"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

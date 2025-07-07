@@ -489,7 +489,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/case-studies/" />
     
          <Script
-        id="webinar-schema-case-study"
+        id="schema-case-study"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

@@ -106,7 +106,7 @@ export default function Page() {
       />
 
               <Script
-        id="webinar-schema-sap-bdc"
+        id="schema-sap-bdc"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

@@ -98,7 +98,7 @@ export default function Page() {
       />
     
          <Script
-        id="webinar-schema-yardi-managed"
+        id="schema-yardi-managed"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

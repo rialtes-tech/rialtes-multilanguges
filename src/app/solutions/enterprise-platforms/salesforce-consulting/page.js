@@ -8,7 +8,6 @@ import InsightsCarousel from '../../../components/servicesInsightsCarousel';
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
-import { HeroSection } from "@/app/components/herosection";
 export default function SalesForceConsulting() {
     const salesForce = [
         {

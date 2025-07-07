@@ -182,7 +182,7 @@ export default function Page() {
       />
       
               <Script
-        id="webinar-schema-oracle"
+        id="schema-oracle"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

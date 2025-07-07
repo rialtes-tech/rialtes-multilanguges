@@ -151,7 +151,7 @@ export default function DemandPlusSection() {
             />
            
               <Script
-        id="webinar-schema-rpa"
+        id="schema-rpa"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

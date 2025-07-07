@@ -214,7 +214,7 @@ export default function Page() {
             />
            
                <Script
-        id="webinar-schema-agentic-pharma"
+        id="schema-agentic-pharma"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

@@ -308,13 +308,13 @@ export default function page() {
                 description="Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights."
                 canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/"
             />
-           
-              <Script
-                    id="webinar-schema-sap-cloud"
-                    type="application/ld+json"
-                    strategy="afterInteractive"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}/>
 
+            <Script
+                id="schema-sap-cloud"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
                 {/* Desktop Image */}

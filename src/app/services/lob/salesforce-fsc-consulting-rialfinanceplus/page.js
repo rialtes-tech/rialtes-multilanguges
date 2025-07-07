@@ -265,7 +265,7 @@ export default function page() {
             />
           
               <Script
-        id="webinar-schema-realfinance"
+        id="schema-realfinance"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

@@ -109,13 +109,13 @@ export default function DemandPlusSection() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
             />
-          
-              <Script
-        id="webinar-schema-toska"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+
+            <Script
+                id="schema-toska"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section className="relative">
                 <div className="xl:block hidden">
@@ -377,29 +377,29 @@ export default function DemandPlusSection() {
             <section className="mt-10 xl:custom-container 4xl:px-[142px] max-lg:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-5 col-span-12 mt-10 xl:mt-[10rem] 4xl:ml-[-200px] xl:ml-[-105px] order-1 xl:order-2">
-                       <div className="xl:block hidden">
-                         <Image
-                            className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative"
-                            src="/images/toska/desktop/neoload-desktop.webp"
-                            alt="Neoload desktop Image"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            priority
-                        />
-                       </div>
-                       <div className="xl:hidden block">
-                         <Image
-                            className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative px-[35px] xl:px-0 4xl:px-0"
-                            src="/images/toska/mobile/neoload-mobile.webp"
-                            alt="Neoload desktop Image"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            priority
-                        />
-                       </div>
-                       
+                        <div className="xl:block hidden">
+                            <Image
+                                className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative"
+                                src="/images/toska/desktop/neoload-desktop.webp"
+                                alt="Neoload desktop Image"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative px-[35px] xl:px-0 4xl:px-0"
+                                src="/images/toska/mobile/neoload-mobile.webp"
+                                alt="Neoload desktop Image"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                priority
+                            />
+                        </div>
+
                     </div>
 
                     <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0 pb-[15rem] xl:pb-0 4xl:pb-0">
@@ -450,26 +450,26 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12 4xl:gap-16 grid-cols-1">
                     <div className="xl:col-span-5 col-span-12">
                         <div className="xl:block hidden">
-                        <Image
-                            className="w-full h-full"
-                            src="/images/toska/desktop/new-to.webp"
-                            alt="Certifide Unamtched Image"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            priority
-                        />
+                            <Image
+                                className="w-full h-full"
+                                src="/images/toska/desktop/new-to.webp"
+                                alt="Certifide Unamtched Image"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                priority
+                            />
                         </div>
                         <div className="xl:hidden block">
-                             <Image
-                            className="w-full h-[440px] md:h-full"
-                            src="/images/toska/mobile/certifide.webp"
-                            alt="Certifide Unamtched Image"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            priority
-                        />
+                            <Image
+                                className="w-full h-[440px] md:h-full"
+                                src="/images/toska/mobile/certifide.webp"
+                                alt="Certifide Unamtched Image"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                priority
+                            />
                         </div>
                     </div>
                     <div className="xl:col-span-7 col-span-12  sm:px-0 md:px-[35px]">

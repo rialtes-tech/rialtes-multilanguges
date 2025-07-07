@@ -174,7 +174,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
          <Script
-        id="webinar-schema-how-sap"
+        id="schema-how-sap"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

@@ -193,7 +193,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
       />
          <Script
-        id="webinar-schema-agents-vs"
+        id="schema-agents-vs"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

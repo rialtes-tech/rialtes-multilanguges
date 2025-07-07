@@ -207,7 +207,7 @@ const Home = () => {
             />
 
             <Script
-                id="webinar-schema-main-page"
+                id="schema-main-page"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

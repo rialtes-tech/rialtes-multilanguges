@@ -150,7 +150,7 @@ export default function Page() {
             />
           
                <Script
-        id="webinar-schema-himachal"
+        id="schema-himachal"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

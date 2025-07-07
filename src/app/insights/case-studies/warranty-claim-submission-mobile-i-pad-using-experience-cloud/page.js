@@ -98,7 +98,7 @@ export default function Page() {
             />
           
                <Script
-        id="webinar-schema-warranty-mobile"
+        id="schema-warranty-mobile"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

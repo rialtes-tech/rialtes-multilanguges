@@ -179,7 +179,7 @@ export default function Page() {
       />
       
          <Script
-        id="webinar-schema-agr-4"
+        id="schema-agr-4"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

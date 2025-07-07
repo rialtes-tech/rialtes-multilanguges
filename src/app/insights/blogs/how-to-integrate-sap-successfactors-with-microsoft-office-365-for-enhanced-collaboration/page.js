@@ -174,7 +174,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
       />
    <Script
-        id="webinar-schema-integrate-sap"
+        id="schema-integrate-sap"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

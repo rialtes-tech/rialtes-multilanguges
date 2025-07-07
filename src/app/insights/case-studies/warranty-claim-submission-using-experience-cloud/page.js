@@ -98,7 +98,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud/"
       />
          <Script
-        id="webinar-schema-warranty-desktop"
+        id="schema-warranty-desktop"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
