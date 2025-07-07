@@ -248,7 +248,7 @@ export default function Page() {
 
             </div >
 
-
+            {/* key features section */}
             <div className="xl:mt-20 mb-20 custom-container text-black">
                 <h2 className="text-[28px]  md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight ">Key Features of AgentChat</h2>
 
@@ -287,49 +287,42 @@ export default function Page() {
                 ))}
             </div >
 
-            < div
-                className="mt-20  lg:mt-40 
-  custom-container 
-  text-black"
-            >
-                <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight "> Use Cases for AgentChat</h2>
-            </div>
-            <div className="custom-container max-md:px-0 mb-20">
-                <div className="overflow-x-auto mt-10 max-md:px-0">
-                    <table className="w-full border-collapse">
-                        <thead>
-                            <tr className="bg-[#D0EEFF] text-left">
-                                <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px] font-bold">Use Case</th>
-                                <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px]  font-bold">How AgentChat Helps</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y ">
-                            {[
-                                { title: "Customer Support", desc: "Manage support cases via WhatsApp, instantly." },
-                                { title: "Sales Outreach", desc: "Engage leads, close deals with real-time chats." },
-                                { title: "Field Operations", desc: "Coordinate work orders and updates in real time." },
-                                { title: "Student Engagement", desc: "Connect with students and alumni seamlessly." },
-                                { title: "Donor Management", desc: "Stay in touch with donors via personalized chats." }
-                            ].map((item, index) => (
-                                <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
-                                    <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.title}</td>
-                                    <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.desc}</td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
+            {/* use cases section */}
+            <section>
+                <div className="mt-20 lg:mt-40 custom-container text-black">
+                    <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight "> Use Cases for AgentChat</h2>
                 </div>
+                <div className="custom-container max-md:px-0 mb-20">
+                    <div className="overflow-x-auto mt-10 max-md:px-0">
+                        <table className="w-full border-collapse">
+                            <thead>
+                                <tr className="bg-[#D0EEFF] text-left">
+                                    <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px] font-bold">Use Case</th>
+                                    <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px]  font-bold">How AgentChat Helps</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y ">
+                                {[
+                                    { title: "Customer Support", desc: "Manage support cases via WhatsApp, instantly." },
+                                    { title: "Sales Outreach", desc: "Engage leads, close deals with real-time chats." },
+                                    { title: "Field Operations", desc: "Coordinate work orders and updates in real time." },
+                                    { title: "Student Engagement", desc: "Connect with students and alumni seamlessly." },
+                                    { title: "Donor Management", desc: "Stay in touch with donors via personalized chats." }
+                                ].map((item, index) => (
+                                    <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
+                                        <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.title}</td>
+                                        <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.desc}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
 
-            </div>
-
-
-
+            {/* quick setup section */}
             <div className="bg-[url('/images/industry/rialchat/bg2.png')] bg-cover bg-right overflow-hidden xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]">
-                <div
-                    className="mt-16   text-white
-  custom-container xl:!pr-[142px] 
- pt-6"
-                >
+                <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
                     <h2 className="text-[28px] md:text-[40px] max-lg:pb-6 lg:text-[40px] xl:pb-10 xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight">Quick Setup. Maximum Impact.</h2>
                     <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-48">
                         <div className="relative">
@@ -400,7 +393,7 @@ export default function Page() {
                 </div>
             </div>
 
-
+            {/* ready to super charge section */}
             <div className="bg-[#134874] text-white xl:py-8 overflow-hidden">
                 < div className="mb-10 custom-container xl:pr-10 2xl:pr-20 4xl:pr-[100px] py-8">
                     <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
@@ -433,11 +426,8 @@ export default function Page() {
                                         <p className="  pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[200px] xl:w-[180px] lg:w-[120px] md:w-[160px]">Get Started Now</p>
                                     </div>
                                     <div className="hidden lg:block border-r-2  self-stretch border-gray-300 mx-4"></div>
-
-
                                     <div className="block lg:hidden w-full border-b border-gray-300 "></div>
                                 </div>
-
 
                                 <div className="flex flex-col lg:flex-row  gap-4 w-full h-[105px] max-lg:p-4">
                                     <div className="flex flex-row items-center gap-4   ">
@@ -452,11 +442,9 @@ export default function Page() {
                                         />
                                         <p className=" pr-4  font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[190px] xl:w-[180px] lg:w-[120px] md:w-[180px] ">Contact Us</p>
                                     </div>
-
                                     <div className="hidden lg:block border-r-2 self-stretch border-gray-300 mx-4"></div>
                                     <div className="block lg:hidden w-full border-b border-gray-300 mt-4"></div>
                                 </div>
-
 
                                 <div className="flex flex-col lg:flex-row  gap-4 w-full h-[105px] max-lg:p-4 ">
                                     <div className="flex flex-row items-center gap-4  ">
@@ -473,21 +461,15 @@ export default function Page() {
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Contact Form */}
-            < div
-                className="custom-container
-  text-black py-10"
-            >
+            <div className="custom-container text-black py-10">
                 <ContactForm title={'Let me know if you want a design mockup, call-to-action variations, or shorter ad copy versions!'} className={' font-light leading-tight text-[26px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] 4xl:w-[1222px] 2xl:w-[1100px] xl:w-[800px] '} />
-
-            </div >
-        </div >
+            </div>
+        </div>
     );
 }

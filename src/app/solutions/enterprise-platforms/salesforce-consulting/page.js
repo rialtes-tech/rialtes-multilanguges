@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import Seo from "../../../components/Seo";
@@ -43,7 +42,6 @@ export default function SalesForceConsulting() {
         },
 
     ]
-
     const salesForceProduct = [
         // {
         //     id: 1,
@@ -116,7 +114,6 @@ export default function SalesForceConsulting() {
         // },
 
     ]
-
     const businessDetails = [
         {
             id: 1,
@@ -198,9 +195,7 @@ export default function SalesForceConsulting() {
                         sizes="100vw"
                         priority
                     />
-
                 </div>
-
             </div>
 
             <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
