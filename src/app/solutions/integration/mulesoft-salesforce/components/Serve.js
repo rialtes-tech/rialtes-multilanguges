@@ -44,8 +44,8 @@ const Serve = () => (
 
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 ">
         {Data.map(({ _id, tittle, descrip }) => (
-          <div className="border-r border-[#707070] ">
-            <div className="max-w-[256px]" key={_id}>
+          <div className="border-r border-[#707070] " key={_id}>
+            <div className="max-w-[256px]" >
               <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px]">{tittle}</h4>
               <p className="4xl:text-[20px] xl:text-[18px] text-[16px] font-medium">{descrip}</p>
             </div>

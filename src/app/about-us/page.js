@@ -95,7 +95,7 @@ export default function About() {
             />
          
                <Script
-        id="webinar-schema-about"
+        id="schema-about"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

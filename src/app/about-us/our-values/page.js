@@ -131,7 +131,7 @@ export default function Page() {
             />
            
                <Script
-        id="webinar-schema-our"
+        id="schema-our"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

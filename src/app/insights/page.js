@@ -87,7 +87,7 @@ export default function InsightsPage() {
       />
        
          <Script
-        id="webinar-schema-insights"
+        id="schema-insights"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

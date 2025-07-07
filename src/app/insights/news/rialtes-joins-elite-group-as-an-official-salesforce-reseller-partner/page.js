@@ -45,7 +45,7 @@ export default function Page() {
       />
     
          <Script
-        id="webinar-schema-rialtes-joins"
+        id="schema-rialtes-joins"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

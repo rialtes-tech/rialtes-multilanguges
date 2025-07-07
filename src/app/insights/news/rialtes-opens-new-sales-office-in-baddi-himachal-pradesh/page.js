@@ -44,7 +44,7 @@ export default function Page() {
             />
            
                <Script
-        id="webinar-schema-rilates-opens"
+        id="schema-rilates-opens"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

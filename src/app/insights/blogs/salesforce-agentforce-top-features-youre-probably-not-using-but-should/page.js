@@ -114,7 +114,7 @@ export default function Page() {
       />
  
          <Script
-        id="webinar-schema-sales-agentforce"
+        id="schema-sales-agentforce"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

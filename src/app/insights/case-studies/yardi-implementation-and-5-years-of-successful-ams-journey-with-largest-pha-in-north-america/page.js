@@ -97,7 +97,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
       />
          <Script
-        id="webinar-schema-yardi"
+        id="schema-yardi"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

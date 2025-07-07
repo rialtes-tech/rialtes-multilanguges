@@ -101,7 +101,7 @@ export default function Page() {
 
      
          <Script
-        id="webinar-schema-digitizing"
+        id="schema-digitizing"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

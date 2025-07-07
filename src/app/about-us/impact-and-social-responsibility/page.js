@@ -33,7 +33,7 @@ export default function Page() {
       />
     
          <Script
-        id="webinar-schema-impact"
+        id="schema-impact"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

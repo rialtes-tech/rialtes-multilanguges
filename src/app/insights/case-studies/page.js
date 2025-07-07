@@ -33,7 +33,7 @@ const schemaData = {
 }
 const latestCaseStudy = [
   {
-    id: 13,
+    id: 14,
     image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
     industry: "Automotive",
     date: "30 June 2025",
@@ -42,7 +42,7 @@ const latestCaseStudy = [
     description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
   },
   {
-    id: 12,
+    id: 13,
     image: "/images/case-studies/Adaptis_featured CS.webp",
     industry: "Manufacturing",
     date: "10 June 2025",
@@ -52,7 +52,7 @@ const latestCaseStudy = [
 
   },
   {
-    id: 11,
+    id: 12,
     image: "/images/case-studies/revolutionary-filter.webp",
     industry: "Manufacturing",
     date: "03 June 2025",
@@ -61,7 +61,7 @@ const latestCaseStudy = [
     description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
   },
   {
-    id: 10,
+    id: 11,
     image: "/images/case-studies/adaptis-for-carousel.webp",
     industry: "Manufacturing",
     date: "30 May 2025",
@@ -489,7 +489,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/case-studies/" />
     
          <Script
-        id="webinar-schema-case-study"
+        id="schema-case-study"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

@@ -98,7 +98,7 @@ export default function Page() {
       />
     
          <Script
-        id="webinar-schema-realforce"
+        id="schema-realforce"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

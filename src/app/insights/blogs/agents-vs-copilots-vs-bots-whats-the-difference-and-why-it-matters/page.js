@@ -194,7 +194,7 @@ export default function Page() {
       />
      
          <Script
-        id="webinar-schema-copilots"
+        id="schema-copilots"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

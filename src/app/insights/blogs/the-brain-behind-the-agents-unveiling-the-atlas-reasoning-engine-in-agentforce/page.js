@@ -176,7 +176,7 @@ export default function Page() {
       />
      
          <Script
-        id="webinar-schema-brain"
+        id="schema-brain"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

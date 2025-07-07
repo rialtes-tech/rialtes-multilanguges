@@ -175,7 +175,7 @@ export default function Page() {
       />
    
          <Script
-        id="webinar-schema-grow"
+        id="schema-grow"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

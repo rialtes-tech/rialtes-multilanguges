@@ -288,7 +288,7 @@ export default function retailPage() {
             />
 
                  <Script
-        id="webinar-schema-nonprofit"
+        id="schema-nonprofit"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

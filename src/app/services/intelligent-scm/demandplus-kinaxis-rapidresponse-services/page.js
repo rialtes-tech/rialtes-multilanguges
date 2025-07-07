@@ -92,7 +92,7 @@ export default function DemandPlusSection() {
                 canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
             />
               <Script
-        id="webinar-schema-demandplus"
+        id="schema-demandplus"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

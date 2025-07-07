@@ -294,7 +294,7 @@ export default function page() {
 
 
             <Script
-                id="webinar-schema-life-science"
+                id="schema-life-science"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

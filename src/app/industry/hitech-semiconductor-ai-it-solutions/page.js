@@ -467,7 +467,7 @@ export default function Page() {
       />
      
            <Script
-        id="webinar-schema-hitech"
+        id="schema-hitech"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -1202,11 +1202,11 @@ export default function Page() {
 
       {/* key reasons  */}
       <section className="md:mt-[90px] mt-[50px]">
-        <h2 className="custom-container">
+        <div className="custom-container">
           <h3 className="text-[17px] leading-tight xl:text-[26px] 4xl:text-[40px] font-bold w-[90%] lg:w-[60%] 2xl:w-[50%] 4xl:w-[80%]">
             Key Reasons Why Leading Semiconductor Companies Trust Rialtes
           </h3>
-        </h2>
+        </div>
 
         {keyReasonsData.map((data, ind) => {
           const isEven = ind % 2 === 0;

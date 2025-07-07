@@ -98,7 +98,7 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
       />
     
          <Script
-        id="webinar-schema-salesforce-health"
+        id="schema-salesforce-health"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

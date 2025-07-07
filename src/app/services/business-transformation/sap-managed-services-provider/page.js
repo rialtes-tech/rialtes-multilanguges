@@ -83,7 +83,7 @@ export default function Page() {
             />
           
                <Script
-        id="webinar-schema-sap-manage"
+        id="schema-sap-manage"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -92,7 +92,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/banner.webp"
-                        alt=""
+                        alt="SAP Digital Desk"
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -101,7 +101,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/banner.webp"
-                        alt=""
+                        alt="SAP Digital Desk"
                         fill
                         priority
                         sizes="100vw"
@@ -154,7 +154,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/global.webp"
-                        alt=""
+                        alt="Rialtes’ 24/7 SAP Support That Works Around You image"
                         fill
                         priority
                         sizes="100vw"
@@ -163,7 +163,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/global.webp"
-                        alt=""
+                        alt="Rialtes’ 24/7 SAP Support That Works Around You image"
                         fill
                         priority
                         sizes="100vw"
@@ -379,7 +379,7 @@ export default function Page() {
                     <div className="col-span-6">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/future.webp"
-                            alt=""
+                            alt="background image"
                             priority
                             className="w-full 4xl:h-full xl:h-[495px]"
                             width={0}
@@ -456,6 +456,7 @@ export default function Page() {
                         <div className="xl:block hidden h-full">
                             <Image
                                 src="/images/sap/sap-digital-desk/desktop/unleash.webp"
+                                alt="Unleash Innovation image"
                                 width={950}
                                 height={600}
                                 priority
@@ -466,6 +467,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/sap/sap-digital-desk/mobile/unleash.webp"
+                                alt="Unleash Innovation image"
                                 width={950}
                                 height={600}
                                 className="w-full"
@@ -503,7 +505,7 @@ export default function Page() {
                     <div className="xl:hidden block">
                         <Image
                             src="/images/sap/sap-digital-desk/mobile/seamless.webp"
-                            alt=""
+                            alt="Seamless Connectivity image"
                             priority
                             className="w-full h-[657px]"
                             width={0}
@@ -527,7 +529,7 @@ export default function Page() {
                     <div className="xl:col-span-6 col-span-12 xl:block hidden xl:ml-[-350px]">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/seamless.webp"
-                            alt=""
+                            alt="Seamless Connectivity image"
                             priority
                             className="w-full h-full"
                             width={0}
@@ -545,7 +547,7 @@ export default function Page() {
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/sap/sap-digital-desk/desktop/code.webp"
-                                alt=""
+                                alt="Code the Future image"
                                 priority
                                 className="w-full h-full"
                                 width={0}
@@ -556,7 +558,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/sap/sap-digital-desk/mobile/code.webp"
-                                alt=""
+                                alt=" Code the Future image"
                                 priority
                                 className="w-full  md:h-full"
                                 width={0}
@@ -584,7 +586,7 @@ export default function Page() {
                     <div className="col-span-7 order-1 xl:order-2 xl:ml-[-300px]">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/intelligent.webp"
-                            alt=""
+                            alt=" Intelligent Insights image"
                             priority
                             className="w-full xl:h-full h-[466px] xl:pb-20"
                             width={0}
@@ -622,7 +624,7 @@ export default function Page() {
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/sap/sap-digital-desk/desktop/winning.webp"
-                                alt=""
+                                alt="Winning the Talent War image"
                                 priority
                                 className="w-full h-full"
                                 width={0}
@@ -633,7 +635,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/sap/sap-digital-desk/mobile/wining.webp"
-                                alt=""
+                                alt="Winning the Talent War image"
                                 priority
                                 className="w-full h-[297px] md:h-full"
                                 width={0}
@@ -700,7 +702,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/transform.webp"
-                        alt=""
+                        alt="SAP Signavio and SAP Activate image"
                         fill
                         priority
                         sizes="100vw"
@@ -709,7 +711,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/transf.webp"
-                        alt=""
+                        alt="SAP Signavio and SAP Activate image"
                         fill
                         priority
                         sizes="100vw"
@@ -810,7 +812,7 @@ export default function Page() {
                     <div className="xl:hidden block">
                         <Image
                             src="/images/sap/sap-digital-desk/mobile/supercharge.webp"
-                            alt=""
+                            alt="Supercharge HR with SAP Joule image"
                             priority
                             className="w-full h-full md:h-[900px]"
                             width={0}
@@ -851,7 +853,7 @@ export default function Page() {
                         <div className="xl:block hidden h-full">
                             <Image
                                 src="/images/sap/sap-digital-desk/desktop/btp.webp"
-                                alt=""
+                                alt="Rialtes’ BTP Center of Excellence image"
                                 priority
                                 className="w-full h-full"
                                 width={0}
@@ -862,7 +864,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/sap/sap-digital-desk/mobile/btp.webp"
-                                alt=""
+                                alt="Rialtes’ BTP Center of Excellence image"
                                 priority
                                 className="w-full h-full"
                                 width={0}
@@ -903,7 +905,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/migrate.webp"
-                        alt=""
+                        alt="Rialtes’ BTP Center of Excellence image"
                         fill
                         priority
                         sizes="100vw"
@@ -912,7 +914,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/migrate.webp"
-                        alt=""
+                        alt="Rialtes’ BTP Center of Excellence image"
                         fill
                         priority
                         sizes="100vw"
@@ -961,7 +963,7 @@ export default function Page() {
                     <div className="col-span-7">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/why.webp"
-                            alt=""
+                            alt="Why Partner with Rialtes? image"
                             priority
                             className="w-full h-full"
                             width={0}
