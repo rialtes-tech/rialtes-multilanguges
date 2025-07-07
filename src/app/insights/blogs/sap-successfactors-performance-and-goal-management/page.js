@@ -281,16 +281,14 @@ export default function Page() {
 
             <div className="pl-3">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Goal Management </h4> – Allows managers and employees to set, align, and track goals. SuccessFactors PMGM ensures that goals are SMART (Specific, Measurable, Achievable, Relevant, Time-Bound), creating a clear path to individual and team success.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Continuous Performance Management (CPM) </h4>– Encourages ongoing dialogue between managers and employees, moving beyond annual reviews to more frequent, constructive check-ins.</li></p>
-                    <p className="text-black pb-4"><li><h4 className="inline">Performance Calibration </h4>–  Offers calibration tools that allow managers and HR professionals to calibrate ratings and provide consistency across different teams and departments.</li></p>
-                        <p className="text-black pb-4 "><li><h4 className="inline">Performance Appraisals </h4>– Standardizes the evaluation process, providing customizable templates and tools for both self-assessment and manager assessment, making it easy to evaluate both achievements and development needs.</li></p>
-                         <p className="text-black pb-4 "><li><h4 className="inline">360-degree Feedback </h4>– Enables comprehensive feedback from peers, subordinates, and supervisors, offering a well-rounded view of an employee’s performance.</li></p>
-                          <p className="text-black  "><li><h4 className="inline">Development and Career Plans </h4>– Links performance outcomes to development plans, fostering career growth and aligning employee development with business needs.</li></p>
+                 <li><h4 className="inline">Goal Management </h4> – Allows managers and employees to set, align, and track goals. SuccessFactors PMGM ensures that goals are SMART (Specific, Measurable, Achievable, Relevant, Time-Bound), creating a clear path to individual and team success.</li>
+                <li><h4 className="inline">Continuous Performance Management (CPM) </h4>– Encourages ongoing dialogue between managers and employees, moving beyond annual reviews to more frequent, constructive check-ins.</li>
+                    <li><h4 className="inline">Performance Calibration </h4>–  Offers calibration tools that allow managers and HR professionals to calibrate ratings and provide consistency across different teams and departments.</li>
+                        <li><h4 className="inline">Performance Appraisals </h4>– Standardizes the evaluation process, providing customizable templates and tools for both self-assessment and manager assessment, making it easy to evaluate both achievements and development needs.</li>
+                         <li><h4 className="inline">360-degree Feedback </h4>– Enables comprehensive feedback from peers, subordinates, and supervisors, offering a well-rounded view of an employee’s performance.</li>
+                         <li><h4 className="inline">Development and Career Plans </h4>– Links performance outcomes to development plans, fostering career growth and aligning employee development with business needs.</li>
               </ul>
             </div>
-
-
             <div className="py-6"></div>
 
             <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">How SAP SuccessFactors PMGM is Beneficial for You?</h2>
@@ -299,11 +297,11 @@ export default function Page() {
 
   <div className="pl-3">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Goal Alignment </h4> : The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Enhanced Transparency </h4> : With visibility into performance expectations and goals, employees understand what’s expected of them. Managers, in turn, gain a clear understanding of each team member’s progress.</li></p>
-                    <p className="text-black pb-4"><li><h4 className="inline">Continuous Improvement </h4> :  Continuous Performance Management allows for regular, constructive feedback, facilitating timely course correction, motivation, and personal development.</li></p>
-                        <p className="text-black pb-4 "><li><h4 className="inline">Data-Driven Decisions </h4> :  SuccessFactors PMGM aggregates performance data that can be analyzed to make informed decisions about talent management, workforce planning, and strategic initiatives.</li></p>
-                         <p className="text-black "><li><h4 className="inline">Employee Engagement </h4> : A transparent and fair performance process boosts employee morale and fosters a culture of recognition and growth.</li></p>
+                <li><h4 className="inline">Goal Alignment </h4> : The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li>
+               <li><h4 className="inline">Enhanced Transparency </h4> : With visibility into performance expectations and goals, employees understand what’s expected of them. Managers, in turn, gain a clear understanding of each team member’s progress.</li>
+                   <li><h4 className="inline">Continuous Improvement </h4> :  Continuous Performance Management allows for regular, constructive feedback, facilitating timely course correction, motivation, and personal development.</li>
+                        <li><h4 className="inline">Data-Driven Decisions </h4> :  SuccessFactors PMGM aggregates performance data that can be analyzed to make informed decisions about talent management, workforce planning, and strategic initiatives.</li>
+                         <li><h4 className="inline">Employee Engagement </h4> : A transparent and fair performance process boosts employee morale and fosters a culture of recognition and growth.</li>
                        
               </ul>
             </div>

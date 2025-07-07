@@ -337,10 +337,6 @@ export default function Page() {
           <p className="mt-3">Generative AI, as seen in SAP Joule, is transforming business operations through enhanced automation, efficiency, and intelligence. By integrating Joule into its enterprise applications, SAP enables organizations to fully utilize AI while maintaining Responsible AI standards. Joule serves as a powerful AI copilot, automating decisions, generating content, and providing actionable insights to help businesses leverage data effectively.</p>
             <p className="mt-3">Rialtes understands that every business is unique. We customize our approach to align AI-powered automation with your specific industry needs. <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">Contact us</Link> to explore the future of enterprise AI with SAP Joule, seamlessly integrating it with key SAP platforms like SAP S/4HANA, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">SAP SuccessFactors,</Link>  and <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">SAP Ariba.</Link> </p> 
              
-             
-             
-          
-             
             </div>
           </div>
         </div>

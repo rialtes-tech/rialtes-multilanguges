@@ -170,7 +170,7 @@ export default function SalesForceConsulting() {
                     }}
                     priority
                 />
-                <div className="absolute custom-container  top-[5%] lg:text-start lg:top-[25%] md:top-[20%] text-black">
+                <div className="absolute custom-container  top-[10%] lg:text-start lg:top-[25%] sm:top-[20%] text-black">
                     <h1 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce Consulting Services</h1>
                     <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%]  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
 
@@ -204,12 +204,12 @@ export default function SalesForceConsulting() {
 
 
             {/* section crm consulting */}
-            <section className="mt-16 px-6  custom-container">
+            <section className="mt-16 px-6  custom-container ">
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Our Salesforce CRM Consulting Services</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
                     {salesForce.map((sales) => {
                         return (
-                            <div key={sales.id} className="border-2 p-8 hover:bg-[#A9D6EE] hover:border-transparent transition-all duration-300">
+                            <div key={sales.id} className="border-2 p-8 hover:bg-[#A9D6EE] hover:border-transparent transition-all duration-300 ">
                                 <div>
                                     <Image
                                         src={sales.imageUrl}
@@ -338,7 +338,7 @@ export default function SalesForceConsulting() {
             {/* different industries different mindset */}
 
 
-            <section className=" custom-container lg:mt-20 mt-5 pb-20">
+            <section className=" custom-container lg:mt-20 mt-5 pb-20 xl:pr-0">
 
                 <div >
                     <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Different industries, different mindsets</h2>
