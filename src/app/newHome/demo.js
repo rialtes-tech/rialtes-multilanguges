@@ -91,8 +91,6 @@ export default function MyComponent() {
 
       arrowsDiv.appendChild(div);
 
-      console.log(`Current active slide original index: ${activeIndex}`);
-
       updateProgressBar();
       resetCarouselState();
     }

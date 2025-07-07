@@ -73,7 +73,7 @@ export default function ServicesBlogs({ slides, padding }) {
     <section className="relative pb-8 bg-white">
       <div className={"mx-auto " + (padding ? padding : '')}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6">Insights</h2>
+          <h2 className="text-black mb-10">Insights</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -90,7 +90,7 @@ export default function ServicesBlogs({ slides, padding }) {
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style !justify-start flex-wrap"
-          itemClass="carousel-item-padding-40-px"
+          itemClass="carousel-item-padding-40-px mb-[18px] lg:mb-[30px]"
           partialVisible={true}
           arrows={false}
           renderButtonGroupOutside={true}

@@ -4,6 +4,7 @@ import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
+import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -297,13 +298,7 @@ const SapAribaModulesSection = () => {
                         Direct procurement involves raw materials, components, and production-related items. SAP ARIBA, integrated with SAP S/4HANA, ensures:
                     </p>
                     <div>
-                        <ul className="list-disc pl-6 lg:mt-[26px] mt-[26px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]">
-                            {sapAribaDirectData.map((item, index) => (
-                                <li key={index} className="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]">
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={sapAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                     </div>
 
                     <h4 className="text-[20px] leading-tight font-semibold 4xl:text-[36px] xl:text-[30px] lg:mt-[64px] mt-[62px]">
@@ -313,13 +308,7 @@ const SapAribaModulesSection = () => {
                         Indirect procurement covers office supplies, professional services, IT resources, and facility management. With SAP ARIBA’s automated sourcing and contract management, businesses achieve:
                     </p>
                     <div>
-                        <ul className="list-disc pl-6 lg:mt-[26px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]">
-                            {sapAribaIndirectData.map((item, index) => (
-                                <li key={index} className="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]">
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={sapAribaIndirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                     </div>
                     <div className="lg:mt-[25px]">
                         <LearnMore />
@@ -373,17 +362,7 @@ const AribaBusinessNetworkSection = () => {
                     <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[31px]">
                         SAP ARIBA Business Network is the world’s largest digital marketplace for suppliers and buyers, facilitating:
                     </p>
-
-                    <ul className="list-disc pl-6 lg:mt-[32px] mt-[26px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]">
-                        {sapAribaData.map((item, index) => (
-                            <li
-                                key={index}
-                                className="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px] lg:w-[80%]"
-                            >
-                                {item}
-                            </li>
-                        ))}
-                    </ul>
+                    <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-6 lg:mt-[32px] mt-[26px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px] lg:w-[80%]" />
                 </div>
             </div>
         </section>
@@ -429,13 +408,7 @@ const SupplierProfileSection = () => {
                         A robust supplier management framework is critical for mitigating risks. Rialtes enables:
                     </p>
                     <div>
-                        <ul className="list-disc pl-6 lg:mt-[26px] mt-[26px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]">
-                            {sapAribaDirectData.map((item, index) => (
-                                <li key={index} className="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]">
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={sapAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                     </div>
                     <div className="lg:mt-[76px]">
                         <LearnMore />
@@ -481,16 +454,7 @@ const AribaContract = () => {
                             SAP ARIBA simplifies contract lifecycle management with:
                         </p>
 
-                        <ul className="list-disc pl-6 lg:mt-[39px] mt-[24px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]">
-                            {contractData.map((item, index) => (
-                                <li
-                                    key={index}
-                                    className="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]"
-                                >
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={contractData} ulClassName="list-disc pl-6 lg:mt-[39px] mt-[24px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                     </div>
                 </div>
             </div>
@@ -608,16 +572,7 @@ const SeamlessIntergrationsSection = () => {
                                 <p className="text-[#FFFFFF] text-[16px] leading-tight font-light 4xl:text-[24px] xl:text-[20px]">
                                     {data.title}
                                 </p>
-                                <ul className="pl-5 list-disc lg:mt-[39px] mt-[24px] 4xl:space-y-[24px] space-y-[19px]">
-                                    {data.list.map((descItem, idx) => (
-                                        <li
-                                            key={idx}
-                                            className="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] lg:mt-[25px]"
-                                        >
-                                            {descItem}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={data?.list} ulClassName="pl-5 list-disc lg:mt-[39px] mt-[24px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] lg:mt-[25px]" />
                             </div>
                         ))}
                     </div>
@@ -647,17 +602,7 @@ const BuyingInvoicingSection = () => {
                         <p className="mt-[20px] text-[16px] leading-tight font-light lg:mt-[39px] 4xl:text-[20px] xl:text-[18px]">
                             SAP ARIBA Buying & Invoicing module automates the full procure-to-pay cycle, offering:
                         </p>
-
-                        <ul className="pl-5 list-disc lg:mt-[29px] mt-[34px] 4xl:space-y-[24px] space-y-[19px]">
-                            {buyingData.map((descItem, idx) => (
-                                <li
-                                    key={idx}
-                                    className="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] lg:mt-[25px]"
-                                >
-                                    {descItem}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={buyingData} ulClassName="pl-5 list-disc lg:mt-[29px] mt-[34px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] lg:mt-[25px]" />
                     </div>
                 </div>
 

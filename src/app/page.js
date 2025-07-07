@@ -1,7 +1,7 @@
 
 "use client";
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
@@ -179,19 +179,19 @@ const Home = () => {
         { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCurrentSlide((prev) => (prev + 1) % slides.length);
-    //     }, 3000);
-    //     return () => clearInterval(interval);
-    // }, [slides.length]);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentSlide((prev) => (prev + 1) % slides.length);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [slides.length]);
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         handleNextInsights();
-    //     }, 5000);
-    //     return () => clearInterval(interval);
-    // }, []);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNextInsights();
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <div>
@@ -236,7 +236,7 @@ const Home = () => {
                                     </div>
                                 </Link>
 
-                                <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
+                                <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
                                     <div
                                         className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
@@ -345,9 +345,9 @@ const Home = () => {
                                             <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
                                             <div className={`relative z-10 p-6 text-white`}>
                                                 <p className="mb-5 text-[18px] ">{success.title}</p>
-                                                <p className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
+                                                <div className="font-medium leading-tight text-[20px] 4xl:text-[26px] xl:text-[22px] pr-10 xl:pr-5">
                                                     {success.description}
-                                                </p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -496,7 +496,6 @@ const Home = () => {
                         </p>
                     </div>
 
-
                 </div>
                 <div
                     ref={refs[4]}
@@ -510,7 +509,7 @@ const Home = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        priority
+                        loading="lazy"
                     />
                 </div>
             </section>

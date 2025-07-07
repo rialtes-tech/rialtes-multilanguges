@@ -1,12 +1,11 @@
 "use client";
-// pages/success-factors.js
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import CarouselComponent from "../../../components/useCarousel";
-import { useState } from "react";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
+import UnorderedList from "@/app/components/unorderedList";
 
 
 const solutionSuccess = [
@@ -69,7 +68,6 @@ const solutionSuccess = [
 
 
 export default function Page() {
-    const [slides, setSlides] = useState([]);
 
     return (
         <div className="min-h-screen bg-white">
@@ -79,7 +77,6 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
             />
-
 
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
@@ -107,12 +104,12 @@ export default function Page() {
 
                 <div className="relative h-full custom-container grid grid-cols-12 sm:items-center">
                     <div className="md:col-span-3 sm:col-span-1 col-span">
-                       
+
                     </div>
                     <div className="md:col-span-9 sm:col-span-11 col-span-12">
                         <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px] ">
                             <h3 className="text-[18px] md:text-[24px] font-bold  text-black leading-tight">SAP Consulting</h3>
-                           
+
                             <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 Leaning towards<span className="block"> a better tomorrow.</span>
                             </h2>
@@ -134,10 +131,8 @@ export default function Page() {
 
 
             {/* leverage sap section */}
-
             <section className="w-full custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
                 <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
-
                     <div>
                         <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
                     </div>
@@ -161,44 +156,26 @@ export default function Page() {
                                         alt="Salesforce Consulting Team"
                                         className="transform w-full h-full transition-transform duration-500 group-hover:scale-110"
                                         height={0} width={0}
-                                        priority
-                                    // sizes="100vw"
-                                    />
+                                        priority />
                                 </div>
                                 <div className="p-8">
                                     <h3 className=" xl:text-[22px] 4xl:text-[30px] font-bold text-[#1F3F69] leading-tight">{product.title}</h3>
                                     <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{product.description}</p>
-                                    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                                        {product?.productsDetails?.map((details, index) => {
-                                            return (
-                                                <li
-                                                    key={index}
-                                                    className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
-                                                >
-                                                    {details}
-                                                </li>
-
-                                            )
-                                        })}
-                                    </ul>
+                                    <UnorderedList arrName={product?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
                                     <h5 className="text-[#0092E0] mt-10 font-bold cursor-pointer xl:text-[20px] text-[16px]">
                                         <Link href={product?.knowMore}>Know More</Link>
                                     </h5>
                                 </div>
-
                             </div>
                         )
                     })}
-
                 </div>
             </section>
 
 
             {/* sap industry section */}
             <section className="mt-[84px]">
-                <div
-                    className="custom-container md:!pr-0"
-                >
+                <div className="custom-container md:!pr-0">
                     <h2 className="text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-[60%] xl:w-[80%]">SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations</h2>
                     <div className="mt-[51px]">
                     </div>
@@ -208,9 +185,7 @@ export default function Page() {
 
             {/* get inspired section */}
             <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20 pt-20">
-                <div
-                    className="custom-container md:!pr-0 "
-                >
+                <div className="custom-container md:!pr-0">
                     <FeaturedCarousel />
                 </div>
             </section>
@@ -225,25 +200,15 @@ export default function Page() {
                             loading="lazy"
                             width='100'
                             height='100'
-                            className='w-full 3xl:!h-[500px] 2xl:!h-[500px] xl:!h-[500px] lg:!h-[380px] md:!h-[384px] sm:!h-[360px] !h-[480px] object-cover transition-transform duration-500 transform group-hover:scale-110'
+                            className='w-full 3xl:!h-[500px] 2xl:!h-[500px] xl:!h-[500px] lg:!h-[380px] md:!h-[384px] sm:!h-[360px] !h-[480px] object-cover transition-transform duration-500 transform group-hover:scale-110 object-[35%_80%]'
                             alt='Life Section'
-                            src='/images/sap-consulting/RISE with SAP highlight.webp'
+                            src='/images/services/rise-with-sap/header.webp'
                         />
                     </div>
                 </div>
 
                 <div className="custom-container">
-                    <div className='bg-[#134874] absolute text-white 
-  w-[90%] max-w-[500px] pt-[52px] pb-[22px] px-[32px]
-  top-[-10%] 
-  md:right-[40px]
-  lg:right-[40px]
-  xl:right-[40px]
-  2xl:right-[200px]
-  left-1/2 md:left-auto 
-  -translate-x-1/2 md:translate-x-0'>
-
-
+                    <div className='bg-[#1f5e91] absolute text-white w-[90%] max-w-[500px] pt-[52px] pb-[22px] px-[32px] top-[-10%] md:right-[40px] lg:right-[40px] xl:right-[40px] 2xl:right-[200px] left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0'>
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-light ">RISE with SAP</h2>
                         <p className='text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium t mt-[23px]'>
                             Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.
@@ -256,14 +221,10 @@ export default function Page() {
             </section>
 
             {/* Contact Form */}
-            < div
-                className="pb-20
-  custom-container
-  text-black xl:mt-[125px] mt-[80px] "
-            >
+            <div
+                className="pb-20 custom-container text-black xl:mt-[125px] mt-[80px]">
                 <ContactForm title={'Take the next step to operational excellence with us.'} className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]" />
-
-            </div >
-        </div >
+            </div>
+        </div>
     );
 }

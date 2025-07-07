@@ -59,11 +59,11 @@ export default function servicesFeaturedCarousel() {
       carouselState: { currentSlide },
     } = rest;
     return (
-      <div className="flex carousel-button-group absolute md:top-0 top-[64px]  xl:right-52 lg:right-20 md:right-10 right-4 md:mt-20">
+      <div className="flex carousel-button-group absolute md:top-0 top-[64px] xl:right-52 lg:right-20 md:right-10 right-4 md:mt-20">
         <button
           className={
             currentSlide === 0
-              ? "disable  p-2 mr-4 group transition-all duration-300"
+              ? "disable p-2 mr-4 group transition-all duration-300"
               : " p-2 mr-4 group transition-all duration-300"
           }
           onClick={() => previous()}
@@ -135,7 +135,7 @@ export default function servicesFeaturedCarousel() {
     <section className="relative pb-10">
       <div>
         <div className="flex flex-col justify-between">
-          <h2 className="text-black mb-[87px] 4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  max-sm:text-[18px]">
+          <h2 className="text-black mb-[87px] 4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  max-md:text-[18px]">
             Get Inspired By Our Latest Customer Success Stories, Industry
             Insight, And More
           </h2>
@@ -155,7 +155,7 @@ export default function servicesFeaturedCarousel() {
               // containerClass="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
               dotListClass="custom-dot-list-style !justify-start flex-wrap"
-              itemClass="carousel-item-padding-40-px"
+              itemClass="carousel-item-padding-40-px mb-[30px]"
               partialVisible={true}
               arrows={false}
               renderButtonGroupOutside={true}
@@ -166,9 +166,9 @@ export default function servicesFeaturedCarousel() {
               {slides.map((slide) => (
                 <div
                   key={slide.id}
-                  className="flex sm:flex-row flex-col basis-full xl:mr-12 sm:mr-6 mr-0 group"
+                  className="flex h-full  md:flex-row flex-col basis-full xl:mr-12 md:mr-6 mr-0 group"
                 >
-                  <div className="basis-full sm:basis-2/3 lg:basis-4/3">
+                  <div className="basis-full md:basis-2/3 lg:basis-4/3">
                     <Link href={slide.url}>
                       <Image
                         src={slide.imgSrc}
@@ -185,9 +185,9 @@ export default function servicesFeaturedCarousel() {
                       />
                     </Link>
                   </div>
-                  <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-6">
+                  <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white md:basis-2/3 py-6 md:py-4 lg:py-10 md:px-10 lg:px-16 px-6">
                     <Link href={slide.url}>
-                      <h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold 4xl:text-[30px] xl:text-[24px] text-[20px]">
+                      <h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] h3-bold 4xl:text-[30px] xl:text-[24px] text-[20px]">
                         {slide.title}
                       </h3>
                     </Link>

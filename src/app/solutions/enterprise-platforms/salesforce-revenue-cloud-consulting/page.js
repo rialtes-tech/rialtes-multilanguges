@@ -5,14 +5,29 @@ import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
-import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 
 
 export default function HealthCloud() {
     const [slides, setSlides] = useState([]);
-
+    const revenueStats = [
+        {
+            value: "40%",
+            description: "Faster sales cycles due to automated CPQ",
+            widthClasses: "xl:w-[240px] lg:w-[220px] 2xl:w-[260px] 4xl:w-[312px]",
+        },
+        {
+            value: "30%",
+            description: "Boost in quote-to-cash efficiency",
+            widthClasses: "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]",
+        },
+        {
+            value: "20-25%",
+            description: "Reduction in administrative costs",
+            widthClasses: "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]",
+        },
+    ];
 
     const salesForce = [
         {
@@ -117,7 +132,7 @@ export default function HealthCloud() {
                             <h3 className="text-white text-[14px] md:text-[20px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] 4xl:text-[24px] font-bold">
                                 Salesforce Revenue Cloud
                             </h3>
-                            <h2 className="text-white   text-[24px]  md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[73px]  mt-[11.5px] md:mt-[10px] xl:text-[55px] 2xl:text-[60px] 4xl:text-[74px] w-[300px] md:w-[490px] lg:w-[600px] xl:w-[700px] 2xl:w-[700px] 4xl:w-[878px] leading-tight ">
+                            <h2 className="text-white   text-[24px]  md:text-[40px] md:leading-[50px] lg:text-[50px] lg:leading-[73px] mt-[11.5px] md:mt-[10px] xl:text-[55px] 2xl:text-[60px] 4xl:text-[60px] w-[300px] md:w-[490px] lg:w-[600px] xl:w-[700px] 2xl:w-[700px] 4xl:w-[778px] leading-tight ">
                                 Manage Revenue Streams and Customer Relationships in One Place
                             </h2>
                             <Image
@@ -136,34 +151,21 @@ export default function HealthCloud() {
                 </div>
             </section>
 
-            {/* <div className="custom-container grid lg:grid-cols-10 gap-9 lg:mt-16 mt-5">
-                <div className="lg:col-span-5">
-                    <h1 className=" 2xl:text-[56px] xl:text-[46px] xl:w-[660px] 2xl:w-[780px]  4xl:text-[60px] 4xl:w-[740px] lg:text-[38px] lg:w-[550px] leading-tight text-[26px] md:text-[32px]  xl:leading-[73px] font-light ">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
-                </div>
-                <div className="lg:col-span-5">
-                    <p className=" text-[16px] font-normal leading-[19px] xl:leading-[30px] w-[96%]  2xl:text-[18px] 2xl:w-[480px] 4xl:text-[20px] 4xl:w-[550px]  xl:text-[16px] xl:w-[430px] lg:text-[14px] lg:w-[385px] md:text-[18px]">
-                        Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.
-                    </p>
-                </div>
-            </div> */}
-            <section
-        className="custom-container"
-      >
+            <section className="custom-container">
+                <div className="py-8 bg-white">
+                    <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">
+                        <div className="flex flex-col lg:flex-row items-center py-6 ">
+                            <div className="flex flex-col  xl:mb-0 mb-4 ">
+                                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[52px] xl:w-[650px] 2xl:w-[700px]  4xl:text-[60px] 4xl:w-[740px] lg:text-[42px] lg:w-[520px] leading-tight text-[26px] md:text-[32px] ">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
+                            </div>
+                            <div className="flex flex-col w-full ">
+                                <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[520px] 4xl:text-[20px] 4xl:w-[580px]  xl:text-[16px] xl:w-[460px] lg:text-[14px] lg:w-[400px] md:text-[18px] 4xl:pl-10 2xl:pl-8 xl:pl-8 lg:pl-6"> Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.</p>
+                            </div>
+                        </div>
 
-        <div className="py-8 bg-white">
-          <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">
-            <div className="flex flex-col lg:flex-row items-center py-6 ">
-              <div className="flex flex-col  xl:mb-0 mb-4 ">
-                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[52px] xl:w-[650px] 2xl:w-[700px]  4xl:text-[60px] 4xl:w-[740px] lg:text-[42px] lg:w-[520px] leading-tight text-[26px] md:text-[32px] ">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
-              </div>
-              <div className="flex flex-col w-full ">
-                <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[520px] 4xl:text-[20px] 4xl:w-[580px]  xl:text-[16px] xl:w-[460px] lg:text-[14px] lg:w-[400px] md:text-[18px] 4xl:pl-10 2xl:pl-8 xl:pl-8 lg:pl-6"> Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+                    </div>
+                </div>
+            </section>
             <section className="lg:mt-20 custom-container py-10">
                 <h3 className="text-[24px] md:text-[24px] lg:text-[30px] xl:text-[34px] 2xl:text-[38px] 4xl:text-[40px] leading-tight  font-normal">Revenue Cloud Process Flow</h3>
                 <Image
@@ -223,50 +225,46 @@ export default function HealthCloud() {
             </section>
 
             {/* Reduce Revenue Pitfalls, Supercharge Your Sales Funnel */}
-            < div className="bg-[#EDEDED] py-6 " >
-                <div
-                    className="custom-container">
-                    <section className="">
+            <section className="bg-[#EDEDED] py-6 " >
+                <div className="custom-container">
+                    <div>
                         <div className="py-10">
-                            <h2 className="pb-4 text-black text-[24px] md:text-[24px] lg:text-[30px] xl:text-[34px] 2xl:text-[38px] 4xl:text-[40px] leading-tight  font-normal  2xl:w-[1080px] 4xl:w-[1190px] xl:w-[1000px] lg:w-[990px] ">Reduce Revenue Pitfalls, Supercharge Your Sales Funnel</h2>
-                            <p className="pb-8 text-[14px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[18px] 4xl:text-[20px]">Businesses using Revenue Cloud have reported:</p>
-                            <div className="flex md:flex-row flex-col gap-6">
-                                <div className="flex flex-col xl:w-1/3 md:w-1/3">
-                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px] ">40%</h2>
-                                    <p className="text-black  4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[260px] 4xl:w-[312px] xl:w-[240px] lg:w-[220px]">Faster sales cycles due to automated CPQ</p>
-                                </div>
-                                <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px] ">30%</h2>
-                                    <p className="text-black  4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[240px] 4xl:w-[312px] xl:w-[220px] lg:w-[200px]">Boost in quote-to-cash efficiency</p>
-                                </div>
-                                <div className="flex flex-col xl:w-1/4 md:w-1/3">
-                                    <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px] ">20-25%</h2>
-                                    <p className="text-black  4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[240px] 4xl:w-[312px] xl:w-[220px] lg:w-[200px]">Reduction in administrative costs</p>
-                                </div>
+                            <h2 className="pb-4 text-black text-[24px] md:text-[24px] lg:text-[30px] xl:text-[34px] 2xl:text-[38px] 4xl:text-[40px] leading-tight font-normal 2xl:w-[1080px] 4xl:w-[1190px] xl:w-[1000px] lg:w-[990px]">
+                                Reduce Revenue Pitfalls, Supercharge Your Sales Funnel
+                            </h2>
+                            <p className="pb-8 text-[14px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[18px] 4xl:text-[20px]">
+                                Businesses using Revenue Cloud have reported:
+                            </p>
+
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                {revenueStats.map((item, index) => (
+                                    <div key={index} className={`flex flex-col ${item.widthClasses}`}>
+                                        <h2 className="text-[#0092E0] font-bold text-4xl md:text-6xl mb-2 2xl:text-[56px] 4xl:text-[70px] xl:text-[50px] md:text-[40px] lg:text-[40px]">
+                                            {item.value}
+                                        </h2>
+                                        <p className="text-black 4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px]">
+                                            {item.description}
+                                        </p>
+                                    </div>
+                                ))}
                             </div>
                         </div>
-                    </section>
+                    </div>
 
                 </div>
-            </div>
+            </section>
 
-            <section className="bg-[#F5F5F5] py-10 ">
-                <div
-                    className="custom-container"
-                >
+            <section className="bg-[#F5F5F5] py-20 ">
+                <div className="custom-container">
                     <FeaturedCarousel />
                 </div>
             </section>
 
-
-            <div
-                className="mt-20 mb-20 custom-container "
-            >
+            <div className="mt-20 mb-20 custom-container">
                 <ServicesBlogs slides={slides} />
-
             </div>
 
-            <section className='custom-container md:!pr-0 lg:mt-20 bg-[#808080]  mt-10 py-10'>
+            <section className='custom-container md:!pr-0 lg:mt-20 bg-[#808080] mt-10 py-20'>
                 <ExploreMoreCarousel />
             </section>
             <section className="custom-container lg:mt-20 pb-20 mt-10">

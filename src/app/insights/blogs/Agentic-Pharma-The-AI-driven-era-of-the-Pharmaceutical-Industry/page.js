@@ -207,25 +207,25 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-dr
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-           <Seo
-                title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
-                description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
-                canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/"}
-            />
-           
-               <Script
+      <Seo
+        title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
+        description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
+        canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/"}
+      />
+
+      <Script
         id="schema-agentic-pharma"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
-               <HeroSection
-          
-                  mobimg="/images/blog/agentic-pharma-mobile-banner.webp"
-                  deskimg="/images/blog/agentic-pharma-blog-banner.webp"
-                  extraImg=""
-                /> 
+
+      <HeroSection
+
+        mobimg="/images/blog/agentic-pharma-mobile-banner.webp"
+        deskimg="/images/blog/agentic-pharma-blog-banner.webp"
+        extraImg=""
+      />
       <section
         className="
          custom-container"
@@ -245,7 +245,8 @@ export default function Page() {
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                       target="_blank"
                       rel="noopener noreferrer"
-                    >                            <Image
+                    >
+                      <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}
@@ -256,7 +257,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                   <div className="max-w-[40px]">
+                  <div className="max-w-[40px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"
