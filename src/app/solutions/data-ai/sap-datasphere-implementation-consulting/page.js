@@ -4,7 +4,15 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
-
+import UnorderedList from "@/app/components/unorderedList";
+const industryAcceleratorsData = [
+    "AI-powered Manufacturing production and inventory optimization.",
+    "Semiconductor-specific yield, demand, and supply chain analytics.",
+    "Automotive customer lifecycle and parts analytics.",
+    "Retail customer behavior, inventory, and sales insights.",
+    "Education student lifecycle analytics and faculty insights.",
+    "HR workforce performance and diversity analytics."
+]
 const WhyRialtesSection = () => {
     const whyrialtessectiondata = [
         "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
@@ -13,6 +21,7 @@ const WhyRialtesSection = () => {
         "Real-time data governance, compliance, and security frameworks.",
         "Offices in the US, Canada, Singapore, and India, delivering global expertise with local precision."
     ]
+
     return (
         <section className="w-full relative">
             {/* Image Section */}
@@ -59,12 +68,7 @@ const WhyRialtesSection = () => {
                                 return (
                                     <div key={ind} className="w-full flex items-center">
                                         <div
-                                            className={`relative
-                    4xl:mt-[48px] lg:mt-[38px] lg:py-0 py-[39px]
-                    text-[#FFFFFF] 4xl:text-[20px] xl:text-[16px] text-[17px] font-medium leading-[20px] xl:leading-[24px]
-                    ${isBorderLeft ? 'lg:border-l-2 lg:pl-6 border-white' : ''}
-                    lg:border-b-0`}
-                                        >
+                                            className={`relative 4xl:mt-[48px] lg:mt-[38px] lg:py-0 py-[39px] text-[#FFFFFF] 4xl:text-[20px] xl:text-[16px] text-[17px] font-medium leading-[20px] xl:leading-[24px] ${isBorderLeft ? 'lg:border-l-2 lg:pl-6 border-white' : ''} lg:border-b-0`}>
                                             {data}
                                             {isNotLast && (
                                                 <div className="absolute bottom-0 left-0 w-[73px] border-b-2 border-white lg:hidden" />
@@ -84,7 +88,7 @@ const WhyRialtesSection = () => {
                         </div>
                     </div>
 
-                    <div className="w-full">{/* Right side (empty or add image/icon here) */}</div>
+                    <div className="w-full"></div>
                 </div>
             </div>
         </section>
@@ -147,17 +151,7 @@ const BuildIntelligentSection = () => {
                         {/* Right Column */}
                         <div className="flex flex-col">
                             <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]">Key Benefits:</p>
-                            <ul className="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]">
-                                {buildIntelligentData.map((item, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light">
-                                        {item}
-                                    </li>
-
-                                ))}
-                            </ul>
-
+                            <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
 
                             <div className="2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1 ">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
@@ -171,18 +165,10 @@ const BuildIntelligentSection = () => {
     )
 }
 const IndustryAcceleratorsSection = () => {
-    const industryAcceleratorData = [
-        "AI-powered Manufacturing production and inventory optimization.",
-        "Semiconductor-specific yield, demand, and supply chain analytics.",
-        "Automotive customer lifecycle and parts analytics.",
-        "Retail customer behavior, inventory, and sales insights.",
-        "Education student lifecycle analytics and faculty insights.",
-        "HR workforce performance and diversity analytics."
-    ]
+
     return (
         <section className="w-full xl:mt-[147px] mt-[41px]">
             <div className="grid grid-cols-1 md:grid-cols-[4fr_5fr]">
-
                 <div className="w-full">
                     {/* Mobile Image */}
                     <Image
@@ -206,7 +192,6 @@ const IndustryAcceleratorsSection = () => {
                         />
                     </div>
                 </div>
-
                 <div className="text-[#000000] xl:pl-[60px] mx-[35px] xl:pt-0 pt-[40px]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
                         Industry-Accelerators
@@ -223,17 +208,7 @@ const IndustryAcceleratorsSection = () => {
                     <h4 className="font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight mt-[29px] xl:mt-[54px]">
                         Industry-Focused Capabilities:
                     </h4>
-
-                    <ul className="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]">
-                        {industryAcceleratorData.map((data, idx) => (
-                            <li
-                                key={idx}
-                                className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light"
-                            >
-                                {data}
-                            </li>
-                        ))}
-                    </ul>
+                    <UnorderedList ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" arrName={industryAcceleratorsData} liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
                 </div>
             </div>
         </section>
@@ -254,14 +229,14 @@ const IntelligentAutomativeSection = () => {
             <Image
                 src="/images/solutions/data-sphere/Mobile/intelligent-automative-mob-img.webp"
                 alt="intelligent-automative-img"
-                className="block md:hidden w-full h-[1000px]"
+                className="block md:hidden w-full max-[442px]:h-[1200px] h-[1000px]"
                 priority
                 width={0}
                 height={0}
             />
 
             {/* Desktop Image */}
-            <div className="md:h-[600px] lg:h-[600px] xl:h-[800px] 2xl:h-[860px]">
+            <div className="md:h-[630px] lg:h-[630px] xl:h-[800px] 2xl:h-[860px]">
                 <Image
                     src="/images/solutions/data-sphere/intelligent-automative-img.webp"
                     alt="intelligent-automative-img"
@@ -282,29 +257,17 @@ const IntelligentAutomativeSection = () => {
                     <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight font-semibold xl:mt-[45px] mt-[24px] xl:w-[80%] w-[90%]">
                         Drive the Future of Automotive with AI-Integrated Insights
                     </h3>
-
-                    <ul className="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]">
-                        {intelligentData.map((item, idx) => (
-                            <li
-                                key={idx}
-                                className="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight">
-                                {item}
-                            </li>
-                        ))}
-                    </ul>
+                    <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight" />
                     <div className="xl:mt-[20px] mt-[54px]">
                         <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                     </div>
-                    <div className="bg-[#163055] absolute bottom-[-50px] mx-[36px] ml-[-20px]">
+                    <div className="bg-[#163055] absolute bottom-[-70px] mr-[36px] lg:ml-[-20px]">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                             Unlock AI for better vehicle performance, customer experience, and market growth.
                         </p>
                     </div>
                 </div>
             </div>
-
-
-
         </section>
     );
 };
@@ -349,22 +312,12 @@ const AIReadyManufacturingSection = () => {
                     <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-[80%]">
                         Optimize Production, Supply Chain, and Maintenance
                     </h3>
-
-                    <ul className="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]">
-                        {aiReadyData.map((data, idx) => (
-                            <li
-                                key={idx}
-                                className="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light"
-                            >
-                                {data}
-                            </li>
-                        ))}
-                    </ul>
+                    <UnorderedList arrName={aiReadyData} ulClassName="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light" />
                 </div>
             </div>
             <div className="custom-container">
                 <div className="md:w-[56%] relative">
-                    <div className="bg-[#163055] absolute -bottom-[66px] w-full">
+                    <div className="bg-[#163055] mt-[-90px] sm:mt-[-60px] w-full">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[20px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                             Stay competitive with AI-powered, data-driven manufacturing intelligence.
                         </p>
@@ -421,22 +374,12 @@ const OmnichannelSmartEducationSection = () => {
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[39px] xl:w-[90%] 2xl:w-[80%]">
                             Personalize, Optimize, and Win Customers
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]">
-                            {omniSectionData.map((data, idx) => (
-                                <li
-                                    key={idx}
-                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light"
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
-
-                        <div className="bg-[#163055] xl:mx-auto mx-auto w-[80%] left-1/2 transform -translate-x-1/2 absolute xl:bottom-[-90px] sm:bottom-[-50px] bottom-[-60px] xl:mt-[60px] xl:w-[80%]">
-                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                                Empower retail with hyper-personalized experiences and optimized operations.
-                            </p>
-                        </div>
+                        <UnorderedList arrName={omniSectionData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                    </div>
+                    <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
+                        <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            Empower retail with hyper-personalized experiences and optimized operations.
+                        </p>
                     </div>
                 </div>
 
@@ -475,22 +418,12 @@ const OmnichannelSmartEducationSection = () => {
                         <h4 className="font-semibold xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
                             From Enrollment to Alumni — AI-Powered Student Journeys
                         </h4>
-                        <ul className="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]">
-                            {educationSectionData.map((data, idx) => (
-                                <li
-                                    key={idx}
-                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light"
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
-
-                        <div className="bg-[#163055] xl:mx-auto mx-auto w-[80%] left-1/2 transform -translate-x-1/2 absolute bottom-[-60px] sm:-bottom-[46px] md:-bottom-[40px] lg:-bottom-[70px] xl:-bottom-[90px] xl:left-[50%] xl:mt-[40px] xl:w-[80%]">
-                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                                Future-proof education with AI insights to enhance student outcomes.
-                            </p>
-                        </div>
+                        <UnorderedList arrName={educationSectionData} ulClassName="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                    </div>
+                    <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
+                        <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            Future-proof education with AI insights to enhance student outcomes.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -511,7 +444,7 @@ const AiPoweredHRAnalyticsSection = () => {
                     <Image
                         src="/images/solutions/data-sphere/Mobile/ai-powered-hr-analytics-mob-img.webp"
                         alt="ai-powered-hr-analytics-mob-img"
-                        className="block md:hidden h-full mx-auto object-cover"
+                        className="block md:hidden h-full w-full mx-auto object-cover"
                         priority
                         width={0}
                         height={0}
@@ -526,7 +459,7 @@ const AiPoweredHRAnalyticsSection = () => {
                             priority
                             width={0}
                             height={0}
-                            style={{objectPosition:"20% 20%"}}
+                            style={{ objectPosition: "20% 20%" }}
                         />
                     </div>
                 </div>
@@ -542,22 +475,10 @@ const AiPoweredHRAnalyticsSection = () => {
                         <h4 className="font-semibold xl:text-[28px] 4xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-full">
                             Smarter People Decisions with AI
                         </h4>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]">
-                            {aiPoweredData.map((data, idx) => (
-                                <li
-                                    key={idx}
-                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light"
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
-
+                        <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
 
                         <div className="bg-[#163055] 
-                    w-[80%] left-1/2 
-                    transform 
-                    -translate-x-1/2 
+                    w-[80%]
                     absolute 
                     bottom-[-50px] 
                     xl:left-[0px] 
@@ -588,7 +509,7 @@ const SapAribaSection = () => {
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[240px] mt-[94px]">
                 <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0">
-                    End-to-End Integration — <br /> Real-Time Data Unification
+                    End-to-End Integration — <div className="sm:block hidden"/> Real-Time Data Unification
                 </h2>
                 <div>
                     {/* Mobile Image */}
@@ -627,17 +548,7 @@ const SapAribaSection = () => {
                         </div>
 
                         <div className="flex flex-col">
-                            <ul className="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]">
-                                {sapAribaData.map((item, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="text-[#FFFFFF] xl:text-[20px] text-[16px] leading-tight font-light">
-                                        {item}
-                                    </li>
-
-                                ))}
-                            </ul>
-
+                            <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[20px] text-[16px] leading-tight font-light" />
 
                             <div className="xl:mt-[49px] mt-[34px] xl:ml-1 ">
                                 <LearnMore />
@@ -688,16 +599,7 @@ const SapHanaSection = () => {
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             Enterprise Data Mastery
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
-                            {sapHanaData.map((data, idx) => (
-                                <li
-                                    key={idx}
-                                    className="xl:text-[20px] text-[16px] xl:leading-tight font-light"
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                             <LearnMore />
                         </div>
@@ -747,16 +649,7 @@ const SapSucessFactorSection = () => {
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             HR Data Reimagined
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
-                            {sapSuccessData.map((data, idx) => (
-                                <li
-                                    key={idx}
-                                    className="xl:text-[20px] text-[16px] leading-tight font-light"
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                             <LearnMore />
                         </div>
@@ -804,16 +697,7 @@ const SalesforceSap = () => {
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px]  text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             AI-Enhanced Customer 360
                         </h3>
-                        <ul className="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
-                            {salesforcesapData.map((data, idx) => (
-                                <li
-                                    key={idx}
-                                    className="xl:text-[20px] text-[16px] xl:leading-tight font-light"
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                             <LearnMore />
                         </div>
@@ -865,16 +749,7 @@ const AdvancedDataSection = () => {
                             <h3 className="font-semibold 4xl:text-[36px] xl:text-[24px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
                                 From Raw Data to Actionable Intelligence
                             </h3>
-                            <ul className="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]">
-                                {advancedData.map((data, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="xl:text-[20px] text-[16px] xl:leading-tight font-light"
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                 <LearnMore />
                             </div>
@@ -906,14 +781,14 @@ const AIPoweredUseSection = () => {
                     <Image
                         src="/images/solutions/data-sphere/Mobile/ai-powered-use-mob-img.webp"
                         alt="ai-powered-use-mob-img"
-                        className="w-full h-[1300px] object-cover"
+                        className="w-full h-[1000px] object-cover"
                         priority
                         width={0}
                         height={0}
                     />
 
                     <div
-                        className="absolute bottom-[220px] left-0 right-0 sm:h-[390px] h-[420px] max-[340px]:h-[510px] z-0"
+                        className="absolute bottom-[220px] max-[360px]:top-[25%] top-[38%] sm:top-[40%] left-0 right-0 inset-0 z-0"
                         style={{
                             background: "#006FBE",
                             mixBlendMode: "multiply",
@@ -921,32 +796,22 @@ const AIPoweredUseSection = () => {
                         }}
                     ></div>
 
-
-                    <div className="mx-[10px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white">
-                        <h2 className="text-[26px] leading-tight font-light">
-                            AI-Powered Use Cases
-                        </h2>
-                        <h3 className="text-[20px] 4xl:text-[36px] xl:text-[24px] font-semibold mt-[19px] leading-tight w-[90%]">
-                            Accelerating Innovation
-                        </h3>
-
-                        <ul className="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]">
-                            {aiPoweredData.map((element, index) => (
-                                <li
-                                    key={index}
-                                    className="text-[16px] leading-[19px]"
-                                >
-                                    {element}
-                                </li>
-                            ))}
-                        </ul>
-
-                        <div className="mt-[44px] absolute">
-                            <Link href="/contact-us">
-                                <button className="bg-[#006FBE] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                    Learn More
-                                </button>
-                            </Link>
+                    <div className="relative">
+                        <div className="mx-[10px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white">
+                            <h2 className="text-[26px] leading-tight font-light">
+                                AI-Powered Use Cases
+                            </h2>
+                            <h3 className="text-[20px] 4xl:text-[36px] xl:text-[24px] font-semibold mt-[19px] leading-tight w-[90%]">
+                                Accelerating Innovation
+                            </h3>
+                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-[19px]" />
+                            <div className="mt-[44px] absolute">
+                                <Link href="/contact-us">
+                                    <button className="bg-[#006FBE] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                        Learn More
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -979,17 +844,7 @@ const AIPoweredUseSection = () => {
                             <h3 className=" 4xl:text-[42px] xl:text-[38px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-tight">
                                 Accelerating Innovation
                             </h3>
-
-                            <ul className="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]">
-                                {aiPoweredData.map((element, index) => (
-                                    <li
-                                        key={index}
-                                        className="xl:text-[20px] text-[15px] leading-tight font-light"
-                                    >
-                                        {element}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[15px] leading-tight font-light" />
 
                             <div className="mt-[40px] absolute">
                                 <Link href="/contact-us">
@@ -1002,7 +857,7 @@ const AIPoweredUseSection = () => {
                     </div>
                 </div>
                 <div className="custom-container">
-                    <div className="bg-[#163055] absolute xl:-mt-[58px] -mt-[68px] w-[85%] sm:w-[90%] md:w-auto">
+                    <div className="bg-[#163055] absolute xl:-mt-[58px] -mt-[45px] mr-[36px] sm:w-[90%] md:w-auto">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[35px] px-[24px] font-light">
                             AI brings the future of decision-making to your fingertips.
                         </p>
@@ -1021,7 +876,7 @@ const GlobalPresenceSection = () => {
         "Deep domain expertise in Manufacturing, Automotive, Semiconductor, Retail, HR, and Education."
     ]
     return (
-        <section className="xl:mt-[121px] mt-[126px] custom-container lg:!pr-0 max-md:px-0">
+        <section className="xl:mt-[121px] mt-[136px] custom-container lg:!pr-0 max-md:px-0">
             <div className="relative">
 
                 <div>
@@ -1072,8 +927,7 @@ const GlobalPresenceSection = () => {
                 ${isBorderLeft ? 'md:border-l-2 md:pl-[48px] lg:pl-[50px] xl:pl-[68px] border-white' : ''}
                 ${!isBorderLeft ? 'xl:mr-[45px]' : ''}
                 md:border-b-0
-              `}
-                                        >
+              `}  >
                                             {data}
                                             {isNotLast && (
                                                 <div className="absolute bottom-0 left-0 w-[100%] border-b-2 border-[#848484] md:hidden" />
@@ -1194,7 +1048,7 @@ export default function () {
             {/* Contact Form */}
             <div
                 className="custom-container
-              text-[#000000] pb-10 max-sm:mt-[460px] max-md:mt-[400px] max-lg:mt-[360px]"
+              text-[#000000] pb-10  max-[460px]:mt-[540px] mt-[400px] sm:mt-[460px] md:mt-[400px] lg:mt-[80px] xl:mt-[90px]"
             >
                 <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"xl:w-[70%] xl:font-normal 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
             </div >

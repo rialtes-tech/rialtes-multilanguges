@@ -1,11 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
-
 
 const featureBoxes = [
   {
@@ -93,7 +91,6 @@ const services = [
 export default function DataCloud() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
-  const router = useRouter();
 
   useEffect(() => {
     setIsRouterReady(true);
@@ -108,14 +105,6 @@ export default function DataCloud() {
   const handleMouseLeave = () => {
     return () => {
       setHoveredBlog(null);
-    };
-  };
-
-  const handleClick = (blogName) => {
-    return () => {
-      if (isRouterReady) {
-        router.push(blogName);
-      }
     };
   };
 
@@ -214,7 +203,7 @@ export default function DataCloud() {
         </section>
       </div>
 
-      {/* createing section */}
+      {/* creating section */}
       <div className="custom-container">
         <section className="py-8 my-10">
           <h2 className="text-[#000000] lg:w-[70%] xl:w-[76%] 4xl:w-[90%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
@@ -291,7 +280,7 @@ export default function DataCloud() {
                 onMouseEnter={handleMouseEnter(service.id)}
                 onMouseLeave={handleMouseLeave(service.id)}
               >
-                <div className=" mb-4">
+                <div className="mb-4">
                   <div
                     className="w-full h-full"
                     style={{
@@ -325,9 +314,7 @@ export default function DataCloud() {
       </div>
 
       {/* Contact Form Section */}
-      <div
-        className="py-20 custom-container"
-      >
+      <div className="py-20 custom-container">
         <ContactForm title="Take the next step to operational excellence with us." className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] 4xl:w-[80%] xl:w-[70%]" />
       </div>
     </div>

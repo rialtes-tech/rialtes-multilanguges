@@ -2,6 +2,7 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
+import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 
 const schemaData = {
@@ -144,7 +145,6 @@ const data = [
     text: "AI and Data-first approach for future-ready operations.",
   },
 ];
-
 const InventoryData = [
   {
     title: "Inventory Optimization:",
@@ -171,7 +171,81 @@ const InventoryData = [
     ],
   },
 ];
-
+const oracleFeatures = [
+  {
+    text: "Leverage autonomous database, AI/ML integrations, and serverless architecture.",
+  },
+  {
+    text: "Enable secure and compliant environments for regulated industries.",
+  },
+  {
+    text: "Optimize compute, storage, and networking for global ERP operations.",
+  },
+  {
+    text: "Integrate Oracle EBS with OCI-native solutions for enhanced scalability and performance.",
+  },
+];
+const ebsListItems = [
+  {
+    bold: "Bringing AI to Oracle EBS",
+    text: "for predictive analytics and intelligent automation.",
+  },
+  {
+    bold: "Integrating Kinaxis RapidResponse®",
+    text: "for agile supply chain responsiveness.",
+  },
+  {
+    bold: "",
+    text: "Cloud-driven cost optimization and performance enhancement.",
+    fullBold: true,
+  },
+  {
+    bold: "End-to-end ownership,",
+    text: "of the entire Oracle EBS lifecycle — ",
+    secondBold: "advisory to support"
+  },
+];
+const keyCapabilitiesData = [
+  "Integrated demand, supply, and capacity planning powered by Oracle ASCP and Kinaxis.",
+  "Scenario modeling and what-if analysis for proactive risk management.",
+  "Supplier collaboration and visibility with Kinaxis-integrated portals.",
+  "End-to-end tracking from order to fulfillment with actionable insights."
+]
+const businessBenefitsData = [
+  "Improved forecast accuracy and reduced stock-outs.",
+  "Shorter planning cycles and faster response to disruptions.",
+  "Optimized inventory and working capital.",
+  "Stronger supplier relationships and compliance.",
+]
+const howWeTransformData = [
+  "End-to-end integration of Oracle EBS and Kinaxis for unified planning.",
+  "Real-time collaboration between sales, operations, finance, and supply chain teams.",
+  "Forecasting, demand shaping, and inventory balancing — on a single platform.",
+  "AI-based analytics to drive actionable insights and improve consensus planning.",
+]
+const outcomeData = [
+  "Alignment of demand and supply with corporate goals.",
+  "Agility to respond to customer demands and market shifts.",
+  "Reduced operational costs and improved service levels.",
+]
+const endToEndData = [
+  "What-if simulations for supply chain disruptions.",
+  "Financial impact analysis of operational decisions.",
+  "Collaborative scenario planning across stakeholders.",
+  "Risk mitigation strategies through proactive modeling.",
+]
+const realWorldData = [
+  "Predictive supply chain and demand forecasting.",
+  "AI-powered customer service and order management.",
+  "Machine learning algorithms for predictive maintenance.",
+  "AI-based risk scoring for supplier and compliance risks.",
+]
+const aiDrivenData = [
+  "Faster decision-making with real-time data.",
+  "Reduced operational risks and disruptions.",
+  "Higher accuracy in forecasts and financial projections.",
+  "Improved customer experiences and faster issue resolution.",
+]
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
@@ -354,8 +428,8 @@ export default function Page() {
           ))}
         </div>
       </section>
-      {/* Deep Expertise in Oracle EBS section*/}
 
+      {/* Deep Expertise in Oracle EBS section*/}
       <section className="relative h-auto pb-20 xl:h-[1482px] z-0 xl:pb-20 xl:mt-[-60px]">
         <div className="xl:block hidden">
           <Image
@@ -376,11 +450,10 @@ export default function Page() {
             sizes="100vw"
           />
         </div>
-        {/* Main Content Wrapper */}
-        <div className=" h-full relative custom-container">
-          {/* Upper Content */}
+
+        <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-12 items-center text-white">
-            <div className="4xl:col-span-9 xl:col-span-8 col-span-12 text-white md:backdrop-blur-md md:p-5 xl:p-0 md:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
+            <div className="4xl:col-span-9 xl:col-span-8 col-span-12 text-white sm:backdrop-blur-md sm:p-5 xl:p-0 sm:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
               <h2 className="xl:mt-32 mt-16 leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[26px] ">
                 Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)
               </h2>
@@ -393,49 +466,35 @@ export default function Page() {
             </div>
             <div className="xl:col-span-3 col-span-12"></div>
           </div>
-          {/* Bottom Section with Grid */}
+
           <div className="xl:absolute bottom-[80px] xl:bottom-0  bg-opacity-80 text-white">
-            <div className="grid grid-cols-1 md:gap-[50px]  md:grid-cols-2 xl:grid-cols-4 xl:pr-[85px] mt-[35rem] xl:mt-0">
-              {/* Column 1 */}
-              <div className="border-b border-white/50 lg:border-b-0 xl:border-r xl:pr-16 pb-10 lg:pb-0 max-sm:pr-0 pr-10">
-                <p className="4xl:text-[30px] xl:text-[25px] text-[18px] leading-tight font-medium">
-                  Leverage autonomous database, AI/ML integrations, and
-                  serverless architecture.
-                </p>
-              </div>
-
-              {/* Column 2 */}
-              <div className="border-b border-white/50 lg:border-b-0 xl:border-r flex pt-10 md:pt-0 xl:pt-0 flex-col max-sm:pr-0 pr-10 pb-6 lg:pb-0">
-                <p className="4xl:text-[30px] xl:text-[25px] text-[18px] leading-tight font-medium">
-                  Enable secure and compliant environments for regulated
-                  industries.
-                </p>
-              </div>
-
-              {/* Column 3 */}
-              <div className="border-b border-white/50 lg:border-b-0 xl:border-r flex flex-col max-sm:pr-0 pr-10 pb-10 pt-10 xl:pt-0 lg:pb-0">
-                <p className="4xl:text-[30px] xl:text-[25px] text-[18px] leading-tight font-medium">
-                  Optimize compute, storage, and networking for global ERP
-                  operations.
-                </p>
-              </div>
-
-              {/* Column 4 */}
-              <div className=" border-white/50  md:border-b lg:last:border-b-0 flex flex-col max-sm:pr-0  pr-10 pt-10 xl:pt-0">
-                <p className="4xl:text-[30px] xl:text-[25px] text-[18px] leading-tight font-medium">
-                  Integrate Oracle EBS with OCI-native solutions for enhanced
-                  scalability and performance.
-                </p>
-              </div>
+            <div className="grid grid-cols-1 md:gap-[50px] md:grid-cols-2 xl:grid-cols-4 xl:pr-[85px] mt-[35rem] xl:mt-0">
+              {oracleFeatures.map((item, index) => (
+                <div
+                  key={index}
+                  className={`${index < 3 ? "xl:border-r max-md:border-b" : ""} 
+                              ${index === 0 || index === 1 ? "md:border-b lg:border-b" : ""} 
+                              xl:border-b-0 
+                              border-white/50 
+                              flex flex-col 
+                              pt-10 
+                              pb-10 xl:pb-0 xl:pt-0 
+                              pr-10 max-sm:pr-0
+                            `} >
+                  <p className="4xl:text-[30px] xl:text-[25px] text-[18px] leading-tight font-medium">
+                    {item.text}
+                  </p>
+                </div>
+              ))}
             </div>
+
           </div>
         </div>
       </section>
 
-      {/* Thought Leadership: Why Rialtes? section */}
 
+      {/* Thought Leadership: Why Rialtes? section */}
       <section className="relative pb-12 md:pb-[6rem] xl:pb-40 z-0 bg-[#F2F2F2]  xl:mt-0 max-sm:px-0 custom-container">
-        {/* Desktop image  xl+ */}
         <div className="xl:block hidden">
           <Image
             src="/images/oracle-ebs/thought leadership.webp"
@@ -477,29 +536,30 @@ export default function Page() {
                   <h3 className="4xl:text-[30px] xl:text-[26px] text-[22px] font-bold mt-10 md:mt-16 xl:mt-8">
                     Our Thought Leadership Pillars:
                   </h3>
-                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight pl-5 marker:font-bold marker:text-2xl mt-4">
-                    <li className="mt-5">
-                      <span className="font-bold">
-                        Bringing AI to Oracle EBS
-                      </span>{" "}
-                      for predictive analytics and intelligent automation.
-                    </li>
-                    <li>
-                      <span className="font-bold">
-                        Integrating Kinaxis RapidResponse®
-                      </span>{" "}
-                      for agile supply chain responsiveness.
-                    </li>
-                    <li className="font-bold">
-                      Cloud-driven cost optimization and performance
-                      enhancement.
-                    </li>
-                    <li>
-                      <span className="font-bold">End-to-end ownership</span> of
-                      the entire Oracle EBS lifecycle —{" "}
-                      <span className="font-bold">advisory to support.</span>
-                    </li>
+                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight pl-5 marker:font-bold marker:text-2xl mt-4 4xl:w-[94%]">
+                    {ebsListItems.map((item, index) => (
+                      <li key={index} className={`${index === 0 ? "mt-5" : ""}`}>
+                        {item.fullBold ? (
+                          <span className="font-bold">{item.text}</span>
+                        ) : (
+                          <>
+                            <span className="font-bold">
+                              {item.bold}
+                            </span>
+
+                            {""} {item.text}
+
+                            {item.secondBold &&
+                              <span className="font-bold">
+                                {item.secondBold}
+                              </span>
+                            }
+                          </>
+                        )}
+                      </li>
+                    ))}
                   </ul>
+
                 </div>
               </div>
             </div>
@@ -510,12 +570,10 @@ export default function Page() {
       </section>
 
       {/* Supply Chain Planning section */}
-
       <section className="pb-20  z-0 mt-10 xl:mt-0">
-        {/* Main Content Wrapper */}
         <div className=" h-full relative custom-container xl:!pr-0">
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
-            {/* Left Section - Image (40%) */}
+
             <div className="xl:col-span-4 col-span-12">
               <Image
                 src="/images/oracle-ebs/supply chain.webp"
@@ -527,7 +585,6 @@ export default function Page() {
                 alt="Supply Chain Planning with Oracle EBS and Kinaxis image"
               />
             </div>
-            {/* Right Section - Text Content (60%) */}
             <div className="xl:col-span-7 col-span-12">
               <h2 className=" xl:mt-20 mt-16 leading-tight 4xl:text-[60px] xl:text-[44px] md:text-[26px]">
                 Supply Chain Planning
@@ -547,41 +604,14 @@ export default function Page() {
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     Key Capabilities:
                   </h3>
-                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight">
-                    <li className="xl:mt-5 mt-3">
-                      Integrated demand, supply, and capacity planning powered
-                      by Oracle ASCP and Kinaxis.
-                    </li>
-                    <li>
-                      Scenario modeling and what-if analysis for proactive risk
-                      management.
-                    </li>
-                    <li>
-                      Supplier collaboration and visibility with
-                      Kinaxis-integrated portals.
-                    </li>
-                    <li>
-                      End-to-end tracking from order to fulfillment with
-                      actionable insights.
-                    </li>
-                  </ul>
+                  <UnorderedList arrName={keyCapabilitiesData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName=" text-[16px] xl:text-[18px] 4xl:text-[20px]" />
                 </div>
 
                 <div>
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     Business Benefits:
                   </h3>
-                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight pl-5 marker:font-bold marker:text-2xl ">
-                    <li className="xl:mt-5 mt-3">
-                      Improved forecast accuracy and reduced stock-outs.
-                    </li>
-                    <li>
-                      Shorter planning cycles and faster response to
-                      disruptions.
-                    </li>
-                    <li>Optimized inventory and working capital.</li>
-                    <li>Stronger supplier relationships and compliance.</li>
-                  </ul>
+                  <UnorderedList arrName={businessBenefitsData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 leading-tight pl-5 marker:font-bold marker:text-2xl" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px]" />
                 </div>
               </div>
             </div>
@@ -637,45 +667,20 @@ export default function Page() {
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
                 How We Transform S&OP:
               </h3>
-              <ul className="list-disc xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight">
-                <li className="xl:mt-5 mt-3">
-                  End-to-end integration of Oracle EBS and Kinaxis for unified
-                  planning.
-                </li>
-                <li>
-                  Real-time collaboration between sales, operations, finance,
-                  and supply chain teams.
-                </li>
-                <li>
-                  Forecasting, demand shaping, and inventory balancing — on a
-                  single platform.
-                </li>
-                <li>
-                  AI-based analytics to drive actionable insights and improve
-                  consensus planning.
-                </li>
-              </ul>
+              <UnorderedList arrName={howWeTransformData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
             </div>
             <div className="xl:col-span-6 col-span-12 md:col-span-1 mt-10 xl:mt-0">
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
                 The Outcome:
               </h3>
-              <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight">
-                <li className="xl:mt-5 mt-3">
-                  Alignment of demand and supply with corporate goals.
-                </li>
-                <li>
-                  Agility to respond to customer demands and market shifts.
-                </li>
-                <li>Reduced operational costs and improved service levels.</li>
-              </ul>
+              <UnorderedList arrName={outcomeData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Inventory Optimization & Enterprise Scheduling section */}
 
+      {/* Inventory Optimization & Enterprise Scheduling section */}
       <section>
         <div className=" xl:mt-0 h-auto custom-container xl:gap-16 xl:!pr-0">
           <div className="flex xl:flex-row flex-col xl:gap-16">
@@ -715,13 +720,7 @@ export default function Page() {
                 <h3 className="text-[#006CBC] font-bold leading-tight 4xl:text-[30px] xl:text-[23px] text-[20px]">
                   {block.title}
                 </h3>
-                <ul className="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                  {block.points.map((point, i) => (
-                    <li key={i} className="xl:mt-4 mt-2">
-                      {point}
-                    </li>
-                  ))}
-                </ul>
+                <UnorderedList arrName={block?.points} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 leading-tight" liClassName="text-[16px] xl:mt-4 mt-2 xl:text-[18px] 4xl:text-[20px]" />
               </div>
             ))}
           </div>
@@ -729,11 +728,9 @@ export default function Page() {
       </section>
 
       {/* End-to-End Scenario Planning section */}
-
       <section>
         <div className="bg-[#F2F2F2] mt-20 pb-10 xl:pb-0">
           <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-24 custom-container xl:!pr-0">
-            {/* Image: comes FIRST in HTML, but appears SECOND on desktop */}
             <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
               <div className="xl:block hidden">
                 <Image
@@ -759,7 +756,6 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Text: comes SECOND in HTML, but appears FIRST on desktop */}
             <div className="xl:col-span-5 col-span-12 order-2 xl:order-1 pb-20">
               <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px] mt-10 xl:mt-0 leading-tight xl:pt-20 4xl:w-[95%] xl:w-[90%] md:w-[85%] w-full pr-10 xl:pr-0">
                 End-to-End Scenario Planning
@@ -773,18 +769,12 @@ export default function Page() {
                 Kinaxis, ensuring that every business decision is backed by data
                 and foresight.
               </p>
-              <ul className="list-disc xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight">
-                <li className="mt-5">
-                  What-if simulations for supply chain disruptions.
-                </li>
-                <li>Financial impact analysis of operational decisions.</li>
-                <li>Collaborative scenario planning across stakeholders.</li>
-                <li>Risk mitigation strategies through proactive modeling.</li>
-              </ul>
+              <UnorderedList arrName={endToEndData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
             </div>
           </div>
         </div>
       </section>
+
       {/* AI & Data-Driven section */}
       <section className="relative pb-16 xl:py-20">
         <div className="lg:block hidden">
@@ -825,38 +815,13 @@ export default function Page() {
                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight xl:font-bold font-medium mt-10 xl:mt-0 xl:pr-0 2xl:pr-10">
                       Real-World AI Applications in Oracle EBS:
                     </h3>
-                    <ul className="list-disc xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight">
-                      <li className="mt-5 ">
-                        Predictive supply chain and demand forecasting.
-                      </li>
-                      <li>
-                        AI-powered customer service and order management.{" "}
-                      </li>
-                      <li>
-                        Machine learning algorithms for predictive maintenance.
-                      </li>
-                      <li>
-                        AI-based risk scoring for supplier and compliance risks.
-                      </li>
-                    </ul>
+                    <UnorderedList arrName={realWorldData} ulClassName="mt-5 list-disc xl:space-y-5 xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight" liClassName=" 4xl:text-[20px] xl:text-[18px] text-[16px]" />
                   </div>
                   <div className="md:mt-10 xl:mt-0">
                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] xl:font-bold font-medium pr-10 xl:pr-0">
                       Benefits of AI-Driven Oracle EBS:
                     </h3>
-                    <ul className="list-disc xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight">
-                      <li className="mt-5">
-                        Faster decision-making with real-time data.
-                      </li>
-                      <li>Reduced operational risks and disruptions. </li>
-                      <li>
-                        Higher accuracy in forecasts and financial projections.
-                      </li>
-                      <li>
-                        Improved customer experiences and faster issue
-                        resolution.
-                      </li>
-                    </ul>
+                    <UnorderedList arrName={aiDrivenData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                   </div>
                 </div>
               </div>
@@ -881,9 +846,8 @@ export default function Page() {
               {data.map((item, index) => (
                 <div
                   key={index}
-                  className={`flex xl:block items-start gap-6 ${
-                    index >= 3 ? "xl:mt-16" : ""
-                  }`}
+                  className={`flex xl:block items-start gap-6 ${index >= 3 ? "xl:mt-16" : ""
+                    }`}
                 >
                   <Image
                     src={item.img}

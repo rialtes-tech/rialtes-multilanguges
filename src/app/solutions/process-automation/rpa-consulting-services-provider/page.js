@@ -3,6 +3,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 
 
@@ -34,7 +35,6 @@ const featureBoxes = [
     },
 
 ];
-
 const featureBoxes2 = [
     {
         icon: "/images/uipath/manufcature.svg",
@@ -61,6 +61,98 @@ const featureBoxes2 = [
             "Order and customer service bots.",
     }
 ];
+const whyRpaData = [
+    "Seamless automation of repetitive, time-consuming tasks.",
+    "End-to-end integration with enterprise platforms like SAP, Salesforce, Oracle.",
+    "Rapid ROI and reduced operational costs.",
+    "Agility to scale as business grows.",
+]
+const aribaUseCases = [
+    "Automated vendor onboarding and updates.",
+    "Invoice processing and three-way matching automation.",
+    "Contract lifecycle management and approvals.",
+    "Compliance checks and audit readiness automation."
+]
+const aribaBenefits = [
+    "Accelerated procurement cycles.",
+    "Error-free supplier transactions.",
+    "Improved compliance and vendor satisfaction."
+]
+const s4hanaUseCases = [
+    "Order-to-cash automation — from order creation to invoicing.",
+    "Inventory and materials management updates.",
+    "Automated purchase order creation and validation.",
+    "Financial closing, reconciliation, and reporting."
+]
+const s4hanaBenefits = [
+    "Reduced manual data entry and errors.",
+    "Faster, streamlined ERP processes.",
+    "Enhanced compliance and data accuracy."
+]
+const successFactorUsecases = [
+    "Employee onboarding and offboarding automation.",
+    "Payroll and benefits data management.",
+    "Performance management tracking and reminders.",
+    "HR compliance document management.",
+]
+const successFactorBenefits = [
+    "Faster and smoother HR operations.",
+    "Enhanced employee onboarding experience.",
+    "Improved data accuracy and compliance.",
+]
+const salesforceUsecases = [
+    "Automated lead and opportunity management.",
+    "Customer case and service ticket processing.",
+    "Account and contact data enrichment.",
+    "Contract creation and customer onboarding automation.",
+]
+const salesforceBenefits = [
+    "Faster sales cycles.",
+    "Better customer service and engagement.",
+    "Real-time, accurate CRM data.",
+]
+const automativeIndustryData = [
+    "Dealer order automation.",
+    "Warranty claims and service request processing.",
+    " Parts supply chain and vendor management.",
+]
+const manufacturingData = [
+    "Procurement and supply chain automation.",
+    "Inventory updates and production scheduling.",
+    "Quality compliance and reporting.",
+]
+const retailData = [
+    "Customer order management and fulfillment.",
+    "Returns processing and inventory updates.",
+    "Pricing and product updates across platforms.",
+]
+const hrData = [
+    "Employee lifecycle automation (hire-to-retire).",
+    "Payroll, benefits, and compliance management."
+]
+const visualizationData = [
+    "Real-time bot performance dashboards.",
+    "Automation impact and ROI tracking.",
+    "Integrated insights from Data Cloud and Tableau/Qlik.",
+    "Bottleneck identification and continuous optimization.",
+]
+const aiEnhanceData = [
+    "Intelligent document processing (IDP) for contracts, invoices.",
+    "Natural Language Processing (NLP) for customer interactions.",
+    "Predictive analytics for proactive decision-making.",
+    "Automated compliance and risk monitoring.",
+]
+const provenData = [
+    "Agile sprint execution and transparent collaboration.",
+    "Delivery hubs in United States, Canada, Singapore, and India.",
+    "SAP-certified partner with deep integration and process knowledge.",
+]
+const whyRiatlesData = [
+    "Proven track record of enterprise RPA with SAP, Salesforce, Oracle.",
+    "Industry-specific accelerators for faster automation.",
+    "Full-spectrum services — strategy to support.",
+    "Focus on value, scalability, and rapid ROI. 24/7 monitoring and support for bots.",
+]
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -157,6 +249,7 @@ export default function DemandPlusSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
+            {/* hero section */}
             <section className="relative">
                 <div className="xl:block hidden">
                     <Image
@@ -164,11 +257,9 @@ export default function DemandPlusSection() {
                         alt="Tosca Banner desktop"
                         width={0}
                         height={0}
-
                         priority
                         sizes="100vw"
                         className="w-full"
-
                     />
                 </div>
                 <div className="xl:hidden block">
@@ -180,7 +271,6 @@ export default function DemandPlusSection() {
                         sizes="100vw"
                         width={0}
                         height={0}
-
                     />
                 </div>
 
@@ -201,6 +291,7 @@ export default function DemandPlusSection() {
 
                 </div>
             </section>
+            {/* page description */}
             <section className="custom-container xl:!pr-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10 items-center">
 
@@ -231,10 +322,9 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-
+            {/* why RPA section */}
             <section className="custom-container 4xl:!pr-[142px] 4xl:pl-[280px] max-md:px-0">
                 <div className="xl:grid-cols-12 grid">
-
                     <div className="xl:col-span-5 order-1 xl:order-2">
                         <Image
                             src="/images/uipath/desktop/why-rpa.webp"
@@ -252,17 +342,10 @@ export default function DemandPlusSection() {
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-normal 4xl:pr-20">
                             Enterprises today face enormous pressure to streamline processes, ensure compliance, and improve customer and employee experiences. UiPath RPA delivers:
                         </p>
-                        <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0 4xl:pr-20">
-                            <li>Seamless automation of repetitive, time-consuming tasks.</li>
-                            <li>End-to-end integration with enterprise platforms like SAP, Salesforce, Oracle.</li>
-                            <li>Rapid ROI and reduced operational costs.</li>
-                            <li>Agility to scale as business grows.</li>
-                        </ul>
+                        <UnorderedList arrName={whyRpaData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0 4xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
-
                 </div>
             </section>
-
             <section className="custom-container 4xl:!pr-[142px] 4xl:pl-[280px] mt-[-100px] 4xl:mt-0 xl:mt-0">
                 <div className="xl:grid-cols-12 grid">
                     <div className="xl:col-span-8 bg-[#163055] p-8">
@@ -271,7 +354,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-
+            {/* end to end section */}
             <section className="xl:mt-24 4xl:mt-24 mt-16 my-10 custom-container 4xl:pr-[464px] xl:pr-[200px]">
                 <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
                     Rialtes’ End-to-End RPA Services
@@ -290,6 +373,8 @@ export default function DemandPlusSection() {
                     ))}
                 </div>
             </section>
+
+            {/* pre configured section */}
             <section className="mt-24 my-10 custom-container 4xl:pr-[405px]">
                 <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
                     Pre-Configured Industry Accelerators
@@ -323,6 +408,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
+            {/* ariba section */}
             <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-4 xl:mt-20 4xl:mt-20 mb-32">
@@ -359,18 +445,9 @@ export default function DemandPlusSection() {
                         </h3>
                         <p className="mt-5 4xl:text-[22px] text-[16px]">Rialtes has deep expertise in automating procurement and supplier workflows in SAP Ariba using UiPath bots.</p>
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">Ariba Use Cases:</div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-1  font-medium marker:font-bold marker:text-2xl pl-5 4xl:text-[20px]  text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Automated vendor onboarding and updates.</li>
-                            <li>Invoice processing and three-way matching automation.</li>
-                            <li>Contract lifecycle management and approvals.</li>
-                            <li>Compliance checks and audit readiness automation.</li>
-                        </ul>
+                        <UnorderedList arrName={aribaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1  font-medium marker:font-bold marker:text-2xl pl-5  mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">Benefits:</div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Accelerated procurement cycles.</li>
-                            <li>Error-free supplier transactions.</li>
-                            <li>Improved compliance and vendor satisfaction.</li>
-                        </ul>
+                        <UnorderedList arrName={aribaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-5">
                             <LearnMore />
                         </div>
@@ -379,7 +456,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-
+            {/* sap s4hana section */}
             <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0">
                 <div className="grid xl:grid-cols-12">
 
@@ -421,29 +498,19 @@ export default function DemandPlusSection() {
                         <div className="4xl:mt-10 xl:mt-8 mt-10 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight">
                             S/4HANA Use Cases:
                         </div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Order-to-cash automation — from order creation to invoicing.</li>
-                            <li>Inventory and materials management updates.</li>
-                            <li>Automated purchase order creation and validation.</li>
-                            <li>Financial closing, reconciliation, and reporting.</li>
-                        </ul>
+                        <UnorderedList arrName={s4hanaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="4xl:mt-10 xl:mt-8 mt-10 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight">
                             Benefits:
                         </div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Reduced manual data entry and errors.</li>
-                            <li>Faster, streamlined ERP processes.</li>
-                            <li>Enhanced compliance and data accuracy.</li>
-                        </ul>
+                        <UnorderedList arrName={s4hanaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-5">
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
 
-
+            {/* success factor section */}
             <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12">
 
@@ -486,21 +553,12 @@ export default function DemandPlusSection() {
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">
                             SuccessFactors Use Cases:
                         </div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Employee onboarding and offboarding automation.</li>
-                            <li>Payroll and benefits data management.</li>
-                            <li>Performance management tracking and reminders.</li>
-                            <li>HR compliance document management.</li>
-                        </ul>
+                        <UnorderedList arrName={successFactorUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
 
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">
                             Benefits:
                         </div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Faster and smoother HR operations.</li>
-                            <li>Enhanced employee onboarding experience.</li>
-                            <li>Improved data accuracy and compliance.</li>
-                        </ul>
+                        <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
 
                         <div className="mt-5">
                             <LearnMore />
@@ -510,6 +568,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
+            {/* salesforce section */}
             <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0">
                 <div className="grid xl:grid-cols-12">
 
@@ -552,21 +611,15 @@ export default function DemandPlusSection() {
                         <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight mt-10">
                             Salesforce Use Cases:
                         </div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Automated lead and opportunity management.</li>
-                            <li>Customer case and service ticket processing.</li>
-                            <li>Account and contact data enrichment.</li>
-                            <li>Contract creation and customer onboarding automation.</li>
+                        <ul className="">
+
                         </ul>
+                        <UnorderedList arrName={salesforceUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
 
                         <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight mt-10">
                             Benefits:
                         </div>
-                        <ul className="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] mt-3 pr-12 xl:pr-0">
-                            <li>Faster sales cycles.</li>
-                            <li>Better customer service and engagement.</li>
-                            <li>Real-time, accurate CRM data.</li>
-                        </ul>
+                        <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
 
                         <div className="mt-10">
                             <LearnMore />
@@ -577,6 +630,7 @@ export default function DemandPlusSection() {
             </section>
 
 
+            {/* industry focused section */}
             <section className="relative 4xl:mt-32 xl:mt-32 mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 xl:pr-0 max-md:pr-0">
                 <div>
                     <Image
@@ -599,31 +653,19 @@ export default function DemandPlusSection() {
                         <div className="flex xl:gap-20 4xl:gap-20 gap-10 4xl:mt-14 mt-10 md:gap-0 xl:flex-row flex-col md:flex-row">
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Automotive Industry</h3>
-                                <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0">
-                                    <li>Dealer order automation.</li>
-                                    <li>Warranty claims and service request processing.</li>
-                                    <li> Parts supply chain and vendor management.</li>
-                                </ul>
+                                <UnorderedList arrName={automativeIndustryData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             </div>
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Manufacturing & Semiconductor</h3>
-                                <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0">
-                                    <li>Procurement and supply chain automation.</li>
-                                    <li>Inventory updates and production scheduling.</li>
-                                    <li>Quality compliance and reporting.</li>
-                                </ul>
-
+                                <UnorderedList arrName={manufacturingData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             </div>
 
                         </div>
                         <div className="flex xl:gap-20 4xl:gap-24 gap-10 md:gap-6 xl:flex-row flex-col 4xl:mt-16 xl:mt-16 mt-10 md:flex-row">
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Retail</h3>
-                                <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0">
-                                    <li>Customer order management and fulfillment.</li>
-                                    <li>Returns processing and inventory updates.</li>
-                                    <li>Pricing and product updates across platforms.</li>
-                                </ul>
+                                <UnorderedList arrName={retailData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+
                                 <div className="absolute 4xl:mt-5 xl:block hidden">
                                     <LearnMore />
                                 </div>
@@ -631,10 +673,9 @@ export default function DemandPlusSection() {
                             </div>
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">HR (Cross-Industry)</h3>
-                                <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0">
-                                    <li>Employee lifecycle automation (hire-to-retire).</li>
-                                    <li>Payroll, benefits, and compliance management.</li>
-                                </ul>
+
+                                <UnorderedList arrName={hrData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+
                                 <div className="absolute mt-5 xl:hidden block">
                                     <LearnMore />
                                 </div>
@@ -645,7 +686,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-
+            {/* data visualization section */}
             <section className="mt-24 custom-container 4xl:pr-[142px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20 4xl:gap-20">
                     <div className="xl:col-span-5 col-span-12">
@@ -661,16 +702,13 @@ export default function DemandPlusSection() {
                     </div>
                     <div className="xl:col-span-7 mt-16">
                         <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">Data Visualization & Analytics with UiPath + Tableau/Qlik + Data Cloud</h2>
-                        <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3  marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] font-medium text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0">
-                            <li>Real-time bot performance dashboards.</li>
-                            <li>Automation impact and ROI tracking.</li>
-                            <li>Integrated insights from Data Cloud and Tableau/Qlik.</li>
-                            <li>Bottleneck identification and continuous optimization.</li>
-                        </ul>
+                        <UnorderedList arrName={visualizationData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
 
                 </div>
             </section>
+
+            {/* ai enhaced section */}
             <section className="xl:mt-24 4xl:mt-24 mt-16 custom-container 4xl:pr-0 xl:pr-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
 
@@ -696,12 +734,7 @@ export default function DemandPlusSection() {
                         <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">
                             Rialtes integrates AI with UiPath bots to automate more intelligent, complex processes:
                         </p>
-                        <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5  mt-8 4xl:pr-16">
-                            <li>Intelligent document processing (IDP) for contracts, invoices.</li>
-                            <li>Natural Language Processing (NLP) for customer interactions.</li>
-                            <li>Predictive analytics for proactive decision-making.</li>
-                            <li>Automated compliance and risk monitoring.</li>
-                        </ul>
+                        <UnorderedList arrName={aiEnhanceData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5  mt-8 4xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="absolute mt-5 xl:mt-5">
                             <LearnMore />
                         </div>
@@ -710,7 +743,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-
+            {/* proven section */}
             <section className="mt-40 custom-container 4xl:pr-0 xl:pr-0 4xl:pl-[142px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
                     <div className="xl:col-span-5 4xl:ml-[35px]">
@@ -727,15 +760,8 @@ export default function DemandPlusSection() {
                     <div className="4xl:col-span-5 xl:col-span-6">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[40px] 4xl:pr-10 pt-10 xl:pt-0 4xl:pt-0">Proven Delivery with Global Reach & Agile Execution</h2>
                         <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">Rialtes’ certified SCRUM project managers and global delivery centers ensure seamless automation delivery:</p>
-                        <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-12 mt-5 4xl:pr-16">
-                            <li>Agile sprint execution and transparent collaboration..</li>
-                            <li>Delivery hubs in United States, Canada, Singapore, and India.</li>
-                            <li>SAP-certified partner with deep integration and process knowledge.</li>
-                        </ul>
-
+                        <UnorderedList arrName={provenData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-5 4xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
-
-
                 </div>
             </section>
 
@@ -771,31 +797,16 @@ export default function DemandPlusSection() {
                         <div className="flex xl:gap-20 xl:flex-row flex-col">
                             <div>
                                 <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">Why Rialtes for UiPath RPA?</h2>
-
                             </div>
                             <div>
-                                <ul className="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-8 xl:mt-5 pr-10 mt-8 xl:pr-0">
-                                    <li>Proven track record of enterprise RPA with SAP, Salesforce, Oracle.</li>
-                                    <li>Industry-specific accelerators for faster automation.</li>
-                                    <li>Full-spectrum services — strategy to support.</li>
-                                    <li>Focus on value, scalability, and rapid ROI. 24/7 monitoring and support for bots.</li>
-                                </ul>
-                                {/* <div className="absolute 4xl:mt-4 xl:mt-5">
-                                    <LearnMore />
-                                </div> */}
-
+                                <UnorderedList arrName={whyRiatlesData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-10 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </section>
 
-
-            <div className="mt-20
-             custom-container
-             pb-20">
+            <div className="mt-20 custom-container pb-20">
                 <ContactForm title={'Ready to Transform with UiPath RPA?'} subtitle={"Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation."} subtitle1={"Contact us today for a free automation assessment!"} className={"4xl:max-w-[58rem] xl:max-w-[44rem] leading-tight text-[26px] !font-light 4xl:text-[60px]  xl:text-[45px] pr-10 xl:pr-0"} />
             </div >
         </div>

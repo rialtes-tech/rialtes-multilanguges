@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Seo from "../../components/Seo";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 export default function Contact() {
 
@@ -143,6 +144,75 @@ export default function Contact() {
             {renderImageSection(regionalPartners)}
         </section>
     );
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "description": "Rialtes collaborates with leading technology providers to offer seamless digital transformation solutions.",
+        "knowsAbout": [
+            {
+                "@type": "Organization",
+                "name": "Adobe Sign",
+                "url": "https://www.adobe.com/sign",
+                "description": "Partnering for secure digital document signing solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "Amazon Web Services",
+                "url": "https://aws.amazon.com",
+                "description": "Cloud computing and infrastructure partner."
+            },
+            {
+                "@type": "Organization",
+                "name": "Automation Anywhere",
+                "url": "https://www.automationanywhere.com",
+                "description": "Providing intelligent automation and RPA solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "Salesforce",
+                "url": "https://www.salesforce.com",
+                "description": "Strategic partner for CRM and digital transformation solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "SAP",
+                "url": "https://www.sap.com",
+                "description": "Enterprise resource planning and business software partner."
+            },
+            {
+                "@type": "Organization",
+                "name": "Microsoft Azure",
+                "url": "https://azure.microsoft.com",
+                "description": "Cloud platform partner for scalable business solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "Azure DevOps",
+                "url": "https://azure.microsoft.com/en-us/products/devops/",
+                "description": "Supporting DevOps automation and CI/CD pipelines."
+            },
+            {
+                "@type": "Organization",
+                "name": "Conga",
+                "url": "https://www.conga.com",
+                "description": "Partnering for document generation and contract lifecycle management."
+            },
+            {
+                "@type": "Organization",
+                "name": "CallidusCloud",
+                "url": "https://www.sap.com/products/calliduscloud.html",
+                "description": "Sales performance management and CPQ solutions partner."
+            },
+            {
+                "@type": "Organization",
+                "name": "Bitbucket",
+                "url": "https://bitbucket.org",
+                "description": "Version control and software collaboration platform partner."
+            }
+        ]
+    }
     return (
         <div>
             <Seo
@@ -150,6 +220,13 @@ export default function Contact() {
                 description="Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success."
                 keywords="Partners, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/global-alliences/"}
+            />
+
+            <Script
+                id="schema-partners"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* <div className="relative">
                 <Image
@@ -171,16 +248,16 @@ export default function Contact() {
                 </div>
             </div> */}
 
- <HeroSection title="Global Alliances" subtitle="Our Partners" mobimg="/images/partners/partner 1.webp" deskimg="/images/partners/Partners banner (1).webp" extraImg="" />
-            
+            <HeroSection title="Global Alliances" subtitle="Our Partners" mobimg="/images/partners/partner 1.webp" deskimg="/images/partners/Partners banner (1).webp" extraImg="" />
+
             {/* //strategies section */}
 
             <section className="custom-container">
                 <div className="grid lg:grid-cols-2 mt-16 mb-16">
                     <div>
-                    <h1 className="xl:w-[60%] w-full">Our Strategic Partners</h1>
+                        <h1 className="xl:w-[60%] w-full">Our Strategic Partners</h1>
                     </div>
-                   
+
                     <p className="mt-5 xl:w-[75%] w-full">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
                 </div>
             </section>

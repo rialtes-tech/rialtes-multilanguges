@@ -1,6 +1,7 @@
 // module.exports = nextConfig;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  swcMinify: true,
   output: "export",
   images: { unoptimized: true },
   webpack: (config) => {
@@ -8,8 +9,6 @@ const nextConfig = {
     config.externals['react-google-recaptcha'] = 'commonjs react-google-recaptcha';
     return config;
   },
-  
-
 };
 
 export default nextConfig;

@@ -1,7 +1,14 @@
 "use client";
+import Script from "next/script";
 // pages/case-study-detail.js
 import Seo from "../components/Seo";
 export default function Page() {
+      const schemaData = {
+          "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Privacy Policy",
+  "description": "This page explains Rialtes' policies on data privacy and user information protection."
+      }
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -12,6 +19,12 @@ export default function Page() {
             />
 
 
+            <Script
+                id="schema-privacy"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section
                 className="custom-container  "

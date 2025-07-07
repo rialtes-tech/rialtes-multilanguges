@@ -26,7 +26,7 @@ export default function servicesInsightsCarousel({ padding }) {
       date: "21 Oct 2024",
       url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
       title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-  },
+    },
     // {
     //   id: 3,
     //   image: "/images/blog/blog-3-long-thumb.webp",
@@ -45,7 +45,7 @@ export default function servicesInsightsCarousel({ padding }) {
       date: "25 Nov 2024",
       url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
       title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-  },
+    },
     // {
     //   id: 5,
     //   image: "/images/blog/blog-5-long-thumb.webp",
@@ -83,68 +83,7 @@ export default function servicesInsightsCarousel({ padding }) {
       date: "17 Sept 2024",
       url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
       title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-  },
-    // {
-    //   id: 9,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "Diversity & Inclusion",
-    //   industry: "Human Resources",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    // {
-    //   id: 10,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "SAP GTS",
-    //   industry: "Generic",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    // {
-    //   id: 11,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "Salesforce Agentforce",
-    //   industry: "Generic",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    // {
-    //   id: 12,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "Salesforce Agentforce",
-    //   industry: "Generic",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    // {
-    //   id: 13,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "SAP SuccessFactors",
-    //   industry: "Human Resources",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    // {
-    //   id: 14,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "Salesforce Agentforce",
-    //   industry: "Generic",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    
+    },
   ];
 
   const responsive = {
@@ -201,9 +140,9 @@ export default function servicesInsightsCarousel({ padding }) {
 
   return (
     <section className="relative pb-8 bg-white">
-      <div className={"container mx-auto "+ padding ? padding : ''}>
+      <div className={"container mx-auto " + padding ? padding : ''}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Insights</h2>
+          <h2 className="text-black mb-[60px] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Insights</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -220,7 +159,7 @@ export default function servicesInsightsCarousel({ padding }) {
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style !justify-start flex-wrap"
-          itemClass="carousel-item-padding-40-px"
+          itemClass="carousel-item-padding-40-px mb-[30px]"
           partialVisible={true}
           arrows={false}
           renderButtonGroupOutside={true}
@@ -231,21 +170,18 @@ export default function servicesInsightsCarousel({ padding }) {
           {slides?.map((slide) => (
             <div
               key={slide.id}
-              className={`flex md:flex-row flex-col 
- sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}
-            >
+              className={`flex md:flex-row flex-col sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}>
               <div className="min-w-full relative">
-                
-                  <Image
-                    src={slide.image}
-                    alt={slide.title}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                  />
-                
+                <Image
+                  src={slide.image}
+                  alt={slide.title}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  priority
+                />
+
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
                   <span className="line-clamp-4 md:line-clamp-4 font-medium text-[18px] xl:text-[22px] 4xl:text-[26px] leading-tight">{slide.category}</span>
                 </div>

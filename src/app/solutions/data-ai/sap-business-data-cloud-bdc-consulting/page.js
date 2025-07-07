@@ -3,7 +3,6 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
-import { HeroSection } from "@/app/components/herosection";
 import ContactForm from "../../../components/contactform";
 import Script from "next/script";
 
