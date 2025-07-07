@@ -11,7 +11,7 @@ const schemaData = {
     "@type": "WebPage",
     "@id": "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
   },
-  "headline": "Case Study: Yardi Implementation and 5 Years of Successful AMS Journey with Largest PHA in North America",
+  "headline": "Case Study: Trusted YARDI Partner for North America’s Largest PHA",
   "description": "Explore how Rialtes partnered with North America’s largest PHA for a full-scale Yardi implementation and provided 5 years of robust AMS support, ensuring operational excellence and compliance.",
   "image": "https://www.rialtes.com/images/case-studies/case-study-5.webp",
   "author": {
@@ -27,9 +27,7 @@ const schemaData = {
     }
   },
   "articleSection": "Case Studies",
-  "datePublished": "2024-09-27"
-
-}
+  "datePublished": "2024-09-27"}
 
 const slides = [
   {

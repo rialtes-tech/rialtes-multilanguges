@@ -6,7 +6,6 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
 const schemaData={
   
@@ -582,6 +581,13 @@ export default function Page() {
         description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
         canonical="https://www.rialtes.com/insights/blogs/"
       />
+        <Script
+        id="schema-blogs"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
         {/* Desktop Image */}
         <div className="hidden md:block">
@@ -595,13 +601,7 @@ export default function Page() {
           />
         </div>
  
-         <Script
-        id="schema-blogs"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-
+       
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
