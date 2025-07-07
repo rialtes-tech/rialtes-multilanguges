@@ -107,14 +107,12 @@ const schemaData = {
   },
   "url": "https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
 }
-
 const thoughtData = [
   "Fab process integration with enterprise systems for yield, cost, and quality control.",
   "Managing complex compliance, datasheet generation, and safety certifications across global markets.",
   "Enabling contract manufacturing, packaging, testing, and supply chain orchestration.",
   "AI-driven design, validation, and production optimization across the semiconductor lifecycle.",
 ]
-
 const endToEndData = [
   {
     title: "Customer Specification and Initial Design",
@@ -165,14 +163,12 @@ const endToEndData = [
   },
 
 ]
-
 const semiconductorFoundryData = [
   "Foundry outsourcing and wafer supply chain visibility.",
   "Assembly and test service provider (ATSP) integration.",
   "Managing supply risks, quality control, and compliance across partners.",
   "Real-time insights into production cycle times and capacity.",
 ]
-
 const commonSectionData = [
   {
     title: "SAP S/4 HANA for Semiconductor Manufacturing Excellence",
@@ -216,7 +212,6 @@ const commonSectionData = [
     deskImg: "/images/industry/semi-conductor/unified-desk.webp"
   },
 ]
-
 const keyAreasData = [
   {
     title: "AI-Powered Chip Design & Verification",
@@ -263,7 +258,6 @@ const keyAreasData = [
     deskImg: "/images/industry/semi-conductor/ai-test-desk.webp"
   },
 ]
-
 const summaryData = [
   "Accelerates chip design and reduces tape-out risks.",
   "Increases fab yield and reduces downtime, saving millions in production losses.",
@@ -271,7 +265,6 @@ const summaryData = [
   "Enhances customer relationships and accelerates time-to-revenue through smarter sales enablement.",
   "Improves final product quality through intelligent testing and validation."
 ]
-
 const keyPillarsData = [
   {
     id: 1,
@@ -327,7 +320,6 @@ const keyPillarsData = [
     ]
   },
 ]
-
 const endSemiconductorData = [
   "Faster deal cycles and reduced time to market for new design wins.",
   "Increased partner satisfaction and deeper partner engagement. ",
@@ -335,7 +327,6 @@ const endSemiconductorData = [
   "Regulatory and IP compliance assurance throughout the deal lifecycle.",
   "Tight integration of engineering and sales collaboration, ensuring technical accuracy and customer satisfaction.",
 ]
-
 const rialtesData = [
   "20+ years of real semiconductor industry experience.",
   "Fortune 500-level process and technology expertise.",
@@ -343,7 +334,6 @@ const rialtesData = [
   "AI and Data-first approach for competitive advantage.",
   "Proven track record in delivering complex, large-scale transformation."
 ]
-
 const strategicData = [
   {
     id: '1',
@@ -382,7 +372,6 @@ const strategicData = [
     ]
   },
 ]
-
 const keyReasonsData = [
   {
     id: "1",
@@ -455,18 +444,15 @@ const keyReasonsData = [
     bgColor: "#EFF0D5"
   },
 ]
-
 export default function Page() {
   return (
     <section className="min-h-screen bg-white">
-
       <Seo
         title="Semiconductor Industry: Digital Solutions That Scale | Rialtes"
         description=" Explore semiconductor industry IT solutions with SAP and Salesforce to streamline chip design, testing, partner collaboration, and customer engagement."
         canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
       />
-     
-           <Script
+      <Script
         id="schema-hitech"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -514,10 +500,13 @@ export default function Page() {
 
       {/* page description section */}
       <section className="custom-container xl:mt-[131px] mt-[62px]">
-        <p className="xl:text-[22px] text-[16px] leading-tight xl:w-[80%] 4xl:w-[70%] w-[90%] font-normal">
-          The Semiconductor industry lies at the heart of modern technology — from automotive to consumer electronics, telecom to industrial applications. As the industry navigates ever-shrinking geometries, complex fabrication (fab) processes, global supply chain pressures, and emerging AI and IoT demands, it requires a new class of enterprise solutions to manage design, production, compliance, and customer collaboration seamlessly.
+        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-full">
+          Powering Semiconductor Innovation with Intelligent Enterprise Solutions
+        </h2>
+        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
+          The semiconductor industry is evolving fast, driven by AI, IoT, and global supply chain demands. Rialtes helps semiconductor companies stay ahead with SAP and Salesforce-powered solutions that streamline design, production, compliance, and customer collaboration.
           <br /><br />
-          Rialtes is a certified SAP and Salesforce consulting partner, enabling semiconductor companies to thrive with cutting-edge, AI-driven, end-to-end enterprise solutions, combining business advisory, implementation, design, quality assurance, integration, and post-go-live support.
+          As a certified consulting partner, we deliver end-to-end services across advisory, implementation, integration, and post-go-live support.
         </p>
       </section>
 
