@@ -6,6 +6,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -176,21 +177,23 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
         image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />
-      <script
+      
+         <Script
+        id="schema-agr-4"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/agriculture-4.0-digital-farming.webp "
-          alt="Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?"
+          alt="Drone hovering over agricultural crops, showcasing the future of farming with digital innovations"
           fill
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}
           priority
         />
       </section>
-
       <section
         className="custom-container "
       >

@@ -73,8 +73,7 @@ const page = () => (
     />
     {/* hero section */}
 
-
-    <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
+  <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
       {/* Desktop Image */}
       <div className="hidden md:block">
         <Image

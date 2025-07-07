@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData={
     "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -172,15 +173,17 @@ export default function Page() {
         description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
-        <script
+         <Script
+        id="schema-how-sap"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/successfactors-remote-work.webp"
-          alt="How SAP SuccessFactors Enhances Remote Work Management"
+          alt="Discover SAP SuccessFactors' role in remote work management, shown with hands on a laptop against a sleek blue backdrop."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority
@@ -278,16 +281,16 @@ export default function Page() {
                 <li>Increased security risks and the need for robust data protection for remote workers.</li>
               </ul> */}
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li>Misaligned communication and collaboration between in-office and remote employees.</li></p>
-                <p className="text-black pb-4"> <li>Challenges in ensuring equal participation during hybrid meetings.</li></p>
-                <p className="text-black pb-4"><li>Managing office space and overhead costs for hybrid teams.</li></p>
-                <p className="text-black pb-4"> <li>Collaboration and management hurdles in distributed teams.</li></p>
-                <p className="text-black pb-4"><li>Providing a consistent employee experience for all workers.</li></p>
-                <p className="text-black pb-4 "><li>Addressing work-life balance and health issues for remote employees.</li></p>
-                <p className="text-black pb-4 "><li>Limited access to self-service tools for remote employees.</li></p>
-                <p className="text-black pb-4 "><li>Complex payroll management across multiple locations and regulations.</li></p>
-                <p className="text-black pb-4"><li>Increased security risks and the need for robust data protection for remote workers.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                 <li className="pb-2">Misaligned communication and collaboration between in-office and remote employees.</li>
+                 <li className="pb-2">Challenges in ensuring equal participation during hybrid meetings.</li>
+                <li className="pb-2">Managing office space and overhead costs for hybrid teams.</li>
+                 <li className="pb-2">Collaboration and management hurdles in distributed teams.</li>
+                <li className="pb-2">Providing a consistent employee experience for all workers.</li>
+                <li className="pb-2">Addressing work-life balance and health issues for remote employees.</li>
+                <li className="pb-2">Limited access to self-service tools for remote employees.</li>
+                <li className="pb-2">Complex payroll management across multiple locations and regulations.</li>
+                <li>Increased security risks and the need for robust data protection for remote workers.</li>
               </ul>
             </div>
 
@@ -306,10 +309,10 @@ export default function Page() {
                 <li><span className="font-bold">Offboarding Made Easy:</span> The platform facilitates structured offboarding workflows to manage exits smoothly while safeguarding company assets and knowledge.</li>
               </ul> */}
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Digital Document Management </h4>: Employees can complete paperwork, review policies, and sign documents online.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Customized Onboarding Plans </h4>: Tailored learning paths and checklists help new hires integrate quickly, even from remote locations.</li></p>
-                <p className="text-black pb-8 "><li><h4 className="inline">Offboarding Made Easy </h4>: The platform facilitates structured offboarding workflows to manage exits smoothly while safeguarding company assets and knowledge.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+ <li className="pb-2"><h4 className="inline">Digital Document Management </h4>: Employees can complete paperwork, review policies, and sign documents online.</li>
+<li className="pb-2"><h4 className="inline">Customized Onboarding Plans </h4>: Tailored learning paths and checklists help new hires integrate quickly, even from remote locations.</li>
+               <li><h4 className="inline">Offboarding Made Easy </h4>: The platform facilitates structured offboarding workflows to manage exits smoothly while safeguarding company assets and knowledge.</li>
               </ul>
             </div>
 
@@ -324,10 +327,10 @@ export default function Page() {
                 <li><span className="font-bold">Performance Reviews:</span> Automated reminders and templates make appraisal processes consistent and efficient.</li>
               </ul> */}
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Continuous Feedback Tools </h4>:  Managers can provide real-time feedback, fostering better communication and goal alignment.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Goal Setting and Tracking </h4>: Employees and managers can set measurable objectives and monitor progress using intuitive dashboards.</li></p>
-                <p className="text-black pb-8"><li><h4 className="inline">Performance Reviews </h4>: Automated reminders and templates make appraisal processes consistent and efficient.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline">Continuous Feedback Tools </h4>:  Managers can provide real-time feedback, fostering better communication and goal alignment.</li>
+              <li className="pb-2"><h4 className="inline">Goal Setting and Tracking </h4>: Employees and managers can set measurable objectives and monitor progress using intuitive dashboards.</li>
+                <li><h4 className="inline">Performance Reviews </h4>: Automated reminders and templates make appraisal processes consistent and efficient.</li>
               </ul>
             </div>
 
@@ -341,10 +344,10 @@ export default function Page() {
               <li><span className="font-bold">Gamification:</span> Engaging tools like badges and leaderboards enhance participation and motivation.</li>
             </ul> */}
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Virtual Learning Options </h4>:  Access to e-learning modules, webinars, and certifications empowers employees to upskill remotely.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">AI-driven recommendations </h4>: Personalized learning paths based on role, goals, and performance history.</li></p>
-                <p className="text-black pb-8"><li><h4 className="inline">Gamification </h4>: Engaging tools like badges and leaderboards enhance participation and motivation.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline">Virtual Learning Options </h4>:  Access to e-learning modules, webinars, and certifications empowers employees to upskill remotely.</li>
+                <li className="pb-2"><h4 className="inline">AI-driven recommendations </h4>: Personalized learning paths based on role, goals, and performance history.</li>
+                <li><h4 className="inline">Gamification </h4>: Engaging tools like badges and leaderboards enhance participation and motivation.</li>
               </ul>
             </div>
 
@@ -360,10 +363,10 @@ export default function Page() {
               <li><span className="font-bold">Notifications and Updates:</span> Real-time alerts keep employees informed about company news and policy changes.</li>
             </ul> */}
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Integration with Microsoft Teams and Slack </h4>:  Employees can access training, feedback, and performance data within their preferred platforms.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Social Learning Tools </h4>: Peer-to-peer learning and discussion boards create a sense of community despite physical distance.</li></p>
-                <p className="text-black pb-8"><li><h4 className="inline">Notifications and Updates </h4>: Real-time alerts keep employees informed about company news and policy changes.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline">Integration with Microsoft Teams and Slack </h4>:  Employees can access training, feedback, and performance data within their preferred platforms.</li>
+                <li className="pb-2"><h4 className="inline">Social Learning Tools </h4>: Peer-to-peer learning and discussion boards create a sense of community despite physical distance.</li>
+                <li><h4 className="inline">Notifications and Updates </h4>: Real-time alerts keep employees informed about company news and policy changes.</li>
               </ul>
             </div>
 
@@ -379,10 +382,10 @@ export default function Page() {
               <li><span className="font-bold">Compliance Tracking:</span> Ensure adherence to labor laws and data security regulations across geographies.</li>
             </ul> */}
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Analytics Dashboards </h4>:  Detailed reports on productivity, engagement, and turnover trends.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Predictive Analytics </h4>: Tools to forecast staffing needs, identify skill gaps, and measure remote work effectiveness.</li></p>
-                <p className="text-black pb-8"><li><h4 className="inline">Compliance Tracking </h4>: Ensure adherence to labor laws and data security regulations across geographies.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                 <li className="pb-2"><h4 className="inline">Analytics Dashboards </h4>:  Detailed reports on productivity, engagement, and turnover trends.</li>
+                <li className="pb-2"><h4 className="inline">Predictive Analytics </h4>: Tools to forecast staffing needs, identify skill gaps, and measure remote work effectiveness.</li>
+               <li><h4 className="inline">Compliance Tracking </h4>: Ensure adherence to labor laws and data security regulations across geographies.</li>
               </ul>
             </div>
 
@@ -397,10 +400,10 @@ export default function Page() {
               <li><span className="font-bold">Recognition Tools:</span> Virtual shout-outs and rewards to celebrate achievements and boost morale.</li>
             </ul> */}
              <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Pulse Surveys </h4>:  Regular surveys to gauge employee morale and identify areas for improvement.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Well-being Programs </h4>: Access to mental health resources, wellness training, and flexible work arrangements.</li></p>
-                <p className="text-black pb-8"><li><h4 className="inline">Recognition Tools </h4>:  Virtual shout-outs and rewards to celebrate achievements and boost morale.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-8 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><h4 className="inline">Pulse Surveys </h4>:  Regular surveys to gauge employee morale and identify areas for improvement.</li>
+               <li className="pb-2"><h4 className="inline">Well-being Programs </h4>: Access to mental health resources, wellness training, and flexible work arrangements.</li>
+                <li><h4 className="inline">Recognition Tools </h4>:  Virtual shout-outs and rewards to celebrate achievements and boost morale.</li>
               </ul>
             </div>
 
@@ -415,10 +418,10 @@ export default function Page() {
               <li><span className="font-bold">Adaptable Workflows:</span> Configure processes to fit unique organizational needs.</li>
             </ul> */}
              <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"> <li><h4 className="inline">Employee Central </h4>:  A central hub for managing remote employee data.</li></p>
-                <p className="text-black pb-4"><li><h4 className="inline">Time and Attendance Management </h4>: Track hours, leaves, and schedules without manual intervention.</li></p>
-                <p className="text-black  "><li><h4 className="inline">Adaptable Workflows </h4>:  Configure processes to fit unique organizational needs.</li></p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                 <li className="pb-2"><h4 className="inline">Employee Central </h4>:  A central hub for managing remote employee data.</li>
+                <li className="pb-2"><h4 className="inline">Time and Attendance Management </h4>: Track hours, leaves, and schedules without manual intervention.</li>
+               <li><h4 className="inline">Adaptable Workflows </h4>:  Configure processes to fit unique organizational needs.</li>
               </ul>
             </div>
 

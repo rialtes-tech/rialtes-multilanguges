@@ -6,6 +6,7 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import { HeroSection } from "@/app/components/herosection";
 import LearnMore from "@/app/components/learnMore";
+import Script from "next/script";
 
 const schemaData={
     
@@ -160,8 +161,11 @@ export default function Page() {
                 description="Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage."
                 canonical="https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
             />
-  <script
+  
+           <Script
+        id="schema-medical"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

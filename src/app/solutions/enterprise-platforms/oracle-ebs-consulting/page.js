@@ -3,6 +3,8 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -252,8 +254,11 @@ export default function Page() {
         description="Oracle EBS Consulting Services and Solutions by Rialtes' OracleEBS+ deliver smarter ERP performance, increased agility, and innovation-driven business growth."
         canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
       />
-      <script
+      
+              <Script
+        id="schema-oracle"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* Header Section */}

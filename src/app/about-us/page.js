@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-import Head from 'next/head';
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -93,10 +93,13 @@ export default function About() {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/"}
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+         
+               <Script
+        id="schema-about"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative">
                 <div
                     className="custom-container lg:!pr-0 overflow-hidden max-md:px-0"

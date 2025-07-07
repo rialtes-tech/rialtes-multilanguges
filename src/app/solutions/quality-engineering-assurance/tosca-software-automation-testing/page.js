@@ -4,6 +4,8 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
+
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -167,8 +169,11 @@ export default function DemandPlusSection() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
             />
-            <script
+
+            <Script
+                id="schema-toska"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 

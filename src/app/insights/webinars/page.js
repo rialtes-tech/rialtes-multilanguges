@@ -2,9 +2,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { SlControlPlay } from "react-icons/sl";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 
 const schemaData = {
 
@@ -60,23 +60,23 @@ const webinars = [
 ];
 
 const allWebinars = [
-   {
-    id: 5,
+  {
+    id: 6,
     title: "CIG, Your Gateway to SAP Ariba",
     date: "10 June, 2025",
     time: "10:00 AM CST",
-      speaker: "Sapna Chauhan",
-      position: "Software Engineer - SAP",
+    speaker: "Sapna Chauhan",
+    position: "Software Engineer - SAP",
     image: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
     url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
   },
   {
-    id: 4,
+    id: 5,
     title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
     date: "June 03, 2025",
     time: "10:00 AM CST",
-      speaker: "Anuraag Aggarwal",
-      position: "Vice President of Global Sales",
+    speaker: "Anuraag Aggarwal",
+    position: "Vice President of Global Sales",
     image: "/images/webinar/rise.webp",
     url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes'
   },
@@ -195,8 +195,6 @@ export default function About() {
   const [isTablet, setIsTablet] = useState(false);
   const carouselRef = useRef(null);
   const [hoveredBlog, setHoveredBlog] = useState(null);
-  const [isRouterReady, setIsRouterReady] = useState(false);
-  const router = useRouter();
 
   const [visibleCount, setVisibleCount] = useState(3);
 
@@ -207,10 +205,6 @@ export default function About() {
   const visibleWebinars = allWebinars.slice(0, visibleCount);
 
   const hasMore = visibleCount < allWebinars.length;
-
-  useEffect(() => {
-    setIsRouterReady(true);
-  }, []);
 
   const handleMouseEnter = (blogName) => {
     return () => {
@@ -224,13 +218,6 @@ export default function About() {
     };
   };
 
-  const handleClick = (blogName) => {
-    return () => {
-      if (isRouterReady) {
-        router.push(blogName);
-      }
-    };
-  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -283,14 +270,17 @@ export default function About() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes" 
+        title="SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes"
         description="Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy."
         canonical="https://www.rialtes.com/insights/webinars/"
       />
-      <script
+      <Script
+        id="webinar-schema"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">-
         <Image
           src="/images/webinar/webinar-header.webp"
@@ -316,24 +306,177 @@ export default function About() {
         className="custom-container xl:!pr-0"
       >
         {webinars.length > 0 && (
-        <section className="py-16 bg-white">
-          <div>
-            <h2 className="xl:text-[28px]  font-medium">Deep Dive with Experts-Led Webinars Curated to Drive Results</h2>
-            <p className="text-[#000000] text-[22px]  py-6 max-w-5xl mb-12 font-normal leading-tight">
+          <section className="py-16 bg-white">
+            <div>
+              <h2 className="xl:text-[28px]  font-medium">Deep Dive with Experts-Led Webinars Curated to Drive Results</h2>
+              <p className="text-[#000000] text-[22px]  py-6 max-w-5xl mb-12 font-normal leading-tight">
 
-              Our webinar series brings together industry leaders, seasoned consultants, and technology specialists for deep-dive conversations that move beyond theory into real-world impact. Whether you're navigating a digital transformation, optimizing your ERP systems, or exploring the frontiers of AI and automation, these sessions are designed to equip you with insights that put you on the right path.            </p>
+                Our webinar series brings together industry leaders, seasoned consultants, and technology specialists for deep-dive conversations that move beyond theory into real-world impact. Whether you're navigating a digital transformation, optimizing your ERP systems, or exploring the frontiers of AI and automation, these sessions are designed to equip you with insights that put you on the right path.            </p>
 
-            <div className="w-full">
-              <div className="flex items-center mb-6 justify-between">
-                <h2 className="w-full md:w-3/4 xl:text-[40px] 4xl:text-[56px]">Upcoming Webinars</h2>
+              <div className="w-full">
+                <div className="flex items-center mb-6 justify-between">
+                  <h2 className="w-full md:w-3/4 xl:text-[40px] 4xl:text-[56px]">Upcoming Webinars</h2>
 
-                <div className="w-1/4 hidden sm:block">
-                  <div className="h-full flex gap-10">
+                  <div className="w-1/4 hidden sm:block">
+                    <div className="h-full flex gap-10">
+                      <SlControlPlay
+                        onClick={prevSlide}
+                        disabled={currentIndex === 0}
+                        style={{
+                          color: "#707070",
+                          height: "100px",
+                          width: "30px",
+                          transition: "transform 0.3s ease",
+                        }}
+                        className={`${currentIndex === 0
+                          ? "opacity-50 cursor-not-allowed"
+                          : "opacity-100 cursor-pointer"
+                          } ${"rotate-180 hover:fill-current"}`}
+                      />
+                      <SlControlPlay
+                        onClick={nextSlide}
+                        disabled={currentIndex === webinars.length - 1}
+                        style={{
+                          color: "#707070",
+                          height: "100px",
+                          width: "30px",
+                          transition: "transform 0.3s ease",
+                        }}
+                        className={`${currentIndex === webinars.length - 1
+                          ? "opacity-50 cursor-not-allowed"
+                          : "opacity-100 cursor-pointer"
+                          } ${"hover:fill-current"}`}
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="relative overflow-hidden" ref={carouselRef}>
+                  <div
+                    className="flex transition-transform duration-500 ease-in-out"
+                    style={{
+                      transform: `translateX(-${getTransformDistance()}%)`,
+                    }}
+                  >
+                    {webinars.map((webinar, index) => (
+                      <div
+                        key={webinar.id}
+                        style={{
+                          width: `${getSlideWidth()}%`,
+                          paddingRight: `${getPeekWidth()}%`,
+                          flexShrink: 0,
+                        }}
+                      >
+                        <Link href={'/' + webinar.url}>
+                          <div
+                            className="flex flex-col md:flex-row bg-white h-[600px] md:h-[400px]"
+                            onMouseEnter={handleMouseEnter(webinar.id)}
+                            onMouseLeave={handleMouseLeave(webinar.id)}
+                            style={{
+                              transition: "background-color 0.3s ease",
+                              backgroundColor:
+                                hoveredBlog === webinar.id
+                                  ? "#f1f1f1"
+                                  : "transparent",
+                              border:
+                                hoveredBlog === webinar.id
+                                  ? "1px solid #a6a6a6"
+                                  : "",
+                              cursor: "pointer",
+                              width: "100%",
+                            }}
+                          >
+                            <div key={index} className="w-full md:w-2/5 relative min-h-[250px] md:h-full overflow-hidden">
+
+                              <div
+                                className="h-full w-full"
+                                style={{
+                                  transition: "transform 0.3s ease",
+                                  transform:
+                                    hoveredBlog === webinar.id
+                                      ? "scale(1.05)"
+                                      : "scale(1)",
+                                }}
+                              >
+
+
+                                <Image
+                                  src={webinar.backgroundImage}
+                                  alt={`${webinar.title} background`}
+                                  fill
+                                  style={{ objectFit: "cover" }}
+                                />
+
+                              </div>
+                            </div>
+
+                            <div className="w-full md:w-3/5 p-4 md:p-4 xl:p-12 flex flex-col justify-between h-full">
+                              <div>
+                                <h3 className="text-[#134874] mb-4 max-w-xl">
+                                  {webinar.title}
+                                </h3>
+
+                                <div className="mb-6">
+                                  <p className="text-gray-700">{webinar.date}</p>
+                                  <p className="text-gray-700">{webinar.time}</p>
+                                </div>
+                              </div>
+
+                              <div className="flex items-center">
+                                <div className="w-24 h-24 overflow-hidden mr-4 flex-shrink-0 border border-gray-200 relative">
+                                  <Image
+                                    src={webinar.speaker.image}
+                                    alt={webinar.speaker.name}
+                                    fill
+                                    style={{ objectFit: "cover" }}
+                                  />
+                                </div>
+                                <div>
+                                  <p className="font-semibold">
+                                    {webinar.speaker.name}
+                                  </p>
+                                  <p className="text-sm text-gray-600">
+                                    {webinar.speaker.role}
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </Link>
+                      </div>
+                    ))}
+
+                    <div
+                      style={{
+                        width: `${getPeekWidth()}%`,
+                        flexShrink: 0,
+                        visibility: "hidden",
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div className="flex justify-start mt-6 space-x-2">
+                  {webinars.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => goToSlide(index)}
+                      className={`h-1 rounded-full transition-all duration-300 ${index === currentIndex
+                        ? "w-12 bg-[#134874]"
+                        : "w-12 bg-gray-300"
+                        }`}
+                      aria-label={`Go to webinar ${index + 1}`}
+                    />
+                  ))}
+                </div>
+                <div className="block sm:hidden mt-2">
+                  {" "}
+                  <div className="w-2/5 h-full flex gap-10">
                     <SlControlPlay
                       onClick={prevSlide}
                       disabled={currentIndex === 0}
                       style={{
-                        color: "#707070",
                         height: "100px",
                         width: "30px",
                         transition: "transform 0.3s ease",
@@ -347,7 +490,6 @@ export default function About() {
                       onClick={nextSlide}
                       disabled={currentIndex === webinars.length - 1}
                       style={{
-                        color: "#707070",
                         height: "100px",
                         width: "30px",
                         transition: "transform 0.3s ease",
@@ -360,248 +502,96 @@ export default function About() {
                   </div>
                 </div>
               </div>
-
-              <div className="relative overflow-hidden" ref={carouselRef}>
-                <div
-                  className="flex transition-transform duration-500 ease-in-out"
-                  style={{
-                    transform: `translateX(-${getTransformDistance()}%)`,
-                  }}
-                >
-                  {webinars.map((webinar, index) => (
-                    <div
-                      key={webinar.id}
-                      style={{
-                        width: `${getSlideWidth()}%`,
-                        paddingRight: `${getPeekWidth()}%`,
-                        flexShrink: 0,
-                      }}
-                    >
-                      <Link href={'/' + webinar.url}>
-                        <div
-                          className="flex flex-col md:flex-row bg-white h-[600px] md:h-[400px]"
-                          onMouseEnter={handleMouseEnter(webinar.id)}
-                          onMouseLeave={handleMouseLeave(webinar.id)}
-                          style={{
-                            transition: "background-color 0.3s ease",
-                            backgroundColor:
-                              hoveredBlog === webinar.id
-                                ? "#f1f1f1"
-                                : "transparent",
-                            border:
-                              hoveredBlog === webinar.id
-                                ? "1px solid #a6a6a6"
-                                : "",
-                            cursor: "pointer",
-                            width: "100%",
-                          }}
-                        >
-                          <div key={index} className="w-full md:w-2/5 relative min-h-[250px] md:h-full overflow-hidden">
-
-                            <div
-                              className="h-full w-full"
-                              style={{
-                                transition: "transform 0.3s ease",
-                                transform:
-                                  hoveredBlog === webinar.id
-                                    ? "scale(1.05)"
-                                    : "scale(1)",
-                              }}
-                            >
-
-
-                              <Image
-                                src={webinar.backgroundImage}
-                                alt={`${webinar.title} background`}
-                                fill
-                                style={{ objectFit: "cover" }}
-                              />
-
-                            </div>
-                          </div>
-
-                          <div className="w-full md:w-3/5 p-4 md:p-4 xl:p-12 flex flex-col justify-between h-full">
-                            <div>
-                              <h3 className="text-[#134874] mb-4 max-w-xl">
-                                {webinar.title}
-                              </h3>
-
-                              <div className="mb-6">
-                                <p className="text-gray-700">{webinar.date}</p>
-                                <p className="text-gray-700">{webinar.time}</p>
-                              </div>
-                            </div>
-
-                            <div className="flex items-center">
-                              <div className="w-24 h-24 overflow-hidden mr-4 flex-shrink-0 border border-gray-200 relative">
-                                <Image
-                                  src={webinar.speaker.image}
-                                  alt={webinar.speaker.name}
-                                  fill
-                                  style={{ objectFit: "cover" }}
-                                />
-                              </div>
-                              <div>
-                                <p className="font-semibold">
-                                  {webinar.speaker.name}
-                                </p>
-                                <p className="text-sm text-gray-600">
-                                  {webinar.speaker.role}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                      </Link>
-                    </div>
-                  ))}
-
-                  <div
-                    style={{
-                      width: `${getPeekWidth()}%`,
-                      flexShrink: 0,
-                      visibility: "hidden",
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="flex justify-start mt-6 space-x-2">
-                {webinars.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => goToSlide(index)}
-                    className={`h-1 rounded-full transition-all duration-300 ${index === currentIndex
-                      ? "w-12 bg-[#134874]"
-                      : "w-12 bg-gray-300"
-                      }`}
-                    aria-label={`Go to webinar ${index + 1}`}
-                  />
-                ))}
-              </div>
-              <div className="block sm:hidden mt-2">
-                {" "}
-                <div className="w-2/5 h-full flex gap-10">
-                  <SlControlPlay
-                    onClick={prevSlide}
-                    disabled={currentIndex === 0}
-                    style={{
-                      height: "100px",
-                      width: "30px",
-                      transition: "transform 0.3s ease",
-                    }}
-                    className={`${currentIndex === 0
-                      ? "opacity-50 cursor-not-allowed"
-                      : "opacity-100 cursor-pointer"
-                      } ${"rotate-180 hover:fill-current"}`}
-                  />
-                  <SlControlPlay
-                    onClick={nextSlide}
-                    disabled={currentIndex === webinars.length - 1}
-                    style={{
-                      height: "100px",
-                      width: "30px",
-                      transition: "transform 0.3s ease",
-                    }}
-                    className={`${currentIndex === webinars.length - 1
-                      ? "opacity-50 cursor-not-allowed"
-                      : "opacity-100 cursor-pointer"
-                      } ${"hover:fill-current"}`}
-                  />
-                </div>
-              </div>
             </div>
-          </div>
-        </section>
-          
-)}
+          </section>
+
+        )}
         <div>
-        
+
         </div>
       </div>
-<div className="custom-container xl:!pr-[142px]">
-    <section className="py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
-            <h2 className="mb-6 xl:text-[40px] 4xl:text-[56px]">Past Webinars</h2>
+      <div className="custom-container xl:!pr-[142px]">
+        <section className="py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
+          <h2 className="mb-6 xl:text-[40px] 4xl:text-[56px]">Past Webinars</h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-              {visibleWebinars.map((webinar) => (
-                <Link href={'/' + webinar.url} key={webinar.id}>
-                  <div
-                    className="border border-gray-200 overflow-hidden shadow-sm transition-shadow flex flex-col h-full"
-                    onMouseEnter={handleMouseEnter(webinar.id)}
-                    onMouseLeave={handleMouseLeave(webinar.id)}
-                    style={{
-                      transition: "background-color 0.3s ease",
-                      backgroundColor:
-                        hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
-                      border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
-                      cursor: "pointer",
-                    }}
-                  >
-                    <div className="w-full overflow-hidden">
-                      <div
-                        className="h-full w-full"
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+            {visibleWebinars.map((webinar) => (
+              <Link href={'/' + webinar.url} key={webinar.id}>
+                <div
+                  className="border border-gray-200 overflow-hidden shadow-sm transition-shadow flex flex-col h-full"
+                  onMouseEnter={handleMouseEnter(webinar.id)}
+                  onMouseLeave={handleMouseLeave(webinar.id)}
+                  style={{
+                    transition: "background-color 0.3s ease",
+                    backgroundColor:
+                      hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
+                    border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
+                    cursor: "pointer",
+                  }}
+                >
+                  <div className="w-full overflow-hidden">
+                    <div
+                      className="h-full w-full"
+                      style={{
+                        transition: "transform 0.3s ease",
+                        transform:
+                          hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
+                      }}
+                    >
+                      <Image
+                        src={webinar.image}
+                        alt={webinar.title}
+                        width={0}
+                        height={0}
+                        sizes="100vw"
                         style={{
-                          transition: "transform 0.3s ease",
-                          transform:
-                            hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
+                          width: "100%",
+                          height: "auto",
+                          aspectRatio: "16 / 9", // Ensures consistent image ratio
+                          objectFit: "cover",
                         }}
-                      >
-                        <Image
-                          src={webinar.image}
-                          alt={webinar.title}
-                          width={0}
-                          height={0}
-                          sizes="100vw"
-                          style={{
-                            width: "100%",
-                            height: "auto",
-                            aspectRatio: "16 / 9", // Ensures consistent image ratio
-                            objectFit: "cover",
-                          }}
-                          priority
-                        />
-                      </div>
-                    </div>
-
-                    <div className="p-8 flex flex-col flex-grow items-start gap-2 ">
-                      <h3 className="text-[#134874] mb-2  pr-8 xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
-
-                      <div className="text-sm text-gray-600 mb-3">
-                        <p>{webinar.date}</p>
-                        <p className="mt-3">{webinar.time}</p>
-                      </div>
-
-                      <div className="mb-4">
-                        <p className="font-medium">{webinar.speaker}</p>
-                        <p className="text-sm text-gray-600">{webinar.position}</p>
-                      </div>
-
-                      <div className="mt-auto">
-                        <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
-                          Open Now
-                        </button>
-                      </div>
+                        priority
+                      />
                     </div>
                   </div>
-                </Link>
-              ))}
+
+                  <div className="p-8 flex flex-col flex-grow items-start gap-2 ">
+                    <h3 className="text-[#134874] mb-2  pr-8 xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
+
+                    <div className="text-sm text-gray-600 mb-3">
+                      <p>{webinar.date}</p>
+                      <p className="mt-3">{webinar.time}</p>
+                    </div>
+
+                    <div className="mb-4">
+                      <p className="font-medium">{webinar.speaker}</p>
+                      <p className="text-sm text-gray-600">{webinar.position}</p>
+                    </div>
+
+                    <div className="mt-auto">
+                      <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
+                        Open Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+
+          {hasMore && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={handleLoadMore}
+                className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
+              >
+                Load more
+              </button>
             </div>
-
-
-            {hasMore && (
-              <div className="flex justify-center mt-8">
-                <button
-                  onClick={handleLoadMore}
-                  className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
-                >
-                  Load more
-                </button>
-              </div>
-            )}
-          </section>
-</div>
+          )}
+        </section>
+      </div>
     </div>
   );
 }

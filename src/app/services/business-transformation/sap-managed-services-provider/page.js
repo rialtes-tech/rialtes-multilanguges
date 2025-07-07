@@ -558,7 +558,6 @@ export default function Page() {
                         </div>
                     </div>
 
-                    {/* Text: comes SECOND in HTML, but appears FIRST on desktop  */}
                     <div className="xl:col-span-6 col-span-12 order-2 xl:order-1 h-full px-[35px] xl:px-0 md:px-0">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] mt-10 xl:mt-0 leading-tight 4xl:pt-16 xl:pt-5">
                             Unleash Innovation

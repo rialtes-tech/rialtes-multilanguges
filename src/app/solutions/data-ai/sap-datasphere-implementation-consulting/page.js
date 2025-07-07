@@ -927,8 +927,7 @@ const GlobalPresenceSection = () => {
                 ${isBorderLeft ? 'md:border-l-2 md:pl-[48px] lg:pl-[50px] xl:pl-[68px] border-white' : ''}
                 ${!isBorderLeft ? 'xl:mr-[45px]' : ''}
                 md:border-b-0
-              `}
-                                        >
+              `}  >
                                             {data}
                                             {isNotLast && (
                                                 <div className="absolute bottom-0 left-0 w-[100%] border-b-2 border-[#848484] md:hidden" />

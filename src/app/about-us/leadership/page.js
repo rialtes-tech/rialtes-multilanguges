@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Seo from "../../components/Seo";
+import Script from "next/script";
 export default function Leadership() {
     const leadershipTeam = [
         {
@@ -67,6 +68,68 @@ export default function Leadership() {
             viewMore: 'View Bio'
         }
     ]
+    const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Rialtes",
+  "url": "https://www.rialtes.com",
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "Ajay Tyagi",
+      "jobTitle": "Founder & CEO",
+      "url": "https://www.rialtes.com/about-us/leadership/Ajay-Tyagi"
+    },
+    {
+      "@type": "Person",
+      "name": "Anuraag Aggarwal",
+      "jobTitle": "AI Practice Lead",
+      "url": "https://www.rialtes.com/about-us/leadership/Anuraag-Aggarwal"
+    },
+    {
+      "@type": "Person",
+      "name": "Akshay Kale",
+      "jobTitle": "SAP Practice Lead",
+      "url": "https://www.rialtes.com/about-us/leadership/Akshay-Kale"
+    },
+    {
+      "@type": "Person",
+      "name": "Prasad Venkatesan",
+      "jobTitle": "VP Global Partnership and Alliances",
+      "url": "https://www.rialtes.com/about-us/leadership/Prasad-Venkatesan"
+    },
+    {
+      "@type": "Person",
+      "name": "Pratik Ingle",
+      "jobTitle": "Salesforce Business Analyst",
+      "url": "https://www.rialtes.com/about-us/leadership/Pratik-Ingle"
+    },
+    {
+      "@type": "Person",
+      "name": "Pawan Tyagi",
+      "jobTitle": "Sr. Managing Director - Salesforce Services",
+      "url": "https://www.rialtes.com/about-us/leadership/Pawan-Tyagi"
+    },
+    {
+      "@type": "Person",
+      "name": "Samadhan Patil",
+      "jobTitle": "Finance and Operations Lead",
+      "url": "https://www.rialtes.com/about-us/leadership/Samadhan-Patil"
+    },
+    {
+      "@type": "Person",
+      "name": "Anand Unadkat",
+      "jobTitle": "Infrastructure and Cloud Migration Practice Lead",
+      "url": "https://www.rialtes.com/about-us/leadership/Anand-Unadkat"
+    },
+    {
+      "@type": "Person",
+      "name": "Rajani Patel",
+      "jobTitle": "Sr. Human Resources Manager",
+      "url": "https://www.rialtes.com/about-us/leadership/Rajani-Patel"
+    }
+  ]
+}
     return (
         <div>
             <Seo
@@ -74,6 +137,12 @@ export default function Leadership() {
                 description="Welcome to the Rialtes On Leadership page"
                 keywords="Leadership, website, welcome"
             />
+                <Script
+        id="leadership"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="relative">
                 <Image
                     src="/images/leadership/Leadership banner.webp"

@@ -2,6 +2,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function retailPage() {
     const schemaData = {
@@ -255,8 +256,11 @@ export default function retailPage() {
                 description="Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions."
                 canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation/"
             />
-            <script
+
+            <Script
+                id="schema-retail"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
@@ -435,21 +439,21 @@ export default function retailPage() {
                                             <h2 className="4xl:text-[52px] 2xl:text-[48px] xl:text-[40px]  md:text-[29px] lg:text-[38px] text-[26px] leading-tight max-[400px]:text-[22px]">
                                                 Fashion Retail Redefined
                                             </h2>
-                                           <div className="lg:pr-[70px]">
-                                             <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal xl:mt-[36px] mt-[15px] max-[400px]:text-[16px]">
-                                                Fashion is dynamic. So should your retail technology be. Rialtes helps fashion brands:
-                                            </p>
-                                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]">
-                                                {fashionRetailData.map((data, ind) => (
-                                                    <li
-                                                        className=" text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px]   leading-tight font-normal"
-                                                        key={ind}
-                                                    >
-                                                        {data}
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                           </div>
+                                            <div className="lg:pr-[70px]">
+                                                <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal xl:mt-[36px] mt-[15px] max-[400px]:text-[16px]">
+                                                    Fashion is dynamic. So should your retail technology be. Rialtes helps fashion brands:
+                                                </p>
+                                                <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]">
+                                                    {fashionRetailData.map((data, ind) => (
+                                                        <li
+                                                            className=" text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px]   leading-tight font-normal"
+                                                            key={ind}
+                                                        >
+                                                            {data}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
                                         </div>
 
                                         <div className="absolute bottom-[-170px] 2xl:bottom-[-110px] xl:bottom-[-140px] lg:bottom-[-90px]">
@@ -529,21 +533,21 @@ export default function retailPage() {
                         <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[24px]  text-[20px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] max-[400px]:text-[18px] lg:w-[80%] 4xl:[97%] 2xl:w-[90%] xl:w-[90%]">
                             Engage the right customers, at the right time, with the right message.
                         </h3>
-                      <div className="lg:pr-[120px]">
-                          <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
-                            Rialtes leverages Salesforce Marketing Cloud and Retail Cloud to:
-                        </p>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]">
-                            {hyperPersonalizationData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight] leading-tight font-normal"
-                                    key={ind}
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
-                      </div>
+                        <div className="lg:pr-[120px]">
+                            <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
+                                Rialtes leverages Salesforce Marketing Cloud and Retail Cloud to:
+                            </p>
+                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]">
+                                {hyperPersonalizationData.map((data, ind) => (
+                                    <li
+                                        className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight] leading-tight font-normal"
+                                        key={ind}
+                                    >
+                                        {data}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                     <div className="absolute bottom-0 right-0">
                         <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px] max-md:mx-[36px] md:mr-[36px] lg:mr-auto">
@@ -788,18 +792,18 @@ export default function retailPage() {
                                     <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight lg:mt-[27px] mt-[23px]">
                                         Rialtes helps you unlock the power of data:
                                     </p>
-                                  <div className="lg:pr-[75px]">
-                                      <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]">
-                                        {actionableData.map((data, ind) => (
-                                            <li
-                                                className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal"
-                                                key={ind}
-                                            >
-                                                {data}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                  </div>
+                                    <div className="lg:pr-[75px]">
+                                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]">
+                                            {actionableData.map((data, ind) => (
+                                                <li
+                                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal"
+                                                    key={ind}
+                                                >
+                                                    {data}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
                                     <div className="mt-auto block lg:hidden">
                                         <LearnMore />
                                     </div>
@@ -900,21 +904,21 @@ export default function retailPage() {
                         <h3 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] leading-tight font-semibold md:mt-[39px] mt-[23px]  w-[92%] lg:w-[80%] xl:w-full max-[350px]:text-[18px]">
                             The New Standard for Exceptional Customer Experience
                         </h3>
-                       <div className="max-md:pr-[20px]">
-                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
-                            Artificial Intelligence is transforming every facet of retail:
-                        </p>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[95%] ">
-                            {aiPoweredRetailData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal"
-                                    key={ind}
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
-                       </div>
+                        <div className="max-md:pr-[20px]">
+                            <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
+                                Artificial Intelligence is transforming every facet of retail:
+                            </p>
+                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[95%] ">
+                                {aiPoweredRetailData.map((data, ind) => (
+                                    <li
+                                        className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal"
+                                        key={ind}
+                                    >
+                                        {data}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[44px] xl:w-[84%]">
                             With Rialtes, AI becomes an integrated part of your customer and operational strategy.
                         </p>
@@ -1005,7 +1009,7 @@ export default function retailPage() {
                     </div>
 
                     <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight xl:mt-[92px] mt-[31px]">
-                       These accelerators help reduce deployment time and costs.
+                        These accelerators help reduce deployment time and costs.
                     </p>
                 </div>
             </section>

@@ -10,6 +10,7 @@ import Seo from './components/Seo';
 import AutoTimerSlider from './newHome/page';
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 import ContactForm from './components/contactform';
+import Script from 'next/script';
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -204,8 +205,11 @@ const Home = () => {
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/"}
             />
-            <script
+
+            <Script
+                id="schema-main-page"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative">

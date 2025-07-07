@@ -2,6 +2,7 @@ import React from 'react';
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Image from "next/image";
+import Script from 'next/script';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
@@ -225,9 +226,11 @@ const LocationPage = () => {
                 keywords="Contact, website, welcome"
                 canonical={"https://www.rialtes.com/contact-us/"}
             />
-            {/* schema tag */}
-            <script
+
+            <Script
+                id="schema-contact-us"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="custom-container pt-14">

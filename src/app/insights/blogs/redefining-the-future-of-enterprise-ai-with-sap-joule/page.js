@@ -5,6 +5,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
+import Script from "next/script";
 const schemaData={
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -181,11 +182,12 @@ export default function Page() {
                 description="SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards."
                 canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
             />
-  <script
+   <Script
+        id="schema-redefining"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/sap-joule-ai.webp "
@@ -204,7 +206,7 @@ export default function Page() {
           <div className="container pl-0 mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
+                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>25 April 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -334,10 +336,6 @@ export default function Page() {
               <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Shift from Human-Driven Operations to AI-Driven Automation</h2>
           <p className="mt-3">Generative AI, as seen in SAP Joule, is transforming business operations through enhanced automation, efficiency, and intelligence. By integrating Joule into its enterprise applications, SAP enables organizations to fully utilize AI while maintaining Responsible AI standards. Joule serves as a powerful AI copilot, automating decisions, generating content, and providing actionable insights to help businesses leverage data effectively.</p>
             <p className="mt-3">Rialtes understands that every business is unique. We customize our approach to align AI-powered automation with your specific industry needs. <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">Contact us</Link> to explore the future of enterprise AI with SAP Joule, seamlessly integrating it with key SAP platforms like SAP S/4HANA, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">SAP SuccessFactors,</Link>  and <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">SAP Ariba.</Link> </p> 
-             
-             
-             
-          
              
             </div>
           </div>

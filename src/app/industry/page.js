@@ -137,6 +137,7 @@ export default function Industry() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/"
       />
+      
 
       {/* herosection */}
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">

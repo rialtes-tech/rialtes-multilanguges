@@ -5,7 +5,101 @@ import ContactForm from "../../../components/contactform"
 import Seo from "@/app/components/Seo";
 import LearnMore from "@/app/components/learnMore";
 import Link from "next/link";
+import Script from "next/script";
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Pharma & Biotech Digital Transformation Solutions",
+    "description": "Rialtes delivers Salesforce Life Sciences Cloud and SAP S/4HANA-based digital transformation services for pharmaceutical and biotech firms. Our AI-powered platforms accelerate R&D, enable regulatory compliance, support clinical trials, and improve HCP and patient engagement through unified, real-time, and secure IT solutions.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc/",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" }
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Pharma & Biotech Transformation Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Salesforce Life Sciences Cloud Implementation",
+                    "description": "Unify commercial, clinical, and medical operations with centralized CRM, patient services automation, clinical trial engagement, and regulatory complaint handling."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP S/4HANA for Pharma",
+                    "description": "Streamline serialization, supply chain compliance, quality management, manufacturing, and global regulatory reporting for operational excellence."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI-Driven Pharma Innovation",
+                    "description": "Accelerate drug discovery, optimize clinical trial design, and enhance pharmacovigilance with AI-based predictive modeling, analytics, and automation."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile Patient Engagement Apps",
+                    "description": "Deploy secure mobile apps to track adherence, deliver medication reminders, capture PROs, and collect real-world evidence (RWE) from patients."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Remote Monitoring & Real-World Data Collection",
+                    "description": "Enable real-time monitoring of connected devices and therapeutics, track adverse events, and gather biometrics and compliance data for R&D feedback."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AgentChat – Real-Time WhatsApp for Pharma",
+                    "description": "Use secure WhatsApp integration to automate patient communication, HCP support, adverse event tracking, and regulatory document sharing."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Salesforce Agentforce for Pharma",
+                    "description": "Empower pharma field teams with advanced HCP targeting, compliant content distribution, real-time interaction tracking, and MSL coordination tools."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "End-to-End Regulatory Compliance Solutions",
+                    "description": "Manage global regulatory requirements, ensure audit readiness, automate safety reporting, and integrate regulatory submissions across regions (FDA, EMA, TGA)."
+                }
+            }
+        ]
+    },
+    "url": "https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/"
+}
 
 const StrategicChallenge = () => {
     const data = [
@@ -69,88 +163,88 @@ const StrategicChallenge = () => {
 
     return (
         <>
-        <div className="custom-container sm:mt-[147px] mt-[350px]  ">
-            <div className="w-full sm:w-[80%] xl:w-full 2xl:w-[80%] ">
-                <h2 className="text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight  4xl:w-[1084px] 2xl:w-[1000px] xl:w-[900px] lg:w-[1000px] ">
-                    Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today
-                </h2>
-            </div>
-            </div>
-        
-<div className="custom-container max-md:px-0">
-            {data.map((item, index) => (
-            
-                <div
-                    key={index}
-                    className="lg:mt-[55px] mt-[50px]"
-                    style={{ backgroundColor: item.bgColor }}
-                >
-                 
-                    <div className={`grid lg:grid-cols-12 grid-cols-1 max-lg:px-[36px]`}>
-
-                        {index % 2 !== 0 && <div className="lg:col-span-1 col-span-12" />}
-
-
-                        <div
-                            className={`lg:col-span-4 col-span-12 relative group overflow-hidden ${index % 2 === 0 ? "order-1 lg:order-2" : ""
-                                }`}
-                        >
-                            <div className="lg:block hidden">
-                                <Image
-                                    src={item.imgDesktop}
-                                    alt="pharma img"
-                                    fill
-                                    priority
-                                    className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-                                />
-                            </div>
-                            <div className="lg:hidden block">
-                                <Image
-                                    src={item.imgMobile}
-                                    alt="pharma img"
-                                    width={600}
-                                    height={400}
-                                    priority
-                                    className="w-full h-full object-cover mx-auto"
-                                />
-                            </div>
-                        </div>
-
-                        <div
-                            className={`lg:col-span-7 col-span-12 md:pt-[43px] pb-[69px] ${index % 2 === 0 ? "lg:px-[60px]" : "lg:pl-[60px] lg:pr-[40px]"
-                                } ${index % 2 === 0 ? "order-2 lg:order-1" : ""}`}
-                        >
-                            <div className="flex lg:gap-10 gap-3 lg:items-center lg:flex-row flex-col">
-                                <h2
-                                    className="xl:text-[100px] text-[60px] font-bold"
-                                    style={{ color: item.numberColor }}
-                                >
-                                    {item.number}
-                                </h2>
-                                <h2 className="4xl:text-[42px] 2xl:text-[37px]   xl:text-[30px] lg:text-[28px] text-[28px] xl:font-bold font-medium leading-tight  ">
-                                    {item.title}
-                                </h2>
-                            </div>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px] xl:mt-3 mt-5 pr-10 xl:pr-0 font-medium lg:font-normal">
-                                {item.description}
-                            </p>
-                            <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px]  text-[16px] mt-5 pr-8 xl:pr-0 leading-tight font-medium lg:font-normal">
-                                {item.points.map((point, idx) => (
-                                    <li key={idx}>{point}</li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        {index % 2 === 0 && <div className="lg:col-span-1 col-span-12 order-3"></div>}
-                    </div>
+            <div className="custom-container sm:mt-[147px] mt-[350px]  ">
+                <div className="w-full sm:w-[80%] xl:w-full 2xl:w-[80%] ">
+                    <h2 className="text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight  4xl:w-[1084px] 2xl:w-[1000px] xl:w-[900px] lg:w-[1000px] ">
+                        Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today
+                    </h2>
                 </div>
-            ))}
-
-            <div className="mt-[20px] lg:mt-[40px] max-md:px-[36px]">
-                <LearnMore />
             </div>
-       </div>
-       </>
+
+            <div className="custom-container max-md:px-0">
+                {data.map((item, index) => (
+
+                    <div
+                        key={index}
+                        className="lg:mt-[55px] mt-[50px]"
+                        style={{ backgroundColor: item.bgColor }}
+                    >
+
+                        <div className={`grid lg:grid-cols-12 grid-cols-1 max-lg:px-[36px]`}>
+
+                            {index % 2 !== 0 && <div className="lg:col-span-1 col-span-12" />}
+
+
+                            <div
+                                className={`lg:col-span-4 col-span-12 relative group overflow-hidden ${index % 2 === 0 ? "order-1 lg:order-2" : ""
+                                    }`}
+                            >
+                                <div className="lg:block hidden">
+                                    <Image
+                                        src={item.imgDesktop}
+                                        alt="pharma img"
+                                        fill
+                                        priority
+                                        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+                                    />
+                                </div>
+                                <div className="lg:hidden block">
+                                    <Image
+                                        src={item.imgMobile}
+                                        alt="pharma img"
+                                        width={600}
+                                        height={400}
+                                        priority
+                                        className="w-full h-full object-cover mx-auto"
+                                    />
+                                </div>
+                            </div>
+
+                            <div
+                                className={`lg:col-span-7 col-span-12 md:pt-[43px] pb-[69px] ${index % 2 === 0 ? "lg:px-[60px]" : "lg:pl-[60px] lg:pr-[40px]"
+                                    } ${index % 2 === 0 ? "order-2 lg:order-1" : ""}`}
+                            >
+                                <div className="flex lg:gap-10 gap-3 lg:items-center lg:flex-row flex-col">
+                                    <h2
+                                        className="xl:text-[100px] text-[60px] font-bold"
+                                        style={{ color: item.numberColor }}
+                                    >
+                                        {item.number}
+                                    </h2>
+                                    <h2 className="4xl:text-[42px] 2xl:text-[37px]   xl:text-[30px] lg:text-[28px] text-[28px] xl:font-bold font-medium leading-tight  ">
+                                        {item.title}
+                                    </h2>
+                                </div>
+                                <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px] xl:mt-3 mt-5 pr-10 xl:pr-0 font-medium lg:font-normal">
+                                    {item.description}
+                                </p>
+                                <ul className="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px]  text-[16px] mt-5 pr-8 xl:pr-0 leading-tight font-medium lg:font-normal">
+                                    {item.points.map((point, idx) => (
+                                        <li key={idx}>{point}</li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            {index % 2 === 0 && <div className="lg:col-span-1 col-span-12 order-3"></div>}
+                        </div>
+                    </div>
+                ))}
+
+                <div className="mt-[20px] lg:mt-[40px] max-md:px-[36px]">
+                    <LearnMore />
+                </div>
+            </div>
+        </>
     );
 }
 export default function Page() {
@@ -160,6 +254,12 @@ export default function Page() {
                 title="Digital Transformation in Pharma and Life Sciences Industry | Rialtes"
                 description="Rialtes enables Digital Transformation in Pharma and Life Sciences Industry with SAP and Salesforce, delivering innovative and compliant solutions globally."
                 canonical="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/"
+            />
+            <Script
+                id="schema-pharma"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -192,7 +292,7 @@ export default function Page() {
                                 Pharma Industry
                             </h3>
                             <h1 className="text-[24px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] "  >
-                                Accelerating Pharma<br/> Innovation & Compliance
+                                Accelerating Pharma<br /> Innovation & Compliance
                             </h1>
 
                             <h3 className="text-[18px]   md:text-[26px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] 4xl:text-[45px] leading-tight w-[239px] 4xl:w-[650px] 2xl:w-[600px] xl:w-[580px] lg:w-[420px] md:w-[380px] mt-[11.5px] md:mt-[28.5px]">

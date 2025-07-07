@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData={
   
@@ -172,11 +173,14 @@ export default function Page() {
         description="From headline PR to powerful partnerships—explore how Rialtes leads industry change with innovation, tech moves, and smart collaborations."
         canonical="https://www.rialtes.com/insights/news/"
       />
-  <script
+ 
+
+   <Script
+        id="schema-news-main"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <HeroSection title="News" subtitle="" mobimg="/images/news/news header.webp" deskimg="/images/news/news header.webp" extraImg="" txtColor={"black"} />
 
       <section

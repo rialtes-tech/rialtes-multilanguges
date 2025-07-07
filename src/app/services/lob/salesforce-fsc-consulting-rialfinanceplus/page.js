@@ -4,6 +4,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import Script from "next/script";
 
 export default function page() {
     const schemaData = {
@@ -262,10 +263,13 @@ export default function page() {
                 description="Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support."
                 canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          
+              <Script
+        id="schema-realfinance"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 {/* Desktop Image */}

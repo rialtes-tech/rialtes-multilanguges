@@ -6,6 +6,7 @@ import { HeroSection } from "@/app/components/herosection";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Page() {
 
@@ -205,10 +206,13 @@ export default function Page() {
                     keywords="home, website, welcome"
                     canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
                 />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-                />
+               
+                   <Script
+        id="schema-travel"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
                 {/* herosection */}
                 <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                     {/* Desktop Image */}

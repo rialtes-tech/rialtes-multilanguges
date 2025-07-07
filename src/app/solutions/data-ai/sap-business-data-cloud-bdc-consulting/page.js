@@ -4,6 +4,7 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import ContactForm from "../../../components/contactform";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -102,11 +103,13 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting/"
       />
-      <script
+
+              <Script
+        id="schema-sap-bdc"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       {/* <HeroSection
         title="Unlock the Future of Data with SAP Business Data Cloud"
         subtitle="SAP Business Data Cloud"

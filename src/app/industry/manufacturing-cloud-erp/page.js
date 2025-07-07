@@ -4,8 +4,117 @@ import Image from "next/image";
 import ContactForm from "../../components/contactform"
 import Seo from "@/app/components/Seo";
 import LearnMore from "../../components/learnMore";
+import Script from "next/script";
 
-
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Manufacturing IT Solutions & Industry Transformation",
+  "description": "Rialtes delivers intelligent manufacturing transformation with SAP, Salesforce, AI, and advanced automation tools. We support discrete, process, repetitive, and job shop manufacturers with real-time data visibility, predictive analytics, digital twins, and ERP integration for future-ready operations.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+    "sameAs": [
+      "https://www.linkedin.com/company/rialtes-technologies-llc/",
+      "https://www.youtube.com/@rialtes"
+    ]
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Canada" },
+    { "@type": "Country", "name": "India" },
+    { "@type": "Country", "name": "Singapore" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Manufacturing Transformation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Discrete Manufacturing Solutions",
+          "description": "Manage complex product configurations, supply chains, and engineering processes with integrated quoting, order management, and AI-powered maintenance prediction."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Process Manufacturing Solutions",
+          "description": "Optimize batch production, compliance (FDA, GMP), and real-time quality tracking. Enable traceability and yield management through AI-enabled platforms."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Repetitive Manufacturing Solutions",
+          "description": "Enhance mass production with capacity planning, real-time monitoring, and AI-driven anomaly detection to improve throughput and reduce cycle time."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Job Shop Manufacturing Solutions",
+          "description": "Engineer-to-order (ETO) and make-to-order (MTO) solutions with real-time dashboards for costing, planning, and execution of high-variety, low-volume production."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI & Robotic Smart Factory Enablement",
+          "description": "Implement predictive maintenance, robotic process automation, and digital twin capabilities for autonomous, zero-defect manufacturing environments."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "SAP & Salesforce Integration for Manufacturing",
+          "description": "Combine SAP Digital Manufacturing Cloud and Salesforce Manufacturing Cloud to connect customer feedback, factory workflows, and dealer networks into one system."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ERP Integration with MuleSoft",
+          "description": "Integrate SAP and Oracle ERP with production and procurement systems using MuleSoft for unified, real-time business operations and reduced costs."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Demand Planning with Kinaxis",
+          "description": "Use Kinaxis RapidResponse for dynamic forecasting, inventory optimization, and supply chain agility in response to market volatility and disruptions."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pre-Built Accelerators for Manufacturing",
+          "description": "Deploy industry-specific solutions such as smart factory templates and AI-driven workflows to reduce setup time and ensure faster ROI."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Data Cloud & Tableau for Manufacturing Analytics",
+          "description": "Enable real-time visibility into OEE, downtime, supply chain risks, and demand forecasting using AI-enhanced dashboards and analytics."
+        }
+      }
+    ]
+  },
+  "url": "https://www.rialtes.com/industry/manufacturing-it-solutions"
+}
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
@@ -14,7 +123,12 @@ export default function Page() {
         description="Rialtes delivers expert IT and cloud ERP solutions for manufacturing businesses, helping drive efficiency, innovation, and digital transformation at scale."
         canonical="https://www.rialtes.com/industry/manufacturing-cloud-erp/"
       />
-
+      <Script
+        id="schema-manufacturing"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <section className="relative pb-20">
         <div className="xl:block hidden">
           <Image

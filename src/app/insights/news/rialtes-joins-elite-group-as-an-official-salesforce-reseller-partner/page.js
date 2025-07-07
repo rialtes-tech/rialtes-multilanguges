@@ -1,6 +1,7 @@
 "use client";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
+import Script from "next/script";
 
 const schemaData = {
 
@@ -42,8 +43,11 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
         description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
       />
-      <script
+    
+         <Script
+        id="schema-rialtes-joins"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

@@ -6,6 +6,8 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
+
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -121,10 +123,12 @@ export default function DemandPlusSection() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
             />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+              <Script
+        id="schema-demandplus"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
             <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
                 <div className="xl:block hidden">

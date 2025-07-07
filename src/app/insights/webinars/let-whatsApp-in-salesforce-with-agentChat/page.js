@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import WebinarForm from "@/app/components/webinarForm";
+import Script from "next/script";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -42,9 +43,25 @@ const schemaData = {
 export default function About() {
     const sectionRef = useRef(null);
 
-    const handleScroll = () => {
-        sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+   const handleScroll = () => {
+    if (!sectionRef.current) return;
+
+    const getOffset = () => {
+        const width = window.innerWidth;
+        if (width > 1536) return 160; // 2xl+
+        if (width > 1280) return 120; // xl
+        if (width > 768) return 100;  // md
+        return 80; // sm and below
     };
+
+    const offset = getOffset();
+    const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+    window.scrollTo({
+        top: elementPosition - offset,
+        behavior: 'smooth',
+    });
+};
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-06T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
@@ -86,10 +103,12 @@ export default function About() {
                 canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
             />
 
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+           <Script
+        id="webinar-schema-let"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <section className="relative custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/Webinar_6.webp"
@@ -191,7 +210,6 @@ export default function About() {
 
                         <div onClick={handleScroll}>
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
-
                         </div>
 
                     </div>
@@ -203,13 +221,11 @@ export default function About() {
                 </div>
                 <div className="xl:col-span-1 col-span-12"></div>
             </div>
-            <div className="custom-container mb-20" ref={sectionRef}>
+            <div className="custom-container mb-20 scroll-mt-28 xl:scroll-mt-24 4xl:scroll-mt-16" ref={sectionRef} >
                 <WebinarForm
                     redirectUrl="https://www.youtube.com/watch?v=QGKwqgjEyT4"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
-
                 />
-
             </div>
         </div>
     );

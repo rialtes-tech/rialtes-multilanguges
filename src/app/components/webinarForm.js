@@ -110,11 +110,17 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
         setFormErrors({});
 
         try {
-            await emailjs.sendForm(
-                'service_af2ly7a',
-                'template_0hotei9',
+            // await emailjs.sendForm(
+            //     'service_af2ly7a',
+            //     'template_0hotei9',
+            //     formRef.current,
+            //     'Snkm_XQ04-jspj9Ba'
+            // );
+             await emailjs.sendForm(
+                'service_uvlqqwr',
+                'template_kws7xco',
                 formRef.current,
-                'Snkm_XQ04-jspj9Ba'
+                'Zp2xQO0KmJeXSFk-S'
             );
 
             form.reset();

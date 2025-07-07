@@ -1,10 +1,10 @@
 "use client";
 // pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -174,8 +174,11 @@ export default function Page() {
         canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
         image="https://rialtes.netlify.app/images/blog/atlas-reasoning-engine-agentforce.jpg"
       />
-      <script
+     
+         <Script
+        id="schema-brain"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

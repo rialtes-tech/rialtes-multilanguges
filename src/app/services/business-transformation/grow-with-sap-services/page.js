@@ -4,6 +4,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -240,8 +241,11 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
       />
-      <script
+   
+         <Script
+        id="schema-grow"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

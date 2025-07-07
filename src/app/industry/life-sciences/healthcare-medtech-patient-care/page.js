@@ -9,6 +9,7 @@ import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
 
 const slidesCaseStudy = [
   {
@@ -138,6 +139,91 @@ const growLatestServices = [
     ],
   }
 ];
+const schemaData={
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Healthcare & MedTech IT Solutions",
+  "description": "Rialtes delivers Salesforce Health Cloud-powered solutions that transform patient care, provider operations, and MedTech services. From virtual care to hospital enhancements, we empower payers, providers, pharma, biotech, and MedTech organizations with connected, secure, and scalable healthcare IT solutions.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+    "sameAs": [
+      "https://www.linkedin.com/company/rialtes-technologies-llc/",
+      "https://www.youtube.com/@rialtes"
+    ]
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Canada" },
+    { "@type": "Country", "name": "India" },
+    { "@type": "Country", "name": "Singapore" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Patient Care, MedTech & Health Cloud Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Salesforce Health Cloud Implementation",
+          "description": "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Urgent Care & Hospital Enhancements",
+          "description": "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Tailored Patient Engagement Tools",
+          "description": "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "MedTech IT Services",
+          "description": "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Payer Solutions",
+          "description": "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Provider Solutions",
+          "description": "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pharma & Biotech Solutions",
+          "description": "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools."
+        }
+      }
+    ]
+  },
+  "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care"
+}
 
 const GrowServicesCard = ({ services }) => (
  
@@ -210,6 +296,14 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
       />
+          <Script
+        id="schema-healthcare"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
+
   {/* <HeroSection
         title="Redefining healthcare by keeping patients at the center"
         subtitle="HEALTHCARE"

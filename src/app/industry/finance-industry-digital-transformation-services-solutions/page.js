@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import ContactForm from "@/app/components/contactform";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -150,8 +150,11 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/"
       />
-      <script
+     
+           <Script
+        id="schema-finance"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
@@ -837,7 +840,7 @@ export default function Page() {
                 </li>
                 <li>
                   Proprietary tools like Exelona (Real Estate Cloud) and
-                  RialChat (WhatsApp Integration).
+                  Agentchat (WhatsApp Integration).
                 </li>
                 <li>
                   Deep AI and Data Cloud integrations for predictive and

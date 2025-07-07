@@ -5,6 +5,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -255,8 +256,11 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
       />
-      <script
+
+      <Script
+        id="schema-rise"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -674,7 +678,7 @@ export default function Page() {
             <p className="mt-5 xl:mt-10 text-[16px]  4xl:text-[22px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px] leading-tight font-normal xl:w-[90%]">
               With SAP Data Cloud and Salesforce Agentforce AI, Rialtes brings intelligent insights, automation, and customer segmentation to modern SAP environments.
             </p>
-            <UnorderedList arrName={aiData} ulClassName="list-disc marker:text-[#036CBC] pl-5 mt-6 xl:mt-10 font-semibold space-y-4" liClassName="text-[16px] 4xl:text-[20px] xl:text-[18px]"/>
+            <UnorderedList arrName={aiData} ulClassName="list-disc marker:text-[#036CBC] pl-5 mt-6 xl:mt-10 font-semibold space-y-4" liClassName="text-[16px] 4xl:text-[20px] xl:text-[18px]" />
           </div>
         </div>
       </div>

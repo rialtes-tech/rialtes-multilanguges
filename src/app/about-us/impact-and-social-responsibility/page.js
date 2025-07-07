@@ -2,7 +2,7 @@
 import Image from "next/image";
 import ContactForm from "../../../app/components/contactform";
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -31,8 +31,11 @@ export default function Page() {
           "https://www.rialtes.com/about-us/impact-and-social-responsibility/"
         }
       />
-      <script
+    
+         <Script
+        id="schema-impact"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -359,7 +362,7 @@ export default function Page() {
                 alt="Tree planting social impact"
               />
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px] xl:min-h-[245px]">
-                <p className="text-[20px]text-[35px] md:text-[28px] 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] pb-2">
+                <p className=" text-[26px] md:text-[28px] 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] pb-2">
                   Committed to planting
                 </p>
                 <h3 className="h3-bold line-clamp-2 text-[26px] md:text-[24px] 4xl:text-[30px] 2xl:text-[26px] xl:text-[26px]">

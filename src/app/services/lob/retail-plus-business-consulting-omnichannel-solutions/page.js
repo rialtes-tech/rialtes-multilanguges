@@ -5,6 +5,7 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import { HeroSection } from "@/app/components/herosection";
+import Script from "next/script";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -96,8 +97,11 @@ export default function Retail({ items }) {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
       />
-      <script
+    
+        <Script
+        id="schema-retail-plus"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 

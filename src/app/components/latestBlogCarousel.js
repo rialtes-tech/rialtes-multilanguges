@@ -9,8 +9,21 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+
+    {
+     id: 12,
+    image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
+    category: "Agentforce",
+    industry: "General",
+    date: "02 July 2025",
+    url: 'insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success',
+    title: "Discover AgentExchange: Your Trusted Marketplace for Agentforce Success",
+    description: "Salesforce has once again raised the bar in AI-driven business solutions with the launch of AgentExchange, ",
+  },
+
+  
      {
-     id: 13,
+     id: 11,
     image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
     category: "General",
     industry: "Manufacturing",
@@ -19,8 +32,20 @@ export default function BlogsCarousel() {
     title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
     description: "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable.",
   },
+
+  {
+      id: 10,
+      image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+      category: "AI",
+      industry: "Pharma",
+      date: "30 May 2025",
+      url: 'insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
+      title: "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
+    description:"The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems.",
+    },
+
     {
-      id: 11,
+      id: 9,
       image: "/images/blog/sap-ariba-for-carousel.webp",
       category: "SAP",
       industry: "Manufacturing",
@@ -32,7 +57,7 @@ export default function BlogsCarousel() {
 
     },
     {
-      id: 10,
+      id: 8,
       image: "/images/blog/successfactor-for-carousel.webp",
       category: "SAP SuccessFactors",
       industry: "Human Resources",
@@ -41,29 +66,19 @@ export default function BlogsCarousel() {
       title: "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
       description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
     },
+    
     {
-      id: 12,
-      image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
-      category: "AI",
-      industry: "Pharma",
-      date: "30 May 2025",
-      url: 'insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry',
-      title: "Agentic AI Pharma: Automating Complex Pharma Workflows ",
-      description: "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention",
-    },
-
-    {
-      id: 9,
+      id: 7,
       image: "/images/blog/jcarosel.webp",
       category: "SAP",
       industry: "SAP",
-      date: "22 April 2025",
+      date: "25 April 2025",
       url: 'insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule',
       title: "Redefining the Future of Enterprise AI with SAP Joule",
       description: "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. ",
     },
     {
-      id: 8,
+      id: 6,
       image: "/images/blog/SAP Business cloud_Carousal.webp",
       category: "General",
       industry: "Generic",
@@ -72,66 +87,60 @@ export default function BlogsCarousel() {
       title: "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
       description: "Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights.",
     },
-    {
-      id: 1,
-      image: "/images/blog/blog-1.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "30 Sept 2024",
-      url: 'insights/blogs/how-salesforce-agentforce-actually-works',
-      title: "How Salesforce Agentforce Actually Works",
-      description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    },
-    {
-      id: 2,
-      image: "/images/blog/blog-2.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "21 Oct 2024",
-      url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
-      title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-      description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-    },
-    {
-      id: 3,
-      image: "/images/blog/blog-3.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "28 Oct 2024",
-      url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
-      title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-      description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-    },
-    {
-      id: 4,
-      image: "/images/blog/blog-4.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "25 Nov 2024",
-      url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
-      title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-      description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-    },
-    {
-      id: 5,
-      image: "/images/blog/blog-5.webp",
-      category: "SAP SuccessFactors",
-      industry: "Human Resources",
-      date: "24 Dec 2024",
-      url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
-      title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-      description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },
-    {
-      id: 6,
-      image: "/images/blog/blog-6.webp",
-      category: "Cloud Green Technology",
-      industry: "Agriculture",
-      date: "17 Sept 2024",
-      url: 'insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-      title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-      description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    },
+
+     {
+    id: 5,
+    image: "/images/blog/blog-14.webp",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "03 Feb 2025",
+    url: 'insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
+    title: "Powerful Features of Agentforce You Should Be Using",
+    description: "Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions.",
+  },
+
+  {
+    id: 4,
+    image: "/images/blog/blog-13.webp",
+    category: "SAP SuccessFactors",
+    industry: "Human Resources",
+    date: "21 Jan 2025",
+    url: 'insights/blogs/how-sap-successfactors-enhances-remote-work-management',
+    title: "How SAP SuccessFactors Enhances Remote Work Management",
+    description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
+  },
+
+   {
+    id: 3,
+    image: "/images/blog/blog-12.webp",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "13 Jan 2025",
+    url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
+    title: "How Agentforce Agents Scale ERP Systems with AI",
+    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
+  },
+   {
+    id: 2,
+    image: "/images/blog/agents-as-teammates-carousel-img.webp",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "30 Dec 2024",
+    url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce',
+    title: "Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0",
+    description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
+  },
+{
+    id: 1,
+    image: "/images/blog/blog-5.webp",
+    category: "SAP SuccessFactors",
+    industry: "Human Resources",
+    date: "24 Dec 2024",
+    url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
+    title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+    description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
+  },
+   
     // Add more blog objects as needed
   ];
   // }
@@ -159,7 +168,7 @@ export default function BlogsCarousel() {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 xl:right-32 right-6 md:mt-4">
+      <div className="flex carousel-button-group absolute top-0 xl:right-32 sm:right-6 max-sm:right-0  md:mt-4">
         <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -193,7 +202,7 @@ export default function BlogsCarousel() {
     <section className="relative sm:pb-10 pb-16 bg-white">
       <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[43px]">Latest Blogs</h2>
+          <h2 className="text-black mb-[43px] ">Latest Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
