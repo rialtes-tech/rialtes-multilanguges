@@ -240,7 +240,7 @@ export default function Page() {
         <section className="custom-container md:pr-0 grid xl:grid-cols-12 grid-cols-1  sm:mt-4 max-md:px-0">
           <div className="xl:col-span-6 order-1 xl:order-2 ">
             {/* Desktop image */}
-            <div className="hidden lg:block h-[741px] xl:py-20">
+            <div className="hidden lg:block h-full xl:py-20">
               <Image
                 className="w-full h-full object-cover"
                 src="/images/sap-bdc-services/SAP-data-web.webp"
@@ -263,7 +263,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="xl:col-span-6 bg-[#006FBE] p-7 px-10 text-white order-2 xl:order-1 relative">
+          <div className="xl:col-span-6 bg-[#006FBE] p-8 xl:p-[75px] px-10 text-white order-2 xl:order-1 relative">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">SAP Data Fabric</h2>
             <h3 className="4xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
               Powered by SAP Business Data Cloud
@@ -297,7 +297,7 @@ export default function Page() {
             </ul>
 
             {/* Learn More*/}
-            <div className="absolute bottom-[-19px]">
+            <div className="absolute bottom-[-24px]">
        
               <LearnMore />
             </div>
@@ -430,11 +430,11 @@ export default function Page() {
           <p className=" xl:w-[75%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
             Modernize your analytics and accelerate cloud transformation:
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 lg:mt-[53px] mt-[36px]">
+          <div className="grid grid-cols-1 lg:grid-cols-4 lg:mt-[53px] mt-[36px]">
             {exploreData.map((data, ind) => {
               const isFirstThree = ind === 0 || ind === 1 || ind === 2;
               const borderClasses = isFirstThree
-                ? "border-b md:border-b-0 md:border-r-2 border-[#848484] pb-[40px] lg:pb-0"
+                ? "border-b lg:border-b-0 lg:border-r-2 border-[#848484] pb-[40px] xl:pb-0"
                 : "";
               return (
                 <div
@@ -533,7 +533,7 @@ export default function Page() {
               </div>
 
               {/* Mobile Image */}
-              <div className="block lg:hidden w-full h-[500px] sm:h-[700px] md:h-[750px] relative">
+              <div className="block lg:hidden w-full h-[340px] sm:h-[700px] md:h-[750px] relative">
                 <Image
                   src="/images/sap-bdc-services/web.webp"
                   alt="mobile image"
@@ -613,7 +613,7 @@ export default function Page() {
                                 {/* Our SAP Business Data Cloud Services */}
 
 
-        <section className="relative max-[417px]:h-[710px] h-[600px] sm:h-[400px] md:h-[600px] lg:h-[480px] xl:h-[600px] 2xl:h-[712px] overflow-hidden">
+        <section className="relative  max-[330px]:h-[600px] max-[417px]:h-[520px] h-[475px]  md:h-[570px] lg:h-[470px] xl:h-[525px] 2xl:h-[530px] 4xl:h-[630px] overflow-hidden">
           {/* Desktop Background Image */}
           <div className="hidden lg:block">
             <Image
@@ -645,7 +645,7 @@ export default function Page() {
               <div className="md:col-span-6 col-span-12 relative h-full">
                 <div className="">
                   <div
-                    className="absolute md:inset-0  px-11 py-12 text-white max-[417px]:h-[860px] h-[700px] sm:h-[540px] md:h-[740px] xl:h-[900px] lg:h-[600px] 2xl:h-[790px]"
+                    className="absolute md:inset-0  px-12 py-14 text-white max-[330px]:h-[600px] max-[417px]:h-[520px] h-[475px]  md:h-[570px] xl:h-[525px] lg:h-[600px] 2xl:h-[630px]"
                     style={{
                       background: "#113056",
                       mixBlendMode: "overlay",
@@ -653,7 +653,7 @@ export default function Page() {
                     }}
                   >
                     <div style={{ opacity: 1, color: "#FFFFFF" }}>
-                      <h2 className="mb-4 leading-tight  2xl:text-[56px] xl:text-[40px] md:text-[26px]">
+                      <h2 className="mb-4 leading-tight  4xl:text-[56px] xl:text-[40px] md:text-[26px]">
                         Our SAP Business Data Cloud Services
                       </h2>
 
@@ -704,26 +704,27 @@ export default function Page() {
                   alt="mobile image"
                   width={0}
                   height={0}
-                  className="w-full h-[400px] max-w-[320px] mx-auto "
+                  className="w-full h-[400px] 2xl:h-[90%] max-w-[320px] mx-auto "
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                   priority
                 />
               </div>
 
-              <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[750px] xl:pl-0 2xl:h-[630px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
+              <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[800px] xl:pl-0 xl:h-[450px] 2xl:h-[480px] 4xl:h-[560px] 2xl:w-[1080px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
                 <div className="custom-container xl:pl-[70px] max-lg:pt-[140px] max-md:px-0">
-                  <div className="xl:w-[70%] lg:w-[80%]">
-                    <h2 className="leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
+                  <div className="4xl:w-[75%] xl:w-[66%] lg:w-[80%]">
+                    <h2 className="leading-tight xl:w-[90%] 2xl:w-[80%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
                       Why Clients Choose Rialtes
                     </h2>
                     <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                      <li className="pb-2">
+                      <li className="pb-4">
                         SAP-Certified Implementation Experts
                       </li>
-                      <li className="pb-2">
+                      <li className="pb-4">Official SAP & Databricks Partner</li>
+                      <li className="pb-4">
                         Accelerators for BW and Datasphere Migration
                       </li>
-                      <li className="pb-2">
+                      <li className="pb-4">
                         Global Delivery with 24x7 Support
                       </li>
                       <li>
@@ -742,7 +743,7 @@ export default function Page() {
                 <Image
                   src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
                   alt="desktop image"
-                  className="w-full h-full"
+                  className="w-full h-full "
                   width={0}
                   height={0}
                   style={{ objectFit: "cover", objectPosition: "25% 20%" }}
