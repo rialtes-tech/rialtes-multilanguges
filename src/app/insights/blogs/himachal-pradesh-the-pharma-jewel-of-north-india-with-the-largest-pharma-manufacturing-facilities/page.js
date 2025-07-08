@@ -3,6 +3,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import Link from "next/link";
 const schemaData =
 {
  
@@ -144,9 +145,9 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities"
+                title="Himachal Pradesh: The Pharma Jewel of North India"
                 description="Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities"
-                canonical={"https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities"}
+                canonical={"https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"}
             />
           
                <Script
