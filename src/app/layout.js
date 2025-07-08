@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
 import Head from "next/head";
-import Loader from "./Loader";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
@@ -14,7 +13,7 @@ const montserrat = Montserrat({
 });
 
 export default function RootLayout({ children }) {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     // This will ensure the GTM script is loaded only on the client-side
     if (typeof window !== "undefined") {
@@ -28,13 +27,13 @@ export default function RootLayout({ children }) {
       window.dataLayer.push({ event: "gtm.js", start: new Date().getTime() });
     }
   }, []);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 2000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
   
   return (
     <html lang="en" className={montserrat.variable}>
@@ -70,7 +69,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        {isLoading ? <Loader /> :
+        {/* {isLoading ? <Loader /> : */}
           <div className="w-full mx-auto max-w-[1920px]">
             <header>
               <Header />
@@ -82,7 +81,7 @@ export default function RootLayout({ children }) {
               <Footer />
             </footer>
           </div>
-        }
+        {/* } */}
       </body>
     </html>
   );
