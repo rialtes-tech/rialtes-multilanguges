@@ -103,9 +103,8 @@ const schemaData = {
       },
     ],
   },
-  url:"https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/",
+  url: "https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/",
 };
-
 const challenges = [
   {
     number: "1",
@@ -140,7 +139,6 @@ const challenges = [
     ],
   },
 ];
-
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
@@ -150,8 +148,7 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/"
       />
-     
-           <Script
+      <Script
         id="schema-finance"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -185,8 +182,7 @@ export default function Page() {
         <div className="absolute inset-0 flex items-center">
           <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container  text-white xl:mt-0">
             <h1 className="text-[18px] md:text-[24px] font-bold  lg:w-auto leading-tight">
-              Finance Industry Solutions 
-
+              Finance Industry Solutions
             </h1>
             <h2 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leading-tight  mt-[11.5px] md:mt-[28.5px]">
               Shaping the Future of Intelligent Financial Experiences
@@ -195,30 +191,12 @@ export default function Page() {
         </div>
       </section>
       <section className="custom-container xl:py-[97] py-[60px]">
-        <div className="flex xl:gap-32 gap-10   flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%] ">
-          <div className="lg:w-1/2">
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-              In a world where financial services are rapidly evolving,
-              institutions are seeking trusted partners to navigate the
-              complexities of digital transformation, AI adoption, and
-              customer-centric banking. At Rialtes, we bring an integrated,
-              end-to-end approach that combines advisory, design,
-              implementation, integration, quality assurance, and post-go-live
-              support — all tailored for the financial services industry.
-            </p>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-              As a certified Salesforce and SAP partner with offices in the
-              United States, Canada, Singapore, and India, Rialtes delivers deep
-              domain knowledge and technical expertise in Salesforce Financial
-              Services Cloud (FSC), SAP S/4 HANA, and AI-driven solutions —
-              helping banks, wealth managers, insurers, and real estate
-              companies accelerate innovation while remaining compliant and
-              customer-focused.
-            </p>
-          </div>
-        </div>
+        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-[80%] 4xl:w-[76%]">
+         Accelerating Digital Transformation in Financial Services
+        </h2>
+        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
+          Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions. With a global presence and deep industry expertise, we help financial institutions transform securely, stay compliant, and deliver exceptional customer experiences.
+        </p>
       </section>
 
       {/* Thought Leadership section */}

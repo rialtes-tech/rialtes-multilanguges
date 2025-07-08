@@ -5,7 +5,6 @@ import Image from "next/image";
 import Script from "next/script";
 
 export default function page() {
-
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Service",
@@ -129,13 +128,11 @@ export default function page() {
             desc: "For smarter, faster decisions and patient-centric engagement."
         },
     ]
-
     const seamlessData = [
         "API-Led Integration connecting SAP, Oracle, Salesforce, and EMRs.",
         "Order-to-Cash, Procure-to-Pay Automation.",
         "Regulatory Data Sync, Financial and Clinical Data Flow."
     ]
-
     const thoughLeadershipData = [
         "Navigating stringent global regulations like HIPAA, GDPR, and FDA 21 CFR Part 11.",
         "Accelerating time-to-market for life-saving drugs, therapies, and devices.",
@@ -143,13 +140,11 @@ export default function page() {
         "Enabling value-based care through seamless payer-provider collaboration.",
         "Leveraging AI for clinical trial optimization, safety, and real-world evidence."
     ]
-
     const prebuiltData = [
         "Body Map: Interactive visualization for patient medical history and clinical insights.",
         "Patient Interaction: End-to-end patient engagement journey with real-time communications.",
         "Clinical Trial Management Accelerators for seamless trial operations and compliance.",
     ]
-
     const commonSectionData = [
         {
             title: "Payers Module",
@@ -242,7 +237,6 @@ export default function page() {
             deskImg: "/images/industry/life-science/supply-chain-desk.webp",
         },
     ]
-
     const commonSectionData1 = [
         {
             title: "Advanced Data Visualization",
@@ -285,14 +279,11 @@ export default function page() {
     ]
     return (
         <section className="min-h-screen">
-
             <Seo
                 title="Life Sciences Digital Transformation with AI | Rialtes"
                 description=" Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers."
                 canonical="https://www.rialtes.com/industry/life-sciences-digital-transformation/"
             />
-
-
             <Script
                 id="schema-life-science"
                 type="application/ld+json"
@@ -346,7 +337,7 @@ export default function page() {
             <section className="custom-container xl:mt-[119px] mt-[44px]">
                 <div className="">
                     <h2 className="2xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] md:w-[90%] lg:w-[60%] xl:w-[66%] 2xl:w-[90%] 4xl:w-[80%]">
-                        Delivering Innovation and Compliance for Pharma, MedTech, Payers, Providers & Public Health through SAP, Salesforce & AI
+                        Driving Compliance & Innovation in Life Sciences & Healthcare through SAP, Salesforce & AI.
                     </h2>
                     <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight mt-[19px] xl:mt-[49px] w-[90%] sm:w-[80%] lg:w-[60%] xl:w-[70%]">
                         In a world where patient-centricity, compliance, and innovation are critical, life sciences organizations must move fast, stay compliant, and deliver exceptional value. Rialtes partners with global life sciences leaders to redefine their business models, connect ecosystems, and unlock the potential of AI and cloud technologies.
