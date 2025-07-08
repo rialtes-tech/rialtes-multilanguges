@@ -142,7 +142,7 @@ const Header = () => {
         {
           label: 'Quality Engineering & Assurance', href: '/',
           subLinks: [
-            { label: 'Tosca', href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
+            { label: 'Tricentis Tosca', href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
           ],
         },
 
@@ -593,7 +593,7 @@ const Header = () => {
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Tosca" link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")}
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Tricentis Tosca" link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onHover={() => { }} onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")}
                             />
                           </div>
                           <div>
@@ -830,7 +830,7 @@ const Header = () => {
                             <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Retail+" link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} onHover={() => { }} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="AutoSense" link="/services/lob/salesforce-automotive-cloud-business-solutions-autosense" onClick={(e) => handleLinkClick(e, "/services/lob/autosense-automotive-digital-transformation-services")}
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="AutoSense" link="/services/lob/salesforce-automotive-cloud-business-solutions-autosense" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-automotive-cloud-business-solutions-autosense")}
                               onHover={() => { }} />
                           </div>
                           <div>

@@ -207,7 +207,7 @@ export default function DemandPlusSection() {
                 >
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
                         <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  xl:pr-10 pr-20 md:pr-64">
-                            <h3 className="text-white xl:text-[24px]  font-bold mb-2">TOSCA</h3>
+                            <h3 className="text-white xl:text-[24px]  font-bold mb-2"> Tricentis TOSCA</h3>
                             <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
                                 Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services
                             </h1>

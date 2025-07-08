@@ -119,7 +119,8 @@ const WhyChooseRialtes = () => {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-            <div className="custom-container px-[2rem] md:px-auto mt-[120%] md:mt-[110%] max-[410px]:mt-[200%] lg:mt-0">
+           
+            <div className="custom-container px-[2rem] md:px-auto mt-[110%] md:mt-[110%] max-[450px]:mt-[150%] max-[390px]:mt-[170%] max-[355px]:mt-[210%]  lg:mt-0">
                 <div className="max-lg:pt-[37px]">
                     <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight lg:w-[60%] xl:w-[50%] w-[86%]">
                         Why Choose Rialtes for SAP ARIBA Implementation?
@@ -558,7 +559,6 @@ const SeamlessIntergrationsSection = () => {
                 className="block lg:hidden w-full h-[1200px] object-cover"
                 priority
             />
-
             <div className="custom-container max-lg:px-0 relative">
                 <div className="bg-[#006FBE] max-lg:bg-[#006FBE]/70 max-lg:absolute max-lg:bottom-0 text-[#FFFFFF] z-20 xl:py-[64px] lg:px-[60px] md:py-[48px] lg:ml-auto pt-[42px] pb-[98px] px-[36px] lg:translate-y-[-40px] xl:w-[90%] lg:w-[80%] lg:mt-[-400px] 4xl:mt-[-500px] 5xl:mt-[-647px]">
                     <div className="lg:col-span-8 col-span-12">
@@ -801,7 +801,7 @@ export default function page() {
             {/* Contact Form */}
             <div className="custom-container pb-10 xl:mt-[109px] xl:mb-[166px] mt-[50px] mb-[45px]"
             >
-                <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
+                <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"xl:w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
             </div >
         </section>
     )

@@ -6,6 +6,90 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
+import Script from "next/script";
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Salesforce Agentforce Consulting Services",
+    "url": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/",
+    "description": "Rialtes offers Salesforce Agentforce Consulting services to help businesses deploy autonomous AI agents that automate sales, service, and marketing processes with real-time data and low-code tools.",
+    "inLanguage": "en",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntity": {
+        "@type": "Service",
+        "name": "Salesforce Agentforce Consulting",
+        "serviceType": "AI Agent Implementation, Customization, Automation Consulting",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+            { "@type": "Country", "name": "United States" },
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Country", "name": "India" },
+            { "@type": "Country", "name": "Singapore" }
+        ],
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Sales Leaders, Customer Service Heads, Marketing Managers, IT and AI Architects"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Agentforce Consulting Services by Rialtes",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Agentforce Implementation",
+                        "description": "Deploy and configure AI agents in Salesforce to automate workflows across business functions."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Agent Builder Configuration",
+                        "description": "Low-code tool to build and customize agents using Prompt Builder and Model Builder."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce Data Cloud Integration",
+                        "description": "Connect and unify customer data for real-time AI agent actions and insights."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Prompt & Model Builder Setup",
+                        "description": "Create trusted AI prompts and deploy external AI models using Salesforce data."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Atlas Reasoning Engine Enablement",
+                        "description": "Leverage the Atlas Engine to create autonomous agents capable of adapting and reasoning."
+                    }
+                }
+            ]
+        }
+    }
+}
 
 export default function Agentforce() {
 
@@ -170,6 +254,13 @@ export default function Agentforce() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
             />
+            <Script
+                id="schema-agentforce"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+
 
             {/* hero section */}
             <section className="relative group overflow-hidden">

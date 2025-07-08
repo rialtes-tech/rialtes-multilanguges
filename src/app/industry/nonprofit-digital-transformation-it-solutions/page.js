@@ -287,12 +287,12 @@ export default function retailPage() {
                 canonical="https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions/"
             />
 
-                 <Script
-        id="schema-nonprofit"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <Script
+                id="schema-nonprofit"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
@@ -341,10 +341,10 @@ export default function retailPage() {
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div className="md:w-[80%] lg:w-[70%] 4xl:w-[80%] sm:w-[90%]">
                     <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] ">
-                        Empowering Non-Profits to Maximize Mission Impact with Technology, Innovation, and Strategy
+                        Driving Mission Impact for Non-Profits Through Technology and Strategy
                     </h1>
                     <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[43px] mt-[30px] w-[94%] md:w-[90%] lg:w-[90%]">
-                        At Rialtes, we understand that non-profits operate in a unique environment where every dollar and every resource counts toward delivering meaningful impact. Today’s non-profits face complex challenges—from driving consistent fundraising and grant management to managing donors, volunteers, and tracking real-time program outcomes. Rialtes brings a deep understanding of these challenges and leverages leading-edge platforms like Salesforce and SAP to deliver transformative solutions. <br /><br /> Our end-to-end services combine strategic advisory, technology implementation, design, quality assurance, and post-go-live support to ensure non-profits achieve sustainable growth and measurable impact. Through our pre-configured accelerators designed for non-profits, we help organizations fast-track their digital journey and mission fulfillment.
+                        Rialtes empowers non-profits to overcome operational challenges and amplify their mission using Salesforce and SAP-based solutions. From donor and volunteer management to fundraising, grant tracking, and outcome measurement, our end-to-end services, including strategy, implementation, and ongoing support, help organizations achieve scalable growth. With ready-to-deploy accelerators tailored for non-profits, we fast-track digital transformation and maximize impact where it matters most.
                     </p>
                 </div>
             </section>
@@ -490,7 +490,7 @@ export default function retailPage() {
                                                 <p className={`xl:text-[28px] 4xl:text-[32px] text-[18px] leading-tight font-semibold md:mt-[80px] ${ind == 2 && "xl:mt-[51px]"}`}>
                                                     Significance:
                                                 </p>
-                                                <ul className={`xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[22px] pl-[20px] xl:w-[88%] xl:pb-[182px] pb-[87px] ${ind==2 && "xl:pb-[108px]"}`}>
+                                                <ul className={`xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[22px] pl-[20px] xl:w-[88%] xl:pb-[182px] pb-[87px] ${ind == 2 && "xl:pb-[108px]"}`}>
                                                     {data.dataList.map((data, ind) => (
                                                         <li
                                                             className="text-[16px] xl:text-[20px] leading-tight font-normal"

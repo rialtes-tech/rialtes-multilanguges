@@ -7,6 +7,98 @@ import ServicesBlogs from '../../../components/servicesBlogs';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "SuccessFactors Implementation Partner",
+  "url": "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/",
+  "description": "Rialtes offers end-to-end SAP SuccessFactors consulting and implementation services, helping organizations transform HR operations and optimize employee experiences using AI, ML, and analytics.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntity": {
+    "@type": "Service",
+    "name": "SAP SuccessFactors Implementation & Consulting",
+    "serviceType": "SAP SuccessFactors Implementation, Support, Data Migration, Integration, Employee Central & Payroll",
+    "provider": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "url": "https://www.rialtes.com"
+    },
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "Singapore" }
+    ],
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "HR Directors, CHROs, HR Managers, Payroll Leads, IT & HCM Transformation Leaders"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "SAP SuccessFactors Services by Rialtes",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SuccessFactors Implementation",
+            "description": "End-to-end implementation services across HR Core, Talent, and Analytics modules with SAP-certified preconfigured solutions."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SuccessFactors Support",
+            "description": "Comprehensive release management, adoption assistance, technical support, and administration for ongoing system optimization."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Data Modelling and Migration",
+            "description": "Align and migrate organizational data using tools and methods tailored for SuccessFactors schemas and requirements."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Integration and Data Management",
+            "description": "Maintain high data quality through precise ETL processes and integration strategies for connected HR systems."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Employee Central",
+            "description": "Manage organizational structures, employee profiles, and benefits through centralized data for clear reporting and operations."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Employee Central Payroll",
+            "description": "Modernize global payroll management, improve processing speed, ensure compliance, and reduce manual errors."
+          }
+        }
+      ]
+    }
+  }
+}
 const latestServices = [
   {
     id: 1,
@@ -150,6 +242,12 @@ export default function Page() {
         description="SAP SuccessFactors consulting with Rialtes’ Success+ transforms HR with AI, automation, and insight. Your future-ready SuccessFactors implementation partner."
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
+      />
+      <Script
+        id="schema-sucessfactor"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
