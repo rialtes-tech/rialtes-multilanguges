@@ -113,6 +113,12 @@ const WhyChooseRialtes = () => {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/"
             />
+                <Script
+        id="schema-sap-buy-plus"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="custom-container px-[2rem] md:px-auto mt-[120%] md:mt-[110%] max-[410px]:mt-[200%] lg:mt-0">
                 <div className="max-lg:pt-[37px]">
                     <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight lg:w-[60%] xl:w-[50%] w-[86%]">
@@ -759,12 +765,7 @@ export default function page() {
                 </div>
             </section>
             
-              <Script
-        id="schema-sap-buy-plus"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+          
             {/* page information */}
             <section className="custom-container mt-[51px] lg:mt-[85px] px-[2rem]">
                 <p className=" leading-tight font-normal w-[96%] 4xl:text-[22px] xl:text-[19px] text-[16px] xl:w-[90%] lg:w-[90%]">

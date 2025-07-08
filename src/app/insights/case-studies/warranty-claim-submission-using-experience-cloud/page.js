@@ -7,15 +7,15 @@ import Script from "next/script";
 
 const schemaData =
 {
-  "@context": "https://schema.org",
+    "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud"
   },
-  "headline": "Case Study: 40% Enhanced Adoption of Warranty Application Using Mobile Publisher Experience Cloud Capability",
+  "headline": "Case Study: Salesforce Experience Cloud Transforms Warranty Claims for a Roofing Manufacturer",
   "description": "Rialtes helped a roofing manufacturer in the building materials industry modernize warranty claims using Salesforce Experience Cloud, integrating LWC, address validation, automation, and ERP for better accuracy and efficiency.",
-  "image": "https://www.rialtes.com/images/case-studies/adaptis_web-banner.webp",
+  "image": "https://www.rialtes.com/images/homepage/logo.svg",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
