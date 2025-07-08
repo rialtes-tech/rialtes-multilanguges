@@ -293,7 +293,7 @@ export default function Page() {
             <h1 className="text-[18px] xl:text-[24px] font-bold mb-2 leading-tight">
               Oracle EBS Services
             </h1>
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[45px] text-[24px]  md:text-[26px] xl:font-normal mt-5 font-light pr-20 xl:pr-0  xl:w-[35%] 2xl:w-[30%] 4xl:w-[36%] ">
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[45px] text-[24px]  md:text-[26px] xl:font-normal mt-5 font-light pr-20 xl:pr-0  xl:w-[35%] 2xl:w-[30%] 4xl:w-[37%] ">
               Modernizing Your Enterprise, End-to-End
             </h2>
           </div>
