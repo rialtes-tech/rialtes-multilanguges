@@ -5,7 +5,7 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import ContactForm from "../../../components/contactform";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -103,23 +103,14 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting/"
       />
-
-              <Script
+      <Script
         id="schema-sap-bdc"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      {/* <HeroSection
-        title="Unlock the Future of Data with SAP Business Data Cloud"
-        subtitle="SAP Business Data Cloud"
-        mobimg="/images/sap-bdc-services/sap-bdc-services-mobile.webp"
-        deskimg="/images/sap-bdc-services/sap-bdc-services-web.webp"
-        extraImg=""
-      /> */}
-
+      {/* hero section */}
       <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
-        {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
             src="/images/sap-bdc-services/sap-bdc-services-web.webp"
@@ -130,7 +121,6 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
@@ -154,8 +144,8 @@ export default function Page() {
           </div>
         </div>
       </section>
-
-      <section className="mt-16  ">
+      {/* page description */}
+      <section className="mt-16">
         <section className="custom-container">
           <h2 className="4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Unify Your Enterprise Data From Finance to Frontline{" "}
@@ -165,21 +155,13 @@ export default function Page() {
             business applications. With SAP Business Data Cloud, we enable you
             to integrate:
           </p>
-
           <div className="flex xl:gap-32 gap-10   flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%] ">
             <div className="lg:w-1/2">
-              <ul className="list-disc text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium ">
-                <li className="pb-4">
-                  Finance, Procurement, and Supply Chain Data from SAP S/4HANA
-                </li>
-                <li className="pb-4">
-                  Workforce and Payroll Intelligence from SAP SuccessFactors
-                </li>
-                <li>
-                  Sales, Service, and Marketing Insights from Salesforce or SAP
-                  CX
-                </li>
-              </ul>
+              <UnorderedList arrName={[
+                "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+                "Workforce and Payroll Intelligence from SAP SuccessFactors",
+                "Sales, Service, and Marketing Insights from Salesforce or SAP CX",
+              ]} ulClassName="list-disc text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium space-y-4" liClassName="" />
             </div>
             <div className="lg:w-1/2">
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
@@ -193,8 +175,8 @@ export default function Page() {
         </section>
         <div className="py-7"></div>
         {/* A Unified, Open Data section */}
-        <section className=" custom-container  lg:px-0 ">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center  ">
+        <section className="custom-container lg:pl-0 ">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 4xl:gap-[60px] items-center gap-y-10">
             <div className="lg:col-span-7 h-full w-full ">
               <Image
                 src="/images/sap-bdc-services/Unified-web.webp"
@@ -212,11 +194,11 @@ export default function Page() {
                 className="block lg:hidden w-full h-full object-cover px-0"
               />
             </div>
-            <div className="lg:col-span-5  2xl:pl-8 2xl:p-11  xl:pl-8 sm:pl-6 ">
-              <h2 className=" text-black  leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 4xl:w-[84%] 2xl:w-[66%] ">
+            <div className="lg:col-span-5 2xl:pl-8 xl:pl-8 sm:pl-6">
+              <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 4xl:w-[84%] 2xl:w-[66%] ">
                 A Unified, Open Data Foundation for Intelligent Enterprises
               </h2>
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] lg:pr-[56px] leading-tight">
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                 SAP Business Data Cloud enhances enterprise data management by
                 combining SAP’s data platform capabilities with native
                 integration for SAP applications and compatibility with
@@ -229,7 +211,7 @@ export default function Page() {
                 Rialtes empowers organizations to seamlessly adopt SAP Business
                 Data Cloud and unlock the full value of their enterprise data.
               </p>
-              <div className="">
+              <div className="xl:mt-[59px] mt-[22px]">
                 <LearnMore />
               </div>
             </div>
@@ -298,7 +280,7 @@ export default function Page() {
 
             {/* Learn More*/}
             <div className="absolute bottom-[-19px]">
-       
+
               <LearnMore />
             </div>
           </div>
@@ -366,7 +348,7 @@ export default function Page() {
         </section>
         <div className="py-10"></div>
 
-                      {/* Rialtes: Your Trusted SAP & Databricks Partner */}
+        {/* Rialtes: Your Trusted SAP & Databricks Partner */}
 
         <section className="custom-container  grid grid-cols-1 xl:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-0  xl:mt-6">
           <div className="order-1 xl:order-2 2xl:h-[579px] h-full xl:col-span-5">
@@ -420,7 +402,7 @@ export default function Page() {
         </section>
         <div className="py-10"></div>
 
-{/* Seamless Migration from SAP section */}
+        {/* Seamless Migration from SAP section */}
 
         <section className="custom-container  px-[2rem]">
           <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
@@ -456,7 +438,7 @@ export default function Page() {
         </section>
 
         <div className="py-4"></div>
-                      {/* Migrate from SAP Datasphere to SAP Business Data Cloud */}
+        {/* Migrate from SAP Datasphere to SAP Business Data Cloud */}
 
         <section className="lg:mt-[120px] mt-[10px]">
           <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -549,7 +531,7 @@ export default function Page() {
         </section>
         <div className="py-10"></div>
 
-                  {/* Connect SAP Business Data Cloud with Databricks */}
+        {/* Connect SAP Business Data Cloud with Databricks */}
 
         <section className="custom-container xl:pr-0 max-md:px-0">
           <div className="relative overflow-hidden">
@@ -610,7 +592,7 @@ export default function Page() {
         </section>
 
         <div className="py-10"></div>
-                                {/* Our SAP Business Data Cloud Services */}
+        {/* Our SAP Business Data Cloud Services */}
 
 
         <section className="relative max-[417px]:h-[710px] h-[600px] sm:h-[400px] md:h-[600px] lg:h-[480px] xl:h-[600px] 2xl:h-[712px] overflow-hidden">
@@ -754,9 +736,9 @@ export default function Page() {
         </section>
       </section>
       <div className="mx-[35px]  custom-container text-black py-16">
-    <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
+        <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
           title=
-            "Let’s Build Your Enterprise Data Cloud Together"
+          "Let’s Build Your Enterprise Data Cloud Together"
           subtitle="
             Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."/>
       </div>

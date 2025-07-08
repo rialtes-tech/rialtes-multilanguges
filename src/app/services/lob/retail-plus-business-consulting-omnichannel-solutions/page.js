@@ -184,7 +184,7 @@ const rialChat = [
   "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
 ]
 
-export default function Retail() {
+export default function page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo

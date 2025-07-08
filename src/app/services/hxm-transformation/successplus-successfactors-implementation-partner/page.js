@@ -1,6 +1,4 @@
 "use client";
-// pages/success-factors.js
-import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
@@ -41,7 +39,6 @@ const latestServices = [
     description: "Reduce manual effort, minimize errors, and improve processing speed with a modern payroll system for global payroll management and automated processes to streamline payments across diverse regions, ensuring compliance and accuracy",
   },
 ];
-
 const ServicesCard = ({ services }) => (
   <div className="  flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
@@ -101,9 +98,6 @@ const sapBenefits = [
   "Comprehensive support for long-term analysis, implementation, and transition from on-premises to cloud",
   "A well-established SuccessFactors Center of Excellence with ready-to-use content",
 ];
-
-
-
 export default function Page() {
   const slides = [
     {
@@ -157,8 +151,7 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
       />
-
-
+      {/* hero section */}
       <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
@@ -199,12 +192,13 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* page description */}
       <section className="custom-container">
         <div className="py-8 bg-white">
           <div className="2xl:pr-72 xl:pr-40 md:pr-20">
             <div className="flex flex-col lg:flex-row items-center py-6">
               <div className="flex flex-col  xl:mb-0 mb-4 ">
-                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[46px] xl:w-[660px] 2xl:w-[780px]  4xl:text-[60px] 4xl:w-[870px] lg:text-[38px] lg:w-[550px] leading-tight text-[24px] md:text-[32px] ">Achieve Performance Excellence with SuccessFactors Consulting</h1>
+                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[46px] xl:w-[660px] 2xl:w-[780px] 4xl:text-[60px] 4xl:w-[870px] lg:text-[38px] lg:w-[550px] leading-tight text-[24px] md:text-[32px] ">Achieve Performance Excellence with SuccessFactors Consulting</h1>
               </div>
               <div className="flex flex-col w-full xl:w-1/2">
                 <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[480px] 4xl:text-[20px] 4xl:w-[550px]  xl:text-[16px] xl:w-[430px] lg:text-[14px] lg:w-[385px] md:text-[18px]">We go beyond SAP SuccessFactors implementation, offering end-to-end global HCM transformation that automates HR processes and enhances both user and employee experiences. By combining the SAP SuccessFactors platform with our artificial intelligence, machine learning, and analytics capabilities, we transform the human experience while aligning with business goals.</p>
@@ -213,14 +207,12 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* Latest Services Section */}
       <div className="custom-container lg:mt-20 md:mt-6">
         <section className=" bg-white">
           <Services />
         </section>
       </div>
-
       {/* SuccessFactors Integration Solutions */}
       <div className="custom-container lg:mt-10 mt-6 md:mt-10">
         <section className="py-10">
@@ -252,7 +244,6 @@ export default function Page() {
           </div>
         </section>
       </div>
-
       {/* Reimagine Employee Experiences and Optimize HR Operations */}
       < div className="bg-[#EDEDED] py-6 lg:mt-20 mt-2 md:mt-10" >
         <div className="custom-container">
@@ -278,12 +269,8 @@ export default function Page() {
           </section>
         </div>
       </div>
-
-
       {/* Maximize HR Efficiency */}
-      <div
-        className="custom-container lg:mt-20 md:mt-8"
-      >
+      <div className="custom-container lg:mt-20 md:mt-8">
         <section className="pb-10 pt-16 bg-white">
           <div className="">
             <h2 className="pb-4 text-black xl:hidden flex leading-tight lg:text-[38px] lg:w-[480px] text-[24px] md:text-[32px]">Maximize HR Efficiency in Your Organization</h2>
@@ -313,19 +300,16 @@ export default function Page() {
                 </div>
               </div>
             </div>
-
             <LearnMore />
           </div>
         </section>
       </div>
-
       {/* Latest Customer Success Stories */}
       < div className="bg-[#F5F5F5] py-20 md:mt-10 mt-4 lg:mt-20" >
         <div className="custom-container">
           <FeaturedCarousel />
         </div>
       </div>
-
       {/* Latest Blogs */}
       <div className="mb-20 custom-container lg:pr-0 md:mt-10 mt-10 lg:mt-20">
         {slides && slides.length > 0 ? (
@@ -333,23 +317,17 @@ export default function Page() {
         ) : (
           <p>No blogs available at the moment.</p>
         )}
-
       </div>
-
       {/* Explore More */}
       < div className="bg-[#808080] py-14 md:mt-10 mt-4 lg:mt-20" >
         <div className="custom-container lg:pr-0">
           <ExploreMoreCarousel />
         </div>
       </div >
-
-
       {/* Contact Form */}
       <div className="py-16 custom-container text-black">
         <ContactForm title={'Take the next step to operational excellence with us.'} className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
       </div >
-
-
     </div >
   );
 }
