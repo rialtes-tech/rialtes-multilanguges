@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
 import Head from "next/head";
-import Loader from "./Loader";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
