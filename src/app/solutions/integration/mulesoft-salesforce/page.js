@@ -171,7 +171,7 @@ const page = () => (
 
     {/* hero section */}
 
-  <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
+  <section className="relative group overflow-hidden h-[399px] lg:h-[670px] sm:h-[450px]">
       {/* Desktop Image */}
       <div className="hidden md:block">
         <Image
@@ -194,7 +194,27 @@ const page = () => (
         />
       </div>
 
-      <div className="relative h-full custom-container flex items-center text-[#ffffff]">
+   <div className="absolute custom-container  lg:text-start top-[22%] text-[#ffffff]">
+                      <h1 className="text-[18px] lg:text-[24px] font-bold">
+              MuleSoft Integration Solutions
+            </h1>
+            <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+              Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
+            </h2>
+            <div className="flex sm:justify-end justify-start">
+                    <Image
+                        src="/images/salesforce-consulting-services/salesforce-partner.webp"
+                        className="sm:w-[22%] w-[37%]  h-full bg-transperent sm:mt-15  mt-8"
+                        alt="Leadership Team"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        priority
+                    />
+                    </div>
+                </div>
+      {/* <div className="relative h-full custom-container flex items-center text-[#ffffff]">
+
         <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
           <div className="col-span-12">
             <h1 className="text-[18px] lg:text-[24px] font-bold">
@@ -203,11 +223,15 @@ const page = () => (
             <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
               Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
             </h2>
+            
           </div>
           <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+            
           </div>
         </div>
-      </div>
+        
+     
+      </div> */}
     </section>
 
     {/* page description */}
@@ -269,8 +293,8 @@ const page = () => (
 
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 ">
         {serveData.map(({ _id, tittle, descrip }) => (
-          <div className="border-r border-[#707070] ">
-            <div className="max-w-[256px]" key={_id}>
+          <div className="border-r border-[#707070] " key={_id}>
+            <div className="max-w-[256px]">
               <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px]">{tittle}</h4>
               <p className="4xl:text-[20px] xl:text-[18px] text-[16px] font-medium">{descrip}</p>
             </div>
@@ -282,11 +306,11 @@ const page = () => (
     {/* drive data section */}
     <div className="bg-[#EDEDED] py-16 mt-20">
       <div className="custom-container">
-        <h2 className=" font-light mb-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+        <h2 className=" font-light mb-16 leading-tight 4xl:text-[40px] xl:text-[35px] md:text-[26px] ">
           Drive Measurable Business Outcomes
         </h2>
 
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 ">
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 ">
           {driveData.map(({ _id, percent, des }) => (
             <div key={_id}>
               <h2 className="font-extrabold 4xl:text-[70px] xl:text[60px] text-[#0092E0]">

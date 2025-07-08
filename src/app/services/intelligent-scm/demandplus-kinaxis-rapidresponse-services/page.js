@@ -212,9 +212,9 @@ export default function DemandPlusSection() {
                 {/* Content Block */}
                 <div
                     className={`custom-container z-10 relative xl:absolute xl:top-[45%] top-[-100px]  xl:-translate-y-1/2`}>
-                    <div className="bg-[#016FBE] bg-opacity-90 text-white p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32">
+                    <div className="bg-[#016FBE] bg-opacity-90 text-white p-[20px] md:p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32">
                         <h3 className="font-light xl:text-[30px] text-[18px]">Introducing</h3>
-                        <h3 className="4xl:text-[50px] xl:text-[40px] text-[23px] leading-[60px]">Rialtes DemandPlus</h3>
+                        <h3 className="4xl:text-[50px] xl:text-[40px] text-[23px] max-[350px]:text-[20px] leading-[60px]">Rialtes DemandPlus</h3>
                         <h3 className="4xl:text-[36px] xl:text-[25px] text-[22px] mt-5">End-to-End Kinaxis Services</h3>
                         <p className="mt-8 4xl:text-[22px] text-[16px] leading-tight font-normal">
                             Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:
@@ -228,7 +228,7 @@ export default function DemandPlusSection() {
                 </div>
             </section>
 
-            <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-81px] sticky mt-[-7rem] md:mt-[-7rem] mx-[35px] xl:mx-0 z-[99]">
+            <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-81px] sticky mt-[-7rem] md:mt-[-7rem] mx-[35px] xl:mx-0 z-[20]">
                 <div className="col-span-4"></div>
                 <div className="col-span-7 bg-[#163055] p-8">
                     <p className="4xl:text-[26px] text-[18px] text-white leading-tight font-normal xl:pr-10">From strategy to execution, Rialtes enables a seamless and accelerated journey to Kinaxis-driven supply chain transformation.</p>
@@ -255,19 +255,19 @@ export default function DemandPlusSection() {
                             priority
                             width={0}
                             height={0}
-                            className="w-full  transform transition-transform duration-500 group-hover:scale-110"
+                            className="w-full h-full  transform transition-transform duration-500 group-hover:scale-110"
                             sizes="100vw"
                         />
                     </div>
 
-                    <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[25rem] top-[18rem] md:top-[36rem]">
-                        <div className="xl:col-span-6 bg-[#0B3A66]  pl-[35px] xl:py-16 py-8 xl:pr-20 pr-10 mr-[100px] xl:mr-0 custom-container">
-                            <h2 className="mb-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Why Kinaxis RapidResponse?</h2>
-                            <p className="font-light pr-[2rem] xl:pr-0 xl:mt-10 mt-5">
+                    <div className="absolute  text-white grid lg:grid-cols-12 grid-cols-12 xl:top-[25rem] top-[260px] sm:top-[36rem] :">
+                        <div className="lg:col-span-6 col-span-10 bg-[#0B3A66]  pl-[35px] xl:py-16 py-8 xl:pr-20  xl:mr-0 custom-container">
+                            <h2 className="lg-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Why Kinaxis RapidResponse?</h2>
+                            <p className="font-light xl:pr-0 xl:mt-10 mt-5">
                                 Kinaxis RapidResponse is a cloud-based supply chain planning platform that delivers:
                             </p>
                         </div>
-                        <div className="xl:col-span-6"></div>
+                        <div className="lg:col-span-6"></div>
                     </div>
                 </div>
 
@@ -341,7 +341,7 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-            <p className="bg-[#163055] p-8  xl:!mx-[280px]  z-[999] max-md:mx-[35px]  text-white 4xl:mt-[-50px] mt-10 relative 4xl:text-[26px] xl:text-[15px] text-[18px] font-normal">Outcome: Greater forecast accuracy, lower inventory, and improved service levels.</p>
+            <p className="bg-[#163055] p-8  xl:!mx-[280px]  z-[15] max-md:mx-[35px]  text-white 4xl:mt-[-50px] mt-10 relative 4xl:text-[26px] xl:text-[15px] text-[18px] font-normal">Outcome: Greater forecast accuracy, lower inventory, and improved service levels.</p>
             <section className="relative w-full xl:mt-[-53px] mt-16">
                 <div className="w-full xl:h-[1083px]">
                     <div className="xl:block hidden">
@@ -446,7 +446,7 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                         />
                     </div>
-                    <div className="col-span-6 xl:bg-[#EAEAEA] xl:p-20 pt-8">
+                    <div className="col-span-6 xl:bg-[#EAEAEA] xl:p-20 pt-8 xl:pr-[120px]">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Seamless Integration with SAP, Oracle, and Non-SAP Systems</h2>
                         <h3 className="mt-10 4xl:text-[42px] xl:text-[32px] text-[22px] font-semibold leading-tight">Integrate Kinaxis with Your Existing ERP Ecosystem</h3>
                         <p className="mt-5 xl:pr-20 pr-10 font-normal leading-tight 4xl:text-[20px] text-[16px]">Rialtes delivers robust integration services using SAP Cloud Platform Integration (SAP CPI) and Kinaxis-certified connectors:</p>
