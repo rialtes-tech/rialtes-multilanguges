@@ -6,8 +6,99 @@ import CarouselComponent from "../../../components/useCarousel";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
 
-
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SAP Consulting Services",
+    "url": "https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/",
+    "description": "Rialtes provides SAP Consulting Services including RISE with SAP, GROW with SAP, SuccessFactors, S/4HANA Migration, and Ariba implementation to help organizations enhance operations, automate workflows, and scale efficiently.",
+    "inLanguage": "en",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntity": {
+        "@type": "Service",
+        "name": "SAP Consulting",
+        "serviceType": "SAP ERP, S/4HANA Migration, SAP SuccessFactors, SAP Ariba, RISE with SAP, GROW with SAP",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+            { "@type": "Country", "name": "United States" },
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Country", "name": "India" },
+            { "@type": "Country", "name": "Singapore" }
+        ],
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "CIOs, IT Leaders, HR Directors, Procurement Heads, SAP Architects, ERP Managers"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "SAP Consulting Services by Rialtes",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "RISE with SAP",
+                        "description": "Support for SAP’s cloud transformation strategy, helping organizations adopt S/4HANA through a subscription-based as-a-service model."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "GROW with SAP",
+                        "description": "Cloud ERP solutions for mid-size businesses to enable scalable growth, flexible deployment, and accelerated digital transformation."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "SuccessFactors Consulting",
+                        "description": "End-to-end HCM transformation including payroll, talent acquisition, learning management, and HR analytics."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "SAP Ariba Implementation",
+                        "description": "Procurement transformation and spend management, offering increased visibility, compliance, and automation."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "SAP S/4HANA Migration",
+                        "description": "Seamless migration from legacy ERP systems to SAP S/4HANA for improved process efficiency and business intelligence."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Custom Application Development & Automation",
+                        "description": "Develop industry-specific SAP solutions including bots, chat automation, and RPA to drive digital transformation."
+                    }
+                }
+            ]
+        }
+    }
+}
 const solutionSuccess = [
     {
         id: 1,
@@ -76,6 +167,12 @@ export default function Page() {
                 description="Our SAP consulting and implementation services, with AI at their core, simplify the process, so you can focus on what matters most—growing your business."
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
+            />
+            <Script
+                id="schema-sap-consulting"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
             {/* hero section */}

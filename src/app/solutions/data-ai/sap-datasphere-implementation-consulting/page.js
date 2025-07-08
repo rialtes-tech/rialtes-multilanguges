@@ -5,6 +5,7 @@ import Link from "next/link";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
+import Script from "next/script";
 const industryAcceleratorsData = [
     "AI-powered Manufacturing production and inventory optimization.",
     "Semiconductor-specific yield, demand, and supply chain analytics.",
@@ -509,7 +510,7 @@ const SapAribaSection = () => {
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[240px] mt-[94px]">
                 <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0">
-                    End-to-End Integration — <div className="sm:block hidden"/> Real-Time Data Unification
+                    End-to-End Integration — <div className="sm:block hidden" /> Real-Time Data Unification
                 </h2>
                 <div>
                     {/* Mobile Image */}
@@ -945,7 +946,79 @@ const GlobalPresenceSection = () => {
         </section>
     )
 }
-
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "SAP Datasphere Consulting & Implementation Services",
+    "url": "https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/",
+    "description": "Looking to unify and harness enterprise data using SAP Datasphere? Rialtes offers consulting, implementation, integration, and AI optimization services to turn data into actionable insights.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc",
+            "https://x.com/Rialtestech",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Continent", "name": "Europe" }
+    ],
+    "serviceType": "SAP Datasphere Consulting and AI-Driven Data Lake Implementation",
+    "category": "Enterprise Data Management & Analytics",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "End-to-End SAP Datasphere Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Consulting & Architecture Advisory" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Implementation & Configuration" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Integration with SAP & Non-SAP Systems" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Industry-Specific AI Data Lake Accelerators" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Real-Time Data Governance & Compliance Setup" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "AI-Powered Data Visualization with SAP Analytics Cloud & Tableau" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Post-Go-Live AI Optimization and KPI Dashboards" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Integration with SAP S/4HANA, Ariba, and SuccessFactors" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Salesforce + SAP Datasphere Integration for Customer 360" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "AI Use Cases for Manufacturing, Automotive, Retail, Education & HR" }
+            }
+        ]
+    }
+}
 export default function () {
     return (
         <>
@@ -954,6 +1027,14 @@ export default function () {
                 description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
                 canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
             />
+            <Script
+                id="schema-sap-datasphere"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+
+
 
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">

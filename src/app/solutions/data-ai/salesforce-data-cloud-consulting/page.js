@@ -4,7 +4,90 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
-
+import Script from "next/script";
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Salesforce Data Cloud Consulting Services",
+  "url": "https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/",
+  "description": "Rialtes provides Salesforce Data Cloud Consulting services to help businesses unify data, drive real-time personalization, and activate AI-powered insights across marketing, commerce, and operations.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Salesforce Data Cloud Consulting",
+    "serviceType": "Customer 360 Integration, AI Activation, Real-Time Personalization",
+    "provider": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "url": "https://www.rialtes.com"
+    },
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "Singapore" }
+    ],
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "CMOs, CIOs, Marketing Leaders, CRM Architects, Data Platform Owners"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Salesforce Data Cloud Services by Rialtes",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salesforce Data Cloud Implementation",
+            "description": "Infrastructure setup, source configuration, and activation of real-time data orchestration features in Salesforce Data Cloud."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Data Cloud Consulting",
+            "description": "Tailored advisory services to help organizations architect personalized, privacy-compliant, and AI-powered data ecosystems."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salesforce Data Cloud Migration",
+            "description": "Seamless and secure migration from legacy data platforms to Salesforce Data Cloud with minimal disruption."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Managed Cloud Services",
+            "description": "Ongoing performance monitoring, governance, and optimization of public, private, and hybrid Salesforce Cloud environments."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Private Cloud Services",
+            "description": "Deploy isolated private cloud infrastructure for enhanced compliance, control, and security of sensitive data workloads."
+          }
+        }
+      ]
+    }
+  }
+}
 const featureBoxes = [
   {
     icon: "/images/data-cloud/customer-360-view.svg",
@@ -116,6 +199,12 @@ export default function DataCloud() {
         keywords="home, website, welcome"
         canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />
+      <Script
+        id="schema-data-cloude"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
       {/* hero section */}
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
@@ -165,7 +254,7 @@ export default function DataCloud() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  
+
                   className="sm:h-[30%] sm:w-[30%] h-[45%] w-[45%]"
                   style={{
                     objectFit: "cover",

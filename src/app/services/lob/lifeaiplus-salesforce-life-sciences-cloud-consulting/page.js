@@ -7,6 +7,135 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import Script from "next/script";
+const schemaData = {
+      "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "LifeAI+ Salesforce Life Sciences Cloud Consulting",
+  "url": "https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
+  "description": "Rialtes LifeAI+ is an end-to-end Salesforce Life Sciences Cloud consulting service empowering life sciences organizations with AI-driven compliance, automation, and patient engagement solutions.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Rialtes LifeAI+ for Salesforce Life Sciences Cloud",
+    "serviceType": "Salesforce Life Sciences Cloud Consulting",
+    "provider": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "url": "https://www.rialtes.com"
+    },
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "Singapore" }
+    ],
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Pharmaceutical, Biotech, Medical Devices, Healthcare Providers, Life Sciences Leaders"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "LifeAI+ Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salesforce Life Sciences Cloud Implementation"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Strategic Advisory & Roadmap Development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Regulatory Compliance & Quality Assurance"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "System Integration with ERP, EMR, and Partner Platforms"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI-Powered Insights with Salesforce Data Cloud"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Prior Authorization Management"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Remote Patient Monitoring & Telehealth Solutions"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digital Signature & Document Extraction Automation"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Patient & HCP 360° Engagement Journeys"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Medical Affairs & Field Team Enablement"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Omnichannel Communication Setup"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI-Driven Case Management with Agentforce"
+          }
+        }
+      ]
+    }
+  }
+}
+
 
 const RelatedSolutionsSection = () => {
     const relatedSolutionsData = [
@@ -113,6 +242,13 @@ export default function Retail({ items }) {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/"
             />
+            <Script
+        id="schema-lifeaiplus"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+
 
             <section className="relative h-[435px] lg:h-[650px]">
 
