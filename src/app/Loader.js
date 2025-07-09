@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-export default function Loading() {
+export default function Loader() {
     return (
         <div className="flex flex-col items-center justify-center h-screen">
             <div className="relative w-[120px] h-[120px] flex items-center justify-center">
