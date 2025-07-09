@@ -117,43 +117,43 @@ export default function Page() {
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success";
 
-    return (
-        <div className="min-h-screen bg-white">
-            <Seo
-                title="Why AgentExchange Is a Game-Changer | Rialtes"
-                description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
-                canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
-            />
-   
-               <Script
+  return (
+    <div className="min-h-screen bg-white">
+      <Seo
+        title="Why AgentExchange Is a Game-Changer | Rialtes"
+        description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
+        canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
+      />
+
+      <Script
         id="schema-discover"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-             {/* Desktop Image */}
-             <div className="hidden md:block">
-               <Image
-                 src="/images/blog/agentexchange-blog-banner.webp"
-                 alt="Discover AgentExchange"
-                 fill
-                 style={{ objectFit: "cover"}}
-                 priority
-                 className="transform transition-transform duration-500 group-hover:scale-110"
-               />
-             </div>
-     
-             {/* Mobile Image */}
-             <div className="block md:hidden">
-               <Image
-                 src="/images/blog/agentexchange-blog-banner-mobile.webp"
-                 alt="Discover AgentExchange"
-                 fill
-                 style={{ objectFit: "cover" }}
-                 priority
-               />
-             </div>
-           </section>
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/agentexchange-blog-banner.webp"
+            alt="Discover AgentExchange"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/agentexchange-blog-banner-mobile.webp"
+            alt="Discover AgentExchange"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+          />
+        </div>
+      </section>
 
       <section
         className="
@@ -191,7 +191,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                
+
                   <div className="max-w-[40px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
@@ -273,34 +273,34 @@ export default function Page() {
               </p>
 
               <div className="pl-6">
-                  <ol className="list-decimal  marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3">
-              <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">
-                 Pre-built AI Agents
-                </h3>
-                : Access a diverse
-                  range of ready-to-use AI agents tailored for different
-                  business functions.
-              </li>
-              <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">
-                 Customization & Development Tools
-                </h3>
-                : Leverage powerful tools to fine-tune AI agents to meet
-                  specific enterprise needs.
-              </li>
-              <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Community Collaboration</h3>: Connect with
-                  industry experts, developers, and fellow users to share best
-                  practices and insights.
-              </li>
-              <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Trusted Marketplace</h3>: 
-                Browse and integrate
-                  AI agents verified for security, compliance, and scalability.
-              </li>     
-            </ol>
- 
+                <ol className="list-decimal  marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3">
+                  <li>
+                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">
+                      Pre-built AI Agents
+                    </h3>
+                    : Access a diverse
+                    range of ready-to-use AI agents tailored for different
+                    business functions.
+                  </li>
+                  <li>
+                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">
+                      Customization & Development Tools
+                    </h3>
+                    : Leverage powerful tools to fine-tune AI agents to meet
+                    specific enterprise needs.
+                  </li>
+                  <li>
+                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Community Collaboration</h3>: Connect with
+                    industry experts, developers, and fellow users to share best
+                    practices and insights.
+                  </li>
+                  <li>
+                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Trusted Marketplace</h3>:
+                    Browse and integrate
+                    AI agents verified for security, compliance, and scalability.
+                  </li>
+                </ol>
+
               </div>
 
               <div className="py-6"></div>
@@ -317,26 +317,26 @@ export default function Page() {
                 organizations.
               </p>
 
-<ol className="pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 list-none">
-  <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Accelerate AI Adoption</h3>: Businesses can rapidly
-                implement AI agents without extensive development efforts.
-              </li>
-               <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Ensure Compliance & Security</h3>: 
-                All agents
-                available on AgentExchange undergo rigorous security
-                assessments, ensuring compliance with industry standards.
-              </li>  
+              <ol className="pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 list-none">
                 <li>
-                <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Promote Innovation</h3>: 
-                Developers and businesses
-                can contribute and commercialize AI agents, fostering a thriving
-                AI ecosystem.
-              </li>   
-              
-              
-</ol>
+                  <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Accelerate AI Adoption</h3>: Businesses can rapidly
+                  implement AI agents without extensive development efforts.
+                </li>
+                <li>
+                  <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Ensure Compliance & Security</h3>:
+                  All agents
+                  available on AgentExchange undergo rigorous security
+                  assessments, ensuring compliance with industry standards.
+                </li>
+                <li>
+                  <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Promote Innovation</h3>:
+                  Developers and businesses
+                  can contribute and commercialize AI agents, fostering a thriving
+                  AI ecosystem.
+                </li>
+
+
+              </ol>
 
               <div className="py-6"></div>
 
@@ -349,78 +349,78 @@ export default function Page() {
               </h3>
 
               <p className="text-black pb-4">
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/?utm_source=blog&utm_medium=organic" target="_blank">
-                Salesforce partners</Link> and Agentblazers can now enhance
+                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
+                  Salesforce partners</Link> and Agentblazers can now enhance
                 Agentforce-powered AI solutions with four key agentic
                 components:
               </p>
 
               <div className="pl-6">
 
-    <ol className="list-decimal  marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3">
-              <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
-                Actions
-                </h4>
-                : Extend what agents can do by
-                  integrating Apex, flows, APIs, and prompts, enabling
-                  industry-specific automation.
-              </li>
-              <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
-                 Prompt Template
-                </h4>
-                : Leverage pre-written,
-                  reusable prompts to ensure consistent interactions, guide user
-                  engagement, and streamline information gathering.
-              </li>
-              <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Topics</h4>: Group-related actions and
-                  instructions to refine agent behavior, ensuring focus,
-                  consistency, and adherence to best practices.
-              </li>
-              <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Agent Templates</h4>: 
-                Build comprehensive AI
-                  solutions by combining multiple topics, actions, and metadata
-                  into structured, scalable agent models.
-              </li>     
-            </ol>
+                <ol className="list-decimal  marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3">
+                  <li>
+                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
+                      Actions
+                    </h4>
+                    : Extend what agents can do by
+                    integrating Apex, flows, APIs, and prompts, enabling
+                    industry-specific automation.
+                  </li>
+                  <li>
+                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
+                      Prompt Template
+                    </h4>
+                    : Leverage pre-written,
+                    reusable prompts to ensure consistent interactions, guide user
+                    engagement, and streamline information gathering.
+                  </li>
+                  <li>
+                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Topics</h4>: Group-related actions and
+                    instructions to refine agent behavior, ensuring focus,
+                    consistency, and adherence to best practices.
+                  </li>
+                  <li>
+                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Agent Templates</h4>:
+                    Build comprehensive AI
+                    solutions by combining multiple topics, actions, and metadata
+                    into structured, scalable agent models.
+                  </li>
+                </ol>
 
-          
+
               </div>
               <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
                 Seamless AI Solution Discovery and Deployment
               </h3>
 
               <ol className="pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 list-none">
-  <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Easily Find, Try, and Buy AI Solutions</h4>: AgentExchange simplifies the discovery and deployment of trusted
-                AI solutions. Customers can explore offerings through the
-                marketplace or within Salesforce’s Agent Builder tool, ensuring
-                the right fit for their industry and use case.
-              </li>
-               <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]" >Pre-Built CRM and Slack Actions</h4>: 
-               Partners can
-                now offer out-of-the-box Agentforce actions, including Slack
-                capabilities. These pre-packaged solutions support tasks like
-                case creation, order cancellations, Slack canvas updates, and
-                direct messaging, streamlining enterprise workflows.
-              </li>  
                 <li>
-                <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Industry-Specific AI Solutions</h4>: 
-                Businesses can
-                leverage pre-built, customizable AI agents from expert
-                Salesforce partners. Every solution undergoes rigorous security
-                reviews and customer validation to ensure reliability and
-                effectiveness.
-              </li>   
-              
-              
-</ol>
+                  <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Easily Find, Try, and Buy AI Solutions</h4>: AgentExchange simplifies the discovery and deployment of trusted
+                  AI solutions. Customers can explore offerings through the
+                  marketplace or within Salesforce’s Agent Builder tool, ensuring
+                  the right fit for their industry and use case.
+                </li>
+                <li>
+                  <h4 className="h3-bold inline xl:text-[20px] text-[16px]" >Pre-Built CRM and Slack Actions</h4>:
+                  Partners can
+                  now offer out-of-the-box Agentforce actions, including Slack
+                  capabilities. These pre-packaged solutions support tasks like
+                  case creation, order cancellations, Slack canvas updates, and
+                  direct messaging, streamlining enterprise workflows.
+                </li>
+                <li>
+                  <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Industry-Specific AI Solutions</h4>:
+                  Businesses can
+                  leverage pre-built, customizable AI agents from expert
+                  Salesforce partners. Every solution undergoes rigorous security
+                  reviews and customer validation to ensure reliability and
+                  effectiveness.
+                </li>
 
-             
+
+              </ol>
+
+
 
               <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
                 Fostering Collaboration and Innovation
@@ -470,13 +470,13 @@ export default function Page() {
 
               <p className="text-black">
                 Rialtes helps companies to incorporate tailored <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic" target="_blank">Agentforce
-                agents into their ERP systems</Link>, streamlining operations and
+                  agents into their ERP systems</Link>, streamlining operations and
                 enhancing workflows. By leveraging machine learning and natural
                 language processing, we align agents with the organization's
                 objectives to achieve efficient intelligent automation. Contact
                 us at
                 <Link className="underline" href={"mailto:sales@rialtes.com"}>
-                  <span> sales@rialtes.com .</span>
+                  <span> sales@rialtes.com.</span>
                 </Link>
               </p>
             </div>
