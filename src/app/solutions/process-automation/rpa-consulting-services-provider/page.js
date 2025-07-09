@@ -5,8 +5,6 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
-
 const featureBoxes = [
     {
         title: "Automation Strategy & License Advisory",
@@ -231,24 +229,20 @@ export default function DemandPlusSection() {
             ]
         }
     }
-
     return (
         <div className="min-h-screen bg-white">
-
             <Seo
                 title="RPA Consulting Services and Solutions with UiPath | Rialtes"
                 description="Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/process-automation/rpa-consulting-services-provider/"
             />
-           
-              <Script
-        id="schema-rpa"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-
+            <Script
+                id="schema-rpa"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* hero section */}
             <section className="relative">
                 <div className="xl:block hidden">
@@ -273,28 +267,22 @@ export default function DemandPlusSection() {
                         height={0}
                     />
                 </div>
-
-                <div
-                    className="h-full absolute custom-container xl:!pr-0  mr-0 top-0"
-                >
+                <div className="h-full absolute custom-container xl:!pr-0 mr-0 top-0">
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
                         <div className="xl:col-span-6  col-span-12 4xl:mt-32 xl:mt-20 mt-40 4xl:pr-16  xl:pr-10 pr-20 md:pr-64">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">UiPath RPA Services</h3>
                             <h2 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
                                 Driving Next-Gen Automation for a Smarter Enterprise
                             </h2>
-
                         </div>
                         <div className="xl:col-span-7 col-span-12">
                         </div>
                     </div>
-
                 </div>
             </section>
             {/* page description */}
             <section className="custom-container xl:!pr-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10 items-center">
-
                     <div className="col-span-2 mt-10 xl:mt-20 order-1 xl:order-2">
                         <Image
                             src="/images/uipath/image.svg"
@@ -306,7 +294,6 @@ export default function DemandPlusSection() {
                             height={0}
                         />
                     </div>
-
                     <div className="xl:col-span-8 order-2 xl:order-1">
                         <h1 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] xl:pr-20 mt-10 4xl:mt-0 xl:mt-0 pr-10">
                             Transform Your Enterprise Operations with Intelligent RPA.
@@ -318,10 +305,8 @@ export default function DemandPlusSection() {
                             With a proven track record of deploying RPA solutions integrated with SAP, Salesforce, Oracle, and other enterprise platforms, Rialtes enables companies to focus on innovation while bots handle repetitive work.
                         </p>
                     </div>
-
                 </div>
             </section>
-
             {/* why RPA section */}
             <section className="custom-container 4xl:!pr-[142px] 4xl:pl-[280px] max-md:px-0">
                 <div className="xl:grid-cols-12 grid">
@@ -336,7 +321,6 @@ export default function DemandPlusSection() {
                             height={0}
                         />
                     </div>
-
                     <div className="xl:col-span-7 bg-[#006FBE] p-10 text-white order-2 xl:order-1 pb-40 4xl:pb-0 xl:pb-16">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px]">Why RPA with UiPath?</h2>
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-normal 4xl:pr-20">
@@ -353,7 +337,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             {/* end to end section */}
             <section className="xl:mt-24 4xl:mt-24 mt-16 my-10 custom-container 4xl:pr-[464px] xl:pr-[200px]">
                 <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
@@ -373,41 +356,38 @@ export default function DemandPlusSection() {
                     ))}
                 </div>
             </section>
-
             {/* pre configured section */}
             <section className="mt-24 my-10 custom-container 4xl:pr-[405px]">
                 <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
                     Pre-Configured Industry Accelerators
                 </h2>
                 <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">Rialtes offers industry-specific RPA accelerators for rapid deployment in:</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 xl:gap-5 4xl:gap-5 gap-20 xl:mt-[67px] mt-[48px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 xl:gap-5 4xl:gap-5 gap-20 xl:mt-[67px] mt-[48px] sm:w-[90%] md:w-[80%] lg:w-[90%] xl:w-full">
                     {featureBoxes2.map((feature, index) => (
                         <div
                             key={index}
-                            className="4xl:border-r xl:border-r border-b xl:border-b-0 4xl:border-b-0 border-black 4xl:pr-10 pl-5 flex flex-col h-full pb-10"
-                        >
-                            <div className="w-full h-full flex items-start justify-start">
+                            className={`4xl:border-r xl:border-r ${index < 3 ? "border-b" : ""} ${index === 2 || index === 3 ? "md:border-0" : ""} xl:border-b-0 4xl:border-b-0 border-black lg:pr-10 pl-5 flex flex-col h-full pb-10`}>
+                            <div className="w-[140px] h-[140px] flex items-start justify-start">
                                 <Image
                                     src={feature.icon}
                                     alt="Employee and Client-centric approach"
                                     width={100}
                                     height={100}
                                     priority
+                                    className="h-full w-full"
                                 />
                             </div>
                             <div className="flex flex-col items-start mb-4 pt-10">
                                 <h3 className="text-[#0A6BB8] mt-2 4xl:text-[30px] xl:text-[24px] text-[24px] font-bold leading-tight">{feature.title}</h3>
                             </div>
-                            <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[20px] leading-tight font-normal">{feature.description}</p>
-                            <div className="mt-5">
+                            <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[20px] leading-tight font-normal pb-6 lg:pb-4">{feature.description}</p>
+                            <div className="mt-auto">
                                 <LearnMore />
                             </div>
-
                         </div>
                     ))}
                 </div>
             </section>
-
             {/* ariba section */}
             <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12">
@@ -434,7 +414,6 @@ export default function DemandPlusSection() {
                                 height={0}
                             />
                         </div>
-
                     </div>
                     <div className="xl:col-span-8 bg-[#F0DCC9] max-md:px-[35px] md:px-[35px] text-black 4xl:pl-64 4xl:pr-[22rem] xl:pr-[14rem] xl:pl-[11rem] pt-16  4xl:ml-[-200px] xl:ml-[-130px] mt-[-230px] 4xl:mt-0 xl:mt-0">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[40px] pt-24 4xl:pt-0 xl:pt-0 pr-20 xl:pr-0 4xl:pr-0">
@@ -452,14 +431,11 @@ export default function DemandPlusSection() {
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
-
             {/* sap s4hana section */}
             <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0">
                 <div className="grid xl:grid-cols-12">
-
                     <div className="4xl:col-span-5 xl:col-span-6 xl:mt-20 4xl:mb-32 mb-16 order-1 xl:order-2">
                         <div className="xl:block hidden">
                             <Image
@@ -484,7 +460,6 @@ export default function DemandPlusSection() {
                             />
                         </div>
                     </div>
-
                     <div className="4xl:col-span-7 max-md:px-[35px] md:px-[35px] xl:col-span-6 bg-[#BFDEE3] text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1 mt-[-285px] xl:mt-0 4xl:mt-0">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] pt-48 xl:pt-0 4xl:pt-0">
                             RPA Automation with SAP S/4HANA
@@ -509,7 +484,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             {/* success factor section */}
             <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12">

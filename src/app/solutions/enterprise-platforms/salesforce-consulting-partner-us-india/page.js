@@ -11,103 +11,103 @@ import React from "react";
 import Script from "next/script";
 export default function SalesForceConsulting() {
     const schemaData = {
-          "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Salesforce Consulting Services",
-  "url": "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/",
-  "description": "Rialtes provides comprehensive Salesforce consulting services including implementation, integration, migration, and support to help businesses scale, automate processes, and enhance customer engagement.",
-  "inLanguage": "en",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "Salesforce Consulting Services",
-    "serviceType": "Salesforce Implementation, Integration, Migration, Support, Agentforce & Data Cloud Solutions",
-    "provider": {
-      "@type": "Organization",
-      "name": "Rialtes",
-      "url": "https://www.rialtes.com"
-    },
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
-    ],
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "Enterprise Leaders, CIOs, IT Heads, CRM Managers, Customer Experience Teams"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Salesforce Consulting Services by Rialtes",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Implementation Services",
-            "description": "Customized Salesforce implementations to align CRM functionality with business needs."
-          }
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Salesforce Consulting Services",
+        "url": "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/",
+        "description": "Rialtes provides comprehensive Salesforce consulting services including implementation, integration, migration, and support to help businesses scale, automate processes, and enhance customer engagement.",
+        "inLanguage": "en",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
+        "mainEntity": {
             "@type": "Service",
-            "name": "Salesforce Integration Services",
-            "description": "Connect Salesforce with ERP, third-party apps, and APIs for seamless data flow."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Migration Services",
-            "description": "Smooth data migration from legacy CRMs or other platforms to Salesforce with zero data loss."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Support Services",
-            "description": "Ongoing CRM support, maintenance, and optimization for peak system performance."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Agentforce Solutions",
-            "description": "Create and deploy autonomous AI agents for 24/7 support and service automation."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Data Cloud Implementation",
-            "description": "Unify customer data for actionable insights and 360° engagement with Data Cloud."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Lightning App Development",
-            "description": "Custom apps using Lightning framework for enhanced UX and faster workflows."
-          }
+            "name": "Salesforce Consulting Services",
+            "serviceType": "Salesforce Implementation, Integration, Migration, Support, Agentforce & Data Cloud Solutions",
+            "provider": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "areaServed": [
+                { "@type": "Country", "name": "United States" },
+                { "@type": "Country", "name": "Canada" },
+                { "@type": "Country", "name": "India" },
+                { "@type": "Country", "name": "Singapore" }
+            ],
+            "audience": {
+                "@type": "Audience",
+                "audienceType": "Enterprise Leaders, CIOs, IT Heads, CRM Managers, Customer Experience Teams"
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Salesforce Consulting Services by Rialtes",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Implementation Services",
+                            "description": "Customized Salesforce implementations to align CRM functionality with business needs."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Integration Services",
+                            "description": "Connect Salesforce with ERP, third-party apps, and APIs for seamless data flow."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Migration Services",
+                            "description": "Smooth data migration from legacy CRMs or other platforms to Salesforce with zero data loss."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Support Services",
+                            "description": "Ongoing CRM support, maintenance, and optimization for peak system performance."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Agentforce Solutions",
+                            "description": "Create and deploy autonomous AI agents for 24/7 support and service automation."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Data Cloud Implementation",
+                            "description": "Unify customer data for actionable insights and 360° engagement with Data Cloud."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Lightning App Development",
+                            "description": "Custom apps using Lightning framework for enhanced UX and faster workflows."
+                        }
+                    }
+                ]
+            }
         }
-      ]
-    }
-  }
     }
     const salesForce = [
         {
@@ -143,34 +143,6 @@ export default function SalesForceConsulting() {
 
     ]
     const salesForceProduct = [
-        // {
-        //     id: 1,
-        //     imageUrl: '/images/salesforce-consulting-services/manage.webp',
-        //     title: 'Salesforce Managed Services',
-        //     description: 'Managed services provide access to various capabilities, including Salesforce administrators, developers, architects, and consultants.',
-        //     productsDetails: [
-        //         'Salesforce optimization and planning',
-        //         'Ongoing enhancements',
-        //         'Lightning migration',
-        //         'Troubleshoot and maintenance'
-        //     ],
-        //     knowMore: '/salesforce-consulting/salesforce-manage'
-
-        // },
-        // {
-        //     id: 2,
-        //     imageUrl: '/images/salesforce-consulting-services/health.webp',
-        //     title: 'Salesforce Health Cloud',
-        //     description: 'Centralise patient information, provide health workers with a complete view of patient records and deliver more effective treatments.',
-        //     productsDetails: [
-        //         'Get a 360-degree view',
-        //         'Access real-time updates',
-        //         'Enhance patient outcome',
-        //         'Streamline healthcare'
-        //     ],
-        //     knowMore: '/salesforce-consulting/salesforce-manage'
-
-        // },
         {
             id: 3,
             imageUrl: '/images/salesforce-consulting-services/agentforce.png',
@@ -264,16 +236,16 @@ export default function SalesForceConsulting() {
     return (
         <div>
             <Seo
-                title="Salesforce Consulting Services Company | Rialtes"
-                description="Partner with Rialtes, a top Salesforce consulting services company, delivering AI-powered Salesforce solutions customized to accelerate your business growth."
-                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"}
+                title="Top Salesforce Consulting and Implementation Partners | Rialtes"
+                description="Partner with Rialtes—your Salesforce consulting services partner in the US and India for AI-enabled Salesforce implementation and integration success."
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}
             />
             <Script
-        id="schema-salesforce-consulting"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+                id="schema-salesforce-consulting"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
 
             <div className='relative group overflow-hidden'>

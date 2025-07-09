@@ -2,10 +2,9 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -153,9 +152,8 @@ export default function page() {
         "Deep domain expertise in banking, wealth, lending, insurance, and asset management.",
         "AI and Agentforce leadership for next-gen customer experience.",
         "Global delivery with U.S., Canada, Singapore, and India presence.",
-        "RialChat and Agentforce AI included for faster, smarter client engagement.",
+        "AgentChat and Agentforce AI included for faster, smarter client engagement.",
     ]
-
     const deepDiveData = [
         {
             id: "1",
@@ -263,16 +261,14 @@ export default function page() {
                 description="Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support."
                 canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/"
             />
-          
-              <Script
-        id="schema-realfinance"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <Script
+                id="schema-realfinance"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
-                {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
                         src="/images/services/rial-finance/hero-desk-banner.webp"
@@ -293,7 +289,6 @@ export default function page() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container sm:flex sm:items-center pt-[70px] sm:pt-0 ">
                     <div className="grid grid-cols-12 w-full">
                         <div className="4xl:col-span-8 sm:col-span-7 md:col-span-6 lg:col-span-6 col-span-9 max-[400px]:col-span-12">
@@ -312,7 +307,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div>
@@ -327,7 +321,6 @@ export default function page() {
                     </p>
                 </div>
             </section>
-
             {/* start with agentforce section */}
             <section className="xl:mt-[124px] mt-[88px]">
                 <div className="custom-container lg:pl-0 max-lg:px-0">
@@ -366,18 +359,7 @@ export default function page() {
                             <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[25px] mt-[17px] font-normal">
                                 Agentforce, Salesforce’s revolutionary AI assistant, is transforming customer-agent relationships in financial services. Rialtes makes Agentforce adoption seamless with:
                             </p>
-
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]">
-                                {startWithData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
-
+                            <UnorderedList arrName={startWithData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[62px] mt-[46px]">
                                 <LearnMore />
                             </div>
@@ -389,7 +371,7 @@ export default function page() {
                     <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">Adopt AI with confidence — powered by Rialtes financial services expertise.</p>
                 </div>
             </section>
-
+            {/* introducing rialfinance+ */}
             <section className="xl:mt-[121px] mt-[84px]">
                 <div className="custom-container">
                     <p className="xl:text-[36px] 4xl:text-[40px] text-[18px] leading-tight font-light">
@@ -399,7 +381,6 @@ export default function page() {
                         RialFinance+
                     </h2>
                 </div>
-
                 <div className="custom-container xl:mt-[25px] mt-[17px] 4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]">
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[17px]">
                         <div className="lg:col-span-5 col-span-12 w-[90%] md:w-[80%] lg:w-full">
@@ -413,12 +394,10 @@ export default function page() {
                             </p>
                         </div>
                     </div>
-
                     <h2 className="text-[18px] leading-tight xl:text-[26px] 4xl:text-[32px] xl:mt-[82px] mt-[41px] font-semibold">
                         Deep-Dive into Rialtes’ Financial Services Cloud Expertise
                     </h2>
                 </div>
-
                 <div className="xl:mt-[90px] mt-[80px]">
                     {
                         deepDiveData.map((data, ind) => {
@@ -446,16 +425,7 @@ export default function page() {
                                                     priority
                                                 />
                                             </div>
-                                            <ul className="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full xl:mt-[40px] mt-[23px]">
-                                                {data.dataList.map((data, ind) => (
-                                                    <li
-                                                        className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
-                                                        key={ind}
-                                                    >
-                                                        {data}
-                                                    </li>
-                                                ))}
-                                            </ul>
+                                            <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full xl:mt-[40px] mt-[23px]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normaltext-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
                                         </div>
                                         <div>
                                             <div className="md:block hidden w-full h-full mt-[-20px]">
@@ -468,7 +438,6 @@ export default function page() {
                                                     priority
                                                 />
                                             </div>
-
                                         </div>
                                     </div>
                                     <div className="xl:mt-[38px] mt-[27px]">
@@ -478,7 +447,6 @@ export default function page() {
                             )
                         })
                     }
-
                 </div>
             </section>
             {/* exelona section */}
@@ -521,16 +489,7 @@ export default function page() {
                             </p>
                         </div>
                         <div className="md:col-span-6 col-span-12">
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full">
-                                {exelonaData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={exelonaData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[75px] mt-[55px]">
                                 <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
                             </div>
@@ -541,7 +500,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* agent chat section */}
             <section className="xl:mt-[181px] mt-[123px] bg-[#184671] custom-container">
                 <div className="lg:block hidden w-full h-full">
@@ -574,19 +532,11 @@ export default function page() {
                             WhatsApp-Enabled Real-Time Customer Engagement (Included Free with RialFinance+)
                         </h3>
                         <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
-                            With RialChat, seamlessly integrated into Salesforce FSC, engage your clients in real-time:
+                            With AgentChat , seamlessly integrated into Salesforce FSC, engage your clients in real-time:
                         </p>
                     </div>
                     <div className="md:col-span-7 col-span-12">
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full">
-                            {agentChat.map((data, ind) => (
-                                <li
-                                    className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                                    key={ind}>
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={agentChat} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[52px] mt-[29px] font-normal">
                             Included FREE with RialFinance+ — enhancing customer engagement without extra costs.
                         </p>
@@ -595,9 +545,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-
             </section>
-
             {/* agent force section */}
             <section className="xl:mt-[73px] mt-[42px] custom-container">
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] lg:gap-[80px] gap-y-[29px]">
@@ -611,15 +559,7 @@ export default function page() {
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
                             Agentforce, with Rialtes’ expertise, delivers AI-driven excellence:
                         </p>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[43px] mt-[16] pl-[20px] w-[90%] md:w-full">
-                            {agentforceData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                                    key={ind}>
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={agentforceData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[43px] mt-[16] pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[49px] mt-[48px] font-normal w-[90%] md:w-full">
                             Future-proof your client engagement — with Agentforce and Rialtes.
                         </p>
@@ -650,11 +590,9 @@ export default function page() {
                             />
                         </div>
                     </div>
-
                 </div>
             </section>
-
-            {/* salesforce force section */}
+            {/* salesforce section */}
             <section className="xl:mt-[147px] mt-[75px] custom-container md:pl-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[60px] gap-y-[29px]">
                     <div className="md:col-span-7 col-span-12">
@@ -708,7 +646,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* how we deliver section */}
             <section className="xl:mt-[147px] mt-[75px] custom-container lg:pr-0 max-lg:px-0">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -720,15 +657,7 @@ export default function page() {
                             <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[35px] w-[90%] lg:w-full">
                                 Salesforce Implementation with Certified Experts
                             </h3>
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]">
-                                {howWeDeliverData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                                        key={ind}>
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[10px] absolute">
                                 <LearnMore />
                             </div>
@@ -758,9 +687,8 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-
             </section>
-
+            {/* why rialtes section */}
             <section className="custom-container max-md:px-0 3xl:!pr-[142px] xl:!pr-[36px] xl:mt-[163px] mt-[83px] relative">
                 <div className="relative">
                     <div className="lg:w-[70%]">
@@ -794,15 +722,7 @@ export default function page() {
                             <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[27px] w-[90%] lg:w-full">
                                 The Experts Behind Your Salesforce Success
                             </h3>
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full">
-                                {whyRialtesData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                                        key={ind}>
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="4xl:mt-[63px] mt-[44px]">
                                 <LearnMore />
                             </div>
@@ -814,7 +734,6 @@ export default function page() {
             < div className="custom-container lg:mt-[108px] lg:mb-[92px] mt-[41px] mb-[45px]">
                 <ContactForm title={'Get Started with RialFinance+ — Transform Your Financial Services with AI, Data, and Salesforce'} subtitle="Ready to future-proof your financial institution and deliver next-gen customer experiences?" subtitle1="Contact Rialtes to explore RialFinance+ — your partner for Salesforce-driven financial transformation." className={"xl:text-[40px] 4xl:text-[60px] text-[26px] xl:w-[68%] 4xl:w-[80%]"} />
             </div >
-
         </div>
     )
 }
