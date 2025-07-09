@@ -359,9 +359,16 @@ export default function page() {
             <section className="custom-container xl:mt-[131px] mt-[50px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
+                        <div className=" lg:block hidden">
                         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
                             Seamless Integrations. <br /> Smarter Operations. <br /> Elevated Experiences.
                         </h2>
+                        </div>
+                          <div className="block lg:hidden">
+                        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
+                            Seamless Integrations. Smarter Operations. Elevated Experiences.
+                        </h2>
+                        </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
                         <p className="xl:text-[22px] text-[16px] leading-tight">
@@ -694,9 +701,10 @@ export default function page() {
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] mt-0 sm:w-[80%] md:w-full font-normal ${data?.subtitle && "mt-[30px]"}`}>
-                                                    {data.desc}
-                                                </p>
+                                               <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-normal sm:w-[80%] md:w-full ${data?.subtitle ? "mt-[30px]" : "mt-[20px]"} md:mt-[34px]`}>
+  {data.desc}
+</p>
+
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="lg:mt-[60px] mt-[33px]">
                                                     <LearnMore />
