@@ -7,7 +7,7 @@ export default function LearnMore({ bgcolor = "#134874", bordercolor = "#134874"
   return (
     <Link
       href="/contact-us"
-      className={`inline-block 4xl:text-[20px] text-[16px] border border-solid font-semibold text-white py-3 px-8 transition duration-300 mt-6
+      className={`inline-block 4xl:text-[20px] text-[16px] xl:text-[16px] border border-solid font-semibold text-white py-3 px-8 transition duration-300 mt-6
         ${bgClass} ${borderClass} hover:bg-white hover:text-[${bgcolor}]`}
     >
       Learn More

@@ -4,7 +4,6 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
@@ -199,21 +198,51 @@ export default function page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <HeroSection
-        title="Intelligent, Connected, and Scalable Retail Transformation"
-        subtitle="Retail+"
-        mobimg="/images/industry/retail/bannerMob.webp"
-        deskimg="/images/industry/retail/banner.webp"
-        extraImg=""
-      />
-      {/* page description section */}
+
+      <section className="relative group overflow-hidden">
+        <div className="xl:block hidden">
+          <Image
+            src="/images/industry/retail/banner.webp"
+            alt="auto-sense-banner"
+            fill
+            priority
+             sizes="100vw"
+
+          />
+        </div>
+        <div className="xl:hidden block">
+          <Image
+            src="/images/industry/retail/bannerMob.webp"
+            alt=""
+            fill
+            priority
+             sizes="100vw"
+          />
+        </div>
+
+
+        <div className="relative  custom-container pb-40">
+          <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
+            <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28 max-sm:mt-10 2xl:pr-[34px]">
+              <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
+              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5">
+                Intelligent, Connected, and Scalable Retail Transformation
+              </h1>
+            </div>
+            <div className="xl:col-span-7 col-span-12">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
-          <div className="xl:col-span-8 col-span-12 ">
-            <h2 className="leading-tight">
+          <div className="xl:col-span-10 col-span-12 ">
+            <h2 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               Empowering Global Retailers with AI-Driven, Omnichannel Solutions
             </h2>
-            <p className="xl:text-[22px]  mt-5 pr-8 xl:pr-0">
+            <p className="4xl:text-[22px] xl:text-[18px]  mt-5 pr-8 xl:pr-0">
               In today’s dynamic and highly competitive retail landscape,
               customer expectations are evolving rapidly, driven by
               hyper-personalization, seamless omnichannel engagement, and
@@ -222,7 +251,7 @@ export default function page() {
               successfully navigate these challenges and drive sustainable
               growth.
             </p>
-            <p className="xl:text-[22px] mt-5 pr-8 xl:pr-0">
+            <p className="4xl:text-[22px] xl:text-[18px] mt-5 pr-8 xl:pr-0">
               Through Retail+, Rialtes delivers an end-to-end suite of services,
               combining strategic advisory, solution design, implementation,
               quality assurance, integration, and post-go-live support —
@@ -234,14 +263,15 @@ export default function page() {
       </section>
 
       {/* comprehensive section */}
-      <section className="relative  xl:h-[1125px] overflow-hidden mt-20">
+      <section className="relative  overflow-hidden mt-20">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/comprehensive.webp"
             alt="GROW with SAP"
             fill
-            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
+             sizes="100vw"
+
           />
         </div>
 
@@ -249,37 +279,43 @@ export default function page() {
           <Image
             src="/images/industry/retail/compre-mobile.webp"
             alt="GROW with SAP"
-            style={{ objectFit: "cover", objectPosition: "15% 10%" }}
             fill
             priority
+             sizes="100vw"
+
           />
         </div>
-        <div className="custom-container">
-          <div className="relative p-6 xl:w-[828px] xl:pb-32 pb-20  mt-[40rem] md:mt-[60rem] xl:mt-0">
+        <div
+          className="
+            custom-container"
+        >
+          <div className="relative p-6 4xl:w-[828px] xl:w-[630px] 4xl:pb-32 pb-20  mt-[40rem] md:mt-[60rem] xl:mt-0">
             <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply"></div>
             <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg">
-              <h2 className="leading-tight xl:w-[80%] pr-20 xl:pr-0">
+              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] 4xl:text-[60px] text-[26px]">
                 Comprehensive Services for Modern Retail Enterprises
               </h2>
-              <h3 className="xl:text-[36px] text-[22px] mt-5">
+              <h3 className="4xl:text-[36px] text-[22px] mt-5">
                 Retail+ by Rialtes
               </h3>
-              <h3 className="mt-5 text-[20px] xl:text-[30px]">Key Offerings</h3>
-              <ul className="list-disc xl:space-y-5 space-y-2 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-12">
+              <h3 className="mt-5 text-[20px] 4xl:text-[30px] ">Key Offerings</h3>
+              <ul className="list-disc leading-tight 4xl:space-y-5 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
                 {retailServices.map((service, index) => (
                   <li key={index}>
                     <span className="font-bold">{service.title} </span>
                     {service.description}
                   </li>
                 ))}
-              </ul>
+                </ul>
+              
             </div>
           </div>
         </div>
       </section>
       <Link
         href="/contact-us"
-        className=" bg-[#006FBE] absolute xl:ml-[335px] ml-[50px] mt-[-25px] xl:mt-[-30px] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+        className=" bg-[#006FBE] absolute 4xl:ml-[335px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300"
+      >
         Learn More
       </Link>
 
@@ -287,10 +323,13 @@ export default function page() {
       <section className="bg-[#E8E8E8] xl:pb-32 pb-48">
         <div className="custom-container ">
           <div className="grid xl:grid-cols-12 grid-cols-1">
-            <div className="xl:col-span-8 col-span-12 xl:mt-32 mt-20">
-              <h2 className="leading-tight">Deep Industry Expertise Across Retail Verticals</h2>
-              <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold pr-10">
-                Our deep understanding of B2B and B2C retail enables us to address the unique needs of:
+            <div className="xl:col-span-9 col-span-12 xl:mt-32 mt-20">
+              <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] xl:pr-32 4xl:pr-0">
+                Deep Industry Expertise Across Retail Verticals
+              </h2>
+              <h3 className="4xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold pr-10 xl:pr-64 4xl:pr-0">
+                Our deep understanding of B2B and B2C retail enables us to
+                address the unique needs of:
               </h3>
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
@@ -300,7 +339,7 @@ export default function page() {
             {retailVerticals.map((item, index) => (
               <div key={index}>
                 <Image
-                  className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
+                  className="4xl:w-[138px] 4xl:h-[138px] w-[75px] h-[75px]"
                   src={item.icon}
                   alt={item.title}
                   width={0}
@@ -308,9 +347,10 @@ export default function page() {
                   sizes="100vw"
                   priority
                 />
-                <h3 className={`mt-5 font-semibold leading-tight ${item.paddingClass}`}>{item.title}</h3>
+                <h3 className={`mt-5 font-semibold 4xl:text-[30px] xl:text-[20px] leading-tight ${item.paddingClass}`}>{item.title}</h3>
               </div>
             ))}
+          
           </div>
         </div>
 
@@ -318,7 +358,7 @@ export default function page() {
 
       <div className="grid xl:grid-cols-12 grid-cols-1 custom-container ">
         <div className="xl:col-span-10 col-span-12 bg-[#163055] p-8 relative bottom-20">
-          <h3 className="xl:text-[26px] text-[20px] text-white font-normal leading-tight">
+          <h3 className="4xl:text-[26px] text-[20px] text-white font-normal leading-tight">
             We help brands unlock new revenue streams, enhance customer loyalty,
             and streamline operations, powered by Salesforce, SAP, and AI-driven
             intelligence.
@@ -330,30 +370,32 @@ export default function page() {
       <section className="custom-container md:pr-0 grid xl:grid-cols-12 grid-cols-1  sm:mt-4 max-md:px-0">
         <div className="xl:col-span-6 order-1 xl:order-2">
           <Image
-            className="w-full h-full object-cover"
+            className="w-full h-full"
             src="/images/industry/retail/salesforce.webp"
             alt="Taking the lead"
             width={0}
             height={0}
             priority
+             sizes="100vw"
+
           />
         </div>
 
-        <div className="xl:col-span-6 bg-[#006FBE] xl:pt-20 pt-10 px-10 text-white order-2 xl:order-1 pb-20 ">
-          <h2>Salesforce & SAP</h2>
-          <h3 className="xl:text-[42px] font-semibold text-[22px] mt-5">
+        <div className="xl:col-span-6 bg-[#006FBE] 4xl:pt-20 pt-10 px-16 xl:pr-10 text-white order-2 xl:order-1 pb-20 ">
+          <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]">Salesforce & SAP</h2>
+          <h3 className="4xl:text-[42px] font-semibold text-[22px] mt-5 leading-tight xl:pr-32 4xl:pr-24">
             Enterprise-Grade Solutions for Retail Success
           </h3>
-          <h3 className="mt-5">Salesforce Retail & Consumer Goods Cloud</h3>
-          <p className="mt-5 font-normal">
+          <h3 className="mt-5 leading-tight 4xl:text-[30px] text-[20px] xl:pr-24 4xl:pr-32">Salesforce Retail & Consumer Goods Cloud</h3>
+          <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[16px] xl:pr-0 4xl:pr-[95px]">
             Leverage Salesforce’s Retail Cloud capabilities — including unified
             customer profiles, AI-based personalization, loyalty management,
             omnichannel service, and marketing automation — to deliver
             consistent and personalized experiences across all customer
             touchpoints.
           </p>
-          <h3 className="mt-5">SAP S/4HANA for Retail</h3>
-          <p className="mt-5 font-normal">
+          <h3 className="mt-5 4xl:text-[30px] text-[20px]">SAP S/4HANA for Retail</h3>
+          <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[16px] xl:pr-0 4xl:pr-[100px]">
             Transform back-end operations with SAP S/4HANA Retail, enabling
             intelligent inventory management, demand forecasting, supply chain
             optimization, and real-time analytics to drive profitability and
@@ -391,7 +433,7 @@ export default function page() {
         <div className="bg-[#6E6E6E] lg:mr-20 lg:p-8 mb-2  md:p-8 sm:p-8  p-8  max-md:mr-0 max-sm:mb-8">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-6 col-span-12 xl:pl-14 xl:mt-10 ">
-              <h2 className="leading-tight">
+              <h2 className="leading-tight 4xl:text-[57px] xl:text-[40px] text-[26px] xl:pr-10 4xl:pr-0">
                 Specialized Solutions for Real Estate & Hospitality Retail
               </h2>
             </div>
@@ -400,7 +442,7 @@ export default function page() {
               <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10">
                 Exelona
               </h3>
-              <p className="mt-5 font-normal xl:pr-16">
+              <p className="mt-5 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
                 For retailers operating in real estate and hospitality sectors,
                 Exelona — Rialtes’ proprietary solution built natively on
                 Salesforce — enables end-to-end asset management, marketing,
@@ -431,7 +473,7 @@ export default function page() {
               priority
             />
           </div>
-          <div className="bg-[#073259] text-white xl:col-span-6 px-16 xl:px-0 col-span-12 xl:ml-[-150px] xl:pl-[200px] xl:pr-[40px] xl;pb-32 pb-[6rem]  lg:pr-12 z-5">
+          <div className="bg-[#073259] text-white xl:col-span-6 px-16 xl:px-0 4xl:pr-80 col-span-12 xl:ml-[-150px] xl:pl-[200px] xl:pr-[40px] xl;pb-32 pb-[6rem]  lg:pr-12 z-5">
             <h2 className="xl:mt-20 pt-[24rem] xl:pt-0">Advanced AI & Data</h2>
             <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-10 mt-5 leading-tight">
               Salesforce Data Cloud & Agentforce for Retail
@@ -530,6 +572,8 @@ export default function page() {
             alt="GROW with SAP"
             fill
             priority
+            sizes="100vw"
+
           />
         </div>
         <div className="xl:hidden block">
@@ -538,6 +582,7 @@ export default function page() {
             alt="GROW with SAP"
             fill
             priority
+            sizes="100vw"
           />
         </div>
         <div
