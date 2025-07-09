@@ -265,11 +265,13 @@ export default function Page() {
       />
 
       {/* hero section */}
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] group sm:h-[500px] lg:h-[650px] overflow-hidden">
         <div className="xl:block hidden ">
           <Image
             src="/images/services/rise-with-sap/header.webp"
             alt="SuccessFactor"
+             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -280,6 +282,8 @@ export default function Page() {
             src="/images/services/rise-with-sap/header.webp"
             alt="SuccessFactor"
             fill
+             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
           />
@@ -353,13 +357,13 @@ export default function Page() {
             </div>
 
 
-            <div className="w-full xl:w-1/2 flex justify-center xl:justify-end">
+            <div className="w-full group xl:w-1/2 flex justify-center xl:justify-end">
               <Image
                 src="/images/services/rise-with-sap/why rialtes.webp"
                 alt="SAP Partner Logo"
                 width={0}
                 height={0}
-                className="w-[95%] md:w-[75%] lg:w-full xl:w-full mt-[-90px] h-full lg:mt-[-80px] xl:mt-[-70px] object-cover"
+                className=" transform transition-transform duration-500 group-hover:scale-110 w-[95%] md:w-[75%] lg:w-full xl:w-full mt-[-90px] h-full lg:mt-[-80px] xl:mt-[-70px] object-cover"
                 sizes="100vw"
                 priority
               />
@@ -369,10 +373,12 @@ export default function Page() {
       </div>
 
       {/* greenfield section */}
-      <section className="relative overflow-hidden xl:mt-0">
+      <section className="relative group overflow-hidden xl:mt-0">
         <Image
           src="/images/services/rise-with-sap/Greenfield+background (1).webp"
           alt=""
+          className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -519,6 +525,7 @@ export default function Page() {
                   alt="SAP Partner Logo"
                   width={0}
                   height={0}
+                  
                   className="lg:w-full md:w-[50%] w-full h-full object-scale-down"
                   priority
                 />
@@ -561,24 +568,25 @@ export default function Page() {
       </div>
 
       {/* connected sap solution */}
-      <section className="relative xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
+      <section className="relative   xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
+       
         <Image
           src="/images/services/rise-with-sap/Connected SAP Solutions.webp"
           alt=""
-          fill
+          fill  
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="col-span-12">
-              <h2 className="text-[26px] 4xl:text-[60px] 2xl:text-[58px] xl:text-[50px] lg:text-[50px] md:text-[3r0px] xl:mt-[63px] mt-[59px] text-white leading-tight w-[90%]  4xl:w-[80%] 2xl:w-[80%] xl:w-[80%] lg:w-[96%]">
+              <h2 className="text-[26px] 4xl:text-[60px] 2xl:text-[58px] xl:text-[50px] lg:text-[50px] md:text-[30px] xl:mt-[63px] mt-[59px] text-white leading-tight w-[90%]  4xl:w-[80%] 2xl:w-[80%] xl:w-[80%] lg:w-[96%]">
                 Connected SAP Solutions — Unlocking Synergy with S/4HANA
               </h2>
             </div>
           </div>
 
-          <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[39px] mt-[43px]">
+          <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[100px] mt-[43px] ">
             <div className="col-span-12 flex xl:flex-row flex-col gap-5">
               {sapIntegrations.map((item, index) => (
                 <div
@@ -601,17 +609,18 @@ export default function Page() {
       </section>
 
       {/* conversational AI section */}
-      <div className="bg-[#184671] 4xl:pt-[266px] 2xl:pt-[196px] xl:pt-[100px] pb-[68px]">
+      <div className="bg-[#184671] 4xl:pt-[180px] 2xl:pt-[146px] xl:pt-[100px] pb-[68px]">
         <div className="custom-container xl:!pr-0">
           <div className="relative xl:h-[665px] h-auto xl:mt-20">
-            <div className="relative xl:absolute xl:inset-0 h-[300px] xl:h-full w-full">
+            <div className="relative group overflow-hidden xl:absolute xl:inset-0 h-[300px] xl:h-full w-full">
               <Image
                 src="/images/services/rise-with-sap/Agentchat banner.webp"
                 alt="AgentChat Banner"
+
                 fill
                 style={{ objectFit: "cover", objectPosition: "68%" }}
                 priority
-                className="w-full h-full"
+                className="w-full h-full transform transition-transform duration-500 group-hover:scale-110 "
               />
             </div>
             <div className="grid xl:grid-cols-12 grid-cols-1 relative xl:absolute xl:top-0 xl:left-0 w-full">
@@ -659,14 +668,14 @@ export default function Page() {
         <div className="grid lg:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[100px] items-center">
 
           {/* Image Column */}
-          <div className="col-span-12 lg:col-span-5 relative h-[450px] md:h-[600px] md:w-[700px] lg:w-full md:mx-auto lg:h-full">
+          <div className="col-span-12 group overflow-hidden lg:col-span-5 relative h-[450px] md:h-[600px] md:w-[700px] lg:w-full md:mx-auto lg:h-full">
             <Image
               src="/images/services/rise-with-sap/AI and Data-Driven Innovation.webp"
               alt="AI and Data-Driven Innovation"
               fill
               style={{ objectFit: "cover", objectPosition: "35% 20%" }}
               priority
-              className="w-full"
+              className="w-full transform transition-transform duration-500 group-hover:scale-110 object-cover"
             />
           </div>
 

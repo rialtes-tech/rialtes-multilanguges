@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
 import Head from "next/head";
+import Loader from "./Loader";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
@@ -13,7 +14,7 @@ const montserrat = Montserrat({
 });
 
 export default function RootLayout({ children }) {
-  // const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     // This will ensure the GTM script is loaded only on the client-side
     if (typeof window !== "undefined") {
@@ -27,14 +28,22 @@ export default function RootLayout({ children }) {
       window.dataLayer.push({ event: "gtm.js", start: new Date().getTime() });
     }
   }, []);
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2000);
+  useEffect(() => {
 
-  //   return () => clearTimeout(timer);
-  // }, []);
-  
+    if (typeof window !== "undefined") {
+      const handleLoad = () => {
+        setTimeout(() => setIsLoading(false), 300);
+      };
+
+      if (document.readyState === "complete") {
+        handleLoad();
+      } else {
+        window.addEventListener("load", handleLoad);
+        return () => window.removeEventListener("load", handleLoad);
+      }
+    }
+  }, []);
+
   return (
     <html lang="en" className={montserrat.variable}>
       <Head>
@@ -59,8 +68,8 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <body className="font-sans bg-[#ffffff]">
-        {/* GTM Body Snippet for noscript fallback */}
+      <body className="font-sans bg-[#ffffff] relative">
+        {/* GTM noscript fallback */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KM6HTT3"
@@ -69,19 +78,25 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        {/* {isLoading ? <Loader /> : */}
-          <div className="w-full mx-auto max-w-[1920px]">
-            <header>
-              <Header />
-            </header>
-            <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
-              {children}
-            </main>
-            <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
-              <Footer />
-            </footer>
+
+        {/* Main page content always rendered */}
+        <div className="w-full mx-auto max-w-[1920px]">
+          <header>
+            <Header />
+          </header>
+          <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
+            {children}
+          </main>
+          <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
+            <Footer />
+          </footer>
+        </div>
+
+        {isLoading && (
+          <div className="fixed inset-0 z-[9999] w-screen h-screen bg-white flex items-center justify-center">
+            <Loader />
           </div>
-        {/* } */}
+        )}
       </body>
     </html>
   );
