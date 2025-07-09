@@ -1,13 +1,10 @@
-
-
-
 "use client";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -107,9 +104,6 @@ const schemaData = {
         }
     ]
 }
-
-
-
 const latestServices = [
     {
         id: 1,
@@ -142,7 +136,6 @@ const latestServices = [
         description: "Ongoing optimization, training, and advanced analytics for continuous ROI.",
     },
 ];
-
 const moreSalesforce = [
     {
         title: "Salesforce Service Cloud",
@@ -161,7 +154,6 @@ const moreSalesforce = [
         description: "Advanced customer segmentation and real-time data insights.",
     },
 ];
-
 const ServicesCard = ({ services }) => (
     <div className="flex flex-col border border-[#707070] p-6 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
         <div className="flex-grow flex flex-col">
@@ -184,10 +176,9 @@ const SalesforceExplore = () => {
                                 <h3 className="text-[#005BA1] font-semibold 4xl:text-[36px] text-[20px] mb-5 leading-tight pr-[7rem] xl:pr-0 4xl:pr-0">{service.title}</h3>
                                 <p className="text-black mb-6 4xl:text-[22px] text-[16px] leading-tight pr-[5rem] xl:pr-0 4xl:pr-10">{service.description}</p>
                             </div>
-                            <div className="">
+                            <div>
                                 <LearnMore />
                             </div>
-
                         </div>
                     ))}
                 </div>
@@ -195,8 +186,6 @@ const SalesforceExplore = () => {
         </section>
     );
 };
-
-
 const Services = () => {
     return (
         <div className="text-black 2xl:pr-70 xl:pr-10 md:pr-8">
@@ -218,6 +207,91 @@ const Services = () => {
         </div>
     );
 };
+const deepData1 = [
+    "Journey Builder for dynamic, personalized customer journeys.",
+    "Email Studio for impactful, data-driven email marketing campaigns.",
+    "Mobile Studio for SMS and push notifications.",
+    "Advertising Studio to engage customers across Google, Facebook, LinkedIn, and other digital platforms.",
+]
+const deepData2 = [
+    "Datorama (Marketing Cloud Intelligence) for end-to-end marketing analytics and ROI optimization.",
+    "OCustomer Segmentation and Audience Studio for precision-targeting.",
+    "Marketing Cloud Personalization for real-time engagement.",
+    "Marketing Analytics & Einstein AI for predictive insights and customer behavior modeling.",
+]
+const marketingFeatures = [
+    {
+        title: "Scalable B2B & B2C Marketing:",
+        description: "Seamlessly manage both complex B2B relationships and high-volume B2C campaigns."
+    },
+    {
+        title: "Hyper-Personalized Email Marketing:",
+        description: "Personalized content powered by AI and real-time data."
+    },
+    {
+        title: "Customer Segmentation & Targeting:",
+        description: "Reach the right audience with precision."
+    },
+    {
+        title: "Omni-Channel Campaign Management:",
+        description: "Consistent communication across email, mobile, social, and web."
+    },
+    {
+        title: "Salesforce Agentforce Campaigns:",
+        description: "Integrate marketing and sales efforts for lead-to-customer conversion."
+    },
+    {
+        title: "Marketing Analytics and Reporting:",
+        description: "Actionable insights and dashboards."
+    }
+];
+const aiMarketingData = [
+    {
+        title: "AI-Driven Campaign Optimization:",
+        description: "Predictive targeting and customer journey refinement using Einstein AI."
+    },
+    {
+        title: "Real-Time Customer Insights:",
+        description: "Unified view of customer interactions across channels via Data Cloud."
+    },
+    {
+        title: "Next-Gen Agentforce Campaign Management:",
+        description: "Enable sales and marketing teams to collaborate on customer outreach with AI-generated recommendations."
+    },
+    {
+        title: "Dynamic Segmentation:",
+        description: "AI-driven segments that evolve based on real-time customer behavior."
+    }
+];
+const agentChatData = [
+    {
+        title: "Instant Deployment:",
+        description: "Go live in minutes — no complex setup required."
+    },
+    {
+        title: "Universal Salesforce Compatibility:",
+        description: "Works seamlessly with Sales, Service, Marketing, and Experience Clouds."
+    },
+    {
+        title: "Multi-Role and Secure:",
+        description: "Supports robust role-based access and enterprise-grade security models."
+    },
+    {
+        title: "End-to-End Record Delegation:",
+        description: "Assign Cases, Leads, Work Orders, and Custom Records by type, ensuring seamless workflows."
+    },
+    {
+        title: "Enhanced Customer Experience:",
+        description: "Enable real-time two-way WhatsApp conversations directly from Salesforce, improving engagement and resolution rates."
+    }
+];
+const yourGrowthData = [
+    "SAP Certified Partner with proven CPI integration success stories.",
+    "Global presence: United States, Canada, Singapore, India.",
+    "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
+    "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
+    "End-to-end support from advisory to post-go-live optimization.",
+]
 export default function Page() {
     return (
         <div className="min-h-screen bg-white">
@@ -227,13 +301,13 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting/"
             />
-
             <Script
                 id="schema-salesforce-marketing"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* hero section */}
             <section className="relative group overflow-hidden pb-20">
                 <div className="xl:block hidden pt-20">
                     <Image
@@ -280,13 +354,8 @@ export default function Page() {
 
                 </div>
             </section>
-
-
-
-
-            <section
-                className="mt-16
-              custom-container">
+            {/* page description */}
+            <section className="mt-16 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
@@ -298,125 +367,97 @@ export default function Page() {
                     <div className="xl:col-span-4 col-span-12">
                     </div>
                 </div>
-
             </section>
-            <div
-                className="custom-container lg:mt-20 md:mt-6 4xl:pr-[457px]"
-            >
+            {/* advantage+ section */}
+            <div className="custom-container lg:mt-20 md:mt-6 4xl:pr-[457px]">
                 <section className=" bg-white">
-
                     <Services />
-
                 </section>
             </div>
-
-            <section className="relative w-full xl:mt-[-53px] mt-16 4xl:mt-10">
-                <div className="w-full xl:h-[1083px]">
-                    <div className="xl:block hidden">
-                        <Image
-                            src="/images/services/lob/advantageplus/desktop/deep-under.webp"
-                            alt="Warehouse"
-                            fill
-                            className="object-cover"
-                            priority
-                            sizes="100vw"
-                        />
+            {/* deep salesforce section */}
+            <section>
+                <div className="relative w-full xl:mt-[-53px] mt-16 4xl:mt-10">
+                    <div className="w-full xl:h-[1083px]">
+                        <div className="xl:block hidden">
+                            <Image
+                                src="/images/services/lob/advantageplus/desktop/deep-under.webp"
+                                alt="Warehouse"
+                                fill
+                                className="object-cover"
+                                priority
+                                sizes="100vw"
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/services/lob/advantageplus/mobile/deep.webp"
+                                alt="Warehouse"
+                                priority
+                                width={0}
+                                height={0}
+                                className="w-full"
+                                sizes="100vw"
+                            />
+                        </div>
                     </div>
-                    <div className="xl:hidden block">
-                        <Image
-                            src="/images/services/lob/advantageplus/mobile/deep.webp"
-                            alt="Warehouse"
-                            priority
-                            width={0}
-                            height={0}
-                            className="w-full"
-                            sizes="100vw"
-                        />
-                    </div>
-
-
                 </div>
-
-
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-465px] xl:mt-[-440px] mt-[-75px] md:mt-0 custom-container">
+                    <div className="xl:col-span-10 col-span-12 bg-[#006FBE] px-10 xl:pt-12 4xl:pt-12  pt-[2rem] z-[9]  text-white ">
+                        <h2 className="4xl:text-[60px] text-[26px] leading-tight xl:text-[40px] xl:pr-32">Deep Salesforce Marketing Cloud Expertise</h2>
+                        <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-10">At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:</p>
+                    </div>
+                    <div className="col-span-1 bg-[#006FBE]"></div>
+                </div>
+                <div className="grid xl:grid-cols-12 grid-cols-1 absolute 4xl:mt-[-183px] xl:mt-[-225px] mt-0  custom-container">
+                    <div className="xl:col-span-6 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-20 px-8 4xl:pb-14 xl:pb-14 text-white ">
+                        <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-10 xl:pr-0" liClassName="" />
+                        <div className="absolute 4xl:mt-[-25px] xl:mt-[-18px] xl:block hidden">
+                            <LearnMore />
+                        </div>
+                    </div>
+                    <div className="xl:col-span-5 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-16 4xl:pl-0 px-8 xl:pb-14 4xl:pb-14 pb-20 text-white">
+                        <UnorderedList arrName={deepData2} ulClassName="list-disc leading-tight xl:space-y-5 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 pr-5 xl:pr-0" liClassName="" />
+                        <div className="absolute xl:hidden block bottom-0">
+                            <LearnMore />
+                        </div>
+                    </div>
+                    <div className="xl:col-span-3 col-span-12"></div>
+                </div>
             </section>
-            <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-465px] xl:mt-[-440px] mt-[-75px] md:mt-0 custom-container">
-
-                <div className="xl:col-span-10 col-span-12 bg-[#006FBE] px-10 xl:pt-12 4xl:pt-12  pt-[2rem] z-[9]  text-white ">
-                    <h2 className="4xl:text-[60px] text-[26px] leading-tight xl:text-[40px] xl:pr-32">Deep Salesforce Marketing Cloud Expertise</h2>
-                    <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-10">At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:</p>
-                </div>
-                <div className="col-span-1 bg-[#006FBE]"></div>
-
-            </div>
-
-
-            <div className="grid xl:grid-cols-12 grid-cols-1 absolute 4xl:mt-[-183px] xl:mt-[-225px] mt-0  custom-container">
-
-                <div className="xl:col-span-6 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-20 px-8 4xl:pb-14 xl:pb-14 text-white ">
-
-                    <ul className="list-disc leading-tight xl:space-y-5  space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-10 xl:pr-0">
-                        <li>Journey Builder for dynamic, personalized customer journeys.</li>
-                        <li>Email Studio for impactful, data-driven email marketing campaigns.</li>
-                        <li>Mobile Studio for SMS and push notifications.</li>
-                        <li className="xl:pb-16 4xl:pb-16">Advertising Studio to engage customers across Google, Facebook, LinkedIn, and other digital platforms.</li>
-                    </ul>
-                    <div className="absolute 4xl:mt-[-25px] xl:mt-[-18px] xl:block hidden">
-                        <LearnMore />
-                    </div>
-
-                </div>
-
-                <div className="xl:col-span-5 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-16 4xl:pl-0 px-8 xl:pb-14 4xl:pb-14 pb-20 text-white">
-                    <ul className="list-disc leading-tight xl:space-y-5 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 pr-5 xl:pr-0">
-                        <li>Datorama (Marketing Cloud Intelligence) for end-to-end marketing analytics and ROI optimization.</li>
-                        <li>OCustomer Segmentation and Audience Studio for precision-targeting.</li>
-                        <li>Marketing Cloud Personalization for real-time engagement.</li>
-                        <li>Marketing Analytics & Einstein AI for predictive insights and customer behavior modeling.</li>
-                    </ul>
-                    <div className="absolute  xl:hidden block bottom-0">
-                        <LearnMore />
-                    </div>
-                </div>
-                <div className="xl:col-span-3 col-span-12"></div>
-            </div>
-
-
-
+            {/* driving business section*/}
             <section className="xl:mt-64 4xl:mt-[25rem] custom-container 4xl:pl-0 4xl:pr-[192px] xl:pl-0 max-md:px-0 md:mt-[-17rem]">
-                <div className="grid xl:grid-cols-12 grid-cols-1 mt-[52rem] xl:mt-0 4xl:mt-0">
-                    <div className="xl:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 ">
+                <div className="grid lg:grid-cols-12 grid-cols-1 mt-[52rem] xl:mt-0 4xl:mt-0">
+                    <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
                             src="/images/services/lob/advantageplus/desktop/driving.webp"
                             alt="Warehouse"
                             priority
                             width={0}
                             height={0}
-                            className="w-full h-full"
+                            className="w-full h-full object-cover"
                             sizes="100vw"
                         />
                     </div>
-                    <div className="xl:col-span-5 col-span-12 max-md:px-[35px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight pt-10 xl:pt-0 4xl:pt-0 pr-10 xl:pr-0 4xl:pr-0">Driving Business Growth with Salesforce Marketing Cloud</h2>
-                        <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 xl:pr-0 4xl:pr-0">Our expertise helps organizations achieve:</p>
-                        <ul className="list-disc 4xl:space-y-5 xl:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 pr-12">
-                            <li><span className="font-bold">Scalable B2B & B2C Marketing: </span> Seamlessly manage both complex B2B relationships and high-volume B2C campaigns.</li>
-                            <li><span className="font-bold">Hyper-Personalized Email Marketing: </span> Personalized content powered by AI and real-time data.</li>
-                            <li><span className="font-bold"> Customer Segmentation & Targeting:</span> Reach the right audience with precision.</li>
-                            <li><span className="font-bold">   Omni-Channel Campaign Management: </span>  Consistent communication across email, mobile, social, and web.</li>
-                            <li><span className="font-bold">  Salesforce Agentforce Campaigns: </span>  Integrate marketing and sales efforts for lead-to-customer conversion. </li>
-                            <li><span className="font-bold">  Marketing Analytics and Reporting: </span> Actionable insights and dashboards. </li>
-
+                    <div className="lg:col-span-5 col-span-12 max-md:px-[35px]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0 pr-10 lg:pr-0 4xl:pr-0">Driving Business Growth with Salesforce Marketing Cloud</h2>
+                        <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0">Our expertise helps organizations achieve:</p>
+                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 pr-12">
+                            {marketingFeatures.map((feature, index) => (
+                                <li key={index}>
+                                    <span className="font-bold">{feature.title} </span>
+                                    {feature.description}
+                                </li>
+                            ))}
                         </ul>
+
                         <div className="">
                             <LearnMore />
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-            <div className="relative  4xl:mt-[20rem] 4xl:pl-[142px]  pb-20 custom-container mt-[11rem] max-md:px-0 xl:mt-[18rem]">
+            {/* reimagine section */}
+            <div className="relative 4xl:mt-[20rem] 4xl:pl-[142px]  pb-20 custom-container mt-[11rem] max-md:px-0 xl:mt-[18rem]">
                 <div className="bg-[#F0F0F0] relative 4xl:pl-[142px] 4xl:h-[1340px] xl:h-[865px]">
                     <div className="relative z-10 -mt-32 4xl:mr-[-142px] xl:mr-[-100px] xl:ml-[80px] 4xl:ml-0">
                         <div className="xl:block hidden">
@@ -441,7 +482,6 @@ export default function Page() {
                                 priority
                             />
                         </div>
-
                     </div>
 
                     <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px]">
@@ -452,28 +492,18 @@ export default function Page() {
                             <p className="mt-5 text-[16px] 4xl:text-[22px]">
                                 Leveraging Salesforce Data Cloud and Agentforce, Rialtes transforms how organizations manage and execute marketing campaigns:
                             </p>
-
                             <div className="mt-6 xl:block hidden 4xl:mt-[275px] xl:mt-[85px]">
                                 <LearnMore />
                             </div>
                         </div>
-
                         <div className="4xl:mt-[40rem]  xl:mt-[29rem]">
                             <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] leading-relaxed space-y-3 pr-12 xl:pr-20 4xl:pr-24">
-                                <li>
-                                    <strong>AI-Driven Campaign Optimization:</strong> Predictive targeting and customer journey refinement using Einstein AI.
-                                </li>
-                                <li>
-                                    <strong>Real-Time Customer Insights:</strong> Unified view of customer interactions across channels via Data Cloud.
-                                </li>
-                                <li>
-                                    <strong>Next-Gen Agentforce Campaign Management:</strong> Enable sales and marketing teams to collaborate on customer outreach with AI-generated recommendations.
-                                </li>
-                                <li>
-                                    <strong>Dynamic Segmentation:</strong> AI-driven segments that evolve based on real-time customer behavior.
-                                </li>
+                                {aiMarketingData.map((item, index) => (
+                                    <li key={index}>
+                                        <strong>{item.title}</strong> {item.description}
+                                    </li>
+                                ))}
                             </ul>
-
                             <p className="text-[16px] 4xl:text-[22px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-0 4xl:pr-0">
                                 By harnessing AI and real-time data, Rialtes enables clients to move from reactive to proactive marketing, improving engagement rates and customer loyalty.
                             </p>
@@ -484,8 +514,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-
-
+            {/* introducing agentchat section */}
             <section className="relative 4xl:mt-[9rem] mt-[1rem] xl:mt-[9rem]">
                 <div className="xl:block hidden">
                     <Image
@@ -518,37 +547,22 @@ export default function Page() {
                         <p className="mt-5 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">Meet AgentChat, Rialtes’ proprietary bi-directional WhatsApp conversational app built natively on the Salesforce Platform — designed to accelerate customer interactions across any Salesforce Cloud.</p>
                         <h3 className="mt-5 4xl:text-[30px] text-[20px]">Key Features of AgentChat:</h3>
                         <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-relaxed 4xl:space-y-5 xl:space-y-4 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
-                            <li>
-                                <strong> Instant Deployment:</strong>  Go live in minutes — no complex setup required.
-                            </li>
-                            <li>
-                                <strong> Universal Salesforce Compatibility:</strong> Works seamlessly with Sales, Service, Marketing, and Experience Clouds.
-                            </li>
-                            <li>
-                                <strong> Multi-Role and Secure:</strong> Supports robust role-based access and enterprise-grade security models.
-                            </li>
-                            <li>
-                                <strong> End-to-End Record Delegation:</strong>  Assign Cases, Leads, Work Orders, and Custom Records by type, ensuring seamless workflows.
-                            </li>
-                            <li>
-                                <strong>  Enhanced Customer Experience:</strong>   Enable real-time two-way WhatsApp conversations directly from Salesforce, improving engagement and resolution rates.
-                            </li>
+                            {agentChatData.map((feature, index) => (
+                                <li key={index}>
+                                    <strong>{feature.title}</strong> {feature.description}
+                                </li>
+                            ))}
                         </ul>
-
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-light 4xl:pr-6">AgentChat is the perfect solution for customer service, sales inquiries, order updates, and marketing outreach — all managed securely within Salesforce.</p>
                         <div className="mt-5">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
-
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
+            {/* your growth section */}
             <section className="4xl:mt-[14rem] custom-container relative 4xl:pr-[142px] 4xl:pl-[213px] xl:mt-80 mt-[78rem] md:mt-[58rem] max-md:px-0">
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
-
                     <div className="relative z-0 order-1 xl:order-2 4xl:ml-[-300px] xl:ml-[-211px]">
                         <div className="xl:block hidden">
                             <Image
@@ -573,7 +587,6 @@ export default function Page() {
                             />
                         </div>
                     </div>
-
                     <div className="bg-[#3991AB] text-white z-10 4xl:p-10 4xl:pl-14 relative 4xl:pb-28 xl:pb-20 4xl:pt-10 order-2 xl:order-1 max-md:px-[35px] md:px-[35px] xl:pl-12 xl:pt-8 xl:mb-[70px] 4xl:mb-20">
                         <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pt-10 xl:pt-0 4xl:pt-0">
                             Your Growth Partners
@@ -585,32 +598,23 @@ export default function Page() {
                             Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships,
                             Rialtes’ Avantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.
                         </p>
-
-                        <ul className="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10">
-                            <li>SAP Certified Partner with proven CPI integration success stories.</li>
-                            <li>Global presence: United States, Canada, Singapore, India.</li>
-                            <li>Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.</li>
-                            <li>Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.</li>
-                            <li>End-to-end support from advisory to post-go-live optimization.</li>
-                        </ul>
-
+                        <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
                         <div className="xl:absolute xl:mt-2 bottom-0 mt-8 4xl:mt-2">
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
-            <div
-                className="mt-[4rem] 4xl:mt-[5rem] xl:mt-[3rem]">
+
+            {/* explore more section */}
+            <div className="mt-[4rem] 4xl:mt-[5rem] xl:mt-[3rem]">
                 <section className=" bg-white">
-
                     <SalesforceExplore />
-
                 </section>
             </div>
-            <div
-                className="custom-container text-black py-16">
+
+            {/* contact form section */}
+            <div className="custom-container text-black py-16">
                 <ContactForm title={'Ready to Accelerate Your Marketing? Let’s Talk!'} className={"leading-tight xl:max-w-[65%] max-w-full 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-light"} />
             </div >
         </div >
