@@ -221,14 +221,9 @@ export default function Page() {
                 <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Marketing</h3>: Running automated campaigns that adapt based on performance metrics.</li>
                 <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Field Service Management</h3>: Businesses that depend on field service agents such as technicians, delivery personnel, or home care providers.</li>
                 <li className=""><h3 className="font-bold inline xl:text-[20px] text-[16px]">Insurance and Financial Services</h3>: Insurance brokers, agents, and financial services consultants can utilize Agentforce to access crucial client data on the go.</li>
-
               </ul>
-
-
               <div className="py-2"></div>
-
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Getting Started with Agentforce</h2>
-
               <p>If providing exceptional service and support to keep your customers satisfied is your priority, now is an excellent
                 time to see what Agentforce can offer you. This tool will greatly benefit Salesforce customers by helping them understand and anticipate customer needs, enabling them to respond proactively. Salesforce was so driven to launch Agentforce during this year’s <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/dreamforce/">Dreamforce</Link>. Businesses can leverage Agentforce within the Salesforce platform by automating sales workflows, enhancing lead management, and optimizing customer interactions.  Rialtes specializes in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/">AI and analytics solutions in Salesforce</Link>, and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes.</p>
             </div>
