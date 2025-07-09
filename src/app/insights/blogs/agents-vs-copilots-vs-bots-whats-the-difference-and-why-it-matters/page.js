@@ -1,6 +1,4 @@
 "use client";
-// pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
@@ -36,7 +34,6 @@ const schemaData = {
   articleSection: "AI Automation",
   url: "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
 };
-
 const blogs = [
   {
     id: 1,
@@ -60,15 +57,6 @@ const blogs = [
     description:
       "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
   },
-  /* {
-    id: 3,
-    image: "/images/blog/blog-3.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  }, */
   {
     id: 4,
     image: "/images/blog/blog-4.webp",
@@ -112,72 +100,7 @@ const blogs = [
     description:
       "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
-  /*{
-    id: 8,
-    image: "/images/blog/blog-8.webp",
-    category: "Integration",
-    industry: "Healthcare",
-    date: "11 Nov 2024",
-    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-    description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
-  },
-  {
-    id: 9,
-    image: "/images/blog/blog-9.webp",
-    category: "Diversity & Inclusion",
-    industry: "Human Resources",
-    date: "12 Nov 2024",
-    title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-    description: "Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success.",
-  },
-  {
-    id: 10,
-    image: "/images/blog/blog-10.webp",
-    category: "SAP GTS",
-    industry: "Generic",
-    date: "19 Dec 2024",
-    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-    description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
-  },
-  {
-    id: 11,
-    image: "/images/blog/blog-11.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Dec 2024",
-    title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
-    description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
-  },
-  {
-    id: 12,
-    image: "/images/blog/blog-12.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "13 Jan 2025",
-    title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
-  },
-  {
-    id: 13,
-    image: "/images/blog/blog-13.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "21 Jan 2025",
-    title: "How SAP SuccessFactors Enhances Remote Work Management",
-    description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
-  },
-  {
-    id: 14,
-    image: "/images/blog/blog-14.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "03 Feb 2025",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
-  }, */
-  // Add more blog objects as needed
 ];
-
 export default function Page() {
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
@@ -192,8 +115,8 @@ export default function Page() {
           "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
         }
       />
-     
-         <Script
+
+      <Script
         id="schema-copilots"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -244,32 +167,6 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                  {/* <div className="max-w-[40px]">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/how-salesforce-agentforce-actually-works">
-                      <Image
-                        src="/images/case-studies/facebook.svg"
-                        alt="Facebook"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a href="https://twitter.com/intent/tweet?url=/how-salesforce-agentforce-actually-works&text=Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div> */}
                   <div className="max-w-[40px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
@@ -304,7 +201,6 @@ export default function Page() {
             Agents vs. Copilots vs. Bots: What’s the Difference and Why It
             Matters
           </h1>
-
           <div>
             <p className="text-black pb-4">
               Tools like Agentforce are redefining how we view digital
@@ -734,7 +630,7 @@ export default function Page() {
               <Link
                 className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
                 href={
-                  "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/?utm_source=blog&utm_medium=organic"
+                  "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
                 }
               >
                 <span>AI and Analytics solutions for CRM</span>

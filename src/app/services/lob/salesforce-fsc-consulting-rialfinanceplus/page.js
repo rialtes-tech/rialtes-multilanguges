@@ -154,7 +154,6 @@ export default function page() {
         "Global delivery with U.S., Canada, Singapore, and India presence.",
         "AgentChat and Agentforce AI included for faster, smarter client engagement.",
     ]
-
     const deepDiveData = [
         {
             id: "1",
@@ -262,13 +261,12 @@ export default function page() {
                 description="Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support."
                 canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/"
             />
-          
-              <Script
-        id="schema-realfinance"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <Script
+                id="schema-realfinance"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 {/* Desktop Image */}

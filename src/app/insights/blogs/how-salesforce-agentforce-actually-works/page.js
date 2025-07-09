@@ -1,48 +1,37 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-const schemaData={
+const schemaData = {
   "@context": "https://schema.org",
- "@type": "BlogPosting",
-"mainEntityOfPage": {
-   "@type": "WebPage",
-   "@id": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
- },
-"headline": "How Salesforce Agentforce Actually Works",
-"description": "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
- "image": "https://www.rialtes.com/images/blog/how-agentforce-works-blog-banner.webp",
- "author": {
-   "@type": "Organization",
-   "name": "Rialtes",
-   "url": "https://www.rialtes.com"
- },
-"publisher": {
-   "@type": "Organization",
-   "name": "Rialtes",
-   "logo": {
-    "@type": "ImageObject",
-     "url": "https://www.rialtes.com/images/homepage/logo.svg"
-   }
- },
-"datePublished": "2024-09-30",
-"articleSection": "Salesforce",
- "url": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+  },
+  "headline": "How Salesforce Agentforce Actually Works",
+  "description": "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
+  "image": "https://www.rialtes.com/images/blog/how-agentforce-works-blog-banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-09-30",
+  "articleSection": "Salesforce",
+  "url": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
 }
 const blogs = [
-  /*{
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: 'how-salesforce-agentforce-actually-works',
-    title: "How Salesforce Agentforce Actually Works",
-    description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },*/
   {
     id: 2,
     image: "/images/blog/blog-2.webp",
@@ -97,70 +86,6 @@ const blogs = [
     title: "SAP SuccessFactors Performance and Goal Management",
     description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
-  /*{
-    id: 8,
-    image: "/images/blog/blog-8.webp",
-    category: "Integration",
-    industry: "Healthcare",
-    date: "11 Nov 2024",
-    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-    description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
-  },
-  {
-    id: 9,
-    image: "/images/blog/blog-9.webp",
-    category: "Diversity & Inclusion",
-    industry: "Human Resources",
-    date: "12 Nov 2024",
-    title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-    description: "Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success.",
-  },
-  {
-    id: 10,
-    image: "/images/blog/blog-10.webp",
-    category: "SAP GTS",
-    industry: "Generic",
-    date: "19 Dec 2024",
-    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-    description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
-  },
-  {
-    id: 11,
-    image: "/images/blog/blog-11.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Dec 2024",
-    title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
-    description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
-  },
-  {
-    id: 12,
-    image: "/images/blog/blog-12.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "13 Jan 2025",
-    title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
-  },
-  {
-    id: 13,
-    image: "/images/blog/blog-13.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "21 Jan 2025",
-    title: "How SAP SuccessFactors Enhances Remote Work Management",
-    description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
-  },
-  {
-    id: 14,
-    image: "/images/blog/blog-14.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "03 Feb 2025",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
-  }, */
-  // Add more blog objects as needed
 ];
 
 export default function Page() {
@@ -173,8 +98,8 @@ export default function Page() {
         description="Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!"
         canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
       />
-      
-   <Script
+
+      <Script
         id="schema-how-salesforce"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -192,10 +117,7 @@ export default function Page() {
       </section>
 
       <section
-        className="
-      custom-container"
-      >
-
+        className="custom-container">
         <div className="py-10 bg-white">
           <div className="container pl-0 mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
@@ -205,11 +127,12 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                  <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >                          <Image
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}
@@ -220,7 +143,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-               <div className="max-w-[40px]">
+                  <div className="max-w-[40px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"
@@ -236,7 +159,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                 
+
                 </div>
               </div>
             </div>
@@ -291,8 +214,8 @@ export default function Page() {
 
               <p className="text-black pb-4">The use cases for Agentforce are vast and can be tailored to specific fields:</p>
 
-              
-  <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
+
+              <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
                 <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Sales</h3>: Automating lead qualification, booking appointments, and nurturing leads.</li>
                 <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Customer Service</h3>: Managing tickets, resolving inquiries, and providing 24/7 support.</li>
                 <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Marketing</h3>: Running automated campaigns that adapt based on performance metrics.</li>
@@ -306,8 +229,8 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Getting Started with Agentforce</h2>
 
-              <p>If providing exceptional service and support to keep your customers satisfied is your priority, now is an excellent 
-                time to see what Agentforce can offer you. This tool will greatly benefit Salesforce customers by helping them understand and anticipate customer needs, enabling them to respond proactively. Salesforce was so driven to launch Agentforce during this year’s <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/dreamforce/">Dreamforce</Link>. Businesses can leverage Agentforce within the Salesforce platform by automating sales workflows, enhancing lead management, and optimizing customer interactions.  Rialtes specializes in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/">AI and analytics solutions in Salesforce</Link>, and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes.</p>
+              <p>If providing exceptional service and support to keep your customers satisfied is your priority, now is an excellent
+                time to see what Agentforce can offer you. This tool will greatly benefit Salesforce customers by helping them understand and anticipate customer needs, enabling them to respond proactively. Salesforce was so driven to launch Agentforce during this year’s <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/dreamforce/">Dreamforce</Link>. Businesses can leverage Agentforce within the Salesforce platform by automating sales workflows, enhancing lead management, and optimizing customer interactions.  Rialtes specializes in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/">AI and analytics solutions in Salesforce</Link>, and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes.</p>
             </div>
           </div>
         </div>

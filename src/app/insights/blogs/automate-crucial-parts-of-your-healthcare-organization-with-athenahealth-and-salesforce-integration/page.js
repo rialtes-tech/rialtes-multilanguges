@@ -536,7 +536,7 @@ export default function Page() {
                 <Link
                   className=" text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
                   href={
-                    "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/"
+                    "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
                   }
                 >
                   <span className="">Salesforce consulting firm</span>
