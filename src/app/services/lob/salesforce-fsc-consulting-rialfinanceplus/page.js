@@ -2,7 +2,6 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 
@@ -153,7 +152,7 @@ export default function page() {
         "Deep domain expertise in banking, wealth, lending, insurance, and asset management.",
         "AI and Agentforce leadership for next-gen customer experience.",
         "Global delivery with U.S., Canada, Singapore, and India presence.",
-        "RialChat and Agentforce AI included for faster, smarter client engagement.",
+        "AgentChat and Agentforce AI included for faster, smarter client engagement.",
     ]
 
     const deepDiveData = [
@@ -574,7 +573,7 @@ export default function page() {
                             WhatsApp-Enabled Real-Time Customer Engagement (Included Free with RialFinance+)
                         </h3>
                         <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
-                            With RialChat, seamlessly integrated into Salesforce FSC, engage your clients in real-time:
+                            With AgentChat , seamlessly integrated into Salesforce FSC, engage your clients in real-time:
                         </p>
                     </div>
                     <div className="md:col-span-7 col-span-12">
