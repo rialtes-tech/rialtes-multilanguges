@@ -136,7 +136,7 @@ export default function Page() {
       />
             {/* hero section */}
             <div className="relative bg-[#E8E8E8] pb-20 ">
-                <div className="relative  custom-container xl:!pr-0 max-md:pr-0">
+                <div className="relative  custom-container xl:!pr-0 max-xl:pr-0">
                     <div className="overflow-hidden relative z-0 ">
                         <div className="w-full h-full xl:block hidden ">
                             <Image
@@ -219,7 +219,7 @@ export default function Page() {
                     <div>
                         <div className=" flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[401px] 2xl:w-[350px] xl:w-[300px]   ">Instant WhatsApp Conversations, Directly in Salesforce</h3>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px]   ">Instant WhatsApp Conversations, Directly in Salesforce</h3>
                                 <p className=" mt-5 xl:mt-10 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]  ">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
                             </div>
                             <Image
@@ -256,7 +256,7 @@ export default function Page() {
                     <div>
                         <div className=" flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[33px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[401px] 2xl:w-[380px]  xl:w-[300px] ">Bi-Directional & Real-Time Messaging</h3>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[33px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[380px] 2xl:w-[350px]  xl:w-[300px] ">Bi-Directional & Real-Time Messaging</h3>
                                 <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">Conversations sync in real-time — whether initiated from WhatsApp or Salesforce.</p>
                             </div>
                             <Image
@@ -290,7 +290,7 @@ export default function Page() {
                     </div>
                     <div>
                         <div className="border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
-                            <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[401px]  2xl:w-[346px] xl:w-[300px]  ">Built-in Role-Based Access and Security</h3>
+                            <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[370px]  2xl:w-[346px] xl:w-[300px]  ">Built-in Role-Based Access and Security</h3>
                             <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]   ">Control who can chat, view, and manage conversations with advanced role-based permissions and Salesforce’s native security model.</p>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] xl:mt-20 md:mt-20 mt-5 hover:invert hover:grayscale hover:contrast-100"

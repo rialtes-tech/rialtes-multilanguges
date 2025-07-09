@@ -541,7 +541,7 @@ export default function Page() {
             {cardsData.map((card, index) => (
               <div
                 key={index}
-                className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border transition duration-300">
+                className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[3px] transition duration-300">
                 <h3 className="text-[22px] xl:text-[30px] font-semibold leading-tight">
                   {card.title}
                 </h3>
