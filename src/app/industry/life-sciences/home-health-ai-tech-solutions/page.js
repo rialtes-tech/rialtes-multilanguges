@@ -4,7 +4,7 @@ import Seo from "@/app/components/Seo";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function Page() {
     const schemaData =
     {
@@ -247,7 +247,6 @@ export default function Page() {
             desc: "Unified patient data to power next-gen personalization and analytics."
         },
     ]
-
     return (
         <section className="min-h-screen bg-white">
             <Seo
@@ -263,7 +262,6 @@ export default function Page() {
             />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-                {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
                         src="/images/home-health/hero-banner-desk.webp"
@@ -284,7 +282,6 @@ export default function Page() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full pt-[120px] md:pt-0">
                         <div className="col-span-12">
@@ -300,7 +297,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* page description section */}
             <div div className="custom-container xl:mt-[124px] mt-[33px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[40px] gap-y-[28px]">
@@ -325,7 +321,6 @@ export default function Page() {
                 <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[39px] mt-[28px] w-[90%] lg:w-[65%] 4xl:w-[70%]">
                     While home-based care offers a transformative opportunity for healthcare delivery, it must overcome several long-standing challenges. At Rialtes, we design next-gen Remote Monitoring and Home Health solutions on Salesforce Health Cloud to break down these barriers and deliver equitable, efficient, and empathetic care.
                 </p>
-
                 {
                     addressingData.map((data, ind) => {
                         const isEven = ind % 2 === 0;
@@ -353,9 +348,7 @@ export default function Page() {
                         )
                     })
                 }
-
             </section>
-
             {/* global expertise section */}
             <section className="custom-container xl:mt-[145px] mt-[70px] lg:pr-0 max-md:px-0">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -374,7 +367,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* how ai section */}
             <section className="custom-container xl:mt-[119px] mt-[85px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 gap-y-[29px] xl:gap-[60px]">
@@ -387,7 +379,6 @@ export default function Page() {
                         <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal md:w-[80%] xl:w-full">Artificial Intelligence is redefining what’s possible in home-based care. By enabling predictive insights, personalized treatment, and real-time decision-making, AI empowers care teams to move from reactive to proactive care models, improving patient outcomes while reducing costs.</p>
                     </div>
                 </div>
-
                 <div className="xl:mt-[65px] mt-[39px]">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[20px] sm:w-[70%] md:w-full">
                         {
@@ -407,17 +398,14 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* our capabilities section */}
             <section className="relative xl:mt-[133px] mt-[70px] xl:pt-[141px] pt-[45px] bg-no-repeat bg-cover bg-center
                     md:bg-[url('/images/home-health/our-capabilities-desk.webp')]
                     bg-[url('/images/home-health/Mobile/our-capabilities-mob.webp')]">
-
                 <div className="custom-container text-[#ffffff]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
                         Our Capabilities
                     </h2>
-
                     <div className="grid lg:grid-cols-12 grid-cols-1 xl:mt-[36px] mt-[17px] lg:gap-[60px] gap-y-[17px]">
                         <div className="lg:col-span-5 col-span-12">
                             <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] leading-tight">
@@ -442,27 +430,17 @@ export default function Page() {
                                         <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal w-[90%] lg:w-full xl:mt-[35px] mt-[16px] 4xl:w-[98%]">
                                             {data.desc && data.desc}
                                         </p>
-                                        <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[35px] mt-[17px] pl-[20px] w-[90%] md:w-full 4xl:w-[90%]">
-                                            {data.dataList.map((data, ind) => (
-                                                <li
-                                                    className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
-                                                    key={ind}>
-                                                    {data}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                        <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[35px] mt-[17px] pl-[20px] w-[90%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
                                     </div>
                                 )
                             })
                         }
                     </div>
-
                     <div className="mt-[74px] xl:mt-[104px]">
                         <LearnMore bgcolor="#0C8AED" bordercolor="#0C8AED" />
                     </div>
                 </div>
             </section>
-
             {/* agentchat section */}
             <section className="custom-container bg-[#0A6BB8] text-[#ffffff] xl:mt-[247px] mt-[174px]">
                 <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[80px] gap-y-[40px]">
@@ -490,7 +468,6 @@ export default function Page() {
                                 if (ind === 1) return "xl:pr-[73px]";
                                 return "xl:pr-[40px]";
                             };
-
                             return (
                                 <div
                                     key={ind}
@@ -512,19 +489,9 @@ export default function Page() {
                             Designed for Home Health
                         </h4>
                     </div>
-
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
-                        <ul className="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full 4xl:w-[90%] lg:pb-[120px]">
-                            {homeHealth.map((data, ind) => (
-                                <li
-                                    className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
-                                    key={ind}>
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={homeHealth} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full 4xl:w-[90%] lg:pb-[120px]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
                     </div>
-
                     <div className="xl:col-span-2 lg:col-span-3 col-span-12 h-full">
                         <div className="flex flex-col justify-end h-full w-[190px]">
                             <LearnMore />
