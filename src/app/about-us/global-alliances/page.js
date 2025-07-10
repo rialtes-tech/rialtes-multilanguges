@@ -219,7 +219,7 @@ export default function Contact() {
                 title="Our Strategic Partners – Empowering Success with Rialtes"
                 description="Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success."
                 keywords="Partners, website, welcome"
-                canonical={"https://www.rialtes.com/about-us/global-alliences/"}
+                canonical={"https://www.rialtes.com/about-us/global-alliances/"}
             />
 
             <Script
@@ -255,7 +255,7 @@ export default function Contact() {
             <section className="custom-container">
                 <div className="grid lg:grid-cols-2 mt-16 mb-16">
                     <div>
-                        <h1 className="xl:w-[60%] w-full">Our Strategic Partners</h1>
+                        <h2 className="xl:w-[60%] w-full">Our Strategic Partners</h2>
                     </div>
 
                     <p className="mt-5 xl:w-[75%] w-full">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>

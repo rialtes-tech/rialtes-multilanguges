@@ -1,14 +1,12 @@
 "use client";
-// pages/success-factors.js
-import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
+import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -103,7 +101,6 @@ const schemaData = {
   "url": "https://www.rialtes.com/industry/real-estate-property-management/"
 }
 const slides = [
-
   {
     id: 1,
     imgSrc: "/images/case-studies/case-study-2_thumb_n.webp",
@@ -118,11 +115,7 @@ const slides = [
     title: "Yardi Managed Services",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
-
-
-
 ];
-
 const latestServices = [
   {
     id: 1,
@@ -154,9 +147,7 @@ const latestServices = [
     title: "Real Estate Outsourcing",
     description: "Outsourcing your property management and accounting processes to a trusted partner could save you countless hours of administrative work. Our real estate outsourcing services include on-site, offsite, and hybrid models.",
   },
-
 ];
-
 const ServicesCard = ({ services }) => (
   <div className="h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
@@ -165,7 +156,6 @@ const ServicesCard = ({ services }) => (
     </div>
   </div>
 );
-
 const Services = () => {
   return (
     <div className="text-black 2xl:pr-70 xl:pr-35 md:pr-8 pr-0 mt-20 ">
@@ -178,7 +168,6 @@ const Services = () => {
     </div>
   );
 };
-
 const growLatestServices = [
   {
     id: 1,
@@ -190,7 +179,6 @@ const growLatestServices = [
       'Centralized Collections management',
       'SMART Monthly Billing ',
     ],
-
   },
   {
     id: 2,
@@ -202,7 +190,6 @@ const growLatestServices = [
       'Chat with property groups',
       'Mobile approvals',
     ],
-
   },
   {
     id: 3,
@@ -214,7 +201,6 @@ const growLatestServices = [
       'Use data to make decisions',
       'Drill down to individual records ',
     ],
-
   },
   {
     id: 4,
@@ -227,10 +213,8 @@ const growLatestServices = [
       'AI Abstraction Automation',
       'Digital Payments in +135 currencies',
     ],
-
   }
 ];
-
 const GrowServicesCard = ({ services }) => (
   <div className=" h-full">
     <div className="relative overflow-hidden">
@@ -245,24 +229,12 @@ const GrowServicesCard = ({ services }) => (
         priority
       />
     </div>
-    <div className="flex flex-col pt-4">
+    <div className="flex flex-col pt-8">
       <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold 4xl:text-[30px] xl:text-[24px] text-[20px] line-clamp-2 min-h-[60px]">{services.title}</h3>
     </div>
-    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{services.description}</p>
-    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-      {services?.productsDetails?.map((details, index) => {
-        return (
-          <li
-            key={index}
-            className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
-          >
-            {details}
-          </li>
-
-        )
-      })}
-    </ul>
-    <LearnMore className="w-[30%]" />
+    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-2">{services.description}</p>
+    <UnorderedList arrName={services?.productsDetails} ulClassName="mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
+    <div className="mt-6"><LearnMore /></div>
   </div>
 );
 
@@ -280,10 +252,7 @@ const GrowServices = () => {
     </div>
   );
 };
-
-
 export default function Page() {
-
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -298,9 +267,7 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-        {/* Desktop Image */}
         <div className="hidden lg:block">
           <Image
             src="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp"
@@ -311,7 +278,6 @@ export default function Page() {
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-
         {/* Mobile Image */}
         <div className="block lg:hidden">
           <Image
@@ -321,7 +287,6 @@ export default function Page() {
             priority
           />
         </div>
-
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 xl:col-span-8 lg:col-span-9 mb-[139px] ">
@@ -332,27 +297,21 @@ export default function Page() {
                 Manage real estate processes with cloud-based property management software
               </h2>
             </div>
-
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
             </div>
           </div>
         </div>
       </section>
-
-
-
-
+      {/* page description */}
       <section className="custom-container">
         <div className="py-10 bg-white">
           <div>
             <div className="flex flex-col xl:flex-row py-6 xl:gap-10">
-
               <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] 2xl:w-[35%] xl:mr-4 xl:mb-0 mb-4">
                 <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                   Affordable property management software for your real estate operations
                 </h1>
               </div>
-
               <div className="flex flex-col w-full xl:w-[40%]">
                 <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                   The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
@@ -361,32 +320,20 @@ export default function Page() {
                   At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
                 </p>
               </div>
-
             </div>
           </div>
         </div>
       </section>
-
-
-
-
       {/* We Help You Grow and Thrive */}
-      <div
-        className="
-   custom-container "
-      >
+      <div className="custom-container">
         <section className="pb-16 xl:pt-0 bg-white">
           <GrowServices />
         </section>
       </div>
-
       <div className="bg-[#EDEDED]">
-        <div
-          className="custom-container "
-        >
+        <div className="custom-container">
           <section className="pb-16  pt-10">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">The #1 CRM for real estate business</h2>
-
             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-16 mt-5 xl:gap-20 gap-10">
               <div>
                 <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
@@ -403,53 +350,27 @@ export default function Page() {
           </section>
         </div>
       </div>
-
-
       {/* Latest Services Section */}
-      <div
-        className="
-      custom-container "
-      >
+      <div className="custom-container">
         <section className="pb-16 bg-white">
-
           <Services />
           <LearnMore />
-
         </section>
       </div>
-
-      < div className="bg-[#F5F5F5] py-6" >
-        <div
-          className="
-   custom-container md:!pr-0"
-        >
+      <div className="bg-[#F5F5F5] py-6">
+        <div className="custom-container md:!pr-0">
           <CaseStudyIndivisual slides={slides} />
-
         </div>
       </div>
-
-
-
-      < div className="bg-[#808080] py-6" >
-        <div
-          className="
-     custom-container md:!pr-0"
-        >
+      <div className="bg-[#808080] py-6" >
+        <div className="custom-container md:!pr-0">
           <ExploreMoreCarousel />
-
         </div>
-      </div >
+      </div>
       {/* Contact Form */}
-      < div
-        className="mb-20 mt-20
- custom-container 
-  text-black py-6"
-      >
+      <div className="mb-20 mt-20 custom-container text-black py-6">
         <ContactForm title={'Take the next step to elevate your property management.'} className={"leading-tight text-black 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 4xl:w-[80%]"} />
-
-      </div >
-
-
-    </div >
+      </div>
+    </div>
   );
 }

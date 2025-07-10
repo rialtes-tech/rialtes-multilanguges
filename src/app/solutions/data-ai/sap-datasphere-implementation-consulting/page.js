@@ -506,7 +506,7 @@ const SapAribaSection = () => {
                             </h3>
                         </div>
                         <div className="flex flex-col">
-                            <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[20px] text-[16px] leading-tight font-light" />
+                            <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[24px] text-[16px] leading-tight font-normal" />
                             <div className="xl:mt-[49px] mt-[34px] xl:ml-1 ">
                                 <LearnMore />
                             </div>
@@ -695,7 +695,7 @@ const AdvancedDataSection = () => {
                             <h3 className="font-semibold 4xl:text-[36px] xl:text-[24px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
                                 From Raw Data to Actionable Intelligence
                             </h3>
-                            <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[24px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                 <LearnMore />
                             </div>

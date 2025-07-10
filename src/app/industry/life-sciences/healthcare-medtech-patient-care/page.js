@@ -1,6 +1,5 @@
 "use client";
-// pages/success-factors.js
-import Head from "next/head";
+import UnorderedList from "@/app/components/unorderedList";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
@@ -10,7 +9,6 @@ import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-
 const slidesCaseStudy = [
   {
     id: 1,
@@ -34,8 +32,6 @@ const slidesCaseStudy = [
     description: "A global medical technology company that develops and manufactures innovative products.",
   },
 ];
-
-
 const latestServices = [
   {
     id: 1,
@@ -63,7 +59,6 @@ const latestServices = [
     description: "Helping Biotech companies achieve R&D, keep their data secure, and put life-saving medicines on the market faster with tailored AI-powered healthcare IT solutions.",
   },
 ];
-
 const ServicesCard = ({ services }) => (
   <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
@@ -72,7 +67,6 @@ const ServicesCard = ({ services }) => (
     </div>
   </div>
 );
-
 const Services = () => {
   return (
     <div className="custom-container mx-auto text-black md:mt-10 xl:mt-[120px]">
@@ -89,7 +83,6 @@ const Services = () => {
     </div>
   );
 };
-
 const growLatestServices = [
   {
     id: 1,
@@ -139,7 +132,7 @@ const growLatestServices = [
     ],
   }
 ];
-const schemaData={
+const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Healthcare & MedTech IT Solutions",
@@ -224,48 +217,33 @@ const schemaData={
   },
   "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care"
 }
-
 const GrowServicesCard = ({ services }) => (
- 
   <div className="flex flex-col h-full">
-  <div className="relative overflow-hidden">
-    <Image
-      className="w-full transition-transform duration-300 hover:scale-105"
-      src={services.image}
-      alt={services.title}
-      width={0}
-      height={0}
-      sizes="100vw"
-      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-      priority
-    />
+    <div className="relative overflow-hidden">
+      <Image
+        className="w-full transition-transform duration-300 hover:scale-105"
+        src={services.image}
+        alt={services.title}
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        priority
+      />
+    </div>
+    <div className="flex flex-col pt-4 flex-grow">
+      <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+        {services.title}
+      </h3>
+      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+        {services.description}
+      </p>
+      <UnorderedList arrName={services?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
+    </div>
+    <div className="mt-auto pt-5">
+      <LearnMore />
+    </div>
   </div>
-
-  <div className="flex flex-col pt-4 flex-grow">
-    <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px]  4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
-      {services.title}
-    </h3>
-
-    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-      {services.description}
-    </p>
-
-    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-      {services?.productsDetails?.map((details, index) => (
-        <li
-          key={index}
-          className="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]"
-        >
-          {details}
-        </li>
-      ))}
-    </ul>
-  </div>
-
-  <div className="mt-auto pt-5">
-    <LearnMore />
-  </div>
-</div>
 
 );
 const GrowServices = () => {
@@ -296,25 +274,13 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
       />
-          <Script
+      <Script
         id="schema-healthcare"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
-
-  {/* <HeroSection
-        title="Redefining healthcare by keeping patients at the center"
-        subtitle="HEALTHCARE"
-        mobimg="/images/healthcare/Healthcare.webp"
-        deskimg="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
-        extraImg=""
-      /> */}
-
-
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-        {/* Desktop Image */}
         <div className="hidden lg:block">
           <Image
             src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
@@ -325,7 +291,6 @@ export default function Page() {
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-
         {/* Mobile Image */}
         <div className="block lg:hidden">
           <Image
@@ -335,7 +300,6 @@ export default function Page() {
             priority
           />
         </div>
-
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 xl:col-span-7 lg:col-span-9">
@@ -345,19 +309,13 @@ export default function Page() {
               <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] 2xl:w-[80%] 4xl:w-[90%]  xl:w-[90%] md:w-[80%] mt-[11.5px] md:mt-[28.5px]">
                 Redefining healthcare by keeping patients at the center
               </h2>
-
             </div>
-
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
             </div>
           </div>
         </div>
       </section>
-
-      <section
-        className="
-       custom-container"
-      >
+      <section  className="custom-container">
         <div className="py-5 bg-white">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
@@ -373,11 +331,10 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* We Help You Grow and Thrive */}
       <div
         className="custom-container">
-        <section className=" bg-white">
+        <section className="bg-white">
           <GrowServices />
         </section>
       </div>
@@ -387,37 +344,23 @@ export default function Page() {
           <Services />
         </section>
       </div>
-
-
       {/* Latest Customer Success Stories */}
-      < div className="bg-[#F5F5F5] py-6 mt-20" >
+      <div className="bg-[#F5F5F5] py-20 mt-20" >
         <div className="custom-container" >
           <CaseStudyIndivisual slides={slidesCaseStudy} />
         </div>
       </div>
 
-      {/* Latest Blogs */}
-      <div className="mt-20 mb-20 custom-container">
-        <ServicesBlogs slides={slides} />
-
-      </div>
       {/* Explore More */}
-      < div className="bg-[#808080] py-6" >
-        <div
-          className="custom-container">
+      < div className="bg-[#808080] mt-20 py-20">
+        <div className="custom-container">
           <ExploreMoreCarousel />
         </div>
       </div >
-
       {/* Contact Form */}
-      < div
-        className="mb-20 mt-20 custom-container text-black py-6  "
-      >
+      <div className="mb-20 mt-20 custom-container text-black py-6">
         <ContactForm title={'Take the next step to operational excellence with us.'} className={"xl:w-[75%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"} />
-
-      </div >
-
-
-    </div >
+      </div>
+    </div>
   );
 }
