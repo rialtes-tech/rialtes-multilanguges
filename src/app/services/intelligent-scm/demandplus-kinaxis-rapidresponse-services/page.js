@@ -123,13 +123,13 @@ export default function DemandPlusSection() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
             />
-              <Script
-        id="schema-demandplus"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-
+            <Script
+                id="schema-demandplus"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            {/* hero section */}
             <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
                 <div className="xl:block hidden">
                     <Image

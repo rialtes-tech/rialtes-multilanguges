@@ -3,7 +3,7 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -292,7 +292,6 @@ export default function page() {
             />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-                {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
                         src="/images/industry/life-science/hero-desk-banner.webp"
@@ -313,7 +312,6 @@ export default function page() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full text-[#ffffff]">
                         <div className="col-span-12">
@@ -332,7 +330,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* page description section */}
             <section className="custom-container xl:mt-[119px] mt-[44px]">
                 <div className="">
@@ -344,13 +341,12 @@ export default function page() {
                     </p>
                 </div>
             </section>
-
             {/* did u know section */}
             <section className="custom-container xl:mt-[124px] mt-[56px]">
                 <div className="grid md:grid-cols-12 grid-cols-1 border border-[#707070]">
                     <div className="md:col-span-7 col-span-12 border-r border-[#707070]">
                         <div className="relative pt-[33px] pb-[26px] pl-[26px] pr-[23px] xl:pt-[58px] xl:pb-[50px] xl:pl-[49px] xl:pr-[44px]">
-                            <p className="xl:text-[36px] 4xl:text-[50px] text-[26px] max-[340px]:text-[22px]  leading-tight text-[#038EF4] italic w-fit bg-[#ffffff] px-[14px] top-[-20px] absolute">Did you know?</p>
+                            <p className="xl:text-[36px] 4xl:text-[50px] text-[26px] max-[340px]:text-[22px] leading-tight text-[#038EF4] italic w-fit bg-[#ffffff] px-[14px] top-[-20px] 4xl:top-[-30px] absolute">Did you know?</p>
                             <p className="xl:text-[22px] 4xl:text-[28px] text-[18px] leading-tight w-[90%] sm:w-full">
                                 The global life sciences market is projected to reach <span className="xl:text-[28px] 4xl:text-[35px] text-[22px] text-[#038EF4] font-bold"> $3.6 trillion by 2030.</span>
                             </p>
@@ -373,7 +369,6 @@ export default function page() {
                     With pre-built accelerators like Body Map and Patient Interaction tools, our deep domain expertise, and strategic partnerships with SAP, Salesforce, MuleSoft, and Oracle, Rialtes helps life sciences companies achieve intelligent, compliant, and patient-focused outcomes — faster and better.
                 </p>
             </section>
-
             {/* why rialtes */}
             <section className="custom-container relative max-[450px]:h-[1180px] max-[409px]:h-[1400px] h-[1150px] sm:h-[1100px] md:h-[890px] lg:h-[780px] xl:h-[950px] 2xl:h-[1100px] 3xl:h-[950px] 4xl:h-[1100px] max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px] text-white">
                 <div className="relative max-md:px-[36px] md:pl-[61px] lg:pt-[76px] pt-[38px] h-full">
@@ -382,7 +377,7 @@ export default function page() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/life-science/why-rialtes-desk.webp"
-                                alt=""
+                                alt="why-rialtes-desk-Image"
                                 fill
                                 style={{ objectFit: "cover" }}
                                 priority
@@ -392,7 +387,7 @@ export default function page() {
                         <div className="block md:hidden w-full h-full">
                             <Image
                                 src="/images/industry/life-science/Mobile/why-rialtes-mob.webp"
-                                alt=""
+                                alt="why-rialtes-mob-Image"
                                 fill
                                 style={{ objectFit: "cover" }}
                                 priority
@@ -424,7 +419,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* thought leadership */}
             <section className="lg:pl-0 lg:mt-[226px] md:mt-[226px] mt-[184px]">
                 <div className="bg-[#2C5F74] text-[#ffffff] xl:pt-[83px] xl:pb-[86px] pt-[59px] pb-[77px] relative z-0">
@@ -439,27 +433,27 @@ export default function page() {
                                 </h3>
                                 <div className="relative z-30 lg:hidden block mt-[31px]">
                                     {/* Mobile Image */}
-                                    <img
+                                    <Image
                                         src="/images/industry/life-science/Mobile/thought-leadership-mob.webp"
-                                        alt="Why Rialtes Mobile"
+                                        alt="thought leadership Mobile"
                                         className="object-cover h-full md:h-[400px] w-full md:w-[80%]"
+                                        priority
+                                        width={0}
+                                        height={0}
                                     />
                                 </div>
-                                <ul className="list-disc xl:mt-[35px] mt-[31px] ml-[20px] space-y-[19px] xl:space-y-[24px] 4xl:w-[80%]  lg:w-[90%] xl:w-full">
-                                    {thoughLeadershipData.map((data, ind) => (
-                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={thoughLeadershipData} ulClassName="list-disc xl:mt-[35px] mt-[31px] ml-[20px] space-y-[19px] xl:space-y-[24px] 4xl:w-[80%]  lg:w-[90%] xl:w-full" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                             </div>
                             <div className="lg:col-span-7 col-span-12">
                                 <div className="w-full h-full relative z-30 lg:block hidden">
                                     {/* Desktop Image */}
-                                    <img
+                                    <Image
                                         src="/images/industry/life-science/thought-leadership-desk.webp"
-                                        alt="Why Rialtes Desktop"
+                                        alt="thought leadership Desktop"
                                         className="w-full h-full object-cover"
+                                        priority
+                                        width={0}
+                                        height={0}
                                     />
                                 </div>
                             </div>
@@ -472,22 +466,26 @@ export default function page() {
                     <div className="absolute top-0 bottom-0 right-0 4xl:w-[280px] xl:w-[120px] lg:w-[80px] bg-[#ffffff] z-20"></div>
                 </div>
             </section>
-
             {/* prebuilt section */}
             <section className="xl:mt-[94px] mt-[109px]">
                 <div className="custom-container 4xl:!px-[142px] xl:!px-[52px] lg:!px-[32px] max-lg:px-0">
                     <div>
-                        {/* Mobile Image */}
-                        <img
+                        <Image
                             src="/images/industry/life-science/Mobile/pre-build-mob.webp"
-                            alt="Why Rialtes Mobile"
+                            alt="prebuilt Mobile"
                             className="w-full h-full object-cover md:hidden"
+                            priority
+                            width={0}
+                            height={0}
                         />
                         {/* Desktop Image */}
-                        <img
+                        <Image
                             src="/images/industry/life-science/pre-build-desk.webp"
-                            alt="Why Rialtes Desktop"
+                            alt="prebuilt Desktop"
                             className="w-full h-[800px] object-cover hidden md:block"
+                            priority
+                            width={0}
+                            height={0}
                         />
                     </div>
                 </div>
@@ -498,24 +496,15 @@ export default function page() {
                                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[80%] xl:w-full">
                                     Pre-built Industry Accelerators: <br /> Body Map & Patient Interaction
                                 </h2>
-
                                 <div className="xl:mt-[77px] mt-[29px] md:block hidden">
                                     <LearnMore />
                                 </div>
                             </div>
-
                             <div>
                                 <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold">
                                     Accelerate your digital transformation journey with Rialtes life sciences-specific accelerators:
                                 </h3>
-                                <ul className="list-disc xl:mt-[37px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px]">
-                                    {prebuiltData.map((data, ind) => (
-                                        <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
-
+                                <UnorderedList arrName={prebuiltData} ulClassName="list-disc xl:mt-[37px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="xl:mt-[77px] mt-[29px] md:hidden block">
                                     <LearnMore />
                                 </div>
@@ -529,7 +518,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* common section */}
             <section className="custom-container xl:mt-[81px] mt-[109px]">
                 {
@@ -537,21 +525,14 @@ export default function page() {
                         return (
                             ind % 2 == 0 ?
                                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[0px] xl:gap-0 xl:mt-[137px] mt-[180px] border border-[#707070] relative" key={ind}>
-                                    <div className="md:col-span-6 lg:col-span-5 xl:col-span-6 col-span-12 xl:pt-[79px] xl:px-[58px] md:pb-[115px] pt-[35px] px-[26px] pb-[35px] md:order-1 order-2">
+                                    <div className="md:col-span-6 lg:col-span-5 xl:col-span-6 col-span-12 xl:pt-[79px] xl:px-[58px] xl:pb-[115px] md:pb-[110px] pt-[35px] px-[26px] pb-[35px] md:order-1 order-2">
                                         <h2 className={`4xl:text-[54px] xl:text-[40px] text-[26px] leading-tight font-light`}>
                                             {data.title}
                                         </h2>
                                         <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[11px] mt-[19px] ${ind == 4 || ind == 6 ? "xl:w-full" : " xl:w-[86%] "}`}>
                                             {data.subtitle}
                                         </h3>
-
-                                        <ul className={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`}>
-                                            {data.dataList.map((data, ind) => (
-                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                                    {data}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                        <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
                                             <LearnMore />
                                         </div>
@@ -563,19 +544,24 @@ export default function page() {
                                     </div>
                                     <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12 md:order-2 order-1">
                                         <div className="w-full h-full md:block hidden">
-                                            {/* Desktop Image */}
-                                            <img
+                                            <Image
                                                 src={data.deskImg}
-                                                alt="Why Rialtes Desktop"
-                                                className="w-full h-full object-cover"
+                                                alt="common section Desktop"
+                                                className="w-full h-full object-cover lg:h-[560px] xl:h-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                         <div className="md:hidden block">
                                             {/* Mobile Image */}
-                                            <img
+                                            <Image
                                                 src={data.mobImg}
-                                                alt="Why Rialtes Mobile"
+                                                alt="common section Mobile"
                                                 className="object-cover h-full w-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                     </div>
@@ -585,18 +571,25 @@ export default function page() {
                                     <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12">
                                         <div className="w-full h-full md:block hidden">
                                             {/* Desktop Image */}
-                                            <img
+                                            <Image
                                                 src={data.deskImg}
-                                                alt="Why Rialtes Desktop"
-                                                className="w-full h-full object-cover"
+                                                alt="common section Desktop"
+                                                className="w-full h-full object-cover lg:h-[560px] xl:h-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
+
                                         <div className="md:hidden block">
                                             {/* Mobile Image */}
-                                            <img
+                                            <Image
                                                 src={data.mobImg}
-                                                alt="Why Rialtes Mobile"
+                                                alt="common section Mobile"
                                                 className="object-cover h-full w-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                         <div className="absolute max-md:top-[100%] max-md:w-full md:bottom-[-50px] md:left-[26px] lg:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
@@ -612,14 +605,7 @@ export default function page() {
                                         <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[11px] mt-[19px] w-[88%] sm:w-full ${ind == 5 && "4xl:text-[39px]"}`}>
                                             {data.subtitle}
                                         </h3>
-
-                                        <ul className="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]">
-                                            {data.dataList.map((data, ind) => (
-                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                                    {data}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                        <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
                                             <LearnMore />
                                         </div>
@@ -629,25 +615,30 @@ export default function page() {
                     })
                 }
             </section>
-
             {/* seamless section */}
             <section className="bg-[#EAEAEA] relative z-0 xl:pt-[145px] lg:pt-[115px] lg:pb-[42px] md:pb-[120px] xl:pb-[52px] pt-[56px] pb-[172px] 4xl:pr-[162px] lg:pr-[62px] max-lg:px-[36px] max-lg:mt-[100px] max-[450px]:mt-[130px]">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-[35px] lg:gap-[40px] xl:gap-[60px] 4xl:gap-[80px]">
                     <div>
                         <div className="w-full h-full lg:block hidden">
                             {/* Desktop Image */}
-                            <img
+                            <Image
                                 src="/images/industry/life-science/seamless-desk.webp"
-                                alt="Why Rialtes Desktop"
+                                alt="seamless section Desktop"
                                 className="w-full h-full object-cover"
+                                priority
+                                width={0}
+                                height={0}
                             />
                         </div>
                         <div className="lg:hidden block">
                             {/* Mobile Image */}
-                            <img
+                            <Image
                                 src="/images/industry/life-science/Mobile/seamless-mob.webp"
-                                alt="Why Rialtes Mobile"
+                                alt="seamless section Mobile"
                                 className="object-cover h-full w-full md:h-[600px]"
+                                priority
+                                width={0}
+                                height={0}
                             />
                         </div>
                         {/* blue card */}
@@ -666,22 +657,13 @@ export default function page() {
                         <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[46px] mt-[29px]`}>
                             Powered by Data Cloud
                         </h3>
-
-                        <ul className={`list-disc xl:mt-[46px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`}>
-                            {seamlessData.map((data, ind) => (
-                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={seamlessData} ulClassName="list-disc xl:mt-[46px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                         <div className="mt-[41px] xl:mt-[55px] xl:mb-[167px] lg:mb-[97px]">
                             <LearnMore />
                         </div>
                     </div>
                 </div>
             </section>
-
-
             {/* common section 2 */}
             <section className="custom-container">
                 {
@@ -696,14 +678,7 @@ export default function page() {
                                         <h3 className={`xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[39px] mt-[19px]`}>
                                             {data.subtitle}
                                         </h3>
-
-                                        <ul className={`list-disc xl:mt-[32px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`}>
-                                            {data.dataList.map((data, ind) => (
-                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                                    {data}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                        <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[32px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
                                             <LearnMore />
                                         </div>
@@ -716,18 +691,24 @@ export default function page() {
                                     <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12 md:order-2 order-1">
                                         <div className="w-full h-full md:block hidden">
                                             {/* Desktop Image */}
-                                            <img
+                                            <Image
                                                 src={data.deskImg}
                                                 alt="Why Rialtes Desktop"
-                                                className="w-full h-full object-cover"
+                                                className="w-full h-full object-cover lg:h-[560px] xl:h-full md:object-[85%_25%] xl:object-[35%_25%]"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                         <div className="md:hidden block">
                                             {/* Mobile Image */}
-                                            <img
+                                            <Image
                                                 src={data.mobImg}
                                                 alt="Why Rialtes Mobile"
                                                 className="object-cover h-full w-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                     </div>
@@ -737,18 +718,24 @@ export default function page() {
                                     <div className="md:col-span-6 lg:col-span-7 xl:col-span-6 col-span-12">
                                         <div className="w-full h-full md:block hidden">
                                             {/* Desktop Image */}
-                                            <img
+                                            <Image
                                                 src={data.deskImg}
                                                 alt="Why Rialtes Desktop"
-                                                className="w-full h-full object-cover"
+                                                className="w-full h-full object-cover lg:h-[560px] xl:h-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                         <div className="md:hidden block">
                                             {/* Mobile Image */}
-                                            <img
+                                            <Image
                                                 src={data.mobImg}
                                                 alt="Why Rialtes Mobile"
                                                 className="object-cover h-full w-full"
+                                                priority
+                                                width={0}
+                                                height={0}
                                             />
                                         </div>
                                         <div className="absolute max-md:top-[100%] md:bottom-[-50px] lg:left-[58px] md:left-[26px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
@@ -764,21 +751,12 @@ export default function page() {
                                         <h3 className={`xl:text-[30px] 4xl:text-[40px] text-[18px] leading-tight font-semibold xl:mt-[39px] mt-[18px] w-[88%] sm:w-full 4xl:w-[98%]`}>
                                             {data.subtitle}
                                         </h3>
-
-                                        <ul className="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]">
-                                            {data.dataList.map((data, ind) => (
-                                                <li key={ind} className="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight">
-                                                    {data}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                        <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
                                             <LearnMore />
                                         </div>
                                     </div>
-
                                 </div>
-
                         )
                     })
                 }

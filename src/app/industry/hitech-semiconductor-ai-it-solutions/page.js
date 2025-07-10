@@ -1,11 +1,11 @@
 "use client";
-// pages/success-factors.js
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
+import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -460,7 +460,6 @@ export default function Page() {
       />
       {/* herosection */}
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-        {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
             src="/images/industry/semi-conductor/hero-banner-desk.webp"
@@ -481,7 +480,6 @@ export default function Page() {
             priority
           />
         </div>
-
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
@@ -497,7 +495,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* page description section */}
       <section className="custom-container xl:mt-[131px] mt-[62px]">
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-full">
@@ -509,7 +506,6 @@ export default function Page() {
           As a certified consulting partner, we deliver end-to-end services across advisory, implementation, integration, and post-go-live support.
         </p>
       </section>
-
       {/* section thought leadership */}
       <section className="custom-container max-lg:px-0 lg:pl-0 lg:mt-[110px] xl:mt-[141px] mt-[33px]">
         <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -517,7 +513,7 @@ export default function Page() {
             <div className="hidden md:block">
               <Image
                 src="/images/industry/semi-conductor/thought-desk.webp"
-                alt="desktop image"
+                alt="thought desktop image"
                 height={0}
                 width={0}
                 priority
@@ -529,14 +525,13 @@ export default function Page() {
             <div className="block md:hidden">
               <Image
                 src="/images/industry/semi-conductor/Mobile/thought-mob.webp"
-                alt="mobile image"
+                alt="thought mobile image"
                 height={0}
                 width={0}
                 priority
                 className="h-full w-full object-cover"
               />
             </div>
-
           </div>
           <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-5 col-span-12 bg-[#006FBE] text-[#ffffff] xl:pt-[73px] xl:pb-[84px] xl:px-[50px] pt-[29px] pb-[67px] px-[26px] max-lg:mx-[36px] max-lg:mt-[-110px]">
             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px]">
@@ -548,41 +543,27 @@ export default function Page() {
             <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[27px] mt-[14px] font-normal w-[90%] lg:w-full">
               At Rialtes, we bring deep semiconductor process knowledge and best-in-class technology platforms to address the unique needs of the industry, including:
             </p>
-            <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[96%] w-[90%] lg:w-full">
-              {thoughtData.map((data, ind) => (
-                <li className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" key={ind}>
-                  {data}
-                </li>
-              ))}
-            </ul>
-
+            <UnorderedList arrName={thoughtData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[96%] w-[90%] lg:w-full" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
             <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[56px] mt-[26px] font-normal w-[90%] lg:w-full">
               We integrate SAP S/4 HANA, Salesforce Industry Clouds, and AI solutions to enable smarter decision-making, faster time-to-market, and enhanced compliance.
             </p>
-
             <div className="absolute mt-[20px] xl:mt-[30px]">
               <LearnMore />
             </div>
           </div>
         </div>
-
       </section>
-
       {/* end to end section */}
-      <section
-        className="custom-container relative 4xl:mt-[80px] xl:mt-[40px] mt-[54px] xl:pt-[119px] pt-[55px] lg:pb-[65px] pb-0
+      <section className="custom-container relative 4xl:mt-[80px] xl:mt-[40px] mt-[54px] xl:pt-[119px] pt-[55px] lg:pb-[65px] pb-0
              bg-no-repeat bg-cover bg-[20%_30%] lg:bg-[65%_20%]
-             bg-[url('/images/industry/semi-conductor/Mobile/end-to-end-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/end-to-end-desk.webp')]"
-      >
+             bg-[url('/images/industry/semi-conductor/Mobile/end-to-end-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/end-to-end-desk.webp')]">
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[80%] lg:w-full">
           End-to-End Semiconductor Processes
         </h2>
         <p className="xl:text-[30px] 4xl:text-[36px] text-[22px] font-semibold xl:mt-[27px] mt-[17px]">
           Digitally Enabled with Rialtes
         </p>
-
         <div className="relative grid lg:grid-cols-2 grid-cols-1 xl:mt-[66px] mt-[46.5px] md:w-[80%] lg:w-full xl:w-[98%]">
-
           {
             endToEndData.map((data, ind) => {
               return (
@@ -593,37 +574,24 @@ export default function Page() {
                   {data.desc && <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight font-normal mt-[18px] xl:mt-[40px] w-[90%] lg:w-full">
                     {data.desc}
                   </p>}
-                  <ul className="lg:pb-[60px] pb-[40px] xl:space-y-[29px] space-y-[19px] list-disc xl:mt-[40px] mt-[24px] pl-[20px] 4xl:w-[96%] w-[90%] lg:w-full">
-                    {data.dataList.map((data, ind) => (
-                      <li className="text-[16px] xl:text-[20px] 4xl:text-[24px] leading-tight font-normal" key={ind}>
-                        {data}
-                      </li>
-                    ))}
-                  </ul>
-
+                  <UnorderedList arrName={data.dataList} ulClassName="lg:pb-[60px] pb-[40px] xl:space-y-[29px] space-y-[19px] list-disc xl:mt-[40px] mt-[24px] pl-[20px] 4xl:w-[96%] w-[90%] lg:w-full" liClassName="text-[16px] xl:text-[20px] 4xl:text-[24px] leading-tight font-normal" />
                   <div className={`h-[1px] w-full bg-[#707070] ${ind == 3 && "lg:bg-transparent"} ${ind == 4 && "bg-transparent"}`}></div>
-
                   {ind === 3 && (
                     <div className="hidden lg:block absolute lg:bottom-[60px]">
                       <LearnMore />
                     </div>
                   )}
-
                   {ind === 4 && (
                     <div className="block lg:hidden max-lg:mt-[25px]">
                       <LearnMore />
                     </div>
                   )}
-
                 </div>
               )
             })
           }
         </div>
-
-
       </section>
-
       {/* semiconductor foundry section */}
       <section className="custom-container max-md:mt-[75px]">
         <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[68px]">
@@ -634,14 +602,7 @@ export default function Page() {
             <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[35px] mt-[22px] font-normal 4xl:w-[93%] w-[90%] md:w-full">
               Semiconductor manufacturing is increasingly collaborative and distributed. Rialtes helps companies manage:
             </p>
-            <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[26px] pl-[20px] 4xl:w-[80%] xl:w-[90%] w-[90%] md:w-full">
-              {semiconductorFoundryData.map((data, ind) => (
-                <li className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" key={ind}>
-                  {data}
-                </li>
-              ))}
-            </ul>
-
+            <UnorderedList arrName={semiconductorFoundryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[26px] pl-[20px] 4xl:w-[80%] xl:w-[90%] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
             <div className="xl:mt-[87px] mt-[24px]">
               <LearnMore />
             </div>
@@ -650,19 +611,18 @@ export default function Page() {
             <div className="hidden md:block h-full w-full">
               <Image
                 src="/images/industry/semi-conductor/semiconductor-foundry-desk.webp"
-                alt="desktop image"
+                alt="Semiconductor image"
                 height={0}
                 width={0}
                 priority
                 className="h-full w-full object-cover"
               />
             </div>
-
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
                 src="/images/industry/semi-conductor/Mobile/semiconductor-foundry-mob.webp"
-                alt="mobile image"
+                alt="Semiconductor image"
                 height={0}
                 width={0}
                 priority
@@ -672,16 +632,12 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* strategic challenges section */}
-
       <section className="xl:mt-[117px] mt-[64px] custom-container relative xl:pt-[112px] xl:pb-[151px] pt-[79px] pb-[107px] text-[#ffffff] bg-no-repeat bg-cover
              bg-[url('/images/industry/semi-conductor/Mobile/strategic-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/strategic-desk.webp')]">
-
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-[70%] xl:w-[80%]">
           Top 4 Strategic Challenges Facing the Semiconductor Industry Today
         </h2>
-
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:mt-[102px] mt-[83px] lg:gap-[20px] items-start lg:gap-y-[100px] 3xl:gap-y-[120px] gap-y-[75px] sm:w-[80%] 4xl:w-[82%]">
           {
             strategicData.map((data, ind) => {
@@ -695,14 +651,7 @@ export default function Page() {
                   <h3 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] font-bold lg:mt-[30px] xl:mt-[10px] 3xl:mt-[40px]">
                     {data.title}
                   </h3>
-                  <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[40px] mt-[18px] pl-[20px] w-[90%] lg:w-full 4xl:w-[90%]">
-                    {data.dataList.map((data, ind) => (
-                      <li className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" key={ind}>
-                        {data}
-                      </li>
-                    ))}
-                  </ul>
-
+                  <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[40px] mt-[18px] pl-[20px] w-[90%] lg:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
                 </div>
               )
             })
@@ -727,19 +676,18 @@ export default function Page() {
             <div className="hidden md:block h-full w-full">
               <Image
                 src="/images/industry/semi-conductor/deep-industry-desk.webp"
-                alt="desktop image"
+                alt="deep-industry desktop image"
                 height={0}
                 width={0}
                 priority
                 className="h-full md:h-[600px] lg:h-full w-full object-cover"
               />
             </div>
-
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
                 src="/images/industry/semi-conductor/Mobile/deep-industry-mob.webp"
-                alt="mobile image"
+                alt="deep-industry mobile image"
                 height={0}
                 width={0}
                 priority
@@ -747,7 +695,6 @@ export default function Page() {
               />
             </div>
           </div>
-
           <div>
             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[59px] w-[90%]  xl:w-[90%] 4xl:w-full">
               Deep Industry Knowledge in SAP S/4 HANA & Salesforce for Semiconductor
@@ -760,7 +707,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* common section */}
       <section className="custom-container lg:pr-0 lg:mt-[130px] xl:mt-[123px] mt-[62px]">
         {
@@ -778,7 +724,6 @@ export default function Page() {
                     <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal max-md:mt-[23px] w-[90%] lg:w-[94%] 4xl:w-full ${ind == 2 && "xl:mt-[34px] mt-[23px]"}`}>
                       {data.desc}
                     </p>
-
                     {/* Mobile Image */}
                     <div className="block md:hidden mt-[41px]">
                       <Image
@@ -800,15 +745,7 @@ export default function Page() {
                           Key Capabilities:
                         </p>
                     }
-
-                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[34px] mt-[26px] pl-[20px] 4xl:w-[96%] xl:w-[90%] w-[90%] md:w-full">
-                      {data.keyData.map((data, ind) => (
-                        <li className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" key={ind}>
-                          {data}
-                        </li>
-                      ))}
-                    </ul>
-
+                    <UnorderedList arrName={data.keyData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[34px] mt-[26px] pl-[20px] 4xl:w-[96%] xl:w-[90%] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
                   </div>
                   <div className="xl:col-span-7 hidden md:block h-full w-full">
                     <Image
@@ -820,9 +757,7 @@ export default function Page() {
                       className="h-full md:h-[600px] lg:h-full w-full max-2xl:object-cover object-[25%_20%]"
                     />
                   </div>
-
                 </div>
-
                 <div className="max-md:mt-[31px] mt-[40px]">
                   <LearnMore />
                 </div>
@@ -831,32 +766,29 @@ export default function Page() {
           })
         }
       </section>
-
       {/* ai driven section */}
       <section className="xl:mt-[123px] mt-[62px]">
         {/* Mobile Image */}
         <div className="block md:hidden mt-[41px]">
           <Image
             src="/images/industry/semi-conductor/Mobile/ai-driven-mob.webp"
-            alt="mobile image"
+            alt="AI-Driven mobile image"
             height={0}
             width={0}
             priority
             className="h-full w-full object-cover"
           />
         </div>
-
         <div className="hidden md:block h-full w-full">
           <Image
             src="/images/industry/semi-conductor/ai-driven-desk.webp"
-            alt="desktop image"
+            alt="AI-Driven desktop image"
             height={0}
             width={0}
             priority
             className="h-full h w-full object-cover"
           />
         </div>
-
         <div className="relative mt-[-140px] sm:mt-[-120px] md:mt-[-140px] xl:mt-[-300px]">
           <div className="custom-container">
             <div className="md:w-[60%] xl:w-[86%] 4xl:w-[80%] bg-[#ffffff]/80 xl:pt-[66px] xl:pb-[66px] xl:px-[71px] pt-[27px] pb-[32px] px-[26px]">
@@ -872,7 +804,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-
         <div className="bg-[#E8E8E8] md:mt-[-300px] max-[422px]:mt-[-550px] sm:mt-[-300px] mt-[-400px] max-[422px]:pt-[600px] sm:pt-[350px] lg:pt-[300px] lg:pb-[116px] md:pt-[280px] pt-[460px] pb-[67px]">
           <div className="custom-container relative">
             <h3 className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight md:mt-[63px]  xl:mt-[43px]  mt-0 font-semibold w-[90%] md:w-full">
@@ -887,25 +818,23 @@ export default function Page() {
                       <div className="block md:hidden mt-[41px]">
                         <Image
                           src={data.mobImg}
-                          alt="mobile image"
+                          alt="Key Areas mobile image"
                           height={0}
                           width={0}
                           priority
                           className="h-full w-full object-cover"
                         />
                       </div>
-
                       <div className="hidden md:block">
                         <Image
                           src={data.deskImg}
-                          alt="desktop image"
+                          alt="Key Areas desktop image"
                           height={0}
                           width={0}
                           priority
                           className="h-[370px] h w-full object-cover"
                         />
                       </div>
-
                       <h4 className="xl:text-[26px] 4xl:text-[40px] text-[18px] leading-tight xl:mt-[45px] mt-[29px] font-semibold text-[#006FBE] w-[90%] md:w-full">
                         {data.title}
                       </h4>
@@ -915,14 +844,7 @@ export default function Page() {
                       <p className="xl:text-[26px] 4xl:text-[32px] text-[17px] leading-tight xl:mt-[34px] mt-[29px] font-semibold">
                         Real-World Impacts:
                       </p>
-                      <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[22px] mt-[20px] pl-[20px] w-[90%] md:w-full">
-                        {data.realWorldData.map((data, ind) => (
-                          <li className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" key={ind}>
-                            {data}
-                          </li>
-                        ))}
-                      </ul>
-
+                      <UnorderedList arrName={data.realWorldData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[22px] mt-[20px] pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                     </div>
                   )
                 })
@@ -983,11 +905,8 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* summary section */}
-      <section
-        className="custom-container relative max-md:px-0  lg:pr-0 lg:mt-[169px] mt-[120px]">
-
+      <section className="custom-container relative max-md:px-0  lg:pr-0 lg:mt-[169px] mt-[120px]">
         <div className="custom-container bg-no-repeat bg-cover xl:pt-[96px] xl:pb-[85px] xl:pl-[81px] pt-[75px] pb-[46px] bg-[20%_30%] lg:bg-[65%_20%] text-[#ffffff] max-md:px-[36px]
              bg-[url('/images/industry/semi-conductor/Mobile/summary-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/summary-desk.webp')]">
           {/* summary title */}
@@ -1002,13 +921,7 @@ export default function Page() {
               <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[41px] mt-[21px] 4xl:w-[90%]`}>
                 Artificial Intelligence (AI) is revolutionizing the semiconductor industry, fundamentally reshaping how companies design, manufacture, test, and manage semiconductors in today’s rapidly evolving markets. From chip design optimization to predictive yield analysis, AI is helping semiconductor manufacturers reduce costs, improve quality, accelerate time-to-market, and address the increasing complexity of advanced chips like AI accelerators, SoCs, and 5G modems.
               </p>
-              <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[41px] mt-[25px] pl-[20px] 4xl:w-[96%]">
-                {summaryData.map((data, ind) => (
-                  <li className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" key={ind}>
-                    {data}
-                  </li>
-                ))}
-              </ul>
+              <UnorderedList arrName={summaryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[41px] mt-[25px] pl-[20px] 4xl:w-[96%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
               <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[44px] mt-[43px]`}>
                 At Rialtes, we help semiconductor companies operationalize AI by connecting SAP S/4 HANA’s core processes, Salesforce Industry Cloud customer intelligence, and AI/ML platforms to create an intelligent semiconductor ecosystem that adapts to the future of chip innovation.
               </p>
@@ -1026,7 +939,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* key pillars */}
       <section className="custom-container xl:mt-[72px] mt-[52px]">
         <h3 className="text-[17px] leading-tight xl:text-[24px] 4xl:text-[32px] font-semibold w-[70%] xl:w-[50%] 4xl:w-[60%]">
@@ -1061,13 +973,7 @@ export default function Page() {
                     <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-semibold max-lg:mt-[22px]`}>
                       Strategic Benefits:
                     </p>
-                    <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[22px] mt-[18px] pl-[20px] 4xl:w-[82%]">
-                      {data.dataList.map((data, ind) => (
-                        <li className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" key={ind}>
-                          {data}
-                        </li>
-                      ))}
-                    </ul>
+                    <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[22px] mt-[18px] pl-[20px] 4xl:w-[82%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                   </div>
                 </div>
               </div>
@@ -1075,7 +981,6 @@ export default function Page() {
           })
         }
       </section>
-
       {/* end to end section*/}
       <section className="xl:mt-[109px] mt-[60px]">
         <div className="custom-container 4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[22px] max-lg:px-0 lg:pr-0">
@@ -1090,7 +995,6 @@ export default function Page() {
               className="h-full w-full object-cover"
             />
           </div>
-
           <div className="hidden lg:block">
             <Image
               src="/images/industry/semi-conductor/end-desk.webp"
@@ -1124,14 +1028,7 @@ export default function Page() {
                   <h3 className="xl:text-[26px] 4xl:text-[32px] text-[17px] leading-tight lg:w-[60%] xl:w-full font-semibold">
                     Benefits for Semiconductor Companies:
                   </h3>
-                  <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[32px] mt-[22px] pl-[20px] w-[94%] lg:w-full">
-                    {endSemiconductorData.map((data, ind) => (
-                      <li className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" key={ind}>
-                        {data}
-                      </li>
-                    ))}
-                  </ul>
-
+                  <UnorderedList arrName={endSemiconductorData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[32px] mt-[22px] pl-[20px] w-[94%] lg:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                   <div className="xl:mt-[97px] mt-[48] lg:float-end">
                     <LearnMore />
                   </div>
@@ -1164,7 +1061,6 @@ export default function Page() {
                 className="h-full w-full object-cover"
               />
             </div>
-
             <div className="hidden md:block">
               <Image
                 src="/images/industry/semi-conductor/why-rialtes-desk.webp"
@@ -1188,7 +1084,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* key reasons  */}
       <section className="md:mt-[90px] mt-[50px]">
         <div className="custom-container">
@@ -1196,46 +1091,34 @@ export default function Page() {
             Key Reasons Why Leading Semiconductor Companies Trust Rialtes
           </h3>
         </div>
-
         {keyReasonsData.map((data, ind) => {
           const isEven = ind % 2 === 0;
-
           return (
             <div key={ind} className={`relative ${ind == 0 ? "mt-0" : "max-lg:mt-[80px]"} `}>
-              <div
-                className="absolute inset-0 w-full h-full"
-                style={{ backgroundColor: data.bgColor }}
-              ></div>
-              <div
-                className={`${ind == 0 && "xl:!h-[150px] 4xl:!h-[190px] lg:h-[80px]"} absolute w-full h-[80px] sm:h-[200px] lg:h-[55px] xl:h-[120px] 4xl:h-[140px]`}
-                style={{ backgroundColor: "white" }}
-              ></div>
-              <div
-                className={`custom-container relative z-10 ${isEven ? "4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[42px]" : "4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]"
-                  }`}
-              >
+              <div className="absolute inset-0 w-full h-full"
+                style={{ backgroundColor: data.bgColor }}></div>
+              <div className={`${ind == 0 && "xl:!h-[150px] 4xl:!h-[190px] lg:h-[80px]"} absolute w-full h-[80px] sm:h-[200px] lg:h-[55px] xl:h-[120px] 4xl:h-[140px]`}
+                style={{ backgroundColor: "white" }}></div>
+              <div className={`custom-container relative z-10 ${isEven ? "4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[42px]" : "4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]"
+                }`}>
                 <div className={`grid lg:grid-cols-12 grid-cols-1 lg:gap-[30px] xl:gap-[40px] ${isEven ? "4xl:gap-[60px]" : "4xl:gap-[20px]"} max-[400px]:gap-y-[20px] gap-y-[40px] mt-[29px] lg:mt-[97px]`}>
-
-                  <div
-                    className={`lg:col-span-4 4xl:col-span-5 col-span-12 ${isEven ? "" : "lg:order-2 order-1"
-                      }`}
-                  >
+                  <div className={`lg:col-span-4 4xl:col-span-5 col-span-12 ${isEven ? "" : "lg:order-2 order-1"
+                    }`}>
                     {/* Mobile Image */}
                     <div className="block md:hidden h-full w-full">
                       <Image
                         src={data.mobImg}
-                        alt="mobile image"
+                        alt="Key Reasons mobile image"
                         height={0}
                         width={0}
                         priority
                         className="h-full w-full object-cover"
                       />
                     </div>
-
                     <div className="hidden md:block h-full">
                       <Image
                         src={data.deskImg}
-                        alt="desktop image"
+                        alt="Key Reasons desktop image"
                         height={0}
                         width={0}
                         priority
@@ -1245,31 +1128,18 @@ export default function Page() {
                   </div>
                   <div
                     className={`lg:col-span-8 4xl:col-span-7 col-span-12 sm:w-[80%] lg:w-full ${isEven ? "" : "lg:order-1 order-2"
-                      }`}
-                  >
+                      }`}>
                     <h4 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-semibold w-[90%] lg:w-[90%] xl:w-[80%] 2xl:w-[70%] 4xl:w-full">
                       {data.title}
                     </h4>
-
                     <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[30px] xl:gap-[0px] gap-y-[25px] xl:mt-[99px] mt-[34px] lg:mb-[70px] mb-[100px]">
                       <div className="relative">
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal w-[90%] lg:w-full xl:w-[90%] 4xl:w-[92%]">
                           {data.desc}
                         </p>
-
                       </div>
-
                       <div>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] lg:w-full">
-                          {data.dataList.map((point, idx) => (
-                            <li
-                              className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
-                              key={idx}
-                            >
-                              {point}
-                            </li>
-                          ))}
-                        </ul>
+                        <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] lg:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                       </div>
                     </div>
                   </div>
@@ -1289,25 +1159,23 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/industry/semi-conductor/Mobile/rialtes-mob.webp"
-            alt="mobile image"
+            alt="Rialtes mobile image"
             height={0}
             width={0}
             priority
             className="h-full w-full object-cover"
           />
         </div>
-
         <div className="hidden md:block">
           <Image
             src="/images/industry/semi-conductor/rialtes-desk.webp"
-            alt="desktop image"
+            alt="Rialtes desktop image"
             height={0}
             width={0}
             priority
             className="h-full w-full object-cover relative"
           />
         </div>
-
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:mt-[52px] mt-[30px] max-md:px-[36px] w-[90%] md:w-[80%] lg:w-[70%] 4xl:w-[76%] text-[#000000] font-normal">
           Rialtes — Your Strategic Partner for Semiconductor Growth
         </h2>
@@ -1321,13 +1189,7 @@ export default function Page() {
             <p className="xl:text-[30px] 4xl:text-[40px] text-[17px] leading-tight font-bold">
               Why Choose Rialtes?
             </p>
-            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[37px] mt-[19px] pl-[20px] w-[94%] lg:w-full">
-              {rialtesData.map((data, ind) => (
-                <li className="text-[16px] xl:text-[19px] 4xl:text-[20px] leading-tight font-normal" key={ind}>
-                  {data}
-                </li>
-              ))}
-            </ul>
+            <UnorderedList arrName={rialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[37px] mt-[19px] pl-[20px] w-[94%] lg:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[20px] leading-tight font-normal" />
           </div>
         </div>
       </section>

@@ -349,8 +349,8 @@ export default function page() {
                                 />
                             </div>
                         </div>
-                        <div className="lg:col-span-5 col-span-12 max-lg:px-[36px] w-[90%] lg:w-full">
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px]">
+                        <div className="lg:col-span-5 col-span-12 max-lg:px-[36px] w-full lg:w-full">
+                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight">
                                 Start with Agentforce Adoption
                             </h2>
                             <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px]">

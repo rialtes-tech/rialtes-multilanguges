@@ -243,7 +243,7 @@ export default function Page() {
                     </div>
                     <div className="py-6"></div>
                     <div className="">
-                        <h1 className="text-[#000000] font-semibold pb-10  w-full xl:w-[865px] 4xl:w-[1148px]  leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[30px] text-[26px] ">Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities</h1>
+                        <h1 className="text-[#000000] font-semibold pb-10  w-full xl:w-[865px] 4xl:w-[1148px]  leading-tight 4xl:text-[60px] xl:text-[40px]  text-[26px] ">Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities</h1>
                     </div>
 
                     <div className="">
