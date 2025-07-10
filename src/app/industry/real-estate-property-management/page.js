@@ -240,10 +240,10 @@ const GrowServicesCard = ({ services }) => (
 
 const GrowServices = () => {
   return (
-    <div className="text-black lg:pr-20 md:pr-10   pr-6 ">
+    <div className="text-black lg:pr-20 md:pr-10 ">
       <h2 className="pb-10 text-black 4xl:w-[100%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Enhance your real estate operations with our customizable service offerings</h2>
-      <p className="xl:w-full w-[85%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
+      <p className="xl:w-full  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 2xl:gap-[140px] lg:gap-[110px] mt-20">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
         ))}
@@ -268,7 +268,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
           <Image
             src="/images/industry/real-estate/AdobeStock_907006023_Preview copy.webp"
             alt="desktop banner"
@@ -279,7 +279,7 @@ export default function Page() {
           />
         </div>
         {/* Mobile Image */}
-        <div className="block lg:hidden">
+        <div className="block md:hidden">
           <Image
             src="/images/industry/real-estate/real-estate-mob.webp"
             alt="mobile banner"
@@ -338,13 +338,15 @@ export default function Page() {
               <div>
                 <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
               </div>
-              <div>
+                <div className="xl:mr-[20px] xl:ml-2">
                 <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight">RealForce Platform</h4>
-                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[22px] leading-tight"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
+                <p className="mt-5 text-[18px] xl:text-[18px] 4xl:text-[22px] leading-tight"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
               </div>
-              <div>
+              <div className="xl:border-l-2 xl:border-[#707070] ">
+              <div className="xl:ml-11">
                 <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight">RealPay </h4>
-                <p className="mt-5 text-[18px] xl:text-[20px] 4xl:text-[22px] leading-tight">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
+                <p className="mt-5 text-[18px] xl:text-[18px] 4xl:text-[22px] leading-tight">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
+              </div>
               </div>
             </div>
           </section>
