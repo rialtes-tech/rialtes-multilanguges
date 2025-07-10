@@ -145,8 +145,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Himachal Pradesh: The Pharma Jewel of North India"
-                description="Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities"
+                title="The Rise of Himachal in India’s Pharma Industry | Rialtes"
+                description="Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units"
                 canonical={"https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"}
             />
           

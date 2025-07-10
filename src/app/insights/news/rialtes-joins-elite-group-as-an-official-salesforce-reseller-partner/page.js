@@ -67,6 +67,7 @@ export default function Page() {
 
 
           </div>
+          <h1 className="leading-tight mt-10">Rialtes Achieves Salesforce Reseller Partner Status, Expanding End-to-End Cloud Capabilities</h1>
           <div className="xl:hidden block">
             <Image
               src="/images/news/ba-mobile.webp"
