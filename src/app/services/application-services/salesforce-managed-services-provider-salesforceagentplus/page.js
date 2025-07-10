@@ -435,7 +435,7 @@ export default function page() {
                                         {
                                             data.list.map((listData, ind) => {
                                                 return (
-                                                    <li key={ind} className="xl:text-[21px] 4xl:text-[22px] text-[20px] leading-tight">{listData}</li>
+                                                    <li key={ind} className="text-[16px] xl:text-[21px] 4xl:text-[22px] leading-tight">{listData}</li>
                                                 )
                                             })
                                         }

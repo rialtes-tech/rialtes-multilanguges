@@ -248,7 +248,7 @@ export default function Page() {
                 robust data security and integrity.
               </p>
 
-              <div className="py-6"></div>
+              <div className="py-6 "></div>
 
               <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">
                 Understanding AgentExchange by Salesforce

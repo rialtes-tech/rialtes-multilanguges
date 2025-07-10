@@ -397,7 +397,7 @@ const ThoughtLeadershipDesign = () => {
                                 <h3 className="text-[20px] xl:text-[25px] 4xl:text-[30px] leading-tight font-semibold text-[#FFFFFF] ">
                                     {item.title}
                                 </h3>
-                                <p className="text-[20px] xl:text-[25px] 4xl:text-[30px] leading-tight mt-[15px] xl:mt-[29px] text-[#FFFFFF] w-[90%] font-light">
+                                <p className="text-[16px] xl:text-[18px] 4xl:text-[30px] leading-tight mt-[15px] xl:mt-[29px] text-[#FFFFFF] w-[90%] font-light">
                                     {item.description}
                                 </p>
                                 <div className="mt-[38px] xl:mt-[56px] xl:w-[81px] w-[34px] h-[4px] bg-white"></div>
@@ -422,8 +422,9 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
+            
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
-                <div className="xl:block hidden">
+                <div className="md:block hidden">
                     <Image
                         src="/images/industry/auto-sense/auto-sense-banner.webp"
                         alt="auto-sense-banner"
@@ -432,7 +433,7 @@ export default function page() {
                         priority
                     />
                 </div>
-                <div className="xl:hidden block">
+                <div className="md:hidden block">
                     <Image
                         src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"
                         alt=""
@@ -464,7 +465,7 @@ export default function page() {
                 <div className="flex flex-col lg:flex-row gap-5">
                     <div className="flex flex-col w-full lg:max-w-xl lg:mb-0 mb-4">
                         <p className="text-[#000000] text-[18px] xl:text-[22px] 4xl:text-[30px] leading-tight font-normal">Introducing</p>
-                        <p className="text-[#000000] leading-tight 4xl:text-[50px] xl:text-[40px] md:text-[24px]  font-medium ">Rialtes AutoSense</p>
+                        <p className="text-[#000000] leading-tight 4xl:text-[50px] xl:text-[40px] text-[24px]  font-medium ">Rialtes AutoSense</p>
                         <div className="text-[#000000] text-[22px] xl:text-[32px] 2xl:text-[34px] 4xl:text-[36px]  leading-tight font-semibold xl:mt-[31px] mt-[12px] xl:w-full w-[76%]">End-to-End Automotive Solutions</div>
                     </div>
                     <div className="flex flex-col w-full">
