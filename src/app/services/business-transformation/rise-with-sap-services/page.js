@@ -270,7 +270,7 @@ export default function Page() {
           <Image
             src="/images/services/rise-with-sap/header.webp"
             alt="SuccessFactor"
-             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+            className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
 
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
@@ -282,7 +282,7 @@ export default function Page() {
             src="/images/services/rise-with-sap/header.webp"
             alt="SuccessFactor"
             fill
-             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+            className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
 
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -296,9 +296,9 @@ export default function Page() {
         >
           <div className="h-full flex flex-col justify-center">
             <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">Voyager+</h3>
-            <h2 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
+            <h1 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
               Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP
-            </h2>
+            </h1>
             <div className="md:max-w-32 w-20  4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-6">
               <Image
                 src="/images/success-factors/sap-partner-logo.webp"
@@ -525,7 +525,7 @@ export default function Page() {
                   alt="SAP Partner Logo"
                   width={0}
                   height={0}
-                  
+
                   className="lg:w-full md:w-[50%] w-full h-full object-scale-down"
                   priority
                 />
@@ -569,11 +569,11 @@ export default function Page() {
 
       {/* connected sap solution */}
       <section className="relative   xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
-       
+
         <Image
           src="/images/services/rise-with-sap/Connected SAP Solutions.webp"
           alt=""
-          fill  
+          fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />

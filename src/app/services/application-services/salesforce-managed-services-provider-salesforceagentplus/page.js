@@ -415,7 +415,7 @@ export default function page() {
                                     <h4 className={`w-fit max-xl:pr-[20px] pl-[10px] xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight text-[#006FBE] font-semibold bg-[#ffffff] ${ind == 1 || ind == 2 && "xl:w-[88%]"} ${ind == 4 ? "xl:mt-[-110px]" : "xl:mt-[-124px]"} md:mt-[-73px] mt-[-70px]`}>
                                         {data.title}
                                     </h4>
-                                    <UnorderedList arrName={data.list} ulClassName="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[54px] mt-[30px] xl:ml-[26px] ml-[20px]" liClassName="xl:text-[21px] 4xl:text-[22px] text-[20px] leading-tight" />
+                                    <UnorderedList arrName={data.list} ulClassName="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[54px] mt-[30px] xl:ml-[26px] ml-[20px]" liClassName="xl:text-[21px] 4xl:text-[22px] text-[16px] leading-tight" />
                                 </div>
                             )
                         })
