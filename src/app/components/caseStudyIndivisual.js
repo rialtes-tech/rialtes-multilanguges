@@ -32,12 +32,12 @@ export default function servicesFeaturedCarousel({ slides }) {
     const { carouselState: { currentSlide } } = rest;
     return (
       <div className="flex carousel-button-group absolute top-0 xl:right-52 lg:right-20 md:right-10 right-4 md:mt-20">
-        <button className={currentSlide === 0 ? 'disable  p-2 mr-4 group transition-all duration-300' : ' p-2 mr-4 group transition-all duration-300'} onClick={() => previous()}>
+        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable  p-2 mr-4 group transition-all duration-300' : ' p-2 mr-4 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
-        <button className=" p-2 group transition-all duration-300" onClick={() => next()}>
+        <button aria-label="Next slide" className=" p-2 group transition-all duration-300" onClick={() => next()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
           </svg>
@@ -54,10 +54,15 @@ export default function servicesFeaturedCarousel({ slides }) {
       carouselState: { currentSlide, deviceType }
     } = rest;
     return (
-      <button
+      <li>
+      <span
+      role="button"
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
         onClick={() => onClick()}
+                aria-label="Custom Dots"
+
       />
+      </li>
     );
   };
 
@@ -107,8 +112,8 @@ export default function servicesFeaturedCarousel({ slides }) {
               </div>
               <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-6">
                 <Link href={slide?.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight">{slide.title}</h3></Link>
-                <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
-                <Link href={slide?.url} className="font-medium text-[#0092E0] text-[20px] ">Know More</Link>
+                <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight">{slide.description}</p>
+                <Link href={slide?.url} className="font-medium text-[#0092E0] text-[24px] ">Know More</Link>
               </div>
             </div>
           ))}

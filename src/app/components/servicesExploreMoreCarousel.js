@@ -67,11 +67,13 @@ export default function servicesExploreMoreCarousel() {
     return (
       <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
         <button className={currentSlide === 0 ? 'disable p-2 mr-2 group transition-all duration-300' : 'p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+          <span className="sr-only">Previous slide</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 fill-white group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
         <button className="p-2 group transition-all duration-300" onClick={() => next()}>
+          <span className="sr-only">Next slide</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 fill-white group-hover:fill-[#C3C3C3]" />
           </svg>
@@ -88,10 +90,16 @@ export default function servicesExploreMoreCarousel() {
       carouselState: { currentSlide, deviceType }
     } = rest;
     return (
-      <button
+      <li>
+      <span
+      role="button"
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
         onClick={() => onClick()}
+        aria-label="Custom Dots"
+
+
       />
+      </li>
     );
   };
 
@@ -130,7 +138,7 @@ export default function servicesExploreMoreCarousel() {
               className={`flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mr-6 relative group text-white`}
             >
               <div className="w-full relative overflow-hidden group">
-                <a href={slide.url}
+                <a href={slide.url} tabIndex={-1}
              style={{ display: 'block' }} 
             className='relative block'>
                 <Image
