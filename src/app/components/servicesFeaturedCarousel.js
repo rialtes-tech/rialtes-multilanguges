@@ -67,6 +67,7 @@ export default function servicesFeaturedCarousel() {
               : " p-2 mr-4 group transition-all duration-300"
           }
           onClick={() => previous()}
+          aria-label="Previous slide"
         >
           <svg
             width="24px"
@@ -90,6 +91,7 @@ export default function servicesFeaturedCarousel() {
         <button
           className=" p-2 group transition-all duration-300"
           onClick={() => next()}
+          aria-label="Next slide"
         >
           <svg
             width="24px"
@@ -122,12 +124,16 @@ export default function servicesFeaturedCarousel() {
       carouselState: { currentSlide, deviceType },
     } = rest;
     return (
-      <button
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${
-          active ? "bg-[#134874]" : "bg-[#D1D1D1]"
-        }`}
+      <li>
+      <span
+      role="button"
+        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"
+          }`}
         onClick={() => onClick()}
+                aria-label="Custom Dots"
+
       />
+      </li>
     );
   };
 
@@ -169,7 +175,7 @@ export default function servicesFeaturedCarousel() {
                   className="flex h-full  md:flex-row flex-col basis-full xl:mr-12 md:mr-6 mr-0 group"
                 >
                   <div className="basis-full md:basis-2/3 lg:basis-4/3">
-                    <Link href={slide.url}>
+                    <Link href={slide.url} tabIndex={-1}>
                       <Image
                         src={slide.imgSrc}
                         alt={slide.title}
@@ -185,16 +191,16 @@ export default function servicesFeaturedCarousel() {
                       />
                     </Link>
                   </div>
-                  <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white md:basis-2/3 py-6 md:py-4 lg:py-10 md:px-10 lg:px-16 px-6">
-                    <Link href={slide.url}>
+                  <div  className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white md:basis-2/3 py-6 md:py-4 lg:py-10 md:px-10 lg:px-16 px-6">
+                    <Link href={slide.url} tabIndex={-1}>
                       <h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] h3-bold 4xl:text-[30px] xl:text-[24px] text-[20px]">
                         {slide.title}
                       </h3>
                     </Link>
-                    <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
-                    <Link
+                    <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight">{slide.description}</p>
+                    <Link tabIndex={-1}
                       href={slide.url}
-                      className="font-medium text-[#0092E0] xl:text-[20px] text-[16px]"
+                      className="font-medium text-[#0092E0] xl:text-[24px] text-[16px]"
                     >
                       Know More
                     </Link>
