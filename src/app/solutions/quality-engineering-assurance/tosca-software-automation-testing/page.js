@@ -306,7 +306,7 @@ export default function DemandPlusSection() {
       </section>
       {/* max-[425px]:mt-[660px] max-[372px]:mt-[775px] */}
       {/* end to end section */}
-      <section className="custom-container xl:!pr-0 max-[425px]:mt-[660px] max-[372px]:mt-[705px] max-[345px]:mt-[770px] mt-[600px] md:mt-[540px] lg:mt-[325px] xl:mt-[144px] 4xl:mt-22 ">
+      <section className="custom-container xl:!pr-0 max-[425px]:mt-[660px] max-[372px]:mt-[705px] max-[345px]:mt-[770px] mt-[630px] md:mt-[540px] lg:mt-[325px] xl:mt-[144px] 4xl:mt-22 ">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 xl:pr-10 4xl:pr-10">
             <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px] 4xl:block xl:block hidden">
@@ -396,7 +396,7 @@ export default function DemandPlusSection() {
       </section>
 
       <section className="4xl:-mt-[12rem] xl:custom-container px-0 sm:px-0 md:px-6 xl:-mt-[9rem] absolute 4xl:!pl-[205px] xl:pl-[80px] xl:pr-[150px] 4xl:pr-[280px]">
-        <div className="bg-[#006FBE] xl:p-16 4xl:p-16 p-10 grid xl:grid-cols-12 text-white 4xl:pb-32 pb-32">
+        <div className="bg-[#006FBE] xl:p-16 4xl:p-16 p-10 grid xl:grid-cols-12 text-white 4xl:pb-32 sm:pb-32 pb-36 max-[375px]:pb-40">
           <div className="xl:col-span-7">
             <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[42px] leading-tight 4xl:pr-16 xl:pr-10">
               qTest Implementation & Test Management
@@ -404,7 +404,7 @@ export default function DemandPlusSection() {
             <h3 className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight mt-8 xl:pr-48">
               End-to-End Test Lifecycle Orchestration
             </h3>
-            <h3 className="mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight xl:pr-48 pr-10">
+            <h3 className="mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight xl:pr-48 ">
               Manage Testing with Confidence & Control
             </h3>
           </div>
@@ -415,14 +415,14 @@ export default function DemandPlusSection() {
             </p>
             <UnorderedList
               arrName={qTestData}
-              ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2  marker:font-bold marker:text-2xl pl-5 font-light 4xl:mt-8 mt-5 pr-12 xl:pr-0"
+              ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2  marker:font-bold marker:text-2xl pl-5 font-light 4xl:mt-8 mt-5 xl:pr-0"
               liClassName=" 4xl:text-[20px] xl:text-[18px] text-[16px]"
             />
           </div>
         </div>
       </section>
 
-      <section className="custom-container sm:mt-[33rem]  lg:mt-[35rem] xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] mt-[50rem] md:mt-[35rem] xl:mt-0 4xl:mt-0">
+      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[375px]:mt-[820px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[32rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
         <div className=" bg-[#073259] p-8 4xl:mt-[27rem] xl:mt-[20rem] relative">
           <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
             Rialtes makes qTest a central hub for testing, enabling
