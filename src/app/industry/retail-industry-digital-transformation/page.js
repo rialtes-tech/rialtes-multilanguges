@@ -3,7 +3,7 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function retailPage() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -106,7 +106,6 @@ export default function retailPage() {
         },
         "url": "https://www.rialtes.com/industry/retail-industry-digital-transformation"
     }
-
     const newRealityData = [
         {
             title: "Fragmented Customer Journeys:",
@@ -125,7 +124,6 @@ export default function retailPage() {
             subtitle: "Navigating countless tools without clear integration."
         },
     ];
-
     const chooseRialtesData = [
         {
             imgUrl: "/images/industry/retail-industry/img-1.svg",
@@ -152,7 +150,6 @@ export default function retailPage() {
             desc: "Post Go-Live Support, Optimization & Innovation"
         },
     ];
-
     const fashionRetailData = [
         "Manage complex product hierarchies from seasonal collections to custom fits.",
         "Deliver personalized omnichannel experiences online, in-store, mobile.",
@@ -160,28 +157,24 @@ export default function retailPage() {
         "Harness AI for trend forecasting, demand planning, and customer preferences.",
         "Enhance customer retention with smart loyalty programs."
     ]
-
     const loyaltyData = [
         "Multi-tiered loyalty programs with flexible rewards (points, discounts, early access).",
         "Personalized recognition based on purchase history and behavior.",
         "Gamified experiences to increase engagement.",
         "AI-powered insights on loyalty performance and churn risks.",
     ]
-
     const frictionlessData = [
         "SAP S/4HANA and Oracle ERP for order-to-cash, finance, and procurement.",
         "Salesforce Commerce and Marketing Cloud for customer engagement.",
         "MuleSoft as middleware for API-driven, real-time data flow.",
         "Automated workflows — from orders and inventory to invoicing and logistics.",
     ]
-
     const rightData = [
         "Build a tailored tech stack aligned with business goals.",
         "Select optimal SAP, Salesforce, Oracle components.",
         "Use our accelerators for rapid ROI and minimal disruption.",
         "Future-proof your operations for scalability and agility.",
     ]
-
     const aiPoweredRetailData = [
         "AI chatbots for instant, personalized service and FAQs.",
         "Predictive analytics for demand, trends, and customer behavior.",
@@ -189,7 +182,6 @@ export default function retailPage() {
         "AI-driven dynamic pricing and inventory optimization.",
         "AI-powered fraud prevention and loss reduction."
     ]
-
     const fastData = [
         "Instant inventory checks and fulfillment.",
         "AI-optimized delivery routing and last-mile logistics.",
@@ -197,7 +189,6 @@ export default function retailPage() {
         "SAP CAR and Salesforce Commerce integrations for end-to-end quick commerce.",
         "Pre-integrated mobile apps and POS extensions."
     ]
-
     const proprietaryData = [
         {
             title: "Fashion Retail Bolt-On",
@@ -226,14 +217,12 @@ export default function retailPage() {
             desc: "Unified 360° customer profiles for personalized offers, support, and upselling."
         },
     ]
-
     const actionableData = [
         "Unified dashboards combining sales, marketing, and customer service data.",
         "Advanced analytics for demand forecasting, trend analysis, and pricing optimization.",
         "AI-driven insights for faster decision-making.",
         "Interactive Tableau visualizations for intuitive, executive-level reporting."
     ]
-
     const hyperPersonalizationData = [
         "Segment audiences based on behavior, demographics, and preferences.",
         "Design AI-driven, personalized campaigns that drive conversions.",
@@ -241,7 +230,6 @@ export default function retailPage() {
         "Analyze campaign success and customer engagement in real-time.",
         "Integrate seamlessly with commerce, service, and loyalty platforms."
     ]
-
     const realTimeData = [
         "Real-time inventory tracking across all locations.",
         "AI-based demand forecasting for optimal stock levels.",
@@ -256,7 +244,6 @@ export default function retailPage() {
                 description="Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions."
                 canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation/"
             />
-
             <Script
                 id="schema-retail"
                 type="application/ld+json"
@@ -286,7 +273,6 @@ export default function retailPage() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
@@ -302,21 +288,17 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* page description section */}
             <section className="custom-container xl:mt-[135px] mt-[42px]">
                 <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] 2xl:w-[88%] lg:text-[40px] xl:w-[80%] lg:w-[79%]  text-[26px] leading-tight font-light max-[390px]:text-[24px] md:text-[29px] ">
                     Empowering Retailers to Thrive in a Customer-Centric, AI-Driven World
                 </h2>
-
                 <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   text-[16px] leading-[19px] xl:leading-[30px] lg:leading-[25px] xl:mt-[34px] mt-[23px] lg:w-[68%] max-md:w-[94%]">
                     In the retail world, success lies in creating seamless, personalized experiences across every channel while managing operational complexity behind the scenes. At Rialtes, we empower retailers to embrace the future of commerce by unifying business processes, customer engagement, and intelligent analytics through strategic partnerships with SAP, Salesforce, MuleSoft, and Oracle.
-
                     <br /><br />
                     Our proprietary pre-built accelerators for fashion and restaurant verticals ensure you go to market faster, smarter, and with a customer-first focus.
                 </p>
             </section>
-
             {/* retails new reality */}
             <section className="custom-container xl:mt-[96px] mt-[59px] max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] gap-y-[41px]">
@@ -327,26 +309,20 @@ export default function retailPage() {
                         <h3 className="4xl:text-[36px] 2xl:text-[34px] xl:text-[30px] lg:text-[28px] text-[22px] font-semibold md:mt-[24px] mt-[23px] leading-tight   lg:w-[465px] 4xl:w-[585px] 2xl:w-[550px] xl:w-[500px] ">
                             Challenges and Opportunities in a Digital-First World
                         </h3>
-
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]">
                             {newRealityData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal"
-                                    key={ind}
-                                >
+                                <li className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" key={ind}>
                                     <span className="font-bold">{data.title} </span>{data.subtitle}
                                 </li>
                             ))}
                         </ul>
-
                     </div>
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/retail-industry/mobile/new-reality-mob-img.webp"
-                                alt="mobile image"
+                                alt="new-reality mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -357,7 +333,7 @@ export default function retailPage() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/retail-industry/new-reality-desk-img.webp"
-                                alt="mobile image"
+                                alt="new-reality mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -372,13 +348,10 @@ export default function retailPage() {
                         We help you turn these challenges into growth opportunities by crafting modern, AI-powered, integrated solutions tailored for retail.
                     </p>
                 </div>
-
                 <div className="lg:mt-[50px] mt-[36px] max-md:mx-[36px]">
                     <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
                 </div>
             </section>
-
-
             {/* why choose rialtes section */}
             <section className="xl:mt-[63px] mt-[60px] bg-[#EFEFEF] md:relative">
                 <div className="custom-container xl:pt-[82px] pt-[52px]">
@@ -404,8 +377,6 @@ export default function retailPage() {
                                             height={0}
                                             priority
                                         />
-
-
                                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-bold mt-[34px]">
                                             {data.desc}
                                         </p>
@@ -425,11 +396,10 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* fashion retail section */}
             <section className="xl:mt-[81px] mt-[93px] text-[#ffffff] md:pt-[63px]">
                 <div className="relative">
-                    <div className="">
+                    <>
                         <div className="custom-container max-lg:px-0">
                             <div className="lg:pt-[63px] pb-[130px] lg:pb-[43px] xl:pb-[63px] bg-[#4DADC7] relative max-lg:px-[36px]">
                                 <div className="hidden lg:block absolute top-0 2xl:left-[-120px] lg:left-[-50px]  h-full bg-[#4DADC7] z-0 2xl:w-[120px] lg:w-[50px]" />
@@ -443,19 +413,9 @@ export default function retailPage() {
                                                 <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal xl:mt-[36px] mt-[15px] max-[400px]:text-[16px]">
                                                     Fashion is dynamic. So should your retail technology be. Rialtes helps fashion brands:
                                                 </p>
-                                                <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]">
-                                                    {fashionRetailData.map((data, ind) => (
-                                                        <li
-                                                            className=" text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px]   leading-tight font-normal"
-                                                            key={ind}
-                                                        >
-                                                            {data}
-                                                        </li>
-                                                    ))}
-                                                </ul>
+                                                <UnorderedList arrName={fashionRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px] leading-tight font-normal" />
                                             </div>
                                         </div>
-
                                         <div className="absolute bottom-[-170px] 2xl:bottom-[-110px] xl:bottom-[-140px] lg:bottom-[-90px]">
                                             <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px]">
                                                 <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]  leading-tight  py-[24px] px-[24px] lg:pl-[31px] font-light">
@@ -469,7 +429,7 @@ export default function retailPage() {
                                         <div className="block md:hidden w-full h-full">
                                             <Image
                                                 src="/images/industry/retail-industry/mobile/fashion-mob-img.webp"
-                                                alt="mobile image"
+                                                alt="fashion mobile image"
                                                 className="w-full h-full object-cover"
                                                 width={0}
                                                 height={0}
@@ -480,7 +440,7 @@ export default function retailPage() {
                                         <div className="hidden md:block w-full h-full">
                                             <Image
                                                 src="/images/industry/retail-industry/fashion-desk-img.webp"
-                                                alt="desktop image"
+                                                alt="fashion desktop image"
                                                 className="w-full h-full object-cover"
                                                 width={0}
                                                 height={0}
@@ -490,23 +450,20 @@ export default function retailPage() {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                    </div>
+                    </>
                 </div>
             </section>
-
             {/* salesforce marketing section  */}
             <section className="custom-container xl:mt-[158px] md:mt-[100px] mt-[88px] lg:pl-0 max-lg:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-y-[36px] md:gap-[40px] xl:gap-[50px] 2xl:gap-[80px] relative">
                     <div className="md:col-span-6 col-span-12">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/retail-industry/mobile/hyper-mob-img.webp"
-                                alt="mobile image"
+                                alt="hyper mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -517,7 +474,7 @@ export default function retailPage() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/retail-industry/hyper-desk-img.webp"
-                                alt="mobile image"
+                                alt="hyper mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -537,16 +494,7 @@ export default function retailPage() {
                             <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
                                 Rialtes leverages Salesforce Marketing Cloud and Retail Cloud to:
                             </p>
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]">
-                                {hyperPersonalizationData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={hyperPersonalizationData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                         </div>
                     </div>
                     <div className="absolute bottom-0 right-0">
@@ -558,7 +506,6 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/*real time section */}
             <section className="lg:mt-[84px] mt-[62px] relative">
                 {/* Background Image */}
@@ -573,7 +520,6 @@ export default function retailPage() {
                         priority
                     />
                 </div>
-
                 <div className="w-full h-auto block md:hidden">
                     <Image
                         src="/images/industry/retail-industry/mobile/real-time-mob-img.webp"
@@ -597,18 +543,8 @@ export default function retailPage() {
                                 <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  font-normal mt-[22px] md:mt-[29px] leading-tight">
                                     Our Data Cloud-based inventory solutions ensure:
                                 </p>
-                                <ul className="list-disc mt-[18px] md:mt-[16px] pl-[20px] xl:space-y-[27px] space-y-[19px] lg:pr-[35px]">
-                                    {realTimeData.map((data, ind) => (
-                                        <li
-                                            className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal"
-                                            key={ind}
-                                        >
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={realTimeData} ulClassName="list-disc mt-[18px] md:mt-[16px] pl-[20px] xl:space-y-[27px] space-y-[19px] lg:pr-[35px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                             </div>
-
                             <div className="mt-auto pt-[40px]">
                                 <LearnMore />
                             </div>
@@ -616,17 +552,15 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* loyalty program section */}
             <section className="custom-container xl:mt-[86px] mt-[61px]">
                 <div className="grid md:grid-cols-12 grid-cols-1">
                     <div className="md:col-span-5 col-span-12">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/retail-industry/mobile/loyalty-mob-img.webp"
-                                alt="mobile image"
+                                alt="loyalty mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -637,7 +571,7 @@ export default function retailPage() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/retail-industry/loyalty-desk-img.webp"
-                                alt="mobile image"
+                                alt="loyalty mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -657,19 +591,9 @@ export default function retailPage() {
                             <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal xl:mt-[31px] mt-[18px]">
                                 Loyalty is earned, not given. Rialtes makes it easier with:
                             </p>
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]">
-                                {loyaltyData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={loyaltyData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                         </div>
                     </div>
-
                 </div>
                 <div className="grid md:grid-cols-12 grid-cols-1">
                     <div className="md:col-span-5 col-span-12"></div>
@@ -682,7 +606,6 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* frictionless backend section */}
             <section className="custom-container xl:mt-[96px] mt-[59px] max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] gap-y-[41px]">
@@ -696,16 +619,7 @@ export default function retailPage() {
                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal xl:mt-[31px] mt-[24px] max-[350px]:text-[16px]">
                             Retail success needs harmony between customer-facing and backend systems. Rialtes connects:
                         </p>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]">
-                            {frictionlessData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal max-[350px]:text-[16px]"
-                                    key={ind}
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={frictionlessData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal max-[350px]:text-[16px]" />
                         <div className="bg-[#163055] text-[#ffffff] md:mt-[39px] mt-[35px]">
                             <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px]  text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
                                 Achieve operational excellence with zero silos.
@@ -715,10 +629,9 @@ export default function retailPage() {
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/retail-industry/mobile/frictionless-mob-img.webp"
-                                alt="mobile image"
+                                alt="frictionless mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -729,7 +642,7 @@ export default function retailPage() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/retail-industry/frictionless-desk-img.webp"
-                                alt="mobile image"
+                                alt="frictionless mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -740,16 +653,13 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* actionable section */}
             <section className="custom-container xl:mt-[67px] mt-[51px] max-md:px-0 relative">
-
                 {/* Mobile image */}
                 <div className="block md:hidden w-full h-full">
-
                     <Image
                         src="/images/industry/retail-industry/mobile/actionable-mob-img.webp"
-                        alt="mobile image"
+                        alt="actionable mobile image"
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -760,24 +670,21 @@ export default function retailPage() {
                 <div className="hidden md:block w-full h-full">
                     <Image
                         src="/images/industry/retail-industry/actionable-desk-img.webp"
-                        alt="mobile image"
+                        alt="actionable mobile image"
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
                         priority
                     />
                 </div>
-
                 <div className="relative">
                     <div className="md:mt-[-16%] mt-[-30%]">
                         <div className="bg-[#FFC143] xl:pt-[48px] pt-[34px] xl:pl-[67px] xl:pr-[40px] max-md:mx-[36px] px-[35px] text-[#000000] lg:w-[95%] md:w-[90%]">
                             <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[25px]">
                                 <div className="flex flex-col h-full">
-
                                     <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px] font-light">
                                         Actionable Insights with Data Cloud & Tableau
                                     </h2>
-
                                     <p className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] leading-tight xl:mt-[31px] mt-[23px]">
                                         See the Future, Now
                                     </p>
@@ -793,16 +700,7 @@ export default function retailPage() {
                                         Rialtes helps you unlock the power of data:
                                     </p>
                                     <div className="lg:pr-[75px]">
-                                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]">
-                                            {actionableData.map((data, ind) => (
-                                                <li
-                                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal"
-                                                    key={ind}
-                                                >
-                                                    {data}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                        <UnorderedList arrName={actionableData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                                     </div>
                                     <div className="mt-auto block lg:hidden">
                                         <LearnMore />
@@ -813,7 +711,6 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* making right section */}
             <section className="custom-container xl:mt-[71px] mt-[51px] lg:pr-0 max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 2xl:gap-[80px] gap-y-[41px]">
@@ -827,25 +724,14 @@ export default function retailPage() {
                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  font-normal xl:mt-[41px] mt-[23px]">
                             Choosing the right tools shapes your brand’s future. Rialtes guides you to:
                         </p>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[80%]">
-                            {rightData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal"
-                                    key={ind}
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
-
+                        <UnorderedList arrName={rightData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[80%]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                     </div>
                     <div className="md:col-span-7 col-span-12 md:order-2 order-1">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/retail-industry/mobile/right-mob-img.webp"
-                                alt="mobile image"
+                                alt="right mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -856,7 +742,7 @@ export default function retailPage() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/retail-industry/right-desk-img.webp"
-                                alt="mobile image"
+                                alt="right mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -867,17 +753,15 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* ai powered retail section */}
             <section className="custom-container xl:mt-[123px] mt-[65px] lg:pl-0 max-lg:px-0 bg-[#B2D6D9]">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[50px] 2xl:gap-[80px]">
                     <div className="md:col-span-6 col-span-12">
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/retail-industry/mobile/ai-powered-mob-img.webp"
-                                alt="mobile image"
+                                alt="ai-powered mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -888,7 +772,7 @@ export default function retailPage() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/industry/retail-industry/ai-powered-desk-img.webp"
-                                alt="mobile image"
+                                alt="ai-powered mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -908,49 +792,26 @@ export default function retailPage() {
                             <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
                                 Artificial Intelligence is transforming every facet of retail:
                             </p>
-                            <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[95%] ">
-                                {aiPoweredRetailData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={aiPoweredRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[95%]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                         </div>
                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[44px] xl:w-[84%]">
                             With Rialtes, AI becomes an integrated part of your customer and operational strategy.
                         </p>
-
                         <div className="xl:mt-[74px] mt-[31px]">
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
-
             {/* fast flexible section */}
             <section className="custom-container xl:mt-[74px] mt-[53px] lg:pl-0 max-lg:px-0 bg-[#EAC84C]">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[20px] 2xl:gap-[80px]">
-
-
                     <div className="2xl:col-span-7 md:col-span-6 col-span-12">
                         {/* Mobile Background */}
-                        <div
-                            className="block md:hidden w-full bg-cover h-[420px] sm:h-[630px]"
-                            style={{ backgroundImage: "url('/images/industry/retail-industry/mobile/fast-mob-img.webp')" }}
-                        />
-
+                        <div className="block md:hidden w-full bg-cover h-[420px] sm:h-[630px]" style={{ backgroundImage: "url('/images/industry/retail-industry/mobile/fast-mob-img.webp')" }} />
                         {/* Desktop Background */}
-                        <div
-                            className="hidden md:block w-full h-full bg-cover"
-                            style={{ backgroundImage: "url('/images/industry/retail-industry/fast-desk-img.webp')", backgroundPosition: "8% 20%" }}
-                        />
+                        <div className="hidden md:block w-full h-full bg-cover" style={{ backgroundImage: "url('/images/industry/retail-industry/fast-desk-img.webp')", backgroundPosition: "8% 20%" }} />
                     </div>
-
-
                     <div className="2xl:col-span-5 md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto lg:pt-[72px] pt-[2px] lg:pb-[97px] pb-[83px]">
                         <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px]">
                             Fast, Flexible, and Seamless
@@ -961,16 +822,7 @@ export default function retailPage() {
                         <p className="4xl:text-[30px] 2xl:text-[28px] xl:text-[27px] lg:text-[24px] text-[18px] leading-tight font-semibold xl:mt-[41px] mt-[24px]  max-[400px]:text-[16px]">
                             Speed is the new loyalty in retail. Rialtes helps you embrace Quick Commerce:
                         </p>
-                        <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[31px] pl-[20px] lg:pr-[70px]">
-                            {fastData.map((data, ind) => (
-                                <li
-                                    className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal"
-                                    key={ind}
-                                >
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={fastData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[31px] pl-[20px] lg:pr-[70px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                         <div className="absolute">
                             <div className="bg-[#163055] text-[#ffffff] lg:mt-[62px] mt-[35px] max-sm:w-[84%]">
                                 <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px]  text-[20px] leading-tight py-[24px] px-[44px] lg:pl-[31px] font-light max-[400px]:text-[18px]">
@@ -979,13 +831,10 @@ export default function retailPage() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
-
             {/* proprietary section */}
-            <section
-                className="bg-[url('/images/industry/retail-industry/mobile/properietary-mob-img.webp')]
+            <section className="bg-[url('/images/industry/retail-industry/mobile/properietary-mob-img.webp')]
                            md:bg-[url('/images/industry/retail-industry/properietary-desk-img.webp')]
                            bg-cover bg-no-repeat bg-center xl:pt-[99px] pt-[42px] pb-[71px] xl:pb-[82px] lg:mt-[94px] mt-[89px] text-[#FFFFFF]">
                 <div className="custom-container">
@@ -1007,7 +856,6 @@ export default function retailPage() {
                             })
                         }
                     </div>
-
                     <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight xl:mt-[92px] mt-[31px]">
                         These accelerators help reduce deployment time and costs.
                     </p>
@@ -1025,10 +873,9 @@ export default function retailPage() {
                                 <div key={ind} className="card bg-[#EDEDED] lg:pb-[52px] py-[34px] lg:px-[58px] px-[28px] relative">
                                     {/* Mobile image */}
                                     <div className="block md:hidden w-[calc(100%-60px)] h-[360px] absolute top-[-50px] left-0">
-
                                         <Image
                                             src={data.mobImgUrl}
-                                            alt="mobile image"
+                                            alt="AI-Powered mobile image"
                                             className="w-full h-full object-cover"
                                             width={0}
                                             height={0}
@@ -1040,7 +887,7 @@ export default function retailPage() {
                                     <div className="hidden md:block md:w-[calc(100%-60px)] lg:h-[420px] md:h-[360px] absolute top-[-50px] left-0">
                                         <Image
                                             src={data.deskImgUrl}
-                                            alt="mobile image"
+                                            alt="AI-Powered desktop image"
                                             className="w-full h-full object-cover"
                                             width={0}
                                             height={0}
@@ -1058,7 +905,6 @@ export default function retailPage() {
                     }
                 </div>
             </section>
-
             {/* Contact Form */}
             < div className="custom-container md:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px]">
                 <ContactForm title={'Let’s Transform Retail Together — With Rialtes as Your Strategic Partner'} subtitle="Ready to reimagine your retail journey? Rialtes brings the tools, expertise, and innovation you need to thrive in today’s demanding landscape." subtitle1=" Contact us today to unlock the future of retail." className={"xl:w-[70%] 2xl:w-[75%] lg:w-[70%] 4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px] "} />
