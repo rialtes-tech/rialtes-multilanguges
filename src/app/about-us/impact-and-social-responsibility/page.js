@@ -31,62 +31,48 @@ export default function Page() {
           "https://www.rialtes.com/about-us/impact-and-social-responsibility/"
         }
       />
-    
-         <Script
+      <Script
         id="schema-impact"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
-      {/* <HeroSection
-        title="Sustainability with Responsible AI"
-        subtitle="Social Impact"
-        mobimg="/images/social-impact/Social impact header.webp"
-        deskimg="/images/social-impact/Social impact header.webp"
-        extraImg=""
-      /> */}
-
-      {/** Header section * */}
-       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-                      {/* Desktop Image */}
-                      <div className="hidden md:block">
-                          <Image
-                              src="/images/social-impact/Social impact header.webp"
-                              alt="desktop banner"
-                              fill
-                          
-                              priority
-                              className="transform transition-transform duration-500 group-hover:scale-110"
-                          />
-                      </div>
-                      {/* Mobile Image */}
-                      <div className="block md:hidden">
-                          <Image
-                            src="/images/social-impact/Social impact header.webp"
-                              alt="mobile banner"
-                              fill
-                              
-                              priority
-                          />
-                      </div>
-      
-                      <div className="relative h-full custom-container flex items-center">
-                          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                              <div className="col-span-12">
-                                  <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px]  font-bold lg:w-full">
-                                     Social Impact
-                                  </h1>
-                                  <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] 2xl:text-[60px] xl:text-[50px] lg:text-[45px] md:text-[30px] text-[24px] ">
-                                    Sustainability with<br/> Responsible AI
-                                  </h2>
-                              </div>
-                              <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-                              </div>
-                          </div>
-                      </div>
-                  </section>
-
+      {/** hero section * */}
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        <div className="hidden md:block">
+          <Image
+            src="/images/social-impact/Social impact header.webp"
+            alt="desktop banner"
+            fill
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/social-impact/Social impact header.webp"
+            alt="mobile banner"
+            fill
+            priority
+          />
+        </div>
+        <div className="relative h-full custom-container flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12">
+              <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
+                Social Impact
+              </h1>
+              <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] 2xl:text-[60px] xl:text-[50px] lg:text-[45px] md:text-[30px] text-[24px] ">
+                Sustainability with<br /> Responsible AI
+              </h2>
+            </div>
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* page description */}
       <section className="custom-container">
         <div className="xl:py-16 py-5 bg-white ">
           <div className=" xl:mb-0">
@@ -98,23 +84,16 @@ export default function Page() {
         </div>
         <h2 className="pb-10  4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] md:text-[30px] text-[26px]" >We care. We take actions.</h2>
       </section>
-
+      {/* we care we take actions section */}
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden xl:block hidden">
         <Image
           src="/images/social-impact/Rialtes Innovation Foundation.webp"
-          alt="GROW with SAP"
+          alt="Rialtes Innovation Foundation"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
-        <div
-          className="
-         h-full relative
-        ml-[15px]
-        xl:ml-[280px] 
-        2xl:mr-[156px] xl:mr-[70px] 
-        md:ml-[100px]"
-        >
+        <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
           <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] h-[484px] text-white  xl:right-0 top-0">
             <h3 className="font-normal 4xl:text-[35px] 2xl:text-[33px] xl:text-[30px] md:text-[26px] text-[24px]">
               Rialtes Innovation Foundation
@@ -128,7 +107,6 @@ export default function Page() {
               underprivileged communities, supporting girl child education, and
               helping children in need access better opportunities.
             </p>
-
             <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
               Empowering lives and building a better future remains at the heart
               of who we are.{" "}
@@ -139,16 +117,15 @@ export default function Page() {
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
           src="/images/social-impact/ESG Efforts.webp"
-          alt="GROW with SAP"
+          alt="impact and social responsibility image"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
-        <div  className="custom-container">
+        <div className="custom-container">
           <div className="relative p-6 w-[720px] h-[484px]">
             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-
-            <div className="relative  bg-opacity-80 text-white z-10 p-4 rounded-lg">
+            <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
               <h3 className="font-normal 4xl:text-[35px] 2xl:text-[33px] xl:text-[30px] md:text-[26px] text-[24px]">ESG Efforts</h3>
               <p className="mt-5 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
                 At Rialtes, we are deeply committed to sustainability and
@@ -161,7 +138,6 @@ export default function Page() {
                 environmental footprint, and driving impactful climate
                 initiatives.
               </p>
-
               <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
                 Building a greener, more sustainable future is at the core of
                 our values and actions
@@ -170,27 +146,18 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
           src="/images/social-impact/AI Impact for Future.webp"
-          alt="GROW with SAP"
+          alt="AI Impact for Future"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
         />
-        <div
-          className="
-        h-full relative
-        ml-[15px]
-        xl:ml-[280px] 
-        2xl:mr-[156px] xl:mr-[70px] 
-        md:ml-[100px]"
-        >
+        <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
           <div className="flex justify-end">
             <div className="relative p-6 w-[720px] h-[484px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-
               <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
                 <h3 className="font-normal 4xl:text-[35px] 2xl:text-[33px] xl:text-[30px] md:text-[26px] text-[24px]">
                   AI Impact for Future
@@ -205,7 +172,6 @@ export default function Page() {
                   We aim to bridge the AI skills gap and create opportunities
                   for the next generation of innovators.
                 </p>
-
                 <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
                   ‘AI4Future’ reflects our dedication to building future-ready
                   professionals and fostering inclusive growth.
@@ -215,28 +181,21 @@ export default function Page() {
           </div>
         </div>
       </section>
-
-      {/* //for mobile section bg iamge and content */}
-
+      {/* //for mobile section bg image and content */}
       <section className="relative xl:hidden block">
         {/* Image Section */}
         <div className="relative w-full h-[300px]">
           <Image
             src="/images/social-impact/AdobeStock_559787853.webp"
-            alt="GROW with SAP"
+            alt="impact and social responsibility image"
             fill
             className="object-cover"
             priority
           />
         </div>
-
         {/* Content Section */}
         <div
-          className="
-    relative p-8 xl:p-12 text-white bg-[#016FBE] pb-16 
-    xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0
-    "
-        >
+          className="relative p-8 xl:p-12 text-white bg-[#016FBE] pb-16 xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0">
           <h3 className="font-normal text-[24px]">
             Rialtes Innovation Foundation
           </h3>
@@ -255,23 +214,17 @@ export default function Page() {
           </p>
         </div>
       </section>
-
       <section className="relative  xl:hidden block">
         <div className="relative w-full h-[300px]">
           <Image
             src="/images/social-impact/ESG Efforts.webp"
-            alt="GROW with SAP"
+            alt="ESG Efforts image"
             fill
             className="object-cover object-[40%_20%]"
             priority
           />
         </div>
-
-        <div
-          className="consom
-    relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE]
-    "
-        >
+        <div className="relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE]">
           <h3 className="font-normal text-[24px]">ESG Efforts</h3>
           <p className="mt-5 text-[16px] xl:text-[22px]">
             At Rialtes, we are deeply committed to sustainability and climate
@@ -289,23 +242,17 @@ export default function Page() {
           </p>
         </div>
       </section>
-      <section className="relative  xl:hidden block">
+      <section className="relative xl:hidden block">
         <div className="relative w-full h-[386px]">
           <Image
             src="/images/social-impact/social-impact-to.webp"
-            alt=""
+            alt="social-impact image"
             fill
             className="object-cover object-[18%_20%]"
             priority
           />
         </div>
-
-        <div
-          className="
-    relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE] xl:bg-[#0060a799] 
-    xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0
-    "
-        >
+        <div className="relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE] xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0">
           <h3 className="font-normal text-[24px]">AI Impact for Future</h3>
           <p className="mt-5 text-[16px] xl:text-[22px]">
             At Rialtes, we are committed to shaping the future workforce through
@@ -323,11 +270,11 @@ export default function Page() {
           </p>
         </div>
       </section>
-
+      {/* revenue section */}
       <div className="custom-container">
         <section className="bg-white">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-16 mt-16 xl:mt-20">
-  
+            {/* card 1 */}
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10  4xl:py-10 2xl:py-8 flex flex-col justify-center flex-grow">
                 <h3 className="h3-bold line-clamp-2 text-[35px] md:text-[28px] 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] ">
@@ -340,26 +287,25 @@ export default function Page() {
               <Image
                 className="w-full object-cover"
                 src="/images/social-impact/revenue.webp"
+                alt="Revenue social impact"
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 priority
-                alt="Revenue social impact"
               />
             </div>
-
-
+            {/* card 2 */}
             <div className="relative flex flex-col">
               <Image
                 className="w-full object-cover"
                 src="/images/social-impact/planting.webp"
+                alt="Tree planting social impact"
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 priority
-                alt="Tree planting social impact"
               />
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px] xl:min-h-[245px]">
                 <p className=" text-[26px] md:text-[28px] 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] pb-2">
@@ -370,8 +316,7 @@ export default function Page() {
                 </h3>
               </div>
             </div>
-
-
+            {/* card 3 */}
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px]">
                 <h3 className="h3-bold line-clamp-2  text-[35px] md:text-[28px] lg:text-[26px] 4xl:text-[35px] 2xl:text-[32px] xl:text-[30px] ">
@@ -384,12 +329,12 @@ export default function Page() {
               <Image
                 className="w-full object-cover"
                 src="/images/social-impact/Certified professionals.webp"
+                alt="AI certified professionals"
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 priority
-                alt="AI certified professionals"
               />
             </div>
           </div>

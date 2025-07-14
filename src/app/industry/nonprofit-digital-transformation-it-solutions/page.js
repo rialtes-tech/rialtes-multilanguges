@@ -4,7 +4,7 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import React from "react";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function retailPage() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -114,30 +114,6 @@ export default function retailPage() {
         "Global presence to support diverse non-profit organizations.",
         "Focused on mission impact, transparency, and operational efficiency."
     ]
-
-    const seamlessData = [
-        {
-            title: "SAP S/4HANA",
-            desc: "Manage financials, procurement, and donor fund allocation with full transparency."
-        },
-        {
-            title: "Salesforce NPSP & Experience Cloud",
-            desc: "Enhance donor, volunteer, and program engagement through intuitive platforms."
-        },
-        {
-            title: "SAP ARIBA",
-            desc: "Optimize procurement processes for non-profit program needs."
-        },
-        {
-            title: "SAP CPI <br/> (Cloud Platform Integration)",
-            desc: "Ensure seamless data flow between Salesforce, SAP, and third-party solutions like donor portals."
-        },
-        {
-            title: "SAP BTP <br/> (Business Technology Platform)",
-            desc: "Build custom apps, automate workflows, and integrate AI for smarter operations."
-        },
-    ]
-
     const thoughtLeadershipData = [
         {
             title: "Key Challenges:",
@@ -159,7 +135,6 @@ export default function retailPage() {
             ]
         }
     ]
-
     const preDeliveredData = [
         {
             title: "Donor Engagement Accelerator",
@@ -178,7 +153,6 @@ export default function retailPage() {
             desc: "Advanced visualization of household and family contributions to understand collective donor potential, supporting long-term relationship strategies."
         }
     ]
-
     const commonSectionData = [
         {
             title: "Fundraising & Campaign Management",
@@ -286,14 +260,12 @@ export default function retailPage() {
                 description="Rialtes empowers nonprofits with smart IT solutions and digital transformation to streamline grants, donors, volunteers, and program operations seamlessly."
                 canonical="https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions/"
             />
-
             <Script
                 id="schema-nonprofit"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 {/* Desktop Image */}
@@ -317,7 +289,6 @@ export default function retailPage() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container sm:flex sm:items-center pt-[123px] sm:pt-0 ">
                     <div className="grid grid-cols-12 w-full">
                         <div className="4xl:col-span-7 sm:col-span-7 md:col-span-6 lg:col-span-6 col-span-9 max-[400px]:col-span-12">
@@ -336,7 +307,6 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
-
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div className="md:w-[80%] lg:w-[70%] 4xl:w-[80%] sm:w-[90%]">
@@ -348,7 +318,6 @@ export default function retailPage() {
                     </p>
                 </div>
             </section>
-
             {/* thought leadership section */}
             <section className="custom-container xl:mt-[121px] mt-[72px] max-md:px-0">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -374,7 +343,7 @@ export default function retailPage() {
                             <div className="md:block hidden w-full h-full">
                                 <Image
                                     src="/images/industry/non-profit-industry/thought-leadership-desk.webp"
-                                    alt="desktop img"
+                                    alt="thought-leadership desktop img"
                                     width={0}
                                     height={0}
                                     className="w-full h-full object-cover"
@@ -384,7 +353,7 @@ export default function retailPage() {
                             <div className="md:hidden block w-full h-full">
                                 <Image
                                     src="/images/industry/non-profit-industry/Mobile/thought-leadership-mob.webp"
-                                    alt="mob img"
+                                    alt="thought-leadership mob img"
                                     width={0}
                                     height={0}
                                     className="w-full h-full object-cover"
@@ -402,23 +371,13 @@ export default function retailPage() {
                                     <p className="xl:text-[28px] 4xl:text-[32px] text-[20px] leading-tight font-semibold">
                                         {data.title}
                                     </p>
-                                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[20px] pl-[20px]">
-                                        {data.dataList.map((data, ind) => (
-                                            <li
-                                                className="text-[16px] xl:text-[20px] leading-tight font-normal"
-                                                key={ind}
-                                            >
-                                                {data}
-                                            </li>
-                                        ))}
-                                    </ul>
+                                    <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[20px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                                 </div>
                             )
                         })
                     }
                 </div>
             </section>
-
             {/* pre-delivered section */}
             <section className="custom-container xl:mt-[110px] mt-[89px]">
                 <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] md:w-[70%] lg:w-[50%] xl:w-[70%] 4xl:w-[70%]">
@@ -427,7 +386,6 @@ export default function retailPage() {
                 <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight mb-[34px] xl:mb-[46px] xl:mt-[41px] mt-[26px] font-normal md:w-[80%] xl:w-[70%]">
                     Our proprietary, ready-to-deploy solutions drastically reduce deployment times and improve process efficiencies for non-profits.
                 </p>
-
                 <div className="grid md:grid-cols-2 grid-cols-1 xl:mt-[56px] mt-[26px] sm:w-[80%] md:gap-[40px] md:gap-y-[21px] gap-y-[16px]">
                     {
                         preDeliveredData.map((data, ind) => {
@@ -448,14 +406,11 @@ export default function retailPage() {
                     <LearnMore />
                 </div>
             </section>
-
             {/* common sections */}
             <section className={`md:mt-[133px] mt-[90px] md:space-y-[190px] space-y-[89px]`}>
                 {
                     commonSectionData.map((data, ind) => {
-
                         return (
-
                             <div key={ind} className="custom-container !pr-0 max-md:px-0 ">
                                 <div className="relative max-md:pl-[36px]">
                                     <div className="absolute z-20 mt-[-36px] md:mt-[-40px] xl:mt-[-50px]">
@@ -463,18 +418,14 @@ export default function retailPage() {
                                     </div>
                                     <div className="custom-container !pl-0 xl:pt-[88px] pt-[58px] border-b-4 border-[#006FBE]" style={{ backgroundColor: data.bgColor }}>
                                         {/* extension */}
-                                        <div
-                                            className="absolute top-0 left-0 md:left-[-20px] xl:left-[-40px] 4xl:left-[-100px] h-full w-[36px] md:w-[20px] xl:w-[40px] 4xl:w-[100px] z-0 border-t-4 border-[#006FBE]"
-                                            style={{ backgroundColor: data.bgColor }}
-                                        ></div>
-
+                                        <div className="absolute top-0 left-0 md:left-[-20px] xl:left-[-40px] 4xl:left-[-100px] h-full w-[36px] md:w-[20px] xl:w-[40px] 4xl:w-[100px] z-0 border-t-4 border-[#006FBE]"
+                                            style={{ backgroundColor: data.bgColor }}></div>
                                         <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 4xl:gap-[40px] gap-y-[22px]">
                                             <div className="md:col-span-6 col-span-12">
                                                 <h2
                                                     className={`text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]  ${ind === 3 || ind === 5 ? "xl:w-[60%] lg:w-[70%]" : "md:w-[80%] lg:w-[70%] xl:w-[80%] 4xl:w-[98%]"}`}>
                                                     {data.title}
                                                 </h2>
-
                                             </div>
                                             <div className="md:col-span-6 col-span-12">
                                                 {data.title2 && <h2 className={`text-[20px] leading-tight xl:text-[30px] 4xl:text-[36px] font-bold`}>
@@ -490,16 +441,7 @@ export default function retailPage() {
                                                 <p className={`xl:text-[28px] 4xl:text-[32px] text-[18px] leading-tight font-semibold md:mt-[80px] ${ind == 2 && "xl:mt-[51px]"}`}>
                                                     Significance:
                                                 </p>
-                                                <ul className={`xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[22px] pl-[20px] xl:w-[88%] xl:pb-[182px] pb-[87px] ${ind == 2 && "xl:pb-[108px]"}`}>
-                                                    {data.dataList.map((data, ind) => (
-                                                        <li
-                                                            className="text-[16px] xl:text-[20px] leading-tight font-normal"
-                                                            key={ind}
-                                                        >
-                                                            {data}
-                                                        </li>
-                                                    ))}
-                                                </ul>
+                                                <UnorderedList arrName={data.dataList} ulClassName={`xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[22px] pl-[20px] xl:w-[88%] xl:pb-[182px] pb-[87px] ${ind == 2 && "xl:pb-[108px]"}`} liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                                             </div>
                                             <div className="md:order-2 order-1">
                                                 <div className="md:block hidden w-full h-full relative">
@@ -635,7 +577,7 @@ export default function retailPage() {
                         <div className="md:block hidden w-[80%] h-[60%]">
                             <Image
                                 src="/images/industry/non-profit-industry/donor-volunteer-desk-img.webp"
-                                alt="desktop img"
+                                alt="donor-volunteer desktop img"
                                 width={0}
                                 height={0}
                                 className=" w-full h-full object-cover"
@@ -645,7 +587,7 @@ export default function retailPage() {
                         <div className="md:hidden block w-full h-[60%]">
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/donor-volunteer-mob-img.webp"
-                                alt="mob img"
+                                alt="donor-volunteer mob img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -662,13 +604,12 @@ export default function retailPage() {
                             </p>
                         </div>
                     </div>
-
                     {/* col 2 */}
                     <div>
                         <div className="md:block hidden w-[80%] h-[60%]">
                             <Image
                                 src="/images/industry/non-profit-industry/agentforce-desk-img.webp"
-                                alt="desktop img"
+                                alt="agentforce desktop img"
                                 width={0}
                                 height={0}
                                 className=" w-full h-full object-cover"
@@ -678,7 +619,7 @@ export default function retailPage() {
                         <div className="md:hidden block w-full h-[60%]">
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/agentforce-mob-img.webp"
-                                alt="mob img"
+                                alt="agentforce mob img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -700,7 +641,7 @@ export default function retailPage() {
                         <div className="md:block hidden w-full h-full">
                             <Image
                                 src="/images/industry/non-profit-industry/data-cloud-desk-img.webp"
-                                alt="desktop img"
+                                alt="data-cloud desktop img"
                                 width={0}
                                 height={0}
                                 className=" w-full h-full object-cover"
@@ -710,7 +651,7 @@ export default function retailPage() {
                         <div className="md:hidden block w-full h-full">
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/data-cloud-mob-img.webp"
-                                alt="mob img"
+                                alt="data-cloud mob img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -746,13 +687,7 @@ export default function retailPage() {
                         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px]">
                             Why Choose Rialtes for Your Non-Profit Digital Transformation?
                         </h2>
-                        <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[74%]">
-                            {whyChooseData.map((data, ind) => (
-                                <li className="text-[16px] xl:text-[20px] leading-tight font-normal" key={ind}>
-                                    {data}
-                                </li>
-                            ))}
-                        </ul>
+                        <UnorderedList arrName={whyChooseData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[74%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                         <div className="mt-[46px] xl:mt-[84px]">
                             <LearnMore />
                         </div>
@@ -761,7 +696,7 @@ export default function retailPage() {
                         <div className="md:block hidden w-full h-full">
                             <Image
                                 src="/images/industry/non-profit-industry/why-choose-desk-img.webp"
-                                alt="desktop img"
+                                alt="why-choose desktop img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -771,7 +706,7 @@ export default function retailPage() {
                         <div className="md:hidden block w-full h-full">
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/why-choose-mob-img.webp"
-                                alt="mob img"
+                                alt="why-choose mob img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
