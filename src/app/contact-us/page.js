@@ -212,21 +212,18 @@ const LocationPage = () => {
             ),
         },
     ];
-
     // Group locations by country
     const groupByCountry = (countryName) => {
         return locations.filter(location => location.country === countryName);
     };
-
     return (
-        <div className="">
+        <div>
             <Seo
                 title="Contact Us – Expert IT Consulting for Your Business Growth | Rialtes"
                 description="Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success."
                 keywords="Contact, website, welcome"
                 canonical={"https://www.rialtes.com/contact-us/"}
             />
-
             <Script
                 id="schema-contact-us"
                 type="application/ld+json"
@@ -257,14 +254,11 @@ const LocationPage = () => {
                 </div>
                 <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-16 gap-6 '>
                     <div className="location-group flex flex-col">
-
                         <h4 className="uppercase text-[#0092E0]">UNITED STATES</h4>
-
                         <div className="flex flex-col gap-6 ">
                             {groupByCountry('UNITED STATES').map((location, index) => (
                                 <div key={index} className="location-item flex flex-col mt-3">
                                     <div>
-
                                         {location.headquarter && <h5 className="font-bold">{location.headquarter}</h5>}
                                         {location.city && <h5 className="font-bold">{location.city}</h5>}
                                         <p>{location.address}</p>
@@ -272,7 +266,6 @@ const LocationPage = () => {
                                     </div>
                                 </div>
                             ))}
-
                             {/* Canada Locations */}
                             {groupByCountry('CANADA').map((location, index) => (
                                 <div key={index} className="location-item flex flex-col">
@@ -293,7 +286,6 @@ const LocationPage = () => {
                     {/* India */}
                     <div className="location-group flex flex-col">
                         <h4 className="uppercase text-[#0092E0]">India</h4>
-
                         <div className="flex flex-col gap-6">
                             {groupByCountry('INDIA').map((location, index) => (
                                 <div key={index} className="location-item flex flex-col mt-3">
@@ -307,7 +299,6 @@ const LocationPage = () => {
                             ))}
                         </div>
                     </div>
-
                     {/* Singapore */}
                     <div className="location-group flex flex-col gap-6 md:mt-[-20rem] xl:mt-0">
                         <div className="flex flex-wrap gap-6">
@@ -327,9 +318,8 @@ const LocationPage = () => {
                         </div>
                     </div>
                 </div>
-
                 <section className="mt-16 xl:mt-32 pb-10 ">
-                    <ContactForm className='max-w-3xl' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                    <ContactForm className='max-w-4xl' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
                 </section>
                 <div className="pb-6"></div>
             </div>

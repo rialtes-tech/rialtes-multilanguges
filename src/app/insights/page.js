@@ -837,12 +837,8 @@ export default function InsightsPage() {
       </div>
 
       {/* Contact Form Section */}
-      <div
-        className="py-16
-    custom-container
-        text-black"
-      >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
+      <div className="py-16 custom-container text-black">
+        <ContactForm title={'Take the next step to operational excellence with us.'} className={'w-[70%] lg:w-[50%] xl:w-[70%]'} />
       </div>
     </div>
   );

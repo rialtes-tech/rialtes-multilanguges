@@ -258,11 +258,13 @@ export default function Contact() {
             </section>
             {/* page description */}
             <section className="custom-container">
-                <div className="grid lg:grid-cols-2 mt-16 mb-16">
-                    <div>
-                        <h2 className="xl:w-[60%] w-full leading-tight">Our Strategic Partners</h2>
+                <div className="grid lg:grid-cols-12 xl:grid-cols-12 mt-16 mb-16">
+                    <div className="lg:col-span-6 xl:col-span-6">
+                        <h2 className="3xl:w-[60%] w-full leading-tight">Our Strategic Partners</h2>
                     </div>
-                    <p className="mt-5 xl:w-[75%] w-full">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
+                    <div className="lg:col-span-6 xl:col-span-6">
+                        <p className="mt-5 xl:w-[75%] w-full">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
+                    </div>
                 </div>
             </section>
             <div className="pb-20">
