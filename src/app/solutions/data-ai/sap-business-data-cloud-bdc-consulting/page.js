@@ -183,7 +183,6 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-
         <div className="absolute inset-0 flex items-center">
           <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container max-md:mr-[12%] text-white xl:mt-0">
             <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
@@ -232,7 +231,7 @@ export default function Page() {
             <div className="lg:col-span-7 h-full w-full ">
               <Image
                 src="/images/sap-bdc-services/Unified-web.webp"
-                alt="Unified"
+                alt="Open data foundation image"
                 className="w-full h-full object-cover hidden lg:block "
                 width={0}
                 height={0}
@@ -240,7 +239,7 @@ export default function Page() {
               />
               <Image
                 src="/images/sap-bdc-services/Unified-mobile.webp"
-                alt="agent-chat-img"
+                alt="Open data foundation image"
                 width={0}
                 height={0}
                 className="block lg:hidden w-full h-full object-cover px-0"
@@ -270,7 +269,6 @@ export default function Page() {
           </div>
         </section>
         <div className="py-7"></div>
-
         {/* SAP Data Fabric section */}
         <section className="custom-container md:pr-0 grid xl:grid-cols-12 grid-cols-1  sm:mt-4 max-md:px-0">
           <div className="xl:col-span-6 order-1 xl:order-2 ">
@@ -278,7 +276,7 @@ export default function Page() {
               <Image
                 className="w-full h-full object-cover"
                 src="/images/sap-bdc-services/SAP-data-web.webp"
-                alt="Sap data"
+                alt="Sap data fabric image"
                 width={0}
                 height={0}
                 priority
@@ -288,7 +286,7 @@ export default function Page() {
             <div className="block lg:hidden h-100%">
               <Image
                 src="/images/sap-bdc-services/SAP-data-mobile.webp"
-                alt="sap data"
+                alt="sap data fabric image"
                 width={0}
                 height={0}
                 className="w-full h-full object-cover"
@@ -322,7 +320,7 @@ export default function Page() {
           <div className="hidden lg:block">
             <Image
               src="/images/sap-bdc-services/sap-cover.webp"
-              alt="SAP Desktop"
+              alt="Why Choose SAP image"
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -333,7 +331,7 @@ export default function Page() {
           <div className="block lg:hidden">
             <Image
               src="/images/sap-bdc-services/sap-cover-mobile.webp"
-              alt="SAP Mobile"
+              alt="Why Choose SAP image"
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -356,8 +354,7 @@ export default function Page() {
                 {Data.map((item, index) => (
                   <div
                     key={index}
-                    className=" bg-white border border-[#707070] p-8 xl:py-[3.5rem] text-black"
-                  >
+                    className=" bg-white border border-[#707070] p-8 xl:py-[3.5rem] text-black">
                     <p className="text-[#0A6BB8] 2xl:text-[30px] xl:text-[22px] text-[20px] font-bold leading-tight">
                       {item.title}
                     </p>
@@ -371,13 +368,12 @@ export default function Page() {
           </div>
         </section>
         <div className="py-10"></div>
-
         {/* Rialtes: Your Trusted SAP & Databricks Partner */}
         <section className="custom-container grid grid-cols-1 lg:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-6">
           <div className="order-1 lg:order-2 2xl:h-[579px] h-full lg:col-span-5">
             <Image
               src="/images/sap-bdc-services/Your-Trusted-SAP-web.webp"
-              alt="supplier-profile-img"
+              alt="Your Trusted SAP image"
               width={0}
               height={0}
               className="w-full hidden md:block h-full"
@@ -385,13 +381,12 @@ export default function Page() {
             />
             <Image
               src="/images/sap-bdc-services/your-trusted-sap-mobile.webp"
-              alt="supplier-profile-mob-img"
+              alt="Your Trusted SAP image"
               width={0}
               height={0}
               className="w-full block md:hidden h-auto"
             />
           </div>
-
           <div className="order-2 lg:order-1 lg:col-span-7">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] lg:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
               Rialtes: Your Trusted SAP & Databricks Partner
@@ -410,14 +405,12 @@ export default function Page() {
                 "Sales, Service, and Marketing Insights from Salesforce or SAP CX",
               ]} ulClassName="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:pr-20 leading-tight space-y-3" liClassName="" />
             </div>
-
             <div className="lg:mt-[30px]">
               <LearnMore />
             </div>
           </div>
         </section>
         <div className="py-10"></div>
-
         {/* Seamless Migration from SAP section */}
         <section className="custom-container  px-[2rem]">
           <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
@@ -452,7 +445,6 @@ export default function Page() {
           </div>
         </section>
         <div className="py-4"></div>
-
         {/* Migrate from SAP Datasphere to SAP Business Data Cloud */}
         <section className="lg:mt-[120px] mt-[10px]">
           <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -488,7 +480,7 @@ export default function Page() {
               <div className="hidden lg:block relative w-full h-full top-[-72px] right-0 z-20">
                 <Image
                   src="/images/sap-bdc-services/web.webp"
-                  alt="desktop image"
+                  alt="Migrate from SAP image"
                   className="w-full h-full"
                   width={0}
                   height={0}
@@ -501,7 +493,7 @@ export default function Page() {
               <div className="block lg:hidden w-full h-[340px] sm:h-[700px] md:h-[750px] relative">
                 <Image
                   src="/images/sap-bdc-services/web.webp"
-                  alt="mobile image"
+                  alt="Migrate from SAP image"
                   width={0}
                   height={0}
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
@@ -513,14 +505,13 @@ export default function Page() {
           </div>
         </section>
         <div className="py-10"></div>
-
         {/* Connect SAP Business Data Cloud with Databricks */}
         <section className="custom-container xl:pr-0 max-md:px-0">
           <div className="relative overflow-hidden">
             <div className="hidden lg:block">
               <Image
                 src="/images/sap-bdc-services/connect.webp"
-                alt="SAP Desktop"
+                alt="Connect SAP Business image"
                 fill
                 priority
                 style={{ objectFit: "cover" }}
@@ -531,7 +522,7 @@ export default function Page() {
             <div className="block lg:hidden">
               <Image
                 src="/images/sap-bdc-services/connect-mobile.webp"
-                alt="SAP Mobile"
+                alt="Connect SAP Business image"
                 fill
                 priority
                 style={{ objectFit: "cover" }}
@@ -553,13 +544,12 @@ export default function Page() {
           </div>
         </section>
         <div className="py-10"></div>
-
         {/* Our SAP Business Data Cloud Services */}
         <section className="relative max-[350px]:h-[600px] max-[417px]:h-[520px] h-[475px] md:h-[570px] lg:h-[470px] xl:h-[525px] 2xl:h-[530px] 4xl:h-[630px] overflow-hidden">
           <div className="hidden lg:block">
             <Image
               src="/images/sap-bdc-services/sap-business-web.webp"
-              alt="SAP business"
+              alt="Our SAP Business image"
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -570,7 +560,7 @@ export default function Page() {
           <div className="block lg:hidden">
             <Image
               src="/images/sap-bdc-services/sap-business-mobile.webp"
-              alt="SAP business"
+              alt="Our SAP Business image"
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -588,8 +578,7 @@ export default function Page() {
                       background: "#113056",
                       mixBlendMode: "overlay",
                       opacity: 0.8,
-                    }}
-                  >
+                    }}>
                     <div style={{ opacity: 1, color: "#FFFFFF" }}>
                       <h2 className="mb-4 leading-tight  4xl:text-[56px] xl:text-[40px] md:text-[26px]">
                         Our SAP Business Data Cloud Services
@@ -609,7 +598,6 @@ export default function Page() {
             </div>
           </div>
         </section>
-
         {/* Why Clients Choose Rialtes */}
         <section className="custom-container lg:mt-[120px] max-md:px-0">
           <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -617,7 +605,7 @@ export default function Page() {
               <div className="block lg:hidden relative z-10 px-6 ">
                 <Image
                   src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
-                  alt="mobile image"
+                  alt="Why Clients Choose Rialtes image"
                   width={0}
                   height={0}
                   className="w-full h-[400px] 2xl:h-[90%] md:w-[60%]"
@@ -625,7 +613,6 @@ export default function Page() {
                   priority
                 />
               </div>
-
               <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[800px] xl:pl-0 xl:h-[450px] 2xl:h-[480px] 4xl:h-[560px] 2xl:w-[1080px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
                 <div className="custom-container xl:pl-[70px] max-lg:pt-[160px] max-md:px-0">
                   <div className="4xl:w-[75%] xl:w-[66%] lg:w-[80%]">
@@ -643,7 +630,7 @@ export default function Page() {
               <div className="hidden lg:block relative w-full h-full top-[-120px] right-0 z-20">
                 <Image
                   src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
-                  alt="desktop image"
+                  alt="Why Clients Choose Rialtes image"
                   className="w-full h-full "
                   width={0}
                   height={0}
@@ -655,7 +642,7 @@ export default function Page() {
           </div>
         </section>
       </section>
-      <div className="mx-[35px]  custom-container text-black py-16">
+      <div className="mx-[35px] custom-container text-black py-16">
         <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
           title=
           "Let’s Build Your Enterprise Data Cloud Together"

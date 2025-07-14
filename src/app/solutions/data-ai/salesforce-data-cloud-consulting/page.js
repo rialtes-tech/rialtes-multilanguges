@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
@@ -194,7 +194,6 @@ export default function DataCloud() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       {/* hero section */}
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
         {/* Desktop Image */}
@@ -207,9 +206,7 @@ export default function DataCloud() {
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
-
         </div>
-
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
@@ -220,10 +217,8 @@ export default function DataCloud() {
             priority
           />
         </div>
-
         <div className="relative h-full custom-container flex items-center text-[#000000]">
           <div className="grid grid-cols-12 w-full">
-
             <div className="4xl:col-span-5 md:col-span-4 col-span-4">
             </div>
             <div className="4xl:col-span-7 md:col-span-8 col-span-8">
@@ -239,11 +234,10 @@ export default function DataCloud() {
               <div className=" w-full xl:mt-10 mt-5">
                 <Image
                   src="/images/data-cloud/salesforce-partner.webp"
-                  alt="Leadership Team"
+                  alt="salesforce-partner image"
                   width={0}
                   height={0}
                   sizes="100vw"
-
                   className="sm:h-[30%] sm:w-[30%] h-[45%] w-[45%]"
                   style={{
                     objectFit: "cover",
@@ -290,8 +284,7 @@ export default function DataCloud() {
             {featureBoxes.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white border hover:bg-[#D9F2FF] 4xl:p-12 p-8 flex flex-col h-full"
-              >
+                className="bg-white border hover:bg-[#D9F2FF] 4xl:p-12 p-8 flex flex-col h-full">
                 <div className="flex flex-col items-start mb-4">
                   <div className="w-16 h-16 flex-shrink-0 mb-4">
                     <div className="w-full h-full flex items-center justify-center">
@@ -362,7 +355,7 @@ export default function DataCloud() {
                   >
                     <Image
                       src={service.image}
-                      alt="Leadership Team"
+                      alt={`${service.title} image`}
                       width={0}
                       height={0}
                       style={{

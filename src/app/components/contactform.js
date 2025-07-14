@@ -1,17 +1,13 @@
 "use client";
-
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
 const generateCaptcha = () => {
     const operators = ['+', '-', '*', '/'];
     const operator = operators[Math.floor(Math.random() * operators.length)];
-
     let num1 = Math.floor(Math.random() * 10) + 1; // Ensure non-zero for division
     let num2 = Math.floor(Math.random() * 10) + 1;
     let question = '';
     let answer = 0;
-
     switch (operator) {
         case '+':
             question = `${num1} + ${num2}`;
@@ -32,13 +28,8 @@ const generateCaptcha = () => {
             question = `${num1} ÷ ${num2}`;
             break;
     }
-
     return { question, answer };
 };
-
-
-
-
 export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
     const [captcha, setCaptcha] = useState(generateCaptcha());
     const [userAnswer, setUserAnswer] = useState('');
@@ -46,25 +37,21 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     const [formErrors, setFormErrors] = useState({});
     const formRef = useRef(null);
     const [mounted, setMounted] = useState(false);
-
     useEffect(() => {
     setMounted(true);
     generateCaptcha(); // generate on client only
   }, []);
-
     const refreshCaptcha = () => {
         setCaptcha(generateCaptcha());
         setUserAnswer('');
         setError('');
     };
-
     const validateForm = (form) => {
         const errors = {};
         const firstName = form.first_name.value.trim();
         const lastName = form.last_name.value.trim();
         const email = form.email.value.trim();
         const message = form['00NQh0000041tRZ'].value.trim();
-
         // Validate first name
         if (!firstName) {
             errors.first_name = "First name is required.";
@@ -73,7 +60,6 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         } else if (firstName.length > 40) {
             errors.first_name = "First name should not exceed 40 characters.";
         }
-
         // Validate last name
         if (!lastName) {
             errors.last_name = "Last name is required.";
@@ -82,14 +68,12 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         } else if (lastName.length > 40) {
             errors.last_name = "Last name should not exceed 40 characters.";
         }
-
         // Validate email (you already have this, keep as is)
         if (!email) {
             errors.email = "Email is required.";
         } else if (!/^\S+@\S+\.\S+$/.test(email)) {
             errors.email = "Invalid email address.";
         }
-
         // Validate message length
         if (!message) {
             errors.message = "Message is required.";
@@ -98,30 +82,24 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         } else if (message.length > 1000) {
             errors.message = "Message should not exceed 1000 characters.";
         }
-
         if (!userAnswer.trim()) {
             errors.captcha = "Captcha is required.";
         } else if (parseInt(userAnswer) !== captcha.answer) {
             errors.captcha = "Wrong captcha answer. Please try again.";
         }
-
         return errors;
     };
     const isSpam = (form) => {
         const honeypot = form.website.value;
         const email = form.email.value;
         const message = form['00NQh0000041tRZ'].value;
-
         if (honeypot) return true;
         if (/godaddy|yopmail|10minutemail/i.test(email)) return true;
         if (/http|www|<a\s/i.test(message)) return true;
-
         return false;
     };
-
     const handleSubmit = (e) => {
         e.preventDefault();
-
         const form = e.currentTarget;
         const errors = validateForm(form);
         if (Object.keys(errors).length > 0) {
@@ -133,18 +111,12 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             setError("Submission blocked due to suspected spam.");
             return;
         }
-
         setError('');
         setFormErrors({});
-
-
         form.submit();
-
         setUserAnswer('');
         setCaptcha(generateCaptcha());
     };
-
-
     useEffect(() => {
         if (formRef.current) {
             formRef.current.reset();
@@ -161,7 +133,6 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px] ${className}`}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
             </div>
-
             {subtitle && (
                 <p className="mt-8 leading-tight xl:text-[20px] text-[16px] xl:w-[60%] font-regular">
                     {subtitle}

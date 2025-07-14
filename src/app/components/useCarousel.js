@@ -2,19 +2,14 @@
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import { useRef } from 'react';
-
 export default function servicesInsightsCarousel() {
   const carouselRef = useRef(null);
-
   const slides = [
     { id: 1, category: "Healthcare", description: "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities" },
     { id: 2, category: "Real Estate", description: "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions." },
     { id: 3, category: "Manufacturing", description: "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer manufacturing Software to help you keep your production lines running smoothly." },
     { id: 4, category: "Hi-tech", description: "Our consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms." },
-    // { id: 5, category: "Finance", description: "From banking payment solutions to financial services automation, our dedicated team helps you achieve operational excellence and build customer trust." },
-    // { id: 6, category: "Public Sector", description: "For critical public sector projects, we deliver the finest in private sector technology—from AI and automation to cloud solutions. With proven methodologies, trusted expertise, and cutting-edge software, we're shaping the future of the public sector" },
-  ];
-
+    ];
   // Adjust the responsive settings for showing 4 items on the first slide, 2 on the second
   const responsive = {
     desktop: {
@@ -34,14 +29,12 @@ export default function servicesInsightsCarousel() {
       centerMode: true,
     },
   };
-
   const ButtonGroup = ({ next, previous }) => {
     return (
       <div className="carousel-button-group flex">
         <button
           className="bg-white p-2 mr-2 group transition-all duration-300"
-          onClick={() => previous()}
-        >
+          onClick={() => previous()}>
           <svg
             width="24px"
             height="24px"
@@ -52,19 +45,16 @@ export default function servicesInsightsCarousel() {
             strokeWidth="1"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="group-hover:stroke-[#C3C3C3]"
-          >
+            className="group-hover:stroke-[#C3C3C3]">
             <path
               d="M3 7.5L11 0V15L3 7.5Z"
               fill="none"
-              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"
-            />
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"/>
           </svg>
         </button>
         <button
           className="bg-white p-2 group transition-all duration-300"
-          onClick={() => next()}
-        >
+          onClick={() => next()}>
           <svg
             width="24px"
             height="24px"
@@ -90,8 +80,6 @@ export default function servicesInsightsCarousel() {
 
   const CustomDot = ({ onClick, ...rest }) => {
     const {
-      onMove,
-      index,
       active,
       carouselState: { currentSlide, deviceType }
     } = rest;
@@ -145,8 +133,7 @@ export default function servicesInsightsCarousel() {
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className="flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group"
-            >
+              className="flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group">
               {/* Optional: Add an image or background here if needed */}
               <div className="w-full h-full min-h-[380px] sm:min-h-[380px] md:min-h-[300px] lg:min-h-[440px] xl:min-h-[420px] 2xl:min-h-[450px] relative bg-white">
                 <div className="absolute inset-0 py-[42px] px-[36px]">
@@ -159,7 +146,6 @@ export default function servicesInsightsCarousel() {
                 </div>
               </div>
             </div>
-
           ))}
         </Carousel>
       </div>

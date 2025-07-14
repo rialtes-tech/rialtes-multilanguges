@@ -7,7 +7,6 @@ import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -156,10 +155,7 @@ const solutionSuccess = [
         knowMore: '/services/spend-management/sapbuyplus-ariba-implementation-partner'
 
     },]
-
-
 export default function Page() {
-
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -174,7 +170,6 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 {/* Desktop Image */}
@@ -188,7 +183,6 @@ export default function Page() {
                         className="transform transition-transform duration-500 group-hover:scale-110"
                     />
                 </div>
-
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
@@ -198,15 +192,12 @@ export default function Page() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container grid grid-cols-12 sm:items-center">
                     <div className="md:col-span-3 sm:col-span-1 col-span">
-
                     </div>
                     <div className="md:col-span-9 sm:col-span-11 col-span-12">
                         <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px] ">
                             <h3 className="text-[18px] md:text-[24px] font-bold  text-black leading-tight">SAP Consulting</h3>
-
                             <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 Leaning towards<span className="block"> a better tomorrow.</span>
                             </h2>
@@ -225,21 +216,17 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
-
             {/* leverage sap section */}
             <section className="w-full custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
                 <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
                     <div>
                         <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
                     </div>
-
                     <div className="w-full">
                         <p className="text-[16px] xl:text-[18px] 4xl:text-[20px]  font-normal leading-tight  xl:w-[90%] w-[96%]">What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.</p>
                     </div>
                 </div>
             </section>
-
             {/* our solutions to success section */}
             <section className="2xl:mt-[164px] xl:mt-[90px] mt-[64px] custom-container">
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-Light ">Our Solutions to Success</h2>
@@ -268,8 +255,6 @@ export default function Page() {
                     })}
                 </div>
             </section>
-
-
             {/* sap industry section */}
             <section className="mt-[84px]">
                 <div className="custom-container md:!pr-0">
@@ -279,14 +264,12 @@ export default function Page() {
                     <CarouselComponent />
                 </div>
             </section>
-
             {/* get inspired section */}
             <section className="bg-[#F5F5F5] lg:mt-32 mt-10 pb-20 pt-20">
                 <div className="custom-container md:!pr-0">
                     <FeaturedCarousel />
                 </div>
             </section>
-
             {/*life science section */}
             <section className='mt-[113px] relative'>
                 <div className='group overflow-hidden'>
@@ -298,12 +281,10 @@ export default function Page() {
                             width='100'
                             height='100'
                             className='w-full 3xl:!h-[500px] 2xl:!h-[500px] xl:!h-[500px] lg:!h-[380px] md:!h-[384px] sm:!h-[360px] !h-[480px] object-cover transition-transform duration-500 transform group-hover:scale-110 object-[35%_80%]'
-                            alt='Life Section'
-                            src='/images/services/rise-with-sap/header.webp'
-                        />
+                            alt='Life science image'
+                            src='/images/services/rise-with-sap/header.webp'/>
                     </div>
                 </div>
-
                 <div className="custom-container">
                     <div className='bg-[#1f5e91] absolute text-white w-[90%] max-w-[500px] pt-[52px] pb-[22px] px-[32px] top-[-10%] md:right-[40px] lg:right-[40px] xl:right-[40px] 2xl:right-[200px] left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0'>
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-light ">RISE with SAP</h2>
@@ -316,10 +297,8 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* Contact Form */}
-            <div
-                className="pb-20 custom-container text-black xl:mt-[125px] mt-[80px]">
+            <div className="pb-20 custom-container text-black xl:mt-[125px] mt-[80px]">
                 <ContactForm title={'Take the next step to operational excellence with us.'} className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]" />
             </div>
         </div>

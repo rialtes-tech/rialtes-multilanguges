@@ -1,10 +1,8 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
-
 export default function servicesFeaturedCarousel() {
   const slides = [
     {
@@ -33,7 +31,6 @@ export default function servicesFeaturedCarousel() {
         "A global medical technology company that develops and manufactures innovative products",
     },
   ];
-
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -53,7 +50,6 @@ export default function servicesFeaturedCarousel() {
       centerMode: true,
     },
   };
-
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const {
       carouselState: { currentSlide },
@@ -66,8 +62,7 @@ export default function servicesFeaturedCarousel() {
               ? "disable p-2 mr-4 group transition-all duration-300"
               : " p-2 mr-4 group transition-all duration-300"
           }
-          onClick={() => previous()}
-        >
+          onClick={() => previous()}>
           <svg
             width="24px"
             height="24px"
@@ -78,19 +73,16 @@ export default function servicesFeaturedCarousel() {
             strokeWidth="1"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="group-hover:stroke-[#C3C3C3]"
-          >
+            className="group-hover:stroke-[#C3C3C3]">
             <path
               d="M3 7.5L11 0V15L3 7.5Z"
               fill="none"
-              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"
-            />
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"/>
           </svg>
         </button>
         <button
           className=" p-2 group transition-all duration-300"
-          onClick={() => next()}
-        >
+          onClick={() => next()}>
           <svg
             width="24px"
             height="24px"
@@ -101,23 +93,18 @@ export default function servicesFeaturedCarousel() {
             strokeWidth="1"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="group-hover:stroke-[#C3C3C3]"
-          >
+            className="group-hover:stroke-[#C3C3C3]">
             <path
               d="M12 7.5L4 0V15L12 7.5Z"
               fill="none"
-              className="transition-all duration-300 group-hover:fill-[#C3C3C3]"
-            />
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3]"/>
           </svg>
         </button>
       </div>
     );
   };
-
   const CustomDot = ({ onClick, ...rest }) => {
     const {
-      onMove,
-      index,
       active,
       carouselState: { currentSlide, deviceType },
     } = rest;
@@ -126,11 +113,9 @@ export default function servicesFeaturedCarousel() {
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${
           active ? "bg-[#134874]" : "bg-[#D1D1D1]"
         }`}
-        onClick={() => onClick()}
-      />
+        onClick={() => onClick()}/>
     );
   };
-
   return (
     <section className="relative pb-10">
       <div>
@@ -152,7 +137,6 @@ export default function servicesFeaturedCarousel() {
               keyBoardControl={true}
               customTransition="all .5s"
               transitionDuration={500}
-              // containerClass="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
               dotListClass="custom-dot-list-style !justify-start flex-wrap"
               itemClass="carousel-item-padding-40-px mb-[30px]"
@@ -161,13 +145,11 @@ export default function servicesFeaturedCarousel() {
               renderButtonGroupOutside={true}
               customButtonGroup={<ButtonGroup />}
               renderDotsOutside={true}
-              customDot={<CustomDot />}
-            >
+              customDot={<CustomDot />}>
               {slides.map((slide) => (
                 <div
                   key={slide.id}
-                  className="flex h-full  md:flex-row flex-col basis-full xl:mr-12 md:mr-6 mr-0 group"
-                >
+                  className="flex h-full  md:flex-row flex-col basis-full xl:mr-12 md:mr-6 mr-0 group">
                   <div className="basis-full md:basis-2/3 lg:basis-4/3">
                     <Link href={slide.url}>
                       <Image
@@ -181,8 +163,7 @@ export default function servicesFeaturedCarousel() {
                           height: "100%",
                           objectFit: "cover",
                         }}
-                        priority
-                      />
+                        priority/>
                     </Link>
                   </div>
                   <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white md:basis-2/3 py-6 md:py-4 lg:py-10 md:px-10 lg:px-16 px-6">
@@ -194,8 +175,7 @@ export default function servicesFeaturedCarousel() {
                     <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
                     <Link
                       href={slide.url}
-                      className="font-medium text-[#0092E0] xl:text-[20px] text-[16px]"
-                    >
+                      className="font-medium text-[#0092E0] xl:text-[20px] text-[16px]">
                       Know More
                     </Link>
                   </div>
