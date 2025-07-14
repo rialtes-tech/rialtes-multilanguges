@@ -4,7 +4,7 @@ import Seo from "@/app/components/Seo";
 import LearnMore from "@/app/components/learnMore";
 import ContactForm from "@/app/components/contactform";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -139,6 +139,52 @@ const challenges = [
     ],
   },
 ];
+const thougthLeadershipData = [
+  "Omnichannel customer engagement powered by AI and real-time data.",
+  "End-to-end compliant and efficient financial operations.",
+  "Seamless integration between front office and core banking systems.",
+  "Intelligent, AI-driven decision-making for risk, lending, and customer personalization. ",
+]
+const salesforceData = [
+  "Customer onboarding, KYC, and AI-driven workflows.",
+  "Integrated service, marketing, and advisory processes.",
+  "Personalized experiences across retail, commercial, and wealth segments.",
+]
+const sapHanaData = [
+  "Integrated finance and risk management.",
+  "Real-time financial analytics and forecasting.",
+  "Payments, contract management, and regulatory compliance.",
+]
+const aiData = [
+  "Predictive credit and risk scoring.",
+  "AI-driven customer personalization and insights.",
+  "Fraud and compliance anomaly detection.",
+  "AI-powered service and onboarding automation.",
+]
+const exelonaData = [
+  "End-to-end asset and portfolio management.",
+  "Integrated leasing, marketing, and tenant engagement.",
+  "Revenue, expense, and performance optimization.",
+  "AI-driven risk and investment modeling.",
+]
+const agentchatData = [
+  "Instant customer onboarding and KYC verification via WhatsApp.",
+  "AI-enabled conversational banking and lending support.",
+  "Real-time alerts for fraud detection, transactions, and regulatory updates.",
+  "Seamless document and signature collection.",
+]
+const drivenData = [
+  "Unified client profile with data from SAP S/4 HANA and Salesforce FSC.",
+  "AI-powered analytics without moving data — secure and compliant.",
+  "Real-time insights for lending, wealth, and operations.",
+]
+const whyChooseData = [
+  "Comprehensive strategy to execution for Financial Services Cloud & SAP.",
+  "Proprietary tools like Exelona (Real Estate Cloud) and Agentchat (WhatsApp Integration).",
+  "Deep AI and Data Cloud integrations for predictive and real-time operations.",
+  "Unmatched understanding of compliance, risk, and customer experience.",
+  "Global footprint with local expertise to drive lasting transformation.",
+]
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
@@ -154,31 +200,30 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* hero section */}
       <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
             src="/images/Finance/finance.webp"
-            alt="Finance"
+            alt="Finance desktop banner"
             fill
             priority
             sizes="100vw"
             className="object-cover"
           />
         </div>
-
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
             src="/images/Finance/mobile/finance-mobile.webp"
-            alt="Finance"
+            alt="Finance mobile banner"
             fill
             priority
             sizes="100vw"
             className="object-cover"
           />
         </div>
-
         <div className="absolute inset-0 flex items-center">
           <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container  text-white xl:mt-0">
             <h1 className="text-[18px] md:text-[24px] font-bold  lg:w-auto leading-tight">
@@ -190,15 +235,15 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* page description */}
       <section className="custom-container xl:py-[97] py-[60px]">
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-[80%] 4xl:w-[76%]">
-         Accelerating Digital Transformation in Financial Services
+          Accelerating Digital Transformation in Financial Services
         </h2>
         <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
           Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions. With a global presence and deep industry expertise, we help financial institutions transform securely, stay compliant, and deliver exceptional customer experiences.
         </p>
       </section>
-
       {/* Thought Leadership section */}
       <section>
         <div className="relative pb-10 xl:pb-0 xl:mt-0">
@@ -206,7 +251,7 @@ export default function Page() {
           <div className="md:block hidden">
             <Image
               src="/images/Finance/thought-leadership.webp"
-              alt="thought-leadership page"
+              alt="thought-leadership image"
               width={0}
               height={0}
               className="h-full w-full"
@@ -214,12 +259,11 @@ export default function Page() {
               priority
             />
           </div>
-
           {/* Mobile Image */}
           <div className="md:hidden block relative w-full">
             <Image
               src="/images/Finance/mobile/thought-leadership-mobile.webp"
-              alt="thought-leadership page"
+              alt="thought-leadership image"
               width={0}
               height={0}
               className="h-full w-full"
@@ -246,24 +290,8 @@ export default function Page() {
                 institutions achieve:
               </p>
             </div>
-            <div className="lg:col-span-6 col-span-12 md:col-span-1    ">
-              <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[40px]">
-                <li>
-                  Omnichannel customer engagement powered by AI and real-time
-                  data.
-                </li>
-                <li>
-                  End-to-end compliant and efficient financial operations.
-                </li>
-                <li>
-                  Seamless integration between front office and core banking
-                  systems.
-                </li>
-                <li>
-                  Intelligent, AI-driven decision-making for risk, lending, and
-                  customer personalization.
-                </li>
-              </ul>
+            <div className="lg:col-span-6 col-span-12 md:col-span-1">
+              <UnorderedList arrName={thougthLeadershipData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[40px]" liClassName="" />
               <div className=" absolute bottom-0">
                 <LearnMore />
               </div>
@@ -271,14 +299,12 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* Critical Challenges Facing Commercial and Retail section */}
       <section className="custom-container relative grid grid-cols-12 gap-5 xl:pt-[89px] pt-[73px]">
         <div className="4xl:col-span-10 2xl:col-span-8 xl:col-span-9 col-span-12">
           <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] md:text-[26px]">
             Top 4 Critical Challenges Facing Commercial and Retail Banking Today
           </h2>
-
           <div className="grid md:grid-cols-2 xl:grid-cols-2 xl:gap-14 gap-20 mb-20 mt-20 grid-cols-1 items-stretch">
             {challenges.map((item, i) => (
               <div key={i} className="relative h-full">
@@ -288,16 +314,10 @@ export default function Page() {
                       {item.number}
                     </p>
                   </div>
-
                   <p className="mt-3 4xl:text-[40px] xl:text-[30px] text-[22px] leading-tight font-bold text-[#006FBE]">
                     {item.title}
                   </p>
-
-                  <ul className="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[7px] my-6">
-                    {item.points.map((point, index) => (
-                      <li key={index}>{point}</li>
-                    ))}
-                  </ul>
+                  <UnorderedList arrName={item.points} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[7px] my-6" liClassName="" />
                 </div>
               </div>
             ))}
@@ -309,14 +329,10 @@ export default function Page() {
         <div className="custom-container !pr-0 max-md:px-0 ">
           <div className="relative max-md:pl-[36px]">
             <div className="absolute z-20 mt-[-36px] md:mt-[-40px] xl:mt-[-50px]"></div>
-            <div
-              className="custom-container md:!pl-0 xl:pt-[88px] pt-[58px] "
-              style={{ backgroundColor: "#EFEFEF" }}
-            >
-              <div
-                className="absolute top-0 left-0 md:left-[-20px] xl:left-[-40px] 4xl:left-[-100px] h-full md:w-[20px] xl:w-[40px] 4xl:w-[100px] z-0 "
-                style={{ backgroundColor: "#EFEFEF" }}
-              ></div>
+            <div className="custom-container md:!pl-0 xl:pt-[88px] pt-[58px] "
+              style={{ backgroundColor: "#EFEFEF" }}>
+              <div className="absolute top-0 left-0 md:left-[-20px] xl:left-[-40px] 4xl:left-[-100px] h-full md:w-[20px] xl:w-[40px] 4xl:w-[100px] z-0 "
+                style={{ backgroundColor: "#EFEFEF" }}></div>
               <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] md:text-[26px] md:w-[65%] w-full">
                 Deep Expertise in Salesforce FSC & SAP S/4 HANA
               </h2>
@@ -348,17 +364,7 @@ export default function Page() {
                     tailored FSC solutions to meet modern banking, lending, and
                     wealth management needs:
                   </p>
-
-                  <ul className=" list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4">
-                    <li> Customer onboarding, KYC, and AI-driven workflows.</li>
-                    <li>
-                      Integrated service, marketing, and advisory processes.
-                    </li>
-                    <li>
-                      Personalized experiences across retail, commercial, and
-                      wealth segments.
-                    </li>
-                  </ul>
+                  <UnorderedList arrName={salesforceData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
                   <LearnMore />
                 </div>
                 <div className="md:col-span-6 col-span-12 xl:mt-[100px] mt-0">
@@ -384,14 +390,7 @@ export default function Page() {
                     We extend Salesforce FSC capabilities with SAP S/4 HANA core
                     banking and finance solutions:
                   </p>
-
-                  <ul className=" list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4">
-                    <li> Integrated finance and risk management.</li>
-                    <li>Real-time financial analytics and forecasting.</li>
-                    <li>
-                      Payments, contract management, and regulatory compliance.
-                    </li>
-                  </ul>
+                  <UnorderedList arrName={sapHanaData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
                   <LearnMore />
                 </div>
               </div>
@@ -407,9 +406,9 @@ export default function Page() {
         </div>
       </section>
       {/* AI: Revolutionizing the Future of Finance section */}
-      <section className="custom-container  pt-[105px] pb-[50px]">
-        <div className=" ">
-          <div>
+      <section className="custom-container pt-[105px] pb-[50px]">
+        <div>
+          <>
             {/* Mobile Image */}
             <Image
               src="/images/Finance/Mobile/revolutionizing-mobile.webp"
@@ -419,7 +418,6 @@ export default function Page() {
               width={0}
               height={0}
             />
-
             {/* Desktop Image */}
             <Image
               src="/images/Finance/revolutionizing-web.webp"
@@ -429,7 +427,7 @@ export default function Page() {
               width={0}
               height={0}
             />
-          </div>
+          </>
         </div>
         <div className="grid  md:grid-cols-12 xl:gap-14 gap-1">
           <div className=" md:col-span-6 mt-9 sm:mr-0 md:mr-[60px] 2xl:mr-[5px]">
@@ -443,12 +441,7 @@ export default function Page() {
             </p>
           </div>
           <div className="md:col-span-6 xl:my-9 my-5 ">
-            <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight">
-              <li>Predictive credit and risk scoring.</li>
-              <li>AI-driven customer personalization and insights.</li>
-              <li>Fraud and compliance anomaly detection.</li>
-              <li>AI-powered service and onboarding automation.</li>
-            </ul>
+            <UnorderedList arrName={aiData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
             <LearnMore />
           </div>
         </div>
@@ -458,7 +451,6 @@ export default function Page() {
       </section>
       {/* Exelona section */}
       <section className="relative py-7">
-        {/* Background Images */}
         <div className="h-full w-full relative z-0">
           {/* Desktop */}
           <div className=" hidden md:block h-full w-full md:h-[900px] lg:h-[800px] 3xl:h-full">
@@ -472,7 +464,6 @@ export default function Page() {
               className="z-0 h-full w-full"
             />
           </div>
-
           {/* Mobile */}
           <div className="block md:hidden">
             <Image
@@ -486,11 +477,9 @@ export default function Page() {
             />
           </div>
         </div>
-
         <div className="md:absolute w-full top-[27px] text-white z-10">
           <div className="grid grid-cols-12 gap-2 custom-container max-md:px-0">
             <div className="md:col-span-6 col-span-12 pt-10 hidden md:block"></div>
-
             <div className="md:col-span-6 col-span-12 h-full relative overflow-hidden">
               {/* Blend layer  */}
               <div className="hidden md:block absolute inset-0 z-0">
@@ -503,7 +492,6 @@ export default function Page() {
                 />
                 <div className="absolute inset-0 bg-[#606060] mix-blend-multiply" />
               </div>
-
               <div className="relative z-10 lg:px-[54px] lg:pt-[70px] px-[36px] pt-[40px] max-md:bg-[#606060]">
                 <h2 className="mb-4 leading-tight 2xl:text-[50px] xl:text-[40px] md:text-[26px]">
                   Exelona
@@ -516,20 +504,7 @@ export default function Page() {
                   integrated with Salesforce FSC, transforms how real estate
                   firms manage financial assets and operations:
                 </p>
-                <ul className="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4">
-                  <li className="pb-1">
-                    End-to-end asset and portfolio management.
-                  </li>
-                  <li className="pb-1">
-                    Integrated leasing, marketing, and tenant engagement.
-                  </li>
-                  <li className="pb-1">
-                    Revenue, expense, and performance optimization.
-                  </li>
-                  <li className="pb-1">
-                    AI-driven risk and investment modeling.
-                  </li>
-                </ul>
+                <UnorderedList arrName={exelonaData} ulClassName="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4" liClassName="pb-1" />
                 {/* Desktop  */}
                 <p className="4xl:text-[26px] xl:text-[22px] text-[18px]  bg-[#006FBE] p-[24px] text-white leading-tight block md:hidden">
                   Exelona + FSC: A game-changing combination for Real Estate
@@ -537,7 +512,6 @@ export default function Page() {
                 </p>
               </div>
               {/* Mobile */}
-
               <p className="4xl:text-[26px] xl:text-[22px] text-[18px] max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative mt-[25px] ">
                 Exelona + FSC: A game-changing combination for Real Estate
                 Finance and Operations.
@@ -549,143 +523,111 @@ export default function Page() {
           <LearnMore />
         </div>
       </section>
-
       {/* AgentChat section */}
-      <section className="md:pt-14 pt-20 ">
-        <section className="custom-container xl:pr-0 max-md:px-0">
-          <div className=" ">
-            <div>
-              {/* Mobile Image */}
-              <Image
-                src="/images/Finance/Mobile/agentchat-mobile.webp"
-                alt="AgentChat"
-                className="w-full h-full block md:hidden"
-                priority
-                width={0}
-                height={0}
-              />
-              {/* Desktop Image */}
-              <Image
-                src="/images/Finance/agentchat-web.webp"
-                alt="AgentChat"
-                className="w-full h-full hidden md:block"
-                priority
-                width={0}
-                height={0}
-              />
-            </div>
-          </div>
-          <div className="">
-            <div className="relative lg:w-[90%] md:w-full h-full bg-[#184671] text-white  md:p-[67px] max-md:p-[37px]">
-              <div className="grid  md:grid-cols-12 xl:gap-14 gap-1">
-                <div className=" md:col-span-6  sm:mr-0 md:mr-[60px]">
-                  <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4 font-light">
-                    AgentChat
-                  </h2>
-                  <h3 className="leading-tight 4xl:text-[38px] xl:text-[30px] font-semibold text-[20px] pb-4">
-                    Real-Time WhatsApp Integration for Financial Services Cloud
-                  </h3>
-                  <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 leading-tight">
-                    AgentChat, developed by Rialtes, brings real-time WhatsApp
-                    communication inside Salesforce FSC — fully secure and
-                    compliant:
-                  </p>
-                </div>
-
-                <div className="md:col-span-6 xl:my-9 my-7 ">
-                  <h3 className="leading-tight 4xl:text-[28px] xl:text-[20px] font-semibold text-[16px] pb-4">
-                    Real-Time WhatsApp Integration for Financial Services Cloud
-                  </h3>
-
-                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight ">
-                    <li>
-                      Instant customer onboarding and KYC verification via
-                      WhatsApp.
-                    </li>
-                    <li>
-                      AI-enabled conversational banking and lending support.
-                    </li>
-                    <li>
-                      Real-time alerts for fraud detection, transactions, and
-                      regulatory updates.
-                    </li>
-                    <li> Seamless document and signature collection.</li>
-                  </ul>
-                  <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 max-md:mb-7 lg:mb-0 leading-tight">
-                    Included as part of Rialtes’ Financial Services solutions —
-                    enabling real-time, modern client engagement.
-                  </p>
-                  <div className="absolute bottom-0 ">
-                    <LearnMore bgcolor={"#006FBE"} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="pt-[61px] xl:pt-[163px] custom-container xl:pr-0 max-md:px-0">
-          <h2 className="leading-tight xl:w-[65%] 2xl:w-[58%] 4xl:w-[70%] 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4 font-light hidden xl:block  ">
-            Data-Driven Insights with Salesforce and SAP Data Clouds
-          </h2>
-          <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center ">
-            <div className="order-1 xl:order-2 w-full h-full xl:col-span-7 ">
-              <Image
-                src="/images/Finance/zero-copy-architecture-web.webp"
-                alt="Data-Driven-Insights-img"
-                width={0}
-                height={0}
-                className="w-full hidden md:block h-full"
-                style={{ objectPosition: "75% 20%" }}
-              />
-              <Image
-                src="/images/Finance/Mobile/zero-copy-architecture-mobile.webp"
-                alt="Data-Driven-Insights-img"
-                width={0}
-                height={0}
-                className="w-full block md:hidden h-auto"
-              />
-            </div>
-            <div className="order-2 xl:order-1  xl:col-span-5 max-md:px-[37px] ">
-              <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4 font-light  xl:hidden block ">
-                Data-Driven Insights with Salesforce and SAP Data Clouds
+      <section className="custom-container xl:pr-0 max-md:px-0 md:pt-14 pt-20">
+        <div>
+          <>
+            {/* Mobile Image */}
+            <Image
+              src="/images/Finance/Mobile/agentchat-mobile.webp"
+              alt="AgentChat"
+              className="w-full h-full block md:hidden"
+              priority
+              width={0}
+              height={0}
+            />
+            {/* Desktop Image */}
+            <Image
+              src="/images/Finance/agentchat-web.webp"
+              alt="AgentChat"
+              className="w-full h-full hidden md:block"
+              priority
+              width={0}
+              height={0}
+            />
+          </>
+        </div>
+        <div className="relative lg:w-[90%] md:w-full h-full bg-[#184671] text-white  md:p-[67px] max-md:p-[37px]">
+          <div className="grid  md:grid-cols-12 xl:gap-14 gap-1">
+            <div className=" md:col-span-6  sm:mr-0 md:mr-[60px]">
+              <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4 font-light">
+                AgentChat
               </h2>
-
-              <h3 className="leading-tight 4xl:text-[28px] xl:text-[20px] font-semibold text-[16px] pb-4">
-                Zero Copy Architecture
+              <h3 className="leading-tight 4xl:text-[38px] xl:text-[30px] font-semibold text-[20px] pb-4">
+                Real-Time WhatsApp Integration for Financial Services Cloud
               </h3>
-              <p className="leading-tight  font-normal text-[16px] xl:text-[18px] 4xl:text-[20px]  ">
-                Rialtes enables real-time, AI-ready data across Salesforce and
-                SAP environments using Data Cloud and Zero Copy architecture:
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 leading-tight">
+                AgentChat, developed by Rialtes, brings real-time WhatsApp
+                communication inside Salesforce FSC — fully secure and
+                compliant:
               </p>
-              <div>
-                <ul className="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px]  leading-tight">
-                  <li className="pb-2">
-                    Unified client profile with data from SAP S/4 HANA and
-                    Salesforce FSC.
-                  </li>
-                  <li className="pb-2">
-                    AI-powered analytics without moving data — secure and
-                    compliant.
-                  </li>
-                  <li>
-                    Real-time insights for lending, wealth, and operations.
-                  </li>
-                </ul>
-                <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[60px] mt-[26px] w-fit bg-[#0E3157] p-[24px] text-white leading-tight xl:w-[80%]">
-                  Single source of truth — actionable, secure, and AI-ready.
-                </p>
-
-                <div className="lg:mt-[45px]">
-                  <LearnMore bgcolor={"#006FBE"} />
-                </div>
+            </div>
+            <div className="md:col-span-6 xl:my-9 my-7 ">
+              <h3 className="leading-tight 4xl:text-[28px] xl:text-[20px] font-semibold text-[16px] pb-4">
+                Real-Time WhatsApp Integration for Financial Services Cloud
+              </h3>
+              <UnorderedList arrName={agentchatData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 max-md:mb-7 lg:mb-0 leading-tight">
+                Included as part of Rialtes’ Financial Services solutions —
+                enabling real-time, modern client engagement.
+              </p>
+              <div className="absolute bottom-0 ">
+                <LearnMore bgcolor={"#006FBE"} />
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+      {/* data driven section */}
+      <section className="pt-[61px] xl:pt-[163px] custom-container xl:pr-0 max-md:px-0">
+        <h2 className="leading-tight xl:w-[65%] 2xl:w-[58%] 4xl:w-[70%] 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4 font-light hidden xl:block  ">
+          Data-Driven Insights with Salesforce and SAP Data Clouds
+        </h2>
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center ">
+          <div className="order-1 xl:order-2 w-full h-full xl:col-span-7 ">
+            <Image
+              src="/images/Finance/zero-copy-architecture-web.webp"
+              alt="Data-Driven-Insights-img"
+              width={0}
+              height={0}
+              className="w-full hidden md:block h-full"
+              style={{ objectPosition: "75% 20%" }}
+            />
+            <Image
+              src="/images/Finance/Mobile/zero-copy-architecture-mobile.webp"
+              alt="Data-Driven-Insights-img"
+              width={0}
+              height={0}
+              className="w-full block md:hidden h-auto"
+            />
+          </div>
+          <div className="order-2 xl:order-1 xl:col-span-5 max-md:px-[37px] ">
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4 font-light  xl:hidden block ">
+              Data-Driven Insights with Salesforce and SAP Data Clouds
+            </h2>
+
+            <h3 className="leading-tight 4xl:text-[28px] xl:text-[20px] font-semibold text-[16px] pb-4">
+              Zero Copy Architecture
+            </h3>
+            <p className="leading-tight  font-normal text-[16px] xl:text-[18px] 4xl:text-[20px]  ">
+              Rialtes enables real-time, AI-ready data across Salesforce and
+              SAP environments using Data Cloud and Zero Copy architecture:
+            </p>
+            <div>
+              <UnorderedList arrName={drivenData} ulClassName="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="pb-2" />
+              <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[60px] mt-[26px] w-fit bg-[#0E3157] p-[24px] text-white leading-tight xl:w-[80%]">
+                Single source of truth — actionable, secure, and AI-ready.
+              </p>
+              <div className="lg:mt-[45px]">
+                <LearnMore bgcolor={"#006FBE"} />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       {/* Unmatched Salesforce + SAP Competency section */}
       <section className="md:pt-[105] pt-[52px]">
-        <div className="bg-[#E6F7FF]  custom-container">
+        <div className="bg-[#E6F7FF] custom-container">
           <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]  md:pt-[84px] pt-[50px] leading-tight">
             Unmatched Salesforce + SAP Competency
           </h2>
@@ -698,7 +640,7 @@ export default function Page() {
           </p>
           <div>
             <div className="mx-auto ">
-              <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-[80px] gap-10">
+              <div className="flex flex-col xl:flex-row mb-8 mt-16 xl:gap-[80px] gap-10">
                 <div className="grid flex-start items-center">
                   <Image
                     src="/images/Finance/Certified-experts.svg"
@@ -780,7 +722,7 @@ export default function Page() {
         </div>
       </section>
       {/* Why Choose Rialtes for Financial Industry Solutions? section */}
-      <section className=" xl:mt-0 mt-[58px] custom-container max-lg:px-0 xl:!pr-0 ">
+      <section className="xl:mt-0 mt-[58px] custom-container max-lg:px-0 xl:!pr-0">
         <div className="grid grid-cols-1 xl:grid-cols-[6fr_6fr]">
           <div className="block md:hidden w-full h-auto">
             <Image
@@ -810,29 +752,7 @@ export default function Page() {
               <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 4xl:w-[90%] 3xl:w-[75%] xl:w-[90%]">
                 Why Choose Rialtes for Financial Industry Solutions?{" "}
               </h2>
-
-              <ul className="list-disc pl-[22px] w-[90%] xl:mt-[48px] mt-[34px] 4xl:space-y-[24px] space-y-[19px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight">
-                <li>
-                  Comprehensive strategy to execution for Financial Services
-                  Cloud & SAP.
-                </li>
-                <li>
-                  Proprietary tools like Exelona (Real Estate Cloud) and
-                  Agentchat (WhatsApp Integration).
-                </li>
-                <li>
-                  Deep AI and Data Cloud integrations for predictive and
-                  real-time operations.
-                </li>
-                <li>
-                  Unmatched understanding of compliance, risk, and customer
-                  experience.
-                </li>
-                <li>
-                  Global footprint with local expertise to drive lasting
-                  transformation.
-                </li>
-              </ul>
+              <UnorderedList arrName={whyChooseData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[48px] mt-[34px] 4xl:space-y-[24px] space-y-[19px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight" liClassName="" />
               <div className="absolute bottom-0">
                 <LearnMore />
               </div>
@@ -840,13 +760,10 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <div className="mx-[35px]  custom-container text-black py-16">
-        <ContactForm
-          className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 2xl:w-[50%] 4xl:w-[70%]"
+      <div className="mx-[35px] custom-container text-black py-16">
+        <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 2xl:w-[50%] 4xl:w-[70%]"
           title="Ready to Transform Your Financial Services Experience?"
-          subtitle="
-            Partner with Rialtes — where innovation meets industry expertise to shape the future of finance. Contact us today to begin your RialFinance+ journey!
-            "
+          subtitle="Partner with Rialtes — where innovation meets industry expertise to shape the future of finance. Contact us today to begin your RialFinance+ journey!"
           subtitle1=" Contact us today to begin your RialFinance+ journey!"
         />
       </div>
