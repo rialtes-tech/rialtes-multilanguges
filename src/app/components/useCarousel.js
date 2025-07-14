@@ -41,7 +41,10 @@ export default function servicesInsightsCarousel() {
         <button
           className="bg-white p-2 mr-2 group transition-all duration-300"
           onClick={() => previous()}
+          aria-label="Previous slide"
         >
+           <span className="sr-only">Previous slide</span>
+
           <svg
             width="24px"
             height="24px"
@@ -64,7 +67,10 @@ export default function servicesInsightsCarousel() {
         <button
           className="bg-white p-2 group transition-all duration-300"
           onClick={() => next()}
+          aria-label="Next slide"
         >
+           <span className="sr-only">Next slide</span>
+
           <svg
             width="24px"
             height="24px"
@@ -96,10 +102,15 @@ export default function servicesInsightsCarousel() {
       carouselState: { currentSlide, deviceType }
     } = rest;
     return (
-      <button
-        className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-      />
+       <li>
+        <span
+         role="button"
+          className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+
+        />
+        </li>
     );
   };
 

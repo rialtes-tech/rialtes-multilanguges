@@ -333,7 +333,7 @@ export default function page() {
             {/* page description section */}
             <section className="custom-container xl:mt-[119px] mt-[44px]">
                 <div className="">
-                    <h2 className="2xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] md:w-[90%] lg:w-[60%] xl:w-[66%] 2xl:w-[90%] 4xl:w-[80%]">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] md:w-[90%] lg:w-[60%] xl:w-[66%] 2xl:w-[60%] 4xl:w-[80%]">
                         Driving Compliance & Innovation in Life Sciences & Healthcare through SAP, Salesforce & AI.
                     </h2>
                     <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight mt-[19px] xl:mt-[49px] w-[90%] sm:w-[80%] lg:w-[60%] xl:w-[70%]">
@@ -370,7 +370,7 @@ export default function page() {
                 </p>
             </section>
             {/* why rialtes */}
-            <section className="custom-container relative max-[450px]:h-[1180px] max-[409px]:h-[1400px] h-[1150px] sm:h-[1100px] md:h-[890px] lg:h-[780px] xl:h-[950px] 2xl:h-[1100px] 3xl:h-[950px] 4xl:h-[1100px] max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px] text-white">
+            <section className="custom-container relative max-[450px]:h-[1180px] max-[409px]:h-[1250px] max-[375px]:h-[1350] max-[345px]:h-[1390] h-[1150px] sm:h-[1100px] md:h-[890px] lg:h-[780px] xl:h-[950px] 2xl:h-[1100px] 3xl:h-[950px] 4xl:h-[1100px] max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px] text-white">
                 <div className="relative max-md:px-[36px] md:pl-[61px] lg:pt-[76px] pt-[38px] h-full">
                     <div className="absolute inset-0 -z-10">
                         {/* Desktop Image */}
@@ -395,7 +395,7 @@ export default function page() {
                         </div>
                     </div>
 
-                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[85%] md:w-[50%] lg:w-[40%] xl:w-[48%] 2xl:w-[52%] 4xl:w-[47%]">
+                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[85%] md:w-[50%] lg:w-[40%] xl:w-[48%] 2xl:w-[56%] 4xl:w-[47%]">
                         Why Rialtes is Your Strategic Partner in Life Sciences Digital Transformation
                     </h2>
 
@@ -536,8 +536,8 @@ export default function page() {
                                         <div className="mt-[22px] xl:mt-[59px]">
                                             <LearnMore />
                                         </div>
-                                        <div className="absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
-                                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
+                                        <div className="absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px] max-[320px]:pb-[15px] ">
+                                            <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight sm:w-full font-normal">
                                                 {data.blueCard}
                                             </p>
                                         </div>
@@ -616,7 +616,7 @@ export default function page() {
                 }
             </section>
             {/* seamless section */}
-            <section className="bg-[#EAEAEA] relative z-0 xl:pt-[145px] lg:pt-[115px] lg:pb-[42px] md:pb-[120px] xl:pb-[52px] pt-[56px] pb-[172px] 4xl:pr-[162px] lg:pr-[62px] max-lg:px-[36px] max-lg:mt-[100px] max-[450px]:mt-[130px]">
+            <section className="bg-[#EAEAEA] relative z-0 xl:pt-[145px] lg:pt-[115px] lg:pb-[42px] md:pb-[120px] xl:pb-[52px] pt-[56px] pb-[172px] 4xl:pr-[162px] lg:pr-[62px] max-lg:px-[36px] max-lg:mt-[100px] max-[450px]:mt-[130px] ">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-[35px] lg:gap-[40px] xl:gap-[60px] 4xl:gap-[80px]">
                     <div>
                         <div className="w-full h-full lg:block hidden">

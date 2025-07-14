@@ -5,6 +5,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import React from "react";
 export default function Page() {
     const schemaData =
     {
@@ -298,7 +299,7 @@ export default function Page() {
                 </div>
             </section>
             {/* page description section */}
-            <div div className="custom-container xl:mt-[124px] mt-[33px]">
+            <div className="custom-container xl:mt-[124px] mt-[33px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[40px] gap-y-[28px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
                         <h2 className="4xl:text-[60px] xl:text-[45px] text-[26px] leading-tight md:w-[80%] xl:w-full">
@@ -325,8 +326,8 @@ export default function Page() {
                     addressingData.map((data, ind) => {
                         const isEven = ind % 2 === 0;
                         const content = [
-                            <>
-                                <div className={`lg:col-span-4 col-span-12 ${!isEven && "lg:order-2 order-1"}`} key="image">
+                            <React.Fragment key="image">
+                                <div className={`lg:col-span-4 col-span-12 ${!isEven && "lg:order-2 order-1"}`}>
                                     <div className="h-full w-full">
                                         <Image src={data.mobImg} alt="mobile" className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
                                         <Image src={data.deskImg} alt="desktop" className="hidden md:block w-full h-full object-cover" width={0} height={0} priority />
@@ -337,7 +338,7 @@ export default function Page() {
                                     <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[39px] mt-[19px] w-[90%] lg:w-[94%]">{data.desc}</p>
                                     <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore /></div>
                                 </div>
-                            </>
+                            </React.Fragment>
                         ];
                         return (
                             <div className="xl:mt-[71px] mt-[70px]" key={ind}>
@@ -371,8 +372,8 @@ export default function Page() {
             <section className="custom-container xl:mt-[119px] mt-[85px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 gap-y-[29px] xl:gap-[60px]">
                     <div className="xl:col-span-7 col-span-12">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
-                            How AI is Revolutionizing <br /> Home Health
+                        <h2 className="4xl:text-[55px] xl:text-[40px] text-[26px] leading-tight">
+                            How AI is Revolutionizing Home Health
                         </h2>
                     </div>
                     <div className="xl:col-span-5 col-span-12">
