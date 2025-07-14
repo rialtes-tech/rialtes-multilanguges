@@ -69,7 +69,7 @@ const ServicesCard = ({ services }) => (
 );
 const Services = () => {
   return (
-    <div className="custom-container mx-auto text-black md:mt-10 xl:mt-[120px]">
+    <div className="custom-container mx-auto text-black mt-14 md:mt-20 xl:mt-[120px]">
       <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%] ">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
       <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
@@ -217,8 +217,8 @@ const schemaData = {
   },
   "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care"
 }
-const GrowServicesCard = ({ services }) => (
-  <div className="flex flex-col h-full">
+const GrowServicesCard = ({ services, className = '' }) => (
+  <div className={`flex flex-col h-full ${className}`}>
     <div className="relative overflow-hidden">
       <Image
         className="w-full transition-transform duration-300 hover:scale-105"
@@ -231,11 +231,11 @@ const GrowServicesCard = ({ services }) => (
         priority
       />
     </div>
-    <div className="flex flex-col pt-4 flex-grow">
+    <div className="flex flex-col pt-4 flex-grow 3xl:pr-[80px] xl:pr-[50px]">
       <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
         {services.title}
       </h3>
-      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+      <p className="text-[16px] xl:text-[18px]  4xl:text-[20px] leading-tight">
         {services.description}
       </p>
       <UnorderedList arrName={services?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
@@ -248,12 +248,12 @@ const GrowServicesCard = ({ services }) => (
 );
 const GrowServices = () => {
   return (
-    <div className="text-black xl:pt-[50px]  ">
+    <div className="text-black xl:pt-[50px]   ">
       <h2 className="pb-10 text-black leading-tight xl:w-[60%] 2xl:w-[52%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Pioneering Medical & Patient Care IT Solutions</h2>
       <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20">
-        {growLatestServices.map((services) => (
-          <GrowServicesCard key={services.id} services={services} />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20  ">
+        {growLatestServices.map((services, index) => (
+          <GrowServicesCard key={services.id} services={services}  className={`${index % 2 === 0 ? 'xl:mr-7' : 'xl:ml-7'}`}  />
         ))}
       </div>
 
@@ -296,6 +296,8 @@ export default function Page() {
           <Image
             src="/images/healthcare/Healthcare-mobile.webp"
             alt="mobile banner"
+                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+
             fill
             priority
           />
@@ -315,8 +317,8 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section  className="custom-container">
-        <div className="py-5 bg-white">
+      <section  className=" mt-[70px] custom-container">
+        <div className="pb-5 bg-white">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
               <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] xl:mr-4 xl:mb-0 ">

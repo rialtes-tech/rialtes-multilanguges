@@ -594,7 +594,7 @@ export default function Page() {
       </section>
       {/* semiconductor foundry section */}
       <section className="custom-container max-md:mt-[75px]">
-        <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[68px]">
+        <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[63px]">
           <div className="md:col-span-6 col-span-12 lg:pt-[178px] md:pt-[80px] pt-[33px] md:order-1 order-2">
             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[52px]">
               Semiconductor Foundry and Outsourced Operations Support
@@ -809,7 +809,7 @@ export default function Page() {
             <h3 className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight md:mt-[63px]  xl:mt-[43px]  mt-0 font-semibold w-[90%] md:w-full">
               Key Areas Where AI Is Transforming Semiconductor Industry:
             </h3>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-y-[40px] md:gap-x-[60px] lg:gap-x-0 md:gap-y-[101px] md:mt-[71px] mt-[0px]">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-y-[40px] md:gap-x-[60px] lg:gap-x-0  md:gap-y-[101px] md:mt-[71px] mt-[0px]">
               {
                 keyAreasData.map((data, ind) => {
                   return (
