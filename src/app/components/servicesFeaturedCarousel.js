@@ -62,7 +62,9 @@ export default function servicesFeaturedCarousel() {
               ? "disable p-2 mr-4 group transition-all duration-300"
               : " p-2 mr-4 group transition-all duration-300"
           }
-          onClick={() => previous()}>
+          onClick={() => previous()}
+          aria-label="Previous slide"
+        >
           <svg
             width="24px"
             height="24px"
@@ -77,12 +79,14 @@ export default function servicesFeaturedCarousel() {
             <path
               d="M3 7.5L11 0V15L3 7.5Z"
               fill="none"
-              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"/>
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
         <button
           className=" p-2 group transition-all duration-300"
-          onClick={() => next()}>
+          onClick={() => next()}
+          aria-label="Next slide"
+        >
           <svg
             width="24px"
             height="24px"
@@ -97,7 +101,7 @@ export default function servicesFeaturedCarousel() {
             <path
               d="M12 7.5L4 0V15L12 7.5Z"
               fill="none"
-              className="transition-all duration-300 group-hover:fill-[#C3C3C3]"/>
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
           </svg>
         </button>
       </div>
@@ -109,11 +113,16 @@ export default function servicesFeaturedCarousel() {
       carouselState: { currentSlide, deviceType },
     } = rest;
     return (
-      <button
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${
-          active ? "bg-[#134874]" : "bg-[#D1D1D1]"
-        }`}
-        onClick={() => onClick()}/>
+      <li>
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"
+            }`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+
+        />
+      </li>
     );
   };
   return (
@@ -151,7 +160,7 @@ export default function servicesFeaturedCarousel() {
                   key={slide.id}
                   className="flex h-full  md:flex-row flex-col basis-full xl:mr-12 md:mr-6 mr-0 group">
                   <div className="basis-full md:basis-2/3 lg:basis-4/3">
-                    <Link href={slide.url}>
+                    <Link href={slide.url} tabIndex={-1}>
                       <Image
                         src={slide.imgSrc}
                         alt={slide.title}
@@ -163,19 +172,20 @@ export default function servicesFeaturedCarousel() {
                           height: "100%",
                           objectFit: "cover",
                         }}
-                        priority/>
+                        priority />
                     </Link>
                   </div>
                   <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white md:basis-2/3 py-6 md:py-4 lg:py-10 md:px-10 lg:px-16 px-6">
-                    <Link href={slide.url}>
+                    <Link href={slide.url} tabIndex={-1}>
                       <h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] h3-bold 4xl:text-[30px] xl:text-[24px] text-[20px]">
                         {slide.title}
                       </h3>
                     </Link>
-                    <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
-                    <Link
+                    <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight">{slide.description}</p>
+                    <Link tabIndex={-1}
                       href={slide.url}
-                      className="font-medium text-[#0092E0] xl:text-[20px] text-[16px]">
+                      className="font-medium text-[#0092E0] xl:text-[24px] text-[16px]"
+                    >
                       Know More
                     </Link>
                   </div>

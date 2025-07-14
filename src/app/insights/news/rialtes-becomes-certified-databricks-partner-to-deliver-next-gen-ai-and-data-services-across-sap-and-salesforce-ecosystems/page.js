@@ -77,6 +77,8 @@ export default function Page() {
 
 
                 </section>
+                                    <h1 className="mt-10 leading-tight">Rialtes Levels Up AI Game with Databricks Partnership to Power Unified AI Across SAP and Salesforce</h1>
+
                 <div className="pt-10 pb-24 bg-white">
                     <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">

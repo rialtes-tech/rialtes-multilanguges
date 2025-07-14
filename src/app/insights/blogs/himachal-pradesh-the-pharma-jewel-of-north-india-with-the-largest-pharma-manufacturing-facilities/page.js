@@ -6,7 +6,7 @@ import Script from "next/script";
 import Link from "next/link";
 const schemaData =
 {
- 
+
 }
 
 const blogs = [
@@ -145,17 +145,17 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Himachal Pradesh: The Pharma Jewel of North India"
-                description="Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities"
+                title="The Rise of Himachal in India’s Pharma Industry | Rialtes"
+                description="Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units."
                 canonical={"https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"}
             />
-          
-               <Script
-        id="schema-himachal"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+
+            <Script
+                id="schema-himachal"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                 <Image
@@ -252,15 +252,15 @@ export default function Page() {
                             <p className="text-black pb-4">India’s rise as a pharmaceutical powerhouse on the global stage is remarkable. Today, it supplies 20% of all global generic drug exports, 40% of the United States' generic demand, and 25% of all medicines used in the United Kingdom.Behind this pharmaceutical dominance lies a network of innovation, production, and manufacturing, and one of its brightest stars in North India is Himachal Pradesh. </p>
 
                             <p className="text-black pb-6">It has long been a significant contributor to tourism and economic development in India. The state is known for its investor-friendly environment and is emerging as a preferred investment destination in Northern India due to its supportive policies, strong industrial infrastructure, and high Ease of Doing Business ranking.</p>
-                             <Image
+                            <Image
                                 src="/images/blog/infographic.png"
                                 alt="India's impact on the global pharmaceutical industry"
                                 width={0}
                                 height={0}
                                 className="w-full h-full  relative "
                             />
-                            
-                         <div className="py-6 xl:py-0"></div>
+
+                            <div className="py-6 xl:py-0"></div>
 
                             <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">A Northern Powerhouse in Pharmaceutical Manufacturing </h2>
 
@@ -333,8 +333,8 @@ export default function Page() {
                             <p className="text-black pb-4 ">According to the Indian State Industries Minister, Himachal Pradesh now fulfills 35% of Asia’s current pharmaceutical product demand. This is a testament to both the sheer scale and efficiency of the manufacturing capabilities in the state. Despite its mountainous terrain, Himachal Pradesh has managed to develop robust infrastructure and industrial zones to support pharmaceutical and non-pharmaceutical production.  </p>
 
                             <p className="text-black">The concentration of manufacturing expertise and government support positions the state as a launchpad for global pharmaceutical exports and innovation. Rialtes Technologies aims to support local manufacturers with cutting-edge digital solutions, aligning with India’s vision of becoming a global manufacturing hub.  We have opened a new sales office in Baddi, Himachal Pradesh, as part of our expansion strategy. Reach out to us  at  <Link className="underline" href={"mailto:sales@rialtes.com"}>
-                  <span>sales@rialtes.com</span>
-                </Link> to contribute to India's thriving manufacturing landscape.</p>
+                                <span>sales@rialtes.com</span>
+                            </Link> to contribute to India's thriving manufacturing landscape.</p>
 
                         </div>
                     </div>
