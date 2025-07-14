@@ -295,7 +295,7 @@ const EndToEndAutomativeSection = () => {
         },
     ];
     return (
-        <section className="lg:mt-[263px] md:mt-[282px] mt-[20rem] max-[421px]:mt-[22rem] custom-container lg:pr-0 max-lg:!px-0 relative">
+        <section className="lg:mt-[263px] md:mt-[282px] mt-[20rem] max-[430px]:mt-[245px]  max-[388px]:mt-[300px] max-[359px]:mt-[400px]  custom-container lg:pr-0 max-lg:!px-0 relative">
             <div className=" xl:pt-[67px] pt-[42px] xl:pb-[99px] pb-[89px] border border-[#707070] lg:pl-[40px] max-lg:px-[30px] ">
                 <h2 className="text-[#000000] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-Light max-[380px]:text-[22px]">
                     End-to-End Automotive Buyer Journey
@@ -440,6 +440,9 @@ const PersonalizingSection = () => {
                         Salesforce Marketing Cloud + Automotive Cloud
                     </h3>
                     <UnorderedList arrName={personalizedData} ulClassName="list-disc pl-[22px]  4xl:w-[520px] 2xl:w-[519px] xl:w-[470px] lg:w-[420px] md:w-[380px] w-[340px] max-[400px]:w-[270px]" liClassName="text-[#FFFFFF] mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight" />
+               <div className="absolute bottom-[-95px]">
+                    <LearnMore />
+                </div>
                 </div>
             </div>
         </section>

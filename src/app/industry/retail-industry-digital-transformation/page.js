@@ -497,8 +497,8 @@ export default function retailPage() {
                             <UnorderedList arrName={hyperPersonalizationData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                         </div>
                     </div>
-                    <div className="absolute bottom-0 right-0">
-                        <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px] max-md:mx-[36px] md:mr-[36px] lg:mr-auto">
+                    <div className="absolute bottom-[-35px] right-0">
+                        <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px] max-md:mx-[36px] md:mr-[36px] lg:mr-auto xl:mr-[100px]">
                             <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]   leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
                                 Deliver delightful experiences that turn browsers into loyal brand advocates.
                             </p>
@@ -509,7 +509,7 @@ export default function retailPage() {
             {/*real time section */}
             <section className="lg:mt-[84px] mt-[62px] relative">
                 {/* Background Image */}
-                <div className="w-full h-auto hidden md:block md:h-[760px] lg:h-[710px] xl:h-[1160px] 2xl:h-[1150px] 3xl:h-[1136px]">
+                <div className="w-full h-auto hidden md:block md:h-[760px] lg:h-[710px] xl:h-[1000px] 2xl:h-[1080px] 3xl:h-[1036px] 4xl:h-[1136px]">
                     <Image
                         src="/images/industry/retail-industry/real-time-desk-img.webp"
                         alt="Real-Time Inventory"
@@ -581,7 +581,7 @@ export default function retailPage() {
                         </div>
                     </div>
                     <div className="md:col-span-7 col-span-12 max-md:px-[36px] bg-[#EFEFEF]">
-                        <div className="md:ml-[40px] md:pt-[64px] md:pb-[56px] pb-[31px] pt-[34px] 4xl:pr-[170px] 2xl:pr-[130px] xl:pr-[120px] ">
+                        <div className="md:mx-[40px] md:pt-[64px] md:pb-[56px] pb-[31px] pt-[34px] 4xl:pr-[170px] 2xl:pr-[130px] xl:pr-[120px] ">
                             <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px]  leading-tight max-[400px]:text-[24px]">
                                 Loyalty Programs that Inspire Repeat Business
                             </h2>
@@ -808,11 +808,17 @@ export default function retailPage() {
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[20px] 2xl:gap-[80px]">
                     <div className="2xl:col-span-7 md:col-span-6 col-span-12">
                         {/* Mobile Background */}
-                        <div className="block md:hidden w-full bg-cover h-[420px] sm:h-[630px]" style={{ backgroundImage: "url('/images/industry/retail-industry/mobile/fast-mob-img.webp')" }} />
+                        <div
+                            className="block md:hidden w-full bg-cover h-[365px] sm:h-[630px]"
+                            style={{ backgroundImage: "url('/images/industry/retail-industry/mobile/fast-mob-img.webp')" }}
+                        />
+
                         {/* Desktop Background */}
                         <div className="hidden md:block w-full h-full bg-cover" style={{ backgroundImage: "url('/images/industry/retail-industry/fast-desk-img.webp')", backgroundPosition: "8% 20%" }} />
                     </div>
-                    <div className="2xl:col-span-5 md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto lg:pt-[72px] pt-[2px] lg:pb-[97px] pb-[83px]">
+
+
+                    <div className="2xl:col-span-5 md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto xl:pt-[72px] md:pt-[35px] pt-[30px] lg:pb-[97px] pb-[83px]">
                         <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px]">
                             Fast, Flexible, and Seamless
                         </h2>
@@ -824,8 +830,8 @@ export default function retailPage() {
                         </p>
                         <UnorderedList arrName={fastData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[31px] pl-[20px] lg:pr-[70px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                         <div className="absolute">
-                            <div className="bg-[#163055] text-[#ffffff] lg:mt-[62px] mt-[35px] max-sm:w-[84%]">
-                                <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px]  text-[20px] leading-tight py-[24px] px-[44px] lg:pl-[31px] font-light max-[400px]:text-[18px]">
+                            <div className="bg-[#163055] text-[#ffffff] mr-[25px] lg:mt-[62px] mt-[35px] max-sm:w-[84%] ">
+                                <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px]  text-[20px] leading-tight xl:py-[24px] xl:px-[44px] py-[23px] px-[32px] lg:pl-[31px] font-light max-[400px]:text-[18px]">
                                     Deliver in minutes, delight for years.
                                 </p>
                             </div>
