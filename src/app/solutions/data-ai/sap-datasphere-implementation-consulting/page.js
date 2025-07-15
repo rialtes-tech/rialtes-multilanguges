@@ -6,6 +6,79 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "SAP Datasphere Consulting & Implementation Services",
+    "url": "https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/",
+    "description": "Looking to unify and harness enterprise data using SAP Datasphere? Rialtes offers consulting, implementation, integration, and AI optimization services to turn data into actionable insights.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc",
+            "https://x.com/Rialtestech",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Continent", "name": "Europe" }
+    ],
+    "serviceType": "SAP Datasphere Consulting and AI-Driven Data Lake Implementation",
+    "category": "Enterprise Data Management & Analytics",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "End-to-End SAP Datasphere Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Consulting & Architecture Advisory" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Implementation & Configuration" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Integration with SAP & Non-SAP Systems" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Industry-Specific AI Data Lake Accelerators" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Real-Time Data Governance & Compliance Setup" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "AI-Powered Data Visualization with SAP Analytics Cloud & Tableau" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Post-Go-Live AI Optimization and KPI Dashboards" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Integration with SAP S/4HANA, Ariba, and SuccessFactors" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Salesforce + SAP Datasphere Integration for Customer 360" }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "AI Use Cases for Manufacturing, Automotive, Retail, Education & HR" }
+            }
+        ]
+    }
+}
 const industryAcceleratorsData = [
     "AI-powered Manufacturing production and inventory optimization.",
     "Semiconductor-specific yield, demand, and supply chain analytics.",
@@ -34,7 +107,6 @@ const WhyRialtesSection = () => {
                     width={0}
                     height={0}
                 />
-
                 {/* Desktop Image */}
                 <div className="md:h-[600px] lg:h-[830px] xl:h-[860px] 2xl:h-[960px] w-full">
                     <Image
@@ -63,7 +135,6 @@ const WhyRialtesSection = () => {
                             {whyrialtessectiondata.map((data, ind) => {
                                 const isBorderLeft = ind === 1 || ind === 3;
                                 const isNotLast = ind !== whyrialtessectiondata.length - 1;
-
                                 return (
                                     <div key={ind} className="w-full flex items-center">
                                         <div
@@ -77,7 +148,6 @@ const WhyRialtesSection = () => {
                                 );
                             })}
                         </div>
-
                         <div className="mt-[6px] md:mt-[40px] md:mb-[40px] xl:mt-[61px] xl:mb-[61px]">
                             <Link href="/contact-us">
                                 <button className="xl:bg-[#006FBE] bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4">
@@ -86,12 +156,10 @@ const WhyRialtesSection = () => {
                             </Link>
                         </div>
                     </div>
-
                     <div className="w-full"></div>
                 </div>
             </div>
         </section>
-
     )
 }
 const BuildIntelligentSection = () => {
@@ -104,7 +172,6 @@ const BuildIntelligentSection = () => {
     return (
         <section>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[0px] mt-[0px]">
-
                 <div>
                     {/* Mobile Image */}
                     <Image
@@ -115,18 +182,16 @@ const BuildIntelligentSection = () => {
                         width={0}
                         height={0}
                     />
-
                     {/* Desktop Image */}
                     <Image
                         src="/images/solutions/data-sphere/build-intelligent-img.webp"
-                        alt="build-intelligent-img"
+                        alt="build-intelligent-desktop-img"
                         className="w-full h-full hidden md:block"
                         priority
                         width={0}
                         height={0}
                     />
                 </div>
-
             </section>
             <div className="custom-container max-md:px-0">
                 <div className="xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative">
@@ -146,18 +211,15 @@ const BuildIntelligentSection = () => {
                                 Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.
                             </p>
                         </div>
-
                         {/* Right Column */}
                         <div className="flex flex-col">
                             <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]">Key Benefits:</p>
                             <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
-
                             <div className="2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1 ">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -180,7 +242,7 @@ const IndustryAcceleratorsSection = () => {
                     <div className="h-full w-full">
                         <Image
                             src="/images/solutions/data-sphere/industry-accelerators-img.webp"
-                            alt="industry-accelerators-img"
+                            alt="industry-accelerators-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
                             width={0}
@@ -430,7 +492,7 @@ const AiPoweredHRAnalyticsSection = () => {
                     <div className="w-full h-full">
                         <Image
                             src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
-                            alt="ai-powered-hr-analytics"
+                            alt="ai-powered-hr-analytics-desktop-img"
                             className="hidden md:block w-full h-full object-cover"
                             priority
                             width={0}
@@ -486,7 +548,7 @@ const SapAribaSection = () => {
                     {/* Desktop Image */}
                     <Image
                         src="/images/solutions/data-sphere/sap-ariba-img.webp"
-                        alt="sap-ariba-img"
+                        alt="sap-ariba-desktop-img"
                         className="w-full h-full hidden md:block md:mt-[84px]"
                         priority
                         width={0}
@@ -539,7 +601,7 @@ const SapHanaSection = () => {
                         {/* Desktop Image */}
                         <Image
                             src="/images/solutions/data-sphere/sap-hana-img.webp"
-                            alt="sap-hana-img"
+                            alt="sap-hana-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
                             width={0}
@@ -576,7 +638,7 @@ const SapSucessFactorSection = () => {
                     <div className="order-1 md:order-2">
                         <Image
                             src="/images/solutions/data-sphere/Mobile/sap-success-factos-mob-img.webp"
-                            alt="sap-success-factos-mob-img"
+                            alt="sap-success-factors-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
                             width={0}
@@ -585,7 +647,7 @@ const SapSucessFactorSection = () => {
                         {/* Desktop Image */}
                         <Image
                             src="/images/solutions/data-sphere/sap-success-factos-img.webp"
-                            alt="sap-success-factos-img"
+                            alt="sap-success-factors-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
                             width={0}
@@ -631,7 +693,7 @@ const SalesforceSap = () => {
                         {/* Desktop Image */}
                         <Image
                             src="/images/solutions/data-sphere/salesforcesap-img.webp"
-                            alt="salesforcesap-img"
+                            alt="salesforcesap-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
                             width={0}
@@ -678,7 +740,7 @@ const AdvancedDataSection = () => {
                             {/* Desktop Image */}
                             <Image
                                 src="/images/solutions/data-sphere/advanced-data-img.webp"
-                                alt="advanced-data-img"
+                                alt="advanced-data-desktop-img"
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
                                 width={0}
@@ -756,7 +818,6 @@ const AIPoweredUseSection = () => {
                         </div>
                     </div>
                 </div>
-
                 {/* Desktop View */}
                 <Image
                     src="/images/solutions/data-sphere/ai-powered-use-img.webp"
@@ -865,79 +926,6 @@ const GlobalPresenceSection = () => {
         </section>
     )
 }
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "SAP Datasphere Consulting & Implementation Services",
-    "url": "https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/",
-    "description": "Looking to unify and harness enterprise data using SAP Datasphere? Rialtes offers consulting, implementation, integration, and AI optimization services to turn data into actionable insights.",
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc",
-            "https://x.com/Rialtestech",
-            "https://www.youtube.com/@rialtes"
-        ]
-    },
-    "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "Singapore" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Continent", "name": "Europe" }
-    ],
-    "serviceType": "SAP Datasphere Consulting and AI-Driven Data Lake Implementation",
-    "category": "Enterprise Data Management & Analytics",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "End-to-End SAP Datasphere Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Consulting & Architecture Advisory" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Implementation & Configuration" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "SAP Datasphere Integration with SAP & Non-SAP Systems" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "Industry-Specific AI Data Lake Accelerators" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "Real-Time Data Governance & Compliance Setup" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "AI-Powered Data Visualization with SAP Analytics Cloud & Tableau" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "Post-Go-Live AI Optimization and KPI Dashboards" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "Integration with SAP S/4HANA, Ariba, and SuccessFactors" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "Salesforce + SAP Datasphere Integration for Customer 360" }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": { "@type": "Service", "name": "AI Use Cases for Manufacturing, Automotive, Retail, Education & HR" }
-            }
-        ]
-    }
-}
 export default function () {
     return (
         <>
@@ -952,9 +940,6 @@ export default function () {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
-
-
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
                 <div className="hidden md:block">
