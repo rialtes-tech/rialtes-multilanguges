@@ -222,7 +222,7 @@ const UnlockProcurementSection = () => {
                             <div>
                                 <ul className="list-disc pl-6 lg:mt-[25px] mt-[29px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]">
                                     {benefitsData.map((item, index) => (
-                                        <li key={index} className="text-[16px] font-light 4xl:text-[20px] xl:text-[18px] leading-tight lg:mt-[25px]">
+                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
                                             <span className="font-bold">{item.title}</span> {item.desc}
                                         </li>
                                     ))}
@@ -240,7 +240,7 @@ const UnlockProcurementSection = () => {
                             <div>
                                 <ul className="list-disc pl-6 lg:mt-[25px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]">
                                     {migrationData.map((item, index) => (
-                                        <li key={index} className="text-[16px] font-light 4xl:text-[20px] xl:text-[18px] leading-tight lg:mt-[25px]">
+                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
                                             <span className="font-bold">{item.title}</span> {item.desc}
                                         </li>
                                     ))}
@@ -363,7 +363,7 @@ const AribaBusinessNetworkSection = () => {
                     <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[31px]">
                         SAP ARIBA Business Network is the world’s largest digital marketplace for suppliers and buyers, facilitating:
                     </p>
-                    <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-6 lg:mt-[32px] mt-[26px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px] lg:w-[80%]" />
+                    <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-6 lg:mt-[32px] mt-[26px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[24px] xl:text-[18px] lg:mt-[24px] lg:w-[80%]" />
                 </div>
             </div>
         </section>

@@ -343,7 +343,7 @@ export default function Page() {
         </section>
       </div>
       {/* Reimagine Employee Experiences and Optimize HR Operations */}
-      < div className="bg-[#EDEDED] py-6 lg:mt-20 mt-2 md:mt-10" >
+      < div className="bg-[#f7f6f6] py-6 lg:mt-20 mt-2 md:mt-10" >
         <div className="custom-container">
           <section className="py-10">
             <div>

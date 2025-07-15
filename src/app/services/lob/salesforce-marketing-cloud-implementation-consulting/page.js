@@ -191,8 +191,8 @@ const Services = () => {
         <div className="text-black 2xl:pr-70 xl:pr-10 md:pr-8">
             <div className="grid 4xl:grid-cols-12">
                 <div className="4xl:col-span-12">
-                    <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-20 xl:mt-0 4xl:mt-0 pr-[4rem]">Avantage+: A Full-Spectrum Marketing Transformation Approach</h2>
-                    <p className="4xl:text-[22px] text-[16px] my-12">Our Avantage+ framework ensures that every phase of your marketing journey is expertly guided:</p>
+                    <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-20 xl:mt-0 4xl:mt-0 pr-[4rem]">Advantage+: A Full-Spectrum Marketing Transformation Approach</h2>
+                    <p className="4xl:text-[22px] text-[16px] my-12">Our Advantage+ framework ensures that every phase of your marketing journey is expertly guided:</p>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
@@ -359,9 +359,9 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
-                            Deliver Hyper-Personalized, Data-Driven Experiences with Avantage+
+                            Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+
                         </h2>
-                        <p className="text-[16px] 4xl:text-[22px] leading-tight mt-5 4xl:pr-[25px] pr-[2rem] xl:pr-0">We help organizations harness the power of Salesforce Marketing Cloud with our Avantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption. As a Salesforce Certified Consulting Partner with offices in the U.S., Canada, India, and Singapore, Rialtes combines industry expertise with Marketing Cloud proficiency to drive transformation in B2B and B2C sectors. </p>
+                        <p className="text-[16px] 4xl:text-[22px] leading-tight mt-5 4xl:pr-[25px] pr-[2rem] xl:pr-0">We help organizations harness the power of Salesforce Marketing Cloud with our Advantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption. As a Salesforce Certified Consulting Partner with offices in the U.S., Canada, India, and Singapore, Rialtes combines industry expertise with Marketing Cloud proficiency to drive transformation in B2B and B2C sectors. </p>
                         {/* <p className="text-[16px] 4xl:text-[22px] leading-tight  mt-5 4xl:pr-4 pr-12 xl:pr-0"> As a Salesforce Certified Consulting Partner with offices across the United States, Canada, India, and Singapore, Rialtes combines deep industry expertise with Salesforce Marketing Cloud proficiency to drive impactful sales and marketing transformation across B2B and B2C industries, including automotive, manufacturing, healthcare, real estate, and retail.</p> */}
                     </div>
                     <div className="xl:col-span-4 col-span-12">
@@ -596,7 +596,7 @@ export default function Page() {
                         </h3>
                         <p className="mt-4 xl:mt-5 text-[16px] 4xl:text-[22px] leading-tight font-light 4xl:pr-6">
                             Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships,
-                            Rialtes’ Avantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.
+                            Rialtes’ Advantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.
                         </p>
                         <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
                         <div className="xl:absolute xl:mt-2 bottom-0 mt-8 4xl:mt-2">
