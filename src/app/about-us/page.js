@@ -181,7 +181,7 @@ export default function About() {
             </section>
             {/* Mission & Vision Section */}
             <div className="mt-40 custom-container">
-                <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[76%] 4xl:w-[100%]">
+                <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:w-[76%] 4xl:w-[100%]">
                     World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.
                 </h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
@@ -238,7 +238,7 @@ export default function About() {
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-20 mb-20 mt-20 grid-cols-1">
                             {missionCards.map((card, index) => (
                                 <div key={index}>
-                                    <div className="relative border-b border-l border-r border-gray-300 p-12 h-[370px] max-md:h-[400px] xl:mt-[40px]">
+                                    <div className="relative border-b border-l border-r border-gray-300 p-12 h-[310px] md:h-[350px]  xl:mt-[40px]">
                                         <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                         <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
                                         <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
@@ -261,7 +261,7 @@ export default function About() {
                 </div>
             </section>
             {/* welcome section */}
-            <section className="relative h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
+            <section className="relative sm:h-[750px] md:h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0">
                 <Image
                     src="/images/about-us/welcome-to.webp"
                     alt="welcome image"
@@ -269,11 +269,11 @@ export default function About() {
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
                 />
-                <div className=" h-full relative ml-[15px] xl:ml-[280px] xl:mr-[156px] md:ml-[100px]">
+                <div className=" h-full relative xl:ml-[280px] xl:mr-[156px] md:ml-[290px]">
                     <div className="flex justify-end">
-                        <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[580px] xl:h-[500px]">
+                        <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[535px] xl:h-[500px] max-md:h-[750px]">
                             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-                            <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
+                            <div className="relative bg-opacity-80 text-white z-10  rounded-lg">
                                 <h3 className="4xl:text-[45px] xl:text-[38px] text-[34px] leading-tight font-bold">Welcome to the Future of Intelligent Business.</h3>
                                 <p className='mt-5 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight'>Whether you’re exploring AI adoption, modernizing operations, or reimagining customer experiences, our team is ready to guide you with tailored, results-driven strategies.</p>
                                 <p className="mt-5 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight">Connect with us to accelerate your transformation journey.</p>

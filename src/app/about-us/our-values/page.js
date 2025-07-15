@@ -96,13 +96,13 @@ const GrowServicesCard = ({ services }) => (
         <div className="flex flex-col pt-8">
             <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[35px] line-clamp-2 min-h-[60px]">{services.title}</h3>
         </div>
-        <p className='mb-[15px] xl:text-[22px] text-[16px] pr-10 xl:pr-0'>{services.description1}</p>
-        <p className='mb-[15px] xl:text-[22px] text-[16px] pr-[38px] xl:pr-0'>{services.description2}</p>
+        <p className='mb-[15px] xl:text-[22px] text-[16px] '>{services.description1}</p>
+        <p className='mb-[15px] xl:text-[22px] text-[16px] '>{services.description2}</p>
     </div>
 );
 const GrowServices = () => {
     return (
-        <div className="container mx-auto text-black">
+        <div className=" mx-auto text-black">
             <h2 className="pb-16 text-black xl:text-[60px] text-[26px]">Employee affinity groups</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                 {growLatestServices.map((services) => (
@@ -165,6 +165,8 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/culture/AdobeStock_1016285553.webp"
+                                                style={{ objectFit: "cover", objectPosition: "0% 20%" }}
+
                         alt="mobile banner"
                         fill
                         priority
@@ -172,11 +174,11 @@ export default function Page() {
                 </div>
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                        <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white">
-                            <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px] font-bold text-[#01335B]">
+                        <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white ">
+                            <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px] font-bold sm:text-[#01335B] max-sm:text-[#02182A]">
                                 Culture and Values
                             </h3>
-                            <h2 className="text-[24px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] text-[#01335B] "  >
+                            <h2 className="text-[24px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] sm:text-[#01335B] max-sm:text-[#02182A] "  >
                                 Building a growth<br /> mindset. Each day.
                             </h2>
                         </div>
@@ -189,7 +191,7 @@ export default function Page() {
             <section className="xl:py-16 py-10">
                 <div className="custom-container">
                     <div className=" mx-auto">
-                        <h1 className="xl:text-[60px] text-[26px]">Our Value System.</h1>
+                        <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]">Our Value System.</h1>
                         <p className="mt-3 xl:text-[35px] text-[20px] pr-10 xl:pr-0">Every day, every one of us work with our core values.</p>
                         <div className="flex flex-col lg:flex-row mb-8 mt-16 lg:gap-52 gap-10">
                             {principleItems.map((item, index) => (
@@ -251,7 +253,7 @@ export default function Page() {
                 </div>
             </section>
             {/* We Help You Grow and Thrive */}
-            <div className="xl:mt-10 mt-16 max-sm:px-0 custom-container">
+            <div className="xl:mt-10 mt-16  custom-container">
                 <section className="xl:py-16 bg-white">
                     <GrowServices />
                 </section>

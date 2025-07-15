@@ -636,7 +636,7 @@ export default function retailPage() {
                         </div>
                     </div>
                 </div>
-                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[80px] gap-y-[29px] md:mt-[148px] xl:mt-[188px] sm:mt-[0px] mt-[93px]">
+                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[75px] gap-y-[29px] md:mt-[148px] xl:mt-[188px] sm:mt-[0px] mt-[93px]">
                     <div className="4xl:col-span-5 md:col-span-5 lg:col-span-6 col-span-12 flex justify-center">
                         <div className="md:block hidden w-full h-full">
                             <Image
@@ -660,7 +660,7 @@ export default function retailPage() {
                         </div>
                     </div>
                     <div className="4xl:col-span-5 md:col-span-5 lg:col-span-6 col-span-12">
-                        <div className="sm:w-[80%] md:w-full lg:w-[80%] flex flex-col items-center xl:w-full">
+                        <div className="sm:w-[80%] md:w-[90%] lg:w-[80%] flex flex-col items-center xl:w-full">
                             <h3 className="text-[20px] leading-tight xl:text-[36px] 4xl:text-[40px] font-bold">
                                 Data Cloud for Unified Donor, Program, and Volunteer Insights
                             </h3>
