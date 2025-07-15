@@ -1,9 +1,6 @@
 "use client";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
-import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
-import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import ServicesBlogs from '../../../components/servicesBlogs';
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
@@ -99,142 +96,111 @@ const schemaData = {
     }
   }
 }
-const latestServices = [
+const relatedData = [
+  "SAP S/4HANA for Finance & Operations.",
+  "SAP Ariba for Direct & Indirect Procurement",
+  "SAP Concur for Travel & Expense",
+  "SAP CPI for Cloud Integrations",
+]
+const agentData = [
+  "Role-based communication (recruiters, managers, HR).",
+  "Case, lead, and work order delegation by type.",
+  "Employee self-service for leave, benefits, and more.",
+  "Quick setup in minutes. Fully secure and compliant.",
+]
+const ourWorkdayData = [
+  "Comprehensive system comparison and gap analysis.",
+  "Mapping Workday HR processes to SAP SuccessFactors best practices.",
+  "Secure data migration, validation, and cleansing.",
+  "Change management and employee training to ensure adoption.",
+  "Integration with SAP S/4HANA, Finance, and Payroll.",
+]
+const keyBenefitsData = [
+  "Unified platform with SAP S/4HANA for HR and business processes.",
+  "Reduced operational costs and improved scalability.",
+  "Enhanced analytics and AI capabilities with SAP Joule.",
+]
+const ourZohoData = [
+  "Assessment and mapping of ZOHO HR processes to SuccessFactors.",
+  "Employee data migration with validation and secure handling.",
+  "Re-engineering workflows to align with SuccessFactors’ HXM principles.",
+  "User training and post-deployment support.",
+]
+const zohoBenefitsData = [
+  "Enterprise compliance and data security.",
+  "End-to-end employee lifecycle management.",
+  "AI-driven insights and enhanced user experiences.",
+]
+const migratingBenefitsData = [
+  {
+    img: "/images/services/success-plus/unified-img.svg",
+    title: "Unified HR platform aligned with business goals."
+  },
+  {
+    img: "/images/services/success-plus/future-img.svg",
+    title: "Future-proofing HR with AI, automation, and advanced analytics."
+  },
+  {
+    img: "/images/services/success-plus/integration-img.svg",
+    title: "Integration with core SAP and third-party systems for a connected enterprise."
+  },
+  {
+    img: "/images/services/success-plus/global-hr-img.svg",
+    title: "Global HR compliance and local adaptability."
+  },
+]
+const sapActivateData = [
   {
     id: 1,
-    title: "SuccessFactors Implementation",
-    description: "Implementation services for SuccessFactors HR Core, Talent, and Analytics Modules. Optimize your costs, deadlines, and quality with our pre-configured solutions, certified by SAP.",
+    title: "Discover Phase",
+    list: [
+      "Understanding your HR transformation goals.",
+      "Initial system evaluation, readiness checks, and value mapping.",
+      "High-level scoping and timeline planning.",
+    ]
   },
   {
     id: 2,
-    title: "SuccessFactors Support",
-    description: "Flexible support services for the SuccessFactors systems guarantee continuity of service and continuous improvement. It includes release management, adoption, administrative, and technical support.",
+    title: "Prepare Phase",
+    list: [
+      "Project planning, governance setup, and team onboarding.",
+      "System access and pre-requisite checklists.",
+    ]
   },
   {
     id: 3,
-    title: "Data Modelling and Migration",
-    description: "Organizes and aligns the data with SuccessFactors’ schemas and organizational requirements with tools and methodologies to speed up and simplify the data migration.",
+    title: "Explore Phase",
+    list: [
+      "Fit-to-standard workshops leveraging SAP Signavio to align processes with industry best practices.",
+      "Identify customizations and integration points.",
+    ]
   },
   {
     id: 4,
-    title: "Integration and Data Management",
-    description: "Successful data integration strategy to maintain high data quality and ensure consistency across systems. This includes carefully planned extraction, transformation, and loading (ETL) processes to transfer data accurately.",
+    title: "Realize Phase",
+    list: [
+      "Configuration of SuccessFactors modules (Employee Central, Talent, Learning, Compensation, etc.).",
+      "Custom development and integrations. ",
+      "Data migration and testing (unit, integration, UAT).",
+    ]
   },
   {
     id: 5,
-    title: "Employee Central",
-    description: "Streamlined management of profiles and transactions, organizational structure, time, and employee benefits to ensure accurate and up-to-date employee records and clear reporting lines and hierarchy.",
+    title: "Deploy Phase",
+    list: [
+      "Final system readiness, user training, and go-live planning.",
+      "Cutover execution and post-go-live support setup.",
+    ]
   },
   {
     id: 6,
-    title: "Employee Central Payroll",
-    description: "Reduce manual effort, minimize errors, and improve processing speed with a modern payroll system for global payroll management and automated processes to streamline payments across diverse regions, ensuring compliance and accuracy",
+    title: "Run Phase",
+    list: [
+      "Stabilization, ongoing support, and continuous improvement roadmap.",
+    ]
   },
-];
-const ServicesCard = ({ services }) => (
-  <div className="  flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
-    <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] font-[600] 2xl:text-[26px] 4xl:text-[30px] line-clamp-4 text-[#1F3F69] 2xl:h-[70px] lg:text-[20px] lg:h-[54px] 4xl:h-[84px] text-[20px] md:text-[20px] ">{services.title}</h3>
-      <p className='md:mb-[15px] mb-0 2xl:text-[20px] 4xl:text-[22px] xl:text-[19px] md:text-[18px] lg:text-[16px]  '>{services.description}</p>
-    </div>
-  </div>
-);
-const Services = () => {
-  return (
-    <div className="  text-black 2xl:pr-70 xl:pr-10 md:pr-8">
-      <h2 className="text-black mb-6 2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1300px]  4xl:text-[60px] 4xl:w-[1300px] lg:text-[38px] lg:w-[900px] text-[24px]  md:text-[32px] ">End-to-end SAP SuccessFactors Services</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
-        {latestServices.map((services) => (
-          <ServicesCard key={services.id} services={services} />
-        ))}
-      </div>
-      <LearnMore />
-    </div>
-  );
-};
-const integrationItems = [
-  {
-    img: "/images/success-factors/sap-hcm-modules.svg",
-    alt: "SAP HCM Modules",
-    title: "SAP HCM Modules",
-  },
-  {
-    img: "/images/success-factors/sap-analytics-cloud.svg",
-    alt: "SAP Analytics Cloud",
-    title: "SAP Analytics Cloud",
-  },
-  {
-    img: "/images/success-factors/workforce-software.svg",
-    alt: "Workforce Software",
-    title: "Workforce Software",
-  },
-];
-const employeeStats = [
-  {
-    value: "290M",
-    description: "Users in more than 200 countries",
-  },
-  {
-    value: "25%",
-    description: "Increase in employee engagement",
-  },
-  {
-    value: "60%",
-    description: "Reduction in compliance-related risks and errors",
-  },
-];
-const sapBenefits = [
-  "An experienced SAP partner with deep expertise across various industries",
-  "Tailored integration packages designed to meet unique client needs",
-  "Proactive approach to managing evolving customer environments and requirements",
-  "Comprehensive support for long-term analysis, implementation, and transition from on-premises to cloud",
-  "A well-established SuccessFactors Center of Excellence with ready-to-use content",
-];
+]
 export default function Page() {
-  const slides = [
-    {
-      id: 5,
-      image: "/images/blog/blog-5-long-thumb.webp",
-      category: "SAP SuccessFactors",
-      industry: "Human Resources",
-      date: "24 Dec 2024",
-      heading: 'SAP SuccessFactors in MS Office 365',
-      url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
-      title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-      description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },
-
-    {
-      id: 7,
-      image: "/images/blog/blog-7-long-thumb.webp",
-      category: "SAP SuccessFactors",
-      industry: "Human Resources",
-      date: "29 Oct 2024",
-      heading: 'Evaluate Performance with SAP SuccessFactors PMGM',
-      url: 'insights/blogs/sap-successfactors-performance-and-goal-management',
-      title: "SAP SuccessFactors Performance and Goal Management",
-    },
-    {
-      id: 13,
-      image: "/images/blog/blog-9-logn-thumb.webp",
-      category: "SAP SuccessFactors",
-      industry: "Human Resources",
-      date: "12 Nov 2024",
-      heading: 'DEI in SuccessFactors',
-      url: 'insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives',
-      title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-    },
-    {
-      id: 14,
-      image: "/images/blog/blog-13-long-thumb.webp",
-      category: "SAP SuccessFactors",
-      industry: "Human Resources",
-      date: "21 Jan 2025",
-      heading: 'Manage Remote Employee Lifecycle',
-      url: 'insights/blogs/how-sap-successfactors-enhances-remote-work-management',
-      title: "How SAP SuccessFactors Enhances Remote Work Management",
-    },
-  ];
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -250,35 +216,36 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <div className="xl:block hidden">
+      <section className="relative h-[470px] sm:h-[640px] lg:h-[650px] overflow-hidden">
+        <div className="md:block hidden">
           <Image
-            src="/images/success-factors/successfactor-banner.webp"
+            src="/images/services/success-plus/desktop-banner.webp"
             alt="SuccessFactor"
             fill
-            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
           />
         </div>
-        <div className="xl:hidden block">
+        <div className="md:hidden block">
           <Image
-            src="/images/success-factors/successfactor.webp"
+            src="/images/services/success-plus/Mobile/mobile-banner.webp"
             alt="SuccessFactor"
             fill
-            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
           />
         </div>
         <div
           className="custom-container h-full relative">
-          <div className="h-full flex flex-col justify-center">
-            <h3 className="text-white text-[300] font-medium mb-2">SuccessFactors</h3>
-            <h2 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[500px] 2xl:w-[600px]  4xl:text-[60px] 4xl:w-[670px] lg:text-[38px] lg:w-[400px] leading-tight text-[24px] md:text-[32px]  ">
-              HR Transformation Enabled Using SuccessFactors
+          <div className="h-full flex flex-col justify-center mt-[40px] lg:mt-0">
+            <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Success+</h3>
+            <h2 className="text-white 2xl:text-[56px] xl:text-[40px] 4xl:text-[60px] lg:text-[38px] leading-tight text-[24px] md:text-[32px] mt-[20.5px]">
+              Transforming HR for  <div className="" /> the Modern Enterprise
+              <div className="lg:mt-[20px] mt-[10px]" /><span className="text-[16px] font-bold lg:text-[36px] 4xl:text-[45px]"> Rialtes’ Success+ </span> <div className="2xl:mt-[-20px] lg:mt-[-5px] xl:mt-0 mt-[-10px]" /><span className="text-[16px] lg:text-[36px] 4xl:text-[45px]"> for SAP SuccessFactors</span>
             </h2>
-            <div className="md:max-w-32 w-20  4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-6">
+            <div className="md:max-w-32 w-20 4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] mt-[49px] xl:mt-[62px]">
               <Image
-                src="/images/success-factors/sap-partner-logo.webp"
+                src="/images/services/success-plus/sap-partner-logo.webp"
                 alt="SAP Partner Logo"
                 width={0}
                 height={0}
@@ -291,140 +258,319 @@ export default function Page() {
         </div>
       </section>
       {/* page description */}
-      <section className="custom-container">
-        <div className="py-8 bg-white">
-          <div className="2xl:pr-72 xl:pr-40 md:pr-20">
-            <div className="flex flex-col lg:flex-row items-center py-6">
-              <div className="flex flex-col  xl:mb-0 mb-4 ">
-                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[46px] xl:w-[660px] 2xl:w-[780px] 4xl:text-[60px] 4xl:w-[870px] lg:text-[38px] lg:w-[550px] leading-tight text-[24px] md:text-[32px] ">Achieve Performance Excellence with SuccessFactors Consulting</h1>
-              </div>
-              <div className="flex flex-col w-full xl:w-1/2">
-                <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[480px] 4xl:text-[20px] 4xl:w-[550px]  xl:text-[16px] xl:w-[430px] lg:text-[14px] lg:w-[385px] md:text-[18px]">We go beyond SAP SuccessFactors implementation, offering end-to-end global HCM transformation that automates HR processes and enhances both user and employee experiences. By combining the SAP SuccessFactors platform with our artificial intelligence, machine learning, and analytics capabilities, we transform the human experience while aligning with business goals.</p>
-              </div>
-            </div>
+      <section className="custom-container xl:mt-[78px] mt-[51px]">
+        <h1 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] md:w-[80%] xl:w-[80%] 4xl:w-[94%] w-[96%]">
+          End-to-End SuccessFactors Consulting Services for a Future-Ready Workforce
+        </h1>
+        <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px]">
+          <div className="lg:col-span-8 col-span-12 order-2 lg:order-1">
+            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] xl:mt-[43px] mt-[20px] font-normal 4xl:w-[90%] w-[96%]">
+              At Rialtes, we believe HR is at the center of every organization’s success. Our ‘SuccessPlus’ suite of SAP SuccessFactors services is designed to help organizations transform their human capital management (HCM) strategies, streamline HR processes, and deliver an exceptional employee experience.
+              <br /><br />
+              As a certified SAP partner with global offices in India, the United States, Canada, and Singapore, Rialtes brings deep industry knowledge, SAP-certified experts, and real-world experience to design, implement, and optimize SAP SuccessFactors solutions tailored to your needs.
+            </p>
+          </div>
+          <div className="lg:col-span-4 col-span-12 lg:my-auto lg:ml-auto order-1 lg:order-2 mt-[40px]">
+            <Image
+              src="/images/services/success-plus/successfactor-logo-1.jpg"
+              alt="SAP Partner Logo"
+              width={0}
+              height={0}
+              className="w-full h-full md:w-[50%] lg:w-full lg:h-full"
+              priority
+            />
+          </div>
+        </div>
+
+      </section>
+      {/* what is rialtes success section */}
+      <section className="custom-container xl:mt-[112px] lg:mt-[82px] mt-[34px]">
+        <div className="grid xl:grid-cols-12 grid-cols-1 4xl:gap-[70px] gap-y-[20px]">
+          <div className="xl:col-span-8 col-span-12">
+            <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] xl:w-full">
+              What is Rialtes’ Success+?
+              <br />
+              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
+            </h2>
+          </div>
+          <div className="xl:col-span-4 col-span-12 md:w-[80%] w-[92%] xl:w-full">
+            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal">
+              Our SuccessPlus services combine license advisory, implementation, configuration, integration, quality assurance, and post-go-live support to deliver a holistic and seamless SAP SuccessFactors journey for your organization.
+            </p>
           </div>
         </div>
       </section>
-      {/* Latest Services Section */}
-      <div className="custom-container lg:mt-20 md:mt-6">
-        <section className=" bg-white">
-          <Services />
-        </section>
-      </div>
-      {/* SuccessFactors Integration Solutions */}
-      <div className="custom-container lg:mt-10 mt-6 md:mt-10">
-        <section className="py-10">
-          <div>
-            <h2 className="pb-8 lg:pb-12 text-black 2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px] 4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px] md:text-[32px]">
-              SuccessFactors Integration Solutions
-            </h2>
-
-            <div className="flex md:flex-row flex-col justify-between gap-6 md:gap-1">
-              {integrationItems.map((item, index) => (
-                <div className="flex items-center" key={index}>
-                  <div className="md:h-20 h-16 mr-6">
-                    <Image
-                      src={item.img}
-                      alt={item.alt}
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                      priority
-                    />
-                  </div>
-                  <h3 className="text-black md:h3-bold 2xl:text-[26px] 4xl:w-[256px] 4xl:text-[30px] 2xl:w-[200px] xl:text-[24px] md:text-[18px] lg:text-[22px] leading-tight lg:w-[230px] xl:w-[250px] text-[20px] w-[150px] md:w-[220px]">
-                    {item.title}
-                  </h3>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      </div>
-      {/* Reimagine Employee Experiences and Optimize HR Operations */}
-      < div className="bg-[#EDEDED] py-6 lg:mt-20 mt-2 md:mt-10" >
-        <div className="custom-container">
-          <section className="py-10">
-            <div>
-              <h2 className="pb-8 text-black leading-tight 2xl:text-[56px] xl:text-[46px] xl:w-[800px] 2xl:w-[1000px] 4xl:text-[60px] 4xl:w-[1100px] lg:text-[38px] lg:w-[700px] text-[24px] md:text-[32px]">
-                Reimagine Employee Experiences and Optimize HR Operations
-              </h2>
-
-              <div className="flex md:flex-row flex-col gap-8 4xl:gap-10">
-                {employeeStats.map((item, index) => (
-                  <div key={index} className="flex flex-col xl:w-1/3 md:w-1/3">
-                    <h2 className="text-[#0092E0] font-bold 2xl:text-[60px] 4xl:text-[70px] xl:text-[54px] md:text-[40px] lg:text-[50px] mb-2">
-                      {item.value}
-                    </h2>
-                    <p className="text-black 4xl:text-[24px] 2xl:text-[20px] lg:text-[16px] md:text-[20px] xl:text-[18px] 2xl:w-[240px] 4xl:w-[260px] xl:w-[220px] lg:w-[180px]">
-                      {item.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
+      {/* success key image */}
+      <section className="custom-container md:px-0 mt-[58px] md:mt-[90px] xl:mt-[173px]">
+        <div className="md:block hidden">
+          <Image
+            src="/images/services/success-plus/key-services-desk.webp"
+            alt="key-services-desktop image"
+            className="w-full h-full object-cover"
+            priority
+            width={0}
+            height={0}
+          />
         </div>
-      </div>
-      {/* Maximize HR Efficiency */}
-      <div className="custom-container lg:mt-20 md:mt-8">
-        <section className="pb-10 pt-16 bg-white">
-          <div className="">
-            <h2 className="pb-4 text-black xl:hidden flex leading-tight lg:text-[38px] lg:w-[480px] text-[24px] md:text-[32px]">Maximize HR Efficiency in Your Organization</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-6">
-              <div className="md:grid-cols-8 md:order-1 order-2">
-                <h2 className="pb-6 text-black xl:flex hidden 2xl:text-[56px] xl:text-[46px] 4xl:text-[56px] lg:text-[38px] leading-tight">
-                  Maximize HR Efficiency in Your Organization
-                </h2>
-                <UnorderedList
-                  arrName={sapBenefits}
-                  ulClassName="list-disc marker:text-[#0092E0] space-y-[18px] text-black pl-4 pb-6 leading-tight xl:w-[92%]"
-                  liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]"
+        <div className="md:hidden block">
+          <Image
+            src="/images/services/success-plus/Mobile/key-services-mob.webp"
+            alt="key-services-mobile image"
+            className="w-full h-full object-cover"
+            priority
+            width={0}
+            height={0}
+          />
+        </div>
+      </section>
+      {/* workday section */}
+      <section className="text-white custom-container xl:mt-[183px] mt-[87px] pt-[50px] xl:pt-[148px] md:bg-[url('/images/services/success-plus/workday-bg-desk.webp')] bg-[url('/images/services/success-plus/Mobile/workday-bg-mob.webp')] bg-cover">
+        {/* workday */}
+        <>
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[29px]">
+            <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
+              <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] xl:w-full">
+                Workday to SAP SuccessFactors <div className="block lg:hidden" /> Migration - <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold"> <div className="block lg:hidden" />Migrate with Confidence</span>
+              </h2>
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-medium xl:mt-[51px] mt-[17px] w-[96%] xl:w-[90%]">
+                Organizations seeking to move from Workday to SAP SuccessFactors can rely on Rialtes’ proven methodology to ensure a secure, compliant, and smooth transition.
+              </p>
+            </div>
+            <div className="lg:col-span-5 3xl:col-span-4 col-span-12 lg:order-2 order-1">
+              <div className="lg:block hidden h-[180px]">
+                <Image
+                  src="/images/services/success-plus/workday-desk.webp"
+                  alt="workday-desktop image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
                 />
               </div>
-
-              <div className="md:grid-cols-5 md:order-2 order-1">
-                <div className="relative overflow-hidden 4xl:h-[400px]">
-                  <Image
-                    className="w-full h-full transition-transform duration-300 ease-out hover:scale-110"
-                    src="/images/success-factors/Maximize HR Efficiency 2.webp"
-                    alt="Maximize HR Efficiency in Your Organization"
-                    width={0}
-                    height={0}
-                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                    priority
-                  />
-                </div>
+              <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
+                <Image
+                  src="/images/services/success-plus/Mobile/workday-mob.webp"
+                  alt="workday-mobile image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
               </div>
             </div>
-            <LearnMore />
           </div>
-        </section>
-      </div>
-      {/* Latest Customer Success Stories */}
-      < div className="bg-[#F5F5F5] py-20 md:mt-10 mt-4 lg:mt-20" >
-        <div className="custom-container">
-          <FeaturedCarousel />
+          <div className="relative grid lg:grid-cols-2 grid-cols-1 xl:mt-[58px] mt-[29px] lg:w-[90%] 4xl:w-[80%] gap-y-[56px] lg:gap-[60px] xl:mb-[80px] mb-[80px]">
+            <div>
+              <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[92%] xl:w-full">
+                Our Workday to SuccessFactors Migration Includes:
+              </h3>
+              <UnorderedList arrName={ourWorkdayData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+            </div>
+            <div>
+              <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[92%] xl:w-full">
+                Key Benefits of Migrating from Workday to SuccessFactors:
+              </h3>
+              <UnorderedList arrName={keyBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+            </div>
+          </div>
+        </>
+        <div className="w-full h-[1px] bg-gray-300"></div>
+        {/* zoho */}
+        <>
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px]">
+            <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
+              <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] xl:w-[92%]">
+                ZOHO HR to SAP SuccessFactors <div className="block lg:hidden" /> Migration - <div className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold">Enterprise-Grade HR Transformation</div>
+              </h2>
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-medium xl:mt-[51px] mt-[17px] w-[94%] md:w-[80%] lg:w-full">
+                Outgrowing ZOHO HR? Rialtes offers end-to-end migration from ZOHO HR to SAP SuccessFactors, enabling a shift to a global, enterprise-grade HR platform.
+              </p>
+            </div>
+            <div className="lg:col-span-5 3xl:col-span-4 col-span-12 lg:order-2 order-1">
+              <div className="lg:block hidden h-[180px]">
+                <Image
+                  src="/images/services/success-plus/zoho-desk.webp"
+                  alt="zoho-desktop image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+              <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
+                <Image
+                  src="/images/services/success-plus/Mobile/zoho-mob.webp"
+                  alt="zoho-mobile image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="relative grid lg:grid-cols-2 grid-cols-1 xl:mt-[58px] mt-[29px] lg:w-[90%] 4xl:w-[80%] gap-y-[56px] lg:gap-[60px] xl:mb-[60px] mb-[40px]">
+            <div>
+              <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[90%] xl:w-full">
+                Our ZOHO to SuccessFactors Migration Includes:
+              </h3>
+              <UnorderedList arrName={ourZohoData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+            </div>
+            <div>
+              <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[90%] xl:w-full">
+                Benefits of Migrating from ZOHO HR to SAP SuccessFactors:
+              </h3>
+              <UnorderedList arrName={zohoBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+            </div>
+          </div>
+        </>
+
+        {/* benefits of migrating */}
+        <div className="xl:mt-[100px] mt-[63px] bg-[#FFFFFF] py-[40px] px-[24px] xl:py-[83px] md:px-[60px]">
+          <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
+            Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+
+          </h2>
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-[40px] 2xl:gap-[60px] gap-y-[26px] sm:w-[90%] lg:w-full">
+            {
+              migratingBenefitsData.map((data, ind) => {
+                return (
+                  <div className="xl:mt-[48px] mt-[26px]" key={ind}>
+                    <div>
+                      <Image
+                        src={data.img}
+                        alt={`${data.title} image`}
+                        className="w-[120px] h-[120px] object-cover"
+                        priority
+                        width={0}
+                        height={0}
+                      />
+                    </div>
+                    <h4 className="text-black leading-tight text-[20px] mt-[16px] xl:mt-[26px] w-[92%] xl:w-full font-semibold">
+                      {data.title}
+                    </h4>
+                  </div>
+                )
+              })
+            }
+          </div>
         </div>
-      </div>
-      {/* Latest Blogs */}
-      <div className="mb-20 custom-container lg:pr-0 md:mt-10 mt-10 lg:mt-20">
-        {slides && slides.length > 0 ? (
-          <ServicesBlogs slides={slides || []} />
-        ) : (
-          <p>No blogs available at the moment.</p>
-        )}
-      </div>
-      {/* Explore More */}
-      < div className="bg-[#808080] py-14 md:mt-10 mt-4 lg:mt-20" >
-        <div className="custom-container lg:pr-0">
-          <ExploreMoreCarousel />
+      </section>
+      {/* process section */}
+      <section className="custom-container xl:mt-[116px] mt-[55px]">
+        <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
+          <div className="xl:col-span-8 col-span-12">
+            <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[91%]">
+              Process-Driven Success with SAP Signavio and SAP Activate Methodology
+            </h2>
+            <h3 className="xl:text-[34px] 4xl:text-[40px] leading-tight text-[22px] xl:mt-[72px] mt-[26px] font-normal">
+              <span className="font-bold">SAP Activate Methodology - </span> <div /> Phased Approach with Rialtes:
+            </h3>
+          </div>
+          <div className="xl:col-span-4 col-span-12">
+            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full">
+              Rialtes leverages SAP Signavio’s powerful process intelligence combined with SAP Activate Methodology to ensure smooth and efficient implementation of SAP SuccessFactors.
+            </p>
+          </div>
         </div>
-      </div >
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[120px] mt-[40px] sm:w-[80%] md:w-[90%] xl:w-full 2xl:w-[90%] md:gap-x-[60px] lg:gap-0">
+          {
+            sapActivateData.map((data, ind) => {
+              return (
+                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[60px] md:py-[40px] lg:py-0 
+                                          ${(data.id === 5 || data.id === 6) && "md:border-0"} 
+                                          ${data.id === 2 && "lg:!py-0"} 
+                                          ${(data.id == 2 || data.id == 5) && "lg:mt-[60] xl:mt-[80px] lg:h-[250px] xl:h-[260px] 4xl:h-[330px] lg:px-[30px] xl:px-[40px] lg:border-l border-[#B9B9B9]"} 
+                                          ${(data.id == 3 || data.id == 6) && "lg:mt-[120] xl:mt-[140px] lg:pl-[40px] lg:border-l"} 
+                                          ${(data.id == 1 || data.id == 4) && "lg:pr-[40px]"} 
+                                          ${(data.id == 6) && "lg:pb-[80px] 4xl:pb-[110px]"} `}>
+                  <h4 className="text-[#0C8AD4] xl:text-[27px] 4xl:text-[30px] leading-tight text-[24px] xl:mb-[28px] mb-[16px] flex">
+                    <div className="xl:text-[60px] 4xl:text-[70px] leading-tight text-[50px] mr-[20px] font-extrabold">{data.id}</div> <div className="my-auto">{data.title}</div>
+                  </h4>
+                  <UnorderedList arrName={data.list} ulClassName="w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[30px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal" />
+                </div>
+              )
+            })
+          }
+        </div>
+      </section>
+      {/* related section */}
+      <section className="custom-container xl:mt-[205px] mt-[44px]">
+        <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[90%] lg:w-full">
+          Related SAP Solutions for End-to-End <div className="md:block hidden" /> Transformation
+        </h2>
+        <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
+          {
+            relatedData.map((data, ind) => {
+              return (
+                <div key={ind} className="py-[26px] px-[28px] xl:py-[49px] xl:px-[50px] border border-[#707070]">
+                  <h3 className="xl:text-[25px] 4xl:text-[30px] leading-tight text-[20px] font-semibold">
+                    {data}
+                  </h3>
+                </div>
+              )
+            })
+          }
+        </div>
+      </section>
+      {/* agentchat section */}
+      <section className="xl:mt-[177px] mt-[59px] bg-[#184671] xl:pt-[176px] pt-[36px]">
+        <div className="custom-container md:pr-0 relative">
+          <div className="md:block hidden">
+            <Image
+              src="/images/services/success-plus/agentchat-desk.webp"
+              alt="agentchat-desktop image"
+              className="w-full h-full object-cover"
+              priority
+              width={0}
+              height={0}
+            />
+          </div>
+          <div className="md:hidden block">
+            <Image
+              src="/images/services/success-plus/Mobile/agentchat-mob.webp"
+              alt="agentchat-mob image"
+              className="w-full h-full object-cover"
+              priority
+              width={0}
+              height={0}
+            />
+          </div>
+          <div className="md:absolute top-0">
+            <div className="bg-[#FFFFFF] xl:pt-[52px] xl:px-[60px] xl:pb-[123px] pt-[30px] px-[26px] pb-[68px] md:w-[40%] md:ml-[48px]">
+              <h3 className="xl:text-[36px] 4xl:text-[50px] leading-tight text-[26px] font-light">AgentChat — Empowering HR Conversations on WhatsApp</h3>
+              <div className="absolute">
+                <Image
+                  src="/images/services/success-plus/whatsapp-icon.webp"
+                  alt="whatsapp-icon image"
+                  className="xl:w-[150px] xl:h-[150px] lg:w-[96px] lg:h-[96px] w-[80px] h-[80px] object-cover xl:mt-[50px] mt-[20px]"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="custom-container xl:mt-[60px] mt-[66px]">
+          <div className="grid lg:grid-cols-12 grid-cols-1 text-white lg:gap-[80px] gap-y-[28px]">
+            <div className="lg:col-span-6 lg:w-[88%]">
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[90%] lg:w-full">
+                AgentChat is a bi-directional WhatsApp conversational app, natively built on Salesforce, and integrates with SAP SuccessFactors to drive better HR service delivery.
+              </p>
+            </div>
+            <div className="lg:col-span-6">
+              <h3 className="xl:text-[24px] 4xl:text-[30px] leading-tight text-[18px] font-semibold">Key Features:</h3>
+              <UnorderedList arrName={agentData} ulClassName="w-[92%] lg:w-full xl:mt-[37px] mt-[17px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+            </div>
+          </div>
+          <div className="xl:mt-[64px] mt-[49px]">
+            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+          </div>
+        </div>
+      </section>
       {/* Contact Form */}
-      <div className="py-16 custom-container text-black">
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
+      <div className="xl:mt-[118px] mt-[48px] xl:mb-[92px] mb-[171px] custom-container text-black">
+        <ContactForm title={'Partner with Rialtes for Your SAP SuccessFactors Journey'} subtitle="Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation." className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
       </div >
     </div >
   );
