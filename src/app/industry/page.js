@@ -258,11 +258,11 @@ export default function Industry() {
         <div className="relative h-full custom-container flex items-center text-[#ffffff]">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
-              <h3 className="text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
+              <h3 className="text-[18px] md:text-[24px] font-bold ">
                 Industries
               </h3>
-              <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[55%]">
-                Transform how you<br /> engage with <br /> your clients
+              <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] ">
+                Transform how <br /> you engage with <br /> your clients
               </h2>
             </div>
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">

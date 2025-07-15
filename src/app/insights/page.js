@@ -9,9 +9,7 @@ import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import { HeroSection } from "../components/herosection";
 import Script from "next/script";
-
-const schemaData={
-
+const schemaData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "mainEntityOfPage": {
@@ -48,28 +46,61 @@ const schemaData={
   }
 
 }
+const caseStudies = [
+  {
+    id: "case-study-2",
+    image: "/images/case-studies/revolutionary-filter.webp",
+    alt: "Dealer management transformation",
+    category: "Manufacturing",
+    date: "03 June 2025",
+    title: "Revving Up Dealer Management with AutoSense by Rialtes",
+    description:
+      "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
+    link: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense",
+  },
+  {
+    id: "case-study-3",
+    image: "/images/case-studies/adaptis-for-carousel.webp",
+    alt: "Warranty claim experience",
+    category: "Manufacturing",
+    date: "30 May 2025",
+    title:
+      "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
+    description:
+      "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.",
+    link: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
+  },
+  {
+    id: "case-study-4",
+    image: "/images/case-studies/fiory-carosel.webp",
+    alt: "Self-service with SAP Fiori",
+    category: "Manufacturing",
+    date: "28 May 2025",
+    title:
+      "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+    description:
+      "Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability.",
+    link: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+  },
+];
 
 export default function InsightsPage() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
   const router = useRouter();
-
   useEffect(() => {
     setIsRouterReady(true);
   }, []);
-
   const handleMouseEnter = (blogName) => {
     return () => {
       setHoveredBlog(blogName);
     };
   };
-
   const handleMouseLeave = () => {
     return () => {
       setHoveredBlog(null);
     };
   };
-
   const handleClick = (blogName) => {
     return () => {
       if (isRouterReady) {
@@ -77,7 +108,6 @@ export default function InsightsPage() {
       }
     };
   };
-
   return (
     <div className="min-h-scree">
       <Seo
@@ -85,41 +115,32 @@ export default function InsightsPage() {
         description="Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation."
         canonical="https://www.rialtes.com/insights/"
       />
-       
-         <Script
+      <Script
         id="schema-insights"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-
       {/* Hero Section with Deep Blue Gradient Background */}
       <HeroSection title="Stay Ahead with Expert Industry Insights" subtitle="" mobimg="/images/insights/insight-header-banner-new.webp" deskimg="/images/insights/insight-header-banner-new.webp" extraImg="" />
       {/* Blog Section */}
-      <div
-        className="
-      custom-container"
-      >
+      <div className="custom-container">
         <section className="mb-16  md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
           <h2 className="text-[#000000] text-[20px] sm:text-[26px] py-6 my-8 max-w-4xl">
             Take a tour of our insights section to see our latest blogs, press
             releases, case studies, news coverage, updates and upcoming events.
           </h2>
-
           <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-6">
             <h2>Featured Blog</h2>
             <div className="hidden sm:block">
-              {" "}
               <Link
                 href="/insights/blogs"
-                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-              >
+                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
                 <span className="inline-flex items-center">See All Blogs</span>
               </Link>
             </div>
           </div>
-
           <div className="flex flex-col gap-6 lg:flex-col xl:flex-row">
             <div
               className="border w-full xl:w-2/5 lg:w-full border-gray-200 overflow-hidden"
@@ -142,20 +163,18 @@ export default function InsightsPage() {
                     alt="Green computing illustration showing tree and circuit integration"
                     fill
                     className="object-cover h-full"
-                    style={{objectPosition:"65% 70%"}}
+                    style={{ objectPosition: "65% 70%" }}
                     priority
                   />
                 </div>
               </div>
-
               <div
                 className="p-6 h-full"
                 style={{
                   transition: "background-color 0.3s ease",
                   backgroundColor:
                     hoveredBlog === "blog1" ? "#f1f1f1" : "transparent",
-                }}
-              >
+                }}>
                 <div className="flex flex-row items-center mb-4">
                   <span className="text-[#0092E0] font-medium">
                     Salesforce Agentforce
@@ -163,19 +182,15 @@ export default function InsightsPage() {
                   <span className="mx-2">|</span>
                   <span className="text-sm">30 Sept 2024</span>
                 </div>
-
                 <h3 className="mb-3">
                   How Salesforce Agentforce Actually Works
                 </h3>
-
                 <p className="mb-4">
                   Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
                 </p>
-
                 <Link
                   href="/insights/blogs/how-salesforce-agentforce-actually-works"
-                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                >
+                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
                   <span>Read More</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -194,15 +209,13 @@ export default function InsightsPage() {
                 </Link>
               </div>
             </div>
-
-            <div className="flex flex-col space-y-10 w-full  xl:w-3/5 lg:w-full   ">
+            <div className="flex flex-col space-y-10 w-full  xl:w-3/5 lg:w-full">
               <div
                 className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog2")}
                 onMouseLeave={handleMouseLeave("blog2")}
                 onClick={handleClick("/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
-                style={{ cursor: "pointer" }}
-              >
+                style={{ cursor: "pointer" }}>
                 <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden ">
                   <div
                     className="h-full w-full"
@@ -210,27 +223,24 @@ export default function InsightsPage() {
                       transition: "transform 0.3s ease",
                       transform:
                         hoveredBlog === "blog2" ? "scale(1.05)" : "scale(1)",
-                    }}
-                  >
+                    }}>
                     <Image
                       src="/images/blog/blog-2.webp"
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"
-                      style={{objectPosition:"95% 60%"}}
+                      style={{ objectPosition: "95% 60%" }}
                       priority
                     />
                   </div>
                 </div>
-
                 <div
                   className="p-6 sm:p-8 sm:w-1/2 bg-white flex flex-col justify-between "
                   style={{
                     transition: "background-color 0.3s ease",
                     backgroundColor:
                       hoveredBlog === "blog2" ? "#f1f1f1" : "transparent",
-                  }}
-                >
+                  }}>
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
                       Salesforce Agentforce
@@ -238,20 +248,16 @@ export default function InsightsPage() {
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">21 Oct 2024</span>
                   </div>
-
                   <h3 className="mb-3">
                     The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
                   </h3>
-
                   <p className="mb-2">
-                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  
+                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.
                   </p>
-
-                  <div className="">
+                  <div>
                     <Link
                       href="/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
-                      className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                    >
+                      className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
                       <span>Read More</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -271,14 +277,12 @@ export default function InsightsPage() {
                   </div>
                 </div>
               </div>
-
               <div
                 className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog3")}
                 onMouseLeave={handleMouseLeave("blog3")}
                 onClick={handleClick("/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
-                style={{ cursor: "pointer" }}
-              >
+                style={{ cursor: "pointer" }}>
                 <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
                   <div
                     className="h-full w-full"
@@ -286,27 +290,24 @@ export default function InsightsPage() {
                       transition: "transform 0.3s ease",
                       transform:
                         hoveredBlog === "blog3" ? "scale(1.05)" : "scale(1)",
-                    }}
-                  >
+                    }}>
                     <Image
                       src="/images/blog/blog-3.webp"
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"
-                        style={{objectPosition:"60% 50%"}}
+                      style={{ objectPosition: "60% 50%" }}
                       priority
                     />
                   </div>
                 </div>
-
                 <div
                   className="p-6 sm:p-8 sm:w-1/2 bg-white flex flex-col justify-between"
                   style={{
                     transition: "background-color 0.3s ease",
                     backgroundColor:
                       hoveredBlog === "blog3" ? "#f1f1f1" : "transparent",
-                  }}
-                >
+                  }}>
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
                       Salesforce Agentforce
@@ -314,31 +315,26 @@ export default function InsightsPage() {
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">28 Oct 2024</span>
                   </div>
-
                   <h3 className="mb-3">
                     Agents vs. Copilots vs. Bots: What&apos;s the Difference and
                     Why It Matters
                   </h3>
-
                   <p className="mb-2">
                     Tools like Agentforce are redefining how we view digital
                     assistants, bringing distinctions between Agents, Copilots,
                     and Bots to the forefront.
                   </p>
-
-                  <div className="">
+                  <div>
                     <Link
                       href="/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
-                      className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                    >
+                      className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
                       <span>Read More</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
                         fill="none"
                         viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
+                        stroke="currentColor">
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -352,45 +348,34 @@ export default function InsightsPage() {
               </div>
             </div>
           </div>
-
           <div className="block sm:hidden mt-12">
-            {" "}
             <Link
               href="/insights/blogs"
-              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-            >
+              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
               <span className="inline-flex items-center">See All Blogs</span>
             </Link>
           </div>
         </section>
       </div>
-
       {/* Case Studies Section */}
-
       <section className="mt-16 py-16 bg-[#f1f1f1]">
-        <div
-          className="
-        custom-container"
-        >
+        <div className="custom-container">
           <div className="lg:max-w-[800px]  xl:max-w-[1600px]">
             <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-6">
               <div>
                 <h2 className="mb-1">Case Studies</h2>
                 <p>Find our latest work and collaborations</p>
               </div>
-
               <div className="hidden sm:block">
                 <Link
                   href="/insights/case-studies"
-                  className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-                >
+                  className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
                   <span className="inline-flex items-center">
                     See All Case Studies
                   </span>
                 </Link>
               </div>
             </div>
-
             <div
               className="border h-full border-gray-200 overflow-hidden mb-6 flex flex-col md:flex-row"
               onMouseEnter={handleMouseEnter("case-study-1")}
@@ -401,9 +386,7 @@ export default function InsightsPage() {
                 transition: "background-color 0.3s ease",
                 backgroundColor:
                   hoveredBlog === "case-study-1" ? "#f1f1f1" : "#ffffff",
-              }}
-            >
-
+              }}>
               <div className="md:w-[80%] overflow-hidden">
                 <div
                   className="relative w-full h-64 md:h-full "
@@ -413,8 +396,7 @@ export default function InsightsPage() {
                       hoveredBlog === "case-study-1"
                         ? "scale(1.05)"
                         : "scale(1)",
-                  }}
-                >
+                  }}>
                   <Image
                     src="/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp"
                     alt="Diversity illustration"
@@ -438,163 +420,63 @@ export default function InsightsPage() {
                     Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense
                   </h3>
                   <p>
-              A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.
+                    A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.
                   </p>
                 </div>
               </div>
             </div>
-
-            {/*  */}
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-              <div
-                className="border border-gray-200 bg-[#ffffff] overflow-hidden"
-                onMouseEnter={handleMouseEnter("case-study-2")}
-                onMouseLeave={handleMouseLeave("case-study-2")}
-                onClick={handleClick("/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense")}
-                style={{
-                  cursor: "pointer",
-                  transition: "background-color 0.3s ease",
-                  backgroundColor:
-                    hoveredBlog === "case-study-2" ? "#f1f1f1" : "#ffffff",
-                }}
-              >
-                <div className="h-80 overflow-hidden">
-                  <div
-                    className="h-full "
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "case-study-2"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/case-studies/revolutionary-filter.webp"
-                      alt="Diversity illustration"
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
-                      priority
-                    />
+              {caseStudies.map((study) => (
+                <div
+                  key={study.id}
+                  className="border border-gray-200 bg-[#ffffff] overflow-hidden"
+                  onMouseEnter={handleMouseEnter(study.id)}
+                  onMouseLeave={handleMouseLeave(study.id)}
+                  onClick={handleClick(study.link)}
+                  style={{
+                    cursor: "pointer",
+                    transition: "background-color 0.3s ease",
+                    backgroundColor:
+                      hoveredBlog === study.id ? "#f1f1f1" : "#ffffff",
+                  }}
+                >
+                  <div className="h-80 overflow-hidden">
+                    <div
+                      className="h-full"
+                      style={{
+                        transition: "transform 0.3s ease",
+                        transform:
+                          hoveredBlog === study.id ? "scale(1.05)" : "scale(1)",
+                      }}
+                    >
+                      <Image
+                        src={study.image}
+                        alt={study.alt}
+                        fill
+                        sizes="(max-width: 640px) 100vw, 50vw"
+                        className="object-cover"
+                        priority
+                      />
+                    </div>
+                  </div>
+                  <div className="p-8">
+                    <div className="flex flex-row items-center mb-3">
+                      <span className="text-[#0092E0]">{study.category}</span>
+                      <span className="mx-2">|</span>
+                      <span className="text-sm">{study.date}</span>
+                    </div>
+                    <h3 className="mb-2">{study.title}</h3>
+                    <p>{study.description}</p>
                   </div>
                 </div>
-                <div className="p-8">
-                  <div className="flex flex-row items-center mb-3">
-                    <span className="text-[#0092E0]">Manufacturing</span>{" "}
-                    <span className="mx-2">|</span>
-                    <span className="text-sm">03 June 2025</span>
-                  </div>
-                  <h3 className="mb-2">
-                 Revving Up Dealer Management with AutoSense by Rialtes
-                  </h3>
-                  <p className="">
-                  A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.
-                  </p>
-                </div>
-              </div>
-
-              <div
-                className="border border-gray-200 bg-[#ffffff] overflow-hidden"
-                onMouseEnter={handleMouseEnter("case-study-3")}
-                onMouseLeave={handleMouseLeave("case-study-3")}
-                onClick={handleClick("/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud")}
-                style={{
-                  cursor: "pointer",
-                  transition: "background-color 0.3s ease",
-                  backgroundColor:
-                    hoveredBlog === "case-study-3" ? "#f1f1f1" : "#ffffff",
-                }}
-              >
-                <div className="h-80 overflow-hidden">
-                  <div
-                    className="h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "case-study-3"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/case-studies/adaptis-for-carousel.webp"
-                      alt="Diversity illustration"
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
-                      priority
-                    />
-                  </div>
-                </div>
-                <div className="p-8">
-                  <div className="flex flex-row items-center mb-3">
-                    <span className="text-[#0092E0]">Manufacturing</span>{" "}
-                    <span className="mx-2">|</span>
-                    <span className="text-sm">30 May 2025</span>
-                  </div>
-                  <h3 className="mb-2">Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience</h3>
-                  <p className="">
-                    A leading manufacturer of high-quality roofing solutions designed to protect what matters most. 
-                  </p>
-                </div>
-              </div>
-
-              <div
-                className="border border-gray-200 bg-[#ffffff] overflow-hidden"
-                onMouseEnter={handleMouseEnter("case-study-4")}
-                onMouseLeave={handleMouseLeave("case-study-4")}
-                onClick={handleClick("/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori")}
-                style={{
-                  cursor: "pointer",
-                  transition: "background-color 0.3s ease",
-                  backgroundColor:
-                    hoveredBlog === "case-study-4" ? "#f1f1f1" : "#ffffff",
-                }}
-              >
-                <div className="h-80 overflow-hidden">
-                  <div
-                    className="h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "case-study-4"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/case-studies/fiory-carosel.webp"
-                      alt="Diversity illustration"
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
-                      priority
-                    />
-                  </div>
-                </div>
-                <div className="p-8">
-                  <div className="flex flex-row items-center mb-3">
-                    <span className="text-[#0092E0]">Manufacturing</span>{" "}
-                    <span className="mx-2">|</span>
-                    <span className="text-sm">28 May 2025</span>
-                  </div>
-                  <h3 className="mb-2">
-                    150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization
-                  </h3>
-                  <p className="">
-                    Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability. 
-                  </p>
-                </div>
-              </div>
+              ))}
             </div>
+
           </div>
           <div className="block sm:hidden mt-12">
-            {" "}
             <Link
               href="/insights/case-studies"
-              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-            >
+              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
               <span className="inline-flex items-center">
                 See All Case Studies
               </span>
@@ -603,7 +485,7 @@ export default function InsightsPage() {
         </div>
       </section>
 
-         {/* Webinar Section */}
+      {/* Webinar Section */}
       <div
         className="
        custom-container"
@@ -625,7 +507,7 @@ export default function InsightsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {/* webinar 3 */}
-                <div
+            <div
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-2")}
               onMouseLeave={handleMouseLeave("webinar-2")}
@@ -703,7 +585,7 @@ export default function InsightsPage() {
               </div>
             </div>
 
-    <div
+            <div
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-2")}
               onMouseLeave={handleMouseLeave("webinar-2")}
@@ -859,9 +741,9 @@ export default function InsightsPage() {
             </div>
             {/* webinar 2 */}
 
-        
+
             {/* webinar 1 */}
-           
+
 
 
             {/* <div
@@ -955,12 +837,8 @@ export default function InsightsPage() {
       </div>
 
       {/* Contact Form Section */}
-      <div
-        className="py-16
-    custom-container
-        text-black"
-      >
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'max-w-4xl'} />
+      <div className="py-16 custom-container text-black">
+        <ContactForm title={'Take the next step to operational excellence with us.'} className={'w-[70%] lg:w-[50%] xl:w-[70%]'} />
       </div>
     </div>
   );

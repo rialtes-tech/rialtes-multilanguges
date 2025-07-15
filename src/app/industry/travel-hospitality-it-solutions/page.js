@@ -1,15 +1,11 @@
-
 "use client";
-
 import ContactForm from "@/app/components/contactform";
-import { HeroSection } from "@/app/components/herosection";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
-
+import UnorderedList from "@/app/components/unorderedList";
 export default function Page() {
-
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Service",
@@ -103,7 +99,6 @@ export default function Page() {
         },
         "url": "https://www.rialtes.com/solutions/industries/travel-transportation-hospitality-it-solutions"
     }
-
     const endToEndData = [
         "Industry-specific advisory services to shape your digital roadmap.",
         "Custom solution architecture and design for unique TTH needs.",
@@ -112,7 +107,6 @@ export default function Page() {
         "Agile implementation and integration using SAP, Salesforce, and MuleSoft.",
         "Continuous optimization and innovation post-go-live to keep you competitive."
     ]
-
     const industryData = [
         "Intelligent travel booking engines and reservation systems.",
         "Dynamic pricing and yield management tools.",
@@ -120,7 +114,6 @@ export default function Page() {
         "Transportation & fleet management solutions.",
         "Loyalty & rewards platform extensions for enhanced customer retention.",
     ]
-
     const optimizeData = [
         "Real-time inventory visibility for rooms, flights, seats, and transport assets.",
         "AI-powered demand forecasting to optimize pricing and availability.",
@@ -128,7 +121,6 @@ export default function Page() {
         "Cross-channel inventory sync between direct and OTA bookings.",
         "Integrated capacity management to prevent overbooking and missed opportunities.",
     ]
-
     const personalizedData = [
         "Unified customer profiles for hyper-targeted campaigns.",
         "AI-driven segmentation to create unique travel and guest experiences.",
@@ -136,14 +128,12 @@ export default function Page() {
         "Dynamic personalization based on travel preferences and behaviors.",
         "Automated pre-trip, in-trip, and post-trip journeys to keep customers engaged.",
     ]
-
     const rightTechData = [
         "Rialtes guides you in choosing, designing, and integrating solutions that truly work for your business.",
         "Combining SAP, Salesforce, Oracle, and MuleSoft for a 360-degree solution.",
         "AI, Automation, and Self-Service tools to improve efficiency and delight customers.",
         "Scalable, secure, and future-proof architectures designed for long-term growth.",
     ]
-
     const aiPoweredData = [
         "AI chatbots and virtual assistants for 24/7 traveler and guest support.",
         "Predictive maintenance for fleets and transport infrastructure.",
@@ -151,14 +141,12 @@ export default function Page() {
         "Personalized travel and stay recommendations based on customer behavior.",
         "AI-powered fraud prevention and risk management."
     ]
-
     const quickCommereceData = [
         "Instant upgrades and cross-sell opportunities during booking.",
         "Mobile-first experiences for check-in, concierge, and service requests.",
         "Real-time pricing and availability to capture every opportunity.",
         "Automated upsell and cross-sell at key touchpoints.",
     ]
-
     const smarterServiceData = [
         "Agentforce AI-powered service bots for real-time issue resolution.",
         "Personalized agent interactions using complete customer context.",
@@ -180,7 +168,6 @@ export default function Page() {
         "End-to-end workflows from booking to billing, operations to customer service.",
         "Data synchronization to ensure consistency and accuracy."
     ]
-
     const futureReadyData = [
         "Multi-level loyalty programs tailored for TTH customers.",
         "AI-based customer recognition for personalized offers and experiences.",
@@ -188,8 +175,6 @@ export default function Page() {
         "Gamification strategies to boost engagement and retention.",
         "Partner program integrations with airlines, hotels, and transport services."
     ]
-
-
     const turnSectionData = [
         "Unified dashboards for customer insights, sales, and operations.",
         "Real-time analytics for demand, capacity, and financial performance.",
@@ -206,16 +191,14 @@ export default function Page() {
                     keywords="home, website, welcome"
                     canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
                 />
-               
-                   <Script
-        id="schema-travel"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+                <Script
+                    id="schema-travel"
+                    type="application/ld+json"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+                />
                 {/* herosection */}
                 <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-                    {/* Desktop Image */}
                     <div className="hidden md:block">
                         <Image
                             src="/images/industry/travel-transporation/hero-section-desktop-banner.webp"
@@ -225,9 +208,7 @@ export default function Page() {
                             priority
                             className="transform transition-transform duration-500 group-hover:scale-110"
                         />
-
                     </div>
-
                     {/* Mobile Image */}
                     <div className="block md:hidden">
                         <Image
@@ -238,7 +219,6 @@ export default function Page() {
                             priority
                         />
                     </div>
-
                     <div className="relative h-full custom-container flex items-center">
                         <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                             <div className="col-span-12">
@@ -272,36 +252,22 @@ export default function Page() {
 
                     </div>
                 </section>
-
                 {/* end to end section */}
                 <section className="custom-container md:pr-0  max-md:px-0 xl:mt-[156px] mt-[102px]">
                     <div className="custom-container  md:pl-0 bg-[#727272]">
                         <div className="grid grid-cols-1 md:grid-cols-12 w-full md:gap-[40px] gap-y-[34px] md:pt-[75px] pt-[40px]">
-
                             <div className="xl:col-span-7 md:col-span-6 col-span-12 text-[#FFFFFF] md:pl-[61px] md:order-1 order-2">
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight 2xl:w-[88%]">
                                     Why Choose Rialtes for End-to-End Industry-Focused Transformation:
                                 </h2>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[34px]">With Rialtes, you get a partner who understands the nuances of TTH and delivers measurable outcomes.</p>
-
-                                <ul className="xl:space-y-[24px]  space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]">
-                                    {
-                                        endToEndData.map((data, ind) => {
-                                            return (
-                                                <li className="text-[16px] xl:text-[20px] leading-tight font-light" key={ind}>{data}</li>
-                                            )
-                                        })
-                                    }
-                                </ul>
+                                <UnorderedList arrName={endToEndData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                             </div>
-
                             <div className="xl:col-span-5 md:col-span-6 col-span-12 md:order-2 order-1">
-
-                                {/* Desktop Image */}
                                 <div className="hidden md:block relative w-full h-full">
                                     <Image
                                         src="/images/industry/travel-transporation/end-to-end-desktop-img.webp"
-                                        alt="desktop image"
+                                        alt="end-to-end desktop image"
                                         className="h-full w-full"
                                         width={0}
                                         height={0}
@@ -309,37 +275,36 @@ export default function Page() {
                                         priority
                                     />
                                 </div>
-
                                 {/* Mobile Image */}
                                 <div className="block md:hidden relative w-full h-[400px] sm:h-[600px] md:h-[700px]">
                                     <Image
                                         src="/images/industry/travel-transporation/Mobile/end-to-end-mob-img.webp"
-                                        alt="mobile image"
+                                        alt="end-to-end mobile image"
                                         fill
                                         style={{ objectFit: "cover", objectPosition: "80% 20%" }}
                                         priority
                                         className="h-full"
                                     />
                                 </div>
-
                             </div>
-
                         </div>
                         <div className="xl:mt-[49px] mt-[42px] md:pl-[60px]">
                             <LearnMore />
                         </div>
                     </div>
                 </section>
-
                 {/* industry focused section */}
                 <section className="text-[#ffffff] relative">
                     <div className=" lg:mt-[86px] mt-[46px]">
                         {/* Mobile View */}
                         <div className="block lg:hidden">
-                            <img
+                            <Image
                                 src="/images/industry/travel-transporation/Mobile/industry-focused-mob-img.webp"
-                                alt="thought-leadership-mob-img"
+                                alt="industry-focused-mob-img"
                                 className="w-full h-auto"
+                                priority
+                                width={0}
+                                height={0}
                             />
                             <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[77px]" style={{
                                 background: "#073259",
@@ -347,22 +312,10 @@ export default function Page() {
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight">
                                     Launch Fast and Stay Ahead with Industry-Focused Accelerators:
                                 </h2>
-                                {/* <h3 className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
-                                    Launch Fast and Stay Ahead
-                                </h3> */}
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
                                     Our purpose-built accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers, and are designed for Travel, Transportation, and Hospitality cover:
                                 </p>
-                                <ul className="xl:space-y-[24px]  space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]">
-                                    {
-                                        industryData.map((data, ind) => {
-                                            return (
-                                                <li className="text-[16px] xl:text-[20px] leading-tight font-light" key={ind}>{data}</li>
-                                            )
-                                        })
-                                    }
-                                </ul>
-
+                                <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
                                     <LearnMore bgcolor="#006FBE" />
                                 </div>
@@ -373,16 +326,13 @@ export default function Page() {
                         <div className="hidden lg:block w-full h-[980px] lg:h-[670px] xl:h-[1150px] 2xl:h-[1000px] 3xl:h-[950px]">
                             <Image
                                 src="/images/industry/travel-transporation/industry-focused-desk-img.webp"
-                                alt="mobile image"
+                                alt="industry-focused mobile image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
                                 style={{ objectPosition: "35% 20%" }}
                                 priority
                             />
-
-
-
                             <div className="absolute inset-0 lg:top-[-87px]">
                                 <div className="custom-container w-full h-full flex items-start justify-end">
                                     <div className="relative 3xl:w-[48%] 2xl:w-[54%] xl:w-[48%] lg:w-[42%] w-[60%] h-full">
@@ -398,36 +348,20 @@ export default function Page() {
                                             <h2 className="text-[26px] 2xl:text-[60px] xl:text-[52px] leading-tight">
                                                 Launch Fast and Stay Ahead with Industry-Focused Accelerators:
                                             </h2>
-                                            {/* <p className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
-                                                Launch Fast and Stay Ahead
-                                            </p> */}
                                             <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
                                                 Our purpose-built accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers, and are designed for Travel, Transportation, and Hospitality cover:
                                             </p>
-                                            <ul className="xl:space-y-[24px]  space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]">
-                                                {
-                                                    industryData.map((data, ind) => {
-                                                        return (
-                                                            <li className="text-[16px] xl:text-[20px] leading-tight font-light" key={ind}>{data}</li>
-                                                        )
-                                                    })
-                                                }
-                                            </ul>
-
+                                            <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                         </div>
                                         <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
                                             <LearnMore bgcolor="#006FBE" />
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                 </section>
-
                 {/* elevate travel section */}
                 <section className="custom-container lg:pr-0 max-lg:px-0 lg:mt-[120px] mt-[10px]">
                     <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -442,15 +376,7 @@ export default function Page() {
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[26px]  md:w-[70%] lg:w-[90%]">
                                     With Rialtes, every journey becomes a brand-defining moment, empowering travel businesses to create seamless, hyper-personalized experiences:
                                 </p>
-                                <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[26px] pl-[20px] md:w-[90%] lg:w-[90%]">
-                                    {
-                                        elavateTravelData.map((data, ind) => {
-                                            return (
-                                                <li className="text-[16px] xl:text-[20px] leading-tight font-light" key={ind}>{data}</li>
-                                            )
-                                        })
-                                    }
-                                </ul>
+                                <UnorderedList arrName={elavateTravelData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[26px] pl-[20px] md:w-[90%] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                             </div>
                         </div>
                         <div className="lg:col-span-7 col-span-12 lg:order-2 order-1 max-lg:px-[36px]">
@@ -458,7 +384,7 @@ export default function Page() {
                             <div className="hidden lg:block relative w-full h-full top-[-52px] right-0 z-0">
                                 <Image
                                     src="/images/industry/travel-transporation/elavate-travel-desk-img.webp"
-                                    alt="desktop image"
+                                    alt="elavate-travel desktop image"
                                     className="w-full h-full"
                                     width={0}
                                     height={0}
@@ -466,12 +392,11 @@ export default function Page() {
                                     priority
                                 />
                             </div>
-
                             {/* Mobile Image */}
-                            <div className="block lg:hidden  w-full h-[500px] sm:h-[700px] md:h-[750px] relative">
+                            <div className="block lg:hidden w-full h-[500px] sm:h-[700px] md:h-[750px] relative">
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/elavate-travel-mob-img.webp"
-                                    alt="mobile image"
+                                    alt="elavate-travel mobile image"
                                     width={0}
                                     height={0}
                                     style={{ objectFit: "cover", objectPosition: "20% 20%" }}
@@ -482,14 +407,13 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
-
                 {/* personalized engagement section */}
                 <section className="xl:mt-0 mt-[65px] w-full h-full relative">
                     {/*  Desktop */}
                     <div className="hidden md:block h-full">
                         <Image
                             src="/images/industry/travel-transporation/personalized-img-desk1.webp"
-                            alt="desktop background"
+                            alt="personalized desktop background"
                             width={0}
                             height={0}
                             className="h-full w-full"
@@ -497,12 +421,11 @@ export default function Page() {
                             style={{ objectFit: "cover" }}
                         />
                     </div>
-
                     {/*  Mobile */}
                     <div className="block md:hidden h-full">
                         <Image
                             src="/images/industry/travel-transporation/Mobile/personalized-img-mob.webp"
-                            alt="mobile background"
+                            alt="personalized mobile background"
                             className="h-full w-full"
                             priority
                             width={0}
@@ -518,20 +441,9 @@ export default function Page() {
                                         Personalized Engagement with Salesforce Marketing Cloud + Travel & Hospitality Cloud
                                     </h2>
                                     <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[53px] mt-[26px] xl:w-[90%]">Unlock deeper connections and drive repeat business through intelligent marketing:</p>
-
                                 </div>
                                 <div>
-                                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc md:mt-[0px] mt-[38px] pl-[20px]">
-                                        {
-                                            personalizedData.map((data, ind) => {
-                                                return (
-                                                    <li className="text-[16px] xl:text-[20px] leading-tight font-normal" key={ind}>{data}</li>
-                                                )
-                                            })
-                                        }
-                                    </ul>
-
-                                    
+                                    <UnorderedList arrName={personalizedData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc md:mt-[0px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                                 </div>
                             </div>
                         </div>
@@ -540,14 +452,11 @@ export default function Page() {
                         <LearnMore />
                     </div>
                 </section>
-
                 {/* optimize section */}
                 <section className="relative xl:mt-[114px] mt-[79px]  max-md:px-0">
-
                     <div className="custom-container max-md:px-0">
                         {/* Mobile Background */}
                         <div className="block md:hidden w-full h-full">
-
                             <Image
                                 src="/images/industry/travel-transporation/Mobile/optimize-asset-mob-img.webp"
                                 alt="mobile background"
@@ -555,7 +464,6 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 priority
-
                             />
                         </div>
                         {/* Desktop Background */}
@@ -585,20 +493,9 @@ export default function Page() {
                                     <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
                                         Maximize utilization, reduce wastage, and increase revenue:
                                     </p>
-                                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]">
-                                        {optimizeData.map((data, ind) => (
-                                            <li
-                                                className="text-[16px] xl:text-[20px] leading-tight font-light"
-                                                key={ind}
-                                            >
-                                                {data}
-                                            </li>
-                                        ))}
-                                    </ul>
-
+                                    <UnorderedList arrName={optimizeData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 md:bottom-[-26px] bottom-[60px]  max-md:ml-[36px]">
@@ -619,37 +516,23 @@ export default function Page() {
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[20px] 2xl:w-[80%]">
                                     Keep your guests and travelers coming back for more by building emotional loyalty, not just transactional.
                                 </p>
-                                <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]">
-                                    {futureReadyData.map((data, ind) => (
-                                        <li
-                                            className="text-[16px] xl:text-[20px] leading-tight font-normal"
-                                            key={ind}
-                                        >
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
-
-                                <div className="mt-[44px] ">
+                                <UnorderedList arrName={futureReadyData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
+                                <div className="mt-[44px]">
                                     <LearnMore />
                                 </div>
                             </div>
                         </div>
-
                         <div className="grid md:col-span-6 lg:col-span-4 relative md:order-2 order-1">
                             {/* Mobile Background */}
                             <div className="block md:hidden absolute bottom-0 w-full h-1/2 bg-[#EBEBEB] z-10 pointer-events-none" />
-
                             <div className="block md:hidden w-full h-full px-[36px] relative z-20">
-
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/driving-repeat-mob-img.webp"
-                                    alt="mobile background"
+                                    alt="driving-repeat mobile background"
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
                                     priority
-
                                 />
                             </div>
                             {/* Desktop Background */}
@@ -657,7 +540,7 @@ export default function Page() {
                             <div className="hidden md:flex w-full items-center z-20">
                                 <Image
                                     src="/images/industry/travel-transporation/driving-repeat-desk-img.webp"
-                                    alt="mobile background"
+                                    alt="driving-repeat mobile background"
                                     className="w-full h-[80%] py-auto object-cover"
                                     width={0}
                                     height={0}
@@ -667,7 +550,6 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-
                 </section>
                 {/* flawless backend section  */}
                 <section className="custom-container xl:mt-[75px] mt-[60px] lg:pr-0 max-md:px-0">
@@ -676,10 +558,9 @@ export default function Page() {
                             <div className="md:col-span-6 col-span-12">
                                 {/* Mobile img */}
                                 <div className="block md:hidden w-full h-full">
-
                                     <Image
                                         src="/images/industry/travel-transporation/Mobile/flawless-backend-mob-img.webp"
-                                        alt="mobile background"
+                                        alt="flawless-backend mobile background"
                                         className="w-full h-full object-cover"
                                         width={0}
                                         height={0}
@@ -691,7 +572,7 @@ export default function Page() {
                                 <div className="hidden md:block w-full h-full">
                                     <Image
                                         src="/images/industry/travel-transporation/flawless-backend-desk-img.webp"
-                                        alt="mobile background"
+                                        alt="flawless-backend mobile background"
                                         className="w-full h-full object-cover"
                                         width={0}
                                         height={0}
@@ -710,32 +591,17 @@ export default function Page() {
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[29px] mt-[26px]">
                                     Integrate your front-end experience with robust back-end operations:
                                 </p>
-                                <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[29px] mt-[32px] pl-[20px]">
-                                    {flawlessData.map((data, ind) => (
-                                        <li
-                                            className="text-[16px] xl:text-[20px] leading-tight font-light"
-                                            key={ind}
-                                        >
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={flawlessData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[29px] mt-[32px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                             </div>
                         </div>
                     </div>
                 </section>
                 {/* turn data section */}
-                <section
-                    className="relative bg-[url('/images/industry/travel-transporation/Mobile/turn-data-mob-bg.webp')] 
-             md:bg-[url('/images/industry/travel-transporation/turn-data-desk-bg.webp')] 
-             bg-cover bg-center bg-no-repeat lg:mt-[76px] mt-[68px]"
-                >
+                <section className="relative bg-[url('/images/industry/travel-transporation/Mobile/turn-data-mob-bg.webp')] 
+                               md:bg-[url('/images/industry/travel-transporation/turn-data-desk-bg.webp')] bg-cover bg-center bg-no-repeat lg:mt-[76px] mt-[68px]">
                     <div className="custom-container h-full flex items-center max-md:px-0">
-
                         <div className="relative w-full max-md:mt-[162px]  max-md:mx-auto md:w-1/2 xl:w-1/2">
-
                             <div className="absolute inset-0 bg-[#363636] mix-blend-multiply z-0"></div>
-
                             <div className="relative z-10 text-white xl:pt-[49px] xl:pb-[77px] xl:px-[77px] pt-[55px] pb-[51px] px-[36px]">
                                 <h2 className="text-[26px] xl:text-[54px] leading-tight">
                                     Turn Data into Action
@@ -746,13 +612,7 @@ export default function Page() {
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[32px] mt-[23px]">
                                     Enable data-driven leadership and operational excellence:
                                 </p>
-                                <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[29px] mt-[32px] pl-[20px] lg:w-[90%]">
-                                    {turnSectionData.map((data, ind) => (
-                                        <li className="text-[16px] xl:text-[20px] leading-tight font-light" key={ind}>
-                                            {data}
-                                        </li>
-                                    ))}
-                                </ul>
+                                <UnorderedList arrName={turnSectionData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[29px] mt-[32px] pl-[20px] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[63px] mt-[32px] md:ml-[10px]">
                                     Let data lead the way to better decisions.
                                 </p>
@@ -760,27 +620,24 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
-
                 {/* why the right technology section */}
                 <section className="xl:mt-[86px] mt-[53px] relative">
                     {/* Mobile Background */}
                     <div className="block md:hidden w-full h-full">
-
                         <Image
                             src="/images/industry/travel-transporation/Mobile/right-technology-mob-img.webp"
-                            alt="mobile background"
+                            alt="right-technology mobile background"
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
                             priority
-
                         />
                     </div>
                     {/* Desktop Background */}
                     <div className="hidden md:block w-full h-full">
                         <Image
                             src="/images/industry/travel-transporation/right-technology-desk-img.webp"
-                            alt="mobile background"
+                            alt="right-technology mobile background"
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -788,7 +645,6 @@ export default function Page() {
                             priority
                         />
                     </div>
-
                     <div className="custom-container text-[#ffffff] md:mt-[-16%] mt-[-40%] relative">
                         <div className="bg-[#006FBE] lg:px-[70px] px-[26px]">
                             <div className="grid lg:grid-cols-2 grid-cols-1 lg:py-[77px] pt-[38px] pb-[55px] lg:gap-[80px] xl:gap-[40px]">
@@ -801,22 +657,12 @@ export default function Page() {
                                     <p className="text-[16px] xl:text-[20px] leading-tight font-normal lg:mt-0 mt-[17px]">
                                         Choosing the right solution isn’t just about software, it’s about business outcomes:
                                     </p>
-                                    <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]">
-                                        {rightTechData.map((data, ind) => (
-                                            <li
-                                                className="text-[16px] xl:text-[20px] leading-tight font-light"
-                                                key={ind}
-                                            >
-                                                {data}
-                                            </li>
-                                        ))}
-                                    </ul>
+                                    <UnorderedList arrName={rightTechData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
                 {/* Ai powered section */}
                 <section className="xl:mt-[102px] mt-[64px] custom-container max-md:px-0">
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-[20px] xl:gap-[40px] md:gap-[60px] gap-y-[44px]">
@@ -830,17 +676,7 @@ export default function Page() {
                             <p className=" xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[42px] mt-[20px]">
                                 Rialtes helps you adopt AI in ways that matter to your customers and your bottom line.
                             </p>
-                            <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]">
-                                {aiPoweredData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[20px] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
-
+                            <UnorderedList arrName={aiPoweredData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                         </div>
                         <div className="md:order-2 order-1 2xl:col-span-6 md:col-span-6 lg:col-span-5 col-span-12">
                             {/* Mobile Background */}
@@ -872,7 +708,6 @@ export default function Page() {
                         <LearnMore />
                     </div>
                 </section>
-
                 {/* quick commerce section */}
                 <section className="xl:mt-[102px] mt-[64px] custom-container max-lg:px-0 lg:pl-0">
                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px] xl:gap-[60px] lg:gap-[60px] gap-y-[44px]">
@@ -886,16 +721,7 @@ export default function Page() {
                             <p className=" xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[42px] mt-[20px]">
                                 Partner with Rialtes to offer experiences as fast and personalized as your customers expect.SAP and Salesforce enabling real-time bookings and confirmations.
                             </p>
-                            <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]">
-                                {quickCommereceData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[20px] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[36px]">
                                 <LearnMore />
                             </div>
@@ -903,10 +729,9 @@ export default function Page() {
                         <div className="order-1 lg:col-span-7 col-span-12">
                             {/* Mobile Background */}
                             <div className="block lg:hidden w-full h-full">
-
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/quick-commerce-mob-img.webp"
-                                    alt="mobile background"
+                                    alt="quick-commerce mobile background"
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -917,7 +742,7 @@ export default function Page() {
                             <div className="hidden lg:block w-full h-full">
                                 <Image
                                     src="/images/industry/travel-transporation/quick-commerce-desk-img.webp"
-                                    alt="mobile background"
+                                    alt="quick-commerce mobile background"
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -926,9 +751,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-
                 </section>
-
                 {/* smarter service section */}
                 <section className="md:pt-[98px] md:mt-0 mt-[67px] custom-container max-md:px-0 bg-[#F5F5F5]">
                     <h2 className="2xl:text-[60px] xl:text-[56px] text-[26px] md:block hidden leading-tight">
@@ -945,16 +768,7 @@ export default function Page() {
                             <p className="xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[34px] mt-[23px]">
                                 Deliver service that makes every customer feel valued and understood.
                             </p>
-                            <ul className="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]">
-                                {smarterServiceData.map((data, ind) => (
-                                    <li
-                                        className="text-[16px] xl:text-[20px] leading-tight font-normal"
-                                        key={ind}
-                                    >
-                                        {data}
-                                    </li>
-                                ))}
-                            </ul>
+                            <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                             <div className="xl:mt-[36px] mt-[36px]">
                                 <LearnMore />
                             </div>
@@ -965,7 +779,7 @@ export default function Page() {
 
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/smarter-service-mob-img.webp"
-                                    alt="mobile background"
+                                    alt="smarter-service mobile background"
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -976,7 +790,7 @@ export default function Page() {
                             <div className="hidden md:block w-full h-full">
                                 <Image
                                     src="/images/industry/travel-transporation/smarter-service-desk-img.webp"
-                                    alt="mobile background"
+                                    alt="smarter-service mobile background"
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -985,13 +799,12 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-
                 </section>
                 {/* Contact Form */}
                 <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
                     <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider, Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
-                </section >
-            </div >
-        </section >
+                </section>
+            </div>
+        </section>
     )
 }

@@ -1,10 +1,8 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Script from "next/script";
-
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -75,35 +73,94 @@ const Services = () => {
                 {latestServices.map((services) => (
                     <ServicesCard key={services.id} services={services} />
                 ))}
-
-
             </div>
         </div>
     );
 };
-
+const brandStories = [
+    {
+        image: "/images/about-us/lifescience.webp",
+        alt: "Life Sciences Company",
+        description:
+            "Launching comprehensive patient centric solution for the largest European life sciences company in United States",
+    },
+    {
+        image: "/images/about-us/singapore.webp",
+        alt: "Singapore’s Largest Employer",
+        description:
+            "Empowering Singapore’s largest employer to run their business every day",
+    },
+    {
+        image: "/images/about-us/automotive.webp",
+        alt: "India’s Largest Automotive Manufacturer",
+        description:
+            "Accelerating India’s Largest automotive manufacturer to expand in North America",
+    },
+];
+const corePrinciples = [
+    {
+        image: "/images/about-us/trust.svg",
+        label: "Trust",
+        alt: "Trust Principle Icon",
+        width: { base: 135, xl: 177 },
+        height: { base: 135, xl: 177 },
+    },
+    {
+        image: "/images/about-us/transperancy.svg",
+        label: "Transparency",
+        alt: "Transparency Principle Icon",
+        width: { base: 150, xl: 192 },
+        height: { base: 150, xl: 192 },
+    },
+    {
+        image: "/images/about-us/commitment.svg",
+        label: "Commitment",
+        alt: "Commitment Principle Icon",
+        width: { base: 150, xl: 192 },
+        height: { base: 150, xl: 192 },
+    },
+];
+const missionCards = [
+    {
+        headingBold: "Simplify",
+        headingLight: "Businesses.",
+        subheading: "Drive Efficiency, Accelerate Growth.",
+        description:
+            "Transforming complexity into clarity with intelligent, scalable solutions.",
+    },
+    {
+        headingBold: "Enable",
+        headingLight: "Solutions.",
+        subheading: "Drive Real Outcomes.",
+        description:
+            "Helping enterprises innovate, transform, and lead with confidence.",
+    },
+    {
+        headingBold: "Empower",
+        headingLight: "Customers.",
+        subheading: "Drive Business Forward.",
+        description:
+            "Delivering intelligent solutions that put customers at the center of your business.",
+    },
+];
 
 export default function About() {
     return (
         <div className="min-h-screen">
-            {/* seo and schema tag */}
             <Seo
                 title="About Us | Rialtes - AI-Powered Business Transformation"
                 description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/"}
             />
-         
-               <Script
-        id="schema-about"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <Script
+                id="schema-about"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative">
-                <div
-                    className="custom-container lg:!pr-0 overflow-hidden max-md:px-0"
-                >
+                <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0">
                     {/* Image Element */}
                     <Image
                         src="/images/about-us/header-logo.webp"
@@ -112,7 +169,6 @@ export default function About() {
                         width={0}
                         height={0}
                     />
-
                     {/* Content Box */}
                     <div className="flex bg-[#01335B] xl:flex-row flex-col  xl:gap-7 gap-5 xl:p-14 p-7 text-white absolute max-md:left-[9%] xl:w-[63%]  w-[82%] bottom-[-140px] xl:bottom-[-150px] xl:h-[270px] 4xl:h-[340px] justify-center xl:items-center">
                         <div className="text-left xl:w-[60%]">
@@ -122,169 +178,100 @@ export default function About() {
                         <div className="4xl:text-[33px] xl:text-[22px] text-[18px] leading-tight xl:w-[50%]">Imagining how the most complex task can be made simple with AI, data, and technology.</div>
                     </div>
                 </div>
-
             </section>
-
             {/* Mission & Vision Section */}
-            <div
-                className="mt-40 custom-container">
-                <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[76%] 4xl:w-[100%]">World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.</h1>
+            <div className="mt-40 custom-container">
+                <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[76%] 4xl:w-[100%]">
+                    World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.
+                </h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
-                    <div className="relative overflow-hidden">
-                        <Image
-                            src="/images/about-us/lifescience.webp"
-                            alt="Employee and Client-centric approach"
-                            width={100}
-                            height={100}
-                            priority
-                            className="w-full h-full transition-transform duration-300 hover:scale-105"
-                        />
-                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 4xl:text-[25px] xl:text-[22px] text-[20px]">Launching comprehensive patient centric solution for the largest European life sciences company in United States</div>
-                    </div>
-                    <div className="relative overflow-hidden">
-                        <Image
-                            src="/images/about-us/singapore.webp"
-                            alt="Employee and Client-centric approach"
-                            width={100}
-                            height={100}
-                            priority
-                            className="w-full h-full transition-transform duration-300 hover:scale-105"
-                        />
-                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 4xl:text-[25px] xl:text-[22px] text-[20px]">Empowering Singapore’s largest employer to run their business every day</div>
-
-                    </div>
-                    <div className="relative overflow-hidden">
-                        <Image
-                            src="/images/about-us/automotive.webp"
-                            alt="Employee and Client-centric approach"
-                            width={100}
-                            height={100}
-                            priority
-                            className="w-full h-full transition-transform duration-300 hover:scale-105"
-                        />
-                        <div className="absolute top-0 text-white pt-10 pl-10 pr-10 4xl:text-[25px] xl:text-[22px] text-[20px]">Accelerating India’s Largest automotive manufacturer to expand in North America</div>
-                    </div>
+                    {brandStories.map((story, index) => (
+                        <div key={index} className="relative overflow-hidden">
+                            <Image
+                                src={story.image}
+                                alt={story.alt}
+                                width={100}
+                                height={100}
+                                priority
+                                className="w-full h-full transition-transform duration-300 hover:scale-105"
+                            />
+                            <div className="absolute top-0 text-white pt-10 pl-10 pr-10 4xl:text-[25px] xl:text-[22px] text-[20px]">
+                                {story.description}
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-            
+            {/* over section */}
             <section className="xl:py-14 py-10 bg-gray-100 mt-20">
-                <div  className="custom-container">
+                <div className="custom-container">
                     <div className="container mx-auto">
-                        <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px]">Over the last several years, we have built our relationships with our clients, our employees, and our partners on core fundamental principles</h3>
-                        <div className="flex flex-col xl:flex-row mb-8 mt-16  xl:gap-40 gap-10">
-                            <div className="grid justify-center items-center">
-                                <Image
-                                    src="/images/about-us/trust.svg"
-                                    alt="Employee and Client-centric approach"
-                                    width={100}
-                                    height={100}
-                                    priority
-                                    className="xl:w-[177px] xl:h-[177px] w-[135px] h-[135px]"
-                                />
-                                <p className="mt-5 text-center 4xl:text-[35px] xl:text-[30px] text-[22px]">Trust</p>
-                            </div>
-                            <div className="grid justify-center items-center">
-                                <Image
-                                    src="/images/about-us/transperancy.svg"
-                                    alt="Employee and Client-centric approach"
-                                    width={100}
-                                    height={100}
-                                    priority
-                                    className="xl:w-[192px] xl:h-[192px] w-[150px] h-[150px]"
-                                />
-                                <p className="mt-5 text-center 4xl:text-[35px] xl:text-[30px] text-[22px]">Transparency</p>
-                            </div>
-                            <div className="grid justify-center items-center">
-                                <Image
-                                    src="/images/about-us/commitment.svg"
-                                    alt="Employee and Client-centric approach"
-                                    width={100}
-                                    height={100}
-                                    priority
-                                    className="xl:w-[192px] xl:h-[192px] w-[150px] h-[150px]"
-                                />
-                                <p className="mt-5 text-center 4xl:text-[35px] xl:text-[30px] text-[22px]">Commitment</p>
-                            </div>
+                        <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px]">
+                            Over the last several years, we have built our relationships with our clients, our employees, and our partners on core fundamental principles
+                        </h3>
+                        <div className="flex flex-col lg:flex-row mb-8 mt-16 lg:gap-40 gap-10">
+                            {corePrinciples.map((item, index) => (
+                                <div key={index} className="grid">
+                                    <Image
+                                        src={item.image}
+                                        alt={item.alt}
+                                        width={100}
+                                        height={100}
+                                        priority
+                                        className={`w-[${item.width.base}px] h-[${item.height.base}px] xl:w-[${item.width.xl}px] xl:h-[${item.height.xl}px] max-md:m-auto`}
+                                    />
+                                    <p className="mt-5 lg:text-center max-md:text-center 4xl:text-[35px] xl:text-[30px] text-[22px]">
+                                        {item.label}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
             </section>
-
+            {/* what we do section*/}
             <section className="xl:py-16 pt-10">
-                <div
-                    className="custom-container  max-md:px-0">
+                <div className="custom-container max-md:px-0">
                     <div className="container mx-auto">
                         <h2 className="text-[#000000] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">What we do</h2>
                         <p className="my-10 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">At the intersection of technology and business, we deliver solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact.</p>
-
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-20 mb-20 mt-20 grid-cols-1">
-                            <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12 h-[370px] max-md:h-[340px] xl:mt-[40px]">
-                                    <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
-                                    <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
-
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
-                                        Simplify <br /> <span className="font-normal">Businesses.</span>
-                                    </h2>
-                                    <p className="mt-3 4xl:text-[30px] xl:text-[22px] text-[22px] leading-tight font-medium text-gray-900">
-                                        Drive Efficiency, <br /> Accelerate Growth.
-                                    </p>
-                                    <p className="mt-4 text-gray-600 text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight">
-                                        Transforming complexity into clarity with intelligent, scalable solutions.
-                                    </p>
-                                    <div className="absolute bottom-[3rem] w-12 border-t border-gray-400"></div>
+                            {missionCards.map((card, index) => (
+                                <div key={index}>
+                                    <div className="relative border-b border-l border-r border-gray-300 p-12 h-[370px] max-md:h-[400px] xl:mt-[40px]">
+                                        <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
+                                        <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
+                                        <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
+                                            {card.headingBold} <br />
+                                            <span className="font-normal">{card.headingLight}</span>
+                                        </h2>
+                                        <p className="mt-3 4xl:text-[30px] xl:text-[22px] text-[22px] leading-tight font-medium text-gray-900">
+                                            {card.subheading}
+                                        </p>
+                                        <p className="mt-4 text-gray-600 text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight">
+                                            {card.description}
+                                        </p>
+                                        <div className="absolute bottom-[3rem] w-12 border-t border-gray-400"></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12  h-[370px] max-md:h-[400px] xl:mt-[40px]">
-                                    <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
-                                    <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
-
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
-                                        Enable <br /> <span className="font-normal">Solutions.</span>
-                                    </h2>
-                                    <p className="mt-3 4xl:text-[30px] xl:text-[22px] text-[22px] leading-tightfont-medium text-gray-900">
-                                        Drive Real Outcomes.
-                                    </p>
-                                    <p className="mt-4 text-gray-600 text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight">
-                                        Helping enterprises innovate, transform, and lead with confidence.
-                                    </p>
-                                    <div className="absolute bottom-[3rem] w-12 border-t border-gray-400"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="relative border-b border-l border-r border-gray-300 p-12  h-[370px] max-md:h-[400px] xl:mt-[40px]">
-                                    <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
-                                    <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
-
-                                    <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
-                                        Empower  <br /> <span className="font-normal">Customers.</span>
-                                    </h2>
-                                    <p className="mt-3 4xl:text-[30px] xl:text-[22px] text-[22px] leading-tight font-medium text-gray-900">
-                                        Drive Business Forward.
-                                    </p>
-                                    <p className="mt-4 text-gray-600 text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight">
-                                        Delivering intelligent solutions that put customers at the center of your business.
-                                    </p>
-                                    <div className="absolute bottom-[3rem] w-12 border-t border-gray-400"></div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
+
                     </div>
                 </div>
             </section>
-
+            {/* welcome section */}
             <section className="relative h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
                 <Image
                     src="/images/about-us/welcome-to.webp"
-                    alt="GROW with SAP"
+                    alt="welcome image"
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
                 />
-                <div  className=" h-full relative ml-[15px]   xl:ml-[280px] xl:mr-[156px]  md:ml-[100px]" >
+                <div className=" h-full relative ml-[15px] xl:ml-[280px] xl:mr-[156px] md:ml-[100px]">
                     <div className="flex justify-end">
-                        <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px]  xl:w-[580px] xl:h-[500px] ">
+                        <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[580px] xl:h-[500px]">
                             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
                                 <h3 className="4xl:text-[45px] xl:text-[38px] text-[34px] leading-tight font-bold">Welcome to the Future of Intelligent Business.</h3>
@@ -295,17 +282,13 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <div
-                className="mt-[3rem] xl:mt-0   custom-container max-md:px-0">
+            <div className="mt-[3rem] xl:mt-0 custom-container max-md:px-0">
                 <section className="pb-16 bg-white">
                     <Services />
                 </section>
             </div>
-            {/* SuccessFactors
-
             {/* Contact Form Section */}
-            <div
-                className="custom-container text-black  xl:pt-16 pb-20">
+            <div className="custom-container text-black xl:pt-16 pb-20">
                 <ContactForm className="xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]" />
             </div>
         </div>
