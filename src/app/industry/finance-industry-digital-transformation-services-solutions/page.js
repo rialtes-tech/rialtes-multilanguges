@@ -308,8 +308,8 @@ export default function Page() {
           <div className="grid md:grid-cols-2 xl:grid-cols-2 xl:gap-14 gap-20 mb-20 mt-20 grid-cols-1 items-stretch">
             {challenges.map((item, i) => (
               <div key={i} className="relative h-full">
-                <div className="border border-gray-300 xl:p-12 p-10 xl:mt-[40px] h-full">
-                  <div className="absolute lg:mt-[-80px] xl:mt-[-90px] 4xl:mt-[-100px] mt-[-80px]">
+                <div className="border border-gray-300 xl:p-12  p-8  xl:mt-[40px] h-full">
+                  <div className="absolute  xl:mt-[-90px] 4xl:mt-[-100px] mt-[-65px]">
                     <p className="xl:text-[60px] 4xl:text-[70px] text-[50px] leading-tight px-5 inline bg-[#ffffff]">
                       {item.number}
                     </p>
@@ -339,8 +339,8 @@ export default function Page() {
               <h3 className="leading-tight 4xl:text-[40px] xl:text-[30px] text-[20px] xl:mt-[37px] mt-[17px] ">
                 Transforming Financial Operations End-to-End
               </h3>
-              <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[60px] 4xl:gap-[80px] gap-y-[22px] xl:mt-9 mt-7 ml-1">
-                <div className="md:col-span-6 col-span-12">
+              <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[70px] 4xl:gap-[127px] gap-y-[22px] xl:mt-9 mt-7 ml-1">
+                <div className="md:col-span-5 col-span-12">
                   <div className="">
                     <Image
                       src="/images/Finance/deep-expertise-web.webp"
@@ -367,7 +367,7 @@ export default function Page() {
                   <UnorderedList arrName={salesforceData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
                   <LearnMore />
                 </div>
-                <div className="md:col-span-6 col-span-12 xl:mt-[100px] mt-0">
+                <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
                     <Image
                       src="/images/Finance/deep-expertise1-web.webp"
@@ -430,7 +430,7 @@ export default function Page() {
           </>
         </div>
         <div className="grid  md:grid-cols-12 xl:gap-14 gap-1">
-          <div className=" md:col-span-6 mt-9 sm:mr-0 md:mr-[60px] 2xl:mr-[5px]">
+          <div className=" md:col-span-6 mt-9 sm:mr-0 md:mr-[60px] 4xl:mr-[1px] 2xl:mr-[66px]">
             <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] text-[26px] pb-4">
               AI: Revolutionizing the Future of Finance
             </h2>
@@ -440,7 +440,7 @@ export default function Page() {
               Salesforce AI (Einstein, Agentforce) and SAP AI tools to deliver:
             </p>
           </div>
-          <div className="md:col-span-6 xl:my-9 my-5 ">
+          <div className="md:col-span-6 xl:ml-[70px] xl:my-9 my-5 ">
             <UnorderedList arrName={aiData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
             <LearnMore />
           </div>
