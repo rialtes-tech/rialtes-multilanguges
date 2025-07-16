@@ -102,7 +102,7 @@ const GrowServicesCard = ({ services }) => (
 );
 const GrowServices = () => {
     return (
-        <div className="container mx-auto text-black">
+        <div className="mx-auto text-black max-md:px-[35px]">
             <h2 className="pb-16 text-black xl:text-[60px] text-[26px]">Employee affinity groups</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                 {growLatestServices.map((services) => (
@@ -210,14 +210,14 @@ export default function Page() {
                 </div>
             </section>
             {/* only image section */}
-            <section className="relative h-[800px] xl:h-[650px] overflow-hidden">
+            <section className="relative h-[800px] xl:h-[650px]">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/culture/commitments.webp"
                         alt="commitments image"
                         fill
                         priority
-                        className="object-[80%_20%] object-cover"
+                        sizes="100vw"
                     />
                 </div>
                 <div className="xl:hidden block">
@@ -229,20 +229,21 @@ export default function Page() {
                         className="object-cover"
                     />
                 </div>
-                <div className="xl:hidden block">
-                    <Image
-                        src="/images/culture/quote mark.svg"
-                        alt="GROW with SAP"
-                        fill
-                        priority
-                        className="object-cover !w-[140px] !h-[60px] pl-[35px]"
-                    />
-                </div>
+
                 <div
                     className="custom-container">
-                    <div className="container mx-auto h-full flex flex-col justify-center">
+                    <div className="flex flex-col justify-center">
                         <div className="flex flex-col">
-                            <h2 className="xl:text-white text-black max-w-2xl xl:text-[55px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[-20rem] xl:mt-0">
+                            <div className="xl:hidden block">
+                                <Image
+                                    src="/images/culture/quote mark.svg"
+                                    alt="GROW with SAP"
+                                    fill
+                                    priority
+                                    className="object-cover !w-[140px] !h-[60px] pl-[35px] absolute"
+                                />
+                            </div>
+                            <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 xl:text-[45px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[5rem] 4xl:text-[55px] xl:mt-0 absolute">
                                 Business run on Trust, Grows on Transparency <br />ONLY if we deliver on <br />our commitments
                             </h2>
                         </div>

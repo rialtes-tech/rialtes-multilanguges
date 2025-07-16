@@ -280,7 +280,7 @@ export default function DemandPlusSection() {
                     ].map((item, index) => (
                         <div
                             key={index}
-                            className=" shadow-md p-8  text-black  border-black  border hover:bg-[#D9F2FF]  transition-all bg-white"
+                            className=" shadow-md p-8  text-black  border hover:bg-[#D9F2FF]  transition-all bg-white"
                         >
                             <p className="font-semibold 4xl:text-[24px] text-[20px] xl:text-[15px]">{item}</p>
                         </div>
