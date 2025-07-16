@@ -304,7 +304,7 @@ const page = () => (
     </section>
 
     {/* drive data section */}
-    <div className="bg-[#EDEDED] py-16 mt-20">
+    <div className="bg-[#fffbfb] py-16 mt-20">
       <div className="custom-container">
         <h2 className=" font-light mb-16 leading-tight 4xl:text-[40px] xl:text-[35px] md:text-[26px] ">
           Drive Measurable Business Outcomes
