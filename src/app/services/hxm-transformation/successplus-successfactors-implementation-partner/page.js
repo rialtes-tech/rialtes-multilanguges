@@ -200,6 +200,28 @@ const sapActivateData = [
     ]
   },
 ]
+const sapSuccessFactorData = [
+  "Employee lifecycle data feeding finance and procurement.",
+  "Unified organizational management. ",
+  "Streamlined payroll and time management.",
+]
+const sapJouleData = [
+  "Conversational AI for employee self-service (ESS).",
+  "AI recommendations for career growth, learning, and wellness.",
+  "AI-driven HR case resolution and knowledge management.",
+  "Predictive insights for HR leaders on attrition, performance, and more.",
+]
+const sapCpiData = [
+  "SAP S/4HANA, SAP Ariba, Concur, Fieldglass. ",
+  "Third-party applications (ADP, Salesforce, Workday, Oracle).",
+  "Custom enterprise systems.",
+]
+const extendData = [
+  "Custom HR workflows and forms.",
+  "Integrations with third-party solutions. ",
+  "Employee experience applications and mobile enablement.",
+  "AI/ML solutions for talent management, learning, and engagement.",
+]
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
@@ -493,8 +515,184 @@ export default function Page() {
           }
         </div>
       </section>
+      {/* sap success factor section */}
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
+        <div className="lg:pl-[59px] lg:pr-[60px]  px-[36px] bg-[#F2ECD9]">
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
+            <div className="lg:order-1 order-2 lg:col-span-5 4xl:col-span-5 lg:pt-[86px] xl:pb-[68px] pb-[52]">
+              <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
+                SAP SuccessFactors and SAP S/4HANA - <div className="font-normal">Better Together</div>
+              </h2>
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+                SAP SuccessFactors natively integrates with SAP S/4HANA, enabling seamless HR processes that are tightly coupled with finance, procurement, and operations.
+              </p>
+              <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Key Integrated Processes:</h3>
+              <UnorderedList arrName={sapSuccessFactorData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+            </div>
+            <div className="lg:order-2 order-1 lg:col-span-7 4xl:col-span-6 max-lg:pt-[45px]">
+              <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[710px] lg:h-[620px] w-full lg:mt-[-60px]">
+                <Image
+                  src="/images/services/success-plus/successfactor-desk.webp"
+                  alt="successfactor-desktop image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+              <div className="lg:hidden block">
+                <Image
+                  src="/images/services/success-plus/Mobile/successfactor-mob.webp"
+                  alt="successfactor-mobile image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* sap CPI section */}
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
+        <div className="absolute bg-[#EFE0CD] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
+        <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#EFE0CD]">
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
+            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[52]">
+              <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
+                SAP CPI - <div className="font-normal"> Integrating SAP SuccessFactors Across Ecosystems</div>
+              </h2>
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+                With SAP Cloud Platform Integration (CPI), Rialtes ensures smooth and secure integration of SuccessFactors with:
+              </p>
+              <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Key Integrated Processes:</h3>
+              <UnorderedList arrName={sapCpiData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+            </div>
+            <div className="lg:order-1 order-1 lg:col-span-6 max-lg:pt-[45px]">
+              <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[710px] lg:h-[620px] w-full lg:mt-[-60px]">
+                <Image
+                  src="/images/services/success-plus/sap-cpi-desk.webp"
+                  alt="sap-cpi-desktop image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+              <div className="lg:hidden block">
+                <Image
+                  src="/images/services/success-plus/Mobile/sap-cpi-mob.webp"
+                  alt="sap-cpi-mobile image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* sap joule section */}
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] xl:!pr-[40px] md:!pr-0 max-lg:px-0 ">
+        <div className="lg:pl-[59px] lg:pr-[60px] lg:pb-[90px] xl:pb-[138px] px-[36px] bg-[#BEDDFC]">
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[80px] gap-y-[30px]">
+            <div className="lg:order-1 order-2 lg:col-span-6 lg:pt-[76px] pb-[52]">
+              <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
+                SAP Joule -<div className="font-normal"> AI-Powered HR Assistant for SuccessFactors Leverage AI with SAP Joule - Empowering the Future of HR</div>
+              </h2>
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+                Rialtes enables organizations to adopt SAP Joule, the intelligent AI assistant for SAP SuccessFactors.
+              </p>
+              <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Capabilities of SAP Joule:</h3>
+              <UnorderedList arrName={sapJouleData} ulClassName="4xl:mt-[38px] mt-[22px] w-[94%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+            </div>
+            <div className="lg:order-2 order-1 lg:col-span-6 max-lg:pt-[45px]">
+              <div className="lg:block hidden h-full w-full lg:mt-[-60px]">
+                <Image
+                  src="/images/services/success-plus/sap-desk.webp"
+                  alt="sap-desktop image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+              <div className="lg:hidden block">
+                <Image
+                  src="/images/services/success-plus/Mobile/sap-mob.webp"
+                  alt="sap-mobile image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* blue box */}
+        <div className="lg:mt-[-60px]">
+          <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
+            <h4 className="xl:text-[20px] 4xl:text-[26px] leading-tight text-[18px] font-normal">Rialtes customizes and fine-tunes Joule to align with your HR needs.</h4>
+          </div>
+        </div>
+      </section>
+      {/* extend sap section */}
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
+        <div className="absolute bg-[#E4EAD2] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
+        <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#E4EAD2] relative">
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
+            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[52]">
+              <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
+                Extend SAP SuccessFactors with SAP BTP - <div className="font-normal"> Rialtes’ Unmatched Expertise </div>
+              </h2>
+              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+                Rialtes’ strong SAP Business Technology Platform (BTP) competency allows for custom extensions, advanced analytics, and integrations:
+              </p>
+              <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Key Integrated Processes:</h3>
+              <UnorderedList arrName={extendData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] lg:pb-[120px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+              {/* blue box desktop*/}
+              <div className="lg:absolute lg:mt-[-20px] lg:ml-[-20px] mt-[40px] lg:block hidden">
+                <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
+                  <h4 className="xl:text-[20px] 4xl:text-[26px] leading-tight text-[18px] font-normal">Our SAP-certified BTP experts ensure secure, scalable, and compliant extensions that align with enterprise standards.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="lg:order-1 order-1 lg:col-span-6 max-lg:pt-[45px]">
+              <div className="lg:block hidden h-full w-full lg:mt-[-60px]">
+                <Image
+                  src="/images/services/success-plus/extend-desk.webp"
+                  alt="extend-desktop image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+              <div className="lg:hidden block">
+                <Image
+                  src="/images/services/success-plus/Mobile/extend-mob.webp"
+                  alt="extend-mobile image"
+                  className="w-full h-full object-cover"
+                  priority
+                  width={0}
+                  height={0}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* blue box mobile */}
+        <div className="lg:hidden">
+          <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
+            <h4 className="xl:text-[20px] 4xl:text-[26px] leading-tight text-[18px] font-normal">Our SAP-certified BTP experts ensure secure, scalable, and compliant extensions that align with enterprise standards.</h4>
+          </div>
+        </div>
+      </section>
       {/* related section */}
-      <section className="custom-container xl:mt-[205px] mt-[44px]">
+      <section className="custom-container xl:mt-[205px] lg:mt-[125px] mt-[44px]">
         <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[90%] lg:w-full">
           Related SAP Solutions for End-to-End <div className="md:block hidden" /> Transformation
         </h2>
