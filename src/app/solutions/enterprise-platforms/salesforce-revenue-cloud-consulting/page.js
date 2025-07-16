@@ -275,6 +275,7 @@ export default function HealthCloud() {
                         width: '100%', height: '100%', objectFit: "cover",
                     }}
                     priority
+                    
                 />
             </section>
 
@@ -322,7 +323,7 @@ export default function HealthCloud() {
             </section>
 
             {/* Reduce Revenue Pitfalls, Supercharge Your Sales Funnel */}
-            <section className="bg-[#EDEDED] py-6 " >
+            <section className="bg-[#fffafa] py-6 " >
                 <div className="custom-container">
                     <div>
                         <div className="py-10">

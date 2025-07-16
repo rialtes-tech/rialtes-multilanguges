@@ -454,7 +454,7 @@ export default function page() {
                                                             {item}
                                                         </li>
                                                         {!isLastItem && (
-                                                            <div className="w-[50px] h-[2px] bg-[#707070] my-[20px]" />
+                                                            <li className="w-[50px] h-[2px] bg-[#707070] my-[20px]" />
                                                         )}
                                                     </React.Fragment>
                                                 );

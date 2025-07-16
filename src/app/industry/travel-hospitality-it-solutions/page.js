@@ -222,10 +222,10 @@ export default function Page() {
                     <div className="relative h-full custom-container flex items-center">
                         <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                             <div className="col-span-12">
-                                <h3 className="text-[#000000] text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
+                                <h3 className="text-[#000000] text-[18px] md:text-[24px] font-bold max-lg:w-[80%] md:w-[50%] lg:w-full">
                                     Travel Transportation and Hospitality Industry
                                 </h3>
-                                <h1 className="text-[#00000] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[55%]">
+                                <h1 className="text-[#00000] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[69%] max-[380px]:w-[85%]">
                                     Powering the Next-Gen <br className="hidden md:block" /> Travel, Transportation & <br className="hidden md:block" /> Hospitality Experience
                                 </h1>
                             </div>
@@ -503,7 +503,7 @@ export default function Page() {
                     </div>
                 </section>
                 {/* driving repeat section */}
-                <section className="xl:mt-[79px] mt-[61px] custom-container max-md:px-0 md:pl-0">
+                <section className="xl:mt-[79px] md:mt-[61px] mt-0 custom-container max-md:px-0 md:pl-0">
                     <div className="grid md:grid-cols-12 grid-cols-1">
                         <div className="grid md:col-span-6 lg:col-span-8 custom-container md:pr-0 md:pt-[78px] pt-[44px] bg-[#EBEBEB] md:order-1 order-2">
                             <div className="md:pr-[40px]">
@@ -554,7 +554,7 @@ export default function Page() {
                 {/* flawless backend section  */}
                 <section className="custom-container xl:mt-[75px] mt-[60px] lg:pr-0 max-md:px-0">
                     <div className="bg-[#073259] custom-container md:pl-0">
-                        <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[65px] gap-y-[30px] md:pt-[94px] md:pb-[103px] pb-[55px]">
+                        <div className="grid md:grid-cols-12 grid-cols-1 lg:gap-[65px] md:gap-[40px]  gap-y-[30px] md:pt-[94px] md:pb-[103px] pb-[55px]">
                             <div className="md:col-span-6 col-span-12">
                                 {/* Mobile img */}
                                 <div className="block md:hidden w-full h-full">
