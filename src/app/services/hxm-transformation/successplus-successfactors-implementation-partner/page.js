@@ -766,10 +766,17 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       {/* Contact Form */}
-      <div className="xl:mt-[118px] mt-[48px] xl:mb-[92px] mb-[171px] custom-container text-black">
+      <div className="xl:mt-[118px] mt-[48px] xl:mb-[120px] mb-[120px] custom-container text-black">
         <ContactForm title={'Partner with Rialtes for Your SAP SuccessFactors Journey'} subtitle="Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation." className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
       </div >
+      {/* empowering section */}
+      <div className="custom-container bg-[#134874] xl:mt-[92px] mt-[48px] xl:py-[63px] py-[34px] text-white">
+        <h2 className="xl:text-[30px] 4xl:text-[50px] leading-tight text-[25px] font-light w-[90%] xl:w-[70%] 2xl:w-[90%]">
+          Rialtes — Empowering Enterprises to Lead with SAP SuccessFactors Journey
+        </h2>
+      </div>
     </div >
   );
 }
