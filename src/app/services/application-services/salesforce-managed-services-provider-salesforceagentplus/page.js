@@ -335,7 +335,7 @@ export default function page() {
                 <div className="block md:hidden w-full h-full">
                     <Image
                         src="/images/services/salesforce-agentforce/Mobile/start-your-ai-mob-img.webp"
-                        alt="mobile image"
+                        alt="start your AI image"
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -346,7 +346,7 @@ export default function page() {
                 <div className="hidden md:block w-full h-full 4xl:pr-[80px] 2xl:pr-[60px] xl:pr-[40px] lg:pr-[20px]">
                     <Image
                         src="/images/services/salesforce-agentforce/start-your-ai-desk-img.webp"
-                        alt="mobile image"
+                        alt="start your AI image"
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -429,7 +429,7 @@ export default function page() {
                         <div className="block md:hidden w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/Mobile/unlock-mob-img.webp"
-                                alt="mobile image"
+                                alt="unlock ai image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -440,7 +440,7 @@ export default function page() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/unlock-desk-img.webp"
-                                alt="mobile image"
+                                alt="unlock ai image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -472,7 +472,7 @@ export default function page() {
                 <div className="block lg:hidden w-full h-full">
                     <Image
                         src="/images/services/salesforce-agentforce/Mobile/rial-chat-mob-img.webp"
-                        alt="mobile image"
+                        alt="rial chat image"
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -484,7 +484,7 @@ export default function page() {
                     <div className="hidden lg:block w-full h-full">
                         <Image
                             src="/images/services/salesforce-agentforce/rial-chat-desk-img.webp"
-                            alt="mobile image"
+                            alt="rial chat image"
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -549,7 +549,7 @@ export default function page() {
                         <div className="block md:hidden w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/Mobile/rialtes-salesforce-mob-img.webp"
-                                alt="mobile image"
+                                alt="rialtes salesforce image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -560,7 +560,7 @@ export default function page() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/rialtes-salesforce-desk-img.webp"
-                                alt="mobile image"
+                                alt="rialtes salesforce image"
                                 className="w-full h-full object-cover"
                                 style={{ objectPosition: "95% 20%" }}
                                 width={0}
@@ -585,7 +585,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* our salesforce section */}
             <section>
                 <div className="xl:mt-[155px] mt-[110px] bg-[url('/images/services/salesforce-agentforce/Mobile/our-salesforce-mob-bg.webp')] md:bg-[url('/images/services/salesforce-agentforce/our-salesforce-desk-bg.webp')] bg-cover bg-no-repeat bg-center xl:pt-[84px] pt-[52px] xl:pb-[103px] pb-[142px] text-[#ffffff]">
@@ -593,11 +592,9 @@ export default function page() {
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light xl:w-[70%] 2xl:w-[60%] lg:w-[40%] sm:w-[60%]">
                             Our Salesforce Industry Cloud Specializations
                         </h2>
-
                         <h3 className="xl:text-[26px] 4xl:text-[36px] text-[20px] leading-tight xl:mt-[47px] mt-[31px]">
                             Built for Your Business
                         </h3>
-
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[21px] lg:mt-[65px] mt-[38px] xl:w-[96%] 4xl:w-[95%] md:w-[94%] sm:w-[70%]">
                             {
                                 ourSalesforceData.map((data, ind) => {
@@ -614,9 +611,7 @@ export default function page() {
                                 })
                             }
                         </div>
-
                     </div>
-
                 </div>
                 <div className="custom-container">
                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[21px] lg:gap-[20px] xl:mt-[-50px] lg:mt-[-40px] mt-[-40px]">
@@ -637,13 +632,10 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* migrate salesforce section */}
             <section className="custom-container xl:mt-[197px] mt-[72px]">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-y-[36px] md:gap-[20px]">
-
                     <div className="my-auto md:order-1 order-2">
-
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
                             Migrate to Salesforce
                         </h2>
@@ -664,7 +656,7 @@ export default function page() {
                         <div className="block md:hidden w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/Mobile/migrate-mob-img.webp"
-                                alt="mobile image"
+                                alt="migrate salesforce image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -675,7 +667,7 @@ export default function page() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/migrate-desk-img.webp"
-                                alt="mobile image"
+                                alt="migrate salesforce image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -685,7 +677,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* certified salesforce section */}
             <section className="custom-container  4xl:!pr-[142px] 2xl:!pr-[80px] xl:!pr-[50px] lg:!pr-[42px] xl:mt-[125px] mt-[83px] md:pl-0 max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1">
@@ -693,7 +684,7 @@ export default function page() {
                         <div className="block md:hidden w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/Mobile/certified-mob-img.webp"
-                                alt="mobile image"
+                                alt="certified salesforce image"
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -704,7 +695,7 @@ export default function page() {
                         <div className="hidden md:block w-full h-full">
                             <Image
                                 src="/images/services/salesforce-agentforce/certified-desk-img.webp"
-                                alt="mobile image"
+                                alt="certified salesforce image"
                                 className="w-full h-full object-cover"
                                 style={{ objectPosition: "35% 20%" }}
                                 width={0}
@@ -712,7 +703,6 @@ export default function page() {
                                 priority
                             />
                         </div>
-
                     </div>
                     <div className="md:col-span-5 xl:col-span-5">
                         <div className="bg-[#67C774] xl:pt-[47px] xl:px-[60px] 2xl:px-[80px] xl:pb-[92px] pt-[41px] px-[26px] pb-[79px] md:mt-[20%] max-md:mx-[36px]">
@@ -727,7 +717,6 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* why choose section */}
             <section className="custom-container xl:mt-[125px] mt-[83px]">
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
@@ -736,23 +725,21 @@ export default function page() {
                 <h3 className="xl:text-[28px] 4xl:text-[36px] text-[20px] mt-[20px] xl:mt-[40px] leading-tight font-semibold sm:w-[70%] md:w-[50%] 2xl:w-[50%] xl:w-[54%] lg:w-[40%]">
                     Your Trusted Salesforce AI & Managed Services Partner
                 </h3>
-
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[60px] gap-y-[60px] xl:gap-y-[80px] 2xl:gap-y-[110px] xl:gap-[60px] 2xl:gap-[80px] xl:mt-[68px] mt-[70px]">
                     {
                         whyChooseData.map((data, ind) => {
                             return (
-                                <div className="" key={ind}>
+                                <div key={ind}>
                                     <div>
                                         <Image
                                             src={data.img}
-                                            alt="mobile image"
+                                            alt="Why Choose Rialtes? image"
                                             className="lg:w-[139px] lg:h-[139px] w-[100px] h-[100px]"
                                             width={0}
                                             height={0}
                                             priority
                                         />
                                     </div>
-
                                     <p className="xl:text-[21px] 4xl:text-[23px] text-[18px] leading-tight lg:mt-[45px] mt-[32px] font-semibold md:w-[80%] xl:w-full 2xl:w-[90%] sm:w-[48%]">
                                         {data.data}
                                     </p>
@@ -762,7 +749,6 @@ export default function page() {
                     }
                 </div>
             </section>
-
             {/* Contact Form */}
             < div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px]">
                 <ContactForm title={'Let’s Elevate Your Salesforce Together!'} subtitle="Ready to unlock AI, boost productivity, and optimize Salesforce?" subtitle1="Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem." className="4xl:text-[60px] xl:text-[40px] text-[26px]" />

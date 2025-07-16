@@ -7,7 +7,6 @@ import Image from "next/image";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -134,7 +133,7 @@ export default function DemandPlusSection() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/banner.webp"
-                        alt=""
+                        alt="kinaxis banner"
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -145,30 +144,23 @@ export default function DemandPlusSection() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/banner-mobile.webp"
-                        alt=""
+                        alt="kinaxis banner"
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
-                        sizes="100vw"
-
-                    />
+                        sizes="100vw"/>
                 </div>
-
-                <div
-                    className="h-full relative custom-container xl:!pr-0  mr-0"
-                >
+                <div className="h-full relative custom-container xl:!pr-0  mr-0">
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 mt-20">
                         <div className="xl:col-span-7 md:col-span-2 col-span-12">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">DemandPlus</h3>
                             <h1 className="text-white leading-tight mt-5 pr-14 xl:pr-0 md:text-[42px] 4xl:text-[60px] xl:text-[45px] text-[26px]">
                                 Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse
                             </h1>
-
                         </div>
                         <div className="xl:col-span-7 col-span-12">
                         </div>
                     </div>
-
                 </div>
             </section>
             <section
@@ -182,25 +174,23 @@ export default function DemandPlusSection() {
                     <div className="xl:col-span-4"></div>
                 </div>
             </section>
-
             <section className="relative xl:h-[700px] group overflow-hidden">
                 {/* Desktop Image */}
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/demandplus-desktop.webp"
-                        alt="GROW with SAP"
+                        alt="demandplus-desktop"
                         className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
                         fill
                         priority
                         sizes="100vw"
                     />
                 </div>
-
                 {/* Mobile Image */}
                 <div className="xl:hidden block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/realtes-demadplus-mobile.webp"
-                        alt="GROW with SAP"
+                        alt="realtes-demadplus-mobile"
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -208,10 +198,8 @@ export default function DemandPlusSection() {
                         priority
                     />
                 </div>
-
                 {/* Content Block */}
-                <div
-                    className={`custom-container z-10 relative xl:absolute xl:top-[45%] top-[-100px]  xl:-translate-y-1/2`}>
+                <div className={`custom-container z-10 relative xl:absolute xl:top-[45%] top-[-100px]  xl:-translate-y-1/2`}>
                     <div className="bg-[#016FBE] bg-opacity-90 text-white p-[20px] md:p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32">
                         <h3 className="font-light xl:text-[30px] text-[18px]">Introducing</h3>
                         <h3 className="4xl:text-[50px] xl:text-[40px] text-[23px] max-[350px]:text-[20px] leading-[60px]">Rialtes DemandPlus</h3>
@@ -219,7 +207,6 @@ export default function DemandPlusSection() {
                         <p className="mt-8 4xl:text-[22px] text-[16px] leading-tight font-normal">
                             Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:
                         </p>
-
                         <UnorderedList arrName={endToEndData} ulClassName="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] " />
                         <div className="mt-5 absolute">
                             <LearnMore bgcolor="#134874" bordercolor="#134874" />
@@ -227,7 +214,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-81px] sticky mt-[-7rem] md:mt-[-7rem] mx-[35px] xl:mx-0 z-[20]">
                 <div className="col-span-4"></div>
                 <div className="col-span-7 bg-[#163055] p-8">
@@ -235,13 +221,12 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="col-span-1"></div>
             </div>
-
             <section className="relative group overflow-hidden xl:mt-16 xl:mr-[142px]">
                 <div className="w-full xl:h-[1046px] ">
                     <div className="xl:block hidden">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/why-ki-desktop.webp"
-                            alt="Warehouse"
+                            alt="Kinaxis RapidResponse image"
                             fill
                             className="object-cover transform transition-transform duration-500 group-hover:scale-110"
                             priority
@@ -251,17 +236,16 @@ export default function DemandPlusSection() {
                     <div className="xl:hidden block">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/why-ki-mobile.webp"
-                            alt="Warehouse"
+                            alt="Kinaxis RapidResponse image"
                             priority
                             width={0}
                             height={0}
-                            className="w-full h-full  transform transition-transform duration-500 group-hover:scale-110"
+                            className="w-full h-full transform transition-transform duration-500 group-hover:scale-110"
                             sizes="100vw"
                         />
                     </div>
-
                     <div className="absolute  text-white grid lg:grid-cols-12 grid-cols-12 xl:top-[25rem] top-[260px] sm:top-[36rem] :">
-                        <div className="lg:col-span-6 col-span-10 bg-[#0B3A66]  pl-[35px] xl:py-16 py-8 xl:pr-20  xl:mr-0 custom-container">
+                        <div className="lg:col-span-6 col-span-10 bg-[#0B3A66] pl-[35px] xl:py-16 py-8 xl:pr-20  xl:mr-0 custom-container">
                             <h2 className="lg-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Why Kinaxis RapidResponse?</h2>
                             <p className="font-light xl:pr-0 xl:mt-10 mt-5">
                                 Kinaxis RapidResponse is a cloud-based supply chain planning platform that delivers:
@@ -270,7 +254,6 @@ export default function DemandPlusSection() {
                         <div className="lg:col-span-6"></div>
                     </div>
                 </div>
-
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 relative xl:-mt-10 mt-[-40px]  xl:mr-[50px] custom-container xl:!pr-16">
                     {[
                         "Concurrent planning for synchronized supply chain decisions.",
@@ -280,14 +263,12 @@ export default function DemandPlusSection() {
                     ].map((item, index) => (
                         <div
                             key={index}
-                            className=" shadow-md p-8  text-black  border-black  border hover:bg-[#D9F2FF]  transition-all bg-white"
-                        >
+                            className=" shadow-md p-8 text-black border-black border hover:bg-[#D9F2FF] transition-all bg-white">
                             <p className="font-semibold 4xl:text-[24px] text-[20px] xl:text-[15px]">{item}</p>
                         </div>
                     ))}
                 </div>
             </section>
-
             <section className="mt-20 custom-container xl:!pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="col-span-6">
@@ -298,7 +279,7 @@ export default function DemandPlusSection() {
                     <div className="col-span-5  xl:mx-0">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/supply-desktop.webp"
-                            alt=""
+                            alt="supply image"
                             priority
                             className="w-full 4xl:mt-16 xl:mt-8 mt-10 relative xl:h-full  4xl:h-auto max-md:px-[35px]"
                             width={0}
@@ -313,10 +294,8 @@ export default function DemandPlusSection() {
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                         </div>
                     </div>
-
                 </div>
             </section>
-
             <section className="mt-24 custom-container xl:!pr-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
                     <div className="xl:col-span-6 order-1 xl:order-2">
@@ -330,7 +309,6 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                         />
                     </div>
-
                     <div className="xl:col-span-5 order-2 xl:order-1">
                         <h2 className="leading-tight mt-10 xl:mt-0 pr-10 xl:pr-0 4xl:text-[60px] xl:text-[45px] text-[26px]">Sales & Operations Planning (S&OP)</h2>
                         <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] xl:mt-10 mt-5 leading-tight font-semibold">Drive Cross-Functional Alignment</h3>
@@ -347,7 +325,7 @@ export default function DemandPlusSection() {
                     <div className="xl:block hidden">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/inventery-desktop.webp"
-                            alt="Warehouse"
+                            alt="inventery image"
                             fill
                             className="object-cover"
                             priority
@@ -357,7 +335,7 @@ export default function DemandPlusSection() {
                     <div className="xl:hidden block">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/inventery-mobile.webp"
-                            alt="Warehouse"
+                            alt="inventery image"
                             priority
                             width={0}
                             height={0}
@@ -365,8 +343,7 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                         />
                     </div>
-
-                    <div className="absolute  text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[34rem] top-[23rem] md:top-[46rem]">
+                    <div className="absolute text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[34rem] top-[23rem] md:top-[46rem]">
                         <div className="xl:col-span-7  custom-container xl:!pr-0 pl-[35px] xl:py-16 py-8">
                             <h2 className="mb-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Inventory Optimization & Enterprise Scheduling</h2>
                             <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-5">Maximize Efficiency</h3>
@@ -377,30 +354,26 @@ export default function DemandPlusSection() {
                         <div className="xl:col-span-5"></div>
                     </div>
                 </div>
-
-
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:mt-[-100px] mt-[-75px] md:mt-0 custom-container">
-                <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white ">
+                <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white">
                     <h3>Inventory Optimization</h3>
                     <UnorderedList arrName={inventeryOptimizationData} ulClassName="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                 </div>
                 <div className="xl:col-span-1 col-span-12 bg-[#163055] flex xl:items-center xl:justify-center">
-                    <div className="border-b border-white  mx-[35px] xl:mx-0 xl:border-b-0 xl:border-r xl:h-[70%] xl:w-auto"></div>
+                    <div className="border-b border-white mx-[35px] xl:mx-0 xl:border-b-0 xl:border-r xl:h-[70%] xl:w-auto"></div>
                 </div>
-
                 <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white">
                     <h3>Enterprise Scheduling</h3>
                     <UnorderedList arrName={enterpriseSchedulingData} ulClassName="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                 </div>
                 <div className="xl:col-span-3 col-span-12"></div>
             </div>
-
             <section className="relative h-auto xl:mt-[17rem] custom-container mt-[38rem] xl:!pr-0 max-md:px-0">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/scenario-desktop.webp"
-                        alt="Warehouse"
+                        alt="scenario image"
                         className="w-full"
                         priority
                         width={0}
@@ -411,20 +384,19 @@ export default function DemandPlusSection() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/scenario-mobile.webp"
-                        alt="Warehouse"
-                        className="object-cover w-full "
+                        alt="scenario image"
+                        className="object-cover w-full"
                         priority
                         width={0}
                         height={0}
                         sizes="100vw"
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 absolute  max-md:px-[35px] top-0  xl:pl-20  4xl:pt-20 pt-[25rem] md:pt-[16rem] xl:pt-10">
+                <div className="grid xl:grid-cols-12 grid-cols-1 absolute max-md:px-[35px] top-0 xl:pl-20 4xl:pt-20 pt-[25rem] md:pt-[16rem] xl:pt-10">
                     <div className="xl:col-span-5">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Scenario Planning</h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">Prepare for Every Possibility</h3>
                         <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">What-if analysis and scenario simulation are at the heart of Kinaxis RapidResponse, and Rialtes brings the expertise to fully leverage them:</p>
-
                         <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-6 4xl:mt-10 absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
@@ -432,13 +404,12 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <section className="mt-[38rem] xl:mt-0 md:mt-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 mx-[35px] xl:mx-0">
                     <div className="col-span-6">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/seamless-desktop.webp"
-                            alt="Warehouse"
+                            alt="seamless image"
                             className="object-cover w-full h-full"
                             priority
                             width={0}
@@ -454,7 +425,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-80px] mt-10 mx-[35px] xl:mx-0">
                 <div className="col-span-6"></div>
                 <div className="col-span-5">
@@ -462,13 +432,12 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="col-span-1"></div>
             </div>
-
             <section className="custom-container xl:!pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:order-2 order-1 col-span-6">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/btp-desktop.webp"
-                            alt="Warehouse"
+                            alt="Rialtes’ Strong SAP BTP"
                             className="object-cover w-full h-full"
                             priority
                             width={0}
@@ -476,7 +445,6 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                         />
                     </div>
-
                     <div className="xl:order-1 order-2 col-span-6">
                         <div className="bg-[#006FBE] xl:p-20 p-10 text-white xl:pb-32 pb-[20rem]">
                             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Rialtes’ Strong SAP BTP Competency</h2>
@@ -494,83 +462,68 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <section className="relative">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/bringing-desktop.webp"
-                        alt="Warehouse"
+                        alt="Rialtes’ Strong SAP BTP"
                         className="object-cover w-full xl:h-[885px]"
                         priority
                         width={0}
                         height={0}
-                        sizes="100vw"
-                    />
+                        sizes="100vw"/>
                 </div>
                 <div className="xl:hidden block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/bringing-mobile.webp"
-                        alt="Warehouse"
+                        alt="Rialtes’ Strong SAP BTP"
                         className="w-full h-[1233px]"
                         priority
                         width={0}
                         sizes="100vw"
-                        height={0}
-
-                    />
+                        height={0}/>
                 </div>
-
                 <div className="grid xl:grid-cols-12 grid-cols-1 custom-container mx-[35px] xl:mx-0 absolute top-0">
                     <div className="col-span-7 pt-20">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Bringing Together Kinaxis and the Broader Enterprise Ecosystem</h2>
                         <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-10 font-bold leading-tight pr-20">Related SAP and Procurement Solutions with Rialtes:</h3>
                     </div>
-
                 </div>
                 <div className="custom-container mx-[35px] xl:mx-0 xl:mr-[464px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 absolute bottom-[-3rem] z-[9]">
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="border hover:bg-[#D9F2FF] p-10 flex flex-col xl:h-[425px] transition-all bg-white  shadow-lg"
-                        >
+                            className="border hover:bg-[#D9F2FF] p-10 flex flex-col xl:h-[425px] transition-all bg-white shadow-lg">
                             <h3 className="mb-8 text-[#0A6BB8] font-semibold leading-tight">{service.title}</h3>
                             <p className="text-[#000000] leading-tight xl:text-[24px] text-[16px]">{service.description}</p>
                             <div className="xl:bottom-[30px] xl:absolute">
-
                                 <Link
                                     href={service.knowMore}
-                                    className={`inline-block  xl:text-[20px] text-[16px] hover:bg-[#134874] bg-[#134874] border-[1px] border-[solid]  font-semibold text-white py-3 px-8 transition duration-300 mt-6`}
-                                >
+                                    className={`inline-block  xl:text-[20px] text-[16px] hover:bg-[#134874] bg-[#134874] border-[1px] border-[solid] font-semibold text-white py-3 px-8 transition duration-300 mt-6`}>
                                     Know More
                                 </Link>
                             </div>
-
                         </div>
                     ))}
                 </div>
-
-
-
             </section>
-
             <section className="relative xl:h-[700px]">
                 {/* Desktop Image */}
                 <div className="hidden xl:block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/sap-ariba-desktop.webp"
-                        alt="Warehouse"
+                        alt="sap-ariba"
                         className="object-cover"
                         fill
                         priority
                         sizes="100vw"
                     />
                 </div>
-
                 {/* Mobile Image */}
                 <div className="block xl:hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/sap-ariba-mobile.webp"
-                        alt="Warehouse"
+                        alt="sap-ariba"
                         className="w-full h-auto"
                         width={0}
                         height={0}
@@ -578,14 +531,8 @@ export default function DemandPlusSection() {
                         priority
                     />
                 </div>
-
                 {/* Text Block */}
-                <div
-                    className={`
-                                custom-container text-white
-                                xl:absolute xl:top-[20%] 
-                                relative xl:w-[62%] w-full z-10 max-md:px-0
-                             `}>
+                <div className={`custom-container text-white xl:absolute xl:top-[20%] relative xl:w-[62%] w-full z-10 max-md:px-0`}>
                     <div className="bg-[#073259] xl:p-16 p-10">
                         <h2 className="leading-tight pr-20 xl:pr-0 4xl:text-[60px] xl:text-[50px] text-[26px]">SAP ARIBA & Procurement</h2>
                         <h3 className="xl:text-[42px] text-[22px] font-semibold leading-tight mt-5 pr-16 xl:pr-0">
@@ -601,13 +548,12 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <div className="bg-[#555555] mt-0">
                 <div className="xl:pt-64 pt-32 mx-[35px] xl:mx-0">
                     <div className="xl:block hidden">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/enhance-desktop.webp"
-                            alt="Warehouse"
+                            alt="enhance image"
                             className="w-[1360px] xl:h-[612px] custom-container"
                             priority
                             width={0}
@@ -618,7 +564,7 @@ export default function DemandPlusSection() {
                     <div className="xl:hidden block">
                         <Image
                             src="/images/solutions/enterprise-platform/kinaxis/enhance-mobile.webp"
-                            alt="Warehouse"
+                            alt="enhance image"
                             className="w-full"
                             priority
                             width={0}
@@ -631,7 +577,6 @@ export default function DemandPlusSection() {
                     <div className="col-span-6">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Enhance Supply Chain Conversations with AgentChat</h2>
                         <h3 className="mt-10 xl:text-[42px] text-[22px] leading-tight font-bold">WhatsApp for Supply Chain Teams</h3>
-
                     </div>
                     <div className="col-span-6">
                         <h3 className="mt-8 xl:mt-0 pr-16 xl:pr-0 4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight">Introducing AgentChat Your Conversational AI for Supply Chain</h3>
@@ -646,7 +591,6 @@ export default function DemandPlusSection() {
                             </Link>
                         </div>
                     </div>
-
                 </div>
                 <div className="custom-container mx-[35px] xl:mx-0 grid xl:grid-cols-12 grid-cols-1 mt-16">
                     <div className="col-span-9 bg-[#068EDA] p-8 pl-12 text-white">
@@ -654,12 +598,11 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </div>
-
             <section className="custom-container relative xl:!pr-0 max-md:px-0">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/leading-desktop.webp"
-                        alt="Warehouse"
+                        alt="Leading the Future"
                         className=" w-full"
                         priority
                         width={0}
@@ -670,7 +613,7 @@ export default function DemandPlusSection() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
-                        alt="Warehouse"
+                        alt="Leading the Future"
                         className="object-cover w-full h-[970px]"
                         priority
                         width={0}
@@ -690,7 +633,6 @@ export default function DemandPlusSection() {
                     <div className="col-span-6"></div>
                 </div>
             </section>
-
             {/* contact form */}
             <div className="mt-20 custom-container text-black pb-20" >
                 <ContactForm title={'Start Your Kinaxis Journey with Rialtes DemandPlus Today'} subtitle={'Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution.'} className={"4xl:max-w-[60rem] xl:max-w-[40rem] leading-tight text-[26px] font-light 4xl:text-[60px] xl:text-[40px] pr-10 xl:pr-0"} />

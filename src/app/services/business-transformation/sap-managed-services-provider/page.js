@@ -234,7 +234,6 @@ export default function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
             {/* hero section */}
             <section className="relative  xl:pb-40 md:pb-[10rem] pb-20">
                 <div className="md:block hidden">
@@ -251,17 +250,12 @@ export default function Page() {
                         src="/images/sap/sap-digital-desk/mobile/banner.webp"
                         alt=" SAP Digital Desk image"
                         fill
-                       style={{ objectFit: "cover" }}
-
+                        style={{ objectFit: "cover" }}
                         priority
                         sizes="100vw"
                     />
                 </div>
-
-                <div
-                    className="relative
-        custom-container"
-                >
+                <div className="relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 md:text-black text-white">
                         <div className="xl:col-span-6  xl:pt-40 pt-20 md:pr-80 xl:pr-0">
                             <h3 className="text-[20px] xl:text-[24px] font-bold mb-2 break-words">
@@ -274,7 +268,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* page description */}
             <section className="mt-20 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -289,9 +282,7 @@ export default function Page() {
                     <div className="xl:col-span-4 col-span-12">
                     </div>
                 </div>
-
             </section>
-
             {/* rialtes 24/7 section */}
             <section className="relative xl:mt-32 mt-10 pb-20 xl:pb-0">
                 <div className="xl:block hidden">
@@ -340,7 +331,7 @@ export default function Page() {
                             <h3 className="xl:text-[28px] text-[18px] xl:font-bold font-medium xl:pr-20 xl:pt-20 pt-10">Hybrid Delivery Model (Onsite + Offshore)</h3>
                             <UnorderedList arrName={["Strategic blend of onsite expertise and offshore delivery for cost-effective yet personalized support.", "Local leadership and customer-facing consultants backed by offshore SAP CoE teams for scalability."]} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="xl:absolute bottom-[-26px] xl:block hidden">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12">
@@ -351,13 +342,12 @@ export default function Page() {
                             <h3 className="xl:text-[28px] text-[18px] font-bold xl:pt-20 pt-10">Fully Offshore Model</h3>
                             <UnorderedList arrName={["100% remote delivery from our global SAP Centers of Excellence in India and Singapore for optimized costs and continuous delivery.", "Best suited for steady-state AMS (Application Management Services), developments, and enhancements."]} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="absolute mt-[28px] xl:hidden block">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
             {/* project leadership section */}
             <section className="custom-container xl:mt-32 xl:!pr-0 h-full max-md:px-0 mt-16">
                 <div className="md:grid xl:grid-cols-12 grid-cols-1 h-full gap-10">
@@ -374,7 +364,6 @@ export default function Page() {
                             sizes="100vw"
                         />
                     </div>
-
                     {/* Content second on mobile, first on desktop */}
                     <div className="col-span-5 order-2 xl:order-1 mt-10 xl:mt-0 mx-[35px] xl:mx-0 md:mx-0">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">Project Leadership</h2>
@@ -389,7 +378,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* 150 sap section */}
             <section className="relative  4xl:mt-24 xl:mt-20">
                 <div className="xl:block hidden">
@@ -410,18 +398,15 @@ export default function Page() {
                         sizes="100vw"
                     />
                 </div>
-                <div
-                    className="h-full relative
-                    custom-container">
+                <div className="h-full relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black">
                         <div className="xl:col-span-8 col-span-12 xl:pr-20">
                             <h2 className="text-[25px] 4xl:text-[60px] xl:text-[40px] mt-16 leading-tight">
                                 Over 150 SAP Certifications Across Every Major Module
                             </h2>
                         </div>
-
                     </div>
-                    <div className="grid xl:grid-cols-12 grid-cols-1 text-[#006FBE]  items-center pt-10">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 text-[#006FBE] items-center pt-10">
                         <div className="xl:col-span-6 col-span-12">
                             <h3 className="text-[20px] 4xl:text-[30px] xl:text-[25px] leading-tight font-semibold">
                                 Our Certified SAP Competency Covers:
@@ -430,7 +415,6 @@ export default function Page() {
                         <div className="xl:col-span-6 col-span-12  xl:border-b-2 xl:border-black">
                         </div>
                     </div>
-
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black xl:pb-20">
                         <div className="xl:col-span-6 col-span-12">
                             <UnorderedList arrName={sapCertificationData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="xl:text-[18x] 4xl:text-[20px] text-[16px]" />
@@ -440,7 +424,6 @@ export default function Page() {
                         <div className="xl:col-span-5 col-span-12  xl:mt-0">
                             <UnorderedList arrName={sapCertificationData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] " />
                         </div>
-
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-[#006FBE]  items-center mt-10 xl:mt-0">
                         <div className="xl:col-span-4 col-span-12">
@@ -448,7 +431,7 @@ export default function Page() {
                                 What This Means for You:
                             </h3>
                         </div>
-                        <div className="xl:col-span-8 col-span-12  xl:border-b-2 xl:border-black">
+                        <div className="xl:col-span-8 col-span-12 xl:border-b-2 xl:border-black">
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 text-black xl:mt-16 mt-5 4xl:gap-16 gap-8 xl:pr-40">
@@ -468,14 +451,13 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* future proof section */}
             <section className="custom-container xl:mt-32 mt-10  xl:!pl-0 !px-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1  xl:gap-20">
                     <div className="col-span-6">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/future.webp"
-                            alt=" future proof image"
+                            alt="future proof image"
                             priority
                             className="w-full 4xl:h-full xl:h-[495px]"
                             width={0}
@@ -494,13 +476,12 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* sap fiori section */}
             <section className="relative mt-5 xl:mt-0  xl:ml-[142px]">
                 <div className="md:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/user-exper.webp"
-                        alt="GROW with SAP"
+                        alt="Revolutionize User Experience"
                         fill
                         priority
                         sizes="100vw"
@@ -509,7 +490,7 @@ export default function Page() {
                 <div className="md:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/user-expe.webp"
-                        alt="GROW with SAP"
+                        alt="Revolutionize User Experience"
                         fill
                         priority
                         sizes="100vw"
@@ -529,11 +510,9 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
-
             {/* unleash section */}
             <section className="bg-[#EFEFEF] xl:mt-20 xl:pb-0 custom-container xl:!px-0 h-full max-md:px-0 pb-[5rem]">
                 <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-24  xl:!pr-0">
@@ -561,7 +540,6 @@ export default function Page() {
                             />
                         </div>
                     </div>
-
                     <div className="xl:col-span-6 col-span-12 order-2 xl:order-1 h-full px-[35px] xl:px-0 md:px-0">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] mt-10 xl:mt-0 leading-tight 4xl:pt-16 xl:pt-5">
                             Unleash Innovation
@@ -579,7 +557,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* seamless section */}
             <section className="mt-16">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -613,10 +590,8 @@ export default function Page() {
                             sizes="100vw"
                         />
                     </div>
-
                 </div>
             </section>
-
             {/* code the future section */}
             <section className="custom-container xl:mt-24  h-full xl:!pl-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 h-full xl:gap-20 items-center">
@@ -650,10 +625,8 @@ export default function Page() {
                         <p className="mt-5 leading-tight">Unlock the next-gen power of ABAP in the cloud:</p>
                         <UnorderedList arrName={codeData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3" liClassName="first:mt-5" />
                     </div>
-
                 </div>
             </section>
-
             {/* intelligent section */}
             <section className="mt-16 custom-container xl:!pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -670,8 +643,7 @@ export default function Page() {
                     </div>
 
                     {/* Content second on mobile, first on desktop */}
-                    <div className=" col-span-5  order-2 xl:order-1    xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]       
-                                    bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]">
+                    <div className="col-span-5  order-2 xl:order-1 xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px] bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]">
                         <h2 className="leading-tight xl:mt-10 4xl:text-[56px] text-[26px] xl:text-[40px]">Intelligent Insights</h2>
                         <h3 className="mt-5 4xl:text-[36px] text-[20px] leading-tight font-semibold xl:pr-10">
                             Advanced SAP Analytics Cloud & Datasphere Services
@@ -681,12 +653,11 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={intelligentData} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight font-light" liClassName="first:mt-5" />
                         <div className="4xl:mt-[36px] 2xl:mt-[48px] xl:mt-[40px] mt-[29px] absolute">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                        <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
                     </div>
                 </div>
             </section>
-
             {/* winning section */}
             <section className="relative xl:mt-10 custom-container mt-[5rem] xl:!pr-0 max-md:px-0">
                 <div className="relative">
@@ -705,7 +676,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/sap/sap-digital-desk/mobile/wining.webp"
-                                alt="winning  image"
+                                alt="winning image"
                                 priority
                                 className="w-full h-[297px] md:h-full"
                                 width={0}
@@ -713,7 +684,6 @@ export default function Page() {
                                 sizes="100vw"
                             />
                         </div>
-
                         <div className="absolute xl:inset-0 items-start px-[35px] md:px-0 grid xl:grid-cols-12   xl:px-20 py-11 text-black xl:pr-40">
                             <div className="col-span-10 2xl:col-span-6">
                                 <h2 className="4xl:text-[60px] text-[26px] xl:text-[40px] leading-tight pr-0 4xl:pr-64">
@@ -734,7 +704,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* smart procurement section */}
             <section className="custom-container xl:mt-20 mt-[30rem] max-[500px]:mt-[500px] max-[378px]:mt-[624px] md:mt-[25rem] ">
                 <div className="grid xl:grid-cols-12 grid-cols-12">
@@ -750,13 +719,12 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* sap signavio section */}
             <section className="relative  xl:mt-32 mt-10">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/transform.webp"
-                        alt=" sap signavio image"
+                        alt="sap signavio image"
                         fill
                         priority
                         sizes="100vw"
@@ -765,7 +733,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/transf.webp"
-                        alt=" sap signavio image"
+                        alt="sap signavio image"
                         fill
                         priority
                         sizes="100vw"
@@ -774,7 +742,7 @@ export default function Page() {
                 <div className="h-full relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black">
                         <div className="xl:col-span-9 col-span-12">
-                            <h2 className="text-[25px] xl:text-[60px]  mt-16 leading-tight">
+                            <h2 className="text-[25px] xl:text-[60px] mt-16 leading-tight">
                                 SAP Signavio and SAP Activate
                             </h2>
                         </div>
@@ -784,9 +752,7 @@ export default function Page() {
                             <p className="mt-5">Rialtes’ Proven SAP Activate Approach Combined with Process Intelligence</p>
                         </div>
                     </div>
-
                     <div className="grid xl:grid-cols-12 xl:gap-x-12 gap-y-6 mt-16">
-
                         <div className="grid gap-6 xl:col-span-5 col-span-12">
                             {sapTransformationSteps.slice(0, 3).map(({ step, title, description }, index) => (
                                 <div key={step} className="gap-x-4 flex items-center">
@@ -800,7 +766,6 @@ export default function Page() {
                                 </div>
                             ))}
                         </div>
-
                         <div className="grid xl:col-span-5 col-span-12 gap-6">
                             {sapTransformationSteps.slice(3).map(({ step, title, description, plOverride }, index) => (
                                 <div key={step} className="gap-x-4 flex items-center">
@@ -814,14 +779,12 @@ export default function Page() {
                                 </div>
                             ))}
                         </div>
-
                         <div className="bg-[#163055] xl:mb-[-60px] col-span-10 z-[20] p-8 xl:text-[26px] text-[20px] text-white mt-16 leading-tight font-normal">
                             With Signavio’s real-time process intelligence, we ensure you run SAP based on best-in-class benchmarks.
                         </div>
                     </div>
                 </div>
             </section>
-
             {/* supercharge section */}
             <section className="relative custom-container xl:!pl-0 xl:!pr-[142px] mt-[5rem] xl:mt-0 max-md:px-0">
                 <div className="relative">
@@ -833,7 +796,7 @@ export default function Page() {
                             />
                             <img
                                 src="/images/sap/sap-digital-desk/desktop/supercharge.webp"
-                                alt="Warehouse"
+                                alt="supercharge"
                                 className="w-full h-[500px] xl:h-[720px] 2xl:h-[820px] 4xl:h-[800px]"
                             />
                         </picture>
@@ -841,11 +804,10 @@ export default function Page() {
                     <div className="xl:hidden block">
                         <Image
                             src="/images/sap/sap-digital-desk/mobile/supercharge.webp"
-                            alt=""
+                            alt="supercharge"
                             priority
                             className="w-full h-full sm:h-[1150px] md:h-[1100px] max-[420px]:h-[999px] object-cover "
                             style={{ objectPosition: "75% 20%" }}
-
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -864,7 +826,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* rialtes BTP section */}
             <section className="h-full custom-container xl:pr-0 max-md:px-0 mt-0 ">
                 <div className="grid xl:grid-cols-12 grid-cols-1 h-full 4xl:gap-20 xl:gap-10 items-center">
@@ -907,7 +868,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* migrate section */}
             <section className="relative  xl:mt-32 mt-10 pb-20 xl:pb-0">
                 <div className="xl:block hidden">
@@ -937,7 +897,6 @@ export default function Page() {
                             <h3 className="xl:text-[36px] text-[20px] xl:mt-12 mt-5">Success+ by Rialtes</h3>
                         </div>
                     </div>
-
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-5 xl:pb-20">
                         <div className="xl:col-span-6 col-span-12">
                             <h3 className="xl:text-[28px] text-[18px] xl:font-semibold font-medium">Workday to SAP SuccessFactors Migration Services</h3>
@@ -950,14 +909,13 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* why partner section */}
             <section className="custom-container  h-full xl:!pl-[142px] max-md:px-0 mt-10 xl:mt-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 h-full xl:gap-20">
                     <div className="col-span-7">
                         <Image
                             src="/images/sap/sap-digital-desk/desktop/why.webp"
-                            alt=" why partner image"
+                            alt="why partner image"
                             priority
                             className="w-full h-full"
                             width={0}
@@ -972,7 +930,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* contact form */}
             <div className="custom-container text-black py-20">
                 <ContactForm title={'Ready to Unlock Maximum Value from SAP? Let’s Talk!'} subtitle={"Contact us today to explore how SAP Digital Desk can transform your SAP operations."} className={"leading-tight xl:text-[40px] xl:max-w-[71%]"} />
