@@ -148,7 +148,7 @@ export default function DemandPlusSection() {
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
-                        sizes="100vw"/>
+                        sizes="100vw" />
                 </div>
                 <div className="h-full relative custom-container xl:!pr-0  mr-0">
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 mt-20">
@@ -471,7 +471,7 @@ export default function DemandPlusSection() {
                         priority
                         width={0}
                         height={0}
-                        sizes="100vw"/>
+                        sizes="100vw" />
                 </div>
                 <div className="xl:hidden block">
                     <Image
@@ -481,7 +481,7 @@ export default function DemandPlusSection() {
                         priority
                         width={0}
                         sizes="100vw"
-                        height={0}/>
+                        height={0} />
                 </div>
                 <div className="grid xl:grid-cols-12 grid-cols-1 custom-container mx-[35px] xl:mx-0 absolute top-0">
                     <div className="col-span-7 pt-20">
