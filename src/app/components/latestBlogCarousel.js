@@ -169,7 +169,7 @@ export default function BlogsCarousel() {
     const { carouselState: { currentSlide } } = rest;
     return (
       <div className="flex carousel-button-group absolute top-0 xl:right-32 sm:right-6 max-sm:right-0  md:mt-4">
-        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-0 mr-0 sm:p-2 sm:mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <span className="sr-only">Previous slide</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -237,7 +237,7 @@ export default function BlogsCarousel() {
           {slides.map((slide) => (
             <div
               key={slide.id}
-              className="flex flex-col sm:basis-1/4 border border-[#707070] mr-6 mb-4 h-full group"
+              className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 h-full group"
             >
 
               <div className="max-h-[300px]">

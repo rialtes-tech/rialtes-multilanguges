@@ -392,8 +392,8 @@ const FeaturedCarousel = () => {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 xl:right-[175px] right-6 md:mt-4">
-        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-5 group transition-all duration-300' : 'bg-white p-2 mr-5 group transition-all duration-300'} onClick={() => previous()}>
+      <div className="flex carousel-button-group absolute top-0 xl:right-[175px] sm:right-6 right-0 md:mt-4">
+        <button className={currentSlide === 0 ? 'disable bg-white p-2 mr-5 group transition-all duration-300' : 'bg-white p-0 mr-0 sm:p-2 sm:mr-5 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
