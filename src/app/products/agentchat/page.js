@@ -6,56 +6,56 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 const schemaData = {
-      "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "AgentChat",
-  "image": "https://www.rialtes.com/images/industry/rialchat/AgentChat%20logo.svg",
-  "description": "AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, offering seamless Salesforce WhatsApp integration. It enables real-time messaging, supports all Salesforce Clouds, and allows teams to engage, support, and close deals through WhatsApp without leaving Salesforce.",
-  "brand": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-  },
-  "url": "https://www.rialtes.com/products/agentchat/",
-  "category": "Salesforce WhatsApp Messaging App",
-  "isRelatedTo": {
-    "@type": "SoftwareApplication",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Cloud",
-    "softwareRequirements": "Salesforce platform"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/products/agentchat/"
-  },
-  "additionalProperty": [
-    {
-      "@type": "PropertyValue",
-      "name": "Salesforce Integration",
-      "value": "Works with Leads, Cases, Opportunities, Work Orders, and Custom Objects."
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "AgentChat",
+    "image": "https://www.rialtes.com/images/industry/rialchat/AgentChat%20logo.svg",
+    "description": "AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, offering seamless Salesforce WhatsApp integration. It enables real-time messaging, supports all Salesforce Clouds, and allows teams to engage, support, and close deals through WhatsApp without leaving Salesforce.",
+    "brand": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
     },
-    {
-      "@type": "PropertyValue",
-      "name": "Real-Time Bi-Directional Messaging",
-      "value": "Synchronizes messages in real time between WhatsApp and Salesforce."
+    "url": "https://www.rialtes.com/products/agentchat/",
+    "category": "Salesforce WhatsApp Messaging App",
+    "isRelatedTo": {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Cloud",
+        "softwareRequirements": "Salesforce platform"
     },
-    {
-      "@type": "PropertyValue",
-      "name": "Multi-Team Support",
-      "value": "Supports Sales, Service, Field, Education, and Nonprofit teams."
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/products/agentchat/"
     },
-    {
-      "@type": "PropertyValue",
-      "name": "Role-Based Access Control",
-      "value": "Advanced permissions using Salesforce’s native security model."
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "GDPR & HIPAA Ready",
-      "value": "Built on Salesforce’s secure and compliant platform."
-    }
-  ]
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "name": "Salesforce Integration",
+            "value": "Works with Leads, Cases, Opportunities, Work Orders, and Custom Objects."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Real-Time Bi-Directional Messaging",
+            "value": "Synchronizes messages in real time between WhatsApp and Salesforce."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Multi-Team Support",
+            "value": "Supports Sales, Service, Field, Education, and Nonprofit teams."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Role-Based Access Control",
+            "value": "Advanced permissions using Salesforce’s native security model."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "GDPR & HIPAA Ready",
+            "value": "Built on Salesforce’s secure and compliant platform."
+        }
+    ]
 }
 
 export default function Page() {
@@ -129,11 +129,11 @@ export default function Page() {
                 canonical="https://www.rialtes.com/products/agentchat/"
             />
             <Script
-        id="schema-agentchat"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+                id="schema-agentchat"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* hero section */}
             <div className="relative bg-[#E8E8E8] pb-20 ">
                 <div className="relative  custom-container xl:!pr-0 max-xl:pr-0">
@@ -217,14 +217,19 @@ export default function Page() {
                         />
                     </div>
                     <div>
-                        <div className=" flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
+                        <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874]">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px]   ">Instant WhatsApp Conversations, Directly in Salesforce</h3>
-                                <p className=" mt-5 xl:mt-10 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]  ">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px] text-black group-hover:text-white">
+                                    Instant WhatsApp Conversations, Directly in Salesforce
+                                </h3>
+                                <p className="mt-5 xl:mt-10 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px] text-black group-hover:text-white">
+                                    Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.
+                                </p>
                             </div>
                             <Image
-                                className="w-[50px] 4xl:w-[75px] 2xl:w-[70px] md:mt-20 mt-10 hover:invert hover:grayscale hover:contrast-100"
-                                src='/images/industry/rialchat/Instant WhatsApp .svg'
+                                className="w-[50px] 4xl:w-[75px] 2xl:w-[70px] md:mt-20 mt-10 
+               group-hover:invert group-hover:brightness-200"
+                                src="/images/industry/rialchat/Instant WhatsApp .svg"
                                 alt="Our Solution to Success"
                                 width={0}
                                 height={0}
@@ -232,15 +237,16 @@ export default function Page() {
                                 priority
                             />
                         </div>
+
                     </div>
                     <div>
-                        <div className=" flex flex-col justify-between border p-8 4xl:p-[54px]  h-full hover:bg-[#134874] hover:text-white">
+                        <div className="group flex flex-col justify-between border p-8 4xl:p-[54px]  h-full hover:bg-[#134874] hover:text-white">
                             <div>
                                 <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[358px] 2xl:w-[350px] xl:w-[300px]  ">Rapid Setup — Go Live in Minutes!</h3>
                                 <p className=" mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[330px] xl:w-[300px] lg:w-[300px] ">No complex integrations. Plug-and-play setup within minutes. Start engaging right away.</p>
                             </div>
                             <Image
-                                className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] mt-20 hover:invert hover:grayscale hover:contrast-100"
+                                className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] mt-20 group-hover:invert group-hover:brightness-200"
                                 src='/images/industry/rialchat/Rapid Setup.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -254,13 +260,13 @@ export default function Page() {
 
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 ">
                     <div>
-                        <div className=" flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
+                        <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
                                 <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[33px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[380px] 2xl:w-[350px]  xl:w-[300px] ">Bi-Directional & Real-Time Messaging</h3>
                                 <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">Conversations sync in real-time — whether initiated from WhatsApp or Salesforce.</p>
                             </div>
                             <Image
-                                className="w-[50px] 4xl:w-[67px] 2xl:w-[64px] xl:mt-40 mt-5 hover:invert hover:grayscale hover:contrast-100"
+                                className="w-[50px] 4xl:w-[67px] 2xl:w-[64px] xl:mt-40 mt-5 group-hover:invert group-hover:brightness-200"
                                 src='/images/industry/rialchat/Real-Time Messaging.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -272,13 +278,13 @@ export default function Page() {
 
                     </div>
                     <div>
-                        <div className=" flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
+                        <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
                                 <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[391px] 2xl:w-[340px]  xl:w-[300px]    ">Delegate Messages to the Right Team Automatically</h3>
                                 <p className="mt-5 xl:mt-10  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px] " >Automatically route conversations by record type (e.g., Cases, Leads, Work Orders), ensuring the right team responds fast.</p>
                             </div>
                             <Image
-                                className="w-[50px] 4xl:w-[74px] 2xl:w-[70px] xl:mt-20 md:mt-20 mt-5 hover:invert hover:grayscale hover:contrast-100"
+                                className="w-[50px] 4xl:w-[74px] 2xl:w-[70px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
                                 src='/images/industry/rialchat/Delegate Messages.svg'
                                 alt="Our Solution to Success"
                                 width={0}
@@ -289,11 +295,11 @@ export default function Page() {
                         </div>
                     </div>
                     <div>
-                        <div className="border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
+                        <div className="group border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[370px]  2xl:w-[346px] xl:w-[300px]  ">Built-in Role-Based Access and Security</h3>
                             <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]   ">Control who can chat, view, and manage conversations with advanced role-based permissions and Salesforce’s native security model.</p>
                             <Image
-                                className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] xl:mt-20 md:mt-20 mt-5 hover:invert hover:grayscale hover:contrast-100"
+                                className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
                                 src='/images/industry/rialchat/Rapid Setup.svg'
                                 alt="Our Solution to Success"
                                 width={0}
