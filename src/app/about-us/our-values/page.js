@@ -94,16 +94,16 @@ const GrowServicesCard = ({ services }) => (
             />
         </div>
         <div className="flex flex-col pt-8">
-            <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[35px] line-clamp-2 min-h-[60px]">{services.title}</h3>
+            <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[30px] 4xl:text-[35px] line-clamp-2 min-h-[60px] leading-tight">{services.title}</h3>
         </div>
-        <p className='mb-[15px] xl:text-[22px] text-[16px] '>{services.description1}</p>
-        <p className='mb-[15px] xl:text-[22px] text-[16px] '>{services.description2}</p>
+        <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description1}</p>
+        <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description2}</p>
     </div>
 );
 const GrowServices = () => {
     return (
-        <div className="mx-auto text-black max-md:px-[35px]">
-            <h2 className="pb-16 text-black xl:text-[60px] text-[26px]">Employee affinity groups</h2>
+        <div className="mx-auto text-black ">
+            <h2 className="pb-16 text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">Employee affinity groups</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                 {growLatestServices.map((services) => (
                     <GrowServicesCard key={services.id} services={services} />
@@ -165,8 +165,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/culture/AdobeStock_1016285553.webp"
-                                                style={{ objectFit: "cover", objectPosition: "0% 20%" }}
-
+                         style={{ objectFit: "cover", objectPosition: "0% 20%" }}
                         alt="mobile banner"
                         fill
                         priority
@@ -175,10 +174,10 @@ export default function Page() {
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white ">
-                            <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px] font-bold sm:text-[#01335B] max-sm:text-[#02182A]">
+                            <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] ] font-bold sm:text-[#01335B] max-sm:text-[#02182A]">
                                 Culture and Values
                             </h3>
-                            <h2 className="text-[24px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] sm:text-[#01335B] max-sm:text-[#02182A] "  >
+                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#02182A] "  >
                                 Building a growth<br /> mindset. Each day.
                             </h2>
                         </div>
@@ -192,8 +191,8 @@ export default function Page() {
                 <div className="custom-container">
                     <div className=" mx-auto">
                         <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]">Our Value System.</h1>
-                        <p className="mt-3 xl:text-[35px] text-[20px] pr-10 xl:pr-0">Every day, every one of us work with our core values.</p>
-                        <div className="flex flex-col lg:flex-row mb-8 mt-16 lg:gap-52 gap-10">
+                        <p className="mt-3 4xl:text-[35px] xl:text-[28px] text-[20px] ">Every day, every one of us work with our core values.</p>
+                        <div className="flex flex-col md:flex-row mb-8 mt-16 lg:gap-52 gap-10 md:gap-28">
                             {principleItems.map((item, index) => (
                                 <div key={index} className="grid">
                                     <Image
@@ -204,7 +203,7 @@ export default function Page() {
                                         priority
                                         className={`${item.className} max-md:m-auto xl:m-0`}
                                     />
-                                    <p className="mt-5 lg:text-center max-md:text-center xl:text-[35px] text-[26px]">{item.label}</p>
+                                    <p className="mt-5 lg:text-center max-md:text-center 4xl:text-[35px] xl:text-[28px] text-[26px]">{item.label}</p>
                                 </div>
                             ))}
                         </div>
@@ -245,7 +244,7 @@ export default function Page() {
                                     className="object-cover !w-[140px] !h-[60px] pl-[35px] absolute"
                                 />
                             </div>
-                            <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 xl:text-[45px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[5rem] 4xl:text-[55px] xl:mt-0 absolute">
+                            <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 xl:text-[45px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[5rem] 4xl:text-[55px] xl:mt-[30px] absolute">
                                 Business run on Trust, Grows on Transparency <br />ONLY if we deliver on <br />our commitments
                             </h2>
                         </div>
@@ -261,7 +260,7 @@ export default function Page() {
             </div>
             {/* Contact Form */}
             <div className="custom-container text-black pb-10">
-                <ContactForm title={'Ready to take the next step? Let’s kick off your journey to operational excellence'} className={"max-w-4xl text-[26px] xl:text-[60px]"} />
+                <ContactForm title={'Ready to take the next step? Let’s kick off your journey to operational excellence'} className={"4xl:w-[65%] xl:w-[58%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
             </div>
         </div>
     );

@@ -308,7 +308,7 @@ const Home = () => {
                 </section>
 
                 {/* success stories section */}
-                <section className='custom-container lg:pr-0 xl:mt-[147px] mt-[87px]'>
+                <section className='custom-container lg:pr-0 4xl:mt-[130px] xl:mt-[87px] md:mt-[67px] mt-[45px]'>
                     <div
 
                         ref={refs[0]}
@@ -372,7 +372,7 @@ const Home = () => {
                         }`}
                 >
                     <div className='col-span-6'>
-                        <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise <br />& Solutions</h2>
+                        <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight 4xl:w-[80%] xl:w-[70%]'>Industry Expertise & Solutions</h2>
                     </div>
                     <div className='col-span-6'>
                         <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>

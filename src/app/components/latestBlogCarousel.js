@@ -209,7 +209,7 @@ export default function BlogsCarousel() {
     <section className="relative sm:pb-10 pb-16 bg-white">
       <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[43px] ">Latest Blogs</h2>
+          <h2 className="text-black mb-[43px] leading-tight text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px]">Latest Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -257,10 +257,10 @@ export default function BlogsCarousel() {
               </div>
               <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
-                  <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                  <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
+                  <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
+                  <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight text-[16px]  xl:text-[18px] 4xl:text-[20px]">{slide.title}</h5></Link>
                 </div>
-                <p className="line-clamp-4">{slide.description}</p>
+                <p className="line-clamp-4  leading-tight text-[16px] xl:text-[16px] 4xl:text-[18px]">{slide.description}</p>
               </div>
 
             </div>
