@@ -8,96 +8,88 @@ import UnorderedList from "@/app/components/unorderedList";
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "WebPage",
         "name": "Travel and Hospitality IT Solutions",
+        "url": "https://www.rialtes.com/industry/travel-hospitality-it-solutions/",
         "description": "Rialtes delivers advanced travel and hospitality IT solutions powered by SAP, Salesforce, Oracle, and MuleSoft. Our services include AI-driven booking, loyalty management, guest personalization, real-time inventory and capacity management, and seamless back-end integration for the travel, transportation, and hospitality sectors.",
-        "provider": {
+        "publisher": {
             "@type": "Organization",
             "name": "Rialtes",
             "url": "https://www.rialtes.com",
-            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            },
             "sameAs": [
                 "https://www.linkedin.com/company/rialtes-technologies-llc/",
                 "https://www.youtube.com/@rialtes"
             ]
         },
-        "areaServed": [
-            {
-                "@type": "Country",
-                "name": "United States"
-            },
-            {
-                "@type": "Country",
-                "name": "Canada"
-            },
-            {
-                "@type": "Country",
-                "name": "India"
-            },
-            {
-                "@type": "Country",
-                "name": "Singapore"
-            },
-            {
-                "@type": "Continent",
-                "name": "Europe"
+        "mainEntity": {
+            "@type": "Service",
+            "name": "Travel and Hospitality IT Solutions",
+            "description": "Travel and hospitality solutions built on SAP, Salesforce, and AI to enable smart booking, personalization, loyalty, and operational efficiency.",
+            "areaServed": [
+                { "@type": "Country", "name": "United States" },
+                { "@type": "Country", "name": "Canada" },
+                { "@type": "Country", "name": "India" },
+                { "@type": "Country", "name": "Singapore" }
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Travel and Hospitality Solutions",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI-Powered Booking and Itinerary Management",
+                            "description": "Automated, real-time travel booking and personalized itinerary suggestions based on traveler behavior and preferences."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Dynamic Pricing & Yield Management",
+                            "description": "AI-driven pricing optimization based on demand forecasting and real-time data."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Guest Experience & Loyalty Management",
+                            "description": "Integrated loyalty platforms, gamification, and personalized engagement using Salesforce and SAP solutions."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Real-Time Inventory & Capacity Management",
+                            "description": "Optimize rooms, flights, transport assets using SAP Data Cloud and AI-based forecasting tools."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "MuleSoft, Oracle & SAP Integration",
+                            "description": "Seamless back-end integration of ERP, HCM, and CRM systems for unified workflows and data accuracy."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Data Cloud & Tableau Analytics",
+                            "description": "Actionable insights via unified dashboards, real-time analytics, and predictive forecasting."
+                        }
+                    }
+                ]
             }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Travel and Hospitality Solutions",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "AI-Powered Booking and Itinerary Management",
-                        "description": "Automated, real-time travel booking and personalized itinerary suggestions based on traveler behavior and preferences."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Dynamic Pricing & Yield Management",
-                        "description": "AI-driven pricing optimization based on demand forecasting and real-time data."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Guest Experience & Loyalty Management",
-                        "description": "Integrated loyalty platforms, gamification, and personalized engagement using Salesforce and SAP solutions."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Real-Time Inventory & Capacity Management",
-                        "description": "Optimize rooms, flights, transport assets using SAP Data Cloud and AI-based forecasting tools."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "MuleSoft, Oracle & SAP Integration",
-                        "description": "Seamless back-end integration of ERP, HCM, and CRM systems for unified workflows and data accuracy."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Data Cloud & Tableau Analytics",
-                        "description": "Actionable insights via unified dashboards, real-time analytics, and predictive forecasting."
-                    }
-                }
-            ]
-        },
-        "url": "https://www.rialtes.com/solutions/industries/travel-transportation-hospitality-it-solutions"
+        }
     }
     const endToEndData = [
         "Industry-specific advisory services to shape your digital roadmap.",

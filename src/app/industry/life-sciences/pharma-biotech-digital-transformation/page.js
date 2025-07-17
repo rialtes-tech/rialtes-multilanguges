@@ -9,96 +9,109 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "WebPage",
     "name": "Pharma & Biotech Digital Transformation Solutions",
+    "url": "https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/",
     "description": "Rialtes delivers Salesforce Life Sciences Cloud and SAP S/4HANA-based digital transformation services for pharmaceutical and biotech firms. Our AI-powered platforms accelerate R&D, enable regulatory compliance, support clinical trials, and improve HCP and patient engagement through unified, real-time, and secure IT solutions.",
-    "provider": {
+    "publisher": {
         "@type": "Organization",
         "name": "Rialtes",
         "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
         "sameAs": [
             "https://www.linkedin.com/company/rialtes-technologies-llc/",
             "https://www.youtube.com/@rialtes"
         ]
     },
-    "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "Singapore" }
-    ],
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Pharma & Biotech Transformation Services",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Salesforce Life Sciences Cloud Implementation",
-                    "description": "Unify commercial, clinical, and medical operations with centralized CRM, patient services automation, clinical trial engagement, and regulatory complaint handling."
+    "mainEntity": {
+        "@type": "Service",
+        "name": "Pharma & Biotech Digital Transformation Solutions",
+        "provider": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+            { "@type": "Country", "name": "United States" },
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Country", "name": "India" },
+            { "@type": "Country", "name": "Singapore" }
+        ],
+        "category": "Pharmaceutical & Biotech",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Pharma & Biotech Transformation Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce Life Sciences Cloud Implementation",
+                        "description": "Unify commercial, clinical, and medical operations with centralized CRM, patient services automation, clinical trial engagement, and regulatory complaint handling."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "SAP S/4HANA for Pharma",
+                        "description": "Streamline serialization, supply chain compliance, quality management, manufacturing, and global regulatory reporting for operational excellence."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI-Driven Pharma Innovation",
+                        "description": "Accelerate drug discovery, optimize clinical trial design, and enhance pharmacovigilance with AI-based predictive modeling, analytics, and automation."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Mobile Patient Engagement Apps",
+                        "description": "Deploy secure mobile apps to track adherence, deliver medication reminders, capture PROs, and collect real-world evidence (RWE) from patients."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Remote Monitoring & Real-World Data Collection",
+                        "description": "Enable real-time monitoring of connected devices and therapeutics, track adverse events, and gather biometrics and compliance data for R&D feedback."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AgentChat – Real-Time WhatsApp for Pharma",
+                        "description": "Use secure WhatsApp integration to automate patient communication, HCP support, adverse event tracking, and regulatory document sharing."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce Agentforce for Pharma",
+                        "description": "Empower pharma field teams with advanced HCP targeting, compliant content distribution, real-time interaction tracking, and MSL coordination tools."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "End-to-End Regulatory Compliance Solutions",
+                        "description": "Manage global regulatory requirements, ensure audit readiness, automate safety reporting, and integrate regulatory submissions across regions (FDA, EMA, TGA)."
+                    }
                 }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP S/4HANA for Pharma",
-                    "description": "Streamline serialization, supply chain compliance, quality management, manufacturing, and global regulatory reporting for operational excellence."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI-Driven Pharma Innovation",
-                    "description": "Accelerate drug discovery, optimize clinical trial design, and enhance pharmacovigilance with AI-based predictive modeling, analytics, and automation."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Mobile Patient Engagement Apps",
-                    "description": "Deploy secure mobile apps to track adherence, deliver medication reminders, capture PROs, and collect real-world evidence (RWE) from patients."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Remote Monitoring & Real-World Data Collection",
-                    "description": "Enable real-time monitoring of connected devices and therapeutics, track adverse events, and gather biometrics and compliance data for R&D feedback."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "AgentChat – Real-Time WhatsApp for Pharma",
-                    "description": "Use secure WhatsApp integration to automate patient communication, HCP support, adverse event tracking, and regulatory document sharing."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Salesforce Agentforce for Pharma",
-                    "description": "Empower pharma field teams with advanced HCP targeting, compliant content distribution, real-time interaction tracking, and MSL coordination tools."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "End-to-End Regulatory Compliance Solutions",
-                    "description": "Manage global regulatory requirements, ensure audit readiness, automate safety reporting, and integrate regulatory submissions across regions (FDA, EMA, TGA)."
-                }
-            }
-        ]
-    },
-    "url": "https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/"
+            ]
+        }
+    }
 }
 const StrategicChallenge = () => {
     const data = [
