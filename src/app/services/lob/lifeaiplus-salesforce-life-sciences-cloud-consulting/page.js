@@ -163,12 +163,10 @@ const RelatedSolutionsSection = () => {
                     // Border 
                     const borderRight = index < 2 ? 'xl:border-r-[1px] xl:border-black' : '';
                     const borderBottom = 'border-b-[1px] border-black md:border-0 pb-[33px] last:border-b-0 last:pb-0';
-
                     return (
                         <div
                             key={index}
-                            className={`flex flex-col justify-between ${borderRight} ${borderBottom} h-full`}
-                        >
+                            className={`flex flex-col justify-between ${borderRight} ${borderBottom} h-full`}>
                             <div className="flex-1 flex flex-col">
                                 <h3 className="text-black font-semibold 4xl:text-[30px] xl:text-[26px] text-[22px] leading-tight">
                                     {item.title}
@@ -185,7 +183,6 @@ const RelatedSolutionsSection = () => {
                                 </div>
                             </div>
                         </div>
-
                     );
                 })}
             </div>
@@ -292,7 +289,7 @@ export default function page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/lifeai/lifeai-banner.webp"
-                        alt=""
+                        alt="lifeai-banner"
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -301,12 +298,12 @@ export default function page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/services/lob/lifeai/mobile-banner.webp"
-                        alt=""
+                        alt="lifeai-banner"
                         fill
                         priority
                     />
                 </div>
-                <div className="h-full relative  custom-container">
+                <div className="h-full relative custom-container">
                     <div className="grid md:grid-cols-12 grid-cols-1 xl:mt-20">
                         <div className="md:col-span-5 4xl:col-span-6 col-span-12 mt-32">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">LifeAI+</h3>
@@ -338,7 +335,7 @@ export default function page() {
                 <div className="relative w-full h-[500px] lg:h-[980px] ">
                     <Image
                         src="/images/services/lob/lifeai/what-is.webp"
-                        alt="GROW with SAP"
+                        alt="What is LifeAI+? image"
                         fill
                         priority
                         className="object-cover"
@@ -376,7 +373,7 @@ export default function page() {
                         <Image
                             className="w-full h-full object-cover"
                             src="/images/services/lob/lifeai/why-partner-desktop.webp"
-                            alt="Taking the lead"
+                            alt="Why Partner with Rialtes? image"
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -401,7 +398,7 @@ export default function page() {
                         <Image
                             className="w-full xl:h-full h-[400px]"
                             src="/images/services/lob/lifeai/deep-desk.webp"
-                            alt="Taking the lead"
+                            alt="Deep Expertise in Salesforce image"
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -412,7 +409,7 @@ export default function page() {
                         <Image
                             className="w-full h-full object-cover"
                             src="/images/services/lob/lifeai/deep-mobile.webp"
-                            alt="Taking the lead"
+                            alt="Deep Expertise in Salesforce image"
                             width={0}
                             height={0}
                             priority
@@ -452,14 +449,13 @@ export default function page() {
                         <Image
                             className="w-full"
                             src="/images/services/lob/lifeai/how-ri-desktop.webp"
-                            alt="Taking the lead"
+                            alt="How Rialtes LifeAI+ image"
                             width={0}
                             height={0}
                             sizes="100vw"
                             priority
                         />
                     </div>
-
                     {/* Content Second on Mobile, First on Desktop */}
                     <div className="xl:col-span-6 order-2 xl:order-1">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[81%] 4xl:w-[100%]">How Rialtes LifeAI+ Drives Growth Across Life Sciences</h2>
@@ -478,8 +474,7 @@ export default function page() {
                         {featureBoxes.map((feature, index) => (
                             <div
                                 key={index}
-                                className="bg-white border hover:border-[#EDEDED] border-gray-300 hover:bg-[#D9F2FF] p-12 flex flex-col h-full"
-                            >
+                                className="bg-white border hover:border-[#EDEDED] border-gray-300 hover:bg-[#D9F2FF] p-12 flex flex-col h-full">
                                 <div className="flex flex-col items-start mb-4">
                                     <h3 className="text-[#0A6BB8] mt-2 leading-tight 4xl:text-[30px] xl:text-[25px] md:text-[20px]   font-semibold">{feature.title}</h3>
                                 </div>
@@ -495,7 +490,7 @@ export default function page() {
                     <Image
                         className="w-full"
                         src="/images/services/lob/lifeai/prio-desk.webp"
-                        alt="Taking the lead"
+                        alt="Prior Authorization Management image"
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -506,15 +501,15 @@ export default function page() {
                     <Image
                         className="w-full"
                         src="/images/services/lob/lifeai/prior-mobile.webp"
-                        alt="Taking the lead"
+                        alt="Prior Authorization Management image"
                         width={0}
                         height={0}
                         sizes="100vw"
                         priority
                     />
                 </div>
-                <div className=" custom-container">
-                    <div className="grid xl:grid-cols-12 grid-cols-1 bg-[#A16B5D]  text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
+                <div className="custom-container">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
                         <div className="col-span-6 xl:pl-20 xl:pt-20 pl-10 pt-10">
                             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Prior Authorization Management</h2>
                             <h3 className="4xl:text-[42px] xl:text-[30px] text-[20px] mt-5 font-semibold leading-tight">Streamlined, Compliant, Intelligent</h3>
@@ -529,7 +524,7 @@ export default function page() {
                     </div>
                 </div>
             </section>
-            <div className=" custom-container relative">
+            <div className="custom-container relative">
                 <div className="xl:px-[110px] max-xl:px-0">
                     <div className="bg-[#163055]  p-8 text-[20px] xl:text-[22px] 4xl:text-[26px]  text-white xl:mt-[-60px] leading-tight">
                         Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.</div>
@@ -540,7 +535,7 @@ export default function page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/lifeai/ai-driven-desktop.webp"
-                        alt="GROW with SAP"
+                        alt="AI-Driven Life Sciences image"
                         className="object-cover"
                         fill
                         priority
@@ -549,17 +544,17 @@ export default function page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/services/lob/lifeai/ai-dreven-mobile.webp"
-                        alt="GROW with SAP"
+                        alt="AI-Driven Life Sciences image"
                         fill
                         className="object-cover"
                         priority
                     />
                 </div>
                 <div
-                    className=" h-full relative custom-container mt-[30rem] md:mt-0">
-                    <div className="relative p-8 4xl:w-[907px] xl:w-[725px] h-full mt-[17rem] xl:mt-0 pb-10 ">
+                    className="h-full relative custom-container mt-[30rem] md:mt-0">
+                    <div className="relative p-8 4xl:w-[907px] xl:w-[725px] h-full mt-[17rem] xl:mt-0 pb-10">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-                        <div className="relative  bg-opacity-80 text-white z-10 xl:p-10 xl:pl-24  rounded-lg">
+                        <div className="relative bg-opacity-80 text-white z-10 xl:p-10 xl:pl-24 rounded-lg">
                             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] pr-5 xl:pr-0">AI-Driven Life Sciences with Salesforce Data Cloud & Agentforce</h2>
                             <p className='mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight'>Rialtes helps organizations integrate Salesforce Data Cloud and Agentforce for Health, unlocking powerful AI-driven capabilities:</p>
                             <UnorderedList arrName={aiDrivenData} ulClassName="list-disc leading-tight xl:space-y-8 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 xl:pr-0 pr-5" liClassName="" />

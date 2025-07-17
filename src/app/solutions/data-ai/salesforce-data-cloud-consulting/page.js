@@ -196,7 +196,6 @@ export default function DataCloud() {
       />
       {/* hero section */}
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-        {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
             src="/images/data-cloud/salesforce-data-cloud-header.webp"
@@ -290,7 +289,7 @@ export default function DataCloud() {
                     <div className="w-full h-full flex items-center justify-center">
                       <Image
                         src={feature.icon}
-                        alt="Employee and Client-centric approach"
+                        alt={`${feature.title} image`}
                         width={100}
                         height={100}
                         priority
@@ -326,7 +325,6 @@ export default function DataCloud() {
                 </div>
               ))}
             </div>
-
           </div>
         </div>
       </section>
@@ -342,8 +340,7 @@ export default function DataCloud() {
                 key={index}
                 className="flex flex-col h-full"
                 onMouseEnter={handleMouseEnter(service.id)}
-                onMouseLeave={handleMouseLeave(service.id)}
-              >
+                onMouseLeave={handleMouseLeave(service.id)}>
                 <div className="mb-4">
                   <div
                     className="w-full h-full"
@@ -351,8 +348,7 @@ export default function DataCloud() {
                       transition: "transform 0.3s ease",
                       transform:
                         hoveredBlog === service.id ? "scale(1.05)" : "scale(1)",
-                    }}
-                  >
+                    }}>
                     <Image
                       src={service.image}
                       alt={`${service.title} image`}

@@ -4,11 +4,9 @@ import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
 import ServicesBlogs from "@/app/components/servicesBlogs";
-import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -101,7 +99,6 @@ const schemaData = {
     }
 }
 export default function HealthCloud() {
-    const [slides, setSlides] = useState([]);
     const revenueStats = [
         {
             value: "40%",
@@ -119,7 +116,6 @@ export default function HealthCloud() {
             widthClasses: "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]",
         },
     ];
-
     const salesForce = [
         {
             id: 1,
@@ -146,7 +142,6 @@ export default function HealthCloud() {
             imageUrl: '/images/revenue-cloud/optimized-product-delivery.svg',
             title: 'Optimized Product Delivery',
         }
-
     ]
 
     const salesForce2 = [
@@ -195,10 +190,7 @@ export default function HealthCloud() {
                 id="schema-revenue-cloude"
                 type="application/ld+json"
                 strategy="afterInteractive"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
-
-
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
@@ -211,7 +203,6 @@ export default function HealthCloud() {
                         className="transform transition-transform duration-500 group-hover:scale-110"
                     />
                 </div>
-
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
@@ -222,7 +213,6 @@ export default function HealthCloud() {
                         priority
                     />
                 </div>
-
                 <div className="relative h-full custom-container flex items-center">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 xl:col-span-7 lg:col-span-9">
@@ -238,16 +228,13 @@ export default function HealthCloud() {
                                 width={0}
                                 height={0}
                                 priority
-                                className="mt-5 w-[120px] md:w-[180px] lg:w-[190px] xl:w-[200px] 2xl:w-[270px] 4xl:w-[300px] "
-                            />
+                                className="mt-5 w-[120px] md:w-[180px] lg:w-[190px] xl:w-[200px] 2xl:w-[270px] 4xl:w-[300px]"/>
                         </div>
-
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
                         </div>
                     </div>
                 </div>
             </section>
-
             <section className="custom-container">
                 <div className="py-8 bg-white">
                     <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">
@@ -259,7 +246,6 @@ export default function HealthCloud() {
                                 <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[520px] 4xl:text-[20px] 4xl:w-[580px]  xl:text-[16px] xl:w-[460px] lg:text-[14px] lg:w-[400px] md:text-[18px] 4xl:pl-10 2xl:pl-8 xl:pl-8 lg:pl-6"> Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -275,10 +261,8 @@ export default function HealthCloud() {
                         width: '100%', height: '100%', objectFit: "cover",
                     }}
                     priority
-                    
                 />
             </section>
-
             <section className="lg:mt-20 custom-container mt-10 pb-10">
                 <h2 className="text-[24px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight   font-normal">Streamline your Quote-to-Cash Process</h2>
                 <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 lg:mt-10 gap-5">
@@ -288,7 +272,7 @@ export default function HealthCloud() {
                                 <div className="mt-10">
                                     <Image
                                         src={sales.imageUrl}
-                                        alt="Salesforce Consulting Team"
+                                        alt={`${sales.title} image`}
                                         className="w-20 h-20"
                                         width={0}
                                         height={0}
@@ -299,7 +283,7 @@ export default function HealthCloud() {
                                         priority
                                     />
                                 </div>
-                                <h4 className="mt-5 text-[18px] md:text-[22px] lg:text-[20px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[30px] w-[200px] md:w-[210px] lg:w-[160px] xl:w-[180px] 2xl:w-[220px] 4xl:w-[256px]  ">{sales.title}</h4>
+                                <h4 className="mt-5 text-[18px] md:text-[22px] lg:text-[20px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[30px] w-[200px] md:w-[210px] lg:w-[160px] xl:w-[180px] 2xl:w-[220px] 4xl:w-[256px]">{sales.title}</h4>
                             </div>
                         )
                     })}
@@ -311,7 +295,6 @@ export default function HealthCloud() {
                         {salesForce2.map((sales) => {
                             return (
                                 <div key={sales.id} className="border-2 p-10 hover:bg-[#D9F2FF] hover:border-transparent transition-all duration-300">
-
                                     <h3 className="mt-5 text-[#1F3F69] text-[22px] md:text-[24px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px] 4xl:text-[30px] md:w-[210px] lg:w-[230px] xl:w-[240px] 2xl:w-[260px] 4xl:w-[301px]">{sales.title}</h3>
                                     <p className="mt-5 text-[16px] md:text-[18px] lg:text-[14px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] 4xl:w-[304px] 2xl:w-[290px] xl:w-[260px] lg:w-[200px]">{sales.description}</p>
                                 </div>
@@ -321,7 +304,6 @@ export default function HealthCloud() {
                     <LearnMore />
                 </div>
             </section>
-
             {/* Reduce Revenue Pitfalls, Supercharge Your Sales Funnel */}
             <section className="bg-[#fffafa] py-6 " >
                 <div className="custom-container">
@@ -333,7 +315,6 @@ export default function HealthCloud() {
                             <p className="pb-8 text-[14px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[18px] 4xl:text-[20px]">
                                 Businesses using Revenue Cloud have reported:
                             </p>
-
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 {revenueStats.map((item, index) => (
                                     <div key={index} className={`flex flex-col ${item.widthClasses}`}>
@@ -348,26 +329,18 @@ export default function HealthCloud() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
-
             <section className="bg-[#F5F5F5] py-20 ">
                 <div className="custom-container">
                     <FeaturedCarousel />
                 </div>
             </section>
-
-            <div className="mt-20 mb-20 custom-container">
-                <ServicesBlogs slides={slides} />
-            </div>
-
             <section className='custom-container md:!pr-0 lg:mt-20 bg-[#808080] mt-10 py-20'>
                 <ExploreMoreCarousel />
             </section>
             <section className="custom-container lg:mt-20 pb-20 mt-10">
                 <ContactForm />
-
             </section>
         </section>
     )

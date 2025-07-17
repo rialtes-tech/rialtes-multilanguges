@@ -4,7 +4,6 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -254,8 +253,7 @@ export default function Page() {
         description="Oracle EBS Consulting Services and Solutions by Rialtes' OracleEBS+ deliver smarter ERP performance, increased agility, and innovation-driven business growth."
         canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
       />
-      
-              <Script
+      <Script
         id="schema-oracle"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -274,7 +272,6 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
@@ -286,7 +283,6 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-
         {/* Text Content */}
         <div className="absolute inset-0 flex items-center">
           <div className="custom-container text-white mt-20 xl:mt-0">
@@ -299,7 +295,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* Empower your enterprise with Rialtes section */}
       <section className="xl:py-20 pt-10 pb-5">
         <div className="custom-container">
@@ -325,7 +320,7 @@ export default function Page() {
               <div className="xl:col-span-3 col-span-12">
                 <Image
                   src="/images/oracle-ebs/oracle EBS logo.webp"
-                  alt="Empower your enterprise with Rialtes "
+                  alt="Empower your enterprise with Rialtes"
                   priority
                   className="w-[397px] h-[233] xl:mt-[-20px]"
                   width={0}
@@ -337,7 +332,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* ebs plus section */}
       <section className="relative">
         <div className="hidden xl:block">
@@ -356,7 +350,6 @@ export default function Page() {
             priority
           />
         </div>
-
         <div className="custom-container">
           <div className=" flex flex-col text-white relative  xl:py-10 py-6">
             <div className="xl:mt-20 mt-8">
@@ -428,7 +421,6 @@ export default function Page() {
           ))}
         </div>
       </section>
-
       {/* Deep Expertise in Oracle EBS section*/}
       <section className="relative h-auto pb-20 xl:h-[1482px] z-0 xl:pb-20 xl:mt-[-60px]">
         <div className="xl:block hidden">
@@ -450,7 +442,6 @@ export default function Page() {
             sizes="100vw"
           />
         </div>
-
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-12 items-center text-white">
             <div className="4xl:col-span-9 xl:col-span-8 col-span-12 text-white sm:backdrop-blur-md sm:p-5 xl:p-0 sm:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
@@ -466,7 +457,6 @@ export default function Page() {
             </div>
             <div className="xl:col-span-3 col-span-12"></div>
           </div>
-
           <div className="xl:absolute bottom-[80px] xl:bottom-0  bg-opacity-80 text-white">
             <div className="grid grid-cols-1 md:gap-[50px] md:grid-cols-2 xl:grid-cols-4 xl:pr-[85px] mt-[35rem] xl:mt-0">
               {oracleFeatures.map((item, index) => (
@@ -487,12 +477,9 @@ export default function Page() {
                 </div>
               ))}
             </div>
-
           </div>
         </div>
       </section>
-
-
       {/* Thought Leadership: Why Rialtes? section */}
       <section className="relative pb-12 md:pb-[6rem] xl:pb-40 z-0 bg-[#F2F2F2]  xl:mt-0 max-sm:px-0 custom-container">
         <div className="xl:block hidden">
@@ -504,7 +491,6 @@ export default function Page() {
             sizes="100vw"
           />
         </div>
-
         <div className="h-full relative xl:mr-0  ">
           <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
             <div className="xl:col-span-6 col-span-12">
@@ -546,9 +532,7 @@ export default function Page() {
                             <span className="font-bold">
                               {item.bold}
                             </span>
-
                             {""} {item.text}
-
                             {item.secondBold &&
                               <span className="font-bold">
                                 {item.secondBold}
@@ -559,21 +543,17 @@ export default function Page() {
                       </li>
                     ))}
                   </ul>
-
                 </div>
               </div>
             </div>
-
             <div className="xl:col-span-6 col-span-12"></div>
           </div>
         </div>
       </section>
-
       {/* Supply Chain Planning section */}
       <section className="pb-20  z-0 mt-10 xl:mt-0">
         <div className=" h-full relative custom-container xl:!pr-0">
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
-
             <div className="xl:col-span-4 col-span-12">
               <Image
                 src="/images/oracle-ebs/supply chain.webp"
@@ -606,7 +586,6 @@ export default function Page() {
                   </h3>
                   <UnorderedList arrName={keyCapabilitiesData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName=" text-[16px] xl:text-[18px] 4xl:text-[20px]" />
                 </div>
-
                 <div>
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     Business Benefits:
@@ -618,7 +597,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* Sales and Operations Planning section*/}
       <section className="relative h-auto pb-10 xl:pb-0 xl:h-[1205px] xl:overflow-hidden xl:mt-0">
         {/* Desktop Image */}
@@ -632,7 +610,6 @@ export default function Page() {
             sizes="100vw"
           />
         </div>
-
         {/* Mobile Image */}
         <div className="xl:hidden block relative w-full h-[415px]">
           <Image
@@ -644,7 +621,6 @@ export default function Page() {
             sizes="100vw"
           />
         </div>
-
         <div className="relative xl:absolute 4xl:mx-[280px] 2xl:mx-[140px] xl:mx-[80px] xl:bottom-0 left-0 right-0 bg-[#005B9D] bg-opacity-90 text-white p-[35px] xl:p-16">
           <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Sales and Operations Planning
@@ -661,7 +637,6 @@ export default function Page() {
               </p>
             </div>
           </div>
-
           <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 xl:mt-[65px] xl:gap-20 xl:pr-[138px]">
             <div className="xl:col-span-6 col-span-12 md:col-span-1 mt-10 xl:mt-0">
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
@@ -678,11 +653,9 @@ export default function Page() {
           </div>
         </div>
       </section>
-
-
       {/* Inventory Optimization & Enterprise Scheduling section */}
       <section>
-        <div className=" xl:mt-0 h-auto custom-container xl:gap-16 xl:!pr-0">
+        <div className="xl:mt-0 h-auto custom-container xl:gap-16 xl:!pr-0">
           <div className="flex xl:flex-row flex-col xl:gap-16">
             <Image
               src="/images/oracle-ebs/inventory.webp"
@@ -726,7 +699,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* End-to-End Scenario Planning section */}
       <section>
         <div className="bg-[#F2F2F2] mt-20 pb-10 xl:pb-0">
@@ -755,7 +727,6 @@ export default function Page() {
                 />
               </div>
             </div>
-
             <div className="xl:col-span-5 col-span-12 order-2 xl:order-1 pb-20">
               <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px] mt-10 xl:mt-0 leading-tight xl:pt-20 4xl:w-[95%] xl:w-[90%] md:w-[85%] w-full pr-10 xl:pr-0">
                 End-to-End Scenario Planning
@@ -774,7 +745,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* AI & Data-Driven section */}
       <section className="relative pb-16 xl:py-20">
         <div className="lg:block hidden">
@@ -804,7 +774,6 @@ export default function Page() {
                   AI & Data-Driven <br />
                   <span className="block">Transformation for Oracle EBS</span>
                 </h2>
-
                 <p className="4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight mt-5  xl:pr-0">
                   AI is redefining how enterprises leverage Oracle EBS for
                   competitive advantage. Rialtes brings AI-driven insights
@@ -830,7 +799,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* Why Rialtes - Oracle EBS Partner of Choice section */}
       <section className="xl:py-20 lg:py-8">
         <div className="mx-[35px] xl:mr-0 custom-container">
@@ -841,14 +809,11 @@ export default function Page() {
             <h3 className="text-[#000000] mb-8 mt-2 xl:mt-0 xl:font-bold font-medium w-full 4xl:text-[40px] xl:text-[30px] text-[22px] leading-tight pr-10 xl:pr-0">
               Oracle EBS Partner of Choice
             </h3>
-
             <div className="grid xl:grid-cols-3 grid-cols-1 md:grid-cols-2 mb-8 mt-16 xl:gap-5 gap-16">
               {data.map((item, index) => (
                 <div
                   key={index}
-                  className={`flex xl:block items-start gap-6 ${index >= 3 ? "xl:mt-16" : ""
-                    }`}
-                >
+                  className={`flex xl:block items-start gap-6 ${index >= 3 ? "xl:mt-16" : ""}`}>
                   <Image
                     src={item.img}
                     alt="Why Rialtes"
@@ -867,7 +832,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* Contact Form */}
       <div className="xl:mt-0 custom-container text-black pb-20">
         <ContactForm

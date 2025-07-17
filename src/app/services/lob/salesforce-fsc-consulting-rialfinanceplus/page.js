@@ -326,11 +326,10 @@ export default function page() {
                 <div className="custom-container lg:pl-0 max-lg:px-0">
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[44px]">
                         <div className="lg:col-span-7 col-span-12">
-
                             <div className="lg:block hidden w-full h-full">
                                 <Image
                                     src="/images/services/rial-finance/start-with-desk.webp"
-                                    alt="desktop img"
+                                    alt="Start with Agentforce Adoption img"
                                     width={0}
                                     height={0}
                                     className="w-full h-full object-cover xl:object-[75%_20%] 4xl:object-[25%_20%]"
@@ -341,7 +340,7 @@ export default function page() {
                             <div className="lg:hidden block w-full h-full">
                                 <Image
                                     src="/images/services/rial-finance/Mobile/start-with-mob.webp"
-                                    alt="mob img"
+                                    alt="Start with Agentforce Adoption img"
                                     width={0}
                                     height={0}
                                     className="w-full h-full md:h-[600px] object-cover"
@@ -366,7 +365,6 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-
                 <div className="custom-container xl:mt-[46px] mt-[53px]">
                     <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">Adopt AI with confidence — powered by Rialtes financial services expertise.</p>
                 </div>
@@ -418,7 +416,7 @@ export default function page() {
                                             <div className="md:hidden block mt-[23px]">
                                                 <Image
                                                     src={data.mobImg}
-                                                    alt="mob img"
+                                                    alt={`${data.title} image`}
                                                     width={0}
                                                     height={0}
                                                     className="w-full h-full object-cover"
@@ -455,7 +453,7 @@ export default function page() {
                     <div className="lg:block hidden w-full h-full">
                         <Image
                             src="/images/services/rial-finance/exelona-desk.webp"
-                            alt="desktop img"
+                            alt="exelona img"
                             width={0}
                             height={0}
                             className="w-full h-full object-cover"
@@ -466,7 +464,7 @@ export default function page() {
                     <div className="lg:hidden block w-full h-full">
                         <Image
                             src="/images/services/rial-finance/Mobile/exelona-mob.webp"
-                            alt="mob img"
+                            alt="exelona img"
                             width={0}
                             height={0}
                             className="w-full h-full md:h-[600px] object-cover"
@@ -474,7 +472,6 @@ export default function page() {
                         />
                     </div>
                 </div>
-
                 <div className="custom-container 4xl:!pr-[142px] xl:!pr-[36px] md:!pr-0 max-md:px-0 md:mt-[-120px] relative z-20">
                     <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[60px] 4xl:gap-[20px] gap-y-[30px] bg-[#0E3157] text-[#ffffff] xl:pt-[87px] xl:pl-[70px] xl:pr-[40px] xl:pb-[127px] pt-[41px] pb-[93px] px-[36px]">
                         <div className="md:col-span-6 col-span-12">
@@ -505,7 +502,7 @@ export default function page() {
                 <div className="lg:block hidden w-full h-full">
                     <Image
                         src="/images/services/rial-finance/agentchat-desk.webp"
-                        alt="desktop img"
+                        alt="AgentChat img"
                         width={0}
                         height={0}
                         className="w-full h-full object-cover"
@@ -516,7 +513,7 @@ export default function page() {
                 <div className="lg:hidden block w-full h-full">
                     <Image
                         src="/images/services/rial-finance/Mobile/agentchat-mob.webp"
-                        alt="mob img"
+                        alt="AgentChat img"
                         width={0}
                         height={0}
                         className="w-full h-full md:h-[600px] object-cover"
@@ -532,7 +529,7 @@ export default function page() {
                             WhatsApp-Enabled Real-Time Customer Engagement (Included Free with RialFinance+)
                         </h3>
                         <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
-                            With AgentChat , seamlessly integrated into Salesforce FSC, engage your clients in real-time:
+                            With AgentChat,seamlessly integrated into Salesforce FSC, engage your clients in real-time:
                         </p>
                     </div>
                     <div className="md:col-span-7 col-span-12">
@@ -571,7 +568,7 @@ export default function page() {
                         <div className="lg:block hidden w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/agentforce-desk.webp"
-                                alt="desktop img"
+                                alt="agentforce img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -582,7 +579,7 @@ export default function page() {
                         <div className="lg:hidden block w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/Mobile/agentforce-mob.webp"
-                                alt="mob img"
+                                alt="agentforce img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full md:h-[600px] object-cover"
@@ -599,7 +596,7 @@ export default function page() {
                         <div className="md:block hidden w-full h-full relative">
                             <Image
                                 src="/images/services/rial-finance/salesforce-desk.webp"
-                                alt="desktop img"
+                                alt="salesforce img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -613,7 +610,7 @@ export default function page() {
                         <div className="md:hidden block w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/Mobile/salesforce-mob.webp"
-                                alt="mob img"
+                                alt="salesforce img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full md:h-[600px] object-cover"
@@ -667,7 +664,7 @@ export default function page() {
                         <div className="lg:block hidden w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/how-we-deliver-desk.webp"
-                                alt="desktop img"
+                                alt="how-we-deliver img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -678,7 +675,7 @@ export default function page() {
                         <div className="lg:hidden block w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/Mobile/how-we-deliver-mob.webp"
-                                alt="mob img"
+                                alt="how-we-deliver img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full md:h-[600px] object-cover"
@@ -695,7 +692,7 @@ export default function page() {
                         <div className="lg:block hidden w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/why-rialtes-desk.webp"
-                                alt="desktop img"
+                                alt="why-rialtes img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -706,7 +703,7 @@ export default function page() {
                         <div className="lg:hidden block w-full h-full">
                             <Image
                                 src="/images/services/rial-finance/Mobile/why-rialtes-mob.webp"
-                                alt="mob img"
+                                alt="why-rialtes img"
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"

@@ -197,7 +197,6 @@ const KeyPillarsSectionDesign = () => {
                                                 className="hidden md:block w-full h-full object-cover"
                                                 priority
                                             />
-
                                             {/* Mobile Image */}
                                             <Image
                                                 src={data.mobileImageUrl}
@@ -320,7 +319,6 @@ const RialtesMakesWork = () => {
                     <div className="rialtesmakecard-1">
                         <img src={rialtesMakesWorkData[0].image} alt={rialtesMakesWorkData[0].title} className="w-full hidden md:block" />
                         <img src={rialtesMakesWorkData[0].mobileImage} alt={rialtesMakesWorkData[0].title} className="w-full block md:hidden" />
-
                         <h4
                             className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight  font-semibold ">
                             {rialtesMakesWorkData[0].title}
@@ -333,24 +331,20 @@ const RialtesMakesWork = () => {
                     <div className="rialtesmakecard-2 mt-[47px] md:mt-[160px] xl:mt-[230px]">
                         <img src={rialtesMakesWorkData[1].image} alt={rialtesMakesWorkData[1].title} className="w-full hidden md:block" />
                         <img src={rialtesMakesWorkData[1].mobileImage} alt={rialtesMakesWorkData[1].title} className="w-full block md:hidden" />
-
-                        <h4
-                            className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight  font-semibold ">
+                        <h4 className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight  font-semibold ">
                             {rialtesMakesWorkData[1].title}
                         </h4>
                         <UnorderedList arrName={rialtesMakesWorkData[1].list} ulClassName="list-disc pl-5 xl:text-[20px] text-[16px] xl:mt-[33px] mt-[29px]  w-[90%]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-[24px] mt-[19px]" />
                     </div>
                 )}
             </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 mt-[40px] md:mt-[-60px] xl:mt-[-40px] 3xl:mt-[-80px]">
                 {/* Left Column */}
                 {rialtesMakesWorkData[2] && (
                     <div className="rialtesmakecard-1">
                         <img src={rialtesMakesWorkData[2].image} alt={rialtesMakesWorkData[2].title} className="w-full hidden md:block" />
                         <img src={rialtesMakesWorkData[2].mobileImage} alt={rialtesMakesWorkData[2].title} className="w-full block md:hidden" />
-                        <h4
-                            className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight font-semibold ">
+                        <h4 className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight font-semibold ">
                             {rialtesMakesWorkData[2].title}
                         </h4>
                         <UnorderedList arrName={rialtesMakesWorkData[2].list} ulClassName="list-disc pl-5 xl:mt-[33px] mt-[29px] w-[90%]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-[24px] mt-[19px]" />
@@ -422,7 +416,6 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 <div className="md:block hidden">
                     <Image
@@ -454,12 +447,10 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* page description section */}
             <section className="custom-container xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]">
                 <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight xl:w-[70%] w-[96%]">For over a decade, Rialtes has been a trusted partner for global automotive leaders, helping them navigate rapid industry transformation — from electrification and connected vehicles to customer experience innovation and supply chain resilience. Our specialized service suite, AutoSense, brings together deep automotive expertise, Salesforce Automotive Cloud proficiency, and powerful ERP integrations to drive real business outcomes.</p>
             </section>
-
             {/* introducing rialtes */}
             <section className="custom-container">
                 <div className="flex flex-col lg:flex-row gap-5">
@@ -473,14 +464,12 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* key pillars of autosense */}
             <KeyPillarsSectionDesign />
             {/* how rialtes makes it workd section */}
             <RialtesMakesWork />
             {/* why choose rialtes section */}
             <ChooseRialtes />
-
             {/* partner with rialtes */}
             <section className="relative mt-[60px] xl:mt-[81px]">
                 <div className="custom-container md:pl-0 max-md:px-0">
@@ -522,10 +511,8 @@ export default function page() {
                     </div>
                 </div>
             </section>
-
             {/* Thought leadership themes */}
-            <ThoughtLeadershipDesign/>
-
+            <ThoughtLeadershipDesign />
             {/* Contact Form */}
             <div className="custom-container text-black xl:pb-20 pb-10 pt-[115px] xl:pt-[138px]">
                 <ContactForm title={'Accelerate Your Automotive Transformation with Rialtes'} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
