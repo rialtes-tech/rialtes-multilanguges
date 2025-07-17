@@ -5,7 +5,6 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -192,7 +191,6 @@ const rialtesSapData = [
   "System Setup, Configuration & Custom Extensions",
   "Training, Testing, and Go-Live Support",
 ]
-
 const sapIntegrationPoints = [
   {
     bold: "Connect SAP S/4HANA with non-SAP apps ",
@@ -241,20 +239,18 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
       />
-   
-         <Script
+      <Script
         id="schema-grow"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       {/* hero section */}
       <section className="relative group overflow-hidden pb-20">
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
-            alt=""
+            alt="grow with sap banner"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -264,13 +260,12 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/services/grow-with-sap/AdobeStock_1335365875 (1).webp"
-            alt=""
+            alt="grow with sap banner"
             fill
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-
         <div className="relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
             <div className="xl:col-span-7 col-span-12 pr-5 ">
@@ -340,7 +335,6 @@ export default function Page() {
           <p className="4xl:text-[26px] xl:text-[20px] text-[18px]  font-normal bg-[#0C8AD4] xl:pr-[270px] p-10 pl-10 text-white mt-20 leading-tight">We deliver business value from strategy to execution — enabling you to Grow with SAP and accelerate towards an intelligent, AI-powered enterprise.</p>
         </div>
       </section>
-
       {/* why now section */}
       <section className="relative  flex flex-col xl:flex-row-reverse mt-16 custom-container !pr-0 max-lg:px-0">
         <div
@@ -348,7 +342,7 @@ export default function Page() {
           <div className="xl:block hidden">
             <Image
               src="/images/services/grow-with-sap/GWS.webp"
-              alt=""
+              alt="Grow with SAP: Why Now?"
               fill
               priority
               className="transform transition-transform duration-500 group-hover:scale-110 object-[35%_20%]"
@@ -357,7 +351,7 @@ export default function Page() {
           <div className="xl:hidden block">
             <Image
               src="/images/services/grow-with-sap/Why Now.webp"
-              alt=""
+              alt="Grow with SAP: Why Now?"
               fill
               priority
             />
@@ -398,7 +392,7 @@ export default function Page() {
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/Migration.webp"
-            alt=""
+            alt="SAP Business"
             fill
             priority
           />
@@ -406,7 +400,7 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/services/grow-with-sap/Group 458.webp"
-            alt=""
+            alt="SAP Business"
             fill
             priority
           />
@@ -447,7 +441,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* rialtes and sap section */}
       <section className="custom-container text-black py-20 pt-16">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -463,7 +456,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* key phases section */}
       <section className="xl:mb-20 mb-10 custom-container max-md:px-0 text-black">
         <h2 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold max-md:pl-10 xl:mt-10 pr-10">Key Phases of SAP Activate Methodology:</h2>
@@ -494,14 +486,13 @@ export default function Page() {
           </table>
         </div>
       </section>
-
       {/* sap signavio section */}
       <div className="xl:mb-20 mb-12 xl:mr-[142px] mt-0 custom-container text-black max-md:px-0">
         <div className="grid xl:grid-cols-12 grid-cols-1  bg-[#068EDA] xl:gap-8 gap-3 px-[36px]">
           <div className="xl:col-span-3 col-span-12 flex justify-center xl:justify-start pl-0 xl:pl-10  ">
             <Image
               src="/images/services/rise-with-sap/SAP Signavio.webp"
-              alt="SAP Partner Logo"
+              alt="SAP Signavio"
               width={0}
               height={0}
               priority
@@ -512,15 +503,13 @@ export default function Page() {
             <p className="4xl:text-[26px] xl:text-[20px] text-[16px]  font-normal leading-tight">SAP Signavio enables process modeling, simulation, and improvement for a future-ready operating model aligned with SAP standards.</p>
           </div>
         </div>
-
       </div>
-
       {/* expanding section */}
       <section className="relative w-full group overflow-visible">
         <div className="relative h-[660px] xl:h-[720px] w-full overflow-hidden">
           <Image
             src="/images/services/grow-with-sap/Expanding Value.webp"
-            alt="SAP SuccessFactors"
+            alt="Expanding Value with SAP"
             fill
             priority
             className="transition-transform duration-700 group-hover:scale-110 object-cover object-[85%_30%]"
@@ -535,7 +524,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-
         <div className="relative z-20 custom-container  xl:mr-[420px] mt-[-5rem] xl:mt-[-300px]">
           <div className="flex flex-col xl:flex-row gap-6">
             {cardsData.map((card, index) => (
@@ -553,7 +541,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* sap cpi section */}
       <section className="xl:mt-24 mt-16 h-full relative custom-container">
         <div className="grid grid-cols-12">
@@ -562,7 +549,6 @@ export default function Page() {
             <div className="grid xl:grid-cols-12 grid-cols-1 pt-10 xl:pb-32 pb-10 xl:gap-20">
               <div className="xl:col-span-6 col-span-12">
                 <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px]  xl:font-semibold font-medium  leading-tight">SAP Cloud Platform Integration (CPI)</h3>
-
                 <ul className="list-disc space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 mt-5 leading-tight">
                   {sapIntegrationPoints.map((item, index) => (
                     <li key={index}>
@@ -572,7 +558,6 @@ export default function Page() {
                   ))}
                 </ul>
               </div>
-
               <div className="xl:col-span-6 col-span-12 mt-16 xl:mt-0 ">
                 <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px]  xl:font-semibold font-medium  leading-tight">SAP BTP — Customization and Innovation at Scale</h3>
                 <p className="xl:mt-10 mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes offers strong SAP BTP competency to build custom apps, automate workflows, and extend S/4HANA:</p>
@@ -590,17 +575,14 @@ export default function Page() {
         </div>
         <p className="xl:block hidden 4xl:text-[26px] xl:text-[20px] text-[16px] bg-[#0C8AD4] font-normal p-5 xl:pl-10  text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
       </section>
-
-
-      <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
-
+     <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
       {/* conversational section */}
       <section className="bg-[#184671] xl:pb-20 pb-10 xl:mt-32 mt-10">
         <div className="custom-container h-full relative">
           <div className="relative xl:h-[665px] h-[341px]">
             <Image
               src="/images/services/grow-with-sap/Agentchat banner (1).webp"
-              alt=""
+              alt="grow with sap"
               fill
               style={{ objectFit: "cover" }}
               priority
@@ -608,7 +590,7 @@ export default function Page() {
             />
             <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:left-10">
               <div className="xl:col-span-7 col-span-12">
-                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Conversational AI with AgentChat — Transforming Customer Engagement</h2>
+                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Conversational AI with AgentChat — Transforming Customer Engagement</h2>
               </div>
               <div className="xl:col-span-6 col-span-12">
               </div>
@@ -636,7 +618,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* future proofing section */}
       <section className="xl:py-20 pt-16 pb-10 xl:mt-10">
         <div className="h-full relative custom-container">
@@ -644,7 +625,7 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12 relative group overflow-hidden h-[383px] xl:h-full">
               <Image
                 src="/images/services/grow-with-sap/Future-Proofing.webp"
-                alt=""
+                alt="Future-Proofing with AI"
                 fill
                 priority
                 className=" transform transition-transform duration-500 group-hover:scale-110 xl:!h-[563px] xl:!w-[532px]"
@@ -653,14 +634,13 @@ export default function Page() {
             <div className="xl:col-span-1 col-span-12">
             </div>
             <div className="xl:col-span-6 col-span-12 text-black mt-8 xl:mt-0">
-              <h2 className="leading-tight 4xl:text-[56px] xl:text-[43px] md:text-[26px] ">Future-Proofing with AI, Data, and Automation: The Next Frontier</h2>
+              <h2 className="leading-tight 4xl:text-[56px] xl:text-[43px] md:text-[26px]">Future-Proofing with AI, Data, and Automation: The Next Frontier</h2>
               <p className="mt-5 xl:text-[22px] text-[16px] leading-tight">Leverage SAP Data Cloud and Salesforce Agentforce AI to unlock next-gen ERP capabilities:</p>
               <UnorderedList arrName={futureProofingData} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5  font-semibold mt-10" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
             </div>
           </div>
         </div>
       </section>
-
       {/* contact form */}
       <section className="custom-container text-black py-16">
         <ContactForm title={'Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!'} subtitle={"Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />

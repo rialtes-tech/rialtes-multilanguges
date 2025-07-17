@@ -45,7 +45,7 @@ export default function Page() {
             alt="desktop banner"
             fill
             priority
-            className="transform transition-transform duration-500 group-hover:scale-110"
+            className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
           />
         </div>
         {/* Mobile Image */}
@@ -54,16 +54,17 @@ export default function Page() {
             src="/images/social-impact/Social impact header.webp"
             alt="mobile banner"
             fill
+            className="object-cover"
             priority
           />
         </div>
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-            <div className="col-span-12">
+            <div className="col-span-12 md:mb-[140px]">
               <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
                 Social Impact
               </h1>
-              <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] 2xl:text-[60px] xl:text-[50px] lg:text-[45px] md:text-[30px] text-[24px] ">
+              <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
                 Sustainability with<br /> Responsible AI
               </h2>
             </div>
@@ -74,15 +75,15 @@ export default function Page() {
       </section>
       {/* page description */}
       <section className="custom-container">
-        <div className="xl:py-16 py-5 bg-white ">
+        <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
           <div className=" xl:mb-0">
-            <h2 className="text-black md:pb-0 pb-4  font-bold 4xl:text-[43px] 2xl:text-[39px] xl:text-[35px] text-[22px] leading-tight ">
+            <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px]  xl:text-[35px] text-[22px] leading-tight ">
               Rialtes has been empowering customers across the world to trust AI
               and strengthen the philosophy of responsible AI.
             </h2>
           </div>
         </div>
-        <h2 className="pb-10  4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] md:text-[30px] text-[26px]" >We care. We take actions.</h2>
+        <h2 className="pb-10 4xl:text-[60px] xl:text-[40px] text-[26px]" >We care. We take actions.</h2>
       </section>
       {/* we care we take actions section */}
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden xl:block hidden">
@@ -95,19 +96,19 @@ export default function Page() {
         />
         <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
           <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] h-[484px] text-white  xl:right-0 top-0">
-            <h3 className="font-normal 4xl:text-[35px] 2xl:text-[33px] xl:text-[30px] md:text-[26px] text-[24px]">
+            <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">
               Rialtes Innovation Foundation
             </h3>
-            <p className="mt-5 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+            <p className="mt-5 4xl:text-[22px]  xl:text-[18px] text-[16px] ">
               At Rialtes Foundation, we believe in creating impact beyond
               business.{" "}
             </p>
-            <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+            <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
               Through our charity initiatives in India, we focus on uplifting
               underprivileged communities, supporting girl child education, and
               helping children in need access better opportunities.
             </p>
-            <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+            <p className="mt-4 4xl:text-[22px]  xl:text-[18px] text-[16px]">
               Empowering lives and building a better future remains at the heart
               of who we are.{" "}
             </p>
@@ -126,19 +127,19 @@ export default function Page() {
           <div className="relative p-6 w-[720px] h-[484px]">
             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-              <h3 className="font-normal 4xl:text-[35px] 2xl:text-[33px] xl:text-[30px] md:text-[26px] text-[24px]">ESG Efforts</h3>
-              <p className="mt-5 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+              <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">ESG Efforts</h3>
+              <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
                 At Rialtes, we are deeply committed to sustainability and
                 climate action.
               </p>
-              <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
                 As proud member of the 1t.org initiative, we actively contribute
                 to the global mission of planting 1 trillion trees. Our vision
                 includes achieving net-zero operations, reducing our
                 environmental footprint, and driving impactful climate
                 initiatives.
               </p>
-              <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
                 Building a greener, more sustainable future is at the core of
                 our values and actions
               </p>
@@ -159,20 +160,20 @@ export default function Page() {
             <div className="relative p-6 w-[720px] h-[484px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-                <h3 className="font-normal 4xl:text-[35px] 2xl:text-[33px] xl:text-[30px] md:text-[26px] text-[24px]">
+                <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px]  text-[24px]">
                   AI Impact for Future
                 </h3>
-                <p className="mt-5 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+                <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
                   At Rialtes, we are committed to shaping the future workforce
                   through our flagship program, ‘AI4Future’, focused on training
                   and certifying 500+ graduate trainees in leading global AI
                   certifications.
                 </p>
-                <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+                <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
                   We aim to bridge the AI skills gap and create opportunities
                   for the next generation of innovators.
                 </p>
-                <p className="mt-4 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] text-[16px] md:text-[18px]">
+                <p className="mt-4 4xl:text-[22px] xl:text-[20px] text-[16px]">
                   ‘AI4Future’ reflects our dedication to building future-ready
                   professionals and fostering inclusive growth.
                 </p>
@@ -271,16 +272,16 @@ export default function Page() {
         </div>
       </section>
       {/* revenue section */}
-      <div className="custom-container">
+      <div className="custom-container max-sm:px-0">
         <section className="bg-white">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-16 mt-16 xl:mt-20">
             {/* card 1 */}
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10  4xl:py-10 2xl:py-8 flex flex-col justify-center flex-grow">
-                <h3 className="h3-bold line-clamp-2 text-[35px] md:text-[28px] 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] ">
+                <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
                   1 % of revenue
                 </h3>
-                <p className="mt-4 text-[26px] md:text-[24px] 4xl:text-[30px] 2xl:text-[26px] xl:text-[26px]">
+                <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
                   committed to social work
                 </p>
               </div>
@@ -308,10 +309,10 @@ export default function Page() {
                 priority
               />
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px] xl:min-h-[245px]">
-                <p className=" text-[26px] md:text-[28px] 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] pb-2">
+                <p className="4xl:text-[30px] xl:text-[28px] text-[26px] pb-0 md:pb-2">
                   Committed to planting
                 </p>
-                <h3 className="h3-bold line-clamp-2 text-[26px] md:text-[24px] 4xl:text-[30px] 2xl:text-[26px] xl:text-[26px]">
+                <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px] ">
                   1 trillion trees
                 </h3>
               </div>
@@ -319,10 +320,10 @@ export default function Page() {
             {/* card 3 */}
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px]">
-                <h3 className="h3-bold line-clamp-2  text-[35px] md:text-[28px] lg:text-[26px] 4xl:text-[35px] 2xl:text-[32px] xl:text-[30px] ">
+                <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
                   500+ AI Certified
                 </h3>
-                <p className="mt-4 text-[26px] md:text-[24px] 4xl:text-[30px] 2xl:text-[26px] xl:text-[26px]">
+                <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
                   professionals every six months
                 </p>
               </div>
@@ -343,7 +344,7 @@ export default function Page() {
       <div className="custom-container text-black pb-20">
         <ContactForm
           title="Ready to take the next step? Let’s kick off your journey to operational excellence"
-          className={"2xl:max-w-4xl xl:max-w-2xl  leading-tight  4xl:text-[60px]  2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[30px] text-[26px] max-[400px]:text-[24px]"}
+          className={" leading-tight  4xl:text-[60px]  xl:text-[45px]  text-[26px] max-[400px]:text-[24px]"}
         />
       </div>
     </div>

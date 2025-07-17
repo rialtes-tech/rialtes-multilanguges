@@ -313,7 +313,7 @@ export default function DemandPlusSection() {
                     <div className="xl:col-span-5 order-1 xl:order-2">
                         <Image
                             src="/images/uipath/desktop/why-rpa.webp"
-                            alt="Why choose Background Desktop"
+                            alt="Why RPA with UiPath?"
                             priority
                             sizes="100vw"
                             className="w-full h-full"
@@ -370,7 +370,7 @@ export default function DemandPlusSection() {
                             <div className="w-[140px] h-[140px] flex items-start justify-start">
                                 <Image
                                     src={feature.icon}
-                                    alt="Employee and Client-centric approach"
+                                    alt={`${feature.title} image`}
                                     width={100}
                                     height={100}
                                     priority
@@ -395,7 +395,7 @@ export default function DemandPlusSection() {
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/uipath/desktop/rpa-sap-ariba.webp"
-                                alt="Why choose Background Desktop"
+                                alt="RPA Automation with SAP Ariba"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -406,7 +406,7 @@ export default function DemandPlusSection() {
                         <div className="xl:hidden block px-[35px]">
                             <Image
                                 src="/images/uipath/mobile/sap-ariba.webp"
-                                alt="Why choose Background Desktop"
+                                alt="RPA Automation with SAP Ariba"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -440,7 +440,7 @@ export default function DemandPlusSection() {
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/uipath/desktop/rpa-auto.webp"
-                                alt="Why choose Background Desktop"
+                                alt="RPA Automation with SAP S/4HANA"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -451,7 +451,7 @@ export default function DemandPlusSection() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/uipath/mobile/saps4hana.webp"
-                                alt="Why choose Background Desktop"
+                                alt="RPA Automation with SAP S/4HANA"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative max-md:px-[35px]"
@@ -487,12 +487,11 @@ export default function DemandPlusSection() {
             {/* success factor section */}
             <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
                 <div className="grid xl:grid-cols-12">
-
                     <div className="xl:col-span-4 xl:mt-20 mb-16 xl:mb-32">
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/uipath/desktop/sap-successfactor.webp"
-                                alt="SAP SuccessFactors Automation"
+                                alt="RPA Automation with SAP SuccessFactors"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -503,7 +502,7 @@ export default function DemandPlusSection() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/uipath/mobile/sap-successfactor.webp"
-                                alt="SAP SuccessFactors Automation"
+                                alt="RPA Automation with SAP SuccessFactors"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative max-md:px-[35px]"
@@ -512,7 +511,6 @@ export default function DemandPlusSection() {
                             />
                         </div>
                     </div>
-
                     <div className="xl:col-span-8 bg-[#E6D2D2] max-md:px-[35px] md:px-[35px] mt-[-200px] xl:mt-0 4xl:mt-0 text-black 4xl:pl-64 4xl:pr-[22rem] xl:pr-[14rem] xl:pl-[11rem] pt-16 4xl:ml-[-200px] xl:ml-[-130px] order-2 xl:order-1">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[40px] pt-32 xl:pt-0 4xl:pt-0">
                             RPA Automation with SAP SuccessFactors
@@ -523,34 +521,28 @@ export default function DemandPlusSection() {
                         <p className="mt-5 4xl:text-[22px] text-[16px]">
                             Rialtes automates complex and repetitive HR workflows in SuccessFactors using UiPath, creating a more agile HR function.
                         </p>
-
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">
                             SuccessFactors Use Cases:
                         </div>
                         <UnorderedList arrName={successFactorUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">
                             Benefits:
                         </div>
                         <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-
                         <div className="mt-5">
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
-
             {/* salesforce section */}
             <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0">
                 <div className="grid xl:grid-cols-12">
-
                     <div className="4xl:col-span-5 xl:col-span-6  xl:mt-20 4xl:mb-32 mb-16 order-1 xl:order-2">
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/uipath/desktop/rpa.webp"
-                                alt="Salesforce Automation"
+                                alt="RPA Automation with Salesforce"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -561,7 +553,7 @@ export default function DemandPlusSection() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/uipath/mobile/rpa-auto.webp"
-                                alt="Salesforce Automation"
+                                alt="RPA Automation with Salesforce"
                                 priority
                                 sizes="100vw"
                                 className="w-full relative max-md:px-[35px]"
@@ -570,7 +562,6 @@ export default function DemandPlusSection() {
                             />
                         </div>
                     </div>
-
                     <div className="4xl:col-span-7 xl:col-span-6 max-md:px-[35px] md:px-[35px] bg-[#ACD8ED] mt-[-200px] xl:mt-0 4xl:mt-0 text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] pt-32 xl:pt-0 4xl:pt-0">
                             RPA Automation with Salesforce
@@ -581,35 +572,26 @@ export default function DemandPlusSection() {
                         <p className="mt-5 4xl:text-[22px] text-[16px]">
                             Rialtes enables clients to extend UiPath RPA to Salesforce, improving CRM, sales, and service processes.
                         </p>
-
                         <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight mt-10">
                             Salesforce Use Cases:
                         </div>
-                        <ul className="">
-
-                        </ul>
                         <UnorderedList arrName={salesforceUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-
                         <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight mt-10">
                             Benefits:
                         </div>
                         <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-
                         <div className="mt-10">
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
-
-
             {/* industry focused section */}
             <section className="relative 4xl:mt-32 xl:mt-32 mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 xl:pr-0 max-md:pr-0">
                 <div>
                     <Image
                         src="/images/uipath/desktop/industry.webp"
-                        alt="Why choose Background Desktop"
+                        alt="Automotive Industry"
                         priority
                         sizes="100vw"
                         className="w-full h-[300px] xl:h-full"
@@ -617,13 +599,10 @@ export default function DemandPlusSection() {
                         height={0}
                     />
                 </div>
-
-                <div
-                    className="grid xl:grid-cols-12 grid-cols-1  4xl:mt-[-285px] xl:mt-[-200px]">
+                <div className="grid xl:grid-cols-12 grid-cols-1  4xl:mt-[-285px] xl:mt-[-200px]">
                     <div className="xl:col-span-10 bg-[#016FBE]  text-white p-8 xl:pl-20 4xl:pl-20 4xl:pb-20 pb-24 xl:pb-10">
                         <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">Industry-Focused UiPath RPA Use Cases</h2>
                         <div className="4xl:text-[40px] text-[20px] font-semibold leading-tight 4xl:mt-8 xl:mt-5 mt-5">Ready-to-Deploy</div>
-
                         <div className="flex xl:gap-20 4xl:gap-20 gap-10 4xl:mt-14 mt-10 md:gap-0 xl:flex-row flex-col md:flex-row">
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Automotive Industry</h3>
@@ -633,40 +612,33 @@ export default function DemandPlusSection() {
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Manufacturing & Semiconductor</h3>
                                 <UnorderedList arrName={manufacturingData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             </div>
-
                         </div>
                         <div className="flex xl:gap-20 4xl:gap-24 gap-10 md:gap-6 xl:flex-row flex-col 4xl:mt-16 xl:mt-16 mt-10 md:flex-row">
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Retail</h3>
                                 <UnorderedList arrName={retailData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-
                                 <div className="absolute 4xl:mt-5 xl:block hidden">
                                     <LearnMore />
                                 </div>
-
                             </div>
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">HR (Cross-Industry)</h3>
-
                                 <UnorderedList arrName={hrData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-
                                 <div className="absolute mt-5 xl:hidden block">
                                     <LearnMore />
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </section>
-
             {/* data visualization section */}
             <section className="mt-24 custom-container 4xl:pr-[142px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20 4xl:gap-20">
                     <div className="xl:col-span-5 col-span-12">
                         <Image
                             src="/images/uipath/desktop/data-visu.webp"
-                            alt="Why choose Background Desktop"
+                            alt="Data Visualization"
                             priority
                             sizes="100vw"
                             className="w-full relative"
@@ -678,18 +650,15 @@ export default function DemandPlusSection() {
                         <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">Data Visualization & Analytics with UiPath + Tableau/Qlik + Data Cloud</h2>
                         <UnorderedList arrName={visualizationData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
-
                 </div>
             </section>
-
             {/* ai enhaced section */}
             <section className="xl:mt-24 4xl:mt-24 mt-16 custom-container 4xl:pr-0 xl:pr-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
-
                     <div className="xl:col-span-8 4xl:ml-[35px] order-1 xl:order-2">
                         <Image
                             src="/images/uipath/desktop/ai-enhance.webp"
-                            alt="Why choose Background Desktop"
+                            alt="AI-Enhanced RPA"
                             priority
                             sizes="100vw"
                             className="w-full"
@@ -697,7 +666,6 @@ export default function DemandPlusSection() {
                             height={0}
                         />
                     </div>
-
                     <div className="xl:col-span-4 order-2 xl:order-1">
                         <h2 className="leading-tight text-[26px] 4xl:text-[55px] xl:text-[40px] 4xl:pr-10 pt-10 xl:pt-0 4xl:pt-0">
                             AI-Enhanced RPA
@@ -713,17 +681,15 @@ export default function DemandPlusSection() {
                             <LearnMore />
                         </div>
                     </div>
-
                 </div>
             </section>
-
             {/* proven section */}
             <section className="mt-40 custom-container 4xl:pr-0 xl:pr-0 4xl:pl-[142px]">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
                     <div className="xl:col-span-5 4xl:ml-[35px]">
                         <Image
                             src="/images/uipath/desktop/proven.webp"
-                            alt="Why choose Background Desktop"
+                            alt="Rialtes’ certified SCRUM"
                             priority
                             sizes="100vw"
                             className="w-full"
@@ -738,12 +704,11 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <section className="relative xl:mt-32 4xl:mt-32 mt-16 custom-container 4xl:pl-[280px] 4xl:pr-[142px] xl:pr-0 max-md:px-0">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/uipath/desktop/why-uipath-rpa.webp"
-                        alt="Why choose Background Desktop"
+                        alt="Why Rialtes for UiPath RPA?"
                         priority
                         sizes="100vw"
                         className="w-full h-full"
@@ -754,7 +719,7 @@ export default function DemandPlusSection() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/uipath/mobile/why-uipath-rpa.webp"
-                        alt="Why choose Mobile background"
+                        alt="Why Rialtes for UiPath RPA?"
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -762,12 +727,10 @@ export default function DemandPlusSection() {
                         priority
                     />
                 </div>
-
                 <div
                     className="grid xl:grid-cols-12  grid-cols-1 4xl:mt-[-100px] xl:mt-[-70px] max-md:px-[35px]">
                     <div className="col-span-1"></div>
                     <div className="xl:col-span-10 bg-[#016FBE]  text-white p-8 xl:pl-20 4xl:pl-20  pb-12 xl:pb-[rem] 4xl:pb-16">
-
                         <div className="flex xl:gap-20 xl:flex-row flex-col">
                             <div>
                                 <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">Why Rialtes for UiPath RPA?</h2>
@@ -779,7 +742,6 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-
             <div className="mt-20 custom-container pb-20">
                 <ContactForm title={'Ready to Transform with UiPath RPA?'} subtitle={"Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation."} subtitle1={"Contact us today for a free automation assessment!"} className={"4xl:max-w-[58rem] xl:max-w-[44rem] leading-tight text-[26px] !font-light 4xl:text-[60px]  xl:text-[45px] pr-10 xl:pr-0"} />
             </div >

@@ -6,7 +6,6 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -118,7 +117,6 @@ const greenfieldItemsLeft = [
     description: "Build system aligned with fit-to-standard and tailored needs."
   }
 ];
-
 const greenfieldItemsRight = [
   {
     title: "Data Strategy and Clean Migration",
@@ -256,22 +254,19 @@ export default function Page() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
       />
-
       <Script
         id="schema-rise"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       {/* hero section */}
       <section className="relative h-[350px] group sm:h-[500px] lg:h-[650px] overflow-hidden">
         <div className="xl:block hidden ">
           <Image
             src="/images/services/rise-with-sap/header.webp"
-            alt="SuccessFactor"
+            alt="rise with sap banner"
             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
-
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -280,20 +275,15 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/services/rise-with-sap/header.webp"
-            alt="SuccessFactor"
+            alt="rise with sap banner"
             fill
             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
-
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
           />
         </div>
-
         <div
-          className="
-                                     custom-container h-full relative
-                       "
-        >
+          className="custom-container h-full relative">
           <div className="h-full flex flex-col justify-center">
             <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">Voyager+</h3>
             <h1 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
@@ -313,7 +303,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* unlock section */}
       <section className="xl:mt-[78px] mt-[51px] custom-container">
         <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[1000px] 4xl:w-[1222px] 2xl:w-[1100px]  md:w-[700px] leading-tight  ">
@@ -327,7 +316,6 @@ export default function Page() {
           Our proprietary Voyager+ framework brings together SAP License Advisory, Solution Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — creating a seamless, value-driven journey for organizations adopting RISE with SAP.
         </p>
       </section>
-
       {/* why chooose section */}
       <div className="bg-[#DBDBDB]">
         <section className="custom-container pb-[39px] lg:pb-[50px] mt-[145px]">
@@ -355,12 +343,10 @@ export default function Page() {
                 ))}
               </ul>
             </div>
-
-
             <div className="w-full group xl:w-1/2 flex justify-center xl:justify-end">
               <Image
                 src="/images/services/rise-with-sap/why rialtes.webp"
-                alt="SAP Partner Logo"
+                alt="why rialtes"
                 width={0}
                 height={0}
                 className=" transform transition-transform duration-500 group-hover:scale-110 w-[95%] md:w-[75%] lg:w-full xl:w-full mt-[-90px] h-full lg:mt-[-80px] xl:mt-[-70px] object-cover"
@@ -371,14 +357,12 @@ export default function Page() {
           </div>
         </section>
       </div>
-
       {/* greenfield section */}
       <section className="relative group overflow-hidden xl:mt-0">
         <Image
           src="/images/services/rise-with-sap/Greenfield+background (1).webp"
-          alt=""
+          alt="Greenfield Implementation"
           className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
-
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -386,14 +370,12 @@ export default function Page() {
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[95px] mt-[48px] text-white">
             <div className="xl:col-span-12 col-span-12">
-
               <h2 className="text-[26px] 4xl:text-[60px] 2xl:text-[56px] xl:text-[50px] lg:text-[50px] md:text-[40px] leading-tight w-full">
                 Greenfield and Brownfield:<br />
                 Two Roads to SAP S/4HANA Success
               </h2>
             </div>
           </div>
-
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:mt-[55px] mt-[28px] text-white bg-[#0C723F] lg:p-12 p-[25px]">
             <div className="lg:col-span-7 col-span-12 flex items-center">
               <h2 className="4xl:text-[45px] text-[24px] 2xl:text-[42px] xl:text-[36px] lg:text-[30px] md:text-[35px] leading-tight font-medium xl:w-[94%] lg:w-[90%]">
@@ -406,7 +388,6 @@ export default function Page() {
               </p>
             </div>
           </div>
-
           <div className="grid lg:grid-cols-12 grid-cols-1 bg-white lg:pt-[40px] lg:px-[60px] lg:pb-[109px] px-[26px] pt-[28px] pb-[80px]">
             <div className="lg:col-span-6 col-span-12">
               <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px] md:text-[20px] text-[18px] font-bold">
@@ -420,26 +401,21 @@ export default function Page() {
               <BulletList items={greenfieldItemsRight} />
             </div>
           </div>
-
           <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] lg:text-[20px] md:text-[18px] bg-[#0C8AD4] p-5 pl-10 text-white xl:w-[93%] mt-[-50px] xl:ml-[50px]">
             Best for companies aiming for next-gen processes and cloud-first ERP.
           </p>
-
           <div className="grid lg:grid-cols-12 grid-cols-1 mt-20 text-white bg-[#713A18] lg:p-12 p-[25px]">
             <div className="lg:col-span-7 col-span-12 flex items-center">
               <h2 className="4xl:text-[45px] text-[24px] 2xl:text-[42px] xl:text-[36px] lg:text-[30px] md:text-[35px] leading-tight font-medium xl:w-[96%] lg:w-[90%]">
                 Brownfield Implementation - Seamless System Conversion
               </h2>
             </div>
-
-
             <div className="lg:col-span-4 col-span-12">
               <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[16px] mt-[16px] lg:mt-0">
                 For enterprises seeking to retain existing processes and data while migrating to S/4HANA, the Brownfield approach offers a cost-effective, faster route.
               </p>
             </div>
           </div>
-
           {/* brownfield */}
           <div className="grid lg:grid-cols-12 grid-cols-1 bg-white lg:pt-[40px] lg:px-[60px] lg:pb-[109px] px-[26px] pt-[28px] pb-[80px]">
             <div className="lg:col-span-6 col-span-12">
@@ -454,17 +430,14 @@ export default function Page() {
               <BulletList items={brownfieldItemsRight} />
             </div>
           </div>
-
           <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] lg:text-[20px] md:text-[18px] bg-[#0C8AD4] p-5 pl-10 text-white xl:w-[93%] mt-[-50px] xl:ml-[50px]">
             Ideal for organizations focused on modernization without disrupting core operations.
           </p>
-
           <button className="text-[16px] xl:text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-5 py-5 transition duration-300 order-4 mt-16">
             <Link href='/contact-us'>Learn More</Link>
           </button>
         </div>
       </section>
-
       {/* laveraging section */}
       <div className="custom-container xl:mt-[111px] mt-[46px]">
         <div className="grid lg:grid-cols-12 grid-cols-1 items-center xl:gap-16 gap-5">
@@ -513,7 +486,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
       {/* signavio section */}
       <div className="relative">
         <div className="absolute left-0 right-0 xl:mt-[74px] lg:mt-[95px] mt-[40px] sm:mt-[50px] md:mt-[62px]">
@@ -522,10 +494,9 @@ export default function Page() {
               <div className="xl:col-span-4 lg:col-span-4 col-span-12 lg:pl-10 md:px-4">
                 <Image
                   src="/images/services/rise-with-sap/SAP Signavio.webp"
-                  alt="SAP Partner Logo"
+                  alt="SAP Signavio Logo"
                   width={0}
                   height={0}
-
                   className="lg:w-full md:w-[50%] w-full h-full object-scale-down"
                   priority
                 />
@@ -539,7 +510,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       {/* extending section */}
       <div className="bg-[#DBDBDB] lg:py-[102px] lg:pb-[132px] lg:mt-[153px] mt-[400px] md:mt-[320px] pt-[45px] pb-[73px]">
         <div className="custom-container text-black">
@@ -561,18 +531,15 @@ export default function Page() {
             <div className="lg:col-span-5 col-span-12">
               <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px]  md:text-[20px] font-bold text-[18px]">SAP CPI for Enterprise-Grade Integration</h3>
               <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px]">We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.</p>
-
             </div>
           </div>
         </div>
       </div>
-
       {/* connected sap solution */}
       <section className="relative   xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
-
         <Image
           src="/images/services/rise-with-sap/Connected SAP Solutions.webp"
-          alt=""
+          alt="Connected SAP Solutions"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -585,14 +552,12 @@ export default function Page() {
               </h2>
             </div>
           </div>
-
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[100px] mt-[43px] ">
             <div className="col-span-12 flex xl:flex-row flex-col gap-5">
               {sapIntegrations.map((item, index) => (
                 <div
                   key={index}
-                  className="flex-1 lg:pt-[49px] lg:px-[40px] lg:pb-[40px] pt-[42px] px-[32px] pb-[48px] bg-white text-black"
-                >
+                  className="flex-1 lg:pt-[49px] lg:px-[40px] lg:pb-[40px] pt-[42px] px-[32px] pb-[48px] bg-white text-black">
                   <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[20px] text-[20px] font-bold">
                     {item.title}
                   </h3>
@@ -604,10 +569,8 @@ export default function Page() {
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
           </div>
-
         </div>
       </section>
-
       {/* conversational AI section */}
       <div className="bg-[#184671] 4xl:pt-[180px] 2xl:pt-[146px] xl:pt-[100px] pb-[68px]">
         <div className="custom-container xl:!pr-0">
@@ -616,7 +579,6 @@ export default function Page() {
               <Image
                 src="/images/services/rise-with-sap/Agentchat banner.webp"
                 alt="AgentChat Banner"
-
                 fill
                 style={{ objectFit: "cover", objectPosition: "68%" }}
                 priority
@@ -632,7 +594,6 @@ export default function Page() {
               <div className="xl:col-span-7 col-span-12" />
             </div>
           </div>
-
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:mt-[60px] mt-[28px]">
             <div className="xl:col-span-4 col-span-12">
               <h3 className="4xl:text-[40px] 2xl:text-[36px] xl:text-[34px] lg:text-[30px] md:text-[30px] font-bold text-[20px]  w-[90%] 4xl:w-[96%] 2xl:w-[99%] xl:w-[108%] ">Transform Customer and Supplier Engagement with AgentChat</h3>
@@ -661,12 +622,9 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       {/* AI and data driven section */}
-
       <div className="custom-container xl:mt-[134px] mt-[37px]">
         <div className="grid lg:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[100px] items-center">
-
           {/* Image Column */}
           <div className="col-span-12 group overflow-hidden lg:col-span-5 relative h-[450px] md:h-[600px] md:w-[700px] lg:w-full md:mx-auto lg:h-full">
             <Image
@@ -678,7 +636,6 @@ export default function Page() {
               className="w-full transform transition-transform duration-500 group-hover:scale-110 object-cover"
             />
           </div>
-
           {/* Content Column */}
           <div className="lg:col-span-7 col-span-12 text-black">
             <h2 className="text-[26px] leading-tight 4xl:text-[60px] 2xl:text-[56px] xl:text-[50px] lg:text-[40px] md:text-[40px]  mt-8 lg:mt-0 w-[90%]  4xl:w-full xl:w-[104%]">
@@ -691,7 +648,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       {/* Contact Form */}
       <section
         className="custom-container text-black xl:mt-[119px] mt-[72px] mb-[58px] xl:mb-[148px]">

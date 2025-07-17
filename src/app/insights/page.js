@@ -123,20 +123,49 @@ export default function InsightsPage() {
       />
 
       {/* Hero Section with Deep Blue Gradient Background */}
-      <HeroSection title="Stay Ahead with Expert Industry Insights" subtitle="" mobimg="/images/insights/insight-header-banner-new.webp" deskimg="/images/insights/insight-header-banner-new.webp" extraImg="" />
+ <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+        <div className="hidden md:block">
+          <Image
+            src="/images/insights/insight-header-banner-new.webp"
+            alt="desktop banner"
+            fill
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
+          />
+        </div>
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/insights/insight-header-banner-new.webp"
+            alt="mobile banner"
+            className="transform transition-transform duration-500 group-hover:scale-110 "
+            fill
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
+            priority
+          />
+        </div>
+        <div className="relative h-full custom-container flex items-center">
+          <div className="4xl:w-[64%] xl:w-[50%]">
+              <h1 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
+              Stay Ahead with Expert Industry Insights
+              </h1>
+          </div>
+        </div>
+      </section>
+
       {/* Blog Section */}
       <div className="custom-container">
-        <section className="mb-16  md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
-          <h2 className="text-[#000000] text-[20px] sm:text-[26px] py-6 my-8 max-w-4xl">
+        <section className="mb-16 mt-[50px] md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
+          <h2 className="text-[#000000] text-[20px] sm:text-[26px] pb-6 mb-8 max-w-4xl">
             Take a tour of our insights section to see our latest blogs, press
             releases, case studies, news coverage, updates and upcoming events.
           </h2>
-          <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-6">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
             <h2>Featured Blog</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/blogs"
-                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
+                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden">
                 <span className="inline-flex items-center">See All Blogs</span>
               </Link>
             </div>
@@ -149,7 +178,7 @@ export default function InsightsPage() {
               onClick={handleClick("/insights/blogs/how-salesforce-agentforce-actually-works")}
               style={{ cursor: "pointer" }}
             >
-              <div className="relative h-[300px]  lg:h-[700px] xl:h-[900px] 2xl:h-[750px] w-full overflow-hidden">
+              <div className="relative h-[300px] md:h-[500px]  lg:h-[700px] xl:h-[900px] 2xl:h-[750px] w-full overflow-hidden">
                 <div
                   className="h-full w-full"
                   style={{
@@ -211,12 +240,12 @@ export default function InsightsPage() {
             </div>
             <div className="flex flex-col space-y-10 w-full  xl:w-3/5 lg:w-full">
               <div
-                className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-full"
+                className="border border-gray-200 overflow-hidden flex flex-col lg:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog2")}
                 onMouseLeave={handleMouseLeave("blog2")}
                 onClick={handleClick("/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
                 style={{ cursor: "pointer" }}>
-                <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden ">
+                <div className="relative h-[300px] md:h-[500px] lg:h-auto lg:w-1/2 overflow-hidden ">
                   <div
                     className="h-full w-full"
                     style={{
@@ -235,7 +264,7 @@ export default function InsightsPage() {
                   </div>
                 </div>
                 <div
-                  className="p-6 sm:p-8 sm:w-1/2 bg-white flex flex-col justify-between "
+                  className="p-6 lg:p-8 lg:w-1/2 bg-white flex flex-col justify-between "
                   style={{
                     transition: "background-color 0.3s ease",
                     backgroundColor:
@@ -278,12 +307,12 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div
-                className="border border-gray-200 overflow-hidden flex flex-col sm:flex-row h-full"
+                className="border border-gray-200 overflow-hidden flex flex-col lg:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog3")}
                 onMouseLeave={handleMouseLeave("blog3")}
                 onClick={handleClick("/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
                 style={{ cursor: "pointer" }}>
-                <div className="relative h-48 sm:h-auto sm:w-1/2 overflow-hidden">
+                <div className="relative h-[300px] md:h-[500px] lg:h-auto lg:w-1/2 overflow-hidden">
                   <div
                     className="h-full w-full"
                     style={{
@@ -296,13 +325,13 @@ export default function InsightsPage() {
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"
-                      style={{ objectPosition: "60% 50%" }}
+                      style={{ objectPosition: "60% 30%" }}
                       priority
                     />
                   </div>
                 </div>
                 <div
-                  className="p-6 sm:p-8 sm:w-1/2 bg-white flex flex-col justify-between"
+                  className="p-6 lg:p-8 lg:w-1/2 bg-white flex flex-col justify-between"
                   style={{
                     transition: "background-color 0.3s ease",
                     backgroundColor:
@@ -361,7 +390,7 @@ export default function InsightsPage() {
       <section className="mt-16 py-16 bg-[#f1f1f1]">
         <div className="custom-container">
           <div className="lg:max-w-[800px]  xl:max-w-[1600px]">
-            <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-6">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
               <div>
                 <h2 className="mb-1">Case Studies</h2>
                 <p>Find our latest work and collaborations</p>
@@ -369,7 +398,7 @@ export default function InsightsPage() {
               <div className="hidden sm:block">
                 <Link
                   href="/insights/case-studies"
-                  className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
+                  className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden">
                   <span className="inline-flex items-center">
                     See All Case Studies
                   </span>
@@ -459,7 +488,7 @@ export default function InsightsPage() {
                       />
                     </div>
                   </div>
-                  <div className="p-8">
+                  <div className="p-6 xl:p-8">
                     <div className="flex flex-row items-center mb-3">
                       <span className="text-[#0092E0]">{study.category}</span>
                       <span className="mx-2">|</span>
@@ -491,12 +520,12 @@ export default function InsightsPage() {
        custom-container"
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
-          <div className="flex flex-col justify-between items-start md:flex-row mb-8">
+          <div className="flex flex-col justify-between items-start sm:items-center sm:flex-row mb-8">
             <h2 className="mb-1">Webinars</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/webinars"
-                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
+                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">
                   See All Webinars

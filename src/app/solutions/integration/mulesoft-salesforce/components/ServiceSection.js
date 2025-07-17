@@ -1,6 +1,5 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
-
 const CARD_DATA = [
   {
     _id: 1,
@@ -32,7 +31,6 @@ const CARD_DATA = [
     descrip:
       "Maximize MuleSoft efficiency with platform optimization, performance tuning, and 24/7 support. Trust us to ensure your business-critical APIs run smoothly, allowing you to focus on your next key initiative.",
   },
-
   {
     _id: 6,
     tittle: "Mule 3 to 4 Migration",
@@ -40,7 +38,6 @@ const CARD_DATA = [
       "Transition to Mule 4 with minimal disruption and downtime by leveraging advanced features. Allow your team to focus on development while we handle the migration.",
   },
 ];
-
 const ServiceSection = () => (
   <div className="custom-container ">
     <div className="lg:mb-[67px] mb-6 md:max-w-[80%] 2xl:w-[74%] 4xl:w-[80%] max-w-full">
@@ -60,6 +57,4 @@ const ServiceSection = () => (
     </div>
   </div>
 );
-
-
 export default ServiceSection;

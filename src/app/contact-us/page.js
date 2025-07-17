@@ -232,9 +232,9 @@ const LocationPage = () => {
             />
             <div className="custom-container pt-14">
                 <div>
-                    <h1>Our presence across the Globe</h1>
-                    <h4 className="mt-5 text-2xl">How can we help you?</h4>
-                    <p> Contact us, we would love to hear from you</p>
+                    <h1 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight'>Our presence across the Globe</h1>
+                    <h4 className="mt-5 mb-2 md:mb-0 4xl:text-[30px] xl:text-[26px] text-[24px] leading-tight">How can we help you?</h4>
+                    <p className='4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'> Contact us, we would love to hear from you</p>
                 </div>
                 <div className="xl:pr-[200px]">
                     <Image
@@ -319,7 +319,7 @@ const LocationPage = () => {
                     </div>
                 </div>
                 <section className="mt-16 xl:mt-32 pb-10 ">
-                    <ContactForm className='max-w-4xl' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                    <ContactForm className='max-w-4xl 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
                 </section>
                 <div className="pb-6"></div>
             </div>
