@@ -6,37 +6,29 @@ import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
-const ThoughtLeadershipSection = () => {
-    const keyIndustryChallenges = [
-        "Fragmented customer lifecycle management (from prospect to owner).",
-        "Inefficient dealer and franchisee management, impacting sales velocity.",
-        "Lack of real-time inventory visibility and pricing accuracy.",
-        "Disconnected service and warranty processes, hurting customer satisfaction.",
-        "Difficulty in personalizing customer engagement across digital and physical touchpoints.",
-        "Inefficient aftermarket parts and accessory sales workflows.",
-    ];
-    const rialtesSolutions = [
-        "Strategic advisory for end-to-end automotive digitalization.",
-        "Tailored solution design with SAP and Salesforce Industry Cloud offerings.",
-        "Pre-delivered accelerators for dealer management, vehicle lifecycle, and service orchestration.",
-        "Agile implementation using SAP Activate and Salesforce best practices.",
-        "Robust QA, integration, and post-go-live optimization.",
-    ];
-    const schemaData = {
-        "@context": "https://schema.org",
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Digital Transformation in Automotive Industry",
+    "url": "https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/",
+    "description": "Rialtes delivers end-to-end digital transformation for the automotive industry using Salesforce Automotive Cloud, SAP S/4HANA, Revenue Cloud, and Data Cloud. Our AI-powered solutions streamline lead management, dealer operations, vehicle lifecycle, warranty management, and customer engagement across OEMs, dealers, and mobility service providers.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc/",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "mainEntity": {
         "@type": "Service",
         "name": "Digital Transformation in Automotive Industry",
-        "description": "Rialtes delivers end-to-end digital transformation for the automotive industry using Salesforce Automotive Cloud, SAP S/4HANA, Revenue Cloud, and Data Cloud. Our AI-powered solutions streamline lead management, dealer operations, vehicle lifecycle, warranty management, and customer engagement across OEMs, dealers, and mobility service providers.",
-        "provider": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "url": "https://www.rialtes.com",
-            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-            "sameAs": [
-                "https://www.linkedin.com/company/rialtes-technologies-llc/",
-                "https://www.youtube.com/@rialtes"
-            ]
-        },
+        "description": "AI-powered Salesforce and SAP automotive solutions for OEMs, dealers, and mobility providers focused on lifecycle, engagement, and compliance.",
         "areaServed": [
             { "@type": "Country", "name": "United States" },
             { "@type": "Country", "name": "Canada" },
@@ -120,22 +112,28 @@ const ThoughtLeadershipSection = () => {
                     }
                 }
             ]
-        },
-        "url": "https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
+        }
     }
+}
+const ThoughtLeadershipSection = () => {
+    const keyIndustryChallenges = [
+        "Fragmented customer lifecycle management (from prospect to owner).",
+        "Inefficient dealer and franchisee management, impacting sales velocity.",
+        "Lack of real-time inventory visibility and pricing accuracy.",
+        "Disconnected service and warranty processes, hurting customer satisfaction.",
+        "Difficulty in personalizing customer engagement across digital and physical touchpoints.",
+        "Inefficient aftermarket parts and accessory sales workflows.",
+    ];
+    const rialtesSolutions = [
+        "Strategic advisory for end-to-end automotive digitalization.",
+        "Tailored solution design with SAP and Salesforce Industry Cloud offerings.",
+        "Pre-delivered accelerators for dealer management, vehicle lifecycle, and service orchestration.",
+        "Agile implementation using SAP Activate and Salesforce best practices.",
+        "Robust QA, integration, and post-go-live optimization.",
+    ];
+
     return (
         <section className="relative w-full xl:mt-[84px] mt-[64px]">
-            <Seo
-                title="Digital Transformation in Automotive Industry | Rialtes"
-                description="Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth."
-                canonical="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
-            />
-            <Script
-                id="schema-automotive"
-                type="application/ld+json"
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
             {/* Mobile View */}
             <div className="block md:hidden">
                 <Image
@@ -440,9 +438,9 @@ const PersonalizingSection = () => {
                         Salesforce Marketing Cloud + Automotive Cloud
                     </h3>
                     <UnorderedList arrName={personalizedData} ulClassName="list-disc pl-[22px]  4xl:w-[520px] 2xl:w-[519px] xl:w-[470px] lg:w-[420px] md:w-[380px] w-[340px] max-[400px]:w-[270px]" liClassName="text-[#FFFFFF] mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight" />
-               <div className="absolute bottom-[-95px]">
-                    <LearnMore />
-                </div>
+                    <div className="absolute bottom-[-95px]">
+                        <LearnMore />
+                    </div>
                 </div>
             </div>
         </section>
@@ -937,6 +935,17 @@ const RelatedSolutionsSection = () => {
 export default function page() {
     return (
         <>
+            <Seo
+                title="Digital Transformation in Automotive Industry | Rialtes"
+                description="Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth."
+                canonical="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
+            />
+            <Script
+                id="schema-automotive"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
                 <div className="hidden md:block">

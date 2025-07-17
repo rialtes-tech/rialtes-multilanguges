@@ -134,88 +134,95 @@ const growLatestServices = [
 ];
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Service",
+  "@type": "WebPage",
   "name": "Healthcare & MedTech IT Solutions",
+  "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/",
   "description": "Rialtes delivers Salesforce Health Cloud-powered solutions that transform patient care, provider operations, and MedTech services. From virtual care to hospital enhancements, we empower payers, providers, pharma, biotech, and MedTech organizations with connected, secure, and scalable healthcare IT solutions.",
-  "provider": {
+  "publisher": {
     "@type": "Organization",
     "name": "Rialtes",
     "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
     "sameAs": [
       "https://www.linkedin.com/company/rialtes-technologies-llc/",
       "https://www.youtube.com/@rialtes"
     ]
   },
-  "areaServed": [
-    { "@type": "Country", "name": "United States" },
-    { "@type": "Country", "name": "Canada" },
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Singapore" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Patient Care, MedTech & Health Cloud Solutions",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Salesforce Health Cloud Implementation",
-          "description": "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems."
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Healthcare & MedTech IT Solutions",
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "Singapore" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Patient Care, MedTech & Health Cloud Solutions",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salesforce Health Cloud Implementation",
+            "description": "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Urgent Care & Hospital Enhancements",
+            "description": "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Tailored Patient Engagement Tools",
+            "description": "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MedTech IT Services",
+            "description": "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Payer Solutions",
+            "description": "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Provider Solutions",
+            "description": "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pharma & Biotech Solutions",
+            "description": "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools."
+          }
         }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Urgent Care & Hospital Enhancements",
-          "description": "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Tailored Patient Engagement Tools",
-          "description": "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "MedTech IT Services",
-          "description": "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Payer Solutions",
-          "description": "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Provider Solutions",
-          "description": "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Pharma & Biotech Solutions",
-          "description": "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools."
-        }
-      }
-    ]
-  },
-  "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care"
+      ]
+    }
+  }
 }
 const GrowServicesCard = ({ services, className = '' }) => (
   <div className={`flex flex-col h-full ${className}`}>
@@ -253,7 +260,7 @@ const GrowServices = () => {
       <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20  ">
         {growLatestServices.map((services, index) => (
-          <GrowServicesCard key={services.id} services={services}  className={`${index % 2 === 0 ? 'xl:mr-7' : 'xl:ml-7'}`}  />
+          <GrowServicesCard key={services.id} services={services} className={`${index % 2 === 0 ? 'xl:mr-7' : 'xl:ml-7'}`} />
         ))}
       </div>
 
@@ -296,7 +303,7 @@ export default function Page() {
           <Image
             src="/images/healthcare/Healthcare-mobile.webp"
             alt="mobile banner"
-                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
 
             fill
             priority
@@ -317,7 +324,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section  className=" mt-[70px] custom-container">
+      <section className=" mt-[70px] custom-container">
         <div className="pb-5 bg-white">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
