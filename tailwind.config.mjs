@@ -13,10 +13,11 @@ module.exports = {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
       },
       screens: {
-        xs: "375px",
+        xxs: "375px",
+        xs: "414px",
         sm: "576px",
         md: "768px",
-        lg: "992px",
+        lg: "1024px",
         xl: "1200px",
         "2xl": "1366px",
         "3xl": "1536px",
