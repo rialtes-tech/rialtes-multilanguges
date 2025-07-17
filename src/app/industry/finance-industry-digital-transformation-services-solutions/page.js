@@ -7,104 +7,89 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
-  description:
-    "Rialtes offers Salesforce Financial Services Cloud (FSC) and SAP consulting to help banks, wealth firms, insurers, and real estate companies drive AI-powered transformation, streamline compliance, and enhance customer experiences.",
-  provider: {
+  "@type": "WebPage",
+  "name": "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
+  "url": "https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/",
+  "description": "Rialtes offers Salesforce Financial Services Cloud (FSC) and SAP consulting to help banks, wealth firms, insurers, and real estate companies drive AI-powered transformation, streamline compliance, and enhance customer experiences.",
+  "publisher": {
     "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: "https://www.rialtes.com/images/homepage/logo.svg",
-    sameAs: [
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "sameAs": [
       "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes",
-    ],
+      "https://www.youtube.com/@rialtes"
+    ]
   },
-  areaServed: [
-    {
-      "@type": "Country",
-      name: "United States",
-    },
-    {
-      "@type": "Country",
-      name: "Canada",
-    },
-    {
-      "@type": "Country",
-      name: "India",
-    },
-    {
-      "@type": "Country",
-      name: "Singapore",
-    },
-    {
-      "@type": "Continent",
-      name: "Europe",
-    },
-  ],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Financial Services Digital Transformation Solutions",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Salesforce Financial Services Cloud (FSC) Consulting",
-          description:
-            "Implement and optimize Salesforce FSC for personalized onboarding, AI workflows, and unified customer engagement across banking and wealth management.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "SAP S/4HANA for Financial Services",
-          description:
-            "Integrate SAP S/4HANA with Salesforce FSC for core banking operations, risk management, real-time finance analytics, and regulatory compliance.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "AI-Driven Financial Decisioning",
-          description:
-            "Leverage AI for risk scoring, fraud detection, and customer insights with Salesforce Einstein and SAP AI.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "AgentChat — WhatsApp for Salesforce FSC",
-          description:
-            "Enable real-time, secure WhatsApp communication within Salesforce FSC for onboarding, alerts, and support.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Exelona — Real Estate Cloud for FSC",
-          description:
-            "Transform real estate asset management and finance with Exelona, Rialtes’ proprietary FSC-based solution.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Zero Copy Data Integration",
-          description:
-            "Unify Salesforce and SAP data clouds for real-time analytics and AI without moving data — secure, compliant, and actionable.",
-        },
-      },
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
+    "description": "Salesforce FSC and SAP-powered digital transformation for banks, insurers, and real estate firms with AI, analytics, and personalized customer engagement.",
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "Singapore" }
     ],
-  },
-  url: "https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/",
-};
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Financial Services Digital Transformation Solutions",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salesforce Financial Services Cloud (FSC) Consulting",
+            "description": "Implement and optimize Salesforce FSC for personalized onboarding, AI workflows, and unified customer engagement across banking and wealth management."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SAP S/4HANA for Financial Services",
+            "description": "Integrate SAP S/4HANA with Salesforce FSC for core banking operations, risk management, real-time finance analytics, and regulatory compliance."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI-Driven Financial Decisioning",
+            "description": "Leverage AI for risk scoring, fraud detection, and customer insights with Salesforce Einstein and SAP AI."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AgentChat — WhatsApp for Salesforce FSC",
+            "description": "Enable real-time, secure WhatsApp communication within Salesforce FSC for onboarding, alerts, and support."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Exelona — Real Estate Cloud for FSC",
+            "description": "Transform real estate asset management and finance with Exelona, Rialtes’ proprietary FSC-based solution."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Zero Copy Data Integration",
+            "description": "Unify Salesforce and SAP data clouds for real-time analytics and AI without moving data — secure, compliant, and actionable."
+          }
+        }
+      ]
+    }
+  }
+}
 const challenges = [
   {
     number: "1",

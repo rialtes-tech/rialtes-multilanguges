@@ -9,18 +9,9 @@ import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
-    },
-    "name": "Rialtes | Digital Transformation for Medical Device Companies",
-    "headline": "Transforming Medical Devices with Next-Gen IT Solutions",
-    "description": "Rialtes delivers tailored Salesforce and SAP solutions for medical device manufacturers. From R&D and QMS to sales and compliance, accelerate innovation with scalable, secure technology.",
-    "about": {
-        "@type": "Thing",
-        "name": "Medical Device Industry"
-    },
-    "keywords": "Salesforce for MedTech, SAP for medical devices, digital transformation in medical device industry​, life sciences IT solutions",
+    "name": "Medical Devices IT Solutions",
+    "url": "https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/",
+    "description": "Rialtes delivers customized IT solutions for the medical device industry powered by Salesforce, SAP, and cloud technologies. Our services support R&D, Quality Management Systems (QMS), compliance, sales automation, and supply chain optimization for MedTech organizations.",
     "publisher": {
         "@type": "Organization",
         "name": "Rialtes",
@@ -28,6 +19,74 @@ const schemaData = {
         "logo": {
             "@type": "ImageObject",
             "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc/",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "mainEntity": {
+        "@type": "Service",
+        "name": "Medical Devices IT Solutions",
+        "areaServed": [
+            { "@type": "Country", "name": "United States" },
+            { "@type": "Country", "name": "Canada" },
+            { "@type": "Country", "name": "India" },
+            { "@type": "Country", "name": "Singapore" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Medical Devices Solutions",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Regulatory Compliance & Quality Management",
+                        "description": "Ensure FDA and ISO compliance with advanced QMS and audit trail capabilities using SAP S/4HANA and Salesforce Health Cloud."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salesforce CRM for MedTech",
+                        "description": "Empower field sales and service agents with real-time insights, mobile access, and automated lead-to-quote processes."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Supply Chain and Inventory Management",
+                        "description": "Enhance visibility and agility across procurement, production, and distribution using SAP Digital Supply Chain solutions."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Product Lifecycle Management",
+                        "description": "Streamline R&D, testing, and market launch cycles with integrated SAP PLM and collaboration tools."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Field Service & Asset Management",
+                        "description": "Optimize medical equipment servicing with predictive maintenance, IoT integration, and mobile workflows via Salesforce Field Service."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Advanced Analytics & Data Cloud",
+                        "description": "Drive decision-making with real-time analytics, clinical performance dashboards, and data harmonization using Tableau and Salesforce Data Cloud."
+                    }
+                }
+            ]
         }
     }
 }

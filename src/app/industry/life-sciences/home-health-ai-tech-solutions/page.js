@@ -7,95 +7,89 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import React from "react";
 export default function Page() {
-    const schemaData =
-    {
+    const schemaData = {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "WebPage",
         "name": "Home Health Care Technology Solutions",
+        "url": "https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/",
         "description": "Rialtes provides AI-powered Home Health Care Technology Solutions built on Salesforce to support remote monitoring, virtual consultations, personalized care, and digital transformation in home-based healthcare delivery.",
-        "provider": {
+        "publisher": {
             "@type": "Organization",
             "name": "Rialtes",
             "url": "https://www.rialtes.com",
-            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            },
             "sameAs": [
                 "https://www.linkedin.com/company/rialtes-technologies-llc/",
                 "https://www.youtube.com/@rialtes"
             ]
         },
-        "areaServed": [
-            {
-                "@type": "Country",
-                "name": "United States"
-            },
-            {
-                "@type": "Country",
-                "name": "Canada"
-            },
-            {
-                "@type": "Country",
-                "name": "India"
-            },
-            {
-                "@type": "Country",
-                "name": "Singapore"
+        "mainEntity": {
+            "@type": "Service",
+            "name": "Home Health Care Technology Solutions",
+            "areaServed": [
+                { "@type": "Country", "name": "United States" },
+                { "@type": "Country", "name": "Canada" },
+                { "@type": "Country", "name": "India" },
+                { "@type": "Country", "name": "Singapore" }
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Home Health Solutions",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Remote Patient Monitoring (RPM)",
+                            "description": "Track vitals and symptoms via wearables integrated with Salesforce Health Cloud to enable real-time alerts and chronic care management."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Virtual Care Coordination",
+                            "description": "Automated care plans, mobile dashboards, and real-time task tracking for clinicians and caregivers."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "AI-Driven Health Insights",
+                            "description": "Predictive health monitoring, smart care planning, and AI diagnostics for proactive home care delivery."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Salesforce Health Cloud Integration",
+                            "description": "Unified health records, appointment scheduling, care plan automation, and real-time patient engagement via Salesforce."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "WhatsApp-Based Patient Communication (AgentChat)",
+                            "description": "Real-time, HIPAA-compliant messaging between care teams and patients using Salesforce-integrated WhatsApp communication."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Mental Health & Behavioral Support",
+                            "description": "Discreet access to mental health professionals via virtual counseling, mood-tracking tools, and wellness check-ins."
+                        }
+                    }
+                ]
             }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Home Health Solutions",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Remote Patient Monitoring (RPM)",
-                        "description": "Track vitals and symptoms via wearables integrated with Salesforce Health Cloud to enable real-time alerts and chronic care management."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Virtual Care Coordination",
-                        "description": "Automated care plans, mobile dashboards, and real-time task tracking for clinicians and caregivers."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "AI-Driven Health Insights",
-                        "description": "Predictive health monitoring, smart care planning, and AI diagnostics for proactive home care delivery."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Salesforce Health Cloud Integration",
-                        "description": "Unified health records, appointment scheduling, care plan automation, and real-time patient engagement via Salesforce."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "WhatsApp-Based Patient Communication (AgentChat)",
-                        "description": "Real-time, HIPAA-compliant messaging between care teams and patients using Salesforce-integrated WhatsApp communication."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Mental Health & Behavioral Support",
-                        "description": "Discreet access to mental health professionals via virtual counseling, mood-tracking tools, and wellness check-ins."
-                    }
-                }
-            ]
-        },
-        "url": "https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"
+        }
     }
     const addressingData = [
         {
