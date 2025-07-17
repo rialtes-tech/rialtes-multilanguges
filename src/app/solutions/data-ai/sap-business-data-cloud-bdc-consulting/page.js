@@ -205,7 +205,7 @@ export default function Page() {
             business applications. With SAP Business Data Cloud, we enable you
             to integrate:
           </p>
-          <div className="flex xl:gap-32 gap-10   flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%] ">
+          <div className="flex xl:gap-32 gap-10 flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%]">
             <div className="lg:w-1/2">
               <UnorderedList arrName={[
                 "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
@@ -314,7 +314,6 @@ export default function Page() {
           </div>
         </section>
         <div className="py-7"></div>
-
         {/* Why Choose SAP Business Data Cloud? section */}
         <section className="relative">
           <div className="hidden lg:block">
@@ -339,12 +338,12 @@ export default function Page() {
             />
           </div>
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
-            <div className="text-left lg:w-[40%] flex pt-[59px] flex-col ">
+            <div className="text-left lg:w-[40%] flex pt-[59px] flex-col">
               <h2 className="leading-tight xl:w-[78%] 2xl:w-[75%] 4xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">Why Choose SAP Business Data Cloud?</h2>
-              <div className="lg:mt-[80px]  ">
+              <div className="lg:mt-[80px]">
                 <Link
                   href="/contact-us"
-                  className=" bg-[#006FBE]   hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 absolute  max-lg:bottom-[-20px]">
+                  className=" bg-[#006FBE] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 absolute  max-lg:bottom-[-20px]">
                   Learn More
                 </Link>
               </div>
@@ -429,13 +428,12 @@ export default function Page() {
               return (
                 <div
                   className={`h-full ${borderClasses} first:pl-0 first:pt-0 pt-[42px] md:pt-0 last:pr-0 md:pl-[10px] md:pr-[10px] lg:pl-[30px] lg:pr-[20px] flex flex-col justify-between`}
-                  key={ind}
-                >
+                  key={ind}>
                   <div>
                     <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] font-bold leading-tight">
                       {data.title}
                     </h3>
-                    <p className="mt-4  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                    <p className="mt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                       {data.desc}
                     </p>
                   </div>
@@ -488,7 +486,6 @@ export default function Page() {
                   priority
                 />
               </div>
-
               {/* Mobile Image */}
               <div className="block lg:hidden w-full h-[340px] sm:h-[700px] md:h-[750px] relative">
                 <Image

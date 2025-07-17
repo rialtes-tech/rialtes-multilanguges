@@ -5,7 +5,6 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
-
 export default function DemandPlusSection() {
   const schemaData = {
     "@context": "https://schema.org",
@@ -176,14 +175,12 @@ export default function DemandPlusSection() {
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
       />
-
       <Script
         id="schema-toska"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       {/* hero section */}
       <section className="relative">
         <div className="xl:block hidden">
@@ -208,7 +205,6 @@ export default function DemandPlusSection() {
             height={0}
           />
         </div>
-
         <div className="h-full absolute custom-container xl:!pr-0  mr-0 top-0">
           <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
             <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  xl:pr-10 pr-5 md:pr-64">
@@ -225,7 +221,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-
       {/* page description */}
       <section className="custom-container xl:!pr-0">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
@@ -254,13 +249,12 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-
       {/* why choose rialtes section */}
       <section className="relative">
         <div className="md:block hidden  2xl:h-full xl:h-[633px]">
           <Image
             src="/images/toska/desktop/why-choose.webp"
-            alt="Why choose Background Desktop"
+            alt="Why Choose Rialtes for Tosca Implementation?"
             priority
             sizes="100vw"
             className="w-full h-full object-cover"
@@ -271,7 +265,7 @@ export default function DemandPlusSection() {
         <div className="md:hidden block">
           <Image
             src="/images/toska/mobile/why-choose-mobile.webp"
-            alt="Why choose Mobile background"
+            alt="Why Choose Rialtes for Tosca Implementation?"
             width={0}
             height={0}
             sizes="100vw"
@@ -304,7 +298,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-      {/* max-[425px]:mt-[660px] max-[372px]:mt-[775px] */}
       {/* end to end section */}
       <section className="custom-container xl:!pr-0 max-[425px]:mt-[660px] max-[372px]:mt-[705px] max-[345px]:mt-[770px] mt-[630px] md:mt-[540px] lg:mt-[325px] xl:mt-[144px] 4xl:mt-22 ">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -326,7 +319,6 @@ export default function DemandPlusSection() {
               priority
             />
           </div>
-
           <div className="xl:col-span-6 order-2 xl:order-1">
             <h2 className="leading-tight text-[26px]  4xl:hidden xl:hidden block md:mt-20 mt-10 pr-10 4xl:pr-0">
               End-to-End Tosca Implementation & Advisory Services
@@ -367,7 +359,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </div>
-
       {/* qTest section */}
       <section className="relative mt-16 xl:custom-container px-0 sm:px-0 md:px-6 4xl:px-[142px]">
         <div className="xl:block hidden">
@@ -381,7 +372,6 @@ export default function DemandPlusSection() {
             height={0}
           />
         </div>
-
         <div className="xl:hidden block">
           <Image
             src="/images/toska/mobile/qtest-mobile.webp"
@@ -394,7 +384,6 @@ export default function DemandPlusSection() {
           />
         </div>
       </section>
-
       <section className="4xl:-mt-[12rem] xl:custom-container px-0 sm:px-0 md:px-6 xl:-mt-[9rem] absolute 4xl:!pl-[205px] xl:pl-[80px] xl:pr-[150px] 4xl:pr-[280px]">
         <div className="bg-[#006FBE] xl:p-16 4xl:p-16 p-10 grid xl:grid-cols-12 text-white 4xl:pb-32 sm:pb-32 pb-36 max-[375px]:pb-40">
           <div className="xl:col-span-7">
@@ -421,7 +410,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-
       <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[375px]:mt-[820px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[32rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
         <div className=" bg-[#073259] p-8 4xl:mt-[27rem] xl:mt-[20rem] relative">
           <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
@@ -430,7 +418,6 @@ export default function DemandPlusSection() {
           </p>
         </div>
       </section>
-
       {/* live compare section */}
       <section className="xl:mt-32 mt-24 xl:custom-container lg:px-0 pl-0">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -445,7 +432,6 @@ export default function DemandPlusSection() {
               priority
             />
           </div>
-
           <div className="xl:col-span-7 bg-[#D0EBFF] text-black 4xl:ml-[-32rem] max-md:px-[65px]  xl:ml-[-28rem] pb-[15rem] xl:pb-[9rem] 4xl:pb-[11rem] px-[35px] 4xl:pl-[36rem] xl:pl-[31rem] 4xl:pr-[10rem] xl:pr-[7rem] xl:mt-0 mt-[-200px] ">
             <h2 className="text-[26px] 4xl:text-[60px] xl:text-[38px] leading-tight 4xl:pr-16 xl:pr-10 pt-[15rem] 4xl:pt-16 xl:pt-[4rem] 2xl:text-[30px]">
               LiveCompare Implementation
@@ -468,7 +454,6 @@ export default function DemandPlusSection() {
             <div className="xl:hidden block mt-5">
               <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
             </div>
-            
           </div>
         </div>
       </section>
@@ -484,7 +469,6 @@ export default function DemandPlusSection() {
           <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
         </div>
       </div>
-
       {/* neo load section */}
       <section className="mt-10 xl:custom-container 4xl:px-[142px] max-lg:px-0">
         <div className="grid xl:grid-cols-12">
@@ -512,7 +496,6 @@ export default function DemandPlusSection() {
               />
             </div>
           </div>
-
           <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0  xl:pb-0 4xl:pb-0">
             <h2 className="text-[26px] 4xl:text-[60px] xl:text-[40px] leading-tight 4xl:pr-0  pt-[15rem] xl:pt-16 4xl:pt-16">
               NeoLoad Performance Testing Implementation
@@ -528,8 +511,6 @@ export default function DemandPlusSection() {
                 NeoLoad enables continuous performance testing, and Rialtes
                 ensures enterprises stress test their applications effectively:
               </p>
-              <ul className=""></ul>
-
               <UnorderedList
                 arrName={neoLoadData}
                 ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 mt-5 pr-1 xl:pr-0"
@@ -549,7 +530,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-
       <div className="grid grid-cols-12 xl:mt-[-10px] 4xl:mt-[-186px] absolute">
         <section className="custom-container bottom-0 xl:col-span-7 col-span-12  xl:px-0 4xl:pl-[280px]  xl:pl-[82px]  mt-[-11rem] md:mt-[-7rem] xl:mt-[20px] 4xl:mt-0">
           <div className=" bg-[#073259] xl:block hidden p-8  xl:mt-[-50px]  2xl:mt-[-2rem]">
@@ -565,7 +545,6 @@ export default function DemandPlusSection() {
           <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
         </div>
       </div>
-
       {/* rialtes certified section */}
       <section className="mt-20 4xl:mt-20 xl:mt-32 custom-container 4xl:pl-[280px] 4xl:pr-[120px] xl:pl-[142px]">
         <div className="grid xl:grid-cols-12 4xl:gap-16 grid-cols-1">
@@ -629,7 +608,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-
       {/* seamless section */}
       <section className="relative mt-16 4xl:mt-32 xl:custom-container xl:pl-0 4xl:pr-[280px] xl:pr-[80px] ">
         {/* Desktop Image */}
@@ -681,7 +659,6 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-
       <div className="custom-container">
         <div className="relative">
           <div className="xl:grid xl:grid-cols-12">
@@ -709,7 +686,6 @@ export default function DemandPlusSection() {
                 Interesting Facts About Tosca & Automated Testing
               </h2>
             </div>
-
             <div className="xl::col-span-12 col-span-12  pl-4">
               <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight">
                 <span className="text-[#006FBE] font-bold 4xl:text-[65px] xl:text-[40px] text-[20px]">
@@ -721,7 +697,6 @@ export default function DemandPlusSection() {
               </p>
             </div>
             <span className="border-b-2 border-gray-400 w-[30%] xl:w-full 4xl:w-full"></span>
-
             <div className="xl:col-span-12 col-span-12 pl-4">
               <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight">
                 Companies using Tosca report up to{" "}
@@ -745,7 +720,6 @@ export default function DemandPlusSection() {
               </p>
             </div>
             <span className="border-b-2 border-gray-400 w-[30%] xl:w-full 4xl:w-full"></span>
-
             <div className="xl:col-span-12 col-span-12  pl-4">
               <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight pr-10 xl:pr-0 4xl:pr-0">
                 Tricentis’ integrated platform (Tosca, qTest, NeoLoad) covers

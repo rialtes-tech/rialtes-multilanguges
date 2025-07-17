@@ -9,7 +9,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 const schemaData = {
-    "@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "MuleSoft Salesforce Integration Services",
   "url": "https://www.rialtes.com/solutions/integration/mulesoft-salesforce/",
@@ -106,7 +106,6 @@ const pointsData = [
   "Drive operational transformation with modern integration strategies",
   "Unite applications, devices, and data into one cohesive ecosystem",
 ];
-
 const serveData = [
   {
     _id: 1,
@@ -153,7 +152,6 @@ const driveData = [
     des: `Improvement in\ncustomer satisfaction`,
   },
 ]
-
 const page = () => (
   <>
     <Seo
@@ -163,15 +161,13 @@ const page = () => (
       canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
     />
     <Script
-        id="schema-mulesoft"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-
+      id="schema-mulesoft"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
     {/* hero section */}
-
-  <section className="relative group overflow-hidden h-[399px] lg:h-[670px] sm:h-[450px]">
+    <section className="relative group overflow-hidden h-[399px] lg:h-[670px] sm:h-[450px]">
       {/* Desktop Image */}
       <div className="hidden md:block">
         <Image
@@ -194,25 +190,25 @@ const page = () => (
         />
       </div>
 
-   <div className="absolute custom-container  lg:text-start top-[22%] text-[#ffffff]">
-                      <h1 className="text-[18px] lg:text-[24px] font-bold">
-              MuleSoft Integration Solutions
-            </h1>
-            <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-              Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
-            </h2>
-            <div className="flex sm:justify-end justify-start">
-                    <Image
-                        src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                        className="sm:w-[22%] w-[37%]  h-full bg-transperent sm:mt-15  mt-8"
-                        alt="Leadership Team"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        priority
-                    />
-                    </div>
-                </div>
+      <div className="absolute custom-container  lg:text-start top-[22%] text-[#ffffff]">
+        <h1 className="text-[18px] lg:text-[24px] font-bold">
+          MuleSoft Integration Solutions
+        </h1>
+        <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+          Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
+        </h2>
+        <div className="flex sm:justify-end justify-start">
+          <Image
+            src="/images/salesforce-consulting-services/salesforce-partner.webp"
+            className="sm:w-[22%] w-[37%]  h-full bg-transperent sm:mt-15  mt-8"
+            alt="Leadership Team"
+            width={0}
+            height={0}
+            sizes="100vw"
+            priority
+          />
+        </div>
+      </div>
       {/* <div className="relative h-full custom-container flex items-center text-[#ffffff]">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
@@ -233,7 +229,6 @@ const page = () => (
      
       </div> */}
     </section>
-
     {/* page description */}
     <div className="lg:py-28 py-14 custom-container">
       <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
@@ -266,20 +261,17 @@ const page = () => (
         <div className="w-full xl:max-w-[50%] h-full max-w-full relative flex xl:justify-end max-xl:gap-5">
           <Image
             src="/images/mulesoft-integration/RobustIntegrationSolution.webp"
-            className=""
             width={650}
             height={500}
-            alt=""
+            alt="Robust Integration Solution"
             priority
           />
         </div>
-
       </div>
       <div className="mt-6 custom-container">
         <LearnMore />
       </div>
     </section>
-
     {/* serve section */}
     <section className="custom-container">
       <div className="w-full mb-14">
@@ -290,7 +282,6 @@ const page = () => (
           Our MuleSoft Integration Services cater to a wide range of industries
         </p>
       </div>
-
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 ">
         {serveData.map(({ _id, tittle, descrip }) => (
           <div className="border-r border-[#707070] " key={_id}>
@@ -302,14 +293,12 @@ const page = () => (
         ))}
       </div>
     </section>
-
     {/* drive data section */}
     <div className="bg-[#fffbfb] py-16 mt-20">
       <div className="custom-container">
         <h2 className=" font-light mb-16 leading-tight 4xl:text-[40px] xl:text-[35px] md:text-[26px] ">
           Drive Measurable Business Outcomes
         </h2>
-
         <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 ">
           {driveData.map(({ _id, percent, des }) => (
             <div key={_id}>
@@ -322,14 +311,10 @@ const page = () => (
         </div>
       </div>
     </div>
-
-
     <div className="custom-container py-20 bg-[#F5F5F5]">
       <FeaturedCarousel />
     </div>
-
-    <div
-      className="mt-[120px] py-20 bg-[#808080]">
+   <div className="mt-[120px] py-20 bg-[#808080]">
       <div className="custom-container">
         <ExploreMoreCarousel />
       </div>

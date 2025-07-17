@@ -182,7 +182,6 @@ const rialChat = [
   "Supports delegation of cases, leads, work orders, service requests, and more by record type and business units.",
   "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
 ]
-
 export default function page() {
   return (
     <div className="min-h-screen bg-white">
@@ -198,7 +197,6 @@ export default function page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="relative group overflow-hidden">
         <div className="xl:block hidden">
           <Image
@@ -207,7 +205,6 @@ export default function page() {
             fill
             priority
             sizes="100vw"
-
           />
         </div>
         <div className="xl:hidden block">
@@ -219,8 +216,6 @@ export default function page() {
             sizes="100vw"
           />
         </div>
-
-
         <div className="relative  custom-container pb-40 md:pb-[30rem] xl:pb-40 4xl:pb-40">
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
@@ -233,9 +228,7 @@ export default function page() {
             </div>
           </div>
         </div>
-
       </section>
-
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12 ">
@@ -261,36 +254,31 @@ export default function page() {
           <div className="xl:col-span-2 col-span-12"></div>
         </div>
       </section>
-
       {/* comprehensive section */}
       <section className="relative  overflow-hidden mt-20 ">
         <div className="xl:block hidden w-full aspect-[20/0]">
           <Image
             src="/images/industry/retail/comprehensive.webp"
-            alt="GROW with SAP"
+            alt="comprehensive image"
             fill
             priority
             sizes="100vw"
             className="w-full h-full"
-
           />
         </div>
 
         <div className="xl:hidden block w-full aspect-[3/0]">
           <Image
             src="/images/industry/retail/compre-mobile.webp"
-            alt="GROW with SAP"
+            alt="comprehensive image"
             priority
             sizes="100vw"
             className="w-full h-full"
             fill
-
           />
         </div>
         <div
-          className="
-            custom-container max-md:px-0"
-        >
+          className="custom-container max-md:px-0">
           <div className="relative p-6 4xl:w-[828px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  mt-[25rem] md:mt-[60rem] xl:mt-0 ">
             <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply"></div>
             <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg">
@@ -309,21 +297,18 @@ export default function page() {
                   </li>
                 ))}
               </ul>
-
             </div>
           </div>
         </div>
       </section>
       <Link
         href="/contact-us"
-        className=" bg-[#006FBE] absolute 4xl:ml-[335px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300"
-      >
+        className=" bg-[#006FBE] absolute 4xl:ml-[335px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
         Learn More
       </Link>
-
       {/* deep industry section */}
       <section className="bg-[#E8E8E8] xl:pb-32 pb-48">
-        <div className="custom-container ">
+        <div className="custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-9 col-span-12 xl:mt-32 mt-20">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] xl:pr-32 4xl:pr-0">
@@ -336,7 +321,6 @@ export default function page() {
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
           </div>
-
           <div className="grid xl:grid-cols-4 grid-cols-2 xl:gap-10 gap-16 mt-16">
             {retailVerticals.map((item, index) => (
               <div key={index}>
@@ -352,12 +336,9 @@ export default function page() {
                 <h3 className={`mt-5 font-semibold 4xl:text-[30px] xl:text-[20px] leading-tight ${item.paddingClass}`}>{item.title}</h3>
               </div>
             ))}
-
           </div>
         </div>
-
       </section>
-
       <div className="grid xl:grid-cols-12 grid-cols-1 custom-container ">
         <div className="xl:col-span-10 col-span-12 bg-[#163055] p-8 relative bottom-20">
           <h3 className="4xl:text-[26px] text-[20px] text-white font-normal leading-tight pr-5 xl:pr-0 4xl:pr-0">
@@ -368,7 +349,6 @@ export default function page() {
         </div>
         <div className="xl:col-span-2 col-span-12"></div>
       </div>
-
       <section className="custom-container md:pr-0 grid xl:grid-cols-12 grid-cols-1  sm:mt-4 max-md:px-0">
         <div className="xl:col-span-6 order-1 xl:order-2">
           <Image
@@ -379,10 +359,8 @@ export default function page() {
             height={0}
             priority
             sizes="100vw"
-
           />
         </div>
-
         <div className="xl:col-span-6 bg-[#006FBE] 4xl:pt-20 pt-10 px-10 4xl:px-16 xl:px-16 xl:pr-10 text-white order-2 xl:order-1 pb-20 ">
           <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]">Salesforce & SAP</h2>
           <h3 className="4xl:text-[42px] font-semibold text-[22px] mt-5 leading-tight xl:pr-32 4xl:pr-24">
@@ -405,7 +383,6 @@ export default function page() {
           </p>
         </div>
       </section>
-
       {/* exelona section */}
       <section className="custom-container  mt-16 max-lg:px-0">
         <div className="lg:block hidden">
@@ -431,7 +408,7 @@ export default function page() {
           />
         </div>
       </section>
-      <section className="custom-container  text-white lg:mt-[-100px] mt-[-120px] relative z-20">
+      <section className="custom-container text-white lg:mt-[-100px] mt-[-120px] relative z-20">
         <div className="bg-[#6E6E6E] lg:mr-20 lg:p-8 mb-2  md:p-8 sm:p-8  p-8  max-md:mr-0 max-sm:mb-8 pb-20 xl:pb-0 4xl:pb-0">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-6 col-span-12 xl:pl-14 xl:mt-10 ">
@@ -460,7 +437,6 @@ export default function page() {
           </div>
         </div>
       </section>
-
       {/* advance AI section */}
       <section className="xl:mt-16  ">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -468,7 +444,7 @@ export default function page() {
             <Image
               className="mx-auto md:mx-0  w-full max-md:px-[35px] xl:h-full h-[391px]"
               src="/images/industry/retail/advance-ai.webp"
-              alt="Taking the lead"
+              alt="advance-ai image"
               width={0}
               height={0}
               sizes="100vw"
@@ -501,16 +477,13 @@ export default function page() {
             <div className="relative">
               <Link
                 href="/contact-us"
-                className=" bg-[#006FBE] absolute 4xl:bottom-[-147px] 4xl:mt-[41px] xl:mt-[78px] mt-12 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300"
-              >
+                className=" bg-[#006FBE] absolute 4xl:bottom-[-147px] 4xl:mt-[41px] xl:mt-[78px] mt-12 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                 Learn More
               </Link>
             </div>
-
           </div>
         </div>
       </section>
-
       {/* related section */}
       <section className="custom-container pt-16">
         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]">Related Salesforce Cloud Capabilities</h2>
@@ -518,8 +491,7 @@ export default function page() {
           {salesforceSolutions.map((item, index) => (
             <div
               key={index}
-              className="border relative border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]"
-            >
+              className="border relative border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
               <h3 className="text-[#0A6BB8] xl:pr-20 4xl:pr-8 font-semibold leading-tight 4xl:text-[30px] xl:text-[20px]">{item.title}</h3>
               <p className="4xl:text-[24px] text-[16px] mt-5 xl:pr-10 font-normal mb-[40px] leading-tight">{item.description}</p>
               <div className="absolute bottom-[-20px]">
@@ -528,9 +500,7 @@ export default function page() {
             </div>
           ))}
         </div>
-
       </section>
-
       {/* realchat section */}
       <section className="xl:mt-32 mt-20 custom-container lg:pr-0 pl-0 max-md:px-0 ">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -538,14 +508,13 @@ export default function page() {
             <Image
               className="w-full  h-auto 4xl:h-[671px] xl:h-[451px] mt-16 relative mx-auto xl:mx-0 max-md:px-[35px]"
               src="/images/industry/retail/mobile-re.webp"
-              alt="Taking the lead"
+              alt="RialChat image"
               width={0}
               height={0}
               sizes="100vw"
               priority
             />
           </div>
-
           <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 4xl:h-[865px]">
             <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[40px] text-[26px]">Introducing RialChat</h2>
             <h3 className="4xl:text-[42px] text-[22px] mt-4 font-semibold leading-tight">
@@ -563,16 +532,14 @@ export default function page() {
       </section>
       <div className="grid grid-cols-12">
         <div className="xl:col-span-3"></div>
-        <div className="xl:col-span-7  mx-[35px] z-[9] xl:mx-0 4xl:ml-[-54px] 2xl:ml-[-100px] 3xl:ml-[-20px]  xl:ml-[-165px] 4xl:mt-[-130px] col-span-12 relative bg-[#163055] p-8 xl:mt-[-115px] mt-[-100px]">
+        <div className="xl:col-span-7 mx-[35px] z-[9] xl:mx-0 4xl:ml-[-54px] 2xl:ml-[-100px] 3xl:ml-[-20px]  xl:ml-[-165px] 4xl:mt-[-130px] col-span-12 relative bg-[#163055] p-8 xl:mt-[-115px] mt-[-100px]">
           <h3 className="4xl:text-[26px] text-[20px] text-white font-normal leading-tight">
             With RialChat, enterprises can deliver personalized, secure, and
             scalable customer interactions — directly on WhatsApp, embedded within
             Salesforce.
           </h3>
         </div>
-
       </div>
-
       {/* why choose section */}
       <section className="relative h-[1026px] xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
         <div className="xl:block hidden">
@@ -582,7 +549,6 @@ export default function page() {
             fill
             priority
             sizes="100vw"
-
           />
         </div>
         <div className="xl:hidden block">
@@ -595,11 +561,7 @@ export default function page() {
           />
         </div>
         <div
-          className="h-full
-                        mx-[35px] xl:mx-0
-                        xl:ml-[280px] 
-                        xl:mr-[156px] 
-                        md:ml-[100px]">
+          className="h-full mx-[35px] xl:mx-0 xl:ml-[280px] xl:mr-[156px] md:ml-[100px]">
           <div className="flex justify-end xl:mt-32 mt-[24rem]">
             <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[560px] xl:h-[495px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
@@ -619,16 +581,13 @@ export default function page() {
           </div>
         </div>
       </section>
-
-
       {/* contact form */}
       <div className="mx-[35px]  custom-container text-black py-16">
         <ContactForm
           title={
             "Contact Rialtes today to explore how Retail+ can future-proof your retail enterprise."
           }
-          className={"xl:max-w-[72%] leading-tight  4xl:text-[59px] text-[26px] xl:text-[40px]"}
-        />
+          className={"xl:max-w-[72%] leading-tight  4xl:text-[59px] text-[26px] xl:text-[40px]"}/>
       </div>
     </div>
   );

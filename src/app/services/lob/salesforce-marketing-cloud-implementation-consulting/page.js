@@ -203,7 +203,6 @@ const Services = () => {
             <div className="4xl:mt-10 xl:mt-10 mt-5">
                 <LearnMore />
             </div>
-
         </div>
     );
 };
@@ -312,7 +311,7 @@ export default function Page() {
                 <div className="xl:block hidden pt-20">
                     <Image
                         src="/images/services/lob/advantageplus/desktop/banner.webp"
-                        alt=""
+                        alt="Advantage+ banner"
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -322,17 +321,13 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/services/lob/advantageplus/mobile/banner.webp"
-                        alt=""
+                        alt="Advantage+ banner"
                         fill
                         priority
                         className="h-full"
                     />
                 </div>
-
-                <div
-                    className="relative
-        custom-container"
-                >
+                <div className="relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:mt-20 4xl:mt-20 mt-16 mx-auto">
                         <div className="xl:col-span-7 col-span-12 pr-5 ">
                             <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
@@ -342,7 +337,6 @@ export default function Page() {
                             <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[22rem] sm:pr-20 xs:pr-16">
                                 Fueling Growth Through Personalized Marketing
                             </h2>
-
                             <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
                                 Rialtes’ Salesforce Marketing Cloud Services
                             </h1>
@@ -350,8 +344,6 @@ export default function Page() {
                         <div className="xl:col-span-6 col-span-12">
                         </div>
                     </div>
-
-
                 </div>
             </section>
             {/* page description */}
@@ -362,7 +354,6 @@ export default function Page() {
                             Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+
                         </h2>
                         <p className="text-[16px] 4xl:text-[22px] leading-tight mt-5 4xl:pr-[25px] pr-[2rem] xl:pr-0">We help organizations harness the power of Salesforce Marketing Cloud with our Advantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption. As a Salesforce Certified Consulting Partner with offices in the U.S., Canada, India, and Singapore, Rialtes combines industry expertise with Marketing Cloud proficiency to drive transformation in B2B and B2C sectors. </p>
-                        {/* <p className="text-[16px] 4xl:text-[22px] leading-tight  mt-5 4xl:pr-4 pr-12 xl:pr-0"> As a Salesforce Certified Consulting Partner with offices across the United States, Canada, India, and Singapore, Rialtes combines deep industry expertise with Salesforce Marketing Cloud proficiency to drive impactful sales and marketing transformation across B2B and B2C industries, including automotive, manufacturing, healthcare, real estate, and retail.</p> */}
                     </div>
                     <div className="xl:col-span-4 col-span-12">
                     </div>
@@ -381,7 +372,7 @@ export default function Page() {
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/services/lob/advantageplus/desktop/deep-under.webp"
-                                alt="Warehouse"
+                                alt="Salesforce Marketing Cloud image"
                                 fill
                                 className="object-cover"
                                 priority
@@ -391,7 +382,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/services/lob/advantageplus/mobile/deep.webp"
-                                alt="Warehouse"
+                                alt="Salesforce Marketing Cloud image"
                                 priority
                                 width={0}
                                 height={0}
@@ -430,7 +421,7 @@ export default function Page() {
                     <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
                             src="/images/services/lob/advantageplus/desktop/driving.webp"
-                            alt="Warehouse"
+                            alt="Our expertise image"
                             priority
                             width={0}
                             height={0}
@@ -452,6 +443,7 @@ export default function Page() {
 
                         <div className="mt-10">
                             <LearnMore />
+
                         </div>
                     </div>
                 </div>
@@ -519,7 +511,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/advantageplus/desktop/agentchat.webp"
-                        alt="Cloud Technology"
+                        alt="agentchat image"
                         width={0}
                         height={0}
                         className="w-full object-cover mt-[-100px]"
@@ -530,7 +522,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/services/lob/advantageplus/mobile/introducing-agentchat.webp"
-                        alt="Cloud Technology"
+                        alt="agentchat image"
                         width={0}
                         height={0}
                         className="w-full object-cover mt-[-100px]"
@@ -573,7 +565,7 @@ export default function Page() {
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/services/lob/advantageplus/desktop/your-growth.webp"
-                                alt="Cloud Technology"
+                                alt=" Your Growth Partners image"
                                 width={0}
                                 height={0}
                                 className="w-full h-full mt-10 xl:mt-20 object-cover"
@@ -584,7 +576,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/services/lob/advantageplus/mobile/your-growth.webp"
-                                alt="Cloud Technology"
+                                alt=" Your Growth Partners image"
                                 width={0}
                                 height={0}
                                 className="w-full h-full mt-10  object-cover"
@@ -611,14 +603,12 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-
             {/* explore more section */}
             <div className="mt-[4rem] 4xl:mt-[5rem] xl:mt-[3rem]">
                 <section className=" bg-white">
                     <SalesforceExplore />
                 </section>
             </div>
-
             {/* contact form section */}
             <div className="custom-container text-black py-16">
                 <ContactForm title={'Ready to Accelerate Your Marketing? Let’s Talk!'} className={"leading-tight xl:max-w-[65%] max-w-full 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-light"} />
