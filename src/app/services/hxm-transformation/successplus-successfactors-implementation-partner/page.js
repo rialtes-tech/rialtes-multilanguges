@@ -8,10 +8,9 @@ import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "SuccessFactors Implementation Partner",
+  "name": "Success+ – SAP SuccessFactors Consulting & Implementation Services",
   "url": "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/",
-  "description": "Rialtes offers end-to-end SAP SuccessFactors consulting and implementation services, helping organizations transform HR operations and optimize employee experiences using AI, ML, and analytics.",
-  "inLanguage": "en",
+  "description": "Success+ by Rialtes offers AI-powered SAP SuccessFactors consulting and implementation services to modernize human capital management and accelerate HR transformation across industries.",
   "publisher": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -19,78 +18,71 @@ const schemaData = {
     "logo": {
       "@type": "ImageObject",
       "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/rialtes-technologies-llc",
+      "https://x.com/Rialtestech",
+      "https://www.youtube.com/@rialtes"
+    ]
   },
   "mainEntity": {
     "@type": "Service",
-    "name": "SAP SuccessFactors Implementation & Consulting",
-    "serviceType": "SAP SuccessFactors Implementation, Support, Data Migration, Integration, Employee Central & Payroll",
+    "name": "SAP SuccessFactors Consulting, Migration, and Implementation",
+    "serviceType": "HCM Digital Transformation Services",
+    "category": "Human Capital Management & HR Automation",
     "provider": {
       "@type": "Organization",
-      "name": "Rialtes",
-      "url": "https://www.rialtes.com"
+      "name": "Rialtes"
     },
     "areaServed": [
       { "@type": "Country", "name": "United States" },
       { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
-    ],
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "HR Directors, CHROs, HR Managers, Payroll Leads, IT & HCM Transformation Leaders"
-    },
+      { "@type": "Country", "name": "Singapore" },
+      { "@type": "Country", "name": "India" }
+      ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "SAP SuccessFactors Services by Rialtes",
+      "name": "Success+ SAP SuccessFactors Services",
       "itemListElement": [
         {
           "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "SuccessFactors Implementation",
-            "description": "End-to-end implementation services across HR Core, Talent, and Analytics modules with SAP-certified preconfigured solutions."
-          }
+          "itemOffered": { "@type": "Service", "name": "SAP SuccessFactors Consulting & Advisory" }
         },
         {
           "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "SuccessFactors Support",
-            "description": "Comprehensive release management, adoption assistance, technical support, and administration for ongoing system optimization."
-          }
+          "itemOffered": { "@type": "Service", "name": "SuccessFactors Implementation & Configuration (Core HR, Talent, Learning, Compensation)" }
         },
         {
           "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Data Modelling and Migration",
-            "description": "Align and migrate organizational data using tools and methods tailored for SuccessFactors schemas and requirements."
-          }
+          "itemOffered": { "@type": "Service", "name": "Workday to SAP SuccessFactors Migration" }
         },
         {
           "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Integration and Data Management",
-            "description": "Maintain high data quality through precise ETL processes and integration strategies for connected HR systems."
-          }
+          "itemOffered": { "@type": "Service", "name": "ZOHO HR to SAP SuccessFactors Migration" }
         },
         {
           "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Employee Central",
-            "description": "Manage organizational structures, employee profiles, and benefits through centralized data for clear reporting and operations."
-          }
+          "itemOffered": { "@type": "Service", "name": "Integration with SAP S/4HANA, Finance, and Payroll" }
         },
         {
           "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Employee Central Payroll",
-            "description": "Modernize global payroll management, improve processing speed, ensure compliance, and reduce manual errors."
-          }
+          "itemOffered": { "@type": "Service", "name": "SAP Joule AI Implementation & Customization" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "SAP BTP Extensions for SAP SuccessFactors" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "SuccessFactors Integration via SAP CPI" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "HR Process Optimization using SAP Signavio & Activate Methodology" }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", "name": "AgentChat Integration with SAP SuccessFactors (WhatsApp-based HR automation)" }
         }
       ]
     }
@@ -227,7 +219,7 @@ export default function Page() {
     <div className="min-h-screen bg-white">
       <Seo
         title="SAP SuccessFactors Consulting and Implementation Partners | Rialtes"
-        description="Reimagine HR with a trusted SuccessFactors implementation partner, Rialtes. Unlock AI-powered consulting and automation built for your transformation goals"
+        description="Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!"
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
       />
