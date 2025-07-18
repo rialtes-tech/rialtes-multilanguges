@@ -209,7 +209,7 @@ export default function BlogsCarousel() {
     <section className="relative sm:pb-10 pb-16 bg-white">
       <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[43px] leading-tight text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px]">Latest Blogs</h2>
+          <h2 className="text-black mb-[43px] leading-tight text-[26px]  xl:text-[50px] 4xl:text-[60px]">Latest Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
