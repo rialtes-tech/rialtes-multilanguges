@@ -269,15 +269,15 @@ const BlogCard = ({ blog }) => (
     </div>
     <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
-        <div className='pb-2 md:pb-4'>
+        <div className='pb-2 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
           <span className='text-[#0092E0]'>{blog.category}</span>
           <span className='text-[#ACACAC]'> | </span>
           {blog.date}
         </div>
-        <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-3 xl:line-clamp-4">{blog.title}</h4></Link>
+        <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px]  leading-tight">{blog.title}</h4></Link>
       </div>
       <div className="flex flex-col">
-        <p className='line-clamp-4 md:mb-4 mb-2'>{blog.description}</p>
+        <p className='line-clamp-4 md:mb-4 mb-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>{blog.description}</p>
       </div>
     </div>
   </div>
@@ -326,13 +326,13 @@ const BlogList = () => {
   return (
     <div className=" ">
       <div className="flex md:flex-row flex-col pb-4">
-        <div className="flex flex-col md:pb-0 pb-4">
-          <h2 className="text-black">Latest Blogs</h2>
+        <div className="flex flex-col md:pb-0 pb-4 justify-center">
+          <h2 className="text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">Latest Blogs</h2>
         </div>
         <div className="relative flex flex-row max-[320px]:flex-col md:ml-auto h-[60px] mt-4 max-[320px]:mb-12 max-[320px]:gap-2">
           <div className="relative">
             <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
-              <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
+              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'
@@ -344,7 +344,7 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsIndustry && (
-              <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2'>
+              <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                 <ul>
                   <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Agriculture')}>Agriculture</li>
@@ -362,7 +362,7 @@ const BlogList = () => {
           </div>
           <div className="relative">
             <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
-              <span className="pr-5">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
+              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'
@@ -374,7 +374,7 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsCategory && (
-              <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0'>
+              <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                 <ul>
                   <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterBlogsByCategory('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Diversity & Inclusion')}>Diversity & Inclusion</li>
@@ -397,7 +397,7 @@ const BlogList = () => {
         </div>
       </div>
       <div className='w-full'>
-        <p className='text-xl py-4'>Search result by {selectedIndustry} industry / {selectedCategory} category</p>
+        <p className='text-xl py-4 4xl:text-[30px] xl:text-[22px] text-[20px]  leading-tight'>Search result by {selectedIndustry} industry / {selectedCategory} category</p>
       </div>
 
       {filteredBlogsByCategory.length === 0 ? (
@@ -418,7 +418,7 @@ const BlogList = () => {
             onClick={loadMoreBlogs}
             disabled={visibleBlogs >= filteredBlogsByCategory.length}
           >
-            <span className='group-hover:pr-4 transition-all duration-300'>Load more</span>
+            <span className='group-hover:pr-7 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Load more</span>
             <svg
               className='w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
               fill='none'
@@ -522,7 +522,7 @@ const FeaturedCarousel = () => {
     <section className="relative pb-10 bg-white">
       <div className="mb-[36px]">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[36px]">Featured Blogs</h2>
+          <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight ">Featured Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -564,11 +564,11 @@ const FeaturedCarousel = () => {
                 </Link>
               </div>
               <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
-                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px]'>
+                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
                   <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                 </div>
-                <Link href={'/insights/blogs' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold sm:line-clamp-none line-clamp-3">{slide.title}</h3></Link>
-                <p className="xl:line-clamp-none line-clamp-5">{slide.description}</p>
+                <Link href={'/insights/blogs' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] font-semibold sm:line-clamp-none  text-[18px] xl:text-[20px]  4xl:text-[30px] leading-tight ">{slide.title}</h3></Link>
+                <p className="xl:line-clamp-none line-clamp-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{slide.description}</p>
               </div>
             </div>
           ))}
@@ -628,7 +628,7 @@ export default function Page() {
                 Blogs
               </h3>
 
-              <h1 className="text-white text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px]">
+              <h1 className="text-white text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px]">
                 Your Guide to<br /> Intelligent Enterprise <br />Transformation
               </h1>
 
@@ -645,7 +645,7 @@ export default function Page() {
 
         <div className="md:py-10 py-6 bg-white">
           <div className="">
-            <p className="text-[#000000] py-6 sm:max-w-2xl">Stay ahead in the digital transformation journey with expert insights from Rialtes. Our blog covers the latest trends, best practices, and innovations in SAP, Salesforce, AI, and enterprise technology.</p>
+            <p className="text-[#000000] py-6 sm:max-w-2xl 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">Stay ahead in the digital transformation journey with expert insights from Rialtes. Our blog covers the latest trends, best practices, and innovations in SAP, Salesforce, AI, and enterprise technology.</p>
           </div>
         </div>
       </section>

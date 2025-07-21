@@ -280,7 +280,7 @@ export default function Page() {
               </h3>
               <div className="md:w-32 w-20 pt-6 mt-5">
                 <Image
-                  src="/images/success-factors/sap-partner-logo.webp"
+                  src="/images/sap-consulting/SAP-partner-logo.webp"
                   alt="SAP Partner Logo"
                   width={0}
                   height={0}

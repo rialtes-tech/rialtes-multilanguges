@@ -1,14 +1,19 @@
 // module.exports = nextConfig;
+
+
+import bundleAnalyzer from '@next/bundle-analyzer';
+
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+});
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: true,
   output: "export",
   images: { unoptimized: true },
   webpack: (config) => {
     config.externals = config.externals || {};
-    config.externals['react-google-recaptcha'] = 'commonjs react-google-recaptcha';
     return config;
   },
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(nextConfig);
