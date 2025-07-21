@@ -9,6 +9,18 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+     {
+     id: 13,
+    image: "/images/blog/slider.webp",
+    category: "Agentforce",
+    industry: "General",
+    date: "21 July 2025",
+    url: 'insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions',
+    title: "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
+    description: "We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support",
+  },
+
+  
 
     {
      id: 12,
