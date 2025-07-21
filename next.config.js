@@ -1,14 +1,17 @@
-// module.exports = nextConfig;
 /** @type {import('next').NextConfig} */
+const createNextIntlPlugin = require('next-intl/plugin');
+
+const withNextIntl = createNextIntlPlugin();
+
 const nextConfig = {
-  swcMinify: true,
-  output: "export",
-  images: { unoptimized: true },
-  webpack: (config) => {
+  images: {
+    unoptimized: true,
+  },
+  webpack(config) {
     config.externals = config.externals || {};
     config.externals['react-google-recaptcha'] = 'commonjs react-google-recaptcha';
     return config;
   },
 };
 
-export default nextConfig;
+module.exports = withNextIntl(nextConfig);

@@ -1,0 +1,130 @@
+{
+    "homePage": {
+        "withImpactTitle": "with Impact",
+        "beyondTitle": "Beyond Business: A Commitment to Change",
+        "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
+        "successStoriesTitle": "Success Stories",
+        "successStoriesDesc": "Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.",
+        "industryExpertiesTitle": "Industry Expertise & Solutions",
+        "industryExpertiesDesc": "We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.",
+        "insightTitle": "Insights",
+        "insightDesc": "Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.",
+        "lifeTitle": "LIFE",
+        "rialtesName": "RIALTES",
+        "rialtesData": "Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.",
+        "carouselData": [
+            {
+                "title": "Blogs",
+                "description": "Redefining the Future of Enterprise AI with SAP Joule",
+                "image": "/images/blog/jthumb.webp",
+                "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
+            },
+            {
+                "title": "Blogs",
+                "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
+                "image": "/images/blog/blog-8.webp",
+                "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+            },
+            {
+                "title": "Blogs",
+                "description": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
+                "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+                "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+            },
+            {
+                "title": "Blogs",
+                "description": "How Agentforce Agents Scale ERP Systems with AI ",
+                "image": "/images/blog/blog-12.webp",
+                "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+            },
+            {
+                "title": "Blogs",
+                "description": "How SAP SuccessFactors Enhances Remote Work Management",
+                "image": "/images/blog/blog-13.webp",
+                "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+            },
+            {
+                "title": "Blogs",
+                "description": "How Salesforce Agentforce Actually Works",
+                "image": "/images/blog/blog-1.webp",
+                "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+            }
+        ],
+        "successStoryData": [
+            {
+                "id": 1,
+                "imageUrl": "/images/homepage/stremline.webp",
+                "title": "Manufacturing",
+                "description": "Streamlined DevOps using Copado and Salesforce",
+                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/images/homepage/salesforce.webp",
+                "title": "Healthcare",
+                "description": "Salesforce Health Cloud, Prior Authorization",
+                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/images/homepage/mfg-2.webp",
+                "title": "Manufacturing",
+                "description": "Omnichannel case management with Salesforce Service Cloud",
+                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/images/homepage/public-sector-3.webp",
+                "title": "Public Sector",
+                "description": "YARDI Transformation Journey with North America's Largest PHA",
+                "theme": "light",
+                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/images/homepage/healthcare-2.webp",
+                "title": "Healthcare",
+                "description": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/images/homepage/mfg-3.webp",
+                "title": "Manufacturing",
+                "description": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
+                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+            },
+            {
+                "id": 7,
+                "imageUrl": "/images/homepage/realestate-3.webp",
+                "title": "Real Estate",
+                "description": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+                "url": "insights/case-studies/realForce-banking-module-ach",
+                "theme": "light"
+            },
+            {
+                "id": 8,
+                "imageUrl": "/images/homepage/healthcareImg.webp",
+                "title": "Healthcare",
+                "description": "Digitizing patient journey using Salesforce health cloud",
+                "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+                "theme": "light"
+            }
+        ],
+        "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
+        "manufacturingTitle": "MANUFACTURING",
+        "manufacturingDesc": "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.",
+        "realEstateTitle": "REAL ESTATE",
+        "realEstateDesc": "Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.",
+        "semiconductorTitle": "Semiconductor",
+        "semiconductorDesc": "Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.",
+        "automotiveTitle": "AUTOMOTIVE",
+        "automotiveDesc": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.",
+        "healthcareTitle": "Healthcare",
+        "healthcareDesc": "Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.",
+        "retailTitle": "Retail",
+        "retailDesc": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
+        "viewAllIndustries": "View All Industries",
+        "knowMoreBtn": "Know More"
+    }
+}

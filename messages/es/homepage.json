@@ -1,0 +1,130 @@
+{
+    "homePage": {
+        "withImpactTitle": "con Impacto",
+        "beyondTitle": "Más Allá de los Negocios: Un Compromiso con el Cambio",
+        "innovatingData": "Rialtes es más que un líder tecnológico: somos defensores del cambio positivo. Desde iniciativas de sostenibilidad hasta el empoderamiento de voces subrepresentadas, estamos comprometidos a generar un impacto significativo.",
+        "successStoriesTitle": "Historias de Éxito",
+        "successStoriesDesc": "Descubre cómo hemos aprovechado el poder disruptivo de la IA de vanguardia para ayudar a las empresas a anticiparse y actuar con conocimiento y rapidez mediante servicios de consultoría de TI.",
+        "industryExpertiesTitle": "Experiencia y Soluciones por Industria",
+        "industryExpertiesDesc": "Tenemos experiencia en diversos sectores, lo que nos permite ofrecer servicios de consultoría de TI adaptados a las necesidades específicas de tu industria. Transforma tu negocio con un sistema cuantificable y preenfocado.",
+        "insightTitle": "Perspectivas",
+        "insightDesc": "Mantente a la vanguardia con perspectivas expertas, historias de éxito e innovaciones recientes en IA.",
+        "lifeTitle": "VIDA",
+        "rialtesName": "RIALTES",
+        "rialtesData": "Impulsados por la innovación y motivados por el potencial humano, nuestra empresa de consultoría de TI enfrenta los problemas más difíciles del mundo digital. Juntos, simplifiquemos los problemas, habilitemos soluciones y empoderémonos unos a otros.",
+        "carouselData": [
+            {
+                "title": "Blogs",
+                "description": "Redefiniendo el Futuro de la IA Empresarial con SAP Joule",
+                "image": "/images/blog/jthumb.webp",
+                "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
+            },
+            {
+                "title": "Blogs",
+                "description": "Automatiza tu Organización de Salud con la Integración de athenahealth y Salesforce",
+                "image": "/images/blog/blog-8.webp",
+                "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+            },
+            {
+                "title": "Blogs",
+                "description": "SAP Business Data Cloud: La Base de Datos Inteligente para el Éxito Empresarial Impulsado por IA",
+                "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+                "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+            },
+            {
+                "title": "Blogs",
+                "description": "Cómo los Agentes de Agentforce Escalan los Sistemas ERP con IA",
+                "image": "/images/blog/blog-12.webp",
+                "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+            },
+            {
+                "title": "Blogs",
+                "description": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
+                "image": "/images/blog/blog-13.webp",
+                "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+            },
+            {
+                "title": "Blogs",
+                "description": "Cómo Funciona Realmente Salesforce Agentforce",
+                "image": "/images/blog/blog-1.webp",
+                "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+            }
+        ],
+        "successStoryData": [
+            {
+                "id": 1,
+                "imageUrl": "/images/homepage/stremline.webp",
+                "title": "Manufactura",
+                "description": "DevOps optimizado usando Copado y Salesforce",
+                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/images/homepage/salesforce.webp",
+                "title": "Salud",
+                "description": "Salesforce Health Cloud, Autorización Previa",
+                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/images/homepage/mfg-2.webp",
+                "title": "Manufactura",
+                "description": "Gestión de casos omnicanal con Salesforce Service Cloud",
+                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/images/homepage/public-sector-3.webp",
+                "title": "Sector Público",
+                "description": "Viaje de Transformación con YARDI junto a la Mayor Autoridad de Vivienda Pública de América del Norte",
+                "theme": "light",
+                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/images/homepage/healthcare-2.webp",
+                "title": "Salud",
+                "description": "Automatización del Procesamiento de Pedidos usando Mulesoft para Salesforce Health Cloud y SAP",
+                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/images/homepage/mfg-3.webp",
+                "title": "Manufactura",
+                "description": "Optimización de Ventas con Salesforce Sales Cloud para Manufactura",
+                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+            },
+            {
+                "id": 7,
+                "imageUrl": "/images/homepage/realestate-3.webp",
+                "title": "Bienes Raíces",
+                "description": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+                "url": "insights/case-studies/realForce-banking-module-ach",
+                "theme": "light"
+            },
+            {
+                "id": 8,
+                "imageUrl": "/images/homepage/healthcareImg.webp",
+                "title": "Salud",
+                "description": "Digitalización del recorrido del paciente usando Salesforce Health Cloud",
+                "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+                "theme": "light"
+            }
+        ],
+        "contactUsTitle": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa.",
+        "manufacturingTitle": "FABRICACIÓN",
+        "manufacturingDesc": "Optimiza las relaciones con los clientes, los procesos de ventas y la gestión de la cadena de suministro en las empresas manufactureras.",
+        "realEstateTitle": "BIENES RAÍCES",
+        "realEstateDesc": "Ayudamos a agentes inmobiliarios, propietarios y corredores a fortalecer relaciones y aumentar ingresos gestionando detalles de clientes y propiedades.",
+        "semiconductorTitle": "Semiconductores",
+        "semiconductorDesc": "Nuestros servicios de consultoría abarcan todas las tecnologías y metodologías necesarias para fabricar, integrar y mantener productos complejos en múltiples plataformas.",
+        "automotiveTitle": "AUTOMOCIÓN",
+        "automotiveDesc": "CRM de Salesforce para el sector salud que ayuda a los proveedores médicos a integrar sin problemas el software hospitalario.",
+        "healthcareTitle": "Salud",
+        "healthcareDesc": "Nuestra integración con el CRM de salud de Salesforce permite a los proveedores médicos integrar software hospitalario y soluciones de participación del paciente para brindar una atención excepcional.",
+        "retailTitle": "Comercio minorista",
+        "retailDesc": "Enfrenta los desafíos del comercio minorista con confianza. Rialtes Retail+ combina estrategia y ejecución sólida para que minoristas B2B y B2C puedan modernizarse, personalizar y crecer. Desde la planificación hasta el soporte post-lanzamiento, impulsamos la transformación en cada etapa.",
+        "viewAllIndustries": "Ver Todas las Industrias",
+        "knowMoreBtn": "Saber más"
+    }
+}
