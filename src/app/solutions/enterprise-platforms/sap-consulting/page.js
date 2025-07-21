@@ -205,7 +205,7 @@ export default function Page() {
                                 Leveraging SAP Consulting Services for reliable business operations.
                             </h3>
                             <Image
-                                src="/images/success-factors/sap-partner-logo.webp"
+                                src="/images/sap-consulting/SAP-partner-logo.webp"
                                 alt="SAP Partner Logo"
                                 width={0}
                                 height={0}

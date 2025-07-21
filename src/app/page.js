@@ -6,11 +6,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import Seo from './components/Seo';
-import AutoTimerSlider from './newHome/page';
+const Seo = dynamic(() => import('./components/Seo'), { ssr: false });
+const AutoTimerSlider = dynamic(() => import('./newHome/page'), { ssr: false });
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
-import ContactForm from './components/contactform';
+const ContactForm = dynamic(() => import('./components/contactform'), { ssr: false });
+
 import Script from 'next/script';
+import dynamic from 'next/dynamic';
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -220,7 +222,7 @@ const Home = () => {
                             <React.Fragment key={index}>
                                 <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
 
-                                    <div
+                                      <div
                                         className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
                                         style={{
@@ -228,6 +230,14 @@ const Home = () => {
                                             backgroundSize: '100% 100%',
                                         }}
                                     >
+                                        {/* <Image
+                                            src={slide.imageMobile}
+                                            alt={slide.title}
+                                            fill
+                                            priority
+                                            sizes="100vw"
+                                        /> */}
+
                                         <div
                                             ref={refs[6]}
                                             className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
@@ -236,23 +246,27 @@ const Home = () => {
                                     </div>
                                 </Link>
 
-                                <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
-                                    <div
-                                        className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
-                                            }`}
-                                        style={{
-                                            backgroundImage: `url(${slide.image})`,
-                                            backgroundSize: 'cover',
-                                            backgroundPosition: 'center',
-                                        }}
-                                    >
-                                        <div
-                                            ref={refs[6]}
-                                            className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                                                }`}
-                                        />
-                                    </div>
-                                </Link>
+                                {index === currentSlide && (
+                                    <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
+                                        <div className="absolute inset-0">
+                                            <Image
+                                                src={slide.image}
+                                                alt={slide.title}
+                                                fill
+                                                priority={index === 0}
+                                                className="object-cover"
+                                                sizes="100vw"
+                                            />
+                                            <div
+                                                ref={refs[6]}
+                                                className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                                                    }`}
+                                            >
+                                                {/* text */}
+                                            </div>
+                                        </div>
+                                    </Link>
+                                )}
                             </React.Fragment>
                         ))}
 
@@ -335,12 +349,18 @@ const Home = () => {
                                         <div className="relative  4xl:h-[486px] lg:h-[360px] h-[391px] overflow-hidden group shadow-lg">
                                             <div
                                                 className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
-                                                style={{
-                                                    backgroundImage: `url(${success.imageUrl})`,
-                                                    backgroundSize: 'cover',
-                                                    backgroundPosition: 'left center',
-                                                }}
-                                            ></div>
+                                            >
+                                                <Image
+                                                    className="w-full h-auto"
+                                                    src={success.imageUrl}
+                                                    alt="life at rialtes"
+                                                    width={0}
+                                                    height={0}
+                                                    sizes="100vw"
+                                                    loading="lazy"
+                                                />
+
+                                            </div>
 
                                             <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
                                             <div className={`relative z-10 p-6 text-white`}>
