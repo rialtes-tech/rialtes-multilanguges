@@ -180,18 +180,40 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px]  ">
+             {/* Desktop Image */}
+             <div className="hidden md:block">
+               <Image
+                 src="/images/blog/sap-ariba-web-banner.webp"
+                 alt="SAP Ariba Streamline"
+                 fill
+                 style={{ objectFit: "cover" }}
+                 priority
+                 className="transform transition-transform duration-500 group-hover:scale-110"
+               />
+             </div>
      
-         <HeroSection  mobimg="/images/blog/sap-ariba-mobile-banner.webp" deskimg="/images/blog/sap-ariba-web-banner.webp " extraImg="" />
-
+             {/* Mobile Image */}
+             <div className="block md:hidden">
+               <Image
+                 src="/images/blog/sap-ariba-mobile-banner.webp"
+                 alt="SAP Ariba Streamline"
+                 fill
+                 style={{ objectFit: "cover" }}
+                 priority
+               />
+             </div>
+           </section>
+     
       <section
         className="custom-container"
       >
 
         <div className="py-10 bg-white">
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-4/2">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>SAP</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
               </div>
              <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -251,7 +273,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[775px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[900px] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px]">How does SAP Ariba Streamline Direct and Indirect Procurement Needs?</h1>
           </div>
 
           <div className="">
@@ -263,7 +285,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">What is Procurement in SAP Ariba? </h2>
+              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">What is Procurement in SAP Ariba? </h2>
 
               <p className="text-black">SAP Ariba is a procurement management software developed by SAP, designed to optimize an organization's supply chain through e-procurement. It automates the acquisition process of goods and services, from requisition to payment, focusing on cataloged purchasing. This ensures that companies receive the right products in the right quantity and at the right time for the best price. While procurement is often linked only to purchasing, it involves strategic management of the entire supply chain, improving efficiency and preventing losses or delays. Strategic procurement aims to develop supply channels to achieve the best total cost, enhancing logistical success and boosting profitability. </p>
 
@@ -277,14 +299,14 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">The 4 Main Activities of Procurement  </h2>
+              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">The 4 Main Activities of Procurement  </h2>
 
 
 
 
               <p className="text-black pb-4">As a strategic purchasing management solution, procurement is structured around four core activities: Sourcing, Contract Management, Purchasing, and Accounts Payable.</p>
 
-              <ul className="list-disc text-black pl-8 ">
+              <ul className="list-disc text-black pl-8 md:text-[20px] text-[16px] ">
                 <li className="pb-2">
                   <p><span className="font-bold">Sourcing</span> focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain. </p>
                 </li>
@@ -301,7 +323,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">How SAP Ariba Optimizes Procurement  </h2>
+              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">How SAP Ariba Optimizes Procurement  </h2>
 
 
               <h3 className="text-black pb-2 h3-bold">1. Centralized Procurement for Greater Visibility </h3>
@@ -334,7 +356,7 @@ export default function Page() {
               <p className="text-black">SAP Ariba helps businesses adhere to environmental, social, and governance (ESG) standards by providing supplier sustainability ratings, ethical sourcing insights, and compliance tracking. This is particularly beneficial for direct procurement teams managing raw materials with environmental impacts and for indirect procurement teams selecting vendors with sustainable practices.  </p>
 
               <div className="py-6"></div>
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">Integrate the Ariba Procurement System to Revolutionize Purchasing Management  </h2>
+              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px]  md:text-[24px] text-[20px]">Integrate the Ariba Procurement System to Revolutionize Purchasing Management  </h2>
 
 
 
@@ -352,7 +374,7 @@ export default function Page() {
       <div
         className="
         custom-container
-        pb-10"
+        pb-10 xl:pr-0"
       >
         <BlogsCarousel slides={blogs} />
 
