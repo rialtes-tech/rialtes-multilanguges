@@ -30,6 +30,16 @@ const schemaData={
 }
 
 const latestBlogs = [
+  {
+     id: 22,
+   image: "/images/blog/slider.webp",
+    category: "Agentforce",
+    industry: "General",
+    date: "21 July 2025",
+    url: '/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions',
+    title: "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
+    description: "We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support",
+  },
 
     // Add more blog objects as needed
 {
