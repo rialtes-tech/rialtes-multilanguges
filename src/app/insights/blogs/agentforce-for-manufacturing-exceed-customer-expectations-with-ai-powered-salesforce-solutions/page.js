@@ -8,36 +8,36 @@ import Script from "next/script";
 import { useState } from "react";
 
 const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
-  },
-  "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
-  "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
-  "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2025-07-21",
-  "keywords": [
-    "Agentforce for Manufacturing",
-    "AI for Manufacturing",
-    "AI in Manufacturing",
-    "AI Agents Automation Solutions Manufacturing",
-    "Smart Manufacturing Support"
-  ]
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
+    },
+    "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
+    "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
+    "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes Technologies",
+        "url": "https://www.rialtes.com"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes Technologies",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "datePublished": "2025-07-21",
+    "keywords": [
+        "Agentforce for Manufacturing",
+        "AI for Manufacturing",
+        "AI in Manufacturing",
+        "AI Agents Automation Solutions Manufacturing",
+        "Smart Manufacturing Support"
+    ]
 };
 const blogs = [
     {
@@ -256,7 +256,7 @@ export default function Page() {
                     </div>
                     <div className="py-6"></div>
                     <div className=" mx-auto">
-                        <h1 className="text-[#000000] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] font-semibold pb-6 xl:w-[730px] 4xl:w-[1084px]">
+                        <h1 className="text-[#000000] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px]  pb-6">
                             Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions
                         </h1>
                     </div>
@@ -264,11 +264,11 @@ export default function Page() {
                     <div className=" mx-auto">
                         <div className="max-w-[1084px] xl:w-[1084px]">
                             <p className="text-black pb-4">
-                                We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support. Imagine a workforce free from constraints, delivering exceptional service without overwhelm. That’s the promise of Agentforce. It blends human expertise with AI-powered agents on the Salesforce platform to create a smarter, more scalable workforce. It frees your team to focus on building stronger relationships and driving real business outcomes.  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/industry/manufacturing-cloud-erp/" target="_blank"> manufacturing industry is undergoing a digital transformation</Link>
-                                <br></br> with Industry 4.0, requiring smarter and more connected systems. Agentforce optimizes manufacturing operations, boosts productivity, and enhances customer satisfaction. By integrating the entire value chain from inventory to production to customer engagement, it helps manufacturing companies remain competitive. It’s an intelligence layer that helps manufacturers rethink how they engage, support, and grow customer relationships.
+                                We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support. Imagine a workforce free from constraints, delivering exceptional service without overwhelm. That’s the promise of Agentforce. It blends human expertise with AI-powered agents on the Salesforce platform to create a smarter, more scalable workforce. It frees your team to focus on building stronger relationships and driving real business outcomes.
                             </p>
-
-                            <p className="text-black">
+                            <p className="mt-3"> The <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/industry/manufacturing-cloud-erp/" target="_blank"> manufacturing industry is undergoing a digital transformation</Link>  with Industry 4.0, requiring smarter and more connected systems. Agentforce optimizes manufacturing operations, boosts productivity, and enhances customer satisfaction. By integrating the entire value chain from inventory to production to customer engagement, it helps manufacturing companies remain competitive. It’s an intelligence layer that helps manufacturers rethink how they engage, support, and grow customer relationships.
+                            </p>
+                            <p className="text-black mt-3">
                                 Let’s break down how Agentforce helps you leap ahead, not just keep up
                             </p>
 
@@ -283,9 +283,9 @@ export default function Page() {
                             </p>
                             <p className="text-black pb-4">And here's the thing: every one of these touchpoints is a growth opportunity, if your support operation is intelligent enough to catch it.</p>
 
-                            <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
+                            <div className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
                                 That’s where Agentforce comes in handy.
-                            </h3>
+                            </div>
                             <p className="text-black pb-4">It transforms service desks from reactive help channels into proactive, revenue-generating hubs. It does this by embedding AI copilots that understand your products, workflows, and customer relationships inside and out.</p>
                             <p className="text-black pb-4">
                                 These copilots, part of our advanced <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/" target="_blank">
@@ -306,19 +306,19 @@ export default function Page() {
                             </p>
                             <ol className="pl-4 list-disc text-black xl:text-[20px] text-[16px] font-medium space-y-3">
                                 <li>
-                                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Resolve recurring issues faster with intelligent copilots</h4>- Let’s say a customer reports a recurring failure on a specific part. Instead of sifting through past tickets, manuals, and email chains, the Agentforce copilot summarizes previous incidents, suggests the most likely fix, and surfaces relevant documentation instantly.
+                                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Resolve recurring issues faster with intelligent copilots</h3>- Let’s say a customer reports a recurring failure on a specific part. Instead of sifting through past tickets, manuals, and email chains, the Agentforce copilot summarizes previous incidents, suggests the most likely fix, and surfaces relevant documentation instantly.
                                 </li>
                                 <li>
-                                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]" >Auto-route support cases based on product, SLA, and urgency</h4>-
+                                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]" >Auto-route support cases based on product, SLA, and urgency</h3>-
                                     A warranty claim for a CNC machine in one geography doesn’t need to sit in a general queue. Agentforce identifies the product type, region, urgency, and SLA, and routes it to the right service technician, dealer, or internal team member in real time.
                                 </li>
                                 <li>
-                                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Make contextual upsell suggestions, not sales pitches</h4>-
+                                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Make contextual upsell suggestions, not sales pitches</h3>-
                                     If a customer is reporting consistent wear-and-tear on a component nearing the end of its lifecycle, the agent (or the bot) can proactively suggest an upgraded replacement, or a bundled maintenance plan based on past purchasing behavior or industry benchmarks.
                                 </li>
                                 <li>
-                                    <h4 className="h3-bold inline xl:text-[20px] text-[16px]">Reduce response and resolution time dramatically </h4>-
-                                    – No more "We'll get back to you in 24 hours." With AI agents handling FAQs, documentation pulls, and triage, and human agents focused on the critical cases, resolution times drop drastically from hours to minutes in many cases.
+                                    <h3 className="h3-bold inline xl:text-[20px] text-[16px]">Reduce response and resolution time dramatically </h3>-
+                                     No more "We'll get back to you in 24 hours." With AI agents handling FAQs, documentation pulls, and triage, and human agents focused on the critical cases, resolution times drop drastically from hours to minutes in many cases.
                                 </li>
 
 
@@ -366,12 +366,12 @@ export default function Page() {
                                 This way, you’re not just reducing friction, you’re giving your sales team room to grow accounts instead of chasing paperwork.
                             </p>
                             <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                                Agentforce for Manufacturing Sales: Simplifying B2B with AI and Salesforce CPQ
+                                Empower Distributors and Channel Partners with Self-Service Agents
                             </h2>
-                            <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
+                            <h3 className="pb-4 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
                                 Give partners real-time access to inventory, returns, and service tools
                             </h3>
-                            <p className="mt-5">Distributors, resellers, and OEM partners are critical to your customer experience. In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on. Agentforce 3.0 for automotive manufacturers delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:</p>
+                            <p className="">Distributors, resellers, and OEM partners are critical to your customer experience. In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on. Agentforce 3.0 for automotive manufacturers delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:</p>
                             <ol className="list-disc  marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 mt-5">
                                 <li>Check current inventory status</li>
                                 <li>Initiate return or warranty claims</li>
@@ -389,7 +389,7 @@ export default function Page() {
                             <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
                                 Real-Time Visibility, and Insights for Proactive Decision-Making
                             </h2>
-                            <p className="mt-3">The key to exceeding customer expectations? Responding before they ask. That requires visibility.</p>
+                            <p>The key to exceeding customer expectations? Responding before they ask. That requires visibility.</p>
                             <p className="mt-2">Agentforce taps into Salesforce Manufacturing Cloud, Service Cloud, and ERP integrations to give you:</p>
                             <ol className="list-disc  marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 mt-5">
                                 <li>Real-time dashboards on customer satisfaction scores, open service issues, and deal cycle bottlenecks</li>
@@ -399,7 +399,7 @@ export default function Page() {
                             <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
                                 Don’t Just Deliver Products. Deliver Trust at Every Touchpoint
                             </h2>
-                            <p className="mt-5">Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
+                            <p>Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
                                 strategic comparison of Agents vs Copilots vs Bots.</Link>  While competitors are still chasing tickets and juggling systems, this is your chance to outgrow expectations—and the competition.</p>
                             <p className="mt-5">As a <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
                                 top-rated Salesforce Crest Partner,</Link>  we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce. </p>
@@ -414,14 +414,22 @@ export default function Page() {
                                         <button
                                             onClick={() => toggleAccordion(index)}
                                             className="w-full flex justify-between items-center py-4 text-left bg-gray-100">
-                                            <span className="font-medium text-xl text-gray-800">{item.question}</span>
-                                            <span className="text-black text-2xl">
-                                                {openIndex === index ? "−" : "+"}
+                                            <span className="font-medium text-xl text-gray-800 pl-20">{item.question}</span>
+                                            <span className="text-black text-2xl pr-20">
+                                                {openIndex === index ? (
+                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                                        <path d="M7 14l5-5 5 5z" /> 
+                                                    </svg>
+                                                ) : (
+                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                                        <path d="M7 10l5 5 5-5z" /> 
+                                                    </svg>
+                                                )}
                                             </span>
                                         </button>
 
                                         {openIndex === index && (
-                                            <div className="pb-4 text-black transition-all text-lg">
+                                            <div className="pb-4 text-black transition-all text-lg px-20">
                                                 {item.answer}
                                             </div>
                                         )}
