@@ -126,5 +126,48 @@
         "retailDesc": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
         "viewAllIndustries": "View All Industries",
         "knowMoreBtn": "Know More"
+    },
+    "header": {
+        "solutionTitle": "Solutions",
+        "productsTitle": "Products",
+        "servicesTitle": "Services",
+        "industriesTitle": "Industries",
+        "aboutusTitle": "About Us",
+        "insightTitle": "Insights",
+        "contactTitle": "Contact Us"
+    },
+    "contactForm": {
+        "message": "Message*",
+        "messageError1": "Message is required.",
+        "messageError2": "Message should be at least 10 characters long.",
+        "messageError3": "Message should not exceed 1000 characters.",
+        "company": "Company*",
+        "email": "Email*",
+        "emailError1": "Email is required.",
+        "emailError2": "Invalid email address.",
+        "fname": "First Name*",
+        "fnameError1": "First name is required.",
+        "fnameError2": "First name contains invalid characters.",
+        "fnameError3": "First name should not exceed 40 characters.",
+        "lname": "Last Name*",
+        "lnameError1": "Last name is required.",
+        "lnameError2": "Last name contains invalid characters.",
+        "lnameError3": "Last name should not exceed 40 characters.",
+        "phone": "Phone",
+        "role": "Role*",
+        "enterCaptcha": "Enter Captcha",
+        "captchaMsg": "Enter the result of the equation shown above",
+        "letsBegin": "Let's Begin"
+    },
+    "footer": {
+        "Simplifying": "Simplifying",
+        "Problems": "Problems",
+        "Enabling": "Enabling",
+        "Solutions": "Solutions",
+        "Empowering": "Empowering",
+        "Customers": "Customers",
+        "Termsofuse": "Terms of use",
+        "PrivacyNotice": "Privacy Notice",
+        "copyright": "©2025 Rialtes, All rights reserved"
     }
 }

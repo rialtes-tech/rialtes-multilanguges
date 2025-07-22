@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
+import { useTranslations } from "next-intl";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
@@ -22,6 +23,7 @@ const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
 
 
 const Header = () => {
+  const t = useTranslations('header')
   const [activeCard, setActiveCard] = useState(null);
   const [expanded, setExpanded] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,34 +38,26 @@ const Header = () => {
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
   };
-
   const handleSubMenuClickBusiness = (section) => {
     setOpenSectionBusiness(section);
   };
   const handleSubMenuClickSolution = (section) => {
     setOpenSectionSolution(section);
   };
-
-
   const handleSubMenuClickProduct = (section) => {
     setOpenSectionProduct(section);
   };
-
   const cardRef = useRef(null);
   const handleMouseEnterCard = (cardId) => {
     setActiveCard(cardId);
   };
-
   const handleMouseLeaveCard = () => {
     setActiveCard(null);
   };
-
-
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const toggleAccordion = (index) => {
     setExpanded(expanded === index ? null : index);
   };
-
   const handleMenuClick = (menuIndex) => {
     if (activeCard === menuIndex) {
       setActiveCard(null);  // Close the card if clicked again
@@ -71,13 +65,9 @@ const Header = () => {
       setActiveCard(menuIndex);  // Open the clicked card
     }
   };
-
-
-
   const toggleSubAccordion = (label) => {
     setExpandedSub(expandedSub === label ? null : label);
   };
-
   const handleLinkClick = (e, link) => {
     e.preventDefault();
     setActiveLink(false); // Close the card
@@ -87,9 +77,6 @@ const Header = () => {
     setActiveSubLink(label); // Set the submenu link as active
     onMenuItemClick(); // Call the menu item click handler passed as prop
   };
-
-
-
   const menuItems = [
     {
       label: 'Solutions',
@@ -283,7 +270,6 @@ const Header = () => {
       ],
     },
   ];
-
   const Accordion = ({ label, links, expanded, onToggle, toggleSubAccordion, expandedSub, onMenuItemClick }) => {
     return (
       <li className="py-2">
@@ -291,7 +277,6 @@ const Header = () => {
           <p className={`text-sm font-bold  text-[16px] ${expanded ? 'text-[#0092E0]' : ''}`}>
             {label}
           </p>
-
           <span>
             {expanded ? (
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
@@ -304,7 +289,6 @@ const Header = () => {
             )}
           </span>
         </button>
-
         {expanded && (
           <div className="pt-2 text-gray-600">
             {links.map((link, idx) => (
@@ -313,12 +297,10 @@ const Header = () => {
                   <>
                     <button
                       onClick={() => toggleSubAccordion(link.label)}
-                      className="w-full text-left flex justify-between items-center"
-                    >
+                      className="w-full text-left flex justify-between items-center">
                       <h4
                         className={`text-sm cursor-pointer text-[16px]  ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-black'}`}
-                        onClick={() => handleLinkClick(link.label)}
-                      >
+                        onClick={() => handleLinkClick(link.label)}>
                         {link.label}
                       </h4>
                       <span>
@@ -333,7 +315,6 @@ const Header = () => {
                         )}
                       </span>
                     </button>
-
                     {expandedSub === link.label && (
                       <div className="pt-2 text-gray-600">
                         {link.subLinks.map((subLink, subIdx) => (
@@ -371,9 +352,7 @@ const Header = () => {
   return (
     <section>
       <div className="hidden lg:block fixed w-full bg-white top-0 z-50 shadow-md">
-
         <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
-
           <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
             <Link href="/" aria-label="Homepage" passHref >
               <Image
@@ -388,10 +367,9 @@ const Header = () => {
               />
             </Link>
           </div>
-
-          <div className="col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10 overflow-x-auto whitespace-nowrap flex items-center justify-end gap-2 md:gap-3 lg:gap-5 xl:gap-6 2xl:gap-8">
+          <div className="col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10 overflow-x-auto whitespace-nowrap flex items-center justify-end gap-2 md:gap-3 lg:gap-5 xl:gap-6 2xl:gap-5">
             <MenuItem
-              label="Solutions"
+              label={t('solutionTitle')}
               link="/"
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
@@ -400,7 +378,7 @@ const Header = () => {
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
             <MenuItem
-              label="Products"
+              label={t('productsTitle')}
               link="/"
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
@@ -410,7 +388,7 @@ const Header = () => {
 
             />
             <MenuItem
-              label="Services"
+              label={t('servicesTitle')}
               link="/"
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
@@ -420,7 +398,7 @@ const Header = () => {
 
             />
             <MenuItem
-              label="Industries"
+              label={t('industriesTitle')}
               link="/industry"
               onHover={() => handleMouseEnterCard(4)}
               onClick={() => handleMenuClick(4)}
@@ -430,7 +408,7 @@ const Header = () => {
 
             />
             <MenuItem
-              label="About Us"
+              label={t('aboutusTitle')}
               link="/about-us"
               onHover={() => handleMouseEnterCard(5)}
               onClick={() => handleMenuClick(5)}
@@ -439,7 +417,7 @@ const Header = () => {
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
             <MenuItem
-              label="Insights"
+              label={t('insightTitle')}
               link="/insights"
               onHover={() => handleMouseEnterCard(6)}
               onClick={() => handleMenuClick(6)}
@@ -448,7 +426,7 @@ const Header = () => {
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
             <MenuItem
-              label="Contact Us"
+              label={t('contactTitle')}
               link="/contact-us"
               className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
               isActive={activeCard === 7}
