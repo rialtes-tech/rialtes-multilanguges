@@ -373,12 +373,12 @@ const Header = () => {
         <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
 
           <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
-            <Link href="/" aria-label="Homepage" passHref >
+            <Link rel='preload' as='image' href="/" aria-label="Homepage" passHref  >
               <Image
-                className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px]"
+                className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px] h-auto"
                 alt="Company logo"
-                width={0}
-                height={0}
+                width={165}
+                height={50}
                 sizes="100vw"
                 src="/images/homepage/logo.svg"
                 style={{ objectFit: "cover", objectPosition: "35% 20%" }}
