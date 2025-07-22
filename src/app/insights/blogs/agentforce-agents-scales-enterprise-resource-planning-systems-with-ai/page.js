@@ -99,7 +99,7 @@ const blogs = [
   },
   /* {
     id: 8,
-    image: "/images/blog/blog-8.webp",
+    image: "/images/blog/blog-88.webp",
     category: "Integration",
     industry: "Healthcare",
     date: "11 Nov 2024",

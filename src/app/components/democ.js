@@ -1,10 +1,11 @@
 "use client";
 import React, { useState } from 'react';
-import image1 from '../../../public/images/homepage/industry1.webp'; 
+import image1 from '../../../public/images/homepage/industry11.webp'; 
 import image2 from '../../../public/images/homepage/industry2.webp'; 
 import image3 from '../../../public/images/homepage/industry3.webp';
  import image4 from '../../../public/images/homepage/industry4.webp'; 
- import image5 from '../../../public/images/homepage/industry5.webp'; 
+ import image5 from '../../../public/images/homepage/industry5_with_bgc.webp'; 
+import Image from 'next/image';
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,10 +29,15 @@ const Carousel = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="relative w-full max-w-2xl">
-        <img
+        <Image
           src={images[currentIndex].src}
           alt={images[currentIndex].alt}
           className="w-full h-auto rounded-lg shadow-lg"
+          width={1382}        // displayed width
+  height={711}        // displayed height
+  quality={75}        // reduce quality for better compression
+  priority            // only if it’s above-the-fold
+  sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div className="absolute top-1/2 left-0 transform -translate-y-1/2">
           <button

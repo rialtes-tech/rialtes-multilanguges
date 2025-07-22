@@ -8,36 +8,81 @@ import Script from "next/script";
 import { useState } from "react";
 
 const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
-    },
-    "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
-    "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
-    "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes Technologies",
-        "url": "https://www.rialtes.com"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes Technologies",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+     "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
+  },
+  "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
+  "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
+  "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes Technologies",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes Technologies",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2025-07-21",
+  "keywords": [
+    "Agentforce for Manufacturing",
+    "AI for Manufacturing",
+    "AI in Manufacturing",
+    "AI Agents Automation Solutions Manufacturing",
+    "Smart Manufacturing Support"
+  ],
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What makes Agentforce different from other AI solutions for manufacturing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
         }
-    },
-    "datePublished": "2025-07-21",
-    "keywords": [
-        "Agentforce for Manufacturing",
-        "AI for Manufacturing",
-        "AI in Manufacturing",
-        "AI Agents Automation Solutions Manufacturing",
-        "Smart Manufacturing Support"
+      },
+      {
+        "@type": "Question",
+        "name": "Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do AI agents in Agentforce improve uptime and reduce manual workload?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Agentforce help improve customer satisfaction?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
+        }
+      }
     ]
+  }
 };
 const blogs = [
     {
@@ -128,24 +173,24 @@ export default function Page() {
 
     const faqData = [
         {
-            question: "1.What makes Agentforce different from other AI solutions for manufacturing?",
-            answer: "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
+            question: "1. What makes Agentforce different from other AI solutions for manufacturing?",
+            answer: "Agentforce is built natively on Salesforce and tailored for operational use in manufacturing environments. Unlike generic AI solutions, it features industry-trained agents that efficiently handle tasks like supply chain management, service scheduling, warranty claims, and partner support—without the need for custom code."
         },
         {
-            question: "2. Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
-            answer: "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
+            question:"2. Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
+            answer: "Yes. Agentforce seamlessly integrates with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions, connecting to your product catalogue, pricing engine, contracts, and workflows. This enables your AI agents to quote, configure, and provide real-time support using live business data and logic."
         },
         {
             question: "3. How do AI agents in Agentforce improve uptime and reduce manual workload?",
-            answer: "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
+            answer: "Agentforce connects to Field Service, IoT signals, and service histories to proactively identify and flag potential issues before they result in downtime. It automates key workflows such as dispatch scheduling, parts ordering, and claim initiation, significantly reducing breakdowns and manual overhead."
         },
         {
             question: "4. How does Agentforce help improve customer satisfaction?",
-            answer: "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
+            answer: "Agentforce delivers fast, accurate answers to customers and channel partners through 24/7 AI agents—eliminating the need for hold times and chase-ups. Whether it's tracking an order, scheduling service, or retrieving product manuals, Agentforce provides a consistent, seamless self-service experience across web, mobile, WhatsApp, and SMS."
         },
         {
             question: "5. Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
-            answer: "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
+            answer: "Agentforce is designed for scalability, making it perfect for both mid-sized businesses and large enterprises. You can start small, automating key workflows, and expand over time—without needing massive infrastructure changes. Enjoy faster support, smarter operations, and a clear ROI as your business grows."
         },
     ];
 
@@ -266,7 +311,7 @@ export default function Page() {
                             <p className="text-black pb-4">
                                 We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support. Imagine a workforce free from constraints, delivering exceptional service without overwhelm. That’s the promise of Agentforce. It blends human expertise with AI-powered agents on the Salesforce platform to create a smarter, more scalable workforce. It frees your team to focus on building stronger relationships and driving real business outcomes.
                             </p>
-                            <p className="mt-3"> The <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/industry/manufacturing-cloud-erp/" target="_blank"> manufacturing industry is undergoing a digital transformation</Link>  with Industry 4.0, requiring smarter and more connected systems. Agentforce optimizes manufacturing operations, boosts productivity, and enhances customer satisfaction. By integrating the entire value chain from inventory to production to customer engagement, it helps manufacturing companies remain competitive. It’s an intelligence layer that helps manufacturers rethink how they engage, support, and grow customer relationships.
+                            <p className="mt-3"> The <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/manufacturing-cloud-erp/" target="_blank"> manufacturing industry is undergoing a digital transformation</Link>  with Industry 4.0, requiring smarter and more connected systems. Agentforce optimizes manufacturing operations, boosts productivity, and enhances customer satisfaction. By integrating the entire value chain from inventory to production to customer engagement, it helps manufacturing companies remain competitive. It’s an intelligence layer that helps manufacturers rethink how they engage, support, and grow customer relationships.
                             </p>
                             <p className="text-black mt-3">
                                 Let’s break down how Agentforce helps you leap ahead, not just keep up
@@ -400,15 +445,15 @@ export default function Page() {
                                 Don’t Just Deliver Products. Deliver Trust at Every Touchpoint
                             </h2>
                             <p>Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
-                                strategic comparison of Agents vs Copilots vs Bots.</Link>  While competitors are still chasing tickets and juggling systems, this is your chance to outgrow expectations—and the competition.</p>
-                            <p className="mt-5">As a <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
-                                top-rated Salesforce Crest Partner,</Link>  we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce. </p>
+                                strategic comparison of Agents vs Copilots vs Bots</Link>.  While competitors are still chasing tickets and juggling systems, this is your chance to outgrow expectations—and the competition.</p>
+                            <p className="mt-5">As a <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
+                                top-rated Salesforce Crest Partner</Link>,  we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce. </p>
                             <p className="mt-5">Ready to see Agentforce in action for your manufacturing business? <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/" target="_blank">
-                                Let’s talk.</Link> </p>
-                            <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
+                                Let’s talk</Link>.</p>
+                            <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-12">
                                 FAQs: Agentforce for AI-Powered Manufacturing Transformation
                             </h2>
-                            <div className=" mx-auto">
+                            <div className="mx-auto mt-5">
                                 {faqData.map((item, index) => (
                                     <div key={index} className="border-b border-gray-300">
                                         <button
@@ -417,11 +462,11 @@ export default function Page() {
                                             <span className="font-medium text-xl text-gray-800 pl-20">{item.question}</span>
                                             <span className="text-black text-2xl pr-20">
                                                 {openIndex === index ? (
-                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
                                                         <path d="M7 14l5-5 5 5z" /> 
                                                     </svg>
                                                 ) : (
-                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
                                                         <path d="M7 10l5 5 5-5z" /> 
                                                     </svg>
                                                 )}
@@ -443,7 +488,7 @@ export default function Page() {
 
             {/* Latest Blogs */}
             <div
-                className="custom-container xl:pr-0">
+                className="custom-container xl:pr-0 mt-10">
                 <BlogsCarousel slides={blogs} />
             </div>
         </div>
