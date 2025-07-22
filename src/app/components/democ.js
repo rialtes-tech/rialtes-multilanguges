@@ -33,10 +33,10 @@ const Carousel = () => {
           src={images[currentIndex].src}
           alt={images[currentIndex].alt}
           className="w-full h-auto rounded-lg shadow-lg"
-          width={1382}        // displayed width
-  height={711}        // displayed height
-  quality={75}        // reduce quality for better compression
-  priority            // only if it’s above-the-fold
+          width={1382}       
+  height={711}       
+  quality={60}        
+  priority           
   sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div className="absolute top-1/2 left-0 transform -translate-y-1/2">
