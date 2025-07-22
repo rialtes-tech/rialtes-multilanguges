@@ -8,7 +8,129 @@
           "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
           "Workforce and Payroll Intelligence from SAP SuccessFactors",
           "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
-    ]
-    "listDesc":""
-    }
+    ],
+  "listDesc":"Whether you’re optimizing profitability, driving operational efficiency, or delivering personalized customer experiences, SAP Business Data Cloud, implemented by Rialtes, gives you a unified and contextualized view of your enterprise landscape.",
+   "dataTitle":"A Unified, Open Data Foundation for Intelligent Enterprises",
+   "dataSubtitleOne":"SAP Business Data Cloud enhances enterprise data management by combining SAP’s data platform capabilities with native integration for SAP applications and compatibility with third-party platforms like Databricks, Google BigQuery, and Snowflake. It enables the unification of business context and data for real-time insights and AI-driven decisions.",
+   "dataSubtitleTwo":"As a SAP Authorized Partner and a Databricks Strategic Partner, Rialtes empowers organizations to seamlessly adopt SAP Business Data Cloud and unlock the full value of their enterprise data.",
+   "fabricTitle":"SAP Data Fabric",
+   "fabricSubtitle":"Powered by SAP Business Data Cloud",
+   "fabricDesc":"The SAP Data Fabric acts as a smart, connected data layer across your organization. It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.",
+   "fabricPara":"With SAP Data Fabric, you can:",
+   "fabricList":[ 
+  "Connect live and replicated data across multi-cloud and hybrid landscapes",
+  "Unify semantic definitions across domains and systems",
+  "Ensure trusted data governance and lineage across all business functions",
+  "Accelerate AI, planning, and analytics with clean, context-rich data"],
+  "sapTitle":"Why Choose SAP Business Data Cloud?",
+  "learnMore":"Learn More",
+  "dataItems": [
+  {
+    "title": "Business-Ready Data",
+    "desc": "Access and connect data from SAP and non-SAP systems while retaining rich business semantics and context."
+  },
+  {
+    "title": "Open Ecosystem Integration",
+    "desc": "Integrate with industry leaders like Databricks, BigQuery, and AWS using open standards and APIs."
+  },
+  {
+    "title": "Unified Governance & Security",
+    "desc": "Manage data securely across all layers with enterprise-grade governance and lineage."
+  },
+  {
+    "title": "AI & ML Enabled",
+    "desc": "Power advanced analytics and AI-driven scenarios using embedded machine learning services."
+  }
+],
+"partnerTitle":"Rialtes: Your Trusted SAP & Databricks Partner",
+"partnerDesc":" Rialtes specializes in data cloud architecture, implementation, and governance with a team of SAP-certified engineers. We integrate process intelligence, data engineering, and cloud development to deliver measurable value from your enterprise data. Our certified teams assist you in:",
+"partnerList":[
+                  "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+                  " Workforce and Payroll Intelligence from SAP SuccessFactors",
+                  "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
+                ],
+"migrationTitle":"Seamless Migration from SAP Business Warehouse to SAP Business Data Cloud",
+"migrationPara":" Modernize your analytics and accelerate cloud transformation:",
+"exploreData" :[
+  {
+    "title": "Assessment & Roadmapping",
+    "desc": " Analyze your existing SAP BW models and data flows to build a tailored migration strategy"
+  },
+  {
+    "title": "Automated Data Replication",
+    "desc": " Use SAP-provided migration tools and Rialtes accelerators to transition existing logic and semantics to SAP Business Data Cloud."
+  },
+  {
+    "title": "Preserve Business Logic",
+    "desc": "Retain existing business metadata and KPIs for faster time-to-value."
+  },
+  {
+    "title": "Improve Performance & Agility",
+    "desc": " Leverage cloud-native capabilities for real-time data consumption and visualization."
+  }
+],
+"migrateTitle":"Migrate from SAP Datasphere to SAP Business Data Cloud",
+"migrateDesc":"SAP Business Data Cloud brings the next-generation capabilities of Datasphere under a unified data architecture. Rialtes makes this transition frictionless:",
+"migrateData" : [
+  {
+    "title": "Data Mapping & Reconciliation",
+    "description":
+      "We help map your current artifacts and pipelines from SAP Datasphere to SAP Business Data Cloud"
+  },
+  {
+    "title": "Business Context Retention",
+    "description":
+      "Ensure all metadata, lineage, and context are preserved during the shift"
+  },
+  {
+    "title": "Open Extension",
+    "description":
+      "Connect to external platforms like Databricks for advanced analytics and ML integration."
+  },
+  {
+    "title": "Future-Proof Architecture",
+    "description":
+      "Establish a foundation for scalable AI, reporting, and cross-system data modeling."
+  }
+],
+ "databricksTitle":"Connect SAP Business Data Cloud with Databricks",
+ "databricksDesc":"As a certified Databricks consulting partner, Rialtes helps you:",
+ "connectSapData" : [
+  "Establish bi-directional data pipelines between SAP and Databricks",
+  "Use Delta Lake and MLFlow with SAP semantic models ",
+  "Enable real-time predictive insights using SAP business context ",
+  "Create industry-specific AI models using unified data across platforms"
+],
+"dataCloud":"Our SAP Business Data Cloud Services",
+ "ourSapData" :[
+  {
+    "title": "Consulting & Advisory",
+    "description":
+      "Align your data strategy with business objectives and cloud roadmaps."
+  },
+  {
+    "title": "Implementation & Migration",
+    "description":
+      "From BW and Datasphere to Business Data Cloud with full lifecycle support."
+  },
+  {
+    "title": "Managed Services & Optimization",
+    "description":
+      "24x7 support, data quality monitoring, and optimization for performance and cost."
+  }
+],
+"clientsTitle":"Why Clients Choose Rialtes",
+"whyClientsData" :[
+  "SAP-Certified Implementation Experts ",
+  "Official SAP & Databricks Partner",
+  "Accelerators for BW and Datasphere Migration",
+  "Global Delivery with 24x7 Support",
+  "Industry-Specific Data Frameworks for Life Sciences,Retail, Automotive & More"
+],
+ "contactTitle":"Let’s Build Your Enterprise Data Cloud Together",
+ "SubTitle":"Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."
+
+
+
+}
 }
