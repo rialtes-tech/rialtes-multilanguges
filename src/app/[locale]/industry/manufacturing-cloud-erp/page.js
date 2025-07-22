@@ -143,6 +143,8 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
+            style={{objectFit: "cover", objectPosition: "75% 20%" }}
+
           />
         </div>
         <div className="xl:hidden block">
@@ -152,6 +154,8 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
+             style={{objectFit: "cover" }}
+
           />
         </div>
         <div className="relative custom-container xl:!pr-0">
@@ -184,24 +188,27 @@ export default function Page() {
           <Image
             src="/images/industry/manufacture/thoughts.webp"
             alt="thought leadership image"
-            fill
+            fill  
             priority
             sizes="100vw"
+            style={{objectFit: "cover", objectPosition: "75% 20%" }}
           />
         </div>
-        <div className="xl:hidden block">
+        <div className="xl:hidden block h-[625px]">
           <Image
             src="/images/industry/manufacture/thoughts-mobile.webp"
             alt="thought leadership image"
-            fill
             priority
             sizes="100vw"
+            width={0}
+            height={0}
             className="w-full h-full"
+            style={{objectFit: "cover", objectPosition: "75% 60%" }}
           />
         </div>
-        <div className="custom-container h-full relative">
-          <div className="relative p-6 w-[512px] 4xl:h-[692px] xl:block hidden">
-            <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
+        <div className="custom-container h-full relative xl:block hidden ">
+          <div className="relative  px-[48px] pb-[80px] pt-[45px]  4xl:w-[570px] w-[488px] 4xl:h-[695px] xl:block hidden">
+            <div className="xl:absolute  inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative  bg-opacity-80 text-white z-10 rounded-lg">
               <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Thought Leadership</h2>
               <h3 className="4xl:text-[36px] xl:text-[26px] text-[22px] mt-5 leading-tight font-semibold">Leading the Digital Reinvention of Manufacturing</h3>
@@ -209,9 +216,9 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <div className="relative p-6 xl:hidden block px-[35px]">
+      <div className="relative pt-[37px] pb-[53px] xl:hidden block custom-container ">
         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
-        <div className="relative  bg-opacity-80 text-white z-10 p-4 rounded-lg">
+        <div className="relative  bg-opacity-80 text-white z-10  rounded-lg">
           <h2 className="font-light leading-tight">Thought Leadership</h2>
           <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold pr-20">Leading the Digital Reinvention of Manufacturing</h3>
           <p className='mt-5 font-normal'>At Rialtes, we believe the future of manufacturing lies in resilient, adaptive, and AI-powered ecosystems. From digital twins to predictive supply chains, we help manufacturers think ahead of disruption and innovate at scale. Our focus is on customer personalization, operational efficiency, and global compliance, powered by connected data and automation.</p>       </div>
@@ -225,6 +232,8 @@ export default function Page() {
             fill
             priority
             className="custom-container xl:!pr-0"
+                        style={{objectFit: "cover"}}
+
             sizes="100vw"
           />
         </div>
@@ -235,6 +244,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
+            className="sm:object-cover sm:object-[position:75%_43%]"
           />
         </div>
         <div
@@ -271,7 +281,7 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">Speed, Scale, Success</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">With industry-specific accelerators, Rialtes enables manufacturers to deploy ready-to-use solutions that cut down months of setup time. From smart factory templates to AI-powered predictive workflows, our tools are designed to accelerate value realization, improve productivity, and drive intelligent operations. Our accelerators also ensure regulatory compliance and quality assurance, reducing risks during implementation.</p>
             <div className="xl:bottom-0">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore/>
             </div>
           </div>
         </div>
@@ -302,7 +312,7 @@ export default function Page() {
               Rialtes helps discrete manufacturers handle complex product configurations, multi-tier supply chains, and custom engineering processes. Our solutions integrate end-to-end quoting, engineering, and order management, delivering real-time visibility and seamless customer collaboration. AI-powered insights help predict maintenance needs, reduce downtime, and ensure superior product quality.
             </p>
             <div className="xl:bottom-0">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore/>
             </div>
           </div>
         </div>
@@ -366,7 +376,7 @@ export default function Page() {
                 For high-volume production, Rialtes offers solutions that enhance capacity planning, workforce allocation, and real-time production monitoring. Our tools optimize repetitive workflows and reduce cycle times, ensuring maximum throughput with minimum waste. AI-driven analytics help detect production anomalies early, ensuring product quality and cost efficiency.
               </p>
               <div>
-                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                <LearnMore />
               </div>
             </div>
           </div>
@@ -449,7 +459,7 @@ export default function Page() {
               <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold pr-10 xl:pr-0">Actionable Insights with Visual Analytics</h3>
               <p className="mt-8 leading-tight 4xl:text-[20px] xl:text-[15px]">With Data Cloud and Tableau, Rialtes helps manufacturers turn complex operational data into meaningful insights. From OEE tracking and downtime analysis to supply chain risks and customer demand forecasting, our dashboards provide real-time visibility for proactive decision-making. AI models further enhance predictive maintenance and inventory optimization.</p>
               <div className="absolute mt-5">
-                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                <LearnMore />
               </div>
             </div>
           </div>
@@ -523,7 +533,7 @@ export default function Page() {
               AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.
             </p>
             <div className="xl:mt-5 absolute  xl:relative">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore  />
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">

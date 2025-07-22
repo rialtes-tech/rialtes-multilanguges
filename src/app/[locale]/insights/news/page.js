@@ -70,17 +70,17 @@ const CaseStudyCard = ({ casestudy }) => (
     </div>
     <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
-        <div className="pb-2 md:pb-4">
+        <div className="pb-3 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
           <span className="text-[#0092E0]">{casestudy.industry}</span>
           <span className="text-[#ACACAC]"> | </span>
           {casestudy.date}
         </div>
         <Link href={casestudy.url}>
-          <h4 className="mb-2 md:mb-4 md:font-semibold xl:text-[30px] text-[20px] line-clamp-4">{casestudy.title}</h4>
+          <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight line-clamp-4">{casestudy.title}</h4>
         </Link>
       </div>
       <Link href={casestudy.url}>
-        <p className="text-[#0092E0] font-bold mt-5 xl:text-[20px] text-[18px]">Read More</p>
+        <p className="text-[#0092E0] font-bold mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight">Read More</p>
       </Link>
     </div>
   </div>
@@ -104,7 +104,7 @@ const CaseStudy = () => {
             type="button"
             className="border border-[#707070] font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED]"
             onClick={loadMoreCaseStudy}>
-            <span className="group-hover:pr-4 transition-all duration-300">Load more</span>
+            <span className="group-hover:pr-4 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">Load more</span>
             <svg
               className="w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               fill="none"
@@ -136,7 +136,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/** hero section * */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[399px] lg:h-[550px] ">
         <div className="hidden md:block">
           <Image
             src="/images/news/news header.webp"
@@ -158,7 +158,7 @@ export default function Page() {
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
-              <h2 className="text-black leading-tight 4xl:text-[60px] 2xl:text-[60px] xl:text-[50px] lg:text-[45px] md:text-[28.5px] text-[30px]">
+              <h2 className="text-black leading-tight 4xl:text-[70px]  xl:text-[50px]   text-[35px]">
                 News
               </h2>
             </div>
@@ -170,11 +170,11 @@ export default function Page() {
       <section
         className="custom-container">
         <div className="md:py-10 py-6 bg-white">
-          <p className="text-[#000000] py-6 max-w-4xl  xl:text-[20px] text-[18px]">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
+          <p className="text-[#000000] py-6 max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
         </div>
       </section>
       <div className="custom-container">
-        <section className="xl:pb-32 pt-10 pb-16 bg-white xl:pr-[142px]">
+        <section className="xl:pb-32 pt-10 pb-16 bg-white xl:pr-[142px] ">
           <CaseStudy />
         </section>
       </div>

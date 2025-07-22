@@ -197,7 +197,7 @@ export default function Page() {
                             <h3 className="w-[75%] font-bold">Leveraging SAP Consulting Services for reliable business operations.</h3>
                             <div className="md:w-32 w-20 pt-6">
                                 <Image
-                                    src="/images/success-factors/sap-partner-logo.webp"
+                                    src="/images/sap-consulting/SAP-partner-logo.webp"
                                     alt="SAP Partner Logo"
                                     width={0}
                                     height={0}

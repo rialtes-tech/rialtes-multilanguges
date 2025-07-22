@@ -184,15 +184,15 @@ const CaseStudyCard = ({ casestudy }) => (
     </div>
     <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
       <div>
-        <div className='pb-2 md:pb-4'>
-          <span className='text-[#0092E0]'>{casestudy.industry}</span>
-          <span className='text-[#ACACAC]'> | </span>
+        <div className='pb-2 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
+          <span className='text-[#0092E0] '>{casestudy.industry}</span>
+          <span className='text-[#ACACAC] '> | </span>
           {casestudy.date}
         </div>
-        <Link href={casestudy.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-4">{casestudy.title}</h4></Link>
+        <Link href={casestudy.url}><h4 className="mb-2 md:mb-4 md:font-semibold line-clamp-4 text-[20px] xl:text-[22px]  4xl:text-[25px] leading-tight ">{casestudy.title}</h4></Link>
       </div>
       <div className="flex flex-col">
-        <p className='line-clamp-4 md:mb-4 mb-2'>{casestudy.description}</p>
+        <p className='line-clamp-4 md:mb-4 mb-2 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>{casestudy.description}</p>
       </div>
     </div>
   </div>
@@ -242,12 +242,12 @@ const CaseStudy = () => {
     <div className=" text-black">
       <div className="flex sm:flex-row flex-col pb-4 sm:items-center">
         <div className="flex flex-col sm:pb-0 pb-4">
-          <h2 className="text-black">Search result by {selectedIndustry} industry</h2>
+          <h2 className="text-black leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Search result by {selectedIndustry} industry</h2>
         </div>
         <div className="relative flex sm:flex-row sm:ml-auto h-[60px]">
           <div className="relative">
             <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
-              <span className="pr-5">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
+              <span className="pr-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'
@@ -260,7 +260,7 @@ const CaseStudy = () => {
             </button>
             {showOptionsIndustry && (
               <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] right-0 z-10'>
-                <ul>
+                <ul className="leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">
                   <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('All')}>All</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Healthcare')}>Healthcare</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
@@ -278,7 +278,7 @@ const CaseStudy = () => {
       <div className="py-6"></div>
 
       {filteredCaseStudyByCategory.length === 0 ? (
-        <p className='text-center text-xl py-4'>No Case Study Found</p>
+        <p className='text-center text-xl py-4 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>No Case Study Found</p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
           {filteredCaseStudyByCategory.slice(0, visibleCaseStudy).map((casestudy) => (
@@ -295,7 +295,7 @@ const CaseStudy = () => {
             onClick={loadMoreCaseStudy}
             disabled={visibleCaseStudy >= filteredCaseStudyByCategory.length}
           >
-            <span className='group-hover:pr-4 transition-all duration-300'>Load more</span>
+            <span className='group-hover:pr-7 transition-all duration-300 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>Load more</span>
             <svg
               className='w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
               fill='none'
@@ -432,7 +432,7 @@ const FeaturedCarousel = () => {
     <section className="relative pb-10 bg-white">
       <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black xl:mb-[82px] mb-[40px]">Latest Studies</h2>
+          <h2 className="text-black xl:mb-[82px] mb-[40px] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">Latest Studies</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -472,12 +472,12 @@ const FeaturedCarousel = () => {
                   />
                 </Link>
               </div>
-              <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] md:basis-2/3 py-4 md:py-4 lg:py-10 md:px-10 lg:px-16 px-4 ">
-                <div className='pb-[10px] md:pb-[15px] lg:pb-[20px]'>
-                  <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
+              <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] md:basis-2/3  md:py-4 lg:py-10 md:px-10 lg:px-16 p-6 ">
+                <div className='pb-[10px] md:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
+                  <span className='text-[#0092E0] '>{slide.category}</span> <span className='text-[#ACACAC] '>|</span> {slide.date}
                 </div>
-                <Link href={slide.url}><h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] h3-bold">{slide.title}</h3></Link>
-                <p>{slide.description}</p>
+                <Link href={slide.url}><h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] font-semibold leading-tight 4xl:text-[30px] xl:text-[25px] text-[20px] ">{slide.title}</h3></Link>
+                <p className="4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{slide.description}</p>
               </div>
             </div>
           ))}
@@ -501,16 +501,58 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <HeroSection title="Success Stories That Inspire" subtitle="Case Studies" deskimg="/images/case-studies/case-study-header.webp" mobimg="/images/case-studies/case-study-main-banner.webp" />
+    
+    
+     <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            {/* Desktop Image */}
+            <div className="hidden md:block">
+              <Image
+                src="/images/case-studies/case-study-header.webp"
+                alt="desktop banner"
+                fill
+                style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                priority
+                className="transform transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+     
+           
+            {/* Mobile Image */}
+            <div className="block md:hidden">
+              <Image
+                src="/images/case-studies/case-study-main-banner.webp"
+                alt="Case study banner"
+                fill
+                priority
+                style={{ objectFit: "cover", objectPosition: "35% 60%" }}
+              />
+            </div>
+    
+            <div className="relative h-full custom-container flex items-center">
+              <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+                <div className="col-span-12 xl:col-span-7 lg:col-span-9">
+    
+                  <h3 className="text-white text-[18px] xl:text-[24px] font-bold"> 
+                   Case Studies
+                  </h3>
+    
+                  <h1 className="text-white 4xl:w-[70%] xl:w-[50%] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight mt-[11px] md:mt-[28px]">
+                   Success Stories That Inspire
+                  </h1>
+    
+                </div>
+    
+                <div className="col-span-12 lg:col-span-3 xl:col-span-5">
+                </div>
+              </div>
+            </div>
+          </section>
       <section
         className="custom-container">
-
         <div className="xl:mt-[84px] mt-[44px] bg-white">
-          <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
+          <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
         </div>
       </section>
-
-
       {/* Latest Studies */}
       <div
         className="custom-container lg:pr-0 xl:mt-[84px] mt-[44px]">

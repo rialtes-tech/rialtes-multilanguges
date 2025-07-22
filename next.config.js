@@ -9,7 +9,6 @@ const nextConfig = {
   },
   webpack(config) {
     config.externals = config.externals || {};
-    config.externals['react-google-recaptcha'] = 'commonjs react-google-recaptcha';
     return config;
   },
 };

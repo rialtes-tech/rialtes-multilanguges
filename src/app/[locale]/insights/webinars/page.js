@@ -294,7 +294,7 @@ export default function About() {
           className="custom-container h-full relative"
         >
           <div className="h-full flex flex-col justify-center">
-            <h1 className="text-[#000000] max-w-2xl leading-tight xl:text-[40px] 4xl:text-[60px]">
+            <h1 className="text-[#000000] max-w-2xl leading-tight text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px]">
               A symphony of
               <br />
               expert voices
@@ -513,7 +513,7 @@ export default function About() {
       </div>
       <div className="custom-container xl:!pr-[142px]">
         <section className="py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
-          <h2 className="mb-6 xl:text-[40px] 4xl:text-[56px]">Past Webinars</h2>
+          <h2 className="mb-6 text-[26px] xl:text-[40px] md:text-[35px] 4xl:text-[60px]">Past Webinars</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {visibleWebinars.map((webinar) => (
