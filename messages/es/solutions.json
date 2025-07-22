@@ -9,5 +9,233 @@
       "Inteligencia de Fuerza Laboral y Nómina de SAP SuccessFactors",
       "Información de Ventas, Servicio y Marketing de Salesforce o SAP CX"
     ]
-}
+  },
+  "salesforceDataCloud": {
+    "headerTitle": "Nube de Datos",
+    "headerSubtitle": "Aprovecha el Potencial de Salesforce Data Cloud",
+    "headerDesc": "Impulsa la automatización, la IA predictiva y generativa, así como los análisis, dentro del CRM líder impulsado por IA del mundo",
+    "pageDescTitle": "¿Qué es Salesforce Data Cloud?",
+    "pageDesc1": "Las empresas están inundadas de enormes cantidades de datos provenientes de un número creciente de sistemas, fuentes y plataformas. La escala y diversidad de estos datos puede ser abrumadora, dejando a las organizaciones gestionando y navegando a través de innumerables registros a diario.",
+    "pageDesc2": "Salesforce Data Cloud está diseñado para ayudar a las empresas a consolidar los datos de los clientes desde diversos puntos de contacto. Combinar datos de múltiples fuentes ayuda a crear una vista unificada de 360 grados de cada cliente, fomentando campañas de marketing más personalizadas y efectivas.",
+    "creatingTitle": "Creando Experiencias de Cliente Personalizadas e Impactantes para tu Negocio",
+    "unitedTitle": "Unifica Toda Tu Organización en Torno a la Entrega de una Experiencia de Cliente Mejorada.",
+    "ourSalesforceTitle": "Nuestros Servicios de Salesforce Data Cloud",
+    "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros.",
+    "featureBoxes": [
+      {
+        "icon": "/images/data-cloud/customer-360-view.svg",
+        "title": "Vista 360 del Cliente",
+        "description": "Integra datos de clientes en todas las unidades de negocio para construir campañas en tiempo real, marketing multicanal, personalización transaccional, contenido, suscripciones y comercio electrónico."
+      },
+      {
+        "icon": "/images/data-cloud/zero-copy-integration.svg",
+        "title": "Integración sin Copia",
+        "description": "Conecta tus bases de datos y aplicaciones sin retrasos por copias, y comparte datos entre múltiples fuentes bajo demanda. Sin ETL, eliminando los costos de ingesta y reduciendo los costos operativos."
+      },
+      {
+        "icon": "/images/data-cloud/real-time-data-processing.svg",
+        "title": "Procesamiento de Datos en Tiempo Real",
+        "description": "Procesa en tiempo real y promueve la toma de decisiones basada en datos, optimiza la gestión de inventario, influye en los servicios, mejora la satisfacción del cliente e impulsa promociones y recomendaciones confiables en tiempo real."
+      },
+      {
+        "icon": "/images/data-cloud/omnichannel-engagement.svg",
+        "title": "Interacción Omnicanal",
+        "description": "Construye lealtad y confianza en la marca asegurando experiencias consistentes mediante la gestión de datos y canales de servicio."
+      },
+      {
+        "icon": "/images/data-cloud/privacy-and-compliance.svg",
+        "title": "Privacidad y Cumplimiento",
+        "description": "Monitorea transacciones, protege relaciones y uso de datos con terceros, cumpliendo con el GDPR y la CCPA."
+      },
+      {
+        "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
+        "title": "Campañas de Marketing Personalizadas",
+        "description": "Aprovecha perfiles unificados de clientes para ofrecer campañas dirigidas 1:1 personalizadas y oportunas, con interacciones omnicanal fluidas y seguras que impulsan las tasas de conversión."
+      }
+    ],
+    "stats": [
+      {
+        "percentage": "67%",
+        "description": "Recursos tecnológicos liberados"
+      },
+      {
+        "percentage": "79%",
+        "description": "Las empresas redujeron costos"
+      },
+      {
+        "percentage": "77%",
+        "description": "Las organizaciones ahorran 2 horas a la semana"
+      }
+    ],
+    "services": [
+      {
+        "id": 1,
+        "image": "/images/data-cloud/managed-cloud-services.webp",
+        "title": "Servicios de Nube Gestionada",
+        "description": "Con una suite integral de servicios gestionados para entornos de nube pública, privada e híbrida, empodera a las empresas para optimizar toda su infraestructura y aplicaciones en la nube."
+      },
+      {
+        "id": 2,
+        "image": "/images/data-cloud/private-cloud-services.webp",
+        "title": "Servicios de Nube Privada",
+        "description": "Experimenta la combinación ideal de flexibilidad de la nube con el máximo cumplimiento de datos y seguridad de la infraestructura privada, proporcionando aislamiento de las cargas de trabajo empresariales en la nube pública."
+      },
+      {
+        "id": 3,
+        "image": "/images/data-cloud/data-cloud-consulting.webp",
+        "title": "Consultoría en Nube de Datos",
+        "description": "Recomendaciones personalizadas, mejores prácticas y experiencia certificada para maximizar el valor de Salesforce Data Cloud dentro de tu organización."
+      },
+      {
+        "id": 4,
+        "image": "/images/data-cloud/data-cloud-migration.webp",
+        "title": "Migración a la Nube de Datos",
+        "description": "Desarrolla e implementa mejores prácticas para migrar de manera segura y eficiente la composición de cargas de trabajo en la nube desde cualquier entorno con evaluaciones expertas y soluciones de migración sin problemas."
+      },
+      {
+        "id": 5,
+        "image": "/images/data-cloud/data-cloud-implementation.webp",
+        "title": "Implementación de Nube de Datos",
+        "description": "Configura la infraestructura necesaria, configura las fuentes de datos y garantiza que tu organización pueda aprovechar al máximo Salesforce Data Cloud."
+      }
+    ]
+  },
+  "datasphere": {
+    "headerTitle": "SAP Datasphere",
+    "headerSubtitle": "Libera el poder de los lagos de datos impulsados por IA con Rialtes y SAP Datasphere",
+    "pageDescTitle": "Prepara tu empresa para el futuro con consolidación inteligente de datos, información basada en IA e integración sin fisuras",
+    "pageDesc1": "En el panorama competitivo actual, los datos son la nueva moneda. Sin embargo, la mayoría de las organizaciones luchan con datos fragmentados repartidos en múltiples sistemas como SAP, Salesforce, Oracle y más. Rialtes, como socio certificado de SAP, ofrece servicios de vanguardia con SAP Datasphere para consolidar y armonizar los datos empresariales, desbloqueando información en tiempo real impulsada por IA que genera valor e innovación.",
+    "pageDesc2": "Con una profunda experiencia en SAP Datasphere y arquitecturas de datos lideradas por IA, convertimos la dispersión de datos en un activo unificado y poderoso, creando una empresa inteligente preparada para el futuro.",
+    "whyRialtesTitle": "¿Por qué Rialtes?",
+    "whyRialtesSubTitle": "Tu socio en SAP Datasphere impulsado por IA para el éxito de extremo a extremo",
+    "whyrialtessectiondata": [
+      "Servicios para todo el ciclo de vida: Consultoría, Diseño, Implementación, Integración y Optimización con IA posterior al lanzamiento.",
+      "Modelos de datos y aceleradores de IA/ML pioneros en la industria para una rápida obtención de valor.",
+      "Integraciones personalizadas con SAP S/4HANA, SuccessFactors, Ariba, Salesforce, Oracle y más.",
+      "Gobernanza, cumplimiento y seguridad de datos en tiempo real.",
+      "Oficinas en EE.UU., Canadá, Singapur e India, brindando experiencia global con precisión local."
+    ],
+    "industryAcceleratorsData": [
+      "Optimización de producción e inventario en manufactura impulsada por IA.",
+      "Análisis específicos para semiconductores: rendimiento, demanda y cadena de suministro.",
+      "Análisis del ciclo de vida del cliente y piezas en la industria automotriz.",
+      "Información de comportamiento del cliente, inventario y ventas en retail.",
+      "Análisis del ciclo de vida estudiantil e información sobre el profesorado en educación.",
+      "Análisis del rendimiento laboral y diversidad en RRHH."
+    ],
+    "buildIntelligentData": [
+      "Lagos de datos centralizados y listos para IA que combinan aplicaciones SAP y no SAP.",
+      "Canales de datos en tiempo real para análisis en vivo y modelos de IA/ML.",
+      "Trazabilidad completa de los datos, gobernanza y cumplimiento normativo.",
+      "Plataforma preparada para el futuro para análisis predictivo y prescriptivo con IA/ML."
+    ],
+    "buildTitle": "Crea un lago de datos inteligente con SAP Datasphere",
+    "unifiedTitle": "Tu motor empresarial unificado e impulsado por IA",
+    "unlockTitle": "Desbloquea visibilidad de extremo a extremo e información práctica con IA",
+    "buildDesc": "La consolidación de datos no debería ser un obstáculo, sino un catalizador de crecimiento. Rialtes utiliza SAP Datasphere para unificar todos tus datos empresariales críticos en un poderoso lago de datos, eliminando silos y habilitando conocimientos escalables con IA/ML.",
+    "keyBenefitsTitle": "Beneficios clave:",
+    "industryTitle": "Aceleradores por industria",
+    "industrySubTitle1": "Impulsa el éxito de la IA en tu industria",
+    "industrySubTitle2": "Conectores y modelos de IA preconfigurados para acelerar tu transformación",
+    "industryDesc": "Los aceleradores preconfigurados de Rialtes hacen que la consolidación de datos con IA sea fluida e impactante. Diseñados específicamente para manufactura, semiconductores, automotriz, retail, educación y RRHH, estas soluciones plug-and-play te ayudan a obtener valor empresarial inmediato.",
+    "industrySubTitle3": "Capacidades enfocadas en la industria:",
+    "intelligentData": [
+      "Integración fluida de datos de concesionarios, clientes, IoT/telemática y ERP.",
+      "Mantenimiento predictivo, gestión de garantías y retención de clientes basada en IA.",
+      "Información para desarrollo de nuevos productos y campañas de marketing segmentadas."
+    ],
+    "intelligentTitle": "Lagos de datos inteligentes para automotriz — Transforma datos vehiculares en valor con IA",
+    "intelligentSubTitle": "Conduce el futuro automotriz con conocimientos integrados por IA",
+    "intelligentDesc": "Desbloquea la IA para mejorar el rendimiento del vehículo, la experiencia del cliente y el crecimiento del mercado.",
+    "aiReadyData": [
+      "Mantenimiento predictivo con IA, pronóstico de rendimiento y análisis de proveedores.",
+      "Datos unificados de cadena de suministro, producción y demanda para decisiones en tiempo real.",
+      "Paneles de KPI en tiempo real para impulsar excelencia operativa y ahorro de costos."
+    ],
+    "aiReadyTitle": "Lago de datos de manufactura y semiconductores listo para IA",
+    "aiReadySubTitle1": "Rendimiento impulsado por precisión",
+    "aiReadySubTitle2": "Optimiza producción, cadena de suministro y mantenimiento",
+    "aiReadyDesc": "Mantente competitivo con inteligencia de manufactura impulsada por datos e IA.",
+    "omniSectionData": [
+      "Vista consolidada de datos de clientes, ventas, inventario y marketing.",
+      "Segmentación, predicción de abandono y pronóstico de demanda con IA/ML.",
+      "Análisis en tiempo real de inventario y cumplimiento para mejorar márgenes."
+    ],
+    "educationSectionData": [
+      "Análisis impulsados por IA para retención, rendimiento y compromiso estudiantil.",
+      "Productividad del profesorado, información curricular e informes administrativos.",
+      "Análisis de rendimiento financiero y cumplimiento normativo simplificados."
+    ],
+    "omniTitle": "Inteligencia de datos para retail omnicanal",
+    "omniSubTitle": "Personaliza, optimiza y conquista clientes",
+    "omniDesc": "Empodera el retail con experiencias hiperpersonalizadas y operaciones optimizadas.",
+    "smartEducationTitle": "Plataformas de datos inteligentes para educación",
+    "smartEducationSubTitle": "Impulsando el éxito estudiantil con IA",
+    "smartEducationSubTitle1": "Desde inscripción hasta egresados — recorridos estudiantiles potenciados con IA",
+    "smartEducation": "Prepara el futuro de la educación con información de IA para mejorar los resultados estudiantiles.",
+    "aiPoweredData": [
+      "Unifica datos de empleados desde SuccessFactors, Oracle, Workday y más.",
+      "Análisis impulsados por IA para reclutamiento, retención, diversidad y planificación de la fuerza laboral.",
+      "Paneles en tiempo real para decisiones estratégicas de liderazgo."
+    ],
+    "aiPoweredTitle": "Centro de análisis de RRHH impulsado por IA",
+    "aiPoweredSubTitle1": "Redefine la inteligencia del talento humano",
+    "aiPoweredSubTitle2": "Decisiones más inteligentes sobre personas con IA",
+    "aiPoweredHrDesc": "Lleva RRHH al siguiente nivel con gestión del talento y cumplimiento impulsado por IA.",
+    "sapAribaData": [
+      "Información en tiempo real sobre compras, gastos y riesgos de proveedores.",
+      "IA para adquisiciones predictivas, evaluación de proveedores y análisis de riesgos.",
+      "Análisis integral de contratos y gastos."
+    ],
+    "endToEndTitle1": "Integración de extremo a extremo — ",
+    "endToEndTitle2": "Unificación de datos en tiempo real",
+    "endToEndSubTitle1": " SAP Ariba + SAP Datasphere",
+    "endToEndSubTitle2": "Inteligencia de compras a escala",
+    "sapHanaData": [
+      "Datos unificados de finanzas, operaciones y logística.",
+      "Análisis en tiempo real sobre salud y desempeño empresarial.",
+      "Pronóstico de demanda y análisis de costos impulsado por IA."
+    ],
+    "sapHanaTitle": " SAP S/4HANA + SAP Datasphere",
+    "sapHanaSubTitle": "Dominio total de los datos empresariales",
+    "sapSuccessData": [
+      "Visibilidad completa del ciclo de vida del talento.",
+      "IA para tendencias laborales, diversidad y predicción de rotación.",
+      "Paneles de liderazgo mejorados con datos en tiempo real del personal."
+    ],
+    "sapSuccessFactorTitle": "SAP SuccessFactors + SAP Datasphere",
+    "sapSuccessFactorSubTitle": "Datos de RRHH reinventados",
+    "salesforcesapData": [
+      "Datos unificados de ventas, servicio y marketing para análisis profundos.",
+      "Modelos de IA para retención de clientes, ventas cruzadas y upselling.",
+      "Mapeo del recorrido del cliente y gestión del ciclo de vida en tiempo real."
+    ],
+    "salesforceSapTitle": "Salesforce + SAP Datasphere",
+    "salesforceSapSubTitle": "Customer 360 mejorado con IA",
+    "advancedData": [
+      "Crea paneles interactivos e impactantes para líderes y equipos.",
+      "Visualizaciones impulsadas por IA para detectar tendencias y planear escenarios.",
+      "Visibilidad instantánea de KPIs e indicadores de rendimiento."
+    ],
+    "advancedTitle": "Visualización de datos avanzada",
+    "advancedSubTitle1": "Haz que los datos hablen con SAP Analytics Cloud y Tableau",
+    "advancedSubTitle2": "De datos en bruto a inteligencia accionable",
+    "advenacedDesc": "Transforma los datos en información estratégica que genere resultados.",
+    "aiPoweredUseData": [
+      "IA para mantenimiento predictivo y control de calidad en manufactura.",
+      "Experiencias personalizadas para clientes en retail mediante segmentación con IA.",
+      "Reclutamiento impulsado por IA y planificación de diversidad en RRHH.",
+      "Modelos predictivos de éxito estudiantil en educación."
+    ],
+    "aiPoweredUseTitle": "Casos de uso impulsados por IA",
+    "aiPoweredUseSubTitle": "Acelerando la innovación",
+    "aiPoweredUseDesc": "La IA pone el futuro de la toma de decisiones al alcance de tu mano.",
+    "globalPresenceData": [
+      "Expertos certificados en SAP Datasphere e IA/ML que ofrecen soluciones de extremo a extremo.",
+      "Project managers certificados en SCRUM Ágil para entregas iterativas de alta velocidad.",
+      "Modelo de entrega global con oficinas en EE.UU., Canadá, Singapur e India.",
+      "Amplia experiencia en industrias como Manufactura, Automotriz, Semiconductores, Retail, RRHH y Educación."
+    ],
+    "globalPresenceTitle": "Presencia global, experiencia certificada, excelencia ágil"
+  }
 }

@@ -1,20 +1,22 @@
 'use client';
-
+import usFlag from '../../../../public/images/flags/us-flag.png'
+import spainFlag from "../../../../public/images/flags/spain-flag.png"
 import { usePathname, useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({  arrowImg }) {
     const router = useRouter();
     const pathname = usePathname();
     const currentLocale = useLocale();
     const [showFlags, setShowFlags] = useState(false);
     const dropdownRef = useRef(null);
 
+
     const locales = [
-        { code: 'en', label: 'En', flag: '../images/flags/us-flag.png', subtitle: "US-EN" },
-        { code: 'es', label: 'Es', flag: '../images/flags/spain-flag.png', subtitle: "US-ES" },
+        { code: 'en', label: 'En', flag: usFlag, subtitle: "US-EN" },
+        { code: 'es', label: 'Es', flag: spainFlag, subtitle: "US-ES" },
     ];
 
     const handleChange = (code) => {
@@ -66,7 +68,7 @@ export default function LanguageSwitcher() {
                 })()}
 
                 <Image
-                    src='../images/flags/arrow.png'
+                    src={arrowImg}
                     alt="arrow"
                     className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover"
                     priority

@@ -14,19 +14,23 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const header = (await import(`../../messages/${locale}/homepage.json`)).default;
     const footer = (await import(`../../messages/${locale}/homepage.json`)).default;
     const contactForm = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const common = (await import(`../../messages/${locale}/homepage.json`)).default;
     const aboutUs = (await import(`../../messages/${locale}/aboutus.json`)).default;
     const sapBdc = (await import(`../../messages/${locale}/solutions.json`)).default;
-
+    const salesforceDataCloud = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const datasphere = (await import(`../../messages/${locale}/solutions.json`)).default;
     return {
         locale,
         messages: {
             ...homepage,
             ...aboutUs,
             ...header,
+            ...common,
             ...contactForm,
             ...footer,
-            ...sapBdc
+            ...sapBdc,
+            ...salesforceDataCloud,
+            ...datasphere
         }
-
     };
 });

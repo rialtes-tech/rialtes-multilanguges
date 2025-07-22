@@ -5,7 +5,9 @@ import Link from "next/link"
 import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
 import { useTranslations } from "next-intl";
-
+import usFlag from '../../../../public/images/flags/us-flag.png'
+import spainFlag from "../../../../public/images/flags/spain-flag.png"
+import arrowImg from "../../../../public/images/flags/arrow.png"
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
   return (
@@ -432,7 +434,7 @@ const Header = () => {
               isActive={activeCard === 7}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
-            <LanguageSwitcher />
+            <LanguageSwitcher arrowImg={arrowImg} />
           </div>
         </div>
 
@@ -1232,7 +1234,7 @@ const Header = () => {
           </Link>
           <div className="flex gap-4">
             <div className="my-auto">
-              <LanguageSwitcher />
+              <LanguageSwitcher arrowImg={arrowImg} />
             </div>
             <button onClick={toggleMenu} className="pt-4 pb-4">
               {isMenuOpen ? (

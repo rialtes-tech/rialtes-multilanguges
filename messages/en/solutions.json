@@ -1,14 +1,241 @@
 {
     "sapBdc": {
-        "headerTitle":"SAP Business Data Cloud",
-        "headerSubtitle":"Unlock the Future of Data with SAP Business Data Cloud",
-        "unifyTitle":"Unify Your Enterprise Data From Finance to Frontline",
-        "unifyDesc":"Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate",
+        "headerTitle": "SAP Business Data Cloud",
+        "headerSubtitle": "Unlock the Future of Data with SAP Business Data Cloud",
+        "unifyTitle": "Unify Your Enterprise Data From Finance to Frontline",
+        "unifyDesc": "Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate",
         "listItems": [
-          "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
-          "Workforce and Payroll Intelligence from SAP SuccessFactors",
-          "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
-    ]
-    "listDesc":""
+            "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+            "Workforce and Payroll Intelligence from SAP SuccessFactors",
+            "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
+        ]
+    },
+    "salesforceDataCloud": {
+        "headerTitle": "Data Cloud",
+        "headerSubtitle": "Harness the Potential of Salesforce Data Cloud",
+        "headerDesc": "Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM",
+        "pageDescTitle": "What Is Salesforce Data Cloud?",
+        "pageDesc1": "Businesses are flooded with vast amounts of data from an increasing array of systems, sources, and platforms. The sheer scale and diversity of this data can be overwhelming, leaving organizations to manage and navigate through countless records daily.",
+        "pageDesc2": "Salesforce Data Cloud is designed to assist businesses in consolidating customer data from various touchpoints. Combining data from multiple sources helps create a unified 360-degree view of each customer, fostering more personalized and effective marketing campaigns.",
+        "creatingTitle": "Creating Personalized & Impactful Customer Experiences for Your Business",
+        "unitedTitle": " Unite Your Entire Organization around Delivering an Enhanced Customer Experience.",
+        "ourSalesforceTitle": "Our Salesforce Data Cloud Services",
+        "contactTitle": "Take the next step to operational excellence with us.",
+        "featureBoxes": [
+            {
+                "icon": "/images/data-cloud/customer-360-view.svg",
+                "title": "Customer 360 View",
+                "description": "Integrate customer data across business units to build, for both real-time, omni-channel marketing, transactional personalization, content, subscription, and e-commerce."
+            },
+            {
+                "icon": "/images/data-cloud/zero-copy-integration.svg",
+                "title": "Zero Copy Integration",
+                "description": "Connect your databases, applications with zero copying delays and share data among multiple data sources on demand. No ETL, eliminate ingestion costs and keeping down operational costs."
+            },
+            {
+                "icon": "/images/data-cloud/real-time-data-processing.svg",
+                "title": "Real-time Data Processing",
+                "description": "Processes in real-time and drives data-driven decision-making, optimize inventory management, influence services, improve customer satisfaction, add trusted promotions and recommendations in real-time."
+            },
+            {
+                "icon": "/images/data-cloud/omnichannel-engagement.svg",
+                "title": "Omnichannel Engagement",
+                "description": "Build brand loyalty and trust by ensuring consistent experiences by managing data and service channels."
+            },
+            {
+                "icon": "/images/data-cloud/privacy-and-compliance.svg",
+                "title": "Privacy and Compliance",
+                "description": "Monitor transactions, protect third-party relationships and data usage, adhering to GDPR and CCPA."
+            },
+            {
+                "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
+                "title": "Personalized Marketing Campaigns",
+                "description": "Leverage unified customer profiles to deliver tailored and timely 1:1 targeted campaigns, seamless and secure omnichannel interactions that drive conversion rates."
+            }
+        ],
+        "stats": [
+            {
+                "percentage": "67%",
+                "description": "Tech resources freed up"
+            },
+            {
+                "percentage": "79%",
+                "description": "Companies witnessed a reduction in cost"
+            },
+            {
+                "percentage": "77%",
+                "description": "Organizations save 2 hours a week"
+            }
+        ],
+        "services": [
+            {
+                "id": 1,
+                "image": "/images/data-cloud/managed-cloud-services.webp",
+                "title": "Managed Cloud Services",
+                "description": "With a comprehensive suite of managed services for both public, private, and hybrid cloud environments, empower enterprises to optimize their entire cloud infrastructure and applications."
+            },
+            {
+                "id": 2,
+                "image": "/images/data-cloud/private-cloud-services.webp",
+                "title": "Private Cloud Services",
+                "description": "Experience the ideal blend of cloud flexibility with the utmost data compliance, and security of private infrastructure - providing you an isolation from the public cloud enterprise workloads."
+            },
+            {
+                "id": 3,
+                "image": "/images/data-cloud/data-cloud-consulting.webp",
+                "title": "Data Cloud Consulting",
+                "description": "Tailored recommendations, best practices and certified expertise in maximizing the value of Salesforce Data Cloud within your organization."
+            },
+            {
+                "id": 4,
+                "image": "/images/data-cloud/data-cloud-migration.webp",
+                "title": "Data Cloud Migration",
+                "description": "Develop and implement the best practices for securely and efficiently migrate the composition of cloud workloads from any environment with expert assessments and seamless workload migration solutions."
+            },
+            {
+                "id": 5,
+                "image": "/images/data-cloud/data-cloud-implementation.webp",
+                "title": "Data Cloud Implementation",
+                "description": "Set up the necessary infrastructure, configure data sources, and ensure that your organization can fully utilize Salesforce Data Cloud."
+            }
+        ]
+    },
+    "datasphere": {
+        "headerTitle": "SAP Datasphere",
+        "headerSubtitle": "Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere",
+        "pageDescTitle": "Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration",
+        "pageDesc1": "In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.",
+        "pageDesc2": "With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.",
+        "whyRialtesTitle": "Why Rialtes?",
+        "whyRialtesSubTitle": "Your AI-Powered SAP Datasphere Partner for End-to-End Success",
+        "whyrialtessectiondata": [
+            "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
+            "Industry-first AI/ML data models and accelerators for rapid value realization.",
+            "Tailored integrations with SAP S/4HANA, SuccessFactors, Ariba, Salesforce, Oracle, and more.",
+            "Real-time data governance, compliance, and security frameworks.",
+            "Offices in the US, Canada, Singapore, and India, delivering global expertise with local precision."
+        ],
+        "industryAcceleratorsData": [
+            "AI-powered Manufacturing production and inventory optimization.",
+            "Semiconductor-specific yield, demand, and supply chain analytics.",
+            "Automotive customer lifecycle and parts analytics.",
+            "Retail customer behavior, inventory, and sales insights.",
+            "Education student lifecycle analytics and faculty insights.",
+            "HR workforce performance and diversity analytics."
+        ],
+        "buildIntelligentData": [
+            "Centralized, AI-ready data lakes combining SAP and non-SAP applications.",
+            "Seamless, real-time data pipelines for live analytics and AI/ML models.",
+            "Full data lineage, governance, and compliance support.",
+            "Future-proof platform for AI/ML predictive and prescriptive analytics."
+        ],
+        "buildTitle": "Build an Intelligent Data Lake with SAP Datasphere",
+        "unifiedTitle": "Your Unified, AI-Driven Business Engine",
+        "unlockTitle": " Unlock End-to-End Visibility and Actionable AI Insights",
+        "buildDesc": "Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.",
+        "keyBenefitsTitle": "Key Benefits:",
+        "industryTitle": "Industry-Accelerators",
+        "industrySubTitle1": "Fast-Track AI Success in Your Industry",
+        "industrySubTitle2": "Pre-Built Connectors & AI Models to Accelerate Your Transformation",
+        "industryDesc": "Rialtes’ pre-delivered accelerators make AI data consolidation seamless and impactful. Designed specifically for Manufacturing, Semiconductor, Automotive, Retail, Education, and HR industries, these plug-and-play solutions help you gain immediate business value.",
+        "industrySubTitle3": "Industry-Focused Capabilities:",
+        "intelligentData": [
+            "Seamless integration of dealer, customer, IoT/telematics, and ERP data.",
+            "Predictive maintenance, warranty management, and AI-based customer retention.",
+            "Insights for new product development and targeted marketing campaigns."
+        ],
+        "intelligentTitle": "Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value",
+        "intelligentSubTitle": "Drive the Future of Automotive with AI-Integrated Insights",
+        "intelligentDesc": "Unlock AI for better vehicle performance, customer experience, and market growth.",
+        "aiReadyData": [
+            "AI-driven predictive maintenance, yield forecasting, and supplier analytics.",
+            "Unified supply chain, production, and demand data for real-time decisions.",
+            "Real-time KPI dashboards to drive operational excellence and cost savings."
+        ],
+        "aiReadyTitle": "AI-Ready Manufacturing & Semiconductor Data Lake",
+        "aiReadySubTitle1": "Precision-Driven Performance",
+        "aiReadySubTitle2": "Optimize Production, Supply Chain, and Maintenance",
+        "aiReadyDesc": " Stay competitive with AI-powered, data-driven manufacturing intelligence.",
+        "omniSectionData": [
+            "Consolidated view of customer, sales, inventory, and marketing data.",
+            "AI/ML-powered segmentation, churn prediction, and demand forecasting.",
+            "Real-time stock and fulfillment analytics to improve margins."
+        ],
+        "educationSectionData": [
+            "AI-driven analytics for student retention, performance, and engagement.",
+            "Faculty productivity, curriculum insights, and administrative reporting.",
+            "Financial performance and compliance analytics made easy."
+        ],
+        "omniTitle": "Omnichannel Retail Data Intelligence",
+        "omniSubTitle": "Personalize, Optimize, and Win Customers",
+        "omniDesc": "Empower retail with hyper-personalized experiences and optimized operations.",
+        "smartEducationTitle": "Smart Education Data Platforms",
+        "smartEducationSubTitle": "Driving Student Success with AI",
+        "smartEducationSubTitle1": "From Enrollment to Alumni — AI-Powered Student Journeys",
+        "smartEducation": "Future-proof education with AI insights to enhance student outcomes.",
+        "aiPoweredData": [
+            "Unify employee data across SuccessFactors, Oracle, Workday, and more.",
+            "AI-driven analytics for recruitment, retention, diversity, and workforce planning.",
+            "Real-time dashboards for leadership decision-making."
+        ],
+        "aiPoweredTitle": " AI-Powered HR Analytics Hub",
+        "aiPoweredSubTitle1": "Redefine Workforce Intelligence",
+        "aiPoweredSubTitle2": "Smarter People Decisions with AI",
+        "aiPoweredHrDesc": "Take HR to the next level with AI-powered talent management and compliance.",
+        "sapAribaData": [
+            "Real-time procurement, spend, and supplier risk insights.",
+            "AI for predictive sourcing, supplier scoring, and risk analysis.",
+            "Comprehensive contract and spend analytics."
+        ],
+        "endToEndTitle1": "End-to-End Integration — ",
+        "endToEndTitle2": "Real-Time Data Unification",
+        "endToEndSubTitle1": " SAP Ariba + SAP Datasphere",
+        "endToEndSubTitle2": "Procurement Intelligence at Scale",
+        "sapHanaData": [
+            "Unified financials, operations, and logistics data.",
+            "Real-time business health and performance analytics.",
+            "AI-powered demand forecasting and cost analysis."
+        ],
+        "sapHanaTitle": " SAP S/4HANA + SAP Datasphere",
+        "sapHanaSubTitle": "Enterprise Data Mastery",
+        "sapSuccessData": [
+            "End-to-end talent lifecycle visibility.",
+            "AI for workforce trends, diversity, and attrition prediction.",
+            "Enhanced leadership dashboards with real-time workforce data."
+        ],
+        "sapSuccessFactorTitle": "SAP SuccessFactors + SAP Datasphere",
+        "sapSuccessFactorSubTitle": "HR Data Reimagined",
+        "salesforcesapData": [
+            "Unified sales, service, and marketing data for deep insights.",
+            "AI-driven customer retention, cross-sell, and upsell models.",
+            "Real-time journey mapping and customer lifecycle management."
+        ],
+        "salesforceSapTitle": "Salesforce + SAP Datasphere",
+        "salesforceSapSubTitle": "AI-Enhanced Customer 360",
+        "advancedData": [
+            "Build stunning, interactive dashboards for leadership and teams.",
+            "AI-infused visualizations for trend spotting and scenario planning.",
+            "Instant visibility into KPIs and performance indicators."
+        ],
+        "advancedTitle": "Advanced Data Visualization",
+        "advancedSubTitle1": "Make Data Speak with SAP Analytics Cloud and Tableau",
+        "advancedSubTitle2": "From Raw Data to Actionable Intelligence",
+        "advenacedDesc": "Transform data into strategic insights that drive results.",
+        "aiPoweredUseData": [
+            "AI for predictive maintenance and quality assurance in manufacturing.",
+            "Personalized customer experiences in retail using AI segmentation.",
+            "AI-driven recruitment and diversity planning in HR.",
+            "Predictive student success models in education."
+        ],
+        "aiPoweredUseTitle": "AI-Powered Use Cases",
+        "aiPoweredUseSubTitle": "Accelerating Innovation",
+        "aiPoweredUseDesc": "AI brings the future of decision-making to your fingertips.",
+        "globalPresenceData": [
+            "Certified SAP Datasphere and AI/ML experts delivering end-to-end solutions.",
+            "Agile SCRUM-certified project managers for high-speed, iterative delivery.",
+            "Global delivery model with offices in the US, Canada, Singapore, and India.",
+            "Deep domain expertise in Manufacturing, Automotive, Semiconductor, Retail, HR, and Education."
+        ],
+        "globalPresenceTitle": "Global Presence, Certified Expertise, Agile Excellence"
     }
 }

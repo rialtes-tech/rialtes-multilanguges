@@ -1,11 +1,23 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-; import Link from "next/link";
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import enContent from '../../../../../../messages/en/solutions.json';
+import esContent from '../../../../../../messages/es/solutions.json';
+import { useLocale, useTranslations } from "next-intl";
+
+const t = useTranslations('datasphere')
+const locale = useLocale();
+const content = locale === 'es' ? esContent : enContent;
+console.log('escontent',esContent);
+
+const { whyrialtessectiondata, industryAcceleratorsData, buildIntelligentData, intelligentData, aiPoweredData, educationSectionData, omniSectionData, aiReadyData
+    , sapHanaData, sapAribaData, sapSuccessData, salesforcesapData, advancedData, aiPoweredUseData, globalPresenceData
+} = content.datasphere;
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -79,22 +91,8 @@ const schemaData = {
         ]
     }
 }
-const industryAcceleratorsData = [
-    "AI-powered Manufacturing production and inventory optimization.",
-    "Semiconductor-specific yield, demand, and supply chain analytics.",
-    "Automotive customer lifecycle and parts analytics.",
-    "Retail customer behavior, inventory, and sales insights.",
-    "Education student lifecycle analytics and faculty insights.",
-    "HR workforce performance and diversity analytics."
-]
+
 const WhyRialtesSection = () => {
-    const whyrialtessectiondata = [
-        "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
-        "Industry-first AI/ML data models and accelerators for rapid value realization.",
-        "Tailored integrations with SAP S/4HANA, SuccessFactors, Ariba, Salesforce, Oracle, and more.",
-        "Real-time data governance, compliance, and security frameworks.",
-        "Offices in the US, Canada, Singapore, and India, delivering global expertise with local precision."
-    ]
     return (
         <section className="w-full relative">
             <div className="w-full xl:pt-[100px] z-[0]">
@@ -125,10 +123,10 @@ const WhyRialtesSection = () => {
                 <div className="custom-container mx-auto grid xl:grid-cols-12 xl:gap-[20px] gap-[39px]">
                     <div className="xl:col-span-7">
                         <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight">
-                            Why Rialtes?
+                            {t('whyRialtesTitle')}
                         </h2>
                         <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[36px] text-[22px] font-semibold leading-tight xl:w-[100%] w-[90%] xl:mt-[38px] mt-[17px]">
-                            Your AI-Powered SAP Datasphere Partner for End-to-End Success
+                            {t('whyRialtesSubTitle')}
                         </h3>
 
                         <div className="grid lg:grid-cols-2 lg:gap-[20px] lg:w-[94%] w-[90%] md:w-[70%]">
@@ -149,11 +147,7 @@ const WhyRialtesSection = () => {
                             })}
                         </div>
                         <div className="mt-[6px] md:mt-[40px] md:mb-[40px] xl:mt-[61px] xl:mb-[61px]">
-                            <Link href="/contact-us">
-                                <button className="xl:bg-[#006FBE] bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4">
-                                    Learn More
-                                </button>
-                            </Link>
+                            <LearnMore bgcolor="[#006FBE]" bordercolor="[#006FBE]" />
                         </div>
                     </div>
                     <div className="w-full"></div>
@@ -163,12 +157,6 @@ const WhyRialtesSection = () => {
     )
 }
 const BuildIntelligentSection = () => {
-    const buildIntelligentData = [
-        "Centralized, AI-ready data lakes combining SAP and non-SAP applications.",
-        "Seamless, real-time data pipelines for live analytics and AI/ML models.",
-        "Full data lineage, governance, and compliance support.",
-        "Future-proof platform for AI/ML predictive and prescriptive analytics."
-    ];
     return (
         <section>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[0px] mt-[0px]">
@@ -196,26 +184,26 @@ const BuildIntelligentSection = () => {
             <div className="custom-container max-md:px-0">
                 <div className="xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative">
                     <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
-                        Build an Intelligent Data Lake with SAP Datasphere
+                        {t('buildTitle')}
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[71px] gap-[20px] xl:mt-[53px] mt-[24px]">
                         {/* Left Column */}
                         <div>
                             <h2 className="text-[#FFFFFF] 4xl:text-[40px] xl:text-[36px] text-[22px] leading-tight font-semibold">
-                                Your Unified, AI-Driven Business Engine
+                                {t('unifiedTitle')}
                             </h2>
                             <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[24px] xl:mt-[37px]">
-                                Unlock End-to-End Visibility and Actionable AI Insights
+                                {t('unlockTitle')}
                             </h3>
                             <p className="text-[#FFFFFF] font-light 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
-                                Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.
+                                {t('buildDesc')}
                             </p>
                         </div>
                         {/* Right Column */}
                         <div className="flex flex-col">
-                            <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]">Key Benefits:</p>
+                            <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]"> {t('keyBenefitsTitle')}</p>
                             <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
-                            <div className="2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1 ">
+                            <div className="2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
@@ -252,19 +240,19 @@ const IndustryAcceleratorsSection = () => {
                 </div>
                 <div className="text-[#000000] xl:pl-[60px] mx-[35px] xl:pt-0 pt-[40px]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
-                        Industry-Accelerators
+                        {t('industryTitle')}
                     </h2>
                     <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight mt-[29px] xl:mt-[29px]">
-                        Fast-Track AI Success in Your Industry
+                        {t('industrySubTitle1')}
                     </h3>
                     <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-tight mt-[22px] xl:mt-[29px] xl:w-[90%]">
-                        Pre-Built Connectors & AI Models to Accelerate Your Transformation
+                        {t('industrySubTitle2')}
                     </h3>
                     <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[22px] xl:mt-[45px] xl:w-[86%] font-light">
-                        Rialtes’ pre-delivered accelerators make AI data consolidation seamless and impactful. Designed specifically for Manufacturing, Semiconductor, Automotive, Retail, Education, and HR industries, these plug-and-play solutions help you gain immediate business value.
+                        {t('industryDesc')}
                     </p>
                     <h4 className="font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight mt-[29px] xl:mt-[54px]">
-                        Industry-Focused Capabilities:
+                        {t('industrySubTitle3')}
                     </h4>
                     <UnorderedList ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" arrName={industryAcceleratorsData} liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
                 </div>
@@ -273,11 +261,6 @@ const IndustryAcceleratorsSection = () => {
     )
 }
 const IntelligentAutomativeSection = () => {
-    const intelligentData = [
-        "Seamless integration of dealer, customer, IoT/telematics, and ERP data.",
-        "Predictive maintenance, warranty management, and AI-based customer retention.",
-        "Insights for new product development and targeted marketing campaigns."
-    ];
     return (
         <section className="relative xl:mt-[66px] mt-[53px] custom-container max-md:px-0 md:!pr-0">
             <Image
@@ -303,10 +286,10 @@ const IntelligentAutomativeSection = () => {
             <div className="absolute inset-0 flex items-start justify-start md:mt-[64px] mt-[254px]">
                 <div className="md:w-[86%] custom-container">
                     <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 4xl:w-[90%] xl:w-[80%] lg:w-[80%]">
-                        Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value
+                        {t('intelligentTitle')}
                     </h2>
                     <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight font-semibold xl:mt-[45px] mt-[24px] xl:w-[80%] w-[90%]">
-                        Drive the Future of Automotive with AI-Integrated Insights
+                        {t('intelligentSubTitle')}
                     </h3>
                     <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight" />
                     <div className="xl:mt-[20px] mt-[54px]">
@@ -314,7 +297,7 @@ const IntelligentAutomativeSection = () => {
                     </div>
                     <div className="bg-[#163055] absolute bottom-[-70px] mr-[36px] lg:ml-[-20px]">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                            Unlock AI for better vehicle performance, customer experience, and market growth.
+                            {t('intelligentDesc')}
                         </p>
                     </div>
                 </div>
@@ -323,11 +306,6 @@ const IntelligentAutomativeSection = () => {
     );
 };
 const AIReadyManufacturingSection = () => {
-    const aiReadyData = [
-        "AI-driven predictive maintenance, yield forecasting, and supplier analytics.",
-        "Unified supply chain, production, and demand data for real-time decisions.",
-        "Real-time KPI dashboards to drive operational excellence and cost savings.",
-    ]
     return (
         <section className="w-full xl:mt-[158px] mt-[180px] relative">
             <div className="grid grid-cols-1 md:grid-cols-[6fr_4fr]">
@@ -352,13 +330,13 @@ const AIReadyManufacturingSection = () => {
                 </div>
                 <div className="order-2 md:order-1 text-[#FFFFFF] custom-container lg:!pr-0 xl:pt-[88px] pt-[46px] pb-[120px] bg-[#64676C]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-full w-[80%]">
-                        AI-Ready Manufacturing & Semiconductor Data Lake
+                        {t('aiReadyTitle')}
                     </h2>
                     <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[22px] leading-tight mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-full w-[80%]">
-                        Precision-Driven Performance
+                        {t('aiReadySubTitle1')}
                     </h3>
                     <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-[80%]">
-                        Optimize Production, Supply Chain, and Maintenance
+                        {t('aiReadySubTitle2')}
                     </h3>
                     <UnorderedList arrName={aiReadyData} ulClassName="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light" />
                 </div>
@@ -367,7 +345,7 @@ const AIReadyManufacturingSection = () => {
                 <div className="md:w-[56%] relative">
                     <div className="bg-[#163055] mt-[-90px] sm:mt-[-60px] w-full">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[20px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                            Stay competitive with AI-powered, data-driven manufacturing intelligence.
+                            {t('aiReadyDesc')}
                         </p>
                     </div>
                 </div>
@@ -376,16 +354,6 @@ const AIReadyManufacturingSection = () => {
     )
 }
 const OmnichannelSmartEducationSection = () => {
-    const omniSectionData = [
-        "Consolidated view of customer, sales, inventory, and marketing data.",
-        "AI/ML-powered segmentation, churn prediction, and demand forecasting.",
-        "Real-time stock and fulfillment analytics to improve margins."
-    ]
-    const educationSectionData = [
-        "AI-driven analytics for student retention, performance, and engagement.",
-        "Faculty productivity, curriculum insights, and administrative reporting.",
-        "Financial performance and compliance analytics made easy."
-    ]
     return (
         <section className="custom-container max-md:px-0 xl:mt-[144px] mt-[120px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -413,16 +381,16 @@ const OmnichannelSmartEducationSection = () => {
                     </div>
                     <div className="relative text-[#000000] bg-[#E0E0E0] xl:pt-[300px] 2xl:pt-[360px] pt-[305px] xl:pb-[145px] pb-[100px] px-[35px] xl:px-[70px] overflow-visible">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
-                            Omnichannel Retail Data Intelligence
+                            {t('omniTitle')}
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[39px] xl:w-[90%] 2xl:w-[80%]">
-                            Personalize, Optimize, and Win Customers
+                            {t('omniSubTitle')}
                         </h3>
                         <UnorderedList arrName={omniSectionData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
                     </div>
                     <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                            Empower retail with hyper-personalized experiences and optimized operations.
+                            {t('omniDesc')}
                         </p>
                     </div>
                 </div>
@@ -450,19 +418,19 @@ const OmnichannelSmartEducationSection = () => {
                     </div>
                     <div className="relative text-[#000000] bg-[#7AB5BF] xl:pt-[300px] 2xl:pt-[360px] pt-[305px] xl:pb-[145px] pb-[100px] px-[35px] xl:pl-[70px] xl:pr-[40px] overflow-visible">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[90%]">
-                            Smart Education Data Platforms
+                            {t('smartEducationTitle')}
                         </h2>
                         <h3 className="font-semibold  4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
-                            Driving Student Success with AI
+                            {t('smartEducationSubTitle')}
                         </h3>
                         <h4 className="font-semibold xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
-                            From Enrollment to Alumni — AI-Powered Student Journeys
+                            {t('smartEducationSubTitle1')}
                         </h4>
                         <UnorderedList arrName={educationSectionData} ulClassName="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
                     </div>
                     <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                            Future-proof education with AI insights to enhance student outcomes.
+                            {t('smartEducation')}
                         </p>
                     </div>
                 </div>
@@ -471,11 +439,6 @@ const OmnichannelSmartEducationSection = () => {
     )
 }
 const AiPoweredHRAnalyticsSection = () => {
-    const aiPoweredData = [
-        "Unify employee data across SuccessFactors, Oracle, Workday, and more.",
-        "AI-driven analytics for recruitment, retention, diversity, and workforce planning.",
-        "Real-time dashboards for leadership decision-making."
-    ]
     return (
         <section className="xl:mt-[142px] mt-[107px] custom-container max-lg:px-0 xl:!pl-0 ">
             <div className="grid grid-cols-1 xl:grid-cols-[7fr_5fr]">
@@ -504,18 +467,18 @@ const AiPoweredHRAnalyticsSection = () => {
                 <div>
                     <div className="relative text-[#FFFFFF] xl:pl-[72px] xl:ml-[-20%] xl:mt-[100px] mx-[0px] px-[35px] xl:pt-[76px] pt-[42px] bg-[#006FBE] xl:pb-[76px] pb-[142px] overflow-visible">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[80%]">
-                            AI-Powered HR Analytics Hub
+                            {t('aiPoweredTitle')}
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[36px] xl:w-[80%]">
-                            Redefine Workforce Intelligence
+                            {t('aiPoweredSubTitle1')}
                         </h3>
                         <h4 className="font-semibold xl:text-[28px] 4xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-full">
-                            Smarter People Decisions with AI
+                            {t('aiPoweredSubTitle2')}
                         </h4>
                         <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
                         <div className="bg-[#163055] w-[80%] absolute bottom-[-50px] xl:left-[0px] xl:w-[100%] xl:right-[-72px] xl:bottom-auto xl:top-full xl:mt-[0px] xl:transform-none">
                             <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
-                                Take HR to the next level with AI-powered talent management and compliance.
+                                {t('aiPoweredHrDesc')}
                             </p>
                         </div>
                     </div>
@@ -525,16 +488,11 @@ const AiPoweredHRAnalyticsSection = () => {
     )
 }
 const SapAribaSection = () => {
-    const sapAribaData = [
-        "Real-time procurement, spend, and supplier risk insights.",
-        "AI for predictive sourcing, supplier scoring, and risk analysis.",
-        "Comprehensive contract and spend analytics.",
-    ];
     return (
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[240px] mt-[94px]">
                 <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0">
-                    End-to-End Integration — <div className="sm:block hidden" /> Real-Time Data Unification
+                    {t('endToEndTitle1')} <div className="sm:block hidden" /> {t('endToEndTitle2')}
                 </h2>
                 <div>
                     <Image
@@ -561,10 +519,10 @@ const SapAribaSection = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[20px] gap-[20px] xl:mt-[0px] mt-[24px]">
                         <div>
                             <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 2xl:w-[80%]">
-                                SAP Ariba + SAP Datasphere
+                                {t('endToEndSubTitle1')}
                             </h2>
                             <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
-                                Procurement Intelligence at Scale
+                                {t('endToEndSubTitle2')}
                             </h3>
                         </div>
                         <div className="flex flex-col">
@@ -580,11 +538,6 @@ const SapAribaSection = () => {
     )
 }
 const SapHanaSection = () => {
-    const sapHanaData = [
-        "Unified financials, operations, and logistics data.",
-        "Real-time business health and performance analytics.",
-        "AI-powered demand forecasting and cost analysis."
-    ]
     return (
         <section className="custom-container max-md:px-0 md:!pl-0 ">
             <div className="bg-[#75603B] xl:mt-[91px] mt-[55px]">
@@ -610,10 +563,10 @@ const SapHanaSection = () => {
                     </div>
                     <div className="text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
-                            SAP S/4HANA + SAP Datasphere
+                            {t('sapHanaTitle')}
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
-                            Enterprise Data Mastery
+                            {t('sapHanaSubTitle')}
                         </h3>
                         <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
@@ -626,11 +579,6 @@ const SapHanaSection = () => {
     )
 }
 const SapSucessFactorSection = () => {
-    const sapSuccessData = [
-        "End-to-end talent lifecycle visibility.",
-        "AI for workforce trends, diversity, and attrition prediction.",
-        "Enhanced leadership dashboards with real-time workforce data."
-    ]
     return (
         <section className="custom-container max-md:px-0 md:!pr-0">
             <div className="bg-[#006FBE] xl:mt-[97px] mt-[55px]">
@@ -656,10 +604,10 @@ const SapSucessFactorSection = () => {
                     </div>
                     <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
-                            SAP SuccessFactors + SAP Datasphere
+                            {t('sapSuccessFactorTitle')}
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
-                            HR Data Reimagined
+                            {t('sapSuccessFactorSubTitle')}
                         </h3>
                         <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
@@ -672,11 +620,6 @@ const SapSucessFactorSection = () => {
     )
 }
 const SalesforceSap = () => {
-    const salesforcesapData = [
-        "Unified sales, service, and marketing data for deep insights.",
-        "AI-driven customer retention, cross-sell, and upsell models.",
-        "Real-time journey mapping and customer lifecycle management."
-    ]
     return (
         <section className="custom-container max-md:px-0 md:!pl-0">
             <div className="bg-[#C2EBEF] xl:mt-[98px] mt-[64px]">
@@ -702,10 +645,10 @@ const SalesforceSap = () => {
                     </div>
                     <div className="text-[#000000] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
                         <h2 className="4xl:text-[60px] xl:text-[40px]  text-[26px] leading-tight font-light">
-                            Salesforce + SAP Datasphere
+                            {t('salesforceSapTitle')}
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px]  text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
-                            AI-Enhanced Customer 360
+                            {t('salesforceSapSubTitle')}
                         </h3>
                         <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
@@ -718,11 +661,6 @@ const SalesforceSap = () => {
     )
 }
 const AdvancedDataSection = () => {
-    const advancedData = [
-        "Build stunning, interactive dashboards for leadership and teams.",
-        "AI-infused visualizations for trend spotting and scenario planning.",
-        "Instant visibility into KPIs and performance indicators."
-    ]
     return (
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 ">
@@ -749,13 +687,13 @@ const AdvancedDataSection = () => {
                         </div>
                         <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
                             <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
-                                Advanced Data Visualization
+                                {t('advancedTitle')}
                             </h2>
                             <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[19px] xl:mt-[37px] xl:w-[86%]">
-                                Make Data Speak with SAP Analytics Cloud and Tableau
+                                {t('advancedSubTitle1')}
                             </h3>
                             <h3 className="font-semibold 4xl:text-[36px] xl:text-[24px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
-                                From Raw Data to Actionable Intelligence
+                                {t('advancedSubTitle2')}
                             </h3>
                             <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[24px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
@@ -765,7 +703,7 @@ const AdvancedDataSection = () => {
                     </div>
                     <div className="bg-[#163055] 4xl:w-[57%] xl:w-[64%] mx-[35px] md:ml-[0px] md:mr-0 absolute md:top-[98%] 2xl:top-[95%]">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[33px] px-[24px] font-light">
-                            Transform data into strategic insights that drive results.
+                            {t('advenacedDesc')}
                         </p>
                     </div>
                 </div>
@@ -774,12 +712,6 @@ const AdvancedDataSection = () => {
     )
 }
 const AIPoweredUseSection = () => {
-    const aiPoweredData = [
-        "AI for predictive maintenance and quality assurance in manufacturing.",
-        "Personalized customer experiences in retail using AI segmentation.",
-        "AI-driven recruitment and diversity planning in HR.",
-        "Predictive student success models in education.",
-    ]
     return (
         <>
             <section className="relative 2xl:mt-[141px] xl:mt-[200px] mt-[164px] w-full">
@@ -802,18 +734,14 @@ const AIPoweredUseSection = () => {
                     <div className="relative">
                         <div className="mx-[10px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white">
                             <h2 className="text-[26px] leading-tight font-light">
-                                AI-Powered Use Cases
+                                {t('aiPoweredUseTitle')}
                             </h2>
                             <h3 className="text-[20px] 4xl:text-[36px] xl:text-[24px] font-semibold mt-[19px] leading-tight w-[90%]">
-                                Accelerating Innovation
+                                {t('aiPoweredUseSubTitle')}
                             </h3>
-                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-[19px]" />
+                            <UnorderedList arrName={aiPoweredUseData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-[19px]" />
                             <div className="mt-[44px] absolute">
-                                <Link href="/contact-us">
-                                    <button className="bg-[#006FBE] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
-                                </Link>
+                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
                             </div>
                         </div>
                     </div>
@@ -839,19 +767,15 @@ const AIPoweredUseSection = () => {
                         />
                         <div className="relative z-10 xl:pt-[70px] pt-[57px] xl:pb-[80px] pb-[0px] px-[26px] md:px-[67px] text-white">
                             <h2 className=" 4xl:text-[60px] xl:text-[40px] leading-tight font-light w-[70%]">
-                                AI-Powered Use Cases
+                                {t('aiPoweredUseTitle')}
                             </h2>
                             <h3 className=" 4xl:text-[42px] xl:text-[38px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-tight">
-                                Accelerating Innovation
+                                {t('aiPoweredUseSubTitle')}
                             </h3>
                             <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[15px] leading-tight font-light" />
 
                             <div className="mt-[40px] absolute">
-                                <Link href="/contact-us">
-                                    <button className="bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-                                        Learn More
-                                    </button>
-                                </Link>
+                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
                             </div>
                         </div>
                     </div>
@@ -859,7 +783,7 @@ const AIPoweredUseSection = () => {
                 <div className="custom-container">
                     <div className="bg-[#163055] absolute xl:-mt-[58px] -mt-[45px] mr-[36px] sm:w-[90%] md:w-auto">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[35px] px-[24px] font-light">
-                            AI brings the future of decision-making to your fingertips.
+                            {t('aiPoweredUseDesc')}
                         </p>
                     </div>
                 </div>
@@ -868,12 +792,6 @@ const AIPoweredUseSection = () => {
     );
 };
 const GlobalPresenceSection = () => {
-    const globalPresenceData = [
-        "Certified SAP Datasphere and AI/ML experts delivering end-to-end solutions.",
-        "Agile SCRUM-certified project managers for high-speed, iterative delivery.",
-        "Global delivery model with offices in the US, Canada, Singapore, and India.",
-        "Deep domain expertise in Manufacturing, Automotive, Semiconductor, Retail, HR, and Education."
-    ]
     return (
         <section className="xl:mt-[121px] mt-[136px] custom-container lg:!pr-0 max-md:px-0">
             <div className="relative">
@@ -901,7 +819,7 @@ const GlobalPresenceSection = () => {
                     style={{ background: "rgba(7, 50, 89, 0.92)", }}>
                     <div className="z-30">
                         <h2 className="text-[#FFFFFF] xl:text-[40px] 4xl:text-[60px] text-[26px] font-light leading-tight">
-                            Global Presence, Certified Expertise, Agile Excellence
+                            {t('globalPresenceTitle')}
                         </h2>
                         <div className="grid md:grid-cols-2 md:gap-[40px] lg:gap-[10px] 2xl:gap-[40px]">
                             {globalPresenceData.map((data, ind) => {
@@ -964,10 +882,10 @@ export default function () {
                     <div className="grid grid-cols-12 w-full">
                         <div className="4xl:col-span-7 sm:col-span-8 xl:col-span-6 col-span-11">
                             <h3 className="text-[18px] md:text-[24px] font-bold">
-                                SAP Datasphere
+                                {t('headerTitle')}
                             </h3>
                             <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-                                Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere
+                                {t('headerSubtitle')}
                             </h1>
                         </div>
                         <div className="4xl:col-span-5 sm:col-span-4 xl:col-span-6 col-span-1">
@@ -979,11 +897,11 @@ export default function () {
             <section className="custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
                 <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px]">
                     <div className="4xl:col-span-7 xl:col-span-6 col-span-12">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight xl:w-[100%] lg:w-[80%]">Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration</h2>
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight xl:w-[100%] lg:w-[80%]">{t('pageDescTitle')}</h2>
                     </div>
                     <div className="4xl:col-span-5 xl:col-span-6 col-span-12">
-                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%]">In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.</p>
-                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%] xl:mt-[30px] mt-[19px]">With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.</p>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%]">{t('pageDesc1')}</p>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%] xl:mt-[30px] mt-[19px]">{t('pageDesc2')}</p>
                     </div>
                 </div>
             </section>
