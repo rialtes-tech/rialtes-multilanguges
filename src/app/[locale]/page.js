@@ -42,7 +42,6 @@ const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
     const homepageContent = locale === 'es' ? esContent : enContent;
-    console.log('h',homepageContent);
     
     const { carouselData, successStoryData } = homepageContent.homePage;
 

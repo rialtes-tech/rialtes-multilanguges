@@ -126,5 +126,48 @@
         "retailDesc": "Enfrenta los desafíos del comercio minorista con confianza. Rialtes Retail+ combina estrategia y ejecución sólida para que minoristas B2B y B2C puedan modernizarse, personalizar y crecer. Desde la planificación hasta el soporte post-lanzamiento, impulsamos la transformación en cada etapa.",
         "viewAllIndustries": "Ver Todas las Industrias",
         "knowMoreBtn": "Saber más"
+    },
+    "header": {
+        "solutionTitle": "Soluciones",
+        "productsTitle": "Productos",
+        "servicesTitle": "Servicios",
+        "industriesTitle": "Industrias",
+        "aboutusTitle": "Sobre Nosotros",
+        "insightTitle": "Perspectivas",
+        "contactTitle": "Contáctanos"
+    },
+    "contactForm": {
+        "message": "Mensaje*",
+        "messageError1": "El mensaje es obligatorio.",
+        "messageError2": "El mensaje debe tener al menos 10 caracteres.",
+        "messageError3": "El mensaje no debe exceder los 1000 caracteres.",
+        "company": "Empresa*",
+        "email": "Correo electrónico",
+        "emailError1": "El correo electrónico es obligatorio.",
+        "emailError2": "Dirección de correo electrónico no válida.",
+        "fname": "Nombre*",
+        "fnameError1": "El nombre es obligatorio.",
+        "fnameError2": "El nombre contiene caracteres no válidos.",
+        "fnameError3": "El nombre no debe exceder los 40 caracteres.",
+        "lname": "Apellido*",
+        "lnameError1": "El apellido es obligatorio.",
+        "lnameError2": "El apellido contiene caracteres no válidos.",
+        "lnameError3": "El apellido no debe exceder los 40 caracteres.",
+        "phone": "Teléfono",
+        "role": "Role*",
+        "enterCaptcha": "Ingrese el Captcha",
+        "captchaMsg": "Ingrese el resultado de la ecuación mostrada arriba",
+        "letsBegin": "Comencemos"
+    },
+    "footer": {
+        "Simplifying": "Simplificando",
+        "Problems": "Problemas",
+        "Enabling": "Habilitando",
+        "Solutions": "Soluciones",
+        "Empowering": "Empoderando",
+        "Customers": "Clientes",
+        "Termsofuse": "Términos de uso",
+        "PrivacyNotice": "Aviso de privacidad",
+        "copyright": "©2025 Rialtes, Todos los derechos reservados"
     }
 }

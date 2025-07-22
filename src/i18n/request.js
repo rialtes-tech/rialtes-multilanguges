@@ -11,14 +11,20 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
 
     const homepage = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const header = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const footer = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const contactForm = (await import(`../../messages/${locale}/homepage.json`)).default;
     const aboutUs = (await import(`../../messages/${locale}/aboutus.json`)).default;
-    console.log('about us ',aboutUs);
-    
+
+
     return {
         locale,
         messages: {
-            ...homepage, // includes "HomePage": { ... }
-            ...aboutUs   // includes "AboutUs": { ... }
+            ...homepage,
+            ...aboutUs,
+            ...header,
+            ...contactForm,
+            ...footer
         }
 
     };
