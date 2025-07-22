@@ -46,7 +46,7 @@ const carouselData = [
         title: "Blogs",
         description:
             "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-        image: "/images/blog/blog-8.webp",
+        image: "/images/blog/blog-88.webp",
         link: '/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration'
     },
     {
@@ -81,7 +81,7 @@ const carouselData = [
 const successStoryData = [
     {
         id: 1,
-        imageUrl: '/images/homepage/stremline.webp',
+        imageUrl: '/images/homepage/stremline_with_bgc.webp',
         title: 'Manufacturing',
         description: 'Streamlined DevOps using Copado and Salesforce',
         url: 'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
@@ -90,7 +90,7 @@ const successStoryData = [
     },
     {
         id: 2,
-        imageUrl: '/images/homepage/salesforce.webp',
+        imageUrl: '/images/homepage/salesforce_with_bgc.webp',
         title: 'Healthcare',
         description: 'Salesforce Health Cloud, Prior Authorization',
         url: 'insights/case-studies/salesforce-health-cloud-prior-authorization'
@@ -98,14 +98,14 @@ const successStoryData = [
     },
     {
         id: 3,
-        imageUrl: '/images/homepage/mfg-2.webp',
+        imageUrl: '/images/homepage/mfg-2_with_bgc.webp',
         title: 'Manufacturing',
         description: 'Omnichannel case management with Salesforce Service Cloud',
         url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
     },
     {
         id: 4,
-        imageUrl: '/images/homepage/public-sector-3.webp',
+        imageUrl: '/images/homepage/public-sector-3_with_bgc.webp',
         title: 'Public Sector',
         description: "YARDI Transformation Journey with North America's Largest PHA",
         theme: "light",
@@ -113,7 +113,7 @@ const successStoryData = [
     },
     {
         id: 5,
-        imageUrl: '/images/homepage/healthcare-2.webp',
+        imageUrl: '/images/homepage/healthcare-22.webp',
         title: 'Healthcare',
         description: 'Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP',
         url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
@@ -121,14 +121,14 @@ const successStoryData = [
     },
     {
         id: 6,
-        imageUrl: '/images/homepage/mfg-3.webp',
+        imageUrl: '/images/homepage/mfg-3_with_bgc.webp',
         title: 'Manufacturing',
         description: 'Streamlining Sales with Salesforce Sales Cloud for Manufacturing',
         url: 'insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/'
     },
     {
         id: 7,
-        imageUrl: '/images/homepage/realestate-3.webp',
+        imageUrl: '/images/homepage/realestate-3_with_bgc.webp',
         title: 'Real Estate',
         description: 'Automating ACH and Journal Entries with Our Exelona Banking Module',
         url: 'insights/case-studies/realForce-banking-module-ach',
@@ -137,7 +137,7 @@ const successStoryData = [
     },
     {
         id: 8,
-        imageUrl: '/images/homepage/healthcareImg.webp',
+        imageUrl: '/images/homepage/healthcareImg-new.webp',
         title: 'Healthcare',
         description: 'Digitizing patient journey using Salesforce health cloud',
         url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud',
@@ -176,9 +176,9 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/homepage/sales-news_with_bgc.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
         { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact_with_bgc.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     useEffect(() => {
@@ -222,7 +222,7 @@ const Home = () => {
                             <React.Fragment key={index}>
                                 <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
 
-                                      <div
+                                    <div
                                         className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
                                         style={{
@@ -230,13 +230,7 @@ const Home = () => {
                                             backgroundSize: '100% 100%',
                                         }}
                                     >
-                                        {/* <Image
-                                            src={slide.imageMobile}
-                                            alt={slide.title}
-                                            fill
-                                            priority
-                                            sizes="100vw"
-                                        /> */}
+
 
                                         <div
                                             ref={refs[6]}
@@ -247,16 +241,16 @@ const Home = () => {
                                 </Link>
 
                                 {index === currentSlide && (
-                                    <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
-                                        <div className="absolute inset-0">
-                                            <Image
-                                                src={slide.image}
-                                                alt={slide.title}
-                                                fill
-                                                priority={index === 0}
-                                                className="object-cover"
-                                                sizes="100vw"
-                                            />
+                                    <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
+                                        <div
+                                            className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
+                                                }`}
+                                            style={{
+                                                backgroundImage: `url(${slide.image})`,
+                                                backgroundSize: 'cover',
+                                                backgroundPosition: 'center',
+                                            }}
+                                        >
                                             <div
                                                 ref={refs[6]}
                                                 className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
@@ -322,7 +316,7 @@ const Home = () => {
                 </section>
 
                 {/* success stories section */}
-                <section className='custom-container lg:pr-0 4xl:mt-[130px] xl:mt-[87px] md:mt-[67px] mt-[45px]'>
+                <section className='custom-container lg:pr-0 xl:mt-[147px] mt-[87px]'>
                     <div
 
                         ref={refs[0]}
@@ -392,7 +386,7 @@ const Home = () => {
                         }`}
                 >
                     <div className='col-span-6'>
-                        <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight 4xl:w-[80%] xl:w-[70%]'>Industry Expertise & Solutions</h2>
+                        <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise <br />& Solutions</h2>
                     </div>
                     <div className='col-span-6'>
                         <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
