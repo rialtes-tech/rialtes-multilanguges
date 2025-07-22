@@ -1,6 +1,6 @@
-import { getRequestConfig } from 'next-intl/server';
-import { hasLocale } from 'next-intl';
-import { routing } from './routing';
+import { getRequestConfig } from "next-intl/server";
+import { hasLocale } from "next-intl";
+import { routing } from "./routing";
 
 export default getRequestConfig(async ({ requestLocale }) => {
     // Typically corresponds to the `[locale]` segment
@@ -15,7 +15,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const footer = (await import(`../../messages/${locale}/homepage.json`)).default;
     const contactForm = (await import(`../../messages/${locale}/homepage.json`)).default;
     const aboutUs = (await import(`../../messages/${locale}/aboutus.json`)).default;
-
+    const sapBdc = (await import(`../../messages/${locale}/solutions.json`)).default;
 
     return {
         locale,
@@ -24,7 +24,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...aboutUs,
             ...header,
             ...contactForm,
-            ...footer
+            ...footer,
+            ...sapBdc
         }
 
     };

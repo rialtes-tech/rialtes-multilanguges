@@ -1,0 +1,14 @@
+{
+    "sapBdc": {
+        "headerTitle":"SAP Business Data Cloud",
+        "headerSubtitle":"Unlock the Future of Data with SAP Business Data Cloud",
+        "unifyTitle":"Unify Your Enterprise Data From Finance to Frontline",
+        "unifyDesc":"Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate",
+        "listItems": [
+          "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+          "Workforce and Payroll Intelligence from SAP SuccessFactors",
+          "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
+    ]
+    "listDesc":""
+    }
+}
