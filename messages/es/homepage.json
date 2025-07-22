@@ -169,5 +169,8 @@
         "Termsofuse": "Términos de uso",
         "PrivacyNotice": "Aviso de privacidad",
         "copyright": "©2025 Rialtes, Todos los derechos reservados"
+    },
+    "common": {
+        "learnmore": "Aprende más"
     }
 }
