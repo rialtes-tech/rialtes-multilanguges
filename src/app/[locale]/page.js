@@ -1,4 +1,3 @@
-
 "use client";
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
@@ -42,7 +41,7 @@ const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
     const homepageContent = locale === 'es' ? esContent : enContent;
-    console.log('h',homepageContent);
+
     
     const { carouselData, successStoryData } = homepageContent.homePage;
 
