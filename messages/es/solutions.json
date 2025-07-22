@@ -8,7 +8,121 @@
       "Datos de Finanzas, Compras y Cadena de Suministro de SAP S/4HANA",
       "Inteligencia de Fuerza Laboral y Nómina de SAP SuccessFactors",
       "Información de Ventas, Servicio y Marketing de Salesforce o SAP CX"
-    ]
+    ],
+    "listDesc": "Ya sea que estés optimizando la rentabilidad, impulsando la eficiencia operativa o brindando experiencias personalizadas al cliente, SAP Business Data Cloud, implementado por Rialtes, te ofrece una visión unificada y contextualizada de tu entorno empresarial.",
+    "dataTitle": "Una base de datos unificada y abierta para empresas inteligentes",
+    "dataSubtitleOne": "SAP Business Data Cloud mejora la gestión de datos empresariales al combinar las capacidades de la plataforma de datos de SAP con una integración nativa para las aplicaciones de SAP y compatibilidad con plataformas de terceros como Databricks, Google BigQuery y Snowflake. Permite la unificación del contexto empresarial y los datos para obtener información en tiempo real y tomar decisiones impulsadas por IA.",
+    "dataSubtitleTwo": "Como socio autorizado de SAP y socio estratégico de Databricks, Rialtes capacita a las organizaciones para adoptar sin problemas SAP Business Data Cloud y desbloquear el valor completo de sus datos empresariales.",
+    "fabricTitle": "Tejido de Datos SAP",
+    "fabricSubtitle": "Impulsado por SAP Business Data Cloud",
+    "fabricDesc": "El SAP Data Fabric actúa como una capa de datos inteligente y conectada en toda tu organización. Proporciona una base consistente para acceder, modelar y gobernar los datos empresariales manteniendo intacto el contexto de negocio.",
+    "fabricPara": "Con SAP Data Fabric, usted puede:",
+    "fabricList": [
+      "Conectar datos en vivo y replicados a través de entornos multi-nube e híbridos",
+      "Unificar definiciones semánticas en dominios y sistemas",
+      "Garantizar una gobernanza y trazabilidad de datos confiables en todas las funciones empresariales",
+      "Acelerar la IA, planificación y análisis con datos limpios y enriquecidos con contexto"
+    ],
+    "sapTitle": "¿Por qué elegir SAP Business Data Cloud?",
+    "learnMore": "Aprender más",
+    "dataItems": [
+      {
+        "title": "Datos Listos para Negocios",
+        "desc": "Accede y conecta datos de sistemas SAP y no SAP manteniendo ricos semánticos y contexto empresarial."
+      },
+      {
+        "title": "Integración de Ecosistema Abierto",
+        "desc": "Integración con líderes de la industria como Databricks, BigQuery y AWS usando estándares abiertos y APIs."
+      },
+      {
+        "title": "Gobernanza y Seguridad Unificada",
+        "desc": "Gestiona datos de manera segura en todas las capas con gobernanza y trazabilidad de nivel empresarial."
+      },
+      {
+        "title": "Habilitado para IA y ML",
+        "desc": "Impulsa análisis avanzados y escenarios impulsados por IA usando servicios integrados de aprendizaje automático."
+      }
+    ],
+    "partnerTitle": "Rialtes: Tu socio de confianza en SAP y Databricks",
+    "partnerDesc": "Rialtes se especializa en arquitectura, implementación y gobernanza de data cloud con un equipo de ingenieros certificados en SAP. Integramos inteligencia de procesos, ingeniería de datos y desarrollo en la nube para ofrecer valor tangible a partir de los datos de tu empresa. Nuestros equipos certificados te ayudan en:",
+    "partnerList": [
+      "Datos de Finanzas, Compras y Cadena de Suministro de SAP S/4HANA",
+      "Inteligencia de Personal y Nómina de SAP SuccessFactors",
+      "Información de Ventas, Servicio y Marketing de Salesforce o SAP CX"
+    ],
+    "migrationTitle": "Migración sin interrupciones de SAP Business Warehouse a SAP Business Data Cloud",
+    "migrationPara": "Moderniza tu análisis y acelera la transformación hacia la nube:",
+    "exploreData": [
+      {
+        "title": "Evaluación y Planificación",
+        "desc": "Analiza tus modelos y flujos de datos actuales de SAP BW para construir una estrategia de migración personalizada."
+      },
+      {
+        "title": "Replicación de Datos Automatizada",
+        "desc": "Utiliza herramientas de migración proporcionadas por SAP y aceleradores de Rialtes para trasladar la lógica y semántica existentes a SAP Business Data Cloud."
+      },
+      {
+        "title": "Conserva la Lógica Empresarial",
+        "desc": "Mantén la metadata empresarial y los KPI existentes para obtener valor más rápidamente."
+      },
+      {
+        "title": "Mejora el Rendimiento y la Agilidad",
+        "desc": "Aprovecha las capacidades nativas de la nube para el consumo y visualización de datos en tiempo real."
+      }
+    ],
+    "migrateTitle": "Migra de SAP Datasphere a SAP Business Data Cloud",
+    "migrateDesc": "SAP Business Data Cloud reúne las capacidades de próxima generación de Datasphere bajo una arquitectura de datos unificada. Rialtes hace que esta transición sea sin fricciones:",
+    "migrateData": [
+      {
+        "title": "Mapeo y Conciliación de Datos",
+        "description": "Te ayudamos a mapear tus artefactos y canalizaciones actuales desde SAP Datasphere a SAP Business Data Cloud."
+      },
+      {
+        "title": "Retención del Contexto Empresarial",
+        "description": "Aseguramos que toda la metadata, trazabilidad y contexto se conserven durante la transición."
+      },
+      {
+        "title": "Extensión Abierta",
+        "description": "Conéctate con plataformas externas como Databricks para análisis avanzados e integración con ML."
+      },
+      {
+        "title": "Arquitectura Preparada para el Futuro",
+        "description": "Establece una base para IA escalable, reportes y modelado de datos entre sistemas."
+      }
+    ],
+    "databricksTitle": "Conecta SAP Business Data Cloud con Databricks",
+    "databricksDesc": "Como socio consultor certificado de Databricks, Rialtes te ayuda a:",
+    "connectSapData": [
+      "Establece canalizaciones de datos bidireccionales entre SAP y Databricks",
+      "Utiliza Delta Lake y MLFlow con modelos semánticos de SAP",
+      "Habilita información predictiva en tiempo real utilizando el contexto empresarial de SAP",
+      "Crea modelos de IA específicos para la industria usando datos unificados entre plataformas"
+    ],
+    "dataCloud": "Nuestros servicios de SAP Business Data Cloud",
+    "ourSapData": [
+      {
+        "title": "Consultoría y Asesoría",
+        "description": "Alinea tu estrategia de datos con los objetivos de negocio y las hojas de ruta en la nube."
+      },
+      {
+        "title": "Implementación y Migración",
+        "description": "Desde BW y Datasphere hasta Business Data Cloud con soporte durante todo el ciclo de vida."
+      },
+      {
+        "title": "Servicios Gestionados y Optimización",
+        "description": "Soporte 24x7, monitoreo de calidad de datos y optimización para rendimiento y costos."
+      }
+    ],
+    "clientsTitle": "Por qué los clientes eligen a Rialtes",
+    "whyClientsData": [
+      "Expertos certificados en implementación SAP",
+      "Socio oficial de SAP y Databricks",
+      "Aceleradores para migración de BW y Datasphere",
+      "Entrega global con soporte 24x7",
+      "Marcos de datos específicos para la industria en Ciencias de la Vida, Retail, Automotriz y más"
+    ],
+    "contactTitle": "Construyamos juntos tu Enterprise Data Cloud",
+    "SubTitle": "Habla con nuestros expertos en SAP Data Cloud hoy y comienza tu viaje con Rialtes."
   },
   "salesforceDataCloud": {
     "headerTitle": "Nube de Datos",

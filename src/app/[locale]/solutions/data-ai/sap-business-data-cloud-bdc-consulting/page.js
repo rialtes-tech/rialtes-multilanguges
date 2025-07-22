@@ -61,105 +61,23 @@ const schemaData = {
     },
   ],
 };
-const Data = [
-  {
-    title: "Business-Ready Data",
-    desc: "Access and connect data from SAP and non-SAP systems while retaining rich business semantics and context.",
-  },
-  {
-    title: "Open Ecosystem Integration",
-    desc: "Integrate with industry leaders like Databricks, BigQuery, and AWS using open standards and APIs.",
-  },
-  {
-    title: "Unified Governance & Security",
-    desc: "Manage data securely across all layers with enterprise-grade governance and lineage.",
-  },
-  {
-    title: "AI & ML Enabled",
-    desc: "Power advanced analytics and AI-driven scenarios using embedded machine learning services.",
-  },
-];
-const exploreData = [
-  {
-    title: "Assessment & Roadmapping",
-    desc: " Analyze your existing SAP BW models and data flows to build a tailored migration strategy",
-  },
-  {
-    title: "Automated Data Replication",
-    desc: " Use SAP-provided migration tools and Rialtes accelerators to transition existing logic and semantics to SAP Business Data Cloud.",
-  },
-  {
-    title: "Preserve Business Logic",
-    desc: "Retain existing business metadata and KPIs for faster time-to-value.",
-  },
-  {
-    title: "Improve Performance & Agility",
-    desc: " Leverage cloud-native capabilities for real-time data consumption and visualization.",
-  },
-];
-const sapDataFabricData = [
-  "Connect live and replicated data across multi-cloud and hybrid landscapes",
-  "Unify semantic definitions across domains and systems",
-  "Ensure trusted data governance and lineage across all business functions",
-  "Accelerate AI, planning, and analytics with clean, context-rich data",
-];
-const migrateData = [
-  {
-    title: "Data Mapping & Reconciliation",
-    description:
-      "We help map your current artifacts and pipelines from SAP Datasphere to SAP Business Data Cloud",
-  },
-  {
-    title: "Business Context Retention",
-    description:
-      "Ensure all metadata, lineage, and context are preserved during the shift",
-  },
-  {
-    title: "Open Extension",
-    description:
-      "Connect to external platforms like Databricks for advanced analytics and ML integration.",
-  },
-  {
-    title: "Future-Proof Architecture",
-    description:
-      "Establish a foundation for scalable AI, reporting, and cross-system data modeling.",
-  },
-];
-const connectSapData = [
-  "Establish bi-directional data pipelines between SAP and Databricks",
-  "Use Delta Lake and MLFlow with SAP semantic models ",
-  "Enable real-time predictive insights using SAP business context ",
-  "Create industry-specific AI models using unified data across platforms",
-];
-const ourSapData = [
-  {
-    title: "Consulting & Advisory",
-    description:
-      "Align your data strategy with business objectives and cloud roadmaps.",
-  },
-  {
-    title: "Implementation & Migration",
-    description:
-      "From BW and Datasphere to Business Data Cloud with full lifecycle support.",
-  },
-  {
-    title: "Managed Services & Optimization",
-    description:
-      "24x7 support, data quality monitoring, and optimization for performance and cost.",
-  },
-];
-const whyClientsData = [
-  "SAP-Certified Implementation Experts ",
-  "Official SAP & Databricks Partner",
-  "Accelerators for BW and Datasphere Migration",
-  "Global Delivery with 24x7 Support",
-  "Industry-Specific Data Frameworks for Life Sciences,Retail, Automotive & More",
-];
+
 export default function Page() {
   const t = useTranslations("sapBdc");
   const locale = useLocale();
   const homepageContent = locale === "es" ? esContent : enContent;
-   const { listItems } = homepageContent.sapBdc;
+  const { listItems } = homepageContent.sapBdc;
+  const {fabricList}=homepageContent.sapBdc;
+  const {dataItems}=homepageContent.sapBdc;
+  const {partnerList}=homepageContent.sapBdc;
+  const {exploreData}=homepageContent.sapBdc;
+  const {migrateData}=homepageContent.sapBdc;
+  const {connectSapData}=homepageContent.sapBdc;
+  const {ourSapData}=homepageContent.sapBdc;
+  const {whyClientsData}=homepageContent.sapBdc;
+
+
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -215,7 +133,7 @@ export default function Page() {
            {t('unifyTitle')}
           </h2>
           <p className=" xl:w-[67%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight ">
-                      {t('unifyDesc')}
+           {t('unifyDesc')}
 
           </p>
           <div className="flex xl:gap-32 gap-10 flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%]">
@@ -228,10 +146,7 @@ export default function Page() {
             </div>
             <div className="lg:w-1/2">
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                Whether you’re optimizing profitability, driving operational
-                efficiency, or delivering personalized customer experiences, SAP
-                Business Data Cloud, implemented by Rialtes, gives you a unified
-                and contextualized view of your enterprise landscape.
+                {t('listDesc')}
               </p>
             </div>
           </div>
@@ -260,20 +175,12 @@ export default function Page() {
             </div>
             <div className="lg:col-span-5 2xl:pl-8 xl:pl-8 sm:pl-6">
               <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 4xl:w-[84%] 2xl:w-[66%] ">
-                A Unified, Open Data Foundation for Intelligent Enterprises
-              </h2>
+                {t('dataTitle')}</h2>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                SAP Business Data Cloud enhances enterprise data management by
-                combining SAP’s data platform capabilities with native
-                integration for SAP applications and compatibility with
-                third-party platforms like Databricks, Google BigQuery, and
-                Snowflake. It enables the unification of business context and
-                data for real-time insights and AI-driven decisions.
+                {t('dataSubtitleOne')}
               </p>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px]  mt-4 lg:pr-[56px] leading-tight">
-                As a SAP Authorized Partner and a Databricks Strategic Partner,
-                Rialtes empowers organizations to seamlessly adopt SAP Business
-                Data Cloud and unlock the full value of their enterprise data.
+               {t('dataSubtitleTwo')}
               </p>
               <div className="xl:mt-[59px] mt-[22px]">
                 <LearnMore />
@@ -308,22 +215,17 @@ export default function Page() {
           </div>
           <div className="xl:col-span-6 bg-[#006FBE] p-8 xl:p-[75px] px-10 text-white order-2 xl:order-1 relative">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-              SAP Data Fabric
+            {t('fabricTitle')}
             </h2>
             <h3 className="4xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
-              Powered by SAP Business Data Cloud
-            </h3>
+            {t('fabricSubtitle')}</h3>
             <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-              The SAP Data Fabric acts as a smart, connected data layer across
-              your organization. It provides a consistent foundation for
-              accessing, modeling, and governing enterprise data with business
-              context intact.
+             {t('fabricDesc')}
             </p>
             <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-              With SAP Data Fabric, you can:
-            </p>
+            {t('fabricPara')}</p>
             <UnorderedList
-              arrName={sapDataFabricData}
+              arrName={fabricList}
               ulClassName="list-disc space-y-4 p-4 text-[#FFFFFF] font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"
               liClassName=""
             />
@@ -359,20 +261,19 @@ export default function Page() {
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
             <div className="text-left lg:w-[40%] flex pt-[59px] flex-col">
               <h2 className="leading-tight xl:w-[78%] 2xl:w-[75%] 4xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">
-                Why Choose SAP Business Data Cloud?
-              </h2>
+              {t('sapTitle')}</h2>
               <div className="lg:mt-[80px]">
                 <Link
                   href="/contact-us"
                   className=" bg-[#006FBE] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 absolute  max-lg:bottom-[-20px]"
                 >
-                  Learn More
+                  {t('learnMore')}
                 </Link>
               </div>
             </div>
             <div className="lg:w-[60%] mt-6  lg:relative bottom-0 lg:bottom-[-50px] max-md:pb-10 max-lg:mb-10">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-9 z-90">
-                {Data.map((item, index) => (
+               {dataItems.map((item, index) => (
                   <div
                     key={index}
                     className=" bg-white border border-[#707070] p-8 xl:py-[3.5rem] text-black"
@@ -411,22 +312,13 @@ export default function Page() {
           </div>
           <div className="order-2 lg:order-1 lg:col-span-7">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] lg:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
-              Rialtes: Your Trusted SAP & Databricks Partner
-            </h2>
+             {t('partnerTitle')}</h2>
             <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] lg:mt-[33px] lg:pr-20">
-              Rialtes specializes in data cloud architecture, implementation,
-              and governance with a team of SAP-certified engineers. We
-              integrate process intelligence, data engineering, and cloud
-              development to deliver measurable value from your enterprise data.
-              Our certified teams assist you in:
+             {t('partnerDesc')}
             </p>
             <div>
               <UnorderedList
-                arrName={[
-                  "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
-                  " Workforce and Payroll Intelligence from SAP SuccessFactors",
-                  "Sales, Service, and Marketing Insights from Salesforce or SAP CX",
-                ]}
+                arrName={partnerList}
                 ulClassName="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:pr-20 leading-tight space-y-3"
                 liClassName=""
               />
@@ -440,12 +332,10 @@ export default function Page() {
         {/* Seamless Migration from SAP section */}
         <section className="custom-container  px-[2rem]">
           <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-            Seamless Migration from SAP Business Warehouse to SAP Business Data
-            Cloud
+           {t('migrationTitle')}
           </h2>
           <p className=" xl:w-[75%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-            Modernize your analytics and accelerate cloud transformation:
-          </p>
+             {t('migrationPara')}</p>
           <div className="grid grid-cols-1 lg:grid-cols-4 lg:mt-[53px] mt-[36px]">
             {exploreData.map((data, ind) => {
               const isFirstThree = ind === 0 || ind === 1 || ind === 2;
@@ -479,12 +369,10 @@ export default function Page() {
                 <div className="custom-container max-md:px-0 2xl:pr-0">
                   <div className="xl:w-[82%] lg:w-[80%] 2xl:w-[62%] ">
                     <h2 className=" leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
-                      Migrate from SAP Datasphere to SAP Business Data Cloud
+                      {t('migrateTitle')}
                     </h2>
                     <p className="mt-5  text-[#FFFFFF] font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] ">
-                      SAP Business Data Cloud brings the next-generation
-                      capabilities of Datasphere under a unified data
-                      architecture. Rialtes makes this transition frictionless:
+                    {t('migrateDesc')}
                     </p>
                     <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4 leading-tight">
                       {migrateData.map((step, index) => (
@@ -562,11 +450,9 @@ export default function Page() {
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 h-full px-4 py-10 text-white max-md:pb-[22rem] ">
               <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%] xl:w-[75%]  ">
                 <h2 className="leading-tight pb-6 text-black  4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
-                  Connect SAP Business Data Cloud with Databricks
-                </h2>
+               {t('databricksTitle')}</h2>
                 <p className="mt-4 text-black  font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                  As a certified Databricks consulting partner, Rialtes helps
-                  you:
+                  {t('databricksDesc')}
                 </p>
                 <UnorderedList
                   arrName={connectSapData}
@@ -616,7 +502,7 @@ export default function Page() {
                   >
                     <div style={{ opacity: 1, color: "#FFFFFF" }}>
                       <h2 className="mb-4 leading-tight  4xl:text-[56px] xl:text-[40px] md:text-[26px]">
-                        Our SAP Business Data Cloud Services
+                     {t("dataCloud")}
                       </h2>
                       <ul className="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4">
                         {ourSapData.map((item, index) => (
@@ -652,8 +538,7 @@ export default function Page() {
                 <div className="custom-container xl:pl-[70px] max-lg:pt-[160px] max-md:px-0">
                   <div className="4xl:w-[75%] xl:w-[66%] lg:w-[80%]">
                     <h2 className="leading-tight xl:w-[90%] 2xl:w-[80%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
-                      Why Clients Choose Rialtes
-                    </h2>
+                      {t('clientsTitle')}</h2>
                     <UnorderedList
                       arrName={whyClientsData}
                       ulClassName="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight space-y-4"
@@ -684,9 +569,8 @@ export default function Page() {
       <div className="mx-[35px] custom-container text-black py-16">
         <ContactForm
           className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
-          title="Let’s Build Your Enterprise Data Cloud Together"
-          subtitle="
-            Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."
+          title={t('contactTitle')}
+          subtitle={t('SubTitle')}
         />
       </div>
     </div>
