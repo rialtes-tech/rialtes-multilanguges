@@ -236,6 +236,7 @@ const Home = () => {
                                             sizes="100vw"
                                             priority
                                             quality={60}
+                                            fetchPriority='high'
                                         />
 
                                         <div
@@ -261,6 +262,7 @@ const Home = () => {
                                                 sizes="100vw"
                                                 priority
                                                 quality={60}
+                                                fetchPriority='high'
                                             />
                                             <div
                                                 ref={refs[6]}
@@ -307,6 +309,7 @@ const Home = () => {
                         alt='Success Stories'
                         className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
                         src='/images/homepage/AdobeStock_406847557.svg'
+                        fetchPriority='high'
                     />
                     <div
                         ref={refs[7]}
@@ -364,6 +367,7 @@ const Home = () => {
                                                     sizes="100vw"
                                                     priority
                                                     quality={60}
+                                                    fetchPriority='high'
                                                 />
 
                                             </div>
@@ -427,19 +431,27 @@ const Home = () => {
                     </div>
                     <div className="h-full">
                         <div className="xl:block hidden h-full">
-                            <img
+                            <Image
                                 src={carouselData[activeIndexInsights].image}
                                 alt={carouselData[activeIndexInsights].title}
                                 className="w-full h-full object-cover"
+                                priority
+                                fetchPriority='high'
+                                 width={500}
+                                height={500}
                             />
                         </div>
 
                         <div className="xl:hidden block">
-                            <img
+                            <Image
                                 src={carouselData[activeIndexInsights].image}
                                 alt={carouselData[activeIndexInsights].title}
                                 className="w-full md:h-[900px] sm:h-[500px] h-[435px] object-cover"
                                 style={{ objectPosition: "35% 20%" }}
+                                priority
+                                fetchPriority='high'
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
@@ -536,6 +548,7 @@ const Home = () => {
                         height={0}
                         sizes="100vw"
                         loading="lazy"
+                        fetchPriority='high'
                     />
                 </div>
             </section>
