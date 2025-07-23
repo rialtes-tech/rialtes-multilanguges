@@ -461,9 +461,258 @@
             "title": "Healthcare and life sciences",
             "description": "Engage with patients, providers, and payers to act across multiple channels."
         }
-    ]
-       
-
-
+    ],
+    "sapConsulting": {
+        "headerTitle": "SAP Consulting",
+        "headerSubTitle1": "Leaning towards",
+        "headerSubTitle2": "a better tomorrow.",
+        "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
+        "solutionSuccess": [
+            {
+                "id": 1,
+                "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
+                "title": "RISE with SAP",
+                "description": "RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system.",
+                "productsDetails": [
+                    "SAP S/4HANA Migration",
+                    "Robotic Process Automation",
+                    "Conversational Chatbot",
+                    "Customized Application"
+                ],
+                "knowMore": "/services/business-transformation/rise-with-sap-services"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/images/sap-consulting/thumb 1.webp",
+                "title": "GROW with SAP",
+                "description": "Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably",
+                "productsDetails": [
+                    "Accelerate Your Digital Transformation",
+                    "Flexible and Scalable ERP Solutions",
+                    "Increase in operational efficiency",
+                    "Integrated AI and automation",
+                    "Flexible Pricing Options"
+                ],
+                "knowMore": "/services/business-transformation/grow-with-sap-services"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
+                "title": "SuccessFactors",
+                "description": "SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.",
+                "productsDetails": [
+                    "Employee Central & Employee Central Payroll",
+                    "Talent Acquisition",
+                    "SAP HR Analytics and Workforce Planning",
+                    "SAP Learning Management"
+                ],
+                "knowMore": "/services/hxm-transformation/successplus-successfactors-implementation-partner"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
+                "title": "SAP Ariba",
+                "description": "Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management",
+                "productsDetails": [
+                    "Procurement and supply chain metrics",
+                    "Improved accuracy of operational task",
+                    "Effective compliance management",
+                    "Automation of time-consuming processes",
+                    "Increased visibility of tail-end spend"
+                ],
+                "knowMore": "/services/spend-management/sapbuyplus-ariba-implementation-partner"
+            }
+        ],
+        "pageDescTitle": "Leverage SAP Consulting Services for Reliable Business Operations",
+        "pageDesc": "What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.",
+        "ourSolutionTitle": "Our Solutions to Success",
+        "sapInustryTitle": "SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations",
+        "riseWithSapTitle": "RISE with SAP",
+        "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
+        "contactTitle": "Take the next step to operational excellence with us."
+    },
+    "oracle": {
+        "data": [
+            {
+                "img": "/images/oracle-ebs/20 yrs ERP.svg",
+                "text": "20+ years of ERP expertise with Fortune 500 clients."
+            },
+            {
+                "img": "/images/oracle-ebs/oracle certify.svg",
+                "text": "Certified Oracle and Kinaxis partner with real industry insights."
+            },
+            {
+                "img": "/images/oracle-ebs/global delivery.svg",
+                "text": "Global delivery with localized expertise in India, US, Canada, and Singapore."
+            },
+            {
+                "img": "/images/oracle-ebs/transformation.svg",
+                "text": "Proven track record of end-to-end Oracle EBS transformations."
+            },
+            {
+                "img": "/images/oracle-ebs/AI approach.svg",
+                "text": "AI and Data-first approach for future-ready operations."
+            }
+        ],
+        "InventoryData": [
+            {
+                "title": "Inventory Optimization:",
+                "points": [
+                    "Demand-driven inventory strategies to avoid overstocking and stock-outs.",
+                    "Lot, batch, and serialized inventory tracking for regulated industries.",
+                    "Integrated warehouse management for real-time inventory visibility."
+                ]
+            },
+            {
+                "title": "Enterprise Scheduling:",
+                "points": [
+                    "Advanced production scheduling integrated with Oracle EBS Manufacturing.",
+                    "Capacity constraint management and lead time optimization.",
+                    "Scenario-based scheduling for predictive production planning."
+                ]
+            },
+            {
+                "title": "Real-World Outcomes:",
+                "points": [
+                    "Reduced carrying costs and working capital optimization.",
+                    "Enhanced customer satisfaction through timely fulfillment.",
+                    "Improved production efficiency and throughput."
+                ]
+            }
+        ],
+        "oracleFeatures": [
+            {
+                "text": "Leverage autonomous database, AI/ML integrations, and serverless architecture."
+            },
+            {
+                "text": "Enable secure and compliant environments for regulated industries."
+            },
+            {
+                "text": "Optimize compute, storage, and networking for global ERP operations."
+            },
+            {
+                "text": "Integrate Oracle EBS with OCI-native solutions for enhanced scalability and performance."
+            }
+        ],
+        "ebsListItems": [
+            {
+                "bold": "Bringing AI to Oracle EBS",
+                "text": "for predictive analytics and intelligent automation."
+            },
+            {
+                "bold": "Integrating Kinaxis RapidResponse®",
+                "text": "for agile supply chain responsiveness."
+            },
+            {
+                "bold": "",
+                "text": "Cloud-driven cost optimization and performance enhancement.",
+                "fullBold": true
+            },
+            {
+                "bold": "End-to-end ownership,",
+                "text": "of the entire Oracle EBS lifecycle — ",
+                "secondBold": "advisory to support"
+            }
+        ],
+        "keyCapabilitiesData": [
+            "Integrated demand, supply, and capacity planning powered by Oracle ASCP and Kinaxis.",
+            "Scenario modeling and what-if analysis for proactive risk management.",
+            "Supplier collaboration and visibility with Kinaxis-integrated portals.",
+            "End-to-end tracking from order to fulfillment with actionable insights."
+        ],
+        "businessBenefitsData": [
+            "Improved forecast accuracy and reduced stock-outs.",
+            "Shorter planning cycles and faster response to disruptions.",
+            "Optimized inventory and working capital.",
+            "Stronger supplier relationships and compliance."
+        ],
+        "howWeTransformData": [
+            "End-to-end integration of Oracle EBS and Kinaxis for unified planning.",
+            "Real-time collaboration between sales, operations, finance, and supply chain teams.",
+            "Forecasting, demand shaping, and inventory balancing — on a single platform.",
+            "AI-based analytics to drive actionable insights and improve consensus planning."
+        ],
+        "outcomeData": [
+            "Alignment of demand and supply with corporate goals.",
+            "Agility to respond to customer demands and market shifts.",
+            "Reduced operational costs and improved service levels."
+        ],
+        "endToEndData": [
+            "What-if simulations for supply chain disruptions.",
+            "Financial impact analysis of operational decisions.",
+            "Collaborative scenario planning across stakeholders.",
+            "Risk mitigation strategies through proactive modeling."
+        ],
+        "realWorldData": [
+            "Predictive supply chain and demand forecasting.",
+            "AI-powered customer service and order management.",
+            "Machine learning algorithms for predictive maintenance.",
+            "AI-based risk scoring for supplier and compliance risks."
+        ],
+        "aiDrivenData": [
+            "Faster decision-making with real-time data.",
+            "Reduced operational risks and disruptions.",
+            "Higher accuracy in forecasts and financial projections.",
+            "Improved customer experiences and faster issue resolution."
+        ],
+        "headerTitle": "Oracle EBS Services",
+        "headerSubtitle": "Modernizing Your Enterprise, End-to-End",
+        "pageDescTitle": "Empower your enterprise with Rialtes’ cutting-edge Oracle EBS solutions, backed by deep industry knowledge, certified expertise, and end-to-end ownership — from advisory to post-go-live success.",
+        "pageDesc": "As a certified Oracle and Kinaxis partner, Rialtes offers a powerful combination of Oracle E-Business Suite (EBS) and Kinaxis RapidResponse® services through our flagship 'EBSPlus' offering. With global offices across India, United States, Canada, and Singapore, Rialtes is uniquely positioned to drive global Oracle EBS transformations for enterprises in manufacturing, retail, healthcare, semiconductor, and beyond.",
+        "ebsTitle": "EBSPlus",
+        "ebsSubTitle": " Your Comprehensive Oracle EBS & Kinaxis Transformation Framework",
+        "ebsDesc": " Rialtes’ EBSPlus is designed to simplify, modernize, and optimize your Oracle EBS journey, delivering seamless business and supply chain operations integrated with Kinaxis for real-time planning and execution.",
+        "whatEbsTitle": "What EBSPlus Brings to You:",
+        "ebsData": [
+            {
+                "title": "License & Advisory Services",
+                "description": "Right-size your Oracle EBS and Kinaxis licenses with optimal cost management."
+            },
+            {
+                "title": "End-to-End Implementation & Design",
+                "description": "Industry-best practices, customized workflows, and agile project delivery."
+            },
+            {
+                "title": "Quality Assurance & Testing",
+                "description": "Business-aligned testing to ensure zero-disruption go-lives."
+            },
+            {
+                "title": "Integration & Data Strategy",
+                "description": "Connect Oracle EBS, Kinaxis, and external platforms for seamless business visibility."
+            },
+            {
+                "title": "Post Go-Live Support & Optimization",
+                "description": "Continuous improvement and managed services for ongoing success."
+            }
+        ],
+        "deepExpertiesTitle": "Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)",
+        "deepExpertiesDesc": "With highly certified Oracle EBS and OCI experts, Rialtes ensures that your critical workloads and ERP operations are secure, scalable, and cloud-ready. Our deep understanding of Oracle Cloud Infrastructure (OCI) enables clients to:",
+        "thoughtTitle": "Thought Leadership: Why Rialtes?",
+        "thoughtDesc": "Rialtes is not just a technology partner — we are business transformation leaders. Our industry-driven accelerators, AI-infused solutions, and agile methodologies ensure that clients experience real, measurable value from their Oracle EBS investments.",
+        "thoughtPillarsTitle": " Our Thought Leadership Pillars:",
+        "supplyChainTitle": "Supply Chain Planning",
+        "supplyChainSubTitle": "Future-Proofing with Oracle EBS & Kinaxis",
+        "supplyChainDesc": "In today’s volatile markets, supply chain agility is non-negotiable. Rialtes helps enterprises optimize and future-proof their supply chains using Oracle EBS Supply Chain modules enhanced with Kinaxis RapidResponse® for real-time S&OP (Sales & Operations Planning).",
+        "keyTitle": "Key Capabilities:",
+        "businessTitle": "Business Benefits:",
+        "salesTitle": "Sales and Operations Planning",
+        "salesSubTitle": "Smarter, Faster, Integrated",
+        "salesDesc": "With Rialtes, Sales and Operations Planning (S&OP) becomes a dynamic, collaborative process that adapts to market changes in real-time.",
+        "howWeTitle": "How We Transform S&OP:",
+        "outcomeTitle": "The Outcome:",
+        "inventoryTitle": "Inventory Optimization & Enterprise Scheduling",
+        "inventorySubTitle": "Precision Planning with Oracle EBS",
+        "inventoryDesc": "Optimizing inventory and managing complex production schedules are critical for businesses with global operations and dynamic supply chains. Rialtes leverages Oracle EBS Inventory and Advanced Supply Chain Planning (ASCP) to enable precision-driven inventory management and scheduling.",
+        "endToEndTitle": "End-to-End Scenario Planning",
+        "endToEndSubTitle": "Make Every Business Decision Count",
+        "endToEndDesc": "Rialtes enables enterprises to model, simulate, and evaluate multiple business scenarios using Oracle EBS integrated with Kinaxis, ensuring that every business decision is backed by data and foresight.",
+        "aiDrivenTitle": "AI & Data-Driven",
+        "aiDrivenTitle2": "Transformation for Oracle EBS",
+        "aiDrivenDesc": "AI is redefining how enterprises leverage Oracle EBS for competitive advantage. Rialtes brings AI-driven insights directly into your Oracle EBS workflows:",
+        "realWorldTitle": "Real-World AI Applications in Oracle EBS:",
+        "benefitsTitle": "Benefits of AI-Driven Oracle EBS:",
+        "whyRialtesTitle": "Why Rialtes -",
+        "whyRialtesSubTitle": "Oracle EBS Partner of Choice",
+        "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
     }
 }

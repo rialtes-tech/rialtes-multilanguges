@@ -2,14 +2,16 @@
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import { useRef } from 'react';
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../messages/en/homepage.json';
+import esContent from '../../../../messages/es/homepage.json';
 export default function servicesInsightsCarousel() {
+  const t = useTranslations('useCarouselComponent')
+  const locale = useLocale();
+  const homepageContent = locale === 'es' ? esContent : enContent;
+  const { slides } = homepageContent.useCarouselComponent;
   const carouselRef = useRef(null);
-  const slides = [
-    { id: 1, category: "Healthcare", description: "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities" },
-    { id: 2, category: "Real Estate", description: "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions." },
-    { id: 3, category: "Manufacturing", description: "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer manufacturing Software to help you keep your production lines running smoothly." },
-    { id: 4, category: "Hi-tech", description: "Our consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms." },
-    ];
+
   // Adjust the responsive settings for showing 4 items on the first slide, 2 on the second
   const responsive = {
     desktop: {
@@ -36,7 +38,7 @@ export default function servicesInsightsCarousel() {
           className="bg-white p-2 mr-2 group transition-all duration-300"
           onClick={() => previous()}
           aria-label="Previous slide">
-           <span className="sr-only">Previous slide</span>
+          <span className="sr-only">Previous slide</span>
           <svg
             width="24px"
             height="24px"
@@ -51,14 +53,14 @@ export default function servicesInsightsCarousel() {
             <path
               d="M3 7.5L11 0V15L3 7.5Z"
               fill="none"
-              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"/>
+              className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
         <button
           className="bg-white p-2 group transition-all duration-300"
           onClick={() => next()}
           aria-label="Next slide">
-           <span className="sr-only">Next slide</span>
+          <span className="sr-only">Next slide</span>
           <svg
             width="24px"
             height="24px"
@@ -87,22 +89,22 @@ export default function servicesInsightsCarousel() {
       carouselState: { currentSlide, deviceType }
     } = rest;
     return (
-       <li>
+      <li>
         <span
-         role="button"
+          role="button"
           className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
           onClick={() => onClick()}
           aria-label="Custom Dots"
 
         />
-        </li>
+      </li>
     );
   };
 
   return (
     <section className="relative pb-8 bg-white">
       <div className='grid  grid-cols-12  mb-[55px]'>
-        <p className="w-full md:col-span-7 2xl:col-span-6 col-span-12 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.</p>
+        <p className="w-full md:col-span-7 2xl:col-span-6 col-span-12 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('title')}</p>
 
         <div className='md:col-span-4 flex justify-end col-span-12 max-md:mt-6'>
           <ButtonGroup

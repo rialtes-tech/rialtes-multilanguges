@@ -170,7 +170,59 @@
         "PrivacyNotice": "Aviso de privacidad",
         "copyright": "©2025 Rialtes, Todos los derechos reservados"
     },
-    "common": {
+    "learnMorePage": {
         "learnmore": "Aprende más"
+    },
+    "useCarouselComponent": {
+        "title": "El éxito de tu negocio está influenciado por tu gente. Transforma tu empresa con un sistema cuantificable y enfocado en los procesos.",
+        "slides": [
+            {
+                "id": 1,
+                "category": "Salud",
+                "description": "Entendemos la dinámica de la industria de la salud. Nuestros servicios de MedTech garantizan el funcionamiento fluido de los sistemas técnicos y mecánicos dentro de las instalaciones de salud."
+            },
+            {
+                "id": 2,
+                "category": "Bienes Raíces",
+                "description": "Mejora tus operaciones empresariales y la gestión inmobiliaria con tecnologías digitales de vanguardia e integraciones preconfiguradas a través de nuestras soluciones personalizadas de Gestión Inmobiliaria SAP."
+            },
+            {
+                "id": 3,
+                "category": "Manufactura",
+                "description": "Optimiza las relaciones con los clientes, los procesos de ventas y la gestión de la cadena de suministro en las empresas manufactureras. Ofrecemos software de manufactura para ayudarte a mantener tus líneas de producción en funcionamiento sin problemas."
+            },
+            {
+                "id": 4,
+                "category": "Alta Tecnología",
+                "description": "Nuestros servicios de consultoría cubren toda la gama de tecnologías y metodologías necesarias para crear, integrar y mantener ecosistemas de productos Salesforce en todas las plataformas."
+            }
+        ]
+    },
+    "featuredCarousel": {
+        "slides": [
+            {
+                "id": 1,
+                "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
+                "title": "DevOps optimizado con Copado y Salesforce",
+                "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
+            },
+            {
+                "id": 2,
+                "url": "/insights/case-studies/realForce-banking-module-ach",
+                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+                "title": "Módulo Bancario RealForce - ACH",
+                "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares."
+            },
+            {
+                "id": 3,
+                "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+                "title": "Automatización del procesamiento de pedidos con Mulesoft para Salesforce Health Cloud y SAP",
+                "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
+            }
+        ],
+        "getInspiredTitle": "Inspírate con nuestras últimas historias de éxito de clientes, perspectivas del sector y más",
+        "knowMoreTitle": "Saber más"
     }
 }

@@ -1,0 +1,191 @@
+{
+    "sapBuyPlus": {
+        "headerTitle": "SAPBuy+",
+        "headerSubTitle": "Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA",
+        "pageDesc": "At Rialtes, we help organizations redefine procurement efficiency with SAP ARIBA, the industry’s leading cloud-based solution for strategic sourcing, contract management, supplier collaboration, and procure-to-pay automation. With SAP ARIBA, businesses can streamline procurement operations, reduce costs, ensure compliance, and drive supplier engagement on a global scale.",
+        "pageDesc2": "As a certified SAP partner with a global presence in the United States, Canada, India, and Singapore, Rialtes delivers comprehensive SAP ARIBA solutions, covering advisory, implementation, integration, and continuous optimization. Our SAPBuy+ service suite ensures that enterprises achieve end-to-end procurement transformation while maximizing ROI on SAP investments.",
+        "contactTitle": "Ready to Elevate Your Procurement with SAP ARIBA?",
+        "contactSubTitle": "With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.",
+        "contactSubTitle2": "Talk to our experts today and unlock procurement transformation!",
+        "whyChooseData": [
+            {
+                "title": "SAP ARIBA License Advisory",
+                "desc": "Guidance on selecting the right ARIBA modules based on procurement needs."
+            },
+            {
+                "title": "Implementation & Design",
+                "desc": "Process-driven design using SAP Signavio and SAP Activate methodology."
+            },
+            {
+                "title": "Quality Assurance & Governance",
+                "desc": "Best-in-class testing, compliance validation, and process optimization."
+            },
+            {
+                "title": "System Integration",
+                "desc": "Connecting ARIBA seamlessly with SAP S/4HANA, SAP SuccessFactors, and other third-party applications via SAP CPI."
+            },
+            {
+                "title": "Post Go-Live Support",
+                "desc": "Continuous monitoring, supplier onboarding, data optimization, and user training."
+            }
+        ],
+        "whyChooseRialtesTitle": "Why Choose Rialtes for SAP ARIBA Implementation?",
+        "whyChooseRialtesSubTitle": "SAPBuy+ — A Comprehensive Procurement Transformation Approach",
+        "whyChooseRialtesDesc": "Our SAPBuy+ service suite integrates strategy, execution, and support, ensuring a seamless SAP ARIBA adoption for enterprises.",
+        "benefitsData": [
+            {
+                "title": "Streamlined Procurement –",
+                "desc": "Automate the entire procure-to-pay (P2P) process, eliminating inefficiencies."
+            },
+            {
+                "title": "Supplier Collaboration –",
+                "desc": "Connect with millions of suppliers globally through the ARIBA Business Network."
+            },
+            {
+                "title": "Cost Optimization –",
+                "desc": "Gain full visibility into procurement spend, negotiate better contracts, and reduce maverick spending."
+            },
+            {
+                "title": "Compliance & Risk Reduction –",
+                "desc": "Ensure regulatory compliance, contract alignment, and supplier due diligence."
+            },
+            {
+                "title": "Cloud-First Procurement –",
+                "desc": "Eliminate IT maintenance efforts with SAP ARIBA’s SaaS-based architecture."
+            }
+        ],
+        "migrationData": [
+            {
+                "title": "Data Migration & Transformation –",
+                "desc": "Secure and structured migration of supplier, contract, and transaction data."
+            },
+            {
+                "title": "Process Standardization –",
+                "desc": "Optimizing procurement workflows for SAP ARIBA best practices."
+            },
+            {
+                "title": "Supplier Enablement –",
+                "desc": "Onboarding and training suppliers to use ARIBA effectively."
+            },
+            {
+                "title": "Change Management & Training –",
+                "desc": "Ensuring successful adoption across procurement teams."
+            }
+        ],
+        "unlockTitle": "Unlock Procurement Efficiency with SAP ARIBA Implementation & Migration Services",
+        "unlockDesc": " Organizations looking to modernize their procurement systems or migrate from legacy solutions can seamlessly transition to SAP ARIBA with Rialtes’ expert guidance.",
+        "benefitsTitle": "Benefits of Implementing SAP ARIBA",
+        "sapMigrateTitle": "SAP ARIBA Migration Services",
+        "sapMigrateDesc": "For businesses already using SAP SRM, SAP ECC, or other legacy procurement systems, Rialtes offers end-to-end migration services, including:",
+        "sapAribaIndirectData": [
+            "Standardized approval workflows to ensure compliance.",
+            "AI-driven spending analysis to identify savings opportunities.",
+            "Real-time supplier collaboration to manage invoices, payments, and SLAs."
+        ],
+        "sapAribaDirectData": [
+            "Real-time visibility into supply chain requirements.",
+            "Automated purchase order (PO) generation linked to production schedules.",
+            "Supplier collaboration tools to minimize disruptions and optimize delivery schedules."
+        ],
+        "sapAribaModuleTitle": "SAP ARIBA Modules & Rialtes Implementation Expertise",
+        "sapAribaModuleSubTitle": "SAP ARIBA for Direct Procurement – Integrated with SAP S/4HANA",
+        "sapAribaModuleDesc": "Direct procurement involves raw materials, components, and production-related items. SAP ARIBA, integrated with SAP S/4HANA, ensures:",
+        "sapAribaModuleSubTitle2": " SAP ARIBA for Indirect Procurement – Smarter, Policy-Driven Buying",
+        "sapAribaModuleDesc2": "Indirect procurement covers office supplies, professional services, IT resources, and facility management. With SAP ARIBA’s automated sourcing and contract management, businesses achieve:",
+        "sapAribaData": [
+            "Seamless Supplier Discovery – Connect with millions of verified suppliers globally.",
+            "RFQ & Tendering Automation – Enable real-time negotiations with transparent pricing.",
+            "Order & Invoice Digitization – Reduce manual effort and errors in transaction processing.",
+            "End-to-End Supply Chain Visibility – Gain actionable insights into order tracking, shipment status, and risk mitigation."
+        ],
+        "aribaBusinessTitle": "SAP ARIBA Business Network",
+        "aribaBusinessSubTitle": "Global Supplier Collaboration",
+        "aribaBusinessDesc": "SAP ARIBA Business Network is the world’s largest digital marketplace for suppliers and buyers, facilitating:",
+        "supplierAribaDirectData": [
+            "Supplier onboarding automation with compliance validation.",
+            "Continuous supplier performance tracking with real-time dashboards.",
+            "Risk scoring & fraud detection based on AI-driven analytics.",
+            "Ongoing supplier relationship management to optimize procurement efficiency."
+        ],
+        "supplierTitle": "Supplier Profile & Risk Management",
+        "supplierDesc": "A robust supplier management framework is critical for mitigating risks. Rialtes enables:",
+        "contractData": [
+            "Automated contract creation using predefined templates.",
+            "Collaboration tools for legal and procurement teams to streamline approvals.",
+            "Digital signature support for quick and secure contract execution.",
+            "Built-in compliance tracking to monitor contract obligations and renewals."
+        ],
+        "aribaContractTitle": "ARIBA Contract Management",
+        "aribaContractSubTitle": "Centralized & Compliant",
+        "aribaContractDesc": "SAP ARIBA simplifies contract lifecycle management with:",
+        "exploreData": [
+            {
+                "title": "SAP SuccessFactors",
+                "desc": "Align procurement strategies with workforce planning.",
+                "link": "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
+            },
+            {
+                "title": "SAP S/4HANA",
+                "desc": "A real-time ERP foundation for procurement, finance, and supply chain management.",
+                "link": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+            },
+            {
+                "title": "SAP for Direct & Indirect Procurement",
+                "desc": "Drive procurement transformation across sourcing categories.",
+                "link": "/contact-us"
+            }
+        ],
+        "exploreTitle": "Explore Related SAP Services",
+        "knowMoreBtn": "Know More",
+        "seamlessData": [
+            {
+                "title": "SAP ARIBA needs to work seamlessly within an enterprise’s broader IT landscape. Rialtes leverages SAP Cloud Platform Integration (CPI) to connect ARIBA with:",
+                "list": [
+                    "SAP S/4HANA for procurement and finance automation.",
+                    "SAP SuccessFactors to align procurement with HR policies (contractor hiring, travel expenses).",
+                    "Non-SAP Applications such as ERP, CRM, or third-party logistics systems."
+                ]
+            },
+            {
+                "title": "Additionally, Rialtes brings deep expertise in SAP Business Technology Platform (BTP), enabling:",
+                "list": [
+                    "Custom ARIBA extensions for industry-specific procurement needs.",
+                    "Workflow automation & AI-driven procurement insights.",
+                    "Embedded analytics for procurement performance tracking."
+                ]
+            }
+        ],
+        "seamlessTitle": "Seamless Integrations Powered by SAP CPI & Rialtes BTP Competency",
+        "buyingData": [
+            "Catalog-based purchasing with predefined pricing and vendor terms.",
+            "Purchase order (PO) & invoice reconciliation to eliminate mismatches.",
+            "Automated tax & compliance validation to prevent fraud and regulatory risks.",
+            "AI-powered spend analytics to optimize procurement budgets."
+        ],
+        "buyingTitle": "Buying & Invoicing (Procure-to-Pay)",
+        "buyingSubTitle": "Complete Automation",
+        "buyingDesc": "SAP ARIBA Buying & Invoicing module automates the full procure-to-pay cycle, offering:",
+        "agentData": [
+            {
+                "title": "Instant Supplier Communication –",
+                "desc": "Automate RFQs, POs, and invoice tracking via WhatsApp."
+            },
+            {
+                "title": "Real-Time Procurement Approvals –",
+                "desc": "Enable procurement managers to approve POs via mobile."
+            },
+            {
+                "title": "Multi-Role & Security Model –",
+                "desc": "Configure access based on procurement roles."
+            },
+            {
+                "title": "Quick Setup & Integration –",
+                "desc": "Deploy within minutes across SAP & Salesforce ecosystems."
+            }
+        ],
+        "agentChatTitle": "Introducing AgentChat",
+        "agentChatSubTitle": "AI-Powered Supplier Engagement",
+        "agentChatDesc": "Rialtes RialChat is a bi-directional WhatsApp conversational app, designed for seamless procurement collaboration.",
+        "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
+    }
+}
