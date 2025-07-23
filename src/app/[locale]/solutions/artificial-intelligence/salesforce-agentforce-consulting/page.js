@@ -6,7 +6,10 @@ import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-;
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/solutions.json';
+import esContent from '../../../../../../messages/es/solutions.json';
+
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -92,51 +95,19 @@ const schemaData = {
     }
 }
 export default function Agentforce() {
-    const salesForce = [
-        {
-            id: 1,
-            imageUrl: '/images/salesforce-consulting-services/achive1.svg',
-            title: 'Autonomous operation within customized guardrails',
-        },
-        {
-            id: 2,
-            imageUrl: '/images/salesforce-consulting-services/achive2.svg',
-            title: 'Real-time data adaptation',
-        },
-        {
-            id: 3,
-            imageUrl: '/images/salesforce-consulting-services/achive3.svg',
-            title: 'Seamless integration with employees',
-        },
-        {
-            id: 4,
-            imageUrl: '/images/salesforce-consulting-services/achive4.svg',
-            title: 'Low-code tools for customization and deployment',
-        }
+      const t = useTranslations("agentForce");
+      const locale = useLocale();
+      const homepageContent = locale === "es" ? esContent : enContent;
+    
+     const { salesForce } = homepageContent.agentForce;
+     const { salesForce2 } = homepageContent.agentForce;
+     const { agentBlocks } = homepageContent.agentForce;
 
-    ]
-    const salesForce2 = [
-        {
-            id: 1,
-            title: 'Agentforce Data Cloud',
-            description: 'Unify and harmonize customer data across systems in real time.'
-        },
-        {
-            id: 2,
-            title: 'Agent Builder',
-            description: 'Low-code builder for Agentforce, which includes Prompt Builder and Model Builder.'
-        },
-        {
-            id: 3,
-            title: 'Atlas Reasoning Engine',
-            description: 'The brain of Agentforce agents automates agents’ actions to respond naturally and adapt to situations.'
-        },
-        {
-            id: 4,
-            title: 'Partner Network',
-            description: 'A group of leading partners extends Agentforce with new agent actions through the Salesforce AppExchange.'
-        },
-    ]
+     const { industryBenifite } = homepageContent.agentForce;
+
+
+    
+ 
     const slides = [
         {
             id: 1,
@@ -202,57 +173,8 @@ export default function Agentforce() {
             title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
         },
     ];
-    const industryBenifite = [
-        {
-            id: 1,
-            imageUrl: '/images/salesforce-consulting-services/benif1.webp',
-            title: 'Sales',
-            description: 'Automate lead qualification, booking appointments, and nurturing leads.'
-        },
-        {
-            id: 2,
-            imageUrl: '/images/salesforce-consulting-services/cusser.webp',
-            title: 'Customer Service',
-            description: 'Manage tickets, resolve inquiries, and provide 24/7 support.'
-        },
-        {
-            id: 3,
-            imageUrl: '/images/salesforce-consulting-services/Marketing.webp',
-            title: 'Marketing',
-            description: 'Run automated campaigns that adapt based on performance metrics.'
-        },
-        {
-            id: 4,
-            imageUrl: '/images/salesforce-consulting-services/Insurance and financial services.webp',
-            title: 'Insurance and financial services',
-            description: 'Utilize Agentforce to access crucial client data on the go.'
-        },
-        {
-            id: 5,
-            imageUrl: '/images/salesforce-consulting-services/Healthcare and life sciences.webp',
-            title: 'Healthcare and life sciences',
-            description: 'Engage with patients, providers, and payers to act across multiple channels.'
-        },
-    ]
-    const agentBlocks = [
-        {
-            title: "Agent Builder",
-            description: "Create and customize your own agents with low-code",
-            image: "/images/salesforce-consulting-services/Agent Builder.svg",
-        },
-        {
-            title: "Prompt Builder",
-            description: "Supercharge every workflow with trusted AI prompts",
-            image: "/images/salesforce-consulting-services/achive1.svg",
-        },
-        {
-            title: "Model Builder",
-            description:
-                "Build, train, and deploy custom AI models externally using data in Salesforce.",
-            image: "/images/salesforce-consulting-services/Model Builder.svg",
-        },
-    ];
-
+    
+   
     return (
         <section>
             <Seo
@@ -280,9 +202,9 @@ export default function Agentforce() {
                 <div className="grid xl:grid-cols-12 absolute px-6 lg:pr-0 top-[14%] lg:top-[24%] md:top-[15%] text-white w-full">
                     <div className="xl:col-span-6 lg:col-span-11 sm:col-span-11 col-span-12"></div>
                     <div className="xl:col-span-5 space-y-4 xl:pl-[90px]">
-                        <h4 className="font-bold lg:text-[24px] text-[18px] md:text-[20px]" >Agentforce</h4>
+                        <h4 className="font-bold lg:text-[24px] text-[18px] md:text-[20px]" >{t('headerTitle')}</h4>
                         <h2 className="mt-3 leading-tight 2xl:text-[56px] xl:text-[40px] md:text-[30px] 4xl:text-[60px] w-[300px] lg:w-[400px] 2xl:w-[600px] xl:w-[400px] 4xl:w-[600px] md:w-[280px] lg:text-[38px]">
-                            Humans + Agents Automate Routine Tasks to Drive Customer Success
+                            {t('headerDesc')}
                         </h2>
                         <div>
                             <div className="relative w-[120px] h-[40px] 4xl:w-[300px] 4xl:h-[102px] lg:w-[200px] lg:h-[60px] md:w-[150px] md:h-[50px] 2xl:w-[260px] 2xl:h-[80px] xl:w-[240px] xl-h-[70px]">
@@ -300,13 +222,13 @@ export default function Agentforce() {
             </section>
             <div className="grid lg:grid-cols-10 gap-5 px-6 custom-container lg:mt-16 mt-5">
                 <div className="lg:col-span-6">
-                    <h1 className="leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] ">Salesforce Agentforce:<br /> What You Need To Know</h1>
+                    <h1 className="leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] ">{t('headerOne')}<br /> {t('headerTwo')}</h1>
                 </div>
             </div>
             <div className="flex xl:gap-20 gap-10 px-6 custom-container flex-col lg:flex-row lg:mt-10 mt-5">
                 <div className="leading-tight md:w-[700px]">
-                    <p className="text-[16px] md:text-[18px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] leading-tight">Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
-                    <p className="mt-6 text-[16px] md:text-[18px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-tight 4xl:text-[20px]">Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.</p>
+                    <p className="text-[16px] md:text-[18px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] leading-tight">{t('headerParaOne')}</p>
+                    <p className="mt-6 text-[16px] md:text-[18px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px] leading-tight 4xl:text-[20px]">{t('headerParaTwo')}</p>
                 </div>
                 <div>
                     <Image
@@ -321,7 +243,7 @@ export default function Agentforce() {
                 </div>
             </div>
             <section className="mt-[50px] md:mt-[60px] lg:mt-[94px] lg:pr-0 custom-container">
-                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
+                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">{t('manageTitle')}</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-16 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -344,7 +266,7 @@ export default function Agentforce() {
                         )
                     })}
                 </div>
-                <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px]">Leverage cutting-edge technologies to deliver innovative solutions with Agentforce</h2>
+                <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px]">{t('leverageTitle')}</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:mt-10 gap-3 mt-10 ">
                     {salesForce2.map((sales) => {
                         return (
@@ -359,8 +281,7 @@ export default function Agentforce() {
             </section>
             <section className="mt-[60px] md:mt-[70px] lg:mt-[104px] px-6 custom-container">
                 <h2 className="xl:w-[700px] md:w-[700px] 2xl:w-[1000px] 4xl:w-[980px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">
-                    The Building Blocks to Configure Your Agentforce Agents
-                </h2>
+                   {t('blocksTitle')}</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 mt-10 xl:gap-16 gap-5 md:gap-12">
                     {agentBlocks.map((block, index) => (
                         <div key={index} className="flex xl:gap-5 gap-2">
@@ -389,7 +310,7 @@ export default function Agentforce() {
             </section>
             {/* //industries benifites */}
             <section className="mt-[75px] md:mt-[120px] lg:mt-[120px]  px-6 custom-container">
-                <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">Industry-specific Benefits That We Bring to Our Clients</h2>
+                <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">{t('industryTitle')}</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
                     {industryBenifite.map((benifite) => {
                         return (

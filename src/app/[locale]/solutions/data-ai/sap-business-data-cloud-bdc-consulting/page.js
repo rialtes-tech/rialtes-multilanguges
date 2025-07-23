@@ -76,8 +76,6 @@ export default function Page() {
   const {ourSapData}=homepageContent.sapBdc;
   const {whyClientsData}=homepageContent.sapBdc;
 
-
-
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -534,7 +532,7 @@ export default function Page() {
                   priority
                 />
               </div>
-              <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[800px] xl:pl-0 xl:h-[450px] 2xl:h-[480px] 4xl:h-[560px] 2xl:w-[1080px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
+              <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[800px] xl:pl-0 xl:h-[480px]  4xl:h-[560px] 4xl:w-[1080px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
                 <div className="custom-container xl:pl-[70px] max-lg:pt-[160px] max-md:px-0">
                   <div className="4xl:w-[75%] xl:w-[66%] lg:w-[80%]">
                     <h2 className="leading-tight xl:w-[90%] 2xl:w-[80%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">

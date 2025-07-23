@@ -19,6 +19,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const sapBdc = (await import(`../../messages/${locale}/solutions.json`)).default;
     const salesforceDataCloud = (await import(`../../messages/${locale}/solutions.json`)).default;
     const datasphere = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const agentforce = (await import(`../../messages/${locale}/solutions.json`)).default;
+
     return {
         locale,
         messages: {
@@ -30,7 +32,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...footer,
             ...sapBdc,
             ...salesforceDataCloud,
-            ...datasphere
+            ...datasphere,
+            ...agentforce
         }
     };
 });
