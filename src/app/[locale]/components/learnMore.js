@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function LearnMore({ btnName, bgcolor, bordercolor, href, arialabel }) {
-  const t = useTranslations('common')
+  const t = useTranslations('learnMorePage')
 
   return (
     <Link

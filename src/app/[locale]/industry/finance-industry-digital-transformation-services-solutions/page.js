@@ -3,7 +3,7 @@ import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 ;
 import LearnMore from "@/app/components/learnMore";
-import ContactForm from "@/app/components/contactform";
+import ContactForm from "@/app/[locale]/components/contactform;
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 const schemaData = {

@@ -9,28 +9,41 @@ export default getRequestConfig(async ({ requestLocale }) => {
         ? requested
         : routing.defaultLocale;
 
-
     const homepage = (await import(`../../messages/${locale}/homepage.json`)).default;
     const header = (await import(`../../messages/${locale}/homepage.json`)).default;
     const footer = (await import(`../../messages/${locale}/homepage.json`)).default;
     const contactForm = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const common = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const learnMorePage = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const useCarouselComponent = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const featuredCarousel = (await import(`../../messages/${locale}/homepage.json`)).default;
     const aboutUs = (await import(`../../messages/${locale}/aboutus.json`)).default;
     const sapBdc = (await import(`../../messages/${locale}/solutions.json`)).default;
     const salesforceDataCloud = (await import(`../../messages/${locale}/solutions.json`)).default;
     const datasphere = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const sapConsulting = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const oracle = (await import(`../../messages/${locale}/solutions.json`)).default;
+
+    // const successPlus = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
+
     return {
         locale,
         messages: {
             ...homepage,
             ...aboutUs,
             ...header,
-            ...common,
+            ...learnMorePage,
             ...contactForm,
             ...footer,
             ...sapBdc,
             ...salesforceDataCloud,
-            ...datasphere
+            ...datasphere,
+            ...sapConsulting,
+            ...useCarouselComponent,
+            ...featuredCarousel,
+            ...sapBuyPlus,
+            ...oracle
+            // ...successPlus
         }
     };
 });

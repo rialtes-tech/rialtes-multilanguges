@@ -170,7 +170,59 @@
         "PrivacyNotice": "Privacy Notice",
         "copyright": "©2025 Rialtes, All rights reserved"
     },
-    "common": {
+    "learnMorePage": {
         "learnmore": "Learn More"
+    },
+    "useCarouselComponent": {
+        "title": "Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.",
+        "slides": [
+            {
+                "id": 1,
+                "category": "Healthcare",
+                "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities."
+            },
+            {
+                "id": 2,
+                "category": "Real Estate",
+                "description": "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions."
+            },
+            {
+                "id": 3,
+                "category": "Manufacturing",
+                "description": "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer manufacturing software to help you keep your production lines running smoothly."
+            },
+            {
+                "id": 4,
+                "category": "Hi-tech",
+                "description": "Our consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms."
+            }
+        ]
+    },
+    "featuredCarousel": {
+        "slides": [
+            {
+                "id": 1,
+                "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
+                "title": "Streamlined DevOps using Copado and Salesforce",
+                "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
+            },
+            {
+                "id": 2,
+                "url": "/insights/case-studies/realForce-banking-module-ach",
+                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+                "title": "RealForce Banking Module - ACH",
+                "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+            },
+            {
+                "id": 3,
+                "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+                "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+                "description": "A global medical technology company that develops and manufactures innovative products"
+            }
+        ],
+        "getInspiredTitle":"Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
+        "knowMoreTitle":"Know More"
     }
 }

@@ -1,4 +1,4 @@
-import ContactForm from "@/app/components/contactform";
+import ContactForm from "@/app/[locale]/components/contactform;
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "../../components/Seo";
 ;

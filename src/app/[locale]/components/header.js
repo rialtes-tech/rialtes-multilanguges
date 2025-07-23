@@ -5,8 +5,7 @@ import Link from "next/link"
 import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
 import { useTranslations } from "next-intl";
-import usFlag from '../../../../public/images/flags/us-flag.png'
-import spainFlag from "../../../../public/images/flags/spain-flag.png"
+
 import arrowImg from "../../../../public/images/flags/arrow.png"
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {

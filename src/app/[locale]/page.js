@@ -41,9 +41,7 @@ const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
     const homepageContent = locale === 'es' ? esContent : enContent;
-    
     const { carouselData, successStoryData } = homepageContent.homePage;
-
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
@@ -118,7 +116,7 @@ const Home = () => {
                             <React.Fragment key={index}>
                                 <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
 
-                                      <div
+                                    <div
                                         className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
                                         style={{

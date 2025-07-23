@@ -1,0 +1,191 @@
+{
+    "sapBuyPlus": {
+        "headerTitle": "SAPBuy+",
+        "headerSubTitle": "Transforma la Excelencia en Compras con los Servicios SAPBuy+ de Rialtes para SAP ARIBA",
+        "pageDesc": "En Rialtes, ayudamos a las organizaciones a redefinir la eficiencia en las compras con SAP ARIBA, la principal solución en la nube para adquisiciones estratégicas, gestión de contratos, colaboración con proveedores y automatización del ciclo de compras a pagos. Con SAP ARIBA, las empresas pueden optimizar operaciones, reducir costos, asegurar el cumplimiento normativo e impulsar la participación de proveedores a nivel global.",
+        "pageDesc2": "Como socio certificado de SAP con presencia global en Estados Unidos, Canadá, India y Singapur, Rialtes ofrece soluciones integrales de SAP ARIBA, que incluyen asesoría, implementación, integración y optimización continua. Nuestra suite de servicios SAPBuy+ garantiza una transformación completa en las compras, maximizando el retorno de inversión en SAP.",
+        "contactTitle": "¿Listo para Impulsar tus Compras con SAP ARIBA?",
+        "contactSubTitle": "Con la experiencia de Rialtes en SAP ARIBA, puedes optimizar compras, mejorar la colaboración con proveedores y reducir costos.",
+        "contactSubTitle2": "¡Habla con nuestros expertos y transforma tus procesos de compras!",
+        "whyChooseData": [
+            {
+                "title": "Asesoría en Licencias SAP ARIBA",
+                "desc": "Guía para seleccionar los módulos de ARIBA adecuados según tus necesidades."
+            },
+            {
+                "title": "Implementación y Diseño",
+                "desc": "Diseño basado en procesos utilizando SAP Signavio y metodología SAP Activate."
+            },
+            {
+                "title": "Garantía de Calidad y Gobernanza",
+                "desc": "Pruebas de clase mundial, validación de cumplimiento y optimización de procesos."
+            },
+            {
+                "title": "Integración de Sistemas",
+                "desc": "Conexión fluida de ARIBA con SAP S/4HANA, SAP SuccessFactors y otras aplicaciones mediante SAP CPI."
+            },
+            {
+                "title": "Soporte Post-Implementación",
+                "desc": "Monitoreo continuo, incorporación de proveedores, optimización de datos y capacitación."
+            }
+        ],
+        "whyChooseRialtesTitle": "¿Por qué Elegir Rialtes para Implementar SAP ARIBA?",
+        "whyChooseRialtesSubTitle": "SAPBuy+ — Un Enfoque Integral para la Transformación de Compras",
+        "whyChooseRialtesDesc": "Nuestra suite de servicios SAPBuy+ integra estrategia, ejecución y soporte, garantizando una adopción sin problemas de SAP ARIBA.",
+        "benefitsData": [
+            {
+                "title": "Compras Eficientes –",
+                "desc": "Automatiza todo el proceso de compras a pagos (P2P), eliminando ineficiencias."
+            },
+            {
+                "title": "Colaboración con Proveedores –",
+                "desc": "Conéctate con millones de proveedores a través de ARIBA Business Network."
+            },
+            {
+                "title": "Optimización de Costos –",
+                "desc": "Visibilidad total del gasto en compras, mejores contratos y reducción de gastos innecesarios."
+            },
+            {
+                "title": "Cumplimiento y Reducción de Riesgos –",
+                "desc": "Garantiza el cumplimiento regulatorio, alineación de contratos y debida diligencia con proveedores."
+            },
+            {
+                "title": "Compras en la Nube –",
+                "desc": "Elimina el mantenimiento de TI con la arquitectura SaaS de SAP ARIBA."
+            }
+        ],
+        "migrationData": [
+            {
+                "title": "Migración y Transformación de Datos –",
+                "desc": "Migración segura y estructurada de datos de proveedores, contratos y transacciones."
+            },
+            {
+                "title": "Estandarización de Procesos –",
+                "desc": "Optimización de flujos de trabajo de compras conforme a mejores prácticas de ARIBA."
+            },
+            {
+                "title": "Incorporación de Proveedores –",
+                "desc": "Registro y capacitación de proveedores para el uso efectivo de ARIBA."
+            },
+            {
+                "title": "Gestión del Cambio y Capacitación –",
+                "desc": "Asegura una adopción exitosa por parte de los equipos de compras."
+            }
+        ],
+        "unlockTitle": "Impulsa la Eficiencia en Compras con Servicios de Implementación y Migración SAP ARIBA",
+        "unlockDesc": "Las organizaciones que buscan modernizar sus sistemas de compras o migrar desde soluciones heredadas pueden hacerlo sin inconvenientes con el acompañamiento experto de Rialtes.",
+        "benefitsTitle": "Beneficios de Implementar SAP ARIBA",
+        "sapMigrateTitle": "Servicios de Migración SAP ARIBA",
+        "sapMigrateDesc": "Para empresas que ya utilizan SAP SRM, SAP ECC u otros sistemas heredados, Rialtes ofrece servicios de migración completos que incluyen:",
+        "sapAribaIndirectData": [
+            "Flujos de aprobación estandarizados para garantizar el cumplimiento.",
+            "Análisis de gastos impulsado por IA para identificar oportunidades de ahorro.",
+            "Colaboración en tiempo real con proveedores para gestionar facturas, pagos y SLA."
+        ],
+        "sapAribaDirectData": [
+            "Visibilidad en tiempo real de los requisitos de la cadena de suministro.",
+            "Generación automática de órdenes de compra (PO) vinculadas a la producción.",
+            "Herramientas de colaboración con proveedores para minimizar interrupciones y optimizar entregas."
+        ],
+        "sapAribaModuleTitle": "Módulos SAP ARIBA y Experiencia de Rialtes en Implementación",
+        "sapAribaModuleSubTitle": "SAP ARIBA para Compras Directas – Integrado con SAP S/4HANA",
+        "sapAribaModuleDesc": "Las compras directas abarcan materias primas, componentes y artículos de producción. Integrado con SAP S/4HANA, SAP ARIBA garantiza:",
+        "sapAribaModuleSubTitle2": "SAP ARIBA para Compras Indirectas – Compras Inteligentes y Normativas",
+        "sapAribaModuleDesc2": "Las compras indirectas incluyen suministros de oficina, servicios profesionales, recursos TI y gestión de instalaciones. Con la automatización de sourcing y contratos de SAP ARIBA, las empresas logran:",
+        "sapAribaData": [
+            "Descubrimiento de Proveedores Sin Fronteras – Conexión con millones de proveedores verificados.",
+            "Automatización de RFQ y Licitaciones – Negociaciones en tiempo real con precios transparentes.",
+            "Digitalización de Pedidos y Facturas – Reducción de errores y tareas manuales.",
+            "Visibilidad Total de la Cadena de Suministro – Información útil sobre pedidos, envíos y riesgos."
+        ],
+        "aribaBusinessTitle": "SAP ARIBA Business Network",
+        "aribaBusinessSubTitle": "Colaboración Global con Proveedores",
+        "aribaBusinessDesc": "SAP ARIBA Business Network es el mayor mercado digital del mundo para compradores y proveedores, facilitando:",
+        "supplierAribaDirectData": [
+            "Automatización del registro de proveedores con validación de cumplimiento.",
+            "Seguimiento continuo del rendimiento de proveedores mediante dashboards en tiempo real.",
+            "Puntuación de riesgo y detección de fraudes con análisis impulsado por IA.",
+            "Gestión continua de relaciones con proveedores para optimizar la eficiencia en compras."
+        ],
+        "supplierTitle": "Gestión de Proveedores y Riesgos",
+        "supplierDesc": "Un sólido marco de gestión de proveedores es clave para mitigar riesgos. Rialtes permite:",
+        "contractData": [
+            "Creación automática de contratos mediante plantillas predefinidas.",
+            "Herramientas de colaboración para equipos legales y de compras.",
+            "Soporte para firma digital rápida y segura.",
+            "Seguimiento integrado de cumplimiento para monitorear renovaciones y obligaciones."
+        ],
+        "aribaContractTitle": "Gestión de Contratos ARIBA",
+        "aribaContractSubTitle": "Centralizado y Conforme",
+        "aribaContractDesc": "SAP ARIBA simplifica la gestión del ciclo de vida de los contratos con:",
+        "exploreData": [
+            {
+                "title": "SAP SuccessFactors",
+                "desc": "Alinea estrategias de compras con la planificación de fuerza laboral.",
+                "link": "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
+            },
+            {
+                "title": "SAP S/4HANA",
+                "desc": "Base ERP en tiempo real para compras, finanzas y gestión de cadena de suministro.",
+                "link": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+            },
+            {
+                "title": "SAP para Compras Directas e Indirectas",
+                "desc": "Impulsa la transformación en todas las categorías de abastecimiento.",
+                "link": "/contact-us"
+            }
+        ],
+        "exploreTitle": "Explora Servicios SAP Relacionados",
+        "knowMoreBtn": "Saber Más",
+        "seamlessData": [
+            {
+                "title": "SAP ARIBA debe integrarse perfectamente en el entorno de TI de la empresa. Rialtes usa SAP CPI para conectar ARIBA con:",
+                "list": [
+                    "SAP S/4HANA para automatización de compras y finanzas.",
+                    "SAP SuccessFactors para alinear compras con políticas de RRHH (contrataciones, gastos).",
+                    "Aplicaciones No SAP como ERP, CRM o sistemas logísticos."
+                ]
+            },
+            {
+                "title": "Además, Rialtes ofrece experiencia avanzada en SAP BTP, permitiendo:",
+                "list": [
+                    "Extensiones personalizadas de ARIBA para industrias específicas.",
+                    "Automatización de flujos de trabajo y análisis predictivos.",
+                    "Analíticas integradas para el seguimiento del desempeño de compras."
+                ]
+            }
+        ],
+        "seamlessTitle": "Integraciones Perfectas con SAP CPI y Competencia Rialtes en SAP BTP",
+        "buyingData": [
+            "Compras basadas en catálogos con precios y condiciones predefinidas.",
+            "Conciliación automática de órdenes de compra (PO) y facturas.",
+            "Validación automatizada de impuestos y cumplimiento.",
+            "Análisis de gastos con IA para mejorar el presupuesto de compras."
+        ],
+        "buyingTitle": "Compras y Facturación (Procure-to-Pay)",
+        "buyingSubTitle": "Automatización Completa",
+        "buyingDesc": "El módulo SAP ARIBA Buying & Invoicing automatiza el ciclo completo de compras a pagos, brindando:",
+        "agentData": [
+            {
+                "title": "Comunicación Instantánea con Proveedores –",
+                "desc": "Automatiza RFQs, POs y seguimiento de facturas vía WhatsApp."
+            },
+            {
+                "title": "Aprobaciones en Tiempo Real –",
+                "desc": "Permite que los gerentes aprueben órdenes desde sus móviles."
+            },
+            {
+                "title": "Modelo de Seguridad por Roles –",
+                "desc": "Configura el acceso según los roles de compras."
+            },
+            {
+                "title": "Configuración e Integración Rápida –",
+                "desc": "Despliegue en minutos en SAP y Salesforce."
+            }
+        ],
+        "agentChatTitle": "Presentamos AgentChat",
+        "agentChatSubTitle": "Colaboración Inteligente con Proveedores",
+        "agentChatDesc": "Rialtes RialChat es una app de conversación bidireccional vía WhatsApp, diseñada para una colaboración eficiente en compras.",
+        "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
+    }
+}
