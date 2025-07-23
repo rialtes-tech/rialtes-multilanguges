@@ -208,12 +208,12 @@ const Home = () => {
                 canonical={"https://www.rialtes.com/"}
             />
 
-            <Script
-                id="schema-homepage"
-                type="application/ld+json"
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          <Script
+        id="schema-homepage"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="relative">
                 <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
                 <div className="relative">
@@ -247,33 +247,33 @@ const Home = () => {
                                     </div>
                                 </Link>
 
-                                {index === currentSlide && (
-                                    <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
-                                        <div
-                                            className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
-                                                }`}
-                                        >
-                                            <Image
-                                                className="w-full h-auto"
-                                                src={slide.image}
-                                                alt="life at rialtes"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                priority
-                                                quality={60}
-                                                fetchPriority='high'
-                                            />
-                                            <div
-                                                ref={refs[6]}
-                                                className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                                                    }`}
-                                            >
-                                                {/* text */}
-                                            </div>
-                                        </div>
-                                    </Link>
-                                )}
+                            <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
+  <div
+    className={`absolute inset-0 transition-transform transform hidden xl:block ${
+      index === currentSlide ? 'translate-x-0' : 'translate-x-full'
+    }`}
+  >
+    <Image
+      className="w-full h-auto"
+      src={slide.image}
+      alt="life at rialtes"
+      width={0}
+      height={0}
+      sizes="100vw"
+      priority
+      quality={60}
+      fetchPriority="high"
+    />
+    <div
+      ref={refs[6]}
+      className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${
+        inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+      }`}
+    >
+      {/* text */}
+    </div>
+  </div>
+</Link>
                             </React.Fragment>
                         ))}
 
@@ -437,7 +437,7 @@ const Home = () => {
                                 className="w-full h-full object-cover"
                                 priority
                                 fetchPriority='high'
-                                width={500}
+                                 width={500}
                                 height={500}
                             />
                         </div>
