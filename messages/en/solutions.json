@@ -386,7 +386,6 @@
 
     ],
          "leverageTitle": "Leverage cutting-edge technologies to deliver innovative solutions with Agentforce",
-
          "salesForce2" :[
         {  
             "id": 1,
@@ -428,8 +427,6 @@
         }
     ],
      "industryTitle": "Industry-specific Benefits That We Bring to Our Clients",
-
-
      "industryBenifite" : [
         {
             "id": 1,
@@ -530,7 +527,8 @@
         "riseWithSapTitle": "RISE with SAP",
         "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
         "contactTitle": "Take the next step to operational excellence with us."
-    },
+    }
+},
     "oracle": {
         "data": [
             {
