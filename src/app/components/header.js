@@ -373,7 +373,7 @@ const Header = () => {
         <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
 
           <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
-            <Link rel='preload' as='image' href="/" aria-label="Homepage" passHref  >
+            <Link rel='preload'  href="/" aria-label="Homepage"  >
               <Image
                 className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px] h-auto"
                 alt="Company logo"
