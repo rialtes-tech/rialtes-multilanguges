@@ -6,13 +6,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
 import Link from 'next/link';
-const Seo = dynamic(() => import('./components/Seo'), { ssr: false });
 const AutoTimerSlider = dynamic(() => import('./newHome/page'), { ssr: false });
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 const ContactForm = dynamic(() => import('./components/contactform'), { ssr: false });
 
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
+import Seo from './components/Seo';
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -209,7 +209,7 @@ const Home = () => {
             />
 
             <Script
-                id="schema-main-page"
+                id="schema-homepage"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -437,7 +437,7 @@ const Home = () => {
                                 className="w-full h-full object-cover"
                                 priority
                                 fetchPriority='high'
-                                 width={500}
+                                width={500}
                                 height={500}
                             />
                         </div>
