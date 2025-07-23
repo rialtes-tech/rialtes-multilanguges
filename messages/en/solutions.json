@@ -428,7 +428,7 @@
         "headerOne": "Salesforce Agentforce:",
         "headerTwo": "What You Need To Know",
         "headerParaOne": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
-        "headerParaTwo": ">Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
+        "headerParaTwo": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
         "manageTitle": "Manage Customer Inquiries and Streamline Employee Tasks Around the Clock",
         "salesForce": [
         {
@@ -531,5 +531,4 @@
         }
     ]
 }
-
 }
