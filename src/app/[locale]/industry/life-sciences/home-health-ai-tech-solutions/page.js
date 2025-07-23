@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 ;
-import ContactForm from "@/app/[locale]/components/contactform;
+import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";

@@ -1,5 +1,5 @@
 "use client";
-import ContactForm from "@/app/[locale]/components/contactform;
+import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 ;
