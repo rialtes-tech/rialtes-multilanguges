@@ -224,5 +224,38 @@
         ],
         "getInspiredTitle":"Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
         "knowMoreTitle":"Know More"
+    },
+    "servicesBlogs":{
+        "headerTitle":"Insights",
+        "learnMore":"Learn more"
+    },
+    "exploreMore":{
+        "headerTitle":"Explore More",
+        "slides" :[
+    {
+      "id": 1,
+      "image": "/images/industry/manufacturing.webp",
+      "title": "Manufacturing",
+      "url":"/industry/manufacturing-cloud-erp"
+    },
+    {
+      "id": 2,
+      "image": "/images/industry/healthcare.webp",
+      "title": "Healthcare",
+      "url":"/industry/life-sciences/healthcare-medtech-patient-care"
+    },
+    {
+      "id": 3,
+      "image": "/images/industry/real-estate.webp",
+      "title": "Real Estate",
+      "url":"/industry/real-estate-property-management"
+    },
+    {
+      "id": 4,
+      "image": "/images/industry/hi-tech.webp",
+      "title": "Hi-Tech",
+      "url":"/industry/hitech-semiconductor-ai-it-solutions"
+    }
+]
     }
 }

@@ -26,6 +26,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
     // const successPlus = (await import(`../../messages/${locale}/solutions.json`)).default;
     const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
+    const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
+     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
+     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
+
 
     return {
         locale,
@@ -44,8 +48,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...useCarouselComponent,
             ...featuredCarousel,
             ...sapBuyPlus,
-            ...oracle
+            ...oracle,
             // ...successPlus
+            ...servicesBlogs,
+            ...exploreMore,
+            ...agentChat
+
         }
     };
 });

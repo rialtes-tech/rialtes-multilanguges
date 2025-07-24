@@ -455,7 +455,75 @@
         "title": "Salud y Ciencias de la Vida",
         "description": "Interactúa con pacientes, proveedores y aseguradoras a través de múltiples canales."
       }
-    ]
+    ],
+    "slides": [
+  {
+    "id": 1,
+    "image": "/images/blog/blog-1-long-thumb.webp",
+    "industry": "Generic",
+    "date": "30 de septiembre de 2024",
+    "heading": "Cómo funciona Agentforce",
+    "url": "insights/blogs/how-salesforce-agentforce-actually-works",
+    "title": "Cómo funciona realmente Salesforce Agentforce"
+  },
+  {
+    "id": 2,
+    "image": "/images/blog/blog-2-long-thumb.webp",
+    "industry": "Generic",
+    "date": "21 de octubre de 2024",
+    "heading": "Motor de razonamiento Atlas",
+    "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
+    "title": "El cerebro detrás de los agentes: Presentamos el motor de razonamiento Atlas en Agentforce"
+  },
+  {
+    "id": 3,
+    "image": "/images/blog/blog-3-long-thumb.webp",
+    "industry": "Generic",
+    "date": "28 de octubre de 2024",
+    "heading": "Agentes vs. Copilotos vs. Bots",
+    "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+    "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la diferencia y por qué importa?"
+  },
+  {
+    "id": 4,
+    "image": "/images/blog/blog-4-long-thumb.webp",
+    "industry": "Generic",
+    "date": "25 de noviembre de 2024",
+    "heading": "Centro de pruebas de Agentforce",
+    "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
+    "title": "Centro de pruebas de Agentforce: Redefiniendo las pruebas de IA con datos sintéticos"
+  },
+  {
+    "id": 11,
+    "image": "/images/blog/blog-12-long-thumb.webp",
+    "industry": "Generic",
+    "date": "17 de septiembre de 2024",
+    "heading": "Integra Agentforce con tu ERP",
+    "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
+    "title": "Agentes de Agentforce escalan los sistemas ERP con IA"
+  },
+  {
+    "id": 12,
+    "image": "/images/blog/blog-11-long-thumb.webp",
+    "industry": "Generic",
+    "date": "17 de septiembre de 2024",
+    "heading": "Colaboración en Slack con Agentforce",
+    "url": "insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce",
+    "title": "Agentes como compañeros: revolucionando la colaboración en Slack con Agentforce"
+  },
+  {
+    "id": 14,
+    "image": "/images/blog/blog-14-long-thumb.webp",
+    "industry": "Generic",
+    "date": "17 de septiembre de 2024",
+    "heading": "Principales funciones de Agentforce",
+    "url": "insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should",
+    "title": "Salesforce Agentforce: funciones clave que probablemente no estás utilizando (¡pero deberías!)"
+  }
+  
+],
+"contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros."
+
   },
   "sapConsulting": {
     "headerTitle": "Consultoría SAP",

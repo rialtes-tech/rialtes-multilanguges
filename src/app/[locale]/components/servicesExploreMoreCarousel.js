@@ -3,46 +3,15 @@
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
-
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../messages/en/homepage.json';
+import esContent from '../../../../messages/es/homepage.json';
 
 export default function servicesExploreMoreCarousel() {
-  const slides = [
-    {
-      id: 1,
-      image: "/images/industry/manufacturing.webp",
-      title: "Manufacturing",
-      url:'/industry/manufacturing-cloud-erp'
-    },
-    {
-      id: 2,
-      image: "/images/industry/healthcare.webp",
-      title: "Healthcare",
-      url:'/industry/life-sciences/healthcare-medtech-patient-care'
-    },
-    {
-      id: 3,
-      image: "/images/industry/real-estate.webp",
-      title: "Real Estate",
-      url:'/industry/real-estate-property-management'
-    },
-    {
-      id: 4,
-      image: "/images/industry/hi-tech.webp",
-      title: "Hi-Tech",
-      url:'/industry/hitech-semiconductor-ai-it-solutions'
-    },
-    // {
-    //   id: 5,
-    //   image: "/images/industry/finance.webp",
-    //   title: "Finance",
-    // },
-    // {
-    //   id: 6,
-    //   image: "/images/industry/public-sector.webp",
-    //   title: "Public Sector",
-    // },
-  ];
-
+       const t = useTranslations("exploreMore");
+        const locale = useLocale();
+        const homepageContent = locale === "es" ? esContent : enContent;
+        const {slides} = homepageContent.exploreMore;
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -96,8 +65,6 @@ export default function servicesExploreMoreCarousel() {
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
         onClick={() => onClick()}
         aria-label="Custom Dots"
-
-
       />
       </li>
     );
@@ -107,7 +74,7 @@ export default function servicesExploreMoreCarousel() {
     <section className="relative sm:pb-10 pb-16">
       <div className=" mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-white mb-14 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Explore More</h2>
+          <h2 className="text-white mb-14 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('headerTitle')}</h2>
         </div>
         <Carousel
           swipeable={true}

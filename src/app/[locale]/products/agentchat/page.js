@@ -3,7 +3,11 @@ import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-;
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/products.json';
+import esContent from '../../../../../messages/es/products.json';
+
+
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -58,66 +62,12 @@ const schemaData = {
     ]
 }
 export default function Page() {
-    const features = [
-        {
-            title: "Real-Time, Two-Way WhatsApp Messaging",
-            image: "/images/industry/rialchat/Seamless Messaging.png",
-            alt: "Real-Time WhatsApp Messaging",
-            points: [
-                "Start and manage WhatsApp conversations directly from any Salesforce object.",
-                "Automatic conversation tracking linked to Salesforce records.",
-                "Full conversation history and audit trails.",
-            ],
-        },
-        {
-            title: "Context-Aware Messaging",
-            image: "/images/industry/rialchat/Rich Media Support.png",
-            alt: "Context-Aware Messaging",
-            points: [
-                "Access full customer context from Salesforce while chatting.",
-                "Share files, media, and quick replies for faster resolutions.",
-            ],
-        },
-        {
-            title: "Supports All Salesforce Clouds",
-            image: "/images/industry/rialchat/Automated Conversation Logging.png",
-            alt: "Supports All Salesforce Clouds",
-            points: [
-                "<strong>Sales Cloud:</strong> Convert chats to Leads and Opportunities.",
-                "<strong>Service Cloud:</strong> Manage Cases and provide instant support.",
-                "<strong>Field Service:</strong> Coordinate field operations and Work Orders.",
-                "<strong>Education Cloud:</strong> Engage students and alumni for enrollment, advising, and support.",
-                "<strong>Nonprofit Cloud:</strong> Connect with donors, volunteers, and stakeholders.",
-            ],
-        },
-        {
-            title: "Seamless Salesforce Integration",
-            image: "/images/industry/rialchat/Seamless Messaging.png",
-            alt: "Seamless Salesforce Integration",
-            points: [
-                "Works out-of-the-box with Cases, Leads, Opportunities, Work Orders, and more.",
-                "Delegation and routing rules by record type — no manual effort needed.",
-            ],
-        },
-        {
-            title: "Multi-Role, Multi-Team Support",
-            image: "/images/industry/rialchat/Multi-Agent Collaboration.webp",
-            alt: "Multi-Team Support",
-            points: [
-                "Serve customers through dedicated teams (Sales, Support, Field Agents, Advisors).",
-                "Define who can initiate, view, or respond based on roles and business units.",
-            ],
-        },
-        {
-            title: "Salesforce-Native Security and Compliance",
-            image: "/images/industry/rialchat/Seamless Messaging.png",
-            alt: "Security and Compliance",
-            points: [
-                "Leverages Salesforce’s role hierarchies, sharing rules, and object-level security.",
-                "GDPR, HIPAA-ready based on Salesforce’s secure platform.",
-            ],
-        },
-    ];
+       const t = useTranslations("agentChat");
+            const locale = useLocale();
+            const homepageContent = locale === "es" ? esContent : enContent;
+            const {features,tableData} = homepageContent.agentChat;
+
+    
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -162,9 +112,9 @@ export default function Page() {
                         </div>
                         <div className="absolute bg-[#134874] text-white  w-[256px] h-[205px] md:w-[332px] md:h-[255px]  xl:w-[400px] xl:h-[290px] 2xl:w-[420px] 2xl:h-[310px] 4xl:w-[478px] 4xl:h-[355px] lg:left-[6%] top-0 ">
                             <div className=" xl:mx-[58px] xl:my-6 my-6 md:my-0 mx-[30px] md:mx-[40px]">
-                                <h1><span className=" font-light  text-[17px] md:text-[20px] xl:text-[26px] 4xl:text-[30px] leading-tight ">Introducing </span>
-                                    <span className="font-light block text-[35px] md:text-[40px]  xl:text-[46px]  leading-tight 4xl:text-[60px] mt-[-12px]">AgentChat: </span>
-                                    <span className="text-[17px] md:text-[20px] xl:text-[26px]  4xl:text-[30px] font-light leading-tight block"> Seamless WhatsApp Conversations Inside Salesforce</span></h1>
+                                <h1><span className=" font-light  text-[17px] md:text-[20px] xl:text-[26px] 4xl:text-[30px] leading-tight ">{t('headerTitle')} </span>
+                                    <span className="font-light block text-[35px] md:text-[40px]  xl:text-[46px]  leading-tight 4xl:text-[60px] mt-[-12px]">{t('headerSubTitle')} </span>
+                                    <span className="text-[17px] md:text-[20px] xl:text-[26px]  4xl:text-[30px] font-light leading-tight block">{t('headerOne')}</span></h1>
                             </div>
                         </div>
                     </div>
@@ -186,18 +136,18 @@ export default function Page() {
                 </div>
                 <div className="custom-container grid lg:grid-cols-12 grid-cols-1  lg:gap-[60px] xl:gap-[80px] mt-[100px] xl:mt-[100px] 4xl:mt-[150px]">
                     <div className="lg:col-span-5 col-span-12 ">
-                        <h2 className="leading-tight text-[28px] md:text-[30px] pb-4 lg:text-[28px] xl:text-[30px] 2xl:text-[36px] 4xl:text-[40px] ">Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.</h2>
+                        <h2 className="leading-tight text-[28px] md:text-[30px] pb-4 lg:text-[28px] xl:text-[30px] 2xl:text-[36px] 4xl:text-[40px] ">{t('engageHeader')}</h2>
                     </div>
                     <div className="lg:col-span-7 col-span-12">
-                        <p className="text-[16px] md:text-[18px] lg:text-[17px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px]">AgentChat is a bi-directional WhatsApp cionversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversatons efficiently, and automate workflows — all without leaving Salesforce.</p>
-                        <p className="mt-5 text-[16px] md:text-[18px] lg:text-[17px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] ">Whether you’re in Sales, Service, Marketing, Field Operations, or Education, AgentChat works across all Salesforce Clouds and lets you turn WhatsApp into a powerful engagement tool for every team.</p>
+                        <p className="text-[16px] md:text-[18px] lg:text-[17px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px]">{t('engageDescOne')}</p>
+                        <p className="mt-5 text-[16px] md:text-[18px] lg:text-[17px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] ">{t('engageDescTwo')}</p>
                     </div>
                 </div>
             </div>
 
             {/* why agent chat section */}
             <div className="xl:mt-20 md:mt-[2rem] xl:!pr-[142px] custom-container text-black py-6">
-                <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] ">Why AgentChat?</h2>
+                <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] ">{t('whyHeader')}</h2>
             </div>
             <div className="text-black custom-container max-md:px-0 mb-20">
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 md:mt-10 ">
@@ -216,11 +166,10 @@ export default function Page() {
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874]">
                             <div>
                                 <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px] text-black group-hover:text-white">
-                                    Instant WhatsApp Conversations, Directly in Salesforce
+                                   {t('whySubHeader')}
                                 </h3>
                                 <p className="mt-5 xl:mt-10 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px] text-black group-hover:text-white">
-                                    Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.
-                                </p>
+                                  {t('whyDesc')} </p>
                             </div>
                             <Image className="w-[50px] 4xl:w-[75px] 2xl:w-[70px] md:mt-20 mt-10 group-hover:invert group-hover:brightness-200"
                                 src="/images/industry/rialchat/Instant WhatsApp .svg"
@@ -235,8 +184,8 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px]  h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[358px] 2xl:w-[350px] xl:w-[300px]  ">Rapid Setup — Go Live in Minutes!</h3>
-                                <p className=" mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[330px] xl:w-[300px] lg:w-[300px] ">No complex integrations. Plug-and-play setup within minutes. Start engaging right away.</p>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[358px] 2xl:w-[350px] xl:w-[300px]  ">{t('rapidTitle')}</h3>
+                                <p className=" mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[330px] xl:w-[300px] lg:w-[300px] ">{t('rapidDesc')}</p>
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] mt-20 group-hover:invert group-hover:brightness-200"
@@ -254,8 +203,8 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[33px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[380px] 2xl:w-[350px]  xl:w-[300px]">Bi-Directional & Real-Time Messaging</h3>
-                                <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">Conversations sync in real-time — whether initiated from WhatsApp or Salesforce.</p>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[33px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[380px] 2xl:w-[350px]  xl:w-[300px]">{t('realTitle')}</h3>
+                                <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('realDeac')}</p>
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[67px] 2xl:w-[64px] xl:mt-40 mt-5 group-hover:invert group-hover:brightness-200"
@@ -271,8 +220,8 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[391px] 2xl:w-[340px] xl:w-[300px]">Delegate Messages to the Right Team Automatically</h3>
-                                <p className="mt-5 xl:mt-10  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]" >Automatically route conversations by record type (e.g., Cases, Leads, Work Orders), ensuring the right team responds fast.</p>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[391px] 2xl:w-[340px] xl:w-[300px]">{t('delegateTitle')}</h3>
+                                <p className="mt-5 xl:mt-10  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]" >{t('delegateDesc')}</p>
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[74px] 2xl:w-[70px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
@@ -287,8 +236,8 @@ export default function Page() {
                     </div>
                     <div>
                         <div className="group border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
-                            <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[370px] 2xl:w-[346px] xl:w-[300px]">Built-in Role-Based Access and Security</h3>
-                            <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">Control who can chat, view, and manage conversations with advanced role-based permissions and Salesforce’s native security model.</p>
+                            <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[370px] 2xl:w-[346px] xl:w-[300px]">{t('roleTitle')}</h3>
+                            <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('roleDesc')}</p>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
                                 src='/images/industry/rialchat/Rapid Setup.svg'
@@ -304,7 +253,7 @@ export default function Page() {
             </div>
             {/* key features section */}
             <div className="xl:mt-20 mb-20 custom-container text-black">
-                <h2 className="text-[28px]  md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight ">Key Features of AgentChat</h2>
+                <h2 className="text-[28px]  md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight ">{t('keyTitle')}</h2>
                 {features.map((feature, index) => (
                     <div
                         key={index}
@@ -341,25 +290,20 @@ export default function Page() {
             {/* use cases section */}
             <section>
                 <div className="mt-20 lg:mt-40 custom-container text-black">
-                    <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight "> Use Cases for AgentChat</h2>
+                    <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight "> {t('agentChatTitle')}</h2>
                 </div>
                 <div className="custom-container max-md:px-0 mb-20">
                     <div className="overflow-x-auto mt-10 max-md:px-0">
                         <table className="w-full border-collapse">
                             <thead>
                                 <tr className="bg-[#D0EEFF] text-left">
-                                    <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px] font-bold">Use Case</th>
-                                    <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px]  font-bold">How AgentChat Helps</th>
+                                    <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px] font-bold">{t('tableTitleOne')}</th>
+                                    <th className="p-4 text-[16px] md:text-[24px] lg:text-[24px] xl:text-[22px] 2xl:text-[28px] 4xl:text-[30px]  font-bold">{t('tableTitleTwo')}</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y ">
-                                {[
-                                    { title: "Customer Support", desc: "Manage support cases via WhatsApp, instantly." },
-                                    { title: "Sales Outreach", desc: "Engage leads, close deals with real-time chats." },
-                                    { title: "Field Operations", desc: "Coordinate work orders and updates in real time." },
-                                    { title: "Student Engagement", desc: "Connect with students and alumni seamlessly." },
-                                    { title: "Donor Management", desc: "Stay in touch with donors via personalized chats." }
-                                ].map((item, index) => (
+                                {
+                                   tableData.map((item, index) => (
                                     <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
                                         <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.title}</td>
                                         <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.desc}</td>
@@ -373,7 +317,7 @@ export default function Page() {
             {/* quick setup section */}
             <div className="bg-[url('/images/industry/rialchat/bg2.png')] bg-cover bg-right overflow-hidden xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]">
                 <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
-                    <h2 className="text-[28px] md:text-[40px] max-lg:pb-6 lg:text-[40px] xl:pb-10 xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight">Quick Setup. Maximum Impact.</h2>
+                    <h2 className="text-[28px] md:text-[40px] max-lg:pb-6 lg:text-[40px] xl:pb-10 xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight">{t('setupTitle')}</h2>
                     <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-48">
                         <div className="relative">
                             <Image
@@ -384,7 +328,7 @@ export default function Page() {
                                 height={0}
                                 priority
                             />
-                            <p className="absolute 4xl:left-[60px] leading-tight 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px] xl:top-[60px] xl:left-[20px]  left-[55px] top-[100px] text-[24px]  md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[20px] 4xl:text-[24px] md:top-[130px]  md:left-[90px] 4xl:w-[203px] 2xl:w-[170px] xl:w-[160px] lg:w-[170px] md:w-[250px]">Install AgentChat from AppExchange.</p>
+                            <p className="absolute 4xl:left-[60px] leading-tight 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px] xl:top-[60px] xl:left-[20px]  left-[55px] top-[100px] text-[24px]  md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[20px] 4xl:text-[24px] md:top-[130px]  md:left-[90px] 4xl:w-[203px] 2xl:w-[170px] xl:w-[160px] lg:w-[170px] md:w-[250px]">{t('descOne')}</p>
                         </div>
                         <div className="relative">
                             <Image
@@ -396,7 +340,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute mb-14 pb-10 leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px]  left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[222px] 2xl:w-[200px] xl:w-[180px] lg:w-[170px] md:w-[260px]">Connect your WhatsApp Business Account securely.</p>
+                            <p className="absolute mb-14 pb-10 leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px]  left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[222px] 2xl:w-[200px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descTwo')}</p>
                         </div>
                         <div className="relative">
                             <Image
@@ -408,7 +352,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">Map to Salesforce record types (Cases, Leads, Work Orders, etc.).</p>
+                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
                         </div>
 
                         <div className="relative">
@@ -421,7 +365,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight  4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">Set roles and permissions for teams.</p>
+                            <p className="absolute leading-tight  4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descFour')}</p>
                         </div>
 
                         <div className="relative">
@@ -434,7 +378,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">Start chatting — directly from Salesforce!</p>
+                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[24px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descFive')}</p>
                         </div>
                     </div>
                 </div>
@@ -455,8 +399,8 @@ export default function Page() {
                             />
                         </div>
                         <div className="xl:col-span-8">
-                            <h2 className="text-[26px] md:text-[40px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] 4xl:text-[60px] leading-tight max-w-[1081px] w-full">Ready to Supercharge WhatsApp Engagement in Salesforce?</h2>
-                            <p className="mt-10 font-light text-[18px] md:text-[22px] lg:text-[22px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[28px] max-w-[1000px] w-full xl:w-[880px] leading-tight">Book a Free Demo and see how AgentChat can transform customer engagement through WhatsApp — right inside Salesforce!</p>
+                            <h2 className="text-[26px] md:text-[40px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] 4xl:text-[60px] leading-tight max-w-[1081px] w-full">{t('readyTitle')}</h2>
+                            <p className="mt-10 font-light text-[18px] md:text-[22px] lg:text-[22px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[28px] max-w-[1000px] w-full xl:w-[880px] leading-tight">{t('readyDesc')}</p>
                             <div className="xl:flex xl:flex-row md:flex-row flex-col mt-16 items-center gap-10 4xl:gap-[34px] ">
                                 <div className="flex flex-col lg:flex-row gap-4 w-full h-[105px] max-lg:p-4">
                                     <div className="flex flex-row items-center gap-4 ">
@@ -469,7 +413,7 @@ export default function Page() {
                                             sizes="100vw"
                                             priority
                                         />
-                                        <p className="pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[200px] xl:w-[180px] lg:w-[120px] md:w-[160px]">Get Started Now</p>
+                                        <p className="pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[200px] xl:w-[180px] lg:w-[120px] md:w-[160px]">{t('getStart')}</p>
                                     </div>
                                     <div className="hidden lg:block border-r-2  self-stretch border-gray-300 mx-4"></div>
                                     <div className="block lg:hidden w-full border-b border-gray-300 "></div>
@@ -485,7 +429,7 @@ export default function Page() {
                                             sizes="100vw"
                                             priority
                                         />
-                                        <p className="pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[190px] xl:w-[180px] lg:w-[120px] md:w-[180px]">Contact Us</p>
+                                        <p className="pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[190px] xl:w-[180px] lg:w-[120px] md:w-[180px]">{t('contactUs')}</p>
                                     </div>
                                     <div className="hidden lg:block border-r-2 self-stretch border-gray-300 mx-4"></div>
                                     <div className="block lg:hidden w-full border-b border-gray-300 mt-4"></div>
@@ -502,7 +446,7 @@ export default function Page() {
                                             sizes="100vw"
                                             priority
                                         />
-                                        <p className="font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[140px] xl:w-[130px] lg:w-[120px] md:w-[110px]">Scheduled a demo</p>
+                                        <p className="font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[140px] xl:w-[130px] lg:w-[120px] md:w-[110px]">{t('scheduled')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -513,7 +457,7 @@ export default function Page() {
 
             {/* Contact Form */}
             <div className="custom-container text-black py-10">
-                <ContactForm title={'Let me know if you want a design mockup, call-to-action variations, or shorter ad copy versions!'} className={' font-light leading-tight text-[26px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] 4xl:w-[1222px] 2xl:w-[1100px] xl:w-[800px] '} />
+                <ContactForm title={t('contactTitle')} className={' font-light leading-tight text-[26px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] 4xl:w-[1222px] 2xl:w-[1100px] xl:w-[800px] '} />
             </div>
         </div>
     );

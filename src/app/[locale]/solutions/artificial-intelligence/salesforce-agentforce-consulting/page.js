@@ -98,83 +98,8 @@ export default function Agentforce() {
       const t = useTranslations("agentForce");
       const locale = useLocale();
       const homepageContent = locale === "es" ? esContent : enContent;
-    
-     const { salesForce } = homepageContent.agentForce;
-     const { salesForce2 } = homepageContent.agentForce;
-     const { agentBlocks } = homepageContent.agentForce;
+        const { salesForce, salesForce2 ,agentBlocks, industryBenifite,slides} = homepageContent.agentForce;
 
-     const { industryBenifite } = homepageContent.agentForce;
-
-
-    
- 
-    const slides = [
-        {
-            id: 1,
-            image: "/images/blog/blog-1-long-thumb.webp",
-            industry: "Generic",
-            date: "30 Sept 2024",
-            heading: 'How Agentforce works',
-            url: 'insights/blogs/how-salesforce-agentforce-actually-works',
-            title: "How Salesforce Agentforce Actually Works",
-        },
-        {
-            id: 2,
-            image: "/images/blog/blog-2-long-thumb.webp",
-            industry: "Generic",
-            date: "21 Oct 2024",
-            heading: 'Atlas Reasoning Engine',
-            url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
-            title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-        },
-        {
-            id: 3,
-            image: "/images/blog/blog-3-long-thumb.webp",
-            industry: "Generic",
-            date: "28 Oct 2024",
-            heading: 'Agents vs. Copilots vs. Bots',
-            url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
-            title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-        },
-        {
-            id: 4,
-            image: "/images/blog/blog-4-long-thumb.webp",
-            industry: "Generic",
-            date: "25 Nov 2024",
-            heading: 'Agentforce Testing Center',
-            url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
-            title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        },
-        {
-            id: 11,
-            image: "/images/blog/blog-12-long-thumb.webp",
-            industry: "Generic",
-            date: "17 Sept 2024",
-            heading: 'Integrate Agenforce with Your ERP',
-            url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
-            title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-        },
-        {
-            id: 12,
-            image: "/images/blog/blog-11-long-thumb.webp",
-            industry: "Generic",
-            date: "17 Sept 2024",
-            heading: 'Slack Collaboration with Agentforce',
-            url: 'insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce',
-            title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
-        },
-        {
-            id: 14,
-            image: "/images/blog/blog-14-long-thumb.webp",
-            industry: "Generic",
-            date: "17 Sept 2024",
-            heading: 'Top Features of Agentforce',
-            url: 'insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should',
-            title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-        },
-    ];
-    
-   
     return (
         <section>
             <Seo
@@ -340,18 +265,18 @@ export default function Agentforce() {
                 </div>
             </section>
             <section className="bg-[#F5F5F5] mt-[60px] md:mt-[70px] lg:mt-[94px] py-20">
-                <div className="custom-container px-6">
-                    <FeaturedCarousel />
+                <div className="custom-container px-6 lg:pr-0">
+                <FeaturedCarousel />
                 </div>
             </section>
             <div className="mt-[60px] md:mt-[70px] lg:mt-[94px] mb-20 custom-container lg:pr-0">
-                <ServicesBlogs slides={slides} />
+                <ServicesBlogs slides={slides}/>
             </div>
             <section className='px-6 custom-container lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-20'>
                 <ExploreMoreCarousel />
             </section>
             <section className="px-6 custom-container lg:pr-0 lg:mt-20 pb-20 mt-10">
-                <ContactForm title="Take the next step to operational excellence with us." className=" 2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px]" />
+                <ContactForm title={t('contactTitle')} className=" 2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px]" />
             </section>
         </section>
     )

@@ -32,7 +32,7 @@
             },
             {
                 "title": "Open Ecosystem Integration",
-                "desc": "Integrate with industry leaders like Databricks, BigQuery, and AWS using open standards and APIs."
+                "desc": "Integrate with leaders like Databricks, BigQuery, and AWS using open standards and APIs."
             },
             {
                 "title": "Unified Governance & Security",
@@ -424,8 +424,7 @@
     "agentForce":{
         "headerTitle": "Agentforce",
         "headerDesc": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
-        
-        "headerOne": "Salesforce Agentforce:",
+                "headerOne": "Salesforce Agentforce:",
         "headerTwo": "What You Need To Know",
         "headerParaOne": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
         "headerParaTwo": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
@@ -496,8 +495,6 @@
         }
     ],
      "industryTitle": "Industry-specific Benefits That We Bring to Our Clients",
-
-
      "industryBenifite" : [
         {
             "id": 1,
@@ -529,6 +526,73 @@
             "title": "Healthcare and life sciences",
             "description": "Engage with patients, providers, and payers to act across multiple channels."
         }
-    ]
+    ],
+    "slides" : [
+        {
+            "id": 1,
+            "image": "/images/blog/blog-1-long-thumb.webp",
+            "industry": "Generic",
+            "date": "30 Sept 2024",
+            "heading": "How Agentforce works",
+            "url": "insights/blogs/how-salesforce-agentforce-actually-works",
+            "title": "How Salesforce Agentforce Actually Works"
+        },
+        {
+            "id": 2,
+            "image": "/images/blog/blog-2-long-thumb.webp",
+            "industry": "Generic",
+            "date": "21 Oct 2024",
+            "heading": "Atlas Reasoning Engine",
+            "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
+            "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+        },
+        {
+            "id": 3,
+            "image": "/images/blog/blog-3-long-thumb.webp",
+            "industry": "Generic",
+            "date": "28 Oct 2024",
+            "heading": "Agents vs. Copilots vs. Bots",
+            "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+            "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+        },
+        {
+            "id": 4,
+            "image": "/images/blog/blog-4-long-thumb.webp",
+            "industry": "Generic",
+            "date": "25 Nov 2024",
+            "heading": "Agentforce Testing Center",
+            "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
+            "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
+        },
+        {
+            "id": 11,
+            "image": "/images/blog/blog-12-long-thumb.webp",
+            "industry": "Generic",
+            "date": "17 Sept 2024",
+            "heading": "Integrate Agenforce with Your ERP",
+            "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
+            "title": "Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+        },
+        {
+            "id": 12,
+            "image": "/images/blog/blog-11-long-thumb.webp",
+            "industry": "Generic",
+            "date": "17 Sept 2024",
+            "heading": "Slack Collaboration with Agentforce",
+            "url": "insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce",
+            "title": "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce"
+        },
+        {
+            "id": 14,
+            "image": "/images/blog/blog-14-long-thumb.webp",
+            "industry": "Generic",
+            "date": "17 Sept 2024",
+            "heading": "Top Features of Agentforce",
+            "url": "insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should",
+            "title": "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
+        }
+    ],
+    "contactTitle":"Take the next step to operational excellence with us."
+    
 }
 }

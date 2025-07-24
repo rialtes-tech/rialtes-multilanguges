@@ -66,16 +66,8 @@ export default function Page() {
   const t = useTranslations("sapBdc");
   const locale = useLocale();
   const homepageContent = locale === "es" ? esContent : enContent;
-  const { listItems } = homepageContent.sapBdc;
-  const {fabricList}=homepageContent.sapBdc;
-  const {dataItems}=homepageContent.sapBdc;
-  const {partnerList}=homepageContent.sapBdc;
-  const {exploreData}=homepageContent.sapBdc;
-  const {migrateData}=homepageContent.sapBdc;
-  const {connectSapData}=homepageContent.sapBdc;
-  const {ourSapData}=homepageContent.sapBdc;
-  const {whyClientsData}=homepageContent.sapBdc;
-
+  const { listItems,fabricList,dataItems,partnerList ,exploreData ,migrateData,connectSapData,ourSapData,whyClientsData} = homepageContent.sapBdc;
+ 
   return (
     <div className="min-h-screen bg-white">
       <Seo

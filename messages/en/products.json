@@ -1,0 +1,105 @@
+{
+    "agentChat":{
+                "headerTitle":"Introducing",
+                "headerSubTitle":"AgentChat:",
+                "headerOne":" Seamless WhatsApp Conversations Inside Salesforce",
+                "engageHeader": "Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.",
+                "engageDescOne": "AgentChat is a bi-directional WhatsApp cionversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversatons efficiently, and automate workflows — all without leaving Salesforce.",
+                "engageDescTwo":"Whether you’re in Sales, Service, Marketing, Field Operations, or Education, AgentChat works across all Salesforce Clouds and lets you turn WhatsApp into a powerful engagement tool for every team.",
+                "whyHeader":"Why AgentChat?",
+                "whySubHeader":"Instant WhatsApp Conversations, Directly in Salesforce",
+                "whyDesc":"Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.",
+                "rapidTitle" :"Rapid Setup — Go Live in Minutes!",
+                 "rapidDesc": "No complex integrations. Plug-and-play setup within minutes. Start engaging right away.",
+        "realTitle": "Bi-Directional & Real-Time Messaging",
+        "realDeac": "Conversations sync in real-time — whether initiated from WhatsApp or Salesforce.",
+        "delegateTitle": "Delegate Messages to the Right Team Automatically",
+        "delegateDesc": "Automatically route conversations by record type (e.g., Cases, Leads, Work Orders), ensuring the right team responds fast.",
+        "roleTitle": "Built-in Role-Based Access and Security",
+        "roleDesc": "Control who can chat, view, and manage conversations with advanced role-based permissions and Salesforce’s native security model.",
+        "keyTitle": "Key Features of AgentChat",
+         "features" : [
+        {
+            "title": "Real-Time, Two-Way WhatsApp Messaging",
+            "image": "/images/industry/rialchat/Seamless Messaging.png",
+            "alt": "Real-Time WhatsApp Messaging",
+            "points": [
+                "Start and manage WhatsApp conversations directly from any Salesforce object.",
+                "Automatic conversation tracking linked to Salesforce records.",
+                "Full conversation history and audit trails."
+            ]
+        },
+        {
+            "title": "Context-Aware Messaging",
+            "image": "/images/industry/rialchat/Rich Media Support.png",
+            "alt": "Context-Aware Messaging",
+            "points": [
+                "Access full customer context from Salesforce while chatting.",
+                "Share files, media, and quick replies for faster resolutions."
+            ]
+        },
+        {
+            "title": "Supports All Salesforce Clouds",
+            "image": "/images/industry/rialchat/Automated Conversation Logging.png",
+            "alt": "Supports All Salesforce Clouds",
+            "points": [
+                "<strong>Sales Cloud:</strong> Convert chats to Leads and Opportunities.",
+                "<strong>Service Cloud:</strong> Manage Cases and provide instant support.",
+                "<strong>Field Service:</strong> Coordinate field operations and Work Orders.",
+                "<strong>Education Cloud:</strong> Engage students and alumni for enrollment, advising, and support.",
+                "<strong>Nonprofit Cloud:</strong> Connect with donors, volunteers, and stakeholders."
+            ]
+        },
+        {
+            "title": "Seamless Salesforce Integration",
+            "image": "/images/industry/rialchat/Seamless Messaging.png",
+            "alt": "Seamless Salesforce Integration",
+            "points": [
+                "Works out-of-the-box with Cases, Leads, Opportunities, Work Orders, and more.",
+                "Delegation and routing rules by record type — no manual effort needed."
+            ]
+        },
+        {
+            "title": "Multi-Role, Multi-Team Support",
+            "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
+            "alt": "Multi-Team Support",
+            "points": [
+                "Serve customers through dedicated teams (Sales, Support, Field Agents, Advisors).",
+                "Define who can initiate, view, or respond based on roles and business units."
+            ]
+        },
+        {
+            "title": "Salesforce-Native Security and Compliance",
+            "image": "/images/industry/rialchat/Seamless Messaging.png",
+            "alt": "Security and Compliance",
+            "points": [
+                "Leverages Salesforce’s role hierarchies, sharing rules, and object-level security.",
+                "GDPR, HIPAA-ready based on Salesforce’s secure platform."
+            ]
+        }
+           ],
+     "agentChatTitle": "Use Cases for AgentChat",
+        "tableTitleOne": "Use Case",
+        "tableTitleTwo": "How AgentChat Helps",
+        "tableData": [
+    { "title": "Customer Support", "desc": "Manage support cases via WhatsApp, instantly." },
+    { "title": "Sales Outreach", "desc": "Engage leads, close deals with real-time chats." },
+    { "title": "Field Operations", "desc": "Coordinate work orders and updates in real time." },
+    { "title": "Student Engagement", "desc": "Connect with students and alumni seamlessly." },
+    { "title": "Donor Management", "desc": "Stay in touch with donors via personalized chats." }
+  ],
+        "setupTitle": "Quick Setup. Maximum Impact.",
+        "descOne": "Install AgentChat from AppExchange.",
+        "descTwo": "Connect your WhatsApp Business Account securely.",
+         "descThree": "Map to Salesforce record types (Cases, Leads, Work Orders, etc.).",
+        "descFour": "Set roles and permissions for teams.",
+        "descFive": "Start chatting — directly from Salesforce!",
+        "readyTitle": "Ready to Supercharge WhatsApp Engagement in Salesforce?",
+        "readyDesc": "Book a Free Demo and see how AgentChat can transform customer engagement through WhatsApp — right inside Salesforce!",
+        "getStart": "Get Started Now",
+         "contactUs": "Contact Us",
+        "scheduled": "Scheduled a demo",
+       "contactTitle":"Let me know if you want a design mockup, call-to-action variations, or shorter ad copy versions!"
+            }
+
+}

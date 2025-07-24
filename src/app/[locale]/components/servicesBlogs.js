@@ -1,16 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import 'react-multi-carousel/lib/styles.css';
-import Carousel from 'react-multi-carousel';
+import "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+export default function ServicesBlogs({ padding, slides }) {
+  const t = useTranslations("servicesBlogs");
 
-export default function ServicesBlogs({ slides, padding }) {
+  //  const { salesForce } = homepageContent.servicesBlogs;
   if (!slides || slides.length === 0) {
-    return null; 
+    return null;
   }
 
-  const responsive = { 
+  const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4,
@@ -30,25 +33,66 @@ export default function ServicesBlogs({ slides, padding }) {
   };
 
   const ButtonGroup = ({ next, previous, ...rest }) => {
-    const { carouselState: { currentSlide } } = rest;
+    const {
+      carouselState: { currentSlide },
+    } = rest;
     const showNavigation = slides.length > 4;
 
     return (
       showNavigation && (
         <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
-          <button    aria-label="Previous slide"
-            className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} 
+          <button
+            aria-label="Previous slide"
+            className={
+              currentSlide === 0
+                ? "disable bg-white p-2 mr-2 group transition-all duration-300"
+                : "bg-white p-2 mr-2 group transition-all duration-300"
+            }
             onClick={() => previous()}
           >
-             <span className="sr-only">Previous slide</span>
-            <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-              <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+            <span className="sr-only">Previous slide</span>
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#707070"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="group-hover:stroke-[#C3C3C3]"
+            >
+              <path
+                d="M3 7.5L11 0V15L3 7.5Z"
+                fill="none"
+                className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]"
+              />
             </svg>
           </button>
-          <button   aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <button
+            aria-label="Next slide"
+            className="bg-white p-2 group transition-all duration-300"
+            onClick={() => next()}
+          >
             <span className="sr-only">Next slide</span>
-            <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-              <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#707070"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="group-hover:stroke-[#C3C3C3]"
+            >
+              <path
+                d="M12 7.5L4 0V15L12 7.5Z"
+                fill="none"
+                className="transition-all duration-300 group-hover:fill-[#C3C3C3]"
+              />
             </svg>
           </button>
         </div>
@@ -61,25 +105,27 @@ export default function ServicesBlogs({ slides, padding }) {
       onMove,
       index,
       active,
-      carouselState: { currentSlide, deviceType }
+      carouselState: { currentSlide, deviceType },
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-        aria-label="Custom Dots"
-      />
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${
+            active ? "bg-[#134874]" : "bg-[#D1D1D1]"
+          }`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+        />
       </li>
     );
   };
 
   return (
     <section className="relative pb-8 bg-white">
-      <div className={"mx-auto " + (padding ? padding : '')}>
+      <div className={"mx-auto " + (padding ? padding : "")}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-10">Insights</h2>
+          <h2 className="text-black mb-10">{t("headerTitle")}</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -116,19 +162,25 @@ export default function ServicesBlogs({ slides, padding }) {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   priority
                 />
                 <div className="absolute inset-0 p-6 my-4 group-hover:opacity-0">
-                  <span className="line-clamp-4 md:line-clamp-4 font-medium text-[20px]">{slide.heading}</span>
+                  <span className="line-clamp-4 md:line-clamp-4 font-medium text-[20px]">
+                    {slide.heading}
+                  </span>
                 </div>
               </div>
 
               <div className="absolute inset-0 bg-[#134874] bg-opacity-80 p-6 md:opacity-0 opacity-100 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between">
-                <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[20px]">{slide.heading}</span>
+                <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[20px]">
+                  {slide.heading}
+                </span>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
-                  <Link tabIndex={-1} href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
+                  <Link tabIndex={-1} href={"/" + slide.url}>
+                    <span className="font-medium">{t('learnMore')} &#8594;</span>
+                  </Link>
                 </div>
               </div>
             </div>
