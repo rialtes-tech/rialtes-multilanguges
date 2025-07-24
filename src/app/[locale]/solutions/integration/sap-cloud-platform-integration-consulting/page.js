@@ -1,7 +1,6 @@
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Image from "next/image";
 import Script from "next/script";
 import React from "react";

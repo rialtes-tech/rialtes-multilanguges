@@ -187,5 +187,187 @@
         "agentChatSubTitle": "AI-Powered Supplier Engagement",
         "agentChatDesc": "Rialtes RialChat is a bi-directional WhatsApp conversational app, designed for seamless procurement collaboration.",
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
-    }
+    },
+        "successPlus": {
+        "headerTitle": "Success+",
+        "headerSubTitlep1": "Transforming HR for",
+        "headerSubTitlep2": " the Modern Enterprise",
+        "headerSubTitle2": "Rialtes’ Success+",
+        "headerSubTitle3": "for SAP SuccessFactors",
+        "pageDescTitle": "End-to-End SuccessFactors Consulting Services for a Future-Ready Workforce",
+        "pageDesc1": "At Rialtes, we believe HR is at the center of every organization’s success. Our ‘SuccessPlus’ suite of SAP SuccessFactors services is designed to help organizations transform their human capital management (HCM) strategies, streamline HR processes, and deliver an exceptional employee experience.",
+        "pageDesc2": "As a certified SAP partner with global offices in India, the United States, Canada, and Singapore, Rialtes brings deep industry knowledge, SAP-certified experts, and real-world experience to design, implement, and optimize SAP SuccessFactors solutions tailored to your needs.",
+        "whyRialtesTitle": "What is Rialtes’ Success+?",
+        "whyRialtesSubTitle1": "A Full Lifecycle SAP",
+        "whyRialtesSubTitle2": "SuccessFactors Offering",
+        "whyRialtesDesc": "Our SuccessPlus services combine license advisory, implementation, configuration, integration, quality assurance, and post-go-live support to deliver a holistic and seamless SAP SuccessFactors journey for your organization.",
+        "workdayTitle1": "Workday to SAP SuccessFactors",
+        "workdayTitle2": "Migration -",
+        "workdayTitle3": "Migrate with Confidence",
+        "workdayDesc": "Organizations seeking to move from Workday to SAP SuccessFactors can rely on Rialtes’ proven methodology to ensure a secure, compliant, and smooth transition.",
+        "ourWorkdayTitle": "Our Workday to SuccessFactors Migration Includes:",
+        "ourWorkdayTitle2": "Key Benefits of Migrating from Workday to SuccessFactors:",
+        "zohoTitle1": "ZOHO HR to SAP SuccessFactors",
+        "zohoTitle2": "Migration -",
+        "zohoTitle3": "Enterprise-Grade HR Transformation",
+        "zohoDesc": "Outgrowing ZOHO HR? Rialtes offers end-to-end migration from ZOHO HR to SAP SuccessFactors, enabling a shift to a global, enterprise-grade HR platform.",
+        "ourZohoTitle": "Our ZOHO to SuccessFactors Migration Includes:",
+        "ourZohoSubTitle": "Benefits of Migrating from ZOHO HR to SAP SuccessFactors:",
+        "benefitsMigratingTitle": " Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+",
+        "processTitle": "Process-Driven Success with SAP Signavio and SAP Activate Methodology",
+        "processDesc": "Rialtes leverages SAP Signavio’s powerful process intelligence combined with SAP Activate Methodology to ensure smooth and efficient implementation of SAP SuccessFactors.",
+        "processSubTitle1": "SAP Activate Methodology -",
+        "processSubTitle2": "Phased Approach with Rialtes:",
+        "sapSuccessTitle1": "SAP SuccessFactors and SAP S/4HANA -",
+        "sapSuccessTitle2": "Better Together",
+        "sapSuccessDesc": "SAP SuccessFactors natively integrates with SAP S/4HANA, enabling seamless HR processes that are tightly coupled with finance, procurement, and operations.",
+        "keyTitle": "Key Integrated Processes:",
+        "sapCpiTitle1": "SAP CPI -",
+        "sapCpiTitle2": "Integrating SAP SuccessFactors Across Ecosystems",
+        "sapCpiDesc": " With SAP Cloud Platform Integration (CPI), Rialtes ensures smooth and secure integration of SuccessFactors with:",
+        "sapJouleTitle1": "SAP Joule -",
+        "sapJouleTitle2": " AI-Powered HR Assistant for SuccessFactors Leverage AI with SAP Joule - Empowering the Future of HR",
+        "sapJouleDesc": "Rialtes enables organizations to adopt SAP Joule, the intelligent AI assistant for SAP SuccessFactors.",
+        "capabilitiesTitle": "Capabilities of SAP Joule:",
+        "sapJouleBlueBox": "Rialtes customizes and fine-tunes Joule to align with your HR needs.",
+        "extendSapTitle1": "Extend SAP SuccessFactors with SAP BTP -",
+        "extendSapTitle2": "Rialtes’ Unmatched Expertise",
+        "extendSapDesc": " Rialtes’ strong SAP Business Technology Platform (BTP) competency allows for custom extensions, advanced analytics, and integrations:",
+        "extendBlueBox": " Our SAP-certified BTP experts ensure secure, scalable, and compliant extensions that align with enterprise standards.",
+        "extendBlueBoxMobile": "Our SAP-certified BTP experts ensure secure, scalable, and compliant extensions that align with enterprise standards.",
+        "relatedTitle1": "Related SAP Solutions for End-to-End",
+        "relatedTitle2": "Transformation",
+        "agentChatTitle": " AgentChat — Empowering HR Conversations on WhatsApp",
+        "agentChatDesc": "AgentChat is a bi-directional WhatsApp conversational app, natively built on Salesforce, and integrates with SAP SuccessFactors to drive better HR service delivery.",
+        "keyFeatureTitle": "Key Features:",
+        "contactTitle": "Partner with Rialtes for Your SAP SuccessFactors Journey",
+        "contactSubTitle": "Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation.",
+        "empoweringTitle": " Rialtes — Empowering Enterprises to Lead with SAP SuccessFactors Journey",
+        "relatedData": [
+            "SAP S/4HANA for Finance & Operations.",
+            "SAP Ariba for Direct & Indirect Procurement",
+            "SAP Concur for Travel & Expense",
+            "SAP CPI for Cloud Integrations"
+        ],
+        "agentData": [
+            "Role-based communication (recruiters, managers, HR).",
+            "Case, lead, and work order delegation by type.",
+            "Employee self-service for leave, benefits, and more.",
+            "Quick setup in minutes. Fully secure and compliant."
+        ],
+        "ourWorkdayData": [
+            "Comprehensive system comparison and gap analysis.",
+            "Mapping Workday HR processes to SAP SuccessFactors best practices.",
+            "Secure data migration, validation, and cleansing.",
+            "Change management and employee training to ensure adoption.",
+            "Integration with SAP S/4HANA, Finance, and Payroll."
+        ],
+        "keyBenefitsData": [
+            "Unified platform with SAP S/4HANA for HR and business processes.",
+            "Reduced operational costs and improved scalability.",
+            "Enhanced analytics and AI capabilities with SAP Joule."
+        ],
+        "ourZohoData": [
+            "Assessment and mapping of ZOHO HR processes to SuccessFactors.",
+            "Employee data migration with validation and secure handling.",
+            "Re-engineering workflows to align with SuccessFactors’ HXM principles.",
+            "User training and post-deployment support."
+        ],
+        "zohoBenefitsData": [
+            "Enterprise compliance and data security.",
+            "End-to-end employee lifecycle management.",
+            "AI-driven insights and enhanced user experiences."
+        ],
+        "migratingBenefitsData": [
+            {
+                "img": "/images/services/success-plus/unified-img.svg",
+                "title": "Unified HR platform aligned with business goals."
+            },
+            {
+                "img": "/images/services/success-plus/future-img.svg",
+                "title": "Future-proofing HR with AI, automation, and advanced analytics."
+            },
+            {
+                "img": "/images/services/success-plus/integration-img.svg",
+                "title": "Integration with core SAP and third-party systems for a connected enterprise."
+            },
+            {
+                "img": "/images/services/success-plus/global-hr-img.svg",
+                "title": "Global HR compliance and local adaptability."
+            }
+        ],
+        "sapActivateData": [
+            {
+                "id": 1,
+                "title": "Discover Phase",
+                "list": [
+                    "Understanding your HR transformation goals.",
+                    "Initial system evaluation, readiness checks, and value mapping.",
+                    "High-level scoping and timeline planning."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Prepare Phase",
+                "list": [
+                    "Project planning, governance setup, and team onboarding.",
+                    "System access and pre-requisite checklists."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Explore Phase",
+                "list": [
+                    "Fit-to-standard workshops leveraging SAP Signavio to align processes with industry best practices.",
+                    "Identify customizations and integration points."
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Realize Phase",
+                "list": [
+                    "Configuration of SuccessFactors modules (Employee Central, Talent, Learning, Compensation, etc.).",
+                    "Custom development and integrations. ",
+                    "Data migration and testing (unit, integration, UAT)."
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Deploy Phase",
+                "list": [
+                    "Final system readiness, user training, and go-live planning.",
+                    "Cutover execution and post-go-live support setup."
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Run Phase",
+                "list": [
+                    "Stabilization, ongoing support, and continuous improvement roadmap."
+                ]
+            }
+        ],
+        "sapSuccessFactorData": [
+            "Employee lifecycle data feeding finance and procurement.",
+            "Unified organizational management. ",
+            "Streamlined payroll and time management."
+        ],
+        "sapJouleData": [
+            "Conversational AI for employee self-service (ESS).",
+            "AI recommendations for career growth, learning, and wellness.",
+            "AI-driven HR case resolution and knowledge management.",
+            "Predictive insights for HR leaders on attrition, performance, and more."
+        ],
+        "sapCpiData": [
+            "SAP S/4HANA, SAP Ariba, Concur, Fieldglass. ",
+            "Third-party applications (ADP, Salesforce, Workday, Oracle).",
+            "Custom enterprise systems."
+        ],
+        "extendData": [
+            "Custom HR workflows and forms.",
+            "Integrations with third-party solutions. ",
+            "Employee experience applications and mobile enablement.",
+            "AI/ML solutions for talent management, learning, and engagement."
+        ]
+    }  
 }

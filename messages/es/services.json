@@ -187,5 +187,187 @@
         "agentChatSubTitle": "Colaboración Inteligente con Proveedores",
         "agentChatDesc": "Rialtes RialChat es una app de conversación bidireccional vía WhatsApp, diseñada para una colaboración eficiente en compras.",
         "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
+    },
+    "successPlus": {
+        "headerTitle": "Success+",
+        "headerSubTitlep1": "Transformando RRHH para",
+        "headerSubTitlep2": " la Empresa Moderna",
+        "headerSubTitle2": "Success+ de Rialtes",
+        "headerSubTitle3": "para SAP SuccessFactors",
+        "pageDescTitle": "Servicios de Consultoría SuccessFactors de Extremo a Extremo para una Fuerza Laboral Preparada para el Futuro",
+        "pageDesc1": "En Rialtes, creemos que RRHH está en el centro del éxito de toda organización. Nuestra suite ‘SuccessPlus’ de servicios SAP SuccessFactors está diseñada para ayudar a las organizaciones a transformar sus estrategias de gestión del capital humano (HCM), optimizar procesos de RRHH y brindar una experiencia excepcional al empleado.",
+        "pageDesc2": "Como socio certificado de SAP con oficinas globales en India, Estados Unidos, Canadá y Singapur, Rialtes aporta profundo conocimiento de la industria, expertos certificados por SAP y experiencia práctica para diseñar, implementar y optimizar soluciones SAP SuccessFactors adaptadas a sus necesidades.",
+        "whyRialtesTitle": "¿Qué es Success+ de Rialtes?",
+        "whyRialtesSubTitle1": "Una Oferta Integral de",
+        "whyRialtesSubTitle2": "SuccessFactors de SAP",
+        "whyRialtesDesc": "Nuestros servicios SuccessPlus combinan asesoría de licencias, implementación, configuración, integración, aseguramiento de calidad y soporte post-producción para ofrecer una experiencia integral y fluida en SAP SuccessFactors para su organización.",
+        "workdayTitle1": "Migración de Workday a",
+        "workdayTitle2": "SAP SuccessFactors -",
+        "workdayTitle3": "Migre con Confianza",
+        "workdayDesc": "Las organizaciones que desean migrar de Workday a SAP SuccessFactors pueden confiar en la metodología comprobada de Rialtes para asegurar una transición segura, conforme y fluida.",
+        "ourWorkdayTitle": "Nuestra Migración de Workday a SuccessFactors Incluye:",
+        "ourWorkdayTitle2": "Beneficios Clave de Migrar de Workday a SuccessFactors:",
+        "zohoTitle1": "Migración de ZOHO HR a",
+        "zohoTitle2": "SAP SuccessFactors -",
+        "zohoTitle3": "Transformación Empresarial de RRHH",
+        "zohoDesc": "¿ZOHO HR se le quedó corto? Rialtes ofrece una migración de extremo a extremo desde ZOHO HR a SAP SuccessFactors, permitiendo una transición hacia una plataforma global y empresarial de RRHH.",
+        "ourZohoTitle": "Nuestra Migración de ZOHO a SuccessFactors Incluye:",
+        "ourZohoSubTitle": "Beneficios de Migrar de ZOHO HR a SAP SuccessFactors:",
+        "benefitsMigratingTitle": "Beneficios de Migrar a SAP SuccessFactors con Success+ de Rialtes",
+        "processTitle": "Éxito Impulsado por Procesos con SAP Signavio y SAP Activate",
+        "processDesc": "Rialtes aprovecha la potente inteligencia de procesos de SAP Signavio combinada con la metodología SAP Activate para garantizar una implementación fluida y eficiente de SAP SuccessFactors.",
+        "processSubTitle1": "Metodología SAP Activate -",
+        "processSubTitle2": "Enfoque Faseado con Rialtes:",
+        "sapSuccessTitle1": "SAP SuccessFactors y SAP S/4HANA -",
+        "sapSuccessTitle2": "Mejor Juntos",
+        "sapSuccessDesc": "SAP SuccessFactors se integra de forma nativa con SAP S/4HANA, permitiendo procesos de RRHH perfectamente conectados con finanzas, compras y operaciones.",
+        "keyTitle": "Procesos Integrados Clave:",
+        "sapCpiTitle1": "SAP CPI -",
+        "sapCpiTitle2": "Integrando SAP SuccessFactors en Todo el Ecosistema",
+        "sapCpiDesc": "Con SAP Cloud Platform Integration (CPI), Rialtes asegura una integración fluida y segura de SuccessFactors con:",
+        "sapJouleTitle1": "SAP Joule -",
+        "sapJouleTitle2": " Asistente de RRHH Impulsado por IA para SuccessFactors — Impulse el Futuro de RRHH",
+        "sapJouleDesc": "Rialtes permite a las organizaciones adoptar SAP Joule, el asistente inteligente de IA para SAP SuccessFactors.",
+        "capabilitiesTitle": "Capacidades de SAP Joule:",
+        "sapJouleBlueBox": "Rialtes personaliza y ajusta Joule para alinearse con las necesidades de RRHH de su organización.",
+        "extendSapTitle1": "Extienda SAP SuccessFactors con SAP BTP -",
+        "extendSapTitle2": "Experiencia Inigualable de Rialtes",
+        "extendSapDesc": "La sólida competencia de Rialtes en SAP Business Technology Platform (BTP) permite extensiones personalizadas, análisis avanzados e integraciones:",
+        "extendBlueBox": "Nuestros expertos certificados en SAP BTP garantizan extensiones seguras, escalables y conformes con los estándares empresariales.",
+        "extendBlueBoxMobile": "Nuestros expertos certificados en SAP BTP garantizan extensiones seguras, escalables y conformes con los estándares empresariales.",
+        "relatedTitle1": "Soluciones SAP Relacionadas para una",
+        "relatedTitle2": "Transformación de Extremo a Extremo",
+        "agentChatTitle": " AgentChat — Impulsando Conversaciones de RRHH por WhatsApp",
+        "agentChatDesc": "AgentChat es una app conversacional bidireccional de WhatsApp, construida de forma nativa sobre Salesforce, que se integra con SAP SuccessFactors para mejorar la prestación de servicios de RRHH.",
+        "keyFeatureTitle": "Características Clave:",
+        "contactTitle": "Asóciese con Rialtes para su Transformación con SAP SuccessFactors",
+        "contactSubTitle": "Ya sea que esté comenzando, migrando desde Workday o ZOHO, o mejorando su entorno actual de SuccessFactors, SuccessPlus de Rialtes ofrece la experiencia, herramientas y metodología para lograr una verdadera transformación de RRHH.",
+        "empoweringTitle": " Rialtes — Impulsando Empresas a Liderar con SAP SuccessFactors",
+        "relatedData": [
+            "SAP S/4HANA para Finanzas y Operaciones.",
+            "SAP Ariba para Compras Directas e Indirectas",
+            "SAP Concur para Viajes y Gastos",
+            "SAP CPI para Integraciones en la Nube"
+        ],
+        "agentData": [
+            "Comunicación basada en roles (reclutadores, gerentes, RRHH).",
+            "Delegación de casos, oportunidades y órdenes de trabajo por tipo.",
+            "Autoservicio para empleados: licencias, beneficios y más.",
+            "Configuración rápida en minutos. Totalmente seguro y conforme."
+        ],
+        "ourWorkdayData": [
+            "Comparación completa de sistemas y análisis de brechas.",
+            "Mapeo de procesos de Workday a las mejores prácticas de SAP SuccessFactors.",
+            "Migración segura de datos, validación y depuración.",
+            "Gestión del cambio y capacitación para asegurar la adopción.",
+            "Integración con SAP S/4HANA, Finanzas y Nómina."
+        ],
+        "keyBenefitsData": [
+            "Plataforma unificada con SAP S/4HANA para procesos de RRHH y negocio.",
+            "Reducción de costos operativos y mejora de la escalabilidad.",
+            "Análisis mejorados y capacidades de IA con SAP Joule."
+        ],
+        "ourZohoData": [
+            "Evaluación y mapeo de procesos ZOHO HR a SuccessFactors.",
+            "Migración de datos de empleados con validación y seguridad.",
+            "Reingeniería de flujos de trabajo alineados con HXM de SuccessFactors.",
+            "Capacitación al usuario y soporte post-despliegue."
+        ],
+        "zohoBenefitsData": [
+            "Cumplimiento empresarial y seguridad de datos.",
+            "Gestión de ciclo de vida del empleado de extremo a extremo.",
+            "Información impulsada por IA y experiencias de usuario mejoradas."
+        ],
+        "migratingBenefitsData": [
+            {
+                "img": "/images/services/success-plus/unified-img.svg",
+                "title": "Plataforma de RRHH unificada alineada con objetivos de negocio."
+            },
+            {
+                "img": "/images/services/success-plus/future-img.svg",
+                "title": "Preparación del RRHH para el futuro con IA, automatización y análisis avanzados."
+            },
+            {
+                "img": "/images/services/success-plus/integration-img.svg",
+                "title": "Integración con sistemas SAP principales y terceros para una empresa conectada."
+            },
+            {
+                "img": "/images/services/success-plus/global-hr-img.svg",
+                "title": "Cumplimiento global de RRHH y adaptabilidad local."
+            }
+        ],
+        "sapActivateData": [
+            {
+                "id": 1,
+                "title": "Fase Descubrir",
+                "list": [
+                    "Comprensión de los objetivos de transformación de RRHH.",
+                    "Evaluación inicial del sistema, chequeos de preparación y mapeo de valor.",
+                    "Definición de alcance a alto nivel y planificación del cronograma."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Fase Preparar",
+                "list": [
+                    "Planificación del proyecto, configuración de gobernanza y formación del equipo.",
+                    "Acceso al sistema y listas de verificación previas."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Fase Explorar",
+                "list": [
+                    "Talleres Fit-to-Standard utilizando SAP Signavio para alinear procesos con las mejores prácticas de la industria.",
+                    "Identificación de personalizaciones y puntos de integración."
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Fase Realizar",
+                "list": [
+                    "Configuración de módulos SuccessFactors (Employee Central, Talento, Aprendizaje, Compensación, etc.).",
+                    "Desarrollo personalizado e integraciones.",
+                    "Migración y pruebas de datos (unitarias, integración, UAT)."
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Fase Desplegar",
+                "list": [
+                    "Preparación final del sistema, capacitación del usuario y planificación del lanzamiento.",
+                    "Ejecución del cambio y configuración del soporte posterior."
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Fase Ejecutar",
+                "list": [
+                    "Estabilización, soporte continuo y hoja de ruta de mejora continua."
+                ]
+            }
+        ],
+        "sapSuccessFactorData": [
+            "Datos del ciclo de vida del empleado alimentando finanzas y compras.",
+            "Gestión organizacional unificada.",
+            "Gestión simplificada de nómina y tiempos."
+        ],
+        "sapJouleData": [
+            "IA conversacional para autoservicio de empleados.",
+            "Recomendaciones de IA para carrera, aprendizaje y bienestar.",
+            "Resolución de casos de RRHH impulsada por IA y gestión del conocimiento.",
+            "Información predictiva para líderes de RRHH sobre rotación, rendimiento y más."
+        ],
+        "sapCpiData": [
+            "SAP S/4HANA, SAP Ariba, Concur, Fieldglass.",
+            "Aplicaciones de terceros (ADP, Salesforce, Workday, Oracle).",
+            "Sistemas empresariales personalizados."
+        ],
+        "extendData": [
+            "Flujos de trabajo y formularios personalizados de RRHH.",
+            "Integraciones con soluciones de terceros.",
+            "Aplicaciones para experiencia del empleado y habilitación móvil.",
+            "Soluciones de IA/ML para gestión del talento, aprendizaje y compromiso."
+        ]
     }
 }
