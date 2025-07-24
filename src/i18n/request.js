@@ -23,7 +23,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const agentforce = (await import(`../../messages/${locale}/solutions.json`)).default;
     const sapConsulting = (await import(`../../messages/${locale}/solutions.json`)).default;
     const oracle = (await import(`../../messages/${locale}/solutions.json`)).default;
-
     // const successPlus = (await import(`../../messages/${locale}/solutions.json`)).default;
     const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
