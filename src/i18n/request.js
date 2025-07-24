@@ -23,14 +23,16 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const agentforce = (await import(`../../messages/${locale}/solutions.json`)).default;
     const sapConsulting = (await import(`../../messages/${locale}/solutions.json`)).default;
     const oracle = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const sapCpi = (await import(`../../messages/${locale}/solutions.json`)).default;
     const successPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
+    const kinaxis = (await import(`../../messages/${locale}/services.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
-     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
-     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
+    const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
 
 
-   return {
+    return {
         locale,
         messages: {
             ...homepage,
@@ -51,7 +53,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...successPlus,
             ...servicesBlogs,
             ...exploreMore,
-            ...agentChat
+            ...agentChat,
+            ...sapCpi,
+            ...kinaxis
 
         }
     };

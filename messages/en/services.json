@@ -188,7 +188,7 @@
         "agentChatDesc": "Rialtes RialChat is a bi-directional WhatsApp conversational app, designed for seamless procurement collaboration.",
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
     },
-        "successPlus": {
+    "successPlus": {
         "headerTitle": "Success+",
         "headerSubTitlep1": "Transforming HR for",
         "headerSubTitlep2": " the Modern Enterprise",
@@ -369,5 +369,141 @@
             "Employee experience applications and mobile enablement.",
             "AI/ML solutions for talent management, learning, and engagement."
         ]
-    }  
+    },
+    "kinaxis": {
+        "headerTitle": "DemandPlus",
+        "headerSubTitle": "Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse",
+        "pageDescTitle": "Agility, Accuracy, and Resilience in Supply Chain — Powered by Kinaxis and Rialtes",
+        "pageDesc1": "In today’s volatile and complex supply chain landscape, businesses need real-time visibility, agile planning, and predictive insights to stay competitive. Rialtes’ DemandPlus Services, built around Kinaxis RapidResponse, deliver end-to-end supply chain transformation, enabling companies to plan, monitor, and respond to supply chain dynamics in real-time.",
+        "pageDesc2": "As a certified Kinaxis and SAP partner with offices in United States, Canada, India, and Singapore, and a team of highly certified Kinaxis experts, Rialtes helps clients leverage RapidResponse to unlock connected, intelligent, and resilient supply chains — ready for tomorrow’s challenges.",
+        "kinaxisServices": [
+            {
+                "id": 1,
+                "title": "SAP S/4 HANA Integration with Mulesoft",
+                "description": "Seamless ERP Integrations Across SAP, Oracle, and Kinaxis",
+                "knowMore": "/solutions/integration/mulesoft-salesforce"
+            },
+            {
+                "id": 2,
+                "title": "Oracle EBS Integration",
+                "description": "Extend Kinaxis planning to Oracle-based environments for hybrid ERP landscapes.",
+                "knowMore": "/solutions/enterprise-platforms/oracle-ebs-consulting"
+            },
+            {
+                "id": 3,
+                "title": "SAP BTP",
+                "description": "Unifying Planning and Production with Seamless ERP Integrations",
+                "knowMore": "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services"
+            }
+        ],
+        "endToEndData": [
+            "Kinaxis License Advisory & Value Assessment",
+            "Solution Architecture & Design",
+            "Rapid Implementation & Process Configuration",
+            "Quality Assurance, Testing & User Training",
+            "Integration with SAP S/4 HANA, Oracle EBS & Non-SAP Systems",
+            "Post-Go-Live Support & Continuous Process Optimization"
+        ],
+        "supplyChain": [
+            "Demand Planning & Forecasting",
+            "Supply Planning & Inventory Management",
+            "Sales & Operations Planning (S&OP)",
+            "Capacity & Production Planning",
+            "Supplier Collaboration & Risk Management",
+            "Distribution & Logistics Planning"
+        ],
+        "salesData": [
+            "Align demand and supply plans in real-time.",
+            "Balance financial goals and operational constraints.",
+            "Create what-if scenarios and evaluate trade-offs instantly.",
+            "Enhance cross-functional collaboration across sales, supply chain, and finance."
+        ],
+        "inventeryOptimizationData": [
+            "End-to-end visibility across multi-echelon inventory.",
+            "Right-sizing inventory levels to balance service and cost.",
+            "Dynamic inventory policies based on real-time demand and supply signals."
+        ],
+        "enterpriseSchedulingData": [
+            "Finite capacity scheduling for manufacturing and production.",
+            "Optimized allocation of resources and materials.",
+            "Real-time adjustments based on disruptions and priority changes."
+        ],
+        "scenarioData": [
+            "Model complex supply chain scenarios (supplier delays, demand surges, production downtimes).",
+            "Evaluate impacts in real-time across financials, inventory, and operations.",
+            "Enable leadership teams to make confident, data-driven decisions."
+        ],
+        "seamlessIntegrationData": [
+            "SAP S/4 HANA and ECC",
+            "Oracle EBS and Cloud ERP",
+            "Legacy and non-SAP systems"
+        ],
+        "rialtesStrongData": [
+            "Custom apps and workflows on BTP.",
+            "Real-time API management and orchestration.",
+            "Advanced analytics and AI integrations."
+        ],
+        "agentChatData": [
+            "Rapid deployment within minutes.",
+            "Secure, role-based access.",
+            "Case, order, and issue delegation by type (orders, inventory, delays).",
+            "Fully integrated with Salesforce and SAP environments."
+        ],
+        "leadingData": [
+            "Predictive analytics and machine learning models.",
+            "Integrated AI for demand sensing and forecasting.",
+            "Real-time risk assessment and mitigation."
+        ],
+        "introducingTitle": "Introducing",
+        "introducingTitle2": " Rialtes DemandPlus",
+        "introducingTitle3": " End-to-End Kinaxis Services",
+        "introducingDesc": " Our DemandPlus suite offers a holistic approach to deploying Kinaxis RapidResponse, combining:",
+        "introducingBlueBox": "From strategy to execution, Rialtes enables a seamless and accelerated journey to Kinaxis-driven supply chain transformation.",
+        "whyKinaxisTitle": "Why Kinaxis RapidResponse?",
+        "whyKinaxisSubTitle": "Kinaxis RapidResponse is a cloud-based supply chain planning platform that delivers:",
+        "whyKinaxisData": [
+            "Concurrent planning for synchronized supply chain decisions.",
+            "Real-time visibility across demand, supply, inventory, and capacity.",
+            "Rapid scenario modeling for agile responses to disruptions.",
+            "Seamless collaboration across supply chain, operations, and finance."
+        ],
+        "supplyChainTitle": "Supply Chain Planning Reimagined with Rialtes and Kinaxis",
+        "endToEndTitle": " End-to-End Supply Chain Planning Capabilities:",
+        "salesTitle": "Sales & Operations Planning (S&OP)",
+        "driveTitle": "Drive Cross-Functional Alignment",
+        "salesDesc": "Rialtes leverages Kinaxis to deliver best-in-class S&OP capabilities, enabling companies to:",
+        "outcomeTitle": "Outcome: Greater forecast accuracy, lower inventory, and improved service levels.",
+        "inventoryTitle": "Inventory Optimization & Enterprise Scheduling",
+        "inventoryTitle2": "Maximize Efficiency",
+        "inventoryDesc": "With Kinaxis, Rialtes helps clients achieve precision inventory management and production scheduling:",
+        "inventeryOptimizationTitle": "Inventory Optimization",
+        "enterpriseTitle": "Enterprise Scheduling",
+        "scenarioTitle": "Scenario Planning",
+        "scenarioSubTitle": "Prepare for Every Possibility",
+        "scenarioDesc": "What-if analysis and scenario simulation are at the heart of Kinaxis RapidResponse, and Rialtes brings the expertise to fully leverage them:",
+        "seamlessTitle": "Seamless Integration with SAP, Oracle, and Non-SAP Systems",
+        "seamlessSubTitle": "Integrate Kinaxis with Your Existing ERP Ecosystem",
+        "seamlessDesc": "Rialtes delivers robust integration services using SAP Cloud Platform Integration (SAP CPI) and Kinaxis-certified connectors:",
+        "seamlessBlueBox": "Our pre-built accelerators and custom APIs ensure real-time data flow for synchronized planning.",
+        "rialtesStrongTitle": "Rialtes’ Strong SAP BTP Competency",
+        "rialtesStrongSubTitle": "Extending S/4 HANA Value",
+        "rialtesStrongDesc": "Rialtes brings deep expertise in SAP Business Technology Platform (BTP) to extend, customize, and enhance S/4 HANA integration with Kinaxis:",
+        "rialtesStrongBlueBox": "Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.",
+        "bringingTitle": "Bringing Together Kinaxis and the Broader Enterprise Ecosystem",
+        "bringingSubTitle": "Related SAP and Procurement Solutions with Rialtes:",
+        "sapAribaTitle": " SAP ARIBA & Procurement",
+        "sapAribaSubTitle": "Direct/indirect procurement visibility connected to supply chain plans.",
+        "sapAribaSubTitle2": "SAP CPI — Connect S/4 HANA with Non-SAP Systems",
+        "sapAribaDesc": "Rialtes leverages SAP CPI to connect S/4 HANA, Kinaxis, and other enterprise systems for a fully synchronized supply chain.",
+        "enhanceTitle": "Enhance Supply Chain Conversations with AgentChat",
+        "enhanceTitle2": "WhatsApp for Supply Chain Teams",
+        "agentChatTitle": "Introducing AgentChat Your Conversational AI for Supply Chain",
+        "agentChatDesc": " AgentChat is a bi-directional WhatsApp conversational app, enabling instant collaboration across supply chain teams.",
+        "highlightTitle": "AgentChat Highlights:",
+        "agentChatBlueBox": "Now, connect your supply chain teams, suppliers, and partners with a familiar and powerful interface — WhatsApp + ERP + CRM.",
+        "leadingTitle": "Leading the Future with AI, Data, and Integrated Planning",
+        "leadingDesc": "At Rialtes, we go beyond standard implementations — combining AI, data science, and advanced planning tools to create responsive and resilient supply chains.",
+        "contactTitle": "Start Your Kinaxis Journey with Rialtes DemandPlus Today",
+        "contactSubTitle": "Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution."
+    }
 }

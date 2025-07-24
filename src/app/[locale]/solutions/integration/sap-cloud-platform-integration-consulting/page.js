@@ -4,6 +4,9 @@ import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import React from "react";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/solutions.json';
+import esContent from '../../../../../../messages/es/solutions.json';
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 export default function page() {
     const schemaData = {
@@ -99,208 +102,10 @@ export default function page() {
             ]
         }
     }
-    const thoughtLeadershipData = [
-        "Disconnected systems and data silos limiting agility.",
-        "Manual processes draining resources and increasing errors.",
-        "Limited visibility across departments and partner ecosystems.",
-        "Slow, fragmented customer and supplier interactions."
-    ]
-    const endToEndData = [
-        {
-            title: "Integration Strategy, Advisory & Architecture",
-            dataList: [
-                "End-to-end assessment of your integration landscape.",
-                "Architecture blueprints aligned with business goals.",
-                "Best-fit CPI patterns, adapters, and connectors.",
-            ]
-        },
-        {
-            title: "SAP CPI Implementation & Deployment",
-            dataList: [
-                "SAP-to-SAP (S/4HANA, SuccessFactors, Ariba, etc.) and SAP-to-non-SAP (Salesforce, Oracle, Workday) integrations.",
-                "Workflow design, data transformation, error handling, and orchestration.",
-                "End-to-end implementation and testing.",
-            ]
-        },
-        {
-            title: "Pre-Built Accelerators & Industry Connectors",
-            dataList: [
-                "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, and High-Tech. ",
-                "Pre-delivered templates for rapid deployment and faster time-to-value.",
-            ]
-        },
-        {
-            title: "Quality Assurance & Compliance",
-            dataList: [
-                "Integration validation and stress testing.",
-                "Security, privacy, and compliance frameworks (GDPR, HIPAA).",
-            ]
-        },
-        {
-            title: "Post-Go-Live Support & Monitoring",
-            dataList: [
-                "24/7 monitoring, support, and performance optimization.",
-                "Continuous enhancement and change management.",
-            ]
-        },
-    ]
-    const specializedData = [
-        {
-            title: "SAP Ariba Integration",
-            subtitle: "Unlock Procurement Excellence",
-            desc: "Rialtes offers end-to-end integration between SAP Ariba and SAP S/4HANA and other systems, streamlining procurement and supplier collaboration.",
-            keyData: [
-                "Supplier onboarding and qualification automation.",
-                "Seamless purchase order and invoice exchange.",
-                "Contract management and compliance workflows.",
-                "Supplier collaboration and performance monitoring.",
-            ],
-            businessData: [
-                "Shorter procurement cycles and lower costs.",
-                "Enhanced supplier collaboration and visibility.",
-                "Real-time insights into procurement KPIs.",
-            ],
-            mobImg: "/images/solutions/sap-cpi/Mobile/sap-ariba-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/sap-ariba-desk.webp"
-        },
-        {
-            title: "SAP S/4HANA Integration",
-            subtitle: "Connecting Your Digital Core",
-            desc: "Integrating SAP S/4HANA with other enterprise systems is critical for end-to-end business processes. Rialtes enables real-time and secure integrations with Salesforce, Ariba, Oracle, and more.",
-            keyData: [
-                "Finance and supply chain data synchronization.",
-                "Sales order to fulfillment workflows.",
-                "Master data management (customer, product, supplier).",
-                "Manufacturing and logistics integrations.",
-            ],
-            businessData: [
-                "Unified business processes and faster order-to-cash.",
-                "Real-time operational insights.",
-                "Reduced manual errors and streamlined workflows.",
-            ],
-            mobImg: "/images/solutions/sap-cpi/Mobile/sap-s4hana-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/sap-s4hana-desk.webp"
-        },
-        {
-            title: "SAP SuccessFactors Integration",
-            subtitle: "Powering Next-Gen HR",
-            desc: "Rialtes provides robust integrations of SAP SuccessFactors with payroll, benefits, time tracking, and finance systems, enabling seamless employee lifecycle management.",
-            keyData: [
-                "Employee and position data synchronization.",
-                "Payroll, benefits, and tax system integrations.",
-                "Recruiting, onboarding, and learning management workflows.",
-                "Employee self-service and mobile enablement.",
-            ],
-            businessData: [
-                "End-to-end HR process automation.",
-                "Better employee experience and faster onboarding.",
-                "Compliance with local and global HR regulations.",
-            ],
-            mobImg: "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/sap-successfactor-desk.webp"
-        },
-        {
-            title: "Salesforce and SAP CPI Integration",
-            subtitle: "Delivering 360° Customer View",
-            desc: "Rialtes connects Salesforce CRM with SAP backend systems like S/4HANA and SAP ERP using CPI for seamless customer, order, and service workflows.",
-            keyData: [
-                "Lead, opportunity, and order integration. ",
-                "Customer service case management tied to SAP data.",
-                "Billing, invoicing, and product catalog synchronization.",
-                "Real-time customer insights across CRM and ERP.",
-            ],
-            businessData: [
-                "Unified customer experience from sales to service.",
-                "Faster quote-to-cash cycles.",
-                "Accurate and real-time customer and product data.",
-            ],
-            mobImg: "/images/solutions/sap-cpi/Mobile/salesforce-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/salesforce-desk.webp"
-        }
-    ]
-    const integrationData = [
-        "Finance and HR data flows across platforms.",
-        "Supply chain and logistics integration.",
-        "Real-time reporting and dashboards."
-    ]
-    const commonSectionsData = [
-        {
-            mobImg: "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/data-visulization-desk.webp",
-            title: "Data Visualization with Data Cloud and Tableau",
-            subtitle: "Actionable Insights from Connected Data",
-            desc: "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
-            dataList: [
-                "Real-time dashboards across finance, HR, supply chain, and customer service.",
-                "Predictive analytics and AI-driven forecasts.",
-                "Self-service analytics for business users."
-            ]
-        },
-        {
-            mobImg: "/images/solutions/sap-cpi/Mobile/production-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/production-desk.webp",
-            title: "Production Planning & Demand Management using Mulesoft + SAP CPI",
-            desc: "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
-            dataList: [
-                "End-to-end supply chain visibility.",
-                "Automated order and inventory synchronization.",
-                "Real-time capacity and demand updates."
-            ]
-        },
-        {
-            mobImg: "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/demand-desk.webp",
-            title: "Demand Planning with Kinaxis RapidResponse & SAP CPI",
-            desc: "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
-            dataList: [
-                "AI-driven, agile forecasting.",
-                "Real-time visibility into supply chain disruptions.",
-                "Proactive capacity and production adjustments."
-            ]
-        },
-        {
-            mobImg: "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/ai-powered-desk.webp",
-            title: "AI-Powered SAP Integrations",
-            subtitle: "The Future of Intelligent Workflows",
-            desc: "AI is transforming integration landscapes, and Rialtes makes this real:",
-            dataList: [
-                "AI-driven decision-making (automated order routing, fraud detection).",
-                "Predictive supply chain and HR analytics.",
-                "Intelligent automation across business units."
-            ]
-        },
-        {
-            mobImg: "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/agile-desk.webp",
-            title: "Agile, SCRUM-Certified Delivery for Seamless Integrations",
-            desc: "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
-            dataList: [
-                "Agile sprints for rapid value realization.",
-                "Transparent progress and stakeholder engagement.",
-                "Continuous improvement based on iterative feedback."
-            ]
-        },
-        {
-            mobImg: "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
-            deskImg: "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
-            title: "SAP and Salesforce Partnership",
-            subtitle: "The Power of Connected Ecosystems",
-            desc: "As trusted partners with SAP and Salesforce, Rialtes delivers:",
-            dataList: [
-                "Unified data and processes across CRM and ERP.",
-                "End-to-end lead-to-cash automation.",
-                "Enhanced customer, supplier, and employee experiences."
-            ]
-        }
-    ]
-    const whyRialtesData = [
-        "SAP Certified Partner with proven CPI integration success stories.",
-        "Global presence: United States, Canada, Singapore, India.",
-        "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
-        "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
-        "End-to-end support from advisory to post-go-live optimization.",
-    ]
+    const t = useTranslations('sapCpi')
+    const locale = useLocale();
+    const content = locale === 'es' ? esContent : enContent;
+    const { thoughtLeadershipData, endToEndData, specializedData, integrationData, commonSectionsData, whyRialtesData, } = content.sapCpi;
     return (
         <section className="min-h-screen">
             <Seo
@@ -341,10 +146,10 @@ export default function page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
                             <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[53%]">
-                                SAP Cloud Integration Services
+                                {t('headerTitle')}
                             </h1>
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
-                                Empowering Intelligent, <br /> Connected Enterprises
+                                {t('headerSubTitle1')}<br />  {t('headerSubTitle2')}
                             </h2>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -358,18 +163,18 @@ export default function page() {
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
                         <div className=" lg:block hidden">
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
-                                Seamless Integrations. <br /> Smarter Operations. <br /> Elevated Experiences.
+                                {t('pageDescTitle1')}   <br />{t('pageDescTitle2')}  <br />{t('pageDescTitle3')} 
                             </h2>
                         </div>
                         <div className="block lg:hidden">
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
-                                Seamless Integrations. Smarter Operations. Elevated Experiences.
+                                {t('pageDescSubTitle')} 
                             </h2>
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
                         <p className="xl:text-[22px] text-[16px] leading-tight">
-                            At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.
+                            {t('pageDesc')}   
                         </p>
                     </div>
                 </div>
@@ -404,17 +209,17 @@ export default function page() {
                     <div className="col-span-6 lg:col-span-5 xl:col-span-6 3xl:col-span-5 4xl:col-span-6">
                         <div className="md:bg-[#073259] md:mix-blend-hard-light bg-[#0A6BB8]/90 text-[#ffffff] xl:pt-[52px] pt-[29px] xl:pb-[40px] pb-[47px] xl:px-[63px] px-[23px]">
                             <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light md:w-[50%]">
-                                Thought Leadership
+                                {t('thoughtTitle')}  
                             </h2>
                             <h3 className="xl:text-[28px] 4xl:text-[36px] text-[20px] mt-[14px] xl:mt-[27px] leading-tight font-semibold">
-                                Why Integration is the Backbone of Digital Transformation
+                                {t('thoughtSubTitle')}   
                             </h3>
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[27px] mt-[14px] font-normal">
-                                In today’s hyper-connected business landscape, companies face mounting challenges:
+                                {t('thoughtDesc')}    
                             </p>
                             <UnorderedList arrName={thoughtLeadershipData} ulClassName="list-disc xl:mt-[27px] mt-[22px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight" />
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[33px] mt-[22px] font-normal">
-                                Rialtes and SAP Cloud Integration enable enterprises to break silos, automate workflows, and unlock real-time intelligence to power modern, responsive businesses.
+                                {t('thoughtDesc2')}    
                             </p>
                         </div>
                     </div>
@@ -424,7 +229,7 @@ export default function page() {
             <section className="xl:mt-[189px] mt-[90px] custom-container" >
                 <div className="lg:mr-[80px] sm:mr-[60px] md:mr-0 border border-[#707070] lg:pl-[46px] xl:pr-[60px] 4xl:pr-[100px] sm:px-[36px] px-[28px] xl:pb-[75px] pb-[80px]">
                     <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[80%] bg-[#ffffff] mt-[-40px] xl:mt-[-50px]">
-                        Rialtes End-to-End SAP Cloud Integration Services
+                        {t('endToEndTitle')}       
                     </h2>
                     <div className="relative grid md:grid-cols-2 grid-cols-1 xl:mt-[62px] mt-[42px] gap-y-[48px] xl:gap-y-[89px] md:gap-[60px]">
                         {
@@ -463,7 +268,7 @@ export default function page() {
             {/* specialized SAP section */}
             <section className="custom-container xl:mt-[168px] mt-[89px]">
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[70%] md:w-[50%] xl:w-[52%] 4xl:w-[70%]">
-                    Specialized SAP Cloud Integrations Rialtes Delivers
+                    {t('specializedTitle')}   
                 </h2>
                 <div className="xl:mt-[92px] mt-[43px] space-y-[97px] lg:space-y-[153px]">
                     {
@@ -483,13 +288,13 @@ export default function page() {
                                         <div className="grid lg:grid-cols-2 grid-cols-1 xl:mt-[56px] mt-[32px] md:gap-x-[20px] gap-y-[34px] ">
                                             <div>
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
-                                                    Key Capabilities:
+                                                    {t('keyTitle')}    
                                                 </p>
                                                 <UnorderedList arrName={data.keyData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
                                             <div>
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
-                                                    Business Benefits:
+                                                    {t('benefitsTitle')}   
                                                 </p>
                                                 <UnorderedList arrName={data.businessData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
@@ -559,13 +364,13 @@ export default function page() {
                         <div className="col-span-6 xl:col-span-6">
                             <div className="bg-[#ffffff]/20 md:bg-[#ffffff]/50 text-[#000000] px-[36px] lg:pt-[76px] pt-[45px] md:pb-[91px] pb-[109px] md:pl-[43px] md:pr-[63px]">
                                 <h2 className="xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
-                                    Integration with Oracle, Workday, and More
+                                    {t('integrationTitle')}  
                                 </h2>
                                 <h3 className="xl:text-[26px] 4xl:text-[36px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
-                                    Connected Enterprise Ecosystem
+                                    {t('integrationSubTitle')}     
                                 </h3>
                                 <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[44px] mt-[19px] font-normal">
-                                    We help you connect SAP to Oracle, Workday, and other cloud/on-prem platforms to create a frictionless and intelligent enterprise.
+                                    {t('integrationDesc')}    
                                 </p>
                                 <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
@@ -623,7 +428,6 @@ export default function page() {
                                                         priority
                                                     />
                                                 </div>
-
                                                 {/* Mobile Image */}
                                                 <div className="block md:hidden w-full mt-[27px] h-[70%] sm:h-[80%] max-[350px]:h-[60%]">
                                                     <Image
@@ -724,7 +528,7 @@ export default function page() {
                         <div className="col-span-6 lg:col-span-6 3xl:col-span-5">
                             <div className="bg-[#006FBE] text-[#ffffff] lg:ml-[60px] xl:pt-[60px] xl:px-[50px] xl:pb-[90px] pt-[29px] lg:px-[36px] px-[24px] pb-[65px]">
                                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
-                                    Why Rialtes?
+                                    {t('whyRialtesTitle')}     
                                 </h2>
                                 <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
@@ -738,7 +542,7 @@ export default function page() {
             </section>
             {/* Contact Form */}
             <div className="custom-container xl:mt-[224px] lg:mt-[164px] xl:mb-[104px] mt-[104px] mb-[45px]">
-                <ContactForm title={'Ready to Connect Your Enterprise with SAP Cloud Integration?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[70%] 4xl:w-[80%]" />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle1')} subtitle1={t('contactSubTitle2')} className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[70%] 4xl:w-[80%]" />
             </div >
         </section >
     )

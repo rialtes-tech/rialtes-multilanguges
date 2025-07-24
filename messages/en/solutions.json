@@ -775,5 +775,232 @@
         "whyRialtesTitle": "Why Rialtes -",
         "whyRialtesSubTitle": "Oracle EBS Partner of Choice",
         "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
+    },
+        "sapCpi": {
+        "thoughtLeadershipData": [
+            "Disconnected systems and data silos limiting agility.",
+            "Manual processes draining resources and increasing errors.",
+            "Limited visibility across departments and partner ecosystems.",
+            "Slow, fragmented customer and supplier interactions."
+        ],
+        "endToEndData": [
+            {
+                "title": "Integration Strategy, Advisory & Architecture",
+                "dataList": [
+                    "End-to-end assessment of your integration landscape.",
+                    "Architecture blueprints aligned with business goals.",
+                    "Best-fit CPI patterns, adapters, and connectors."
+                ]
+            },
+            {
+                "title": "SAP CPI Implementation & Deployment",
+                "dataList": [
+                    "SAP-to-SAP (S/4HANA, SuccessFactors, Ariba, etc.) and SAP-to-non-SAP (Salesforce, Oracle, Workday) integrations.",
+                    "Workflow design, data transformation, error handling, and orchestration.",
+                    "End-to-end implementation and testing."
+                ]
+            },
+            {
+                "title": "Pre-Built Accelerators & Industry Connectors",
+                "dataList": [
+                    "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, and High-Tech. ",
+                    "Pre-delivered templates for rapid deployment and faster time-to-value."
+                ]
+            },
+            {
+                "title": "Quality Assurance & Compliance",
+                "dataList": [
+                    "Integration validation and stress testing.",
+                    "Security, privacy, and compliance frameworks (GDPR, HIPAA)."
+                ]
+            },
+            {
+                "title": "Post-Go-Live Support & Monitoring",
+                "dataList": [
+                    "24/7 monitoring, support, and performance optimization.",
+                    "Continuous enhancement and change management."
+                ]
+            }
+        ],
+        "specializedData": [
+            {
+                "title": "SAP Ariba Integration",
+                "subtitle": "Unlock Procurement Excellence",
+                "desc": "Rialtes offers end-to-end integration between SAP Ariba and SAP S/4HANA and other systems, streamlining procurement and supplier collaboration.",
+                "keyData": [
+                    "Supplier onboarding and qualification automation.",
+                    "Seamless purchase order and invoice exchange.",
+                    "Contract management and compliance workflows.",
+                    "Supplier collaboration and performance monitoring."
+                ],
+                "businessData": [
+                    "Shorter procurement cycles and lower costs.",
+                    "Enhanced supplier collaboration and visibility.",
+                    "Real-time insights into procurement KPIs."
+                ],
+                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-ariba-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/sap-ariba-desk.webp"
+            },
+            {
+                "title": "SAP S/4HANA Integration",
+                "subtitle": "Connecting Your Digital Core",
+                "desc": "Integrating SAP S/4HANA with other enterprise systems is critical for end-to-end business processes. Rialtes enables real-time and secure integrations with Salesforce, Ariba, Oracle, and more.",
+                "keyData": [
+                    "Finance and supply chain data synchronization.",
+                    "Sales order to fulfillment workflows.",
+                    "Master data management (customer, product, supplier).",
+                    "Manufacturing and logistics integrations."
+                ],
+                "businessData": [
+                    "Unified business processes and faster order-to-cash.",
+                    "Real-time operational insights.",
+                    "Reduced manual errors and streamlined workflows."
+                ],
+                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-s4hana-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/sap-s4hana-desk.webp"
+            },
+            {
+                "title": "SAP SuccessFactors Integration",
+                "subtitle": "Powering Next-Gen HR",
+                "desc": "Rialtes provides robust integrations of SAP SuccessFactors with payroll, benefits, time tracking, and finance systems, enabling seamless employee lifecycle management.",
+                "keyData": [
+                    "Employee and position data synchronization.",
+                    "Payroll, benefits, and tax system integrations.",
+                    "Recruiting, onboarding, and learning management workflows.",
+                    "Employee self-service and mobile enablement."
+                ],
+                "businessData": [
+                    "End-to-end HR process automation.",
+                    "Better employee experience and faster onboarding.",
+                    "Compliance with local and global HR regulations."
+                ],
+                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/sap-successfactor-desk.webp"
+            },
+            {
+                "title": "Salesforce and SAP CPI Integration",
+                "subtitle": "Delivering 360° Customer View",
+                "desc": "Rialtes connects Salesforce CRM with SAP backend systems like S/4HANA and SAP ERP using CPI for seamless customer, order, and service workflows.",
+                "keyData": [
+                    "Lead, opportunity, and order integration. ",
+                    "Customer service case management tied to SAP data.",
+                    "Billing, invoicing, and product catalog synchronization.",
+                    "Real-time customer insights across CRM and ERP."
+                ],
+                "businessData": [
+                    "Unified customer experience from sales to service.",
+                    "Faster quote-to-cash cycles.",
+                    "Accurate and real-time customer and product data."
+                ],
+                "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/salesforce-desk.webp"
+            }
+        ],
+        "integrationData": [
+            "Finance and HR data flows across platforms.",
+            "Supply chain and logistics integration.",
+            "Real-time reporting and dashboards."
+        ],
+        "commonSectionsData": [
+            {
+                "mobImg": "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/data-visulization-desk.webp",
+                "title": "Data Visualization with Data Cloud and Tableau",
+                "subtitle": "Actionable Insights from Connected Data",
+                "desc": "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
+                "dataList": [
+                    "Real-time dashboards across finance, HR, supply chain, and customer service.",
+                    "Predictive analytics and AI-driven forecasts.",
+                    "Self-service analytics for business users."
+                ]
+            },
+            {
+                "mobImg": "/images/solutions/sap-cpi/Mobile/production-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/production-desk.webp",
+                "title": "Production Planning & Demand Management using Mulesoft + SAP CPI",
+                "desc": "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
+                "dataList": [
+                    "End-to-end supply chain visibility.",
+                    "Automated order and inventory synchronization.",
+                    "Real-time capacity and demand updates."
+                ]
+            },
+            {
+                "mobImg": "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/demand-desk.webp",
+                "title": "Demand Planning with Kinaxis RapidResponse & SAP CPI",
+                "desc": "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
+                "dataList": [
+                    "AI-driven, agile forecasting.",
+                    "Real-time visibility into supply chain disruptions.",
+                    "Proactive capacity and production adjustments."
+                ]
+            },
+            {
+                "mobImg": "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/ai-powered-desk.webp",
+                "title": "AI-Powered SAP Integrations",
+                "subtitle": "The Future of Intelligent Workflows",
+                "desc": "AI is transforming integration landscapes, and Rialtes makes this real:",
+                "dataList": [
+                    "AI-driven decision-making (automated order routing, fraud detection).",
+                    "Predictive supply chain and HR analytics.",
+                    "Intelligent automation across business units."
+                ]
+            },
+            {
+                "mobImg": "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/agile-desk.webp",
+                "title": "Agile, SCRUM-Certified Delivery for Seamless Integrations",
+                "desc": "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
+                "dataList": [
+                    "Agile sprints for rapid value realization.",
+                    "Transparent progress and stakeholder engagement.",
+                    "Continuous improvement based on iterative feedback."
+                ]
+            },
+            {
+                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
+                "deskImg": "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
+                "title": "SAP and Salesforce Partnership",
+                "subtitle": "The Power of Connected Ecosystems",
+                "desc": "As trusted partners with SAP and Salesforce, Rialtes delivers:",
+                "dataList": [
+                    "Unified data and processes across CRM and ERP.",
+                    "End-to-end lead-to-cash automation.",
+                    "Enhanced customer, supplier, and employee experiences."
+                ]
+            }
+        ],
+        "whyRialtesData": [
+            "SAP Certified Partner with proven CPI integration success stories.",
+            "Global presence: United States, Canada, Singapore, India.",
+            "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
+            "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
+            "End-to-end support from advisory to post-go-live optimization."
+        ],
+        "headerTitle": "SAP Cloud Integration Services",
+        "headerSubTitle1": "Empowering Intelligent,",
+        "headerSubTitle2": "Connected Enterprises",
+        "pageDescTitle1": "Seamless Integrations.",
+        "pageDescTitle2": "Smarter Operations.",
+        "pageDescTitle3": "Elevated Experiences.",
+        "pageDescSubTitle": "Seamless Integrations. Smarter Operations. Elevated Experiences.",
+        "pageDesc": "At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.",
+        "thoughtTitle": "Thought Leadership",
+        "thoughtSubTitle": "Why Integration is the Backbone of Digital Transformation",
+        "thoughtDesc": "In today’s hyper-connected business landscape, companies face mounting challenges:",
+        "thoughtDesc2": "Rialtes and SAP Cloud Integration enable enterprises to break silos, automate workflows, and unlock real-time intelligence to power modern, responsive businesses.",
+        "endToEndTitle": "Rialtes End-to-End SAP Cloud Integration Services",
+        "specializedTitle": "Specialized SAP Cloud Integrations Rialtes Delivers",
+        "keyTitle": "Key Capabilities:",
+        "benefitsTitle": " Business Benefits:",
+        "integrationTitle": "Integration with Oracle, Workday, and More",
+        "integrationSubTitle": "Connected Enterprise Ecosystem",
+        "integrationDesc": "We help you connect SAP to Oracle, Workday, and other cloud/on-prem platforms to create a frictionless and intelligent enterprise.",
+        "whyRialtesTitle": "Why Rialtes?",
+        "contactTitle": "Ready to Connect Your Enterprise with SAP Cloud Integration?",
+        "contactSubTitle1": "Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value.",
+        "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
     }
 }
