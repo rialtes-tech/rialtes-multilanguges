@@ -221,7 +221,7 @@ const latestBlogs = [
   },
   {
     id: 4,
-    image: "/images/blog/blog-3.webp",
+    image: "/images/blog/blog-slider.webp", 
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "28 Oct 2024",
