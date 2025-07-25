@@ -30,6 +30,16 @@ const schemaData={
 }
 
 const latestBlogs = [
+   {
+    id: 4,
+    image: "/images/blog/blog-slider.webp", 
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "25 July 2025",
+    url: '/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
+    title: "Agents vs. Copilots vs. Bots: A Strategic Comparison That Drives AI Adoption Right",
+    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
+  },
   {
      id: 22,
    image: "/images/blog/slider.webp",
@@ -219,16 +229,7 @@ const latestBlogs = [
     title: "SAP SuccessFactors Performance and Goal Management",
     description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
-  {
-    id: 4,
-    image: "/images/blog/blog-slider.webp", 
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    url: '/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
-    title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  },
+ 
   {
     id: 3,
     image: "/images/blog/blog-2.webp",
