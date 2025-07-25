@@ -32,6 +32,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
+    const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
+
 
 
     return {
@@ -59,7 +62,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...sapCpi,
             ...kinaxis,
             ...growWithSap,
-            ...riseWithSap
+            ...riseWithSap,
+            ...uiPath,
+            ...tosca
+
         }
     };
 });

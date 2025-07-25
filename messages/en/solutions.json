@@ -1002,5 +1002,205 @@
         "contactTitle": "Ready to Connect Your Enterprise with SAP Cloud Integration?",
         "contactSubTitle1": "Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value.",
         "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
+    },
+     "uiPath":{
+        "headerTitle": "UiPath RPA Services",
+        "headerDesc": "Driving Next-Gen Automation for a Smarter Enterprise",
+        "operationsTitle": "Transform Your Enterprise Operations with Intelligent RPA.",
+        "operationsDescOne": "At Rialtes, we help businesses harness the full power of UiPath’s Robotic Process Automation (RPA) platform to automate end-to-end processes, reduce manual effort, improve accuracy, and drive scalable growth.",
+        "operationsDescTwo": " With a proven track record of deploying RPA solutions integrated with SAP, Salesforce, Oracle, and other enterprise platforms, Rialtes enables companies to focus on innovation while bots handle repetitive work.",
+        "uiTitle": "Why RPA with UiPath?",
+        "uiDesc": "Enterprises today face enormous pressure to streamline processes, ensure compliance, and improve customer and employee experiences. UiPath RPA delivers:",
+        "whyRpaData" :[
+    "Seamless automation of repetitive, time-consuming tasks.",
+    "End-to-end integration with enterprise platforms like SAP, Salesforce, Oracle.",
+    "Rapid ROI and reduced operational costs.",
+    "Agility to scale as business grows."
+       ],
+     "whyDesc":"At Rialtes, we make RPA real for businesses — combining strategy, design, deployment, and continuous optimization.",
+      "serviceTitle": "Rialtes’ End-to-End RPA Services",
+      "serviceeDesc": "Powered by UiPath",
+      "featureBoxes" : [
+    {
+        "title": "Automation Strategy & License Advisory",
+        "description":
+            "Identify high-value use cases and license optimization."
+    },
+    {
+        "title": "Bot Design, Development, and Implementation",
+        "description":
+            "Scalable and secure bot development."
+    },
+    {
+        "title": "Pre-built Industry Accelerators",
+        "description":
+            "Pre-built Industry Accelerators"
+    },
+    {
+        "title": "Quality Assurance & Compliance",
+        "description":
+            "Robust testing and regulatory adherence."
+    },
+    {
+        "title": "Post-Go-Live Bot Monitoring and Support",
+        "description":
+            "Ensuring smooth operation and continuous improvement."
     }
+
+        ],
+        "industryTitle": "Pre-Configured Industry Accelerators",
+        "industryDesc": "Rialtes offers industry-specific RPA accelerators for rapid deployment in:",
+         "featureBoxes2" : [
+    {
+        "icon": "/images/uipath/manufcature.svg",
+        "title": "Manufacturing",
+        "description":
+            "Supply chain and inventory bots."
+    },
+    {
+        "icon": "/images/uipath/semiconductor.svg",
+        "title": "Semiconductor",
+        "description":
+            "Procurement and order processing bots."
+    },
+    {
+        "icon": "/images/uipath/automotive.svg",
+        "title": "Automotive",
+        "description":
+            "Dealer network and parts management bots."
+    },
+    {
+        "icon": "/images/uipath/retail.svg",
+        "title": "Retail",
+        "description":
+            "Order and customer service bots."
+    }
+         ],
+        "autoTitle": "RPA Automation with SAP Ariba",
+        "autoSubtitle": " Smart Procurement and Supplier Collaboration",
+         "autoDesc": "Rialtes has deep expertise in automating procurement and supplier workflows in SAP Ariba using UiPath bots.",
+        "titleOne": "Ariba Use Cases:",
+        "titleTwo": "Benefits:",
+        "aribaUseCases" : [
+    "Automated vendor onboarding and updates.",
+    "Invoice processing and three-way matching automation.",
+    "Contract lifecycle management and approvals.",
+    "Compliance checks and audit readiness automation."
+         ],
+         "aribaBenefits" :[
+    "Accelerated procurement cycles.",
+    "Error-free supplier transactions.",
+    "Improved compliance and vendor satisfaction."
+        ],
+
+        "hanaTitle": " RPA Automation with SAP S/4HANA",
+        "hanaSubtitle": "Intelligent ERP Process Automation",
+        "hanaDesc": "Rialtes helps clients leverage UiPath to automate mission-critical workflows within SAP S/4HANA, enhancing operational efficiency.",
+        "hanaTitleOne": "S/4HANA Use Cases:",
+        "hanaTilteTwo": "Benefits:",
+        "s4hanaUseCases" : [
+    "Order-to-cash automation — from order creation to invoicing.",
+    "Inventory and materials management updates.",
+    "Automated purchase order creation and validation.",
+    "Financial closing, reconciliation, and reporting."
+        ],
+        "s4hanaBenefits" : [
+    "Reduced manual data entry and errors.",
+    "Faster, streamlined ERP processes.",
+    "Enhanced compliance and data accuracy."
+        ],
+        "rpaTitle": "RPA Automation with SAP SuccessFactors",
+        "rpaSubtitle": "Streamlining HR Operations",
+        "rpaDesc": "Rialtes automates complex and repetitive HR workflows in SuccessFactors using UiPath, creating a more agile HR function.",
+        "rpaTitleOne": " SuccessFactors Use Cases:",
+        "rpaTilteTwo":" Benefits:",
+        "successFactorUsecases" : [
+    "Employee onboarding and offboarding automation.",
+    "Payroll and benefits data management.",
+    "Performance management tracking and reminders.",
+    "HR compliance document management."
+        ],
+        "successFactorBenefits" :[
+    "Faster and smoother HR operations.",
+    "Enhanced employee onboarding experience.",
+    "Improved data accuracy and compliance."
+        ],
+
+        "SalesforceTitle": "RPA Automation with Salesforce",
+        "SalesforceSubtitle": " Powering Customer-Centric Automation",
+        "SalesforceDesc": "Rialtes enables clients to extend UiPath RPA to Salesforce, improving CRM, sales, and service processes.",
+        "SalesforceTitleOne": "Salesforce Use Cases:",
+        "SalesforceTilteTwo": "Benefits:",
+        "salesforceUsecases" : [
+    "Automated lead and opportunity management.",
+    "Customer case and service ticket processing.",
+    "Account and contact data enrichment.",
+    "Contract creation and customer onboarding automation."
+       ],
+       "salesforceBenefits" :[
+    "Faster sales cycles.",
+    "Better customer service and engagement.",
+    "Real-time, accurate CRM data."
+    ],
+          "focusTitle": "Industry-Focused UiPath RPA Use Cases",
+        "focusDesc": "Ready-to-Deploy",
+        "headingOne": "Automotive Industry",
+        "headingTwo": "Manufacturing & Semiconductor",
+        "headingThree": "Retail",
+        "headingFour": "HR (Cross-Industry)",
+    "automativeIndustryData" : [
+    "Dealer order automation.",
+    "Warranty claims and service request processing.",
+    " Parts supply chain and vendor management."
+    ],
+    "manufacturingData" :[
+    "Procurement and supply chain automation.",
+    "Inventory updates and production scheduling.",
+    "Quality compliance and reporting."
+    ],
+      "retailData" : [
+    "Customer order management and fulfillment.",
+    "Returns processing and inventory updates.",
+    "Pricing and product updates across platforms."
+    ],
+     "hrData" : [
+    "Employee lifecycle automation (hire-to-retire).",
+    "Payroll, benefits, and compliance management."
+    ],
+        "dataTitle": "Data Visualization & Analytics with UiPath + Tableau/Qlik + Data Cloud",
+        "visualizationData" : [
+    "Real-time bot performance dashboards.",
+    "Automation impact and ROI tracking.",
+    "Integrated insights from Data Cloud and Tableau/Qlik.",
+    "Bottleneck identification and continuous optimization."
+     ],
+        "aiTitle": " AI-Enhanced RPA",
+        "aiSubtitle": "Taking Automation to the Next Level",
+        "aiDesc": "Rialtes integrates AI with UiPath bots to automate more intelligent, complex processes:",
+         "aiEnhanceData" :[
+    "Intelligent document processing (IDP) for contracts, invoices.",
+    "Natural Language Processing (NLP) for customer interactions.",
+    "Predictive analytics for proactive decision-making.",
+    "Automated compliance and risk monitoring."
+],
+        "globalTitle": "Proven Delivery with Global Reach & Agile Execution",
+        "globalSubtitle": "Rialtes’ certified SCRUM project managers and global delivery centers ensure seamless automation delivery:",
+        "why":"Why Rialtes for UiPath RPA?",
+        "provenData" : [
+    "Agile sprint execution and transparent collaboration.",
+    "Delivery hubs in United States, Canada, Singapore, and India.",
+    "SAP-certified partner with deep integration and process knowledge."
+],
+    "whyRiatlesData" : [
+    "Proven track record of enterprise RPA with SAP, Salesforce, Oracle.",
+    "Industry-specific accelerators for faster automation.",
+    "Full-spectrum services — strategy to support.",
+    "Focus on value, scalability, and rapid ROI. 24/7 monitoring and support for bots."
+],
+"contactTitle":"Ready to Transform with UiPath RPA?",
+"contactSubtitle":"Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation.",
+"contactSubtitleOne":"Contact us today for a free automation assessment!"
+
+    }
+
 }
