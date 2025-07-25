@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import Link from "next/link";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -123,23 +123,35 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/agents-vs-copilots-vs-bots.webp "
-          alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
-          fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-          priority
-        />
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px]  overflow-hidden">
+        <div className="xl:block hidden">
+          <Image
+            src="/images/blog/desktop-banner-coilot.webp "
+            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            fill
+            priority
+          />
+        </div>
+        <div className="xl:hidden block">
+          <Image
+            src="/images/blog/mobile-banner-copilot.webp"
+            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            priority
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
+          />
+        </div>
+
       </section>
 
       <section className="custom-container">
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
               <div className="sm:mb-0 mb-6">
                 <span className="text-[#0092E0]">Salesforce Agentforce</span>{" "}
-                <span className="text-[#ACACAC]"> | </span>28 Oct 2024
+                <span className="text-[#ACACAC]"> | </span>24 July 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -196,460 +208,281 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-
-          <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[900px] xl:w-[600px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">
-            Agents vs. Copilots vs. Bots: What’s the Difference and Why It
-            Matters
-          </h1>
-          <div>
-            <p className="text-black pb-4">
-              Tools like Agentforce are redefining how we view digital
-              assistants, bringing distinctions between Agents, Copilots, and
-              Bots to the forefront. The terms are frequently used within
-              artificial intelligence-driven automation and conversational
-              interfaces, each serving a distinct purpose. Their differences in
-              functionality, autonomy, and ideal applications make them suited
-              to unique roles in the workplace.
-            </p>
-
-            <p className="text-black">
-              Agents are AI-driven tools that
-              autonomously perform tasks and make decisions with minimal human
-              intervention. Copilots are
-              software add-ons that offer real-time assistance to users within
-              application features. Chatbots,
-              or simply bots, are computer programs created to mimic human
-              conversation through text or voice exchanges. Let’s break down
-              each of these AI tools, emphasizing the unique strengths of
-              Agentforce Agents, and explore how they can streamline tasks,
-              optimize workflows, and enhance productivity.
-            </p>
-
-            <div className="py-6"></div>
-
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
-              Agentforce Agents: The Adaptive Problem Solvers
-            </h2>
-
-            <p className="text-black pb-4">
-              Agentforce Agents represent the next level in AI, they are trusted
-              conversational AI assistants designed to handle tasks autonomously
-              and adapt to changing scenarios. These are pre-built solutions
-              that can take input from a user and translate that input into a
-              series of actions based on instructions that you can configure and
-              enhance. With machine learning and adaptive algorithms, they can
-              independently recognize opportunities for action, anticipate next
-              steps, and initiate tasks within defined use cases and parameters.
-              Unlike traditional bots, Agentforce Agents can understand and
-              react to context, making them highly valuable for more complex,
-              dynamic environments.
-            </p>
-            <h3 className=" pb-4 h3-bold  ">Applications</h3>
-
-            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[18px] text-[16px] font-medium">
-              <li className="text-black pb-4">
-                <h4 className="inline">Process Optimization </h4>: Agentforce
-                Agents monitor workflows and make real-time adjustments to
-                improve efficiency, for example, by reallocating resources in
-                response to demand fluctuations.
-              </li>
-              <li className="text-black pb-4">
-                <h4 className="inline">Customer Experience Personalization </h4>
-                : By leveraging data and
-                <Link
-                  href={
-                    "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/?utm_source=blog&utm_medium=organic"
-                  }
-                  className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                >
-                  <span>Atlas Reasoning Engine</span>
-                </Link>
-                , agents can create personalized interactions, improving
-                customer satisfaction with tailored responses and proactive
-                solutions.
-              </li>
-              <li className="text-black ">
-                <h4 className="inline">Autonomous Decision Making </h4>: Agents
-                analyze data, identify patterns, and make decisions without
-                human intervention, which is especially valuable in logistics,
-                supply chain management, and business intelligence.
-              </li>
-            </ul>
-
-            <p className="text-black">
-              Agents excel in adaptability, can respond to real-time data, and
-              continuously refine their performance. This adaptability allows
-              them to perform complex tasks independently, enhancing overall
-              productivity. They handle intricate, context-sensitive situations
-              where the outcome depends on various dynamic inputs, making them
-              far more versatile than bots.
-            </p>
-
-            <div className="py-6"></div>
-
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
-              Copilots: The Collaborative Enhancers
-            </h2>
-
-            <p className="text-black pb-4">
-              Unlike agents or bots, Copilots are AI assistants that work in
-              tandem with humans, providing suggestions, insights, and feedback
-              without making fully autonomous decisions. For example, Einstein
-              Copilot for Salesforce is integrated directly into the Salesforce
-              interface. You can configure and deploy a single copilot for your
-              team, making it accessible within the Salesforce workflow. This
-              copilot can carry out business tasks on behalf of users within
-              your Salesforce organization. The goal of a Copilot is to support
-              users, particularly in tasks that require creativity or
-              problem-solving, allowing for an augmented collaboration rather
-              than complete automation.
-            </p>
-
-            <h3 className="pb-4 h3-bold">Applications</h3>
-
-            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[18px] text-[16px] font-medium">
-              <li className="text-black pb-4">
-                <h4 className="inline">Coding and Development </h4>: Copilots
-                like GitHub Copilot suggest code completions, help troubleshoot,
-                and even provide documentation, making coding faster and less
-                error prone.
-              </li>
-              <li className="text-black pb-4">
-                <h4 className="inline">Writing and Content Creation </h4>: In
-                writing tasks, copilots suggest phrasing, check grammar, and
-                propose ideas, enhancing the creative process.{" "}
-              </li>
-              <li className="text-black pb-4">
-                <h4 className="inline">Data Analysis and Decision Support </h4>:
-                In complex fields like finance and healthcare, copilots help
-                professionals analyze data, understand trends, and make informed
-                decisions based on AI-generated insights.
-              </li>
-            </ul>
-
-            <p className="text-black">
-              Copilots boost human expertise rather than replace it, making them
-              ideal for fields requiring critical thinking, creative input, or
-              contextual understanding. While copilots are highly effective as
-              support tools, they rely heavily on user input and guidance,
-              meaning they’re less useful in scenarios where autonomous
-              decision-making is needed.
-            </p>
-
-            <div className="py-6"></div>
-
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
-              Bots: The Foundation of Automation
-            </h2>
-
-            <p className="text-black pb-4">
-              Bots are the simplest form of AI, typically rule-based programs
-              that handle repetitive, structured tasks. They operate based on
-              predefined instructions, meaning they execute functions without
-              much need for contextual awareness or complex problem-solving.
-            </p>
-
-            <h3 className=" pb-4 h3-bold">Applications</h3>
-
-            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[18px] text-[16px] font-medium">
-              <li className="text-black pb-4">
-                <h4 className="inline">Customer Service </h4>: Bots handle basic
-                FAQ-style queries, quickly responding to commonly asked
-                questions in customer support.
-              </li>
-              <li className="text-black pb-4">
-                <h4 className="inline">Routine Data Collection </h4>: Bots
-                gather and process data for reporting and analysis, commonly
-                used in tasks like monitoring inventory or tracking website
-                traffic.{" "}
-              </li>
-              <li className="text-black">
-                <h4 className="inline">Basic Task Automation </h4>: Bots
-                automate repetitive processes like sending notifications,
-                sorting emails, and managing simple workflows.
-              </li>
-            </ul>
-
-            <p className="text-black">
-              Bots are dependable and efficient for well-defined, repetitive
-              tasks, but their functionality is limited. They lack adaptability
-              and contextual awareness, meaning they struggle when handling
-              unpredictable situations. Unlike Agentforce Agents, they don’t
-              learn from past interactions or make autonomous decisions, making
-              them less suitable for intricate workflows.
-            </p>
-
-            <div className="py-6"></div>
-
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
-              Agentforce Agents vs. Copilots vs. Bots: Choose the Right AI for
-              the Job
-            </h2>
-
-            <p className="text-black pb-4">
-              Each AI tool is effective within its niche, and the key is knowing
-              which to deploy based on the task at hand. Here’s a comparative
-              look at how they differ:
-            </p>
-
-            <div className="relative agent-table-responsive">
-              <style>
-                {`
-      @media (max-width: 640px) {
-        .agent-table-responsive table,
-        .agent-table-responsive thead,
-        .agent-table-responsive tbody,
-        .agent-table-responsive th,
-        .agent-table-responsive td,
-        .agent-table-responsive tr {
-          display: block;
-          width: 100%;
-        }
-
-        .agent-table-responsive thead tr {
-          position: absolute;
-          top: -9999px;
-          left: -9999px;
-        }
-
-        .agent-table-responsive tr {
-          margin-bottom: 1.25rem;
-          border: 1px solid #ddd;
-          border-radius: 0.375rem;
-          padding: 0.75rem;
-          background-color: #fff;
-        }
-
-        .agent-table-responsive td {
-          display: flex;
-          gap: 1rem;
-          align-items: flex-start;
-          justify-content: flex-start;
-          border-bottom: 1px solid #eee;
-          padding: 0.75rem 0;
-        }
-
-        .agent-table-responsive td:last-child {
-          border-bottom: 0;
-        }
-
-        .agent-table-responsive td::before {
-          content: attr(data-label);
-          flex-shrink: 0;
-          width: 120px;
-          font-weight: 600;
-          color: #4a4893;
-        }
-      }
-    `}
-              </style>
-
-              <table className="w-full text-sm text-left rtl:text-right text-gray-500">
-                <thead className="text-xs text-white uppercase bg-[#4a4893]">
-                  <tr>
-                    <th scope="col" className="px-6 py-3">
-                      Feature
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Bots
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Agentforce Agents
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Copilots
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="odd:bg-white even:bg-gray-100">
-                    <td
-                      data-label="Feature"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Complexity
-                    </td>
-                    <td
-                      data-label="Bots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Low, rule-based
-                    </td>
-                    <td
-                      data-label="Agentforce Agents"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      High, autonomous, and adaptive
-                    </td>
-                    <td
-                      data-label="Copilots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Moderate, human-collaborative
-                    </td>
-                  </tr>
-                  <tr className="odd:bg-white even:bg-gray-100">
-                    <td
-                      data-label="Feature"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Autonomy
-                    </td>
-                    <td
-                      data-label="Bots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Limited
-                    </td>
-                    <td
-                      data-label="Agentforce Agents"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      High
-                    </td>
-                    <td
-                      data-label="Copilots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Minimal
-                    </td>
-                  </tr>
-                  <tr className="odd:bg-white even:bg-gray-100">
-                    <td
-                      data-label="Feature"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Learning Ability
-                    </td>
-                    <td
-                      data-label="Bots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      None
-                    </td>
-                    <td
-                      data-label="Agentforce Agents"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      High, learns from interactions
-                    </td>
-                    <td
-                      data-label="Copilots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      None or minimal
-                    </td>
-                  </tr>
-                  <tr className="odd:bg-white even:bg-gray-100">
-                    <td
-                      data-label="Feature"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Ideal Use Cases
-                    </td>
-                    <td
-                      data-label="Bots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Repetitive, structured tasks
-                    </td>
-                    <td
-                      data-label="Agentforce Agents"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Dynamic, context-rich tasks
-                    </td>
-                    <td
-                      data-label="Copilots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Creativity and complex decision support
-                    </td>
-                  </tr>
-                  <tr className="odd:bg-white even:bg-gray-100">
-                    <td
-                      data-label="Feature"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Dependency
-                    </td>
-                    <td
-                      data-label="Bots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Fully independent
-                    </td>
-                    <td
-                      data-label="Agentforce Agents"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Fully independent
-                    </td>
-                    <td
-                      data-label="Copilots"
-                      className="px-6 py-4 font-medium text-black"
-                    >
-                      Relies on human collaboration
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+          <div className="grid xl:grid-cols-12">
+            <div className="xl:col-span-10 col-span-12">
+              <h1 className="text-[#000000]  pb-6  leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px]">
+                <span className="font-bold 4xl:text-[60px] xl:text-[42px] text-[26px]">Agents vs. Copilots vs. Bots: </span><br className="xl:block hidden"></br>
+                A Strategic Comparison That Drives AI Adoption Right
+              </h1>
             </div>
+          </div>
+          <div className="grid xl:grid-cols-12">
+            <div className="col-span-9">
+              <h3 className="pb-4 font-semibold leading-tight  text-[#0092E0] 4xl:text-[30px] xl:text-[25px] text-[20px] pr-10 xl:pr-0 4xl:pr-0">Why Understanding Bots, Copilots, and AI Agents Matters for Your Business</h3>
 
-            <div className="py-6"></div>
+              <p className="mt-5 4xl:pr-20 pr-8">AI tools are shaping how industries like manufacturing, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.</p>
+              <p className="mt-5 4xl:pr-5 pr-8">But here's the problem: bots, copilots, and AI agents are often used interchangeably, even though they mean very different things. That confusion can lead to the wrong tech choices and underwhelming results.</p>
+              <p className="mt-5 pr-8 4xl:pr-0">This breakdown aims to clear the air. We'll look at the differences between these types of AI assistants, how each one works, and what kind of use cases they’re best suited for. So you can match the right solution to your business goals, whether it's <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/" target="_blank">agent-based automation in manufacturing</Link>  or deploying smart copilots for field teams.</p>
+              <div className="flex  items-center py-8 mt-5">
+                <div className="relative border border-[#0A6BB8] rounded-sm py-12 px-8  w-full">
+                  <div className="absolute -top-8 left-4  px-1 w-[84px] h-[50px]">
+                    <Image
+                      src="/images/blog/quote-mark.svg"
+                      alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+                      fill
+                      priority
+                    />
+                  </div>
 
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
-              The Future: Streamlining Workflows with AI Assistants
-            </h2>
+                  <p className=" text-gray-800 font-medium leading-tight 4xl:text-[28px] xl:text-[25px] text-[20px]">
+                    The greatest danger in times of turbulence is not the turbulence,
+                    it is to act with yesterday’s logic.”
+                  </p>
+                  <p className="mt-4 4xl:text-[28px] xl:text-[25px] text-[20px] font-medium text-gray-800">
+                    — Peter Drucker
+                  </p>
+                </div>
+              </div>
+              <p className="pr-10 4xl:pr-0 xl:pr-0">Let’s make sure your AI strategy isn’t stuck in yesterday’s definitions.</p>
+              <h3 className=" pb-4 font-semibold mt-10 text-[#0092E0] 4xl:text-[30px] xl:text-[25px] text-[20px] pr-10 4xl:pr-0 xl:pr-0">Understanding the Three Types of AI Assistants</h3>
+              <h4 className="4xl:text-[26px] xl:text-[20px] text-[18px] font-semibold mt-5 pr-10 4xl:pr-0 xl:pr-0">Bots – The Rule-Based Workhorses of Enterprise Automation</h4>
+              <p className="mt-3 pr-10 4xl:pr-0 xl:pr-0">Bots are the simplest form of AI, typically rule-based programs that handle repetitive, structured tasks. They operate based on predefined instructions, meaning they execute functions without much need for contextual awareness or complex problem-solving.</p>
+              <p className="4xl:pr-5 pr-10  xl:pr-0">Bots are dependable and efficient for well-defined, repetitive tasks, but their functionality is limited. They lack adaptability and contextual awareness, meaning they struggle when handling unpredictable situations. Unlike Agentforce Agents, they don’t learn from past interactions or make autonomous decisions, making them less suitable for intricate workflows.</p>
+              <h4 className="4xl:text-[26px] xl:text-[20px] text-[18px] mt-10 font-semibold">Applications</h4>
 
-            <p className="text-black pb-4">
-              AI’s future will likely see greater integration of these tools.
-              Understanding the strengths of each AI type enables businesses to
-              build better solutions, focusing on productivity without
-              sacrificing quality.
-            </p>
+              <ul className="list-none marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-5 space-y-5 text-[16px] xl:text-[18px] 4xl:text-[22px] font-medium">
+                <li className="pb-2"><span className="font-bold inline">Retail Support:</span> Automated bots handle basic FAQ-style queries, quickly responding to commonly asked questions in customer support.</li>
+                <li className="pb-2"><span className="font-bold inline">Basic Task Automation:</span> Enterprise bots automate repetitive processes like sending notifications, sorting emails, and managing simple workflows.</li>
+              </ul>
 
-            <p className="text-black">
-              AI agents are the most autonomous form of AI. Unlike AI bots and
-              copilots, they can function independently, make data-driven
-              decisions, and continuously learn from their experiences. They
-              stand out for their high level of autonomy. They can sense their
-              environment through sensors and interact with it through
-              actuators, allowing them to pursue specific goals independently,
-              without human supervision. Interested in{" "}
-              <Link
-                className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                href={
-                  "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/?utm_source=blog&utm_medium=organic"
-                }
-              >
-                <span>learning more about Agentforce agents</span>
-              </Link>{" "}
-              or need help getting started? We’re here to assist. At Rialtes, we
-              specialize in{" "}
-              <Link
-                className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                href={
-                  "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
-                }
-              >
-                <span>AI and Analytics solutions for CRM</span>
-              </Link>
-              , and we’ve helped clients achieve significant productivity
-              improvements by leveraging AI tools to handle complex, evolving
-              tasks autonomously.
-            </p>
+              <h4 className="4xl:text-[26px] xl:text-[20px] text-[18px] mt-10 font-semibold leading-tight">Copilots – Smart Assistants that Enhance Human Decisions</h4>
+              <p className="mt-3 pr-8 4xl:pr-0 xl:pr-0">Unlike agents or bots, Copilots are AI assistants that work in tandem with humans, providing suggestions, insights, and feedback without making fully autonomous decisions. The goal of a Copilot is to support users, particularly in tasks that require creativity or problem-solving, allowing for an augmented collaboration rather than complete automation.</p>
+
+              <p className="mt-4 4xl:pr-5 pr-10 xl:pr-0">AI copilots boost human expertise rather than replace it, making them ideal for fields requiring critical thinking, creative input, or contextual understanding. While copilots are highly effective as support tools, they rely heavily on user input and guidance, meaning they’re less useful in scenarios where autonomous decision-making is needed.</p>
+              <h4 className="4xl:text-[26px] xl:text-[20px] text-[18px] mt-10 font-semibold">Applications</h4>
+              <ul className="list-none marker:text-black marker:text-xl mt-5 text-black  pr-8 4xl:pr-0 xl:pr-0 space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                <li className="pb-2"><span className="font-bold inline">Sales Enablement:</span> AI copilots provide real-time suggestions and content recommendations during sales calls, helping reps tailor pitches and respond effectively.</li>
+                <li className="pb-2"><span className="font-bold inline">Marketing Personalization:</span> Copilots assist marketers in crafting personalized email campaigns, analyzing A/B tests, and optimizing engagement strategies.</li>
+                <li className="pb-2"><span className="font-bold inline">Customer Service Support:</span> While human agents interact with customers, copilots surface knowledge base articles, prior case histories, and solution suggestions to guide resolution.</li>
+
+              </ul>
+              <h4 className="4xl:text-[26px] xl:text-[20px] text-[18px] mt-10 font-semibold">Agents – Autonomous, Learning-Based AI for Complex Tasks</h4>
+              <p className="4xl:pr-5 mt-5 pr-8 xl:pr-0">AI Agents represent the next level in AI; they are trusted conversational AI assistants designed to handle tasks autonomously and adapt to changing scenarios. These are pre-built solutions that can take input from a user and translate that input into a series of actions based on instructions that you can configure and enhance.</p>
+              <p className="mt-5 4xl:pr-10">With machine learning and adaptive algorithms, they can independently recognize opportunities for action, anticipate next steps, and initiate tasks within defined use cases and parameters. Unlike traditional bots, Agentforce Agents can understand and react to context, making them highly valuable for more complex, dynamic Salesforce environments.</p>
+              <p className="mt-5 pr-8 4xl:pr-0 xl:pr-0">Agents excel in adaptability, can respond to real-time data, and continuously refine their performance. This adaptability allows them to perform complex tasks independently, enhancing overall productivity. They handle intricate, context-sensitive situations where the outcome depends on various dynamic inputs, making them far more versatile than bots.</p>
+              <h4 className="4xl:text-[26px] xl:text-[20px] text-[18px] mt-10 font-semibold">Applications</h4>
+              <ul className="list-none marker:text-black marker:text-xl mt-5 space-y-5 text-black pr-8  xl:pr-0  text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium 4xl:pr-5">
+                <li className="pb-2"><span className="font-bold inline">Supply Chain Optimization:</span> Agents autonomously detect delays, reroute shipments, and balance inventory across warehouses based on real-time demand.</li>
+                <li className="pb-2"><span className="font-bold inline">Predictive Maintenance:</span> In manufacturing, agents analyze IoT sensor data to predict equipment failures and automatically trigger maintenance workflows.</li>
+                <li className="pb-2"><span className="font-bold inline">Customer Service Automation:</span> Agents handle complex service interactions, triage support cases, and execute end-to-end resolution workflows without human intervention.</li>
+
+              </ul>
+              <h3 className="pb-4 leading-tight  text-[#0092E0] 4xl:text-[28px] xl:text-[25px] text-[20px] mt-10 font-semibold pr-8 4xl:pr-0 xl:pr-0">Bots vs Copilots vs Agents: Feature Comparison Table for AI-Powered Business Workflows</h3>
+              <p className="mt-5 4xl:pr-10 pr-8 xl:pr-0">Each AI tool is effective within its niche, and the key is knowing which to deploy based on the task at hand. Here’s a comparative look at how they differ:</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <section>
+
+
+        <h4 className="4xl:text-[22px] xl:text-[20px] text-[14px] font-bold  custom-container pr-16 4xl:pr-0 xl:pr-0">The Road Trip of Automation: Bots vs. Copilots vs. AI Agents Explained Simply</h4>
+        <div className="xl:block hidden mt-5">
+          <Image
+            src="/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp"
+            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            priority
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
+          />
+        </div>
+        <div className="xl:hidden block mt-5">
+          <Image
+            src="/images/blog/infographic-mobile.webp"
+            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            priority
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
+          />
+        </div>
+
+      </section>
+      <section className="custom-container max-md:px-0">
+        <h3 className=" pb-4  text-[#0092E0] 4xl:text-[30px] max-md:px-[35px] xl:text-[25px] text-[20px] mt-10 font-semibold leading-tight 4xl:pr-[30rem]">Decision Matrix: Choosing Between Bots, Copilots, and AI Agents for Business Use Cases</h3>
+        <AITable />
+        <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 max-md:px-[35px]">
+          <div className="col-span-10">
+            <h3 className=" pb-4 font-semibold  text-[#0092E0] 4xl:text-[30px] xl:text-[25px] text-[20px]">Real-World Case Studies: AI in Action</h3>
+            <h4 className="4xl:text-[26px] xl:text-[25px] text-[18px]  font-semibold mt-3 pr-8 4xl:pr-0 xl:pr-0">Case 1: E-commerce Bot for Customer Service Automation</h4>
+            <p className="mt-5 4xl:pr-32 pr-10  xl:pr-0">A leading online retailer implemented a customer service bot to handle high-volume queries around order status, returns, and product availability. Within weeks, the bot was handling 70% of incoming support requests, freeing up human agents for more complex issues and escalations. This level of retail automation reduced average response time by 60% and significantly boosted customer satisfaction.</p>
+            <h4 className="4xl:text-[26px] xl:text-[25px] text-[18px]  mt-10 font-semibold pr-8 4xl:pr-0 xl:pr-0">Case 2: Copilot in B2B Sales for CRM Insights</h4>
+            <p className="mt-5 4xl:pr-32 pr-8 xl:pr-0">A global software company deployed a sales copilot within its CRM system. The tool acted as a CRM AI assistant, surfacing relevant customer data, suggesting next-best actions, and even drafting email responses. This AI sales copilot helped sales teams cut down prep time before calls and close deals faster by staying one step ahead of the buyer’s journey.</p>
+
+            <h4 className="4xl:text-[26px] xl:text-[25px] text-[18px]  mt-10 font-semibold">Case 3: Banking AI Agent for Real-Time Fraud Detection</h4>
+            <p className="mt-5 4xl:pr-32">A major bank rolled out AI agents for banking that work behind the scenes to monitor transactions in real time. These intelligent agents analyze behavioral patterns, flag suspicious activity, and autonomously freeze transactions when needed. The bank saw a 45% improvement in fraud detection AI accuracy with minimal false positives.</p>
+            <h3 className=" pb-4 font-semibold mt-10 leading-tight  text-[#0092E0] 4xl:text-[30px] xl:text-[25px] text-[20px]">How AI Tools Are Merging in Industry 4.0: Copilots, Bots, and Agents Explained</h3>
+            <p className="4xl:pr-32 pr-10 xl:pr-0">AI’s future will likely see greater integration of these tools. What used to be separate tools- chatbots answering basic queries, copilots assisting users in CRMs, and agents running autonomous operations are increasingly working together in unified, AI-powered workflows.</p>
+            <p className="mt-5 4xl:pr-32 pr-6 xl:pr-0">AI convergence is transforming the factory floor, where a workflow may include a bot capturing data, a copilot validating it in ERP, and an agent determining the next steps. Agentforce agents are highly autonomous, capable of making data-driven decisions and learning from experiences without human oversight. They use sensors and actuators to sense their environment and pursue goals independently, such as automated production rescheduling during supply delays or resolving quality issues in manufacturing. These agents access data from ERP, MES, CRM, and IoT systems to make contextual decisions and initiate appropriate workflows.</p>
+            <p className="mt-5 4xl:pr-32 pr-10  xl:pr-0">Interested in learning more about Agentforce agents or need help getting started? We’re here to assist. At Rialtes, we specialize in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/" target="_blank">Agentforce consulting</Link> and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously. Talk to us about aligning the right AI with your business process.</p>
           </div>
         </div>
       </section>
 
+
       {/* Latest Blogs */}
       <div
         className="custom-container lg:pr-0
-        pb-10"
+        pb-10 mt-20"
       >
         <BlogsCarousel slides={blogs} />
       </div>
+    </div>
+  );
+}
+const data = [
+  {
+    scenario: "Order Processing",
+    complexity: "Low",
+    criticality: "Low",
+    tool: "Bot",
+    justification: "Follows clear rules. No decision-making needed—just fast, repeatable actions.",
+    color: "bg-[#E8F7FF]"
+  },
+  {
+    scenario: "Sales Proposal Generation",
+    complexity: "Medium",
+    criticality: "Medium",
+    tool: "Copilot",
+    justification: "Assists humans by pulling data, suggesting content, and reducing manual effort.",
+    color: "bg-[#EBE3FF]"
+  },
+  {
+    scenario: "Demand Forecasting",
+    complexity: "High",
+    criticality: "High",
+    tool: "AI Agent",
+    justification: "Needs predictive modeling and autonomous logic across systems.",
+    color: "bg-[#FFF1E5]"
+  },
+  {
+    scenario: "Customer FAQ Handling",
+    complexity: "Low",
+    criticality: "Low",
+    tool: "Bot",
+    justification: "Standard questions and responses. Scripted conversations work well here.",
+    color: "bg-[#E8F7FF]"
+  },
+  {
+    scenario: "Product Quote Configuration",
+    complexity: "Medium",
+    criticality: "Medium",
+    tool: "Copilot",
+    justification: "Navigates pricing logic and product rules. Supports human-led decision-making.",
+    color: "bg-[#ECE3FF]"
+  },
+  {
+    scenario: "Support Ticket Resolution",
+    complexity: "High",
+    criticality: "High",
+    tool: "AI Agent",
+    justification: "Prioritizes issues, acts across systems, and learns from resolution history.",
+    color: "bg-[#FFF1E5]"
+  },
+  {
+    scenario: "Production Planning",
+    complexity: "High",
+    criticality: "High",
+    tool: "AI Agent",
+    justification: "Balances constraints, adapts plans, and automates complex workflows.",
+    color: "bg-[#E8F7FF]"
+  },
+  {
+    scenario: "Document Upload Help",
+    complexity: "Low",
+    criticality: "Low",
+    tool: "Bot",
+    justification: "Minimal logic. Task is straightforward and doesn’t require user context.",
+    color: "bg-[#ECE3FF]"
+  },
+  {
+    scenario: "Sales Training Guidance",
+    complexity: "Medium",
+    criticality: "Low",
+    tool: "Copilot",
+    justification: "Offers real-time nudges, links to documentation, and suggestions while selling.",
+    color: "bg-[#FFF1E5]"
+  }
+];
+
+const AITable = () => {
+  return (
+    <div className="py-8">
+      <div className="hidden md:block overflow-x-auto rounded-lg border border-gray-200">
+        <table className="min-w-full border-separate border-spacing-y-1">
+          <thead>
+            <tr className="bg-[#527391] text-left 4xl:text-[22px] xl:text-[20px] font-semibold text-white">
+              <th className="p-3 pl-10">Scenario</th>
+              <th className="p-3">Task Complexity</th>
+              <th className="p-3">Decision Criticality</th>
+              <th className="p-3 pr-10">Recommended AI tool</th>
+              <th className="p-3">Justification</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((row, idx) => (
+              <tr key={idx} className={`${row.color} border-t border-gray-200`}>
+                <td className="p-3 pl-10 4xl:text-[20px] xl:text-[18px] text-[14px]">{row.scenario}</td>
+                <td className="p-3 4xl:text-[20px] xl:text-[18px] text-[14px]">{row.complexity}</td>
+                <td className="p-3 4xl:text-[20px] xl:text-[18px] text-[14px]">{row.criticality}</td>
+                <td className="p-3 4xl:text-[20px] xl:text-[18px] text-[14px]">{row.tool}</td>
+                <td className="p-3 4xl:text-[20px] xl:text-[18px] text-[14px]">{row.justification}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="md:hidden space-y-2">
+        {data.map((row, idx) => (
+          <div
+            key={idx}
+            className={`${row.color} border border-gray-200 px-[35px] p-4 space-y-1`}
+          >
+            <div className="grid grid-cols-2 gap-y-4 gap-x-4">
+              {/* First column pair */}
+              <div>
+                <p className="font-bold text-[#527391] text-[14px]">Scenario</p>
+                <p className="text-[14px] mt-2">{row.scenario}</p>
+              </div>
+              <div>
+                <p className="font-bold text-[#527391] text-[14px]">Task Complexity</p>
+                <p className="text-[14px] mt-2">{row.complexity}</p>
+              </div>
+
+              {/* Second column pair */}
+              <div>
+                <p className="font-bold text-[#527391] text-[14px]">Decision Criticality</p>
+                <p className="text-[14px] mt-2">{row.criticality}</p>
+              </div>
+              <div>
+                <p className="font-bold text-[#527391] text-[14px]">Recommended AI tool</p>
+                <p className="text-[14px] mt-2">{row.tool}</p>
+              </div>
+
+              {/* Full-width Justification */}
+              <div className="col-span-2">
+                <p className="font-bold text-[#527391] text-[14px]">Justification</p>
+                <p className="text-[14px] mt-2">{row.justification}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
     </div>
   );
 }
