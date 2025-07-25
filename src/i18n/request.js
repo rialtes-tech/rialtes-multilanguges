@@ -27,6 +27,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const successPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const kinaxis = (await import(`../../messages/${locale}/services.json`)).default;
+    const growWithSap = (await import(`../../messages/${locale}/services.json`)).default;
+    const riseWithSap = (await import(`../../messages/${locale}/services.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
@@ -55,8 +57,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...exploreMore,
             ...agentChat,
             ...sapCpi,
-            ...kinaxis
-
+            ...kinaxis,
+            ...growWithSap,
+            ...riseWithSap
         }
     };
 });

@@ -1,11 +1,16 @@
+
+
 "use client";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Link from "next/link";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/services.json';
+import esContent from '../../../../../../messages/es/services.json';
+import LearnMore from "@/app/[locale]/components/learnMore";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -118,120 +123,11 @@ const schemaData = {
     "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
   }
 }
-const services = [
-  {
-    text: 'SAP License Advisory',
-    img: '/images/services/grow-with-sap/SAP License Advisory.svg',
-  },
-  {
-    text: 'Quality Assurance & User Training',
-    img: '/images/services/grow-with-sap/Quality Assurance & User Training.svg',
-  },
-  {
-    text: 'Post Go-Live Support & Continuous Optimization',
-    img: '/images/services/grow-with-sap/Post Go-Live Support .svg',
-  },
-  {
-    text: 'Solution Design & Implementation',
-    img: '/images/services/grow-with-sap/Solution Design & Implementation.svg',
-  },
-  {
-    text: 'System Integration & Customization',
-    img: '/images/services/grow-with-sap/System Integration & Customization.svg',
-  },
-];
-const cardsData = [
-  {
-    title: "SAP SuccessFactors + S/4HANA Cloud",
-    description:
-      "Enable next-generation HR and workforce management seamlessly integrated with SAP S/4HANA for unified employee and finance data. Manage the entire hire-to-retire lifecycle, aligned with real-time business operations.",
-  },
-  {
-    title: "SAP Ariba + S/4HANA Cloud",
-    description:
-      "Integrate direct and indirect procurement seamlessly with S/4HANA to drive supplier collaboration, contract management, and procurement analytics. Rialtes ensures end-to-end Ariba-S/4HANA integrations for global sourcing.",
-  },
-  {
-    title: "Direct and Indirect Procurement",
-    description:
-      "Enable complete procurement transformation, reduce costs, enhance supplier visibility, and ensure compliance with integrated sourcing strategies.",
-  },
-];
-const benefits = [
-  { bold: "Fast time-to-value", text: " with preconfigured processes." },
-  { bold: "Cloud agility and scalability", text: " for growing businesses." },
-  { bold: "AI and automation ready", text: " for future innovation." },
-  { bold: "End-to-end compliance and security", text: "" },
-];
-const sapBenefits = [
-  {
-    bold: "Scalability —",
-    text: "Move beyond the limitations of SAP B1 to a cloud-first, scalable ERP.",
-  },
-  {
-    bold: "Advanced Analytics & AI —",
-    text: "Unlock real-time insights and automation",
-  },
-  {
-    bold: "Global Compliance & Localization —",
-    text: "Built-in support for global operations.",
-  },
-  {
-    bold: "Seamless Integrations —",
-    text: "Easily integrate with suppliers, partners, and customers.",
-  },
-  {
-    bold: "Modern User Experience —",
-    text: "SAP Fiori-based modern UX for enhanced productivity.",
-  },
-];
-const rialtesSapData = [
-  "Current Landscape Assessment & Fit Analysis",
-  "Business Process Mapping to S/4HANA Best Practices",
-  "Data Migration Planning and Execution",
-  "System Setup, Configuration & Custom Extensions",
-  "Training, Testing, and Go-Live Support",
-]
-const sapIntegrationPoints = [
-  {
-    bold: "Connect SAP S/4HANA with non-SAP apps ",
-    text: "like Salesforce, ServiceNow, and legacy systems.",
-  },
-  {
-    bold: "Real-time, secure API-based integrations.",
-    text: "",
-  },
-];
-const sapInnovationList = [
-  "SAP Build Process Automation and Extensions",
-  "AI/ML and IoT Integrations",
-  "API Management and Security",
-];
-const featureHighlights = [
-  {
-    bold: "Quick Deployment —",
-    text: "Setup in minutes, ready to scale.",
-  },
-  {
-    bold: "Enterprise Security —",
-    text: "Role-based access and audit trails.",
-  },
-  {
-    bold: "Flexible Process Delegation —",
-    text: "Manage cases, leads, orders, work orders, and more — by record type.",
-  },
-  {
-    bold: "Seamless SAP and Salesforce Integration —",
-    text: "Drive conversations linked to ERP and CRM workflows.",
-  },
-];
-const futureProofingData = [
-  "AI-driven analytics and recommendations",
-  "Customer segmentation for targeted marketing",
-  "Predictive insights for supply chain and procurement",
-  "Personalized experiences with Data Cloud + AI",
-]
 export default function Page() {
+  const t = useTranslations('growWithSap')
+  const locale = useLocale();
+  const content = locale === 'es' ? esContent : enContent;
+  const { services, cardsData, benefits, sapBenefits, rialtesSapData, sapIntegrationPoints, sapInnovationList, featureHighlights, futureProofingData, keyPhasesData } = content.growWithSap;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -271,13 +167,13 @@ export default function Page() {
           <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
             <div className="xl:col-span-7 col-span-12 pr-5 ">
               <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
-                VoyagerNext
+                {t('headerTitle')}
               </h3>
               <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]">
-                Grow Faster, Smarter with Rialtes' VoyagerNext
+                {t('headerSubTitle')}
               </h2>
               <h3 className="mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px]  text-white font-medium leading-tight xl:font-semibold max-w-full break-words pr-24">
-                Your Partner for SAP S/4HANA Cloud Transformation
+                {t('headerSubTitle2')}
               </h3>
               <div className="md:w-32 w-20 pt-6 mt-5">
                 <Image
@@ -302,10 +198,10 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="4xl:col-span-10 xl:col-span-9 col-span-12">
             <h1 className="leading-tight 4xl:text-[56px] xl:text-[40px] md:text-[26px] xl:mb-8  xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
-              Unlock the Power of SAP S/4HANA Cloud with Rialtes VoyagerNext Services
+              {t('pageDescTitle')}
             </h1>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">At Rialtes, we help organizations embrace SAP's next-generation S/4HANA Cloud ERP using Grow with SAP — delivering enterprise-grade solutions built for scalability, agility, and future-proof growth </p>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight  mt-5">As a certified SAP partner with presence in the United States, Canada, India, and Singapore, and a team of highly certified SAP experts, Rialtes is your trusted partner for end-to-end SAP transformation. Our VoyagerNext services seamlessly combine:</p>
+            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">{t('pageDesc1')}  </p>
+            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">{t('pageDesc2')} </p>
           </div>
           <div className="xl:col-span-4 col-span-12">
           </div>
@@ -333,7 +229,7 @@ export default function Page() {
           </div>
         </div>
         <div className="custom-container max-md:px-0">
-          <p className="4xl:text-[26px] xl:text-[20px] text-[18px]  font-normal bg-[#0C8AD4] xl:pr-[270px] p-10 pl-10 text-white mt-20 leading-tight">We deliver business value from strategy to execution — enabling you to Grow with SAP and accelerate towards an intelligent, AI-powered enterprise.</p>
+          <p className="4xl:text-[26px] xl:text-[20px] text-[18px] font-normal bg-[#0C8AD4] xl:pr-[270px] p-10 pl-10 text-white mt-20 leading-tight">{t('servicesBlueBox')} </p>
         </div>
       </section>
       {/* why now section */}
@@ -362,7 +258,7 @@ export default function Page() {
           <div className="xl:grid xl:grid-cols-12 grid-cols-1 relative  xl:mt-0 mt-[30rem]">
             <div className="xl:col-span-4 col-span-12 xl:pl-16 pl-8 text-white pr-22  xl:pr-0">
               <h2 className="xl:mt-20  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
-                Grow with SAP: Why Now?
+                {t('growWithSapTitle')}
               </h2>
             </div>
             <div className="xl:col-span-7 col-span-12">
@@ -370,8 +266,8 @@ export default function Page() {
           </div>
           <div className="xl:grid xl:grid-cols-12 grid-cols-1 relative xl:pl-16 px-[35px] ">
             <div className="xl:col-span-5 col-span-12 text-white">
-              <p className="mt-10 font-normal text-[16px] xl:text-[20px] 4xl:text-[22px] leading-tight">Grow with SAP brings the power of SAP S/4HANA Cloud Public Edition to mid-market and growing enterprises with pre-configured industry best practices, rapid deployment, and flexible licensing — making enterprise-grade ERP affordable, scalable, and fast to implement.</p>
-              <h3 className="mt-10  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight xl:font-bold  font-medium">Benefits of Grow with SAP:</h3>
+              <p className="mt-10 font-normal text-[16px] xl:text-[20px] 4xl:text-[22px] leading-tight">{t('growWithSapTitleDesc')} </p>
+              <h3 className="mt-10  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight xl:font-bold  font-medium">{t('growWithSapSubTitle')}</h3>
               <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-light">
                 {benefits.map((item, index) => (
                   <li key={index} className={index === 0 ? "mt-4" : ""}>
@@ -411,17 +307,17 @@ export default function Page() {
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white backdrop-blur-md bg-black/30 p-5">
             <div className="xl:col-span-8 col-span-12">
               <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px]  mt-16 leading-tight xl:pr-20">
-                SAP Business One (B1) to SAP S/4HANA Migration
+                {t('sapBusinessTitle')}
               </h2>
-              <h3 className="mt-5 4xl:text-[40px] xl:text-[30px] text-[22px]">Future-Proof Your ERP</h3>
+              <h3 className="mt-5 4xl:text-[40px] xl:text-[30px] text-[22px]">{t('sapBusinessSubTitle')} </h3>
             </div>
             <div className="xl:col-span-4 col-span-12 xl:mt-16 mt-5 pr-20">
-              <p className="xl:text-[22px] text-[16px] font-medium">For businesses running SAP Business One (SAP B1), Rialtes provides a clear, structured path to migrate to SAP S/4HANA Cloud under Grow with SAP.</p>
+              <p className="xl:text-[22px] text-[16px] font-medium">{t('sapBusinessDesc')}</p>
             </div>
           </div>
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-16 xl:pb-20 xl:pr-10 xl:pl-10 backdrop-blur-md bg-black/30 p-5">
             <div className="xl:col-span-5 col-span-12">
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight xl:font-bold font-medium pr-10">Benefits of Migrating from SAP B1 to S/4HANA Cloud:</h3>
+              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight xl:font-bold font-medium pr-10">{t('benefitsTitle')} </h3>
               <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-10 mt-3">
                 {sapBenefits.map((item, index) => (
                   <li key={index}>
@@ -433,11 +329,9 @@ export default function Page() {
             <div className="xl:col-span-1 col-span-12">
             </div>
             <div className="xl:col-span-5 col-span-12 mt-20 xl:mt-0">
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight font-bold">Rialtes SAP B1 to S/4HANA Migration Approach:</h3>
+              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight font-bold">{t('rialtesSapMigratingTitle')}</h3>
               <UnorderedList arrName={rialtesSapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight " />
-              <button className="bg-white hover:bg-[#ffffff] hover:text-[#134874] border-[1px] xl:text-[20px] border-[solid] border-[#134874] mt-10 font-semibold text-black py-3 px-8 transition duration-300 order-4">
-                <Link href='/contact-us'>Learn More</Link>
-              </button>
+              <LearnMore />
             </div>
           </div>
         </div>
@@ -447,37 +341,29 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 col-span-12 xl:w-[90%] 4xl:w-[100%]">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
-              Rialtes and SAP Activate Methodology + SAP Signavio
+              {t('rialtesSapTitle')}
             </h2>
-            <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] mt-5">Your Roadmap to Success</h3>
+            <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] mt-5">{t('rialtesSapSubTitle')} </h3>
           </div>
           <div className="xl:col-span-4 col-span-12 mt-5 xl:mt-0 font-normal ">
-            <p className="4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">Delivering Success with SAP Activate & SAP Signavio Business Process Intelligence (BPI)</p>
-            <p className="mt-5 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">Rialtes leverages SAP Activate methodology combined with SAP Signavio to ensure a process-first, value-driven ERP transformation.</p>
+            <p className="4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">{t('rialtesSapDesc')} </p>
+            <p className="mt-5 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">{t('rialtesSapDesc2')} </p>
           </div>
         </div>
       </section>
       {/* key phases section */}
       <section className="xl:mb-20 mb-10 custom-container max-md:px-0 text-black">
-        <h2 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold max-md:pl-10 xl:mt-10 pr-10">Key Phases of SAP Activate Methodology:</h2>
+        <h2 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold max-md:pl-10 xl:mt-10 pr-10">{t('keyPhasesTitle')} </h2>
         <div className="overflow-x-auto mt-5">
           <table className="w-full border-collapse">
             <thead>
               <tr className="bg-[#D0EEFF] text-left">
-                <th className="p-4 pl-10 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">Phase</th>
-                <th className="p-4 xl:pl-32 pl-20 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">What We Deliver</th>
+                <th className="p-4 pl-10 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle1')} </th>
+                <th className="p-4 xl:pl-32 pl-20 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle2')}</th>
               </tr>
             </thead>
             <tbody className="mt-3">
-              {[
-                { title: "Discover", desc: "Value identification, business case, high-level roadmap." },
-                { title: "Prepare", desc: "Team enablement, project planning, initial scoping." },
-                { title: "Explore", desc: "Fit-to-standard analysis powered by SAP Signavio, gap identification." },
-                { title: "Realize", desc: "System configuration, extensions on SAP BTP, integration design." },
-                { title: "Deploy", desc: "End-user training, data migration, go-live execution." },
-                { title: "Run", desc: "Hypercare, continuous improvement, AI integration." }
-
-              ].map((item, index) => (
+              {keyPhasesData.map((item, index) => (
                 <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"}   mt-5`}>
                   <td className="p- font-light pl-10 4xl:text-[26px] xl:text-[20px] text-[16px] leading-tight">{item.title}</td>
                   <td className="p-6 xl:pl-32 pl-20  font-light 4xl:text-[26px] xl:text-[20px] text-[16px] leading-tight">{item.desc}</td>
@@ -489,8 +375,8 @@ export default function Page() {
       </section>
       {/* sap signavio section */}
       <div className="xl:mb-20 mb-12 xl:mr-[142px] mt-0 custom-container text-black max-md:px-0">
-        <div className="grid xl:grid-cols-12 grid-cols-1  bg-[#068EDA] xl:gap-8 gap-3 px-[36px]">
-          <div className="xl:col-span-3 col-span-12 flex justify-center xl:justify-start pl-0 xl:pl-10  ">
+        <div className="grid xl:grid-cols-12 grid-cols-1 bg-[#068EDA] xl:gap-8 gap-3 px-[36px]">
+          <div className="xl:col-span-3 col-span-12 flex justify-center xl:justify-start pl-0 xl:pl-10">
             <Image
               src="/images/services/rise-with-sap/SAP Signavio.webp"
               alt="SAP Signavio"
@@ -501,7 +387,7 @@ export default function Page() {
             />
           </div>
           <div className="xl:col-span-9 col-span-12 text-white p-5 pl-10 xl:pr-0 pr-5">
-            <p className="4xl:text-[26px] xl:text-[20px] text-[16px]  font-normal leading-tight">SAP Signavio enables process modeling, simulation, and improvement for a future-ready operating model aligned with SAP standards.</p>
+            <p className="4xl:text-[26px] xl:text-[20px] text-[16px] font-normal leading-tight">{t('sapSignavioDesc')} </p>
           </div>
         </div>
       </div>
@@ -519,13 +405,13 @@ export default function Page() {
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
               <div className="4xl:col-span-7 xl:col-span-6  col-span-12 pb-10">
                 <h2 className="text-white max-md:mt-[390px] mt-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
-                  Expanding Value with SAP SuccessFactors, Ariba, and Procurement
+                  {t('expandingTitle')}
                 </h2>
               </div>
             </div>
           </div>
         </div>
-        <div className="relative z-20 custom-container  xl:mr-[420px] mt-[-5rem] xl:mt-[-300px]">
+        <div className="relative z-20 custom-container xl:mr-[420px] mt-[-5rem] xl:mt-[-300px]">
           <div className="flex flex-col xl:flex-row gap-6">
             {cardsData.map((card, index) => (
               <div
@@ -546,10 +432,10 @@ export default function Page() {
       <section className="xl:mt-24 mt-16 h-full relative custom-container">
         <div className="grid grid-cols-12">
           <div className="xl:col-span-10 col-span-12">
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[78%] 4xl:w-[100%]">SAP CPI and BTP — Integrated, Customized, and Future-Ready ERP</h2>
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[78%] 4xl:w-[100%]">{t('sapCpiTitle')} </h2>
             <div className="grid xl:grid-cols-12 grid-cols-1 pt-10 xl:pb-32 pb-10 xl:gap-20">
               <div className="xl:col-span-6 col-span-12">
-                <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px]  xl:font-semibold font-medium  leading-tight">SAP Cloud Platform Integration (CPI)</h3>
+                <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px]  xl:font-semibold font-medium  leading-tight">{t('sapCpiSubTitle')} </h3>
                 <ul className="list-disc space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 mt-5 leading-tight">
                   {sapIntegrationPoints.map((item, index) => (
                     <li key={index}>
@@ -559,9 +445,9 @@ export default function Page() {
                   ))}
                 </ul>
               </div>
-              <div className="xl:col-span-6 col-span-12 mt-16 xl:mt-0 ">
-                <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px]  xl:font-semibold font-medium  leading-tight">SAP BTP — Customization and Innovation at Scale</h3>
-                <p className="xl:mt-10 mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes offers strong SAP BTP competency to build custom apps, automate workflows, and extend S/4HANA:</p>
+              <div className="xl:col-span-6 col-span-12 mt-16 xl:mt-0">
+                <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px] xl:font-semibold font-medium leading-tight">{t('sapBtpTitle')} </h3>
+                <p className="xl:mt-10 mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('sapBtpDesc')}</p>
                 <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 mt-5">
                   {sapInnovationList.map((item, index) => (
                     <li key={index}>
@@ -574,9 +460,9 @@ export default function Page() {
           </div>
           <div className="xl:col-span-3 col-span-12"></div>
         </div>
-        <p className="xl:block hidden 4xl:text-[26px] xl:text-[20px] text-[16px] bg-[#0C8AD4] font-normal p-5 xl:pl-10  text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
+        <p className="xl:block hidden 4xl:text-[26px] xl:text-[20px] text-[16px] bg-[#0C8AD4] font-normal p-5 xl:pl-10  text-white leading-tight">{t('sapBtpBlueBoxDes')} </p>
       </section>
-     <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
+      <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">{t('sapBtpBlueBoxMob')} </p>
       {/* conversational section */}
       <section className="bg-[#184671] xl:pb-20 pb-10 xl:mt-32 mt-10">
         <div className="custom-container h-full relative">
@@ -591,23 +477,21 @@ export default function Page() {
             />
             <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:left-10">
               <div className="xl:col-span-7 col-span-12">
-                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Conversational AI with AgentChat — Transforming Customer Engagement</h2>
+                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('conversationalTitle')} </h2>
               </div>
               <div className="xl:col-span-6 col-span-12">
               </div>
             </div>
           </div>
-          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:gap-20  mt-80 md:mt-14 xl:mt-0">
+          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:gap-20 mt-80 md:mt-14 xl:mt-0">
             <div className="xl:col-span-5 col-span-12">
-              <h2 className="4xl:text-[40px]   xl:text-[28px] text-[20px] leading-tight xl:font-semibold  font-bold">Meet AgentChat — WhatsApp for Salesforce and SAP</h2>
+              <h2 className="4xl:text-[40px] xl:text-[28px] text-[20px] leading-tight xl:font-semibold  font-bold">{t('meetTitle')} </h2>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 font-normal leading-tight">
-                RialChat is a bi-directional WhatsApp conversational app, fully integrated within Salesforce and extendable to SAP.              </p>
-              <button className="xl:text-[20px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-3  transition duration-300 order-4 xl:mt-16 mt-10 mb-10 xl:mb-0">
-                <Link href='/products/agentchat'>Know More</Link>
-              </button>
+                {t('rialchatTitle')}</p>
+              <LearnMore btnName="Know More" href='/products/agentchat' />
             </div>
             <div className="xl:col-span-7 col-span-12 xl:pr-20 ">
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold">Benefits of Grow with SAP:</h3>
+              <h3 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold">{t('conversationalBenefitsTitle')}</h3>
               <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl xl:pr-16 leading-tight">
                 {featureHighlights.map((item, index) => (
                   <li key={index} className={index === 0 ? "mt-5" : ""}>
@@ -635,8 +519,8 @@ export default function Page() {
             <div className="xl:col-span-1 col-span-12">
             </div>
             <div className="xl:col-span-6 col-span-12 text-black mt-8 xl:mt-0">
-              <h2 className="leading-tight 4xl:text-[56px] xl:text-[43px] md:text-[26px]">Future-Proofing with AI, Data, and Automation: The Next Frontier</h2>
-              <p className="mt-5 xl:text-[22px] text-[16px] leading-tight">Leverage SAP Data Cloud and Salesforce Agentforce AI to unlock next-gen ERP capabilities:</p>
+              <h2 className="leading-tight 4xl:text-[56px] xl:text-[43px] md:text-[26px]">{t('futureProofingTitle')} </h2>
+              <p className="mt-5 xl:text-[22px] text-[16px] leading-tight">{t('futureProofingDesc')} </p>
               <UnorderedList arrName={futureProofingData} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5  font-semibold mt-10" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
             </div>
           </div>
@@ -644,7 +528,7 @@ export default function Page() {
       </section>
       {/* contact form */}
       <section className="custom-container text-black py-16">
-        <ContactForm title={'Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!'} subtitle={"Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
+        <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
       </section>
     </div >
   );

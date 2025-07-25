@@ -505,5 +505,387 @@
         "leadingDesc": "At Rialtes, we go beyond standard implementations — combining AI, data science, and advanced planning tools to create responsive and resilient supply chains.",
         "contactTitle": "Start Your Kinaxis Journey with Rialtes DemandPlus Today",
         "contactSubTitle": "Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution."
+    },
+    "growWithSap": {
+        "services": [
+            {
+                "text": "SAP License Advisory",
+                "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+            },
+            {
+                "text": "Quality Assurance & User Training",
+                "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+            },
+            {
+                "text": "Post Go-Live Support & Continuous Optimization",
+                "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+            },
+            {
+                "text": "Solution Design & Implementation",
+                "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+            },
+            {
+                "text": "System Integration & Customization",
+                "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+            }
+        ],
+        "cardsData": [
+            {
+                "title": "SAP SuccessFactors + S/4HANA Cloud",
+                "description": "Enable next-generation HR and workforce management seamlessly integrated with SAP S/4HANA for unified employee and finance data. Manage the entire hire-to-retire lifecycle, aligned with real-time business operations."
+            },
+            {
+                "title": "SAP Ariba + S/4HANA Cloud",
+                "description": "Integrate direct and indirect procurement seamlessly with S/4HANA to drive supplier collaboration, contract management, and procurement analytics. Rialtes ensures end-to-end Ariba-S/4HANA integrations for global sourcing."
+            },
+            {
+                "title": "Direct and Indirect Procurement",
+                "description": "Enable complete procurement transformation, reduce costs, enhance supplier visibility, and ensure compliance with integrated sourcing strategies."
+            }
+        ],
+        "benefits": [
+            {
+                "bold": "Fast time-to-value",
+                "text": " with preconfigured processes."
+            },
+            {
+                "bold": "Cloud agility and scalability",
+                "text": " for growing businesses."
+            },
+            {
+                "bold": "AI and automation ready",
+                "text": " for future innovation."
+            },
+            {
+                "bold": "End-to-end compliance and security",
+                "text": ""
+            }
+        ],
+        "sapBenefits": [
+            {
+                "bold": "Scalability —",
+                "text": "Move beyond the limitations of SAP B1 to a cloud-first, scalable ERP."
+            },
+            {
+                "bold": "Advanced Analytics & AI —",
+                "text": "Unlock real-time insights and automation"
+            },
+            {
+                "bold": "Global Compliance & Localization —",
+                "text": "Built-in support for global operations."
+            },
+            {
+                "bold": "Seamless Integrations —",
+                "text": "Easily integrate with suppliers, partners, and customers."
+            },
+            {
+                "bold": "Modern User Experience —",
+                "text": "SAP Fiori-based modern UX for enhanced productivity."
+            }
+        ],
+        "rialtesSapData": [
+            "Current Landscape Assessment & Fit Analysis",
+            "Business Process Mapping to S/4HANA Best Practices",
+            "Data Migration Planning and Execution",
+            "System Setup, Configuration & Custom Extensions",
+            "Training, Testing, and Go-Live Support"
+        ],
+        "sapIntegrationPoints": [
+            {
+                "bold": "Connect SAP S/4HANA with non-SAP apps ",
+                "text": "like Salesforce, ServiceNow, and legacy systems."
+            },
+            {
+                "bold": "Real-time, secure API-based integrations.",
+                "text": ""
+            }
+        ],
+        "sapInnovationList": [
+            "SAP Build Process Automation and Extensions",
+            "AI/ML and IoT Integrations",
+            "API Management and Security"
+        ],
+        "featureHighlights": [
+            {
+                "bold": "Quick Deployment —",
+                "text": "Setup in minutes, ready to scale."
+            },
+            {
+                "bold": "Enterprise Security —",
+                "text": "Role-based access and audit trails."
+            },
+            {
+                "bold": "Flexible Process Delegation —",
+                "text": "Manage cases, leads, orders, work orders, and more — by record type."
+            },
+            {
+                "bold": "Seamless SAP and Salesforce Integration —",
+                "text": "Drive conversations linked to ERP and CRM workflows."
+            }
+        ],
+        "futureProofingData": [
+            "AI-driven analytics and recommendations",
+            "Customer segmentation for targeted marketing",
+            "Predictive insights for supply chain and procurement",
+            "Personalized experiences with Data Cloud + AI"
+        ],
+        "keyPhasesData": [
+            {
+                "title": "Discover",
+                "desc": "Value identification, business case, high-level roadmap."
+            },
+            {
+                "title": "Prepare",
+                "desc": "Team enablement, project planning, initial scoping."
+            },
+            {
+                "title": "Explore",
+                "desc": "Fit-to-standard analysis powered by SAP Signavio, gap identification."
+            },
+            {
+                "title": "Realize",
+                "desc": "System configuration, extensions on SAP BTP, integration design."
+            },
+            {
+                "title": "Deploy",
+                "desc": "End-user training, data migration, go-live execution."
+            },
+            {
+                "title": "Run",
+                "desc": "Hypercare, continuous improvement, AI integration."
+            }
+        ],
+        "headerTitle": "VoyagerNext",
+        "headerSubTitle": "Grow Faster, Smarter with Rialtes' VoyagerNext",
+        "headerSubTitle2": "Your Partner for SAP S/4HANA Cloud Transformation",
+        "pageDescTitle": "Unlock the Power of SAP S/4HANA Cloud with Rialtes VoyagerNext Services",
+        "pageDesc1": "At Rialtes, we help organizations embrace SAP's next-generation S/4HANA Cloud ERP using Grow with SAP — delivering enterprise-grade solutions built for scalability, agility, and future-proof growth",
+        "pageDesc2": "As a certified SAP partner with presence in the United States, Canada, India, and Singapore, and a team of highly certified SAP experts, Rialtes is your trusted partner for end-to-end SAP transformation. Our VoyagerNext services seamlessly combine:",
+        "servicesBlueBox": "We deliver business value from strategy to execution — enabling you to Grow with SAP and accelerate towards an intelligent, AI-powered enterprise.",
+        "growWithSapTitle": "Grow with SAP: Why Now?",
+        "growWithSapTitleDesc": "Grow with SAP brings the power of SAP S/4HANA Cloud Public Edition to mid-market and growing enterprises with pre-configured industry best practices, rapid deployment, and flexible licensing — making enterprise-grade ERP affordable, scalable, and fast to implement.",
+        "growWithSapSubTitle": " Benefits of Grow with SAP:",
+        "sapBusinessTitle": "SAP Business One (B1) to SAP S/4HANA Migration",
+        "sapBusinessSubTitle": "Future-Proof Your ERP",
+        "sapBusinessDesc": " For businesses running SAP Business One (SAP B1), Rialtes provides a clear, structured path to migrate to SAP S/4HANA Cloud under Grow with SAP.",
+        "benefitsTitle": "Benefits of Migrating from SAP B1 to S/4HANA Cloud:",
+        "rialtesSapMigratingTitle": " Rialtes SAP B1 to S/4HANA Migration Approach:",
+        "rialtesSapTitle": "Rialtes and SAP Activate Methodology + SAP Signavio",
+        "rialtesSapSubTitle": "Your Roadmap to Success",
+        "rialtesSapDesc": "Delivering Success with SAP Activate & SAP Signavio Business Process Intelligence (BPI)",
+        "rialtesSapDesc2": "Rialtes leverages SAP Activate methodology combined with SAP Signavio to ensure a process-first, value-driven ERP transformation.",
+        "keyPhasesTitle": "Key Phases of SAP Activate Methodology:",
+        "keyPhasesTableTitle1": "Phase",
+        "keyPhasesTableTitle2": " What We Deliver",
+        "sapSignavioDesc": "SAP Signavio enables process modeling, simulation, and improvement for a future-ready operating model aligned with SAP standards.",
+        "expandingTitle": "Expanding Value with SAP SuccessFactors, Ariba, and Procurement",
+        "sapCpiTitle": "SAP CPI and BTP — Integrated, Customized, and Future-Ready ERP",
+        "sapCpiSubTitle": "SAP Cloud Platform Integration (CPI)",
+        "sapBtpTitle": "SAP BTP — Customization and Innovation at Scale",
+        "sapBtpDesc": " Rialtes offers strong SAP BTP competency to build custom apps, automate workflows, and extend S/4HANA:",
+        "sapBtpBlueBoxDesk": "Our certified BTP experts ensure future-proof architecture for every client.",
+        "sapBtpBlueBoxMob": "Our certified BTP experts ensure future-proof architecture for every client.",
+        "conversationalTitle": "Conversational AI with AgentChat — Transforming Customer Engagement",
+        "rialchatTitle": "RialChat is a bi-directional WhatsApp conversational app, fully integrated within Salesforce and extendable to SAP.",
+        "meetTitle": "Meet AgentChat — WhatsApp for Salesforce and SAP",
+        "conversationalBenefitsTitle": " Benefits of Grow with SAP:",
+        "futureProofingTitle": "Future-Proofing with AI, Data, and Automation: The Next Frontier",
+        "futureProofingDesc": "Leverage SAP Data Cloud and Salesforce Agentforce AI to unlock next-gen ERP capabilities:",
+        "contactTitle": "Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!",
+        "contactSubTitle": "Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."
+    },
+    "riseWithSap": {
+        "greenfieldItemsLeft": [
+            {
+                "title": "Vision and Strategy Alignment",
+                "description": "Define business goals and digital vision."
+            },
+            {
+                "title": "Process Reimagination with SAP Best Practices and Signavio",
+                "description": "Redesign processes to leverage the latest innovations."
+            },
+            {
+                "title": "Solution Design and Prototyping",
+                "description": "Develop future-state architecture and rapid prototyping."
+            },
+            {
+                "title": "SAP S/4HANA Cloud Configuration",
+                "description": "Build system aligned with fit-to-standard and tailored needs."
+            }
+        ],
+        "greenfieldItemsRight": [
+            {
+                "title": "Data Strategy and Clean Migration",
+                "description": "Ensure accurate, clean data migration from legacy platforms."
+            },
+            {
+                "title": "Integration Framework Design with SAP BTP and CPI",
+                "description": "Plan integrations with internal and external systems."
+            },
+            {
+                "title": "User Training and Change Management",
+                "description": "Drive adoption and organizational readiness."
+            },
+            {
+                "title": "Go-Live and Hypercare Support",
+                "description": "Smooth transition with strong post-go-live governance."
+            }
+        ],
+        "brownfieldItemsLeft": [
+            {
+                "title": "System Landscape and Fit Assessment",
+                "description": "Evaluate existing ECC setup and assess conversion readiness."
+            },
+            {
+                "title": "Custom Code and Data Analysis",
+                "description": "Review, simplify, and adapt custom developments."
+            },
+            {
+                "title": "Technical System Conversion",
+                "description": "Execute SAP S/4HANA conversion using SAP-certified tools."
+            }
+        ],
+        "brownfieldItemsRight": [
+            {
+                "title": "Data Transformation and Validation",
+                "description": "Migrate high-integrity data with minimal disruption."
+            },
+            {
+                "title": "Functional Testing and Optimization",
+                "description": "Ensure system alignment and performance."
+            },
+            {
+                "title": "Post-Go-Live Optimization and Support",
+                "description": "Fine-tune processes and system behaviour post-migration."
+            }
+        ],
+        "sapTransformations": [
+            {
+                "bold": "Simplify your SAP transformation",
+                "normal": "with an all-in-one approach."
+            },
+            {
+                "bold": "Accelerate cloud adoption",
+                "normal": "and reduce technical debt."
+            },
+            {
+                "bold": "Reimagine business processes",
+                "normal": "using SAP Signavio."
+            },
+            {
+                "bold": "Leverage AI and automation",
+                "normal": "to optimize operations."
+            }
+        ],
+        "btpData": [
+            "Custom App Development and Extensions",
+            "Process Automation with SAP Build",
+            "Analytics and Data Intelligence",
+            " Seamless API and event-driven integrations"
+        ],
+        "sapIntegrations": [
+            {
+                "title": "SAP SuccessFactors + S/4HANA",
+                "description": "Rialtes integrates SAP SuccessFactors for seamless HR and talent management, enabling end-to-end workforce lifecycle linked directly to core ERP functions like payroll, projects, and finance."
+            },
+            {
+                "title": "SAP Ariba + S/4HANA",
+                "description": "With SAP Ariba, we deliver comprehensive procurement transformation, fully integrated into S/4HANA for direct and indirect sourcing, supplier collaboration, and spend analysis."
+            },
+            {
+                "title": "Direct and Indirect Procurement",
+                "description": "Design and implement optimized procurement processes that reduce costs, enhance compliance, and improve supplier performance."
+            }
+        ],
+        "communicationBenefits": [
+            {
+                "bold": "Quick Setup —",
+                "text": "Go live in minutes."
+            },
+            {
+                "bold": "Enterprise-Grade Security & Role Management —",
+                "text": "Supports multiple roles and secure access."
+            },
+            {
+                "bold": "Process Delegation —",
+                "text": "Manage Cases, Orders, Leads, and Work Orders by record type."
+            },
+            {
+                "bold": "Cross-Platform Engagement —",
+                "text": "Unified communications between SAP, Salesforce, and WhatsApp."
+            }
+        ],
+        "aiData": [
+            "AI-Powered Analytics and Campaigns",
+            "Dynamic Customer and Supplier Journeys",
+            "Predictive Maintenance and Forecasting",
+            "Unified Data for Personalized Engagement"
+        ],
+        "ourActivateData": [
+            {
+                "title": "Discover",
+                "desc": "Value discovery, business case, and strategy."
+            },
+            {
+                "title": "Prepare",
+                "desc": "Team onboarding, planning, and initial scoping."
+            },
+            {
+                "title": "Explore",
+                "desc": "Fit-to-standard analysis and process design."
+            },
+            {
+                "title": "Realize",
+                "desc": "System configuration, integrations, and testing."
+            },
+            {
+                "title": "Deploy",
+                "desc": "Migration, training, and go-live execution."
+            },
+            {
+                "title": "Run",
+                "desc": "Continuous optimization and support."
+            }
+        ],
+        "headerTitle": "Voyager+",
+        "headerSubTitle": "Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP",
+        "pageDescTitle": " Unlock the Future of Intelligent Enterprise with a Trusted SAP Partner",
+        "pageDesc": " At Rialtes, we help organizations future-proof their business with RISE with SAP — combining deep industry expertise, a certified SAP team, and proven methodologies. As a certified SAP partner with global presence in the United States, Canada, India, and Singapore, Rialtes is uniquely positioned to deliver end-to-end SAP S/4HANA transformations that go beyond technology and drive real business outcomes.",
+        "pageDesc2": "Our proprietary Voyager+ framework brings together SAP License Advisory, Solution Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — creating a seamless, value-driven journey for organizations adopting RISE with SAP.",
+        "whyChooseTitle": " Why Choose RISE with SAP + Rialtes?",
+        "whyChooseDesc": "RISE with SAP is not just an ERP — it’s a comprehensive business transformation offering that bundles SAP S/4HANA Cloud, SAP Business Technology Platform (BTP), Business Process Intelligence with SAP Signavio, and partner-managed services into a single contract.",
+        "withRialtesTitle": "With Rialtes Voyager+, you can:",
+        "greenfieldTitle": "Greenfield and Brownfield:",
+        "greenfieldTitle2": "Two Roads to SAP S/4HANA Success",
+        "greenFieldSubTitle": "Greenfield Implementation-Reimagine from Ground Up",
+        "greenFieldDesc": "For organizations looking to rebuild business processes and start fresh on SAP S/4HANA, Greenfield is the right approach.",
+        "ourGreenFieldTitle": "Our Greenfield Approach Includes:",
+        "ourGreenFieldDesc": "Best for companies aiming for next-gen processes and cloud-first ERP.",
+        "brownFieldTitle": "Brownfield Implementation - Seamless System Conversion",
+        "brownFieldDesc": "For enterprises seeking to retain existing processes and data while migrating to S/4HANA, the Brownfield approach offers a cost-effective, faster route.",
+        "ourBrownfiledTitle": "Our Brownfield Expertise Covers:",
+        "ourBrownFieldDesc": " Ideal for organizations focused on modernization without disrupting core operations.",
+        "learnMoreBtn": " Learn More",
+        "leveragingTitle": "Leveraging SAP Signavio and SAP Activate Methodology",
+        "leveragingSubTitle": "Proven Framework for Success",
+        "leveragingDesc": " At Rialtes, we blend SAP Signavio’s Business Process Intelligence (BPI) with SAP Activate Methodology to ensure strategic alignment and flawless execution.",
+        "ourActivateSection": "Our Activate-Based Delivery Model:",
+        "ourActivateTableTitle1": "Phase",
+        "ourActivateTableTitle2": "Description",
+        "signavioDesc": "By embedding SAP Signavio into Explore and Realize phases, we optimize processes and ensure business alignment, driving higher user adoption and system value.",
+        "extendingTitle": "Extending Value: Rialtes’ BTP and Integration Expertise",
+        "extendingSubTitle": "BTP Competency for Tailored Solutions",
+        "extendingDesc": "Our certified SAP Business Technology Platform (BTP) experts enable advanced extensions, workflows, and integrations to customize and future-proof SAP S/4HANA solutions.",
+        "sapCpiTitle": "SAP CPI for Enterprise-Grade Integration",
+        "sapCpiDesc": "We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.",
+        "connectedTitle": "Connected SAP Solutions — Unlocking Synergy with S/4HANA",
+        "conversationalTitle": "Conversational AI with AgentChat — WhatsApp Business, Made for SAP and Salesforce",
+        "conversationalSubTitle": "Transform Customer and Supplier Engagement with AgentChat",
+        "conversationalDesc": " AgentChat is a bi-directional WhatsApp conversational app built within Salesforce, designed to integrate seamlessly with SAP S/4HANA and Salesforce Clouds.",
+        "knowMoreBtn": " Know More",
+        "keyFeaturesTitle": "Key Features:",
+        "contentTitle": "AI and Data-Driven Innovation: Agentforce and SAP Data Cloud",
+        "contentDesc": " With SAP Data Cloud and Salesforce Agentforce AI, Rialtes brings intelligent insights, automation, and customer segmentation to modern SAP environments.",
+        "contactTitle": "Partner with Rialtes to Transform Your SAP Landscape!"
     }
 }

@@ -3,10 +3,12 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Link from "next/link";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/services.json';
+import esContent from '../../../../../../messages/es/services.json';
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -97,79 +99,6 @@ const schemaData = {
     ]
   }
 }
-const greenfieldItemsLeft = [
-  {
-    title: "Vision and Strategy Alignment",
-
-    description: "Define business goals and digital vision."
-  },
-  {
-    title: "Process Reimagination with SAP Best Practices and Signavio",
-
-    description: "Redesign processes to leverage the latest innovations."
-  },
-  {
-    title: "Solution Design and Prototyping",
-
-    description: "Develop future-state architecture and rapid prototyping."
-  },
-  {
-    title: "SAP S/4HANA Cloud Configuration",
-    description: "Build system aligned with fit-to-standard and tailored needs."
-  }
-];
-const greenfieldItemsRight = [
-  {
-    title: "Data Strategy and Clean Migration",
-
-    description: "Ensure accurate, clean data migration from legacy platforms."
-  },
-
-
-  {
-    title: "Integration Framework Design with SAP BTP and CPI",
-    description: "Plan integrations with internal and external systems."
-  },
-  {
-    title: "User Training and Change Management",
-    description: "Drive adoption and organizational readiness."
-  },
-  {
-    title: "Go-Live and Hypercare Support",
-    description: "Smooth transition with strong post-go-live governance."
-  }
-];
-const brownfieldItemsLeft = [
-  {
-    title: "System Landscape and Fit Assessment",
-    description: "Evaluate existing ECC setup and assess conversion readiness."
-  },
-  {
-    title: "Custom Code and Data Analysis",
-    description: "Review, simplify, and adapt custom developments."
-  },
-  {
-    title: "Technical System Conversion",
-
-
-    description: "Execute SAP S/4HANA conversion using SAP-certified tools."
-  }
-];
-const brownfieldItemsRight = [
-  {
-    title: "Data Transformation and Validation",
-    description: "Migrate high-integrity data with minimal disruption."
-  },
-  {
-    title: "Functional Testing and Optimization",
-
-    description: "Ensure system alignment and performance."
-  },
-  {
-    title: "Post-Go-Live Optimization and Support",
-    description: "Fine-tune processes and system behaviour post-migration."
-  }
-];
 const BulletList = ({ items }) => (
   <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[16px]">
     {items.map(({ title, description }, idx) => (
@@ -181,72 +110,11 @@ const BulletList = ({ items }) => (
     ))}
   </ul>
 );
-const sapTransformations = [
-  {
-    bold: "Simplify your SAP transformation",
-    normal: "with an all-in-one approach.",
-  },
-  {
-    bold: "Accelerate cloud adoption",
-    normal: "and reduce technical debt.",
-  },
-  {
-    bold: "Reimagine business processes",
-    normal: "using SAP Signavio.",
-  },
-  {
-    bold: "Leverage AI and automation",
-    normal: "to optimize operations.",
-  },
-];
-const btpData = [
-  "Custom App Development and Extensions",
-  "Process Automation with SAP Build",
-  "Analytics and Data Intelligence",
-  " Seamless API and event-driven integrations",
-]
-const sapIntegrations = [
-  {
-    title: "SAP SuccessFactors + S/4HANA",
-    description:
-      "Rialtes integrates SAP SuccessFactors for seamless HR and talent management, enabling end-to-end workforce lifecycle linked directly to core ERP functions like payroll, projects, and finance.",
-  },
-  {
-    title: "SAP Ariba + S/4HANA",
-    description:
-      "With SAP Ariba, we deliver comprehensive procurement transformation, fully integrated into S/4HANA for direct and indirect sourcing, supplier collaboration, and spend analysis.",
-  },
-  {
-    title: "Direct and Indirect Procurement",
-    description:
-      "Design and implement optimized procurement processes that reduce costs, enhance compliance, and improve supplier performance.",
-  },
-];
-const communicationBenefits = [
-  {
-    bold: "Quick Setup —",
-    text: "Go live in minutes.",
-  },
-  {
-    bold: "Enterprise-Grade Security & Role Management —",
-    text: "Supports multiple roles and secure access.",
-  },
-  {
-    bold: "Process Delegation —",
-    text: "Manage Cases, Orders, Leads, and Work Orders by record type.",
-  },
-  {
-    bold: "Cross-Platform Engagement —",
-    text: "Unified communications between SAP, Salesforce, and WhatsApp.",
-  },
-];
-const aiData = [
-  "AI-Powered Analytics and Campaigns",
-  "Dynamic Customer and Supplier Journeys",
-  "Predictive Maintenance and Forecasting",
-  "Unified Data for Personalized Engagement",
-]
 export default function Page() {
+  const t = useTranslations('riseWithSap')
+  const locale = useLocale();
+  const content = locale === 'es' ? esContent : enContent;
+  const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData, } = content.riseWithSap;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -286,9 +154,9 @@ export default function Page() {
         <div
           className="custom-container h-full relative">
           <div className="h-full flex flex-col justify-center">
-            <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">Voyager+</h3>
+            <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">{t('headerTitle')}</h3>
             <h1 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
-              Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP
+              {t('headerSubTitle')}
             </h1>
             <div className="md:max-w-32 w-20  4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-6">
               <Image
@@ -307,14 +175,13 @@ export default function Page() {
       {/* unlock section */}
       <section className="xl:mt-[78px] mt-[51px] custom-container">
         <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[1000px] 4xl:w-[1222px] 2xl:w-[1100px]  md:w-[700px] leading-tight  ">
-          Unlock the Future of Intelligent Enterprise with a Trusted SAP Partner
+          {t('pageDescTitle')}
         </h2>
-        <p className="text-[16px] leading-[19px] md:text-[18px] md:leading-[26px] font-normal 4xl:text-[22px] xl:text-[18px] xl:leading-[30px] xl:w-[81%] w-[94%] 4xl:w-[81%] 2xl:w-[80%]
-                 xl:mt-[43px] mt-[32px] 2xl:text-[20px]">
-          At Rialtes, we help organizations future-proof their business with RISE with SAP — combining deep industry expertise, a certified SAP team, and proven methodologies. As a certified SAP partner with global presence in the United States, Canada, India, and Singapore, Rialtes is uniquely positioned to deliver end-to-end SAP S/4HANA transformations that go beyond technology and drive real business outcomes.
+        <p className="text-[16px] leading-[19px] md:text-[18px] md:leading-[26px] font-normal 4xl:text-[22px] xl:text-[18px] xl:leading-[30px] xl:w-[81%] w-[94%] 4xl:w-[81%] 2xl:w-[80%] xl:mt-[43px] mt-[32px] 2xl:text-[20px]">
+          {t('pageDesc')}
         </p>
         <p className="text-[16px] leading-[19px] md:text-[18px] md:leading-[26px] font-normal 4xl:text-[22px] xl:text-[18px] xl:leading-[30px] 4xl:w-[81%] xl:w-[81%] w-[94%] mt-[20px] 2xl:text-[20px]">
-          Our proprietary Voyager+ framework brings together SAP License Advisory, Solution Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — creating a seamless, value-driven journey for organizations adopting RISE with SAP.
+          {t('pageDesc2')}
         </p>
       </section>
       {/* why chooose section */}
@@ -323,13 +190,13 @@ export default function Page() {
           <div className="flex flex-col-reverse lg:flex-row gap-[60px] lg:gap-[60px] xl:gap-[100px]">
             <div className="w-full xl:w-1/2 lg:mt-[81px] lg:mb-[50px]">
               <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px] xl:w-[600px] 2xl:w-[700px] 4xl:w-[689px]  lg:w-[450px]  leading-tight ">
-                Why Choose RISE with SAP + Rialtes?
+                {t('whyChooseTitle')}
               </h2>
               <p className="mt-5 text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  4xl:w-[674px] 2xl:w-[620px] xl:w-[560px] lg:w-[500px]  lg:text-[16px]   ">
-                RISE with SAP is not just an ERP — it’s a comprehensive business transformation offering that bundles SAP S/4HANA Cloud, SAP Business Technology Platform (BTP), Business Process Intelligence with SAP Signavio, and partner-managed services into a single contract.
+                {t('whyChooseDesc')}
               </p>
               <h3 className="mt-10 font-bold text-[20px] xl:text-[24px] 4xl:text-[30px]">
-                With Rialtes Voyager+, you can:
+                {t('withRialtesTitle')}
               </h3>
               <ul className="list-disc space-y-5 mt-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold">
                 {sapTransformations.map((item, index) => (
@@ -372,27 +239,27 @@ export default function Page() {
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[95px] mt-[48px] text-white">
             <div className="xl:col-span-12 col-span-12">
               <h2 className="text-[26px] 4xl:text-[60px] 2xl:text-[56px] xl:text-[50px] lg:text-[50px] md:text-[40px] leading-tight w-full">
-                Greenfield and Brownfield:<br />
-                Two Roads to SAP S/4HANA Success
+                {t('greenfieldTitle')}  <br />
+                {t('greenfieldTitle2')}
               </h2>
             </div>
           </div>
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:mt-[55px] mt-[28px] text-white bg-[#0C723F] lg:p-12 p-[25px]">
             <div className="lg:col-span-7 col-span-12 flex items-center">
               <h2 className="4xl:text-[45px] text-[24px] 2xl:text-[42px] xl:text-[36px] lg:text-[30px] md:text-[35px] leading-tight font-medium xl:w-[94%] lg:w-[90%]">
-                Greenfield Implementation-Reimagine from Ground Up
+                {t('greenFieldSubTitle')}
               </h2>
             </div>
             <div className="lg:col-span-4 col-span-12">
               <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[16px] mt-[16px] lg:mt-0">
-                For organizations looking to rebuild business processes and start fresh on SAP S/4HANA, Greenfield is the right approach.
+                {t('greenFieldDesc')}
               </p>
             </div>
           </div>
           <div className="grid lg:grid-cols-12 grid-cols-1 bg-white lg:pt-[40px] lg:px-[60px] lg:pb-[109px] px-[26px] pt-[28px] pb-[80px]">
             <div className="lg:col-span-6 col-span-12">
               <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px] md:text-[20px] text-[18px] font-bold">
-                Our Greenfield Approach Includes:
+                {t('ourGreenFieldTitle')}
               </h3>
               <div className="lg:mt-[26px] mt-[19px] lg:mr-[20px]">
                 <BulletList items={greenfieldItemsLeft} />
@@ -403,17 +270,17 @@ export default function Page() {
             </div>
           </div>
           <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] lg:text-[20px] md:text-[18px] bg-[#0C8AD4] p-5 pl-10 text-white xl:w-[93%] mt-[-50px] xl:ml-[50px]">
-            Best for companies aiming for next-gen processes and cloud-first ERP.
+            {t('ourGreenFieldDesc')}
           </p>
           <div className="grid lg:grid-cols-12 grid-cols-1 mt-20 text-white bg-[#713A18] lg:p-12 p-[25px]">
             <div className="lg:col-span-7 col-span-12 flex items-center">
               <h2 className="4xl:text-[45px] text-[24px] 2xl:text-[42px] xl:text-[36px] lg:text-[30px] md:text-[35px] leading-tight font-medium xl:w-[96%] lg:w-[90%]">
-                Brownfield Implementation - Seamless System Conversion
+                {t('brownFieldTitle')}
               </h2>
             </div>
             <div className="lg:col-span-4 col-span-12">
               <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[16px] mt-[16px] lg:mt-0">
-                For enterprises seeking to retain existing processes and data while migrating to S/4HANA, the Brownfield approach offers a cost-effective, faster route.
+                {t('brownFieldDesc')}
               </p>
             </div>
           </div>
@@ -421,7 +288,7 @@ export default function Page() {
           <div className="grid lg:grid-cols-12 grid-cols-1 bg-white lg:pt-[40px] lg:px-[60px] lg:pb-[109px] px-[26px] pt-[28px] pb-[80px]">
             <div className="lg:col-span-6 col-span-12">
               <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px] md:text-[20px] text-[18px] font-bold">
-                Our Brownfield Expertise Covers:
+                {t('ourBrownfiledTitle')}
               </h3>
               <div className="xl:mt-[28px] mt-[19px]">
                 <BulletList items={brownfieldItemsLeft} />
@@ -432,10 +299,10 @@ export default function Page() {
             </div>
           </div>
           <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] lg:text-[20px] md:text-[18px] bg-[#0C8AD4] p-5 pl-10 text-white xl:w-[93%] mt-[-50px] xl:ml-[50px]">
-            Ideal for organizations focused on modernization without disrupting core operations.
+            {t('ourBrownFieldDesc')}
           </p>
           <button className="text-[16px] xl:text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-5 py-5 transition duration-300 order-4 mt-16">
-            <Link href='/contact-us'>Learn More</Link>
+            <Link href='/contact-us'>{t('learnMoreBtn')}</Link>
           </button>
         </div>
       </section>
@@ -443,40 +310,32 @@ export default function Page() {
       <div className="custom-container xl:mt-[111px] mt-[46px]">
         <div className="grid lg:grid-cols-12 grid-cols-1 items-center xl:gap-16 gap-5">
           <div className="xl:col-span-8 col-span-12  ">
-            <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[751px] 4xl:w-[900px] 2xl:w-[850px] lg:w-[600px]  md:w-[700px]  mt-[52px] leading-tight ">
-              Leveraging SAP Signavio and SAP Activate Methodology
+            <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px] xl:w-[751px] 4xl:w-[900px] 2xl:w-[850px] lg:w-[600px]  md:w-[700px]  mt-[52px] leading-tight ">
+              {t('leveragingTitle')}
             </h2>
-            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[34px] lg:text-[30px]  leading-tight  text-[21px] xl:mt-[42px] mt-[18px]">Proven Framework for Success</h3>
+            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[34px] lg:text-[30px] leading-tight text-[21px] xl:mt-[42px] mt-[18px]">{t('leveragingSubTitle')}</h3>
           </div>
           <div className="xl:col-span-4 col-span-12">
-            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[14px] text-[16px] leading-tight">At Rialtes, we blend SAP Signavio’s Business Process Intelligence (BPI) with SAP Activate Methodology to ensure strategic alignment and flawless execution.</p>
+            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[14px] text-[16px] leading-tight">{t('leveragingDesc')}  </p>
           </div>
         </div>
       </div>
       {/* our activate section */}
       <section>
         <div className="custom-container">
-          <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px] font-bold xl:mt-[86px] mt-[32px] w-[80%] lg:w-full">Our Activate-Based Delivery Model:</h3>
+          <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px] font-bold xl:mt-[86px] mt-[32px] w-[80%] lg:w-full">{t('ourActivateSection')} </h3>
         </div>
         <div className="custom-container max-md:px-0">
           <div className="overflow-x-auto xl:mt-[36px] mt-[39px]">
             <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-[#D0EEFF] text-left">
-                  <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] 4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px]  font-bold">Phase</th>
-                  <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] 4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px]  font-bold">Description</th>
+                  <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] 4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px] font-bold">{t('ourActivateTableTitle1')} </th>
+                  <th className="xl:py-[30px] xl:pl-[30px] pl-[30px] py-[18px] 4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px] font-bold">{t('ourActivateTableTitle2')} </th>
                 </tr>
               </thead>
               <tbody className="divide-y">
-                {[
-                  { title: "Discover", desc: "Value discovery, business case, and strategy." },
-                  { title: "Prepare", desc: "Team onboarding, planning, and initial scoping." },
-                  { title: "Explore", desc: "Fit-to-standard analysis and process design." },
-                  { title: "Realize", desc: "System configuration, integrations, and testing." },
-                  { title: "Deploy", desc: "Migration, training, and go-live execution." },
-                  { title: "Run", desc: "Continuous optimization and support." }
-
-                ].map((item, index) => (
+                {ourActivateData.map((item, index) => (
                   <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
                     <td className="xl:py-[30px] xl:px-[30px] px-[30px] py-[18px] text-[16px] 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] ">{item.title}</td>
                     <td className="xl:py-[30px] xl:px-[30px] px-[30px] py-[18px] text-[16px] 4xl:text-[26px]  2xl:text-[22px] xl:text-[20px] lg:text-[18px]">{item.desc}</td>
@@ -503,8 +362,8 @@ export default function Page() {
                 />
               </div>
               <div className="xl:col-span-8 lg:col-span-8 col-span-12 text-white p-[24px] lg:py-[19px]">
-                <p className="text-[16px] 4xl:text-[26px]  2xl:text-[22px] xl:text-[20px] lg:text-[18px] font-normal">
-                  By embedding SAP Signavio into Explore and Realize phases, we optimize processes and ensure business alignment, driving higher user adoption and system value.
+                <p className="text-[16px] 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] font-normal">
+                  {t('signavioDesc')}
                 </p>
               </div>
             </div>
@@ -516,28 +375,28 @@ export default function Page() {
         <div className="custom-container text-black">
           <div className="grid lg:grid-cols-12 grid-cols-1">
             <div className="lg:col-span-8 lg:mt-16 mt-5">
-              <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[751px] 4xl:w-[900px] 2xl:w-[880px] lg:w-[600px]  md:w-[700px]  xl:leading-tight">Extending Value: Rialtes’ BTP and Integration Expertise</h2>
+              <h2 className="text-[26px]  md:text-[40px] font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[751px] 4xl:w-[900px] 2xl:w-[880px] lg:w-[600px] md:w-[700px] xl:leading-tight">{t('extendingTitle')} </h2>
             </div>
             <div className="lg:col-span-4 col-span-12">
             </div>
           </div>
           <div className="grid lg:grid-cols-12 grid-cols-1 mt-10 gap-5">
             <div className="lg:col-span-5 col-span-12">
-              <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px]  md:text-[20px] font-bold text-[18px]">BTP Competency for Tailored Solutions</h3>
-              <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px]">Our certified SAP Business Technology Platform (BTP) experts enable advanced extensions, workflows, and integrations to customize and future-proof SAP S/4HANA solutions.</p>
-              <UnorderedList arrName={btpData} ulClassName="list-disc space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 " liClassName="first:mt-4 4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px] md:text-[20px] font-bold text-[18px]">{t('extendingSubTitle')}  </h3>
+              <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px]">{t('extendingDesc')}  </p>
+              <UnorderedList arrName={btpData} ulClassName="list-disc space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5" liClassName="first:mt-4 4xl:text-[20px] xl:text-[18px] text-[16px]" />
             </div>
             <div className="lg:col-span-1 col-span-12">
             </div>
             <div className="lg:col-span-5 col-span-12">
-              <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px]  md:text-[20px] font-bold text-[18px]">SAP CPI for Enterprise-Grade Integration</h3>
-              <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px]">We enable secure, scalable integration using SAP Cloud Platform Integration (CPI) to connect S/4HANA with SAP and non-SAP systems like Salesforce, Workday, and ServiceNow.</p>
+              <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[24px] md:text-[20px] font-bold text-[18px]" >{t('sapCpiTitle')}</h3>
+              <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px]">{t('sapCpiDesc')} </p>
             </div>
           </div>
         </div>
       </div>
       {/* connected sap solution */}
-      <section className="relative   xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
+      <section className="relative xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
         <Image
           src="/images/services/rise-with-sap/Connected SAP Solutions.webp"
           alt="Connected SAP Solutions"
@@ -549,7 +408,7 @@ export default function Page() {
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="col-span-12">
               <h2 className="text-[26px] 4xl:text-[60px] 2xl:text-[58px] xl:text-[50px] lg:text-[50px] md:text-[30px] xl:mt-[63px] mt-[59px] text-white leading-tight w-[90%]  4xl:w-[80%] 2xl:w-[80%] xl:w-[80%] lg:w-[96%]">
-                Connected SAP Solutions — Unlocking Synergy with S/4HANA
+                {t('connectedTitle')}
               </h2>
             </div>
           </div>
@@ -589,7 +448,7 @@ export default function Page() {
             <div className="grid xl:grid-cols-12 grid-cols-1 relative xl:absolute xl:top-0 xl:left-0 w-full">
               <div className="xl:col-span-5 col-span-12 xl:w-[720px] xl:h-[360px]">
                 <h2 className="text-[25px] 4xl:text-[50px] 2xl:text-[48px] xl:text-[46px] lg:text-[40px] md:text-[40px] xl:leading-tight bg-white text-black xl:p-12 p-5 xl:mt-0">
-                  Conversational AI with AgentChat — WhatsApp Business, Made for SAP and Salesforce
+                  {t('conversationalTitle')}
                 </h2>
               </div>
               <div className="xl:col-span-7 col-span-12" />
@@ -597,18 +456,17 @@ export default function Page() {
           </div>
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:mt-[60px] mt-[28px]">
             <div className="xl:col-span-4 col-span-12">
-              <h3 className="4xl:text-[40px] 2xl:text-[36px] xl:text-[34px] lg:text-[30px] md:text-[30px] font-bold text-[20px]  w-[90%] 4xl:w-[96%] 2xl:w-[99%] xl:w-[108%] ">Transform Customer and Supplier Engagement with AgentChat</h3>
+              <h3 className="4xl:text-[40px] 2xl:text-[36px] xl:text-[34px] lg:text-[30px] md:text-[30px] font-bold text-[20px] w-[90%] 4xl:w-[96%] 2xl:w-[99%] xl:w-[108%]">{t('conversationalSubTitle')}</h3>
               <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px]  font-normal text-[16px] leading-tight xl:mt-[30px] mt-[21px] w-[90%] lg:w-full">
-                AgentChat is a bi-directional WhatsApp conversational app built within Salesforce, designed to integrate seamlessly with SAP S/4HANA and Salesforce Clouds.
-              </p>
-              <button className="text-[20px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-3  transition duration-300 order-4 mt-16 xl:block hidden">
-                <Link href='/products/agentchat'>Know More</Link>
+                {t('conversationalDesc')}  </p>
+              <button className="text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-3 transition duration-300 order-4 mt-16 xl:block hidden">
+                <Link href='/products/agentchat'>{t('knowMoreBtn')}</Link>
               </button>
             </div>
             <div className="xl:col-span-1 col-span-12">
             </div>
             <div className="xl:col-span-5 col-span-12 mt-[36px] xl:mt-0">
-              <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px]  text-[24px] font-bold">Key Features:</h3>
+              <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] text-[24px] font-bold">{t('keyFeaturesTitle')} </h3>
               <ul className="list-disc space-y-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] pl-5 marker:font-bold marker:text-2xl">
                 {communicationBenefits.map((item, index) => (
                   <li key={index} className={index === 0 ? "mt-5" : ""}>
@@ -616,8 +474,8 @@ export default function Page() {
                   </li>
                 ))}
               </ul>
-              <button className="text-[20px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-3  transition duration-300 order-4 mt-16 xl:hidden block">
-                <Link href='/products/agentchat'>Know More</Link>
+              <button className="text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-3 transition duration-300 order-4 mt-16 xl:hidden block">
+                <Link href='/products/agentchat'>{t('knowMoreBtn')}</Link>
               </button>
             </div>
           </div>
@@ -640,10 +498,10 @@ export default function Page() {
           {/* Content Column */}
           <div className="lg:col-span-7 col-span-12 text-black">
             <h2 className="text-[26px] leading-tight 4xl:text-[60px] 2xl:text-[56px] xl:text-[50px] lg:text-[40px] md:text-[40px]  mt-8 lg:mt-0 w-[90%]  4xl:w-full xl:w-[104%]">
-              AI and Data-Driven Innovation: Agentforce and SAP Data Cloud
+              {t('contentTitle')}
             </h2>
             <p className="mt-5 xl:mt-10 text-[16px]  4xl:text-[22px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px] leading-tight font-normal xl:w-[90%]">
-              With SAP Data Cloud and Salesforce Agentforce AI, Rialtes brings intelligent insights, automation, and customer segmentation to modern SAP environments.
+              {t('contentDesc')}
             </p>
             <UnorderedList arrName={aiData} ulClassName="list-disc marker:text-[#036CBC] pl-5 mt-6 xl:mt-10 font-semibold space-y-4" liClassName="text-[16px] 4xl:text-[20px] xl:text-[18px]" />
           </div>
@@ -652,7 +510,7 @@ export default function Page() {
       {/* Contact Form */}
       <section
         className="custom-container text-black xl:mt-[119px] mt-[72px] mb-[58px] xl:mb-[148px]">
-        <ContactForm title={'Partner with Rialtes to Transform Your SAP Landscape!'}
+        <ContactForm title={t('contactTitle')}
           className={"max-w-[80rem] font-normal 4xl:text-[60px] 2xl:text-[58px] xl:text-[50px] lg:text-[40px] text-[26px] leading-tight"} />
       </section>
     </div >
