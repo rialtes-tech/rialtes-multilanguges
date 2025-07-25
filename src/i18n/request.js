@@ -28,8 +28,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const kinaxis = (await import(`../../messages/${locale}/services.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
+     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
+     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
+    const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
+
 
 
     return {
@@ -55,7 +58,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...exploreMore,
             ...agentChat,
             ...sapCpi,
-            ...kinaxis
+            ...kinaxis,
+            ...uiPath,
+            ...tosca
 
         }
     };

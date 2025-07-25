@@ -2,11 +2,19 @@
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Image from "next/image";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/solutions.json';
+import esContent from '../../../../../../messages/es/solutions.json';
+
 export default function DemandPlusSection() {
+const t = useTranslations("uiPath");
+  const locale = useLocale();
+  const homepageContent = locale === "es" ? esContent : enContent;
+  const {provenData} = homepageContent.uiPath;
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -210,7 +218,6 @@ export default function DemandPlusSection() {
           <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
             <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  xl:pr-10 pr-5 md:pr-64">
               <h3 className="text-white xl:text-[24px]  font-bold mb-2">
-                {" "}
                 Tricentis TOSCA
               </h3>
               <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
@@ -227,7 +234,7 @@ export default function DemandPlusSection() {
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
           <div className="xl:col-span-9">
             <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
-              Empowering Enterprises with <br className="hidden sm:block" />{" "}
+              Empowering Enterprises with <br className="hidden sm:block" />
               End-to-End Automated Testing, QTest, LiveCompare & NeoLoad
               Solutions
             </h2>
@@ -237,7 +244,7 @@ export default function DemandPlusSection() {
               testing platform. With deep expertise and a team of highly
               certified Tosca experts, Rialtes delivers scalable, intelligent,
               and resilient testing solutions that dramatically improve quality,
-              speed, and efficiency.{" "}
+              speed, and efficiency.
             </p>
             <p className="mt-5 pb-16 4xl:text-[22px] text-[16px] pr-[30px] 4xl:pr-0">
               From test automation to risk-based testing and performance
