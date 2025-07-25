@@ -189,7 +189,7 @@ export default function Page() {
         <div className="py-10 bg-white  max-w-[1084px] xl:w-[1084px]">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
-              <div className="sm:mb-0 mb-6 text-[16px] md:text-[20px]">
+              <div className="sm:mb-0 mb-6 text-[16px] md:text-[20px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 <span className="text-[#0092E0]">General</span>{" "}
                 <span className="text-[#ACACAC]"> | </span>01 July 2025
               </div>
@@ -264,15 +264,15 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold pb-10  4xl:w-full xl:w-[950px]    leading-tight 4xl:text-[60px] xl:text-[50px] text-[26px] ">
+            <h1 className="text-[#000000]  pb-10  4xl:w-[1150px] xl:w-[950px]  leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px] ">
               Himachal Pradesh: The Pharma Jewel of North India with the Largest
               Pharma Manufacturing Facilities
             </h1>
           </div>
 
           <div className="">
-            <div className="">
-              <p className="text-black pb-4">
+            <div className="4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 India’s rise as a pharmaceutical powerhouse on the global stage
                 is remarkable. Today, it supplies 20% of all global generic drug
                 exports, 40% of the United States' generic demand, and 25% of
@@ -282,7 +282,7 @@ export default function Page() {
                 North India is Himachal Pradesh.{" "}
               </p>
 
-              <p className="text-black pb-6">
+              <p className="text-black  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 It has long been a significant contributor to tourism and
                 economic development in India. The state is known for its
                 investor-friendly environment and is emerging as a preferred
@@ -295,17 +295,17 @@ export default function Page() {
                 alt="India's impact on the global pharmaceutical industry"
                 width={0}
                 height={0}
-                className="w-full h-full  relative xl:right-[64px] lg:right-[55px] md:right-[44px]  "
+                className="4xl:w-[100%] 4xl:h-[100%] 2xl:w-[90%] 2xl:h-[90%] xl:w-[90%] xl:h-[90%] relative 4xl:right-[64px]  2xl:right-[56px] xl:right-[48px] lg:right-[55px] md:right-[44px]  "
 
               />
 
               <div className="py-6 xl:py-0"></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
                 A Northern Powerhouse in Pharmaceutical Manufacturing{" "}
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Himachal Pradesh's rise as a pharmaceutical hub is a result of
                 strategic policies and economic foresight, attracting major
                 Indian and multinational companies over the past decade. Nestled
@@ -317,7 +317,7 @@ export default function Page() {
                 accounts for 23.{" "}
               </p>
 
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 The state is well-positioned for investment with affordable
                 power, effective law enforcement, a skilled workforce, and
                 proactive governance. Notably, Himachal Pradesh has been
@@ -332,11 +332,11 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
                 Pharma Manufacturing Market Growth in Himachal Pradesh
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Himachal Pradesh has witnessed remarkable growth in
                 pharmaceutical manufacturing over the years, playing a
                 significant role in India’s drug exports. The state is home to
@@ -347,7 +347,7 @@ export default function Page() {
                 significant pharmaceutical industry contributing to the global
                 market.
               </p>
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Contributing approximately 35% to India’s total pharmaceutical
                 production, the pharma sector in Himachal Pradesh is
                 experiencing a steady annual growth of 8–10%. The industry has
@@ -357,7 +357,7 @@ export default function Page() {
                 market players and enhancing the overall competitiveness of the
                 sector.
               </p>
-              <p className="text-black ">
+              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
                 The region also boasts a skilled workforce with expertise in
                 pharmaceutical sciences, supported by government incentives,
                 financial aid, and streamlined regulations. Manufacturers in the
@@ -367,11 +367,11 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
                 The Economic Backbone: Tax Incentives and SEZ Status{" "}
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 The transformation of Himachal Pradesh into a pharmaceutical hub
                 did not happen overnight, it resulted from economic planning and
                 targeted policy interventions aimed at industrial
@@ -384,12 +384,12 @@ export default function Page() {
                 manufacturers.
               </p>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 One of the most significant catalysts came with the Special
                 Industrial Package announced in 2003, which included:
               </p>
               <div className="pl-3">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  text-[16px] md:text-[20px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  text-[16px] md:text-[20px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] font-medium">
                   <li className="pb-4">
                     100% income tax exemption for the first five years of
                     operation and 30% to 50% exemption for the next five years,
@@ -409,7 +409,7 @@ export default function Page() {
                 </ul>
               </div>
 
-              <p className="pb-4 text-black">
+              <p className="pb-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 These incentives provided a low-risk, high-reward environment
                 for pharmaceutical companies, especially those looking to scale
                 operations and reduce production costs. As a result, leading
@@ -418,13 +418,13 @@ export default function Page() {
                 Nalagarh, and Paonta Sahib, which soon became bustling
                 pharmaceutical zones.
               </p>
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 The development of Special Economic Zones (SEZs) in Baddi and
                 other parts of Himachal Pradesh further amplified the state’s
                 industrial appeal. SEZ status provided:
               </p>
               <div className="pl-3">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] font-medium">
                   <li className="pb-4">
                     Customs duty exemptions on imported capital goods and raw
                     materials.
@@ -439,14 +439,14 @@ export default function Page() {
                   </li>
                 </ul>
               </div>
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Then came the 2018 Industrial Development Scheme, a renewed
                 government initiative aimed at revitalizing investment in the
                 Himalayan states of Himachal Pradesh, Jammu & Kashmir, and
                 Uttarakhand.
               </p>
               <div className="pl-3">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] font-medium">
                   <li className="pb-4">
                     Central Capital Investment Incentive of up to 30% of
                     investment in plant and machinery.
@@ -461,7 +461,7 @@ export default function Page() {
                   </li>
                 </ul>
               </div>
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 These schemes fueled the pharmaceutical boom and diversified the
                 industrial base, introducing ancillary industries, logistics
                 providers, and skilled jobs for locals. Initially a tax
@@ -471,12 +471,12 @@ export default function Page() {
               </p>
 
               <div className="py-6"></div>
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
                 Himachal Pradesh’s Role in Asia’s Pharmaceutical Manufacturing
                 and Supply
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Pharma manufacturing in Himachal Pradesh offers numerous
                 advantages, including significant tax benefits such as GST and
                 corporate tax exemptions, making it a cost-effective option for
@@ -487,7 +487,7 @@ export default function Page() {
                 care products.
               </p>
 
-              <p className="text-black pb-4 ">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
                 According to the Indian State Industries Minister, Himachal
                 Pradesh now fulfills 35% of Asia’s current pharmaceutical
                 product demand. This is a testament to both the sheer scale and
@@ -497,7 +497,7 @@ export default function Page() {
                 pharmaceutical and non-pharmaceutical production.
               </p>
 
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 The concentration of manufacturing expertise and government
                 support positions the state as a launchpad for global
                 pharmaceutical exports and innovation. Rialtes Technologies aims
