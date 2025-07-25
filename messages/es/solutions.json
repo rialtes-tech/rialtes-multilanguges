@@ -1005,8 +1005,7 @@
     "contactSubTitle1": "Asóciate con Rialtes para simplificar integraciones, acelerar tu transformación digital y desbloquear valor real.",
     "contactSubTitle2": "Contáctanos hoy para una consulta gratuita y descubre cómo podemos potenciar tu empresa conectada."
   },
-
-   "uiPath":{
+  "uiPath":{
   "headerTitle": "Servicios de RPA con UiPath",
   "headerDesc": "Impulsando la automatización de próxima generación para una empresa más inteligente",
   "operationsTitle": "Transforma las operaciones de tu empresa con RPA inteligente.",
@@ -1192,5 +1191,117 @@
   "contactSubtitle": "Asóciate con Rialtes para acelerar tu camino hacia la automatización. Nuestros expertos certificados en UiPath están listos para ayudarte a desbloquear eficiencia, reducir costos y escalar la innovación.",
   "contactSubtitleOne": "¡Contáctanos hoy para una evaluación gratuita de automatización!"
 
+  },
+  "tosca":{
+         "headerTitle": "Mejora la ingeniería de calidad con los servicios de pruebas automatizadas Tosca de Rialtes",
+         "headerSubTitle": "Tricentis TOSCA",
+         "empowerTitleOne": "Impulsando a las empresas con",
+         "empowerTitleTwo": "Pruebas automatizadas de extremo a extremo, QTest, LiveCompare y soluciones NeoLoad",
+         "empowerDescOne": "En Rialtes, ayudamos a las organizaciones a transformar su ciclo de vida de pruebas con Tricentis Tosca — la plataforma líder en pruebas continuas de la industria. Con una amplia experiencia y un equipo de expertos altamente certificados en Tosca, Rialtes ofrece soluciones de prueba escalables, inteligentes y resilientes que mejoran drásticamente la calidad, la velocidad y la eficiencia.",
+         "empowerDescTwo": "Desde la automatización de pruebas hasta las pruebas basadas en riesgos y de rendimiento, Rialtes garantiza una implementación, integración y optimización fluida de Tosca, adaptada a las necesidades únicas de las empresas en industrias como Manufactura, Salud, Retail, Semiconductores, Automotriz y Servicios Financieros.",
+         "whyTitle": "¿Por qué elegir a Rialtes para la implementación de Tosca?",
+         "whySubTitle": "Socio de confianza para el éxito en la automatización de pruebas de extremo a extremo",
+         "whychooseData": [
+         "Expertos certificados en Tosca con experiencia práctica en la industria",
+         "Servicios de extremo a extremo: asesoría, implementación, diseño, QA, integración y soporte postproducción",
+         "Sólidas alianzas con Tricentis y amplia experiencia en Tosca, qTest, LiveCompare y NeoLoad",
+         "Implementación acelerada mediante aceleradores preconstruidos y marcos de prueba reutilizables",
+         "Integración fluida con ERP (SAP, Oracle), Salesforce y ecosistemas modernos en la nube"
+          ],
+        "whyDesc": "Rialtes garantiza que las pruebas automatizadas se conviertan en una ventaja estratégica, no solo en un proceso.",
+         "serviceTitle": "Servicios de Implementación y Asesoría de Tosca de Extremo a Extremo",
+         "serviceTitleOne": "Construya una Base Resiliente para la Automatización",
+         "serviceTitleTwo": "Haga que las Pruebas Automatizadas Sean Parte Integral de su Ciclo de Desarrollo",
+         "ServiceDescOne": "Rialtes ayuda a las empresas a adoptar completamente Tosca para organizaciones modernas, ágiles y orientadas a DevOps:",
+         "ServiceDescTwo": "Con Rialtes, las organizaciones logran lanzamientos más rápidos, mayor calidad y una reducción en los esfuerzos manuales mediante la automatización inteligente de pruebas.",
+         "endToEndData": [
+         "Instalación y configuración de Tosca de extremo a extremo",
+         "Diseño, optimización y gestión de pruebas basadas en riesgos",
+         "Pruebas de API, UI, móviles y de integridad de datos usando Tosca",
+         "Integración con pipelines de DevOps y CI/CD (Jenkins, Azure DevOps, GitLab)",
+         "Automatización del mantenimiento de pruebas con las capacidades de autocuración impulsadas por IA de Tosca"
+         ],
+         "testTitle": "Implementación de qTest y Gestión de Pruebas",
+         "testSubTitle": "Orquestación del Ciclo de Vida de Pruebas de Extremo a Extremo",
+         "testSubTitleOne": "Gestione las Pruebas con Confianza y Control",
+         "testDesc": "qTest ofrece una gestión centralizada de pruebas, y Rialtes garantiza que las organizaciones aprovechen todo su potencial:",
+         "testDescTwo": "Rialtes convierte qTest en un centro central para las pruebas, permitiendo transparencia, colaboración y control en todas las actividades de prueba.",
+         "qTestData": [
+         "Instalación, configuración e integración de qTest con Tosca y Jira",
+         "Gestión de casos de prueba, defectos y requisitos de extremo a extremo",
+         "Paneles en tiempo real y análisis avanzados para obtener información de pruebas",
+         "Alineación con pruebas basadas en riesgos y flujos de trabajo impulsados por el cumplimiento",
+         "Alineación fluida con modelos Ágiles, DevOps y de pruebas continuas"
+         ],
+          "liveTitle": "Implementación de LiveCompare",
+          "liveSubTitle": "Análisis de Impacto de Cambios Potenciado por IA",
+          "liveSubTitleOne": "Acelera Actualizaciones Seguras de SAP con Análisis de Impacto Basado en IA",
+          "liveCompareData": [
+          "Despliegue y configuración de LiveCompare",
+          "Análisis de impacto de cambios basado en IA para código personalizado de SAP, configuraciones y transportes",
+          "Identificación automatizada de casos de prueba afectados por actualizaciones y parches de SAP",
+          "Integración fluida con Tosca y qTest para la ejecución de pruebas basada en riesgos",
+          "Análisis de impacto continuo alineado con metodologías ágiles y DevOps"
+          ],
+          "liveDesc": "Rialtes ayuda a las organizaciones a utilizar LiveCompare para reducir el tiempo de pruebas y centrarse solo en lo que realmente importa al actualizar sistemas SAP:",
+          "livePara": "Rialtes convierte las pruebas SAP en algo inteligente, específico y ágil, reduciendo el riesgo y el esfuerzo mientras acelera la transformación.",
+           "neoTitle": "Implementación de Pruebas de Rendimiento con NeoLoad",
+           "neoSubTitle": "Garantiza Resiliencia y Velocidad a Escala",
+           "neoSubTitleOne": "Haz que Cada Lanzamiento Sea Rápido, Escalable y Resiliente",
+           "neoDesc": "NeoLoad permite pruebas de rendimiento continuas, y Rialtes garantiza que las empresas sometan sus aplicaciones a pruebas de esfuerzo de forma eficaz:",
+          "neoLoadData": [
+          "Configuración e integración de NeoLoad para SAP, Oracle, Salesforce y aplicaciones personalizadas",
+          "Pruebas de rendimiento, escalabilidad y resistencia alineadas con procesos críticos de negocio",
+          "Scripts de pruebas de rendimiento automatizadas integrados en pipelines CI/CD",
+          "Métricas de rendimiento en tiempo real y paneles para obtener información útil",
+          "Integración con Tosca para una sinergia completa entre pruebas funcionales y de rendimiento"
+          ],
+         "neoPara": "Rialtes ayuda a garantizar que tus aplicaciones estén diseñadas para el rendimiento desde el primer día, ofreciendo experiencias de usuario fluidas a gran escala.",
+          "toscaTitle": "Expertos Certificados en Tosca de Rialtes",
+          "toscaSubTitle": "Excelencia en Pruebas Sin Igual",
+          "toscaDesc": "Rialtes cuenta con un equipo altamente certificado en Tosca, qTest, LiveCompare y NeoLoad, lo que garantiza un profundo conocimiento técnico y prácticas probadas en la industria:",
+          "toscaPara": "Rialtes combina experiencia técnica con visión estratégica, ayudando a las organizaciones a alcanzar la excelencia en automatización.",
+          "expertsList": [
+    {
+      "lineWidth": "3px",
+      "text": "Especialistas en Automatización con Tosca certificados por Tricentis"
+    },
+    {
+      "lineWidth": "4px",
+      "text": "Expertos certificados en DevOps y CI/CD para una integración fluida en los pipelines"
+    },
+    {
+      "lineWidth": "4px",
+      "text": "Especialistas en dominios como SAP, Oracle, Salesforce y aplicaciones empresariales personalizadas"
+    },
+    {
+      "lineWidth": "5px",
+      "text": "Gestores de proyectos certificados en Agile, SCRUM y SAFe para una gobernanza efectiva del ciclo de vida de pruebas"
+    }
+  ],
+  "sapTitle": "Integración Perfecta con SAP, Oracle, Salesforce y Más",
+  "sapSubTitle": "Pruebas Unificadas en Entornos Empresariales Complejos",
+  "sapDesc": "Rialtes garantiza que Tosca y su conjunto de herramientas se integren perfectamente con tus sistemas empresariales:",
+  "sapPara": "Con Rialtes, las pruebas se convierten en un proceso conectado, inteligente y alineado con el negocio.",
+  "seamlessData": [
+    "SAP S/4HANA, SAP SuccessFactors, SAP Ariba",
+    "Salesforce (CRM, Service Cloud, Marketing Cloud)",
+    "Oracle EBS, Fusion Cloud y HCM",
+    "Aplicaciones personalizadas y heredadas",
+    "Flujo de datos sin interrupciones entre qTest, Tosca y herramientas DevOps para una visibilidad de extremo a extremo"
+  ],
+  "factTitle": "Datos Interesantes sobre Tosca y las Pruebas Automatizadas",
+  "enterprisesDesc": " de las empresas afirman que las pruebas automatizadas son fundamentales para",
+  "enterprisesPara": "acelerar la transformación digital.",
+  "companiesDesc": " Las empresas que utilizan Tosca informan hasta un",
+  "companiesPara": "de reducción en los",
+  "companiesParaOne": "esfuerzos de pruebas manuales.",
+  "aiDesc": "La autocuración impulsada por IA de Tosca reduce el mantenimiento de pruebas en un",
+  "aiPara": " en promedio.",
+  "platformDesc": "La plataforma integrada de Tricentis (Tosca, qTest, NeoLoad) cubre más del",
+  "platformPara": " de las necesidades de pruebas empresariales en una sola suite.",
+  "contactTitle": "¿Listo para Transformar tu Viaje de Pruebas?",
+  "contactSubTitle": "Permite que Rialtes te ayude a adoptar Tosca y la automatización de pruebas modernas para garantizar que cada versión sea de alta calidad, rápida y segura.",
+  "ContactSubTitleOne": "Programa una consulta gratuita de Tosca, reserva una demostración o contacta con nuestros expertos. Por favor, completa el siguiente formulario."
     }
 }

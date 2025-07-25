@@ -887,5 +887,216 @@
         "contentTitle": "Innovación Basada en Datos e IA: Agentforce y SAP Data Cloud",
         "contentDesc": "Con SAP Data Cloud y Salesforce Agentforce AI, Rialtes aporta inteligencia, automatización y segmentación de clientes modernas a los entornos SAP.",
         "contactTitle": "¡Asóciate con Rialtes para Transformar tu Ecosistema SAP!"
+    },
+    "salesforceAgent":{
+  "headerTitle": "SalesforceAgent+",
+  "headerSubTitleone": "Desata el Poder",
+  "headerSubTitletwo": "de Salesforce con",
+  "headerSubTitleThree": "SalesforceAgent+",
+  "headerOne": "Servicios Gestionados",
+  "headerTwo": "Siempre Activos y Listos para IA",
+  "empowerTitle": "Reimagina Salesforce. Potencia a tus Agentes. Ofrece Magia al Cliente.",
+  "empowerSubtitle": "En Rialtes, vamos más allá del soporte tradicional de Salesforce. SalesforceAgent+ es nuestra oferta de Servicios Gestionados de próxima generación, diseñada para mantener tu plataforma Salesforce lista para el futuro, habilitada para IA y continuamente optimizada — con soporte global 24x7, soluciones impulsadas por IA como Agentforce e integración perfecta en toda tu empresa.",
+  "aiTitle": "Comienza Tu Viaje de IA Ahora",
+  "aiSubTitle": "Servicios de Adopción de Agentforce con Rialtes",
+  "aiSubTitleOne": "Agentforce está revolucionando las interacciones entre clientes y agentes — y Rialtes facilita una adopción sencilla y con impacto:",
+  "startYourAIData": [
+    {
+      "title": "Evaluaciones rápidas de preparación para IA",
+      "subtitle": "adaptadas a tu industria."
+    },
+    {
+      "title": "Implementación de IA conversacional",
+      "subtitle": "para equipos de Ventas, Servicio y Campo."
+    },
+    {
+      "title": "Einstein GPT y automatización con IA",
+      "subtitle": "para atención proactiva al cliente y ventas más inteligentes."
+    },
+    {
+      "title": "Talleres de habilitación de Agentforce",
+      "subtitle": "para capacitar e incorporar equipos."
+    },
+    {
+      "title": "Bots de IA preconstruidos",
+      "subtitle": "para gestión de casos, nutrición de clientes potenciales y compartición de conocimientos."
+    }
+  ],
+  "aiPara": "Acelera tu estrategia de IA con Rialtes — de forma fluida, segura y rápida.",
+  "manageTitle": "Servicios Gestionados SalesforceAgent+",
+  "titleOne": "Impulsando la Innovación Continua en Salesforce.",
+  "titleTwo": "Soporte Siempre Activo. Innovación Impulsada por IA.",
+  "titleThree": "Soluciones Específicas para la Industria.",
+  "salesforceagentData": [
+    {
+      "title": "Transforma las Operaciones de Sales y Service Cloud",
+      "list": [
+        "Optimiza los procesos de Ventas y Servicio de extremo a extremo.",
+        "Gestión inteligente de casos, conversión de leads con IA, servicio omnicanal.",
+        "Mejoras proactivas y realineación de procesos empresariales."
+      ]
+    },
+    {
+      "title": "Desarrollo de Componentes Lightning y Modernización UX",
+      "list": [
+        "Componentes Lightning Web personalizados (LWC) y experiencias de usuario dinámicas.",
+        "Soluciones de interfaz adaptables, móviles y personalizadas.",
+        "Optimización de rendimiento y accesibilidad."
+      ]
+    },
+    {
+      "title": "Integraciones Sin Fricción con Mulesoft",
+      "list": [
+        "Integraciones escalables y basadas en API con SAP, Oracle, NetSuite, Workday, entre otros.",
+        "Intercambio de datos seguro y en tiempo real mediante MuleSoft.",
+        "Arquitectura basada en eventos y preparada para el futuro."
+      ]
+    },
+    {
+      "title": "Migraciones de Datos Salesforce Sin Complicaciones",
+      "list": [
+        "Transición fluida desde CRMs heredados y hojas de cálculo.",
+        "Mapeo completo de datos, transformación y limpieza.",
+        "Migraciones de datos seguras, por etapas y conformes con la industria."
+      ]
+    },
+    {
+      "title": "Experiencia en Nubes por Industria",
+      "list": [
+        "Salud, Manufactura, Educación, Automotriz, Bienes Raíces, Transporte y Ciencias de la Vida.",
+        "Flujos de trabajo personalizados y cumplimiento (HIPAA, ISO, etc.).",
+        "Aceleradores preconstruidos para una implementación rápida."
+      ]
+    },
+    {
+      "title": "Soporte para Tableau CRM y Salesforce Data Cloud",
+      "list": [
+        "Analítica avanzada y conocimientos de IA con Tableau CRM.",
+        "Perfiles de cliente unificados con Salesforce Data Cloud (CDP).",
+        "Arquitectura Zero Copy utilizando SAP Data Cloud — sin duplicación de datos."
+      ]
+    },
+    {
+      "title": "Servicios de Marketing Cloud y Personalización",
+      "list": [
+        "Recorridos inteligentes del cliente y campañas personalizadas.",
+        "Marketing entre nubes con Journey Builder, Email Studio, Interaction Studio.",
+        "Analítica de participación avanzada y seguimiento de conversiones."
+      ]
+    }
+  ],
+   "dataTitle": "Desbloquea la Sinergia entre IA y Datos",
+  "dataSubtitle": "Salesforce Data Cloud + SAP Data Cloud Zero Copy",
+  "dataDesc": "Toma decisiones en tiempo real sin ralentizar las operaciones.",
+  "unlockData": [
+    "Perfiles unificados en tiempo real y listos para IA con Zero Copy.",
+    "Conecta los datos de Salesforce y SAP sin duplicación.",
+    "Visibilidad de extremo a extremo para los equipos de Ventas, Servicio y Marketing."
+  ],
+  "freeTitle": "AgentChat – ¡Servicio de WhatsApp GRATIS incluido con SalesforceAgent+!",
+  "freeSubTitle": "Convierte cada chat en un momento con el cliente.",
+  "freeDesc": "Con cada suscripción a SalesforceAgent+, obtienes AgentChat — nuestra integración empresarial de WhatsApp para Salesforce — GRATIS.",
+  "freeDescOne": "¡Conecta con los clientes donde están — sin costo adicional!",
+  "rialChatData": [
+    "Mensajería instantánea de WhatsApp integrada en Salesforce.",
+    "Respuestas automáticas, creación de casos y colaboración entre agentes.",
+    "Chatbots de IA preconstruidos para Agentforce y Service Cloud.",
+    "Notificaciones personalizadas y campañas de marketing."
+  ],
+   "globalTitle": "Nuestro Modelo Global, Escalable y de Soporte Salesforce 24x7",
+  "globalSubTitle": "Flexible, Personalizado y Rentable",
+  "salesforceTitle": "Experiencia Salesforce de Rialtes",
+  "salesforceSubTitle": "La Fuerza Detrás de Tu Éxito",
+  "salesforceDesc": "Tu éxito está impulsado por una experiencia que siempre va un paso adelante.",
+  "ourGlobalData": [
+    "Equipos de soporte global 24x7 en EE. UU., Canadá, India y Singapur.",
+    "Consultoría in situ y modelos híbridos para colaboración de alto impacto.",
+    "Entrega completamente offshore para escalabilidad rentable.",
+    "Liderado por Gerentes de Proyecto certificados en PMP y Scrum, garantizando agilidad y gobernanza."
+  ],
+  "rialtesSalesforceData": [
+    "300+ certificaciones de Salesforce en módulos clave: Agentforce, Ventas, Servicio, Data Cloud, Marketing, MuleSoft, Tableau.",
+    "Arquitectos, consultores y expertos en IA certificados por Salesforce.",
+    "Experiencia específica por industria para adaptar Salesforce a las necesidades de tu negocio.",
+    "Especialistas multicloud para Ventas, Servicio, IA y Nubes Industriales."
+  ],
+  "ourTitle": "Nuestras Especializaciones en Salesforce Industry Cloud",
+  "ourSubTitle": "Construido para Tu Negocio",
+  "ourSalesforceData": [
+    {
+      "title": "Healthcare Cloud",
+      "desc": "Recorridos del paciente, cumplimiento con HIPAA, colaboración en el cuidado."
+    },
+    {
+      "title": "Manufacturing Cloud",
+      "desc": "Portales para socios, distribuidores y concesionarios; operaciones de servicio."
+    },
+    {
+      "title": "Education Cloud",
+      "desc": "Ciclo de vida del estudiante, gestión de exalumnos y donantes."
+    },
+    {
+      "title": "Automotive Cloud",
+      "desc": "Vehículo conectado, gestión de concesionarios, programación de servicios."
+    },
+    {
+      "title": "Real Estate Cloud",
+      "desc": "Interacción con clientes, gestión de propiedades, nutrición de leads."
+    },
+    {
+      "title": "Transportation Cloud",
+      "desc": "Fidelización, reservas, optimización del servicio."
+    },
+    {
+      "title": "Life Sciences Cloud",
+      "desc": "Gestión de ensayos clínicos, participación del paciente, cumplimiento normativo."
+    }
+  ],
+  "ourPara": "Sea cual sea tu industria, Rialtes hace que Salesforce trabaje de manera más inteligente para ti.",
+   "migrateTitle": "Migración a Salesforce",
+  "migrateSubTitle": "Sin Interrupciones y de Forma Estratégica",
+  "migrateDesc": "Ya sea que migres desde CRMs heredados, Zoho, HubSpot, Dynamics u otros sistemas personalizados, Rialtes garantiza:",
+  "migrateDescOne": "Migra con confianza. Opera de manera más inteligente. Crece más rápido.",
+  "migrateData": [
+    "Migraciones rápidas y de bajo riesgo con mínima interrupción.",
+    "Seguridad de datos y cumplimiento en cada paso.",
+    "Arquitectura Salesforce lista para IA y el futuro tras la migración."
+  ],
+   "certifiedTitle": "Arquitectos Certificados de Salesforce y Estrategas de IA para Cada Proyecto",
+  "certifiedData": [
+    "Diseño y hojas de ruta liderados por Arquitectos de Salesforce.",
+    "Liderazgo certificado en PMP/Scrum para una entrega ágil y transparente.",
+    "Consultores en IA, Data Cloud y Agentforce para el Salesforce de próxima generación.",
+    "Mejoras continuas y alineación empresarial a través de SalesforceAgent+."
+  ],
+    "whyTitle": "¿Por Qué Elegir Rialtes?",
+  "whySubTitle": "Tu Socio Confiable en Servicios Gestionados y Salesforce con IA",
+  "whyChooseData": [
+    {
+      "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (1).svg",
+      "data": "Expertos en Servicios Gestionados de Salesforce, habilitación de IA y Data Cloud."
+    },
+    {
+      "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (2).svg",
+      "data": "Entrega global con un enfoque local."
+    },
+    {
+      "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (3).svg",
+      "data": "Soporte 24x7 para mantener tu operación — y crecimiento — en marcha."
+    },
+    {
+      "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (4).svg",
+      "data": "RialChat (integración con WhatsApp) incluido — Gratis."
+    },
+    {
+      "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (5).svg",
+      "data": "Enfoque profundo en Agentforce y transformaciones impulsadas por IA."
+    }
+  ],
+    "knowMore": "Saber más",
+
+  "contactTitle": "¡Elevemos Salesforce Juntos!",
+  "contactSubTitle": "¿Listo para desbloquear IA, aumentar la productividad y optimizar Salesforce?",
+  "contactSubTitleOne": "Contacta a Rialtes para descubrir cómo SalesforceAgent+ puede potenciar tu ecosistema Salesforce."
     }
 }
