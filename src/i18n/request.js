@@ -29,13 +29,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const kinaxis = (await import(`../../messages/${locale}/services.json`)).default;
     const growWithSap = (await import(`../../messages/${locale}/services.json`)).default;
     const riseWithSap = (await import(`../../messages/${locale}/services.json`)).default;
+    const autoSense = (await import(`../../messages/${locale}/services.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
     const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
     const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
-
-
 
     return {
         locale,
@@ -64,7 +63,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...growWithSap,
             ...riseWithSap,
             ...uiPath,
-            ...tosca
+            ...tosca,
+            ...autoSense
 
         }
     };

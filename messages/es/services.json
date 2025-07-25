@@ -887,5 +887,148 @@
         "contentTitle": "Innovación Basada en Datos e IA: Agentforce y SAP Data Cloud",
         "contentDesc": "Con SAP Data Cloud y Salesforce Agentforce AI, Rialtes aporta inteligencia, automatización y segmentación de clientes modernas a los entornos SAP.",
         "contactTitle": "¡Asóciate con Rialtes para Transformar tu Ecosistema SAP!"
+    },
+    "autoSense": {
+        "keyPillarsTitle": "Pilares Clave de AutoSense",
+        "keyPillarsSectionData": [
+            {
+                "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
+                "imageAlt": "imagen de asesoría estratégica",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
+                "title": "Asesoría Estratégica y Planificación",
+                "listItems": [
+                    "Estrategia digital y de TI preparada para el futuro alineada con los objetivos de electrificación, IA y experiencia del cliente (CX).",
+                    "Talleres de reinvención de procesos utilizando SAP Signavio y herramientas de asesoría de Salesforce.",
+                    "Evaluaciones de preparación para el mercado de vehículos eléctricos y cumplimiento normativo."
+                ],
+                "bgColor": "#1FA274"
+            },
+            {
+                "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
+                "imageAlt": "imagen de diseño e implementación",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
+                "title": "Diseño e Implementación",
+                "listItems": [
+                    "Despliegue rápido de Salesforce Automotive Cloud, SAP S/4HANA Automotive, SAP VMS y SAP IBP para la cadena de suministro.",
+                    "Diseño de ecosistemas de vehículos conectados, integrando plataformas IoT y lagos de datos con IA.",
+                    "Transformación de redes de concesionarios con soluciones de Salesforce Automotive Retail."
+                ],
+                "bgColor": "#0F90BF"
+            },
+            {
+                "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
+                "imageAlt": "imagen de integración y aseguramiento de calidad",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
+                "title": "Integración y Aseguramiento de Calidad",
+                "listItems": [
+                    "Integración fluida entre ERP, CRM, dispositivos conectados y plataformas de terceros.",
+                    "Integridad de datos, evaluaciones de ciberseguridad y preparación para el cumplimiento.",
+                    "Pruebas impulsadas por IA y simulaciones de procesos para una entrega sin defectos."
+                ],
+                "bgColor": "#006FBE"
+            },
+            {
+                "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
+                "imageAlt": "imagen post implementación",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
+                "title": "Post Implementación e Innovación Continua",
+                "listItems": [
+                    "Centro de Excelencia (CoE) dedicado para soluciones automotrices de IA, SAP y Salesforce.",
+                    "Servicios gestionados 24/7, monitoreo proactivo y optimización continua.",
+                    "Marcos de monetización de datos: ayudando a los OEM a aprovechar los datos de vehículos conectados para nuevas fuentes de ingresos."
+                ],
+                "bgColor": "#5C8C9D"
+            }
+        ],
+        "chooseRialtesData": [
+            {
+                "imageUrl": "/images/industry/auto-sense/automative-experties-img.svg",
+                "title": "Más de 10 años de experiencia en la industria automotriz",
+                "listItems": [
+                    "Contamos con más de una década de experiencia directa trabajando con OEM, proveedores, concesionarios y startups de vehículos eléctricos. Desde las plantas de fabricación hasta las salas de exhibición, entendemos los desafíos y oportunidades que moldean el futuro de la movilidad."
+                ]
+            },
+            {
+                "imageUrl": "/images/industry/auto-sense/automative-cloud-experts-img.svg",
+                "title": "Expertos en Salesforce Automotive Cloud",
+                "listItems": [
+                    "Como especialistas certificados en Salesforce Automotive Cloud, ayudamos a las empresas automotrices a ofrecer experiencias personalizadas, mejorar la colaboración con concesionarios y aprovechar el valor de los datos de vehículos conectados."
+                ]
+            },
+            {
+                "imageUrl": "/images/industry/auto-sense/data-integration-img.svg",
+                "title": "Integración fluida de ERP y datos",
+                "listItems": [
+                    "Especialistas en integrar Salesforce Automotive Cloud con plataformas ERP como SAP S/4HANA y Oracle, creando un ecosistema de datos unificado que conecta ventas, servicios, cadena de suministro y finanzas."
+                ]
+            }
+        ],
+        "whyChooseTitle": "¿Por qué elegir Rialtes para la",
+        "whyChooseTitle2": "Transformación Automotriz?",
+        "rialtesMakesWorkData": [
+            {
+                "image": "/images/industry/auto-sense/backend-erp-img.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/backend-erp-mob-img.webp",
+                "title": "Salesforce Automotive Cloud + ERP Backend (SAP, Oracle, otros)",
+                "list": [
+                    "Integración de Salesforce Automotive Cloud con sistemas ERP como SAP S/4HANA Automotive, SAP IBP y Oracle Automotive para sincronización en tiempo real de inventarios, producción, garantía y datos de cadena de suministro.",
+                    "Habilitación de precios dinámicos, incentivos, gestión de pedidos y visibilidad de inventario dentro de Salesforce."
+                ]
+            },
+            {
+                "image": "/images/industry/auto-sense/frontend-img.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/frontend-mob-img.webp",
+                "title": "Salesforce Automotive Cloud + Visualización de Datos y Soluciones de IA",
+                "list": [
+                    "Creación de dashboards interactivos y portales de clientes usando Tableau, Power BI y análisis basados en IA/ML.",
+                    "Información visual en tiempo real para liderazgo sobre ventas, demanda de vehículos, patrones de servicio y sentimiento del cliente."
+                ]
+            },
+            {
+                "image": "/images/industry/auto-sense/end-to-end-process-img.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/end-to-end-process-mob-img.webp",
+                "title": "Automatización de Procesos de Extremo a Extremo y Calidad",
+                "list": [
+                    "Automatización de flujos de trabajo de ventas, servicio y marketing.",
+                    "Aseguramiento de integridad de datos, cumplimiento de seguridad y entrega sin defectos mediante marcos de prueba basados en IA."
+                ]
+            }
+        ],
+        "makesItWorkTitle": "Cómo lo hace posible Rialtes",
+        "seamlessIntegrationTitle": "Integración fluida en todo el ecosistema",
+        "thoughtLeadershipData": [
+            {
+                "title": "El camino hacia modelos de negocio centrados en vehículos eléctricos: Lo que deben saber los líderes automotrices",
+                "description": "Gestión del ciclo de vida de baterías, nuevos flujos de ingresos y transformación digital de ventas."
+            },
+            {
+                "title": "Cadenas de suministro impulsadas por IA: Resolviendo interrupciones automotrices con inteligencia",
+                "description": "Cómo la IA y SAP IBP están redefiniendo la visibilidad proactiva de la cadena de suministro."
+            },
+            {
+                "title": "De la venta de automóviles a los servicios de movilidad: El futuro de la experiencia del cliente en la automoción",
+                "description": "Aprovechando Salesforce Automotive Cloud para una gestión integral de CX."
+            },
+            {
+                "title": "Coches conectados, mina de oro de datos: Monetización e información basada en IA",
+                "description": "Cómo desbloquear el valor de los flujos de datos de vehículos conectados."
+            },
+            {
+                "title": "Sostenibilidad a toda velocidad: Haciendo rentable la movilidad verde",
+                "description": "Alineando rentabilidad con objetivos ESG mediante IA y plataformas inteligentes."
+            }
+        ],
+        "thoughtLeadershipTitle": "Temas de liderazgo intelectual para clientes automotrices",
+        "thoughtLeadershipDesc": "Aquí tienes 5 ideas de alto impacto que Rialtes puede liderar para posicionarse como referente en la industria:",
+        "headerTitle": "AutoSense",
+        "headerSubTitle": "Acelera tu negocio automotriz con Rialtes AutoSense",
+        "pageDesc": "Durante más de una década, Rialtes ha sido un socio de confianza para líderes automotrices globales, ayudándoles a navegar por la rápida transformación del sector — desde la electrificación y los vehículos conectados hasta la innovación en la experiencia del cliente y la resiliencia de la cadena de suministro. Nuestra suite de servicios especializada, AutoSense, combina experiencia automotriz profunda, dominio de Salesforce Automotive Cloud e integraciones ERP potentes para generar resultados reales.",
+        "introducingTitle": "Presentamos",
+        "introducingSubTitle": "Rialtes AutoSense",
+        "introducingSubTitle2": "Soluciones Automotrices de Extremo a Extremo",
+        "introducingDesc": "AutoSense es la suite de servicios integral de Rialtes, diseñada específicamente para las necesidades cambiantes del ecosistema automotriz — incluyendo OEMs, proveedores, concesionarios y proveedores de movilidad. AutoSense combina asesoría, implementación, aseguramiento de calidad y soporte post-implementación, completamente integrada con socios tecnológicos OEM como SAP y Salesforce.",
+        "partnerTitle": "Asóciate con Rialtes para impulsar la transformación automotriz inteligente",
+        "partnerDesc": "Ya sea que seas un OEM global, una marca de vehículos eléctricos emergente o una red de concesionarios líder, Rialtes te ayuda a conectar la tecnología con los resultados. Desde la asesoría e implementación hasta la innovación continua, somos tu socio para construir el futuro de la movilidad.",
+        "contactTitle": "Acelera tu transformación automotriz con Rialtes"
     }
 }

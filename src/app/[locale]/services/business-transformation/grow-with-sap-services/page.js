@@ -460,7 +460,7 @@ export default function Page() {
           </div>
           <div className="xl:col-span-3 col-span-12"></div>
         </div>
-        <p className="xl:block hidden 4xl:text-[26px] xl:text-[20px] text-[16px] bg-[#0C8AD4] font-normal p-5 xl:pl-10  text-white leading-tight">{t('sapBtpBlueBoxDes')} </p>
+        <p className="xl:block hidden 4xl:text-[26px] xl:text-[20px] text-[16px] bg-[#0C8AD4] font-normal p-5 xl:pl-10  text-white leading-tight">{t('sapBtpBlueBoxDesk')} </p>
       </section>
       <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">{t('sapBtpBlueBoxMob')} </p>
       {/* conversational section */}
