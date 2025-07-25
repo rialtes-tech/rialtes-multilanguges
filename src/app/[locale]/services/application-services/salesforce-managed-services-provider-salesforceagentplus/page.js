@@ -1,11 +1,17 @@
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-;
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/services.json';
+import esContent from '../../../../../../messages/es/services.json';
 import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 export default function page() {
+    const t = useTranslations("salesforceAgent");
+      const locale = useLocale();
+      const homepageContent = locale === "es" ? esContent : enContent;
+      const {startYourAIData,salesforceagentData,unlockData,rialChatData,ourGlobalData,rialtesSalesforceData,ourSalesforceData,migrateData ,certifiedData,whyChooseData } = homepageContent.salesforceAgent;
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Service",
@@ -97,172 +103,7 @@ export default function page() {
             "name": "SalesforceAgent+"
         }
     }
-    const startYourAIData = [
-        {
-            title: "Rapid AI-readiness assessments",
-            subtitle: "tailored to your industry."
-        },
-        {
-            title: "Conversational AI deployment",
-            subtitle: "for Sales, Service, and Field teams."
-        },
-        {
-            title: "Einstein GPT and AI automation",
-            subtitle: "for proactive customer care and smarter sales. "
-        },
-        {
-            title: "Agentforce enablement workshops",
-            subtitle: "to train and onboard teams."
-        },
-        {
-            title: "Pre-built AI bots",
-            subtitle: "for case management, lead nurturing, and knowledge sharing."
-        },
-    ]
-    const unlockData = [
-        "Real-time, AI-ready unified profiles with Zero Copy.",
-        "Connect Salesforce and SAP data without duplication.",
-        "End-to-end visibility for Sales, Service, and Marketing teams."
-    ]
-    const rialChatData = [
-        "Instant WhatsApp messaging embedded inside Salesforce.",
-        "Auto-responses, case creation, and agent collaboration.",
-        "Pre-built AI chatbots for Agentforce and Service Cloud.",
-        "Personalized notifications and marketing campaigns."
-    ]
-    const ourGlobalData = [
-        "24x7 Global Support Teams in the USA, Canada, India, and Singapore.",
-        "Onsite Consulting & Hybrid Models for high-impact collaboration.",
-        "Fully Offshore Delivery for cost-effective scalability.",
-        "Led by PMP & Scrum-certified Project Managers ensuring agility and governance."
-    ]
-    const rialtesSalesforceData = [
-        "300+ Salesforce Certifications across key modules: Agentforce, Sales, Service, Data Cloud, Marketing, MuleSoft, Tableau.",
-        "Certified Salesforce Architects, Consultants, and AI Experts.",
-        "Industry-specific expertise to tailor Salesforce to your business needs.",
-        "Cross-cloud specialists for Sales, Service, AI, and Industry Clouds."
-    ]
-    const migrateData = [
-        "Low-risk, rapid migrations with minimal disruption.",
-        "Data security and compliance at every step.",
-        " AI and future-ready Salesforce architecture post-migration.",
-    ]
-    const ourSalesforceData = [
-        {
-            title: "Healthcare Cloud",
-            desc: "Patient journeys, HIPAA compliance, care collaboration."
-        },
-        {
-            title: "Manufacturing Cloud",
-            desc: "Partner, dealer, and distributor portals; service ops."
-        },
-        {
-            title: "Education Cloud",
-            desc: "Student lifecycle, alumni, and donor management."
-        },
-        {
-            title: "Automotive Cloud",
-            desc: "Connected vehicle, dealer management, service scheduling."
-        },
-        {
-            title: "Real Estate Cloud",
-            desc: "Customer engagement, property management, lead nurturing."
-        },
-        {
-            title: "Transportation Cloud",
-            desc: "Loyalty, booking, service optimization."
-        },
-        {
-            title: "Life Sciences Cloud",
-            desc: "Clinical trial management, patient engagement, compliance."
-        },
-    ]
-    const whyChooseData = [
-        {
-            img: "/images/services/salesforce-agentforce/Mobile/why-choose- (1).svg",
-            data: "Salesforce Managed Services, AI enablement, and Data Cloud experts."
-        },
-        {
-            img: "/images/services/salesforce-agentforce/Mobile/why-choose- (2).svg",
-            data: "Global delivery with a local touch."
-        },
-        {
-            img: "/images/services/salesforce-agentforce/Mobile/why-choose- (3).svg",
-            data: "24x7 support to keep you running — and growing."
-        },
-        {
-            img: "/images/services/salesforce-agentforce/Mobile/why-choose- (4).svg",
-            data: "RialChat (WhatsApp Integration) included — Free."
-        },
-        {
-            img: "/images/services/salesforce-agentforce/Mobile/why-choose- (5).svg",
-            data: "Deep focus on Agentforce and AI transformation journeys."
-        },
-    ]
-    const certifiedData = [
-        "Salesforce Architect-led design and roadmaps.",
-        "PMP/Scrum-certified leadership for agile, transparent delivery.",
-        "AI, Data Cloud, and Agentforce consultants for next-gen Salesforce.",
-        "Ongoing enhancements and business alignment through SalesforceAgent+."
-    ]
-    const salesforceagentData = [
-        {
-            title: "Transform Sales & Service Cloud Operations",
-            list: [
-                "Optimize end-to-end Sales and Service processes.",
-                "Intelligent case management, AI-powered lead conversion, omnichannel service.",
-                "Proactive enhancements and business process realignment."
-            ]
-        },
-        {
-            title: "Lightning Component Development & UX Modernization",
-            list: [
-                "Custom Lightning Web Components (LWC) and dynamic user experiences.",
-                "Responsive, mobile-friendly, and tailored UI solutions.",
-                "Performance and accessibility optimization."
-            ]
-        },
-        {
-            title: "Seamless Mulesoft Integrations",
-            list: [
-                "API-led, scalable integrations with SAP, Oracle, NetSuite, Workday, and others.",
-                "Secure, real-time data exchange via MuleSoft.",
-                "Event-driven, future-proof architecture."
-            ]
-        },
-        {
-            title: "Hassle-Free Salesforce Data Migrations",
-            list: [
-                "Smooth transition from legacy CRMs and spreadsheets.",
-                "Full data mapping, transformation, and cleansing.",
-                "Industry-compliant, secure, and staged data migrations."
-            ]
-        },
-        {
-            title: "Industry Cloud Expertise",
-            list: [
-                "Healthcare, Manufacturing, Education, Automotive, Real Estate, Transportation, and Life Sciences.",
-                "Tailored workflows and compliance (HIPAA, ISO, etc.).",
-                "Pre-built accelerators for rapid deployment."
-            ]
-        },
-        {
-            title: "Tableau CRM & Salesforce Data Cloud Support",
-            list: [
-                "Advanced analytics and AI insights with Tableau CRM.",
-                "Unified customer profiles with Salesforce Data Cloud (CDP).",
-                "Zero Copy architecture leveraging SAP Data Cloud — no data duplication."
-            ]
-        },
-        {
-            title: "Marketing Cloud & Personalization Services",
-            list: [
-                "Intelligent customer journeys and personalized campaigns.",
-                "Cross-cloud marketing with Journey Builder, Email Studio, Interaction Studio.",
-                "Deep engagement analytics and conversion tracking."
-            ]
-        },
-    ]
+        
     return (
         <section>
             <Seo
@@ -302,13 +143,13 @@ export default function page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 text-[#ffffff]">
                             <h3 className="text-[18px] lg:text-[24px] font-bold">
-                                SalesforceAgent+
+                               {t('headerTitle')}
                             </h3>
                             <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-                                Unleash the Power <br />  of Salesforce with <br /> SalesforceAgent+
+                                {t('headerSubTitleone')} <br />  {t('headerSubTitletwo')}<br /> {t('headerSubTitleThree')}
                             </h1>
                             <h4 className="text-[20px] leading-tight xl:text-[28px] 4xl:text-[35px] font-bold xl:mt-[23px] mt-[15px]">
-                                AI-Ready, Always-On <br /> Managed Services
+                                {t('headerOne')}<br /> {t('headerTwo')}
                             </h4>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -321,12 +162,12 @@ export default function page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[90%] lg:w-[80%] xl:w-[90%] 2xl:w-[70%] 4xl:w-full">
-                            Reimagine Salesforce. Empower Your Agents. Deliver Customer Magic.
+                             {t('empowerTitle')}
                         </h2>
                     </div>
                     <div className="lg:col-span-6 xl:col-span-5 col-span-12">
                         <p className="xl:text-19px] 4xl:text-[22px] text-[16px] leading-tight mt-[23px] lg:mt-[10px]">
-                            At Rialtes, we go beyond traditional Salesforce support. SalesforceAgent+ is our next-gen Managed Services offering, designed to keep your Salesforce platform future-ready, AI-enabled, and continuously optimized — with 24x7 global support, AI-driven solutions like Agentforce, and seamless integration across your enterprise.
+                           {t('empowerSubtitle')}
                         </p>
                     </div>
                 </div>
@@ -361,13 +202,13 @@ export default function page() {
                                 <div className="h-full flex flex-col">
                                     <div className="xl:mb-[61px]">
                                         <h2 className="2xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light lg:w-[60%] xl:w-[80%] 2xl:w-full">
-                                            Start Your AI Journey Now
+                                            {t('aiTitle')}
                                         </h2>
                                         <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[31px] leading-tight font-semibold lg:w-[70%] xl:w-full">
-                                            Agentforce Adoption Services with Rialtes
+                                            {t('aiSubTitle')}
                                         </h3>
                                         <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[28px] mt-[23px] font-light">
-                                            Agentforce is revolutionizing customer and agent interactions — and Rialtes makes adoption easy and impactful:
+                                            {t('aiSubTitleOne')}
                                         </p>
                                     </div>
                                     <div className="mt-auto lg:block hidden">
@@ -390,7 +231,7 @@ export default function page() {
                                     }
                                 </ul>
                                 <p className="xl:text-[20px] 4xl:text-[24px] text-[17px] leading-tight xl:mt-[36px] mt-[38px] font-light lg:mb-[56px]">
-                                    Accelerate your AI strategy with Rialtes — seamlessly, securely, and fast.
+                                     {t('aiPara')}
                                 </p>
                                 <div className="mt-[48px] lg:hidden block">
                                     <LearnMore />
@@ -403,10 +244,10 @@ export default function page() {
             {/* salesforceagent section */}
             <section className="custom-container lg:mt-[98px] mt-[48px]">
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light max-sm:w-[80%]">
-                    SalesforceAgent+ Managed Services
+                    {t('manageTitle')}
                 </h2>
                 <h3 className="xl:text-[36px] 4xl:text-[30px] text-[22px] leading-tight font-semibold xl:mt-[34px] mt-[15px] max-[345px]:w-full max-sm:w-[90%]">
-                    Powering Continuous Salesforce Innovation. <br /> Always-On Support. AI-Driven Innovation. <br /> Industry-Specific Solutions.
+                   {t('titleOne')} <br />  {t('titleTwo')} <br />  {t('titleThree')}
                 </h3>
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] xl:gap-y-[89px] lg:gap-y-[59px] gap-y-[68px] xl:mt-[106px] mt-[59px] 2xl:w-[80%] xl:w-[90%] md:w-[86%] sm:w-[70%]">
                     {
@@ -451,15 +292,15 @@ export default function page() {
                     </>
                     <div className="my-auto">
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
-                            Unlock AI and Data Synergy
+                            {t('dataTitle')}
                         </h2>
                         <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[31px] leading-tight font-semibold w-[88%] md:w-full">
-                            Salesforce Data Cloud + SAP Data Cloud Zero Copy
+                          {t('dataSubtitle')}
                         </h3>
                         <UnorderedList arrName={unlockData} ulClassName="list-disc xl:mt-[35px] mt-[29px] lg:ml-[26px] ml-[20px]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]" />
                         <div className="mt-[40px] xl:mt-[53px] xl:p-[32px] p-[24px] bg-[#006FBE] text-[#ffffff] w-[88%] md:w-[90%] lg:w-full">
                             <p className="xl:text-[20px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
-                                Drive real-time decisions without slowing down operations.
+                             {t('dataDesc')}
                             </p>
                         </div>
                         <div className="xl:mt-[53px] mt-[20px]">
@@ -499,17 +340,17 @@ export default function page() {
                             <div className="h-full flex flex-col">
                                 <div>
                                     <h2 className="4xl:text-[58px] xl:text-[40px] text-[26px] leading-tight font-light w-[80%] lg:w-[70%] xl:w-full 3xl:w-[80%] 4xl:w-full">
-                                        AgentChat – FREE WhatsApp Service Included with SalesforceAgent+!
+                                      {t('freeTitle')} 
                                     </h2>
                                     <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[31px] lg:w-[70%] xl:w-full leading-tight font-semibold">
-                                        Turn Every Chat into a Customer Moment.
+                                        {t('freeSubTitle')} 
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div className="lg:col-span-6 xl:col-span-6 col-span-12">
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-light w-[90%] md:w-[70%] lg:w-full">
-                                With every SalesforceAgent+ subscription, you get AgentChat — our enterprise-grade WhatsApp integration for Salesforce — FREE.
+                               {t('freeDesc')} 
                             </p>
                             <UnorderedList arrName={rialChatData} ulClassName="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[36px] mt-[25px] xl:ml-[26px] ml-[20px] w-[90%] lg:w-[90%] xl:w-full 3xl:w-[80%]" liClassName="xl:text-[19px] 4xl:text-[22x] text-[16px] leading-tight lg:mt-0 mt-[23px]" />
                         </div>
@@ -518,14 +359,14 @@ export default function page() {
                         <div className="lg:col-span-9 col-span-12">
                             <div className="xl:py-[28px] xl:px-[31px] py-[22px] px-[25px] bg-[#073259] text-[#ffffff] sm:w-fit">
                                 <p className="xl:text-[21px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
-                                    Engage customers where they are — at no extra cost!
+                                    {t('freeDescOne')} 
                                 </p>
                             </div>
                         </div>
                         <div className="lg:col-span-3 col-span-12">
                             <div className="flex flex-row w-full lg:mt-[-10px] xl:mt-0">
                                 <div className="lg:ml-auto">
-                                    <LearnMore btnName="Know More" href="https://www.rialtes.com/products/agentchat/" arialabel="agent chat"/>
+                                    <LearnMore btnName={t('knowMore')} href="https://www.rialtes.com/products/agentchat/" arialabel="agent chat"/>
                                 </div>
                             </div>
                         </div>
@@ -535,11 +376,11 @@ export default function page() {
             {/* our global section */}
             <section className="custom-container xl:mt-[117px] mt-[58px]">
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light w-[90%] 4xl:w-[90%] md:w-[80%] xl:w-[80%] lg:w-[60%]">
-                    Our Global, Scalable, 24x7 Salesforce Support Delivery Model
+                   {t('globalTitle')} 
                 </h2>
 
                 <h3 className="xl:text-[24px] 4xl:text-[36px] text-[20px] leading-tight xl:mt-[36px] mt-[22px] font-semibold w-[80%] lg:w-full">
-                    Flexible, High-Touch, and Cost-Effective
+                    {t('globalSubTitle')} 
                 </h3>
                 <UnorderedList arrName={ourGlobalData} ulClassName="list-disc xl:space-y-[27px] space-y-[19px] xl:mt-[58px] mt-[25px] xl:ml-[26px] ml-[20px] md:w-[65%] lg:w-[55%] 2xl:w-[50%]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight" />
             </section>
@@ -572,15 +413,15 @@ export default function page() {
                     </>
                     <div className="my-auto">
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
-                            Rialtes Salesforce Expertise
+                             {t('salesforceTitle')} 
                         </h2>
                         <h3 className="xl:text-[30px] 4xl:text-[36px] text-[22px] mt-[18px] xl:mt-[35px] leading-tight font-semibold">
-                            The Force Behind Your Success
+                             {t('salesforceSubTitle')} 
                         </h3>
                         <UnorderedList arrName={rialtesSalesforceData} ulClassName="list-disc xl:mt-[52px] mt-[31px] lg:ml-[26px] ml-[20px]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]" />
                         <div className="mt-[54px] xl:mt-[32px] xl:px-[31px]  xl:py-[26px] p-[24px] bg-[#163055] text-[#ffffff] md:w-[90%] lg:w-full">
                             <p className="xl:text-[20px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
-                                Your success is powered by expertise that’s always a step ahead.
+                                {t('salesforceDesc')} 
                             </p>
                         </div>
                     </div>
@@ -591,10 +432,10 @@ export default function page() {
                 <div className="xl:mt-[155px] mt-[110px] bg-[url('/images/services/salesforce-agentforce/Mobile/our-salesforce-mob-bg.webp')] md:bg-[url('/images/services/salesforce-agentforce/our-salesforce-desk-bg.webp')] bg-cover bg-no-repeat bg-center xl:pt-[84px] pt-[52px] xl:pb-[103px] pb-[142px] text-[#ffffff]">
                     <div className="custom-container">
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light xl:w-[70%] 2xl:w-[60%] lg:w-[40%] sm:w-[60%]">
-                            Our Salesforce Industry Cloud Specializations
+                             {t('ourTitle')} 
                         </h2>
                         <h3 className="xl:text-[26px] 4xl:text-[36px] text-[20px] leading-tight xl:mt-[47px] mt-[31px]">
-                            Built for Your Business
+                              {t('ourSubTitle')} 
                         </h3>
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[21px] lg:mt-[65px] mt-[38px] xl:w-[96%] 4xl:w-[95%] md:w-[94%] sm:w-[70%]">
                             {
@@ -619,7 +460,7 @@ export default function page() {
                         <div className="lg:col-span-9 col-span-12">
                             <div className="xl:py-[28px] xl:px-[31px] py-[22px] px-[25px] bg-[#006FBE] text-[#ffffff] sm:w-fit">
                                 <p className="xl:text-[21px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
-                                    Whatever your industry, Rialtes helps Salesforce work smarter for you.
+                                      {t('ourPara')} 
                                 </p>
                             </div>
                         </div>
@@ -638,18 +479,18 @@ export default function page() {
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-y-[36px] md:gap-[20px]">
                     <div className="my-auto md:order-1 order-2">
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
-                            Migrate to Salesforce
+                             {t('migrateTitle')} 
                         </h2>
                         <h3 className="xl:text-[28px] 4xl:text-[36px] text-[20px] mt-[24px] xl:mt-[37px] leading-tight font-semibold">
-                            Seamlessly and Strategically
+                             {t('migrateSubTitle')} 
                         </h3>
                         <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[37px] mt-[23px] font-normal xl:w-[80%]">
-                            Whether migrating from legacy CRMs, Zoho, HubSpot, Dynamics, or custom systems, Rialtes ensures:
+                            {t('migrateDesc')} 
                         </p>
                         <UnorderedList arrName={migrateData} ulClassName="list-disc xl:mt-[52px] mt-[31px] md:ml-[26px] ml-[20px] xl:w-[80%]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]" />
                         <div className="mt-[34px] xl:mt-[63px] xl:pl-[31px] xl:py-[26px] p-[24px] bg-[#163055] text-[#ffffff] w-fit md:w-[90%] lg:w-full">
                             <p className="xl:text-[19px] 4xl:text-[24px] text-[18px] leading-tight font-normal">
-                                Migrate confidently. Operate smarter. Grow faster.
+                            {t('migrateDescOne')} 
                             </p>
                         </div>
                     </div>
@@ -708,7 +549,7 @@ export default function page() {
                     <div className="md:col-span-5 xl:col-span-5">
                         <div className="bg-[#67C774] xl:pt-[47px] xl:px-[60px] 2xl:px-[80px] xl:pb-[92px] pt-[41px] px-[26px] pb-[79px] md:mt-[20%] max-md:mx-[36px]">
                             <h2 className="4xl:text-[60px] xl:text-[39px] text-[26px] leading-tight font-light sm:w-[80%] md:w-full lg:w-[70%] xl:w-full">
-                                Certified Salesforce Architects & AI Strategists for Every Project
+                                {t('certifiedTitle')} 
                             </h2>
                             <UnorderedList arrName={certifiedData} ulClassName="list-disc xl:mt-[44px] mt-[28px] md:ml-[26px] ml-[20px]" liClassName="xl:text-[21px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]" />
                             <div className="absolute xl:mt-[40px] mt-[30px]">
@@ -721,10 +562,9 @@ export default function page() {
             {/* why choose section */}
             <section className="custom-container xl:mt-[125px] mt-[83px]">
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
-                    Why Choose Rialtes?
-                </h2>
+                 {t('whyTitle')}</h2>
                 <h3 className="xl:text-[28px] 4xl:text-[36px] text-[20px] mt-[20px] xl:mt-[40px] leading-tight font-semibold sm:w-[70%] md:w-[50%] 2xl:w-[50%] xl:w-[54%] lg:w-[40%]">
-                    Your Trusted Salesforce AI & Managed Services Partner
+                    {t('whySubTitle')}    
                 </h3>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[60px] gap-y-[60px] xl:gap-y-[80px] 2xl:gap-y-[110px] xl:gap-[60px] 2xl:gap-[80px] xl:mt-[68px] mt-[70px]">
                     {
@@ -752,7 +592,7 @@ export default function page() {
             </section>
             {/* Contact Form */}
             < div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px]">
-                <ContactForm title={'Let’s Elevate Your Salesforce Together!'} subtitle="Ready to unlock AI, boost productivity, and optimize Salesforce?" subtitle1="Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem." className="4xl:text-[60px] xl:text-[40px] text-[26px]" />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitleOne')} className="4xl:text-[60px] xl:text-[40px] text-[26px]" />
             </div >
         </section>
     )

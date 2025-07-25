@@ -1201,6 +1201,119 @@
 "contactSubtitle":"Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation.",
 "contactSubtitleOne":"Contact us today for a free automation assessment!"
 
+    },
+    "tosca":{
+        "headerTitle":"Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
+        "headerSubTitle":"Tricentis TOSCA",
+        "empowerTitleOne":"Empowering Enterprises with",
+        "empowerTitleTwo":"End-to-End Automated Testing, QTest, LiveCompare & NeoLoad Solutions",
+        "empowerDescOne": "At Rialtes, we help organizations transform their testing lifecycle with Tricentis Tosca — the industry’s leading continuous testing platform. With deep expertise and a team of highly certified Tosca experts, Rialtes delivers scalable, intelligent, and resilient testing solutions that dramatically improve quality, speed, and efficiency.",
+        "empowerDescTwo": "From test automation to risk-based testing and performance testing, Rialtes ensures seamless Tosca implementation, integration, and optimization, tailored to the unique needs of enterprises across industries — including Manufacturing, Healthcare, Retail, Semiconductor, Automotive, and Financial Services.",
+        "whyTitle": " Why Choose Rialtes for Tosca Implementation?",
+        "whySubTitle": " Trusted Partner for End-to-End Testing Automation Success",
+        "whychooseData" : [
+         "Certified Tosca experts with real-world industry experience",
+         "End-to-end services: Advisory, Implementation, Design, QA, Integration, Post-go-live Support",
+         "Strong partnerships with Tricentis and deep expertise in Tosca, qTest, LiveCompare, NeoLoad",
+         "Accelerated implementation using pre-built accelerators and reusable testing frameworks",
+         "Seamless integration with ERP (SAP, Oracle), Salesforce, and modern cloud ecosystems"
+         ],
+        "whyDesc": "Rialtes ensures that automated testing becomes a strategic advantage, not just a process.",
+        "serviceTitle": "End-to-End Tosca Implementation & Advisory Services",
+        "serviceTitleOne": "Build a Resilient Automation Foundation",
+        "serviceTitleTwo": "Make Automated Testing a Seamless Part of Your Development Lifecycle",
+        "ServiceDescOne": "Rialtes helps enterprises fully adopt Tosca for modern, agile, and DevOps-driven organizations:",
+        "ServiceDescTwo": "With Rialtes, organizations achieve faster releases, improved quality, and reduced manual efforts through intelligent test automation.",
+        "endToEndData" : [
+          "End-to-end Tosca installation and configuration",
+          "Test case design, optimization, and risk-based test management",
+          "API, UI, Mobile, and Data integrity testing using Tosca",
+          "Integration with DevOps pipelines and CI/CD (Jenkins, Azure DevOps, GitLab)",
+          "Test maintenance automation using Tosca’s AI-powered self-healing capabilities"
+         ],
+        "testTitle": "qTest Implementation & Test Management",
+        "testSubTitle": "End-to-End Test Lifecycle Orchestration",
+        "testSubTitleOne": "Manage Testing with Confidence & Control",
+        "testDesc": "qTest offers centralized test management, and Rialtes ensures organizations leverage its full potential:",
+        "testDescTwo": "Rialtes makes qTest a central hub for testing, enabling transparency, collaboration, and control across all test activities.",
+        "qTestData" : [
+        "qTest installation, configuration, and integration with Tosca and Jira",
+        "End-to-end test case, defect, and requirement management",
+        "Real-time dashboards and advanced analytics for testing insights",
+        "Risk-based testing alignment and compliance-driven testing workflows",
+        "Seamless alignment with Agile, DevOps, and continuous testing models"
+         ],
+        "liveTitle": "LiveCompare Implementation",
+        "liveSubTitle": "AI-Powered Change Impact Analysis",
+        "liveSubTitleOne": "Accelerate Safe SAP Updates with AI-Driven Impact Analysis",
+        "liveCompareData" : [
+        "LiveCompare deployment and configuration",
+        "AI-based change impact analysis for SAP custom code, configurations, and transports",
+        "Automated identification of test cases affected by SAP updates and patches",
+        "Seamless integration with Tosca and qTest for risk-based test execution",
+        "Continuous impact analysis to align with agile and DevOps methodologies"
+         ],
+        "liveDesc": " Rialtes helps organizations use LiveCompare to cut testing time and focus only on what matters most when upgrading SAP systems:",
+        "livePara": "Rialtes makes SAP testing intelligent, targeted, and faster — reducing risk and effort while accelerating transformation.",
+        "neoTitle": " NeoLoad Performance Testing Implementation",
+        "neoSubTitle": " Ensure Resilience and Speed at Scale",
+        "neoSubTitleOne": "Make Every Release Fast, Scalable, and Resilient",
+        "neoDesc": "NeoLoad enables continuous performance testing, and Rialtes ensures enterprises stress test their applications effectively:",
+        "neoLoadData" : [
+        "NeoLoad setup and integration for SAP, Oracle, Salesforce, and custom apps",
+        "Performance, scalability, and endurance testing aligned with business-critical processes",
+        "Automated performance test scripts integrated into CI/CD pipelines",
+        "Real-time performance metrics and dashboards for actionable insights",
+        "Integration with Tosca for end-to-end functional and performance test synergy"
+        ],
+        "neoPara": "Rialtes helps ensure that your applications are built for performance from day one, delivering seamless user experiences at scale.",
+        "toscaTitle": "Rialtes’ Certified Tosca Experts",
+        "toscaSubTitle": "Unmatched Testing Excellence",
+        "toscaDesc": "Rialtes is proud to have a team of highly certified Tosca, qTest, LiveCompare, and NeoLoad experts, ensuring deep technical knowledge and proven industry practices:",
+        "toscaPara":" Rialtes combines technical expertise with strategic vision, helping organizations achieve automation excellence.",
+         "expertsList" : [
+    {
+      "lineWidth": "3px",
+      "text": "Tricentis-certified Tosca Automation Specialists"
+    },
+    {
+      "lineWidth": "4px",
+      "text": "Certified DevOps and CI/CD experts for seamless pipeline integration"
+    },
+    {
+      "lineWidth": "4px",
+      "text": "Domain specialists in SAP, Oracle, Salesforce, and custom enterprise applications"
+    },
+    {
+      "lineWidth": "5px",
+      "text": "Agile, SCRUM, and SAFe certified project managers for effective test lifecycle governance"
+    }
+  ],
+        "sapTitle": "Seamless Integration with SAP, Oracle, Salesforce, and More",
+        "sapSubTitle": " Unified Testing Across Complex Enterprise Landscapes",
+        "sapDesc": "Rialtes ensures Tosca and its suite of tools integrate flawlessly with your enterprise systems:",
+        "sapPara": " With Rialtes, testing becomes a connected, intelligent, and business-aligned process.",
+        "seamlessData" : [
+        "SAP S/4HANA, SAP SuccessFactors, SAP Ariba",
+        "Salesforce (CRM, Service Cloud, Marketing Cloud)",
+        "Oracle EBS, Fusion Cloud, and HCM",
+        "Custom-built and legacy applications",
+        "Seamless data flow across qTest, Tosca, and DevOps tools for end-to-end visibility"
+       ],
+        "factTitle": "Interesting Facts About Tosca & Automated Testing",
+        "enterprisesDesc": " of enterprises say automated testing is critical to",
+        "enterprisesPara": "accelerating digital transformation.",
+        "companiesDesc": " Companies using Tosca report up to",
+        "companiesPara": "reduction in",
+        "companiesParaOne": "manual testing efforts.",
+        "aiDesc": "AI-powered Tosca self-healing reduces test maintenance by",
+        "aiPara": " on average.",
+        "platformDesc": "Tricentis’ integrated platform (Tosca, qTest, NeoLoad) covers over",
+        "platformPara": " of enterprise testing needs in one suite.",
+        "contactTitle": "Ready to Transform Your Testing Journey?",
+        "contactSubTitle": "Let Rialtes help you embrace Tosca and modern test automation to ensure every release is high-quality, fast, and secure.",
+        "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form.",
+        "": ""
     }
 
 }

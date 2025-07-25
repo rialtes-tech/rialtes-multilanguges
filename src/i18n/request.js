@@ -35,7 +35,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
     const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
     const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
-
+    const salesforceAgent = (await import(`../../messages/${locale}/services.json`)).default;
     return {
         locale,
         messages: {
@@ -64,7 +64,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...riseWithSap,
             ...uiPath,
             ...tosca,
-            ...autoSense
+            ...autoSense,
+            ...salesforceAgent
 
         }
     };

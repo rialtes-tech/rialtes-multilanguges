@@ -889,7 +889,7 @@
         "contactTitle": "Partner with Rialtes to Transform Your SAP Landscape!"
     },
     "autoSense": {
-        "keyPillarsTitle":"Key Pillars of AutoSense",
+        "keyPillarsTitle": "Key Pillars of AutoSense",
         "keyPillarsSectionData": [
             {
                 "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
@@ -1030,5 +1030,215 @@
         "partnerTitle": " Partner with Rialtes to Drive Intelligent Automotive Transformation",
         "partnerDesc": "Whether you’re a global OEM, a growing EV brand, or a leading dealership network, Rialtes helps you connect technology with outcomes. From advisory and implementation to ongoing innovation, we are your partner in building the future of mobility.",
         "contactTitle": "Accelerate Your Automotive Transformation with Rialtes"
+    },
+    "salesforceAgent": {
+        "headerTitle": " SalesforceAgent+",
+        "headerSubTitleone": "Unleash the Power",
+        "headerSubTitletwo": "of Salesforce with",
+        "headerSubTitleThree": "SalesforceAgent+",
+        "headerOne": " AI-Ready, Always-On",
+        "headerTwo": "Managed Services",
+        "empowerTitle": "Reimagine Salesforce. Empower Your Agents. Deliver Customer Magic.",
+        "empowerSubtitle": "  At Rialtes, we go beyond traditional Salesforce support. SalesforceAgent+ is our next-gen Managed Services offering, designed to keep your Salesforce platform future-ready, AI-enabled, and continuously optimized — with 24x7 global support, AI-driven solutions like Agentforce, and seamless integration across your enterprise.",
+        "aiTitle": " Start Your AI Journey Now",
+        "aiSubTitle": " Agentforce Adoption Services with Rialtes",
+        "aiSubTitleOne": " Agentforce is revolutionizing customer and agent interactions — and Rialtes makes adoption easy and impactful:",
+        "startYourAIData": [
+            {
+                "title": "Rapid AI-readiness assessments",
+                "subtitle": "tailored to your industry."
+            },
+            {
+                "title": "Conversational AI deployment",
+                "subtitle": "for Sales, Service, and Field teams."
+            },
+            {
+                "title": "Einstein GPT and AI automation",
+                "subtitle": "for proactive customer care and smarter sales. "
+            },
+            {
+                "title": "Agentforce enablement workshops",
+                "subtitle": "to train and onboard teams."
+            },
+            {
+                "title": "Pre-built AI bots",
+                "subtitle": "for case management, lead nurturing, and knowledge sharing."
+            }
+        ],
+        "aiPara": "Accelerate your AI strategy with Rialtes — seamlessly, securely, and fast.",
+        "manageTitle": " SalesforceAgent+ Managed Services",
+        "titleOne": " Powering Continuous Salesforce Innovation. ",
+        "titleTwo": "Always-On Support. AI-Driven Innovation.",
+        "titleThree": "Industry-Specific Solutions.",
+        "salesforceagentData": [
+            {
+                "title": "Transform Sales & Service Cloud Operations",
+                "list": [
+                    "Optimize end-to-end Sales and Service processes.",
+                    "Intelligent case management, AI-powered lead conversion, omnichannel service.",
+                    "Proactive enhancements and business process realignment."
+                ]
+            },
+            {
+                "title": "Lightning Component Development & UX Modernization",
+                "list": [
+                    "Custom Lightning Web Components (LWC) and dynamic user experiences.",
+                    "Responsive, mobile-friendly, and tailored UI solutions.",
+                    "Performance and accessibility optimization."
+                ]
+            },
+            {
+                "title": "Seamless Mulesoft Integrations",
+                "list": [
+                    "API-led, scalable integrations with SAP, Oracle, NetSuite, Workday, and others.",
+                    "Secure, real-time data exchange via MuleSoft.",
+                    "Event-driven, future-proof architecture."
+                ]
+            },
+            {
+                "title": "Hassle-Free Salesforce Data Migrations",
+                "list": [
+                    "Smooth transition from legacy CRMs and spreadsheets.",
+                    "Full data mapping, transformation, and cleansing.",
+                    "Industry-compliant, secure, and staged data migrations."
+                ]
+            },
+            {
+                "title": "Industry Cloud Expertise",
+                "list": [
+                    "Healthcare, Manufacturing, Education, Automotive, Real Estate, Transportation, and Life Sciences.",
+                    "Tailored workflows and compliance (HIPAA, ISO, etc.).",
+                    "Pre-built accelerators for rapid deployment."
+                ]
+            },
+            {
+                "title": "Tableau CRM & Salesforce Data Cloud Support",
+                "list": [
+                    "Advanced analytics and AI insights with Tableau CRM.",
+                    "Unified customer profiles with Salesforce Data Cloud (CDP).",
+                    "Zero Copy architecture leveraging SAP Data Cloud — no data duplication."
+                ]
+            },
+            {
+                "title": "Marketing Cloud & Personalization Services",
+                "list": [
+                    "Intelligent customer journeys and personalized campaigns.",
+                    "Cross-cloud marketing with Journey Builder, Email Studio, Interaction Studio.",
+                    "Deep engagement analytics and conversion tracking."
+                ]
+            }
+        ],
+        "dataTitle": "Unlock AI and Data Synergy",
+        "dataSubtitle": "Salesforce Data Cloud + SAP Data Cloud Zero Copy",
+        "dataDesc": "Drive real-time decisions without slowing down operations.",
+        "unlockData": [
+            "Real-time, AI-ready unified profiles with Zero Copy.",
+            "Connect Salesforce and SAP data without duplication.",
+            "End-to-end visibility for Sales, Service, and Marketing teams."
+        ],
+        "freeTitle": " AgentChat – FREE WhatsApp Service Included with SalesforceAgent+!",
+        "freeSubTitle": " Turn Every Chat into a Customer Moment.",
+        "freeDesc": "  With every SalesforceAgent+ subscription, you get AgentChat — our enterprise-grade WhatsApp integration for Salesforce — FREE.",
+        "freeDescOne": " Engage customers where they are — at no extra cost!",
+        "rialChatData": [
+            "Instant WhatsApp messaging embedded inside Salesforce.",
+            "Auto-responses, case creation, and agent collaboration.",
+            "Pre-built AI chatbots for Agentforce and Service Cloud.",
+            "Personalized notifications and marketing campaigns."
+        ],
+        "globalTitle": "  Our Global, Scalable, 24x7 Salesforce Support Delivery Model",
+        "globalSubTitle": "  Flexible, High-Touch, and Cost-Effective",
+        "salesforceTitle": " Rialtes Salesforce Expertise",
+        "salesforceSubTitle": "  The Force Behind Your Success",
+        "salesforceDesc": "Your success is powered by expertise that’s always a step ahead.",
+        "ourGlobalData": [
+            "24x7 Global Support Teams in the USA, Canada, India, and Singapore.",
+            "Onsite Consulting & Hybrid Models for high-impact collaboration.",
+            "Fully Offshore Delivery for cost-effective scalability.",
+            "Led by PMP & Scrum-certified Project Managers ensuring agility and governance."
+        ],
+        "rialtesSalesforceData": [
+            "300+ Salesforce Certifications across key modules: Agentforce, Sales, Service, Data Cloud, Marketing, MuleSoft, Tableau.",
+            "Certified Salesforce Architects, Consultants, and AI Experts.",
+            "Industry-specific expertise to tailor Salesforce to your business needs.",
+            "Cross-cloud specialists for Sales, Service, AI, and Industry Clouds."
+        ],
+        "ourTitle": "Our Salesforce Industry Cloud Specializations",
+        "ourSubTitle": " Built for Your Business",
+        "ourSalesforceData": [
+            {
+                "title": "Healthcare Cloud",
+                "desc": "Patient journeys, HIPAA compliance, care collaboration."
+            },
+            {
+                "title": "Manufacturing Cloud",
+                "desc": "Partner, dealer, and distributor portals; service ops."
+            },
+            {
+                "title": "Education Cloud",
+                "desc": "Student lifecycle, alumni, and donor management."
+            },
+            {
+                "title": "Automotive Cloud",
+                "desc": "Connected vehicle, dealer management, service scheduling."
+            },
+            {
+                "title": "Real Estate Cloud",
+                "desc": "Customer engagement, property management, lead nurturing."
+            },
+            {
+                "title": "Transportation Cloud",
+                "desc": "Loyalty, booking, service optimization."
+            },
+            {
+                "title": "Life Sciences Cloud",
+                "desc": "Clinical trial management, patient engagement, compliance."
+            }
+        ],
+        "ourPara": "Whatever your industry, Rialtes helps Salesforce work smarter for you.",
+        "migrateTitle": "  Migrate to Salesforce",
+        "migrateSubTitle": "  Seamlessly and Strategically",
+        "migrateDesc": " Whether migrating from legacy CRMs, Zoho, HubSpot, Dynamics, or custom systems, Rialtes ensures:",
+        "migrateDescOne": "  Migrate confidently. Operate smarter. Grow faster.",
+        "migrateData": [
+            "Low-risk, rapid migrations with minimal disruption.",
+            "Data security and compliance at every step.",
+            " AI and future-ready Salesforce architecture post-migration."
+        ],
+        "certifiedTitle": "   Certified Salesforce Architects & AI Strategists for Every Project",
+        "certifiedData": [
+            "Salesforce Architect-led design and roadmaps.",
+            "PMP/Scrum-certified leadership for agile, transparent delivery.",
+            "AI, Data Cloud, and Agentforce consultants for next-gen Salesforce.",
+            "Ongoing enhancements and business alignment through SalesforceAgent+."
+        ],
+        "whyTitle": "Why Choose Rialtes?",
+        "whySubTitle": "Your Trusted Salesforce AI & Managed Services Partner",
+        "whyChooseData": [
+            {
+                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (1).svg",
+                "data": "Salesforce Managed Services, AI enablement, and Data Cloud experts."
+            },
+            {
+                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (2).svg",
+                "data": "Global delivery with a local touch."
+            },
+            {
+                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (3).svg",
+                "data": "24x7 support to keep you running — and growing."
+            },
+            {
+                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (4).svg",
+                "data": "RialChat (WhatsApp Integration) included — Free."
+            },
+            {
+                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (5).svg",
+                "data": "Deep focus on Agentforce and AI transformation journeys."
+            }
+        ],
+        "knowMore": "Know More",
+        "contactTitle": "Let’s Elevate Your Salesforce Together!",
+        "contactSubTitle": "Ready to unlock AI, boost productivity, and optimize Salesforce?",
+        "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
     }
 }
