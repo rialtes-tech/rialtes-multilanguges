@@ -4,8 +4,8 @@ import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import Link from "next/link";
+import FAQAccordion from "@/app/components/faqAccordion";
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
@@ -13,7 +13,7 @@ const schemaData = {
     "@id": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
   },
   "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-  "description": " Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
+  "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
   "image": "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
   "author": {
     "@type": "Organization",
@@ -31,8 +31,66 @@ const schemaData = {
   "datePublished": "2024-10-28",
   "dateModified": "2025-07-25",
   "articleSection": "AI Automation",
-  "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
- };
+  "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What’s the difference between bots, copilots, and agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an example of a bot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does an AI agent do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Copilot better than chatbot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI tool is more powerful: agent or copilot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI should I use for customer support in manufacturing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI agents fully replace humans in operations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
+      }
+    }
+  ]
+}
 const blogs = [
   {
     id: 1,
@@ -100,6 +158,44 @@ const blogs = [
       "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
   },
 ];
+ export const faqData = [
+  {
+    question: "1. What’s the difference between bots, copilots, and agents?",
+    answer: [
+      "Bots follow predefined scripts and handle simple tasks. Copilots assist users with suggestions, often in real time, but still require human input. AI agents, on the other hand, can make autonomous decisions, learn from context, and act across multiple systems.",
+      "Think of it this way:",
+      "Bot = follows commands",
+      "Copilot = assists with smart suggestions",
+      "Agent = takes intelligent actions on your behalf"
+    ]
+  },
+  {
+    question: "2. What is an example of a bot?",
+    answer: "A chatbot on a retail website that answers basic questions like “What’s your return policy?” is a common example of a bot. It follows pre-written responses and can’t adapt much beyond its script."
+  },
+  {
+    question: "3. What does an AI agent do?",
+    answer: "An AI agent understands goals, makes decisions, and takes action across systems. For example, in manufacturing, it can monitor supply chain data, predict delays, and autonomously reassign tasks to prevent downtime."
+  },
+  {
+    question: "4. Is Copilot better than chatbot?",
+    answer: "Yes, in most cases. A copilot understands context and provides smarter suggestions, while a chatbot usually sticks to basic scripted answers. If you need dynamic support, copilots offer more value."
+  },
+  {
+    question: "5. Which AI tool is more powerful: agent or copilot?",
+    answer: "Agents are generally more powerful than copilots. While copilots support users, AI agents go a step further—they act independently, learn continuously, and adapt to changing business needs."
+  },
+  {
+    question: "6. Which AI should I use for customer support in manufacturing?",
+    answer: "For manufacturing customer service, AI agents are ideal. They handle complex queries, route cases smartly, integrate with ERP or MES systems, and provide real-time updates. This reduces human workload and speeds up resolution."
+  },
+  {
+    question: "7. Can AI agents fully replace humans in operations?",
+    answer: "Not entirely. AI agents are powerful at handling repetitive or data-heavy tasks, but human-AI collaboration is still key for strategic decisions, emotional intelligence, and ethical oversight. Agents amplify operations—they don’t replace people."
+  }
+];
+
+
 export default function Page() {
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
@@ -107,7 +203,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="What’s the Difference Between Bots, Copilots, and AI Agents?"
+        title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
         description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
         keywords="Partners, website, welcome"
         canonical={
@@ -327,10 +423,15 @@ export default function Page() {
             <p className="4xl:pr-32 pr-10 xl:pr-0">AI’s future will likely see greater integration of these tools. What used to be separate tools- chatbots answering basic queries, copilots assisting users in CRMs, and agents running autonomous operations are increasingly working together in unified, AI-powered workflows.</p>
             <p className="mt-5 4xl:pr-32 pr-6 xl:pr-0">AI convergence is transforming the factory floor, where a workflow may include a bot capturing data, a copilot validating it in ERP, and an agent determining the next steps. Agentforce agents are highly autonomous, capable of making data-driven decisions and learning from experiences without human oversight. They use sensors and actuators to sense their environment and pursue goals independently, such as automated production rescheduling during supply delays or resolving quality issues in manufacturing. These agents access data from ERP, MES, CRM, and IoT systems to make contextual decisions and initiate appropriate workflows.</p>
             <p className="mt-5 4xl:pr-32 pr-10  xl:pr-0">Interested in learning more about Agentforce agents or need help getting started? We’re here to assist. At Rialtes, we specialize in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/" target="_blank">Agentforce consulting</Link> and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously. Talk to us about aligning the right AI with your business process.</p>
+          <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16">
+                                FAQs: Bots vs Copilots vs Agents — Top Questions Answered
+                            </h2>
           </div>
         </div>
       </section>
-
+ <section className="custom-container max-md:px-0">
+                <FAQAccordion faqData={faqData} />
+            </section>
 
       {/* Latest Blogs */}
       <div
