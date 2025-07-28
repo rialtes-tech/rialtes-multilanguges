@@ -16,6 +16,13 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const learnMorePage = (await import(`../../messages/${locale}/homepage.json`)).default;
     const useCarouselComponent = (await import(`../../messages/${locale}/homepage.json`)).default;
     const featuredCarousel = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
+
+    const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
+
+    const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
+    const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
     const aboutUs = (await import(`../../messages/${locale}/aboutus.json`)).default;
     const sapBdc = (await import(`../../messages/${locale}/solutions.json`)).default;
     const salesforceDataCloud = (await import(`../../messages/${locale}/solutions.json`)).default;
@@ -24,18 +31,19 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const sapConsulting = (await import(`../../messages/${locale}/solutions.json`)).default;
     const oracle = (await import(`../../messages/${locale}/solutions.json`)).default;
     const sapCpi = (await import(`../../messages/${locale}/solutions.json`)).default;
+
     const successPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const kinaxis = (await import(`../../messages/${locale}/services.json`)).default;
     const growWithSap = (await import(`../../messages/${locale}/services.json`)).default;
     const riseWithSap = (await import(`../../messages/${locale}/services.json`)).default;
     const autoSense = (await import(`../../messages/${locale}/services.json`)).default;
-    const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
-    const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
     const salesforceAgent = (await import(`../../messages/${locale}/services.json`)).default;
+    const sapDigitalDesk = (await import(`../../messages/${locale}/services.json`)).default;
+    const retailPlus = (await import(`../../messages/${locale}/services.json`)).default;
+    const lifeAiPlus = (await import(`../../messages/${locale}/services.json`)).default;
+    const advantagePlus = (await import(`../../messages/${locale}/services.json`)).default;
+
     return {
         locale,
         messages: {
@@ -65,8 +73,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...uiPath,
             ...tosca,
             ...autoSense,
-            ...salesforceAgent
-
+            ...salesforceAgent,
+            ...sapDigitalDesk,
+            ...retailPlus,
+            ...lifeAiPlus,
+            ...advantagePlus
         }
     };
 });

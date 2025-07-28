@@ -1240,5 +1240,646 @@
         "contactTitle": "Let’s Elevate Your Salesforce Together!",
         "contactSubTitle": "Ready to unlock AI, boost productivity, and optimize Salesforce?",
         "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
+    },
+    "sapDigitalDesk": {
+        "sapCertificationData": [
+            "SAP S/4HANA (Finance, Logistics, Manufacturing, Sales & Distribution, Procurement)",
+            "SAP SuccessFactors (EC, LMS, Talent, Onboarding, Compensation, Workforce Analytics)",
+            "SAP Ariba (Strategic Sourcing, Contracts, Buying & Invoicing)",
+            "SAP Business Technology Platform (BTP) — Integration, Extensions, AI/ML, Analytics, App Development"
+        ],
+        "sapCertificationData2": [
+            "SAP CPI & SAP Integration Suite",
+            "SAP Fiori and UI5 Development",
+            "SAP Signavio for Business Process Intelligence",
+            "SAP Datasphere and SAP Analytics Cloud",
+            "SAP ABAP and ABAP on Cloud",
+            "SAP Joule (AI Assistant) enablement",
+            "SAP Basis & Security"
+        ],
+        "sapFeatureGrid": [
+            {
+                "title": "Certified Expertise On-Demand",
+                "description": "Rapid access to specialized skills without hiring overheads."
+            },
+            {
+                "title": "Assurance of Quality and Best Practices",
+                "description": "Every solution is aligned to SAP’s latest standards and innovations."
+            },
+            {
+                "title": "Future-Proof Solutions",
+                "description": "Deep understanding of the SAP roadmap ensures your investments are protected and scalable."
+            },
+            {
+                "title": "Compliance, Governance, and Risk Mitigation",
+                "description": "Solutions built right the first time, adhering to global compliance and SAP guidelines."
+            }
+        ],
+        "futureData": [
+            "Business process optimization and issue resolution.",
+            "System performance monitoring and enhancements.",
+            "Security, compliance, and risk management.",
+            "Continuous improvement of system configurations and workflows."
+        ],
+        "revolutionizeData": [
+            "Role-based custom app development and enhancement.",
+            "Mobile-responsive designs for field and remote teams.",
+            "Fiori launchpad personalization and optimization.",
+            "End-user adoption and training to maximize ROI."
+        ],
+        "unleashData": [
+            "Low-code/no-code application development with SAP Build.",
+            "AI/ML integrations using SAP AI Core.",
+            "Event-driven and API-based workflows.",
+            "Cloud-native extensions that are upgrade-safe and scalable."
+        ],
+        "seamlessData": [
+            "Integrate SAP S/4HANA with SAP and non-SAP systems — Salesforce, Oracle, Workday, ZOHO.",
+            "API and event-driven integrations for real-time data flow.",
+            "Secure and scalable architecture for high-volume transactions.",
+            "Post-integration monitoring, maintenance, and support."
+        ],
+        "codeData": [
+            "Develop and deploy upgrade-safe ABAP extensions.",
+            "RAP-based RESTful services.",
+            "Cloud and hybrid environment readiness.",
+            "End-to-end ABAP development lifecycle management."
+        ],
+        "intelligentData": [
+            "Real-time dashboards, KPIs, and executive reporting.",
+            "Planning and predictive analytics.",
+            "Datasphere for unified, governed data landscapes.",
+            "AI-powered insights and what-if scenarios for better forecasting."
+        ],
+        "winningSectionData": [
+            "Global HR process optimization.",
+            "Ongoing configuration, compliance updates.",
+            "Talent management, recruitment, and performance solutions.",
+            "Seamless integration with SAP S/4HANA and third-party systems."
+        ],
+        "sapAribaData": [
+            "Ariba Network onboarding and integration.",
+            "Catalog, sourcing, and contract management.",
+            "Guided buying and invoice automation.",
+            "Risk management and compliance assurance."
+        ],
+        "sapDatasphereData": [
+            "Data federation and virtualization.",
+            "Secure data sharing and collaboration.",
+            "Unified business data modeling.",
+            "AI/ML-enabled insights at scale."
+        ],
+        "sapTransformationSteps": [
+            {
+                "step": 1,
+                "title": "Discover",
+                "description": "Process mining and value assessments."
+            },
+            {
+                "step": 2,
+                "title": "Prepare",
+                "description": "Strategy, governance, and scope definition."
+            },
+            {
+                "step": 3,
+                "title": "Explore",
+                "description": "Fit-to-standard analysis and future-state design."
+            },
+            {
+                "step": 4,
+                "title": "Realize",
+                "description": "Rapid configuration and development aligned to KPIs."
+            },
+            {
+                "step": 5,
+                "title": "Deploy",
+                "description": "Smooth cutover, training, and enablement."
+            },
+            {
+                "step": 6,
+                "title": "Run",
+                "description": "Post-go-live hypercare and continuous improvement.",
+                "plOverride": "xl:pl-24"
+            }
+        ],
+        "superchargeData": [
+            "AI-driven employee experience and HR recommendations.",
+            "Automated document handling and case resolution.",
+            "Conversational AI for managers and employees.",
+            "Seamless integration with SAP S/4HANA and SuccessFactors."
+        ],
+        "btpData": [
+            "Fast-track application development using SAP Build.",
+            "AI/ML-powered extensions using SAP AI Core.",
+            "Seamless APIs and integrations through API Hub.",
+            "Event Mesh and Graph for real-time connectivity. ",
+            "Full governance, security, and compliance in the cloud."
+        ],
+        "migrateData1": [
+            "End-to-end secure migration strategy.",
+            "Data cleansing, transformation, and migration.",
+            "Business process mapping and optimization.",
+            "SAP CPI-based integrations for seamless workflows."
+        ],
+        "migrateData2": [
+            "Standardized HR process setup in SuccessFactors.",
+            "Accurate, compliant data migration.",
+            "Real-time integration and ongoing support.",
+            "Localization and global compliance readiness."
+        ],
+        "whyPartnerData": [
+            "Global SAP Certified Partner with a proven delivery record.",
+            "24/7 SAP managed services for uninterrupted operations.",
+            "SAP BTP, Integration, and AI Center of Excellence.",
+            "Dedicated customer success managers. ",
+            "Flexible, outcome-based engagement models."
+        ],
+        "headerTitle": "SAP Digital Desk",
+        "headerSubTitle": "Maximize Your SAP Investment with Always-On Expertise",
+        "pageDescTitle": "Reimagine SAP Support with Rialtes Managed Services",
+        "pageDesc1": "At Rialtes, we empower organizations to run their SAP landscapes more efficiently, securely, and effectively. SAP Digital Desk, our next-gen managed services platform, brings together end-to-end SAP expertise, from stabilization and innovation to continuous optimization, ensuring your SAP systems become a strategic driver for business growth, not just an operational tool.",
+        "pageDesc2": "As a global SAP-certified partner with a presence in India, the USA, Canada, and Singapore, and a team of top-tier, SAP-certified experts, Rialtes is committed to delivering unparalleled value, agility, and innovation for every client.",
+        "rilatesTitle": "Rialtes’ 24/7 SAP Support That Works Around You",
+        "rialtesData": "At Rialtes, we know that SAP systems are mission-critical — downtime is not an option. That’s why our SAP Digital Desk is built on a global support model that delivers uninterrupted 24x7 coverage through a flexible combination of Onsite, Hybrid, and Fully Offshore delivery options to meet your unique operational needs and cost expectations.",
+        "rialtesTitle2": "Our Support Delivery Models",
+        "followTheSunTitle": "24x7 “Follow-the-Sun” Global Support",
+        "rialtesTwentyData1": [
+            "Always-On SAP system monitoring, incident management, and functional/technical support.",
+            "Proactive alerts, real-time resolution, and service continuity — anywhere, anytime."
+        ],
+        "hybridTitle": "Hybrid Delivery Model (Onsite + Offshore)",
+        "rialtesTwentyData2": [
+            "Always-On SAP system monitoring, incident management, and functional/technical support.",
+            "Proactive alerts, real-time resolution, and service continuity — anywhere, anytime."
+        ],
+        "onsiteDeliveryTitle": "Onsite Delivery Model",
+        "onsiteDeliveryTitle2": "Fully Offshore Model",
+        "onsiteDeliveryData": [
+            "SAP experts embedded within your business to provide hands-on, real-time collaboration.",
+            "Ideal for high-touch implementations, critical go-lives, and executive stakeholder alignment."
+        ],
+        "onsiteDeliveryData2": [
+            "100% remote delivery from our global SAP Centers of Excellence in India and Singapore for optimized costs and continuous delivery.",
+            "Best suited for steady-state AMS (Application Management Services), developments, and enhancements."
+        ],
+        "projectPartnershipTitle": "Project Leadership",
+        "projectPartnershipDesc1": "All our engagements are driven by PMP® and Scrum®-certified Project Managers, ensuring that every project is delivered on time, within budget, and aligned to business goals.",
+        "projectPartnershipDesc2": "Our SAP-certified consultants are strategically located across the USA, Canada, and India, giving you the right mix of proximity, cost-efficiency, and expertise.",
+        "projectPartnershipData": [
+            "Agile and Waterfall methodologies are based on business needs.",
+            "Strong governance, communication, and risk management frameworks.",
+            "Transparent, KPI-driven service reporting and business outcome focus."
+        ],
+        "SapTitle": "Over 150 SAP Certifications Across Every Major Module",
+        "SapTitle2": "Our Certified SAP Competency Covers:",
+        "SapTitle3": "What This Means for You:",
+        "sapBlueBox": "With Rialtes, you’re gaining a long-term partner to drive continuous SAP innovation and value realization.",
+        "futureProofTitle": "Future-Proof Your Core",
+        "futureProofTitle2": "Complete SAP S/4HANA Post-Go-Live Support",
+        "futureProofDesc": "Keep your SAP S/4HANA running at peak performance with our functional, technical, and Basis expertise:",
+        "sapFioriTitle": "Revolutionize User Experience",
+        "sapFioriTitle2": "SAP Fiori/UI5 — Built for Your Business",
+        "sapFioriDesc": "Modernize and streamline user interactions with intuitive SAP Fiori/UI5 apps",
+        "unleashTitle": "Unleash Innovation",
+        "unleashSubTitle": "Maximize SAP BTP to Extend and Personalize SAP",
+        "unleashTitleDesc": "Take advantage of SAP Business Technology Platform (BTP) to build innovations that drive competitive advantage:",
+        "seamlessTitle": "Seamless Connectivity",
+        "seamlessSubTitle": "End-to-End SAP CPI & Integration Expertise",
+        "seamlessDesc": "Make your SAP landscape truly connected:",
+        "codeFutureTitle": "Code the Future",
+        "codeFutureSubTitle": "SAP ABAP on Cloud — Smarter, Leaner, Faster",
+        "codeFutureDesc": "Unlock the next-gen power of ABAP in the cloud:",
+        "intelligentTitle": "Intelligent Insights",
+        "intelligentSubTitle": "Advanced SAP Analytics Cloud & Datasphere Services",
+        "intelligentDesc": "Empower data-driven decisions with enterprise-grade analytics:",
+        "winningTitle": "Winning the Talent War",
+        "winningTitle2": "End-to-End SAP SuccessFactors Support",
+        "winningDesc": "Put employees at the heart of your digital transformation:",
+        "smartTitle": "Smart Procurement",
+        "modernTitle": "Modern Data Fabric",
+        "modernSubTitle": "SAP Datasphere Management for Unified Data Access",
+        "sapSignavioTitle": "SAP Signavio and SAP Activate",
+        "sapSignavioDesc": "Rialtes’ Proven SAP Activate Approach Combined with Process Intelligence",
+        "sapSignavioBlueBox": "With Signavio’s real-time process intelligence, we ensure you run SAP based on best-in-class benchmarks.",
+        "smartSubTitle": "SAP Ariba Managed Services",
+        "superChargeTitle": "Supercharge HR with SAP Joule",
+        "superChargeDesc": "Meet SAP Joule, your AI-powered business assistant for HR and enterprise processes in SuccessFactors. Rialtes helps you leverage Joule for impactful automation and insights:",
+        "btpTitle": "Rialtes’ BTP Center of Excellence",
+        "btpSubTitle": "Innovate, Integrate, and Extend SAP Faster",
+        "btpDesc": "From AI-driven workflows to mobile apps and event-driven architectures, our Certified SAP BTP experts ensure:",
+        "migrateTitle": "Migrate to SAP SuccessFactors with Confidence",
+        "migrateSubTitle": "Success+ by Rialtes",
+        "migrateSubTitle2": "Workday to SAP SuccessFactors Migration Services",
+        "migrateSubTitle3": "ZOHO HR to SAP SuccessFactors Migration",
+        "whyPartenerTitle": "Why Partner with Rialtes?",
+        "whyPartenerSubTitle": "Your Success Is Our Mission",
+        "contactTitle": "Ready to Unlock Maximum Value from SAP? Let’s Talk!",
+        "contactSubTitle": "Contact us today to explore how SAP Digital Desk can transform your SAP operations."
+    },
+    "retailPlus": {
+        "retailServices": [
+            {
+                "title": "Advisory & Strategy Consulting:",
+                "description": "Crafting scalable digital transformation roadmaps aligned with global retail trends and enterprise goals."
+            },
+            {
+                "title": "Solution Design & Architecture:",
+                "description": "End-to-end design covering commerce, supply chain, marketing, and customer service — fully integrated with Salesforce and SAP ecosystems."
+            },
+            {
+                "title": "Implementation & Rollout:",
+                "description": "Full lifecycle Salesforce Commerce Cloud, Service Cloud, SAP S/4HANA, and AI-driven data integrations, tailored for B2B and B2C models."
+            },
+            {
+                "title": "Quality Assurance & Testing:",
+                "description": "Robust functional, performance, and security testing to ensure seamless operations."
+            },
+            {
+                "title": "Systems Integration & Automation:",
+                "description": "Real-time integrations with ERP, CRM, OMS, Payment, and Inventory platforms, enhancing operational agility."
+            },
+            {
+                "title": "Post Go-Live Optimization & Support:",
+                "description": "Continuous enhancement, AI adoption, and managed services for long-term value realization."
+            }
+        ],
+        "retailVerticals": [
+            {
+                "title": "Fashion & Apparel",
+                "icon": "/images/industry/retail/fashan.svg",
+                "paddingClass": "xl:pr-20"
+            },
+            {
+                "title": "Consumer Electronics",
+                "icon": "/images/industry/retail/consumer.svg",
+                "paddingClass": "xl:pr-20"
+            },
+            {
+                "title": "Home & Furniture",
+                "icon": "/images/industry/retail/ferniture.svg",
+                "paddingClass": "xl:pr-20"
+            },
+            {
+                "title": "Luxury Goods & Lifestyle",
+                "icon": "/images/industry/retail/lux.svg",
+                "paddingClass": "xl:pr-40"
+            },
+            {
+                "title": "Food & Beverage",
+                "icon": "/images/industry/retail/foods.svg",
+                "paddingClass": "xl:pr-24"
+            },
+            {
+                "title": "Health & Wellness",
+                "icon": "/images/industry/retail/health.svg",
+                "paddingClass": "xl:pr-20"
+            },
+            {
+                "title": "Travel Retail and Duty-Free",
+                "icon": "/images/industry/retail/travel.svg",
+                "paddingClass": "xl:pr-12"
+            }
+        ],
+        "salesforceSolutions": [
+            {
+                "title": "Salesforce Service Cloud",
+                "description": "Empower customer service teams with omnichannel case management."
+            },
+            {
+                "title": "Salesforce Experience (Community) Cloud",
+                "description": "Build branded customer, partner, and employee portals for seamless communication."
+            },
+            {
+                "title": "Salesforce Agentforce & Data Cloud",
+                "description": "AI-based automation, customer insights, and intelligent engagement."
+            }
+        ],
+        "whyChooseData": [
+            "Proven Salesforce & SAP Expertise",
+            "Decade-long experience serving global retailers",
+            "AI, Data, and Omnichannel experts",
+            "Tailored solutions for both B2B and B2C retail",
+            "End-to-end partnership — strategy to post - go - live success"
+        ],
+        "rialChat": [
+            "Ready-to-deploy within minutes, compatible with any Salesforce Cloud (Sales, Service, Marketing, Commerce, etc.).",
+            "Advanced security and role-based access to ensure compliant communications.",
+            "Supports delegation of cases, leads, work orders, service requests, and more by record type and business units.",
+            "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
+        ],
+        "headerTitle": "Retail+",
+        "headerSubTitle": "Intelligent, Connected, and Scalable Retail Transformation",
+        "empoweringTitle": " Empowering Global Retailers with AI-Driven, Omnichannel Solutions",
+        "empoweringDesc1": "In today’s dynamic and highly competitive retail landscape, customer expectations are evolving rapidly, driven by hyper-personalization, seamless omnichannel engagement, and intelligent operations. At Rialtes, we bring over a decade of global consulting experience to help B2B and B2C retailers successfully navigate these challenges and drive sustainable growth.",
+        "empoweringDesc2": "Through Retail+, Rialtes delivers an end-to-end suite of services, combining strategic advisory, solution design, implementation, quality assurance, integration, and post-go-live support — designed to accelerate enterprise-wide retail transformation.",
+        "comprehensiveTitle": "Comprehensive Services for Modern Retail Enterprises",
+        "comprehensiveSubTitle": "Retail+ by Rialtes",
+        "keyTitle": "Key Offerings",
+        "deepIndustryTitle": "Deep Industry Expertise Across Retail Verticals",
+        "deepIndustrySubTitle": "Our deep understanding of B2B and B2C retail enables us to address the unique needs of:",
+        "deepIndustryBlueBox": "We help brands unlock new revenue streams, enhance customer loyalty, and streamline operations, powered by Salesforce, SAP, and AI-driven intelligence.",
+        "saleforceTitle": "Salesforce & SAP",
+        "saleforceSubTitle1": "Enterprise-Grade Solutions for Retail Success",
+        "saleforceSubTitle2": "Salesforce Retail & Consumer Goods Cloud",
+        "saleforceDesc": "Leverage Salesforce’s Retail Cloud capabilities — including unified customer profiles, AI-based personalization, loyalty management, omnichannel service, and marketing automation — to deliver consistent and personalized experiences across all customer touchpoints.",
+        "sapHanaTitle": "SAP S/4HANA for Retail",
+        "sapHanaDesc": "Transform back-end operations with SAP S/4HANA Retail, enabling intelligent inventory management, demand forecasting, supply chain optimization, and real-time analytics to drive profitability and responsiveness.",
+        "specializedTitle": "Specialized Solutions for Real Estate & Hospitality Retail",
+        "specializedSubTitle": "Exelona",
+        "specializedDesc": "For retailers operating in real estate and hospitality sectors, Exelona — Rialtes’ proprietary solution built natively on Salesforce — enables end-to-end asset management, marketing,finance, and operations on a single unified platform. With Exelona, real estate retail businesses can manage property sales, leasing, tenant engagement, and operations seamlessly and securely.",
+        "advanceAiTitle": "Advanced AI & Data",
+        "advanceAiSubTitle": "Salesforce Data Cloud & Agentforce for Retail",
+        "advanceAiDesc": "Harness Salesforce Data Cloud to unify customer, sales, and supply chain data — driving real-time insights, segmentation, and personalized offers. Agentforce, Salesforce’s AI-powered service automation solution, enables proactive customer service, intelligent case routing, and personalized recommendations across channels.",
+        "aiDrivenTitle": "AI-Driven Consumer Case Management",
+        "aiDrivenDesc": "By integrating Salesforce Agentforce and Data Cloud, Rialtes helps retail enterprises transform case management and customer support,leveraging AI-driven chatbots, predictive analytics, and automated workflows to elevate customer service efficiency and satisfaction.",
+        "relatedTitle": "Related Salesforce Cloud Capabilities",
+        "realChatTitle": "Introducing RialChat",
+        "realChatSubTitle": "Enterprise-Ready WhatsApp Engagement",
+        "rialChatDesc": "RialChat, Rialtes’ bi-directional WhatsApp conversational platform, is built natively on Salesforce and designed for enterprise-grade communications across sales, service, and operations.",
+        "rialChatBlueBox": "With RialChat, enterprises can deliver personalized, secure, and scalable customer interactions — directly on WhatsApp, embedded within Salesforce.",
+        "whyChooseTitle": "Why Choose Rialtes for Retail+?",
+        "whyChooseSubTitle": "Extending S/4 HANA Value",
+        "contactTitle": "Contact Rialtes today to explore how Retail+ can future-proof your retail enterprise."
+    },
+    "lifeAiPlus": {
+        "headerTitle": "LifeAI+",
+        "headerSubTitle": "Transforming Life Sciences with Rialtes LifeAI+ Services",
+        "pageDescTitle": "Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI",
+        "pageDesc1": "At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.",
+        "pageDesc2": "Introducing Rialtes LifeAI+, our comprehensive consulting service tailored for life sciences enterprises, combining deep industry expertise with Salesforce Life Sciences Cloud, Health Cloud, and AI-powered solutions to help you drive innovation, ensure compliance, and enhance operational efficiency.",
+        "featureBoxes": [
+            {
+                "title": "Regulatory Compliance & Audit Readiness",
+                "description": "Ensure full adherence to FDA, EMA, HIPAA, and GDPR standards with automated compliance workflows, complete audit trails, and intelligent monitoring."
+            },
+            {
+                "title": "Remote Patient Monitoring & Home Health",
+                "description": "Deliver next-gen Remote Monitoring solutions and Home Health programs integrated into Salesforce for proactive care management and better outcomes."
+            },
+            {
+                "title": "Benefit Verification & Eligibility Checks",
+                "description": "Automate eligibility verification and benefit checks in real-time — improving speed and reducing manual interventions for patient services teams."
+            },
+            {
+                "title": "Prior Authorization Management",
+                "description": "AI-powered Prior Authorization solution, built on Salesforce Life Sciences Cloud, streamlines and automates the entire PA process for patients, providers, and payers."
+            },
+            {
+                "title": "Telehealth & Virtual Care Solutions",
+                "description": "Offer secure Telehealth integrations to facilitate remote consultations, patient follow-ups, and digital care pathways."
+            },
+            {
+                "title": "Digital Signature & Document Extraction Automation",
+                "description": "Accelerate document-heavy workflows like consent forms, onboarding, and compliance documentation using secure digital signatures and AI-powered document extraction."
+            }
+        ],
+        "lifeAiData": [
+            "Strategic Advisory & Roadmap Development",
+            "Salesforce Life Sciences Cloud & Health Cloud Implementation",
+            "User-Centric Experience & Journey Design",
+            "Regulatory Compliance & Quality Assurance",
+            "System Integration with Backend ERP, EMR, and Partner Platforms",
+            "AI-Powered Insights & Analytics through Data Cloud",
+            "Ongoing Support & Optimization for Continuous Improvement"
+        ],
+        "whyPartnerData": [
+            "Certified Salesforce Partner with global offices in United States, Canada, India, and Singapore.",
+            "Highly Certified Salesforce Health Cloud and Life Sciences Cloud Experts.",
+            "Deep expertise in payer, provider, medical devices, pharmaceuticals, biotech, and insurance sectors.",
+            "Proven ability to deliver secure, compliant, AI-driven life sciences solutions.",
+            "Strong focus on AI, automation, and patient-centric innovation."
+        ],
+        "deepData": [
+            "Care Program & Patient Services Management",
+            "Provider & Healthcare Professional (HCP) Relationship Management",
+            "Clinical Support & Device Case Management",
+            "Medical Affairs & Field Team Enablement",
+            "Omnichannel Communication for Patients and Providers",
+            "Product Complaint & Inquiry Handling",
+            "Investigator & KOL Management",
+            "AI-Driven Data Insights with Salesforce Data Cloud"
+        ],
+        "howRialtesData": [
+            "Automate compliance-heavy processes and improve accuracy.",
+            "Deliver personalized patient engagement through AI and data-driven insights.",
+            "Ensure full regulatory compliance for each customer and patient interaction.",
+            "Streamline HCP and patient journeys using Salesforce Life Sciences Cloud and Health Cloud.",
+            "Implement AI-based case management and proactive patient support using Agentforce and Data Cloud."
+        ],
+        "priorData": [
+            "Automated PA Request Intake via multiple channels (portal, phone, EHR).",
+            "AI-based Case Triage and Eligibility Check for faster PA decisions.",
+            "Dynamic Collaboration with payers, patients, and providers — all from within Salesforce.",
+            "Seamless Integration with EMRs, Payers, and Specialty Pharmacies.",
+            "Real-time PA Status Tracking for patients and care teams.",
+            "Audit and Compliance Logs maintained for each PA case."
+        ],
+        "aiDrivenData": [
+            "AI-Powered Case Management and Patient Services — including predictive insights and intelligent agent assistance.",
+            "Unified Patient and HCP 360° View — leveraging real-time data consolidation.",
+            "Personalized Engagement Journeys — adapting to patient behaviors and clinical needs.",
+            "Proactive Intervention Triggers — powered by AI models using real-time Data Cloud signals."
+        ],
+        "whatIsLifeTitle": "What is LifeAI+?",
+        "whatIsLifeDesc": "A 360° consulting service that unites Advisory, Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — ensuring continuous value creation and innovation across your life sciences value chain.",
+        "whatIsLifeSubTitle": "Our End-to-End Services Include:",
+        "whyPartnerTitle": "Why Partner with Rialtes?",
+        "deepExpertiseTitle": "Deep Expertise in Salesforce Life Sciences Cloud",
+        "deepExpertiseDesc": "We help life sciences organizations maximize Salesforce Life Sciences Cloud, configuring its industry-specific modules to streamline workflows and improve compliance:",
+        "keySalesforceTitle": "Key Salesforce Life Sciences Cloud Modules We Specialize In:",
+        "howRialtesTitle": "How Rialtes LifeAI+ Drives Growth Across Life Sciences",
+        "howRialtesDesc": "Whether you are a pharma, medical device manufacturer, biotech firm, or healthcare provider, Rialtes helps you:",
+        "specializedTitle": "Specialized Expertise for the Future of Healthcare & Life Sciences",
+        "priorMgmtTitle": "Prior Authorization Management",
+        "priorMgmtSubTitle": "Streamlined, Compliant, Intelligent",
+        "priorMgmtDesc": "Prior Authorization (PA) is often a major bottleneck for patients, providers, and payers. Rialtes’ AI-enhanced Prior Authorization solution leverages Salesforce Life Sciences Cloud to automate and streamline the end-to-end PA process, including:",
+        "priorDataBlueBox": "Our PA solution reduces delays, improves patient experience, and ensures faster therapy access — driving better adherence and outcomes.",
+        "aiDrivenTitle": "AI-Driven Life Sciences with Salesforce Data Cloud & Agentforce",
+        "aiDrivenDesc1": "Rialtes helps organizations integrate Salesforce Data Cloud and Agentforce for Health, unlocking powerful AI-driven capabilities:",
+        "aiDrivenDesc2": "Together, Data Cloud and Agentforce enable organizations to elevate case management, field services, and patient programs to new heights — simplifying complex workflows and reducing time to treatment.",
+        "relatedSolutionsData": [
+            {
+                "title": "Salesforce Service Cloud",
+                "desc": "for superior patient and provider service workflows."
+            },
+            {
+                "title": "Salesforce Experience (Community) Cloud",
+                "desc": "to build patient, HCP, and partner-facing portals."
+            },
+            {
+                "title": "Salesforce Agentforce for Health",
+                "desc": "AI-driven case management and services optimization."
+            },
+            {
+                "title": "Salesforce Data Cloud for Health",
+                "desc": "unified patient data to power next-gen personalization and analytics."
+            }
+        ],
+        "relatedTitle": "Related Solutions & Explore More:",
+        "contactTitle": "Ready to Innovate and Transform?",
+        "contactSubTitle": "Join leading life sciences organizations who trust Rialtes LifeAI+ to future-proof their operations, enhance compliance, and improve patient engagement.",
+        "contactSubTitle2": "Contact us today to schedule a personalized strategy session and demo."
+    },
+    "advantagePlus": {
+        "latestServices": [
+            {
+                "id": 1,
+                "title": "Advisory & Strategy Development",
+                "description": "Align your marketing objectives with scalable Salesforce solutions."
+            },
+            {
+                "id": 2,
+                "title": "Implementation & Configuration",
+                "description": "Rapid deployment tailored to your unique customer engagement needs."
+            },
+            {
+                "id": 3,
+                "title": "Creative & Design Services",
+                "description": "Beautiful, responsive email templates, landing pages, and customer journeys."
+            },
+            {
+                "id": 4,
+                "title": "Quality Assurance & Optimization",
+                "description": "End-to-end testing to ensure seamless multi-channel campaigns."
+            },
+            {
+                "id": 5,
+                "title": "Integration & Data Readiness",
+                "description": "Connect Salesforce Marketing Cloud with Sales Cloud, Service Cloud, CRM, ERP, and third-party apps."
+            },
+            {
+                "id": 6,
+                "title": "Post Go-Live Support & Analytics",
+                "description": "Ongoing optimization, training, and advanced analytics for continuous ROI."
+            }
+        ],
+        "moreSalesforce": [
+            {
+                "title": "Salesforce Service Cloud",
+                "description": "Elevate customer support."
+            },
+            {
+                "title": "Salesforce Community Cloud",
+                "description": "Build vibrant customer and partner portals."
+            },
+            {
+                "title": "Agentforce Campaign Management",
+                "description": "AI-powered campaign orchestration."
+            },
+            {
+                "title": "Salesforce Data Cloud",
+                "description": "Advanced customer segmentation and real-time data insights."
+            }
+        ],
+        "deepData1": [
+            "Journey Builder for dynamic, personalized customer journeys.",
+            "Email Studio for impactful, data-driven email marketing campaigns.",
+            "Mobile Studio for SMS and push notifications.",
+            "Advertising Studio to engage customers across Google, Facebook, LinkedIn, and other digital platforms."
+        ],
+        "deepData2": [
+            "Datorama (Marketing Cloud Intelligence) for end-to-end marketing analytics and ROI optimization.",
+            "Customer Segmentation and Audience Studio for precision-targeting.",
+            "Marketing Cloud Personalization for real-time engagement.",
+            "Marketing Analytics & Einstein AI for predictive insights and customer behavior modeling."
+        ],
+        "marketingFeatures": [
+            {
+                "title": "Scalable B2B & B2C Marketing:",
+                "description": "Seamlessly manage both complex B2B relationships and high-volume B2C campaigns."
+            },
+            {
+                "title": "Hyper-Personalized Email Marketing:",
+                "description": "Personalized content powered by AI and real-time data."
+            },
+            {
+                "title": "Customer Segmentation & Targeting:",
+                "description": "Reach the right audience with precision."
+            },
+            {
+                "title": "Omni-Channel Campaign Management:",
+                "description": "Consistent communication across email, mobile, social, and web."
+            },
+            {
+                "title": "Salesforce Agentforce Campaigns:",
+                "description": "Integrate marketing and sales efforts for lead-to-customer conversion."
+            },
+            {
+                "title": "Marketing Analytics and Reporting:",
+                "description": "Actionable insights and dashboards."
+            }
+        ],
+        "aiMarketingData": [
+            {
+                "title": "AI-Driven Campaign Optimization:",
+                "description": "Predictive targeting and customer journey refinement using Einstein AI."
+            },
+            {
+                "title": "Real-Time Customer Insights:",
+                "description": "Unified view of customer interactions across channels via Data Cloud."
+            },
+            {
+                "title": "Next-Gen Agentforce Campaign Management:",
+                "description": "Enable sales and marketing teams to collaborate on customer outreach with AI-generated recommendations."
+            },
+            {
+                "title": "Dynamic Segmentation:",
+                "description": "AI-driven segments that evolve based on real-time customer behavior."
+            }
+        ],
+        "agentChatData": [
+            {
+                "title": "Instant Deployment:",
+                "description": "Go live in minutes — no complex setup required."
+            },
+            {
+                "title": "Universal Salesforce Compatibility:",
+                "description": "Works seamlessly with Sales, Service, Marketing, and Experience Clouds."
+            },
+            {
+                "title": "Multi-Role and Secure:",
+                "description": "Supports robust role-based access and enterprise-grade security models."
+            },
+            {
+                "title": "End-to-End Record Delegation:",
+                "description": "Assign Cases, Leads, Work Orders, and Custom Records by type, ensuring seamless workflows."
+            },
+            {
+                "title": "Enhanced Customer Experience:",
+                "description": "Enable real-time two-way WhatsApp conversations directly from Salesforce, improving engagement and resolution rates."
+            }
+        ],
+        "yourGrowthData": [
+            "SAP Certified Partner with proven CPI integration success stories.",
+            "Global presence: United States, Canada, Singapore, India.",
+            "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
+            "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
+            "End-to-end support from advisory to post-go-live optimization."
+        ],
+        "headerTitle": "Advantage+",
+        "headerSubTitle": "Fueling Growth Through Personalized Marketing",
+        "headerSubTitle2": "Rialtes’ Salesforce Marketing Cloud Services",
+        "pageDescTitle": "Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+",
+        "pageDesc": "We help organizations harness the power of Salesforce Marketing Cloud with our Advantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption. As a Salesforce Certified Consulting Partner with offices in the U.S., Canada, India, and Singapore, Rialtes combines industry expertise with Marketing Cloud proficiency to drive transformation in B2B and B2C sectors. ",
+        "ourAdvantageTitle": "Advantage+: A Full-Spectrum Marketing Transformation Approach",
+        "ourAdvantageDesc": "Our Advantage+ framework ensures that every phase of your marketing journey is expertly guided:",
+        "deepSalesForceTitle": "Deep Salesforce Marketing Cloud Expertise",
+        "deepSalesForceDesc": "At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:",
+        "drivingBusinessTitle": "Driving Business Growth with Salesforce Marketing Cloud",
+        "drivingBusinessDesc": "Our expertise helps organizations achieve:",
+        "reimaginTitle": "Reimagine B2B & B2C Marketing with AI and Data Cloud",
+        "reimaginDesc": "Leveraging Salesforce Data Cloud and Agentforce, Rialtes transforms how organizations manage and execute marketing campaigns:",
+        "byHarnessingTitle": "By harnessing AI and real-time data, Rialtes enables clients to move from reactive to proactive marketing, improving engagement rates and customer loyalty.",
+        "introducingAgentChatTitle": "Introducing AgentChat",
+        "introducingAgentChatSubTitle": "Transforming WhatsApp Conversations for Salesforce Users",
+        "introducingAgentChatSubTitle2": "Revolutionize Customer Engagement with WhatsApp + Salesforce",
+        "introducingAgentChatDesc": "Meet AgentChat, Rialtes’ proprietary bi-directional WhatsApp conversational app built natively on the Salesforce Platform — designed to accelerate customer interactions across any Salesforce Cloud.",
+        "keyFeatures": "Key Features of AgentChat:",
+        "introducingAgentChatDesc2": "AgentChat is the perfect solution for customer service, sales inquiries, order updates, and marketing outreach — all managed securely within Salesforce.",
+        "yourGrowthTitle": " Your Growth Partners",
+        "yourGrowthSubTitle": "Across Every Industry Touchpoint",
+        "yourGrowthDesc": " Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships,Rialtes’ Advantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.",
+        "exploreMoreTitle": "Explore More with Salesforce",
+        "contactTitle": "Ready to Accelerate Your Marketing? Let’s Talk!"
     }
 }
