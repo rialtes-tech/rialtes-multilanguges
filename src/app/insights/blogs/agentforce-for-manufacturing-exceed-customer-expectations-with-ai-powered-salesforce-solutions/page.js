@@ -6,83 +6,84 @@ import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import { useState } from "react";
+import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
-     "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
-  },
-  "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
-  "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
-  "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
+    },
+    "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
+    "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
+    "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes Technologies",
+        "url": "https://www.rialtes.com"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes Technologies",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "datePublished": "2025-07-21",
+    "keywords": [
+        "Agentforce for Manufacturing",
+        "AI for Manufacturing",
+        "AI in Manufacturing",
+        "AI Agents Automation Solutions Manufacturing",
+        "Smart Manufacturing Support"
+    ],
+    "mainEntity": {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What makes Agentforce different from other AI solutions for manufacturing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do AI agents in Agentforce improve uptime and reduce manual workload?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Agentforce help improve customer satisfaction?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
+                }
+            }
+        ]
     }
-  },
-  "datePublished": "2025-07-21",
-  "keywords": [
-    "Agentforce for Manufacturing",
-    "AI for Manufacturing",
-    "AI in Manufacturing",
-    "AI Agents Automation Solutions Manufacturing",
-    "Smart Manufacturing Support"
-  ],
-  "mainEntity": {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What makes Agentforce different from other AI solutions for manufacturing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do AI agents in Agentforce improve uptime and reduce manual workload?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does Agentforce help improve customer satisfaction?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
-        }
-      }
-    ]
-  }
 };
 const blogs = [
     {
@@ -164,12 +165,6 @@ const blogs = [
 ];
 
 export default function Page() {
-    const [openIndex, setOpenIndex] = useState(null);
-
-    const toggleAccordion = (index) => {
-        setOpenIndex(openIndex === index ? null : index);
-    };
-
 
     const faqData = [
         {
@@ -177,7 +172,7 @@ export default function Page() {
             answer: "Agentforce is built natively on Salesforce and tailored for operational use in manufacturing environments. Unlike generic AI solutions, it features industry-trained agents that efficiently handle tasks like supply chain management, service scheduling, warranty claims, and partner support—without the need for custom code."
         },
         {
-            question:"2. Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
+            question: "2. Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
             answer: "Yes. Agentforce seamlessly integrates with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions, connecting to your product catalogue, pricing engine, contracts, and workflows. This enables your AI agents to quote, configure, and provide real-time support using live business data and logic."
         },
         {
@@ -214,7 +209,7 @@ export default function Page() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/blog/agentforce-ai-for-manufacturing.webp"
+                        src="/images/blog/Agentforce-AI-For-Manufacturing-updated_banner.webp"
                         alt="Discover AgentExchange"
                         fill
                         style={{ objectFit: "cover" }}
@@ -453,39 +448,15 @@ export default function Page() {
                             <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-12 leading-tight">
                                 FAQs: Agentforce for AI-Powered Manufacturing Transformation
                             </h2>
-                            <div className="mx-auto mt-5">
-                                {faqData.map((item, index) => (
-                                    <div key={index} className="border-b border-gray-300">
-                                        <button
-                                            onClick={() => toggleAccordion(index)}
-                                            className="w-full flex justify-between items-center py-4 text-left bg-gray-100">
-                                            <span className="font-medium 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-gray-800 pl-20">{item.question}</span>
-                                            <span className="text-black text-2xl pr-20">
-                                                {openIndex === index ? (
-                                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-                                                        <path d="M7 14l5-5 5 5z" /> 
-                                                    </svg>
-                                                ) : (
-                                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-                                                        <path d="M7 10l5 5 5-5z" /> 
-                                                    </svg>
-                                                )}
-                                            </span>
-                                        </button>
 
-                                        {openIndex === index && (
-                                            <div className="pb-4 text-black transition-all 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] px-20">
-                                                {item.answer}
-                                            </div>
-                                        )}
-                                    </div>
-                                ))}
-                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+            <section className="custom-container max-md:px-0">
+                <FAQAccordion faqData={faqData} />
+            </section>
             {/* Latest Blogs */}
             <div
                 className="custom-container xl:pr-0 mt-10">

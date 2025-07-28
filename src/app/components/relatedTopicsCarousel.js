@@ -55,7 +55,7 @@ export default function RelatedTopicsCarousel({ slides }) {
     } = rest;
     return (
       <li>
-      <span
+      <div
       role="button"
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
         onClick={() => onClick()}

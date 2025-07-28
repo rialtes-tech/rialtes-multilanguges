@@ -9,6 +9,17 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+   {
+    id: 14,
+    image: "/images/blog/blog-slider.webp", 
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "25 July 2025",
+    url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
+    title: "Agents vs. Copilots vs. Bots: A Strategic Comparison That Drives AI Adoption Right",
+    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
+  },
+
      {
      id: 13,
     image: "/images/blog/slider.webp",
@@ -206,7 +217,7 @@ export default function BlogsCarousel() {
     } = rest;
     return (
       <li>
-      <span
+      <div
       role="button"
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
         onClick={() => onClick()}
