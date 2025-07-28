@@ -4,8 +4,16 @@ import Image from "next/image";
 import Link from "next/link";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../messages/en/industry.json';
+import esContent from '../../../../messages/es/industry.json';
 
 export default function servicesFeaturedCarousel({ slides }) {
+     const t = useTranslations("caseStudyIndivisual");
+        const locale = useLocale();
+        const homepageContent = locale === "es" ? esContent : enContent;
+        const {} = homepageContent.caseStudyIndivisual;
+
   
 
   const responsive = {
@@ -59,7 +67,7 @@ export default function servicesFeaturedCarousel({ slides }) {
       role="button"
         className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
         onClick={() => onClick()}
-                aria-label="Custom Dots"
+         aria-label="Custom Dots"
 
       />
       </li>
@@ -70,7 +78,7 @@ export default function servicesFeaturedCarousel({ slides }) {
     <section className="relative pb-10">
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3">
-          <h2 className="text-black mb-10  sm:mr-0 mr-20  4xl:w-[70%] xl:w-[55%] w-[55%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More</h2>
+          <h2 className="text-black mb-10  sm:mr-0 mr-20  4xl:w-[70%] xl:w-[55%] w-[55%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('caseStudyTitle')}</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -113,7 +121,7 @@ export default function servicesFeaturedCarousel({ slides }) {
               <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] bg-white sm:basis-2/3 py-6 sm:py-4 lg:py-10 sm:px-10 lg:px-16 px-6">
                 <Link href={slide?.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] h3-bold  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight">{slide.title}</h3></Link>
                 <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight">{slide.description}</p>
-                <Link href={slide?.url} className="font-medium text-[#0092E0] text-[24px] ">Know More</Link>
+                <Link href={slide?.url} className="font-medium text-[#0092E0] text-[24px] ">{t('knowMore')}</Link>
               </div>
             </div>
           ))}

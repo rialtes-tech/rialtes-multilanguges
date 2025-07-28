@@ -1,0 +1,203 @@
+{
+    "industry":{
+            "headerTitle": "Industrias",
+            "headerSubTitleOne": "Transforma cómo",
+            "headerSubTitleTwo": "te relacionas con",
+            "headerSubTitleThree": "tus clientes",
+            "mindsetTitle": "Industrias Diferentes, Mentalidades Diferentes",
+            "mindsetDesc": "Nos especializamos en diversas industrias, lo que nos permite ofrecer soluciones integrales adaptadas a las necesidades específicas de tu sector. Con nuestra experiencia y soporte, los clientes pueden responder a las condiciones cambiantes del mercado y aprovechar las tendencias emergentes para su negocio.",
+            "growTitle": "Industrias que atendemos",
+            "knowMore": "Saber más",
+            "growLatestServices": [
+    {
+      "id": 1,
+      "image": "/images/industry/healthcare.webp",
+      "title": "Salud",
+      "description": "CRM de Salesforce para el sector salud que ayuda a los proveedores de servicios médicos a integrar el software hospitalario y armonizar los datos de los pacientes desde diversos canales.",
+      "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
+    },
+    {
+      "id": 2,
+      "image": "/images/industry/manufacturing.webp",
+      "title": "Manufactura",
+      "description": "Experiencia en tecnología de manufactura a tu alcance. Optimiza operaciones, procesos de ventas y la gestión de la cadena de suministro en empresas manufactureras.",
+      "knowMore": "/industry/manufacturing-cloud-erp"
+    },
+    {
+      "id": 3,
+      "image": "/images/industry/real-estate.webp",
+      "title": "Bienes Raíces",
+      "description": "Expande tu portafolio inmobiliario con software de gestión de propiedades basado en la nube. Ayudamos a agentes, propietarios y corredores a gestionar clientes, propiedades y contratos de arrendamiento.",
+      "knowMore": "/industry/real-estate-property-management"
+    },
+    {
+      "id": 4,
+      "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+      "title": "Semiconductores",
+      "description": "Servicios tecnológicos de primer nivel que abarcan integración de la cadena de suministro, planificación de la demanda y más. Satisface la creciente demanda sin comprometer el rendimiento con soluciones tecnológicas personalizadas.",
+      "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+    },
+    {
+      "id": 5,
+      "image": "/images/pharma/Header Pharma.webp",
+      "title": "Farmacéutica y Biotecnología",
+      "description": "Rialtes aplica su experiencia certificada en Salesforce Life Sciences Cloud y SAP S/4HANA para ayudar a líderes del sector farmacéutico y biotecnológico a aprovechar IA, machine learning y automatización para operaciones clínicas, médicas y comerciales integradas.",
+      "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
+    },
+    {
+      "id": 6,
+      "image": "/images/medical/medical-header.webp",
+      "title": "Dispositivos Médicos",
+      "description": "Ayudamos a las empresas de dispositivos médicos a convertir el cumplimiento en una ventaja competitiva mediante estrategia, tecnología y diseño centrado en el paciente, asegurando recorridos fluidos desde la prescripción del dispositivo hasta el seguimiento de resultados.",
+      "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
+    },
+    {
+      "id": 7,
+      "image": "/images/education/Group 483.webp",
+      "title": "Educación",
+      "description": "Abordamos los principales retos en educación, como la interacción fragmentada con estudiantes y reclutamiento ineficiente. Combinamos asesoría estratégica con tecnología SAP y Salesforce para ayudar a las instituciones a optimizar sus operaciones y mejorar la experiencia estudiantil.",
+      "knowMore": "/industry/education-cloud-it-solutions"
+    },
+    {
+      "id": 8,
+      "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+      "title": "Automotriz",
+      "description": "Abordamos los desafíos complejos del sector automotriz, especialmente la fragmentación del ciclo de vida del cliente desde la prospección hasta la propiedad. Usamos soluciones de SAP y Salesforce Industry Cloud para diseñar sistemas personalizados y escalables.",
+      "knowMore": "/industry/digital-transformation-in-automotive-industry"
+    },
+    {
+      "id": 9,
+      "image": "/images/industry/travel-transporation/retail+.webp",
+      "title": "Retail",
+      "description": "Enfrenta los desafíos del comercio minorista con confianza. Rialtes Retail+ combina visión estratégica con ejecución sólida, permitiendo a minoristas B2B y B2C modernizarse, personalizar y crecer. Desde la planificación hasta el soporte post-lanzamiento, impulsamos la transformación en cada paso.",
+      "knowMore": "/industry/retail-industry-digital-transformation"
+    },
+    {
+      "id": 10,
+      "image": "/images/industry/travel-transporation/TTH.webp",
+      "title": "Viajes y Hospitalidad",
+      "description": "Rialtes ayuda a las empresas de viajes y hospitalidad a mejorar cada experiencia — desde el check-in hasta el check-out, desde la reserva hasta la entrega. Con nuestra experiencia en IA, nube y plataformas empresariales, modernizamos operaciones, personalizamos experiencias y maximizamos el impacto comercial.",
+      "knowMore": "/industry/travel-hospitality-it-solutions"
+    }
+  ],
+    "contactUs": "¿Está listo para dar el siguiente paso? Iniciemos su viaje"
+
+    },
+  "realEstate": {
+     "headerTitle": "Gestiona procesos inmobiliarios con software de gestión de propiedades en la nube",
+  "headerSubTitle": "BIENES RAÍCES",
+  "realTitle": "Software de gestión de propiedades asequible para tus operaciones inmobiliarias",
+  "realDescOne": "El mercado inmobiliario es dinámico e impredecible, pero tu negocio no tiene por qué serlo. Con las herramientas y estrategias adecuadas, las empresas inmobiliarias pueden lograr un crecimiento constante año tras año mientras superan las expectativas de los clientes.",
+  "realDescTwo": "En Rialtes, ofrecemos el mejor software de gestión de propiedades diseñado para optimizar tus operaciones diarias. Exelona proporciona una solución todo en uno con funciones adaptadas para profesionales del sector inmobiliario, inversionistas, administradores de propiedades y más. Ya sea que gestiones múltiples alquileres residenciales o equilibres las exigencias de espacios comerciales de inversión, Rialtes tiene las herramientas para apoyarte en cada paso del camino.",
+  "estateTitle": "El CRM Nº1 para negocios inmobiliarios",
+  "estateDesc": "Desarrollado sobre Salesforce, la plataforma CRM Nº1 del mundo, RealForce centraliza tus funciones de gestión inmobiliaria y transforma la forma en que atiendes a tus clientes. Ya sea que seas una pequeña firma de corretaje o un grupo nacional de gestión de propiedades, tu negocio merece el mejor software de gestión inmobiliaria del mercado.",
+  "estateTitleOne": "Plataforma RealForce",
+  "estateTitleOneDesc": "Nuestra plataforma insignia de gestión de propiedades, desarrollada sobre Salesforce y diseñada para tus funciones reales de ERP (Property Cloud) y CRM (Experience Cloud).",
+  "estateTitleTwo": "RealPay",
+  "estateTitleTwoDesc": "RealPay es una pasarela de pagos integrada que admite transacciones con la mayoría de los bancos de América del Norte y más de 135 monedas. Los residentes pueden realizar pagos y consultar fácilmente",
+  "growTitle": "Mejora tus operaciones inmobiliarias con nuestras ofertas de servicios personalizables",
+  "growDesc": "Rialtes ayuda a agencias inmobiliarias y empresas de gestión de propiedades a alcanzar una excelencia inigualable mediante tecnología y asesoría estratégica. Desde software contable para desarrolladores inmobiliarios hasta CRM compatibles con dispositivos móviles, nuestras soluciones pueden adaptarse a los requisitos únicos de tu organización.",
+  "growLatestServices": [
+    {
+      "id": 1,
+      "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+      "title": "Operaciones Centralizadas: Una Solución Integral",
+      "description": "Imagina gestionar todos tus datos de propiedad, desde contratos de alquiler hasta cronogramas de mantenimiento, en un solo lugar. RealForce ofrece operaciones centralizadas para una experiencia de gestión optimizada a través de nuestra eficiente plataforma en línea.",
+      "productsDetails": [
+        "Generación automática de contratos",
+        "Gestión centralizada de cobranzas",
+        "Facturación inteligente mensual"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+      "title": "Accesibilidad Multiplataforma: Gestiona Sobre la Marcha",
+      "description": "Nuestro sistema de gestión de propiedades en línea te permite acceder al panel de control donde sea que estés, convirtiéndonos en líderes entre los proveedores de software de gestión inmobiliaria en EE. UU.",
+      "productsDetails": [
+        "Informes y paneles móviles",
+        "Chat con grupos de propiedades",
+        "Aprobaciones móviles"
+      ]
+    },
+    {
+      "id": 3,
+      "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+      "title": "Analítica Integral: Toma Decisiones Informadas",
+      "description": "Nos destacamos entre los mejores softwares de gestión inmobiliaria al ofrecer la plataforma de analítica número uno para mejorar tus indicadores, desde ingresos hasta vacantes.",
+      "productsDetails": [
+        "Aprovecha paneles existentes",
+        "Toma decisiones basadas en datos",
+        "Profundiza hasta registros individuales"
+      ]
+    },
+    {
+      "id": 4,
+      "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+      "title": "Claridad Financiera: Contabilidad Simplificada",
+      "description": "Nuestro software es la solución contable preferida por agentes inmobiliarios que buscan informes financieros detallados y capacidades de facturación. Simplifica tu proceso de presupuesto con la plataforma en la nube número uno del mundo.",
+      "productsDetails": [
+        "Procesamiento electrónico de facturas",
+        "Automatización de extracción con IA",
+        "Pagos digitales en más de 135 monedas"
+      ]
+    }
+  ],
+   "serviceTitle": "Encuentra el software de gestión de propiedades adecuado en línea con Rialtes",
+  "latestServices": [
+    {
+      "id": 1,
+      "title": "Arrendamiento con IA",
+      "description": "Los asistentes de arrendamiento impulsados por IA te ayudan a atender a los clientes más rápido mientras ahorras dinero y recursos. Podemos configurarte un software de arrendamiento con IA rentable y completo."
+    },
+    {
+      "id": 2,
+      "title": "Mantenimiento con IA",
+      "description": "Filtra y prioriza las solicitudes de mantenimiento con herramientas de software simples e inteligentes. Ofrecemos tecnología de mantenimiento con IA que te ayuda a eliminar cuellos de botella al enrutar automáticamente las órdenes de trabajo y hacer seguimiento del progreso."
+    },
+    {
+      "id": 3,
+      "title": "Contabilidad de Propiedades",
+      "description": "Optimiza tu proceso contable con soluciones de software de contabilidad para la gestión de propiedades, con integraciones de IA, automatización de informes financieros detallados y pagos digitales."
+    },
+    {
+      "id": 4,
+      "title": "Marketing",
+      "description": "Nuestras soluciones CRM para bienes raíces simplifican las operaciones de marketing, desde la conversión de listados hasta la sindicación y la gestión de material promocional."
+    },
+    {
+      "id": 5,
+      "title": "Integraciones",
+      "description": "Nuestros expertos pueden ayudarte con todos tus requisitos de integración de software inmobiliario. Trabajaremos contigo para asegurarnos de que tus nuevas soluciones funcionen en armonía y maximicen el valor de tus sistemas existentes."
+    },
+    {
+      "id": 6,
+      "title": "Externalización Inmobiliaria",
+      "description": "Externalizar tus procesos de gestión y contabilidad de propiedades con un socio confiable puede ahorrarte incontables horas de trabajo administrativo. Nuestros servicios de externalización inmobiliaria incluyen modelos presenciales, remotos e híbridos."
+    }
+  ],
+    "slides": [
+    {
+      "id": 1,
+      "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+      "title": "Módulo Bancario RealForce - ACH",
+      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
+      "url": "/insights/case-studies/realForce-banking-module-ach"
+    },
+    {
+      "id": 2,
+      "url": "/insights/case-studies/yardi-managed-services",
+      "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+      "title": "Servicios Gestionados de Yardi",
+      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares."
+    }
+  ],
+  "contactUs": "Da el siguiente paso para mejorar tu gestión inmobiliaria."
+
+   
+},
+    "caseStudyIndivisual":{
+    "caseStudyTitle": "Inspírate con nuestras últimas historias de éxito de clientes, conocimientos del sector y más",
+    "knowMore": "Saber más"
+    }
+}

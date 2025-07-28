@@ -92,12 +92,10 @@ const schemaData = {
     }
   }
 }
-
 export default function DataCloud() {
   const t = useTranslations('salesforceDataCloud')
   const locale = useLocale();
   const cloudContent = locale === 'es' ? esContent : enContent;
-
   const { featureBoxes, stats, services } = cloudContent.salesforceDataCloud;
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const handleMouseEnter = (blogName) => {

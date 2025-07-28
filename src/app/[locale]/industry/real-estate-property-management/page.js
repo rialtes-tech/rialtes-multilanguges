@@ -5,9 +5,12 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/industry.json';
+import esContent from '../../../../../messages/es/industry.json';
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -108,54 +111,13 @@ const schemaData = {
     }
   }
 }
-const slides = [
-  {
-    id: 1,
-    imgSrc: "/images/case-studies/case-study-2_thumb_n.webp",
-    title: "RealForce Banking Module - ACH",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: "/insights/case-studies/realForce-banking-module-ach",
-  },
-  {
-    id: 2,
-    url: "/insights/case-studies/yardi-managed-services",
-    imgSrc: "/images/case-studies/case-study-6_thumb.webp",
-    title: "Yardi Managed Services",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-];
-const latestServices = [
-  {
-    id: 1,
-    title: "AI Leasing",
-    description: "AI-powered leasing assistants help you serve clients faster while saving money and resources. We can set you up with AI leasing software that’s both cost-effective and comprehensive.",
-  },
-  {
-    id: 2,
-    title: "AI Maintenance",
-    description: "Filter and triage maintenance requests with simple and intelligent software tools. We offer AI maintenance technology that can help you eliminate bottlenecks by automatically routing work orders and tracking task completion."
-  },
-  {
-    id: 3,
-    title: "Property Accounting",
-    description: "Streamline your accounting process with property management accounting software solutions- featuring AI integrations, detailed financial report automation, and digital payments.",
-  },
-  {
-    id: 4,
-    title: "Marketing",
-    description: "Our CRM solutions for real estate simplify marketing operations, from listing conversions to syndication and marketing collateral management.",
-  },
-  {
-    id: 5,
-    title: "Integrations",
-    description: "Our experts can assist with all your real estate software integration requirements. We will work with you to ensure your new property management solutions work in harmony with and even maximize the value of your existing systems.",
-  },
-  {
-    id: 6,
-    title: "Real Estate Outsourcing",
-    description: "Outsourcing your property management and accounting processes to a trusted partner could save you countless hours of administrative work. Our real estate outsourcing services include on-site, offsite, and hybrid models.",
-  },
-];
+export default function Page() {
+   const t = useTranslations("realEstate");
+      const locale = useLocale();
+      const homepageContent = locale === "es" ? esContent : enContent;
+      const {growLatestServices,latestServices,slides} = homepageContent.realEstate;
+
+
 const ServicesCard = ({ services }) => (
   <div className="h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
@@ -167,7 +129,7 @@ const ServicesCard = ({ services }) => (
 const Services = () => {
   return (
     <div className="text-black 2xl:pr-70 xl:pr-35 md:pr-8 pr-0 mt-20 ">
-      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[85%] ">Find the right property management software online with Rialtes</h2>
+      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[85%] ">{t('serviceTitle')}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 mt-10 w-full">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -176,53 +138,6 @@ const Services = () => {
     </div>
   );
 };
-const growLatestServices = [
-  {
-    id: 1,
-    image: "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
-    title: "Centralized Operations: The One-Stop Solution",
-    description: "Imagine managing all your property data, from rental agreements to maintenance schedules in one place. RealForce provides centralized operations for a streamlined management experience via our online rental property management efficiencies.",
-    productsDetails: [
-      'Automatic agreement generation',
-      'Centralized Collections management',
-      'SMART Monthly Billing ',
-    ],
-  },
-  {
-    id: 2,
-    image: "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
-    title: "Multi-Platform Accessibility: Manage On-The-Go",
-    description: "Our online property management system ensures you can access your management dashboard wherever you are, making us a leader among property management software companies in the USA.",
-    productsDetails: [
-      'Mobile reports and dashboards',
-      'Chat with property groups',
-      'Mobile approvals',
-    ],
-  },
-  {
-    id: 3,
-    image: "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
-    title: "Comprehensive Analytics: Make Informed Decisions",
-    description: "We stand out among top property management software companies by providing the #1 analytics platform to improve your numbers, from revenue to vacancies.",
-    productsDetails: [
-      'Leverage existing dashboards',
-      'Use data to make decisions',
-      'Drill down to individual records ',
-    ],
-  },
-  {
-    id: 4,
-    image: "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
-    title: "Financial Clarity: Accounting Made Easy",
-    description: "Our software is the go-to accounting software for realtors looking for detailed financial reports and invoicing capabilities. Simplify your budgeting process with the world’s #1 cloud platform.",
-
-    productsDetails: [
-      'Electronic Invoice Processing',
-      'AI Abstraction Automation',
-      'Digital Payments in +135 currencies',
-    ],
-  }
-];
 const GrowServicesCard = ({ services }) => (
   <div className=" h-full">
     <div className="relative overflow-hidden">
@@ -249,8 +164,8 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
   return (
     <div className="text-black lg:pr-20 md:pr-10 ">
-      <h2 className="pb-10 text-black 4xl:w-[100%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Enhance your real estate operations with our customizable service offerings</h2>
-      <p className="xl:w-full  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.</p>
+      <h2 className="pb-10 text-black 4xl:w-[100%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('growTitle')}</h2>
+      <p className="xl:w-full  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('growDesc')}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 2xl:gap-[140px] lg:gap-[110px] mt-20">
         {growLatestServices.map((services) => (
           <GrowServicesCard key={services.id} services={services} />
@@ -260,7 +175,7 @@ const GrowServices = () => {
     </div>
   );
 };
-export default function Page() {
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -299,10 +214,10 @@ export default function Page() {
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 xl:col-span-8 lg:col-span-9 mb-[139px] ">
               <h3 className="text-white text-[18px] xl:text-[24px] font-bold ">
-                REAL ESTATE
+               {t('headerSubTitle')}
               </h3>
               <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[75%] 2xl:w-[67%] 4xl:w-[92%] mt-[11.5px] md:mt-[28.5px]">
-                Manage real estate processes with cloud-based property management software
+               {t('headerTitle')}
               </h2>
             </div>
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -317,16 +232,14 @@ export default function Page() {
             <div className="flex flex-col xl:flex-row py-6 xl:gap-10">
               <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] 2xl:w-[35%] xl:mr-4 xl:mb-0 mb-4">
                 <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-                  Affordable property management software for your real estate operations
+                 {t('realTitle')}
                 </h1>
               </div>
               <div className="flex flex-col w-full xl:w-[40%]">
                 <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                  The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.
-                </p>
+                 {t('realDescOne')}   </p>
                 <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                  At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.
-                </p>
+                 {t('realDescTwo')}</p>
               </div>
             </div>
           </div>
@@ -341,19 +254,19 @@ export default function Page() {
       <div className="bg-[#EDEDED]">
         <div className="custom-container">
           <section className="pb-16  pt-10">
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">The #1 CRM for real estate business</h2>
+            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] "> {t('estateTitle')}</h2>
             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-16 mt-5 xl:gap-20 gap-10">
               <div>
-                <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.</p>
+                <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"> {t('estateDesc')}</p>
               </div>
               <div className="xl:mr-[20px] xl:ml-2">
-                <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight">RealForce Platform</h4>
-                <p className="mt-5 text-[18px] xl:text-[18px] 4xl:text-[22px] leading-tight"> Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.</p>
+                <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight"> {t('estateTitleOne')}</h4>
+                <p className="mt-5 text-[18px] xl:text-[18px] 4xl:text-[22px] leading-tight">  {t('estateTitleOneDesc')}</p>
               </div>
               <div className="xl:border-l-2 xl:border-[#707070] ">
                 <div className="xl:ml-11">
-                  <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight">RealPay </h4>
-                  <p className="mt-5 text-[18px] xl:text-[18px] 4xl:text-[22px] leading-tight">RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check</p>
+                  <h4 className="text-[#0092E0] text-[22px] xl:text-[24px] 4xl:text-[26px] leading-tight"> {t('estateTitleTwo')}</h4>
+                  <p className="mt-5 text-[18px] xl:text-[18px] 4xl:text-[22px] leading-tight"> {t('estateTitleTwoDesc')}</p>
                 </div>
               </div>
             </div>
@@ -379,7 +292,7 @@ export default function Page() {
       </div>
       {/* Contact Form */}
       <div className="mb-20 mt-20 custom-container text-black py-6">
-        <ContactForm title={'Take the next step to elevate your property management.'} className={"leading-tight text-black 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 4xl:w-[80%]"} />
+        <ContactForm title={t('contactUs')} className={"leading-tight text-black 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 4xl:w-[80%]"} />
       </div>
     </div>
   );

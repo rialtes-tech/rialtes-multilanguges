@@ -43,6 +43,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const retailPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const lifeAiPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const advantagePlus = (await import(`../../messages/${locale}/services.json`)).default;
+    const industry = (await import(`../../messages/${locale}/industry.json`)).default;
+    const realEstate = (await import(`../../messages/${locale}/industry.json`)).default;
+    const caseStudyIndivisual = (await import(`../../messages/${locale}/industry.json`)).default;
+
+
 
     return {
         locale,
@@ -77,7 +82,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...sapDigitalDesk,
             ...retailPlus,
             ...lifeAiPlus,
-            ...advantagePlus
+            ...advantagePlus,
+            ...industry,
+            ...realEstate,
+            ...caseStudyIndivisual,
+
         }
     };
 });

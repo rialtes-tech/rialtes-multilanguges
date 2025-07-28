@@ -1,0 +1,218 @@
+{
+    "industry":{
+            "headerTitle":"Industries",
+            "headerSubTitleOne":" Transform how ",
+            "headerSubTitleTwo":" you engage with ",
+            "headerSubTitleThree":"your clients",
+            "mindsetTitle":"Different Industries, Different Mindsets",
+            "mindsetDesc":"We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.",
+            "growTitle":" Industries we serve",
+            "knowMore":"Know More",
+
+            "growLatestServices" : [
+    {
+      "id": 1,
+      "image": "/images/industry/healthcare.webp",
+      "title": "Healthcare",
+      "description": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels",
+      "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
+
+    },
+    {
+      "id": 2,
+      "image": "/images/industry/manufacturing.webp",
+      "title": "Manufacturing",
+      "description": "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
+      "knowMore": "/industry/manufacturing-cloud-erp"
+
+    },
+    {
+      "id": 3,
+      "image": "/images/industry/real-estate.webp",
+      "title": "Real Estate",
+      "description": "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
+      "knowMore": "/industry/real-estate-property-management"
+
+    },
+    {
+      "id": 4,
+      "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+      "title": "Semiconductor",
+      "description": "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
+      "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+
+    },
+
+    {
+      "id": 5,
+      "image": "/images/pharma/Header Pharma.webp",
+      "title": "Pharma & Biotech",
+      "description": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA to help pharma and biotech leaders harness AI, machine learning, and automation for integrated clinical, medical, and commercial operations.",
+      "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
+
+    },
+    {
+      "id": 6,
+      "image": "/images/medical/medical-header.webp",
+      "title": "Medical Devices",
+      "description": "Helping medical device companies turn compliance into a competitive advantage by combining strategy, technology, and patient-centric design to ensure seamless patient journeys from device prescription to outcome tracking.",
+      "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
+
+    },
+    {
+      "id": 7,
+      "image": "/images/education/Group 483.webp",
+      "title": "Education",
+      "description": "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
+      "knowMore": "/industry/education-cloud-it-solutions"
+
+    },
+    {
+      "id": 8,
+      "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+      "title": "Automotive",
+      "description": "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
+      "knowMore": "/industry/digital-transformation-in-automotive-industry"
+
+    },
+    {
+      "id": 9,
+      "image": "/images/industry/travel-transporation/retail+.webp",
+      "title": "Retail",
+      "description": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
+      "knowMore": "/industry/retail-industry-digital-transformation"
+
+    },
+    {
+      "id": 10,
+      "image": "/images/industry/travel-transporation/TTH.webp",
+      "title": "Travel and Hospitality",
+      "description": "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
+      "knowMore": "/industry/travel-hospitality-it-solutions"
+
+    }
+         ],
+         "contactUs":"Ready to take the next step? Let’s kick off your journey"
+    },
+    "realEstate":{
+       "headerTitle":"Manage real estate processes with cloud-based property management software",
+       "headerSubTitle":"REAL ESTATE ",
+        "realTitle": "Affordable property management software for your real estate operations",
+        "realDescOne": "The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.",
+        "realDescTwo": " At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.",
+        "estateTitle": "The #1 CRM for real estate busines",
+        "estateDesc": "Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.",
+        "estateTitleOne": "RealForce Platform",
+        "estateTitleOneDesc": "Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.",
+        "estateTitleTwo": "RealPay ",
+        "estateTitleTwoDesc": "RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check",
+        
+        "growTitle": "Enhance your real estate operations with our customizable service offerings",
+        "growDesc": "Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.",
+
+     "growLatestServices" : [
+  {
+    "id": 1,
+    "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+    "title": "Centralized Operations: The One-Stop Solution",
+    "description": "Imagine managing all your property data, from rental agreements to maintenance schedules in one place. RealForce provides centralized operations for a streamlined management experience via our online rental property management efficiencies.",
+    "productsDetails": [
+      "Automatic agreement generation",
+      "Centralized Collections management",
+      "SMART Monthly Billing" 
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+    "title": "Multi-Platform Accessibility: Manage On-The-Go",
+    "description": "Our online property management system ensures you can access your management dashboard wherever you are, making us a leader among property management software companies in the USA.",
+    "productsDetails": [
+      "Mobile reports and dashboards",
+      "Chat with property groups",
+      "Mobile approvals"
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+    "title": "Comprehensive Analytics: Make Informed Decisions",
+    "description": "We stand out among top property management software companies by providing the #1 analytics platform to improve your numbers, from revenue to vacancies.",
+    "productsDetails": [
+      "Leverage existing dashboards",
+      "Use data to make decisions",
+      "Drill down to individual records"
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+    "title": "Financial Clarity: Accounting Made Easy",
+    "description": "Our software is the go-to accounting software for realtors looking for detailed financial reports and invoicing capabilities. Simplify your budgeting process with the world’s #1 cloud platform.",
+
+    "productsDetails": [
+      "Electronic Invoice Processing",
+      "AI Abstraction Automation",
+      "Digital Payments in +135 currencies"
+    ]
+  }
+],
+        "serviceTitle": "Find the right property management software online with Rialtes",
+        "latestServices" : [
+  {
+    "id": 1,
+    "title": "AI Leasing",
+    "description": "AI-powered leasing assistants help you serve clients faster while saving money and resources. We can set you up with AI leasing software that’s both cost-effective and comprehensive."
+  },
+  {
+    "id": 2,
+    "title": "AI Maintenance",
+    "description": "Filter and triage maintenance requests with simple and intelligent software tools. We offer AI maintenance technology that can help you eliminate bottlenecks by automatically routing work orders and tracking task completion."
+  },
+  {
+    "id": 3,
+    "title": "Property Accounting",
+    "description": "Streamline your accounting process with property management accounting software solutions- featuring AI integrations, detailed financial report automation, and digital payments."
+  },
+  {
+    "id": 4,
+    "title": "Marketing",
+    "description": "Our CRM solutions for real estate simplify marketing operations, from listing conversions to syndication and marketing collateral management."
+  },
+  {
+    "id": 5,
+    "title": "Integrations",
+    "description": "Our experts can assist with all your real estate software integration requirements. We will work with you to ensure your new property management solutions work in harmony with and even maximize the value of your existing systems."
+  },
+  {
+    "id": 6,
+    "title": "Real Estate Outsourcing",
+    "description": "Outsourcing your property management and accounting processes to a trusted partner could save you countless hours of administrative work. Our real estate outsourcing services include on-site, offsite, and hybrid models."
+  }
+],
+         "slides" : [
+  {
+    "id": 1,
+    "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+    "title": "RealForce Banking Module - ACH",
+    "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    "url": "/insights/case-studies/realForce-banking-module-ach"
+  },
+  {
+    "id": 2,
+    "url": "/insights/case-studies/yardi-managed-services",
+    "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+    "title": "Yardi Managed Services",
+    "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+  }
+],
+      "contactUs":"Take the next step to elevate your property management."
+    
+    },
+    "caseStudyIndivisual":
+    {
+      "caseStudyTitle":"Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
+      "knowMore":"Know More"
+    }
+ 
+}
