@@ -239,9 +239,9 @@ export default function Page() {
                 className="
        custom-container"
             >
-                <div className="py-10 bg-white">
-                    <div className=" mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
+                <div className="py-10 bg-white max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[750px]">
+                    <div className=" ">
+                        <div className="flex flex-col md:flex-row justify-between text-black items-center ">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Agentforce</span>
                                 <span className="text-[#ACACAC]"> | </span>21 July 2025
@@ -300,15 +300,14 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="py-6"></div>
-                    <div className=" mx-auto">
-                        <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] 
-                         xl:w-[1000px] 4xl:w-[1150px] pb-6 ">
+                    <div className=" ">
+                        <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] pb-6 md:text-[28px] ">
                             Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions
                         </h1>
                     </div>
 
-                    <div className=" mx-auto">
-                        <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
+                    <div className=" ">
+                        <div className="">
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                                 We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support. Imagine a workforce free from constraints, delivering exceptional service without overwhelm. That’s the promise of Agentforce. It blends human expertise with AI-powered agents on the Salesforce platform to create a smarter, more scalable workforce. It frees your team to focus on building stronger relationships and driving real business outcomes.
                             </p>
@@ -320,7 +319,7 @@ export default function Page() {
 
                             <div className="py-6 "></div>
 
-                            <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px]">
+                            <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Turn Customer Service Into a Strategic Growth Lever with Agentforce AI Agents
                             </h2>
 
@@ -340,7 +339,7 @@ export default function Page() {
 
                             <div className="pl-6">
 
-                                <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
+                                <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px] font-medium space-y-3">
                                     <li>SKU and parts catalogs</li>
                                     <li>Service-level agreements and entitlement rules</li>
                                     <li>Product documentation and troubleshooting guides</li>
@@ -350,20 +349,20 @@ export default function Page() {
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 With this intelligence, your teams can:
                             </p>
-                            <ol className="pl-4 list-disc text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
+                            <ol className="pl-4 list-disc text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium md:text-[20px] space-y-3">
                                 <li>
-                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Resolve recurring issues faster with intelligent copilots</h3>- Let’s say a customer reports a recurring failure on a specific part. Instead of sifting through past tickets, manuals, and email chains, the Agentforce copilot summarizes previous incidents, suggests the most likely fix, and surfaces relevant documentation instantly.
+                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px]">Resolve recurring issues faster with intelligent copilots</h3>- Let’s say a customer reports a recurring failure on a specific part. Instead of sifting through past tickets, manuals, and email chains, the Agentforce copilot summarizes previous incidents, suggests the most likely fix, and surfaces relevant documentation instantly.
                                 </li>
                                 <li>
-                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]" >Auto-route support cases based on product, SLA, and urgency</h3>-
+                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px]" >Auto-route support cases based on product, SLA, and urgency</h3>-
                                     A warranty claim for a CNC machine in one geography doesn’t need to sit in a general queue. Agentforce identifies the product type, region, urgency, and SLA, and routes it to the right service technician, dealer, or internal team member in real time.
                                 </li>
                                 <li>
-                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Make contextual upsell suggestions, not sales pitches</h3>-
+                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px]">Make contextual upsell suggestions, not sales pitches</h3>-
                                     If a customer is reporting consistent wear-and-tear on a component nearing the end of its lifecycle, the agent (or the bot) can proactively suggest an upgraded replacement, or a bundled maintenance plan based on past purchasing behavior or industry benchmarks.
                                 </li>
                                 <li>
-                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Reduce response and resolution time dramatically </h3>-
+                                    <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px]">Reduce response and resolution time dramatically </h3>-
                                      No more "We'll get back to you in 24 hours." With AI agents handling FAQs, documentation pulls, and triage, and human agents focused on the critical cases, resolution times drop drastically from hours to minutes in many cases.
                                 </li>
 
@@ -379,7 +378,7 @@ export default function Page() {
 
                             <div className="py-6"></div>
 
-                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px]">
+                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] leading-tight">
                                 Salesforce Agentforce Use Cases: Predictive Intelligence in Field Service and Maintenance
                             </h2>
 
@@ -389,20 +388,20 @@ export default function Page() {
 
                             <div className="py-4"></div>
 
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
+                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3 md:text-[20px]">
                                 <li>It predicts service needs before failures occur</li>
                                 <li>Automatically recommends dispatches with the right parts and technicians</li>
                                 <li>Keeps customers in the loop through automated updates via WhatsApp or email</li>
                             </ol>
                             <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Instead of waiting for problems to show up, you're already solving them. That’s predictive intelligence in action and a clear advantage over teams still chasing tickets.</p>
-                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10">
+                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
                                 Agentforce for Manufacturing Sales: Simplifying B2B with AI and Salesforce CPQ
                             </h2>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using smart agents integrated with Salesforce CPQ and Data Cloud.
                             </p>
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
+                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px] font-medium space-y-3">
                                 <li>It can pre-validate order feasibility based on available capacity and materials</li>
                                 <li>Pull real-time pricing and delivery estimates</li>
                                 <li>Auto-generate quotes and route them for fast internal approvals</li>
@@ -411,14 +410,14 @@ export default function Page() {
                             <p className="text-black mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 This way, you’re not just reducing friction, you’re giving your sales team room to grow accounts instead of chasing paperwork.
                             </p>
-                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10">
+                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
                                 Empower Distributors and Channel Partners with Self-Service Agents
                             </h2>
                             <h3 className="pb-4 h3-bold text-[17px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 Give partners real-time access to inventory, returns, and service tools
                             </h3>
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Distributors, resellers, and OEM partners are critical to your customer experience. In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on. Agentforce 3.0 for automotive manufacturers delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:</p>
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3 mt-5">
+                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px] font-medium space-y-3 mt-5">
                                 <li>Check current inventory status</li>
                                 <li>Initiate return or warranty claims</li>
                                 <li>Access technical documents like installation guides</li>
@@ -432,17 +431,17 @@ export default function Page() {
                                 Intelligently escalate only high-priority partner requests
                             </h3>
                             <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Agentforce steps up with smart routing whenever self-service hits a wall. Only complex or high-priority cases are escalated to human agents, ensuring quick resolution without bogging down your service teams. This gives you a faster, more empowered distribution network that strengthens your market reach with every interaction.</p>
-                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10">
+                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
                                 Real-Time Visibility, and Insights for Proactive Decision-Making
                             </h2>
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">The key to exceeding customer expectations? Responding before they ask. That requires visibility.</p>
                             <p className="mt-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Agentforce taps into Salesforce Manufacturing Cloud, Service Cloud, and ERP integrations to give you:</p>
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3 mt-5">
+                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[20px] font-medium space-y-3 mt-5">
                                 <li>Real-time dashboards on customer satisfaction scores, open service issues, and deal cycle bottlenecks</li>
                                 <li>AI summaries of customer sentiment pulled from emails, tickets, and chats</li>
                                 <li>Predictive insights on churn risk or repeat issues</li>
                             </ol>
-                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10">
+                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
                                 Don’t Just Deliver Products. Deliver Trust at Every Touchpoint
                             </h2>
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
@@ -451,7 +450,7 @@ export default function Page() {
                                 top-rated Salesforce Crest Partner</Link>,  we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce. </p>
                             <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Ready to see Agentforce in action for your manufacturing business? <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/" target="_blank">
                                 Let’s talk</Link>.</p>
-                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-12">
+                            <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-12 leading-tight">
                                 FAQs: Agentforce for AI-Powered Manufacturing Transformation
                             </h2>
                             <div className="mx-auto mt-5">
