@@ -43,14 +43,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const retailPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const lifeAiPlus = (await import(`../../messages/${locale}/services.json`)).default;
     const advantagePlus = (await import(`../../messages/${locale}/services.json`)).default;
-<<<<<<< Updated upstream
     const industry = (await import(`../../messages/${locale}/industry.json`)).default;
     const realEstate = (await import(`../../messages/${locale}/industry.json`)).default;
     const caseStudyIndivisual = (await import(`../../messages/${locale}/industry.json`)).default;
 
-=======
     const rialFinance = (await import(`../../messages/${locale}/services.json`)).default;
->>>>>>> Stashed changes
 
 
     return {
@@ -87,14 +84,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...retailPlus,
             ...lifeAiPlus,
             ...advantagePlus,
-<<<<<<< Updated upstream
             ...industry,
             ...realEstate,
             ...caseStudyIndivisual,
 
-=======
             ...rialFinance
->>>>>>> Stashed changes
         }
     };
 });
