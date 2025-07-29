@@ -16,9 +16,9 @@ export default function FAQAccordion({ faqData = [] }) {
             onClick={() => toggleAccordion(index)}
             className="w-full flex justify-between items-center py-4 text-left bg-gray-100"
           >
-            <span className="font-medium 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-gray-800 xl:pl-20 pl-10">
+            <h3 className="font-medium 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-gray-800 xl:pl-20 pl-10">
               {item.question}
-            </span>
+            </h3>
             <span className="text-black text-2xl xl:pr-20 pr-10">
               {openIndex === index ? (
                 <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">

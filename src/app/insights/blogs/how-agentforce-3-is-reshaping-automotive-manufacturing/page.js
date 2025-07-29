@@ -8,74 +8,74 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
-    
+
     "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-  },
-  "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
-  "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
-  "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2025-07-29",
-  "articleSection": "AI Automation",
-  "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Agentforce for Automotive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
-      }
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
     },
-    {
-      "@type": "Question",
-      "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
-      }
+    "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
+    "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
+    "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com"
     },
-    {
-      "@type": "Question",
-      "name": "How does Agentforce integrate with existing automotive systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
-      }
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
     },
-    {
-      "@type": "Question",
-      "name": "What use cases exist for Agentforce in automotive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the future of AI in automotive manufacturing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
-      }
-    }
-  ]
+    "datePublished": "2025-07-29",
+    "articleSection": "AI Automation",
+    "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Agentforce for Automotive?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does Agentforce integrate with existing automotive systems?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What use cases exist for Agentforce in automotive?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the future of AI in automotive manufacturing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
+            }
+        }
+    ]
 };
 const blogs = [
     {
@@ -317,7 +317,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Agentforce</span>
-                                <span className="text-[#ACACAC]"> | </span>28 July 2025
+                                <span className="text-[#ACACAC]"> | </span>29 July 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -418,7 +418,7 @@ export default function Page() {
                                             <Image src={item.icon} alt={item.title} width={200} height={112} className="xl:w-[300px] w-[100px]" />
                                         </div>
                                         <span>
-                                            <span className="xl:text-[22px] text-[16px] font-bold">{item.title}</span>
+                                            <h4 className="xl:text-[22px] text-[16px] font-bold">{item.title}</h4>
                                             <span className="text-gray-700 pl-3 xl:text-[22px] text-[16px] font-medium">{item.description}</span>
                                         </span>
                                     </div>
@@ -438,9 +438,9 @@ export default function Page() {
 
 
                             <ol className=" marker:text-xl text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li><span className="font-bold">1. Live Monitoring of Production Agents: </span> Get real-time alerts when an agent controlling robotic assembly lines faces anomalies.</li>
-                                <li><span className="font-bold">2. Performance Optimization:  </span> Identify bottlenecks, track error rates, and ensure your plant runs at maximum efficiency.</li>
-                                <li><span className="font-bold">3. Cross-Team Transparency: </span> View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents.</li>
+                                <li><h4 className="font-bold">1. Live Monitoring of Production Agents: </h4> Get real-time alerts when an agent controlling robotic assembly lines faces anomalies.</li>
+                                <li><h4 className="font-bold">2. Performance Optimization:  </h4> Identify bottlenecks, track error rates, and ensure your plant runs at maximum efficiency.</li>
+                                <li><h4 className="font-bold">3. Cross-Team Transparency: </h4> View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents.</li>
                             </ol>
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 Imagine diagnosing a welding mistake or an equipment fault before it halts your production line. Agentforce makes it possible with predictive insights and proactive recommendations.
@@ -453,16 +453,16 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">The Model Context Protocol (MCP) brings the “USB-C for AI agents” to automotive IT systems. For manufacturers juggling multiple platforms such as ERP, MES, PLM, and IoT dashboards. MCP acts as the universal adapter.</p>
 
                             <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
-                                <li><span className="font-bold">Seamless API Integration:</span> Instantly convert manufacturing APIs into agent-compatible services via MuleSoft.  </li>
-                                <li><span className="font-bold">Custom Tool Connections:</span> Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms.</li>
-                                <li><span className="font-bold">Secure Collaboration in Slack:</span> Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules.</li>
+                                <li><h4 className="font-bold">Seamless API Integration:</h4> Instantly convert manufacturing APIs into agent-compatible services via MuleSoft.  </li>
+                                <li><h4 className="font-bold">Custom Tool Connections:</h4> Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms.</li>
+                                <li><h4 className="font-bold">Secure Collaboration in Slack:</h4> Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules.</li>
                             </ol>
 
 
 
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.</p>
 
-                                <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.</p>
+                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.</p>
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
                                 Revolutionize Quality and Compliance
                             </h2>
@@ -492,21 +492,22 @@ export default function Page() {
                             </h3>
 
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 mt-0 xl:mt-10 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-black  border-black">
-  {features.map((item, index) => (
-    <div
-      key={index}
-      className={`py-6 xl:py-0 ${index === 0 ? 'pr-6' : 'xl:pl-6 xl:pr-5 md:pl-10'}`}
-    >
-      <p className="text-[#0067B9] font-semibold 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">
-        {item.title}
-        <span className="text-black font-normal 4xl:text-[22px] xl:text-[20px] text-[16px]">
-          {item.description}
-        </span>
-      </p>
-    </div>
-  ))}
-</div>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 mt-0 xl:mt-10 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-black  border-black">
+                                {features.map((item, index) => (
+                                    <div
+                                        key={index}
+                                        className={`py-6 xl:py-0 ${index === 0 ? 'pr-6' : 'xl:pl-6 xl:pr-5 md:pl-10'}`}
+                                    >
+                                        <h4 className="text-[#0067B9] font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight pl-2">
+                                            {item.title}
+                                           
+                                            <span className="text-black font-normal 4xl:text-[22px] xl:text-[20px] text-[16px] pl-2">
+                                                {item.description}
+                                            </span>
+                                        </h4>
+                                    </div>
+                                ))}
+                            </div>
 
                             <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to AI adoption with Agentforce for automotive manufacturing.
