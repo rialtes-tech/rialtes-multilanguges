@@ -200,14 +200,14 @@ export default function Page() {
       />
 
       {/* hero section */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agents-as-teammates-mob-img.webp"
+            src="/images/blog/agents-as-teammates-desk-img.webp"
             alt="desktop banner"
             fill
-            style={{ objectFit: "cover", objectPosition: "35% 30%" }}
+            style={{ objectFit: "cover", objectPosition: "55% 10%" }}
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
           />
@@ -216,7 +216,7 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/blog/agents-as-teammates-desk-img.webp"
+            src="/images/blog/agents-as-teammates-mob-img.webp"
             alt="mobile banner"
             fill
             style={{ objectFit: "cover", objectPosition: "60% 20%" }}
@@ -226,7 +226,7 @@ export default function Page() {
       </section>
 
       <section className="custom-container">
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
           <div>
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className="sm:mb-0 mb-6">
@@ -305,14 +305,14 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div>
-            <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[850px] font-semibold pb-6 leading-tight text-[26px] xl:text-[45px] 4xl:text-[58px]">
+            <h1 className="text-[#000000] pb-6 leading-tight text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px]">
               Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0
             </h1>
           </div>
 
           <div>
             <div>
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                 Agentforce agents do more than just gather data and
                 insights—they provide fully customizable and independent AI
                 functionalities that can link to any enterprise data and act on
@@ -328,37 +328,37 @@ export default function Page() {
 
               <div className="py-4"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px]  xl:text-[21px] text-[23px] pb-4 leading-tight">
                 Features of Agentforce for Better Slack Experience
               </h2>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  xl:text-[20px] text-[16px] font-medium ">
-                <li>
-                  <h3 className="h3-bold inline">Task Automation</h3>: Agents
+              <ul className="list-disc   marker:text-[#0092E0]  pl-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px] font-medium ">
+                <li className="pb-4  ">
+                  <h3 className="h3-bold inline   4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Task Automation</h3>: Agents
                   can automate repetitive processes, like creating follow-up
                   tasks after meetings or logging updates in Salesforce.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">Data Retrieval</h3>: Need to
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Data Retrieval</h3>: Need to
                   know the latest sales figures or account status? Simply ask
                   the agent, and it’ll pull real-time data from Salesforce or
                   other connected platforms.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">Workflow Orchestration</h3>:
+                <li className="pb-4  ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Workflow Orchestration</h3>:
                   Agents can manage complex workflows, ensuring the right people
                   are notified and the correct steps are executed at the right
                   time.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">
+                <li className="pb-4  ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                     Insights and Recommendations
                   </h3>
                   : Agents analyze data trends and suggest actionable insights,
                   helping teams make informed decisions faster.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">
+                <li className=" ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                     Natural Language Interaction
                   </h3>
                   : Communicate with agents just as you would with a human
@@ -368,11 +368,11 @@ export default function Page() {
 
               <div className="py-4"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px]  xl:text-[21px] text-[23px] pb-4 leading-tight">
                 The Role of Agentforce in Slack
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">
                 Harnessing the power of relevant Slack conversations and your
                 trusted enterprise data, Agentforce provides actionable
                 suggestions and executes tasks seamlessly within your workflow.
@@ -384,7 +384,7 @@ export default function Page() {
                 through intelligent insights.
               </p>
 
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">
                 Agentforce harnesses Slack’s unique role as a central
                 collaboration hub. By combining Slack’s real-time messaging with
                 contextual data from integrated systems, intelligent agents
@@ -396,39 +396,39 @@ export default function Page() {
 
               <div className="py-4"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]  2xl:text-[24px]  xl:text-[21px] text-[23px] pb-4 leading-tight">
                 What Agentforce 2.0 Brings to Slack?
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">
                 The newly unveiled Salesforce Agentforce 2.0, built on the
                 Salesforce Customer 360 platform, introduces a suite of powerful
                 features to streamline workflows and boost service efficiency
                 for organizations.
               </p>
 
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] font-medium">
-                <li>
-                  <h3 className="h3-bold inline">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+                <li className="pb-4  ">
+                  <h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                     Real-Time Conversational Support
                   </h3>
                   : AI agents deliver instant responses, enhancing the speed and
                   effectiveness of customer support.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">Workflow Automation</h3>:
+                <li className="pb-4  ">
+                  <h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Workflow Automation</h3>:
                   Automates routine tasks, freeing up human employees for more
                   complex responsibilities.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">
+                <li className="pb-4  ">
+                  <h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                     Predictive Analytics and Machine Learning
                   </h3>
                   : Anticipates needs to elevate customer satisfaction and
                   ensure smooth operations.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline">Atlas Reasoning Engine</h3>:
+                <li className=" ">
+                  <h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Atlas Reasoning Engine</h3>:
                   Empowers AI agents with advanced reasoning skills, enabling
                   them to handle complex tasks with greater autonomy and
                   precision.
@@ -437,11 +437,11 @@ export default function Page() {
 
               <div className="py-4"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4  leading-tight">
                 Integrate Agents into Slack to Transform them into Teammates
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">
                 No need to log into a separate AI application—Slack seamlessly
                 integrates agents into your team’s existing workflows, allowing
                 users to interact with them just like they would with any other
@@ -451,7 +451,7 @@ export default function Page() {
                 companies.
               </p>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px] xl:text-[17px]">
                 In Slack, agents are as accessible as teammates. You can view
                 their skills, explore their capabilities, and even @mention them
                 to bring them into channels or direct messages. Think of it as
@@ -459,7 +459,7 @@ export default function Page() {
                 Slack—making collaboration smarter and more efficient.
               </p>
 
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">
                 At Dreamforce, Slack demonstrated how a sales team uses an RFP
                 Agent to speed up sales cycles. In a Salesforce-connected Slack
                 channel, whenever a BDR creates a new opportunity, the RFP Agent
@@ -472,51 +472,51 @@ export default function Page() {
 
               <div className="py-4"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4 leading-tight">
                 Bring Agentforce to Slack to Streamline Support Across Business
                 Functions
               </h2>
 
-              <ul className="list-none text-black xl:text-[20px] text-[16px] font-medium">
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">HR Agent</h3>: Enhance
+              <ul className="list-none text-black  4xl:text-[20px]   2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">HR Agent</h3>: Enhance
                   onboarding, benefits management, and personalized career
                   guidance by automating these tasks.
                 </li>
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">IT Agent</h3>: Resolve help
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline   4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">IT Agent</h3>: Resolve help
                   desk tickets, run incident communications, and address issues
                   in real time.
                 </li>
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">Service Agent</h3>: Identify
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Service Agent</h3>: Identify
                   experts, access historical knowledge, and collaborate to
                   resolve customer issues efficiently.
                 </li>
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">Sales Agent</h3>: Prepare
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Sales Agent</h3>: Prepare
                   executive briefings, craft proposals, and proactively engage
                   with customers to drive growth.
                 </li>
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">Marketing Agent</h3>: Optimize
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Marketing Agent</h3>: Optimize
                   campaigns, generate content, and collaborate on strategic
                   marketing plans.
                 </li>
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">Legal Agent</h3>: Simplify
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline   4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Legal Agent</h3>: Simplify
                   regulatory and compliance processes with automation for
                   seamless approvals.
                 </li>
-                <li className="pb-4">
-                  <h3 className="h3-bold inline ">
+                <li className="pb-4 ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                     Product and Engineering Agent
                   </h3>
                   : Boost agility by assisting in planning, design, development,
                   and quality assurance.
                 </li>
-                <li>
-                  <h3 className="h3-bold inline ">
+                <li className=" ">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                     Supply Chain Management Agent
                   </h3>
                   : Manage suppliers, automate warehouse operations, and improve
@@ -526,11 +526,11 @@ export default function Page() {
 
               <div className="py-4"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4 leading-tight">
                 Collaborate your Humans and Agents Seamlessly
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px] text-[16px] xl:text-[17px]">
                 The future of digital labor shines bright with Salesforce’s
                 unwavering commitment to AI. CEO Marc Benioff has unveiled
                 ambitious expansion plans, including the hiring of 2,000 new
@@ -543,7 +543,7 @@ export default function Page() {
                 relies heavily on the robust infrastructure that supports them.
               </p>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">
                 We help you develop, customize, and deploy autonomous AI agents
                 for sales, marketing, service, and e-commerce-related tasks with
                 the Agentforce platform. With Rialtes, enterprises can ensure

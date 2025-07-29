@@ -198,7 +198,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative  h-[350px] md:h-[500px]  4xl:h-[650px] overflow-hidden">
         <Image
           src="/images/blog/athenahealth-salesforce-integration.webp "
           alt="Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
@@ -209,7 +209,7 @@ export default function Page() {
       </section>
 
       <section className="custom-container">
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className="sm:mb-0 mb-6">
@@ -272,7 +272,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className="">
-            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[750px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">
+            <h1 className="text-[#000000]  pb-6  leading-tight text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px]">
               Automate Your Healthcare Organization with athenahealth and
               Salesforce Integration
             </h1>
@@ -280,7 +280,7 @@ export default function Page() {
 
           <div className="">
             <div className="">
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Historical evidence strongly indicates that a healthcare
                 industry fragmented by disparate systems results in operational
                 inefficiencies, duplicative work, patient safety issues, and
@@ -292,7 +292,7 @@ export default function Page() {
                 data operations to enhance their CRM systems.
               </p>
 
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Athena EMR provides user-friendly EHR services to over 67,000
                 medical and healthcare organizations in the United States.
                 Combining Athena Health’s electronic health record (EHR)
@@ -305,11 +305,11 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px]  xl:text-[21px] text-[23px] leading-tight pb-4">
                 Understanding athenahealth
               </h2>
 
-              <p className="text-black ">
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                 athenahealth is a cloud-based electronic health record (EHR)
                 system designed to support healthcare providers in enhancing
                 patient care. Its user-friendly interface allows access from any
@@ -328,11 +328,11 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 athenahealth and Salesforce Health Cloud Integration
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Both athenahealth and Salesforce have strong capabilities, but
                 when used together, they provide a more comprehensive view of
                 patient interactions and data across the healthcare journey.
@@ -340,11 +340,11 @@ export default function Page() {
                 ways.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Unified Patient Profiles
               </h3>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 With integration, healthcare providers gain a unified patient
                 profile, combining clinical data from athenahealth with CRM data
                 from Salesforce. This allows providers to view medical
@@ -354,11 +354,11 @@ export default function Page() {
                 historical and real-time data.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Enhanced Care Coordination
               </h3>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Care teams benefit from real-time updates on patients’ health
                 conditions and treatment plans for better coordination. When
                 patients receive treatment, Salesforce can alert care teams to
@@ -366,11 +366,11 @@ export default function Page() {
                 patients are on track with their care plans.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Streamlined Scheduling and Billing Processes
               </h3>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Patient scheduling and billing can often be cumbersome and
                 time-consuming. The integration simplifies this process by
                 automatically synchronizing scheduling and billing data.
@@ -380,11 +380,11 @@ export default function Page() {
                 and errors.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Improved Patient Communication
               </h3>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Salesforce allows customized patient outreach through automated
                 emails, SMS, and calls, making appointment reminders, follow-up
                 messages, and wellness check-ins easy to manage. Integration
@@ -393,11 +393,11 @@ export default function Page() {
                 patient satisfaction.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Enhanced Data Analytics and Reporting
               </h3>
 
-              <p className="text-black ">
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                 Salesforce’s advanced reporting capabilities, combined with
                 Athenahealth’s EHR data, enable healthcare providers to create
                 detailed reports for better insights into patient demographics,
@@ -408,23 +408,23 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]  2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 How the Integration Works for Better Data Connections and
                 Patient Communication
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Integrating athenahealth and Salesforce involves API connections
                 that synchronize data between the two platforms. The integration
                 can be custom-built by developers or facilitated by third-party
                 applications that specialize in healthcare CRM integrations.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Data Mapping and Synchronization
               </h3>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Synchronizing data between athenahealth and Salesforce requires
                 careful data mapping to ensure that information from EHR records
                 is accurately reflected in CRM fields. Patient demographics,
@@ -432,22 +432,22 @@ export default function Page() {
                 updated in real-time, allowing both systems to remain aligned.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Automated Workflow Management
               </h3>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Salesforce workflows can trigger notifications, reminders, or
                 task assignments based on Athenahealth data. For instance, if a
                 patient’s lab results require immediate follow-up, Salesforce
                 can automatically create tasks and reminders for the care team.
               </p>
 
-              <h3 className="text-black pb-4 h3-bold">
+              <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Secure Data Management and Compliance
               </h3>
 
-              <p className="text-black ">
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                 The integration between athenahealth and Salesforce must comply
                 with regulations like HIPAA. Both systems have built-in security
                 and compliance protocols, but the integration layer should also
@@ -457,14 +457,14 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 Use Cases in Healthcare
               </h2>
 
               <div className="pl-3">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium ">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black   4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium ">
                   <li className="pb-4">
-                    <h4 className="inline">
+                    <h4 className="inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                       Patient Onboarding and Registration{" "}
                     </h4>{" "}
                     : New patients can fill out forms and provide information
@@ -473,7 +473,7 @@ export default function Page() {
                     errors.
                   </li>
                   <li className="pb-4">
-                    <h4 className="inline">
+                    <h4 className="inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                       Synchronized Patient Information Management{" "}
                     </h4>{" "}
                     : It enhances the interchangeability of patient information
@@ -482,7 +482,7 @@ export default function Page() {
                   </li>
 
                   <li className="pb-4">
-                    <h4 className="inline">
+                    <h4 className="inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                       Proactive Patient Outreach and Wellness Programs{" "}
                     </h4>{" "}
                     : By using Salesforce’s marketing tools, healthcare
@@ -492,7 +492,7 @@ export default function Page() {
                   </li>
 
                   <li className="pb-4">
-                    <h4 className="inline">
+                    <h4 className="inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                       Chronic Disease Management Programs{" "}
                     </h4>{" "}
                     : For patients managing chronic conditions, frequent
@@ -503,7 +503,7 @@ export default function Page() {
                   </li>
 
                   <li>
-                    <h4 className="inline">Population Health Management </h4> :
+                    <h4 className="inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Population Health Management </h4> :
                     Athenahealth’s clinical data combined with Salesforce’s CRM
                     insights empowers healthcare providers to analyze population
                     health trends. This enables providers to target high-risk
@@ -513,11 +513,11 @@ export default function Page() {
               </div>
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 Find the Perfect Fit for Your Healthcare Needs
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 You can securely connect and access data through APIs, enabling
                 you to manage all patient records, from demographic history to
                 post-discharge condition, on a single platform. This streamlined
@@ -525,7 +525,7 @@ export default function Page() {
                 and Salesforce.
               </p>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                 Offer the best possible care to your patients, improve care
                 coordination, and reduce the likelihood of medical errors. A
                 dedicated team like ours delivers advanced Salesforce solutions

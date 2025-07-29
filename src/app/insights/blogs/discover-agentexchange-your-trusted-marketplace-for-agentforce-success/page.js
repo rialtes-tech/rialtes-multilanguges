@@ -159,9 +159,9 @@ export default function Page() {
         className="
        custom-container"
       >
-        <div className="py-10 bg-white">
-          <div className=" mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
+          <div className=" ">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className="sm:mb-0 mb-6">
                 <span className="text-[#0092E0]">Agentforce</span>
                 <span className="text-[#ACACAC] text-[16px] md:text-[20px] xl:text-[20px]"> | </span>02 July 2025
@@ -221,15 +221,14 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div className=" mx-auto">
-            <h1 className="text-[#000000]  leading-tight text-[26px]  2xl:text-[48px] xl:text-[42px] 4xl:text-[60px]  pb-6 
-            xl:w-[830px] 4xl:w-[1084px]">
+            <h1 className="text-[#000000]  leading-tight text-[26px]  2xl:text-[48px] xl:text-[42px] 4xl:text-[60px]  pb-6 md:text-[28px]">
               Discover AgentExchange: Your Trusted Marketplace for Agentforce
               Success
             </h1>
           </div>
 
-          <div className=" mx-auto">
-            <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
+          <div className=" ">
+            <div className="">
               <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Salesforce has once again raised the bar in AI-driven business
                 solutions with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/in/news/press-releases/2025/03/04/agentexchange-announcement/" target="_blank">launch of AgentExchange</Link> , a dedicated
@@ -251,7 +250,7 @@ export default function Page() {
 
               <div className="py-6 "></div>
 
-              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[23px] leading-tight">
                 Understanding AgentExchange by Salesforce
               </h2>
 
@@ -284,19 +283,19 @@ export default function Page() {
                     business functions.
                   </li>
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    <h3 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
                       Customization & Development Tools
                     </h3>
                     : Leverage powerful tools to fine-tune AI agents to meet
                     specific enterprise needs.
                   </li>
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Community Collaboration</h3>: Connect with
+                    <h3 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Community Collaboration</h3>: Connect with
                     industry experts, developers, and fellow users to share best
                     practices and insights.
                   </li>
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Trusted Marketplace</h3>:
+                    <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Trusted Marketplace</h3>:
                     Browse and integrate
                     AI agents verified for security, compliance, and scalability.
                   </li>
@@ -306,7 +305,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[23px] leading-tight">
                 What Led to a Dedicated Marketplace?
               </h2>
 
@@ -320,17 +319,17 @@ export default function Page() {
 
               <ol className=" text-black md:text-[20px] text-[16px] font-medium space-y-3 list-none   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 <li>
-                  <h3 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Accelerate AI Adoption</h3>: Businesses can rapidly
+                  <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Accelerate AI Adoption</h3>: Businesses can rapidly
                   implement AI agents without extensive development efforts.
                 </li>
                 <li>
-                  <h3 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Ensure Compliance & Security</h3>:
+                  <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Ensure Compliance & Security</h3>:
                   All agents
                   available on AgentExchange undergo rigorous security
                   assessments, ensuring compliance with industry standards.
                 </li>
                 <li>
-                  <h3 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Promote Innovation</h3>:
+                  <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Promote Innovation</h3>:
                   Developers and businesses
                   can contribute and commercialize AI agents, fostering a thriving
                   AI ecosystem.
@@ -341,11 +340,11 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px]  md:text-[24px] text-[20px]">
+              <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px]  md:text-[24px] text-[23px] leading-tight">
                 Explore All New Features That Come with AgentExchange{" "}
               </h2>
 
-              <h3 className="pb-4 mt-6 h3-bold text-[17px] md:text-[22px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Introducing New Partner-Built Components on AgentExchange
               </h3>
 
@@ -360,7 +359,7 @@ export default function Page() {
 
                 <ol className="list-decimal   marker:text-xl text-black md:text-[20px] text-[16px] font-medium space-y-3   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                       Actions
                     </h4>
                     : Extend what agents can do by
@@ -368,7 +367,7 @@ export default function Page() {
                     industry-specific automation.
                   </li>
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                       Prompt Template
                     </h4>
                     : Leverage pre-written,
@@ -376,12 +375,12 @@ export default function Page() {
                     engagement, and streamline information gathering.
                   </li>
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Topics</h4>: Group-related actions and
+                    <h4 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Topics</h4>: Group-related actions and
                     instructions to refine agent behavior, ensuring focus,
                     consistency, and adherence to best practices.
                   </li>
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Agent Templates</h4>:
+                    <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Agent Templates</h4>:
                     Build comprehensive AI
                     solutions by combining multiple topics, actions, and metadata
                     into structured, scalable agent models.
@@ -390,19 +389,19 @@ export default function Page() {
 
 
               </div>
-              <h3 className="pb-4 mt-6 h3-bold text-[17px] md:text-[22px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Seamless AI Solution Discovery and Deployment
               </h3>
 
               <ol className="  text-black md:text-[20px] text-[16px] font-medium space-y-3 list-none  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 <li>
-                  <h4 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Easily Find, Try, and Buy AI Solutions</h4>: AgentExchange simplifies the discovery and deployment of trusted
+                  <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Easily Find, Try, and Buy AI Solutions</h4>: AgentExchange simplifies the discovery and deployment of trusted
                   AI solutions. Customers can explore offerings through the
                   marketplace or within Salesforce’s Agent Builder tool, ensuring
                   the right fit for their industry and use case.
                 </li>
                 <li>
-                  <h4 className="h3-bold inline md:text-[20px] text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]" >Pre-Built CRM and Slack Actions</h4>:
+                  <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]" >Pre-Built CRM and Slack Actions</h4>:
                   Partners can
                   now offer out-of-the-box Agentforce actions, including Slack
                   capabilities. These pre-packaged solutions support tasks like
@@ -410,7 +409,7 @@ export default function Page() {
                   direct messaging, streamlining enterprise workflows.
                 </li>
                 <li>
-                  <h4 className="h3-bold inline md:text-[20px] text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Industry-Specific AI Solutions</h4>:
+                  <h4 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Industry-Specific AI Solutions</h4>:
                   Businesses can
                   leverage pre-built, customizable AI agents from expert
                   Salesforce partners. Every solution undergoes rigorous security
@@ -423,7 +422,7 @@ export default function Page() {
 
 
 
-              <h3 className="pb-4 mt-6 h3-bold text-[17px] md:text-[22px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Fostering Collaboration and Innovation
               </h3>
 
@@ -435,7 +434,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[23px] leading-tight">
                 Industries and Departments That Can Benefit from AgentExchange
               </h2>
 
@@ -454,7 +453,7 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[20px]">
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] md:text-[24px] text-[23px] leading-tight">
                 Availability and Adoption of AgentExchange
               </h2>
 
