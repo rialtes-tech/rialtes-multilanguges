@@ -89,8 +89,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...industry,
             ...realEstate,
             ...caseStudyIndivisual,
-
-            ...rialFinance
             ...rialFinance,
             ...lifeScience
         }
