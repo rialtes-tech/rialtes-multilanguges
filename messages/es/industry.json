@@ -612,6 +612,643 @@
     "salesforceDesc": "Agentforce, la solución avanzada de Salesforce de Rialtes, ayuda a los equipos de ventas, asuntos médicos y soporte farmacéutico a:",
     "salesforceBlueBox": "Agentforce mejora la eficacia del equipo de campo y garantiza interacciones personalizadas y conformes con HCP.",
     "contactTitle": "¡Asóciate con Rialtes — Habilitando la Excelencia de Próxima Generación en Farmacéutica y Biotecnología!"
-  }
+  },
+  "semiconductor": {
+    "headerTitle": "Industria de Semiconductores",
+    "subTitleOne": "Impulsando",
+    "subTitleTwo": "la Innovación en Semiconductores",
+    "subTitleThree": "con una Transformación Digital",
+    "subTitleFour": "de Extremo a Extremo",
+    "powerTitle": "Impulsando la Innovación en Semiconductores con Soluciones Empresariales Inteligentes",
+    "powerDesc": "La industria de los semiconductores está evolucionando rápidamente, impulsada por la IA, el IoT y las demandas de la cadena de suministro global. Rialtes ayuda a las empresas de semiconductores a mantenerse a la vanguardia con soluciones impulsadas por SAP y Salesforce que optimizan el diseño, la producción, el cumplimiento y la colaboración con los clientes.",
+    "powerDescOne": "Como socio de consultoría certificado, ofrecemos servicios integrales que abarcan asesoría, implementación, integración y soporte posterior al lanzamiento.",
+    "thoughtTitle": "Liderazgo de Pensamiento",
+    "thoughtSubTitle": "Futuro Digital e Impulsado por IA para los Semiconductores",
+    "thoughtDesc": "En Rialtes, aportamos un profundo conocimiento de los procesos de semiconductores y plataformas tecnológicas de primer nivel para abordar las necesidades únicas de la industria, incluyendo:",
+    "thoughtDescOne": "Integramos SAP S/4 HANA, Salesforce Industry Clouds y soluciones de IA para permitir una toma de decisiones más inteligente, una llegada más rápida al mercado y una mayor conformidad.",
+    "thoughtData": [
+      "Integración del proceso de fabricación con sistemas empresariales para el control de rendimiento, costos y calidad.",
+      "Gestión de cumplimiento normativo complejo, generación de hojas de datos y certificaciones de seguridad en mercados globales.",
+      "Habilitación de manufactura por contrato, empaquetado, pruebas y orquestación de la cadena de suministro.",
+      "Optimización del diseño, validación y producción impulsada por IA en todo el ciclo de vida del semiconductor."
+    ],
+
+    "endTitle": "Procesos de Semiconductores de Extremo a Extremo",
+    "endDesc": "Habilitados Digitalmente con Rialtes",
+    "endToEndData": [
+      {
+        "title": "Especificaciones del Cliente y Diseño Inicial",
+        "desc": "El recorrido comienza con los requisitos técnicos del cliente, hojas de datos y especificaciones regulatorias. Las empresas requieren:",
+        "dataList": [
+          "Plataformas sólidas de gestión de especificaciones del cliente.",
+          "Sistemas de configuración, diseño y colaboración en ingeniería.",
+          "Integración de estándares de cumplimiento y certificación (RoHS, REACH, CE)."
+        ]
+      },
+      {
+        "title": "Procesos de Fábrica y Gestión de Fundiciones",
+        "desc": "Apoyamos a las fundiciones de semiconductores e IDMs (Fabricantes de Dispositivos Integrados) para optimizar los procesos de fabricación:",
+        "dataList": [
+          "Fabricación de obleas alineada con objetivos de nodo de proceso (por ejemplo, 3nm, 5nm).",
+          "Gestión de creación de máscaras, programación de fábrica y optimización del rendimiento.",
+          "Integración de estándares basados en IP como Bluetooth, PCI-Express, Cellular, IEEE 1588, Wi-Fi, entre otros.",
+          "Captura y análisis de datos de procesos en tiempo real para optimizar calidad y costos."
+        ]
+      },
+      {
+        "title": "Diseño, Verificación y Validación (V&V)",
+        "desc": "",
+        "dataList": [
+          "Integración total de herramientas EDA para RTL, layout y validación post-silicio.",
+          "Preparación para tape-out y verificaciones DRC/LVS.",
+          "Gestión del cumplimiento de hojas de datos, certificaciones de seguridad y protocolos de prueba.",
+          "Análisis de defectos y predicción del rendimiento habilitados por IA."
+        ]
+      },
+      {
+        "title": "Ensamblaje, Empaquetado y Pruebas (APT)",
+        "desc": "",
+        "dataList": [
+          "Soporte para diseño de chiplets y empaquetado avanzado (2.5D, 3D IC).",
+          "Procesos para wire-bonding, flip-chip, empaquetado a nivel de oblea.",
+          "Pruebas finales completas, validación y clasificación de defectos."
+        ]
+      },
+      {
+        "title": "Fabricación por Contrato y Colaboración con Fundiciones Externas",
+        "desc": "",
+        "dataList": [
+          "Gestión de fabricantes por contrato (CMs) y socios de fundición.",
+          "Integración de demanda, órdenes de producción, logística y cumplimiento.",
+          "Registro de acuerdos y seguimiento de diseño ganador para chips específicos del cliente."
+        ]
+      }
+    ],
+    "foundryTitle": "Apoyo a Fundiciones de Semiconductores y Operaciones Externalizadas",
+    "foundryDesc": "La fabricación de semiconductores es cada vez más colaborativa y distribuida. Rialtes ayuda a las empresas a gestionar:",
+    "semiconductorFoundryData": [
+      "Externalización de fundiciones y visibilidad de la cadena de suministro de obleas.",
+      "Integración con proveedores de servicios de ensamblaje y pruebas (ATSP).",
+      "Gestión de riesgos de suministro, control de calidad y cumplimiento entre socios.",
+      "Información en tiempo real sobre los tiempos de ciclo de producción y la capacidad."
+    ],
+    "topTitle": "4 Principales Desafíos Estratégicos que Enfrenta la Industria de los Semiconductores Hoy",
+    "strategicData": [
+      {
+        "id": "1",
+        "title": "Restricciones en la Capacidad y la Cadena de Suministro",
+        "dataList": [
+          "Demanda volátil y capacidades limitadas de las fundiciones.",
+          "Escasez de sustratos, empaques y disponibilidad de pruebas.",
+          "Dificultad para gestionar redes de proveedores multinivel."
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Complejidad Regulatoria y de Cumplimiento",
+        "dataList": [
+          "Mandatos globales como RoHS, REACH, Minerales en Conflicto, ITAR y Controles de Exportación.",
+          "Dificultad para mantener hojas de datos y certificaciones en cumplimiento.",
+          "Necesidad de trazabilidad y documentación lista para auditorías."
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Ciclo de Vida del Producto y Presión del Tiempo de Lanzamiento al Mercado",
+        "dataList": [
+          "Evolución rápida de estándares (PCIe, Wi-Fi, Bluetooth, 5G, IEEE 1588).",
+          "Ciclos de diseño más cortos y necesidad de transiciones más rápidas de prototipo a producción.",
+          "Modificaciones específicas del cliente y diseños basados en acuerdos que requieren adaptación rápida."
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Ecosistema Complejo de Fabricación por Contrato y Pruebas",
+        "dataList": [
+          "Gestión de fabricación y pruebas entre múltiples partes.",
+          "Garantizar la seguridad de IP y el cumplimiento de calidad.",
+          "Alinear ERP, PLM y redes de socios en tiempo real."
+        ]
+      }
+    ],
+    "learnMore": "Aprende más",
+    "deepTitle": "Conocimiento Profundo de la Industria en SAP S/4 HANA y Salesforce para Semiconductores",
+    "deepDesc": "En Rialtes, ofrecemos experiencia especializada en la implementación de soluciones SAP S/4 HANA y Salesforce Industry Cloud, específicamente adaptadas para empresas de semiconductores que navegan por el complejo y exigente mundo del diseño, fabricación, prueba y distribución de chips.",
+    "deepDescOne": "Nuestro conocimiento va más allá de los sistemas empresariales tradicionales: entendemos las complejas conexiones entre las operaciones de fábricas, los diseños personalizados para clientes, la fabricación por contrato y los mandatos de cumplimiento en evolución. Ayudamos a las organizaciones de semiconductores a alinear equipos de ingeniería, producción, ventas y cadena de suministro global bajo una estrategia digital unificada.",
+    "commonSectionData": [
+      {
+        "title": "SAP S/4 HANA para la Excelencia en la Fabricación de Semiconductores",
+        "desc": "SAP S/4 HANA actúa como una columna vertebral ERP centralizada e inteligente para las empresas de semiconductores que buscan optimizar las operaciones de fábrica, la colaboración con fundiciones y los procesos de ensamblaje/prueba, al tiempo que garantizan el cumplimiento financiero y normativo.",
+        "keyData": [
+          "Gestión integral de la cadena de suministro y producción de obleas integrada con datos en tiempo real del piso de producción en fábricas y fundiciones.",
+          "Trazabilidad de materiales y seguimiento de genealogía de lotes para obleas de semiconductores, chips, sustratos y empaques.",
+          "Seguimiento del rendimiento y análisis de control de calidad integrados en cada etapa del ciclo de fabricación, desde conjuntos de máscaras hasta circuitos integrados terminados.",
+          "Automatización del cumplimiento normativo para mandatos globales (RoHS, REACH, controles de exportación e ITAR).",
+          "Costeo, rentabilidad y reconocimiento de ingresos vinculados directamente al rendimiento de producción, acuerdos específicos con clientes y modelos de precios por volumen.",
+          "Gestión de garantías, devoluciones y servicios para productos semiconductores B2B y B2C, incluyendo soporte para componentes de ciclo de vida largo."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+      },
+      {
+        "title": "Salesforce Industry Cloud para la Relación con Clientes y Socios en Semiconductores",
+        "desc": "Salesforce Industry Cloud, adaptado para empresas de semiconductores, permite a los equipos de cara al cliente gestionar sin problemas proyectos de diseño, requisitos del cliente y asociaciones técnicas a largo plazo, brindando agilidad y visibilidad a cada interacción.",
+        "keyData": [
+          "Gestión integral de registro de negocios, oportunidades y proyectos de diseño, para dar seguimiento a compromisos específicos del cliente y proyectos de desarrollo de chips personalizados.",
+          "Gestión de relaciones con socios (PRM) para canales de distribución, distribuidores y fundiciones — todos alineados con ciclos de ingeniería y ventas.",
+          "Gestión de precios personalizados, reembolsos y programas de incentivos integrados con datos de ERP y fabricación.",
+          "Gestión de soporte al cliente, RMA y casos de servicio técnico, incluyendo seguimiento de escalaciones y análisis basado en IA.",
+          "Pronóstico inteligente y planificación de la demanda impulsados por insights de interacción con clientes y análisis de IA/ML de los embudos de ventas y diseño."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+      },
+      {
+        "title": "Integración Unificada de SAP y Salesforce",
+        "subtitle": "Una Vista 360° de las Operaciones de Semiconductores",
+        "desc": "Combinando SAP S/4 HANA y Salesforce Industry Cloud, Rialtes ofrece una visión integrada de los datos de producto, cliente y operaciones — eliminando silos entre los equipos de ingeniería, fabricación, ventas y finanzas.",
+        "keyData": [
+          "Introducción más rápida de nuevos productos (NPI) mediante gestión colaborativa desde el diseño hasta la entrega.",
+          "Pronóstico de demanda preciso y alineación de producción basada en oportunidades reales de clientes y proyectos de diseño confirmados.",
+          "Mayor satisfacción y fidelización del cliente gracias a un servicio proactivo, tiempos de entrega transparentes y cumplimiento de pedidos personalizados.",
+          "Cumplimiento normativo y preparación para auditorías optimizados, abarcando desde certificaciones ambientales hasta licencias de exportación.",
+          "Visibilidad de extremo a extremo desde la especificación del cliente hasta la producción de obleas, ensamblaje y envío final, asegurando capacidad de respuesta y mitigación de riesgos."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+      }
+    ],
+    "keyTitle": "Resultados Clave del Negocio a partir de la Integración:",
+    "keyTitleOne": "Capacidades Clave:",
+    "aiTitle": "Innovación Impulsada por IA en Semiconductores",
+    "aiDesc": "Impacto Práctico",
+    "aiDescOne": "La Inteligencia Artificial (IA) está revolucionando la industria de los semiconductores, transformando fundamentalmente cómo las empresas diseñan, fabrican, prueban y gestionan semiconductores en los mercados que evolucionan rápidamente. Desde la optimización del diseño de chips hasta el análisis predictivo del rendimiento, la IA está ayudando a los fabricantes de semiconductores a reducir costos, mejorar la calidad, acelerar el tiempo de comercialización y enfrentar la creciente complejidad de chips avanzados como aceleradores de IA, SoCs y módems 5G.",
+    "areaTitle": "Áreas Clave Donde la IA Está Transformando la Industria de Semiconductores:",
+    "keyAreasData": [
+      {
+        "title": "Diseño y Verificación de Chips Impulsados por IA",
+        "desc": "Diseñar chips de próxima generación (como procesadores de IA, GPUs, chips automotrices o ICs 5G) requiere gestionar miles de millones de transistores con extrema precisión. La IA y el ML ahora están integrados en herramientas de EDA (Automatización de Diseño Electrónico) para automatizar las verificaciones de reglas de diseño, la optimización de energía y la planificación de distribución.",
+        "realWorldData": [
+          "Verificación RTL más rápida y predicción de errores, reduciendo el tiempo del diseño al tape-out.",
+          "Distribución automática y optimización energética, reduciendo el tamaño del chip y el consumo de energía.",
+          "Detección temprana de violaciones de reglas de diseño, minimizando rediseños costosos."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+      },
+      {
+        "title": "Gestión Predictiva del Rendimiento y Optimización de Operaciones en Fábricas",
+        "desc": "Los modelos de IA analizan terabytes de datos de sensores y equipos de las fábricas para predecir problemas de rendimiento antes de desechar obleas, optimizando la producción. La IA ayuda a identificar desviaciones de equipos, contaminación por partículas y anomalías en recetas para mejorar la eficacia general de los equipos (OEE).",
+        "realWorldData": [
+          "Detección predictiva de fallas en herramientas de fábricas para evitar paradas no planificadas.",
+          "Modelos de IA que predicen el rendimiento de las obleas en tiempo real, reduciendo pérdidas de producción.",
+          "Análisis automatizado de causa raíz (RCA) para caídas en el rendimiento, reduciendo el tiempo de investigación."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+      },
+      {
+        "title": "Cadena de Suministro y Pronóstico de la Demanda Impulsados por IA",
+        "desc": "Con la escasez global de chips y las interrupciones en la cadena de suministro, la IA ayuda a predecir fluctuaciones en la demanda, tiempos de entrega y riesgos de abastecimiento. Las plataformas impulsadas por IA analizan señales globales de oferta/demanda, pronósticos de clientes y cuellos de botella logísticos para optimizar la producción y el inventario.",
+        "realWorldData": [
+          "Pronóstico preciso de la demanda de modelos de chips específicos mediante IA con datos de clientes y del mercado.",
+          "Mitigación de riesgos a través del monitoreo de riesgos de proveedores impulsado por IA y estrategias de doble abastecimiento.",
+          "Programación de producción dinámica y planificación de capacidad fabril basada en pronósticos de demanda con IA."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+      },
+      {
+        "title": "IA para Pruebas, Validación y Depuración Post-Silicio",
+        "desc": "Las pruebas de chips complejos (como chips de IA o ICs automotrices) generan enormes volúmenes de datos. La IA analiza estos datos para identificar patrones, detectar anomalías y mejorar la cobertura de pruebas mientras reduce los tiempos de ciclo.",
+        "realWorldData": [
+          "Estrategias de prueba adaptativas impulsadas por IA que reducen el tiempo de prueba sin comprometer la calidad.",
+          "Identificación temprana de defectos sistemáticos y optimización para diseño para prueba (DFT).",
+          "Detección de anomalías en la validación de silicio, acelerando los ciclos de depuración para lograr éxito en el primer silicio."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+      }
+    ],
+    "worldTitle": "Impactos en el Mundo Real",
+    "enabledTitle": "Colaboración con Clientes y Socios Impulsada por IA (Integración de Salesforce y SAP)",
+    "enabledDesc": "La IA mejora las plataformas de interacción con clientes al ofrecer análisis en tiempo real sobre necesidades de diseño, patrones de uso y rendimiento de productos. Los conocimientos impulsados por IA permiten que los equipos de ventas, ingeniería y socios recomienden soluciones y precios óptimos, creando una experiencia fluida para el cliente.",
+    "enabledPara": "Impactos en el Mundo Real:",
+    "enabledData": [
+      "Puntuación de oportunidades basada en IA y priorización de acuerdos en Salesforce para un cierre más rápido de los diseños ganados.",
+      "Contenido técnico personalizado y hojas de datos generadas por IA para interacciones con clientes.",
+      "Bots de soporte al cliente con IA integrados con Salesforce Agentforce para resolución proactiva de problemas y colaboración con ingeniería."
+    ],
+    "valueTitle": "Resumen",
+    "valueSubtitle": "El Valor de la IA para la Industria de Semiconductores",
+    "valueDesc": "La inteligencia artificial (IA) está revolucionando la industria de los semiconductores, transformando fundamentalmente cómo las empresas diseñan, fabrican, prueban y gestionan semiconductores en los mercados de rápida evolución actuales. Desde la optimización del diseño de chips hasta el análisis predictivo del rendimiento, la IA está ayudando a los fabricantes de semiconductores a reducir costos, mejorar la calidad, acelerar el tiempo de lanzamiento al mercado y abordar la creciente complejidad de chips avanzados como aceleradores de IA, SoCs y módems 5G.",
+    "valueDescOne": "En Rialtes, ayudamos a las empresas de semiconductores a operacionalizar la IA conectando los procesos centrales de SAP S/4 HANA, la inteligencia del cliente de Salesforce Industry Cloud y las plataformas de IA/ML para crear un ecosistema inteligente de semiconductores que se adapta al futuro de la innovación en chips.",
+    "dealTitle": "Registro de Oportunidades y Compromiso con el Cliente — Ágil e Inteligente",
+    "dealDescOne": "En la industria de los semiconductores, donde las victorias de diseño, los largos ciclos de ventas y los ecosistemas complejos de socios dominan el panorama, gestionar eficazmente el registro de oportunidades y la relación con el cliente es fundamental para el éxito. Desde OEMs y clientes de nivel 1 hasta fabricantes por contrato y socios del canal, la transparencia, rapidez y control sobre el proceso de ventas y colaboración en diseño pueden marcar la diferencia entre ganar o perder una gran oportunidad.",
+    "dealDescTwo": "Rialtes ayuda a las empresas de semiconductores a redefinir los procesos de registro de oportunidades y compromiso con el cliente utilizando Salesforce Experience Cloud y herramientas de gestión de relaciones con socios (PRM), convirtiéndolos en ecosistemas inteligentes, automatizados y colaborativos.",
+    "summaryData": [
+      "Acelera el diseño de chips y reduce los riesgos de tape-out.",
+      "Incrementa el rendimiento en fábricas y reduce el tiempo de inactividad, ahorrando millones en pérdidas de producción.",
+      "Optimiza las cadenas de suministro y reduce la exposición a riesgos globales.",
+      "Mejora las relaciones con los clientes y acelera el tiempo de generación de ingresos mediante ventas más inteligentes.",
+      "Mejora la calidad del producto final gracias a pruebas y validaciones inteligentes."
+    ],
+    "keyPillarTitle": "Pilares Clave de una Estrategia Moderna de Registro de Oportunidades y Compromiso con el Cliente",
+    "keyPillarsDesc": [
+      {
+        "id": 1,
+        "title": "Empoderar a los Socios del Canal con Salesforce Experience Cloud",
+        "desc": "Salesforce Experience Cloud, combinado con PRM, permite a socios, distribuidores y revendedores registrar oportunidades en tiempo real, hacer seguimiento de ellas y colaborar directamente con los equipos de ventas e ingeniería, todo a través de un portal de socios seguro y con la marca de la empresa.",
+        "dataList": [
+          "Proceso de registro de oportunidades optimizado con formularios guiados, flujos de trabajo automatizados y ciclos de aprobación transparentes.",
+          "Visibilidad en tiempo real de las oportunidades registradas, reduciendo conflictos de canal y solapamientos.",
+          "Acceso de autoservicio para los socios a activos clave de ventas: hojas de datos, hojas de ruta de productos, soporte técnico y precios.",
+          "Puntuación de oportunidades impulsada por IA para priorizar negocios de alto potencial y asignar recursos inteligentemente."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Mejorar la Co-Creación y Colaboración Técnica con el Cliente",
+        "desc": "En la industria de semiconductores, los ciclos de diseño del cliente son colaborativos y requieren una integración estrecha entre clientes, equipos de ventas e ingenieros de diseño. A través de Experience Cloud, las empresas pueden crear portales seguros donde los clientes pueden enviar requisitos de diseño, hacer seguimiento al progreso de validación y colaborar en temas de ingeniería.",
+        "dataList": [
+          "Colaboración centralizada del cliente para diseños de referencia, solicitudes de hojas de datos y soporte de ingeniería de aplicaciones.",
+          "Recomendaciones asistidas por IA para casos de uso similares, compatibilidad de productos y reutilización de diseños.",
+          "Comunicación directa y escalamiento con los equipos de diseño interno e ingenieros de aplicaciones de campo (FAEs).",
+          "Intercambio seguro de información técnica sensible como modelos de simulación, datos de caracterización y certificaciones de cumplimiento."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Gobernanza Automatizada de Oportunidades y Cumplimiento",
+        "desc": "Gestionar oportunidades globales en semiconductores implica cumplir con regulaciones de exportación, normas comerciales y políticas de protección de propiedad intelectual. Salesforce automatiza estos procesos mediante flujos de trabajo basados en reglas y trazabilidad, asegurando que cada oportunidad registrada cumpla con los requisitos regulatorios.",
+        "dataList": [
+          "Verificaciones de cumplimiento automatizadas para controles de exportación (EAR, ITAR), licencias de IP y acuerdos de confidencialidad (NDAs).",
+          "Visibilidad y trazabilidad de extremo a extremo del proceso de registro y aprobación de oportunidades.",
+          "Gestión de riesgos integrada para prevenir filtraciones de propiedad intelectual y hacer cumplir políticas de segmentación de clientes."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Inteligencia Basada en Datos con IA y Analítica",
+        "desc": "Usando Salesforce AI (Einstein GPT) y Tableau, las empresas de semiconductores obtienen información profunda sobre el rendimiento de socios, tasas de conversión de oportunidades y patrones de compra de clientes. Los modelos de IA pueden calificar oportunidades, recomendar ventas adicionales y predecir negocios en riesgo, impulsando estrategias de ventas proactivas.",
+        "dataList": [
+          "Analítica predictiva para la probabilidad de cierre de oportunidades, ayudando al equipo de ventas a priorizar cuentas de alto valor.",
+          "Información sobre el rendimiento de los socios con métricas como tasas de conversión, tamaño promedio de oportunidades y análisis de ganancias/pérdidas.",
+          "Recomendaciones de productos impulsadas por IA basadas en perfiles de diseño del cliente e interacciones anteriores.",
+          "Tableros visuales para liderazgo, que permiten decisiones estratégicas sobre programas de socios, hojas de ruta de productos y enfoque regional."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Cotización y Colaboración de Precios sin Fricciones",
+        "desc": "Las oportunidades en semiconductores a menudo requieren precios personalizados, descuentos por volumen y negociaciones contractuales. Al integrar Salesforce CPQ (Configurar, Precio, Cotizar) en el portal de socios, Rialtes permite que los socios y equipos internos colaboren en cotizaciones en tiempo real, acelerando el camino hacia la orden de compra (PO).",
+        "dataList": [
+          "Generación y configuración automatizada de cotizaciones basada en catálogos de productos y requisitos del cliente.",
+          "Flujos de aprobación para excepciones de precios, términos especiales y oportunidades estratégicas.",
+          "Visibilidad del inventario disponible, tiempos de entrega y recomendaciones de productos alternativos."
+        ]
+      }
+    ],
+    "benefitsTitle": "Beneficios Estratégicos:",
+    "ecosystemTitle": "Ecosistema Integral de Negocios Semiconductores",
+    "ecosystemDesc": "Impulsado por Salesforce + Asesoría de Rialtes",
+    "ecosystemDescOne": "Nuestro enfoque transforma los procesos tradicionales y manuales de registro de oportunidades en un ecosistema en tiempo real potenciado por IA, donde clientes, socios de canal y equipos de ventas colaboran de manera efectiva, respaldados por flujos de trabajo inteligentes y conocimientos profundos.",
+    "ecosystemDescTwo": "Rialtes aporta un profundo conocimiento del sector, expertos certificados en Salesforce y SAP, y aceleradores comprobados para ofrecer estas capacidades modernas a gran escala.",
+    "benifitsTitleTwo": "Beneficios para las Empresas de Semiconductores:",
+    "endSemiconductorData": [
+      "Ciclos de negociación más rápidos y menor tiempo de llegada al mercado para nuevos logros de diseño.",
+      "Mayor satisfacción de los socios y una participación más profunda.",
+      "Mejor previsibilidad de ingresos gracias a la inteligencia de oportunidades impulsada por IA.",
+      "Cumplimiento normativo y de propiedad intelectual garantizado durante todo el ciclo de vida de la oportunidad.",
+      "Integración sólida entre colaboración de ingeniería y ventas, asegurando precisión técnica y satisfacción del cliente."
+    ],
+    "byTitle": "Al combinar Salesforce Experience Cloud con los servicios de asesoría e implementación alineados al sector de Rialtes, las empresas de semiconductores pueden desbloquear un nuevo nivel de crecimiento y eficiencia operativa, transformando el registro de oportunidades de un cuello de botella en una ventaja competitiva.",
+    "sapTitle": "¿Por qué Rialtes para SAP y Salesforce en Semiconductores?",
+    "sapDesc": "Con más de 20 años de experiencia práctica en la industria de semiconductores, Rialtes es un socio de transformación confiable para fabricantes globales, empresas fabless y foundries. Nuestra comprensión inigualable de los procesos de negocio, junto con experiencia certificada en SAP S/4 HANA y soluciones de Salesforce, nos permite ofrecer una transformación digital completa — desde diseño hasta manufactura, ventas y distribución — adaptada a las complejidades de esta industria especializada.",
+    "sapDescOne": "Habiendo trabajado con gigantes de semiconductores y electrónica del Fortune 500, Rialtes aporta una perspectiva interna sobre los desafíos únicos que enfrentan estas empresas en sus operaciones, ingeniería y relaciones con clientes.",
+    "reasonsTitle": " Principales Razones por las que las Empresas de Semiconductores Confían en Rialtes",
+    "keyReasonsData": [
+      {
+        "id": "1",
+        "title": "Más de 20 Años de Experiencia en Semiconductores — Soluciones Prácticas y Alineadas a la Industria",
+        "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+        "desc": "Rialtes ha trabajado estrechamente con algunas de las marcas más grandes del mundo para modernizar sus procesos empresariales. Entendemos la complejidad única de la cadena de valor del semiconductor — desde la fabricación de obleas, diseño de CI y pruebas, hasta manufactura por contrato y licencias de propiedad intelectual.",
+        "dataList": [
+          "Conocimiento práctico de modelos fabless y foundry",
+          "Comprensión profunda de NPI, tape-out y procesos de diseño a silicio",
+          "Experiencia en cadena de suministro compleja, gestión de rendimiento y seguridad IP",
+          "Alineado con flujos de trabajo específicos del sector como registro de oportunidades, co-venta con socios y cumplimiento"
+        ],
+        "bgColor": "#E7F0F7"
+      },
+      {
+        "id": "2",
+        "title": "Expertos en Procesos Empresariales con Proyectos en Empresas Fortune 500",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+        "desc": "Nuestros consultores y arquitectos no son solo tecnólogos — son expertos en procesos empresariales de semiconductores con experiencia real en proyectos de transformación en empresas Fortune 500. Sabemos lo que se necesita para que SAP y Salesforce funcionen en entornos complejos, globales y con múltiples partes interesadas.",
+        "dataList": [
+          "Asesoría integral en optimización de procesos de diseño, gestión de oportunidades y cadena de suministro",
+          "Aplicación de mejores prácticas de las principales empresas del sector",
+          "Expertos tanto en procesos front-end (cliente, ventas, ingeniería) como back-end (manufactura, logística, finanzas)",
+          "Capacidad de conectar ingeniería, operaciones y ventas mediante plataformas inteligentes"
+        ],
+        "bgColor": "#EDDACD"
+      },
+      {
+        "id": "3",
+        "title": "Integración Comprobada de SAP S/4 HANA y Salesforce para Semiconductores",
+        "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+        "desc": "Rialtes ofrece soluciones SAP y Salesforce totalmente integradas y adaptadas a los procesos del sector, permitiendo un flujo de información sin interrupciones desde el cliente hasta la fábrica y viceversa. Nuestro enfoque garantiza una única versión de la verdad entre ventas, ingeniería y operaciones, reduciendo errores y mejorando la colaboración.",
+        "dataList": [
+          "Registro de oportunidades y cotización integrados con gestión de pedidos SAP",
+          "Integración en tiempo real de portales de diseño de Salesforce con maestro de productos y cadena de suministro SAP",
+          "Optimización de procesos financieros y de cumplimiento para negocios de alto valor",
+          "Modelos de datos con IA que combinan Salesforce y SAP para inteligencia predictiva de ventas y cadena de suministro"
+        ],
+        "bgColor": "#D7F4F2"
+      },
+      {
+        "id": "4",
+        "title": "Enfoque Impulsado por IA con los Datos en el Centro",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+        "desc": "En el entorno actual, los datos y la inteligencia artificial juegan un papel crucial en la planificación de demanda, colaboración de ingeniería y gestión de socios. Rialtes combina IA, analítica y automatización en plataformas Salesforce y SAP para empoderar a las empresas con decisiones basadas en datos.",
+        "dataList": [
+          "Puntaje predictivo de oportunidades y análisis de rendimiento de socios",
+          "Optimización de rendimiento y planificación de cadena de suministro con pronósticos basados en IA",
+          "Cumplimiento y monitoreo de riesgos en tiempo real para negocios globales",
+          "Modelos de IA para identificar oportunidades de venta cruzada y adicional durante el ciclo de diseño del cliente"
+        ],
+        "bgColor": "#CAE1ED"
+      },
+      {
+        "id": "5",
+        "title": "Entrega Ágil de Principio a Fin: Desde Asesoría hasta el Éxito Post-Go-Live",
+        "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+        "desc": "Lo que diferencia a Rialtes es nuestro compromiso con la responsabilidad total — desde la asesoría inicial, el diseño de procesos, la implementación del sistema, hasta el soporte post-lanzamiento y la optimización continua. Actuamos como un socio real, no solo como un implementador.",
+        "dataList": [
+          "Aceleradores preconstruidos para procesos específicos de SAP y Salesforce para semiconductores",
+          "Modelos de entrega ágiles y colaborativos alineados con los ciclos de lanzamiento del sector",
+          "Servicios gestionados después de la implementación para optimizar el rendimiento y adopción",
+          "Capacitación técnica y funcional para asegurar la adopción de la transformación"
+        ],
+        "bgColor": "#EFF0D5"
+      }
+    ],
+    "partnerTitle": "Rialtes — Su Socio Estratégico para el Crecimiento en Semiconductores",
+    "partnerDesc": "Ya sea que usted sea una empresa de diseño fabless, un IDM (Fabricante de Dispositivos Integrados), una fundición o un fabricante por contrato, Rialtes comprende el ADN de la industria de semiconductores. Aprovechamos nuestro modelo de entrega global con oficinas en India, Estados Unidos, Canadá y Singapur para ofrecer soluciones rentables y de alto valor a algunas de las organizaciones más exigentes y complejas del mundo.",
+    "partnerDescOne": "¿Por qué Elegir a Rialtes?",
+    "rialtesData": [
+      "Más de 20 años de experiencia real en la industria de semiconductores.",
+      "Experiencia en procesos y tecnología al nivel de empresas Fortune 500.",
+      "Expertos certificados en SAP y Salesforce con profundo conocimiento de soluciones para semiconductores.",
+      "Enfoque basado en IA y datos para obtener una ventaja competitiva.",
+      "Historial comprobado en la entrega de transformaciones complejas y a gran escala."
+    ],
+    "contactTitle": "¿Listo para Conectar su Empresa?",
+    "contactSubTitle": "Asóciese con Rialtes para simplificar las integraciones, acelerar la transformación digital y desbloquear un verdadero valor empresarial.",
+    "contactSubtitleOne": "¡Contáctenos hoy para una consulta gratuita y descubra cómo podemos potenciar su empresa conectada!"
+  },
+  "manufacturing": {
+  "headerTitle": "Fabricación",
+  "headerSubTitleOne": "Impulsando el Futuro de la Fabricación",
+  "headerSubTitleTwo": "Más Inteligente, Rápido y Conectado",
+  "drivingDesc": "Impulsamos la transformación digital de extremo a extremo para fabricantes con IA, la nube y automatización inteligente. Rialtes permite a las empresas manufactureras ir más allá de las operaciones tradicionales y adoptar ecosistemas de fabricación de próxima generación que sean ágiles, basados en datos y centrados en el cliente.",
+  "thoughtTitle": "Liderazgo Intelectual",
+  "thoughtSubTitle": "Liderando la Reinversión Digital de la Fabricación",
+  "thoughtSubTitleOne": "En Rialtes, creemos que el futuro de la fabricación reside en ecosistemas resilientes, adaptativos y potenciados por IA. Desde gemelos digitales hasta cadenas de suministro predictivas, ayudamos a los fabricantes a anticiparse a la disrupción e innovar a escala. Nos enfocamos en la personalización del cliente, la eficiencia operativa y el cumplimiento global, todo impulsado por datos conectados y automatización.",
+  "endTitle": "Servicios de Transformación Integral de Fabricación de Rialtes",
+  "endSubTitle": "Nuestros servicios cubren toda la cadena de valor de la fabricación, desde consultoría y arquitectura hasta implementación, pruebas e innovación continua.",
+  "endDesc": "Colaboramos con plataformas líderes como SAP, Salesforce, MuleSoft y Kinaxis para ofrecer soluciones escalables, integradas y preparadas para el futuro. Rialtes combina tecnología, procesos y experiencia en la industria bajo un mismo techo para ofrecer una transformación sin interrupciones.",
+  "preTitle": "Aceleradores de Fabricación Preconstruidos",
+"preSubtitle": "Velocidad, Escalabilidad, Éxito",
+"preDesc": "Con aceleradores específicos para la industria, Rialtes permite a los fabricantes implementar soluciones listas para usar que reducen meses de tiempo de configuración. Desde plantillas de fábricas inteligentes hasta flujos de trabajo predictivos con IA, nuestras herramientas están diseñadas para acelerar la obtención de valor, mejorar la productividad y fomentar operaciones inteligentes. Nuestros aceleradores también garantizan el cumplimiento normativo y el aseguramiento de la calidad, reduciendo riesgos durante la implementación.",
+"discreteTitle": "Fabricación Discreta",
+"discreteSubTitle": "Gestión Simplificada de Productos Complejos",
+"discreteDesc": "Rialtes ayuda a los fabricantes discretos a gestionar configuraciones complejas de productos, cadenas de suministro multinivel y procesos de ingeniería personalizados. Nuestras soluciones integran cotización, ingeniería y gestión de pedidos de extremo a extremo, proporcionando visibilidad en tiempo real y colaboración fluida con el cliente. Los conocimientos impulsados por IA ayudan a predecir necesidades de mantenimiento, reducir el tiempo de inactividad y garantizar una calidad superior del producto.",
+"processTitle": "Fabricación de Procesos",
+"processSubtitle": "Optimiza el Cumplimiento y el Rendimiento",
+"processDesc": "Apoyamos a los fabricantes de procesos en la gestión de formulaciones complejas, exigencias normativas (FDA, ISO, GMP) y cadenas de suministro volátiles. Nuestras soluciones optimizan la producción por lotes, la gestión del rendimiento y el seguimiento de la calidad en tiempo real, garantizando resultados consistentes y menos desperdicio. Rialtes también facilita la trazabilidad y la gestión de retiradas mediante sistemas integrados habilitados con IA.",
+
+"repetitiveTitle": "Fabricación Repetitiva",
+"repetitiveSubtitle": "Racionalización de Operaciones de Producción en Masa",
+"repetitiveDesc": "Para la producción a gran escala, Rialtes ofrece soluciones que mejoran la planificación de capacidad, la asignación de personal y el monitoreo de producción en tiempo real. Nuestras herramientas optimizan los flujos de trabajo repetitivos y reducen los tiempos de ciclo, asegurando un rendimiento máximo con el mínimo desperdicio. Los análisis impulsados por IA ayudan a detectar anomalías de producción a tiempo, garantizando calidad del producto y eficiencia en los costos.",
+
+"aiTitle": "Fabricación con IA y Robótica",
+"aiSubtitle": "Creación de Fábricas Inteligentes y Autónomas",
+"aiDesc": "La IA y la robótica están transformando la fabricación, y Rialtes ayuda a sus clientes a liderar esta evolución. Desde el mantenimiento predictivo con IA hasta la automatización robótica de las líneas de producción, habilitamos fábricas autoaprendientes y adaptativas. Los gemelos digitales y los conocimientos en tiempo real del IoT impulsan una fabricación sin defectos y mayor productividad, reduciendo errores humanos y tiempos de inactividad.",
+
+"jobTitle": "Fabricación Bajo Pedido",
+"jobSubTitle": "Gestión Precisa de Producción Personalizada",
+"jobDesc": "Rialtes ofrece soluciones sólidas para entornos de fabricación bajo ingeniería a pedido (ETO) y fabricación bajo pedido (MTO). Nuestras plataformas personalizadas gestionan los costos de proyectos personalizados, la planificación de la producción y la coordinación con proveedores, asegurando entregas puntuales y dentro del presupuesto para pedidos de alta variedad y bajo volumen. Los paneles en tiempo real brindan visibilidad sobre el estado del trabajo, materiales y rentabilidad.",
+
+"dataTitle": "Data Cloud y Tableau",
+"dataSubtitle": "Información Accionable con Análisis Visual",
+"dataDesc": "Con Data Cloud y Tableau, Rialtes ayuda a los fabricantes a convertir datos operativos complejos en información significativa. Desde el seguimiento de OEE y análisis de tiempos de inactividad hasta riesgos en la cadena de suministro y pronósticos de demanda del cliente, nuestros paneles brindan visibilidad en tiempo real para una toma de decisiones proactiva. Los modelos de IA mejoran aún más el mantenimiento predictivo y la optimización del inventario.",
+
+"erpTitle": "Integración de ERP con SAP y Oracle a través de MuleSoft",
+"erpSubtitle": "Visibilidad de Extremo a Extremo",
+"erpDesc": "Rialtes garantiza una integración fluida entre sistemas front-end y ERPs back-end como SAP y Oracle utilizando MuleSoft. Esto permite a los fabricantes orquestar la planificación de producción, gestión de pedidos, compras y finanzas sin silos. Los flujos de datos en tiempo real permiten decisiones precisas, menores costos y cadenas de suministro optimizadas.",
+
+"demandTitle": "Planificación de la Demanda con Kinaxis RapidResponse",
+"demandSubTitle": "Anticiparse a los Cambios",
+"demandDesc": "Rialtes aprovecha Kinaxis RapidResponse para dotar a los fabricantes de pronósticos de demanda dinámicos y planificación de escenarios. Nuestras soluciones ayudan a gestionar mercados volátiles, riesgos de proveedores y demandas de los clientes, permitiendo responder en tiempo real a las interrupciones. La detección de demanda impulsada por IA garantiza un inventario óptimo y agilidad en la cadena de suministro.",
+
+"shapingTitle": "IA en la Fabricación",
+"shapingSubtitle": "Construyendo un Futuro Más Inteligente",
+"shapingDesc": "La IA ya no es el futuro: está transformando la fabricación actual. Rialtes ofrece soluciones impulsadas por IA para mantenimiento predictivo, programación inteligente, detección de defectos y pronósticos de demanda. La IA ayuda a los fabricantes a adaptarse más rápido, optimizar recursos y entregar productos personalizados de forma eficiente, mejorando la rentabilidad y la satisfacción del cliente.",
+
+  "sapTitle": "SAP y Salesforce",
+  "sapSubtitle": "El Dúo Poderoso para una Manufactura Inteligente",
+  "sapDesc": "Rialtes se asocia con SAP y Salesforce para crear ecosistemas de manufactura conectados, inteligentes y ágiles. SAP Digital Manufacturing Cloud y Salesforce Manufacturing Cloud ofrecen una visibilidad de 360 grados desde la fábrica hasta el cliente. Ayudamos a los fabricantes a integrar la retroalimentación del cliente, la gestión de distribuidores y los flujos de trabajo de servicio en una única plataforma inteligente.",
+
+  "factTitle": "Datos Clave",
+  "factSubtitle": "Perspectivas de la Industria Manufacturera",
+  "factDesc": "de los fabricantes están acelerando las inversiones en la Industria 4.0.",
+  "factNum":"70% ",
+  "factDescOne": "de las empresas tienen dificultades con la visibilidad en tiempo real de la cadena de suministro.",
+  "factOneNum":"76% ",
+  "factDescTwo": "Los sistemas de manufactura habilitados para la nube aumentan la eficacia del equipo en un ",
+  "factTwo":"15%.",
+  "adoption": "Se espera que la adopción de IA en la manufactura supere los ",
+  "billion": "$20 mil millones",
+  "by": "para 2030.",
+  "smartTitle": "Las fábricas inteligentes pueden aumentar la productividad hasta en un ",
+  "smartNum":"30%",
+  "contactTitle": "¿Listo para Reinventar el Futuro de tu Manufactura?",
+  "contactSubTitle": "Asóciate con Rialtes para transformar tus operaciones de manufactura con IA, SAP, Salesforce y herramientas de próxima generación.",
+  "contactSubtitleOne": "¡Contáctanos hoy y comienza tu camino hacia una manufactura inteligente, resiliente y centrada en el cliente!"
+ },
+ "education": {
+ "headerTitle": "Industria Educativa",
+  "headerSubTitle": "Impulsando el Futuro de la Educación",
+  "headerSubTitleOne": "Soluciones Integrales de Rialtes para el Éxito Estudiantil",
+  
+  "educationTitle": "Transformando la Educación con Experiencias Estudiantiles Impulsadas por la Tecnología",
+  "educationDesc": "La educación actual está evolucionando a un ritmo acelerado. Las instituciones deben involucrar a estudiantes nativos digitales, optimizar los procesos de inscripción y académicos, y fomentar relaciones duraderas con los estudiantes. Desde la educación primaria hasta la superior, las organizaciones enfrentan desafíos en la gestión de trayectorias estudiantiles fragmentadas, operaciones académicas desconectadas y expectativas cambiantes de los interesados.",
+  "educationDescOne": "Rialtes ofrece soluciones educativas holísticas, que abarcan asesoría estratégica, implementaciones fluidas, optimización de procesos y soporte a largo plazo.",
+  "thoughtTitle": "Liderazgo de Pensamiento:",
+  "thoughtSubTitle": "Resolviendo los Desafíos Más Urgentes de la Educación",
+  "industryTitle": "Principales Desafíos de la Industria que Abordamos:",
+  "approachTitle": "Enfoque de Rialtes:",
+  "journeyTitle": "La Trayectoria Estudiantil Completa",
+  "journeySubtitle": "Desde la Primera Consulta hasta la Graduación y Más Allá",
+  "journeySubtitleOne": "Trayectoria de Reclutamiento e Inscripción",
+  "leadTitle": "Gestión y Participación de Prospectos Estudiantiles",
+  "selectionTitle": "Selección y Admisiones",
+  "studentTitle": "Mapeo y Participación de Familias Estudiantiles",
+   "hyperTitle": "Participación Estudiantil Hiperpersonalizada con Salesforce Marketing Cloud",
+  "lifelongTitle": "Apoyo Estudiantil de por Vida con Salesforce Service Cloud",
+  "serviceTitle": "Portales de Autoservicio para Estudiantes y Profesores",
+  "serviceSubtitle": "Salesforce Experience Cloud",
+  "seamlessTitle": "Gestión Fluida de Inscripciones, Pagos y Recursos",
+  "seamlessSubtitle": "SAP S/4HANA + Rialtes",
+  "dynamicTitle": "Precios Dinámicos de Programas y Cursos",
+  "dynamicSubtitle": "Salesforce Revenue Cloud",
+  "unifiedTitle": "Datos e Información Unificados",
+  "unifiedSubtitle": "Salesforce Data Cloud para Educación",
+
+  "empoweringTitle": "Empoderando a Asesores y Profesores",
+  "empoweringSubtitle": "Agentforce para Educación",
+  "agentchatTitle": "AgentChat",
+  "agentchatSubtitle": "Transformando la Comunicación en la Educación con Integración de WhatsApp Impulsada por IA",
+  "agentchatDesc": "Descubre el futuro de la comunicación con AgentChat, una herramienta de conversación bidireccional por WhatsApp impulsada por IA e integrada completamente con Salesforce Education Cloud. Optimiza las interacciones con estudiantes, padres y profesores, mejorando la participación, aumentando la eficiencia operativa y ofreciendo experiencias personalizadas.",
+  
+  "keyTitle": "Características Clave:",
+  "keySubtitle": "Integración Fluida con Salesforce",
+  "keyDesc": "Se sincroniza fácilmente con Salesforce Education Cloud, proporcionando una plataforma unificada para gestionar todas las interacciones estudiantiles en tiempo real.",
+  
+  "aiTitle": "Automatización y Personalización Impulsadas por IA",
+  "aiDesc": "Responde al instante con respuestas personalizadas y con conocimiento del contexto, automatizando consultas rutinarias y adaptándose a las necesidades individuales.",
+  
+  "scalableTitle": "Comunicación Escalable y Eficiente",
+  "scalableDesc": "Maneja con facilidad un volumen creciente de interacciones, mejorando los tiempos de respuesta y reduciendo el esfuerzo manual, mientras asegura una comunicación constante y de alta calidad.",
+  
+  "insightsTitle": "Información Procesable y Seguridad de Datos",
+  "insightsDesc": "Accede a valiosos conocimientos sobre la participación mediante análisis avanzados, garantizando al mismo tiempo seguridad de primer nivel y cumplimiento con los estándares de la industria.",
+  
+  "withDesc": "Con AgentChat, lleva la comunicación de tu institución a nuevos niveles: eficiente, segura y totalmente integrada.",
+  "knowMore": "Saber Más",
+  "relatedTitle": "Soluciones Relacionadas",
+   "rialtesTitle": "Aceleradores Preentregados de Rialtes:",
+  "rialtesSubtitle": "Impulsando el Éxito Educativo",
+  "rialtesDesc": "Nuestros aceleradores patentados para el sector educativo están diseñados para simplificar y optimizar la gestión del ciclo de vida estudiantil:",
+  
+  "contactTitle": "¿Listo para Redefinir la Experiencia Estudiantil?",
+  "contactSubTitle": "Rialtes está listo para asociarse con tu institución y ofrecer soluciones educativas centradas en el estudiante, ágiles y preparadas para el futuro.",
+  "contactSubtitleOne": "¡Contáctanos hoy para una consulta y demostración personalizada!",
+
+  "latestServices2": [
+    {
+      "id": "1",
+      "title": "Extensión de Gestión de Participación Estudiantil",
+      "description": "Mejora Salesforce Education Cloud para ofrecer una gestión fluida del ciclo de vida estudiantil, incluyendo admisiones, gestión de casos y participación de exalumnos."
+    },
+    {
+      "id": "2",
+      "title": "Seguimiento de Matrícula y Progreso Académico",
+      "description": "Solución integrada para la incorporación de estudiantes, inscripción en cursos y monitoreo del progreso académico conectada con SAP para finanzas y operaciones."
+    },
+    {
+      "id": "3",
+      "title": "Marco de Mapeo de Familia y Tutores",
+      "description": "Construye un árbol genealógico estudiantil completo, permitiendo a las instituciones interactuar eficazmente con estudiantes, padres, tutores y patrocinadores."
+    }
+  ],
+  "keyIndustryData": [
+    "Canales fragmentados de participación y comunicación estudiantil.",
+    "Procesos de reclutamiento y admisión complejos e ineficientes.",
+    "Gestión de casos desconectada para servicios y apoyo estudiantil.",
+    "Falta de una visión integral del estudiante en aspectos académicos, financieros y sociales.",
+    "Dificultad para personalizar el alcance a estudiantes actuales y potenciales.",
+    "Gestión ineficiente de relaciones con exalumnos y donantes."
+  ],
+  "approachData": [
+    "Asesoría estratégica para la transformación digital educativa.",
+    "Rediseño de procesos y habilitación tecnológica con SAP y Salesforce.",
+    "Aceleradores preconfigurados para participación, reclutamiento y retención estudiantil.",
+    "Implementaciones ágiles y escalables alineadas con mejores prácticas del sector.",
+    "Optimización continua mediante control de calidad y soporte posterior al lanzamiento."
+  ],
+  "studentLeadData": [
+    "Captura de prospectos estudiantiles desde múltiples canales (web, redes sociales, email, eventos de reclutamiento) con Salesforce Education Cloud.",
+    "Nutrición inteligente de leads con Salesforce Marketing Cloud, mediante recorridos personalizados basados en intereses y antecedentes.",
+    "Calificación de leads basada en IA para recomendar programas y becas adecuadas."
+  ],
+  "selectionData": [
+    "Gestión de aplicaciones sin interrupciones con actualizaciones en tiempo real.",
+    "Flujos de trabajo automatizados para recolección y verificación de documentos.",
+    "Portales de colaboración para comités de selección para revisión holística de solicitudes.",
+    "Flujos de trabajo integrados de oferta y aceptación con firmas electrónicas."
+  ],
+  "studentData": [
+    "Crear un diagrama integral de familia y tutores para gestionar relaciones con múltiples estudiantes.",
+    "Rastrear conexiones familiares de exalumnos para campañas de donantes y admisiones por legado.",
+    "Mapeo de relaciones de patrocinio y becas para la gestión de ayuda financiera."
+  ],
+  "hyperData": [
+    "Segmentación impulsada por IA para dirigir prospectos por intereses, geografía y demografía.",
+    "Recorridos personalizados para estudiantes en etapas de pre-admisión, incorporación, asesoría académica y compromiso como exalumnos.",
+    "Desencadenantes conductuales para ofertas de becas, fechas límite y entrega de contenido personalizado.",
+    "Gestión de eventos y seguimiento de confirmaciones de asistencia para ferias de reclutamiento y visitas al campus."
+  ],
+  "lifelongData": [
+    "Gestión integral de casos estudiantiles para apoyo académico, financiero y de bienestar.",
+    "Desviación de casos asistida por IA y chatbots para consultas comunes (estado de admisión, selección de cursos, detalles de tarifas).",
+    "Programas proactivos de éxito y retención estudiantil, respaldados por alertas tempranas y análisis predictivo.",
+    "Integración con servicios de carrera para prácticas, colocaciones y mentoría de exalumnos."
+  ],
+  "selfData": [
+    "Portales personalizados para seguimiento de aplicaciones, entrega de documentos, pagos y registro de cursos.",
+    "Portales para docentes para asesoría, mentoría y evaluación.",
+    "Gestión de comunicación externa con padres, patrocinadores y exalumnos.",
+    "Canales de comunicación integrados (chat, mensajes, email) para participación en tiempo real."
+  ],
+  "s4HanaData": [
+    "Sistema integrado de información estudiantil y ERP para matrícula, finanzas y gestión de recursos.",
+    "Visibilidad en tiempo real del estado de pagos, ayudas financieras y becas.",
+    "Programación de cursos, asignación de docentes y planificación de recursos respaldadas por SAP.",
+    "Colaboración en adquisiciones mediante SAP ARIBA para necesidades de infraestructura del campus."
+  ],
+  "dynamicData": [
+    "Configuración de programas y tarifas según curso, campus, estatus de residencia y elegibilidad para becas.",
+    "Gestión de planes de pago, descuentos y reembolsos.",
+    "Procesos integrales de cotización a inscripción para programas ejecutivos y certificados.",
+    "Integración con SAP para facturación, cuentas por cobrar y operaciones financieras."
+  ],
+  "unifiedData": [
+    "Vista integral de cada estudiante: progreso académico, ayuda financiera, servicios de carrera y participación.",
+    "Análisis avanzados y modelos de IA para predecir estudiantes en riesgo y mejorar la retención.",
+    "Sincronización de datos en tiempo real con SAP S/4HANA, LMS, CRM y plataformas de éxito estudiantil.",
+    "Gestión de relaciones con donantes y exalumnos para recaudación de fondos y desarrollo institucional."
+  ],
+  "empoweringData": [
+    "Vista unificada del historial académico, financiero, de bienestar y de participación de cada estudiante.",
+    "Sugerencia de próxima mejor acción (NBA) basada en IA para apoyar el éxito estudiantil (intervenciones, asesoramiento).",
+    "Gestión de sesiones de asesoría, notas y seguimientos mediante casos integrados.",
+    "Herramientas de colaboración para iniciativas de éxito estudiantil entre departamentos."
+  ],
+  "educationSolutions": [
+    {
+      "title": "SAP S/4HANA para Educación",
+      "href": "/services/business-transformation/grow-with-sap-services",
+      "description": "ERP robusto para finanzas educativas, recursos humanos y operaciones del campus."
+    },
+    {
+      "title": "Salesforce Marketing y Revenue Cloud",
+      "href": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
+      "description": "Campañas personalizadas y precios dinámicos."
+    },
+    {
+      "title": "SAP ARIBA para Educación",
+      "href": "/services/spend-management/sapbuyplus-ariba-implementation-partner",
+      "description": "Soluciones de adquisiciones para operaciones del campus."
+    }
+  ]
+}
 
 }

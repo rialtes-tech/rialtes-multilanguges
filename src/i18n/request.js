@@ -50,6 +50,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const pharmaBiotech = (await import(`../../messages/${locale}/industry.json`)).default;
     const homeHealth = (await import(`../../messages/${locale}/industry.json`)).default;
 
+    const industry = (await import(`../../messages/${locale}/industry.json`)).default;
+    const realEstate = (await import(`../../messages/${locale}/industry.json`)).default;
+    const caseStudyIndivisual = (await import(`../../messages/${locale}/industry.json`)).default;
+    const semiconductor = (await import(`../../messages/${locale}/industry.json`)).default;
+    const manufacturing = (await import(`../../messages/${locale}/industry.json`)).default;
+    const education = (await import(`../../messages/${locale}/industry.json`)).default;
 
 
 
@@ -91,7 +97,14 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...lifeScience,
             ...healthCare,
             ...pharmaBiotech,
-            ...homeHealth
+            ...homeHealth,
+            ...industry,
+            ...realEstate,
+            ...caseStudyIndivisual,
+            ...semiconductor,
+            ...manufacturing,
+            ...education
+
         }
     };
 });
