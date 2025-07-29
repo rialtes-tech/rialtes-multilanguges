@@ -9,6 +9,16 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+    {
+    id: 23,
+    image: "/images/blog/Agentforce-featured-blog.webp", 
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "29 July 2025",
+    url: 'insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing',
+    title: "How Agentforce 3.0 is Reshaping Automotive Manufacturing",
+    description: "Salesforce has launched Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024.",
+  },
    {
     id: 14,
     image: "/images/blog/blog-slider.webp", 

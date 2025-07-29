@@ -8,81 +8,74 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
+    
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
-    },
-    "headline": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
-    "description": "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
-    "image": "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes Technologies",
-        "url": "https://www.rialtes.com"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes Technologies",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "datePublished": "2025-07-21",
-    "keywords": [
-        "Agentforce for Manufacturing",
-        "AI for Manufacturing",
-        "AI in Manufacturing",
-        "AI Agents Automation Solutions Manufacturing",
-        "Smart Manufacturing Support"
-    ],
-    "mainEntity": {
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What makes Agentforce different from other AI solutions for manufacturing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How do AI agents in Agentforce improve uptime and reduce manual workload?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Agentforce help improve customer satisfaction?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
-                }
-            }
-        ]
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
+  },
+  "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
+  "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
+  "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
     }
+  },
+  "datePublished": "2025-07-29",
+  "articleSection": "AI Automation",
+  "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Agentforce for Automotive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Agentforce integrate with existing automotive systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What use cases exist for Agentforce in automotive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the future of AI in automotive manufacturing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
+      }
+    }
+  ]
 };
 const blogs = [
     {
@@ -282,9 +275,9 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Agentforce for Manufacturing: AI Service Edge | Rialtes"
-                description="Want to scale smarter? Agentforce for Manufacturing brings AI copilots, predictive service, and self-service tools to elevate your support and sales ops."
-                canonical={" https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"}
+                title="Agentforce 3.0 for Automotive Manufacturing Success | Rialtes"
+                description="Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor."
+                canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
             />
 
             <Script
@@ -382,7 +375,7 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div className=" mx-auto">
                         <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] 
-                         xl:w-[1000px] 4xl:w-[1150px] pb-6 ">
+                         xl:w-[1000px] 4xl:w-[1150px] pb-6">
                             How Agentforce 3.0 is Reshaping Automotive Manufacturing
                         </h1>
                     </div>
@@ -390,12 +383,12 @@ export default function Page() {
                     <div className=" mx-auto">
                         <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
-                                Salesforce has launched Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024. Since Agentforce 2.0's December release and Agentforce 2dx in March, the updates continue with the launch of Agentforce 3.0, marking another major milestone.
+                                Salesforce has <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/in/news/press-releases/2025/06/23/agentforce-3-announcement/">launched</Link>  Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024. Since Agentforce 2.0's December release and Agentforce 2dx in March, the updates continue with the launch of Agentforce 3.0, marking another major milestone.
                             </p>
 
                             <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
-                                Not in the exaggerated “overnight transformation” sense, but in the practical, measurable improvements that directly impact the professionals managing and optimizing Salesforce environments every day. With over 200 prebuilt agent actions, Agentforce 3.0 significantly advances the operationalization of intelligent automation across core workflows.
-                                While much of the external focus remains on headline-grabbing AI features, the real strategic value of this release lies in its ability to bridge the gap between visionary AI concepts and deployable, scalable automation, particularly for Salesforce administrators, developers, and DevOps teams driving industry innovation. The automotive industry is one of the sectors accelerating into a new era, defined by intelligent automation, supply chain volatility, and the shift to electric and autonomous vehicles.
+                                Not in the exaggerated “overnight transformation” sense, but in the practical, measurable improvements that directly impact the professionals managing and optimizing AI in automotive production  every day. With over 200 prebuilt agent actions, Agentforce 3.0 significantly advances the operationalization of intelligent automation across core workflows.
+                                While much of the external focus remains on headline-grabbing AI features, the real strategic value of this release lies in its ability to bridge the gap between visionary AI concepts and deployable, scalable automation, particularly for Salesforce administrators, developers, and DevOps teams driving industry innovation. Not all AI assistants are created equal—understanding the <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/">difference between bots, copilots, and AI agents</Link>  can fundamentally reshape how you architect automation across your factory. The automotive industry is one of the sectors accelerating into a new era, defined by intelligent automation, supply chain volatility, and the shift to electric and autonomous vehicles.
                             </p>
                             <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Manufacturers should not only focus on improving processes but also reinvent them to remain competitive. Agentforce 3.0 empowers automotive companies to build smarter factories, optimize quality, and drive faster innovation.</p>
 
@@ -422,18 +415,18 @@ export default function Page() {
                                 {featuresData.map((item, idx) => (
                                     <div key={idx} className="flex flex-col sm:flex-row items-start gap-10">
                                         <div className="min-w-[60px] sm:mt-1">
-                                            <Image src={item.icon} alt={item.title} width={118} height={112} className="xl:w-[200px]" />
+                                            <Image src={item.icon} alt={item.title} width={200} height={112} className="xl:w-[300px] w-[100px]" />
                                         </div>
                                         <span>
-                                            <span className="text-[20px] font-bold">{item.title}</span>
-                                            <span className="text-gray-700 pl-3 text-[20px] font-medium">{item.description}</span>
+                                            <span className="xl:text-[22px] text-[16px] font-bold">{item.title}</span>
+                                            <span className="text-gray-700 pl-3 xl:text-[22px] text-[16px] font-medium">{item.description}</span>
                                         </span>
                                     </div>
                                 ))}
                             </div>
 
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
                                 Streamline Operations with the Agentforce Command Center
                             </h2>
 
@@ -460,15 +453,16 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">The Model Context Protocol (MCP) brings the “USB-C for AI agents” to automotive IT systems. For manufacturers juggling multiple platforms such as ERP, MES, PLM, and IoT dashboards. MCP acts as the universal adapter.</p>
 
                             <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
-                                <li>Seamless API Integration: Instantly convert manufacturing APIs into agent-compatible services via MuleSoft.  </li>
-                                <li>Custom Tool Connections: Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms.</li>
-                                <li>Secure Collaboration in Slack: Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules.</li>
+                                <li><span className="font-bold">Seamless API Integration:</span> Instantly convert manufacturing APIs into agent-compatible services via MuleSoft.  </li>
+                                <li><span className="font-bold">Custom Tool Connections:</span> Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms.</li>
+                                <li><span className="font-bold">Secure Collaboration in Slack:</span> Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules.</li>
                             </ol>
 
 
 
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.</p>
 
+                                <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.</p>
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
                                 Revolutionize Quality and Compliance
                             </h2>
@@ -498,19 +492,24 @@ export default function Page() {
                             </h3>
 
 
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x border-gray-900">
-                                {features.map((item, index) => (
-                                    <div key={index} className="mt-10">
-                                        <p className="text-[#0067B9] font-semibold 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">
-                                            {item.title}
-                                            <span className="text-black font-normal 4xl:text-[22px] xl:text-[20px] text-[16px]"> {item.description}</span>
-                                        </p>
-                                    </div>
-                                ))}
-                            </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 mt-0 xl:mt-10 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-black  border-black">
+  {features.map((item, index) => (
+    <div
+      key={index}
+      className={`py-6 xl:py-0 ${index === 0 ? 'pr-6' : 'xl:pl-6 xl:pr-5 md:pl-10'}`}
+    >
+      <p className="text-[#0067B9] font-semibold 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">
+        {item.title}
+        <span className="text-black font-normal 4xl:text-[22px] xl:text-[20px] text-[16px]">
+          {item.description}
+        </span>
+      </p>
+    </div>
+  ))}
+</div>
 
-                            <p className="text-black mt-16 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
-                                This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to AI adoption.
+                            <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
+                                This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to AI adoption with Agentforce for automotive manufacturing.
                             </p>
 
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
@@ -546,7 +545,7 @@ export default function Page() {
                                 <li>Deliver better experiences across the vehicle lifecycle</li>
                             </ul>
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10">Whether you’re retrofitting legacy systems or building smart factories from the ground up, Agentforce 3.0 offers a powerful way to drive transformation.</p>
-                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10" >Are you ready to discover how Agentforce can benefit your factory? Let our experts assist you in integrating, scaling, and succeeding with AI in automotive manufacturing. Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.</p>
+                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-5" >Are you ready to discover <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/">how Agentforce can benefit your factory?</Link>  Let our experts assist you in integrating, scaling, and succeeding with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/">AI in automotive manufacturing</Link> . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.</p>
 
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
                                 FAQs: Agentforce for AI-Powered Manufacturing Transformation
