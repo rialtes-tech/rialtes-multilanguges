@@ -35,7 +35,17 @@ export default function FAQAccordion({ faqData = [] }) {
           {openIndex === index && (
             <div className="pb-4 text-black transition-all 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] xl:px-20 space-y-4 px-10 p-4">
               {Array.isArray(item.answer)
-                ? item.answer.map((para, i) => <p key={i}>{para}</p>)
+                ? item.answer.map((block, i) =>
+                    Array.isArray(block) ? (
+                      <ul key={i} className="list-disc ml-6 space-y-1">
+                        {block.map((point, j) => (
+                          <li key={j}>{point}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p key={i}>{block}</p>
+                    )
+                  )
                 : item.answer.split("\n\n").map((para, i) => <p key={i}>{para}</p>)}
             </div>
           )}
