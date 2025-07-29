@@ -8,10 +8,10 @@ import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
 
 export default function servicesExploreMoreCarousel() {
-       const t = useTranslations("exploreMore");
-        const locale = useLocale();
-        const homepageContent = locale === "es" ? esContent : enContent;
-        const {slides} = homepageContent.exploreMore;
+  const t = useTranslations("exploreMore");
+  const locale = useLocale();
+  const homepageContent = locale === "es" ? esContent : enContent;
+  const { slides } = homepageContent.exploreMore;
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -60,12 +60,12 @@ export default function servicesExploreMoreCarousel() {
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-        aria-label="Custom Dots"
-      />
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+        />
       </li>
     );
   };
@@ -106,19 +106,19 @@ export default function servicesExploreMoreCarousel() {
             >
               <div className="w-full relative overflow-hidden group">
                 <a href={slide.url} tabIndex={-1}
-             style={{ display: 'block' }} 
-            className='relative block'>
-                <Image
-                  className="transition-transform duration-300 group-hover:scale-105"
-                  src={slide.image}
-                  alt={slide.title}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  priority
-                />
-                <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight">{slide.title}</h4>
+                  style={{ display: 'block' }}
+                  className='relative block'>
+                  <Image
+                    className="transition-transform duration-300 group-hover:scale-105"
+                    src={slide.image}
+                    alt={slide.title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                  />
+                  <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight">{slide.title}</h4>
                 </a>
               </div>
             </div>

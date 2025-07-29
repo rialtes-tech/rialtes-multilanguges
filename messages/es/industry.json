@@ -274,7 +274,7 @@
           "Salesforce Health Cloud para orquestar programas centrados en el paciente."
         ],
         "blueCard": "Lanzamientos de terapias más inteligentes, rápidos y seguros.",
-      "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
+        "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
         "deskImg": "/images/industry/life-science/pharma-desk.webp"
       },
       {
@@ -287,7 +287,7 @@
           "Plataformas integradas de monitoreo remoto y salud digital."
         ],
         "blueCard": "Brinda mejores resultados al paciente con soluciones MedTech conectadas.",
-          "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
+        "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
         "deskImg": "/images/industry/life-science/medtech-desk.webp"
       },
       {
@@ -300,7 +300,7 @@
           "Programas comunitarios de salud pública y atención conductual."
         ],
         "blueCard": "Fortaleciendo la salud comunitaria mediante datos e insights de IA.",
-      "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
+        "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
         "deskImg": "/images/industry/life-science/public-health-desk.webp"
       },
       {
@@ -313,7 +313,7 @@
           "Recorridos del paciente conformes a regulaciones."
         ],
         "blueCard": "Transformando el compromiso del paciente en resultados significativos.",
-         "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
+        "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
         "deskImg": "/images/industry/life-science/hyper-desk.webp"
       },
       {
@@ -325,7 +325,7 @@
           "Red de logística y distribución integrada."
         ],
         "blueCard": "Garantizando que terapias y dispositivos esenciales lleguen a los pacientes a tiempo.",
-         "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
+        "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
         "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
       }
     ],
@@ -365,7 +365,7 @@
           "Logística y optimización de la cadena de suministro impulsada por IA."
         ],
         "blueCard": "Entrega atención médica al ritmo de la necesidad — impulsado por SAP & Salesforce.",
-         "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
+        "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
         "deskImg": "/images/industry/life-science/quick-desk.webp"
       }
     ],
@@ -399,5 +399,219 @@
     "contactTitle": "¿Listo para transformar las ciencias de la vida con Rialtes?",
     "contactSubTitle": "Asóciate con Rialtes para desbloquear innovación, cumplimiento y soluciones centradas en el paciente en todo el ecosistema de ciencias de la vida.",
     "contactSubTitle2": "Contáctanos hoy para descubrir cómo Rialtes puede impulsar el crecimiento y el impacto en pacientes en tu organización."
+  },
+  "healthCare": {
+    "slidesCaseStudy": [
+      {
+        "id": 1,
+        "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+        "imgSrc": "/images/case-studies/case-study-7_thumb.webp",
+        "title": "Digitalización del recorrido del paciente con Salesforce Health Cloud",
+        "description": "Un fabricante líder especializado en construir materiales innovadores para proyectos de construcción residenciales y comerciales."
+      },
+      {
+        "id": 2,
+        "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
+        "imgSrc": "/images/case-studies/case-study-8_thumb.webp",
+        "title": "Salesforce Health Cloud, Autorización Previa",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares."
+      },
+      {
+        "id": 3,
+        "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+        "title": "Automatización del procesamiento de pedidos con Mulesoft para Salesforce Health Cloud y SAP",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
+      }
+    ],
+    "latestServices": [
+      {
+        "id": 1,
+        "title": "Aseguradoras",
+        "description": "Ofrecemos servicios de TI y consultoría para aseguradoras privadas y comerciales. Si eres una compañía de seguros de salud, puedes contar con nosotros para optimizar funciones clave como la gestión de reclamaciones, la comunicación con pacientes y proveedores, la incorporación de clientes y más."
+      },
+      {
+        "id": 2,
+        "title": "Proveedores",
+        "description": "Desde ayudarte a centralizar los datos de tus pacientes hasta implementar sistemas de coordinación de atención eficientes, te ayudamos a brindar atención de calidad, garantizar el cumplimiento de la HIPAA y simplificar tareas administrativas."
+      },
+      {
+        "id": 3,
+        "title": "Farmacia",
+        "description": "Nuestras soluciones de TI para farmacias te permiten optimizar la comunicación entre tú, los pacientes y los proveedores, al tiempo que integras datos entre proveedores, fabricantes e I+D para mejorar las terapias."
+      },
+      {
+        "id": 4,
+        "title": "Tecnología médica",
+        "description": "Ofrecemos una amplia gama de servicios de TI y consultoría adaptados a las necesidades únicas del sector MedTech. Nos encargamos de tus soluciones tecnológicas para que puedas enfocarte en el desarrollo de dispositivos médicos."
+      },
+      {
+        "id": 5,
+        "title": "Biotecnología",
+        "description": "Ayudamos a las empresas de biotecnología a acelerar la I+D, proteger sus datos y llevar medicamentos que salvan vidas al mercado más rápido, con soluciones de TI impulsadas por IA."
+      }
+    ],
+    "growLatestServices": [
+      {
+        "id": 1,
+        "image": "/images/healthcare/AdobeStock_572162228 copy.webp",
+        "title": "Atención al Paciente con Salesforce Health Cloud",
+        "description": "Implementar Salesforce Health Cloud puede mejorar significativamente la experiencia del paciente al centralizar todos los datos de salud. Esto facilita una toma de decisiones más inteligente y proporciona una plataforma intuitiva para los profesionales médicos.",
+        "productsDetails": [
+          "Historias clínicas centralizadas",
+          "Programación automatizada de citas",
+          "Recordatorios de medicación",
+          "Monitoreo remoto de atención"
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/images/healthcare/AdobeStock_200878864 copy.webp",
+        "title": "Mejoras para Urgencias y Hospitales",
+        "description": "Las soluciones hospitalarias optimizan todos los aspectos de la atención médica, desde la gestión del personal hasta la mejora de la atención al paciente y el seguimiento postratamiento.",
+        "productsDetails": [
+          "Asignación de recursos",
+          "Gestión de admisión y alta",
+          "Sistema de respuesta de emergencia"
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/images/healthcare/AdobeStock_930210511 copy.webp",
+        "title": "Soluciones Personalizadas de Atención al Paciente",
+        "description": "Nuestras soluciones se enfocan en crear un entorno médico empático. Gracias a estas herramientas, los centros médicos pueden mejorar el compromiso y la satisfacción del paciente.",
+        "productsDetails": [
+          "Salas de espera virtuales",
+          "Gestión digitalizada de recetas",
+          "Monitoreo de salud en tiempo real"
+        ]
+      },
+      {
+        "id": 4,
+        "image": "/images/healthcare/AdobeStock_184771424 copy.webp",
+        "title": "Servicios MedTech Incomparables",
+        "description": "Conocemos la dinámica del sector salud. Nuestros servicios MedTech garantizan el funcionamiento fluido de los sistemas técnicos y mecánicos dentro de los centros médicos.",
+        "productsDetails": [
+          "Soporte al cliente 24/7",
+          "Integraciones EMR",
+          "Auditorías de seguridad"
+        ]
+      }
+    ],
+    "headerTitle": "SALUD",
+    "headerSubTitle": "Redefiniendo el cuidado de la salud con el paciente como prioridad",
+    "pageDescTitle": "Soluciones de Atención al Paciente y MedTech con Salesforce Health Cloud",
+    "pageDesc1": "La industria de la salud está viviendo una gran transformación digital. Desde el consultorio hasta el hogar, los pacientes tienen más opciones de atención gracias a los avances tecnológicos, no solo en medicina sino también en TI médica.",
+    "pageDesc2": "Rialtes ayuda a las organizaciones médicas a ofrecer atención más rápida, eficiente y compasiva mediante soluciones especializadas de desarrollo de aplicaciones para el sector salud. Ya sea que necesites centralizar historiales clínicos o migrar a Salesforce Health Cloud, nuestro equipo de expertos en TI médica transformará la experiencia de tus pacientes.",
+    "growServicesTitle": "Soluciones Pioneras de TI para Medicina y Atención al Paciente",
+    "growServicesDesc": "El sector salud se encuentra en una encrucijada entre tecnología y atención al paciente. En Rialtes, ofrecemos soluciones especializadas de Salesforce Health Cloud que ayudan a los centros médicos a ser más ágiles y centrarse en el paciente. Nuestras soluciones integradas combinan software hospitalario, servicios MedTech y herramientas de compromiso con el paciente para brindar una atención excepcional, desde farmacias hasta atención domiciliaria.",
+    "servicesTitle": "Desde Farmacéuticas hasta Tecnología Médica, Atendemos Todos los Segmentos del Sector Salud",
+    "servicesDesc": "Ofrecemos implementación de Health Cloud, desarrollo de aplicaciones para salud, servicios de consultoría y mucho más para empresas dentro de los siguientes segmentos de la industria médica.",
+    "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros."
+  },
+  "pharmaBiotech": {
+    "thoughtData": [
+      "Acelera el desarrollo de productos, la presentación de normativas y la comercialización.",
+      "Crea plataformas integradas para operaciones clínicas, médicas y comerciales.",
+      "Fomenta el compromiso centrado en el paciente y la atención basada en resultados.",
+      "Garantiza el cumplimiento normativo en tiempo real con sistemas listos para auditorías."
+    ],
+    "whyRialtesData": [
+      "Expertos certificados en Salesforce Life Sciences Cloud y SAP S/4 HANA con experiencia global.",
+      "Especialistas en la optimización de procesos regulatorios, comerciales y clínicos.",
+      "Integraciones avanzadas de IA y análisis de datos para inteligencia en tiempo real.",
+      "Historial comprobado de éxito con las principales organizaciones farmacéuticas y biotecnológicas.",
+      "Presencia global para abordar las necesidades normativas y operativas regionales."
+    ],
+    "salesforceLifeData": [
+      "Unificación del compromiso con profesionales de la salud (HCP), CRM y coordinación de fuerzas de campo.",
+      "Gestión de casos de servicios para pacientes y automatización de programas de apoyo.",
+      "Gestión de ensayos clínicos, incluyendo participación de pacientes y evidencia del mundo real (RWE).",
+      "Gestión de quejas regulatorias, farmacovigilancia y seguimiento de eventos adversos."
+    ],
+    "sapData": [
+      "Serialización y cumplimiento de la cadena de suministro global.",
+      "Gestión de calidad y procesos de liberación de lotes.",
+      "Operaciones de orden a cobro, inventario y fabricación con cumplimiento normativo integrado.",
+      "Informes regulatorios y de auditoría a nivel global."
+    ],
+    "keyAiImpact": [
+      "Aceleración del descubrimiento de medicamentos mediante análisis molecular con IA y modelos predictivos.",
+      "Optimización del diseño de ensayos clínicos y reclutamiento de pacientes mediante selección de sitios y coincidencia de elegibilidad con IA.",
+      "Mejora de la farmacovigilancia a través de detección de eventos adversos impulsada por IA y reportes automatizados.",
+      "Personalización de interacciones con HCP y pacientes mediante análisis de comportamiento y necesidades basados en IA."
+    ],
+    "benefitsOfAiData": [
+      "Desarrollo de medicamentos más rápido y reducción de costos de I+D.",
+      "Mejor calidad y tiempos de presentación regulatoria.",
+      "Mayor compromiso de HCP y pacientes gracias a conocimientos basados en datos.",
+      "Mayor cumplimiento y mitigación de riesgos mediante análisis predictivo."
+    ],
+    "patientData": [
+      "Captura de resultados informados por los pacientes (PRO) y seguimiento de la adherencia.",
+      "Facilita recordatorios de medicación y entrega de contenido educativo.",
+      "Habilita la comunicación en tiempo real con equipos de atención al paciente.",
+      "Recopila evidencia del mundo real (RWE) para uso regulatorio y clínico."
+    ],
+    "remoteData": [
+      "Supervisión de dispositivos conectados y terapias digitales.",
+      "Recolección de adherencia, biometría y datos de uso directamente de los pacientes.",
+      "Detección temprana de eventos adversos o incumplimiento.",
+      "Información del uso en el mundo real para retroalimentación normativa e I+D."
+    ],
+    "agentChatData": [
+      "Comunicación automatizada con pacientes: recordatorios, encuestas, educación.",
+      "Soporte directo a HCP: muestras, consultas, actualizaciones.",
+      "Reporte de eventos adversos y quejas mediante chat.",
+      "Compartir formularios de consentimiento, documentos regulatorios y materiales educativos."
+    ],
+    "salesforceAgentData": [
+      "Gestionar la segmentación, el compromiso y el seguimiento de HCP.",
+      "Coordinar visitas de MSL (enlace científico médico) y programas educativos.",
+      "Automatizar la distribución de contenido médico y de marketing conforme a regulaciones.",
+      "Rastrear interacciones con clientes y obtener retroalimentación en tiempo real."
+    ],
+    "headerTitle": "Industria Farmacéutica",
+    "headerSubTitle": "Acelerando la Innovación y el Cumplimiento Farmacéutico",
+    "headerSubTitle2": "Soluciones Integrales para la Industria Farmacéutica y Biotecnológica de Rialtes",
+    "pageDesc": "Las industrias farmacéutica y biotecnológica están a la vanguardia de la atención médica global, pero enfrentan una creciente presión para innovar más rápido, cumplir con normativas y centrarse en el paciente. En medio de una competencia creciente, cambios regulatorios y la necesidad de acelerar la I+D, las soluciones tecnológicas y basadas en IA se vuelven clave para el éxito.",
+    "pageDesc1": "Con experiencia certificada en Salesforce Life Sciences Cloud y SAP S/4 HANA para Pharma, y oficinas en India, Estados Unidos, Canadá y Singapur, Rialtes ofrece mejores prácticas globales con alineación normativa local.",
+    "thoughtLeadershipTitle": "Liderazgo de Pensamiento:",
+    "thoughtLeadershipSubTitle": "Avanzando la Industria Farmacéutica con Enfoques Digitales, de IA y Basados en Datos",
+    "thoughtLeadershipDesc": "Rialtes se asocia con organizaciones líderes en farmacia y biotecnología para aprovechar el poder de la IA, aprendizaje automático, la nube y la automatización inteligente para:",
+    "thoughtLeadershipBlueBox": "Nuestro enfoque integral cierra brechas entre I+D, regulaciones, operaciones comerciales y cadena de suministro, ofreciendo una plataforma unificada para una mejor toma de decisiones y un menor tiempo de salida al mercado.",
+    "leadingPharmaTitle": "Por Qué las Principales Empresas Farmacéuticas y Biotecnológicas Eligen a Rialtes",
+    "deepExpertiseTitle": "Amplia Experiencia en Salesforce Life Sciences Cloud y SAP S/4 HANA para Farmacéuticas y Biotecnológicas",
+    "deepExpertiseSubTitle": "Salesforce Life Sciences Cloud",
+    "deepExpertiseSubTitle2": "Unificando Operaciones Comerciales, Clínicas y Médicas",
+    "deepExpertiseDesc": "Rialtes utiliza Salesforce para construir plataformas integradas que permiten:",
+    "sapHanaTitle": "SAP S/4 HANA para Farmacéuticas",
+    "sapHanaSubTitle": "Asegurando el Cumplimiento, la Calidad y la Excelencia Operacional",
+    "sapHanaDesc": "Nuestra experiencia en SAP ayuda a las farmacéuticas a optimizar:",
+    "sapHanaBlueBox": "Juntos, las integraciones de Salesforce y SAP aseguran procesos fluidos y conformes desde la I+D hasta la comercialización.",
+    "aiRevolTitle": "Cómo la IA Está Revolucionando la Industria Farmacéutica",
+    "aiRevolDesc": "La IA está generando un valor significativo en la industria farmacéutica, transformando la forma en que las empresas innovan, interactúan y gestionan el cumplimiento.",
+    "keyImpactTitle": "Áreas Clave de Impacto de la IA en Farmacéutica:",
+    "learnMoreBtn": "Saber Más",
+    "benefitsTitle": "Beneficios de la IA en Farmacéutica:",
+    "patientTitle": "Aplicaciones Móviles Centrada en el Paciente",
+    "patientSubTitle": "Impulsando Resultados y Evidencia del Mundo Real",
+    "patientDesc": "La farmacia moderna necesita apps móviles seguras para involucrar a los pacientes y recopilar resultados. Rialtes diseña apps para:",
+    "patientBlueBox": "Las apps móviles garantizan un mejor compromiso, adherencia y medición de resultados.",
+    "remoteTitle": "Monitoreo Remoto y Recolección de Datos del Mundo Real",
+    "remoteSubTitle": "El monitoreo remoto permite a las farmacéuticas seguir la efectividad de los productos y la seguridad del paciente en tiempo real:",
+    "remoteBlueBox": "Mejora la seguridad del paciente, los resultados y la generación de evidencia.",
+    "agentChatTitle": "AgentChat",
+    "agentChatSubTitle": "Integración en Tiempo Real con WhatsApp para Farmacéuticas",
+    "agentChatDesc": "AgentChat, la solución de integración con WhatsApp de Rialtes, permite una interacción segura y conforme:",
+    "keyFeatureTitle": "Características Clave:",
+    "agentChatBlueBox": "AgentChat permite una interacción omnicanal en tiempo real con pacientes y HCP, de forma segura y conforme.",
+    "salesforceTitle": "Salesforce Agentforce",
+    "salesforceSubTitle": "Impulsando Ventas, Asuntos Médicos y Soporte en Farmacéutica",
+    "knowMoreBtn": "Conocer Más",
+    "salesforceDesc": "Agentforce, la solución avanzada de Salesforce de Rialtes, ayuda a los equipos de ventas, asuntos médicos y soporte farmacéutico a:",
+    "salesforceBlueBox": "Agentforce mejora la eficacia del equipo de campo y garantiza interacciones personalizadas y conformes con HCP.",
+    "contactTitle": "¡Asóciate con Rialtes — Habilitando la Excelencia de Próxima Generación en Farmacéutica y Biotecnología!"
   }
+
 }

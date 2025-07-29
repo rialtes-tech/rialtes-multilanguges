@@ -46,6 +46,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const rialFinance = (await import(`../../messages/${locale}/services.json`)).default;
 
     const lifeScience = (await import(`../../messages/${locale}/industry.json`)).default;
+    const healthCare = (await import(`../../messages/${locale}/industry.json`)).default;
+    const pharmaBiotech = (await import(`../../messages/${locale}/industry.json`)).default;
+    const homeHealth = (await import(`../../messages/${locale}/industry.json`)).default;
+
+
 
 
     return {
@@ -83,7 +88,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...lifeAiPlus,
             ...advantagePlus,
             ...rialFinance,
-            ...lifeScience
+            ...lifeScience,
+            ...healthCare,
+            ...pharmaBiotech,
+            ...homeHealth
         }
     };
 });

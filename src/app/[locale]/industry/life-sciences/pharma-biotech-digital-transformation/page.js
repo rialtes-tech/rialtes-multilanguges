@@ -3,11 +3,13 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform"
 import Seo from "@/app/[locale]/components/Seo";
-;
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Link from "next/link";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from 'next-intl';
+import enContent from '../../../../../../messages/en/industry.json';
+import esContent from '../../../../../../messages/es/industry.json';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -241,68 +243,12 @@ const StrategicChallenge = () => {
         </>
     );
 }
-const thoughtData = [
-    "Accelerate product development, regulatory submissions, and commercialization.",
-    "Build integrated clinical, medical, and commercial operations platforms.",
-    "Foster patient-centric engagement and outcome-driven care.",
-    "Ensure real-time regulatory compliance with audit-ready systems.",
-]
-const whyRialtesData = [
-    "Certified Salesforce Life Sciences Cloud & SAP S/4 HANA experts with global expertise.",
-    "Specialized in regulatory, commercial, and clinical process optimization.",
-    "Advanced AI and data analytics integrations for real-time intelligence.",
-    "Strong track record of success across major pharmaceutical and biotech organizations.",
-    "Global footprint to address regional regulatory and operational needs."
-]
-const salesforceLifeData = [
-    "AUnified HCP engagement, CRM, and field force coordination.",
-    "Patient services case management and support program automation.",
-    "Clinical trial management, including participant engagement and RWE (Real World Evidence).",
-    "Regulatory complaint handling, pharmacovigilance, and adverse event tracking.",
-]
-const sapData = [
-    "Serialization and global supply chain compliance.",
-    "Quality management and batch release processes.",
-    " Order-to-cash, inventory, and manufacturing operations with embedded compliance.",
-    "Global regulatory and audit reporting.",
-]
-const keyAiImpact = [
-    "Accelerating drug discovery using AI-powered molecular analysis and predictive modeling.",
-    " Optimizing clinical trial design and patient recruitment through AI-based site selection and eligibility matching.",
-    " Enhancing pharmacovigilance via AI-driven adverse event detection and automated reporting.",
-    " Personalizing HCP and patient interactions using AI-based behavior and needs analysis.",
-]
-const benefitsOfAiData = [
-    "Faster drug development and reduced R&D costs.",
-    " Improved regulatory submission quality and timelines.",
-    " Enhanced HCP and patient engagement through data-driven insights.",
-    " Increased compliance and risk mitigation via predictive analytics.",
-]
-const patientData = [
-    "Capture patient-reported outcomes (PROs) and monitor adherence.",
-    "Facilitate medication reminders and educational content delivery.",
-    "Enable real-time communication with patient care teams.",
-    "Collect real-world evidence (RWE) for regulatory and clinical use.",
-]
-const remoteData = [
-    "Monitor connected devices and digital therapeutics.",
-    "Collect adherence, biometrics, and usage data directly from patients.",
-    "Early detection of adverse events or non-compliance.",
-    "Real-world usage insights for regulatory and R&D feedback loops.",
-]
-const agentChatData = [
-    "Automated patient communications: reminders, surveys, education.",
-    "Direct HCP support: samples, inquiries, updates.",
-    "Adverse event and complaint reporting via chat.",
-    "Sharing consent forms, regulatory documents, and education materials.",
-]
-const salesforceAgentData = [
-    "Manage HCP targeting, engagement, and follow-up activities.",
-    "Coordinate medical science liaison (MSL) visits and education programs.",
-    "Automate compliant marketing and medical content distribution.",
-    "Track customer interactions and feedback in real-time.",
-]
+
 export default function Page() {
+    const t = useTranslations('pharmaBiotech')
+    const locale = useLocale();
+    const content = locale === 'es' ? esContent : enContent;
+    const { thoughtData, whyRialtesData, salesforceLifeData, sapData, keyAiImpact, benefitsOfAiData, patientData, remoteData, agentChatData, salesforceAgentData } = content.pharmaBiotech;
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -341,14 +287,14 @@ export default function Page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white">
                             <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px] font-bold">
-                                Pharma Industry
+                                {t('headerTitle')}
                             </h3>
-                            <h1 className="text-[24px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] "  >
-                                Accelerating Pharma<br /> Innovation & Compliance
+                            <h1 className="text-[24px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] "  >
+                                {t('headerSubTitle')}
                             </h1>
 
-                            <h3 className="text-[18px]   md:text-[26px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] 4xl:text-[45px] leading-tight w-[239px] 4xl:w-[650px] 2xl:w-[600px] xl:w-[580px] lg:w-[420px] md:w-[380px] mt-[11.5px] md:mt-[28.5px]">
-                                Rialtes End-to-End Pharma & Biotech Solutions
+                            <h3 className="text-[18px] md:text-[26px] lg:text-[30px] xl:text-[40px] 2xl:text-[42px] 4xl:text-[45px] leading-tight w-[239px] 4xl:w-[650px] 2xl:w-[600px] xl:w-[580px] lg:w-[420px] md:w-[380px] mt-[11.5px] md:mt-[28.5px]">
+                                {t('headerSubTitle2')}
                             </h3>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -360,8 +306,8 @@ export default function Page() {
             <section className="xl:mt-16 mt-8 custom-container">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
                     <div className="lg:col-span-10 col-span-12">
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   text-[16px] mt-5 font-medium lg:font-normal">The pharmaceutical and biotech industries are at the forefront of global healthcare, yet they face increasing pressure to innovate faster, remain compliant, and stay patient-centric. Amidst growing competition, changing regulations, and the need for accelerated R&D, technology and AI-driven solutions are becoming pivotal to success.</p>
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px] mt-5 font-medium lg:font-normal"> With certified expertise in Salesforce Life Sciences Cloud and SAP S/4 HANA for Pharma, and offices in India, United States, Canada, and Singapore, Rialtes delivers global best practices with local regulatory alignment.</p>
+                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] mt-5 font-medium lg:font-normal">{t('pageDesc')}</p>
+                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] mt-5 font-medium lg:font-normal">{t('pageDesc1')} </p>
                     </div>
                     <div className="lg:col-span-2 col-span-12">
                     </div>
@@ -388,19 +334,20 @@ export default function Page() {
                         priority
                     />
                 </div>
+                {/* thought leadership section */}
 
                 <div className="custom-container absolute bottom-0 ">
                     <div className="grid md:grid-cols-12 grid-cols-1">
                         <div className="md:col-span-7 col-span-12">
-                            <h2 className="text-[26px]  md:text-[30px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] mt-[400px] ">Thought Leadership:</h2>
-                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[30px] md:text-[30px]  text-[22px] xl:mt-5 mt-3 font-bold leading-tight lg:w-[94%]">Advancing Pharma with Digital, AI, and Data-Driven Approaches</h3>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[18px] text-[16px] mt-5 leading-tight">Rialtes partners with leading pharma and biotech organizations to unlock the power of AI, machine learning, cloud, and intelligent automation to:</p>
+                            <h2 className="text-[26px]  md:text-[30px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] mt-[400px]">{t('thoughtLeadershipTitle')}</h2>
+                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[30px] md:text-[30px]  text-[22px] xl:mt-5 mt-3 font-bold leading-tight lg:w-[94%]">{t('thoughtLeadershipSubTitle')}</h3>
+                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[18px] text-[16px] mt-5 leading-tight">{t('thoughtLeadershipDesc')}</p>
                             <UnorderedList arrName={thoughtData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] md:text-[16px] text-[16px] mt-5 leading-tight" liClassName="" />
                         </div>
                     </div>
                     <div
                         className="xl:mt-[67px] mt-[41px]">
-                        <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[20px] text-[18px] bg-[#073259] p-5 lg:p-10 text-white leading-tight">Our end-to-end approach bridges gaps between R&D, regulatory, commercial, and supply chain functions, delivering a unified platform for better decision-making and faster time to market.</p>
+                        <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[20px] text-[18px] bg-[#073259] p-5 lg:p-10 text-white leading-tight">{t('thoughtLeadershipBlueBox')}</p>
                     </div>
                 </div>
             </section>
@@ -426,17 +373,17 @@ export default function Page() {
                     />
                 </div>
                 <div className="custom-container">
-                    <div className="relative p-6 md:p-12 4xl:w-[828px] 2xl:w-[800px] xl:w-[700px] lg:w-[650px] md:w-[500px] w-[322px]  xl:h-[403px]">
+                    <div className="relative p-6 md:p-12 4xl:w-[828px] 2xl:w-[800px] xl:w-[700px] lg:w-[650px] md:w-[500px] w-[322px] xl:h-[403px]">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
-                            <h2 className="text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight 4xl:w-[698px] 2xl:w-[630px] xl:w-[580px] lg:w-[550px] md:w-[400px] w-[257px]">Why Leading Pharma & Biotech Firms Choose Rialtes</h2>
+                            <h2 className="text-[26px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight 4xl:w-[698px] 2xl:w-[630px] xl:w-[580px] lg:w-[550px] md:w-[400px] w-[257px]">{t('leadingPharmaTitle')}</h2>
                         </div>
                     </div>
                 </div>
                 <div className="absolute bottom-[-280px] sm:bottom-[-80px] md:bottom-[-80px]">
                     <div className="custom-container grid grid-cols-1 gap-[21px] lg:gap-[32px] md:grid-cols-2 xl:grid-cols-3 text-black relative z-10">
                         {whyRialtesData.map((item, index) => (
-                            <div key={index} className="bg-white xl:p-14 p-[40px]  rounded border border-black sm:mx-auto sm:w-[96%] w-full md:w-full ">
+                            <div key={index} className="bg-white xl:p-14 p-[40px] rounded border border-black sm:mx-auto sm:w-[96%] w-full md:w-full">
                                 <h3 className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[20px] font-bold leading-tight ">{item}</h3>
                             </div>
                         ))}
@@ -467,9 +414,9 @@ export default function Page() {
                 </div>
                 <div className="h-full relative custom-container">
                     <div className="xl:w-[75%] w-[95%]">
-                        <h2 className="text-[26px]  md:text-[36px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight">Deep Expertise in Salesforce Life Sciences Cloud & SAP S/4 HANA for Pharma and Biotech</h2>
+                        <h2 className="text-[26px]  md:text-[36px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight">{t('deepExpertiseTitle')}</h2>
                     </div>
-                    <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[158px] lg:gap-[108px] lg:mt-[60px] mt-[44px] ">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[158px] lg:gap-[108px] lg:mt-[60px] mt-[44px]">
                         <div className="4xl:w-[532px] 2xl:w-[510px]">
                             <div className="relative">
                                 <Image
@@ -481,9 +428,9 @@ export default function Page() {
                                     className="w-full h-full"
                                 />
                             </div>
-                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[34px] lg:text-[30px] md:text-[30px] text-[28px] mt-10 font-bold leading-tight">Salesforce Life Sciences Cloud </h3>
-                            <h3 className="mt-5 4xl:text-[35px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] text-[22px] leading-tight">Unifying Commercial, Clinical, and Medical Operations</h3>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5">Rialtes leverages Salesforce to build integrated platforms that enable:</p>
+                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[34px] lg:text-[30px] md:text-[30px] text-[28px] mt-10 font-bold leading-tight">{t('deepExpertiseSubTitle')} </h3>
+                            <h3 className="mt-5 4xl:text-[35px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] text-[22px] leading-tight">{t('deepExpertiseSubTitle2')}</h3>
+                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5">{t('deepExpertiseDesc')}</p>
                             <UnorderedList arrName={salesforceLifeData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5" liClassName="" />
                         </div>
                         <div>
@@ -497,9 +444,9 @@ export default function Page() {
                                     className="w-full h-full"
                                 />
                             </div>
-                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[34px] lg:text-[30px] md:text-[30px] text-[28px]  mt-10 font-bold leading-tight">SAP S/4 HANA for Pharma </h3>
-                            <h3 className="mt-5 4xl:text-[35px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] text-[22px] leading-tight pr-4 xl:pr-0">Ensuring Compliance, Quality, and Operational Excellence</h3>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px]  mt-5 pr-10 xl:pr-5">Our SAP expertise helps pharmaceutical firms streamline:</p>
+                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[34px] lg:text-[30px] md:text-[30px] text-[28px]  mt-10 font-bold leading-tight">{t('sapHanaTitle')} </h3>
+                            <h3 className="mt-5 4xl:text-[35px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] text-[22px] leading-tight pr-4 xl:pr-0">{t('sapHanaSubTitle')}</h3>
+                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px]  mt-5 pr-10 xl:pr-5">{t('sapHanaDesc')}</p>
                             <UnorderedList arrName={sapData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px]  mt-5 pr-4 xl:pr-20 leading-tight" liClassName="" />
                         </div>
                     </div>
@@ -508,7 +455,7 @@ export default function Page() {
             {/* blue box of deep expertise */}
             <div className="custom-container absolute">
                 <div className="lg:mt-[-80px] sm:mt-[-60px] mt-[-80px]">
-                    <p className=" 4xl:w-[50%] 2xl:w-[56%] xl:w-[60%] lg:w-[66%] md:w-[80%] sm:w-[90%] w-[82%] 4xl:text-[26px] 2xl:text-[25px] xl:text-[22px] lg:text-[20px] md:text-[20px] text-[18px] lg:py-[41px] py-[26px] lg:pl-[48px] px-[33px]  bg-[#0E3157] text-white absolute leading-tight">Together, Salesforce and SAP integrations ensure seamless, compliant processes from R&D to commercialization.</p>
+                    <p className=" 4xl:w-[50%] 2xl:w-[56%] xl:w-[60%] lg:w-[66%] md:w-[80%] sm:w-[90%] w-[82%] 4xl:text-[26px] 2xl:text-[25px] xl:text-[22px] lg:text-[20px] md:text-[20px] text-[18px] lg:py-[41px] py-[26px] lg:pl-[48px] px-[33px] bg-[#0E3157] text-white absolute leading-tight">{t('sapHanaBlueBox')}</p>
                 </div>
             </div>
 
@@ -517,12 +464,12 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[70px] lg:gap-[40px] gap-y-[21px]">
                     <div className="xl:col-span-7 lg:col-span-6 col-span-12">
                         <h2 className="text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight">
-                            How AI is Revolutionizing the Pharma Industry
+                            {t('aiRevolTitle')}
                         </h2>
                     </div>
                     <div className="xl:col-span-5 lg:col-span-6  col-span-12">
                         <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px] md:text-[18px] text-[16px] lg:w-[80%] md:w-[96%] lg:float-right">
-                            AI is driving significant value in pharma, transforming how companies innovate, engage, and manage compliance.
+                            {t('aiRevolDesc')}
                         </p>
                     </div>
                 </div>
@@ -552,10 +499,10 @@ export default function Page() {
                     </div>
                     <div className="grid lg:grid-cols-12 grid-cols-1 relative ">
                         <div className="lg:col-span-6 col-span-12 lg:mt-[93px] mt-[500px md:mt-[600px] sm:mt-[500px] mt-[480px] lg:ml-[61px] ml-[36px] lg:mb-[81px] mb-[40px]">
-                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">Key AI Impact Areas in Pharma:</h3>
+                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">{t('keyImpactTitle')}</h3>
                             <UnorderedList arrName={keyAiImpact} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 lg:pr-4 pr-8" liClassName="" />
                             <button className="bg-white hover:bg-[#ffffff] xl:text-[20px] xl:block hidden  hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-10">
-                                <Link href='/contact-us'>Learn More</Link>
+                                <Link href='/contact-us'>{t('learnMoreBtn')}</Link>
                             </button>
                         </div>
                     </div>
@@ -588,7 +535,7 @@ export default function Page() {
                         <div className="lg:col-span-5 col-span-12">
                         </div>
                         <div className="lg:col-span-7 lg:order-2 col-span-12 lg:mt-[93px] mt-[500px md:mt-[600px] sm:mt-[500px] mt-[480px] lg:ml-[61px] lg:mr-[20px] ml-[36px] lg:mb-[81px] mb-[40px]">
-                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">Benefits of AI in Pharma:</h3>
+                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">{t('benefitsTitle')}</h3>
                             <UnorderedList arrName={benefitsOfAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 xl:pr-20 pr-10" liClassName="" />
                             <div className="mt-5 xl:block hidden">
                                 <LearnMore />
@@ -612,11 +559,11 @@ export default function Page() {
                                     className="xl:!h-[472px] xl:!w-[670px] !h-[252px] !w-[360px] transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                                 />
                             </div>
-                            <h2 className="mt-10 text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight ">Patient-Centric Mobile Apps</h2>
-                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[38px] lg:text-[30px] md:text-[30px] text-[22px] mt-10 font-bold leading-tight 4xl:w-[670px] 2xl:w-[660px] xl:w-[650px] lg:w-[500px] md:w-[450px] ">Driving Outcomes and Real-World Evidence </h3>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] xl:mt-10 mt-5 leading-tight 4xl:w-[670px] 2xl:w-[660px] xl:w-[550px] lg:w-[500px] ">Modern pharma needs secure mobile apps for engaging patients and collecting outcomes. Rialtes designs apps to:</p>
+                            <h2 className="mt-10 text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight">{t('patientTitle')}</h2>
+                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[38px] lg:text-[30px] md:text-[30px] text-[22px] mt-10 font-bold leading-tight 4xl:w-[670px] 2xl:w-[660px] xl:w-[650px] lg:w-[500px] md:w-[450px]">{t('patientSubTitle')} </h3>
+                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] xl:mt-10 mt-5 leading-tight 4xl:w-[670px] 2xl:w-[660px] xl:w-[550px] lg:w-[500px]">{t('patientDesc')}</p>
                             <UnorderedList arrName={patientData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px] text-[16px] mt-5" liClassName="" />
-                            <p className="bg-[#163055] 4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] p-4  xl:p-10 py-8  mt-10 leading-tight">Mobile apps ensure better engagement, adherence, and outcome measurement.</p>
+                            <p className="bg-[#163055] 4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] p-4  xl:p-10 py-8  mt-10 leading-tight">{t('patientBlueBox')}</p>
                         </div>
                         <div className="lg:col-span-6 col-span-12 lg:mt-64 mt-0 md:w-[80%] lg:w-full">
                             <div className="relative group overflow-hidden">
@@ -629,10 +576,10 @@ export default function Page() {
                                     className="xl:!h-[472px] xl:!w-[670px] !h-[252px] !w-[360px] transform transition-transform duration-500 group-hover:scale-110"
                                 />
                             </div>
-                            <h2 className="mt-10 text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight pr-10 xl:pr-0">Remote Monitoring & Real-World Data Collection</h2>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px] text-[16px] mt-10 pr-10 xl:pr-0 leading-tight">Remote monitoring allows pharma companies to track product effectiveness and patient safety in real-time:</p>
+                            <h2 className="mt-10 text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight pr-10 xl:pr-0">{t('remoteTitle')}</h2>
+                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px] text-[16px] mt-10 pr-10 xl:pr-0 leading-tight">{t('remoteSubTitle')}</p>
                             <UnorderedList arrName={remoteData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px]  mt-5 pr-10 leading-tight" liClassName="" />
-                            <p className="bg-[#163055] absolute  4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] p-10 lg:mt-[100px] xl:mt-[100px] 2xl:mt-[100px] mt-[40px] leading-tight">Enhancing patient safety, outcomes, and evidence generation.</p>
+                            <p className="bg-[#163055] absolute  4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] p-10 lg:mt-[100px] xl:mt-[100px] 2xl:mt-[100px] mt-[40px] leading-tight">{t('remoteBlueBox')}</p>
                         </div>
                     </div>
                 </div>
@@ -655,25 +602,23 @@ export default function Page() {
                     <div className="xl:col-span-1 col-span-12 ">
                     </div>
                     <div className="col-span-6 4xl:w-[532px] 2xl:w-[480px] xl:w-[460px] lg:w-[450px] md:w-[450px]">
-                        <h2 className="4xl:text-[50px] 2xl:text-[48px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px] mt-8 xl:mt-0">AgentChat</h2>
-                        <h3 className="4xl:text-[42px] 2xl:text-[38px] xl:text-[35px] lg:text-[34px] md:text-[30px]  text-[24px] lg:font-bold font-medium leading-tight">Real-Time WhatsApp Integration for Pharma</h3>
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-10 mt-6 " >AgentChat Rialtes’ WhatsApp integration solution, supports secure and compliant engagement:</p>
-                        <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[20px] font-bold xl:mt-10 mt-6">Key Features:</h3>
+                        <h2 className="4xl:text-[50px] 2xl:text-[48px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px] mt-8 xl:mt-0">{t('agentChatTitle')}</h2>
+                        <h3 className="4xl:text-[42px] 2xl:text-[38px] xl:text-[35px] lg:text-[34px] md:text-[30px] text-[24px] lg:font-bold font-medium leading-tight">{t('agentChatSubTitle')}</h3>
+                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-10 mt-6">{t('agentChatDesc')}</p>
+                        <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[20px] font-bold xl:mt-10 mt-6">{t('keyFeatureTitle')}</h3>
                         <UnorderedList arrName={agentChatData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px] mt-5 font-bold leading-tight" liClassName="" />
-                        <div>
-                            <button className="bg-[#134874] hover:bg-[#ffffff] xl:text-[20px] text-[16px] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-6">
-                                <Link href='/products/agentchat'>Know More</Link>
-                            </button>
+                        <div className="mt-6">
+                            <LearnMore href='/products/agentchat' btnName={t('knowMoreBtn')} />
                         </div>
                     </div>
                 </div>
                 <div className="h-full mt-20 xl:mt-0">
-                    <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] bg-[#068EDA]   p-6 lg:p-10 text-white mt-[-2rem] lg:absolute md:w-[80%] 4xl:w-[60%] 2xl:w-[68%] xl:w-[70%] lg:w-[75%]  ">AgentChat enables real-time omnichannel patient and HCP engagement — securely and compliantly.</p>
+                    <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] bg-[#068EDA] p-6 lg:p-10 text-white mt-[-2rem] lg:absolute md:w-[80%] 4xl:w-[60%] 2xl:w-[68%] xl:w-[70%] lg:w-[75%]">{t('agentChatBlueBox')}</p>
                 </div>
             </div>
             {/* salesforce section */}
             <div className="bg-[#184671] text-white xl:pb-[150px] pb-40 mt-[65px] lg:mt-0">
-                <div className="mt-[30px] custom-container  text-black xl:py-20">
+                <div className="mt-[30px] custom-container text-black xl:py-20">
                     <div className="group overflow-hidden relative mt-0 lg:mt-[230px] xl:mt-[194px]">
                         <div className="xl:block hidden">
                             <Image
@@ -698,11 +643,11 @@ export default function Page() {
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 mt-10 text-white">
                         <div className="xl:col-span-5 col-span-12">
-                            <h2 className="4xl:text-[50px] 2xl:text-[48px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px]">Salesforce Agentforce </h2>
-                            <h3 className="4xl:text-[42px] 2xl:text-[38px] xl:text-[34px] lg:text-[34px] md:text-[30px]  text-[26px] leading-tight font-semibold ">Supercharging Pharma Sales, Medical Affairs, and Support</h3>
+                            <h2 className="4xl:text-[50px] 2xl:text-[48px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px]">{t('salesforceTitle')}</h2>
+                            <h3 className="4xl:text-[42px] 2xl:text-[38px] xl:text-[34px] lg:text-[34px] md:text-[30px] text-[26px] leading-tight font-semibold">{t('salesforceSubTitle')}</h3>
                             <div className="xl:mt-5">
                                 <button className="bg-white hover:bg-[#ffffff] xl:text-[20px] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6">
-                                    <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>Know More</Link>
+                                    <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>{t('knowMoreBtn')}</Link>
                                 </button>
                             </div>
 
@@ -710,20 +655,20 @@ export default function Page() {
                         <div className="xl:col-span-1 col-span-12">
                         </div>
                         <div className="xl:col-span-6 col-span-12">
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-5 mt-10 font-light">Agentforce, Rialtes’ advanced Salesforce solution, helps pharma sales, medical affairs, and support teams:</p>
+                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-5 mt-10 font-light">{t('salesforceDesc')}</p>
                             <UnorderedList arrName={salesforceAgentData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px] text-[16px] mt-5 font-medium pr-6 xl:pr-0" liClassName="" />
                         </div>
                     </div>
                 </div>
                 <div className="absolute">
                     <div className="custom-container">
-                        <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] bg-[#068EDA]  p-6 lg:p-10 text-white mt-[60px] sm:mt-[80px]   lg:w-[80%]">Agentforce enhances field force effectiveness and ensures compliant, personalized HCP interactions.</p>
+                        <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[20px] text-[18px] bg-[#068EDA] p-6 lg:p-10 text-white mt-[60px] sm:mt-[80px] lg:w-[80%]">{t('salesforceBlueBox')}</p>
                     </div>
                 </div>
             </div>
             {/* Contact Form */}
             <div className="xl:mt-32 mt-12 custom-container text-black py-20">
-                <ContactForm title={'Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!'} className={"max-w-[62rem]  font-light text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px]  leading-tight pr-10 xl:pr-0"} />
+                <ContactForm title={t('contactTitle')} className={"max-w-[62rem]  font-light text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0"} />
             </div>
         </div>
     );

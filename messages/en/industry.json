@@ -399,5 +399,219 @@
     "contactTitle": "Ready to Transform Life Sciences with Rialtes?",
     "contactSubTitle": "Partner with Rialtes to unlock innovation, compliance, and patient-centric solutions across the life sciences ecosystem.",
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
+  },
+  "healthCare": {
+    "slidesCaseStudy": [
+      {
+        "id": 1,
+        "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+        "imgSrc": "/images/case-studies/case-study-7_thumb.webp",
+        "title": "Digitizing patient journey using Salesforce health cloud",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
+      },
+      {
+        "id": 2,
+        "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
+        "imgSrc": "/images/case-studies/case-study-8_thumb.webp",
+        "title": "Salesforce Health Cloud, Prior Authorization",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+      },
+      {
+        "id": 3,
+        "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+        "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        "description": "A global medical technology company that develops and manufactures innovative products."
+      }
+    ],
+    "latestServices": [
+      {
+        "id": 1,
+        "title": "Payer",
+        "description": "We provide IT and consulting services for private and commercial payers. If you’re a health insurance company, you can count on us to help you streamline critical functions like claim management, patient and provider communication, customer onboarding, and more."
+      },
+      {
+        "id": 2,
+        "title": "Provider",
+        "description": "From helping you centralize your patients’ data to implementing efficient care coordination systems, we’ll help you serve patients more effectively, ensure HIPAA compliance, and simplify administrative tasks."
+      },
+      {
+        "id": 3,
+        "title": "Pharma",
+        "description": "Our healthcare IT solutions for pharmacies allow you to streamline communication between you, patients, and providers – while integrating data across suppliers, manufacturers, and R&D to inform patient therapies."
+      },
+      {
+        "id": 4,
+        "title": "Medtech",
+        "description": "We offer a wide range of IT and consulting services tailored to the unique needs of the MedTech sector. We take care of your tech solutions so you can focus on developing medical devices."
+      },
+      {
+        "id": 5,
+        "title": "Biotech",
+        "description": "Helping Biotech companies achieve R&D, keep their data secure, and put life-saving medicines on the market faster with tailored AI-powered healthcare IT solutions."
+      }
+    ],
+    "growLatestServices": [
+      {
+        "id": 1,
+        "image": "/images/healthcare/AdobeStock_572162228 copy.webp",
+        "title": "Patient Care with Salesforce Health Cloud",
+        "description": "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
+        "productsDetails": [
+          "Centralized Patient Records",
+          "Automated Appointment Scheduling",
+          "Medication Reminders ",
+          "Remote Care Monitoring"
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/images/healthcare/AdobeStock_200878864 copy.webp",
+        "title": "Urgent Care & Hospital Enhancements",
+        "description": "Hospital solutions optimize every aspect of managing your bespoke healthcare delivery, from the administration of team members to boosting quality patient care and post-treatment follow-up appointments.",
+        "productsDetails": [
+          "Resource Allocation",
+          "Admission and Discharge Management",
+          "Emergency Response System "
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/images/healthcare/AdobeStock_930210511 copy.webp",
+        "title": "Tailored Patient Care Solutions",
+        "description": "Our patient care solutions focus on creating an empathetic healthcare environment. By leveraging these solutions, medical facilities can enhance patient engagement and satisfaction.",
+        "productsDetails": [
+          "Virtual Waiting Rooms",
+          "Digitalized Prescription Management",
+          "Real-time Health Monitoring "
+        ]
+      },
+      {
+        "id": 4,
+        "image": "/images/healthcare/AdobeStock_184771424 copy.webp",
+        "title": "Unmatched MedTech Services",
+        "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
+        "productsDetails": [
+          "24/7 Customer Support",
+          "EMR integrations",
+          "Security Audits"
+        ]
+      }
+    ],
+    "headerTitle": "HEALTHCARE",
+    "headerSubTitle": "Redefining healthcare by keeping patients at the center",
+    "pageDescTitle": "Patient Care and MedTech Solutions Built on Salesforce Health Cloud",
+    "pageDesc1": "The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.",
+    "pageDesc2": "Rialtes helps medical organizations deliver faster, more efficient, and compassionate patient care with specialized healthcare application development solutions. Whether you’re looking for ways to centralize patient records or migrate your data to Salesforce Health Cloud, our dedicated team of healthcare IT experts will help you transform your patients’ experiences.",
+    "growServicesTitle": "Pioneering Medical & Patient Care IT Solutions",
+    "growServicesDesc": "The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.",
+    "servicesTitle": "From Pharma to Medtech, We Serve all Major Healthcare Segments",
+    "servicesDesc": "We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.",
+    "contactTitle": "Take the next step to operational excellence with us."
+  },
+  "pharmaBiotech": {
+    "thoughtData": [
+      "Accelerate product development, regulatory submissions, and commercialization.",
+      "Build integrated clinical, medical, and commercial operations platforms.",
+      "Foster patient-centric engagement and outcome-driven care.",
+      "Ensure real-time regulatory compliance with audit-ready systems."
+    ],
+    "whyRialtesData": [
+      "Certified Salesforce Life Sciences Cloud & SAP S/4 HANA experts with global expertise.",
+      "Specialized in regulatory, commercial, and clinical process optimization.",
+      "Advanced AI and data analytics integrations for real-time intelligence.",
+      "Strong track record of success across major pharmaceutical and biotech organizations.",
+      "Global footprint to address regional regulatory and operational needs."
+    ],
+    "salesforceLifeData": [
+      "AUnified HCP engagement, CRM, and field force coordination.",
+      "Patient services case management and support program automation.",
+      "Clinical trial management, including participant engagement and RWE (Real World Evidence).",
+      "Regulatory complaint handling, pharmacovigilance, and adverse event tracking."
+    ],
+    "sapData": [
+      "Serialization and global supply chain compliance.",
+      "Quality management and batch release processes.",
+      " Order-to-cash, inventory, and manufacturing operations with embedded compliance.",
+      "Global regulatory and audit reporting."
+    ],
+    "keyAiImpact": [
+      "Accelerating drug discovery using AI-powered molecular analysis and predictive modeling.",
+      " Optimizing clinical trial design and patient recruitment through AI-based site selection and eligibility matching.",
+      " Enhancing pharmacovigilance via AI-driven adverse event detection and automated reporting.",
+      " Personalizing HCP and patient interactions using AI-based behavior and needs analysis."
+    ],
+    "benefitsOfAiData": [
+      "Faster drug development and reduced R&D costs.",
+      " Improved regulatory submission quality and timelines.",
+      " Enhanced HCP and patient engagement through data-driven insights.",
+      " Increased compliance and risk mitigation via predictive analytics."
+    ],
+    "patientData": [
+      "Capture patient-reported outcomes (PROs) and monitor adherence.",
+      "Facilitate medication reminders and educational content delivery.",
+      "Enable real-time communication with patient care teams.",
+      "Collect real-world evidence (RWE) for regulatory and clinical use."
+    ],
+    "remoteData": [
+      "Monitor connected devices and digital therapeutics.",
+      "Collect adherence, biometrics, and usage data directly from patients.",
+      "Early detection of adverse events or non-compliance.",
+      "Real-world usage insights for regulatory and R&D feedback loops."
+    ],
+    "agentChatData": [
+      "Automated patient communications: reminders, surveys, education.",
+      "Direct HCP support: samples, inquiries, updates.",
+      "Adverse event and complaint reporting via chat.",
+      "Sharing consent forms, regulatory documents, and education materials."
+    ],
+    "salesforceAgentData": [
+      "Manage HCP targeting, engagement, and follow-up activities.",
+      "Coordinate medical science liaison (MSL) visits and education programs.",
+      "Automate compliant marketing and medical content distribution.",
+      "Track customer interactions and feedback in real-time."
+    ],
+    "headerTitle": "Pharma Industry",
+    "headerSubTitle": "Accelerating Pharma Innovation & Compliance",
+    "headerSubTitle2": "Rialtes End-to-End Pharma & Biotech Solutions",
+    "pageDesc": "The pharmaceutical and biotech industries are at the forefront of global healthcare, yet they face increasing pressure to innovate faster, remain compliant, and stay patient-centric. Amidst growing competition, changing regulations, and the need for accelerated R&D, technology and AI-driven solutions are becoming pivotal to success.",
+    "pageDesc1": "With certified expertise in Salesforce Life Sciences Cloud and SAP S/4 HANA for Pharma, and offices in India, United States, Canada, and Singapore, Rialtes delivers global best practices with local regulatory alignment.",
+    "thoughtLeadershipTitle": "Thought Leadership:",
+    "thoughtLeadershipSubTitle": "Advancing Pharma with Digital, AI, and Data-Driven Approaches",
+    "thoughtLeadershipDesc": "Rialtes partners with leading pharma and biotech organizations to unlock the power of AI, machine learning, cloud, and intelligent automation to:",
+    "thoughtLeadershipBlueBox": "Our end-to-end approach bridges gaps between R&D, regulatory, commercial, and supply chain functions, delivering a unified platform for better decision-making and faster time to market.",
+    "leadingPharmaTitle": "Why Leading Pharma & Biotech Firms Choose Rialtes",
+    "deepExpertiseTitle": "Deep Expertise in Salesforce Life Sciences Cloud & SAP S/4 HANA for Pharma and Biotech",
+    "deepExpertiseSubTitle": "Salesforce Life Sciences Cloud",
+    "deepExpertiseSubTitle2": "Unifying Commercial, Clinical, and Medical Operations",
+    "deepExpertiseDesc": "Rialtes leverages Salesforce to build integrated platforms that enable:",
+    "sapHanaTitle": "SAP S/4 HANA for Pharma",
+    "sapHanaSubTitle": "Ensuring Compliance, Quality, and Operational Excellence",
+    "sapHanaDesc": "Our SAP expertise helps pharmaceutical firms streamline:",
+    "sapHanaBlueBox": "Together, Salesforce and SAP integrations ensure seamless, compliant processes from R&D to commercialization.",
+    "aiRevolTitle": "How AI is Revolutionizing the Pharma Industry",
+    "aiRevolDesc": "AI is driving significant value in pharma, transforming how companies innovate, engage, and manage compliance.",
+    "keyImpactTitle": "Key AI Impact Areas in Pharma:",
+    "learnMoreBtn": "Learn More",
+    "benefitsTitle": "Benefits of AI in Pharma:",
+    "patientTitle": "Patient-Centric Mobile Apps",
+    "patientSubTitle": "Driving Outcomes and Real-World Evidence",
+    "patientDesc": "Modern pharma needs secure mobile apps for engaging patients and collecting outcomes. Rialtes designs apps to:",
+    "patientBlueBox": "Mobile apps ensure better engagement, adherence, and outcome measurement.",
+    "remoteTitle": "Remote Monitoring & Real-World Data Collection",
+    "remoteSubTitle": "Remote monitoring allows pharma companies to track product effectiveness and patient safety in real-time:",
+    "remoteBlueBox": "Enhancing patient safety, outcomes, and evidence generation.",
+    "agentChatTitle": "AgentChat",
+    "agentChatSubTitle": "Real-Time WhatsApp Integration for Pharma",
+    "agentChatDesc": "AgentChat Rialtes’ WhatsApp integration solution, supports secure and compliant engagement:",
+    "keyFeatureTitle": "Key Features:",
+    "agentChatBlueBox": "AgentChat enables real-time omnichannel patient and HCP engagement — securely and compliantly.",
+    "salesforceTitle": "Salesforce Agentforce",
+    "salesforceSubTitle": "Supercharging Pharma Sales, Medical Affairs, and Support",
+    "knowMoreBtn": "Know More",
+    "salesforceDesc": "Agentforce, Rialtes’ advanced Salesforce solution, helps pharma sales, medical affairs, and support teams:",
+    "salesforceBlueBox": "Agentforce enhances field force effectiveness and ensures compliant, personalized HCP interactions.",
+    "contactTitle": "Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!"
   }
+ 
 }
