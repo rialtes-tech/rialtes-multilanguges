@@ -3,9 +3,7 @@
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Link from "next/link";
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
 const schemaData =
 {
@@ -169,8 +167,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes
-"
+        title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes"
         description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
         canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
       />

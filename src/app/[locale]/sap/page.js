@@ -5,9 +5,9 @@ import Image from "next/image";
 import ContactForm from "../components/contactform";
 import FeaturedCarousel from '../components/servicesFeaturedCarousel';
 import CarouselComponent from "../components/useCarousel";
-import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import Link from "next/link";
+import ServicesBlogs from "../components/servicesBlogs";
 
 
 const solutionSuccess = [

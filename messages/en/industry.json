@@ -1,218 +1,403 @@
 {
-    "industry":{
-            "headerTitle":"Industries",
-            "headerSubTitleOne":" Transform how ",
-            "headerSubTitleTwo":" you engage with ",
-            "headerSubTitleThree":"your clients",
-            "mindsetTitle":"Different Industries, Different Mindsets",
-            "mindsetDesc":"We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.",
-            "growTitle":" Industries we serve",
-            "knowMore":"Know More",
-
-            "growLatestServices" : [
-    {
-      "id": 1,
-      "image": "/images/industry/healthcare.webp",
-      "title": "Healthcare",
-      "description": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels",
-      "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
-
-    },
-    {
-      "id": 2,
-      "image": "/images/industry/manufacturing.webp",
-      "title": "Manufacturing",
-      "description": "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
-      "knowMore": "/industry/manufacturing-cloud-erp"
-
-    },
-    {
-      "id": 3,
-      "image": "/images/industry/real-estate.webp",
-      "title": "Real Estate",
-      "description": "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
-      "knowMore": "/industry/real-estate-property-management"
-
-    },
-    {
-      "id": 4,
-      "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
-      "title": "Semiconductor",
-      "description": "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
-      "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
-
-    },
-
-    {
-      "id": 5,
-      "image": "/images/pharma/Header Pharma.webp",
-      "title": "Pharma & Biotech",
-      "description": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA to help pharma and biotech leaders harness AI, machine learning, and automation for integrated clinical, medical, and commercial operations.",
-      "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
-
-    },
-    {
-      "id": 6,
-      "image": "/images/medical/medical-header.webp",
-      "title": "Medical Devices",
-      "description": "Helping medical device companies turn compliance into a competitive advantage by combining strategy, technology, and patient-centric design to ensure seamless patient journeys from device prescription to outcome tracking.",
-      "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
-
-    },
-    {
-      "id": 7,
-      "image": "/images/education/Group 483.webp",
-      "title": "Education",
-      "description": "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
-      "knowMore": "/industry/education-cloud-it-solutions"
-
-    },
-    {
-      "id": 8,
-      "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
-      "title": "Automotive",
-      "description": "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
-      "knowMore": "/industry/digital-transformation-in-automotive-industry"
-
-    },
-    {
-      "id": 9,
-      "image": "/images/industry/travel-transporation/retail+.webp",
-      "title": "Retail",
-      "description": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
-      "knowMore": "/industry/retail-industry-digital-transformation"
-
-    },
-    {
-      "id": 10,
-      "image": "/images/industry/travel-transporation/TTH.webp",
-      "title": "Travel and Hospitality",
-      "description": "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
-      "knowMore": "/industry/travel-hospitality-it-solutions"
-
-    }
-         ],
-         "contactUs":"Ready to take the next step? Let’s kick off your journey"
-    },
-    "realEstate":{
-       "headerTitle":"Manage real estate processes with cloud-based property management software",
-       "headerSubTitle":"REAL ESTATE ",
-        "realTitle": "Affordable property management software for your real estate operations",
-        "realDescOne": "The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.",
-        "realDescTwo": " At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.",
-        "estateTitle": "The #1 CRM for real estate busines",
-        "estateDesc": "Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.",
-        "estateTitleOne": "RealForce Platform",
-        "estateTitleOneDesc": "Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.",
-        "estateTitleTwo": "RealPay ",
-        "estateTitleTwoDesc": "RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check",
-        
-        "growTitle": "Enhance your real estate operations with our customizable service offerings",
-        "growDesc": "Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.",
-
-     "growLatestServices" : [
-  {
-    "id": 1,
-    "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
-    "title": "Centralized Operations: The One-Stop Solution",
-    "description": "Imagine managing all your property data, from rental agreements to maintenance schedules in one place. RealForce provides centralized operations for a streamlined management experience via our online rental property management efficiencies.",
-    "productsDetails": [
-      "Automatic agreement generation",
-      "Centralized Collections management",
-      "SMART Monthly Billing" 
-    ]
+  "industry": {
+    "headerTitle": "Industries",
+    "headerSubTitleOne": " Transform how ",
+    "headerSubTitleTwo": " you engage with ",
+    "headerSubTitleThree": "your clients",
+    "mindsetTitle": "Different Industries, Different Mindsets",
+    "mindsetDesc": "We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.",
+    "growTitle": " Industries we serve",
+    "knowMore": "Know More",
+    "growLatestServices": [
+      {
+        "id": 1,
+        "image": "/images/industry/healthcare.webp",
+        "title": "Healthcare",
+        "description": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels",
+        "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
+      },
+      {
+        "id": 2,
+        "image": "/images/industry/manufacturing.webp",
+        "title": "Manufacturing",
+        "description": "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
+        "knowMore": "/industry/manufacturing-cloud-erp"
+      },
+      {
+        "id": 3,
+        "image": "/images/industry/real-estate.webp",
+        "title": "Real Estate",
+        "description": "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
+        "knowMore": "/industry/real-estate-property-management"
+      },
+      {
+        "id": 4,
+        "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+        "title": "Semiconductor",
+        "description": "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
+        "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+      },
+      {
+        "id": 5,
+        "image": "/images/pharma/Header Pharma.webp",
+        "title": "Pharma & Biotech",
+        "description": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA to help pharma and biotech leaders harness AI, machine learning, and automation for integrated clinical, medical, and commercial operations.",
+        "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
+      },
+      {
+        "id": 6,
+        "image": "/images/medical/medical-header.webp",
+        "title": "Medical Devices",
+        "description": "Helping medical device companies turn compliance into a competitive advantage by combining strategy, technology, and patient-centric design to ensure seamless patient journeys from device prescription to outcome tracking.",
+        "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
+      },
+      {
+        "id": 7,
+        "image": "/images/education/Group 483.webp",
+        "title": "Education",
+        "description": "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
+        "knowMore": "/industry/education-cloud-it-solutions"
+      },
+      {
+        "id": 8,
+        "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+        "title": "Automotive",
+        "description": "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
+        "knowMore": "/industry/digital-transformation-in-automotive-industry"
+      },
+      {
+        "id": 9,
+        "image": "/images/industry/travel-transporation/retail+.webp",
+        "title": "Retail",
+        "description": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
+        "knowMore": "/industry/retail-industry-digital-transformation"
+      },
+      {
+        "id": 10,
+        "image": "/images/industry/travel-transporation/TTH.webp",
+        "title": "Travel and Hospitality",
+        "description": "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
+        "knowMore": "/industry/travel-hospitality-it-solutions"
+      }
+    ],
+    "contactUs": "Ready to take the next step? Let’s kick off your journey"
   },
-  {
-    "id": 2,
-    "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
-    "title": "Multi-Platform Accessibility: Manage On-The-Go",
-    "description": "Our online property management system ensures you can access your management dashboard wherever you are, making us a leader among property management software companies in the USA.",
-    "productsDetails": [
-      "Mobile reports and dashboards",
-      "Chat with property groups",
-      "Mobile approvals"
-    ]
+  "realEstate": {
+    "headerTitle": "Manage real estate processes with cloud-based property management software",
+    "headerSubTitle": "REAL ESTATE ",
+    "realTitle": "Affordable property management software for your real estate operations",
+    "realDescOne": "The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.",
+    "realDescTwo": " At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.",
+    "estateTitle": "The #1 CRM for real estate busines",
+    "estateDesc": "Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.",
+    "estateTitleOne": "RealForce Platform",
+    "estateTitleOneDesc": "Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.",
+    "estateTitleTwo": "RealPay ",
+    "estateTitleTwoDesc": "RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check",
+    "growTitle": "Enhance your real estate operations with our customizable service offerings",
+    "growDesc": "Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.",
+    "growLatestServices": [
+      {
+        "id": 1,
+        "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+        "title": "Centralized Operations: The One-Stop Solution",
+        "description": "Imagine managing all your property data, from rental agreements to maintenance schedules in one place. RealForce provides centralized operations for a streamlined management experience via our online rental property management efficiencies.",
+        "productsDetails": [
+          "Automatic agreement generation",
+          "Centralized Collections management",
+          "SMART Monthly Billing"
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+        "title": "Multi-Platform Accessibility: Manage On-The-Go",
+        "description": "Our online property management system ensures you can access your management dashboard wherever you are, making us a leader among property management software companies in the USA.",
+        "productsDetails": [
+          "Mobile reports and dashboards",
+          "Chat with property groups",
+          "Mobile approvals"
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+        "title": "Comprehensive Analytics: Make Informed Decisions",
+        "description": "We stand out among top property management software companies by providing the #1 analytics platform to improve your numbers, from revenue to vacancies.",
+        "productsDetails": [
+          "Leverage existing dashboards",
+          "Use data to make decisions",
+          "Drill down to individual records"
+        ]
+      },
+      {
+        "id": 4,
+        "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+        "title": "Financial Clarity: Accounting Made Easy",
+        "description": "Our software is the go-to accounting software for realtors looking for detailed financial reports and invoicing capabilities. Simplify your budgeting process with the world’s #1 cloud platform.",
+        "productsDetails": [
+          "Electronic Invoice Processing",
+          "AI Abstraction Automation",
+          "Digital Payments in +135 currencies"
+        ]
+      }
+    ],
+    "serviceTitle": "Find the right property management software online with Rialtes",
+    "latestServices": [
+      {
+        "id": 1,
+        "title": "AI Leasing",
+        "description": "AI-powered leasing assistants help you serve clients faster while saving money and resources. We can set you up with AI leasing software that’s both cost-effective and comprehensive."
+      },
+      {
+        "id": 2,
+        "title": "AI Maintenance",
+        "description": "Filter and triage maintenance requests with simple and intelligent software tools. We offer AI maintenance technology that can help you eliminate bottlenecks by automatically routing work orders and tracking task completion."
+      },
+      {
+        "id": 3,
+        "title": "Property Accounting",
+        "description": "Streamline your accounting process with property management accounting software solutions- featuring AI integrations, detailed financial report automation, and digital payments."
+      },
+      {
+        "id": 4,
+        "title": "Marketing",
+        "description": "Our CRM solutions for real estate simplify marketing operations, from listing conversions to syndication and marketing collateral management."
+      },
+      {
+        "id": 5,
+        "title": "Integrations",
+        "description": "Our experts can assist with all your real estate software integration requirements. We will work with you to ensure your new property management solutions work in harmony with and even maximize the value of your existing systems."
+      },
+      {
+        "id": 6,
+        "title": "Real Estate Outsourcing",
+        "description": "Outsourcing your property management and accounting processes to a trusted partner could save you countless hours of administrative work. Our real estate outsourcing services include on-site, offsite, and hybrid models."
+      }
+    ],
+    "slides": [
+      {
+        "id": 1,
+        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+        "title": "RealForce Banking Module - ACH",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "/insights/case-studies/realForce-banking-module-ach"
+      },
+      {
+        "id": 2,
+        "url": "/insights/case-studies/yardi-managed-services",
+        "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+        "title": "Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+      }
+    ],
+    "contactUs": "Take the next step to elevate your property management."
   },
-  {
-    "id": 3,
-    "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
-    "title": "Comprehensive Analytics: Make Informed Decisions",
-    "description": "We stand out among top property management software companies by providing the #1 analytics platform to improve your numbers, from revenue to vacancies.",
-    "productsDetails": [
-      "Leverage existing dashboards",
-      "Use data to make decisions",
-      "Drill down to individual records"
-    ]
+  "caseStudyIndivisual": {
+    "caseStudyTitle": "Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
+    "knowMore": "Know More"
   },
-  {
-    "id": 4,
-    "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
-    "title": "Financial Clarity: Accounting Made Easy",
-    "description": "Our software is the go-to accounting software for realtors looking for detailed financial reports and invoicing capabilities. Simplify your budgeting process with the world’s #1 cloud platform.",
-
-    "productsDetails": [
-      "Electronic Invoice Processing",
-      "AI Abstraction Automation",
-      "Digital Payments in +135 currencies"
-    ]
+  "lifeScience": {
+    "whyRialtesData": [
+      {
+        "title": "Industry-Proven Accelerators",
+        "desc": "Body Map, Patient Interaction, and Clinical Trial Solutions tailored for fast, compliant deployment."
+      },
+      {
+        "title": "End-to-End Services",
+        "desc": "From Advisory and Implementation to Post-Go-Live Optimization and Quality Assurance."
+      },
+      {
+        "title": "Strategic Partnerships",
+        "desc": "Powered by SAP, Salesforce, MuleSoft, and Oracle."
+      },
+      {
+        "title": "Deep Expertise",
+        "desc": "Serving Pharma, Payers, Providers, MedTech, and Public Health."
+      },
+      {
+        "title": "AI & Data Cloud-Driven Insights",
+        "desc": "For smarter, faster decisions and patient-centric engagement."
+      }
+    ],
+    "seamlessData": [
+      "API-Led Integration connecting SAP, Oracle, Salesforce, and EMRs.",
+      "Order-to-Cash, Procure-to-Pay Automation.",
+      "Regulatory Data Sync, Financial and Clinical Data Flow."
+    ],
+    "thoughLeadershipData": [
+      "Navigating stringent global regulations like HIPAA, GDPR, and FDA 21 CFR Part 11.",
+      "Accelerating time-to-market for life-saving drugs, therapies, and devices.",
+      "Enhancing patient and provider engagement with real-time, personalized experiences.",
+      "Enabling value-based care through seamless payer-provider collaboration.",
+      "Leveraging AI for clinical trial optimization, safety, and real-world evidence."
+    ],
+    "prebuiltData": [
+      "Body Map: Interactive visualization for patient medical history and clinical insights.",
+      "Patient Interaction: End-to-end patient engagement journey with real-time communications.",
+      "Clinical Trial Management Accelerators for seamless trial operations and compliance."
+    ],
+    "commonSectionData": [
+      {
+        "title": "Payers Module",
+        "subtitle": "Intelligent Care Management for Health Insurers",
+        "dataList": [
+          "Member and Plan Management for personalized health solutions.",
+          "AI-Powered Claims Adjudication, Utilization Management, and Fraud Detection.",
+          "Value-Based Care and Population Health Insights.",
+          "Real-Time Payer-Provider Collaboration using Salesforce Health Cloud."
+        ],
+        "blueCard": "Deliver efficient, personalized care and manage cost with real-time analytics.",
+        "mobImg": "/images/industry/life-science/Mobile/payers-module-mob.webp",
+        "deskImg": "/images/industry/life-science/payers-module-desk.webp"
+      },
+      {
+        "title": "Provider Network Solutions",
+        "subtitle": "Seamless Care Coordination and Provider Engagement",
+        "dataList": [
+          "Provider Onboarding, Credentialing, and Relationship Management.",
+          "Care Pathways for chronic, acute, and preventative care.",
+          "AI-Driven Patient Risk Stratification and personalized care models.",
+          "Referral and Provider Collaboration Platforms integrated via Salesforce."
+        ],
+        "blueCard": "Enhancing patient experiences with connected, coordinated care.",
+        "mobImg": "/images/industry/life-science/Mobile/provider-mob.webp",
+        "deskImg": "/images/industry/life-science/provider-desk.webp"
+      },
+      {
+        "title": "Pharma Innovation",
+        "subtitle": "Fast-Tracking Patient Access, Safety, and Compliance",
+        "dataList": [
+          "End-to-end Patient Support Programs (PSPs) and HCP Engagement.",
+          "AI-Driven Market Access and Payer Negotiation Tools.",
+          "Integrated Pharmacovigilance and Drug Safety Monitoring.",
+          "Salesforce Health Cloud for patient-centric program orchestration."
+        ],
+        "blueCard": "Smarter, faster, and safer therapy launches.",
+        "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
+        "deskImg": "/images/industry/life-science/pharma-desk.webp"
+      },
+      {
+        "title": "MedTech Revolution",
+        "subtitle": "Connected Devices and Remote Monitoring for Better Care",
+        "dataList": [
+          "Complete Device Lifecycle and Patient Management.",
+          "Predictive Maintenance and AI Diagnostics for medical equipment.",
+          "Field Service and Technician Scheduling through Service Cloud.",
+          "Integrated Remote Monitoring and Digital Health Platforms."
+        ],
+        "blueCard": "Deliver superior patient outcomes with connected MedTech solutions.",
+        "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
+        "deskImg": "/images/industry/life-science/medtech-desk.webp"
+      },
+      {
+        "title": "Public Health Excellence",
+        "subtitle": "Data-Driven, Community-Focused Health Services",
+        "dataList": [
+          "Surveillance, Outbreak Management, and Case Tracking.",
+          "Vaccination and Preventive Care Management.",
+          "AI-Powered Social Determinants of Health (SDOH) Analysis.",
+          "Public Health Community Outreach and Behavioral Health Programs."
+        ],
+        "blueCard": "Strengthening community health through data and AI insights.",
+        "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
+        "deskImg": "/images/industry/life-science/public-health-desk.webp"
+      },
+      {
+        "title": "Hyper-Personalized Patient Engagement",
+        "subtitle": "Salesforce Marketing Cloud + Life Sciences Cloud",
+        "dataList": [
+          "Patient and HCP Segmentation with AI.",
+          "Omnichannel Campaigns (Email, SMS, Social).",
+          "Personalized Education and Adherence Programs.",
+          "Compliance-Driven Patient Journeys."
+        ],
+        "blueCard": "Transforming patient engagement into meaningful outcomes.",
+        "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
+        "deskImg": "/images/industry/life-science/hyper-desk.webp"
+      },
+      {
+        "title": "Supply Chain & Inventory Excellence",
+        "subtitle": "Powered by Data Cloud",
+        "dataList": [
+          "Real-Time Inventory and Supply Chain Visibility.",
+          "AI-Driven Demand Forecasting and Cold Chain Compliance.",
+          "Integrated Logistics and Distribution Network."
+        ],
+        "blueCard": "Ensuring life-saving therapies and devices reach patients on time.",
+        "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
+        "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
+      }
+    ],
+    "commonSectionData1": [
+      {
+        "title": "Advanced Data Visualization",
+        "subtitle": "Insights with Tableau & Data Cloud",
+        "dataList": [
+          "Patient Outcomes Dashboards.",
+          "Sales & Market Access Visualizations.",
+          "Real-World Evidence and Safety Reporting.",
+          "Predictive Analytics for Care and Compliance."
+        ],
+        "blueCard": "Transform raw data into actionable intelligence.",
+        "mobImg": "/images/industry/life-science/Mobile/advanced-mob.webp",
+        "deskImg": "/images/industry/life-science/advanced-desk.webp"
+      },
+      {
+        "title": "AI-Driven Future",
+        "subtitle": "Transforming Life Sciences with Intelligence",
+        "dataList": [
+          "Accelerated Clinical Trials and Drug Discovery.",
+          "AI in Patient Risk Detection and Personalization.",
+          "Chatbots and Virtual Assistants for patient communication.",
+          "AI-Driven Compliance Monitoring and Pharmacovigilance."
+        ],
+        "blueCard": "AI is revolutionizing patient care, therapy development, and safety.",
+        "mobImg": "/images/industry/life-science/Mobile/ai-driven-mob.webp",
+        "deskImg": "/images/industry/life-science/ai-driven-desk.webp"
+      },
+      {
+        "title": "Quick Commerce in Life Sciences",
+        "subtitle": "Fast-Tracking Therapies and Devices to Patients",
+        "dataList": [
+          "On-Demand Drug Fulfillment and Delivery.",
+          "Rapid Medical Device Distribution and Setup.",
+          "AI-Powered Logistics and Supply Chain Optimization."
+        ],
+        "blueCard": "Deliver healthcare at the speed of need — powered by SAP & Salesforce.",
+        "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
+        "deskImg": "/images/industry/life-science/quick-desk.webp"
+      }
+    ],
+    "headerTitle": "Life Sciences Industry",
+    "headerSubTitle1": "Powering the Next",
+    "headerSubTitle2": "Era of Life Sciences",
+    "headerSubTitle3": "Intelligent, Connected,",
+    "headerSubTitle4": "and Patient-Centric",
+    "headerSubTitle5": "Solutions",
+    "pageDescTitle": " Driving Compliance & Innovation in Life Sciences & Healthcare through SAP, Salesforce & AI.",
+    "pageDesc": "In a world where patient-centricity, compliance, and innovation are critical, life sciences organizations must move fast, stay compliant, and deliver exceptional value. Rialtes partners with global life sciences leaders to redefine their business models, connect ecosystems, and unlock the potential of AI and cloud technologies.",
+    "diduKnowTitle": "Did you know?",
+    "diduknowSubTitle1": "The global life sciences market is projected to reach",
+    "diduknowSubTitle2": "$3.6 trillion by 2030.",
+    "diduknowSubTitle3": "Over 65%",
+    "diduknowSubTitle4": "of life sciences organizations cite “delivering personalized patient experiences” as a top priority.",
+    "diduknowSubTitle5": " AI adoption in life sciences is growing at a CAGR of 30%",
+    "diduknowSubTitle6": "revolutionizing R&D, clinical trials, and patient engagement.",
+    "diduknowDesc": " With pre-built accelerators like Body Map and Patient Interaction tools, our deep domain expertise, and strategic partnerships with SAP, Salesforce, MuleSoft, and Oracle, Rialtes helps life sciences companies achieve intelligent, compliant, and patient-focused outcomes — faster and better.",
+    "whyRialtesTitle": "Why Rialtes is Your Strategic Partner in Life Sciences Digital Transformation",
+    "whyRialtesSubTitle": "Our Promise to Life",
+    "whyRialtesSubTitle2": "Sciences Companies",
+    "thoughtLeadershipTitle": " Rialtes Thought Leadership",
+    "thoughtLeadershipSubTitle": "Tackling the Life Sciences Industry’s Most Pressing Challenges",
+    "prebuiltTitle": " Pre-built Industry Accelerators: Body Map & Patient Interaction",
+    "prebuiltSubTitle": " Accelerate your digital transformation journey with Rialtes life sciences-specific accelerators:",
+    "prebuiltBlueBox": "Ensure rapid deployment and regulatory compliance while focusing on patient care.",
+    "seamlessTitleBlueBox": "Efficient, connected enterprise operations for better outcomes.",
+    "seamlessTitle": "Seamless Integration with SAP, Oracle, MuleSoft for Unified Life Sciences Operations",
+    "seamlessSubTitle": "Powered by Data Cloud",
+    "contactTitle": "Ready to Transform Life Sciences with Rialtes?",
+    "contactSubTitle": "Partner with Rialtes to unlock innovation, compliance, and patient-centric solutions across the life sciences ecosystem.",
+    "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   }
-],
-        "serviceTitle": "Find the right property management software online with Rialtes",
-        "latestServices" : [
-  {
-    "id": 1,
-    "title": "AI Leasing",
-    "description": "AI-powered leasing assistants help you serve clients faster while saving money and resources. We can set you up with AI leasing software that’s both cost-effective and comprehensive."
-  },
-  {
-    "id": 2,
-    "title": "AI Maintenance",
-    "description": "Filter and triage maintenance requests with simple and intelligent software tools. We offer AI maintenance technology that can help you eliminate bottlenecks by automatically routing work orders and tracking task completion."
-  },
-  {
-    "id": 3,
-    "title": "Property Accounting",
-    "description": "Streamline your accounting process with property management accounting software solutions- featuring AI integrations, detailed financial report automation, and digital payments."
-  },
-  {
-    "id": 4,
-    "title": "Marketing",
-    "description": "Our CRM solutions for real estate simplify marketing operations, from listing conversions to syndication and marketing collateral management."
-  },
-  {
-    "id": 5,
-    "title": "Integrations",
-    "description": "Our experts can assist with all your real estate software integration requirements. We will work with you to ensure your new property management solutions work in harmony with and even maximize the value of your existing systems."
-  },
-  {
-    "id": 6,
-    "title": "Real Estate Outsourcing",
-    "description": "Outsourcing your property management and accounting processes to a trusted partner could save you countless hours of administrative work. Our real estate outsourcing services include on-site, offsite, and hybrid models."
-  }
-],
-         "slides" : [
-  {
-    "id": 1,
-    "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-    "title": "RealForce Banking Module - ACH",
-    "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    "url": "/insights/case-studies/realForce-banking-module-ach"
-  },
-  {
-    "id": 2,
-    "url": "/insights/case-studies/yardi-managed-services",
-    "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
-    "title": "Yardi Managed Services",
-    "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
-  }
-],
-      "contactUs":"Take the next step to elevate your property management."
-    
-    },
-    "caseStudyIndivisual":
-    {
-      "caseStudyTitle":"Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
-      "knowMore":"Know More"
-    }
- 
 }

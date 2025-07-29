@@ -3,7 +3,7 @@ import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import FeaturedCarousel from '../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
-import ServicesBlogs from "@/app/components/servicesBlogs";
+import ServicesBlogs from "@/app/[locale]/components/servicesBlogs";
 import { useState } from "react";
 import Link from "next/link";
 

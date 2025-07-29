@@ -1,11 +1,12 @@
 "use client";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import Seo from "@/app/components/Seo";
+
 import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import Seo from "../../components/Seo";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
