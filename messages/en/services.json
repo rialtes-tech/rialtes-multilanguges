@@ -1881,5 +1881,195 @@
         "yourGrowthDesc": " Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships,Rialtes’ Advantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.",
         "exploreMoreTitle": "Explore More with Salesforce",
         "contactTitle": "Ready to Accelerate Your Marketing? Let’s Talk!"
+    },
+    "rialFinance": {
+        "startWithData": [
+            "Pre-built AI bots for customer onboarding, lending, service, and wealth advisory.",
+            "Agentforce enablement workshops for rapid AI readiness.",
+            "AI-driven compliance checks, fraud detection, and document management.",
+            "Conversational AI for personalized customer experiences in retail and corporate banking.",
+            "Integration with Data Cloud for unified customer profiles."
+        ],
+        "exelonaData": [
+            "Asset lifecycle and portfolio management.",
+            "Integrated revenue management, leasing, and marketing.",
+            "Unified investor and tenant servicing platforms.",
+            "Seamless collaboration between real estate finance, operations, and compliance teams.",
+            "AI-driven deal and property recommendations."
+        ],
+        "agentChat": [
+            "Instant WhatsApp communication directly from Salesforce.",
+            "Automated alerts, statements, and loan updates.",
+            "Real-time customer service and chatbot interactions.",
+            "Secure document and e-signature requests.",
+            "AI-powered reminders and upsell recommendations."
+        ],
+        "agentforceData": [
+            "AI bots for client onboarding, loan processing, and wealth advice.",
+            "Real-time fraud detection and compliance monitoring.",
+            "AI-powered case management and service workflows.",
+            "Seamless AI and human agent collaboration.",
+            "Advanced data-driven insights and next best action recommendations."
+        ],
+        "salesforceData": [
+            "Zero Copy Data Access — unified client profiles without duplication.",
+            "Connected data ecosystems across Salesforce, SAP, and financial platforms.",
+            "AI-ready data lakehouse architecture.",
+            "Real-time insights and hyper-personalized customer journeys.",
+            "Enhanced regulatory compliance and risk analytics."
+        ],
+        "howWeDeliverData": [
+            "Salesforce Certified Business Analysts and Financial Services Experts.",
+            "PMP and Scrum-certified Project Managers for agile, transparent delivery.",
+            "Dedicated Solution Architects and Technical Leads. ",
+            "Ongoing enhancements, compliance updates, and performance optimization.",
+            "24x7 Global Support with local and offshore teams."
+        ],
+        "whyRialtesData": [
+            "150+ Salesforce certifications, including Financial Services Cloud, Data Cloud, and Agentforce.",
+            "Deep domain expertise in banking, wealth, lending, insurance, and asset management.",
+            "AI and Agentforce leadership for next-gen customer experience.",
+            "Global delivery with U.S., Canada, Singapore, and India presence.",
+            "AgentChat and Agentforce AI included for faster, smarter client engagement."
+        ],
+        "deepDiveData": [
+            {
+                "id": "1",
+                "title": "Retail Banking Module",
+                "subtitle": "Personalizing Everyday Banking Experiences",
+                "dataList": [
+                    "Seamless customer onboarding and KYC automation.",
+                    "AI-driven personalized product recommendations.",
+                    "Unified customer 360-degree profiles and service dashboards.",
+                    "Integrated mobile banking journeys and self-service portals.",
+                    "Branchless banking workflows for enhanced customer reach."
+                ],
+                "deskImg": "/images/services/rial-finance/retail-banking-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
+            },
+            {
+                "id": "2",
+                "title": "Commercial Banking Module",
+                "subtitle": "Relationship Banking for Modern Enterprises",
+                "dataList": [
+                    "Relationship manager dashboards and intelligent deal pipelines.",
+                    "Risk assessment and credit analysis automation.",
+                    "Corporate treasury and cash management solutions.",
+                    "Loan origination and approval workflows.",
+                    "Seamless client onboarding and account servicing."
+                ],
+                "deskImg": "/images/services/rial-finance/commercial-banking-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
+            },
+            {
+                "id": "3",
+                "title": "Mortgage and Lending Module",
+                "subtitle": "Simplifying Lending Journeys",
+                "dataList": [
+                    "Fully digital loan origination and processing workflows.",
+                    "AI-powered document verification and underwriting.",
+                    "Compliance-integrated KYC/AML processes.",
+                    "Personalized rate offers and pre-qualification assessments.",
+                    "Customer self-service for application tracking and management."
+                ],
+                "deskImg": "/images/services/rial-finance/mortgage-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/mortgage-mob.webp"
+            },
+            {
+                "id": "4",
+                "title": "Wealth Management Module",
+                "subtitle": "Redefining Wealth Advisory",
+                "dataList": [
+                    "360-degree client and household views.",
+                    "Personalized investment portfolios and recommendations.",
+                    "AI-powered risk profiling and life event modeling.",
+                    "Integrated financial planning and goal tracking.",
+                    "Advisor collaboration portals and automated client reports."
+                ],
+                "deskImg": "/images/services/rial-finance/wealth-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/wealth-mob.webp"
+            },
+            {
+                "id": "5",
+                "title": "Agencies & Brokerage Module",
+                "subtitle": "Empowering Agents with Tools to Win",
+                "dataList": [
+                    "Agent and broker onboarding automation.",
+                    "AI-driven lead management and policy recommendations.",
+                    "Real-time commission tracking and settlements.",
+                    "Integrated policy servicing and claims management.",
+                    "Broker-dealer collaboration platforms."
+                ],
+                "deskImg": "/images/services/rial-finance/agencies-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/agencies-mob.webp"
+            },
+            {
+                "id": "6",
+                "title": "Corporate & Investment Banking with Group Benefits",
+                "subtitle": "Personalized Corporate Solutions",
+                "dataList": [
+                    "AI-driven deal management and pipeline insights.",
+                    "Client-centric group benefits administration.",
+                    "Advanced corporate client onboarding workflows.",
+                    "Risk and compliance management dashboards.",
+                    "Integration with ERP and Treasury platforms."
+                ],
+                "deskImg": "/images/services/rial-finance/corporate-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/corporate-mob.webp"
+            },
+            {
+                "id": "7",
+                "title": "Asset Management Module",
+                "subtitle": "Modernizing Asset Lifecycle and Client Services",
+                "dataList": [
+                    "Client onboarding and KYC compliance.",
+                    "AI-powered portfolio performance tracking.",
+                    "Automated regulatory reporting and disclosures.",
+                    "Personalized investor communications and portals.",
+                    "Risk and performance analytics dashboards."
+                ],
+                "deskImg": "/images/services/rial-finance/asset-desk.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/asset-mob.webp"
+            }
+        ],
+        "headerTitle": "RialFinance+",
+        "headerSubTitle": "Empowering Financial Services with RialFinance+",
+        "headerSubTitle2": "Transformative Salesforce Solutions for the Future of Finance",
+        "pageDescTitle": "AI-Powered Financial Services.",
+        "pageDescTitle2": "Personalized Client Journeys.",
+        "pageDescTitle3": "Seamless Omnichannel Engagement.",
+        "pageDesc": "At Rialtes, we enable financial institutions to lead with innovation and trust. Our RialFinance+ Managed Services deliver advisory, implementation, customization, AI integration, and post-go-live support, all unified to transform your Salesforce Financial Services Cloud (FSC) experience.",
+        "pageDesc2": "With deep domain expertise in Banking, Wealth, Lending, Asset Management, Insurance, and Brokerage, and offices in the U.S., Canada, Singapore, and India, Rialtes is a certified Salesforce partner delivering cutting-edge, compliant, AI-ready solutions.",
+        "startWithTitle": "Start with Agentforce Adoption",
+        "startWithSubTitle": "Elevating Customer Experience in Financial Services",
+        "startWithDesc": "Agentforce, Salesforce’s revolutionary AI assistant, is transforming customer-agent relationships in financial services. Rialtes makes Agentforce adoption seamless with:",
+        "startWithBlueBox": "Adopt AI with confidence — powered by Rialtes financial services expertise.",
+        "introducingTitle": "Introducing",
+        "introducingSubTitle": "RialFinance+",
+        "introducingSubTitle2": "End-to-End Salesforce Services for Financial Services Industry",
+        "introducingDesc": "Our RialFinance+ combines strategic advisory, system design, certified implementation, quality assurance, AI integrations, and ongoing managed services into a single powerful solution — enabling financial institutions to transform, innovate, and lead.",
+        "deepDiveTitle": "Deep-Dive into Rialtes’ Financial Services Cloud Expertise",
+        "exelonaTitle": "Exelona + Financial Services Cloud",
+        "exelonaSubTitle": "Transforming Real Estate Financial Services",
+        "exelonaDesc": "Our proprietary solution Exelona, when integrated with FSC, revolutionizes real estate firms and asset management companies by enabling:",
+        "exelonaBlueBox": "One integrated platform — Real Estate + Financial Services.",
+        "agentChatTitle": "AgentChat",
+        "agentChatSubTitle": "WhatsApp-Enabled Real-Time Customer Engagement (Included Free with RialFinance+)",
+        "agentChatDesc": "With AgentChat,seamlessly integrated into Salesforce FSC, engage your clients in real-time:",
+        "agentChatDesc2": "Included FREE with RialFinance+ — enhancing customer engagement without extra costs.",
+        "agentForceTitle": "Agentforce",
+        "agentForceSubTitle": "AI-Powered Transformation for Financial Services",
+        "agentForceDesc": "Agentforce, with Rialtes’ expertise, delivers AI-driven excellence:",
+        "agentForceDesc2": "Future-proof your client engagement — with Agentforce and Rialtes.",
+        "salesforceBlueBox": "A unified view of your client. Real-time. AI-ready.",
+        "salesforceTitle": "Salesforce Data Cloud & SAP Data Cloud Zero Copy",
+        "salesforceSubTitle": "Unified, AI-Ready Customer Profiles",
+        "howWeDeliverTitle": "How We Deliver",
+        "howWeDeliverSubTitle": "Salesforce Implementation with Certified Experts",
+        "whyRialtesTitle": "Why Rialtes for Financial Services?",
+        "whyRialtesSubTitle": "The Experts Behind Your Salesforce Success",
+        "contactTitle": "Get Started with RialFinance+ — Transform Your Financial Services with AI, Data, and Salesforce",
+        "contactSubTitle": "Ready to future-proof your financial institution and deliver next-gen customer experiences?",
+        "contactSubTitle2": "Contact Rialtes to explore RialFinance+ — your partner for Salesforce-driven financial transformation."
     }
 }

@@ -2,10 +2,12 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/services.json';
+import esContent from '../../../../../../messages/es/services.json';
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -106,155 +108,10 @@ export default function page() {
             }
         ]
     }
-    const startWithData = [
-        "Pre-built AI bots for customer onboarding, lending, service, and wealth advisory.",
-        "Agentforce enablement workshops for rapid AI readiness.",
-        "AI-driven compliance checks, fraud detection, and document management.",
-        "Conversational AI for personalized customer experiences in retail and corporate banking.",
-        "Integration with Data Cloud for unified customer profiles.",
-    ]
-    const exelonaData = [
-        "Asset lifecycle and portfolio management.",
-        "Integrated revenue management, leasing, and marketing.",
-        "Unified investor and tenant servicing platforms.",
-        "Seamless collaboration between real estate finance, operations, and compliance teams.",
-        "AI-driven deal and property recommendations.",
-    ]
-    const agentChat = [
-        "Instant WhatsApp communication directly from Salesforce.",
-        "Automated alerts, statements, and loan updates.",
-        "Real-time customer service and chatbot interactions.",
-        "Secure document and e-signature requests.",
-        "AI-powered reminders and upsell recommendations.",
-    ]
-    const agentforceData = [
-        "AI bots for client onboarding, loan processing, and wealth advice.",
-        "Real-time fraud detection and compliance monitoring.",
-        "AI-powered case management and service workflows.",
-        "Seamless AI and human agent collaboration.",
-        "Advanced data-driven insights and next best action recommendations."
-    ]
-    const salesforceData = [
-        "Zero Copy Data Access — unified client profiles without duplication.",
-        "Connected data ecosystems across Salesforce, SAP, and financial platforms.",
-        "AI-ready data lakehouse architecture.",
-        "Real-time insights and hyper-personalized customer journeys.",
-        "Enhanced regulatory compliance and risk analytics.",
-    ]
-    const howWeDeliverData = [
-        "Salesforce Certified Business Analysts and Financial Services Experts.",
-        "PMP and Scrum-certified Project Managers for agile, transparent delivery.",
-        "Dedicated Solution Architects and Technical Leads. ",
-        "Ongoing enhancements, compliance updates, and performance optimization.",
-        "24x7 Global Support with local and offshore teams."
-    ]
-    const whyRialtesData = [
-        "150+ Salesforce certifications, including Financial Services Cloud, Data Cloud, and Agentforce.",
-        "Deep domain expertise in banking, wealth, lending, insurance, and asset management.",
-        "AI and Agentforce leadership for next-gen customer experience.",
-        "Global delivery with U.S., Canada, Singapore, and India presence.",
-        "AgentChat and Agentforce AI included for faster, smarter client engagement.",
-    ]
-    const deepDiveData = [
-        {
-            id: "1",
-            title: "Retail Banking Module",
-            subtitle: "Personalizing Everyday Banking Experiences",
-            dataList: [
-                "Seamless customer onboarding and KYC automation.",
-                "AI-driven personalized product recommendations.",
-                "Unified customer 360-degree profiles and service dashboards.",
-                "Integrated mobile banking journeys and self-service portals.",
-                "Branchless banking workflows for enhanced customer reach.",
-            ],
-            deskImg: "/images/services/rial-finance/retail-banking-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
-        },
-        {
-            id: "2",
-            title: "Commercial Banking Module",
-            subtitle: "Relationship Banking for Modern Enterprises",
-            dataList: [
-                "Relationship manager dashboards and intelligent deal pipelines.",
-                "Risk assessment and credit analysis automation.",
-                "Corporate treasury and cash management solutions.",
-                "Loan origination and approval workflows.",
-                "Seamless client onboarding and account servicing.",
-            ],
-            deskImg: "/images/services/rial-finance/commercial-banking-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
-        },
-        {
-            id: "3",
-            title: "Mortgage and Lending Module",
-            subtitle: "Simplifying Lending Journeys",
-            dataList: [
-                "Fully digital loan origination and processing workflows.",
-                "AI-powered document verification and underwriting.",
-                "Compliance-integrated KYC/AML processes.",
-                "Personalized rate offers and pre-qualification assessments.",
-                "Customer self-service for application tracking and management.",
-            ],
-            deskImg: "/images/services/rial-finance/mortgage-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/mortgage-mob.webp"
-        },
-        {
-            id: "4",
-            title: "Wealth Management Module",
-            subtitle: "Redefining Wealth Advisory",
-            dataList: [
-                "360-degree client and household views.",
-                "Personalized investment portfolios and recommendations.",
-                "AI-powered risk profiling and life event modeling.",
-                "Integrated financial planning and goal tracking.",
-                "Advisor collaboration portals and automated client reports.",
-            ],
-            deskImg: "/images/services/rial-finance/wealth-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/wealth-mob.webp"
-        },
-        {
-            id: "5",
-            title: "Agencies & Brokerage Module",
-            subtitle: "Empowering Agents with Tools to Win",
-            dataList: [
-                "Agent and broker onboarding automation.",
-                "AI-driven lead management and policy recommendations.",
-                "Real-time commission tracking and settlements.",
-                "Integrated policy servicing and claims management.",
-                "Broker-dealer collaboration platforms.",
-            ],
-            deskImg: "/images/services/rial-finance/agencies-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/agencies-mob.webp"
-        },
-        {
-            id: "6",
-            title: "Corporate & Investment Banking with Group Benefits",
-            subtitle: "Personalized Corporate Solutions",
-            dataList: [
-                "AI-driven deal management and pipeline insights.",
-                "Client-centric group benefits administration.",
-                "Advanced corporate client onboarding workflows.",
-                "Risk and compliance management dashboards.",
-                "Integration with ERP and Treasury platforms.",
-            ],
-            deskImg: "/images/services/rial-finance/corporate-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/corporate-mob.webp"
-        },
-        {
-            id: "7",
-            title: "Asset Management Module",
-            subtitle: "Modernizing Asset Lifecycle and Client Services",
-            dataList: [
-                "Client onboarding and KYC compliance.",
-                "AI-powered portfolio performance tracking.",
-                "Automated regulatory reporting and disclosures.",
-                "Personalized investor communications and portals.",
-                "Risk and performance analytics dashboards.",
-            ],
-            deskImg: "/images/services/rial-finance/asset-desk.webp",
-            mobImg: "/images/services/rial-finance/Mobile/asset-mob.webp"
-        },
-    ]
+    const t = useTranslations('rialFinance')
+    const locale = useLocale();
+    const content = locale === 'es' ? esContent : enContent;
+    const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData } = content.rialFinance
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -294,13 +151,13 @@ export default function page() {
                     <div className="grid grid-cols-12 w-full">
                         <div className="4xl:col-span-8 sm:col-span-7 md:col-span-6 lg:col-span-6 col-span-9 max-[400px]:col-span-12">
                             <h3 className="text-[18px] md:text-[24px] font-bold">
-                                RialFinance+
+                                {t('headerTitle')}
                             </h3>
                             <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
-                                Empowering Financial Services with RialFinance+
+                                {t('headerSubTitle')}
                             </h1>
                             <h2 className="text-[#000000] text-[20px] leading-tight xl:text-[28px] 4xl:text-[35px] mt-[14px] lg:mt-[46px] font-bold 4xl:w-[80%]">
-                                Transformative Salesforce Solutions for the Future of Finance
+                                {t('headerSubTitle2')}
                             </h2>
                         </div>
                         <div className="4xl:col-span-4 sm:col-span-5 md:col-span-6 lg:col-span-6 col-span-3">
@@ -312,13 +169,13 @@ export default function page() {
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div>
                     <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
-                        AI-Powered Financial Services. <div className="sm:block hidden" /> Personalized Client Journeys. <div className="sm:block hidden" /> Seamless Omnichannel Engagement.
+                        {t('pageDescTitle')}  <div className="sm:block hidden" />{t('pageDescTitle2')} <div className="sm:block hidden" />{t('pageDescTitle3')}
                     </h2>
                     <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%]">
-                        At Rialtes, we enable financial institutions to lead with innovation and trust. Our RialFinance+ Managed Services deliver advisory, implementation, customization, AI integration, and post-go-live support, all unified to transform your Salesforce Financial Services Cloud (FSC) experience.
+                        {t('pageDesc')}
                         <br />
                         <br />
-                        With deep domain expertise in Banking, Wealth, Lending, Asset Management, Insurance, and Brokerage, and offices in the U.S., Canada, Singapore, and India, Rialtes is a certified Salesforce partner delivering cutting-edge, compliant, AI-ready solutions.
+                        {t('pageDesc2')}
                     </p>
                 </div>
             </section>
@@ -351,13 +208,13 @@ export default function page() {
                         </div>
                         <div className="lg:col-span-5 col-span-12 max-lg:px-[36px] w-full lg:w-full">
                             <h2 className="text-[25px] xl:text-[40px] 4xl:text-[60px] leading-tight">
-                                Start with Agentforce Adoption
+                                {t('startWithTitle')}
                             </h2>
                             <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px]">
-                                Elevating Customer Experience in Financial Services
+                                {t('startWithSubTitle')}
                             </h3>
                             <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[25px] mt-[17px] font-normal">
-                                Agentforce, Salesforce’s revolutionary AI assistant, is transforming customer-agent relationships in financial services. Rialtes makes Agentforce adoption seamless with:
+                                {t('startWithDesc')}
                             </p>
                             <UnorderedList arrName={startWithData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[62px] mt-[46px]">
@@ -367,34 +224,34 @@ export default function page() {
                     </div>
                 </div>
                 <div className="custom-container xl:mt-[46px] mt-[53px]">
-                    <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">Adopt AI with confidence — powered by Rialtes financial services expertise.</p>
+                    <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">{t('startWithBlueBox')}</p>
                 </div>
             </section>
             {/* introducing rialfinance+ */}
             <section className="xl:mt-[121px] mt-[84px]">
                 <div className="custom-container">
                     <p className="xl:text-[36px] 4xl:text-[40px] text-[18px] leading-tight font-light">
-                        Introducing
+                        {t('introducingTitle')}
                     </p>
                     <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
-                        RialFinance+
+                        {t('introducingSubTitle')}
                     </h2>
                 </div>
                 <div className="custom-container xl:mt-[25px] mt-[17px] 4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]">
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[17px]">
                         <div className="lg:col-span-5 col-span-12 w-[90%] md:w-[80%] lg:w-full">
                             <h3 className="text-[20px] leading-tight xl:text-[26px] 4xl:text-[36px] font-semibold">
-                                End-to-End Salesforce Services for Financial Services Industry
+                                {t('introducingSubTitle2')}
                             </h3>
                         </div>
                         <div className="lg:col-span-7 col-span-12 w-[90%] md:w-[80%] lg:w-full">
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-normal">
-                                Our RialFinance+ combines strategic advisory, system design, certified implementation, quality assurance, AI integrations, and ongoing managed services into a single powerful solution — enabling financial institutions to transform, innovate, and lead.
+                                {t('introducingDesc')}
                             </p>
                         </div>
                     </div>
                     <h2 className="text-[18px] leading-tight xl:text-[26px] 4xl:text-[32px] xl:mt-[82px] mt-[41px] font-semibold">
-                        Deep-Dive into Rialtes’ Financial Services Cloud Expertise
+                        {t('deepDiveTitle')}
                     </h2>
                 </div>
                 <div className="xl:mt-[90px] mt-[80px]">
@@ -477,13 +334,13 @@ export default function page() {
                     <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[60px] 4xl:gap-[20px] gap-y-[30px] bg-[#0E3157] text-[#ffffff] xl:pt-[87px] xl:pl-[70px] xl:pr-[40px] xl:pb-[127px] pt-[41px] pb-[93px] px-[36px]">
                         <div className="md:col-span-6 col-span-12">
                             <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-full lg:w-[60%] xl:w-full">
-                                Exelona + Financial Services Cloud
+                                {t('exelonaTitle')}
                             </h2>
                             <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px] 4xl:w-[80%]">
-                                Transforming Real Estate Financial Services
+                                {t('exelonaSubTitle')}
                             </h3>
                             <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[25px] mt-[17px] font-normal 4xl:w-[70%]">
-                                Our proprietary solution Exelona, when integrated with FSC, revolutionizes real estate firms and asset management companies by enabling:
+                                {t('exelonaDesc')}
                             </p>
                         </div>
                         <div className="md:col-span-6 col-span-12">
@@ -494,7 +351,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="absolute xl:px-[70px] px-[36px] mt-[-50px]">
-                        <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#006FBE] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">One integrated platform — Real Estate + Financial Services.</p>
+                        <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#006FBE] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]"> {t('exelonaBlueBox')} </p>
                     </div>
                 </div>
             </section>
@@ -522,21 +379,21 @@ export default function page() {
                     />
                 </div>
                 <h2 className="text-[26px] xl:text-[36px] 4xl:text-[50px] text-[#ffffff] xl:pt-[50px] pt-[41px]">
-                    AgentChat
+                    {t('agentChatTitle')}
                 </h2>
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[60px] 4xl:gap-[80px] gap-y-[30px] text-[#ffffff] xl:mt-[23px] mt-[16px]">
                     <div className="md:col-span-5 col-span-12">
                         <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full">
-                            WhatsApp-Enabled Real-Time Customer Engagement (Included Free with RialFinance+)
+                            {t('agentChatSubTitle')}
                         </h3>
                         <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
-                            With AgentChat,seamlessly integrated into Salesforce FSC, engage your clients in real-time:
+                            {t('agentChatDesc')}
                         </p>
                     </div>
                     <div className="md:col-span-7 col-span-12">
                         <UnorderedList arrName={agentChat} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[52px] mt-[29px] font-normal">
-                            Included FREE with RialFinance+ — enhancing customer engagement without extra costs.
+                            {t('agentChatDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
                             <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
@@ -549,17 +406,17 @@ export default function page() {
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] lg:gap-[80px] gap-y-[29px]">
                     <div className="md:order-1 order-2">
                         <h2 className="text-[26px] xl:text-[36px] 4xl:text-[50px]">
-                            Agentforce
+                            {t('agentForceTitle')}   
                         </h2>
                         <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[13px] xl:mt-[23px]">
-                            AI-Powered Transformation for Financial Services
+                            {t('agentForceSubTitle')}    
                         </h3>
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
-                            Agentforce, with Rialtes’ expertise, delivers AI-driven excellence:
+                            {t('agentForceDesc')}  
                         </p>
                         <UnorderedList arrName={agentforceData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[43px] mt-[16] pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[49px] mt-[48px] font-normal w-[90%] md:w-full">
-                            Future-proof your client engagement — with Agentforce and Rialtes.
+                            {t('agentForceDesc2')}    
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
                             <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
@@ -604,7 +461,7 @@ export default function page() {
                                 priority
                             />
                             <div className="absolute right-0 mt-[-60px]">
-                                <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">A unified view of your client. Real-time. AI-ready.</p>
+                                <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]"> {t('salesforceBlueBox')} </p>
                             </div>
                         </div>
                         {/* mob image */}
@@ -621,10 +478,10 @@ export default function page() {
                     </div>
                     <div className="md:col-span-5 col-span-12">
                         <h2 className="text-[26px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
-                            Salesforce Data Cloud & SAP Data Cloud Zero Copy
+                            {t('salesforceTitle')}   
                         </h2>
                         <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[16px] xl:mt-[33px]">
-                            Unified, AI-Ready Customer Profiles
+                            {t('salesforceSubTitle')}  
                         </h3>
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full">
                             {salesforceData.map((data, ind) => (
@@ -639,7 +496,7 @@ export default function page() {
                             <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
                         </div>
                         <div className="md:hidden mt-[40px]">
-                            <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">A unified view of your client. Real-time. AI-ready.</p>
+                            <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">{t('salesforceBlueBox')}</p>
                         </div>
                     </div>
                 </div>
@@ -650,10 +507,10 @@ export default function page() {
                     <div className="lg:col-span-5 col-span-12 lg:mr-[-90px] relative z-20 lg:order-1 order-2">
                         <div className="bg-[#5D5F63] max-lg:mx-[36px] text-[#ffffff] xl:pt-[57px] xl:pb-[101px] xl:pl-[80px] xl:pr-[60px] lg:my-[60px] pt-[34px] px-[30px] pb-[60px]">
                             <h2 className="text-[26px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
-                                How We Deliver
+                                {t('howWeDeliverTitle')}     
                             </h2>
                             <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[35px] w-[90%] lg:w-full">
-                                Salesforce Implementation with Certified Experts
+                                {t('howWeDeliverSubTitle')}    
                             </h3>
                             <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[10px] absolute">
@@ -715,10 +572,10 @@ export default function page() {
                     <div className="lg:absolute lg:right-0 xl:top-[-90px] lg:top-[-40px] lg:w-[50%] xl:w-[48%] 3xl:w-[40%] 4xl:w-[50%]">
                         <div className="bg-[#006FBE] text-[#ffffff] 4xl:pt-[79px] 4xl:pl-[67px] 4xl:pr-[60px] xl:pt-[54px] xl:pl-[50px] xl:pr-[50px] pt-[34px] px-[36px]">
                             <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-full">
-                                Why Rialtes for Financial Services?
+                                {t('whyRialtesTitle')}    
                             </h2>
                             <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[27px] w-[90%] lg:w-full">
-                                The Experts Behind Your Salesforce Success
+                                {t('whyRialtesSubTitle')}    
                             </h3>
                             <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="4xl:mt-[63px] mt-[44px]">
@@ -730,7 +587,7 @@ export default function page() {
             </section>
             {/* Contact Form */}
             < div className="custom-container lg:mt-[108px] lg:mb-[92px] mt-[41px] mb-[45px]">
-                <ContactForm title={'Get Started with RialFinance+ — Transform Your Financial Services with AI, Data, and Salesforce'} subtitle="Ready to future-proof your financial institution and deliver next-gen customer experiences?" subtitle1="Contact Rialtes to explore RialFinance+ — your partner for Salesforce-driven financial transformation." className={"xl:text-[40px] 4xl:text-[60px] text-[26px] xl:w-[68%] 4xl:w-[80%]"} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:text-[40px] 4xl:text-[60px] text-[26px] xl:w-[68%] 4xl:w-[80%]"} />
             </div >
         </div>
     )
