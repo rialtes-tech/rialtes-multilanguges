@@ -5,7 +5,7 @@ import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
-import UnorderedList from "@/app/components/unorderedList";
+import UnorderedList from "../../components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",

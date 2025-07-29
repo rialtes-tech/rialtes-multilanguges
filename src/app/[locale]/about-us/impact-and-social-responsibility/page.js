@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import ContactForm from "../../../app/components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import ContactForm from "../../components/contactform";
 
 const schemaData = {
   "@context": "https://schema.org",

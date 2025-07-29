@@ -4,7 +4,7 @@ import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 ;
-import { HeroSection } from "@/app/components/herosection";
+import { HeroSection } from "@/app/[locale]/components/herosection";
 import Script from "next/script";
 
 const schemaData = {

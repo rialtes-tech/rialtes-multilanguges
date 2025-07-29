@@ -3,7 +3,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../components/contactform";
-import ServicesBlogs from "@/app/components/servicesBlogs";
+import ServicesBlogs from "@/app/[locale]/components/servicesBlogs";
+
 
 
 const latestServices = [

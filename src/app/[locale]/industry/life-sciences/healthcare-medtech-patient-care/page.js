@@ -3,13 +3,11 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import ServicesBlogs from "@/app/components/servicesBlogs";
 import { useState } from "react";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
-import Seo from "@/app/[locale]/components/Seo";
-;
 import Script from "next/script";
+import Seo from "@/app/[locale]/components/Seo";
 const slidesCaseStudy = [
   {
     id: 1,

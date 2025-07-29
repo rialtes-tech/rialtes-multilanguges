@@ -2,9 +2,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-;
-import WebinarForm from "@/app/components/webinarForm";
 import Script from "next/script";
+import WebinarForm from "@/app/[locale]/components/webinarForm";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Event",

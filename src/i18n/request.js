@@ -49,6 +49,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
     const rialFinance = (await import(`../../messages/${locale}/services.json`)).default;
 
+    const lifeScience = (await import(`../../messages/${locale}/industry.json`)).default;
+
 
     return {
         locale,
@@ -89,6 +91,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...caseStudyIndivisual,
 
             ...rialFinance
+            ...rialFinance,
+            ...lifeScience
         }
     };
 });

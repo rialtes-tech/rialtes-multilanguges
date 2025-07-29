@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
-;
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
 
 const schemaData =

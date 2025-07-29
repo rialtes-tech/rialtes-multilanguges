@@ -9,13 +9,11 @@ const Seo = dynamic(() => import('./components/Seo'), { ssr: false });
 const AutoTimerSlider = dynamic(() => import('./newHome/page'), { ssr: false });
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 const ContactForm = dynamic(() => import('./components/contactform'), { ssr: false });
-
 import Script from 'next/script';
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../messages/en/homepage.json';
 import esContent from '../../../messages/es/homepage.json';
 import dynamic from 'next/dynamic';
-
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Organization",
