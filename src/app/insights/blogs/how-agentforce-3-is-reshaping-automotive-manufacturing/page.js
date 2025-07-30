@@ -411,29 +411,33 @@ export default function Page() {
                                 Key automotive capabilities include:
                             </h3>
 
-                            <div className="grid gap-10 mt-5">
-                                {featuresData.map((item, idx) => (
-                                    <div key={idx} className="flex flex-col sm:flex-row items-start gap-10">
-                                        <div className="min-w-[60px] sm:mt-1">
-                                            <Image
-                                                src={item.icon}
-                                                alt={item.title}
-                                                width={200}
-                                                height={112}
-                                                className="xl:w-[300px] w-[100px]"
-                                            />
-                                        </div>
-                                        <div className="">
-                                            <h4 className="inline font-bold xl:text-[17px] text-[16px] 4xl:text-[20px] 2xl:text-[18px] mr-1">
-                                                {item.title}
-                                            </h4>
-                                            <span className="inline text-gray-700 xl:text-[17px] text-[16px] 2xl:text-[20px] 4xl:text-[20px] font-medium">
-                                                {item.description}
-                                            </span>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+                           <div className="grid gap-10 mt-5">
+  {featuresData.map((item, idx) => (
+    <div
+      key={idx}
+      className="flex flex-col sm:flex-row sm:items-start sm:gap-[50px]"
+    >
+      <div className="min-w-[100px] sm:mt-1">
+        <Image
+          src={item.icon}
+          alt={item.title}
+          width={200}
+          height={112}
+          className="xl:w-[212px] xl:h-[90px] w-[100px]"
+        />
+      </div>
+      <div className="mt-10 xl:mt-0 md:mt-0">
+        <h4 className="inline font-bold xl:text-[17px] text-[16px] 4xl:text-[20px] 2xl:text-[18px] mr-1">
+          {item.title}
+        </h4>
+        <span className="inline text-gray-700 xl:text-[17px] text-[16px] 2xl:text-[20px] 4xl:text-[20px] font-medium">
+          {item.description}
+        </span>
+      </div>
+    </div>
+  ))}
+</div>
+
 
 
 
