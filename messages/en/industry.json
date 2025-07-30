@@ -615,8 +615,6 @@
     "salesforceBlueBox": "Agentforce enhances field force effectiveness and ensures compliant, personalized HCP interactions.",
     "contactTitle": "Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!"
   },
- 
-
   "semiconductor": {
     "headerTitle": " Semiconductor Industry",
     "subTitleOne": "Empowering",
@@ -1247,6 +1245,136 @@
   }
 ]
 
+ },
+ "finance":{
+        "financeTitle":"Finance Industry Solutions",
+        "financeDesc":"Shaping the Future of Intelligent Financial Experiences",
+        "digitalTitle": "Accelerating Digital Transformation in Financial Services",
+        "digitalDesc": "Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions. With a global presence and deep industry expertise, we help financial institutions transform securely, stay compliant, and deliver exceptional customer experiences.",
+        "thoughtTitle": "Thought Leadership",
+        "thoughtSubTitle": "Beyond Implementation, Driving Financial Innovation",
+        "thoughtSubTitleOne": "At Rialtes, we don’t just implement technology — we design the future of finance. Our RialFinance+ framework ensures seamless collaboration across advisory, design, AI integration, implementation, and post-go-live innovation, helping financial institutions achieve:",
+        "topTitle": "Top 4 Critical Challenges Facing Commercial and Retail Banking Today",
+        "deepTitle": "Deep Expertise in Salesforce FSC & SAP S/4 HANA",
+        "deepSubtitle": "Transforming Financial Operations End-to-End",
+        "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
+        "salesforceDesc": "Our Salesforce-certified architects and consultants deliver tailored FSC solutions to meet modern banking, lending, and wealth management needs:",
+        "sapTitle": "SAP S/4 HANA for Financial Services",
+        "sapDesc": "We extend Salesforce FSC capabilities with SAP S/4 HANA core banking and finance solutions:",
+        "sapDescOne": "Rialtes creates a unified financial services platform — integrating Salesforce’s front office and SAP’s core financial engine.",
+        "futureTitle": "AI: Revolutionizing the Future of Finance",
+        "futureDesc": "AI is transforming every layer of financial services — from customer service to credit decisioning. Rialtes leverages Salesforce AI (Einstein, Agentforce) and SAP AI tools to deliver:",
+        "futureDescOne": "Rialtes makes AI actionable — not just a vision.",
+        "exelonaTitle": "Exelona",
+        "exelonaSubtitle": " Revolutionizing Real Estate Finance with Salesforce FSC",
+        "exelonaDesc": "Exelona, our proprietary Real Estate Cloud Solution, integrated with Salesforce FSC, transforms how real estate firms manage financial assets and operations:",
+        "exelonaDescOne": "Exelona + FSC: A game-changing combination for Real Estate Finance and Operations",
+        "agentChatTitle": "AgentChat",
+        "agentChatSubtitle": " Real-Time WhatsApp Integration for Financial Services Cloud",
+        "agentChatDesc": " AgentChat, developed by Rialtes, brings real-time WhatsApp communication inside Salesforce FSC — fully secure and compliant:",
+        "agentChatDescOne": "Included as part of Rialtes’ Financial Services solutions —enabling real-time, modern client engagement.",
+        "dataTitle": "Data-Driven Insights with Salesforce and SAP Data Clouds",
+        "dataSubtitle": "Zero Copy Architecture",
+        "dataDesc": "Rialtes enables real-time, AI-ready data across Salesforce and SAP environments using Data Cloud and Zero Copy architecture:",
+        "dataDescOne": "Single source of truth — actionable, secure, and AI-ready.",
+        "unmatchedTitle": "Unmatched Salesforce + SAP Competency",
+        "unmatchedSubTitle": "Built for Financial Services",
+        "unmatchedDesc": "Rialtes enables real-time, AI-ready data across Salesforce and SAP environments using Data Cloud and Zero Copy architecture:",
+        "unmatchedDescOne": "Certified experts",
+        "unmatchedDescTwo": "in Salesforce FSC, Data Cloud, Agentforce AI, and SAP S/4 HANA.",
+        "keyTitle": "150+ certifications",
+        "keyDesc": "in key financial services and technology modules.",
+        "globalTitle": "Global delivery from",
+        "globalDesc": "US, Canada, India, and Singapore.",
+        "supportTitle": "24x7 support",
+        "supportDesc": "for continuous innovation and optimization.",
+        "supportDescOne": "Enterprise-grade, globally trusted, future-ready.",
+        "whyTitle": "Why Choose Rialtes for Financial Industry Solutions?",
+        "contactTitle": "Ready to Transform Your Financial Services Experience?",
+        "contactSubTitle": "Partner with Rialtes — where innovation meets industry expertise to shape the future of finance. Contact us today to begin your RialFinance+ journey!",
+        "contactSubtitleOne": "Contact us today to begin your RialFinance+ journey!",
+
+
+  "challenges": [
+  {
+    "number": "1",
+    "title": "Disconnected Customer Experiences & Legacy Systems",
+    "points": [
+      "Inability to offer personalized, seamless banking experiences.",
+      "Fragmented data across multiple systems limits real-time insights."
+    ]
+  },
+  {
+    "number": "2",
+    "title": "Regulatory and Risk Complexity",
+    "points": [
+      "Struggling with fast-changing regulations (AML, KYC, ESG).",
+      "Lack of streamlined compliance and audit processes."
+    ]
+  },
+  {
+    "number": "3",
+    "title": "Manual and Inefficient Lending, Wealth, and Advisory Operations",
+    "points": [
+      "Delays in loan approvals, wealth management onboarding, and servicing.",
+      "High operational costs due to outdated workflows."
+    ]
+  },
+  {
+    "number": "4",
+    "title": "Demand for AI-Driven, Real-Time Services",
+    "points": [
+      "Customers expect instant decisions and service.",
+      "Need for AI-based risk and credit analysis, fraud detection, and personalization."
+    ]
+  }
+],
+ "thougthLeadershipData" : [
+  "Omnichannel customer engagement powered by AI and real-time data.",
+  "End-to-end compliant and efficient financial operations.",
+  "Seamless integration between front office and core banking systems.",
+  "Intelligent, AI-driven decision-making for risk, lending, and customer personalization. "
+],
+ "salesforceData" : [
+  "Customer onboarding, KYC, and AI-driven workflows.",
+  "Integrated service, marketing, and advisory processes.",
+  "Personalized experiences across retail, commercial, and wealth segments."
+],
+ "sapHanaData" : [
+  "Integrated finance and risk management.",
+  "Real-time financial analytics and forecasting.",
+  "Payments, contract management, and regulatory compliance."
+],
+ "aiData" : [
+  "Predictive credit and risk scoring.",
+  "AI-driven customer personalization and insights.",
+  "Fraud and compliance anomaly detection.",
+  "AI-powered service and onboarding automation."
+],
+ "exelonaData" : [
+  "End-to-end asset and portfolio management.",
+  "Integrated leasing, marketing, and tenant engagement.",
+  "Revenue, expense, and performance optimization.",
+  "AI-driven risk and investment modeling."
+],
+ "agentchatData" : [
+  "Instant customer onboarding and KYC verification via WhatsApp.",
+  "AI-enabled conversational banking and lending support.",
+  "Real-time alerts for fraud detection, transactions, and regulatory updates.",
+  "Seamless document and signature collection."
+],
+ "drivenData" : [
+  "Unified client profile with data from SAP S/4 HANA and Salesforce FSC.",
+  "AI-powered analytics without moving data — secure and compliant.",
+  "Real-time insights for lending, wealth, and operations."
+],
+ "whyChooseData" : [
+  "Comprehensive strategy to execution for Financial Services Cloud & SAP.",
+  "Proprietary tools like Exelona (Real Estate Cloud) and Agentchat (WhatsApp Integration).",
+  "Deep AI and Data Cloud integrations for predictive and real-time operations.",
+  "Unmatched understanding of compliance, risk, and customer experience.",
+  "Global footprint with local expertise to drive lasting transformation."
+]
  }
 
 }

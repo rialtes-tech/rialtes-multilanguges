@@ -1249,6 +1249,137 @@
       "description": "Soluciones de adquisiciones para operaciones del campus."
     }
   ]
-}
+},
+ "finance": {
+    "financeTitle": "Soluciones para la industria financiera",
+    "financeDesc": "Dando forma al futuro de experiencias financieras inteligentes",
+    "digitalTitle": "Acelerando la transformación digital en servicios financieros",
+    "digitalDesc": "Rialtes empodera a bancos, aseguradoras, gestores de patrimonio y empresas inmobiliarias para impulsar la innovación con confianza. Como socio certificado de Salesforce y SAP, ofrecemos servicios de extremo a extremo, desde consultoría hasta soporte post-implementación, especializados en Financial Services Cloud, SAP S/4HANA y soluciones de IA. Con presencia global y experiencia profunda en la industria, ayudamos a las instituciones financieras a transformarse de forma segura, cumplir con las normativas y ofrecer experiencias excepcionales al cliente.",
+    "thoughtTitle": "Liderazgo de pensamiento",
+    "thoughtSubTitle": "Más allá de la implementación, impulsando la innovación financiera",
+    "thoughtSubTitleOne": "En Rialtes, no solo implementamos tecnología — diseñamos el futuro de las finanzas. Nuestro marco RialFinance+ garantiza colaboración fluida en consultoría, diseño, integración de IA, implementación e innovación post-implementación, ayudando a las instituciones financieras a lograr:",
+    "topTitle": "4 principales desafíos críticos que enfrentan hoy la banca comercial y minorista",
+    "deepTitle": "Amplia experiencia en Salesforce FSC y SAP S/4 HANA",
+    "deepSubtitle": "Transformación de operaciones financieras de extremo a extremo",
+    "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
+    "salesforceDesc": "Nuestros arquitectos y consultores certificados por Salesforce entregan soluciones FSC personalizadas para satisfacer las necesidades actuales de banca, préstamos y gestión patrimonial:",
+    "sapTitle": "SAP S/4 HANA para servicios financieros",
+    "sapDesc": "Extendemos las capacidades de Salesforce FSC con soluciones financieras y bancarias principales de SAP S/4 HANA:",
+    "sapDescOne": "Rialtes crea una plataforma financiera unificada — integrando el front office de Salesforce con el motor financiero central de SAP.",
+    "futureTitle": "IA: Revolucionando el futuro de las finanzas",
+    "futureDesc": "La IA está transformando cada capa de los servicios financieros — desde el servicio al cliente hasta la toma de decisiones crediticias. Rialtes aprovecha la IA de Salesforce (Einstein, Agentforce) y las herramientas de IA de SAP para ofrecer:",
+    "futureDescOne": "Rialtes convierte la IA en acción — no solo en visión.",
+    "exelonaTitle": "Exelona",
+    "exelonaSubtitle": "Revolucionando las finanzas inmobiliarias con Salesforce FSC",
+    "exelonaDesc": "Exelona, nuestra solución inmobiliaria propia integrada con Salesforce FSC, transforma cómo las empresas inmobiliarias gestionan activos financieros y operaciones:",
+    "exelonaDescOne": "Exelona + FSC: una combinación revolucionaria para finanzas y operaciones inmobiliarias",
+    "agentChatTitle": "AgentChat",
+    "agentChatSubtitle": "Integración de WhatsApp en tiempo real para Financial Services Cloud",
+    "agentChatDesc": "AgentChat, desarrollado por Rialtes, lleva la comunicación por WhatsApp en tiempo real dentro de Salesforce FSC — totalmente segura y conforme:",
+    "agentChatDescOne": "Incluido como parte de las soluciones financieras de Rialtes — permite una interacción moderna y en tiempo real con los clientes.",
+    "dataTitle": "Información basada en datos con Salesforce y SAP Data Clouds",
+    "dataSubtitle": "Arquitectura sin copias (Zero Copy Architecture)",
+    "dataDesc": "Rialtes habilita datos en tiempo real y listos para IA a través de entornos Salesforce y SAP utilizando Data Cloud y arquitectura sin copias:",
+    "dataDescOne": "Fuente única de la verdad — accionable, segura y lista para IA.",
+    "unmatchedTitle": "Competencia incomparable en Salesforce + SAP",
+    "unmatchedSubTitle": "Diseñado para servicios financieros",
+    "unmatchedDesc": "Rialtes habilita datos en tiempo real y listos para IA en entornos Salesforce y SAP utilizando Data Cloud y arquitectura sin copias:",
+    "unmatchedDescOne": "Expertos certificados",
+    "unmatchedDescTwo": "en Salesforce FSC, Data Cloud, Agentforce AI y SAP S/4 HANA.",
+    "keyTitle": "150+ certificaciones",
+    "keyDesc": "en módulos clave de servicios financieros y tecnología.",
+    "globalTitle": "Entrega global desde",
+    "globalDesc": "EE. UU., Canadá, India y Singapur.",
+    "supportTitle": "Soporte 24x7",
+    "supportDesc": "para innovación y optimización continuas.",
+    "supportDescOne": "De nivel empresarial, confianza global, preparados para el futuro.",
+    "whyTitle": "¿Por qué elegir Rialtes para soluciones de la industria financiera?",
+    "contactTitle": "¿Listo para transformar tu experiencia en servicios financieros?",
+    "contactSubTitle": "Asóciate con Rialtes — donde la innovación se une con la experiencia en la industria para dar forma al futuro de las finanzas. ¡Contáctanos hoy para comenzar tu viaje con RialFinance+!",
+    "contactSubtitleOne": "¡Contáctanos hoy para comenzar tu viaje con RialFinance+!",
+    
+    "challenges": [
+      {
+        "number": "1",
+        "title": "Experiencias desconectadas del cliente y sistemas heredados",
+        "points": [
+          "Incapacidad para ofrecer experiencias bancarias personalizadas y fluidas.",
+          "Datos fragmentados en múltiples sistemas que limitan la información en tiempo real."
+        ]
+      },
+      {
+        "number": "2",
+        "title": "Complejidad regulatoria y de riesgo",
+        "points": [
+          "Dificultades con regulaciones en constante cambio (AML, KYC, ESG).",
+          "Falta de procesos de cumplimiento y auditoría optimizados."
+        ]
+      },
+      {
+        "number": "3",
+        "title": "Operaciones manuales e ineficientes en préstamos, patrimonio y asesoría",
+        "points": [
+          "Retrasos en la aprobación de préstamos, incorporación de gestión patrimonial y servicios.",
+          "Altos costos operativos debido a flujos de trabajo obsoletos."
+        ]
+      },
+      {
+        "number": "4",
+        "title": "Demanda de servicios en tiempo real impulsados por IA",
+        "points": [
+          "Los clientes esperan decisiones y servicios instantáneos.",
+          "Necesidad de análisis de riesgo y crédito basado en IA, detección de fraudes y personalización."
+        ]
+      }
+    ],
+    "thougthLeadershipData": [
+      "Interacción omnicanal con el cliente impulsada por IA y datos en tiempo real.",
+      "Operaciones financieras eficientes y conformes de extremo a extremo.",
+      "Integración fluida entre el front office y sistemas bancarios principales.",
+      "Toma de decisiones inteligente e impulsada por IA para riesgo, préstamos y personalización del cliente."
+    ],
+    "salesforceData": [
+      "Incorporación de clientes, KYC y flujos de trabajo impulsados por IA.",
+      "Procesos integrados de servicio, marketing y asesoría.",
+      "Experiencias personalizadas en segmentos minoristas, comerciales y de patrimonio."
+    ],
+    "sapHanaData": [
+      "Gestión integrada de finanzas y riesgos.",
+      "Análisis y previsión financiera en tiempo real.",
+      "Pagos, gestión de contratos y cumplimiento normativo."
+    ],
+    "aiData": [
+      "Evaluación predictiva de crédito y riesgo.",
+      "Personalización del cliente y perspectivas impulsadas por IA.",
+      "Detección de anomalías en fraudes y cumplimiento.",
+      "Automatización de servicio e incorporación impulsada por IA."
+    ],
+    "exelonaData": [
+      "Gestión de activos y carteras de extremo a extremo.",
+      "Arrendamiento, marketing e interacción con inquilinos integrados.",
+      "Optimización de ingresos, gastos y rendimiento.",
+      "Modelado de riesgo e inversión impulsado por IA."
+    ],
+    "agentchatData": [
+      "Incorporación instantánea del cliente y verificación KYC por WhatsApp.",
+      "Banca conversacional y soporte crediticio habilitados por IA.",
+      "Alertas en tiempo real para detección de fraudes, transacciones y actualizaciones normativas.",
+      "Recolección fluida de documentos y firmas."
+    ],
+    "drivenData": [
+      "Perfil unificado del cliente con datos de SAP S/4 HANA y Salesforce FSC.",
+      "Análisis impulsado por IA sin mover los datos — seguro y conforme.",
+      "Información en tiempo real para préstamos, patrimonio y operaciones."
+    ],
+    "whyChooseData": [
+      "Estrategia integral hasta la ejecución para Financial Services Cloud y SAP.",
+      "Herramientas propietarias como Exelona (Real Estate Cloud) y Agentchat (Integración de WhatsApp).",
+      "Integraciones profundas de IA y Data Cloud para operaciones predictivas y en tiempo real.",
+      "Comprensión incomparable del cumplimiento, riesgo y experiencia del cliente.",
+      "Presencia global con experiencia local para impulsar una transformación duradera."
+    ]
+  }
+
 
 }
+

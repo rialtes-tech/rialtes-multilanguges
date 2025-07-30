@@ -56,6 +56,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const semiconductor = (await import(`../../messages/${locale}/industry.json`)).default;
     const manufacturing = (await import(`../../messages/${locale}/industry.json`)).default;
     const education = (await import(`../../messages/${locale}/industry.json`)).default;
+    const finance = (await import(`../../messages/${locale}/industry.json`)).default;
+
+
 
 
 
@@ -103,8 +106,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...caseStudyIndivisual,
             ...semiconductor,
             ...manufacturing,
-            ...education
-
+            ...education,
+            ...finance
         }
     };
 });

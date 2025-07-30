@@ -3,6 +3,9 @@ import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import ContactForm from "../../components/contactform";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/aboutus.json';
+import esContent from '../../../../../messages/es/aboutus.json';
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -21,6 +24,11 @@ const schemaData = {
     "Responsible AI adoption, net-zero carbon footprint, community empowerment, and upskilling youth.",
 };
 export default function Page() {
+  const t = useTranslations('impact')
+      const locale = useLocale();
+      const impactContent = locale === "es" ? esContent : enContent;
+      const {} = impactContent.impact;
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -62,10 +70,10 @@ export default function Page() {
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 md:mb-[140px]">
               <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
-                Social Impact
+               {t('impactTitle')}
               </h1>
               <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
-                Sustainability with<br /> Responsible AI
+                {t('impactSubtitle')}<br /> {t('impactSubtitleOne')}
               </h2>
             </div>
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -78,12 +86,11 @@ export default function Page() {
         <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
           <div className=" xl:mb-0">
             <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px]  xl:text-[35px] text-[22px] leading-tight ">
-              Rialtes has been empowering customers across the world to trust AI
-              and strengthen the philosophy of responsible AI.
+               {t('rialtesTitle')}
             </h2>
           </div>
         </div>
-        <h2 className="pb-10 4xl:text-[60px] xl:text-[40px] text-[26px]" >We care. We take actions.</h2>
+        <h2 className="pb-10 4xl:text-[60px] xl:text-[40px] text-[26px]" > {t('rialtesSubtitle')}</h2>
       </section>
       {/* we care we take actions section */}
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden xl:block hidden">
@@ -97,20 +104,16 @@ export default function Page() {
         <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
           <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] h-[484px] text-white  xl:right-0 top-0">
             <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">
-              Rialtes Innovation Foundation
+              {t('innovationTitle')} 
             </h3>
             <p className="mt-5 4xl:text-[22px]  xl:text-[18px] text-[16px] ">
-              At Rialtes Foundation, we believe in creating impact beyond
-              business.{" "}
+              {t('innovationDesc')} 
             </p>
             <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-              Through our charity initiatives in India, we focus on uplifting
-              underprivileged communities, supporting girl child education, and
-              helping children in need access better opportunities.
+             {t('innovationDescOne')} 
             </p>
             <p className="mt-4 4xl:text-[22px]  xl:text-[18px] text-[16px]">
-              Empowering lives and building a better future remains at the heart
-              of who we are.{" "}
+              {t('innovationDescTwo')} 
             </p>
           </div>
         </div>
@@ -127,21 +130,15 @@ export default function Page() {
           <div className="relative p-6 w-[720px] h-[484px]">
             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-              <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">ESG Efforts</h3>
+              <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]"> {t('effortsTitle')}</h3>
               <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                At Rialtes, we are deeply committed to sustainability and
-                climate action.
+                 {t('effortsDesc')}
               </p>
               <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                As proud member of the 1t.org initiative, we actively contribute
-                to the global mission of planting 1 trillion trees. Our vision
-                includes achieving net-zero operations, reducing our
-                environmental footprint, and driving impactful climate
-                initiatives.
+                {t('effortsDescOne')}
               </p>
               <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                Building a greener, more sustainable future is at the core of
-                our values and actions
+               {t('effortsDescTwo')}
               </p>
             </div>
           </div>
@@ -161,21 +158,16 @@ export default function Page() {
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
                 <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px]  text-[24px]">
-                  AI Impact for Future
+                  {t('aiTitle')}
                 </h3>
                 <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                  At Rialtes, we are committed to shaping the future workforce
-                  through our flagship program, ‘AI4Future’, focused on training
-                  and certifying 500+ graduate trainees in leading global AI
-                  certifications.
+                  {t('aiDesc')}
                 </p>
                 <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                  We aim to bridge the AI skills gap and create opportunities
-                  for the next generation of innovators.
+                 {t('aiDescOne')}
                 </p>
                 <p className="mt-4 4xl:text-[22px] xl:text-[20px] text-[16px]">
-                  ‘AI4Future’ reflects our dedication to building future-ready
-                  professionals and fostering inclusive growth.
+                  {t('aiDescTwo')}
                 </p>
               </div>
             </div>
@@ -198,20 +190,16 @@ export default function Page() {
         <div
           className="relative p-8 xl:p-12 text-white bg-[#016FBE] pb-16 xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0">
           <h3 className="font-normal text-[24px]">
-            Rialtes Innovation Foundation
+            {t('innovationTitle')}
           </h3>
           <p className="mt-5 text-[16px] xl:text-[22px]">
-            At Rialtes Foundation, we believe in creating impact beyond
-            business.
+            {t('innovationDesc')} 
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            Through our charity initiatives in India, we focus on uplifting
-            underprivileged communities, supporting girl child education, and
-            helping children in need access better opportunities.
+            {t('innovationDescOne')} 
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            Empowering lives and building a better future remains at the heart
-            of who we are.
+            {t('innovationDescTwo')}
           </p>
         </div>
       </section>
@@ -226,20 +214,15 @@ export default function Page() {
           />
         </div>
         <div className="relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE]">
-          <h3 className="font-normal text-[24px]">ESG Efforts</h3>
+          <h3 className="font-normal text-[24px]"> {t('effortsTitle')}</h3>
           <p className="mt-5 text-[16px] xl:text-[22px]">
-            At Rialtes, we are deeply committed to sustainability and climate
-            action.
+            {t('effortsDesc')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            As proud member of the 1t.org initiative, we actively contribute to
-            the global mission of planting 1 trillion trees. Our vision includes
-            achieving net-zero operations, reducing our environmental footprint,
-            and driving impactful climate initiatives.
+            {t('effortsDescOne')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            Building a greener, more sustainable future is at the core of our
-            values and actions.
+            {t('effortsDescTwo')} 
           </p>
         </div>
       </section>
@@ -254,20 +237,15 @@ export default function Page() {
           />
         </div>
         <div className="relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE] xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0">
-          <h3 className="font-normal text-[24px]">AI Impact for Future</h3>
+          <h3 className="font-normal text-[24px]"> {t('aiTitle')}</h3>
           <p className="mt-5 text-[16px] xl:text-[22px]">
-            At Rialtes, we are committed to shaping the future workforce through
-            our flagship program, ‘AI4Future’, focused on training and
-            certifying 500+ graduate trainees in leading global AI
-            certifications.
+            {t('aiDesc')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            We aim to bridge the AI skills gap and create opportunities for the
-            next generation of innovators.
+            {t('aiDescOne')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            ‘AI4Future’ reflects our dedication to building future-ready
-            professionals and fostering inclusive growth.
+            {t('aiDescTwo')}
           </p>
         </div>
       </section>
@@ -279,10 +257,10 @@ export default function Page() {
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10  4xl:py-10 2xl:py-8 flex flex-col justify-center flex-grow">
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
-                  1 % of revenue
+                 {t('revenueTitle')}
                 </h3>
                 <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
-                  committed to social work
+                 {t('revenueDesc')}
                 </p>
               </div>
               <Image
@@ -310,10 +288,10 @@ export default function Page() {
               />
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px] xl:min-h-[245px]">
                 <p className="4xl:text-[30px] xl:text-[28px] text-[26px] pb-0 md:pb-2">
-                  Committed to planting
+                {t('treesDesc')}
                 </p>
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px] ">
-                  1 trillion trees
+                 {t('treesTitle')}
                 </h3>
               </div>
             </div>
@@ -321,10 +299,10 @@ export default function Page() {
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px]">
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
-                  500+ AI Certified
+                  {t('certifiedTitle')}
                 </h3>
                 <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
-                  professionals every six months
+                 {t('certifiedDesc')}
                 </p>
               </div>
               <Image
@@ -343,7 +321,7 @@ export default function Page() {
       </div>
       <div className="custom-container text-black pb-20">
         <ContactForm
-          title="Ready to take the next step? Let’s kick off your journey to operational excellence"
+          title={t('contactUs')}
           className={" leading-tight  4xl:text-[60px]  xl:text-[45px]  text-[26px] max-[400px]:text-[24px]"}
         />
       </div>

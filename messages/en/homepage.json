@@ -137,6 +137,7 @@
         "contactTitle": "Contact Us"
     },
     "contactForm": {
+        "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
         "message": "Message*",
         "messageError1": "Message is required.",
         "messageError2": "Message should be at least 10 characters long.",
