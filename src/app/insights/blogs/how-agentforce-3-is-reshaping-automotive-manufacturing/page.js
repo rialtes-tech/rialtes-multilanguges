@@ -285,7 +285,7 @@ export default function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <section className="relative  h-[350px] md:h-[400px]  4xl:h-[650px]">
+            <section className="relative  h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
@@ -374,7 +374,7 @@ export default function Page() {
                     </div>
                     <div className="py-6"></div>
                     <div className=" mx-auto">
-                        <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] 
+                        <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
                          xl:w-[1000px] 4xl:w-[1150px] pb-6">
                             How Agentforce 3.0 is Reshaping Automotive Manufacturing
                         </h1>
@@ -382,23 +382,24 @@ export default function Page() {
 
                     <div className=" mx-auto">
                         <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                                 Salesforce has <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/in/news/press-releases/2025/06/23/agentforce-3-announcement/">launched</Link>  Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024. Since Agentforce 2.0's December release and Agentforce 2dx in March, the updates continue with the launch of Agentforce 3.0, marking another major milestone.
                             </p>
 
-                            <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                            <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Not in the exaggerated “overnight transformation” sense, but in the practical, measurable improvements that directly impact the professionals managing and optimizing AI in automotive production  every day. With over 200 prebuilt agent actions, Agentforce 3.0 significantly advances the operationalization of intelligent automation across core workflows.
-                                While much of the external focus remains on headline-grabbing AI features, the real strategic value of this release lies in its ability to bridge the gap between visionary AI concepts and deployable, scalable automation, particularly for Salesforce administrators, developers, and DevOps teams driving industry innovation. Not all AI assistants are created equal—understanding the <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/">difference between bots, copilots, and AI agents</Link>  can fundamentally reshape how you architect automation across your factory. The automotive industry is one of the sectors accelerating into a new era, defined by intelligent automation, supply chain volatility, and the shift to electric and autonomous vehicles.
+                                While much of the external focus remains on headline-grabbing AI features, the real strategic value of this release lies in its ability to bridge the gap between visionary AI concepts and deployable, scalable automation, particularly for Salesforce administrators, developers, and DevOps teams driving industry innovation. Not all AI assistants are created equal—understanding the <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/">difference between bots, copilots, and AI agents</Link>  can fundamentally reshape how you architect automation across your factory.
+                                
                             </p>
-                            <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Manufacturers should not only focus on improving processes but also reinvent them to remain competitive. Agentforce 3.0 empowers automotive companies to build smarter factories, optimize quality, and drive faster innovation.</p>
+                            <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> The automotive industry is one of the sectors accelerating into a new era, defined by intelligent automation, supply chain volatility, and the shift to electric and autonomous vehicles. Manufacturers should not only focus on improving processes but also reinvent them to remain competitive. Agentforce 3.0 empowers automotive companies to build smarter factories, optimize quality, and drive faster innovation.</p>
 
                             <div className="py-6 "></div>
 
-                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] leading-tight">
+                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Agentforce 3.0: A Game-Changer for Automotive
                             </h2>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
                                 Since its debut, Salesforce’s Agentforce platform has promised to reimagine how organizations interact with data, tools, and processes, bringing AI-powered intelligence to the heart of enterprise operations. With the launch of Agentforce 3.0, that vision is more actionable, especially for the automotive manufacturing sector.
                             </p>
 
@@ -406,80 +407,90 @@ export default function Page() {
 
 
 
-                            <h3 className="pb-4 mt-6 font-semibold text-[18px] 4xl:text-[26px] 2xl:text-[18px]  xl:text-[17px]">
+                            <h3 className="pb-4 mt-6 font-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 Key automotive capabilities include:
                             </h3>
-
 
                             <div className="grid gap-10 mt-5">
                                 {featuresData.map((item, idx) => (
                                     <div key={idx} className="flex flex-col sm:flex-row items-start gap-10">
                                         <div className="min-w-[60px] sm:mt-1">
-                                            <Image src={item.icon} alt={item.title} width={200} height={112} className="xl:w-[300px] w-[100px]" />
+                                            <Image
+                                                src={item.icon}
+                                                alt={item.title}
+                                                width={200}
+                                                height={112}
+                                                className="xl:w-[300px] w-[100px]"
+                                            />
                                         </div>
-                                        <span>
-                                            <h4 className="xl:text-[22px] text-[16px] font-bold">{item.title}</h4>
-                                            <span className="text-gray-700 pl-3 xl:text-[22px] text-[16px] font-medium">{item.description}</span>
-                                        </span>
+                                        <div className="">
+                                            <h4 className="inline font-bold xl:text-[17px] text-[16px] 4xl:text-[20px] 2xl:text-[18px] mr-1">
+                                                {item.title}
+                                            </h4>
+                                            <span className="inline text-gray-700 xl:text-[17px] text-[16px] 2xl:text-[20px] 4xl:text-[20px] font-medium">
+                                                {item.description}
+                                            </span>
+                                        </div>
                                     </div>
                                 ))}
                             </div>
 
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
+
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
                                 Streamline Operations with the Agentforce Command Center
                             </h2>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">One of the standout features of Agentforce 3.0 is the Command Center—a control tower for managing and optimizing AI agent performance.</p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">One of the standout features of Agentforce 3.0 is the Command Center—a control tower for managing and optimizing AI agent performance.</p>
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
                                 In an automotive factory setting, this means:
                             </p>
 
 
 
                             <ol className=" marker:text-xl text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li><h4 className="font-bold">1. Live Monitoring of Production Agents: </h4> Get real-time alerts when an agent controlling robotic assembly lines faces anomalies.</li>
-                                <li><h4 className="font-bold">2. Performance Optimization:  </h4> Identify bottlenecks, track error rates, and ensure your plant runs at maximum efficiency.</li>
-                                <li><h4 className="font-bold">3. Cross-Team Transparency: </h4> View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents.</li>
+                                <li className="inline"><h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">1. Live Monitoring of Production Agents: </h4> Get real-time alerts when an agent controlling robotic assembly lines faces anomalies.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">2. Performance Optimization:  </h4> Identify bottlenecks, track error rates, and ensure your plant runs at maximum efficiency.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">3. Cross-Team Transparency: </h4> View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents.</li>
                             </ol>
-                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
+                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
                                 Imagine diagnosing a welding mistake or an equipment fault before it halts your production line. Agentforce makes it possible with predictive insights and proactive recommendations.
                             </p>
 
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-10 leading-tight">
                                 Universal Integration with Model Context Protocol (MCP)
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">The Model Context Protocol (MCP) brings the “USB-C for AI agents” to automotive IT systems. For manufacturers juggling multiple platforms such as ERP, MES, PLM, and IoT dashboards. MCP acts as the universal adapter.</p>
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">The Model Context Protocol (MCP) brings the “USB-C for AI agents” to automotive IT systems. For manufacturers juggling multiple platforms such as ERP, MES, PLM, and IoT dashboards. MCP acts as the universal adapter.</p>
 
                             <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
-                                <li><h4 className="font-bold">Seamless API Integration:</h4> Instantly convert manufacturing APIs into agent-compatible services via MuleSoft.  </li>
-                                <li><h4 className="font-bold">Custom Tool Connections:</h4> Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms.</li>
-                                <li><h4 className="font-bold">Secure Collaboration in Slack:</h4> Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Seamless API Integration:</h4> Instantly convert manufacturing APIs into agent-compatible services via MuleSoft.  </li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Custom Tool Connections:</h4> Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Secure Collaboration in Slack:</h4> Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules.</li>
                             </ol>
 
 
 
-                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.</p>
+                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.</p>
 
-                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.</p>
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-10 leading-tight">
+                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px] md:text-[23px] xl:text-[17px] text-[16px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.</p>
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-10 leading-tight">
                                 Revolutionize Quality and Compliance
                             </h2>
 
-                            <p>Agentforce 3.0 is powered by Salesforce’s advanced Atlas Reasoning Engine, bringing a new level of intelligence and agility to this critical function.
+                            <p className="4xl:text-[20px] xl:text-[17px] 2xl:text-[18px] text-[16px]">Agentforce 3.0 is powered by Salesforce’s advanced Atlas Reasoning Engine, bringing a new level of intelligence and agility to this critical function.
                                 By leveraging real-time data enrichment from Data Cloud, AI agents can continuously monitor production data, spot anomalies, and detect quality deviations as they happen.
                             </p>
-                            <p className="mt-5"> Through AI-powered plan generation and refinement, the system can not only identify issues but also recommend actionable design changes or procedural adjustments to improve outcomes.</p>
-                            <p className="mt-5"> Moreover, with Retrieval-Augmented Generation (RAG) and inline citations, every insight an agent delivers is traceable and transparent—an essential feature for regulated environments. The result is a smarter, more proactive approach to quality and compliance that reduces rework, ensures audit-readiness, and accelerates issue resolution.</p>
-                            <p className="mt-5">With multilingual capabilities and FedRAMP High certification, Agentforce 3.0 is built to meet the needs of global manufacturers, including those operating in highly regulated or government-linked environments, offering a secure, scalable, and intelligent solution for modern automotive quality management.</p>
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> Through AI-powered plan generation and refinement, the system can not only identify issues but also recommend actionable design changes or procedural adjustments to improve outcomes.</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> Moreover, with Retrieval-Augmented Generation (RAG) and inline citations, every insight an agent delivers is traceable and transparent—an essential feature for regulated environments. The result is a smarter, more proactive approach to quality and compliance that reduces rework, ensures audit-readiness, and accelerates issue resolution.</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">With multilingual capabilities and FedRAMP High certification, Agentforce 3.0 is built to meet the needs of global manufacturers, including those operating in highly regulated or government-linked environments, offering a secure, scalable, and intelligent solution for modern automotive quality management.</p>
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
                                 Drive Innovation with the AgentExchange
                             </h2>
-                            <p>Salesforce’s AgentExchange brings a plug-and-play marketplace for automotive innovation.
+                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Salesforce’s AgentExchange brings a plug-and-play marketplace for automotive innovation.
                             </p>
 
-                            <p>Instead of building every agent from scratch, manufacturers can now:</p>
+                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Instead of building every agent from scratch, manufacturers can now:</p>
 
                             <ol className="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
                                 <li>Deploy pre-built agents for scheduling, procurement, or after-sales service</li>
@@ -487,7 +498,7 @@ export default function Page() {
                                 <li>Share innovations across the industry for faster adoption</li>
                             </ol>
 
-                            <h3 className="pb-4 font-semibold text-[17px] 4xl:text-[26px] 2xl:text-[18px]  xl:text-[17px] mt-10">
+                            <h3 className="pb-4 font-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10">
                                 Use cases tailored to automotive manufacturers include:
                             </h3>
 
@@ -498,9 +509,9 @@ export default function Page() {
                                         key={index}
                                         className={`py-6 xl:py-0 ${index === 0 ? 'pr-6' : 'xl:pl-6 xl:pr-5 md:pl-10'}`}
                                     >
-                                        <h4 className="text-[#0067B9] font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight pl-2">
+                                        <h4 className="text-[#0067B9] font-semibold 4xl:text-[20px] xl:text-[17px] 2xl:text-[18px] text-[16px] leading-tight pl-2">
                                             {item.title}
-                                           
+
                                             <span className="text-black font-normal 4xl:text-[22px] xl:text-[20px] text-[16px] pl-2">
                                                 {item.description}
                                             </span>
@@ -509,46 +520,46 @@ export default function Page() {
                                 ))}
                             </div>
 
-                            <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
+                            <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
                                 This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to AI adoption with Agentforce for automotive manufacturing.
                             </p>
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
                                 Accelerate Time to Value with Pre-Built Industry Actions
                             </h2>
 
 
 
-                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Agentforce 3.0 isn’t just for tech groups; it’s built for immediate value on the factory floor. Salesforce is rolling out 100+ pre-built industry actions in 2025, tailored for sectors like automotive.
+                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Agentforce 3.0 isn’t just for tech groups; it’s built for immediate value on the factory floor. Salesforce is rolling out 100+ pre-built industry actions in 2025, tailored for sectors like automotive.
                                 .</p>
 
-                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Use cases include:</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Use cases include:</p>
                             <ul className="list-disc marker:text-xl pl-4 text-black mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
                                 <li>Automated vehicle inspection summaries</li>
                                 <li>Digital twin coordination</li>
                                 <li>Predictive maintenance and repair triggers</li>
                                 <li>Parts shortage alerts and resolution agents</li>
                             </ul>
-                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">And with new per-user pricing models and unlimited usage for employee-facing agents, it’s easier than ever to scale AI across your workforce, without unpredictable costs.</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">And with new per-user pricing models and unlimited usage for employee-facing agents, it’s easier than ever to scale AI across your workforce, without unpredictable costs.</p>
 
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
                                 Put AI to Work in Automotive, Starting Today
                             </h2>
-                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Agentforce arrives at a pivotal moment for the automotive industry. Amidst rising consumer expectations, electrification, and global competition, the pressure to do more with less has never been greater.
+                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Agentforce arrives at a pivotal moment for the automotive industry. Amidst rising consumer expectations, electrification, and global competition, the pressure to do more with less has never been greater.
                             </p>
 
-                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Salesforce’s latest update gives manufacturers the AI building blocks they need to:</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Salesforce’s latest update gives manufacturers the AI building blocks they need to:</p>
                             <ul className="list-disc pl-4 marker:text-xl text-black 4xl:text-[20px] 2xl:text-[18px] mt-5  xl:text-[17px] text-[16px] font-medium space-y-4">
                                 <li>Boost operational resilience</li>
                                 <li>Speed up innovation cycles</li>
                                 <li>Ensure compliance across geographies</li>
                                 <li>Deliver better experiences across the vehicle lifecycle</li>
                             </ul>
-                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10">Whether you’re retrofitting legacy systems or building smart factories from the ground up, Agentforce 3.0 offers a powerful way to drive transformation.</p>
-                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-5" >Are you ready to discover <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/">how Agentforce can benefit your factory?</Link>  Let our experts assist you in integrating, scaling, and succeeding with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/">AI in automotive manufacturing</Link> . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.</p>
+                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10 text-[16px]">Whether you’re retrofitting legacy systems or building smart factories from the ground up, Agentforce 3.0 offers a powerful way to drive transformation.</p>
+                            <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-5 text-[16px]" >Are you ready to discover <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/">how Agentforce can benefit your factory?</Link>  Let our experts assist you in integrating, scaling, and succeeding with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/">AI in automotive manufacturing</Link> . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.</p>
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] mt-16 leading-tight">
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
                                 FAQs: Agentforce for AI-Powered Manufacturing Transformation
                             </h2>
 

@@ -261,21 +261,21 @@ export default function Page() {
           <div className="4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
 
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction. By combining advanced technology with intuitive features, SuccessFactors Payroll is built to address the evolving demands of modern businesses, ensuring your workforce is always paid accurately and on time.</p>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction. By combining advanced technology with intuitive features, SuccessFactors Payroll is built to address the evolving demands of modern businesses, ensuring your workforce is always paid accurately and on time.</p>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Here’s an example: A PWC report reveals that 75% of companies using a global payroll system have reduced payroll errors, while 68% have seen improvements in local regulatory compliance.</p>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Here’s an example: A PWC report reveals that 75% of companies using a global payroll system have reduced payroll errors, while 68% have seen improvements in local regulatory compliance.</p>
 
-            <p className="text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Organizations look for ways to streamline their operations, particularly in areas like human resources (HR) and payroll. SAP SuccessFactors has emerged as a leading solution in the HR technology space, offering robust capabilities for managing the employee lifecycle. However, the true power of SAP SuccessFactors lies in its ability to integrate seamlessly with other systems, creating a unified ecosystem that enhances efficiency, accuracy, and decision-making.</p>
-
-            <div className="py-6"></div>
-
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] pb-4">What Should Enterprises Know About SAP SuccessFactors?</h2>
-
-            <p className="text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors is a cloud-based Human Capital Management (HCM) suite designed to enhance the employee lifecycle, from recruitment to performance management. It integrates various HR functions into a cohesive system, facilitating seamless data flow and eliminating inefficiencies of separate systems. Scalable and customizable, it suits organizations of all sizes. The HR department appreciates SAP SuccessFactors for streamlining employee management, whether on-premises or in the cloud, and enabling data-driven decision-making.</p>
+            <p className="text-black 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Organizations look for ways to streamline their operations, particularly in areas like human resources (HR) and payroll. SAP SuccessFactors has emerged as a leading solution in the HR technology space, offering robust capabilities for managing the employee lifecycle. However, the true power of SAP SuccessFactors lies in its ability to integrate seamlessly with other systems, creating a unified ecosystem that enhances efficiency, accuracy, and decision-making.</p>
 
             <div className="py-6"></div>
 
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] pb-4">HR Management with SAP SuccessFactors</h2>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4">What Should Enterprises Know About SAP SuccessFactors?</h2>
+
+            <p className="text-black 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors is a cloud-based Human Capital Management (HCM) suite designed to enhance the employee lifecycle, from recruitment to performance management. It integrates various HR functions into a cohesive system, facilitating seamless data flow and eliminating inefficiencies of separate systems. Scalable and customizable, it suits organizations of all sizes. The HR department appreciates SAP SuccessFactors for streamlining employee management, whether on-premises or in the cloud, and enabling data-driven decision-making.</p>
+
+            <div className="py-6"></div>
+
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4">HR Management with SAP SuccessFactors</h2>
 
             <div className="pl-6">
               <ul className="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
@@ -292,116 +292,116 @@ export default function Page() {
 
             <div className="py-6"></div>
 
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] pb-4">The Role of Integrations in Modern HR and Payroll</h2>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4">The Role of Integrations in Modern HR and Payroll</h2>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">HR and payroll processes are inherently complex, involving a range of activities such as recruitment, employee onboarding, benefits administration, time tracking,compliance, and compensation. Managing these processes in isolation often results in inefficiencies, errors, and frustration for HR teams and employees alike. By integrating SAP SuccessFactors with other enterprise systems, organizations can:</p>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">HR and payroll processes are inherently complex, involving a range of activities such as recruitment, employee onboarding, benefits administration, time tracking,compliance, and compensation. Managing these processes in isolation often results in inefficiencies, errors, and frustration for HR teams and employees alike. By integrating SAP SuccessFactors with other enterprise systems, organizations can:</p>
 
 
 
-            <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] font-medium">
-                <li className="pb-2"><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] ">Automate Processes</h3>: Reduce manual data entry and minimize human error.</li>
-                  <li className="pb-2"><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] ">Ensure Data Consistency</h3>: Maintain accurate and up-to-date information across all systems.</li>
-                 <li className="pb-2"> <h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] ">Enhance Reporting</h3>: Gain insights through consolidated data and analytics.</li>
-                <li><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Improve Compliance</h3>: Ensure adherence to local labor laws and regulations.</li>
-              </ul>
-            </div>
-
-            <div className="py-6"></div>
-
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] ">SAP SuccessFactors Integrations and Their Impact</h2>
-
-            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">1. Integration with Core ERP Systems</h3>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors integrates seamlessly with SAP S/4HANA and other ERP systems to align HR operations with broader business functions. For example:</p>
             <div className="pl-6">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]  font-medium">
-                <li className="pb-2"><h4 className="inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Payroll Accuracy </h4>: Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system</li>
-               <li><h4 className="inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Financial Planning </h4>: Real-time data exchange supports accurate budgeting and forecasting by providing visibility into payroll expenses.</li>
+                <li className="pb-2"><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] ">Automate Processes</h3>: Reduce manual data entry and minimize human error.</li>
+                  <li className="pb-2"><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Ensure Data Consistency</h3>: Maintain accurate and up-to-date information across all systems.</li>
+                 <li className="pb-2"> <h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] ">Enhance Reporting</h3>: Gain insights through consolidated data and analytics.</li>
+                <li><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">Improve Compliance</h3>: Ensure adherence to local labor laws and regulations.</li>
+              </ul>
+            </div>
+
+            <div className="py-6"></div>
+
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] ">SAP SuccessFactors Integrations and Their Impact</h2>
+
+            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">1. Integration with Core ERP Systems</h3>
+            <p className="text-black text-[16px] pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors integrates seamlessly with SAP S/4HANA and other ERP systems to align HR operations with broader business functions. For example:</p>
+            <div className="pl-6">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]  font-medium">
+                <li className="pb-2"><h4 className="inline text-black 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Payroll Accuracy </h4>: Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system</li>
+               <li><h4 className="inline text-black 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">Financial Planning </h4>: Real-time data exchange supports accurate budgeting and forecasting by providing visibility into payroll expenses.</li>
               </ul>
             </div>
 
 
 
 
-            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">2. Integration with Time and Attendance Systems</h3>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Tracking employee hours is critical for payroll and compliance. SuccessFactors integrates with leading time and attendance solutions to:</p>
+            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">2. Integration with Time and Attendance Systems</h3>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Tracking employee hours is critical for payroll and compliance. SuccessFactors integrates with leading time and attendance solutions to:</p>
             <div className="pl-6">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] font-medium">
-                <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Streamline Time Tracking </h4>:  Automatically sync employee clock-in/clock-out data.</li>
-                 <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Ensure Compliance </h4>: Adhere to overtime and labor laws.</li>
-                <li><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Optimize Workforce Management </h4>: Leverage accurate attendance data to manage staffing levels effectively.</li>
+                <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Streamline Time Tracking </h4>:  Automatically sync employee clock-in/clock-out data.</li>
+                 <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Ensure Compliance </h4>: Adhere to overtime and labor laws.</li>
+                <li><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">Optimize Workforce Management </h4>: Leverage accurate attendance data to manage staffing levels effectively.</li>
               </ul>
             </div>
 
-            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">3. Integration with Benefits Administration Platforms</h3>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Employee benefits are a key component of compensation packages. SuccessFactors integrations enable organizations to:</p>
+            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">3. Integration with Benefits Administration Platforms</h3>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Employee benefits are a key component of compensation packages. SuccessFactors integrations enable organizations to:</p>
             <div className="pl-6">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] font-medium">
-               <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Automate Enrollment </h4>: Streamline benefits enrollment during onboarding or open enrollment periods.</li>
-               <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Improve Employee Experience </h4>: Provide employees with a self-service portal to manage their benefits. </li>
-               <li><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Maintain Compliance </h4 >: Ensure adherence to government-mandated benefit programs. </li>
+               <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  text-[16px] xl:text-[17px]">Automate Enrollment </h4>: Streamline benefits enrollment during onboarding or open enrollment periods.</li>
+               <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Improve Employee Experience </h4>: Provide employees with a self-service portal to manage their benefits. </li>
+               <li><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Maintain Compliance </h4 >: Ensure adherence to government-mandated benefit programs. </li>
               </ul>
 
             </div>
 
-            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">4. Integration with Learning Management Systems (LMS)</h3>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Continuous learning and development are vital for employee engagement and retention. By integrating with LMS platforms, SuccessFactors helps organizations:</p>
+            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">4. Integration with Learning Management Systems (LMS)</h3>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Continuous learning and development are vital for employee engagement and retention. By integrating with LMS platforms, SuccessFactors helps organizations:</p>
             <div className="pl-6">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] font-medium">
-                 <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Deliver Training </h4>: Assign and track training programs tailored to employee roles.</li>
-                  <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Measure Impact </h4>: Analyze training outcomes and link them to performance metrics.</li>
-                 <li><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Support Compliance </h4>: Manage mandatory certifications and training requirements.</li>
+                 <li className="pb-2 "><h4 className="inline 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Deliver Training </h4>: Assign and track training programs tailored to employee roles.</li>
+                  <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Measure Impact </h4>: Analyze training outcomes and link them to performance metrics.</li>
+                 <li><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">Support Compliance </h4>: Manage mandatory certifications and training requirements.</li>
               </ul>
             </div>
 
 
 
 
-            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">5. Integration with Third-Party Payroll Providers</h3>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">For organizations that outsource payroll, SuccessFactors integrations with third-party providers such as ADP or Ceridian ensure:</p>
+            <h3 className="pb-4 mt-6 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">5. Integration with Third-Party Payroll Providers</h3>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">For organizations that outsource payroll, SuccessFactors integrations with third-party providers such as ADP or Ceridian ensure:</p>
             <div className="pl-6">
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] font-medium">
-                <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Seamless Data Transfer </h4>: Share employee data, tax information, and payroll inputs securely.</li>
-                 <li className="pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]"><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Error-Free Processing </h4>: Minimize discrepancies and delays.</li>
-                <li ><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Localized Compliance </h4>: Address country-specific payroll regulations.</li>
+                <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Seamless Data Transfer </h4>: Share employee data, tax information, and payroll inputs securely.</li>
+                 <li className="pb-2 "><h4 className="inline 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Error-Free Processing </h4>: Minimize discrepancies and delays.</li>
+                <li ><h4 className="inline 4xl:text-[20px] 2xl:text-[18px]  text-[16px] xl:text-[17px]">Localized Compliance </h4>: Address country-specific payroll regulations.</li>
               </ul>
             </div>
 
 
             <div className="py-6"></div>
 
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] pb-4">SuccessFactors Employee Central Payroll</h2>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4">SuccessFactors Employee Central Payroll</h2>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors Employee Central is a cloud-based solution that manages core HR processes like employee data, payroll automation, time tracking, and benefits administration. By consolidating these functions, it improves operational efficiency, compliance, and employee experience. SuccessFactors Employee Central is part of the broader SAP SuccessFactors suite, which includes other modules for performance management, learning and development, recruiting, and more. As part of the SAP SuccessFactors suite, it integrates easily with other SAP solutions and third-party applications, making it suitable for businesses of any size.</p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">SAP SuccessFactors Employee Central is a cloud-based solution that manages core HR processes like employee data, payroll automation, time tracking, and benefits administration. By consolidating these functions, it improves operational efficiency, compliance, and employee experience. SuccessFactors Employee Central is part of the broader SAP SuccessFactors suite, which includes other modules for performance management, learning and development, recruiting, and more. As part of the SAP SuccessFactors suite, it integrates easily with other SAP solutions and third-party applications, making it suitable for businesses of any size.</p>
 
-            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Global Payroll Processing</h3>
+            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">Global Payroll Processing</h3>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors Payroll facilitates payroll processing across various countries, ensuring compliance with local laws and reducing error risks for multinational corporations.</p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">SAP SuccessFactors Payroll facilitates payroll processing across various countries, ensuring compliance with local laws and reducing error risks for multinational corporations.</p>
 
-            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Automated Payroll Calculations</h3>
+            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Automated Payroll Calculations</h3>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] ">The solution automates payroll calculations for taxes, benefits, and deductions, minimizing errors and ensuring timely, accurate employee payments.</p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px] ">The solution automates payroll calculations for taxes, benefits, and deductions, minimizing errors and ensuring timely, accurate employee payments.</p>
 
-            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Real-Time Payroll Monitoring</h3>
+            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">Real-Time Payroll Monitoring</h3>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">HR and payroll professionals can monitor payroll processes in real-time, allowing for quick issue identification and resolution and enhancing transparency.</p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">HR and payroll professionals can monitor payroll processes in real-time, allowing for quick issue identification and resolution and enhancing transparency.</p>
 
 
-            <h3 className="pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Employee Self-Service Portal</h3>
+            <h3 className="pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px]  text-[16px] xl:text-[17px]">Employee Self-Service Portal</h3>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Employees can access payslips and manage personal information through a user-friendly self-service portal, promoting employee satisfaction.</p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">Employees can access payslips and manage personal information through a user-friendly self-service portal, promoting employee satisfaction.</p>
 
-            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">Compliance Management</h3>
+            <h3 className=" pb-4 h3-bold 4xl:text-[20px] 2xl:text-[18px] text-[16px]  xl:text-[17px]">Compliance Management</h3>
 
-            <p className="text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] ">SAP SuccessFactors Payroll helps businesses comply with ever-changing payroll regulations, easing the burden on HR and payroll teams.</p>
+            <p className="text-black 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px] ">SAP SuccessFactors Payroll helps businesses comply with ever-changing payroll regulations, easing the burden on HR and payroll teams.</p>
 
 
             <div className="py-6"></div>
 
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[20px] pb-4">Overcome SuccessFactors Integration Challenges</h2>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors integrations are a game-changer for HR and payroll operations. By connecting disparate systems and automating workflows, these integrations enhance efficiency, accuracy, and compliance. Whether you’re managing a global workforce or looking to streamline local HR operations, leveraging the power of SuccessFactors integrations can drive significant value for your organization.</p>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] pb-4">Overcome SuccessFactors Integration Challenges</h2>
+            <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">SAP SuccessFactors integrations are a game-changer for HR and payroll operations. By connecting disparate systems and automating workflows, these integrations enhance efficiency, accuracy, and compliance. Whether you’re managing a global workforce or looking to streamline local HR operations, leveraging the power of SuccessFactors integrations can drive significant value for your organization.</p>
 
-            <p className="text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">While the benefits of SAP SuccessFactors integrations are clear, organizations may encounter challenges such as data migration, system compatibility, and equipping HR teams with training. Working with experienced implementation partners and leveraging SAP’s extensive support ecosystem can help organizations overcome these challenges. Rialtes helps you simplify HR processes and create a workplace that engages its employees whilst meeting the needs of the global workforce. Be agile and stay one step ahead of changing conditions with our <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span>SAP SuccessFactors integration solutions.</span></Link></p>
+            <p className="text-black 4xl:text-[20px] 2xl:text-[18px] text-[16px] xl:text-[17px]">While the benefits of SAP SuccessFactors integrations are clear, organizations may encounter challenges such as data migration, system compatibility, and equipping HR teams with training. Working with experienced implementation partners and leveraging SAP’s extensive support ecosystem can help organizations overcome these challenges. Rialtes helps you simplify HR processes and create a workplace that engages its employees whilst meeting the needs of the global workforce. Be agile and stay one step ahead of changing conditions with our <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span>SAP SuccessFactors integration solutions.</span></Link></p>
           </div>
 
         </div>

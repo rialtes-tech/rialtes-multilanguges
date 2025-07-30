@@ -164,7 +164,7 @@ const blogs = [
 ];
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management";
 
   return (
     <div className="min-h-screen bg-white">
@@ -173,21 +173,21 @@ export default function Page() {
         description="SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!"
         canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
       />
-      
-         <Script
+
+      <Script
         id="schema-performance"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
         <Image
           src="/images/blog/successfactors-performance-goals.webp "
           alt="SAP SuccessFactors Performance and Goal Management"
           fill
           priority
-               style={{ objectFit: "cover", objectPosition: "90% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "90% 20%" }}
         />
       </section>
 
@@ -195,7 +195,7 @@ export default function Page() {
         className="custom-container"
       >
 
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
+        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>
@@ -203,25 +203,25 @@ export default function Page() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  {/* <div className="max-w-[40px]">
+                  <div className="flex flex-row gap-6">
+                    <div className="max-w-[40px]">
+                      <a
+                        href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src="/images/case-studies/linkedin.svg"
+                          alt="LinkedIn"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          priority
+                        />
+                      </a>
+                    </div>
+                    {/* <div className="max-w-[40px]">
                     <a
                       href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
                       target="_blank"
@@ -238,115 +238,115 @@ export default function Page() {
                       />
                     </a>
                   </div> */}
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
+                    <div className="max-w-[40px]">
+                      <a
+                        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >                      <Image
+                          src="/images/case-studies/twitter.svg"
+                          alt="Twitter"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          priority
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
 
               </div>
             </div>
           </div>
           <div className="py-6"></div>
-          <h1 className="text-[#000000]  4xl:w-[1084px] xl:w-[745px]  font-semibold pb-6 leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">SAP SuccessFactors Performance and Goal Management</h1>
+          <h1 className="text-[#000000] pb-6 leading-tight text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px]">SAP SuccessFactors Performance and Goal Management</h1>
           <div className="">
-            <p className="text-black pb-4">Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive. SAP SuccessFactors Performance and Goal Management (PMGM) is a powerful tool that supports organizations in aligning individual performance with organizational goals, fostering a high-performance culture, and driving employee engagement.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive. SAP SuccessFactors Performance and Goal Management (PMGM) is a powerful tool that supports organizations in aligning individual performance with organizational goals, fostering a high-performance culture, and driving employee engagement.</p>
 
-            <p className="text-black">It enables your employees to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.</p>
+            <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">It enables your employees to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.</p>
 
             <div className="py-6"></div>
 
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Describing SAP SuccessFactors Performance and Goal Management</h2>
+            <h2 className="font-medium text-[#0092E0]  4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Describing SAP SuccessFactors Performance and Goal Management</h2>
 
-            <p className="text-black pb-4">SAP SuccessFactors PMGM is designed to streamline and optimize the performance management process. The module supports the entire cycle of setting, tracking, and evaluating employee goals, as well as conducting performance appraisals. It aims to promote transparency and alignment, making it easier for managers and employees to understand how individual contributions drive organizational success. Managers can instantly track the status of all the goals across their team to save time and provide HR with outlines of goal distribution and insights into goal progression.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">SAP SuccessFactors PMGM is designed to streamline and optimize the performance management process. The module supports the entire cycle of setting, tracking, and evaluating employee goals, as well as conducting performance appraisals. It aims to promote transparency and alignment, making it easier for managers and employees to understand how individual contributions drive organizational success. Managers can instantly track the status of all the goals across their team to save time and provide HR with outlines of goal distribution and insights into goal progression.</p>
 
-            <h3 className="text-black pb-4 h3-bold">Configuration and Implementation</h3>
+            <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Configuration and Implementation</h3>
 
-            <p className="text-black pb-4">The SuccessFactors Performance and Goals Management solution is highly customizable to meet specific business needs, yet it also offers built-in features that are ready to use immediately upon activation. Customers can implement Performance and Goals Management with support from SAP Implementation Partners. A consultant with access to the backend and frontend interfaces of a customer’s SuccessFactors instance configures system settings and customizes processes and features to prepare it for use.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">The SuccessFactors Performance and Goals Management solution is highly customizable to meet specific business needs, yet it also offers built-in features that are ready to use immediately upon activation. Customers can implement Performance and Goals Management with support from SAP Implementation Partners. A consultant with access to the backend and frontend interfaces of a customer’s SuccessFactors instance configures system settings and customizes processes and features to prepare it for use.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Key Features and Functions</h3>
+            <h3 className="text-black pb-4 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Key Features and Functions</h3>
 
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                 <li><h4 className="inline">Goal Management </h4> – Allows managers and employees to set, align, and track goals. SuccessFactors PMGM ensures that goals are SMART (Specific, Measurable, Achievable, Relevant, Time-Bound), creating a clear path to individual and team success.</li>
-                <li><h4 className="inline">Continuous Performance Management (CPM) </h4>– Encourages ongoing dialogue between managers and employees, moving beyond annual reviews to more frequent, constructive check-ins.</li>
-                    <li><h4 className="inline">Performance Calibration </h4>–  Offers calibration tools that allow managers and HR professionals to calibrate ratings and provide consistency across different teams and departments.</li>
-                        <li><h4 className="inline">Performance Appraisals </h4>– Standardizes the evaluation process, providing customizable templates and tools for both self-assessment and manager assessment, making it easy to evaluate both achievements and development needs.</li>
-                         <li><h4 className="inline">360-degree Feedback </h4>– Enables comprehensive feedback from peers, subordinates, and supervisors, offering a well-rounded view of an employee’s performance.</li>
-                         <li><h4 className="inline">Development and Career Plans </h4>– Links performance outcomes to development plans, fostering career growth and aligning employee development with business needs.</li>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Goal Management </h4> – Allows managers and employees to set, align, and track goals. SuccessFactors PMGM ensures that goals are SMART (Specific, Measurable, Achievable, Relevant, Time-Bound), creating a clear path to individual and team success.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Continuous Performance Management (CPM) </h4>– Encourages ongoing dialogue between managers and employees, moving beyond annual reviews to more frequent, constructive check-ins.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Performance Calibration </h4>–  Offers calibration tools that allow managers and HR professionals to calibrate ratings and provide consistency across different teams and departments.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Performance Appraisals </h4>– Standardizes the evaluation process, providing customizable templates and tools for both self-assessment and manager assessment, making it easy to evaluate both achievements and development needs.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">360-degree Feedback </h4>– Enables comprehensive feedback from peers, subordinates, and supervisors, offering a well-rounded view of an employee’s performance.</li>
+                <li ><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Development and Career Plans </h4>– Links performance outcomes to development plans, fostering career growth and aligning employee development with business needs.</li>
               </ul>
             </div>
             <div className="py-6"></div>
 
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">How SAP SuccessFactors PMGM is Beneficial for You?</h2>
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]   2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">How SAP SuccessFactors PMGM is Beneficial for You?</h2>
 
-            <p className="text-black pb-4">Adopting SuccessFactors PMGM can lead to several significant benefits for an organization:</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Adopting SuccessFactors PMGM can lead to several significant benefits for an organization:</p>
 
-  <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <li><h4 className="inline">Goal Alignment </h4> : The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li>
-               <li><h4 className="inline">Enhanced Transparency </h4> : With visibility into performance expectations and goals, employees understand what’s expected of them. Managers, in turn, gain a clear understanding of each team member’s progress.</li>
-                   <li><h4 className="inline">Continuous Improvement </h4> :  Continuous Performance Management allows for regular, constructive feedback, facilitating timely course correction, motivation, and personal development.</li>
-                        <li><h4 className="inline">Data-Driven Decisions </h4> :  SuccessFactors PMGM aggregates performance data that can be analyzed to make informed decisions about talent management, workforce planning, and strategic initiatives.</li>
-                         <li><h4 className="inline">Employee Engagement </h4> : A transparent and fair performance process boosts employee morale and fosters a culture of recognition and growth.</li>
-                       
+            <div className="pl-3">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Goal Alignment </h4> : The tool aligns employee goals with organizational objectives, ensuring that everyone contributes toward shared goals. This alignment promotes a sense of purpose and enhances accountability.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Enhanced Transparency </h4> : With visibility into performance expectations and goals, employees understand what’s expected of them. Managers, in turn, gain a clear understanding of each team member’s progress.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Continuous Improvement </h4> :  Continuous Performance Management allows for regular, constructive feedback, facilitating timely course correction, motivation, and personal development.</li>
+                <li className="pb-4"><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Data-Driven Decisions </h4> :  SuccessFactors PMGM aggregates performance data that can be analyzed to make informed decisions about talent management, workforce planning, and strategic initiatives.</li>
+                <li ><h4 className="inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Employee Engagement </h4> : A transparent and fair performance process boosts employee morale and fosters a culture of recognition and growth.</li>
+
               </ul>
             </div>
 
             <div className="py-6"></div>
 
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Implement SAP SuccessFactors PMGM Effectively</h2>
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]   2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Implement SAP SuccessFactors PMGM Effectively</h2>
 
-            <p className="text-black pb-4">You need careful planning and strategic alignment with business objectives for the implementation of this solution.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">You need careful planning and strategic alignment with business objectives for the implementation of this solution.</p>
 
-            <h3 className="text-black pb-4 h3-bold">Define Clear Objectives and Metrics</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Define Clear Objectives and Metrics</h3>
 
-            <p className="text-black pb-4">Define specific objectives for your performance management program. Use measurable and objective KPIs to ensure that performance is quantifiable and transparent.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Define specific objectives for your performance management program. Use measurable and objective KPIs to ensure that performance is quantifiable and transparent.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Foster a Culture of Continuous Feedback</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Foster a Culture of Continuous Feedback</h3>
 
-            <p className="text-black pb-4 ">Promote a culture where managers and employees engage in continuous dialogue about performance and goals. CPM helps build trust, offers timely feedback, and addresses challenges early on.</p>
+            <p className="text-black pb-4  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Promote a culture where managers and employees engage in continuous dialogue about performance and goals. CPM helps build trust, offers timely feedback, and addresses challenges early on.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Customize Performance Templates</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Customize Performance Templates</h3>
 
-            <p className="text-black pb-4">Each organization has unique needs, so customize appraisal templates to capture relevant performance data and developmental needs that align with your company’s strategic objectives.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Each organization has unique needs, so customize appraisal templates to capture relevant performance data and developmental needs that align with your company’s strategic objectives.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Align Performance and Development</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Align Performance and Development</h3>
 
-            <p className="text-black pb-4">Integrate performance outcomes with learning and development plans. Use insights from performance appraisals to guide employee development and succession planning.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Integrate performance outcomes with learning and development plans. Use insights from performance appraisals to guide employee development and succession planning.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Encourage 360-Degree Feedback</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Encourage 360-Degree Feedback</h3>
 
-            <p className="text-black pb-4">360-degree feedback provides a holistic view of employee performance. This multidimensional approach helps identify strengths and areas of improvement that might not be captured in standard appraisals.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">360-degree feedback provides a holistic view of employee performance. This multidimensional approach helps identify strengths and areas of improvement that might not be captured in standard appraisals.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Emphasize Manager Training</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Emphasize Manager Training</h3>
 
-            <p className="text-black pb-4">Managers play a crucial role in the PMGM process. Train managers on how to set effective goals, provide constructive feedback, and conduct appraisals objectively to maintain consistency across the organization.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Managers play a crucial role in the PMGM process. Train managers on how to set effective goals, provide constructive feedback, and conduct appraisals objectively to maintain consistency across the organization.</p>
 
-            <h3 className="text-black pb-4 h3-bold ">Leverage Analytics for Continuous Improvement</h3>
+            <h3 className="text-black pb-2 h3-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Leverage Analytics for Continuous Improvement</h3>
 
-            <p className="text-black ">Use data and analytics from SAP SuccessFactors PMGM to monitor trends, identify skill gaps, and employ HR data management. Continuous data review enables organizations to optimize processes and adapt to evolving business needs.</p>
+            <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Use data and analytics from SAP SuccessFactors PMGM to monitor trends, identify skill gaps, and employ HR data management. Continuous data review enables organizations to optimize processes and adapt to evolving business needs.</p>
 
             <div className="py-6"></div>
 
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Empower Employees and Management to Visualise Progress</h2>
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]   2xl:text-[24px]  xl:text-[21px] text-[23px] leading-tight pb-4">Empower Employees and Management to Visualise Progress</h2>
 
-            <p className="text-black pb-4">SAP SuccessFactors is expected to incorporate advanced analytics, AI-driven insights, and even more personalized performance and goal management functionalities. Emerging trends like predictive analytics and artificial intelligence will offer proactive suggestions for goal setting, performance improvement, and personalized development plans.</p>
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">SAP SuccessFactors is expected to incorporate advanced analytics, AI-driven insights, and even more personalized performance and goal management functionalities. Emerging trends like predictive analytics and artificial intelligence will offer proactive suggestions for goal setting, performance improvement, and personalized development plans.</p>
 
-            <p className="text-black pb-4">SAP SuccessFactors PMGM goes beyond traditional performance reviews to foster a culture of growth, alignment, and high performance. By implementing best practices and focusing on continuous development, organizations can leverage this tool to maximize employee potential, align efforts with organizational goals, and drive business success. Are you ready to advance towards a new era of HR process enhancement? Our team has the functional expertise, technical skills, and real-world employee performance and goal management experience to lead you to success. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="">sales@rialtes.com</span></Link>  to get started with one of our <Link className=" text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"}><span className="">
+            <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">SAP SuccessFactors PMGM goes beyond traditional performance reviews to foster a culture of growth, alignment, and high performance. By implementing best practices and focusing on continuous development, organizations can leverage this tool to maximize employee potential, align efforts with organizational goals, and drive business success. Are you ready to advance towards a new era of HR process enhancement? Our team has the functional expertise, technical skills, and real-world employee performance and goal management experience to lead you to success. Contact us today at <Link className="underline" href={"mailto:sales@rialtes.com"}><span className="">sales@rialtes.com</span></Link>  to get started with one of our <Link className=" text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"}><span className="">
               expert SAP SuccessFactors consultants </span></Link>
             </p>
 
