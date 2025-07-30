@@ -69,7 +69,7 @@ const Footer = () => {
   return (
     <footer
       className={`${isCentered ? "flex" : ""
-        } text-[#ffffff] bg-cover bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] bg-[url("/images/homepage/footer-Bg.png")]`}
+        } text-[#ffffff] bg-cover bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] bg-[url("/images/homepage/footer-Bg.webp")]`}
     >
       <div className="flex flex-col md:flex-row border-b border-gray-300 justify-start md:justify-between gap-[41px] md:gap-10 pb-10 mt-4 w-full mx-auto">
 

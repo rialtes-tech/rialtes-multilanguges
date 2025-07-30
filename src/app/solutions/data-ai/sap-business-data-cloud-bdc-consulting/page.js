@@ -278,7 +278,7 @@ export default function Page() {
                 src="/images/sap-bdc-services/SAP-data-web.webp"
                 alt="Sap data fabric image"
                 width={0}
-                height={0}
+                height={0} 
                 priority
               />
             </div>

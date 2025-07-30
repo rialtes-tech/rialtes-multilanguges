@@ -8,7 +8,7 @@ export default function Loading() {
                  <div className="absolute w-full h-full rounded-full border-4 border-t-transparent border-[#134874] animate-spin"></div>
         
                 <Image
-                    src="/images/rialtes-logo.jpg"
+                    src="/images/rialtes-logo.webp"
                     alt="rialtes-logo"
                     width={60}
                     height={60}
