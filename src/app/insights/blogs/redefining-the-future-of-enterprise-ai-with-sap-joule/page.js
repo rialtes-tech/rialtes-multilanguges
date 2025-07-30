@@ -189,13 +189,24 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]   overflow-hidden">
-        <Image
+        <div className="hidden md:block">
+          <Image
           src="/images/blog/sap-joule-ai.webp "
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
           style={{ objectFit: "cover", objectPosition: "20% 20%" }}
           priority
         />
+        </div>
+        <div className="block md:hidden ">
+          <Image
+          src="/images/blog/jcarosel.webp"
+          alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+          fill
+          style={{ objectFit: "cover", objectPosition: "20% 20%" }}
+          priority
+        />
+        </div>
       </section>
 
       <section
