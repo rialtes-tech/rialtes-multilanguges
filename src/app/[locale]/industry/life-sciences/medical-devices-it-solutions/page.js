@@ -98,9 +98,9 @@ export default function Page() {
     const t = useTranslations('medicalDevices')
     const locale = useLocale();
     const content = locale === 'es' ? esContent : enContent;
-    const { thoughLeadershipData, whyPartnerData,challenges, salesforceLifeData, sapData, keyAiData, benefitsofAi, patientData, integratedData, mobileData, remoteDeviceData, salesforceAgentData, realTimeData } = content.medicalDevices
+    const { thoughLeadershipData, whyPartnerData, challenges, salesforceLifeData, sapData, keyAiData, benefitsofAi, patientData, integratedData, mobileData, remoteDeviceData, salesforceAgentData, realTimeData } = content.medicalDevices
     const CriticalChallengesSection = () => {
-        
+
         return (
             <section className="sm:mt-[120px] mt-[100px]">
                 <div className="custom-container">
