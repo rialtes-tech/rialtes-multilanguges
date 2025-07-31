@@ -182,13 +182,24 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] overflow-hidden">
-        <Image
+       <div className="hidden md:block">
+         <Image
           src="/images/blog/successfactors-diversity-inclusion.webp "
           alt="SuccessFactors diversity and inclusion: colorful puzzle with gender & accessibility icons, highlighting SAP's DEI commitment"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority
         />
+       </div>
+       <div className="block md:hidden">
+         <Image
+          src="/images/blog/blog-9.webp "
+          alt="SuccessFactors diversity and inclusion: colorful puzzle with gender & accessibility icons, highlighting SAP's DEI commitment"
+          fill
+          style={{ objectFit: "cover", objectPosition: "40% 20%" }}
+          priority
+        />
+       </div>
       </section>
 
       <section

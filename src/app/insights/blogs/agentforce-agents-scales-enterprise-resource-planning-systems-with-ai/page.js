@@ -182,13 +182,26 @@ export default function Page() {
       />
 
       <section className="relative  h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
-        <Image
+      <div className="hidden md:block">
+          <Image
           src="/images/blog/agentforce-erp-scaling-ai.webp "
           alt="Futuristic robotic hand on a laptop representing AI’s role in revolutionizing ERP systems through Agentforce innovation."
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority
         />
+
+      </div>
+       <div className="md:hidden block">
+          <Image
+          src="/images/blog/blog-12.webp"
+          alt="Futuristic robotic hand on a laptop representing AI’s role in revolutionizing ERP systems through Agentforce innovation."
+          fill
+          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+          priority
+        />
+        
+      </div>
       </section>
 
       <section
