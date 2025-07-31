@@ -114,8 +114,8 @@ const schemaData = {
 export default function Page() {
    const t = useTranslations("realEstate");
       const locale = useLocale();
-      const homepageContent = locale === "es" ? esContent : enContent;
-      const {growLatestServices,latestServices,slides} = homepageContent.realEstate;
+      const realContent = locale === "es" ? esContent : enContent;
+      const {growLatestServices,latestServices,slides} = realContent.realEstate;
 
 
 const ServicesCard = ({ services }) => (

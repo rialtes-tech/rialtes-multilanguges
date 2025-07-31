@@ -3,6 +3,10 @@ import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import ContactForm from "../../components/contactform";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/aboutus.json';
+import esContent from '../../../../../messages/es/aboutus.json';
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -48,37 +52,14 @@ const schemaData = {
         }
     ]
 }
-const growLatestServices = [
-    {
-        id: 1,
-        image: "/images/culture/Equal Opportunity.webp",
-        title: "Equal Opportunity",
-        description1: "We are proud to be an equal opportunity employer, committed to fostering a diverse, inclusive, and respectful workplace.",
-        description2: "Our culture is built on fairness, inclusion, and meritocracy, empowering every team member to thrive. At Rialtes, diversity drives innovation and excellence."
-    },
-    {
-        id: 2,
-        image: "/images/culture/Welcome LGBTQ+.webp",
-        title: "Welcome LGBTQ+",
-        description1: "We are committed to creating a safe, inclusive, and supportive environment for LGBTQ+ individuals. We actively promote diversity, inclusion, and allyship, fostering a culture where everyone feels valued and empowered to be their authentic selves.",
-        description2: "At Rialtes, we stand for equality, acceptance, and belonging."
-    },
-    {
-        id: 3,
-        image: "/images/culture/Honor Veterans.webp",
-        title: "Honor Veterans",
-        description1: "Our inclusive workplace ensures that veterans feel welcomed, valued, and empowered to thrive in their professional journeys.",
-        description2: "   At Rialtes, we recognize the sacrifices of our veterans and are dedicated to helping them build successful futures."
-    },
-    {
-        id: 4,
-        image: "/images/culture/Women in Tech.webp",
-        title: "Women in Tech",
-        description1: "Through mentorship, equal opportunities, and leadership development, we ensure that women in tech thrive and drive innovation.",
-        description2: "At Rialtes, we believe diversity in technology leads to stronger, smarter solutions for the future."
-    },
-];
-const GrowServicesCard = ({ services }) => (
+
+export default function Page() {
+   const t = useTranslations('ourValue')
+    const locale = useLocale();
+    const ourValueContent = locale === "es" ? esContent : enContent;
+    const {growLatestServices,principleItems} = ourValueContent.ourValue;
+
+    const GrowServicesCard = ({ services }) => (
     <div className="w-full h-full">
         <div className="relative overflow-hidden">
             <Image
@@ -102,7 +83,7 @@ const GrowServicesCard = ({ services }) => (
 const GrowServices = () => {
     return (
         <div className="mx-auto text-black ">
-            <h2 className="pb-16 text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">Employee affinity groups</h2>
+            <h2 className="pb-16 text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">{t('employeeTitle')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                 {growLatestServices.map((services) => (
                     <GrowServicesCard key={services.id} services={services} />
@@ -111,28 +92,6 @@ const GrowServices = () => {
         </div>
     );
 };
-const principleItems = [
-    {
-        image: "/images/about-us/trust.svg",
-        alt: "Trust Icon",
-        label: "Trust",
-        className: "xl:w-[132px] w-[119px]",
-    },
-    {
-        image: "/images/about-us/transperancy.svg",
-        alt: "Transparency Icon",
-        label: "Transparency",
-        className: "xl:w-[150px] w-[119px]",
-    },
-    {
-        image: "/images/about-us/commitment.svg",
-        alt: "Commitment Icon",
-        label: "Commitment",
-        className: "xl:w-[150px] w-[124px]",
-    },
-];
-
-export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -174,10 +133,10 @@ export default function Page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white ">
                             <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] ] font-bold sm:text-[#01335B] max-sm:text-[#02182A]">
-                                Culture and Values
+                               {t('cultureTitle')}
                             </h3>
                             <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#02182A] "  >
-                                Building a growth<br /> mindset. Each day.
+                               {t('growthTitleOne')}<br />  {t('growthTitleTwo')}
                             </h2>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -189,8 +148,8 @@ export default function Page() {
             <section className="xl:py-16 py-10">
                 <div className="custom-container">
                     <div className=" mx-auto">
-                        <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]">Our Value System.</h1>
-                        <p className="mt-3 4xl:text-[35px] xl:text-[28px] text-[20px] ">Every day, every one of us work with our core values.</p>
+                        <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]"> {t('valueTitle')}</h1>
+                        <p className="mt-3 4xl:text-[35px] xl:text-[28px] text-[20px] "> {t('valueSubtitle')}</p>
                         <div className="flex flex-col md:flex-row mb-8 mt-16 lg:gap-52 gap-10 md:gap-28">
                             {principleItems.map((item, index) => (
                                 <div key={index} className="grid">
@@ -244,7 +203,7 @@ export default function Page() {
                                 />
                             </div>
                             <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 xl:text-[45px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[5rem] 4xl:text-[55px] xl:mt-[30px] absolute">
-                                Business run on Trust, Grows on Transparency <br />ONLY if we deliver on <br />our commitments
+                                 {t('businessTitleOne')}<br /> {t('businessTitleTwo')}<br /> {t('businessTitleThree')}
                             </h2>
                         </div>
 
@@ -259,7 +218,7 @@ export default function Page() {
             </div>
             {/* Contact Form */}
             <div className="custom-container text-black pb-10">
-                <ContactForm title={'Ready to take the next step? Let’s kick off your journey to operational excellence'} className={"4xl:w-[65%] xl:w-[58%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
+                <ContactForm title= {t('contactUs')} className={"4xl:w-[65%] xl:w-[58%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
             </div>
         </div>
     );
