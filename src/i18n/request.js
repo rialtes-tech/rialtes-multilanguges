@@ -51,6 +51,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const homeHealth = (await import(`../../messages/${locale}/industry.json`)).default;
     const medicalDevices = (await import(`../../messages/${locale}/industry.json`)).default;
 
+
+    
     return {
         locale,
         messages: {
