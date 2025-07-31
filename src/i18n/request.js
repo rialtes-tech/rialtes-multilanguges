@@ -49,9 +49,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const healthCare = (await import(`../../messages/${locale}/industry.json`)).default;
     const pharmaBiotech = (await import(`../../messages/${locale}/industry.json`)).default;
     const homeHealth = (await import(`../../messages/${locale}/industry.json`)).default;
-
-
-
+    const nonProfit = (await import(`../../messages/${locale}/industry.json`)).default;
+    const medicalDevices = (await import(`../../messages/${locale}/industry.json`)).default;
 
     return {
         locale,
@@ -91,7 +90,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...lifeScience,
             ...healthCare,
             ...pharmaBiotech,
-            ...homeHealth
+            ...homeHealth,
+            ...nonProfit,
+            ...medicalDevices
         }
     };
 });
