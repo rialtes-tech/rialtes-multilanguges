@@ -2,10 +2,12 @@
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/industry.json';
+import esContent from '../../../../../messages/es/industry.json';
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -92,89 +94,12 @@ export default function Page() {
             }
         }
     }
-    const endToEndData = [
-        "Industry-specific advisory services to shape your digital roadmap.",
-        "Custom solution architecture and design for unique TTH needs.",
-        "Ready-to-use accelerators to fast-track deployment and reduce costs.",
-        "Robust quality assurance and testing to ensure flawless performance.",
-        "Agile implementation and integration using SAP, Salesforce, and MuleSoft.",
-        "Continuous optimization and innovation post-go-live to keep you competitive."
-    ]
-    const industryData = [
-        "Intelligent travel booking engines and reservation systems.",
-        "Dynamic pricing and yield management tools.",
-        "Property and guest experience management bolt-ons for hospitality.",
-        "Transportation & fleet management solutions.",
-        "Loyalty & rewards platform extensions for enhanced customer retention.",
-    ]
-    const optimizeData = [
-        "Real-time inventory visibility for rooms, flights, seats, and transport assets.",
-        "AI-powered demand forecasting to optimize pricing and availability.",
-        "Dynamic pricing based on real-time trends and demand.",
-        "Cross-channel inventory sync between direct and OTA bookings.",
-        "Integrated capacity management to prevent overbooking and missed opportunities.",
-    ]
-    const personalizedData = [
-        "Unified customer profiles for hyper-targeted campaigns.",
-        "AI-driven segmentation to create unique travel and guest experiences.",
-        "Multi-Channel Engagement: email, SMS, social, web, and mobile.",
-        "Dynamic personalization based on travel preferences and behaviors.",
-        "Automated pre-trip, in-trip, and post-trip journeys to keep customers engaged.",
-    ]
-    const rightTechData = [
-        "Rialtes guides you in choosing, designing, and integrating solutions that truly work for your business.",
-        "Combining SAP, Salesforce, Oracle, and MuleSoft for a 360-degree solution.",
-        "AI, Automation, and Self-Service tools to improve efficiency and delight customers.",
-        "Scalable, secure, and future-proof architectures designed for long-term growth.",
-    ]
-    const aiPoweredData = [
-        "AI chatbots and virtual assistants for 24/7 traveler and guest support.",
-        "Predictive maintenance for fleets and transport infrastructure.",
-        "AI-Driven demand forecasting for dynamic pricing and resource allocation.",
-        "Personalized travel and stay recommendations based on customer behavior.",
-        "AI-powered fraud prevention and risk management."
-    ]
-    const quickCommereceData = [
-        "Instant upgrades and cross-sell opportunities during booking.",
-        "Mobile-first experiences for check-in, concierge, and service requests.",
-        "Real-time pricing and availability to capture every opportunity.",
-        "Automated upsell and cross-sell at key touchpoints.",
-    ]
-    const smarterServiceData = [
-        "Agentforce AI-powered service bots for real-time issue resolution.",
-        "Personalized agent interactions using complete customer context.",
-        "Data Cloud unified traveler/guest profiles for personalized service.",
-        "Predictive customer support to address issues before they arise.",
-        "Streamlined case management for rapid resolutions."
-    ]
-    const elavateTravelData = [
-        "End-to-end travel booking and reservation management.",
-        "AI-Powered travel itinerary recommendations based on preferences.",
-        "Disruption and delay management solutions for proactive traveler engagement.",
-        "Integrated loyalty management and personalized rewards.",
-        "Mobile-first traveler experience apps for bookings, check-ins, and updates."
-    ]
-    const flawlessData = [
-        "SAP S/4HANA for finance, procurement, HR, and supply chain.",
-        "Oracle ERP and HCM for complete enterprise process management.",
-        "MuleSoft APIs for real-time connection between customer platforms and operational systems.",
-        "End-to-end workflows from booking to billing, operations to customer service.",
-        "Data synchronization to ensure consistency and accuracy."
-    ]
-    const futureReadyData = [
-        "Multi-level loyalty programs tailored for TTH customers.",
-        "AI-based customer recognition for personalized offers and experiences.",
-        "Seamless loyalty redemption and upsell opportunities.",
-        "Gamification strategies to boost engagement and retention.",
-        "Partner program integrations with airlines, hotels, and transport services."
-    ]
-    const turnSectionData = [
-        "Unified dashboards for customer insights, sales, and operations.",
-        "Real-time analytics for demand, capacity, and financial performance.",
-        "Predictive analytics to forecast trends and optimize pricing.",
-        "Tableau-powered visualizations for interactive and actionable insights.",
-        "Tableau-powered visualizations for interactive and actionable insights."
-    ]
+    const t = useTranslations('travelIndustry')
+    const locale = useLocale();
+    const content = locale === 'es' ? esContent : enContent;
+    const { endToEndData, industryData, optimizeData, personalizedData, rightTechData, aiPoweredData, quickCommereceData,
+        smarterServiceData, elavateTravelData, flawlessData, futureReadyData, turnSectionData
+    } = content.travelIndustry
     return (
         <section>
             <div className="min-h-screen bg-white">
@@ -216,10 +141,10 @@ export default function Page() {
                         <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                             <div className="col-span-12">
                                 <h3 className="text-[#000000] text-[18px] md:text-[24px] font-bold max-lg:w-[80%] md:w-[50%] lg:w-full">
-                                    Travel Transportation and Hospitality Industry
+                                    {t('headerTitle')}  
                                 </h3>
                                 <h1 className="text-[#00000] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[69%] max-[380px]:w-[85%]">
-                                    Powering the Next-Gen <br className="hidden md:block" /> Travel, Transportation & <br className="hidden md:block" /> Hospitality Experience
+                                    {t('headerSubTitle')}  
                                 </h1>
                             </div>
                             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -232,14 +157,14 @@ export default function Page() {
                     <div className="grid grid-cols-1 xl:grid-cols-12 w-full xl:gap-[47px] gap-y-[32px] md:w-[80%] xl:w-full">
                         <div className="xl:col-span-7 col-span-12">
                             <h2 className="xl:text-[54px] 2xl:text-[57px] leading-tight text-[26px] 2xl:w-[90%]">
-                                Elevating Customer Journeys, Modernizing Operations, and Unlocking New Revenue with AI, SAP, and Salesforce
+                                {t('pageDescTitle')}  
                             </h2>
                         </div>
                         <div className="xl:col-span-5 col-span-12">
                             <p className="xl:text-[22px] leading-tight text-[16px] font-normal">
-                                At Rialtes, we specialize in transforming the Travel, Transportation, and Hospitality (TTH) industry through future-ready solutions built on SAP, Salesforce, MuleSoft, and Oracle. From airlines to hotels, cruise lines to logistics providers, our domain expertise enable businesses to deliver unforgettable customer experiences.
+                                {t('pageDesc1')}    
                                 <br /> <br />
-                                With our global presence in the US, Canada, India, and Singapore, and as a certified partner of SAP and Salesforce, Rialtes offers seamless advisory, implementation, and post-go-live services, powered by pre-built accelerators tailored for the TTH industry.
+                                {t('pageDesc2')}    
                             </p>
                         </div>
 
@@ -251,9 +176,9 @@ export default function Page() {
                         <div className="grid grid-cols-1 md:grid-cols-12 w-full md:gap-[40px] gap-y-[34px] md:pt-[75px] pt-[40px]">
                             <div className="xl:col-span-7 md:col-span-6 col-span-12 text-[#FFFFFF] md:pl-[61px] md:order-1 order-2">
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight 2xl:w-[88%]">
-                                    Why Choose Rialtes for End-to-End Industry-Focused Transformation:
+                                    {t('endToEndTitle')}     
                                 </h2>
-                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[34px]">With Rialtes, you get a partner who understands the nuances of TTH and delivers measurable outcomes.</p>
+                                <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[48px] mt-[34px]">{t('endToEndDesc')}  </p>
                                 <UnorderedList arrName={endToEndData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                             </div>
                             <div className="xl:col-span-5 md:col-span-6 col-span-12 md:order-2 order-1">
@@ -303,10 +228,10 @@ export default function Page() {
                                 background: "#073259",
                             }}>
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight">
-                                    Launch Fast and Stay Ahead with Industry-Focused Accelerators:
+                                    {t('industryFocusedTitle')}      
                                 </h2>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
-                                    Our purpose-built accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers, and are designed for Travel, Transportation, and Hospitality cover:
+                                    {t('industryFocusedDesc')}  
                                 </p>
                                 <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
@@ -339,10 +264,10 @@ export default function Page() {
                                         />
                                         <div className="relative z-10 h-full flex flex-col justify-center px-[26px] xl:px-[61px] overflow-y-auto">
                                             <h2 className="text-[26px] 2xl:text-[60px] xl:text-[52px] leading-tight">
-                                                Launch Fast and Stay Ahead with Industry-Focused Accelerators:
+                                                {t('industryFocusedTitle')}   
                                             </h2>
                                             <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
-                                                Our purpose-built accelerators reduce time-to-market and ensure fast realization of value, so you can focus on your customers, and are designed for Travel, Transportation, and Hospitality cover:
+                                                {t('industryFocusedDesc')}   
                                             </p>
                                             <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                         </div>
@@ -361,13 +286,13 @@ export default function Page() {
                         <div className="lg:col-span-5 col-span-12 lg:order-1 order-2">
                             <div className="bg-[#006FBE] text-[white] lg:py-[55px] lg:px-[64px] lg:w-[500px] xl:w-[600px] 3xl:w-[800px] 2xl:w-[700px] max-lg:px-[36px] pb-[42px] pt-[150px] lg:z-20 relative">
                                 <h2 className="text-[26px] xl:text-[54px] 2xl:text-[60px] leading-tight">
-                                    Elevate the Travel Experience
+                                    {t('elevateTitle')}    
                                 </h2>
                                 <h3 className="text-[22px] xl:text-[36px] leading-tight font-semibold xl:mt-[37px] mt-[14px]">
-                                    Tailored Solutions for Travel Industry Leaders
+                                    {t('elevateSubTitle')}  
                                 </h3>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[26px]  md:w-[70%] lg:w-[90%]">
-                                    With Rialtes, every journey becomes a brand-defining moment, empowering travel businesses to create seamless, hyper-personalized experiences:
+                                    {t('elevateDesc')}   
                                 </p>
                                 <UnorderedList arrName={elavateTravelData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[26px] pl-[20px] md:w-[90%] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                             </div>
@@ -431,9 +356,9 @@ export default function Page() {
                             <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[80px] xl:gap-[40px]">
                                 <div>
                                     <h2 className="text-[26px] 2xl:text-[60px] xl:text-[50px] leading-tight">
-                                        Personalized Engagement with Salesforce Marketing Cloud + Travel & Hospitality Cloud
+                                        {t('personalizedTitle')}    
                                     </h2>
-                                    <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[53px] mt-[26px] xl:w-[90%]">Unlock deeper connections and drive repeat business through intelligent marketing:</p>
+                                    <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[53px] mt-[26px] xl:w-[90%]">{t('personalizedDesc')}</p>
                                 </div>
                                 <div>
                                     <UnorderedList arrName={personalizedData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc md:mt-[0px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
@@ -446,7 +371,7 @@ export default function Page() {
                     </div>
                 </section>
                 {/* optimize section */}
-                <section className="relative xl:mt-[114px] mt-[79px]  max-md:px-0">
+                <section className="relative xl:mt-[114px] mt-[79px] max-md:px-0">
                     <div className="custom-container max-md:px-0">
                         {/* Mobile Background */}
                         <div className="block md:hidden w-full h-full">
@@ -476,15 +401,15 @@ export default function Page() {
                         <div className="custom-container max-md:px-0">
                             <div className="grid md:grid-cols-12 grid-cols-1 text-[#FFFFFF]">
                                 <div className="md:col-span-6 col-span-12"></div>
-                                <div className="md:col-span-6 col-span-12  max-md:bg-[#5DA8D3]  max-md:pt-[31px]  max-md:pb-[68px] max-md:px-[36px]">
+                                <div className="md:col-span-6 col-span-12  max-md:bg-[#5DA8D3] max-md:pt-[31px] max-md:pb-[68px] max-md:px-[36px]">
                                     <h2 className="text-[26px] xl:text-[54px] leading-tight">
-                                        Optimize Every Asset
+                                        {t('optimizeTitle')}  
                                     </h2>
                                     <h3 className="text-[22px] xl:text-[42px] leading-tight font-semibold xl:mt-[46px] mt-[26px]">
-                                        Real-Time Inventory and Capacity Management with Data Cloud
+                                        {t('optimizeSubTitle')}   
                                     </h3>
                                     <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[37px] mt-[14px]">
-                                        Maximize utilization, reduce wastage, and increase revenue:
+                                        {t('optimizeDesc')}   
                                     </p>
                                     <UnorderedList arrName={optimizeData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 </div>
@@ -501,13 +426,13 @@ export default function Page() {
                         <div className="grid md:col-span-6 lg:col-span-8 custom-container md:pr-0 md:pt-[78px] pt-[44px] bg-[#EBEBEB] md:order-1 order-2">
                             <div className="md:pr-[40px]">
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight w-full">
-                                    Driving Repeat Business
+                                    {t('drivingTitle')}  
                                 </h2>
                                 <h3 className="text-[22px] xl:text-[42px] leading-tight font-semibold xl:mt-[18px] mt-[22px]">
-                                    Future-Ready Loyalty Management Solutions
+                                    {t('drivingSubTitle')}   
                                 </h3>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[40px] mt-[20px] 2xl:w-[80%]">
-                                    Keep your guests and travelers coming back for more by building emotional loyalty, not just transactional.
+                                    {t('drivingDesc')}   
                                 </p>
                                 <UnorderedList arrName={futureReadyData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                                 <div className="mt-[44px]">
@@ -547,7 +472,7 @@ export default function Page() {
                 {/* flawless backend section  */}
                 <section className="custom-container xl:mt-[75px] mt-[60px] lg:pr-0 max-md:px-0">
                     <div className="bg-[#073259] custom-container md:pl-0">
-                        <div className="grid md:grid-cols-12 grid-cols-1 lg:gap-[65px] md:gap-[40px]  gap-y-[30px] md:pt-[94px] md:pb-[103px] pb-[55px]">
+                        <div className="grid md:grid-cols-12 grid-cols-1 lg:gap-[65px] md:gap-[40px] gap-y-[30px] md:pt-[94px] md:pb-[103px] pb-[55px]">
                             <div className="md:col-span-6 col-span-12">
                                 {/* Mobile img */}
                                 <div className="block md:hidden w-full h-full">
@@ -576,13 +501,13 @@ export default function Page() {
                             </div>
                             <div className="text-[#ffffff] md:col-span-6 col-span-12">
                                 <h2 className="text-[26px] xl:text-[54px] leading-tight">
-                                    Flawless Back-End Connectivity
+                                    {t('flawlessTitle')}   
                                 </h2>
                                 <h3 className="text-[22px] xl:text-[42px] leading-tight font-semibold xl:mt-[29px] mt-[20px]">
-                                    SAP, Oracle, MuleSoft Integration
+                                    {t('flawlessSubTitle')}   
                                 </h3>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[29px] mt-[26px]">
-                                    Integrate your front-end experience with robust back-end operations:
+                                    {t('flawlessDesc')}   
                                 </p>
                                 <UnorderedList arrName={flawlessData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[29px] mt-[32px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                             </div>
@@ -597,17 +522,17 @@ export default function Page() {
                             <div className="absolute inset-0 bg-[#363636] mix-blend-multiply z-0"></div>
                             <div className="relative z-10 text-white xl:pt-[49px] xl:pb-[77px] xl:px-[77px] pt-[55px] pb-[51px] px-[36px]">
                                 <h2 className="text-[26px] xl:text-[54px] leading-tight">
-                                    Turn Data into Action
+                                    {t('turnDataTitle')}  
                                 </h2>
                                 <h3 className="text-[22px] xl:text-[42px] leading-tight font-semibold xl:mt-[32px] mt-[23px]">
-                                    Data Visualization with Tableau and Data Cloud
+                                    {t('turnDataSubTitle')}  
                                 </h3>
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[32px] mt-[23px]">
-                                    Enable data-driven leadership and operational excellence:
+                                    {t('turnDataDesc1')}   
                                 </p>
                                 <UnorderedList arrName={turnSectionData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[29px] mt-[32px] pl-[20px] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 <p className="text-[16px] xl:text-[20px] leading-tight font-normal xl:mt-[63px] mt-[32px] md:ml-[10px]">
-                                    Let data lead the way to better decisions.
+                                    {t('turnDataDesc2')}  
                                 </p>
                             </div>
                         </div>
@@ -643,12 +568,12 @@ export default function Page() {
                             <div className="grid lg:grid-cols-2 grid-cols-1 lg:py-[77px] pt-[38px] pb-[55px] lg:gap-[80px] xl:gap-[40px]">
                                 <div>
                                     <h2 className="text-[26px] lg:text-[36px] xl:text-[60px] leading-tight lg:mt-[20px] xl:mt-0">
-                                        Why the Right Technology Partner Makes All the Difference
+                                        {t('whyRightTitle')}   
                                     </h2>
                                 </div>
                                 <div>
                                     <p className="text-[16px] xl:text-[20px] leading-tight font-normal lg:mt-0 mt-[17px]">
-                                        Choosing the right solution isn’t just about software, it’s about business outcomes:
+                                        {t('whyRightDesc')}   
                                     </p>
                                     <UnorderedList arrName={rightTechData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 </div>
@@ -661,13 +586,13 @@ export default function Page() {
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-[20px] xl:gap-[40px] md:gap-[60px] gap-y-[44px]">
                         <div className="md:order-1 order-2 max-md:px-[36px] 2xl:col-span-6 md:col-span-6  lg:col-span-7 col-span-12 lg:pt-[20px] xl:pt-0">
                             <h2 className="xl:text-[60px] text-[26px] leading-[32px] xl:leading-[73px]">
-                                AI-Powered Transformation
+                                {t('aiPoweredTitle')}  
                             </h2>
                             <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-[34px] mt-[26px] leading-[27px] xl:leading-[52px] w-full">
-                                How AI is Revolutionizing TTH
+                                {t('aiPoweredSubTitle')}   
                             </h3>
                             <p className=" xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[42px] mt-[20px]">
-                                Rialtes helps you adopt AI in ways that matter to your customers and your bottom line.
+                                {t('aiPoweredDesc')}   
                             </p>
                             <UnorderedList arrName={aiPoweredData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                         </div>
@@ -706,13 +631,13 @@ export default function Page() {
                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px] xl:gap-[60px] lg:gap-[60px] gap-y-[44px]">
                         <div className="order-2 max-lg:px-[36px] lg:col-span-5 col-span-12 lg:pt-[20px] xl:pt-0">
                             <h2 className="2xl:text-[60px] xl:text-[54px] text-[26px] leading-[32px] xl:leading-[73px]">
-                                Quick Commerce & Instant Experiences
+                                {t('quickCommerceTitle')}  
                             </h2>
                             <h3 className="xl:text-[42px] text-[22px] font-semibold xl:mt-[34px] mt-[26px] leading-[27px] xl:leading-[52px] w-full">
-                                Real-Time Travel and Hospitality with SAP & Salesforce
+                                {t('quickCommerceSubTitle')}  
                             </h3>
                             <p className=" xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[42px] mt-[20px]">
-                                Partner with Rialtes to offer experiences as fast and personalized as your customers expect.SAP and Salesforce enabling real-time bookings and confirmations.
+                                {t('quickCommerceDesc')}  
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[36px]">
@@ -748,18 +673,18 @@ export default function Page() {
                 {/* smarter service section */}
                 <section className="md:pt-[98px] md:mt-0 mt-[67px] custom-container max-md:px-0 bg-[#F5F5F5]">
                     <h2 className="2xl:text-[60px] xl:text-[56px] text-[26px] md:block hidden leading-tight">
-                        Smarter Service & Support
+                        {t('smarterTitle')}  
                     </h2>
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-[20px] xl:mt-[48px] xl:gap-[40px] 2xl:gap-[80px] md:gap-[60px] gap-y-[44px]">
                         <div className="md:order-1 order-2 max-md:px-[36px] 2xl:col-span-5 lg:col-span-7 md:col-span-6 col-span-12 md:pt-[20px] xl:pt-0">
                             <h2 className="xl:text-[60px] text-[26px] md:hidden leading-tight font-normal">
-                                Smarter Service & Support
+                                {t('smarterTitle')}   
                             </h2>
                             <h3 className="xl:text-[42px] text-[22px] font-semibold md:mt-0 mt-[26px] leading-[27px] xl:leading-[52px] w-full">
-                                Agentforce and Data Cloud in TTH
+                                {t('smarterSubTitle')}   
                             </h3>
                             <p className="xl:text-[22px] text-[16px] leading-[19px] xl:leading-[30px] font-normal xl:mt-[34px] mt-[23px]">
-                                Deliver service that makes every customer feel valued and understood.
+                                {t('smarterDesc')}   
                             </p>
                             <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                             <div className="xl:mt-[36px] mt-[36px]">
@@ -795,7 +720,7 @@ export default function Page() {
                 </section>
                 {/* Contact Form */}
                 <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
-                    <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider, Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
+                    <ContactForm title={t('contactTitle')}  subtitle={t('contactSubTitle')}  subtitle1={t('contactSubTitle2')}  className={"xl:w-[80%]"} />
                 </section>
             </div>
         </section>
