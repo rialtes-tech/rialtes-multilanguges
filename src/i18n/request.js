@@ -55,6 +55,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const travelIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
     const retailIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
 
+    
 
     return {
         locale,
@@ -96,13 +97,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...pharmaBiotech,
             ...homeHealth,
             ...medicalDevices,
-<<<<<<< Updated upstream
-            ...contactUs
-=======
+            ...contactUs,
             ...automativeIndustry,
             ...travelIndustry,
             ...retailIndustry
->>>>>>> Stashed changes
         }
     };
 });
