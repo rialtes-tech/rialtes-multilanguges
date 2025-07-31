@@ -6,6 +6,8 @@ import Header from "./components/header";
 import "./globals.css";
 import Head from "next/head";
 import Loader from "./Loader";
+import CookieConsentBanner from "./components/cookieConsentBanner";
+import CookieConsentWrapper from "./components/cookieConsentWrapper";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
@@ -86,6 +88,7 @@ export default function RootLayout({ children }) {
           </header>
           <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
             {children}
+             <CookieConsentWrapper />
           </main>
           <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
             <Footer />

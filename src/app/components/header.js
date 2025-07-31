@@ -447,7 +447,7 @@ const Header = () => {
             />
             <MenuItem
               label="Contact Us"
-              link="/contact-us"
+              link="/"
               className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
               isActive={activeCard === 7}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"

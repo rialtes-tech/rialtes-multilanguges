@@ -5,9 +5,9 @@ import { useState } from 'react';
 import BlogsCarousel from '../../components/latestBlogCarousel';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
-import Seo from "@/app/components/Seo";
 import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
+import Seo from "@/app/components/Seo";
 
 const schemaData = {
 

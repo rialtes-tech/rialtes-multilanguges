@@ -159,7 +159,7 @@ export default function Page() {
         className="
        custom-container"
       >
-        <div className="py-10 bg-white max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
+        <div className="py-10 bg-white max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
           <div className=" ">
             <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className="sm:mb-0 mb-6">
@@ -229,7 +229,7 @@ export default function Page() {
 
           <div className=" ">
             <div className="">
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]  text-[16px]">
                 Salesforce has once again raised the bar in AI-driven business
                 solutions with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/in/news/press-releases/2025/03/04/agentexchange-announcement/" target="_blank">launch of AgentExchange</Link> , a dedicated
                 marketplace and community for agentic AI solutions built on its
@@ -239,7 +239,7 @@ export default function Page() {
                 seamlessly discover, deploy, and monetize AI agents.
               </p>
 
-              <p className="text-black  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black  4xl:text-[20px]  text-[16px] 2xl:text-[18px] xl:text-[17px]">
                 AgentExchange boasted over 200 partners, including Google Cloud,
                 Box, DocuSign, and leading consulting firms, signaling a major
                 shift in AI adoption. While Salesforce presents it as a
@@ -254,7 +254,7 @@ export default function Page() {
                 Understanding AgentExchange by Salesforce
               </h2>
 
-              <p className="text-black pb-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black pb-4  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 When Salesforce launched AppExchange in 2005, it enabled
                 customers to gain more value from the platform through prebuilt
                 apps and integrations. It also allowed partners to thrive in the
@@ -264,7 +264,7 @@ export default function Page() {
                 Salesforce.
               </p>
 
-              <p className="text-black pb-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black pb-4  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 AgentExchange is an ecosystem where organizations, developers,
                 and AI practitioners can discover, deploy, and customize AI
                 agents built on Agentforce. It enhances agent productivity by
@@ -273,9 +273,9 @@ export default function Page() {
               </p>
 
               <div className="pl-6">
-                <ol className="list-decimal  marker:text-xl text-black md:text-[20px] text-[16px] font-medium space-y-3   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                <ol className="list-decimal  marker:text-xl text-black  text-[16px] font-medium space-y-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    <h3 className="h3-bold inline  text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                       Pre-built AI Agents
                     </h3>
                     : Access a diverse
@@ -283,19 +283,19 @@ export default function Page() {
                     business functions.
                   </li>
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
+                    <h3 className="h3-bold inline  text-[16px]    4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
                       Customization & Development Tools
                     </h3>
                     : Leverage powerful tools to fine-tune AI agents to meet
                     specific enterprise needs.
                   </li>
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Community Collaboration</h3>: Connect with
+                    <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Community Collaboration</h3>: Connect with
                     industry experts, developers, and fellow users to share best
                     practices and insights.
                   </li>
                   <li>
-                    <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Trusted Marketplace</h3>:
+                    <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Trusted Marketplace</h3>:
                     Browse and integrate
                     AI agents verified for security, compliance, and scalability.
                   </li>
@@ -309,7 +309,7 @@ export default function Page() {
                 What Led to a Dedicated Marketplace?
               </h2>
 
-              <p className="text-black pb-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black pb-4  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 As businesses increasingly integrate AI-driven agents into their
                 customer service, sales, and operational workflows, the demand
                 for a structured, reliable ecosystem has grown. With
@@ -317,19 +317,19 @@ export default function Page() {
                 organizations.
               </p>
 
-              <ol className=" text-black md:text-[20px] text-[16px] font-medium space-y-3 list-none   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <ol className=" text-black  text-[16px] font-medium space-y-3 list-none   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 <li>
-                  <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Accelerate AI Adoption</h3>: Businesses can rapidly
+                  <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Accelerate AI Adoption</h3>: Businesses can rapidly
                   implement AI agents without extensive development efforts.
                 </li>
                 <li>
-                  <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Ensure Compliance & Security</h3>:
+                  <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Ensure Compliance & Security</h3>:
                   All agents
                   available on AgentExchange undergo rigorous security
                   assessments, ensuring compliance with industry standards.
                 </li>
                 <li>
-                  <h3 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Promote Innovation</h3>:
+                  <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Promote Innovation</h3>:
                   Developers and businesses
                   can contribute and commercialize AI agents, fostering a thriving
                   AI ecosystem.
@@ -344,11 +344,11 @@ export default function Page() {
                 Explore All New Features That Come with AgentExchange{" "}
               </h2>
 
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <h3 className="pb-4 mt-6 h3-bold  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Introducing New Partner-Built Components on AgentExchange
               </h3>
 
-              <p className="text-black pb-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black pb-4  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
                   Salesforce partners</Link> and Agentblazers can now enhance
                 Agentforce-powered AI solutions with four key agentic
@@ -357,9 +357,9 @@ export default function Page() {
 
               <div className="pl-6">
 
-                <ol className="list-decimal   marker:text-xl text-black md:text-[20px] text-[16px] font-medium space-y-3   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                <ol className="list-decimal   marker:text-xl text-black  text-[16px] font-medium space-y-3   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    <h4 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                       Actions
                     </h4>
                     : Extend what agents can do by
@@ -367,7 +367,7 @@ export default function Page() {
                     industry-specific automation.
                   </li>
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    <h4 className="h3-bold inline  text-[16px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                       Prompt Template
                     </h4>
                     : Leverage pre-written,
@@ -375,12 +375,12 @@ export default function Page() {
                     engagement, and streamline information gathering.
                   </li>
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Topics</h4>: Group-related actions and
+                    <h4 className="h3-bold inline  text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Topics</h4>: Group-related actions and
                     instructions to refine agent behavior, ensuring focus,
                     consistency, and adherence to best practices.
                   </li>
                   <li>
-                    <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Agent Templates</h4>:
+                    <h4 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Agent Templates</h4>:
                     Build comprehensive AI
                     solutions by combining multiple topics, actions, and metadata
                     into structured, scalable agent models.
@@ -389,19 +389,19 @@ export default function Page() {
 
 
               </div>
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <h3 className="pb-4 mt-6 h3-bold  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Seamless AI Solution Discovery and Deployment
               </h3>
 
-              <ol className="  text-black md:text-[20px] text-[16px] font-medium space-y-3 list-none  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <ol className="  text-black text-[16px] font-medium space-y-3 list-none  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 <li>
-                  <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Easily Find, Try, and Buy AI Solutions</h4>: AgentExchange simplifies the discovery and deployment of trusted
+                  <h4 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Easily Find, Try, and Buy AI Solutions</h4>: AgentExchange simplifies the discovery and deployment of trusted
                   AI solutions. Customers can explore offerings through the
                   marketplace or within Salesforce’s Agent Builder tool, ensuring
                   the right fit for their industry and use case.
                 </li>
                 <li>
-                  <h4 className="h3-bold inline md:text-[20px] text-[18px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]" >Pre-Built CRM and Slack Actions</h4>:
+                  <h4 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]" >Pre-Built CRM and Slack Actions</h4>:
                   Partners can
                   now offer out-of-the-box Agentforce actions, including Slack
                   capabilities. These pre-packaged solutions support tasks like
@@ -409,7 +409,7 @@ export default function Page() {
                   direct messaging, streamlining enterprise workflows.
                 </li>
                 <li>
-                  <h4 className="h3-bold inline md:text-[20px] text-[18px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Industry-Specific AI Solutions</h4>:
+                  <h4 className="h3-bold inline  text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Industry-Specific AI Solutions</h4>:
                   Businesses can
                   leverage pre-built, customizable AI agents from expert
                   Salesforce partners. Every solution undergoes rigorous security
@@ -422,11 +422,11 @@ export default function Page() {
 
 
 
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <h3 className="pb-4 mt-6 h3-bold  text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Fostering Collaboration and Innovation
               </h3>
 
-              <p className="text-black   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 AgentExchange is a thriving ecosystem where businesses,
                 partners, and Agentblazers collaborate, share best practices,
                 and drive the future of agentic AI together.
@@ -438,7 +438,7 @@ export default function Page() {
                 Industries and Departments That Can Benefit from AgentExchange
               </h2>
 
-              <p className="text-black   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]  ">
+              <p className="text-black  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]  ">
                 Sales teams can deploy AI-powered assistants to automate lead
                 qualification and streamline deal progression, while customer
                 service departments can leverage AI-driven support bots to
@@ -457,7 +457,7 @@ export default function Page() {
                 Availability and Adoption of AgentExchange
               </h2>
 
-              <p className="text-black pb-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black pb-4  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 The new marketplace is now available, with agent template
                 packaging and listing set to open in April 2025. Currently,
                 partners can list prompt templates and topics. Analysts believe
@@ -468,7 +468,7 @@ export default function Page() {
                 in 2025.
               </p>
 
-              <p className="text-black  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+              <p className="text-black  text-[16px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                 Rialtes helps companies to incorporate tailored <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic" target="_blank">Agentforce
                   agents into their ERP systems</Link>, streamlining operations and
                 enhancing workflows. By leveraging machine learning and natural
