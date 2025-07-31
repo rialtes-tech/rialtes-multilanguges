@@ -199,13 +199,24 @@ export default function Page() {
       />
 
       <section className="relative  h-[350px] md:h-[500px]  4xl:h-[650px] overflow-hidden">
-        <Image
+        <div className="hidden md:block">
+          <Image
           src="/images/blog/athenahealth-salesforce-integration.webp "
           alt="Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
           fill
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}
           priority
         />
+        </div>
+         <div className="block md:hidden">
+          <Image
+          src="/images/blog/blog-88.webp"
+          alt="Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
+          fill
+          style={{ objectFit: "cover", objectPosition: "90% 20%" }}
+          priority
+        />
+        </div>
       </section>
 
       <section className="custom-container">

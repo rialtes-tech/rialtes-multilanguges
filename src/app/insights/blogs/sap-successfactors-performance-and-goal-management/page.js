@@ -182,13 +182,24 @@ export default function Page() {
       />
 
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
-        <Image
+        <div className="hidden md:block">
+          <Image
           src="/images/blog/successfactors-performance-goals.webp "
           alt="SAP SuccessFactors Performance and Goal Management"
           fill
           priority
           style={{ objectFit: "cover", objectPosition: "90% 20%" }}
         />
+        </div>
+         <div className="block md:hidden">
+          <Image
+          src="/images/blog/blog-7.webp "
+          alt="SAP SuccessFactors Performance and Goal Management"
+          fill
+          priority
+          style={{ objectFit: "cover", objectPosition: "90% 20%" }}
+        />
+        </div>
       </section>
 
       <section

@@ -181,19 +181,30 @@ export default function Page() {
       />
 
       <section className="relative   h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
-        <Image
+      <div className="hidden md:block">
+          <Image
           src="/images/blog/successfactors-remote-work.webp"
           alt="Discover SAP SuccessFactors' role in remote work management, shown with hands on a laptop against a sleek blue backdrop."
           fill
           style={{ objectFit: "cover", objectPosition: "30% 20%" }}
           priority
         />
+      </div>
+       <div className="block md:hidden">
+          <Image
+          src="/images/blog/blog-13.webp"
+          alt="Discover SAP SuccessFactors' role in remote work management, shown with hands on a laptop against a sleek blue backdrop."
+          fill
+          style={{ objectFit: "cover", objectPosition: "30% 20%" }}
+          priority
+        />
+      </div>
       </section>
 
       <section
         className="custom-container"
       >
-        <div className="py-10 bg-white  4xl:w-[1100px] 2xl:w-[900px] xl:w-[800px] ">
+        <div className="py-10 bg-white  4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px] ">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>

@@ -180,13 +180,24 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]   overflow-hidden">
-        <Image
+       <div className="hidden md:block">
+         <Image
           src="/images/blog/successfactors-office365-integration.webp "
           alt="Discover SAP SuccessFactors and Office 365 integration benefits with vibrant intersecting dots on a sleek blue background."
           fill
           style={{ objectFit: "cover", objectPosition: "60% 20%" }}
           priority
         />
+       </div>
+       <div className="block md:hidden ">
+         <Image
+          src="/images/blog/blog-5.webp "
+          alt="Discover SAP SuccessFactors and Office 365 integration benefits with vibrant intersecting dots on a sleek blue background."
+          fill
+          style={{ objectFit: "cover", objectPosition: "60% 20%" }}
+          priority
+        />
+       </div>
       </section>
 
       <section

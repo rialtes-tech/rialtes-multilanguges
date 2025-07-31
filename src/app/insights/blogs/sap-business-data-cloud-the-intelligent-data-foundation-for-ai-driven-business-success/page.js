@@ -191,13 +191,24 @@ export default function Page() {
       />
 
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]   overflow-hidden">
-        <Image
+       <div className="hidden md:block">
+         <Image
           src="/images/blog/sap-business-data-cloud.webp"
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
           style={{ objectFit: "cover", objectPosition: "50% 20%" }}
           priority
         />
+       </div>
+       <div className="block md:hidden">
+         <Image
+          src="/images/blog/SAP Business cloud_Carousal.webp"
+          alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+          fill
+          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+          priority
+        />
+       </div>
       </section>
 
       <section
