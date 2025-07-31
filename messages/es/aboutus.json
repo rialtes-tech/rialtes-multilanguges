@@ -95,7 +95,7 @@
     ]
   },
  
-    "ourValue": {
+    "ourValueourTitle": {
     "growLatestServices": [
       {
         "id": 1,
@@ -184,5 +184,40 @@
     "certifiedDesc": "profesionales cada seis meses",
     "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
 
+  },
+
+   "globalAlliance": {
+    "headerTitle": "Nuestros Socios",
+    "headerSubTitle": "Alianzas Globales",
+    "ourTitle": "Nuestros Socios Estratégicos",
+    "ourDesc": "Rialtes se asoció con las empresas de software empresarial más innovadoras para ofrecerte soluciones de consultoría de TI personalizadas y basadas en datos que simplifican, habilitan y potencian la resolución de tus mayores desafíos empresariales.",
+    "approachTitle": "Nuestro Enfoque",
+    "keyTitle": "Alianzas Clave",
+    "regionalTitle": "Alianzas Regionales",
+    "allTitle": "Todas las Alianzas",
+
+    "approachData": [
+      {
+        "src": "/images/partners/our1.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Orquestación", "estratégica"]
+      },
+      {
+        "src": "/images/partners/our2.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Personalización", "centrada en el cliente"]
+      },
+      {
+        "src": "/images/partners/our3.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Soluciones", "específicas de la industria"]
+      },
+      {
+        "src": "/images/partners/our4.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Alianzas", "independientes del proveedor"]
+      }
+    ]
   }
 }
+

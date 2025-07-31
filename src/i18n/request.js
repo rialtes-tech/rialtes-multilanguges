@@ -18,6 +18,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const featuredCarousel = (await import(`../../messages/${locale}/homepage.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const contactUs = (await import(`../../messages/${locale}/homepage.json`)).default;
 
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
 
@@ -92,7 +93,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...healthCare,
             ...pharmaBiotech,
             ...homeHealth,
-            ...medicalDevices
+            ...medicalDevices,
+            ...contactUs
         }
     };
 });

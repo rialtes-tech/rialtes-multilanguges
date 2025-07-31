@@ -184,6 +184,38 @@
         "certifiedTitle": "500+ AI Certified",
         "certifiedDesc": "professionals every six months",
         "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
-         } 
+  },
+  "globalAlliance":{
+        "headerTitle": "Our Partners",
+        "headerSubTitle": "Global Alliances",
+        "ourTitle": "Our Strategic Partners",
+        "ourDesc": "Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.",
+        "approachTitle": "Our Approach",
+        "keyTitle": "Key Partnerships",
+        "regionalTitle": "Regional Partnerships",
+        "allTitle": "All Partnerships",
+        "approachData" :[
+        {
+            "src": "/images/partners/our1.png",
+            "alt": "Leadership Team",
+            "texts": ["Strategic", "orchestration"]
+        },
+        {
+            "src": "/images/partners/our2.png",
+            "alt": "Leadership Team",
+            "texts": ["Client-first", "customization"]
+        },
+        {
+            "src": "/images/partners/our3.png",
+            "alt": "Leadership Team",
+            "texts": ["Industry-specific", "solutions"]
+        },
+        {
+            "src": "/images/partners/our4.png",
+            "alt": "Leadership Team",
+            "texts": ["Vendor-agnostic", "partnerships"]
+        }
+    ]
+  }
 
 }

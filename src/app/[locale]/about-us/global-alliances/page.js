@@ -1,7 +1,15 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/aboutus.json';
+import esContent from '../../../../../messages/es/aboutus.json';
 export default function Contact() {
+    const t = useTranslations('globalAlliance')
+    const locale = useLocale();
+    const globalAllianceContent = locale === "es" ? esContent : enContent;
+    const {approachData} = globalAllianceContent.globalAlliance;
+    
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -71,28 +79,6 @@ export default function Contact() {
             }
         ]
     }
-    const approachData = [
-        {
-            src: "/images/partners/our1.png",
-            alt: "Leadership Team",
-            texts: ["Strategic", "orchestration"]
-        },
-        {
-            src: "/images/partners/our2.png",
-            alt: "Leadership Team",
-            texts: ["Client-first", "customization"]
-        },
-        {
-            src: "/images/partners/our3.png",
-            alt: "Leadership Team",
-            texts: ["Industry-specific", "solutions"]
-        },
-        {
-            src: "/images/partners/our4.png",
-            alt: "Leadership Team",
-            texts: ["Vendor-agnostic", "partnerships"]
-        }
-    ];
     const keyPartners = [
         { src: "/images/partners/Salesforce.webp", alt: "Salesforce" },
         { src: "/images/partners/SAP.png", alt: "SAP" },
@@ -164,7 +150,7 @@ export default function Contact() {
     const OurApproachSection = () => (
         <section>
             <div className="bg-[#EDEDED] lg:py-16 py-10">
-                <h2 className="custom-container 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight">Our Approach</h2>
+                <h2 className="custom-container 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight"> {t('approachTitle')}</h2>
                 <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 custom-container mt-12 lg:gap-[12%] gap-5">
                     {approachData.map((data, index) => (
                         <div key={index}>
@@ -191,19 +177,19 @@ export default function Contact() {
     );
     const KeyPartnerships = () => (
         <section className="custom-container mt-16 px-6">
-            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">Key Partnerships</h2>
+            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"> {t('keyTitle')}</h2>
             {renderImageSection(keyPartners)}
         </section>
     );
     const RegionalPartnerships = () => (
         <section className="custom-container px-6 mt-[90px] xl:mt-[140px]">
-            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">Regional Partnerships</h2>
+            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"> {t('regionalTitle')}</h2>
             {renderImageSection(regionalPartners)}
         </section>
     );
     const AllPartnerships = () => (
         <section className="custom-container px-6 mt-[90px] xl:mt-[140px]">
-            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">All Partnerships</h2>
+            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"> {t('allTitle')}</h2>
             {renderImageSection(allPartnerships)}
         </section>
     );
@@ -249,10 +235,10 @@ export default function Contact() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
                             <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
-                                Our Partners
+                                {t('headerTitle')}
                             </h1>
                             <h2 className="text-white xl:mt-2 mt-1 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">
-                                Global Alliances
+                                {t('headerSubTitle')}
                             </h2>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -264,10 +250,10 @@ export default function Contact() {
             <section className="custom-container">
                 <div className="grid lg:grid-cols-12 xl:grid-cols-12 mt-16 mb-16">
                     <div className="lg:col-span-6 xl:col-span-6">
-                        <h2 className="xl:w-[60%]  w-full 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight">Our Strategic Partners</h2>
+                        <h2 className="xl:w-[60%]  w-full 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight"> {t('ourTitle')}</h2>
                     </div>
                     <div className="lg:col-span-6 xl:col-span-6">
-                        <p className="mt-5 xl:w-[75%] w-full 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.</p>
+                        <p className="mt-5 xl:w-[75%] w-full 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight"> {t('ourDesc')}</p>
                     </div>
                 </div>
             </section>
