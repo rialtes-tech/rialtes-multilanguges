@@ -137,6 +137,7 @@
         "contactTitle": "Contáctanos"
     },
     "contactForm": {
+         "contactUsTitle": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa.",
         "message": "Mensaje*",
         "messageError1": "El mensaje es obligatorio.",
         "messageError2": "El mensaje debe tener al menos 10 caracteres.",
@@ -258,5 +259,55 @@
   }
 
 ]
- }
+ },
+      "contactUs": {
+    "headerTitle": "Nuestra presencia en todo el mundo",
+    "headerSubtitle": "¿Cómo podemos ayudarte?",
+    "headerDesc": "Contáctanos, nos encantaría saber de ti",
+    "usTitle": "ESTADOS UNIDOS",
+    "contactUsTitle": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa",
+    "locations": 
+   [
+  {
+    "country": "UNITED STATES",
+    "headquarter": "Austin (Headquarter)",
+    "address": "501 Congress Avenue, Suite 150,\nAustin, Texas, 78701\nE-mail: sales@rialtes.com"
+  },
+  {
+    "country": "INDIA",
+    "headquarter": "Pune (Headquarter)",
+    "address": "World Trade Center, 119, Tower-2,\n1st Floor, Kharadi, Pune - 411014,\nMaharashtra, India\nE-mail: sales@rialtes.com"
+  },
+  {
+    "country": "SINGAPORE",
+    "address": "30 Cecil Street #19-08 Prudential\nTower Singapore 049712\nE-mail: sales.sg@rialtes.com"
+  },
+  {
+    "country": "UNITED STATES",
+    "city": "California",
+    "address": "5251 California Ave,\nSuite 110, Irvine, California, 92617",
+    "addBorderBottom": true
+  },
+  {
+    "country": "INDIA",
+    "city": "Noida",
+    "address": "Berger Delhi One, Sector 16B,\nC-001/A2, Gautam Buddha\nNagar, Noida, UP 201301\nE-mail: sales@rialtes.com"
+  },
+  {
+    "country": "CANADA",
+    "address": "Suite 500, 1000 Innovation\nDr Kanata, ON K2K 3E7\nE-mail: sales.ca@rialtes.com"
+  },
+  {
+    "country": "INDIA",
+    "city": "Dehradun",
+    "address": "Dehradun IT Park, Weblan Unit A\n2nd Floor, Sahastradhara\nRoad, Dehradun\nUttarakhand - 248001\nE-mail: sales@rialtes.com"
+  },
+  {
+    "country": "INDIA",
+    "city": "Himachal Pradesh",
+    "address": "Unit #255, Block - B,\n2nd Floor, Motia Plaza, Baddi,\nDist. Solan, Himachal Pradesh 173205\nE-mail: sales@rialtes.com"
+  }
+]
+
+  }
 }

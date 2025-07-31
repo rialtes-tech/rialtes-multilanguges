@@ -103,7 +103,7 @@ export default function page() {
     const t = useTranslations('lifeScience')
     const locale = useLocale();
     const content = locale === 'es' ? esContent : enContent;
-    const {whyRialtesData,seamlessData ,thoughLeadershipData ,prebuiltData ,commonSectionData ,commonSectionData1} = content.lifeScience
+    const { whyRialtesData, seamlessData, thoughLeadershipData, prebuiltData, commonSectionData, commonSectionData1 } = content.lifeScience
     return (
         <section className="min-h-screen">
             <Seo
@@ -119,7 +119,7 @@ export default function page() {
             />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-                <div className="hidden md:block"> 
+                <div className="hidden md:block">
                     <Image
                         src="/images/industry/life-science/hero-desk-banner.webp"
                         alt="desktop banner"

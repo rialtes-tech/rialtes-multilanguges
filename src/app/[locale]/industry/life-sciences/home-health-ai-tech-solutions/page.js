@@ -1,12 +1,14 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import React from "react";
+import { useLocale, useTranslations } from 'next-intl';
+import enContent from '../../../../../../messages/en/industry.json';
+import esContent from '../../../../../../messages/es/industry.json';
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -92,159 +94,12 @@ export default function Page() {
             }
         }
     }
-    const addressingData = [
-        {
-            title: "Geographical Divide & Accessibility",
-            desc: "Patients in rural or remote areas face significant barriers to accessing timely medical care due to limited healthcare infrastructure and geographic isolation. Our team empowers home health providers with virtual care coordination tools, mobile-optimized apps, and real-time data access, so patients can receive continuous care without ever visiting a clinic.",
-            deskImg: "/images/home-health/geographical-desk.webp",
-            mobImg: "/images/home-health/Mobile/geographical-mob.webp"
-        },
-        {
-            title: "Pandemic & Infectious Disease Risk",
-            desc: "Physical consultations expose vulnerable patients to contagious diseases, especially during public health crises like COVID-19. We support the shift from clinic-based visits to remote consultations and monitoring, ensuring that patients receive care in a safe, controlled environment, at home. It is done by virtual appointments, remote diagnostics, and contactless care delivery via Salesforce.",
-            deskImg: "/images/home-health/pandemic-desk.webp",
-            mobImg: "/images/home-health/Mobile/pandemic-mob.webp"
-        },
-        {
-            title: "Lack of Real-Time Health Tracking",
-            desc: "Without real-time visibility into patient health, early warning signs are often missed, leading to preventable complications. Rialtes enables Remote Patient Monitoring (RPM) by integrating smart medical devices and wearables with Salesforce Health Cloud, ensuring healthcare providers receive live updates and alerts for timely intervention.",
-            deskImg: "/images/home-health/lack-desk.webp",
-            mobImg: "/images/home-health/Mobile/lack-mob.webp"
-        },
-        {
-            title: "Long Waiting Times",
-            desc: "Overburdened clinics lead to delayed care, missed follow-ups, and frustrated patients. With automated appointment scheduling, intelligent routing tools, and virtual care options, we help reduce patient backlog and facilitate on-demand consultations for home-bound patients.",
-            deskImg: "/images/home-health/long-desk.webp",
-            mobImg: "/images/home-health/Mobile/long-mob.webp"
-        },
-        {
-            title: "Limited Access to Mental Health Support",
-            desc: "Access to mental health services remains a challenge due to stigma, limited availability, and logistical barriers. Rialtes offers discreet, virtual access to behavioral health professionals, counseling sessions, and mood-tracking tools, all integrated within a secure and patient-friendly digital platform.",
-            deskImg: "/images/home-health/limited-desk.webp",
-            mobImg: "/images/home-health/Mobile/limited-mob.webp"
-        },
-    ]
-    const aiRovolutionizingData = [
-        {
-            title: "Predictive Health Monitoring",
-            desc: "AI algorithms analyze real-time data from wearable devices and remote monitoring tools to detect health anomalies before they become critical."
-        },
-        {
-            title: "Smart Care Planning",
-            desc: "AI assists in creating dynamic care plans based on patient history, behavior, and risk scores pulled from Salesforce Health Cloud and integrated EHR systems."
-        },
-        {
-            title: "Virtual Health Assistants",
-            desc: "Conversational AI and chatbots provide 24/7 support to patients, answering questions, scheduling appointments, and escalating urgent issues to clinicians."
-        },
-        {
-            title: "AI-Powered Diagnostics",
-            desc: "AI enhances decision support by interpreting remote test results, images, or symptom logs, helping clinicians diagnose conditions more accurately and quickly."
-        },
-        {
-            title: "Operational Automation",
-            desc: "From routing home health professionals efficiently to automating documentation, AI streamlines workflows and reduces overhead."
-        },
-    ]
-    const capabilitiesData = [
-        {
-            title: "Intelligent Appointment Scheduling for Home Visits & Virtual Care",
-            desc: "Efficient care starts with seamless scheduling. Rialtes empowers home health providers with automated appointment booking, real-time alerts, and telehealth-ready scheduling tools, all fully integrated into Salesforce Health Cloud.",
-            dataList: [
-                "Patients can book home visits or virtual consultations via a secure online portal",
-                "Real-time notifications reduce missed appointments and optimize caregiver routes",
-                "Centralized calendar view for care teams to manage schedules, follow-ups, and reassignments",
-            ]
-        },
-        {
-            title: "EHR Integration for Unified Home Health Records",
-            desc: "In home-based care, having access to accurate, up-to-date patient information is critical. Rialtes connects Electronic Health Records (EHR) with your Salesforce platform to create a 360-degree view of the patient journey, accessible to clinicians on the move.",
-            dataList: [
-                "Seamless, secure syncing of patient history, lab results, and care plans",
-                "Supports real-time updates from remote monitoring devices and in-home assessments",
-                "Enables personalized, data-driven decisions during each home visit",
-            ]
-        },
-        {
-            title: "Remote Patient Monitoring (RPM)",
-            desc: "",
-            dataList: [
-                "Real-time tracking of vitals and symptoms via wearable devices and connected apps",
-                "Automatic alerts for abnormal health patterns",
-                "Data-driven interventions for chronic condition management",
-            ]
-        },
-        {
-            title: "Virtual Care Coordination",
-            desc: "",
-            dataList: [
-                "Integrated care plans and tasks for clinicians, caregivers, and patients",
-                "Automated follow-up scheduling and medication reminders",
-                "Mobile-first dashboards for field nurses and home care staff",
-            ]
-        },
-        {
-            title: "Centralized Health Data with Salesforce Health Cloud",
-            desc: "",
-            dataList: [
-                "Unified patient profiles are accessible anytime, anywhere",
-                "Seamless integration with EHR/EMR systems and third-party apps",
-                "Role-based access for better data governance and security",
-            ]
-        },
-        {
-            title: "Enhanced Patient Engagement",
-            desc: "",
-            dataList: [
-                "Patient portals with two-way communication",
-                "Virtual waiting rooms and telehealth support",
-                "Personalized alerts and health education resources",
-            ]
-        },
-    ]
-    const agentChat = [
-        {
-            title: "Seamless Integration",
-            desc: "Initiate or respond to WhatsApp messages from any Salesforce record, including Health Cloud contacts, care plans, or service requests."
-        },
-        {
-            title: "Real-Time Sync",
-            desc: "Whether a conversation begins on WhatsApp or in Salesforce, messages are synchronized in real-time, ensuring no detail is ever missed."
-        }, {
-            title: "Unified Patient View",
-            desc: "Chat history becomes part of the patient’s medical profile in Salesforce, providing clinicians and care coordinators full context."
-        },
-    ]
-    const homeHealth = [
-        "Send appointment reminders and medication instructions",
-        "Share care plan updates with families",
-        "Coordinate with on-ground caregivers for urgent needs",
-        "Provide mental health check-ins and wellness tips",
-    ]
-    const relatedData = [
-        {
-            id: "1",
-            title: "Salesforce Service Cloud",
-            desc: "For superior patient and provider service workflows."
-        },
-        {
-            id: "2",
-            title: "Salesforce Experience (Community) Cloud",
-            desc: "To build patient, HCP, and partner-facing portals."
-        },
-        {
-            id: "3",
-            title: "Salesforce Agentforce for Health",
-            desc: "AI-driven case management and services optimization."
-        },
-        {
-            id: "4",
-            title: "Salesforce Data Cloud for Health",
-            desc: "Unified patient data to power next-gen personalization and analytics."
-        },
-    ]
+    const t = useTranslations('homeHealth')
+    const locale = useLocale();
+    const content = locale === 'es' ? esContent : enContent;
+    const { addressingData, aiRovolutionizingData, capabilitiesData, agentChat, homeHealth, relatedData } = content.homeHealth
     return (
-        <section className="min-h-screen bg-white">
+        <section className="min-h-screen">
             <Seo
                 title="AI-Powered Home Health Technology Solutions | Rialtes"
                 description="Rialtes offers home healthcare technology solutions powered by AI to support virtual, remote, and personalized patient care—anytime, anywhere."
@@ -282,9 +137,9 @@ export default function Page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full pt-[120px] md:pt-0">
                         <div className="col-span-12">
                             <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
-                                Home Health {" "}
+                                {t('headerTitle')}
                                 <div className="text-[#FFFFFF] text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-                                    Technology Solutions <div className="min-[330px]:block hidden" /> to Connect Patients <div className="min-[330px]:block hidden" /> with Their Providers
+                                    {t('headerSubTitle')}    <div className="min-[330px]:block hidden" />{t('headerSubTitle2')}  <div className="min-[330px]:block hidden" />{t('headerSubTitle3')}
                                 </div>
                             </h1>
                         </div>
@@ -298,24 +153,23 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[40px] gap-y-[28px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
                         <h2 className="4xl:text-[60px] xl:text-[45px] text-[26px] leading-tight md:w-[80%] xl:w-full">
-                            Empowering Healthcare access anytime from home with mobile apps
+                            {t('pageDescTitle')}
                         </h2>
                     </div>
                     <div className="lg:col-span-6 xl:col-span-5 col-span-12">
                         <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal mt-[6px] w-[90%] md:w-[80%] lg:w-full">
-                            The need for efficient and patient-centric care is greater than ever. Our home health services provide healthcare organizations with cutting-edge mobile and home health technology solutions for remote patient monitoring, virtual consultations, and personalized healthcare management.
+                            {t('pageDesc')}
                         </p>
                     </div>
                 </div>
             </div>
-
             {/* addressing section */}
             <section className="custom-container xl:mt-[166px] mt-[49px]">
                 <h2 className="4xl:text-[60px] xl:text-[45px] text-[26px] leading-tight lg:w-[60%] 4xl:w-[70%]">
-                    Addressing Roadblocks in Home Health Care
+                    {t('addressingTitle')}
                 </h2>
                 <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[39px] mt-[28px] w-[90%] lg:w-[65%] 4xl:w-[70%]">
-                    While home-based care offers a transformative opportunity for healthcare delivery, it must overcome several long-standing challenges. At Rialtes, we design next-gen Remote Monitoring and Home Health solutions on Salesforce Health Cloud to break down these barriers and deliver equitable, efficient, and empathetic care.
+                    {t('addressingDesc')}
                 </p>
                 {
                     addressingData.map((data, ind) => {
@@ -350,8 +204,8 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1">
                     <div className="lg:col-span-5 col-span-12 lg:my-[40px] max-md:mx-[36px] lg:mr-[-90px] max-md:mt-[-120px] relative z-20 lg:order-1 order-2">
                         <div className="bg-[#006FBE] text-[#ffffff] xl:pt-[69px] xl:pb-[96px] lg:pl-[63px] xl:pr-[20px] pt-[39px] pb-[70px] px-[26px]">
-                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] lg:w-[60%] xl:w-full">Global Expertise, Locally Delivered</h2>
-                            <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[94%] lg:w-[90%]">With certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA for Pharma, Rialtes brings together global innovation and local compliance. Operating across India, the United States, Canada, and Singapore, we ensure that your home health programs align with regional regulations while following global best practices in healthcare delivery and digital transformation.</p>
+                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] lg:w-[60%] xl:w-full">{t('globalTitle')}</h2>
+                            <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[94%] lg:w-[90%]">{t('globalSubTitle')}</p>
                             <div className="absolute xl:mt-[40px] mt-[20px]">
                                 <LearnMore />
                             </div>
@@ -368,11 +222,11 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 gap-y-[29px] xl:gap-[60px]">
                     <div className="xl:col-span-7 col-span-12">
                         <h2 className="4xl:text-[55px] xl:text-[40px] text-[26px] leading-tight">
-                            How AI is Revolutionizing Home Health
+                            {t('howAiTitle')}
                         </h2>
                     </div>
                     <div className="xl:col-span-5 col-span-12">
-                        <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal md:w-[80%] xl:w-full">Artificial Intelligence is redefining what’s possible in home-based care. By enabling predictive insights, personalized treatment, and real-time decision-making, AI empowers care teams to move from reactive to proactive care models, improving patient outcomes while reducing costs.</p>
+                        <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal md:w-[80%] xl:w-full">{t('howAiDesc')}</p>
                     </div>
                 </div>
                 <div className="xl:mt-[65px] mt-[39px]">
@@ -400,17 +254,17 @@ export default function Page() {
                     bg-[url('/images/home-health/Mobile/our-capabilities-mob.webp')]">
                 <div className="custom-container text-[#ffffff]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
-                        Our Capabilities
+                        {t('ourCapabTitle')}
                     </h2>
                     <div className="grid lg:grid-cols-12 grid-cols-1 xl:mt-[36px] mt-[17px] lg:gap-[60px] gap-y-[17px]">
                         <div className="lg:col-span-5 col-span-12">
                             <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] leading-tight">
-                                Smarter Home Health with Salesforce
+                                {t('ourCapabSubTitle')}
                             </h3>
                         </div>
                         <div className="lg:col-span-7 col-span-12">
                             <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal w-[90%] md:w-[70%] lg:w-full 4xl:w-[90%]">
-                                We integrate AI into every layer of your Salesforce-powered home health ecosystem, transforming your operations with intelligent automation and insight-driven care.
+                                {t('ourCapabDesc')}
                             </p>
                         </div>
                     </div>
@@ -446,13 +300,13 @@ export default function Page() {
                     </div>
                     <div>
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight lg:mt-[46px]">
-                            AgentChat
+                            {t('agentChatTitle')}
                         </h2>
                         <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] leading-tight xl:mt-[35px] mt-[17px] font-semibold w-[80%] md:w-full">
-                            Real-Time WhatsApp Integration for Home Health
+                            {t('agentChatSubTitle')}
                         </h3>
                         <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal w-[90%] lg:w-full xl:mt-[35px] mt-[24px]">
-                            In-home healthcare, communication is care. That’s why we have AgentChat—a powerful solution that instantly connects with patients and caregivers through WhatsApp, all within Salesforce. With AgentChat, your care teams can respond to patients, families, and field staff using the world’s most popular messaging app, while keeping every conversation tracked and accessible.
+                            {t('agentChatDesc')}
                         </p>
                     </div>
                 </div>
@@ -482,7 +336,7 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[19px] mt-[40px] xl:mt-[80px] items-stretch">
                     <div className="lg:col-span-3 col-span-12">
                         <h4 className="4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight w-[90%] lg:w-full">
-                            Designed for Home Health
+                            {t('agentChatSubTitle2')}
                         </h4>
                     </div>
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
@@ -499,7 +353,7 @@ export default function Page() {
             {/* related section */}
             <section className="custom-container xl:mt-[125px] mt-[44px]">
                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
-                    Related Solutions You Can Explore
+                    {t('relatedTitle')}
                 </h2>
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] xl:gap-x-0 gap-y-[40px] xl:mt-[83px] mt-[40px] sm:w-[80%] xl:w-full">
                     {
@@ -530,8 +384,9 @@ export default function Page() {
             </section>
             {/* Contact Form */}
             <section className="custom-container xl:mt-[130px] xl:mb-[130px] mt-[65px] mb-[48px]">
-                <ContactForm title={'Ready to Deliver Proactive, Connected, and Compassionate Care Directly to Patients?'} subtitle="Transform your patient care model with Rialtes’ Salesforce-powered home health solutions" className={"font-normal text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:w-[60%] 4xl:w-[80%]"} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"font-normal text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] xl:w-[60%] 4xl:w-[80%]"} />
             </section >
         </section>
     )
 }
+

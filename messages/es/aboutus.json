@@ -1,7 +1,223 @@
 {
-    "aboutus": {
-        "aboutusTitle": "xyz",
-        "beyondTitle": "Beyond Business: A Commitment to Change",
-        "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact"
-    }
+  "aboutUs": {
+    "aboutusTitle": "Sobre nosotros",
+    "aboutusSubtitle": "Forjando el verdadero propósito de la tecnología en la vida cotidiana.",
+    "aboutusSubtitleone": "Imaginando cómo la tarea más compleja puede simplificarse con IA, datos y tecnología.",
+    "worldTitle": "Las marcas más grandes del mundo trabajan con Rialtes para transformar sus procesos y automatizar sus negocios para aumentar el ROI.",
+    "overTitle": "Durante los últimos años, hemos construido nuestras relaciones con clientes, empleados y socios sobre principios fundamentales clave.",
+    "whatTitle": "Lo que hacemos",
+    "whatDesc": "En la intersección de la tecnología y los negocios, ofrecemos soluciones que impulsan la innovación, la agilidad y el crecimiento. Desde la automatización de procesos hasta la transformación empresarial, colaboramos con organizaciones para crear un impacto duradero.",
+    "welcomeTitle": "Bienvenido al futuro de los negocios inteligentes.",
+    "welcomeDesc": "Ya sea que estés explorando la adopción de IA, modernizando operaciones o reinventando experiencias del cliente, nuestro equipo está listo para guiarte con estrategias personalizadas y orientadas a resultados.",
+    "welcomeDescOne": "Conéctate con nosotros para acelerar tu camino hacia la transformación.",
+    "learnMore": "Saber más",
+    "ourTitle": "Nuestra cultura y valores",
+    "ourDesc": "Perseguir la perfección está en nuestro ADN.",
+    "latestServices": [
+      {
+        "id": 1,
+        "title": "Nuestros valores",
+        "description": "Impulsados por el éxito de nuestros clientes, ofrecemos alianzas de confianza, soluciones a medida e impacto medible.",
+        "url": "/about-us/our-values"
+      },
+      {
+        "id": 2,
+        "title": "Quiénes somos",
+        "description": "Enfocados en impulsar la adopción de la tecnología hoy para crear un impacto transformador y ventaja competitiva en el futuro",
+        "url": "/about-us/impact-and-social-responsibility"
+      },
+      {
+        "id": 3,
+        "title": "Nuestra misión",
+        "description": "Comprometidos con retribuir, empoderamos a las comunidades mediante la educación, la innovación y las iniciativas sociales de impacto",
+        "url": "/about-us/impact-and-social-responsibility"
+      }
+    ],
+    "brandStories": [
+      {
+        "image": "/images/about-us/lifescience.webp",
+        "alt": "Empresa de ciencias de la vida",
+        "description": "Lanzamiento de una solución integral centrada en el paciente para la mayor empresa europea de ciencias de la vida en Estados Unidos"
+      },
+      {
+        "image": "/images/about-us/singapore.webp",
+        "alt": "El empleador más grande de Singapur",
+        "description": "Capacitando al empleador más grande de Singapur para gestionar su negocio cada día"
+      },
+      {
+        "image": "/images/about-us/automotive.webp",
+        "alt": "El mayor fabricante de automóviles de la India",
+        "description": "Impulsando al mayor fabricante de automóviles de la India para expandirse en Norteamérica"
+      }
+    ],
+    "corePrinciples": [
+      {
+        "image": "/images/about-us/trust.svg",
+        "label": "Confianza",
+        "alt": "Ícono del principio de confianza",
+        "width": { "base": 135, "xl": 177 },
+        "height": { "base": 135, "xl": 177 }
+      },
+      {
+        "image": "/images/about-us/transperancy.svg",
+        "label": "Transparencia",
+        "alt": "Ícono del principio de transparencia",
+        "width": { "base": 150, "xl": 192 },
+        "height": { "base": 150, "xl": 192 }
+      },
+      {
+        "image": "/images/about-us/commitment.svg",
+        "label": "Compromiso",
+        "alt": "Ícono del principio de compromiso",
+        "width": { "base": 150, "xl": 192 },
+        "height": { "base": 150, "xl": 192 }
+      }
+    ],
+    "missionCards": [
+      {
+        "headingBold": "Simplificar",
+        "headingLight": "Empresas.",
+        "subheading": "Impulsa la eficiencia, acelera el crecimiento.",
+        "description": "Transformar la complejidad en claridad con soluciones inteligentes y escalables."
+      },
+      {
+        "headingBold": "Habilitar",
+        "headingLight": "Soluciones.",
+        "subheading": "Genera resultados reales.",
+        "description": "Ayudando a las empresas a innovar, transformarse y liderar con confianza."
+      },
+      {
+        "headingBold": "Empoderar",
+        "headingLight": "Clientes.",
+        "subheading": "Impulsa el negocio hacia adelante.",
+        "description": "Ofreciendo soluciones inteligentes que ponen a los clientes en el centro de tu negocio."
+      }
+    ]
+  },
+ 
+    "ourValueourTitle": {
+    "growLatestServices": [
+      {
+        "id": 1,
+        "image": "/images/culture/Equal Opportunity.webp",
+        "title": "Igualdad de oportunidades",
+        "description1": "Nos enorgullece ser un empleador que ofrece igualdad de oportunidades, comprometido a fomentar un entorno laboral diverso, inclusivo y respetuoso.",
+        "description2": "Nuestra cultura se basa en la equidad, la inclusión y la meritocracia, empoderando a cada miembro del equipo para prosperar. En Rialtes, la diversidad impulsa la innovación y la excelencia."
+      },
+      {
+        "id": 2,
+        "image": "/images/culture/Welcome LGBTQ+.webp",
+        "title": "Bienvenida a la comunidad LGBTQ+",
+        "description1": "Estamos comprometidos a crear un entorno seguro, inclusivo y de apoyo para las personas LGBTQ+. Promovemos activamente la diversidad, la inclusión y la alianza, fomentando una cultura donde todos se sientan valorados y empoderados para ser auténticos.",
+        "description2": "En Rialtes, defendemos la igualdad, la aceptación y el sentido de pertenencia."
+      },
+      {
+        "id": 3,
+        "image": "/images/culture/Honor Veterans.webp",
+        "title": "Honrar a los veteranos",
+        "description1": "Nuestro entorno de trabajo inclusivo garantiza que los veteranos se sientan bienvenidos, valorados y empoderados para prosperar en sus trayectorias profesionales.",
+        "description2": "En Rialtes, reconocemos los sacrificios de nuestros veteranos y estamos dedicados a ayudarlos a construir futuros exitosos."
+      },
+      {
+        "id": 4,
+        "image": "/images/culture/Women in Tech.webp",
+        "title": "Mujeres en tecnología",
+        "description1": "A través de la mentoría, la igualdad de oportunidades y el desarrollo del liderazgo, nos aseguramos de que las mujeres en tecnología prosperen e impulsen la innovación.",
+        "description2": "En Rialtes, creemos que la diversidad en tecnología genera soluciones más sólidas e inteligentes para el futuro."
+      }
+    ],
+    "principleItems": [
+      {
+        "image": "/images/about-us/trust.svg",
+        "alt": "Ícono de confianza",
+        "label": "Confianza",
+        "className": "xl:w-[132px] w-[119px]"
+      },
+      {
+        "image": "/images/about-us/transperancy.svg",
+        "alt": "Ícono de transparencia",
+        "label": "Transparencia",
+        "className": "xl:w-[150px] w-[119px]"
+      },
+      {
+        "image": "/images/about-us/commitment.svg",
+        "alt": "Ícono de compromiso",
+        "label": "Compromiso",
+        "className": "xl:w-[150px] w-[124px]"
+      }
+    ],
+    "cultureTitle": "Cultura y valores",
+    "growthTitleOne": "Fomentando una mentalidad",
+    "growthTitleTwo": "de crecimiento. Cada día.",
+    "valueTitle": "Nuestro sistema de valores.",
+    "valueSubtitle": "Cada día, todos trabajamos con nuestros valores fundamentales.",
+    "businessTitleOne": "Los negocios se basan en la confianza, crecen con transparencia",
+    "businessTitleTwo": "SOLO si cumplimos",
+    "businessTitleThree": "nuestros compromisos",
+    "employeeTitle": "Grupos de afinidad para empleados",
+    "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
+  },
+
+    "impact": {
+    "impactTitle": "Impacto social",
+    "impactSubtitle": "Sostenibilidad con",
+    "impactSubtitleOne": "IA responsable",
+    "rialtesTitle": "Rialtes ha estado empoderando a clientes de todo el mundo para confiar en la IA y fortalecer la filosofía de una IA responsable.",
+    "rialtesSubtitle": "Nos importa. Actuamos.",
+    "innovationTitle": "Fundación de Innovación de Rialtes",
+    "innovationDesc": "En la Fundación Rialtes, creemos en generar impacto más allá de los negocios.",
+    "innovationDescOne": "A través de nuestras iniciativas benéficas en India, nos enfocamos en elevar a comunidades desfavorecidas, apoyar la educación de niñas y ayudar a que los niños necesitados accedan a mejores oportunidades.",
+    "innovationDescTwo": "Empoderar vidas y construir un futuro mejor está en el corazón de quienes somos.",
+    "effortsTitle": "Esfuerzos ESG",
+    "effortsDesc": "En Rialtes, estamos profundamente comprometidos con la sostenibilidad y la acción climática.",
+    "effortsDescOne": "Como orgullosos miembros de la iniciativa 1t.org, contribuimos activamente a la misión global de plantar 1 billón de árboles. Nuestra visión incluye alcanzar operaciones con emisiones netas cero, reducir nuestra huella ambiental y liderar iniciativas climáticas con impacto.",
+    "effortsDescTwo": "Construir un futuro más verde y sostenible está en el centro de nuestros valores y acciones.",
+    "aiTitle": "Impacto de la IA para el futuro",
+    "aiDesc": "En Rialtes, estamos comprometidos a formar la fuerza laboral del futuro a través de nuestro programa principal, ‘AI4Future’, enfocado en capacitar y certificar a más de 500 becarios en certificaciones líderes de IA a nivel mundial.",
+    "aiDescOne": "Nuestro objetivo es cerrar la brecha de habilidades en IA y crear oportunidades para la próxima generación de innovadores.",
+    "aiDescTwo": "‘AI4Future’ refleja nuestra dedicación a formar profesionales preparados para el futuro y fomentar un crecimiento inclusivo.",
+    "revenueTitle": "1 % de los ingresos",
+    "revenueDesc": "comprometidos con el trabajo social",
+    "treesDesc": "Comprometidos con la plantación de",
+    "treesTitle": "1 billón de árboles",
+    "certifiedTitle": "500+ certificados en IA",
+    "certifiedDesc": "profesionales cada seis meses",
+    "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
+
+  },
+
+   "globalAlliance": {
+    "headerTitle": "Nuestros Socios",
+    "headerSubTitle": "Alianzas Globales",
+    "ourTitle": "Nuestros Socios Estratégicos",
+    "ourDesc": "Rialtes se asoció con las empresas de software empresarial más innovadoras para ofrecerte soluciones de consultoría de TI personalizadas y basadas en datos que simplifican, habilitan y potencian la resolución de tus mayores desafíos empresariales.",
+    "approachTitle": "Nuestro Enfoque",
+    "keyTitle": "Alianzas Clave",
+    "regionalTitle": "Alianzas Regionales",
+    "allTitle": "Todas las Alianzas",
+
+    "approachData": [
+      {
+        "src": "/images/partners/our1.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Orquestación", "estratégica"]
+      },
+      {
+        "src": "/images/partners/our2.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Personalización", "centrada en el cliente"]
+      },
+      {
+        "src": "/images/partners/our3.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Soluciones", "específicas de la industria"]
+      },
+      {
+        "src": "/images/partners/our4.png",
+        "alt": "Equipo de Liderazgo",
+        "texts": ["Alianzas", "independientes del proveedor"]
+      }
+    ]
+  }
 }
+

@@ -1,7 +1,221 @@
 {
-    "aboutus": {
-        "aboutusTitle": "About Us",
-        "beyondTitle": "Beyond Business: A Commitment to Change",
-        "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact"
-    }
+  "aboutUs": {
+    "aboutusTitle": "About Us",
+    "aboutusSubtitle": "Crafting the true purpose of technology in everyday lives.",
+    "aboutusSubtitleone": "Imagining how the most complex task can be made simple with AI, data, and technology.",
+    "worldTitle": "  World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
+    "overTitle": " Over the last several years, we have built our relationships with our clients, our employees, and our partners on core fundamental principles",
+    "whatTitle": "What we do",
+    "whatDesc": "At the intersection of technology and business, we deliver solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact.",
+    "welcomeTitle": "Welcome to the Future of Intelligent Business.",
+    "welcomeDesc": "Whether you’re exploring AI adoption, modernizing operations, or reimagining customer experiences, our team is ready to guide you with tailored, results-driven strategies.",
+    "welcomeDescOne": "Connect with us to accelerate your transformation journey.",
+    "learnMore": "Learn More",
+    "ourTitle": "Our Culture & Values",
+    "ourDesc": "Chasing perfection is in our DNA.",
+
+    "latestServices": [
+      {
+        "id": 1,
+        "title": "Our Values",
+        "description": "Driven by our clients’ success, we deliver trusted partnerships, tailored solutions, and measurable impact.",
+        "url": "/about-us/our-values"
+      },
+      {
+        "id": 2,
+        "title": "Who we are",
+        "description": "Focused on driving Technology adoption today to create transformative impact and competitive advantage for the future",
+        "url": "/about-us/impact-and-social-responsibility"
+      },
+      {
+        "id": 3,
+        "title": "Our mission",
+        "description": "Committed to giving back, we empower communities through education, innovation, and impactful social initiatives",
+        "url": "/about-us/impact-and-social-responsibility"
+      }
+    ],
+    "brandStories": [
+      {
+        "image": "/images/about-us/lifescience.webp",
+        "alt": "Life Sciences Company",
+        "description": "Launching comprehensive patient centric solution for the largest European life sciences company in United States"
+      },
+      {
+        "image": "/images/about-us/singapore.webp",
+        "alt": "Singapore’s Largest Employer",
+        "description": "Empowering Singapore’s largest employer to run their business every day"
+      },
+      {
+        "image": "/images/about-us/automotive.webp",
+        "alt": "India’s Largest Automotive Manufacturer",
+        "description": "Accelerating India’s Largest automotive manufacturer to expand in North America"
+      }
+    ],
+    "corePrinciples": [
+      {
+        "image": "/images/about-us/trust.svg",
+        "label": "Trust",
+        "alt": "Trust Principle Icon",
+        "width": { "base": 135, "xl": 177 },
+        "height": { "base": 135, "xl": 177 }
+      },
+      {
+        "image": "/images/about-us/transperancy.svg",
+        "label": "Transparency",
+        "alt": "Transparency Principle Icon",
+        "width": { "base": 150, "xl": 192 },
+        "height": { "base": 150, "xl": 192 }
+      },
+      {
+        "image": "/images/about-us/commitment.svg",
+        "label": "Commitment",
+        "alt": "Commitment Principle Icon",
+        "width": { "base": 150, "xl": 192 },
+        "height": { "base": 150, "xl": 192 }
+      }
+    ],
+    "missionCards": [
+      {
+        "headingBold": "Simplify",
+        "headingLight": "Businesses.",
+        "subheading": "Drive Efficiency, Accelerate Growth.",
+        "description": "Transforming complexity into clarity with intelligent, scalable solutions."
+      },
+      {
+        "headingBold": "Enable",
+        "headingLight": "Solutions.",
+        "subheading": "Drive Real Outcomes.",
+        "description": "Helping enterprises innovate, transform, and lead with confidence."
+      },
+      {
+        "headingBold": "Empower",
+        "headingLight": "Customers.",
+        "subheading": "Drive Business Forward.",
+        "description": "Delivering intelligent solutions that put customers at the center of your business."
+      }
+    ]
+  },
+
+  "ourValue": {
+    "growLatestServices": [
+      {
+        "id": 1,
+        "image": "/images/culture/Equal Opportunity.webp",
+        "title": "Equal Opportunity",
+        "description1": "We are proud to be an equal opportunity employer, committed to fostering a diverse, inclusive, and respectful workplace.",
+        "description2": "Our culture is built on fairness, inclusion, and meritocracy, empowering every team member to thrive. At Rialtes, diversity drives innovation and excellence."
+      },
+      {
+        "id": 2,
+        "image": "/images/culture/Welcome LGBTQ+.webp",
+        "title": "Welcome LGBTQ+",
+        "description1": "We are committed to creating a safe, inclusive, and supportive environment for LGBTQ+ individuals. We actively promote diversity, inclusion, and allyship, fostering a culture where everyone feels valued and empowered to be their authentic selves.",
+        "description2": "At Rialtes, we stand for equality, acceptance, and belonging."
+      },
+      {
+        "id": 3,
+        "image": "/images/culture/Honor Veterans.webp",
+        "title": "Honor Veterans",
+        "description1": "Our inclusive workplace ensures that veterans feel welcomed, valued, and empowered to thrive in their professional journeys.",
+        "description2": "At Rialtes, we recognize the sacrifices of our veterans and are dedicated to helping them build successful futures."
+      },
+      {
+        "id": 4,
+        "image": "/images/culture/Women in Tech.webp",
+        "title": "Women in Tech",
+        "description1": "Through mentorship, equal opportunities, and leadership development, we ensure that women in tech thrive and drive innovation.",
+        "description2": "At Rialtes, we believe diversity in technology leads to stronger, smarter solutions for the future."
+      }
+    ],
+    "principleItems": [
+      {
+        "image": "/images/about-us/trust.svg",
+        "alt": "Trust Icon",
+        "label": "Trust",
+        "className": "xl:w-[132px] w-[119px]"
+      },
+      {
+        "image": "/images/about-us/transperancy.svg",
+        "alt": "Transparency Icon",
+        "label": "Transparency",
+        "className": "xl:w-[150px] w-[119px]"
+      },
+      {
+        "image": "/images/about-us/commitment.svg",
+        "alt": "Commitment Icon",
+        "label": "Commitment",
+        "className": "xl:w-[150px] w-[124px]"
+      }
+    ],
+        "cultureTitle": "Culture and Values",
+        "growthTitleOne": "Building a growth",
+        "growthTitleTwo": "mindset. Each day.",
+        "valueTitle": "Our Value System.",
+        "valueSubtitle": "Every day, every one of us work with our core values.",
+        "businessTitleOne": " Business run on Trust, Grows on Transparency",
+        "businessTitleTwo": "ONLY if we deliver on",
+        "businessTitleThree": "our commitments",
+        "employeeTitle": "Employee affinity groups",
+        "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
+  },
+
+  "impact":{
+        "impactTitle": "Social Impact",
+        "impactSubtitle": "Sustainability with",
+        "impactSubtitleOne": "Responsible AI",
+        "rialtesTitle": "Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.",
+        "rialtesSubtitle": "We care. We take actions.",
+        "innovationTitle": "Rialtes Innovation Foundation",
+        "innovationDesc": "At Rialtes Foundation, we believe in creating impact beyond business.",
+        "innovationDescOne": "Through our charity initiatives in India, we focus on uplifting underprivileged communities, supporting girl child education, and helping children in need access better opportunities.",
+        "innovationDescTwo": "Empowering lives and building a better future remains at the heart of who we are.",
+        "effortsTitle": "ESG Efforts",
+        "effortsDesc": "At Rialtes, we are deeply committed to sustainability and climate action.",
+        "effortsDescOne": "As proud member of the 1t.org initiative, we actively contribute to the global mission of planting 1 trillion trees. Our vision includes achieving net-zero operations, reducing our environmental footprint, and driving impactful climate initiatives.",
+        "effortsDescTwo": "Building a greener, more sustainable future is at the core of our values and actions",
+        "aiTitle": "AI Impact for Future",
+        "aiDesc": "At Rialtes, we are committed to shaping the future workforce through our flagship program, ‘AI4Future’, focused on training and certifying 500+ graduate trainees in leading global AI  certifications.",
+        "aiDescOne": "We aim to bridge the AI skills gap and create opportunities for the next generation of innovators.",
+        "aiDescTwo": " ‘AI4Future’ reflects our dedication to building future-ready professionals and fostering inclusive growth.",
+        "revenueTitle": "1 % of revenue",
+        "revenueDesc": "committed to social work",
+        "treesDesc": "Committed to planting",
+        "treesTitle": "1 trillion trees",
+        "certifiedTitle": "500+ AI Certified",
+        "certifiedDesc": "professionals every six months",
+        "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
+  },
+  "globalAlliance":{
+        "headerTitle": "Our Partners",
+        "headerSubTitle": "Global Alliances",
+        "ourTitle": "Our Strategic Partners",
+        "ourDesc": "Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.",
+        "approachTitle": "Our Approach",
+        "keyTitle": "Key Partnerships",
+        "regionalTitle": "Regional Partnerships",
+        "allTitle": "All Partnerships",
+        "approachData" :[
+        {
+            "src": "/images/partners/our1.png",
+            "alt": "Leadership Team",
+            "texts": ["Strategic", "orchestration"]
+        },
+        {
+            "src": "/images/partners/our2.png",
+            "alt": "Leadership Team",
+            "texts": ["Client-first", "customization"]
+        },
+        {
+            "src": "/images/partners/our3.png",
+            "alt": "Leadership Team",
+            "texts": ["Industry-specific", "solutions"]
+        },
+        {
+            "src": "/images/partners/our4.png",
+            "alt": "Leadership Team",
+            "texts": ["Vendor-agnostic", "partnerships"]
+        }
+    ]
+  }
+
 }

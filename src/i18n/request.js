@@ -18,6 +18,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const featuredCarousel = (await import(`../../messages/${locale}/homepage.json`)).default;
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const contactUs = (await import(`../../messages/${locale}/homepage.json`)).default;
 
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
 
@@ -50,6 +51,13 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const rialFinance = (await import(`../../messages/${locale}/services.json`)).default;
 
     const lifeScience = (await import(`../../messages/${locale}/industry.json`)).default;
+    const healthCare = (await import(`../../messages/${locale}/industry.json`)).default;
+    const pharmaBiotech = (await import(`../../messages/${locale}/industry.json`)).default;
+    const homeHealth = (await import(`../../messages/${locale}/industry.json`)).default;
+    const medicalDevices = (await import(`../../messages/${locale}/industry.json`)).default;
+    const automativeIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
+    const travelIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
+    const retailIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
 
 
     return {
@@ -90,7 +98,18 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...realEstate,
             ...caseStudyIndivisual,
             ...rialFinance,
-            ...lifeScience
+            ...lifeScience,
+            ...healthCare,
+            ...pharmaBiotech,
+            ...homeHealth,
+            ...medicalDevices,
+<<<<<<< Updated upstream
+            ...contactUs
+=======
+            ...automativeIndustry,
+            ...travelIndustry,
+            ...retailIndustry
+>>>>>>> Stashed changes
         }
     };
 });

@@ -216,7 +216,7 @@ export default function Industry() {
       </div>
       {/* Contact Form Section */}
       <div className="custom-container xl:py-[84px] py-[60px]">
-        <ContactForm title= {t('contactUs')}className={'max-w-4xl'} />
+        <ContactForm title= {t('contactUs')} className={'max-w-4xl'} />
       </div>
     </div>
   );
