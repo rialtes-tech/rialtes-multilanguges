@@ -94,8 +94,10 @@
     "estateTitleOneDesc": "Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.",
     "estateTitleTwo": "RealPay ",
     "estateTitleTwoDesc": "RealPay is an integrated payment gateway that supports payments across most North American banks and 135+ currencies. Residents can easily make payments and check",
+
     "growTitle": "Enhance your real estate operations with our customizable service offerings",
     "growDesc": "Rialtes helps real estate brokerages and property management companies achieve unparalleled excellence through technology and strategic guidance. From accounting software to real estate developers to mobile-friendly CRM, our property management solutions can be customized to fit your organization’s unique requirements.",
+
     "growLatestServices": [
       {
         "id": 1,
@@ -613,7 +615,7 @@
     "salesforceBlueBox": "Agentforce enhances field force effectiveness and ensures compliant, personalized HCP interactions.",
     "contactTitle": "Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!"
   },
-    "medicalDevices": {
+      "medicalDevices": {
     "thoughLeadershipData": [
       "Deliver compliant and seamless patient journeys from device prescription to outcome tracking.",
       "Integrate clinical, supply chain, and sales operations into a unified digital ecosystem.",
@@ -952,7 +954,767 @@
     "relatedTitle": "Related Solutions You Can Explore",
     "contactTitle": "Ready to Deliver Proactive, Connected, and Compassionate Care Directly to Patients?",
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
-  }
+  },
+  "semiconductor": {
+    "headerTitle": " Semiconductor Industry",
+    "subTitleOne": "Empowering",
+    "subTitleTwo": "Semiconductor Innovation",
+    "subTitleThree": "with End-to-End Digital ",
+    "subTitleFour": " Transformation",
+    "powerTitle": "Powering Semiconductor Innovation with Intelligent Enterprise Solutions",
+    "powerDesc": "The semiconductor industry is evolving fast, driven by AI, IoT, and global supply chain demands. Rialtes helps semiconductor companies stay ahead with SAP and Salesforce-powered solutions that streamline design, production, compliance, and customer collaboration",
+    "powerDescOne": "As a certified consulting partner, we deliver end-to-end services across advisory, implementation, integration, and post-go-live support.",
+    "thoughtTitle": "   Thought Leadership",
+    "thoughtSubTitle": "   Digital and AI-Powered Future for Semiconductors",
+    "thoughtDesc": " At Rialtes, we bring deep semiconductor process knowledge and best-in-class technology platforms to address the unique needs of the industry, including:",
+    "thoughtDescOne": "We integrate SAP S/4 HANA, Salesforce Industry Clouds, and AI solutions to enable smarter decision-making, faster time-to-market, and enhanced compliance.",
+    "thoughtData": [
+      "Fab process integration with enterprise systems for yield, cost, and quality control.",
+      "Managing complex compliance, datasheet generation, and safety certifications across global markets.",
+      "Enabling contract manufacturing, packaging, testing, and supply chain orchestration.",
+      "AI-driven design, validation, and production optimization across the semiconductor lifecycle."
+    ],
+    "endTitle": "  End-to-End Semiconductor Processes ",
+    "endDesc": " Digitally Enabled with Rialtes",
+    "endToEndData": [
+      {
+        "title": "Customer Specification and Initial Design",
+        "desc": "The journey starts with customer technical requirements, datasheets, and regulatory specifications. Companies require:",
+        "dataList": [
+          "Robust customer specification management platforms.",
+          "Configuration, design, and engineering collaboration systems.",
+          "Integration of compliance and certification standards (RoHS, REACH, CE)."
+        ]
+      },
+      {
+        "title": "Fab-based Processes and Foundry Management",
+        "desc": "We support semiconductor foundries and IDMs (Integrated Device Manufacturers) to streamline fab processes:",
+        "dataList": [
+          "Wafer fabrication aligned with process node targets (e.g., 3nm, 5nm).",
+          "Managing mask set creation, fab scheduling, and yield optimization.",
+          "Integration of Bluetooth, PCI-Express, Cellular, IEEE 1588, Wi-Fi, and other IP-based standards.",
+          "Real-time process data capture and analysis for quality and cost optimization."
+        ]
+      },
+      {
+        "title": "Design, Verification & Validation (V&V)",
+        "desc": "",
+        "dataList": [
+          "Full EDA tool integration for RTL, layout, and post-silicon validation. ",
+          "Tape-out readiness and DRC/LVS checks.",
+          "Managing compliance to datasheets, safety certifications, and testing protocols.",
+          "AI-enabled defect analysis and yield prediction."
+        ]
+      },
+      {
+        "title": "Assembly, Packaging, and Testing (APT)",
+        "desc": "",
+        "dataList": [
+          "Chiplet and advanced packaging (2.5D, 3D IC) design support.",
+          "Process for wire-bonding, flip-chip, wafer-level packaging.",
+          "End-to-end final testing, validation, and defect classification."
+        ]
+      },
+      {
+        "title": "Contract Manufacturing and External Foundry Collaboration",
+        "desc": "",
+        "dataList": [
+          "Managing contract manufacturers (CMs) and foundry partners.",
+          "Integrating demand, production orders, logistics, and compliance.",
+          "Deal registration and design-win tracking for customer-specific chips."
+        ]
+      }
+    ],
+    "foundryTitle": " Semiconductor Foundry and Outsourced Operations Support",
+    "foundryDesc": "Semiconductor manufacturing is increasingly collaborative and distributed. Rialtes helps companies manage:",
+    "semiconductorFoundryData": [
+      "Foundry outsourcing and wafer supply chain visibility.",
+      "Assembly and test service provider (ATSP) integration.",
+      "Managing supply risks, quality control, and compliance across partners.",
+      "Real-time insights into production cycle times and capacity."
+    ],
 
+    "topTitle": " Top 4 Strategic Challenges Facing the Semiconductor Industry Today",
+    "strategicData": [
+      {
+        "id": "1",
+        "title": "Supply Chain and Capacity Constraints",
+        "dataList": [
+          "Volatile demand and limited fab capacities.",
+          "Shortages in substrates, packaging, and test availability.",
+          "Difficulty in managing multi-tier supplier networks."
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Regulatory and Compliance Complexity",
+        "dataList": [
+          "Global mandates such as RoHS, REACH, Conflict Minerals, ITAR, and Export Controls.",
+          "Difficulty in maintaining compliant datasheets and certifications.",
+          "Need for traceability and audit-ready documentation."
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Product Lifecycle and Time-to-Market Pressure",
+        "dataList": [
+          "Rapid evolution of standards (PCIe, Wi-Fi, Bluetooth, 5G, IEEE 1588).",
+          "Shortening design cycles and need for faster prototype-to-production transitions.",
+          "Customer-specific modifications and deal-based designs needing rapid adaptation."
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Complex Contract Manufacturing and Testing Ecosystem",
+        "dataList": [
+          "Managing multi-party manufacturing and testing.",
+          "Ensuring IP security and quality compliance.",
+          "Aligning ERP, PLM, and partner networks in real-time."
+        ]
+      }
+    ],
+    "learnMore": "Learn More",
+    "deepTitle": " Deep Industry Knowledge in SAP S/4 HANA & Salesforce for Semiconductor",
+    "deepDesc": " At Rialtes, we bring specialized expertise in implementing SAP S/4 HANA and Salesforce Industry Cloud solutions, specifically tailored for semiconductor companies navigating the complex, high-stakes world of chip design, fabrication, testing, and distribution.",
+    "deepDescOne": "Our knowledge goes beyond traditional enterprise systems — we understand the intricate connections between fab operations, customer-specific designs, contract manufacturing, and evolving compliance mandates. We help semiconductor organizations align engineering, production, sales, and global supply chain teams under a unified digital strategy.",
+    "commonSectionData": [
+      {
+        "title": "SAP S/4 HANA for Semiconductor Manufacturing Excellence",
+        "desc": "SAP S/4 HANA serves as a centralized, intelligent ERP backbone for semiconductor companies looking to streamline fab operations, foundry collaboration, and assembly/test processes, while ensuring financial and regulatory compliance.",
+        "keyData": [
+          "Comprehensive supply chain and wafer production management integrated with real-time shop floor data from fabs and foundries.",
+          "Material traceability and lot genealogy tracking for semiconductor wafers, dies, substrates, and packaging.",
+          "Yield tracking and quality control analytics embedded into every step of the manufacturing cycle, from mask sets to finished ICs. ",
+          "Regulatory compliance automation covering global mandates (RoHS, REACH, export controls, and ITAR).",
+          "Costing, profitability, and revenue recognition linked directly to production yields, customer-specific agreements, and volume pricing models.",
+          "Warranty, return, and service management for both B2B and B2C semiconductor products, including support for long lifecycle components."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+      },
+      {
+        "title": "Salesforce Industry Cloud for Semiconductor Customer and Partner Engagement",
+        "desc": "Salesforce Industry Cloud, tailored for semiconductor companies, enables customer-facing teams to seamlessly manage design wins, customer requirements, and long-term technical partnerships, bringing agility and visibility to every customer interaction.",
+        "keyData": [
+          "End-to-end deal registration, opportunity, and design-win management to track customer-specific engagements and custom chip development projects.",
+          "Partner relationship management (PRM) for managing channel partners, distributors, and foundries — all aligned to engineering and sales cycles.",
+          "Customer-specific pricing, rebate, and incentive programs management integrated with ERP and manufacturing data.",
+          "Customer support, RMA, and technical service case management, including escalation tracking and AI-based service analytics.",
+          "Intelligent forecasting and demand planning driven by customer engagement insights and AI/ML analysis of sales pipelines and design pipelines."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+      },
+      {
+        "title": "Unified SAP and Salesforce Integration",
+        "subtitle": "A 360° View of Semiconductor Operations",
+        "desc": "Combining SAP S/4 HANA and Salesforce Industry Cloud, Rialtes delivers an integrated view of product, customer, and operational data — breaking down silos between engineering, manufacturing, sales, and finance teams.",
+        "keyData": [
+          "Faster new product introductions (NPIs) through collaborative design-to-delivery management.",
+          "Accurate demand forecasting and production alignment based on real-time customer opportunities and confirmed design wins.",
+          "Enhanced customer satisfaction and loyalty through proactive service, transparent lead times, and custom order fulfillment.",
+          "Streamlined compliance and audit readiness, covering everything from environmental certifications to export licenses.",
+          "End-to-end visibility from customer spec to wafer production, assembly, and final shipment, ensuring responsiveness and risk mitigation."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+      }
+    ],
+    "keyTitle": " Key Business Outcomes from Integration:",
+    "keyTitleOne": "Key Capabilities:",
+    "aiTitle": " AI-Driven Innovation in Semiconductor",
+    "aiDesc": "  Practical Impact",
+    "aiDescOne": "Artificial Intelligence (AI) is revolutionizing the semiconductor industry, fundamentally reshaping how companies design, manufacture, test, and manage semiconductors in today’s rapidly evolving markets. From chip design optimization to predictive yield analysis, AI is helping semiconductor manufacturers reduce costs, improve quality, accelerate time-to-market, and address the increasing complexity of advanced chips like AI accelerators, SoCs, and 5G modems.",
+    "areaTitle": " Key Areas Where AI Is Transforming Semiconductor Industry:",
+    "keyAreasData": [
+      {
+        "title": "AI-Powered Chip Design & Verification",
+        "desc": "Designing next-generation semiconductor chips (like AI processors, GPUs, automotive-grade chips, or 5G ICs) requires managing billions of transistors with extreme precision. AI and ML are now embedded in EDA (Electronic Design Automation) tools to automate design rule checks, power optimization, and floor planning.",
+        "realWorldData": [
+          "Faster RTL verification and error prediction, reducing time from design to tape-out.",
+          "Automated layout and power optimization, reducing chip size and energy consumption.",
+          "Detecting design rule violations early, minimizing costly redesigns."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+      },
+      {
+        "title": "Predictive Yield Management & Fab Operations Optimization",
+        "desc": "AI models analyze terabytes of sensor and equipment data from fabs to predict yield issues before wafers are scrapped, optimizing production. AI helps identify equipment drifts, particle contamination, and recipe anomalies to improve overall equipment effectiveness (OEE).",
+        "realWorldData": [
+          "Predictive failure detection for fab tools to prevent downtime.",
+          "AI models predicting wafer yields based on real-time fab data, reducing production losses.",
+          "Automated root cause analysis (RCA) for yield drops, shortening investigation time."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+      },
+      {
+        "title": "AI-Driven Supply Chain and Demand Forecasting",
+        "desc": "With global chip shortages and supply chain disruptions, AI helps predict demand fluctuations, lead times, and sourcing risks. AI-powered platforms analyze global supply/demand signals, customer forecasts, and logistics bottlenecks to optimize production and inventory.",
+        "realWorldData": [
+          "Accurate forecasting of demand for specific chip models using AI on customer and market data.",
+          "Risk mitigation through AI-led supplier risk monitoring and dual sourcing strategies.",
+          "Dynamic production scheduling and fab capacity planning based on AI demand forecasts."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+      },
+      {
+        "title": "AI for Test, Validation, and Post-Silicon Debug",
+        "desc": "Testing complex chips (like AI chips or automotive-grade ICs) generates massive data sets. AI analyzes this data to identify patterns, detect anomalies, and improve test coverage while reducing cycle times.",
+        "realWorldData": [
+          "AI-driven adaptive test strategies reduce test time without compromising quality.",
+          "Early identification of systematic defects and design-for-test (DFT) optimization.",
+          "Anomaly detection in silicon validation, speeding up debug cycles for first-silicon success."
+        ],
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+      }
+    ],
+    "worldTitle": "Real-World Impacts:",
+    "enabledTitle": "AI-Enabled Customer & Partner Collaboration (Salesforce & SAP Integration)",
+    "enabledDesc": "AI enhances customer engagement platforms by offering real-time analytics on customer design needs, usage patterns, and product performance. AI-driven insights allow sales, engineering, and partner teams to recommend optimal solutions and pricing, creating a seamless customer experience.",
+    "enabledPara": "Real-World Impacts:",
+    "enabledData": [
+      "AI-based opportunity scoring and deal prioritization in Salesforce for faster design-win closure.",
+      "AI-generated personalized technical content and datasheets for customer engagements.",
+      "Customer support AI bots integrated with Salesforce Agentforce for proactive issue resolution and engineering collaboration."
+    ],
+    "valueTitle": "Summary",
+    "valueSubtitle": "AI’s Value for Semiconductor Industry",
+    "valueDesc": "Artificial Intelligence (AI) is revolutionizing the semiconductor industry, fundamentally reshaping how companies design, manufacture, test, and manage semiconductors in today’s rapidly evolving markets. From chip design optimization to predictive yield analysis, AI is helping semiconductor manufacturers reduce costs, improve quality, accelerate time-to-market, and address the increasing complexity of advanced chips like AI accelerators, SoCs, and 5G modems.",
+    "valueDescOne": "At Rialtes, we help semiconductor companies operationalize AI by connecting SAP S/4 HANA’s core processes, Salesforce Industry Cloud customer intelligence, and AI/ML platforms to create an intelligent semiconductor ecosystem that adapts to the future of chip innovation.",
+    "dealTitle": "Deal Registration and Customer Engagement — Streamlined & Intelligent",
+    "dealDescOne": "In the semiconductor industry, where design wins, long sales cycles, and complex partner ecosystems dominate the landscape, managing deal registration and customer engagement efficiently is critical to success. From OEMs and Tier-1 customers to contract manufacturers and channel partners, transparency, speed, and control over the sales and design collaboration process can mean the difference between winning or losing a major opportunity.",
+    "dealDescTwo": "Rialtes helps semiconductor companies redefine deal registration and customer engagement processes using Salesforce Experience Cloud and Partner Relationship Management (PRM) tools — turning them into intelligent, automated, and collaborative ecosystems.",
+    "summaryData": [
+      "Accelerates chip design and reduces tape-out risks.",
+      "Increases fab yield and reduces downtime, saving millions in production losses.",
+      "Optimizes supply chains and reduces exposure to global risks.",
+      "Enhances customer relationships and accelerates time-to-revenue through smarter sales enablement.",
+      "Improves final product quality through intelligent testing and validation."
+    ],
+    "keyPillarTitle": "Key Pillars of a Modern Deal Registration & Customer Engagement Strategy",
+    "keyPillarsDesc": [
+      {
+        "id": 1,
+        "title": "Empowering Channel Partners with Salesforce Experience Cloud",
+        "desc": "Salesforce Experience Cloud, combined with PRM, enables partners, distributors, and resellers to register deals in real-time, track opportunities, and collaborate directly with sales and engineering teams — all through a secure, branded partner portal.",
+        "dataList": [
+          "Streamlined deal registration process with guided forms, automated workflows, and transparent approval cycles.",
+          "Real-time visibility into registered opportunities, reducing channel conflicts and overlaps.",
+          "Partner self-service access to critical sales assets — datasheets, product roadmaps, technical support, and pricing.",
+          "AI-driven opportunity scoring to prioritize high-potential deals and allocate resources intelligently."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Enhancing Customer Co-Design & Technical Collaboration",
+        "desc": "In the semiconductor industry, customer design cycles are collaborative and require tight integration between customers, sales teams, and design engineers. Through Experience Cloud, companies can create secure customer portals where customers can submit design requirements, track design validation progress, and collaborate on engineering issues.",
+        "dataList": [
+          "Centralized customer collaboration for reference designs, datasheet requests, and application engineering support. ",
+          "AI-assisted recommendations for similar use-cases, product compatibility, and design reuse.",
+          "Direct communication and escalation with internal design teams and field application engineers (FAEs).",
+          "Secure sharing of sensitive technical information like simulation models, characterization data, and compliance certifications."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Automated Deal Governance and Compliance",
+        "desc": "Managing global semiconductor deals means complying with export regulations, trade compliance, and IP protection policies. Salesforce automates these processes with rule-based workflows and audit trails ensuring every registered deal complies with regulatory requirements.",
+        "dataList": [
+          "Automated compliance checks for export controls (EAR, ITAR), IP licensing, and NDAs. ",
+          "End-to-end visibility and auditability of deal registration and approval processes.",
+          "Integrated risk management to prevent IP leakage and enforce customer segmentation policies."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Data-Driven Intelligence with AI & Analytics",
+        "desc": "Using Salesforce AI (Einstein GPT) and Tableau, semiconductor companies gain deep insights into partner performance, deal conversion rates, and customer buying patterns. AI models can score registered deals, recommend upsell opportunities, and predict at-risk opportunities — driving proactive sales strategies.",
+        "dataList": [
+          "Predictive analytics for deal closure probability, helping sales prioritize high-value accounts.",
+          "Insights into partner performance with metrics like conversion rates, average deal size, and win/loss analysis.",
+          "AI-driven product recommendations based on customer design profiles and previous engagements.",
+          "Visual dashboards for leadership, enabling strategic decisions on partner programs, product roadmaps, and regional focus."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Frictionless Quoting and Pricing Collaboration",
+        "desc": "Semiconductor deals often require custom pricing, volume discounts, and contract negotiations. By integrating Salesforce CPQ (Configure, Price, Quote) into the partner portal, Rialtes enables partners and internal teams to collaborate on real-time quoting, accelerating the path to PO (Purchase Order).",
+        "dataList": [
+          "Automated quote generation and configuration based on product catalogs and customer requirements.",
+          "Approval workflows for pricing exceptions, special terms, and strategic deals.",
+          "Visibility into available inventory, lead times, and alternative product recommendations."
+        ]
+      }
+    ],
+    "benefitsTitle": "Strategic Benefits:",
+    "ecosystemTitle": "End-to-End Semiconductor Deal Ecosystem",
+    "ecosystemDesc": "Powered by Salesforce + Rialtes Advisory",
+    "ecosystemDescOne": "Our approach transforms the traditional, manual deal registration processes into a real-time, AI-enhanced ecosystem, where customers, channel partners, and sales teams collaborate effectively, supported by intelligent workflows and deep insights.",
+    "ecosystemDescTwo": "Rialtes brings deep domain knowledge, certified Salesforce and SAP experts, and proven accelerators to deliver these modern capabilities at scale.",
+    "benifitsTitleTwo": "Benefits for Semiconductor Companies:",
+    "endSemiconductorData": [
+      "Faster deal cycles and reduced time to market for new design wins.",
+      "Increased partner satisfaction and deeper partner engagement. ",
+      "Improved revenue predictability through AI-driven deal intelligence. ",
+      "Regulatory and IP compliance assurance throughout the deal lifecycle.",
+      "Tight integration of engineering and sales collaboration, ensuring technical accuracy and customer satisfaction."
+    ],
+    "byTitle": "By combining Salesforce Experience Cloud with Rialtes industry-aligned advisory and implementation services, semiconductor companies can unlock the next level of growth and operational efficiency — transforming deal registration from a bottleneck into a competitive advantage.",
+    "sapTitle": "Why Rialtes for SAP & Salesforce in Semiconductor?",
+    "sapDesc": "With 20+ years of deep, hands-on experience in the semiconductor industry, Rialtes stands as a trusted transformation partner for global semiconductor manufacturers, fabless companies, and foundries. Our unparalleled understanding of semiconductor business processes, combined with certified expertise in SAP S/4 HANA and Salesforce industry solutions, enables us to deliver end-to-end digital transformation—from design to manufacturing to sales and distribution—tailored to the highly specialized needs of this complex industry.",
+    "sapDescOne": "Having worked with Fortune 500 semiconductor and electronics giants, Rialtes brings an insider’s perspective to the unique operational, engineering, and customer engagement challenges faced by semiconductor companies today.",
+    "reasonsTitle": " Key Reasons Why Leading Semiconductor Companies Trust Rialtes",
+    "keyReasonsData": [
+      {
+        "id": "1",
+        "title": "20+ Years of Semiconductor Domain Experience — Industry-Aligned, Actionable Solutions",
+        "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+        "desc": "Rialtes has built a reputation working closely with some of the world’s largest semiconductor brands to modernize their business processes. We understand the unique complexity of semiconductor value chains — from wafer fabrication, IC design, and testing, to contract manufacturing, and IP licensing.",
+        "dataList": [
+          "Practical knowledge of fabless and foundry models",
+          "Deep understanding of NPI (New Product Introduction), tape-out, and design-to-silicon processes",
+          "Experience with complex supply chain, yield management, and IP security",
+          "Aligned to industry-specific workflows like deal registration, partner co-selling, and compliance"
+        ],
+        "bgColor": "#E7F0F7"
+      },
+      {
+        "id": "2",
+        "title": "Business Process Experts with Fortune 500 Project Expertise",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+        "desc": "Our consultants and architects are not just technologists — they are semiconductor business process experts with real-world expertise driving transformation projects in Fortune 500 semiconductor firms. We understand what it takes to make SAP & Salesforce work for complex, global, multi-stakeholder environments.",
+        "dataList": [
+          "End-to-end advisory on streamlining design-win processes, deal management, and supply chain",
+          "Bringing best practices from top semiconductor companies into every project we deliver",
+          "Experts in both front-end processes (customer, sales, engineering) and back-end (manufacturing, logistics, finance)",
+          "Capability to bridge gaps between engineering, operations, and sales teams through smart platforms"
+        ],
+        "bgColor": "#EDDACD"
+      },
+      {
+        "id": "3",
+        "title": "Proven SAP S/4 HANA & Salesforce Integration for Semiconductor",
+        "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+        "desc": "Rialtes delivers fully integrated SAP and Salesforce solutions tailored for semiconductor processes — enabling seamless information flow from the customer to the fab floor and back. Our approach ensures one version of truth across sales, engineering, and operations, reducing errors, improving collaboration, and driving faster time to market.",
+        "dataList": [
+          "Integrated deal registration and quoting directly linked to SAP order management",
+          "Real-time integration of Salesforce design collaboration portals with SAP product master and supply chain",
+          "Optimized finance and compliance processes for high-value deals, IP protection, and export controls",
+          "AI-enabled data models combining Salesforce and SAP datasets for predictive sales and supply chain intelligence"
+        ],
+        "bgColor": "#D7F4F2"
+      },
+      {
+        "id": "4",
+        "title": "AI-Driven Approach with Data at the Core",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+        "desc": "In today’s semiconductor landscape, data and AI play a pivotal role in everything from demand planning to engineering collaboration and partner management. Rialtes combines AI, analytics, and automation across Salesforce and SAP platforms to empower semiconductor companies with data-driven decision-making.",
+        "dataList": [
+          "Predictive deal scoring and partner performance insights",
+          "Yield optimization and supply chain planning using AI-based forecasting",
+          "AI-driven compliance and risk monitoring in real-time for global deals",
+          "AI models to identify upsell and cross-sell opportunities in customer design cycles"
+        ],
+        "bgColor": "#CAE1ED"
+      },
+      {
+        "id": "5",
+        "title": "Agile, End-to-End Delivery: Advisory to Post-Go-Live Success",
+        "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
+        "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+        "desc": "What sets Rialtes apart is our commitment to end-to-end ownership — from initial advisory, process design, system implementation, to post-go-live support and continuous optimization. We work as a true partner, not just an implementer.",
+        "dataList": [
+          "Pre-built accelerators for semiconductor-specific SAP & Salesforce processes",
+          "Agile and collaborative project delivery models aligned to semiconductor release cycles",
+          "Post-go-live managed services to optimize system performance and user adoption",
+          "Business and technical user training for seamless transformation adoption"
+        ],
+        "bgColor": "#EFF0D5"
+      }
+    ],
+    "partnerTitle": "Rialtes — Your Strategic Partner for Semiconductor Growth",
+    "partnerDesc": "Whether you are a fabless design house, an IDM (Integrated Device Manufacturer), a foundry, or a contract manufacturer, Rialtes understands the semiconductor industry’s DNA. We leverage our global delivery model with offices in India, United States, Canada, and Singapore to bring cost-effective, high-value solutions to some of the most demanding and complex organizations in the world.",
+    "partnerDescOne": "Why Choose Rialtes?",
+    "rialtesData": [
+      "20+ years of real semiconductor industry experience.",
+      "Fortune 500-level process and technology expertise.",
+      "SAP & Salesforce certified experts with deep semiconductor solutions knowledge.",
+      "AI and Data-first approach for competitive advantage.",
+      "Proven track record in delivering complex, large-scale transformation."
+    ],
+    "contactTitle": "Ready to Connect Your Enterprise?",
+    "contactSubTitle": "Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value.",
+    "contactSubtitleOne": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
+  },
+  "manufacturing":{
+    "headerTitle": "Manufacturing",
+    "headerSubTitleOne": "Powering the Future of Manufacturing",
+    "headerSubTitleTwo": "Smarter, Faster, Connected",
+    "drivingDesc": "Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.",
+    "thoughtTitle": "Thought Leadership",
+    "thoughtSubTitle": "Leading the Digital Reinvention of Manufacturing",
+    "thoughtSubTitleOne": "At Rialtes, we believe the future of manufacturing lies in resilient, adaptive, and AI-powered ecosystems. From digital twins to predictive supply chains, we help manufacturers think ahead of disruption and innovate at scale. Our focus is on customer personalization, operational efficiency, and global compliance, powered by connected data and automation.",
+    "endTitle": "Rialtes’ End-to-End Manufacturing Transformation Services",
+    "endSubTitle": "Our services cover the entire manufacturing value chain, from advisory and architecture to implementation, testing, and continuous innovation.",
+    "endDesc": "We collaborate with leading platforms like SAP, Salesforce, MuleSoft, and Kinaxis to provide scalable, integrated, and future-ready solutions. Rialtes brings together technology, process, and industry expertise under one roof to deliver seamless transformation.",
+    "preTitle": "Pre-Built Manufacturing Accelerators",
+    "preSubtitle": "Speed, Scale, Success",
+    "preDesc": "With industry-specific accelerators, Rialtes enables manufacturers to deploy ready-to-use solutions that cut down months of setup time. From smart factory templates to AI-powered predictive workflows, our tools are designed to accelerate value realization, improve productivity, and drive intelligent operations. Our accelerators also ensure regulatory compliance and quality assurance, reducing risks during implementation.",
+    "discreteTitle": "Discrete Manufacturing",
+    "discreteSubTitle": "Managing Complex Products Made Simple",
+    "discreteDesc": "Rialtes helps discrete manufacturers handle complex product configurations, multi-tier supply chains, and custom engineering processes. Our solutions integrate end-to-end quoting, engineering, and order management, delivering real-time visibility and seamless customer collaboration. AI-powered insights help predict maintenance needs, reduce downtime, and ensure superior product quality.",
+        "processTitle": "Process Manufacturing",
+        "processSubtitle": "Optimize Compliance and Yield",
+        "processDesc": "We support process manufacturers in managing complex formulations, compliance demands (FDA, ISO, GMP), and volatile supply chains. Our solutions optimize batch production, yield management, and real-time quality tracking, ensuring consistent outputs and reduced waste. Rialtes also enables traceability and recalls management through integrated, AI-enabled systems.",
+        "repetitiveTitle": "Repetitive Manufacturing",
+        "repetitiveSubtitle": "Streamlining Mass Production Operations",
+        "repetitiveDesc": "For high-volume production, Rialtes offers solutions that enhance capacity planning, workforce allocation, and real-time production monitoring. Our tools optimize repetitive workflows and reduce cycle times, ensuring maximum throughput with minimum waste. AI-driven analytics help detect production anomalies early, ensuring product quality and cost efficiency.",
+        "aiTitle": "AI & Robotic Manufacturing",
+        "aiSubtitle": "Creating Smart, Autonomous Factories",
+        "aiDesc": "AI and Robotics are reshaping manufacturing, and Rialtes helps clients lead this transformation. From AI-powered predictive maintenance to robotic automation of production lines, we enable factories to be self-learning and adaptive. Digital twins and real-time IoT insights power zero-defect manufacturing and higher productivity, reducing human errors and downtime.",
+        "jobTitle": "Job Shop Manufacturing",
+        "jobSubTitle": "Managing Custom Production with Precision",
+        "jobDesc": "Rialtes brings robust solutions for engineer-to-order (ETO) and make-to-order (MTO) job shop environments. Our tailored platforms manage custom project costing, production planning, and supplier coordination, ensuring on-time, on-budget delivery of high-variety, low-volume orders. Real-time dashboards provide visibility into job status, materials, and profitability.",
+       
+        "dataTitle": "Data Cloud & Tableau",
+        "dataSubtitle": "Actionable Insights with Visual Analytics",
+        "dataDesc": "With Data Cloud and Tableau, Rialtes helps manufacturers turn complex operational data into meaningful insights. From OEE tracking and downtime analysis to supply chain risks and customer demand forecasting, our dashboards provide real-time visibility for proactive decision-making. AI models further enhance predictive maintenance and inventory optimization.",
+        "erpTitle": "ERP Integration with SAP & Oracle via MuleSoft",
+        "erpSubtitle": "End-to-End Visibility",
+        "erpDesc": "Rialtes ensures seamless integration between front-end systems and back-end ERPs like SAP and Oracle using MuleSoft. This allows manufacturers to orchestrate production planning, order management, procurement, and finance without silos. Real-time data flows enable accurate decision-making, lower costs, and streamlined supply chains.",
+        "demandTitle": "Demand Planning with Kinaxis RapidResponse",
+        "demandSubTitle": "Staying Ahead of the Curve",
+        "demandDesc": "Rialtes leverages Kinaxis RapidResponse to empower manufacturers with dynamic demand forecasting and scenario planning. Our solutions help manage volatile markets, supplier risks, and customer demands, enabling manufacturers to respond in real-time to disruptions. AI-driven demand sensing ensures optimal inventory and supply chain agility.",
+        "shapingTitle": "AI in Manufacturing",
+        "shapingSubtitle": "Shaping a Smarter Future",
+        "shapingDesc": " AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.",
+        "sapTitle": "SAP & Salesforce",
+        "sapSubtitle": "The Power Duo for Intelligent Manufacturing",
+        "sapDesc": "Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.",
+        "factTitle": "Fast Facts",
+        "factSubtitle": "Manufacturing Industry Insights",
+        "factDesc": "of manufacturers are accelerating Industry 4.0 investments.",
+        "factNum":"70% ",
+        "factDescOne": "of companies struggle with real-time supply chain visibility.",
+        "factOneNum":"76% ",
+        "factDescTwo": "Cloud-enabled manufacturing systems increase equipment effectiveness by ",
+        "factTwo":"15%.",
+        "adoption": "AI adoption in manufacturing expected to surpass  ",
+        "billion": "$20 billion",
+        "by":"by 2030.",
+        "smartTitle": "Smart factories can boost productivity by up to ",
+        "smartNum":"30%",
+     "contactTitle": "Ready to Reimagine Your Manufacturing Future?",
+    "contactSubTitle": "Partner with Rialtes to transform your manufacturing operations with AI, SAP, Salesforce, and next-gen tools.",
+    "contactSubtitleOne": "Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"
+  },
+   "education":{
+    
+        "headerTitle": "Education Industry",
+        "headerSubTitle": "Empowering the Future of Education",
+        "headerSubTitleOne": " Rialtes’ End-to-End Solutions for Student Success",
+        
+        "educationTitle": "Transforming Education with Technology-Driven Student Experiences",
+        "educationDesc": "Education today is evolving at a rapid pace. Institutions must engage digitally native students, streamline enrollment and academic processes, and foster lifelong relationships with learners. From K-12 to higher education, organizations face challenges in managing fragmented student journeys, disjointed academic operations, and evolving stakeholder expectations.",
+        "educationDescOne": "Rialtes delivers holistic education solutions—covering strategic advisory, seamless implementations, process optimization, and long-term support.",
+        "thoughtTitle": " Thought Leadership:",
+        "thoughtSubTitle": "Solving Education’s Most Pressing Challenges",
+        "industryTitle": "Key Industry Challenges We Address:",
+        "approachTitle": "Rialtes’ Approach:",
+        "journeyTitle": "The Complete Student Journey",
+        "journeySubtitle":"From First Inquiry to Graduation and Beyond",
+        "journeySubtitleOne":"Recruitment and Enrollment Journey",
+        "leadTitle": "Student Lead Management and Engagement",
+        "selectionTitle":"Selection and Admissions",
+        "studentTitle": "Student Family Mapping and Engagement",
+
+        "hyperTitle": "Hyper-Personalized Student Engagement with Salesforce Marketing Cloud",
+        "lifelongTitle": "Lifelong Student Support with Salesforce Service Cloud",
+        "serviceTitle": "Self-Service Portals for Students and Faculty",
+        "serviceSubtitle": "Salesforce Experience Cloud",
+        "seamlessTitle": "Seamless Enrollment, Fee, and Resource Management",
+        "seamlessSubtitle": "SAP S/4HANA + Rialtes",
+        "dynamicTitle": " Dynamic Program and Course Pricing",
+        "dynamicSubtitle": "Salesforce Revenue Cloud",
+        "unifiedTitle": " Unified Data and Insights",
+        "unifiedSubtitle": "Salesforce Data Cloud for Education",
+
+        "empoweringTitle": "Empowering Advisors and Faculty",
+        "empoweringSubtitle": "Agentforce for Education",
+        "agentchatTitle": "AgentChat",
+        "agentchatSubtitle": "Transforming Communication in Education with AI-Powered WhatsApp Integration",
+        "agentchatDesc": "Unlock the future of communication with AgentChat, an AI-driven, bi-directional WhatsApp conversation tool fully integrated with Salesforce Education Cloud. Streamline interactions with students, parents, and faculty, all while enhancing engagement, boosting operational efficiency, and delivering personalized experiences.",
+        "keyTitle": " Key Features:",
+        "keySubtitle": " Seamless Salesforce Integration",
+        "keyDesc": "Effortlessly syncs with Salesforce Education Cloud, providing a unified platform for managing all student interactions in real time.",
+        "aiTitle": "  AI-Powered Automation & Personalization",
+        "aiDesc": " Instantly responds with personalized, context-aware answers, automating routine inquiries while adapting to each individual’s needs.",
+        "scalableTitle": " Scalable & Efficient Communication",
+        "scalableDesc": " Handles an increasing volume of interactions with ease, improving response times and reducing manual effort, while ensuring high-quality, consistent communication.",
+        "insightsTitle": "Actionable Insights & Data Security",
+        "insightsDesc": " Unlock valuable engagement insights through advanced analytics, while ensuring top-tier security and compliance with industry standards.",
+        "withDesc": " With AgentChat, elevate your institution’s communication to new heights—efficient, secure, and fully integrated.",
+        "knowMore": "Know More",
+        "relatedTitle": "Related Solutions",
+        
+        "rialtesTitle": "Rialtes’ Pre-Delivered Accelerators:",
+        "rialtesSubtitle": "Fast-Tracking Education Success",
+        "rialtesDesc": "Our proprietary accelerators for the education sector are designed to simplify and optimize student lifecycle management:",
+        "contactTitle": "Ready to Redefine Your Student Experience?",
+        "contactSubTitle": "Rialtes is ready to partner with your institution to deliver student-centric, agile, and future-ready education solutions.",
+        "contactSubtitleOne": "Contact us today for a personalized consultation and demo!",
+
+       
+ "latestServices2" : [
+  {
+    "id": "1",
+    "title": "Student Engagement Management Bolt-On",
+    "description":
+      "Enhances Salesforce Education Cloud to deliver seamless student lifecycle management, including admissions, case management, and alumni engagement."
+  },
+  {
+    "id": "2",
+    "title": "Enrollment and Academic Progress Tracker",
+    "description":
+      "Integrated solution for student onboarding, course enrollment, and academic progress monitoring connected with SAP backend for finance and operations."
+  },
+  {
+    "id": "3",
+    "title": "Family and Guardian Mapping Framework",
+    "description":
+      "Builds a comprehensive student family tree, enabling institutions to engage students, parents, guardians, and sponsors effectively."
+  }
+],
+"keyIndustryData" : [
+  "Fragmented student engagement and communication channels.",
+  "Complex and inefficient recruitment and admissions processes.",
+  "Disconnected case management for student services and support.",
+  "Lack of 360-degree student insights across academic, financial, and social dimensions.",
+  "Difficulty in personalizing outreach to prospective and current students.",
+  "Inefficient alumni and donor relationship management."
+],
+"approachData" : [
+  "Strategic advisory for educational digital transformation.",
+  "Process redesign and technology enablement with SAP and Salesforce.",
+  "Pre-built accelerators for student engagement, recruitment, and retention.",
+  "Agile, scalable implementations aligned with industry best practices.",
+  " Continuous optimization through robust QA and post-go-live support."
+],
+"studentLeadData" : [
+  "Capture student leads from multiple channels (web, social, email, recruitment events) using Salesforce Education Cloud.",
+  "Intelligent lead nurturing with Salesforce Marketing Cloud, leveraging personalized journeys based on interests and backgrounds.",
+  "AI-based lead scoring and matching to recommend suitable programs and scholarships."
+],
+"selectionData" : [
+  "Seamless application management with real-time status updates.",
+  "Automated document collection and verification workflows.",
+  "Selection committee collaboration portals for holistic application reviews.",
+  "Integrated offer and acceptance workflows with e-signatures."
+],
+"studentData" : [
+  "Create a comprehensive family and guardian chart to manage multi-student relationships.",
+  "Track alumni family connections for targeted donor campaigns and legacy admissions.",
+  "Map sponsorship and scholarship relationships for financial aid management."
+],
+"hyperData" : [
+  "AI-powered segmentation to target prospects by program interests, geography, demographics.",
+  "Personalized student journeys for pre-admission, onboarding, academic advising, and alumni engagement.",
+  "Behavioral triggers for scholarship offers, deadlines, and personalized content delivery.",
+  "Event management and RSVP tracking for open houses, campus tours, and recruitment fairs."
+],
+"lifelongData" : [
+  "End-to-end student case management for academic, financial, and wellness support.",
+  "AI-assisted case deflection and chatbots for common queries (admission status, course selection, fee details).",
+  "Proactive student success and retention programs, powered by early alert systems and predictive analytics.",
+  "Integration with career services for internships, placements, and alumni mentorship."
+],
+"selfData" : [
+  "Personalized portals for application tracking, document submissions, fee payments, and course registration.",
+  "Faculty portals for advising, mentoring, and grading.",
+  "External communication management for parents, sponsors, and alumni.",
+  "Embedded communication channels (chat, messaging, email) for real-time engagement."
+],
+"s4HanaData" : [
+  "Fully integrated student information and ERP system for enrollment, finance, and resource management.",
+  "Real-time visibility into fee status, financial aid, and scholarships.",
+  "SAP-backed course scheduling, faculty assignment, and resource allocation.",
+  "Procurement and supplier collaboration via SAP ARIBA for campus infrastructure needs."
+],
+"dynamicData" : [
+  "Program and tuition fee configuration based on course, campus, residency status, and scholarship eligibility.",
+  "Manage installment plans, discounts, and refunds.",
+  "End-to-end quote-to-enrollment processes for executive education and certificate programs.",
+  "Integrate with SAP for billing, AR, and finance operations."
+],
+"unifiedData" : [
+  "A 360-degree view of every student: academic progress, financial aid, career services, and engagement.",
+  "Advanced analytics and AI models for predicting at-risk students and enhancing retention.",
+  "Real-time data synchronization with SAP S/4HANA, LMS, CRM, and student success platforms.",
+  "Donor and alumni relationship management for advancement and fundraising."
+],
+"empoweringData" : [
+  "Unified view of each student’s academic, financial, wellness, and engagement history.",
+  "AI-based next-best-action (NBA) to support student success (e.g., intervention, counseling).",
+  "Manage advising sessions, notes, and follow-ups with integrated case management.",
+  "Collaboration tools for cross-departmental student success initiatives."
+],
+"educationSolutions": [
+  {
+    "title": "SAP S/4HANA for Education",
+    "href": "/services/business-transformation/grow-with-sap-services",
+    "description": "Robust ERP for education finance, HR, and campus operations."
+  },
+  {
+    "title": "Salesforce Marketing and Revenue Cloud",
+    "href": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
+    "description": "Personalized campaigns and dynamic pricing."
+  },
+  {
+    "title": "SAP ARIBA for Education",
+    "href": "/services/spend-management/sapbuyplus-ariba-implementation-partner",
+    "description": "Procurement solutions for campus operations."
+  }
+]
+
+ },
+ "finance":{
+        "financeTitle":"Finance Industry Solutions",
+        "financeDesc":"Shaping the Future of Intelligent Financial Experiences",
+        "digitalTitle": "Accelerating Digital Transformation in Financial Services",
+        "digitalDesc": "Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions. With a global presence and deep industry expertise, we help financial institutions transform securely, stay compliant, and deliver exceptional customer experiences.",
+        "thoughtTitle": "Thought Leadership",
+        "thoughtSubTitle": "Beyond Implementation, Driving Financial Innovation",
+        "thoughtSubTitleOne": "At Rialtes, we don’t just implement technology — we design the future of finance. Our RialFinance+ framework ensures seamless collaboration across advisory, design, AI integration, implementation, and post-go-live innovation, helping financial institutions achieve:",
+        "topTitle": "Top 4 Critical Challenges Facing Commercial and Retail Banking Today",
+        "deepTitle": "Deep Expertise in Salesforce FSC & SAP S/4 HANA",
+        "deepSubtitle": "Transforming Financial Operations End-to-End",
+        "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
+        "salesforceDesc": "Our Salesforce-certified architects and consultants deliver tailored FSC solutions to meet modern banking, lending, and wealth management needs:",
+        "sapTitle": "SAP S/4 HANA for Financial Services",
+        "sapDesc": "We extend Salesforce FSC capabilities with SAP S/4 HANA core banking and finance solutions:",
+        "sapDescOne": "Rialtes creates a unified financial services platform — integrating Salesforce’s front office and SAP’s core financial engine.",
+        "futureTitle": "AI: Revolutionizing the Future of Finance",
+        "futureDesc": "AI is transforming every layer of financial services — from customer service to credit decisioning. Rialtes leverages Salesforce AI (Einstein, Agentforce) and SAP AI tools to deliver:",
+        "futureDescOne": "Rialtes makes AI actionable — not just a vision.",
+        "exelonaTitle": "Exelona",
+        "exelonaSubtitle": " Revolutionizing Real Estate Finance with Salesforce FSC",
+        "exelonaDesc": "Exelona, our proprietary Real Estate Cloud Solution, integrated with Salesforce FSC, transforms how real estate firms manage financial assets and operations:",
+        "exelonaDescOne": "Exelona + FSC: A game-changing combination for Real Estate Finance and Operations",
+        "agentChatTitle": "AgentChat",
+        "agentChatSubtitle": " Real-Time WhatsApp Integration for Financial Services Cloud",
+        "agentChatDesc": " AgentChat, developed by Rialtes, brings real-time WhatsApp communication inside Salesforce FSC — fully secure and compliant:",
+        "agentChatDescOne": "Included as part of Rialtes’ Financial Services solutions —enabling real-time, modern client engagement.",
+        "dataTitle": "Data-Driven Insights with Salesforce and SAP Data Clouds",
+        "dataSubtitle": "Zero Copy Architecture",
+        "dataDesc": "Rialtes enables real-time, AI-ready data across Salesforce and SAP environments using Data Cloud and Zero Copy architecture:",
+        "dataDescOne": "Single source of truth — actionable, secure, and AI-ready.",
+        "unmatchedTitle": "Unmatched Salesforce + SAP Competency",
+        "unmatchedSubTitle": "Built for Financial Services",
+        "unmatchedDesc": "Rialtes enables real-time, AI-ready data across Salesforce and SAP environments using Data Cloud and Zero Copy architecture:",
+        "unmatchedDescOne": "Certified experts",
+        "unmatchedDescTwo": "in Salesforce FSC, Data Cloud, Agentforce AI, and SAP S/4 HANA.",
+        "keyTitle": "150+ certifications",
+        "keyDesc": "in key financial services and technology modules.",
+        "globalTitle": "Global delivery from",
+        "globalDesc": "US, Canada, India, and Singapore.",
+        "supportTitle": "24x7 support",
+        "supportDesc": "for continuous innovation and optimization.",
+        "supportDescOne": "Enterprise-grade, globally trusted, future-ready.",
+        "whyTitle": "Why Choose Rialtes for Financial Industry Solutions?",
+        "contactTitle": "Ready to Transform Your Financial Services Experience?",
+        "contactSubTitle": "Partner with Rialtes — where innovation meets industry expertise to shape the future of finance. Contact us today to begin your RialFinance+ journey!",
+        "contactSubtitleOne": "Contact us today to begin your RialFinance+ journey!",
+
+
+  "challenges": [
+  {
+    "number": "1",
+    "title": "Disconnected Customer Experiences & Legacy Systems",
+    "points": [
+      "Inability to offer personalized, seamless banking experiences.",
+      "Fragmented data across multiple systems limits real-time insights."
+    ]
+  },
+  {
+    "number": "2",
+    "title": "Regulatory and Risk Complexity",
+    "points": [
+      "Struggling with fast-changing regulations (AML, KYC, ESG).",
+      "Lack of streamlined compliance and audit processes."
+    ]
+  },
+  {
+    "number": "3",
+    "title": "Manual and Inefficient Lending, Wealth, and Advisory Operations",
+    "points": [
+      "Delays in loan approvals, wealth management onboarding, and servicing.",
+      "High operational costs due to outdated workflows."
+    ]
+  },
+  {
+    "number": "4",
+    "title": "Demand for AI-Driven, Real-Time Services",
+    "points": [
+      "Customers expect instant decisions and service.",
+      "Need for AI-based risk and credit analysis, fraud detection, and personalization."
+    ]
+  }
+],
+ "thougthLeadershipData" : [
+  "Omnichannel customer engagement powered by AI and real-time data.",
+  "End-to-end compliant and efficient financial operations.",
+  "Seamless integration between front office and core banking systems.",
+  "Intelligent, AI-driven decision-making for risk, lending, and customer personalization. "
+],
+ "salesforceData" : [
+  "Customer onboarding, KYC, and AI-driven workflows.",
+  "Integrated service, marketing, and advisory processes.",
+  "Personalized experiences across retail, commercial, and wealth segments."
+],
+ "sapHanaData" : [
+  "Integrated finance and risk management.",
+  "Real-time financial analytics and forecasting.",
+  "Payments, contract management, and regulatory compliance."
+],
+ "aiData" : [
+  "Predictive credit and risk scoring.",
+  "AI-driven customer personalization and insights.",
+  "Fraud and compliance anomaly detection.",
+  "AI-powered service and onboarding automation."
+],
+ "exelonaData" : [
+  "End-to-end asset and portfolio management.",
+  "Integrated leasing, marketing, and tenant engagement.",
+  "Revenue, expense, and performance optimization.",
+  "AI-driven risk and investment modeling."
+],
+ "agentchatData" : [
+  "Instant customer onboarding and KYC verification via WhatsApp.",
+  "AI-enabled conversational banking and lending support.",
+  "Real-time alerts for fraud detection, transactions, and regulatory updates.",
+  "Seamless document and signature collection."
+],
+ "drivenData" : [
+  "Unified client profile with data from SAP S/4 HANA and Salesforce FSC.",
+  "AI-powered analytics without moving data — secure and compliant.",
+  "Real-time insights for lending, wealth, and operations."
+],
+ "whyChooseData" : [
+  "Comprehensive strategy to execution for Financial Services Cloud & SAP.",
+  "Proprietary tools like Exelona (Real Estate Cloud) and Agentchat (WhatsApp Integration).",
+  "Deep AI and Data Cloud integrations for predictive and real-time operations.",
+  "Unmatched understanding of compliance, risk, and customer experience.",
+  "Global footprint with local expertise to drive lasting transformation."
+]
+ }
 
 }
