@@ -4,7 +4,6 @@ import Seo from "../components/Seo";
 import Image from "next/image";
 import Script from 'next/script';
 import { useLocale, useTranslations } from "next-intl";
-
 import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
 

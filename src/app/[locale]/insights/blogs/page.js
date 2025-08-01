@@ -6,7 +6,6 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Script from "next/script";
 const schemaData={
   

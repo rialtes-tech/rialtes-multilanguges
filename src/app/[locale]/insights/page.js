@@ -9,6 +9,10 @@ import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import { HeroSection } from "../components/herosection";
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../messages/en/insight.json';
+import esContent from '../../../../messages/es/insight.json';
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -46,45 +50,13 @@ const schemaData = {
   }
 
 }
-const caseStudies = [
-  {
-    id: "case-study-2",
-    image: "/images/case-studies/revolutionary-filter.webp",
-    alt: "Dealer management transformation",
-    category: "Manufacturing",
-    date: "03 June 2025",
-    title: "Revving Up Dealer Management with AutoSense by Rialtes",
-    description:
-      "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
-    link: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense",
-  },
-  {
-    id: "case-study-3",
-    image: "/images/case-studies/adaptis-for-carousel.webp",
-    alt: "Warranty claim experience",
-    category: "Manufacturing",
-    date: "30 May 2025",
-    title:
-      "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
-    description:
-      "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.",
-    link: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
-  },
-  {
-    id: "case-study-4",
-    image: "/images/case-studies/fiory-carosel.webp",
-    alt: "Self-service with SAP Fiori",
-    category: "Manufacturing",
-    date: "28 May 2025",
-    title:
-      "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-    description:
-      "Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability.",
-    link: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-  },
-];
 
 export default function InsightsPage() {
+const t = useTranslations('insights')
+const locale = useLocale();
+const insightsContent = locale === "es" ? esContent : enContent;
+  const {caseStudies} = insightsContent.insights;
+
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
   const router = useRouter();
@@ -147,7 +119,7 @@ export default function InsightsPage() {
         <div className="relative h-full custom-container flex items-center">
           <div className="4xl:w-[64%] xl:w-[50%]">
               <h1 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
-              Stay Ahead with Expert Industry Insights
+              {t('insightTitle')}
               </h1>
           </div>
         </div>
@@ -157,16 +129,15 @@ export default function InsightsPage() {
       <div className="custom-container">
         <section className="mb-16 mt-[50px] md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
           <h2 className="text-[#000000] text-[20px] sm:text-[26px] pb-6 mb-8 max-w-4xl">
-            Take a tour of our insights section to see our latest blogs, press
-            releases, case studies, news coverage, updates and upcoming events.
+            {t('insightDesc')}
           </h2>
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
-            <h2>Featured Blog</h2>
+            <h2>{t('featuredTitle')}</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/blogs"
                 className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden">
-                <span className="inline-flex items-center">See All Blogs</span>
+                <span className="inline-flex items-center">{t('allBlog')}</span>
               </Link>
             </div>
           </div>
@@ -206,21 +177,21 @@ export default function InsightsPage() {
                 }}>
                 <div className="flex flex-row items-center mb-4">
                   <span className="text-[#0092E0] font-medium">
-                    Salesforce Agentforce
+                   {t('salesforceTitle')}
                   </span>
                   <span className="mx-2">|</span>
-                  <span className="text-sm">30 Sept 2024</span>
+                  <span className="text-sm">{t('blogDate')}</span>
                 </div>
                 <h3 className="mb-3">
-                  How Salesforce Agentforce Actually Works
+                 {t('howTitle')} 
                 </h3>
                 <p className="mb-4">
-                  Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
+                  {t('howDesc')} 
                 </p>
                 <Link
                   href="/insights/blogs/how-salesforce-agentforce-actually-works"
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
-                  <span>Read More</span>
+                  <span>{t('readMore')}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
@@ -272,22 +243,22 @@ export default function InsightsPage() {
                   }}>
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
-                      Salesforce Agentforce
+                      {t('salesforceTitle')}
                     </span>
                     <span className="text-gray-500 mx-2">|</span>
-                    <span className="text-gray-600 text-sm">21 Oct 2024</span>
+                    <span className="text-gray-600 text-sm">{t('brainDate')}</span>
                   </div>
                   <h3 className="mb-3">
-                    The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
+                   {t('brainBlog')} 
                   </h3>
                   <p className="mb-2">
-                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.
+                   {t('brainDesc')} 
                   </p>
                   <div>
                     <Link
                       href="/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
-                      <span>Read More</span>
+                      <span>{t('readMore')}</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
@@ -339,25 +310,22 @@ export default function InsightsPage() {
                   }}>
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
-                      Salesforce Agentforce
+                      {t('salesforceTitle')} 
                     </span>
                     <span className="text-gray-500 mx-2">|</span>
-                    <span className="text-gray-600 text-sm">28 Oct 2024</span>
+                    <span className="text-gray-600 text-sm">{t('agenticDate')}</span>
                   </div>
                   <h3 className="mb-3">
-                    Agents vs. Copilots vs. Bots: What&apos;s the Difference and
-                    Why It Matters
+                   {t('agenticTitle')}
                   </h3>
                   <p className="mb-2">
-                    Tools like Agentforce are redefining how we view digital
-                    assistants, bringing distinctions between Agents, Copilots,
-                    and Bots to the forefront.
+                   {t('agenticDesc')}
                   </p>
                   <div>
                     <Link
                       href="/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
-                      <span>Read More</span>
+                      <span>{t('readMore')}</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
@@ -381,7 +349,7 @@ export default function InsightsPage() {
             <Link
               href="/insights/blogs"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
-              <span className="inline-flex items-center">See All Blogs</span>
+              <span className="inline-flex items-center">{t('allBlog')}</span>
             </Link>
           </div>
         </section>
@@ -392,15 +360,15 @@ export default function InsightsPage() {
           <div className="lg:max-w-[800px]  xl:max-w-[1600px]">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
               <div>
-                <h2 className="mb-1">Case Studies</h2>
-                <p>Find our latest work and collaborations</p>
+                <h2 className="mb-1">{t('caseTitle')}</h2>
+                <p>{t('caseDesc')}</p>
               </div>
               <div className="hidden sm:block">
                 <Link
                   href="/insights/case-studies"
                   className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden">
                   <span className="inline-flex items-center">
-                    See All Case Studies
+                   {t('allCaseStudy')}
                   </span>
                 </Link>
               </div>
@@ -440,16 +408,16 @@ export default function InsightsPage() {
                 <div className=" p-6 xl:p-12 max-w-2xl">
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">
-                      Automotive
-                    </span>{" "}
+                    Automotive
+                    </span>
                     <span className="mx-2">|</span>
-                    <span className="text-sm">30 June 2025</span>
+                    <span className="text-sm">{t('leadingDate')}</span>
                   </div>
                   <h3 className="mb-3">
-                    Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense
+                   {t('leadingTitle')}
                   </h3>
                   <p>
-                    A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.
+                  {t('leadingblog')} 
                   </p>
                 </div>
               </div>
@@ -507,7 +475,7 @@ export default function InsightsPage() {
               href="/insights/case-studies"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
               <span className="inline-flex items-center">
-                See All Case Studies
+               {t('allCaseStudy')} 
               </span>
             </Link>
           </div>
@@ -521,14 +489,14 @@ export default function InsightsPage() {
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start sm:items-center sm:flex-row mb-8">
-            <h2 className="mb-1">Webinars</h2>
+            <h2 className="mb-1">{t('Webinars')}</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/webinars"
                 className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">
-                  See All Webinars
+                 {t('allWebinars')} 
                 </span>
               </Link>
             </div>
@@ -578,24 +546,24 @@ export default function InsightsPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  Voyage with SAP – Transformational RISE with SAP Services by Rialtes
+                  {t('SapTitle')}
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
-                    <span className="font-medium">May 20, 2025</span>
+                    <span className="font-medium">{t('sapdate')}</span>
                     <span className="mx-2">|</span>
                     <span>10:00 AM CST</span>
                   </div>
                   <div className="space-y-1">
-                    <div className="font-bold">Anuraag Aggarwal</div>
-                    <div className="">Vice President of Global Sales</div>
+                    <div className="font-bold"> Anuraag Aggarwal</div>
+                    <div className=""> {t('president')}</div>
                   </div>
                 </div>
                 <Link
                   href=""
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
-                  <span>Register Now</span>
+                  <span>{t('registerNow')}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
@@ -656,24 +624,24 @@ export default function InsightsPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  Discover the Agentic Capabilities of Agentforce
+                 {t('discoverTitle')} 
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
-                    <span className="font-medium">May 15, 2025</span>
+                    <span className="font-medium">{t('discoverDate')}</span>
                     <span className="mx-2">|</span>
                     <span>10:00 AM CST</span>
                   </div>
                   <div className="space-y-1">
                     <div className="font-bold">Lokesh Adhikari</div>
-                    <div className="">Software Engineer - Salesforce</div>
+                    <div className="">{t('Engineer')}</div>
                   </div>
                 </div>
                 <Link
                   href=""
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
-                  <span>Register Now</span>
+                  <span>{t('registerNow')}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
@@ -733,24 +701,24 @@ export default function InsightsPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  Databricks and Datasphere — What’s in SAP Business Data Cloud?
+                 {t('databricksTitle')} 
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
-                    <span className="font-medium">May 13, 2025</span>
+                    <span className="font-medium">{t('dataDate')}</span>
                     <span className="mx-2">|</span>
                     <span>10:00 AM CST</span>
                   </div>
                   <div className="space-y-1">
                     <div className="font-bold">Akshay Kale</div>
-                    <div className="">Sr. Managing Director – SAP Services</div>
+                    <div className="">{t('director')}</div>
                   </div>
                 </div>
                 <Link
                   href=""
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
                 >
-                  <span>Register Now</span>
+                  <span>{t('registerNow')}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
@@ -854,12 +822,11 @@ export default function InsightsPage() {
             </div> */}
           </div>
           <div className="block sm:hidden mt-12">
-            {" "}
             <Link
               href="/insights/webinars"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
             >
-              <span className="inline-flex items-center">See All Webinars</span>
+              <span className="inline-flex items-center">{t('allWebinars')}</span>
             </Link>
           </div>
         </section>
@@ -867,7 +834,7 @@ export default function InsightsPage() {
 
       {/* Contact Form Section */}
       <div className="py-16 custom-container text-black">
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={'w-[70%] lg:w-[50%] xl:w-[70%]'} />
+        <ContactForm title={t('contactUs')}  className={'w-[70%] lg:w-[50%] xl:w-[70%]'} />
       </div>
     </div>
   );

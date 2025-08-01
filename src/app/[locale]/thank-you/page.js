@@ -3,8 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../messages/en/homepage.json';
+import esContent from '../../../../messages/es/homepage.json';
 
 export default function ThankYou() {
+const t = useTranslations('thankYou')
+const locale = useLocale();
+const thankYouContent = locale === "es" ? esContent : enContent;
+  const {} = thankYouContent.thankYou;
+
   const [isOpen, setIsOpen] = useState(true);
   const closeModal = () => {
     setIsOpen(false);
@@ -47,9 +55,9 @@ export default function ThankYou() {
         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
         priority
       />
-      <h2 className="text-[#134874] xl:font-bold xl:mt-32 mt-2 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[30px] text-[26px]"><span className="xl:border-b-[3px] border-gray-500 inline pb-5">Thank </span>you for contacting Rialtes! </h2>
-      <h3 className="xl:font-bold xl:mt-20 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:w-[55%] w-full mt-2">Our expert will respond to you shortly via your phone or email address.</h3>
-      <h3 className="xl:font-bold text-[#134874] 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:mt-20 mt-5">For more updates follow us on:</h3>
+      <h2 className="text-[#134874] xl:font-bold xl:mt-32 mt-2 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[30px] text-[26px]"><span className="xl:border-b-[3px] border-gray-500 inline pb-5">{t('thankYouTitle')}</span> {t('thankYouTitleOne')}</h2>
+      <h3 className="xl:font-bold xl:mt-20 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:w-[55%] w-full mt-2">{t('thankYouSubtitle')}</h3>
+      <h3 className="xl:font-bold text-[#134874] 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:mt-20 mt-5"> {t('thankYouSubtitleOne')}</h3>
 
       <div className="flex flex-col xl:flex-row  xl:mt-10 xl:gap-32">
         <div className="flex">
@@ -81,7 +89,7 @@ export default function ThankYou() {
         </div>
         <div>
           <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-8">
-            <Link href='/'>Close</Link>
+            <Link href='/'> {t('close')}</Link>
           </button>
         </div>
 

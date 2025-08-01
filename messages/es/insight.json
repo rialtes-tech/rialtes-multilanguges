@@ -1,5 +1,106 @@
 {
-    "insights":{
+    "insights":{ 
+    "insightTitle": "Mantente a la Vanguardia con Información Experta de la Industria",
+    "insightDesc": "Explora nuestra sección de perspectivas para ver nuestros blogs más recientes, comunicados de prensa, estudios de caso, cobertura de noticias, actualizaciones y próximos eventos.",
+  "featuredTitle": "Blog Destacado",
+  "allBlog": "Ver Todos los Blogs",
+  "salesforceTitle": "Salesforce Agentforce",
+  "blogDate": "30 Sept 2024",
+  "howTitle": "Cómo Funciona Realmente Salesforce Agentforce",
+  "howDesc": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando atención, especialmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de campo.",
+  "readMore": "Leer Más",
+  "brainDate": "21 Oct 2024",
+  "brainBlog": "El Cerebro Detrás de los Agentes: Revelando el Motor de Razonamiento Atlas en Agentforce",
+  "brainDesc": "A medida que las empresas escalan, la complejidad de gestionar interacciones con clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y optimizados.",
+  "agenticDate": "28 Oct 2024",
+  "agenticTitle": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la Diferencia y Por Qué Importa?",
+  "agenticDesc": "Herramientas como Agentforce están redefiniendo nuestra visión de los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots.",
+  "caseTitle": "Estudios de Caso",
+  "caseDesc": "Descubre nuestros trabajos y colaboraciones más recientes",
+  "allCaseStudy": "Ver Todos los Estudios de Caso",
+  "leadingDate": "30 Junio 2025",
+  "leadingTitle": "Fabricante Automotriz Líder Logró un 35% Más en la Satisfacción del Cliente con AutoSense",
+  "leadingblog": "Un destacado fabricante global de automóviles, conocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema de gestión de garantías heredado.",
+  
+  "Webinars": "Webinars",
+  "allWebinars": "Ver Todos los Webinars",
+  "SapTitle": "Viaje con SAP – Servicios Transformacionales RISE with SAP por Rialtes",
+  "sapdate": "20 Mayo 2025",
+  "president": "Vicepresidente de Ventas Globales",
+  "registerNow": "Regístrate Ahora",
+  
+  "discoverTitle": "Descubre las Capacidades Agénticas de Agentforce",
+  "discoverDate": "15 Mayo 2025",
+  "Engineer": "Ingeniero de Software - Salesforce",
+  "databricksTitle": "Databricks y Datasphere — ¿Qué Hay en SAP Business Data Cloud?",
+  "director": "Director General Senior – Servicios SAP",
+  "dataDate": "13 Mayo 2025",
+  "contactUs": "Da el siguiente paso hacia la excelencia operativa con nosotros.",
 
+  "caseStudies": [
+    {
+      "id": "case-study-2",
+      "image": "/images/case-studies/revolutionary-filter.webp",
+      "alt": "Transformación de gestión de concesionarios",
+      "category": "Manufactura",
+      "date": "03 Junio 2025",
+      "title": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
+      "description": "Un fabricante automotriz global reconocido por sus vehículos innovadores enfrentaba importantes desafíos con su portal de concesionarios obsoleto.",
+      "link": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense"
+    },
+    {
+      "id": "case-study-3",
+      "image": "/images/case-studies/adaptis-for-carousel.webp",
+      "alt": "Experiencia de reclamo de garantía",
+      "category": "Manufactura",
+      "date": "30 Mayo 2025",
+      "title": "Reclamos en 4 Minutos: Rialtes Crea un Portal Móvil para Transformar la Experiencia de Reclamaciones",
+      "description": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa.",
+      "link": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
+    },
+    {
+      "id": "case-study-4",
+      "image": "/images/case-studies/fiory-carosel.webp",
+      "alt": "Autoservicio con SAP Fiori",
+      "category": "Manufactura",
+      "date": "28 Mayo 2025",
+      "title": "150 Pedidos por Día, Cero Trabajo Manual: Priorización de Pedidos en Autoservicio Impulsada por Fiori",
+      "description": "Nuestro cliente es un fabricante de productos para techado de alta calidad, con un legado basado en la innovación, la calidad y la sostenibilidad.",
+      "link": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori"
     }
+  ]
+    },
+    
+    "news": {
+    "newsTitle": "Noticias",
+    "newsDesc": "Descubre cómo estamos dando forma al futuro de los negocios a nivel mundial. Tu fuente de referencia para las últimas actualizaciones, logros e innovaciones de Rialtes. Mantente informado con nuestras noticias más recientes, comunicados de prensa y perspectivas de la industria mientras seguimos superando los límites en consultoría de procesos, soluciones empresariales impulsadas por IA y transformación digital.",
+    "readMore": "Leer Más",
+    "loadMore": "Cargar Más",
+    "latestCaseStudy": [
+      {
+        "id": 1,
+        "image": "/images/news/new-12-may.webp",
+        "industry": "Noticias",
+        "date": "12 Mayo 2025",
+        "url": "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",
+        "title": "Rialtes se Une al Grupo de Élite como Socio Oficial Revendedor de Salesforce"
+      },
+      {
+        "id": 2,
+        "image": "/images/news/news2.webp",
+        "industry": "Noticias",
+        "date": "18 Abril 2025",
+        "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
+        "title": "Rialtes se Convierte en Socio Certificado de Databricks para Ofrecer Servicios de IA y Datos de Nueva Generación en los Ecosistemas de SAP y Salesforce"
+      },
+      {
+        "id": 3,
+        "image": "/images/news/generic thumb.webp",
+        "industry": "Noticias",
+        "date": "4 Abril 2025",
+        "url": "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+        "title": "Rialtes Technologies Abre Nueva Oficina de Ventas en Baddi, Himachal Pradesh"
+      }
+    ]
+  }
 }

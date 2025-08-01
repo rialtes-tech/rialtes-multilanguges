@@ -4,7 +4,6 @@ import Image from "next/image";
 import { SlControlPlay } from "react-icons/sl";
 import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Script from "next/script";
 
 const schemaData = {
@@ -399,8 +398,6 @@ export default function About() {
                                       : "scale(1)",
                                 }}
                               >
-
-
                                 <Image
                                   src={webinar.backgroundImage}
                                   alt={`${webinar.title} background`}
@@ -579,8 +576,6 @@ export default function About() {
               </Link>
             ))}
           </div>
-
-
           {hasMore && (
             <div className="flex justify-center mt-8">
               <button

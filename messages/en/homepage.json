@@ -308,5 +308,12 @@
   }
 ]
 
+    },
+    "thankYou":{
+        "thankYouTitle": "Thank",
+        "thankYouTitleOne": "you for contacting Rialtes!",
+        "thankYouSubtitle": "Our expert will respond to you shortly via your phone or email address.",
+        "thankYouSubtitleOne": "For more updates follow us on:",
+        "close": "Close"
     }
 }

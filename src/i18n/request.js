@@ -55,6 +55,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const travelIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
     const retailIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
 
+    const insights = (await import(`../../messages/${locale}/insight.json`)).default;
+    const news = (await import(`../../messages/${locale}/insight.json`)).default;
+
+
+
     
 
     return {
@@ -100,7 +105,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...contactUs,
             ...automativeIndustry,
             ...travelIndustry,
-            ...retailIndustry
+            ...retailIndustry,
+            ...insights,
+            ...news
         }
     };
 });

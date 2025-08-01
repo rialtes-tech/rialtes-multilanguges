@@ -1,5 +1,109 @@
 {
     "insights":{
+        "insightTitle": "Stay Ahead with Expert Industry Insights",
+        "insightDesc": "Take a tour of our insights section to see our latest blogs, press releases, case studies, news coverage, updates and upcoming events.",
+        "featuredTitle": "Featured Blog",
+        "allBlog": "See All Blogs",
+        "salesforceTitle": "Salesforce Agentforce",
+        "blogDate": "30 Sept 2024",
+        "howTitle": "How Salesforce Agentforce Actually Works",
+        "howDesc": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
+        "readMore": "Read More",
+        "brainDate": "21 Oct 2024",
+        "brainBlog": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+        "brainDesc": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.",
+        "agenticDate": "28 Oct 2024",
+        "agenticTitle": "Agents vs. Copilots vs. Bots: What&apos;s the Difference and Why It Matters",
+        "agenticDesc": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront.",
+        "caseTitle": "Case Studies",
+        "caseDesc": "Find our latest work and collaborations",
+        "allCaseStudy": " See All Case Studies",
+        "leadingDate": "30 June 2025",
+        "leadingTitle": " Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+        "leadingblog": " A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.",
+        "Webinars": "Webinars",
+        "allWebinars": "See All Webinars",
+        "SapTitle": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+        "sapdate": "May 20, 2025",
+        "president": "Vice President of Global Sales",
+        "registerNow": "Register Now",
+        "discoverTitle": "Discover the Agentic Capabilities of Agentforce",
+        "discoverDate": "May 15, 2025",
+        "Engineer": "Software Engineer - Salesforce",
+        "databricksTitle": "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
+        "director": "Sr. Managing Director – SAP Services",
+        "dataDate": "May 13, 2025",
+        "contactUs":"Take the next step to operational excellence with us.",
+        "caseStudies" : [
+  {
+    "id": "case-study-2",
+    "image": "/images/case-studies/revolutionary-filter.webp",
+    "alt": "Dealer management transformation",
+    "category": "Manufacturing",
+    "date": "03 June 2025",
+    "title": "Revving Up Dealer Management with AutoSense by Rialtes",
+    "description":
+      "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
+    "link": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense"
+  },
+  {
+    "id": "case-study-3",
+    "image": "/images/case-studies/adaptis-for-carousel.webp",
+    "alt": "Warranty claim experience",
+    "category": "Manufacturing",
+    "date": "30 May 2025",
+    "title":
+      "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
+    "description":
+      "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.",
+    "link": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
+  },
+  {
+    "id": "case-study-4",
+    "image": "/images/case-studies/fiory-carosel.webp",
+    "alt": "Self-service with SAP Fiori",
+    "category": "Manufacturing",
+    "date": "28 May 2025",
+    "title":
+      "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+    "description":
+      "Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability.",
+    "link": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori"
+  }
+]
+ },
+"news":{
 
+    "newsTitle":"News",
+    "newsDesc":"Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.",
+    "readMore":"Read More",
+    "loadMore":"Load more",
+    "latestCaseStudy" : [
+  {
+    "id": 1,
+    "image": "/images/news/new-12-may.webp",
+    "industry": "News",
+    "date": "12 May 2025",
+    "url": "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",
+    "title": "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner"
+  },
+  {
+    "id": 2,
+    "image": "/images/news/news2.webp",
+    "industry": "News",
+    "date": "18 April 2025",
+    "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
+    "title": "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems"
+  },
+  {
+    "id": 3,
+    "image": "/images/news/generic thumb.webp",
+    "industry": "News",
+    "date": "4 April 2025",
+    "url": "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+    "title": "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh."
+  }
+]
     }
+
 }

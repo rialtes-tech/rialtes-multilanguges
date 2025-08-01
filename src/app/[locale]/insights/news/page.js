@@ -1,11 +1,15 @@
 "use client";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/insight.json';
+import esContent from '../../../../../messages/es/insight.json';
+
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -26,33 +30,14 @@ const schemaData = {
   }
 
 }
-const latestCaseStudy = [
-  {
-    id: 1,
-    image: "/images/news/new-12-may.webp",
-    industry: "News",
-    date: "12 May 2025",
-    url: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",
-    title: "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
-  },
-  {
-    id: 2,
-    image: "/images/news/news2.webp",
-    industry: "News",
-    date: "18 April 2025",
-    url: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
-    title: "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
-  },
-  {
-    id: 3,
-    image: "/images/news/generic thumb.webp",
-    industry: "News",
-    date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
-    title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
-  },
-];
-const CaseStudyCard = ({ casestudy }) => (
+
+export default function Page() {
+  const t = useTranslations('news')
+  const locale = useLocale();
+  const newsContent = locale === "es" ? esContent : enContent;
+  const {latestCaseStudy} = newsContent.news;
+
+  const CaseStudyCard = ({ casestudy }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
     <div className="relative overflow-hidden">
       <Link href={casestudy.url}>
@@ -80,7 +65,7 @@ const CaseStudyCard = ({ casestudy }) => (
         </Link>
       </div>
       <Link href={casestudy.url}>
-        <p className="text-[#0092E0] font-bold mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight">Read More</p>
+        <p className="text-[#0092E0] font-bold mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight">{t('readMore')}</p>
       </Link>
     </div>
   </div>
@@ -104,7 +89,7 @@ const CaseStudy = () => {
             type="button"
             className="border border-[#707070] font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED]"
             onClick={loadMoreCaseStudy}>
-            <span className="group-hover:pr-4 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">Load more</span>
+            <span className="group-hover:pr-4 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{t('loadMore')}</span>
             <svg
               className="w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               fill="none"
@@ -121,7 +106,7 @@ const CaseStudy = () => {
   );
 };
 
-export default function Page() {
+  
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -159,7 +144,7 @@ export default function Page() {
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
               <h2 className="text-black leading-tight 4xl:text-[70px]  xl:text-[50px]   text-[35px]">
-                News
+               {t('newsTitle')}
               </h2>
             </div>
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -170,7 +155,7 @@ export default function Page() {
       <section
         className="custom-container">
         <div className="md:py-10 py-6 bg-white">
-          <p className="text-[#000000] py-6 max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.</p>
+          <p className="text-[#000000] py-6 max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{t('newsDesc')}</p>
         </div>
       </section>
       <div className="custom-container">
