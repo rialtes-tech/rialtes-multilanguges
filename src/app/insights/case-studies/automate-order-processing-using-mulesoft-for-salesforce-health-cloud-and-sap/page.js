@@ -102,27 +102,38 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]   overflow-hidden">
+       <div className="hidden md:block">
+         <Image
           src="/images/case-studies/case study 1_n 1.webp "
           alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
           fill
           style={{ objectFit: "cover", objectPosition: "70% 30%" }}
           priority
         />
+       </div>
+         <div className="block md:hidden">
+         <Image
+          src="/images/case-studies/case study 1_thumb_n.webp"
+          alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+          fill
+          style={{ objectFit: "cover", objectPosition: "70% 30%" }}
+          priority
+        />
+       </div> 
       </section>
 
       <section
         className="custom-container"
       >
 
-        <div className="py-10 bg-white 4xl:max-w-[1080px] 4xl:w-[1080px] xl:w-[950px]">
+        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px] ">
           <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight text-[26px] md:text-[48px] 4xl:text-[60px] xl:text-[45px]">Automating Order Processing in Healthcare using MuleSoft</h1>
+            <h1 className="text-[#000000] py-6 leading-tight text-[26px]  4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] ">Automating Order Processing in Healthcare using MuleSoft</h1>
           </div>
 
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black  ">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center ">
               <div className='pb-6'>
                 <span className='text-[#0092E0]'>Healthcare</span> <span className='text-[#ACACAC]'> | </span>17 November 2024
               </div>
@@ -131,7 +142,7 @@ export default function Page() {
               </div>
             </div>
             <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]">
+            <div className="flex flex-row gap-6 ml-[-8px] justify-center md:justify-start">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
@@ -176,20 +187,20 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
-              <p className="text-black">A global medical technology company specializing in the development and manufacture of innovative products for diagnosing, treating, and monitoring cardiovascular and endovascular conditions. Their portfolio includes pacemakers, defibrillators, and remote monitoring systems for patients with implanted devices. The company’s mission is to improve the quality of life for individuals with heart and blood vessel diseases through advanced medical technologies.</p>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]  2xl:text-[24px]  xl:text-[21px] text-[23px] leading-tight pb-4">Client Profile</h2>
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">A global medical technology company specializing in the development and manufacture of innovative products for diagnosing, treating, and monitoring cardiovascular and endovascular conditions. Their portfolio includes pacemakers, defibrillators, and remote monitoring systems for patients with implanted devices. The company’s mission is to improve the quality of life for individuals with heart and blood vessel diseases through advanced medical technologies.</p>
               <div className="py-6"></div>
 
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
-              <p className="text-black pb-4">The company faced significant inefficiencies due to a manual, disconnected order processing workflow between Salesforce (used for sales and patient management) and SAP (used for finance and accounting). Key challenges included:</p>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Problem or Challenge </h2>
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">The company faced significant inefficiencies due to a manual, disconnected order processing workflow between Salesforce (used for sales and patient management) and SAP (used for finance and accounting). Key challenges included:</p>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
-                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px] ">Manual data entry  </h3> across systems, leading to frequent delays and human errors</li>
+                <ul className="list-disc marker:text-[#0092E0]  text-black pl-2 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium ">
+                  <li className="pb-4"><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Manual data entry  </h3> across systems, leading to frequent delays and human errors</li>
 
-                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Lack of integration </h3> between sales and finance teams, resulting in data silos and miscommunication.</li>
-                  <li><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Complexity in payment processing, </h3> including insurance claims, co-pays, and direct payments, added strain to the already inefficient process.</li>
+                  <li className="pb-4"><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Lack of integration </h3> between sales and finance teams, resulting in data silos and miscommunication.</li>
+                  <li><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Complexity in payment processing, </h3> including insurance claims, co-pays, and direct payments, added strain to the already inefficient process.</li>
 
 
                 </ul>
@@ -200,17 +211,17 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions</h2>
-              <p className="text-black pb-4 ">Rialtes implemented an integrated Salesforce-SAP solution using MuleSoft, bridging the gap between systems and automating the entire order lifecycle. Key components of the solution:</p>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Solutions</h2>
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">Rialtes implemented an integrated Salesforce-SAP solution using MuleSoft, bridging the gap between systems and automating the entire order lifecycle. Key components of the solution:</p>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
-                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Automated Order Syncing </h3>:  Orders created in Salesforce now automatically trigger corresponding entries in SAP, eliminating the need for manual duplication.</li>
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-2 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium ">
+                  <li className="pb-4"><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Automated Order Syncing </h3>:  Orders created in Salesforce now automatically trigger corresponding entries in SAP, eliminating the need for manual duplication.</li>
 
-                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Real-Time Data Updates </h3>:  Any modifications in one system are instantly reflected in the other, ensuring data accuracy and consistency.</li>
+                  <li className="pb-4"><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Real-Time Data Updates </h3>:  Any modifications in one system are instantly reflected in the other, ensuring data accuracy and consistency.</li>
 
-                  <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">MuleSoft as a Middleware </h3>: Used to map and translate data between systems, accommodating different formats and adhering to healthcare data privacy regulations.</li>
-                  <li><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Role-Based System Segregation </h3>: Salesforce is now focused on patient data and order creation, while SAP manages invoicing, settlements, and accounting—allowing teams to operate within their areas of expertise.</li>
+                  <li className="pb-4"><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">MuleSoft as a Middleware </h3>: Used to map and translate data between systems, accommodating different formats and adhering to healthcare data privacy regulations.</li>
+                  <li><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Role-Based System Segregation </h3>: Salesforce is now focused on patient data and order creation, while SAP manages invoicing, settlements, and accounting—allowing teams to operate within their areas of expertise.</li>
 
                 </ul>
               </div>
@@ -219,29 +230,18 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
-              <p className="text-black pb-4">The integration delivered measurable improvements across departments:</p>
-              {/* <ul className="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] mt-5 font-medium">
-                <li className="pb-4">60% reduction in order processing time by eliminating manual data entry.
-                </li>
-                <li className="pb-4">Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.</li>
-                <li className="pb-4">Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.
-                </li>
-                <li className="pb-4">Up to 40% fewer order discrepancies, thanks to automated validation and real-time updates.
-                </li>
-                <li className="pb-4">Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.
-                </li>
-                <li>Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency.</li>
-              </ul> */}
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Benefits</h2>
+              <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">The integration delivered measurable improvements across departments:</p>
+            
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                  <p className="text-black pb-4"> <li>60% reduction in order processing time by eliminating manual data entry.</li></p>
-                  <p className="text-black pb-4"> <li>Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.</li></p>
-                  <p className="text-black pb-4"><li>Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.</li></p>
-                  <p className="text-black pb-4"> <li>Up to 40% fewer order discrepancies, thanks to automated validation and real-time updates.</li></p>
-                  <p className="text-black pb-4"> <li>Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.</li></p>
-                  <p className="text-black "> <li>Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency.</li></p>
+                <ul className="list-disc marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] text-black pl-2 font-medium ">
+                 <li className="pb-4">60% reduction in order processing time by eliminating manual data entry.</li>
+                   <li className="pb-4">Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.</li>
+                <li className="pb-4">Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.</li>
+                  <li className="pb-4">Up to 40% fewer order discrepancies, thanks to automated validation and real-time updates.</li>
+                 <li className="pb-4">Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.</li>
+               <li>Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency.</li>
 
                 </ul>
               </div>
