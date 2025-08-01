@@ -30,7 +30,7 @@ export const CookieConsentBanner = () => {
         <div className="p-10 xl:gap-20 custom-container grid xl:grid-cols-12">
           {/* Text Section */}
           <div className="text-sm xl:col-span-8 col-span-12">
-            <p className="xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]">
+            <p className="text-[16px]">
               We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and improve our services. We share data about your site usage with our social media, advertising, and analytics partners, who may combine it with other information you’ve provided or collected.
             </p>
           </div>
