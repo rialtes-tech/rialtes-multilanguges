@@ -106,122 +106,6 @@ const LocationPage = () => {
         const contactUsContent = locale === "es" ? esContent : enContent;
         const {locations} = contactUsContent.contactUs;
 
-    // const locations = [
-    //     {
-    //         country: 'UNITED STATES',
-    //         headquarter: 'Austin (Headquarter)',
-    //         address: (
-    //             <>
-    //                 501 Congress Avenue, Suite 150,
-    //                 <br />
-    //                 Austin, Texas, 78701
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
-    //             </>
-    //         ),
-    //     },
-    //     {
-    //         country: 'INDIA',
-    //         headquarter: 'Pune (Headquarter)',
-    //         address: (
-    //             <>
-    //                 World Trade Center, 119, Tower-2,
-    //                 <br />
-    //                 1st Floor, Kharadi, Pune - 411014,
-    //                 <br />
-    //                 Maharashtra, India
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
-    //             </>
-    //         ),
-    //     },
-    //     {
-    //         country: 'SINGAPORE',
-    //         address: (
-    //             <>
-    //                 30 Cecil Street #19-08 Prudential
-    //                 <br />
-    //                 Tower Singapore 049712
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales.sg@rialtes.com">sales.sg@rialtes.com</a>
-    //             </>
-    //         ),
-    //     },
-    //     {
-    //         country: 'UNITED STATES', // California location
-    //         city: 'California',
-    //         address: (
-    //             <>
-    //                 5251 California Ave,
-    //                 <br />
-    //                 Suite 110, Irvine, California, 92617
-    //                 <br />
-    //             </>
-    //         ),
-    //         addBorderBottom: true,
-    //     },
-    //     {
-    //         country: 'INDIA', // Noida location
-    //         city: 'Noida',
-    //         address: (
-    //             <>
-    //                 Berger Delhi One, Sector 16B,
-    //                 <br />
-    //                 C-001/A2, Gautam Buddha
-    //                 <br />
-    //                 Nagar, Noida, UP 201301
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
-    //             </>
-    //         ),
-    //     },
-    //     {
-    //         country: 'CANADA',
-    //         address: (
-    //             <>
-    //                 Suite 500, 1000 Innovation
-    //                 <br />
-    //                 Dr Kanata, ON K2K 3E7
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales.ca@rialtes.com">sales.ca@rialtes.com</a>
-    //             </>
-    //         ),
-    //     },
-    //     {
-    //         country: 'INDIA', // Dehradun location
-    //         city: 'Dehradun',
-    //         address: (
-    //             <>
-    //                 Dehradun IT Park, Weblan Unit A
-    //                 <br />
-    //                 2nd Floor, Sahastradhara
-    //                 <br />
-    //                 Road, Dehradun
-    //                 <br />
-    //                 Uttarakhand - 248001
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
-    //             </>
-    //         ),
-    //     },
-    //     {
-    //         country: 'INDIA', // Dehradun location
-    //         city: 'Himachal Pradesh',
-    //         address: (
-    //             <>
-    //                 Unit #255, Block - B,
-    //                 <br />
-    //                 2nd Floor, Motia Plaza, Baddi,
-    //                 <br />
-    //                 Dist. Solan, Himachal Pradesh 173205
-    //                 <br />
-    //                 E-mail: <a href="mailto:sales@rialtes.com">sales@rialtes.com</a>
-
-    //             </>
-
-    //         ),
-    //     },
-    // ];
     // Group locations by country
     const groupByCountry = (countryName) => {
         return locations.filter(location => location.country === countryName);
@@ -231,6 +115,7 @@ const LocationPage = () => {
             <Seo
                 title="Contact Us – Expert IT Consulting for Your Business Growth | Rialtes"
                 description="Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success."
+             
                 keywords="Contact, website, welcome"
                 canonical={"https://www.rialtes.com/contact-us/"}
             />
