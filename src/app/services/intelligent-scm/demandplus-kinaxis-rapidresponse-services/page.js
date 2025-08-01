@@ -594,7 +594,7 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="custom-container mx-[35px] xl:mx-0 grid xl:grid-cols-12 grid-cols-1 mt-16">
                     <div className="col-span-9 bg-[#068EDA] p-8 pl-12 text-white">
-                        <p className="4xl:text-[26px] text-[18px] font-normal xl:pr-32 4xl:pr-16 leading-tight">Now, connect your supply chain teams, suppliers, and partners with a familiar and powerful interface — WhatsApp + ERP + CRM.</p>
+                        <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[24px] text-[18px] font-normal xl:pr-32 4xl:pr-16 leading-tight">Now, connect your supply chain teams, suppliers, and partners with a familiar and powerful interface — WhatsApp + ERP + CRM.</p>
                     </div>
                 </div>
             </div>
