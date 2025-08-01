@@ -392,8 +392,8 @@ export default function DemandPlusSection() {
                         sizes="100vw"
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 absolute max-md:px-[35px] top-0 xl:pl-20 4xl:pt-20 pt-[25rem] md:pt-[16rem] xl:pt-10">
-                    <div className="xl:col-span-5">
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute max-md:px-[35px] top-0 xl:pl-20 4xl:pt-20  xl:pt-10">
+                    <div className="xl:col-span-5 col-span-12">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Scenario Planning</h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">Prepare for Every Possibility</h3>
                         <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">What-if analysis and scenario simulation are at the heart of Kinaxis RapidResponse, and Rialtes brings the expertise to fully leverage them:</p>
@@ -404,7 +404,7 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-            <section className="mt-[38rem] xl:mt-0 md:mt-0">
+            <section className="mt-[10rem] xl:mt-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 mx-[35px] xl:mx-0">
                     <div className="col-span-6">
                         <Image

@@ -70,7 +70,7 @@ export default function RelatedTopicsCarousel({ slides }) {
     <section className="relative pb-6 bg-white">
       <div className="mb-[36px]">
         <div className="flex flex-row max-md:flex-col justify-between md:mr-24 mr-0">
-          <h2 className="text-black xl:mb-[82px] mb-[40px]">Related <br className="block min-[360px]:hidden"/> Topics</h2>
+          <h2 className="text-black xl:mb-[82px] mb-[40px]  4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px]">Related <br className="block min-[360px]:hidden"/> Topics</h2>
         </div>
         <Carousel
           swipeable={true}

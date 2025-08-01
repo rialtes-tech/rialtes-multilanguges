@@ -32,15 +32,24 @@ export default function Custom404() {
       </div>
 
       <div className="xl:col-span-5 col-span-12 text-center xl:text-left  !not-found-mt mb-10 xl:mb-0">
-        <h1 className="4xl:text-[81px] xl:text-[61px] text-[41px]">OOPS!</h1>
-        <h2 className="4xl:text-[48px] xl:text-[38px] text-[#0A6BB8] mb-4 font-medium text-[18px]">PAGE NOT FOUND</h2>
-        <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mb-6">
-          Sorry, the page you’re looking for doesn’t exist. If you think something is broken, report a problem.
+        {/* <h1 className="4xl:text-[81px] xl:text-[61px] text-[41px]">OOPS!</h1> */}
+        <h1 className="4xl:text-[48px] xl:text-[38px] text-[#0A6BB8] mb-4 font-medium text-[18px] mt-16 md:text-[30px]">PAGE NOT FOUND</h1>
+        <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mb-6 md:text-[20px]">
+          Looks like this page glitched out of existence.
+But don’t worry — our consultants never do.
         </p>
-       
-          <button  onClick={() => router.push('/')} className="bg-[#134874] text-white text-sm md:text-base font-semibold mt-5 py-3 px-6 md:px-8 border border-[#134874] hover:bg-white hover:text-[#134874] transition duration-300">
-            Return To Home
+       <div className="flex gap-10 justify-center xl:justify-start">
+         <button  onClick={() => router.push('https://www.rialtes.com/?utm_source=internal&utm_medium=404_error')} className="bg-[#134874] text-white text-sm md:text-base font-semibold mt-5 py-3 px-6 md:px-8 border border-[#134874] hover:bg-white hover:text-[#134874] transition duration-300">
+            Home
           </button>
+           {/* <button  onClick={() => router.push('/insights')} className="bg-[#134874] text-white text-sm md:text-base font-semibold mt-5 py-3 px-6 md:px-8 border border-[#134874] hover:bg-white hover:text-[#134874] transition duration-300">
+            Insights
+          </button> */}
+           <button  onClick={() => router.push('https://www.rialtes.com/contact-us/?utm_source=internal&utm_medium=404_error')} className="bg-[#134874] text-white text-sm md:text-base font-semibold mt-5 py-3 px-6 md:px-8 border border-[#134874] hover:bg-white hover:text-[#134874] transition duration-300">
+           Contact Us
+          </button>
+       </div>
+         
        
       </div>
     </div>
