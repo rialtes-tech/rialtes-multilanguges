@@ -216,11 +216,11 @@ export default function page() {
             sizes="100vw"
           />
         </div>
-        <div className="relative  custom-container pb-40 md:pb-[30rem] xl:pb-40 4xl:pb-40">
+        <div className="relative  custom-container pb-40 md:pb-[30rem] xl:pb-24 4xl:pb-40">
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
-              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-64">
+              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-64">
                 Intelligent, Connected, and Scalable Retail Transformation
               </h1>
             </div>
@@ -255,8 +255,8 @@ export default function page() {
         </div>
       </section>
       {/* comprehensive section */}
-      <section className="relative  overflow-hidden mt-20 ">
-        <div className="xl:block hidden w-full aspect-[20/0]">
+      <section className="relative  xl:mt-20 h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[840px] 4xl:h-[1135px]">
+        <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/comprehensive.webp"
             alt="comprehensive image"
@@ -267,7 +267,7 @@ export default function page() {
           />
         </div>
 
-        <div className="xl:hidden block w-full aspect-[3/0]">
+        <div className="xl:hidden block w-full">
           <Image
             src="/images/industry/retail/compre-mobile.webp"
             alt="comprehensive image"
@@ -279,17 +279,17 @@ export default function page() {
         </div>
         <div
           className="custom-container max-md:px-0">
-          <div className="relative p-6 4xl:w-[828px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  mt-[25rem] md:mt-[60rem] xl:mt-0 ">
-            <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply"></div>
+          <div className="relative p-6 4xl:w-[828px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  mt-[4rem] md:mt-[5rem] xl:mt-0 ">
+            <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[840px] 4xl:h-[1135px]"></div>
             <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg">
-              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] 4xl:text-[60px] text-[26px]">
+              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] md:text-[30px] 2xl:text-[41px] 4xl:text-[60px] text-[26px]">
                 Comprehensive Services for Modern Retail Enterprises
               </h2>
-              <h3 className="4xl:text-[36px] text-[22px] mt-5">
+              <h3 className="4xl:text-[36px] md:text-[30px] text-[22px] mt-5">
                 Retail+ by Rialtes
               </h3>
-              <h3 className="mt-5 text-[20px] 4xl:text-[30px]">Key Offerings</h3>
-              <ul className="list-disc leading-tight 4xl:space-y-5 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
+              <h3 className="mt-5 text-[20px] 4xl:text-[30px] md:text-[24px]">Key Offerings</h3>
+              <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-5 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[18px] xl:text-[16px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
                 {retailServices.map((service, index) => (
                   <li key={index}>
                     <span className="font-bold">{service.title} </span>
@@ -303,7 +303,7 @@ export default function page() {
       </section>
       <Link
         href="/contact-us"
-        className=" bg-[#006FBE] absolute 4xl:ml-[335px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+        className=" bg-[#006FBE] absolute 4xl:ml-[335px] 2xl:ml-[192px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
         Learn More
       </Link>
       {/* deep industry section */}
@@ -333,7 +333,7 @@ export default function page() {
                   sizes="100vw"
                   priority
                 />
-                <h3 className={`mt-5 font-semibold 4xl:text-[30px] xl:text-[20px] leading-tight ${item.paddingClass}`}>{item.title}</h3>
+                <h3 className={`mt-5 font-semibold 4xl:text-[30px] xl:text-[20px] md:text-[24px] leading-tight ${item.paddingClass}`}>{item.title}</h3>
               </div>
             ))}
           </div>
@@ -506,7 +506,7 @@ export default function page() {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="col-span-4 flex justify-center xl:block">
             <Image
-              className="w-full  h-auto 4xl:h-[671px] xl:h-[451px] mt-16 relative mx-auto xl:mx-0 max-md:px-[35px]"
+              className="w-full  h-auto 4xl:h-[671px] xl:h-[451px] 2xl:h-[500px] mt-16 relative mx-auto xl:mx-0 max-md:px-[35px]"
               src="/images/industry/retail/mobile-re.webp"
               alt="RialChat image"
               width={0}
@@ -515,24 +515,24 @@ export default function page() {
               priority
             />
           </div>
-          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 4xl:h-[865px]">
-            <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[40px] text-[26px]">Introducing RialChat</h2>
-            <h3 className="4xl:text-[42px] text-[22px] mt-4 font-semibold leading-tight">
+          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 2xl:h-[680px] 4xl:h-[865px]">
+            <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[45px] 2xl:text-[45px] text-[26px]">Introducing RialChat</h2>
+            <h3 className="4xl:text-[42px] text-[22px] 2xl:text-[32px] mt-4 font-semibold leading-tight">
               Enterprise-Ready WhatsApp Engagement
             </h3>
-            <p className="mt-5 font-normal 4xl:pr-10 leading-tight 4xl:text-[20px] text-[16px]">
+            <p className="mt-5 font-normal 4xl:pr-10 leading-tight 4xl:text-[20px] text-[16px] 2xl:pr-40">
               RialChat, Rialtes’ bi-directional WhatsApp conversational
               platform, is built natively on Salesforce and designed for
               enterprise-grade communications across sales, service, and
               operations.
             </p>
-            <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-20 4xl:pr-10" liClassName="" />
+            <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-20 4xl:pr-10 2xl:pr-40" liClassName="" />
           </div>
         </div>
       </section>
       <div className="grid grid-cols-12">
         <div className="xl:col-span-3"></div>
-        <div className="xl:col-span-7 mx-[35px] z-[9] xl:mx-0 4xl:ml-[-54px] 2xl:ml-[-100px] 3xl:ml-[-20px]  xl:ml-[-165px] 4xl:mt-[-130px] col-span-12 relative bg-[#163055] p-8 xl:mt-[-115px] mt-[-100px]">
+        <div className="xl:col-span-7 mx-[35px] z-[9] xl:mx-0 4xl:ml-[-54px] 2xl:ml-[-100px] 3xl:ml-[-20px]  xl:ml-[-165px] 2xl:mt-[-115px] 4xl:mt-[-130px] col-span-12 relative bg-[#163055] p-8 xl:mt-[-115px] mt-[-100px]">
           <h3 className="4xl:text-[26px] text-[20px] text-white font-normal leading-tight">
             With RialChat, enterprises can deliver personalized, secure, and
             scalable customer interactions — directly on WhatsApp, embedded within
@@ -541,7 +541,7 @@ export default function page() {
         </div>
       </div>
       {/* why choose section */}
-      <section className="relative h-[1026px] xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
+      <section className="relative h-[1026px] 2xl:h-[715px] xl:h-[715px] 4xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/why.webp"
@@ -562,7 +562,7 @@ export default function page() {
         </div>
         <div
           className="h-full mx-[35px] xl:mx-0 xl:ml-[280px] xl:mr-[156px] md:ml-[100px]">
-          <div className="flex justify-end xl:mt-32 mt-[24rem]">
+          <div className="xl:flex xl:justify-end xl:mt-32 mt-[24rem]">
             <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[560px] xl:h-[495px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
@@ -587,7 +587,7 @@ export default function page() {
           title={
             "Contact Rialtes today to explore how Retail+ can future-proof your retail enterprise."
           }
-          className={"xl:max-w-[72%] leading-tight  4xl:text-[59px] text-[26px] xl:text-[40px]"}/>
+          className={"xl:max-w-[72%] leading-tight  4xl:text-[59px] text-[26px] xl:text-[40px]"} />
       </div>
     </div>
   );
