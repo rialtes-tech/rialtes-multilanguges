@@ -104,7 +104,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
         <Image
           src="/images/case-studies/case-study-6.webp "
           alt="Yardi Managed Services"
@@ -119,9 +119,9 @@ export default function Page() {
         className="custom-container"
       >
 
-        <div className="py-10 bg-white 4xl:max-w-[1100px] 4xl:w-[1100px] xl:w-[850px]">
+        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
           <div className="">
-            <h1 className="text-[#000000] py-6  leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services</h1>
+            <h1 className="text-[#000000] py-6  leading-tight 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] text-[26px] ">Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services</h1>
           </div>
          
           <div className="">
@@ -174,40 +174,40 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
-              <p className="text-black">A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.</p>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px]   2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Client Profile</h2>
+              <p className="text-black - 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.</p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Business Challenge </h2>
+              <h2 className="font-medium text-[#0092E0]  4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight  pb-4">Business Challenge </h2>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                 <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Skill Silos </h3> : Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li>
-              <li className="pb-4" ><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Talent Shortage </h3> : Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li>
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-2 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+                 <li className="pb-4"><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Skill Silos </h3> : Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li>
+              <li className="pb-4" ><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Talent Shortage </h3> : Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li>
  
-                  <li ><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Lack of Centralized Oversight  </h3> : Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li>
+                  <li ><h3 className=" h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Lack of Centralized Oversight  </h3> : Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li>
                 </ul>
 
               </div>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Solutions </h2>
 
-              <p className="text-black pb-6">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
+              <p className="text-black pb-6 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
 
 
             <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Capability Assessment </h3> : Conducted a thorough review of the client’s internal team and identified skill gaps.</li>
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-2 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+                <li className="pb-4"><h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Capability Assessment </h3> : Conducted a thorough review of the client’s internal team and identified skill gaps.</li>
 
-                <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Team Augmentation </h3> :
+                <li className="pb-4"><h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Team Augmentation </h3> :
                  Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage.</li>
 
-                <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Collaborative Transition </h3> : Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li>
+                <li className="pb-4"><h3 className="h3-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Collaborative Transition </h3> : Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li>
 
-                <li ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">End-to-End Ownership </h3> : After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li>
+                <li ><h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">End-to-End Ownership </h3> : After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li>
               </ul>
             </div>
 
@@ -217,16 +217,16 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight  pb-4">Benefits</h2>
 
              <div className="pl-2">
-               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"><li >With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones</li></p>
+               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-2  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
+               <li className="pb-4">With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones</li>
 
-                <p className="text-black pb-4"><li >Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%</li></p>
-                <p className="text-black pb-4"><li >By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions</li></p>
-               <p className="text-black pb-4"><li >Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team</li></p> 
-                <p className="text-black "><li >The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally</li></p> 
+                <li className="pb-4" >Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%</li>
+               <li className="pb-4" >By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions</li>
+             <li className="pb-4">Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team</li>
+                <li  >The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally</li>
               </ul>
              </div>
 
