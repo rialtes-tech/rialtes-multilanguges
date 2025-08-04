@@ -54,13 +54,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const automativeIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
     const travelIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
     const retailIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
-
     const insights = (await import(`../../messages/${locale}/insight.json`)).default;
     const news = (await import(`../../messages/${locale}/insight.json`)).default;
+    const nonProfit = (await import(`../../messages/${locale}/industry.json`)).default;
 
-
-
-    
 
     return {
         locale,
@@ -107,7 +104,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...travelIndustry,
             ...retailIndustry,
             ...insights,
-            ...news
+            ...news,
+            ...nonProfit
         }
     };
 });

@@ -172,7 +172,10 @@
         "copyright": "©2025 Rialtes, All rights reserved"
     },
     "learnMorePage": {
-        "learnmore": "Learn More"
+        "learnmore": "Learn More",
+        "seeAllBlogs": "See All Blogs",
+        "seeAllCaseStudies": "See All Case Studies",
+        "seeAllWebinars": "See All Webinars"
     },
     "useCarouselComponent": {
         "title": "Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.",
