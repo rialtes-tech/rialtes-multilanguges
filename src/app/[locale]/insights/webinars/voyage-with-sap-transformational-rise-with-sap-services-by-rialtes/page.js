@@ -1,12 +1,9 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-;
-import Link from "next/link";
-import WebinarForm from "@/app/[locale]/components/webinarForm";;
+import WebinarForm from "@/app/[locale]/components/webinarForm";
+import Image from "next/image";
 import Script from "next/script";
-
+import { useRef } from "react";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -42,12 +39,9 @@ const schemaData = {
     "keywords": "SAP Rise webinar, RISE with SAP, Voyager+, Rialtes webinars"
 }
 export default function () {
-
     const sectionRef = useRef(null);
-
     const handleScroll = () => {
         if (!sectionRef.current) return;
-
         const getOffset = () => {
             const width = window.innerWidth;
             if (width > 1536) return 160; // 2xl+
@@ -55,18 +49,14 @@ export default function () {
             if (width > 768) return 100;  // md
             return 80; // sm and below
         };
-
         const offset = getOffset();
         const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
-
         window.scrollTo({
             top: elementPosition - offset,
             behavior: 'smooth',
         });
     };
-
     const fullUrl = "https://rialtes.netlify.app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
-
     return (
         <div className="min-h-screen">
             <Seo
@@ -74,7 +64,6 @@ export default function () {
                 description="Join our SAP RISE webinar to explore VoyagerPlus, a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation"
                 canonical="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
             />
-
             <Script
                 id="webinar-schema-voyage"
                 type="application/ld+json"
@@ -90,7 +79,6 @@ export default function () {
                     height={0}
                     className="w-full h-full"
                 />
-
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
                 <div className="xl:col-span-7 col-span-12">
@@ -100,8 +88,7 @@ export default function () {
                                 <a
                                     href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                                     target="_blank"
-                                    rel="noopener noreferrer"
-                                >
+                                    rel="noopener noreferrer">
                                     <Image
                                         src="/images/case-studies/linkedin.svg"
                                         alt="LinkedIn"
@@ -114,11 +101,9 @@ export default function () {
                                 </a>
                             </div>
                             <div className="max-w-[40px]">
-                                <a
-                                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                                     target="_blank"
-                                    rel="noopener noreferrer"
-                                >                      <Image
+                                    rel="noopener noreferrer"                   >                      <Image
                                         src="/images/case-studies/twitter.svg"
                                         alt="Twitter"
                                         width={0}
@@ -130,7 +115,6 @@ export default function () {
                                 </a>
                             </div>
                         </div>
-
                     </div>
                     <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal xl:text-[40px] 4xl:text-[60px]">Voyage with SAP – Transformational RISE with SAP Services by Rialtes</h1>
                     <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
@@ -151,27 +135,21 @@ export default function () {
                         </div>
                     </div>
                     <p className="mt-16 xl:pr-32">Don’t miss this opportunity to join us for an exclusive webinar to explore how <strong>Salesforce Automotive Cloud</strong> is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.</p>
-
                     <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
                     <p className="mt-5 xl:pr-32"><strong>Simplify SAP Transformation:</strong> How an integrated approach removes complexity.</p>
                     <p className="mt-5 xl:pr-32"><strong>Accelerate Cloud Adoption:</strong>Strategies to migrate faster and smarter while minimizing technical debt.</p>
                     <p className="mt-5"><strong>Process Reimagination with SAP Signavio:</strong> Unlock new efficiencies and innovation opportunities..</p>
                     <p className="mt-5 xl:pr-32"><strong>Tap into AI and Automation:</strong> Enhance your SAP operations for smarter, autonomous workflows.</p>
                     <p className="mt-5 xl:pr-32"><strong>Live Demo:</strong> See the Voyager+ framework in action, supporting a smooth RISE with SAP journey.</p>
-
                     <h3 className="mt-16 text-[#0092E0]">Who Should Attend?</h3>
                     <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
-
                         <li className="pb-2 mt-5">CIOs and IT Leaders</li>
                         <li className="pb-2">Digital Transformation Leaders</li>
                         <li className="pb-2">SAP Technical Consultants</li>
                         <li className="pb-2">SAP Functional Consultants</li>
                         <li className="pb-2">Enterprise Architects</li>
                         <li className="pb-2">Anyone planning or accelerating their RISE with SAP transformation</li>
-
                     </ul>
-
-
                 </div>
                 <div className="xl:col-span-4 col-span-12 ">
                     <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
@@ -181,12 +159,8 @@ export default function () {
                         <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
                         <div onClick={handleScroll}>
                             <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
-
                         </div>
-
-
                     </div>
-
                     <h3 className="mt-10">How to Join:</h3>
                     <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
                     <h3 className="mt-10">Can’t Make It?</h3>
@@ -200,7 +174,6 @@ export default function () {
                     redirectUrl="https://www.youtube.com/watch?v=a0ad90kWp0c&t=201s"
                     emailWebinarLink="https://www.rialtes.com/insights/webinars/rialtes-web/src/app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
                 />
-
             </div>
         </div>
     );

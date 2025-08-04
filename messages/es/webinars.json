@@ -1,0 +1,106 @@
+{
+    "webinarComponent": {
+        "speakerTitle": "Ponente",
+        "inThisWebinarTitle": "En este seminario web, obtendrás:",
+        "whotShouldAttendTitle": "¿Quién debería asistir?",
+        "watchNowBtn": "Ver ahora",
+        "howToJoinTitle": "Cómo unirse:",
+        "howToJoinData1": "Una vez registrado, recibirás un correo de confirmación con el enlace de acceso al seminario web e instrucciones.",
+        "howToJoinData2": "¿No puedes asistir?",
+        "howToJoinData3": "¡No hay problema! Regístrate de todos modos y te enviaremos una grabación del seminario web para que la veas cuando te convenga.",
+        "howToJoinData4": "Para consultas, por favor contacta a sales@rialtes.com."
+    },
+    "webinarForm": {
+        "formTitle": "Por favor, complete el formulario para ver el seminario web",
+        "company": "Empresa*",
+        "email": "Correo electrónico*",
+        "emailError1": "El correo electrónico es obligatorio.",
+        "emailError2": "Dirección de correo electrónico no válida.",
+        "fname": "Nombre*",
+        "fnameError1": "El nombre es obligatorio.",
+        "fnameError2": "El nombre contiene caracteres no válidos.",
+        "fnameError3": "El nombre no debe exceder los 40 caracteres.",
+        "lname": "Apellido*",
+        "lnameError1": "El apellido es obligatorio.",
+        "lnameError2": "El apellido contiene caracteres no válidos.",
+        "lnameError3": "El apellido no debe exceder los 40 caracteres.",
+        "phone": "Teléfono",
+        "role": "Cargo*",
+        "enterCaptcha": "Ingrese el Captcha",
+        "captchaMsg": "Ingresa el resultado de la ecuación que se muestra arriba",
+        "watchWebinar": "Ver seminario web",
+        "captchaError1": "El captcha es obligatorio.",
+        "captchaError2": "Respuesta de captcha incorrecta. Por favor, inténtalo de nuevo."
+    },
+    "CIGWebinar": {
+        "webinarTitle": "CIG, tu puerta de entrada a SAP Ariba",
+        "webinarInfo": "Únete a nuestro seminario web exclusivo para descubrir cómo el Ariba Cloud Integration Gateway (CIG) conecta sin problemas tu SAP ERP (S/4HANA) con la Red Ariba. Descubre cómo CIG centraliza y agiliza las transacciones de compras, simplifica la gestión de integraciones y acelera tu camino hacia operaciones de adquisiciones más inteligentes y sincronizadas.",
+        "webinarAdvantagesData": [
+            {
+                "title": "Integración simplificada:",
+                "data": "Cómo CIG conecta SAP ERP y Ariba sin esfuerzo."
+            },
+            {
+                "title": "Arquitectura de CIG:",
+                "data": "Explora los componentes clave y cómo funcionan juntos."
+            },
+            {
+                "title": "Portal de autoservicio:",
+                "data": "Aprende a configurar, probar y monitorear integraciones."
+            },
+            {
+                "title": "Casos de uso reales:",
+                "data": "Ejemplos prácticos de cómo las organizaciones se benefician de CIG."
+            },
+            {
+                "title": "Mejores prácticas de implementación:",
+                "data": "Consejos para una implementación más rápida y una gestión eficaz de errores."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Líderes de compras",
+            "Gerentes de abastecimiento",
+            "Responsables de decisiones de TI",
+            "Consultores técnicos de SAP",
+            "Consultores funcionales de SAP",
+            "Cualquier persona que busque simplificar y optimizar las integraciones de SAP Ariba"
+        ]
+    },
+    "successFactorWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Introducción a SAP SuccessFactors Onboarding 2.0:",
+                "data": "Comprende cómo Onboarding 2.0 transforma la experiencia de los nuevos empleados desde el pre-onboarding hasta alcanzar la productividad."
+            },
+            {
+                "title": "Características Clave y Análisis Comparativo:",
+                "data": "Explora lo nuevo en Onboarding 2.0 frente a la versión 1.0, incluyendo flujos de tareas más inteligentes, mejor personalización y una experiencia de usuario mejorada."
+            },
+            {
+                "title": "Flujo de Trabajo Paso a Paso e Implementación:",
+                "data": "Obtén una hoja de ruta clara del proceso de implementación de ONB 2.0, desde la configuración hasta el lanzamiento en vivo."
+            },
+            {
+                "title": "Integración Perfecta con Employee Central:",
+                "data": "Descubre cómo una integración profunda garantiza la consistencia de los datos y procesos de RRHH más fluidos."
+            },
+            {
+                "title": "Gestión de Tareas Inteligente y Herramientas Digitales:",
+                "data": "Aprende cómo los tableros, las firmas electrónicas y la automatización de tareas mejoran el proceso de incorporación."
+            },
+            {
+                "title": "Mayor Control Administrativo y Personalización:",
+                "data": "Desbloquea nuevos niveles de flexibilidad con reglas de negocio avanzadas, notificaciones y flujos de trabajo personalizados."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Líderes y profesionales de RRHH",
+            "Especialistas en adquisición de talento",
+            "Gerentes de contratación",
+            "Usuarios y administradores de SAP SuccessFactors",
+            "Consultores técnicos de SAP"
+        ],
+        "webinarTitle": "Novedades de SAP SuccessFactors Onboarding 2.0",
+        "webinarInfo": "Descubre una forma más eficiente de incorporar empleados. Únete a nosotros en un seminario web informativo que muestra las últimas mejoras de SAP SuccessFactors Onboarding 2.0, enfocadas en mejorar la experiencia del nuevo empleado desde el pre-onboarding hasta el primer día y más allá, destacando cómo transforma y optimiza el proceso de incorporación en comparación con su predecesor, SAP Onboarding 1.0."
+    }
+}

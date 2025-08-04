@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslations } from 'next-intl';
+
 const generateCaptcha = () => {
     const operators = ['+', '-', '*', '/'];
     const operator = operators[Math.floor(Math.random() * operators.length)];
-
     let num1 = Math.floor(Math.random() * 10) + 1; // Ensure non-zero for division
     let num2 = Math.floor(Math.random() * 10) + 1;
     let question = '';
@@ -34,6 +35,7 @@ const generateCaptcha = () => {
     return { question, answer };
 };
 const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
+    const t = useTranslations("webinarForm");
     const [captcha, setCaptcha] = useState(generateCaptcha());
     const [userAnswer, setUserAnswer] = useState('');
     const [error, setError] = useState('');
@@ -51,37 +53,34 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
         const lastName = form.surname.value.trim();
         const email = form.email.value.trim();
         if (!firstName) {
-            errors.first_name = "First name is required.";
+            errors.first_name = t('fnameError1');
         } else if (!/^[A-Za-z\s'-]+$/.test(firstName)) {
-            errors.first_name = "First name contains invalid characters.";
+            errors.first_name = t('fnameError2');
         } else if (firstName.length > 40) {
-            errors.first_name = "First name should not exceed 40 characters.";
+            errors.first_name = t('fnameError3');
         }
 
         if (!lastName) {
-            errors.surname = "Last name is required.";
+            errors.surname = t('lnameError1');
         } else if (!/^[A-Za-z\s'-]+$/.test(lastName)) {
-            errors.surname = "Last name contains invalid characters.";
+            errors.surname = t('lnameError2');
         } else if (lastName.length > 40) {
-            errors.surname = "Last name should not exceed 40 characters.";
+            errors.surname = t('lnameError3');
         }
 
         if (!email) {
-            errors.email = "Email is required.";
+            errors.email = t('emailError1');
         } else if (!/^\S+@\S+\.\S+$/.test(email)) {
-            errors.email = "Invalid email address.";
+            errors.email = t('emailError2');
         }
 
         if (!userAnswer.trim()) {
-            errors.captcha = "Captcha is required.";
+            errors.captcha = t('captchaError1');
         } else if (parseInt(userAnswer) !== captcha.answer) {
-            errors.captcha = "Wrong captcha answer. Please try again.";
+            errors.captcha = t('captchaError2');
         }
-
         return errors;
     };
-
-
 
     useEffect(() => {
         if (formRef.current) {
@@ -96,27 +95,17 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
     const formRef = useRef();
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         const form = e.currentTarget;
         const errors = validateForm(form);
-
         if (Object.keys(errors).length > 0) {
             setFormErrors(errors);
             setError(errors.captcha || '');
             return;
         }
-
         setError('');
         setFormErrors({});
-
         try {
-            // await emailjs.sendForm(
-            //     'service_af2ly7a',
-            //     'template_0hotei9',
-            //     formRef.current,
-            //     'Snkm_XQ04-jspj9Ba'
-            // );
-             await emailjs.sendForm(
+            await emailjs.sendForm(
                 'service_uvlqqwr',
                 'template_kws7xco',
                 formRef.current,
@@ -126,28 +115,24 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
             form.reset();
             setUserAnswer('');
             setCaptcha(generateCaptcha());
-
             window.location.href = redirectUrl;
 
         } catch (err) {
-            // console.error("Form submission failed", err);
             setError("There was a problem submitting the form. Please try again.");
         }
     };
 
     return (
         <div className=" mt-10 bg-white">
-            <h3 className="mb-4">Kindly fill the form to watch webinar</h3>
-
+            <h3 className="mb-4">{t('formTitle')}</h3>
             <div className="grid grid-cols-6">
                 <div className="col-span-8 xl:col-span-4 md:col-span-6">
                     <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
-
                         <div className="grid grid-cols-2 gap-4">
                             <div>
                                 <input
                                     name="first_name"
-                                    placeholder="First Name*"
+                                    placeholder={t('fname')}
                                     type="text"
                                     className="w-full p-2 border rounded"
                                     id="first_name"
@@ -158,7 +143,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                             <div>
                                 <input
                                     name="surname"
-                                    placeholder="Last Name*"
+                                    placeholder={t('lname')}
                                     type="text"
                                     className="w-full p-2 border rounded"
                                 />
@@ -172,7 +157,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                             <div>
                                 <input
                                     name="email"
-                                    placeholder="Email*"
+                                    placeholder={t('email')}
                                     type="email"
                                     className="w-full p-2 border rounded"
                                 />
@@ -182,7 +167,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                             <div>
                                 <input
                                     name="phone"
-                                    placeholder="Phone"
+                                    placeholder={t('phone')}
                                     type="tel"
                                     className="w-full p-2 border rounded"
                                 />
@@ -193,14 +178,14 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                         <div className="grid grid-cols-2 gap-4">
                             <input
                                 name="company"
-                                placeholder="Company*"
+                                placeholder={t('company')}
                                 type="text"
                                 required
                                 className="w-full p-2 border rounded"
                             />
                             <input
                                 name="job_title"
-                                placeholder="Role*"
+                                placeholder={t('role')} 
                                 type="text"
                                 required
                                 className="w-full p-2 border rounded"
@@ -219,16 +204,15 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     type="number"
                                     value={userAnswer}
                                     onChange={(e) => setUserAnswer(e.target.value)}
-                                    placeholder="Enter Captcha"
+                                    placeholder={t('enterCaptcha')} 
                                     className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 />
                                 <button
                                     type="submit"
                                     name="submit"
                                     value="Submit"
-                                    className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
-                                >
-                                    Watch Webinar
+                                    className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]">
+                                    {t('watchWebinar')}
                                 </button>
                             </div>
 
@@ -248,7 +232,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                 )}
                             </AnimatePresence>
                         </div>
-                        <div className='mt-5'>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+                        <div className='mt-5'> {t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
                         <input type="hidden" name="webinar_link" value={emailWebinarLink} />
                     </form>
                 </div>

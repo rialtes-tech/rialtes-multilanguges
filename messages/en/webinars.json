@@ -1,0 +1,106 @@
+{
+    "webinarComponent": {
+        "speakerTitle": "Speaker",
+        "inThisWebinarTitle": "In This Webinar, You'll Get:",
+        "whotShouldAttendTitle": "Who Should Attend?",
+        "watchNowBtn": "Watch Now",
+        "howToJoinTitle": "How to Join:",
+        "howToJoinData1": "Once registered, you will receive a confirmation email with the webinar access link and instructions.",
+        "howToJoinData2": "Can’t Make It?",
+        "howToJoinData3": "No problem! Go ahead and register, and we’ll send you a recording of the webinar afterward, so you can watch it whenever it suits you best.",
+        "howToJoinData4": "For inquiries, please contact sales@rialtes.com."
+    },
+    "webinarForm": {
+        "formTitle": "Kindly fill the form to watch webinar",
+        "company": "Company*",
+        "email": "Email*",
+        "emailError1": "Email is required.",
+        "emailError2": "Invalid email address.",
+        "fname": "First Name*",
+        "fnameError1": "First name is required.",
+        "fnameError2": "First name contains invalid characters.",
+        "fnameError3": "First name should not exceed 40 characters.",
+        "lname": "Last Name*",
+        "lnameError1": "Last name is required.",
+        "lnameError2": "Last name contains invalid characters.",
+        "lnameError3": "Last name should not exceed 40 characters.",
+        "phone": "Phone",
+        "role": "Role*",
+        "enterCaptcha": "Enter Captcha",
+        "captchaMsg": "Enter the result of the equation shown above",
+        "watchWebinar": "Watch Webinar",
+        "captchaError1": "Captcha is required.",
+        "captchaError2": "Wrong captcha answer. Please try again."
+    },
+    "CIGWebinar": {
+        "webinarTitle": "CIG, Your Gateway to SAP Ariba",
+        "webinarInfo": "Join us for an exclusive webinar to explore how the Ariba Cloud Integration Gateway (CIG) seamlessly connects your SAP ERP (S/4HANA) with the Ariba Network. Discover how CIG centralizes and streamlines procurement transactions, simplifies integration management, and accelerates your journey to smarter, synchronized procurement operations.",
+        "webinarAdvantagesData": [
+            {
+                "title": "Simplified Integration:",
+                "data": "How CIG bridges SAP ERP and Ariba effortlessly."
+            },
+            {
+                "title": "CIG Architecture:",
+                "data": "Dive into key components and how they work together."
+            },
+            {
+                "title": "Self-Service Portal:",
+                "data": "Learn how to configure, test, and monitor integrations."
+            },
+            {
+                "title": "Real-World Use Cases:",
+                "data": "Practical examples of how organizations benefit from CIG."
+            },
+            {
+                "title": "Implementation Best Practices:",
+                "data": "Tips for faster deployment and effective error handling."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Procurement Leaders",
+            "Sourcing Managers",
+            "IT Decision-Makers",
+            "SAP Technical Consultants",
+            "SAP Functional Consultants",
+            "Anyone looking to simplify and optimize SAP Ariba integrations"
+        ]
+    },
+    "successFactorWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Introduction to SAP SuccessFactors Onboarding 2.0:",
+                "data": "Understand how Onboarding 2.0 transforms the new hire experience from pre-boarding to productivity."
+            },
+            {
+                "title": "Key Features & Comparative Analysis:",
+                "data": "Explore what’s new in Onboarding 2.0 vs. 1.0, including smarter task flows, better customization, and enhanced user experience."
+            },
+            {
+                "title": "Step-by-Step Workflow & Implementation:",
+                "data": "Get a clear roadmap of the ONB 2.0 implementation journey—from configuration to go-live."
+            },
+            {
+                "title": "Seamless Integration with Employee Central:",
+                "data": "Discover how deep integration ensures data consistency and streamlined HR processes."
+            },
+            {
+                "title": "Smarter Task Management & Digital Tools:",
+                "data": "Learn how dashboards, e-signatures, and task automation elevate the onboarding process."
+            },
+            {
+                "title": "Greater Admin Control & Customization:",
+                "data": "Unlock new levels of flexibility with advanced business rules, notifications, and personalized workflows."
+            }
+        ],
+        "whoShouldAttendData": [
+            "HR leaders and professionals",
+            "Talent acquisition specialists",
+            "Hiring Managers",
+            "SAP SuccessFactors users and administrators",
+            "SAP Technical Consultants"
+        ],
+        "webinarTitle": "What’s New with SAP SuccessFactors Onboarding 2.0",
+        "webinarInfo": "Unveil the more efficient way of Employee Onboarding.Join us for an insightful webinar that illustrates the latest enhancements in SAP SuccessFactors Onboarding 2.0, aimed at improving the new hire experience from pre - boarding to day one and so on, and highlights how it transforms and streamlines the onboarding journey compared to its predecessor, SAP Onboarding 1.0."
+    }
+}

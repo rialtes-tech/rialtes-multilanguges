@@ -63,6 +63,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const nonProfit = (await import(`../../messages/${locale}/industry.json`)).default;
 
 
+    const CIGWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const voyageWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const successFactorWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const webinarComponent = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const webinarForm = (await import(`../../messages/${locale}/webinars.json`)).default;
+
     return {
         locale,
         messages: {
@@ -111,7 +117,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...news,
             ...nonProfit,
             ...blogs,
-            ...webinars
+            ...webinars,
+            ...CIGWebinar,
+            ...webinarComponent,
+            ...webinarForm,
+            ...voyageWebinar,
+            ...successFactorWebinar
         }
     };
 });
