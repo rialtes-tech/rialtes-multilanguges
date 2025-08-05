@@ -216,11 +216,11 @@ export default function page() {
             sizes="100vw"
           />
         </div>
-        <div className="relative  custom-container pb-40 md:pb-[30rem] xl:pb-24 4xl:pb-40">
+        <div className="relative  custom-container pb-40 md:pb-[30rem] xl:pb-24 4xl:pb-40 2xl:pb-40">
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
-              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-64">
+              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-80">
                 Intelligent, Connected, and Scalable Retail Transformation
               </h1>
             </div>
@@ -255,7 +255,7 @@ export default function page() {
         </div>
       </section>
       {/* comprehensive section */}
-      <section className="relative  xl:mt-20 h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[840px] 4xl:h-[1135px]">
+      <section className="relative  xl:mt-20 h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[2065px] 4xl:h-[1135px] mt-10">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/comprehensive.webp"
@@ -274,22 +274,23 @@ export default function page() {
             priority
             sizes="100vw"
             className="w-full h-full"
-            fill
+            width={0}
+            height={0}
           />
         </div>
         <div
           className="custom-container max-md:px-0">
-          <div className="relative p-6 4xl:w-[828px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  mt-[4rem] md:mt-[5rem] xl:mt-0 ">
-            <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[840px] 4xl:h-[1135px]"></div>
-            <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg">
-              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] md:text-[30px] 2xl:text-[41px] 4xl:text-[60px] text-[26px]">
+          <div className="relative p-6 4xl:w-[828px] mt-[-1075px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  md:mt-[5rem] xl:mt-0 ">
+            <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply h-[1075px] 2xl:h-[868px] xl:h-[830px]  4xl:h-[1135px] md:mt-[-1156px] 2xl:mt-0 xl:mt-0 4xl:mt-0"></div>
+            <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg md:mt-[-1140px] 4xl:mt-0 2xl:mt-0 xl:mt-0">
+              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] md:text-[38px] 2xl:text-[41px] 4xl:text-[60px] text-[26px]">
                 Comprehensive Services for Modern Retail Enterprises
               </h2>
-              <h3 className="4xl:text-[36px] md:text-[30px] text-[22px] mt-5">
+              <h3 className="4xl:text-[36px] md:text-[32px] text-[22px] mt-5">
                 Retail+ by Rialtes
               </h3>
-              <h3 className="mt-5 text-[20px] 4xl:text-[30px] md:text-[24px]">Key Offerings</h3>
-              <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-5 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[18px] xl:text-[16px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
+              <h3 className="mt-5 text-[20px] 4xl:text-[30px] md:text-[25px]">Key Offerings</h3>
+              <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-8 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[20px] xl:text-[16px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
                 {retailServices.map((service, index) => (
                   <li key={index}>
                     <span className="font-bold">{service.title} </span>
@@ -297,17 +298,21 @@ export default function page() {
                   </li>
                 ))}
               </ul>
+              <div className="xl:hidden block mt-[35px]">
+              <LearnMore bgcolor="#006FBE"/>
+              </div>
+             
             </div>
           </div>
         </div>
       </section>
       <Link
         href="/contact-us"
-        className=" bg-[#006FBE] absolute 4xl:ml-[335px] 2xl:ml-[192px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+        className=" bg-[#006FBE] xl:block hidden absolute 4xl:ml-[335px] 2xl:ml-[192px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
         Learn More
       </Link>
       {/* deep industry section */}
-      <section className="bg-[#E8E8E8] xl:pb-32 pb-48">
+      <section className="bg-[#E8E8E8] xl:pb-32 pb-48  mt-[500px] xss:mt-[500px] xs:mt-[500px]  sm:mt-[600px]  md:mt-[700px] lg:mt-[1370px] xl:mt-0">
         <div className="custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-9 col-span-12 xl:mt-32 mt-20">
@@ -321,11 +326,11 @@ export default function page() {
             </div>
             <div className="xl:col-span-2 col-span-12"></div>
           </div>
-          <div className="grid xl:grid-cols-4 grid-cols-2 xl:gap-10 gap-16 mt-16">
+          <div className="grid xl:grid-cols-4 grid-cols-2 xl:gap-10 gap-16 mt-16 md:px-20">
             {retailVerticals.map((item, index) => (
               <div key={index}>
                 <Image
-                  className="4xl:w-[138px] 4xl:h-[138px] w-[75px] h-[75px]"
+                  className="4xl:w-[138px] 4xl:h-[138px] w-[75px] h-[75px] md:w-[100px] md:h-[100px]"
                   src={item.icon}
                   alt={item.title}
                   width={0}
@@ -408,17 +413,17 @@ export default function page() {
           />
         </div>
       </section>
-      <section className="custom-container text-white lg:mt-[-100px] mt-[-120px] relative z-20">
-        <div className="bg-[#6E6E6E] lg:mr-20 lg:p-8 mb-2  md:p-8 sm:p-8  p-8  max-md:mr-0 max-sm:mb-8 pb-20 xl:pb-0 4xl:pb-0">
-          <div className="grid xl:grid-cols-12 grid-cols-1">
-            <div className="xl:col-span-6 col-span-12 xl:pl-14 xl:mt-10 ">
+      <section className="custom-container text-white lg:mt-[-100px] mt-[-120px] relative z-20 md:mt-[-370px]">
+        <div className="bg-[#6E6E6E] lg:mr-20 lg:p-8 mb-2  md:p-8 md:pb-[90px] sm:p-8  p-8  max-md:mr-0 max-sm:mb-8 pb-20 xl:pb-0 4xl:pb-0">
+          <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-12">
+            <div className="xl:col-span-6 col-span-12 xl:pl-14 xl:mt-10 md:col-span-5">
               <h2 className="leading-tight 4xl:text-[57px] xl:text-[40px] text-[26px] xl:pr-10 4xl:pr-0">
                 Specialized Solutions for Real Estate & Hospitality Retail
               </h2>
             </div>
-            <div className="xl:col-span-1 col-span-12 pl-16"></div>
-            <div className="xl:col-span-5 col-span-12">
-              <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10">
+            <div className="xl:col-span-1 col-span-12 md:col-span-1 pl-16"></div>
+            <div className="xl:col-span-5 col-span-12 md:col-span-6">
+              <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10 md:mt-0">
                 Exelona
               </h3>
               <p className="mt-5 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
@@ -430,7 +435,7 @@ export default function page() {
                 sales, leasing, tenant engagement, and operations seamlessly and
                 securely.
               </p>
-              <div className="bottom-0  xl:relative mb-[-31px]  absolute  xl:mt-[41px] mt-12">
+              <div className="bottom-0  xl:relative mb-[-31px]  absolute  xl:mt-[41px] mt-12 md:mb-0">
                 <LearnMore />
               </div>
             </div>
@@ -442,7 +447,7 @@ export default function page() {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-6 col-span-12 mt-16 xl:mb-16 mb-[-20rem] z-10 flex justify-center lg:justify-start">
             <Image
-              className="mx-auto md:mx-0  w-full max-md:px-[35px] xl:h-full h-[391px]"
+              className="mx-auto md:mx-0  w-full max-md:px-[35px] xl:h-full h-[391px] md:h-[480px] lg:h-[600px]"
               src="/images/industry/retail/advance-ai.webp"
               alt="advance-ai image"
               width={0}
