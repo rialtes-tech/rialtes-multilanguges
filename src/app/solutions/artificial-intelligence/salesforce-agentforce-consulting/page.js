@@ -267,12 +267,12 @@ export default function Agentforce() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
             {/* hero section */}
             <section className="relative group overflow-hidden">
-                <div className="relative w-full h-[360px] md:h-[400px] xl:h-[540px] lg:h-[520px] 4xl:h-[800px] 2xl:h-[700px]">
+                <div className="relative w-full h-[360px] md:h-[400px] xl:h-[540px] lg:h-[520px] 4xl:h-[740px] 2xl:h-[600px]">
                     <Image
                         src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
                         alt="Agentforce banner"
                         fill
-                        className="transition-transform duration-500 group-hover:scale-110"
+                        className="transition-transform duration-500 group-hover:scale-110 object-cover"
                         priority
                     />
                 </div>
@@ -280,7 +280,7 @@ export default function Agentforce() {
                     <div className="xl:col-span-6 lg:col-span-11 sm:col-span-11 col-span-12"></div>
                     <div className="xl:col-span-5 space-y-4 xl:pl-[90px]">
                         <h4 className="font-bold lg:text-[24px] text-[18px] md:text-[20px]" >Agentforce</h4>
-                        <h2 className="mt-3 leading-tight 2xl:text-[56px] xl:text-[40px] md:text-[30px] 4xl:text-[60px] w-[300px] lg:w-[400px] 2xl:w-[600px] xl:w-[400px] 4xl:w-[600px] md:w-[280px] lg:text-[38px]">
+                        <h2 className="mt-3 leading-tight 2xl:text-[48px] xl:text-[42px] md:text-[30px] 4xl:text-[60px] w-[300px] lg:w-[400px] 2xl:w-[550px] xl:w-[400px] 4xl:w-[600px] md:w-[280px] lg:text-[38px]">
                             Humans + Agents Automate Routine Tasks to Drive Customer Success
                         </h2>
                         <div>
@@ -297,9 +297,9 @@ export default function Agentforce() {
                     <div className="xl:col-span-1 col-span-12"></div>
                 </div>
             </section>
-            <div className="grid lg:grid-cols-10 gap-5 px-6 custom-container lg:mt-16 mt-5">
+            <div className="grid lg:grid-cols-10 gap-5 px-6 custom-container lg:mt-16 mt-10">
                 <div className="lg:col-span-6">
-                    <h1 className="leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] ">Salesforce Agentforce:<br /> What You Need To Know</h1>
+                    <h1 className="leading-tight text-[22px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] ">Salesforce Agentforce:<br /> What You Need To Know</h1>
                 </div>
             </div>
             <div className="flex xl:gap-20 gap-10 px-6 custom-container flex-col lg:flex-row lg:mt-10 mt-5">
@@ -320,7 +320,7 @@ export default function Agentforce() {
                 </div>
             </div>
             <section className="mt-[50px] md:mt-[60px] lg:mt-[94px] lg:pr-0 custom-container">
-                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
+                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[30px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">Manage Customer Inquiries and Streamline Employee Tasks Around the Clock</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-16 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -343,7 +343,7 @@ export default function Agentforce() {
                         )
                     })}
                 </div>
-                <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px]">Leverage cutting-edge technologies to deliver innovative solutions with Agentforce</h2>
+                <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px]">Leverage cutting-edge technologies to deliver innovative solutions with Agentforce</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:mt-10 gap-3 mt-10 ">
                     {salesForce2.map((sales) => {
                         return (
@@ -357,7 +357,7 @@ export default function Agentforce() {
                 <LearnMore />
             </section>
             <section className="mt-[60px] md:mt-[70px] lg:mt-[104px] px-6 custom-container">
-                <h2 className="xl:w-[700px] md:w-[700px] 2xl:w-[1000px] 4xl:w-[980px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">
+                <h2 className="xl:w-[700px] md:w-[700px] 2xl:w-[1000px] 4xl:w-[980px] leading-tight text-[22px] md:text-[30px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">
                     The Building Blocks to Configure Your Agentforce Agents
                 </h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 mt-10 xl:gap-16 gap-5 md:gap-12">
@@ -388,7 +388,7 @@ export default function Agentforce() {
             </section>
             {/* //industries benifites */}
             <section className="mt-[75px] md:mt-[120px] lg:mt-[120px]  px-6 custom-container">
-                <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">Industry-specific Benefits That We Bring to Our Clients</h2>
+                <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[30px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">Industry-specific Benefits That We Bring to Our Clients</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
                     {industryBenifite.map((benifite) => {
                         return (

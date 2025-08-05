@@ -941,7 +941,7 @@ export default function () {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
+            <section className="relative group overflow-hidden   h-[350px] md:h-[500px]  4xl:h-[650px]     ">
                 <div className="hidden md:block">
                     <Image
                         src="/images/solutions/data-sphere/data-sphere-banner.webp"

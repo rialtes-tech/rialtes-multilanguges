@@ -161,7 +161,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="xl:block hidden">
           <Image
             src="/images/sap-bdc-services/sap-bdc-services-web.webp"
@@ -423,14 +423,14 @@ export default function Page() {
             {exploreData.map((data, ind) => {
               const isFirstThree = ind === 0 || ind === 1 || ind === 2;
               const borderClasses = isFirstThree
-                ? "border-b lg:border-b-0 lg:border-r-2 border-[#848484] pb-[40px] xl:pb-0"
+                ? "border-b lg:border-b-0 lg:border-r-2 border-[#848484] pb-[40px] md:pb-[30px] xl:pb-0"
                 : "";
               return (
                 <div
                   className={`h-full ${borderClasses} first:pl-0 first:pt-0 pt-[42px] md:pt-0 last:pr-0 md:pl-[10px] md:pr-[10px] lg:pl-[30px] lg:pr-[20px] flex flex-col justify-between`}
                   key={ind}>
                   <div>
-                    <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] font-bold leading-tight">
+                    <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] font-bold leading-tight md:mt-4">
                       {data.title}
                     </h3>
                     <p className="mt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">

@@ -230,7 +230,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[470px] sm:h-[640px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
         <div className="md:block hidden">
           <Image
             src="/images/services/success-plus/desktop-banner.webp"
@@ -284,13 +284,13 @@ export default function Page() {
               As a certified SAP partner with global offices in India, the United States, Canada, and Singapore, Rialtes brings deep industry knowledge, SAP-certified experts, and real-world experience to design, implement, and optimize SAP SuccessFactors solutions tailored to your needs.
             </p>
           </div>
-          <div className="lg:col-span-4 col-span-12 lg:my-auto lg:ml-auto order-1 lg:order-2 mt-[40px]">
+          <div className="lg:col-span-4 col-span-12 lg:my-auto lg:ml-auto order-1 lg:order-2 mt-[40px] ">
             <Image
               src="/images/services/success-plus/successfactor-logo-1.jpg"
               alt="SAP Partner Logo"
               width={0}
               height={0}
-              className="w-full h-full md:w-[50%] lg:w-full lg:h-full"
+              className="w-full h-full md:w-[50%] lg:w-full lg:h-full mr-20"
               priority
             />
           </div>
@@ -440,7 +440,7 @@ export default function Page() {
         </>
 
         {/* benefits of migrating */}
-        <div className="xl:mt-[100px] mt-[63px] bg-[#FFFFFF] py-[40px] px-[24px] xl:py-[83px] md:px-[60px]">
+        <div className="xl:mt-[100px] mt-[63px] bg-[#FFFFFF] py-[40px] px-[24px] xl:py-[83px] md:px-[60px] border-b-4">
           <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
             Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+
           </h2>
@@ -473,24 +473,26 @@ export default function Page() {
       <section className="custom-container xl:mt-[116px] mt-[55px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
           <div className="xl:col-span-8 col-span-12">
-            <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[91%]">
+            <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[94%]">
               Process-Driven Success with SAP Signavio and SAP Activate Methodology
             </h2>
+              <div className="xl:col-span-4 col-span-12">
+            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full mt-6">
+              Rialtes leverages SAP Signavio’s powerful process intelligence combined with SAP Activate Methodology to ensure smooth and efficient implementation of SAP SuccessFactors.
+            </p>
+          </div>
             <h3 className="xl:text-[34px] 4xl:text-[40px] leading-tight text-[22px] xl:mt-[72px] mt-[26px] font-normal">
               <span className="font-bold">SAP Activate Methodology - </span> <div /> Phased Approach with Rialtes:
             </h3>
           </div>
-          <div className="xl:col-span-4 col-span-12">
-            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full">
-              Rialtes leverages SAP Signavio’s powerful process intelligence combined with SAP Activate Methodology to ensure smooth and efficient implementation of SAP SuccessFactors.
-            </p>
-          </div>
+        
+
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[120px] mt-[40px] sm:w-[80%] md:w-[90%] xl:w-full 2xl:w-[90%] md:gap-x-[60px] lg:gap-0">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[120px]  sm:w-[80%] md:w-[90%] xl:w-full 2xl:w-[90%] md:gap-x-[60px] lg:gap-0">
           {
             sapActivateData.map((data, ind) => {
               return (
-                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[60px] md:py-[40px] lg:py-0 
+                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[40px] md:py-[40px] lg:py-0 
                                           ${(data.id === 5 || data.id === 6) && "md:border-0"} 
                                           ${data.id === 2 && "lg:!py-0"} 
                                           ${(data.id == 2 || data.id == 5) && "lg:mt-[60] xl:mt-[80px] lg:h-[250px] xl:h-[260px] 4xl:h-[330px] lg:px-[30px] xl:px-[40px] lg:border-l border-[#B9B9B9]"} 
