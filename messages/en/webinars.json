@@ -102,5 +102,175 @@
         ],
         "webinarTitle": "What’s New with SAP SuccessFactors Onboarding 2.0",
         "webinarInfo": "Unveil the more efficient way of Employee Onboarding.Join us for an insightful webinar that illustrates the latest enhancements in SAP SuccessFactors Onboarding 2.0, aimed at improving the new hire experience from pre - boarding to day one and so on, and highlights how it transforms and streamlines the onboarding journey compared to its predecessor, SAP Onboarding 1.0."
+    },
+    "voyageWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Simplify SAP Transformation:",
+                "data": "How an integrated approach removes complexity."
+            },
+            {
+                "title": "Accelerate Cloud Adoption:",
+                "data": "Strategies to migrate faster and smarter while minimizing technical debt."
+            },
+            {
+                "title": "Process Reimagination with SAP Signavio:",
+                "data": "Unlock new efficiencies and innovation opportunities."
+            },
+            {
+                "title": "Tap into AI and Automation:",
+                "data": "Enhance your SAP operations for smarter, autonomous workflows."
+            },
+            {
+                "title": "Live Demo:",
+                "data": "See the Voyager+ framework in action, supporting a smooth RISE with SAP journey."
+            }
+        ],
+        "whoShouldAttendData": [
+            "CIOs and IT Leaders",
+            "Digital Transformation Leaders",
+            "SAP Technical Consultants",
+            "SAP Functional Consultants",
+            "Enterprise Architects",
+            "Anyone planning or accelerating their RISE with SAP transformation"
+        ],
+        "webinarTitle": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+        "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform."
+    },
+    "discoverAgenticWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "What is Agentforce?",
+                "data": "Understand the fundamentals of Agentic AI and how Agentforce stands apart from traditional bots."
+            },
+            {
+                "title": "Autonomous Task Execution: ",
+                "data": "See how intelligent agents can complete tasks without manual intervention."
+            },
+            {
+                "title": "Human-like, Contextual Interactions:",
+                "data": "Explore how Agentforce understands context, maintains conversation memory, and engages in natural, personalized conversations."
+            },
+            {
+                "title": "Seamless Integration with Your Tech Stack: ",
+                "data": "how Agentforce easily plugs into your existing Salesforce ecosystem and other enterprise tools."
+            },
+            {
+                "title": "Real-World Impact & Bonus Capabilities:",
+                "data": "See how Agentforce delivers measurable value across industries and discover additional capabilities like multi-channel support, and AI-driven insight"
+            }
+        ],
+        "whoShouldAttendData": [
+            "Business Leaders",
+            "Innovation & AI Teams",
+            "IT Decision-Makers",
+            "Salesforce Administrators and Consultants",
+            "Innovation and Digital Transformation Teams",
+            "Anyone looking to supercharge workflows with intelligent, agentic AI solutions"
+        ],
+        "webinarTitle": "Discover the Agentic Capabilities of Agentforce",
+        "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry.Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform."
+    },
+    "databricksWebinar": {
+        "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.",
+        "webinarTitle": "Databricks and Datasphere — What’s in SAP Business Data Cloud ?",
+        "webinarAdvantagesData": [
+            {
+                "title": "Modern Data Challenge:",
+                "data": "Understand today's enterprise data complexities and how SAP’s Cloud Vision addresses them."
+            },
+            {
+                "title": "Core Capabilities:",
+                "data": "Dive into the features of Databricks and SAP Datasphere—and how they compare."
+            },
+            {
+                "title": "Seamless Integration:",
+                "data": "Explore how SAP Datasphere and Databricks integrate with SAP systems and with each other."
+            },
+            {
+                "title": "Strategic Decision Factors:",
+                "data": "Get a clear framework to shape your data strategy using SAP Business Data Cloud."
+            },
+            {
+                "title": "Live Demo:",
+                "data": "Witness how unified data can unlock AI-driven insights in real time."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Data Engineers and Architects",
+            "IT Decision-Makers",
+            "SAP Administrators and Consultants",
+            "Analytics and BI Leaders",
+            "Innovation and Digital Transformation Teams",
+            "Anyone seeking to unify enterprise data and power AI initiatives"
+        ]
+    },
+    "deliverEndToEndWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Comprehensive Overview:",
+                "data": "Understand the core capabilities of Salesforce Automotive Cloud and how it supports a connected customer journey in the automotive sector."
+            },
+            {
+                "title": "Introduction to the Automotive Cloud:",
+                "data": "Learn how the platform addresses industry-specific challenges and use cases tailored to auto manufacturers, dealers, and mobility service providers."
+            },
+            {
+                "title": "Key Insights and Stakeholder Scenarios:",
+                "data": "Explore how various stakeholders, from sales to service, can leverage Automotive Cloud for personalized engagement and seamless collaboration."
+            },
+            {
+                "title": "Unified Customer Data:",
+                "data": "See how you can unify every touchpoint across sales, service, marketing, and post-sale support for a 360° customer view."
+            },
+            {
+                "title": "Streamlined Sales & Service:",
+                "data": "Experience smarter workflows and automation that enhance response times, reduce friction, and drive conversions."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Automotive Sales & Service Leaders",
+            "CRM & Digital Transformation Heads",
+            "Dealership Owners & Operators",
+            "Auto Manufacturer IT Teams",
+            "Salesforce Admins & Consultants",
+            "Anyone seeking to deliver high-performance customer experiences in the auto industry"
+        ],
+        "webinarTitle": "Deliver End - to - End Customer Journey with Salesforce Automotive Cloud",
+        "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform."
+    },
+    "letsWhatsappWebinar": {
+        "webinarTitle": "Let’s WhatsApp in Salesforce with AgentChat",
+        "webinarInfo": "Don’t miss this exclusive webinar to discover how AgentChat our native, bidirectional Salesforce WhatsApp integration, transforms the way your teams communicate, directly within Salesforce. Whether you're in Sales, Service, Marketing, or Field Operations, AgentChat brings seamless, real-time WhatsApp conversations to your CRM environment.",
+        "webinarAdvantagesData": [
+            {
+                "title": "Cross-Cloud Compatibility:",
+                "data": "How AgentChat works across every Salesforce Cloud—from Sales and Service to Marketing and Field Ops."
+            },
+            {
+                "title": "Faster Customer Response Times:",
+                "data": "Reduce delays and close conversations faster."
+            },
+            {
+                "title": "Workflow Automation:",
+                "data": "Trigger tasks, alerts, and records based on chat actions."
+            },
+            {
+                "title": "Features and Benefits:",
+                "data": "Explore the core capabilities of AgentChat and the real-world impact they deliver."
+            },
+            {
+                "title": "Live Demo:",
+                "data": "See AgentChat in action and how Salesforce WhatsApp integration fits into your current Salesforce setup."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Salesforce Admins & Developers",
+            "Sales & Service Team Leads",
+            "Customer Experience Managers",
+            "Field Operations Managers",
+            "CRM & Marketing Professionals",
+            "Anyone looking to improve customer engagement within Salesforce"
+        ]
     }
 }

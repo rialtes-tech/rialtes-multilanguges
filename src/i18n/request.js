@@ -70,6 +70,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const successFactorWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
     const webinarComponent = (await import(`../../messages/${locale}/webinars.json`)).default;
     const webinarForm = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const databricksWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const deliverEndToEndWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
+    const letsWhatsappWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
 
     return {
         locale,
@@ -127,7 +130,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...successFactorWebinar,
             ...caseStudy,
             ...latestBlog,
-            ...termsUse
+            ...termsUse,
+            ...databricksWebinar,
+            ...deliverEndToEndWebinar,
+            ...letsWhatsappWebinar
         }
     };
 });
