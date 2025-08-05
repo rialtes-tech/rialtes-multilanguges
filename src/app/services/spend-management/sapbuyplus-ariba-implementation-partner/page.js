@@ -201,7 +201,7 @@ const UnlockProcurementSection = () => {
                             <div>
                                 <ul className="list-disc pl-6 lg:mt-[25px] mt-[29px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]">
                                     {benefitsData.map((item, index) => (
-                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
+                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] 2xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
                                             <span className="font-bold">{item.title}</span> {item.desc}
                                         </li>
                                     ))}
@@ -218,7 +218,7 @@ const UnlockProcurementSection = () => {
                             <div>
                                 <ul className="list-disc pl-6 lg:mt-[25px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]">
                                     {migrationData.map((item, index) => (
-                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
+                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] 2xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
                                             <span className="font-bold">{item.title}</span> {item.desc}
                                         </li>
                                     ))}

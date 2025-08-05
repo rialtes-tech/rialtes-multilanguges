@@ -627,7 +627,7 @@ export default function Page() {
         {/* blue box */}
         <div className="lg:mt-[-60px]">
           <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
-            <h4 className="xl:text-[20px] 4xl:text-[26px] leading-tight text-[18px] font-normal">Rialtes customizes and fine-tunes Joule to align with your HR needs.</h4>
+            <h4 className="xl:text-[24px] 4xl:text-[26px] 2xl:text-[24px] leading-tight text-[18px] font-normal">Rialtes customizes and fine-tunes Joule to align with your HR needs.</h4>
           </div>
         </div>
       </section>
