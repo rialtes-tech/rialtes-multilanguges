@@ -37,7 +37,7 @@ export default function Page() {
   const t = useTranslations('blogs')
   const locale = useLocale();
   const blogsContent = locale === "es" ? esContent : enContent;
-  const {latestBlogs,industries,categories,slides} = blogsContent. blogs;
+  const {latestBlogs,industries,categories,slides} = blogsContent.blogs;
 
     const BlogCard = ({ blog }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
@@ -90,23 +90,23 @@ const BlogList = () => {
   };
 
 
-  const [selectedIndustry, setSelectedIndustry] = useState('All');
+  const [selectedIndustry, setSelectedIndustry] = useState(t('all'));
 
   const filterBlogsByIndustry = (industry) => {
     setSelectedIndustry(industry);
     setShowOptionsIndustry(false);
   };
 
-  const filteredBlogs = selectedIndustry === 'All' ? latestBlogs : latestBlogs.filter(blog => blog.industry === selectedIndustry);
+  const filteredBlogs = selectedIndustry === t('all') ? latestBlogs : latestBlogs.filter(blog => blog.industry === selectedIndustry);
 
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState(t('all'));
 
   const filterBlogsByCategory = (category) => {
     setSelectedCategory(category);
     setShowOptionsCategory(false);
   };
 
-  const filteredBlogsByCategory = selectedCategory === 'All' ? filteredBlogs : filteredBlogs.filter(blog => blog.category === selectedCategory);
+  const filteredBlogsByCategory = selectedCategory === t('all') ? filteredBlogs : filteredBlogs.filter(blog => blog.category === selectedCategory);
 
   const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
@@ -119,7 +119,7 @@ const BlogList = () => {
         <div className="relative flex flex-row max-[320px]:flex-col md:ml-auto h-[60px] mt-4 max-[320px]:mb-12 max-[320px]:gap-2">
           <div className="relative">
             <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
-              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedIndustry === 'All' ? t('industryTitle') : selectedIndustry}</span>
+              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedIndustry === t('all') ? t('industryTitle') : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'
@@ -150,7 +150,7 @@ const BlogList = () => {
           </div>
           <div className="relative">
             <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
-              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === 'All' ? t('categoryTitle') : selectedCategory}</span>
+              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === t('all') ? t('categoryTitle') : selectedCategory}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'

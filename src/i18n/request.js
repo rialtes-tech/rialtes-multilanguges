@@ -58,10 +58,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const news = (await import(`../../messages/${locale}/insight.json`)).default;
     const blogs = (await import(`../../messages/${locale}/insight.json`)).default;
     const webinars = (await import(`../../messages/${locale}/insight.json`)).default;
+    const caseStudy = (await import(`../../messages/${locale}/insight.json`)).default;
+    const latestBlog = (await import(`../../messages/${locale}/insight.json`)).default;
+    const termsUse = (await import(`../../messages/${locale}/insight.json`)).default;
 
 
     const nonProfit = (await import(`../../messages/${locale}/industry.json`)).default;
-
 
     const CIGWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
     const voyageWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
@@ -122,7 +124,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...webinarComponent,
             ...webinarForm,
             ...voyageWebinar,
-            ...successFactorWebinar
+            ...successFactorWebinar,
+            ...caseStudy,
+            ...latestBlog,
+            ...termsUse
         }
     };
 });

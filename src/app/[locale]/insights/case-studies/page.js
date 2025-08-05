@@ -6,9 +6,11 @@ import BlogsCarousel from '../../components/latestBlogCarousel';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Seo from "@/app/[locale]/components/Seo";
-;
 import { HeroSection } from "@/app/[locale]/components/herosection";
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/insight.json';
+import esContent from '../../../../../messages/es/insight.json';
 
 const schemaData = {
 
@@ -32,141 +34,14 @@ const schemaData = {
 
 
 }
-const latestCaseStudy = [
-  {
-    id: 14,
-    image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
-    industry: "Automotive",
-    date: "30 June 2025",
-    url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
-    title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
-    description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
-  },
-  {
-    id: 13,
-    image: "/images/case-studies/Adaptis_featured CS.webp",
-    industry: "Manufacturing",
-    date: "10 June 2025",
-    url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
-    title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
-    description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
 
-  },
-  {
-    id: 12,
-    image: "/images/case-studies/revolutionary-filter.webp",
-    industry: "Manufacturing",
-    date: "03 June 2025",
-    url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-    title: "Revving Up Dealer Management with AutoSense by Rialtes",
-    description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
-  },
-  {
-    id: 11,
-    image: "/images/case-studies/adaptis-for-carousel.webp",
-    industry: "Manufacturing",
-    date: "30 May 2025",
-    url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
-    title: "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
-    description: "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
-  },
-  {
-    id: 1,
-    image: "/images/case-studies/fiory-carosel.webp",
-    industry: "Manufacturing",
-    date: "28 May 2025",
-    url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-    title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-    description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
-  },
-  {
-    id: 2,
-    image: "/images/case-studies/carosel.webp",
-    industry: "Manufacturing",
-    date: "26 Mar 2025",
-    url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
-    title: "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
-    description: "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. ",
-  },
-  {
+export default function Page() {
+   const t = useTranslations('caseStudy')
+    const locale = useLocale();
+    const caseStudyContent = locale === "es" ? esContent : enContent;
+    const {latestCaseStudy,slides,industries} = caseStudyContent.caseStudy;
 
-    id: 3,
-    image: "/images/case-studies/case study 3_thumb_n.webp",
-    industry: "Manufacturing",
-    date: "08 Jan 2025",
-    url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-    title: "DevOps Transformation using Copado and Salesforce",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-  },
-  {
-    id: 4,
-    image: "/images/case-studies/case-study-2_thumb_n.webp",
-    industry: "Real Estate",
-    date: "22 Dec 2024",
-    url: "/insights/case-studies/realForce-banking-module-ach",
-    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-  {
-    id: 5,
-    image: "/images/case-studies/case study 1_thumb_n.webp",
-    industry: "Healthcare",
-    date: "17 Nov 2024",
-    url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-    title: "Automating Order Processing in Healthcare using MuleSoft",
-    description: "A global medical technology company that develops and manufactures innovative products",
-  },
-  {
-    id: 6,
-    image: "/images/case-studies/case-study-4_thumb.webp",
-    industry: "Manufacturing",
-    date: "14 Oct 2024",
-    url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
-    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-  },
-  {
-    id: 7,
-    image: "/images/case-studies/case-study-5_thumb.webp",
-    industry: "Public Sector",
-    date: "27 Sept 2024",
-    url: "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
-    title: "Trusted YARDI Partner for North America’s Largest PHA",
-    description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
-  },
-  {
-    id: 8,
-    image: "/images/case-studies/case-study-6_thumb.webp",
-    industry: "Real Estate",
-    date: "04 Sept 2024",
-    url: "/insights/case-studies/yardi-managed-services",
-    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-  {
-    id: 9,
-    image: "/images/case-studies/case-study-7_thumb.webp",
-    industry: "Healthcare",
-    date: "16 Aug 2024",
-    url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-    title: "Digitizing the Patient Journey Using Salesforce Health Cloud",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-  },
-  {
-    id: 10,
-    image: "/images/case-studies/case-study-8_thumb.webp",
-    industry: "Healthcare",
-    date: "02 Aug 2024",
-    url: "/insights/case-studies/salesforce-health-cloud-prior-authorization",
-    title: "Digitizing Prior Authorization for Better Patient Outcomes",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-  },
-
-
-  // Add more case study objects as needed
-];
-
-const CaseStudyCard = ({ casestudy }) => (
+  const CaseStudyCard = ({ casestudy }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
     <div className="relative overflow-hidden">
       <Link href={casestudy.url}>
@@ -218,23 +93,23 @@ const CaseStudy = () => {
   };
 
 
-  const [selectedIndustry, setSelectedIndustry] = useState('All');
+  const [selectedIndustry, setSelectedIndustry] = useState(t('all'));
 
   const filterCaseStudyByIndustry = (industry) => {
     setSelectedIndustry(industry);
     setShowOptionsIndustry(false);
   };
 
-  const filteredBlogs = selectedIndustry === 'All' ? latestCaseStudy : latestCaseStudy.filter(blog => blog.industry === selectedIndustry);
+  const filteredBlogs = selectedIndustry === t('all') ? latestCaseStudy : latestCaseStudy.filter(blog => blog.industry === selectedIndustry);
 
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState(t('all'));
 
   const filterCaseStudyByCategory = (category) => {
     setSelectedCategory(category);
     setShowOptionsCategory(false);
   };
 
-  const filteredCaseStudyByCategory = selectedCategory === 'All' ? filteredBlogs : filteredBlogs.filter(blog => blog.category === selectedCategory);
+  const filteredCaseStudyByCategory = selectedCategory === t('all') ? filteredBlogs : filteredBlogs.filter(blog => blog.category === selectedCategory);
 
   const isLoadMoreVisible = visibleCaseStudy < filteredCaseStudyByCategory.length;
 
@@ -242,12 +117,12 @@ const CaseStudy = () => {
     <div className=" text-black">
       <div className="flex sm:flex-row flex-col pb-4 sm:items-center">
         <div className="flex flex-col sm:pb-0 pb-4">
-          <h2 className="text-black leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">Search result by {selectedIndustry} industry</h2>
+          <h2 className="text-black leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">{t('searchByTitle')}  {selectedIndustry} {t('searchByTitleone')}</h2>
         </div>
         <div className="relative flex sm:flex-row sm:ml-auto h-[60px]">
           <div className="relative">
             <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
-              <span className="pr-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
+              <span className="pr-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === t('all') ? t('industry') : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'
@@ -260,25 +135,31 @@ const CaseStudy = () => {
             </button>
             {showOptionsIndustry && (
               <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] right-0 z-10'>
-                <ul className="leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">
-                  <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('All')}>All</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Healthcare')}>Healthcare</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi tech')}>Hi tech</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Public Sector')}>Public Sector</li>
-                </ul>
-              </div>
+  <ul className="leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">
+    {industries.map((industry, index) => {
+      const isFirst = index === 0;
+      const isLast = index === industries.length - 1;
+      return (
+        <li
+          key={industry}
+          className={`px-5 py-2 cursor-pointer ${isFirst ? 'pt-4' : ''} ${isLast ? 'pb-4' : ''}`}
+          onClick={() => filterCaseStudyByIndustry(industry)}
+        >
+          {industry}
+        </li>
+      );
+    })}
+  </ul>
+</div>
             )}
           </div>
 
         </div>
       </div>
-
       <div className="py-6"></div>
 
       {filteredCaseStudyByCategory.length === 0 ? (
-        <p className='text-center text-xl py-4 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>No Case Study Found</p>
+        <p className='text-center text-xl py-4 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>{t('noCaseTitle')} </p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
           {filteredCaseStudyByCategory.slice(0, visibleCaseStudy).map((casestudy) => (
@@ -295,7 +176,7 @@ const CaseStudy = () => {
             onClick={loadMoreCaseStudy}
             disabled={visibleCaseStudy >= filteredCaseStudyByCategory.length}
           >
-            <span className='group-hover:pr-7 transition-all duration-300 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>Load more</span>
+            <span className='group-hover:pr-7 transition-all duration-300 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>{t('loadmore')}</span>
             <svg
               className='w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
               fill='none'
@@ -312,64 +193,7 @@ const CaseStudy = () => {
   );
 };
 
-
 const FeaturedCarousel = () => {
-  const slides = [
-    {
-      id: 6,
-      imgSrc: '/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp',
-      category: "Automotive",
-      date: "30 June 2025",
-      url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
-      title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
-      description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
-    },
-    {
-      id: 5,
-      imgSrc: '/images/case-studies/Adaptis_featured CS.webp',
-      category: 'Manufacturing',
-      date: '10 June 2025',
-      url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
-      title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
-      description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
-    },
-    {
-      id: 4,
-      imgSrc: '/images/case-studies/revolutionizing-latest-carosel.webp',
-      category: 'Manufacturing',
-      date: '03 June 2025',
-      url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-      title: "Revving Up Dealer Management with AutoSense by Rialtes",
-      description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
-    },
-    // {
-    //   id: 1,
-    //   imgSrc: '/images/case-studies/fiori-main-page.webp',
-    //   category: 'Manufacturing',
-    //   date: '28 May 2025',
-    //   url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-    //   title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-    //   description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
-    // },
-    // {
-    //   id: 2,
-    //   imgSrc: '/images/case-studies/case study 1_thumb_n.webp',
-    //   category: 'Healthcare and Life Sciences',
-    //   date: '17 Nov 2024',
-    //   url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-    //   title: 'Automating Order Processing in Healthcare using MuleSoft',
-    //   description: 'The MedTech company’s manual order processing involved manual data entry across Salesforce, including sales & patient management, and SAP, including finance & accounting.'
-    // },
-    // {
-    //   id: 3,
-    //   imgSrc: '/images/case-studies/case-study-slider-thumb-2.webp',
-    //   category: 'Healthcare and Life Sciences',
-    //   date: '16 Aug 2024',
-    //   url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-    //   title: 'Digitizing patient journey using Salesforce health cloud',
-    //   description: 'The MedTech company had recently implemented a new patient journey system. However, the system lacked functionalities to effectively guide patients through their healthcare experience.'
-    // }
-  ];
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -432,7 +256,7 @@ const FeaturedCarousel = () => {
     <section className="relative pb-10 bg-white">
       <div className="mb-[36px] mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black xl:mb-[82px] mb-[40px] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">Latest Studies</h2>
+          <h2 className="text-black xl:mb-[82px] mb-[40px] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">{t('latestTitle')}</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -487,7 +311,6 @@ const FeaturedCarousel = () => {
   );
 }
 
-export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
@@ -501,8 +324,6 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-    
-    
      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
             {/* Desktop Image */}
             <div className="hidden md:block">
@@ -515,8 +336,7 @@ export default function Page() {
                 className="transform transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-     
-           
+  
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
@@ -531,17 +351,13 @@ export default function Page() {
             <div className="relative h-full custom-container flex items-center">
               <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                 <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-    
                   <h3 className="text-white text-[18px] xl:text-[24px] font-bold"> 
-                   Case Studies
+                  {t('headerTitle')}
                   </h3>
-    
                   <h1 className="text-white 4xl:w-[70%] xl:w-[50%] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight mt-[11px] md:mt-[28px]">
-                   Success Stories That Inspire
+                  {t('headerSubTitle')}
                   </h1>
-    
                 </div>
-    
                 <div className="col-span-12 lg:col-span-3 xl:col-span-5">
                 </div>
               </div>
@@ -550,7 +366,7 @@ export default function Page() {
       <section
         className="custom-container">
         <div className="xl:mt-[84px] mt-[44px] bg-white">
-          <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.</p>
+          <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{t('headerDesc')}</p>
         </div>
       </section>
       {/* Latest Studies */}
