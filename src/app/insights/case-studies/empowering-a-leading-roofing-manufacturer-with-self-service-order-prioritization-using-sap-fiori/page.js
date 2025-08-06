@@ -134,7 +134,7 @@ export default function Page() {
                     </div>
                     <div className="py-4"></div>
                     <div>
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center">
+                        <div className="flex flex-col md:flex-row justify-between text-black ">
                             <div className='pb-6'>
                                 <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>28 May 2025
                             </div>
@@ -143,7 +143,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="pt-4"></div>
-                      <div className="flex flex-row gap-6 ml-[-8px] justify-center md:justify-start">
+                      <div className="flex flex-row gap-6 ml-[-8px] ">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
