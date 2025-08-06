@@ -195,7 +195,7 @@ export default function DataCloud() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden md:block">
           <Image
             src="/images/data-cloud/salesforce-data-cloud-header.webp"
@@ -309,7 +309,7 @@ export default function DataCloud() {
       <section className="bg-[#EDEDED] xl:pt-[83px] xl:pb-[76px] py-[40px]">
         <div className="custom-container">
           <div className="">
-            <h3 className="text-left 4xl:text-[36px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[900px]">
+            <h3 className="text-left 4xl:text-[40px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[950px] leading-tight">
               Unite Your Entire Organization around Delivering an Enhanced
               Customer Experience.
             </h3>
