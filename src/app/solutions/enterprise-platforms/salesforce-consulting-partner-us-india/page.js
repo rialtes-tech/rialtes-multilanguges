@@ -248,7 +248,7 @@ export default function SalesForceConsulting() {
             />
 
 
-            <div className='relative group overflow-hidden'>
+            <div className='relative group overflow-hidden h-[300px] md:h-[400px] 2xl:h-[500px] 4xl:h-[740px] '>
                 <Image
                     src="/images/salesforce-consulting-services/banner.webp"
                     alt="Salesforce Consulting Team"
@@ -262,9 +262,9 @@ export default function SalesForceConsulting() {
                     }}
                     priority
                 />
-                <div className="absolute custom-container  top-[10%] lg:text-start lg:top-[25%] sm:top-[20%] text-black">
+                <div className="absolute custom-container  top-[14%] lg:text-start lg:top-[25%] sm:top-[20%] text-black">
                     <h1 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce Consulting Services</h1>
-                    <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%]  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
+                    <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%] leading-tight  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
                     <Image
                         src="/images/salesforce-consulting-services/salesforce-partner.webp"
                         className="w-[22%] h-full bg-transperent lg:mt-20 lg:m-0 mt-5"
@@ -277,7 +277,7 @@ export default function SalesForceConsulting() {
                 </div>
             </div>
 
-            <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
+            <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container  lg:mt-16">
                 <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
                     <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                         Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
@@ -293,7 +293,7 @@ export default function SalesForceConsulting() {
 
 
             {/* section crm consulting */}
-            <section className="mt-16 px-6  custom-container ">
+            <section className="lg:mt-20 md:mt-10 px-6  custom-container ">
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Our Salesforce CRM Consulting Services</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
                     {salesForce.map((sales) => {
@@ -371,7 +371,7 @@ export default function SalesForceConsulting() {
             {/* your business */}
             <section className="mt-16 px-6 custom-container">
                 <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Understanding and targeting the customers correctly for your business</h2>
-                <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16">
+                <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16 mt-4">
                     {businessDetails.map((bussiness) => {
                         return (
                             <div key={bussiness.id}>
@@ -390,7 +390,7 @@ export default function SalesForceConsulting() {
                         Action is what matters and not just words
                     </h3>
                     <div className="grid lg:grid-cols-10 grid-cols-1">
-                        <div className="col-span-1 lg:col-span-6 grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-20 lg:gap-20">
+                        <div className="col-span-1 lg:col-span-6 grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-10 lg:gap-20">
                             {growthData.map((item, index) => (
                                 <div key={index}>
                                       <div className="absolute inset-0 bg-white/5 rounded pointer-events-none" aria-hidden="true" />
@@ -421,20 +421,20 @@ export default function SalesForceConsulting() {
 
 
             {/* different industries different mindset */}
-            <section className=" custom-container lg:mt-20 mt-5 pb-20">
+            <section className=" custom-container lg:mt-20 mt-5 pb-20 lg:!pr-0">
                 <div>
                     <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Different industries, different mindsets</h2>
                     <CarouselComponent />
                 </div>
             </section>
-            <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20">
+            <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20  lg:!pr-0">
                 <div
                     className=""
                 >
                     <FeaturedCarousel />
                 </div>
             </section>
-            <section className=' custom-container lg:mt-20 mt-10'>
+            <section className=' custom-container lg:mt-20 mt-10 lg:!pr-0'>
                 <InsightsCarousel />
             </section>
 
