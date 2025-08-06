@@ -313,7 +313,7 @@ export default function page() {
                     <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
                         AI-Powered Financial Services. <div className="sm:block hidden" /> Personalized Client Journeys. <div className="sm:block hidden" /> Seamless Omnichannel Engagement.
                     </h2>
-                    <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%]">
+                    <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%] 2xl:pr-32 4xl:pr-0 xl:pr-0">
                         At Rialtes, we enable financial institutions to lead with innovation and trust. Our RialFinance+ Managed Services deliver advisory, implementation, customization, AI integration, and post-go-live support, all unified to transform your Salesforce Financial Services Cloud (FSC) experience.
                         <br />
                         <br />
@@ -404,7 +404,7 @@ export default function page() {
                                     <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[60px] 4xl:gap-[20px]">
                                         <div className="xl:pt-[60px] pt-[40px]">
                                             <div className="absolute top-[-50px]">
-                                                <p className="text-[50px] px-8 py-2 bg-[#ffffff] font-bold">{data.id}</p>
+                                                <p className="text-[50px] px-4 pl-2 py-2 bg-[#ffffff] font-bold">{data.id}</p>
                                             </div>
                                             <h2 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-bold">
                                                 {data.title}
@@ -438,7 +438,7 @@ export default function page() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="xl:mt-[38px] mt-[27px]">
+                                    <div className="xl:mt-5 4xl:mt-5 2xl:mt-5  mt-[27px]">
                                         <LearnMore />
                                     </div>
                                 </div>
