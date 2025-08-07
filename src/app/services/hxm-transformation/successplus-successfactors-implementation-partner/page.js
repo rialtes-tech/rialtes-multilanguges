@@ -317,7 +317,7 @@ export default function Page() {
             <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] xl:w-full">
               What is Rialtes’ Success+?
               <br />
-              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
+              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] mt-4 font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
             </h2>
           </div>
           <div className="xl:col-span-4 col-span-12 md:w-[80%] w-[92%] xl:w-full">
@@ -454,7 +454,7 @@ export default function Page() {
             </div>
           </div>
         </>
-        <div className="4xl:mr-[280px] xl:shadow-lg border border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
+        <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
           <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
             Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+
           </h2>
@@ -490,7 +490,7 @@ export default function Page() {
   {/* <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
   {/* Heading - First on mobile */}
   <div className="xl:col-span-8 col-span-12 order-1">
-    <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[91%]">
+    <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[94%]">
       Process-Driven Success with SAP Signavio and SAP Activate Methodology
     </h2>
   </div>

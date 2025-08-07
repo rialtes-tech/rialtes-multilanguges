@@ -534,7 +534,7 @@ const BuyingInvoicingSection = () => {
     return (
         <section className="text-[#FFFFFF] relative lg:mt-[82px] sm:mt-[200px] md:mt-[200px] mt-[100px] ">
             <div className="flex flex-col-reverse xl:flex-row items-center xl:items-start xl:relative">
-                <div className="z-10 bg-[#073259] xl:w-[60%] w-full xl:my-auto relative">
+                <div className="z-10 bg-[#073259] xl:w-[75%] w-full xl:my-auto relative">
                     <div className="custom-container px-[2rem] pb-[56px] lg:pt-[59px] lg:pr-[57px] lg:pb-[71px] buyingLeftDiv">
                         <h2 className="text-[20px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">
                             Buying & Invoicing (Procure-to-Pay)
@@ -670,7 +670,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
