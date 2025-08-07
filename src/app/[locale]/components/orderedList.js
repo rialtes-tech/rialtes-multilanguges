@@ -1,13 +1,13 @@
-export default function unorderedList({ ulClassName, arrName, liClassName }) {
+export default function OrderedList({ olClassName, arrName, liClassName }) {
     return (
         <>
-            <ul className={ulClassName}>
+            <ol className={olClassName}>
                 {arrName.map((data, idx) => (
                     <li key={idx} className={liClassName ? liClassName : ""}>
                         {data}
                     </li>
                 ))}
-            </ul>
+            </ol>
         </>
     )
-}
+} 

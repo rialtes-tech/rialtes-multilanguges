@@ -52,10 +52,10 @@ const schemaData = {
 }
 
 export default function InsightsPage() {
-const t = useTranslations('insights')
-const locale = useLocale();
-const insightsContent = locale === "es" ? esContent : enContent;
-  const {caseStudies} = insightsContent.insights;
+  const t = useTranslations('insights')
+  const locale = useLocale();
+  const insightsContent = locale === "es" ? esContent : enContent;
+  const { caseStudies } = insightsContent.insights;
 
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);
@@ -95,7 +95,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
       />
 
       {/* Hero Section with Deep Blue Gradient Background */}
- <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
         <div className="hidden md:block">
           <Image
             src="/images/insights/insight-header-banner-new.webp"
@@ -118,9 +118,9 @@ const insightsContent = locale === "es" ? esContent : enContent;
         </div>
         <div className="relative h-full custom-container flex items-center">
           <div className="4xl:w-[64%] xl:w-[50%]">
-              <h1 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
+            <h1 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
               {t('insightTitle')}
-              </h1>
+            </h1>
           </div>
         </div>
       </section>
@@ -177,16 +177,16 @@ const insightsContent = locale === "es" ? esContent : enContent;
                 }}>
                 <div className="flex flex-row items-center mb-4">
                   <span className="text-[#0092E0] font-medium">
-                   {t('salesforceTitle')}
+                    {t('salesforceTitle')}
                   </span>
                   <span className="mx-2">|</span>
                   <span className="text-sm">{t('blogDate')}</span>
                 </div>
                 <h3 className="mb-3">
-                 {t('howTitle')} 
+                  {t('howTitle')}
                 </h3>
                 <p className="mb-4">
-                  {t('howDesc')} 
+                  {t('howDesc')}
                 </p>
                 <Link
                   href="/insights/blogs/how-salesforce-agentforce-actually-works"
@@ -249,10 +249,10 @@ const insightsContent = locale === "es" ? esContent : enContent;
                     <span className="text-gray-600 text-sm">{t('brainDate')}</span>
                   </div>
                   <h3 className="mb-3">
-                   {t('brainBlog')} 
+                    {t('brainBlog')}
                   </h3>
                   <p className="mb-2">
-                   {t('brainDesc')} 
+                    {t('brainDesc')}
                   </p>
                   <div>
                     <Link
@@ -310,16 +310,16 @@ const insightsContent = locale === "es" ? esContent : enContent;
                   }}>
                   <div className="flex flex-row items-center mb-4">
                     <span className="text-[#0092E0] text-sm font-medium">
-                      {t('salesforceTitle')} 
+                      {t('salesforceTitle')}
                     </span>
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">{t('agenticDate')}</span>
                   </div>
                   <h3 className="mb-3">
-                   {t('agenticTitle')}
+                    {t('agenticTitle')}
                   </h3>
                   <p className="mb-2">
-                   {t('agenticDesc')}
+                    {t('agenticDesc')}
                   </p>
                   <div>
                     <Link
@@ -368,7 +368,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
                   href="/insights/case-studies"
                   className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden">
                   <span className="inline-flex items-center">
-                   {t('allCaseStudy')}
+                    {t('allCaseStudy')}
                   </span>
                 </Link>
               </div>
@@ -408,16 +408,16 @@ const insightsContent = locale === "es" ? esContent : enContent;
                 <div className=" p-6 xl:p-12 max-w-2xl">
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">
-                    Automotive
+                      Automotive
                     </span>
                     <span className="mx-2">|</span>
                     <span className="text-sm">{t('leadingDate')}</span>
                   </div>
                   <h3 className="mb-3">
-                   {t('leadingTitle')}
+                    {t('leadingTitle')}
                   </h3>
                   <p>
-                  {t('leadingblog')} 
+                    {t('leadingblog')}
                   </p>
                 </div>
               </div>
@@ -475,7 +475,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
               href="/insights/case-studies"
               className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
               <span className="inline-flex items-center">
-               {t('allCaseStudy')} 
+                {t('allCaseStudy')}
               </span>
             </Link>
           </div>
@@ -496,7 +496,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
                 className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">
-                 {t('allWebinars')} 
+                  {t('allWebinars')}
                 </span>
               </Link>
             </div>
@@ -624,7 +624,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                 {t('discoverTitle')} 
+                  {t('discoverTitle')}
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
@@ -701,7 +701,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
               </div>
               <div className="p-6">
                 <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                 {t('databricksTitle')} 
+                  {t('databricksTitle')}
                 </h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center">
@@ -736,96 +736,11 @@ const insightsContent = locale === "es" ? esContent : enContent;
                 </Link>
               </div>
             </div>
-            {/* webinar 2 */}
-
-
-            {/* webinar 1 */}
-
-
-
-            {/* <div
-              className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-3")}
-              onMouseLeave={handleMouseLeave("webinar-3")}
-              onClick={handleClick("/about-us")}
-              style={{
-                cursor: "pointer",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "webinar-3" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="">
-                <div className="w-full overflow-hidden">
-                  <div
-                    className="t w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "webinar-3"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/insights/sap-business-webinar-3.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud
-                </h3>
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-center">
-                    <span className="font-medium">November 5, 2024</span>
-                    <span className="mx-2">|</span>
-                    <span>10:00 AM CST</span>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="font-bold">Kushagra Shah</div>
-                    <div className="">Senior Principal Consultant, SAP</div>
-                  </div>
-                </div>
-                <Link
-                  href="/blog/diversity"
-                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                >
-                  <span>Register Now</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </Link>
-              </div>
-            </div> */}
           </div>
           <div className="block sm:hidden mt-12">
             <Link
               href="/insights/webinars"
-              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden"
-            >
+              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
               <span className="inline-flex items-center">{t('allWebinars')}</span>
             </Link>
           </div>
@@ -834,7 +749,7 @@ const insightsContent = locale === "es" ? esContent : enContent;
 
       {/* Contact Form Section */}
       <div className="py-16 custom-container text-black">
-        <ContactForm title={t('contactUs')}  className={'w-[70%] lg:w-[50%] xl:w-[70%]'} />
+        <ContactForm title={t('contactUs')} className={'w-[70%] lg:w-[50%] xl:w-[70%]'} />
       </div>
     </div>
   );

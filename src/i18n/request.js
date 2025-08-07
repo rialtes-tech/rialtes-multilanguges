@@ -2,149 +2,35 @@ import { getRequestConfig } from "next-intl/server";
 import { hasLocale } from "next-intl";
 import { routing } from "./routing";
 
+async function importMessages(locale, files) {
+    const messages = {};
+    for (const file of files) {
+        const data = (await import(`../../messages/${locale}/${file}.json`)).default;
+        Object.assign(messages, data);
+    }
+    return messages;
+}
+
 export default getRequestConfig(async ({ requestLocale }) => {
-    // Typically corresponds to the `[locale]` segment
     const requested = await requestLocale;
     const locale = hasLocale(routing.locales, requested)
         ? requested
         : routing.defaultLocale;
 
-    const homepage = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const header = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const footer = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const contactForm = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const learnMorePage = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const useCarouselComponent = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const featuredCarousel = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const contactUs = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const termsUse = (await import(`../../messages/${locale}/homepage.json`)).default;
-    const privacyPolicy = (await import(`../../messages/${locale}/homepage.json`)).default;
-
-    const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
-
-    const uiPath = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const tosca = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const aboutUs = (await import(`../../messages/${locale}/aboutus.json`)).default;
-    const sapBdc = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const salesforceDataCloud = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const datasphere = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const agentforce = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const sapConsulting = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const oracle = (await import(`../../messages/${locale}/solutions.json`)).default;
-    const sapCpi = (await import(`../../messages/${locale}/solutions.json`)).default;
-
-    const successPlus = (await import(`../../messages/${locale}/services.json`)).default;
-    const sapBuyPlus = (await import(`../../messages/${locale}/services.json`)).default;
-    const kinaxis = (await import(`../../messages/${locale}/services.json`)).default;
-    const growWithSap = (await import(`../../messages/${locale}/services.json`)).default;
-    const riseWithSap = (await import(`../../messages/${locale}/services.json`)).default;
-    const autoSense = (await import(`../../messages/${locale}/services.json`)).default;
-    const salesforceAgent = (await import(`../../messages/${locale}/services.json`)).default;
-    const sapDigitalDesk = (await import(`../../messages/${locale}/services.json`)).default;
-    const retailPlus = (await import(`../../messages/${locale}/services.json`)).default;
-    const lifeAiPlus = (await import(`../../messages/${locale}/services.json`)).default;
-    const advantagePlus = (await import(`../../messages/${locale}/services.json`)).default;
-    const rialFinance = (await import(`../../messages/${locale}/services.json`)).default;
-
-    const lifeScience = (await import(`../../messages/${locale}/industry.json`)).default;
-    const healthCare = (await import(`../../messages/${locale}/industry.json`)).default;
-    const pharmaBiotech = (await import(`../../messages/${locale}/industry.json`)).default;
-    const homeHealth = (await import(`../../messages/${locale}/industry.json`)).default;
-    const medicalDevices = (await import(`../../messages/${locale}/industry.json`)).default;
-    const automativeIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
-    const travelIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
-    const retailIndustry = (await import(`../../messages/${locale}/industry.json`)).default;
-    const insights = (await import(`../../messages/${locale}/insight.json`)).default;
-    const news = (await import(`../../messages/${locale}/insight.json`)).default;
-    const blogs = (await import(`../../messages/${locale}/insight.json`)).default;
-    const webinars = (await import(`../../messages/${locale}/insight.json`)).default;
-    const caseStudy = (await import(`../../messages/${locale}/insight.json`)).default;
-    const latestBlog = (await import(`../../messages/${locale}/insight.json`)).default;
-
-
-    const nonProfit = (await import(`../../messages/${locale}/industry.json`)).default;
-
-    const CIGWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const voyageWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const successFactorWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const webinarComponent = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const webinarForm = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const databricksWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const deliverEndToEndWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
-    const letsWhatsappWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
-
-    const yardiCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
-    const relatedTopic = (await import(`../../messages/${locale}/caseStudy.json`)).default;
-    const automateCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
-    const digitizingCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
+    const allMessages = await Promise.all([
+        importMessages(locale, ["homepage"]),
+        importMessages(locale, ["products"]),
+        importMessages(locale, ["solutions"]),
+        importMessages(locale, ["aboutus"]),
+        importMessages(locale, ["services"]),
+        importMessages(locale, ["industry"]),
+        importMessages(locale, ["insight"]),
+        importMessages(locale, ["webinars"]),
+        importMessages(locale, ["blogs"]),
+    ]);
 
     return {
         locale,
-        messages: {
-            ...homepage,
-            ...aboutUs,
-            ...header,
-            ...learnMorePage,
-            ...contactForm,
-            ...footer,
-            ...sapBdc,
-            ...salesforceDataCloud,
-            ...datasphere,
-            ...agentforce,
-            ...sapConsulting,
-            ...useCarouselComponent,
-            ...featuredCarousel,
-            ...sapBuyPlus,
-            ...oracle,
-            ...successPlus,
-            ...servicesBlogs,
-            ...exploreMore,
-            ...agentChat,
-            ...sapCpi,
-            ...kinaxis,
-            ...growWithSap,
-            ...riseWithSap,
-            ...uiPath,
-            ...tosca,
-            ...autoSense,
-            ...salesforceAgent,
-            ...sapDigitalDesk,
-            ...retailPlus,
-            ...lifeAiPlus,
-            ...advantagePlus,
-            ...rialFinance,
-            ...lifeScience,
-            ...healthCare,
-            ...pharmaBiotech,
-            ...homeHealth,
-            ...medicalDevices,
-            ...contactUs,
-            ...automativeIndustry,
-            ...travelIndustry,
-            ...retailIndustry,
-            ...insights,
-            ...news,
-            ...nonProfit,
-            ...blogs,
-            ...webinars,
-            ...CIGWebinar,
-            ...webinarComponent,
-            ...webinarForm,
-            ...voyageWebinar,
-            ...successFactorWebinar,
-            ...caseStudy,
-            ...latestBlog,
-            ...termsUse,
-            ...databricksWebinar,
-            ...deliverEndToEndWebinar,
-            ...letsWhatsappWebinar,
-            ...privacyPolicy,
-            ...yardiCaseStudy,
-            ...relatedTopic,
-            ...automateCaseStudy,
-            ...digitizingCaseStudy
-        }
+        messages: Object.assign({}, ...allMessages),
     };
 });
