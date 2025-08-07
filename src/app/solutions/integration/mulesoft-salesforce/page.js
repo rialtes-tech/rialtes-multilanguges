@@ -247,7 +247,7 @@ const page = () => (
     </div>
     <ServiceSection />
     {/* transformation section */}
-    <section className="py-24">
+    <section className="py-14">
       <div className="custom-container flex items-start max-xl:flex-col justify-between gap-10">
         <div className="w-full xl:max-w-[50%] max-w-full">
           <h2 className="w-full mb-8 4xl:text-[60px] xl:text-[40px] md:text-[26px] leading-tight">
@@ -294,7 +294,7 @@ const page = () => (
       </div>
     </section>
     {/* drive data section */}
-    <div className="bg-[#fffbfb] py-16 mt-20">
+    <div className="bg-[#fffbfb] py-10 mt-10">
       <div className="custom-container">
         <h2 className=" font-light mb-16 leading-tight 4xl:text-[40px] xl:text-[35px] md:text-[26px] ">
           Drive Measurable Business Outcomes
@@ -314,7 +314,7 @@ const page = () => (
     <div className="custom-container py-20 bg-[#F5F5F5]">
       <FeaturedCarousel />
     </div>
-   <div className="mt-[120px] py-20 bg-[#808080]">
+   <div className="mt-[120px] py-10 bg-[#808080]">
       <div className="custom-container">
         <ExploreMoreCarousel />
       </div>

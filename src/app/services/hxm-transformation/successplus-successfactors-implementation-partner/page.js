@@ -308,7 +308,7 @@ export default function Page() {
             />
           </div>
         </div>
-
+ 
       </section>
       {/* what is rialtes success section */}
       <section className="custom-container xl:mt-[112px] lg:mt-[82px] mt-[34px]">
@@ -317,7 +317,7 @@ export default function Page() {
             <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] xl:w-full">
               What is Rialtes’ Success+?
               <br />
-              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
+              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] mt-4 font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
             </h2>
           </div>
           <div className="xl:col-span-4 col-span-12 md:w-[80%] w-[92%] xl:w-full">
@@ -403,7 +403,7 @@ export default function Page() {
           </div>
         </div>
         <div className="w-full h-[1px] bg-gray-300"></div>
-      
+     
         <>
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px] 4xl:pr-[280px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
@@ -454,7 +454,7 @@ export default function Page() {
             </div>
           </div>
         </>
-        <div className="4xl:mr-[280px] xl:shadow-lg border border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
+        <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
           <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
             Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+
           </h2>
@@ -483,18 +483,18 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+ 
       {/* process section */}
       <section className="custom-container xl:mt-[116px] mt-[55px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
   {/* <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
   {/* Heading - First on mobile */}
   <div className="xl:col-span-8 col-span-12 order-1">
-    <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[91%]">
+    <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[94%]">
       Process-Driven Success with SAP Signavio and SAP Activate Methodology
     </h2>
   </div>
-
+ 
   {/* Paragraph - Second on mobile */}
   <div className="xl:col-span-4 col-span-12 order-2">
     <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full">
@@ -503,7 +503,7 @@ export default function Page() {
       implementation of SAP SuccessFactors.
     </p>
   </div>
-
+ 
   {/* SAP Activate - Third on mobile */}
   <div className="xl:col-span-8 col-span-12 order-3">
     <h3 className="xl:text-[34px] 4xl:text-[40px] leading-tight text-[22px] xl:mt-[72px] mt-[26px] font-normal pr-8 xl:pr-0">
@@ -512,18 +512,18 @@ export default function Page() {
     </h3>
   </div>
 </div>
-
-
+ 
+ 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[120px] mt-[40px] sm:w-[80%] md:w-[90%] xl:w-full 2xl:w-[90%] md:gap-x-[60px] lg:gap-0">
           {
             sapActivateData.map((data, ind) => {
               return (
-                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[30px] md:py-[40px] lg:py-0 
-                                          ${(data.id === 5 || data.id === 6) && "md:border-0"} 
-                                          ${data.id === 2 && "lg:!py-0"} 
-                                          ${(data.id == 2 || data.id == 5) && "lg:mt-[60] xl:mt-[80px] lg:h-[250px] xl:h-[260px] 4xl:h-[330px] lg:px-[30px] xl:px-[40px] lg:border-l border-[#B9B9B9]"} 
-                                          ${(data.id == 3 || data.id == 6) && "lg:mt-[120] xl:mt-[140px] lg:pl-[40px] lg:border-l"} 
-                                          ${(data.id == 1 || data.id == 4) && "lg:pr-[40px]"} 
+                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[30px] md:py-[40px] lg:py-0
+                                          ${(data.id === 5 || data.id === 6) && "md:border-0"}
+                                          ${data.id === 2 && "lg:!py-0"}
+                                          ${(data.id == 2 || data.id == 5) && "lg:mt-[60] xl:mt-[80px] lg:h-[250px] xl:h-[260px] 4xl:h-[330px] lg:px-[30px] xl:px-[40px] lg:border-l border-[#B9B9B9]"}
+                                          ${(data.id == 3 || data.id == 6) && "lg:mt-[120] xl:mt-[140px] lg:pl-[40px] lg:border-l"}
+                                          ${(data.id == 1 || data.id == 4) && "lg:pr-[40px]"}
                                           ${(data.id == 6) && "lg:pb-[80px] 4xl:pb-[110px]"} `}>
                   <h4 className="text-[#0C8AD4] xl:text-[27px] 4xl:text-[30px] leading-tight text-[24px] xl:mb-[28px] mb-[16px] flex">
                     <div className="xl:text-[60px] 4xl:text-[70px] leading-tight text-[50px] mr-[20px] font-extrabold">{data.id}</div> <div className="my-auto">{data.title}</div>
@@ -794,7 +794,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+ 
       {/* Contact Form */}
       <div className="xl:mt-[118px] mt-[48px] xl:mb-[120px] mb-[120px] custom-container text-black">
         <ContactForm title={'Partner with Rialtes for Your SAP SuccessFactors Journey'} subtitle="Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation." className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
@@ -808,3 +808,4 @@ export default function Page() {
     </div >
   );
 }
+ 
