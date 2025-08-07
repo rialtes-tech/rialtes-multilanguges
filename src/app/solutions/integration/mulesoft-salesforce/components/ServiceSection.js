@@ -41,7 +41,7 @@ const CARD_DATA = [
 const ServiceSection = () => (
   <div className="custom-container ">
     <div className="lg:mb-[67px] mb-6 md:max-w-[80%] 2xl:w-[74%] 4xl:w-[80%] max-w-full">
-      <h2 className=" mb-10 leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[80%] 4xl:w-[100%]">
+      <h2 className=" mb-10 leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[80%] 4xl:w-[100%]">
         MuleSoft Integration Services Aligned with Your Business Needs
       </h2>
       <p className="w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
