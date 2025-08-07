@@ -19,6 +19,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const servicesBlogs = (await import(`../../messages/${locale}/homepage.json`)).default;
     const exploreMore = (await import(`../../messages/${locale}/homepage.json`)).default;
     const contactUs = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const termsUse = (await import(`../../messages/${locale}/homepage.json`)).default;
+    const privacyPolicy = (await import(`../../messages/${locale}/homepage.json`)).default;
 
     const agentChat = (await import(`../../messages/${locale}/products.json`)).default;
 
@@ -60,7 +62,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const webinars = (await import(`../../messages/${locale}/insight.json`)).default;
     const caseStudy = (await import(`../../messages/${locale}/insight.json`)).default;
     const latestBlog = (await import(`../../messages/${locale}/insight.json`)).default;
-    const termsUse = (await import(`../../messages/${locale}/insight.json`)).default;
 
 
     const nonProfit = (await import(`../../messages/${locale}/industry.json`)).default;
@@ -73,6 +74,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     const databricksWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
     const deliverEndToEndWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
     const letsWhatsappWebinar = (await import(`../../messages/${locale}/webinars.json`)).default;
+
+    const yardiCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
+    const relatedTopic = (await import(`../../messages/${locale}/caseStudy.json`)).default;
+
+
+
 
     return {
         locale,
@@ -133,7 +140,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...termsUse,
             ...databricksWebinar,
             ...deliverEndToEndWebinar,
-            ...letsWhatsappWebinar
+            ...letsWhatsappWebinar,
+            ...privacyPolicy,
+            ...yardiCaseStudy,
+            ...relatedTopic
         }
     };
 });

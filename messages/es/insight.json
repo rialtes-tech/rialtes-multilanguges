@@ -782,55 +782,5 @@
         "description": "La integración fluida entre aplicaciones empresariales ofrece mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de experiencias humanas (HXM) y un conjunto robusto de herramientas de productividad."
       }
     ]
-  },
-  "termsUse": {
-  "termsTitle": "Términos de Uso de Rialtes",
-  "termsDesc": "Al acceder y utilizar este sitio web, usted reconoce y acepta estar sujeto a los siguientes términos y condiciones, sin limitación ni calificación. Estos términos rigen su uso de nuestro Sitio Web, incluyendo todo el contenido, servicios y funcionalidades. Si no está de acuerdo con estos términos, por favor absténgase de utilizar nuestro Sitio Web.",
-  "termsDescOne": "Todo el contenido de este Sitio Web, incluidos entre otros, textos, imágenes, gráficos, logotipos, íconos, videos, software y la disposición de dicho contenido, es propiedad exclusiva de Rialtes Technologies and Solutions LLC, a menos que se indique lo contrario. Este contenido está protegido bajo las leyes aplicables de derechos de autor, marcas comerciales y otras leyes de propiedad intelectual. Todas las marcas comerciales, nombres comerciales y logotipos mostrados en este Sitio Web son propiedad de sus respectivos propietarios. El uso no autorizado de cualquier contenido, marca comercial o propiedad intelectual de este Sitio Web puede violar leyes aplicables y resultar en consecuencias legales.",
-  "useTitle": "Uso del Sitio Web y Restricciones",
-  "useDesc": "Se le otorga un derecho limitado, revocable, no exclusivo e intransferible para acceder y utilizar este Sitio Web estrictamente con fines informativos y no comerciales. Sin embargo, usted acepta no:",
-  "useDescOne": "Puede descargar e imprimir una copia de los materiales de este Sitio Web únicamente para uso personal y no comercial, siempre que no modifique el contenido y conserve todos los avisos de derechos de autor, marcas comerciales y propiedad.",
-  "noTitle": "Sin Garantías y Descargo de Responsabilidad",
-  "noDesc": "Este Sitio Web y todo el contenido proporcionado aquí se ofrecen 'tal cual' y 'según disponibilidad' sin garantías de ningún tipo, ya sean expresas o implícitas. Rialtes renuncia expresamente a todas las garantías, incluidas entre otras:",
-  "noDescOne": "Su uso del Sitio Web y cualquier confianza en el contenido es únicamente bajo su propio riesgo.",
-  "limitationTitle": "Limitación de Responsabilidad",
-  "limitationDesc": "En la máxima medida permitida por la ley, Rialtes, sus afiliados, funcionarios, empleados, agentes y proveedores de servicios de terceros no serán responsables de ningún daño directo, indirecto, incidental, consecuente, especial o ejemplar que resulte o esté relacionado con su uso de este Sitio Web. Esto incluye, entre otros:",
-  "limitationDescOne": "Bajo ninguna circunstancia la responsabilidad total de Rialtes excederá el monto que usted haya pagado (si es que pagó alguno) por acceder a este Sitio Web.",
-  "linksTitle": "Enlaces a Sitios Web de Terceros",
-  "linksDesc": "Este Sitio Web puede incluir enlaces a sitios web de terceros para su conveniencia e información. Rialtes no respalda, controla ni asume responsabilidad alguna por el contenido, políticas o prácticas de ningún sitio de terceros. Sus interacciones con sitios externos son bajo su propio riesgo, y le recomendamos revisar sus términos y políticas de privacidad antes de interactuar con su contenido o servicios.",
-  "lawTitle": "Ley Aplicable y Jurisdicción",
-  "lawDesc": "Este Sitio Web se mantiene en (Jurisdicción), y estos Términos de Uso se regirán por las leyes de (Jurisdicción), sin referencia a sus principios de conflicto de leyes.",
-  "lawDescOne": "Cualquier disputa legal derivada del uso de este Sitio Web estará sujeta a la jurisdicción exclusiva de los tribunales ubicados en (Jurisdicción). Usted acepta expresamente someterse a dicha jurisdicción y renunciar a cualquier objeción relacionada con el lugar o la falta de conveniencia del foro.",
-  "complianceTitle": "Cumplimiento con las Leyes Locales",
-  "complianceDesc": "Usted es responsable de garantizar el cumplimiento de las leyes de su jurisdicción mientras accede y utiliza este Sitio Web. Al utilizar este Sitio Web, usted declara que no está violando ninguna ley o reglamento aplicable.",
-  "submissionTitle": "Envíos y Confidencialidad",
-  "submissionOne": "A menos que se indique expresamente lo contrario, cualquier información enviada a través de este Sitio Web se considerará no confidencial y no propietaria. Al enviar información, usted:",
-  "submissionTwo": "Le recomendamos no enviar ninguna información confidencial o propietaria a través de este Sitio Web.",
-  "submissionThree": "Rialtes se reserva el derecho de actualizar o modificar estos Términos de Uso en cualquier momento sin previo aviso. Cualquier cambio será efectivo inmediatamente después de publicar los términos revisados en esta página. Alentamos a los usuarios a revisar estos Términos periódicamente para mantenerse informados sobre cualquier actualización. El uso continuo del Sitio Web después de realizar modificaciones constituye la aceptación de los Términos actualizados.",
-
-  "useRestrictions": [
-    "Copiar, reproducir, modificar, republicar, cargar, publicar, distribuir, transmitir o utilizar cualquier contenido de este sitio web con fines comerciales sin el permiso previo por escrito de Rialtes.",
-    "Participar en cualquier uso no autorizado del sitio web, incluido, entre otros, minería de datos, scripts automatizados o cualquier otra práctica que extraiga datos del sitio web.",
-    "Intentar obtener acceso no autorizado a cualquier parte del sitio web, servidor o sistema conectado a la red de Rialtes.",
-    "Utilizar el sitio web de cualquier manera que pueda dañar, deshabilitar, sobrecargar o afectar su funcionalidad o interferir con el acceso de otros usuarios.",
-    "Introducir malware, virus o códigos dañinos en el sitio web.",
-    "Violar cualquier ley local, nacional o internacional aplicable a través del uso del sitio web."
-  ],
-  "noWarranties": [
-    "Garantías de comerciabilidad, idoneidad para un propósito particular, no infracción o precisión del contenido.",
-    "Garantías de que el sitio web será ininterrumpido, libre de errores, seguro o libre de elementos dañinos como virus o malware.",
-    "Cualquier garantía de que la información proporcionada en el sitio web esté actualizada o se aplique a sus necesidades específicas."
-  ],
-  "limitationOfLiability": [
-    "Pérdida de beneficios, ingresos u oportunidades de negocio.",
-    "Interrupción del negocio, fallas técnicas o corrupción de datos.",
-    "Acceso no autorizado o uso de información personal.",
-    "Cualquier confianza depositada en el contenido publicado en el sitio web."
-  ],
-  "submissionTerms": [
-    "Garantiza que tiene el derecho legal de hacerlo y que el envío no infringe ningún derecho de terceros.",
-    "Acepta que Rialtes tendrá el derecho ilimitado de usar, modificar, distribuir y reproducir cualquier información que proporcione sin compensación alguna.",
-    "Reconoce que la naturaleza abierta de Internet significa que no podemos garantizar la confidencialidad de la información enviada a través de este sitio web."
-  ]
-}
+  }
 }

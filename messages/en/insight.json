@@ -1,5 +1,5 @@
 {
-    "insights":{
+  "insights":{
         "insightTitle": "Stay Ahead with Expert Industry Insights",
         "insightDesc": "Take a tour of our insights section to see our latest blogs, press releases, case studies, news coverage, updates and upcoming events.",
         "featuredTitle": "Featured Blog",
@@ -799,56 +799,6 @@
     "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
     "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
   }
-  ]
-},
-"termsUse":{
-        "termsTitle": "Rialtes Terms of Use",
-        "termsDesc": "By accessing and using this website, you acknowledge and agree to be bound by the following terms and conditions, without limitation or qualification. These terms govern your use of our Website, including all content, services, and functionalities. If you do not agree with these terms, please refrain from using our Website.",
-        "termsDescOne": "All content on this Website, including but not limited to text, images, graphics, logos, icons, videos, software, and the arrangement of such content, is the exclusive property of Rialtes Technologies and Solutions LLC unless otherwise stated. This content is protected under applicable copyright, trademark, and other intellectual property laws. All trademarks, trade names, and logos displayed on this Website are the property of their respective owners. Unauthorized use of any content, trademarks, or intellectual property from this Website may violate applicable laws and result in legal consequences.",
-        "useTitle": "Use of Website and Restrictions",
-        "useDesc": "You are granted a limited, revocable, non-exclusive, and non-transferable right to access and use this Website strictly for informational and non-commercial purposes. However, you agree not to:",
-        "useDescOne": "You may download and print one copy of materials from this Website solely for personal, non-commercial use, if you do not modify the content and retain all copyright, trademark, and proprietary notices",
-        "noTitle": "No Warranties and Disclaimer",
-        "noDesc": "This Website and all content provided herein are offered on an 'as is' and 'as available' basis without warranties of any kind, either express or implied. Rialtes expressly disclaims all warranties, including but not limited to:",
-        "noDescOne": "Your use of the Website and any reliance on the content is solely at your own risk.",
-        "limitationTitle": "Limitation of Liability",
-        "limitationDesc":"To the fullest extent permitted by law, Rialtes, its affiliates, officers, employees, agents, and third-party service providers shall not be liable for any direct, indirect, incidental, consequential, special, or exemplary damages resulting from or related to your use of this Website. This includes, but is not limited to:",
-        "limitationDescOne": "Under no circumstances shall Rialtes' total liability exceed the amount you paid (if any) for accessing this Website.",
-        "linksTitle": "Links to Third-Party Websites",
-        "linksDesc": "This Website may include links to third-party websites for your convenience and informational purposes. Rialtes does not endorse, control, or assume responsibility for the content, policies, or practices of any third-party sites. Your interactions with external websites are at your own risk, and we encourage you to review their terms and privacy policies before engaging with their content or services.",
-        "lawTitle": "Governing Law and Jurisdiction",
-        "lawDesc": "This Website is maintained in (Jurisdiction), and these Terms of Use shall be governed by the laws of (Jurisdiction), without reference to its conflict of law principles.",
-        "lawDescOne": "Any legal disputes arising from your use of this Website shall be subject to the exclusive jurisdiction of the courts located in (Jurisdiction). You expressly agree to submit to such jurisdiction and waive any objections related to the venue or inconvenient forum.",
-        "complianceTitle": "Compliance with Local Laws",
-        "complianceDesc": "You are responsible for ensuring compliance with the laws of your jurisdiction while accessing and using this Website. By using this Website, you represent that you are not violating any applicable laws or regulations.",
-        "submissionTitle": "Submissions and Confidentiality",
-        "submissionOne": "Unless expressly stated otherwise, any information submitted through this Website shall be deemed non-confidential and non-proprietary. By submitting information, you:",
-        "submissionTwo": "We recommend that you do not submit any confidential or proprietary information via this Website.",
-        "submissionThree": "Rialtes reserves the right to update or modify these Terms of Use at any time without prior notice. Any changes will be effective immediately upon posting the revised terms on this page. We encourage users to review these Terms periodically to stay informed of any updates. Continued use of the Website after modifications are made constitutes acceptance of the updated Terms.",
-        
-        "useRestrictions": [
-    "Copy, reproduce, modify, republish, upload, post, distribute, transmit, or use any content from this Website for commercial purposes without prior written permission from Rialtes.",
-    "Engage in any unauthorized use of the Website, including but not limited to data mining, automated scripts, or any other practice that extracts data from the Website.",
-    "Attempt to gain unauthorized access to any portion of the Website, server, or any system connected to Rialtes' network.",
-    "Use the Website in any manner that could damage, disable, overburden, or impair its functionality or interfere with other users' access.",
-    "Introduce any malware, viruses, or harmful code into the Website.",
-    "Violate any applicable local, national, or international laws through your use of the Website."
-  ],
-  "noWarranties": [
-    "Warranties of merchantability, fitness for a particular purpose, non-infringement, or accuracy of content.",
-    "Warranties that the Website will be uninterrupted, error-free, secure, or free from harmful elements such as viruses or malware.",
-    "Any guarantee that information provided on the Website is up-to-date or applicable to your specific needs."
-  ],
-  "limitationOfLiability": [
-    "Loss of profits, revenue, or business opportunities.",
-    "Business interruption, technical failures, or data corruption.",
-    "Unauthorized access or use of personal information.",
-    "Any reliance on content published on the Website."
-  ],
-  "submissionTerms": [
-    "Warrant that you have the legal right to do so and that the submission does not infringe upon any third-party rights.",
-    "Agree that Rialtes shall have the unrestricted right to use, modify, distribute, and reproduce any information you provide without any compensation.",
-    "Acknowledge that the open nature of the Internet means that we cannot guarantee the confidentiality of any information submitted through this Website."
   ]
 }
 }
