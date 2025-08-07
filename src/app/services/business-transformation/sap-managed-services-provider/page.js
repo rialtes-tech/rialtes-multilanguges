@@ -235,7 +235,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative  xl:pb-40 md:pb-[10rem] pb-20">
+            <section className="relative  xl:pb-40 md:pb-[10rem] pb-20 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="md:block hidden">
                     <Image
                         src="/images/sap/sap-digital-desk/desktop/banner.webp"
@@ -257,11 +257,11 @@ export default function Page() {
                 </div>
                 <div className="relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 md:text-black text-white">
-                        <div className="xl:col-span-6  xl:pt-40 pt-20 md:pr-80 xl:pr-0">
-                            <h3 className="text-[20px] xl:text-[24px] font-bold mb-2 break-words">
+                        <div className="xl:col-span-6  4xl:pt-40 xl:pt-20 pt-20 md:pr-80 xl:pr-0">
+                            <h3 className="text-[20px] xl:text-[24px] font-bold mb-2 ">
                                 SAP Digital Desk
                             </h3>
-                            <h2 className="leading-tight break-words xl:mt-10 mt-5 pr-32 md:pr-0 xl:pr-0 4xl:text-[56px] text-[26px] xl:text-[50px]">
+                            <h2 className="leading-tight  xl:mt-10 mt-5 pr-12 md:pr-0 4xl:pr-0 xl:pr-12 4xl:text-[60px] text-[26px] 2xl:text-[48px] xl:text-[40px]">
                                 Maximize Your SAP Investment with Always-On Expertise
                             </h2>
                         </div>
@@ -328,7 +328,7 @@ export default function Page() {
                         <div className="xl:col-span-6 col-span-12">
                             <h3 className="xl:text-[28px] text-[18px] xl:font-bold font-medium">24x7 “Follow-the-Sun” Global Support</h3>
                             <UnorderedList arrName={["Always-On SAP system monitoring, incident management, and functional/technical support.", "Proactive alerts, real-time resolution, and service continuity — anywhere, anytime."]} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                            <h3 className="xl:text-[28px] text-[18px] xl:font-bold font-medium xl:pr-20 xl:pt-20 pt-10">Hybrid Delivery Model (Onsite + Offshore)</h3>
+                            <h3 className="xl:text-[28px] text-[18px] xl:font-bold font-medium xl:pr-20 xl:pt-10 2xl:pt-20 pt-10">Hybrid Delivery Model (Onsite + Offshore)</h3>
                             <UnorderedList arrName={["Strategic blend of onsite expertise and offshore delivery for cost-effective yet personalized support.", "Local leadership and customer-facing consultants backed by offshore SAP CoE teams for scalability."]} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="xl:absolute bottom-[-26px] xl:block hidden">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
@@ -547,10 +547,10 @@ export default function Page() {
                         <h3 className="4xl:text-[36px]  text-[20px] mt-5 xl:font-bold font-medium  4xl:pr-40 leading-tight">
                             Maximize SAP BTP to Extend and Personalize SAP
                         </h3>
-                        <p className="mt-5 leading-tight pr-10 4xl:pr-40 font-normal">
+                        <p className="mt-5 leading-tight pr-2 4xl:pr-40 font-normal">
                             Take advantage of SAP Business Technology Platform (BTP) to build innovations that drive competitive advantage:
                         </p>
-                        <UnorderedList arrName={unleashData} ulClassName="list-disc 4xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-10 xl:pr-0" liClassName="first:mt-3" />
+                        <UnorderedList arrName={unleashData} ulClassName="list-disc 4xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-5 xl:pr-0" liClassName="first:mt-3" />
                         <div className="absolute 4xl:mt-10 mt-2">
                             <LearnMore />
                         </div>
@@ -755,26 +755,26 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 xl:gap-x-12 gap-y-6 mt-16">
                         <div className="grid gap-6 xl:col-span-5 col-span-12">
                             {sapTransformationSteps.slice(0, 3).map(({ step, title, description }, index) => (
-                                <div key={step} className="gap-x-4 flex items-center">
-                                    <div className="w-[70px] h-[70px] bg-[#006FBE] text-white font-bold flex items-center justify-center text-4xl">
+                                <div key={step} className="flex w-full gap-x-4 items-start min-h-[100px]">
+                                    <div className="w-[70px] h-[70px] flex-shrink-0 bg-[#006FBE] text-white font-bold flex items-center justify-center text-4xl">
                                         {step}
                                     </div>
-                                    <div className="xl:flex items-center flex-col xl:flex-row">
-                                        <p className="font-bold xl:text-[22px] text-[18px] text-black">{title}</p>
-                                        <p className={`font-normal xl:pl-16`}>{description}</p>
+                                    <div className="flex flex-col xl:flex-row xl:gap-10 justify-center w-full xl:items-center">
+                                        <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] text-black">{title}</p>
+                                        <p className={`font-normal 4xl:text-[20px] xl:text-[18px] text-black mt-1`}>{description}</p>
                                     </div>
                                 </div>
                             ))}
                         </div>
                         <div className="grid xl:col-span-5 col-span-12 gap-6">
                             {sapTransformationSteps.slice(3).map(({ step, title, description, plOverride }, index) => (
-                                <div key={step} className="gap-x-4 flex items-center">
-                                    <div className="w-[70px] h-[70px] bg-[#006FBE] text-white font-bold flex items-center justify-center text-4xl">
-                                        {step}
+                                <div key={step} className="flex w-full gap-x-4 items-start min-h-[100px]">
+                                    <div className="w-[70px] h-[70px] flex-shrink-0 bg-[#006FBE] text-white font-bold flex items-center justify-center text-4xl">
+                                        {step} 
                                     </div>
-                                    <div className="xl:flex items-center flex-col xl:flex-row">
-                                        <p className="font-bold xl:text-[22px] text-[18px] text-black">{title}</p>
-                                        <p className={`font-normal ${plOverride || "xl:pl-16"}`}>{description}</p>
+                                    <div className="flex flex-col xl:items-center xl:flex-row xl:gap-10 justify-center w-full">
+                                        <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] text-black">{title}</p>
+                                        <p className={`font-normal 4xl:text-[20px] xl:text-[18px] text-black mt-1`}>{description}</p>
                                     </div>
                                 </div>
                             ))}
@@ -854,11 +854,11 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-5 col-span-12 order-2 xl:order-1 mx-[35px] xl:mx-0 xl:mt-0 md:mx-0 ">
-                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[35px] mt-16">Rialtes’ BTP Center of Excellence</h2>
+                        <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[35px] mt-10">Rialtes’ BTP Center of Excellence</h2>
                         <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
                             Innovate, Integrate, and Extend SAP Faster
                         </h3>
-                        <p className="4xl:mt-8 xl:mt-4 font-normal 4xl:text-[20px] text-[16px]">
+                        <p className="4xl:mt-8 xl:mt-4 mt-4 font-normal 4xl:text-[20px] text-[16px]">
                             From AI-driven workflows to mobile apps and event-driven architectures, our Certified SAP BTP experts ensure:
                         </p>
                         <UnorderedList arrName={btpData} ulClassName="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 xl:pr-10" liClassName="" />
