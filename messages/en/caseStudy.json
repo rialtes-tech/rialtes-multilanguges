@@ -1,113 +1,338 @@
 {
-    "yardiCaseStudy":{
-        "headerTitle":"Trusted YARDI Partner for North America’s Largest PHA",
-        "publicTitle": "Public Sector",
-        "date": "27 September 2024",
-        "read": "8 min read",
-        "clientTitle": "Client Profile",
-        "clientDesc": "A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.",
-        "challengesTitle": "Challenges",
-        "challengesDesc": "The client faced operational inefficiencies in managing multiple property management platforms, including Yardi Voyager 7, MRI, Voyager, and RealPage:",
-        "solutionsTitle": "Solutions",
-        "solutionsDesc": "Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:",
-        "benefits": "Benefits",
-        "challengesList": [
-  {
-    "title": "Skill Silos",
-    "description": "Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays."
+  "yardiCaseStudy": {
+    "headerTitle": "Trusted YARDI Partner for North America’s Largest PHA",
+    "publicTitle": "Public Sector",
+    "date": "27 September 2024",
+    "read": "8 min read",
+    "clientTitle": "Client Profile",
+    "clientDesc": "A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.",
+    "challengesTitle": "Challenges",
+    "challengesDesc": "The client faced operational inefficiencies in managing multiple property management platforms, including Yardi Voyager 7, MRI, Voyager, and RealPage:",
+    "solutionsTitle": "Solutions",
+    "solutionsDesc": "Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:",
+    "benefits": "Benefits",
+    "challengesList": [
+      {
+        "title": "Skill Silos",
+        "description": "Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays."
+      },
+      {
+        "title": "Talent Shortage",
+        "description": "Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack."
+      },
+      {
+        "title": "Lack of Centralized Oversight",
+        "description": "Projects were loosely organized, limiting effective collaboration and knowledge sharing."
+      }
+    ],
+    "solutionStepsList": [
+      {
+        "title": "Capability Assessment",
+        "description": "Conducted a thorough review of the client’s internal team and identified skill gaps."
+      },
+      {
+        "title": "Team Augmentation",
+        "description": "Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage."
+      },
+      {
+        "title": "Collaborative Transition",
+        "description": "Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities."
+      },
+      {
+        "title": "End-to-End Ownership",
+        "description": "After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model."
+      }
+    ],
+    "benefitsList": [
+      "With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones.",
+      "Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%.",
+      "By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions.",
+      "Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team.",
+      "The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
   },
-  {
-    "title": "Talent Shortage",
-    "description": "Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack."
+  "relatedTopic": {
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "related": "Related",
+    "topics": "Topics"
   },
-  {
-    "title": "Lack of Centralized Oversight",
-    "description": "Projects were loosely organized, limiting effective collaboration and knowledge sharing."
+  "automateCaseStudy": {
+    "autoTitle": "Automating Order Processing in Healthcare using MuleSoft",
+    "healthcare": "Healthcare",
+    "date": "17 November 2024",
+    "read": "8 min read",
+    "cliendTitle": "Client Profile",
+    "clientDesc": "A global medical technology company specializing in the development and manufacture of innovative products for diagnosing, treating, and monitoring cardiovascular and endovascular conditions. Their portfolio includes pacemakers, defibrillators, and remote monitoring systems for patients with implanted devices. The company’s mission is to improve the quality of life for individuals with heart and blood vessel diseases through advanced medical technologies.",
+    "companyTitle": "Problem or Challenge ",
+    "companyDesc": "The company faced significant inefficiencies due to a manual, disconnected order processing workflow between Salesforce (used for sales and patient management) and SAP (used for finance and accounting). Key challenges included:",
+    "solutionsTitle": "Solutions",
+    "solutionsDesc": "Rialtes implemented an integrated Salesforce-SAP solution using MuleSoft, bridging the gap between systems and automating the entire order lifecycle. Key components of the solution:",
+    "benefitsTitle": "Benefits",
+    "benefitsDesc": "The integration delivered measurable improvements across departments:",
+    "problemList": [
+      {
+        "title": "Manual data entry",
+        "description": "across systems, leading to frequent delays and human errors."
+      },
+      {
+        "title": "Lack of integration",
+        "description": "between sales and finance teams, resulting in data silos and miscommunication."
+      },
+      {
+        "title": "Complexity in payment processing",
+        "description": "including insurance claims, co-pays, and direct payments."
+      }
+    ],
+    "solutionsList": [
+      {
+        "title": "Automated Order Syncing",
+        "description": "Orders created in Salesforce now automatically trigger corresponding entries in SAP, eliminating the need for manual duplication."
+      },
+      {
+        "title": "Real-Time Data Updates",
+        "description": "Any modifications in one system are instantly reflected in the other, ensuring data accuracy and consistency."
+      },
+      {
+        "title": "MuleSoft as a Middleware",
+        "description": "Used to map and translate data between systems, accommodating different formats and adhering to healthcare data privacy regulations."
+      },
+      {
+        "title": "Role-Based System Segregation",
+        "description": "Salesforce is now focused on patient data and order creation, while SAP manages invoicing, settlements, and accounting—allowing teams to operate within their areas of expertise."
+      }
+    ],
+    "benefitsList": [
+      "60% reduction in order processing time by eliminating manual data entry.",
+      "Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.",
+      "Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.",
+      "Up to 40% fewer order discrepancies, thanks to automated validation and real-time updates.",
+      "Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.",
+      "Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "digitizingCaseStudy": {
+    "digitizingTitle": "Digitizing the Patient Journey Using Salesforce Health Cloud",
+    "healthcare": "Healthcare",
+    "date": "16 August 2024",
+    "read": "8 min read",
+    "clientTitle": "Client Profile",
+    "clientDesc": "A global medical technology company dedicated to improving lives through innovative cardiovascular and endovascular care. The company designs and manufactures pacemakers, defibrillators, and remote monitoring systems used by healthcare professionals worldwide. Their mission is to support better patient outcomes by combining advanced medical technology with seamless digital experiences.",
+    "peoblemTitle": "Problem or Challenge",
+    "peoblemDesc": "The company had recently introduced a new patient journey system, but it lacked the critical functionality needed to deliver a truly connected and engaging healthcare experience.",
+    "solutionsTitle": "Solutions",
+    "solutionsDesc": "The client partnered with Rialtes to modernize the patient experience by building a fully integrated, digital-first solution.",
+    "benefitsTitle": "Benefits",
+    "benefitsList": [
+      "30% increase in therapy adherence through gamified engagement and automated reminders.",
+      "40% improvement in data submission rates, enabling more proactive care.",
+      "50% reduction in phone-based support as self-service and digital communication became primary channels.",
+      "Enhanced patient satisfaction with personalized, on-the-go access to therapy information and education.",
+      "Scalable architecture, ready for future enhancements like AI-driven insights and broader wearable device integration."
+    ],
+    "challengesList": [
+      {
+        "title": "Limited digital engagement",
+        "description": "Patients relied on phone calls, physical visits, and in-person educational sessions for all interactions."
+      },
+      {
+        "title": "No real-time communication",
+        "description": "The system lacked virtual touchpoints, making it difficult for patients to contact healthcare providers outside of clinic visits."
+      },
+      {
+        "title": "No self-service data input",
+        "description": "Patients couldn’t submit important health data—like sleep patterns, activity levels, or medication usage, digitally."
+      },
+      {
+        "title": "Lack of real-time monitoring",
+        "description": "Providers had no visibility into whether patients were adhering to their therapy plans between visits."
+      }
+    ],
+    "solutionsList": [
+      {
+        "title": "Mobile Application",
+        "description": "Developed for Android and iOS, the app connected seamlessly with Salesforce Health Cloud to serve as a central hub for patient engagement."
+      },
+      {
+        "title": "Self-Guided Onboarding",
+        "description": "Patients could easily register and access a personalized dashboard to view therapy progress, action items, and relevant data."
+      },
+      {
+        "title": "Data Submission & Tracking",
+        "description": "Patients could log vital information—such as sleep, discomfort levels, and medication adherence, directly in the app. Integration with wearable devices (e.g., Apple Watch) enabled automatic collection of metrics like heart rate and step count."
+      },
+      {
+        "title": "Telehealth & Messaging",
+        "description": "Enabled secure, real-time communication between patients and providers for queries, updates, and appointment scheduling."
+      },
+      {
+        "title": "Gamification & Engagement",
+        "description": "Patients were encouraged to submit data and complete health-related tasks through gamified elements, improving long-term adherence."
+      },
+      {
+        "title": "Smart Notifications",
+        "description": "Automated reminders prompted patients to share health data consistently, ensuring ongoing visibility for care teams."
+      },
+      {
+        "title": "In-App Education",
+        "description": "Patients could access videos and articles to understand their conditions and therapies. Providers could monitor content engagement and deliver personalized follow-up materials."
+      }
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
   }
-],
-"solutionStepsList": [
-  {
-    "title": "Capability Assessment",
-    "description": "Conducted a thorough review of the client’s internal team and identified skill gaps."
-  },
-  {
-    "title": "Team Augmentation",
-    "description": "Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage."
-  },
-  {
-    "title": "Collaborative Transition",
-    "description": "Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities."
-  },
-  {
-    "title": "End-to-End Ownership",
-    "description": "After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model."
-  }
-],
-"outcomesList": [
-  "With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones.",
-  "Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%.",
-  "By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions.",
-  "Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team.",
-  "The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally."
-],
-"slides" : [
-  {
-    "id": 3,
-    "image": "/images/case-studies/case study 1_thumb_n.webp",
-    "category": "Healthcare",
-    "industry": "Real Estate",
-    "date": "17 Nov 2024",
-    "title": "Automating Order Processing in Healthcare using MuleSoft",
-    "description": "A global medical technology company that develops and manufactures innovative products",
-    "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-  },
-  {
-    "id": 4,
-    "image": "/images/case-studies/case-study-4_thumb.webp",
-    "category": "Manufacturing",
-    "industry": "Healthcare",
-    "date": "14 Oct 2024",
-    "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-    "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-    "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-  },
-  {
-    "id": 6,
-    "image": "/images/case-studies/case-study-6_thumb.webp",
-    "category": "Real Estate",
-    "industry": "Manufacturing",
-    "date": "04 Sept 2024",
-    "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-    "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    "url": "insights/case-studies/yardi-managed-services"
-  },
-  {
-    "id": 7,
-    "image": "/images/case-studies/case study 3_thumb_n.webp",
-    "category": "Manufacturing",
-    "industry": "Retail & e-Commerce",
-    "date": "08 Jan 2025",
-    "title": "DevOps Transformation using Copado and Salesforce",
-    "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-  },
-  {
-    "id": 8,
-    "image": "/images/case-studies/case-study-2_thumb_n.webp",
-    "category": "Real Estate",
-    "industry": "Hi-Tech",
-    "date": "22 Dec 2024",
-    "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-    "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    "url": "insights/case-studies/realForce-banking-module-ach"
-  }
-]
-    },
-    "relatedTopic":{
-      "previousSlide": "Previous slide",
-        "nextSlide": "Next slide",
-        "related":"Related",
-        "topics": "Topics"
-
-    }
 }

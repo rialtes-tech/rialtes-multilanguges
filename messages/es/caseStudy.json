@@ -1,115 +1,341 @@
 {
   "yardiCaseStudy": {
     "headerTitle": "Socio confiable de YARDI para la PHA más grande de América del Norte",
-     "publicTitle": "Sector Público",
-  "date": "27 de septiembre de 2024",
-  "read": "8 minutos de lectura",
-  "clientTitle": "Perfil del Cliente",
-  "clientDesc": "Una destacada empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Enfocada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza los rendimientos para sus inversionistas.",
-  
-  "challengesTitle": "Desafíos",
-  "challengesDesc": "El cliente enfrentaba ineficiencias operativas al gestionar múltiples plataformas de administración de propiedades, incluyendo Yardi Voyager 7, MRI, Voyager y RealPage:",
-  
-  "solutionsTitle": "Soluciones",
-  "solutionsDesc": "Rialtes, un proveedor confiable de Servicios Gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
-  
-  "benefits": "Beneficios",
-  "challengesList": [
-  {
-    "title": "Silencios de habilidades",
-    "description": "La dependencia de expertos individuales para cada plataforma generaba cuellos de botella. Cualquier ausencia provocaba retrasos."
-  },
-  {
-    "title": "Escasez de talento",
-    "description": "Los mercados locales de contratación carecían de especialistas con conocimientos profundos en la pila tecnológica específica del cliente."
-  },
-  {
-    "title": "Falta de supervisión centralizada",
-    "description": "Los proyectos estaban organizados de manera poco estructurada, lo que limitaba la colaboración y el intercambio de conocimientos."
-  }
-],
-"solutionStepsList": [
-  {
-    "title": "Evaluación de capacidades",
-    "description": "Se realizó una revisión exhaustiva del equipo interno del cliente e identificaron brechas de habilidades."
-  },
-  {
-    "title": "Aumento del equipo",
-    "description": "Se desplegaron recursos calificados para complementar al equipo interno del cliente, brindando soporte inmediato para Yardi, MRI y RealPage."
-  },
-  {
-    "title": "Transición colaborativa",
-    "description": "El soporte inicial fue proporcionado desde el extranjero por el equipo técnico de Rialtes, con una transición gradual hacia un modelo híbrido con responsabilidades compartidas."
-  },
-  {
-    "title": "Propiedad de extremo a extremo",
-    "description": "Después de un año exitoso, Rialtes asumió la propiedad total de todos los sistemas relacionados—Yardi, RealPage, vivienda asequible, residencial y comercial, ofreciendo un modelo de servicio gestionado integral."
-  }
-],
-"outcomesList": [
-  "Con un modelo follow-the-sun, el cliente ahora recibe asistencia las 24 horas, asegurando cero interrupciones operativas en todas las zonas horarias.",
-  "La cobertura con múltiples recursos eliminó la dependencia de colaboradores individuales, aumentando la resiliencia del sistema en un 90%.",
-  "Al introducir personal principal y de respaldo para todos los sistemas críticos, Rialtes redujo significativamente las interrupciones del servicio.",
-  "El uso de recursos offshore reduce los costos en casi un tercio en comparación con mantener un equipo interno completo en California.",
-  "El cliente obtuvo acceso bajo demanda a una amplia gama de habilidades en Yardi, MRI, RealPage e infraestructura, sin la carga de contratar localmente."
-],
-"slides": [
-  {
-    "id": 3,
-    "image": "/images/case-studies/case study 1_thumb_n.webp",
-    "category": "Salud",
-    "industry": "Bienes Raíces",
-    "date": "17 Nov 2024",
-    "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
-    "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
-    "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-  },
-  {
-    "id": 4,
-    "image": "/images/case-studies/case-study-4_thumb.webp",
-    "category": "Manufactura",
-    "industry": "Salud",
-    "date": "14 Oct 2024",
-    "title": "Transformación de la Gestión Omnicanal de Casos con Salesforce Service Cloud",
-    "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-    "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-  },
-  {
-    "id": 6,
-    "image": "/images/case-studies/case-study-6_thumb.webp",
-    "category": "Bienes Raíces",
-    "industry": "Manufactura",
-    "date": "04 Sept 2024",
-    "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
-    "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-    "url": "insights/case-studies/yardi-managed-services"
-  },
-  {
-    "id": 7,
-    "image": "/images/case-studies/case study 3_thumb_n.webp",
-    "category": "Manufactura",
-    "industry": "Comercio Minorista y Electrónico",
-    "date": "08 Ene 2025",
-    "title": "Transformación DevOps con Copado y Salesforce",
-    "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
-    "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-  },
-  {
-    "id": 8,
-    "image": "/images/case-studies/case-study-2_thumb_n.webp",
-    "category": "Bienes Raíces",
-    "industry": "Alta Tecnología",
-    "date": "22 Dic 2024",
-    "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
-    "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-    "url": "insights/case-studies/realForce-banking-module-ach"
-  }
-]
+    "publicTitle": "Sector Público",
+    "date": "27 de septiembre de 2024",
+    "read": "8 minutos de lectura",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Una destacada empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Enfocada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza los rendimientos para sus inversionistas.",
+
+    "challengesTitle": "Desafíos",
+    "challengesDesc": "El cliente enfrentaba ineficiencias operativas al gestionar múltiples plataformas de administración de propiedades, incluyendo Yardi Voyager 7, MRI, Voyager y RealPage:",
+
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Rialtes, un proveedor confiable de Servicios Gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
+
+    "benefits": "Beneficios",
+    "challengesList": [
+      {
+        "title": "Silencios de habilidades",
+        "description": "La dependencia de expertos individuales para cada plataforma generaba cuellos de botella. Cualquier ausencia provocaba retrasos."
+      },
+      {
+        "title": "Escasez de talento",
+        "description": "Los mercados locales de contratación carecían de especialistas con conocimientos profundos en la pila tecnológica específica del cliente."
+      },
+      {
+        "title": "Falta de supervisión centralizada",
+        "description": "Los proyectos estaban organizados de manera poco estructurada, lo que limitaba la colaboración y el intercambio de conocimientos."
+      }
+    ],
+    "solutionStepsList": [
+      {
+        "title": "Evaluación de capacidades",
+        "description": "Se realizó una revisión exhaustiva del equipo interno del cliente e identificaron brechas de habilidades."
+      },
+      {
+        "title": "Aumento del equipo",
+        "description": "Se desplegaron recursos calificados para complementar al equipo interno del cliente, brindando soporte inmediato para Yardi, MRI y RealPage."
+      },
+      {
+        "title": "Transición colaborativa",
+        "description": "El soporte inicial fue proporcionado desde el extranjero por el equipo técnico de Rialtes, con una transición gradual hacia un modelo híbrido con responsabilidades compartidas."
+      },
+      {
+        "title": "Propiedad de extremo a extremo",
+        "description": "Después de un año exitoso, Rialtes asumió la propiedad total de todos los sistemas relacionados—Yardi, RealPage, vivienda asequible, residencial y comercial, ofreciendo un modelo de servicio gestionado integral."
+      }
+    ],
+    "benefitsList": [
+      "Con un modelo follow-the-sun, el cliente ahora recibe asistencia las 24 horas, asegurando cero interrupciones operativas en todas las zonas horarias.",
+      "La cobertura con múltiples recursos eliminó la dependencia de colaboradores individuales, aumentando la resiliencia del sistema en un 90%.",
+      "Al introducir personal principal y de respaldo para todos los sistemas críticos, Rialtes redujo significativamente las interrupciones del servicio.",
+      "El uso de recursos offshore reduce los costos en casi un tercio en comparación con mantener un equipo interno completo en California.",
+      "El cliente obtuvo acceso bajo demanda a una amplia gama de habilidades en Yardi, MRI, RealPage e infraestructura, sin la carga de contratar localmente."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Salud",
+        "industry": "Bienes Raíces",
+        "date": "17 Nov 2024",
+        "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufactura",
+        "industry": "Salud",
+        "date": "14 Oct 2024",
+        "title": "Transformación de la Gestión Omnicanal de Casos con Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Bienes Raíces",
+        "industry": "Manufactura",
+        "date": "04 Sept 2024",
+        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufactura",
+        "industry": "Comercio Minorista y Electrónico",
+        "date": "08 Ene 2025",
+        "title": "Transformación DevOps con Copado y Salesforce",
+        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Bienes Raíces",
+        "industry": "Alta Tecnología",
+        "date": "22 Dic 2024",
+        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
   },
   "relatedTopic": {
-  "previousSlide": "Diapositiva anterior",
-  "nextSlide": "Siguiente diapositiva",
-  "related": "Relacionado",
-  "topics": "Temas"
-}
+    "previousSlide": "Diapositiva anterior",
+    "nextSlide": "Siguiente diapositiva",
+    "related": "Relacionado",
+    "topics": "Temas"
+  },
+  "automateCaseStudy": {
+    "autoTitle": "Automatización del procesamiento de pedidos en el sector sanitario con MuleSoft",
+    "healthcare": "Sanidad",
+    "date": "17 de noviembre de 2024",
+    "read": "8 min de lectura",
+    "cliendTitle": "Perfil del cliente",
+    "clientDesc": "Una empresa mundial de tecnología médica especializada en el desarrollo y la fabricación de productos innovadores para el diagnóstico, tratamiento y seguimiento de afecciones cardiovasculares y endovasculares. Su cartera incluye marcapasos, desfibriladores y sistemas de monitorización remota para pacientes con dispositivos implantados. La misión de la empresa es mejorar la calidad de vida de las personas con enfermedades del corazón y los vasos sanguíneos mediante tecnologías médicas avanzadas.",
+    "companyTitle": "Problema o desafío",
+    "companyDesc": "La empresa enfrentaba importantes ineficiencias debido a un flujo de trabajo manual y desconectado en el procesamiento de pedidos entre Salesforce (utilizado para ventas y gestión de pacientes) y SAP (utilizado para finanzas y contabilidad). Los principales desafíos incluían:",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Rialtes implementó una solución integrada Salesforce-SAP utilizando MuleSoft, cerrando la brecha entre los sistemas y automatizando todo el ciclo de vida de los pedidos. Componentes clave de la solución:",
+    "benefitsTitle": "Beneficios",
+    "benefitsDesc": "La integración proporcionó mejoras medibles en todos los departamentos:",
+    "problemList": [
+      {
+        "title": "Entrada de datos manual",
+        "description": "entre sistemas, lo que provocaba retrasos frecuentes y errores humanos."
+      },
+      {
+        "title": "Falta de integración",
+        "description": "entre los equipos de ventas y finanzas, lo que resultaba en silos de datos y falta de comunicación."
+      },
+      {
+        "title": "Complejidad en el procesamiento de pagos",
+        "description": "incluyendo reclamaciones de seguros, copagos y pagos directos."
+      }
+    ],
+    "solutionsList": [
+      {
+        "title": "Sincronización automática de pedidos",
+        "description": "Los pedidos creados en Salesforce ahora generan automáticamente entradas correspondientes en SAP, eliminando la necesidad de duplicación manual."
+      },
+      {
+        "title": "Actualizaciones de datos en tiempo real",
+        "description": "Cualquier modificación en un sistema se refleja instantáneamente en el otro, garantizando la precisión y consistencia de los datos."
+      },
+      {
+        "title": "MuleSoft como middleware",
+        "description": "Utilizado para mapear y traducir datos entre sistemas, adaptándose a diferentes formatos y cumpliendo con las regulaciones de privacidad de datos sanitarios."
+      },
+      {
+        "title": "Segregación del sistema basada en roles",
+        "description": "Salesforce ahora se enfoca en los datos de los pacientes y la creación de pedidos, mientras que SAP gestiona la facturación, los pagos y la contabilidad, permitiendo que los equipos trabajen dentro de sus áreas de especialización."
+      }
+    ],
+    "benefitsList": [
+      "Reducción del 60 % en el tiempo de procesamiento de pedidos al eliminar la entrada manual de datos.",
+      "La sincronización en tiempo real entre Salesforce y SAP minimizó errores y mejoró la integridad de los datos.",
+      "Mejor colaboración entre los equipos de ventas y finanzas gracias a la visibilidad compartida del estado de pedidos y pagos.",
+      "Hasta un 40 % menos de discrepancias en pedidos, gracias a la validación automatizada y las actualizaciones en tiempo real.",
+      "Gestión de pagos optimizada, lo que permite un procesamiento fluido de seguros, copagos y pagos directos.",
+      "Mayor productividad: los equipos de ventas ahora pueden centrarse en el crecimiento, mientras que finanzas gestiona las transacciones con mayor eficiencia."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Salud",
+        "industry": "Bienes Raíces",
+        "date": "17 Nov 2024",
+        "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufactura",
+        "industry": "Salud",
+        "date": "14 Oct 2024",
+        "title": "Transformación de la Gestión Omnicanal de Casos con Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Bienes Raíces",
+        "industry": "Manufactura",
+        "date": "04 Sept 2024",
+        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufactura",
+        "industry": "Comercio Minorista y Electrónico",
+        "date": "08 Ene 2025",
+        "title": "Transformación DevOps con Copado y Salesforce",
+        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Bienes Raíces",
+        "industry": "Alta Tecnología",
+        "date": "22 Dic 2024",
+        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "digitizingCaseStudy": {
+    "digitizingTitle": "Digitalización del viaje del paciente utilizando Salesforce Health Cloud",
+    "healthcare": "Salud",
+    "date": "16 de agosto de 2024",
+    "read": "8 min de lectura",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Una empresa global de tecnología médica dedicada a mejorar vidas mediante cuidados cardiovasculares y endovasculares innovadores. La empresa diseña y fabrica marcapasos, desfibriladores y sistemas de monitoreo remoto utilizados por profesionales de la salud en todo el mundo. Su misión es respaldar mejores resultados para los pacientes combinando tecnología médica avanzada con experiencias digitales sin interrupciones.",
+    "peoblemTitle": "Problema o Desafío",
+    "peoblemDesc": "La empresa había introducido recientemente un nuevo sistema de recorrido del paciente, pero carecía de la funcionalidad crítica necesaria para ofrecer una experiencia de atención médica verdaderamente conectada y atractiva.",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "El cliente se asoció con Rialtes para modernizar la experiencia del paciente mediante la creación de una solución totalmente integrada y digital.",
+    "benefitsTitle": "Beneficios",
+    "benefitsList": [
+      "Aumento del 30% en la adherencia a la terapia gracias a la participación gamificada y los recordatorios automatizados.",
+      "Mejora del 40% en las tasas de envío de datos, lo que permite una atención más proactiva.",
+      "Reducción del 50% en el soporte telefónico al convertirse el autoservicio y la comunicación digital en los canales principales.",
+      "Mayor satisfacción del paciente con acceso personalizado e instantáneo a información y educación sobre la terapia.",
+      "Arquitectura escalable, lista para futuras mejoras como conocimientos impulsados por IA e integración con más dispositivos portátiles."
+    ],
+    "challengesList": [
+      {
+        "title": "Compromiso digital limitado",
+        "description": "Los pacientes dependían de llamadas telefónicas, visitas físicas y sesiones educativas presenciales para todas las interacciones."
+      },
+      {
+        "title": "Sin comunicación en tiempo real",
+        "description": "El sistema carecía de puntos de contacto virtuales, lo que dificultaba que los pacientes contactaran con los proveedores fuera de las visitas clínicas."
+      },
+      {
+        "title": "Sin entrada de datos de autoservicio",
+        "description": "Los pacientes no podían enviar datos de salud importantes (como patrones de sueño, niveles de actividad o uso de medicamentos) de forma digital."
+      },
+      {
+        "title": "Falta de monitoreo en tiempo real",
+        "description": "Los proveedores no tenían visibilidad sobre si los pacientes seguían sus planes de terapia entre visitas."
+      }
+    ],
+    "solutionsList": [
+      {
+        "title": "Aplicación Móvil",
+        "description": "Desarrollada para Android e iOS, la app se conectó sin problemas con Salesforce Health Cloud para servir como un centro central de participación del paciente."
+      },
+      {
+        "title": "Onboarding Autoguiado",
+        "description": "Los pacientes podían registrarse fácilmente y acceder a un panel personalizado para ver el progreso de la terapia, tareas pendientes y datos relevantes."
+      },
+      {
+        "title": "Envío y Seguimiento de Datos",
+        "description": "Los pacientes podían registrar información vital, como el sueño, niveles de malestar y cumplimiento de medicamentos directamente en la app. La integración con dispositivos portátiles (por ejemplo, Apple Watch) permitía la recopilación automática de métricas como la frecuencia cardíaca y el recuento de pasos."
+      },
+      {
+        "title": "Telemedicina y Mensajería",
+        "description": "Se habilitó la comunicación segura y en tiempo real entre pacientes y proveedores para consultas, actualizaciones y programación de citas."
+      },
+      {
+        "title": "Gamificación y Compromiso",
+        "description": "Se alentó a los pacientes a enviar datos y completar tareas relacionadas con la salud mediante elementos gamificados, mejorando la adherencia a largo plazo."
+      },
+      {
+        "title": "Notificaciones Inteligentes",
+        "description": "Recordatorios automatizados alentaban a los pacientes a compartir datos de salud de manera constante, asegurando visibilidad continua para los equipos de atención."
+      },
+      {
+        "title": "Educación en la App",
+        "description": "Los pacientes podían acceder a videos y artículos para comprender sus condiciones y terapias. Los proveedores podían monitorear la participación con el contenido y entregar materiales de seguimiento personalizados."
+      }
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Salud",
+        "industry": "Bienes Raíces",
+        "date": "17 Nov 2024",
+        "title": "Automatización del procesamiento de pedidos en el sector salud usando MuleSoft",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufactura",
+        "industry": "Salud",
+        "date": "14 Oct 2024",
+        "title": "Transformación de la gestión omnicanal de casos con Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Bienes Raíces",
+        "industry": "Manufactura",
+        "date": "04 Sept 2024",
+        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar con servicios gestionados de Yardi",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufactura",
+        "industry": "Retail y Comercio Electrónico",
+        "date": "08 Ene 2025",
+        "title": "Transformación DevOps con Copado y Salesforce",
+        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Bienes Raíces",
+        "industry": "Alta Tecnología",
+        "date": "22 Dic 2024",
+        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  }
 }

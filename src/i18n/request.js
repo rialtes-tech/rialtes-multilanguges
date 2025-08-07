@@ -77,9 +77,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
     const yardiCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
     const relatedTopic = (await import(`../../messages/${locale}/caseStudy.json`)).default;
-
-
-
+    const automateCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
+    const digitizingCaseStudy = (await import(`../../messages/${locale}/caseStudy.json`)).default;
 
     return {
         locale,
@@ -143,7 +142,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
             ...letsWhatsappWebinar,
             ...privacyPolicy,
             ...yardiCaseStudy,
-            ...relatedTopic
+            ...relatedTopic,
+            ...automateCaseStudy,
+            ...digitizingCaseStudy
         }
     };
 });

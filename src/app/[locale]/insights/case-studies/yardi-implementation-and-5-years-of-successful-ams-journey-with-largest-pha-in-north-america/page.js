@@ -40,7 +40,7 @@ export default function Page() {
   const t = useTranslations("yardiCaseStudy");
   const locale = useLocale();
   const Content = locale === "es" ? esContent : enContent;
-  const { challengesList, solutionStepsList, outcomesList, slides } =
+  const { challengesList, solutionStepsList, benefitsList, slides } =
     Content.yardiCaseStudy;
 
   const fullUrl =
@@ -160,9 +160,9 @@ export default function Page() {
                 arrName={challengesList.map((item, idx) => (
                   <span key={idx}>
                     <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
-                      {item.title}:
-                    </h3>{" "}
-                    {item.description}
+                      {item.title}
+                    </h3>
+                     <span> : {item.description}</span>
                   </span>
                 ))}
               />
@@ -181,9 +181,9 @@ export default function Page() {
                 arrName={solutionStepsList.map((item, idx) => (
                   <span key={idx}>
                     <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
-                      {item.title}:
-                    </h3>{" "}
-                    {item.description}
+                      {item.title}
+                    </h3>
+                    <span> : {item.description}</span>
                   </span>
                 ))}
               />
@@ -198,7 +198,7 @@ export default function Page() {
               <UnorderedList
                 ulClassName="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium"
                 liClassName="pb-4"
-                arrName={outcomesList}
+                arrName={benefitsList}
               />
             </div>
           </div>
