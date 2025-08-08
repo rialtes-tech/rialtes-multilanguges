@@ -404,7 +404,7 @@ export default function page() {
                                     <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[60px] 4xl:gap-[20px]">
                                         <div className="xl:pt-[60px] pt-[40px]">
                                             <div className="absolute top-[-50px]">
-                                                <p className="text-[50px] px-4 pl-2 py-2 bg-[#ffffff] font-bold">{data.id}</p>
+                                                <p className="text-[50px] px-4 pl-1 py-2 bg-[#ffffff] font-bold">{data.id}</p>
                                             </div>
                                             <h2 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-bold">
                                                 {data.title}
