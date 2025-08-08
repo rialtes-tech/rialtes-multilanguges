@@ -182,18 +182,15 @@ export default function Page() {
 
               <p className="text-black pb-6">{t("solutionsDesc")}</p>
               <div className="pl-2">
-                <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
-                  liClassName="pb-4"
-                  arrName={solutionsList.map((item, idx) => (
-                    <span key={idx}>
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                  {solutionsList.map((item, idx) => (
+                    <li className="pb-4 last:pb-0" key={idx}>
                       <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
                         {item.title}
-                      </h3>
-                      <span> : {item.description}</span>
-                    </span>
+                      </h3> : {item.description}
+                    </li>
                   ))}
-                />
+                </ul>
               </div>
             </div>
           </div>

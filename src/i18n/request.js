@@ -27,6 +27,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
         importMessages(locale, ["insight"]),
         importMessages(locale, ["webinars"]),
         importMessages(locale, ["blogs"]),
+        importMessages(locale, ["caseStudy"]),
     ]);
 
     return {

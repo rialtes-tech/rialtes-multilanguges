@@ -337,5 +337,399 @@
         "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]
+  },
+  "empoweringCaseStudy": {
+  "headerTitle": "150 pedidos al día, cero trabajo manual: Priorización de pedidos con autoservicio impulsada por Fiori",
+  "manufacturing": "Fabricación",
+  "date": "28 de mayo de 2025",
+  "read": "8 min de lectura",
+  "clientTitle": "Perfil del Cliente",
+  "clientDesc": "Nuestro cliente es un fabricante reconocido de productos para techos de alta calidad con una trayectoria basada en la innovación, la calidad y la sostenibilidad. Con un portafolio diverso que incluye tejas asfálticas, accesorios para techos, capas base e impermeabilización, atienden tanto al mercado residencial como al comercial. Respaldada por instalaciones de fabricación de última generación y una sólida red de distribución, la empresa es un socio de confianza para constructores, contratistas y propietarios en todo el país.",
+  "challengesTitle": "Desafíos",
+  "challengesDesc": "A pesar de las importantes inversiones tecnológicas del cliente en fabricación, su proceso de gestión de pedidos dependía en gran medida de la intervención manual. Los clientes que deseaban priorizar ciertos pedidos debían llamar al equipo de ventas y compartir su lista de pedidos urgentes. Esto requería que el equipo de ventas ajustara manualmente las fechas de carga para aproximadamente 150 pedidos diarios, un proceso ineficiente y propenso a errores que consumía tiempo y recursos valiosos.",
+  "solutionsTitle": "Soluciones",
+  "solutionsDesc": "Rialtes se asoció con el cliente para optimizar y digitalizar su proceso de priorización de pedidos. Desarrollamos una aplicación personalizada de SAP Fiori que permitió a los clientes acceder de forma independiente a sus pedidos abiertos y seleccionar cuáles necesitaban ser priorizados. Las características clave de la solución incluían:",
+  "solutionsList": [
+    "Una interfaz fácil de usar para que los clientes puedan ver y seleccionar pedidos abiertos",
+    "Lógica de planificación integrada con la capacidad de fabricación para garantizar cronogramas realistas",
+    "Un sistema de asignación inteligente basado en las cuotas predefinidas de los clientes",
+    "Funcionalidad de autoservicio que permite a los clientes priorizar pedidos sin intervención del equipo de ventas"
+  ],
+  "benefitsTitle": "Beneficios",
+  "benefitsDesc": "La implementación de la aplicación Fiori transformó la gestión de pedidos de ventas para nuestros clientes, ofreciendo mejoras medibles en las operaciones:",
+  "benifitList": [
+  {
+    "title": "Eficiencia Mejorada",
+    "description": "Se eliminó el ajuste manual de más de 150 órdenes de venta diarias. Esto ahorró al equipo de ventas aproximadamente más de 25 horas por semana, permitiéndoles enfocarse más en la atención al cliente y actividades estratégicas."
+  },
+  {
+    "title": "Empoderamiento del Cliente",
+    "description": "Con control directo sobre la priorización de pedidos a través de la app Fiori, los clientes obtuvieron mayor transparencia y flexibilidad, lo que resultó en un aumento del 20% en la satisfacción del cliente y una reducción del 30% en consultas relacionadas con el estado y cambios de pedidos."
+  },
+  {
+    "title": "Planificación Optimizada",
+    "description": "La visibilidad en tiempo real de los datos de pedidos permitió una mejor alineación de la asignación de materiales y la planificación de la producción con la demanda del cliente y la capacidad de planta, mejorando la precisión de la planificación en un 40% y reduciendo faltantes y entregas fallidas en un 20%."
+  },
+  {
+    "title": "Reducción de Errores",
+    "description": "La eliminación de la entrada manual de datos disminuyó los errores en el procesamiento de pedidos en más del 80%, mejorando la precisión y ayudando a lograr una mejora del 15% en las métricas de entrega a tiempo y completas (OTIF), fundamentales para la cadena de suministro de la construcción."
   }
+],
+  "slides": [
+    {
+      "id": 3,
+      "image": "/images/case-studies/case study 1_thumb_n.webp",
+      "category": "Salud",
+      "industry": "Bienes Raíces",
+      "date": "17 de noviembre de 2024",
+      "title": "Automatización del procesamiento de pedidos en salud usando MuleSoft",
+      "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
+      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+    },
+    {
+      "id": 4,
+      "image": "/images/case-studies/case-study-4_thumb.webp",
+      "category": "Fabricación",
+      "industry": "Salud",
+      "date": "14 de octubre de 2024",
+      "title": "Transformación de la gestión omnicanal de casos con Salesforce Service Cloud",
+      "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+    },
+    {
+      "id": 6,
+      "image": "/images/case-studies/case-study-6_thumb.webp",
+      "category": "Bienes Raíces",
+      "industry": "Fabricación",
+      "date": "04 de septiembre de 2024",
+      "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar con servicios gestionados de Yardi",
+      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+      "url": "insights/case-studies/yardi-managed-services"
+    },
+    {
+      "id": 7,
+      "image": "/images/case-studies/case study 3_thumb_n.webp",
+      "category": "Fabricación",
+      "industry": "Retail y Comercio Electrónico",
+      "date": "08 de enero de 2025",
+      "title": "Transformación DevOps utilizando Copado y Salesforce",
+      "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
+      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+    },
+    {
+      "id": 8,
+      "image": "/images/case-studies/case-study-2_thumb_n.webp",
+      "category": "Bienes Raíces",
+      "industry": "Alta Tecnología",
+      "date": "22 de diciembre de 2024",
+      "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
+      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+      "url": "insights/case-studies/realForce-banking-module-ach"
+    }
+  ]
+},
+"leadingCaseStudy": {
+  "leadingTitle": "Fabricante de Automóviles Líder Logró un Aumento del 35% en la Satisfacción del Cliente con AutoSense",
+  "Automotive": "Automotriz",
+  "date": "30 Junio 2025",
+  "read": "8 minutos de lectura",
+  "clientTitle": "Perfil del Cliente",
+  "clientDesc": "Un destacado fabricante mundial de automóviles, reconocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema de gestión de garantías heredado. El sistema, basado en un portal para concesionarios en Java/J2EE, se había vuelto engorroso, difícil de mantener y carecía de la flexibilidad necesaria para respaldar las necesidades comerciales cambiantes. El cliente necesitaba una solución moderna y completa para optimizar los reclamos de garantía, mejorar la interacción con los concesionarios y optimizar los procesos generales de gestión de garantías.",
+  "keyTitle": "Desafíos Clave:",
+  "keyDesc": "El sistema heredado del cliente presentaba varios desafíos importantes que dificultaban la gestión de garantías y el rendimiento general del concesionario:",
+  "solutionTitle": "La Solución AutoSense de Rialtes",
+  "solutionDesc": "Para abordar estos desafíos, el fabricante de automóviles se asoció con Rialtes, una empresa de consultoría global conocida por su experiencia en soluciones digitales impulsadas por IA, para implementar un sistema de gestión de garantías de última generación basado en Salesforce Automotive Cloud. Rialtes implementó su servicio exclusivo, AutoSense, para ofrecer una plataforma de gestión de garantías moderna, escalable e integrada.",
+  "approchTitle": "Enfoque",
+  "featuresTitle": "Características Clave del Portal de Gestión de Garantías AutoSense",
+  "benefitsTitle": "Beneficios Clave para el Cliente",
+  "benefitsDesc": "Al aprovechar la solución de gestión de garantías AutoSense, el fabricante de automóviles logró varios beneficios significativos:",
+  "serviceTitle": "Entregables Clave de Rialtes bajo el Servicio AutoSense:",
+  "conclusion": "Conclusión",
+  "conclusionDesc": "Rialtes entregó con éxito un sistema transformador de gestión de garantías para el fabricante de automóviles, pasando del antiguo portal basado en Java/J2EE a una solución potente e integrada impulsada por Salesforce Automotive Cloud e integrada con SAP S/4 HANA. El resultado fue un proceso de gestión de garantías más eficiente, escalable y fácil de usar, que mejoró significativamente el rendimiento de los distribuidores, redujo los tiempos de resolución de reclamaciones y aumentó la satisfacción del cliente.",
+  "conclusionDescOne": "Con el servicio AutoSense, Rialtes permitió al cliente optimizar la gestión de reclamaciones de garantía, mejorar los flujos de trabajo y obtener información en tiempo real sobre los datos de garantía, posicionando al fabricante para un crecimiento continuo en un mercado automotriz competitivo.",
+  "benefitsList": [
+    {
+      "title": "Mayor Eficiencia en Reclamaciones de Garantía",
+      "desc": "El proceso optimizado para enviar, rastrear y gestionar reclamaciones de garantía redujo la intervención manual, aceleró los tiempos de procesamiento e incrementó la satisfacción de los distribuidores."
+    },
+    {
+      "title": "Visibilidad en Tiempo Real",
+      "desc": "Con la integración de Salesforce Automotive Cloud, el cliente obtuvo acceso a datos en tiempo real sobre reclamaciones de garantía, inventario y estado del vehículo, lo que permitió una toma de decisiones más informada y una resolución más rápida de problemas."
+    },
+    {
+      "title": "Mayor Adopción por Parte de los Distribuidores",
+      "desc": "La interfaz moderna y fácil de usar del portal AutoSense llevó a una mayor tasa de adopción por parte de los distribuidores, mejorando la productividad y el compromiso general."
+    },
+    {
+      "title": "Eficiencia Operativa",
+      "desc": "La automatización de flujos de trabajo clave redujo errores, mejoró la precisión en la liquidación de reclamaciones de garantía y liberó recursos valiosos para centrarse en tareas más estratégicas."
+    },
+    {
+      "title": "Mayor Satisfacción del Cliente",
+      "desc": "El proceso de reclamación de garantía más rápido y transparente resultó en una mayor satisfacción del cliente, ya que los distribuidores pudieron resolver problemas de garantía de manera oportuna, aumentando la lealtad y confianza del cliente."
+    }
+  ],
+  "serviceList": [
+      {
+        "title": "Talleres con Interesados y Definición de Requisitos",
+        "desc": "Rialtes facilitó talleres con los equipos de garantía, TI y gestión de distribuidores para identificar puntos de dolor, definir requisitos del negocio y alinear una visión clara del proyecto."
+      },
+      {
+        "title": "Desarrollo Ágil de la Solución",
+        "desc": "Rialtes siguió una metodología ágil de desarrollo, entregando la solución en sprints definidos, asegurando avances iterativos y flexibilidad para adaptarse a nuevas necesidades."
+      },
+      {
+        "title": "Desarrollo Personalizado del Portal de Gestión de Garantías",
+        "desc": "El portal de gestión de garantías fue construido sobre Salesforce Automotive Cloud, incluyendo funciones de envío de reclamaciones, gestión de pedidos, seguimiento de inventario y gestión del ciclo de vida del vehículo."
+      },
+      {
+        "title": "Integración Fluida del Sistema",
+        "desc": "Rialtes integró AutoSense con SAP S/4 HANA para la gestión de pedidos y finanzas, asegurando un seguimiento financiero preciso y un cumplimiento eficiente de los pedidos."
+      },
+      {
+        "title": "Pruebas y Aseguramiento de la Calidad",
+        "desc": "Rialtes garantizó que la solución cumpliera con estrictos estándares de calidad, realizando pruebas exhaustivas para asegurar el rendimiento, la seguridad y la usabilidad de la plataforma."
+      },
+      {
+        "title": "Capacitación y Soporte",
+        "desc": "Se proporcionó capacitación integral a los distribuidores y equipos internos para garantizar una adopción fluida y el uso efectivo del nuevo portal. Rialtes también ofreció soporte continuo para abordar futuras actualizaciones y mejoras."
+      }
+  ],
+  "featureList": [
+    {
+      "title": "Envío y Seguimiento de Reclamaciones de Garantía",
+      "desc": "El portal AutoSense permitió a los distribuidores enviar y rastrear reclamaciones de garantía sin complicaciones. Los distribuidores podían ver actualizaciones de estado en tiempo real, lo que garantizaba tiempos de resolución más rápidos y mejoraba la satisfacción general del cliente."
+    },
+    {
+      "title": "Envío y Seguimiento de Prospectos",
+      "desc": "El portal de garantía de AutoSense integró la funcionalidad de envío de prospectos, permitiendo al equipo de garantía capturar oportunidades relacionadas con reclamaciones y nutrirlas proactivamente mediante procesos automatizados de seguimiento."
+    },
+    {
+      "title": "Gestión de Oportunidades",
+      "desc": "El sistema permitía a los gerentes de garantía rastrear oportunidades potenciales derivadas de las reclamaciones, incluyendo posibilidades de venta adicional y cruzada para garantías extendidas y servicios adicionales, mejorando el potencial de ingresos."
+    },
+    {
+      "title": "Gestión de Pedidos",
+      "desc": "El portal proporcionaba un sistema integrado de gestión de pedidos para reemplazos bajo garantía, permitiendo a los distribuidores rastrear piezas de repuesto, realizar pedidos y actualizar los estados de las reclamaciones en tiempo real."
+    },
+    {
+      "title": "Búsqueda de Inventario con Imágenes del Vehículo",
+      "desc": "El portal AutoSense ofrecía una herramienta de búsqueda de inventario intuitiva que permitía a los distribuidores verificar piezas de repuesto disponibles, ver imágenes de las piezas y filtrar inventario por especificaciones. Esto redujo los tiempos de inactividad y aceleró el proceso de reclamaciones, mejorando la productividad de los distribuidores."
+    },
+    {
+      "title": "Gestión del Ciclo de Vida del Vehículo",
+      "desc": "AutoSense proporcionó visibilidad sobre todo el ciclo de vida de cada vehículo, desde la venta original hasta los servicios postventa y las reclamaciones de garantía. Esta visión holística garantizaba que los gerentes de garantía contaran con información precisa al procesar reclamaciones y rastrear problemas relacionados con los vehículos."
+    }
+  ],
+  "solutionList": [
+    {
+      "title": "Talleres de Diseño",
+      "desc": "Rialtes comenzó el proyecto con una serie de talleres de diseño, involucrando a los principales interesados de los equipos de garantía del fabricante, gestión de distribuidores y TI. Estos talleres ayudaron a definir los puntos de dolor específicos, requisitos del negocio y objetivos para el nuevo sistema de gestión de garantías."
+    },
+    {
+      "title": "Proceso de Desarrollo Ágil",
+      "desc": "Rialtes adoptó un plan ágil detallado, dividiendo la solución en sprints manejables para garantizar la entrega oportuna de funcionalidades clave. Cada sprint se centró en entregar características y capacidades prioritarias, con bucles de retroalimentación regulares para asegurar la alineación con los objetivos del cliente."
+    },
+    {
+      "title": "Integración con Salesforce Automotive Cloud",
+      "desc": "El portal de gestión de garantías se construyó sobre Salesforce Automotive Cloud, aprovechando sus potentes funcionalidades para optimizar las reclamaciones, automatizar flujos de trabajo y proporcionar visibilidad en tiempo real del procesamiento de reclamaciones, inventario y datos del ciclo de vida del vehículo."
+    },
+    {
+      "title": "Integración con SAP S/4 HANA para la Gestión de Pedidos y Finanzas",
+      "desc": "Rialtes aseguró que la solución se integrara perfectamente con SAP S/4 HANA para optimizar el procesamiento de pedidos, el seguimiento financiero y las liquidaciones financieras de reclamaciones de garantía, reduciendo errores y garantizando una facturación precisa."
+    }
+  ],
+  "keyList": [
+    {
+      "title": "Tecnología Obsoleta",
+      "desc": "La aplicación heredada basada en Java/J2EE ya no podía satisfacer las necesidades dinámicas del negocio automotriz. El sistema tenía problemas de escalabilidad, lo que ralentizaba los tiempos de respuesta y provocaba ineficiencias."
+    },
+    {
+      "title": "Falta de Integración",
+      "desc": "El sistema de gestión de garantías no estaba integrado con otras plataformas empresariales críticas como la gestión de inventario y los sistemas de ventas, lo que generaba flujos de trabajo desconectados y silos de datos."
+    },
+    {
+      "title": "Funcionalidad Limitada",
+      "desc": "El sistema heredado no era capaz de manejar procesos modernos de reclamos de garantía, como el seguimiento en tiempo real, verificaciones de inventario y gestión del ciclo de vida del vehículo."
+    },
+    {
+      "title": "Mala Experiencia del Usuario",
+      "desc": "El portal del concesionario carecía de una interfaz intuitiva, lo que generaba baja adopción y frustración significativa para los concesionarios que lidiaban con una navegación compleja y procesos que consumían mucho tiempo."
+    },
+    {
+      "title": "Proceso de Reclamos Ineficiente",
+      "desc": "El proceso de reclamos de garantía era manual, propenso a errores y carecía de transparencia, lo que causaba demoras, aumentaba los costos y generaba clientes insatisfechos."
+    }
+  ],
+  "slides": [
+    {
+      "id": 3,
+      "image": "/images/case-studies/case study 1_thumb_n.webp",
+      "category": "Salud",
+      "industry": "Bienes Raíces",
+      "date": "17 Nov 2024",
+      "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
+      "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
+      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+    },
+    {
+      "id": 4,
+      "image": "/images/case-studies/case-study-4_thumb.webp",
+      "category": "Manufactura",
+      "industry": "Salud",
+      "date": "14 Oct 2024",
+      "title": "Transformación de la Gestión de Casos Omnicanal Usando Salesforce Service Cloud",
+      "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+    },
+    {
+      "id": 6,
+      "image": "/images/case-studies/case-study-6_thumb.webp",
+      "category": "Bienes Raíces",
+      "industry": "Manufactura",
+      "date": "04 Sept 2024",
+      "title": "Reducción del Tiempo de Inactividad para una Firma Inmobiliaria Multifamiliar Usando Servicios Administrados de Yardi",
+      "description": "Una firma inmobiliaria multifamiliar con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+      "url": "insights/case-studies/yardi-managed-services"
+    },
+    {
+      "id": 7,
+      "image": "/images/case-studies/case study 3_thumb_n.webp",
+      "category": "Manufactura",
+      "industry": "Retail y Comercio Electrónico",
+      "date": "08 Ene 2025",
+      "title": "Transformación DevOps Usando Copado y Salesforce",
+      "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales.",
+      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+    },
+    {
+      "id": 8,
+      "image": "/images/case-studies/case-study-2_thumb_n.webp",
+      "category": "Bienes Raíces",
+      "industry": "Alta Tecnología",
+      "date": "22 Dic 2024",
+      "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+      "description": "Una firma inmobiliaria multifamiliar con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+      "url": "insights/case-studies/realForce-banking-module-ach"
+    }
+  ]
+},
+"omnichannelCaseStudy": {
+  "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
+  "manufacturing": "Fabricación",
+  "date": "14 de octubre de 2024",
+  "read": "8 minutos de lectura",
+  "clientTitle": "Perfil del Cliente",
+  "clientDesc": "Un proveedor líder de semiconductores analógicos de alto rendimiento que impulsa la conectividad inalámbrica y por cable en diversas industrias. Sus principales ofertas, como amplificadores, filtros, interruptores y módulos integrados, respaldan transmisiones inalámbricas eficientes para smartphones, routers, dispositivos médicos, automóviles y más. Reconocido por su innovación, es un socio tecnológico clave en aplicaciones tanto de consumo como industriales a nivel mundial.",
+  "problemTitle": "Problema o Desafío",
+  "problemDesc": "El cliente enfrentaba desafíos persistentes para ofrecer un servicio al cliente constante y de alta calidad a nivel mundial debido a un sistema de soporte fragmentado y heredado. Los principales problemas incluían:",
+  "solutionsTitle": "Soluciones",
+  "solutionsDesc": "Rialtes implementó Salesforce Service Cloud y Experience Cloud para centralizar el soporte al cliente y crear una solución escalable y preparada para el futuro. Elementos clave de la implementación:",
+  "benefitsTitle": "Beneficios",
+  "problemList": [
+    "Datos de interacción con el cliente desarticulados entre plataformas, lo que dificultaba el seguimiento del historial de servicio.",
+    "Falta de visibilidad en los datos históricos de casos y el comportamiento del cliente.",
+    "Gestión manual de casos sin automatización para la asignación o resolución.",
+    "Opciones limitadas de autoservicio, obligando a los clientes a depender del correo electrónico y llamadas telefónicas."
+  ],
+  "featureList": [
+    {
+      "title": "Plataforma de Soporte Unificada",
+      "desc": "Todas las interacciones con los clientes, incluidos equipos internos, distribuidores y OEMs, se gestionan ahora en una sola plataforma."
+    },
+    {
+      "title": "Portal de Autoservicio",
+      "desc": "Distribuidores y OEMs pueden enviar y rastrear casos, y acceder a una base de conocimientos sólida las 24 horas, todos los días."
+    },
+    {
+      "title": "Comunicación en Tiempo Real",
+      "desc": "El chat y mensajería integrados facilitan conversaciones directas entre los equipos de soporte y los clientes."
+    },
+    {
+      "title": "Consolidación del Conocimiento",
+      "desc": "El contenido de soporte heredado se migró a un repositorio centralizado y de fácil búsqueda."
+    },
+    {
+      "title": "Asistencia con Einstein AI",
+      "desc": "Las recomendaciones impulsadas por IA ayudan a los clientes a resolver problemas más rápido y reducen el volumen de casos."
+    },
+    {
+      "title": "Asignación Automática de Casos",
+      "desc": "La lógica de enrutamiento basada en la geografía y experiencia garantiza respuestas oportunas y precisas."
+    },
+    {
+      "title": "Colaboración Intercontinental",
+      "desc": "Los equipos de soporte ahora pueden compartir conocimientos y actualizaciones sin esfuerzo a través de zonas horarias."
+    },
+    {
+      "title": "Entrega Segmentada de Contenido",
+      "desc": "Lanzamiento dirigido de actualizaciones de soporte e información crítica a grupos específicos de clientes."
+    },
+    {
+      "title": "Migración de Datos y Análisis",
+      "desc": "La migración de datos históricos de casos permite un análisis profundo de tendencias y decisiones más inteligentes."
+    }
+  ],
+  "benifitList": [
+    "Reducción del 60% en el tiempo promedio de resolución de casos, gracias a la automatización y asistencia con IA.",
+    "Incremento del 30% en la adopción del autoservicio por parte de los clientes, reduciendo la carga del soporte.",
+    "Mayor visibilidad del recorrido completo del cliente, permitiendo ventas cruzadas dirigidas y servicio proactivo.",
+    "Vista 360° del cliente a través de canales de servicio, dispositivos y equipos globales.",
+    "Mejora en la consistencia del soporte global y colaboración fluida entre continentes.",
+    "Escalabilidad para futuras integraciones con Salesforce CPQ y Marketing Cloud, habilitando un ciclo de vida del cliente unificado.",
+    "Uso de artículos de conocimiento incrementado en un 45%, mejorando la resolución en el primer contacto."
+  ],
+  "slides": [
+    {
+      "id": 3,
+      "image": "/images/case-studies/case study 1_thumb_n.webp",
+      "category": "Salud",
+      "industry": "Bienes Raíces",
+      "date": "17 de noviembre de 2024",
+      "title": "Automatización del Procesamiento de Pedidos en el Sector Salud con MuleSoft",
+      "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
+      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+    },
+    {
+      "id": 4,
+      "image": "/images/case-studies/case-study-4_thumb.webp",
+      "category": "Fabricación",
+      "industry": "Salud",
+      "date": "14 de octubre de 2024",
+      "title": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
+      "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+    },
+    {
+      "id": 6,
+      "image": "/images/case-studies/case-study-6_thumb.webp",
+      "category": "Bienes Raíces",
+      "industry": "Fabricación",
+      "date": "04 de septiembre de 2024",
+      "title": "Reducción de Inactividad para una Empresa Inmobiliaria Multifamiliar con Servicios Gestionados Yardi",
+      "description": "Una firma inmobiliaria multifamiliar con sede en EE. UU. especializada en gestión e inversión de propiedades multifamiliares.",
+      "url": "insights/case-studies/yardi-managed-services"
+    },
+    {
+      "id": 7,
+      "image": "/images/case-studies/case study 3_thumb_n.webp",
+      "category": "Fabricación",
+      "industry": "Retail y Comercio Electrónico",
+      "date": "08 de enero de 2025",
+      "title": "Transformación DevOps usando Copado y Salesforce",
+      "description": "Un fabricante líder especializado en materiales innovadores para proyectos residenciales y comerciales.",
+      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+    },
+    {
+      "id": 8,
+      "image": "/images/case-studies/case-study-2_thumb_n.webp",
+      "category": "Bienes Raíces",
+      "industry": "Alta Tecnología",
+      "date": "22 de diciembre de 2024",
+      "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+      "description": "Una firma inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
+      "url": "insights/case-studies/realForce-banking-module-ach"
+    }
+  ]
+}
 }

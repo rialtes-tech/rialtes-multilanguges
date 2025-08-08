@@ -154,18 +154,16 @@ export default function Page() {
                 {t("challengesTitle")}
               </h3>
               <p className="pb-4 text-black">{t("challengesDesc")}</p>
-              <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
-                liClassName="pb-4"
-                arrName={challengesList.map((item, idx) => (
-                  <span key={idx}>
-                    <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
-                      {item.title}
-                    </h3>
-                     <span> : {item.description}</span>
-                  </span>
-                ))}
-              />
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                  {challengesList.map((item, idx) => (
+                    <li className="pb-4 last:pb-0" key={idx}>
+                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                        {item.title}
+                      </h3> : {item.description}
+                    </li>
+                  ))}
+                </ul>
+          
 
               <div className="py-6"></div>
 
@@ -174,19 +172,16 @@ export default function Page() {
               </h3>
 
               <p className="text-black pb-4">{t("solutionsDesc")}</p>
-
-              <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
-                liClassName="pb-4"
-                arrName={solutionStepsList.map((item, idx) => (
-                  <span key={idx}>
-                    <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
-                      {item.title}
-                    </h3>
-                    <span> : {item.description}</span>
-                  </span>
-                ))}
-              />
+               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                  {solutionStepsList.map((item, idx) => (
+                    <li className="pb-4 last:pb-0" key={idx}>
+                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                        {item.title}
+                      </h3> : {item.description}
+                    </li>
+                  ))}
+                </ul>
+      
             </div>
           </div>
           <div className="py-6"></div>
