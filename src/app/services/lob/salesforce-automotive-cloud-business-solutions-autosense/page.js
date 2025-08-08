@@ -144,7 +144,7 @@ const KeyPillarsSectionDesign = () => {
                 canonical="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
             />
             <div className="custom-container">
-                <h2 className="text-[000000] 4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-bold">
+                <h2 className="text-[000000] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight font-bold">
                     Key Pillars of AutoSense
                 </h2>
                 <div className="xl:mt-[49px] mt-[35px]">
@@ -391,7 +391,7 @@ const ThoughtLeadershipDesign = () => {
                                 <h3 className="text-[20px] xl:text-[25px] 4xl:text-[30px] leading-tight font-semibold text-[#FFFFFF] ">
                                     {item.title}
                                 </h3>
-                                <p className="text-[16px] xl:text-[18px] 4xl:text-[30px] leading-tight mt-[15px] xl:mt-[29px] text-[#FFFFFF] w-[90%] font-light">
+                                <p className="text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight mt-[15px] xl:mt-[29px] text-[#FFFFFF] w-[90%] font-light">
                                     {item.description}
                                 </p>
                                 <div className="mt-[38px] xl:mt-[56px] xl:w-[81px] w-[34px] h-[4px] bg-white"></div>
@@ -416,7 +416,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="md:block hidden">
                     <Image
                         src="/images/industry/auto-sense/auto-sense-banner.webp"
@@ -435,7 +435,7 @@ export default function page() {
                     />
                 </div>
                 <div className="h-full relative  custom-container">
-                    <div className="grid md:grid-cols-12 grid-cols-1 xl:mt-20 ">
+                    <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 xl:mt-10 ">
                         <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28 max-sm:mt-10 2xl:pr-[34px]">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">AutoSense</h3>
                             <h1 className="text-white leading-tight md:text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5">
@@ -457,7 +457,7 @@ export default function page() {
                     <div className="flex flex-col w-full lg:max-w-xl lg:mb-0 mb-4">
                         <p className="text-[#000000] text-[18px] xl:text-[22px] 4xl:text-[30px] leading-tight font-normal">Introducing</p>
                         <p className="text-[#000000] leading-tight 4xl:text-[50px] xl:text-[40px] text-[24px]  font-medium ">Rialtes AutoSense</p>
-                        <div className="text-[#000000] text-[22px] xl:text-[32px] 2xl:text-[34px] 4xl:text-[36px]  leading-tight font-semibold xl:mt-[31px] mt-[12px] xl:w-full w-[76%]">End-to-End Automotive Solutions</div>
+                        <div className="text-[#000000] text-[22px] xl:text-[32px] 2xl:text-[34px] 4xl:text-[36px]  leading-tight font-semibold xl:mt-[31px] mt-[12px] xl:w-full w-[96%]">End-to-End Automotive Solutions</div>
                     </div>
                     <div className="flex flex-col w-full">
                         <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight xl:w-[90%] w-[90%]" >AutoSense is Rialtes comprehensive service suite designed specifically for the evolving needs of the automotive ecosystem — including OEMs, suppliers, dealers, and mobility providers. AutoSense combines advisory, implementation, quality assurance, and post-go-live support, fully integrated with OEM technology partners like SAP and Salesforce. </p>

@@ -234,7 +234,7 @@ export default function Industry() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
      {/* herosection */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="hidden md:block">
           <Image
             src="/images/industry/industry-header.webp"
@@ -261,7 +261,7 @@ export default function Industry() {
               <h3 className="text-[18px] md:text-[24px] font-bold ">
                 Industries
               </h3>
-              <h2 className="text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] ">
+              <h2 className="text-[26px] leading-tight md:text-[32px]  4xl:text-[60px] 2xl:text-[48px] xl:text-[40px]  mt-[11.5px] md:mt-[28.5px] ">
                 Transform how <br /> you engage with <br /> your clients
               </h2>
             </div>

@@ -282,7 +282,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
                     <Image
                         src="/images/industry/life-science/hero-desk-banner.webp"
@@ -411,7 +411,7 @@ export default function page() {
                 </div>
             </section>
             {/* thought leadership */}
-            <section className="lg:pl-0 lg:mt-[226px] md:mt-[226px] mt-[184px]">
+            <section className="lg:pl-0 lg:mt-[226px] md:mt-[156px] mt-[184px]">
                 <div className="bg-[#2C5F74] text-[#ffffff] xl:pt-[83px] xl:pb-[86px] pt-[59px] pb-[77px] relative z-0">
                     <div className="custom-container lg:pr-0">
                         <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[31px]">
@@ -419,7 +419,7 @@ export default function page() {
                                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[80%] md:w-full lg:w-[70%] xl:w-full">
                                     Rialtes Thought Leadership
                                 </h2>
-                                <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[35px] mt-[16px] w-[68%] md:w-full lg:w-[76%] xl:w-full">
+                                <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[35px] mt-[16px] w-[98%] md:w-full lg:w-[76%] xl:w-full">
                                     Tackling the Life Sciences Industry’s Most Pressing Challenges
                                 </h3>
                                 <div className="relative z-30 lg:hidden block mt-[31px]">

@@ -285,7 +285,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative h-[435px] lg:h-[650px]">
+            <section className="relative h-[435px] 4xl:h-[650px] xl:h-[500px]">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/lifeai/lifeai-banner.webp"
