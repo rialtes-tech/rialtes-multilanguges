@@ -193,10 +193,10 @@ export default function Page() {
                 </div>
             </section>
             <section>
-                <div className="custom-container mx-auto grid xl:grid-cols-12 gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0 xl:mt-10 2xl:mt-0 4xl:mt-0 mt-10">
+                <div className="custom-container mx-auto grid  4xl:grid-cols-[620px,991px] xl:mt-[-85px] 2xl:mt-[-100px] 2xl:grid-cols-[530px,842px] xl:grid-cols-[465px,715px]  grid-cols-1  gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0  4xl:mt-0 mt-10">
 
                     {/* Left Side - Text Card */}
-                    <div className="bg-[#05ACA6] text-white p-8 z-10 col-span-4 relative order-2 xl:order-1">
+                    <div className="bg-[#05ACA6] text-white p-12 z-10  relative order-2 xl:order-1 2xl:mt-[60px] 4xl:mt-0 xl:mt-[80px]">
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight  md:text-[23px]">Rialtes LifeAI+</h2>
                         <h3 className="4xl:text-[36px] xl:text-[30px] font-semibold mt-4 leading-tight">
                             Our Vision for Life Sciences
@@ -223,12 +223,12 @@ export default function Page() {
                     </div>
 
                     {/* Right Side - Image */}
-                    <div className="w-full h-full relative col-span-8 order-1 xl:order-2">
-                        <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-10 xl:ml-[-100px] 2xl:mt-32 4xl:h-[814px] 2xl:h-[850px] xl:h-[900px]">
+                    <div className="w-full h-full relative  order-1 xl:order-2">
+                        <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[10rem] xl:ml-[-100px] 2xl:mt-[12rem]">
                             <Image
                                 src="/images/products/mediyana/desktop/lifeai.webp"
                                 alt="LifeAI Illustration"
-                                className="object-cover w-full h-full"
+                                className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[800px]"
                                 priority
                                 width={0}
                                 height={0}
