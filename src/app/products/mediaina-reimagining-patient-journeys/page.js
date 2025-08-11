@@ -172,15 +172,15 @@ export default function Page() {
                 <div className="custom-container">
                     <div>
                         <div className="xl:grid xl:grid-cols-12 grid-cols-1 xl:mt-10  xl:gap-16 4xl:gap-10  flex flex-col-reverse">
-                            <div className="xl:col-span-7 col-span-12 4xl:pr-10">
-                                <p className="leading-tight font-normal">
-MediAIna is Rialtes’ next-generation patient journey software designed to transform the healthcare patient journey. It integrates clinical, operational, and digital touchpoints across providers, payers, MedTech, and life sciences enterprises.
+                            <div className="xl:col-span-8 col-span-12">
+                                <p className="leading-tight font-normal 4xl:pr-20">
+                                    MediAIna is Rialtes’ next-generation patient journey software designed to transform the healthcare patient journey. It integrates clinical, operational, and digital touchpoints across providers, payers, MedTech, and life sciences enterprises.
                                 </p>
-                                <p className="mt-5 font-normal">Backed by LifeAI+, Rialtes’ specialized healthcare consulting suite, MediAIna offers intelligent, scalable, and compliant solutions that accelerate innovation, improve outcomes, and deliver human-centered healthcare at scale.</p>
+                                <p className="mt-5 font-normal  4xl:pr-32">Backed by LifeAI+, Rialtes’ specialized healthcare consulting suite, MediAIna offers intelligent, scalable, and compliant solutions that accelerate innovation, improve outcomes, and deliver human-centered healthcare at scale.</p>
                             </div>
-                            <div className="xl:col-span-5 col-span-12">
+                            <div className="xl:col-span-4 col-span-12">
                                 <Image
-                                    src="/images/products/mediyana/desktop/logo.svg"
+                                    src="/images/products/mediyana/desktop/logo-1.svg"
                                     alt="Empower your enterprise with Rialtes"
                                     priority
                                     className="w-[500px] h-[233] xl:mt-[-20px]"
@@ -214,7 +214,7 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                             </ul>
                         </div>
 
-                        <button className="mt-8 bg-[#073259] text-white font-semibold text-sm xl:text-base py-3 px-6 transition bottom-0 absolute">
+                        <button className="mt-8 bg-[#073259] text-white 4xl:font-semibold font-normal text-sm xl:text-base py-3 px-6 transition bottom-0 absolute">
                             Learn More
                         </button>
                     </div>
@@ -249,15 +249,15 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
 
             <section className="custom-container 4xl:px-0 xl:px-0 mt-10 max-md:px-0 max-md:mt-24">
                 <div className="grid xl:grid-cols-12">
-                    <div className="xl:col-span-9 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:px-[35px] md:px-10 max-md:mt-[-200px]">
+                    <div className="xl:col-span-8 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:px-[35px] md:px-10 max-md:mt-[-200px]">
                         <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[42px] xl:text-[48px]">Patient Identification</h2>
-                        <p className="mt-5 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[12rem]">Leverage AI to detect, segment, and activate the right candidates for therapies, care plans, and trials.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16  mb-6 mt-10 4xl:pr-[11rem] xl:pr-[11rem]">
+                        <p className="mt-5 4xl:pr-[26rem] 2xl:pr-[20rem] xl:pr-[12rem]">Leverage AI to detect, segment, and activate the right candidates for therapies, care plans, and trials.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16  mb-6 mt-10 4xl:pr-[8rem] xl:pr-[11rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 xl:space-y-2 text-gray-800 text-base xl:4xl:text-[20px] xl:text-[16px]">
+                                <ul className="list-disc pl-5 space-y-5 xl:space-y-2 4xl:space-y-5 text-gray-800 text-base xl:4xl:text-[20px] xl:text-[16px]">
                                     <li>Predictive models trained on clinical, claims, and wearable data.</li>
                                     <li> Smart filters for rare diseases, chronic care, and trial eligibility.</li>
                                     <li>  Integration with EHRs and lab data sources.</li>
@@ -267,10 +267,10 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Outcomes
                                 </h3>
-                                <ul className="list-disc pl-5 xl:space-y-2 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
-                                    <li>Higher patient precision and faster enrollments. </li>
-                                    <li>Reduced outreach cost and better ROI.<li>
-                                    </li> Improved access to targeted care and therapies.</li>
+                                <ul className="list-disc pl-5 xl:space-y-2 4xl:space-y-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Higher patient precision and faster enrollments.</li>
+                                    <li> Reduced outreach cost and better ROI.</li>
+                                    <li>  Improved access to targeted care and therapies.</li>
                                 </ul>
                             </div>
 
@@ -279,24 +279,24 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-[20px] xl:text-[16px] hover:bg-[#ffffff] text-left hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] text-left hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Explore intelligent patient discovery
                                 </button>
                             </Link>
 
                         </div>
                     </div>
-                    <div className="xl:col-span-3 4xl:mr-[142px] order-1 xl:order-2 max-md:px-[34px]">
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2 max-md:px-[34px]">
                         <div className="xl:block hidden pt-20 4xl:ml-[-150px] 4xl:h-[300px] xl:h-[500px] 2xl:ml-[-200px] xl:ml-[-200px]">
                             <Image
                                 src="/images/products/mediyana/desktop/patient-desktop.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[515px] xl:h-[550px] 2xl:h-[500px] w-full object-cover"
+                                className="4xl:h-[551px] xl:h-[550px] 2xl:h-[500px] 4xl:w-[600px] w-full object-cover"
                                 width={0}
                                 height={0}
                                 priority
@@ -323,12 +323,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
 
             <section className="custom-container 4xl:px-0 mt-5 max-md:px-0 max-md:mt-20 xl:px-0 xl:mt-32">
                 <div className="grid xl:grid-cols-12">
-                    <div className="xl:col-span-3 4xl:ml-[143px]">
+                    <div className="xl:col-span-4 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] xl:mt-[-100px]">
                             <Image
                                 src="/images/products/mediyana/desktop/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[580px] w-full object-cover relative"
+                                className="4xl:h-[650px] 4xl:w-[600px] w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
@@ -346,7 +346,7 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         </div>
 
                     </div>
-                    <div className="xl:col-span-9 bg-[#C6E7FF] pt-10 4xl:px-[280px] xl:pl-[180px] xl:pr-[100px] 2xl:pr-[200px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                    <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[200px] xl:pl-[180px] xl:pr-[100px] 2xl:pr-[200px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
                         <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Candidate Education for MedTech Adoption</h2>
                         <p className="mt-5 4xl:text-[20px] xl:text-[16px]">Transforming candidates into informed partners with personalized digital education, a crucial step in optimizing the patient engagement journey for successful therapy adoption.</p>
                         <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem]">
@@ -376,12 +376,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Explore intelligent patient discovery
                                 </button>
                             </Link>
@@ -424,12 +424,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Streamline your authorization process
                                 </button>
                             </Link>
@@ -441,7 +441,7 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                             <Image
                                 src="/images/products/mediyana/desktop/digital.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[630px] 2xl:h-[550px] xl:h-[600px] w-full object-cover"
+                                className="4xl:h-[651px] 2xl:h-[550px] xl:h-[600px] w-full object-cover"
                                 width={0}
                                 height={0}
                                 priority
@@ -519,12 +519,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Power smarter trials
                                 </button>
                             </Link>
@@ -539,8 +539,8 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
             <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[280px] 2xl:pl-[150px] xl:pl-[75px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[55px] 2xl:text-[48px] xl:text-[42px]">Long-Term Care Management</h2>
-                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] xl:pr-20">Extend care beyond the clinic with automated, connected long-term care—empowering ongoing patient journey management and improving health outcomes.</p>
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[52px] 2xl:text-[48px] xl:text-[42px]">Long-Term Care Management</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] xl:pr-20 4xl:pr-40">Extend care beyond the clinic with automated, connected long-term care—empowering ongoing patient journey management and improving health outcomes.</p>
                         <div className="grid grid-cols-1 xl:grid-cols-2 gap-32 xl:gap-10 mb-6 mt-10 xl:mt-16 4xl:pr-[10rem] xl:pr-[10rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
@@ -568,12 +568,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Digitize long-term care management
                                 </button>
                             </Link>
@@ -585,7 +585,7 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                             <Image
                                 src="/images/products/mediyana/desktop/long.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[560px] w-full object-cover 2xl:h-[550px]"
+                                className="4xl:h-[630px] w-full object-cover 2xl:h-[550px]"
                                 width={0}
                                 height={0}
                                 priority
@@ -662,12 +662,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Visualize outcomes with Body MAP
                                 </button>
                             </Link>
@@ -709,12 +709,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Talk to your healthcare data
                                 </button>
                             </Link>
@@ -804,12 +804,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Leverage predictive healthcare intelligence
                                 </button>
                             </Link>
@@ -853,12 +853,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Connect your digital health stack
                                 </button>
                             </Link>
@@ -870,7 +870,7 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                             <Image
                                 src="/images/products/mediyana/desktop/seamless.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[620px] 2xl:h-[550px] w-full object-cover"
+                                className="4xl:h-[650px] 2xl:h-[550px] w-full object-cover"
                                 width={0}
                                 height={0}
                                 priority
@@ -947,12 +947,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Engage with AgentChat today
                                 </button>
                             </Link>
@@ -995,12 +995,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Synchronize operations with ERP
                                 </button>
                             </Link>
@@ -1041,7 +1041,7 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                             <Image
                                 src="/images/products/mediyana/desktop/trusted.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[580px] w-full object-cover relative"
+                                className="4xl:h-[630px] w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
@@ -1091,12 +1091,12 @@ MediAIna is Rialtes’ next-generation patient journey software designed to tran
                         <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Read about our security and compliance practices
                                 </button>
                             </Link>
