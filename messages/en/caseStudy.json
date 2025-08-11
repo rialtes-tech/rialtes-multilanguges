@@ -729,5 +729,444 @@
         "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]
+  },
+  "optimizingCaseStudy": {
+    "salesTitle": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
+    "manufacturing": "Manufacturing",
+    "date": "26 March 2025",
+    "read": "8 min read",
+    "clientTitle": "Client Overview",
+    "clientDesc": "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. Their sales team comprises engineers who handle sales and technical specifications to meet customer needs. The complexity of the sales process requires a robust solution to maximize sales output, enhance customer engagement, and integrate seamlessly with existing ERP systems.",
+    "problemTitle": "Problem or Challenge ",
+    "impactTitle": "Impact and Results",
+    "maxiTitle": "Maximized Sales",
+    "coustomerTitle": "Improving Customer Engagement",
+    "workflowTitle": "Salesforce-ERP Integration for Seamless Workflow",
+    "managingTitle": "Managing Budgets, Order History, and Invoices",
+    "unifiedTitle": "Unified  Platform for All Subsidiaries",
+    "globalTitle": "Globalization",
+
+    "maxiList": [
+      "Implemented Salesforce Sales Cloud to automate lead qualification and opportunity management.",
+      "Implementing automated lead tracking and AI-driven recommendations boosted sales team productivity, reducing the average sales cycle from 46 days to 28 days and enabling faster deal closures.",
+      "Our team facilitated the use of analytics to identify high-potential leads and reduce sales cycle times.",
+      "Enabled their sales teams to configure complex quotes with Salesforce CPQ (Configure, Price, Quote), ensuring accurate pricing and quick approvals"
+    ],
+    "coustomerList": [
+      "We deployed Salesforce Customer 360 using Salesforce Sales Cloud, allowing the sales individuals to track every customer interaction, past project, and service history.",
+      "The well-defined workflow increased their sales cycle efficiency by 30, while a centralized CRM enhanced customer satisfaction through improved tracking and personalized interactions.",
+      "Integrated Salesforce with email and communication platforms to simplify follow-ups and maintain a structured communication flow.",
+      "Leveraged Agentforce for personalized recommendations and proactive engagement with customers."
+    ],
+    "workflowList": [
+      "Integrated Sales Cloud with ERP to enable seamless data flow from project design to manufacturing without exposing ERP data such as leads, PII, and quotes.",
+      "Seamless ERP integration cut order processing time, allowing production to begin within 48 hours of design approval and ensuring smooth project execution.",
+      "Created a bridge between Salesforce and the ERP ecosystem, ensuring that approved designs move automatically into production planning.",
+      "Facilitated bidirectional data sync to ensure sales and manufacturing teams work with real-time data."
+    ],
+    "managingList": [
+      "Implemented Sales Cloud with financial management enhancements, enabling real-time tracking of budgets and financial transactions.",
+      "Real-time financial tracking minimized invoicing errors and revenue leakage by 1.5%, improving budgeting accuracy and cash flow management.",
+      "Automated invoicing and order tracking, reducing manual errors and improving financial transparency.",
+      "Allowed sales team to access insightful reports and dashboards to monitor revenue, pending payments, and forecasting."
+    ],
+    "unifiedList": [
+      "Standardized the sales process across multiple global subsidiaries using a single Salesforce instance.",
+      "A unified Salesforce platform supports scalability for global growth while enabling subsidiaries to maintain country-specific sales strategies.",
+      "Centralized their data repository for seamless sharing of financial data, sales, revenue, and expenses across all subsidiaries."
+    ],
+    "globaList": [
+      "Implemented multi-language and multi-currency support to accommodate regional sales teams and customers.",
+      "Configured country-specific tax rules, pricing models, and regulatory compliance to align with business requirements."
+    ],
+
+    "problemList": [
+      {
+        "title": "Complex Sales Process",
+        "description": [
+          "Since every product is custom designed, the sales team needed a structured approach to track project details and customer requirements and ensure smooth communication between the sales, design, and production teams. The absence of a structured workflow led to inefficiencies and delays in finalizing sales contracts."
+        ]
+      },
+      {
+        "title": "Lack of a Customer Engagement System",
+        "description": [
+          "With multiple ongoing projects and unique specifications for each client, the company faced challenges in maintaining a complete historical record of requirements, preferences, and past communications. This led to misalignment between sales and engineering teams, delayed responses to customer inquiries, and difficulty in personalizing sales approaches, ultimately affecting customer satisfaction."
+        ]
+      },
+      {
+        "title": "Overcoming Budget and Invoice Management Challenges",
+        "description": [
+          "Managing budgets, order history, and invoices across multiple projects and subsidiaries is demanding. Without an integrated financial tracking system, sales teams were having difficulty monitoring payment schedules, outstanding invoices, and budget adherence. This occasionally resulted in revenue leakage and inefficiencies in financial management."
+        ]
+      },
+      {
+        "title": "Lack of ERP-Salesforce Integration Leading to Manual ERP Updating",
+        "description": [
+          "The company used SAP for backend project management but required the sales team to access project progress in real time without exposing sensitive ERP data.",
+          "The absence of Salesforce integration caused delays, miscommunication, and manual updating of ERP, heightening the risk of errors. A seamless flow from design approval to production was needed."
+        ]
+      },
+      {
+        "title": "Isolated Data Across Subsidiaries",
+        "description": [
+          "The organization operates across multiple countries, each with different workflows and reporting structures. A lack of a unified system means subsidiaries worked in silos which made it difficult to standardize processes, share data, and collaborate efficiently on global projects."
+        ]
+      },
+      {
+        "title": "Limited Language Support and Globalization",
+        "description": [
+          "With operations spanning multiple regions, their manufacturing and sales teams combat language barriers, regional compliance variations, and inconsistent customer interactions. The absence of a system that supports multiple languages hinders seamless customer service and global sales alignment."
+        ]
+      }
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "realForceCaseStudy": {
+    "autoTitle": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+    "realEstate": "Real Estate",
+    "date": "22 December 2024",
+    "read": "8 min read",
+    "clientTitle": "Client Profile",
+    "clientDesc": "A leading U.S.-based multifamily real estate investment firm focused on acquisitions, development, and operational excellence. With a portfolio of residential properties across the country, the firm’s mission is to build thriving communities for residents while driving strong returns for investors.",
+    "problemTitle": "Problem or Challenge ",
+    "problemDesc": "The client was operating on a legacy banking application hosted in a non-standard, outdated environment (referred to as a 'dark net' system), which presented several challenges:",
+
+    "solutionTitle": "Solutions",
+    "solutionDesc": "Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:",
+    "benefitsTitle": "Benefits",
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ],
+    "problemList": [
+      {
+        "title": "Manual Processes",
+        "description": "Automated clearing house (ACH) payments and journal entries were created manually, increasing the risk of errors and slowing down transaction processing."
+      },
+      {
+        "title": "Inefficient Reconciliation",
+        "description": "Bank reconciliation was time-consuming and lacked visibility and automation."
+      },
+      {
+        "title": "Lack of Usability",
+        "description": "The existing system was not user-friendly, lacked modern UI/UX standards, and failed to meet reporting and security needs."
+      },
+      {
+        "title": "Scalability Issues",
+        "description": "The legacy platform was not responsive or scalable enough to support future growth or integrations."
+      }
+    ],
+    "solutionList": [
+      {
+        "title": "ACH Automation",
+        "description": "Developed ACH functionality to auto-generate pre-formatted ACH files compatible with Bank of America."
+      },
+      {
+        "title": "Automated Journal Entries",
+        "description": "ACH transactions now automatically generate journal entries in Excel format for upload into the Yardi accounting system."
+      },
+      {
+        "title": "Scheduled File Transfers",
+        "description": "End-of-day ACH files are automatically uploaded to the bank, eliminating manual intervention."
+      },
+      {
+        "title": "Unified Platform",
+        "description": "Consolidated all financial operations within Salesforce, leveraging Einstein 1 for intelligent reporting, automation, and a seamless user experience."
+      },
+      {
+        "title": "Real-Time Accounting Integration",
+        "description": "Synchronized ACH processes with real-time accounting systems to ensure financial accuracy and visibility."
+      }
+    ],
+    "benefitsList": [
+      "Improved UI enabled faster, more accurate data entry and streamlined user workflows.",
+      "Unified platform supports future integration of additional banking or financial tools.",
+      "Automation of ACH file creation and journal entries eliminated over 80% of manual tasks previously handled by a full-time resource.",
+      "Bank reconciliation time reduced from ~10 hours to under 1 hour per cycle, enabling quicker month-end closures.",
+      "Automation eliminated the need for a full-time resource previously dedicated to this process.",
+      "Finance and accounts payable teams can now process double the transaction volume in the same time.",
+      "Real-time dashboards and analytics empower better, faster financial decisions."
+    ]
+  },
+  "autoSenseCaseStudy": {
+    "dealerTitle": "Revving Up Dealer Management with AutoSense by Rialtes",
+    "manufacturing": "Manufacturing",
+    "date": "03 June 2025",
+    "read": "8 min read",
+    "cliendTitle": "Client Overview:",
+    "cliendDesc": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal. Built on a legacy .NET framework, the portal struggled to keep up with modern business needs, hindering dealer engagement, sales processes, and operational efficiency. The client sought a powerful, scalable solution to optimize dealer interactions, streamline workflows, and enhance overall performance across its vast network of global dealers.",
+    "keyTitle": "Key Challenges:",
+    "keyDesc": "The client’s legacy dealer portal posed several critical obstacles that impacted their business growth:",
+
+    "autoTitle": "The AutoSense Solution by Rialtes",
+    "autoDesc": "To address these challenges, Rialtes, a global leader in AI-powered digital transformation, partnered with the automotive manufacturer to deliver AutoSense, a next-generation dealer management platform built on the robust Salesforce Experience   Cloud. Rialtes took a customer-centric approach, running design workshops, creating a detailed agile development plan, and delivering an innovative solution through sprint-based development.",
+    "approachTitle": "Strategic Approach:",
+    "featuresTitle": "AutoSense Features: Transforming Dealer Operations",
+    "benifitTitle": "Key Benefits for the Client:",
+    "deliverablesTitle": "Key Deliverables from Rialtes Under AutoSense:",
+    "conclusionTitle": "Conclusion:",
+    "conclusionDesc": "By leveraging AutoSense, Rialtes successfully transformed the automotive manufacturer’s outdated legacy dealer portal into a modern, scalable, and efficient solution that empowered their dealers and streamlined internal operations. With Salesforce Experience Cloud and SAP S/4 HANA integrations, AutoSense delivered a superior dealer management experience, providing real-time data, operational efficiencies, and a seamless user interface. This transformation not only enhanced the client’s dealer engagement but also positioned them for continued growth in an increasingly competitive automotive market.",
+
+    "approachList": [
+      {
+        "title": "Collaborative Design Workshops",
+        "description": "Rialtes initiated the project with a series of design workshops, engaging key stakeholders across sales, IT, and dealer management teams. This ensured a deep understanding of pain points and business needs, aligning the solution with the manufacturer’s strategic goals."
+      },
+      {
+        "title": "Agile Development",
+        "description": "Rialtes employed an agile development methodology, delivering incremental value through well-defined sprints. Each sprint focused on key features, incorporating client feedback and allowing for rapid iterations to meet evolving requirements."
+      },
+      {
+        "title": "Salesforce Automotive Cloud Integration",
+        "description": "The portal was seamlessly integrated with Salesforce Automotive Cloud, offering an end-to-end view of dealer operations, real-time data insights, and powerful customer engagement tools."
+      },
+      {
+        "title": "SAP S/4 HANA Integration for Order & Financial Management",
+        "description": "Rialtes ensured the solution was fully integrated with SAP S/4 HANA, providing end-to-end visibility into the order and financial management process, streamlining workflows, and enabling efficient financial tracking."
+      }
+    ],
+    "featuresList": [
+      {
+        "title": "Lead Submission & Nurturing",
+        "description": "AutoSense streamlined the lead management process, allowing dealers to capture, submit, and track leads seamlessly. Automated lead nurturing workflows improved follow-up, ensuring no opportunities were missed, and increasing conversion rates."
+      },
+      {
+        "title": "Opportunity Management",
+        "description": "Sales opportunities were tracked from initial inquiry to final sale, with features that allowed dealers to prioritize high-potential leads and efficiently manage their pipeline, boosting sales performance."
+      },
+      {
+        "title": "Order Management",
+        "description": "The portal provided an integrated order management system, allowing dealers to place, manage, and track customer orders in real-time. The integration with SAP S/4 HANA enabled smooth order fulfillment, ensuring timely deliveries and accurate financial tracking."
+      },
+      {
+        "title": "Inventory Search with Rich Imagery",
+        "description": "Dealers could easily search and browse available inventory by vehicle type, features, and specifications, all while viewing high-quality images. This feature enhanced decision-making and improved dealer sales capabilities."
+      },
+      {
+        "title": "Vehicle Lifecycle Management",
+        "description": "AutoSense offered full visibility into the lifecycle of each vehicle, from production to delivery and post-sales service. This holistic view helped dealers manage vehicle stock more effectively and offer customers detailed information on their vehicles' status."
+      }
+    ],
+    "benefitsList": [
+      {
+        "title": "Improved Dealer Engagement",
+        "description": "The modern, user-friendly interface of the Salesforce-powered portal enhanced dealer experience, driving higher adoption rates and improving dealer satisfaction."
+      },
+      {
+        "title": "Optimized Operations",
+        "description": "The integrated solution streamlined internal processes, reducing manual efforts and improving efficiency, which led to faster order processing and enhanced communication between departments."
+      },
+      {
+        "title": "Data-Driven Insights",
+        "description": "Real-time access to data across the entire dealer network allowed the client to make more informed decisions, optimize inventory, and improve lead conversion rates."
+      },
+      {
+        "title": "Scalability & Flexibility",
+        "description": "Built on Salesforce and integrated with SAP S/4 HANA, AutoSense offered a scalable platform that could easily expand with the client’s growing dealer network and evolving business needs."
+      },
+      {
+        "title": "Seamless Integration",
+        "description": "The tight integration with both Salesforce Automotive Cloud and SAP S/4 HANA ensured that dealer data, orders, and financial information were always synchronized, reducing errors and providing a comprehensive view of business operations."
+      }
+    ],
+    "deliverablesList": [
+      {
+        "title": "Comprehensive Design & Requirement Workshops",
+        "description": "Collaborative workshops with the client’s teams to gather business insights, define objectives, and establish functional requirements."
+      },
+      {
+        "title": "Agile Development & Sprint Planning",
+        "description": "An iterative, sprint-based development process, delivering quick wins while maintaining flexibility to adapt to changing business needs."
+      },
+      {
+        "title": "Custom Dealer Portal Development",
+        "description": "A modern, intuitive dealer management portal built on Salesforce Experience Cloud, incorporating features such as lead management, order tracking, and inventory search."
+      },
+      {
+        "title": "Salesforce Automotive Cloud Integration",
+        "description": "Real-time integration with Salesforce Automotive Cloud, ensuring smooth dealer operations and enhanced customer engagement."
+      },
+      {
+        "title": "SAP S/4 HANA Integration",
+        "description": "Seamless integration with SAP S/4 HANA for efficient order management, financial tracking, and reporting."
+      },
+      {
+        "title": "Training & Ongoing Support",
+        "description": "Comprehensive training for dealer users and internal teams, coupled with ongoing support to ensure smooth adoption and future enhancements."
+      }
+    ],
+    "keyList": [
+      {
+        "title": "Obsolete Technology",
+        "description": "The .NET framework was outdated and unable to support evolving requirements, creating bottlenecks in developing and deploying new features."
+      },
+      {
+        "title": "Disconnected Systems",
+        "description": "The portal was not integrated with other key business systems, leading to fragmented data, inefficiencies, and siloed processes across departments."
+      },
+      {
+        "title": "Poor User Experience",
+        "description": "The legacy system featured an outdated, cumbersome interface that hindered dealer adoption and limited its usability."
+      },
+      {
+        "title": "Limited Functional Scope",
+        "description": "The portal was incapable of managing complex processes such as lead nurturing, vehicle lifecycle tracking, and dynamic inventory management, leaving gaps in operational capabilities."
+      },
+      {
+        "title": "Scalability Issues",
+        "description": "The legacy system was not equipped to scale with the manufacturer’s growing dealer network and expanding product portfolio."
+      }
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
   }
 }
