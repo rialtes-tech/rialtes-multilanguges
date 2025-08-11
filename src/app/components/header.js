@@ -153,7 +153,7 @@ const Header = () => {
       label: 'Products',
       links: [
         { label: 'AgentChat', href: '/products/agentchat' },
-         { label: 'Mediaina', href: '/products/mediaina-reimagining-patient-journeys/' },
+         { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
       ],
 
     },
@@ -672,7 +672,7 @@ const Header = () => {
                       className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                       onClick={() => handleSubMenuClickProduct("mediaina")}
                     >
-                      Mediaina
+                      MediAIna
                     </div>
                   </div>
 
