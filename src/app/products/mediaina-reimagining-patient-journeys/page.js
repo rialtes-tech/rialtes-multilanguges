@@ -134,7 +134,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden pb-20">
+            <section className="relative group overflow-hidden pb-20 md:pb-48">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/products/mediyana/desktop/banner-desk.webp"
@@ -153,10 +153,10 @@ export default function Page() {
                         className="transform transition-transform duration-500 group-hover:scale-110"
                     />
                 </div>
-                <div className="relative custom-container 4xl:pb-20 pb-20">
+                <div className="relative custom-container 4xl:pb-20">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
                         <div className="xl:col-span-7 col-span-12 pr-5 4xl:pr-[6rem]">
-                            <h1 className="text-black  leading-tight break-words 4xl:text-[60px]  xl:text-[40px] 2xl:text-[48px] pr-20">
+                            <h1 className="text-black  leading-tight break-words 4xl:text-[60px] md:text-[32px]  xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-[#073259] text-[20px] xl:text-[24px] font-bold mb-2 break-words">MediAIna</span>  <br>
                                 </br>
                                 <div className="pt-5">Redefining the<br></br> Digital Patient Journey for the Life Sciences Industry</div>
@@ -183,7 +183,7 @@ export default function Page() {
                                     src="/images/products/mediyana/desktop/logo-1.svg"
                                     alt="Empower your enterprise with Rialtes"
                                     priority
-                                    className="w-[500px] h-[233] xl:mt-[-20px]"
+                                    className="xl:w-[500px]  xl:h-[233] h-[150px] w-[225px] md:h-[200px] md:w-[300px] xl:mt-[-20px]"
                                     width={0}
                                     height={0}
                                 />
@@ -197,7 +197,7 @@ export default function Page() {
 
                     {/* Left Side - Text Card */}
                     <div className="bg-[#05ACA6] text-white p-8 z-10 col-span-4 relative order-2 xl:order-1">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight">Rialtes LifeAI+</h2>
+                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight  md:text-[23px]">Rialtes LifeAI+</h2>
                         <h3 className="4xl:text-[36px] xl:text-[30px] font-semibold mt-4 leading-tight">
                             Our Vision for Life Sciences
                         </h3>
@@ -214,9 +214,12 @@ export default function Page() {
                             </ul>
                         </div>
 
-                        <button className="mt-8 bg-[#073259] text-white 4xl:font-semibold font-normal text-sm xl:text-base py-3 px-6 transition bottom-0 absolute">
-                            Learn More
-                        </button>
+                      
+                          <Link href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] bottom-0 absolute hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
                     </div>
 
                     {/* Right Side - Image */}
@@ -247,12 +250,12 @@ export default function Page() {
             </section>
 
 
-            <section className="custom-container 4xl:px-0 xl:px-0 mt-10 max-md:px-0 max-md:mt-24">
+            <section className="custom-container 4xl:px-0 2xl:pr-[60px] xl:pr-[60px] xl:pl-0  mt-10 max-md:px-0 max-md:mt-24">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-8 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:px-[35px] md:px-10 max-md:mt-[-200px]">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[42px] xl:text-[48px]">Patient Identification</h2>
-                        <p className="mt-5 4xl:pr-[26rem] 2xl:pr-[20rem] xl:pr-[12rem]">Leverage AI to detect, segment, and activate the right candidates for therapies, care plans, and trials.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16  mb-6 mt-10 4xl:pr-[8rem] xl:pr-[11rem]">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[42px] xl:text-[48px]  md:text-[23px]">Patient Identification</h2>
+                        <p className="mt-5 4xl:pr-[26rem] 2xl:pr-[20rem] xl:pr-[12rem] font-light xl:text-[16px] 4xl:text-[20px] 2xl:text-[18px]">Leverage AI to detect, segment, and activate the right candidates for therapies, care plans, and trials.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5  mb-6 mt-10 4xl:pr-[8rem] xl:pr-[8rem] 2xl:pr-[9rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -276,7 +279,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -292,7 +295,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2 max-md:px-[34px]">
-                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] 4xl:h-[300px] xl:h-[500px] 2xl:ml-[-200px] xl:ml-[-200px]">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] 4xl:h-[300px] xl:h-[500px] 2xl:ml-[-150px] xl:ml-[-150px]">
                             <Image
                                 src="/images/products/mediyana/desktop/patient-desktop.webp"
                                 alt="enabling-dynamic-img-mobile"
@@ -324,11 +327,11 @@ export default function Page() {
             <section className="custom-container 4xl:px-0 mt-5 max-md:px-0 max-md:mt-20 xl:px-0 xl:mt-32">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-4 4xl:ml-[143px]">
-                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] xl:mt-[-100px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] xl:mt-[-100px] 2xl:pl-[60px] xl:pl-0 4xl:pl-0">
                             <Image
                                 src="/images/products/mediyana/desktop/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[650px] 4xl:w-[600px] w-full object-cover relative"
+                                className="4xl:h-[650px] 4xl:w-[600px] 2xl:h-[550px] w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
@@ -347,9 +350,9 @@ export default function Page() {
 
                     </div>
                     <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[200px] xl:pl-[180px] xl:pr-[100px] 2xl:pr-[200px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Candidate Education for MedTech Adoption</h2>
-                        <p className="mt-5 4xl:text-[20px] xl:text-[16px]">Transforming candidates into informed partners with personalized digital education, a crucial step in optimizing the patient engagement journey for successful therapy adoption.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem]">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Candidate Education for MedTech Adoption</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] font-light">Transforming candidates into informed partners with personalized digital education, a crucial step in optimizing the patient engagement journey for successful therapy adoption.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -373,7 +376,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -395,9 +398,9 @@ export default function Page() {
             <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-8 bg-[#EDEDED] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[140px] order-2 xl:order-1 max-md:px-[35px] max-md:mt-[-200px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-[11rem] 2xl:pr-[14rem] xl:pr-[15rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Digital Prior Authorization (PA)</h2>
-                        <p className="mt-5 xl:text-[16px] 4xl:text-[20px] xl:pr-20 4xl:pr-32">Automate complex prior authorization workflows and reduce treatment delays—an essential part of seamless patient journey in healthcare delivery.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-32 xl:gap-10 mb-6 mt-10 4xl:pr-[8rem] xl:pr-[10rem]">
+                        <h2 className="leading-tight 4xl:pr-[11rem] 2xl:pr-[14rem] xl:pr-[15rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Digital Prior Authorization (PA)</h2>
+                        <p className="mt-5 xl:text-[16px] 4xl:text-[20px] xl:pr-20 4xl:pr-32 2xl:pr-32 font-light">Automate complex prior authorization workflows and reduce treatment delays—an essential part of seamless patient journey in healthcare delivery.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-10 mb-6 mt-10 4xl:pr-[8rem] xl:pr-[10rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -421,7 +424,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -437,11 +440,11 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
-                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] 2xl:h-[200px] xl:h-[300px]">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] 2xl:h-[200px] xl:h-[300px] 2xl:pr-[60px] xl:pr-0 4xl:pr-0">
                             <Image
                                 src="/images/products/mediyana/desktop/digital.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[651px] 2xl:h-[550px] xl:h-[600px] w-full object-cover"
+                                className="4xl:h-[651px] 2xl:h-[590px] xl:h-[600px] w-full object-cover"
                                 width={0}
                                 height={0}
                                 priority
@@ -464,14 +467,14 @@ export default function Page() {
             </section>
 
 
-            <section className="custom-container 4xl:px-0 mt-5 max-md:mt-20 max-md:px-0 xl:px-0 xl:mt-32">
+            <section className="custom-container 4xl:px-0 mt-5 max-md:mt-20 max-md:px-0 xl:px-0 xl:mt-32 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-3 4xl:ml-[143px]">
-                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px] xl:mt-[-100px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px] xl:mt-[-100px] 2xl:pl-[60px] 4xl:pl-0 xl:pl-0">
                             <Image
                                 src="/images/products/mediyana/desktop/clinical.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[580px] xl:h-[600px] 2xl:h-[600px] w-full object-cover relative"
+                                className="4xl:h-[580px] xl:h-[600px] 2xl:h-[500px] w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
@@ -489,10 +492,10 @@ export default function Page() {
                         </div>
 
                     </div>
-                    <div className="xl:col-span-9 bg-[#CCF7F5] pt-10 4xl:px-[280px] xl:px-[200px] 2xl:px-[170px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-[5rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Clinical Trial Management with 360° Patient View</h2>
-                        <p className="mt-5 xl:text[16px] 4xl:text-[20px]">Centralize trial operations with unified patient intelligence.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem]">
+                    <div className="xl:col-span-9 bg-[#CCF7F5] 2xl:h-[575px] 4xl:h-[615px] xl:h-[590px] pt-10 4xl:pl-[280px]  xl:pl-[200px] 2xl:pl-[170px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[5rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Clinical Trial Management with 360° Patient View</h2>
+                        <p className="mt-5 xl:text[16px] 4xl:text-[20px] font-light">Centralize trial operations with unified patient intelligence.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem] xl:pr-20">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -516,10 +519,10 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16  xl:absolute bottom-0">
 
                             <Link href="/contact-us">
-                                <button className="bg-[#073259] text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
                                     Learn More
                                 </button>
                             </Link>
@@ -537,11 +540,11 @@ export default function Page() {
 
 
             <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
-                <div className="grid xl:grid-cols-12">
-                    <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[280px] 2xl:pl-[150px] xl:pl-[75px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[52px] 2xl:text-[48px] xl:text-[42px]">Long-Term Care Management</h2>
-                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] xl:pr-20 4xl:pr-40">Extend care beyond the clinic with automated, connected long-term care—empowering ongoing patient journey management and improving health outcomes.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-32 xl:gap-10 mb-6 mt-10 xl:mt-16 4xl:pr-[10rem] xl:pr-[10rem]">
+                <div className="grid xl:grid-cols-12 relative">
+                    <div className="xl:col-span-8 4xl:h-[674px] 2xl:h-[600px] xl:h-[600px] bg-[#C6E7FF] pt-16 4xl:pl-[280px] 2xl:pl-[150px] xl:pl-[75px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[52px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Long-Term Care Management</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] xl:pr-20 4xl:pr-40 font-light">Extend care beyond the clinic with automated, connected long-term care—empowering ongoing patient journey management and improving health outcomes.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-10 mb-6 mt-10 xl:mt-16 4xl:pr-[10rem] xl:pr-[10rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -565,7 +568,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -581,7 +584,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
-                        <div className="xl:block hidden pt-[4rem] 4xl:ml-[-130px] 4xl:h-[300px] xl:ml-[-100px] xl:h-[545px] 2xl:h-[500px]">
+                        <div className="xl:block hidden pt-[6rem] 4xl:ml-[-130px] 4xl:h-[300px] xl:ml-[-100px] xl:h-[545px] 2xl:h-[500px]">
                             <Image
                                 src="/images/products/mediyana/desktop/long.webp"
                                 alt="enabling-dynamic-img-mobile"
@@ -607,7 +610,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0">
+            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px]">
@@ -632,15 +635,15 @@ export default function Page() {
                         </div>
 
                     </div>
-                    <div className="xl:col-span-9 bg-[#EDEDED] pt-10 4xl:px-[280px] xl:px-[150px] xl:mt-24 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-32 2xl:pr-0 max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Body MAP App – Track Pain & Progress Visually</h2>
-                        <p className="mt-5">A visual-first approach to understanding the patient’s symptoms and responses.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem] xl:pr-0">
+                    <div className="xl:col-span-9 bg-[#EDEDED] 4xl:h-[650px] xl:h-[600px] 2xl:h-[600px] pt-16 4xl:px-[280px] xl:px-[150px] xl:mt-24 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-32 2xl:pr-0 max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Body MAP App – Track Pain & Progress Visually</h2>
+                        <p className="mt-5 font-light">A visual-first approach to understanding the patient’s symptoms and responses.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem] xl:pr-0">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 space-y-5  text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>10+ pain parameters visualized in one intuitive interface. </li>
                                     <li> Interactive 3D body mapping for patients and clinicians. </li>
                                     <li>  Longitudinal tracking of pain vs. therapy progress.</li>
@@ -659,7 +662,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -680,9 +683,9 @@ export default function Page() {
             <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-8 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-32 max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Conversational Insights with Agentforce</h2>
-                        <p className="mt-5 4xl:text-[20px] xl:text-[16px]">Ask questions. Get instant answers. Act faster—powered by Agentforce.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[10rem] 2xl:pr-[5rem]">
+                        <h2 className="leading-tight 4xl:pr-32 max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Conversational Insights with Agentforce</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] font-light">Ask questions. Get instant answers. Act faster—powered by Agentforce.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[10rem] 2xl:pr-[5rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -706,7 +709,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -749,7 +752,7 @@ export default function Page() {
             </section>
 
 
-            <section className="custom-container 4xl:px-0 mt-10 max-md:mt-20 max-md:px-0 xl:px-0">
+            <section className="custom-container 4xl:px-0 mt-10 max-md:mt-20 max-md:px-0 xl:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px]">
@@ -774,15 +777,15 @@ export default function Page() {
                         </div>
 
                     </div>
-                    <div className="xl:col-span-9 bg-[#C6E7FF] pt-10 4xl:px-[280px] xl:mt-20 xl:pl-[180px] 2xl:pr-[200px] 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10 2xl:mt-32">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Unified Intelligence with Salesforce Data Cloud</h2>
-                        <p className="mt-5">Bring every interaction, record, and insight into one powerful data platform.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem]">
+                    <div className="xl:col-span-9 bg-[#C6E7FF] 4xl:h-[660px] 2xl:h-[600px] xl:h-[600px] pt-10 4xl:px-[280px] xl:mt-20 xl:pl-[180px] 2xl:pr-[200px] 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10 2xl:mt-32">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Unified Intelligence with Salesforce Data Cloud</h2>
+                        <p className="mt-5 font-light">Bring every interaction, record, and insight into one powerful data platform.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 4xl:space-y-8 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>Harmonized data across providers, payers, trials, and patients.</li>
                                     <li> Predictive models for risk scoring, engagement, and resource planning.</li>
                                     <li>Real-time dashboards and cohort analytics.</li>
@@ -792,7 +795,7 @@ export default function Page() {
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Outcomes
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 space-y-5 4xl:space-y-8 text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>Smarter, personalized healthcare delivery. </li>
                                     <li>Holistic decision-making for patient outcomes. <li>
                                     </li>Improved population health management.</li>
@@ -801,7 +804,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -821,12 +824,12 @@ export default function Page() {
             </section>
 
 
-            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 max-md:mt-20 xl:px-0">
+            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 max-md:mt-20 xl:px-0 relative">
                 <div className="grid xl:grid-cols-12">
-                    <div className="xl:col-span-8 bg-[#EDEDED] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-[10rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Seamless Integration with MuleSoft + Athenahealth</h2>
-                        <p className="mt-5 xl:text-[16px] 4xl:text-[20px]">Enable a truly connected care ecosystem with secure, scalable integrations.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[8rem]">
+                    <div className="xl:col-span-8 4xl:h-[698px] 2xl:h-[570px] xl:h-[600px]  bg-[#EDEDED] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[10rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Seamless Integration with MuleSoft + Athenahealth</h2>
+                        <p className="mt-5 xl:text-[16px] 4xl:text-[20px] font-light">Enable a truly connected care ecosystem with secure, scalable integrations.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[8rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -850,7 +853,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -870,7 +873,7 @@ export default function Page() {
                             <Image
                                 src="/images/products/mediyana/desktop/seamless.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[650px] 2xl:h-[550px] w-full object-cover"
+                                className="4xl:h-[680px] 2xl:h-[550px] w-full object-cover"
                                 width={0}
                                 height={0}
                                 priority
@@ -892,7 +895,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0">
+            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:h-[600px]">
@@ -917,15 +920,15 @@ export default function Page() {
                         </div>
 
                     </div>
-                    <div className="xl:col-span-9 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:mt-20 2xl:mt-24 4xl:pr-[200px] xl:px-[150px] 4xl:mt-24 max-md:px-[35px] max-md:mt-[-200px] md:px-10">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Real-Time Patient Engagement with AgentChat</h2>
-                        <p className="mt-5">Drive proactive communication across the patient care journey with intelligent chat.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem]">
+                    <div className="xl:col-span-9 4xl:h-[660px] 2xl:h-[600px] xl:h-[600px] bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:mt-20 2xl:mt-24 4xl:pr-[200px] xl:px-[150px] 4xl:mt-24 max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[23px]">Real-Time Patient Engagement with AgentChat</h2>
+                        <p className="mt-5 font-light">Drive proactive communication across the patient care journey with intelligent chat.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 space-y-5 4xl:space-y-8 text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>Secure, HIPAA-compliant omnichannel chat for patients and staff. </li>
                                     <li> AI and live agent handoffs for smarter conversations.</li>
                                     <li>Integrated with PA, education, and care workflows.</li>
@@ -935,7 +938,7 @@ export default function Page() {
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Outcomes
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 space-y-5 4xl:space-y-8 text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>Higher satisfaction, better adherence, faster resolutions. </li>
                                     <li> Reduced call volume and improved service metrics. <li>
                                     </li>Consistent experience across every touchpoint.</li>
@@ -944,7 +947,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -966,9 +969,9 @@ export default function Page() {
             <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 max-md:mt-20 xl:px-0">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-[11rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Order & Inventory Management Integration with ERP (SAP)</h2>
-                        <p className="mt-5 4xl:pr-[28rem]">Bridge clinical care with operational excellence.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[5rem]">
+                        <h2 className="leading-tight 4xl:pr-[11rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Order & Inventory Management Integration with ERP (SAP)</h2>
+                        <p className="mt-5 4xl:pr-[28rem] font-light">Bridge clinical care with operational excellence.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[5rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
@@ -992,7 +995,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
@@ -1000,7 +1003,7 @@ export default function Page() {
                                 </button>
                             </Link>
                             <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                <button className="bg-[#0A6BB8] text-left w-full text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Synchronize operations with ERP
                                 </button>
                             </Link>
@@ -1034,7 +1037,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0">
+            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px]">
@@ -1059,15 +1062,15 @@ export default function Page() {
                         </div>
 
                     </div>
-                    <div className="xl:col-span-9 bg-[#EDEDED] pt-10 4xl:px-[280px] xl:pl-[150px] 2xl:pr-[200px] xl:pr-0 2xl:mt-32 xl:mt-20 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
-                        <h2 className="leading-tight 4xl:pr-[10rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]">Trusted by Salesforce. Certified by Rialtes.</h2>
-                        <p className="mt-5 4xl:pr-48">Built on the Salesforce platform, MediAIna adheres to the most rigorous global security and privacy standards.</p>
-                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 mb-6 mt-10  4xl:pr-[4rem]">
+                    <div className="xl:col-span-9 bg-[#EDEDED] 2xl:h-[750px] xl:h-[700px] 4xl:h-[830px] pt-16 4xl:px-[280px] xl:pl-[150px] 2xl:pr-[200px] xl:pr-0 2xl:mt-32 xl:mt-20 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[10rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Trusted by Salesforce. Certified by Rialtes.</h2>
+                        <p className="mt-5 4xl:pr-48 font-light pr-20">Built on the Salesforce platform, MediAIna adheres to the most rigorous global security and privacy standards.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
                             <div>
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Benefits
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 space-y-5  text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>HIPAA – Safeguarding electronic health data. </li>
                                     <li> FedRAMP – Government-grade cloud security.</li>
                                     <li>SOC 2 Type II – Operational integrity and controls.</li>
@@ -1079,7 +1082,7 @@ export default function Page() {
                                 <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
                                     Outcomes
                                 </h3>
-                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                <ul className="list-disc pl-5 space-y-5  text-gray-800 text-base xl:4xl:text-[20px]">
                                     <li>Trusted by providers, payers, CROs, and regulators.</li>
                                     <li> Accelerated deployment in highly regulated environments. <li>
                                     </li>Total peace of mind for your stakeholders and patients.</li>
@@ -1088,7 +1091,7 @@ export default function Page() {
 
 
                         </div>
-                        <div className="flex flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
                             <Link href="/contact-us">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
