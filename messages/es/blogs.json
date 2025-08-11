@@ -1071,5 +1071,996 @@
         "shiftFromLink2": "SAP SuccessFactors,",
         "shiftFromAnd": "y",
         "shiftFromLink3": "SAP Ariba"
+    },
+    "sapDataCloud": {
+        "blogs": [
+            {
+                "id": 8,
+                "image": "/images/blog/SAP Business cloud_Carousal.webp",
+                "category": "General",
+                "industry": "Genérico",
+                "date": "22 Abril 2025",
+                "url": "insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success",
+                "title": "SAP Business Data Cloud: La base de datos inteligente para el éxito empresarial impulsado por IA",
+                "description": "Las empresas dependen cada vez más de datos en tiempo real para tomar decisiones, optimizar operaciones y desbloquear conocimientos impulsados por IA."
+            },
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "insights/blogs/how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones con grandes equipos de agentes, como representantes de ventas, atención al cliente y servicios de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
+                "title": "El cerebro detrás de los agentes: Presentamos el motor de razonamiento Atlas en Agentforce",
+                "description": "A medida que las empresas escalan, aumenta la complejidad de gestionar interacciones con clientes, impulsando la necesidad de sistemas de soporte más inteligentes. Salesforce Agentforce ofrece una plataforma robusta de automatización del servicio al cliente, ahora mejorada con el innovador motor Atlas."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la diferencia y por qué importa?",
+                "description": "Herramientas como Agentforce están redefiniendo cómo entendemos los asistentes digitales, resaltando las diferencias entre Agentes, Copilotos y Bots, términos usados frecuentemente en la automatización con IA y en interfaces conversacionales."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
+                "title": "Centro de Pruebas de Agentforce: Redefiniendo el testeo de IA con datos sintéticos",
+                "description": "Salesforce ha introducido una nueva funcionalidad llamada Testing Center dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a las empresas probar y monitorear agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dic 2024",
+                "url": "insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration",
+                "title": "Cómo integrar SAP SuccessFactors con Microsoft Office 365 para una colaboración mejorada",
+                "description": "La integración fluida entre aplicaciones empresariales mejora la colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder de gestión de experiencia humana (HXM) y una sólida suite de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "url": "insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow",
+                "title": "Agricultura 4.0: ¿Cómo transforman las tecnologías digitales la agricultura para un mañana mejor?",
+                "description": "La agricultura juega un papel importante en la economía creciente de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            }
+        ],
+        "blogTopic": "General",
+        "blogTitle": "SAP Business Data Cloud: La base de datos inteligente para el éxito empresarial impulsado por IA",
+        "blogMainData1": "El 13 de febrero de 2025,",
+        "blogMainData2": "SAP anunció su nuevo software como servicio gestionado, SAP Business Data Cloud (BDC). A partir del primer trimestre de 2025, BDC está en una fase de disponibilidad general controlada, inicialmente disponible para clientes seleccionados. Esta solución unificada de gestión de datos aborda puntos críticos clave y combina servicios nuevos y existentes de SAP y sus socios. BDC actúa como una base de datos consciente del contexto para casos de uso analíticos e impulsados por IA, utilizando un almacenamiento de objetos administrado por SAP rentable.",
+        "blogMainDataLink": "SAP anunció",
+        "blogMainData3": "BDC es una evolución del recorrido hacia una estructura de datos empresariales, con Datasphere y SAP Analytics Cloud como componentes principales. La solución integra varias tecnologías para ofrecer productos de datos curados, análisis avanzados, datos comparativos y conocimientos impulsados por IA, utilizando aplicaciones como SAP Datasphere, SAP Business Warehouse y SAP Analytics Cloud.",
+        "understandingTitle": "Entendiendo SAP Business Data Cloud",
+        "understandingDesc": "SAP Business Data Cloud es una solución SaaS completamente gestionada, diseñada para unificar y gobernar los datos de SAP mientras integra sin esfuerzo fuentes de terceros. Combina las potentes capacidades de SAP HANA Cloud, SAP Datasphere y SAP Analytics Cloud en una sola plataforma cohesionada. ¿El resultado? Las empresas obtienen acceso a datos confiables en tiempo real y a un entorno escalable y preparado para IA que respalda la toma de decisiones inteligente. Estas características reducen el costo total de propiedad (TCO) y los costos de integración de datos, logran un tiempo de valor más rápido y aceleran la transformación empresarial con IA y análisis.",
+        "whatsNewTitle": "¿Qué hay de nuevo en SAP Business Data Cloud?",
+        "whatsNewDesc": "SAP está renovando su plataforma de Datos y Analítica (D&A) con BDC, que presenta funcionalidades mejoradas, mayor apertura y cumplimiento de estándares industriales, en comparación con SAP BW. A diferencia de antes, cuando transferir datos de SAP a un data lakehouse externo significaba perder semántica y contexto empresarial, SAP BDC conserva estos elementos. Esto garantiza que los conjuntos de datos curados y utilizables puedan aprovecharse eficazmente en análisis, IA y aplicaciones personalizadas.",
+        "whatsNewDesc2": "Las empresas que logran consolidar, analizar y operacionalizar sus datos desbloquean conocimientos poderosos, como si encontraran oro. Cuanto más profunda y conectada sea el análisis, mayor será el valor empresarial. SAP Business Data Cloud está diseñado para eliminar estos silos tradicionales. Permite a las empresas conectar datos de aplicaciones SAP, plataformas de terceros y múltiples dominios empresariales. Este enfoque unificado asegura que tus tomadores de decisiones accedan a los datos más recientes y relevantes en todo momento y lugar.",
+        "sapBdcTitle": "Integración de SAP BDC con Databricks",
+        "sapBdcDesc": "Una capacidad destacada de BDC es su integración con Databricks, líder del mercado en ingeniería de datos y análisis impulsado por IA. Esta colaboración permite a las organizaciones combinar datos estructurados y no estructurados, entregando conocimientos específicos de dominio mientras se reduce la redundancia. Gracias al acceso de datos sin copia, las empresas ya no necesitan replicar conjuntos de datos masivos en múltiples entornos, lo cual es un cambio radical para quienes gestionan petabytes de datos.",
+        "sapBdcDesc2": "Anteriormente, consolidar datos masivos e IoT con datos de SAP de manera rentable era un desafío, lo que obligaba a las empresas a extraer datos SAP a data lakehouses externos. En cambio, SAP BDC proporciona una integración bidireccional con Databricks, lo que permite que los datos permanezcan dentro del entorno SAP. Esto permite una gestión eficiente de grandes volúmenes de datos provenientes de diversas fuentes, creando condiciones óptimas para aplicaciones de IA y ML.",
+        "creatingTitle": "Creando un espacio unificado para datos SAP y no SAP",
+        "creatingDesc": "Las empresas modernas dependen de volúmenes vastos y crecientes de datos, tanto de fuentes SAP como no SAP, para impulsar casos de uso orientados al valor y modelado de datos en SAP. Sin embargo, los modelos semánticos inconsistentes a menudo crean obstáculos a la innovación, dificultando la integración de datos y retrasando la obtención de valor comercial. SAP BDC resuelve este desafío permitiendo a las organizaciones aprovechar datos SAP y no SAP dentro de un marco semántico estandarizado y unificado.",
+        "deliveringTitle": "Entregando conocimientos y análisis en tiempo real con SAP BDC",
+        "deliveringDesc": "Tradicionalmente, las empresas han enfrentado gran complejidad al aprovechar completamente aplicaciones intensivas en datos construidas sobre datos SAP. SAP BDC simplifica este proceso al proporcionar análisis en tiempo real, conocimientos e inteligencia predictiva. Además, capacita a las empresas con capacidades de comparación y conocimientos específicos de la industria derivados de datos SAP agregados entre clientes.",
+        "howBdcTitle": "Cómo funciona BDC: Dos escenarios clave",
+        "howBdcDesc": "Para hacer el concepto más comprensible, lo desglosamos en dos escenarios prácticos:",
+        "scenario1Title": "Escenario 1: Aplicaciones SAP Insights 'listas para usar' con S/4HANA y SAP SuccessFactors",
+        "scenario1Desc": "En esta configuración, puedes conectar tus sistemas S/4HANA y SAP SuccessFactors directamente a BDC mediante conectores preconstruidos y aplicaciones SAP Insights. El proceso es el siguiente:",
+        "scenario1Data": [
+            "Los datos se extraen de forma segura y en tiempo real de sistemas fuente SAP como S/4HANA y SuccessFactors.",
+            "A través de SAP Datasphere, estos datos se armonizan, enriquecen y gobiernan.",
+            "Luego fluyen hacia SAP Analytics Cloud, donde alimentan paneles dinámicos, análisis impulsados por IA y conocimientos integrados en tus aplicaciones empresariales.",
+            "El resultado es una generación de informes coherente, en tiempo real y con información predictiva, sin transferencias manuales ni complicaciones."
+        ],
+        "scenario1Desc2": "Este escenario es ideal para empresas que buscan simplificar los informes, mejorar la velocidad de toma de decisiones y crear conjuntos de datos listos para IA sin la complejidad tradicional del almacenamiento de datos.",
+        "scenario2Title": "Escenario 2: Integración de BDC con SAP BW/4HANA Private Edition, aplicaciones SAP y de terceros",
+        "scenario2Desc": "El verdadero poder de SAP Business Data Cloud (BDC) reside en su flexibilidad. Este escenario destaca a BDC como un centro central que consolida datos de entornos diversos, ya sea en la nube, locales o híbridos, haciéndolos fácilmente accesibles para análisis, informes y aplicaciones de IA. Mediante una herramienta de aprovisionamiento de datos, puedes integrar tus objetos SAP BW/4HANA en SAP Business Data Cloud, lo que permite incorporar objetos BW a SAP Datasphere y combinarlos con tu modelo de datos existente.",
+        "whyExcitedTitle": "Por qué estamos entusiasmados con BDC",
+        "whyExcitedDesc": "Para quienes hemos lidiado con la frustración diaria de datos desactualizados, transferencias fallidas y falta de control sobre los flujos de datos, BDC es mucho más que otra herramienta. Tras años de trabajar con entornos SAP, hemos experimentado de primera mano los desafíos diarios de transferir datos desde sistemas SAP a repositorios externos: instantáneas obsoletas, errores de transferencia y la desesperante falta de propiedad de extremo a extremo.",
+        "acceleratesTitle": "SAP BDC acelera el camino de los datos a las decisiones",
+        "acceleratesDesc": "Las ineficiencias en la gestión de datos suelen conducir a decisiones empresariales basadas en información incompleta o desactualizada, lo que dificulta aprovechar los conocimientos impulsados por IA. Sin embargo, implementar BDC transforma esta realidad al ofrecer acceso en tiempo real a datos confiables, garantizando a la vez gobernanza y confianza en todo el panorama de datos.",
+        "acceleratesDesc2": "¿Te interesa ver SAP Business Data Cloud en acción? En Rialtes, estamos comprometidos a ayudar a las empresas a aprovechar sus datos para decisiones basadas en IA, operaciones optimizadas e innovación.",
+        "acceleratesLink": "Contáctanos",
+        "acceleratesDesc3": "para explorar su impacto potencial en tu organización."
+    },
+    "powerfulFeatures": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación reciente al ecosistema de Salesforce, está ganando terreno, especialmente en organizaciones con grandes equipos de agentes, como representantes de ventas, atención al cliente y personal de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: Presentamos el motor de razonamiento Atlas en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una plataforma robusta para la automatización del servicio al cliente, ahora mejorada con el innovador motor de razonamiento Atlas."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Salesforce Agentforce: Funcionalidades poderosas que probablemente no estés utilizando (¡pero deberías!)",
+                "description": "Herramientas como Agentforce están redefiniendo cómo entendemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos son frecuentes en la automatización con inteligencia artificial e interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Salesforce Agentforce: Funcionalidades poderosas que probablemente no estés utilizando (¡pero deberías!)",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Salesforce Agentforce: Funcionalidades poderosas que probablemente no estés utilizando (¡pero deberías!)",
+                "description": "La agricultura desempeña un papel importante en la economía en crecimiento de la India, y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Salesforce Agentforce: Funcionalidades poderosas que probablemente no estés utilizando (¡pero deberías!)",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave compartida por todo tu equipo. Cuando la estrategia del equipo se alinea con sus metas y con los objetivos organizacionales más amplios, hacer lo correcto se vuelve algo instintivo."
+            }
+        ],
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "Funcionalidades poderosas de Agentforce que deberías estar utilizando",
+        "blogMainData": [
+            "Agentforce fue uno de los anuncios más importantes de Salesforce el año pasado. Introdujo los “agentes de IA”, marcando un cambio significativo en su estrategia de inteligencia artificial. Representa la visión de Salesforce para la Tercera Ola de la IA, superando los modelos de IA más asistenciales hacia una generación de agentes inteligentes más precisos, confiables y comprometidos activamente con lograr resultados para el cliente.",
+            "Salesforce Agentforce es una solución innovadora que transforma las operaciones de atención y soporte al cliente. Integrada dentro del ecosistema de Salesforce, brinda a las empresas herramientas impulsadas por IA para aumentar la productividad de los agentes, optimizar flujos de trabajo y mejorar la experiencia del cliente. A medida que aumentan las expectativas de los clientes, Agentforce garantiza una comunicación fluida en todos los canales. Incluye herramientas de productividad en ventas que ayudan a los agentes a gestionar oportunidades, clientes potenciales y cuentas de forma efectiva, utilizando automatización e inteligencia de datos para cerrar negocios más rápido y con mayor eficiencia.",
+            "Aunque muchos usuarios aprovechan sus funcionalidades básicas, algunas características innovadoras siguen subutilizadas. Queremos destacar algunas de estas funciones que pueden mejorar tus operaciones de soporte, aumentar la productividad de los agentes y, en última instancia, generar clientes más satisfechos."
+        ],
+        "commonData": [
+            {
+                "title": "Integración y Enrutamiento Omnicanal",
+                "desc": "Las interacciones de los clientes hoy en día no se limitan a un solo canal. Ya sea por teléfono, correo electrónico, chat o redes sociales, los clientes esperan un servicio sin interrupciones en cada punto de contacto. El enrutamiento omnicanal avanzado de Salesforce Agentforce no solo dirige las consultas: prioriza e identifica de forma inteligente los tickets basándose en la experiencia del agente, la carga actual de trabajo y el rendimiento histórico. Este enrutamiento dinámico asegura que cada consulta llegue a las manos correctas, reduciendo los tiempos de espera y mejorando la eficiencia en la resolución.",
+                "data": [
+                    {
+                        "title": "Configurar prioridades de canal",
+                        "desc": ": Establece reglas que prioricen solicitudes urgentes o de alto valor."
+                    },
+                    {
+                        "title": "Enrutamiento basado en habilidades",
+                        "desc": ": Asigna consultas a agentes con las habilidades especializadas necesarias para resolverlas eficazmente."
+                    },
+                    {
+                        "title": "Monitorear y ajustar",
+                        "desc": ": Usa analíticas integradas para refinar continuamente las estrategias de enrutamiento."
+                    }
+                ]
+            },
+            {
+                "title": "Asistencia impulsada por IA con Einstein",
+                "desc": "Sabemos que la inteligencia artificial no es solo un término de moda—cuando se aplica correctamente, puede reducir drásticamente el esfuerzo manual y mejorar la toma de decisiones. Las capacidades de IA de Einstein dentro de Agentforce ofrecen sugerencias proactivas, automatizan tareas rutinarias y predicen problemas antes de que escalen. Imagina un panel del agente que no solo muestra datos, sino que también recomienda la mejor acción a seguir en tiempo real.",
+                "data": [
+                    {
+                        "title": "Automatizar tareas rutinarias",
+                        "desc": ": Deja que Einstein se encargue de las consultas comunes o escale automáticamente los problemas."
+                    },
+                    {
+                        "title": "Enrutamiento basado en habilidades",
+                        "desc": ": Utiliza conocimientos generados por IA para personalizar interacciones según el historial y comportamiento del cliente."
+                    },
+                    {
+                        "title": "Monitorear y ajustar",
+                        "desc": ": Anticipa posibles problemas analizando tendencias y permite que tu equipo actúe de manera proactiva."
+                    }
+                ]
+            },
+            {
+                "title": "Paneles de Agente Personalizables",
+                "desc": "Un enfoque genérico rara vez funciona cuando se trata de monitorear el rendimiento. Agentes y gerentes necesitan paneles que reflejen sus flujos de trabajo y KPIs específicos. Agentforce permite paneles altamente personalizables que proporcionan información en tiempo real sobre el rendimiento del agente, la satisfacción del cliente y la eficiencia operativa general. Estos paneles son visualmente atractivos y totalmente adaptables a las métricas que más importan a tu equipo.",
+                "data": [
+                    {
+                        "title": "Personaliza tus métricas",
+                        "desc": ": Concéntrate en los KPIs que se alinean con los objetivos de tu equipo, como resolución en el primer contacto o tiempo promedio de gestión."
+                    },
+                    {
+                        "title": "Enrutamiento basado en habilidades",
+                        "desc": ": Toma decisiones informadas con paneles que se actualizan en tiempo real."
+                    },
+                    {
+                        "title": "Monitorear y ajustar",
+                        "desc": ": Empodera a los agentes brindándoles una visión clara de su rendimiento y áreas de mejora."
+                    }
+                ]
+            },
+            {
+                "title": "Automatización Inteligente de Flujos de Trabajo",
+                "desc": "Los procesos manuales suelen ralentizar las operaciones y generar inconsistencias. La automatización es clave para mantener velocidad y precisión en la atención al cliente. Agentforce ofrece automatización inteligente de flujos de trabajo que va más allá de tareas simples basadas en reglas. Puede automatizar procesos complejos y de múltiples pasos, asegurando que los agentes se concentren en aspectos críticos mientras el sistema gestiona seguimientos rutinarios y escalaciones.",
+                "data": [
+                    {
+                        "title": "Mapea procesos comunes",
+                        "desc": ": Identifica tareas recurrentes y configura flujos de trabajo automatizados."
+                    },
+                    {
+                        "title": "Enrutamiento basado en habilidades",
+                        "desc": ": Usa Agentforce para automatizar secuencias que incluyan múltiples acciones, como correos de seguimiento o actualizaciones de estado."
+                    },
+                    {
+                        "title": "Monitorear y ajustar",
+                        "desc": ": Permite al sistema manejar tareas repetitivas, liberando a los agentes para interacciones más significativas."
+                    }
+                ]
+            },
+            {
+                "title": "Funcionalidad Móvil Primero",
+                "desc": "Ya sea que los agentes trabajen de forma remota o en movimiento, el acceso móvil garantiza que siempre estén conectados. Las capacidades móviles de Agentforce significan que los equipos de soporte no están confinados a un escritorio. Los agentes pueden acceder a datos del cliente, gestionar tickets y colaborar con compañeros desde cualquier lugar, garantizando continuidad y respuestas rápidas incluso fuera del horario de oficina.",
+                "data": [
+                    {
+                        "title": "Soporte remoto",
+                        "desc": ": Permite que tu equipo brinde servicio ininterrumpido sin importar su ubicación."
+                    },
+                    {
+                        "title": "Actualizaciones en tiempo real",
+                        "desc": ": Asegúrate de que los agentes reciban notificaciones instantáneas en sus dispositivos móviles, manteniéndolos informados."
+                    },
+                    {
+                        "title": "Mayor flexibilidad",
+                        "desc": ": Apoya modelos de trabajo híbridos o completamente remotos con funcionalidades móviles sólidas."
+                    }
+                ]
+            },
+            {
+                "title": "Analítica y Reportes en Tiempo Real",
+                "desc": "Los datos solo son útiles si se pueden convertir en conocimientos accionables. La analítica en tiempo real permite a los equipos tomar decisiones informadas rápidamente. Aunque muchas empresas usan informes estándar, la analítica en tiempo real de Agentforce ofrece una visión más profunda y dinámica de las interacciones con los clientes y el desempeño de los agentes. Estos conocimientos ayudan a identificar cuellos de botella, prever tendencias e incluso descubrir oportunidades de automatización adicional.",
+                "data": [
+                    {
+                        "title": "Reportes dinámicos",
+                        "desc": ": Usa informes personalizables para rastrear métricas clave a medida que evolucionan."
+                    },
+                    {
+                        "title": "Actualizaciones en tiempo real",
+                        "desc": ": Identifica tendencias emergentes y ajusta estrategias antes de que los problemas escalen."
+                    },
+                    {
+                        "title": "Mayor flexibilidad",
+                        "desc": ": Usa los conocimientos de rendimiento para adaptar programas de capacitación y fomentar la mejora continua."
+                    }
+                ]
+            },
+            {
+                "title": "Integraciones con Terceros Sin Esfuerzo",
+                "desc": "Ningún ecosistema de soporte funciona de forma aislada. Integrar tus herramientas puede crear un flujo de trabajo más unificado y eficiente. Agentforce está diseñado para funcionar sin problemas con una amplia gama de aplicaciones de terceros, desde sistemas CRM hasta herramientas de colaboración como Slack para comunicación en tiempo real. Estas integraciones optimizan los procesos y proporcionan una visión más holística de las interacciones con los clientes a través de las plataformas.",
+                "data": [
+                    {
+                        "title": "Fuentes de datos unificadas",
+                        "desc": ": Conecta Agentforce con tus otros sistemas empresariales para centralizar datos y conocimientos."
+                    },
+                    {
+                        "title": "Colaboración mejorada",
+                        "desc": ": Integra herramientas de comunicación en equipo para mejorar la colaboración interna y los tiempos de respuesta."
+                    },
+                    {
+                        "title": "Flujos de trabajo personalizados",
+                        "desc": ": Crea flujos de trabajo adaptados que abarquen múltiples plataformas, reduciendo la entrada manual de datos y aumentando la eficiencia."
+                    }
+                ]
+            }
+        ],
+        "transitionTitle": "Transición hacia un compromiso con el cliente impulsado por IA",
+        "transitionLink": "Salesforce Agentforce",
+        "transitionDesc": "es una plataforma poderosa que va más allá de lo básico en atención al cliente. Aprovecha estas funcionalidades subutilizadas como el enrutamiento omnicanal, la asistencia con IA, los paneles personalizables, la automatización inteligente de flujos de trabajo, la funcionalidad móvil, la analítica en tiempo real y las integraciones sin esfuerzo para transformar tus operaciones de soporte. Esto no solo mejorará la eficiencia y los tiempos de respuesta, sino que también empoderará a tus agentes para ofrecer una experiencia superior al cliente en cada ocasión.",
+        "transitionDesc2": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP, automatizando tareas y optimizando flujos de trabajo. Usando aprendizaje automático y procesamiento de lenguaje natural, alineamos los agentes con los objetivos organizacionales para una automatización inteligente efectiva. Ponte en contacto con nosotros en "
+    },
+    "howSuccessFactorEnhances": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo Funciona Realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando terreno, particularmente en organizaciones que trabajan con grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El Cerebro Detrás de los Agentes: Revelando el Motor de Razonamiento Atlas en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar interacciones con clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una sólida plataforma de automatización del servicio al cliente, ahora mejorada con el revolucionario Motor de Razonamiento Atlas."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
+                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en interfaces conversacionales impulsadas por IA, y cada uno cumple una función específica."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
+                "description": "La agricultura juega un papel importante en la creciente economía de la India, y su futuro no se puede lograr sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
+                "description": "Lograr los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia del equipo se alinea con sus metas y los objetivos generales de la organización, hacer lo correcto se vuelve instintivo."
+            }
+        ],
+        "blogTopic": "SAP SuccessFactors",
+        "blogTitle": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
+        "blogMainData": "El trabajo remoto ha pasado rápidamente de ser una solución temporal a una necesidad para muchas empresas a nivel mundial. Con el cambio hacia modelos de trabajo a distancia, gestionar una fuerza laboral remota puede ser un desafío, especialmente considerando dinámicas locales y requisitos normativos. Para prosperar en este entorno, las organizaciones necesitan herramientas y plataformas efectivas que les permitan gestionar la productividad, el compromiso de los empleados y el cumplimiento. SAP SuccessFactors, una suite líder de gestión del capital humano (HCM), ofrece una solución integral adaptada a los desafíos del trabajo remoto. Con esta herramienta, gestionar equipos remotos puede ser muy sencillo.",
+        "remoteTitle": "Obstáculos del Trabajo Remoto que Enfrentan las Organizaciones",
+        "remoteData": [
+            "Comunicación y colaboración desalineadas entre empleados presenciales y remotos.",
+            "Dificultades para garantizar la participación equitativa en reuniones híbridas.",
+            "Gestión del espacio de oficina y costos generales para equipos híbridos.",
+            "Desafíos de colaboración y gestión en equipos distribuidos.",
+            "Proporcionar una experiencia consistente al empleado para todos los trabajadores.",
+            "Abordar el equilibrio entre vida laboral y personal y problemas de salud en empleados remotos.",
+            "Acceso limitado a herramientas de autoservicio para empleados remotos.",
+            "Gestión compleja de nómina en múltiples ubicaciones y regulaciones.",
+            "Mayores riesgos de seguridad y necesidad de una protección de datos sólida para trabajadores remotos."
+        ],
+        "combatTitle": "Cómo Enfrentar los Desafíos del Trabajo Remoto",
+        "commonData": [
+            {
+                "title": "Procesos de Incorporación y Desvinculación Eficientes",
+                "desc": "La incorporación eficiente es crítica para los empleados remotos. SuccessFactors garantiza una experiencia fluida digitalizando los procesos:",
+                "dataList": [
+                    {
+                        "title": "Gestión Digital de Documentos",
+                        "desc": ": Los empleados pueden completar formularios, revisar políticas y firmar documentos en línea."
+                    },
+                    {
+                        "title": "Planes de Incorporación Personalizados",
+                        "desc": ": Rutas de aprendizaje y listas de verificación personalizadas ayudan a los nuevos empleados a integrarse rápidamente, incluso de forma remota."
+                    },
+                    {
+                        "title": "Desvinculación Simplificada",
+                        "desc": ": La plataforma facilita flujos estructurados de salida para gestionar salidas de forma fluida, protegiendo activos y conocimiento empresarial."
+                    }
+                ]
+            },
+            {
+                "title": "Gestión del Desempeño Remoto",
+                "desc": "Evaluar el rendimiento a distancia puede ser complicado. SuccessFactors lo simplifica con funciones como:",
+                "dataList": [
+                    {
+                        "title": "Herramientas de Retroalimentación Continua",
+                        "desc": ": Los gerentes pueden ofrecer retroalimentación en tiempo real, fomentando la comunicación y alineación de objetivos."
+                    },
+                    {
+                        "title": "Establecimiento y Seguimiento de Objetivos",
+                        "desc": ": Empleados y gerentes pueden establecer objetivos medibles y monitorear el progreso con tableros intuitivos."
+                    },
+                    {
+                        "title": "Evaluaciones de Desempeño",
+                        "desc": ": Recordatorios automáticos y plantillas estandarizan y agilizan el proceso de evaluación."
+                    }
+                ]
+            },
+            {
+                "title": "Oportunidades de Aprendizaje y Desarrollo",
+                "desc": "El LMS (Sistema de Gestión del Aprendizaje) de SuccessFactors fomenta el desarrollo continuo mediante:",
+                "dataList": [
+                    {
+                        "title": "Opciones de Aprendizaje Virtual",
+                        "desc": ": Acceso a módulos de e-learning, webinars y certificaciones para mejorar habilidades a distancia."
+                    },
+                    {
+                        "title": "Recomendaciones Basadas en IA",
+                        "desc": ": Rutas de aprendizaje personalizadas según el rol, metas y desempeño."
+                    },
+                    {
+                        "title": "Gamificación",
+                        "desc": ": Herramientas como insignias y tablas de clasificación motivan e impulsan la participación."
+                    }
+                ]
+            },
+            {
+                "title": "Comunicación y Colaboración Mejoradas",
+                "desc": "SuccessFactors se integra perfectamente con herramientas de colaboración, promoviendo el trabajo en equipo efectivo.",
+                "dataList": [
+                    {
+                        "title": "Integración con Microsoft Teams y Slack",
+                        "desc": ": Los empleados acceden a formación, retroalimentación y datos de desempeño en sus plataformas favoritas."
+                    },
+                    {
+                        "title": "Herramientas de Aprendizaje Social",
+                        "desc": ": El aprendizaje entre pares y los foros de discusión fortalecen la comunidad a pesar de la distancia."
+                    },
+                    {
+                        "title": "Notificaciones y Actualizaciones",
+                        "desc": ": Alertas en tiempo real mantienen informados a los empleados sobre noticias y políticas empresariales."
+                    }
+                ]
+            },
+            {
+                "title": "Información Basada en Datos para la Gestión de la Fuerza Laboral",
+                "desc": "Para líderes de RRHH, SuccessFactors ofrece información útil para optimizar la gestión remota:",
+                "dataList": [
+                    {
+                        "title": "Paneles de Análisis",
+                        "desc": ": Informes detallados sobre productividad, compromiso y rotación."
+                    },
+                    {
+                        "title": "Análisis Predictivo",
+                        "desc": ": Herramientas para prever necesidades de personal, detectar brechas de habilidades y medir la eficacia del trabajo remoto."
+                    },
+                    {
+                        "title": "Seguimiento de Cumplimiento",
+                        "desc": ": Asegura el cumplimiento de leyes laborales y regulaciones de seguridad de datos en distintas regiones."
+                    }
+                ]
+            },
+            {
+                "title": "Bienestar y Compromiso del Empleado",
+                "desc": "El trabajo remoto puede difuminar la línea entre la vida personal y profesional, generando agotamiento. SuccessFactors aborda esto con:",
+                "dataList": [
+                    {
+                        "title": "Encuestas de Pulso",
+                        "desc": ": Encuestas regulares para medir el estado de ánimo del empleado e identificar áreas de mejora."
+                    },
+                    {
+                        "title": "Programas de Bienestar",
+                        "desc": ": Acceso a recursos de salud mental, formación en bienestar y arreglos laborales flexibles."
+                    },
+                    {
+                        "title": "Herramientas de Reconocimiento",
+                        "desc": ": Reconocimientos virtuales y recompensas para celebrar logros y mejorar la moral."
+                    }
+                ]
+            },
+            {
+                "title": "Soluciones Escalables y Personalizables",
+                "desc": "SuccessFactors se adapta a organizaciones de todos los tamaños con módulos personalizables como:",
+                "dataList": [
+                    {
+                        "title": "Employee Central",
+                        "desc": ": Un centro centralizado para gestionar la información de empleados remotos."
+                    },
+                    {
+                        "title": "Gestión de Tiempos y Asistencia",
+                        "desc": ": Seguimiento de horas, permisos y horarios sin intervención manual."
+                    },
+                    {
+                        "title": "Flujos de Trabajo Adaptables",
+                        "desc": ": Configura procesos según las necesidades específicas de tu organización."
+                    }
+                ]
+            }
+        ],
+        "successFactorTitle": "Desempeño y Objetivos en SAP SuccessFactors",
+        "successFactorLink": "Gestión de Objetivos",
+        "successFactorDesc": "permite establecer objetivos en distintos niveles organizacionales, asegurando su alineación en toda la empresa. Los gerentes pueden definir metas para equipos completos o para individuos específicos, fomentando la alineación y el enfoque. Este enfoque garantiza que los empleados reciban objetivos significativos y enfocados.",
+        "successFactorDesc2": "Por ejemplo, los objetivos podrían incluir tareas como 'crear un plan de trabajo semanal' o 'revisar con colegas dos a cuatro veces por semana'. También se pueden asignar metas después de reuniones o cuando se reciben tareas de la gerencia. Sin embargo, no todas las actividades deben convertirse en objetivos, por lo que es importante definirlas cuidadosamente.",
+        "successFactorDesc3": "La Gestión Continua del Desempeño (CPM) ofrece un enfoque interactivo y continuo para hacer seguimiento al progreso. Con herramientas como comunicación tipo conversación, seguimiento de actividades y coaching, CPM fortalece la relación entre gerente y empleado. Este diálogo constante es especialmente valioso en entornos remotos, donde la comunicación es esencial. Al permitir retroalimentación frecuente, CPM impulsa el compromiso y garantiza que los trabajadores remotos se sientan apoyados.",
+        "manageTitle": "Gestiona Entornos de Trabajo Remoto e Híbrido Sin Esfuerzo",
+        "manageDesc": "SAP SuccessFactors permite a las organizaciones destacarse en el trabajo remoto promoviendo flexibilidad, productividad e innovación. Sus potentes funciones de gestión del rendimiento, aprendizaje, comunicación y compromiso lo convierten en una herramienta esencial para empresas que se adaptan al futuro del trabajo. También facilita la recontratación de antiguos empleados mediante su función de verificación de reingreso, lo cual es más eficiente que incorporar a un nuevo trabajador.",
+        "manageDesc2": "En Rialtes, nos especializamos en aprovechar al máximo SAP SuccessFactors. Desde la planificación hasta el soporte posterior a la implementación, nuestra experiencia asegura que tu organización saque el máximo provecho de la plataforma.",
+        "reachOutLink": "Contáctanos",
+        "manageDesc3": "para una consulta sobre las funciones, beneficios e implementación de SAP SuccessFactors."
+    },
+    "agentForceAgents": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar interacciones con clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la diferencia y por qué importa?",
+                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en automatización impulsada por inteligencia artificial e interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: Redefiniendo las pruebas de IA con datos sintéticos",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dec 2024",
+                "title": "Cómo integrar SAP SuccessFactors con Microsoft Office 365 para una colaboración mejorada",
+                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) y un sólido conjunto de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0. ¿Cómo transforman las tecnologías digitales la agricultura para un mejor mañana?",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos generales de la organización, hacer lo correcto se convierte en algo instintivo."
+            }
+        ],
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "Cómo los agentes de Agentforce escalan los sistemas ERP con IA",
+        "blogMainData": "Los sistemas de Planificación de Recursos Empresariales (ERP) son la columna vertebral de muchas organizaciones, gestionando funciones críticas como finanzas, adquisiciones, fabricación y operaciones de la cadena de suministro. Sin embargo, estos sistemas a menudo operan en silos, lo que limita su potencial para proporcionar información en tiempo real y una colaboración fluida entre departamentos. Esto puede resultar en ineficiencias, decisiones retrasadas y oportunidades perdidas.",
+        "blogMainData2": "Agentforce, impulsado por las capacidades avanzadas de IA de Salesforce, está diseñado para abordar estos desafíos. Al integrarse con los sistemas ERP a través de Salesforce Data Cloud, Agentforce unifica datos de fuentes internas y externas, incluidos sistemas ERP y de Gestión de la Cadena de Suministro (SCM). Este enfoque unificado permite a las empresas tomar decisiones informadas basadas en datos y fomentar la agilidad operativa.",
+        "agentForceTitle": "Agentforce se integra con sistemas ERP y SCM",
+        "agentForceDesc": "Agentforce se integra con sistemas ERP a través de ",
+        "agentForceLink": "Salesforce Data Cloud",
+        "agentForceDesc2": "unificando datos de varias fuentes, incluidos los sistemas ERP y de Gestión de la Cadena de Suministro. Herramientas como los conectores preconstruidos de MuleSoft para SAP, Oracle y Microsoft Dynamics permiten la sincronización de datos en tiempo real. Esto permite que los agentes impulsados por IA accedan a información actual sobre inventario, pedidos y finanzas, optimizando los flujos de trabajo y minimizando la entrada manual de datos. Al analizar datos de ERP y SCM, Agentforce ofrece información predictiva que mejora la toma de decisiones. En agricultura, predice la demanda y optimiza las cadenas de suministro examinando el rendimiento de los cultivos y los patrones climáticos. Además, en logística, los agentes de IA pueden manejar mayores volúmenes de pedidos durante las temporadas altas, gestionando eficientemente los datos de envío sin sobrecargar al personal.",
+        "howDoesTitle": "¿Cómo lo hace Agentforce?",
+        "howDoesDesc": "Utiliza datos integrados para mejorar las interacciones con los clientes y la eficiencia operativa. Cuando un agente de IA necesita información de un pedido de cliente, Salesforce, a través de MuleSoft, proporciona acceso en tiempo real a los datos de ERP, permitiendo respuestas rápidas y precisas. El Atlas Reasoning Engine analiza estos datos de forma autónoma para obtener resultados confiables.",
+        "howDoesDesc2": "Un beneficio clave es la integración de Agentforce con los sistemas ERP y SCM, que elimina tareas rutinarias y permite que los trabajadores humanos se concentren en asuntos complejos y estratégicos. Lograr el equilibrio adecuado entre automatización y experiencia humana es crucial para mejorar la toma de decisiones sin reemplazarla.",
+        "benefitsTitle": "Beneficios de integrar Agentforce con ERP",
+        "benefitsData": [
+            {
+                "title": "Automatización impulsada por IA",
+                "desc": "Agentforce utiliza IA para automatizar tareas rutinarias en sistemas ERP como la gestión de inventarios, el procesamiento de pedidos y los informes financieros, reduciendo la carga de trabajo manual y los errores, al tiempo que aumenta la eficiencia. En la fabricación, por ejemplo, supervisa los niveles de materias primas y vuelve a realizar pedidos automáticamente cuando es necesario, garantizando una producción fluida. Al analizar los datos de producción, Agentforce ayuda a identificar ineficiencias, permitiendo a los fabricantes optimizar operaciones y reducir desperdicios."
+            },
+            {
+                "title": "Datos unificados y su integración",
+                "desc": "Salesforce Data Cloud es esencial para Agentforce, ya que unifica datos de varios sistemas para proporcionar análisis e información en tiempo real. Esta integración mejora la eficiencia; por ejemplo, en el sector sanitario, vincula datos de ERP con sistemas de gestión de pacientes para mejorar la programación. En el comercio minorista, fusionar datos de CRM sobre las preferencias de los clientes con sistemas ERP garantiza actualizaciones de inventario en tiempo real, reduciendo quiebres de stock y aumentando la satisfacción del cliente."
+            },
+            {
+                "title": "Analítica predictiva para decisiones proactivas",
+                "desc": "Agentforce permite a las empresas anticipar tendencias, pronosticar la demanda y optimizar las operaciones de la cadena de suministro. Al analizar datos de ERP y SCM, particularmente en agricultura, predice la demanda y mejora la planificación. Esta integración mejora la toma de decisiones, aumenta la productividad y minimiza interrupciones considerando factores como el rendimiento de los cultivos, los niveles de inventario, los calendarios de distribución y los patrones climáticos."
+            },
+            {
+                "title": "Escalabilidad",
+                "desc": "Agentforce gestiona eficientemente cargas de trabajo crecientes en sistemas ERP y SCM sin necesidad de personal adicional. Durante las temporadas altas en logística, los agentes de IA pueden procesar mayores volúmenes de datos de envíos y entregas, como números de seguimiento y niveles de inventario, lo que permite que el sistema maneje más envíos de forma dinámica sin sobrecargar a la plantilla."
+            }
+        ],
+        "enhancedTitle": "Colaboración mejorada",
+        "enhancedDesc": "Integrado con el ecosistema de Salesforce, Agentforce fomenta la colaboración entre equipos al ",
+        "enhancedLink": "conectar datos de ERP con herramientas como Slack",
+        "enhancedDesc2": "y Salesforce Customer 360. Esto crea un entorno cohesivo y conectado para los responsables de la toma de decisiones.",
+        "applicationTitle": "Aplicaciones de agentes con IA para ERP",
+        "applicationDesc": "La integración de agentes con IA de Agentforce en sistemas ERP transforma las operaciones empresariales al aumentar la eficiencia, la precisión y la funcionalidad. Estos agentes automatizan procesos, ofrecen información accionable y facilitan flujos de trabajo fluidos en los módulos clave del ERP.",
+        "applicationData": [
+            {
+                "title": "Gestión de inventario y cadena de suministro",
+                "desc": "Los agentes de IA supervisan los niveles de inventario, predicen fluctuaciones de la demanda y automatizan los procesos de reposición. Por ejemplo, pueden monitorear interrupciones en la cadena de suministro y sugerir proveedores alternativos para evitar escasez. Estas capacidades ayudan a minimizar quiebres de stock y reducir el exceso de inventario, asegurando operaciones más fluidas."
+            },
+            {
+                "title": "Operaciones financieras",
+                "desc": "Mejoran los flujos de trabajo financieros al automatizar tareas como la conciliación de datos, la generación de informes de cumplimiento y la detección de anomalías transaccionales. Esto mejora la precisión, agiliza los procesos y reduce el tiempo dedicado a tareas financieras manuales como cuentas por pagar, cuentas por cobrar y presupuestación."
+            },
+            {
+                "title": "Gestión de relaciones con clientes",
+                "desc": "Los agentes analizan datos de clientes para ofrecer recomendaciones personalizadas e identificar oportunidades de ventas adicionales. Los chatbots impulsados por estos agentes automatizan las respuestas a las consultas de los clientes, mejorando la participación y la satisfacción. Por ejemplo, al analizar historiales de compra, los agentes pueden predecir necesidades futuras y refinar las estrategias de marketing para maximizar el valor del cliente."
+            },
+            {
+                "title": "Gestión automatizada de recursos humanos",
+                "desc": "En RR. HH., agilizan procesos como la contratación, la incorporación y las evaluaciones de desempeño. Pueden analizar currículos, programar entrevistas y proporcionar información predictiva sobre tendencias de retención de empleados. Esto mejora la eficiencia de RR. HH. y la satisfacción general de los empleados, así como la gestión de la plantilla."
+            }
+        ],
+        "futureTitle": "Preparando el ERP para el futuro con Agentforce",
+        "futureDesc": "Agentforce es el futuro de los sistemas ERP: inteligente, escalable y conectado. Con IA y Salesforce Data Cloud, las empresas logran mayor eficiencia e innovación. Proveedores líderes de ERP como SAP, Oracle y Microsoft están",
+        "futureLink": "integrando IA agentica",
+        "futureDesc2": "para la toma de decisiones en tiempo real, el análisis predictivo y la automatización de procesos. Estos esfuerzos están convirtiendo a los sistemas ERP en ecosistemas inteligentes que optimizan operaciones, mejoran la experiencia del cliente y permiten soluciones escalables con mínima intervención humana.",
+        "futureDesc3": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP específicas, automatizando tareas repetitivas y optimizando flujos de trabajo. Utilizando aprendizaje automático y procesamiento de lenguaje natural, garantizamos que estos agentes se alineen con los objetivos organizacionales. Las empresas pueden asegurarse de que sus implementaciones de Agentforce aprovechen datos confiables para una automatización inteligente. Contáctanos en"
+    },
+    "meetTeammate": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de atención al cliente y personal de servicio en campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: Descubriendo el motor de razonamiento Atlas en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, generando la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora mejorada con el innovador motor de razonamiento Atlas."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Agentes como compañeros de equipo: Revolucionando la colaboración en Slack con Agentforce",
+                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, resaltando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en el ámbito de la automatización impulsada por inteligencia artificial y en interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Agentes como compañeros de equipo: Revolucionando la colaboración en Slack con Agentforce",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA basada en agentes, Agentforce. Esta adición permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agentes como compañeros de equipo: Revolucionando la colaboración en Slack con Agentforce",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Agentes como compañeros de equipo: Revolucionando la colaboración en Slack con Agentforce",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos generales de la organización, hacer lo correcto se convierte en algo instintivo."
+            }
+        ],
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "Conoce a tu nuevo compañero: Agentes de IA en Slack con Agentforce 2.0",
+        "blogMainData": "Los agentes de Agentforce hacen más que recopilar datos e información: ofrecen funcionalidades de IA totalmente personalizables e independientes que pueden conectarse a cualquier dato empresarial y actuar en tu nombre. Con sus avanzadas habilidades de razonamiento, Agentforce puede tomar decisiones y ejecutar tareas como gestionar casos de clientes, evaluar prospectos de ventas y mejorar campañas de marketing. Transforma el soporte de TI en el lugar de trabajo integrando agentes inteligentes como Remy directamente en Slack. Esto agiliza la resolución de problemas, convirtiendo las mesas de ayuda de TI en recursos proactivos que mejoran la productividad de los empleados mediante soporte rápido y personalizado.",
+        "feturesTitle": "Funciones de Agentforce para una mejor experiencia en Slack",
+        "featuresData": [
+            {
+                "title": "Automatización de tareas",
+                "desc": ": Los agentes pueden automatizar procesos repetitivos, como crear tareas de seguimiento después de reuniones o registrar actualizaciones en Salesforce."
+            },
+            {
+                "title": "Recuperación de datos",
+                "desc": ": ¿Necesitas conocer las últimas cifras de ventas o el estado de una cuenta? Simplemente pregunta al agente y obtendrás datos en tiempo real desde Salesforce u otras plataformas conectadas."
+            },
+            {
+                "title": "Orquestación de flujos de trabajo",
+                "desc": ": Los agentes pueden gestionar flujos de trabajo complejos, garantizando que las personas adecuadas sean notificadas y que los pasos correctos se ejecuten en el momento adecuado."
+            },
+            {
+                "title": "Perspectivas y recomendaciones",
+                "desc": ": Los agentes analizan tendencias de datos y sugieren información accionable, ayudando a los equipos a tomar decisiones informadas más rápido."
+            },
+            {
+                "title": "Interacción en lenguaje natural",
+                "desc": ": Comunícate con los agentes como lo harías con un compañero humano, utilizando comandos en lenguaje natural dentro de Slack."
+            }
+        ],
+        "roleTitle": "El papel de Agentforce en Slack",
+        "roleDesc": "Aprovechando el poder de las conversaciones relevantes de Slack y tus datos empresariales de confianza, Agentforce proporciona sugerencias accionables y ejecuta tareas sin interrupciones dentro de tu flujo de trabajo. Mejora la colaboración del equipo al integrar agentes inteligentes directamente en Slack y convertirlos en compañeros de equipo. Estos agentes son más que simples bots: actúan como compañeros proactivos que pueden automatizar tareas repetitivas, proporcionar acceso instantáneo a datos críticos, agilizar flujos de trabajo y mejorar la toma de decisiones mediante información inteligente.",
+        "roleDesc2": "Agentforce aprovecha el papel único de Slack como centro de colaboración. Al combinar la mensajería en tiempo real de Slack con datos contextuales de sistemas integrados, los agentes inteligentes permiten gestionar solicitudes de TI mediante interacciones conversacionales fluidas. Con Agentforce, Slack se convierte no solo en una plataforma de mensajería, sino en un centro para un trabajo en equipo más inteligente y eficiente.",
+        "whatAgentTitle": "¿Qué aporta Agentforce 2.0 a Slack?",
+        "whatAgentDesc": "El recién presentado Salesforce Agentforce 2.0, construido sobre la plataforma Salesforce Customer 360, introduce un conjunto de potentes funciones para optimizar los flujos de trabajo y aumentar la eficiencia del servicio en las organizaciones.",
+        "whatAgentData": [
+            {
+                "title": "Soporte conversacional en tiempo real",
+                "desc": ": Los agentes de IA ofrecen respuestas instantáneas, mejorando la velocidad y eficacia del soporte al cliente."
+            },
+            {
+                "title": "Automatización de flujos de trabajo",
+                "desc": ": Automatiza tareas rutinarias, liberando a los empleados humanos para responsabilidades más complejas."
+            },
+            {
+                "title": "Analítica predictiva y aprendizaje automático",
+                "desc": ": Anticipa necesidades para elevar la satisfacción del cliente y garantizar operaciones fluidas."
+            },
+            {
+                "title": "Motor de razonamiento Atlas",
+                "desc": ": Potencia a los agentes de IA con habilidades avanzadas de razonamiento, permitiéndoles manejar tareas complejas con mayor autonomía y precisión."
+            }
+        ],
+        "integrateTitle": "Integra agentes en Slack para convertirlos en compañeros de equipo",
+        "integrateData": [
+            "No es necesario iniciar sesión en una aplicación de IA separada: Slack integra a los agentes en los flujos de trabajo existentes de tu equipo, permitiendo a los usuarios interactuar con ellos como lo harían con cualquier otro colega. Con más de 2,600 aplicaciones empresariales disponibles en el Marketplace de Slack, es la plataforma preferida para implementar aplicaciones empresariales para empleados, utilizada por el 94% de todas las empresas.",
+            "En Slack, los agentes son tan accesibles como los compañeros de equipo. Puedes ver sus habilidades, explorar sus capacidades e incluso mencionarlos con @ para traerlos a canales o mensajes directos. Piénsalo como tener un directorio de agentes al alcance de tu mano, directamente en Slack, lo que hace la colaboración más inteligente y eficiente.",
+            "En Dreamforce, Slack demostró cómo un equipo de ventas usa un Agente RFP para acelerar los ciclos de ventas. En un canal de Slack conectado a Salesforce, cada vez que un BDR crea una nueva oportunidad, el Agente RFP notifica al equipo y realiza acciones como involucrar a las partes interesadas correctas, realizar análisis competitivo y crear una estrategia de precios basada en datos históricos. Agentforce en Slack permite a los vendedores centrarse en construir relaciones con los clientes y cerrar tratos al descargarles tareas administrativas."
+        ],
+        "bringTitle": "Lleva Agentforce a Slack para optimizar el soporte en todas las funciones de negocio",
+        "bringData": [
+            {
+                "title": "Agente de RRHH",
+                "desc": ": Mejora la incorporación, la gestión de beneficios y la orientación profesional personalizada mediante la automatización de estas tareas."
+            },
+            {
+                "title": "Agente de TI",
+                "desc": ": Resuelve tickets de soporte, gestiona comunicaciones de incidentes y aborda problemas en tiempo real."
+            },
+            {
+                "title": "Agente de servicio",
+                "desc": ": Identifica expertos, accede a conocimientos históricos y colabora para resolver problemas de clientes de manera eficiente."
+            },
+            {
+                "title": "Agente de ventas",
+                "desc": ": Prepara informes ejecutivos, redacta propuestas y se involucra proactivamente con clientes para impulsar el crecimiento."
+            },
+            {
+                "title": "Agente de marketing",
+                "desc": ": Optimiza campañas, genera contenido y colabora en planes estratégicos de marketing."
+            },
+            {
+                "title": "Agente legal",
+                "desc": ": Simplifica procesos regulatorios y de cumplimiento con automatización para aprobaciones sin fricciones."
+            },
+            {
+                "title": "Agente de producto e ingeniería",
+                "desc": ": Incrementa la agilidad ayudando en la planificación, diseño, desarrollo y control de calidad."
+            },
+            {
+                "title": "Agente de gestión de la cadena de suministro",
+                "desc": ": Gestiona proveedores, automatiza operaciones de almacén y mejora la previsión de la demanda."
+            }
+        ],
+        "collaborateTitle": "Colabora sin problemas entre humanos y agentes",
+        "collaborateDesc": "El futuro del trabajo digital brilla con el compromiso inquebrantable de Salesforce con la IA. El CEO Marc Benioff ha revelado planes de expansión ambiciosos, que incluyen la contratación de 2,000 nuevos representantes de ventas y el objetivo audaz de desplegar más de mil millones de agentes de IA en el próximo año. Esta visión destaca el poder transformador de la IA avanzada en plataformas de trabajo como Slack. Agentforce ejemplifica cómo los agentes inteligentes pueden revolucionar el soporte de TI al convertir Slack en un espacio de trabajo dinámico y colaborativo. Sin embargo, el éxito de estos agentes depende en gran medida de la infraestructura sólida que los respalda.",
+        "collaborateDesc2": "Te ayudamos a desarrollar, personalizar e implementar agentes de IA autónomos para tareas relacionadas con ventas, marketing, servicio y comercio electrónico con la plataforma Agentforce. Con Rialtes, las empresas pueden garantizar que sus",
+        "collaborateLink": "implementaciones de Agentforce",
+        "collaborateDesc3": "estén impulsadas por datos confiables y accionables, maximizando el potencial de la automatización inteligente. Contáctanos en"
+    },
+    "integrateSapSuccessFactor": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo Funciona Realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas escalan, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
+                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, resaltando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia dentro de la automatización impulsada por inteligencia artificial e interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
+                "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agéntica, Agentforce. Esta función permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Mañana?",
+                "description": "La agricultura desempeña un papel significativo en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus objetivos y con los objetivos más amplios de la organización, hacer lo correcto se vuelve instintivo."
+            }
+        ],
+        "blogTopic": "SAP SuccessFactors",
+        "blogTitle": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
+        "blogMainData": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) y un sólido conjunto de herramientas de productividad. Permite a los usuarios colaborar de forma más fluida y completar tareas diarias de RR. HH. directamente dentro de las aplicaciones de Microsoft 365. La colaboración en tiempo real permite que varios usuarios trabajen simultáneamente en documentos almacenados en aplicaciones de Office 365 como Word, Excel y PowerPoint, mejorando la colaboración en tareas relacionadas con SuccessFactors.",
+        "benefitsTitle": "Beneficios de Integrar SAP SuccessFactors con Microsoft Office 365",
+        "benefitsData": [
+            {
+                "title": "Mayor Productividad",
+                "desc": ": Los empleados pueden acceder a información relacionada con RR. HH. directamente desde herramientas de Office 365 como Microsoft Teams, Outlook y Word. Pueden utilizar una interfaz familiar, lo que reduce la curva de aprendizaje y aumenta la productividad. Además, se pueden automatizar tareas y flujos de trabajo repetitivos entre ambas aplicaciones, como actualizar automáticamente los registros de SAP cuando llega un correo electrónico relacionado en Outlook."
+            },
+            {
+                "title": "Colaboración Unificada",
+                "desc": ": Las herramientas de Microsoft permiten la colaboración en tiempo real en documentos e informes de RR. HH. Los usuarios pueden trabajar en datos y documentos de SuccessFactors en Microsoft Teams utilizando chat, videollamadas y espacios de trabajo compartidos. En Outlook, se puede acceder y manipular datos, permitiendo la interacción con flujos de trabajo, aprobaciones y notificaciones directamente desde el cliente de correo."
+            },
+            {
+                "title": "Mejora de la Experiencia del Empleado",
+                "desc": ": Entrega notificaciones y tareas de RR. HH. utilizando las herramientas que los empleados usan a diario. Integrar plataformas puede fomentar un entorno de trabajo cohesivo y eficiente que mejore la colaboración, agilice las operaciones, optimice la gestión de datos e impulse el crecimiento empresarial."
+            },
+            {
+                "title": "Procesos de RR. HH. Optimizado",
+                "desc": ": Automatiza tareas rutinarias y agiliza flujos de trabajo como aprobaciones de vacaciones, evaluaciones de desempeño e incorporaciones, liberando al personal para centrarse en actividades más estratégicas y mejorando la utilización general de recursos."
+            }
+        ],
+        "prerequisitesTitle": "Requisitos Previos",
+        "prerequisitesMainData": "Antes de comenzar la integración, asegúrate de tener:",
+        "prerequisitesList": [
+            "Acceso administrativo a SAP SuccessFactors y Microsoft Azure Active Directory (Azure AD).",
+            "Licencias necesarias para SAP SuccessFactors y Microsoft Office 365.",
+            "Acceso API habilitado para SAP SuccessFactors.",
+            "Conocimientos básicos de las API y opciones de configuración de ambas plataformas."
+        ],
+        "prerequisitesDesc": "Como administrador del sistema SAP SuccessFactors de tu organización, necesitarás permisos específicos o el apoyo de tus socios de implementación de Microsoft 365 con los siguientes roles:",
+        "prerequisitesData": [
+            {
+                "title": "Administrador del Sistema SAP SuccessFactors",
+                "desc": ": Responsable de establecer y configurar la conexión entre SAP SuccessFactors y Microsoft 365 a través de la página de Configuración de Work Tech."
+            },
+            {
+                "title": "Administrador Global de Microsoft 365",
+                "desc": ": Necesario para otorgar permisos de la API de Microsoft Graph a SAP SuccessFactors."
+            },
+            {
+                "title": "Administrador de Microsoft 365 Teams",
+                "desc": ": Necesario para instalar la aplicación SAP SuccessFactors en Teams y configurar las políticas de permisos requeridas."
+            }
+        ],
+        "stepsTitle": "Proceso de Integración Paso a Paso",
+        "steps": [
+            {
+                "title": "Configurar Inicio de Sesión Único (SSO)",
+                "desc": "El inicio de sesión único simplifica el proceso de inicio de sesión para los usuarios, garantizando un acceso seguro y sin interrupciones a ambas plataformas.",
+                "list": [
+                    "Configurar Azure AD como proveedor de identidad (IdP).",
+                    "Configurar SAP SuccessFactors como proveedor de servicios en Azure AD.",
+                    "Intercambiar los archivos de metadatos SAML entre las plataformas.",
+                    "Probar la configuración de SSO para verificar un inicio de sesión sin problemas para los usuarios."
+                ]
+            },
+            {
+                "title": "Habilitar las APIs de SAP SuccessFactors",
+                "desc": "Para permitir la comunicación entre SAP SuccessFactors y Office 365, habilita las APIs relevantes:",
+                "list": [
+                    "Ir al Centro de Administración de SAP SuccessFactors.",
+                    "Navegar a Gestionar Herramientas de Integración y habilitar las APIs OData.",
+                    "Generar un usuario API y asignar los permisos requeridos."
+                ]
+            },
+            {
+                "title": "Conectar Microsoft Power Automate",
+                "desc": "Microsoft Power Automate (anteriormente Microsoft Flow) es una herramienta potente para crear flujos de trabajo entre Office 365 y SAP SuccessFactors.",
+                "list": [
+                    "Iniciar sesión en Power Automate y crear un nuevo flujo de trabajo.",
+                    "Seleccionar SAP SuccessFactors como aplicación de activación y herramientas de Office 365 (por ejemplo, Teams, Outlook) como acciones.",
+                    "Ejemplos:",
+                    "Notificar a los gerentes en Teams cuando un subordinado directo envíe una solicitud de vacaciones.",
+                    "Enviar correos electrónicos automáticos a través de Outlook para recordatorios de evaluaciones de desempeño."
+                ]
+            },
+            {
+                "title": "Integrar Microsoft Teams con SAP SuccessFactors",
+                "desc": "Microsoft Teams es un centro de colaboración, lo que lo convierte en un punto de integración valioso.",
+                "list": [
+                    "Instalar la aplicación SAP SuccessFactors desde la tienda de aplicaciones de Microsoft Teams.",
+                    "Autenticarse con tus credenciales de SAP SuccessFactors.",
+                    "Configurar notificaciones y flujos de trabajo para tareas como actualizaciones de objetivos, solicitudes de retroalimentación y aprobaciones."
+                ]
+            },
+            {
+                "title": "Incrustar Office 365 en SAP SuccessFactors",
+                "desc": "Integrar aplicaciones de Office 365 como Word o Excel en SAP SuccessFactors permite a los equipos de RR. HH. editar documentos sin cambiar de plataforma.",
+                "list": [
+                    "Usar herramientas SAP Fiori para incrustar aplicaciones de Office 365 en la interfaz de SuccessFactors.",
+                    "Habilitar el intercambio contextual de datos entre las plataformas para agilizar la creación y colaboración de documentos."
+                ]
+            },
+            {
+                "title": "Aprovechar Microsoft Graph API",
+                "desc": "Microsoft Graph API proporciona un punto de acceso unificado a los servicios de Office 365 e integrarlos con datos de SAP SuccessFactors.",
+                "list": [
+                    "Usar Graph API para recuperar y actualizar datos de usuarios, eventos de calendario o correos electrónicos basados en acciones de RR. HH. en SuccessFactors.",
+                    "Ejemplo: Programar reuniones en Outlook al incorporar nuevos empleados."
+                ]
+            }
+        ],
+        "whatDoesTitle": "¿Qué Significa Esta Integración para RR. HH.?",
+        "whatDoesData": [
+            {
+                "title": "Iniciar un Chat de Teams desde SAP SuccessFactors",
+                "desc": ": Dependiendo del estado de la última habilitación de People Profile, los usuarios pueden iniciar un chat en Teams directamente desde la tarjeta rápida de un usuario, el encabezado del perfil o la Vista Previa del Perfil."
+            },
+            {
+                "title": "Acceder a Acciones Rápidas y Notificaciones mediante la App de SAP SuccessFactors en Teams",
+                "desc": ": Realizar acciones rápidas relacionadas con la Gestión Continua del Rendimiento, Employee Central, Employee Central Payroll y Time Tracking. Además, recibir notificaciones para aprobaciones, recordatorios urgentes y otros eventos."
+            },
+            {
+                "title": "Interactuar con Procesos de SAP SuccessFactors Usando Outlook o Reuniones en Línea de Teams",
+                "desc": ": Se pueden aprovechar funciones para la programación de entrevistas, mejorando la colaboración y la eficiencia."
+            },
+            {
+                "title": "Aprovechar la Función de Chat Asistida por IA en la App de Microsoft Teams",
+                "desc": ": Impulsado por un motor de IA incorporado, los usuarios pueden iniciar transacciones de RR. HH. o acceder a datos personales mediante consultas en lenguaje natural."
+            }
+        ],
+        "completeTitle": "Completa Tareas Diarias de RR. HH. Directamente en las Aplicaciones de Microsoft 365",
+        "completeDesc": "Integrar SAP SuccessFactors con Microsoft Office 365 desbloquea sinergias poderosas que mejoran las operaciones de RR. HH. y la experiencia general del empleado. Las organizaciones pueden aprovechar las capacidades combinadas de estas plataformas para agilizar flujos de trabajo, aumentar la productividad y fomentar la colaboración. Ya sea que estés automatizando tareas rutinarias o incorporando análisis avanzados, esta integración garantiza que tu fuerza laboral tenga las herramientas para triunfar.",
+        "completeDesc2": "Rialtes se especializa en ofrecer ",
+        "completeLink": "soluciones de integración de SAP SuccessFactors",
+        "completeDesc3": "personalizadas y completas para ayudarte a compartir datos entre cualquier módulo de SAP o solución de terceros. Nuestro equipo cuenta con la experiencia funcional, las habilidades técnicas y la experiencia real para ayudar a los clientes a aprovechar software de RR. HH. en la nube como SAP SuccessFactors. Contáctanos hoy en",
+        "completeDesc4": "para comenzar con uno de nuestros consultores expertos en SAP SuccessFactors."
     }
 }

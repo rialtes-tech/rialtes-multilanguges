@@ -56,7 +56,7 @@ export default function () {
                 }
                 schemaData={schemaData}
                 deskImg="/images/webinar/Webinar_6.webp"
-                mobImg="/images/webinar/Webinar_6.webp"
+                mobImg="/images/webinar/Webinar_6.webp" 
                 webinarTitle={t('webinarTitle')}
                 speakerName="Lokesh Adhikari"
                 speakerDesignation="Software Engineer - Salesforce"
