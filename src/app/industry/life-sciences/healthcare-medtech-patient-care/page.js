@@ -71,7 +71,7 @@ const Services = () => {
   return (
     <div className="custom-container mx-auto text-black mt-14 md:mt-20 xl:mt-[120px]">
       <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%] ">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
-      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
+      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight lg:pr-[400px]">We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
@@ -239,7 +239,7 @@ const GrowServicesCard = ({ services, className = '' }) => (
       />
     </div>
     <div className="flex flex-col pt-4 flex-grow 3xl:pr-[80px] xl:pr-[50px]">
-      <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+      <h3 className="mb-[12px] md:mb-[15px] font-semibold h3-bold line-clamp-2  4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
         {services.title}
       </h3>
       <p className="text-[16px] xl:text-[18px]  4xl:text-[20px] leading-tight">
@@ -287,7 +287,7 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden lg:block">
           <Image
             src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
@@ -329,7 +329,7 @@ export default function Page() {
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
               <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] xl:mr-4 xl:mb-0 ">
-                <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
+                <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[26px]">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
               </div>
               <div className="flex flex-col w-full xl:w-[50%] ">
                 <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.

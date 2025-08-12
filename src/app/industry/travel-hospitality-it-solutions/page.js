@@ -190,7 +190,7 @@ export default function Page() {
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
                 />
                 {/* herosection */}
-                <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+                <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                     <div className="hidden md:block">
                         <Image
                             src="/images/industry/travel-transporation/hero-section-desktop-banner.webp"
@@ -217,7 +217,7 @@ export default function Page() {
                                 <h3 className="text-[#000000] text-[18px] md:text-[24px] font-bold max-lg:w-[80%] md:w-[50%] lg:w-full">
                                     Travel Transportation and Hospitality Industry
                                 </h3>
-                                <h1 className="text-[#00000] text-[26px] leading-[38px] md:text-[36px] md:leading-[50px] lg:text-[60px] lg:leading-[73px] mt-[11.5px] md:mt-[28.5px] max-md:w-[69%] max-[380px]:w-[85%]">
+                                <h1 className="text-[#00000] text-[26px]  md:text-[36px]  4xl:text-[60px] 2xl:text-[50px] xl:text-[40px] leading-tight mt-[11.5px] md:mt-[28.5px] max-md:w-[69%] max-[380px]:w-[85%]">
                                     Powering the Next-Gen <br className="hidden md:block" /> Travel, Transportation & <br className="hidden md:block" /> Hospitality Experience
                                 </h1>
                             </div>
@@ -248,7 +248,7 @@ export default function Page() {
                 <section className="custom-container md:pr-0  max-md:px-0 xl:mt-[156px] mt-[102px]">
                     <div className="custom-container  md:pl-0 bg-[#727272]">
                         <div className="grid grid-cols-1 md:grid-cols-12 w-full md:gap-[40px] gap-y-[34px] md:pt-[75px] pt-[40px]">
-                            <div className="xl:col-span-7 md:col-span-6 col-span-12 text-[#FFFFFF] md:pl-[61px] md:order-1 order-2">
+                            <div className="xl:col-span-7 md:col-span-6 col-span-12 text-[#FFFFFF] md:pl-[41px] md:order-1 order-2">
                                 <h2 className="text-[26px] xl:text-[60px] leading-tight 2xl:w-[88%]">
                                     Why Choose Rialtes for End-to-End Industry-Focused Transformation:
                                 </h2>
@@ -696,7 +696,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:mt-[20px] mt-[36px] max-md:ml-[36px]">
+                    <div className="xl:mt-[-20px] mt-[36px] max-md:ml-[36px]">
                         <LearnMore />
                     </div>
                 </section>
@@ -714,7 +714,7 @@ export default function Page() {
                                 Partner with Rialtes to offer experiences as fast and personalized as your customers expect.SAP and Salesforce enabling real-time bookings and confirmations.
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
-                            <div className="xl:mt-[40px] mt-[36px]">
+                            <div className="xl:mt-[120px] mt-[36px]">
                                 <LearnMore />
                             </div>
                         </div>
@@ -761,7 +761,7 @@ export default function Page() {
                                 Deliver service that makes every customer feel valued and understood.
                             </p>
                             <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
-                            <div className="xl:mt-[36px] mt-[36px]">
+                            <div className="xl:mt-[252px] mt-[36px]">
                                 <LearnMore />
                             </div>
                         </div>
