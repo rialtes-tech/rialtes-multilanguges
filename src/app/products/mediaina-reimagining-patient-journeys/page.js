@@ -193,7 +193,7 @@ export default function Page() {
                 </div>
             </section>
             <section>
-                <div className="custom-container mx-auto grid  4xl:grid-cols-[620px,991px] xl:mt-[-85px] 2xl:mt-[-100px] 2xl:grid-cols-[530px,842px] xl:grid-cols-[465px,715px]  grid-cols-1  gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0  4xl:mt-0 mt-10">
+                <div className="custom-container mx-auto grid  4xl:grid-cols-[620px,991px] xl:mt-[-85px] 2xl:mt-[-100px] 2xl:grid-cols-[530px,842px] xl:grid-cols-[465px,710px]  grid-cols-1  gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0  4xl:mt-0 mt-10">
 
                     {/* Left Side - Text Card */}
                     <div className="bg-[#05ACA6] text-white p-12 z-10  relative order-2 xl:order-1 2xl:mt-[60px] 4xl:mt-0 xl:mt-[80px]">
@@ -224,11 +224,11 @@ export default function Page() {
 
                     {/* Right Side - Image */}
                     <div className="w-full h-full relative  order-1 xl:order-2">
-                        <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[10rem] xl:ml-[-100px] 2xl:mt-[12rem]">
+                        <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[12rem] xl:ml-[-100px] 2xl:mt-[12rem]">
                             <Image
                                 src="/images/products/mediyana/desktop/lifeai.webp"
                                 alt="LifeAI Illustration"
-                                className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[800px]"
+                                className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[815px]"
                                 priority
                                 width={0}
                                 height={0}
@@ -331,7 +331,7 @@ export default function Page() {
                             <Image
                                 src="/images/products/mediyana/desktop/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[650px] 4xl:w-[600px] 2xl:h-[550px] w-full object-cover relative"
+                                className="4xl:h-[615px] 4xl:w-[600px] 2xl:h-[550px] w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
@@ -350,7 +350,7 @@ export default function Page() {
 
                     </div>
                     <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[200px] xl:pl-[180px] xl:pr-[100px] 2xl:pr-[200px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
-                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Candidate Education for MedTech Adoption</h2>
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Candidate Education</h2>
                         <p className="mt-5 4xl:text-[20px] xl:text-[16px] font-light">Transforming candidates into informed partners with personalized digital education, a crucial step in optimizing the patient engagement journey for successful therapy adoption.</p>
                         <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
                             <div>
@@ -759,7 +759,7 @@ export default function Page() {
                             <Image
                                 src="/images/products/mediyana/desktop/unified.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[580px]  w-full object-cover relative"
+                                className="4xl:h-[650px]  w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
@@ -902,7 +902,7 @@ export default function Page() {
                             <Image
                                 src="/images/products/mediyana/desktop/real.webp"
                                 alt="enabling-dynamic-img-mobile"
-                                className="4xl:h-[580px] w-full object-cover relative"
+                                className="4xl:h-[650px] w-full object-cover relative"
                                 width={0}
                                 height={0}
                                 priority
