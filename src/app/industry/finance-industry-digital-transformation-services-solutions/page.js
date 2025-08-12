@@ -186,7 +186,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
+      <section className="relative  h-[350px] md:h-[500px]  4xl:h-[650px] ">
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
@@ -225,7 +225,7 @@ export default function Page() {
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-[80%] 4xl:w-[76%]">
           Accelerating Digital Transformation in Financial Services
         </h2>
-        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
+        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[95%] font-normal mt-8">
           Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions. With a global presence and deep industry expertise, we help financial institutions transform securely, stay compliant, and deliver exceptional customer experiences.
         </p>
       </section>
@@ -427,7 +427,9 @@ export default function Page() {
           </div>
           <div className="md:col-span-6 xl:ml-[70px] xl:my-9 my-5 ">
             <UnorderedList arrName={aiData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
-            <LearnMore />
+         <div className="mt-10">
+             <LearnMore />
+         </div>
           </div>
         </div>
         <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[28px] mt-[10px] w-fit bg-[#0E3157] p-[24px] text-white leading-tight">

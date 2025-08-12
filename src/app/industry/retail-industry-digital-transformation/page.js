@@ -243,7 +243,7 @@ export default function retailPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
@@ -408,7 +408,7 @@ export default function retailPage() {
                                                 <UnorderedList arrName={fashionRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px] leading-tight font-normal" />
                                             </div>
                                         </div>
-                                        <div className="absolute bottom-[-170px] 2xl:bottom-[-110px] xl:bottom-[-140px] lg:bottom-[-90px]">
+                                        <div className="absolute bottom-[-170px] 2xl:bottom-[-102px] 4xl:bottom-[-107px] xl:bottom-[-98px] md:bottom-[-130px]">
                                             <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px]">
                                                 <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]  leading-tight  py-[24px] px-[24px] lg:pl-[31px] font-light">
                                                     Our fashion-specific accelerators ensure that your brand remains a trendsetter, not a follower.

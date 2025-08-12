@@ -438,7 +438,7 @@ const PersonalizingSection = () => {
                         Salesforce Marketing Cloud + Automotive Cloud
                     </h3>
                     <UnorderedList arrName={personalizedData} ulClassName="list-disc pl-[22px]  4xl:w-[520px] 2xl:w-[519px] xl:w-[470px] lg:w-[420px] md:w-[380px] w-[340px] max-[400px]:w-[270px]" liClassName="text-[#FFFFFF] mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight" />
-                    <div className="absolute bottom-[-95px]">
+                    <div className="absolute bottom-[-125px]">
                         <LearnMore />
                     </div>
                 </div>
@@ -947,7 +947,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
                     <Image
                         src="/images/industry/auto-industry/auto-industry-banner.webp"
