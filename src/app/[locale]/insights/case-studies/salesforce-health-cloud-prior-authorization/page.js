@@ -2,103 +2,55 @@
 // pages/case-study-detail.js
 import Head from "next/head";
 import Image from "next/image";
-import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
-;
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/caseStudy.json";
+import esContent from "../../../../../../messages/es/caseStudy.json";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+
 import Script from "next/script";
-const schemaData={
-    "@context": "https://schema.org",
+const schemaData = {
+  "@context": "https://schema.org",
   "@type": "Article",
-  "mainEntityOfPage": {
+  mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
+    "@id":
+      "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/",
   },
-  "headline": "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
-  "description": "Explore how Rialtes helped streamline and automate the prior authorization workflow using Salesforce Health Cloud, leading to faster approvals, reduced errors, and improved patient outcomes.",
-  "image": "https://www.rialtes.com/images/case-studies/case-study-8.webp",
-  "author": {
+  headline:
+    "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
+  description:
+    "Explore how Rialtes helped streamline and automate the prior authorization workflow using Salesforce Health Cloud, leading to faster approvals, reduced errors, and improved patient outcomes.",
+  image: "https://www.rialtes.com/images/case-studies/case-study-8.webp",
+  author: {
     "@type": "Organization",
-    "name": "Rialtes"
+    name: "Rialtes",
   },
-  "publisher": {
+  publisher: {
     "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
+    name: "Rialtes",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
+    },
   },
-  "articleSection": "Case Studies",
-  "datePublished": "2024-08-02"
-
-}
-const slides = [
-  {
-    id: 3,
-    image: "/images/case-studies/case study 1_thumb_n.webp",
-    category: "Healthcare",
-    industry: "Real Estate",
-    date: "17 Nov 2024",
-    title: "Automating Order Processing in Healthcare using MuleSoft",
-    description: "A global medical technology company that develops and manufactures innovative products",
-    url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-  },
-  {
-    id: 4,
-    image: "/images/case-studies/case-study-4_thumb.webp",
-    category: "Manufacturing",
-    industry: "Healthcare",
-    date: "14 Oct 2024",
-    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-    url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-  },
-  {
-    id: 6,
-    image: "/images/case-studies/case-study-6_thumb.webp",
-    category: "Real Estate",
-    industry: "Manufacturing",
-    date: "04 Sept 2024",
-    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: 'insights/case-studies/yardi-managed-services'
-  },
-  {
-    id: 7,
-    image: "/images/case-studies/case study 3_thumb_n.webp",
-    category: "Manufacturing",
-    industry: "Retail & e-Commerce",
-    date: "08 Jan 2025",
-    title: "DevOps Transformation using Copado and Salesforce",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-  },
-  {
-    id: 8,
-    image: "/images/case-studies/case-study-2_thumb_n.webp",
-    category: "Real Estate",
-    industry: "Hi-Tech",
-    date: "22 Dec 2024",
-    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: 'insights/case-studies/realForce-banking-module-ach'
-  },
-  // Add more blog objects as needed
-];
-
+  articleSection: "Case Studies",
+  datePublished: "2024-08-02",
+};
 export default function Page() {
-const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization";
-
+  const t = useTranslations("salesForceCaseStudy");
+  const locale = useLocale();
+  const Content = locale === "es" ? esContent : enContent;
+  const { slides, problemList, solutionsList, benefitsList } =Content.salesForceCaseStudy;
+  const fullUrl ="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization";
   return (
     <div className="min-h-screen bg-white">
-      <Seo
-        title="Salesforce Health Cloud Case Study: Prior Authorization Streamlined"
-        description="See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care.
-"
+      <Seo title="Salesforce Health Cloud Case Study: Prior Authorization Streamlined"
+        description="See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care."
         canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
-      />
-    
-         <Script
+/>
+      <Script
         id="schema-salesforce-health"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -114,139 +66,138 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
           priority
         />
       </section>
-
-      <section
-        className="custom-container"
-      >
-
+      <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[850px]">
           <div className="">
-            <h1 className="text-[#000000] py-6  leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px]">Digitizing Prior Authorization for Better Patient Outcomes  </h1>
+            <h1 className="text-[#000000] py-6  leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px]">
+              {t("salesforceTitle")}
+            </h1>
           </div>
-       
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className='pb-6'>
-                <span className='text-[#0092E0]'>Healthcare </span> <span className='text-[#ACACAC]'> | </span>02 August 2024
+              <div className="pb-6">
+                <span className="text-[#0092E0]">{t("healthcare")} </span>{" "}
+                <span className="text-[#ACACAC]"> | </span>
+                {t("date")}
               </div>
-           
+
               <div className="flex flex-col ">
-                <span>8 min read</span>
+                <span>{t("read")}</span>
               </div>
             </div>
             <div className="pt-4"></div>
             <div className="flex flex-row gap-6 ml-[-8px]">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  </div>
+              <div className="max-w-[40px]">
+                <a
+                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                    fullUrl
+                  )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/images/case-studies/linkedin.svg"
+                    alt="LinkedIn"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
+                    priority
+                  />
+                </a>
+              </div>
+              <div className="max-w-[40px]">
+                <a
+                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                    fullUrl
+                  )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <Image
+                    src="/images/case-studies/twitter.svg"
+                    alt="Twitter"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
+                    priority
+                  />
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="py-6"></div>
           <div className="">
             <div className="">
-
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
-              <p className="text-black">A global medical technology leader that designs and manufactures life-saving cardiovascular and endovascular products such as pacemakers, defibrillators, and remote patient monitoring systems. The company's mission is to enhance and extend the lives of patients with heart and blood vessel conditions through advanced innovation and patient-centric care.</p>
-
-              <div className="py-6"></div>
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Problem or Challenge </h2>
-
-              <p className="text-black pb-6">The prior authorization process, a critical step in patient treatment, was a major bottleneck in the company’s healthcare delivery and revenue cycle operations.</p>
-
-  <div className="pl-2">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                <p className="text-black pb-4"> <li>Patients often had multiple policies with varying coverage rules, leading to confusion and delayed approvals.</li></p>
-                <p className="text-black pb-4"> <li>Patients were frequently unaware of non-covered treatments until they received post-treatment denial notifications, resulting in unexpected costs.</li></p>
-                <p className="text-black pb-4"><li>Hospitals manually gathered medical data from multiple departments, each needing to match specific formats required by various insurers.</li></p>
-                <p className="text-black"> <li>Reliance on paper forms or scanned PDFs led to processing delays, impacting treatment timelines and revenue collection.</li></p>
-              </ul>
-            </div>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("clientTitle")}
+              </h2>
+              <p className="text-black">{t("clientDesc")}</p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("problemTitle")}
+              </h2>
 
+              <p className="text-black pb-6">{t("problemDesc")}</p>
 
-              <p className="text-black pb-6">To streamline and digitize the prior authorization process, Rialtes developed a Salesforce-based solution using Salesforce Health Cloud that connected hospitals, healthcare providers, patients, and insurers within a unified digital workflow. </p>
+              <div className="pl-2">
+                <UnorderedList
+                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                  liClassName="pb-4 text-black last:pb-0"
+                  arrName={problemList}
+                />
+              </div>
+              <div className="py-6"></div>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("solutionsTitle")}{" "}
+              </h2>
+              <p className="text-black pb-6">{t("solutionsDesc")} </p>
 
-               <div className="pl-2">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
-            <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Unified Digital Platform </h3>: Consolidated insurance details, ICD codes, and treatment information into a single interface accessible to hospitals and care teams.</li>
-
-               <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Medical Input from Physicians </h3>: Enabled doctors to directly enter required clinical data, ensuring accuracy and completeness. </li>
-
-                <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Digital Patient Consent </h3>: Integrated electronic consent collection, ensuring transparency and compliance with patient authorization requirements. </li>
-
-             <li className="pb-4"><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Standardized Submissions </h3>: Automated the transmission of complete medical records using industry-standard formats (HL7 and FHIR), compliant with HIPAA regulations.</li>
-
-                <li ><h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">Condition-Aware UI </h3>: The user interface dynamically adjusts based on the medical condition, guiding users through all required steps to maximize authorization success.</li>
-              
-              </ul>
-            </div>
-
-
-            </div>   </div> 
-          <div className="py-6"></div>
-          <div className="">
-            <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
-               <div className="pl-2">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                <p className="text-black pb-4"> <li>Streamlined communication between hospitals, providers, patients, and insurers through a single source of truth.</li></p>
-                <p className="text-black pb-4"> <li>Improved accuracy and completeness of submissions reduced insurance denials by 30%, minimizing delays in patient care and revenue loss.</li></p>
-
-                <p className="text-black pb-4"><li>Transitioning from paper to digital submissions cuts prior authorization approval times by up to 50%, improving overall care delivery speed.</li></p>
-
-                <p className="text-black pb-4"> <li>Greater transparency reduced surprise billing and enabled more confident treatment planning.</li></p>
-                <p className="text-black "><li>Hospital administrative workload for prior authorization processing decreased by 35%, freeing up staff to focus on patient care.</li></p>
-                
-              </ul>
-            </div>
+              <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                  {solutionsList.map(({ title, description }, idx) => (
+                    <li key={idx} className="pb-4 last:pb-0">
+                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                        {title}
+                      </h3>
+                      : {description}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
-   
+          <div className="py-6"></div>
+            <div className="">
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("benefitsTitle")}
+              </h2>
+              <div className="pl-2">
+                <UnorderedList
+                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                  liClassName="pb-4 text-black last:pb-0"
+                  arrName={benefitsList}
+                />
+              </div>
+          </div>
         </div>
       </section>
-
       {/* Latest Blogs */}
-      <div
-        className="py-10 custom-container lg:pr-0"
-      >
+      <div className="py-10 custom-container lg:pr-0">
         <RelatedTopicsCarousel slides={slides} />
-
       </div>
     </div>
   );

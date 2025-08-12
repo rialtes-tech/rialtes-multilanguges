@@ -995,7 +995,7 @@
     "cliendDesc": "Un reconocido fabricante automotriz global, conocido por sus vehículos de vanguardia, enfrentaba importantes desafíos con su portal de concesionarios obsoleto. Construido sobre un marco heredado de .NET, el portal no lograba mantenerse al día con las necesidades empresariales modernas, lo que obstaculizaba la participación de los concesionarios, los procesos de ventas y la eficiencia operativa. El cliente buscaba una solución potente y escalable para optimizar las interacciones con los concesionarios, agilizar los flujos de trabajo y mejorar el rendimiento general en su vasta red de concesionarios a nivel mundial.",
     "keyTitle": "Principales Desafíos:",
     "keyDesc": "El portal heredado del cliente presentaba varios obstáculos críticos que afectaban el crecimiento de su negocio:",
-    
+
     "autoTitle": "La solución AutoSense de Rialtes",
     "autoDesc": "Para abordar estos desafíos, Rialtes, un líder global en transformación digital impulsada por IA, se asoció con el fabricante automotriz para entregar AutoSense, una plataforma de gestión de concesionarios de próxima generación construida sobre la robusta Salesforce Experience Cloud. Rialtes adoptó un enfoque centrado en el cliente, realizando talleres de diseño, creando un plan detallado de desarrollo ágil y entregando una solución innovadora mediante desarrollos basados en sprints.",
     "approachTitle": "Enfoque Estratégico:",
@@ -1167,6 +1167,371 @@
         "date": "22 Dic 2024",
         "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
         "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "salesForceCaseStudy": {
+    "salesforceTitle": "Digitalización de la Autorización Previa para Mejores Resultados en Pacientes",
+    "healthcare": "Salud",
+    "date": "02 de agosto de 2024",
+    "read": "8 min de lectura",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Un líder global en tecnología médica que diseña y fabrica productos cardiovasculares y endovasculares que salvan vidas, como marcapasos, desfibriladores y sistemas de monitoreo remoto de pacientes. La misión de la empresa es mejorar y prolongar la vida de pacientes con enfermedades cardíacas y vasculares mediante innovación avanzada y atención centrada en el paciente.",
+    "problemTitle": "Problema o Desafío",
+    "problemDesc": "El proceso de autorización previa, un paso crítico en el tratamiento del paciente, era un gran cuello de botella en las operaciones de prestación de servicios de salud y ciclo de ingresos de la empresa.",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Para optimizar y digitalizar el proceso de autorización previa, Rialtes desarrolló una solución basada en Salesforce utilizando Salesforce Health Cloud que conectó hospitales, proveedores de atención médica, pacientes y aseguradoras dentro de un flujo de trabajo digital unificado.",
+    "benefitsTitle": "Beneficios",
+
+    "problemList": [
+      "Los pacientes a menudo tenían múltiples pólizas con reglas de cobertura variables, lo que causaba confusión y aprobaciones demoradas.",
+      "Frecuentemente, los pacientes desconocían tratamientos no cubiertos hasta recibir notificaciones de denegación post-tratamiento, resultando en costos inesperados.",
+      "Los hospitales reunían manualmente datos médicos de múltiples departamentos, cada uno debiendo ajustarse a formatos específicos requeridos por distintos aseguradores.",
+      "La dependencia de formularios en papel o PDFs escaneados generaba retrasos en el procesamiento, afectando los tiempos de tratamiento y la recaudación de ingresos."
+    ],
+    "solutionsList": [
+      {
+        "title": "Plataforma Digital Unificada",
+        "description": "Consolidó los detalles del seguro, códigos ICD e información del tratamiento en una única interfaz accesible para hospitales y equipos de atención."
+      },
+      {
+        "title": "Ingreso Médico por Parte de los Doctores",
+        "description": "Permitió que los médicos ingresaran directamente los datos clínicos requeridos, garantizando precisión y completitud."
+      },
+      {
+        "title": "Consentimiento Digital del Paciente",
+        "description": "Integró la recolección electrónica de consentimientos, garantizando transparencia y cumplimiento con los requisitos de autorización del paciente."
+      },
+      {
+        "title": "Envíos Estandarizados",
+        "description": "Automatizó la transmisión de expedientes médicos completos utilizando formatos estándar de la industria (HL7 y FHIR), cumpliendo con las regulaciones HIPAA."
+      },
+      {
+        "title": "Interfaz Adaptada a la Condición",
+        "description": "La interfaz de usuario se ajusta dinámicamente según la condición médica, guiando a los usuarios a través de todos los pasos necesarios para maximizar el éxito de la autorización."
+      }
+    ],
+    "benefitsList": [
+      "Comunicación optimizada entre hospitales, proveedores, pacientes y aseguradoras a través de una única fuente de información.",
+      "La mejora en la precisión y completitud de los envíos redujo las denegaciones de seguros en un 30%, minimizando retrasos en la atención al paciente y pérdidas de ingresos.",
+      "La transición de envíos en papel a digitales reduce los tiempos de aprobación de autorizaciones previas hasta en un 50%, mejorando la velocidad general de prestación de servicios.",
+      "Mayor transparencia redujo la facturación inesperada y permitió una planificación de tratamientos más confiable.",
+      "La carga administrativa hospitalaria para el procesamiento de autorizaciones previas disminuyó en un 35%, liberando al personal para enfocarse en la atención al paciente."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Salud",
+        "industry": "Bienes Raíces",
+        "date": "17 Nov 2024",
+        "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufactura",
+        "industry": "Salud",
+        "date": "14 Oct 2024",
+        "title": "Transformación de la Gestión de Casos Omnicanal Usando Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Bienes Raíces",
+        "industry": "Manufactura",
+        "date": "04 Sept 2024",
+        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufactura",
+        "industry": "Venta Minorista y Comercio Electrónico",
+        "date": "08 Ene 2025",
+        "title": "Transformación DevOps usando Copado y Salesforce",
+        "description": "Un fabricante líder especializado en la creación de materiales innovadores para proyectos de construcción residenciales y comerciales.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Bienes Raíces",
+        "industry": "Alta Tecnología",
+        "date": "22 Dic 2024",
+        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "devopsCaseStudy": {
+    "devopsTitle": "Transformación DevOps usando Copado y Salesforce",
+    "manufacturing": "Manufactura",
+    "date": "08 de enero de 2025",
+    "read": "8 min de lectura",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Un fabricante destacado especializado en materiales de construcción innovadores para proyectos residenciales y comerciales. Su portafolio de productos incluye tejas para techos, terrazas, barandillas y soluciones de impermeabilización. La empresa está comprometida en apoyar a contratistas, constructores y propietarios para mejorar la durabilidad, el rendimiento y el atractivo visual de las edificaciones.",
+    "problemTitle": "Problema o Desafío",
+    "problemDesc": "El cliente enfrentaba dificultades con un proceso de implementación fragmentado e ineficiente debido a un entorno complejo y multinivel, que incluía:",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Rialtes introdujo una estrategia sólida de DevOps aprovechando Copado, una plataforma DevOps nativa de Salesforce, para optimizar y automatizar el ciclo de vida de implementación del cliente.",
+    "approachTitle": "Enfoque",
+    "technologyTitle": "Implementación Tecnológica",
+    "benefitsTitle": "Beneficios",
+    "problemList": [
+      "Múltiples entornos sandbox en las etapas de desarrollo, QA, preproducción y producción.",
+      "Ciclos de lanzamiento mensuales complementados con implementaciones ad-hoc, lo que provocaba retrasos en la entrega de nuevas funciones y correcciones.",
+      "Procesos de implementación manuales que requerían transferencias entre equipos multifuncionales, aumentando el riesgo de errores humanos e inconsistencias.",
+      "Control de versiones limitado y falta de gestión de acceso centralizada, lo que dificultaba mantener un entorno de producción estable y libre de errores."
+    ],
+    "approachList": [
+      {
+        "title": "Evaluación de Procesos",
+        "description": "Se realizó un análisis exhaustivo de los flujos de trabajo de implementación existentes del cliente."
+      },
+      {
+        "title": "Análisis de Brechas (Fit-Gap)",
+        "description": "Se identificaron las brechas entre las prácticas actuales y las capacidades ofrecidas por Copado."
+      },
+      {
+        "title": "Educación y Capacitación",
+        "description": "Se entrenó a los equipos internos en las mejores prácticas de DevOps y en las funcionalidades de Copado."
+      },
+      {
+        "title": "Rediseño del Entorno de Implementación",
+        "description": "Se definió una arquitectura de implementación optimizada y adaptada al entorno del cliente."
+      }
+    ],
+    "technologyList": [
+      {
+        "title": "Configuración de la Canalización CI/CD",
+        "description": "Se construyó una canalización DevOps simplificada y automatizada usando Copado."
+      },
+      {
+        "title": "Integración de Herramientas",
+        "description": "GitHub para control de versiones centralizado.\nAzure DevOps para gestión ágil de proyectos y lanzamientos."
+      },
+      {
+        "title": "Control Centralizado",
+        "description": "Se habilitó una supervisión coherente de versiones, accesos, datos y aprovisionamiento de entornos."
+      }
+    ],
+    "benefitsList": [
+      "Las canalizaciones CI/CD automatizadas y los flujos de trabajo optimizados redujeron el tiempo de implementación a menos de la mitad, acelerando la salida al mercado de nuevas funciones y correcciones.",
+      "El cambio de implementaciones manuales a automatizadas redujo drásticamente los errores humanos, asegurando lanzamientos más estables y confiables.",
+      "La capacidad de ejecutar lanzamientos menores, mayores y de corrección de errores simultáneamente mejoró la frecuencia de lanzamientos y la capacidad de respuesta a las necesidades del negocio, resultando en ciclos de lanzamiento un 50% más rápidos.",
+      "La integración con GitHub brindó trazabilidad y transparencia completas en todos los entornos, reduciendo conflictos de código y mejorando la preparación para auditorías.",
+      "Con herramientas centralizadas y flujos de trabajo automatizados, los equipos de desarrollo y QA dedicaron menos tiempo a tareas repetitivas, aumentando la productividad del equipo DevOps en un 40%.",
+      "Menos errores de implementación llevaron a un mayor tiempo de actividad de los entornos y menos retrocesos, asegurando un entorno de producción más estable."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Salud",
+        "industry": "Bienes Raíces",
+        "date": "17 de noviembre de 2024",
+        "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufactura",
+        "industry": "Salud",
+        "date": "14 de octubre de 2024",
+        "title": "Transformación de la Gestión de Casos Omnicanal usando Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Bienes Raíces",
+        "industry": "Manufactura",
+        "date": "04 de septiembre de 2024",
+        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares usando Servicios Gestionados de Yardi",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufactura",
+        "industry": "Venta Minorista y Comercio Electrónico",
+        "date": "08 de enero de 2025",
+        "title": "Transformación DevOps usando Copado y Salesforce",
+        "description": "Un fabricante líder especializado en materiales innovadores para construcción residencial y comercial.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Bienes Raíces",
+        "industry": "Alta Tecnología",
+        "date": "22 de diciembre de 2024",
+        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+        "description": "Una empresa de bienes raíces multifamiliares con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "mobileCaseStudy": {
+    "claimTitle": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones",
+    "manufacturing": "Fabricación",
+    "date": "30 mayo 2025",
+    "read": "8 min de lectura",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializados en productos duraderos e innovadores para espacios residenciales y comerciales, ofrecen una gama de tejas asfálticas, bases para techos, soluciones de impermeabilización y materiales compuestos para una protección y estética superiores.",
+    "challengesTitle": "Desafíos",
+    "challengesDesc": "Los clientes de nuestro cliente tenían dificultades para presentar reclamaciones de garantía desde sus dispositivos móviles, lo que les obligaba a utilizar computadoras de escritorio, un proceso incómodo y frustrante. Los clientes tenían que buscar apoyo adicional para completar sus reclamaciones. La falta de accesibilidad móvil provocaba retrasos, ineficiencias y un aumento en las solicitudes de soporte, lo que reducía la satisfacción del cliente y sobrecargaba las operaciones.",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Rialtes intervino para mejorar el proceso de reclamaciones de garantía desarrollando un portal con enfoque móvil usando Salesforce Experience Cloud. Nuestro equipo diseñó una interfaz fácil de usar específicamente para Android, iOS, iPads y tabletas, permitiendo a los clientes presentar reclamaciones en cualquier momento y desde cualquier lugar.",
+    "solutionsDescOne": "Construimos el portal utilizando Lightning Web Components (LWC) para garantizar una navegación fluida, un rendimiento rápido y un diseño sencillo y optimizado para pantallas táctiles. Esta experiencia mejorada permite a los clientes completar reclamaciones de garantía de forma rápida y sencilla.",
+    "solutionsDescTwo": "Nuestra solución mejora la satisfacción del cliente, optimiza las operaciones y garantiza una experiencia moderna y eficiente de reclamaciones en todos los dispositivos móviles.",
+    "benefitsTitle": "Beneficios",
+    "benifitList": [
+      "Compatibilidad total con dispositivos móviles, permitiendo a los clientes presentar reclamaciones desde teléfonos inteligentes y tabletas sin necesidad de una computadora de escritorio.",
+      "La experiencia de usuario simplificada provocó una reducción del 40% en los tickets de soporte relacionados con presentaciones de garantía.",
+      "Los clientes ahora pueden completar el proceso de reclamación de garantía en menos de 4 minutos, reduciendo el tiempo de procesamiento en más de un 60%.",
+      "La conveniencia del acceso móvil impulsó un aumento del 35% en las reclamaciones presentadas, mostrando mayor compromiso y uso.",
+      "La retroalimentación de los usuarios mostró una mejora del 25% en los puntajes de satisfacción, directamente vinculada a un procesamiento más rápido y facilidad de acceso.",
+      "La menor dependencia del soporte manual liberó a los equipos internos, reduciendo a la mitad el tiempo de manejo de reclamaciones y mejorando las tasas de respuesta."
+    ],
+
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Cuidado de la salud",
+        "industry": "Bienes raíces",
+        "date": "17 Nov 2024",
+        "title": "Automatización del procesamiento de pedidos en el cuidado de la salud utilizando MuleSoft",
+        "description": "Una empresa mundial de tecnología médica que desarrolla y fabrica productos innovadores.",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Fabricación",
+        "industry": "Cuidado de la salud",
+        "date": "14 Oct 2024",
+        "title": "Transformación de la gestión de casos omnicanal utilizando Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Bienes raíces",
+        "industry": "Fabricación",
+        "date": "04 Sept 2024",
+        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar utilizando servicios gestionados de Yardi",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Fabricación",
+        "industry": "Venta minorista y comercio electrónico",
+        "date": "08 Ene 2025",
+        "title": "Transformación de DevOps utilizando Copado y Salesforce",
+        "description": "Un fabricante líder especializado en la creación de materiales innovadores para proyectos de construcción residencial y comercial.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Bienes raíces",
+        "industry": "Alta tecnología",
+        "date": "22 Dic 2024",
+        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
+  },
+  "warrantyClaimCaseStudy": {
+    "warrantyTitle": "40% de Aumento en la Adopción de la Aplicación de Garantías Usando la Funcionalidad de Salesforce Experience Cloud",
+    "manufacturing": "Fabricación",
+    "date": "10 de junio de 2025",
+    "read": "Lectura de 8 min",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Un fabricante líder de productos para techos, reconocido por su innovación y calidad. Con décadas de experiencia, se especializa en tejas asfálticas, accesorios para techos, soluciones de impermeabilización y revestimientos para uso residencial y comercial. Comprometidos con la sostenibilidad, invierten en tecnologías avanzadas de fabricación y mantienen una amplia red de distribución, asegurando que constructores, contratistas y propietarios tengan acceso a soluciones de techado de primera calidad.",
+    "challengesTitle": "Desafíos",
+    "challengesDesc": "El cliente necesitaba un proceso estructurado para la presentación de reclamaciones de garantía, ya que no contaban con un sistema establecido. Requerían un portal fácil de usar integrado con Salesforce para agilizar las presentaciones de reclamaciones, asegurando al mismo tiempo una validación precisa de direcciones. Además, la falta de automatización para notificaciones y la integración fluida de datos con SAP y otros sistemas ERP generaba ineficiencias en el seguimiento y gestión de reclamaciones.",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Rialtes implementó un portal Salesforce Experience Builder con una interfaz basada en LWC para optimizar el proceso de presentación de reclamaciones de garantía. Para garantizar la captura precisa de direcciones, integramos la Validación de Direcciones de Google API.",
+    "solutionsDescOne": "Se llevaron a cabo flujos de trabajo automatizados que eliminaron la intervención manual, permitiendo un manejo fluido de las reclamaciones. Las notificaciones en tiempo real por correo electrónico y SMS mantuvieron a los clientes informados sobre el estado de su reclamación, mejorando la transparencia.",
+    "solutionsDescTwo": "Además, establecimos integraciones con SAP y ERP para un intercambio de datos fluido, reduciendo el esfuerzo manual y mejorando significativamente la eficiencia en el procesamiento de reclamaciones.",
+    "benefitsTitle": "Beneficios",
+    "benefitsList": [
+      "Redujo el tiempo de presentación de reclamaciones en un 60%, permitiendo a los clientes completar solicitudes en menos de 5 minutos a través del portal web intuitivo.",
+      "La validación de direcciones mediante Google API redujo las entradas incorrectas o incompletas en más del 85%, eliminando retrasos causados por correcciones manuales.",
+      "Los flujos de trabajo automatizados disminuyeron el procesamiento manual, liberando a los equipos internos para centrarse en tareas más estratégicas.",
+      "Las alertas en tiempo real por SMS y correo electrónico redujeron en un 40% las solicitudes de seguimiento de clientes, mejorando la transparencia y la satisfacción del cliente.",
+      "La sincronización de datos sin interrupciones con sistemas SAP y ERP permitió un seguimiento casi en tiempo real de las reclamaciones de garantía, aumentando la precisión del procesamiento y reduciendo a la mitad el tiempo de resolución de reclamaciones.",
+      "Una interfaz moderna basada en LWC mejoró la accesibilidad del usuario y redujo el tiempo de capacitación para los usuarios internos en un 30%."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Salud",
+        "industry": "Bienes Raíces",
+        "date": "17 Nov 2024",
+        "title": "Automatización del Procesamiento de Pedidos usando Mulesoft para Salesforce Health Cloud y SAP",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Bienes Raíces",
+        "industry": "Salud",
+        "date": "14 Oct 2024",
+        "title": "Gestión de casos omnicanal con Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Salud",
+        "industry": "Fabricación",
+        "date": "4 Sept 2024",
+        "title": "Servicios Gestionados de Yardi",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "SAP",
+        "industry": "Venta Minorista y Comercio Electrónico",
+        "date": "25 Oct 2024",
+        "title": "Optimización de DevOps usando Copado y Salesforce",
+        "description": "Un fabricante líder especializado en la creación de materiales innovadores para proyectos de construcción residenciales y comerciales.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Salesforce",
+        "industry": "Alta Tecnología",
+        "date": "25 Oct 2024",
+        "title": "Módulo Bancario RealForce - ACH",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
         "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]

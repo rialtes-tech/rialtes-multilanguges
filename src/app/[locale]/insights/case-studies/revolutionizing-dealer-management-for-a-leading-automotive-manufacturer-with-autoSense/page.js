@@ -176,7 +176,7 @@ export default function Page() {
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
                 {t("autoTitle")}
               </h2>
-              <p className="text-black pb-4">{t("autoDesc")}</p>
+              <p className="text-black pb-4 ">{t("autoDesc")}</p>
               <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">
                 {t("approachTitle")}
               </h3>
