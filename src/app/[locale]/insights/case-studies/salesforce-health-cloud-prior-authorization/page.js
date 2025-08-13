@@ -150,7 +150,6 @@ export default function Page() {
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
                 {t("problemTitle")}
               </h2>
-
               <p className="text-black pb-6">{t("problemDesc")}</p>
 
               <div className="pl-2">

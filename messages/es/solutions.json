@@ -1300,5 +1300,98 @@
     "contactTitle": "¿Listo para Transformar tu Viaje de Pruebas?",
     "contactSubTitle": "Permite que Rialtes te ayude a adoptar Tosca y la automatización de pruebas modernas para garantizar que cada versión sea de alta calidad, rápida y segura.",
     "ContactSubTitleOne": "Programa una consulta gratuita de Tosca, reserva una demostración o contacta con nuestros expertos. Por favor, completa el siguiente formulario."
+  },
+  "mulesoft": {
+    "MmuleSoftTitle": "Soluciones de Integración MuleSoft",
+    "digitalOne": "Conectando Negocios",
+    "digitaltwo": "Digitales utilizando la",
+    "digitalThree": "Plataforma MuleSoft",
+    "leadingTitle": "Plataforma líder para obtener una visión integrada de su negocio",
+    "leadingDesc": "Una solución de integración debe ayudar a las empresas a establecer conectividad y abordar los desafíos de integración. MuleSoft ofrece una plataforma de conectividad unificada, sin fricciones y preparada para el futuro para este propósito. Integre sistemas, aplicaciones y datos —locales y en la nube— para obtener visibilidad en tiempo real y agilidad para tomar decisiones y mantenerse a la vanguardia frente a las disrupciones.",
+    "unleashingTitle": "Impulsando la Transformación Digital con una Sólida Solución de Integración",
+    "serveTitle": "Industrias que Servimos",
+    "servicesTitle": "Nuestros servicios de integración MuleSoft atienden a una amplia gama de industrias",
+    "driveTitle": "Impulsar Resultados Empresariales Medibles",
+    "contactTitle": "Dé el siguiente paso hacia la excelencia operativa con los Servicios de Integración MuleSoft",
+    "pointsData": [
+      "Aproveche el poder de la integración para optimizar flujos de trabajo robustos",
+      "Ofrezca experiencias excepcionales al cliente",
+      "Reduzca los gastos de mantenimiento mientras mejora la eficiencia",
+      "Impulse la transformación operativa con estrategias de integración modernas",
+      "Una aplicaciones, dispositivos y datos en un ecosistema cohesivo"
+    ],
+    "serveData": [
+      {
+        "_id": 1,
+        "tittle": "Salud",
+        "descrip": "Garantice un intercambio fluido de datos de pacientes entre sistemas para una mejor atención."
+      },
+      {
+        "_id": 2,
+        "tittle": "Retail",
+        "descrip": "Conecte plataformas de comercio electrónico, sistemas de inventario y pasarelas de pago para una experiencia superior del cliente."
+      },
+      {
+        "_id": 3,
+        "tittle": "Finanzas",
+        "descrip": "Habilite el flujo de datos en tiempo real entre los sistemas bancarios para mejorar la eficiencia operativa y el cumplimiento."
+      },
+      {
+        "_id": 4,
+        "tittle": "Manufactura",
+        "descrip": "Integre la gestión de la cadena de suministro, ERP y sistemas IoT para optimizar la producción y la logística."
+      }
+    ],
+    "driveData": [
+      {
+        "_id": 1,
+        "percent": "63%",
+        "des": "Reducción en\nlos costos de mantenimiento"
+      },
+      {
+        "_id": 2,
+        "percent": "4x",
+        "des": "Tiempo de lanzamiento al mercado\nmás rápido para nuevas\naplicaciones y servicios"
+      },
+      {
+        "_id": 3,
+        "percent": "64%",
+        "des": "Mejora en\nla satisfacción del cliente"
+      }
+    ],
+    "cardData": [
+      {
+        "_id": 1,
+        "tittle": "Consultoría MuleSoft",
+        "descrip": "Obtenga información estratégica y orientación para desbloquear todo el potencial de MuleSoft. Realizamos una evaluación exhaustiva de su licencia de MuleSoft para garantizar que maximice su inversión y convierta los datos de su negocio en valiosos activos digitales."
+      },
+      {
+        "_id": 2,
+        "tittle": "Implementación de MuleSoft",
+        "descrip": "Ofrecemos soporte integral de MuleSoft desde la configuración hasta la puesta en marcha, alineado con los objetivos empresariales. Implemente capacidades empresariales (a través de API) para su reutilización futura y una entrega de proyectos más rápida."
+      },
+      {
+        "_id": 3,
+        "tittle": "Desarrollo de MuleSoft",
+        "descrip": "Ofrecemos un desarrollo de MuleSoft de primera calidad que mejora la productividad y acelera el crecimiento de su negocio. Nuestros servicios garantizan que su proceso de desarrollo de aplicaciones sea eficiente y flexible, permitiendo que su organización sea autosuficiente y ágil."
+      },
+      {
+        "_id": 4,
+        "tittle": "Capacitación en MuleSoft",
+        "descrip": "Apoyamos a su equipo durante el proceso de certificación con la experiencia de consultoría de MuleSoft, fomentamos el autoservicio y aceleramos la entrega de proyectos. Aproveche la formación oficial de MuleSoft adaptada a sus necesidades y casos de uso específicos."
+      },
+      {
+        "_id": 5,
+        "tittle": "Servicios de Soporte MuleSoft",
+        "descrip": "Maximice la eficiencia de MuleSoft con optimización de la plataforma, ajuste de rendimiento y soporte 24/7. Confíe en nosotros para garantizar que sus API críticas para el negocio funcionen sin problemas, permitiéndole enfocarse en su próxima iniciativa clave."
+      },
+      {
+        "_id": 6,
+        "tittle": "Migración de Mule 3 a 4",
+        "descrip": "Transición a Mule 4 con una mínima interrupción y tiempo de inactividad aprovechando las funciones avanzadas. Permita que su equipo se concentre en el desarrollo mientras nosotros gestionamos la migración."
+      }
+    ],
+    "integrationTitle": "Servicios de Integración MuleSoft Alineados con las Necesidades de su Negocio",
+    "integrationDesc": "Nuestros expertos ofrecen una amplia gama de servicios de MuleSoft que comparten su visión y valores."
   }
 }

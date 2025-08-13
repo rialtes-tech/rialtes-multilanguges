@@ -1535,5 +1535,109 @@
         "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]
-  }
+  },
+  "yardiManageCaseStudy": {
+  "yardiTitle": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
+  "realEstate": "Bienes Raíces",
+  "date": "04 septiembre 2024",
+  "read": "8 min de lectura",
+  "clientProfile": "Perfil del Cliente",
+  "clientDesc": "Una destacada empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Centrada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza el retorno para sus inversores.",
+  "businessTitle": "Desafío Empresarial",
+  "solutionsTitle": "Soluciones",
+  "solutionsDesc": "Rialtes, un proveedor de confianza de servicios gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
+  "benefitsTitle": "Beneficios",
+  "businessList": [
+    {
+      "title": "Silos de habilidades",
+      "description": "La dependencia de expertos individuales para cada plataforma generaba cuellos de botella. Cualquier indisponibilidad provocaba retrasos."
+    },
+    {
+      "title": "Escasez de talento",
+      "description": "Los mercados locales de contratación carecían de especialistas con profundo conocimiento del conjunto tecnológico específico del cliente."
+    },
+    {
+      "title": "Falta de supervisión centralizada",
+      "description": "Los proyectos estaban organizados de manera laxa, lo que limitaba la colaboración efectiva y el intercambio de conocimientos."
+    }
+  ],
+  "solutionList": [
+    {
+      "title": "Evaluación de capacidades",
+      "desc": "Se realizó una revisión exhaustiva del equipo interno del cliente e identificaron las brechas de habilidades."
+    },
+    {
+      "title": "Aumento de equipo",
+      "desc": "Se desplegaron recursos especializados para complementar el equipo interno del cliente, proporcionando soporte inmediato para Yardi, MRI y RealPage."
+    },
+    {
+      "title": "Transición colaborativa",
+      "desc": "El soporte inicial fue proporcionado de forma remota por el equipo técnico de Rialtes, pasando gradualmente a un modelo híbrido con responsabilidades compartidas."
+    },
+    {
+      "title": "Gestión integral",
+      "desc": "Tras un año exitoso, Rialtes asumió la plena responsabilidad de todos los sistemas relacionados—Yardi, RealPage, vivienda asequible, residencial y soporte comercial—ofreciendo un modelo integral de servicios gestionados."
+    }
+  ],
+  "benefitsList": [
+    "Con un modelo de seguimiento continuo, el cliente ahora recibe asistencia 24/7, asegurando cero tiempo de inactividad operativo en todas las zonas horarias.",
+    "La cobertura con múltiples recursos eliminó la dependencia de colaboradores individuales, aumentando la resiliencia del sistema en un 90 %.",
+    "Al introducir personal principal y de respaldo para todos los sistemas críticos, Rialtes redujo significativamente las interrupciones del servicio.",
+    "El aprovechamiento de recursos offshore redujo los costos en casi un tercio en comparación con mantener un equipo interno completo con sede en California.",
+    "El cliente obtuvo acceso bajo demanda a una amplia gama de habilidades en Yardi, MRI, RealPage e infraestructura sin la carga de contratar localmente."
+  ],
+  "slides": [
+    {
+      "id": 3,
+      "image": "/images/case-studies/case study 1_thumb_n.webp",
+      "category": "Salud",
+      "industry": "Bienes Raíces",
+      "date": "17 nov 2024",
+      "title": "Automatización del procesamiento de pedidos en el sector salud mediante MuleSoft",
+      "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
+      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+    },
+    {
+      "id": 4,
+      "image": "/images/case-studies/case-study-4_thumb.webp",
+      "category": "Manufactura",
+      "industry": "Salud",
+      "date": "14 oct 2024",
+      "title": "Transformación de la gestión de casos omnicanal mediante Salesforce Service Cloud",
+      "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
+      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+    },
+    {
+      "id": 6,
+      "image": "/images/case-studies/case-study-6_thumb.webp",
+      "category": "Bienes Raíces",
+      "industry": "Manufactura",
+      "date": "04 sept 2024",
+      "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
+      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
+      "url": "insights/case-studies/yardi-managed-services"
+    },
+    {
+      "id": 7,
+      "image": "/images/case-studies/case study 3_thumb_n.webp",
+      "category": "Manufactura",
+      "industry": "Venta minorista y comercio electrónico",
+      "date": "08 ene 2025",
+      "title": "Transformación DevOps utilizando Copado y Salesforce",
+      "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
+      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+    },
+    {
+      "id": 8,
+      "image": "/images/case-studies/case-study-2_thumb_n.webp",
+      "category": "Bienes Raíces",
+      "industry": "Alta tecnología",
+      "date": "22 dic 2024",
+      "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
+      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
+      "url": "insights/case-studies/realForce-banking-module-ach"
+    }
+  ]
+}
+
 }

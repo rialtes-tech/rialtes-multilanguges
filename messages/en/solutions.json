@@ -1,1319 +1,1403 @@
 {
-    "sapBdc": {
-        "headerTitle": "SAP Business Data Cloud",
-        "headerSubtitle": "Unlock the Future of Data with SAP Business Data Cloud",
-        "unifyTitle": "Unify Your Enterprise Data From Finance to Frontline",
-        "unifyDesc": "Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate",
-        "listItems": [
-            "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
-            "Workforce and Payroll Intelligence from SAP SuccessFactors",
-            "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
-        ],
-        "listDesc": "Whether you’re optimizing profitability, driving operational efficiency, or delivering personalized customer experiences, SAP Business Data Cloud, implemented by Rialtes, gives you a unified and contextualized view of your enterprise landscape.",
-        "dataTitle": "A Unified, Open Data Foundation for Intelligent Enterprises",
-        "dataSubtitleOne": "SAP Business Data Cloud enhances enterprise data management by combining SAP’s data platform capabilities with native integration for SAP applications and compatibility with third-party platforms like Databricks, Google BigQuery, and Snowflake. It enables the unification of business context and data for real-time insights and AI-driven decisions.",
-        "dataSubtitleTwo": "As a SAP Authorized Partner and a Databricks Strategic Partner, Rialtes empowers organizations to seamlessly adopt SAP Business Data Cloud and unlock the full value of their enterprise data.",
-        "fabricTitle": "SAP Data Fabric",
-        "fabricSubtitle": "Powered by SAP Business Data Cloud",
-        "fabricDesc": "The SAP Data Fabric acts as a smart, connected data layer across your organization. It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.",
-        "fabricPara": "With SAP Data Fabric, you can:",
-        "fabricList": [
-            "Connect live and replicated data across multi-cloud and hybrid landscapes",
-            "Unify semantic definitions across domains and systems",
-            "Ensure trusted data governance and lineage across all business functions",
-            "Accelerate AI, planning, and analytics with clean, context-rich data"
-        ],
-        "sapTitle": "Why Choose SAP Business Data Cloud?",
-        "learnMore": "Learn More",
-        "dataItems": [
-            {
-                "title": "Business-Ready Data",
-                "desc": "Access and connect data from SAP and non-SAP systems while retaining rich business semantics and context."
-            },
-            {
-                "title": "Open Ecosystem Integration",
-                "desc": "Integrate with leaders like Databricks, BigQuery, and AWS using open standards and APIs."
-            },
-            {
-                "title": "Unified Governance & Security",
-                "desc": "Manage data securely across all layers with enterprise-grade governance and lineage."
-            },
-            {
-                "title": "AI & ML Enabled",
-                "desc": "Power advanced analytics and AI-driven scenarios using embedded machine learning services."
-            }
-        ],
-        "partnerTitle": "Rialtes: Your Trusted SAP & Databricks Partner",
-        "partnerDesc": " Rialtes specializes in data cloud architecture, implementation, and governance with a team of SAP-certified engineers. We integrate process intelligence, data engineering, and cloud development to deliver measurable value from your enterprise data. Our certified teams assist you in:",
-        "partnerList": [
-            "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
-            " Workforce and Payroll Intelligence from SAP SuccessFactors",
-            "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
-        ],
-        "migrationTitle": "Seamless Migration from SAP Business Warehouse to SAP Business Data Cloud",
-        "migrationPara": " Modernize your analytics and accelerate cloud transformation:",
-        "exploreData": [
-            {
-                "title": "Assessment & Roadmapping",
-                "desc": " Analyze your existing SAP BW models and data flows to build a tailored migration strategy"
-            },
-            {
-                "title": "Automated Data Replication",
-                "desc": " Use SAP-provided migration tools and Rialtes accelerators to transition existing logic and semantics to SAP Business Data Cloud."
-            },
-            {
-                "title": "Preserve Business Logic",
-                "desc": "Retain existing business metadata and KPIs for faster time-to-value."
-            },
-            {
-                "title": "Improve Performance & Agility",
-                "desc": " Leverage cloud-native capabilities for real-time data consumption and visualization."
-            }
-        ],
-        "migrateTitle": "Migrate from SAP Datasphere to SAP Business Data Cloud",
-        "migrateDesc": "SAP Business Data Cloud brings the next-generation capabilities of Datasphere under a unified data architecture. Rialtes makes this transition frictionless:",
-        "migrateData": [
-            {
-                "title": "Data Mapping & Reconciliation",
-                "description": "We help map your current artifacts and pipelines from SAP Datasphere to SAP Business Data Cloud"
-            },
-            {
-                "title": "Business Context Retention",
-                "description": "Ensure all metadata, lineage, and context are preserved during the shift"
-            },
-            {
-                "title": "Open Extension",
-                "description": "Connect to external platforms like Databricks for advanced analytics and ML integration."
-            },
-            {
-                "title": "Future-Proof Architecture",
-                "description": "Establish a foundation for scalable AI, reporting, and cross-system data modeling."
-            }
-        ],
-        "databricksTitle": "Connect SAP Business Data Cloud with Databricks",
-        "databricksDesc": "As a certified Databricks consulting partner, Rialtes helps you:",
-        "connectSapData": [
-            "Establish bi-directional data pipelines between SAP and Databricks",
-            "Use Delta Lake and MLFlow with SAP semantic models ",
-            "Enable real-time predictive insights using SAP business context ",
-            "Create industry-specific AI models using unified data across platforms"
-        ],
-        "dataCloud": "Our SAP Business Data Cloud Services",
-        "ourSapData": [
-            {
-                "title": "Consulting & Advisory",
-                "description": "Align your data strategy with business objectives and cloud roadmaps."
-            },
-            {
-                "title": "Implementation & Migration",
-                "description": "From BW and Datasphere to Business Data Cloud with full lifecycle support."
-            },
-            {
-                "title": "Managed Services & Optimization",
-                "description": "24x7 support, data quality monitoring, and optimization for performance and cost."
-            }
-        ],
-        "clientsTitle": "Why Clients Choose Rialtes",
-        "whyClientsData": [
-            "SAP-Certified Implementation Experts ",
-            "Official SAP & Databricks Partner",
-            "Accelerators for BW and Datasphere Migration",
-            "Global Delivery with 24x7 Support",
-            "Industry-Specific Data Frameworks for Life Sciences,Retail, Automotive & More"
-        ],
-        "contactTitle": "Let’s Build Your Enterprise Data Cloud Together",
-        "SubTitle": "Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."
-    },
-    "salesforceDataCloud": {
-        "headerTitle": "Data Cloud",
-        "headerSubtitle": "Harness the Potential of Salesforce Data Cloud",
-        "headerDesc": "Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM",
-        "pageDescTitle": "What Is Salesforce Data Cloud?",
-        "pageDesc1": "Businesses are flooded with vast amounts of data from an increasing array of systems, sources, and platforms. The sheer scale and diversity of this data can be overwhelming, leaving organizations to manage and navigate through countless records daily.",
-        "pageDesc2": "Salesforce Data Cloud is designed to assist businesses in consolidating customer data from various touchpoints. Combining data from multiple sources helps create a unified 360-degree view of each customer, fostering more personalized and effective marketing campaigns.",
-        "creatingTitle": "Creating Personalized & Impactful Customer Experiences for Your Business",
-        "unitedTitle": " Unite Your Entire Organization around Delivering an Enhanced Customer Experience.",
-        "ourSalesforceTitle": "Our Salesforce Data Cloud Services",
-        "contactTitle": "Take the next step to operational excellence with us.",
-        "featureBoxes": [
-            {
-                "icon": "/images/data-cloud/customer-360-view.svg",
-                "title": "Customer 360 View",
-                "description": "Integrate customer data across business units to build, for both real-time, omni-channel marketing, transactional personalization, content, subscription, and e-commerce."
-            },
-            {
-                "icon": "/images/data-cloud/zero-copy-integration.svg",
-                "title": "Zero Copy Integration",
-                "description": "Connect your databases, applications with zero copying delays and share data among multiple data sources on demand. No ETL, eliminate ingestion costs and keeping down operational costs."
-            },
-            {
-                "icon": "/images/data-cloud/real-time-data-processing.svg",
-                "title": "Real-time Data Processing",
-                "description": "Processes in real-time and drives data-driven decision-making, optimize inventory management, influence services, improve customer satisfaction, add trusted promotions and recommendations in real-time."
-            },
-            {
-                "icon": "/images/data-cloud/omnichannel-engagement.svg",
-                "title": "Omnichannel Engagement",
-                "description": "Build brand loyalty and trust by ensuring consistent experiences by managing data and service channels."
-            },
-            {
-                "icon": "/images/data-cloud/privacy-and-compliance.svg",
-                "title": "Privacy and Compliance",
-                "description": "Monitor transactions, protect third-party relationships and data usage, adhering to GDPR and CCPA."
-            },
-            {
-                "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
-                "title": "Personalized Marketing Campaigns",
-                "description": "Leverage unified customer profiles to deliver tailored and timely 1:1 targeted campaigns, seamless and secure omnichannel interactions that drive conversion rates."
-            }
-        ],
-        "stats": [
-            {
-                "percentage": "67%",
-                "description": "Tech resources freed up"
-            },
-            {
-                "percentage": "79%",
-                "description": "Companies witnessed a reduction in cost"
-            },
-            {
-                "percentage": "77%",
-                "description": "Organizations save 2 hours a week"
-            }
-        ],
-        "services": [
-            {
-                "id": 1,
-                "image": "/images/data-cloud/managed-cloud-services.webp",
-                "title": "Managed Cloud Services",
-                "description": "With a comprehensive suite of managed services for both public, private, and hybrid cloud environments, empower enterprises to optimize their entire cloud infrastructure and applications."
-            },
-            {
-                "id": 2,
-                "image": "/images/data-cloud/private-cloud-services.webp",
-                "title": "Private Cloud Services",
-                "description": "Experience the ideal blend of cloud flexibility with the utmost data compliance, and security of private infrastructure - providing you an isolation from the public cloud enterprise workloads."
-            },
-            {
-                "id": 3,
-                "image": "/images/data-cloud/data-cloud-consulting.webp",
-                "title": "Data Cloud Consulting",
-                "description": "Tailored recommendations, best practices and certified expertise in maximizing the value of Salesforce Data Cloud within your organization."
-            },
-            {
-                "id": 4,
-                "image": "/images/data-cloud/data-cloud-migration.webp",
-                "title": "Data Cloud Migration",
-                "description": "Develop and implement the best practices for securely and efficiently migrate the composition of cloud workloads from any environment with expert assessments and seamless workload migration solutions."
-            },
-            {
-                "id": 5,
-                "image": "/images/data-cloud/data-cloud-implementation.webp",
-                "title": "Data Cloud Implementation",
-                "description": "Set up the necessary infrastructure, configure data sources, and ensure that your organization can fully utilize Salesforce Data Cloud."
-            }
-        ]
-    },
-    "datasphere": {
-        "headerTitle": "SAP Datasphere",
-        "headerSubtitle": "Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere",
-        "pageDescTitle": "Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration",
-        "pageDesc1": "In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.",
-        "pageDesc2": "With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.",
-        "whyRialtesTitle": "Why Rialtes?",
-        "whyRialtesSubTitle": "Your AI-Powered SAP Datasphere Partner for End-to-End Success",
-        "whyrialtessectiondata": [
-            "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
-            "Industry-first AI/ML data models and accelerators for rapid value realization.",
-            "Tailored integrations with SAP S/4HANA, SuccessFactors, Ariba, Salesforce, Oracle, and more.",
-            "Real-time data governance, compliance, and security frameworks.",
-            "Offices in the US, Canada, Singapore, and India, delivering global expertise with local precision."
-        ],
-        "industryAcceleratorsData": [
-            "AI-powered Manufacturing production and inventory optimization.",
-            "Semiconductor-specific yield, demand, and supply chain analytics.",
-            "Automotive customer lifecycle and parts analytics.",
-            "Retail customer behavior, inventory, and sales insights.",
-            "Education student lifecycle analytics and faculty insights.",
-            "HR workforce performance and diversity analytics."
-        ],
-        "buildIntelligentData": [
-            "Centralized, AI-ready data lakes combining SAP and non-SAP applications.",
-            "Seamless, real-time data pipelines for live analytics and AI/ML models.",
-            "Full data lineage, governance, and compliance support.",
-            "Future-proof platform for AI/ML predictive and prescriptive analytics."
-        ],
-        "buildTitle": "Build an Intelligent Data Lake with SAP Datasphere",
-        "unifiedTitle": "Your Unified, AI-Driven Business Engine",
-        "unlockTitle": " Unlock End-to-End Visibility and Actionable AI Insights",
-        "buildDesc": "Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.",
-        "keyBenefitsTitle": "Key Benefits:",
-        "industryTitle": "Industry-Accelerators",
-        "industrySubTitle1": "Fast-Track AI Success in Your Industry",
-        "industrySubTitle2": "Pre-Built Connectors & AI Models to Accelerate Your Transformation",
-        "industryDesc": "Rialtes’ pre-delivered accelerators make AI data consolidation seamless and impactful. Designed specifically for Manufacturing, Semiconductor, Automotive, Retail, Education, and HR industries, these plug-and-play solutions help you gain immediate business value.",
-        "industrySubTitle3": "Industry-Focused Capabilities:",
-        "intelligentData": [
-            "Seamless integration of dealer, customer, IoT/telematics, and ERP data.",
-            "Predictive maintenance, warranty management, and AI-based customer retention.",
-            "Insights for new product development and targeted marketing campaigns."
-        ],
-        "intelligentTitle": "Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value",
-        "intelligentSubTitle": "Drive the Future of Automotive with AI-Integrated Insights",
-        "intelligentDesc": "Unlock AI for better vehicle performance, customer experience, and market growth.",
-        "aiReadyData": [
-            "AI-driven predictive maintenance, yield forecasting, and supplier analytics.",
-            "Unified supply chain, production, and demand data for real-time decisions.",
-            "Real-time KPI dashboards to drive operational excellence and cost savings."
-        ],
-        "aiReadyTitle": "AI-Ready Manufacturing & Semiconductor Data Lake",
-        "aiReadySubTitle1": "Precision-Driven Performance",
-        "aiReadySubTitle2": "Optimize Production, Supply Chain, and Maintenance",
-        "aiReadyDesc": " Stay competitive with AI-powered, data-driven manufacturing intelligence.",
-        "omniSectionData": [
-            "Consolidated view of customer, sales, inventory, and marketing data.",
-            "AI/ML-powered segmentation, churn prediction, and demand forecasting.",
-            "Real-time stock and fulfillment analytics to improve margins."
-        ],
-        "educationSectionData": [
-            "AI-driven analytics for student retention, performance, and engagement.",
-            "Faculty productivity, curriculum insights, and administrative reporting.",
-            "Financial performance and compliance analytics made easy."
-        ],
-        "omniTitle": "Omnichannel Retail Data Intelligence",
-        "omniSubTitle": "Personalize, Optimize, and Win Customers",
-        "omniDesc": "Empower retail with hyper-personalized experiences and optimized operations.",
-        "smartEducationTitle": "Smart Education Data Platforms",
-        "smartEducationSubTitle": "Driving Student Success with AI",
-        "smartEducationSubTitle1": "From Enrollment to Alumni — AI-Powered Student Journeys",
-        "smartEducation": "Future-proof education with AI insights to enhance student outcomes.",
-        "aiPoweredData": [
-            "Unify employee data across SuccessFactors, Oracle, Workday, and more.",
-            "AI-driven analytics for recruitment, retention, diversity, and workforce planning.",
-            "Real-time dashboards for leadership decision-making."
-        ],
-        "aiPoweredTitle": " AI-Powered HR Analytics Hub",
-        "aiPoweredSubTitle1": "Redefine Workforce Intelligence",
-        "aiPoweredSubTitle2": "Smarter People Decisions with AI",
-        "aiPoweredHrDesc": "Take HR to the next level with AI-powered talent management and compliance.",
-        "sapAribaData": [
-            "Real-time procurement, spend, and supplier risk insights.",
-            "AI for predictive sourcing, supplier scoring, and risk analysis.",
-            "Comprehensive contract and spend analytics."
-        ],
-        "endToEndTitle1": "End-to-End Integration — ",
-        "endToEndTitle2": "Real-Time Data Unification",
-        "endToEndSubTitle1": " SAP Ariba + SAP Datasphere",
-        "endToEndSubTitle2": "Procurement Intelligence at Scale",
-        "sapHanaData": [
-            "Unified financials, operations, and logistics data.",
-            "Real-time business health and performance analytics.",
-            "AI-powered demand forecasting and cost analysis."
-        ],
-        "sapHanaTitle": " SAP S/4HANA + SAP Datasphere",
-        "sapHanaSubTitle": "Enterprise Data Mastery",
-        "sapSuccessData": [
-            "End-to-end talent lifecycle visibility.",
-            "AI for workforce trends, diversity, and attrition prediction.",
-            "Enhanced leadership dashboards with real-time workforce data."
-        ],
-        "sapSuccessFactorTitle": "SAP SuccessFactors + SAP Datasphere",
-        "sapSuccessFactorSubTitle": "HR Data Reimagined",
-        "salesforcesapData": [
-            "Unified sales, service, and marketing data for deep insights.",
-            "AI-driven customer retention, cross-sell, and upsell models.",
-            "Real-time journey mapping and customer lifecycle management."
-        ],
-        "salesforceSapTitle": "Salesforce + SAP Datasphere",
-        "salesforceSapSubTitle": "AI-Enhanced Customer 360",
-        "advancedData": [
-            "Build stunning, interactive dashboards for leadership and teams.",
-            "AI-infused visualizations for trend spotting and scenario planning.",
-            "Instant visibility into KPIs and performance indicators."
-        ],
-        "advancedTitle": "Advanced Data Visualization",
-        "advancedSubTitle1": "Make Data Speak with SAP Analytics Cloud and Tableau",
-        "advancedSubTitle2": "From Raw Data to Actionable Intelligence",
-        "advenacedDesc": "Transform data into strategic insights that drive results.",
-        "aiPoweredUseData": [
-            "AI for predictive maintenance and quality assurance in manufacturing.",
-            "Personalized customer experiences in retail using AI segmentation.",
-            "AI-driven recruitment and diversity planning in HR.",
-            "Predictive student success models in education."
-        ],
-        "aiPoweredUseTitle": "AI-Powered Use Cases",
-        "aiPoweredUseSubTitle": "Accelerating Innovation",
-        "aiPoweredUseDesc": "AI brings the future of decision-making to your fingertips.",
-        "globalPresenceData": [
-            "Certified SAP Datasphere and AI/ML experts delivering end-to-end solutions.",
-            "Agile SCRUM-certified project managers for high-speed, iterative delivery.",
-            "Global delivery model with offices in the US, Canada, Singapore, and India.",
-            "Deep domain expertise in Manufacturing, Automotive, Semiconductor, Retail, HR, and Education."
-        ],
-        "globalPresenceTitle": "Global Presence, Certified Expertise, Agile Excellence"
-    },
-    "sapConsulting": {
-        "headerTitle": "SAP Consulting",
-        "headerSubTitle1": "Leaning towards",
-        "headerSubTitle2": "a better tomorrow.",
-        "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
-        "solutionSuccess": [
-            {
-                "id": 1,
-                "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
-                "title": "RISE with SAP",
-                "description": "RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system.",
-                "productsDetails": [
-                    "SAP S/4HANA Migration",
-                    "Robotic Process Automation",
-                    "Conversational Chatbot",
-                    "Customized Application"
-                ],
-                "knowMore": "/services/business-transformation/rise-with-sap-services"
-            },
-            {
-                "id": 2,
-                "imageUrl": "/images/sap-consulting/thumb 1.webp",
-                "title": "GROW with SAP",
-                "description": "Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably",
-                "productsDetails": [
-                    "Accelerate Your Digital Transformation",
-                    "Flexible and Scalable ERP Solutions",
-                    "Increase in operational efficiency",
-                    "Integrated AI and automation",
-                    "Flexible Pricing Options"
-                ],
-                "knowMore": "/services/business-transformation/grow-with-sap-services"
-            },
-            {
-                "id": 3,
-                "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
-                "title": "SuccessFactors",
-                "description": "SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.",
-                "productsDetails": [
-                    "Employee Central & Employee Central Payroll",
-                    "Talent Acquisition",
-                    "SAP HR Analytics and Workforce Planning",
-                    "SAP Learning Management"
-                ],
-                "knowMore": "/services/hxm-transformation/successplus-successfactors-implementation-partner"
-            },
-            {
-                "id": 4,
-                "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
-                "title": "SAP Ariba",
-                "description": "Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management",
-                "productsDetails": [
-                    "Procurement and supply chain metrics",
-                    "Improved accuracy of operational task",
-                    "Effective compliance management",
-                    "Automation of time-consuming processes",
-                    "Increased visibility of tail-end spend"
-                ],
-                "knowMore": "/services/spend-management/sapbuyplus-ariba-implementation-partner"
-            }
-        ],
-        "pageDescTitle": "Leverage SAP Consulting Services for Reliable Business Operations",
-        "pageDesc": "What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.",
-        "ourSolutionTitle": "Our Solutions to Success",
-        "sapInustryTitle": "SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations",
-        "riseWithSapTitle": "RISE with SAP",
-        "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
-        "contactTitle": "Take the next step to operational excellence with us."
-    },
-    "agentForce": {
-        "headerTitle": "Agentforce",
-        "headerDesc": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
-                "headerOne": "Salesforce Agentforce:",
-        "headerTwo": "What You Need To Know",
-        "headerParaOne": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
-        "headerParaTwo": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
-        "manageTitle": "Manage Customer Inquiries and Streamline Employee Tasks Around the Clock",
-        "salesForce": [
-            {
-                "id": 1,
-                "imageUrl": "/images/salesforce-consulting-services/achive1.svg",
-                "title": "Autonomous operation within customized guardrails"
-            },
-            {
-                "id": 2,
-                "imageUrl": "/images/salesforce-consulting-services/achive2.svg",
-                "title": "Real-time data adaptation"
-            },
-            {
-                "id": 3,
-                "imageUrl": "/images/salesforce-consulting-services/achive3.svg",
-                "title": "Seamless integration with employees"
-            },
-            {
-                "id": 4,
-                "imageUrl": "/images/salesforce-consulting-services/achive4.svg",
-                "title": "Low-code tools for customization and deployment"
-            }
-        ],
-        "leverageTitle": "Leverage cutting-edge technologies to deliver innovative solutions with Agentforce",
-        "salesForce2": [
-            {
-                "id": 1,
-                "title": "Agentforce Data Cloud",
-                "description": "Unify and harmonize customer data across systems in real time."
-            },
-            {
-                "id": 2,
-                "title": "Agent Builder",
-                "description": "Low-code builder for Agentforce, which includes Prompt Builder and Model Builder."
-            },
-            {
-                "id": 3,
-                "title": "Atlas Reasoning Engine",
-                "description": "The brain of Agentforce agents automates agents’ actions to respond naturally and adapt to situations."
-            },
-            {
-                "id": 4,
-                "title": "Partner Network",
-                "description": "A group of leading partners extends Agentforce with new agent actions through the Salesforce AppExchange."
-            }
-        ],
-        "blocksTitle": "The Building Blocks to Configure Your Agentforce Agent",
-        "agentBlocks": [
-            {
-                "title": "Agent Builder",
-                "description": "Create and customize your own agents with low-code",
-                "image": "/images/salesforce-consulting-services/Agent Builder.svg"
-            },
-            {
-                "title": "Prompt Builder",
-                "description": "Supercharge every workflow with trusted AI prompts",
-                "image": "/images/salesforce-consulting-services/achive1.svg"
-            },
-            {
-                "title": "Model Builder",
-                "description": "Build, train, and deploy custom AI models externally using data in Salesforce.",
-                "image": "/images/salesforce-consulting-services/Model Builder.svg"
-            }
-        ],
-        "industryTitle": "Industry-specific Benefits That We Bring to Our Clients",
-        "industryBenifite": [
-            {
-                "id": 1,
-                "imageUrl": "/images/salesforce-consulting-services/benif1.webp",
-                "title": "Sales",
-                "description": "Automate lead qualification, booking appointments, and nurturing leads."
-            },
-            {
-                "id": 2,
-                "imageUrl": "/images/salesforce-consulting-services/cusser.webp",
-                "title": "Customer Service",
-                "description": "Manage tickets, resolve inquiries, and provide 24/7 support."
-            },
-            {
-                "id": 3,
-                "imageUrl": "/images/salesforce-consulting-services/Marketing.webp",
-                "title": "Marketing",
-                "description": "Run automated campaigns that adapt based on performance metrics."
-            },
-            {
-                "id": 4,
-                "imageUrl": "/images/salesforce-consulting-services/Insurance and financial services.webp",
-                "title": "Insurance and financial services",
-                "description": "Utilize Agentforce to access crucial client data on the go."
-            },
-            {
-                "id": 5,
-                "imageUrl": "/images/salesforce-consulting-services/Healthcare and life sciences.webp",
-                "title": "Healthcare and life sciences",
-                "description": "Engage with patients, providers, and payers to act across multiple channels."
-            }
-        ],
-         "slides" : [
-        {
-            "id": 1,
-            "image": "/images/blog/blog-1-long-thumb.webp",
-            "industry": "Generic",
-            "date": "30 Sept 2024",
-            "heading": "How Agentforce works",
-            "url": "insights/blogs/how-salesforce-agentforce-actually-works",
-            "title": "How Salesforce Agentforce Actually Works"
-        },
-        {
-            "id": 2,
-            "image": "/images/blog/blog-2-long-thumb.webp",
-            "industry": "Generic",
-            "date": "21 Oct 2024",
-            "heading": "Atlas Reasoning Engine",
-            "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
-            "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
-        },
-        {
-            "id": 3,
-            "image": "/images/blog/blog-3-long-thumb.webp",
-            "industry": "Generic",
-            "date": "28 Oct 2024",
-            "heading": "Agents vs. Copilots vs. Bots",
-            "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
-            "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
-        },
-        {
-            "id": 4,
-            "image": "/images/blog/blog-4-long-thumb.webp",
-            "industry": "Generic",
-            "date": "25 Nov 2024",
-            "heading": "Agentforce Testing Center",
-            "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
-            "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
-        },
-        {
-            "id": 11,
-            "image": "/images/blog/blog-12-long-thumb.webp",
-            "industry": "Generic",
-            "date": "17 Sept 2024",
-            "heading": "Integrate Agenforce with Your ERP",
-            "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
-            "title": "Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
-        },
-        {
-            "id": 12,
-            "image": "/images/blog/blog-11-long-thumb.webp",
-            "industry": "Generic",
-            "date": "17 Sept 2024",
-            "heading": "Slack Collaboration with Agentforce",
-            "url": "insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce",
-            "title": "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce"
-        },
-        {
-            "id": 14,
-            "image": "/images/blog/blog-14-long-thumb.webp",
-            "industry": "Generic",
-            "date": "17 Sept 2024",
-            "heading": "Top Features of Agentforce",
-            "url": "insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should",
-            "title": "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
-        }
+  "sapBdc": {
+    "headerTitle": "SAP Business Data Cloud",
+    "headerSubtitle": "Unlock the Future of Data with SAP Business Data Cloud",
+    "unifyTitle": "Unify Your Enterprise Data From Finance to Frontline",
+    "unifyDesc": "Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate",
+    "listItems": [
+      "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+      "Workforce and Payroll Intelligence from SAP SuccessFactors",
+      "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
     ],
-    "contactTitle":"Take the next step to operational excellence with us."
-    },
-    "oracle": {
-        "data": [
-            {
-                "img": "/images/oracle-ebs/20 yrs ERP.svg",
-                "text": "20+ years of ERP expertise with Fortune 500 clients."
-            },
-            {
-                "img": "/images/oracle-ebs/oracle certify.svg",
-                "text": "Certified Oracle and Kinaxis partner with real industry insights."
-            },
-            {
-                "img": "/images/oracle-ebs/global delivery.svg",
-                "text": "Global delivery with localized expertise in India, US, Canada, and Singapore."
-            },
-            {
-                "img": "/images/oracle-ebs/transformation.svg",
-                "text": "Proven track record of end-to-end Oracle EBS transformations."
-            },
-            {
-                "img": "/images/oracle-ebs/AI approach.svg",
-                "text": "AI and Data-first approach for future-ready operations."
-            }
+    "listDesc": "Whether you’re optimizing profitability, driving operational efficiency, or delivering personalized customer experiences, SAP Business Data Cloud, implemented by Rialtes, gives you a unified and contextualized view of your enterprise landscape.",
+    "dataTitle": "A Unified, Open Data Foundation for Intelligent Enterprises",
+    "dataSubtitleOne": "SAP Business Data Cloud enhances enterprise data management by combining SAP’s data platform capabilities with native integration for SAP applications and compatibility with third-party platforms like Databricks, Google BigQuery, and Snowflake. It enables the unification of business context and data for real-time insights and AI-driven decisions.",
+    "dataSubtitleTwo": "As a SAP Authorized Partner and a Databricks Strategic Partner, Rialtes empowers organizations to seamlessly adopt SAP Business Data Cloud and unlock the full value of their enterprise data.",
+    "fabricTitle": "SAP Data Fabric",
+    "fabricSubtitle": "Powered by SAP Business Data Cloud",
+    "fabricDesc": "The SAP Data Fabric acts as a smart, connected data layer across your organization. It provides a consistent foundation for accessing, modeling, and governing enterprise data with business context intact.",
+    "fabricPara": "With SAP Data Fabric, you can:",
+    "fabricList": [
+      "Connect live and replicated data across multi-cloud and hybrid landscapes",
+      "Unify semantic definitions across domains and systems",
+      "Ensure trusted data governance and lineage across all business functions",
+      "Accelerate AI, planning, and analytics with clean, context-rich data"
+    ],
+    "sapTitle": "Why Choose SAP Business Data Cloud?",
+    "learnMore": "Learn More",
+    "dataItems": [
+      {
+        "title": "Business-Ready Data",
+        "desc": "Access and connect data from SAP and non-SAP systems while retaining rich business semantics and context."
+      },
+      {
+        "title": "Open Ecosystem Integration",
+        "desc": "Integrate with leaders like Databricks, BigQuery, and AWS using open standards and APIs."
+      },
+      {
+        "title": "Unified Governance & Security",
+        "desc": "Manage data securely across all layers with enterprise-grade governance and lineage."
+      },
+      {
+        "title": "AI & ML Enabled",
+        "desc": "Power advanced analytics and AI-driven scenarios using embedded machine learning services."
+      }
+    ],
+    "partnerTitle": "Rialtes: Your Trusted SAP & Databricks Partner",
+    "partnerDesc": " Rialtes specializes in data cloud architecture, implementation, and governance with a team of SAP-certified engineers. We integrate process intelligence, data engineering, and cloud development to deliver measurable value from your enterprise data. Our certified teams assist you in:",
+    "partnerList": [
+      "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+      " Workforce and Payroll Intelligence from SAP SuccessFactors",
+      "Sales, Service, and Marketing Insights from Salesforce or SAP CX"
+    ],
+    "migrationTitle": "Seamless Migration from SAP Business Warehouse to SAP Business Data Cloud",
+    "migrationPara": " Modernize your analytics and accelerate cloud transformation:",
+    "exploreData": [
+      {
+        "title": "Assessment & Roadmapping",
+        "desc": " Analyze your existing SAP BW models and data flows to build a tailored migration strategy"
+      },
+      {
+        "title": "Automated Data Replication",
+        "desc": " Use SAP-provided migration tools and Rialtes accelerators to transition existing logic and semantics to SAP Business Data Cloud."
+      },
+      {
+        "title": "Preserve Business Logic",
+        "desc": "Retain existing business metadata and KPIs for faster time-to-value."
+      },
+      {
+        "title": "Improve Performance & Agility",
+        "desc": " Leverage cloud-native capabilities for real-time data consumption and visualization."
+      }
+    ],
+    "migrateTitle": "Migrate from SAP Datasphere to SAP Business Data Cloud",
+    "migrateDesc": "SAP Business Data Cloud brings the next-generation capabilities of Datasphere under a unified data architecture. Rialtes makes this transition frictionless:",
+    "migrateData": [
+      {
+        "title": "Data Mapping & Reconciliation",
+        "description": "We help map your current artifacts and pipelines from SAP Datasphere to SAP Business Data Cloud"
+      },
+      {
+        "title": "Business Context Retention",
+        "description": "Ensure all metadata, lineage, and context are preserved during the shift"
+      },
+      {
+        "title": "Open Extension",
+        "description": "Connect to external platforms like Databricks for advanced analytics and ML integration."
+      },
+      {
+        "title": "Future-Proof Architecture",
+        "description": "Establish a foundation for scalable AI, reporting, and cross-system data modeling."
+      }
+    ],
+    "databricksTitle": "Connect SAP Business Data Cloud with Databricks",
+    "databricksDesc": "As a certified Databricks consulting partner, Rialtes helps you:",
+    "connectSapData": [
+      "Establish bi-directional data pipelines between SAP and Databricks",
+      "Use Delta Lake and MLFlow with SAP semantic models ",
+      "Enable real-time predictive insights using SAP business context ",
+      "Create industry-specific AI models using unified data across platforms"
+    ],
+    "dataCloud": "Our SAP Business Data Cloud Services",
+    "ourSapData": [
+      {
+        "title": "Consulting & Advisory",
+        "description": "Align your data strategy with business objectives and cloud roadmaps."
+      },
+      {
+        "title": "Implementation & Migration",
+        "description": "From BW and Datasphere to Business Data Cloud with full lifecycle support."
+      },
+      {
+        "title": "Managed Services & Optimization",
+        "description": "24x7 support, data quality monitoring, and optimization for performance and cost."
+      }
+    ],
+    "clientsTitle": "Why Clients Choose Rialtes",
+    "whyClientsData": [
+      "SAP-Certified Implementation Experts ",
+      "Official SAP & Databricks Partner",
+      "Accelerators for BW and Datasphere Migration",
+      "Global Delivery with 24x7 Support",
+      "Industry-Specific Data Frameworks for Life Sciences,Retail, Automotive & More"
+    ],
+    "contactTitle": "Let’s Build Your Enterprise Data Cloud Together",
+    "SubTitle": "Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."
+  },
+  "salesforceDataCloud": {
+    "headerTitle": "Data Cloud",
+    "headerSubtitle": "Harness the Potential of Salesforce Data Cloud",
+    "headerDesc": "Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM",
+    "pageDescTitle": "What Is Salesforce Data Cloud?",
+    "pageDesc1": "Businesses are flooded with vast amounts of data from an increasing array of systems, sources, and platforms. The sheer scale and diversity of this data can be overwhelming, leaving organizations to manage and navigate through countless records daily.",
+    "pageDesc2": "Salesforce Data Cloud is designed to assist businesses in consolidating customer data from various touchpoints. Combining data from multiple sources helps create a unified 360-degree view of each customer, fostering more personalized and effective marketing campaigns.",
+    "creatingTitle": "Creating Personalized & Impactful Customer Experiences for Your Business",
+    "unitedTitle": " Unite Your Entire Organization around Delivering an Enhanced Customer Experience.",
+    "ourSalesforceTitle": "Our Salesforce Data Cloud Services",
+    "contactTitle": "Take the next step to operational excellence with us.",
+    "featureBoxes": [
+      {
+        "icon": "/images/data-cloud/customer-360-view.svg",
+        "title": "Customer 360 View",
+        "description": "Integrate customer data across business units to build, for both real-time, omni-channel marketing, transactional personalization, content, subscription, and e-commerce."
+      },
+      {
+        "icon": "/images/data-cloud/zero-copy-integration.svg",
+        "title": "Zero Copy Integration",
+        "description": "Connect your databases, applications with zero copying delays and share data among multiple data sources on demand. No ETL, eliminate ingestion costs and keeping down operational costs."
+      },
+      {
+        "icon": "/images/data-cloud/real-time-data-processing.svg",
+        "title": "Real-time Data Processing",
+        "description": "Processes in real-time and drives data-driven decision-making, optimize inventory management, influence services, improve customer satisfaction, add trusted promotions and recommendations in real-time."
+      },
+      {
+        "icon": "/images/data-cloud/omnichannel-engagement.svg",
+        "title": "Omnichannel Engagement",
+        "description": "Build brand loyalty and trust by ensuring consistent experiences by managing data and service channels."
+      },
+      {
+        "icon": "/images/data-cloud/privacy-and-compliance.svg",
+        "title": "Privacy and Compliance",
+        "description": "Monitor transactions, protect third-party relationships and data usage, adhering to GDPR and CCPA."
+      },
+      {
+        "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
+        "title": "Personalized Marketing Campaigns",
+        "description": "Leverage unified customer profiles to deliver tailored and timely 1:1 targeted campaigns, seamless and secure omnichannel interactions that drive conversion rates."
+      }
+    ],
+    "stats": [
+      {
+        "percentage": "67%",
+        "description": "Tech resources freed up"
+      },
+      {
+        "percentage": "79%",
+        "description": "Companies witnessed a reduction in cost"
+      },
+      {
+        "percentage": "77%",
+        "description": "Organizations save 2 hours a week"
+      }
+    ],
+    "services": [
+      {
+        "id": 1,
+        "image": "/images/data-cloud/managed-cloud-services.webp",
+        "title": "Managed Cloud Services",
+        "description": "With a comprehensive suite of managed services for both public, private, and hybrid cloud environments, empower enterprises to optimize their entire cloud infrastructure and applications."
+      },
+      {
+        "id": 2,
+        "image": "/images/data-cloud/private-cloud-services.webp",
+        "title": "Private Cloud Services",
+        "description": "Experience the ideal blend of cloud flexibility with the utmost data compliance, and security of private infrastructure - providing you an isolation from the public cloud enterprise workloads."
+      },
+      {
+        "id": 3,
+        "image": "/images/data-cloud/data-cloud-consulting.webp",
+        "title": "Data Cloud Consulting",
+        "description": "Tailored recommendations, best practices and certified expertise in maximizing the value of Salesforce Data Cloud within your organization."
+      },
+      {
+        "id": 4,
+        "image": "/images/data-cloud/data-cloud-migration.webp",
+        "title": "Data Cloud Migration",
+        "description": "Develop and implement the best practices for securely and efficiently migrate the composition of cloud workloads from any environment with expert assessments and seamless workload migration solutions."
+      },
+      {
+        "id": 5,
+        "image": "/images/data-cloud/data-cloud-implementation.webp",
+        "title": "Data Cloud Implementation",
+        "description": "Set up the necessary infrastructure, configure data sources, and ensure that your organization can fully utilize Salesforce Data Cloud."
+      }
+    ]
+  },
+  "datasphere": {
+    "headerTitle": "SAP Datasphere",
+    "headerSubtitle": "Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere",
+    "pageDescTitle": "Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration",
+    "pageDesc1": "In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.",
+    "pageDesc2": "With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.",
+    "whyRialtesTitle": "Why Rialtes?",
+    "whyRialtesSubTitle": "Your AI-Powered SAP Datasphere Partner for End-to-End Success",
+    "whyrialtessectiondata": [
+      "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
+      "Industry-first AI/ML data models and accelerators for rapid value realization.",
+      "Tailored integrations with SAP S/4HANA, SuccessFactors, Ariba, Salesforce, Oracle, and more.",
+      "Real-time data governance, compliance, and security frameworks.",
+      "Offices in the US, Canada, Singapore, and India, delivering global expertise with local precision."
+    ],
+    "industryAcceleratorsData": [
+      "AI-powered Manufacturing production and inventory optimization.",
+      "Semiconductor-specific yield, demand, and supply chain analytics.",
+      "Automotive customer lifecycle and parts analytics.",
+      "Retail customer behavior, inventory, and sales insights.",
+      "Education student lifecycle analytics and faculty insights.",
+      "HR workforce performance and diversity analytics."
+    ],
+    "buildIntelligentData": [
+      "Centralized, AI-ready data lakes combining SAP and non-SAP applications.",
+      "Seamless, real-time data pipelines for live analytics and AI/ML models.",
+      "Full data lineage, governance, and compliance support.",
+      "Future-proof platform for AI/ML predictive and prescriptive analytics."
+    ],
+    "buildTitle": "Build an Intelligent Data Lake with SAP Datasphere",
+    "unifiedTitle": "Your Unified, AI-Driven Business Engine",
+    "unlockTitle": " Unlock End-to-End Visibility and Actionable AI Insights",
+    "buildDesc": "Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.",
+    "keyBenefitsTitle": "Key Benefits:",
+    "industryTitle": "Industry-Accelerators",
+    "industrySubTitle1": "Fast-Track AI Success in Your Industry",
+    "industrySubTitle2": "Pre-Built Connectors & AI Models to Accelerate Your Transformation",
+    "industryDesc": "Rialtes’ pre-delivered accelerators make AI data consolidation seamless and impactful. Designed specifically for Manufacturing, Semiconductor, Automotive, Retail, Education, and HR industries, these plug-and-play solutions help you gain immediate business value.",
+    "industrySubTitle3": "Industry-Focused Capabilities:",
+    "intelligentData": [
+      "Seamless integration of dealer, customer, IoT/telematics, and ERP data.",
+      "Predictive maintenance, warranty management, and AI-based customer retention.",
+      "Insights for new product development and targeted marketing campaigns."
+    ],
+    "intelligentTitle": "Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value",
+    "intelligentSubTitle": "Drive the Future of Automotive with AI-Integrated Insights",
+    "intelligentDesc": "Unlock AI for better vehicle performance, customer experience, and market growth.",
+    "aiReadyData": [
+      "AI-driven predictive maintenance, yield forecasting, and supplier analytics.",
+      "Unified supply chain, production, and demand data for real-time decisions.",
+      "Real-time KPI dashboards to drive operational excellence and cost savings."
+    ],
+    "aiReadyTitle": "AI-Ready Manufacturing & Semiconductor Data Lake",
+    "aiReadySubTitle1": "Precision-Driven Performance",
+    "aiReadySubTitle2": "Optimize Production, Supply Chain, and Maintenance",
+    "aiReadyDesc": " Stay competitive with AI-powered, data-driven manufacturing intelligence.",
+    "omniSectionData": [
+      "Consolidated view of customer, sales, inventory, and marketing data.",
+      "AI/ML-powered segmentation, churn prediction, and demand forecasting.",
+      "Real-time stock and fulfillment analytics to improve margins."
+    ],
+    "educationSectionData": [
+      "AI-driven analytics for student retention, performance, and engagement.",
+      "Faculty productivity, curriculum insights, and administrative reporting.",
+      "Financial performance and compliance analytics made easy."
+    ],
+    "omniTitle": "Omnichannel Retail Data Intelligence",
+    "omniSubTitle": "Personalize, Optimize, and Win Customers",
+    "omniDesc": "Empower retail with hyper-personalized experiences and optimized operations.",
+    "smartEducationTitle": "Smart Education Data Platforms",
+    "smartEducationSubTitle": "Driving Student Success with AI",
+    "smartEducationSubTitle1": "From Enrollment to Alumni — AI-Powered Student Journeys",
+    "smartEducation": "Future-proof education with AI insights to enhance student outcomes.",
+    "aiPoweredData": [
+      "Unify employee data across SuccessFactors, Oracle, Workday, and more.",
+      "AI-driven analytics for recruitment, retention, diversity, and workforce planning.",
+      "Real-time dashboards for leadership decision-making."
+    ],
+    "aiPoweredTitle": " AI-Powered HR Analytics Hub",
+    "aiPoweredSubTitle1": "Redefine Workforce Intelligence",
+    "aiPoweredSubTitle2": "Smarter People Decisions with AI",
+    "aiPoweredHrDesc": "Take HR to the next level with AI-powered talent management and compliance.",
+    "sapAribaData": [
+      "Real-time procurement, spend, and supplier risk insights.",
+      "AI for predictive sourcing, supplier scoring, and risk analysis.",
+      "Comprehensive contract and spend analytics."
+    ],
+    "endToEndTitle1": "End-to-End Integration — ",
+    "endToEndTitle2": "Real-Time Data Unification",
+    "endToEndSubTitle1": " SAP Ariba + SAP Datasphere",
+    "endToEndSubTitle2": "Procurement Intelligence at Scale",
+    "sapHanaData": [
+      "Unified financials, operations, and logistics data.",
+      "Real-time business health and performance analytics.",
+      "AI-powered demand forecasting and cost analysis."
+    ],
+    "sapHanaTitle": " SAP S/4HANA + SAP Datasphere",
+    "sapHanaSubTitle": "Enterprise Data Mastery",
+    "sapSuccessData": [
+      "End-to-end talent lifecycle visibility.",
+      "AI for workforce trends, diversity, and attrition prediction.",
+      "Enhanced leadership dashboards with real-time workforce data."
+    ],
+    "sapSuccessFactorTitle": "SAP SuccessFactors + SAP Datasphere",
+    "sapSuccessFactorSubTitle": "HR Data Reimagined",
+    "salesforcesapData": [
+      "Unified sales, service, and marketing data for deep insights.",
+      "AI-driven customer retention, cross-sell, and upsell models.",
+      "Real-time journey mapping and customer lifecycle management."
+    ],
+    "salesforceSapTitle": "Salesforce + SAP Datasphere",
+    "salesforceSapSubTitle": "AI-Enhanced Customer 360",
+    "advancedData": [
+      "Build stunning, interactive dashboards for leadership and teams.",
+      "AI-infused visualizations for trend spotting and scenario planning.",
+      "Instant visibility into KPIs and performance indicators."
+    ],
+    "advancedTitle": "Advanced Data Visualization",
+    "advancedSubTitle1": "Make Data Speak with SAP Analytics Cloud and Tableau",
+    "advancedSubTitle2": "From Raw Data to Actionable Intelligence",
+    "advenacedDesc": "Transform data into strategic insights that drive results.",
+    "aiPoweredUseData": [
+      "AI for predictive maintenance and quality assurance in manufacturing.",
+      "Personalized customer experiences in retail using AI segmentation.",
+      "AI-driven recruitment and diversity planning in HR.",
+      "Predictive student success models in education."
+    ],
+    "aiPoweredUseTitle": "AI-Powered Use Cases",
+    "aiPoweredUseSubTitle": "Accelerating Innovation",
+    "aiPoweredUseDesc": "AI brings the future of decision-making to your fingertips.",
+    "globalPresenceData": [
+      "Certified SAP Datasphere and AI/ML experts delivering end-to-end solutions.",
+      "Agile SCRUM-certified project managers for high-speed, iterative delivery.",
+      "Global delivery model with offices in the US, Canada, Singapore, and India.",
+      "Deep domain expertise in Manufacturing, Automotive, Semiconductor, Retail, HR, and Education."
+    ],
+    "globalPresenceTitle": "Global Presence, Certified Expertise, Agile Excellence"
+  },
+  "sapConsulting": {
+    "headerTitle": "SAP Consulting",
+    "headerSubTitle1": "Leaning towards",
+    "headerSubTitle2": "a better tomorrow.",
+    "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
+    "solutionSuccess": [
+      {
+        "id": 1,
+        "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
+        "title": "RISE with SAP",
+        "description": "RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system.",
+        "productsDetails": [
+          "SAP S/4HANA Migration",
+          "Robotic Process Automation",
+          "Conversational Chatbot",
+          "Customized Application"
         ],
-        "InventoryData": [
-            {
-                "title": "Inventory Optimization:",
-                "points": [
-                    "Demand-driven inventory strategies to avoid overstocking and stock-outs.",
-                    "Lot, batch, and serialized inventory tracking for regulated industries.",
-                    "Integrated warehouse management for real-time inventory visibility."
-                ]
-            },
-            {
-                "title": "Enterprise Scheduling:",
-                "points": [
-                    "Advanced production scheduling integrated with Oracle EBS Manufacturing.",
-                    "Capacity constraint management and lead time optimization.",
-                    "Scenario-based scheduling for predictive production planning."
-                ]
-            },
-            {
-                "title": "Real-World Outcomes:",
-                "points": [
-                    "Reduced carrying costs and working capital optimization.",
-                    "Enhanced customer satisfaction through timely fulfillment.",
-                    "Improved production efficiency and throughput."
-                ]
-            }
+        "knowMore": "/services/business-transformation/rise-with-sap-services"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/sap-consulting/thumb 1.webp",
+        "title": "GROW with SAP",
+        "description": "Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably",
+        "productsDetails": [
+          "Accelerate Your Digital Transformation",
+          "Flexible and Scalable ERP Solutions",
+          "Increase in operational efficiency",
+          "Integrated AI and automation",
+          "Flexible Pricing Options"
         ],
-        "oracleFeatures": [
-            {
-                "text": "Leverage autonomous database, AI/ML integrations, and serverless architecture."
-            },
-            {
-                "text": "Enable secure and compliant environments for regulated industries."
-            },
-            {
-                "text": "Optimize compute, storage, and networking for global ERP operations."
-            },
-            {
-                "text": "Integrate Oracle EBS with OCI-native solutions for enhanced scalability and performance."
-            }
+        "knowMore": "/services/business-transformation/grow-with-sap-services"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
+        "title": "SuccessFactors",
+        "description": "SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.",
+        "productsDetails": [
+          "Employee Central & Employee Central Payroll",
+          "Talent Acquisition",
+          "SAP HR Analytics and Workforce Planning",
+          "SAP Learning Management"
         ],
-        "ebsListItems": [
-            {
-                "bold": "Bringing AI to Oracle EBS",
-                "text": "for predictive analytics and intelligent automation."
-            },
-            {
-                "bold": "Integrating Kinaxis RapidResponse®",
-                "text": "for agile supply chain responsiveness."
-            },
-            {
-                "bold": "",
-                "text": "Cloud-driven cost optimization and performance enhancement.",
-                "fullBold": true
-            },
-            {
-                "bold": "End-to-end ownership,",
-                "text": "of the entire Oracle EBS lifecycle — ",
-                "secondBold": "advisory to support"
-            }
+        "knowMore": "/services/hxm-transformation/successplus-successfactors-implementation-partner"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
+        "title": "SAP Ariba",
+        "description": "Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management",
+        "productsDetails": [
+          "Procurement and supply chain metrics",
+          "Improved accuracy of operational task",
+          "Effective compliance management",
+          "Automation of time-consuming processes",
+          "Increased visibility of tail-end spend"
         ],
-        "keyCapabilitiesData": [
-            "Integrated demand, supply, and capacity planning powered by Oracle ASCP and Kinaxis.",
-            "Scenario modeling and what-if analysis for proactive risk management.",
-            "Supplier collaboration and visibility with Kinaxis-integrated portals.",
-            "End-to-end tracking from order to fulfillment with actionable insights."
-        ],
-        "businessBenefitsData": [
-            "Improved forecast accuracy and reduced stock-outs.",
-            "Shorter planning cycles and faster response to disruptions.",
-            "Optimized inventory and working capital.",
-            "Stronger supplier relationships and compliance."
-        ],
-        "howWeTransformData": [
-            "End-to-end integration of Oracle EBS and Kinaxis for unified planning.",
-            "Real-time collaboration between sales, operations, finance, and supply chain teams.",
-            "Forecasting, demand shaping, and inventory balancing — on a single platform.",
-            "AI-based analytics to drive actionable insights and improve consensus planning."
-        ],
-        "outcomeData": [
-            "Alignment of demand and supply with corporate goals.",
-            "Agility to respond to customer demands and market shifts.",
-            "Reduced operational costs and improved service levels."
-        ],
-        "endToEndData": [
-            "What-if simulations for supply chain disruptions.",
-            "Financial impact analysis of operational decisions.",
-            "Collaborative scenario planning across stakeholders.",
-            "Risk mitigation strategies through proactive modeling."
-        ],
-        "realWorldData": [
-            "Predictive supply chain and demand forecasting.",
-            "AI-powered customer service and order management.",
-            "Machine learning algorithms for predictive maintenance.",
-            "AI-based risk scoring for supplier and compliance risks."
-        ],
-        "aiDrivenData": [
-            "Faster decision-making with real-time data.",
-            "Reduced operational risks and disruptions.",
-            "Higher accuracy in forecasts and financial projections.",
-            "Improved customer experiences and faster issue resolution."
-        ],
-        "headerTitle": "Oracle EBS Services",
-        "headerSubtitle": "Modernizing Your Enterprise, End-to-End",
-        "pageDescTitle": "Empower your enterprise with Rialtes’ cutting-edge Oracle EBS solutions, backed by deep industry knowledge, certified expertise, and end-to-end ownership — from advisory to post-go-live success.",
-        "pageDesc": "As a certified Oracle and Kinaxis partner, Rialtes offers a powerful combination of Oracle E-Business Suite (EBS) and Kinaxis RapidResponse® services through our flagship 'EBSPlus' offering. With global offices across India, United States, Canada, and Singapore, Rialtes is uniquely positioned to drive global Oracle EBS transformations for enterprises in manufacturing, retail, healthcare, semiconductor, and beyond.",
-        "ebsTitle": "EBSPlus",
-        "ebsSubTitle": " Your Comprehensive Oracle EBS & Kinaxis Transformation Framework",
-        "ebsDesc": " Rialtes’ EBSPlus is designed to simplify, modernize, and optimize your Oracle EBS journey, delivering seamless business and supply chain operations integrated with Kinaxis for real-time planning and execution.",
-        "whatEbsTitle": "What EBSPlus Brings to You:",
-        "ebsData": [
-            {
-                "title": "License & Advisory Services",
-                "description": "Right-size your Oracle EBS and Kinaxis licenses with optimal cost management."
-            },
-            {
-                "title": "End-to-End Implementation & Design",
-                "description": "Industry-best practices, customized workflows, and agile project delivery."
-            },
-            {
-                "title": "Quality Assurance & Testing",
-                "description": "Business-aligned testing to ensure zero-disruption go-lives."
-            },
-            {
-                "title": "Integration & Data Strategy",
-                "description": "Connect Oracle EBS, Kinaxis, and external platforms for seamless business visibility."
-            },
-            {
-                "title": "Post Go-Live Support & Optimization",
-                "description": "Continuous improvement and managed services for ongoing success."
-            }
-        ],
-        "deepExpertiesTitle": "Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)",
-        "deepExpertiesDesc": "With highly certified Oracle EBS and OCI experts, Rialtes ensures that your critical workloads and ERP operations are secure, scalable, and cloud-ready. Our deep understanding of Oracle Cloud Infrastructure (OCI) enables clients to:",
-        "thoughtTitle": "Thought Leadership: Why Rialtes?",
-        "thoughtDesc": "Rialtes is not just a technology partner — we are business transformation leaders. Our industry-driven accelerators, AI-infused solutions, and agile methodologies ensure that clients experience real, measurable value from their Oracle EBS investments.",
-        "thoughtPillarsTitle": " Our Thought Leadership Pillars:",
-        "supplyChainTitle": "Supply Chain Planning",
-        "supplyChainSubTitle": "Future-Proofing with Oracle EBS & Kinaxis",
-        "supplyChainDesc": "In today’s volatile markets, supply chain agility is non-negotiable. Rialtes helps enterprises optimize and future-proof their supply chains using Oracle EBS Supply Chain modules enhanced with Kinaxis RapidResponse® for real-time S&OP (Sales & Operations Planning).",
-        "keyTitle": "Key Capabilities:",
-        "businessTitle": "Business Benefits:",
-        "salesTitle": "Sales and Operations Planning",
-        "salesSubTitle": "Smarter, Faster, Integrated",
-        "salesDesc": "With Rialtes, Sales and Operations Planning (S&OP) becomes a dynamic, collaborative process that adapts to market changes in real-time.",
-        "howWeTitle": "How We Transform S&OP:",
-        "outcomeTitle": "The Outcome:",
-        "inventoryTitle": "Inventory Optimization & Enterprise Scheduling",
-        "inventorySubTitle": "Precision Planning with Oracle EBS",
-        "inventoryDesc": "Optimizing inventory and managing complex production schedules are critical for businesses with global operations and dynamic supply chains. Rialtes leverages Oracle EBS Inventory and Advanced Supply Chain Planning (ASCP) to enable precision-driven inventory management and scheduling.",
-        "endToEndTitle": "End-to-End Scenario Planning",
-        "endToEndSubTitle": "Make Every Business Decision Count",
-        "endToEndDesc": "Rialtes enables enterprises to model, simulate, and evaluate multiple business scenarios using Oracle EBS integrated with Kinaxis, ensuring that every business decision is backed by data and foresight.",
-        "aiDrivenTitle": "AI & Data-Driven",
-        "aiDrivenTitle2": "Transformation for Oracle EBS",
-        "aiDrivenDesc": "AI is redefining how enterprises leverage Oracle EBS for competitive advantage. Rialtes brings AI-driven insights directly into your Oracle EBS workflows:",
-        "realWorldTitle": "Real-World AI Applications in Oracle EBS:",
-        "benefitsTitle": "Benefits of AI-Driven Oracle EBS:",
-        "whyRialtesTitle": "Why Rialtes -",
-        "whyRialtesSubTitle": "Oracle EBS Partner of Choice",
-        "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
-    },
-        "sapCpi": {
-        "thoughtLeadershipData": [
-            "Disconnected systems and data silos limiting agility.",
-            "Manual processes draining resources and increasing errors.",
-            "Limited visibility across departments and partner ecosystems.",
-            "Slow, fragmented customer and supplier interactions."
-        ],
-        "endToEndData": [
-            {
-                "title": "Integration Strategy, Advisory & Architecture",
-                "dataList": [
-                    "End-to-end assessment of your integration landscape.",
-                    "Architecture blueprints aligned with business goals.",
-                    "Best-fit CPI patterns, adapters, and connectors."
-                ]
-            },
-            {
-                "title": "SAP CPI Implementation & Deployment",
-                "dataList": [
-                    "SAP-to-SAP (S/4HANA, SuccessFactors, Ariba, etc.) and SAP-to-non-SAP (Salesforce, Oracle, Workday) integrations.",
-                    "Workflow design, data transformation, error handling, and orchestration.",
-                    "End-to-end implementation and testing."
-                ]
-            },
-            {
-                "title": "Pre-Built Accelerators & Industry Connectors",
-                "dataList": [
-                    "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, and High-Tech. ",
-                    "Pre-delivered templates for rapid deployment and faster time-to-value."
-                ]
-            },
-            {
-                "title": "Quality Assurance & Compliance",
-                "dataList": [
-                    "Integration validation and stress testing.",
-                    "Security, privacy, and compliance frameworks (GDPR, HIPAA)."
-                ]
-            },
-            {
-                "title": "Post-Go-Live Support & Monitoring",
-                "dataList": [
-                    "24/7 monitoring, support, and performance optimization.",
-                    "Continuous enhancement and change management."
-                ]
-            }
-        ],
-        "specializedData": [
-            {
-                "title": "SAP Ariba Integration",
-                "subtitle": "Unlock Procurement Excellence",
-                "desc": "Rialtes offers end-to-end integration between SAP Ariba and SAP S/4HANA and other systems, streamlining procurement and supplier collaboration.",
-                "keyData": [
-                    "Supplier onboarding and qualification automation.",
-                    "Seamless purchase order and invoice exchange.",
-                    "Contract management and compliance workflows.",
-                    "Supplier collaboration and performance monitoring."
-                ],
-                "businessData": [
-                    "Shorter procurement cycles and lower costs.",
-                    "Enhanced supplier collaboration and visibility.",
-                    "Real-time insights into procurement KPIs."
-                ],
-                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-ariba-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/sap-ariba-desk.webp"
-            },
-            {
-                "title": "SAP S/4HANA Integration",
-                "subtitle": "Connecting Your Digital Core",
-                "desc": "Integrating SAP S/4HANA with other enterprise systems is critical for end-to-end business processes. Rialtes enables real-time and secure integrations with Salesforce, Ariba, Oracle, and more.",
-                "keyData": [
-                    "Finance and supply chain data synchronization.",
-                    "Sales order to fulfillment workflows.",
-                    "Master data management (customer, product, supplier).",
-                    "Manufacturing and logistics integrations."
-                ],
-                "businessData": [
-                    "Unified business processes and faster order-to-cash.",
-                    "Real-time operational insights.",
-                    "Reduced manual errors and streamlined workflows."
-                ],
-                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-s4hana-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/sap-s4hana-desk.webp"
-            },
-            {
-                "title": "SAP SuccessFactors Integration",
-                "subtitle": "Powering Next-Gen HR",
-                "desc": "Rialtes provides robust integrations of SAP SuccessFactors with payroll, benefits, time tracking, and finance systems, enabling seamless employee lifecycle management.",
-                "keyData": [
-                    "Employee and position data synchronization.",
-                    "Payroll, benefits, and tax system integrations.",
-                    "Recruiting, onboarding, and learning management workflows.",
-                    "Employee self-service and mobile enablement."
-                ],
-                "businessData": [
-                    "End-to-end HR process automation.",
-                    "Better employee experience and faster onboarding.",
-                    "Compliance with local and global HR regulations."
-                ],
-                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/sap-successfactor-desk.webp"
-            },
-            {
-                "title": "Salesforce and SAP CPI Integration",
-                "subtitle": "Delivering 360° Customer View",
-                "desc": "Rialtes connects Salesforce CRM with SAP backend systems like S/4HANA and SAP ERP using CPI for seamless customer, order, and service workflows.",
-                "keyData": [
-                    "Lead, opportunity, and order integration. ",
-                    "Customer service case management tied to SAP data.",
-                    "Billing, invoicing, and product catalog synchronization.",
-                    "Real-time customer insights across CRM and ERP."
-                ],
-                "businessData": [
-                    "Unified customer experience from sales to service.",
-                    "Faster quote-to-cash cycles.",
-                    "Accurate and real-time customer and product data."
-                ],
-                "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/salesforce-desk.webp"
-            }
-        ],
-        "integrationData": [
-            "Finance and HR data flows across platforms.",
-            "Supply chain and logistics integration.",
-            "Real-time reporting and dashboards."
-        ],
-        "commonSectionsData": [
-            {
-                "mobImg": "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/data-visulization-desk.webp",
-                "title": "Data Visualization with Data Cloud and Tableau",
-                "subtitle": "Actionable Insights from Connected Data",
-                "desc": "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
-                "dataList": [
-                    "Real-time dashboards across finance, HR, supply chain, and customer service.",
-                    "Predictive analytics and AI-driven forecasts.",
-                    "Self-service analytics for business users."
-                ]
-            },
-            {
-                "mobImg": "/images/solutions/sap-cpi/Mobile/production-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/production-desk.webp",
-                "title": "Production Planning & Demand Management using Mulesoft + SAP CPI",
-                "desc": "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
-                "dataList": [
-                    "End-to-end supply chain visibility.",
-                    "Automated order and inventory synchronization.",
-                    "Real-time capacity and demand updates."
-                ]
-            },
-            {
-                "mobImg": "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/demand-desk.webp",
-                "title": "Demand Planning with Kinaxis RapidResponse & SAP CPI",
-                "desc": "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
-                "dataList": [
-                    "AI-driven, agile forecasting.",
-                    "Real-time visibility into supply chain disruptions.",
-                    "Proactive capacity and production adjustments."
-                ]
-            },
-            {
-                "mobImg": "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/ai-powered-desk.webp",
-                "title": "AI-Powered SAP Integrations",
-                "subtitle": "The Future of Intelligent Workflows",
-                "desc": "AI is transforming integration landscapes, and Rialtes makes this real:",
-                "dataList": [
-                    "AI-driven decision-making (automated order routing, fraud detection).",
-                    "Predictive supply chain and HR analytics.",
-                    "Intelligent automation across business units."
-                ]
-            },
-            {
-                "mobImg": "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/agile-desk.webp",
-                "title": "Agile, SCRUM-Certified Delivery for Seamless Integrations",
-                "desc": "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
-                "dataList": [
-                    "Agile sprints for rapid value realization.",
-                    "Transparent progress and stakeholder engagement.",
-                    "Continuous improvement based on iterative feedback."
-                ]
-            },
-            {
-                "mobImg": "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
-                "deskImg": "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
-                "title": "SAP and Salesforce Partnership",
-                "subtitle": "The Power of Connected Ecosystems",
-                "desc": "As trusted partners with SAP and Salesforce, Rialtes delivers:",
-                "dataList": [
-                    "Unified data and processes across CRM and ERP.",
-                    "End-to-end lead-to-cash automation.",
-                    "Enhanced customer, supplier, and employee experiences."
-                ]
-            }
-        ],
-        "whyRialtesData": [
-            "SAP Certified Partner with proven CPI integration success stories.",
-            "Global presence: United States, Canada, Singapore, India.",
-            "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
-            "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
-            "End-to-end support from advisory to post-go-live optimization."
-        ],
-        "headerTitle": "SAP Cloud Integration Services",
-        "headerSubTitle1": "Empowering Intelligent,",
-        "headerSubTitle2": "Connected Enterprises",
-        "pageDescTitle1": "Seamless Integrations.",
-        "pageDescTitle2": "Smarter Operations.",
-        "pageDescTitle3": "Elevated Experiences.",
-        "pageDescSubTitle": "Seamless Integrations. Smarter Operations. Elevated Experiences.",
-        "pageDesc": "At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.",
-        "thoughtTitle": "Thought Leadership",
-        "thoughtSubTitle": "Why Integration is the Backbone of Digital Transformation",
-        "thoughtDesc": "In today’s hyper-connected business landscape, companies face mounting challenges:",
-        "thoughtDesc2": "Rialtes and SAP Cloud Integration enable enterprises to break silos, automate workflows, and unlock real-time intelligence to power modern, responsive businesses.",
-        "endToEndTitle": "Rialtes End-to-End SAP Cloud Integration Services",
-        "specializedTitle": "Specialized SAP Cloud Integrations Rialtes Delivers",
-        "keyTitle": "Key Capabilities:",
-        "benefitsTitle": " Business Benefits:",
-        "integrationTitle": "Integration with Oracle, Workday, and More",
-        "integrationSubTitle": "Connected Enterprise Ecosystem",
-        "integrationDesc": "We help you connect SAP to Oracle, Workday, and other cloud/on-prem platforms to create a frictionless and intelligent enterprise.",
-        "whyRialtesTitle": "Why Rialtes?",
-        "contactTitle": "Ready to Connect Your Enterprise with SAP Cloud Integration?",
-        "contactSubTitle1": "Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value.",
-        "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
-    },
-     "uiPath":{
-        "headerTitle": "UiPath RPA Services",
-        "headerDesc": "Driving Next-Gen Automation for a Smarter Enterprise",
-        "operationsTitle": "Transform Your Enterprise Operations with Intelligent RPA.",
-        "operationsDescOne": "At Rialtes, we help businesses harness the full power of UiPath’s Robotic Process Automation (RPA) platform to automate end-to-end processes, reduce manual effort, improve accuracy, and drive scalable growth.",
-        "operationsDescTwo": " With a proven track record of deploying RPA solutions integrated with SAP, Salesforce, Oracle, and other enterprise platforms, Rialtes enables companies to focus on innovation while bots handle repetitive work.",
-        "uiTitle": "Why RPA with UiPath?",
-        "uiDesc": "Enterprises today face enormous pressure to streamline processes, ensure compliance, and improve customer and employee experiences. UiPath RPA delivers:",
-        "whyRpaData" :[
-    "Seamless automation of repetitive, time-consuming tasks.",
-    "End-to-end integration with enterprise platforms like SAP, Salesforce, Oracle.",
-    "Rapid ROI and reduced operational costs.",
-    "Agility to scale as business grows."
-       ],
-     "whyDesc":"At Rialtes, we make RPA real for businesses — combining strategy, design, deployment, and continuous optimization.",
-      "serviceTitle": "Rialtes’ End-to-End RPA Services",
-      "serviceeDesc": "Powered by UiPath",
-      "featureBoxes" : [
-    {
-        "title": "Automation Strategy & License Advisory",
-        "description":
-            "Identify high-value use cases and license optimization."
-    },
-    {
-        "title": "Bot Design, Development, and Implementation",
-        "description":
-            "Scalable and secure bot development."
-    },
-    {
-        "title": "Pre-built Industry Accelerators",
-        "description":
-            "Pre-built Industry Accelerators"
-    },
-    {
+        "knowMore": "/services/spend-management/sapbuyplus-ariba-implementation-partner"
+      }
+    ],
+    "pageDescTitle": "Leverage SAP Consulting Services for Reliable Business Operations",
+    "pageDesc": "What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.",
+    "ourSolutionTitle": "Our Solutions to Success",
+    "sapInustryTitle": "SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations",
+    "riseWithSapTitle": "RISE with SAP",
+    "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
+    "contactTitle": "Take the next step to operational excellence with us."
+  },
+  "agentForce": {
+    "headerTitle": "Agentforce",
+    "headerDesc": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
+    "headerOne": "Salesforce Agentforce:",
+    "headerTwo": "What You Need To Know",
+    "headerParaOne": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
+    "headerParaTwo": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
+    "manageTitle": "Manage Customer Inquiries and Streamline Employee Tasks Around the Clock",
+    "salesForce": [
+      {
+        "id": 1,
+        "imageUrl": "/images/salesforce-consulting-services/achive1.svg",
+        "title": "Autonomous operation within customized guardrails"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/salesforce-consulting-services/achive2.svg",
+        "title": "Real-time data adaptation"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/salesforce-consulting-services/achive3.svg",
+        "title": "Seamless integration with employees"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/salesforce-consulting-services/achive4.svg",
+        "title": "Low-code tools for customization and deployment"
+      }
+    ],
+    "leverageTitle": "Leverage cutting-edge technologies to deliver innovative solutions with Agentforce",
+    "salesForce2": [
+      {
+        "id": 1,
+        "title": "Agentforce Data Cloud",
+        "description": "Unify and harmonize customer data across systems in real time."
+      },
+      {
+        "id": 2,
+        "title": "Agent Builder",
+        "description": "Low-code builder for Agentforce, which includes Prompt Builder and Model Builder."
+      },
+      {
+        "id": 3,
+        "title": "Atlas Reasoning Engine",
+        "description": "The brain of Agentforce agents automates agents’ actions to respond naturally and adapt to situations."
+      },
+      {
+        "id": 4,
+        "title": "Partner Network",
+        "description": "A group of leading partners extends Agentforce with new agent actions through the Salesforce AppExchange."
+      }
+    ],
+    "blocksTitle": "The Building Blocks to Configure Your Agentforce Agent",
+    "agentBlocks": [
+      {
+        "title": "Agent Builder",
+        "description": "Create and customize your own agents with low-code",
+        "image": "/images/salesforce-consulting-services/Agent Builder.svg"
+      },
+      {
+        "title": "Prompt Builder",
+        "description": "Supercharge every workflow with trusted AI prompts",
+        "image": "/images/salesforce-consulting-services/achive1.svg"
+      },
+      {
+        "title": "Model Builder",
+        "description": "Build, train, and deploy custom AI models externally using data in Salesforce.",
+        "image": "/images/salesforce-consulting-services/Model Builder.svg"
+      }
+    ],
+    "industryTitle": "Industry-specific Benefits That We Bring to Our Clients",
+    "industryBenifite": [
+      {
+        "id": 1,
+        "imageUrl": "/images/salesforce-consulting-services/benif1.webp",
+        "title": "Sales",
+        "description": "Automate lead qualification, booking appointments, and nurturing leads."
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/salesforce-consulting-services/cusser.webp",
+        "title": "Customer Service",
+        "description": "Manage tickets, resolve inquiries, and provide 24/7 support."
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/salesforce-consulting-services/Marketing.webp",
+        "title": "Marketing",
+        "description": "Run automated campaigns that adapt based on performance metrics."
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/salesforce-consulting-services/Insurance and financial services.webp",
+        "title": "Insurance and financial services",
+        "description": "Utilize Agentforce to access crucial client data on the go."
+      },
+      {
+        "id": 5,
+        "imageUrl": "/images/salesforce-consulting-services/Healthcare and life sciences.webp",
+        "title": "Healthcare and life sciences",
+        "description": "Engage with patients, providers, and payers to act across multiple channels."
+      }
+    ],
+    "slides": [
+      {
+        "id": 1,
+        "image": "/images/blog/blog-1-long-thumb.webp",
+        "industry": "Generic",
+        "date": "30 Sept 2024",
+        "heading": "How Agentforce works",
+        "url": "insights/blogs/how-salesforce-agentforce-actually-works",
+        "title": "How Salesforce Agentforce Actually Works"
+      },
+      {
+        "id": 2,
+        "image": "/images/blog/blog-2-long-thumb.webp",
+        "industry": "Generic",
+        "date": "21 Oct 2024",
+        "heading": "Atlas Reasoning Engine",
+        "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
+        "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+      },
+      {
+        "id": 3,
+        "image": "/images/blog/blog-3-long-thumb.webp",
+        "industry": "Generic",
+        "date": "28 Oct 2024",
+        "heading": "Agents vs. Copilots vs. Bots",
+        "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+        "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+      },
+      {
+        "id": 4,
+        "image": "/images/blog/blog-4-long-thumb.webp",
+        "industry": "Generic",
+        "date": "25 Nov 2024",
+        "heading": "Agentforce Testing Center",
+        "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
+        "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
+      },
+      {
+        "id": 11,
+        "image": "/images/blog/blog-12-long-thumb.webp",
+        "industry": "Generic",
+        "date": "17 Sept 2024",
+        "heading": "Integrate Agenforce with Your ERP",
+        "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
+        "title": "Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+      },
+      {
+        "id": 12,
+        "image": "/images/blog/blog-11-long-thumb.webp",
+        "industry": "Generic",
+        "date": "17 Sept 2024",
+        "heading": "Slack Collaboration with Agentforce",
+        "url": "insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce",
+        "title": "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce"
+      },
+      {
+        "id": 14,
+        "image": "/images/blog/blog-14-long-thumb.webp",
+        "industry": "Generic",
+        "date": "17 Sept 2024",
+        "heading": "Top Features of Agentforce",
+        "url": "insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should",
+        "title": "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
+      }
+    ],
+    "contactTitle": "Take the next step to operational excellence with us."
+  },
+  "oracle": {
+    "data": [
+      {
+        "img": "/images/oracle-ebs/20 yrs ERP.svg",
+        "text": "20+ years of ERP expertise with Fortune 500 clients."
+      },
+      {
+        "img": "/images/oracle-ebs/oracle certify.svg",
+        "text": "Certified Oracle and Kinaxis partner with real industry insights."
+      },
+      {
+        "img": "/images/oracle-ebs/global delivery.svg",
+        "text": "Global delivery with localized expertise in India, US, Canada, and Singapore."
+      },
+      {
+        "img": "/images/oracle-ebs/transformation.svg",
+        "text": "Proven track record of end-to-end Oracle EBS transformations."
+      },
+      {
+        "img": "/images/oracle-ebs/AI approach.svg",
+        "text": "AI and Data-first approach for future-ready operations."
+      }
+    ],
+    "InventoryData": [
+      {
+        "title": "Inventory Optimization:",
+        "points": [
+          "Demand-driven inventory strategies to avoid overstocking and stock-outs.",
+          "Lot, batch, and serialized inventory tracking for regulated industries.",
+          "Integrated warehouse management for real-time inventory visibility."
+        ]
+      },
+      {
+        "title": "Enterprise Scheduling:",
+        "points": [
+          "Advanced production scheduling integrated with Oracle EBS Manufacturing.",
+          "Capacity constraint management and lead time optimization.",
+          "Scenario-based scheduling for predictive production planning."
+        ]
+      },
+      {
+        "title": "Real-World Outcomes:",
+        "points": [
+          "Reduced carrying costs and working capital optimization.",
+          "Enhanced customer satisfaction through timely fulfillment.",
+          "Improved production efficiency and throughput."
+        ]
+      }
+    ],
+    "oracleFeatures": [
+      {
+        "text": "Leverage autonomous database, AI/ML integrations, and serverless architecture."
+      },
+      {
+        "text": "Enable secure and compliant environments for regulated industries."
+      },
+      {
+        "text": "Optimize compute, storage, and networking for global ERP operations."
+      },
+      {
+        "text": "Integrate Oracle EBS with OCI-native solutions for enhanced scalability and performance."
+      }
+    ],
+    "ebsListItems": [
+      {
+        "bold": "Bringing AI to Oracle EBS",
+        "text": "for predictive analytics and intelligent automation."
+      },
+      {
+        "bold": "Integrating Kinaxis RapidResponse®",
+        "text": "for agile supply chain responsiveness."
+      },
+      {
+        "bold": "",
+        "text": "Cloud-driven cost optimization and performance enhancement.",
+        "fullBold": true
+      },
+      {
+        "bold": "End-to-end ownership,",
+        "text": "of the entire Oracle EBS lifecycle — ",
+        "secondBold": "advisory to support"
+      }
+    ],
+    "keyCapabilitiesData": [
+      "Integrated demand, supply, and capacity planning powered by Oracle ASCP and Kinaxis.",
+      "Scenario modeling and what-if analysis for proactive risk management.",
+      "Supplier collaboration and visibility with Kinaxis-integrated portals.",
+      "End-to-end tracking from order to fulfillment with actionable insights."
+    ],
+    "businessBenefitsData": [
+      "Improved forecast accuracy and reduced stock-outs.",
+      "Shorter planning cycles and faster response to disruptions.",
+      "Optimized inventory and working capital.",
+      "Stronger supplier relationships and compliance."
+    ],
+    "howWeTransformData": [
+      "End-to-end integration of Oracle EBS and Kinaxis for unified planning.",
+      "Real-time collaboration between sales, operations, finance, and supply chain teams.",
+      "Forecasting, demand shaping, and inventory balancing — on a single platform.",
+      "AI-based analytics to drive actionable insights and improve consensus planning."
+    ],
+    "outcomeData": [
+      "Alignment of demand and supply with corporate goals.",
+      "Agility to respond to customer demands and market shifts.",
+      "Reduced operational costs and improved service levels."
+    ],
+    "endToEndData": [
+      "What-if simulations for supply chain disruptions.",
+      "Financial impact analysis of operational decisions.",
+      "Collaborative scenario planning across stakeholders.",
+      "Risk mitigation strategies through proactive modeling."
+    ],
+    "realWorldData": [
+      "Predictive supply chain and demand forecasting.",
+      "AI-powered customer service and order management.",
+      "Machine learning algorithms for predictive maintenance.",
+      "AI-based risk scoring for supplier and compliance risks."
+    ],
+    "aiDrivenData": [
+      "Faster decision-making with real-time data.",
+      "Reduced operational risks and disruptions.",
+      "Higher accuracy in forecasts and financial projections.",
+      "Improved customer experiences and faster issue resolution."
+    ],
+    "headerTitle": "Oracle EBS Services",
+    "headerSubtitle": "Modernizing Your Enterprise, End-to-End",
+    "pageDescTitle": "Empower your enterprise with Rialtes’ cutting-edge Oracle EBS solutions, backed by deep industry knowledge, certified expertise, and end-to-end ownership — from advisory to post-go-live success.",
+    "pageDesc": "As a certified Oracle and Kinaxis partner, Rialtes offers a powerful combination of Oracle E-Business Suite (EBS) and Kinaxis RapidResponse® services through our flagship 'EBSPlus' offering. With global offices across India, United States, Canada, and Singapore, Rialtes is uniquely positioned to drive global Oracle EBS transformations for enterprises in manufacturing, retail, healthcare, semiconductor, and beyond.",
+    "ebsTitle": "EBSPlus",
+    "ebsSubTitle": " Your Comprehensive Oracle EBS & Kinaxis Transformation Framework",
+    "ebsDesc": " Rialtes’ EBSPlus is designed to simplify, modernize, and optimize your Oracle EBS journey, delivering seamless business and supply chain operations integrated with Kinaxis for real-time planning and execution.",
+    "whatEbsTitle": "What EBSPlus Brings to You:",
+    "ebsData": [
+      {
+        "title": "License & Advisory Services",
+        "description": "Right-size your Oracle EBS and Kinaxis licenses with optimal cost management."
+      },
+      {
+        "title": "End-to-End Implementation & Design",
+        "description": "Industry-best practices, customized workflows, and agile project delivery."
+      },
+      {
+        "title": "Quality Assurance & Testing",
+        "description": "Business-aligned testing to ensure zero-disruption go-lives."
+      },
+      {
+        "title": "Integration & Data Strategy",
+        "description": "Connect Oracle EBS, Kinaxis, and external platforms for seamless business visibility."
+      },
+      {
+        "title": "Post Go-Live Support & Optimization",
+        "description": "Continuous improvement and managed services for ongoing success."
+      }
+    ],
+    "deepExpertiesTitle": "Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)",
+    "deepExpertiesDesc": "With highly certified Oracle EBS and OCI experts, Rialtes ensures that your critical workloads and ERP operations are secure, scalable, and cloud-ready. Our deep understanding of Oracle Cloud Infrastructure (OCI) enables clients to:",
+    "thoughtTitle": "Thought Leadership: Why Rialtes?",
+    "thoughtDesc": "Rialtes is not just a technology partner — we are business transformation leaders. Our industry-driven accelerators, AI-infused solutions, and agile methodologies ensure that clients experience real, measurable value from their Oracle EBS investments.",
+    "thoughtPillarsTitle": " Our Thought Leadership Pillars:",
+    "supplyChainTitle": "Supply Chain Planning",
+    "supplyChainSubTitle": "Future-Proofing with Oracle EBS & Kinaxis",
+    "supplyChainDesc": "In today’s volatile markets, supply chain agility is non-negotiable. Rialtes helps enterprises optimize and future-proof their supply chains using Oracle EBS Supply Chain modules enhanced with Kinaxis RapidResponse® for real-time S&OP (Sales & Operations Planning).",
+    "keyTitle": "Key Capabilities:",
+    "businessTitle": "Business Benefits:",
+    "salesTitle": "Sales and Operations Planning",
+    "salesSubTitle": "Smarter, Faster, Integrated",
+    "salesDesc": "With Rialtes, Sales and Operations Planning (S&OP) becomes a dynamic, collaborative process that adapts to market changes in real-time.",
+    "howWeTitle": "How We Transform S&OP:",
+    "outcomeTitle": "The Outcome:",
+    "inventoryTitle": "Inventory Optimization & Enterprise Scheduling",
+    "inventorySubTitle": "Precision Planning with Oracle EBS",
+    "inventoryDesc": "Optimizing inventory and managing complex production schedules are critical for businesses with global operations and dynamic supply chains. Rialtes leverages Oracle EBS Inventory and Advanced Supply Chain Planning (ASCP) to enable precision-driven inventory management and scheduling.",
+    "endToEndTitle": "End-to-End Scenario Planning",
+    "endToEndSubTitle": "Make Every Business Decision Count",
+    "endToEndDesc": "Rialtes enables enterprises to model, simulate, and evaluate multiple business scenarios using Oracle EBS integrated with Kinaxis, ensuring that every business decision is backed by data and foresight.",
+    "aiDrivenTitle": "AI & Data-Driven",
+    "aiDrivenTitle2": "Transformation for Oracle EBS",
+    "aiDrivenDesc": "AI is redefining how enterprises leverage Oracle EBS for competitive advantage. Rialtes brings AI-driven insights directly into your Oracle EBS workflows:",
+    "realWorldTitle": "Real-World AI Applications in Oracle EBS:",
+    "benefitsTitle": "Benefits of AI-Driven Oracle EBS:",
+    "whyRialtesTitle": "Why Rialtes -",
+    "whyRialtesSubTitle": "Oracle EBS Partner of Choice",
+    "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
+  },
+  "sapCpi": {
+    "thoughtLeadershipData": [
+      "Disconnected systems and data silos limiting agility.",
+      "Manual processes draining resources and increasing errors.",
+      "Limited visibility across departments and partner ecosystems.",
+      "Slow, fragmented customer and supplier interactions."
+    ],
+    "endToEndData": [
+      {
+        "title": "Integration Strategy, Advisory & Architecture",
+        "dataList": [
+          "End-to-end assessment of your integration landscape.",
+          "Architecture blueprints aligned with business goals.",
+          "Best-fit CPI patterns, adapters, and connectors."
+        ]
+      },
+      {
+        "title": "SAP CPI Implementation & Deployment",
+        "dataList": [
+          "SAP-to-SAP (S/4HANA, SuccessFactors, Ariba, etc.) and SAP-to-non-SAP (Salesforce, Oracle, Workday) integrations.",
+          "Workflow design, data transformation, error handling, and orchestration.",
+          "End-to-end implementation and testing."
+        ]
+      },
+      {
+        "title": "Pre-Built Accelerators & Industry Connectors",
+        "dataList": [
+          "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, and High-Tech. ",
+          "Pre-delivered templates for rapid deployment and faster time-to-value."
+        ]
+      },
+      {
         "title": "Quality Assurance & Compliance",
-        "description":
-            "Robust testing and regulatory adherence."
-    },
-    {
-        "title": "Post-Go-Live Bot Monitoring and Support",
-        "description":
-            "Ensuring smooth operation and continuous improvement."
-    }
-
+        "dataList": [
+          "Integration validation and stress testing.",
+          "Security, privacy, and compliance frameworks (GDPR, HIPAA)."
+        ]
+      },
+      {
+        "title": "Post-Go-Live Support & Monitoring",
+        "dataList": [
+          "24/7 monitoring, support, and performance optimization.",
+          "Continuous enhancement and change management."
+        ]
+      }
+    ],
+    "specializedData": [
+      {
+        "title": "SAP Ariba Integration",
+        "subtitle": "Unlock Procurement Excellence",
+        "desc": "Rialtes offers end-to-end integration between SAP Ariba and SAP S/4HANA and other systems, streamlining procurement and supplier collaboration.",
+        "keyData": [
+          "Supplier onboarding and qualification automation.",
+          "Seamless purchase order and invoice exchange.",
+          "Contract management and compliance workflows.",
+          "Supplier collaboration and performance monitoring."
         ],
-        "industryTitle": "Pre-Configured Industry Accelerators",
-        "industryDesc": "Rialtes offers industry-specific RPA accelerators for rapid deployment in:",
-         "featureBoxes2" : [
-    {
+        "businessData": [
+          "Shorter procurement cycles and lower costs.",
+          "Enhanced supplier collaboration and visibility.",
+          "Real-time insights into procurement KPIs."
+        ],
+        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-ariba-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/sap-ariba-desk.webp"
+      },
+      {
+        "title": "SAP S/4HANA Integration",
+        "subtitle": "Connecting Your Digital Core",
+        "desc": "Integrating SAP S/4HANA with other enterprise systems is critical for end-to-end business processes. Rialtes enables real-time and secure integrations with Salesforce, Ariba, Oracle, and more.",
+        "keyData": [
+          "Finance and supply chain data synchronization.",
+          "Sales order to fulfillment workflows.",
+          "Master data management (customer, product, supplier).",
+          "Manufacturing and logistics integrations."
+        ],
+        "businessData": [
+          "Unified business processes and faster order-to-cash.",
+          "Real-time operational insights.",
+          "Reduced manual errors and streamlined workflows."
+        ],
+        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-s4hana-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/sap-s4hana-desk.webp"
+      },
+      {
+        "title": "SAP SuccessFactors Integration",
+        "subtitle": "Powering Next-Gen HR",
+        "desc": "Rialtes provides robust integrations of SAP SuccessFactors with payroll, benefits, time tracking, and finance systems, enabling seamless employee lifecycle management.",
+        "keyData": [
+          "Employee and position data synchronization.",
+          "Payroll, benefits, and tax system integrations.",
+          "Recruiting, onboarding, and learning management workflows.",
+          "Employee self-service and mobile enablement."
+        ],
+        "businessData": [
+          "End-to-end HR process automation.",
+          "Better employee experience and faster onboarding.",
+          "Compliance with local and global HR regulations."
+        ],
+        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/sap-successfactor-desk.webp"
+      },
+      {
+        "title": "Salesforce and SAP CPI Integration",
+        "subtitle": "Delivering 360° Customer View",
+        "desc": "Rialtes connects Salesforce CRM with SAP backend systems like S/4HANA and SAP ERP using CPI for seamless customer, order, and service workflows.",
+        "keyData": [
+          "Lead, opportunity, and order integration. ",
+          "Customer service case management tied to SAP data.",
+          "Billing, invoicing, and product catalog synchronization.",
+          "Real-time customer insights across CRM and ERP."
+        ],
+        "businessData": [
+          "Unified customer experience from sales to service.",
+          "Faster quote-to-cash cycles.",
+          "Accurate and real-time customer and product data."
+        ],
+        "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/salesforce-desk.webp"
+      }
+    ],
+    "integrationData": [
+      "Finance and HR data flows across platforms.",
+      "Supply chain and logistics integration.",
+      "Real-time reporting and dashboards."
+    ],
+    "commonSectionsData": [
+      {
+        "mobImg": "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/data-visulization-desk.webp",
+        "title": "Data Visualization with Data Cloud and Tableau",
+        "subtitle": "Actionable Insights from Connected Data",
+        "desc": "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
+        "dataList": [
+          "Real-time dashboards across finance, HR, supply chain, and customer service.",
+          "Predictive analytics and AI-driven forecasts.",
+          "Self-service analytics for business users."
+        ]
+      },
+      {
+        "mobImg": "/images/solutions/sap-cpi/Mobile/production-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/production-desk.webp",
+        "title": "Production Planning & Demand Management using Mulesoft + SAP CPI",
+        "desc": "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
+        "dataList": [
+          "End-to-end supply chain visibility.",
+          "Automated order and inventory synchronization.",
+          "Real-time capacity and demand updates."
+        ]
+      },
+      {
+        "mobImg": "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/demand-desk.webp",
+        "title": "Demand Planning with Kinaxis RapidResponse & SAP CPI",
+        "desc": "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
+        "dataList": [
+          "AI-driven, agile forecasting.",
+          "Real-time visibility into supply chain disruptions.",
+          "Proactive capacity and production adjustments."
+        ]
+      },
+      {
+        "mobImg": "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/ai-powered-desk.webp",
+        "title": "AI-Powered SAP Integrations",
+        "subtitle": "The Future of Intelligent Workflows",
+        "desc": "AI is transforming integration landscapes, and Rialtes makes this real:",
+        "dataList": [
+          "AI-driven decision-making (automated order routing, fraud detection).",
+          "Predictive supply chain and HR analytics.",
+          "Intelligent automation across business units."
+        ]
+      },
+      {
+        "mobImg": "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/agile-desk.webp",
+        "title": "Agile, SCRUM-Certified Delivery for Seamless Integrations",
+        "desc": "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
+        "dataList": [
+          "Agile sprints for rapid value realization.",
+          "Transparent progress and stakeholder engagement.",
+          "Continuous improvement based on iterative feedback."
+        ]
+      },
+      {
+        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
+        "deskImg": "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
+        "title": "SAP and Salesforce Partnership",
+        "subtitle": "The Power of Connected Ecosystems",
+        "desc": "As trusted partners with SAP and Salesforce, Rialtes delivers:",
+        "dataList": [
+          "Unified data and processes across CRM and ERP.",
+          "End-to-end lead-to-cash automation.",
+          "Enhanced customer, supplier, and employee experiences."
+        ]
+      }
+    ],
+    "whyRialtesData": [
+      "SAP Certified Partner with proven CPI integration success stories.",
+      "Global presence: United States, Canada, Singapore, India.",
+      "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
+      "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
+      "End-to-end support from advisory to post-go-live optimization."
+    ],
+    "headerTitle": "SAP Cloud Integration Services",
+    "headerSubTitle1": "Empowering Intelligent,",
+    "headerSubTitle2": "Connected Enterprises",
+    "pageDescTitle1": "Seamless Integrations.",
+    "pageDescTitle2": "Smarter Operations.",
+    "pageDescTitle3": "Elevated Experiences.",
+    "pageDescSubTitle": "Seamless Integrations. Smarter Operations. Elevated Experiences.",
+    "pageDesc": "At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.",
+    "thoughtTitle": "Thought Leadership",
+    "thoughtSubTitle": "Why Integration is the Backbone of Digital Transformation",
+    "thoughtDesc": "In today’s hyper-connected business landscape, companies face mounting challenges:",
+    "thoughtDesc2": "Rialtes and SAP Cloud Integration enable enterprises to break silos, automate workflows, and unlock real-time intelligence to power modern, responsive businesses.",
+    "endToEndTitle": "Rialtes End-to-End SAP Cloud Integration Services",
+    "specializedTitle": "Specialized SAP Cloud Integrations Rialtes Delivers",
+    "keyTitle": "Key Capabilities:",
+    "benefitsTitle": " Business Benefits:",
+    "integrationTitle": "Integration with Oracle, Workday, and More",
+    "integrationSubTitle": "Connected Enterprise Ecosystem",
+    "integrationDesc": "We help you connect SAP to Oracle, Workday, and other cloud/on-prem platforms to create a frictionless and intelligent enterprise.",
+    "whyRialtesTitle": "Why Rialtes?",
+    "contactTitle": "Ready to Connect Your Enterprise with SAP Cloud Integration?",
+    "contactSubTitle1": "Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value.",
+    "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
+  },
+  "uiPath": {
+    "headerTitle": "UiPath RPA Services",
+    "headerDesc": "Driving Next-Gen Automation for a Smarter Enterprise",
+    "operationsTitle": "Transform Your Enterprise Operations with Intelligent RPA.",
+    "operationsDescOne": "At Rialtes, we help businesses harness the full power of UiPath’s Robotic Process Automation (RPA) platform to automate end-to-end processes, reduce manual effort, improve accuracy, and drive scalable growth.",
+    "operationsDescTwo": " With a proven track record of deploying RPA solutions integrated with SAP, Salesforce, Oracle, and other enterprise platforms, Rialtes enables companies to focus on innovation while bots handle repetitive work.",
+    "uiTitle": "Why RPA with UiPath?",
+    "uiDesc": "Enterprises today face enormous pressure to streamline processes, ensure compliance, and improve customer and employee experiences. UiPath RPA delivers:",
+    "whyRpaData": [
+      "Seamless automation of repetitive, time-consuming tasks.",
+      "End-to-end integration with enterprise platforms like SAP, Salesforce, Oracle.",
+      "Rapid ROI and reduced operational costs.",
+      "Agility to scale as business grows."
+    ],
+    "whyDesc": "At Rialtes, we make RPA real for businesses — combining strategy, design, deployment, and continuous optimization.",
+    "serviceTitle": "Rialtes’ End-to-End RPA Services",
+    "serviceeDesc": "Powered by UiPath",
+    "featureBoxes": [
+      {
+        "title": "Automation Strategy & License Advisory",
+        "description": "Identify high-value use cases and license optimization."
+      },
+      {
+        "title": "Bot Design, Development, and Implementation",
+        "description": "Scalable and secure bot development."
+      },
+      {
+        "title": "Pre-built Industry Accelerators",
+        "description": "Pre-built Industry Accelerators"
+      },
+      {
+        "title": "Quality Assurance & Compliance",
+        "description": "Robust testing and regulatory adherence."
+      },
+      {
+        "title": "Post-Go-Live Bot Monitoring and Support",
+        "description": "Ensuring smooth operation and continuous improvement."
+      }
+    ],
+    "industryTitle": "Pre-Configured Industry Accelerators",
+    "industryDesc": "Rialtes offers industry-specific RPA accelerators for rapid deployment in:",
+    "featureBoxes2": [
+      {
         "icon": "/images/uipath/manufcature.svg",
         "title": "Manufacturing",
-        "description":
-            "Supply chain and inventory bots."
-    },
-    {
+        "description": "Supply chain and inventory bots."
+      },
+      {
         "icon": "/images/uipath/semiconductor.svg",
         "title": "Semiconductor",
-        "description":
-            "Procurement and order processing bots."
-    },
-    {
+        "description": "Procurement and order processing bots."
+      },
+      {
         "icon": "/images/uipath/automotive.svg",
         "title": "Automotive",
-        "description":
-            "Dealer network and parts management bots."
-    },
-    {
+        "description": "Dealer network and parts management bots."
+      },
+      {
         "icon": "/images/uipath/retail.svg",
         "title": "Retail",
-        "description":
-            "Order and customer service bots."
-    }
-         ],
-        "autoTitle": "RPA Automation with SAP Ariba",
-        "autoSubtitle": " Smart Procurement and Supplier Collaboration",
-         "autoDesc": "Rialtes has deep expertise in automating procurement and supplier workflows in SAP Ariba using UiPath bots.",
-        "titleOne": "Ariba Use Cases:",
-        "titleTwo": "Benefits:",
-        "aribaUseCases" : [
-    "Automated vendor onboarding and updates.",
-    "Invoice processing and three-way matching automation.",
-    "Contract lifecycle management and approvals.",
-    "Compliance checks and audit readiness automation."
-         ],
-         "aribaBenefits" :[
-    "Accelerated procurement cycles.",
-    "Error-free supplier transactions.",
-    "Improved compliance and vendor satisfaction."
-        ],
+        "description": "Order and customer service bots."
+      }
+    ],
+    "autoTitle": "RPA Automation with SAP Ariba",
+    "autoSubtitle": " Smart Procurement and Supplier Collaboration",
+    "autoDesc": "Rialtes has deep expertise in automating procurement and supplier workflows in SAP Ariba using UiPath bots.",
+    "titleOne": "Ariba Use Cases:",
+    "titleTwo": "Benefits:",
+    "aribaUseCases": [
+      "Automated vendor onboarding and updates.",
+      "Invoice processing and three-way matching automation.",
+      "Contract lifecycle management and approvals.",
+      "Compliance checks and audit readiness automation."
+    ],
+    "aribaBenefits": [
+      "Accelerated procurement cycles.",
+      "Error-free supplier transactions.",
+      "Improved compliance and vendor satisfaction."
+    ],
 
-        "hanaTitle": " RPA Automation with SAP S/4HANA",
-        "hanaSubtitle": "Intelligent ERP Process Automation",
-        "hanaDesc": "Rialtes helps clients leverage UiPath to automate mission-critical workflows within SAP S/4HANA, enhancing operational efficiency.",
-        "hanaTitleOne": "S/4HANA Use Cases:",
-        "hanaTilteTwo": "Benefits:",
-        "s4hanaUseCases" : [
-    "Order-to-cash automation — from order creation to invoicing.",
-    "Inventory and materials management updates.",
-    "Automated purchase order creation and validation.",
-    "Financial closing, reconciliation, and reporting."
-        ],
-        "s4hanaBenefits" : [
-    "Reduced manual data entry and errors.",
-    "Faster, streamlined ERP processes.",
-    "Enhanced compliance and data accuracy."
-        ],
-        "rpaTitle": "RPA Automation with SAP SuccessFactors",
-        "rpaSubtitle": "Streamlining HR Operations",
-        "rpaDesc": "Rialtes automates complex and repetitive HR workflows in SuccessFactors using UiPath, creating a more agile HR function.",
-        "rpaTitleOne": " SuccessFactors Use Cases:",
-        "rpaTilteTwo":" Benefits:",
-        "successFactorUsecases" : [
-    "Employee onboarding and offboarding automation.",
-    "Payroll and benefits data management.",
-    "Performance management tracking and reminders.",
-    "HR compliance document management."
-        ],
-        "successFactorBenefits" :[
-    "Faster and smoother HR operations.",
-    "Enhanced employee onboarding experience.",
-    "Improved data accuracy and compliance."
-        ],
+    "hanaTitle": " RPA Automation with SAP S/4HANA",
+    "hanaSubtitle": "Intelligent ERP Process Automation",
+    "hanaDesc": "Rialtes helps clients leverage UiPath to automate mission-critical workflows within SAP S/4HANA, enhancing operational efficiency.",
+    "hanaTitleOne": "S/4HANA Use Cases:",
+    "hanaTilteTwo": "Benefits:",
+    "s4hanaUseCases": [
+      "Order-to-cash automation — from order creation to invoicing.",
+      "Inventory and materials management updates.",
+      "Automated purchase order creation and validation.",
+      "Financial closing, reconciliation, and reporting."
+    ],
+    "s4hanaBenefits": [
+      "Reduced manual data entry and errors.",
+      "Faster, streamlined ERP processes.",
+      "Enhanced compliance and data accuracy."
+    ],
+    "rpaTitle": "RPA Automation with SAP SuccessFactors",
+    "rpaSubtitle": "Streamlining HR Operations",
+    "rpaDesc": "Rialtes automates complex and repetitive HR workflows in SuccessFactors using UiPath, creating a more agile HR function.",
+    "rpaTitleOne": " SuccessFactors Use Cases:",
+    "rpaTilteTwo": " Benefits:",
+    "successFactorUsecases": [
+      "Employee onboarding and offboarding automation.",
+      "Payroll and benefits data management.",
+      "Performance management tracking and reminders.",
+      "HR compliance document management."
+    ],
+    "successFactorBenefits": [
+      "Faster and smoother HR operations.",
+      "Enhanced employee onboarding experience.",
+      "Improved data accuracy and compliance."
+    ],
 
-        "SalesforceTitle": "RPA Automation with Salesforce",
-        "SalesforceSubtitle": " Powering Customer-Centric Automation",
-        "SalesforceDesc": "Rialtes enables clients to extend UiPath RPA to Salesforce, improving CRM, sales, and service processes.",
-        "SalesforceTitleOne": "Salesforce Use Cases:",
-        "SalesforceTilteTwo": "Benefits:",
-        "salesforceUsecases" : [
-    "Automated lead and opportunity management.",
-    "Customer case and service ticket processing.",
-    "Account and contact data enrichment.",
-    "Contract creation and customer onboarding automation."
-       ],
-       "salesforceBenefits" :[
-    "Faster sales cycles.",
-    "Better customer service and engagement.",
-    "Real-time, accurate CRM data."
+    "SalesforceTitle": "RPA Automation with Salesforce",
+    "SalesforceSubtitle": " Powering Customer-Centric Automation",
+    "SalesforceDesc": "Rialtes enables clients to extend UiPath RPA to Salesforce, improving CRM, sales, and service processes.",
+    "SalesforceTitleOne": "Salesforce Use Cases:",
+    "SalesforceTilteTwo": "Benefits:",
+    "salesforceUsecases": [
+      "Automated lead and opportunity management.",
+      "Customer case and service ticket processing.",
+      "Account and contact data enrichment.",
+      "Contract creation and customer onboarding automation."
     ],
-          "focusTitle": "Industry-Focused UiPath RPA Use Cases",
-        "focusDesc": "Ready-to-Deploy",
-        "headingOne": "Automotive Industry",
-        "headingTwo": "Manufacturing & Semiconductor",
-        "headingThree": "Retail",
-        "headingFour": "HR (Cross-Industry)",
-    "automativeIndustryData" : [
-    "Dealer order automation.",
-    "Warranty claims and service request processing.",
-    " Parts supply chain and vendor management."
+    "salesforceBenefits": [
+      "Faster sales cycles.",
+      "Better customer service and engagement.",
+      "Real-time, accurate CRM data."
     ],
-    "manufacturingData" :[
-    "Procurement and supply chain automation.",
-    "Inventory updates and production scheduling.",
-    "Quality compliance and reporting."
+    "focusTitle": "Industry-Focused UiPath RPA Use Cases",
+    "focusDesc": "Ready-to-Deploy",
+    "headingOne": "Automotive Industry",
+    "headingTwo": "Manufacturing & Semiconductor",
+    "headingThree": "Retail",
+    "headingFour": "HR (Cross-Industry)",
+    "automativeIndustryData": [
+      "Dealer order automation.",
+      "Warranty claims and service request processing.",
+      " Parts supply chain and vendor management."
     ],
-      "retailData" : [
-    "Customer order management and fulfillment.",
-    "Returns processing and inventory updates.",
-    "Pricing and product updates across platforms."
+    "manufacturingData": [
+      "Procurement and supply chain automation.",
+      "Inventory updates and production scheduling.",
+      "Quality compliance and reporting."
     ],
-     "hrData" : [
-    "Employee lifecycle automation (hire-to-retire).",
-    "Payroll, benefits, and compliance management."
+    "retailData": [
+      "Customer order management and fulfillment.",
+      "Returns processing and inventory updates.",
+      "Pricing and product updates across platforms."
     ],
-        "dataTitle": "Data Visualization & Analytics with UiPath + Tableau/Qlik + Data Cloud",
-        "visualizationData" : [
-    "Real-time bot performance dashboards.",
-    "Automation impact and ROI tracking.",
-    "Integrated insights from Data Cloud and Tableau/Qlik.",
-    "Bottleneck identification and continuous optimization."
-     ],
-        "aiTitle": " AI-Enhanced RPA",
-        "aiSubtitle": "Taking Automation to the Next Level",
-        "aiDesc": "Rialtes integrates AI with UiPath bots to automate more intelligent, complex processes:",
-         "aiEnhanceData" :[
-    "Intelligent document processing (IDP) for contracts, invoices.",
-    "Natural Language Processing (NLP) for customer interactions.",
-    "Predictive analytics for proactive decision-making.",
-    "Automated compliance and risk monitoring."
-],
-        "globalTitle": "Proven Delivery with Global Reach & Agile Execution",
-        "globalSubtitle": "Rialtes’ certified SCRUM project managers and global delivery centers ensure seamless automation delivery:",
-        "why":"Why Rialtes for UiPath RPA?",
-        "provenData" : [
-    "Agile sprint execution and transparent collaboration.",
-    "Delivery hubs in United States, Canada, Singapore, and India.",
-    "SAP-certified partner with deep integration and process knowledge."
-],
-    "whyRiatlesData" : [
-    "Proven track record of enterprise RPA with SAP, Salesforce, Oracle.",
-    "Industry-specific accelerators for faster automation.",
-    "Full-spectrum services — strategy to support.",
-    "Focus on value, scalability, and rapid ROI. 24/7 monitoring and support for bots."
-],
-"contactTitle":"Ready to Transform with UiPath RPA?",
-"contactSubtitle":"Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation.",
-"contactSubtitleOne":"Contact us today for a free automation assessment!"
+    "hrData": [
+      "Employee lifecycle automation (hire-to-retire).",
+      "Payroll, benefits, and compliance management."
+    ],
+    "dataTitle": "Data Visualization & Analytics with UiPath + Tableau/Qlik + Data Cloud",
+    "visualizationData": [
+      "Real-time bot performance dashboards.",
+      "Automation impact and ROI tracking.",
+      "Integrated insights from Data Cloud and Tableau/Qlik.",
+      "Bottleneck identification and continuous optimization."
+    ],
+    "aiTitle": " AI-Enhanced RPA",
+    "aiSubtitle": "Taking Automation to the Next Level",
+    "aiDesc": "Rialtes integrates AI with UiPath bots to automate more intelligent, complex processes:",
+    "aiEnhanceData": [
+      "Intelligent document processing (IDP) for contracts, invoices.",
+      "Natural Language Processing (NLP) for customer interactions.",
+      "Predictive analytics for proactive decision-making.",
+      "Automated compliance and risk monitoring."
+    ],
+    "globalTitle": "Proven Delivery with Global Reach & Agile Execution",
+    "globalSubtitle": "Rialtes’ certified SCRUM project managers and global delivery centers ensure seamless automation delivery:",
+    "why": "Why Rialtes for UiPath RPA?",
+    "provenData": [
+      "Agile sprint execution and transparent collaboration.",
+      "Delivery hubs in United States, Canada, Singapore, and India.",
+      "SAP-certified partner with deep integration and process knowledge."
+    ],
+    "whyRiatlesData": [
+      "Proven track record of enterprise RPA with SAP, Salesforce, Oracle.",
+      "Industry-specific accelerators for faster automation.",
+      "Full-spectrum services — strategy to support.",
+      "Focus on value, scalability, and rapid ROI. 24/7 monitoring and support for bots."
+    ],
+    "contactTitle": "Ready to Transform with UiPath RPA?",
+    "contactSubtitle": "Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation.",
+    "contactSubtitleOne": "Contact us today for a free automation assessment!"
+  },
+  "tosca": {
+    "headerTitle": "Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
+    "headerSubTitle": "Tricentis TOSCA",
+    "empowerTitleOne": "Empowering Enterprises with",
+    "empowerTitleTwo": "End-to-End Automated Testing, QTest, LiveCompare & NeoLoad Solutions",
+    "empowerDescOne": "At Rialtes, we help organizations transform their testing lifecycle with Tricentis Tosca — the industry’s leading continuous testing platform. With deep expertise and a team of highly certified Tosca experts, Rialtes delivers scalable, intelligent, and resilient testing solutions that dramatically improve quality, speed, and efficiency.",
+    "empowerDescTwo": "From test automation to risk-based testing and performance testing, Rialtes ensures seamless Tosca implementation, integration, and optimization, tailored to the unique needs of enterprises across industries — including Manufacturing, Healthcare, Retail, Semiconductor, Automotive, and Financial Services.",
+    "whyTitle": " Why Choose Rialtes for Tosca Implementation?",
+    "whySubTitle": " Trusted Partner for End-to-End Testing Automation Success",
+    "whychooseData": [
+      "Certified Tosca experts with real-world industry experience",
+      "End-to-end services: Advisory, Implementation, Design, QA, Integration, Post-go-live Support",
+      "Strong partnerships with Tricentis and deep expertise in Tosca, qTest, LiveCompare, NeoLoad",
+      "Accelerated implementation using pre-built accelerators and reusable testing frameworks",
+      "Seamless integration with ERP (SAP, Oracle), Salesforce, and modern cloud ecosystems"
+    ],
+    "whyDesc": "Rialtes ensures that automated testing becomes a strategic advantage, not just a process.",
+    "serviceTitle": "End-to-End Tosca Implementation & Advisory Services",
+    "serviceTitleOne": "Build a Resilient Automation Foundation",
+    "serviceTitleTwo": "Make Automated Testing a Seamless Part of Your Development Lifecycle",
+    "ServiceDescOne": "Rialtes helps enterprises fully adopt Tosca for modern, agile, and DevOps-driven organizations:",
+    "ServiceDescTwo": "With Rialtes, organizations achieve faster releases, improved quality, and reduced manual efforts through intelligent test automation.",
+    "endToEndData": [
+      "End-to-end Tosca installation and configuration",
+      "Test case design, optimization, and risk-based test management",
+      "API, UI, Mobile, and Data integrity testing using Tosca",
+      "Integration with DevOps pipelines and CI/CD (Jenkins, Azure DevOps, GitLab)",
+      "Test maintenance automation using Tosca’s AI-powered self-healing capabilities"
+    ],
+    "testTitle": "qTest Implementation & Test Management",
+    "testSubTitle": "End-to-End Test Lifecycle Orchestration",
+    "testSubTitleOne": "Manage Testing with Confidence & Control",
+    "testDesc": "qTest offers centralized test management, and Rialtes ensures organizations leverage its full potential:",
+    "testDescTwo": "Rialtes makes qTest a central hub for testing, enabling transparency, collaboration, and control across all test activities.",
+    "qTestData": [
+      "qTest installation, configuration, and integration with Tosca and Jira",
+      "End-to-end test case, defect, and requirement management",
+      "Real-time dashboards and advanced analytics for testing insights",
+      "Risk-based testing alignment and compliance-driven testing workflows",
+      "Seamless alignment with Agile, DevOps, and continuous testing models"
+    ],
+    "liveTitle": "LiveCompare Implementation",
+    "liveSubTitle": "AI-Powered Change Impact Analysis",
+    "liveSubTitleOne": "Accelerate Safe SAP Updates with AI-Driven Impact Analysis",
+    "liveCompareData": [
+      "LiveCompare deployment and configuration",
+      "AI-based change impact analysis for SAP custom code, configurations, and transports",
+      "Automated identification of test cases affected by SAP updates and patches",
+      "Seamless integration with Tosca and qTest for risk-based test execution",
+      "Continuous impact analysis to align with agile and DevOps methodologies"
+    ],
+    "liveDesc": " Rialtes helps organizations use LiveCompare to cut testing time and focus only on what matters most when upgrading SAP systems:",
+    "livePara": "Rialtes makes SAP testing intelligent, targeted, and faster — reducing risk and effort while accelerating transformation.",
+    "neoTitle": " NeoLoad Performance Testing Implementation",
+    "neoSubTitle": " Ensure Resilience and Speed at Scale",
+    "neoSubTitleOne": "Make Every Release Fast, Scalable, and Resilient",
+    "neoDesc": "NeoLoad enables continuous performance testing, and Rialtes ensures enterprises stress test their applications effectively:",
+    "neoLoadData": [
+      "NeoLoad setup and integration for SAP, Oracle, Salesforce, and custom apps",
+      "Performance, scalability, and endurance testing aligned with business-critical processes",
+      "Automated performance test scripts integrated into CI/CD pipelines",
+      "Real-time performance metrics and dashboards for actionable insights",
+      "Integration with Tosca for end-to-end functional and performance test synergy"
+    ],
+    "neoPara": "Rialtes helps ensure that your applications are built for performance from day one, delivering seamless user experiences at scale.",
+    "toscaTitle": "Rialtes’ Certified Tosca Experts",
+    "toscaSubTitle": "Unmatched Testing Excellence",
+    "toscaDesc": "Rialtes is proud to have a team of highly certified Tosca, qTest, LiveCompare, and NeoLoad experts, ensuring deep technical knowledge and proven industry practices:",
+    "toscaPara": " Rialtes combines technical expertise with strategic vision, helping organizations achieve automation excellence.",
+    "expertsList": [
+      {
+        "lineWidth": "3px",
+        "text": "Tricentis-certified Tosca Automation Specialists"
+      },
+      {
+        "lineWidth": "4px",
+        "text": "Certified DevOps and CI/CD experts for seamless pipeline integration"
+      },
+      {
+        "lineWidth": "4px",
+        "text": "Domain specialists in SAP, Oracle, Salesforce, and custom enterprise applications"
+      },
+      {
+        "lineWidth": "5px",
+        "text": "Agile, SCRUM, and SAFe certified project managers for effective test lifecycle governance"
+      }
+    ],
+    "sapTitle": "Seamless Integration with SAP, Oracle, Salesforce, and More",
+    "sapSubTitle": " Unified Testing Across Complex Enterprise Landscapes",
+    "sapDesc": "Rialtes ensures Tosca and its suite of tools integrate flawlessly with your enterprise systems:",
+    "sapPara": " With Rialtes, testing becomes a connected, intelligent, and business-aligned process.",
+    "seamlessData": [
+      "SAP S/4HANA, SAP SuccessFactors, SAP Ariba",
+      "Salesforce (CRM, Service Cloud, Marketing Cloud)",
+      "Oracle EBS, Fusion Cloud, and HCM",
+      "Custom-built and legacy applications",
+      "Seamless data flow across qTest, Tosca, and DevOps tools for end-to-end visibility"
+    ],
+    "factTitle": "Interesting Facts About Tosca & Automated Testing",
+    "enterprisesDesc": " of enterprises say automated testing is critical to",
+    "enterprisesPara": "accelerating digital transformation.",
+    "companiesDesc": " Companies using Tosca report up to",
+    "companiesPara": "reduction in",
+    "companiesParaOne": "manual testing efforts.",
+    "aiDesc": "AI-powered Tosca self-healing reduces test maintenance by",
+    "aiPara": " on average.",
+    "platformDesc": "Tricentis’ integrated platform (Tosca, qTest, NeoLoad) covers over",
+    "platformPara": " of enterprise testing needs in one suite.",
+    "contactTitle": "Ready to Transform Your Testing Journey?",
+    "contactSubTitle": "Let Rialtes help you embrace Tosca and modern test automation to ensure every release is high-quality, fast, and secure.",
+    "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form.",
+    "": ""
+  },
+  "mulesoft": {
+    "MmuleSoftTitle": "MuleSoft Integration Solutions",
+    "digitalOne": "Connecting Digital",
+    "digitaltwo": "Businesses using the",
+    "digitalThree": "MuleSoft Platform",
+    "leadingTitle": "Leading Platform to Unlock an Integrated View of Your Business",
+    "leadingDesc": "An integration solution should help businesses establish connectivity and address integration challenges. MuleSoft offers a future-proof, low-friction, unified connectivity platform for this purpose. Integrate systems, applications, and data—on-premises and in the cloud for real-time visibility and agility to make decisions and stay ahead of disruption.",
+    "unleashingTitle": "Unleashing Digital Transformation with Robust Integration Solution",
+    "serveTitle": "Industries We Serve",
+    "servicesTitle": "Our MuleSoft Integration Services cater to a wide range of industries",
+    "driveTitle": "Drive Measurable Business Outcomes",
+    "contactTitle": "Take the next step to operational excellence with MuleSoft Integration Services",
+    "pointsData": [
+      "Leverage the power of integration to streamline robust workflows",
+      "Deliver exceptional customer experiences",
+      "Reduce maintenance expenses while enhancing efficiency",
+      "Drive operational transformation with modern integration strategies",
+      "Unite applications, devices, and data into one cohesive ecosystem"
+    ],
+    "serveData": [
+      {
+        "_id": 1,
+        "tittle": "Healthcare",
+        "descrip": "Ensure seamless patient data exchange across systems for better care delivery."
+      },
 
-    },
-    "tosca":{
-        "headerTitle":"Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
-        "headerSubTitle":"Tricentis TOSCA",
-        "empowerTitleOne":"Empowering Enterprises with",
-        "empowerTitleTwo":"End-to-End Automated Testing, QTest, LiveCompare & NeoLoad Solutions",
-        "empowerDescOne": "At Rialtes, we help organizations transform their testing lifecycle with Tricentis Tosca — the industry’s leading continuous testing platform. With deep expertise and a team of highly certified Tosca experts, Rialtes delivers scalable, intelligent, and resilient testing solutions that dramatically improve quality, speed, and efficiency.",
-        "empowerDescTwo": "From test automation to risk-based testing and performance testing, Rialtes ensures seamless Tosca implementation, integration, and optimization, tailored to the unique needs of enterprises across industries — including Manufacturing, Healthcare, Retail, Semiconductor, Automotive, and Financial Services.",
-        "whyTitle": " Why Choose Rialtes for Tosca Implementation?",
-        "whySubTitle": " Trusted Partner for End-to-End Testing Automation Success",
-        "whychooseData" : [
-         "Certified Tosca experts with real-world industry experience",
-         "End-to-end services: Advisory, Implementation, Design, QA, Integration, Post-go-live Support",
-         "Strong partnerships with Tricentis and deep expertise in Tosca, qTest, LiveCompare, NeoLoad",
-         "Accelerated implementation using pre-built accelerators and reusable testing frameworks",
-         "Seamless integration with ERP (SAP, Oracle), Salesforce, and modern cloud ecosystems"
-         ],
-        "whyDesc": "Rialtes ensures that automated testing becomes a strategic advantage, not just a process.",
-        "serviceTitle": "End-to-End Tosca Implementation & Advisory Services",
-        "serviceTitleOne": "Build a Resilient Automation Foundation",
-        "serviceTitleTwo": "Make Automated Testing a Seamless Part of Your Development Lifecycle",
-        "ServiceDescOne": "Rialtes helps enterprises fully adopt Tosca for modern, agile, and DevOps-driven organizations:",
-        "ServiceDescTwo": "With Rialtes, organizations achieve faster releases, improved quality, and reduced manual efforts through intelligent test automation.",
-        "endToEndData" : [
-          "End-to-end Tosca installation and configuration",
-          "Test case design, optimization, and risk-based test management",
-          "API, UI, Mobile, and Data integrity testing using Tosca",
-          "Integration with DevOps pipelines and CI/CD (Jenkins, Azure DevOps, GitLab)",
-          "Test maintenance automation using Tosca’s AI-powered self-healing capabilities"
-         ],
-        "testTitle": "qTest Implementation & Test Management",
-        "testSubTitle": "End-to-End Test Lifecycle Orchestration",
-        "testSubTitleOne": "Manage Testing with Confidence & Control",
-        "testDesc": "qTest offers centralized test management, and Rialtes ensures organizations leverage its full potential:",
-        "testDescTwo": "Rialtes makes qTest a central hub for testing, enabling transparency, collaboration, and control across all test activities.",
-        "qTestData" : [
-        "qTest installation, configuration, and integration with Tosca and Jira",
-        "End-to-end test case, defect, and requirement management",
-        "Real-time dashboards and advanced analytics for testing insights",
-        "Risk-based testing alignment and compliance-driven testing workflows",
-        "Seamless alignment with Agile, DevOps, and continuous testing models"
-         ],
-        "liveTitle": "LiveCompare Implementation",
-        "liveSubTitle": "AI-Powered Change Impact Analysis",
-        "liveSubTitleOne": "Accelerate Safe SAP Updates with AI-Driven Impact Analysis",
-        "liveCompareData" : [
-        "LiveCompare deployment and configuration",
-        "AI-based change impact analysis for SAP custom code, configurations, and transports",
-        "Automated identification of test cases affected by SAP updates and patches",
-        "Seamless integration with Tosca and qTest for risk-based test execution",
-        "Continuous impact analysis to align with agile and DevOps methodologies"
-         ],
-        "liveDesc": " Rialtes helps organizations use LiveCompare to cut testing time and focus only on what matters most when upgrading SAP systems:",
-        "livePara": "Rialtes makes SAP testing intelligent, targeted, and faster — reducing risk and effort while accelerating transformation.",
-        "neoTitle": " NeoLoad Performance Testing Implementation",
-        "neoSubTitle": " Ensure Resilience and Speed at Scale",
-        "neoSubTitleOne": "Make Every Release Fast, Scalable, and Resilient",
-        "neoDesc": "NeoLoad enables continuous performance testing, and Rialtes ensures enterprises stress test their applications effectively:",
-        "neoLoadData" : [
-        "NeoLoad setup and integration for SAP, Oracle, Salesforce, and custom apps",
-        "Performance, scalability, and endurance testing aligned with business-critical processes",
-        "Automated performance test scripts integrated into CI/CD pipelines",
-        "Real-time performance metrics and dashboards for actionable insights",
-        "Integration with Tosca for end-to-end functional and performance test synergy"
-        ],
-        "neoPara": "Rialtes helps ensure that your applications are built for performance from day one, delivering seamless user experiences at scale.",
-        "toscaTitle": "Rialtes’ Certified Tosca Experts",
-        "toscaSubTitle": "Unmatched Testing Excellence",
-        "toscaDesc": "Rialtes is proud to have a team of highly certified Tosca, qTest, LiveCompare, and NeoLoad experts, ensuring deep technical knowledge and proven industry practices:",
-        "toscaPara":" Rialtes combines technical expertise with strategic vision, helping organizations achieve automation excellence.",
-         "expertsList" : [
-    {
-      "lineWidth": "3px",
-      "text": "Tricentis-certified Tosca Automation Specialists"
-    },
-    {
-      "lineWidth": "4px",
-      "text": "Certified DevOps and CI/CD experts for seamless pipeline integration"
-    },
-    {
-      "lineWidth": "4px",
-      "text": "Domain specialists in SAP, Oracle, Salesforce, and custom enterprise applications"
-    },
-    {
-      "lineWidth": "5px",
-      "text": "Agile, SCRUM, and SAFe certified project managers for effective test lifecycle governance"
-    }
-  ],
-        "sapTitle": "Seamless Integration with SAP, Oracle, Salesforce, and More",
-        "sapSubTitle": " Unified Testing Across Complex Enterprise Landscapes",
-        "sapDesc": "Rialtes ensures Tosca and its suite of tools integrate flawlessly with your enterprise systems:",
-        "sapPara": " With Rialtes, testing becomes a connected, intelligent, and business-aligned process.",
-        "seamlessData" : [
-        "SAP S/4HANA, SAP SuccessFactors, SAP Ariba",
-        "Salesforce (CRM, Service Cloud, Marketing Cloud)",
-        "Oracle EBS, Fusion Cloud, and HCM",
-        "Custom-built and legacy applications",
-        "Seamless data flow across qTest, Tosca, and DevOps tools for end-to-end visibility"
-       ],
-        "factTitle": "Interesting Facts About Tosca & Automated Testing",
-        "enterprisesDesc": " of enterprises say automated testing is critical to",
-        "enterprisesPara": "accelerating digital transformation.",
-        "companiesDesc": " Companies using Tosca report up to",
-        "companiesPara": "reduction in",
-        "companiesParaOne": "manual testing efforts.",
-        "aiDesc": "AI-powered Tosca self-healing reduces test maintenance by",
-        "aiPara": " on average.",
-        "platformDesc": "Tricentis’ integrated platform (Tosca, qTest, NeoLoad) covers over",
-        "platformPara": " of enterprise testing needs in one suite.",
-        "contactTitle": "Ready to Transform Your Testing Journey?",
-        "contactSubTitle": "Let Rialtes help you embrace Tosca and modern test automation to ensure every release is high-quality, fast, and secure.",
-        "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form.",
-        "": ""
-    }
+      {
+        "_id": 2,
+        "tittle": "Retail",
+        "descrip": "Connect eCommerce platforms, inventory systems, and payment gateways for a superior customer experience."
+      },
 
+      {
+        "_id": 3,
+        "tittle": "Finance",
+        "descrip": "Enable real-time data flow across banking systems to improve operational efficiency and compliance."
+      },
+
+      {
+        "_id": 4,
+        "tittle": "Manufacturing",
+        "descrip": "Integrate supply chain management, ERP, and IoT systems for optimized production and logistics."
+      }
+    ],
+    "driveData": [
+      {
+        "_id": 1,
+        "percent": "63%",
+        "des": "Reduction in\nmaintenance costs"
+      },
+      {
+        "_id": 2,
+        "percent": "4x",
+        "des": "Faster time-to-market for\nnew applications and\nservices"
+      },
+      {
+        "_id": 3,
+        "percent": "64%",
+        "des": "Improvement in\ncustomer satisfaction"
+      }
+    ],
+    "cardData": [
+      {
+        "_id": 1,
+        "tittle": "MuleSoft Consulting",
+        "descrip": "Gain strategic insights and guidance to unlock the full potential of MuleSoft. We conduct a thorough assessment of your MuleSoft license to ensure you maximize your investment and turn your business data into valuable digital assets."
+      },
+      {
+        "_id": 2,
+        "tittle": "MuleSoft Implementation",
+        "descrip": "We provide comprehensive MuleSoft support from setup to go-live, aligned with business goals. Deploy business capabilities (via APIs) for future reuse and quicker project turnaround."
+      },
+      {
+        "_id": 3,
+        "tittle": "MuleSoft Development",
+        "descrip": "We provide top-notch MuleSoft development that enhances productivity and accelerates your business growth. Our services ensure your application development process is efficient and flexible, empowering your organization to be self-sufficient and agile."
+      },
+      {
+        "_id": 4,
+        "tittle": "MuleSoft Enablement",
+        "descrip": "Support your team through the certification process with MuleSoft consulting expertise, promote self-service, and accelerate project delivery. Take advantage of official MuleSoft training tailored to your specific needs and use cases."
+      },
+      {
+        "_id": 5,
+        "tittle": "MuleSoft Support Services",
+        "descrip": "Maximize MuleSoft efficiency with platform optimization, performance tuning, and 24/7 support. Trust us to ensure your business-critical APIs run smoothly, allowing you to focus on your next key initiative."
+      },
+      {
+        "_id": 6,
+        "tittle": "Mule 3 to 4 Migration",
+        "descrip": "Transition to Mule 4 with minimal disruption and downtime by leveraging advanced features. Allow your team to focus on development while we handle the migration."
+      }
+    ],
+    "integrationTitle": "MuleSoft Integration Services Aligned with Your Business Needs",
+    "integrationDesc": "Our experts provide an extensive array of MuleSoft services that share your vision and values."
+  }
 }

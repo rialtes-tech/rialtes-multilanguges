@@ -235,6 +235,8 @@
     },
     "exploreMore": {
         "headerTitle": "Explorar más",
+        "previousSlide": "Diapositiva anterior",
+        "nextSlide": "Siguiente diapositiva",
         "slides": [
             {
                 "id": 1,

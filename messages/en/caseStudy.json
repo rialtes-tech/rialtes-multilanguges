@@ -1532,5 +1532,108 @@
         "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]
+  },
+  "yardiManageCaseStudy": {
+    "yardiTitle": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+    "realEstate": "Real Estate",
+    "date": "04 September 2024",
+    "read": "8 min read",
+    "clientProfile": "Client Profile",
+    "clientDesc": "A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.",
+    "businessTitle": "Business Challenge ",
+    "solutionsTitle": "Solutions",
+    "solutionsDesc": "Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:",
+    "benefitsTitle": "Benefits",
+    "businessList": [
+      {
+        "title": "Skill Silos",
+        "description": "Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays."
+      },
+      {
+        "title": "Talent Shortage",
+        "description": "Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack."
+      },
+      {
+        "title": "Lack of Centralized Oversight",
+        "description": "Projects were loosely organized, limiting effective collaboration and knowledge sharing."
+      }
+    ],
+    "solutionList": [
+      {
+        "title": "Capability Assessment",
+        "desc": "Conducted a thorough review of the client’s internal team and identified skill gaps."
+      },
+      {
+        "title": "Team Augmentation",
+        "desc": "Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage."
+      },
+      {
+        "title": "Collaborative Transition",
+        "desc": "Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities."
+      },
+      {
+        "title": "End-to-End Ownership",
+        "desc": "After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model."
+      }
+    ],
+    "benefitsList": [
+      "With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones.",
+      "Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%.",
+      "By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions.",
+      "Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team.",
+      "The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally."
+    ],
+    "slides": [
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "category": "Healthcare",
+        "industry": "Real Estate",
+        "date": "17 Nov 2024",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "category": "Manufacturing",
+        "industry": "Healthcare",
+        "date": "14 Oct 2024",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "category": "Real Estate",
+        "industry": "Manufacturing",
+        "date": "04 Sept 2024",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/yardi-managed-services"
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "category": "Manufacturing",
+        "industry": "Retail & e-Commerce",
+        "date": "08 Jan 2025",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "category": "Real Estate",
+        "industry": "Hi-Tech",
+        "date": "22 Dec 2024",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "url": "insights/case-studies/realForce-banking-module-ach"
+      }
+    ]
   }
 }

@@ -235,6 +235,8 @@
     },
     "exploreMore":{
         "headerTitle":"Explore More",
+        "previousSlide":"Previous slide",
+        "nextSlide":"Next slide",
         "slides" :[
     {
       "id": 1,

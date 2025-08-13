@@ -2,93 +2,52 @@
 // pages/case-study-detail.js
 import Head from "next/head";
 import Image from "next/image";
-import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
-;
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/caseStudy.json";
+import esContent from "../../../../../../messages/es/caseStudy.json";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+
 import Script from "next/script";
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "Article",
-  "mainEntityOfPage": {
+  mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
+    "@id":
+      "https://www.rialtes.com/insights/case-studies/yardi-managed-services/",
   },
-  "headline": "Case Study: Driving Operational Efficiency with Yardi Managed Services",
-  "description": "Learn how Rialtes empowered a public housing authority to achieve operational excellence, ensure regulatory compliance, and streamline workflows through comprehensive Yardi managed services.",
-  "image": "https://www.rialtes.com/images/case-studies/case-study-6.webp",
-  "author": {
+  headline:
+    "Case Study: Driving Operational Efficiency with Yardi Managed Services",
+  description:
+    "Learn how Rialtes empowered a public housing authority to achieve operational excellence, ensure regulatory compliance, and streamline workflows through comprehensive Yardi managed services.",
+  image: "https://www.rialtes.com/images/case-studies/case-study-6.webp",
+  author: {
     "@type": "Organization",
-    "name": "Rialtes"
+    name: "Rialtes",
   },
-  "publisher": {
+  publisher: {
     "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
+    name: "Rialtes",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
+    },
   },
-  "articleSection": "Case Studies",
-  "datePublished": "2024-09-04"
-
-}
-const slides = [
-  {
-    id: 3,
-    image: "/images/case-studies/case study 1_thumb_n.webp",
-    category: "Healthcare",
-    industry: "Real Estate",
-    date: "17 Nov 2024",
-    title: "Automating Order Processing in Healthcare using MuleSoft",
-    description: "A global medical technology company that develops and manufactures innovative products",
-    url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-  },
-  {
-    id: 4,
-    image: "/images/case-studies/case-study-4_thumb.webp",
-    category: "Manufacturing",
-    industry: "Healthcare",
-    date: "14 Oct 2024",
-    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-    url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-  },
-  {
-    id: 6,
-    image: "/images/case-studies/case-study-6_thumb.webp",
-    category: "Real Estate",
-    industry: "Manufacturing",
-    date: "04 Sept 2024",
-    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: 'insights/case-studies/yardi-managed-services'
-  },
-  {
-    id: 7,
-    image: "/images/case-studies/case study 3_thumb_n.webp",
-    category: "Manufacturing",
-    industry: "Retail & e-Commerce",
-    date: "08 Jan 2025",
-    title: "DevOps Transformation using Copado and Salesforce",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-  },
-  {
-    id: 8,
-    image: "/images/case-studies/case-study-2_thumb_n.webp",
-    category: "Real Estate",
-    industry: "Hi-Tech",
-    date: "22 Dec 2024",
-    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: 'insights/case-studies/realForce-banking-module-ach'
-  },
-  // Add more blog objects as needed
-];
+  articleSection: "Case Studies",
+  datePublished: "2024-09-04",
+};
 
 export default function Page() {
-  const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-managed-services";
+  const t = useTranslations("yardiManageCaseStudy");
+  const locale = useLocale();
+  const Content = locale === "es" ? esContent : enContent;
+  const { slides, solutionList, businessList, benefitsList } =
+    Content.yardiManageCaseStudy;
+
+  const fullUrl =
+    "https://www.rialtes.com/insights/case-studies/yardi-managed-services";
 
   return (
     <div className="min-h-screen bg-white">
@@ -97,8 +56,8 @@ export default function Page() {
         description="Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader."
         canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
       />
-    
-         <Script
+
+      <Script
         id="schema-yardi-managed"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -115,30 +74,32 @@ export default function Page() {
         />
       </section>
 
-
-      <section
-        className="custom-container"
-      >
-
+      <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1100px] 4xl:w-[1100px] xl:w-[850px]">
           <div className="">
-            <h1 className="text-[#000000] py-6  leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services</h1>
+            <h1 className="text-[#000000] py-6  leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">
+              {t("yardiTitle")}
+            </h1>
           </div>
-         
+
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black ">
-              <div className='pb-6'>
-                <span className='text-[#0092E0]'>Real Estate</span> <span className='text-[#ACACAC]'> | </span>04 September 2024
+              <div className="pb-6">
+                <span className="text-[#0092E0]">{t("realEstate")}</span>
+                <span className="text-[#ACACAC]"> | </span>
+                {t("date")}
               </div>
               <div className="flex flex-col">
-                <span>8 min read</span>
+                <span>{t("read")}</span>
               </div>
             </div>
             <div className="pt-4"></div>
             <div className="flex flex-row gap-6 ml-[-8px]">
               <div className="max-w-[40px]">
                 <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                    fullUrl
+                  )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -148,23 +109,34 @@ export default function Page() {
                     width={0}
                     height={0}
                     sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
                     priority
                   />
                 </a>
               </div>
               <div className="max-w-[40px]">
                 <a
-                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                    fullUrl
+                  )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                   target="_blank"
                   rel="noopener noreferrer"
-                >                      <Image
+                >
+                  <Image
                     src="/images/case-studies/twitter.svg"
                     alt="Twitter"
                     width={0}
                     height={0}
                     sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
                     priority
                   />
                 </a>
@@ -175,74 +147,74 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Client Profile</h2>
-              <p className="text-black">A prominent multifamily real estate firm based in the U.S. specializes in acquiring, developing, and repositioning residential and commercial properties. Focusing on operational excellence and long-term value creation, the firm is dedicated to building thriving communities while maximizing returns for its investors.</p>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("clientProfile")}
+              </h2>
+              <p className="text-black">{t("clientDesc")}</p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Business Challenge </h2>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("businessTitle")}
+              </h2>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                 <li className="pb-4"><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Skill Silos </h3> : Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays.</li>
-              <li className="pb-4" ><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Talent Shortage </h3> : Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack.</li>
- 
-                  <li ><h3 className=" h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Lack of Centralized Oversight  </h3> : Projects were loosely organized, limiting effective collaboration and knowledge sharing.</li>
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium space-y-4">
+                  {businessList.map((item, index) => (
+                    <li key={index}>
+                      <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                        {item.title}
+                      </h3>{" "}
+                      : {item.description}
+                    </li>
+                  ))}
                 </ul>
-
               </div>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Solutions </h2>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("solutionsTitle")}
+              </h2>
 
-              <p className="text-black pb-6">Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:</p>
+              <p className="text-black pb-6">{t("solutionsDesc")}</p>
 
-
-            <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
-                <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Capability Assessment </h3> : Conducted a thorough review of the client’s internal team and identified skill gaps.</li>
-
-                <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Team Augmentation </h3> :
-                 Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage.</li>
-
-                <li className="pb-4"><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">Collaborative Transition </h3> : Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities.</li>
-
-                <li ><h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">End-to-End Ownership </h3> : After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model.</li>
-              </ul>
-            </div>
-
-
+              <div className="pl-2">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium space-y-4">
+                  {solutionList.map((item, index) => (
+                    <li key={index}>
+                      <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                        {item.title}
+                      </h3>{" "}
+                      : {item.desc}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">Benefits</h2>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                {t("benefitsTitle")}
+              </h2>
 
-             <div className="pl-2">
-               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
-                <p className="text-black pb-4"><li >With a follow-the-sun model, the client now receives round-the-clock assistance, ensuring zero operational downtime across time zones</li></p>
-
-                <p className="text-black pb-4"><li >Multi-resource coverage eliminated dependency on individual contributors, increasing system resilience by 90%</li></p>
-                <p className="text-black pb-4"><li >By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions</li></p>
-               <p className="text-black pb-4"><li >Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team</li></p> 
-                <p className="text-black "><li >The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally</li></p> 
-              </ul>
-             </div>
-
+              <div className="pl-2">
+                <UnorderedList
+                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                  liClassName="pb-4 text-black last:pb-0"
+                  arrName={benefitsList}
+                />
+              </div>
             </div>
           </div>
-    
         </div>
       </section>
 
       {/* Latest Blogs */}
-      <div
-        className="py-10 custom-container lg:pr-0"
-      >
+      <div className="py-10 custom-container lg:pr-0">
         <RelatedTopicsCarousel slides={slides} />
-
       </div>
     </div>
   );
