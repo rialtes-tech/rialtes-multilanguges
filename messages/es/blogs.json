@@ -2062,5 +2062,790 @@
         "completeLink": "soluciones de integración de SAP SuccessFactors",
         "completeDesc3": "personalizadas y completas para ayudarte a compartir datos entre cualquier módulo de SAP o solución de terceros. Nuestro equipo cuenta con la experiencia funcional, las habilidades técnicas y la experiencia real para ayudar a los clientes a aprovechar software de RR. HH. en la nube como SAP SuccessFactors. Contáctanos hoy en",
         "completeDesc4": "para comenzar con uno de nuestros consultores expertos en SAP SuccessFactors."
+    },
+    "enhancingCompliance": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo Funciona Realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, particularmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de atención al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar interacciones con clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora potenciada por el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Mejorando el Cumplimiento: La Importancia de la Revisión de la Lista de Partes Sancionadas en SAP GTS para Transacciones con Terceros",
+                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, resaltando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Mejorando el Cumplimiento: La Importancia de la Revisión de la Lista de Partes Sancionadas en SAP GTS para Transacciones con Terceros",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentiva, Agentforce. Esta adición permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Mejorando el Cumplimiento: La Importancia de la Revisión de la Lista de Partes Sancionadas en SAP GTS para Transacciones con Terceros",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Mejorando el Cumplimiento: La Importancia de la Revisión de la Lista de Partes Sancionadas en SAP GTS para Transacciones con Terceros",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus objetivos y con los objetivos generales de la organización, hacer lo correcto se vuelve algo instintivo."
+            }
+        ],
+        "blogTopic": "SAP GTS",
+        "blogTitle": "Mejorando el Cumplimiento: La Importancia de la Revisión de la Lista de Partes Sancionadas en SAP GTS para Transacciones con Terceros",
+        "blogMainData": "Mantener el cumplimiento con las regulaciones de comercio internacional es obligatorio. Las empresas que participan en comercio transfronterizo deben garantizar que sus transacciones cumplan con las sanciones impuestas por los gobiernos y las leyes de control de exportaciones. El incumplimiento puede dar lugar a severas sanciones económicas, daños a la reputación y consecuencias legales.",
+        "blogMainData2": "Muchas empresas asumen que pueden omitir la revisión de sus órdenes de venta y compra contra listas de partes sancionadas al tratar con entidades extranjeras. Algunas creen conocer lo suficiente a sus socios comerciales, mientras que otras dudan en invertir en un proceso de revisión sistemático. Algunas confían en verificaciones manuales o realizan revisiones solo después de que los pedidos han sido procesados y enviados. Desafortunadamente, este enfoque con frecuencia resulta en multas cuando descubren que, sin saberlo, han enviado mercancía a entidades prohibidas. SAP Global Trade Services (SAP GTS) cuenta con capacidades de revisión de clase mundial que reducen el riesgo de comerciar con partes sancionadas. Ofrece una solución integral para gestionar el cumplimiento comercial utilizando Acuerdos de Libre Comercio (ALC), incluyendo una potente función para la revisión de listas de partes sancionadas (SPL, por sus siglas en inglés).",
+        "understandingTitle": "Entendiendo la Revisión de la Lista de Partes Sancionadas",
+        "understandingDesc": "Una lista de partes sancionadas recopila individuos y organizaciones con los que está legalmente prohibido comerciar. Estas listas son emitidas por agencias gubernamentales y están disponibles a través de proveedores de datos. Cumplir con las listas de partes sancionadas es obligatorio para todos los comerciantes. La revisión de la Lista de Partes Sancionadas (SPL) implica verificar que las personas, empresas o entidades involucradas en una transacción no aparezcan en listas de vigilancia gubernamentales o internacionales. Estas listas identifican a las partes con las que el comercio está prohibido o restringido debido a sanciones, embargos o preocupaciones de seguridad. Ejemplos incluyen la lista de Nacionales Especialmente Designados (SDN) del Departamento del Tesoro de EE. UU. y la lista de medidas restrictivas de la Unión Europea. Por ejemplo, al exportar bienes, puedes automatizar el proceso comparando las direcciones de los consignatarios con las entradas en la lista de partes sancionadas.",
+        "understandingDesc2": "SAP GTS ofrece una plataforma centralizada para automatizar los procesos de revisión SPL, garantizando el cumplimiento sin interrumpir las operaciones comerciales. Al integrar la revisión SPL en sus flujos de trabajo, las empresas pueden reducir riesgos y mantener una postura de cumplimiento proactiva.",
+        "commonData": [
+            {
+                "title": "Características de la Revisión SPL en SAP GTS",
+                "list": [
+                    {
+                        "title": "Revisión de la Lista de Partes Sancionadas en el Menú de Área de GTS con SAP GUI",
+                        "desc": ": Para realizar la revisión de la lista de partes sancionadas dentro del mismo entorno que otras áreas y funciones del sistema GTS, puedes utilizar el menú de área para una integración fluida."
+                    },
+                    {
+                        "title": "Revisión de la Lista de Partes Sancionadas con la App Móvil",
+                        "desc": ": La aplicación SAP Sanctioned Party List para iPhone permite a los gerentes de cumplimiento atender problemas urgentes y sensibles al tiempo en cualquier lugar. Integrada con la aplicación SAP Global Trade Services, esta app proporciona acceso directo a excepciones vía iPhone, ayudando a los gerentes de cumplimiento a mitigar riesgos y evitar impactos negativos en la empresa."
+                    },
+                    {
+                        "title": "Revisión Centralizada",
+                        "desc": ": SAP GTS consolida los procesos de revisión en múltiples sistemas, asegurando que todos los socios comerciales, transacciones y documentos sean verificados con las actualizaciones más recientes de SPL."
+                    },
+                    {
+                        "title": "Revisión en Tiempo Real",
+                        "desc": ": Las transacciones se revisan en tiempo real, lo que permite a las empresas identificar y abordar posibles problemas de cumplimiento antes de su ejecución."
+                    },
+                    {
+                        "title": "Reglas Personalizables",
+                        "desc": ": Las empresas pueden configurar reglas de revisión basadas en requisitos regulatorios específicos, necesidades comerciales o tolerancia al riesgo."
+                    },
+                    {
+                        "title": "Integración con SAP ERP y Otros Sistemas",
+                        "desc": ": SAP GTS se integra perfectamente con SAP ERP y sistemas de terceros, permitiendo un intercambio de datos eficiente y procesos optimizados."
+                    },
+                    {
+                        "title": "Registro de Auditoría e Informes",
+                        "desc": ": Herramientas completas de registro e informes ayudan a las organizaciones a demostrar cumplimiento durante auditorías e investigaciones."
+                    }
+                ]
+            },
+            {
+                "title": "Pasos para Habilitar la Revisión de Terceros en SAP GTS",
+                "desc": "La revisión de terceros amplía las verificaciones SPL más allá de los socios comerciales directos para incluir subcontratistas, transitarios y otros intermediarios. Así es como las organizaciones pueden hacerlo:",
+                "list": [
+                    {
+                        "title": "Definir Escenarios de Revisión",
+                        "desc": "Identifica todas las entidades de terceros que requieren revisión. Ejemplos incluyen proveedores, operadores logísticos e instituciones financieras involucradas en tu cadena de suministro."
+                    },
+                    {
+                        "title": "Cargar entradas de la lista de partes sancionadas",
+                        "desc": ": Utiliza el código de transacción /SAPSLL/SPL_UL01 para cargar entradas de la lista de partes sancionadas en el sistema SAP GTS."
+                    },
+                    {
+                        "title": "Configurar Datos de Socios Comerciales",
+                        "desc": ": Asegúrate de que los datos relevantes de terceros estén mantenidos en SAP GTS. Esto incluye nombres, direcciones y datos de contacto."
+                    },
+                    {
+                        "title": "Actualizar Listas de Partes Sancionadas",
+                        "desc": ": Actualiza regularmente las SPL en SAP GTS para reflejar los últimos cambios regulatorios. Se pueden configurar actualizaciones automáticas para extraer datos de fuentes gubernamentales o de terceros."
+                    },
+                    {
+                        "title": "Configurar Reglas de Revisión",
+                        "desc": ": Configura parámetros de revisión para incluir entidades de terceros. Utiliza lógica difusa para considerar variaciones en nombres, ortografía o abreviaturas. Define regulaciones legales para mapear la legislación relevante de los países en los que deseas utilizar SAP GTS."
+                    },
+                    {
+                        "title": "Integrar Sistemas de Terceros",
+                        "desc": ": Las empresas que utilizan sistemas externos para gestionar datos de terceros deben establecer puntos de integración para garantizar una transferencia fluida de datos a SAP GTS."
+                    },
+                    {
+                        "title": "Configurar una Conexión RFC (Remote Function Call)",
+                        "desc": ": Configura una conexión RFC entre SAP GTS y TREX."
+                    },
+                    {
+                        "title": "Probar la Configuración",
+                        "desc": ": Realiza pruebas de revisión para validar que las entidades de terceros sean correctamente marcadas para revisión o aprobación."
+                    },
+                    {
+                        "title": "Configurar alertas por correo electrónico",
+                        "desc": ": Configura alertas para advertir a los usuarios cuando creen un socio o documento que esté bloqueado."
+                    },
+                    {
+                        "title": "Capacitar a los Usuarios",
+                        "desc": ": Educa a los equipos de cumplimiento sobre cómo identificar y resolver entidades marcadas en SAP GTS para garantizar una resolución eficiente de problemas."
+                    }
+                ]
+            }
+        ],
+        "complyTitle": "Cumplir con las Regulaciones de Comercio Internacional",
+        "complyDesc": "La revisión de la lista de partes sancionadas es un componente vital de la estrategia de cumplimiento de una empresa. SAP GTS simplifica y mejora este proceso, ofreciendo capacidades de revisión en tiempo real y automatizadas que se integran perfectamente con los sistemas existentes. Habilitar la revisión de terceros permite que las empresas fortalezcan aún más su marco de cumplimiento, reduzcan riesgos y mantengan una ventaja competitiva en los mercados globales.",
+        "complyDesc2": "Implementar la revisión SPL y ampliarla a entidades de terceros demuestra un compromiso con prácticas comerciales éticas y con la adhesión a las regulaciones. Con SAP GTS, las organizaciones pueden navegar las complejidades del cumplimiento comercial internacional con confianza y eficiencia. Como",
+        "complyLink": "socio certificado de SAP",
+        "complyDesc3": "con amplia experiencia en comercio global y gestión de riesgos, ayudamos a las empresas a navegar estos procesos de forma eficiente, ofreciendo el máximo valor y retorno de la inversión. Nuestros consultores SAP cuentan con las habilidades y la experiencia para abordar sus necesidades críticas mientras capacitan a sus equipos internos para una mejora e innovación continuas."
+    },
+    "agentforceTesting": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "como-funciona-realmente-salesforce-agentforce",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando relevancia, especialmente en organizaciones que trabajan con grandes equipos de agentes, como agentes de ventas, representantes de atención al cliente y personal de servicio en campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: Descubriendo el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas escalan, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Centro de Pruebas de Agentforce: Redefiniendo las pruebas de IA con datos sintéticos",
+                "description": "Herramientas como Agentforce están redefiniendo nuestra visión de los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se usan con frecuencia en el contexto de la automatización impulsada por inteligencia artificial y las interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dic 2024",
+                "title": "Cómo integrar SAP SuccessFactors con Microsoft Office 365 para una colaboración mejorada",
+                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) y una robusta suite de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0. ¿Cómo transforman las tecnologías digitales la agricultura para un mejor mañana?",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India, y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo está alineada con sus objetivos y los de la organización en general, hacer lo correcto se vuelve algo instintivo."
+            }
+        ],
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "Centro de Pruebas de Agentforce: Redefiniendo las pruebas de IA con datos sintéticos",
+        "blogMainData": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agente, Agentforce. Esta adición permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción. Agentforce, disponible de forma general desde septiembre, es una suite de bajo código diseñada para ayudar a las empresas a crear agentes de IA capaces de razonamiento autónomo para soluciones impulsadas por IA en ventas, servicio, marketing y comercio. El Centro de Pruebas de Agentforce ofrece herramientas para ayudar a los usuarios empresariales a evaluar y validar agentes antes de su implementación. Estos agentes operan de forma autónoma, un aspecto clave de la IA agente, una estrategia empresarial en crecimiento para transformar procesos de negocio automatizando funciones específicas sin intervención humana.",
+        "riseTitle": "El auge de la IA agente y el papel de las pruebas",
+        "riseDesc": "La IA agente, caracterizada por sistemas autónomos capaces de razonar y tomar decisiones, ha surgido como una estrategia empresarial transformadora. La siguiente fase en la evolución de la IA agente podría centrarse en la evaluación y supervisión, ya que las empresas buscan mejorar la observabilidad de los agentes que están empezando a implementar. Al automatizar funciones específicas dentro de los procesos, como gestionar consultas de atención al cliente, administrar flujos de trabajo de ventas o personalizar el alcance del marketing, la IA agente permite a las empresas mejorar la eficiencia y la escalabilidad al tiempo que reduce la necesidad de intervención humana.",
+        "riseDesc2": "Implementar agentes tan avanzados presenta desafíos. Las pruebas son esenciales para garantizar que estos agentes puedan manejar escenarios complejos y reales manteniendo la precisión, seguridad y cumplimiento normativo. Aquí es donde el Centro de Pruebas de Agentforce ofrece herramientas diseñadas específicamente para abordar estos retos.",
+        "commonData": [
+            {
+                "title": "Centro de Pruebas de Agentforce, ¿qué es?",
+                "para": "El Centro de Pruebas de Agentforce es una completa suite de herramientas diseñada para ayudar a las empresas a probar y observar rigurosamente agentes de IA antes de implementarlos en producción. Estas herramientas permiten validar los modelos de IA en entornos controlados, garantizando que cumplan con los estándares de rendimiento y reduciendo los riesgos asociados con la implementación en el mundo real. La actualización del Centro de Pruebas incluye herramientas como la generación de interacciones sintéticas mediante lenguaje natural, entornos seguros de prueba (sandbox) y herramientas de monitoreo de rendimiento para evaluar agentes.",
+                "appTitle": "Aplicaciones",
+                "list": [
+                    {
+                        "title": "Generación de Interacciones Sintéticas:",
+                        "desc": "Simula interacciones reales usando lenguaje natural, permitiendo que los agentes experimenten una amplia gama de escenarios."
+                    },
+                    {
+                        "title": "Entornos Seguros de Prueba (Sandbox):",
+                        "desc": "Espacios de prueba aislados donde se pueden evaluar los agentes sin afectar los sistemas en vivo o los datos sensibles."
+                    },
+                    {
+                        "title": "Herramientas de Monitoreo de Rendimiento:",
+                        "desc": "Ofrecen información sobre cómo los agentes responden, razonan y se adaptan en situaciones dinámicas."
+                    }
+                ]
+            },
+            {
+                "title": "Redefiniendo las pruebas con datos sintéticos",
+                "para": "Entre las funcionalidades del Centro de Pruebas, el uso de datos sintéticos es quizá el más transformador. Los datos sintéticos son información generada artificialmente que imita conjuntos de datos reales. Permiten simular interacciones complejas con clientes, casos extremos y escenarios raros que serían difíciles de replicar. Así es como los datos sintéticos han revolucionado las pruebas de IA.",
+                "list": [
+                    {
+                        "title": "Escalabilidad:",
+                        "desc": "Se pueden generar grandes volúmenes de datos sintéticos, garantizando que los agentes se prueben con diversos escenarios sin las limitaciones de los datos reales."
+                    },
+                    {
+                        "title": "Rentabilidad:",
+                        "desc": "Evita los costes y retos logísticos de recopilar y anonimizar datos reales de clientes."
+                    },
+                    {
+                        "title": "Privacidad y Cumplimiento:",
+                        "desc": "Al no implicar información real de usuarios, minimiza los riesgos de privacidad y garantiza el cumplimiento con regulaciones como el RGPD."
+                    },
+                    {
+                        "title": "Preparación para Casos Extremos:",
+                        "desc": "Permite probar escenarios raros o extremos, garantizando que los agentes funcionen de forma fiable incluso en situaciones inesperadas."
+                    }
+                ]
+            }
+        ],
+        "aiTitle": "Pruebas y entornos sandbox generados por IA",
+        "aiDesc": "Las pruebas generadas por IA permiten a las empresas aprovechar modelos de IA para crear cientos de interacciones sintéticas, evaluando con qué frecuencia los agentes responden de acuerdo con los resultados esperados. Los entornos sandbox, como su nombre indica, proporcionan un espacio seguro y aislado para probar agentes mientras se replica la información de la empresa para simular escenarios reales. El monitoreo y la observabilidad mejoran este proceso introduciendo un historial de auditoría, que se mantiene cuando los agentes se despliegan en producción.",
+        "aiDesc2": "Salesforce destaca que la capacidad de generar interacciones sintéticas será invaluable para los usuarios empresariales, ya que les permite simular diversos escenarios de interacción con clientes y evaluar si el agente actúa como se espera. Un aspecto crítico de estas pruebas es determinar si el agente identifica correctamente el tema y la acción a gran escala en función de la entrada recibida. Salesforce también anunció la disponibilidad general de entornos sandbox para Agentforce y Data Cloud, diseñados para ayudar a las empresas a probar agentes en un entorno seguro y aislado. Estos entornos funcionan replicando los datos y configuraciones de producción de la empresa, ofreciendo un entorno de prueba realista.",
+        "whyTitle": "Por qué esto es importante para ti",
+        "whyDesc": "Para las empresas, implementar agentes de IA sin pruebas rigurosas puede generar malas experiencias para el cliente, interrupciones operativas y daños a la reputación. Al aprovechar las avanzadas herramientas del Centro de Pruebas de Agentforce, las empresas obtienen la confianza de que sus agentes de IA están listos para aplicaciones reales. La capacidad de generar interacciones sintéticas garantiza que los agentes estén preparados para manejar una amplia variedad de entradas, desde consultas rutinarias de clientes hasta conversaciones complejas y matizadas. Este nivel de preparación es fundamental para generar confianza, tanto con los interesados internos como con los usuarios finales.",
+        "whyDesc2": "El Centro de Pruebas de Agentforce es más que un conjunto de herramientas de prueba: es un paso hacia un futuro donde la IA agente pueda transformar sin problemas los procesos empresariales a gran escala. Al redefinir las pruebas de IA con datos sintéticos y entornos sandbox seguros, Salesforce está empoderando a las empresas para innovar más rápido, reducir riesgos y ofrecer experiencias excepcionales impulsadas por IA. Reafirma su compromiso de ayudar a las empresas a navegar por las complejidades de la adopción de la IA.",
+        "whyLink": "más sobre Agentforce",
+        "whyDesc3": "¿Interesado en aprender",
+        "whyDesc4": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en pruebas de IA y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para optimizar sus procesos empresariales."
+    },
+    "successfactorSupportsDiversity": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que trabajan con grandes equipos de agentes, como agentes de ventas, representantes de atención al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Cómo SAP SuccessFactors apoya las iniciativas de diversidad, equidad e inclusión",
+                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Cómo SAP SuccessFactors apoya las iniciativas de diversidad, equidad e inclusión",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentiva, Agentforce. Esta incorporación permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Cómo SAP SuccessFactors apoya las iniciativas de diversidad, equidad e inclusión",
+                "description": "La agricultura desempeña un papel importante en el crecimiento de la economía de la India, y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Cómo SAP SuccessFactors apoya las iniciativas de diversidad, equidad e inclusión",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia del equipo está alineada con sus metas y con los objetivos generales de la organización, hacer lo correcto se convierte en algo instintivo."
+            }
+        ],
+        "bloTopic": "Diversidad e Inclusión",
+        "blogTitle": "Cómo SAP SuccessFactors apoya las iniciativas de diversidad, equidad e inclusión",
+        "blogMainData": "La Diversidad, Equidad e Inclusión (DEI) ya no son componentes opcionales en un lugar de trabajo moderno; son pilares fundamentales para la innovación, la participación de los empleados y el éxito organizacional a largo plazo. Las empresas líderes entienden que fomentar un entorno diverso e inclusivo permite a los empleados mostrarse tal como son en el trabajo, lo que aumenta la creatividad, la productividad y, en última instancia, el crecimiento empresarial. En el mundo actual impulsado por la tecnología, las iniciativas de DEI requieren no solo compromiso, sino también las herramientas adecuadas.",
+        "blogMainData2": "La solución HCM de SAP, que incluye SuccessFactors, es una de esas plataformas que permite a las organizaciones construir, supervisar y mejorar sus iniciativas de DEI. Han lanzado una importante iniciativa multifuncional destinada a aprovechar la tecnología HCM para mejorar la diversidad e inclusión en la fuerza laboral. Esta iniciativa cubre todos los aspectos de la diversidad, con un enfoque inicial en promover la equidad de género en la contratación, gestión, desarrollo, retención, compensación y promoción.",
+        "overcomingTitle": "Superando los retos de DEI con SAP",
+        "overcomingData": [
+            {
+                "title": "Reclutamiento sin sesgos",
+                "desc": "Los procesos de contratación suelen ser el primer punto donde toman forma los esfuerzos de DEI. Sin embargo, esta etapa también es donde los sesgos inconscientes pueden influir inadvertidamente en las decisiones, limitando las oportunidades para una fuerza laboral verdaderamente diversa. SAP SuccessFactors ofrece herramientas como el Job Analyzer, que analiza las descripciones de los puestos para garantizar un lenguaje inclusivo. Esta función basada en IA está impulsada por datos y diseñada para ignorar los sesgos tradicionales, utilizando algoritmos para romper patrones históricos de subrepresentación.",
+                "desc2": "Además, SAP SuccessFactors utiliza analítica predictiva para ayudar a los gerentes y reclutadores a tomar decisiones justas y objetivas. Al proporcionar información sobre las cualificaciones y habilidades de los candidatos, la plataforma permite que los equipos de contratación se concentren en datos objetivos, reduciendo el impacto de los sesgos implícitos y fomentando prácticas de contratación más justas."
+            },
+            {
+                "title": "Gestión inclusiva del desempeño",
+                "desc": "Una vez que los empleados forman parte de una organización, las evaluaciones de desempeño son esenciales para su crecimiento y desarrollo. Sin embargo, los sesgos en las evaluaciones pueden frenar el progreso de los grupos subrepresentados. La herramienta Continuous Performance Management (CPM) de SAP SuccessFactors permite a las organizaciones dar seguimiento y retroalimentación continua, en lugar de depender únicamente de revisiones anuales tradicionales, que pueden ser subjetivas y estar influenciadas por eventos recientes.",
+                "desc2": "La herramienta CPM permite a los gerentes documentar interacciones y logros, garantizando una evaluación más completa de las contribuciones de un empleado y minimizando los sesgos en las evaluaciones. Además, las herramientas de calibración de SAP SuccessFactors aseguran que las calificaciones de desempeño sean coherentes entre diferentes equipos y departamentos, promoviendo oportunidades de crecimiento equitativas para todos."
+            },
+            {
+                "title": "Apoyo a Grupos de Recursos para Empleados (ERG)",
+                "desc": "Los Grupos de Recursos para Empleados (ERG) son esenciales para promover la inclusión y la comunidad dentro de las organizaciones. Estos grupos permiten que empleados de diferentes orígenes se reúnan, compartan experiencias y fomenten un sentido de pertenencia. SAP SuccessFactors proporciona una plataforma integrada para crear, gestionar y fomentar la participación en los ERG.",
+                "desc2": "Con herramientas para la colaboración y la creación de redes internas, la plataforma permite que los miembros de los ERG planifiquen eventos, comuniquen iniciativas y construyan conexiones entre equipos. Además, SAP SuccessFactors ofrece herramientas para rastrear la participación en los ERG y medir el impacto de estos grupos en la cultura organizacional, brindando a los líderes de DEI datos para comprender cómo contribuyen estos grupos a los esfuerzos de inclusión."
+            },
+            {
+                "title": "Construyendo una cultura de aprendizaje y crecimiento",
+                "desc2": "La diversidad y la inclusión requieren aprendizaje y desarrollo continuo para desafiar estereotipos, promover la conciencia cultural y fomentar el diálogo abierto. El ",
+                "desc3": "(LMS) de SAP SuccessFactors ofrece un amplio contenido sobre temas de DEI. Tanto empleados como líderes pueden acceder a cursos de capacitación, talleres y módulos de aprendizaje en línea diseñados para generar conciencia sobre sesgos inconscientes, privilegios y liderazgo inclusivo.",
+                "link": "Sistema de Gestión del Aprendizaje",
+                "desc4": "Con SAP SuccessFactors, las organizaciones pueden hacer que la formación relacionada con DEI sea obligatoria para todos los empleados, permitiendo realizar un seguimiento de las tasas de finalización y medir el impacto de la capacitación en la participación y el comportamiento de los empleados. Al promover el aprendizaje continuo, SAP SuccessFactors ayuda a las empresas a fomentar una cultura de inclusión y comprensión en todos los niveles organizacionales."
+            },
+            {
+                "title": "Analítica e informes para iniciativas DEI",
+                "desc": "Para lograr avances significativos, las organizaciones deben contar con información basada en datos que refleje sus esfuerzos de DEI. SAP SuccessFactors ofrece potentes capacidades de análisis e informes que ayudan a los líderes a seguir métricas de DEI, supervisar avances e identificar áreas de mejora. Con la herramienta People Analytics, los equipos de RRHH pueden analizar la demografía laboral, la equidad salarial, las tasas de promoción y la participación de los empleados en diferentes grupos.",
+                "desc2": "La herramienta también permite a las organizaciones establecer objetivos de DEI y supervisar su progreso en comparación con los puntos de referencia de la industria. Contar con datos precisos y en tiempo real es invaluable para las empresas que buscan comprender el éxito de sus iniciativas, abordar desigualdades y realizar cambios proactivos para apoyar a los grupos subrepresentados."
+            },
+            {
+                "title": "Trabajo flexible y políticas inclusivas",
+                "desc": "Las iniciativas de DEI no se limitan a la contratación y la formación; también abarcan políticas que crean un entorno laboral más flexible y de apoyo para todos los empleados. Employee Central de SAP SuccessFactors ayuda a las organizaciones a gestionar políticas inclusivas, como modalidades de trabajo flexibles, licencias parentales y beneficios adaptados a diversas necesidades.",
+                "desc2": "Con amplias opciones de autoservicio, los empleados pueden personalizar sus preferencias y necesidades laborales, asegurando que las políticas de la empresa sean inclusivas y accesibles. Esta flexibilidad es clave para apoyar a una fuerza laboral diversa con necesidades variadas, creando un entorno donde todos puedan prosperar."
+            },
+            {
+                "title": "Mejorando el sentido de pertenencia a través del compromiso de los empleados",
+                "desc": "El sentido de pertenencia es un componente vital de la DEI. Las herramientas de Employee Experience Management de SAP SuccessFactors, impulsadas por Qualtrics, permiten a las organizaciones recopilar opiniones de los empleados sobre cuestiones relacionadas con DEI y sobre la cultura laboral en general. Al rastrear el sentimiento de los empleados, las organizaciones pueden identificar áreas donde estos puedan sentirse excluidos o marginados, permitiendo a los líderes abordar estos problemas de forma proactiva.",
+                "desc2": "Las encuestas frecuentes y los bucles de retroalimentación dan voz a los empleados y les permiten compartir sus experiencias y sugerencias de mejora. Con esta información, los equipos de RRHH pueden priorizar acciones que fortalezcan el sentido de pertenencia y fomenten un entorno de seguridad psicológica."
+            }
+        ],
+        "hrSystemTitle": "¿Tu sistema de RRHH está haciendo lo suficiente por la diversidad y la inclusión?",
+        "hrSystemDesc": "Cuando las organizaciones priorizan la DEI, no solo mejoran la satisfacción y retención de los empleados, sino que también se posicionan para una mayor innovación y éxito a largo plazo. Las soluciones tecnológicas clave de RRHH y reclutamiento, incluidas herramientas de IA como el aprendizaje automático, pueden ayudar a abordar los retos de DEI. Estas plataformas de IA impulsadas por datos están diseñadas específicamente para ignorar los sesgos tradicionales, utilizando algoritmos para romper patrones históricos de subrepresentación. Respaldan una amplia gama de procesos de talento, desde decisiones de contratación hasta gestión de empleados, así como desarrollo, recompensas y promociones.",
+        "hrSystemDesc2": "Rialtes te ayuda a simplificar los procesos de RRHH y a crear un lugar de trabajo que involucra a sus empleados, mientras satisface las necesidades de la fuerza laboral global. Construye entornos laborales diversos, equitativos e inclusivos donde todos los empleados puedan prosperar con",
+        "hrSystemLink": "nuestras soluciones SAP SuccessFactors Employee Central.",
+        "hrSystemDesc3": " Contáctanos hoy en"
+    },
+    "automateCrucial": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo Funciona Realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando notoriedad, especialmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Automatiza Partes Cruciales de tu Organización de Salud con la Integración de athenahealth y Salesforce",
+                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Automatiza Partes Cruciales de tu Organización de Salud con la Integración de athenahealth y Salesforce",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agente, Agentforce. Esta incorporación permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Automatiza Partes Cruciales de tu Organización de Salud con la Integración de athenahealth y Salesforce",
+                "description": "La agricultura desempeña un papel significativo en la creciente economía de la India, y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Automatiza Partes Cruciales de tu Organización de Salud con la Integración de athenahealth y Salesforce",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos generales de la organización, hacer lo correcto se vuelve algo instintivo."
+            }
+        ],
+        "blogTopic": "Integración",
+        "blogTitle": "Automatiza tu Organización de Salud con la Integración de athenahealth y Salesforce",
+        "blogMainData": "La evidencia histórica indica claramente que una industria de la salud fragmentada por sistemas dispares genera ineficiencias operativas, trabajo duplicado, problemas de seguridad para los pacientes y un aumento de los costos para gestionar un mercado de atención médica cada vez más complejo. Ofrecer una experiencia fluida al paciente es tan importante como brindar atención de calidad. Con la creciente necesidad de una gestión eficiente de pacientes y de integración de datos, los proveedores de salud recurren a integraciones estratégicas de aplicaciones EHR/EMR y operaciones de datos para mejorar sus sistemas CRM.",
+        "blogMainData2": "Athena EMR ofrece servicios EHR fáciles de usar a más de 67,000 organizaciones médicas y de salud en los Estados Unidos. Combinar las capacidades de registro electrónico de salud (EHR) de Athena Health con las sólidas funciones CRM de Salesforce crea una herramienta poderosa para los proveedores de salud. Ofrece una visión completa del rendimiento de las organizaciones sanitarias y una vista de 360 grados del paciente, maximizando su capacidad para ayudar a los pacientes en sus esfuerzos de salud y bienestar.",
+        "understandingTitle": "Entendiendo athenahealth",
+        "understandingData": "athenahealth es un sistema de registro electrónico de salud (EHR) basado en la nube, diseñado para ayudar a los proveedores de salud a mejorar la atención al paciente. Su interfaz fácil de usar permite el acceso desde cualquier ubicación con conexión a internet, lo que lo hace ideal para proveedores que necesitan gestionar historiales médicos en múltiples ubicaciones. Es conocido por ofrecer servicios en la nube para registros electrónicos de salud (EHR), gestión del ciclo de ingresos y facturación médica, compromiso del paciente, coordinación de la atención y gestión de la salud poblacional. El sistema EHR de athenahealth es altamente interoperable, permitiendo una integración fluida con otros softwares de gestión de prácticas como laboratorios, imágenes y sistemas de facturación médica. También ofrece capacidades avanzadas de análisis, lo que empodera a los proveedores para tomar decisiones basadas en datos y así mejorar la atención al paciente.",
+        "commonData": [
+            {
+                "title": "Integración de athenahealth y Salesforce Health Cloud",
+                "desc": "Tanto athenahealth como Salesforce tienen capacidades sólidas, pero cuando se usan juntos, ofrecen una visión más completa de las interacciones y datos del paciente a lo largo de todo el recorrido sanitario. Integrar athenahealth con Salesforce resulta beneficioso en muchos aspectos.",
+                "list": [
+                    {
+                        "title": "Perfiles Unificados de Pacientes",
+                        "desc": "Con la integración, los proveedores de salud obtienen un perfil unificado del paciente, combinando datos clínicos de athenahealth con datos CRM de Salesforce. Esto permite ver historiales médicos, registros de citas e interacciones en un solo lugar. Tener una vista de 360 grados de cada paciente mejora el compromiso y permite ofrecer atención personalizada basada en datos completos, tanto históricos como en tiempo real."
+                    },
+                    {
+                        "title": "Mejora en la Coordinación de la Atención",
+                        "desc": "Los equipos de atención se benefician de actualizaciones en tiempo real sobre las condiciones de salud y planes de tratamiento de los pacientes para una mejor coordinación. Cuando un paciente recibe tratamiento, Salesforce puede alertar a los equipos de atención para programar citas de seguimiento y enviar instrucciones, asegurando que los pacientes sigan su plan de cuidado."
+                    },
+                    {
+                        "title": "Procesos de Programación y Facturación Optimizados",
+                        "desc": "La programación y facturación de pacientes puede ser complicada y llevar mucho tiempo. La integración simplifica este proceso al sincronizar automáticamente los datos de programación y facturación. Los pacientes pueden reservar citas en línea a través de la interfaz de Salesforce, y la información de facturación se sincroniza sin problemas con el módulo de facturación de athenahealth, reduciendo la carga administrativa y los errores."
+                    },
+                    {
+                        "title": "Comunicación Mejorada con los Pacientes",
+                        "desc": "Salesforce permite realizar campañas personalizadas para los pacientes mediante correos electrónicos automatizados, SMS y llamadas, facilitando recordatorios de citas, mensajes de seguimiento y chequeos de bienestar. La integración con athenahealth garantiza que estas comunicaciones se basen en datos de salud precisos y actualizados, mejorando las tasas de respuesta y la satisfacción del paciente."
+                    },
+                    {
+                        "title": "Analítica y Reportes Avanzados",
+                        "desc": "Las capacidades avanzadas de generación de reportes de Salesforce, combinadas con los datos EHR de athenahealth, permiten a los proveedores de salud crear informes detallados para obtener mejores perspectivas sobre la demografía de los pacientes, resultados de tratamientos y eficiencia en la atención. Los análisis basados en datos ayudan a optimizar recursos, prever la demanda de pacientes y supervisar métricas operativas."
+                    }
+                ]
+            },
+            {
+                "title": "Cómo Funciona la Integración para Mejorar la Conexión de Datos y la Comunicación con Pacientes",
+                "desc": "La integración de athenahealth y Salesforce implica conexiones API que sincronizan datos entre ambas plataformas. La integración puede desarrollarse de forma personalizada por programadores o facilitarse a través de aplicaciones de terceros especializadas en integraciones CRM para el sector salud.",
+                "list": [
+                    {
+                        "title": "Mapeo y Sincronización de Datos",
+                        "desc": "Sincronizar datos entre athenahealth y Salesforce requiere un mapeo cuidadoso para garantizar que la información de los registros EHR se refleje con precisión en los campos CRM. Los datos demográficos, detalles de citas, registros de facturación y planes de tratamiento de los pacientes se actualizan en tiempo real, permitiendo que ambos sistemas se mantengan alineados."
+                    },
+                    {
+                        "title": "Gestión de Flujos de Trabajo Automatizados",
+                        "desc": "Los flujos de trabajo en Salesforce pueden activar notificaciones, recordatorios o asignación de tareas en función de los datos de athenahealth. Por ejemplo, si los resultados de laboratorio de un paciente requieren un seguimiento inmediato, Salesforce puede crear automáticamente tareas y recordatorios para el equipo de atención."
+                    },
+                    {
+                        "title": "Gestión Segura de Datos y Cumplimiento Normativo",
+                        "desc": "La integración entre athenahealth y Salesforce debe cumplir con regulaciones como HIPAA. Ambos sistemas cuentan con protocolos de seguridad y cumplimiento incorporados, pero la capa de integración también debe incluir cifrado, controles de acceso y APIs seguras para proteger la información del paciente."
+                    }
+                ]
+            }
+        ],
+        "useCasesTitle": "Casos de Uso en el Sector Salud",
+        "useCasesData": [
+            {
+                "title": "Registro e Incorporación de Pacientes",
+                "desc": ": Los nuevos pacientes pueden completar formularios y proporcionar información directamente a través de Salesforce, lo que actualiza automáticamente los EHR de athenahealth, reduciendo la entrada manual de datos y minimizando errores."
+            },
+            {
+                "title": "Gestión Sincronizada de Información del Paciente",
+                "desc": ": Mejora el intercambio de actualizaciones de información de pacientes entre los sistemas EHR y CRM para mantener registros precisos y actualizados en todas las plataformas."
+            },
+            {
+                "title": "Alcance Proactivo al Paciente y Programas de Bienestar",
+                "desc": ": Utilizando las herramientas de marketing de Salesforce, los proveedores de salud pueden segmentar pacientes según sus datos de salud de athenahealth y enviar consejos de bienestar personalizados, recordatorios de chequeos anuales e instrucciones de cuidado posterior."
+            },
+            {
+                "title": "Programas de Manejo de Enfermedades Crónicas",
+                "desc": ": Para los pacientes que gestionan condiciones crónicas, el monitoreo frecuente es esencial. Integrar athenahealth con Salesforce permite a los equipos de atención hacer seguimiento del estado del paciente, enviar chequeos regulares y proporcionar recursos educativos para el manejo de condiciones específicas."
+            },
+            {
+                "title": "Gestión de Salud Poblacional",
+                "desc": ": Los datos clínicos de athenahealth combinados con la información CRM de Salesforce permiten a los proveedores analizar tendencias de salud en la población. Esto les permite focalizar poblaciones de alto riesgo con atención preventiva y educación en salud."
+            }
+        ],
+        "findTitle": "Encuentra la Solución Perfecta para las Necesidades de tu Organización de Salud",
+        "findDesc": "Puedes conectar y acceder a datos de forma segura a través de APIs, lo que te permite gestionar todos los registros de pacientes, desde el historial demográfico hasta su condición posterior al alta, en una sola plataforma. Este acceso optimizado es posible gracias a la integración de athenahealth y Salesforce.",
+        "findDesc2": "Ofrece la mejor atención posible a tus pacientes, mejora la coordinación del cuidado y reduce la probabilidad de errores médicos. Un equipo dedicado como el nuestro ofrece soluciones avanzadas de Salesforce adaptadas a tus necesidades específicas. Ya sea que tu organización busque mejorar su plataforma de athenahealth integrándola con Salesforce o actualizar una integración existente de Salesforce para optimizar la experiencia del usuario y el flujo de trabajo. Rialtes, una",
+        "findLink": "firma consultora de Salesforce",
+        "findDesc3": "con experiencia profunda en la",
+        "findLink2": "industria de la salud",
+        "findDesc4": ", está dedicada a aprovechar todo el potencial de Salesforce proporcionando experiencias de usuario excepcionales a nuestros clientes."
+    },
+    "successFactorPerformance": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que cuentan con grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: descubriendo el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce proporciona una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "Herramientas como Agentforce están redefiniendo nuestra visión de los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentiva, Agentforce. Esta incorporación permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos generales de la organización, hacer lo correcto se vuelve instintivo."
+            }
+        ],
+        "blogTopic": "SAP SuccessFactors",
+        "blogTitle": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+        "blogMainData": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos generales de la organización, hacer lo correcto se vuelve instintivo. SAP SuccessFactors Performance and Goal Management (PMGM) es una poderosa herramienta que ayuda a las organizaciones a alinear el rendimiento individual con los objetivos organizacionales, fomentando una cultura de alto rendimiento e impulsando la participación de los empleados.",
+        "blogMainData2": "Permite que tus empleados destaquen al alinear sus estrategias y rendimiento con sus objetivos. A través de su sistema probado, puedes ofrecer retroalimentación continua y mentoría significativa que aumente el compromiso y la productividad.",
+        "describingTitle": "Descripción de SAP SuccessFactors Performance and Goal Management",
+        "describingDesc": "SAP SuccessFactors PMGM está diseñado para agilizar y optimizar el proceso de gestión del rendimiento. El módulo cubre todo el ciclo de establecer, seguir y evaluar objetivos de los empleados, así como realizar evaluaciones de desempeño. Su objetivo es promover la transparencia y la alineación, facilitando que gerentes y empleados comprendan cómo las contribuciones individuales impulsan el éxito organizacional. Los gerentes pueden rastrear al instante el estado de todos los objetivos de su equipo para ahorrar tiempo y proporcionar a RR. HH. resúmenes de distribución de objetivos y perspectivas sobre su progreso.",
+        "configurationTitle": "Configuración e Implementación",
+        "configurationDesc": "La solución SuccessFactors Performance and Goals Management es altamente personalizable para satisfacer necesidades empresariales específicas, pero también ofrece funciones integradas listas para usar inmediatamente tras su activación. Los clientes pueden implementar Performance and Goals Management con el apoyo de socios de implementación de SAP. Un consultor con acceso a las interfaces de backend y frontend de la instancia de SuccessFactors del cliente configura los ajustes del sistema y personaliza los procesos y funciones para prepararlo para su uso.",
+        "keyFeaturesTitle": "Características y Funciones Clave",
+        "keyFeaturesData": [
+            {
+                "title": "Gestión de Objetivos",
+                "desc": "– Permite a gerentes y empleados establecer, alinear y realizar un seguimiento de objetivos. SuccessFactors PMGM asegura que los objetivos sean SMART (Específicos, Medibles, Alcanzables, Relevantes, con un Tiempo definido), creando un camino claro hacia el éxito individual y en equipo."
+            },
+            {
+                "title": "Gestión Continua del Rendimiento (CPM)",
+                "desc": "– Fomenta el diálogo continuo entre gerentes y empleados, yendo más allá de las revisiones anuales hacia reuniones más frecuentes y constructivas."
+            },
+            {
+                "title": "Calibración del Rendimiento",
+                "desc": "– Ofrece herramientas de calibración que permiten a gerentes y profesionales de RR. HH. calibrar calificaciones y garantizar coherencia entre diferentes equipos y departamentos."
+            },
+            {
+                "title": "Evaluaciones de Desempeño",
+                "desc": "– Estandariza el proceso de evaluación, proporcionando plantillas personalizables y herramientas tanto para la autoevaluación como para la evaluación por parte del gerente, facilitando la evaluación de logros y necesidades de desarrollo."
+            },
+            {
+                "title": "Retroalimentación de 360 Grados",
+                "desc": "– Permite obtener retroalimentación integral de compañeros, subordinados y supervisores, ofreciendo una visión completa del rendimiento del empleado."
+            },
+            {
+                "title": "Planes de Desarrollo y Carrera",
+                "desc": "– Vincula los resultados del rendimiento con planes de desarrollo, fomentando el crecimiento profesional y alineando el desarrollo del empleado con las necesidades del negocio."
+            }
+        ],
+        "howSapTitle": "¿Cómo es beneficioso para ti SAP SuccessFactors PMGM?",
+        "howSapDesc": "Adoptar SuccessFactors PMGM puede aportar varios beneficios significativos para una organización:",
+        "howSapData": [
+            {
+                "title": "Alineación de Objetivos",
+                "desc": ": La herramienta alinea los objetivos de los empleados con los objetivos organizacionales, asegurando que todos contribuyan a metas compartidas. Esta alineación promueve un sentido de propósito y mejora la responsabilidad."
+            },
+            {
+                "title": "Mayor Transparencia",
+                "desc": ": Con visibilidad sobre las expectativas y objetivos de rendimiento, los empleados entienden lo que se espera de ellos. A su vez, los gerentes obtienen una comprensión clara del progreso de cada miembro del equipo."
+            },
+            {
+                "title": "Mejora Continua",
+                "desc": ": La Gestión Continua del Rendimiento permite retroalimentación regular y constructiva, facilitando correcciones oportunas, motivación y desarrollo personal."
+            },
+            {
+                "title": "Decisiones Basadas en Datos",
+                "desc": ": SuccessFactors PMGM recopila datos de rendimiento que pueden analizarse para tomar decisiones informadas sobre gestión del talento, planificación de la fuerza laboral e iniciativas estratégicas."
+            },
+            {
+                "title": "Compromiso de los Empleados",
+                "desc": ": Un proceso de evaluación transparente y justo mejora la moral de los empleados y fomenta una cultura de reconocimiento y crecimiento."
+            }
+        ],
+        "implementTitle": "Implementar SAP SuccessFactors PMGM de forma Efectiva",
+        "implementDesc": "Necesitas una planificación cuidadosa y alineación estratégica con los objetivos del negocio para implementar esta solución.",
+        "implementData": [
+            {
+                "title": "Definir Objetivos y Métricas Claras",
+                "desc": "Define objetivos específicos para tu programa de gestión del rendimiento. Utiliza KPIs medibles y objetivos para garantizar que el rendimiento sea cuantificable y transparente."
+            },
+            {
+                "title": "Fomentar una Cultura de Retroalimentación Continua",
+                "desc": "Promueve una cultura donde gerentes y empleados mantengan un diálogo continuo sobre el rendimiento y los objetivos. CPM ayuda a generar confianza, ofrece retroalimentación oportuna y aborda problemas desde el principio."
+            },
+            {
+                "title": "Personalizar Plantillas de Evaluación",
+                "desc": "Cada organización tiene necesidades únicas, por lo que es recomendable personalizar las plantillas de evaluación para recopilar datos de rendimiento y necesidades de desarrollo relevantes que se alineen con los objetivos estratégicos de tu empresa."
+            },
+            {
+                "title": "Alinear Rendimiento y Desarrollo",
+                "desc": "Integra los resultados de rendimiento con los planes de aprendizaje y desarrollo. Utiliza los conocimientos de las evaluaciones de desempeño para guiar el desarrollo de los empleados y la planificación de la sucesión."
+            },
+            {
+                "title": "Fomentar la Retroalimentación de 360 Grados",
+                "desc": "La retroalimentación de 360 grados proporciona una visión integral del rendimiento del empleado. Este enfoque multidimensional ayuda a identificar fortalezas y áreas de mejora que pueden no detectarse en evaluaciones estándar."
+            },
+            {
+                "title": "Enfatizar la Capacitación de los Gerentes",
+                "desc": "Los gerentes desempeñan un papel crucial en el proceso PMGM. Capacítalos en cómo establecer objetivos efectivos, dar retroalimentación constructiva y realizar evaluaciones de manera objetiva para mantener la coherencia en toda la organización."
+            },
+            {
+                "title": "Aprovechar el Análisis para la Mejora Continua",
+                "desc": "Utiliza datos y análisis de SAP SuccessFactors PMGM para monitorear tendencias, identificar brechas de habilidades y gestionar datos de RR. HH. La revisión continua de datos permite optimizar procesos y adaptarse a las necesidades cambiantes del negocio."
+            }
+        ],
+        "empowerTitle": "Empoderar a los Empleados y la Dirección para Visualizar el Progreso",
+        "empowerDesc": "Se espera que SAP SuccessFactors incorpore análisis avanzados, información basada en IA y funcionalidades aún más personalizadas para la gestión del rendimiento y de objetivos. Tendencias emergentes como el análisis predictivo y la inteligencia artificial ofrecerán sugerencias proactivas para establecer objetivos, mejorar el rendimiento y crear planes de desarrollo personalizados.",
+        "empowerDesc2": "SAP SuccessFactors PMGM va más allá de las evaluaciones tradicionales para fomentar una cultura de crecimiento, alineación y alto rendimiento. Al implementar las mejores prácticas y centrarse en el desarrollo continuo, las organizaciones pueden aprovechar esta herramienta para maximizar el potencial de los empleados, alinear esfuerzos con los objetivos organizacionales e impulsar el éxito empresarial. ¿Estás listo para avanzar hacia una nueva era de mejora de procesos de RR. HH.? Nuestro equipo cuenta con la experiencia funcional, las habilidades técnicas y la experiencia real en gestión del rendimiento y de objetivos para guiarte hacia el éxito. Contáctanos hoy en",
+        "empowerDesc3": "para comenzar con uno de nuestros",
+        "empowerLink": "consultores expertos en SAP SuccessFactors"
+    },
+    "agentCopilot": {
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la diferencia y por qué importa?",
+        "blogMainData": "Herramientas como Agentforce están redefiniendo la manera en que vemos a los asistentes digitales, llevando a primer plano las distinciones entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia dentro de la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito específico. Sus diferencias en funcionalidad, autonomía y aplicaciones ideales los hacen adecuados para roles únicos en el lugar de trabajo.",
+        "blogMainData2": "Los Agentes son herramientas impulsadas por IA que realizan tareas y toman decisiones de forma autónoma, con una mínima intervención humana. Los Copilotos son complementos de software que ofrecen asistencia en tiempo real a los usuarios dentro de las funciones de una aplicación. Los chatbots, o simplemente bots, son programas informáticos creados para imitar la conversación humana a través de texto o voz. Analicemos cada una de estas herramientas de IA, destacando las fortalezas únicas de los Agentes de Agentforce, y exploremos cómo pueden simplificar tareas, optimizar flujos de trabajo y mejorar la productividad.",
+        "commonData": [
+            {
+                "title": "Agentes de Agentforce: Los solucionadores de problemas adaptativos",
+                "desc": "Los Agentes de Agentforce representan el siguiente nivel en IA: son asistentes conversacionales de confianza, diseñados para manejar tareas de manera autónoma y adaptarse a escenarios cambiantes. Son soluciones preconfiguradas que pueden recibir información de un usuario y traducirla en una serie de acciones basadas en instrucciones que se pueden configurar y mejorar. Con el aprendizaje automático y algoritmos adaptativos, pueden reconocer de forma independiente oportunidades de acción, anticipar próximos pasos e iniciar tareas dentro de casos de uso y parámetros definidos. A diferencia de los bots tradicionales, los Agentes de Agentforce pueden comprender y reaccionar al contexto, lo que los hace muy valiosos en entornos complejos y dinámicos.",
+                "desc2": "Los agentes destacan por su adaptabilidad, pueden responder a datos en tiempo real y mejorar continuamente su rendimiento. Esta adaptabilidad les permite realizar tareas complejas de forma independiente, mejorando la productividad general. Manejan situaciones intrincadas y sensibles al contexto, donde el resultado depende de múltiples entradas dinámicas, lo que los hace mucho más versátiles que los bots.",
+                "applications": [
+                    {
+                        "title": "Optimización de procesos",
+                        "desc": ": Los Agentes de Agentforce supervisan los flujos de trabajo y realizan ajustes en tiempo real para mejorar la eficiencia, por ejemplo, reasignando recursos en respuesta a fluctuaciones en la demanda."
+                    },
+                    {
+                        "title": "Personalización de la experiencia del cliente",
+                        "desc": ": Aprovechando los datos y",
+                        "link": "Atlas Reasoning Engine",
+                        "desc2": ", los agentes pueden crear interacciones personalizadas, mejorando la satisfacción del cliente con respuestas adaptadas y soluciones proactivas."
+                    },
+                    {
+                        "title": "Toma de decisiones autónoma",
+                        "desc": ": Los agentes analizan datos, identifican patrones y toman decisiones sin intervención humana, lo cual es especialmente valioso en logística, gestión de la cadena de suministro e inteligencia empresarial."
+                    }
+                ]
+            },
+            {
+                "title": "Copilotos: Los potenciadores colaborativos",
+                "desc": "A diferencia de los agentes o bots, los Copilotos son asistentes de IA que trabajan en conjunto con los humanos, proporcionando sugerencias, información y retroalimentación sin tomar decisiones completamente autónomas. Por ejemplo, Einstein Copilot para Salesforce se integra directamente en la interfaz de Salesforce. Puedes configurar y desplegar un único copiloto para tu equipo, haciéndolo accesible dentro del flujo de trabajo de Salesforce. Este copiloto puede ejecutar tareas empresariales en nombre de los usuarios dentro de tu organización Salesforce. El objetivo de un Copiloto es apoyar a los usuarios, especialmente en tareas que requieren creatividad o resolución de problemas, permitiendo una colaboración aumentada en lugar de una automatización total.",
+                "desc2": "Los copilotos potencian la experiencia humana en lugar de reemplazarla, por lo que son ideales en campos que requieren pensamiento crítico, aporte creativo o comprensión contextual. Aunque son muy efectivos como herramientas de apoyo, dependen en gran medida de la entrada y orientación del usuario, lo que los hace menos útiles en escenarios que requieren toma de decisiones autónoma.",
+                "applications": [
+                    {
+                        "title": "Programación y desarrollo",
+                        "desc": ": Copilotos como GitHub Copilot sugieren completado de código, ayudan a solucionar problemas e incluso proporcionan documentación, haciendo que la programación sea más rápida y con menos errores."
+                    },
+                    {
+                        "title": "Redacción y creación de contenido",
+                        "desc": ": En tareas de redacción, los copilotos sugieren frases, revisan la gramática y proponen ideas, mejorando el proceso creativo."
+                    },
+                    {
+                        "title": "Análisis de datos y soporte a la toma de decisiones",
+                        "desc": ": En campos complejos como finanzas y salud, los copilotos ayudan a los profesionales a analizar datos, comprender tendencias y tomar decisiones informadas basadas en información generada por IA."
+                    }
+                ]
+            },
+            {
+                "title": "Bots: La base de la automatización",
+                "desc": "Los bots son la forma más simple de IA, normalmente programas basados en reglas que manejan tareas repetitivas y estructuradas. Funcionan en base a instrucciones predefinidas, lo que significa que ejecutan funciones sin necesidad de gran conciencia contextual o resolución de problemas complejos.",
+                "desc2": "",
+                "applications": [
+                    {
+                        "title": "Atención al cliente",
+                        "desc": ": Los bots manejan consultas básicas tipo FAQ, respondiendo rápidamente a preguntas frecuentes en soporte al cliente."
+                    },
+                    {
+                        "title": "Recolección rutinaria de datos",
+                        "desc": ": Los bots recopilan y procesan datos para informes y análisis, siendo comunes en tareas como monitorear inventarios o el tráfico web."
+                    },
+                    {
+                        "title": "Automatización de tareas básicas",
+                        "desc": ": Los bots automatizan procesos repetitivos como enviar notificaciones, clasificar correos electrónicos y gestionar flujos de trabajo simples."
+                    }
+                ]
+            }
+        ],
+        "agentforceTableTitle": "Agentes de Agentforce vs. Copilotos vs. Bots: Elige la IA adecuada para el trabajo",
+        "agentforceDesc": "Cada herramienta de IA es efectiva dentro de su nicho, y la clave es saber cuál implementar según la tarea en cuestión. Aquí tienes una comparación de sus diferencias:",
+        "tableData": [
+            {
+                "feature": "Complejidad",
+                "bots": "Baja, basada en reglas",
+                "agents": "Alta, autónoma y adaptativa",
+                "copilots": "Moderada, colaborativa con humanos"
+            },
+            {
+                "feature": "Autonomía",
+                "bots": "Limitada",
+                "agents": "Alta",
+                "copilots": "Mínima"
+            },
+            {
+                "feature": "Capacidad de aprendizaje",
+                "bots": "Nula",
+                "agents": "Alta, aprende de las interacciones",
+                "copilots": "Nula o mínima"
+            },
+            {
+                "feature": "Casos de uso ideales",
+                "bots": "Tareas repetitivas y estructuradas",
+                "agents": "Tareas dinámicas y ricas en contexto",
+                "copilots": "Creatividad y soporte en decisiones complejas"
+            },
+            {
+                "feature": "Dependencia",
+                "bots": "Totalmente independiente",
+                "agents": "Totalmente independiente",
+                "copilots": "Depende de la colaboración humana"
+            }
+        ],
+        "featureHeading": "Función",
+        "botsHeading": "Bots",
+        "agentforceHeading": "Agentes de Agentforce",
+        "copilotsHeading": "Copilotos",
+        "futureTitle": "El futuro: optimizando flujos de trabajo con asistentes de IA",
+        "futureDesc": "El futuro de la IA probablemente verá una mayor integración de estas herramientas. Comprender las fortalezas de cada tipo de IA permite a las empresas construir mejores soluciones, enfocándose en la productividad sin sacrificar la calidad.",
+        "futureDesc2": "Los agentes de IA son la forma más autónoma de IA. A diferencia de los bots y copilotos, pueden funcionar de forma independiente, tomar decisiones basadas en datos y aprender continuamente de sus experiencias. Se destacan por su alto nivel de autonomía. Pueden percibir su entorno mediante sensores e interactuar con él a través de actuadores, lo que les permite perseguir objetivos específicos de forma independiente, sin supervisión humana. ¿Interesado en",
+        "futureLink": "aprender más sobre los agentes de Agentforce",
+        "futureDesc3": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en",
+        "futureLink2": "soluciones de IA y Analítica para CRM,",
+        "futureDesc4": "y hemos ayudado a nuestros clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para manejar tareas complejas y en evolución de manera autónoma."
     }
 }
