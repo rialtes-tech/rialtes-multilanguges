@@ -1399,5 +1399,257 @@
     ],
     "integrationTitle": "MuleSoft Integration Services Aligned with Your Business Needs",
     "integrationDesc": "Our experts provide an extensive array of MuleSoft services that share your vision and values."
+  },
+  "salesForceConsulting": {
+    "consultingTitle": "Salesforce Consulting Services",
+    "consultingDesc": "Transform how you engage with your clients",
+    "clientsTitle": "Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting",
+    "clientsDesc": "Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.",
+    "SalesforceTitle": "Our Salesforce CRM Consulting Services",
+    "productsTitle": "Salesforce Products",
+    "productsDesc": "Well, Salesforce consulting is just one part of an array of solutions.",
+    "knowMore": "Know More",
+    "businessTitle": "Understanding and targeting the customers correctly for your business",
+    "actionTitle": "Action is what matters and not just words",
+    "mindsetsTitle": "Different industries, different mindsets",
+    "agentforce": "Agentforce",
+    "agentforceDesc": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
+    "learnMore": "Learn More",
+    "contactUs": "Take the next step to operational excellence with Salesforce Consulting.",
+    "salesForce": [
+      {
+        "id": 1,
+        "imageUrl": "/images/salesforce-consulting-services/light.svg",
+        "title": "Lightning Services",
+        "description": "Dedicated app developers are at your disposal for the development of an app closely knit for enhanced customer experience."
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/salesforce-consulting-services/inte.svg",
+        "title": "Integration Services",
+        "description": "Salesforce Integration services like never before to help you deliver a connected experience for seamless data flow – on the go"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/salesforce-consulting-services/imple.svg",
+        "title": "Implementation Services",
+        "description": "We know how to move beyond Salesforce basics, customizing and extending its capabilities with our implementation solutions."
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/salesforce-consulting-services/mig.svg",
+        "title": "Migration Services",
+        "description": "With a user-friendly UI, interact with your customers with sleek visuals, unleash next-gen analytics, and improve your user engagement."
+      },
+      {
+        "id": 5,
+        "imageUrl": "/images/salesforce-consulting-services/light.svg",
+        "title": "Contact Support",
+        "description": "End-to-end monitoring and user support to identify and resolve challenges faced in the implementation cycle."
+      }
+    ],
+    "salesForceProduct": [
+      {
+        "id": 3,
+        "imageUrl": "/images/salesforce-consulting-services/agentforce.png",
+        "title": "Salesforce Agentforce",
+        "description": "Build and customize autonomous AI agents to help your employees and customers 24/7.",
+        "productsDetails": [
+          "Resolve customer inquiries",
+          "Handle prospects",
+          "Build campaigns",
+          "Automate sales process"
+        ],
+        "knowMore": "/solutions/artificial-intelligence/salesforce-agentforce-consulting"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/salesforce-consulting-services/lap.webp",
+        "title": "Salesforce Data Cloud",
+        "description": "Turn raw data into insights by unifying and transforming it, unlocking a sea of opportunities for your business.",
+        "productsDetails": [
+          "Customer 360 view",
+          "Zero copy integration",
+          "Omnichannel engagement"
+        ],
+        "knowMore": "/solutions/data-ai/salesforce-data-cloud-consulting"
+      }
+    ],
+    "businessDetails": [
+      {
+        "id": 1,
+        "title": "World’s #1 CRM ",
+        "description": "A customer-first approach since inception offers options for integrating custom platforms, conversational AI, and modern app development features."
+      },
+
+      {
+        "id": 2,
+        "title": "Breathes Transparency",
+        "description": "A magnum opus in the tech industry, Salesforce services enable a seamless unification of Sales, commerce, IT, and marketing, for personalized experiences."
+      },
+      {
+        "id": 3,
+        "title": "Instant Benefits",
+        "description": "Expect high ROI in no time. From design to implementation, everything’s a breeze with Salesforce’s rapid solution process."
+      },
+      {
+        "id": 4,
+        "title": "Scale with flexibility ",
+        "description": "Small, mid-sized, or large enterprises, Salesforce caters to it all."
+      },
+      {
+        "id": 5,
+        "title": "Industry Pioneers",
+        "description": "Over 96% of Salesforce users vouch for its efficiency, exceeding ROI expectations, and offering impeccable customer service"
+      }
+    ],
+    "growthData": [
+      {
+        "percentage": "1%",
+        "label": "growth",
+        "description": "revenue for our customer"
+      },
+      {
+        "percentage": "35%",
+        "label": "growth",
+        "description": "customer service level\nsatisfaction"
+      },
+      {
+        "percentage": "45%",
+        "label": "growth",
+        "description": "decision-making\nefficiency"
+      }
+    ],
+    "slides": [
+      {
+        "id": 2,
+        "image": "/images/blog/blog-2-long-thumb.webp",
+        "category": "Atlas Reasoning Engine",
+        "industry": "Generic",
+        "date": "21 Oct 2024",
+        "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
+        "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+      },
+
+      {
+        "id": 4,
+        "image": "/images/blog/blog-4-long-thumb.webp",
+        "category": "Agentforce Testing Center",
+        "industry": "Generic",
+        "date": "25 Nov 2024",
+        "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
+        "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
+      },
+
+      {
+        "id": 6,
+        "image": "/images/blog/blog-8-long-thumb.webp",
+        "category": "Athenahealth + Salesforce Integration",
+        "industry": "HealthCare",
+        "date": "17 Sept 2024",
+        "url": "insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration",
+        "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
+      },
+
+      {
+        "id": 11,
+        "image": "/images/blog/blog-12-long-thumb.webp",
+        "category": "Integrate Agentforce with Your ERP",
+        "industry": "Generic",
+        "date": "17 Sept 2024",
+        "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
+        "title": "Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+      }
+    ],
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "insights": "Insights"
+  },
+  "revenueCloud": {
+    "revenueStats": [
+      {
+        "value": "40%",
+        "description": "Faster sales cycles due to automated CPQ",
+        "widthClasses": "xl:w-[240px] lg:w-[220px] 2xl:w-[260px] 4xl:w-[312px]"
+      },
+      {
+        "value": "30%",
+        "description": "Boost in quote-to-cash efficiency",
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+      },
+      {
+        "value": "20-25%",
+        "description": "Reduction in administrative costs",
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+      }
+    ],
+    "salesForce": [
+      {
+        "id": 1,
+        "imageUrl": "/images/revenue-cloud/customer-insight.svg",
+        "title": "Customer Insight"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/revenue-cloud/streamlined-revenue-efficiency.svg",
+        "title": "Streamlined Revenue Efficiency"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/revenue-cloud/enhanced-buyer-experience.svg",
+        "title": "Enhanced Buyer Experience"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/revenue-cloud/increased-conversion-rates.svg",
+        "title": "Increased Conversion Rates"
+      },
+      {
+        "id": 5,
+        "imageUrl": "/images/revenue-cloud/optimized-product-delivery.svg",
+        "title": "Optimized Product Delivery"
+      }
+    ],
+    "salesForce2": [
+      {
+        "id": 1,
+        "title": "Expert Revenue Cloud Consulting",
+        "description": "If you’re unsure how to fully leverage Salesforce Revenue Cloud, we offer consulting services to help businesses customize the platform to fit their revenue operations. Our experts assess your needs in pricing, quoting, billing, and revenue recognition to deliver tailored solutions that boost efficiency."
+      },
+      {
+        "id": 2,
+        "title": "System Audit and Health Check",
+        "description": "We provide an independent health check and system audit to help identify areas where efficiency and productivity can be enhanced. Continuous improvements establish a stable environment for standardization, reduce incident rates, and boost future readiness."
+      },
+      {
+        "id": 3,
+        "title": "Setup and Configuration",
+        "description": "Unused rules, complex configurations, and redundant dashboards can hinder system performance. We will assess and refine the configuration to enhance the platform’s speed and align it with your business goals. Our approach customizes Salesforce Revenue Cloud to streamline CPQ processes and automate pricing, discounting, and proposals."
+      },
+      {
+        "id": 4,
+        "title": "Hassle-free Data Migration",
+        "description": "Streamline the transition from legacy systems to Salesforce Revenue Cloud by migrating CPQ and billing data with custom configurations, ensuring data integrity and timely execution. Our expertise enhances functionality, scalability, and revenue management, allowing for a seamless transfer of data without disruptions."
+      },
+      {
+        "id": 5,
+        "title": "Upgrades and Integration",
+        "description": "Revenue Cloud is most effective when integrated with systems like Sales Cloud, Marketing Cloud, payment gateways, and other CRM tools. We eliminate siloed systems by connecting revenue management processes with Salesforce and external ERPs. Our billing expertise ensures smooth integration, troubleshooting, and upgrades."
+      },
+      {
+        "id": 6,
+        "title": "Support And Maintenance",
+        "description": "Ensure the success of your Salesforce Revenue Cloud implementation through enablement training, system upgrades, and ongoing maintenance. Our proactive approach enhances performance, addresses challenges, and drives improvement. The dedicated team handles common issues, data fixes, basic admin support, and post-release verifications."
+      }
+    ],
+    "revenueTitle": "Salesforce Revenue Cloud",
+    "revenueSubTitle": "Manage Revenue Streams and Customer Relationships in One Place",
+    "simplifyTitle": "Simplify your Company’s Revenue Generation with Revenue Cloud",
+    "simplifyDesc": "Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.",
+    "cloudTitle": "Revenue Cloud Process Flow",
+    "streamlineTitle": "Streamline your Quote-to-Cash Process",
+    "pipelineTitle": "Salesforce Revenue Cloud Services for Optimized Sales Pipeline",
+    "funnelTitle": " Reduce Revenue Pitfalls, Supercharge Your Sales Funnel",
+    "funnelDesc": "Businesses using Revenue Cloud have reported:"
   }
 }
