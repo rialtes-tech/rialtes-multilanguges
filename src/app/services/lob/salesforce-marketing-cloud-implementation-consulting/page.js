@@ -307,37 +307,37 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden md:pb-[12rem] xs:pb-40 xl:pb-[12rem] 4xl:pb-[12rem] sm:pb-[12rem] lg:pb-[10rem] pb-20">
+            <section className="relative group overflow-hidden  lg:pb-[10rem] xs:pb-40 xl:pb-[6rem] 2xl:pb-[10rem] 4xl:pb-[12rem] sm:pb-[12rem]  pb-20">
                 <div className="xl:block hidden pt-20">
                     <Image
                         src="/images/services/lob/advantageplus/desktop/banner.webp"
                         alt="Advantage+ banner"
                         fill
-                        style={{ objectFit: "cover" }}
                         priority
                         className="objet-[49%_20%]"
                     />
                 </div>
-                <div className="xl:hidden block">
+                <div className="xl:hidden block md:pt-64">
                     <Image
                         src="/images/services/lob/advantageplus/mobile/banner.webp"
                         alt="Advantage+ banner"
                         fill
                         priority
-                        className="h-full"
+                        className="h-full objet-[49%_20%] object-cover"
+
                     />
                 </div>
                 <div className="relative custom-container">
-                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:mt-20 4xl:mt-20 mt-16 mx-auto">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:mt-20 4xl:mt-20 mt-16 md:mt-0 mx-auto">
                         <div className="xl:col-span-7 col-span-12 pr-5 ">
-                            <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
+                            <h3 className="text-white text-[20px] xl:text-[24px] md:text-[22px] font-bold mb-2 break-words ">
                                 Advantage+
                             </h3>
 
-                            <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[22rem] sm:pr-20 xs:pr-16">
+                            <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] text-[26px] md:text-[30px]  xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[21rem] sm:pr-20 xs:pr-16">
                                 Fueling Growth Through Personalized Marketing
                             </h2>
-                            <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
+                            <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] md:text-[20px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
                                 Rialtes’ Salesforce Marketing Cloud Services
                             </h1>
                         </div>
@@ -399,14 +399,14 @@ export default function Page() {
                     </div>
                     <div className="xl:col-span-1 bg-[#006FBE]"></div>
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-250px] mt-0  custom-container">
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-250px] mt-0 md:mt-[-10px]  custom-container">
                     <div className="xl:col-span-6 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-20 px-8 4xl:pb-14 xl:pb-14 text-white  border-0 outline-none focus:outline-none focus:ring-0">
                         <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight  xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-10 xl:pr-0" liClassName="" />
                         <div className="absolute 4xl:mt-[-25px] xl:mt-[-18px] xl:block hidden">
                             <LearnMore />
                         </div>
                     </div>
-                    <div className="xl:col-span-5 col-span-12 bg-[#006FBE] border border-[#006FBE] xl:px-14 4xl:px-16 4xl:pl-0 px-8 xl:pb-14 4xl:pb-14 pb-20 text-white">
+                    <div className="xl:col-span-5 md:mt-0 col-span-12 bg-[#006FBE] border border-[#006FBE] xl:px-14 4xl:px-16 4xl:pl-0 px-8 xl:pb-14 4xl:pb-14 pb-20 text-white">
                         <UnorderedList arrName={deepData2} ulClassName="list-disc leading-tight xl:space-y-5 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 pr-5 xl:pr-0 " liClassName="" />
                         <div className="absolute xl:hidden block bottom-0">
                             <LearnMore />
@@ -417,7 +417,7 @@ export default function Page() {
             </section>
             {/* driving business section*/}
             <section className="xl:mt-64 4xl:mt-[25rem] custom-container 4xl:pl-0 4xl:pr-[192px] xl:pl-0 max-md:pl-0 md:mt-[-17rem]">
-                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[50rem] sm:mt-[40rem] mt-[1000px] md:mt-[50rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
+                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-[1000px] md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
                     <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
                             src="/images/services/lob/advantageplus/desktop/driving.webp"

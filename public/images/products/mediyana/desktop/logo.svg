@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.65 128.9">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-size: 73.21px;
+        font-weight: 600;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #00325b;
+      }
+
+      .cls-3 {
+        fill: #00aca6;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-2" d="M21.05,44.29h-.89c-11.14,0-20.17,9.03-20.17,20.17s9.03,20.17,20.17,20.17h24.12v24.12c0,11.14,9.03,20.17,20.16,20.17,0-84.33-43.4-84.62-43.4-84.62Z"/>
+      <path class="cls-2" d="M108.74,44.29h-.89s-43.4.29-43.4,84.62c11.14,0,20.17-9.03,20.17-20.17v-24.12h24.12c11.14,0,20.16-9.03,20.16-20.17s-9.03-20.17-20.16-20.17Z"/>
+      <path class="cls-3" d="M78.31,34.02c-7.78,7.78-20.4,7.78-28.19,0-7.78-7.78-7.78-20.4,0-28.19,7.78-7.78,20.4-7.78,28.19,0,7.78,7.78,7.78,20.4,0,28.18Z"/>
+      <rect class="cls-3" x="54.25" y="24.06" width="19.93" height="19.93" transform="translate(-5.25 55.38) rotate(-45)"/>
+      <text class="cls-1" transform="translate(150.96 107.64)"><tspan x="0" y="0">MediAIna</tspan></text>
+    </g>
+  </g>
+</svg>
