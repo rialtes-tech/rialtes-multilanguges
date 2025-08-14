@@ -2847,5 +2847,338 @@
         "futureDesc3": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en",
         "futureLink2": "soluciones de IA y Analítica para CRM,",
         "futureDesc4": "y hemos ayudado a nuestros clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para manejar tareas complejas y en evolución de manera autónoma."
-    }
+    },
+    "brainBehind": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo Funciona Realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la Diferencia y por Qué Importa?",
+                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en el ámbito de la automatización impulsada por inteligencia artificial y las interfaces conversacionales, y cada uno cumple una función distinta."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Centro de Pruebas de Agentforce: Redefiniendo las Pruebas de IA con Datos Sintéticos",
+                "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agentica, Agentforce. Esta incorporación permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dec 2024",
+                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
+                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) con un robusto conjunto de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0: ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mañana Mejor?",
+                "description": "La agricultura desempeña un papel significativo en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors: Gestión del Rendimiento y de Objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y con los objetivos más amplios de la organización, hacer lo correcto se convierte en algo instintivo."
+            }
+        ],
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+        "blogMainData": "A medida que las empresas escalan, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes.",
+        "blogMainDataLink": "Salesforce Agentforce ",
+        "blogMainData2": "proporciona una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine.",
+        "blogMainData3": "Como el “cerebro” detrás de los agentes, Atlas formula un plan estratégico basado en el objetivo específico que el agente intenta alcanzar. Luego evalúa y refina este plan, repitiendo el ciclo para recopilar datos adicionales si es necesario. Al ejecutar una acción, evalúa qué proceso empresarial es el más adecuado y garantiza que se aplique el correcto. Interactúa con el cliente o empleado a través de su canal de comunicación preferido, ofreciendo una experiencia más fluida y personalizada. Esta adaptabilidad dinámica permite que Atlas optimice las interacciones, mejorando la eficiencia y la satisfacción de forma continua y en tiempo real. Veamos qué hace especial a las nuevas formas de razonamiento y planificación de Atlas.",
+        "commonData": [
+            {
+                "title": "¿Qué es el Atlas Reasoning Engine?",
+                "desc": [
+                    "El Atlas Reasoning Engine es una avanzada herramienta de toma de decisiones impulsada por IA dentro de Salesforce Agentforce que transforma la forma en que los agentes gestionan las consultas de los clientes. Está diseñado para asistir a los agentes de servicio al cliente analizando, razonando y guiando interacciones en tiempo real. El motor de razonamiento con IA no se limita a recuperar información de forma pasiva como muchas otras herramientas CRM: razona activamente sobre los problemas y ofrece información procesable, transformando los sistemas basados en agentes de simples solucionadores de problemas a arquitectos de soluciones proactivas."
+                ]
+            },
+            {
+                "title": "¿Cómo Funciona el Atlas Reasoning Engine?",
+                "desc": [
+                    "En Dreamforce 2024, la CEO de Salesforce, Clara Shih, destacó la diferencia entre la IA autónoma basada en agentes y Einstein Copilot, señalando que los nuevos agentes están diseñados para ir más allá de la generación de contenido al permitir que los sistemas de IA generativa tomen acciones de forma independiente. Esto marca un cambio significativo hacia sistemas de IA capaces de tomar decisiones y ejecutar tareas de forma autónoma.",
+                    "Los agentes de IA construidos con Agentforce se diferencian de las generaciones anteriores de agentes basados en Salesforce gracias a su integración con Atlas, un motor de razonamiento diseñado para permitir que estos bots piensen más como humanos. Este motor permite que los agentes de IA de Agentforce operen de manera autónoma, tomando decisiones y ejecutando acciones de forma independiente. En cambio, las generaciones anteriores de agentes de Salesforce dependían de flujos de trabajo preconfigurados para guiar sus acciones, lo que limitaba su capacidad de actuar sin instrucciones predefinidas.",
+                    "El motor Atlas permite la creación de agentes de IA autónomos a través de Agentforce, permitiéndoles pensar y actuar como humanos. A diferencia de la generación anterior de agentes de Salesforce, que requerían flujos de trabajo preconfigurados para realizar tareas, estos agentes de IA pueden manejar de forma independiente tareas manuales de gestión de sistemas que normalmente son realizadas por desarrolladores o arquitectos empresariales. Esto libera a los desarrolladores y arquitectos para que asuman un rol de supervisión, sin necesidad de intervenir en operaciones rutinarias."
+                ]
+            },
+            {
+                "title": "El Poder de la Comprensión Contextual",
+                "desc": [
+                    "Una de las principales fortalezas del Atlas Reasoning Engine es su comprensión contextual. Los sistemas de soporte tradicionales suelen depender de flujos de trabajo rígidos y búsquedas basadas en palabras clave. Sin embargo, Atlas aprovecha el procesamiento de lenguaje natural (NLP) y el aprendizaje profundo para comprender el contexto detrás de las consultas de los clientes. Esto significa que no solo muestra artículos relevantes de la base de conocimientos, sino que también conecta los puntos entre el historial del cliente, los detalles del caso e incluso el análisis de sentimiento, ofreciendo recomendaciones mucho más alineadas con las necesidades del cliente.",
+                    "Por ejemplo, si un cliente informa de un problema con la integración de software, Atlas no se limita a señalar guías de resolución de problemas. En su lugar, evalúa el entorno actual del sistema, las interacciones pasadas e incluso resoluciones de casos relacionados para proponer los pasos más eficientes para resolver el problema. ¿El resultado? Respuestas más personalizadas y una resolución de casos más rápida."
+                ]
+            }
+        ],
+        "atlasTitle": "Atlas: Más Allá de las Simples Conversaciones y la Detección de Consultas",
+        "atlasData": [
+            {
+                "title": "Razonamiento en Tiempo Real",
+                "desc": "Atlas funciona en tiempo real, asistiendo a los agentes durante las interacciones en vivo al sugerir la siguiente mejor acción, proponer soluciones basadas en el historial del caso y proporcionar entradas relevantes de la base de conocimientos. Acelera el proceso de resolución de problemas y garantiza respuestas más precisas."
+            },
+            {
+                "title": "Información Impulsada por IA",
+                "desc": "Va más allá de la simple automatización al ofrecer información basada en IA sobre las causas raíz de los problemas. Ya sean problemas técnicos recurrentes o quejas comunes de los clientes, Atlas puede identificar tendencias y sugerir acciones preventivas para el futuro."
+            },
+            {
+                "title": "Gestión Dinámica de Casos",
+                "desc": "En lugar de seguir un camino rígido de resolución de casos, el Atlas Reasoning Engine ajusta el flujo en función de nuevas entradas, cambios en la información del cliente y retroalimentación en vivo de los agentes. Esta adaptabilidad garantiza que los casos se gestionen de forma eficiente, incluso cuando surgen nuevos desafíos durante las interacciones."
+            },
+            {
+                "title": "Integración Multiplataforma",
+                "desc": "Atlas se integra perfectamente en diferentes entornos de Salesforce, incluidos Sales Cloud, Service Cloud y plataformas externas. Esta integración facilita que los agentes accedan a datos de clientes, historial de compras o registros de casos anteriores sin tener que alternar entre múltiples sistemas."
+            },
+            {
+                "title": "Mayor Productividad de los Agentes",
+                "desc": "Al encargarse de gran parte de la recopilación de información y del razonamiento en segundo plano, Atlas libera a los agentes para que se concentren en construir mejores relaciones con los clientes, en lugar de dedicar tiempo a tareas rutinarias. El motor también ofrece sugerencias de capacitación y entrenamiento en tiempo real, haciendo que los agentes sean más efectivos."
+            }
+        ],
+        "gameTitle": "Un Cambio Radical para el Soporte al Cliente",
+        "gameDesc": "El Atlas Reasoning Engine eleva Salesforce Agentforce al ofrecer un enfoque más intuitivo, inteligente y eficiente para el soporte al cliente. A medida que las expectativas de los clientes continúan aumentando, las empresas necesitan herramientas que les ayuden a mantenerse a la vanguardia. Atlas hace precisamente eso, permitiendo tiempos de respuesta más rápidos, mayor precisión en la resolución de problemas y una experiencia del cliente más satisfactoria.",
+        "gameDesc2": "A medida que las empresas priorizan la satisfacción del cliente, herramientas como Atlas sin duda desempeñarán un papel fundamental en la configuración del futuro de la experiencia del cliente. Podemos esperar una mayor integración con otros productos de Salesforce, capacidades de IA más sofisticadas e incluso funciones de análisis predictivo más profundas en un futuro próximo. Rialtes te ayuda a desarrollar, personalizar y desplegar agentes de IA autónomos para tareas relacionadas con ventas, marketing, servicio y comercio electrónico con la plataforma Agentforce. Ponte en contacto con nuestros expertos."
+    },
+    "howSalesforceAgentforceWorks": {
+        "blogs": [
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce proporciona una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la Diferencia y por Qué Importa?",
+                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, y cada uno cumple una función distinta."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Centro de Pruebas de Agentforce: Redefiniendo las Pruebas de IA con Datos Sintéticos",
+                "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dec 2024",
+                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
+                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) con un robusto conjunto de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0: ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mañana Mejor?",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors: Gestión del Rendimiento y de Objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y con los objetivos más amplios de la organización, hacer lo correcto se convierte en algo instintivo."
+            }
+        ],
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle": "Cómo Funciona Realmente Salesforce Agentforce",
+        "blogMainData": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo. La plataforma utiliza IA para automatizar tareas y ayudar a las empresas a mejorar sus operaciones, la experiencia del cliente y la productividad. La plataforma Agentforce funciona integrando agentes de IA con el CRM de Salesforce y otras herramientas como Data Cloud para garantizar que los datos sean procesables.",
+        "quickTitle": "Introducción Rápida a Salesforce Agentforce",
+        "quickDesc": "Salesforce Agentforce es una plataforma diseñada para aliviar la carga de trabajo de los agentes, combinando las capacidades de Salesforce con herramientas específicamente adaptadas a las necesidades de los agentes en terreno. Con un conjunto de agentes de IA autónomos, busca automatizar tareas complejas en ventas, marketing, servicio y más.",
+        "quickDesc2": "Podemos decir con seguridad que Agentforce no es solo otro chatbot. Sus agentes de IA trabajan de forma autónoma analizando datos, tomando decisiones y ejecutando acciones que normalmente requieren intervención humana, ofreciendo una automatización empresarial avanzada. A diferencia de los chatbots tradicionales, Agentforce es inteligente y adaptable, capaz de resolver una amplia gama de problemas de clientes. Al igual que Einstein GPT, Agentforce aprovecha la IA generativa de Salesforce para automatizar tareas y ofrecer información en tiempo real, lo que permite a los agentes brindar experiencias superiores a los clientes.",
+        "howTitle": "¿Cómo Encaja el Agente de IA en Todo Esto?",
+        "howDesc": "El agente de IA en Agentforce es un sistema inteligente diseñado para comprender las consultas de los clientes y responder adecuadamente. Están construidos sobre aprendizaje automático y procesamiento de lenguaje natural, capaces de manejar una amplia gama de tareas manuales como atender consultas de clientes, responder preguntas básicas y realizar múltiples tareas a la vez. Todo esto hace que los agentes de IA sean capaces de mejorar su rendimiento mediante el autoaprendizaje.",
+        "salesforceTitle": "Salesforce Agentforce: ¿Cómo Funciona?",
+        "salesforceDesc": "Salesforce Agentforce ayuda a las empresas a automatizar interacciones con clientes, procesos de ventas y flujos de trabajo internos. Se integra con el CRM de Salesforce y herramientas como Data Cloud para que todos los datos sean procesables. Veamos un ejemplo de Agentforce en acción creando un agente de servicio de IA para evitar casos de soporte entrantes respondiendo a la pregunta de un cliente: “¿Dónde está mi pedido? Mi correo electrónico es",
+        "salesforceDesc2": "Como cualquier chatbot, el agente responderá a la pregunta inmediatamente, pero también puedes ampliar las capacidades de tu agente habilitándolo para ayudar con la programación de la instalación del producto mediante la adición de un nuevo tema. Los temas son la forma de definir los trabajos que tus agentes de IA harán o no harán y cómo estableces límites para ellos. Pero puedes ampliar esos límites creando un nuevo tema. Esto es muy diferente de los chatbots de estilo antiguo: no hay árboles de diálogo, solo descripciones en lenguaje natural que ayudan al agente a entender la tarea a ejecutar.",
+        "salesforceData": [
+            {
+                "title": "Añadiendo un nuevo tema:",
+                "desc": [
+                    "Para la gestión de citas, solo tienes que escribir la etiqueta del tema, seguida de una descripción que ayude a este agente de IA a entender cuándo debe usar este tema. Después, añade una descripción del alcance de este trabajo e instrucciones necesarias para que el agente las utilice al realizar la tarea. Este tipo de instrucciones normalmente implican mucha lógica complicada de tipo if-then-else con otros chatbots. Pero con Agentforce, escribir descripciones en lenguaje natural es suficiente para que el agente entienda la tarea."
+                ]
+            },
+            {
+                "title": "Acciones:",
+                "desc": [
+                    "El siguiente paso son las acciones, que permiten al agente realizar estas tareas. Las acciones pueden basarse en flujos (flows), clases Apex o prompts. Este es un ejemplo del flujo para recuperar horarios disponibles de instalación.",
+                    "Y este es otro con un poco más de lógica para reservar la cita de instalación.",
+                    "Con estos dos flujos creados, ahora puedes agregarlos como acciones a tu agente de IA. Y listo, tu agente de IA puede programar una cita de instalación para el producto del cliente. Más allá de la clasificación de temas, Agentforce utiliza el contexto de toda la conversación del cliente para crear un plan dinámico. Esto hace que los agentes de IA sean mucho más flexibles y capaces de realizar las tareas asignadas."
+                ]
+            }
+        ],
+        "useCasesTitle": "Casos de Uso de Agentforce",
+        "useCasesDesc": "Los casos de uso de Agentforce son amplios y pueden adaptarse a campos específicos:",
+        "useCasesData": [
+            {
+                "title": "Ventas",
+                "desc": ": Automatización de la calificación de clientes potenciales, programación de citas y nutrición de prospectos."
+            },
+            {
+                "title": "Servicio al Cliente",
+                "desc": ": Gestión de tickets, resolución de consultas y soporte 24/7."
+            },
+            {
+                "title": "Marketing",
+                "desc": ": Ejecución de campañas automatizadas que se adaptan según métricas de rendimiento."
+            },
+            {
+                "title": "Gestión de Servicio en Campo",
+                "desc": ": Empresas que dependen de agentes de servicio en campo como técnicos, personal de entregas o proveedores de atención domiciliaria."
+            },
+            {
+                "title": "Seguros y Servicios Financieros",
+                "desc": ": Corredores de seguros, agentes y consultores de servicios financieros pueden utilizar Agentforce para acceder a datos cruciales de clientes en cualquier lugar."
+            }
+        ],
+        "gettingTitle": "Cómo Empezar con Agentforce",
+        "gettingDesc": "Si ofrecer un servicio y soporte excepcionales para mantener a tus clientes satisfechos es tu prioridad, ahora es un excelente momento para ver lo que Agentforce puede ofrecerte. Esta herramienta beneficiará enormemente a los clientes de Salesforce ayudándoles a comprender y anticipar las necesidades de los clientes, lo que les permitirá responder de forma proactiva. Salesforce estaba tan motivado por lanzar Agentforce durante este",
+        "gettingLink": "Dreamforce",
+        "gettingDesc2": "Las empresas pueden aprovechar Agentforce dentro de la plataforma Salesforce automatizando flujos de trabajo de ventas, mejorando la gestión de clientes potenciales y optimizando las interacciones con los clientes. Rialtes está especializada en",
+        "gettingLink2": " soluciones de IA y análisis en Salesforce",
+        "gettingDesc3": ", y hemos ayudado a los clientes a lograr importantes mejoras de productividad utilizando herramientas basadas en IA para optimizar"
+    },
+    "agriculture": {
+    "blogTopic": "Tecnología Verde",
+    "blogs": [
+        {
+            "id": 1,
+            "image": "/images/blog/blog-1.webp",
+            "category": "Salesforce Agentforce",
+            "industry": "Genérico",
+            "date": "30 Sept 2024",
+            "url": "how-salesforce-agentforce-actually-works",
+            "title": "Cómo Funciona Realmente Salesforce Agentforce",
+            "description": "Salesforce Agentforce, aunque es una adición más reciente al ecosistema de Salesforce, está ganando popularidad, particularmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo."
+        },
+        {
+            "id": 2,
+            "image": "/images/blog/blog-2.webp",
+            "category": "Salesforce Agentforce",
+            "industry": "Genérico",
+            "date": "21 Oct 2024",
+            "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+            "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+        },
+        {
+            "id": 3,
+            "image": "/images/blog/blog-3.webp",
+            "category": "Salesforce Agentforce",
+            "industry": "Genérico",
+            "date": "28 Oct 2024",
+            "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+            "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito distinto."
+        },
+        {
+            "id": 4,
+            "image": "/images/blog/blog-4.webp",
+            "category": "Salesforce Agentforce",
+            "industry": "Genérico",
+            "date": "25 Nov 2024",
+            "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+            "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentic, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
+        },
+        {
+            "id": 6,
+            "image": "/images/blog/blog-6.webp",
+            "category": "Tecnología Verde en la Nube",
+            "industry": "Agricultura",
+            "date": "17 Sept 2024",
+            "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+            "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+        },
+        {
+            "id": 7,
+            "image": "/images/blog/blog-7.webp",
+            "category": "SAP SuccessFactors",
+            "industry": "Recursos Humanos",
+            "date": "29 Oct 2024",
+            "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+            "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus objetivos y con los objetivos organizacionales más amplios, hacer lo correcto se convierte en algo instintivo."
+        }
+    ],
+    "blogTitle": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+    "blogMainData": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica. Con una creciente conciencia de los problemas medioambientales y la necesidad de gestionar mejor los recursos disponibles, las tecnologías agrícolas están ganando fuerza para mejorar la sostenibilidad y crear métodos de cultivo más efectivos. Aproximadamente el 54,6% de la fuerza laboral total está involucrada en actividades del sector agrícola y afines, y el sector representa el 17,8% del valor agregado bruto (VAB) del país.",
+    "blogMainData2": "Aunque está creciendo rápidamente, la adopción de tecnologías agrícolas emergentes y SaaS para la agricultura de precisión todavía está en sus primeras etapas en la India. Un informe de EMR indica que el mercado agrícola indio alcanzará un valor de 580,82 mil millones de dólares para 2028.",
+    "whatAgriTitle": "¿Qué es la Agricultura 4.0?",
+    "whatAgriDesc": "La agricultura moderna enfrenta desafíos como la disminución de recursos, el aumento de la demanda y el incremento de costos. La Industria 4.0 y la agricultura están estrechamente relacionadas. La Industria 4.0 es esencialmente la revolución industrial; de manera similar, la agricultura avanza hacia su cuarta revolución agrícola que utiliza tecnologías digitales para un sector agrícola más inteligente, responsable con el medio ambiente y eficiente en recursos. Incorpora la evolución de la agricultura de precisión y dirige todas las medidas tomadas en la agricultura basadas en un análisis preciso y exacto de los datos e información recopilados y transmitidos con herramientas y tecnología modernas.",
+    "whatAgriDesc2": "Los agricultores han estado buscando métodos mejorados para aumentar la productividad, controlar la generación de residuos y reducir el impacto ambiental. Estamos viendo la adopción de aplicaciones avanzadas de la Industria 4.0 en la agricultura, lo que lleva a la agricultura de precisión: un sistema de gestión agrícola que aplica nuevas tecnologías y obtiene datos aplicables para impulsar la producción. Esto incluye todos los procesos de digitalización y automatización en el negocio, como Big Data, Inteligencia Artificial (IA), robótica, aprendizaje automático, Internet de las Cosas (IoT) y realidad virtual y aumentada.",
+    "adoptingTitle": "Adoptar soluciones 4.0 en agricultura resulta en",
+    "adoptingData": [
+        "Reducir el desperdicio innecesario al estimar los requerimientos exactos de agua del cultivo o detectar con antelación ciertas enfermedades o plagas en las plantas",
+        "Automatizar y gestionar datos de las tareas que deben realizarse rápidamente y con precisión",
+        "Ahorrar tiempo y dinero al poder planificar todas las etapas de cultivo, siembra y cosecha con mayor precisión",
+        "Mejorar la trazabilidad de la cadena de suministro, lo que resulta en una cadena corta, libre de errores y sostenible capaz de producir alimentos de alta calidad."
+    ],
+    "commonData": [
+        {
+            "title": "Tecnologías que Impulsan la Agricultura 4.0",
+            "desc": "Rialtes te ayuda a aprovechar SAP para optimizar tus procesos de planificación a cosecha y servicios agrícolas, mientras aprovechas AgriDrones, sensores de cultivos basados en IoT, riego inteligente y riego robótico. Para entender el impacto de la Industria 4.0 en la agricultura, examinemos algunas de las tecnologías más importantes utilizadas en la Agricultura 4.0."
+        },
+        {
+            "title": "Drones",
+            "desc": "Hay mucho terreno por cubrir en las granjas, y los drones se están convirtiendo en un elemento esencial para la agricultura moderna. Gracias a ellos, muchas tareas ya no necesitan realizarse manualmente. Se utilizan principalmente para el mapeo de terrenos, normalmente equipados con varios sensores que les permiten recopilar datos. Las versiones más avanzadas cuentan con sensores infrarrojos y sistemas de imágenes para detectar problemas que no pueden detectarse a simple vista. Con aplicaciones adoptadas de la Industria 4.0 en la agricultura, los drones pueden proporcionar datos útiles en tiempo real sobre la fertilidad del suelo, enfermedades y madurez de las plantas."
+        },
+        {
+            "title": "Sensores",
+            "desc": "Los sensores funcionan como una extensión de la visión y recolección de datos para actividades tanto sobre como bajo tierra. Obtienen información sobre temperatura, suelo y humedad al monitorear luz, humedad, humedad del suelo, temperatura, salud de los cultivos, etc. Con esta información, puedes conocer las necesidades de los cultivos y tomar las medidas adecuadas para satisfacerlas. Pueden detectar cuándo los cultivos necesitan riego, determinar la cantidad exacta de fertilizante para cada cultivo e indicar qué productos químicos deben usarse y dónde."
+        },
+        {
+            "title": "Inteligencia Artificial",
+            "desc": "La Inteligencia Artificial se refiere a la tecnología que instruye a las máquinas para evaluar condiciones y tomar decisiones. En la agricultura, la IA ayuda a automatizar el riego, mejorar la calidad de la cosecha y detectar infecciones y plagas en las plantas para determinar el herbicida que debe usarse, haciendo que la gestión de cultivos sea precisa y efectiva. También fomenta técnicas agrícolas innovadoras como la agricultura vertical, un sistema agrícola avanzado que utiliza plenamente los recursos y aumenta la producción de alimentos en un área más pequeña."
+        },
+        {
+            "title": "Robótica",
+            "desc": "La incorporación de robots tiene una amplia gama de aplicaciones dentro de la industria agrícola. Por ejemplo, automatizar la realización de diversas tareas de mantenimiento en los campos o verificar el estado de los cultivos con sensores y tomar las medidas necesarias. Con la robótica, es posible realizar tareas complejas como medir los niveles de pH en el suelo, así como tareas más simples como plantar semillas y cosechar frutas y verduras."
+        },
+        {
+            "title": "IoT",
+            "desc": "El IoT permite que una variedad de herramientas (por ejemplo, drones, sensores o satélites) se conecten y comuniquen entre sí mediante una red de internet para recibir y transmitir datos útiles para mejorar las condiciones de desarrollo de los cultivos. Permite que los sistemas de gestión de campo conecten datos obtenidos en tiempo real de drones equipados con GPS, satélites y sensores. Los sistemas que utilizan tecnología IoT pueden ajustar automáticamente los planes de riego según los cambios en el clima."
+        }
+    ],
+    "moveTitle": "Avanza hacia Tecnologías de Agricultura Inteligente con Rialtes",
+    "moveDesc": "La agricultura es una industria orientada al mercado que emplea a un gran segmento de la población del país. La tecnología agrícola en los últimos años ha sido enormemente útil para contribuir más al crecimiento económico. Rialtes puede ayudarte a implementar soluciones agroempresariales de SAP que ayuden a preservar la fertilidad del suelo, prevenir la contaminación y proteger la biodiversidad. Utilizamos SAP AI para automatizar tareas manuales y verificar el estado de los cultivos mediante sensores.",
+    "moveLink": "Contáctanos",
+    "moveDesc2": " para implementar procesos agrícolas inteligentes basados en datos mientras gestionas la información agrícola de forma coherente en toda tu empresa con SAP BTP."
+}
+
 }

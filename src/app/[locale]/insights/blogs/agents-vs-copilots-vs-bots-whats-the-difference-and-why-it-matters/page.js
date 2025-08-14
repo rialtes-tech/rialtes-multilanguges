@@ -37,73 +37,7 @@ const schemaData = {
   articleSection: "AI Automation",
   url: "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
 };
-const blogs = [
-  {
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: "how-salesforce-agentforce-actually-works",
-    title: "How Salesforce Agentforce Actually Works",
-    description:
-      "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },
-  {
-    id: 2,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "21 Oct 2024",
-    title:
-      "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description:
-      "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-  },
-  {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    title:
-      "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description:
-      "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  },
-  {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    title:
-      "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    description:
-      "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  },
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    title:
-      "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    description:
-      "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  {
-    id: 7,
-    image: "/images/blog/blog-7.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "29 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description:
-      "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
-];
+
 export default function Page() {
   const t = useTranslations('agentCopilot')
   const locale = useLocale();

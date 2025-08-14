@@ -134,7 +134,125 @@
         "industriesTitle": "Industrias",
         "aboutusTitle": "Sobre Nosotros",
         "insightTitle": "Perspectivas",
-        "contactTitle": "Contáctanos"
+        "contactTitle": "Contáctanos",
+        "dataAiLabel": "Datos e IA",
+        "enterpriseLabel": "Plataformas Empresariales",
+        "integrationLabel": "Integración",
+        "artificialLabel": "Inteligencia Artificial",
+        "processAutoLabel": "Automatización de Procesos",
+        "qualityEngLabel": "Ingeniería y Aseguramiento de Calidad",
+        "businessTransformationLabel": "Transformación Empresarial",
+        "LobLabel": "Servicios LOB",
+        "spendMgmtLabel": "Gestión de Gastos",
+        "hxmLabel": "Transformación HXM",
+        "intelligentLabel": "SCM Inteligente",
+        "appServicesLabel": "Servicios de Aplicaciones",
+        "agentchatLabel": "AgentChat",
+        "dataAiDesc": "De los Datos a las Decisiones — Más Inteligente, Más Rápido, Mejor con IA",
+        "dataAiDesc2": "Convierte datos en bruto en inteligencia en tiempo real que impulsa la eficiencia, la innovación y el crecimiento",
+        "enterpriseDesc": "Transforma. Automatiza. Lidera — El Poder de la Empresa Inteligente",
+        "enterpriseDesc2": "Logra excelencia operativa y crecimiento centrado en el cliente con plataformas empresariales inteligentes y escalables.",
+        "integrationDesc": "Conexiones más inteligentes. Crecimiento más rápido. Servicios de Integración Inteligente",
+        "integrationDesc2": "Estrategias de integración preparadas para el futuro que alinean los objetivos empresariales con una ejecución tecnológica fluida",
+        "qualityEngDesc": "Impulsando la Excelencia Digital con Soluciones Avanzadas de Pruebas",
+        "qualityEngDesc2": "Garantiza los más altos estándares de calidad, rendimiento y fiabilidad del software con nuestros servicios de Ingeniería y Aseguramiento de Calidad.",
+        "artificialDesc": "Haz de la IA tu Ventaja Competitiva",
+        "artificialDesc2": "Impulsamos a las empresas a resolver problemas complejos, automatizar flujos de trabajo y ofrecer información en tiempo real con IA.",
+        "aiAutomationDesc": "La Agilidad se Une a la Eficiencia con la Automatización de Procesos de Nueva Generación",
+        "aiAutomationDesc2": "Integrando IA, RPA y análisis para impulsar procesos empresariales fluidos, inteligentes y de alto rendimiento.",
+        "businessTransDesc": "De la Visión al Valor — Transforma de Forma Inteligente, Crece Más Rápido",
+        "businessTransDesc2": "Desde la estrategia hasta la ejecución, aceleramos tu viaje de transformación con información impulsada por IA y experiencia líder en la industria, convirtiendo desafíos en ventajas competitivas.",
+        "servicesDataAiDesc": "Subtítulo - Datos Más Inteligentes. Decisiones Más Precisas. Resultados Más Fuertes.",
+        "servicesDataAiDesc2": "Experimenta el futuro de la consultoría — impulsado por IA e innovación basada en conocimientos.",
+        "spendMgmtDesc": "Visibilidad. Control. Ahorros.",
+        "spendMgmtDesc2": "Nuestros servicios integrales de gestión de gastos brindan transparencia y responsabilidad, transformando la forma en que gestionas los gastos empresariales.",
+        "intelligentScm": "Reduce los costos operativos y aumenta el ROI en cada línea de negocio",
+        "intelligentScm2": "Ya sea modernizando sistemas heredados o agilizando operaciones, nuestros servicios LOB están diseñados para escalar con tu empresa.",
+        "appServicesDesc": "Servicios Gestionados por Expertos para el Rendimiento de Aplicaciones y el Máximo Impacto Empresarial",
+        "appServicesDesc2": "Desde la implementación estratégica hasta las operaciones diarias, ofrecemos servicios gestionados de extremo a extremo para plataformas SAP y Salesforce, garantizando rendimiento, escalabilidad e innovación continua.",
+        "hxmDesc": "Empodera a tu Fuerza Laboral con Soluciones HCM más Inteligentes",
+        "hxmDesc2": "Desde la contratación hasta la jubilación, nuestros servicios de Gestión de Capital Humano optimizan la gestión del talento, aumentan la productividad y mejoran la experiencia del empleado.",
+        "intelligentServicesDesc": "Reinventa las Cadenas de Suministro con IA e Inteligencia en Tiempo Real",
+        "intelligentServicesDesc2": "Ayudamos a las empresas a anticipar la demanda, automatizar operaciones y responder rápidamente a las interrupciones, convirtiendo las cadenas de suministro en motores de crecimiento estratégicos y resilientes.",
+        "realEstateLabel": "Bienes Raíces",
+        "lifeScienceLabel": "Ciencias de la Vida",
+        "semiconductorLabel": "Semiconductores",
+        "manufacturingLabel": "Manufactura",
+        "educationLabel": "Educación",
+        "automativeLabel": "Automotriz",
+        "TTHLabel": "Viajes y Hospitalidad",
+        "retailLabel": "Retail",
+        "nonProfitLabel": "Sin Fines de Lucro",
+        "financeLabel": "Finanzas",
+        "automativeIndDesc": "De la Línea de Producción al Asiento del Conductor — Soluciones Automotrices más Inteligentes",
+        "automativeIndDesc2": "Transformando la producción, ventas y experiencias de servicio a través de IA, IoT y estrategias basadas en datos.",
+        "lifeSciencesDesc": "Dando Forma al Futuro de la Salud y las Ciencias de la Vida con Innovación Digital",
+        "lifeSciencesDesc2": "Ayudamos a las empresas de ciencias de la vida a mejorar los resultados de los pacientes y la excelencia operativa mediante tecnología de próxima generación.",
+        "hiTechDesc": "Industria de Semiconductores 4.0 — Impulsando Chips de Próxima Generación con Soluciones de Próxima Generación",
+        "hiTechDesc2": "Reimaginando las operaciones de semiconductores con automatización inteligente, conocimientos basados en datos y resiliencia global en la cadena de suministro para grandes empresas.",
+        "autoIndustryDesc": "De Averías a Avances: Estamos Allí para tus Viajes de Servicio Automotriz",
+        "autoIndustryDesc2": "Ayudamos a fabricantes y concesionarios con gestión eficiente de casos y administración inteligente de garantías para resolver problemas rápidamente, gestionar ciclos de vida complejos y generar confianza con el cliente.",
+        "TTHDesc": "Innovación Impulsada por IA para Viajes, Transporte y Hospitalidad",
+        "TTHDesc2": "Nuestras soluciones optimizan operaciones, aumentan la agilidad y generan ingresos en aerolíneas, hoteles, logística y más.",
+        "retailInduDesc": "Soluciones de Retail Inteligente para Crear Ecosistemas Escalables",
+        "retailInduDesc2": "Más de 10 años de experiencia global ayudando a minoristas B2B y B2C a modernizar operaciones y superar las expectativas del cliente.",
+        "nonProfitDesc": "Colaborando con ONGs para Escalar Resultados Impulsados por la Misión",
+        "nonProfitDesc2": "Entendemos que el corazón del trabajo sin fines de lucro está en su misión. Rialtes respalda esa misión con soluciones integradas, consultoría estratégica e innovación continua.",
+        "financeDesc": "Llevando la Transformación Digital a los Servicios Financieros",
+        "financeDesc2": "Transformamos la banca minorista, la banca comercial, las cooperativas de crédito y las hipotecas a través de análisis y predicciones impulsadas por IA.",
+        "manufacturingDesc": "Impulsando una Manufactura Inteligente y Fluida con Movilidad y Eficiencia",
+        "manufacturingDesc2": "Haciendo la Manufactura más Inteligente — IA, Automatización e Información Procesable",
+        "educationDesc": "Impulsando la Educación con Soluciones Centradas en el Estudiante",
+        "educationDesc2": "Encendiendo el futuro del aprendizaje, desbloqueando potencial, impulsando el progreso — tecnología para la educación del mañana.",
+        "aboutLabel": "Sobre Rialtes: Innovando con Impacto",
+        "aboutDesc": "Más Allá de los Negocios: Un Compromiso con el Cambio",
+        "aboutDesc2": "Rialtes es más que un líder tecnológico — somos defensores del cambio positivo. Desde iniciativas de sostenibilidad hasta el empoderamiento de voces subrepresentadas, estamos dedicados a generar un impacto significativo.",
+        "insightDesc": "Explora Nuestras Perspectivas: Blogs, Casos de Éxito y Liderazgo de Opinión",
+        "insightDesc2": "Mantente a la vanguardia con perspectivas de expertos, historias de éxito y las últimas innovaciones en IA.",
+        "agentDesc": "Interactúa, Apoya y Cierra Ventas — Todo a través de WhatsApp. Todo dentro de Salesforce.",
+        "agentDesc2": "Conecta y responde a clientes por WhatsApp desde cualquier registro de Salesforce — Leads, Casos, Oportunidades, Órdenes de Trabajo u Objetos Personalizados.",
+        "letsBeginBtn": "Comencemos",
+        "SalesforceDataCloud": "Salesforce Data Cloud",
+        "dataSphere": "DataSphere",
+        "sapBusinessDataCloud": "SAP Business Data Cloud",
+        "SAP": "SAP",
+        "Salesforce": "Salesforce",
+        "SAPAriba": "SAP Ariba",
+        "RevenueCloud": "Revenue Cloud",
+        "Agentforce": "Agentforce",
+        "SuccessPlus": "Success+",
+        "Oracle": "Oracle",
+        "Kinaxis": "Kinaxis",
+        "MuleSoft": "MuleSoft",
+        "SAPCPI": "SAP CPI",
+        "UIPath": "UIPath",
+        "Tosca": "Tricentis Tosca",
+        "GrowwithSAP": "Grow with SAP",
+        "RisewithSAP": "Rise with SAP",
+        "OracleEBSPlus": "Oracle EBSPlus",
+        "SAPDigitalDesk": "SAP Digital Desk",
+        "AutoSense": "AutoSense",
+        "Retail+": "Retail+",
+        "SAPBuy+": "SAPBuy+",
+        "LifeAI+": "Life AI+",
+        "Advantage+": "Advantage+",
+        "RialFinance+": "RialFinance+",
+        "SAPDatasphere": "SAP Datasphere",
+        "SalesforceAgent+": "Salesforce Agent+",
+        "Overview": "Descripción General",
+        "healthcareTitle": "Salud",
+        "MedicalDevices": "Dispositivos Médicos",
+        "pharmaLabel": "Farmacéutica y Biotecnología",
+        "HomeHealth": "Atención Domiciliaria",
+        "Partnership": "Alianzas",
+        "CultureandValues": "Cultura y Valores",
+        "news": "Noticias y Comunicados de Prensa",
+        "CorporateCitizenship": "Ciudadanía Corporativa",
+        "Blogs": "Blogs",
+        "CaseStudies": "Casos de Éxito",
+        "Webinars": "Seminarios Web",
+        "Mulesoft": "Mulesoft",
+        "Demand+": "Demand+"
     },
     "contactForm": {
         "contactUsTitle": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa.",
@@ -320,166 +438,157 @@
         "close": "Cerrar"
     },
     "termsUse": {
-  "termsTitle": "Términos de Uso de Rialtes",
-  "termsDesc": "Al acceder y utilizar este sitio web, usted reconoce y acepta estar sujeto a los siguientes términos y condiciones, sin limitación ni calificación. Estos términos rigen su uso de nuestro Sitio Web, incluyendo todo el contenido, servicios y funcionalidades. Si no está de acuerdo con estos términos, por favor absténgase de utilizar nuestro Sitio Web.",
-  "termsDescOne": "Todo el contenido de este Sitio Web, incluidos entre otros, textos, imágenes, gráficos, logotipos, íconos, videos, software y la disposición de dicho contenido, es propiedad exclusiva de Rialtes Technologies and Solutions LLC, a menos que se indique lo contrario. Este contenido está protegido bajo las leyes aplicables de derechos de autor, marcas comerciales y otras leyes de propiedad intelectual. Todas las marcas comerciales, nombres comerciales y logotipos mostrados en este Sitio Web son propiedad de sus respectivos propietarios. El uso no autorizado de cualquier contenido, marca comercial o propiedad intelectual de este Sitio Web puede violar leyes aplicables y resultar en consecuencias legales.",
-  "useTitle": "Uso del Sitio Web y Restricciones",
-  "useDesc": "Se le otorga un derecho limitado, revocable, no exclusivo e intransferible para acceder y utilizar este Sitio Web estrictamente con fines informativos y no comerciales. Sin embargo, usted acepta no:",
-  "useDescOne": "Puede descargar e imprimir una copia de los materiales de este Sitio Web únicamente para uso personal y no comercial, siempre que no modifique el contenido y conserve todos los avisos de derechos de autor, marcas comerciales y propiedad.",
-  "noTitle": "Sin Garantías y Descargo de Responsabilidad",
-  "noDesc": "Este Sitio Web y todo el contenido proporcionado aquí se ofrecen 'tal cual' y 'según disponibilidad' sin garantías de ningún tipo, ya sean expresas o implícitas. Rialtes renuncia expresamente a todas las garantías, incluidas entre otras:",
-  "noDescOne": "Su uso del Sitio Web y cualquier confianza en el contenido es únicamente bajo su propio riesgo.",
-  "limitationTitle": "Limitación de Responsabilidad",
-  "limitationDesc": "En la máxima medida permitida por la ley, Rialtes, sus afiliados, funcionarios, empleados, agentes y proveedores de servicios de terceros no serán responsables de ningún daño directo, indirecto, incidental, consecuente, especial o ejemplar que resulte o esté relacionado con su uso de este Sitio Web. Esto incluye, entre otros:",
-  "limitationDescOne": "Bajo ninguna circunstancia la responsabilidad total de Rialtes excederá el monto que usted haya pagado (si es que pagó alguno) por acceder a este Sitio Web.",
-  "linksTitle": "Enlaces a Sitios Web de Terceros",
-  "linksDesc": "Este Sitio Web puede incluir enlaces a sitios web de terceros para su conveniencia e información. Rialtes no respalda, controla ni asume responsabilidad alguna por el contenido, políticas o prácticas de ningún sitio de terceros. Sus interacciones con sitios externos son bajo su propio riesgo, y le recomendamos revisar sus términos y políticas de privacidad antes de interactuar con su contenido o servicios.",
-  "lawTitle": "Ley Aplicable y Jurisdicción",
-  "lawDesc": "Este Sitio Web se mantiene en (Jurisdicción), y estos Términos de Uso se regirán por las leyes de (Jurisdicción), sin referencia a sus principios de conflicto de leyes.",
-  "lawDescOne": "Cualquier disputa legal derivada del uso de este Sitio Web estará sujeta a la jurisdicción exclusiva de los tribunales ubicados en (Jurisdicción). Usted acepta expresamente someterse a dicha jurisdicción y renunciar a cualquier objeción relacionada con el lugar o la falta de conveniencia del foro.",
-  "complianceTitle": "Cumplimiento con las Leyes Locales",
-  "complianceDesc": "Usted es responsable de garantizar el cumplimiento de las leyes de su jurisdicción mientras accede y utiliza este Sitio Web. Al utilizar este Sitio Web, usted declara que no está violando ninguna ley o reglamento aplicable.",
-  "submissionTitle": "Envíos y Confidencialidad",
-  "submissionOne": "A menos que se indique expresamente lo contrario, cualquier información enviada a través de este Sitio Web se considerará no confidencial y no propietaria. Al enviar información, usted:",
-  "submissionTwo": "Le recomendamos no enviar ninguna información confidencial o propietaria a través de este Sitio Web.",
-  "submissionThree": "Rialtes se reserva el derecho de actualizar o modificar estos Términos de Uso en cualquier momento sin previo aviso. Cualquier cambio será efectivo inmediatamente después de publicar los términos revisados en esta página. Alentamos a los usuarios a revisar estos Términos periódicamente para mantenerse informados sobre cualquier actualización. El uso continuo del Sitio Web después de realizar modificaciones constituye la aceptación de los Términos actualizados.",
-
-  "useRestrictions": [
-    "Copiar, reproducir, modificar, republicar, cargar, publicar, distribuir, transmitir o utilizar cualquier contenido de este sitio web con fines comerciales sin el permiso previo por escrito de Rialtes.",
-    "Participar en cualquier uso no autorizado del sitio web, incluido, entre otros, minería de datos, scripts automatizados o cualquier otra práctica que extraiga datos del sitio web.",
-    "Intentar obtener acceso no autorizado a cualquier parte del sitio web, servidor o sistema conectado a la red de Rialtes.",
-    "Utilizar el sitio web de cualquier manera que pueda dañar, deshabilitar, sobrecargar o afectar su funcionalidad o interferir con el acceso de otros usuarios.",
-    "Introducir malware, virus o códigos dañinos en el sitio web.",
-    "Violar cualquier ley local, nacional o internacional aplicable a través del uso del sitio web."
-  ],
-  "noWarranties": [
-    "Garantías de comerciabilidad, idoneidad para un propósito particular, no infracción o precisión del contenido.",
-    "Garantías de que el sitio web será ininterrumpido, libre de errores, seguro o libre de elementos dañinos como virus o malware.",
-    "Cualquier garantía de que la información proporcionada en el sitio web esté actualizada o se aplique a sus necesidades específicas."
-  ],
-  "limitationOfLiability": [
-    "Pérdida de beneficios, ingresos u oportunidades de negocio.",
-    "Interrupción del negocio, fallas técnicas o corrupción de datos.",
-    "Acceso no autorizado o uso de información personal.",
-    "Cualquier confianza depositada en el contenido publicado en el sitio web."
-  ],
-  "submissionTerms": [
-    "Garantiza que tiene el derecho legal de hacerlo y que el envío no infringe ningún derecho de terceros.",
-    "Acepta que Rialtes tendrá el derecho ilimitado de usar, modificar, distribuir y reproducir cualquier información que proporcione sin compensación alguna.",
-    "Reconoce que la naturaleza abierta de Internet significa que no podemos garantizar la confidencialidad de la información enviada a través de este sitio web."
-  ]
-},
-  "privacyPolicy":{
-  "headerTitle": "Política de Privacidad",
-  "headerDate": "Fecha de entrada en vigor: 19 de marzo de 2025.",
-  "headerDesc": "Valoramos su privacidad y estamos comprometidos con la protección de sus datos. Este Aviso de Privacidad explica cómo recopilamos, utilizamos, divulgamos y protegemos su información cuando visita nuestro sitio web",
-  "headerDescOne": ". También describe sus derechos y opciones con respecto a su información personal.",
-  "headerDescTwo": " Al acceder o utilizar nuestro sitio web, usted reconoce y acepta las prácticas descritas en esta Política de Privacidad. Si no está de acuerdo con nuestras políticas y prácticas, por favor deje de usar nuestro sitio web.",
-  "collectionTitle": "Recopilación y Uso de Información Personal",
-  "collectionDesc": "Recopilamos información personal cuando usted envía consultas a través de nuestra página/formulario de Contacto o al postularse a empleos en nuestra página de Carreras. Cuando visita nuestro sitio web, registramos información específica del navegador como su dirección IP, tipo de navegador, hora de acceso y las páginas que visualiza. Rialtes no se hace responsable por la información no solicitada que usted proporcione, y usted consiente el uso de su información de acuerdo con nuestra Política de Privacidad. Podemos utilizar su información personal para responder a solicitudes, comunicarnos con usted, con fines de marketing permitidos y para brindar soporte a nuestros productos o servicios.",
-  "collectTitle": "Información que Recopilamos",
-  "collectDesc": "Recopilamos información para fines comerciales legítimos, proporcionar una experiencia fluida y personalizada, enviar la información solicitada y colaborar con usted como cliente.", 
-  "howTitle": "Cómo Usamos Su Información",
-  "shareTitle": "Cómo compartimos su información",
-  "shareDesc": "Respetamos su privacidad y no vendemos, intercambiamos ni alquilamos su información personal. Solo divulgaremos su información al gobierno o a terceros si la ley así lo exige. Cooperamos con las autoridades para hacer cumplir las leyes relacionadas con el fraude, la privacidad de los datos y la seguridad. Usted nos autoriza a compartir su información si creemos que es necesario para investigaciones relacionadas con fraudes o actividades ilegales asociadas con este sitio web. Sin embargo, podemos compartir sus datos en escenarios específicos:",
-    "dataTitle": "Seguridad de los Datos",
-  "dataDesc": "Tomamos las medidas técnicas y organizativas apropiadas para proteger sus datos contra el acceso no autorizado, la alteración, la divulgación o la destrucción. Aunque nos esforzamos por utilizar medios comercialmente aceptables para proteger su información, ningún método de transmisión por internet es 100% seguro.",
-  
-  "yourTitle": "Sus Derechos y Opciones",
-  "yourDesc": "Dependiendo de su ubicación, puede tener derechos con respecto a su información personal, que incluyen:",
-  
-  "thirdTitle": "Enlaces de Terceros",
-  "thirdDesc": "Nuestro sitio web puede contener enlaces a sitios web o servicios de terceros que no son operados por nosotros. No somos responsables de sus políticas o prácticas de privacidad. Le recomendamos revisar sus políticas antes de proporcionar cualquier dato personal.",
-  
-  "childTitle": "Privacidad de los Niños",
-  "childDesc": "Nuestro sitio web está dirigido a un público general y no está destinado a niños menores de 13 años. No recopilamos conscientemente datos personales de niños. Si nos damos cuenta de que hemos recopilado inadvertidamente dicha información, tomaremos medidas para eliminarla de inmediato.",
-  
-  "residentsTitle": "Residentes de California",
-  "residentsDesc": "Si usted es residente de California, la Ley de Privacidad del Consumidor de California (CCPA) le otorga derechos específicos sobre su información personal. Las empresas que recopilan datos personales de residentes de California deben informarle sobre sus prácticas de datos y sus derechos.",
-  
-  "underTitle": "Bajo la CCPA, usted tiene derecho a:",
-   "underDesc": "También tiene derecho a no ser discriminado por ejercer estos derechos. Los consumidores de California verificados pueden esperar una respuesta a sus solicitudes dentro de los 45 días, con una posible extensión de otros 45 días, la cual será comunicada dentro del período inicial.",
-
-  "euTitle": "Residentes de la UE",
-  "euDesc": "Si usted es residente de la Unión Europea, puede tener derechos específicos con respecto a la recopilación, retención, uso y divulgación de sus datos personales, dependiendo de las circunstancias, bajo el Reglamento General de Protección de Datos (GDPR). Procesamos los datos con base en contratos, consentimiento, obligaciones legales o intereses comerciales legítimos.",
-  "yourRight": "Sus derechos incluyen:",
-  "forDetails": "Para más detalles, visite la",
-  "forDesc": "Junta Europea de Protección de Datos",
-
-  "changeTitle": "Cambios en esta Política de Privacidad",
-  "changeDesc": "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas, servicios o requisitos legales. Cualquier actualización será publicada en esta página con la fecha de vigencia revisada. Le recomendamos revisar esta política periódicamente.",
-
-  "contactUs": "Contáctenos",
-  "thankYou": "Gracias por visitar nuestro sitio web. Si tiene alguna pregunta, inquietud o solicitud relacionada con esta Política de Privacidad, comuníquese con nosotros a través de nuestro",
-  "contactForm": "formulario de contacto.",
-  "euRightsList": [
-  {
-    "title": "Acceso y rectificación",
-    "description": "Solicite sus datos y corrija inexactitudes."
-  },
-  {
-    "title": "Oposición y restricción",
-    "description": "Oponerse al procesamiento o solicitar limitaciones."
-  },
-  {
-    "title": "Eliminación",
-    "description": "Solicite la eliminación de datos en ciertos casos."
-  },
-  {
-    "title": "Portabilidad de datos",
-    "description": "Reciba sus datos en un formato estructurado."
-  },
-  {
-    "title": "Presentar una queja",
-    "description": "Contacte a una autoridad de protección de datos si es necesario."
-  }
-],
-  "californiaRightsList": [
-  "Solicitar información sobre su información personal, incluidas sus categorías, fuentes, propósito comercial y divulgaciones a terceros.",
-  "Solicitar la eliminación de su información personal, con ciertas excepciones.",
-  "Optar por no vender su información personal."
-],
-  "userRightsList": [
-  "El derecho a acceder, corregir o eliminar sus datos.",
-  "El derecho a restringir u oponerse al procesamiento de datos.",
-  "El derecho a optar por no recibir comunicaciones de marketing.",
-  "El derecho a desactivar las cookies a través de la configuración de su navegador."
-],
-"sharingList": [
-  {
-    "title": "Proveedores de servicios",
-    "description": "Podemos compartir información con proveedores de servicios externos de confianza que ayudan con el alojamiento del sitio web, el análisis, la comunicación por correo electrónico y otras operaciones comerciales."
-  },
-  {
-    "title": "Requisitos legales y de cumplimiento",
-    "description": "Si la ley, una orden judicial o la protección de nuestros derechos legales lo requiere, podemos divulgar información personal a las autoridades."
-  },
-  {
-    "title": "Transferencias comerciales",
-    "description": "En caso de fusión, adquisición o venta total o parcial de nuestra empresa, sus datos pueden ser transferidos a la nueva entidad."
-  }
-],
-  "purposeList": [
-  "Proporcionar, operar y mejorar nuestro sitio web y servicios.",
-  "Responder a sus consultas, solicitudes o necesidades de atención al cliente.",
-  "Personalizar su experiencia adaptando el contenido y los servicios a sus preferencias.",
-  "Mejorar la funcionalidad, usabilidad y seguridad de nuestro sitio web.",
-  "Enviar boletines, actualizaciones y comunicaciones de marketing (puede darse de baja en cualquier momento).",
-  "Cumplir con los requisitos legales y reglamentarios y hacer cumplir nuestros términos de uso."
-],
-  "privacyList": [
-  {
-    "title": "Información personal",
-    "description": "Cuando usted envía voluntariamente información a través de formularios de contacto, registros para seminarios web o consultas laborales, podemos recopilar su nombre, dirección de correo electrónico, número de teléfono, cargo, detalles de la empresa y otra información identificativa. Podemos utilizar esta información para mejorar nuestro marketing, analizar el uso del sitio web, mejorar nuestro contenido y servicios, y personalizar nuestro sitio web. También contratamos proveedores de servicios externos para ayudar con operaciones como el envío de comunicaciones, análisis de datos, procesamiento de pagos y servicio al cliente."
-  },
-  {
-    "title": "Información no personal",
-    "description": "Para mejorar la experiencia del usuario y analizar tendencias, podemos recopilar detalles como la dirección IP, tipo de navegador, información del dispositivo, URLs de referencia y páginas visitadas. Usamos datos agregados para comprender cómo interactúan los visitantes con nuestro sitio web y para realizar investigaciones internas sobre la demografía y el comportamiento de los usuarios. Podemos compartir esta información colectiva con terceros."
-  },
-  {
-    "title": "Cookies",
-    "description": "Utilizamos cookies y otras tecnologías de seguimiento para recopilar información sobre su interacción con nuestro sitio web, incluyendo el comportamiento de navegación y preferencias. Usted siempre puede elegir si desea proporcionar información en este sitio web a través de cookies."
-  }
-]
-  }
+        "termsTitle": "Términos de Uso de Rialtes",
+        "termsDesc": "Al acceder y utilizar este sitio web, usted reconoce y acepta estar sujeto a los siguientes términos y condiciones, sin limitación ni calificación. Estos términos rigen su uso de nuestro Sitio Web, incluyendo todo el contenido, servicios y funcionalidades. Si no está de acuerdo con estos términos, por favor absténgase de utilizar nuestro Sitio Web.",
+        "termsDescOne": "Todo el contenido de este Sitio Web, incluidos entre otros, textos, imágenes, gráficos, logotipos, íconos, videos, software y la disposición de dicho contenido, es propiedad exclusiva de Rialtes Technologies and Solutions LLC, a menos que se indique lo contrario. Este contenido está protegido bajo las leyes aplicables de derechos de autor, marcas comerciales y otras leyes de propiedad intelectual. Todas las marcas comerciales, nombres comerciales y logotipos mostrados en este Sitio Web son propiedad de sus respectivos propietarios. El uso no autorizado de cualquier contenido, marca comercial o propiedad intelectual de este Sitio Web puede violar leyes aplicables y resultar en consecuencias legales.",
+        "useTitle": "Uso del Sitio Web y Restricciones",
+        "useDesc": "Se le otorga un derecho limitado, revocable, no exclusivo e intransferible para acceder y utilizar este Sitio Web estrictamente con fines informativos y no comerciales. Sin embargo, usted acepta no:",
+        "useDescOne": "Puede descargar e imprimir una copia de los materiales de este Sitio Web únicamente para uso personal y no comercial, siempre que no modifique el contenido y conserve todos los avisos de derechos de autor, marcas comerciales y propiedad.",
+        "noTitle": "Sin Garantías y Descargo de Responsabilidad",
+        "noDesc": "Este Sitio Web y todo el contenido proporcionado aquí se ofrecen 'tal cual' y 'según disponibilidad' sin garantías de ningún tipo, ya sean expresas o implícitas. Rialtes renuncia expresamente a todas las garantías, incluidas entre otras:",
+        "noDescOne": "Su uso del Sitio Web y cualquier confianza en el contenido es únicamente bajo su propio riesgo.",
+        "limitationTitle": "Limitación de Responsabilidad",
+        "limitationDesc": "En la máxima medida permitida por la ley, Rialtes, sus afiliados, funcionarios, empleados, agentes y proveedores de servicios de terceros no serán responsables de ningún daño directo, indirecto, incidental, consecuente, especial o ejemplar que resulte o esté relacionado con su uso de este Sitio Web. Esto incluye, entre otros:",
+        "limitationDescOne": "Bajo ninguna circunstancia la responsabilidad total de Rialtes excederá el monto que usted haya pagado (si es que pagó alguno) por acceder a este Sitio Web.",
+        "linksTitle": "Enlaces a Sitios Web de Terceros",
+        "linksDesc": "Este Sitio Web puede incluir enlaces a sitios web de terceros para su conveniencia e información. Rialtes no respalda, controla ni asume responsabilidad alguna por el contenido, políticas o prácticas de ningún sitio de terceros. Sus interacciones con sitios externos son bajo su propio riesgo, y le recomendamos revisar sus términos y políticas de privacidad antes de interactuar con su contenido o servicios.",
+        "lawTitle": "Ley Aplicable y Jurisdicción",
+        "lawDesc": "Este Sitio Web se mantiene en (Jurisdicción), y estos Términos de Uso se regirán por las leyes de (Jurisdicción), sin referencia a sus principios de conflicto de leyes.",
+        "lawDescOne": "Cualquier disputa legal derivada del uso de este Sitio Web estará sujeta a la jurisdicción exclusiva de los tribunales ubicados en (Jurisdicción). Usted acepta expresamente someterse a dicha jurisdicción y renunciar a cualquier objeción relacionada con el lugar o la falta de conveniencia del foro.",
+        "complianceTitle": "Cumplimiento con las Leyes Locales",
+        "complianceDesc": "Usted es responsable de garantizar el cumplimiento de las leyes de su jurisdicción mientras accede y utiliza este Sitio Web. Al utilizar este Sitio Web, usted declara que no está violando ninguna ley o reglamento aplicable.",
+        "submissionTitle": "Envíos y Confidencialidad",
+        "submissionOne": "A menos que se indique expresamente lo contrario, cualquier información enviada a través de este Sitio Web se considerará no confidencial y no propietaria. Al enviar información, usted:",
+        "submissionTwo": "Le recomendamos no enviar ninguna información confidencial o propietaria a través de este Sitio Web.",
+        "submissionThree": "Rialtes se reserva el derecho de actualizar o modificar estos Términos de Uso en cualquier momento sin previo aviso. Cualquier cambio será efectivo inmediatamente después de publicar los términos revisados en esta página. Alentamos a los usuarios a revisar estos Términos periódicamente para mantenerse informados sobre cualquier actualización. El uso continuo del Sitio Web después de realizar modificaciones constituye la aceptación de los Términos actualizados.",
+        "useRestrictions": [
+            "Copiar, reproducir, modificar, republicar, cargar, publicar, distribuir, transmitir o utilizar cualquier contenido de este sitio web con fines comerciales sin el permiso previo por escrito de Rialtes.",
+            "Participar en cualquier uso no autorizado del sitio web, incluido, entre otros, minería de datos, scripts automatizados o cualquier otra práctica que extraiga datos del sitio web.",
+            "Intentar obtener acceso no autorizado a cualquier parte del sitio web, servidor o sistema conectado a la red de Rialtes.",
+            "Utilizar el sitio web de cualquier manera que pueda dañar, deshabilitar, sobrecargar o afectar su funcionalidad o interferir con el acceso de otros usuarios.",
+            "Introducir malware, virus o códigos dañinos en el sitio web.",
+            "Violar cualquier ley local, nacional o internacional aplicable a través del uso del sitio web."
+        ],
+        "noWarranties": [
+            "Garantías de comerciabilidad, idoneidad para un propósito particular, no infracción o precisión del contenido.",
+            "Garantías de que el sitio web será ininterrumpido, libre de errores, seguro o libre de elementos dañinos como virus o malware.",
+            "Cualquier garantía de que la información proporcionada en el sitio web esté actualizada o se aplique a sus necesidades específicas."
+        ],
+        "limitationOfLiability": [
+            "Pérdida de beneficios, ingresos u oportunidades de negocio.",
+            "Interrupción del negocio, fallas técnicas o corrupción de datos.",
+            "Acceso no autorizado o uso de información personal.",
+            "Cualquier confianza depositada en el contenido publicado en el sitio web."
+        ],
+        "submissionTerms": [
+            "Garantiza que tiene el derecho legal de hacerlo y que el envío no infringe ningún derecho de terceros.",
+            "Acepta que Rialtes tendrá el derecho ilimitado de usar, modificar, distribuir y reproducir cualquier información que proporcione sin compensación alguna.",
+            "Reconoce que la naturaleza abierta de Internet significa que no podemos garantizar la confidencialidad de la información enviada a través de este sitio web."
+        ]
+    },
+    "privacyPolicy": {
+        "headerTitle": "Política de Privacidad",
+        "headerDate": "Fecha de entrada en vigor: 19 de marzo de 2025.",
+        "headerDesc": "Valoramos su privacidad y estamos comprometidos con la protección de sus datos. Este Aviso de Privacidad explica cómo recopilamos, utilizamos, divulgamos y protegemos su información cuando visita nuestro sitio web",
+        "headerDescOne": ". También describe sus derechos y opciones con respecto a su información personal.",
+        "headerDescTwo": " Al acceder o utilizar nuestro sitio web, usted reconoce y acepta las prácticas descritas en esta Política de Privacidad. Si no está de acuerdo con nuestras políticas y prácticas, por favor deje de usar nuestro sitio web.",
+        "collectionTitle": "Recopilación y Uso de Información Personal",
+        "collectionDesc": "Recopilamos información personal cuando usted envía consultas a través de nuestra página/formulario de Contacto o al postularse a empleos en nuestra página de Carreras. Cuando visita nuestro sitio web, registramos información específica del navegador como su dirección IP, tipo de navegador, hora de acceso y las páginas que visualiza. Rialtes no se hace responsable por la información no solicitada que usted proporcione, y usted consiente el uso de su información de acuerdo con nuestra Política de Privacidad. Podemos utilizar su información personal para responder a solicitudes, comunicarnos con usted, con fines de marketing permitidos y para brindar soporte a nuestros productos o servicios.",
+        "collectTitle": "Información que Recopilamos",
+        "collectDesc": "Recopilamos información para fines comerciales legítimos, proporcionar una experiencia fluida y personalizada, enviar la información solicitada y colaborar con usted como cliente.",
+        "howTitle": "Cómo Usamos Su Información",
+        "shareTitle": "Cómo compartimos su información",
+        "shareDesc": "Respetamos su privacidad y no vendemos, intercambiamos ni alquilamos su información personal. Solo divulgaremos su información al gobierno o a terceros si la ley así lo exige. Cooperamos con las autoridades para hacer cumplir las leyes relacionadas con el fraude, la privacidad de los datos y la seguridad. Usted nos autoriza a compartir su información si creemos que es necesario para investigaciones relacionadas con fraudes o actividades ilegales asociadas con este sitio web. Sin embargo, podemos compartir sus datos en escenarios específicos:",
+        "dataTitle": "Seguridad de los Datos",
+        "dataDesc": "Tomamos las medidas técnicas y organizativas apropiadas para proteger sus datos contra el acceso no autorizado, la alteración, la divulgación o la destrucción. Aunque nos esforzamos por utilizar medios comercialmente aceptables para proteger su información, ningún método de transmisión por internet es 100% seguro.",
+        "yourTitle": "Sus Derechos y Opciones",
+        "yourDesc": "Dependiendo de su ubicación, puede tener derechos con respecto a su información personal, que incluyen:",
+        "thirdTitle": "Enlaces de Terceros",
+        "thirdDesc": "Nuestro sitio web puede contener enlaces a sitios web o servicios de terceros que no son operados por nosotros. No somos responsables de sus políticas o prácticas de privacidad. Le recomendamos revisar sus políticas antes de proporcionar cualquier dato personal.",
+        "childTitle": "Privacidad de los Niños",
+        "childDesc": "Nuestro sitio web está dirigido a un público general y no está destinado a niños menores de 13 años. No recopilamos conscientemente datos personales de niños. Si nos damos cuenta de que hemos recopilado inadvertidamente dicha información, tomaremos medidas para eliminarla de inmediato.",
+        "residentsTitle": "Residentes de California",
+        "residentsDesc": "Si usted es residente de California, la Ley de Privacidad del Consumidor de California (CCPA) le otorga derechos específicos sobre su información personal. Las empresas que recopilan datos personales de residentes de California deben informarle sobre sus prácticas de datos y sus derechos.",
+        "underTitle": "Bajo la CCPA, usted tiene derecho a:",
+        "underDesc": "También tiene derecho a no ser discriminado por ejercer estos derechos. Los consumidores de California verificados pueden esperar una respuesta a sus solicitudes dentro de los 45 días, con una posible extensión de otros 45 días, la cual será comunicada dentro del período inicial.",
+        "euTitle": "Residentes de la UE",
+        "euDesc": "Si usted es residente de la Unión Europea, puede tener derechos específicos con respecto a la recopilación, retención, uso y divulgación de sus datos personales, dependiendo de las circunstancias, bajo el Reglamento General de Protección de Datos (GDPR). Procesamos los datos con base en contratos, consentimiento, obligaciones legales o intereses comerciales legítimos.",
+        "yourRight": "Sus derechos incluyen:",
+        "forDetails": "Para más detalles, visite la",
+        "forDesc": "Junta Europea de Protección de Datos",
+        "changeTitle": "Cambios en esta Política de Privacidad",
+        "changeDesc": "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas, servicios o requisitos legales. Cualquier actualización será publicada en esta página con la fecha de vigencia revisada. Le recomendamos revisar esta política periódicamente.",
+        "contactUs": "Contáctenos",
+        "thankYou": "Gracias por visitar nuestro sitio web. Si tiene alguna pregunta, inquietud o solicitud relacionada con esta Política de Privacidad, comuníquese con nosotros a través de nuestro",
+        "contactForm": "formulario de contacto.",
+        "euRightsList": [
+            {
+                "title": "Acceso y rectificación",
+                "description": "Solicite sus datos y corrija inexactitudes."
+            },
+            {
+                "title": "Oposición y restricción",
+                "description": "Oponerse al procesamiento o solicitar limitaciones."
+            },
+            {
+                "title": "Eliminación",
+                "description": "Solicite la eliminación de datos en ciertos casos."
+            },
+            {
+                "title": "Portabilidad de datos",
+                "description": "Reciba sus datos en un formato estructurado."
+            },
+            {
+                "title": "Presentar una queja",
+                "description": "Contacte a una autoridad de protección de datos si es necesario."
+            }
+        ],
+        "californiaRightsList": [
+            "Solicitar información sobre su información personal, incluidas sus categorías, fuentes, propósito comercial y divulgaciones a terceros.",
+            "Solicitar la eliminación de su información personal, con ciertas excepciones.",
+            "Optar por no vender su información personal."
+        ],
+        "userRightsList": [
+            "El derecho a acceder, corregir o eliminar sus datos.",
+            "El derecho a restringir u oponerse al procesamiento de datos.",
+            "El derecho a optar por no recibir comunicaciones de marketing.",
+            "El derecho a desactivar las cookies a través de la configuración de su navegador."
+        ],
+        "sharingList": [
+            {
+                "title": "Proveedores de servicios",
+                "description": "Podemos compartir información con proveedores de servicios externos de confianza que ayudan con el alojamiento del sitio web, el análisis, la comunicación por correo electrónico y otras operaciones comerciales."
+            },
+            {
+                "title": "Requisitos legales y de cumplimiento",
+                "description": "Si la ley, una orden judicial o la protección de nuestros derechos legales lo requiere, podemos divulgar información personal a las autoridades."
+            },
+            {
+                "title": "Transferencias comerciales",
+                "description": "En caso de fusión, adquisición o venta total o parcial de nuestra empresa, sus datos pueden ser transferidos a la nueva entidad."
+            }
+        ],
+        "purposeList": [
+            "Proporcionar, operar y mejorar nuestro sitio web y servicios.",
+            "Responder a sus consultas, solicitudes o necesidades de atención al cliente.",
+            "Personalizar su experiencia adaptando el contenido y los servicios a sus preferencias.",
+            "Mejorar la funcionalidad, usabilidad y seguridad de nuestro sitio web.",
+            "Enviar boletines, actualizaciones y comunicaciones de marketing (puede darse de baja en cualquier momento).",
+            "Cumplir con los requisitos legales y reglamentarios y hacer cumplir nuestros términos de uso."
+        ],
+        "privacyList": [
+            {
+                "title": "Información personal",
+                "description": "Cuando usted envía voluntariamente información a través de formularios de contacto, registros para seminarios web o consultas laborales, podemos recopilar su nombre, dirección de correo electrónico, número de teléfono, cargo, detalles de la empresa y otra información identificativa. Podemos utilizar esta información para mejorar nuestro marketing, analizar el uso del sitio web, mejorar nuestro contenido y servicios, y personalizar nuestro sitio web. También contratamos proveedores de servicios externos para ayudar con operaciones como el envío de comunicaciones, análisis de datos, procesamiento de pagos y servicio al cliente."
+            },
+            {
+                "title": "Información no personal",
+                "description": "Para mejorar la experiencia del usuario y analizar tendencias, podemos recopilar detalles como la dirección IP, tipo de navegador, información del dispositivo, URLs de referencia y páginas visitadas. Usamos datos agregados para comprender cómo interactúan los visitantes con nuestro sitio web y para realizar investigaciones internas sobre la demografía y el comportamiento de los usuarios. Podemos compartir esta información colectiva con terceros."
+            },
+            {
+                "title": "Cookies",
+                "description": "Utilizamos cookies y otras tecnologías de seguimiento para recopilar información sobre su interacción con nuestro sitio web, incluyendo el comportamiento de navegación y preferencias. Usted siempre puede elegir si desea proporcionar información en este sitio web a través de cookies."
+            }
+        ]
+    }
 }
