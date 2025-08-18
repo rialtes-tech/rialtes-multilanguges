@@ -1,7 +1,7 @@
 'use client';
 import usFlag from '../../../../public/images/flags/us-flag.png'
 import spainFlag from "../../../../public/images/flags/spain-flag.png"
-import franceFlag from "../../../../public/images/flags/france-flag.png"
+import franceFlag from "../../../../public/images/flags/france-logo.png"
 import { usePathname, useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
