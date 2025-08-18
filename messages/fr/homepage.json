@@ -1,0 +1,134 @@
+{
+    "homePage": {
+        "headerTitle": "Accélérer le succès numérique",
+        "headerDesc": "Solutions numériques intelligentes pour stimuler la croissance et l'efficacité de votre entreprise.",
+        "headerBtn": "Contactez-nous",
+        "servicesTitle": "Nos services",
+        "servicesDesc": "Exploitez la puissance de l’automatisation et des solutions intelligentes pour faire passer votre entreprise au niveau supérieur.",
+        "sapTitle": "Solutions SAP",
+        "sapDesc": "Tirez parti des solutions SAP pour transformer vos processus métier, améliorer l’efficacité et stimuler l’innovation.",
+        "salesforceTitle": "Solutions Salesforce",
+        "salesforceDesc": "Exploitez la puissance de Salesforce pour construire des expériences clients centrées sur l’humain et augmenter la productivité.",
+        "automationTitle": "Automatisation intelligente",
+        "automationDesc": "Automatisez des processus métier complexes grâce à des technologies d’automatisation intelligentes et optimisez vos opérations.",
+        "industriesTitle": "Nos secteurs",
+        "industriesDesc": "Des solutions personnalisées pour divers secteurs afin de répondre à leurs besoins uniques.",
+        "retailTitle": "Commerce de détail",
+        "retailDesc": "Transformez vos expériences de vente au détail grâce à des solutions innovantes qui fidélisent les clients et augmentent les revenus.",
+        "healthcareTitle": "Soins de santé",
+        "healthcareDesc": "Offrez de meilleurs soins aux patients grâce à des solutions numériques qui optimisent les opérations de santé.",
+        "automotiveTitle": "Automobile",
+        "automotiveDesc": "Solutions pour l’industrie automobile permettant d’améliorer la connectivité, la durabilité et l’efficacité.",
+        "tthTitle": "Voyages, Transport & Hôtellerie",
+        "tthDesc": "Améliorez l’expérience client et optimisez vos opérations dans les voyages, le transport et l’hôtellerie grâce à des solutions intelligentes.",
+        "lifeSciencesTitle": "Sciences de la vie",
+        "lifeSciencesDesc": "Solutions de pointe pour le secteur des sciences de la vie afin de stimuler l’innovation et améliorer la santé des patients.",
+        "financeTitle": "Services financiers",
+        "financeDesc": "Solutions numériques sécurisées et évolutives pour renforcer la confiance et l’efficacité dans les services financiers.",
+        "withImpactTitle": "avec Impact",
+        "beyondTitle": "Au-delà des affaires : un engagement pour le changement",
+        "innovatingData": "Rialtes est plus qu’un leader technologique — nous sommes des défenseurs du changement positif. Des initiatives de durabilité à l’autonomisation des voix sous-représentées, nous nous engageons à avoir un impact significatif.",
+        "successStoriesTitle": "Histoires de réussite",
+        "successStoriesDesc": "Découvrez comment nous avons exploité le pouvoir des technologies disruptives pour transformer les entreprises et générer des résultats.",
+        "discoverMore": "Découvrez plus",
+        "clientsTitle": "Nos clients",
+        "clientsDesc": "Nous collaborons avec des entreprises de premier plan à travers le monde pour construire un avenir numérique plus intelligent et durable."
+    },
+    "header": {
+        "solutionTitle": "Solutions",
+        "productsTitle": "Produits",
+        "servicesTitle": "Services",
+        "industriesTitle": "Secteurs",
+        "insightsTitle": "Analyses",
+        "aboutusTitle": "À propos de nous",
+        "moreTitle": "Plus",
+        "btnContact": "Contactez-nous"
+    },
+    "contactForm": {
+        "title": "Parlez à nos experts",
+        "desc": "Nous sommes là pour répondre à vos questions et vous aider à explorer la meilleure solution pour votre entreprise.",
+        "label1": "Nom complet*",
+        "label2": "E-mail professionnel*",
+        "label3": "Téléphone*",
+        "label4": "Nom de l’entreprise*",
+        "label5": "Pays*",
+        "label6": "Message",
+        "checkText": "J’accepte de recevoir d’autres communications de Rialtes.",
+        "privacy": "En soumettant ce formulaire, vous acceptez la politique de confidentialité et les conditions d’utilisation de Rialtes.",
+        "btn": "Soumettre"
+    },
+    "footer": {
+        "title": "Construisons ensemble votre succès numérique",
+        "desc": "Nous nous engageons à proposer des solutions technologiques intelligentes qui favorisent la croissance, l’efficacité et l’innovation durable.",
+        "company": "Entreprise",
+        "solutions": "Solutions",
+        "industries": "Secteurs",
+        "services": "Services",
+        "about": "À propos",
+        "products": "Produits",
+        "more": "Plus",
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d’utilisation",
+        "cookies": "Politique relative aux cookies",
+        "rights": "Tous droits réservés."
+    },
+    "learnMore": {
+        "title": "En savoir plus"
+    },
+    "carousel": {
+        "sapTitle": "Solutions SAP",
+        "sapDesc": "Réinventez vos processus métier grâce aux solutions intelligentes de SAP pour l’efficacité et l’innovation.",
+        "salesforceTitle": "Solutions Salesforce",
+        "salesforceDesc": "Construisez des expériences client de nouvelle génération grâce aux solutions Salesforce.",
+        "automationTitle": "Automatisation intelligente",
+        "automationDesc": "Automatisez les tâches complexes et optimisez vos opérations grâce à des solutions intelligentes."
+    },
+    "services": {
+        "title": "Services",
+        "consultingTitle": "Conseil",
+        "consultingDesc": "Obtenez des conseils d’experts pour transformer votre entreprise grâce à des solutions numériques.",
+        "implementationTitle": "Mise en œuvre",
+        "implementationDesc": "Implémentez efficacement les technologies numériques pour accélérer votre parcours de transformation.",
+        "supportTitle": "Support et Maintenance",
+        "supportDesc": "Garantissez des performances fluides et une assistance continue pour vos solutions numériques."
+    },
+    "exploreMore": {
+        "title": "Explorer plus",
+        "btn": "Voir tout"
+    },
+    "contactUs": {
+        "title": "Contactez-nous",
+        "desc": "Notre équipe d’experts est prête à répondre à vos besoins spécifiques et à vous aider à réussir.",
+        "btn": "Envoyez un message"
+    },
+    "thankYou": {
+        "title": "Merci !",
+        "desc": "Votre message a été envoyé avec succès. Notre équipe vous contactera bientôt."
+    },
+    "termsOfUse": {
+        "title": "Conditions d’utilisation",
+        "desc": "En accédant à ce site web, vous acceptez les conditions d’utilisation suivantes. Rialtes se réserve le droit de mettre à jour ou de modifier ces conditions à tout moment.",
+        "section1Title": "Utilisation acceptable",
+        "section1Desc": "Vous acceptez d’utiliser ce site web uniquement à des fins légales et de ne pas interférer avec les droits d’autrui.",
+        "section2Title": "Propriété intellectuelle",
+        "section2Desc": "Tout le contenu de ce site web, y compris les textes, images et logos, est la propriété de Rialtes et est protégé par les lois applicables.",
+        "section3Title": "Limitation de responsabilité",
+        "section3Desc": "Rialtes n’est pas responsable des dommages pouvant résulter de l’utilisation de ce site web.",
+        "section4Title": "Modifications",
+        "section4Desc": "Nous nous réservons le droit de modifier ou de mettre à jour ces conditions à tout moment sans préavis."
+    },
+    "privacyPolicy": {
+        "title": "Politique de confidentialité",
+        "desc": "Chez Rialtes, nous prenons au sérieux la confidentialité et la sécurité de vos données personnelles.",
+        "section1Title": "Informations que nous collectons",
+        "section1Desc": "Nous pouvons collecter des informations personnelles telles que votre nom, votre adresse e-mail et vos coordonnées lorsque vous utilisez nos services.",
+        "section2Title": "Comment nous utilisons vos informations",
+        "section2Desc": "Nous utilisons vos informations pour améliorer nos services, vous fournir une assistance et communiquer avec vous.",
+        "section3Title": "Partage de vos informations",
+        "section3Desc": "Nous ne partageons pas vos informations personnelles avec des tiers sans votre consentement, sauf si la loi l’exige.",
+        "section4Title": "Sécurité des données",
+        "section4Desc": "Nous mettons en œuvre des mesures de sécurité pour protéger vos données personnelles contre tout accès non autorisé.",
+        "section5Title": "Vos droits",
+        "section5Desc": "Vous avez le droit d’accéder, de mettre à jour ou de supprimer vos données personnelles en nous contactant directement."
+    }
+}
