@@ -782,5 +782,61 @@
         "description": "La integración fluida entre aplicaciones empresariales ofrece mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de experiencias humanas (HXM) y un conjunto robusto de herramientas de productividad."
       }
     ]
-  }
+  },
+  "newsDataBricks": {
+  "title": "Rialtes Potencia la IA con la Asociación de Databricks para Impulsar una IA Unificada en SAP y Salesforce",
+  "date": "18 Abril 2025",
+  "bannerImage": "/images/homepage/banner.webp",
+  "paragraphs": [
+    "<span class='font-bold'>Rialtes, </span>líder global en consultoría y transformación digital, anuncia con orgullo su nueva designación como <span class='font-bold'>Socio Certificado de Databricks</span>. Este hito marca un avance significativo en la misión de Rialtes de ofrecer soluciones de datos e IA de vanguardia a clientes empresariales, especialmente aquellos que utilizan las plataformas <strong>SAP</strong> y <strong>Salesforce</strong>.",
+    
+    "El anuncio se produce poco después de que SAP presentara el <a class='text-[#038EF4]' href='/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'>SAP Business Data Cloud</a>, una solución SaaS totalmente gestionada diseñada para unificar, gobernar y conectar los datos de SAP con fuentes de terceros. En el centro de este lanzamiento estuvo la <strong>asociación emblemática de SAP con Databricks,</strong> integrando la arquitectura Databricks Lakehouse directamente en SAP Business Data Cloud para desbloquear insights en tiempo real impulsados por IA.",
+    
+    "Como socio global confiable de SAP y Salesforce, Rialtes está en una posición única para capitalizar esta convergencia. Con la certificación de Databricks, <strong>Rialtes ahora puede consolidar de manera fluida los datos empresariales de SAP, Salesforce y otras plataformas de terceros,</strong> desbloqueando experiencias inteligentes y automatizadas para los clientes.",
+    
+    "“Convertirnos en Socio Certificado de Databricks es un momento clave para nosotros”, dijo Prasad Venkatesan, Vicepresidente de Alianzas Globales en Rialtes. “Esta asociación nos brinda las herramientas para dar vida a los datos, fusionando la potente Business Data Cloud de SAP, la plataforma inteligente de Salesforce y las capacidades de IA y ML de Databricks en un tejido de datos unificado y accionable.”",
+    
+    "En el núcleo de esta transformación está <strong>RialBot,</strong> el asistente propietario impulsado por IA de Rialtes. Ahora potenciado por <strong>Databricks,</strong> RialBot aprovecha los <strong>modelos de conversación agentivos de OpenAI</strong> para ofrecer interacciones e insights naturales y en tiempo real. Ya sea un pronóstico de ventas en Salesforce, métricas operativas de SAP o insights predictivos de herramientas de terceros, RialBot lo entrega todo—de manera inteligente e intuitiva. Rialtes también aprovechará:"
+  ],
+  "listItems": [
+    "<a class='text-[#038EF4]' href='/insights/blogs/how-salesforce-agentforce-actually-works'>Salesforce Agentforce</a> y la capa de negocio de IA de <a class='text-[#038EF4]' href='/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule'>SAP Joule</a> para una toma de decisiones enriquecida y basada en roles.",
+    "Un potente motor de IA llamado Genie, construido sobre Databricks, que integra aprendizaje automático y ciencia de datos directamente dentro de la capa de datos empresariales consolidada.",
+    "Soluciones de extremo a extremo que aseguran gobernanza de datos, escalabilidad y análisis en tiempo real en todos los puntos de contacto empresariales."
+  ],
+  "paragraphsEnd": [
+    "Con estas capacidades, Rialtes no solo impulsa la unificación de datos, sino que también moldea el futuro de la inteligencia empresarial, haciendo que la IA sea accesible, práctica y poderosa para empresas de todo el mundo.",
+    "Para obtener más información sobre los servicios de IA y datos de Rialtes, visite <a class='text-blue-600' href='https://www.rialtes.com/'>www.rialtes.com</a> o contacte a <span class='text-blue-600'>pr@rialtes.com</span>"
+  ]
+},
+"newsElite": {
+  "title": "Rialtes Logra el Estatus de Salesforce Reseller Partner, Ampliando Capacidades Integrales en la Nube",
+  "date": "12 Mayo 2025",
+  "rialtesOne": "Rialtes se enorgullece en anunciar que hemos sido oficialmente nombrados",
+  "rialtesTwo": "Salesforce Reseller Partner,",
+  "rialtesThree": "marcando un hito significativo en nuestro camino estratégico para ofrecer innovación empresarial mediante soluciones confiables y nativas en la nube.",
+  "crest": "Ya reconocidos como un socio Salesforce Crest de alto nivel y proveedor de Servicios Gestionados y Consultoría, esta nueva designación amplía nuestras capacidades para ofrecer valor integral de Salesforce, desde asesoría y adquisición de licencias hasta implementación, personalización y soporte gestionado continuo, todo bajo un mismo techo.",
+  "journeyOne": "“Este es un paso crucial en nuestro camino,” dijo",
+  "journeyTwo": "VP de Alianzas y Asociaciones Globales en Rialtes. “Convertirnos en Salesforce Reseller Partner nos permite simplificar la adquisición de tecnología para nuestros clientes mientras garantizamos que reciban servicios de asesoría e implementación de primer nivel. Estamos entusiasmados de profundizar nuestra alineación con Salesforce y ofrecer aún mayor valor.”",
+  "reseller": "Nuestro nuevo estatus como Reseller Partner refleja nuestro talento certificado, excelencia en la entrega global y fuerte colaboración con Salesforce. Agradecemos a nuestro increíble equipo, a nuestros socios en Salesforce y a nuestros clientes por hacer esto posible. Esta asociación allana el camino para agilidad, innovación y adopción simplificada de la nube para empresas de todo el mundo.",
+  "visitOne": "Para más información sobre los servicios de IA y datos de Rialtes, visite ",
+  "visitTwo": "o contacte a "
+},
+"newsSales": {
+  "rialtesTitle": "Rialtes Abre Nueva Oficina de Ventas en Himachal Pradesh, India.",
+  "date": "4 Abril 2025",
+  "paragraphs": [
+    "<span class='font-bold'>Baddi, Himachal Pradesh – 3 de abril de 2025 – </span>Rialtes Technologies, una destacada firma global de consultoría, ha anunciado la gran apertura de su nueva Oficina de Ventas en Baddi, Himachal Pradesh, marcando un paso significativo en la estrategia de expansión de la empresa. La nueva oficina tiene como objetivo fortalecer su presencia en la parte norte de India, mientras explora el inmenso potencial del sector manufacturero de la región.",
+    "Baddi, conocida por su infraestructura industrial y ubicación estratégica, ha sido considerada durante mucho tiempo un territorio sin explotar para la manufactura y la innovación digital. Rialtes Technologies pretende contribuir al crecimiento de la región proporcionando soluciones digitales de vanguardia a fabricantes y empresas locales, alineándose así con la visión de India de convertirse en un centro manufacturero global.",
+    "En un comunicado, <span class='font-bold'>Ajay Tyagi, CEO de Rialtes Technologies</span>, expresó su entusiasmo por esta iniciativa estratégica. “Himachal Pradesh, junto con la región norte más amplia, es un territorio manufacturero sin explotar con un inmenso potencial para la transformación digital. Con la visión de Viksat Bharat bajo el liderazgo del Primer Ministro Narendra Modi, vemos esto como una oportunidad para empoderar a las industrias locales e integrarlas con la economía digital global. Este movimiento se alinea perfectamente con nuestro objetivo de apoyar un Himachal Pradesh Digital y contribuir al próspero panorama manufacturero de India.”",
+    "Rialtes siempre ha estado a la vanguardia de la innovación y las soluciones digitales, y esta expansión en Baddi representa el compromiso de la empresa con el crecimiento económico sostenible y el avance tecnológico en la región. Rialtes es un Socio Certificado de SAP para las iniciativas <a class='text-[#038EF4]' href='/services/business-transformation/grow-with-sap-services'>Grow with SAP</a> y <a class='text-[#038EF4]' href='/services/business-transformation/rise-with-sap-services'>Rise with SAP</a>, y ha estado transformando la atención al cliente utilizando <a class='text-[#038EF4]' href='/solutions/enterprise-platforms/salesforce-consulting'>Salesforce</a> como líder global y socio. Ya sea con <a class='text-[#038EF4]' href='/solutions/data-ai/salesforce-data-cloud-consulting'>Data Cloud</a> o software de recursos humanos <a class='text-[#038EF4]' href='/services/hxm-transformation/successplus-successfactors-implementation-partner'>SuccessFactors</a>, el equipo de Rialtes cuenta con profesionales altamente certificados para atender a clientes de todos los sectores del mercado. Lea más sobre Rialtes aquí: <a class='text-[#038EF4]' href='/about-us'>Acerca de Nosotros.</a>",
+    "Con su profunda experiencia en consultoría, la empresa está preparada para desempeñar un papel clave en la transformación del sector manufacturero en el estado y ayudar a las empresas a adoptar tecnologías de vanguardia.",
+    "Se espera que esta nueva oficina de ventas fomente colaboraciones más sólidas con empresas regionales, mejore la alfabetización digital y catalice la adopción de tecnologías de Industria 4.0 en todo Himachal Pradesh."
+  ],
+  "heading": "Acerca de Rialtes Technologies:",
+  "aboutDesc": "Rialtes Technologies es una firma global de consultoría especializada en transformación digital, consultoría en manufactura y soluciones tecnológicas. Con una fuerte presencia en varios países, Rialtes Technologies es reconocida por ayudar a las empresas a optimizar sus operaciones e impulsar el crecimiento mediante tecnologías de vanguardia y estrategias digitales.",
+  "aboutDescOne": "Para consultas de medios, por favor contacte a:",
+  "aboutDescTwo": "Equipo de PR de Rialtes Technologies"
+}
+
+
 }

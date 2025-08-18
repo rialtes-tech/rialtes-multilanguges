@@ -1,9 +1,11 @@
 "use client";
 import Seo from "@/app/[locale]/components/Seo";
-;
+
 import Image from "next/image";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/insight.json";
+import esContent from "../../../../../../messages/es/insight.json";
 
 const schemaData = {
 
@@ -35,8 +37,12 @@ const schemaData = {
 }
 
 export default function Page() {
-  const fullUrl = "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner";
+const t = useTranslations("newsElite");
+  const locale = useLocale();
+  const newsEliteContent = locale === "es" ? esContent : enContent;
+  const {  } =newsEliteContent.newsElite;
 
+  const fullUrl = "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner";
 
   return (
     <div className="min-h-screen bg-white">
@@ -45,19 +51,16 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
         description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
       />
-    
+  
          <Script
         id="schema-rialtes-joins"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
       <section className="custom-container ">
-
         <section className="relative overflow-hidden  lg:!pr-0">
           <div className="xl:block hidden">
-
             <Image
               src="/images/news/sales-news1.webp"
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
@@ -66,10 +69,8 @@ export default function Page() {
               width={0}
               height={0}
             />
-
-
           </div>
-          <h1 className="leading-tight mt-10">Rialtes Achieves Salesforce Reseller Partner Status, Expanding End-to-End Cloud Capabilities</h1>
+          <h1 className="leading-tight mt-10">{t('title')}</h1>
           <div className="xl:hidden block">
             <Image
               src="/images/news/ba-mobile.webp"
@@ -80,14 +81,12 @@ export default function Page() {
               priority
             />
           </div>
-
-
         </section>
         <div className="pt-10 pb-24 bg-white  ">
           <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                12 May 2025
+                {t('date')}
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -129,23 +128,17 @@ export default function Page() {
             </div>
           </div>
           <div className="py-3"></div>
-
-
           <div className="">
-
             <p className="text-black  xl:text-[22px] text-[18px]">
-              Rialtes proudly announces that we have officially been named a <strong> Salesforce Reseller Partner,</strong> marking a significant milestone in our strategic journey to deliver enterprise innovation through trusted, cloud-first solutions.</p>
+             {t('rialtesOne')} <strong>{t('rialtesTwo')}</strong>{t('rialtesThree')} </p>
 
+            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('crest')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">Already recognized as a top-rated Salesforce Crest Partner and a provider of Managed Services and Consulting, this new designation expands our capabilities to deliver end-to-end Salesforce value—from license advisory and procurement to implementation, customization, and ongoing managed support, all under one roof.</p>
+            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('journeyOne')} <strong> Prasad Venkatesan,</strong> {t('journeyTwo')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">“This is a pivotal step in our journey,” said <strong> Prasad Venkatesan,</strong> VP of Global Alliances and Partnerships at Rialtes. “Becoming a Salesforce Reseller Partner enables us to simplify technology procurement for our clients while ensuring they receive industry-best advisory and implementation services. We’re excited to deepen our alignment with Salesforce and deliver even greater value.”</p>
+            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('reseller')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">Our new status as a Reseller Partner reflects our certified talent, global delivery excellence, and strong collaboration with Salesforce. We're grateful to our incredible team and our partners at Salesforce, and our clients for making this possible. This partnership paves the way for agility, innovation, and simplified cloud adoption for enterprises worldwide.</p>
-
-
-
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">For more information on Rialtes' AI and data services, visit <a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> or contact <span className="text-blue-600">pr@rialtes.com </span> </p>
+            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('visitOne')}<a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> {t('visitTwo')}<span className="text-blue-600">pr@rialtes.com </span></p>
           </div>
 
         </div>
