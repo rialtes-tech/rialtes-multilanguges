@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import WebinarForm from "@/app/[locale]/components/webinarForm";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Link from "next/link";
 import { useTranslations } from "next-intl";

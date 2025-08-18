@@ -9,6 +9,7 @@ import esContent from '../../../../../messages/es/products.json';
 
 
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",

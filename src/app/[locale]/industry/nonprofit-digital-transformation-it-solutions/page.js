@@ -3,6 +3,7 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "../../components/Seo";
 import Image from "next/image";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import React from "react";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";

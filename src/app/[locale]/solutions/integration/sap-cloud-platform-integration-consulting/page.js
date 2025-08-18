@@ -3,6 +3,7 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import React from "react";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';

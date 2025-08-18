@@ -1,5 +1,6 @@
 "use client";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 // pages/case-study-detail.js
 import Seo from "../components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";

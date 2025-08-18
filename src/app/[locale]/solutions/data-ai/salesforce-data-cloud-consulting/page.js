@@ -4,6 +4,7 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';

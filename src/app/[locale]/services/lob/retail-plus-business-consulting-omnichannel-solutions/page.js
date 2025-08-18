@@ -8,6 +8,7 @@ import esContent from '../../../../../../messages/es/services.json';
 import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",

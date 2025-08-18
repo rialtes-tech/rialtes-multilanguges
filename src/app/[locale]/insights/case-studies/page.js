@@ -8,6 +8,7 @@ import Carousel from 'react-multi-carousel';
 import Seo from "@/app/[locale]/components/Seo";
 import { HeroSection } from "@/app/[locale]/components/herosection";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';

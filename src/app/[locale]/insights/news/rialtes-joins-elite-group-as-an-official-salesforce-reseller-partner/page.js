@@ -3,6 +3,7 @@ import Seo from "@/app/[locale]/components/Seo";
 ;
 import Image from "next/image";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData = {
 

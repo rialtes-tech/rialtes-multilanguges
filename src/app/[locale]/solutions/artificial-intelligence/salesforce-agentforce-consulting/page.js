@@ -11,6 +11,7 @@ import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",

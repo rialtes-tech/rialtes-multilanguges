@@ -6,6 +6,7 @@ import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';

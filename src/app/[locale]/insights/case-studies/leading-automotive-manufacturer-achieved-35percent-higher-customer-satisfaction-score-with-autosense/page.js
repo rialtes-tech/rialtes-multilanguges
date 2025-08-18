@@ -8,6 +8,7 @@ import enContent from "../../../../../../messages/en/caseStudy.json";
 import esContent from "../../../../../../messages/es/caseStudy.json";
 
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",

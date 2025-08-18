@@ -7,6 +7,7 @@ import { useState } from "react";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';

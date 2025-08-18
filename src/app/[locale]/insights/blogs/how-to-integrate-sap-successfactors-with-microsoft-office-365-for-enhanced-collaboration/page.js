@@ -7,6 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",

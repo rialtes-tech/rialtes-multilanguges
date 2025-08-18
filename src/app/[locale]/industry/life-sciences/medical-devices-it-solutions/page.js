@@ -5,6 +5,7 @@ import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';

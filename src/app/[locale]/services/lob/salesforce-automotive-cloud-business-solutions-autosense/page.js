@@ -8,6 +8,7 @@ import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",

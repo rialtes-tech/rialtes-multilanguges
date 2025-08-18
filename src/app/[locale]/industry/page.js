@@ -5,6 +5,7 @@ import Image from "next/image";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/industry.json';
 import esContent from '../../../../messages/es/industry.json';

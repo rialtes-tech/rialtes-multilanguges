@@ -6,6 +6,7 @@ import ExploreMoreCarousel from '../../components/servicesExploreMoreCarousel';
 import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/industry.json';

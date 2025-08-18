@@ -6,8 +6,8 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/aboutus.json';
 import esContent from '../../../../messages/es/aboutus.json';
-import frContent from '../../../../../messages/fr/aboutus.json'
-import { changeLocalization } from "../../components/changeLocalization";
+import frContent from '../../../../messages/fr/aboutus.json'
+import { changeLocalization } from "../components/changeLocalization";
 
 const schemaData = {
     "@context": "https://schema.org",

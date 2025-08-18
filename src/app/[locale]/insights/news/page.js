@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';

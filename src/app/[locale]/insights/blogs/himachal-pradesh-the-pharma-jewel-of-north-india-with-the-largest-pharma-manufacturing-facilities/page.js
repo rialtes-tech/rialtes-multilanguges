@@ -3,6 +3,7 @@ import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';

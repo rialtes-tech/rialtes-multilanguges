@@ -9,6 +9,7 @@ import esContent from "../../../../../../messages/es/caseStudy.json";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData =
 {

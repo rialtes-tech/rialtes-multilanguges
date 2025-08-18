@@ -6,6 +6,7 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import Image from "next/image";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 export default function page() {
     const t = useTranslations("salesforceAgent");

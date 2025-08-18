@@ -5,6 +5,7 @@ import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import { HeroSection } from "@/app/[locale]/components/herosection";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";

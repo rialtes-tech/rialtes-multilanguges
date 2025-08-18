@@ -4,6 +4,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';

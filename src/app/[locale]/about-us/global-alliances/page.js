@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/aboutus.json';
 import esContent from '../../../../../messages/es/aboutus.json'
 import frContent from '../../../../../messages/fr/aboutus.json'
-import { changeLocalization } from "../../components/changeLocalization";
 
 export default function Contact() {
     const t = useTranslations('globalAlliance')
