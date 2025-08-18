@@ -11,7 +11,7 @@ import esContent from "../../../../messages/es/solutions.json";
 export default function servicesInsightsCarousel({ padding }) {
     const t = useTranslations("salesForceConsulting");
     const locale = useLocale();
-    const homepageContent = locale === "es" ? esContent : enContent;
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const {slides} = homepageContent.salesForceConsulting;
 
   const responsive = {

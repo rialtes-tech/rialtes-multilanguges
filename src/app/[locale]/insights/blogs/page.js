@@ -35,7 +35,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('blogs')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { latestBlogs, industries, categories, slides } = blogsContent.blogs;
 
   const BlogCard = ({ blog }) => (

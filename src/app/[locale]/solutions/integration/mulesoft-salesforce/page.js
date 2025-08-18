@@ -115,7 +115,7 @@ const schemaData = {
 const page = () => {
   const t = useTranslations("mulesoft");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { pointsData, serveData, driveData } = homepageContent.mulesoft;
 
   return (

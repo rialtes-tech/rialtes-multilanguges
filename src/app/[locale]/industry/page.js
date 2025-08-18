@@ -11,7 +11,7 @@ import esContent from '../../../../messages/es/industry.json';
 export default function Industry() {
   const t = useTranslations("industry");
     const locale = useLocale();
-    const homepageContent = locale === "es" ? esContent : enContent;
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const {growLatestServices} = homepageContent.industry;
    
   const schemaData = {

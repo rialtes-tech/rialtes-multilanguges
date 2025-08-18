@@ -10,7 +10,7 @@ import esContent from '../../../../messages/es/homepage.json';
 export default function servicesExploreMoreCarousel() {
   const t = useTranslations("exploreMore");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slides } = homepageContent.exploreMore;
   const responsive = {
     desktop: {

@@ -40,7 +40,7 @@ const schemaData =
 export default function Page() {
    const t = useTranslations("warrantyClaimCaseStudy");
    const locale = useLocale();
-   const Content = locale === "es" ? esContent : enContent;
+   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
    const { slides, benefitsList } = Content.warrantyClaimCaseStudy;
 
     const fullUrl = "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud";

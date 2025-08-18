@@ -10,7 +10,7 @@ import esContent from '../../../../messages/es/homepage.json';
 export default function ThankYou() {
 const t = useTranslations('thankYou')
 const locale = useLocale();
-const thankYouContent = locale === "es" ? esContent : enContent;
+const thankYouContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {} = thankYouContent.thankYou;
 
   const [isOpen, setIsOpen] = useState(true);

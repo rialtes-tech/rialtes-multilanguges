@@ -96,7 +96,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('finance')
       const locale = useLocale();
-      const financeContent = locale === "es" ? esContent : enContent;
+      const financeContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
       const {challenges,thougthLeadershipData,salesforceData,sapHanaData,aiData,exelonaData,agentchatData,drivenData,whyChooseData} = financeContent.finance;
 
   return (

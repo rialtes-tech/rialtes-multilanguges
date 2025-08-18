@@ -113,7 +113,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("semiconductor");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {
     thoughtData,
     endToEndData,

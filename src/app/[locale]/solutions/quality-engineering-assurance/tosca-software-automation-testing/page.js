@@ -13,7 +13,7 @@ import esContent from '../../../../../../messages/es/solutions.json';
 export default function DemandPlusSection() {
 const t = useTranslations("tosca");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {whychooseData,endToEndData,qTestData ,liveCompareData,neoLoadData,expertsList ,seamlessData  } = homepageContent.tosca;
 
   const schemaData = {

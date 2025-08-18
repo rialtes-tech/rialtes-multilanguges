@@ -113,7 +113,7 @@ const schemaData = {
 export default function HealthCloud() {
   const t = useTranslations("revenueCloud");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { revenueStats, salesForce, salesForce2 } =homepageContent.revenueCloud;
 
   return (

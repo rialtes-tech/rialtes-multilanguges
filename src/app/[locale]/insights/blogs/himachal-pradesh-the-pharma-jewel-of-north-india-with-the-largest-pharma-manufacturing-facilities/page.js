@@ -13,7 +13,7 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pha
 export default function Page() {
   const t = useTranslations("himachalBlog");
   const locale = useLocale();
-  const content = locale === "es" ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, blogMainData, pharmaData, economicData, economicData2, economicData3, hmData } = content.himachalBlog
   return (
     <div className="min-h-screen bg-white">

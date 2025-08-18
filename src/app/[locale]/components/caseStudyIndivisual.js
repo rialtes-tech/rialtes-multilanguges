@@ -11,7 +11,7 @@ import esContent from '../../../../messages/es/industry.json';
 export default function servicesFeaturedCarousel({ slides }) {
      const t = useTranslations("caseStudyIndivisual");
         const locale = useLocale();
-        const homepageContent = locale === "es" ? esContent : enContent;
+        const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
         const {} = homepageContent.caseStudyIndivisual;
 
   

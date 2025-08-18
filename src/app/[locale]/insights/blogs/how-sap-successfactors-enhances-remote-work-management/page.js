@@ -40,7 +40,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('howSuccessFactorEnhances')
   const locale = useLocale();
-  const content = locale === "es" ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, remoteData,commonData} = content.howSuccessFactorEnhances;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management";
 

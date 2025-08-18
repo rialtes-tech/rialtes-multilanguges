@@ -68,7 +68,7 @@ const webinars = [
 export default function About() {
    const t = useTranslations('webinars')
     const locale = useLocale();
-    const webinarsContent = locale === "es" ? esContent : enContent;
+    const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const {allWebinars} = webinarsContent. webinars;
 
   const [currentIndex, setCurrentIndex] = useState(0);

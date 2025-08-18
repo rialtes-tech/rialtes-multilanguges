@@ -3,9 +3,7 @@ import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import ContactForm from "../../components/contactform";
-import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../messages/en/aboutus.json';
-import esContent from '../../../../../messages/es/aboutus.json';
+import { useTranslations } from "next-intl";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -25,9 +23,6 @@ const schemaData = {
 };
 export default function Page() {
   const t = useTranslations('impact')
-      const locale = useLocale();
-      const impactContent = locale === "es" ? esContent : enContent;
-      const {} = impactContent.impact;
 
   return (
     <div className="min-h-screen bg-white">
@@ -70,7 +65,7 @@ export default function Page() {
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 md:mb-[140px]">
               <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
-               {t('impactTitle')}
+                {t('impactTitle')}
               </h1>
               <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
                 {t('impactSubtitle')}<br /> {t('impactSubtitleOne')}
@@ -86,7 +81,7 @@ export default function Page() {
         <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
           <div className=" xl:mb-0">
             <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px]  xl:text-[35px] text-[22px] leading-tight ">
-               {t('rialtesTitle')}
+              {t('rialtesTitle')}
             </h2>
           </div>
         </div>
@@ -104,16 +99,16 @@ export default function Page() {
         <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
           <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] h-[484px] text-white  xl:right-0 top-0">
             <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">
-              {t('innovationTitle')} 
+              {t('innovationTitle')}
             </h3>
             <p className="mt-5 4xl:text-[22px]  xl:text-[18px] text-[16px] ">
-              {t('innovationDesc')} 
+              {t('innovationDesc')}
             </p>
             <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-             {t('innovationDescOne')} 
+              {t('innovationDescOne')}
             </p>
             <p className="mt-4 4xl:text-[22px]  xl:text-[18px] text-[16px]">
-              {t('innovationDescTwo')} 
+              {t('innovationDescTwo')}
             </p>
           </div>
         </div>
@@ -132,13 +127,13 @@ export default function Page() {
             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
               <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]"> {t('effortsTitle')}</h3>
               <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                 {t('effortsDesc')}
+                {t('effortsDesc')}
               </p>
               <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
                 {t('effortsDescOne')}
               </p>
               <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-               {t('effortsDescTwo')}
+                {t('effortsDescTwo')}
               </p>
             </div>
           </div>
@@ -164,7 +159,7 @@ export default function Page() {
                   {t('aiDesc')}
                 </p>
                 <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
-                 {t('aiDescOne')}
+                  {t('aiDescOne')}
                 </p>
                 <p className="mt-4 4xl:text-[22px] xl:text-[20px] text-[16px]">
                   {t('aiDescTwo')}
@@ -193,10 +188,10 @@ export default function Page() {
             {t('innovationTitle')}
           </h3>
           <p className="mt-5 text-[16px] xl:text-[22px]">
-            {t('innovationDesc')} 
+            {t('innovationDesc')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            {t('innovationDescOne')} 
+            {t('innovationDescOne')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
             {t('innovationDescTwo')}
@@ -222,7 +217,7 @@ export default function Page() {
             {t('effortsDescOne')}
           </p>
           <p className="mt-4 text-[16px] xl:text-[22px]">
-            {t('effortsDescTwo')} 
+            {t('effortsDescTwo')}
           </p>
         </div>
       </section>
@@ -257,10 +252,10 @@ export default function Page() {
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10  4xl:py-10 2xl:py-8 flex flex-col justify-center flex-grow">
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
-                 {t('revenueTitle')}
+                  {t('revenueTitle')}
                 </h3>
                 <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
-                 {t('revenueDesc')}
+                  {t('revenueDesc')}
                 </p>
               </div>
               <Image
@@ -288,10 +283,10 @@ export default function Page() {
               />
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px] xl:min-h-[245px]">
                 <p className="4xl:text-[30px] xl:text-[28px] text-[26px] pb-0 md:pb-2">
-                {t('treesDesc')}
+                  {t('treesDesc')}
                 </p>
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px] ">
-                 {t('treesTitle')}
+                  {t('treesTitle')}
                 </h3>
               </div>
             </div>
@@ -302,7 +297,7 @@ export default function Page() {
                   {t('certifiedTitle')}
                 </h3>
                 <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
-                 {t('certifiedDesc')}
+                  {t('certifiedDesc')}
                 </p>
               </div>
               <Image

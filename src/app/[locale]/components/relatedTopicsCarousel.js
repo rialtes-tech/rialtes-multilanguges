@@ -13,7 +13,7 @@ import esContent from '../../../../messages/es/caseStudy.json';
 export default function RelatedTopicsCarousel({ slides }) {
    const t = useTranslations('relatedTopic')
         const locale = useLocale();
-        const Content = locale === "es" ? esContent : enContent;
+        const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
         const {} = Content.relatedTopic;
   
   const responsive = {

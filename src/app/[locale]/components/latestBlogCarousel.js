@@ -11,7 +11,7 @@ import esContent from '../../../../messages/es/insight.json';
 export default function BlogsCarousel() {
 const t = useTranslations('latestBlog')
     const locale = useLocale();
-    const latestBlogContent = locale === "es" ? esContent : enContent;
+    const latestBlogContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const {slides} = latestBlogContent.latestBlog;
 
   const responsive = {

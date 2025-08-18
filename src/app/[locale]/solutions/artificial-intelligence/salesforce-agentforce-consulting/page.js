@@ -97,7 +97,7 @@ const schemaData = {
 export default function Agentforce() {
       const t = useTranslations("agentForce");
       const locale = useLocale();
-      const homepageContent = locale === "es" ? esContent : enContent;
+      const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
         const { salesForce, salesForce2 ,agentBlocks, industryBenifite,slides} = homepageContent.agentForce;
 
     return (

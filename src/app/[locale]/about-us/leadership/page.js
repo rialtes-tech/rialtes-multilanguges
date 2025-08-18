@@ -24,7 +24,7 @@ export default function Leadership() {
             designation: 'Sr. Managing Director - Sales & Marketing',
             viewMore: 'View Bio'
         },
-        
+
         {
             id: 4,
             imageUr: '/images/leadership/Akshay Kale (1).webp',
@@ -69,67 +69,67 @@ export default function Leadership() {
         }
     ]
     const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Rialtes",
-  "url": "https://www.rialtes.com",
-  "employee": [
-    {
-      "@type": "Person",
-      "name": "Ajay Tyagi",
-      "jobTitle": "Founder & CEO",
-      "url": "https://www.rialtes.com/about-us/leadership/Ajay-Tyagi"
-    },
-    {
-      "@type": "Person",
-      "name": "Anuraag Aggarwal",
-      "jobTitle": "AI Practice Lead",
-      "url": "https://www.rialtes.com/about-us/leadership/Anuraag-Aggarwal"
-    },
-    {
-      "@type": "Person",
-      "name": "Akshay Kale",
-      "jobTitle": "SAP Practice Lead",
-      "url": "https://www.rialtes.com/about-us/leadership/Akshay-Kale"
-    },
-    {
-      "@type": "Person",
-      "name": "Prasad Venkatesan",
-      "jobTitle": "VP Global Partnership and Alliances",
-      "url": "https://www.rialtes.com/about-us/leadership/Prasad-Venkatesan"
-    },
-    {
-      "@type": "Person",
-      "name": "Pratik Ingle",
-      "jobTitle": "Salesforce Business Analyst",
-      "url": "https://www.rialtes.com/about-us/leadership/Pratik-Ingle"
-    },
-    {
-      "@type": "Person",
-      "name": "Pawan Tyagi",
-      "jobTitle": "Sr. Managing Director - Salesforce Services",
-      "url": "https://www.rialtes.com/about-us/leadership/Pawan-Tyagi"
-    },
-    {
-      "@type": "Person",
-      "name": "Samadhan Patil",
-      "jobTitle": "Finance and Operations Lead",
-      "url": "https://www.rialtes.com/about-us/leadership/Samadhan-Patil"
-    },
-    {
-      "@type": "Person",
-      "name": "Anand Unadkat",
-      "jobTitle": "Infrastructure and Cloud Migration Practice Lead",
-      "url": "https://www.rialtes.com/about-us/leadership/Anand-Unadkat"
-    },
-    {
-      "@type": "Person",
-      "name": "Rajani Patel",
-      "jobTitle": "Sr. Human Resources Manager",
-      "url": "https://www.rialtes.com/about-us/leadership/Rajani-Patel"
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "employee": [
+            {
+                "@type": "Person",
+                "name": "Ajay Tyagi",
+                "jobTitle": "Founder & CEO",
+                "url": "https://www.rialtes.com/about-us/leadership/Ajay-Tyagi"
+            },
+            {
+                "@type": "Person",
+                "name": "Anuraag Aggarwal",
+                "jobTitle": "AI Practice Lead",
+                "url": "https://www.rialtes.com/about-us/leadership/Anuraag-Aggarwal"
+            },
+            {
+                "@type": "Person",
+                "name": "Akshay Kale",
+                "jobTitle": "SAP Practice Lead",
+                "url": "https://www.rialtes.com/about-us/leadership/Akshay-Kale"
+            },
+            {
+                "@type": "Person",
+                "name": "Prasad Venkatesan",
+                "jobTitle": "VP Global Partnership and Alliances",
+                "url": "https://www.rialtes.com/about-us/leadership/Prasad-Venkatesan"
+            },
+            {
+                "@type": "Person",
+                "name": "Pratik Ingle",
+                "jobTitle": "Salesforce Business Analyst",
+                "url": "https://www.rialtes.com/about-us/leadership/Pratik-Ingle"
+            },
+            {
+                "@type": "Person",
+                "name": "Pawan Tyagi",
+                "jobTitle": "Sr. Managing Director - Salesforce Services",
+                "url": "https://www.rialtes.com/about-us/leadership/Pawan-Tyagi"
+            },
+            {
+                "@type": "Person",
+                "name": "Samadhan Patil",
+                "jobTitle": "Finance and Operations Lead",
+                "url": "https://www.rialtes.com/about-us/leadership/Samadhan-Patil"
+            },
+            {
+                "@type": "Person",
+                "name": "Anand Unadkat",
+                "jobTitle": "Infrastructure and Cloud Migration Practice Lead",
+                "url": "https://www.rialtes.com/about-us/leadership/Anand-Unadkat"
+            },
+            {
+                "@type": "Person",
+                "name": "Rajani Patel",
+                "jobTitle": "Sr. Human Resources Manager",
+                "url": "https://www.rialtes.com/about-us/leadership/Rajani-Patel"
+            }
+        ]
     }
-  ]
-}
     return (
         <div>
             <Seo
@@ -137,12 +137,12 @@ export default function Leadership() {
                 description="Welcome to the Rialtes On Leadership page"
                 keywords="Leadership, website, welcome"
             />
-                <Script
-        id="leadership"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <Script
+                id="leadership"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <div className="relative">
                 <Image
                     src="/images/leadership/Leadership banner.webp"
@@ -170,7 +170,7 @@ export default function Leadership() {
                 <p className="mt-8 lg:w-1/2">With a deep commitment to our clients at the heart of their leadership philosophy, they are the driving force behind our mission towards simplifying our customers’ problems, enabling them to find the right solutions, and empowering them for upcoming challenges.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-16">
                     {leadershipTeam.map((leader, index) => {
-                        const applyMarginTop = (index === 3 || index === 4 || index === 5 || index === 6 || index === 7 || index ===8);
+                        const applyMarginTop = (index === 3 || index === 4 || index === 5 || index === 6 || index === 7 || index === 8);
 
                         return (
 

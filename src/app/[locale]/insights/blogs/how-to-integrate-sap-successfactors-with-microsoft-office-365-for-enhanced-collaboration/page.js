@@ -39,7 +39,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('integrateSapSuccessFactor')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, prerequisitesList, prerequisitesData, benefitsData, steps, whatDoesData } = blogsContent.integrateSapSuccessFactor;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration";
 

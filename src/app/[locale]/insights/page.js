@@ -54,7 +54,7 @@ const schemaData = {
 export default function InsightsPage() {
   const t = useTranslations('insights')
   const locale = useLocale();
-  const insightsContent = locale === "es" ? esContent : enContent;
+  const insightsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { caseStudies } = insightsContent.insights;
 
   const [hoveredBlog, setHoveredBlog] = useState(null);

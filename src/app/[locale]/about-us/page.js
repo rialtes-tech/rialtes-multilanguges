@@ -6,6 +6,8 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/aboutus.json';
 import esContent from '../../../../messages/es/aboutus.json';
+import frContent from '../../../../../messages/fr/aboutus.json'
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -34,36 +36,37 @@ const schemaData = {
 export default function About() {
     const t = useTranslations('aboutUs')
     const locale = useLocale();
-    const aboutUsContent = locale === "es" ? esContent : enContent;
-    const {latestServices,brandStories,corePrinciples,missionCards} = aboutUsContent.aboutUs;
+    const aboutUsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { latestServices, brandStories, corePrinciples, missionCards } = aboutUsContent.aboutUs;
+
     const ServicesCard = ({ services }) => (
-    <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF] flex flex-col min-h-[400px]">
-        <div className="flex-grow">
-            <h3 className="mb-[15px] md:mb-[25px] font-normal line-clamp-4 text-[#1F3F69] 4xl:text-[35px] xl:text-[30px] text-[26px] leading-tight">
-                {services.title}
-            </h3>
-            <p className="md:mb-[15px] mb-0 4xl:text-[27px] xl:text-[22px] text-[20px]">{services.description}</p>
-        </div>
-        <div className="mt-auto xl:mt-7 max-sm:mt-3">
-            <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
-                <Link href={services.url}> {t('learnMore')} </Link>
-            </button>
-        </div>
-    </div>
-);
-const Services = () => {
-    return (
-        <div className="container mx-auto text-black">
-            <h2 className="text-black xl:mt-20 mt-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] "> {t('ourTitle')}</h2>
-            <h3 className="mt-5 font-bold 4xl:text-[45px] 2xl:text-[36px] xl:text-[32px] text-[23px]"> {t('ourDesc')}</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
-                {latestServices.map((services) => (
-                    <ServicesCard key={services.id} services={services} />
-                ))}
+        <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF] flex flex-col min-h-[400px]">
+            <div className="flex-grow">
+                <h3 className="mb-[15px] md:mb-[25px] font-normal line-clamp-4 text-[#1F3F69] 4xl:text-[35px] xl:text-[30px] text-[26px] leading-tight">
+                    {services.title}
+                </h3>
+                <p className="md:mb-[15px] mb-0 4xl:text-[27px] xl:text-[22px] text-[20px]">{services.description}</p>
+            </div>
+            <div className="mt-auto xl:mt-7 max-sm:mt-3">
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
+                    <Link href={services.url}> {t('learnMore')} </Link>
+                </button>
             </div>
         </div>
     );
-};
+    const Services = () => {
+        return (
+            <div className="container mx-auto text-black">
+                <h2 className="text-black xl:mt-20 mt-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] "> {t('ourTitle')}</h2>
+                <h3 className="mt-5 font-bold 4xl:text-[45px] 2xl:text-[36px] xl:text-[32px] text-[23px]"> {t('ourDesc')}</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
+                    {latestServices.map((services) => (
+                        <ServicesCard key={services.id} services={services} />
+                    ))}
+                </div>
+            </div>
+        );
+    };
     return (
         <div className="min-h-screen">
             <Seo
@@ -101,7 +104,7 @@ const Services = () => {
             {/* Mission & Vision Section */}
             <div className="mt-40 custom-container">
                 <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:w-[76%] 4xl:w-[100%]">
-                   {t('worldTitle')} 
+                    {t('worldTitle')}
                 </h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
                     {brandStories.map((story, index) => (

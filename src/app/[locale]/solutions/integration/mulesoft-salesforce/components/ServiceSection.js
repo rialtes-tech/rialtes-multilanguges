@@ -7,7 +7,7 @@ import esContent from "../../../../../../../messages/es/solutions.json";
 const ServiceSection = () => {
   const t = useTranslations("mulesoft");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { cardData } = homepageContent.mulesoft;
   return (
     <div className="custom-container ">

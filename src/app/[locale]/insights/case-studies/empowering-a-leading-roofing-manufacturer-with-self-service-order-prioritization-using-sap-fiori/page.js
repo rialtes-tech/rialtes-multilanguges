@@ -42,7 +42,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("empoweringCaseStudy");
   const locale = useLocale();
-  const Content = locale === "es" ? esContent : enContent;
+  const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slides, solutionsList, benifitList } = Content.empoweringCaseStudy;
 
   const fullUrl =

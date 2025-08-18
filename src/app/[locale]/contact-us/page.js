@@ -102,7 +102,7 @@ const schemaData = {
 const LocationPage = () => {
      const t = useTranslations('contactUs')
         const locale = useLocale();
-        const contactUsContent = locale === "es" ? esContent : enContent;
+        const contactUsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
         const {locations} = contactUsContent.contactUs;
 
     // Group locations by country

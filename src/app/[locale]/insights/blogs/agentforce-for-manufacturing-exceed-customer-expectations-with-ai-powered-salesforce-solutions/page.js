@@ -49,7 +49,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("agentforceForManufacturing");
   const locale = useLocale();
-  const content = locale === "es" ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, faqData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData,
     realTimeVisibilityData
    } = content.agentforceForManufacturing

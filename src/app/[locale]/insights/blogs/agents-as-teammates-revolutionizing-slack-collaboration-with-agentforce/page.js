@@ -41,7 +41,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('meetTeammate')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, featuresData, whatAgentData, integrateData, bringData } = blogsContent.meetTeammate;
   const fullUrl ="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce";
 

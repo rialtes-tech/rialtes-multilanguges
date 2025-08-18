@@ -38,7 +38,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('brainBehind')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, commonData, atlasData } = blogsContent.brainBehind;
   const fullUrl = "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce";
 

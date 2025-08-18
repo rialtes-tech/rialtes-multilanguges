@@ -12,7 +12,7 @@ import esContent from '../../../../../../messages/es/solutions.json';
 export default function DemandPlusSection() {
 const t = useTranslations("uiPath");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {whyRpaData,featureBoxes,featureBoxes2,aribaUseCases,aribaBenefits,s4hanaUseCases,s4hanaBenefits,successFactorUsecases,successFactorBenefits,salesforceUsecases,salesforceBenefits,hrData,retailData,manufacturingData,automativeIndustryData,aiEnhanceData,visualizationData,whyRiatlesData,provenData} = homepageContent.uiPath;
  
     const schemaData = {

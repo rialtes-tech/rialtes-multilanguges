@@ -41,7 +41,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("realForceCaseStudy");
   const locale = useLocale();
-  const Content = locale === "es" ? esContent : enContent;
+  const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slides, problemList, solutionList, benefitsList } =
     Content.realForceCaseStudy;
 

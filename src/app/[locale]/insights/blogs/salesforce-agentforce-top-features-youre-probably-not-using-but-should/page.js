@@ -40,7 +40,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('powerfulFeatures')
   const locale = useLocale();
-  const content = locale === "es" ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, blogMainData, commonData } = content.powerfulFeatures;
   const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should";
 

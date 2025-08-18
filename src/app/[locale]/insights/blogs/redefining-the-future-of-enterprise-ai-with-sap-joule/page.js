@@ -39,7 +39,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("redefiningBlog");
   const locale = useLocale();
-  const content = locale === "es" ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, sapGenerativeData, jouleData, howAiWorkData, howSapJouleData, sapJouleData, quickGlimpseData1, responsiveData } = content.redefiningBlog
   const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
 

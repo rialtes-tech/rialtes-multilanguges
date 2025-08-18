@@ -65,7 +65,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("sapBdc");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { listItems,fabricList,dataItems,partnerList ,exploreData ,migrateData,connectSapData,ourSapData,whyClientsData} = homepageContent.sapBdc;
  
   return (

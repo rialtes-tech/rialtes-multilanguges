@@ -7,7 +7,7 @@ import esContent from '../../../../messages/es/homepage.json';
 export default function Page() {
     const t = useTranslations('termsUse');
     const locale = useLocale();
-    const termsUseContent = locale === "es" ? esContent : enContent;
+    const termsUseContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { useRestrictions, noWarranties, limitationOfLiability, submissionTerms } = termsUseContent.termsUse;
 
     return (

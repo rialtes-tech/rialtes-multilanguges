@@ -43,7 +43,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('automateCrucial')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, commonData, useCasesData } = blogsContent.automateCrucial;
   const fullUrl = "https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration";
 

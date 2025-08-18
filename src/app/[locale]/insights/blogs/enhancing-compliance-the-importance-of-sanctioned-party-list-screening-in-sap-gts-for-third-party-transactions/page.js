@@ -43,7 +43,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('enhancingCompliance')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, commonData } = blogsContent.enhancingCompliance;
   const fullUrl = "https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions";
 

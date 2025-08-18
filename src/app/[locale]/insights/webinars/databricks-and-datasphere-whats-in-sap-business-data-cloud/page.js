@@ -42,7 +42,7 @@ const schemaData = {
 export default function () {
     const t = useTranslations("databricksWebinar");
     const locale = useLocale();
-    const content = locale === "es" ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { webinarAdvantagesData, whoShouldAttendData } = content.databricksWebinar
     return (
         <>

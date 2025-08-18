@@ -41,7 +41,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('sapDataCloud')
   const locale = useLocale();
-  const content = locale === "es" ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, scenario1Data } = content.sapDataCloud;
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success";
 

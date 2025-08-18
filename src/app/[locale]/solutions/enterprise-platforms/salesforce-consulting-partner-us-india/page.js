@@ -16,7 +16,7 @@ import esContent from "../../../../../../messages/es/solutions.json";
 export default function SalesForceConsulting() {
   const t = useTranslations("salesForceConsulting");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {salesForce,salesForceProduct,businessDetails,growthData} = homepageContent.salesForceConsulting;
   const schemaData = {
     "@context": "https://schema.org",

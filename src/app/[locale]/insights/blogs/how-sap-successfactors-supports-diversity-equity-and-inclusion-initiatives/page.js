@@ -38,7 +38,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('successfactorSupportsDiversity')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, overcomingData } = blogsContent.successfactorSupportsDiversity;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives";
 

@@ -39,7 +39,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('agriculture')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, adoptingData,commonData } = blogsContent.agriculture;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
 

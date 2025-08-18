@@ -98,7 +98,7 @@ const schemaData = {
 export default function Page() {
    const t = useTranslations("education");
       const locale = useLocale();
-      const realContent = locale === "es" ? esContent : enContent;
+      const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
       const {latestServices2,keyIndustryData,approachData,studentLeadData,selectionData,studentData,hyperData,lifelongData,selfData,s4HanaData,dynamicData,unifiedData,empoweringData,educationSolutions} = realContent.education;
 
   const Services2 = () => {

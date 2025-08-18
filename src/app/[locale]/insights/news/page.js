@@ -34,7 +34,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('news')
   const locale = useLocale();
-  const newsContent = locale === "es" ? esContent : enContent;
+  const newsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {latestCaseStudy} = newsContent.news;
 
   const CaseStudyCard = ({ casestudy }) => (

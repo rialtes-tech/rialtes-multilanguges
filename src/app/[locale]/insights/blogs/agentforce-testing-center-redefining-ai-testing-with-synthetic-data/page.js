@@ -39,7 +39,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('agentforceTesting')
   const locale = useLocale();
-  const blogsContent = locale === "es" ? esContent : enContent;
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, commonData } = blogsContent.agentforceTesting;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data";
 

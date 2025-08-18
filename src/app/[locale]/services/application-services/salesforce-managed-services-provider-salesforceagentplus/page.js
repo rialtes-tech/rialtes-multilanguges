@@ -10,7 +10,7 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 export default function page() {
     const t = useTranslations("salesforceAgent");
     const locale = useLocale();
-    const homepageContent = locale === "es" ? esContent : enContent;
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { startYourAIData, salesforceagentData, unlockData, rialChatData, ourGlobalData, rialtesSalesforceData, ourSalesforceData, migrateData, certifiedData, whyChooseData } = homepageContent.salesforceAgent;
     const schemaData = {
         "@context": "https://schema.org",

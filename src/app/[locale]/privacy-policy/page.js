@@ -10,7 +10,7 @@ import esContent from "../../../../messages/es/homepage.json";
 export default function Page() {
   const t = useTranslations("privacyPolicy");
   const locale = useLocale();
-  const privacyPolicycontent = locale === "es" ? esContent : enContent;
+  const privacyPolicycontent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {
     privacyList,
     purposeList,

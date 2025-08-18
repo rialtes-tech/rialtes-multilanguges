@@ -114,7 +114,7 @@ const schemaData = {
 export default function Page() {
    const t = useTranslations("realEstate");
       const locale = useLocale();
-      const realContent = locale === "es" ? esContent : enContent;
+      const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
       const {growLatestServices,latestServices,slides} = realContent.realEstate;
 
 
