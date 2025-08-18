@@ -1,12 +1,13 @@
 'use client';
 import usFlag from '../../../../public/images/flags/us-flag.png'
 import spainFlag from "../../../../public/images/flags/spain-flag.png"
+import franceFlag from "../../../../public/images/flags/france-flag.png"
 import { usePathname, useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
-export default function LanguageSwitcher({  arrowImg }) {
+export default function LanguageSwitcher({ arrowImg }) {
     const router = useRouter();
     const pathname = usePathname();
     const currentLocale = useLocale();
@@ -17,7 +18,7 @@ export default function LanguageSwitcher({  arrowImg }) {
     const locales = [
         { code: 'en', label: 'En', flag: usFlag, subtitle: "US-EN" },
         { code: 'es', label: 'Es', flag: spainFlag, subtitle: "US-ES" },
-        { code: 'fr', label: 'FR', flag: spainFlag, subtitle: "CN-FR" },
+        { code: 'fr', label: 'FR', flag: franceFlag, subtitle: "CN-FR" },
     ];
 
     const handleChange = (code) => {
