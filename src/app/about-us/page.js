@@ -160,7 +160,7 @@ export default function About() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <section className="relative">
-                <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0">
+                <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                     {/* Image Element */}
                     <Image
                         src="/images/about-us/header-logo.webp"
