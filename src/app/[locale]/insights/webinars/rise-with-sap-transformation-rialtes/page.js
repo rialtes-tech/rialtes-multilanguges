@@ -5,7 +5,6 @@ import Seo from "@/app/[locale]/components/Seo";
 ;
 import Link from "next/link";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 
 
 const schemaData = {
