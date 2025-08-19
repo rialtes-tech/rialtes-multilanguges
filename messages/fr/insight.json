@@ -519,5 +519,59 @@
       "description": "L’intégration fluide entre applications d’entreprise offre une meilleure collaboration, efficacité et productivité. Intégrer SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution de gestion de l’expérience humaine (HXM) de premier plan et d’une suite robuste d’outils de productivité."
     }
   ]
+},
+"newsDataBricks": {
+  "title": "Rialtes renforce son expertise en IA grâce au partenariat avec Databricks pour unifier l’IA sur SAP et Salesforce",
+  "date": "18 avril 2025",
+  "bannerImage": "/images/homepage/banner.webp",
+  "paragraphs": [
+    "<span class='font-bold'>Rialtes, </span>leader mondial en conseil et transformation digitale, annonce avec fierté sa nouvelle désignation en tant que <span class='font-bold'>Partenaire Certifié Databricks</span>. Cette étape marque un progrès significatif dans la mission de Rialtes de fournir des solutions avancées de données et d’IA aux clients d’entreprise, en particulier ceux utilisant les plateformes <strong>SAP</strong> et <strong>Salesforce</strong>.",
+    
+    "Cette annonce survient peu après que SAP a dévoilé le <a class='text-[#038EF4]' href='/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'>SAP Business Data Cloud</a> — une solution SaaS entièrement gérée conçue pour unifier, gouverner et connecter les données SAP avec des sources tierces. Au cœur de ce lancement se trouve le <strong>partenariat majeur de SAP avec Databricks,</strong> intégrant directement l’architecture Databricks Lakehouse dans SAP Business Data Cloud pour débloquer des informations en temps réel et propulsées par l’IA.",
+    
+    "En tant que partenaire mondial de confiance pour SAP et Salesforce, Rialtes est idéalement positionné pour tirer parti de cette convergence. Avec la certification Databricks, <strong>Rialtes peut désormais consolider de manière transparente les données d’entreprise sur SAP, Salesforce et d’autres plateformes tierces,</strong> offrant des expériences intelligentes et automatisées à ses clients.",
+    
+    "« Devenir Partenaire Certifié Databricks est un moment clé pour nous », a déclaré Prasad Venkatesan, Vice-président, Alliances Globales chez Rialtes. « Ce partenariat nous fournit les outils pour donner vie aux données — en fusionnant le puissant Business Data Cloud de SAP, la plateforme intelligente de Salesforce et les capacités d’IA et de ML de Databricks en un tissu de données unifié et exploitable. »",
+    
+    "Au cœur de cette transformation se trouve <strong>RialBot,</strong> l’assistant propriétaire propulsé par l’IA de Rialtes. Désormais alimenté par <strong>Databricks,</strong> RialBot exploite les <strong>modèles de conversation agentique d’OpenAI</strong> pour offrir des interactions et des insights naturels et humains en temps réel. Qu’il s’agisse de prévisions de ventes dans Salesforce, de métriques opérationnelles de SAP ou d’informations prédictives provenant d’outils tiers, RialBot fournit tout cela de manière intelligente et intuitive. Rialtes exploitera également :"
+  ],
+  "listItems": [
+    "<a class='text-[#038EF4]' href='/insights/blogs/how-salesforce-agentforce-actually-works'>Salesforce Agentforce</a> et la couche d’IA métier de <a class='text-[#038EF4]' href='/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule'>SAP Joule</a> pour une prise de décision enrichie et basée sur les rôles.",
+    "Un puissant moteur d’IA nommé Genie, construit sur Databricks, qui intègre le machine learning et la data science directement dans la couche de données consolidée de l’entreprise.",
+    "Des solutions de bout en bout garantissant la gouvernance des données, l’évolutivité et l’analytique en temps réel sur tous les points de contact de l’entreprise."
+  ],
+  "paragraphsEnd": [
+    "Grâce à ces capacités, Rialtes ne se contente pas de promouvoir l’unification des données, mais façonne également l’avenir de l’intelligence d’entreprise — rendant l’IA accessible, pratique et puissante pour les entreprises du monde entier.",
+    "Pour plus d’informations sur les services d’IA et de données de Rialtes, visitez <a class='text-blue-600' href='https://www.rialtes.com/'>www.rialtes.com</a> ou contactez <span class='text-blue-600'>pr@rialtes.com</span>"
+  ]
+},
+"newsElite": {
+  "title": "Rialtes obtient le statut de Partenaire Revendeur Salesforce, étendant ses capacités cloud de bout en bout",
+  "date": "12 mai 2025",
+  "rialtesOne": "Rialtes annonce fièrement que nous avons officiellement été nommés",
+  "rialtesTwo": "Partenaire Revendeur Salesforce,",
+  "rialtesThree": "marquant une étape importante dans notre parcours stratégique pour offrir l’innovation aux entreprises grâce à des solutions cloud fiables et de pointe.",
+  "crest": "Déjà reconnu comme un Partenaire Crest Salesforce de premier plan et fournisseur de services gérés et de conseil, cette nouvelle désignation étend nos capacités pour offrir une valeur Salesforce complète — de l’assistance sur les licences et l’acquisition à la mise en œuvre, la personnalisation et le support géré continu, le tout sous un même toit.",
+  "journeyOne": "« C’est une étape clé dans notre parcours », a déclaré",
+  "journeyTwo": "Vice-président des Alliances et Partenariats Globaux chez Rialtes. « Devenir Partenaire Revendeur Salesforce nous permet de simplifier l’acquisition technologique pour nos clients tout en garantissant qu’ils reçoivent les meilleurs services de conseil et de mise en œuvre du secteur. Nous sommes ravis de renforcer notre alignement avec Salesforce et de fournir encore plus de valeur. »",
+  "reseller": "Notre nouveau statut de Partenaire Revendeur reflète nos talents certifiés, notre excellence de livraison globale et notre forte collaboration avec Salesforce. Nous remercions notre incroyable équipe, nos partenaires chez Salesforce et nos clients d’avoir rendu cela possible. Ce partenariat ouvre la voie à l’agilité, à l’innovation et à l’adoption simplifiée du cloud pour les entreprises du monde entier.",
+  "visitOne": "Pour plus d’informations sur les services d’IA et de données de Rialtes, visitez ",
+  "visitTwo": "ou contactez "
+},
+"newsSales": {
+  "rialtesTitle": "Rialtes ouvre un nouveau bureau commercial à Himachal Pradesh, Inde.",
+  "date": "4 avril 2025",
+  "paragraphs": [
+    "<span class='font-bold'>Baddi, Himachal Pradesh – 3 avril 2025 – </span>Rialtes Technologies, une société mondiale de conseil de premier plan, a annoncé l’ouverture officielle de son nouveau bureau commercial à Baddi, Himachal Pradesh, marquant une étape significative dans sa stratégie d’expansion. Le nouveau bureau vise à renforcer sa présence dans le nord de l’Inde tout en explorant le potentiel immense du secteur manufacturier de la région.",
+    "Baddi, connue pour son infrastructure industrielle et son emplacement stratégique, est depuis longtemps considérée comme un territoire inexploité pour l’industrie manufacturière et l’innovation digitale. Rialtes Technologies vise à contribuer à la croissance de la région en fournissant des solutions digitales de pointe aux fabricants et entreprises locales, s’alignant ainsi sur la vision de l’Inde de devenir un hub manufacturier mondial.",
+    "Dans une déclaration, <span class='font-bold'>Ajay Tyagi, PDG de Rialtes Technologies</span>, a exprimé son enthousiasme pour cette initiative stratégique. « Himachal Pradesh, ainsi que la région nord plus large, est un territoire manufacturier inexploité avec un potentiel immense pour la transformation digitale. Avec la vision de Viksat Bharat sous la direction du Premier ministre Narendra Modi, nous voyons cela comme une opportunité d’autonomiser les industries locales et de les intégrer à l’économie digitale mondiale. Cette initiative s’aligne parfaitement avec notre objectif de soutenir un Himachal Pradesh digital et de contribuer au paysage manufacturier florissant de l’Inde. »",
+    "Rialtes a toujours été à l’avant-garde de l’innovation et des solutions digitales, et cette expansion à Baddi représente l’engagement de l’entreprise à stimuler la croissance économique durable et l’avancement technologique dans la région. Rialtes est un Partenaire SAP certifié pour les initiatives <a class='text-[#038EF4]' href='/services/business-transformation/grow-with-sap-services'>Grow with SAP</a> et <a class='text-[#038EF4]' href='/services/business-transformation/rise-with-sap-services'>Rise with SAP</a>, et transforme le service client en utilisant <a class='text-[#038EF4]' href='/solutions/enterprise-platforms/salesforce-consulting'>Salesforce</a> en tant que leader mondial et partenaire. Qu’il s’agisse de <a class='text-[#038EF4]' href='/solutions/data-ai/salesforce-data-cloud-consulting'>Data Cloud</a> ou de logiciels de ressources humaines <a class='text-[#038EF4]' href='/services/hxm-transformation/successplus-successfactors-implementation-partner'>SuccessFactors</a>, l’équipe de Rialtes comprend des professionnels hautement certifiés pour servir tous les secteurs du marché. En savoir plus sur Rialtes ici <a class='text-[#038EF4]' href='/about-us'>À propos de nous.</a>",
+    "Avec sa profonde expertise en conseil, l’entreprise est prête à jouer un rôle clé dans la transformation du secteur manufacturier de l’État et à aider les entreprises à adopter des technologies de pointe.",
+    "Ce nouveau bureau commercial devrait favoriser des collaborations plus solides avec les entreprises locales, améliorer la littératie digitale et catalyser l’adoption des technologies de l’Industrie 4.0 dans tout l’Himachal Pradesh."
+  ],
+  "heading": "À propos de Rialtes Technologies :",
+  "aboutDesc": "Rialtes Technologies est une société de conseil mondiale spécialisée dans la transformation digitale, le conseil en manufacturing et les solutions technologiques. Avec une forte présence dans plusieurs pays, Rialtes Technologies est reconnue pour aider les entreprises à optimiser leurs opérations et à stimuler leur croissance grâce à des technologies de pointe et des stratégies digitales.",
+  "aboutDescOne": "Pour les demandes des médias, veuillez contacter :",
+  "aboutDescTwo": "Équipe RP de Rialtes Technologies"
 }
 }

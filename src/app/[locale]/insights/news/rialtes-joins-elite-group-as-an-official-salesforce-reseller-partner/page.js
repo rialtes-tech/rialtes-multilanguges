@@ -5,6 +5,8 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/insight.json";
 import esContent from "../../../../../../messages/es/insight.json";
+import frContent from '../../../../../../messages/fr/insight.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,8 +39,9 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("newsElite");
   const locale = useLocale();
-  const newsEliteContent = locale === "es" ? esContent : enContent;
-  const { } = newsEliteContent.newsElite;
+  const newsEliteContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+      const {   } =newsEliteContent.newsElite;
+    
 
   const fullUrl = "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner";
 

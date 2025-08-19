@@ -5,6 +5,8 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/insight.json";
 import esContent from "../../../../../../messages/es/insight.json";
+import frContent from '../../../../../../messages/fr/insight.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,8 +39,9 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("newsSales");
   const locale = useLocale();
-  const newsSalesContent = locale === "es" ? esContent : enContent;
-  const {paragraphs} = newsSalesContent.newsSales;
+  const newsSalesContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const {  paragraphs } =newsSalesContent.newsSales;
+  
   const fullUrl =
     "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh";
 
@@ -130,7 +133,6 @@ export default function Page() {
           </div>
           <div className="py-3"></div>
 
-          <div className="">
             <div className="">
               {paragraphs.map((para, idx) => (
                 <p
@@ -154,7 +156,7 @@ export default function Page() {
                 Email: pr@rialtes.com
               </p>
             </div>
-          </div>
+         
         </div>
       </section>
     </div>
