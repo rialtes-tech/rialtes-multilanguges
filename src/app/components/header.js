@@ -154,6 +154,8 @@ const Header = () => {
       links: [
         { label: 'AgentChat', href: '/products/agentchat' },
          { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
+          { label: 'Exelona', href: '/products/exelona/' },
+
       ],
 
     },
@@ -674,6 +676,12 @@ const Header = () => {
                     >
                       MediAIna
                     </div>
+                       <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      onClick={() => handleSubMenuClickProduct("exelona")}
+                    >
+                      Exelona
+                    </div>
                   </div>
 
                 </div>
@@ -691,13 +699,26 @@ const Header = () => {
                   </div>
                 )}
 
- {openSectionProduct === "mediaina" && (
+              {openSectionProduct === "mediaina" && (
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Transform Patient Care—From Discovery to Recovery</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.</p>
                         <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
+                        >Let's Begin</Link>
+                      </div>
+                    </div>
+
+                  </div>
+                )}
+  {openSectionProduct === "exelona" && (
+                  <div className="col-span-8 flex space-x-5"  >
+                    <div>
+                      <div className="border-b pb-5">
+                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
+                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
+                        <Link href='/products/exelona' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona")}
                         >Let's Begin</Link>
                       </div>
                     </div>
