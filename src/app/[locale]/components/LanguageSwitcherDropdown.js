@@ -72,7 +72,7 @@ export default function LanguageSwitcher({ arrowImg }) {
                 <Image
                     src={arrowImg}
                     alt="arrow"
-                    className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover"
+                    className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover mt-[-4px]"
                     priority
                     width={30}
                     height={30}

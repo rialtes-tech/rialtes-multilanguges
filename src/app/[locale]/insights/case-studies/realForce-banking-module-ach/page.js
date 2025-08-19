@@ -6,10 +6,11 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";
 import esContent from "../../../../../../messages/es/caseStudy.json";
+import frContent from "../../../../../../messages/fr/caseStudy.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
-
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -188,16 +189,16 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-            <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
-                {t("benefitsTitle")}
-              </h2>
-              <div className="pl-3">
-                <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
-                  liClassName="pb-4 text-black last:pb-0"
-                  arrName={benefitsList}
-                />
+          <div className="">
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              {t("benefitsTitle")}
+            </h2>
+            <div className="pl-3">
+              <UnorderedList
+                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                liClassName="pb-4 text-black last:pb-0"
+                arrName={benefitsList}
+              />
             </div>
           </div>
         </div>

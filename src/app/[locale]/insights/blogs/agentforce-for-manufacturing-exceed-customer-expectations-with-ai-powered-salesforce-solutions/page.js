@@ -4,12 +4,14 @@ import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import OrderedList from "@/app/[locale]/components/orderedList";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -53,9 +55,10 @@ export default function Page() {
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, faqData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData,
     realTimeVisibilityData
-   } = content.agentforceForManufacturing
-  const [openIndex, setOpenIndex] = useState(null);
+  } = content.agentforceForManufacturing
 
+
+  const [openIndex, setOpenIndex] = useState(null);
   const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
@@ -309,18 +312,18 @@ export default function Page() {
 
               </p>
               <OrderedList arrName={realTimeData} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 mt-5" />
-           
+
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('dontDeliverTitle')}   
+                {t('dontDeliverTitle')}
               </h2>
               <p className="mt-5">
                 {t('dontDeliverData')}  {" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
-                  {t('dontDeliverDataLink')}   
+                  {t('dontDeliverDataLink')}
                 </Link>{" "}
-               {t('dontDeliverData2')} 
+                {t('dontDeliverData2')}
               </p>
               <p className="mt-5">
                 {t('asTitle')} {" "}
@@ -328,7 +331,7 @@ export default function Page() {
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
                   target="_blank">
-                  {t('asDataLink')}   
+                  {t('asDataLink')}
                 </Link>{" "}
                 {t('asData2')}    {" "}
               </p>
@@ -337,11 +340,11 @@ export default function Page() {
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.rialtes.com/contact-us/" target="_blank">
-                  {t('letsTalk')} 
+                  {t('letsTalk')}
                 </Link>{" "}
               </p>
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('faqTitle')} 
+                {t('faqTitle')}
               </h2>
               <div className="mx-auto">
                 {faqData.map((item, index) => (

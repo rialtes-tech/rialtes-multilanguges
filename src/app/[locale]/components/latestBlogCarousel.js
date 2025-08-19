@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
@@ -7,6 +6,8 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/insight.json';
 import esContent from '../../../../messages/es/insight.json';
+import frContent from '../../../../messages/fr/insight.json';
+import { changeLocalization } from "./changeLocalization";
 
 export default function BlogsCarousel() {
 const t = useTranslations('latestBlog')

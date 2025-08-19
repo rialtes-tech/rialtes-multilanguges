@@ -6,9 +6,11 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -41,7 +43,7 @@ export default function Page() {
   const t = useTranslations('agriculture')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, adoptingData,commonData } = blogsContent.agriculture;
+  const { blogs, adoptingData, commonData } = blogsContent.agriculture;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
 
   return (
@@ -155,8 +157,8 @@ export default function Page() {
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('moveTitle')}</h2>
 
               <p className="text-black pb-4">{t('moveDesc')}
-               {" "} <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}>
-                  <span>{t('moveLink')} </span></Link>{" "} 
+                {" "} <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}>
+                  <span>{t('moveLink')} </span></Link>{" "}
                 {t('moveDesc2')}</p>
             </div>
           </>

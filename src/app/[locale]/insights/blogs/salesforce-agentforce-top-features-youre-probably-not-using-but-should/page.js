@@ -1,14 +1,14 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -141,7 +141,7 @@ export default function Page() {
                       <p className="text-black pb-4">{data.desc}</p>
                       <ul className="list-disc text-black marker:text-[#0092E0] pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
                         {
-                         data.data.map((elem, ind) => {
+                          data.data.map((elem, ind) => {
                             return (
                               <li className="pb-2" key={ind}><h3 className="font-bold inline xl:text-[20px] text-[16px]">{elem.title}</h3>{elem.desc}</li>
                             )

@@ -4,10 +4,12 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 const schemaData =
 {
   "@context": "https://schema.org",
@@ -176,7 +178,7 @@ export default function Page() {
               {
                 aribaOptimizesData.map((data, ind) => {
                   return (
-                    <div>
+                    <div key={ind}>
                       <h3 className="text-black pb-2 h3-bold">{ind + 1}.{data.title}  </h3>
                       <p className="text-black pb-4">{data.desc}</p>
                     </div>

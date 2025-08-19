@@ -102,10 +102,10 @@ const schemaData = {
     ]
 }
 const LocationPage = () => {
-     const t = useTranslations('contactUs')
-        const locale = useLocale();
-        const contactUsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-        const {locations} = contactUsContent.contactUs;
+    const t = useTranslations('contactUs')
+    const locale = useLocale();
+    const contactUsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { locations } = contactUsContent.contactUs;
 
     // Group locations by country
     const groupByCountry = (countryName) => {
@@ -116,7 +116,7 @@ const LocationPage = () => {
             <Seo
                 title="Contact Us – Expert IT Consulting for Your Business Growth | Rialtes"
                 description="Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success."
-             
+
                 keywords="Contact, website, welcome"
                 canonical={"https://www.rialtes.com/contact-us/"}
             />

@@ -3,6 +3,8 @@ import Seo from "../components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
+import frContent from '../../../../messages/fr/homepage.json';
+import { changeLocalization } from "../components/changeLocalization";
 
 export default function Page() {
     const t = useTranslations('termsUse');

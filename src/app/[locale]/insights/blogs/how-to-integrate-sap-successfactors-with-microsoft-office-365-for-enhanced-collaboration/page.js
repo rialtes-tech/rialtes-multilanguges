@@ -6,9 +6,11 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -169,7 +171,7 @@ export default function Page() {
                 {
                   whatDoesData.map((data, ind) => {
                     return (
-                      <li><h3 className="h3-bold inline" key={ind}>{data.title}</h3>{data.desc}</li>
+                      <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
                     )
                   })
                 }
@@ -182,8 +184,8 @@ export default function Page() {
               <p className="text-black pb-4">{t('completeDesc')}</p>
 
               <p className="text-black pb-4">{t('completeDesc2')}
-               {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>{t('completeLink')}</Link>
-               {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link>
+                {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>{t('completeLink')}</Link>
+                {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link>
                 {t('completeDesc4')}</p>
             </div>
           </div>

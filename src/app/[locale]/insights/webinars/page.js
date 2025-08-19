@@ -5,15 +5,13 @@ import { SlControlPlay } from "react-icons/sl";
 import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';
-
-
+import frContent from '../../../../../messages/fr/insight.json';
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "mainEntityOfPage": {
@@ -35,42 +33,14 @@ const schemaData = {
 }
 
 const webinars = [
-
-  // {
-  //   id: 2,
-  //   title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-  //   date: "June 03, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: {
-  //     name: "Anuraag Aggarwal",
-  //     role: "Vice President of Global Sales",
-  //     image: "/images/webinar/anurag.webp",
-  //   },
-  //   backgroundImage: "/images/webinar/rise.webp",
-  //   url: 'insights/webinars/rise-with-sap-transformation-rialtes'
-  // },
-  // {
-  //   id: 3,
-  //   title: "CIG, Your Gateway to SAP Ariba",
-  //   date: "10 June, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: {
-  //     name: "Sapna Chauhan",
-  //     role: "Software Engineer - SAP",
-  //     image: "/images/webinar/sapna-chauhan.webp",
-  //   },
-  //   backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-  //   url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
-  // },
-
 ];
 
 
 export default function About() {
-   const t = useTranslations('webinars')
-    const locale = useLocale();
-    const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const {allWebinars} = webinarsContent. webinars;
+  const t = useTranslations('webinars')
+  const locale = useLocale();
+  const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { allWebinars } = webinarsContent.webinars;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -176,9 +146,9 @@ export default function About() {
         >
           <div className="h-full flex flex-col justify-center">
             <h1 className="text-[#000000] max-w-2xl leading-tight text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px]">
-             {t('headerTitle')} 
+              {t('headerTitle')}
               <br />
-             {t('headerTitleOne')} 
+              {t('headerTitleOne')}
             </h1>
           </div>
         </div>
@@ -192,7 +162,7 @@ export default function About() {
             <div>
               <h2 className="xl:text-[28px]  font-medium">{t('headerSubTitle')}</h2>
               <p className="text-[#000000] text-[22px]  py-6 max-w-5xl mb-12 font-normal leading-tight">
-               {t('headerDesc')}</p>
+                {t('headerDesc')}</p>
               <div className="w-full">
                 <div className="flex items-center mb-6 justify-between">
                   <h2 className="w-full md:w-3/4 xl:text-[40px] 4xl:text-[56px]">{t('upcomingTitle')}</h2>

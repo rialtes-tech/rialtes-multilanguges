@@ -4,10 +4,11 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl"; 
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",

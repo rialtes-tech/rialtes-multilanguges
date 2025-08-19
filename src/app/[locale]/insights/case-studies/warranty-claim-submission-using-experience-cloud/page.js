@@ -1,15 +1,14 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";
 import esContent from "../../../../../../messages/es/caseStudy.json";
+import frContent from "../../../../../../messages/fr/caseStudy.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
-
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData =
 {

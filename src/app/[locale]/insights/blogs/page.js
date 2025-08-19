@@ -7,10 +7,11 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';
+import frContent from '../../../../../messages/fr/insight.json';
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",
