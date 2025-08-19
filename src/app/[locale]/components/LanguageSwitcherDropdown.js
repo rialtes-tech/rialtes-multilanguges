@@ -18,7 +18,7 @@ export default function LanguageSwitcher({ arrowImg }) {
     const locales = [
         { code: 'en', label: 'En', flag: usFlag, subtitle: "US-EN" },
         { code: 'es', label: 'Es', flag: spainFlag, subtitle: "US-ES" },
-        { code: 'fr', label: 'FR', flag: franceFlag, subtitle: "CN-FR" },
+        { code: 'fr', label: 'FR', flag: franceFlag, subtitle: "CA-FR" },
     ];
 
     const handleChange = (code) => {
