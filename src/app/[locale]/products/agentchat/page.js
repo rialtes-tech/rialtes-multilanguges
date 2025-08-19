@@ -6,8 +6,8 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/products.json';
 import esContent from '../../../../../messages/es/products.json';
-
-
+import frContent from '../../../../../messages/fr/products.json';
+import { changeLocalization } from "../../components/changeLocalization";
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -62,12 +62,12 @@ const schemaData = {
     ]
 }
 export default function Page() {
-       const t = useTranslations("agentChat");
-            const locale = useLocale();
-            const homepageContent = locale === "es" ? esContent : enContent;
-            const {features,tableData} = homepageContent.agentChat;
+    const t = useTranslations("agentChat");
+    const locale = useLocale();
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { features, tableData } = homepageContent.agentChat;
 
-    
+
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -166,10 +166,10 @@ export default function Page() {
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874]">
                             <div>
                                 <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px] text-black group-hover:text-white">
-                                   {t('whySubHeader')}
+                                    {t('whySubHeader')}
                                 </h3>
                                 <p className="mt-5 xl:mt-10 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px] text-black group-hover:text-white">
-                                  {t('whyDesc')} </p>
+                                    {t('whyDesc')} </p>
                             </div>
                             <Image className="w-[50px] 4xl:w-[75px] 2xl:w-[70px] md:mt-20 mt-10 group-hover:invert group-hover:brightness-200"
                                 src="/images/industry/rialchat/Instant WhatsApp .svg"
@@ -303,12 +303,12 @@ export default function Page() {
                             </thead>
                             <tbody className="divide-y ">
                                 {
-                                   tableData.map((item, index) => (
-                                    <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
-                                        <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.title}</td>
-                                        <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.desc}</td>
-                                    </tr>
-                                ))}
+                                    tableData.map((item, index) => (
+                                        <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} text-left mt-5`}>
+                                            <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.title}</td>
+                                            <td className="p-4 text-[16px] md:text-[22px] lg:text-[20px] xl:text-[20px] 2xl:text-[24px] 4xl:text-[26px]">{item.desc}</td>
+                                        </tr>
+                                    ))}
                             </tbody>
                         </table>
                     </div>

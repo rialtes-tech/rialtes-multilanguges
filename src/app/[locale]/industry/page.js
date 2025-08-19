@@ -8,11 +8,14 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/industry.json';
 import esContent from '../../../../messages/es/industry.json';
+import frContent from '../../../../messages/fr/industry.json';
+import { changeLocalization } from "../components/changeLocalization";
+
 export default function Industry() {
   const t = useTranslations("industry");
     const locale = useLocale();
-    const homepageContent = locale === "es" ? esContent : enContent;
-    const {growLatestServices} = homepageContent.industry;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const {growLatestServices} = content.industry;
    
   const schemaData = {
     "@context": "https://schema.org",

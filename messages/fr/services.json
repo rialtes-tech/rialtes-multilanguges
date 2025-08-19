@@ -1,0 +1,2075 @@
+{
+  "sapBuyPlus": {
+    "headerTitle": "SAPBuy+",
+    "headerSubTitle": "Transformez l’excellence des achats avec les services SAPBuy+ de Rialtes pour SAP ARIBA",
+    "pageDesc": "Chez Rialtes, nous aidons les organisations à redéfinir l’efficacité des achats avec SAP ARIBA, la solution cloud leader du secteur pour l’approvisionnement stratégique, la gestion des contrats, la collaboration avec les fournisseurs et l’automatisation du procure-to-pay. Avec SAP ARIBA, les entreprises peuvent rationaliser leurs opérations d’achat, réduire les coûts, assurer la conformité et renforcer l’engagement des fournisseurs à l’échelle mondiale.",
+    "pageDesc2": "En tant que partenaire certifié SAP avec une présence mondiale aux États-Unis, au Canada, en Inde et à Singapour, Rialtes fournit des solutions SAP ARIBA complètes, couvrant le conseil, la mise en œuvre, l’intégration et l’optimisation continue. Notre suite de services SAPBuy+ garantit aux entreprises une transformation complète des achats tout en maximisant le retour sur investissement des investissements SAP.",
+    "contactTitle": "Prêt à faire évoluer vos achats avec SAP ARIBA ?",
+    "contactSubTitle": "Avec l’expertise de Rialtes sur SAP ARIBA, vous pouvez rationaliser vos achats, améliorer la collaboration avec les fournisseurs et générer des économies de coûts.",
+    "contactSubTitle2": "Parlez à nos experts dès aujourd’hui et libérez le potentiel de transformation des achats !",
+    "whyChooseData": [
+      {
+        "title": "Conseil sur les licences SAP ARIBA",
+        "desc": "Orientation pour sélectionner les bons modules ARIBA en fonction des besoins d’achat."
+      },
+      {
+        "title": "Mise en œuvre et conception",
+        "desc": "Conception axée sur les processus avec SAP Signavio et la méthodologie SAP Activate."
+      },
+      {
+        "title": "Assurance qualité et gouvernance",
+        "desc": "Tests de pointe, validation de conformité et optimisation des processus."
+      },
+      {
+        "title": "Intégration système",
+        "desc": "Connexion fluide d’ARIBA avec SAP S/4HANA, SAP SuccessFactors et d’autres applications tierces via SAP CPI."
+      },
+      {
+        "title": "Support post Go-Live",
+        "desc": "Suivi continu, intégration des fournisseurs, optimisation des données et formation des utilisateurs."
+      }
+    ],
+    "whyChooseRialtesTitle": "Pourquoi choisir Rialtes pour la mise en œuvre de SAP ARIBA ?",
+    "whyChooseRialtesSubTitle": "SAPBuy+ — Une approche complète de la transformation des achats",
+    "whyChooseRialtesDesc": "Notre suite de services SAPBuy+ intègre stratégie, exécution et support, garantissant une adoption fluide de SAP ARIBA par les entreprises.",
+    "benefitsData": [
+      {
+        "title": "Achats rationalisés –",
+        "desc": "Automatisez l’ensemble du processus procure-to-pay (P2P), éliminant les inefficacités."
+      },
+      {
+        "title": "Collaboration avec les fournisseurs –",
+        "desc": "Connectez-vous à des millions de fournisseurs dans le monde via l’ARIBA Business Network."
+      },
+      {
+        "title": "Optimisation des coûts –",
+        "desc": "Obtenez une visibilité complète sur les dépenses d’achat, négociez de meilleurs contrats et réduisez les dépenses non contrôlées."
+      },
+      {
+        "title": "Conformité et réduction des risques –",
+        "desc": "Assurez la conformité réglementaire, l’alignement des contrats et la diligence raisonnable des fournisseurs."
+      },
+      {
+        "title": "Achats orientés Cloud –",
+        "desc": "Éliminez les efforts de maintenance IT grâce à l’architecture SaaS de SAP ARIBA."
+      }
+    ],
+    "migrationData": [
+      {
+        "title": "Migration et transformation des données –",
+        "desc": "Migration sécurisée et structurée des données fournisseurs, contrats et transactions."
+      },
+      {
+        "title": "Standardisation des processus –",
+        "desc": "Optimisation des flux d’approvisionnement selon les meilleures pratiques SAP ARIBA."
+      },
+      {
+        "title": "Activation des fournisseurs –",
+        "desc": "Intégration et formation des fournisseurs pour une utilisation efficace d’ARIBA."
+      },
+      {
+        "title": "Gestion du changement et formation –",
+        "desc": "Assurer une adoption réussie au sein des équipes achats."
+      }
+    ],
+    "unlockTitle": "Libérez l’efficacité des achats grâce aux services de mise en œuvre et de migration SAP ARIBA",
+    "unlockDesc": "Les organisations souhaitant moderniser leurs systèmes d’approvisionnement ou migrer depuis des solutions héritées peuvent passer à SAP ARIBA en toute fluidité grâce à l’expertise de Rialtes.",
+    "benefitsTitle": "Avantages de la mise en œuvre de SAP ARIBA",
+    "sapMigrateTitle": "Services de migration SAP ARIBA",
+    "sapMigrateDesc": "Pour les entreprises utilisant déjà SAP SRM, SAP ECC ou d’autres systèmes d’approvisionnement hérités, Rialtes propose des services de migration de bout en bout, comprenant :",
+    "sapAribaIndirectData": [
+      "Flux d’approbation standardisés pour assurer la conformité.",
+      "Analyse des dépenses basée sur l’IA pour identifier les opportunités d’économies.",
+      "Collaboration en temps réel avec les fournisseurs pour gérer factures, paiements et SLA."
+    ],
+    "sapAribaDirectData": [
+      "Visibilité en temps réel sur les besoins de la chaîne d’approvisionnement.",
+      "Génération automatique des bons de commande (PO) liée aux plannings de production.",
+      "Outils de collaboration fournisseurs pour minimiser les perturbations et optimiser les délais de livraison."
+    ],
+    "sapAribaModuleTitle": "Modules SAP ARIBA & expertise de mise en œuvre de Rialtes",
+    "sapAribaModuleSubTitle": "SAP ARIBA pour les achats directs – Intégré à SAP S/4HANA",
+    "sapAribaModuleDesc": "Les achats directs concernent les matières premières, composants et éléments liés à la production. SAP ARIBA, intégré à SAP S/4HANA, garantit :",
+    "sapAribaModuleSubTitle2": "SAP ARIBA pour les achats indirects – Des achats plus intelligents, guidés par les politiques",
+    "sapAribaModuleDesc2": "Les achats indirects couvrent les fournitures de bureau, les services professionnels, les ressources IT et la gestion des installations. Avec l’approvisionnement automatisé et la gestion des contrats de SAP ARIBA, les entreprises atteignent :",
+    "sapAribaData": [
+      "Découverte fluide de fournisseurs – Connectez-vous à des millions de fournisseurs vérifiés dans le monde.",
+      "Automatisation RFQ & appels d’offres – Permet des négociations en temps réel avec une tarification transparente.",
+      "Numérisation des commandes et factures – Réduisez les efforts manuels et les erreurs dans le traitement des transactions.",
+      "Visibilité de bout en bout de la chaîne d’approvisionnement – Obtenez des informations exploitables sur le suivi des commandes, l’état des expéditions et l’atténuation des risques."
+    ],
+    "aribaBusinessTitle": "SAP ARIBA Business Network",
+    "aribaBusinessSubTitle": "Collaboration mondiale avec les fournisseurs",
+    "aribaBusinessDesc": "SAP ARIBA Business Network est le plus grand marché numérique au monde pour les fournisseurs et acheteurs, facilitant :",
+    "supplierAribaDirectData": [
+      "Automatisation de l’intégration des fournisseurs avec validation de conformité.",
+      "Suivi continu de la performance des fournisseurs avec tableaux de bord en temps réel.",
+      "Évaluation des risques et détection de fraude grâce à l’analyse pilotée par IA.",
+      "Gestion continue des relations fournisseurs pour optimiser l’efficacité des achats."
+    ],
+    "supplierTitle": "Profil fournisseur & gestion des risques",
+    "supplierDesc": "Un cadre robuste de gestion des fournisseurs est essentiel pour atténuer les risques. Rialtes permet :",
+    "contractData": [
+      "Création automatisée de contrats à l’aide de modèles prédéfinis.",
+      "Outils de collaboration pour les équipes juridiques et achats afin de rationaliser les approbations.",
+      "Support de signature numérique pour une exécution rapide et sécurisée des contrats.",
+      "Suivi intégré de la conformité pour surveiller les obligations et renouvellements contractuels."
+    ],
+    "aribaContractTitle": "Gestion des contrats ARIBA",
+    "aribaContractSubTitle": "Centralisé & conforme",
+    "aribaContractDesc": "SAP ARIBA simplifie la gestion du cycle de vie des contrats avec :",
+    "exploreData": [
+      {
+        "title": "SAP SuccessFactors",
+        "desc": "Alignez les stratégies d’approvisionnement avec la planification des effectifs.",
+        "link": "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
+      },
+      {
+        "title": "SAP S/4HANA",
+        "desc": "Une base ERP en temps réel pour les achats, la finance et la gestion de la chaîne d’approvisionnement.",
+        "link": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+      },
+      {
+        "title": "SAP pour les achats directs & indirects",
+        "desc": "Conduisez la transformation des achats à travers toutes les catégories d’approvisionnement.",
+        "link": "/contact-us"
+      }
+    ],
+    "exploreTitle": "Explorer les services SAP associés",
+    "knowMoreBtn": "En savoir plus",
+    "seamlessData": [
+      {
+        "title": "SAP ARIBA doit fonctionner de manière fluide au sein du paysage IT global de l’entreprise. Rialtes exploite SAP Cloud Platform Integration (CPI) pour connecter ARIBA avec :",
+        "list": [
+          "SAP S/4HANA pour l’automatisation des achats et de la finance.",
+          "SAP SuccessFactors pour aligner les achats sur les politiques RH (embauche de contractuels, notes de frais).",
+          "Applications non-SAP telles que ERP, CRM ou systèmes logistiques tiers."
+        ]
+      },
+      {
+        "title": "De plus, Rialtes apporte une expertise approfondie sur SAP Business Technology Platform (BTP), permettant :",
+        "list": [
+          "Extensions ARIBA personnalisées pour les besoins spécifiques du secteur.",
+          "Automatisation des workflows & insights d’achat basés sur l’IA.",
+          "Analytique intégrée pour le suivi des performances achats."
+        ]
+      }
+    ],
+    "seamlessTitle": "Intégrations fluides grâce à SAP CPI & à la compétence BTP de Rialtes",
+    "buyingData": [
+      "Achats basés sur catalogue avec tarification prédéfinie et conditions fournisseurs.",
+      "Rapprochement des bons de commande (PO) & factures pour éliminer les écarts.",
+      "Validation automatique de la fiscalité & de la conformité pour prévenir fraude et risques réglementaires.",
+      "Analyse des dépenses pilotée par IA pour optimiser les budgets achats."
+    ],
+    "buyingTitle": "Achats & facturation (Procure-to-Pay)",
+    "buyingSubTitle": "Automatisation complète",
+    "buyingDesc": "Le module SAP ARIBA Buying & Invoicing automatise l’ensemble du cycle procure-to-pay, offrant :",
+    "agentData": [
+      {
+        "title": "Communication instantanée avec les fournisseurs –",
+        "desc": "Automatisez les RFQ, PO et le suivi des factures via WhatsApp."
+      },
+      {
+        "title": "Approbations achats en temps réel –",
+        "desc": "Permettez aux responsables achats d’approuver les PO via mobile."
+      },
+      {
+        "title": "Modèle multi-rôles & sécurité –",
+        "desc": "Configurez l’accès en fonction des rôles achats."
+      },
+      {
+        "title": "Mise en place & intégration rapides –",
+        "desc": "Déploiement en quelques minutes dans les écosystèmes SAP & Salesforce."
+      }
+    ],
+    "agentChatTitle": "Présentation d’AgentChat",
+    "agentChatSubTitle": "Engagement fournisseur alimenté par l’IA",
+    "agentChatDesc": "Rialtes RialChat est une application conversationnelle bidirectionnelle sur WhatsApp, conçue pour une collaboration fluide avec les fournisseurs.",
+    "keyFeatureTitle": "Fonctionnalités clés d’AgentChat pour les utilisateurs SAP ARIBA"
+  },
+  "successPlus": {
+    "headerTitle": "Success+",
+    "headerSubTitlep1": "Transformer les RH pour",
+    "headerSubTitlep2": " l’entreprise moderne",
+    "headerSubTitle2": "Success+ de Rialtes",
+    "headerSubTitle3": "pour SAP SuccessFactors",
+    "pageDescTitle": "Services de conseil SuccessFactors de bout en bout pour une main-d’œuvre prête pour l’avenir",
+    "pageDesc1": "Chez Rialtes, nous croyons que les RH sont au cœur du succès de chaque organisation. Notre suite « SuccessPlus » de services SAP SuccessFactors est conçue pour aider les organisations à transformer leurs stratégies de gestion du capital humain (HCM), rationaliser les processus RH et offrir une expérience employé exceptionnelle.",
+    "pageDesc2": "En tant que partenaire certifié SAP avec des bureaux en Inde, aux États-Unis, au Canada et à Singapour, Rialtes apporte une expertise sectorielle approfondie, des experts certifiés SAP et une expérience pratique pour concevoir, mettre en œuvre et optimiser des solutions SAP SuccessFactors adaptées à vos besoins.",
+    "whyRialtesTitle": "Qu’est-ce que Success+ de Rialtes ?",
+    "whyRialtesSubTitle1": "Une offre SAP SuccessFactors",
+    "whyRialtesSubTitle2": "couvrant tout le cycle de vie",
+    "whyRialtesDesc": "Nos services SuccessPlus combinent conseil en licences, mise en œuvre, configuration, intégration, assurance qualité et support post-go-live pour offrir un parcours SAP SuccessFactors complet et fluide à votre organisation.",
+    "workdayTitle1": "Migration Workday vers SAP SuccessFactors",
+    "workdayTitle2": "-",
+    "workdayTitle3": "Migrez en toute confiance",
+    "workdayDesc": "Les organisations qui souhaitent passer de Workday à SAP SuccessFactors peuvent s’appuyer sur la méthodologie éprouvée de Rialtes pour garantir une transition sécurisée, conforme et fluide.",
+    "ourWorkdayTitle": "Notre migration de Workday vers SuccessFactors inclut :",
+    "ourWorkdayTitle2": "Avantages clés de la migration de Workday vers SuccessFactors :",
+    "zohoTitle1": "Migration ZOHO HR vers SAP SuccessFactors",
+    "zohoTitle2": "-",
+    "zohoTitle3": "Transformation RH de niveau entreprise",
+    "zohoDesc": "Vous dépassez ZOHO HR ? Rialtes propose une migration de bout en bout de ZOHO HR vers SAP SuccessFactors, permettant une transition vers une plateforme RH mondiale et de niveau entreprise.",
+    "ourZohoTitle": "Notre migration de ZOHO vers SuccessFactors inclut :",
+    "ourZohoSubTitle": "Avantages de la migration de ZOHO HR vers SAP SuccessFactors :",
+    "benefitsMigratingTitle": "Avantages de la migration vers SAP SuccessFactors avec Success+ de Rialtes",
+    "processTitle": "Succès axé sur les processus avec SAP Signavio et la méthodologie SAP Activate",
+    "processDesc": "Rialtes exploite la puissance de l’intelligence des processus de SAP Signavio combinée à la méthodologie SAP Activate pour garantir une mise en œuvre fluide et efficace de SAP SuccessFactors.",
+    "processSubTitle1": "Méthodologie SAP Activate -",
+    "processSubTitle2": "Approche par phases avec Rialtes :",
+    "sapSuccessTitle1": "SAP SuccessFactors et SAP S/4HANA -",
+    "sapSuccessTitle2": "Mieux ensemble",
+    "sapSuccessDesc": "SAP SuccessFactors s’intègre nativement avec SAP S/4HANA, permettant des processus RH fluides étroitement couplés à la finance, aux achats et aux opérations.",
+    "keyTitle": "Processus intégrés clés :",
+    "sapCpiTitle1": "SAP CPI -",
+    "sapCpiTitle2": "Intégrer SAP SuccessFactors dans tous les écosystèmes",
+    "sapCpiDesc": "Avec SAP Cloud Platform Integration (CPI), Rialtes garantit une intégration fluide et sécurisée de SuccessFactors avec :",
+    "sapJouleTitle1": "SAP Joule -",
+    "sapJouleTitle2": "Assistant RH intelligent pour SuccessFactors - Exploitez l’IA avec SAP Joule et donnez du pouvoir à l’avenir des RH",
+    "sapJouleDesc": "Rialtes permet aux organisations d’adopter SAP Joule, l’assistant intelligent basé sur l’IA pour SAP SuccessFactors.",
+    "capabilitiesTitle": "Capacités de SAP Joule :",
+    "sapJouleBlueBox": "Rialtes personnalise et ajuste Joule pour l’aligner sur vos besoins RH.",
+    "extendSapTitle1": "Étendez SAP SuccessFactors avec SAP BTP -",
+    "extendSapTitle2": "L’expertise inégalée de Rialtes",
+    "extendSapDesc": "La solide compétence de Rialtes en SAP Business Technology Platform (BTP) permet des extensions personnalisées, des analyses avancées et des intégrations :",
+    "extendBlueBox": "Nos experts BTP certifiés SAP garantissent des extensions sécurisées, évolutives et conformes, alignées sur les standards de l’entreprise.",
+    "extendBlueBoxMobile": "Nos experts BTP certifiés SAP garantissent des extensions sécurisées, évolutives et conformes, alignées sur les standards de l’entreprise.",
+    "relatedTitle1": "Solutions SAP associées pour une",
+    "relatedTitle2": "transformation de bout en bout",
+    "agentChatTitle": "AgentChat — Favoriser les conversations RH sur WhatsApp",
+    "agentChatDesc": "AgentChat est une application conversationnelle bidirectionnelle sur WhatsApp, développée nativement sur Salesforce, et s’intègre à SAP SuccessFactors pour améliorer la prestation des services RH.",
+    "keyFeatureTitle": "Fonctionnalités clés :",
+    "contactTitle": "Associez-vous à Rialtes pour votre parcours SAP SuccessFactors",
+    "contactSubTitle": "Que vous commenciez à zéro, migriez depuis Workday ou ZOHO, ou que vous renforciez votre environnement SuccessFactors actuel, SuccessPlus de Rialtes offre l’expertise, les outils et la méthodologie nécessaires pour mener une véritable transformation RH.",
+    "empoweringTitle": "Rialtes — Donner aux entreprises les moyens de réussir leur parcours SAP SuccessFactors",
+    "relatedData": [
+      "SAP S/4HANA pour la finance et les opérations.",
+      "SAP Ariba pour les achats directs et indirects",
+      "SAP Concur pour les voyages et dépenses",
+      "SAP CPI pour les intégrations cloud"
+    ],
+    "agentData": [
+      "Communication basée sur les rôles (recruteurs, managers, RH).",
+      "Délégation de cas, leads et ordres de travail par type.",
+      "Libre-service employé pour congés, avantages et plus.",
+      "Mise en place rapide en quelques minutes. Entièrement sécurisé et conforme."
+    ],
+    "ourWorkdayData": [
+      "Comparaison complète des systèmes et analyse des écarts.",
+      "Cartographie des processus RH de Workday vers les meilleures pratiques SuccessFactors.",
+      "Migration, validation et nettoyage sécurisés des données.",
+      "Gestion du changement et formation des employés pour assurer l’adoption.",
+      "Intégration avec SAP S/4HANA, Finance et Paie."
+    ],
+    "keyBenefitsData": [
+      "Plateforme unifiée avec SAP S/4HANA pour les RH et les processus métiers.",
+      "Réduction des coûts opérationnels et meilleure évolutivité.",
+      "Analyses améliorées et capacités IA avec SAP Joule."
+    ],
+    "ourZohoData": [
+      "Évaluation et cartographie des processus ZOHO HR vers SuccessFactors.",
+      "Migration des données des employés avec validation et traitement sécurisé.",
+      "Réingénierie des workflows pour les aligner sur les principes HXM de SuccessFactors.",
+      "Formation des utilisateurs et support post-déploiement."
+    ],
+    "zohoBenefitsData": [
+      "Conformité d’entreprise et sécurité des données.",
+      "Gestion de bout en bout du cycle de vie des employés.",
+      "Insights basés sur l’IA et amélioration de l’expérience utilisateur."
+    ],
+    "migratingBenefitsData": [
+      {
+        "img": "/images/services/success-plus/unified-img.svg",
+        "title": "Plateforme RH unifiée alignée sur les objectifs de l’entreprise."
+      },
+      {
+        "img": "/images/services/success-plus/future-img.svg",
+        "title": "Préparer l’avenir des RH avec l’IA, l’automatisation et l’analytique avancée."
+      },
+      {
+        "img": "/images/services/success-plus/integration-img.svg",
+        "title": "Intégration avec les systèmes SAP de base et tiers pour une entreprise connectée."
+      },
+      {
+        "img": "/images/services/success-plus/global-hr-img.svg",
+        "title": "Conformité RH mondiale et adaptabilité locale."
+      }
+    ],
+    "sapActivateData": [
+      {
+        "id": 1,
+        "title": "Phase Découverte",
+        "list": [
+          "Compréhension de vos objectifs de transformation RH.",
+          "Évaluation initiale du système, vérifications de préparation et cartographie de la valeur.",
+          "Définition de la portée et planification du calendrier."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Phase Préparation",
+        "list": [
+          "Planification du projet, mise en place de la gouvernance et intégration de l’équipe.",
+          "Accès système et checklists préalables."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Phase Exploration",
+        "list": [
+          "Ateliers fit-to-standard utilisant SAP Signavio pour aligner les processus aux meilleures pratiques du secteur.",
+          "Identification des personnalisations et points d’intégration."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Phase Réalisation",
+        "list": [
+          "Configuration des modules SuccessFactors (Employee Central, Talent, Learning, Compensation, etc.).",
+          "Développements personnalisés et intégrations.",
+          "Migration et tests des données (unitaires, intégration, UAT)."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Phase Déploiement",
+        "list": [
+          "Préparation finale du système, formation des utilisateurs et planification du go-live.",
+          "Exécution du cutover et mise en place du support post-go-live."
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Phase Exécution",
+        "list": [
+          "Stabilisation, support continu et feuille de route d’amélioration continue."
+        ]
+      }
+    ],
+    "sapSuccessFactorData": [
+      "Données du cycle de vie des employés alimentant finance et achats.",
+      "Gestion organisationnelle unifiée.",
+      "Paie et gestion du temps rationalisées."
+    ],
+    "sapJouleData": [
+      "IA conversationnelle pour le libre-service employé (ESS).",
+      "Recommandations IA pour la carrière, l’apprentissage et le bien-être.",
+      "Résolution de cas RH et gestion des connaissances pilotées par l’IA.",
+      "Insights prédictifs pour les responsables RH sur l’attrition, la performance et plus."
+    ],
+    "sapCpiData": [
+      "SAP S/4HANA, SAP Ariba, Concur, Fieldglass.",
+      "Applications tierces (ADP, Salesforce, Workday, Oracle).",
+      "Systèmes d’entreprise personnalisés."
+    ],
+    "extendData": [
+      "Workflows et formulaires RH personnalisés.",
+      "Intégrations avec des solutions tierces.",
+      "Applications d’expérience employé et mobilité.",
+      "Solutions IA/ML pour la gestion des talents, l’apprentissage et l’engagement."
+    ]
+  },
+  "kinaxis": {
+    "headerTitle": "DemandPlus",
+    "headerSubTitle": "Transformez votre chaîne d'approvisionnement avec « DemandPlus » de Rialtes pour Kinaxis RapidResponse",
+    "pageDescTitle": "Agilité, Précision et Résilience dans la Chaîne d’Approvisionnement — Propulsées par Kinaxis et Rialtes",
+    "pageDesc1": "Dans le paysage actuel des chaînes d'approvisionnement, volatil et complexe, les entreprises ont besoin de visibilité en temps réel, de planification agile et d’analyses prédictives pour rester compétitives. Les services DemandPlus de Rialtes, construits autour de Kinaxis RapidResponse, offrent une transformation complète de la chaîne d'approvisionnement, permettant aux entreprises de planifier, surveiller et réagir aux dynamiques de la chaîne en temps réel.",
+    "pageDesc2": "En tant que partenaire certifié Kinaxis et SAP, avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, et une équipe d’experts Kinaxis hautement certifiés, Rialtes aide ses clients à exploiter RapidResponse pour créer des chaînes d’approvisionnement connectées, intelligentes et résilientes — prêtes pour les défis de demain.",
+    "kinaxisServices": [
+      {
+        "id": 1,
+        "title": "Intégration SAP S/4 HANA avec Mulesoft",
+        "description": "Intégrations ERP transparentes entre SAP, Oracle et Kinaxis",
+        "knowMore": "/solutions/integration/mulesoft-salesforce"
+      },
+      {
+        "id": 2,
+        "title": "Intégration Oracle EBS",
+        "description": "Étendez la planification Kinaxis aux environnements basés sur Oracle pour des paysages ERP hybrides.",
+        "knowMore": "/solutions/enterprise-platforms/oracle-ebs-consulting"
+      },
+      {
+        "id": 3,
+        "title": "SAP BTP",
+        "description": "Unifier la planification et la production grâce à des intégrations ERP fluides",
+        "knowMore": "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services"
+      }
+    ],
+    "endToEndData": [
+      "Conseil en licences Kinaxis & Évaluation de la valeur",
+      "Architecture & Conception de solutions",
+      "Mise en œuvre rapide & Configuration des processus",
+      "Assurance qualité, tests & formation des utilisateurs",
+      "Intégration avec SAP S/4 HANA, Oracle EBS & systèmes non-SAP",
+      "Support post-démarrage & Optimisation continue des processus"
+    ],
+    "supplyChain": [
+      "Planification de la demande & prévisions",
+      "Planification de l’offre & gestion des stocks",
+      "Planification des ventes & opérations (S&OP)",
+      "Planification de la capacité & de la production",
+      "Collaboration avec les fournisseurs & gestion des risques",
+      "Planification de la distribution & de la logistique"
+    ],
+    "salesData": [
+      "Aligner les plans de demande et d’offre en temps réel.",
+      "Équilibrer les objectifs financiers et les contraintes opérationnelles.",
+      "Créer des scénarios hypothétiques et évaluer instantanément les compromis.",
+      "Améliorer la collaboration interfonctionnelle entre ventes, chaîne d’approvisionnement et finance."
+    ],
+    "inventeryOptimizationData": [
+      "Visibilité de bout en bout sur les stocks multi-niveaux.",
+      "Dimensionnement optimal des niveaux de stock pour équilibrer service et coût.",
+      "Politiques dynamiques de gestion des stocks basées sur les signaux de demande et d’offre en temps réel."
+    ],
+    "enterpriseSchedulingData": [
+      "Ordonnancement à capacité finie pour la fabrication et la production.",
+      "Allocation optimisée des ressources et des matériaux.",
+      "Ajustements en temps réel face aux perturbations et changements de priorités."
+    ],
+    "scenarioData": [
+      "Modéliser des scénarios complexes de chaîne d’approvisionnement (retards fournisseurs, pics de demande, arrêts de production).",
+      "Évaluer les impacts en temps réel sur les finances, les stocks et les opérations.",
+      "Permettre aux équipes dirigeantes de prendre des décisions confiantes et basées sur les données."
+    ],
+    "seamlessIntegrationData": [
+      "SAP S/4 HANA et ECC",
+      "Oracle EBS et Cloud ERP",
+      "Systèmes hérités et non-SAP"
+    ],
+    "rialtesStrongData": [
+      "Applications et workflows personnalisés sur BTP.",
+      "Gestion et orchestration d’API en temps réel.",
+      "Analyses avancées et intégrations IA."
+    ],
+    "agentChatData": [
+      "Déploiement rapide en quelques minutes.",
+      "Accès sécurisé basé sur les rôles.",
+      "Délégation des cas, commandes et incidents par type (commandes, stocks, retards).",
+      "Entièrement intégré avec les environnements Salesforce et SAP."
+    ],
+    "leadingData": [
+      "Analyses prédictives et modèles de machine learning.",
+      "IA intégrée pour la détection de la demande et les prévisions.",
+      "Évaluation et atténuation des risques en temps réel."
+    ],
+    "introducingTitle": "Présentation de",
+    "introducingTitle2": "Rialtes DemandPlus",
+    "introducingTitle3": "Services Kinaxis de bout en bout",
+    "introducingDesc": "Notre suite DemandPlus offre une approche holistique du déploiement de Kinaxis RapidResponse, en combinant :",
+    "introducingBlueBox": "De la stratégie à l’exécution, Rialtes permet un parcours fluide et accéléré vers une transformation de la chaîne d’approvisionnement pilotée par Kinaxis.",
+    "whyKinaxisTitle": "Pourquoi Kinaxis RapidResponse ?",
+    "whyKinaxisSubTitle": "Kinaxis RapidResponse est une plateforme de planification de la chaîne d’approvisionnement basée sur le cloud qui offre :",
+    "whyKinaxisData": [
+      "Planification simultanée pour des décisions synchronisées.",
+      "Visibilité en temps réel sur la demande, l’offre, les stocks et la capacité.",
+      "Modélisation rapide de scénarios pour des réponses agiles aux perturbations.",
+      "Collaboration fluide entre la chaîne d’approvisionnement, les opérations et la finance."
+    ],
+    "supplyChainTitle": "Planification de la chaîne d’approvisionnement réinventée avec Rialtes et Kinaxis",
+    "endToEndTitle": "Capacités complètes de planification de la chaîne d’approvisionnement :",
+    "salesTitle": "Planification des ventes et opérations (S&OP)",
+    "driveTitle": "Favoriser l’alignement interfonctionnel",
+    "salesDesc": "Rialtes exploite Kinaxis pour offrir des capacités S&OP de premier plan, permettant aux entreprises de :",
+    "outcomeTitle": "Résultat : meilleure précision des prévisions, réduction des stocks et amélioration des niveaux de service.",
+    "inventoryTitle": "Optimisation des stocks & Ordonnancement d’entreprise",
+    "inventoryTitle2": "Maximiser l’efficacité",
+    "inventoryDesc": "Avec Kinaxis, Rialtes aide ses clients à atteindre une gestion précise des stocks et un ordonnancement de production optimisé :",
+    "inventeryOptimizationTitle": "Optimisation des stocks",
+    "enterpriseTitle": "Ordonnancement d’entreprise",
+    "scenarioTitle": "Planification de scénarios",
+    "scenarioSubTitle": "Se préparer à toutes les éventualités",
+    "scenarioDesc": "L’analyse de scénarios et la simulation sont au cœur de Kinaxis RapidResponse, et Rialtes apporte l’expertise pour les exploiter pleinement :",
+    "seamlessTitle": "Intégration fluide avec SAP, Oracle et systèmes non-SAP",
+    "seamlessSubTitle": "Intégrez Kinaxis à votre écosystème ERP existant",
+    "seamlessDesc": "Rialtes fournit des services d’intégration robustes en utilisant SAP Cloud Platform Integration (SAP CPI) et les connecteurs certifiés Kinaxis :",
+    "seamlessBlueBox": "Nos accélérateurs préconfigurés et nos API personnalisées garantissent un flux de données en temps réel pour une planification synchronisée.",
+    "rialtesStrongTitle": "Solide compétence SAP BTP de Rialtes",
+    "rialtesStrongSubTitle": "Étendre la valeur de S/4 HANA",
+    "rialtesStrongDesc": "Rialtes apporte une expertise approfondie de SAP Business Technology Platform (BTP) pour étendre, personnaliser et améliorer l’intégration de S/4 HANA avec Kinaxis :",
+    "rialtesStrongBlueBox": "Nos consultants BTP certifiés garantissent des solutions sécurisées, évolutives et pérennes pour chaque client.",
+    "bringingTitle": "Rapprocher Kinaxis et l’écosystème d’entreprise élargi",
+    "bringingSubTitle": "Solutions SAP et approvisionnement associées avec Rialtes :",
+    "sapAribaTitle": "SAP ARIBA & Approvisionnement",
+    "sapAribaSubTitle": "Visibilité des achats directs/indirects connectée aux plans de la chaîne d’approvisionnement.",
+    "sapAribaSubTitle2": "SAP CPI — Connecter S/4 HANA aux systèmes non-SAP",
+    "sapAribaDesc": "Rialtes exploite SAP CPI pour connecter S/4 HANA, Kinaxis et d’autres systèmes d’entreprise afin d’obtenir une chaîne d’approvisionnement entièrement synchronisée.",
+    "enhanceTitle": "Améliorer les conversations de la chaîne d’approvisionnement avec AgentChat",
+    "enhanceTitle2": "WhatsApp pour les équipes Supply Chain",
+    "agentChatTitle": "Présentation d’AgentChat : votre IA conversationnelle pour la Supply Chain",
+    "agentChatDesc": "AgentChat est une application conversationnelle bidirectionnelle sur WhatsApp, permettant une collaboration instantanée entre les équipes de la chaîne d’approvisionnement.",
+    "highlightTitle": "Points forts d’AgentChat :",
+    "agentChatBlueBox": "Désormais, connectez vos équipes supply chain, fournisseurs et partenaires via une interface familière et puissante — WhatsApp + ERP + CRM.",
+    "leadingTitle": "Conduire l’avenir avec l’IA, les données et la planification intégrée",
+    "leadingDesc": "Chez Rialtes, nous allons au-delà des implémentations standards — en combinant IA, science des données et outils avancés de planification pour créer des chaînes d’approvisionnement réactives et résilientes.",
+    "contactTitle": "Commencez votre parcours Kinaxis avec Rialtes DemandPlus dès aujourd’hui",
+    "contactSubTitle": "Prêt à transformer la planification et la résilience de votre chaîne d’approvisionnement avec Kinaxis RapidResponse ? Laissez Rialtes DemandPlus vous guider à chaque étape — de la stratégie à l’exécution."
+  },
+  "growWithSap": {
+    "services": [
+      {
+        "text": "Conseil en licences SAP",
+        "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+      },
+      {
+        "text": "Assurance qualité et formation des utilisateurs",
+        "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+      },
+      {
+        "text": "Support post-mise en service et optimisation continue",
+        "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+      },
+      {
+        "text": "Conception et mise en œuvre de solutions",
+        "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+      },
+      {
+        "text": "Intégration et personnalisation du système",
+        "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+      }
+    ],
+    "cardsData": [
+      {
+        "title": "SAP SuccessFactors + S/4HANA Cloud",
+        "description": "Activez une gestion RH et de la main-d'œuvre nouvelle génération, intégrée de manière transparente à SAP S/4HANA pour unifier les données des employés et des finances. Gérez l’ensemble du cycle de vie, de l’embauche à la retraite, aligné sur les opérations en temps réel."
+      },
+      {
+        "title": "SAP Ariba + S/4HANA Cloud",
+        "description": "Intégrez les achats directs et indirects de manière fluide avec S/4HANA pour renforcer la collaboration avec les fournisseurs, la gestion des contrats et l’analyse des achats. Rialtes assure des intégrations complètes Ariba-S/4HANA pour les approvisionnements mondiaux."
+      },
+      {
+        "title": "Achats directs et indirects",
+        "description": "Permettez une transformation complète des achats, réduisez les coûts, améliorez la visibilité sur les fournisseurs et assurez la conformité grâce à des stratégies d’approvisionnement intégrées."
+      }
+    ],
+    "benefits": [
+      {
+        "bold": "Mise en valeur rapide",
+        "text": " grâce à des processus préconfigurés."
+      },
+      {
+        "bold": "Agilité et évolutivité du cloud",
+        "text": " pour les entreprises en croissance."
+      },
+      {
+        "bold": "IA et automatisation prêtes",
+        "text": " pour l’innovation future."
+      },
+      {
+        "bold": "Conformité et sécurité de bout en bout",
+        "text": ""
+      }
+    ],
+    "sapBenefits": [
+      {
+        "bold": "Évolutivité —",
+        "text": "Dépassez les limites de SAP B1 grâce à un ERP cloud-first et évolutif."
+      },
+      {
+        "bold": "Analytique avancée et IA —",
+        "text": "Libérez des insights en temps réel et l’automatisation."
+      },
+      {
+        "bold": "Conformité et localisation globales —",
+        "text": "Support intégré pour les opérations mondiales."
+      },
+      {
+        "bold": "Intégrations transparentes —",
+        "text": "Intégrez facilement fournisseurs, partenaires et clients."
+      },
+      {
+        "bold": "Expérience utilisateur moderne —",
+        "text": "UX moderne basée sur SAP Fiori pour une productivité accrue."
+      }
+    ],
+    "rialtesSapData": [
+      "Évaluation de l’environnement actuel et analyse d’adéquation",
+      "Cartographie des processus métier selon les meilleures pratiques S/4HANA",
+      "Planification et exécution de la migration des données",
+      "Configuration du système et extensions personnalisées",
+      "Formation, tests et support au démarrage"
+    ],
+    "sapIntegrationPoints": [
+      {
+        "bold": "Connecter SAP S/4HANA avec des applications non-SAP ",
+        "text": "comme Salesforce, ServiceNow et systèmes hérités."
+      },
+      {
+        "bold": "Intégrations sécurisées en temps réel basées sur des API.",
+        "text": ""
+      }
+    ],
+    "sapInnovationList": [
+      "Automatisation et extensions de processus avec SAP Build",
+      "Intégrations IA/ML et IoT",
+      "Gestion et sécurité des API"
+    ],
+    "featureHighlights": [
+      {
+        "bold": "Déploiement rapide —",
+        "text": "Mise en place en quelques minutes, prêt à évoluer."
+      },
+      {
+        "bold": "Sécurité d’entreprise —",
+        "text": "Accès basé sur les rôles et pistes d’audit."
+      },
+      {
+        "bold": "Délégation flexible des processus —",
+        "text": "Gérez les dossiers, pistes, commandes, bons de travail et plus — par type d’enregistrement."
+      },
+      {
+        "bold": "Intégration fluide SAP et Salesforce —",
+        "text": "Stimulez les échanges liés aux flux ERP et CRM."
+      }
+    ],
+    "futureProofingData": [
+      "Analytique et recommandations pilotées par l’IA",
+      "Segmentation des clients pour un marketing ciblé",
+      "Insights prédictifs pour la chaîne d’approvisionnement et les achats",
+      "Expériences personnalisées avec Data Cloud + IA"
+    ],
+    "keyPhasesData": [
+      {
+        "title": "Découvrir",
+        "desc": "Identification de la valeur, business case, feuille de route générale."
+      },
+      {
+        "title": "Préparer",
+        "desc": "Activation des équipes, planification du projet, cadrage initial."
+      },
+      {
+        "title": "Explorer",
+        "desc": "Analyse fit-to-standard avec SAP Signavio, identification des écarts."
+      },
+      {
+        "title": "Réaliser",
+        "desc": "Configuration du système, extensions sur SAP BTP, conception d’intégrations."
+      },
+      {
+        "title": "Déployer",
+        "desc": "Formation des utilisateurs finaux, migration des données, mise en production."
+      },
+      {
+        "title": "Exploiter",
+        "desc": "Support renforcé, amélioration continue, intégration de l’IA."
+      }
+    ],
+    "headerTitle": "VoyagerNext",
+    "headerSubTitle": "Croissez plus vite, plus intelligemment avec VoyagerNext de Rialtes",
+    "headerSubTitle2": "Votre partenaire pour la transformation SAP S/4HANA Cloud",
+    "pageDescTitle": "Libérez la puissance de SAP S/4HANA Cloud avec les services VoyagerNext de Rialtes",
+    "pageDesc1": "Chez Rialtes, nous aidons les organisations à adopter l’ERP Cloud de nouvelle génération SAP S/4HANA avec Grow with SAP — en offrant des solutions de niveau entreprise conçues pour l’évolutivité, l’agilité et une croissance pérenne.",
+    "pageDesc2": "En tant que partenaire SAP certifié présent aux États-Unis, au Canada, en Inde et à Singapour, et fort d’une équipe d’experts SAP hautement qualifiés, Rialtes est votre partenaire de confiance pour une transformation SAP de bout en bout. Nos services VoyagerNext combinent de manière transparente :",
+    "servicesBlueBox": "Nous apportons de la valeur métier de la stratégie à l’exécution — vous permettant de croître avec SAP et d’accélérer vers une entreprise intelligente alimentée par l’IA.",
+    "growWithSapTitle": "Grow with SAP : Pourquoi maintenant ?",
+    "growWithSapTitleDesc": "Grow with SAP apporte la puissance de SAP S/4HANA Cloud Public Edition aux entreprises de taille intermédiaire et en croissance, avec des meilleures pratiques sectorielles préconfigurées, un déploiement rapide et des licences flexibles — rendant l’ERP de niveau entreprise abordable, évolutif et rapide à mettre en œuvre.",
+    "growWithSapSubTitle": " Avantages de Grow with SAP :",
+    "sapBusinessTitle": "Migration SAP Business One (B1) vers SAP S/4HANA",
+    "sapBusinessSubTitle": "Pérennisez votre ERP",
+    "sapBusinessDesc": "Pour les entreprises utilisant SAP Business One (SAP B1), Rialtes fournit une voie claire et structurée pour migrer vers SAP S/4HANA Cloud avec Grow with SAP.",
+    "benefitsTitle": "Avantages de la migration de SAP B1 vers S/4HANA Cloud :",
+    "rialtesSapMigratingTitle": "Approche de migration SAP B1 vers S/4HANA par Rialtes :",
+    "rialtesSapTitle": "Rialtes et méthodologie SAP Activate + SAP Signavio",
+    "rialtesSapSubTitle": "Votre feuille de route vers le succès",
+    "rialtesSapDesc": "Offrir le succès grâce à SAP Activate & SAP Signavio Business Process Intelligence (BPI)",
+    "rialtesSapDesc2": "Rialtes exploite la méthodologie SAP Activate combinée à SAP Signavio pour garantir une transformation ERP axée sur les processus et génératrice de valeur.",
+    "keyPhasesTitle": "Phases clés de la méthodologie SAP Activate :",
+    "keyPhasesTableTitle1": "Phase",
+    "keyPhasesTableTitle2": " Ce que nous livrons",
+    "sapSignavioDesc": "SAP Signavio permet la modélisation, la simulation et l’amélioration des processus pour un modèle opérationnel prêt pour l’avenir, aligné sur les standards SAP.",
+    "expandingTitle": "Augmenter la valeur avec SAP SuccessFactors, Ariba et Procurement",
+    "sapCpiTitle": "SAP CPI et BTP — ERP intégré, personnalisé et prêt pour l’avenir",
+    "sapCpiSubTitle": "SAP Cloud Platform Integration (CPI)",
+    "sapBtpTitle": "SAP BTP — Personnalisation et innovation à grande échelle",
+    "sapBtpDesc": "Rialtes offre une solide expertise SAP BTP pour créer des applications personnalisées, automatiser des workflows et étendre S/4HANA :",
+    "sapBtpBlueBoxDesk": "Nos experts BTP certifiés garantissent une architecture pérenne pour chaque client.",
+    "sapBtpBlueBoxMob": "Nos experts BTP certifiés garantissent une architecture pérenne pour chaque client.",
+    "conversationalTitle": "IA conversationnelle avec AgentChat — Transformer l’engagement client",
+    "rialchatTitle": "RialChat est une application conversationnelle bidirectionnelle WhatsApp, entièrement intégrée dans Salesforce et extensible à SAP.",
+    "meetTitle": "Découvrez AgentChat — WhatsApp pour Salesforce et SAP",
+    "conversationalBenefitsTitle": " Avantages de Grow with SAP :",
+    "futureProofingTitle": "Anticiper l’avenir avec l’IA, les données et l’automatisation : la prochaine frontière",
+    "futureProofingDesc": "Exploitez SAP Data Cloud et Salesforce Agentforce AI pour libérer les capacités ERP nouvelle génération :",
+    "contactTitle": "Prêt à croître avec SAP ? Collaborez avec Rialtes VoyagerNext dès aujourd’hui !",
+    "contactSubTitle": "Renforcez votre parcours de croissance avec VoyagerNext — la méthode Rialtes pour libérer le potentiel de S/4HANA Cloud."
+  },
+  "riseWithSap": {
+    "greenfieldItemsLeft": [
+      {
+        "title": "Alignement Vision et Stratégie",
+        "description": "Définir les objectifs métiers et la vision digitale."
+      },
+      {
+        "title": "Réinvention des processus avec les meilleures pratiques SAP et Signavio",
+        "description": "Redessiner les processus pour tirer parti des dernières innovations."
+      },
+      {
+        "title": "Conception de solution et prototypage",
+        "description": "Développer l’architecture cible et réaliser un prototypage rapide."
+      },
+      {
+        "title": "Configuration SAP S/4HANA Cloud",
+        "description": "Construire un système aligné sur le fit-to-standard et les besoins spécifiques."
+      }
+    ],
+    "greenfieldItemsRight": [
+      {
+        "title": "Stratégie de données et migration propre",
+        "description": "Assurer une migration précise et fiable des données depuis les systèmes existants."
+      },
+      {
+        "title": "Conception du cadre d’intégration avec SAP BTP et CPI",
+        "description": "Planifier les intégrations avec les systèmes internes et externes."
+      },
+      {
+        "title": "Formation des utilisateurs et gestion du changement",
+        "description": "Favoriser l’adoption et la préparation organisationnelle."
+      },
+      {
+        "title": "Mise en production et support Hypercare",
+        "description": "Assurer une transition fluide avec une gouvernance post-go-live solide."
+      }
+    ],
+    "brownfieldItemsLeft": [
+      {
+        "title": "Évaluation du paysage système et de l’adéquation",
+        "description": "Évaluer l’environnement ECC existant et la préparation à la conversion."
+      },
+      {
+        "title": "Analyse du code personnalisé et des données",
+        "description": "Examiner, simplifier et adapter les développements spécifiques."
+      },
+      {
+        "title": "Conversion technique du système",
+        "description": "Exécuter la conversion vers SAP S/4HANA à l’aide d’outils certifiés SAP."
+      }
+    ],
+    "brownfieldItemsRight": [
+      {
+        "title": "Transformation et validation des données",
+        "description": "Migrer des données fiables avec un minimum de perturbations."
+      },
+      {
+        "title": "Tests fonctionnels et optimisation",
+        "description": "Garantir l’alignement et la performance du système."
+      },
+      {
+        "title": "Optimisation et support post-Go-Live",
+        "description": "Ajuster les processus et le comportement du système après la migration."
+      }
+    ],
+    "sapTransformations": [
+      {
+        "bold": "Simplifiez votre transformation SAP",
+        "normal": "avec une approche tout-en-un."
+      },
+      {
+        "bold": "Accélérez l’adoption du cloud",
+        "normal": "et réduisez la dette technique."
+      },
+      {
+        "bold": "Réinventez vos processus métiers",
+        "normal": "grâce à SAP Signavio."
+      },
+      {
+        "bold": "Exploitez l’IA et l’automatisation",
+        "normal": "pour optimiser les opérations."
+      }
+    ],
+    "btpData": [
+      "Développement et extensions d’applications personnalisées",
+      "Automatisation des processus avec SAP Build",
+      "Analytique et intelligence des données",
+      "Intégrations transparentes basées sur API et événements"
+    ],
+    "sapIntegrations": [
+      {
+        "title": "SAP SuccessFactors + S/4HANA",
+        "description": "Rialtes intègre SAP SuccessFactors pour une gestion RH et des talents fluide, permettant un cycle de vie complet des employés relié directement aux fonctions ERP clés comme la paie, les projets et la finance."
+      },
+      {
+        "title": "SAP Ariba + S/4HANA",
+        "description": "Avec SAP Ariba, nous réalisons une transformation complète des achats, intégrée à S/4HANA pour les approvisionnements directs et indirects, la collaboration fournisseurs et l’analyse des dépenses."
+      },
+      {
+        "title": "Achats directs et indirects",
+        "description": "Concevoir et mettre en œuvre des processus d’approvisionnement optimisés qui réduisent les coûts, renforcent la conformité et améliorent la performance des fournisseurs."
+      }
+    ],
+    "communicationBenefits": [
+      {
+        "bold": "Mise en place rapide —",
+        "text": "Mise en production en quelques minutes."
+      },
+      {
+        "bold": "Sécurité de niveau entreprise et gestion des rôles —",
+        "text": "Prend en charge plusieurs rôles et un accès sécurisé."
+      },
+      {
+        "bold": "Délégation de processus —",
+        "text": "Gérez les cas, commandes, prospects et ordres de travail par type d’enregistrement."
+      },
+      {
+        "bold": "Engagement multiplateforme —",
+        "text": "Communications unifiées entre SAP, Salesforce et WhatsApp."
+      }
+    ],
+    "aiData": [
+      "Analytique et campagnes basées sur l’IA",
+      "Parcours dynamiques clients et fournisseurs",
+      "Maintenance prédictive et prévisions",
+      "Données unifiées pour un engagement personnalisé"
+    ],
+    "ourActivateData": [
+      {
+        "title": "Découvrir",
+        "desc": "Découverte de la valeur, business case et stratégie."
+      },
+      {
+        "title": "Préparer",
+        "desc": "Onboarding de l’équipe, planification et cadrage initial."
+      },
+      {
+        "title": "Explorer",
+        "desc": "Analyse fit-to-standard et conception des processus."
+      },
+      {
+        "title": "Réaliser",
+        "desc": "Configuration du système, intégrations et tests."
+      },
+      {
+        "title": "Déployer",
+        "desc": "Migration, formation et mise en production."
+      },
+      {
+        "title": "Exploiter",
+        "desc": "Optimisation continue et support."
+      }
+    ],
+    "headerTitle": "Voyager+",
+    "headerSubTitle": "Accélérez votre transformation digitale avec Rialtes Voyager+ pour RISE with SAP",
+    "pageDescTitle": " Libérez l’avenir de l’entreprise intelligente avec un partenaire SAP de confiance",
+    "pageDesc": "Chez Rialtes, nous aidons les organisations à pérenniser leurs activités avec RISE with SAP — en combinant une expertise sectorielle approfondie, une équipe SAP certifiée et des méthodologies éprouvées. En tant que partenaire SAP certifié avec une présence mondiale aux États-Unis, au Canada, en Inde et à Singapour, Rialtes est idéalement positionné pour fournir des transformations SAP S/4HANA de bout en bout qui vont au-delà de la technologie et génèrent de réels résultats métier.",
+    "pageDesc2": "Notre cadre exclusif Voyager+ regroupe le conseil en licences SAP, la conception de solutions, l’implémentation, l’assurance qualité, l’intégration et le support post-Go-Live — créant un parcours fluide et axé sur la valeur pour les organisations adoptant RISE with SAP.",
+    "whyChooseTitle": " Pourquoi choisir RISE with SAP + Rialtes ?",
+    "whyChooseDesc": "RISE with SAP n’est pas seulement un ERP — c’est une offre complète de transformation d’entreprise qui regroupe SAP S/4HANA Cloud, SAP Business Technology Platform (BTP), Business Process Intelligence avec SAP Signavio, et des services gérés par des partenaires dans un seul contrat.",
+    "withRialtesTitle": "Avec Rialtes Voyager+, vous pouvez :",
+    "greenfieldTitle": "Greenfield et Brownfield :",
+    "greenfieldTitle2": "Deux chemins vers le succès SAP S/4HANA",
+    "greenFieldSubTitle": "Implémentation Greenfield — Réinventer depuis zéro",
+    "greenFieldDesc": "Pour les organisations souhaitant reconstruire leurs processus métiers et repartir de zéro sur SAP S/4HANA, l’approche Greenfield est la plus adaptée.",
+    "ourGreenFieldTitle": "Notre approche Greenfield comprend :",
+    "ourGreenFieldDesc": "Idéal pour les entreprises visant des processus nouvelle génération et un ERP cloud-first.",
+    "brownFieldTitle": "Implémentation Brownfield — Conversion fluide du système",
+    "brownFieldDesc": "Pour les entreprises qui souhaitent conserver leurs processus et données existants tout en migrant vers S/4HANA, l’approche Brownfield offre une voie rentable et plus rapide.",
+    "ourBrownfiledTitle": "Notre expertise Brownfield couvre :",
+    "ourBrownFieldDesc": "Idéal pour les organisations cherchant à moderniser sans perturber les opérations essentielles.",
+    "learnMoreBtn": "En savoir plus",
+    "leveragingTitle": "Exploiter SAP Signavio et la méthodologie SAP Activate",
+    "leveragingSubTitle": "Un cadre éprouvé pour réussir",
+    "leveragingDesc": "Chez Rialtes, nous combinons l’intelligence des processus métier (BPI) de SAP Signavio avec la méthodologie SAP Activate pour assurer un alignement stratégique et une exécution sans faille.",
+    "ourActivateSection": "Notre modèle de livraison basé sur Activate :",
+    "ourActivateTableTitle1": "Phase",
+    "ourActivateTableTitle2": "Description",
+    "signavioDesc": "En intégrant SAP Signavio dans les phases Explore et Realize, nous optimisons les processus et assurons l’alignement métier, favorisant une meilleure adoption et plus de valeur du système.",
+    "extendingTitle": "Extension de valeur : expertise BTP et intégration de Rialtes",
+    "extendingSubTitle": "Compétence BTP pour des solutions sur mesure",
+    "extendingDesc": "Nos experts certifiés SAP Business Technology Platform (BTP) permettent des extensions avancées, workflows et intégrations pour personnaliser et pérenniser les solutions SAP S/4HANA.",
+    "sapCpiTitle": "SAP CPI pour une intégration de niveau entreprise",
+    "sapCpiDesc": "Nous permettons une intégration sécurisée et évolutive en utilisant SAP Cloud Platform Integration (CPI) pour connecter S/4HANA avec des systèmes SAP et non-SAP tels que Salesforce, Workday et ServiceNow.",
+    "connectedTitle": "Solutions SAP connectées — Libérer la synergie avec S/4HANA",
+    "conversationalTitle": "IA conversationnelle avec AgentChat — WhatsApp Business, conçu pour SAP et Salesforce",
+    "conversationalSubTitle": "Transformer l’engagement clients et fournisseurs avec AgentChat",
+    "conversationalDesc": "AgentChat est une application conversationnelle WhatsApp bidirectionnelle construite dans Salesforce, conçue pour s’intégrer parfaitement à SAP S/4HANA et Salesforce Clouds.",
+    "knowMoreBtn": "Découvrir",
+    "keyFeaturesTitle": "Fonctionnalités clés :",
+    "contentTitle": "Innovation basée sur l’IA et les données : Agentforce et SAP Data Cloud",
+    "contentDesc": "Avec SAP Data Cloud et Salesforce Agentforce AI, Rialtes apporte des insights intelligents, de l’automatisation et une segmentation client moderne aux environnements SAP.",
+    "contactTitle": "Associez-vous à Rialtes pour transformer votre paysage SAP !"
+  },
+  "autoSense": {
+    "keyPillarsTitle": "Piliers clés d’AutoSense",
+    "keyPillarsSectionData": [
+      {
+        "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
+        "imageAlt": "image conseil stratégique",
+        "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
+        "title": "Conseil stratégique & Planification",
+        "listItems": [
+          "Stratégie IT et digitale tournée vers l’avenir, alignée sur les objectifs d’électrification, d’IA et d’expérience client.",
+          "Ateliers de réimagination des processus utilisant SAP Signavio et les outils de conseil Salesforce.",
+          "Évaluations de préparation au marché des véhicules électriques et de conformité réglementaire."
+        ],
+        "bgColor": "#1FA274"
+      },
+      {
+        "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
+        "imageAlt": "image conception et mise en œuvre",
+        "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
+        "title": "Conception & Mise en œuvre",
+        "listItems": [
+          "Déploiement rapide de Salesforce Automotive Cloud, SAP S/4HANA Automotive, SAP Vehicle Management System (VMS) et SAP IBP pour la chaîne d’approvisionnement.",
+          "Conception d’un écosystème de voitures connectées, intégrant des plateformes IoT et des lacs de données IA.",
+          "Transformation du réseau de concessionnaires avec les solutions Salesforce Automotive Retail."
+        ],
+        "bgColor": "#0F90BF"
+      },
+      {
+        "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
+        "imageAlt": "image intégration et assurance qualité",
+        "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
+        "title": "Intégration & Assurance Qualité",
+        "listItems": [
+          "Intégration fluide entre ERP, CRM, dispositifs connectés et plateformes tierces.",
+          "Intégrité des données, évaluations de cybersécurité et préparation à la conformité.",
+          "Tests pilotés par l’IA et simulations de processus pour une livraison sans défaut."
+        ],
+        "bgColor": "#006FBE"
+      },
+      {
+        "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
+        "imageAlt": "image post mise en production",
+        "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
+        "title": "Post-Mise en Production & Innovation Continue",
+        "listItems": [
+          "Centre d’excellence (CoE) dédié à l’IA, SAP et aux solutions automobiles Salesforce.",
+          "Services gérés 24h/24 et 7j/7, surveillance proactive et optimisation continue.",
+          "Cadres de monétisation des données — aidant les OEM à exploiter les données des voitures connectées pour de nouvelles sources de revenus."
+        ],
+        "bgColor": "#5C8C9D"
+      }
+    ],
+    "chooseRialtesData": [
+      {
+        "imageUrl": "/images/industry/auto-sense/automative-experties-img.svg",
+        "title": "10+ ans d’expertise automobile",
+        "listItems": [
+          "Nous apportons plus d’une décennie d’expérience pratique avec des OEM, fournisseurs, concessionnaires et startups de véhicules électriques sur l’ensemble de la chaîne de valeur automobile. Des usines de fabrication aux showrooms clients, nous comprenons les défis et opportunités uniques qui façonnent l’avenir de la mobilité."
+        ]
+      },
+      {
+        "imageUrl": "/images/industry/auto-sense/automative-cloud-experts-img.svg",
+        "title": "Experts Salesforce Automotive Cloud",
+        "listItems": [
+          "En tant que spécialistes certifiés Salesforce Automotive Cloud, nous aidons les entreprises automobiles à offrir des expériences clients connectées et personnalisées, à améliorer la collaboration des concessionnaires et à exploiter la puissance des données des véhicules connectés."
+        ]
+      },
+      {
+        "imageUrl": "/images/industry/auto-sense/data-integration-img.svg",
+        "title": "Intégration fluide ERP & Données",
+        "listItems": [
+          "Nous sommes spécialisés dans l’intégration de Salesforce Automotive Cloud avec les plateformes ERP telles que SAP S/4HANA et Oracle, créant un écosystème de données unifié qui relie ventes, service, chaîne d’approvisionnement et finance."
+        ]
+      }
+    ],
+    "whyChooseTitle": "Pourquoi choisir Rialtes pour",
+    "whyChooseTitle2": "la transformation automobile ?",
+    "rialtesMakesWorkData": [
+      {
+        "image": "/images/industry/auto-sense/backend-erp-img.webp",
+        "mobileImage": "/images/industry/auto-sense/Mobile/backend-erp-mob-img.webp",
+        "title": "Salesforce Automotive Cloud + Systèmes ERP Back-End (SAP, Oracle, autres)",
+        "list": [
+          "Intégrer Salesforce Automotive Cloud avec des systèmes ERP tels que SAP S/4HANA for Automotive, SAP IBP for Supply Chain et Oracle Automotive pour une synchronisation en temps réel des données d’inventaire, de production, de garantie et de chaîne logistique.",
+          "Permettre la tarification dynamique, les incitations, la gestion des commandes et la visibilité des stocks directement dans Salesforce."
+        ]
+      },
+      {
+        "image": "/images/industry/auto-sense/frontend-img.webp",
+        "mobileImage": "/images/industry/auto-sense/Mobile/frontend-mob-img.webp",
+        "title": "Salesforce Automotive Cloud + Visualisation des données & Solutions IA",
+        "list": [
+          "Création de tableaux de bord interactifs et de portails clients avec des outils comme Tableau, Power BI et des analyses pilotées par IA/ML.",
+          "Fourniture d’analyses visuelles en temps réel aux dirigeants sur les tendances de ventes, la demande de véhicules, les modèles de service et le ressenti client."
+        ]
+      },
+      {
+        "image": "/images/industry/auto-sense/end-to-end-process-img.webp",
+        "mobileImage": "/images/industry/auto-sense/Mobile/end-to-end-process-mob-img.webp",
+        "title": "Automatisation de bout en bout & Assurance Qualité",
+        "list": [
+          "Mise en œuvre de l’automatisation des processus pour les ventes, services et workflows marketing.",
+          "Assurer l’intégrité des données, la conformité à la sécurité et une livraison sans défaut grâce à des cadres de tests alimentés par l’IA."
+        ]
+      }
+    ],
+    "makesItWorkTitle": "Comment Rialtes le rend possible",
+    "seamlessIntegrationTitle": "Intégration fluide à travers l’écosystème",
+    "thoughtLeadershipData": [
+      {
+        "title": "La route vers les modèles économiques EV-First : ce que les leaders de l’automobile doivent savoir",
+        "description": "Naviguer dans les cycles de vie des batteries, les nouvelles sources de revenus et la transformation des ventes digitales."
+      },
+      {
+        "title": "Chaînes d’approvisionnement pilotées par l’IA : résoudre les perturbations automobiles grâce à l’intelligence",
+        "description": "Comment l’IA et SAP IBP redéfinissent la visibilité proactive de la supply chain."
+      },
+      {
+        "title": "Des ventes de voitures aux services de mobilité : l’avenir de l’expérience client dans l’automobile",
+        "description": "Exploiter Salesforce Automotive Cloud pour une gestion de bout en bout de l’expérience client."
+      },
+      {
+        "title": "Voitures connectées, mine d’or de données : monétisation et insights pilotés par l’IA",
+        "description": "Comment exploiter la valeur des flux de données provenant des véhicules connectés."
+      },
+      {
+        "title": "Durabilité à grande vitesse : rendre la mobilité verte rentable",
+        "description": "Aligner rentabilité et objectifs ESG grâce à l’IA et aux plateformes intelligentes."
+      }
+    ],
+    "thoughtLeadershipTitle": "Thèmes de leadership éclairé pour les clients automobiles",
+    "thoughtLeadershipDesc": " Voici 5 idées à fort impact que Rialtes peut promouvoir pour se positionner comme leader du secteur :",
+    "headerTitle": "AutoSense",
+    "headerSubTitle": "Accélérez votre activité automobile avec Rialtes AutoSense",
+    "pageDesc": "Depuis plus de dix ans, Rialtes est un partenaire de confiance pour les leaders mondiaux de l’automobile, les aidant à naviguer dans la transformation rapide du secteur — de l’électrification et des véhicules connectés à l’innovation de l’expérience client et à la résilience de la chaîne d’approvisionnement. Notre suite de services spécialisée, AutoSense, combine une expertise automobile approfondie, une maîtrise de Salesforce Automotive Cloud et de puissantes intégrations ERP pour générer de réels résultats business.",
+    "introducingTitle": "Présentation de",
+    "introducingSubTitle": "Rialtes AutoSense",
+    "introducingSubTitle2": "Solutions automobiles de bout en bout",
+    "introducingDesc": "AutoSense est la suite complète de services de Rialtes, conçue spécifiquement pour les besoins évolutifs de l’écosystème automobile — y compris les OEM, fournisseurs, concessionnaires et prestataires de mobilité. AutoSense combine conseil, mise en œuvre, assurance qualité et support post-mise en production, entièrement intégré avec les partenaires technologiques OEM comme SAP et Salesforce.",
+    "partnerTitle": " Partenariat avec Rialtes pour une transformation automobile intelligente",
+    "partnerDesc": "Que vous soyez un OEM mondial, une marque EV en pleine croissance ou un réseau de concessionnaires leader, Rialtes vous aide à relier la technologie aux résultats. Du conseil à la mise en œuvre jusqu’à l’innovation continue, nous sommes votre partenaire pour construire l’avenir de la mobilité.",
+    "contactTitle": "Accélérez votre transformation automobile avec Rialtes"
+  },
+  "salesforceAgent": {
+    "headerTitle": " SalesforceAgent+",
+    "headerSubTitleone": "Libérez la puissance",
+    "headerSubTitletwo": "de Salesforce avec",
+    "headerSubTitleThree": "SalesforceAgent+",
+    "headerOne": " IA-Prêt, Toujours Disponible",
+    "headerTwo": "Services Managés",
+    "empowerTitle": "Réinventez Salesforce. Donnez du pouvoir à vos agents. Offrez une expérience client magique.",
+    "empowerSubtitle": "Chez Rialtes, nous allons au-delà du support Salesforce traditionnel. SalesforceAgent+ est notre offre de Services Managés nouvelle génération, conçue pour maintenir votre plateforme Salesforce prête pour l’avenir, activée par l’IA et continuellement optimisée — avec un support mondial 24h/24 et 7j/7, des solutions pilotées par l’IA comme Agentforce, et une intégration fluide à travers toute votre entreprise.",
+    "aiTitle": "Commencez Votre Parcours IA Maintenant",
+    "aiSubTitle": "Services d’Adoption Agentforce avec Rialtes",
+    "aiSubTitleOne": "Agentforce révolutionne les interactions entre clients et agents — et Rialtes rend l’adoption simple et percutante :",
+    "startYourAIData": [
+      {
+        "title": "Évaluations rapides de préparation à l’IA",
+        "subtitle": "adaptées à votre secteur."
+      },
+      {
+        "title": "Déploiement de l’IA conversationnelle",
+        "subtitle": "pour les équipes Ventes, Service et Terrain."
+      },
+      {
+        "title": "Einstein GPT et automatisation par IA",
+        "subtitle": "pour un service client proactif et des ventes plus intelligentes."
+      },
+      {
+        "title": "Ateliers de formation Agentforce",
+        "subtitle": "pour former et intégrer les équipes."
+      },
+      {
+        "title": "Bots IA préconfigurés",
+        "subtitle": "pour la gestion des dossiers, la maturation des leads et le partage de connaissances."
+      }
+    ],
+    "aiPara": "Accélérez votre stratégie IA avec Rialtes — sans effort, en toute sécurité et rapidement.",
+    "manageTitle": "Services Managés SalesforceAgent+",
+    "titleOne": "Alimenter l’innovation continue de Salesforce.",
+    "titleTwo": "Support Continu. Innovation Pilotée par l’IA.",
+    "titleThree": "Solutions Spécifiques à l’Industrie.",
+    "salesforceagentData": [
+      {
+        "title": "Transformer les opérations Sales & Service Cloud",
+        "list": [
+          "Optimiser les processus de vente et de service de bout en bout.",
+          "Gestion intelligente des dossiers, conversion des leads via IA, service omnicanal.",
+          "Améliorations proactives et réalignement des processus métier."
+        ]
+      },
+      {
+        "title": "Développement de composants Lightning & Modernisation UX",
+        "list": [
+          "Composants Lightning Web personnalisés (LWC) et expériences utilisateurs dynamiques.",
+          "Solutions UI réactives, adaptées au mobile et personnalisées.",
+          "Optimisation des performances et de l’accessibilité."
+        ]
+      },
+      {
+        "title": "Intégrations MuleSoft Transparentes",
+        "list": [
+          "Intégrations évolutives pilotées par API avec SAP, Oracle, NetSuite, Workday et autres.",
+          "Échange de données sécurisé et en temps réel via MuleSoft.",
+          "Architecture événementielle et pérenne."
+        ]
+      },
+      {
+        "title": "Migrations de données Salesforce sans tracas",
+        "list": [
+          "Transition fluide depuis les CRM hérités et les tableurs.",
+          "Cartographie, transformation et nettoyage complets des données.",
+          "Migrations conformes aux normes, sécurisées et par étapes."
+        ]
+      },
+      {
+        "title": "Expertise Cloud Industriel",
+        "list": [
+          "Santé, Industrie, Éducation, Automobile, Immobilier, Transport et Sciences de la Vie.",
+          "Workflows et conformité adaptés (HIPAA, ISO, etc.).",
+          "Accélérateurs préconfigurés pour un déploiement rapide."
+        ]
+      },
+      {
+        "title": "Support Tableau CRM & Salesforce Data Cloud",
+        "list": [
+          "Analytique avancée et insights IA avec Tableau CRM.",
+          "Profils clients unifiés avec Salesforce Data Cloud (CDP).",
+          "Architecture Zero Copy exploitant SAP Data Cloud — sans duplication des données."
+        ]
+      },
+      {
+        "title": "Services Marketing Cloud & Personnalisation",
+        "list": [
+          "Parcours clients intelligents et campagnes personnalisées.",
+          "Marketing multi-cloud avec Journey Builder, Email Studio, Interaction Studio.",
+          "Analytique d’engagement approfondie et suivi des conversions."
+        ]
+      }
+    ],
+    "dataTitle": "Libérez la Synergie entre IA et Données",
+    "dataSubtitle": "Salesforce Data Cloud + SAP Data Cloud Zero Copy",
+    "dataDesc": "Prenez des décisions en temps réel sans ralentir les opérations.",
+    "unlockData": [
+      "Profils unifiés en temps réel et prêts pour l’IA avec Zero Copy.",
+      "Connectez les données Salesforce et SAP sans duplication.",
+      "Visibilité de bout en bout pour les équipes Ventes, Service et Marketing."
+    ],
+    "freeTitle": "AgentChat – Service WhatsApp GRATUIT inclus avec SalesforceAgent+ !",
+    "freeSubTitle": "Transformez chaque chat en moment client.",
+    "freeDesc": "Avec chaque abonnement SalesforceAgent+, vous obtenez AgentChat — notre intégration WhatsApp de niveau entreprise pour Salesforce — GRATUITE.",
+    "freeDescOne": "Interagissez avec vos clients là où ils se trouvent — sans frais supplémentaires !",
+    "rialChatData": [
+      "Messagerie WhatsApp instantanée intégrée à Salesforce.",
+      "Réponses automatiques, création de dossiers et collaboration entre agents.",
+      "Chatbots IA préconfigurés pour Agentforce et Service Cloud.",
+      "Notifications personnalisées et campagnes marketing."
+    ],
+    "globalTitle": "Notre Modèle de Support Salesforce Global, Évolutif et 24h/24",
+    "globalSubTitle": "Flexible, Hautement Personnalisé et Rentable",
+    "salesforceTitle": "Expertise Salesforce de Rialtes",
+    "salesforceSubTitle": "La Force derrière votre succès",
+    "salesforceDesc": "Votre succès est porté par une expertise toujours en avance d’un pas.",
+    "ourGlobalData": [
+      "Équipes de support mondiales 24h/24 aux États-Unis, au Canada, en Inde et à Singapour.",
+      "Consulting sur site et modèles hybrides pour une collaboration à fort impact.",
+      "Livraison entièrement offshore pour une évolutivité rentable.",
+      "Dirigé par des chefs de projet certifiés PMP & Scrum garantissant agilité et gouvernance."
+    ],
+    "rialtesSalesforceData": [
+      "300+ certifications Salesforce couvrant les modules clés : Agentforce, Sales, Service, Data Cloud, Marketing, MuleSoft, Tableau.",
+      "Architectes, consultants et experts IA Salesforce certifiés.",
+      "Expertise sectorielle pour adapter Salesforce à vos besoins métiers.",
+      "Spécialistes multi-cloud pour Sales, Service, IA et Clouds Industriels."
+    ],
+    "ourTitle": "Nos Spécialisations Salesforce Industry Cloud",
+    "ourSubTitle": "Conçu pour votre entreprise",
+    "ourSalesforceData": [
+      {
+        "title": "Healthcare Cloud",
+        "desc": "Parcours patients, conformité HIPAA, collaboration des soins."
+      },
+      {
+        "title": "Manufacturing Cloud",
+        "desc": "Portails partenaires, distributeurs et revendeurs ; opérations de service."
+      },
+      {
+        "title": "Education Cloud",
+        "desc": "Cycle de vie étudiant, gestion des anciens élèves et des donateurs."
+      },
+      {
+        "title": "Automotive Cloud",
+        "desc": "Véhicule connecté, gestion des concessionnaires, planification des services."
+      },
+      {
+        "title": "Real Estate Cloud",
+        "desc": "Engagement client, gestion immobilière, maturation des leads."
+      },
+      {
+        "title": "Transportation Cloud",
+        "desc": "Fidélité, réservation, optimisation des services."
+      },
+      {
+        "title": "Life Sciences Cloud",
+        "desc": "Gestion des essais cliniques, engagement patient, conformité."
+      }
+    ],
+    "ourPara": "Quel que soit votre secteur, Rialtes aide Salesforce à travailler plus intelligemment pour vous.",
+    "migrateTitle": "Migrer vers Salesforce",
+    "migrateSubTitle": "Sans couture et stratégiquement",
+    "migrateDesc": "Que vous migriez depuis des CRM hérités, Zoho, HubSpot, Dynamics ou des systèmes personnalisés, Rialtes garantit :",
+    "migrateDescOne": "Migrez en toute confiance. Opérez plus intelligemment. Croissez plus vite.",
+    "migrateData": [
+      "Migrations rapides et à faible risque avec perturbation minimale.",
+      "Sécurité et conformité des données à chaque étape.",
+      "Architecture Salesforce prête pour l’IA et le futur après migration."
+    ],
+    "certifiedTitle": "Architectes Salesforce & Stratèges IA Certifiés pour Chaque Projet",
+    "certifiedData": [
+      "Conception et feuilles de route dirigées par des architectes Salesforce.",
+      "Leadership certifié PMP/Scrum pour une livraison agile et transparente.",
+      "Consultants IA, Data Cloud et Agentforce pour un Salesforce nouvelle génération.",
+      "Améliorations continues et alignement métier via SalesforceAgent+."
+    ],
+    "whyTitle": "Pourquoi Choisir Rialtes ?",
+    "whySubTitle": "Votre Partenaire de Confiance pour l’IA & les Services Managés Salesforce",
+    "whyChooseData": [
+      {
+        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (1).svg",
+        "data": "Experts en services managés Salesforce, en activation IA et en Data Cloud."
+      },
+      {
+        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (2).svg",
+        "data": "Livraison mondiale avec une touche locale."
+      },
+      {
+        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (3).svg",
+        "data": "Support 24h/24 pour vous maintenir en fonctionnement — et en croissance."
+      },
+      {
+        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (4).svg",
+        "data": "RialChat (intégration WhatsApp) inclus — Gratuit."
+      },
+      {
+        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (5).svg",
+        "data": "Focalisation approfondie sur Agentforce et les parcours de transformation IA."
+      }
+    ],
+    "knowMore": "En savoir plus",
+    "contactTitle": "Élevons ensemble votre Salesforce !",
+    "contactSubTitle": "Prêt à libérer l’IA, booster la productivité et optimiser Salesforce ?",
+    "contactSubTitleOne": "Contactez Rialtes pour découvrir comment SalesforceAgent+ peut dynamiser votre écosystème Salesforce."
+  },
+  "sapDigitalDesk": {
+    "sapCertificationData": [
+      "SAP S/4HANA (Finance, Logistique, Production, Ventes & Distribution, Achats)",
+      "SAP SuccessFactors (EC, LMS, Talent, Onboarding, Rémunération, Workforce Analytics)",
+      "SAP Ariba (Sourcing Stratégique, Contrats, Achats & Facturation)",
+      "SAP Business Technology Platform (BTP) — Intégration, Extensions, IA/ML, Analytique, Développement d’applications"
+    ],
+    "sapCertificationData2": [
+      "SAP CPI & SAP Integration Suite",
+      "Développement SAP Fiori et UI5",
+      "SAP Signavio pour l’Intelligence des Processus Métiers",
+      "SAP Datasphere et SAP Analytics Cloud",
+      "SAP ABAP et ABAP sur Cloud",
+      "Activation de SAP Joule (Assistant IA)",
+      "SAP Basis & Sécurité"
+    ],
+    "sapFeatureGrid": [
+      {
+        "title": "Expertise certifiée à la demande",
+        "description": "Accès rapide à des compétences spécialisées sans coûts de recrutement supplémentaires."
+      },
+      {
+        "title": "Assurance Qualité et Meilleures Pratiques",
+        "description": "Chaque solution est alignée sur les derniers standards et innovations SAP."
+      },
+      {
+        "title": "Des solutions pérennes",
+        "description": "Une compréhension approfondie de la feuille de route SAP garantit la protection et la scalabilité de vos investissements."
+      },
+      {
+        "title": "Conformité, Gouvernance et Gestion des Risques",
+        "description": "Des solutions construites correctement dès la première fois, en respectant les normes mondiales et les directives SAP."
+      }
+    ],
+    "futureData": [
+      "Optimisation des processus métiers et résolution des problèmes.",
+      "Surveillance et amélioration des performances système.",
+      "Sécurité, conformité et gestion des risques.",
+      "Amélioration continue des configurations et workflows."
+    ],
+    "revolutionizeData": [
+      "Développement et amélioration d’applications personnalisées par rôle.",
+      "Conceptions responsives pour équipes terrain et distantes.",
+      "Personnalisation et optimisation du Fiori launchpad.",
+      "Adoption et formation des utilisateurs pour maximiser le ROI."
+    ],
+    "unleashData": [
+      "Développement d’applications low-code/no-code avec SAP Build.",
+      "Intégrations IA/ML avec SAP AI Core.",
+      "Workflows pilotés par événements et API.",
+      "Extensions cloud-native sécurisées et évolutives."
+    ],
+    "seamlessData": [
+      "Intégrer SAP S/4HANA avec SAP et systèmes tiers — Salesforce, Oracle, Workday, ZOHO.",
+      "Intégrations API et pilotées par événements pour un flux de données en temps réel.",
+      "Architecture sécurisée et évolutive pour des transactions à haut volume.",
+      "Surveillance, maintenance et support post-intégration."
+    ],
+    "codeData": [
+      "Développer et déployer des extensions ABAP sécurisées et évolutives.",
+      "Services RESTful basés sur RAP.",
+      "Préparation pour environnements cloud et hybrides.",
+      "Gestion complète du cycle de vie de développement ABAP."
+    ],
+    "intelligentData": [
+      "Tableaux de bord, KPI et rapports exécutifs en temps réel.",
+      "Planification et analyses prédictives.",
+      "Datasphere pour des paysages de données unifiés et gouvernés.",
+      "Analyses IA et scénarios ‘what-if’ pour de meilleures prévisions."
+    ],
+    "winningSectionData": [
+      "Optimisation des processus RH globaux.",
+      "Mises à jour continues de configuration et de conformité.",
+      "Solutions de gestion des talents, recrutement et performance.",
+      "Intégration transparente avec SAP S/4HANA et systèmes tiers."
+    ],
+    "sapAribaData": [
+      "Onboarding et intégration Ariba Network.",
+      "Gestion des catalogues, du sourcing et des contrats.",
+      "Achats guidés et automatisation de la facturation.",
+      "Gestion des risques et assurance de conformité."
+    ],
+    "sapDatasphereData": [
+      "Fédération et virtualisation des données.",
+      "Partage et collaboration sécurisés des données.",
+      "Modélisation unifiée des données métiers.",
+      "Insights IA/ML à grande échelle."
+    ],
+    "sapTransformationSteps": [
+      {
+        "step": 1,
+        "title": "Découvrir",
+        "description": "Analyse des processus et évaluations de valeur."
+      },
+      {
+        "step": 2,
+        "title": "Préparer",
+        "description": "Stratégie, gouvernance et définition du périmètre."
+      },
+      {
+        "step": 3,
+        "title": "Explorer",
+        "description": "Analyse fit-to-standard et conception de l’état futur."
+      },
+      {
+        "step": 4,
+        "title": "Réaliser",
+        "description": "Configuration rapide et développement alignés sur les KPI."
+      },
+      {
+        "step": 5,
+        "title": "Déployer",
+        "description": "Basculage fluide, formation et accompagnement."
+      },
+      {
+        "step": 6,
+        "title": "Exploiter",
+        "description": "Support post-go-live et amélioration continue.",
+        "plOverride": "xl:pl-24"
+      }
+    ],
+    "superchargeData": [
+      "Expérience employé et recommandations RH pilotées par IA.",
+      "Automatisation de la gestion documentaire et résolution de cas.",
+      "IA conversationnelle pour managers et employés.",
+      "Intégration transparente avec SAP S/4HANA et SuccessFactors."
+    ],
+    "btpData": [
+      "Accélérez le développement d’applications avec SAP Build.",
+      "Extensions IA/ML basées sur SAP AI Core.",
+      "Intégrations fluides via API Hub.",
+      "Event Mesh et Graph pour une connectivité en temps réel.",
+      "Gouvernance, sécurité et conformité complètes dans le cloud."
+    ],
+    "migrateData1": [
+      "Stratégie de migration sécurisée de bout en bout.",
+      "Nettoyage, transformation et migration des données.",
+      "Cartographie et optimisation des processus métiers.",
+      "Intégrations SAP CPI pour des workflows fluides."
+    ],
+    "migrateData2": [
+      "Mise en place de processus RH standardisés dans SuccessFactors.",
+      "Migration de données précise et conforme.",
+      "Intégration en temps réel et support continu.",
+      "Préparation à la conformité locale et mondiale."
+    ],
+    "whyPartnerData": [
+      "Partenaire SAP certifié mondial avec un historique de succès éprouvé.",
+      "Services SAP managés 24/7 pour une exploitation ininterrompue.",
+      "Centre d’excellence SAP BTP, Intégration et IA.",
+      "Responsables de la réussite client dédiés.",
+      "Modèles d’engagement flexibles et basés sur les résultats."
+    ],
+    "headerTitle": "SAP Digital Desk",
+    "headerSubTitle": "Maximisez votre investissement SAP grâce à une expertise disponible en continu",
+    "pageDescTitle": "Réinventez le support SAP avec les services managés de Rialtes",
+    "pageDesc1": "Chez Rialtes, nous aidons les organisations à gérer leurs environnements SAP plus efficacement, en toute sécurité et de manière optimale. SAP Digital Desk, notre plateforme de services managés de nouvelle génération, regroupe une expertise SAP de bout en bout — de la stabilisation à l’innovation en passant par l’optimisation continue — garantissant que vos systèmes SAP deviennent un moteur stratégique de croissance, et non simplement un outil opérationnel.",
+    "pageDesc2": "En tant que partenaire SAP certifié mondialement, présent en Inde, aux États-Unis, au Canada et à Singapour, avec une équipe d’experts certifiés de premier plan, Rialtes s’engage à fournir une valeur, une agilité et une innovation inégalées à chaque client.",
+    "rilatesTitle": "Le support SAP 24/7 de Rialtes, conçu autour de vous",
+    "rialtesData": "Chez Rialtes, nous savons que les systèmes SAP sont critiques — les interruptions ne sont pas une option. C’est pourquoi notre SAP Digital Desk repose sur un modèle de support mondial offrant une couverture ininterrompue 24/7 via une combinaison flexible de services Onsite, Hybrides et 100% Offshore, afin de répondre à vos besoins opérationnels et attentes budgétaires.",
+    "rialtesTitle2": "Nos modèles de prestation de support",
+    "followTheSunTitle": "Support mondial 24/7 « Follow-the-Sun »",
+    "rialtesTwentyData1": [
+      "Surveillance continue des systèmes SAP, gestion des incidents et support fonctionnel/technique.",
+      "Alertes proactives, résolution en temps réel et continuité de service — partout, à tout moment."
+    ],
+    "hybridTitle": "Modèle Hybride (Onsite + Offshore)",
+    "rialtesTwentyData2": [
+      "Surveillance continue des systèmes SAP, gestion des incidents et support fonctionnel/technique.",
+      "Alertes proactives, résolution en temps réel et continuité de service — partout, à tout moment."
+    ],
+    "onsiteDeliveryTitle": "Modèle Onsite",
+    "onsiteDeliveryTitle2": "Modèle 100% Offshore",
+    "onsiteDeliveryData": [
+      "Experts SAP intégrés dans votre entreprise pour une collaboration pratique et en temps réel.",
+      "Idéal pour les déploiements sensibles, les go-lives critiques et l’alignement avec les parties prenantes exécutives."
+    ],
+    "onsiteDeliveryData2": [
+      "Prestation 100% à distance depuis nos Centres d’Excellence SAP en Inde et à Singapour pour des coûts optimisés et une livraison continue.",
+      "Idéal pour les services AMS (Application Management Services) en régime stable, développements et améliorations."
+    ],
+    "projectPartnershipTitle": "Pilotage de Projet",
+    "projectPartnershipDesc1": "Toutes nos missions sont pilotées par des chefs de projet certifiés PMP® et Scrum®, garantissant des livraisons dans les délais, dans le budget et alignées aux objectifs métiers.",
+    "projectPartnershipDesc2": "Nos consultants certifiés SAP sont stratégiquement localisés aux États-Unis, au Canada et en Inde, vous offrant un équilibre optimal entre proximité, efficacité coûts et expertise.",
+    "projectPartnershipData": [
+      "Méthodologies Agile et Waterfall selon les besoins métiers.",
+      "Cadres solides de gouvernance, communication et gestion des risques.",
+      "Rapports de service transparents, pilotés par KPI et orientés résultats."
+    ],
+    "SapTitle": "Plus de 150 certifications SAP couvrant chaque module majeur",
+    "SapTitle2": "Notre compétence SAP certifiée couvre :",
+    "SapTitle3": "Ce que cela signifie pour vous :",
+    "sapBlueBox": "Avec Rialtes, vous bénéficiez d’un partenaire à long terme pour stimuler l’innovation SAP continue et la création de valeur.",
+    "futureProofTitle": "Préparez votre cœur de métier au futur",
+    "futureProofTitle2": "Support complet SAP S/4HANA post-go-live",
+    "futureProofDesc": "Maintenez vos systèmes SAP S/4HANA à des performances optimales grâce à notre expertise fonctionnelle, technique et Basis :",
+    "sapFioriTitle": "Révolutionnez l’expérience utilisateur",
+    "sapFioriTitle2": "SAP Fiori/UI5 — Conçu pour votre entreprise",
+    "sapFioriDesc": "Modernisez et simplifiez les interactions utilisateurs avec des applications SAP Fiori/UI5 intuitives.",
+    "unleashTitle": "Libérez l’innovation",
+    "unleashSubTitle": "Exploitez SAP BTP pour étendre et personnaliser SAP",
+    "unleashTitleDesc": "Tirez parti de SAP Business Technology Platform (BTP) pour créer des innovations qui génèrent un avantage concurrentiel :",
+    "seamlessTitle": "Connectivité sans faille",
+    "seamlessSubTitle": "Expertise complète SAP CPI & Intégration",
+    "seamlessDesc": "Rendez votre environnement SAP véritablement connecté :",
+    "codeFutureTitle": "Codez le futur",
+    "codeFutureSubTitle": "SAP ABAP sur Cloud — Plus intelligent, plus agile, plus rapide",
+    "codeFutureDesc": "Débloquez la puissance nouvelle génération de l’ABAP dans le cloud :",
+    "intelligentTitle": "Insights intelligents",
+    "intelligentSubTitle": "Services avancés SAP Analytics Cloud & Datasphere",
+    "intelligentDesc": "Prenez des décisions éclairées grâce à une analytique de niveau entreprise :",
+    "winningTitle": "Gagner la guerre des talents",
+    "winningTitle2": "Support complet SAP SuccessFactors",
+    "winningDesc": "Placez vos employés au cœur de votre transformation digitale :",
+    "smartTitle": "Achats intelligents",
+    "modernTitle": "Data Fabric moderne",
+    "modernSubTitle": "Gestion SAP Datasphere pour un accès unifié aux données",
+    "sapSignavioTitle": "SAP Signavio et SAP Activate",
+    "sapSignavioDesc": "L’approche éprouvée SAP Activate de Rialtes combinée à l’intelligence des processus Signavio",
+    "sapSignavioBlueBox": "Grâce à l’intelligence en temps réel de Signavio, nous vous aidons à exécuter SAP selon les meilleurs standards du marché.",
+    "smartSubTitle": "Services Managés SAP Ariba",
+    "superChargeTitle": "Boostez les RH avec SAP Joule",
+    "superChargeDesc": "Découvrez SAP Joule, votre assistant IA pour les processus RH et métiers dans SuccessFactors. Rialtes vous aide à exploiter Joule pour une automatisation et des insights à fort impact :",
+    "btpTitle": "Centre d’Excellence BTP de Rialtes",
+    "btpSubTitle": "Innover, intégrer et étendre SAP plus rapidement",
+    "btpDesc": "Des workflows pilotés par IA aux applications mobiles en passant par les architectures événementielles, nos experts certifiés SAP BTP garantissent :",
+    "migrateTitle": "Migrez vers SAP SuccessFactors en toute confiance",
+    "migrateSubTitle": "Success+ par Rialtes",
+    "migrateSubTitle2": "Services de migration Workday vers SAP SuccessFactors",
+    "migrateSubTitle3": "Migration ZOHO HR vers SAP SuccessFactors",
+    "whyPartenerTitle": "Pourquoi choisir Rialtes comme partenaire ?",
+    "whyPartenerSubTitle": "Votre succès est notre mission",
+    "contactTitle": "Prêt à maximiser la valeur de SAP ? Parlons-en !",
+    "contactSubTitle": "Contactez-nous dès aujourd’hui pour découvrir comment SAP Digital Desk peut transformer vos opérations SAP."
+  },
+  "retailPlus": {
+    "retailServices": [
+      {
+        "title": "Conseil en stratégie :",
+        "description": "Élaboration de feuilles de route de transformation numérique évolutives, alignées sur les tendances mondiales du commerce de détail et les objectifs de l’entreprise."
+      },
+      {
+        "title": "Conception & Architecture de solutions :",
+        "description": "Conception de bout en bout couvrant le commerce, la chaîne d’approvisionnement, le marketing et le service client — entièrement intégrée aux écosystèmes Salesforce et SAP."
+      },
+      {
+        "title": "Mise en œuvre & Déploiement :",
+        "description": "Cycle complet de Salesforce Commerce Cloud, Service Cloud, SAP S/4HANA et intégrations de données pilotées par l’IA, adaptées aux modèles B2B et B2C."
+      },
+      {
+        "title": "Assurance qualité & Tests :",
+        "description": "Tests fonctionnels, de performance et de sécurité robustes pour garantir des opérations sans faille."
+      },
+      {
+        "title": "Intégration & Automatisation des systèmes :",
+        "description": "Intégrations en temps réel avec les plateformes ERP, CRM, OMS, Paiement et Inventaire, améliorant l’agilité opérationnelle."
+      },
+      {
+        "title": "Optimisation & Support post-déploiement :",
+        "description": "Amélioration continue, adoption de l’IA et services managés pour une création de valeur durable."
+      }
+    ],
+    "retailVerticals": [
+      {
+        "title": "Mode & Habillement",
+        "icon": "/images/industry/retail/fashan.svg",
+        "paddingClass": "xl:pr-20"
+      },
+      {
+        "title": "Électronique grand public",
+        "icon": "/images/industry/retail/consumer.svg",
+        "paddingClass": "xl:pr-20"
+      },
+      {
+        "title": "Maison & Ameublement",
+        "icon": "/images/industry/retail/ferniture.svg",
+        "paddingClass": "xl:pr-20"
+      },
+      {
+        "title": "Produits de luxe & Lifestyle",
+        "icon": "/images/industry/retail/lux.svg",
+        "paddingClass": "xl:pr-40"
+      },
+      {
+        "title": "Agroalimentaire & Boissons",
+        "icon": "/images/industry/retail/foods.svg",
+        "paddingClass": "xl:pr-24"
+      },
+      {
+        "title": "Santé & Bien-être",
+        "icon": "/images/industry/retail/health.svg",
+        "paddingClass": "xl:pr-20"
+      },
+      {
+        "title": "Commerce de voyage et Duty-Free",
+        "icon": "/images/industry/retail/travel.svg",
+        "paddingClass": "xl:pr-12"
+      }
+    ],
+    "salesforceSolutions": [
+      {
+        "title": "Salesforce Service Cloud",
+        "description": "Donnez aux équipes de service client les moyens de gérer les cas via tous les canaux."
+      },
+      {
+        "title": "Salesforce Experience (Community) Cloud",
+        "description": "Créez des portails de marque pour les clients, partenaires et employés afin de favoriser une communication fluide."
+      },
+      {
+        "title": "Salesforce Agentforce & Data Cloud",
+        "description": "Automatisation basée sur l’IA, informations clients et engagement intelligent."
+      }
+    ],
+    "whyChooseData": [
+      "Expertise reconnue sur Salesforce & SAP",
+      "Plus de dix ans d’expérience auprès de distributeurs mondiaux",
+      "Experts en IA, Données et Omnicanal",
+      "Solutions adaptées au commerce de détail B2B et B2C",
+      "Partenariat de bout en bout — de la stratégie au succès post-déploiement"
+    ],
+    "rialChat": [
+      "Prêt à être déployé en quelques minutes, compatible avec tout Salesforce Cloud (Sales, Service, Marketing, Commerce, etc.).",
+      "Sécurité avancée et accès basé sur les rôles pour garantir des communications conformes.",
+      "Prend en charge la délégation de cas, prospects, ordres de travail, demandes de service, et plus encore selon le type d’enregistrement et les unités commerciales.",
+      "Entièrement intégré aux workflows et à l’automatisation Salesforce pour des conversations intelligentes en temps réel."
+    ],
+    "headerTitle": "Retail+",
+    "headerSubTitle": "Transformation du commerce de détail intelligente, connectée et évolutive",
+    "empoweringTitle": " Accompagner les distributeurs mondiaux avec des solutions omnicanales pilotées par l’IA",
+    "empoweringDesc1": "Dans le paysage actuel, dynamique et hautement compétitif, les attentes des clients évoluent rapidement, portées par l’hyper-personnalisation, l’engagement omnicanal fluide et des opérations intelligentes. Chez Rialtes, nous mettons à profit plus de dix ans d’expérience en conseil mondial pour aider les distributeurs B2B et B2C à relever ces défis et stimuler une croissance durable.",
+    "empoweringDesc2": "Avec Retail+, Rialtes propose une suite complète de services, combinant conseil stratégique, conception de solutions, mise en œuvre, assurance qualité, intégration et support post-déploiement — conçus pour accélérer la transformation du commerce de détail à l’échelle de l’entreprise.",
+    "comprehensiveTitle": "Services complets pour les entreprises de distribution modernes",
+    "comprehensiveSubTitle": "Retail+ par Rialtes",
+    "keyTitle": "Offres clés",
+    "deepIndustryTitle": "Expertise approfondie dans les secteurs du commerce de détail",
+    "deepIndustrySubTitle": "Notre compréhension approfondie du commerce de détail B2B et B2C nous permet de répondre aux besoins spécifiques de :",
+    "deepIndustryBlueBox": "Nous aidons les marques à ouvrir de nouveaux canaux de revenus, à renforcer la fidélité client et à rationaliser leurs opérations, grâce à Salesforce, SAP et l’intelligence pilotée par l’IA.",
+    "saleforceTitle": "Salesforce & SAP",
+    "saleforceSubTitle1": "Solutions de niveau entreprise pour la réussite du commerce de détail",
+    "saleforceSubTitle2": "Salesforce Retail & Consumer Goods Cloud",
+    "saleforceDesc": "Exploitez les capacités de Salesforce Retail Cloud — y compris les profils clients unifiés, la personnalisation basée sur l’IA, la gestion de la fidélité, le service omnicanal et l’automatisation du marketing — pour offrir des expériences cohérentes et personnalisées sur tous les points de contact.",
+    "sapHanaTitle": "SAP S/4HANA pour le commerce de détail",
+    "sapHanaDesc": "Transformez les opérations back-office avec SAP S/4HANA Retail, permettant une gestion intelligente des stocks, la prévision de la demande, l’optimisation de la chaîne d’approvisionnement et l’analytique en temps réel pour améliorer rentabilité et réactivité.",
+    "specializedTitle": "Solutions spécialisées pour le commerce de détail immobilier & hôtelier",
+    "specializedSubTitle": "Exelona",
+    "specializedDesc": "Pour les distributeurs opérant dans les secteurs de l’immobilier et de l’hôtellerie, Exelona — la solution propriétaire de Rialtes, construite nativement sur Salesforce — permet une gestion intégrée des actifs, du marketing, des finances et des opérations sur une plateforme unifiée. Avec Exelona, les entreprises de retail immobilier peuvent gérer les ventes de propriétés, les locations, l’engagement des locataires et les opérations de manière fluide et sécurisée.",
+    "advanceAiTitle": "IA & Données avancées",
+    "advanceAiSubTitle": "Salesforce Data Cloud & Agentforce pour le commerce de détail",
+    "advanceAiDesc": "Exploitez Salesforce Data Cloud pour unifier les données clients, ventes et chaîne d’approvisionnement — générant des insights en temps réel, de la segmentation et des offres personnalisées. Agentforce, la solution d’automatisation de service alimentée par l’IA de Salesforce, permet un service client proactif, un routage intelligent des cas et des recommandations personnalisées sur tous les canaux.",
+    "aiDrivenTitle": "Gestion des cas consommateurs pilotée par l’IA",
+    "aiDrivenDesc": "En intégrant Salesforce Agentforce et Data Cloud, Rialtes aide les entreprises de distribution à transformer la gestion des cas et le support client, en tirant parti de chatbots alimentés par l’IA, d’analyses prédictives et de workflows automatisés pour améliorer l’efficacité et la satisfaction du service client.",
+    "relatedTitle": "Fonctionnalités Salesforce Cloud associées",
+    "realChatTitle": "Présentation de RialChat",
+    "realChatSubTitle": "Engagement WhatsApp prêt pour l’entreprise",
+    "rialChatDesc": "RialChat, la plateforme conversationnelle bidirectionnelle de Rialtes sur WhatsApp, est construite nativement sur Salesforce et conçue pour des communications de niveau entreprise couvrant les ventes, le service et les opérations.",
+    "rialChatBlueBox": "Avec RialChat, les entreprises peuvent offrir des interactions clients personnalisées, sécurisées et évolutives — directement sur WhatsApp, intégrées à Salesforce.",
+    "whyChooseTitle": "Pourquoi choisir Rialtes pour Retail+ ?",
+    "whyChooseSubTitle": "Maximiser la valeur de S/4HANA",
+    "contactTitle": "Contactez Rialtes dès aujourd’hui pour découvrir comment Retail+ peut préparer votre entreprise de distribution à l’avenir."
+  },
+  "lifeAiPlus": {
+    "headerTitle": "LifeAI+",
+    "headerSubTitle": "Transformer les sciences de la vie avec les services LifeAI+ de Rialtes",
+    "pageDescTitle": "Services Salesforce Life Sciences Cloud pour une innovation plus intelligente et conforme grâce à l’IA",
+    "pageDesc1": "Chez Rialtes, nous comprenons que l’industrie des sciences de la vie évolue rapidement — avec des attentes croissantes de la part des patients, des prestataires, des régulateurs et des partenaires. Pour répondre à ces exigences, les organisations ont besoin de solutions intelligentes basées sur l’IA, intégrant conformité, personnalisation et automatisation à grande échelle.",
+    "pageDesc2": "Nous vous présentons Rialtes LifeAI+, notre service de conseil complet conçu pour les entreprises de sciences de la vie, alliant une expertise sectorielle approfondie à Salesforce Life Sciences Cloud, Health Cloud et à des solutions pilotées par l’IA pour favoriser l’innovation, assurer la conformité et améliorer l’efficacité opérationnelle.",
+    "featureBoxes": [
+      {
+        "title": "Conformité réglementaire & préparation aux audits",
+        "description": "Garantissez le respect total des normes FDA, EMA, HIPAA et RGPD grâce à des workflows automatisés de conformité, des pistes d’audit complètes et un suivi intelligent."
+      },
+      {
+        "title": "Surveillance à distance des patients & soins à domicile",
+        "description": "Proposez des solutions de surveillance à distance et des programmes de soins à domicile nouvelle génération intégrés à Salesforce pour une gestion proactive des soins et de meilleurs résultats."
+      },
+      {
+        "title": "Vérification des avantages & contrôles d’éligibilité",
+        "description": "Automatisez la vérification de l’éligibilité et les contrôles d’avantages en temps réel — améliorant la rapidité et réduisant les interventions manuelles pour les équipes de services aux patients."
+      },
+      {
+        "title": "Gestion des autorisations préalables",
+        "description": "La solution d’autorisation préalable (PA) alimentée par l’IA, construite sur Salesforce Life Sciences Cloud, rationalise et automatise l’ensemble du processus PA pour les patients, prestataires et payeurs."
+      },
+      {
+        "title": "Solutions de télémédecine & soins virtuels",
+        "description": "Offrez des intégrations de télémédecine sécurisées pour faciliter les consultations à distance, le suivi des patients et les parcours de soins numériques."
+      },
+      {
+        "title": "Signature numérique & automatisation de l’extraction documentaire",
+        "description": "Accélérez les workflows intensifs en documents tels que les formulaires de consentement, l’intégration et la documentation de conformité grâce aux signatures numériques sécurisées et à l’extraction de documents pilotée par l’IA."
+      }
+    ],
+    "lifeAiData": [
+      "Conseil stratégique & élaboration de feuille de route",
+      "Mise en œuvre de Salesforce Life Sciences Cloud & Health Cloud",
+      "Conception d’expériences et de parcours centrés sur l’utilisateur",
+      "Conformité réglementaire & assurance qualité",
+      "Intégration des systèmes avec ERP, DME et plateformes partenaires",
+      "Analytique & insights pilotés par l’IA grâce à Data Cloud",
+      "Support continu & optimisation pour une amélioration continue"
+    ],
+    "whyPartnerData": [
+      "Partenaire certifié Salesforce avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour.",
+      "Experts hautement certifiés en Salesforce Health Cloud et Life Sciences Cloud.",
+      "Forte expertise dans les secteurs des payeurs, prestataires, dispositifs médicaux, produits pharmaceutiques, biotechnologie et assurances.",
+      "Capacité éprouvée à fournir des solutions sécurisées, conformes et pilotées par l’IA pour les sciences de la vie.",
+      "Accent fort sur l’IA, l’automatisation et l’innovation centrée sur le patient."
+    ],
+    "deepData": [
+      "Gestion des programmes de soins & services aux patients",
+      "Gestion des relations avec les prestataires & professionnels de santé (HCP)",
+      "Support clinique & gestion des cas de dispositifs",
+      "Affaires médicales & autonomisation des équipes de terrain",
+      "Communication omnicanale pour patients et prestataires",
+      "Gestion des réclamations produits & des demandes d’information",
+      "Gestion des investigateurs & leaders d’opinion clés (KOL)",
+      "Insights basés sur l’IA grâce à Salesforce Data Cloud"
+    ],
+    "howRialtesData": [
+      "Automatiser les processus exigeants en conformité et améliorer la précision.",
+      "Offrir un engagement patient personnalisé grâce à l’IA et aux insights basés sur les données.",
+      "Assurer la conformité réglementaire complète pour chaque interaction client et patient.",
+      "Rationaliser les parcours HCP et patients en utilisant Salesforce Life Sciences Cloud et Health Cloud.",
+      "Mettre en œuvre une gestion des cas basée sur l’IA et un support patient proactif grâce à Agentforce et Data Cloud."
+    ],
+    "priorData": [
+      "Collecte automatisée des demandes PA via plusieurs canaux (portail, téléphone, DME).",
+      "Triage des cas et vérification d’éligibilité basés sur l’IA pour des décisions PA plus rapides.",
+      "Collaboration dynamique avec les payeurs, patients et prestataires — directement depuis Salesforce.",
+      "Intégration fluide avec les DME, payeurs et pharmacies spécialisées.",
+      "Suivi en temps réel du statut PA pour les patients et les équipes de soins.",
+      "Journaux d’audit et de conformité maintenus pour chaque cas PA."
+    ],
+    "aiDrivenData": [
+      "Gestion des cas et services aux patients pilotés par l’IA — incluant des insights prédictifs et une assistance intelligente aux agents.",
+      "Vue unifiée à 360° du patient et du HCP — exploitant la consolidation des données en temps réel.",
+      "Parcours d’engagement personnalisés — adaptés aux comportements des patients et aux besoins cliniques.",
+      "Déclencheurs d’interventions proactives — alimentés par des modèles IA utilisant les signaux en temps réel de Data Cloud."
+    ],
+    "whatIsLifeTitle": "Qu’est-ce que LifeAI+ ?",
+    "whatIsLifeDesc": "Un service de conseil à 360° qui unit Conseil, Design, Mise en œuvre, Assurance qualité, Intégration et Support post-mise en service — garantissant une création de valeur continue et une innovation sur l’ensemble de votre chaîne de valeur des sciences de la vie.",
+    "whatIsLifeSubTitle": "Nos services de bout en bout incluent :",
+    "whyPartnerTitle": "Pourquoi collaborer avec Rialtes ?",
+    "deepExpertiseTitle": "Expertise approfondie dans Salesforce Life Sciences Cloud",
+    "deepExpertiseDesc": "Nous aidons les organisations des sciences de la vie à maximiser Salesforce Life Sciences Cloud, en configurant ses modules spécifiques au secteur pour rationaliser les workflows et améliorer la conformité :",
+    "keySalesforceTitle": "Modules clés de Salesforce Life Sciences Cloud dans lesquels nous sommes spécialisés :",
+    "howRialtesTitle": "Comment Rialtes LifeAI+ stimule la croissance dans les sciences de la vie",
+    "howRialtesDesc": "Que vous soyez une entreprise pharmaceutique, un fabricant de dispositifs médicaux, une société de biotechnologie ou un prestataire de soins, Rialtes vous aide à :",
+    "specializedTitle": "Expertise spécialisée pour l’avenir de la santé & des sciences de la vie",
+    "priorMgmtTitle": "Gestion des autorisations préalables",
+    "priorMgmtSubTitle": "Rationalisée, conforme, intelligente",
+    "priorMgmtDesc": "L’autorisation préalable (PA) est souvent un frein majeur pour les patients, prestataires et payeurs. La solution d’autorisation préalable améliorée par l’IA de Rialtes exploite Salesforce Life Sciences Cloud pour automatiser et rationaliser le processus PA de bout en bout, incluant :",
+    "priorDataBlueBox": "Notre solution PA réduit les retards, améliore l’expérience patient et garantit un accès plus rapide aux thérapies — favorisant une meilleure observance et de meilleurs résultats.",
+    "aiDrivenTitle": "Sciences de la vie pilotées par l’IA avec Salesforce Data Cloud & Agentforce",
+    "aiDrivenDesc1": "Rialtes aide les organisations à intégrer Salesforce Data Cloud et Agentforce for Health, libérant des capacités puissantes pilotées par l’IA :",
+    "aiDrivenDesc2": "Ensemble, Data Cloud et Agentforce permettent aux organisations d’élever la gestion des cas, les services sur le terrain et les programmes patients à un nouveau niveau — simplifiant les workflows complexes et réduisant le temps d’accès aux traitements.",
+    "relatedSolutionsData": [
+      {
+        "title": "Salesforce Service Cloud",
+        "desc": "pour des workflows de service supérieurs pour les patients et prestataires."
+      },
+      {
+        "title": "Salesforce Experience (Community) Cloud",
+        "desc": "pour créer des portails destinés aux patients, HCP et partenaires."
+      },
+      {
+        "title": "Salesforce Agentforce for Health",
+        "desc": "Gestion des cas et optimisation des services pilotées par l’IA."
+      },
+      {
+        "title": "Salesforce Data Cloud for Health",
+        "desc": "Données patients unifiées pour alimenter la personnalisation et l’analytique de nouvelle génération."
+      }
+    ],
+    "relatedTitle": "Solutions associées & à explorer :",
+    "contactTitle": "Prêt à innover et transformer ?",
+    "contactSubTitle": "Rejoignez les organisations leaders des sciences de la vie qui font confiance à Rialtes LifeAI+ pour pérenniser leurs opérations, renforcer la conformité et améliorer l’engagement des patients.",
+    "contactSubTitle2": "Contactez-nous dès aujourd’hui pour planifier une session stratégique personnalisée et une démonstration."
+  },
+  "advantagePlus": {
+    "latestServices": [
+      {
+        "id": 1,
+        "title": "Conseil et élaboration de stratégie",
+        "description": "Alignez vos objectifs marketing avec des solutions Salesforce évolutives."
+      },
+      {
+        "id": 2,
+        "title": "Mise en œuvre et configuration",
+        "description": "Déploiement rapide adapté à vos besoins uniques en matière d’engagement client."
+      },
+      {
+        "id": 3,
+        "title": "Services créatifs et de design",
+        "description": "Modèles d’e-mails attrayants et responsifs, pages de destination et parcours clients."
+      },
+      {
+        "id": 4,
+        "title": "Assurance qualité et optimisation",
+        "description": "Tests de bout en bout pour garantir des campagnes multicanales fluides."
+      },
+      {
+        "id": 5,
+        "title": "Intégration et préparation des données",
+        "description": "Connectez Salesforce Marketing Cloud avec Sales Cloud, Service Cloud, CRM, ERP et applications tierces."
+      },
+      {
+        "id": 6,
+        "title": "Support post-déploiement et analytique",
+        "description": "Optimisation continue, formation et analyses avancées pour un ROI durable."
+      }
+    ],
+    "moreSalesforce": [
+      {
+        "title": "Salesforce Service Cloud",
+        "description": "Élevez votre service client."
+      },
+      {
+        "title": "Salesforce Community Cloud",
+        "description": "Créez des portails dynamiques pour vos clients et partenaires."
+      },
+      {
+        "title": "Agentforce Campaign Management",
+        "description": "Orchestration de campagnes alimentée par l’IA."
+      },
+      {
+        "title": "Salesforce Data Cloud",
+        "description": "Segmentation client avancée et analyses en temps réel."
+      }
+    ],
+    "deepData1": [
+      "Journey Builder pour des parcours clients dynamiques et personnalisés.",
+      "Email Studio pour des campagnes d’e-mailing percutantes et basées sur les données.",
+      "Mobile Studio pour les SMS et notifications push.",
+      "Advertising Studio pour engager les clients sur Google, Facebook, LinkedIn et autres plateformes numériques."
+    ],
+    "deepData2": [
+      "Datorama (Marketing Cloud Intelligence) pour une analytique marketing complète et l’optimisation du ROI.",
+      "Segmentation client et Audience Studio pour un ciblage précis.",
+      "Marketing Cloud Personalization pour un engagement en temps réel.",
+      "Marketing Analytics & Einstein AI pour des analyses prédictives et la modélisation du comportement client."
+    ],
+    "marketingFeatures": [
+      {
+        "title": "Marketing B2B & B2C évolutif :",
+        "description": "Gérez sans effort des relations B2B complexes et des campagnes B2C à grande échelle."
+      },
+      {
+        "title": "E-mail marketing hyper-personnalisé :",
+        "description": "Contenus personnalisés grâce à l’IA et aux données en temps réel."
+      },
+      {
+        "title": "Segmentation et ciblage client :",
+        "description": "Atteignez la bonne audience avec précision."
+      },
+      {
+        "title": "Gestion de campagnes omnicanal :",
+        "description": "Communication cohérente sur l’e-mail, le mobile, les réseaux sociaux et le web."
+      },
+      {
+        "title": "Campagnes Salesforce Agentforce :",
+        "description": "Intégrez marketing et ventes pour transformer les prospects en clients."
+      },
+      {
+        "title": "Analytique et rapports marketing :",
+        "description": "Tableaux de bord et insights exploitables."
+      }
+    ],
+    "aiMarketingData": [
+      {
+        "title": "Optimisation de campagnes pilotée par l’IA :",
+        "description": "Ciblage prédictif et affinage des parcours clients grâce à Einstein AI."
+      },
+      {
+        "title": "Insights clients en temps réel :",
+        "description": "Vue unifiée des interactions clients sur tous les canaux via Data Cloud."
+      },
+      {
+        "title": "Gestion de campagnes Agentforce nouvelle génération :",
+        "description": "Permettre aux équipes commerciales et marketing de collaborer sur la prospection avec des recommandations générées par l’IA."
+      },
+      {
+        "title": "Segmentation dynamique :",
+        "description": "Segments pilotés par l’IA qui évoluent selon le comportement client en temps réel."
+      }
+    ],
+    "agentChatData": [
+      {
+        "title": "Déploiement instantané :",
+        "description": "Mise en service en quelques minutes — sans configuration complexe."
+      },
+      {
+        "title": "Compatibilité universelle avec Salesforce :",
+        "description": "Fonctionne parfaitement avec Sales, Service, Marketing et Experience Clouds."
+      },
+      {
+        "title": "Multi-rôle et sécurisé :",
+        "description": "Prend en charge un accès basé sur les rôles et des modèles de sécurité de niveau entreprise."
+      },
+      {
+        "title": "Délégation complète des enregistrements :",
+        "description": "Attribuez Cas, Leads, Ordres de travail et enregistrements personnalisés par type pour assurer des flux fluides."
+      },
+      {
+        "title": "Expérience client améliorée :",
+        "description": "Permettez des conversations bidirectionnelles en temps réel via WhatsApp directement depuis Salesforce, améliorant ainsi l’engagement et les taux de résolution."
+      }
+    ],
+    "yourGrowthData": [
+      "Partenaire certifié SAP avec des réussites prouvées en intégration CPI.",
+      "Présence mondiale : États-Unis, Canada, Singapour, Inde.",
+      "Accélérateurs sectoriels pour l’industrie manufacturière, les semi-conducteurs, l’automobile et la haute technologie.",
+      "Expertise approfondie en intégrations SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis.",
+      "Support complet allant du conseil à l’optimisation post-déploiement."
+    ],
+    "headerTitle": "Advantage+",
+    "headerSubTitle": "Stimuler la croissance grâce au marketing personnalisé",
+    "headerSubTitle2": "Services Salesforce Marketing Cloud de Rialtes",
+    "pageDescTitle": "Offrez des expériences hyper-personnalisées et basées sur les données avec Advantage+",
+    "pageDesc": "Nous aidons les organisations à exploiter la puissance de Salesforce Marketing Cloud avec nos services Advantage+, une suite complète de conseil, de mise en œuvre et de support pour une adoption rapide. En tant que partenaire certifié Salesforce Consulting, avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, Rialtes combine expertise sectorielle et maîtrise de Marketing Cloud pour accélérer la transformation des secteurs B2B et B2C.",
+    "ourAdvantageTitle": "Advantage+ : Une approche de transformation marketing à 360°",
+    "ourAdvantageDesc": "Notre cadre Advantage+ garantit que chaque phase de votre parcours marketing est guidée avec expertise :",
+    "deepSalesForceTitle": "Expertise approfondie de Salesforce Marketing Cloud",
+    "deepSalesForceDesc": "Chez Rialtes, nous apportons des années d’expérience pratique sur Salesforce Marketing Cloud, couvrant :",
+    "drivingBusinessTitle": "Stimuler la croissance grâce à Salesforce Marketing Cloud",
+    "drivingBusinessDesc": "Notre expertise aide les organisations à atteindre :",
+    "reimaginTitle": "Réinventer le marketing B2B & B2C avec l’IA et Data Cloud",
+    "reimaginDesc": "En s’appuyant sur Salesforce Data Cloud et Agentforce, Rialtes transforme la manière dont les organisations gèrent et exécutent leurs campagnes marketing :",
+    "byHarnessingTitle": "En exploitant l’IA et les données en temps réel, Rialtes permet aux clients de passer d’un marketing réactif à proactif, améliorant ainsi les taux d’engagement et la fidélisation.",
+    "introducingAgentChatTitle": "Présentation de AgentChat",
+    "introducingAgentChatSubTitle": "Transformer les conversations WhatsApp pour les utilisateurs Salesforce",
+    "introducingAgentChatSubTitle2": "Révolutionner l’engagement client avec WhatsApp + Salesforce",
+    "introducingAgentChatDesc": "Découvrez AgentChat, l’application propriétaire de messagerie bidirectionnelle WhatsApp de Rialtes, construite nativement sur la plateforme Salesforce — conçue pour accélérer les interactions clients sur n’importe quel Cloud Salesforce.",
+    "keyFeatures": "Fonctionnalités clés de AgentChat :",
+    "introducingAgentChatDesc2": "AgentChat est la solution idéale pour le service client, les demandes commerciales, les mises à jour de commandes et les campagnes marketing — le tout géré en toute sécurité dans Salesforce.",
+    "yourGrowthTitle": " Vos partenaires de croissance",
+    "yourGrowthSubTitle": "À chaque point de contact de votre industrie",
+    "yourGrowthDesc": "Que vous lanciez des campagnes ciblées, développiez votre marketing à l’international ou renforciez vos relations clients, les services Advantage+ Marketing Cloud de Rialtes sont conçus pour stimuler la croissance, l’efficacité et l’innovation.",
+    "exploreMoreTitle": "Découvrez plus avec Salesforce",
+    "contactTitle": "Prêt à accélérer votre marketing ? Parlons-en !"
+  },
+  "rialFinance": {
+    "startWithData": [
+      "Bots IA préconfigurés pour l’intégration des clients, le crédit, le service et le conseil en gestion de patrimoine.",
+      "Ateliers d’activation Agentforce pour une préparation rapide à l’IA.",
+      "Contrôles de conformité, détection de fraude et gestion documentaire pilotés par IA.",
+      "IA conversationnelle pour des expériences clients personnalisées en banque de détail et banque d’entreprise.",
+      "Intégration avec Data Cloud pour des profils clients unifiés."
+    ],
+    "exelonaData": [
+      "Gestion du cycle de vie des actifs et des portefeuilles.",
+      "Gestion intégrée des revenus, de la location et du marketing.",
+      "Plateformes unifiées de services pour investisseurs et locataires.",
+      "Collaboration fluide entre finance immobilière, opérations et équipes de conformité.",
+      "Recommandations d’affaires et de biens pilotées par IA."
+    ],
+    "agentChat": [
+      "Communication instantanée WhatsApp directement depuis Salesforce.",
+      "Alertes, relevés et mises à jour de prêts automatisés.",
+      "Service client en temps réel et interactions via chatbot.",
+      "Demandes sécurisées de documents et de signatures électroniques.",
+      "Rappels et recommandations d’upsell propulsés par IA."
+    ],
+    "agentforceData": [
+      "Bots IA pour l’intégration client, le traitement des prêts et le conseil en gestion de patrimoine.",
+      "Détection de fraude et suivi de conformité en temps réel.",
+      "Gestion des dossiers et workflows de service alimentés par IA.",
+      "Collaboration fluide entre IA et agents humains.",
+      "Analyses avancées basées sur les données et recommandations d’actions suivantes."
+    ],
+    "salesforceData": [
+      "Accès aux données sans copie — profils clients unifiés sans duplication.",
+      "Écosystèmes de données connectés entre Salesforce, SAP et plateformes financières.",
+      "Architecture de data lakehouse compatible avec l’IA.",
+      "Informations en temps réel et parcours clients hyper-personnalisés.",
+      "Conformité réglementaire renforcée et analyses de risques."
+    ],
+    "howWeDeliverData": [
+      "Analystes commerciaux certifiés Salesforce et experts en services financiers.",
+      "Chefs de projet certifiés PMP et Scrum pour une livraison agile et transparente.",
+      "Architectes de solutions et leads techniques dédiés.",
+      "Améliorations continues, mises à jour de conformité et optimisation des performances.",
+      "Support global 24/7 avec équipes locales et offshore."
+    ],
+    "whyRialtesData": [
+      "150+ certifications Salesforce, incluant Financial Services Cloud, Data Cloud et Agentforce.",
+      "Expertise approfondie dans la banque, la gestion de patrimoine, le crédit, l’assurance et la gestion d’actifs.",
+      "Leadership en IA et Agentforce pour une expérience client de nouvelle génération.",
+      "Livraison mondiale avec présence aux États-Unis, Canada, Singapour et Inde.",
+      "AgentChat et Agentforce AI inclus pour un engagement client plus rapide et intelligent."
+    ],
+    "deepDiveData": [
+      {
+        "id": "1",
+        "title": "Module Banque de détail",
+        "subtitle": "Personnaliser les expériences bancaires quotidiennes",
+        "dataList": [
+          "Intégration client fluide et automatisation KYC.",
+          "Recommandations de produits personnalisées grâce à l’IA.",
+          "Profils clients à 360 degrés et tableaux de bord de service unifiés.",
+          "Parcours bancaires mobiles intégrés et portails en libre-service.",
+          "Workflows bancaires sans agence pour une meilleure portée client."
+        ],
+        "deskImg": "/images/services/rial-finance/retail-banking-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
+      },
+      {
+        "id": "2",
+        "title": "Module Banque commerciale",
+        "subtitle": "La banque relationnelle pour les entreprises modernes",
+        "dataList": [
+          "Tableaux de bord des chargés de clientèle et pipelines intelligents.",
+          "Évaluation des risques et automatisation de l’analyse de crédit.",
+          "Solutions de trésorerie d’entreprise et gestion de liquidités.",
+          "Workflows d’initiation et d’approbation des prêts.",
+          "Onboarding client fluide et services de compte."
+        ],
+        "deskImg": "/images/services/rial-finance/commercial-banking-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
+      },
+      {
+        "id": "3",
+        "title": "Module Prêts et Hypothèques",
+        "subtitle": "Simplifier les parcours de crédit",
+        "dataList": [
+          "Workflows entièrement digitaux pour l’initiation et le traitement des prêts.",
+          "Vérification documentaire et souscription pilotées par IA.",
+          "Processus KYC/AML intégrés à la conformité.",
+          "Offres de taux personnalisées et pré-qualifications.",
+          "Libre-service client pour suivi et gestion des demandes."
+        ],
+        "deskImg": "/images/services/rial-finance/mortgage-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/mortgage-mob.webp"
+      },
+      {
+        "id": "4",
+        "title": "Module Gestion de patrimoine",
+        "subtitle": "Redéfinir le conseil en gestion de patrimoine",
+        "dataList": [
+          "Vues clients et ménages à 360 degrés.",
+          "Portefeuilles d’investissement personnalisés et recommandations.",
+          "Profilage des risques et modélisation d’événements de vie par IA.",
+          "Planification financière intégrée et suivi des objectifs.",
+          "Portails de collaboration pour conseillers et rapports automatisés."
+        ],
+        "deskImg": "/images/services/rial-finance/wealth-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/wealth-mob.webp"
+      },
+      {
+        "id": "5",
+        "title": "Module Agences & Courtiers",
+        "subtitle": "Donner aux agents les outils pour réussir",
+        "dataList": [
+          "Automatisation de l’onboarding des agents et courtiers.",
+          "Gestion des leads et recommandations de polices pilotées par IA.",
+          "Suivi en temps réel des commissions et règlements.",
+          "Gestion intégrée des polices et des sinistres.",
+          "Plateformes de collaboration courtiers-négociants."
+        ],
+        "deskImg": "/images/services/rial-finance/agencies-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/agencies-mob.webp"
+      },
+      {
+        "id": "6",
+        "title": "Banque d’Entreprise & d’Investissement avec Avantages Collectifs",
+        "subtitle": "Des solutions personnalisées pour entreprises",
+        "dataList": [
+          "Gestion des transactions et insights pipeline pilotés par IA.",
+          "Administration des avantages collectifs centrée client.",
+          "Workflows avancés d’onboarding clients corporate.",
+          "Tableaux de bord de gestion des risques et conformité.",
+          "Intégration avec ERP et plateformes de trésorerie."
+        ],
+        "deskImg": "/images/services/rial-finance/corporate-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/corporate-mob.webp"
+      },
+      {
+        "id": "7",
+        "title": "Module Gestion d’actifs",
+        "subtitle": "Moderniser le cycle de vie des actifs et les services clients",
+        "dataList": [
+          "Onboarding client et conformité KYC.",
+          "Suivi de performance de portefeuille propulsé par IA.",
+          "Rapports réglementaires et divulgations automatisés.",
+          "Communications et portails investisseurs personnalisés.",
+          "Tableaux de bord d’analyses de performance et de risques."
+        ],
+        "deskImg": "/images/services/rial-finance/asset-desk.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/asset-mob.webp"
+      }
+    ],
+    "headerTitle": "RialFinance+",
+    "headerSubTitle": "Renforcer les services financiers avec RialFinance+",
+    "headerSubTitle2": "Solutions Salesforce transformatrices pour l’avenir de la finance",
+    "pageDescTitle": "Services financiers propulsés par IA.",
+    "pageDescTitle2": "Parcours clients personnalisés.",
+    "pageDescTitle3": "Engagement omnicanal fluide.",
+    "pageDesc": "Chez Rialtes, nous permettons aux institutions financières d’innover avec confiance et transparence. Nos services gérés RialFinance+ offrent conseil, mise en œuvre, personnalisation, intégration IA et support post-déploiement, le tout unifié pour transformer votre expérience Salesforce Financial Services Cloud (FSC).",
+    "pageDesc2": "Avec une expertise approfondie en banque, gestion de patrimoine, crédit, gestion d’actifs, assurance et courtage, et des bureaux aux États-Unis, Canada, Singapour et Inde, Rialtes est un partenaire certifié Salesforce offrant des solutions modernes, conformes et prêtes pour l’IA.",
+    "startWithTitle": "Commencez par l’adoption d’Agentforce",
+    "startWithSubTitle": "Améliorer l’expérience client dans les services financiers",
+    "startWithDesc": "Agentforce, l’assistant IA révolutionnaire de Salesforce, transforme la relation client-agent dans les services financiers. Rialtes facilite l’adoption d’Agentforce grâce à :",
+    "startWithBlueBox": "Adoptez l’IA en toute confiance — propulsé par l’expertise de Rialtes en services financiers.",
+    "introducingTitle": "Présentation",
+    "introducingSubTitle": "RialFinance+",
+    "introducingSubTitle2": "Services Salesforce de bout en bout pour l’industrie des services financiers",
+    "introducingDesc": "Notre RialFinance+ combine conseil stratégique, conception de systèmes, mise en œuvre certifiée, assurance qualité, intégrations IA et services gérés continus dans une solution unique et puissante — permettant aux institutions financières de transformer, innover et diriger.",
+    "deepDiveTitle": "Plongée approfondie dans l’expertise Salesforce Financial Services Cloud de Rialtes",
+    "exelonaTitle": "Exelona + Financial Services Cloud",
+    "exelonaSubTitle": "Transformer les services financiers immobiliers",
+    "exelonaDesc": "Notre solution propriétaire Exelona, lorsqu’elle est intégrée avec FSC, révolutionne les sociétés immobilières et de gestion d’actifs en permettant :",
+    "exelonaBlueBox": "Une plateforme intégrée — Immobilier + Services financiers.",
+    "agentChatTitle": "AgentChat",
+    "agentChatSubTitle": "Engagement client en temps réel via WhatsApp (inclus gratuitement avec RialFinance+)",
+    "agentChatDesc": "Avec AgentChat, intégré de manière fluide dans Salesforce FSC, engagez vos clients en temps réel :",
+    "agentChatDesc2": "Inclus GRATUITEMENT avec RialFinance+ — améliorez l’engagement client sans coûts supplémentaires.",
+    "agentForceTitle": "Agentforce",
+    "agentForceSubTitle": "Transformation pilotée par IA pour les services financiers",
+    "agentForceDesc": "Agentforce, avec l’expertise de Rialtes, offre une excellence propulsée par IA :",
+    "agentForceDesc2": "Préparez l’avenir de votre engagement client — avec Agentforce et Rialtes.",
+    "salesforceBlueBox": "Une vue unifiée de votre client. En temps réel. Compatible IA.",
+    "salesforceTitle": "Salesforce Data Cloud & SAP Data Cloud Zero Copy",
+    "salesforceSubTitle": "Profils clients unifiés et compatibles IA",
+    "howWeDeliverTitle": "Notre Méthode de Livraison",
+    "howWeDeliverSubTitle": "Implémentation Salesforce avec experts certifiés",
+    "whyRialtesTitle": "Pourquoi choisir Rialtes pour les services financiers ?",
+    "whyRialtesSubTitle": "Les experts derrière votre succès Salesforce",
+    "contactTitle": "Commencez avec RialFinance+ — Transformez vos services financiers avec IA, Data et Salesforce",
+    "contactSubTitle": "Prêt à préparer l’avenir de votre institution financière et offrir des expériences client nouvelle génération ?",
+    "contactSubTitle2": "Contactez Rialtes pour découvrir RialFinance+ — votre partenaire de transformation financière propulsée par Salesforce."
+  }
+}

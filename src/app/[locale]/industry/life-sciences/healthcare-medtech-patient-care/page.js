@@ -3,7 +3,6 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import { useState } from "react";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Script from "next/script";
@@ -11,12 +10,13 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
-
+import frContent from '../../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 
 export default function Page() {
   const t = useTranslations('healthCare')
   const locale = useLocale();
-  const content = locale === 'es' ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slidesCaseStudy, latestServices, growLatestServices, } = content.healthCare;
   const schemaData = {
     "@context": "https://schema.org",
@@ -145,6 +145,7 @@ export default function Page() {
         <LearnMore />
       </div>
     </div>
+
 
   );
 

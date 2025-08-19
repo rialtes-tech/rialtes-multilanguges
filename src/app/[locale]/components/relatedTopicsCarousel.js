@@ -1,12 +1,13 @@
 "use client";
-
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
-
+import { useTranslations } from "next-intl";
 
 export default function RelatedTopicsCarousel({ slides }) {
+  const t = useTranslations('relatedTopic')
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -30,14 +31,14 @@ export default function RelatedTopicsCarousel({ slides }) {
     const { carouselState: { currentSlide } } = rest;
     return (
       <div className="flex carousel-button-group absolute top-0 lg:right-32 sm:right-4 right-0 md:mt-4">
-        <button   aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
-           <span className="sr-only">Previous slide</span>
+        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+          <span className="sr-only">{t('previousSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
-        <button   aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
-          <span className="sr-only">Next slide</span>
+        <button aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <span className="sr-only">{t('nextSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
           </svg>
@@ -55,13 +56,13 @@ export default function RelatedTopicsCarousel({ slides }) {
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-                aria-label="Custom Dots"
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
 
-      />
+        />
       </li>
     );
   };
@@ -70,7 +71,7 @@ export default function RelatedTopicsCarousel({ slides }) {
     <section className="relative pb-6 bg-white">
       <div className="mb-[36px]">
         <div className="flex flex-row max-md:flex-col justify-between md:mr-24 mr-0">
-          <h2 className="text-black xl:mb-[82px] mb-[40px]">Related <br className="block min-[360px]:hidden"/> Topics</h2>
+          <h2 className="text-black xl:mb-[82px] mb-[40px]">{t('related')} <br className="block min-[360px]:hidden" /> {t('topics')}</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -115,7 +116,7 @@ export default function RelatedTopicsCarousel({ slides }) {
               <div className="flex flex-col  text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                 <div className="flex flex-col">
                   <div><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                  <Link href={'/'+slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
+                  <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-bold">{slide.title}</h5></Link>
 
                 </div>
                 <p className="line-clamp-4">{slide.description}</p>

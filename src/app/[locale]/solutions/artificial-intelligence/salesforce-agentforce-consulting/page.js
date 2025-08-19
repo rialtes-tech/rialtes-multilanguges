@@ -9,8 +9,10 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
-
+import frContent from '../../../../../../messages/fr/solutions.json';
 import Script from "next/script";
+import { changeLocalization } from "../../../components/changeLocalization.js";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -95,10 +97,10 @@ const schemaData = {
     }
 }
 export default function Agentforce() {
-      const t = useTranslations("agentForce");
-      const locale = useLocale();
-      const homepageContent = locale === "es" ? esContent : enContent;
-        const { salesForce, salesForce2 ,agentBlocks, industryBenifite,slides} = homepageContent.agentForce;
+    const t = useTranslations("agentForce");
+    const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { salesForce, salesForce2, agentBlocks, industryBenifite, slides } = content.agentForce;
 
     return (
         <section>
@@ -206,7 +208,7 @@ export default function Agentforce() {
             </section>
             <section className="mt-[60px] md:mt-[70px] lg:mt-[104px] px-6 custom-container">
                 <h2 className="xl:w-[700px] md:w-[700px] 2xl:w-[1000px] 4xl:w-[980px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">
-                   {t('blocksTitle')}</h2>
+                    {t('blocksTitle')}</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 mt-10 xl:gap-16 gap-5 md:gap-12">
                     {agentBlocks.map((block, index) => (
                         <div key={index} className="flex xl:gap-5 gap-2">
@@ -266,11 +268,11 @@ export default function Agentforce() {
             </section>
             <section className="bg-[#F5F5F5] mt-[60px] md:mt-[70px] lg:mt-[94px] py-20">
                 <div className="custom-container px-6 lg:pr-0">
-                <FeaturedCarousel />
+                    <FeaturedCarousel />
                 </div>
             </section>
             <div className="mt-[60px] md:mt-[70px] lg:mt-[94px] mb-20 custom-container lg:pr-0">
-                <ServicesBlogs slides={slides}/>
+                <ServicesBlogs slides={slides} />
             </div>
             <section className='px-6 custom-container lg:pr-0 lg:mt-20 bg-[#808080] pb-20 mt-10 py-20'>
                 <ExploreMoreCarousel />

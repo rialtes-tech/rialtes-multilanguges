@@ -1,0 +1,276 @@
+{
+    "webinarComponent": {
+        "speakerTitle": "Ponente",
+        "inThisWebinarTitle": "En este seminario web, obtendrás:",
+        "whotShouldAttendTitle": "¿Quién debería asistir?",
+        "watchNowBtn": "Ver ahora",
+        "howToJoinTitle": "Cómo unirse:",
+        "howToJoinData1": "Una vez registrado, recibirás un correo de confirmación con el enlace de acceso al seminario web e instrucciones.",
+        "howToJoinData2": "¿No puedes asistir?",
+        "howToJoinData3": "¡No hay problema! Regístrate de todos modos y te enviaremos una grabación del seminario web para que la veas cuando te convenga.",
+        "howToJoinData4": "Para consultas, por favor contacta a sales@rialtes.com."
+    },
+    "webinarForm": {
+        "formTitle": "Por favor, complete el formulario para ver el seminario web",
+        "company": "Empresa*",
+        "email": "Correo electrónico*",
+        "emailError1": "El correo electrónico es obligatorio.",
+        "emailError2": "Dirección de correo electrónico no válida.",
+        "fname": "Nombre*",
+        "fnameError1": "El nombre es obligatorio.",
+        "fnameError2": "El nombre contiene caracteres no válidos.",
+        "fnameError3": "El nombre no debe exceder los 40 caracteres.",
+        "lname": "Apellido*",
+        "lnameError1": "El apellido es obligatorio.",
+        "lnameError2": "El apellido contiene caracteres no válidos.",
+        "lnameError3": "El apellido no debe exceder los 40 caracteres.",
+        "phone": "Teléfono",
+        "role": "Cargo*",
+        "enterCaptcha": "Ingrese el Captcha",
+        "captchaMsg": "Ingresa el resultado de la ecuación que se muestra arriba",
+        "watchWebinar": "Ver seminario web",
+        "captchaError1": "El captcha es obligatorio.",
+        "captchaError2": "Respuesta de captcha incorrecta. Por favor, inténtalo de nuevo."
+    },
+    "CIGWebinar": {
+        "webinarTitle": "CIG, tu puerta de entrada a SAP Ariba",
+        "webinarInfo": "Únete a nuestro seminario web exclusivo para descubrir cómo el Ariba Cloud Integration Gateway (CIG) conecta sin problemas tu SAP ERP (S/4HANA) con la Red Ariba. Descubre cómo CIG centraliza y agiliza las transacciones de compras, simplifica la gestión de integraciones y acelera tu camino hacia operaciones de adquisiciones más inteligentes y sincronizadas.",
+        "webinarAdvantagesData": [
+            {
+                "title": "Integración simplificada:",
+                "data": "Cómo CIG conecta SAP ERP y Ariba sin esfuerzo."
+            },
+            {
+                "title": "Arquitectura de CIG:",
+                "data": "Explora los componentes clave y cómo funcionan juntos."
+            },
+            {
+                "title": "Portal de autoservicio:",
+                "data": "Aprende a configurar, probar y monitorear integraciones."
+            },
+            {
+                "title": "Casos de uso reales:",
+                "data": "Ejemplos prácticos de cómo las organizaciones se benefician de CIG."
+            },
+            {
+                "title": "Mejores prácticas de implementación:",
+                "data": "Consejos para una implementación más rápida y una gestión eficaz de errores."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Líderes de compras",
+            "Gerentes de abastecimiento",
+            "Responsables de decisiones de TI",
+            "Consultores técnicos de SAP",
+            "Consultores funcionales de SAP",
+            "Cualquier persona que busque simplificar y optimizar las integraciones de SAP Ariba"
+        ]
+    },
+    "successFactorWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Introducción a SAP SuccessFactors Onboarding 2.0:",
+                "data": "Comprende cómo Onboarding 2.0 transforma la experiencia de los nuevos empleados desde el pre-onboarding hasta alcanzar la productividad."
+            },
+            {
+                "title": "Características Clave y Análisis Comparativo:",
+                "data": "Explora lo nuevo en Onboarding 2.0 frente a la versión 1.0, incluyendo flujos de tareas más inteligentes, mejor personalización y una experiencia de usuario mejorada."
+            },
+            {
+                "title": "Flujo de Trabajo Paso a Paso e Implementación:",
+                "data": "Obtén una hoja de ruta clara del proceso de implementación de ONB 2.0, desde la configuración hasta el lanzamiento en vivo."
+            },
+            {
+                "title": "Integración Perfecta con Employee Central:",
+                "data": "Descubre cómo una integración profunda garantiza la consistencia de los datos y procesos de RRHH más fluidos."
+            },
+            {
+                "title": "Gestión de Tareas Inteligente y Herramientas Digitales:",
+                "data": "Aprende cómo los tableros, las firmas electrónicas y la automatización de tareas mejoran el proceso de incorporación."
+            },
+            {
+                "title": "Mayor Control Administrativo y Personalización:",
+                "data": "Desbloquea nuevos niveles de flexibilidad con reglas de negocio avanzadas, notificaciones y flujos de trabajo personalizados."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Líderes y profesionales de RRHH",
+            "Especialistas en adquisición de talento",
+            "Gerentes de contratación",
+            "Usuarios y administradores de SAP SuccessFactors",
+            "Consultores técnicos de SAP"
+        ],
+        "webinarTitle": "Novedades de SAP SuccessFactors Onboarding 2.0",
+        "webinarInfo": "Descubre una forma más eficiente de incorporar empleados. Únete a nosotros en un seminario web informativo que muestra las últimas mejoras de SAP SuccessFactors Onboarding 2.0, enfocadas en mejorar la experiencia del nuevo empleado desde el pre-onboarding hasta el primer día y más allá, destacando cómo transforma y optimiza el proceso de incorporación en comparación con su predecesor, SAP Onboarding 1.0."
+    },
+    "voyageWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Simplifica la Transformación de SAP:",
+                "data": "Cómo un enfoque integrado elimina la complejidad."
+            },
+            {
+                "title": "Acelera la Adopción de la Nube:",
+                "data": "Estrategias para migrar más rápido e inteligentemente minimizando la deuda técnica."
+            },
+            {
+                "title": "Reimaginación de Procesos con SAP Signavio:",
+                "data": "Desbloquea nuevas eficiencias y oportunidades de innovación."
+            },
+            {
+                "title": "Aprovecha la IA y la Automatización:",
+                "data": "Mejora tus operaciones SAP con flujos de trabajo más inteligentes y autónomos."
+            },
+            {
+                "title": "Demostración en Vivo:",
+                "data": "Observa el marco Voyager+ en acción, apoyando una transición fluida con RISE with SAP."
+            }
+        ],
+        "whoShouldAttendData": [
+            "CIOs y Líderes de TI",
+            "Líderes de Transformación Digital",
+            "Consultores Técnicos de SAP",
+            "Consultores Funcionales de SAP",
+            "Arquitectos Empresariales",
+            "Cualquiera que esté planificando o acelerando su transformación con RISE with SAP"
+        ],
+        "webinarTitle": "Viaje con SAP – Servicios Transformacionales RISE with SAP de Rialtes",
+        "webinarInfo": "No te pierdas esta oportunidad de unirte a nosotros en un seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con el cliente en la industria automotriz. Descubre cómo tus equipos pueden dirigir cada interacción con el cliente utilizando datos, IA y automatización, desde el lead hasta la lealtad, todo dentro de una plataforma conectada."
+    },
+    "discoverAgenticWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "¿Qué es Agentforce?",
+                "data": "Comprende los fundamentos de la IA agentica y cómo Agentforce se diferencia de los bots tradicionales."
+            },
+            {
+                "title": "Ejecución Autónoma de Tareas:",
+                "data": "Descubre cómo los agentes inteligentes pueden completar tareas sin intervención manual."
+            },
+            {
+                "title": "Interacciones Contextuales y Humanas:",
+                "data": "Explora cómo Agentforce entiende el contexto, mantiene la memoria conversacional y se comunica de forma natural y personalizada."
+            },
+            {
+                "title": "Integración Perfecta con tu Ecosistema Tecnológico:",
+                "data": "Descubre cómo Agentforce se integra fácilmente con tu ecosistema de Salesforce y otras herramientas empresariales."
+            },
+            {
+                "title": "Impacto Real y Capacidades Adicionales:",
+                "data": "Conoce cómo Agentforce genera valor medible en diversas industrias y explora funciones adicionales como soporte multicanal e información impulsada por IA."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Líderes empresariales",
+            "Equipos de Innovación e IA",
+            "Responsables de decisiones de TI",
+            "Administradores y consultores de Salesforce",
+            "Equipos de innovación y transformación digital",
+            "Cualquier persona que busque potenciar flujos de trabajo con soluciones inteligentes de IA agentica"
+        ],
+        "webinarTitle": "Descubre las Capacidades Agenticas de Agentforce",
+        "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, todo dentro de una plataforma conectada."
+    },
+    "databricksWebinar": {
+        "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, todo dentro de una plataforma conectada.",
+        "webinarTitle": "Databricks y Datasphere — ¿Qué ofrece SAP Business Data Cloud?",
+        "webinarAdvantagesData": [
+            {
+                "title": "Desafío de Datos Modernos:",
+                "data": "Comprende las complejidades actuales de los datos empresariales y cómo la visión en la nube de SAP las aborda."
+            },
+            {
+                "title": "Capacidades Clave:",
+                "data": "Profundiza en las características de Databricks y SAP Datasphere, y cómo se comparan."
+            },
+            {
+                "title": "Integración Perfecta:",
+                "data": "Explora cómo SAP Datasphere y Databricks se integran con los sistemas SAP y entre sí."
+            },
+            {
+                "title": "Factores Estratégicos de Decisión:",
+                "data": "Obtén un marco claro para definir tu estrategia de datos usando SAP Business Data Cloud."
+            },
+            {
+                "title": "Demostración en Vivo:",
+                "data": "Presencia cómo los datos unificados pueden desbloquear conocimientos impulsados por IA en tiempo real."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Ingenieros y Arquitectos de Datos",
+            "Responsables de Decisiones de TI",
+            "Administradores y Consultores de SAP",
+            "Líderes de Analítica e Inteligencia de Negocio",
+            "Equipos de Innovación y Transformación Digital",
+            "Cualquier persona que busque unificar los datos empresariales y potenciar iniciativas de IA"
+        ]
+    },
+    "deliverEndToEndWebinar": {
+        "webinarAdvantagesData": [
+            {
+                "title": "Descripción General Integral:",
+                "data": "Comprende las capacidades clave de Salesforce Automotive Cloud y cómo respalda un recorrido del cliente conectado en el sector automotriz."
+            },
+            {
+                "title": "Introducción a Automotive Cloud:",
+                "data": "Conoce cómo la plataforma aborda desafíos específicos de la industria y casos de uso adaptados a fabricantes de automóviles, concesionarios y proveedores de servicios de movilidad."
+            },
+            {
+                "title": "Perspectivas Clave y Escenarios de Interesados:",
+                "data": "Explora cómo diversos actores, desde ventas hasta servicio, pueden aprovechar Automotive Cloud para una interacción personalizada y una colaboración fluida."
+            },
+            {
+                "title": "Datos Unificados del Cliente:",
+                "data": "Descubre cómo puedes unificar cada punto de contacto en ventas, servicio, marketing y soporte postventa para obtener una vista de 360° del cliente."
+            },
+            {
+                "title": "Ventas y Servicios Eficientes:",
+                "data": "Experimenta flujos de trabajo más inteligentes y automatización que mejoran los tiempos de respuesta, reducen fricciones y aumentan las conversiones."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Líderes de Ventas y Servicios Automotrices",
+            "Responsables de CRM y Transformación Digital",
+            "Propietarios y Operadores de Concesionarios",
+            "Equipos de TI de Fabricantes de Automóviles",
+            "Administradores y Consultores de Salesforce",
+            "Cualquier persona que busque ofrecer experiencias excepcionales al cliente en la industria automotriz"
+        ],
+        "webinarTitle": "Ofrece un Recorrido de Cliente de Extremo a Extremo con Salesforce Automotive Cloud",
+        "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, desde el primer contacto hasta la fidelización, todo dentro de una sola plataforma conectada."
+    },
+    "letsWhatsappWebinar": {
+        "webinarTitle": "Hablemos por WhatsApp en Salesforce con AgentChat",
+        "webinarInfo": "No te pierdas este seminario web exclusivo para descubrir cómo AgentChat, nuestra integración nativa y bidireccional de WhatsApp con Salesforce, transforma la manera en que tus equipos se comunican directamente dentro de Salesforce. Ya sea en ventas, servicio, marketing u operaciones en campo, AgentChat lleva conversaciones por WhatsApp en tiempo real y sin interrupciones a tu entorno CRM.",
+        "webinarAdvantagesData": [
+            {
+                "title": "Compatibilidad Multinube:",
+                "data": "Cómo funciona AgentChat en todas las nubes de Salesforce: desde Ventas y Servicio hasta Marketing y Operaciones en Campo."
+            },
+            {
+                "title": "Tiempos de Respuesta Más Rápidos:",
+                "data": "Reduce demoras y cierra conversaciones más rápidamente."
+            },
+            {
+                "title": "Automatización de Flujos de Trabajo:",
+                "data": "Activa tareas, alertas y registros según las acciones en el chat."
+            },
+            {
+                "title": "Funciones y Beneficios:",
+                "data": "Explora las capacidades clave de AgentChat y el impacto real que generan."
+            },
+            {
+                "title": "Demostración en Vivo:",
+                "data": "Mira AgentChat en acción y cómo la integración de WhatsApp con Salesforce se adapta a tu configuración actual."
+            }
+        ],
+        "whoShouldAttendData": [
+            "Administradores y Desarrolladores de Salesforce",
+            "Líderes de Equipos de Ventas y Servicio",
+            "Gerentes de Experiencia del Cliente",
+            "Gerentes de Operaciones en Campo",
+            "Profesionales de CRM y Marketing",
+            "Cualquier persona que busque mejorar la interacción con los clientes dentro de Salesforce"
+        ]
+    }
+}

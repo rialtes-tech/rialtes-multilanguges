@@ -1,15 +1,18 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/aboutus.json';
-import esContent from '../../../../../messages/es/aboutus.json';
+import esContent from '../../../../../messages/es/aboutus.json'
+import frContent from '../../../../../messages/fr/aboutus.json'
+
 export default function Contact() {
     const t = useTranslations('globalAlliance')
     const locale = useLocale();
-    const globalAllianceContent = locale === "es" ? esContent : enContent;
-    const {approachData} = globalAllianceContent.globalAlliance;
-    
+    const globalAllianceContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { approachData } = globalAllianceContent.globalAlliance;
+
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -216,7 +219,7 @@ export default function Contact() {
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 "
-                       style={{ objectFit: "cover" }}
+                        style={{ objectFit: "cover" }}
 
                     />
                 </div>
@@ -226,7 +229,7 @@ export default function Contact() {
                         src="/images/partners/partner 1.webp"
                         alt="mobile banner"
                         fill
-                         style={{ objectFit: "cover", objectPosition: "70% 50%" }}
+                        style={{ objectFit: "cover", objectPosition: "70% 50%" }}
 
                         priority
                     />

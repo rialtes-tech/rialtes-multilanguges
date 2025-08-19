@@ -13,7 +13,6 @@
     "learnMore": "Learn More",
     "ourTitle": "Our Culture & Values",
     "ourDesc": "Chasing perfection is in our DNA.",
-
     "latestServices": [
       {
         "id": 1,
@@ -56,22 +55,40 @@
         "image": "/images/about-us/trust.svg",
         "label": "Trust",
         "alt": "Trust Principle Icon",
-        "width": { "base": 135, "xl": 177 },
-        "height": { "base": 135, "xl": 177 }
+        "width": {
+          "base": 135,
+          "xl": 177
+        },
+        "height": {
+          "base": 135,
+          "xl": 177
+        }
       },
       {
         "image": "/images/about-us/transperancy.svg",
         "label": "Transparency",
         "alt": "Transparency Principle Icon",
-        "width": { "base": 150, "xl": 192 },
-        "height": { "base": 150, "xl": 192 }
+        "width": {
+          "base": 150,
+          "xl": 192
+        },
+        "height": {
+          "base": 150,
+          "xl": 192
+        }
       },
       {
         "image": "/images/about-us/commitment.svg",
         "label": "Commitment",
         "alt": "Commitment Principle Icon",
-        "width": { "base": 150, "xl": 192 },
-        "height": { "base": 150, "xl": 192 }
+        "width": {
+          "base": 150,
+          "xl": 192
+        },
+        "height": {
+          "base": 150,
+          "xl": 192
+        }
       }
     ],
     "missionCards": [
@@ -95,7 +112,6 @@
       }
     ]
   },
-
   "ourValue": {
     "growLatestServices": [
       {
@@ -147,75 +163,85 @@
         "className": "xl:w-[150px] w-[124px]"
       }
     ],
-        "cultureTitle": "Culture and Values",
-        "growthTitleOne": "Building a growth",
-        "growthTitleTwo": "mindset. Each day.",
-        "valueTitle": "Our Value System.",
-        "valueSubtitle": "Every day, every one of us work with our core values.",
-        "businessTitleOne": " Business run on Trust, Grows on Transparency",
-        "businessTitleTwo": "ONLY if we deliver on",
-        "businessTitleThree": "our commitments",
-        "employeeTitle": "Employee affinity groups",
-        "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
+    "cultureTitle": "Culture and Values",
+    "growthTitleOne": "Building a growth",
+    "growthTitleTwo": "mindset. Each day.",
+    "valueTitle": "Our Value System.",
+    "valueSubtitle": "Every day, every one of us work with our core values.",
+    "businessTitleOne": " Business run on Trust, Grows on Transparency",
+    "businessTitleTwo": "ONLY if we deliver on",
+    "businessTitleThree": "our commitments",
+    "employeeTitle": "Employee affinity groups",
+    "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
   },
-
-  "impact":{
-        "impactTitle": "Social Impact",
-        "impactSubtitle": "Sustainability with",
-        "impactSubtitleOne": "Responsible AI",
-        "rialtesTitle": "Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.",
-        "rialtesSubtitle": "We care. We take actions.",
-        "innovationTitle": "Rialtes Innovation Foundation",
-        "innovationDesc": "At Rialtes Foundation, we believe in creating impact beyond business.",
-        "innovationDescOne": "Through our charity initiatives in India, we focus on uplifting underprivileged communities, supporting girl child education, and helping children in need access better opportunities.",
-        "innovationDescTwo": "Empowering lives and building a better future remains at the heart of who we are.",
-        "effortsTitle": "ESG Efforts",
-        "effortsDesc": "At Rialtes, we are deeply committed to sustainability and climate action.",
-        "effortsDescOne": "As proud member of the 1t.org initiative, we actively contribute to the global mission of planting 1 trillion trees. Our vision includes achieving net-zero operations, reducing our environmental footprint, and driving impactful climate initiatives.",
-        "effortsDescTwo": "Building a greener, more sustainable future is at the core of our values and actions",
-        "aiTitle": "AI Impact for Future",
-        "aiDesc": "At Rialtes, we are committed to shaping the future workforce through our flagship program, ‘AI4Future’, focused on training and certifying 500+ graduate trainees in leading global AI  certifications.",
-        "aiDescOne": "We aim to bridge the AI skills gap and create opportunities for the next generation of innovators.",
-        "aiDescTwo": " ‘AI4Future’ reflects our dedication to building future-ready professionals and fostering inclusive growth.",
-        "revenueTitle": "1 % of revenue",
-        "revenueDesc": "committed to social work",
-        "treesDesc": "Committed to planting",
-        "treesTitle": "1 trillion trees",
-        "certifiedTitle": "500+ AI Certified",
-        "certifiedDesc": "professionals every six months",
-        "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
+  "impact": {
+    "impactTitle": "Social Impact",
+    "impactSubtitle": "Sustainability with",
+    "impactSubtitleOne": "Responsible AI",
+    "rialtesTitle": "Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.",
+    "rialtesSubtitle": "We care. We take actions.",
+    "innovationTitle": "Rialtes Innovation Foundation",
+    "innovationDesc": "At Rialtes Foundation, we believe in creating impact beyond business.",
+    "innovationDescOne": "Through our charity initiatives in India, we focus on uplifting underprivileged communities, supporting girl child education, and helping children in need access better opportunities.",
+    "innovationDescTwo": "Empowering lives and building a better future remains at the heart of who we are.",
+    "effortsTitle": "ESG Efforts",
+    "effortsDesc": "At Rialtes, we are deeply committed to sustainability and climate action.",
+    "effortsDescOne": "As proud member of the 1t.org initiative, we actively contribute to the global mission of planting 1 trillion trees. Our vision includes achieving net-zero operations, reducing our environmental footprint, and driving impactful climate initiatives.",
+    "effortsDescTwo": "Building a greener, more sustainable future is at the core of our values and actions",
+    "aiTitle": "AI Impact for Future",
+    "aiDesc": "At Rialtes, we are committed to shaping the future workforce through our flagship program, ‘AI4Future’, focused on training and certifying 500+ graduate trainees in leading global AI  certifications.",
+    "aiDescOne": "We aim to bridge the AI skills gap and create opportunities for the next generation of innovators.",
+    "aiDescTwo": " ‘AI4Future’ reflects our dedication to building future-ready professionals and fostering inclusive growth.",
+    "revenueTitle": "1 % of revenue",
+    "revenueDesc": "committed to social work",
+    "treesDesc": "Committed to planting",
+    "treesTitle": "1 trillion trees",
+    "certifiedTitle": "500+ AI Certified",
+    "certifiedDesc": "professionals every six months",
+    "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
   },
-  "globalAlliance":{
-        "headerTitle": "Our Partners",
-        "headerSubTitle": "Global Alliances",
-        "ourTitle": "Our Strategic Partners",
-        "ourDesc": "Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.",
-        "approachTitle": "Our Approach",
-        "keyTitle": "Key Partnerships",
-        "regionalTitle": "Regional Partnerships",
-        "allTitle": "All Partnerships",
-        "approachData" :[
-        {
-            "src": "/images/partners/our1.png",
-            "alt": "Leadership Team",
-            "texts": ["Strategic", "orchestration"]
-        },
-        {
-            "src": "/images/partners/our2.png",
-            "alt": "Leadership Team",
-            "texts": ["Client-first", "customization"]
-        },
-        {
-            "src": "/images/partners/our3.png",
-            "alt": "Leadership Team",
-            "texts": ["Industry-specific", "solutions"]
-        },
-        {
-            "src": "/images/partners/our4.png",
-            "alt": "Leadership Team",
-            "texts": ["Vendor-agnostic", "partnerships"]
-        }
+  "globalAlliance": {
+    "headerTitle": "Our Partners",
+    "headerSubTitle": "Global Alliances",
+    "ourTitle": "Our Strategic Partners",
+    "ourDesc": "Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.",
+    "approachTitle": "Our Approach",
+    "keyTitle": "Key Partnerships",
+    "regionalTitle": "Regional Partnerships",
+    "allTitle": "All Partnerships",
+    "approachData": [
+      {
+        "src": "/images/partners/our1.png",
+        "alt": "Leadership Team",
+        "texts": [
+          "Strategic",
+          "orchestration"
+        ]
+      },
+      {
+        "src": "/images/partners/our2.png",
+        "alt": "Leadership Team",
+        "texts": [
+          "Client-first",
+          "customization"
+        ]
+      },
+      {
+        "src": "/images/partners/our3.png",
+        "alt": "Leadership Team",
+        "texts": [
+          "Industry-specific",
+          "solutions"
+        ]
+      },
+      {
+        "src": "/images/partners/our4.png",
+        "alt": "Leadership Team",
+        "texts": [
+          "Vendor-agnostic",
+          "partnerships"
+        ]
+      }
     ]
   }
-
 }

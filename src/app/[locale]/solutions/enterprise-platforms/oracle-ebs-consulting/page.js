@@ -7,6 +7,8 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -128,7 +130,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('oracle')
   const locale = useLocale();
-  const homepageContent = locale === 'es' ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { data, InventoryData, oracleFeatures, ebsListItems, keyCapabilitiesData, businessBenefitsData, howWeTransformData, outcomeData, endToEndData, realWorldData,
     aiDrivenData, ebsData
   } = homepageContent.oracle;

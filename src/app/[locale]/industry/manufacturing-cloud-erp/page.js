@@ -4,10 +4,7 @@ import ContactForm from "../../components/contactform"
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import Seo from "@/app/[locale]/components/Seo";
-import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../messages/en/solutions.json';
-import esContent from '../../../../../messages/es/solutions.json';
-
+import { useTranslations } from "next-intl";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -125,11 +122,8 @@ const schemaData = {
   }
 }
 export default function Page() {
-    const t = useTranslations('manufacturing')
-    const locale = useLocale();
-    // const manufacturingContent = locale === 'es' ? esContent : enContent;
-    // const {  } = manufacturingContent.manufacturing;
-  
+  const t = useTranslations('manufacturing')
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -152,7 +146,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-            style={{objectFit: "cover", objectPosition: "75% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
 
           />
         </div>
@@ -163,7 +157,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-             style={{objectFit: "cover" }}
+            style={{ objectFit: "cover" }}
 
           />
         </div>
@@ -172,7 +166,7 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12 xl:pr-0  md:pr-0 mt-20">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2 mt-10">{t('headerTitle')}</h3>
               <h1 className="text-white  leading-tight mt-5 pr-10 xl:pr-0 4xl:text-[60px] xl:text-[45px] text-[26px]">
-               {t('headerSubTitleOne')}
+                {t('headerSubTitleOne')}
               </h1>
               <h3 className="4xl:text-[40px] xl:text-[20px] mt-10 text-white font-bold text-[18px] leading-tight">{t('headerSubTitleTwo')}</h3>
             </div>
@@ -197,10 +191,10 @@ export default function Page() {
           <Image
             src="/images/industry/manufacture/thoughts.webp"
             alt="thought leadership image"
-            fill  
+            fill
             priority
             sizes="100vw"
-            style={{objectFit: "cover", objectPosition: "75% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
           />
         </div>
         <div className="xl:hidden block h-[625px]">
@@ -212,7 +206,7 @@ export default function Page() {
             width={0}
             height={0}
             className="w-full h-full"
-            style={{objectFit: "cover", objectPosition: "75% 60%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 60%" }}
           />
         </div>
         <div className="custom-container h-full relative xl:block hidden ">
@@ -241,7 +235,7 @@ export default function Page() {
             fill
             priority
             className="custom-container xl:!pr-0"
-            style={{objectFit: "cover"}}
+            style={{ objectFit: "cover" }}
             sizes="100vw"
           />
         </div>
@@ -289,7 +283,7 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('preSubtitle')}</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">{t('preDesc')}</p>
             <div className="xl:bottom-0">
-              <LearnMore/>
+              <LearnMore />
             </div>
           </div>
         </div>
@@ -314,12 +308,12 @@ export default function Page() {
           <div className="xl:col-span-5 col-span-12 xl:mx-0 order-2 xl:order-1">
             <h2 className="leading-tight mt-10 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('discreteTitle')}</h2>
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
-             {t('discreteSubTitle')}
+              {t('discreteSubTitle')}
             </h3>
             <p className="mt-5 xl:mb-10 font-normal 4xl:pr-24 pr-5 leading-tight xl:pr-10 4xl:text-[20px] xl:text-[18px]">
-            {t('discreteDesc')}</p>
+              {t('discreteDesc')}</p>
             <div className="xl:bottom-0">
-              <LearnMore/>
+              <LearnMore />
             </div>
           </div>
         </div>
@@ -352,7 +346,7 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12 xl:pt-8 xl:px-16 xl:mt-0 p-10 xl:p-0 mt-[30rem]  xl:pb-16 xl:mx-0 bg-[#0098D1] opacity-[0.9]">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('processTitle')}</h2>
               <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold  leading-tight">
-               {t('processSubtitle')}</h3>
+                {t('processSubtitle')}</h3>
               <p className="mt-5 font-light pr-10 leading-tight xl:pr-0">{t('processDesc')} </p>
             </div>
           </div>
@@ -376,10 +370,10 @@ export default function Page() {
             <div className="custom-container xl:!pr-0">
               <h2 className="leading-tight mt-10 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('repetitiveTitle')}</h2>
               <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
-               {t('repetitiveSubtitle')}
+                {t('repetitiveSubtitle')}
               </h3>
               <p className="mt-5 xl:mb-5 font-normal xl:pr-10 4xl:text-[20px] xl:text-[18px] text-[16px]">
-               {t('repetitiveDesc')}
+                {t('repetitiveDesc')}
               </p>
               <div>
                 <LearnMore />
@@ -404,10 +398,10 @@ export default function Page() {
             <div className="bg-[#CA7D12] p-12">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('aiTitle')}</h2>
               <h3 className="4xl:text-[42px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
-               {t('aiSubtitle')}
+                {t('aiSubtitle')}
               </h3>
               <p className="mt-5 xl:mb-5 font-normal xl:pr-10 pr-5 leading-tight">
-               {t('aiDesc')}
+                {t('aiDesc')}
               </p>
             </div>
           </div>
@@ -424,7 +418,7 @@ export default function Page() {
             <div className="bg-[#0963C4] p-12">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('jobTitle')}</h2>
               <h3 className="4xl:text-[42px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
-               {t('jobSubTitle')}
+                {t('jobSubTitle')}
               </h3>
               <p className="mt-5 xl:mb-5 font-normal xl:pr-10 leading-tight">
                 {t('jobDesc')}
@@ -490,7 +484,7 @@ export default function Page() {
             <h2 className="leading-tight pr-16 xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('erpTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('erpSubtitle')}</h3>
             <p className="mt-8 pr-10 font-normal leading-tight">
-             {t('erpDesc')}
+              {t('erpDesc')}
             </p>
           </div>
         </div>
@@ -502,7 +496,7 @@ export default function Page() {
             <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('demandTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('demandSubTitle')}</h3>
             <p className="mt-8 font-light leading-tight">
-             {t('demandDesc')}
+              {t('demandDesc')}
             </p>
           </div>
           <div className="xl:col-span-6 col-span-12 order-1 xl:order-1">
@@ -536,10 +530,10 @@ export default function Page() {
             <h2 className="leading-tight  xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('shapingTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold ">{t('shapingSubtitle')}</h3>
             <p className="mt-8  font-light leading-tight">
-             {t('shapingDesc')}
+              {t('shapingDesc')}
             </p>
             <div className="xl:mt-5 absolute  xl:relative">
-              <LearnMore  />
+              <LearnMore />
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
@@ -586,7 +580,7 @@ export default function Page() {
             <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('sapTitle')} SAP & Salesforce</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('sapSubtitle')} The Power Duo for Intelligent Manufacturing</h3>
             <p className="mt-8 font-normal leading-tight pr-20">
-             {t('sapDesc')}  Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
+              {t('sapDesc')}  Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
             </p>
             <div className="mt-5">
               <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />

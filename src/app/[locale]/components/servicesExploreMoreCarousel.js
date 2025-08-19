@@ -6,11 +6,14 @@ import Carousel from 'react-multi-carousel';
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
+import frContent from '../../../../messages/fr/homepage.json';
+import { changeLocalization } from "./changeLocalization";
+
 
 export default function servicesExploreMoreCarousel() {
   const t = useTranslations("exploreMore");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slides } = homepageContent.exploreMore;
   const responsive = {
     desktop: {
@@ -36,13 +39,13 @@ export default function servicesExploreMoreCarousel() {
     return (
       <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
         <button className={currentSlide === 0 ? 'disable p-2 mr-2 group transition-all duration-300' : 'p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
-          <span className="sr-only">Previous slide</span>
+          <span className="sr-only">{t('previousSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 fill-white group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
         <button className="p-2 group transition-all duration-300" onClick={() => next()}>
-          <span className="sr-only">Next slide</span>
+          <span className="sr-only">{t('nextSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 fill-white group-hover:fill-[#C3C3C3]" />
           </svg>

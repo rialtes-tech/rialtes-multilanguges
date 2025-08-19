@@ -1,11 +1,9 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-;
-import WebinarForm from "@/app/[locale]/components/webinarForm";;
-import Script from "next/script";
-
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/webinars.json';
+import esContent from '../../../../../../messages/es/webinars.json';
+import WebinarComponent from "@/app/[locale]/components/webinarComponent";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -42,217 +40,39 @@ const schemaData = {
 }
 
 export default function () {
-    const sectionRef = useRef(null);
-
- const handleScroll = () => {
-    if (!sectionRef.current) return;
-
-    const getOffset = () => {
-        const width = window.innerWidth;
-        if (width > 1536) return 160; // 2xl+
-        if (width > 1280) return 120; // xl
-        if (width > 768) return 100;  // md
-        return 80; // sm and below
-    };
-
-    const offset = getOffset();
-    const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
-
-    window.scrollTo({
-        top: elementPosition - offset,
-        behavior: 'smooth',
-    });
-};
-    const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-05-13T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
-        const now = new Date();
-        const difference = targetDate - now;
-
-        let timeLeft = {};
-        if (difference > 0) {
-            timeLeft = {
-                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-                hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-                minutes: Math.floor((difference / 1000 / 60) % 60),
-                seconds: Math.floor((difference / 1000) % 60),
-            };
-        } else {
-            timeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
-        }
-
-        return timeLeft;
-    };
-
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
-
-        return () => clearInterval(timer);
-    }, []);
-
-
-    const fullUrl = "https://rialtes.netlify.app/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud"
-
+    const t = useTranslations("databricksWebinar");
+    const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { webinarAdvantagesData, whoShouldAttendData } = content.databricksWebinar
     return (
-        <div className="min-h-screen">
-            <Seo
-                title=" How SAP Business Data Cloud, Databricks & SAP Datasphere Unify Data"
-                description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
-                canonical="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
-            />
-             <Script
-        id="webinar-schema-databricks"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-            <section className="relative  custom-container xl:!pr-0">
-                <Image
-                    src="/images/webinar/Webinar_13 May 25_webinar Banner.webp"
-                    alt="Webinar Header"
-                    priority
-                    className="w-full h-full"
-                    width={0}
-                    height={0}
-                />
-            </section>
-            <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
-                <div className="xl:col-span-7 col-span-12 pb-10">
-                    <div className="flex flex-row gap-6  mt-10">
-                        <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                </div>
-
-                       
-                    </div>
-                    <h1 className="xl:leading-tight mt-10 font-medium xl:font-normal xl:text-[40px] 4xl:text-[60px]">Databricks and Datasphere — What’s in SAP Business Data Cloud?</h1>
-                    <div className="grid xl:grid-cols-12 xl:mt-16 mt-10 xl:gap-10">
-                        <div className="xl:col-span-4 col-span-12">
-                            <Image
-                                src="/images/webinar/Akshay-Kale.webp"
-                                alt="Databricks and Datasphere — What’s in SAP Business Data Cloud?"
-                                priority
-                                className="w-full h-auto"
-                                width={0}
-                                height={0}
-                            />
-                        </div>
-                        <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">
-                            <h3 className="xl:text-[24px] text-[#0092E0]">Speaker</h3>
-                            <h3 className="mt-3 4xl:text-[29px] text-[22px] font-bold mb-3">Akshay Kale</h3>
-                            <h3 className="mt-[-10px] 4xl:text-[24px] xl:text-[20px]">Sr. Managing Director – SAP Services</h3>
-                        </div>
-                    </div>
-                    <p className="mt-16 xl:pr-32">Don’t miss this opportunity to join us for an exclusive webinar to explore how <strong>Salesforce Automotive Cloud</strong> is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.</p>
-
-                    <h3 className="mt-16 text-[#0092E0]">In This Webinar, You'll Get:</h3>
-                    <p className="mt-5 xl:pr-32"><strong>Modern Data Challenge:</strong> Understand today's enterprise data complexities and how SAP’s Cloud Vision addresses them.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Core Capabilities:</strong>Dive into the features of Databricks and SAP Datasphere—and how they compare.</p>
-                    <p className="mt-5"><strong>Seamless Integration:</strong> Explore how SAP Datasphere and Databricks integrate with SAP systems and with each other.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Strategic Decision Factors: </strong> Get a clear framework to shape your data strategy using SAP Business Data Cloud.</p>
-                    <p className="mt-5 xl:pr-32"><strong>Live Demo:</strong> Witness how unified data can unlock AI-driven insights in real time.</p>
-
-                    <h3 className="mt-16 text-[#0092E0]">Who Should Attend?</h3>
-                    <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-6 xl:text-[20px] text-[16px] marker:font-bold font-medium">
-
-                        <li className="pb-2 mt-5">Data Engineers and Architects</li>
-                        <li className="pb-2">IT Decision-Makers</li>
-                        <li className="pb-2">SAP Administrators and Consultants</li>
-                        <li className="pb-2">Analytics and BI Leaders</li>
-                        <li className="pb-2">Innovation and Digital Transformation Teams</li>
-                        <li className="pb-2">Anyone seeking to unify enterprise data and power AI initiatives</li>
-
-                    </ul>
-                    {/* <Link href="https://us06web.zoom.us/webinar/register/WN_l9ckv1LCSI6zhReliozUrw">
-                        <button className="text-white xl:text-[20px] xl:block hidden text-[16px] font-bold p-5 bg-blue-500 mt-8">Watch Now</button>
-
-                    </Link> */}
-
-                </div>
-                <div className="xl:col-span-4 col-span-12 ">
-                    <div className="bg-[#0092E0] xl:h-[490px] xl:w-[532px] xl:pt-20 xl:pl-16 pr-10 pt-10 pl-10 pb-10 text-white">
-                        <h2 className="font-extrabold">13</h2>
-                        <h3>May 2025</h3>
-                        <h3 className="font-medium mt-8">10:00 AM CST | 8.30 PM IST</h3>
-                        <h3 className="font-medium mt-3">11 AM EST | 8 AM PST</h3>
-                        <div onClick={handleScroll}>
-                            <button className="text-[#0092E0] xl:text-[20px] text-[16px] font-bold p-5 bg-white mt-8">Watch Now</button>
-
-                        </div>
-
-                    </div>
-                    {/* <p className="mt-10">Webinar Starting In</p>
-                    <div className="flex items-center gap-4 xl:text-3xl text-2xl font-bold xl:mt-10 mt-5 border-b pb-10">
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.days).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Days</span>
-                        </div>
-                        <span className="text-black font-normal">:</span>
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.hours).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Hrs</span>
-                        </div>
-                        <span className="text-black font-normal">:</span>
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.minutes).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Min</span>
-                        </div>
-                        <span className="text-black font-normal">:</span>
-                        <div className="text-[#0092E0]">
-                            <strong className="xl:text-[49px] font-semibold">{String(timeLeft.seconds).padStart(2, "0")}</strong>
-                            <span className="text-xs text-black font-normal">Sec</span>
-                        </div>
-                    </div> */}
-                    <h3 className="mt-10">How to Join:</h3>
-                    <p className="mt-5">Once registered, you will receive a confirmation email with the webinar access link and instructions.</p>
-                    <h3 className="mt-10">Can’t Make It?</h3>
-                    <p className="mt-3">No problem! Go ahead and register, and we’ll send you a recording of the webinar afterward, so you can watch it whenever it suits you best.</p>
-                    <p className="mt-10 xl:pb-0">For inquiries, please contact sales@rialtes.com.</p>
-                </div>
-                <div className="xl:col-span-1 col-span-12"></div>
-
-            </div>
-            <div ref={sectionRef}  className="custom-container mb-20">
-                <WebinarForm
-                    redirectUrl="https://www.youtube.com/watch?v=UNe7QQHRMUU&t=569s"
-                    emailWebinarLink="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
-                />
-            </div>
-        </div>
+        <>
+            <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud"
+                seoData={
+                    < Seo
+                        title=" How SAP Business Data Cloud, Databricks & SAP Datasphere Unify Data"
+                        description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
+                        canonical="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
+                    />
+                }
+                schemaData={schemaData}
+                deskImg="/images/webinar/Webinar_13 May 25_webinar Banner.webp"
+                mobImg="/images/webinar/Webinar_13 May 25_webinar Banner.webp"                       
+                webinarTitle={t('webinarTitle')}
+                speakerName="Akshay Kale"
+                speakerDesignation="Sr. Managing Director – SAP Services"
+                speakerImg="/images/webinar/Akshay-Kale.webp"
+                speakerImgAlt="webinar speaker image"
+                webinarInfo={t('webinarInfo')}
+                webinarAdvantages={webinarAdvantagesData}     
+                whoShouldAttend={whoShouldAttendData}
+                dateNumber="13"
+                monthYear="May 2025"
+                CstIstTime={`10:00 AM CST\u00A0\u00A0\u00A0|\u00A0\u00A08:30 PM IST`}
+                estPstTime={`11 AM EST\u00A0\u00A0\u00A0|\u00A0\u00A08 AM PST`} // u00A0 for exrtra space
+                redirectUrl="https://www.youtube.com/watch?v=UNe7QQHRMUU&t=569s"
+                emailWebinarLink="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/" />
+        </>
     );
 }
+
+

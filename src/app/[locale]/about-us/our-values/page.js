@@ -2,10 +2,12 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
+import { changeLocalization } from "../../components/changeLocalization";
 import ContactForm from "../../components/contactform";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/aboutus.json';
-import esContent from '../../../../../messages/es/aboutus.json';
+import esContent from '../../../../../messages/es/aboutus.json'
+import frContent from '../../../../../messages/fr/aboutus.json'
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -54,44 +56,44 @@ const schemaData = {
 }
 
 export default function Page() {
-   const t = useTranslations('ourValue')
+    const t = useTranslations('ourValue')
     const locale = useLocale();
-    const ourValueContent = locale === "es" ? esContent : enContent;
-    const {growLatestServices,principleItems} = ourValueContent.ourValue;
+    const ourValueContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { growLatestServices, principleItems } = ourValueContent.ourValue;
 
     const GrowServicesCard = ({ services }) => (
-    <div className="w-full h-full">
-        <div className="relative overflow-hidden">
-            <Image
-                className="w-full transition-transform duration-300 hover:scale-105"
-                src={services.image}
-                alt={services.title}
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                priority
-            />
-        </div>
-        <div className="flex flex-col pt-8">
-            <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[30px] 4xl:text-[35px] line-clamp-2 min-h-[60px] leading-tight">{services.title}</h3>
-        </div>
-        <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description1}</p>
-        <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description2}</p>
-    </div>
-);
-const GrowServices = () => {
-    return (
-        <div className="mx-auto text-black ">
-            <h2 className="pb-16 text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">{t('employeeTitle')}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
-                {growLatestServices.map((services) => (
-                    <GrowServicesCard key={services.id} services={services} />
-                ))}
+        <div className="w-full h-full">
+            <div className="relative overflow-hidden">
+                <Image
+                    className="w-full transition-transform duration-300 hover:scale-105"
+                    src={services.image}
+                    alt={services.title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                />
             </div>
+            <div className="flex flex-col pt-8">
+                <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[30px] 4xl:text-[35px] line-clamp-2 min-h-[60px] leading-tight">{services.title}</h3>
+            </div>
+            <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description1}</p>
+            <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description2}</p>
         </div>
     );
-};
+    const GrowServices = () => {
+        return (
+            <div className="mx-auto text-black ">
+                <h2 className="pb-16 text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">{t('employeeTitle')}</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
+                    {growLatestServices.map((services) => (
+                        <GrowServicesCard key={services.id} services={services} />
+                    ))}
+                </div>
+            </div>
+        );
+    };
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -123,7 +125,7 @@ const GrowServices = () => {
                 <div className="block md:hidden">
                     <Image
                         src="/images/culture/AdobeStock_1016285553.webp"
-                         style={{ objectFit: "cover", objectPosition: "0% 20%" }}
+                        style={{ objectFit: "cover", objectPosition: "0% 20%" }}
                         alt="mobile banner"
                         fill
                         priority
@@ -133,10 +135,10 @@ const GrowServices = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white ">
                             <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] ] font-bold sm:text-[#01335B] max-sm:text-[#02182A]">
-                               {t('cultureTitle')}
+                                {t('cultureTitle')}
                             </h3>
                             <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#02182A] "  >
-                               {t('growthTitleOne')}<br />  {t('growthTitleTwo')}
+                                {t('growthTitleOne')}<br />  {t('growthTitleTwo')}
                             </h2>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -203,7 +205,7 @@ const GrowServices = () => {
                                 />
                             </div>
                             <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 xl:text-[45px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[5rem] 4xl:text-[55px] xl:mt-[30px] absolute">
-                                 {t('businessTitleOne')}<br /> {t('businessTitleTwo')}<br /> {t('businessTitleThree')}
+                                {t('businessTitleOne')}<br /> {t('businessTitleTwo')}<br /> {t('businessTitleThree')}
                             </h2>
                         </div>
 
@@ -218,7 +220,7 @@ const GrowServices = () => {
             </div>
             {/* Contact Form */}
             <div className="custom-container text-black pb-10">
-                <ContactForm title= {t('contactUs')} className={"4xl:w-[65%] xl:w-[58%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
+                <ContactForm title={t('contactUs')} className={"4xl:w-[65%] xl:w-[58%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
             </div>
         </div>
     );

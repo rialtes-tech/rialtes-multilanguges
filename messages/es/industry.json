@@ -2180,5 +2180,191 @@
     "contactTitle": "Transformemos el retail juntos — con Rialtes como tu socio estratégico",
     "contactSubTitle": "¿Listo para reinventar tu recorrido retail? Rialtes aporta las herramientas, experiencia e innovación que necesitas para destacar en un entorno exigente.",
     "contactSubTitle2": "Contacta hoy para desbloquear el futuro del retail."
+  },
+  "nonProfit": {
+    "whyChooseData": [
+      "Amplia experiencia en el dominio del sector sin fines de lucro.",
+      "Implementaciones aceleradas con soluciones preconstruidas adaptadas a necesidades de organizaciones sin ánimo de lucro.",
+      "Expertos certificados en Salesforce y SAP que ofrecen servicios de extremo a extremo.",
+      "Presencia global para apoyar a organizaciones sin fines de lucro diversas.",
+      "Enfoque en el impacto de misión, transparencia y eficiencia operativa."
+    ],
+    "thoughtLeadershipData": [
+      {
+        "title": "Desafíos clave:",
+        "dataList": [
+          "Sistemas desconectados que impiden una visión unificada de donantes, voluntarios y beneficiarios de programas.",
+          "Limitada capacidad para medir, rastrear y comunicar en tiempo real los resultados de los programas y el impacto de la misión.",
+          "Recaudación de fondos inefectiva debido a campañas genéricas sin personalización.",
+          "Dificultad para atraer y retener voluntarios debido a sistemas de compromiso deficientes.",
+          "Procesos de gestión de subvenciones intensivos en mano de obra sin visibilidad del uso de fondos y cumplimiento."
+        ]
+      },
+      {
+        "title": "Propuesta de valor de Rialtes:",
+        "dataList": [
+          "Ecosistemas unificados de compromiso para donantes, voluntarios y programas.",
+          "Información avanzada basada en datos para difusión personalizada y medición del impacto.",
+          "Recaudación fondos, subvenciones y procesos de voluntariado optimizados con automatización e IA.",
+          "Gestión del ciclo de vida completa, desde la prospección hasta la fidelización."
+        ]
+      }
+    ],
+    "preDeliveredData": [
+      {
+        "title": "Acelerador de compromiso con donantes",
+        "desc": "Solución adaptada para rastrear interacciones con donantes, gestión de compromisos y recorridos de donación personalizados. Facilita relaciones de alto valor con los donantes."
+      },
+      {
+        "title": "Marco de seguimiento de programas y resultados",
+        "desc": "Monitoreo en tiempo real del desempeño del programa vinculado a resultados del beneficiario e informes de impacto para financiadores y juntas."
+      },
+      {
+        "title": "Bolt-On de gestión de voluntarios",
+        "desc": "Herramienta robusta para gestionar reclutamiento de voluntarios, seguimiento de habilidades, programación de eventos y análisis de impacto, asegurando que los voluntarios se mantengan comprometidos y motivados."
+      },
+      {
+        "title": "Mapeo de familias y hogares para donantes",
+        "desc": "Visualización avanzada de contribuciones familiares y colectivas para entender el potencial de donación colectiva, apoyando estrategias relacionales a largo plazo."
+      }
+    ],
+    "commonSectionData": [
+      {
+        "title": "Recaudación de fondos y gestión de campañas",
+        "title2": "Impulsando el compromiso y las donaciones sostenidas",
+        "desc": "La recaudación de fondos es vital para toda organización sin ánimo de lucro. Rialtes ofrece soluciones personalizadas para optimizar cada fase: desde el diseño de campañas hasta el compromiso con donantes.",
+        "dataList": [
+          "Crear campañas personalizadas centradas en donantes para aumentar las donaciones y la retención.",
+          "Gestionar campañas multicanal – correo electrónico, SMS, eventos – desde una plataforma unificada.",
+          "Segmentar donantes para prospectos de alto valor y programas de donaciones recurrentes.",
+          "Proporcionar transparencia a los donantes sobre el uso de sus contribuciones mediante informes automáticos de impacto."
+        ],
+        "bgColor": "#FCF0D9",
+        "deskImg": "/images/industry/non-profit-industry/fundraising-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/fundraising-mob.webp"
+      },
+      {
+        "title": "Mapeo de familias y hogares",
+        "title2": "Visualizando relaciones entre donantes",
+        "desc": "Comprender las relaciones entre donantes más allá de individuos es esencial para maximizar el potencial de donación. La solución Family Chart de Rialtes ayuda a uncover conexiones que generan compromiso más profundo.",
+        "dataList": [
+          "Identificar oportunidades de donación colectiva desde fundaciones familiares, hogares o redes.",
+          "Visualizar ecosistemas complejos de donantes para campañas adaptadas.",
+          "Rastrear donaciones multigeneracionales para campañas de legado y planificación a largo plazo.",
+          "Mapear relaciones entre donantes, miembros de junta y participantes de programas para fortalecer la comunidad."
+        ],
+        "bgColor": "#E6E6A1",
+        "deskImg": "/images/industry/non-profit-industry/family-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/family-mob.webp"
+      },
+      {
+        "title": "Alcance personalizado a donantes con Salesforce Marketing Cloud",
+        "desc": "La comunicación personalizada y oportuna es la piedra angular de la recaudación moderna. Salesforce Marketing Cloud, potenciado por la experiencia de Rialtes, transforma el compromiso con donantes.",
+        "title2": "",
+        "dataList": [
+          "Envío de comunicaciones relevantes y personalizadas según los intereses e historial del donante.",
+          "Activación de campañas para donantes inactivos, nuevos donantes y prospectos de grandes donaciones.",
+          "Recomendaciones de contenido impulsadas por IA para mejorar las tasas de respuesta.",
+          "Recorridos dinámicos para donantes que se ajustan según su comportamiento y patrones de donación."
+        ],
+        "bgColor": "#D8DBEF",
+        "deskImg": "/images/industry/non-profit-industry/personalized-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/personalized-mob.webp"
+      },
+      {
+        "title": "Gestión de donantes",
+        "title2": "Cultivando relaciones a largo plazo",
+        "desc": "Las relaciones sólidas con donantes se construyen mediante compromiso reflexivo y comunicación transparente. Rialtes permite a las organizaciones sin ánimo de lucro gestionar eficazmente todo este ciclo.",
+        "dataList": [
+          "Perfiles completos 360 ° de los donantes, incluyendo donaciones, engagement e historial de comunicaciones.",
+          "Gestión de relaciones para grandes donantes, patrocinadores corporativos y subvenciones.",
+          "Planificación del recorrido del donante impulsada por IA para un compromiso y retención óptimos.",
+          "Procesos integrales de agradecimiento y reconocimiento para fomentar la lealtad."
+        ],
+        "bgColor": "#E1E6C9",
+        "deskImg": "/images/industry/non-profit-industry/donor-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/donor-mob.webp"
+      },
+      {
+        "title": "Gestión de voluntarios",
+        "title2": "Empoderando el pilar fundamental de las organizaciones sin ánimo de lucro",
+        "desc": "Los voluntarios son parte vital de los ecosistemas sin ánimo de lucro. Rialtes ofrece soluciones completas para involucrarlos, gestionarlos y retenerlos.",
+        "dataList": [
+          "Registro, programación y asignación de voluntarios basada en habilidades de forma optimizada.",
+          "Portales de autoservicio para voluntarios para facilitar interacción y gestión de horarios.",
+          "Comunicación personalizada y programas de reconocimiento para mejorar la retención.",
+          "Paneles en tiempo real sobre compromiso y aportación de voluntarios."
+        ],
+        "bgColor": "#F2D8C2",
+        "deskImg": "/images/industry/non-profit-industry/volunteer-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteer-mob.webp"
+      },
+      {
+        "title": "Gestión de programas y resultados",
+        "title2": "Midiendo lo que importa",
+        "desc": "Medir el verdadero impacto de los programas es esencial para atraer financiamiento y mejorar la efectividad. Rialtes lo posibilita con soluciones avanzadas.",
+        "dataList": [
+          "Seguimiento completo del ciclo de vida del programa, desde el diseño hasta la entrega y evaluación.",
+          "Paneles en tiempo real para monitorear resultados y evaluar el impacto.",
+          "Insights impulsados por IA para optimizar operaciones y resultados del programa.",
+          "Informes transparentes para donantes, juntas y financiadores."
+        ],
+        "bgColor": "#E6E1F7",
+        "deskImg": "/images/industry/non-profit-industry/program-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/program-mob.webp"
+      },
+      {
+        "title": "Gestión de subvenciones",
+        "title2": "Simplificando procesos complejos",
+        "desc": "La gestión efectiva de subvenciones garantiza la financiación adecuada en el momento correcto manteniendo el cumplimiento. Rialtes simplifica este ciclo.",
+        "dataList": [
+          "Rastreo de oportunidades de subvención, plazos y progreso de solicitudes.",
+          "Flujos de trabajo optimizados para redacción colaborativa y aprobación de subvenciones.",
+          "Asignación de fondos post‑concesión y seguimiento de cumplimiento.",
+          "Informes integrados para demostrar uso eficaz de fondos a financiadores."
+        ],
+        "bgColor": "#F0E4ED",
+        "deskImg": "/images/industry/non-profit-industry/grant-desk.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/grant-mob.webp"
+      }
+    ],
+    "headerTitle": "Industria sin Fines de Lucro",
+    "headerSubTitle": "Transformando el impacto social con Rialtes",
+    "headerSubTitle2": "Soluciones tecnológicas integrales para organizaciones con propósito",
+    "pageDescTitle": "Impulsando el impacto de misión en organizaciones sin ánimo de lucro a través de tecnología y estrategia",
+    "pageDesc": "Rialtes empodera a las organizaciones sin fines de lucro para superar desafíos operativos y amplificar su misión utilizando soluciones basadas en Salesforce y SAP. Desde gestión de donantes y voluntarios hasta recaudación, seguimiento de subvenciones y medición de resultados, nuestros servicios integrales —desde estrategia e implementación hasta soporte continuo— ayudan a las organizaciones a lograr crecimiento escalable. Con aceleradores listos para usar adaptados al sector sin fines de lucro, aceleramos la transformación digital y maximizamos el impacto donde más importa.",
+    "thoughtTitle": "Thought Leadership",
+    "thoughtSubTitle": "Abordando los desafíos modernos de las organizaciones sin ánimo de lucro",
+    "thoughtDesc": "Hoy en día, organizaciones sin fines de lucro necesitan ir más allá de formas tradicionales de gestión de donantes y programas para mantenerse relevantes e impactantes.",
+    "preDeliveredTitle": "Aceleradores preentregados de Rialtes para excelencia sin ánimo de lucro",
+    "preDeliveredDesc": "Nuestras soluciones propietarias listas para implementar reducen drásticamente los tiempos de despliegue y mejoran la eficiencia de procesos.",
+    "significanceTitle": "Importancia:",
+    "seamlessTitle": "Integraciones de plataforma sin fisuras para operaciones unificadas sin ánimo de lucro",
+    "seamlessCard1Title": "SAP S/4HANA",
+    "seamlessCard1Desc": "Gestiona finanzas, adquisiciones y asignación de fondos con total transparencia.",
+    "seamlessCard2Title": "Salesforce NPSP & Experience Cloud",
+    "seamlessCard2Desc": "Mejora el compromiso de donantes, voluntarios y programas mediante plataformas intuitivas.",
+    "seamlessCard3Title": "SAP ARIBA",
+    "seamlessCard3Desc": "Optimiza los procesos de compras para necesidades de programas sin ánimo de lucro.",
+    "seamlessCard4Title": "SAP CPI",
+    "seamlessCard4Title2": "(Cloud Platform Integration)",
+    "seamlessCard4Desc": "Garantiza flujo de datos sin interrupciones entre Salesforce, SAP y soluciones de terceros como portales de donantes.",
+    "seamlessCard5Title": "SAP BTP",
+    "seamlessCard5Title2": "(Business Technology Platform)",
+    "seamlessCard5Desc": "Construye apps personalizadas, automatiza flujos de trabajo e integra IA para operaciones más inteligentes.",
+    "enhancedTitle": "Compromiso mejorado con autoservicio e IA",
+    "enhancedSubTitle": "Portales para donantes y voluntarios con Salesforce Experience Cloud",
+    "enhancedDesc": "Paneles personalizados y herramientas de compromiso para donantes y voluntarios.",
+    "enhancedDesc2": "Acceso fluido al historial de donaciones, registros de eventos y preferencias de comunicación.",
+    "agentforceTitle": "Agentforce para gestión de casos sin ánimo de lucro",
+    "agentforceDesc1": "Soporte automatizado para donantes y voluntarios impulsado por IA, agilizando consultas y casos comunes.",
+    "agentforceDesc2": "Alertas proactivas de servicio para oportunidades de donación y hitos de compromiso.",
+    "dataCloudTitle": "Data Cloud para perspectivas unificadas de donantes, programas y voluntarios",
+    "dataCloudDesc": "Vistas 360° consolidadas para segmentación inteligente de donantes y enfoque a programas.",
+    "dataCloudDesc2": "Modelos basados en IA para predecir retención de donantes y tendencias de compromiso de voluntarios.",
+    "whyChooseTitle": "¿Por qué elegir a Rialtes para la transformación digital de tu organización sin ánimo de lucro?",
+    "contactTitle": "¿Listo para amplificar el impacto de tu organización?",
+    "contactSubTitle": "Asóciate con Rialtes para acelerar tu viaje de automatización. Nuestros expertos certificados están listos para ayudarte a desbloquear eficiencia, reducir costos e innovar a escala.",
+    "contactSubTitle2": "Contacta hoy para una evaluación gratuita de automatización."
   }
 }

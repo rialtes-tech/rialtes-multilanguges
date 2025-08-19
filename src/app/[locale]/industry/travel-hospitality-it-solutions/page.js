@@ -8,8 +8,10 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 export default function Page() {
-    const schemaData = {
+    const schemaData = {                                
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Travel and Hospitality IT Solutions",
@@ -96,7 +98,7 @@ export default function Page() {
     }
     const t = useTranslations('travelIndustry')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { endToEndData, industryData, optimizeData, personalizedData, rightTechData, aiPoweredData, quickCommereceData,
         smarterServiceData, elavateTravelData, flawlessData, futureReadyData, turnSectionData
     } = content.travelIndustry

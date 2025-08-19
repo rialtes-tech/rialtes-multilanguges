@@ -4,11 +4,14 @@ import Image from "next/image";
 import { SlControlPlay } from "react-icons/sl";
 import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/insight.json';
+import esContent from '../../../../../messages/es/insight.json';
+import frContent from '../../../../../messages/fr/insight.json';
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "mainEntityOfPage": {
@@ -30,167 +33,15 @@ const schemaData = {
 }
 
 const webinars = [
-
-  // {
-  //   id: 2,
-  //   title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-  //   date: "June 03, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: {
-  //     name: "Anuraag Aggarwal",
-  //     role: "Vice President of Global Sales",
-  //     image: "/images/webinar/anurag.webp",
-  //   },
-  //   backgroundImage: "/images/webinar/rise.webp",
-  //   url: 'insights/webinars/rise-with-sap-transformation-rialtes'
-  // },
-  // {
-  //   id: 3,
-  //   title: "CIG, Your Gateway to SAP Ariba",
-  //   date: "10 June, 2025",
-  //   time: "10:00 AM CST",
-  //   speaker: {
-  //     name: "Sapna Chauhan",
-  //     role: "Software Engineer - SAP",
-  //     image: "/images/webinar/sapna-chauhan.webp",
-  //   },
-  //   backgroundImage: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-  //   url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud',
-  // },
-
 ];
 
-const allWebinars = [
-  {
-    id: 6,
-    title: "CIG, Your Gateway to SAP Ariba",
-    date: "10 June, 2025",
-    time: "10:00 AM CST",
-    speaker: "Sapna Chauhan",
-    position: "Software Engineer - SAP",
-    image: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
-  },
-  {
-    id: 5,
-    title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
-    date: "June 03, 2025",
-    time: "10:00 AM CST",
-    speaker: "Anuraag Aggarwal",
-    position: "Vice President of Global Sales",
-    image: "/images/webinar/rise.webp",
-    url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes'
-  },
-  {
-    id: 1,
-    title: "Discover the Agentic Capabilities of Agentforce",
-    date: "May 15, 2025",
-    time: "10:00 AM CST",
-    speaker: "Lokesh Adhikari",
-    position: "Software Engineer - Salesforce",
-    image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
-    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
-
-  },
-  // {
-  //   id:1,
-  //   title: "What’s New with SAP SuccessFactors Onboarding 2.0",
-  //   date: "May 27, 2025",
-  //   time: "10:00 AM CST",
-  //   position:"Principal Managing Consultant",
-  //   speaker: "Vidya Kumar",
-  //   image: "/images/webinar/banck-what.webp",
-  //   url: 'insights/webinars/sap-successfactors-onboarding-2-0-integration'
-  // },
-  {
-    id: 2,
-    title: "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
-    date: "May 13, 2025",
-    time: "10:00 AM CST",
-    speaker: "Akshay Kale",
-    position: "Sr. Managing Director – SAP Services",
-    image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
-    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
-  },
-  {
-    id: 3,
-    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
-    date: "May 08, 2025",
-    time: "10:00 AM CST",
-    speaker: "Divya Agarwal",
-    position: "Software Engineer - Salesforce",
-    image: "/images/webinar/webinar-thumb.webp",
-    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
-
-  },
-  {
-    id: 4,
-    title: "Let’s WhatsApp in Salesforce with AgentChat",
-    date: "May 06, 2025",
-    time: "10:00 AM CST",
-    speaker: "Lokesh Adhikari",
-    position: "Software Engineer - Salesforce",
-    image: "/images/webinar/Webinar_6.webp",
-    url: 'insights/webinars/let-whatsapp-in-salesforce-with-agentchat'
-  },
-
-  // {
-  //   id: 3,
-  //   title: "SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud",
-  //   date: "November 5, 2024",
-  //   time: "10:00 AM CST",
-  //   speaker: "Kushagra Shah",
-  //   position: "Senior Principal Consultant, SAP",
-  //   image: "/images/webinar/webinar-thumb-1.webp",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Cloud Migration Strategies for Enterprise",
-  //   date: "October 25, 2024",
-  //   time: "11:00 AM CST",
-  //   speaker: "Raj Patel",
-  //   position: "Cloud Solutions Architect",
-  //   image: "/images/webinar/webinar-thumb-3.webp",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Data Analytics with Power BI",
-  //   date: "October 20, 2024",
-  //   time: "2:00 PM CST",
-  //   speaker: "Lisa Johnson",
-  //   position: "Data Analytics Specialist",
-  //   image: "/images/webinar/webinar-thumb-1.webp",
-  // },
-  // {
-  //   id: 6,
-  //   title: "AI Implementation in Customer Service",
-  //   date: "October 15, 2024",
-  //   time: "1:00 PM CST",
-  //   speaker: "Michael Zhang",
-  //   position: "AI Solutions Manager",
-  //   image: "/images/webinar/webinar-thumb-3.webp",
-  // },
-  // {
-  //   id: 7,
-  //   title: "DevOps Best Practices",
-  //   date: "October 10, 2024",
-  //   time: "11:00 AM CST",
-  //   speaker: "Sarah Williams",
-  //   position: "DevOps Engineer",
-  //   image: "/images/webinar/webinar-thumb-1.webp",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Cybersecurity Trends 2025",
-  //   date: "October 5, 2024",
-  //   time: "10:00 AM CST",
-  //   speaker: "James Rodriguez",
-  //   position: "Security Specialist",
-  //   image: "/images/webinar/webinar-thumb-3.webp",
-  // },
-];
 
 export default function About() {
+  const t = useTranslations('webinars')
+  const locale = useLocale();
+  const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { allWebinars } = webinarsContent.webinars;
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
@@ -295,9 +146,9 @@ export default function About() {
         >
           <div className="h-full flex flex-col justify-center">
             <h1 className="text-[#000000] max-w-2xl leading-tight text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px]">
-              A symphony of
+              {t('headerTitle')}
               <br />
-              expert voices
+              {t('headerTitleOne')}
             </h1>
           </div>
         </div>
@@ -309,14 +160,12 @@ export default function About() {
         {webinars.length > 0 && (
           <section className="py-16 bg-white">
             <div>
-              <h2 className="xl:text-[28px]  font-medium">Deep Dive with Experts-Led Webinars Curated to Drive Results</h2>
+              <h2 className="xl:text-[28px]  font-medium">{t('headerSubTitle')}</h2>
               <p className="text-[#000000] text-[22px]  py-6 max-w-5xl mb-12 font-normal leading-tight">
-
-                Our webinar series brings together industry leaders, seasoned consultants, and technology specialists for deep-dive conversations that move beyond theory into real-world impact. Whether you're navigating a digital transformation, optimizing your ERP systems, or exploring the frontiers of AI and automation, these sessions are designed to equip you with insights that put you on the right path.            </p>
-
+                {t('headerDesc')}</p>
               <div className="w-full">
                 <div className="flex items-center mb-6 justify-between">
-                  <h2 className="w-full md:w-3/4 xl:text-[40px] 4xl:text-[56px]">Upcoming Webinars</h2>
+                  <h2 className="w-full md:w-3/4 xl:text-[40px] 4xl:text-[56px]">{t('upcomingTitle')}</h2>
 
                   <div className="w-1/4 hidden sm:block">
                     <div className="h-full flex gap-10">
@@ -399,8 +248,6 @@ export default function About() {
                                       : "scale(1)",
                                 }}
                               >
-
-
                                 <Image
                                   src={webinar.backgroundImage}
                                   alt={`${webinar.title} background`}
@@ -505,16 +352,13 @@ export default function About() {
               </div>
             </div>
           </section>
-
         )}
         <div>
-
         </div>
       </div>
       <div className="custom-container xl:!pr-[142px]">
         <section className="py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
-          <h2 className="mb-6 text-[26px] xl:text-[40px] md:text-[35px] 4xl:text-[60px]">Past Webinars</h2>
-
+          <h2 className="mb-6 text-[26px] xl:text-[40px] md:text-[35px] 4xl:text-[60px]">{t('PastWebinars')}</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {visibleWebinars.map((webinar) => (
               <Link href={'/' + webinar.url} key={webinar.id}>
@@ -571,7 +415,7 @@ export default function About() {
 
                     <div className="mt-auto">
                       <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
-                        Open Now
+                        {t('openNow')}
                       </button>
                     </div>
                   </div>
@@ -579,15 +423,13 @@ export default function About() {
               </Link>
             ))}
           </div>
-
-
           {hasMore && (
             <div className="flex justify-center mt-8">
               <button
                 onClick={handleLoadMore}
                 className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
               >
-                Load more
+                {t('loadMore')}
               </button>
             </div>
           )}

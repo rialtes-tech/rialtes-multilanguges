@@ -8,6 +8,8 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -110,7 +112,7 @@ export default function page() {
     }
     const t = useTranslations('rialFinance')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData } = content.rialFinance
     return (
         <div className="min-h-screen bg-white">

@@ -9,6 +9,8 @@ import React from "react";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
+import frContent from '../../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -96,7 +98,7 @@ export default function Page() {
     }
     const t = useTranslations('homeHealth')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { addressingData, aiRovolutionizingData, capabilitiesData, agentChat, homeHealth, relatedData } = content.homeHealth
     return (
         <section className="min-h-screen">

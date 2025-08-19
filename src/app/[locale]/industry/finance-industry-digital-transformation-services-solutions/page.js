@@ -8,6 +8,8 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -96,7 +98,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('finance')
       const locale = useLocale();
-      const financeContent = locale === "es" ? esContent : enContent;
+      const financeContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
       const {challenges,thougthLeadershipData,salesforceData,sapHanaData,aiData,exelonaData,agentchatData,drivenData,whyChooseData} = financeContent.finance;
 
   return (

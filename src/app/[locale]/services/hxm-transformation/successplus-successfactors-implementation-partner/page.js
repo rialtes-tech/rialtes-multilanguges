@@ -7,7 +7,10 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+
 import { useLocale, useTranslations } from "next-intl";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -95,7 +98,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('successPlus')
   const locale = useLocale();
-  const homepageContent = locale === 'es' ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { relatedData, agentData, ourWorkdayData, keyBenefitsData, ourZohoData, zohoBenefitsData, migratingBenefitsData, sapActivateData,
     sapSuccessFactorData, sapCpiData, extendData, sapJouleData } = homepageContent.successPlus;
   return (

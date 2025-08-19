@@ -9,6 +9,9 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -113,7 +116,7 @@ const BulletList = ({ items }) => (
 export default function Page() {
   const t = useTranslations('riseWithSap')
   const locale = useLocale();
-  const content = locale === 'es' ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData, } = content.riseWithSap;
   return (
     <div className="min-h-screen bg-white">

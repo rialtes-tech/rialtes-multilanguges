@@ -1,0 +1,105 @@
+{
+    "agentChat": {
+  "headerTitle": "Présentation de",
+  "headerSubTitle": "AgentChat :",
+  "headerOne": " Conversations WhatsApp fluides dans Salesforce",
+  "engageHeader": "Engagez, soutenez et concluez des affaires — tout via WhatsApp. Tout dans Salesforce.",
+  "engageDescOne": "AgentChat est une application conversationnelle WhatsApp bidirectionnelle, développée nativement sur Salesforce, permettant à vos équipes de se connecter instantanément avec les clients, de gérer efficacement les conversations et d’automatiser les flux de travail — sans jamais quitter Salesforce.",
+  "engageDescTwo": "Que vous soyez dans la vente, le service, le marketing, les opérations sur le terrain ou l’éducation, AgentChat fonctionne avec tous les Clouds Salesforce et transforme WhatsApp en un puissant outil d’engagement pour chaque équipe.",
+  "whyHeader": "Pourquoi AgentChat ?",
+  "whySubHeader": "Conversations WhatsApp instantanées, directement dans Salesforce",
+  "whyDesc": "Connectez-vous et répondez aux clients via WhatsApp depuis n’importe quel enregistrement Salesforce — Pistes, Cas, Opportunités, Ordres de travail ou Objets personnalisés.",
+  "rapidTitle": "Mise en place rapide — opérationnel en quelques minutes !",
+  "rapidDesc": "Pas d’intégrations complexes. Configuration plug-and-play en quelques minutes. Commencez à échanger immédiatement.",
+  "realTitle": "Messagerie bidirectionnelle et en temps réel",
+  "realDeac": "Les conversations se synchronisent en temps réel — qu’elles soient initiées depuis WhatsApp ou Salesforce.",
+  "delegateTitle": "Délégation automatique des messages à la bonne équipe",
+  "delegateDesc": "Les conversations sont automatiquement acheminées par type d’enregistrement (ex. : Cas, Pistes, Ordres de travail), garantissant une réponse rapide de la bonne équipe.",
+  "roleTitle": "Contrôle d’accès et sécurité basés sur les rôles",
+  "roleDesc": "Déterminez qui peut discuter, voir et gérer les conversations grâce à des autorisations avancées basées sur les rôles et le modèle de sécurité natif de Salesforce.",
+  "keyTitle": "Fonctionnalités clés d’AgentChat",
+  "features": [
+    {
+      "title": "Messagerie WhatsApp bidirectionnelle en temps réel",
+      "image": "/images/industry/rialchat/Seamless Messaging.png",
+      "alt": "Messagerie WhatsApp en temps réel",
+      "points": [
+        "Initiez et gérez des conversations WhatsApp directement depuis n’importe quel objet Salesforce.",
+        "Suivi automatique des conversations liées aux enregistrements Salesforce.",
+        "Historique complet des conversations et pistes d’audit."
+      ]
+    },
+    {
+      "title": "Messagerie contextuelle",
+      "image": "/images/industry/rialchat/Rich Media Support.png",
+      "alt": "Messagerie contextuelle",
+      "points": [
+        "Accédez au contexte client complet depuis Salesforce pendant la discussion.",
+        "Partagez des fichiers, médias et réponses rapides pour des résolutions plus rapides."
+      ]
+    },
+    {
+      "title": "Compatible avec tous les Clouds Salesforce",
+      "image": "/images/industry/rialchat/Automated Conversation Logging.png",
+      "alt": "Prend en charge tous les Clouds Salesforce",
+      "points": [
+        "<strong>Sales Cloud :</strong> Convertissez les chats en Pistes et Opportunités.",
+        "<strong>Service Cloud :</strong> Gérez les Cas et offrez un support instantané.",
+        "<strong>Field Service :</strong> Coordonnez les opérations terrain et les Ordres de travail.",
+        "<strong>Education Cloud :</strong> Engagez étudiants et anciens élèves pour l’inscription, le conseil et le support.",
+        "<strong>Nonprofit Cloud :</strong> Connectez-vous avec donateurs, bénévoles et parties prenantes."
+      ]
+    },
+    {
+      "title": "Intégration transparente à Salesforce",
+      "image": "/images/industry/rialchat/Seamless Messaging.png",
+      "alt": "Intégration fluide à Salesforce",
+      "points": [
+        "Fonctionne immédiatement avec Cas, Pistes, Opportunités, Ordres de travail, et plus encore.",
+        "Règles d’acheminement et de délégation par type d’enregistrement — aucun effort manuel requis."
+      ]
+    },
+    {
+      "title": "Support multi-rôles, multi-équipes",
+      "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
+      "alt": "Support multi-équipes",
+      "points": [
+        "Servez les clients via des équipes dédiées (Ventes, Support, Agents de terrain, Conseillers).",
+        "Définissez qui peut initier, voir ou répondre selon les rôles et unités commerciales."
+      ]
+    },
+    {
+      "title": "Sécurité et conformité natives Salesforce",
+      "image": "/images/industry/rialchat/Seamless Messaging.png",
+      "alt": "Sécurité et conformité",
+      "points": [
+        "Exploite les hiérarchies de rôles, règles de partage et sécurité au niveau des objets de Salesforce.",
+        "Compatible RGPD, HIPAA grâce à la plateforme sécurisée de Salesforce."
+      ]
+    }
+  ],
+  "agentChatTitle": "Cas d’utilisation d’AgentChat",
+  "tableTitleOne": "Cas d’utilisation",
+  "tableTitleTwo": "Comment AgentChat aide",
+  "tableData": [
+    { "title": "Support client", "desc": "Gérez les cas de support via WhatsApp, instantanément." },
+    { "title": "Prospection commerciale", "desc": "Engagez des pistes et concluez des affaires avec des discussions en temps réel." },
+    { "title": "Opérations terrain", "desc": "Coordonnez les ordres de travail et mises à jour en temps réel." },
+    { "title": "Engagement étudiant", "desc": "Communiquez avec les étudiants et anciens élèves sans effort." },
+    { "title": "Gestion des donateurs", "desc": "Restez en contact avec les donateurs grâce à des conversations personnalisées." }
+  ],
+  "setupTitle": "Mise en place rapide. Impact maximal.",
+  "descOne": "Installez AgentChat depuis AppExchange.",
+  "descTwo": "Connectez votre compte WhatsApp Business en toute sécurité.",
+  "descThree": "Mappez aux types d’enregistrements Salesforce (Cas, Pistes, Ordres de travail, etc.).",
+  "descFour": "Définissez les rôles et autorisations pour les équipes.",
+  "descFive": "Commencez à discuter — directement depuis Salesforce !",
+  "readyTitle": "Prêt à booster l’engagement WhatsApp dans Salesforce ?",
+  "readyDesc": "Réservez une démo gratuite et découvrez comment AgentChat peut transformer l’engagement client via WhatsApp — directement dans Salesforce !",
+  "getStart": "Commencez maintenant",
+  "contactUs": "Contactez-nous",
+  "scheduled": "Planifier une démo",
+  "contactTitle": "Faites-moi savoir si vous souhaitez une maquette de conception, des variantes d’appel à l’action ou des versions de texte publicitaire plus courtes !"
+}
+
+}

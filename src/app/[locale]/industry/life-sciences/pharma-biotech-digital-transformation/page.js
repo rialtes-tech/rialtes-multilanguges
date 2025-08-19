@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform"
@@ -10,6 +9,8 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
+import frContent from '../../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -247,7 +248,7 @@ const StrategicChallenge = () => {
 export default function Page() {
     const t = useTranslations('pharmaBiotech')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { thoughtData, whyRialtesData, salesforceLifeData, sapData, keyAiImpact, benefitsOfAiData, patientData, remoteData, agentChatData, salesforceAgentData } = content.pharmaBiotech;
     return (
         <div className="min-h-screen bg-white">

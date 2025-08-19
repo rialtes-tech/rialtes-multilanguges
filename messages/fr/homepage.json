@@ -1,0 +1,554 @@
+{
+    "homePage": {
+        "withImpactTitle": "avec Impact",
+        "beyondTitle": "Au-delà des affaires : un engagement pour le changement",
+        "innovatingData": "Rialtes est plus qu'un leader technologique — nous sommes des défenseurs du changement positif. Des initiatives de durabilité à l'autonomisation des voix sous-représentées, nous nous engageons à avoir un impact significatif.",
+        "successStoriesTitle": "Histoires de réussite",
+        "successStoriesDesc": "Découvrez comment nous avons exploité le pouvoir disruptif de l'IA de pointe pour aider les entreprises à anticiper et agir avec perspicacité et rapidité grâce à nos services de conseil en informatique.",
+        "industryExpertiesTitle": "Expertise et solutions sectorielles",
+        "industryExpertiesDesc": "Nous possédons une expertise dans divers secteurs, ce qui nous permet d’offrir des services de conseil informatique adaptés aux besoins spécifiques de votre industrie. Transformez votre entreprise avec un système quantifiable et pré-focalisé.",
+        "insightTitle": "Perspectives",
+        "insightDesc": "Restez en avance grâce aux points de vue d'experts, aux histoires de réussite et aux dernières innovations en matière d'IA.",
+        "lifeTitle": "VIE",
+        "rialtesName": "RIALTES",
+        "rialtesData": "Animée par l'innovation et alimentée par le potentiel humain, notre société de conseil en informatique relève les défis les plus complexes du monde numérique. Ensemble, simplifions les problèmes, enableons les solutions et autonomisons-nous mutuellement.",
+        "carouselData": [
+            {
+                "title": "Blogs",
+                "description": "Redéfinir l'avenir de l'IA d'entreprise avec SAP Joule",
+                "image": "/images/blog/jthumb.webp",
+                "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
+            },
+            {
+                "title": "Blogs",
+                "description": "Automatisez votre organisation de santé avec l'intégration athenahealth et Salesforce",
+                "image": "/images/blog/blog-8.webp",
+                "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+            },
+            {
+                "title": "Blogs",
+                "description": "SAP Business Data Cloud : la base de données intelligente pour le succès commercial piloté par l'IA",
+                "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+                "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+            },
+            {
+                "title": "Blogs",
+                "description": "Comment les agents Agentforce optimisent les systèmes ERP grâce à l'IA",
+                "image": "/images/blog/blog-12.webp",
+                "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+            },
+            {
+                "title": "Blogs",
+                "description": "Comment SAP SuccessFactors améliore la gestion du télétravail",
+                "image": "/images/blog/blog-13.webp",
+                "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+            },
+            {
+                "title": "Blogs",
+                "description": "Comment fonctionne réellement Salesforce Agentforce",
+                "image": "/images/blog/blog-1.webp",
+                "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+            }
+        ],
+        "successStoryData": [
+            {
+                "id": 1,
+                "imageUrl": "/images/homepage/stremline.webp",
+                "title": "Fabrication",
+                "description": "DevOps rationalisé avec Copado et Salesforce",
+                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/images/homepage/salesforce.webp",
+                "title": "Santé",
+                "description": "Salesforce Health Cloud, autorisation préalable",
+                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/images/homepage/mfg-2.webp",
+                "title": "Fabrication",
+                "description": "Gestion omnicanale des cas avec Salesforce Service Cloud",
+                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/images/homepage/public-sector-3.webp",
+                "title": "Secteur public",
+                "description": "Parcours de transformation YARDI avec le plus grand PHA d'Amérique du Nord",
+                "theme": "light",
+                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/images/homepage/healthcare-2.webp",
+                "title": "Santé",
+                "description": "Automatisation du traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
+                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/images/homepage/mfg-3.webp",
+                "title": "Fabrication",
+                "description": "Optimisation des ventes avec Salesforce Sales Cloud pour l'industrie manufacturière",
+                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+            },
+            {
+                "id": 7,
+                "imageUrl": "/images/homepage/realestate-3.webp",
+                "title": "Immobilier",
+                "description": "Automatisation des ACH et écritures comptables avec notre module bancaire Exelona",
+                "url": "insights/case-studies/realForce-banking-module-ach",
+                "theme": "light"
+            },
+            {
+                "id": 8,
+                "imageUrl": "/images/homepage/healthcareImg.webp",
+                "title": "Santé",
+                "description": "Numérisation du parcours patient avec Salesforce Health Cloud",
+                "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+                "theme": "light"
+            }
+        ],
+        "contactUsTitle": "Prêt à passer à l'étape suivante ? Commencez votre parcours vers l'excellence opérationnelle",
+        "manufacturingTitle": "FABRICATION",
+        "manufacturingDesc": "Rationalisez les relations clients, les processus de vente et la gestion de la chaîne d'approvisionnement dans les entreprises manufacturières.",
+        "realEstateTitle": "IMMOBILIER",
+        "realEstateDesc": "Aider les agents immobiliers, propriétaires et courtiers à renforcer leurs relations et revenus en naviguant dans les détails des clients et des propriétés.",
+        "semiconductorTitle": "Semi-conducteurs",
+        "semiconductorDesc": "Nos services de conseil couvrent l'ensemble des technologies et méthodologies nécessaires pour fabriquer, intégrer et maintenir des produits complexes sur différentes plateformes.",
+        "automotiveTitle": "AUTOMOBILE",
+        "automotiveDesc": "CRM Salesforce pour la santé afin d'aider les prestataires de services médicaux à intégrer parfaitement les logiciels hospitaliers.",
+        "healthcareTitle": "Santé",
+        "healthcareDesc": "Notre intégration CRM Salesforce pour la santé permet aux prestataires de services médicaux d'intégrer parfaitement les logiciels hospitaliers et les solutions d'engagement des patients pour offrir des soins exceptionnels.",
+        "retailTitle": "Commerce de détail",
+        "retailDesc": "Relevez les défis du commerce de détail avec confiance. Rialtes Retail+ combine perspicacité stratégique et exécution robuste, permettant aux détaillants B2B et B2C de se moderniser, personnaliser et croître. De la planification au support post-lancement, nous pilotons la transformation à chaque étape.",
+        "viewAllIndustries": "Voir tous les secteurs",
+        "knowMoreBtn": "En savoir plus"
+    },
+    "header": {
+        "solutionTitle": "Solutions",
+        "productsTitle": "Produits",
+        "servicesTitle": "Services",
+        "industriesTitle": "Industries",
+        "aboutusTitle": "À propos de nous",
+        "insightTitle": "Perspectives",
+        "contactTitle": "Contactez-nous",
+        "dataAiLabel": "Données & IA",
+        "enterpriseLabel": "Plateformes d'entreprise",
+        "integrationLabel": "Intégration",
+        "artificialLabel": "Intelligence Artificielle",
+        "processAutoLabel": "Automatisation des processus",
+        "qualityEngLabel": "Assurance Qualité & Ingénierie",
+        "businessTransformationLabel": "Transformation des affaires",
+        "LobLabel": "Services LOB",
+        "spendMgmtLabel": "Gestion des dépenses",
+        "hxmLabel": "Transformation HXM",
+        "intelligentLabel": "SCM Intelligent",
+        "appServicesLabel": "Services Applicatifs",
+        "agentchatLabel": "AgentChat",
+        "dataAiDesc": "Des données à la décision — Plus intelligent, plus rapide, meilleur avec l'IA",
+        "dataAiDesc2": "Transformez les données brutes en intelligence en temps réel pour améliorer l'efficacité, l'innovation et la croissance",
+        "enterpriseDesc": "Transformer. Automatiser. Diriger — La puissance de l'entreprise intelligente",
+        "enterpriseDesc2": "Atteignez l'excellence opérationnelle et une croissance centrée sur le client grâce à des plateformes d'entreprise intelligentes et évolutives.",
+        "integrationDesc": "Connexions plus intelligentes. Croissance plus rapide. Services d'intégration intelligents",
+        "integrationDesc2": "Des stratégies d'intégration prêtes pour l'avenir qui alignent les objectifs commerciaux avec une exécution technologique fluide",
+        "qualityEngDesc": "Favoriser l'excellence numérique avec des solutions de test avancées",
+        "qualityEngDesc2": "Garantissez les plus hauts standards de qualité, performance et fiabilité logicielle avec nos services d'ingénierie et d'assurance qualité.",
+        "artificialDesc": "Faites de l'IA votre avantage concurrentiel",
+        "artificialDesc2": "Permettez aux entreprises de résoudre des problèmes complexes, d'automatiser les flux de travail et de fournir des informations en temps réel grâce à l'IA.",
+        "aiAutomationDesc": "L'agilité rencontre l'efficacité avec l'automatisation des processus de nouvelle génération",
+        "aiAutomationDesc2": "Intégrer l'IA, la RPA et l'analytique pour des processus métier fluides, intelligents et performants.",
+        "businessTransDesc": "De la vision à la valeur — Transformez plus intelligemment, croissez plus rapidement",
+        "businessTransDesc2": "De la stratégie à l'exécution, nous accélérons votre transformation grâce à des insights pilotés par l'IA et une expertise de pointe, transformant les défis en avantages concurrentiels",
+        "servicesDataAiDesc": "Sous-texte - Données plus intelligentes. Décisions plus précises. Résultats renforcés.",
+        "servicesDataAiDesc2": "Découvrez l'avenir du conseil — alimenté par l'IA et l'innovation guidée par les insights.",
+        "spendMgmtDesc": "Visibilité. Contrôle. Économies.",
+        "spendMgmtDesc2": "Nos services complets de gestion des dépenses offrent transparence et responsabilité, transformant la manière dont vous gérez les dépenses de l'entreprise.",
+        "intelligentScm": "Réduisez les coûts opérationnels et augmentez le ROI pour chaque ligne de métier",
+        "intelligentScm2": "Qu'il s'agisse de moderniser les systèmes hérités ou de rationaliser les opérations, nos services LOB sont conçus pour évoluer avec votre entreprise.",
+        "appServicesDesc": "Services gérés dirigés par des experts pour la performance applicative et un impact maximal",
+        "appServicesDesc2": "De la mise en œuvre stratégique aux opérations quotidiennes, nous proposons des services gérés de bout en bout pour les plateformes SAP et Salesforce — garantissant performance, évolutivité et innovation continue.",
+        "hxmDesc": "Valorisez vos collaborateurs avec des solutions HCM intelligentes",
+        "hxmDesc2": "De l'embauche à la retraite, nos services de gestion du capital humain (HCM) optimisent la gestion des talents, augmentent la productivité et améliorent l'expérience des employés.",
+        "intelligentServicesDesc": "Réinventez les chaînes d'approvisionnement avec l'IA et l'intelligence en temps réel",
+        "intelligentServicesDesc2": "Permettez aux entreprises d'anticiper la demande, d'automatiser les opérations et de répondre rapidement aux perturbations, transformant les chaînes d'approvisionnement en moteurs de croissance stratégiques et résilients.",
+        "realEstateLabel": "Immobilier",
+        "lifeScienceLabel": "Sciences de la vie",
+        "semiconductorLabel": "Semi-conducteurs",
+        "manufacturingLabel": "Fabrication",
+        "educationLabel": "Éducation",
+        "automativeLabel": "Automobile",
+        "TTHLabel": "Voyage et Hôtellerie",
+        "retailLabel": "Commerce de détail",
+        "nonProfitLabel": "Organisations à but non lucratif",
+        "financeLabel": "Finance",
+        "automativeIndDesc": "Du plancher de l'usine au siège du conducteur — Solutions automobiles intelligentes",
+        "automativeIndDesc2": "Transformation de la production, des ventes et des services grâce à l'IA, l'IoT et des stratégies basées sur les données",
+        "lifeSciencesDesc": "Façonner l'avenir des soins de santé et des sciences de la vie grâce à l'innovation numérique",
+        "lifeSciencesDesc2": "Permettre aux entreprises des sciences de la vie d'améliorer les résultats des patients et l'excellence opérationnelle grâce à des technologies de nouvelle génération",
+        "hiTechDesc": "Industrie des semi-conducteurs 4.0 — Des puces de nouvelle génération grâce à des solutions de nouvelle génération",
+        "hiTechDesc2": "Réimaginer les opérations des semi-conducteurs avec l'automatisation intelligente, les insights basés sur les données et la résilience des chaînes d'approvisionnement mondiales pour les grandes entreprises",
+        "autoIndustryDesc": "Des pannes aux percées : nous accompagnons vos parcours de service automobile",
+        "autoIndustryDesc2": "Nous permettons aux OEM et concessionnaires de gérer efficacement les cas et d'administrer les garanties intelligentes pour résoudre rapidement les problèmes, gérer les cycles de vie complexes des véhicules et renforcer la confiance des clients.",
+        "TTHDesc": "Innovation pilotée par l'IA pour le voyage, le transport et l'hôtellerie",
+        "TTHDesc2": "Nos solutions rationalisent les opérations, augmentent l'agilité et génèrent des revenus pour les compagnies aériennes, hôtels, logistique et plus encore",
+        "retailInduDesc": "Solutions de vente au détail intelligentes pour créer des écosystèmes évolutifs et intelligents",
+        "retailInduDesc2": "Plus de 10 ans d'expertise mondiale pour aider les détaillants B2B et B2C à moderniser leurs opérations et dépasser les attentes des clients.",
+        "nonProfitDesc": "Partenariat avec les organisations à but non lucratif pour développer des résultats axés sur la mission",
+        "nonProfitDesc2": "Nous comprenons que le cœur du travail des organisations à but non lucratif réside dans leur mission. Rialtes soutient cette mission avec des solutions intégrées, du conseil stratégique et une innovation continue.",
+        "financeDesc": "Apporter la transformation numérique aux services financiers",
+        "financeDesc2": "Transformer la banque de détail, la banque commerciale, les coopératives de crédit et les prêts hypothécaires grâce à l'analyse et aux prédictions basées sur l'IA",
+        "manufacturingDesc": "Favoriser une fabrication intelligente et fluide avec mobilité et efficacité",
+        "manufacturingDesc2": "Rendre la fabrication plus intelligente — IA, automatisation et insights exploitables",
+        "educationDesc": "Promouvoir l'éducation avec des solutions centrées sur l'étudiant",
+        "educationDesc2": "Allumer l'avenir de l'apprentissage, libérer le potentiel, stimuler le progrès — la technologie pour l'éducation de demain.",
+        "aboutLabel": "À propos de Rialtes : Innover avec impact",
+        "aboutDesc": "Au-delà des affaires : un engagement pour le changement",
+        "aboutDesc2": "Rialtes est plus qu'un leader technologique — nous sommes des défenseurs du changement positif. Des initiatives durables à l'autonomisation des voix sous-représentées, nous nous engageons à avoir un impact significatif",
+        "insightDesc": "Découvrez nos perspectives : Blogs, études de cas et leadership éclairé",
+        "insightDesc2": "Restez à la pointe grâce aux perspectives d'experts, aux histoires de réussite et aux dernières innovations en IA.",
+        "agentDesc": "Engagez, soutenez et concluez des affaires — tout via WhatsApp. Tout dans Salesforce.",
+        "agentDesc2": "Connectez-vous et répondez aux clients via WhatsApp depuis n'importe quel enregistrement Salesforce — Prospects, Cas, Opportunités, Ordres de travail ou Objets personnalisés.",
+        "letsBeginBtn": "Commençons",
+        "SalesforceDataCloud": "Salesforce Data Cloud",
+        "dataSphere": "DataSphere",
+        "sapBusinessDataCloud": "SAP Business Data Cloud",
+        "SAP": "SAP",
+        "Salesforce": "Salesforce",
+        "SAPAriba": "SAP Ariba",
+        "RevenueCloud": "Revenue Cloud",
+        "Agentforce": "Agentforce",
+        "SuccessPlus": "Success+",
+        "Oracle": "Oracle",
+        "Kinaxis": "Kinaxis",
+        "MuleSoft": "MuleSoft",
+        "SAPCPI": "SAP CPI",
+        "UIPath": "UIPath",
+        "Tosca": "Tricentis Tosca",
+        "GrowwithSAP": "Grow with SAP",
+        "RisewithSAP": "Rise with SAP",
+        "OracleEBSPlus": "Oracle EBSPlus",
+        "SAPDigitalDesk": "SAP Digital Desk",
+        "AutoSense": "AutoSense",
+        "Retail+": "Retail+",
+        "SAPBuy+": "SAPBuy+",
+        "LifeAI+": "Life AI+",
+        "Advantage+": "Advantage+",
+        "RialFinance+": "RialFinance+",
+        "SAPDatasphere": "SAP Datasphere",
+        "SalesforceAgent+": "Salesforce Agent+",
+        "Overview": "Présentation",
+        "healthcareTitle": "Soins de santé",
+        "MedicalDevices": "Dispositifs médicaux",
+        "pharmaLabel": "Pharma et Biotechnologie",
+        "HomeHealth": "Soins à domicile",
+        "Partnership": "Partenariat",
+        "CultureandValues": "Culture et valeurs",
+        "news": "Actualités et communiqués de presse",
+        "CorporateCitizenship": "Citoyenneté d'entreprise",
+        "Blogs": "Blogs",
+        "CaseStudies": "Études de cas",
+        "Webinars": "Webinaires",
+        "Mulesoft": "MuleSoft",
+        "Demand+": "Demand+",
+        "intelligentScmDesc": "Réduisez les coûts opérationnels et augmentez le ROI pour chaque ligne de métier",
+        "intelligentScmDesc2": "Qu'il s'agisse de moderniser des systèmes existants ou de rationaliser les opérations, nos services par ligne de métier sont conçus pour évoluer avec votre entreprise."
+    },
+    "contactForm": {
+        "contactUsTitle": "Prêt à passer à l'étape suivante ? Commencez votre parcours vers l'excellence opérationnelle",
+        "message": "Message*",
+        "messageError1": "Le message est obligatoire.",
+        "messageError2": "Le message doit contenir au moins 10 caractères.",
+        "messageError3": "Le message ne doit pas dépasser 1000 caractères.",
+        "company": "Entreprise*",
+        "email": "Email*",
+        "emailError1": "L'email est obligatoire.",
+        "emailError2": "Adresse email invalide.",
+        "fname": "Prénom*",
+        "fnameError1": "Le prénom est obligatoire.",
+        "fnameError2": "Le prénom contient des caractères invalides.",
+        "fnameError3": "Le prénom ne doit pas dépasser 40 caractères.",
+        "lname": "Nom*",
+        "lnameError1": "Le nom est obligatoire.",
+        "lnameError2": "Le nom contient des caractères invalides.",
+        "lnameError3": "Le nom ne doit pas dépasser 40 caractères.",
+        "phone": "Téléphone",
+        "role": "Rôle*",
+        "enterCaptcha": "Entrez le Captcha",
+        "captchaMsg": "Entrez le résultat de l'équation affichée ci-dessus",
+        "letsBegin": "Commençons"
+    },
+    "footer": {
+        "Simplifying": "Simplifier",
+        "Problems": "Les problèmes",
+        "Enabling": "Permettre",
+        "Solutions": "Solutions",
+        "Empowering": "Autonomiser",
+        "Customers": "Clients",
+        "Termsofuse": "Conditions d'utilisation",
+        "PrivacyNotice": "Politique de confidentialité",
+        "copyright": "©2025 Rialtes, Tous droits réservés"
+    },
+    "learnMorePage": {
+        "learnmore": "En savoir plus",
+        "seeAllBlogs": "Voir tous les blogs",
+        "seeAllCaseStudies": "Voir toutes les études de cas",
+        "seeAllWebinars": "Voir tous les webinaires"
+    },
+    "useCarouselComponent": {
+        "title": "Le succès de votre entreprise dépend de vos collaborateurs. Transformez votre entreprise avec un système quantifiable et axé sur les processus.",
+        "slides": [
+            {
+                "id": 1,
+                "category": "Santé",
+                "description": "Nous comprenons les dynamiques de l'industrie de la santé. Nos services MedTech garantissent le bon fonctionnement des systèmes techniques et mécaniques au sein des établissements de santé."
+            },
+            {
+                "id": 2,
+                "category": "Immobilier",
+                "description": "Améliorez vos opérations à l'échelle de l'entreprise et la gestion immobilière grâce à des technologies numériques de pointe et des intégrations préconfigurées via nos solutions SAP Real Estate Management personnalisées."
+            },
+            {
+                "id": 3,
+                "category": "Fabrication",
+                "description": "Optimisez les relations clients, les processus de vente et la gestion de la chaîne d'approvisionnement dans les entreprises manufacturières. Nous proposons des logiciels de fabrication pour maintenir vos lignes de production en bon fonctionnement."
+            },
+            {
+                "id": 4,
+                "category": "High-tech",
+                "description": "Nos services de conseil couvrent l'ensemble des technologies et méthodologies nécessaires à la création, l'intégration et la maintenance des écosystèmes de produits Salesforce sur toutes les plateformes."
+            }
+        ]
+    },
+    "featuredCarousel": {
+        "slides": [
+            {
+                "id": 1,
+                "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
+                "title": "DevOps Rationalisé avec Copado et Salesforce",
+                "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour des projets de construction résidentiels et commerciaux."
+            },
+            {
+                "id": 2,
+                "url": "/insights/case-studies/realForce-banking-module-ach",
+                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+                "title": "Module Bancaire RealForce - ACH",
+                "description": "Une entreprise immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
+            },
+            {
+                "id": 3,
+                "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+                "title": "Automatiser le traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
+                "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants."
+            }
+        ],
+        "getInspiredTitle": "Inspirez-vous de nos dernières réussites clients, de nos analyses sectorielles et plus encore",
+        "knowMoreTitle": "En savoir plus"
+    },
+    "servicesBlogs": {
+        "headerTitle": "Actualités",
+        "learnMore": "En savoir plus"
+    },
+    "exploreMore": {
+        "headerTitle": "Explorer davantage",
+        "previousSlide": "Diapositive précédente",
+        "nextSlide": "Diapositive suivante",
+        "slides": [
+            {
+                "id": 1,
+                "image": "/images/industry/manufacturing.webp",
+                "title": "Fabrication",
+                "url": "/industry/manufacturing-cloud-erp"
+            },
+            {
+                "id": 2,
+                "image": "/images/industry/healthcare.webp",
+                "title": "Santé",
+                "url": "/industry/life-sciences/healthcare-medtech-patient-care"
+            },
+            {
+                "id": 3,
+                "image": "/images/industry/real-estate.webp",
+                "title": "Immobilier",
+                "url": "/industry/real-estate-property-management"
+            },
+            {
+                "id": 4,
+                "image": "/images/industry/hi-tech.webp",
+                "title": "Haute technologie",
+                "url": "/industry/hitech-semiconductor-ai-it-solutions"
+            }
+        ]
+    },
+    "contactUs": {
+        "headerTitle": "Notre présence à travers le monde",
+        "headerSubtitle": "Comment pouvons-nous vous aider ?",
+        "headerDesc": "Contactez-nous, nous serions ravis d'avoir de vos nouvelles",
+        "contactUsTitle": "Prêt à passer à l'étape suivante ? Commençons votre parcours vers l'excellence opérationnelle"
+    },
+    "thankYou": {
+        "thankYouTitle": "Merci",
+        "thankYouTitleOne": "de contacter Rialtes !",
+        "thankYouSubtitle": "Notre expert vous répondra sous peu via votre téléphone ou votre adresse e-mail.",
+        "thankYouSubtitleOne": "Pour plus de mises à jour, suivez-nous sur :",
+        "close": "Fermer"
+    },
+    "termsUse": {
+        "termsTitle": "Conditions d'utilisation de Rialtes",
+        "termsDesc": "En accédant et en utilisant ce site web, vous reconnaissez et acceptez d'être lié par les conditions générales suivantes, sans limitation ni réserve. Ces conditions régissent votre utilisation de notre site web, y compris tout contenu, service et fonctionnalité. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site.",
+        "termsDescOne": "Tout le contenu de ce site web, y compris, mais sans s'y limiter, les textes, images, graphiques, logos, icônes, vidéos, logiciels et l'agencement de ce contenu, est la propriété exclusive de Rialtes Technologies and Solutions LLC, sauf indication contraire. Ce contenu est protégé par les lois applicables sur le droit d'auteur, les marques et autres droits de propriété intellectuelle. Toutes les marques, noms commerciaux et logos affichés sur ce site sont la propriété de leurs détenteurs respectifs. Toute utilisation non autorisée de contenu, de marques ou de propriété intellectuelle de ce site peut violer les lois applicables et entraîner des conséquences juridiques.",
+        "useTitle": "Utilisation du site et restrictions",
+        "useDesc": "Vous disposez d'un droit limité, révocable, non exclusif et non transférable d'accéder et d'utiliser ce site strictement à des fins d'information et non commerciales. Cependant, vous acceptez de ne pas :",
+        "useDescOne": "Vous pouvez télécharger et imprimer une copie des documents de ce site uniquement pour un usage personnel et non commercial, à condition de ne pas modifier le contenu et de conserver tous les avis de copyright, marques et propriété.",
+        "noTitle": "Absence de garantie et clause de non-responsabilité",
+        "noDesc": "Ce site et tout son contenu sont fournis 'en l'état' et 'selon disponibilité' sans aucune garantie, expresse ou implicite. Rialtes décline expressément toutes garanties, y compris, mais sans s'y limiter :",
+        "noDescOne": "Votre utilisation du site et toute confiance accordée au contenu se font à vos propres risques.",
+        "limitationTitle": "Limitation de responsabilité",
+        "limitationDesc": "Dans toute la mesure permise par la loi, Rialtes, ses affiliés, dirigeants, employés, agents et fournisseurs de services tiers ne seront en aucun cas responsables des dommages directs, indirects, accessoires, consécutifs, spéciaux ou exemplaires résultant de ou liés à votre utilisation de ce site. Cela inclut, mais sans s'y limiter :",
+        "limitationDescOne": "En aucun cas la responsabilité totale de Rialtes ne dépassera le montant que vous avez payé (le cas échéant) pour accéder à ce site.",
+        "linksTitle": "Liens vers des sites tiers",
+        "linksDesc": "Ce site peut inclure des liens vers des sites tiers pour votre commodité et à des fins d'information. Rialtes n'endosse, ne contrôle ni n'assume aucune responsabilité quant au contenu, aux politiques ou aux pratiques de ces sites tiers. Vos interactions avec ces sites externes se font à vos propres risques, et nous vous encourageons à examiner leurs conditions d'utilisation et politiques de confidentialité avant toute interaction.",
+        "lawTitle": "Droit applicable et juridiction",
+        "lawDesc": "Ce site est maintenu dans (juridiction), et ces Conditions d'utilisation sont régies par les lois de (juridiction), sans référence à ses principes de conflit de lois.",
+        "lawDescOne": "Tout litige découlant de votre utilisation de ce site sera soumis à la juridiction exclusive des tribunaux situés à (juridiction). Vous acceptez expressément de vous soumettre à cette juridiction et renoncez à toute objection relative au lieu ou à un forum incommode.",
+        "complianceTitle": "Conformité aux lois locales",
+        "complianceDesc": "Vous êtes responsable de vous assurer que votre utilisation de ce site respecte les lois de votre juridiction. En utilisant ce site, vous déclarez que vous ne violez aucune loi ou réglementation applicable.",
+        "submissionTitle": "Soumissions et confidentialité",
+        "submissionOne": "Sauf indication contraire expresse, toute information soumise via ce site sera considérée comme non confidentielle et non propriétaire. En soumettant des informations, vous :",
+        "submissionTwo": "Nous vous recommandons de ne pas soumettre d'informations confidentielles ou propriétaires via ce site.",
+        "submissionThree": "Rialtes se réserve le droit de mettre à jour ou de modifier ces Conditions d'utilisation à tout moment sans préavis. Toute modification prendra effet immédiatement dès sa publication sur cette page. Nous encourageons les utilisateurs à consulter périodiquement ces Conditions pour rester informés des mises à jour. L'utilisation continue du site après modification constitue une acceptation des Conditions mises à jour.",
+        "useRestrictions": [
+            "Copier, reproduire, modifier, republier, télécharger, publier, distribuer, transmettre ou utiliser tout contenu de ce site à des fins commerciales sans l'autorisation écrite préalable de Rialtes.",
+            "S'engager dans toute utilisation non autorisée du site, y compris, mais sans s'y limiter, l'extraction de données, les scripts automatisés ou toute autre pratique qui extrait des données du site.",
+            "Tenter d'accéder sans autorisation à toute partie du site, serveur ou système connecté au réseau de Rialtes.",
+            "Utiliser le site d'une manière susceptible d'endommager, désactiver, surcharger ou altérer sa fonctionnalité ou d'interférer avec l'accès d'autres utilisateurs.",
+            "Introduire tout malware, virus ou code nuisible dans le site.",
+            "Violer toute loi locale, nationale ou internationale applicable par votre utilisation du site."
+        ],
+        "noWarranties": [
+            "Garanties de qualité marchande, d'adéquation à un usage particulier, de non-violation ou d'exactitude du contenu.",
+            "Garanties que le site sera ininterrompu, exempt d'erreurs, sécurisé ou exempt d'éléments nuisibles tels que virus ou logiciels malveillants.",
+            "Toute garantie que les informations fournies sur le site sont à jour ou applicables à vos besoins spécifiques."
+        ],
+        "limitationOfLiability": [
+            "Perte de profits, de revenus ou d'opportunités commerciales.",
+            "Interruption des activités, défaillances techniques ou corruption de données.",
+            "Accès non autorisé ou utilisation d'informations personnelles.",
+            "Toute confiance accordée au contenu publié sur le site."
+        ],
+        "submissionTerms": [
+            "Garantir que vous avez le droit légal de le faire et que la soumission ne viole aucun droit de tiers.",
+            "Accepter que Rialtes ait le droit illimité d'utiliser, de modifier, de distribuer et de reproduire toute information que vous fournissez sans aucune compensation.",
+            "Reconnaître que la nature ouverte d'Internet signifie que nous ne pouvons pas garantir la confidentialité des informations soumises via ce site."
+        ]
+    },
+    "privacyPolicy": {
+        "headerTitle": "Politique de Confidentialité",
+        "headerDate": "Date d'entrée en vigueur : 19 mars 2025.",
+        "headerDesc": "Nous respectons votre vie privée et nous nous engageons à protéger vos données. Cette notice de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web",
+        "headerDescOne": ". Elle décrit également vos droits et vos choix concernant vos informations personnelles.",
+        "headerDescTwo": " En accédant ou en utilisant notre site web, vous reconnaissez et acceptez les pratiques décrites dans cette politique de confidentialité. Si vous n'acceptez pas nos politiques et pratiques, veuillez cesser d'utiliser notre site.",
+        "collectionTitle": "Collecte et utilisation des informations personnelles",
+        "collectionDesc": "Nous collectons des informations personnelles lorsque vous soumettez des demandes via notre page/formulaire Contactez-nous ou postulez à des offres d'emploi sur notre page Carrières. Lorsque vous visitez notre site, nous enregistrons des informations spécifiques au navigateur telles que votre adresse IP, le type de navigateur, l'heure d'accès et les pages consultées. Rialtes n'est pas responsable des informations non sollicitées que vous fournissez et vous consentez à notre utilisation de vos informations conformément à notre politique de confidentialité. Nous pouvons utiliser vos informations personnelles pour répondre à vos demandes, communiquer avec vous, pour des activités marketing autorisées et pour soutenir nos produits ou services.",
+        "collectTitle": "Informations que nous collectons",
+        "collectDesc": "Nous collectons des informations à des fins commerciales légitimes, pour offrir une expérience fluide et personnalisée, envoyer les informations demandées et collaborer avec vous en tant que client.",
+        "howTitle": "Comment nous utilisons vos informations",
+        "shareTitle": "Comment nous partageons vos informations",
+        "shareDesc": "Nous respectons votre vie privée et ne vendons, n'échangeons ni ne louons vos informations personnelles. Nous ne divulguerons vos informations au gouvernement ou à des tiers que si la loi l'exige. Nous coopérons avec les autorités pour faire respecter les lois sur la fraude, la confidentialité et la sécurité des données. Vous nous autorisez à partager vos informations si nous estimons que cela est nécessaire pour des enquêtes liées à la fraude ou à des activités illégales associées à ce site. Cependant, nous pouvons partager vos données dans des scénarios spécifiques :",
+        "dataTitle": "Sécurité des données",
+        "dataDesc": "Nous prenons des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, altération, divulgation ou destruction. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos informations, aucune méthode de transmission sur Internet n'est sécurisée à 100 %.",
+        "yourTitle": "Vos droits et choix",
+        "yourDesc": "Selon votre localisation, vous pouvez disposer de droits concernant vos informations personnelles, notamment :",
+        "thirdTitle": "Liens vers des tiers",
+        "thirdDesc": "Notre site peut contenir des liens vers des sites web ou services tiers qui ne sont pas exploités par nous. Nous ne sommes pas responsables de leurs politiques de confidentialité ou pratiques. Nous vous encourageons à consulter leurs politiques avant de fournir des données personnelles.",
+        "childTitle": "Confidentialité des enfants",
+        "childDesc": "Notre site est destiné à un public général et ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment de données personnelles auprès d'enfants. Si nous prenons connaissance de la collecte involontaire de telles informations, nous prendrons des mesures pour les supprimer rapidement.",
+        "residentsTitle": "Résidents de Californie",
+        "residentsDesc": "Si vous êtes résident de Californie, le California Consumer Privacy Act (CCPA) vous accorde des droits spécifiques concernant vos informations personnelles. Les entreprises qui collectent des données personnelles auprès des résidents californiens doivent vous informer de leurs pratiques et de vos droits.",
+        "underTitle": "En vertu du CCPA, vous avez le droit de :",
+        "underDesc": "Vous avez également le droit de ne pas subir de discrimination pour l'exercice de ces droits. Les consommateurs californiens vérifiés peuvent s'attendre à une réponse aux demandes dans un délai de 45 jours, avec une extension possible de 45 jours supplémentaires, qui sera communiquée dans le délai initial.",
+        "euTitle": "Résidents de l'UE",
+        "euDesc": "Si vous résidez dans l'Union européenne, vous pouvez disposer de droits spécifiques concernant la collecte, la conservation, l'utilisation et la divulgation de vos données personnelles selon le Règlement général sur la protection des données (RGPD). Nous traitons les données sur la base d'un contrat, du consentement, d'obligations légales ou d'intérêts commerciaux légitimes.",
+        "yourRight": "Vos droits incluent :",
+        "forDetails": "Pour plus de détails, consultez le",
+        "forDesc": "Comité Européen de Protection des Données",
+        "changeTitle": "Modifications de cette politique de confidentialité",
+        "changeDesc": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre pour refléter les changements dans nos pratiques, services ou exigences légales. Toute mise à jour sera publiée sur cette page avec la date d'entrée en vigueur révisée. Nous vous encourageons à consulter périodiquement cette politique.",
+        "contactUs": "Contactez-nous",
+        "thankYou": "Merci de visiter notre site web. Si vous avez des questions, préoccupations ou demandes liées à cette politique de confidentialité, veuillez nous contacter via notre",
+        "contactForm": "formulaire de contact.",
+        "euRightsList": [
+            {
+                "title": "Accès et rectification",
+                "description": "Demandez vos données et corrigez les inexactitudes."
+            },
+            {
+                "title": "Opposition et restriction",
+                "description": "S'opposer au traitement ou demander des limitations."
+            },
+            {
+                "title": "Effacement",
+                "description": "Demander la suppression des données dans certains cas."
+            },
+            {
+                "title": "Portabilité des données",
+                "description": "Recevez vos données dans un format structuré."
+            },
+            {
+                "title": "Déposer une plainte",
+                "description": "Contactez une autorité de protection des données si nécessaire."
+            }
+        ],
+        "californiaRightsList": [
+            "Demander des informations sur vos informations personnelles, y compris leurs catégories, sources, finalités commerciales et divulgations à des tiers.",
+            "Demander la suppression de vos informations personnelles, sous certaines exceptions.",
+            "Se désinscrire de la vente de vos informations personnelles."
+        ],
+        "userRightsList": [
+            "Le droit d'accéder, de corriger ou de supprimer vos données.",
+            "Le droit de restreindre ou de s'opposer au traitement des données.",
+            "Le droit de se désinscrire des communications marketing.",
+            "Le droit de désactiver les cookies via les paramètres de votre navigateur."
+        ],
+        "sharingList": [
+            {
+                "title": "Fournisseurs de services",
+                "description": "Nous pouvons partager des informations avec des fournisseurs de services tiers de confiance qui assistent dans l'hébergement du site, l'analyse, la communication par email et d'autres opérations commerciales."
+            },
+            {
+                "title": "Exigences légales et de conformité",
+                "description": "Si la loi, une ordonnance judiciaire ou pour protéger nos droits légaux l'exige, nous pouvons divulguer des informations personnelles aux autorités."
+            },
+            {
+                "title": "Transferts commerciaux",
+                "description": "En cas de fusion, acquisition ou vente de tout ou partie de notre société, vos données peuvent être transférées à la nouvelle entité."
+            }
+        ],
+        "purposeList": [
+            "Fournir, exploiter et améliorer notre site web et nos services.",
+            "Répondre à vos demandes, questions ou besoins de service client.",
+            "Personnaliser votre expérience en adaptant le contenu et les services à vos préférences.",
+            "Améliorer les fonctionnalités, la convivialité et la sécurité de notre site.",
+            "Envoyer des newsletters, mises à jour et communications marketing (vous pouvez vous désinscrire à tout moment).",
+            "Respecter les obligations légales et réglementaires et faire appliquer nos conditions d'utilisation."
+        ],
+        "privacyList": [
+            {
+                "title": "Informations personnelles",
+                "description": "Lorsque vous fournissez volontairement des informations via les formulaires de contact, les inscriptions aux webinaires ou les candidatures, nous pouvons collecter votre nom, adresse e-mail, numéro de téléphone, poste, informations sur l'entreprise et autres informations d'identification. Nous pouvons utiliser ces informations pour améliorer notre marketing, analyser l'utilisation du site, enrichir nos contenus et services et personnaliser notre site. Nous faisons également appel à des prestataires externes pour nous aider dans l'envoi de communications, l'analyse des données, le traitement des paiements et le service client."
+            },
+            {
+                "title": "Informations non personnelles",
+                "description": "Pour améliorer l'expérience utilisateur et analyser les tendances, nous pouvons collecter des informations telles que l'adresse IP, le type de navigateur, les informations sur l'appareil, les URL de référence et les pages visitées. Nous utilisons les données agrégées pour comprendre comment les visiteurs interagissent avec notre site et pour réaliser des recherches internes sur la démographie et le comportement des utilisateurs. Nous pouvons partager ces informations collectives avec des tiers."
+            },
+            {
+                "title": "Cookies",
+                "description": "Nous utilisons des cookies et autres technologies de suivi pour recueillir des informations sur votre interaction avec notre site, y compris le comportement de navigation et les préférences. Vous pouvez toujours choisir de fournir ou non des informations via les cookies."
+            }
+        ]
+    }
+}

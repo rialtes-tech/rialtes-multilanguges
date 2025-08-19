@@ -1,5 +1,3 @@
-
-
 "use client";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
@@ -10,7 +8,10 @@ import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import LearnMore from "@/app/[locale]/components/learnMore";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -126,7 +127,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('growWithSap')
   const locale = useLocale();
-  const content = locale === 'es' ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { services, cardsData, benefits, sapBenefits, rialtesSapData, sapIntegrationPoints, sapInnovationList, featureHighlights, futureProofingData, keyPhasesData } = content.growWithSap;
   return (
     <div className="min-h-screen bg-white">

@@ -1,312 +1,554 @@
 {
-    "homePage": {
-        "withImpactTitle": "with Impact",
-        "beyondTitle": "Beyond Business: A Commitment to Change",
-        "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
-        "successStoriesTitle": "Success Stories",
-        "successStoriesDesc": "Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.",
-        "industryExpertiesTitle": "Industry Expertise & Solutions",
-        "industryExpertiesDesc": "We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.",
-        "insightTitle": "Insights",
-        "insightDesc": "Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.",
-        "lifeTitle": "LIFE",
-        "rialtesName": "RIALTES",
-        "rialtesData": "Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.",
-        "carouselData": [
-            {
-                "title": "Blogs",
-                "description": "Redefining the Future of Enterprise AI with SAP Joule",
-                "image": "/images/blog/jthumb.webp",
-                "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
-            },
-            {
-                "title": "Blogs",
-                "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-                "image": "/images/blog/blog-8.webp",
-                "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
-            },
-            {
-                "title": "Blogs",
-                "description": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-                "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
-                "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
-            },
-            {
-                "title": "Blogs",
-                "description": "How Agentforce Agents Scale ERP Systems with AI ",
-                "image": "/images/blog/blog-12.webp",
-                "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
-            },
-            {
-                "title": "Blogs",
-                "description": "How SAP SuccessFactors Enhances Remote Work Management",
-                "image": "/images/blog/blog-13.webp",
-                "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
-            },
-            {
-                "title": "Blogs",
-                "description": "How Salesforce Agentforce Actually Works",
-                "image": "/images/blog/blog-1.webp",
-                "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
-            }
-        ],
-        "successStoryData": [
-            {
-                "id": 1,
-                "imageUrl": "/images/homepage/stremline.webp",
-                "title": "Manufacturing",
-                "description": "Streamlined DevOps using Copado and Salesforce",
-                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-            },
-            {
-                "id": 2,
-                "imageUrl": "/images/homepage/salesforce.webp",
-                "title": "Healthcare",
-                "description": "Salesforce Health Cloud, Prior Authorization",
-                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
-            },
-            {
-                "id": 3,
-                "imageUrl": "/images/homepage/mfg-2.webp",
-                "title": "Manufacturing",
-                "description": "Omnichannel case management with Salesforce Service Cloud",
-                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-            },
-            {
-                "id": 4,
-                "imageUrl": "/images/homepage/public-sector-3.webp",
-                "title": "Public Sector",
-                "description": "YARDI Transformation Journey with North America's Largest PHA",
-                "theme": "light",
-                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
-            },
-            {
-                "id": 5,
-                "imageUrl": "/images/homepage/healthcare-2.webp",
-                "title": "Healthcare",
-                "description": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-            },
-            {
-                "id": 6,
-                "imageUrl": "/images/homepage/mfg-3.webp",
-                "title": "Manufacturing",
-                "description": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
-                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
-            },
-            {
-                "id": 7,
-                "imageUrl": "/images/homepage/realestate-3.webp",
-                "title": "Real Estate",
-                "description": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-                "url": "insights/case-studies/realForce-banking-module-ach",
-                "theme": "light"
-            },
-            {
-                "id": 8,
-                "imageUrl": "/images/homepage/healthcareImg.webp",
-                "title": "Healthcare",
-                "description": "Digitizing patient journey using Salesforce health cloud",
-                "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-                "theme": "light"
-            }
-        ],
-        "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
-        "manufacturingTitle": "MANUFACTURING",
-        "manufacturingDesc": "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.",
-        "realEstateTitle": "REAL ESTATE",
-        "realEstateDesc": "Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.",
-        "semiconductorTitle": "Semiconductor",
-        "semiconductorDesc": "Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.",
-        "automotiveTitle": "AUTOMOTIVE",
-        "automotiveDesc": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.",
-        "healthcareTitle": "Healthcare",
-        "healthcareDesc": "Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.",
-        "retailTitle": "Retail",
-        "retailDesc": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
-        "viewAllIndustries": "View All Industries",
-        "knowMoreBtn": "Know More"
-    },
-    "header": {
-        "solutionTitle": "Solutions",
-        "productsTitle": "Products",
-        "servicesTitle": "Services",
-        "industriesTitle": "Industries",
-        "aboutusTitle": "About Us",
-        "insightTitle": "Insights",
-        "contactTitle": "Contact Us"
-    },
-    "contactForm": {
-        "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
-        "message": "Message*",
-        "messageError1": "Message is required.",
-        "messageError2": "Message should be at least 10 characters long.",
-        "messageError3": "Message should not exceed 1000 characters.",
-        "company": "Company*",
-        "email": "Email*",
-        "emailError1": "Email is required.",
-        "emailError2": "Invalid email address.",
-        "fname": "First Name*",
-        "fnameError1": "First name is required.",
-        "fnameError2": "First name contains invalid characters.",
-        "fnameError3": "First name should not exceed 40 characters.",
-        "lname": "Last Name*",
-        "lnameError1": "Last name is required.",
-        "lnameError2": "Last name contains invalid characters.",
-        "lnameError3": "Last name should not exceed 40 characters.",
-        "phone": "Phone",
-        "role": "Role*",
-        "enterCaptcha": "Enter Captcha",
-        "captchaMsg": "Enter the result of the equation shown above",
-        "letsBegin": "Let's Begin"
-    },
-    "footer": {
-        "Simplifying": "Simplifying",
-        "Problems": "Problems",
-        "Enabling": "Enabling",
-        "Solutions": "Solutions",
-        "Empowering": "Empowering",
-        "Customers": "Customers",
-        "Termsofuse": "Terms of use",
-        "PrivacyNotice": "Privacy Notice",
-        "copyright": "©2025 Rialtes, All rights reserved"
-    },
-    "learnMorePage": {
-        "learnmore": "Learn More"
-    },
-    "useCarouselComponent": {
-        "title": "Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.",
-        "slides": [
-            {
-                "id": 1,
-                "category": "Healthcare",
-                "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities."
-            },
-            {
-                "id": 2,
-                "category": "Real Estate",
-                "description": "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions."
-            },
-            {
-                "id": 3,
-                "category": "Manufacturing",
-                "description": "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer manufacturing software to help you keep your production lines running smoothly."
-            },
-            {
-                "id": 4,
-                "category": "Hi-tech",
-                "description": "Our consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms."
-            }
-        ]
-    },
-    "featuredCarousel": {
-        "slides": [
-            {
-                "id": 1,
-                "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
-                "title": "Streamlined DevOps using Copado and Salesforce",
-                "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
-            },
-            {
-                "id": 2,
-                "url": "/insights/case-studies/realForce-banking-module-ach",
-                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-                "title": "RealForce Banking Module - ACH",
-                "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
-            },
-            {
-                "id": 3,
-                "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
-                "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-                "description": "A global medical technology company that develops and manufactures innovative products"
-            }
-        ],
-        "getInspiredTitle":"Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
-        "knowMoreTitle":"Know More"
-    },
-    "servicesBlogs":{
-        "headerTitle":"Insights",
-        "learnMore":"Learn more"
-    },
-    "exploreMore":{
-        "headerTitle":"Explore More",
-        "slides" :[
-    {
-      "id": 1,
-      "image": "/images/industry/manufacturing.webp",
-      "title": "Manufacturing",
-      "url":"/industry/manufacturing-cloud-erp"
-    },
-    {
-      "id": 2,
-      "image": "/images/industry/healthcare.webp",
-      "title": "Healthcare",
-      "url":"/industry/life-sciences/healthcare-medtech-patient-care"
-    },
-    {
-      "id": 3,
-      "image": "/images/industry/real-estate.webp",
-      "title": "Real Estate",
-      "url":"/industry/real-estate-property-management"
-    },
-    {
-      "id": 4,
-      "image": "/images/industry/hi-tech.webp",
-      "title": "Hi-Tech",
-      "url":"/industry/hitech-semiconductor-ai-it-solutions"
-    }
-]
-    },
-    "contactUs":{
-        "headerTitle": "Our presence across the Globe",
-        "headerSubtitle": "How can we help you?",
-        "headerDesc": "Contact us, we would love to hear from you",
-        "usTitle": "UNITED STATES",
-        "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
-        "locations" :
-      [
-  {
-    "country": "UNITED STATES",
-    "headquarter": "Austin (Headquarter)",
-    "address": "501 Congress Avenue, Suite 150,\nAustin, Texas, 78701\nE-mail: sales@rialtes.com"
+  "homePage": {
+    "withImpactTitle": "with Impact",
+    "beyondTitle": "Beyond Business: A Commitment to Change",
+    "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
+    "successStoriesTitle": "Success Stories",
+    "successStoriesDesc": "Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.",
+    "industryExpertiesTitle": "Industry Expertise & Solutions",
+    "industryExpertiesDesc": "We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.",
+    "insightTitle": "Insights",
+    "insightDesc": "Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.",
+    "lifeTitle": "LIFE",
+    "rialtesName": "RIALTES",
+    "rialtesData": "Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.",
+    "carouselData": [
+      {
+        "title": "Blogs",
+        "description": "Redefining the Future of Enterprise AI with SAP Joule",
+        "image": "/images/blog/jthumb.webp",
+        "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
+      },
+      {
+        "title": "Blogs",
+        "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
+        "image": "/images/blog/blog-8.webp",
+        "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+      },
+      {
+        "title": "Blogs",
+        "description": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
+        "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+        "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+      },
+      {
+        "title": "Blogs",
+        "description": "How Agentforce Agents Scale ERP Systems with AI ",
+        "image": "/images/blog/blog-12.webp",
+        "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+      },
+      {
+        "title": "Blogs",
+        "description": "How SAP SuccessFactors Enhances Remote Work Management",
+        "image": "/images/blog/blog-13.webp",
+        "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+      },
+      {
+        "title": "Blogs",
+        "description": "How Salesforce Agentforce Actually Works",
+        "image": "/images/blog/blog-1.webp",
+        "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+      }
+    ],
+    "successStoryData": [
+      {
+        "id": 1,
+        "imageUrl": "/images/homepage/stremline.webp",
+        "title": "Manufacturing",
+        "description": "Streamlined DevOps using Copado and Salesforce",
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/homepage/salesforce.webp",
+        "title": "Healthcare",
+        "description": "Salesforce Health Cloud, Prior Authorization",
+        "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/homepage/mfg-2.webp",
+        "title": "Manufacturing",
+        "description": "Omnichannel case management with Salesforce Service Cloud",
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/homepage/public-sector-3.webp",
+        "title": "Public Sector",
+        "description": "YARDI Transformation Journey with North America's Largest PHA",
+        "theme": "light",
+        "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+      },
+      {
+        "id": 5,
+        "imageUrl": "/images/homepage/healthcare-2.webp",
+        "title": "Healthcare",
+        "description": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+      },
+      {
+        "id": 6,
+        "imageUrl": "/images/homepage/mfg-3.webp",
+        "title": "Manufacturing",
+        "description": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
+        "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+      },
+      {
+        "id": 7,
+        "imageUrl": "/images/homepage/realestate-3.webp",
+        "title": "Real Estate",
+        "description": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "url": "insights/case-studies/realForce-banking-module-ach",
+        "theme": "light"
+      },
+      {
+        "id": 8,
+        "imageUrl": "/images/homepage/healthcareImg.webp",
+        "title": "Healthcare",
+        "description": "Digitizing patient journey using Salesforce health cloud",
+        "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+        "theme": "light"
+      }
+    ],
+    "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
+    "manufacturingTitle": "MANUFACTURING",
+    "manufacturingDesc": "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.",
+    "realEstateTitle": "REAL ESTATE",
+    "realEstateDesc": "Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.",
+    "semiconductorTitle": "Semiconductor",
+    "semiconductorDesc": "Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.",
+    "automotiveTitle": "AUTOMOTIVE",
+    "automotiveDesc": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.",
+    "healthcareTitle": "Healthcare",
+    "healthcareDesc": "Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.",
+    "retailTitle": "Retail",
+    "retailDesc": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
+    "viewAllIndustries": "View All Industries",
+    "knowMoreBtn": "Know More"
   },
-  {
-    "country": "INDIA",
-    "headquarter": "Pune (Headquarter)",
-    "address": "World Trade Center, 119, Tower-2,\n1st Floor, Kharadi, Pune - 411014,\nMaharashtra, India\nE-mail: sales@rialtes.com"
+  "header": {
+    "solutionTitle": "Solutions",
+    "productsTitle": "Products",
+    "servicesTitle": "Services",
+    "industriesTitle": "Industries",
+    "aboutusTitle": "About Us",
+    "insightTitle": "Insights",
+    "contactTitle": "Contact Us",
+    "dataAiLabel": "Data & AI",
+    "enterpriseLabel": "Enterprise Platforms",
+    "integrationLabel": "Integration",
+    "artificialLabel": "Artificial Intelligence",
+    "processAutoLabel": "Process Automation",
+    "qualityEngLabel": "Quality Engineering & Assurance",
+    "businessTransformationLabel": "Business Transformation",
+    "LobLabel": "LOB Services",
+    "spendMgmtLabel": "Spend Management",
+    "hxmLabel": "HXM Transformation",
+    "intelligentLabel": "Intelligent SCM",
+    "appServicesLabel": "Application Services",
+    "agentchatLabel": "AgentChat",
+    "dataAiDesc": "From Data to Decisions — Smarter, Faster, Better with AI",
+    "dataAiDesc2": "Turn raw data into real-time intelligence that drives efficiency, innovation, and growth",
+    "enterpriseDesc": "Transform. Automate. Lead — The Power of Intelligent Enterprise",
+    "enterpriseDesc2": "Achieve operational excellence and customer-centric growth with scalable, intelligent enterprise platforms.",
+    "integrationDesc": "Smarter Connections. Faster Growth. Intelligent Integration Services",
+    "integrationDesc2": "Future-ready integration strategies that align business goals with seamless technology execution",
+    "qualityEngDesc": "Empowering Digital Excellence with Advanced Testing Solutions",
+    "qualityEngDesc2": "Ensure the highest standards of software quality, performance, and reliability with our Quality Engineering and Assurance services.",
+    "artificialDesc": "Make AI Your Competitive Advantage",
+    "artificialDesc2": "Empowering businesses to solve complex problems, automate workflows, and deliver real-time insights with AI.",
+    "aiAutomationDesc": "Agility Meets Efficiency with Next-Gen Process Automation",
+    "aiAutomationDesc2": "Integrating AI, RPA, and analytics to drive seamless, intelligent, and high-performing business processes.",
+    "businessTransDesc": "From Vision to Value — Transform Smarter, Grow Faster",
+    "businessTransDesc2": "From strategy to execution, we accelerate your transformation journey with AI-powered insights and industry-leading expertise, turning challenges into competitive advantages",
+    "servicesDataAiDesc": "Subtext - Smarter Data. Sharper Decisions. Stronger Outcomes.",
+    "servicesDataAiDesc2": "Experience the future of consulting — powered by AI and insight-driven innovation.",
+    "spendMgmtDesc": "Visibility. Control. Savings.",
+    "spendMgmtDesc2": "Our comprehensive spend management services deliver transparency and accountability, transforming how you manage business expenses.",
+    "intelligentScm": "Reduce operational costs and increase ROI For Every Line of Business",
+    "intelligentScm2": "Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business.",
+    "appServicesDesc": "Expert-Led Managed Services for Application Performance and Maximum Business Impact",
+    "appServicesDesc2": "From strategic implementation to day-to-day operations, we offer end-to-end managed services for SAP and Salesforce platforms—ensuring performance, scalability, and continuous innovation.",
+    "hxmDesc": "Empower Your Workforce with Smarter HCM Solutions",
+    "hxmDesc2": "From hire to retire, our Human Capital Management (HCM) services optimize talent management, boost productivity, and enhance employee experiences.",
+    "intelligentServicesDesc": "Reinvent Supply Chains with AI and Real-Time Intelligence",
+    "intelligentServicesDesc2": "Empower businesses to anticipate demand, automate operations, and respond to disruptions swiftly, turning supply chains into strategic, resilient growth drivers.",
+    "realEstateLabel": "Real Estate",
+    "lifeScienceLabel": "Life Sciences",
+    "semiconductorLabel": "Semiconductor",
+    "manufacturingLabel": "Manufacturing",
+    "educationLabel": "Education",
+    "automativeLabel": "Automotive",
+    "TTHLabel": "Travel and Hospitality",
+    "retailLabel": "Retail",
+    "nonProfitLabel": "Non-Profit",
+    "financeLabel": "Finance",
+    "automativeIndDesc": "From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions",
+    "automativeIndDesc2": "Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies",
+    "lifeSciencesDesc": "Shaping the Future of Healthcare and Life Sciences with Digital Innovation",
+    "lifeSciencesDesc2": "Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology",
+    "hiTechDesc": "Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions",
+    "hiTechDesc2": "Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises",
+    "autoIndustryDesc": "Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys",
+    "autoIndustryDesc2": "We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.",
+    "TTHDesc": "AI-Driven Innovation for Travel, Transportation & Hospitality",
+    "TTHDesc2": "Our solutions streamline operations, boost agility, and drive revenue across airlines, hotels, logistics, and more",
+    "retailInduDesc": "Smart Retail Solutions to Build Intelligent, Scalable Retail Ecosystems",
+    "retailInduDesc2": "Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.",
+    "nonProfitDesc": "Partnering with Nonprofits to Scale Mission-Driven Outcomes",
+    "nonProfitDesc2": "We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.",
+    "financeDesc": "Bringing Digital Transformation to Financial Services",
+    "financeDesc2": "Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions",
+    "manufacturingDesc": "Powering Smart, Seamless Manufacturing with Mobility and Efficiency",
+    "manufacturingDesc2": "Making Manufacturing Smarter — AI, Automation, and Actionable Insights",
+    "educationDesc": "Driving Education with Student-Centric Solutions",
+    "educationDesc2": "Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.",
+    "aboutLabel": "About Rialtes: Innovating with Impact",
+    "aboutDesc": "Beyond Business: A Commitment to Change",
+    "aboutDesc2": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
+    "insightDesc": "Explore Our Insights: Blogs, Case Studies, and Thought Leadership",
+    "insightDesc2": "Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.",
+    "agentDesc": "Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.",
+    "agentDesc2": "Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.",
+    "letsBeginBtn": "Let's Begin",
+    "SalesforceDataCloud": "Salesforce Data Cloud",
+    "dataSphere": "DataSphere",
+    "sapBusinessDataCloud": "SAP Business Data Cloud",
+    "SAP": "SAP",
+    "Salesforce": "Salesforce",
+    "SAPAriba": "SAP Ariba",
+    "RevenueCloud": "Revenue Cloud",
+    "Agentforce": "Agentforce",
+    "SuccessPlus": "Success+",
+    "Oracle": "Oracle",
+    "Kinaxis": "Kinaxis",
+    "MuleSoft": "MuleSoft",
+    "SAPCPI": "SAP CPI",
+    "UIPath": "UIPath",
+    "Tosca": "Tricentis Tosca",
+    "GrowwithSAP": "Grow with SAP",
+    "RisewithSAP": "Rise with SAP",
+    "OracleEBSPlus": "Oracle EBSPlus",
+    "SAPDigitalDesk": "SAP Digital Desk",
+    "AutoSense": "AutoSense",
+    "Retail+": "Retail+",
+    "SAPBuy+": "SAPBuy+",
+    "LifeAI+": "Life AI+",
+    "Advantage+": "Advantage+",
+    "RialFinance+": "RialFinance+",
+    "SAPDatasphere": "SAP Datasphere",
+    "SalesforceAgent+": "Salesforce Agent+",
+    "Overview": "Overview",
+    "healthcareTitle": "healthcareTitle",
+    "MedicalDevices": "Medical Devices",
+    "pharmaLabel": "Pharma And BioTech",
+    "HomeHealth": "Home Health",
+    "Partnership": "Partnership",
+    "CultureandValues": "Culture and Values",
+    "news": "News and Press Releases",
+    "CorporateCitizenship": "Corporate Citizenship",
+    "Blogs": "Blogs",
+    "CaseStudies": "Case Studies",
+    "Webinars": "Webinars",
+    "Mulesoft": "Mulesoft",
+    "Demand+": "Demand+",
+    "intelligentScmDesc": "Reduce operational costs and increase ROI For Every Line of Business",
+    "intelligentScmDesc2": "Whether it's modernizing legacy systems or streamlining operations, our LOB services are built to scale with your business."
   },
-  {
-    "country": "SINGAPORE",
-    "address": "30 Cecil Street #19-08 Prudential\nTower Singapore 049712\nE-mail: sales.sg@rialtes.com"
+  "contactForm": {
+    "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
+    "message": "Message*",
+    "messageError1": "Message is required.",
+    "messageError2": "Message should be at least 10 characters long.",
+    "messageError3": "Message should not exceed 1000 characters.",
+    "company": "Company*",
+    "email": "Email*",
+    "emailError1": "Email is required.",
+    "emailError2": "Invalid email address.",
+    "fname": "First Name*",
+    "fnameError1": "First name is required.",
+    "fnameError2": "First name contains invalid characters.",
+    "fnameError3": "First name should not exceed 40 characters.",
+    "lname": "Last Name*",
+    "lnameError1": "Last name is required.",
+    "lnameError2": "Last name contains invalid characters.",
+    "lnameError3": "Last name should not exceed 40 characters.",
+    "phone": "Phone",
+    "role": "Role*",
+    "enterCaptcha": "Enter Captcha",
+    "captchaMsg": "Enter the result of the equation shown above",
+    "letsBegin": "Let's Begin"
   },
-  {
-    "country": "UNITED STATES",
-    "city": "California",
-    "address": "5251 California Ave,\nSuite 110, Irvine, California, 92617",
-    "addBorderBottom": true
+  "footer": {
+    "Simplifying": "Simplifying",
+    "Problems": "Problems",
+    "Enabling": "Enabling",
+    "Solutions": "Solutions",
+    "Empowering": "Empowering",
+    "Customers": "Customers",
+    "Termsofuse": "Terms of use",
+    "PrivacyNotice": "Privacy Notice",
+    "copyright": "©2025 Rialtes, All rights reserved"
   },
-  {
-    "country": "INDIA",
-    "city": "Noida",
-    "address": "Berger Delhi One, Sector 16B,\nC-001/A2, Gautam Buddha\nNagar, Noida, UP 201301\nE-mail: sales@rialtes.com"
+  "learnMorePage": {
+    "learnmore": "Learn More",
+    "seeAllBlogs": "See All Blogs",
+    "seeAllCaseStudies": "See All Case Studies",
+    "seeAllWebinars": "See All Webinars"
   },
-  {
-    "country": "CANADA",
-    "address": "Suite 500, 1000 Innovation\nDr Kanata, ON K2K 3E7\nE-mail: sales.ca@rialtes.com"
+  "useCarouselComponent": {
+    "title": "Your business success is influenced by your people. Transform your business with a quantifiable and process-focused system.",
+    "slides": [
+      {
+        "id": 1,
+        "category": "Healthcare",
+        "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities."
+      },
+      {
+        "id": 2,
+        "category": "Real Estate",
+        "description": "Enhance your enterprise-wide operations and real estate management with cutting-edge digital technologies and preconfigured integrations through our tailored SAP Real Estate Management solutions."
+      },
+      {
+        "id": 3,
+        "category": "Manufacturing",
+        "description": "Streamline customer relationships, sales processes, and supply chain management in manufacturing companies. We offer manufacturing software to help you keep your production lines running smoothly."
+      },
+      {
+        "id": 4,
+        "category": "Hi-tech",
+        "description": "Our consulting services cover the complete range of technologies and methodologies necessary for creating, integrating, and maintaining Salesforce product ecosystems across platforms."
+      }
+    ]
   },
-  {
-    "country": "INDIA",
-    "city": "Dehradun",
-    "address": "Dehradun IT Park, Weblan Unit A\n2nd Floor, Sahastradhara\nRoad, Dehradun\nUttarakhand - 248001\nE-mail: sales@rialtes.com"
+  "featuredCarousel": {
+    "slides": [
+      {
+        "id": 1,
+        "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
+        "title": "Streamlined DevOps using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
+      },
+      {
+        "id": 2,
+        "url": "/insights/case-studies/realForce-banking-module-ach",
+        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+        "title": "RealForce Banking Module - ACH",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+      },
+      {
+        "id": 3,
+        "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+        "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        "description": "A global medical technology company that develops and manufactures innovative products"
+      }
+    ],
+    "getInspiredTitle": "Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
+    "knowMoreTitle": "Know More"
   },
-  {
-    "country": "INDIA",
-    "city": "Himachal Pradesh",
-    "address": "Unit #255, Block - B,\n2nd Floor, Motia Plaza, Baddi,\nDist. Solan, Himachal Pradesh 173205\nE-mail: sales@rialtes.com"
+  "servicesBlogs": {
+    "headerTitle": "Insights",
+    "learnMore": "Learn more"
+  },
+  "exploreMore": {
+    "headerTitle": "Explore More",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "slides": [
+      {
+        "id": 1,
+        "image": "/images/industry/manufacturing.webp",
+        "title": "Manufacturing",
+        "url": "/industry/manufacturing-cloud-erp"
+      },
+      {
+        "id": 2,
+        "image": "/images/industry/healthcare.webp",
+        "title": "Healthcare",
+        "url": "/industry/life-sciences/healthcare-medtech-patient-care"
+      },
+      {
+        "id": 3,
+        "image": "/images/industry/real-estate.webp",
+        "title": "Real Estate",
+        "url": "/industry/real-estate-property-management"
+      },
+      {
+        "id": 4,
+        "image": "/images/industry/hi-tech.webp",
+        "title": "Hi-Tech",
+        "url": "/industry/hitech-semiconductor-ai-it-solutions"
+      }
+    ]
+  },
+  "contactUs": {
+    "headerTitle": "Our presence across the Globe",
+    "headerSubtitle": "How can we help you?",
+    "headerDesc": "Contact us, we would love to hear from you",
+    "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence"
+    },
+  "thankYou": {
+    "thankYouTitle": "Thank",
+    "thankYouTitleOne": "you for contacting Rialtes!",
+    "thankYouSubtitle": "Our expert will respond to you shortly via your phone or email address.",
+    "thankYouSubtitleOne": "For more updates follow us on:",
+    "close": "Close"
+  },
+  "termsUse": {
+    "termsTitle": "Rialtes Terms of Use",
+    "termsDesc": "By accessing and using this website, you acknowledge and agree to be bound by the following terms and conditions, without limitation or qualification. These terms govern your use of our Website, including all content, services, and functionalities. If you do not agree with these terms, please refrain from using our Website.",
+    "termsDescOne": "All content on this Website, including but not limited to text, images, graphics, logos, icons, videos, software, and the arrangement of such content, is the exclusive property of Rialtes Technologies and Solutions LLC unless otherwise stated. This content is protected under applicable copyright, trademark, and other intellectual property laws. All trademarks, trade names, and logos displayed on this Website are the property of their respective owners. Unauthorized use of any content, trademarks, or intellectual property from this Website may violate applicable laws and result in legal consequences.",
+    "useTitle": "Use of Website and Restrictions",
+    "useDesc": "You are granted a limited, revocable, non-exclusive, and non-transferable right to access and use this Website strictly for informational and non-commercial purposes. However, you agree not to:",
+    "useDescOne": "You may download and print one copy of materials from this Website solely for personal, non-commercial use, if you do not modify the content and retain all copyright, trademark, and proprietary notices",
+    "noTitle": "No Warranties and Disclaimer",
+    "noDesc": "This Website and all content provided herein are offered on an 'as is' and 'as available' basis without warranties of any kind, either express or implied. Rialtes expressly disclaims all warranties, including but not limited to:",
+    "noDescOne": "Your use of the Website and any reliance on the content is solely at your own risk.",
+    "limitationTitle": "Limitation of Liability",
+    "limitationDesc": "To the fullest extent permitted by law, Rialtes, its affiliates, officers, employees, agents, and third-party service providers shall not be liable for any direct, indirect, incidental, consequential, special, or exemplary damages resulting from or related to your use of this Website. This includes, but is not limited to:",
+    "limitationDescOne": "Under no circumstances shall Rialtes' total liability exceed the amount you paid (if any) for accessing this Website.",
+    "linksTitle": "Links to Third-Party Websites",
+    "linksDesc": "This Website may include links to third-party websites for your convenience and informational purposes. Rialtes does not endorse, control, or assume responsibility for the content, policies, or practices of any third-party sites. Your interactions with external websites are at your own risk, and we encourage you to review their terms and privacy policies before engaging with their content or services.",
+    "lawTitle": "Governing Law and Jurisdiction",
+    "lawDesc": "This Website is maintained in (Jurisdiction), and these Terms of Use shall be governed by the laws of (Jurisdiction), without reference to its conflict of law principles.",
+    "lawDescOne": "Any legal disputes arising from your use of this Website shall be subject to the exclusive jurisdiction of the courts located in (Jurisdiction). You expressly agree to submit to such jurisdiction and waive any objections related to the venue or inconvenient forum.",
+    "complianceTitle": "Compliance with Local Laws",
+    "complianceDesc": "You are responsible for ensuring compliance with the laws of your jurisdiction while accessing and using this Website. By using this Website, you represent that you are not violating any applicable laws or regulations.",
+    "submissionTitle": "Submissions and Confidentiality",
+    "submissionOne": "Unless expressly stated otherwise, any information submitted through this Website shall be deemed non-confidential and non-proprietary. By submitting information, you:",
+    "submissionTwo": "We recommend that you do not submit any confidential or proprietary information via this Website.",
+    "submissionThree": "Rialtes reserves the right to update or modify these Terms of Use at any time without prior notice. Any changes will be effective immediately upon posting the revised terms on this page. We encourage users to review these Terms periodically to stay informed of any updates. Continued use of the Website after modifications are made constitutes acceptance of the updated Terms.",
+    "useRestrictions": [
+      "Copy, reproduce, modify, republish, upload, post, distribute, transmit, or use any content from this Website for commercial purposes without prior written permission from Rialtes.",
+      "Engage in any unauthorized use of the Website, including but not limited to data mining, automated scripts, or any other practice that extracts data from the Website.",
+      "Attempt to gain unauthorized access to any portion of the Website, server, or any system connected to Rialtes' network.",
+      "Use the Website in any manner that could damage, disable, overburden, or impair its functionality or interfere with other users' access.",
+      "Introduce any malware, viruses, or harmful code into the Website.",
+      "Violate any applicable local, national, or international laws through your use of the Website."
+    ],
+    "noWarranties": [
+      "Warranties of merchantability, fitness for a particular purpose, non-infringement, or accuracy of content.",
+      "Warranties that the Website will be uninterrupted, error-free, secure, or free from harmful elements such as viruses or malware.",
+      "Any guarantee that information provided on the Website is up-to-date or applicable to your specific needs."
+    ],
+    "limitationOfLiability": [
+      "Loss of profits, revenue, or business opportunities.",
+      "Business interruption, technical failures, or data corruption.",
+      "Unauthorized access or use of personal information.",
+      "Any reliance on content published on the Website."
+    ],
+    "submissionTerms": [
+      "Warrant that you have the legal right to do so and that the submission does not infringe upon any third-party rights.",
+      "Agree that Rialtes shall have the unrestricted right to use, modify, distribute, and reproduce any information you provide without any compensation.",
+      "Acknowledge that the open nature of the Internet means that we cannot guarantee the confidentiality of any information submitted through this Website."
+    ]
+  },
+  "privacyPolicy": {
+    "headerTitle": "Privacy Policy",
+    "headerDate": "Effective Date: March 19, 2025.",
+    "headerDesc": "We value your privacy and are committed to protecting your data. This Privacy Notice explains how we collect, use, disclose, and protect your information when you visit our Website",
+    "headerDescOne": ". It also describes your rights and choices regarding your personal information.",
+    "headerDescTwo": " By accessing or using our Website, you acknowledge and agree to the practices described in this Privacy Policy. If you do not agree with our policies and practices, please discontinue using our Website.",
+    "collectionTitle": "Collection and Use of Personal Information",
+    "collectionDesc": "We collect personal information when you submit queries on our Contact Us page/form or apply for jobs on our Careers page. When you visit our Website, we log browser-specific information like your IP address, browser type, access time, and the pages you view. Rialtes is not liable for unsolicited information you provide, and you consent to our use of your information according to our Privacy Policy. We may use your personal information to respond to requests, communicate with you, for permitted marketing, and to support our products or services.",
+    "collectTitle": "Information We Collect",
+    "collectDesc": "We collect information for legitimate business purposes, provide a smooth and customized experience, send requested information, and collaborate with you as a client.",
+    "howTitle": "How We Use Your Information",
+    "shareTitle": "How We Share Your Information",
+    "shareDesc": "We respect your privacy and do not sell, trade, or rent your personal information. We will only disclose your information to the government or third parties if required by law. We cooperate with authorities to enforce laws regarding fraud, data privacy, and security. You authorize us to share your information if we believe it's necessary for investigations related to fraud or illegal activities associated with this website. However, we may share your data in specific scenarios:",
+    "dataTitle": "Data Security",
+    "dataDesc": "We takes appropriate technical and organizational measures to safeguard your data against unauthorized access, alteration, disclosure, or destruction. While we strive to use commercially acceptable means to protect your information, no transmission method over the internet is 100% secure.",
+    "yourTitle": "Your Rights and Choices",
+    "yourDesc": "Depending on your location, you may have rights regarding your personal information, including:",
+    "thirdTitle": "Third-Party Links",
+    "thirdDesc": "Our Website may contain links to third-party websites or services that are not operated by us. We are not responsible for their privacy policies or practices. We encourage you to review their policies before providing any personal data.",
+    "childTitle": "Children’s Privacy",
+    "childDesc": "Our Website is intended for a general audience and is not directed at children under the age of 13. We do not knowingly collect personal data from children. If we become aware that we have inadvertently collected such information, we will take steps to delete it promptly.",
+    "residentsTitle": "California Residents",
+    "residentsDesc": "If you are a California resident, the California Consumer Privacy Act (CCPA) provides specific rights regarding your personal information. Businesses that collect personal data from California residents must inform you of their data practices and your rights.",
+    "underTitle": "Under the CCPA, you have the right to:",
+    "underDesc": "You also have the right to be free from discrimination for exercising these rights. Verified California consumers can expect a response to requests within 45 days, with a possible extension of an additional 45 days, which will be communicated within the initial period.",
+    "euTitle": "EU Residents",
+    "euDesc": "If you are a resident of the European Union, you may have specific rights regarding the collection, retention, use, and disclosure of your personal data depending on the circumstances under the General Data Protection Regulation (GDPR). We process data based on contract, consent, legal obligations, or legitimate business interests.",
+    "yourRight": "Your rights include:",
+    "forDetails": "For details, visit the",
+    "forDesc": "European Data Protection Board",
+    "changeTitle": "Changes to This Privacy Policy",
+    "changeDesc": "We may update this Privacy Policy from time to time to reflect changes in our practices, services, or legal requirements. Any updates will be posted on this page with the revised effective date. We encourage you to review this policy periodically.",
+    "contactUs": "Contact Us",
+    "thankYou": "Thank you for visiting our website. If you have any questions, concerns, or requests related to this Privacy Policy, please reach out through our",
+    "contactForm": "contact form.",
+    "euRightsList": [
+      {
+        "title": "Access & Rectification",
+        "description": "Request your data and correct inaccuracies."
+      },
+      {
+        "title": "Objection & Restriction",
+        "description": "Object to processing or request limitations."
+      },
+      {
+        "title": "Erasure",
+        "description": "Request data deletion in certain cases."
+      },
+      {
+        "title": "Data Portability",
+        "description": "Receive your data in a structured format."
+      },
+      {
+        "title": "Lodge a Complaint",
+        "description": "Contact a data protection authority if needed."
+      }
+    ],
+    "californiaRightsList": [
+      "Request information about your personal information, including its categories, sources, business purpose, and disclosures to third parties.",
+      "Request deletion of your personal information, with certain exceptions.",
+      "Opt out of the sale of your personal information."
+    ],
+    "userRightsList": [
+      "The right to access, correct, or delete your data.",
+      "The right to restrict or object to data processing.",
+      "The right to opt out of marketing communications.",
+      "The right to disable cookies via your browser settings."
+    ],
+    "sharingList": [
+      {
+        "title": "Service Providers",
+        "description": "We may share information with trusted third-party service providers who assist in website hosting, analytics, email communication, and other business operations."
+      },
+      {
+        "title": "Legal and Compliance Requirements",
+        "description": "If required by law, court order, or to protect our legal rights, we may disclose personal information to authorities."
+      },
+      {
+        "title": "Business Transfers",
+        "description": "In the event of a merger, acquisition, or sale of all or part of our company, your data may be transferred to the new entity."
+      }
+    ],
+    "purposeList": [
+      "Provide, operate, and enhance our Website and services.",
+      "Respond to your inquiries, requests, or customer service needs.",
+      "Personalize your experience by tailoring content and services to your preferences.",
+      "Improve our Website’s functionality, usability, and security.",
+      "Send newsletters, updates, and marketing communications (you can opt-out at any time).",
+      "Fulfill legal and regulatory requirements and enforce our terms of use."
+    ],
+    "privacyList": [
+      {
+        "title": "Personal Information",
+        "description": "When you voluntarily submit information via contact forms, webinar sign-ups, or career inquiries, we may collect your name, email address, phone number, job title, company details, and other identifying information. We may use information to improve our marketing, analyze website usage, enhance our content and services, and customize our website. We also engage outside service providers to assist with operations such as sending communications, analyzing data, processing payments, and providing customer service."
+      },
+      {
+        "title": "Non-Personal Information",
+        "description": "To enhance user experience and analyze trends, we may collect details such as IP address, browser type, device information, referring URLs, and pages visited. We use aggregate data to understand how visitors interact with our Website and to conduct internal research on user demographics and behavior. We may share this collective information with third parties."
+      },
+      {
+        "title": "Cookies",
+        "description": "We use cookies and other tracking technologies to gather information about your interaction with our Website, including browsing behavior and preferences. You can always choose whether to provide information on this Website through cookies."
+      }
+    ]
   }
-]
-
-    }
 }

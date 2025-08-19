@@ -8,6 +8,8 @@ import UnorderedList from "../../components/unorderedList";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -120,7 +122,7 @@ export default function page() {
     }
     const t = useTranslations('automativeIndustry')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { keyIndustryChallenges, rialtesSolutions, predeliveredCardData, endtoendautomativesection, comprehensiveCustomerData, personalizedData,
         revolutionizingData, enablingDynamicData, dealerData, empoweringData, unlockingData, integratingAutomativeData, partenringPowerData, relatedSolutionsData } = content.automativeIndustry;
     const ThoughtLeadershipSection = () => {

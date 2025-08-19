@@ -3,7 +3,7 @@ export default function unorderedList({ ulClassName, arrName, liClassName }) {
         <>
             <ul className={ulClassName}>
                 {arrName.map((data, idx) => (
-                    <li key={idx} className={liClassName}>
+                    <li key={idx} className={liClassName ? liClassName : ""}>
                         {data}
                     </li>
                 ))}

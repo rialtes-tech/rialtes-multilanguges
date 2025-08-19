@@ -3,12 +3,14 @@ import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
-import Link from "next/link";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -37,7 +39,7 @@ export default function DemandPlusSection() {
     }
     const t = useTranslations('kinaxis')
     const locale = useLocale();
-    const homepageContent = locale === 'es' ? esContent : enContent;
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { kinaxisServices, endToEndData, supplyChain, inventeryOptimizationData, enterpriseSchedulingData, scenarioData,
         seamlessIntegrationData, rialtesStrongData, agentChatData, whyKinaxisData, leadingData, salesData } = homepageContent.kinaxis;
     return (

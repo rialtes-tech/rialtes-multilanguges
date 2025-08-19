@@ -5,7 +5,8 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
-import Link from "next/link";
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
@@ -93,7 +94,7 @@ const schemaData = {
 export default function page() {
   const t = useTranslations('retailPlus')
   const locale = useLocale();
-  const content = locale === 'es' ? esContent : enContent;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { retailServices, retailVerticals, salesforceSolutions, whyChooseData, rialChat } = content.retailPlus;
   return (
     <div className="min-h-screen bg-white">

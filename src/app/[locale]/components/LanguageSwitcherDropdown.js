@@ -1,12 +1,13 @@
 'use client';
 import usFlag from '../../../../public/images/flags/us-flag.png'
 import spainFlag from "../../../../public/images/flags/spain-flag.png"
+import franceFlag from "../../../../public/images/flags/france-logo.png"
 import { usePathname, useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
-export default function LanguageSwitcher({  arrowImg }) {
+export default function LanguageSwitcher({ arrowImg }) {
     const router = useRouter();
     const pathname = usePathname();
     const currentLocale = useLocale();
@@ -17,6 +18,7 @@ export default function LanguageSwitcher({  arrowImg }) {
     const locales = [
         { code: 'en', label: 'En', flag: usFlag, subtitle: "US-EN" },
         { code: 'es', label: 'Es', flag: spainFlag, subtitle: "US-ES" },
+        { code: 'fr', label: 'FR', flag: franceFlag, subtitle: "CA-FR" },
     ];
 
     const handleChange = (code) => {
@@ -70,7 +72,7 @@ export default function LanguageSwitcher({  arrowImg }) {
                 <Image
                     src={arrowImg}
                     alt="arrow"
-                    className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover"
+                    className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover mt-[-4px]"
                     priority
                     width={30}
                     height={30}

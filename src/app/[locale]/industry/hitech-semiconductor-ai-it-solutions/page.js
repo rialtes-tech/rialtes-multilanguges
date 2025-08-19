@@ -9,7 +9,8 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../messages/en/industry.json";
 import esContent from "../../../../../messages/es/industry.json";
-
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -113,7 +114,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("semiconductor");
   const locale = useLocale();
-  const homepageContent = locale === "es" ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {
     thoughtData,
     endToEndData,

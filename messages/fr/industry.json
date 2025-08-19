@@ -1,0 +1,2370 @@
+{
+    "industry": {
+        "headerTitle": "Industries",
+        "headerSubTitleOne": "Transformez la façon dont ",
+        "headerSubTitleTwo": " vous interagissez avec ",
+        "headerSubTitleThree": "vos clients",
+        "mindsetTitle": "Différentes industries, différents états d'esprit",
+        "mindsetDesc": "Nous sommes spécialisés dans diverses industries, ce qui nous permet de proposer des solutions complètes adaptées aux besoins spécifiques de votre secteur. Grâce à notre expertise et notre accompagnement, les clients peuvent répondre aux évolutions de leur secteur et tirer parti des tendances émergentes pour leur entreprise.",
+        "growTitle": "Industries que nous servons",
+        "knowMore": "En savoir plus",
+        "growLatestServices": [
+            {
+                "id": 1,
+                "image": "/images/industry/healthcare.webp",
+                "title": "Santé",
+                "description": "CRM santé Salesforce pour aider les prestataires de services médicaux à intégrer parfaitement les logiciels hospitaliers et harmoniser les données patients provenant de divers canaux.",
+                "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
+            },
+            {
+                "id": 2,
+                "image": "/images/industry/manufacturing.webp",
+                "title": "Fabrication",
+                "description": "Expertise en technologie de fabrication à portée de main. Rationalisez les opérations, les processus de vente et la gestion de la chaîne d'approvisionnement dans les entreprises de fabrication.",
+                "knowMore": "/industry/manufacturing-cloud-erp"
+            },
+            {
+                "id": 3,
+                "image": "/images/industry/real-estate.webp",
+                "title": "Immobilier",
+                "description": "Développez votre portefeuille immobilier avec un logiciel de gestion de biens basé sur le cloud. Aidez les agents immobiliers, propriétaires et courtiers à gérer les détails des clients, des propriétés et des contrats de location.",
+                "knowMore": "/industry/real-estate-property-management"
+            },
+            {
+                "id": 4,
+                "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+                "title": "Semi-conducteurs",
+                "description": "Services technologiques de premier ordre couvrant l'intégration de la chaîne d'approvisionnement, la planification de la demande et plus encore. Répondez à vos besoins croissants sans compromettre les performances grâce à des solutions logicielles hi-tech sur mesure.",
+                "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+            },
+            {
+                "id": 5,
+                "image": "/images/pharma/Header Pharma.webp",
+                "title": "Pharma & Biotechnologie",
+                "description": "Rialtes exploite son expertise certifiée en Salesforce Life Sciences Cloud et SAP S/4HANA pour aider les leaders du secteur pharma et biotech à tirer parti de l'IA, du machine learning et de l'automatisation pour des opérations cliniques, médicales et commerciales intégrées.",
+                "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
+            },
+            {
+                "id": 6,
+                "image": "/images/medical/medical-header.webp",
+                "title": "Dispositifs Médicaux",
+                "description": "Nous aidons les entreprises de dispositifs médicaux à transformer la conformité en avantage concurrentiel en combinant stratégie, technologie et conception centrée sur le patient pour garantir des parcours patients fluides, de la prescription à la collecte des résultats.",
+                "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
+            },
+            {
+                "id": 7,
+                "image": "/images/education/Group 483.webp",
+                "title": "Éducation",
+                "description": "Nous nous concentrons sur les défis clés de l'éducation, tels que l'engagement fragmenté des étudiants et le recrutement inefficace. Grâce à des conseils stratégiques et aux technologies SAP et Salesforce, nous aidons les établissements à rationaliser leurs opérations et à améliorer l'expérience étudiante.",
+                "knowMore": "/industry/education-cloud-it-solutions"
+            },
+            {
+                "id": 8,
+                "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+                "title": "Automobile",
+                "description": "Répondez aux défis complexes du secteur automobile, en particulier la fragmentation du cycle de vie client, de la prospection à la propriété. Grâce aux solutions SAP et Salesforce Industry Cloud, nous concevons des systèmes sur mesure et évolutifs qui rationalisent les opérations.",
+                "knowMore": "/industry/digital-transformation-in-automotive-industry"
+            },
+            {
+                "id": 9,
+                "image": "/images/industry/travel-transporation/retail+.webp",
+                "title": "Retail",
+                "description": "Relevez les défis du retail avec confiance. Rialtes Retail+ combine vision stratégique et exécution robuste, permettant aux détaillants B2B et B2C de moderniser, personnaliser et croître. De la planification au support post-lancement, nous accompagnons chaque étape de la transformation.",
+                "knowMore": "/industry/retail-industry-digital-transformation"
+            },
+            {
+                "id": 10,
+                "image": "/images/industry/travel-transporation/TTH.webp",
+                "title": "Voyage et Hôtellerie",
+                "description": "Rialtes permet aux entreprises TTH d'améliorer chaque expérience, du check-in au check-out, de la réservation à la livraison. Grâce à notre expertise en IA, cloud et plateformes d'entreprise, nous vous aidons à moderniser vos opérations, personnaliser les expériences et maximiser l'impact commercial.",
+                "knowMore": "/industry/travel-hospitality-it-solutions"
+            }
+        ],
+        "contactUs": "Prêt à passer à l'étape suivante ? Commencez votre parcours"
+    },
+    "realEstate": {
+        "headerTitle": "Gérez vos processus immobiliers avec un logiciel de gestion de biens basé sur le cloud",
+        "headerSubTitle": "IMMOBILIER",
+        "realTitle": "Logiciel de gestion immobilière abordable pour vos opérations",
+        "realDescOne": "Le marché immobilier est dynamique et imprévisible – mais votre entreprise ne doit pas l'être. Avec les bons outils et stratégies, les entreprises immobilières peuvent connaître une croissance constante d'année en année tout en dépassant les attentes des clients.",
+        "realDescTwo": "Chez Rialtes, nous proposons un logiciel de gestion de biens de premier ordre conçu pour rationaliser vos opérations quotidiennes. Exelona offre une solution tout-en-un avec des fonctionnalités adaptées aux professionnels de l'immobilier, investisseurs, gestionnaires de biens et plus encore. Que vous gériez plusieurs locations résidentielles ou équilibriez les exigences des espaces d'investissement commerciaux, Rialtes dispose des outils pour vous accompagner à chaque étape.",
+        "estateTitle": "Le CRM #1 pour le secteur immobilier",
+        "estateDesc": "Basé sur Salesforce, la plateforme CRM n°1 mondiale, RealForce centralise vos fonctions de gestion immobilière et transforme la manière dont vous servez vos clients. Que vous soyez une petite agence ou un groupe national de gestion immobilière, votre entreprise mérite le meilleur logiciel de gestion de biens sur le marché.",
+        "estateTitleOne": "Plateforme RealForce",
+        "estateTitleOneDesc": "Notre plateforme phare de gestion immobilière, basée sur Salesforce et conçue pour vos fonctions ERP (Property Cloud) et CRM (Experience Cloud).",
+        "estateTitleTwo": "RealPay",
+        "estateTitleTwoDesc": "RealPay est une passerelle de paiement intégrée qui prend en charge les paiements auprès de la plupart des banques nord-américaines et plus de 135 devises. Les résidents peuvent facilement effectuer leurs paiements et vérifier leurs transactions.",
+        "growTitle": "Améliorez vos opérations immobilières grâce à nos offres de services personnalisables",
+        "growDesc": "Rialtes aide les agences immobilières et sociétés de gestion de biens à atteindre l'excellence grâce à la technologie et aux conseils stratégiques. Des logiciels comptables aux outils mobiles CRM, nos solutions de gestion immobilière peuvent être adaptées aux besoins uniques de votre organisation.",
+        "growLatestServices": [
+            {
+                "id": 1,
+                "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+                "title": "Opérations centralisées : la solution tout-en-un",
+                "description": "Imaginez gérer toutes vos données immobilières, des contrats de location aux plannings de maintenance, en un seul endroit. RealForce offre des opérations centralisées pour une expérience de gestion simplifiée grâce à nos solutions en ligne.",
+                "productsDetails": [
+                    "Génération automatique des contrats",
+                    "Gestion centralisée des encaissements",
+                    "Facturation mensuelle SMART"
+                ]
+            },
+            {
+                "id": 2,
+                "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+                "title": "Accessibilité multi-plateformes : gérez en déplacement",
+                "description": "Notre système de gestion immobilière en ligne vous permet d'accéder à votre tableau de bord de gestion où que vous soyez, faisant de nous un leader parmi les logiciels de gestion immobilière aux États-Unis.",
+                "productsDetails": [
+                    "Rapports et tableaux de bord mobiles",
+                    "Chat avec les groupes immobiliers",
+                    "Approbations mobiles"
+                ]
+            },
+            {
+                "id": 3,
+                "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+                "title": "Analyse complète : prenez des décisions éclairées",
+                "description": "Nous nous distinguons parmi les meilleurs logiciels de gestion immobilière en offrant la plateforme d'analyse n°1 pour améliorer vos performances, des revenus aux taux de vacance.",
+                "productsDetails": [
+                    "Exploitez les tableaux de bord existants",
+                    "Utilisez les données pour prendre des décisions",
+                    "Analyse détaillée des enregistrements individuels"
+                ]
+            },
+            {
+                "id": 4,
+                "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+                "title": "Clarté financière : comptabilité simplifiée",
+                "description": "Notre logiciel est le choix incontournable pour les agents immobiliers recherchant des rapports financiers détaillés et des fonctionnalités de facturation. Simplifiez votre processus budgétaire avec la plateforme cloud n°1 au monde.",
+                "productsDetails": [
+                    "Traitement électronique des factures",
+                    "Automatisation de l'extraction par IA",
+                    "Paiements numériques en +135 devises"
+                ]
+            }
+        ],
+        "serviceTitle": "Trouvez le bon logiciel de gestion immobilière en ligne avec Rialtes",
+        "latestServices": [
+            {
+                "id": 1,
+                "title": "Location par IA",
+                "description": "Les assistants de location alimentés par IA vous aident à servir vos clients plus rapidement tout en économisant temps et ressources. Nous pouvons vous fournir un logiciel de location IA à la fois économique et complet."
+            },
+            {
+                "id": 2,
+                "title": "Maintenance par IA",
+                "description": "Filtrez et priorisez les demandes de maintenance grâce à des outils logiciels simples et intelligents. Nous proposons une technologie de maintenance IA qui peut éliminer les goulots d'étranglement en acheminant automatiquement les ordres de travail et en suivant l'avancement des tâches."
+            },
+            {
+                "id": 3,
+                "title": "Comptabilité immobilière",
+                "description": "Rationalisez votre comptabilité grâce aux logiciels de gestion immobilière, avec intégration IA, automatisation des rapports financiers détaillés et paiements numériques."
+            },
+            {
+                "id": 4,
+                "title": "Marketing",
+                "description": "Nos solutions CRM pour l'immobilier simplifient les opérations marketing, de la conversion des annonces à la gestion des supports marketing."
+            },
+            {
+                "id": 5,
+                "title": "Intégrations",
+                "description": "Nos experts peuvent vous aider pour toutes vos intégrations logicielles immobilières. Nous veillons à ce que vos nouvelles solutions fonctionnent en harmonie avec vos systèmes existants."
+            },
+            {
+                "id": 6,
+                "title": "Externalisation immobilière",
+                "description": "Externaliser la gestion et la comptabilité immobilière à un partenaire de confiance peut vous faire gagner un temps précieux. Nos services incluent des modèles sur site, hors site et hybrides."
+            }
+        ],
+        "slides": [
+            {
+                "id": 1,
+                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+                "title": "Module bancaire RealForce - ACH",
+                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales.",
+                "url": "/insights/case-studies/realForce-banking-module-ach"
+            },
+            {
+                "id": 2,
+                "url": "/insights/case-studies/yardi-managed-services",
+                "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+                "title": "Services gérés Yardi",
+                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
+            }
+        ],
+        "contactUs": "Passez à l'étape suivante pour améliorer votre gestion immobilière."
+    },
+    "caseStudyIndivisual": {
+        "caseStudyTitle": "Inspirez-vous de nos dernières réussites clients, analyses sectorielles et plus encore",
+        "knowMore": "En savoir plus"
+    },
+    "lifeScience": {
+        "whyRialtesData": [
+            {
+                "title": "Accélérateurs éprouvés dans l'industrie",
+                "desc": "Body Map, Patient Interaction et solutions d'essais cliniques conçus pour un déploiement rapide et conforme."
+            },
+            {
+                "title": "Services de bout en bout",
+                "desc": "De l'accompagnement et la mise en œuvre à l'optimisation post-déploiement et l'assurance qualité."
+            },
+            {
+                "title": "Partenariats stratégiques",
+                "desc": "Soutenus par SAP, Salesforce, MuleSoft et Oracle."
+            },
+            {
+                "title": "Expertise approfondie",
+                "desc": "Au service de la Pharma, des assureurs, des prestataires, de la MedTech et de la santé publique."
+            },
+            {
+                "title": "Insights basés sur l'IA et le Data Cloud",
+                "desc": "Pour des décisions plus intelligentes et rapides et un engagement centré sur le patient."
+            }
+        ],
+        "seamlessData": [
+            "Intégration dirigée par API connectant SAP, Oracle, Salesforce et EMR.",
+            "Automatisation Order-to-Cash et Procure-to-Pay.",
+            "Synchronisation des données réglementaires, flux de données financières et cliniques."
+        ],
+        "thoughLeadershipData": [
+            "Naviguer dans des réglementations mondiales strictes telles que HIPAA, GDPR et FDA 21 CFR Part 11.",
+            "Accélérer la mise sur le marché de médicaments, thérapies et dispositifs salvateurs.",
+            "Améliorer l'engagement des patients et des prestataires avec des expériences personnalisées en temps réel.",
+            "Permettre les soins basés sur la valeur grâce à une collaboration fluide entre payeurs et prestataires.",
+            "Exploiter l'IA pour l'optimisation des essais cliniques, la sécurité et les preuves du monde réel."
+        ],
+        "prebuiltData": [
+            "Body Map : visualisation interactive de l'historique médical des patients et des insights cliniques.",
+            "Patient Interaction : parcours complet d'engagement patient avec communications en temps réel.",
+            "Accélérateurs de gestion des essais cliniques pour des opérations et une conformité fluides."
+        ],
+        "commonSectionData": [
+            {
+                "title": "Module Assureurs",
+                "subtitle": "Gestion intelligente des soins pour les assureurs santé",
+                "dataList": [
+                    "Gestion des membres et des plans pour des solutions de santé personnalisées.",
+                    "Décision automatisée des réclamations, gestion de l'utilisation et détection de fraude alimentées par IA.",
+                    "Soins basés sur la valeur et insights sur la santé de la population.",
+                    "Collaboration payeur-prestataire en temps réel via Salesforce Health Cloud."
+                ],
+                "blueCard": "Fournir des soins efficaces et personnalisés tout en maîtrisant les coûts grâce à l'analyse en temps réel.",
+                "mobImg": "/images/industry/life-science/Mobile/payers-module-mob.webp",
+                "deskImg": "/images/industry/life-science/payers-module-desk.webp"
+            },
+            {
+                "title": "Solutions pour les réseaux de prestataires",
+                "subtitle": "Coordination des soins et engagement des prestataires",
+                "dataList": [
+                    "Intégration des prestataires, accréditation et gestion des relations.",
+                    "Parcours de soins pour les soins chroniques, aigus et préventifs.",
+                    "Stratification des risques patients et modèles de soins personnalisés pilotés par IA.",
+                    "Plateformes de collaboration et de référence des prestataires intégrées via Salesforce."
+                ],
+                "blueCard": "Améliorer l'expérience patient grâce à des soins connectés et coordonnés.",
+                "mobImg": "/images/industry/life-science/Mobile/provider-mob.webp",
+                "deskImg": "/images/industry/life-science/provider-desk.webp"
+            },
+            {
+                "title": "Innovation Pharma",
+                "subtitle": "Accélérer l'accès, la sécurité et la conformité des patients",
+                "dataList": [
+                    "Programmes de soutien aux patients (PSP) et engagement HCP de bout en bout.",
+                    "Outils d'accès au marché et de négociation avec les payeurs pilotés par IA.",
+                    "Pharmacovigilance et suivi de la sécurité des médicaments intégrés.",
+                    "Salesforce Health Cloud pour l'orchestration des programmes centrés sur le patient."
+                ],
+                "blueCard": "Lancements de thérapies plus intelligents, rapides et sécurisés.",
+                "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
+                "deskImg": "/images/industry/life-science/pharma-desk.webp"
+            },
+            {
+                "title": "Révolution MedTech",
+                "subtitle": "Dispositifs connectés et suivi à distance pour de meilleurs soins",
+                "dataList": [
+                    "Gestion complète du cycle de vie des dispositifs et des patients.",
+                    "Maintenance prédictive et diagnostics IA pour les équipements médicaux.",
+                    "Planification des interventions et des techniciens via Service Cloud.",
+                    "Surveillance à distance et plateformes de santé numérique intégrées."
+                ],
+                "blueCard": "Offrir de meilleurs résultats aux patients grâce à des solutions MedTech connectées.",
+                "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
+                "deskImg": "/images/industry/life-science/medtech-desk.webp"
+            },
+            {
+                "title": "Excellence en santé publique",
+                "subtitle": "Services de santé axés sur la communauté et les données",
+                "dataList": [
+                    "Surveillance, gestion des épidémies et suivi des cas.",
+                    "Gestion des vaccinations et soins préventifs.",
+                    "Analyse des déterminants sociaux de la santé (SDOH) pilotée par IA.",
+                    "Programmes communautaires de santé publique et de santé comportementale."
+                ],
+                "blueCard": "Renforcer la santé communautaire grâce aux données et à l'IA.",
+                "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
+                "deskImg": "/images/industry/life-science/public-health-desk.webp"
+            },
+            {
+                "title": "Engagement patient hyper-personnalisé",
+                "subtitle": "Salesforce Marketing Cloud + Life Sciences Cloud",
+                "dataList": [
+                    "Segmentation des patients et HCP avec IA.",
+                    "Campagnes omnicanales (Email, SMS, Réseaux sociaux).",
+                    "Programmes éducatifs et d'adhésion personnalisés.",
+                    "Parcours patients conformes aux réglementations."
+                ],
+                "blueCard": "Transformer l'engagement patient en résultats significatifs.",
+                "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
+                "deskImg": "/images/industry/life-science/hyper-desk.webp"
+            },
+            {
+                "title": "Excellence de la chaîne d'approvisionnement et des stocks",
+                "subtitle": "Alimenté par Data Cloud",
+                "dataList": [
+                    "Visibilité en temps réel des stocks et de la chaîne d'approvisionnement.",
+                    "Prévisions de demande et conformité de la chaîne du froid pilotées par IA.",
+                    "Réseau logistique et de distribution intégré."
+                ],
+                "blueCard": "Garantir que les thérapies et dispositifs salvateurs atteignent les patients à temps.",
+                "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
+                "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
+            }
+        ],
+        "commonSectionData1": [
+            {
+                "title": "Visualisation avancée des données",
+                "subtitle": "Insights avec Tableau & Data Cloud",
+                "dataList": [
+                    "Tableaux de bord des résultats patients.",
+                    "Visualisations des ventes et de l'accès au marché.",
+                    "Preuves du monde réel et rapports de sécurité.",
+                    "Analyses prédictives pour les soins et la conformité."
+                ],
+                "blueCard": "Transformer les données brutes en intelligence exploitable.",
+                "mobImg": "/images/industry/life-science/Mobile/advanced-mob.webp",
+                "deskImg": "/images/industry/life-science/advanced-desk.webp"
+            },
+            {
+                "title": "Futur piloté par l'IA",
+                "subtitle": "Transformer les sciences de la vie avec l'intelligence",
+                "dataList": [
+                    "Accélération des essais cliniques et de la découverte de médicaments.",
+                    "IA pour la détection des risques patients et la personnalisation.",
+                    "Chatbots et assistants virtuels pour la communication avec les patients.",
+                    "Surveillance de la conformité et pharmacovigilance pilotées par IA."
+                ],
+                "blueCard": "L'IA révolutionne les soins aux patients, le développement des thérapies et la sécurité.",
+                "mobImg": "/images/industry/life-science/Mobile/ai-driven-mob.webp",
+                "deskImg": "/images/industry/life-science/ai-driven-desk.webp"
+            },
+            {
+                "title": "Quick Commerce dans les sciences de la vie",
+                "subtitle": "Accélérer la livraison des thérapies et dispositifs aux patients",
+                "dataList": [
+                    "Exécution et livraison de médicaments à la demande.",
+                    "Distribution et installation rapides des dispositifs médicaux.",
+                    "Optimisation logistique et de la chaîne d'approvisionnement pilotée par IA."
+                ],
+                "blueCard": "Fournir des soins de santé à la vitesse du besoin — alimenté par SAP & Salesforce.",
+                "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
+                "deskImg": "/images/industry/life-science/quick-desk.webp"
+            }
+        ],
+        "headerTitle": "Industrie des sciences de la vie",
+        "headerSubTitle1": "Propulser la prochaine",
+        "headerSubTitle2": "ère des sciences de la vie",
+        "headerSubTitle3": "Intelligente, connectée,",
+        "headerSubTitle4": "et centrée sur le patient",
+        "headerSubTitle5": "Solutions",
+        "pageDescTitle": "Assurer la conformité et l'innovation dans les sciences de la vie et la santé grâce à SAP, Salesforce & IA.",
+        "pageDesc": "Dans un monde où la centration patient, la conformité et l'innovation sont cruciales, les organisations en sciences de la vie doivent agir rapidement, rester conformes et offrir une valeur exceptionnelle. Rialtes s'associe aux leaders mondiaux pour redéfinir leurs modèles commerciaux, connecter les écosystèmes et exploiter le potentiel de l'IA et du cloud.",
+        "diduKnowTitle": "Le saviez-vous ?",
+        "diduknowSubTitle1": "Le marché mondial des sciences de la vie devrait atteindre",
+        "diduknowSubTitle2": "3,6 trillions de dollars d'ici 2030.",
+        "diduknowSubTitle3": "Plus de 65 %",
+        "diduknowSubTitle4": "des organisations en sciences de la vie considèrent la « livraison d'expériences patients personnalisées » comme une priorité absolue.",
+        "diduknowSubTitle5": "L'adoption de l'IA dans les sciences de la vie croît à un TCAC de 30 %",
+        "diduknowSubTitle6": "révolutionnant la R&D, les essais cliniques et l'engagement des patients.",
+        "diduknowDesc": "Avec des accélérateurs pré-construits tels que Body Map et Patient Interaction, notre expertise sectorielle approfondie et nos partenariats stratégiques avec SAP, Salesforce, MuleSoft et Oracle, Rialtes aide les entreprises en sciences de la vie à atteindre des résultats intelligents, conformes et centrés sur le patient — plus rapidement et efficacement.",
+        "whyRialtesTitle": "Pourquoi Rialtes est votre partenaire stratégique dans la transformation digitale des sciences de la vie",
+        "whyRialtesSubTitle": "Notre promesse aux entreprises",
+        "whyRialtesSubTitle2": "des sciences de la vie",
+        "thoughtLeadershipTitle": "Leadership éclairé de Rialtes",
+        "thoughtLeadershipSubTitle": "Relever les défis les plus pressants de l'industrie des sciences de la vie",
+        "prebuiltTitle": "Accélérateurs pré-construits : Body Map & Patient Interaction",
+        "prebuiltSubTitle": "Accélérez votre transformation digitale avec les accélérateurs spécifiques aux sciences de la vie de Rialtes :",
+        "prebuiltBlueBox": "Assurez un déploiement rapide et conforme aux réglementations tout en vous concentrant sur les soins aux patients.",
+        "seamlessTitleBlueBox": "Opérations d'entreprise efficaces et connectées pour de meilleurs résultats.",
+        "seamlessTitle": "Intégration fluide avec SAP, Oracle, MuleSoft pour des opérations unifiées en sciences de la vie",
+        "seamlessSubTitle": "Propulsé par Data Cloud",
+        "contactTitle": "Prêt à transformer les sciences de la vie avec Rialtes ?",
+        "contactSubTitle": "Associez-vous à Rialtes pour débloquer l'innovation, la conformité et des solutions centrées sur le patient dans tout l'écosystème des sciences de la vie.",
+        "contactSubTitle2": "Contactez-nous dès aujourd'hui pour découvrir comment Rialtes peut stimuler la croissance et l'impact patient de votre organisation."
+    },
+    "healthCare": {
+        "slidesCaseStudy": [
+            {
+                "id": 1,
+                "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+                "imgSrc": "/images/case-studies/case-study-7_thumb.webp",
+                "title": "Numérisation du parcours patient avec Salesforce Health Cloud",
+                "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour des projets de construction résidentielle et commerciale."
+            },
+            {
+                "id": 2,
+                "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
+                "imgSrc": "/images/case-studies/case-study-8_thumb.webp",
+                "title": "Salesforce Health Cloud, Autorisation préalable",
+                "description": "Une entreprise immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans des propriétés multifamiliales."
+            },
+            {
+                "id": 3,
+                "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+                "title": "Automatiser le traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
+                "description": "Une entreprise mondiale de technologies médicales qui développe et fabrique des produits innovants."
+            }
+        ],
+        "latestServices": [
+            {
+                "id": 1,
+                "title": "Assureur",
+                "description": "Nous fournissons des services informatiques et de conseil aux assureurs privés et commerciaux. Si vous êtes une compagnie d’assurance santé, vous pouvez compter sur nous pour optimiser des fonctions critiques comme la gestion des réclamations, la communication avec les patients et les prestataires, l’intégration des clients et plus encore."
+            },
+            {
+                "id": 2,
+                "title": "Prestataire",
+                "description": "De la centralisation des données patients à la mise en place de systèmes efficaces de coordination des soins, nous vous aidons à mieux servir vos patients, à assurer la conformité HIPAA et à simplifier les tâches administratives."
+            },
+            {
+                "id": 3,
+                "title": "Pharma",
+                "description": "Nos solutions IT santé pour les pharmacies vous permettent de rationaliser la communication entre vous, les patients et les prestataires — tout en intégrant les données des fournisseurs, fabricants et R&D pour orienter les thérapies des patients."
+            },
+            {
+                "id": 4,
+                "title": "MedTech",
+                "description": "Nous proposons une large gamme de services informatiques et de conseil adaptés aux besoins uniques du secteur MedTech. Nous prenons en charge vos solutions technologiques afin que vous puissiez vous concentrer sur le développement de dispositifs médicaux."
+            },
+            {
+                "id": 5,
+                "title": "Biotech",
+                "description": "Nous aidons les entreprises Biotech à réussir leur R&D, à sécuriser leurs données et à commercialiser plus rapidement des médicaments salvateurs grâce à des solutions IT santé personnalisées et alimentées par l’IA."
+            }
+        ],
+        "growLatestServices": [
+            {
+                "id": 1,
+                "image": "/images/healthcare/AdobeStock_572162228 copy.webp",
+                "title": "Soins aux patients avec Salesforce Health Cloud",
+                "description": "La mise en œuvre de Salesforce Health Cloud peut améliorer considérablement les solutions d’expérience patient en centralisant toutes les données de santé. Cela permet une prise de décision plus intelligente et offre une plateforme intuitive aux professionnels de santé.",
+                "productsDetails": [
+                    "Dossiers patients centralisés",
+                    "Planification automatique des rendez-vous",
+                    "Rappels de médication",
+                    "Surveillance des soins à distance"
+                ]
+            },
+            {
+                "id": 2,
+                "image": "/images/healthcare/AdobeStock_200878864 copy.webp",
+                "title": "Améliorations des soins urgents et hospitaliers",
+                "description": "Les solutions hospitalières optimisent tous les aspects de la gestion de vos services de santé personnalisés, de l’administration des équipes à l’amélioration de la qualité des soins et du suivi post-traitement.",
+                "productsDetails": [
+                    "Allocation des ressources",
+                    "Gestion des admissions et des sorties",
+                    "Système de réponse aux urgences"
+                ]
+            },
+            {
+                "id": 3,
+                "image": "/images/healthcare/AdobeStock_930210511 copy.webp",
+                "title": "Solutions de soins patients personnalisées",
+                "description": "Nos solutions de soins aux patients visent à créer un environnement de santé empathique. Grâce à ces solutions, les établissements médicaux peuvent améliorer l’engagement et la satisfaction des patients.",
+                "productsDetails": [
+                    "Salles d’attente virtuelles",
+                    "Gestion des prescriptions digitalisée",
+                    "Suivi de la santé en temps réel"
+                ]
+            },
+            {
+                "id": 4,
+                "image": "/images/healthcare/AdobeStock_184771424 copy.webp",
+                "title": "Services MedTech incomparables",
+                "description": "Nous comprenons la dynamique de l’industrie de la santé. Nos services MedTech assurent le bon fonctionnement des systèmes techniques et mécaniques au sein des établissements de santé.",
+                "productsDetails": [
+                    "Support client 24/7",
+                    "Intégrations EMR",
+                    "Audits de sécurité"
+                ]
+            }
+        ],
+        "headerTitle": "SANTÉ",
+        "headerSubTitle": "Redéfinir les soins de santé en plaçant les patients au centre",
+        "pageDescTitle": "Soins aux patients et solutions MedTech basés sur Salesforce Health Cloud",
+        "pageDesc1": "L’industrie de la santé connaît une transformation numérique majeure. Du cabinet médical au domicile, les patients ont accès à plus d’options de soins que jamais, grâce aux avancées non seulement de la technologie médicale mais aussi des solutions informatiques pour la santé.",
+        "pageDesc2": "Rialtes aide les organisations médicales à fournir des soins patients plus rapides, efficaces et bienveillants grâce à des solutions spécialisées de développement d’applications santé. Que vous cherchiez à centraliser les dossiers patients ou à migrer vos données vers Salesforce Health Cloud, notre équipe dédiée d’experts IT santé vous aidera à transformer l’expérience de vos patients.",
+        "growServicesTitle": "Solutions IT innovantes pour la médecine et les soins aux patients",
+        "growServicesDesc": "L’industrie de la santé évolue à un carrefour critique entre technologie et soins aux patients. Chez Rialtes, nous proposons des solutions spécialisées Salesforce Health Cloud permettant aux établissements médicaux d’améliorer leur agilité et de se concentrer sur les besoins des patients. Nos solutions IT intégrées combinent logiciels hospitaliers, services MedTech et outils d’engagement patient pour offrir des soins exceptionnels, que ce soit pour les pharmacies ou les équipes de soins à domicile.",
+        "servicesTitle": "De la Pharma à la MedTech, nous desservons tous les segments majeurs de la santé",
+        "servicesDesc": "Nous proposons la mise en œuvre de Health Cloud, le développement d’applications santé, des services de conseil et bien plus pour les entreprises des segments de santé suivants.",
+        "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
+    },
+    "pharmaBiotech": {
+        "thoughtData": [
+            "Accélérer le développement de produits, les soumissions réglementaires et la commercialisation.",
+            "Construire des plateformes intégrées pour les opérations cliniques, médicales et commerciales.",
+            "Favoriser l’engagement centré sur le patient et les soins axés sur les résultats.",
+            "Assurer la conformité réglementaire en temps réel avec des systèmes prêts pour les audits."
+        ],
+        "whyRialtesData": [
+            "Experts certifiés Salesforce Life Sciences Cloud & SAP S/4 HANA avec une expertise mondiale.",
+            "Spécialistes de l’optimisation des processus réglementaires, commerciaux et cliniques.",
+            "Intégrations avancées d’IA et d’analytique pour des informations en temps réel.",
+            "Solide historique de réussite auprès des principales entreprises pharmaceutiques et biotechnologiques.",
+            "Présence mondiale pour répondre aux besoins réglementaires et opérationnels régionaux."
+        ],
+        "salesforceLifeData": [
+            "Engagement unifié des HCP, CRM et coordination de la force de terrain.",
+            "Gestion des cas de services aux patients et automatisation des programmes de support.",
+            "Gestion des essais cliniques, y compris l’engagement des participants et la RWE (Real World Evidence).",
+            "Gestion des plaintes réglementaires, pharmacovigilance et suivi des événements indésirables."
+        ],
+        "sapData": [
+            "Sérialisation et conformité de la chaîne d’approvisionnement mondiale.",
+            "Gestion de la qualité et processus de libération des lots.",
+            "Opérations Order-to-Cash, inventaire et fabrication avec conformité intégrée.",
+            "Rapports réglementaires et audits mondiaux."
+        ],
+        "keyAiImpact": [
+            "Accélération de la découverte de médicaments grâce à l’analyse moléculaire et la modélisation prédictive par IA.",
+            "Optimisation de la conception des essais cliniques et du recrutement des patients via une sélection de sites et un jumelage des critères basés sur l’IA.",
+            "Amélioration de la pharmacovigilance grâce à la détection automatisée des événements indésirables et au reporting automatisé par IA.",
+            "Personnalisation des interactions avec les HCP et les patients grâce à l’analyse comportementale et des besoins basée sur l’IA."
+        ],
+        "benefitsOfAiData": [
+            "Développement de médicaments plus rapide et réduction des coûts de R&D.",
+            "Amélioration de la qualité et des délais des soumissions réglementaires.",
+            "Engagement renforcé des HCP et des patients grâce à des informations basées sur les données.",
+            "Conformité accrue et réduction des risques grâce à l’analytique prédictive."
+        ],
+        "patientData": [
+            "Capturer les résultats déclarés par les patients (PROs) et surveiller l’adhérence.",
+            "Faciliter les rappels de médication et la diffusion de contenu éducatif.",
+            "Permettre la communication en temps réel avec les équipes de soins aux patients.",
+            "Collecter des preuves du monde réel (RWE) pour usage réglementaire et clinique."
+        ],
+        "remoteData": [
+            "Surveiller les dispositifs connectés et les thérapies numériques.",
+            "Collecter les données d’adhérence, biométriques et d’utilisation directement auprès des patients.",
+            "Détection précoce des événements indésirables ou de non-conformité.",
+            "Informations sur l’utilisation réelle pour les boucles de retour réglementaires et R&D."
+        ],
+        "agentChatData": [
+            "Communications automatisées avec les patients : rappels, enquêtes, éducation.",
+            "Support direct aux HCP : échantillons, demandes, mises à jour.",
+            "Rapport des événements indésirables et des plaintes via chat.",
+            "Partage des formulaires de consentement, documents réglementaires et matériels éducatifs."
+        ],
+        "salesforceAgentData": [
+            "Gérer le ciblage, l’engagement et le suivi des HCP.",
+            "Coordonner les visites et programmes éducatifs des Medical Science Liaisons (MSL).",
+            "Automatiser la distribution de contenu marketing et médical conforme.",
+            "Suivre les interactions et retours clients en temps réel."
+        ],
+        "headerTitle": "Industrie Pharmaceutique",
+        "headerSubTitle": "Accélérer l’innovation et la conformité pharmaceutique",
+        "headerSubTitle2": "Solutions Pharma & Biotech de bout en bout par Rialtes",
+        "pageDesc": "Les industries pharmaceutique et biotechnologique sont à la pointe des soins de santé mondiaux, mais elles font face à une pression croissante pour innover plus rapidement, rester conformes et garder une approche centrée sur le patient. Face à une concurrence accrue, des régulations changeantes et la nécessité d’accélérer la R&D, les solutions technologiques et basées sur l’IA deviennent essentielles au succès.",
+        "pageDesc1": "Avec une expertise certifiée dans Salesforce Life Sciences Cloud et SAP S/4 HANA pour la Pharma, et des bureaux en Inde, aux États-Unis, au Canada et à Singapour, Rialtes applique les meilleures pratiques mondiales tout en respectant la réglementation locale.",
+        "thoughtLeadershipTitle": "Leadership éclairé :",
+        "thoughtLeadershipSubTitle": "Faire progresser la Pharma avec le numérique, l’IA et les approches basées sur les données",
+        "thoughtLeadershipDesc": "Rialtes collabore avec les principales organisations pharmaceutiques et biotechnologiques pour exploiter la puissance de l’IA, du machine learning, du cloud et de l’automatisation intelligente afin de :",
+        "thoughtLeadershipBlueBox": "Notre approche de bout en bout comble les écarts entre la R&D, la réglementation, les fonctions commerciales et la chaîne d’approvisionnement, offrant une plateforme unifiée pour une meilleure prise de décision et un lancement plus rapide sur le marché.",
+        "leadingPharmaTitle": "Pourquoi les principales entreprises Pharma & Biotech choisissent Rialtes",
+        "deepExpertiseTitle": "Expertise approfondie dans Salesforce Life Sciences Cloud & SAP S/4 HANA pour la Pharma et la Biotech",
+        "deepExpertiseSubTitle": "Salesforce Life Sciences Cloud",
+        "deepExpertiseSubTitle2": "Unification des opérations commerciales, cliniques et médicales",
+        "deepExpertiseDesc": "Rialtes utilise Salesforce pour construire des plateformes intégrées permettant :",
+        "sapHanaTitle": "SAP S/4 HANA pour la Pharma",
+        "sapHanaSubTitle": "Assurer la conformité, la qualité et l’excellence opérationnelle",
+        "sapHanaDesc": "Notre expertise SAP aide les entreprises pharmaceutiques à rationaliser :",
+        "sapHanaBlueBox": "Les intégrations Salesforce et SAP assurent des processus transparents et conformes de la R&D à la commercialisation.",
+        "aiRevolTitle": "Comment l’IA révolutionne l’industrie pharmaceutique",
+        "aiRevolDesc": "L’IA génère une valeur significative dans la pharma, transformant la manière dont les entreprises innovent, engagent et gèrent la conformité.",
+        "keyImpactTitle": "Domaines clés d’impact de l’IA en Pharma :",
+        "learnMoreBtn": "En savoir plus",
+        "benefitsTitle": "Avantages de l’IA en Pharma :",
+        "patientTitle": "Applications mobiles centrées sur le patient",
+        "patientSubTitle": "Améliorer les résultats et collecter des preuves du monde réel",
+        "patientDesc": "La pharma moderne nécessite des applications mobiles sécurisées pour engager les patients et collecter des résultats. Rialtes conçoit des applications pour :",
+        "patientBlueBox": "Les applications mobiles garantissent un meilleur engagement, respect de l’adhérence et mesure des résultats.",
+        "remoteTitle": "Surveillance à distance & collecte de données réelles",
+        "remoteSubTitle": "La surveillance à distance permet aux entreprises pharmaceutiques de suivre l’efficacité des produits et la sécurité des patients en temps réel :",
+        "remoteBlueBox": "Améliorer la sécurité des patients, les résultats et la génération de preuves.",
+        "agentChatTitle": "AgentChat",
+        "agentChatSubTitle": "Intégration WhatsApp en temps réel pour la Pharma",
+        "agentChatDesc": "AgentChat, solution d’intégration WhatsApp de Rialtes, prend en charge un engagement sécurisé et conforme :",
+        "keyFeatureTitle": "Fonctionnalités clés :",
+        "agentChatBlueBox": "AgentChat permet un engagement omnicanal en temps réel des patients et HCP — sécurisé et conforme.",
+        "salesforceTitle": "Salesforce Agentforce",
+        "salesforceSubTitle": "Booster les ventes pharma, affaires médicales et support",
+        "knowMoreBtn": "En savoir plus",
+        "salesforceDesc": "Agentforce, solution avancée Salesforce de Rialtes, aide les équipes pharma commerciales, médicales et support à :",
+        "salesforceBlueBox": "Agentforce améliore l’efficacité de la force de terrain et garantit des interactions HCP conformes et personnalisées.",
+        "contactTitle": "Collaborez avec Rialtes — pour l’excellence Pharma et Biotech de nouvelle génération !"
+    },
+    "medicalDevices": {
+        "thoughLeadershipData": [
+            "Offrir des parcours patients conformes et fluides, de la prescription de l’appareil au suivi des résultats.",
+            "Intégrer les opérations cliniques, de la chaîne d’approvisionnement et commerciales dans un écosystème numérique unifié.",
+            "Exploiter l’IA pour la surveillance proactive, la maintenance prédictive et l’amélioration des performances des dispositifs.",
+            "Accélérer la mise sur le marché des dispositifs médicaux innovants grâce à des processus agiles et conformes."
+        ],
+        "whyPartnerData": [
+            "Expertise approfondie dans Salesforce Life Sciences Cloud et SAP S/4 HANA.",
+            "Capacité prouvée à intégrer l’IA, l’IoT et les données en temps réel dans les écosystèmes de dispositifs médicaux.",
+            "Cadres de conformité, de qualité et centrés sur le patient de bout en bout.",
+            "Livraison globale avec expertise locale sur les marchés réglementaires.",
+            "Outils propriétaires tels que RialChat et Agentforce pour un engagement en temps réel."
+        ],
+        "salesforceLifeData": [
+            "Vue à 360° des interactions patients, prestataires et équipes de soins.",
+            "Gestion des essais cliniques intégrée aux programmes de soutien aux patients.",
+            "Gestion des plaintes et des événements indésirables en temps réel.",
+            "Suivi des services sur le terrain et des dispositifs sécurisé et conforme."
+        ],
+        "sapData": [
+            "Contrôle de la fabrication et de la production par lots.",
+            "Inventaire sérialisé et traçabilité mondiale.",
+            "Gestion intégrée de la qualité et documentation réglementaire.",
+            "Processus Order-to-Cash connectés à Salesforce pour une visibilité complète."
+        ],
+        "keyAiData": [
+            "Surveillance des patients pilotée par IA pour des alertes de risque en temps réel.",
+            "Recommandations personnalisées pour ajustements ou mises à jour des dispositifs.",
+            "Analyses IA pour les soumissions réglementaires.",
+            "Analytique prédictive pour l’optimisation de la chaîne d’approvisionnement."
+        ],
+        "benefitsofAi": [
+            "Améliorer la détection précoce des risques et la sécurité des patients.",
+            "Améliorer la fiabilité et les performances des dispositifs grâce à des analyses prédictives.",
+            "Simplifier la conformité réglementaire et le reporting.",
+            "Permettre un support patient personnalisé grâce à l’engagement piloté par IA."
+        ],
+        "patientData": [
+            "Intégration Salesforce Life Sciences Cloud pour le suivi, l’engagement et la conformité des participants aux essais.",
+            "Applications mobiles et portails pour les résultats déclarés par les patients et retours en temps réel.",
+            "Analyses IA pour le suivi des essais, des événements indésirables et des tendances de conformité.",
+            "Flux de données des essais vers la préparation des soumissions réglementaires."
+        ],
+        "integratedData": [
+            "Vue unifiée des commandes, inventaire et exécution.",
+            "Contrôles et documentation de conformité automatisés.",
+            "Intégration avec Salesforce pour des mises à jour en temps réel des ventes et du service terrain.",
+            "Gestion des rappels et retours intégrée aux exigences réglementaires."
+        ],
+        "mobileData": [
+            "Portails en libre-service pour le suivi de l’utilisation des dispositifs.",
+            "Analyses pilotées par IA basées sur les données déclarées par les patients.",
+            "Alertes en temps réel pour dysfonctionnements ou besoins des patients.",
+            "Intégration avec les équipes de service terrain pour une réponse rapide."
+        ],
+        "remoteDeviceData": [
+            "Connectivité des dispositifs via IoT.",
+            "Alertes de maintenance prédictive pour intervention précoce.",
+            "Analyse des habitudes d’utilisation pour améliorer la conception des dispositifs.",
+            "Collecte et reporting des données conformes aux exigences réglementaires."
+        ],
+        "salesforceAgentData": [
+            "Automatise les processus de vente de dispositifs médicaux, y compris approbations et contrats complexes.",
+            "Renforce les équipes de service terrain pour un entretien et remplacement plus rapides des dispositifs.",
+            "Permet la gestion des cas pour les plaintes patients et événements indésirables.",
+            "Fournit le suivi des dispositifs et la gestion des garanties en temps réel.",
+            "Connecte les équipes de vente, service et conformité dans une interface unique."
+        ],
+        "realTimeData": [
+            "Planification de rendez-vous et suivis.",
+            "Rappels automatisés pour l’utilisation des dispositifs et dépannage.",
+            "Retours patients directs et signalement de problèmes.",
+            "Partage sécurisé de documents et images pour les cas de support."
+        ],
+        "challenges": [
+            {
+                "id": 1,
+                "title": "Conformité réglementaire et gestion de la qualité",
+                "imageMobile": "/images/medical/Regulatory Compliance.webp",
+                "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+                "points": [
+                    "Naviguer dans des réglementations mondiales complexes et en évolution.",
+                    "Difficulté à gérer documentation, traçabilité et audits.",
+                    "Intégrer la gestion de la qualité et les systèmes d’actions correctives (CAPA)."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Complexité de la chaîne d’approvisionnement et exécution des commandes",
+                "imageMobile": "/images/medical/Supply Chain Complexity.webp",
+                "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+                "points": [
+                    "Systèmes déconnectés pour inventaire, fabrication et gestion des commandes.",
+                    "Difficultés à suivre les dispositifs médicaux sérialisés à l’international.",
+                    "Gestion des rappels et retours avec conformité et efficacité."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Suivi des essais cliniques et des résultats patients",
+                "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
+                "imageDesktop": "/images/medical/Clinical Trial.webp",
+                "points": [
+                    "Outils insuffisants pour la gestion complète des essais cliniques.",
+                    "Données en temps réel limitées sur la performance des dispositifs et les résultats patients.",
+                    "Défis dans l’engagement des patients et la surveillance post-commercialisation."
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Surveillance à distance et analyses prédictives par IA",
+                "imageMobile": "/images/medical/Remote Monitoring (3).webp",
+                "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+                "points": [
+                    "Manque de données patients en temps réel depuis les dispositifs implantés ou portables.",
+                    "Opportunités manquées pour prédire les défaillances ou événements indésirables.",
+                    "Impossible d’optimiser les performances des dispositifs basées sur les données d’utilisation réelle."
+                ]
+            }
+        ],
+        "headerTitle": "Dispositifs Médicaux",
+        "headerSubTitle": "Transformer l’innovation et la conformité des dispositifs médicaux",
+        "headerSubTitle2": "Solutions Rialtes Life Sciences & Dispositifs Médicaux",
+        "pageDesc": "Dans l’industrie des dispositifs médicaux en constante évolution, les entreprises subissent une pression immense pour innover rapidement, améliorer les résultats patients, assurer la conformité réglementaire et gérer des chaînes d’approvisionnement mondiales complexes. Chez Rialtes, nous apportons une expertise approfondie en dispositifs médicaux, SAP S/4 HANA, Salesforce Life Sciences Cloud et solutions pilotées par IA pour fournir des services de conseil, d’implémentation, d’intégration et post-mise en production de bout en bout, permettant aux entreprises de dispositifs médicaux d’accélérer leur croissance tout en restant conformes et centrées sur le patient.",
+        "pageDesc2": "Avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, Rialtes opère en tant que partenaire mondial capable de résoudre les défis réels grâce à des solutions numériques de nouvelle génération.",
+        "thoughtTitle": "Leadership éclairé :",
+        "thoughtSubTitle": "Aider les entreprises de dispositifs médicaux à passer de la conformité à un avantage compétitif",
+        "thoughtDesc": "Rialtes se concentre sur la convergence de la stratégie, de la technologie et du design centré patient, aidant les entreprises de dispositifs médicaux à :",
+        "whyPartnerTitle": "Pourquoi collaborer avec Rialtes pour la transformation des dispositifs médicaux",
+        "criticalChTitle": "Top 4 des défis critiques pour l’industrie des dispositifs médicaux aujourd’hui",
+        "endTitle": "Expertise complète Salesforce Life Sciences Cloud & SAP S/4 HANA pour les dispositifs médicaux",
+        "salesforceTitle": "Salesforce Life Sciences Cloud",
+        "salesforceSubTitle": "Alimenter les parcours patients et prestataires",
+        "sapTitle": "SAP S/4 HANA pour dispositifs médicaux",
+        "sapSubTitle": "Pilier opérationnel et financier",
+        "learnMoreTitle": "En savoir plus",
+        "aiPoweredTitle": "Stimuler l’innovation dans les dispositifs médicaux",
+        "keyAiTitle": "Domaines clés d’impact de l’IA :",
+        "benefitsAiTitle": "Avantages de l’IA dans les dispositifs médicaux :",
+        "patientTitle": "Gestion des essais patients et résultats",
+        "patientSubTitle": "Connecter patients, prestataires et données",
+        "patientDesc": "Les résultats patients stimulent l’innovation produit — Rialtes facilite cette connexion.",
+        "integratedTitle": "Gestion intégrée des commandes avec SAP & Oracle ERP",
+        "integratedDesc": "De la fabrication à la livraison — Rialtes maintient la chaîne d’approvisionnement connectée et conforme.",
+        "mobileTitle": "Applications mobiles pour résultats déclarés par les patients",
+        "mobileSubTitle": "Favoriser les retours patients en temps réel",
+        "mobileDesc": "Donner le pouvoir aux patients pour de meilleurs résultats et des dispositifs plus sûrs.",
+        "remoteTitle": "Surveillance à distance des dispositifs",
+        "remoteSubTitle": "Fournir des insights dispositifs en temps réel",
+        "remoteDesc": "Meilleures données, meilleurs dispositifs, meilleure vie des patients.",
+        "salesforceAgentTitle": "Salesforce Agentforce",
+        "salesforceAgentSubTitle": "Révolutionner la vente et le service des dispositifs médicaux",
+        "salesforceAgentDesc": "Agentforce est une solution Salesforce révolutionnaire qui permet aux équipes de vente et service des dispositifs médicaux de gérer les cycles de vente complexes, la conformité et les interactions patients sur une plateforme unique. Rialtes possède une solide expertise Agentforce, parfaitement alignée avec les besoins de l’industrie des dispositifs médicaux et des sciences de la vie.",
+        "knowMoreBtn": "En savoir plus",
+        "howAgentTitle": "Comment Agentforce soutient les entreprises de dispositifs médicaux :",
+        "salesforceAgentBlueBox": "Agentforce offre une approche connectée, conforme et centrée sur le patient pour la vente et le service des dispositifs médicaux.",
+        "realTimeTitle": "Communication en temps réel avec AgentChat",
+        "realTimeSubTitle": "Intégration WhatsApp pour dispositifs médicaux",
+        "realTimeDesc": "RialChat, notre solution d’intégration WhatsApp, permet une communication instantanée entre patients, prestataires et services terrain :",
+        "stayConnectedTitle": "Restez connecté avec les patients et prestataires sur le canal qu’ils privilégient.",
+        "contactTitle": "Transformez la vie des patients et les opérations des dispositifs médicaux avec Rialtes !",
+        "contactSubTitle": "Prêt à améliorer vos opérations de dispositifs médicaux ? Contactez Rialtes dès aujourd’hui pour être à la pointe de l’innovation centrée sur le patient et de la conformité."
+    },
+    "homeHealth": {
+        "addressingData": [
+            {
+                "title": "Divisions géographiques et accessibilité",
+                "desc": "Les patients vivant dans des zones rurales ou éloignées font face à des obstacles importants pour accéder à des soins médicaux en temps opportun en raison d’une infrastructure limitée et de l’isolement géographique. Notre équipe fournit aux prestataires de soins à domicile des outils de coordination de soins virtuels, des applications optimisées pour mobile et un accès aux données en temps réel, afin que les patients puissent recevoir des soins continus sans jamais se rendre dans une clinique.",
+                "deskImg": "/images/home-health/geographical-desk.webp",
+                "mobImg": "/images/home-health/Mobile/geographical-mob.webp"
+            },
+            {
+                "title": "Pandémie et risque de maladies infectieuses",
+                "desc": "Les consultations physiques exposent les patients vulnérables aux maladies contagieuses, notamment lors de crises sanitaires comme la COVID-19. Nous soutenons le passage des visites en clinique aux consultations et suivis à distance, garantissant que les patients reçoivent des soins dans un environnement sûr et contrôlé, à domicile, via des rendez-vous virtuels, des diagnostics à distance et la prestation de soins sans contact grâce à Salesforce.",
+                "deskImg": "/images/home-health/pandemic-desk.webp",
+                "mobImg": "/images/home-health/Mobile/pandemic-mob.webp"
+            },
+            {
+                "title": "Manque de suivi de santé en temps réel",
+                "desc": "Sans visibilité en temps réel sur l’état de santé des patients, les signes avant-coureurs sont souvent manqués, entraînant des complications évitables. Rialtes permet la surveillance à distance des patients (RPM) en intégrant des dispositifs médicaux intelligents et des objets connectés avec Salesforce Health Cloud, assurant aux prestataires de soins des mises à jour et alertes en temps réel pour des interventions rapides.",
+                "deskImg": "/images/home-health/lack-desk.webp",
+                "mobImg": "/images/home-health/Mobile/lack-mob.webp"
+            },
+            {
+                "title": "Longs temps d’attente",
+                "desc": "Les cliniques surchargées entraînent des soins retardés, des suivis manqués et des patients frustrés. Grâce à la planification automatisée des rendez-vous, des outils d’orientation intelligents et des options de soins virtuels, nous aidons à réduire le retard des patients et à faciliter les consultations à la demande pour les patients confinés à domicile.",
+                "deskImg": "/images/home-health/long-desk.webp",
+                "mobImg": "/images/home-health/Mobile/long-mob.webp"
+            },
+            {
+                "title": "Accès limité au soutien en santé mentale",
+                "desc": "L’accès aux services de santé mentale reste un défi en raison de la stigmatisation, de la disponibilité limitée et des obstacles logistiques. Rialtes propose un accès virtuel discret à des professionnels de la santé comportementale, des séances de conseil et des outils de suivi de l’humeur, le tout intégré dans une plateforme numérique sécurisée et conviviale pour les patients.",
+                "deskImg": "/images/home-health/limited-desk.webp",
+                "mobImg": "/images/home-health/Mobile/limited-mob.webp"
+            }
+        ],
+        "aiRovolutionizingData": [
+            {
+                "title": "Surveillance prédictive de la santé",
+                "desc": "Les algorithmes IA analysent les données en temps réel provenant des dispositifs portables et des outils de surveillance à distance pour détecter les anomalies de santé avant qu’elles ne deviennent critiques."
+            },
+            {
+                "title": "Planification intelligente des soins",
+                "desc": "L’IA aide à créer des plans de soins dynamiques basés sur l’historique du patient, son comportement et ses scores de risque provenant de Salesforce Health Cloud et des systèmes EHR intégrés."
+            },
+            {
+                "title": "Assistants de santé virtuels",
+                "desc": "Les IA conversationnelles et chatbots fournissent un support 24/7 aux patients, répondent aux questions, planifient des rendez-vous et transmettent les cas urgents aux cliniciens."
+            },
+            {
+                "title": "Diagnostics pilotés par IA",
+                "desc": "L’IA renforce le support décisionnel en interprétant les résultats de tests à distance, les images ou les journaux de symptômes, aidant les cliniciens à diagnostiquer les conditions plus rapidement et avec précision."
+            },
+            {
+                "title": "Automatisation opérationnelle",
+                "desc": "De l’orientation efficace des professionnels de santé à domicile à l’automatisation de la documentation, l’IA rationalise les flux de travail et réduit les coûts administratifs."
+            }
+        ],
+        "capabilitiesData": [
+            {
+                "title": "Planification intelligente des rendez-vous pour visites à domicile et soins virtuels",
+                "desc": "Des soins efficaces commencent par une planification fluide. Rialtes fournit aux prestataires de soins à domicile la réservation automatique de rendez-vous, des alertes en temps réel et des outils de planification compatibles téléhealth, intégrés à Salesforce Health Cloud.",
+                "dataList": [
+                    "Les patients peuvent réserver des visites à domicile ou des consultations virtuelles via un portail sécurisé",
+                    "Les notifications en temps réel réduisent les rendez-vous manqués et optimisent les trajets des soignants",
+                    "Vue centralisée du calendrier pour gérer les horaires, suivis et réaffectations des équipes de soins"
+                ]
+            },
+            {
+                "title": "Intégration EHR pour des dossiers patients unifiés",
+                "desc": "Dans les soins à domicile, l’accès à des informations précises et à jour sur les patients est essentiel. Rialtes connecte les dossiers médicaux électroniques (EHR) à votre plateforme Salesforce pour créer une vue à 360° du parcours patient, accessible aux cliniciens en déplacement.",
+                "dataList": [
+                    "Synchronisation sécurisée et fluide de l’historique des patients, résultats de laboratoire et plans de soins",
+                    "Prise en charge des mises à jour en temps réel depuis les dispositifs de surveillance à distance et évaluations à domicile",
+                    "Permet des décisions personnalisées et basées sur les données à chaque visite à domicile"
+                ]
+            },
+            {
+                "title": "Surveillance à distance des patients (RPM)",
+                "desc": "",
+                "dataList": [
+                    "Suivi en temps réel des signes vitaux et symptômes via dispositifs portables et applications connectées",
+                    "Alertes automatiques pour tout motif de santé anormal",
+                    "Interventions basées sur les données pour la gestion des maladies chroniques"
+                ]
+            },
+            {
+                "title": "Coordination des soins virtuels",
+                "desc": "",
+                "dataList": [
+                    "Plans de soins et tâches intégrés pour cliniciens, aidants et patients",
+                    "Planification automatisée des suivis et rappels de médication",
+                    "Tableaux de bord mobiles pour infirmiers et personnel de soins à domicile"
+                ]
+            },
+            {
+                "title": "Données de santé centralisées avec Salesforce Health Cloud",
+                "desc": "",
+                "dataList": [
+                    "Profils patients unifiés accessibles à tout moment et en tout lieu",
+                    "Intégration fluide avec systèmes EHR/EMR et applications tierces",
+                    "Accès basé sur les rôles pour une meilleure gouvernance et sécurité des données"
+                ]
+            },
+            {
+                "title": "Engagement patient amélioré",
+                "desc": "",
+                "dataList": [
+                    "Portails patients avec communication bidirectionnelle",
+                    "Salles d’attente virtuelles et support téléhealth",
+                    "Alertes personnalisées et ressources éducatives sur la santé"
+                ]
+            }
+        ],
+        "agentChat": [
+            {
+                "title": "Intégration fluide",
+                "desc": "Initiez ou répondez aux messages WhatsApp depuis n’importe quel enregistrement Salesforce, y compris les contacts Health Cloud, plans de soins ou demandes de service."
+            },
+            {
+                "title": "Synchronisation en temps réel",
+                "desc": "Qu’une conversation commence sur WhatsApp ou dans Salesforce, les messages sont synchronisés en temps réel, garantissant qu’aucun détail n’est perdu."
+            },
+            {
+                "title": "Vue unifiée du patient",
+                "desc": "L’historique des discussions devient partie intégrante du profil médical du patient dans Salesforce, offrant aux cliniciens et coordinateurs un contexte complet."
+            }
+        ],
+        "homeHealth": [
+            "Envoyer des rappels de rendez-vous et instructions de médication",
+            "Partager les mises à jour du plan de soins avec les familles",
+            "Coordonner avec les soignants sur le terrain pour les besoins urgents",
+            "Fournir des suivis en santé mentale et des conseils bien-être"
+        ],
+        "relatedData": [
+            {
+                "id": "1",
+                "title": "Salesforce Service Cloud",
+                "desc": "Pour des workflows supérieurs de service aux patients et prestataires."
+            },
+            {
+                "id": "2",
+                "title": "Salesforce Experience (Community) Cloud",
+                "desc": "Pour créer des portails destinés aux patients, HCP et partenaires."
+            },
+            {
+                "id": "3",
+                "title": "Salesforce Agentforce pour la santé",
+                "desc": "Gestion des cas pilotée par IA et optimisation des services."
+            },
+            {
+                "id": "4",
+                "title": "Salesforce Data Cloud pour la santé",
+                "desc": "Données patients unifiées pour alimenter la personnalisation et l’analytique de nouvelle génération."
+            }
+        ],
+        "headerTitle": "Soins à domicile",
+        "headerSubTitle": "Solutions technologiques",
+        "headerSubTitle2": "Pour connecter les patients",
+        "headerSubTitle3": "avec leurs prestataires",
+        "pageDescTitle": "Favoriser l’accès aux soins depuis le domicile grâce aux applications mobiles",
+        "pageDesc": "Le besoin de soins efficaces et centrés sur le patient est plus important que jamais. Nos services de soins à domicile offrent aux organisations de santé des solutions technologiques de pointe pour la surveillance à distance des patients, les consultations virtuelles et la gestion personnalisée des soins.",
+        "addressingTitle": "Répondre aux obstacles dans les soins à domicile",
+        "addressingDesc": "Bien que les soins à domicile offrent une opportunité transformative pour la prestation de soins, plusieurs défis doivent être surmontés. Chez Rialtes, nous concevons des solutions de surveillance à distance et de soins à domicile de nouvelle génération sur Salesforce Health Cloud pour éliminer ces obstacles et fournir des soins équitables, efficaces et empathiques.",
+        "globalTitle": "Expertise mondiale, déploiement local",
+        "globalSubTitle": "Avec une expertise certifiée dans Salesforce Life Sciences Cloud et SAP S/4HANA pour la pharma, Rialtes allie innovation mondiale et conformité locale. Présents en Inde, aux États-Unis, au Canada et à Singapour, nous garantissons que vos programmes de soins à domicile respectent la réglementation régionale tout en suivant les meilleures pratiques mondiales en matière de soins et de transformation numérique.",
+        "howAiTitle": "Comment l’IA révolutionne les soins à domicile",
+        "howAiDesc": "L’intelligence artificielle redéfinit ce qui est possible dans les soins à domicile. En permettant des insights prédictifs, un traitement personnalisé et une prise de décision en temps réel, l’IA permet aux équipes de soins de passer d’un modèle réactif à un modèle proactif, améliorant les résultats patients tout en réduisant les coûts.",
+        "ourCapabTitle": "Nos capacités",
+        "ourCapabSubTitle": "Soins à domicile plus intelligents avec Salesforce",
+        "ourCapabDesc": "Nous intégrons l’IA à chaque couche de votre écosystème de soins à domicile propulsé par Salesforce, transformant vos opérations grâce à l’automatisation intelligente et aux soins guidés par les données.",
+        "agentChatTitle": "AgentChat",
+        "agentChatSubTitle": "Intégration WhatsApp en temps réel pour les soins à domicile",
+        "agentChatDesc": "Dans les soins à domicile, communiquer, c’est soigner. C’est pourquoi nous avons AgentChat—une solution puissante qui connecte instantanément patients et soignants via WhatsApp, directement dans Salesforce. Avec AgentChat, vos équipes de soins peuvent répondre aux patients, familles et personnels sur le terrain tout en conservant un historique complet de chaque conversation.",
+        "agentChatSubTitle2": "Conçu pour les soins à domicile",
+        "relatedTitle": "Solutions connexes à explorer",
+        "contactTitle": "Prêt à offrir des soins proactifs, connectés et empathiques directement aux patients ?",
+        "contactSubTitle": "Transformez votre modèle de soins avec les solutions de soins à domicile propulsées par Salesforce de Rialtes"
+    },
+    "semiconductor": {
+        "headerTitle": "Industrie des semi-conducteurs",
+        "subTitleOne": "Favoriser",
+        "subTitleTwo": "l'Innovation en Semi-conducteurs",
+        "subTitleThree": "avec une Transformation Numérique",
+        "subTitleFour": "de bout en bout",
+        "powerTitle": "Stimuler l'Innovation en Semi-conducteurs avec des Solutions d'Entreprise Intelligentes",
+        "powerDesc": "L'industrie des semi-conducteurs évolue rapidement, portée par l'IA, l'IoT et les exigences de la chaîne d'approvisionnement mondiale. Rialtes aide les entreprises de semi-conducteurs à rester en avance grâce à des solutions basées sur SAP et Salesforce, qui optimisent la conception, la production, la conformité et la collaboration avec les clients.",
+        "powerDescOne": "En tant que partenaire de conseil certifié, nous fournissons des services de bout en bout allant du conseil à la mise en œuvre, l'intégration et le support post-déploiement.",
+        "thoughtTitle": "Leadership éclairé",
+        "thoughtSubTitle": "Un futur numérique et alimenté par l'IA pour les semi-conducteurs",
+        "thoughtDesc": "Chez Rialtes, nous combinons une expertise approfondie des processus semi-conducteurs et des plateformes technologiques de pointe pour répondre aux besoins uniques de l'industrie, notamment :",
+        "thoughtDescOne": "Nous intégrons SAP S/4 HANA, Salesforce Industry Clouds et des solutions d'IA pour permettre des décisions plus intelligentes, un time-to-market plus rapide et une conformité améliorée.",
+        "thoughtData": [
+            "Intégration des processus de fabrication (Fab) avec les systèmes d'entreprise pour le contrôle du rendement, des coûts et de la qualité.",
+            "Gestion de la complexité réglementaire, génération de fiches techniques et certifications de sécurité à l'échelle mondiale.",
+            "Faciliter la fabrication sous contrat, l'emballage, les tests et l'orchestration de la chaîne d'approvisionnement.",
+            "Optimisation de la conception, de la validation et de la production grâce à l'IA tout au long du cycle de vie des semi-conducteurs."
+        ],
+        "endTitle": "Processus de semi-conducteurs de bout en bout",
+        "endDesc": "Numérisés avec Rialtes",
+        "endToEndData": [
+            {
+                "title": "Spécifications client et conception initiale",
+                "desc": "Le parcours commence par les exigences techniques des clients, les fiches techniques et les spécifications réglementaires. Les entreprises ont besoin de :",
+                "dataList": [
+                    "Des plateformes robustes de gestion des spécifications client.",
+                    "Des systèmes de configuration, de conception et de collaboration en ingénierie.",
+                    "Intégration des normes de conformité et de certification (RoHS, REACH, CE)."
+                ]
+            },
+            {
+                "title": "Processus Fab et gestion des fonderies",
+                "desc": "Nous soutenons les fonderies de semi-conducteurs et les IDM (Integrated Device Manufacturers) pour optimiser les processus Fab :",
+                "dataList": [
+                    "Fabrication de wafers conforme aux objectifs du nœud de processus (ex. 3nm, 5nm).",
+                    "Gestion de la création de masques, planification Fab et optimisation du rendement.",
+                    "Intégration des standards IP tels que Bluetooth, PCI-Express, Cellular, IEEE 1588, Wi-Fi.",
+                    "Capture et analyse des données de processus en temps réel pour optimiser qualité et coûts."
+                ]
+            },
+            {
+                "title": "Conception, vérification et validation (V&V)",
+                "desc": "",
+                "dataList": [
+                    "Intégration complète des outils EDA pour RTL, layout et validation post-silicium.",
+                    "Préparation à la tape-out et vérifications DRC/LVS.",
+                    "Gestion de la conformité aux fiches techniques, certifications de sécurité et protocoles de test.",
+                    "Analyse des défauts et prévision du rendement assistées par IA."
+                ]
+            },
+            {
+                "title": "Assemblage, emballage et tests (APT)",
+                "desc": "",
+                "dataList": [
+                    "Support à la conception de chiplets et d'emballages avancés (2.5D, 3D IC).",
+                    "Processus pour wire-bonding, flip-chip et emballage au niveau wafer.",
+                    "Tests finaux, validation et classification des défauts de bout en bout."
+                ]
+            },
+            {
+                "title": "Fabrication sous contrat et collaboration avec des fonderies externes",
+                "desc": "",
+                "dataList": [
+                    "Gestion des fabricants sous contrat (CM) et partenaires fonderies.",
+                    "Intégration de la demande, des ordres de production, de la logistique et de la conformité.",
+                    "Enregistrement des deals et suivi des design-win pour les puces spécifiques aux clients."
+                ]
+            }
+        ],
+        "foundryTitle": "Soutien aux fonderies de semi-conducteurs et aux opérations externalisées",
+        "foundryDesc": "La fabrication de semi-conducteurs est de plus en plus collaborative et distribuée. Rialtes aide les entreprises à gérer :",
+        "semiconductorFoundryData": [
+            "Externalisation des fonderies et visibilité sur la chaîne d'approvisionnement des wafers.",
+            "Intégration des fournisseurs de services d'assemblage et de test (ATSP).",
+            "Gestion des risques d'approvisionnement, du contrôle qualité et de la conformité entre partenaires.",
+            "Informations en temps réel sur les cycles de production et la capacité."
+        ],
+        "topTitle": "Les 4 principaux défis stratégiques auxquels l'industrie des semi-conducteurs est confrontée aujourd'hui",
+        "strategicData": [
+            {
+                "id": "1",
+                "title": "Contraintes de chaîne d'approvisionnement et de capacité",
+                "dataList": [
+                    "Demande volatile et capacités Fab limitées.",
+                    "Pénuries de substrats, emballages et disponibilité des tests.",
+                    "Difficulté à gérer les réseaux de fournisseurs multi-niveaux."
+                ]
+            },
+            {
+                "id": "2",
+                "title": "Complexité réglementaire et conformité",
+                "dataList": [
+                    "Exigences mondiales telles que RoHS, REACH, Conflict Minerals, ITAR et contrôles à l'exportation.",
+                    "Difficulté à maintenir des fiches techniques et certifications conformes.",
+                    "Nécessité de traçabilité et de documentation prête pour audit."
+                ]
+            },
+            {
+                "id": "3",
+                "title": "Cycle de vie du produit et pression sur le time-to-market",
+                "dataList": [
+                    "Évolution rapide des standards (PCIe, Wi-Fi, Bluetooth, 5G, IEEE 1588).",
+                    "Raccourcissement des cycles de conception et besoin de transitions rapides du prototype à la production.",
+                    "Modifications spécifiques aux clients et conceptions basées sur des deals nécessitant une adaptation rapide."
+                ]
+            },
+            {
+                "id": "4",
+                "title": "Écosystème complexe de fabrication et de test sous contrat",
+                "dataList": [
+                    "Gestion de la fabrication et des tests multi-parties.",
+                    "Assurer la sécurité de la propriété intellectuelle et la conformité qualité.",
+                    "Aligner ERP, PLM et réseaux partenaires en temps réel."
+                ]
+            }
+        ],
+        "learnMore": "En savoir plus",
+        "deepTitle": "Expertise approfondie en SAP S/4 HANA et Salesforce pour les semi-conducteurs",
+        "deepDesc": "Chez Rialtes, nous apportons une expertise spécialisée dans la mise en œuvre de solutions SAP S/4 HANA et Salesforce Industry Cloud, spécifiquement adaptées aux entreprises de semi-conducteurs naviguant dans le monde complexe et stratégique de la conception, de la fabrication, des tests et de la distribution de puces.",
+        "deepDescOne": "Nos connaissances vont au-delà des systèmes d'entreprise traditionnels — nous comprenons les liens complexes entre les opérations de fab, les conceptions spécifiques aux clients, la fabrication sous contrat et les exigences réglementaires évolutives. Nous aidons les organisations de semi-conducteurs à aligner les équipes d'ingénierie, de production, de ventes et de chaîne d'approvisionnement mondiale sous une stratégie digitale unifiée.",
+        "commonSectionData": [
+            {
+                "title": "SAP S/4 HANA pour l'excellence en fabrication de semi-conducteurs",
+                "desc": "SAP S/4 HANA sert de colonne vertébrale ERP centralisée et intelligente pour les entreprises de semi-conducteurs souhaitant optimiser les opérations de fab, la collaboration avec les fonderies et les processus d'assemblage/test, tout en assurant la conformité financière et réglementaire.",
+                "keyData": [
+                    "Gestion complète de la chaîne d'approvisionnement et de la production de wafers intégrée aux données temps réel des ateliers des fabs et fonderies.",
+                    "Traçabilité des matériaux et suivi de la généalogie des lots pour wafers, dies, substrats et emballages.",
+                    "Suivi du rendement et analyses de contrôle qualité intégrés à chaque étape du cycle de fabrication, du mask set aux circuits intégrés finis.",
+                    "Automatisation de la conformité réglementaire couvrant les exigences mondiales (RoHS, REACH, contrôles à l'exportation et ITAR).",
+                    "Coûts, rentabilité et reconnaissance des revenus directement liés aux rendements de production, accords spécifiques aux clients et modèles de tarification en volume.",
+                    "Gestion des garanties, retours et services pour les produits semi-conducteurs B2B et B2C, y compris le support pour les composants à long cycle de vie."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+            },
+            {
+                "title": "Salesforce Industry Cloud pour l'engagement client et partenaire dans le secteur des semi-conducteurs",
+                "desc": "Salesforce Industry Cloud, conçu pour les entreprises de semi-conducteurs, permet aux équipes en contact avec les clients de gérer facilement les design wins, les exigences clients et les partenariats techniques à long terme, apportant agilité et visibilité à chaque interaction client.",
+                "keyData": [
+                    "Gestion de bout en bout de l'enregistrement des deals, des opportunités et des design wins pour suivre les engagements clients spécifiques et les projets de développement de puces sur mesure.",
+                    "Gestion des relations partenaires (PRM) pour gérer les partenaires de distribution, distributeurs et fonderies — tous alignés aux cycles d'ingénierie et de vente.",
+                    "Gestion des programmes de tarification, remises et incitations spécifiques aux clients, intégrée aux données ERP et de fabrication.",
+                    "Support client, RMA et gestion des cas de services techniques, y compris le suivi des escalades et l'analyse de services basée sur l'IA.",
+                    "Prévisions intelligentes et planification de la demande basées sur les informations clients et l'analyse IA/ML des pipelines de vente et de conception."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+            },
+            {
+                "title": "Intégration unifiée SAP et Salesforce",
+                "subtitle": "Une vue à 360° des opérations semi-conducteurs",
+                "desc": "En combinant SAP S/4 HANA et Salesforce Industry Cloud, Rialtes offre une vue intégrée des données produits, clients et opérationnelles — brisant les silos entre les équipes d'ingénierie, de fabrication, de vente et de finance.",
+                "keyData": [
+                    "Introductions plus rapides de nouveaux produits (NPI) grâce à une gestion collaborative du design à la livraison.",
+                    "Prévisions de demande précises et alignement de la production basés sur les opportunités clients et design wins confirmés en temps réel.",
+                    "Satisfaction et fidélisation client améliorées grâce à un service proactif, des délais transparents et un traitement des commandes personnalisées.",
+                    "Conformité et préparation aux audits simplifiées, couvrant tout, des certifications environnementales aux licences d'exportation.",
+                    "Visibilité de bout en bout, de la spécification client à la production de wafers, l'assemblage et l'expédition finale, assurant réactivité et gestion des risques."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+            }
+        ],
+        "keyTitle": "Résultats commerciaux clés issus de l'intégration :",
+        "keyTitleOne": "Capacités clés :",
+        "aiTitle": "Innovation basée sur l'IA dans le secteur des semi-conducteurs",
+        "aiDesc": "Impact pratique",
+        "aiDescOne": "L'intelligence artificielle (IA) révolutionne l'industrie des semi-conducteurs, transformant fondamentalement la manière dont les entreprises conçoivent, fabriquent, testent et gèrent les semi-conducteurs sur des marchés en évolution rapide. De l'optimisation de la conception des puces à l'analyse prédictive du rendement, l'IA aide les fabricants à réduire les coûts, améliorer la qualité, accélérer le time-to-market et gérer la complexité croissante des puces avancées telles que les accélérateurs IA, SoC et modems 5G.",
+        "areaTitle": "Principaux domaines où l'IA transforme l'industrie des semi-conducteurs :",
+        "keyAreasData": [
+            {
+                "title": "Conception et vérification de puces assistées par IA",
+                "desc": "La conception de puces semi-conductrices de nouvelle génération (processeurs IA, GPU, puces pour l'automobile ou IC 5G) nécessite la gestion de milliards de transistors avec une précision extrême. L'IA et le ML sont désormais intégrés aux outils EDA (Electronic Design Automation) pour automatiser les vérifications des règles de conception, l'optimisation énergétique et le floor planning.",
+                "realWorldData": [
+                    "Vérification RTL plus rapide et prédiction des erreurs, réduisant le temps de la conception à la tape-out.",
+                    "Optimisation automatisée de la disposition et de la puissance, réduisant la taille de la puce et la consommation énergétique.",
+                    "Détection précoce des violations des règles de conception, minimisant les retouches coûteuses."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+            },
+            {
+                "title": "Gestion prédictive du rendement et optimisation des opérations Fab",
+                "desc": "Les modèles IA analysent des téraoctets de données issues des capteurs et équipements des fabs pour prédire les problèmes de rendement avant le rejet des wafers, optimisant la production. L'IA aide à identifier les dérives d'équipement, la contamination particulaire et les anomalies de recette pour améliorer l'efficacité globale des équipements (OEE).",
+                "realWorldData": [
+                    "Détection prédictive des défaillances des outils Fab pour prévenir les arrêts.",
+                    "Modèles IA prédisant le rendement des wafers à partir des données Fab en temps réel, réduisant les pertes de production.",
+                    "Analyse automatisée des causes racines (RCA) pour les baisses de rendement, raccourcissant le temps d'investigation."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+            },
+            {
+                "title": "Chaîne d'approvisionnement et prévision de la demande pilotées par IA",
+                "desc": "Face aux pénuries mondiales de puces et aux perturbations de la chaîne d'approvisionnement, l'IA aide à prédire les fluctuations de la demande, les délais et les risques d'approvisionnement. Les plateformes IA analysent les signaux globaux offre/demande, les prévisions clients et les goulets logistiques pour optimiser production et inventaire.",
+                "realWorldData": [
+                    "Prévisions précises de la demande pour des modèles de puces spécifiques grâce à l'IA sur les données clients et du marché.",
+                    "Atténuation des risques via la surveillance IA des fournisseurs et des stratégies de double sourcing.",
+                    "Planification dynamique de la production et des capacités Fab basée sur les prévisions de demande IA."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+            },
+            {
+                "title": "IA pour les tests, validation et débogage post-silicium",
+                "desc": "Les tests de puces complexes (comme les puces IA ou IC pour automobile) génèrent d'énormes volumes de données. L'IA analyse ces données pour identifier les motifs, détecter les anomalies et améliorer la couverture des tests tout en réduisant les cycles.",
+                "realWorldData": [
+                    "Stratégies de test adaptatives basées sur l'IA réduisant le temps de test sans compromettre la qualité.",
+                    "Identification précoce des défauts systématiques et optimisation DFT (Design-for-Test).",
+                    "Détection d'anomalies lors de la validation silicium, accélérant le cycle de débogage pour un succès dès le premier silicium."
+                ],
+                "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+            }
+        ],
+        "worldTitle": "Impacts concrets :",
+        "enabledTitle": "Collaboration client et partenaire assistée par IA (Intégration Salesforce & SAP)",
+        "enabledDesc": "L'IA améliore les plateformes d'engagement client en offrant des analyses en temps réel sur les besoins de conception, les usages et la performance des produits. Les insights pilotés par l'IA permettent aux équipes commerciales, techniques et partenaires de recommander des solutions et prix optimaux, créant une expérience client fluide.",
+        "enabledPara": "Impacts concrets :",
+        "enabledData": [
+            "Notation des opportunités et priorisation des deals basée sur l'IA dans Salesforce pour accélérer la clôture des design wins.",
+            "Contenu technique personnalisé et fiches techniques générés par l'IA pour les interactions clients.",
+            "Bots de support client intégrés à Salesforce Agentforce pour la résolution proactive des problèmes et la collaboration avec l'ingénierie."
+        ],
+        "valueTitle": "Résumé",
+        "valueSubtitle": "Valeur de l'IA pour l'industrie des semi-conducteurs",
+        "valueDesc": "L'intelligence artificielle (IA) révolutionne l'industrie des semi-conducteurs, transformant fondamentalement la conception, la fabrication, les tests et la gestion des semi-conducteurs dans des marchés en évolution rapide. De l'optimisation de la conception à l'analyse prédictive du rendement, l'IA aide à réduire les coûts, améliorer la qualité, accélérer le time-to-market et gérer la complexité des puces avancées comme les accélérateurs IA, SoC et modems 5G.",
+        "valueDescOne": "Chez Rialtes, nous aidons les entreprises de semi-conducteurs à opérationnaliser l'IA en connectant les processus centraux de SAP S/4 HANA, l'intelligence client de Salesforce Industry Cloud et les plateformes IA/ML pour créer un écosystème semi-conducteur intelligent, prêt pour l'avenir de l'innovation en puces.",
+        "dealTitle": "Enregistrement des deals et engagement client — Simplifiés et intelligents",
+        "dealDescOne": "Dans l'industrie des semi-conducteurs, où les design wins, les cycles de vente longs et les écosystèmes partenaires complexes dominent le paysage, gérer efficacement l'enregistrement des deals et l'engagement client est crucial. Des OEMs et clients Tier-1 aux fabricants sous contrat et partenaires de distribution, transparence, rapidité et contrôle sur le processus de vente et de collaboration de conception peuvent faire la différence entre gagner ou perdre une opportunité majeure.",
+        "dealDescTwo": "Rialtes aide les entreprises de semi-conducteurs à redéfinir les processus d'enregistrement des deals et d'engagement client grâce à Salesforce Experience Cloud et aux outils PRM, transformant ces processus en écosystèmes intelligents, automatisés et collaboratifs.",
+        "summaryData": [
+            "Accélère la conception des puces et réduit les risques liés à la tape-out.",
+            "Augmente le rendement des fabs et réduit les temps d'arrêt, économisant des millions en pertes de production.",
+            "Optimise les chaînes d'approvisionnement et réduit l'exposition aux risques mondiaux.",
+            "Améliore les relations clients et accélère le time-to-revenue grâce à un sales enablement intelligent.",
+            "Améliore la qualité finale des produits grâce à des tests et validations intelligents."
+        ],
+        "keyPillarTitle": "Piliers clés d'une stratégie moderne d'enregistrement des deals et d'engagement client",
+        "keyPillarsDesc": [
+            {
+                "id": 1,
+                "title": "Autonomiser les partenaires de distribution avec Salesforce Experience Cloud",
+                "desc": "Salesforce Experience Cloud, combiné au PRM, permet aux partenaires, distributeurs et revendeurs d'enregistrer des deals en temps réel, de suivre les opportunités et de collaborer directement avec les équipes commerciales et d'ingénierie — le tout via un portail partenaire sécurisé et personnalisé.",
+                "dataList": [
+                    "Processus d'enregistrement des deals simplifié avec formulaires guidés, flux de travail automatisés et cycles d'approbation transparents.",
+                    "Visibilité en temps réel des opportunités enregistrées, réduisant les conflits et chevauchements dans le canal.",
+                    "Accès en libre-service aux ressources commerciales critiques — fiches techniques, feuilles de route produits, support technique et tarification.",
+                    "Notation des opportunités basée sur l'IA pour prioriser les deals à fort potentiel et allouer les ressources intelligemment."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Renforcer la co-conception client et la collaboration technique",
+                "desc": "Dans l'industrie des semi-conducteurs, les cycles de conception client sont collaboratifs et nécessitent une intégration étroite entre clients, équipes commerciales et ingénieurs de conception. Grâce à Experience Cloud, les entreprises peuvent créer des portails clients sécurisés où les clients soumettent leurs exigences de conception, suivent l'avancement des validations et collaborent sur les problématiques d'ingénierie.",
+                "dataList": [
+                    "Collaboration client centralisée pour les designs de référence, demandes de fiches techniques et support d'ingénierie applicative.",
+                    "Recommandations assistées par IA pour des cas d'utilisation similaires, compatibilité produit et réutilisation de conceptions.",
+                    "Communication directe et escalade avec les équipes de conception internes et les ingénieurs d'application terrain (FAE).",
+                    "Partage sécurisé des informations techniques sensibles comme les modèles de simulation, données de caractérisation et certifications de conformité."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Gouvernance et conformité des deals automatisées",
+                "desc": "Gérer des deals globaux en semi-conducteurs implique de respecter les régulations à l'export, la conformité commerciale et les politiques de protection de la propriété intellectuelle. Salesforce automatise ces processus avec des workflows basés sur des règles et des pistes d'audit pour garantir que chaque deal enregistré respecte les exigences réglementaires.",
+                "dataList": [
+                    "Vérifications de conformité automatisées pour les contrôles à l'export (EAR, ITAR), licences IP et NDA.",
+                    "Visibilité et auditabilité complètes des processus d'enregistrement et d'approbation des deals.",
+                    "Gestion des risques intégrée pour prévenir les fuites de propriété intellectuelle et appliquer les politiques de segmentation client."
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Intelligence pilotée par les données avec IA et analyses",
+                "desc": "Grâce à Salesforce AI (Einstein GPT) et Tableau, les entreprises de semi-conducteurs obtiennent des insights approfondis sur la performance des partenaires, les taux de conversion des deals et les comportements d'achat des clients. Les modèles IA peuvent noter les deals enregistrés, recommander des opportunités d'upsell et prédire les opportunités à risque — alimentant des stratégies commerciales proactives.",
+                "dataList": [
+                    "Analyses prédictives de la probabilité de clôture des deals pour aider les commerciaux à prioriser les comptes à forte valeur.",
+                    "Insights sur la performance des partenaires avec des métriques comme le taux de conversion, taille moyenne des deals et analyse win/loss.",
+                    "Recommandations produits pilotées par l'IA basées sur les profils de conception clients et les engagements passés.",
+                    "Tableaux de bord visuels pour la direction, permettant des décisions stratégiques sur les programmes partenaires, feuilles de route produits et focus régionaux."
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Collaboration fluide sur devis et tarification",
+                "desc": "Les deals en semi-conducteurs nécessitent souvent une tarification personnalisée, des remises sur volume et des négociations contractuelles. En intégrant Salesforce CPQ (Configure, Price, Quote) dans le portail partenaire, Rialtes permet aux partenaires et équipes internes de collaborer sur les devis en temps réel, accélérant le passage à la commande (PO).",
+                "dataList": [
+                    "Génération et configuration de devis automatisées selon les catalogues produits et exigences clients.",
+                    "Workflows d'approbation pour les exceptions tarifaires, conditions spéciales et deals stratégiques.",
+                    "Visibilité sur l'inventaire disponible, les délais et recommandations de produits alternatifs."
+                ]
+            }
+        ],
+        "benefitsTitle": "Avantages stratégiques :",
+        "ecosystemTitle": "Écosystème complet de deals pour semi-conducteurs",
+        "ecosystemDesc": "Propulsé par Salesforce + Conseil Rialtes",
+        "ecosystemDescOne": "Notre approche transforme les processus traditionnels et manuels d'enregistrement des deals en un écosystème en temps réel, enrichi par l'IA, où clients, partenaires de distribution et équipes commerciales collaborent efficacement, soutenus par des workflows intelligents et des insights approfondis.",
+        "ecosystemDescTwo": "Rialtes apporte une connaissance approfondie du secteur, des experts certifiés Salesforce et SAP, et des accélérateurs éprouvés pour déployer ces capacités modernes à grande échelle.",
+        "benifitsTitleTwo": "Avantages pour les entreprises de semi-conducteurs :",
+        "endSemiconductorData": [
+            "Cycles de deals plus rapides et réduction du time-to-market pour de nouveaux design wins.",
+            "Satisfaction accrue des partenaires et engagement plus profond.",
+            "Prédictibilité des revenus améliorée grâce à l'intelligence des deals pilotée par IA.",
+            "Assurance de conformité réglementaire et IP tout au long du cycle de vie du deal.",
+            "Intégration étroite de la collaboration entre ingénierie et ventes, assurant précision technique et satisfaction client."
+        ],
+        "byTitle": "En combinant Salesforce Experience Cloud avec les services de conseil et de mise en œuvre alignés sur l'industrie de Rialtes, les entreprises de semi-conducteurs peuvent atteindre un niveau supérieur de croissance et d'efficacité opérationnelle — transformant l'enregistrement des deals d'un goulot d'étranglement en avantage compétitif.",
+        "sapTitle": "Pourquoi choisir Rialtes pour SAP & Salesforce dans le secteur des semi-conducteurs ?",
+        "sapDesc": "Avec plus de 20 ans d'expérience pratique dans l'industrie des semi-conducteurs, Rialtes est un partenaire de transformation de confiance pour les fabricants mondiaux, entreprises fabless et fonderies. Notre compréhension inégalée des processus métier des semi-conducteurs, combinée à une expertise certifiée en solutions SAP S/4 HANA et Salesforce Industry Cloud, nous permet de fournir une transformation digitale complète — de la conception à la fabrication, en passant par la vente et la distribution — adaptée aux besoins spécialisés de cette industrie complexe.",
+        "sapDescOne": "Ayant travaillé avec des géants des semi-conducteurs et de l'électronique du Fortune 500, Rialtes apporte une perspective interne sur les défis opérationnels, d'ingénierie et d'engagement client uniques auxquels sont confrontées les entreprises de semi-conducteurs aujourd'hui.",
+        "reasonsTitle": "Principales raisons pour lesquelles les entreprises leaders de semi-conducteurs font confiance à Rialtes",
+        "keyReasonsData": [
+            {
+                "id": "1",
+                "title": "20+ ans d'expérience dans le domaine des semi-conducteurs — Solutions pratiques et alignées sur l'industrie",
+                "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+                "desc": "Rialtes s'est bâti une réputation en travaillant en étroite collaboration avec certaines des plus grandes marques de semi-conducteurs pour moderniser leurs processus métier. Nous comprenons la complexité unique des chaînes de valeur des semi-conducteurs — de la fabrication de wafers, conception de CI et tests, à la fabrication sous contrat et licences IP.",
+                "dataList": [
+                    "Connaissance pratique des modèles fabless et fonderie",
+                    "Compréhension approfondie des processus NPI, tape-out et design-to-silicon",
+                    "Expérience avec des chaînes d'approvisionnement complexes, gestion du rendement et sécurité IP",
+                    "Aligné sur les workflows spécifiques à l'industrie comme l'enregistrement des deals, la co-vente partenaire et la conformité"
+                ],
+                "bgColor": "#E7F0F7"
+            },
+            {
+                "id": "2",
+                "title": "Experts en processus métier avec expérience sur projets Fortune 500",
+                "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+                "desc": "Nos consultants et architectes ne sont pas seulement des techniciens — ce sont des experts en processus métier semi-conducteurs ayant une expérience réelle dans la conduite de projets de transformation chez des entreprises du Fortune 500. Nous savons comment faire fonctionner SAP & Salesforce dans des environnements globaux complexes et multi-parties prenantes.",
+                "dataList": [
+                    "Conseil de bout en bout pour rationaliser les processus de design-win, gestion des deals et supply chain",
+                    "Apport des meilleures pratiques des principales entreprises de semi-conducteurs dans chaque projet",
+                    "Experts sur les processus front-end (client, ventes, ingénierie) et back-end (fabrication, logistique, finance)",
+                    "Capacité à combler les écarts entre ingénierie, opérations et ventes grâce à des plateformes intelligentes"
+                ],
+                "bgColor": "#EDDACD"
+            },
+            {
+                "id": "3",
+                "title": "Intégration SAP S/4 HANA & Salesforce éprouvée pour les semi-conducteurs",
+                "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+                "desc": "Rialtes fournit des solutions SAP et Salesforce entièrement intégrées adaptées aux processus semi-conducteurs — permettant un flux d'information fluide du client jusqu'à la fab et retour. Notre approche assure une version unique de la vérité entre ventes, ingénierie et opérations, réduisant les erreurs, améliorant la collaboration et accélérant le time-to-market.",
+                "dataList": [
+                    "Enregistrement et devis des deals intégrés directement liés à la gestion des commandes SAP",
+                    "Intégration en temps réel des portails de collaboration de conception Salesforce avec le master produit SAP et la chaîne d'approvisionnement",
+                    "Optimisation des processus financiers et de conformité pour les deals à forte valeur, protection IP et contrôles à l'export",
+                    "Modèles de données IA combinant datasets Salesforce et SAP pour intelligence prédictive ventes et supply chain"
+                ],
+                "bgColor": "#D7F4F2"
+            },
+            {
+                "id": "4",
+                "title": "Approche pilotée par l'IA avec les données au cœur",
+                "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+                "desc": "Dans le paysage actuel des semi-conducteurs, les données et l'IA jouent un rôle central dans tout, de la planification de la demande à la collaboration d'ingénierie et la gestion des partenaires. Rialtes combine IA, analyses et automatisation sur Salesforce et SAP pour permettre une prise de décision data-driven.",
+                "dataList": [
+                    "Notation prédictive des deals et insights sur la performance des partenaires",
+                    "Optimisation du rendement et planification de la supply chain via prévisions IA",
+                    "Conformité et surveillance des risques pilotées par IA en temps réel pour les deals globaux",
+                    "Modèles IA pour identifier les opportunités d'upsell et cross-sell dans les cycles de conception client"
+                ],
+                "bgColor": "#CAE1ED"
+            },
+            {
+                "id": "5",
+                "title": "Livraison agile et complète : du conseil au succès post-go-live",
+                "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
+                "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+                "desc": "Ce qui distingue Rialtes, c'est notre engagement à la prise en charge complète — du conseil initial, conception des processus, mise en œuvre système, jusqu'au support post-go-live et optimisation continue. Nous agissons en véritable partenaire, pas seulement en implémenteur.",
+                "dataList": [
+                    "Accélérateurs préconstruits pour processus SAP & Salesforce spécifiques aux semi-conducteurs",
+                    "Modèles de livraison de projets agiles et collaboratifs alignés sur les cycles de release semi-conducteurs",
+                    "Services gérés post-go-live pour optimiser performance système et adoption utilisateurs",
+                    "Formation des utilisateurs métiers et techniques pour une adoption fluide de la transformation"
+                ],
+                "bgColor": "#EFF0D5"
+            }
+        ],
+        "partnerTitle": "Rialtes — Votre partenaire stratégique pour la croissance dans les semi-conducteurs",
+        "partnerDesc": "Que vous soyez une entreprise fabless, un IDM (Integrated Device Manufacturer), une fonderie ou un fabricant sous contrat, Rialtes comprend l’ADN de l’industrie des semi-conducteurs. Nous tirons parti de notre modèle de livraison global avec des bureaux en Inde, aux États-Unis, au Canada et à Singapour pour apporter des solutions rentables et à forte valeur ajoutée à certaines des organisations les plus exigeantes et complexes au monde.",
+        "partnerDescOne": "Pourquoi choisir Rialtes ?",
+        "rialtesData": [
+            "Plus de 20 ans d'expérience réelle dans l'industrie des semi-conducteurs.",
+            "Expertise en processus et technologie au niveau Fortune 500.",
+            "Experts certifiés SAP & Salesforce avec une connaissance approfondie des solutions semi-conducteurs.",
+            "Approche centrée sur l'IA et les données pour un avantage concurrentiel.",
+            "Historique éprouvé dans la livraison de transformations complexes et à grande échelle."
+        ],
+        "contactTitle": "Prêt à connecter votre entreprise ?",
+        "contactSubTitle": "Collaborez avec Rialtes pour simplifier les intégrations, accélérer la transformation digitale et débloquer une véritable valeur commerciale.",
+        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée."
+    },
+    "manufacturing": {
+        "headerTitle": "Fabrication",
+        "headerSubTitleOne": "Propulser l'avenir de la fabrication",
+        "headerSubTitleTwo": "Plus intelligent, plus rapide, connecté",
+        "drivingDesc": "Piloter la transformation digitale de bout en bout pour les fabricants grâce à l'IA, au Cloud et à l'automatisation intelligente. Rialtes permet aux entreprises manufacturières de dépasser les opérations traditionnelles et d'adopter des écosystèmes de fabrication de nouvelle génération, agiles, axés sur les données et centrés sur le client.",
+        "thoughtTitle": "Leadership d'opinion",
+        "thoughtSubTitle": "Pionnier de la réinvention digitale de la fabrication",
+        "thoughtSubTitleOne": "Chez Rialtes, nous croyons que l'avenir de la fabrication repose sur des écosystèmes résilients, adaptatifs et propulsés par l'IA. Des jumeaux numériques aux chaînes d'approvisionnement prédictives, nous aidons les fabricants à anticiper les disruptions et à innover à grande échelle. Notre priorité est la personnalisation client, l'efficacité opérationnelle et la conformité globale, soutenues par des données connectées et l'automatisation.",
+        "endTitle": "Services de transformation de la fabrication de bout en bout de Rialtes",
+        "endSubTitle": "Nos services couvrent l'ensemble de la chaîne de valeur manufacturière, du conseil et architecture à la mise en œuvre, aux tests et à l'innovation continue.",
+        "endDesc": "Nous collaborons avec des plateformes leaders comme SAP, Salesforce, MuleSoft et Kinaxis pour fournir des solutions intégrées, évolutives et prêtes pour l'avenir. Rialtes combine technologie, processus et expertise sectorielle sous un même toit pour offrir une transformation fluide.",
+        "preTitle": "Accélérateurs de fabrication préconfigurés",
+        "preSubtitle": "Vitesse, Échelle, Succès",
+        "preDesc": "Avec des accélérateurs spécifiques à l'industrie, Rialtes permet aux fabricants de déployer des solutions prêtes à l'emploi réduisant de plusieurs mois le temps de mise en place. Des modèles d'usine intelligente aux flux de travail prédictifs propulsés par IA, nos outils sont conçus pour accélérer la création de valeur, améliorer la productivité et optimiser les opérations intelligentes. Nos accélérateurs garantissent également la conformité réglementaire et l'assurance qualité, réduisant les risques lors de la mise en œuvre.",
+        "discreteTitle": "Fabrication discrète",
+        "discreteSubTitle": "Gérer des produits complexes simplement",
+        "discreteDesc": "Rialtes aide les fabricants discrets à gérer des configurations de produits complexes, des chaînes d'approvisionnement multi-niveaux et des processus d'ingénierie sur mesure. Nos solutions intègrent l'ensemble du processus de devis, d'ingénierie et de gestion des commandes, offrant une visibilité en temps réel et une collaboration client fluide. Les insights propulsés par l'IA permettent de prédire les besoins de maintenance, réduire les temps d'arrêt et garantir une qualité produit supérieure.",
+        "processTitle": "Fabrication de processus",
+        "processSubtitle": "Optimiser la conformité et le rendement",
+        "processDesc": "Nous accompagnons les fabricants de processus dans la gestion de formulations complexes, des exigences de conformité (FDA, ISO, GMP) et des chaînes d'approvisionnement volatiles. Nos solutions optimisent la production par lots, la gestion du rendement et le suivi qualité en temps réel, garantissant des résultats cohérents et une réduction des déchets. Rialtes facilite également la traçabilité et la gestion des rappels grâce à des systèmes intégrés et propulsés par IA.",
+        "repetitiveTitle": "Fabrication répétitive",
+        "repetitiveSubtitle": "Rationaliser les opérations de production de masse",
+        "repetitiveDesc": "Pour la production à grand volume, Rialtes propose des solutions améliorant la planification de la capacité, l'allocation des ressources et le suivi de production en temps réel. Nos outils optimisent les flux de travail répétitifs et réduisent les cycles, garantissant un rendement maximal avec un minimum de gaspillage. Les analyses propulsées par IA détectent rapidement les anomalies de production, assurant la qualité des produits et l'efficacité des coûts.",
+        "aiTitle": "IA & Fabrication robotisée",
+        "aiSubtitle": "Créer des usines intelligentes et autonomes",
+        "aiDesc": "L'IA et la robotique transforment la fabrication, et Rialtes aide ses clients à mener cette transformation. De la maintenance prédictive propulsée par IA à l'automatisation robotisée des lignes de production, nous permettons aux usines d'être auto-apprenantes et adaptatives. Les jumeaux numériques et les insights IoT en temps réel favorisent une fabrication zéro défaut et une productivité accrue, réduisant les erreurs humaines et les temps d'arrêt.",
+        "jobTitle": "Fabrication sur commande (Job Shop)",
+        "jobSubTitle": "Gérer la production sur mesure avec précision",
+        "jobDesc": "Rialtes propose des solutions robustes pour les environnements engineer-to-order (ETO) et make-to-order (MTO). Nos plateformes personnalisées gèrent le coût des projets, la planification de production et la coordination des fournisseurs, assurant la livraison à temps et dans le budget pour des commandes à forte variété et faible volume. Les tableaux de bord en temps réel offrent une visibilité sur l'état des tâches, les matériaux et la rentabilité.",
+        "dataTitle": "Data Cloud & Tableau",
+        "dataSubtitle": "Insights exploitables grâce à l'analyse visuelle",
+        "dataDesc": "Avec Data Cloud et Tableau, Rialtes aide les fabricants à transformer des données opérationnelles complexes en insights significatifs. Du suivi OEE et de l'analyse des temps d'arrêt aux risques de la chaîne d'approvisionnement et prévisions de demande, nos tableaux de bord offrent une visibilité en temps réel pour une prise de décision proactive. Les modèles IA améliorent également la maintenance prédictive et l'optimisation des stocks.",
+        "erpTitle": "Intégration ERP avec SAP & Oracle via MuleSoft",
+        "erpSubtitle": "Visibilité de bout en bout",
+        "erpDesc": "Rialtes assure une intégration fluide entre les systèmes front-end et les ERP back-end comme SAP et Oracle via MuleSoft. Cela permet aux fabricants d'orchestrer la planification de la production, la gestion des commandes, les achats et la finance sans silos. Les flux de données en temps réel favorisent une prise de décision précise, réduisent les coûts et optimisent les chaînes d'approvisionnement.",
+        "demandTitle": "Planification de la demande avec Kinaxis RapidResponse",
+        "demandSubTitle": "Rester en avance",
+        "demandDesc": "Rialtes exploite Kinaxis RapidResponse pour offrir aux fabricants des prévisions de demande dynamiques et une planification de scénarios. Nos solutions permettent de gérer des marchés volatils, les risques fournisseurs et les demandes clients, offrant une réponse en temps réel aux perturbations. La détection de la demande pilotée par IA garantit un inventaire optimal et une agilité de la chaîne d'approvisionnement.",
+        "shapingTitle": "IA dans la fabrication",
+        "shapingSubtitle": "Façonner un avenir plus intelligent",
+        "shapingDesc": "L'IA n'est plus le futur — elle façonne la fabrication d'aujourd'hui. Rialtes propose des solutions IA pour la maintenance prédictive, la planification intelligente, la détection des défauts et la prévision de la demande. L'IA permet aux fabricants de s'adapter plus rapidement, d'optimiser les ressources et de livrer des produits personnalisés efficacement, améliorant rentabilité et satisfaction client.",
+        "sapTitle": "SAP & Salesforce",
+        "sapSubtitle": "Le duo puissant pour une fabrication intelligente",
+        "sapDesc": "Rialtes s'associe à SAP et Salesforce pour créer des écosystèmes de fabrication connectés, intelligents et agiles. SAP Digital Manufacturing Cloud et Salesforce Manufacturing Cloud offrent ensemble une visibilité à 360° de l'usine au client. Nous permettons aux fabricants d'intégrer les retours clients, la gestion des distributeurs et les workflows de service dans une plateforme intelligente unique.",
+        "factTitle": "Chiffres clés",
+        "factSubtitle": "Insights sur l'industrie manufacturière",
+        "factDesc": "des fabricants accélèrent leurs investissements dans l'industrie 4.0.",
+        "factNum": "70% ",
+        "factDescOne": "des entreprises peinent à obtenir une visibilité en temps réel de la chaîne d'approvisionnement.",
+        "factOneNum": "76% ",
+        "factDescTwo": "Les systèmes de fabrication cloud augmentent l'efficacité des équipements de ",
+        "factTwo": "15%.",
+        "adoption": "L'adoption de l'IA dans la fabrication devrait dépasser ",
+        "billion": "20 milliards $",
+        "by": "d'ici 2030.",
+        "smartTitle": "Les usines intelligentes peuvent augmenter la productivité jusqu'à ",
+        "smartNum": "30%",
+        "contactTitle": "Prêt à réinventer votre futur manufacturier ?",
+        "contactSubTitle": "Collaborez avec Rialtes pour transformer vos opérations manufacturières grâce à l'IA, SAP, Salesforce et des outils de nouvelle génération.",
+        "contactSubtitleOne": "Contactez-nous dès aujourd'hui et commencez votre parcours vers une fabrication intelligente, résiliente et centrée sur le client !"
+    },
+    "education": {
+        "headerTitle": "Secteur de l'Éducation",
+        "headerSubTitle": "Favoriser l'avenir de l'éducation",
+        "headerSubTitleOne": "Solutions de bout en bout de Rialtes pour la réussite des étudiants",
+        "educationTitle": "Transformer l'éducation avec des expériences étudiantes pilotées par la technologie",
+        "educationDesc": "L'éducation évolue aujourd'hui à un rythme rapide. Les institutions doivent engager des étudiants natifs du numérique, rationaliser les processus d'inscription et académiques, et favoriser des relations durables avec les apprenants. Du K-12 à l'enseignement supérieur, les organisations font face à des défis dans la gestion de parcours étudiants fragmentés, d'opérations académiques cloisonnées et d'attentes changeantes des parties prenantes.",
+        "educationDescOne": "Rialtes fournit des solutions éducatives holistiques — couvrant le conseil stratégique, les mises en œuvre transparentes, l'optimisation des processus et le support à long terme.",
+        "thoughtTitle": "Leadership d'opinion :",
+        "thoughtSubTitle": "Résoudre les défis les plus pressants de l'éducation",
+        "industryTitle": "Principaux défis du secteur que nous adressons :",
+        "approachTitle": "Approche de Rialtes :",
+        "journeyTitle": "Le parcours complet de l'étudiant",
+        "journeySubtitle": "De la première demande à l'obtention du diplôme et au-delà",
+        "journeySubtitleOne": "Parcours de recrutement et d'inscription",
+        "leadTitle": "Gestion et engagement des prospects étudiants",
+        "selectionTitle": "Sélection et admissions",
+        "studentTitle": "Cartographie et engagement des familles étudiantes",
+        "hyperTitle": "Engagement étudiant hyper-personnalisé avec Salesforce Marketing Cloud",
+        "lifelongTitle": "Support étudiant tout au long de la vie avec Salesforce Service Cloud",
+        "serviceTitle": "Portails en libre-service pour étudiants et enseignants",
+        "serviceSubtitle": "Salesforce Experience Cloud",
+        "seamlessTitle": "Gestion fluide des inscriptions, frais et ressources",
+        "seamlessSubtitle": "SAP S/4HANA + Rialtes",
+        "dynamicTitle": "Tarification dynamique des programmes et cours",
+        "dynamicSubtitle": "Salesforce Revenue Cloud",
+        "unifiedTitle": "Données et insights unifiés",
+        "unifiedSubtitle": "Salesforce Data Cloud pour l'éducation",
+        "empoweringTitle": "Autonomiser les conseillers et enseignants",
+        "empoweringSubtitle": "Agentforce pour l'éducation",
+        "agentchatTitle": "AgentChat",
+        "agentchatSubtitle": "Transformer la communication en éducation avec l'intégration WhatsApp propulsée par l'IA",
+        "agentchatDesc": "Découvrez l'avenir de la communication avec AgentChat, un outil de conversation bidirectionnelle WhatsApp piloté par l'IA et entièrement intégré à Salesforce Education Cloud. Rationalisez les interactions avec les étudiants, parents et enseignants, tout en améliorant l'engagement, l'efficacité opérationnelle et en offrant des expériences personnalisées.",
+        "keyTitle": "Principales fonctionnalités :",
+        "keySubtitle": "Intégration fluide avec Salesforce",
+        "keyDesc": "Synchronisation facile avec Salesforce Education Cloud, offrant une plateforme unifiée pour gérer toutes les interactions étudiantes en temps réel.",
+        "aiTitle": "Automatisation et personnalisation propulsées par l'IA",
+        "aiDesc": "Réponses instantanées personnalisées et contextuelles, automatisant les demandes courantes tout en s'adaptant aux besoins de chaque individu.",
+        "scalableTitle": "Communication évolutive et efficace",
+        "scalableDesc": "Gère un volume croissant d'interactions avec facilité, améliore les délais de réponse et réduit l'effort manuel, tout en garantissant une communication cohérente et de haute qualité.",
+        "insightsTitle": "Insights exploitables et sécurité des données",
+        "insightsDesc": "Obtenez des insights précieux sur l'engagement via l'analyse avancée, tout en garantissant une sécurité et une conformité de premier ordre selon les normes du secteur.",
+        "withDesc": "Avec AgentChat, élevez la communication de votre institution à un niveau supérieur — efficace, sécurisé et entièrement intégré.",
+        "knowMore": "En savoir plus",
+        "relatedTitle": "Solutions associées",
+        "rialtesTitle": "Accélérateurs pré-déployés de Rialtes :",
+        "rialtesSubtitle": "Accélérer la réussite éducative",
+        "rialtesDesc": "Nos accélérateurs propriétaires pour le secteur de l'éducation sont conçus pour simplifier et optimiser la gestion du cycle de vie étudiant :",
+        "contactTitle": "Prêt à redéfinir l'expérience étudiante ?",
+        "contactSubTitle": "Rialtes est prêt à collaborer avec votre institution pour offrir des solutions éducatives centrées sur l'étudiant, agiles et prêtes pour l'avenir.",
+        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour une consultation et une démonstration personnalisées !",
+        "latestServices2": [
+            {
+                "id": "1",
+                "title": "Module complémentaire de gestion de l'engagement étudiant",
+                "description": "Améliore Salesforce Education Cloud pour offrir une gestion fluide du cycle de vie étudiant, y compris les admissions, la gestion des dossiers et l'engagement des anciens élèves."
+            },
+            {
+                "id": "2",
+                "title": "Suivi des inscriptions et progrès académiques",
+                "description": "Solution intégrée pour l'accueil des étudiants, l'inscription aux cours et le suivi des progrès académiques, connectée au back-end SAP pour les finances et les opérations."
+            },
+            {
+                "id": "3",
+                "title": "Cadre de cartographie des familles et tuteurs",
+                "description": "Construit un arbre familial étudiant complet, permettant aux institutions d'engager efficacement étudiants, parents, tuteurs et sponsors."
+            }
+        ],
+        "keyIndustryData": [
+            "Engagement et canaux de communication étudiants fragmentés.",
+            "Processus de recrutement et d'admission complexes et inefficaces.",
+            "Gestion des cas déconnectée pour les services et le support étudiant.",
+            "Absence de vision à 360° de l'étudiant sur les dimensions académiques, financières et sociales.",
+            "Difficulté à personnaliser l'approche auprès des étudiants potentiels et actuels.",
+            "Gestion inefficace des relations avec les anciens élèves et les donateurs."
+        ],
+        "approachData": [
+            "Conseil stratégique pour la transformation digitale de l'éducation.",
+            "Redesign des processus et mise en œuvre technologique avec SAP et Salesforce.",
+            "Accélérateurs préconstruits pour l'engagement étudiant, le recrutement et la rétention.",
+            "Implémentations agiles et évolutives conformes aux meilleures pratiques du secteur.",
+            "Optimisation continue via un QA robuste et un support post-déploiement."
+        ],
+        "studentLeadData": [
+            "Capture des leads étudiants à partir de multiples canaux (web, réseaux sociaux, email, événements de recrutement) via Salesforce Education Cloud.",
+            "Nurturing intelligent des leads avec Salesforce Marketing Cloud, utilisant des parcours personnalisés selon les intérêts et parcours.",
+            "Scoring et appariement des leads basés sur l'IA pour recommander les programmes et bourses adaptés."
+        ],
+        "selectionData": [
+            "Gestion fluide des candidatures avec mises à jour en temps réel.",
+            "Collecte et vérification automatisées des documents.",
+            "Portails de collaboration pour le comité de sélection pour un examen holistique des candidatures.",
+            "Workflows intégrés d'offre et d'acceptation avec signatures électroniques."
+        ],
+        "studentData": [
+            "Créer un schéma complet des familles et tuteurs pour gérer les relations multi-étudiants.",
+            "Suivre les liens familiaux des anciens élèves pour des campagnes ciblées de donateurs et admissions legacy.",
+            "Cartographier les relations de parrainage et bourses pour la gestion de l'aide financière."
+        ],
+        "hyperData": [
+            "Segmentation propulsée par IA pour cibler les prospects par intérêt de programme, géographie et démographie.",
+            "Parcours étudiants personnalisés pour la pré-admission, l'intégration, le conseil académique et l'engagement des anciens.",
+            "Déclencheurs comportementaux pour les offres de bourses, dates limites et contenu personnalisé.",
+            "Gestion d'événements et suivi des RSVP pour journées portes ouvertes, visites du campus et salons de recrutement."
+        ],
+        "lifelongData": [
+            "Gestion complète des cas étudiants pour le soutien académique, financier et bien-être.",
+            "Déviation de cas assistée par IA et chatbots pour les questions courantes (statut d'admission, choix de cours, détails des frais).",
+            "Programmes proactifs de succès et rétention des étudiants, propulsés par systèmes d'alerte précoce et analyses prédictives.",
+            "Intégration avec les services carrières pour stages, placements et mentorat des anciens élèves."
+        ],
+        "selfData": [
+            "Portails personnalisés pour le suivi des candidatures, soumission de documents, paiement des frais et inscription aux cours.",
+            "Portails enseignants pour le conseil, le mentorat et l'évaluation.",
+            "Gestion de la communication externe pour parents, sponsors et anciens élèves.",
+            "Canaux de communication intégrés (chat, messagerie, email) pour un engagement en temps réel."
+        ],
+        "s4HanaData": [
+            "Système ERP et informations étudiantes entièrement intégrés pour l'inscription, les finances et la gestion des ressources.",
+            "Visibilité en temps réel du statut des frais, aides financières et bourses.",
+            "Planification des cours, affectation des enseignants et allocation des ressources soutenues par SAP.",
+            "Collaboration avec les fournisseurs via SAP ARIBA pour les besoins en infrastructure du campus."
+        ],
+        "dynamicData": [
+            "Configuration des programmes et frais de scolarité selon le cours, le campus, le statut de résidence et l'éligibilité aux bourses.",
+            "Gestion des plans d'échelonnement, remises et remboursements.",
+            "Processus complet de devis à l'inscription pour l'enseignement exécutif et les programmes certifiants.",
+            "Intégration avec SAP pour la facturation, AR et les opérations financières."
+        ],
+        "unifiedData": [
+            "Vue à 360° de chaque étudiant : progrès académique, aides financières, services carrière et engagement.",
+            "Analyses avancées et modèles IA pour prédire les étudiants à risque et améliorer la rétention.",
+            "Synchronisation des données en temps réel avec SAP S/4HANA, LMS, CRM et plateformes de réussite étudiante.",
+            "Gestion des relations avec donateurs et anciens élèves pour le développement et la collecte de fonds."
+        ],
+        "empoweringData": [
+            "Vue unifiée de l'historique académique, financier, bien-être et engagement de chaque étudiant.",
+            "Actions suivantes (NBA) basées sur l'IA pour soutenir la réussite étudiante (ex : intervention, conseil).",
+            "Gestion des sessions de conseil, notes et suivis avec gestion intégrée des cas.",
+            "Outils de collaboration pour les initiatives transversales de réussite étudiante."
+        ],
+        "educationSolutions": [
+            {
+                "title": "SAP S/4HANA pour l'éducation",
+                "href": "/services/business-transformation/grow-with-sap-services",
+                "description": "ERP robuste pour les finances éducatives, RH et opérations du campus."
+            },
+            {
+                "title": "Salesforce Marketing et Revenue Cloud",
+                "href": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
+                "description": "Campagnes personnalisées et tarification dynamique."
+            },
+            {
+                "title": "SAP ARIBA pour l'éducation",
+                "href": "/services/spend-management/sapbuyplus-ariba-implementation-partner",
+                "description": "Solutions d'approvisionnement pour les opérations du campus."
+            }
+        ]
+    },
+    "finance": {
+        "financeTitle": "Solutions pour le secteur financier",
+        "financeDesc": "Façonner l'avenir des expériences financières intelligentes",
+        "digitalTitle": "Accélérer la transformation digitale dans les services financiers",
+        "digitalDesc": "Rialtes permet aux banques, assureurs, gestionnaires de patrimoine et sociétés immobilières d'innover en toute confiance. En tant que partenaire certifié Salesforce et SAP, nous offrons des services de bout en bout — du conseil au support post-déploiement — spécialisés dans Financial Services Cloud, SAP S/4HANA et les solutions IA. Grâce à notre présence mondiale et notre expertise sectorielle approfondie, nous aidons les institutions financières à se transformer en toute sécurité, rester conformes et offrir des expériences client exceptionnelles.",
+        "thoughtTitle": "Leadership d'opinion",
+        "thoughtSubTitle": "Au-delà de l’implémentation, impulser l'innovation financière",
+        "thoughtSubTitleOne": "Chez Rialtes, nous ne faisons pas que mettre en œuvre la technologie — nous concevons l'avenir de la finance. Notre framework RialFinance+ garantit une collaboration fluide à travers le conseil, le design, l'intégration IA, l'implémentation et l'innovation post-déploiement, aidant les institutions financières à atteindre :",
+        "topTitle": "Top 4 des défis critiques auxquels font face la banque commerciale et de détail aujourd'hui",
+        "deepTitle": "Expertise approfondie en Salesforce FSC & SAP S/4 HANA",
+        "deepSubtitle": "Transformation des opérations financières de bout en bout",
+        "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
+        "salesforceDesc": "Nos architectes et consultants certifiés Salesforce offrent des solutions FSC sur mesure pour répondre aux besoins modernes en banque, prêt et gestion de patrimoine :",
+        "sapTitle": "SAP S/4 HANA pour les services financiers",
+        "sapDesc": "Nous étendons les capacités de Salesforce FSC avec les solutions bancaires et financières SAP S/4 HANA :",
+        "sapDescOne": "Rialtes crée une plateforme unifiée de services financiers — intégrant le front-office Salesforce et le moteur financier SAP.",
+        "futureTitle": "IA : Révolutionner l'avenir de la finance",
+        "futureDesc": "L'IA transforme chaque couche des services financiers — du service client à la décision de crédit. Rialtes exploite Salesforce AI (Einstein, Agentforce) et les outils IA SAP pour fournir :",
+        "futureDescOne": "Rialtes rend l'IA actionnable — pas seulement une vision.",
+        "exelonaTitle": "Exelona",
+        "exelonaSubtitle": "Révolutionner la finance immobilière avec Salesforce FSC",
+        "exelonaDesc": "Exelona, notre solution propriétaire Real Estate Cloud intégrée à Salesforce FSC, transforme la manière dont les sociétés immobilières gèrent les actifs et opérations financières :",
+        "exelonaDescOne": "Exelona + FSC : Une combinaison révolutionnaire pour la finance et les opérations immobilières",
+        "agentChatTitle": "AgentChat",
+        "agentChatSubtitle": "Intégration WhatsApp en temps réel pour Financial Services Cloud",
+        "agentChatDesc": "AgentChat, développé par Rialtes, apporte la communication WhatsApp en temps réel dans Salesforce FSC — entièrement sécurisée et conforme :",
+        "agentChatDescOne": "Inclus dans les solutions Financial Services de Rialtes — permettant un engagement client moderne et en temps réel.",
+        "dataTitle": "Insights basés sur les données avec Salesforce et SAP Data Clouds",
+        "dataSubtitle": "Architecture Zero Copy",
+        "dataDesc": "Rialtes permet des données en temps réel et prêtes pour l'IA à travers Salesforce et SAP grâce à Data Cloud et à l'architecture Zero Copy :",
+        "dataDescOne": "Source unique de vérité — actionnable, sécurisée et prête pour l'IA.",
+        "unmatchedTitle": "Compétence Salesforce + SAP inégalée",
+        "unmatchedSubTitle": "Conçue pour les services financiers",
+        "unmatchedDesc": "Rialtes permet des données en temps réel et prêtes pour l'IA à travers Salesforce et SAP grâce à Data Cloud et à l'architecture Zero Copy :",
+        "unmatchedDescOne": "Experts certifiés",
+        "unmatchedDescTwo": "en Salesforce FSC, Data Cloud, Agentforce AI et SAP S/4 HANA.",
+        "keyTitle": "Plus de 150 certifications",
+        "keyDesc": "dans les principaux modules technologiques et financiers.",
+        "globalTitle": "Livraison mondiale depuis",
+        "globalDesc": "États-Unis, Canada, Inde et Singapour.",
+        "supportTitle": "Support 24/7",
+        "supportDesc": "pour une innovation et une optimisation continues.",
+        "supportDescOne": "Fiable, de niveau entreprise, mondial et prêt pour l'avenir.",
+        "whyTitle": "Pourquoi choisir Rialtes pour les solutions financières ?",
+        "contactTitle": "Prêt à transformer votre expérience dans les services financiers ?",
+        "contactSubTitle": "Partenariat avec Rialtes — où innovation et expertise sectorielle façonnent l'avenir de la finance. Contactez-nous dès aujourd'hui pour commencer votre parcours RialFinance+ !",
+        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour commencer votre parcours RialFinance+ !",
+        "challenges": [
+            {
+                "number": "1",
+                "title": "Expériences clients déconnectées & systèmes hérités",
+                "points": [
+                    "Incapacité à offrir des expériences bancaires personnalisées et fluides.",
+                    "Données fragmentées sur plusieurs systèmes limitant les insights en temps réel."
+                ]
+            },
+            {
+                "number": "2",
+                "title": "Complexité réglementaire et des risques",
+                "points": [
+                    "Difficulté à suivre les réglementations en évolution rapide (AML, KYC, ESG).",
+                    "Manque de processus de conformité et d’audit rationalisés."
+                ]
+            },
+            {
+                "number": "3",
+                "title": "Opérations de prêt, gestion de patrimoine et conseil manuelles et inefficaces",
+                "points": [
+                    "Retards dans l’approbation des prêts, l’intégration de la gestion de patrimoine et le service client.",
+                    "Coûts opérationnels élevés en raison de flux de travail obsolètes."
+                ]
+            },
+            {
+                "number": "4",
+                "title": "Demande de services en temps réel et pilotés par l'IA",
+                "points": [
+                    "Les clients attendent des décisions et services instantanés.",
+                    "Besoin d’analyses des risques et crédits basées sur l’IA, détection de fraude et personnalisation."
+                ]
+            }
+        ],
+        "thougthLeadershipData": [
+            "Engagement client omnicanal propulsé par l’IA et les données en temps réel.",
+            "Opérations financières conformes et efficaces de bout en bout.",
+            "Intégration fluide entre le front-office et les systèmes bancaires centraux.",
+            "Décisions intelligentes pilotées par l’IA pour le risque, le prêt et la personnalisation client."
+        ],
+        "salesforceData": [
+            "Intégration des clients, KYC et workflows pilotés par l’IA.",
+            "Processus intégrés de service, marketing et conseil.",
+            "Expériences personnalisées pour les segments retail, commercial et gestion de patrimoine."
+        ],
+        "sapHanaData": [
+            "Finance et gestion des risques intégrées.",
+            "Analyse financière en temps réel et prévisions.",
+            "Paiements, gestion des contrats et conformité réglementaire."
+        ],
+        "aiData": [
+            "Scoring prédictif du crédit et des risques.",
+            "Personnalisation et insights clients pilotés par IA.",
+            "Détection des anomalies de fraude et conformité.",
+            "Automatisation des services et intégration pilotée par IA."
+        ],
+        "exelonaData": [
+            "Gestion complète des actifs et portefeuilles.",
+            "Gestion intégrée des baux, marketing et engagement des locataires.",
+            "Optimisation des revenus, dépenses et performances.",
+            "Modélisation des risques et investissements pilotée par IA."
+        ],
+        "agentchatData": [
+            "Onboarding client instantané et vérification KYC via WhatsApp.",
+            "Support bancaire et de prêt conversationnel avec IA.",
+            "Alertes en temps réel pour la détection de fraude, transactions et mises à jour réglementaires.",
+            "Collecte transparente de documents et signatures."
+        ],
+        "drivenData": [
+            "Profil client unifié avec données SAP S/4 HANA et Salesforce FSC.",
+            "Analyses pilotées par IA sans déplacement de données — sécurisé et conforme.",
+            "Insights en temps réel pour les prêts, la gestion de patrimoine et les opérations."
+        ],
+        "whyChooseData": [
+            "Stratégie complète de la planification à l'exécution pour Financial Services Cloud & SAP.",
+            "Outils propriétaires tels qu’Exelona (Real Estate Cloud) et Agentchat (intégration WhatsApp).",
+            "Intégrations approfondies IA et Data Cloud pour des opérations prédictives et en temps réel.",
+            "Compréhension inégalée de la conformité, des risques et de l'expérience client.",
+            "Présence mondiale avec expertise locale pour conduire une transformation durable."
+        ]
+    },
+    "automativeIndustry": {
+        "keyIndustryChallenges": [
+            "Gestion fragmentée du cycle de vie client (du prospect au propriétaire).",
+            "Gestion inefficace des concessionnaires et franchisés, impactant la vitesse des ventes.",
+            "Manque de visibilité en temps réel sur les stocks et d'exactitude des prix.",
+            "Processus de service et de garantie déconnectés, nuisant à la satisfaction client.",
+            "Difficulté à personnaliser l'engagement client sur les points de contact numériques et physiques.",
+            "Flux de vente inefficaces pour les pièces et accessoires après-vente."
+        ],
+        "rialtesSolutions": [
+            "Conseil stratégique pour la digitalisation complète de l'industrie automobile.",
+            "Conception de solutions sur mesure avec les offres SAP et Salesforce Industry Cloud.",
+            "Accélérateurs préconfigurés pour la gestion des concessionnaires, le cycle de vie des véhicules et l'orchestration des services.",
+            "Implémentation agile avec SAP Activate et les meilleures pratiques Salesforce.",
+            "QA robuste, intégration et optimisation post-déploiement."
+        ],
+        "predeliveredCardData": [
+            {
+                "title": "Extension Gestion des Concessionnaires",
+                "desc": "Étend Salesforce Automotive Cloud et SAP S/4HANA pour gérer les opérations des concessionnaires, y compris la planification du stock, F&I (Finance et Assurance), l’allocation des véhicules et les incitations aux concessionnaires."
+            },
+            {
+                "title": "Gestion de la Garantie et du Cycle de Vie des Véhicules",
+                "desc": "Module intégré pour les réclamations de garantie, rappels, garanties étendues et contrats de service, synchronisé avec le back-end SAP."
+            },
+            {
+                "title": "Graphique des Familles de Véhicules et Acheteurs",
+                "desc": "Modélisation avancée des acheteurs qui cartographie les relations ménages, entreprises et flottes, permettant des stratégies de vente croisée, montée en gamme et regroupement de services."
+            }
+        ],
+        "endtoendautomativesection": [
+            {
+                "imgUrlMobile": "/images/industry/auto-industry/Mobile/lead-mgmt-mob-img.webp",
+                "imgUrlDesktop": "/images/industry/auto-industry/lead-mgmt-img.webp",
+                "title": "Gestion des Leads & Découverte de Véhicules",
+                "list": [
+                    "Capture omnicanal des leads via Salesforce Automotive Cloud — web, mobile, showroom et réseaux sociaux.",
+                    "Scoring et nurturing dynamiques des leads avec Marketing Cloud.",
+                    "Outils de sélection et configuration des véhicules — y compris finitions, packages et accessoires.",
+                    "Moteurs de recommandation alimentés par IA pour la vente additionnelle (ex : garanties, options).",
+                    "Visibilité des stocks des concessionnaires et planification des essais."
+                ]
+            },
+            {
+                "imgUrlMobile": "/images/industry/auto-industry/Mobile/deal-finance-mob-img.webp",
+                "imgUrlDesktop": "/images/industry/auto-industry/deal-finance-img.webp",
+                "title": "Gestion des Transactions et du Financement",
+                "list": [
+                    "Gestion des devis et négociations avec Salesforce Revenue Cloud (CPQ).",
+                    "Applications de crédit, leasing et options de financement intégrées.",
+                    "Évaluations intégrées des échanges et sélection d’options F&I (ex : assurance GAP, garanties étendues).",
+                    "Portails clients pour transactions via Experience Cloud pour transparence et collaboration."
+                ]
+            }
+        ],
+        "comprehensiveCustomerData": [
+            {
+                "title": "Gestion de la Garantie et de l’Entretien",
+                "list": [
+                    "Enregistrement automatisé des garanties et gestion des ordres de réparation via Salesforce Service Cloud + SAP.",
+                    "Notifications de rappel et campagnes en temps réel aux clients.",
+                    "Intégration des données des véhicules connectés pour rappels d’entretien proactifs.",
+                    "Planification des services intégrée aux systèmes de gestion des concessionnaires (DMS).",
+                    "Inventaire des pièces et commandes en temps réel depuis SAP."
+                ]
+            },
+            {
+                "title": "Gestion des Véhicules et des Relations Clients",
+                "list": [
+                    "Graphiques des acheteurs familiaux et corporatifs pour gérer les ménages multi-véhicules et les flottes.",
+                    "Marketing ciblé pour offres fidélité, packages de services et mises à niveau de véhicules.",
+                    "Intégration avec les plateformes télématiques pour diagnostics en temps réel et maintenance prédictive."
+                ]
+            }
+        ],
+        "personalizedData": [
+            "Segmentation des clients : primo-accédants, clients récurrents, segments luxe vs budget.",
+            "Prochaine meilleure action (NBA) alimentée par IA et parcours marketing personnalisés.",
+            "Déclencheurs comportementaux et transactionnels pour campagnes ciblées (fin de leasing, rappels de service).",
+            "Campagnes spécifiques aux concessionnaires et programmes marketing co-brandés."
+        ],
+        "revolutionizingData": [
+            "Gestion des cas des concessionnaires et centres de service pour une résolution rapide des problèmes.",
+            "Bases de connaissances intégrées pour les équipes techniques de service.",
+            "Application mobile pour agents sur le terrain (diagnostics à distance, service mobile).",
+            "Administration des garanties et plans de services étendus."
+        ],
+        "enablingDynamicData": [
+            "Tarification et remises en temps réel pour véhicules, pièces et accessoires.",
+            "Gestion des incitations pour concessionnaires et constructeurs.",
+            "Regroupement des options comme plans de protection, packages de service et accessoires.",
+            "Intégration avec SAP pour données de stock, pièces et configuration des véhicules."
+        ],
+        "dealerData": [
+            "Portails en libre-service pour les clients afin de visualiser les offres, configurer les véhicules et postuler au financement.",
+            "Portails pour concessionnaires pour suivi des stocks, incitations et gestion des ventes.",
+            "Gestion complète des documents et contrats (signature, approbations, divulgations F&I).",
+            "Communication intégrée via chat, email et messagerie sécurisée."
+        ],
+        "empoweringData": [
+            "Vue unique pour chaque agent sur l’historique des acheteurs, préférences, dossiers de service et garanties.",
+            "Prochaine meilleure action (NBA) alimentée par IA pour ventes additionnelles et opportunités de service.",
+            "Engagement omnicanal (chat, téléphone, en magasin).",
+            "Flux CRM intégrés pour concessionnaires, incluant suivis d’essais et campagnes de fidélisation."
+        ],
+        "unlockingData": [
+            "Vue 360° unifiée des clients, véhicules, historiques de service et transactions.",
+            "Unification des données en temps réel provenant des concessions, systèmes OEM et véhicules connectés.",
+            "Analyses avancées et IA pour prévisions, optimisation des stocks et recommandations personnalisées.",
+            "Insights sur le comportement client pour actions proactives de service et ventes."
+        ],
+        "integratingAutomativeData": [
+            "Intégration en temps réel entre Salesforce Automotive Cloud, SAP S/4HANA, DMS et plateformes tierces.",
+            "Synchronisation des configurations de véhicules, disponibilité des pièces, prix, données de garantie et dossiers clients.",
+            "Extensions personnalisées basées sur SAP BTP, incluant apps spécifiques aux concessionnaires, diagnostics IA et intégration de services de mobilité (recharge VE, télématique).",
+            "Sécurité et conformité assurées via SAP Identity and Access Management (IAM)."
+        ],
+        "partenringPowerData": [
+            "Salesforce Automotive Cloud, Marketing Cloud, Revenue Cloud, Service Cloud et Experience Cloud.",
+            "SAP S/4HANA Automotive, SAP ARIBA, SAP BTP et SAP CPI."
+        ],
+        "relatedSolutionsData": [
+            {
+                "title": "SAP S/4HANA pour l'industrie automobile",
+                "desc": "ERP complet pour la chaîne d'approvisionnement, la production et la finance automobile."
+            },
+            {
+                "title": "SAP ARIBA pour l'approvisionnement automobile direct & indirect",
+                "desc": "Collaboration fournisseurs et approvisionnement en pièces."
+            },
+            {
+                "title": "Salesforce Automotive Cloud",
+                "desc": "CRM complet pour constructeurs et concessionnaires automobiles."
+            }
+        ],
+        "headerTitle": "Solutions pour l'industrie automobile",
+        "headerSubTitle": "Piloter la transformation digitale du showroom au service après-vente",
+        "pageDescTitle": "Alimenter l’écosystème automobile de nouvelle génération avec Rialtes",
+        "pageDesc": "L'industrie automobile est en pleine mutation — des modèles traditionnels centrés sur le concessionnaire à un écosystème de mobilité connecté et centré sur le client. Les constructeurs, concessionnaires et fournisseurs doivent offrir des expériences omnicanales fluides, gérer des cycles de vie complexes des véhicules et fidéliser la clientèle dans un marché ultra-compétitif.",
+        "pageDesc2": "Rialtes collabore avec les principales marques automobiles pour naviguer dans ces disruptions, en combinant une expertise sectorielle approfondie avec des technologies de pointe comme SAP, Salesforce Automotive Cloud, Marketing Cloud, Revenue Cloud, et plus encore. Avec des bureaux aux États-Unis, Canada, Inde et Singapour, et des experts certifiés en solutions automobiles, nous livrons une transformation digitale complète — de la capture des leads au service de garantie et au-delà.",
+        "thoughtTitle": "Leadership d'opinion",
+        "thoughtSubTitle": "Répondre aux défis complexes du secteur automobile",
+        "thoughtSubTitle2": "Principaux défis sectoriels que nous résolvons :",
+        "thoughtSubTitle3": "Solutions Rialtes :",
+        "preDeliverTitle": "Accélérateurs automobiles préconfigurés Rialtes",
+        "preDeliverSubTitle": "Accélérer le succès",
+        "preDeliverDesc": "Nos accélérateurs propriétaires sont conçus pour rationaliser et sécuriser les opérations automobiles :",
+        "endToEndTitle": "Parcours complet de l’acheteur automobile",
+        "endToEndSubTitle": "Fluide du premier clic à la livraison finale",
+        "comprehensiveTitle": "Parcours complet du service client",
+        "comprehensiveSubTitle": "De la possession à la fidélité",
+        "personalizingTitle": "Personnalisation de l'expérience automobile",
+        "personalizingSubTitle": "Salesforce Marketing Cloud + Automotive Cloud",
+        "revolutionizingTitle": "Révolutionner les opérations de service",
+        "revolutionizingSubTitle": "Salesforce Service Cloud",
+        "enablingTitle": "Activer la tarification dynamique et la configuration",
+        "enablingSubTitle": "Salesforce Revenue Cloud pour CPQ",
+        "dealerTitle": "Portail concessionnaire et acheteur",
+        "dealerSubTitle": "Salesforce Experience Cloud",
+        "empoweringTitle": "Autonomiser les concessionnaires et agents",
+        "empoweringSubTitle": "Agentforce dans Automotive Cloud",
+        "unlockingTitle": "Déverrouiller le succès basé sur les données",
+        "unlockingSubTitle": "Salesforce Data Cloud pour l’automobile",
+        "integratingTitle": "Intégrer la stack automobile",
+        "integratingSubTitle": "Expertise SAP CPI et BTP",
+        "partneringTitle": "Puissance des partenariats Rialtes",
+        "partneringSubTitle": "Expertise SAP et Salesforce réunie",
+        "partneringDesc": "Grâce à des alliances solides avec SAP et Salesforce, Rialtes offre les solutions automobiles les plus complètes, agiles et prêtes pour l’avenir sur le marché. Nos experts sont certifiés dans :",
+        "relatedTitle": "Solutions associées",
+        "contactTitle": "Prêt à transformer l’expérience client automobile ?"
+    },
+    "travelIndustry": {
+        "endToEndData": [
+            "Services de conseil spécifiques à l'industrie pour définir votre feuille de route digitale.",
+            "Architecture et conception de solutions sur mesure pour répondre aux besoins uniques TTH.",
+            "Accélérateurs prêts à l'emploi pour accélérer le déploiement et réduire les coûts.",
+            "Assurance qualité et tests rigoureux pour garantir des performances parfaites.",
+            "Implémentation agile et intégration utilisant SAP, Salesforce et MuleSoft.",
+            "Optimisation continue et innovation post-déploiement pour rester compétitif."
+        ],
+        "industryData": [
+            "Moteurs de réservation et systèmes de réservation intelligents.",
+            "Outils de tarification dynamique et de gestion du rendement.",
+            "Modules complémentaires pour la gestion des propriétés et de l’expérience client dans l’hôtellerie.",
+            "Solutions de gestion des transports et des flottes.",
+            "Extensions de plateformes de fidélité et de récompenses pour améliorer la rétention client."
+        ],
+        "optimizeData": [
+            "Visibilité des stocks en temps réel pour chambres, vols, sièges et actifs de transport.",
+            "Prévision de la demande basée sur l’IA pour optimiser les prix et la disponibilité.",
+            "Tarification dynamique basée sur les tendances et la demande en temps réel.",
+            "Synchronisation cross-channel des stocks entre réservations directes et OTA.",
+            "Gestion intégrée des capacités pour éviter les surbookings et opportunités manquées."
+        ],
+        "personalizedData": [
+            "Profils clients unifiés pour des campagnes hyper-ciblées.",
+            "Segmentation pilotée par IA pour créer des expériences de voyage et d’accueil uniques.",
+            "Engagement multi-canaux : email, SMS, réseaux sociaux, web et mobile.",
+            "Personnalisation dynamique selon les préférences et comportements de voyage.",
+            "Parcours automatisés pré-voyage, en voyage et post-voyage pour maintenir l’engagement."
+        ],
+        "rightTechData": [
+            "Rialtes vous guide dans le choix, la conception et l’intégration de solutions adaptées à votre activité.",
+            "Combinaison de SAP, Salesforce, Oracle et MuleSoft pour une solution complète à 360°.",
+            "Outils d’IA, d’automatisation et de self-service pour améliorer l’efficacité et satisfaire les clients.",
+            "Architectures évolutives, sécurisées et pérennes, conçues pour une croissance durable."
+        ],
+        "aiPoweredData": [
+            "Chatbots et assistants virtuels pour support client et voyageur 24/7.",
+            "Maintenance prédictive pour les flottes et infrastructures de transport.",
+            "Prévisions de demande pilotées par IA pour la tarification dynamique et l’allocation des ressources.",
+            "Recommandations de voyage et de séjour personnalisées selon le comportement client.",
+            "Prévention des fraudes et gestion des risques basée sur l’IA."
+        ],
+        "quickCommereceData": [
+            "Opportunités d’upgrades et de ventes croisées instantanées lors de la réservation.",
+            "Expériences mobile-first pour check-in, conciergerie et demandes de service.",
+            "Tarification et disponibilité en temps réel pour ne manquer aucune opportunité.",
+            "Upsell et cross-sell automatisés aux points de contact clés."
+        ],
+        "smarterServiceData": [
+            "Bots de service Agentforce alimentés par IA pour résolution des problèmes en temps réel.",
+            "Interactions personnalisées avec les agents grâce à un contexte client complet.",
+            "Profils unifiés voyageurs/clients via Data Cloud pour un service personnalisé.",
+            "Support client prédictif pour résoudre les problèmes avant qu’ils n’apparaissent.",
+            "Gestion simplifiée des cas pour des résolutions rapides."
+        ],
+        "elavateTravelData": [
+            "Gestion complète des réservations et bookings.",
+            "Recommandations d’itinéraires basées sur l’IA selon les préférences.",
+            "Solutions de gestion des perturbations et retards pour un engagement proactif.",
+            "Gestion de la fidélité intégrée et récompenses personnalisées.",
+            "Applications mobiles pour l’expérience voyageurs : réservations, check-in et mises à jour."
+        ],
+        "flawlessData": [
+            "SAP S/4HANA pour finance, approvisionnement, RH et chaîne d’approvisionnement.",
+            "ERP et HCM Oracle pour la gestion complète des processus d’entreprise.",
+            "APIs MuleSoft pour une connexion en temps réel entre plateformes clients et systèmes opérationnels.",
+            "Workflows complets du booking à la facturation, des opérations au service client.",
+            "Synchronisation des données pour garantir cohérence et exactitude."
+        ],
+        "futureReadyData": [
+            "Programmes de fidélité multi-niveaux adaptés aux clients TTH.",
+            "Reconnaissance client basée sur l’IA pour offres et expériences personnalisées.",
+            "Réalisation fluide des récompenses et opportunités d’upsell.",
+            "Stratégies de gamification pour renforcer engagement et rétention.",
+            "Intégration des programmes partenaires avec compagnies aériennes, hôtels et services de transport."
+        ],
+        "turnSectionData": [
+            "Tableaux de bord unifiés pour insights clients, ventes et opérations.",
+            "Analyses en temps réel de la demande, capacité et performance financière.",
+            "Analyses prédictives pour anticiper les tendances et optimiser les prix.",
+            "Visualisations interactives et actionnables avec Tableau.",
+            "Visualisations interactives et actionnables avec Tableau."
+        ],
+        "headerTitle": "Industrie du Voyage, du Transport et de l’Hôtellerie",
+        "headerSubTitle": "Propulser l’expérience Travel, Transport & Hospitality de nouvelle génération",
+        "pageDescTitle": "Élever les parcours clients, moderniser les opérations et générer de nouveaux revenus avec IA, SAP et Salesforce",
+        "pageDesc1": "Chez Rialtes, nous transformons l'industrie Travel, Transport et Hôtellerie (TTH) grâce à des solutions prêtes pour l’avenir, basées sur SAP, Salesforce, MuleSoft et Oracle. Des compagnies aériennes aux hôtels, des croisiéristes aux prestataires logistiques, notre expertise sectorielle permet de délivrer des expériences clients inoubliables.",
+        "pageDesc2": "Avec notre présence mondiale aux États-Unis, Canada, Inde et Singapour, et en tant que partenaire certifié SAP et Salesforce, Rialtes propose des services de conseil, d’implémentation et post-déploiement, renforcés par des accélérateurs pré-construits adaptés à l’industrie TTH.",
+        "endToEndTitle": "Pourquoi choisir Rialtes pour une transformation complète et sectorielle :",
+        "endToEndDesc": "Avec Rialtes, vous obtenez un partenaire qui comprend les nuances du TTH et livre des résultats mesurables.",
+        "industryFocusedTitle": "Lancez rapidement et restez en tête avec des accélérateurs sectoriels :",
+        "industryFocusedDesc": "Nos accélérateurs conçus pour le secteur réduisent le time-to-market et assurent une réalisation rapide de la valeur, vous permettant de vous concentrer sur vos clients. Ils couvrent : Travel, Transport et Hôtellerie.",
+        "elevateTitle": "Élever l’expérience voyage",
+        "elevateSubTitle": "Solutions sur mesure pour leaders de l’industrie du voyage",
+        "elevateDesc": "Avec Rialtes, chaque parcours devient un moment de marque, permettant aux entreprises de voyage de créer des expériences fluides et hyper-personnalisées :",
+        "personalizedTitle": "Engagement personnalisé avec Salesforce Marketing Cloud + Travel & Hospitality Cloud",
+        "personalizedDesc": "Renforcez les liens avec vos clients et stimulez la fidélité grâce à un marketing intelligent :",
+        "optimizeTitle": "Optimiser chaque actif",
+        "optimizeSubTitle": "Gestion des stocks et capacité en temps réel avec Data Cloud",
+        "optimizeDesc": "Maximisez l’utilisation, réduisez les gaspillages et augmentez vos revenus :",
+        "drivingTitle": "Stimuler la fidélité client",
+        "drivingSubTitle": "Solutions de fidélité prêtes pour l’avenir",
+        "drivingDesc": "Fidélisez vos clients et voyageurs en construisant une loyauté émotionnelle, pas seulement transactionnelle.",
+        "flawlessTitle": "Connectivité back-end sans faille",
+        "flawlessSubTitle": "Intégration SAP, Oracle, MuleSoft",
+        "flawlessDesc": "Intégrez votre expérience front-end avec des opérations back-end robustes :",
+        "turnDataTitle": "Transformer les données en actions",
+        "turnDataSubTitle": "Visualisation des données avec Tableau et Data Cloud",
+        "turnDataDesc1": "Permettez un leadership basé sur les données et l’excellence opérationnelle :",
+        "turnDataDesc2": "Laissez les données guider les meilleures décisions.",
+        "whyRightTitle": "Pourquoi le bon partenaire technologique fait toute la différence",
+        "whyRightDesc": "Choisir la bonne solution ne concerne pas seulement le logiciel, mais les résultats pour l’entreprise :",
+        "aiPoweredTitle": "Transformation alimentée par l’IA",
+        "aiPoweredSubTitle": "Comment l’IA révolutionne le TTH",
+        "aiPoweredDesc": "Rialtes vous aide à adopter l’IA de manière pertinente pour vos clients et votre rentabilité.",
+        "quickCommerceTitle": "Quick Commerce & Expériences instantanées",
+        "quickCommerceSubTitle": "Travel et Hôtellerie en temps réel avec SAP & Salesforce",
+        "quickCommerceDesc": "Offrez des expériences aussi rapides et personnalisées que vos clients les attendent. SAP et Salesforce permettent des réservations et confirmations en temps réel.",
+        "smarterTitle": "Service & support intelligent",
+        "smarterSubTitle": "Agentforce et Data Cloud dans le TTH",
+        "smarterDesc": "Offrez un service qui fait que chaque client se sente valorisé et compris.",
+        "contactTitle": "Prêt à redéfinir l’avenir du Travel, Transport & Hospitality ?",
+        "contactSubTitle": "Que vous soyez compagnie aérienne, chaîne hôtelière, croisiériste, service de covoiturage ou prestataire logistique, Rialtes peut vous aider à exceller dans un monde compétitif grâce à la technologie, la stratégie et l’exécution.",
+        "contactSubTitle2": "Contactez Rialtes dès aujourd’hui pour démarrer votre parcours de transformation — car de grandes expériences commencent avec de grands partenaires."
+    },
+    "retailIndustry": {
+        "newRealityData": [
+            {
+                "title": "Parcours clients fragmentés :",
+                "subtitle": "Les acheteurs naviguent entre points de contact numériques et physiques en s’attendant à une expérience cohérente."
+            },
+            {
+                "title": "Préférences consommateurs dynamiques :",
+                "subtitle": "Demande de personnalisation et de marques socialement responsables."
+            },
+            {
+                "title": "Complexité opérationnelle :",
+                "subtitle": "Gestion multi-canaux des stocks, défis de la chaîne d’approvisionnement et pressions sur les coûts."
+            },
+            {
+                "title": "Surcharge technologique :",
+                "subtitle": "Naviguer parmi de nombreux outils sans intégration claire."
+            }
+        ],
+        "chooseRialtesData": [
+            {
+                "imgUrl": "/images/industry/retail-industry/img-1.svg",
+                "desc": "Conseil stratégique en retail et architecture d’entreprise"
+            },
+            {
+                "imgUrl": "/images/industry/retail-industry/img-2.svg",
+                "desc": "Conception de solutions sur mesure & plans sectoriels"
+            },
+            {
+                "imgUrl": "/images/industry/retail-industry/img-3.svg",
+                "desc": "Accélérateurs préconstruits pour un déploiement rapide"
+            },
+            {
+                "imgUrl": "/images/industry/retail-industry/img-4.svg",
+                "desc": "Assurance qualité et ingénierie des performances"
+            },
+            {
+                "imgUrl": "/images/industry/retail-industry/img-5.svg",
+                "desc": "Intégration du front-office et back-office (SAP, Salesforce, Oracle, MuleSoft)"
+            },
+            {
+                "imgUrl": "/images/industry/retail-industry/img-6.svg",
+                "desc": "Support post-go-live, optimisation et innovation"
+            }
+        ],
+        "fashionRetailData": [
+            "Gérer des hiérarchies de produits complexes, des collections saisonnières aux tailles personnalisées.",
+            "Offrir des expériences omnicanales personnalisées en ligne, en magasin et sur mobile.",
+            "Optimiser les stocks sur tous les canaux avec des mises à jour en temps réel.",
+            "Exploiter l’IA pour la prévision des tendances, la planification de la demande et les préférences clients.",
+            "Améliorer la fidélisation client grâce à des programmes de fidélité intelligents."
+        ],
+        "loyaltyData": [
+            "Programmes de fidélité multi-niveaux avec récompenses flexibles (points, remises, accès anticipé).",
+            "Reconnaissance personnalisée basée sur l’historique et le comportement d’achat.",
+            "Expériences gamifiées pour renforcer l’engagement.",
+            "Analyses IA sur la performance de fidélité et les risques de churn."
+        ],
+        "frictionlessData": [
+            "SAP S/4HANA et Oracle ERP pour les processus order-to-cash, finance et approvisionnement.",
+            "Salesforce Commerce et Marketing Cloud pour l’engagement client.",
+            "MuleSoft comme middleware pour un flux de données en temps réel via API.",
+            "Workflows automatisés — des commandes et stocks à la facturation et logistique."
+        ],
+        "rightData": [
+            "Construire un stack technologique sur mesure aligné sur vos objectifs business.",
+            "Sélectionner les composants SAP, Salesforce, Oracle optimaux.",
+            "Utiliser nos accélérateurs pour un ROI rapide et une disruption minimale.",
+            "Préparer vos opérations pour la scalabilité et l’agilité future."
+        ],
+        "aiPoweredRetailData": [
+            "Chatbots IA pour un service instantané et personnalisé ainsi que FAQ.",
+            "Analyses prédictives pour la demande, les tendances et le comportement client.",
+            "Recommandations de produits intelligentes et upselling.",
+            "Tarification dynamique et optimisation des stocks pilotées par IA.",
+            "Prévention des fraudes et réduction des pertes grâce à l’IA."
+        ],
+        "fastData": [
+            "Vérifications instantanées des stocks et traitement des commandes.",
+            "Optimisation des itinéraires de livraison et logistique du dernier kilomètre avec IA.",
+            "Mises à jour clients en temps réel et promotions personnalisées.",
+            "Intégration SAP CAR et Salesforce Commerce pour un commerce rapide de bout en bout.",
+            "Applications mobiles et extensions POS pré-intégrées."
+        ],
+        "proprietaryData": [
+            {
+                "title": "Fashion Retail Bolt-On",
+                "desc": "Gestion du cycle de vie des tendances, collections IA, showrooms numériques."
+            },
+            {
+                "title": "Restaurant Bolt-On",
+                "desc": "Gestion des menus, tarification dynamique, fidélité intégrée."
+            },
+            {
+                "title": "Plugins Inventaire et Fidélité",
+                "desc": "Prêts à l’emploi, flexibles et évolutifs."
+            }
+        ],
+        "aiPoweredCustomerData": [
+            {
+                "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-agentforce-mob-img.webp",
+                "deskImgUrl": "/images/industry/retail-industry/aiPowered-agentforce-desk-img.webp",
+                "title": "Agentforce",
+                "desc": "Bots Service Cloud alimentés par IA, agents virtuels et parcours de support personnalisés."
+            },
+            {
+                "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-datacloud-mob-img.webp",
+                "deskImgUrl": "/images/industry/retail-industry/aiPowered-datacloud-desk-img.webp",
+                "title": "Data Cloud",
+                "desc": "Profils clients unifiés à 360° pour offres personnalisées, support et upselling."
+            }
+        ],
+        "actionableData": [
+            "Tableaux de bord unifiés combinant données ventes, marketing et service client.",
+            "Analyses avancées pour prévision de la demande, analyse des tendances et optimisation des prix.",
+            "Insights pilotés par IA pour une prise de décision plus rapide.",
+            "Visualisations interactives Tableau pour un reporting intuitif au niveau exécutif."
+        ],
+        "hyperPersonalizationData": [
+            "Segmenter les audiences selon comportement, démographie et préférences.",
+            "Créer des campagnes personnalisées pilotées par IA qui convertissent.",
+            "Lancer des parcours automatisés du panier abandonné aux promotions de fidélité.",
+            "Analyser le succès des campagnes et l’engagement client en temps réel.",
+            "Intégrer de manière transparente avec commerce, service et plateformes de fidélité."
+        ],
+        "realTimeData": [
+            "Suivi des stocks en temps réel sur tous les sites.",
+            "Prévision de la demande basée sur IA pour des niveaux de stock optimaux.",
+            "Allocation dynamique des produits et réapprovisionnement intelligent.",
+            "Visibilité totale pour clients, équipes et partenaires, garantissant la confiance dans l’exécution.",
+            "Intégration avec e-commerce, POS et systèmes d’entrepôt."
+        ],
+        "headerTitle": "Industrie Retail",
+        "headerSubTitle": "Rialtes : Votre partenaire de confiance pour l’innovation dans le Retail",
+        "pageDescTitle": "Permettre aux détaillants de prospérer dans un monde centré sur le client et piloté par l’IA",
+        "pageDesc1": "Dans le retail, le succès réside dans la création d’expériences fluides et personnalisées sur tous les canaux tout en gérant la complexité opérationnelle en arrière-plan. Chez Rialtes, nous permettons aux détaillants d’embrasser l’avenir du commerce en unifiant processus métiers, engagement client et analyses intelligentes via des partenariats stratégiques avec SAP, Salesforce, MuleSoft et Oracle.",
+        "pageDesc2": "Nos accélérateurs pré-construits propriétaires pour les verticales mode et restauration garantissent un lancement sur le marché plus rapide, plus intelligent et centré sur le client.",
+        "retailsTitle": "La nouvelle réalité du Retail",
+        "retailsSubTitle": "Défis et opportunités dans un monde digital-first",
+        "retailsBlueBox": "Nous vous aidons à transformer ces défis en opportunités de croissance grâce à des solutions modernes, intégrées et alimentées par l’IA, adaptées au retail.",
+        "whyChooseTitle": "Pourquoi choisir Rialtes",
+        "whyChooseSubTitle": "Transformation complète du Retail avec ‘Retail+’",
+        "whyChooseDesc": "Notre offre Retail+ propose un parcours de transformation à 360° :",
+        "whyChooseBlueBox": "Avec une présence mondiale (US, Canada, Inde, Singapour), nous apportons une expertise et un engagement incomparables.",
+        "fashionTitle": "Retail Mode Redéfini",
+        "fashionDesc": "La mode est dynamique. Votre technologie retail doit l’être aussi. Rialtes aide les marques de mode à :",
+        "fashionBlueBox": "Nos accélérateurs spécifiques à la mode garantissent que votre marque reste un trendsetter, et non un suiveur.",
+        "salesforceTitle": "Salesforce Marketing Cloud + Retail Cloud",
+        "salesforceSubTitle": "Engagez les bons clients, au bon moment, avec le bon message.",
+        "salesforceDesc": "Rialtes exploite Salesforce Marketing Cloud et Retail Cloud pour :",
+        "salesforceBlueBox": "Offrir des expériences delight qui transforment les visiteurs en clients fidèles.",
+        "realTimeTitle": "Gestion des stocks en temps réel avec Data Cloud",
+        "realTimeSubTitle": "Ne perdez plus jamais une vente à cause d’une rupture de stock.",
+        "realTimeDesc": "Nos solutions d’inventaire basées sur Data Cloud garantissent :",
+        "loyaltyTitle": "Programmes de fidélité qui favorisent la répétition des achats",
+        "loyaltySubTitle": "Intelligents, personnalisés et gratifiants",
+        "loyaltyDesc": "La fidélité se gagne, elle ne se donne pas. Rialtes simplifie cela avec :",
+        "loyaltyBlueBox": "Transformez les acheteurs occasionnels en ambassadeurs de marque à vie.",
+        "frictionalTitle": "Intégration backend sans friction",
+        "frictionalSubTitle": "Opérations propulsées par SAP, Oracle, MuleSoft",
+        "frictionalDesc": "Le succès retail nécessite l’harmonie entre systèmes front-office et back-office. Rialtes connecte :",
+        "frictionalBlueBox": "Atteignez l’excellence opérationnelle sans silos.",
+        "actionableTitle": "Insights exploitables avec Data Cloud & Tableau",
+        "actionableSubTitle": "Voir l’avenir, dès maintenant",
+        "actionableDesc": "Transformez les données retail en résultats business concrets.",
+        "actionableDesc2": "Rialtes vous aide à libérer le potentiel des données :",
+        "makingTitle": "Faire les bons choix technologiques",
+        "makingSubTitle": "Comment les détaillants peuvent gagner avec Rialtes",
+        "makingDesc": "Choisir les bons outils façonne l’avenir de votre marque. Rialtes vous guide pour :",
+        "aiPoweredTitle": "Retail piloté par IA",
+        "aiPoweredSubTitle": "Le nouveau standard pour une expérience client exceptionnelle",
+        "aiPoweredDesc": "L’intelligence artificielle transforme tous les aspects du retail :",
+        "aiPoweredDesc2": "Avec Rialtes, l’IA devient une partie intégrée de votre stratégie client et opérationnelle.",
+        "fastTitle": "Rapide, flexible et fluide",
+        "fastSubTitle": "Solutions Quick Commerce propulsées par SAP & Salesforce",
+        "fastDesc": "La rapidité est la nouvelle fidélité dans le retail. Rialtes vous aide à adopter le Quick Commerce :",
+        "fastBlueBox": "Livrez en minutes, ravissez pour des années.",
+        "proprietaryTitle": "Accélérateurs propriétaires Rialtes",
+        "proprietarySubTitle": "Temps de valeur réduit",
+        "proprietaryDesc": "Ces accélérateurs réduisent le temps de déploiement et les coûts.",
+        "aiCustomerTitle": "Engagement client alimenté par IA avec Agentforce et Insights 360° via Data Cloud",
+        "contactTitle": "Transformons le Retail ensemble — Avec Rialtes comme partenaire stratégique",
+        "contactSubTitle": "Prêt à réimaginer votre parcours retail ? Rialtes apporte outils, expertise et innovation pour prospérer dans un environnement exigeant.",
+        "contactSubTitle2": "Contactez-nous dès aujourd’hui pour libérer l’avenir du retail."
+    },
+    "nonProfit": {
+        "whyChooseData": [
+            "Expertise approfondie dans le domaine des organisations à but non lucratif.",
+            "Implémentations accélérées avec des solutions préconstruites adaptées aux besoins des ONG.",
+            "Experts certifiés Salesforce et SAP offrant des services de bout en bout.",
+            "Présence mondiale pour soutenir des organisations à but non lucratif diverses.",
+            "Focus sur l’impact de la mission, la transparence et l’efficacité opérationnelle."
+        ],
+        "thoughtLeadershipData": [
+            {
+                "title": "Principaux défis :",
+                "dataList": [
+                    "Systèmes déconnectés empêchant une vue unifiée des donateurs, bénévoles et bénéficiaires des programmes.",
+                    "Capacité limitée à mesurer, suivre et communiquer les résultats des programmes et l’impact de la mission en temps réel.",
+                    "Collecte de fonds inefficace due à des campagnes génériques sans personnalisation.",
+                    "Difficulté à attirer et retenir les bénévoles en raison de systèmes d’engagement peu performants.",
+                    "Processus de gestion des subventions chronophages sans visibilité sur l’utilisation des fonds et la conformité."
+                ]
+            },
+            {
+                "title": "Proposition de valeur de Rialtes :",
+                "dataList": [
+                    "Écosystèmes unifiés pour l’engagement des donateurs, bénévoles et programmes.",
+                    "Analyses avancées basées sur les données pour une communication personnalisée et une mesure de l’impact.",
+                    "Processus de collecte de fonds, subventions et bénévoles rationalisés grâce à l’automatisation et à l’IA.",
+                    "Gestion complète du cycle de vie, de la prospection au suivi des relations."
+                ]
+            }
+        ],
+        "preDeliveredData": [
+            {
+                "title": "Accélérateur d’Engagement Donateurs",
+                "desc": "Solution sur mesure pour suivre les interactions avec les donateurs, la gestion des promesses et les parcours personnalisés. Permet des relations donateur à forte valeur ajoutée."
+            },
+            {
+                "title": "Cadre de Suivi des Programmes et Résultats",
+                "desc": "Surveillance des performances des programmes en temps réel, liée aux résultats des bénéficiaires et aux rapports d’impact pour les financeurs et conseils d’administration."
+            },
+            {
+                "title": "Gestion des Bénévoles Bolt-On",
+                "desc": "Outil puissant pour gérer le recrutement des bénévoles, le suivi des compétences, la planification des événements et l’analyse de l’impact, garantissant l’engagement et la motivation des bénévoles."
+            },
+            {
+                "title": "Cartographie Familles & Ménages pour les Donateurs",
+                "desc": "Visualisation avancée des contributions familiales et domestiques pour comprendre le potentiel collectif des donateurs et soutenir des stratégies de relations à long terme."
+            }
+        ],
+        "commonSectionData": [
+            {
+                "title": "Collecte de fonds & Gestion de campagnes",
+                "title2": "Stimuler l’engagement et les dons durables",
+                "desc": "La collecte de fonds est la ligne de vie de toute organisation à but non lucratif. Rialtes propose des solutions sur mesure pour rationaliser chaque phase — de la conception de campagne à l’engagement et au suivi des donateurs.",
+                "dataList": [
+                    "Créer des campagnes centrées sur le donateur, personnalisées, qui augmentent les dons et la fidélisation.",
+                    "Gérer des campagnes multi-canaux — email, SMS, événements — depuis une plateforme unifiée.",
+                    "Permettre la segmentation des donateurs pour des prospects à forte valeur et des programmes de dons récurrents.",
+                    "Fournir aux donateurs une transparence sur l’utilisation de leurs contributions grâce à des rapports d’impact automatisés."
+                ],
+                "bgColor": "#FCF0D9",
+                "deskImg": "/images/industry/non-profit-industry/fundraising-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/fundraising-mob.webp"
+            },
+            {
+                "title": "Cartographie Familles & Ménages",
+                "title2": "Visualiser les relations entre donateurs",
+                "desc": "Comprendre les relations entre donateurs au-delà des individus est crucial pour maximiser le potentiel de dons. La solution Family Chart de Rialtes aide les ONG à découvrir des connexions pour un engagement plus profond.",
+                "dataList": [
+                    "Identifier les opportunités de dons collectifs provenant de fondations familiales, ménages ou réseaux.",
+                    "Visualiser des écosystèmes complexes de donateurs pour des campagnes sur mesure.",
+                    "Suivre les dons multi-générationnels pour des campagnes patrimoniales et une planification à long terme.",
+                    "Cartographier les relations entre donateurs, membres du conseil et participants aux programmes pour renforcer la communauté."
+                ],
+                "bgColor": "#E6E6A1",
+                "deskImg": "/images/industry/non-profit-industry/family-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/family-mob.webp"
+            },
+            {
+                "title": "Communication personnalisée avec Salesforce Marketing Cloud",
+                "title2": "",
+                "desc": "La communication personnalisée et opportune est la pierre angulaire de la collecte de fonds moderne. Salesforce Marketing Cloud, associé à l’expertise de Rialtes, transforme l’engagement des donateurs.",
+                "dataList": [
+                    "Diffuser des communications pertinentes et personnalisées basées sur les intérêts et l’historique des donateurs.",
+                    "Lancer des campagnes pour les donateurs inactifs, les nouveaux donateurs et les prospects majeurs.",
+                    "Recommandations de contenu pilotées par IA pour améliorer le taux de réponse des donateurs.",
+                    "Parcours dynamiques des donateurs qui s’ajustent selon leur comportement et leurs habitudes de don."
+                ],
+                "bgColor": "#D8DBEF",
+                "deskImg": "/images/industry/non-profit-industry/personalized-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/personalized-mob.webp"
+            },
+            {
+                "title": "Gestion des Donateurs",
+                "title2": "Cultiver des relations durables",
+                "desc": "Les relations solides avec les donateurs reposent sur un engagement réfléchi et une communication transparente. Rialtes permet aux ONG de gérer efficacement l’ensemble du cycle de vie.",
+                "dataList": [
+                    "Profils complets à 360 degrés des donateurs, incluant dons, engagement et historique de communication.",
+                    "Gestion des relations pour dons majeurs, sponsors corporatifs et subventions.",
+                    "Planification du parcours donateur pilotée par IA pour un engagement et une fidélisation optimaux.",
+                    "Processus complets de reconnaissance et de remerciement pour renforcer la loyauté."
+                ],
+                "bgColor": "#E1E6C9",
+                "deskImg": "/images/industry/non-profit-industry/donor-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/donor-mob.webp"
+            },
+            {
+                "title": "Gestion des bénévoles",
+                "title2": "Renforcer le pilier des ONG",
+                "desc": "Les bénévoles sont essentiels aux écosystèmes non lucratifs. Rialtes propose des solutions complètes pour les engager, les gérer et les fidéliser.",
+                "dataList": [
+                    "Inscription, planification et assignation basée sur les compétences simplifiées pour les bénévoles.",
+                    "Portails en libre-service pour faciliter les interactions et la gestion des emplois du temps.",
+                    "Programmes de communication et de reconnaissance personnalisés pour améliorer la rétention.",
+                    "Tableaux de bord en temps réel pour mesurer engagement et contribution des bénévoles."
+                ],
+                "bgColor": "#F2D8C2",
+                "deskImg": "/images/industry/non-profit-industry/volunteer-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/volunteer-mob.webp"
+            },
+            {
+                "title": "Gestion des Programmes & Résultats",
+                "title2": "Mesurer l’essentiel",
+                "desc": "Suivre le véritable impact des programmes est essentiel pour attirer des financements et améliorer l’efficacité. Rialtes le rend possible avec des solutions avancées.",
+                "dataList": [
+                    "Suivi complet du cycle de vie des programmes, de la conception à la livraison et l’évaluation.",
+                    "Tableaux de bord en temps réel pour le suivi des résultats et l’évaluation de l’impact.",
+                    "Insights pilotés par IA pour optimiser opérations et résultats des programmes.",
+                    "Rapports transparents pour les donateurs, conseils et financeurs."
+                ],
+                "bgColor": "#E6E1F7",
+                "deskImg": "/images/industry/non-profit-industry/program-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/program-mob.webp"
+            },
+            {
+                "title": "Gestion des Subventions",
+                "title2": "Simplifier des processus complexes",
+                "desc": "Une gestion efficace des subventions assure les financements au bon moment tout en respectant les obligations de conformité. Rialtes simplifie ce cycle.",
+                "dataList": [
+                    "Suivre les opportunités de subventions, échéances et progrès des candidatures.",
+                    "Workflows rationalisés pour rédaction et approbation collaboratives des subventions.",
+                    "Allocation post-attribution des fonds et suivi de conformité.",
+                    "Rapports intégrés pour démontrer l’utilisation efficace des fonds aux financeurs."
+                ],
+                "bgColor": "#F0E4ED",
+                "deskImg": "/images/industry/non-profit-industry/grant-desk.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/grant-mob.webp"
+            }
+        ],
+        "headerTitle": "Secteur Non-Profit",
+        "headerSubTitle": "Transformer l’impact des ONG avec Rialtes",
+        "headerSubTitle2": "Solutions technologiques de bout en bout pour organisations à but non lucratif",
+        "pageDescTitle": "Maximiser l’impact des ONG grâce à la technologie et à la stratégie",
+        "pageDesc": "Rialtes permet aux ONG de surmonter les défis opérationnels et d’amplifier leur mission grâce à des solutions basées sur Salesforce et SAP. De la gestion des donateurs et bénévoles à la collecte de fonds, suivi des subventions et mesure des résultats, nos services de bout en bout — stratégie, mise en œuvre et support continu — aident les organisations à croître de manière scalable. Avec des accélérateurs prêts à déployer, spécialement conçus pour les ONG, nous accélérons la transformation digitale et maximisons l’impact là où il compte le plus.",
+        "thoughtTitle": "Leadership éclairé",
+        "thoughtSubTitle": "Répondre aux défis modernes des ONG",
+        "thoughtDesc": "Les ONG doivent aujourd’hui dépasser les méthodes traditionnelles de gestion des donateurs et programmes pour rester pertinentes et efficaces.",
+        "preDeliveredTitle": "Accélérateurs pré-déployés Rialtes pour l’excellence des ONG",
+        "preDeliveredDesc": "Nos solutions propriétaires, prêtes à déployer, réduisent drastiquement les temps de déploiement et améliorent l’efficacité des processus pour les ONG.",
+        "significanceTitle": "Importance :",
+        "seamlessTitle": "Intégrations de plateformes transparentes pour des opérations ONG unifiées",
+        "seamlessCard1Title": "SAP S/4HANA",
+        "seamlessCard1Desc": "Gérer finances, approvisionnement et allocation des fonds des donateurs avec une transparence totale.",
+        "seamlessCard2Title": "Salesforce NPSP & Experience Cloud",
+        "seamlessCard2Desc": "Améliorer l’engagement des donateurs, bénévoles et programmes grâce à des plateformes intuitives.",
+        "seamlessCard3Title": "SAP ARIBA",
+        "seamlessCard3Desc": "Optimiser les processus d’approvisionnement pour les besoins des programmes ONG.",
+        "seamlessCard4Title": "SAP CPI",
+        "seamlessCard4Title2": "(Cloud Platform Integration)",
+        "seamlessCard4Desc": "Assurer un flux de données fluide entre Salesforce, SAP et des solutions tierces comme les portails donateurs.",
+        "seamlessCard5Title": "SAP BTP",
+        "seamlessCard5Title2": "(Business Technology Platform)",
+        "seamlessCard5Desc": "Créer des applications personnalisées, automatiser les workflows et intégrer l’IA pour des opérations plus intelligentes.",
+        "enhancedTitle": "Engagement amélioré avec self-service et IA",
+        "enhancedSubTitle": "Portails Donateurs & Bénévoles avec Salesforce Experience Cloud",
+        "enhancedDesc": "Tableaux de bord personnalisés et outils d’engagement pour donateurs et bénévoles.",
+        "enhancedDesc2": "Accès transparent à l’historique des dons, inscriptions aux événements et préférences de communication.",
+        "agentforceTitle": "Agentforce pour la gestion des cas ONG",
+        "agentforceDesc1": "Support donateurs et bénévoles piloté par IA, automatisant les demandes et cas courants.",
+        "agentforceDesc2": "Alertes proactives pour opportunités donateurs et jalons d’engagement.",
+        "dataCloudTitle": "Data Cloud pour des insights unifiés sur donateurs, programmes et bénévoles",
+        "dataCloudDesc": "Vues consolidées à 360° pour une segmentation intelligente et un ciblage précis des programmes.",
+        "dataCloudDesc2": "Modèles IA pour prédire la fidélisation des donateurs et l’engagement des bénévoles.",
+        "whyChooseTitle": "Pourquoi choisir Rialtes pour la transformation digitale de votre ONG ?",
+        "contactTitle": "Prêt à amplifier l’impact de votre ONG ?",
+        "contactSubTitle": "Associez-vous à Rialtes pour accélérer votre parcours d’automatisation. Nos experts certifiés UiPath sont prêts à vous aider à améliorer l’efficacité, réduire les coûts et développer l’innovation.",
+        "contactSubTitle2": "Contactez-nous dès aujourd’hui pour une évaluation gratuite de votre automatisation !"
+    }
+}

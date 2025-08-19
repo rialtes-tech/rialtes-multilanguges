@@ -3,8 +3,13 @@ import Image from "next/image";
 import Link from 'next/link';
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
-;
 import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/blogs.json';
+import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -32,64 +37,11 @@ const schemaData = {
   "articleSection": "Salesforce",
   "url": "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
 }
-const blogs = [
-  {
-    id: 2,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "21 Oct 2024",
-    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-  },
-  {
-    id: 3,
-    image: "/images/blog/blog-3.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  },
-  {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  },
-  {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  },
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  {
-    id: 7,
-    image: "/images/blog/blog-7.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "29 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
-];
-
 export default function Page() {
+  const t = useTranslations('howSalesforceAgentforceWorks')
+  const locale = useLocale();
+  const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { blogs, salesforceData, useCasesData } = blogsContent.howSalesforceAgentforceWorks;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
 
   return (
@@ -117,13 +69,12 @@ export default function Page() {
         />
       </section>
 
-      <section
-        className="custom-container">
+      <section className="custom-container">
         <div className="py-10 bg-white">
           <div className="container pl-0 mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>30 Sept 2024
+                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>30 Sept 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -131,8 +82,7 @@ export default function Page() {
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      rel="noopener noreferrer"                    >
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -148,8 +98,8 @@ export default function Page() {
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
+                      rel="noopener noreferrer">
+                      <Image
                         src="/images/case-studies/twitter.svg"
                         alt="Twitter"
                         width={0}
@@ -160,86 +110,85 @@ export default function Page() {
                       />
                     </a>
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
           <div className="py-6"></div>
           <div className="container pl-0 mx-auto">
-            <h1 className="text-[#000000] font-semibold pb-6  xl:w-[584px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">How Salesforce Agentforce Actually Works</h1>
+            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[584px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">{t('blogTitle')}</h1>
           </div>
-
           <div className="container pl-0 mx-auto">
             <div className="max-[1084px] xl:w-[1084px]">
 
-              <p className="text-black pb-4">Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel. The platform uses AI to automate tasks and help businesses improve their operations, customer experience, and productivity. Agentforce platform works by integrating AI agents with Salesforce’s CRM and other tools like Data Cloud to ensure data is actionable. </p>
+              <p className="text-black pb-4">{t('blogMainData')}</p>
+
+              <div className="py-2"></div>
+              {/* quick section */}
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">{t('quickTitle')}</h2>
+              <p className="text-black pb-4">{t('quickDesc')}</p>
+              <p className="text-black pb-4">{t('quickDesc2')}</p>
+
+              <div className="py-2"></div>
+              {/* how does ai agent section */}
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">{t('howTitle')}</h2>
+              <p className="text-black pb-4">{t('howDesc')}</p>
+              <div className="py-2"></div>
+
+              {/* salesforce agentforce section */}
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">{t('salesforceTitle')}</h2>
+
+              <p className="text-black pb-4">{t('salesforceDesc')} <Link href="mailto:sales@rialtes.com" className="underline"> <span >mrjohn@example.com</span></Link>”</p>
+
+              <p className="text-black pb-4">{t('salesforceDesc2')}</p>
+              {
+                salesforceData.map((data, ind) => {
+                  return (
+                    <div key={ind}>
+                      <p className="text-black font-bold pb-4">{data.title}</p>
+                      {
+                        data.desc.map((elem, id) => {
+                          return (
+                            <p className="text-black pb-4" key={id}>{elem}</p>
+                          )
+                        })
+                      }
+                    </div>
+                  )
+                })
+              }
 
               <div className="py-2"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Quick Introduction to Salesforce Agentforce</h2>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">{t('useCasesTitle')}</h2>
 
-              <p className="text-black pb-4">Salesforce Agentforce is a platform designed to relieve agents’ workload by blending the capabilities of Salesforce with tools specifically tailored to the needs of on-the-field agents. With a suite of autonomous AI agents, it strives to automate complex tasks across sales, marketing, service, and more.</p>
-
-              <p className="text-black pb-4">Safe to say Agentforce is not just another chatbot, Its AI agents work autonomously by analyzing data, making decisions, and conducting actions needing humans, delivering advanced business automation. Unlike traditional chatbots, Agentforce is intelligent and adaptive, capable of solving a wide range of customer issues. Just like Einstein GPT, Agentforce leverages Salesforce’s generative AI to automate tasks and deliver real-time insights, enabling agents to provide superior customer experiences.</p>
-
-              <div className="py-2"></div>
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">How Does AI Agent Fit Into it?</h2>
-
-              <p className="text-black pb-4">AI agent in Agentforce is an intelligent system put in place to understand clients’ inquiries and respond to them accordingly. They are built on machine learning and natural language processing, capable of handling a wide range of manual tasks such as addressing customer queries, answering basic questions, and multi-tasking them. All of this makes AI agents capable of improving their performance by self-learning.</p>
-
-              <div className="py-2"></div>
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Salesforce Agentforce: How It Works?</h2>
-
-              <p className="text-black pb-4">Salesforce Agentforce helps businesses automate customer interactions, sales processes, and internal workflows. It integrates with Salesforce’s CRM and tools like Data Cloud to make all data actionable. Let’s see an instance of Agentforce in action by building an AI service agent to avert incoming support cases by answering a customer question “Where is my order? My email is <Link href="mailto:sales@rialtes.com" className="underline"> <span >mrjohn@example.com</span></Link>”</p>
-
-              <p className="text-black pb-4">Like any chatbot, the agent will answer the question immediately, but you can also expand your agent’s capabilities by enabling it to help with the appointment of installation of the product by adding a new topic. Topics are how you define the jobs your AI agents will and won’t do and it’s how you establish guardrails for your AI agents. But you can expand your agent guardrails by creating a new topic. This is very different from old-style chatbots, there are no dialog trees, just natural language descriptions that help the agent the task to execute.</p>
-
-              <p className="text-black font-bold pb-4">Adding a new topic:</p>
-
-              <p className="text-black pb-4">For appointment management, you can just type in the topic label, followed by a description that helps this AI agent understand when it should use this topic. After that a description of the scope of this job and necessary instructions for the agent to use while doing the task. These types of instructions usually involve lots of complicated if-then-else logic with other chatbots. But with Agentforce, writing natural language descriptions is enough for the agent to understand the task at hand.</p>
-
-              <p className="text-black font-bold pb-4">Actions:</p>
-
-              <p className="text-black pb-4">The next step is actions, which enable the agent to do these tasks. Actions can be based on flow, apex classes, or prompts. This is an example of the flow for retrieving available installation times.  </p>
-
-              <p className="text-black pb-4">And this is another one with a bit more logic to book the installation appointment.</p>
-
-              <p className="text-black pb-4">With these two flows created, you can now add them as actions to your AI agent. Here you go, your AI agent can schedule an installation appointment for the customer’s product.  Beyond topic classification, Agentforce uses the context of your customer’s entire conversation, to make a dynamic plan. This makes the AI agents much more flexible and capable of doing their assigned tasks.</p>
-
-              <div className="py-2"></div>
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Use Cases for Agentforce</h2>
-
-              <p className="text-black pb-4">The use cases for Agentforce are vast and can be tailored to specific fields:</p>
+              <p className="text-black pb-4">{t('useCasesDesc')}</p>
 
 
               <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
-                <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Sales</h3>: Automating lead qualification, booking appointments, and nurturing leads.</li>
-                <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Customer Service</h3>: Managing tickets, resolving inquiries, and providing 24/7 support.</li>
-                <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Marketing</h3>: Running automated campaigns that adapt based on performance metrics.</li>
-                <li className="pb-2"><h3 className="font-bold inline xl:text-[20px] text-[16px]">Field Service Management</h3>: Businesses that depend on field service agents such as technicians, delivery personnel, or home care providers.</li>
-                <li className=""><h3 className="font-bold inline xl:text-[20px] text-[16px]">Insurance and Financial Services</h3>: Insurance brokers, agents, and financial services consultants can utilize Agentforce to access crucial client data on the go.</li>
+                {
+                  useCasesData.map((data, ind) => {
+                    return (
+                      <li className="pb-2" key={ind}><h3 className="font-bold inline xl:text-[20px] text-[16px]">{data.title}</h3>{data.desc}</li>
+                    )
+                  })
+                }
               </ul>
               <div className="py-2"></div>
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">Getting Started with Agentforce</h2>
-              <p>If providing exceptional service and support to keep your customers satisfied is your priority, now is an excellent
-                time to see what Agentforce can offer you. This tool will greatly benefit Salesforce customers by helping them understand and anticipate customer needs, enabling them to respond proactively. Salesforce was so driven to launch Agentforce during this year’s <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/dreamforce/">Dreamforce</Link>. Businesses can leverage Agentforce within the Salesforce platform by automating sales workflows, enhancing lead management, and optimizing customer interactions.  Rialtes specializes in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/">AI and analytics solutions in Salesforce</Link>, and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes.</p>
+              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">{t('gettingTitle')}</h2>
+              <p>{t('gettingDesc')}
+                {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/dreamforce/">{t('gettingLink')}</Link>.
+                {" "} {t('gettingDesc2')}
+                {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/">{t('gettingLink2')}</Link>,{" "}
+                {t('gettingDesc3')}   </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Latest Blogs */}
-      <div
-        className="
-       custom-container
-        pb-10"
-      >
+      <div className="custom-container pb-10">
         <BlogsCarousel slides={blogs} />
-
       </div>
     </div>
   );

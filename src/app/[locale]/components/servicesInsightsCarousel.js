@@ -1,90 +1,19 @@
 "use client";
-
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
-
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../messages/en/solutions.json";
+import esContent from "../../../../messages/es/solutions.json";
+import frContent from "../../../../messages/fr/solutions.json";
+import { changeLocalization } from "./changeLocalization";
 
 export default function servicesInsightsCarousel({ padding }) {
-  const slides = [
-    // {
-    //   id: 1,
-    //   image: "/images/blog/blog-1-long-thumb.webp",
-    //   category: "Salesforce Agentforce",
-    //   industry: "Generic",
-    //   date: "30 Sept 2024",
-    //   url: '/how-salesforce-agentforce-actually-works',
-    //   title: "How Salesforce Agentforce Actually Works",
-    //   description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    // },
-    {
-      id: 2,
-      image: "/images/blog/blog-2-long-thumb.webp",
-      category: "Atlas Reasoning Engine",
-      industry: "Generic",
-      date: "21 Oct 2024",
-      url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
-      title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    },
-    // {
-    //   id: 3,
-    //   image: "/images/blog/blog-3-long-thumb.webp",
-    //   category: "Salesforce Agentforce",
-    //   industry: "Generic",
-    //   date: "28 Oct 2024",
-    //   url: '/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
-    //   title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    //   description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-    // },
-    {
-      id: 4,
-      image: "/images/blog/blog-4-long-thumb.webp",
-      category: "Agentforce Testing Center",
-      industry: "Generic",
-      date: "25 Nov 2024",
-      url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
-      title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    },
-    // {
-    //   id: 5,
-    //   image: "/images/blog/blog-5-long-thumb.webp",
-    //   category: "SAP SuccessFactors",
-    //   industry: "Human Resources",
-    //   date: "24 Dec 2024",
-    //   url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
-    //   title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    //   description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    // },
-    {
-      id: 6,
-      image: "/images/blog/blog-8-long-thumb.webp",
-      category: "Athenahealth + Salesforce Integration",
-      industry: "HealthCare",
-      date: "17 Sept 2024",
-      url: 'insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration',
-      title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-    },
-    // {
-    //   id: 7,
-    //   image: "/images/blog/blog-6-long-thumb.webp",
-    //   category: "SAP SuccessFactors",
-    //   industry: "Human Resources",
-    //   date: "17 Sept 2024",
-    //   url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    //   title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    //   description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    // },
-    {
-      id: 11,
-      image: "/images/blog/blog-12-long-thumb.webp",
-      category: "Integrate Agentforce with Your ERP",
-      industry: "Generic",
-      date: "17 Sept 2024",
-      url: 'insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai',
-      title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-    },
-  ];
+  const t = useTranslations("salesForceConsulting");
+  const locale = useLocale();
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { slides } = content.salesForceConsulting;
 
   const responsive = {
     desktop: {
@@ -109,14 +38,14 @@ export default function servicesInsightsCarousel({ padding }) {
     const { carouselState: { currentSlide } } = rest;
     return (
       <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4 ">
-        <button   aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
-          <span className="sr-only">Previous slide</span>
+        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+          <span className="sr-only">{t('previousSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
-        <button   aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
-          <span className="sr-only">Next slide</span>
+        <button aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <span className="sr-only">{t('nextSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
           </svg>
@@ -134,22 +63,21 @@ export default function servicesInsightsCarousel({ padding }) {
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-        aria-label="Custom Dots"
-
-      />
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+        />
       </li>
-   );
+    );
   };
 
   return (
     <section className="relative pb-8 bg-white">
       <div className={"container mx-auto " + padding ? padding : ''}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[60px] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Insights</h2>
+          <h2 className="text-black mb-[60px] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('insights')}</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -198,7 +126,7 @@ export default function servicesInsightsCarousel({ padding }) {
                 <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[18px] xl:text-[22px] 4xl:text-[26px] leading-tight">{slide.category}</span>
                 <div className="flex flex-col justify-between">
                   <p className="line-clamp-4 mb-4">{slide.title}</p>
-                  <Link tabIndex={-1} href={'/' + slide.url}><span className="font-medium">Learn more &#8594;</span></Link>
+                  <Link tabIndex={-1} href={'/' + slide.url}><span className="font-medium">{t('learnMore')} &#8594;</span></Link>
                 </div>
               </div>
             </div>

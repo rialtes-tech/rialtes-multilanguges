@@ -6,10 +6,13 @@ import Carousel from "react-multi-carousel";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
+import frContent from '../../../../messages/fr/homepage.json';
+
+import { changeLocalization } from "./changeLocalization";
 export default function servicesFeaturedCarousel() {
   const t = useTranslations('featuredCarousel')
   const locale = useLocale();
-  const homepageContent = locale === 'es' ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slides } = homepageContent.featuredCarousel;
   const responsive = {
     desktop: {
@@ -164,7 +167,7 @@ export default function servicesFeaturedCarousel() {
                     <Link tabIndex={-1}
                       href={slide.url}
                       className="font-medium text-[#0092E0] xl:text-[24px] text-[16px]">
-                     {t('knowMoreTitle')}
+                      {t('knowMoreTitle')}
                     </Link>
                   </div>
                 </div>

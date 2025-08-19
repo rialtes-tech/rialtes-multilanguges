@@ -13,7 +13,10 @@ import Script from 'next/script';
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../messages/en/homepage.json';
 import esContent from '../../../messages/es/homepage.json';
+import frContent from '../../../messages/fr/homepage.json';
+
 import dynamic from 'next/dynamic';
+import { changeLocalization } from './components/changeLocalization';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -38,7 +41,7 @@ const schemaData = {
 const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
-    const homepageContent = locale === 'es' ? esContent : enContent;
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { carouselData, successStoryData } = homepageContent.homePage;
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
