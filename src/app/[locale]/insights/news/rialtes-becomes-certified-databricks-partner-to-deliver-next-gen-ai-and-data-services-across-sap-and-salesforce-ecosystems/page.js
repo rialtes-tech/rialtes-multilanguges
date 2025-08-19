@@ -3,9 +3,11 @@ import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 import enContent from "../../../../../../messages/en/insight.json";
 import esContent from "../../../../../../messages/es/insight.json";
-import UnorderedList from "@/app/[locale]/components/unorderedList";
+import frContent from '../../../../../../messages/fr/insight.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -40,9 +42,9 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("newsDataBricks");
   const locale = useLocale();
-  const newsDataBricksContent = locale === "es" ? esContent : enContent;
-  const { paragraphs, paragraphsEnd, listItems } =
-    newsDataBricksContent.newsDataBricks;
+  const newsDataBricksContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const {  paragraphs, paragraphsEnd, listItems } =newsDataBricksContent.newsDataBricks;
+  
 
   const fullUrl =
     "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems";
