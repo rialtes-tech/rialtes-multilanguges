@@ -2,14 +2,14 @@
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
-
 import Image from "next/image";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function DemandPlusSection() {
 const t = useTranslations("tosca");

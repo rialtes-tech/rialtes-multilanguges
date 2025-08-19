@@ -3,11 +3,13 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import React from "react";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 export default function page() {
     const schemaData = {
@@ -105,7 +107,7 @@ export default function page() {
     }
     const t = useTranslations('sapCpi')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { thoughtLeadershipData, endToEndData, specializedData, integrationData, commonSectionsData, whyRialtesData, } = content.sapCpi;
     return (
         <section className="min-h-screen">
@@ -164,18 +166,18 @@ export default function page() {
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
                         <div className=" lg:block hidden">
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
-                                {t('pageDescTitle1')}   <br />{t('pageDescTitle2')}  <br />{t('pageDescTitle3')} 
+                                {t('pageDescTitle1')}   <br />{t('pageDescTitle2')}  <br />{t('pageDescTitle3')}
                             </h2>
                         </div>
                         <div className="block lg:hidden">
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
-                                {t('pageDescSubTitle')} 
+                                {t('pageDescSubTitle')}
                             </h2>
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
                         <p className="xl:text-[22px] text-[16px] leading-tight">
-                            {t('pageDesc')}   
+                            {t('pageDesc')}
                         </p>
                     </div>
                 </div>
@@ -210,17 +212,17 @@ export default function page() {
                     <div className="col-span-6 lg:col-span-5 xl:col-span-6 3xl:col-span-5 4xl:col-span-6">
                         <div className="md:bg-[#073259] md:mix-blend-hard-light bg-[#0A6BB8]/90 text-[#ffffff] xl:pt-[52px] pt-[29px] xl:pb-[40px] pb-[47px] xl:px-[63px] px-[23px]">
                             <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light md:w-[50%]">
-                                {t('thoughtTitle')}  
+                                {t('thoughtTitle')}
                             </h2>
                             <h3 className="xl:text-[28px] 4xl:text-[36px] text-[20px] mt-[14px] xl:mt-[27px] leading-tight font-semibold">
-                                {t('thoughtSubTitle')}   
+                                {t('thoughtSubTitle')}
                             </h3>
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[27px] mt-[14px] font-normal">
-                                {t('thoughtDesc')}    
+                                {t('thoughtDesc')}
                             </p>
                             <UnorderedList arrName={thoughtLeadershipData} ulClassName="list-disc xl:mt-[27px] mt-[22px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight" />
                             <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[33px] mt-[22px] font-normal">
-                                {t('thoughtDesc2')}    
+                                {t('thoughtDesc2')}
                             </p>
                         </div>
                     </div>
@@ -230,7 +232,7 @@ export default function page() {
             <section className="xl:mt-[189px] mt-[90px] custom-container" >
                 <div className="lg:mr-[80px] sm:mr-[60px] md:mr-0 border border-[#707070] lg:pl-[46px] xl:pr-[60px] 4xl:pr-[100px] sm:px-[36px] px-[28px] xl:pb-[75px] pb-[80px]">
                     <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[80%] bg-[#ffffff] mt-[-40px] xl:mt-[-50px]">
-                        {t('endToEndTitle')}       
+                        {t('endToEndTitle')}
                     </h2>
                     <div className="relative grid md:grid-cols-2 grid-cols-1 xl:mt-[62px] mt-[42px] gap-y-[48px] xl:gap-y-[89px] md:gap-[60px]">
                         {
@@ -269,7 +271,7 @@ export default function page() {
             {/* specialized SAP section */}
             <section className="custom-container xl:mt-[168px] mt-[89px]">
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[70%] md:w-[50%] xl:w-[52%] 4xl:w-[70%]">
-                    {t('specializedTitle')}   
+                    {t('specializedTitle')}
                 </h2>
                 <div className="xl:mt-[92px] mt-[43px] space-y-[97px] lg:space-y-[153px]">
                     {
@@ -289,13 +291,13 @@ export default function page() {
                                         <div className="grid lg:grid-cols-2 grid-cols-1 xl:mt-[56px] mt-[32px] md:gap-x-[20px] gap-y-[34px] ">
                                             <div>
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
-                                                    {t('keyTitle')}    
+                                                    {t('keyTitle')}
                                                 </p>
                                                 <UnorderedList arrName={data.keyData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
                                             <div>
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
-                                                    {t('benefitsTitle')}   
+                                                    {t('benefitsTitle')}
                                                 </p>
                                                 <UnorderedList arrName={data.businessData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
@@ -365,13 +367,13 @@ export default function page() {
                         <div className="col-span-6 xl:col-span-6">
                             <div className="bg-[#ffffff]/20 md:bg-[#ffffff]/50 text-[#000000] px-[36px] lg:pt-[76px] pt-[45px] md:pb-[91px] pb-[109px] md:pl-[43px] md:pr-[63px]">
                                 <h2 className="xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
-                                    {t('integrationTitle')}  
+                                    {t('integrationTitle')}
                                 </h2>
                                 <h3 className="xl:text-[26px] 4xl:text-[36px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
-                                    {t('integrationSubTitle')}     
+                                    {t('integrationSubTitle')}
                                 </h3>
                                 <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[44px] mt-[19px] font-normal">
-                                    {t('integrationDesc')}    
+                                    {t('integrationDesc')}
                                 </p>
                                 <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
@@ -529,7 +531,7 @@ export default function page() {
                         <div className="col-span-6 lg:col-span-6 3xl:col-span-5">
                             <div className="bg-[#006FBE] text-[#ffffff] lg:ml-[60px] xl:pt-[60px] xl:px-[50px] xl:pb-[90px] pt-[29px] lg:px-[36px] px-[24px] pb-[65px]">
                                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
-                                    {t('whyRialtesTitle')}     
+                                    {t('whyRialtesTitle')}
                                 </h2>
                                 <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">

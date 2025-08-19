@@ -5,11 +5,13 @@ import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import ContactForm from "../../../components/contactform";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -67,8 +69,8 @@ export default function Page() {
   const t = useTranslations("sapBdc");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { listItems,fabricList,dataItems,partnerList ,exploreData ,migrateData,connectSapData,ourSapData,whyClientsData} = homepageContent.sapBdc;
- 
+  const { listItems, fabricList, dataItems, partnerList, exploreData, migrateData, connectSapData, ourSapData, whyClientsData } = homepageContent.sapBdc;
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -112,7 +114,7 @@ export default function Page() {
               {t('headerTitle')}
             </h3>
             <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
-           {t('headerSubtitle')}
+              {t('headerSubtitle')}
             </h1>
           </div>
         </div>
@@ -121,16 +123,16 @@ export default function Page() {
       <section className="mt-16">
         <section className="custom-container">
           <h2 className="4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-           {t('unifyTitle')}
+            {t('unifyTitle')}
           </h2>
           <p className=" xl:w-[67%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight ">
-           {t('unifyDesc')}
+            {t('unifyDesc')}
 
           </p>
           <div className="flex xl:gap-32 gap-10 flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%]">
             <div className="lg:w-1/2">
               <UnorderedList
-               arrName={listItems}
+                arrName={listItems}
                 ulClassName="list-disc text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium space-y-4"
                 liClassName=""
               />
@@ -171,7 +173,7 @@ export default function Page() {
                 {t('dataSubtitleOne')}
               </p>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px]  mt-4 lg:pr-[56px] leading-tight">
-               {t('dataSubtitleTwo')}
+                {t('dataSubtitleTwo')}
               </p>
               <div className="xl:mt-[59px] mt-[22px]">
                 <LearnMore />
@@ -206,15 +208,15 @@ export default function Page() {
           </div>
           <div className="xl:col-span-6 bg-[#006FBE] p-8 xl:p-[75px] px-10 text-white order-2 xl:order-1 relative">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-            {t('fabricTitle')}
+              {t('fabricTitle')}
             </h2>
             <h3 className="4xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
-            {t('fabricSubtitle')}</h3>
+              {t('fabricSubtitle')}</h3>
             <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-             {t('fabricDesc')}
+              {t('fabricDesc')}
             </p>
             <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-            {t('fabricPara')}</p>
+              {t('fabricPara')}</p>
             <UnorderedList
               arrName={fabricList}
               ulClassName="list-disc space-y-4 p-4 text-[#FFFFFF] font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"
@@ -252,7 +254,7 @@ export default function Page() {
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
             <div className="text-left lg:w-[40%] flex pt-[59px] flex-col">
               <h2 className="leading-tight xl:w-[78%] 2xl:w-[75%] 4xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">
-              {t('sapTitle')}</h2>
+                {t('sapTitle')}</h2>
               <div className="lg:mt-[80px]">
                 <Link
                   href="/contact-us"
@@ -264,7 +266,7 @@ export default function Page() {
             </div>
             <div className="lg:w-[60%] mt-6  lg:relative bottom-0 lg:bottom-[-50px] max-md:pb-10 max-lg:mb-10">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-9 z-90">
-               {dataItems.map((item, index) => (
+                {dataItems.map((item, index) => (
                   <div
                     key={index}
                     className=" bg-white border border-[#707070] p-8 xl:py-[3.5rem] text-black"
@@ -303,9 +305,9 @@ export default function Page() {
           </div>
           <div className="order-2 lg:order-1 lg:col-span-7">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] lg:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
-             {t('partnerTitle')}</h2>
+              {t('partnerTitle')}</h2>
             <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] lg:mt-[33px] lg:pr-20">
-             {t('partnerDesc')}
+              {t('partnerDesc')}
             </p>
             <div>
               <UnorderedList
@@ -323,10 +325,10 @@ export default function Page() {
         {/* Seamless Migration from SAP section */}
         <section className="custom-container  px-[2rem]">
           <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-           {t('migrationTitle')}
+            {t('migrationTitle')}
           </h2>
           <p className=" xl:w-[75%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-             {t('migrationPara')}</p>
+            {t('migrationPara')}</p>
           <div className="grid grid-cols-1 lg:grid-cols-4 lg:mt-[53px] mt-[36px]">
             {exploreData.map((data, ind) => {
               const isFirstThree = ind === 0 || ind === 1 || ind === 2;
@@ -363,15 +365,14 @@ export default function Page() {
                       {t('migrateTitle')}
                     </h2>
                     <p className="mt-5  text-[#FFFFFF] font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] ">
-                    {t('migrateDesc')}
+                      {t('migrateDesc')}
                     </p>
                     <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4 leading-tight">
                       {migrateData.map((step, index) => (
                         <li
                           key={index}
-                          className={`${
-                            index !== migrateData.length - 1 ? "pb-1" : ""
-                          }`}
+                          className={`${index !== migrateData.length - 1 ? "pb-1" : ""
+                            }`}
                         >
                           <div className="font-semibold">{step.title}</div>
                           <div className="font-light">{step.description}</div>
@@ -441,7 +442,7 @@ export default function Page() {
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 h-full px-4 py-10 text-white max-md:pb-[22rem] ">
               <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%] xl:w-[75%]  ">
                 <h2 className="leading-tight pb-6 text-black  4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
-               {t('databricksTitle')}</h2>
+                  {t('databricksTitle')}</h2>
                 <p className="mt-4 text-black  font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                   {t('databricksDesc')}
                 </p>
@@ -493,7 +494,7 @@ export default function Page() {
                   >
                     <div style={{ opacity: 1, color: "#FFFFFF" }}>
                       <h2 className="mb-4 leading-tight  4xl:text-[56px] xl:text-[40px] md:text-[26px]">
-                     {t("dataCloud")}
+                        {t("dataCloud")}
                       </h2>
                       <ul className="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4">
                         {ourSapData.map((item, index) => (

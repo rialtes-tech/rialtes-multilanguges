@@ -6,10 +6,11 @@ import ExploreMoreCarousel from "../../../components/servicesExploreMoreCarousel
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../messages/es/solutions.json";
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -114,8 +115,8 @@ const schemaData = {
 export default function HealthCloud() {
   const t = useTranslations("revenueCloud");
   const locale = useLocale();
-  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { revenueStats, salesForce, salesForce2 } =homepageContent.revenueCloud;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { revenueStats, salesForce, salesForce2 } = content.revenueCloud;
 
   return (
     <section>

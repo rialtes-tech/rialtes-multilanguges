@@ -5,10 +5,13 @@ import { useRef } from 'react';
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
+import frContent from '../../../../messages/fr/homepage.json';
+import { changeLocalization } from './changeLocalization';
+
 export default function servicesInsightsCarousel() {
   const t = useTranslations('useCarouselComponent')
   const locale = useLocale();
-  const homepageContent = locale === 'es' ? esContent : enContent;
+  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { slides } = homepageContent.useCarouselComponent;
   const carouselRef = useRef(null);
 

@@ -529,7 +529,7 @@ const Header = () => {
                             <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Mulesoft')} link="/solutions/integration/mulesoft-salesforce" onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAP CPI')} link="/solutions/integration/sap-cloud-platform-integration-consulting" onClick={(e) => handleLinkClick(e, "/solutions/integration/sap-cloud-platform-integration-consulting")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPCPI')} link="/solutions/integration/sap-cloud-platform-integration-consulting" onClick={(e) => handleLinkClick(e, "/solutions/integration/sap-cloud-platform-integration-consulting")} />
                           </div>
                           <div>
                           </div>

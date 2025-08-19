@@ -3,12 +3,14 @@ import ServiceCard from "./ServiceCard";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../../messages/es/solutions.json";
+import frContent from "../../../../../../../messages/fr/solutions.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 const ServiceSection = () => {
   const t = useTranslations("mulesoft");
   const locale = useLocale();
-  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { cardData } = homepageContent.mulesoft;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { cardData } = content.mulesoft;
   return (
     <div className="custom-container ">
       <div className="lg:mb-[67px] mb-6 md:max-w-[80%] 2xl:w-[74%] 4xl:w-[80%] max-w-full">

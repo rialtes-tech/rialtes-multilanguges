@@ -9,16 +9,17 @@ import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import React from "react";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../messages/es/solutions.json";
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function SalesForceConsulting() {
   const t = useTranslations("salesForceConsulting");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const {salesForce,salesForceProduct,businessDetails,growthData} = homepageContent.salesForceConsulting;
+  const { salesForce, salesForceProduct, businessDetails, growthData } = homepageContent.salesForceConsulting;
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",

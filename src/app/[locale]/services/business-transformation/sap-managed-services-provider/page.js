@@ -7,6 +7,8 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -74,7 +76,7 @@ const schemaData = {
 export default function Page() {
     const t = useTranslations('sapDigitalDesk')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { sapCertificationData, sapCertificationData2, sapFeatureGrid, futureData, revolutionizeData, unleashData, seamlessData
         , codeData, intelligentData, winningSectionData, sapAribaData, sapDatasphereData, sapTransformationSteps, superchargeData, btpData
         , migrateData1, migrateData2, whyPartnerData, rialtesTwentyData1, rialtesTwentyData2, onsiteDeliveryData, onsiteDeliveryData2, projectPartnershipData } = content.sapDigitalDesk;

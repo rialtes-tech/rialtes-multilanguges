@@ -5,15 +5,16 @@ import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 
 export default function () {
     const t = useTranslations('datasphere')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { whyrialtessectiondata, industryAcceleratorsData, buildIntelligentData, intelligentData, aiPoweredData, educationSectionData, omniSectionData, aiReadyData
         , sapHanaData, sapAribaData, sapSuccessData, salesforcesapData, advancedData, aiPoweredUseData, globalPresenceData
     } = content.datasphere;

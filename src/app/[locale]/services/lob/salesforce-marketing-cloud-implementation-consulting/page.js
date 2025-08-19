@@ -4,11 +4,12 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -112,7 +113,7 @@ const schemaData = {
 export default function Page() {
     const t = useTranslations('advantagePlus')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { latestServices, moreSalesforce, deepData1, deepData2, marketingFeatures, aiMarketingData, agentChatData, yourGrowthData } = content.advantagePlus;
     const ServicesCard = ({ services }) => (
         <div className="flex flex-col border border-[#707070] p-6 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">

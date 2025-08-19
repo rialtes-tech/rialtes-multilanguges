@@ -1,6 +1,5 @@
 "use client";
 import Seo from "@/app/[locale]/components/Seo";
-
 import Image from "next/image";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -8,7 +7,6 @@ import enContent from "../../../../../../messages/en/insight.json";
 import esContent from "../../../../../../messages/es/insight.json";
 
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "mainEntityOfPage": {
@@ -37,10 +35,10 @@ const schemaData = {
 }
 
 export default function Page() {
-const t = useTranslations("newsElite");
+  const t = useTranslations("newsElite");
   const locale = useLocale();
   const newsEliteContent = locale === "es" ? esContent : enContent;
-  const {  } =newsEliteContent.newsElite;
+  const { } = newsEliteContent.newsElite;
 
   const fullUrl = "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner";
 
@@ -51,8 +49,8 @@ const t = useTranslations("newsElite");
         canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
         description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
       />
-  
-         <Script
+
+      <Script
         id="schema-rialtes-joins"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -130,7 +128,7 @@ const t = useTranslations("newsElite");
           <div className="py-3"></div>
           <div className="">
             <p className="text-black  xl:text-[22px] text-[18px]">
-             {t('rialtesOne')} <strong>{t('rialtesTwo')}</strong>{t('rialtesThree')} </p>
+              {t('rialtesOne')} <strong>{t('rialtesTwo')}</strong>{t('rialtesThree')} </p>
 
             <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('crest')}</p>
 
@@ -139,10 +137,10 @@ const t = useTranslations("newsElite");
             <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('reseller')}</p>
 
             <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('visitOne')}<a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> {t('visitTwo')}<span className="text-blue-600">pr@rialtes.com </span></p>
-          </div>
+          </div >
 
-        </div>
-      </section>
-    </div>
+        </div >
+      </section >
+    </div >
   );
 }

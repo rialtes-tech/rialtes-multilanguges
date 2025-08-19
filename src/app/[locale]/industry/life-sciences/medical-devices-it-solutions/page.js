@@ -5,11 +5,12 @@ import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
+import frContent from '../../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -98,7 +99,7 @@ const schemaData = {
 export default function Page() {
     const t = useTranslations('medicalDevices')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { thoughLeadershipData, whyPartnerData, challenges, salesforceLifeData, sapData, keyAiData, benefitsofAi, patientData, integratedData, mobileData, remoteDeviceData, salesforceAgentData, realTimeData } = content.medicalDevices
     const CriticalChallengesSection = () => {
 

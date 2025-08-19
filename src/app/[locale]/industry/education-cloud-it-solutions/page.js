@@ -4,12 +4,13 @@ import ContactForm from "../../components/contactform";
 import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Seo from "../../components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -97,44 +98,44 @@ const schemaData = {
   }
 }
 export default function Page() {
-   const t = useTranslations("education");
-      const locale = useLocale();
-      const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-      const {latestServices2,keyIndustryData,approachData,studentLeadData,selectionData,studentData,hyperData,lifelongData,selfData,s4HanaData,dynamicData,unifiedData,empoweringData,educationSolutions} = realContent.education;
+  const t = useTranslations("education");
+  const locale = useLocale();
+  const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions } = realContent.education;
 
   const Services2 = () => {
-  return (
-    <div className="mx-auto text-black">
-      <h2 className="text-black mb-6 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[35px] text-[26px] max-[350px]:text-[22px] leading-tight">
-       {t('rialtesTitle')}
-      </h2>
-      <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[36px] md:text-[26px] max-[390px]:text-[20px] xl:font-bold  font-medium mt-5 text-[22px] pr-10 xl:pr-0">
-         {t('rialtesSubtitle')}
-      </h3>
-      <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] w-full pr-4 xl:pr-0 font-light leading-tight">
-        {t('rialtesDesc')}
-      </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-8 mt-10">
-        {latestServices2.map((services) => (
-          <ServicesCard key={services.id} services={services} />
-        ))}
+    return (
+      <div className="mx-auto text-black">
+        <h2 className="text-black mb-6 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[35px] text-[26px] max-[350px]:text-[22px] leading-tight">
+          {t('rialtesTitle')}
+        </h2>
+        <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[36px] md:text-[26px] max-[390px]:text-[20px] xl:font-bold  font-medium mt-5 text-[22px] pr-10 xl:pr-0">
+          {t('rialtesSubtitle')}
+        </h3>
+        <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] w-full pr-4 xl:pr-0 font-light leading-tight">
+          {t('rialtesDesc')}
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-8 mt-10">
+          {latestServices2.map((services) => (
+            <ServicesCard key={services.id} services={services} />
+          ))}
+        </div>
+        <LearnMore />
       </div>
-      <LearnMore />
+    );
+  };
+  const ServicesCard = ({ services }) => (
+    <div className="w-full h-full flex flex-col border border-[#707070] py-10 px-6 2xl:p-14 xl:p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
+      <div className="flex-grow flex flex-col">
+        <h3 className="mb-[15px] md:mb-[25px] 4xl:text-[24px] 2xl:text-[20px] xl:text-[18px]  text-[20px] max:[400px]:text-[18px] font-semibold leading-tight">
+          {services.title}
+        </h3>
+        <p className="md:mb-[15px] mb-0 4xl:text-[20px] 2xl:text-[17px] xl:text-[15px] md:text-[17px] text-[16px] leading-tight font-light">
+          {services.description}
+        </p>
+      </div>
     </div>
   );
-};
-const ServicesCard = ({ services }) => (
-  <div className="w-full h-full flex flex-col border border-[#707070] py-10 px-6 2xl:p-14 xl:p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
-    <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] 4xl:text-[24px] 2xl:text-[20px] xl:text-[18px]  text-[20px] max:[400px]:text-[18px] font-semibold leading-tight">
-        {services.title}
-      </h3>
-      <p className="md:mb-[15px] mb-0 4xl:text-[20px] 2xl:text-[17px] xl:text-[15px] md:text-[17px] text-[16px] leading-tight font-light">
-        {services.description}
-      </p>
-    </div>
-  </div>
-);
 
 
   return (
@@ -178,13 +179,13 @@ const ServicesCard = ({ services }) => (
           <div className="grid xl:grid-cols-12 grid-cols-1  xl:mt-20  mt-[9rem]">
             <div className="xl:col-span-7 col-span-12">
               <h1 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
-                {t('headerTitle')} 
+                {t('headerTitle')}
               </h1>
               <h2 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[60px] xl:text-[50px] lg:text-[45px] text-[24px] ">
-                {t('headerSubTitle')} 
+                {t('headerSubTitle')}
               </h2>
               <h3 className="4xl:text-[45px] 2xl:text-[42px] xl:text-[38px] lg:text-[38px] xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
-                {t('headerSubTitleOne')} 
+                {t('headerSubTitleOne')}
               </h3>
             </div>
             <div className="xl:col-span-5 col-span-12"></div>
@@ -196,13 +197,13 @@ const ServicesCard = ({ services }) => (
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-11 col-span-12">
             <h2 className="4xl:text-[60px]  2xl:text-[56px] xl:text-[45px] lg:text-[40px] max-[400px]:text-[24px] mt-5 leading-tight 4xl:w-[1222px] 2xl:w-[1150px] xl:w-[900px] lg:w-[800px] md:text-[30px] text-[26px] ">
-               {t('educationTitle')}
+              {t('educationTitle')}
             </h2>
             <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[18px]  text-[16px] mt-10 lg:pr-32 leading-tight">
-             {t('educationDesc')} 
+              {t('educationDesc')}
             </p>
             <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[18px]  text-[16px] mt-5 xl:pr-32 leading-tight">
-           {t('educationDescOne')}
+              {t('educationDescOne')}
             </p>
           </div>
           <div className="xl:col-span-1 col-span-12"></div>
@@ -215,7 +216,7 @@ const ServicesCard = ({ services }) => (
             src="/images/education/TL.webp"
             alt="Thought Leadership image"
             fill
-            style={{ objectFit: "cover", objectPosition: "35% 20%" }} 
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
             sizes="100vw"
           />
@@ -235,16 +236,16 @@ const ServicesCard = ({ services }) => (
         <div className="relative xl:mt-16 mt-8 custom-container">
           <div className="xl:pt-16">
             <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[30px] text-[26px] max-[350px]:text-[22px]">
-             {t('thoughtTitle')} 
+              {t('thoughtTitle')}
             </h2>
             <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[36px]md:text-[30px]  max-[350px]:text-[18px] mt-5 xl:font-bold font-medium text-[22px] ">
-              {t('thoughtSubTitle')} 
+              {t('thoughtSubTitle')}
             </h3>
           </div>
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:pt-10 pt-5">
             <div className="xl:col-span-5 col-span-12">
               <h3 className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] text-[20px] font-bold max-[350px]:text-[18px]">
-                {t('industryTitle')} 
+                {t('industryTitle')}
               </h3>
               <UnorderedList
                 arrName={keyIndustryData}
@@ -254,7 +255,7 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="xl:col-span-5 col-span-12  bg-[#0A69B7] absolute xl:left-[44%] left-0 top-[40rem] max-[380px]:top-[44rem] md:left-[30px] md:top-[26rem] xl:top-[22rem] text-white p-10 pb-12  xl:w-[500px]">
               <h3 className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px]  text-[20px] font-bold ">
-                {t('approachTitle')} 
+                {t('approachTitle')}
               </h3>
               <UnorderedList
                 arrName={approachData}
@@ -311,13 +312,13 @@ const ServicesCard = ({ services }) => (
                 <div>
                   <div className="xl:pl-20 flex items-center xl:gap-5 gap-3">
                     <h3 className="4xl:text-[35px] mt-10 2xl:text-[32px] xl:text-[28px] text-[20px] font-bold  xl:pr-0 max-[350px]:text-[18px]">
-                    {t('journeySubtitleOne')}
+                      {t('journeySubtitleOne')}
                     </h3>
                   </div>
                 </div>
                 <div className="xl:pl-20 xl:pr-0 xl:pt-10 pt-5">
                   <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] md:text-[22px] text-[18px] xl:font-bold font-medium max-[350px]:text-[16px]">
-                   {t('leadTitle')}
+                    {t('leadTitle')}
                   </h3>
                   <UnorderedList
                     arrName={studentLeadData}
@@ -327,7 +328,7 @@ const ServicesCard = ({ services }) => (
                 </div>
                 <div className="xl:pl-20 pt-10">
                   <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] md:text-[22px] text-[18px] font-medium max-[350px]:text-[16px]">
-                  {t('selectionTitle')}
+                    {t('selectionTitle')}
                   </h3>
                   <UnorderedList
                     arrName={selectionData}
@@ -337,7 +338,7 @@ const ServicesCard = ({ services }) => (
                 </div>
                 <div className="xl:pl-20 flex items-center xl:gap-5 gap-3 mt-10">
                   <h3 className="4xl:text-[35px] 2xl:text-[32px] xl:text-[28px] text-[20px] font-bold max-[350px]:text-[18px]">
-                   {t('studentTitle')} 
+                    {t('studentTitle')}
                   </h3>
                 </div>
                 <div className="xl:pl-20  pt-5">
@@ -371,7 +372,7 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="bg-[#C4EBEA] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[8rem] xl:pt-[5rem]">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px] ">
-                  {t('hyperTitle')}
+                {t('hyperTitle')}
                 Cloud
               </h2>
               <UnorderedList
@@ -400,7 +401,7 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="bg-[#F7E2D4] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-16 mt-[-3rem]  custom-container">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight 4xl:w-[608px] 2xl:w-[590px] xl:w-[550px] max-[400px]:text-[25px] max-[350px]:text-[22px]">
-               {t('lifelongTitle')}
+                {t('lifelongTitle')}
               </h2>
               <UnorderedList
                 arrName={lifelongData}
@@ -433,10 +434,10 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="bg-[#D6CFCF] custom-container w-full xl:pr-12 xl:pb-20 pb-10 pt-[5rem] -mt-14">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px]">
-               {t('serviceTitle')}
+                {t('serviceTitle')}
               </h2>
               <h3 className="mt-10 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px] max-[400px]:text-[21px] pr-10 xl:pr-0">
-               {t('serviceSubtitle')}
+                {t('serviceSubtitle')}
               </h3>
               <UnorderedList
                 arrName={selfData}
@@ -464,10 +465,10 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="bg-[#E8DFC7] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-16 mt-[-3rem] custom-container">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px]  ">
-               {t('seamlessTitle')}
+                {t('seamlessTitle')}
               </h2>
               <h3 className="mt-10 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
-              {t('seamlessSubtitle')}
+                {t('seamlessSubtitle')}
               </h3>
               <UnorderedList
                 arrName={s4HanaData}
@@ -500,10 +501,10 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="bg-[#F1D8D9] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[6rem] xl:pt-[6rem] -mt-16">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px]  max-[400px]:text-[25px] max-[350px]:text-[20px] font-medium leading-tight pr-10">
-            {t('dynamicTitle')}
+                {t('dynamicTitle')}
               </h2>
               <h3 className="xl:mt-10 mt-5 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px] max-[350px]:text-[18px] max-[400px]:text-[21px]">
-              {t('dynamicSubtitle')}
+                {t('dynamicSubtitle')}
               </h3>
               <UnorderedList
                 arrName={dynamicData}
@@ -531,10 +532,10 @@ const ServicesCard = ({ services }) => (
             </div>
             <div className="bg-[#C7E8E9] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-16 mt-[-3rem] custom-container">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px]   max-[350px]:text-[20px]  font-medium  leading-tight">
-            {t('unifiedTitle')}
+                {t('unifiedTitle')}
               </h2>
               <h3 className="xl:mt-10 mt-5 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
-             {t('unifiedSubtitle')}
+                {t('unifiedSubtitle')}
               </h3>
               <UnorderedList
                 arrName={unifiedData}
@@ -568,10 +569,10 @@ const ServicesCard = ({ services }) => (
 
             <div className="bg-[#C4E2FF] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[7rem] xl:pt-[6rem] -mt-16">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px]  max-[400px]:text-[25px] max-[350px]:text-[20px]  font-medium leading-tight  xl:pr-0">
-                 {t('empoweringTitle')} 
+                {t('empoweringTitle')}
               </h2>
               <h3 className="mt-5 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
-                 {t('empoweringSubtitle')} 
+                {t('empoweringSubtitle')}
               </h3>
               <UnorderedList
                 arrName={empoweringData}
@@ -623,14 +624,14 @@ const ServicesCard = ({ services }) => (
               </div>
               <div className="md:col-span-4 col-span-12 mt-10 md:mt-0">
                 <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[20px] md:text-[18px] text-[16px]  xl:pr-0 leading-tight font-light">
-                 {t('agentchatDesc')}
+                  {t('agentchatDesc')}
                 </p>
               </div>
             </div>
-            
+
             <div className="xl:mt-20 mt-10">
               <h3 className="2xl:text-[30px] xl:text-[28px] md:text-[26px] text-[24px]">
-                 {t('keyTitle')}
+                {t('keyTitle')}
               </h3>
               <div className="flex flex-col md:flex-row xl:flex-row mt-10 xl:gap-20 gap-8 mb-16">
                 <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2">
@@ -664,7 +665,7 @@ const ServicesCard = ({ services }) => (
                   />
                   <div className="mt-4 xl:mt-0 xl:ml-12">
                     <h3 className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] md:text-[22] text-[20px] pr-16 xl:pr-0 xl:text-left leading-tight ">
-                       {t('aiTitle')}
+                      {t('aiTitle')}
                     </h3>
                     <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px] mt-3  xl:pr-0  xl:text-left leading-tight font-light">
                       {t('aiDesc')}
@@ -704,29 +705,29 @@ const ServicesCard = ({ services }) => (
                   />
                   <div className="mt-4 xl:mt-0 xl:ml-12">
                     <h3 className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] md:text-[22] text-[20px] pr-16 xl:pr-0 xl:text-left leading-tight">
-                       {t('insightsTitle')}
+                      {t('insightsTitle')}
                     </h3>
                     <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px] mt-3  xl:pr-0 xl:text-left leading-tight font-light">
-                     {t('insightsDesc')}
+                      {t('insightsDesc')}
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
+
         </div>
-<div className="relative">
-        <div className="h-full xl:mr-[142px] custom-container z-40">
-          <p className=" 4xl:text-[26px] 2xl:text-[22px]  xl:text-[18px] md:text-[20px]  text-[18px] bg-[#0C8AD4]  p-5 xl:p-8  pl-6  text-white max-[360px]:mt-[-70px] max-[414px]:mt-0 mt-[15px] md:mt-[-50px] xl:mt-[-55px] 4xl:mt-[-65px]  xl:w-[80%] leading-tight font-light max-[400px]:text-[17px] ">
-            {t('withDesc')}
-          </p>
-        </div>
-        <div className="mt-10 custom-container ">
-          <button className="bg-[#134874]  hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 text-[16px] xl:text-[22px] px-8 transition duration-300 order-4 mt-6">
-            <Link href="/products/agentchat">   {t('knowMore')}</Link>
-          </button>
-        </div>
+        <div className="relative">
+          <div className="h-full xl:mr-[142px] custom-container z-40">
+            <p className=" 4xl:text-[26px] 2xl:text-[22px]  xl:text-[18px] md:text-[20px]  text-[18px] bg-[#0C8AD4]  p-5 xl:p-8  pl-6  text-white max-[360px]:mt-[-70px] max-[414px]:mt-0 mt-[15px] md:mt-[-50px] xl:mt-[-55px] 4xl:mt-[-65px]  xl:w-[80%] leading-tight font-light max-[400px]:text-[17px] ">
+              {t('withDesc')}
+            </p>
+          </div>
+          <div className="mt-10 custom-container ">
+            <button className="bg-[#134874]  hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 text-[16px] xl:text-[22px] px-8 transition duration-300 order-4 mt-6">
+              <Link href="/products/agentchat">   {t('knowMore')}</Link>
+            </button>
+          </div>
         </div>
       </section>
       {/* related section */}
@@ -760,7 +761,7 @@ const ServicesCard = ({ services }) => (
               </div>
               <div className="xl:col-span-5 col-span-12 text-black">
                 <h2 className="4xl:text-[60px] 2xl:text-[54px] xl:text-[45px] lg:text-[45px]md:text-[30px] text-[26px] max-[350px]:text-[22px] font-light mb-8 mt-10 xl:mt-0">
-                 {t('relatedTitle')}
+                  {t('relatedTitle')}
                 </h2>
                 <div className="space-y-10">
                   {educationSolutions.map((item, index) => (
@@ -774,7 +775,7 @@ const ServicesCard = ({ services }) => (
                       <p className="text-gray-700 mt-2 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[17px] xl:pr-0">
                         {item.description}
                       </p>
-                      {index !==educationSolutions.length - 1 && (
+                      {index !== educationSolutions.length - 1 && (
                         <hr className="mt-8 border-gray-300 border-1" />
                       )}
                     </div>
@@ -788,9 +789,9 @@ const ServicesCard = ({ services }) => (
       {/* Contact Form */}
       <div className="custom-container text-black xl:py-20 pb-10">
         <ContactForm
-          title=  {t('contactTitle')} 
-          subtitle=  {t('contactSubTitle')} 
-          subtitle1=  {t('contactSubtitleOne')} 
+          title={t('contactTitle')}
+          subtitle={t('contactSubTitle')}
+          subtitle1={t('contactSubtitleOne')}
           className={
             "max-w-[62rem] leading-tight  4xl:text-[60px]  2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[30px] text-[26px] max-[400px]:text-[24px]"
           }

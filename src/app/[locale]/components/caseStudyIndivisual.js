@@ -4,17 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
-import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../messages/en/industry.json';
-import esContent from '../../../../messages/es/industry.json';
-
+import { useTranslations } from "next-intl";
 export default function servicesFeaturedCarousel({ slides }) {
-     const t = useTranslations("caseStudyIndivisual");
-        const locale = useLocale();
-        const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-        const {} = homepageContent.caseStudyIndivisual;
-
-  
+  const t = useTranslations("caseStudyIndivisual");
 
   const responsive = {
     desktop: {
@@ -63,13 +55,13 @@ export default function servicesFeaturedCarousel({ slides }) {
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-         aria-label="Custom Dots"
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
 
-      />
+        />
       </li>
     );
   };

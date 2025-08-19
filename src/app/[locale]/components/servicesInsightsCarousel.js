@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
@@ -7,12 +6,14 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../messages/en/solutions.json";
 import esContent from "../../../../messages/es/solutions.json";
+import frContent from "../../../../messages/fr/solutions.json";
+import { changeLocalization } from "./changeLocalization";
 
 export default function servicesInsightsCarousel({ padding }) {
-    const t = useTranslations("salesForceConsulting");
-    const locale = useLocale();
-    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const {slides} = homepageContent.salesForceConsulting;
+  const t = useTranslations("salesForceConsulting");
+  const locale = useLocale();
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { slides } = content.salesForceConsulting;
 
   const responsive = {
     desktop: {
@@ -37,13 +38,13 @@ export default function servicesInsightsCarousel({ padding }) {
     const { carouselState: { currentSlide } } = rest;
     return (
       <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4 ">
-        <button   aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
+        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <span className="sr-only">{t('previousSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
-        <button   aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+        <button aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
           <span className="sr-only">{t('nextSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
@@ -62,15 +63,14 @@ export default function servicesInsightsCarousel({ padding }) {
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-        aria-label="Custom Dots"
-
-      />
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+        />
       </li>
-   );
+    );
   };
 
   return (

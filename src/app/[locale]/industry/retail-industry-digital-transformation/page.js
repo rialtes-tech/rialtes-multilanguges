@@ -3,15 +3,16 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 export default function retailPage() {
     const t = useTranslations('retailIndustry')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { newRealityData, chooseRialtesData, fashionRetailData, loyaltyData, frictionlessData, rightData, aiPoweredRetailData,
         fastData, proprietaryData, aiPoweredCustomerData, actionableData, hyperPersonalizationData, realTimeData } = content.retailIndustry
     const schemaData = {

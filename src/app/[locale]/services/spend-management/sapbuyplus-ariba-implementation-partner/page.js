@@ -2,14 +2,15 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
-import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -89,7 +90,7 @@ const schemaData = {
 export default function page() {
     const t = useTranslations('sapBuyPlus')
     const locale = useLocale();
-    const homepageContent = locale === 'es' ? esContent : enContent;
+    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { whyChooseData, benefitsData, migrationData, sapAribaIndirectData, sapAribaDirectData, sapAribaData, supplierAribaDirectData, contractData,
         exploreData, seamlessData, buyingData, agentData
     } = homepageContent.sapBuyPlus;

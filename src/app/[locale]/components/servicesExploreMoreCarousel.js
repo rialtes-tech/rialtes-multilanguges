@@ -6,6 +6,9 @@ import Carousel from 'react-multi-carousel';
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
+import frContent from '../../../../messages/fr/homepage.json';
+import { changeLocalization } from "./changeLocalization";
+
 
 export default function servicesExploreMoreCarousel() {
   const t = useTranslations("exploreMore");

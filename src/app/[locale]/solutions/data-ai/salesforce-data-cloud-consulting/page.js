@@ -4,11 +4,13 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -96,7 +98,7 @@ const schemaData = {
 export default function DataCloud() {
   const t = useTranslations('salesforceDataCloud')
   const locale = useLocale();
-  const cloudContent = locale === 'es' ? esContent : enContent;
+  const cloudContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { featureBoxes, stats, services } = cloudContent.salesforceDataCloud;
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const handleMouseEnter = (blogName) => {

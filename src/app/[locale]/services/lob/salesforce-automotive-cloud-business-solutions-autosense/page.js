@@ -7,8 +7,9 @@ import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
+import frContent from '../../../../../../messages/fr/services.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -90,7 +91,7 @@ const schemaData = {
 export default function page() {
     const t = useTranslations('autoSense')
     const locale = useLocale();
-    const content = locale === 'es' ? esContent : enContent;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData} = content.autoSense;
     const KeyPillarsSectionDesign = () => {
         return (

@@ -1,5 +1,4 @@
 "use client";
-// pages/insights.js
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
@@ -7,12 +6,12 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-import { HeroSection } from "../components/herosection";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../messages/en/insight.json';
 import esContent from '../../../../messages/es/insight.json';
+import frContent from '../../../../messages/fr/insight.json';
+import { changeLocalization } from "../components/changeLocalization";
 
 const schemaData = {
   "@context": "https://schema.org",

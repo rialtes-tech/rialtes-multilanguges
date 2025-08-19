@@ -4,11 +4,12 @@ import Seo from "@/app/[locale]/components/Seo";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import ContactForm from "@/app/[locale]/components/contactform";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",

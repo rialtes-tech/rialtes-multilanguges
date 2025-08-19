@@ -5,16 +5,17 @@ import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
-import { changeLocalization } from "../../components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function DemandPlusSection() {
 const t = useTranslations("uiPath");
   const locale = useLocale();
-  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const {whyRpaData,featureBoxes,featureBoxes2,aribaUseCases,aribaBenefits,s4hanaUseCases,s4hanaBenefits,successFactorUsecases,successFactorBenefits,salesforceUsecases,salesforceBenefits,hrData,retailData,manufacturingData,automativeIndustryData,aiEnhanceData,visualizationData,whyRiatlesData,provenData} = homepageContent.uiPath;
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const {whyRpaData,featureBoxes,featureBoxes2,aribaUseCases,aribaBenefits,s4hanaUseCases,s4hanaBenefits,successFactorUsecases,successFactorBenefits,salesforceUsecases,salesforceBenefits,hrData,retailData,manufacturingData,automativeIndustryData,aiEnhanceData,visualizationData,whyRiatlesData,provenData} = content.uiPath;
  
     const schemaData = {
         "@context": "https://schema.org",
