@@ -257,13 +257,8 @@ export default function page() {
                                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[80%] md:w-full lg:w-[70%] xl:w-full">
                                     {t('thoughtLeadershipTitle')}
                                 </h2>
-<<<<<<< HEAD:src/app/[locale]/industry/life-sciences-digital-transformation/page.js
                                 <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[35px] mt-[16px] w-[68%] md:w-full lg:w-[76%] xl:w-full">
                                     {t('thoughtLeadershipSubTitle')}
-=======
-                                <h3 className="xl:text-[30px] 4xl:text-[42px] text-[18px] leading-tight font-semibold xl:mt-[35px] mt-[16px] w-[98%] md:w-full lg:w-[76%] xl:w-full">
-                                    Tackling the Life Sciences Industry’s Most Pressing Challenges
->>>>>>> old-origin/develop:src/app/industry/life-sciences-digital-transformation/page.js
                                 </h3>
                                 <div className="relative z-30 lg:hidden block mt-[31px]">
                                     {/* Mobile Image */}

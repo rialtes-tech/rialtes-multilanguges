@@ -316,19 +316,11 @@ export default function DemandPlusSection() {
                         sizes="100vw"
                     />
                 </div>
-<<<<<<< HEAD:src/app/[locale]/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/page.js
                 <div className="grid xl:grid-cols-12 grid-cols-1 absolute max-md:px-[35px] top-0 xl:pl-20 4xl:pt-20 pt-[25rem] md:pt-[16rem] xl:pt-10">
                     <div className="xl:col-span-5">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('scenarioTitle')} </h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">{t('scenarioSubTitle')} </h3>
                         <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">{t('scenarioDesc')} </p>
-=======
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute max-md:px-[35px] top-0 xl:pl-20 4xl:pt-20  xl:pt-10">
-                    <div className="xl:col-span-5 col-span-12">
-                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Scenario Planning</h2>
-                        <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">Prepare for Every Possibility</h3>
-                        <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">What-if analysis and scenario simulation are at the heart of Kinaxis RapidResponse, and Rialtes brings the expertise to fully leverage them:</p>
->>>>>>> old-origin/develop:src/app/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/page.js
                         <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-6 4xl:mt-10 absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
@@ -517,11 +509,7 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="custom-container mx-[35px] xl:mx-0 grid xl:grid-cols-12 grid-cols-1 mt-16">
                     <div className="col-span-9 bg-[#068EDA] p-8 pl-12 text-white">
-<<<<<<< HEAD:src/app/[locale]/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/page.js
                         <p className="4xl:text-[26px] text-[18px] font-normal xl:pr-32 4xl:pr-16 leading-tight">{t('agentChatBlueBox')} </p>
-=======
-                        <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[24px] text-[18px] font-normal xl:pr-32 4xl:pr-16 leading-tight">Now, connect your supply chain teams, suppliers, and partners with a familiar and powerful interface — WhatsApp + ERP + CRM.</p>
->>>>>>> old-origin/develop:src/app/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/page.js
                     </div>
                 </div>
             </div>

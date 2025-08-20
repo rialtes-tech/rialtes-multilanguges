@@ -129,21 +129,12 @@ export default function page() {
             sizes="100vw"
           />
         </div>
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
         <div className="relative custom-container pb-40 md:pb-[30rem] xl:pb-40 4xl:pb-40">
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
               <h1 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-64">
                 {t('headerSubTitle')}
-=======
-        <div className="relative  custom-container pb-40 md:pb-[30rem] xl:pb-24 4xl:pb-40 2xl:pb-40">
-          <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
-            <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
-              <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
-              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-80">
-                Intelligent, Connected, and Scalable Retail Transformation
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
               </h1>
             </div>
             <div className="xl:col-span-7 col-span-12">
@@ -193,7 +184,6 @@ export default function page() {
         </div>
         <div
           className="custom-container max-md:px-0">
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
           <div className="relative p-6 4xl:w-[828px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  mt-[25rem] md:mt-[60rem] xl:mt-0">
             <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply"></div>
             <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg">
@@ -205,19 +195,6 @@ export default function page() {
               </h3>
               <h3 className="mt-5 text-[20px] 4xl:text-[30px]">{t('keyTitle')}</h3>
               <ul className="list-disc leading-tight 4xl:space-y-5 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
-=======
-          <div className="relative p-6 4xl:w-[828px] mt-[-1075px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  md:mt-[5rem] xl:mt-0 ">
-            <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply h-[1075px] 2xl:h-[868px] xl:h-[830px]  4xl:h-[1135px] md:mt-[-1156px] 2xl:mt-0 xl:mt-0 4xl:mt-0"></div>
-            <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg md:mt-[-1140px] 4xl:mt-0 2xl:mt-0 xl:mt-0">
-              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] md:text-[38px] 2xl:text-[41px] 4xl:text-[60px] text-[26px]">
-                Comprehensive Services for Modern Retail Enterprises
-              </h2>
-              <h3 className="4xl:text-[36px] md:text-[32px] text-[22px] mt-5">
-                Retail+ by Rialtes
-              </h3>
-              <h3 className="mt-5 text-[20px] 4xl:text-[30px] md:text-[25px]">Key Offerings</h3>
-              <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-8 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[20px] xl:text-[16px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
                 {retailServices.map((service, index) => (
                   <li key={index}>
                     <span className="font-bold">{service.title} </span>
@@ -233,16 +210,8 @@ export default function page() {
           </div>
         </div>
       </section>
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
 
       <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
-=======
-      <Link
-        href="/contact-us"
-        className=" bg-[#006FBE] xl:block hidden absolute 4xl:ml-[335px] 2xl:ml-[192px] xl:ml-[140px] ml-[50px] mt-[-25px] xl:mt-[-30px] 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
-        Learn More
-      </Link>
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
       {/* deep industry section */}
       <section className="bg-[#E8E8E8] xl:pb-32 pb-48  mt-[500px] xss:mt-[500px] xs:mt-[500px]  sm:mt-[600px]  md:mt-[700px] lg:mt-[1370px] xl:mt-0">
         <div className="custom-container">
@@ -335,41 +304,23 @@ export default function page() {
           />
         </div>
       </section>
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
-      <section className="custom-container text-white lg:mt-[-100px] mt-[-120px] relative z-20">
-        <div className="bg-[#6E6E6E] lg:mr-20 lg:p-8 mb-2 md:p-8 sm:p-8 p-8 max-md:mr-0 max-sm:mb-8 pb-20 xl:pb-0 4xl:pb-0">
-          <div className="grid xl:grid-cols-12 grid-cols-1">
-            <div className="xl:col-span-6 col-span-12 xl:pl-14 xl:mt-10 ">
-=======
       <section className="custom-container text-white lg:mt-[-100px] mt-[-120px] relative z-20 md:mt-[-370px]">
         <div className="bg-[#6E6E6E] lg:mr-20 lg:p-8 mb-2  md:p-8 md:pb-[90px] sm:p-8  p-8  max-md:mr-0 max-sm:mb-8 pb-20 xl:pb-0 4xl:pb-0">
           <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-12">
             <div className="xl:col-span-6 col-span-12 xl:pl-14 xl:mt-10 md:col-span-5">
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
               <h2 className="leading-tight 4xl:text-[57px] xl:text-[40px] text-[26px] xl:pr-10 4xl:pr-0">
                 {t('specializedTitle')}
               </h2>
             </div>
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
             <div className="xl:col-span-1 col-span-12 pl-16"></div>
             <div className="xl:col-span-5 col-span-12">
               <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10">
                 {t('specializedSubTitle')}
-=======
-            <div className="xl:col-span-1 col-span-12 md:col-span-1 pl-16"></div>
-            <div className="xl:col-span-5 col-span-12 md:col-span-6">
-              <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10 md:mt-0">
-                Exelona
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
               </h3>
               <p className="mt-5 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
                 {t('specializedDesc')}
               </p>
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
               <div className="bottom-0 xl:relative mb-[-31px] absolute xl:mt-[41px] mt-12">
-=======
-              <div className="bottom-0  xl:relative mb-[-31px]  absolute  xl:mt-[41px] mt-12 md:mb-0">
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
                 <LearnMore />
               </div>
             </div>
@@ -442,7 +393,6 @@ export default function page() {
               priority
             />
           </div>
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
           <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 4xl:h-[865px]">
             <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('realChatTitle')}</h2>
             <h3 className="4xl:text-[42px] text-[22px] mt-4 font-semibold leading-tight">
@@ -450,18 +400,6 @@ export default function page() {
             </h3>
             <p className="mt-5 font-normal 4xl:pr-10 leading-tight 4xl:text-[20px] text-[16px]">
               {t('rialChatDesc')}
-=======
-          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 2xl:h-[680px] 4xl:h-[865px]">
-            <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[45px] 2xl:text-[45px] text-[26px]">Introducing RialChat</h2>
-            <h3 className="4xl:text-[42px] text-[22px] 2xl:text-[32px] mt-4 font-semibold leading-tight">
-              Enterprise-Ready WhatsApp Engagement
-            </h3>
-            <p className="mt-5 font-normal 4xl:pr-10 leading-tight 4xl:text-[20px] text-[16px] 2xl:pr-40">
-              RialChat, Rialtes’ bi-directional WhatsApp conversational
-              platform, is built natively on Salesforce and designed for
-              enterprise-grade communications across sales, service, and
-              operations.
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
             </p>
             <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-20 4xl:pr-10 2xl:pr-40" liClassName="" />
           </div>
@@ -519,13 +457,7 @@ export default function page() {
       {/* contact form */}
       <div className="mx-[35px] custom-container text-black py-16">
         <ContactForm
-<<<<<<< HEAD:src/app/[locale]/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
           title={t('contactTitle')}
-=======
-          title={
-            "Contact Rialtes today to explore how Retail+ can future-proof your retail enterprise."
-          }
->>>>>>> old-origin/develop:src/app/services/lob/retail-plus-business-consulting-omnichannel-solutions/page.js
           className={"xl:max-w-[72%] leading-tight  4xl:text-[59px] text-[26px] xl:text-[40px]"} />
       </div>
     </div>

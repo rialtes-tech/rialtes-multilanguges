@@ -218,13 +218,8 @@ const GrowServices = () => {
               <h3 className="text-white text-[18px] xl:text-[24px] font-bold ">
                {t('headerSubTitle')}
               </h3>
-<<<<<<< HEAD:src/app/[locale]/industry/real-estate-property-management/page.js
               <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[75%] 2xl:w-[67%] 4xl:w-[92%] mt-[11.5px] md:mt-[28.5px]">
                {t('headerTitle')}
-=======
-              <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[75%] 2xl:w-[67%] 4xl:w-[92%] mt-[11.5px]  md:mt-[28.5px]">
-                Manage real estate processes with cloud-based property management software
->>>>>>> old-origin/develop:src/app/industry/real-estate-property-management/page.js
               </h2>
             </div>
             <div className="col-span-12 lg:col-span-3 xl:col-span-5">

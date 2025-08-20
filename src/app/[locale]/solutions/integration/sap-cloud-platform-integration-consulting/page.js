@@ -148,13 +148,8 @@ export default function page() {
                 <div className="relative h-full custom-container flex items-center text-[#ffffff]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
-<<<<<<< HEAD:src/app/[locale]/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[53%]">
                                 {t('headerTitle')}
-=======
-                            <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[56%] max-[390px]:w-[66%]">
-                                SAP Cloud Integration Services
->>>>>>> old-origin/develop:src/app/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             </h1>
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
                                 {t('headerSubTitle1')}<br />  {t('headerSubTitle2')}
@@ -170,13 +165,8 @@ export default function page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
                         <div className=" lg:block hidden">
-<<<<<<< HEAD:src/app/[locale]/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
                                 {t('pageDescTitle1')}   <br />{t('pageDescTitle2')}  <br />{t('pageDescTitle3')}
-=======
-                            <h2 className="text-[26px] leading-tight 2xl:text-[48px] xl:text-[40px] 4xl:text-[60px]">
-                                Seamless Integrations. <br /> Smarter Operations. <br /> Elevated Experiences.
->>>>>>> old-origin/develop:src/app/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             </h2>
                         </div>
                         <div className="block lg:hidden">
@@ -186,13 +176,8 @@ export default function page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
-<<<<<<< HEAD:src/app/[locale]/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                         <p className="xl:text-[22px] text-[16px] leading-tight">
                             {t('pageDesc')}
-=======
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
-                            At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.
->>>>>>> old-origin/develop:src/app/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                         </p>
                     </div>
                 </div>

@@ -56,19 +56,11 @@ export default function RelatedTopicsCarousel({ slides }) {
     } = rest;
     return (
       <li>
-<<<<<<< HEAD:src/app/[locale]/components/relatedTopicsCarousel.js
         <span
           role="button"
           className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
           onClick={() => onClick()}
           aria-label="Custom Dots"
-=======
-      <div
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-                aria-label="Custom Dots"
->>>>>>> old-origin/develop:src/app/components/relatedTopicsCarousel.js
 
         />
       </li>
@@ -79,11 +71,7 @@ export default function RelatedTopicsCarousel({ slides }) {
     <section className="relative pb-6 bg-white">
       <div className="mb-[36px]">
         <div className="flex flex-row max-md:flex-col justify-between md:mr-24 mr-0">
-<<<<<<< HEAD:src/app/[locale]/components/relatedTopicsCarousel.js
           <h2 className="text-black xl:mb-[82px] mb-[40px]">{t('related')} <br className="block min-[360px]:hidden" /> {t('topics')}</h2>
-=======
-          <h2 className="text-black xl:mb-[82px] mb-[40px]  4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px]">Related <br className="block min-[360px]:hidden"/> Topics</h2>
->>>>>>> old-origin/develop:src/app/components/relatedTopicsCarousel.js
         </div>
         <Carousel
           swipeable={true}

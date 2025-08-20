@@ -231,14 +231,8 @@ export default function DataCloud() {
       <section className="bg-[#EDEDED] xl:pt-[83px] xl:pb-[76px] py-[40px]">
         <div className="custom-container">
           <div className="">
-<<<<<<< HEAD:src/app/[locale]/solutions/data-ai/salesforce-data-cloud-consulting/page.js
             <h3 className="text-left 4xl:text-[36px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[900px]">
               {t('unitedTitle')}
-=======
-            <h3 className="text-left 4xl:text-[40px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[950px] leading-tight">
-              Unite Your Entire Organization around Delivering an Enhanced
-              Customer Experience.
->>>>>>> old-origin/develop:src/app/solutions/data-ai/salesforce-data-cloud-consulting/page.js
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 xl:mt-[64px] mt-[46px]">
               {stats.map((stat, index) => (

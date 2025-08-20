@@ -1,13 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Montserrat } from "next/font/google";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import "./globals.css";
+import "./[locale]/globals.css";
 import Head from "next/head";
-import Loader from "./Loader";
-import CookieConsentBanner from "./components/cookieConsentBanner";
-import CookieConsentWrapper from "./components/cookieConsentWrapper";
+import Footer from "./[locale]/components/footer";
+import Header from "./[locale]/components/header";
+import Loader from "./[locale]/Loader";
+import CookieConsentWrapper from "./[locale]/components/cookieConsentWrapper";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",

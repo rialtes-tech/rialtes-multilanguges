@@ -165,108 +165,8 @@ export default function Page() {
                     <LearnMore />
                 </div>
             </div>
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
         );
     };
-=======
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
-                {latestServices.map((services) => (
-                    <ServicesCard key={services.id} services={services} />
-                ))}
-            </div>
-            <div className="4xl:mt-10 xl:mt-5 mt-5 2xl:mt-5">
-                <LearnMore />
-            </div>
-        </div>
-    );
-};
-const deepData1 = [
-    "Journey Builder for dynamic, personalized customer journeys.",
-    "Email Studio for impactful, data-driven email marketing campaigns.",
-    "Mobile Studio for SMS and push notifications.",
-    "Advertising Studio to engage customers across Google, Facebook, LinkedIn, and other digital platforms.",
-]
-const deepData2 = [
-    "Datorama (Marketing Cloud Intelligence) for end-to-end marketing analytics and ROI optimization.",
-    "Customer Segmentation and Audience Studio for precision-targeting.",
-    "Marketing Cloud Personalization for real-time engagement.",
-    "Marketing Analytics & Einstein AI for predictive insights and customer behavior modeling.",
-]
-const marketingFeatures = [
-    {
-        title: "Scalable B2B & B2C Marketing:",
-        description: "Seamlessly manage both complex B2B relationships and high-volume B2C campaigns."
-    },
-    {
-        title: "Hyper-Personalized Email Marketing:",
-        description: "Personalized content powered by AI and real-time data."
-    },
-    {
-        title: "Customer Segmentation & Targeting:",
-        description: "Reach the right audience with precision."
-    },
-    {
-        title: "Omni-Channel Campaign Management:",
-        description: "Consistent communication across email, mobile, social, and web."
-    },
-    {
-        title: "Salesforce Agentforce Campaigns:",
-        description: "Integrate marketing and sales efforts for lead-to-customer conversion."
-    },
-    {
-        title: "Marketing Analytics and Reporting:",
-        description: "Actionable insights and dashboards."
-    }
-];
-const aiMarketingData = [
-    {
-        title: "AI-Driven Campaign Optimization:",
-        description: "Predictive targeting and customer journey refinement using Einstein AI."
-    },
-    {
-        title: "Real-Time Customer Insights:",
-        description: "Unified view of customer interactions across channels via Data Cloud."
-    },
-    {
-        title: "Next-Gen Agentforce Campaign Management:",
-        description: "Enable sales and marketing teams to collaborate on customer outreach with AI-generated recommendations."
-    },
-    {
-        title: "Dynamic Segmentation:",
-        description: "AI-driven segments that evolve based on real-time customer behavior."
-    }
-];
-const agentChatData = [
-    {
-        title: "Instant Deployment:",
-        description: "Go live in minutes — no complex setup required."
-    },
-    {
-        title: "Universal Salesforce Compatibility:",
-        description: "Works seamlessly with Sales, Service, Marketing, and Experience Clouds."
-    },
-    {
-        title: "Multi-Role and Secure:",
-        description: "Supports robust role-based access and enterprise-grade security models."
-    },
-    {
-        title: "End-to-End Record Delegation:",
-        description: "Assign Cases, Leads, Work Orders, and Custom Records by type, ensuring seamless workflows."
-    },
-    {
-        title: "Enhanced Customer Experience:",
-        description: "Enable real-time two-way WhatsApp conversations directly from Salesforce, improving engagement and resolution rates."
-    }
-];
-const yourGrowthData = [
-    "SAP Certified Partner with proven CPI integration success stories.",
-    "Global presence: United States, Canada, Singapore, India.",
-    "Industry-specific accelerators for Manufacturing, Semiconductor, Automotive, High-Tech.",
-    "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
-    "End-to-end support from advisory to post-go-live optimization.",
-]
-export default function Page() {
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -305,7 +205,6 @@ export default function Page() {
                 <div className="relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:mt-20 4xl:mt-20 mt-16 md:mt-0 mx-auto">
                         <div className="xl:col-span-7 col-span-12 pr-5 ">
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                             <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
                                 {t('headerTitle')}
                             </h3>
@@ -315,17 +214,6 @@ export default function Page() {
                             </h2>
                             <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
                                 {t('headerSubTitle2')}
-=======
-                            <h3 className="text-white text-[20px] xl:text-[24px] md:text-[22px] font-bold mb-2 break-words ">
-                                Advantage+
-                            </h3>
-
-                            <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] text-[26px] md:text-[30px]  xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[21rem] sm:pr-20 xs:pr-16">
-                                Fueling Growth Through Personalized Marketing
-                            </h2>
-                            <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] md:text-[20px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
-                                Rialtes’ Salesforce Marketing Cloud Services
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                             </h1>
                         </div>
                         <div className="xl:col-span-6 col-span-12">
@@ -347,13 +235,8 @@ export default function Page() {
                 </div>
             </section>
             {/* advantage+ section */}
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
             <div className="custom-container lg:mt-20 4xl:pr-[457px]">
                 <section className="bg-white">
-=======
-            <div className="custom-container lg:mt-20  4xl:pr-[457px] 2xl:pr-[300px] xl:pr-[245px]">
-                <section className=" bg-white">
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                     <Services />
                 </section>
             </div>
@@ -385,15 +268,9 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-465px] xl:mt-[-440px] mt-[-75px] md:mt-0 custom-container">
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                     <div className="xl:col-span-10 col-span-12 bg-[#006FBE] px-10 xl:pt-12 4xl:pt-12  pt-[2rem] z-[9] text-white">
                         <h2 className="4xl:text-[60px] text-[26px] leading-tight xl:text-[40px] xl:pr-32">{t('deepSalesForceTitle')}</h2>
                         <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-10">{t('deepSalesForceDesc')}</p>
-=======
-                    <div className="xl:col-span-10 col-span-12 bg-[#006FBE] px-10 xl:pt-12 4xl:pt-12  pt-[2rem] z-[9]   text-white border-0 outline-none focus:outline-none focus:ring-0">
-                        <h2 className="bg-[#006FBE] 4xl:text-[60px] text-[26px] leading-tight xl:text-[40px] xl:pr-32">Deep Salesforce Marketing Cloud Expertise</h2>
-                        <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-10 bg-[#006FBE]">At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:</p>
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                     </div>
                     <div className="xl:col-span-1 bg-[#006FBE]"></div>
                 </div>
@@ -428,15 +305,9 @@ export default function Page() {
                         />
                     </div>
                     <div className="lg:col-span-5 col-span-12 max-md:px-[35px]">
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0 pr-10 lg:pr-0 4xl:pr-0">{t('drivingBusinessTitle')}</h2>
                         <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0">{t('drivingBusinessDesc')}</p>
                         <ul className="list-disc 4xl:space-y-5 lg:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 pr-12">
-=======
-                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[50px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0 pr-10 lg:pr-0 4xl:pr-0">Driving Business Growth with Salesforce Marketing Cloud</h2>
-                        <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0">Our expertise helps organizations achieve:</p>
-                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 2xl:space-y-5 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 pr-12">
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                             {marketingFeatures.map((feature, index) => (
                                 <li key={index}>
                                     <span className="font-bold">{feature.title} </span>
@@ -535,21 +406,12 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-8rem] 4xl:top-[-8rem]  md:top-[57rem]">
                     <div className="xl:col-span-6 col-span-12"></div>
                     <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white pt-12 4xl:px-14 xl:px-10 px-10">
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                         <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] leading-tight font-light">{t('introducingAgentChatTitle')}</h2>
                         <h3 className="4xl:text-[35px] text-[24px] xl:text-[25px] mt-5 leading-tight pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
                         <h3 className="mt-5 leading-tight 4xl:text-[30px] text-[20px] pr-14 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle2')}</h3>
                         <p className="mt-5 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatDesc')}</p>
                         <h3 className="mt-5 4xl:text-[30px] text-[20px]">{t('keyFeatures')}</h3>
                         <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:space-y-5 xl:space-y-4 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
-=======
-                        <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] 2xl:text-[45px] leading-tight font-light">Introducing AgentChat</h2>
-                        <h3 className="4xl:text-[35px] 2xl:text-[30px] text-[24px] xl:text-[21px] mt-5 leading-tight pr-12 xl:pr-0 4xl:pr-0">Transforming WhatsApp Conversations for Salesforce Users</h3>
-                        <h3 className="mt-5 leading-tight 4xl:text-[30px] xl:text-[18px] 2xl:text-[20px] text-[20px] pr-14 xl:pr-0 4xl:pr-0">Revolutionize Customer Engagement with WhatsApp + Salesforce</h3>
-                        <p className="mt-5 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">Meet AgentChat, Rialtes’ proprietary bi-directional WhatsApp conversational app built natively on the Salesforce Platform — designed to accelerate customer interactions across any Salesforce Cloud.</p>
-                        <h3 className="mt-5 4xl:text-[30px] text-[20px]">Key Features of AgentChat:</h3>
-                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[21px] xl:text-[14px] 2xl:text-[19px] leading-tight  4xl:space-y-8 xl:space-y-3 2xl:space-y-5 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                             {agentChatData.map((feature, index) => (
                                 <li key={index}>
                                     <strong>{feature.title}</strong> {feature.description}
@@ -564,18 +426,7 @@ export default function Page() {
                 </div>
             </section>
             {/* your growth section */}
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
             <section className="4xl:mt-[14rem] 2xl:mt-[10rem] custom-container relative 4xl:pr-[142px] mt-[88rem] xs:mt-[72rem] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[15rem] max-md:px-0">
-=======
-            <section className="4xl:mt-[10rem]  2xl:mt-[10rem] custom-container relative 4xl:pr-[142px]
-    mt-[1460px] 
-    xxs:mt-[1361px]
-    xs:mt-[1154px]
-  md:mt-[52rem] 
-  sm:mt-[55rem]
-  xl:mt-[10rem]
-  max-md:px-0">
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-marketing-cloud-implementation-consulting/page.js
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
                     <div className="relative z-0 order-1 xl:order-2 4xl:ml-[-300px] xl:ml-[-211px]">
                         <div className="xl:block hidden">

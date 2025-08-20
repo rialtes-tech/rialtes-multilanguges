@@ -14,10 +14,8 @@ import enContent from '../../../messages/en/homepage.json';
 import esContent from '../../../messages/es/homepage.json';
 import frContent from '../../../messages/fr/homepage.json';
 import dynamic from 'next/dynamic';
-import Seo from './components/Seo';
-
-import dynamic from 'next/dynamic';
 import { changeLocalization } from './components/changeLocalization';
+import Seo from './components/Seo';
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Organization",

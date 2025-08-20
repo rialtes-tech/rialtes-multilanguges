@@ -113,7 +113,6 @@ const Header = () => {
         {
           label: t('artificialLabel'), href: '/',
           subLinks: [
-<<<<<<< HEAD:src/app/[locale]/components/header.js
             { label: t('Agentforce'), href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
           ],
         },
@@ -122,119 +121,13 @@ const Header = () => {
           subLinks: [
             { label: t('Agentforce'), href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
             { label: t('UIPath'), href: '/solutions/process-automation/rpa-consulting-services-provider' },
-=======
-            { label: 'SAP', href: '/solutions/enterprise-platforms/sap-consulting' },
-            { label: 'Salesforce', href: '/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' },
-            { label: 'SAP Ariba', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
-            { label: 'Revenue Cloud', href: '/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' },
-            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'SuccessFactors', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },
-            { label: 'Oracle', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-            { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
->>>>>>> old-origin/develop:src/app/components/header.js
 
           ],
         },
         {
           label: t('qualityEngLabel'), href: '/',
           subLinks: [
-<<<<<<< HEAD:src/app/[locale]/components/header.js
             { label: t('Tosca'), href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
-=======
-            { label: 'MuleSoft', href: '/solutions/integration/mulesoft-salesforce' },
-            { label: 'SAP CPI', href: '/solutions/integration/sap-cloud-platform-integration-consulting' },
-
-          ],
-        },
-        {
-          label: 'Artificial Intelligence', href: '/',
-          subLinks: [
-            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-          ],
-        },
-        {
-          label: 'Process Automation', href: '/',
-          subLinks: [
-            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'UIPath', href: '/solutions/process-automation/rpa-consulting-services-provider' },
-
-          ],
-        },
-        {
-          label: 'Quality Engineering & Assurance', href: '/',
-          subLinks: [
-            { label: 'Tricentis Tosca', href: '/solutions/quality-engineering-assurance/tosca-software-automation-testing' },
-          ],
-        },
-
-
-      ],
-    },
-    {
-      label: 'Products',
-      links: [
-        { label: 'AgentChat', href: '/products/agentchat' },
-         { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
-      ],
-
-    },
-    {
-      label: 'Services',
-      links: [
-        {
-          label: 'Business Transformation', href: '/',
-          subLinks: [
-            { label: 'Grow with SAP', href: '/services/business-transformation/grow-with-sap-services' },
-            { label: 'Rise with SAP', href: '/services/business-transformation/rise-with-sap-services' },
-            { label: 'Oracle EBSPlus', href: '/solutions/enterprise-platforms/oracle-ebs-consulting' },
-            { label: 'SAP Digital Desk', href: '/services/business-transformation/sap-managed-services-provider' },
-          ],
-        },
-        {
-          label: 'LOB Services', href: '/',
-          subLinks: [
-            { label: 'AutoSense', href: '/services/lob/salesforce-automotive-cloud-business-solutions-autosense' },
-            { label: 'Retail+', href: '/services/lob/retail-plus-business-consulting-omnichannel-solutions' },
-            { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
-            { label: 'Life AI+', href: '/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting' },
-            { label: 'Advantage+', href: '/services/lob/salesforce-marketing-cloud-implementation-consulting' },
-            { label: 'RialFinance+', href: '/services/lob/salesforce-fsc-consulting-rialfinanceplus/' }
-          ],
-
-
-        },
-        {
-          label: 'Spend Management', href: '/',
-          subLinks: [
-            { label: 'SAPBuy+', href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },],
-        },
-        {
-          label: 'HXM Transformation', href: '/',
-          subLinks: [
-            { label: 'Success+', href: '/services/hxm-transformation/successplus-successfactors-implementation-partner' },],
-        },
-        {
-          label: 'Data and AI', href: '/',
-          subLinks: [
-            { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting' },
-            { label: 'Agentforce', href: '/solutions/artificial-intelligence/salesforce-agentforce-consulting' },
-            { label: 'SAP Datasphere', href: '/solutions/data-ai/sap-datasphere-implementation-consulting' },
-            { label: 'SAP Business Data Cloud', href: '/solutions/data-ai/sap-business-data-cloud-bdc-consulting' }
-
-          ],
-
-        },
-        {
-          label: 'Intelligent SCM', href: '/',
-          subLinks: [
-            { label: 'Kinaxis', href: '/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services' },
-          ],
-        },
-        {
-          label: 'Application Services', href: '/',
-          subLinks: [
-            { label: 'Salesforce Agent+', href: '/services/application-services/salesforce-managed-services-provider-salesforceagentplus' },
->>>>>>> old-origin/develop:src/app/components/header.js
           ],
         },
       ],
@@ -612,17 +505,10 @@ const Header = () => {
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Oracle')} link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} />
                             </div>
                             <div>
-<<<<<<< HEAD:src/app/[locale]/components/header.js
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
                               <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SuccessPlus')} link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} />
                               <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('RevenueCloud')} link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} />
                               <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Kinaxis')} link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} />
-=======
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Agentforce" link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} onHover={() => { }} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="SuccessFactors" link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Revenue Cloud" link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} onHover={() => { }} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Kinaxis" link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} onHover={() => { }} />
->>>>>>> old-origin/develop:src/app/components/header.js
                             </div>
                           </div>
                         </div>
@@ -744,8 +630,6 @@ const Header = () => {
                     </div>
                   </div>
                 )}
-<<<<<<< HEAD:src/app/[locale]/components/header.js
-=======
 
  {openSectionProduct === "mediaina" && (
                   <div className="col-span-8 flex space-x-5"  >
@@ -761,7 +645,6 @@ const Header = () => {
                   </div>
                 )}
 
->>>>>>> old-origin/develop:src/app/components/header.js
               </div>
             </div>
           )}

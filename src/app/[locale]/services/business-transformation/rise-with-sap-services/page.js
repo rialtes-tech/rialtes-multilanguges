@@ -157,15 +157,9 @@ export default function Page() {
         <div
           className="custom-container h-full relative">
           <div className="h-full flex flex-col justify-center">
-<<<<<<< HEAD:src/app/[locale]/services/business-transformation/rise-with-sap-services/page.js
             <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">{t('headerTitle')}</h3>
             <h1 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
               {t('headerSubTitle')}
-=======
-            <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">Voyager+</h3>
-            <h1 className="text-white 2xl:text-[48px] xl:text-[42px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
-              Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP
->>>>>>> old-origin/develop:src/app/services/business-transformation/rise-with-sap-services/page.js
             </h1>
             <div className="md:max-w-32 w-20  4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-6">
               <Image

@@ -160,18 +160,9 @@ const t = useTranslations("tosca");
           <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
             <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  2xl:pr-14 xl:pr-10 pr-5 md:pr-64">
               <h3 className="text-white xl:text-[24px]  font-bold mb-2">
-<<<<<<< HEAD:src/app/[locale]/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               {t('headerSubTitle')}</h3>
               <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
                 {t('headerTitle')}
-=======
-                {" "}
-                Tricentis TOSCA
-              </h3>
-              <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px] xl:text-[42px]  2xl:text-[48px]">
-                Elevate Quality Engineering with Rialtes’ Tosca Automation
-                Testing Services
->>>>>>> old-origin/develop:src/app/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               </h1>
             </div>
             <div className="xl:col-span-7 col-span-12"></div>
@@ -444,14 +435,8 @@ const t = useTranslations("tosca");
               <h3 className="mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight">
                  {t('neoSubTitleOne')}
               </h3>
-<<<<<<< HEAD:src/app/[locale]/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               <p className="4xl:text-[22px] xl:text-[14px] text-[16px] mt-5 font-light">
                  {t('neoDesc')}
-=======
-              <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] mt-5 font-light">
-                NeoLoad enables continuous performance testing, and Rialtes
-                ensures enterprises stress test their applications effectively:
->>>>>>> old-origin/develop:src/app/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               </p>
               <UnorderedList
                 arrName={neoLoadData}
@@ -473,15 +458,8 @@ const t = useTranslations("tosca");
       <div className="grid grid-cols-12 xl:mt-[-10px] 4xl:mt-[-186px]  absolute">
         <section className="custom-container bottom-0 xl:col-span-7 col-span-12  xl:px-0 4xl:pl-[280px]  xl:pl-[82px]  mt-[-11rem] md:mt-[-7rem] xl:mt-[20px] 4xl:mt-0">
           <div className=" bg-[#073259] xl:block hidden p-8  xl:mt-[-50px]  2xl:mt-[-2rem]">
-<<<<<<< HEAD:src/app/[locale]/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
             <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
               {t('neoPara')}
-=======
-            <p className="4xl:text-[24px] 2xl:text-[20px] xl:text-[18px] text-[18px] text-white leading-tight font-normal">
-              Rialtes helps ensure that your applications are built for
-              performance from day one, delivering seamless user experiences at
-              scale.
->>>>>>> old-origin/develop:src/app/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
             </p>
           </div>
         </section>

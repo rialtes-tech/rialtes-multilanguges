@@ -173,13 +173,8 @@ export default function page() {
                     <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
                         {t('pageDescTitle')}  <div className="sm:block hidden" />{t('pageDescTitle2')} <div className="sm:block hidden" />{t('pageDescTitle3')}
                     </h2>
-<<<<<<< HEAD:src/app/[locale]/services/lob/salesforce-fsc-consulting-rialfinanceplus/page.js
                     <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%]">
                         {t('pageDesc')}
-=======
-                    <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%] 2xl:pr-32 4xl:pr-0 xl:pr-0">
-                        At Rialtes, we enable financial institutions to lead with innovation and trust. Our RialFinance+ Managed Services deliver advisory, implementation, customization, AI integration, and post-go-live support, all unified to transform your Salesforce Financial Services Cloud (FSC) experience.
->>>>>>> old-origin/develop:src/app/services/lob/salesforce-fsc-consulting-rialfinanceplus/page.js
                         <br />
                         <br />
                         {t('pageDesc2')}

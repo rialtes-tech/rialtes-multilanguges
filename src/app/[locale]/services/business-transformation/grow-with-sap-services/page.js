@@ -170,19 +170,11 @@ export default function Page() {
               <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
                 {t('headerTitle')}
               </h3>
-<<<<<<< HEAD:src/app/[locale]/services/business-transformation/grow-with-sap-services/page.js
               <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]">
                 {t('headerSubTitle')}
               </h2>
               <h3 className="mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px]  text-white font-medium leading-tight xl:font-semibold max-w-full break-words pr-24">
                 {t('headerSubTitle2')}
-=======
-              <h2 className="text-white  leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[82%] 2xl:w-[73%] 4xl:w-[100%] max-[340px]:text-[22px] pr-2 max-[390px]:pr-0 md:w-[50%]">
-                Grow Faster, Smarter with Rialtes' VoyagerNext
-              </h2>
-              <h3 className="mt-4 text-[18px] xl:text-[23px] 4xl:text-[35px]  text-white font-medium leading-tight xl:font-semibold 4xl:w-[80%] 2xl:w-[60%] xl:w-[60%] pr-2 max-[390px]:pr-0 md:w-[50%]">
-                Your Partner for SAP S/4HANA Cloud Transformation
->>>>>>> old-origin/develop:src/app/services/business-transformation/grow-with-sap-services/page.js
               </h3>
               <div className="md:w-32 w-20 pt-6 mt-2">
                 <Image
@@ -315,7 +307,6 @@ export default function Page() {
           className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white backdrop-blur-md bg-black/30 p-5 ">
             <div className="xl:col-span-8 col-span-12">
-<<<<<<< HEAD:src/app/[locale]/services/business-transformation/grow-with-sap-services/page.js
               <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px]  mt-16 leading-tight xl:pr-20">
                 {t('sapBusinessTitle')}
               </h2>
@@ -323,24 +314,11 @@ export default function Page() {
             </div>
             <div className="xl:col-span-4 col-span-12 xl:mt-16 mt-5 pr-20">
               <p className="xl:text-[22px] text-[16px] font-medium">{t('sapBusinessDesc')}</p>
-=======
-              <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px] text-[26px] mt-16 leading-tight xl:pl-10 ">
-                SAP Business One (B1) to SAP S/4HANA Migration
-              </h2>
-              <h3 className="mt-5 4xl:text-[40px] xl:text-[30px] text-[22px] xl:pl-10">Future-Proof Your ERP</h3>
-            </div>
-            <div className="xl:col-span-4 col-span-12 xl:mt-16 mt-5 pr-10">
-              <p className="xl:text-[22px] text-[16px] font-medium">For businesses running SAP Business One (SAP B1), Rialtes provides a clear, structured path to migrate to SAP S/4HANA Cloud under Grow with SAP.</p>
->>>>>>> old-origin/develop:src/app/services/business-transformation/grow-with-sap-services/page.js
             </div>
           </div>
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-16 xl:pb-20 xl:pr-10 xl:pl-20 backdrop-blur-md bg-black/30 p-5">
             <div className="xl:col-span-5 col-span-12">
-<<<<<<< HEAD:src/app/[locale]/services/business-transformation/grow-with-sap-services/page.js
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight xl:font-bold font-medium pr-10">{t('benefitsTitle')} </h3>
-=======
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight xl:font-bold font-medium ">Benefits of Migrating from SAP B1 to S/4HANA Cloud:</h3>
->>>>>>> old-origin/develop:src/app/services/business-transformation/grow-with-sap-services/page.js
               <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-10 mt-3">
                 {sapBenefits.map((item, index) => (
                   <li key={index}>
@@ -551,11 +529,7 @@ export default function Page() {
       </section>
       {/* contact form */}
       <section className="custom-container text-black py-16">
-<<<<<<< HEAD:src/app/[locale]/services/business-transformation/grow-with-sap-services/page.js
         <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
-=======
-        <ContactForm title={'Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!'} subtitle={"Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."} className={"leading-tight max-w-[96%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
->>>>>>> old-origin/develop:src/app/services/business-transformation/grow-with-sap-services/page.js
       </section>
     </div >
   );

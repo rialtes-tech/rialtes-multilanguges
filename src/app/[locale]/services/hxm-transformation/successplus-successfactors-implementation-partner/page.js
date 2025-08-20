@@ -5,16 +5,12 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 
 import { useLocale, useTranslations } from "next-intl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-=======
-import Link from "next/link";
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -98,148 +94,6 @@ const schemaData = {
     }
   }
 }
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
-
-=======
-const relatedData = [
-  {
-    text: "SAP S/4HANA for Finance & Operations.",
-    link: null,
-  },
-  {
-    text: "SAP Ariba for Direct & Indirect Procurement",
-    link: "https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/",
-  },
-  {
-    text: "SAP Concur for Travel & Expense",
-    link: null,
-  },
-  {
-    text: "SAP CPI for Cloud Integrations",
-    link: "https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/",
-  },
-];
-const agentData = [
-  "Role-based communication (recruiters, managers, HR).",
-  "Case, lead, and work order delegation by type.",
-  "Employee self-service for leave, benefits, and more.",
-  "Quick setup in minutes. Fully secure and compliant.",
-]
-const ourWorkdayData = [
-  "Comprehensive system comparison and gap analysis.",
-  "Mapping Workday HR processes to SAP SuccessFactors best practices.",
-  "Secure data migration, validation, and cleansing.",
-  "Change management and employee training to ensure adoption.",
-  "Integration with SAP S/4HANA, Finance, and Payroll.",
-]
-const keyBenefitsData = [
-  "Unified platform with SAP S/4HANA for HR and business processes.",
-  "Reduced operational costs and improved scalability.",
-  "Enhanced analytics and AI capabilities with SAP Joule.",
-]
-const ourZohoData = [
-  "Assessment and mapping of ZOHO HR processes to SuccessFactors.",
-  "Employee data migration with validation and secure handling.",
-  "Re-engineering workflows to align with SuccessFactors’ HXM principles.",
-  "User training and post-deployment support.",
-]
-const zohoBenefitsData = [
-  "Enterprise compliance and data security.",
-  "End-to-end employee lifecycle management.",
-  "AI-driven insights and enhanced user experiences.",
-]
-const migratingBenefitsData = [
-  {
-    img: "/images/services/success-plus/unified-img.svg",
-    title: "Unified HR platform aligned with business goals."
-  },
-  {
-    img: "/images/services/success-plus/future-img.svg",
-    title: "Future-proofing HR with AI, automation, and advanced analytics."
-  },
-  {
-    img: "/images/services/success-plus/integration-img.svg",
-    title: "Integration with core SAP and third-party systems for a connected enterprise."
-  },
-  {
-    img: "/images/services/success-plus/global-hr-img.svg",
-    title: "Global HR compliance and local adaptability."
-  },
-]
-const sapActivateData = [
-  {
-    id: 1,
-    title: "Discover Phase",
-    list: [
-      "Understanding your HR transformation goals.",
-      "Initial system evaluation, readiness checks, and value mapping.",
-      "High-level scoping and timeline planning.",
-    ]
-  },
-  {
-    id: 2,
-    title: "Prepare Phase",
-    list: [
-      "Project planning, governance setup, and team onboarding.",
-      "System access and pre-requisite checklists.",
-    ]
-  },
-  {
-    id: 3,
-    title: "Explore Phase",
-    list: [
-      "Fit-to-standard workshops leveraging SAP Signavio to align processes with industry best practices.",
-      "Identify customizations and integration points.",
-    ]
-  },
-  {
-    id: 4,
-    title: "Realize Phase",
-    list: [
-      "Configuration of SuccessFactors modules (Employee Central, Talent, Learning, Compensation, etc.).",
-      "Custom development and integrations. ",
-      "Data migration and testing (unit, integration, UAT).",
-    ]
-  },
-  {
-    id: 5,
-    title: "Deploy Phase",
-    list: [
-      "Final system readiness, user training, and go-live planning.",
-      "Cutover execution and post-go-live support setup.",
-    ]
-  },
-  {
-    id: 6,
-    title: "Run Phase",
-    list: [
-      "Stabilization, ongoing support, and continuous improvement roadmap.",
-    ]
-  },
-]
-const sapSuccessFactorData = [
-  "Employee lifecycle data feeding finance and procurement.",
-  "Unified organizational management. ",
-  "Streamlined payroll and time management.",
-]
-const sapJouleData = [
-  "Conversational AI for employee self-service (ESS).",
-  "AI recommendations for career growth, learning, and wellness.",
-  "AI-driven HR case resolution and knowledge management.",
-  "Predictive insights for HR leaders on attrition, performance, and more.",
-]
-const sapCpiData = [
-  "SAP S/4HANA, SAP Ariba, Concur, Fieldglass. ",
-  "Third-party applications (ADP, Salesforce, Workday, Oracle).",
-  "Custom enterprise systems.",
-]
-const extendData = [
-  "Custom HR workflows and forms.",
-  "Integrations with third-party solutions. ",
-  "Employee experience applications and mobile enablement.",
-  "AI/ML solutions for talent management, learning, and engagement.",
-]
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 export default function Page() {
   const t = useTranslations('successPlus')
   const locale = useLocale();
@@ -309,13 +163,8 @@ export default function Page() {
         </h1>
         <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px]">
           <div className="lg:col-span-8 col-span-12 order-2 lg:order-1">
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
             <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] xl:mt-[43px] mt-[20px] font-normal 4xl:w-[90%] w-[96%]">
               {t('pageDesc1')}
-=======
-            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] xl:mt-[43px] mt-[20px] font-normal 4xl:pr-16 w-[96%] xl:pr-16 2xl:pr-20">
-              At Rialtes, we believe HR is at the center of every organization’s success. Our ‘SuccessPlus’ suite of SAP SuccessFactors services is designed to help organizations transform their human capital management (HCM) strategies, streamline HR processes, and deliver an exceptional employee experience.
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
               <br /><br />
               {t('pageDesc2')}
             </p>
@@ -340,11 +189,7 @@ export default function Page() {
             <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] xl:w-full">
               {t('whyRialtesTitle')}
               <br />
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
               <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-semibold"> {t('whyRialtesSubTitle1')} <div className="4xl:mt-[-16px]" />{t('whyRialtesSubTitle2')}</span>
-=======
-              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] mt-4 font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
             </h2>
           </div>
           <div className="xl:col-span-4 col-span-12 md:w-[80%] w-[92%] xl:w-full">
@@ -514,7 +359,6 @@ export default function Page() {
       {/* process section */}
       <section className="custom-container xl:mt-[116px] mt-[55px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
           <div className="xl:col-span-8 col-span-12">
             <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[91%]">
               {t('processTitle')}
@@ -529,35 +373,6 @@ export default function Page() {
             </p>
           </div>
         </div>
-=======
-  {/* <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
-  {/* Heading - First on mobile */}
-  <div className="xl:col-span-8 col-span-12 order-1">
-    <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[94%]">
-      Process-Driven Success with SAP Signavio and SAP Activate Methodology
-    </h2>
-  </div>
- 
-  {/* Paragraph - Second on mobile */}
-  <div className="xl:col-span-4 col-span-12 order-2">
-    <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full">
-      Rialtes leverages SAP Signavio’s powerful process intelligence combined
-      with SAP Activate Methodology to ensure smooth and efficient
-      implementation of SAP SuccessFactors.
-    </p>
-  </div>
- 
-  {/* SAP Activate - Third on mobile */}
-  <div className="xl:col-span-8 col-span-12 order-3">
-    <h3 className="xl:text-[34px] 4xl:text-[40px] leading-tight text-[22px] xl:mt-[72px] mt-[26px] font-normal pr-8 xl:pr-0">
-      <span className="font-bold">SAP Activate Methodology - </span>
-      Phased Approach with Rialtes:
-    </h3>
-  </div>
-</div>
- 
- 
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[120px] mt-[40px] sm:w-[80%] md:w-[90%] xl:w-full 2xl:w-[90%] md:gap-x-[60px] lg:gap-0">
           {
             sapActivateData.map((data, ind) => {
@@ -699,11 +514,7 @@ export default function Page() {
         {/* blue box */}
         <div className="lg:mt-[-60px]">
           <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
             <h4 className="xl:text-[20px] 4xl:text-[26px] leading-tight text-[18px] font-normal">{t('sapJouleBlueBox')}</h4>
-=======
-            <h4 className="xl:text-[24px] 4xl:text-[26px] 2xl:text-[24px] leading-tight text-[18px] font-normal">Rialtes customizes and fine-tunes Joule to align with your HR needs.</h4>
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
           </div>
         </div>
       </section>
@@ -856,7 +667,3 @@ export default function Page() {
     </div >
   );
 }
-<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
-=======
- 
->>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
