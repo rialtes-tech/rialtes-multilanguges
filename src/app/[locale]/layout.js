@@ -6,19 +6,21 @@ import ClientLayout from "./clientLayout";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-
+import { getMessages } from "next-intl/server";
+ 
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-montserrat",
 });
-
+ 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  const messages = await getMessages(locale);
   return (
     <html lang={locale} className={montserrat.variable}>
       <head>
@@ -41,16 +43,13 @@ export default async function RootLayout({ children, params }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="w-full mx-auto max-w-[1920px]">
-            <header>
-              <Header />
-            </header>
-
+              <Header /> 
             <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
               <ClientLayout>{children}</ClientLayout>
             </main>
-
+ 
             <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
               <Footer />
             </footer>
@@ -60,3 +59,5 @@ export default async function RootLayout({ children, params }) {
     </html>
   );
 }
+ 
+ 

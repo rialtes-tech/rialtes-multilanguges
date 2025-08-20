@@ -4,9 +4,9 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
-import { useTranslations } from "next-intl";
 
 import arrowImg from "../../../../public/images/flags/arrow.png"
+import { useTranslations } from "next-intl";
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
   return (
@@ -23,7 +23,6 @@ const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
 
 
 const Header = () => {
-  const t = useTranslations('header')
   const [activeCard, setActiveCard] = useState(null);
   const [expanded, setExpanded] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +33,7 @@ const Header = () => {
   const [openSectionProduct, setOpenSectionProduct] = useState("rialchat");
   const [activeLink, setActiveLink] = useState(true); // Track active link
   const [activeSubLink, setActiveSubLink] = useState(null);
-
+ const t = useTranslations("header")
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
   };

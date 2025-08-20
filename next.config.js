@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const createNextIntlPlugin = require('next-intl/plugin');
-
-const withNextIntl = createNextIntlPlugin();
-
+ 
+// 👇 Point this to your request.js file
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.js');
+ 
 const nextConfig = {
   images: {
     unoptimized: true,
@@ -12,5 +13,5 @@ const nextConfig = {
     return config;
   },
 };
-
+ 
 module.exports = withNextIntl(nextConfig);
