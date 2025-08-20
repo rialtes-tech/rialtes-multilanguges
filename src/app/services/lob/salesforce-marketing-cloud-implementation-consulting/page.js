@@ -158,7 +158,7 @@ const ServicesCard = ({ services }) => (
     <div className="flex flex-col border border-[#707070] p-6 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
         <div className="flex-grow flex flex-col">
             <h3 className="mb-[15px] md:mb-[25px]  font-semibold  text-[#0A6BB8] 4xl:text-[30px] text-[20px] leading-tight">{services.title}</h3>
-            <p className='md:mb-[15px] mb-0  4xl:text-[24px] text-[16px] font-normal pr-12 xl:pr-0 4xl:pr-0 leading-tight'>{services.description}</p>
+            <p className='md:mb-[15px] mb-0  4xl:text-[24px] text-[16px] font-normal pr-8 xl:pr-0 4xl:pr-0 leading-tight'>{services.description}</p>
         </div>
     </div>
 );
@@ -191,8 +191,8 @@ const Services = () => {
         <div className="text-black 2xl:pr-70 xl:pr-10 md:pr-8">
             <div className="grid 4xl:grid-cols-12">
                 <div className="4xl:col-span-12">
-                    <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-16 xl:mt-0 4xl:mt-0 pr-[4rem]">Advantage+: A Full-Spectrum Marketing Transformation Approach</h2>
-                    <p className="4xl:text-[22px] text-[16px] my-12">Our Advantage+ framework ensures that every phase of your marketing journey is expertly guided:</p>
+                    <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-16 xl:mt-0 4xl:mt-0 ">Advantage+: A Full-Spectrum Marketing Transformation Approach</h2>
+                    <p className="4xl:text-[22px] text-[16px] my-10">Our Advantage+ framework ensures that every phase of your marketing journey is expertly guided:</p>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
@@ -337,7 +337,7 @@ export default function Page() {
                             <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] text-[26px] md:text-[30px]  xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[21rem] sm:pr-20 xs:pr-16">
                                 Fueling Growth Through Personalized Marketing
                             </h2>
-                            <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] md:text-[20px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
+                            <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] md:text-[20px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[6rem] md:pr-[25rem]">
                                 Rialtes’ Salesforce Marketing Cloud Services
                             </h1>
                         </div>
@@ -353,7 +353,7 @@ export default function Page() {
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
                             Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+
                         </h2>
-                        <p className="text-[16px] 4xl:text-[22px] leading-tight mt-5 4xl:pr-[25px] pr-[2rem] xl:pr-0">We help organizations harness the power of Salesforce Marketing Cloud with our Advantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption. As a Salesforce Certified Consulting Partner with offices in the U.S., Canada, India, and Singapore, Rialtes combines industry expertise with Marketing Cloud proficiency to drive transformation in B2B and B2C sectors. </p>
+                        <p className="text-[16px] 4xl:text-[22px] leading-tight mt-5 4xl:pr-[25px] pr-[1rem] xl:pr-0">We help organizations harness the power of Salesforce Marketing Cloud with our Advantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption. As a Salesforce Certified Consulting Partner with offices in the U.S., Canada, India, and Singapore, Rialtes combines industry expertise with Marketing Cloud proficiency to drive transformation in B2B and B2C sectors. </p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
                     </div>
@@ -395,13 +395,13 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-465px] xl:mt-[-440px] mt-[-75px] md:mt-0 custom-container">
                     <div className="xl:col-span-10 col-span-12 bg-[#006FBE] px-10 xl:pt-12 4xl:pt-12  pt-[2rem] z-[9]   text-white border-0 outline-none focus:outline-none focus:ring-0">
                         <h2 className="bg-[#006FBE] 4xl:text-[60px] text-[26px] leading-tight xl:text-[40px] xl:pr-32">Deep Salesforce Marketing Cloud Expertise</h2>
-                        <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-10 bg-[#006FBE]">At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:</p>
+                        <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-6 bg-[#006FBE]">At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:</p>
                     </div>
                     <div className="xl:col-span-1 bg-[#006FBE]"></div>
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-250px] mt-0 md:mt-[-10px]  custom-container">
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-260px] 3xl:mt-[-299px] mt-0 md:mt-[-10px]  custom-container">
                     <div className="xl:col-span-6 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-20 px-8 4xl:pb-14 xl:pb-14 text-white  border-0 outline-none focus:outline-none focus:ring-0">
-                        <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight  xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-10 xl:pr-0" liClassName="" />
+                        <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight  xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-6 xl:pr-0" liClassName="" />
                         <div className="absolute 4xl:mt-[-25px] xl:mt-[-18px] xl:block hidden">
                             <LearnMore />
                         </div>
@@ -417,7 +417,7 @@ export default function Page() {
             </section>
             {/* driving business section*/}
             <section className="xl:mt-64 4xl:mt-[25rem] custom-container 4xl:pl-0 4xl:pr-[192px] xl:pl-0 max-md:pl-0 md:mt-[-17rem]">
-                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-[1000px] md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
+                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-[80px] md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
                     <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
                             src="/images/services/lob/advantageplus/desktop/driving.webp"
@@ -430,9 +430,9 @@ export default function Page() {
                         />
                     </div>
                     <div className="lg:col-span-5 col-span-12 max-md:px-[35px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[50px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0 pr-10 lg:pr-0 4xl:pr-0">Driving Business Growth with Salesforce Marketing Cloud</h2>
-                        <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0">Our expertise helps organizations achieve:</p>
-                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 2xl:space-y-5 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 pr-12">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[50px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0  lg:pr-0 4xl:pr-0">Driving Business Growth with Salesforce Marketing Cloud</h2>
+                        <p className="4xl:pt-10 xl:pt-3 pt-5  lg:pr-0 4xl:pr-0">Our expertise helps organizations achieve:</p>
+                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 2xl:space-y-5 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 ">
                             {marketingFeatures.map((feature, index) => (
                                 <li key={index}>
                                     <span className="font-bold">{feature.title} </span>
@@ -450,7 +450,7 @@ export default function Page() {
             </section>
             {/* reimagine section */}
             <div className="relative 4xl:mt-[20rem] 4xl:pl-[142px]  pb-20 custom-container mt-[16rem] max-md:px-0 xl:mt-[18rem]">
-                <div className="bg-[#F0F0F0] relative 4xl:pl-[142px] 4xl:h-[1340px] xl:h-[865px] 2xl:h-[915px]">
+                <div className="bg-[#F0F0F0] relative 4xl:pl-[142px] 4xl:h-[1340px] xl:h-[905px] 2xl:h-[915px]">
                     <div className="relative z-10 -mt-32 4xl:mr-[-140px] xl:mr-[-70px] xl:ml-[80px] 4xl:ml-0">
                         <div className="xl:block hidden">
                             <Image
@@ -477,8 +477,8 @@ export default function Page() {
                     </div>
 
                     <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px]">
-                        <div className="4xl:mt-[40rem] mt-[15rem] xs:mt-[17rem]  md:mt-[43rem] xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
+                        <div className="4xl:mt-[40rem] mt-[15rem] xs:mt-[17rem]   md:mt-[43rem] xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
+                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-6 xl:pr-0 4xl:pr-0">
                                 Reimagine B2B & B2C Marketing with AI and Data Cloud
                             </h2>
                             <p className="mt-5 text-[16px] 4xl:text-[22px]">
@@ -489,14 +489,14 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem]">
-                            <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-12 xl:pr-20 4xl:pr-24">
+                            <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-6 pl-6 xl:pr-20 4xl:pr-24 font-medium">
                                 {aiMarketingData.map((item, index) => (
                                     <li key={index}>
                                         <strong>{item.title}</strong> {item.description}
                                     </li>
                                 ))}
                             </ul>
-                            <p className="text-[16px] 4xl:text-[22px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-0 4xl:pr-0">
+                            <p className="text-[16px] 4xl:text-[22px]  mt-5 xl:mt-5 4xl:mt-5 pr-4 ">
                                 By harnessing AI and real-time data, Rialtes enables clients to move from reactive to proactive marketing, improving engagement rates and customer loyalty.
                             </p>
                             <div className="mt-5 xl:hidden block">
@@ -530,15 +530,15 @@ export default function Page() {
                         priority
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-8rem] 4xl:top-[-8rem]  md:top-[57rem]">
+                <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-4rem] 4xl:top-[-8rem]  md:top-[57rem]">
                     <div className="xl:col-span-6 col-span-12"></div>
                     <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white pt-12 4xl:px-14 xl:px-10 px-10">
                         <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] 2xl:text-[45px] leading-tight font-light">Introducing AgentChat</h2>
-                        <h3 className="4xl:text-[35px] 2xl:text-[30px] text-[24px] xl:text-[21px] mt-5 leading-tight pr-12 xl:pr-0 4xl:pr-0">Transforming WhatsApp Conversations for Salesforce Users</h3>
-                        <h3 className="mt-5 leading-tight 4xl:text-[30px] xl:text-[18px] 2xl:text-[20px] text-[20px] pr-14 xl:pr-0 4xl:pr-0">Revolutionize Customer Engagement with WhatsApp + Salesforce</h3>
+                        <h3 className="4xl:text-[35px] 2xl:text-[30px] text-[24px] xl:text-[21px] mt-5 leading-tight pr-4 xl:pr-0 4xl:pr-0">Transforming WhatsApp Conversations for Salesforce Users</h3>
+                        <h3 className="mt-5 leading-tight 4xl:text-[30px] xl:text-[18px] 2xl:text-[20px] text-[20px]  xl:pr-0 4xl:pr-0">Revolutionize Customer Engagement with WhatsApp + Salesforce</h3>
                         <p className="mt-5 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">Meet AgentChat, Rialtes’ proprietary bi-directional WhatsApp conversational app built natively on the Salesforce Platform — designed to accelerate customer interactions across any Salesforce Cloud.</p>
                         <h3 className="mt-5 4xl:text-[30px] text-[20px]">Key Features of AgentChat:</h3>
-                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[21px] xl:text-[14px] 2xl:text-[19px] leading-tight  4xl:space-y-8 xl:space-y-3 2xl:space-y-5 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
+                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[21px] xl:text-[14px] 2xl:text-[19px] leading-tight  4xl:space-y-8 xl:space-y-3 2xl:space-y-5 space-y-4 mt-5 pr-6 xl:pr-0 4xl:pr-16">
                             {agentChatData.map((feature, index) => (
                                 <li key={index}>
                                     <strong>{feature.title}</strong> {feature.description}
@@ -593,7 +593,7 @@ export default function Page() {
                         <h3 className="mt-4 xl:mt-3 text-[20px] xl:text-[26px] 4xl:text-[36px] font-semibold pr-20 leading-tight xl:pr-0 4xl:pr-0">
                             Across Every Industry Touchpoint
                         </h3>
-                        <p className="mt-4 xl:mt-5 text-[16px] 4xl:text-[22px] leading-tight font-light 4xl:pr-6">
+                        <p className="mt-4 xl:mt-5 text-[16px] 4xl:text-[22px] leading-tight font-normal 4xl:pr-6">
                             Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships,
                             Rialtes’ Advantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.
                         </p>

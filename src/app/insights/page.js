@@ -123,8 +123,8 @@ export default function InsightsPage() {
       />
 
       {/* Hero Section with Deep Blue Gradient Background */}
- <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
-        <div className="hidden md:block">
+ <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
+        <div className="hidden lg:block">
           <Image
             src="/images/insights/insight-header-banner-new.webp"
             alt="desktop banner"
@@ -134,7 +134,7 @@ export default function InsightsPage() {
           />
         </div>
         {/* Mobile Image */}
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <Image
             src="/images/insights/insight-header-banner-new.webp"
             alt="mobile banner"
@@ -155,13 +155,13 @@ export default function InsightsPage() {
 
       {/* Blog Section */}
       <div className="custom-container">
-        <section className="mb-16 mt-[50px] md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
-          <h2 className="text-[#000000] text-[20px] sm:text-[26px] pb-6 mb-8 max-w-4xl">
+        <section className="mb-16 mt-[50px] md:mt-[70px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
+          <h2 className="text-[#000000] text-[20px] sm:text-[26px] pb-6 mb-8 max-w-4xl leading-tight">
             Take a tour of our insights section to see our latest blogs, press
             releases, case studies, news coverage, updates and upcoming events.
           </h2>
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
-            <h2>Featured Blog</h2>
+            <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[40px] text-[26px]">Featured Blog</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/blogs"
@@ -211,10 +211,10 @@ export default function InsightsPage() {
                   <span className="mx-2">|</span>
                   <span className="text-sm">30 Sept 2024</span>
                 </div>
-                <h3 className="mb-3">
+                <h3 className="mb-3  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                   How Salesforce Agentforce Actually Works
                 </h3>
-                <p className="mb-4">
+                <p className="mb-4 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
                   Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
                 </p>
                 <Link
@@ -277,10 +277,10 @@ export default function InsightsPage() {
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">21 Oct 2024</span>
                   </div>
-                  <h3 className="mb-3">
+                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
                   </h3>
-                  <p className="mb-2">
+                  <p className="mb-2 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
                     As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.
                   </p>
                   <div>
@@ -344,11 +344,11 @@ export default function InsightsPage() {
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">28 Oct 2024</span>
                   </div>
-                  <h3 className="mb-3">
+                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     Agents vs. Copilots vs. Bots: What&apos;s the Difference and
                     Why It Matters
                   </h3>
-                  <p className="mb-2">
+                  <p className="mb-2 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
                     Tools like Agentforce are redefining how we view digital
                     assistants, bringing distinctions between Agents, Copilots,
                     and Bots to the forefront.
@@ -392,7 +392,7 @@ export default function InsightsPage() {
           <div className="lg:max-w-[800px]  xl:max-w-[1600px]">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
               <div>
-                <h2 className="mb-1">Case Studies</h2>
+                <h2 className="mb-1 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[40px] text-[26px]">Case Studies</h2>
                 <p>Find our latest work and collaborations</p>
               </div>
               <div className="hidden sm:block">
@@ -445,10 +445,10 @@ export default function InsightsPage() {
                     <span className="mx-2">|</span>
                     <span className="text-sm">30 June 2025</span>
                   </div>
-                  <h3 className="mb-3">
+                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense
                   </h3>
-                  <p>
+                  <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
                     A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.
                   </p>
                 </div>
@@ -494,8 +494,8 @@ export default function InsightsPage() {
                       <span className="mx-2">|</span>
                       <span className="text-sm">{study.date}</span>
                     </div>
-                    <h3 className="mb-2">{study.title}</h3>
-                    <p>{study.description}</p>
+                    <h3 className="mb-2  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">{study.title}</h3>
+                    <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">{study.description}</p>
                   </div>
                 </div>
               ))}
@@ -521,7 +521,7 @@ export default function InsightsPage() {
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start sm:items-center sm:flex-row mb-8">
-            <h2 className="mb-1">Webinars</h2>
+            <h2 className="mb-1 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[40px] text-[26px]">Webinars</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/webinars"
@@ -577,7 +577,7 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem]  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                   Voyage with SAP – Transformational RISE with SAP Services by Rialtes
                 </h3>
                 <div className="space-y-3 mb-6">
@@ -655,7 +655,7 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem]  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                   Discover the Agentic Capabilities of Agentforce
                 </h3>
                 <div className="space-y-3 mb-6">
@@ -732,7 +732,7 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem]  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                   Databricks and Datasphere — What’s in SAP Business Data Cloud?
                 </h3>
                 <div className="space-y-3 mb-6">
