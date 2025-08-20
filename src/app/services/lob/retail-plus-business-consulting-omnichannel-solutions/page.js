@@ -197,7 +197,7 @@ export default function page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative group overflow-hidden">
+      <section className="relative group overflow-hidden ">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/banner.webp"
@@ -220,7 +220,7 @@ export default function page() {
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
-              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-32 xl:pr-0 4xl:pr-0 md:pr-80">
+              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-10 xl:pr-0 4xl:pr-0 md:pr-80">
                 Intelligent, Connected, and Scalable Retail Transformation
               </h1>
             </div>
@@ -235,7 +235,7 @@ export default function page() {
             <h2 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               Empowering Global Retailers with AI-Driven, Omnichannel Solutions
             </h2>
-            <p className="4xl:text-[22px] xl:text-[18px]  mt-5 pr-8 xl:pr-0">
+            <p className="4xl:text-[22px] xl:text-[18px]  mt-5  xl:pr-0">
               In today’s dynamic and highly competitive retail landscape,
               customer expectations are evolving rapidly, driven by
               hyper-personalization, seamless omnichannel engagement, and
@@ -244,7 +244,7 @@ export default function page() {
               successfully navigate these challenges and drive sustainable
               growth.
             </p>
-            <p className="4xl:text-[22px] xl:text-[18px] mt-5 pr-8 xl:pr-0">
+            <p className="4xl:text-[22px] xl:text-[18px] mt-5  xl:pr-0">
               Through Retail+, Rialtes delivers an end-to-end suite of services,
               combining strategic advisory, solution design, implementation,
               quality assurance, integration, and post-go-live support —
@@ -255,7 +255,7 @@ export default function page() {
         </div>
       </section>
       {/* comprehensive section */}
-      <section className="relative  xl:mt-20 h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[2065px] 4xl:h-[1135px] mt-10">
+      <section className="relative  xl:mt-20  mt-10">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/comprehensive.webp"
@@ -283,7 +283,7 @@ export default function page() {
           <div className="relative p-6 4xl:w-[828px] mt-[-1075px] xl:w-[630px] 4xl:pb-32 pb-20 xl:pb-10  md:mt-[5rem] xl:mt-0 ">
             <div className="absolute inset-0 bg-[#5D5D5D] mix-blend-multiply h-[1075px] 2xl:h-[868px] xl:h-[830px]  4xl:h-[1135px] md:mt-[-1156px] 2xl:mt-0 xl:mt-0 4xl:mt-0"></div>
             <div className="relative  bg-opacity-80 text-white z-10 p-3 xl:pl-8 rounded-lg md:mt-[-1140px] 4xl:mt-0 2xl:mt-0 xl:mt-0">
-              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-20 xl:pr-0 xl:text-[40px] md:text-[38px] 2xl:text-[41px] 4xl:text-[60px] text-[26px]">
+              <h2 className="leading-tight 4xl:w-[80%] xl:w-[75%] pr-10 xl:pr-0 xl:text-[40px] md:text-[38px] 2xl:text-[41px] 4xl:text-[60px] text-[26px]">
                 Comprehensive Services for Modern Retail Enterprises
               </h2>
               <h3 className="4xl:text-[36px] md:text-[32px] text-[22px] mt-5">
@@ -298,7 +298,7 @@ export default function page() {
                   </li>
                 ))}
               </ul>
-              <div className="xl:hidden block mt-[35px]">
+              <div className="xl:hidden block mt-[5px] ">
               <LearnMore bgcolor="#006FBE"/>
               </div>
              
@@ -312,7 +312,7 @@ export default function page() {
         Learn More
       </Link>
       {/* deep industry section */}
-      <section className="bg-[#E8E8E8] xl:pb-32 pb-48  mt-[500px] xss:mt-[500px] xs:mt-[500px]  sm:mt-[600px]  md:mt-[700px] lg:mt-[1370px] xl:mt-0">
+      <section className="bg-[#E8E8E8] xl:pb-32 pb-48   ">
         <div className="custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-9 col-span-12 xl:mt-32 mt-20">
@@ -456,7 +456,7 @@ export default function page() {
               priority
             />
           </div>
-          <div className="bg-[#073259] text-white xl:col-span-6 px-16 xl:px-0  4xl:pr-[16rem] col-span-12 xl:ml-[-150px] xl:pl-[200px] 4xl:pl-[240px] xl:pr-[40px] xl:pb-32 pb-[6rem]  lg:pr-12 z-5">
+          <div className="bg-[#073259] text-white xl:col-span-6 px-16 xl:px-0  4xl:pr-[16rem] 2xl:pr-[8rem] col-span-12 xl:ml-[-150px] xl:pl-[200px] 4xl:pl-[240px] xl:pr-[40px] xl:pb-32 pb-[6rem]  lg:pr-12 z-5">
             <h2 className="xl:mt-20 pt-[24rem] xl:pt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">Advanced AI & Data</h2>
             <h3 className="4xl:text-[42px] text-[22px] xl:text-[32px] font-semibold xl:mt-10 mt-5 leading-tight">
               Salesforce Data Cloud & Agentforce for Retail
@@ -482,7 +482,7 @@ export default function page() {
             <div className="relative">
               <Link
                 href="/contact-us"
-                className=" bg-[#006FBE] absolute 4xl:bottom-[-147px] 4xl:mt-[41px] xl:mt-[78px] mt-12 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                className=" bg-[#006FBE] absolute 4xl:bottom-[-127px] 4xl:mt-[41px] xl:mt-[78px] mt-12 4xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                 Learn More
               </Link>
             </div>
@@ -520,9 +520,9 @@ export default function page() {
               priority
             />
           </div>
-          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 2xl:h-[680px] 4xl:h-[865px]">
+          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-17rem] 2xl:ml-[-15rem] xl:ml-[-20rem] 4xl:pr-[15rem] 2xl:pr-[8rem] pb-20 xl:pb-0 px-[35px] 4xl:pl-[25rem] 2xl:pl-[20rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 2xl:h-[680px] 4xl:h-[865px]">
             <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[45px] 2xl:text-[45px] text-[26px]">Introducing RialChat</h2>
-            <h3 className="4xl:text-[42px] text-[22px] 2xl:text-[32px] mt-4 font-semibold leading-tight">
+            <h3 className="4xl:text-[42px] text-[22px] 2xl:text-[38px] xl:text-[32px] mt-4 font-semibold leading-tight">
               Enterprise-Ready WhatsApp Engagement
             </h3>
             <p className="mt-5 font-normal 4xl:pr-10 leading-tight 4xl:text-[20px] text-[16px] 2xl:pr-40">
@@ -531,7 +531,7 @@ export default function page() {
               enterprise-grade communications across sales, service, and
               operations.
             </p>
-            <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-20 4xl:pr-10 2xl:pr-40" liClassName="" />
+            <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[16px] text-[16px] mt-5 mb-20 4xl:pr-10 2xl:pr-40" liClassName="" />
           </div>
         </div>
       </section>
@@ -546,7 +546,7 @@ export default function page() {
         </div>
       </div>
       {/* why choose section */}
-      <section className="relative h-[1026px] 2xl:h-[715px] xl:h-[715px] 4xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
+      <section className="relative h-[1126px] 2xl:h-[715px] xl:h-[715px] 4xl:h-[870px] overflow-hidden mt-[-195px] md:mt-[-140px] xl:mt-0 ">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/why.webp"
@@ -568,7 +568,7 @@ export default function page() {
         <div
           className="h-full mx-[35px] xl:mx-0 xl:ml-[280px] xl:mr-[156px] md:ml-[100px]">
           <div className="xl:flex xl:justify-end xl:mt-32 mt-[24rem]">
-            <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[560px] xl:h-[495px]">
+            <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[560px] xl:h-[475px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">
@@ -577,8 +577,8 @@ export default function page() {
                 <h3 className="4xl:text-[42px] text-[22px] font-semibold mt-5">
                   Extending S/4 HANA Value
                 </h3>
-                <UnorderedList arrName={whyChooseData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5" liClassName="" />
-                <div className="mt-[60px] 4xl:mt-[18px] xl:mt-[30px] absolute">
+                <UnorderedList arrName={whyChooseData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-4" liClassName="" />
+                <div className=" 4xl:mt-[18px] xl:mt-[30px] absolute">
                   <LearnMore />
                 </div>
               </div>
