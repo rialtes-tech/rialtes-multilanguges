@@ -5,12 +5,16 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Seo from "@/app/[locale]/components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 
 import { useLocale, useTranslations } from "next-intl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+=======
+import Link from "next/link";
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -94,7 +98,148 @@ const schemaData = {
     }
   }
 }
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 
+=======
+const relatedData = [
+  {
+    text: "SAP S/4HANA for Finance & Operations.",
+    link: null,
+  },
+  {
+    text: "SAP Ariba for Direct & Indirect Procurement",
+    link: "https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/",
+  },
+  {
+    text: "SAP Concur for Travel & Expense",
+    link: null,
+  },
+  {
+    text: "SAP CPI for Cloud Integrations",
+    link: "https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/",
+  },
+];
+const agentData = [
+  "Role-based communication (recruiters, managers, HR).",
+  "Case, lead, and work order delegation by type.",
+  "Employee self-service for leave, benefits, and more.",
+  "Quick setup in minutes. Fully secure and compliant.",
+]
+const ourWorkdayData = [
+  "Comprehensive system comparison and gap analysis.",
+  "Mapping Workday HR processes to SAP SuccessFactors best practices.",
+  "Secure data migration, validation, and cleansing.",
+  "Change management and employee training to ensure adoption.",
+  "Integration with SAP S/4HANA, Finance, and Payroll.",
+]
+const keyBenefitsData = [
+  "Unified platform with SAP S/4HANA for HR and business processes.",
+  "Reduced operational costs and improved scalability.",
+  "Enhanced analytics and AI capabilities with SAP Joule.",
+]
+const ourZohoData = [
+  "Assessment and mapping of ZOHO HR processes to SuccessFactors.",
+  "Employee data migration with validation and secure handling.",
+  "Re-engineering workflows to align with SuccessFactors’ HXM principles.",
+  "User training and post-deployment support.",
+]
+const zohoBenefitsData = [
+  "Enterprise compliance and data security.",
+  "End-to-end employee lifecycle management.",
+  "AI-driven insights and enhanced user experiences.",
+]
+const migratingBenefitsData = [
+  {
+    img: "/images/services/success-plus/unified-img.svg",
+    title: "Unified HR platform aligned with business goals."
+  },
+  {
+    img: "/images/services/success-plus/future-img.svg",
+    title: "Future-proofing HR with AI, automation, and advanced analytics."
+  },
+  {
+    img: "/images/services/success-plus/integration-img.svg",
+    title: "Integration with core SAP and third-party systems for a connected enterprise."
+  },
+  {
+    img: "/images/services/success-plus/global-hr-img.svg",
+    title: "Global HR compliance and local adaptability."
+  },
+]
+const sapActivateData = [
+  {
+    id: 1,
+    title: "Discover Phase",
+    list: [
+      "Understanding your HR transformation goals.",
+      "Initial system evaluation, readiness checks, and value mapping.",
+      "High-level scoping and timeline planning.",
+    ]
+  },
+  {
+    id: 2,
+    title: "Prepare Phase",
+    list: [
+      "Project planning, governance setup, and team onboarding.",
+      "System access and pre-requisite checklists.",
+    ]
+  },
+  {
+    id: 3,
+    title: "Explore Phase",
+    list: [
+      "Fit-to-standard workshops leveraging SAP Signavio to align processes with industry best practices.",
+      "Identify customizations and integration points.",
+    ]
+  },
+  {
+    id: 4,
+    title: "Realize Phase",
+    list: [
+      "Configuration of SuccessFactors modules (Employee Central, Talent, Learning, Compensation, etc.).",
+      "Custom development and integrations. ",
+      "Data migration and testing (unit, integration, UAT).",
+    ]
+  },
+  {
+    id: 5,
+    title: "Deploy Phase",
+    list: [
+      "Final system readiness, user training, and go-live planning.",
+      "Cutover execution and post-go-live support setup.",
+    ]
+  },
+  {
+    id: 6,
+    title: "Run Phase",
+    list: [
+      "Stabilization, ongoing support, and continuous improvement roadmap.",
+    ]
+  },
+]
+const sapSuccessFactorData = [
+  "Employee lifecycle data feeding finance and procurement.",
+  "Unified organizational management. ",
+  "Streamlined payroll and time management.",
+]
+const sapJouleData = [
+  "Conversational AI for employee self-service (ESS).",
+  "AI recommendations for career growth, learning, and wellness.",
+  "AI-driven HR case resolution and knowledge management.",
+  "Predictive insights for HR leaders on attrition, performance, and more.",
+]
+const sapCpiData = [
+  "SAP S/4HANA, SAP Ariba, Concur, Fieldglass. ",
+  "Third-party applications (ADP, Salesforce, Workday, Oracle).",
+  "Custom enterprise systems.",
+]
+const extendData = [
+  "Custom HR workflows and forms.",
+  "Integrations with third-party solutions. ",
+  "Employee experience applications and mobile enablement.",
+  "AI/ML solutions for talent management, learning, and engagement.",
+]
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
 export default function Page() {
   const t = useTranslations('successPlus')
   const locale = useLocale();
@@ -164,8 +309,13 @@ export default function Page() {
         </h1>
         <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px]">
           <div className="lg:col-span-8 col-span-12 order-2 lg:order-1">
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
             <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] xl:mt-[43px] mt-[20px] font-normal 4xl:w-[90%] w-[96%]">
               {t('pageDesc1')}
+=======
+            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] xl:mt-[43px] mt-[20px] font-normal 4xl:pr-16 w-[96%] xl:pr-16 2xl:pr-20">
+              At Rialtes, we believe HR is at the center of every organization’s success. Our ‘SuccessPlus’ suite of SAP SuccessFactors services is designed to help organizations transform their human capital management (HCM) strategies, streamline HR processes, and deliver an exceptional employee experience.
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
               <br /><br />
               {t('pageDesc2')}
             </p>
@@ -181,7 +331,7 @@ export default function Page() {
             />
           </div>
         </div>
-
+ 
       </section>
       {/* what is rialtes success section */}
       <section className="custom-container xl:mt-[112px] lg:mt-[82px] mt-[34px]">
@@ -190,7 +340,11 @@ export default function Page() {
             <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] xl:w-full">
               {t('whyRialtesTitle')}
               <br />
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
               <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-semibold"> {t('whyRialtesSubTitle1')} <div className="4xl:mt-[-16px]" />{t('whyRialtesSubTitle2')}</span>
+=======
+              <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] mt-4 font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
             </h2>
           </div>
           <div className="xl:col-span-4 col-span-12 md:w-[80%] w-[92%] xl:w-full">
@@ -224,10 +378,9 @@ export default function Page() {
         </div>
       </section>
       {/* workday section */}
-      <section className="text-white custom-container xl:mt-[183px] mt-[87px] pt-[50px] xl:pt-[148px] md:bg-[url('/images/services/success-plus/workday-bg-desk.webp')] bg-[url('/images/services/success-plus/Mobile/workday-bg-mob.webp')] bg-cover">
-        {/* workday */}
-        <>
-          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[29px]">
+      <section className="text-white custom-container 4xl:pr-0 4xl:mt-[183px] 2xl:mt-[140px] xl:mt-[100px] mt-[87px] pt-[50px] 4xl:pt-[148] 2xl:pt-[100px] xl:pt-[100px] md:bg-[url('/images/services/success-plus/workday-bg-desk.webp')] bg-[url('/images/services/success-plus/Mobile/workday-bg-mob.webp')] bg-cover">
+        <div>
+          <div className="grid 4xl:pr-[280px] lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[29px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
               <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] xl:w-full">
                 {t('workdayTitle1')}<div className="block lg:hidden" />{t('workdayTitle2')} <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold"> <div className="block lg:hidden" />{t('workdayTitle3')}</span>
@@ -237,14 +390,16 @@ export default function Page() {
               </p>
             </div>
             <div className="lg:col-span-5 3xl:col-span-4 col-span-12 lg:order-2 order-1">
-              <div className="lg:block hidden h-[180px]">
+              <div className="lg:block hidden h-[180px] aspect-[19/9]">
                 <Image
                   src="/images/services/success-plus/workday-desk.webp"
                   alt="workday-desktop image"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   priority
                   width={0}
                   height={0}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                quality={90}
                 />
               </div>
               <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
@@ -273,11 +428,11 @@ export default function Page() {
               <UnorderedList arrName={keyBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
             </div>
           </div>
-        </>
+        </div>
         <div className="w-full h-[1px] bg-gray-300"></div>
-        {/* zoho */}
+     
         <>
-          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px]">
+          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px] 4xl:pr-[280px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
               <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] xl:w-[92%]">
                 {t('zohoTitle1')} <div className="block lg:hidden" /> {t('zohoTitle2')} <div className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold">{t('zohoTitle3')}</div>
@@ -287,14 +442,16 @@ export default function Page() {
               </p>
             </div>
             <div className="lg:col-span-5 3xl:col-span-4 col-span-12 lg:order-2 order-1">
-              <div className="lg:block hidden h-[180px]">
+              <div className="lg:block hidden h-[180px] aspect-[19/9]">
                 <Image
                   src="/images/services/success-plus/zoho-desk.webp"
                   alt="zoho-desktop image"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   priority
                   width={0}
                   height={0}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                quality={90}
                 />
               </div>
               <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
@@ -324,9 +481,7 @@ export default function Page() {
             </div>
           </div>
         </>
-
-        {/* benefits of migrating */}
-        <div className="xl:mt-[100px] mt-[63px] bg-[#FFFFFF] py-[40px] px-[24px] xl:py-[83px] md:px-[60px]">
+        <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
           <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
             {t('benefitsMigratingTitle')}
           </h2>
@@ -339,7 +494,7 @@ export default function Page() {
                       <Image
                         src={data.img}
                         alt={`${data.title} image`}
-                        className="w-[120px] h-[120px] object-cover"
+                        className="xl:w-[120px] xl:h-[120px] object-cover h-[75px] w-[75px]"
                         priority
                         width={0}
                         height={0}
@@ -355,9 +510,11 @@ export default function Page() {
           </div>
         </div>
       </section>
+ 
       {/* process section */}
       <section className="custom-container xl:mt-[116px] mt-[55px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
           <div className="xl:col-span-8 col-span-12">
             <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[91%]">
               {t('processTitle')}
@@ -372,16 +529,45 @@ export default function Page() {
             </p>
           </div>
         </div>
+=======
+  {/* <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
+  {/* Heading - First on mobile */}
+  <div className="xl:col-span-8 col-span-12 order-1">
+    <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[94%]">
+      Process-Driven Success with SAP Signavio and SAP Activate Methodology
+    </h2>
+  </div>
+ 
+  {/* Paragraph - Second on mobile */}
+  <div className="xl:col-span-4 col-span-12 order-2">
+    <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full">
+      Rialtes leverages SAP Signavio’s powerful process intelligence combined
+      with SAP Activate Methodology to ensure smooth and efficient
+      implementation of SAP SuccessFactors.
+    </p>
+  </div>
+ 
+  {/* SAP Activate - Third on mobile */}
+  <div className="xl:col-span-8 col-span-12 order-3">
+    <h3 className="xl:text-[34px] 4xl:text-[40px] leading-tight text-[22px] xl:mt-[72px] mt-[26px] font-normal pr-8 xl:pr-0">
+      <span className="font-bold">SAP Activate Methodology - </span>
+      Phased Approach with Rialtes:
+    </h3>
+  </div>
+</div>
+ 
+ 
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[120px] mt-[40px] sm:w-[80%] md:w-[90%] xl:w-full 2xl:w-[90%] md:gap-x-[60px] lg:gap-0">
           {
             sapActivateData.map((data, ind) => {
               return (
-                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[60px] md:py-[40px] lg:py-0 
-                                          ${(data.id === 5 || data.id === 6) && "md:border-0"} 
-                                          ${data.id === 2 && "lg:!py-0"} 
-                                          ${(data.id == 2 || data.id == 5) && "lg:mt-[60] xl:mt-[80px] lg:h-[250px] xl:h-[260px] 4xl:h-[330px] lg:px-[30px] xl:px-[40px] lg:border-l border-[#B9B9B9]"} 
-                                          ${(data.id == 3 || data.id == 6) && "lg:mt-[120] xl:mt-[140px] lg:pl-[40px] lg:border-l"} 
-                                          ${(data.id == 1 || data.id == 4) && "lg:pr-[40px]"} 
+                <div key={ind} className={`lg:first:py-0 max-lg:border-b max-lg:last:border-0 border-[#B9B9B9] py-[30px] md:py-[40px] lg:py-0
+                                          ${(data.id === 5 || data.id === 6) && "md:border-0"}
+                                          ${data.id === 2 && "lg:!py-0"}
+                                          ${(data.id == 2 || data.id == 5) && "lg:mt-[60] xl:mt-[80px] lg:h-[250px] xl:h-[260px] 4xl:h-[330px] lg:px-[30px] xl:px-[40px] lg:border-l border-[#B9B9B9]"}
+                                          ${(data.id == 3 || data.id == 6) && "lg:mt-[120] xl:mt-[140px] lg:pl-[40px] lg:border-l"}
+                                          ${(data.id == 1 || data.id == 4) && "lg:pr-[40px]"}
                                           ${(data.id == 6) && "lg:pb-[80px] 4xl:pb-[110px]"} `}>
                   <h4 className="text-[#0C8AD4] xl:text-[27px] 4xl:text-[30px] leading-tight text-[24px] xl:mb-[28px] mb-[16px] flex">
                     <div className="xl:text-[60px] 4xl:text-[70px] leading-tight text-[50px] mr-[20px] font-extrabold">{data.id}</div> <div className="my-auto">{data.title}</div>
@@ -433,7 +619,7 @@ export default function Page() {
         </div>
       </section>
       {/* sap CPI section */}
-      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[60px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
         <div className="absolute bg-[#EFE0CD] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
         <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#EFE0CD]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
@@ -473,7 +659,7 @@ export default function Page() {
         </div>
       </section>
       {/* sap joule section */}
-      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] xl:!pr-[40px] md:!pr-0 max-lg:px-0 ">
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[68px] 4xl:!pr-[142px] 2xl:!pr-[90px] xl:!pr-[40px] md:!pr-0 max-lg:px-0 ">
         <div className="lg:pl-[59px] lg:pr-[60px] lg:pb-[90px] xl:pb-[138px] px-[36px] bg-[#BEDDFC]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[80px] gap-y-[30px]">
             <div className="lg:order-1 order-2 lg:col-span-6 lg:pt-[76px] pb-[52]">
@@ -513,12 +699,16 @@ export default function Page() {
         {/* blue box */}
         <div className="lg:mt-[-60px]">
           <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
             <h4 className="xl:text-[20px] 4xl:text-[26px] leading-tight text-[18px] font-normal">{t('sapJouleBlueBox')}</h4>
+=======
+            <h4 className="xl:text-[24px] 4xl:text-[26px] 2xl:text-[24px] leading-tight text-[18px] font-normal">Rialtes customizes and fine-tunes Joule to align with your HR needs.</h4>
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
           </div>
         </div>
       </section>
       {/* extend sap section */}
-      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
+      <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[68px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
         <div className="absolute bg-[#E4EAD2] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
         <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#E4EAD2] relative">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
@@ -574,22 +764,30 @@ export default function Page() {
         <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[90%] lg:w-full">
           {t('relatedTitle1')}<div className="md:block hidden" />{t('relatedTitle2')}
         </h2>
-        <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
-          {
-            relatedData.map((data, ind) => {
-              return (
-                <div key={ind} className="py-[26px] px-[28px] xl:py-[49px] xl:px-[50px] border border-[#707070]">
-                  <h3 className="xl:text-[25px] 4xl:text-[30px] leading-tight text-[20px] font-semibold">
-                    {data}
-                  </h3>
-                </div>
-              )
-            })
-          }
+       <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
+      {relatedData.map((item, ind) => (
+        <div
+          key={ind}
+          className="py-[26px] px-[28px] xl:py-[49px] xl:px-[50px] border border-[#707070]"
+        >
+          <h3 className="xl:text-[25px] 4xl:text-[30px] leading-tight text-[20px] font-semibold">
+            {item.link ? (
+              <Link
+                href={item.link}
+                className="hover:underline"
+              >
+                {item.text}
+              </Link>
+            ) : (
+              item.text
+            )}
+          </h3>
         </div>
+      ))}
+    </div>
       </section>
       {/* agentchat section */}
-      <section className="xl:mt-[177px] mt-[59px] bg-[#184671] xl:pt-[176px] pt-[36px]">
+      <section className="xl:mt-[115px] mt-[59px] bg-[#184671] xl:pt-[120px] 2xl:pt-[140px] 4xl:pt-[176px] pt-[36px] 2xl:mt-[125px] 4xl:mt-[176px]">
         <div className="custom-container md:pr-0 relative">
           <div className="md:block hidden">
             <Image
@@ -640,11 +838,11 @@ export default function Page() {
             </div>
           </div>
           <div className="xl:mt-[64px] mt-[49px]">
-            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName="Know More" href="https://www.rialtes.com/products/agentchat"/>
           </div>
         </div>
       </section>
-
+ 
       {/* Contact Form */}
       <div className="xl:mt-[118px] mt-[48px] xl:mb-[120px] mb-[120px] custom-container text-black">
         <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />
@@ -658,3 +856,7 @@ export default function Page() {
     </div >
   );
 }
+<<<<<<< HEAD:src/app/[locale]/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js
+=======
+ 
+>>>>>>> old-origin/develop:src/app/services/hxm-transformation/successplus-successfactors-implementation-partner/page.js

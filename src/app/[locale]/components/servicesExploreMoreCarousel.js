@@ -63,12 +63,23 @@ export default function servicesExploreMoreCarousel() {
     } = rest;
     return (
       <li>
+<<<<<<< HEAD:src/app/[locale]/components/servicesExploreMoreCarousel.js
         <span
           role="button"
           className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
           onClick={() => onClick()}
           aria-label="Custom Dots"
         />
+=======
+      <div
+      role="button"
+        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+        onClick={() => onClick()}
+        aria-label="Custom Dots"
+
+
+      />
+>>>>>>> old-origin/develop:src/app/components/servicesExploreMoreCarousel.js
       </li>
     );
   };

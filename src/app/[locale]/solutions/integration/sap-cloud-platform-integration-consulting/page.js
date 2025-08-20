@@ -123,7 +123,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] sm:h-[450px]">
+            <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
@@ -148,8 +148,13 @@ export default function page() {
                 <div className="relative h-full custom-container flex items-center text-[#ffffff]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
+<<<<<<< HEAD:src/app/[locale]/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[53%]">
                                 {t('headerTitle')}
+=======
+                            <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[56%] max-[390px]:w-[66%]">
+                                SAP Cloud Integration Services
+>>>>>>> old-origin/develop:src/app/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             </h1>
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
                                 {t('headerSubTitle1')}<br />  {t('headerSubTitle2')}
@@ -165,8 +170,13 @@ export default function page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
                         <div className=" lg:block hidden">
+<<<<<<< HEAD:src/app/[locale]/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
                                 {t('pageDescTitle1')}   <br />{t('pageDescTitle2')}  <br />{t('pageDescTitle3')}
+=======
+                            <h2 className="text-[26px] leading-tight 2xl:text-[48px] xl:text-[40px] 4xl:text-[60px]">
+                                Seamless Integrations. <br /> Smarter Operations. <br /> Elevated Experiences.
+>>>>>>> old-origin/develop:src/app/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                             </h2>
                         </div>
                         <div className="block lg:hidden">
@@ -176,8 +186,13 @@ export default function page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
+<<<<<<< HEAD:src/app/[locale]/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                         <p className="xl:text-[22px] text-[16px] leading-tight">
                             {t('pageDesc')}
+=======
+                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+                            At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.
+>>>>>>> old-origin/develop:src/app/solutions/integration/sap-cloud-platform-integration-consulting/page.js
                         </p>
                     </div>
                 </div>
@@ -401,11 +416,11 @@ export default function page() {
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] sm:first:mt-[20px] ${data?.subtitle && "mt-[30px]"} font-normal sm:w-[80%] md:w-full`}>
+                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] max-[360px]:mt-[40px] ${data?.subtitle && "mt-[30px]  "} font-normal sm:w-[80%] md:w-full`}>
                                                     {data.desc}
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
-                                                <div className="md:mt-[83px] mt-[33px]">
+                                                <div className="md:mt-[83px] mt-[25px]">
                                                     <LearnMore />
                                                 </div>
                                             </div>

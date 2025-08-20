@@ -40,7 +40,7 @@ const AutoTimerSlider = () => {
                         </div>
                     </div>
                     <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry5.webp")` }}>
+                        style={{ backgroundImage: `url("/images/homepage/industry5_with_bgc.webp")` }}>
                         <div className="content">
                             <div className="title">{t('automotiveTitle')}</div>
                             <div className="des pr-5 xl:mt-8 mt-5">{t('automotiveDesc')}</div>
@@ -51,7 +51,7 @@ const AutoTimerSlider = () => {
                         </div>
                     </div>
                     <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
+                        style={{ backgroundImage: `url("/images/homepage/industry11.webp")` }}>
                         <div className="content">
                             <div className="title font-semibold">{t('healthcareTitle')}</div>
                             <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">{t('healthcareDesc')}</div>

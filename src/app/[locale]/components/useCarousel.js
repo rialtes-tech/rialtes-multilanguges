@@ -92,9 +92,15 @@ export default function servicesInsightsCarousel() {
       carouselState: { currentSlide, deviceType }
     } = rest;
     return (
+<<<<<<< HEAD:src/app/[locale]/components/useCarousel.js
       <li>
         <span
           role="button"
+=======
+       <li>
+        <div
+         role="button"
+>>>>>>> old-origin/develop:src/app/components/useCarousel.js
           className={`w-3 h-1 md:px-8 px-4  mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
           onClick={() => onClick()}
           aria-label="Custom Dots"

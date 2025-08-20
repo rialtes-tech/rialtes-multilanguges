@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
 import Link from 'next/link';
-const Seo = dynamic(() => import('./components/Seo'), { ssr: false });
 const AutoTimerSlider = dynamic(() => import('./newHome/page'), { ssr: false });
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 const ContactForm = dynamic(() => import('./components/contactform'), { ssr: false });
@@ -14,6 +13,8 @@ import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../messages/en/homepage.json';
 import esContent from '../../../messages/es/homepage.json';
 import frContent from '../../../messages/fr/homepage.json';
+import dynamic from 'next/dynamic';
+import Seo from './components/Seo';
 
 import dynamic from 'next/dynamic';
 import { changeLocalization } from './components/changeLocalization';
@@ -37,7 +38,6 @@ const schemaData = {
         "https://x.com/Rialtestech"
     ]
 }
-
 const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
@@ -71,9 +71,9 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/news/sales-news.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
+        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/homepage/sales-news_with_bgc.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
         { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
+        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact_with_bgc.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
 
     ]
     useEffect(() => {
@@ -103,12 +103,12 @@ const Home = () => {
                 canonical={"https://www.rialtes.com/"}
             />
 
-            <Script
-                id="schema-main-page"
-                type="application/ld+json"
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+          <Script
+        id="schema-homepage"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="relative">
                 <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
                 <div className="relative">
@@ -120,18 +120,19 @@ const Home = () => {
                                     <div
                                         className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
                                             }`}
-                                        style={{
-                                            backgroundImage: `url(${slide.imageMobile})`,
-                                            backgroundSize: '100% 100%',
-                                        }}
+
                                     >
-                                        {/* <Image
+                                        <Image
+                                            className="w-full h-auto"
                                             src={slide.imageMobile}
-                                            alt={slide.title}
-                                            fill
-                                            priority
+                                            alt="life at rialtes"
+                                            width={0}
+                                            height={0}
                                             sizes="100vw"
-                                        /> */}
+                                            priority
+                                            quality={60}
+                                            fetchPriority='high'
+                                        />
 
                                         <div
                                             ref={refs[6]}
@@ -141,27 +142,33 @@ const Home = () => {
                                     </div>
                                 </Link>
 
-                                {index === currentSlide && (
-                                    <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
-                                        <div className="absolute inset-0">
-                                            <Image
-                                                src={slide.image}
-                                                alt={slide.title}
-                                                fill
-                                                priority={index === 0}
-                                                className="object-cover"
-                                                sizes="100vw"
-                                            />
-                                            <div
-                                                ref={refs[6]}
-                                                className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                                                    }`}
-                                            >
-                                                {/* text */}
-                                            </div>
-                                        </div>
-                                    </Link>
-                                )}
+                            <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
+  <div
+    className={`absolute inset-0 transition-transform transform hidden xl:block ${
+      index === currentSlide ? 'translate-x-0' : 'translate-x-full'
+    }`}
+  >
+    <Image
+      className="w-full h-auto"
+      src={slide.image}
+      alt="life at rialtes"
+      width={0}
+      height={0}
+      sizes="100vw"
+      priority
+      quality={60}
+      fetchPriority="high"
+    />
+    <div
+      ref={refs[6]}
+      className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${
+        inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+      }`}
+    >
+      {/* text */}
+    </div>
+  </div>
+</Link>
                             </React.Fragment>
                         ))}
 
@@ -196,6 +203,7 @@ const Home = () => {
                         alt='Success Stories'
                         className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
                         src='/images/homepage/AdobeStock_406847557.svg'
+                        fetchPriority='high'
                     />
                     <div
                         ref={refs[7]}
@@ -211,7 +219,7 @@ const Home = () => {
                 </section>
 
                 {/* success stories section */}
-                <section className='custom-container lg:pr-0 4xl:mt-[130px] xl:mt-[87px] md:mt-[67px] mt-[45px]'>
+                <section className='custom-container lg:pr-0 xl:mt-[147px] mt-[87px]'>
                     <div
                         ref={refs[0]}
                         className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -241,7 +249,9 @@ const Home = () => {
                                                     width={0}
                                                     height={0}
                                                     sizes="100vw"
-                                                    loading="lazy"
+                                                    priority
+                                                    quality={60}
+                                                    fetchPriority='high'
                                                 />
 
                                             </div>
@@ -287,19 +297,27 @@ const Home = () => {
                     </div>
                     <div className="h-full">
                         <div className="xl:block hidden h-full">
-                            <img
+                            <Image
                                 src={carouselData[activeIndexInsights].image}
                                 alt={carouselData[activeIndexInsights].title}
                                 className="w-full h-full object-cover"
+                                priority
+                                fetchPriority='high'
+                                 width={500}
+                                height={500}
                             />
                         </div>
 
                         <div className="xl:hidden block">
-                            <img
+                            <Image
                                 src={carouselData[activeIndexInsights].image}
                                 alt={carouselData[activeIndexInsights].title}
                                 className="w-full md:h-[900px] sm:h-[500px] h-[435px] object-cover"
                                 style={{ objectPosition: "35% 20%" }}
+                                priority
+                                fetchPriority='high'
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
@@ -377,6 +395,7 @@ const Home = () => {
                         height={0}
                         sizes="100vw"
                         loading="lazy"
+                        fetchPriority='high'
                     />
                 </div>
             </section>

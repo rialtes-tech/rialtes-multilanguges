@@ -125,7 +125,7 @@ const t = useTranslations("uiPath");
                     <Image
                         src="/images/uipath/mobile/banner.webp"
                         alt="Toska Banner Mobile"
-                        className="w-full h-[400px]"
+                        className="w-full h-[400px] object-cover"
                         priority
                         sizes="100vw"
                         width={0}
@@ -134,8 +134,13 @@ const t = useTranslations("uiPath");
                 </div>
                 <div className="h-full absolute custom-container xl:!pr-0 mr-0 top-0">
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
+<<<<<<< HEAD:src/app/[locale]/solutions/process-automation/rpa-consulting-services-provider/page.js
                         <div className="xl:col-span-6  col-span-12 4xl:mt-32 xl:mt-20 mt-40 4xl:pr-16  xl:pr-10 pr-20 md:pr-64">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">  {t('headerTitle')}  </h3>
+=======
+                        <div className="xl:col-span-6  col-span-12 4xl:mt-32 xl:mt-20 mt-40 4xl:pr-16  xl:pr-10 pr-10 max-[340px]:pr-0 md:pr-64">
+                            <h3 className="text-white xl:text-[24px]  font-bold mb-2">UiPath RPA Services</h3>
+>>>>>>> old-origin/develop:src/app/solutions/process-automation/rpa-consulting-services-provider/page.js
                             <h2 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
                             {t('headerDesc')}</h2>
                         </div>
@@ -216,15 +221,22 @@ const t = useTranslations("uiPath");
                 </div>
             </section>
             {/* pre configured section */}
-            <section className="mt-24 my-10 custom-container 4xl:pr-[405px]">
+            <section className="mt-24 my-10 custom-container 4xl:pr-[405px] ">
                 <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
+<<<<<<< HEAD:src/app/[locale]/solutions/process-automation/rpa-consulting-services-provider/page.js
                  {t('industryTitle')}</h2>
                 <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">{t('industryDesc')}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 xl:gap-5 4xl:gap-5 gap-20 xl:mt-[67px] mt-[48px] sm:w-[90%] md:w-[80%] lg:w-[90%] xl:w-full">
+=======
+                    Pre-Configured Industry Accelerators
+                </h2>
+                <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">Rialtes offers industry-specific RPA accelerators for rapid deployment in:</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 xl:gap-5 4xl:gap-5 gap-20 xl:mt-[67px] mt-[40px] w-[80%] md:w-[80%] lg:w-[90%] xl:w-full">
+>>>>>>> old-origin/develop:src/app/solutions/process-automation/rpa-consulting-services-provider/page.js
                     {featureBoxes2.map((feature, index) => (
                         <div
                             key={index}
-                            className={`4xl:border-r xl:border-r ${index < 3 ? "border-b" : ""} ${index === 2 || index === 3 ? "md:border-0" : ""} xl:border-b-0 4xl:border-b-0 border-black lg:pr-10 pl-5 flex flex-col h-full pb-10`}>
+                            className={`4xl:border-r xl:border-r ${index < 3 ? "border-b" : ""} ${index === 2 || index === 3 ? "md:border-0" : ""} xl:border-b-0 4xl:border-b-0 border-black lg:pr-10  flex flex-col h-full pb-10 pr-10`}>
                             <div className="w-[140px] h-[140px] flex items-start justify-start">
                                 <Image
                                     src={feature.icon}

@@ -148,7 +148,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* Header Section */}
-      <section className="relative h-[399px] xl:h-[650px] md:h-[600px]">
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] ">
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
@@ -213,7 +213,7 @@ export default function Page() {
         </div>
       </section>
       {/* ebs plus section */}
-      <section className="relative">
+      <section className="relative pb-20 lg:pb-0">
         <div className="hidden xl:block">
           <Image
             src="/images/oracle-ebs/EBSplus.webp"

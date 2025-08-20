@@ -1,0 +1,1117 @@
+"use client";
+import Image from "next/image";
+import Seo from "@/app/components/Seo";
+import Link from "next/link";
+import Script from "next/script";
+import ContactForm from "@/app/components/contactform";
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Grow with SAP - Cloud ERP Implementation Services",
+    "alternateName": "VoyagerNext by Rialtes",
+    "url": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/",
+    "description": "Rialtes provides end-to-end Grow with SAP transformation services, including SAP Cloud ERP implementation leveraging SAP S/4HANA Cloud, SAP Activate methodology, SAP Signavio, and SAP BTP. Services include implementation, migration from SAP B1, integration with Salesforce, and support for AI, automation, and digital procurement.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc/",
+            "https://www.youtube.com/@rialtes"
+        ]
+    },
+    "areaServed": [
+        {
+            "@type": "Country",
+            "name": "United States"
+        },
+        {
+            "@type": "Country",
+            "name": "Canada"
+        },
+        {
+            "@type": "Country",
+            "name": "India"
+        },
+        {
+            "@type": "Country",
+            "name": "Singapore"
+        }
+    ],
+    "serviceType": [
+        "Grow with SAP Services",
+        "SAP S/4HANA Cloud Public Edition Implementation",
+        "SAP B1 to S/4HANA Migration",
+        "SAP Activate & SAP Signavio Enablement",
+        "SAP SuccessFactors Integration",
+        "SAP Ariba and Procurement Solutions",
+        "SAP BTP Customization and Automation",
+        "SAP CPI Integration",
+        "Salesforce and SAP Integration",
+        "Conversational AI for ERP (AgentChat)",
+        "AI and Data Cloud Enablement"
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "VoyagerNext Offerings",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP License Advisory",
+                    "description": "Guidance on SAP licensing for cost-effectiveness and scalability."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Solution Design & Implementation",
+                    "description": "Design and implement SAP S/4HANA Cloud aligned with industry best practices."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "System Integration & Customization",
+                    "description": "Integrate SAP with legacy systems and customize using SAP BTP and CPI."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Post Go-Live Support & Optimization",
+                    "description": "Hypercare, continuous improvement, and performance monitoring post go-live."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Quality Assurance & User Training",
+                    "description": "Ensure system readiness with testing and user enablement services."
+                }
+            }
+        ]
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": [
+            "Mid-market Enterprises",
+            "Growing Businesses",
+            "Enterprise IT Teams",
+            "SAP Business One Customers",
+            "Digital Transformation Leaders"
+        ]
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+    }
+}
+
+
+export default function Page() {
+    return (
+        <div className="min-h-screen bg-white">
+            <Seo
+                title="MediAIna - Redefining Patient Journey Mapping in Healthcare"
+                description="MediAIna puts patients at the center by mapping every care moment with Salesforce Cloud and Rialtes' LifeAI+ to enable truly connected, human-first healthcare."
+                keywords="home, website, welcome"
+                canonical="https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
+            />
+            <Script
+                id="schema-grow"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            {/* hero section */}
+            <section className="relative group overflow-hidden pb-20 md:pb-48">
+                <div className="xl:block hidden">
+                    <Image
+                        src="/images/products/mediyana/desktop/banner-desk.webp"
+                        alt="grow with sap banner"
+                        fill
+                        style={{ objectFit: "cover" }}
+                        priority
+                    />
+                </div>
+                <div className="xl:hidden block">
+                    <Image
+                        src="/images/products/mediyana/mobile/banner-mobile.webp"
+                        alt="grow with sap banner"
+                        fill
+                        priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
+                    />
+                </div>
+                <div className="relative custom-container 4xl:pb-20">
+                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
+                        <div className="xl:col-span-7 col-span-12 pr-5 4xl:pr-[6rem]">
+                            <h1 className="text-black  leading-tight break-words 4xl:text-[60px] md:text-[32px]  xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
+                                <span className="text-[#073259] text-[20px] xl:text-[24px] font-bold mb-2 break-words">MediAIna</span>  <br>
+                                </br>
+                                <div className="pt-5">Redefining the<br></br> Digital Patient Journey for the Life Sciences Industry</div>
+                            </h1>
+
+                        </div>
+                        <div className="xl:col-span-6 col-span-12">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="xl:pt-10">
+                <div className="custom-container">
+                    <div>
+                        <div className="xl:grid xl:grid-cols-12 grid-cols-1 xl:mt-10  xl:gap-16 4xl:gap-10  flex flex-col-reverse">
+                            <div className="xl:col-span-8 col-span-12">
+                                <p className="leading-tight font-normal 4xl:pr-20">
+                                    MediAIna is Rialtes’ next-generation patient journey software designed to transform the healthcare patient journey. It integrates clinical, operational, and digital touchpoints across providers, payers, MedTech, and life sciences enterprises.
+                                </p>
+                                <p className="mt-5 font-normal  4xl:pr-32">Backed by LifeAI+, Rialtes’ specialized healthcare consulting suite, MediAIna offers intelligent, scalable, and compliant solutions that accelerate innovation, improve outcomes, and deliver human-centered healthcare at scale.</p>
+                            </div>
+                            <div className="xl:col-span-4 col-span-12">
+                                <Image
+                                    src="/images/products/mediyana/desktop/logo-1.svg"
+                                    alt="Empower your enterprise with Rialtes"
+                                    priority
+                                    className="xl:w-[500px]  xl:h-[233] h-[150px] w-[225px] md:h-[200px] md:w-[300px] xl:mt-[-20px]"
+                                    width={0}
+                                    height={0}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="custom-container mx-auto grid  4xl:grid-cols-[620px,991px] xl:mt-[-85px] 2xl:mt-[-100px] 2xl:grid-cols-[530px,842px] xl:grid-cols-[465px,710px]  grid-cols-1  gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0  4xl:mt-0 mt-10">
+
+                    {/* Left Side - Text Card */}
+                    <div className="bg-[#05ACA6] text-white p-12 z-10  relative order-2 xl:order-1 2xl:mt-[60px] 4xl:mt-0 xl:mt-[80px]">
+                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight  md:text-[23px]">Rialtes LifeAI+</h2>
+                        <h3 className="4xl:text-[36px] xl:text-[30px] font-semibold mt-4 leading-tight">
+                            Our Vision for Life Sciences
+                        </h3>
+                        <p className="mt-6 leading-tight font-light">
+                            As a consulting leader in digital transformation, Rialtes believes the future of healthcare is built on connected ecosystems, predictive insights, and intelligent automation. With LifeAI+, our dedicated consulting services for life sciences, we help organizations:
+                        </p>
+
+                        <div className="mt-10 space-y-4 pb-20">
+                            <p className="font-bold 4xl:text-[20px]">Benefits</p>
+                            <ul className="list-disc pl-6 space-y-8 4xl:text-[20px] leading-tight 4xl:pr-8">
+                                <li>Accelerate product-to-market timelines with agile delivery models.</li>
+                                <li>Enable smarter clinical trials, connected care, and digital therapeutics.</li>
+                                <li>Leverage Salesforce, AI, and cloud platforms for compliant innovation.</li>
+                            </ul>
+                        </div>
+
+                      
+                          <Link href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] bottom-0 absolute hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                    </div>
+
+                    {/* Right Side - Image */}
+                    <div className="w-full h-full relative  order-1 xl:order-2">
+                        <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[12rem] xl:ml-[-100px] 2xl:mt-[12rem]">
+                            <Image
+                                src="/images/products/mediyana/desktop/lifeai.webp"
+                                alt="LifeAI Illustration"
+                                className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[815px]"
+                                priority
+                                width={0}
+                                height={0}
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/lifeai.webp"
+                                alt="LifeAI Illustration"
+                                className="object-cover w-full h-full"
+                                priority
+                                width={0}
+                                height={0}
+                            />
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="custom-container 4xl:px-0 2xl:pr-[60px] xl:pr-[60px] xl:pl-0  mt-10 max-md:px-0 max-md:mt-24">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-8 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:px-[35px] md:px-10 max-md:mt-[-200px]">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[42px] xl:text-[48px]  md:text-[23px]">Patient Identification</h2>
+                        <p className="mt-5 4xl:pr-[26rem] 2xl:pr-[20rem] xl:pr-[12rem] font-light xl:text-[16px] 4xl:text-[20px] 2xl:text-[18px]">Leverage AI to detect, segment, and activate the right candidates for therapies, care plans, and trials.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5  mb-6 mt-10 4xl:pr-[8rem] xl:pr-[8rem] 2xl:pr-[9rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 xl:space-y-2 4xl:space-y-5 text-gray-800 text-base xl:4xl:text-[20px] xl:text-[16px]">
+                                    <li>Predictive models trained on clinical, claims, and wearable data.</li>
+                                    <li> Smart filters for rare diseases, chronic care, and trial eligibility.</li>
+                                    <li>  Integration with EHRs and lab data sources.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 xl:space-y-2 4xl:space-y-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Higher patient precision and faster enrollments.</li>
+                                    <li> Reduced outreach cost and better ROI.</li>
+                                    <li>  Improved access to targeted care and therapies.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] text-left hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Explore intelligent patient discovery
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2 max-md:px-[34px]">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] 4xl:h-[300px] xl:h-[500px] 2xl:ml-[-150px] xl:ml-[-150px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/patient-desktop.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[551px] xl:h-[550px] 2xl:h-[500px] 4xl:w-[600px] w-full object-cover"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/paitient-mobile.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+            <section className="custom-container 4xl:px-0 mt-5 max-md:px-0 max-md:mt-20 xl:px-0 xl:mt-32">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-4 4xl:ml-[143px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] xl:mt-[-100px] 2xl:pl-[60px] xl:pl-0 4xl:pl-0">
+                            <Image
+                                src="/images/products/mediyana/desktop/candidate.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[615px] 4xl:w-[600px] 2xl:h-[550px] w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/candidate.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover max-md:px-[35px] relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+                    <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[200px] xl:pl-[180px] xl:pr-[100px] 2xl:pr-[200px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Candidate Education</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] font-light">Transforming candidates into informed partners with personalized digital education, a crucial step in optimizing the patient engagement journey for successful therapy adoption.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Multilingual, interactive content for devices and therapies.</li>
+                                    <li> Adaptive learning based on candidate behavior and feedback.</li>
+                                    <li>  Integrated care education journeys with chat support.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Increased therapy compliance and satisfaction.</li>
+                                    <li>Reduced device misuse and support calls.<li>
+                                    </li>Higher candidate engagement with digital tools.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Explore intelligent patient discovery
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-8 bg-[#EDEDED] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[140px] order-2 xl:order-1 max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[11rem] 2xl:pr-[14rem] xl:pr-[15rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Digital Prior Authorization (PA)</h2>
+                        <p className="mt-5 xl:text-[16px] 4xl:text-[20px] xl:pr-20 4xl:pr-32 2xl:pr-32 font-light">Automate complex prior authorization workflows and reduce treatment delays—an essential part of seamless patient journey in healthcare delivery.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-10 mb-6 mt-10 4xl:pr-[8rem] xl:pr-[10rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>End-to-end PA workflow automation with real-time payer integration.</li>
+                                    <li> Preconfigured rules for top payers and regulatory standards.</li>
+                                    <li>  Case routing, escalation, and tracking dashboards.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>40–60% reduction in processing time. </li>
+                                    <li>Reduced manual errors and rework.<li>
+                                    </li> Faster time-to-care with lower administrative overhead.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Streamline your authorization process
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] 2xl:h-[200px] xl:h-[300px] 2xl:pr-[60px] xl:pr-0 4xl:pr-0">
+                            <Image
+                                src="/images/products/mediyana/desktop/digital.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[651px] 2xl:h-[590px] xl:h-[600px] w-full object-cover"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/digital.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="custom-container 4xl:px-0 mt-5 max-md:mt-20 max-md:px-0 xl:px-0 xl:mt-32 relative">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-3 4xl:ml-[143px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px] xl:mt-[-100px] 2xl:pl-[60px] 4xl:pl-0 xl:pl-0">
+                            <Image
+                                src="/images/products/mediyana/desktop/clinical.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[580px] xl:h-[600px] 2xl:h-[500px] w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/clinical.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+                    <div className="xl:col-span-9 bg-[#CCF7F5] 2xl:h-[575px] 4xl:h-[615px] xl:h-[590px] pt-10 4xl:pl-[280px]  xl:pl-[200px] 2xl:pl-[170px]  max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[5rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Clinical Trial Management with 360° Patient View</h2>
+                        <p className="mt-5 xl:text[16px] 4xl:text-[20px] font-light">Centralize trial operations with unified patient intelligence.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem] xl:pr-20">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Real-time patient profiles from EHR, labs, and wearables.</li>
+                                    <li> Eligibility verification, onboarding, and compliance tracking.</li>
+                                    <li>  Integrated digital diaries and adverse event capture.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Better trial outcomes through continuous patient engagement.  </li>
+                                    <li>Enhanced trial efficiency and reduced dropouts.<li>
+                                    </li>Actionable insights for sponsors and CROs.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16  xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Power smarter trials
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
+                <div className="grid xl:grid-cols-12 relative">
+                    <div className="xl:col-span-8 4xl:h-[674px] 2xl:h-[600px] xl:h-[600px] bg-[#C6E7FF] pt-16 4xl:pl-[280px] 2xl:pl-[150px] xl:pl-[75px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[52px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Long-Term Care Management</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] xl:pr-20 4xl:pr-40 font-light">Extend care beyond the clinic with automated, connected long-term care—empowering ongoing patient journey management and improving health outcomes.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-10 mb-6 mt-10 xl:mt-16 4xl:pr-[10rem] xl:pr-[10rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Personalized care pathways and remote monitoring.  </li>
+                                    <li> Real-time alerts for risk scores and care deviations.</li>
+                                    <li>  Multi-provider collaboration tools and mobile access</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Improved health outcomes and patient retention.  </li>
+                                    <li>Reduced readmissions and avoidable ER visits.<li>
+                                    </li> End-to-end visibility across the care continuum.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Digitize long-term care management
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
+                        <div className="xl:block hidden pt-[6rem] 4xl:ml-[-130px] 4xl:h-[300px] xl:ml-[-100px] xl:h-[545px] 2xl:h-[500px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/long.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[630px] w-full object-cover 2xl:h-[550px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/long.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0 relative">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-3 4xl:ml-[143px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/body.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[580px] w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/body.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+                    <div className="xl:col-span-9 bg-[#EDEDED] 4xl:h-[650px] xl:h-[600px] 2xl:h-[600px] pt-16 4xl:px-[280px] xl:px-[150px] xl:mt-24 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-32 2xl:pr-0 max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Body MAP App – Track Pain & Progress Visually</h2>
+                        <p className="mt-5 font-light">A visual-first approach to understanding the patient’s symptoms and responses.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem] xl:pr-0">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5  text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>10+ pain parameters visualized in one intuitive interface. </li>
+                                    <li> Interactive 3D body mapping for patients and clinicians. </li>
+                                    <li>  Longitudinal tracking of pain vs. therapy progress.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Accelerated diagnostics and therapy adjustments.   </li>
+                                    <li>Enhanced patient-provider communication.<li>
+                                    </li>Objective outcome measurement for chronic care.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Visualize outcomes with Body MAP
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 xl:px-0">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-8 bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-32 max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Conversational Insights with Agentforce</h2>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[16px] font-light">Ask questions. Get instant answers. Act faster—powered by Agentforce.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[10rem] 2xl:pr-[5rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Natural language queries across all MediAIna data.</li>
+                                    <li> Automated insights on care gaps, patient status, and trial KPIs.</li>
+                                    <li> Role-based access with HIPAA-compliant guardrails.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Time savings for care teams and researchers. </li>
+                                    <li>Data democratization across departments.<li>
+                                    </li> Empowered, insight-driven decision-making. </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Talk to your healthcare data
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 2xl:ml-[-100px] 4xl:h-[300px] xl:h-[500px] 2xl:h-[600px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/conversational.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[650px] 2xl:h-[600px] w-full object-cover"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/conver.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="custom-container 4xl:px-0 mt-10 max-md:mt-20 max-md:px-0 xl:px-0 relative">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-3 4xl:ml-[143px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/unified.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[650px]  w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/unified.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+                    <div className="xl:col-span-9 bg-[#C6E7FF] 4xl:h-[660px] 2xl:h-[600px] xl:h-[600px] pt-10 4xl:px-[280px] xl:mt-20 xl:pl-[180px] 2xl:pr-[200px] 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10 2xl:mt-32">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Unified Intelligence with Salesforce Data Cloud</h2>
+                        <p className="mt-5 font-light">Bring every interaction, record, and insight into one powerful data platform.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 4xl:space-y-8 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Harmonized data across providers, payers, trials, and patients.</li>
+                                    <li> Predictive models for risk scoring, engagement, and resource planning.</li>
+                                    <li>Real-time dashboards and cohort analytics.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 4xl:space-y-8 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Smarter, personalized healthcare delivery. </li>
+                                    <li>Holistic decision-making for patient outcomes. <li>
+                                    </li>Improved population health management.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Leverage predictive healthcare intelligence
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 max-md:mt-20 xl:px-0 relative">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-8 4xl:h-[698px] 2xl:h-[570px] xl:h-[600px]  bg-[#EDEDED] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[10rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Seamless Integration with MuleSoft + Athenahealth</h2>
+                        <p className="mt-5 xl:text-[16px] 4xl:text-[20px] font-light">Enable a truly connected care ecosystem with secure, scalable integrations.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[8rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>API-led connectivity with Athenahealth, Epic, Cerner, and SAP. </li>
+                                    <li> Bi-directional data flow across EHR, CRM, and ERP systems.</li>
+                                    <li> FHIR and HL7 standard compliance.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Unified patient records and device tracking.</li>
+                                    <li>Reduced duplication and data silos.<li>
+                                    </li>  Faster implementation and interoperability at scale. </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Connect your digital health stack
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] xl:h-[500px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/seamless.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[680px] 2xl:h-[550px] w-full object-cover"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/seamless.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0 relative">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-3 4xl:ml-[143px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:h-[600px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/real.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[650px] w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/real.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+                    <div className="xl:col-span-9 4xl:h-[660px] 2xl:h-[600px] xl:h-[600px] bg-[#CCF7F5] pt-10 4xl:pl-[280px] xl:mt-20 2xl:mt-24 4xl:pr-[200px] xl:px-[150px] 4xl:mt-24 max-md:px-[35px] max-md:mt-[-200px] md:px-10">
+                        <h2 className="leading-tight max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[23px]">Real-Time Patient Engagement with AgentChat</h2>
+                        <p className="mt-5 font-light">Drive proactive communication across the patient care journey with intelligent chat.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 4xl:space-y-8 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Secure, HIPAA-compliant omnichannel chat for patients and staff. </li>
+                                    <li> AI and live agent handoffs for smarter conversations.</li>
+                                    <li>Integrated with PA, education, and care workflows.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 4xl:space-y-8 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Higher satisfaction, better adherence, faster resolutions. </li>
+                                    <li> Reduced call volume and improved service metrics. <li>
+                                    </li>Consistent experience across every touchpoint.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Engage with AgentChat today
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section className="custom-container 4xl:px-0 mt-20 max-md:px-0 max-md:mt-20 xl:px-0">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-8 bg-[#C6E7FF] pt-10 4xl:pl-[280px] xl:pl-[75px] 2xl:pl-[135px] order-2 xl:order-1 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[11rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Order & Inventory Management Integration with ERP (SAP)</h2>
+                        <p className="mt-5 4xl:pr-[28rem] font-light">Bridge clinical care with operational excellence.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10 xl:mt-16 4xl:pr-[11rem] xl:pr-[5rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Real-time inventory visibility across warehouses and hospitals.</li>
+                                    <li>Integration with SAP for procurement, fulfillment, and billing.</li>
+                                    <li>Automated alerts for replenishment and stock optimization. </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5 text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>360° product traceability from order to delivery.</li>
+                                    <li>Improved device availability and logistics efficiency.<li>
+                                    </li>  Better compliance and cost control. </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left w-full text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Synchronize operations with ERP
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
+                        <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] xl:h-[600px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/order.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[580px] 2xl:h-[600px] xl:h-[600px] w-full object-cover"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/order.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section className="custom-container 4xl:px-0 mt-10 max-md:px-0 max-md:mt-20 xl:px-0 relative">
+                <div className="grid xl:grid-cols-12">
+                    <div className="xl:col-span-3 4xl:ml-[143px]">
+                        <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px]">
+                            <Image
+                                src="/images/products/mediyana/desktop/trusted.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="4xl:h-[630px] w-full object-cover relative"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/products/mediyana/mobile/trusted.webp"
+                                alt="enabling-dynamic-img-mobile"
+                                className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
+                                width={0}
+                                height={0}
+                                priority
+                            />
+                        </div>
+
+                    </div>
+                    <div className="xl:col-span-9 bg-[#EDEDED] 2xl:h-[750px] xl:h-[700px] 4xl:h-[830px] pt-16 4xl:px-[280px] xl:pl-[150px] 2xl:pr-[200px] xl:pr-0 2xl:mt-32 xl:mt-20 4xl:mt-24 max-md:mt-[-200px] max-md:px-[35px] md:px-10">
+                        <h2 className="leading-tight 4xl:pr-[10rem] max-md:pt-[13rem] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  md:text-[23px]">Trusted by Salesforce. Certified by Rialtes.</h2>
+                        <p className="mt-5 4xl:pr-48 font-light pr-20">Built on the Salesforce platform, MediAIna adheres to the most rigorous global security and privacy standards.</p>
+                        <div className="grid grid-cols-1 xl:grid-cols-2 xl:gap-16 gap-5 mb-6 mt-10  4xl:pr-[4rem]">
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Benefits
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5  text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>HIPAA – Safeguarding electronic health data. </li>
+                                    <li> FedRAMP – Government-grade cloud security.</li>
+                                    <li>SOC 2 Type II – Operational integrity and controls.</li>
+                                    <li>GDPR – Privacy-compliant across the EU.</li>
+                                    <li>Rialtes Certified Security Team – Continuous audits and governance.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="text-[#006FBE] font-semibold mb-2 text-lg xl:4xl:text-[22px]">
+                                    Outcomes
+                                </h3>
+                                <ul className="list-disc pl-5 space-y-5  text-gray-800 text-base xl:4xl:text-[20px]">
+                                    <li>Trusted by providers, payers, CROs, and regulators.</li>
+                                    <li> Accelerated deployment in highly regulated environments. <li>
+                                    </li>Total peace of mind for your stakeholders and patients.</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
+
+                            <Link href="/contact-us">
+                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                    Learn More
+                                </button>
+                            </Link>
+                            <Link href="/contact-us">
+                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
+                                    Read about our security and compliance practices
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section className="custom-container text-black py-16 mt-16 max-md:mt-0">
+                <ContactForm title={'Let’s Begin.'} subtitle={"The future of patient experience is intelligent, connected, and outcome-driven. With MediAIna, Rialtes empowers you to reimagine every step of the journey—from identification to engagement, from trials to care, and from data to decisions."} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px]"} />
+            </section>
+        </div >
+    );
+}

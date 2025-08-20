@@ -120,7 +120,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
                     <Image
                         src="/images/services/salesforce-agentforce/hero-desk-banner.webp"

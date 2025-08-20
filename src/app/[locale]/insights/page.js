@@ -508,7 +508,7 @@ export default function InsightsPage() {
               className="border border-gray-200 overflow-hidden bg-white"
               onMouseEnter={handleMouseEnter("webinar-2")}
               onMouseLeave={handleMouseLeave("webinar-2")}
-              onClick={handleClick("/insights/webinars/rise-with-sap-transformation-rialtes")}
+              onClick={handleClick("/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",

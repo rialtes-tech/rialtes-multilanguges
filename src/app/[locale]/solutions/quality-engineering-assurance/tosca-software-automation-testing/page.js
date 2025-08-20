@@ -158,11 +158,20 @@ const t = useTranslations("tosca");
         </div>
         <div className="h-full absolute custom-container xl:!pr-0  mr-0 top-0">
           <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
-            <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  xl:pr-10 pr-5 md:pr-64">
+            <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  2xl:pr-14 xl:pr-10 pr-5 md:pr-64">
               <h3 className="text-white xl:text-[24px]  font-bold mb-2">
+<<<<<<< HEAD:src/app/[locale]/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               {t('headerSubTitle')}</h3>
               <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
                 {t('headerTitle')}
+=======
+                {" "}
+                Tricentis TOSCA
+              </h3>
+              <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px] xl:text-[42px]  2xl:text-[48px]">
+                Elevate Quality Engineering with Rialtes’ Tosca Automation
+                Testing Services
+>>>>>>> old-origin/develop:src/app/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               </h1>
             </div>
             <div className="xl:col-span-7 col-span-12"></div>
@@ -270,7 +279,7 @@ const t = useTranslations("tosca");
             </p>
             <UnorderedList
               arrName={endToEndData}
-              ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 mt-5 pr-16 xl:pr-0 md:pb-0"
+              ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 mt-5 pr- xl:pr-0 md:pb-0"
               liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]"
             />
           </div>
@@ -400,7 +409,7 @@ const t = useTranslations("tosca");
       {/* neo load section */}
       <section className="mt-10 xl:custom-container 4xl:px-[142px] max-lg:px-0">
         <div className="grid xl:grid-cols-12">
-          <div className="xl:col-span-5 col-span-12 mt-10 xl:mt-[10rem] 4xl:ml-[-200px] xl:ml-[-105px] order-1 xl:order-2">
+          <div className="xl:col-span-5 col-span-12 mt-10 xl:mt-[10rem] 4xl:ml-[-200px] xl:ml-[-105px] 2xl:ml-[-155px] order-1 xl:order-2">
             <div className="xl:block hidden">
               <Image
                 className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative"
@@ -424,7 +433,7 @@ const t = useTranslations("tosca");
               />
             </div>
           </div>
-          <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0  xl:pb-0 4xl:pb-0">
+          <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0  xl:pb-0 4xl:pb-0 4xl:pr-0 2xl:pr-40">
             <h2 className="text-[26px] 4xl:text-[60px] xl:text-[40px] leading-tight 4xl:pr-0  pt-[15rem] xl:pt-16 4xl:pt-16">
               {t('neoTitle')}
             </h2>
@@ -435,13 +444,19 @@ const t = useTranslations("tosca");
               <h3 className="mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight">
                  {t('neoSubTitleOne')}
               </h3>
+<<<<<<< HEAD:src/app/[locale]/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               <p className="4xl:text-[22px] xl:text-[14px] text-[16px] mt-5 font-light">
                  {t('neoDesc')}
+=======
+              <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] mt-5 font-light">
+                NeoLoad enables continuous performance testing, and Rialtes
+                ensures enterprises stress test their applications effectively:
+>>>>>>> old-origin/develop:src/app/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
               </p>
               <UnorderedList
                 arrName={neoLoadData}
-                ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 mt-5 pr-1 xl:pr-0"
-                liClassName=" 4xl:text-[20px] xl:text-[14px] text-[16px]"
+                ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 2xl:mt-10 mt-5 pr-1 xl:pr-0 "
+                liClassName=" 4xl:text-[20px] 2xl:text-[18px] text-[16px]"
               />
               <div className="xl:hidden block mt-10">
                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
@@ -455,11 +470,18 @@ const t = useTranslations("tosca");
           </div>
         </div>
       </section>
-      <div className="grid grid-cols-12 xl:mt-[-10px] 4xl:mt-[-186px] absolute">
+      <div className="grid grid-cols-12 xl:mt-[-10px] 4xl:mt-[-186px]  absolute">
         <section className="custom-container bottom-0 xl:col-span-7 col-span-12  xl:px-0 4xl:pl-[280px]  xl:pl-[82px]  mt-[-11rem] md:mt-[-7rem] xl:mt-[20px] 4xl:mt-0">
           <div className=" bg-[#073259] xl:block hidden p-8  xl:mt-[-50px]  2xl:mt-[-2rem]">
+<<<<<<< HEAD:src/app/[locale]/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
             <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
               {t('neoPara')}
+=======
+            <p className="4xl:text-[24px] 2xl:text-[20px] xl:text-[18px] text-[18px] text-white leading-tight font-normal">
+              Rialtes helps ensure that your applications are built for
+              performance from day one, delivering seamless user experiences at
+              scale.
+>>>>>>> old-origin/develop:src/app/solutions/quality-engineering-assurance/tosca-software-automation-testing/page.js
             </p>
           </div>
         </section>
@@ -469,7 +491,7 @@ const t = useTranslations("tosca");
         </div>
       </div>
       {/* rialtes certified section */}
-      <section className="mt-20 4xl:mt-20 xl:mt-32 custom-container 4xl:pl-[280px] 4xl:pr-[120px] xl:pl-[142px]">
+      <section className="mt-20 4xl:mt-20 2xl:mt-40 xl:mt-40 custom-container 4xl:pl-[280px] 4xl:pr-[120px] xl:pl-[142px]">
         <div className="grid xl:grid-cols-12 4xl:gap-16 grid-cols-1">
           <div className="xl:col-span-5 col-span-12">
             <div className="xl:block hidden">

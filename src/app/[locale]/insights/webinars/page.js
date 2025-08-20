@@ -35,6 +35,128 @@ const schemaData = {
 const webinars = [
 ];
 
+<<<<<<< HEAD:src/app/[locale]/insights/webinars/page.js
+=======
+const allWebinars = [
+  {
+    id: 6,
+    title: "CIG, Your Gateway to SAP Ariba",
+    date: "10 June, 2025",
+    time: "10:00 AM CST",
+    speaker: "Sapna Chauhan",
+    position: "Software Engineer - SAP",
+    image: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
+  },
+  {
+    id: 5,
+    title: "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
+    date: "June 03, 2025",
+    time: "10:00 AM CST",
+    speaker: "Anuraag Aggarwal",
+    position: "Vice President of Global Sales",
+    image: "/images/webinar/rise.webp",
+    url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes'
+  },
+  {
+    id: 1,
+    title: "Discover the Agentic Capabilities of Agentforce",
+    date: "May 15, 2025",
+    time: "10:00 AM CST",
+    speaker: "Lokesh Adhikari",
+    position: "Software Engineer - Salesforce",
+    image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
+
+  },
+  {
+    id: 2,
+    title: "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
+    date: "May 13, 2025",
+    time: "10:00 AM CST",
+    speaker: "Akshay Kale",
+    position: "Sr. Managing Director – SAP Services",
+    image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
+  },
+  {
+    id: 3,
+    title: "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
+    date: "May 08, 2025",
+    time: "10:00 AM CST",
+    speaker: "Divya Agarwal",
+    position: "Software Engineer - Salesforce",
+    image: "/images/webinar/webinar-thumb.webp",
+    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+
+  },
+  {
+    id: 4,
+    title: "Let’s WhatsApp in Salesforce with AgentChat",
+    date: "May 06, 2025",
+    time: "10:00 AM CST",
+    speaker: "Lokesh Adhikari",
+    position: "Software Engineer - Salesforce",
+    image: "/images/webinar/Webinar_6.webp",
+    url: 'insights/webinars/let-whatsapp-in-salesforce-with-agentchat'
+  },
+
+  // {
+  //   id: 3,
+  //   title: "SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud",
+  //   date: "November 5, 2024",
+  //   time: "10:00 AM CST",
+  //   speaker: "Kushagra Shah",
+  //   position: "Senior Principal Consultant, SAP",
+  //   image: "/images/webinar/webinar-thumb-1.webp",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Cloud Migration Strategies for Enterprise",
+  //   date: "October 25, 2024",
+  //   time: "11:00 AM CST",
+  //   speaker: "Raj Patel",
+  //   position: "Cloud Solutions Architect",
+  //   image: "/images/webinar/webinar-thumb-3.webp",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Data Analytics with Power BI",
+  //   date: "October 20, 2024",
+  //   time: "2:00 PM CST",
+  //   speaker: "Lisa Johnson",
+  //   position: "Data Analytics Specialist",
+  //   image: "/images/webinar/webinar-thumb-1.webp",
+  // },
+  // {
+  //   id: 6,
+  //   title: "AI Implementation in Customer Service",
+  //   date: "October 15, 2024",
+  //   time: "1:00 PM CST",
+  //   speaker: "Michael Zhang",
+  //   position: "AI Solutions Manager",
+  //   image: "/images/webinar/webinar-thumb-3.webp",
+  // },
+  // {
+  //   id: 7,
+  //   title: "DevOps Best Practices",
+  //   date: "October 10, 2024",
+  //   time: "11:00 AM CST",
+  //   speaker: "Sarah Williams",
+  //   position: "DevOps Engineer",
+  //   image: "/images/webinar/webinar-thumb-1.webp",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Cybersecurity Trends 2025",
+  //   date: "October 5, 2024",
+  //   time: "10:00 AM CST",
+  //   speaker: "James Rodriguez",
+  //   position: "Security Specialist",
+  //   image: "/images/webinar/webinar-thumb-3.webp",
+  // },
+];
+>>>>>>> old-origin/develop:src/app/insights/webinars/page.js
 
 export default function About() {
   const t = useTranslations('webinars')
