@@ -1,17 +1,29 @@
+import { useState } from "react";
 import Link from "next/link";
 
-export default function LearnMore({ btnName, bgcolor, bordercolor, href, arialabel }) {
-
+export default function LearnMoreButton({
+  href = "/contact-us",
+  arialabel = "Learn more about Salesforce implementation services",
+  btnName = "Learn More",
+  bgcolor = "#134874",
+  bordercolor = "#134874"
+}) {
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <Link
-      href={href ? href : "/contact-us"}
-      aria-label={arialabel ? arialabel : "Learn more about Salesforce implementation services"}
-      className={`inline-block 4xl:text-[20px] text-[16px] xl:text-[16px] border border-solid font-semibold text-white py-3 px-8 transition duration-300 mt-6
-      bg-[${bgcolor ? bgcolor : "#134874"}] border-[${bordercolor ? bordercolor : "#134874"}] hover:bg-white hover:text-[${bgcolor ? bgcolor : "#134874"}]`}
+      href={href}
+      aria-label={arialabel}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      style={{
+        backgroundColor: isHovered ? "#fff" : bgcolor,
+        borderColor: bordercolor,
+        color: isHovered ? bgcolor : "#fff",
+      }}
+      className="inline-block 4xl:text-[20px] text-[16px] xl:text-[16px] border border-solid font-semibold py-3 px-8 transition duration-300 mt-6"
     >
-      {btnName ? btnName : "Learn More"}
+      {btnName}
     </Link>
-
   );
 }
