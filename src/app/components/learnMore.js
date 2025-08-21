@@ -1,5 +1,6 @@
-import { useState } from "react";
+"use client"
 import Link from "next/link";
+import { useState } from "react";
 
 export default function LearnMoreButton({
   href = "/contact-us",

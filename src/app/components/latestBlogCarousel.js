@@ -9,6 +9,16 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+     {
+    id: 24,
+    image: "/images/blog/sustain-small-slider.webp", 
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "21 August 2025",
+    url: 'insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet',
+    title: "Artificial Intelligence isn’t just powering smart cities or automating industries. It’s quietly becoming one of the most effective tools in the fight against climate change.",
+    description: "We must reduce greenhouse gas emissions and transition to renewable energy sources to protect our planet and future generations. However, the hope for a sustainable future lies in conservation and innovation. Here’s how.",
+  },
     {
     id: 23,
     image: "/images/blog/Agentforce-featured-blog.webp", 

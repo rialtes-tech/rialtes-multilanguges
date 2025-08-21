@@ -135,17 +135,11 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
           </div>
        
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className='pb-6'>
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-between text-black">
+              <div className=''>
                 <span className='text-[#0092E0]'>Healthcare </span> <span className='text-[#ACACAC]'> | </span>02 August 2024
               </div>
-           
-              <div className="flex flex-col ">
-                <span>8 min read</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]">
+              <div className="flex flex-row gap-6 ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -180,6 +174,9 @@ const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health
                     </a>
                   </div>
                   </div>
+            </div>
+            <div className="pt-4"></div>
+         
           </div>
 
           <div className="py-6"></div>

@@ -138,16 +138,11 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className='pb-6'>
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-between text-black">
+              <div className=''>
                 <span className='text-[#0092E0]'>Healthcare </span> <span className='text-[#ACACAC]'> | </span>16 August 2024
               </div>
-              <div className="flex flex-col">
-                <span>8 min read</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-col ml-[-8px]">
+               <div className="flex flex-col ml-[-8px]">
               <div className="flex flex-row gap-6">
                 <div className="max-w-[40px]">
                   <a
@@ -185,6 +180,9 @@ export default function Page() {
                 </div>
               </div>
             </div>
+            </div>
+            <div className="pt-4"></div>
+          
           </div>
 
           <div className="py-6"></div>
