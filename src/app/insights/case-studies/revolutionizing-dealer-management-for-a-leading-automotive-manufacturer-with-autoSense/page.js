@@ -131,15 +131,10 @@ export default function Page() {
           </div>
           <div className=""></div>
           <div>
-            <div className="flex flex-col md:flex-row justify-between text-black  ">
-              <div className="pb-6">
+            <div className="flex flex-col md:flex-row  gap-4 justify-between items-center text-black  ">
+              <div className="">
                 <span className='text-[#0092E0]'>Manufacturing</span> <span className='text-[#ACACAC]'> | </span>03 June 2025
               </div>
-              <div className="flex flex-col ">
-                <span>8 min read</span>
-              </div>
-              </div>
-                 <div className="pt-4"></div>
               <div className="flex flex-row gap-6  ml-[-8px]">
                   <div className="max-w-[40px]">
                     <a
@@ -175,6 +170,9 @@ export default function Page() {
                     </a>
                   </div>
                 </div>
+              </div>
+                 <div className="pt-4"></div>
+             
             
  
            

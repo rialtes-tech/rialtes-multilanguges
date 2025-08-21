@@ -33,6 +33,16 @@ const schemaData = {
 }
 const latestCaseStudy = [
   {
+  id: 15,
+    image: "/images/case-studies/Small thumb.webp",
+    industry: "Education Cloud",
+    date: "21 August 2025",
+    url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+    title: "Transforming Student Success with Salesforce Education Cloud and Edu+",
+    description: "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
+  
+  },
+  {
     id: 14,
     image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
     industry: "Automotive",
@@ -315,6 +325,16 @@ const CaseStudy = () => {
 const FeaturedCarousel = () => {
   const slides = [
     {
+     id: 7,
+      imgSrc: '/images/case-studies/Small thumb.webp',
+      category: "Education Cloud",
+      date: "21 August 2025",
+      url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+      title: "Transforming Student Success with Salesforce Education Cloud and Edu+",
+      description: "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
+  
+    },
+    {
       id: 6,
       imgSrc: '/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp',
       category: "Automotive",
@@ -332,15 +352,15 @@ const FeaturedCarousel = () => {
       title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
       description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
     },
-    {
-      id: 4,
-      imgSrc: '/images/case-studies/revolutionizing-latest-carosel.webp',
-      category: 'Manufacturing',
-      date: '03 June 2025',
-      url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
-      title: "Revving Up Dealer Management with AutoSense by Rialtes",
-      description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
-    },
+    // {
+    //   id: 4,
+    //   imgSrc: '/images/case-studies/revolutionizing-latest-carosel.webp',
+    //   category: 'Manufacturing',
+    //   date: '03 June 2025',
+    //   url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
+    //   title: "Revving Up Dealer Management with AutoSense by Rialtes",
+    //   description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
+    // },
     // {
     //   id: 1,
     //   imgSrc: '/images/case-studies/fiori-main-page.webp',

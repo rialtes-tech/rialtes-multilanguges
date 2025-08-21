@@ -86,7 +86,7 @@ const slides = [
 
 
 export default function Page() {
-  const fullUrl = "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense";
 
   return (
     <div className="min-h-screen bg-white">
@@ -133,16 +133,11 @@ export default function Page() {
           </div>
         
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between  text-black">
-              <div className='pb-6'>
+            <div className="flex flex-col md:flex-row  gap-4 justify-between items-center  text-black">
+              <div className=''>
                 <span className='text-[#0092E0]'>Automotive </span> <span className='text-[#ACACAC]'> | </span>30 June 2025
               </div>
-              <div className="flex flex-col">
-                <span>8 min read</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]  ">
+             <div className="flex flex-row gap-6 ml-[-8px]  ">
               <div className="max-w-[40px]">
                 <a
                   href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
@@ -177,6 +172,9 @@ export default function Page() {
                 </a>
               </div>
             </div>
+            </div>
+            <div className="pt-4"></div>
+            
           </div>
 
           <div className="py-6"></div>
