@@ -81,7 +81,7 @@ const slides = [
         description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
         url: 'insights/case-studies/realForce-banking-module-ach'
     },
-    // Add more blog objects as needed
+    
 ];
 
 const eduPlusFeatures = [
