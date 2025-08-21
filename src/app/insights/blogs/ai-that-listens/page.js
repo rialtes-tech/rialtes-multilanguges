@@ -411,6 +411,6 @@ export default function Page() {
             <div className="custom-container lg:pr-0 pb-10 mt-3">
                 <BlogsCarousel slides={blogs} />
             </div>
-        </div >
+        </div>
     );
 }
