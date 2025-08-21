@@ -30,17 +30,18 @@ const generateCaptcha = () => {
     }
     return { question, answer };
 };
-export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
+export default function ContactForm({ title, subtitle, subtitle1, className, padding, beginBtnBg }) {
     const [captcha, setCaptcha] = useState(generateCaptcha());
     const [userAnswer, setUserAnswer] = useState('');
     const [error, setError] = useState('');
     const [formErrors, setFormErrors] = useState({});
     const formRef = useRef(null);
+    const [isHovered, setIsHovered] = useState(false);
     const [mounted, setMounted] = useState(false);
     useEffect(() => {
-    setMounted(true);
-    generateCaptcha(); // generate on client only
-  }, []);
+        setMounted(true);
+        generateCaptcha(); // generate on client only
+    }, []);
     const refreshCaptcha = () => {
         setCaptcha(generateCaptcha());
         setUserAnswer('');
@@ -127,7 +128,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
         setFormErrors({});
     }, []);
 
- if (!mounted) return null;
+    if (!mounted) return null;
     return (
         <section className={(padding ? padding : '')}>
             <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px] ${className}`}>
@@ -147,30 +148,30 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
             <form ref={formRef} onSubmit={handleSubmit} action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" className="space-y-4 mt-10">
                 <input type="hidden" name="oid" value="00D8V000002Xglg" />
                 <input type="hidden" name="retURL" value="https://www.rialtes.com/thank-you" />
-                <input type="text" name="website"  id="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
+                <input type="text" name="website" id="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
 
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="first_name" maxLength="40"  name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
+                        <input id="first_name" maxLength="40" name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
                         {formErrors.first_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.first_name}</motion.p>}
                     </div>
                     <div className="lg:w-1/4">
-                        <input id="last_name"  maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
+                        <input id="last_name" maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
                         {formErrors.last_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.last_name}</motion.p>}
                     </div>
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="email" maxLength="80" name="email"  type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
+                        <input id="email" maxLength="80" name="email" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
                         {formErrors.email && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.email}</motion.p>}
                     </div>
-                    <input id="company" maxLength="40" name="company"  type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
+                    <input id="company" maxLength="40" name="company" type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
-                    <input id="title" maxLength="40" name="title"  type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
-                    <input id="phone" maxLength="10" name="phone"  className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
+                    <input id="title" maxLength="40" name="title" type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
+                    <input id="phone" maxLength="10" name="phone" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
                 </div>
 
                 <div className="pb-5">
@@ -186,7 +187,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
                     <div className="flex items-center space-x-4">
-                        <span className="font-semibold text-lg text-gray-800"> {captcha.question} = ?</span>
+                        <span className={`font-semibold text-lg text-[${beginBtnBg ? "white":"gray-800"}]`}> {captcha.question} = ?</span>
                         <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
                             ↻
                         </button>
@@ -196,18 +197,25 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         value={userAnswer}
                         onChange={(e) => setUserAnswer(e.target.value)}
                         placeholder="Enter Captcha"
-                        className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="border border-gray-400 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         required
                     />
                     <input type="hidden" name="form_submit" value="Submit" />
                     <button
                         type="submit"
-
                         value="Submit"
-                        className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}
+                        style={{
+                            backgroundColor: isHovered ? "#ffffff" : (beginBtnBg || "#134874"),
+                            color: isHovered ? "#134874" : "#ffffff",
+                        }}
+                        className="border border-[#134874] font-semibold py-3 px-8 transition duration-300"
                     >
                         Let's Begin
                     </button>
+
+
                 </div>
                 <div>Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
 

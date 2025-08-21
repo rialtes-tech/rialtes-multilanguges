@@ -271,7 +271,7 @@ export default function About() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">-
+      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">-
         <Image
           src="/images/webinar/webinar-header.webp"
           alt="Webinar Header"

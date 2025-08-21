@@ -352,7 +352,7 @@ const Home = () => {
                             return (
                                 <React.Fragment key={index}>
                                     <Link href={success.url}>
-                                        <div className="relative  4xl:h-[486px] lg:h-[360px] h-[391px] overflow-hidden group shadow-lg">
+                                        <div className="relative  4xl:h-[486px] lg:h-[360px] h-[391px] max-[375px]:h-[350px] max-[320px]:h-[300px] overflow-hidden group shadow-lg">
                                             <div
                                                 className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
                                             >
@@ -400,10 +400,10 @@ const Home = () => {
                         }`}
                 >
                     <div className='col-span-6'>
-                        <h2 className='4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise <br />& Solutions</h2>
+                        <h2 className='4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise & Solutions</h2>
                     </div>
                     <div className='col-span-6'>
-                        <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
+                        <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
                     </div>
                 </div>
 

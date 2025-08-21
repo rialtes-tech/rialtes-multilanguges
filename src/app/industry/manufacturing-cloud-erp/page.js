@@ -176,7 +176,7 @@ export default function Page() {
       <section className="xl:mt-16 mt-8 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-7 col-span-12">
-            <p className="mt-10  leading-tight xl:pr-20 pr-10">Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.</p>
+            <p className="mt-10  leading-tight xl:pr-20 ">Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.</p>
           </div>
           <div className="xl:col-span-5 col-span-12">
           </div>
@@ -210,7 +210,7 @@ export default function Page() {
           <div className="relative  px-[48px] pb-[80px] pt-[45px]  4xl:w-[570px] w-[488px] 4xl:h-[695px] xl:block hidden">
             <div className="xl:absolute  inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative  bg-opacity-80 text-white z-10 rounded-lg">
-              <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">Thought Leadership</h2>
+              <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[35px] text-[26px]">Thought Leadership</h2>
               <h3 className="4xl:text-[36px] xl:text-[26px] text-[22px] mt-5 leading-tight font-semibold">Leading the Digital Reinvention of Manufacturing</h3>
               <p className='mt-5 font-normal'>At Rialtes, we believe the future of manufacturing lies in resilient, adaptive, and AI-powered ecosystems. From digital twins to predictive supply chains, we help manufacturers think ahead of disruption and innovate at scale. Our focus is on customer personalization, operational efficiency, and global compliance, powered by connected data and automation.</p>       </div>
           </div>
@@ -276,7 +276,7 @@ export default function Page() {
           />
         </div>
         <div className="xl:col-span-4 col-span-12">
-          <div className="xl:col-span-4 col-span-12 bg-[#C17B57] text-white xl:pl-14 pr-14 pt-14 p-10 pb-0 w-full">
+          <div className="xl:col-span-4 col-span-12 bg-[#C17B57] text-white xl:pl-14 pr-4 pt-14 p-10 pb-0 w-full">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Pre-Built Manufacturing Accelerators</h2>
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">Speed, Scale, Success</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">With industry-specific accelerators, Rialtes enables manufacturers to deploy ready-to-use solutions that cut down months of setup time. From smart factory templates to AI-powered predictive workflows, our tools are designed to accelerate value realization, improve productivity, and drive intelligent operations. Our accelerators also ensure regulatory compliance and quality assurance, reducing risks during implementation.</p>
@@ -288,7 +288,7 @@ export default function Page() {
         <div className="xl:col-span-1 col-span-12"></div>
       </section>
       {/* discrite manufacturing section */}
-      <section className="custom-container mt-16">
+      <section className="custom-container max-md:px-0 mt-16">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           {/* Image First on Mobile */}
           <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
@@ -303,7 +303,7 @@ export default function Page() {
             />
           </div>
           {/* Text Second on Mobile */}
-          <div className="xl:col-span-5 col-span-12 xl:mx-0 order-2 xl:order-1">
+          <div className="xl:col-span-5 col-span-12 xl:mx-0 order-2 xl:order-1 custom-container md:px-0">
             <h2 className="leading-tight mt-10 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">Discrete Manufacturing</h2>
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
               Managing Complex Products Made Simple
@@ -342,12 +342,12 @@ export default function Page() {
           className="relative text-white">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="col-span-7"></div>
-            <div className="xl:col-span-5 col-span-12 xl:pt-8 xl:px-16 xl:mt-0 p-10 xl:p-0 mt-[30rem]  xl:pb-16 xl:mx-0 bg-[#0098D1] opacity-[0.9]">
+            <div className="xl:col-span-5 col-span-12 xl:pt-8 xl:px-16 xl:mt-0 p-8 xl:p-0 mt-[30rem]  xl:pb-16 xl:mx-0 bg-[#0098D1] opacity-[0.9]">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Process Manufacturing</h2>
               <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold  leading-tight">
                 Optimize Compliance and Yield
               </h3>
-              <p className="mt-5 font-light pr-10 leading-tight xl:pr-0">We support process manufacturers in managing complex formulations, compliance demands (FDA, ISO, GMP), and volatile supply chains. Our solutions optimize batch production, yield management, and real-time quality tracking, ensuring consistent outputs and reduced waste. Rialtes also enables traceability and recalls management through integrated, AI-enabled systems.</p>
+              <p className="mt-5 font-light  leading-tight xl:pr-0">We support process manufacturers in managing complex formulations, compliance demands (FDA, ISO, GMP), and volatile supply chains. Our solutions optimize batch production, yield management, and real-time quality tracking, ensuring consistent outputs and reduced waste. Rialtes also enables traceability and recalls management through integrated, AI-enabled systems.</p>
             </div>
           </div>
         </div>
@@ -395,7 +395,7 @@ export default function Page() {
               height={0}
               sizes="100vw"
             />
-            <div className="bg-[#CA7D12] p-12">
+            <div className="bg-[#CA7D12] p-10">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">AI & Robotic Manufacturing</h2>
               <h3 className="4xl:text-[42px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
                 Creating Smart, Autonomous Factories
@@ -415,7 +415,7 @@ export default function Page() {
               height={0}
               sizes="100vw"
             />
-            <div className="bg-[#0963C4] p-12">
+            <div className="bg-[#0963C4] p-10">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">Job Shop Manufacturing</h2>
               <h3 className="4xl:text-[42px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
                 Managing Custom Production with Precision
@@ -455,8 +455,8 @@ export default function Page() {
           <div className="col-span-6"></div>
           <div className="col-span-4">
             <div className="bg-[#A1DAF6] p-10 text-black pb-20 mx-[35px] xl:mx-0">
-              <h2 className="leading-tight pr-20 xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">Data Cloud & Tableau</h2>
-              <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold pr-10 xl:pr-0">Actionable Insights with Visual Analytics</h3>
+              <h2 className="leading-tight pr-10 xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">Data Cloud & Tableau</h2>
+              <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold pr-4 xl:pr-0">Actionable Insights with Visual Analytics</h3>
               <p className="mt-8 leading-tight 4xl:text-[20px] xl:text-[15px]">With Data Cloud and Tableau, Rialtes helps manufacturers turn complex operational data into meaningful insights. From OEE tracking and downtime analysis to supply chain risks and customer demand forecasting, our dashboards provide real-time visibility for proactive decision-making. AI models further enhance predictive maintenance and inventory optimization.</p>
               <div className="absolute mt-5">
                 <LearnMore />
@@ -467,7 +467,7 @@ export default function Page() {
         </div>
       </section>
       {/* ERP integration section */}
-      <section className="xl:mt-48 custom-container xl:mx-0 mt-[28rem] xl:!pr-[142px]">
+      <section className="4xl:mt-48 2xl:mt-36 xl:mt-48 custom-container xl:mx-0 mt-[28rem] max-[320px]:mt-[50rem]  max-[360px]:mt-[40rem] max-[395px]:mt-[34rem]   xl:!pr-[142px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 gap-5">
           <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
             <Image
@@ -481,9 +481,9 @@ export default function Page() {
             />
           </div>
           <div className="xl:col-span-5 col-span-12 order-2 xl:order-1">
-            <h2 className="leading-tight pr-16 xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">ERP Integration with SAP & Oracle via MuleSoft</h2>
+            <h2 className="leading-tight xl:pr-0 pr-4 4xl:text-[60px] xl:text-[40px] mt-4 text-[26px]">ERP Integration with SAP & Oracle via MuleSoft</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">End-to-End Visibility</h3>
-            <p className="mt-8 pr-10 font-normal leading-tight">
+            <p className="mt-8 pr-4 font-normal leading-tight">
               Rialtes ensures seamless integration between front-end systems and back-end ERPs like SAP and Oracle using MuleSoft. This allows manufacturers to orchestrate production planning, order management, procurement, and finance without silos. Real-time data flows enable accurate decision-making, lower costs, and streamlined supply chains.
             </p>
           </div>
@@ -526,13 +526,13 @@ export default function Page() {
               sizes="100vw"
             />
           </div>
-          <div className="xl:col-span-4 col-span-12 bg-[#33A316] p-8 text-white xl:mt-10 mb-10 z-[9] mx-[35px] xl:mx-0 mt-[-115px]">
+          <div className="xl:col-span-4 col-span-12 bg-[#33A316] p-10 text-white xl:mt-10 mb-10 z-[9] mx-[35px] xl:mx-0 mt-[-115px]">
             <h2 className="leading-tight  xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">AI in Manufacturing</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold ">Shaping a Smarter Future</h3>
-            <p className="mt-8  font-light leading-tight">
+            <p className="mt-8  font-light leading-tight ">
               AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.
             </p>
-            <div className="xl:mt-5 absolute  xl:relative">
+            <div className="xl:mt-5 mt-[-10px]  absolute  xl:relative">
               <LearnMore  />
             </div>
           </div>
@@ -550,7 +550,7 @@ export default function Page() {
         </div>
       </section>
       {/* power section */}
-      <section className="xl:mt-24 mt-16 mx-[24px] xl:mx-0">
+      <section className="xl:mt-24 mt-16  xl:mx-0 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-16">
           <div className="xl:col-span-6 col-span-12">
             <div className="xl:block hidden h-full">
@@ -579,11 +579,11 @@ export default function Page() {
           <div className="xl:col-span-5 col-span-12">
             <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">SAP & Salesforce</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">The Power Duo for Intelligent Manufacturing</h3>
-            <p className="mt-8 font-normal leading-tight pr-20">
+            <p className="mt-8 font-normal leading-tight pr-4">
               Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
             </p>
             <div className="mt-5">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  />
             </div>
           </div>
         </div>
@@ -606,7 +606,7 @@ export default function Page() {
             src="/images/industry/manufacture/fact-mobile.webp"
             alt="fast facts image"
             priority
-            className="w-full h-[1360px] md:h-[1024px]"
+            className="w-full h-[1440px] md:h-[1024px]  "
             width={0}
             height={0}
             sizes="100vw"
@@ -616,7 +616,7 @@ export default function Page() {
           <div className="xl:col-span-7 md:col-span-1 col-span-12">
             <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]">Fast Facts</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] xl:text-[30px] leading-tight">Manufacturing Industry Insights</h3>
-            <div className="grid xl:grid-cols-12 grid-cols-12 md:grid-cols-2 mt-10">
+            <div className="grid xl:grid-cols-12 grid-cols-12 md:grid-cols-2 mt-10 ">
               <div className="xl:col-span-6 md:col-span-1 col-span-12">
                 <div>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">70% </h2>
@@ -630,11 +630,11 @@ export default function Page() {
                   <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">Cloud-enabled manufacturing systems increase equipment effectiveness by </h3>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">15%.</h2>
                 </div>
-                <div className="xl:mt-[65px] mt-[325px] md:mt-0 absolute  xl:relative">
+                <div className="4xl:mt-[50px] 2xl:mt-[190px] xl:mt-[-15px] mt-[395px] max-[375px]:mt-[375px] md:mt-8 absolute  ">
                   <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                 </div>
               </div>
-              <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10 mt-10 xl-mt-0">
+              <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10  mt-10 xl-mt-0">
                 <div>
                   <h3 className="pr-10 leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]" >AI adoption in manufacturing expected to surpass   </h3>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px] xl:text-[40px]">$20 billion </h2>
