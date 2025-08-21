@@ -49,6 +49,18 @@ const schemaData = {
 const caseStudies = [
   {
     id: "case-study-2",
+    image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+    alt: "Diversity illustration",
+    category: "Automotive",
+    date: "30 June 2025",
+    title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+    description:
+      "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.",
+    link: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+
+  },
+  {
+    id: "case-study-3",
     image: "/images/case-studies/revolutionary-filter.webp",
     alt: "Dealer management transformation",
     category: "Manufacturing",
@@ -59,7 +71,7 @@ const caseStudies = [
     link: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense",
   },
   {
-    id: "case-study-3",
+    id: "case-study-4",
     image: "/images/case-studies/adaptis-for-carousel.webp",
     alt: "Warranty claim experience",
     category: "Manufacturing",
@@ -70,18 +82,18 @@ const caseStudies = [
       "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.",
     link: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
   },
-  {
-    id: "case-study-4",
-    image: "/images/case-studies/fiory-carosel.webp",
-    alt: "Self-service with SAP Fiori",
-    category: "Manufacturing",
-    date: "28 May 2025",
-    title:
-      "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-    description:
-      "Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability.",
-    link: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
-  },
+  // {
+  //   id: "case-study-4",
+  //   image: "/images/case-studies/fiory-carosel.webp",
+  //   alt: "Self-service with SAP Fiori",
+  //   category: "Manufacturing",
+  //   date: "28 May 2025",
+  //   title:
+  //     "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+  //   description:
+  //     "Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability.",
+  //   link: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+  // },
 ];
 
 export default function InsightsPage() {
@@ -123,7 +135,7 @@ export default function InsightsPage() {
       />
 
       {/* Hero Section with Deep Blue Gradient Background */}
- <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden lg:block">
           <Image
             src="/images/insights/insight-header-banner-new.webp"
@@ -146,9 +158,9 @@ export default function InsightsPage() {
         </div>
         <div className="relative h-full custom-container flex items-center">
           <div className="4xl:w-[64%] xl:w-[50%]">
-              <h1 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
+            <h1 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
               Stay Ahead with Expert Industry Insights
-              </h1>
+            </h1>
           </div>
         </div>
       </section>
@@ -409,7 +421,7 @@ export default function InsightsPage() {
               className="border h-full border-gray-200 overflow-hidden mb-6 flex flex-col md:flex-row"
               onMouseEnter={handleMouseEnter("case-study-1")}
               onMouseLeave={handleMouseLeave("case-study-1")}
-              onClick={handleClick("/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense")}
+              onClick={handleClick("/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
@@ -427,8 +439,8 @@ export default function InsightsPage() {
                         : "scale(1)",
                   }}>
                   <Image
-                    src="/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp"
-                    alt="Diversity illustration"
+                    src="/images/case-studies/Small thumb.webp"
+                    alt="Transforming Student Success"
                     fill
                     sizes=""
                     className="object-cover h-full"
@@ -440,16 +452,17 @@ export default function InsightsPage() {
                 <div className=" p-6 xl:p-12 max-w-2xl">
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">
-                      Automotive
+                    Education Cloud
                     </span>{" "}
                     <span className="mx-2">|</span>
-                    <span className="text-sm">30 June 2025</span>
+                    <span className="text-sm">21 August 2025</span>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                    Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense
+                    Transforming Student Success with Salesforce Education Cloud and Edu+
+                    
                   </h3>
                   <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                    A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.
+                    A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions.
                   </p>
                 </div>
               </div>
@@ -494,7 +507,7 @@ export default function InsightsPage() {
                       <span className="mx-2">|</span>
                       <span className="text-sm">{study.date}</span>
                     </div>
-                    <h3 className="mb-2  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">{study.title}</h3>
+                    <h3 className="mb-2  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">{study.title}</h3>
                     <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">{study.description}</p>
                   </div>
                 </div>
