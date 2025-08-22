@@ -711,7 +711,7 @@ export default function Page() {
 
                             {/* Buttons */}
                             <div className="lg:flex gap-8 xl:gap-5 2xl:gap-10 xl:mt-[65px] mt-[36px] items-end">
-                                <div className="xl:w-[200px] 2xl:w-full">
+                                <div className="xl:w-[200px]">
                                     <LearnMore bgcolor="#073259" bordercolor="#073259" />
                                 </div>
                                 <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px]">
@@ -775,7 +775,7 @@ export default function Page() {
                                 <LearnMore bgcolor="#134874" bordercolor="#134874" />
                             </>
                             <div>
-                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[11px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] w-fit">
+                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] w-fit">
                                     Experience AI-powered property communication
                                 </p>
                             </div>
@@ -898,6 +898,10 @@ export default function Page() {
 
             <section className="custom-container text-white bg-[#134874] py-16 max-md:mt-0">
                 <ContactForm title={'Let’s Begin.'} subtitle={"The future of patient experience is intelligent, connected, and outcome-driven. With MediAIna, Rialtes empowers you to reimagine every step of the journey—from identification to engagement, from trials to care, and from data to decisions."} className={"leading-tight  xl:w-[80%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
+
+                <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[91px] mt-[62px]">
+                    Trusted Infrastructure for the Real Estate Enterprise
+                </h3>
             </section>
         </div>
     );
