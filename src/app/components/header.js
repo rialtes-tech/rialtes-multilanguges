@@ -153,8 +153,8 @@ const Header = () => {
       label: 'Products',
       links: [
         { label: 'AgentChat', href: '/products/agentchat' },
-         { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
-          { label: 'Exelona', href: '/products/exelona/' },
+        { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
+        { label: 'Exelona', href: '/products/exelona-salesforce-for-real-estate-management/' },
 
       ],
 
@@ -377,7 +377,7 @@ const Header = () => {
         <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
 
           <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
-            <Link rel='preload'  href="/" aria-label="Homepage"  >
+            <Link rel='preload' href="/" aria-label="Homepage"  >
               <Image
                 className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px] h-auto"
                 alt="Company logo"
@@ -670,13 +670,13 @@ const Header = () => {
                     >
                       AgentChat
                     </div>
-                       <div
+                    <div
                       className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                       onClick={() => handleSubMenuClickProduct("mediaina")}
                     >
                       MediAIna
                     </div>
-                       <div
+                    <div
                       className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                       onClick={() => handleSubMenuClickProduct("exelona")}
                     >
@@ -699,7 +699,7 @@ const Header = () => {
                   </div>
                 )}
 
-              {openSectionProduct === "mediaina" && (
+                {openSectionProduct === "mediaina" && (
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
@@ -712,13 +712,13 @@ const Header = () => {
 
                   </div>
                 )}
-  {openSectionProduct === "exelona" && (
+                {openSectionProduct === "exelona" && (
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
-                        <Link href='/products/exelona' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona")}
+                        <Link href='/products/exelona-salesforce-for-real-estate-management' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management")}
                         >Let's Begin</Link>
                       </div>
                     </div>
