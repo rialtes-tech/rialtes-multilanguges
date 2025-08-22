@@ -503,7 +503,7 @@ export default function Page() {
 
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agent Builder is a low-code tool in Salesforce for customizing AI agents across various business functions. Users can create tasks for agents by defining topics with natural-language instructions and setting guardrails. It features testing options, seamless human handoff, and built-in templates for customer service, sales, or e-commerce. This allows businesses to easily automate processes and customize agents for any industry by using existing Salesforce tools like Flows, Apex, and APIs</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Building AI agents involves multiple techniques, which can be broadly categorized into six key areas:</p>
-                            <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-1 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
+                            <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
                                 {
                                     agentBuilderData.map((data, ind) => {
                                         return (
@@ -519,7 +519,7 @@ export default function Page() {
                                 stepToGuideData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-5 font-bold">{data.step}</h3>
+                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{data.step}</h3>
                                             {data.desc && <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>}
                                             <UnorderedList arrName={data.list} ulClassName="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-1 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[30px]" liClassName="" />
                                         </div>
@@ -534,7 +534,7 @@ export default function Page() {
                                         <div key={ind}>
                                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{data.title}</h3>
                                             {data.desc && <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>}
-                                            <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-1 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[30px]">
+                                            <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[30px]">
 
                                                 {
                                                     data.list.map((elem, id) => {
@@ -549,13 +549,14 @@ export default function Page() {
                                     )
                                 })
                             }
+
                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">Actions</h3>
                             <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Actions empower AI agents to execute logic and integrate with external systems. Standard and custom actions can be created using:</p>
-                            <UnorderedList arrName={actionsData} ulClassName="mt-2 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px]" liClassName="" />
+                            <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Types of AI agents You can build using Agentforce</h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agentforce AI agents help scale the workforce across various industries. Their user-friendly, low-code customization allows business users to leverage multiagent systems effectively. Here are their main roles and functions in different sectors:</p>
-                            <ul className="list-decimal marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-1 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
+                            <ul className="list-decimal marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
                                 {
                                     typesOfAgents.map((data, ind) => {
                                         return (
