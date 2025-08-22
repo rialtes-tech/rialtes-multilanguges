@@ -217,9 +217,9 @@ export default function Page() {
 
     return (
         <div className="min-h-screen bg-white">
-            <Seo
-                title="Agentforce 3.0 for Automotive Manufacturing Success | Rialtes"
-                description="Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor."
+            {/* <Seo
+                title=""
+                description=""
                 canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
             />
 
@@ -227,7 +227,7 @@ export default function Page() {
                 id="schema-discover"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+            /> */}
             <section className="relative  h-[350px] md:h-[400px]  4xl:h-[600px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
