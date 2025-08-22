@@ -134,30 +134,28 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden pb-20 md:pb-48">
+            <section className="relative group overflow-hidden pb-20 md:pb-48 xl:pb-20 4xl:pb-20">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/products/mediyana/desktop/banner-desk.webp"
+                        src="/images/products/mediyana/mediyana-banner.webp"
                         alt="grow with sap banner"
                         fill
-                        style={{ objectFit: "cover" }}
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/products/mediyana/mobile/banner-mobile.webp"
+                        src="/images/products/mediyana/mediyana-mobile-banner.webp"
                         alt="grow with sap banner"
                         fill
                         priority
-                        className="transform transition-transform duration-500 group-hover:scale-110"
                     />
                 </div>
                 <div className="relative custom-container 4xl:pb-20">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
                         <div className="xl:col-span-7 col-span-12 pr-5 4xl:pr-[6rem]">
-                            <h1 className="text-black  leading-tight break-words 4xl:text-[60px] md:text-[32px]  xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
-                                <span className="text-[#073259] text-[20px] xl:text-[24px] font-bold mb-2 break-words">MediAIna</span>  <br>
+                            <h1 className="text-white  leading-tight break-words 4xl:text-[60px] md:text-[32px]  xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
+                                <span className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words">MediAIna</span>  <br>
                                 </br>
                                 <div className="pt-5">Redefining the<br></br> Digital Patient Journey for the Life Sciences Industry</div>
                             </h1>

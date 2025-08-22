@@ -176,9 +176,9 @@ const Home = () => {
     };
 
     const slides = [
-        { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense-banner.webp', imageMobile: '/images/homepage/autosense-mobile.webp' },
+        { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
         { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
-        { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success-desktop.webp', title: "Success+", imageMobile: '/images/homepage/sucess-mobile.webp' },
+        { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success2.webp', title: "Success+", imageMobile: '/images/homepage/success-mobile2.webp' },
 
     ]
     useEffect(() => {
