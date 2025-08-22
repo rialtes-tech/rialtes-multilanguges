@@ -549,6 +549,7 @@ export default function Page() {
                                     )
                                 })
                             }
+                            
                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">Actions</h3>
                             <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Actions empower AI agents to execute logic and integrate with external systems. Standard and custom actions can be created using:</p>
                             <UnorderedList arrName={actionsData} ulClassName="mt-2 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px]" liClassName="" />

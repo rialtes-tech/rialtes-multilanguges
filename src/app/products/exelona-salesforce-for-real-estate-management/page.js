@@ -7,117 +7,91 @@ import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Grow with SAP - Cloud ERP Implementation Services",
-    "alternateName": "VoyagerNext by Rialtes",
-    "url": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/",
-    "description": "Rialtes provides end-to-end Grow with SAP transformation services, including SAP Cloud ERP implementation leveraging SAP S/4HANA Cloud, SAP Activate methodology, SAP Signavio, and SAP BTP. Services include implementation, migration from SAP B1, integration with Salesforce, and support for AI, automation, and digital procurement.",
-    "provider": {
+    "@type": "Product",
+    "name": "Exelona",
+    "image": "https://www.rialtes.com/images/products/exelona/desktop/banner-desk.webp",
+    "description": "Exelona is an intelligent real estate cloud platform built on Salesforce. It unifies every step of the property lifecycle—from lead generation to financial closeout—with AI-driven automation, CRM + ERP convergence, and mobile-first experiences. Designed for property managers, developers, and portfolio owners, Exelona transforms marketing, operations, finance, and resident engagement in one secure platform.",
+    "brand": {
         "@type": "Organization",
         "name": "Rialtes",
         "url": "https://www.rialtes.com",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        },
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
-        ]
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
     },
-    "areaServed": [
-        {
-            "@type": "Country",
-            "name": "United States"
-        },
-        {
-            "@type": "Country",
-            "name": "Canada"
-        },
-        {
-            "@type": "Country",
-            "name": "India"
-        },
-        {
-            "@type": "Country",
-            "name": "Singapore"
-        }
-    ],
-    "serviceType": [
-        "Grow with SAP Services",
-        "SAP S/4HANA Cloud Public Edition Implementation",
-        "SAP B1 to S/4HANA Migration",
-        "SAP Activate & SAP Signavio Enablement",
-        "SAP SuccessFactors Integration",
-        "SAP Ariba and Procurement Solutions",
-        "SAP BTP Customization and Automation",
-        "SAP CPI Integration",
-        "Salesforce and SAP Integration",
-        "Conversational AI for ERP (AgentChat)",
-        "AI and Data Cloud Enablement"
-    ],
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "VoyagerNext Offerings",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP License Advisory",
-                    "description": "Guidance on SAP licensing for cost-effectiveness and scalability."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Solution Design & Implementation",
-                    "description": "Design and implement SAP S/4HANA Cloud aligned with industry best practices."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "System Integration & Customization",
-                    "description": "Integrate SAP with legacy systems and customize using SAP BTP and CPI."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Post Go-Live Support & Optimization",
-                    "description": "Hypercare, continuous improvement, and performance monitoring post go-live."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Quality Assurance & User Training",
-                    "description": "Ensure system readiness with testing and user enablement services."
-                }
-            }
-        ]
-    },
-    "audience": {
-        "@type": "Audience",
-        "audienceType": [
-            "Mid-market Enterprises",
-            "Growing Businesses",
-            "Enterprise IT Teams",
-            "SAP Business One Customers",
-            "Digital Transformation Leaders"
-        ]
+    "url": "https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/",
+    "category": "Real Estate Cloud Platform",
+    "isRelatedTo": {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Cloud",
+        "softwareRequirements": "Salesforce platform"
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
-    }
+        "@id": "https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "name": "Mobile-Enabled",
+            "value": "100% mobile-first experience for leasing, maintenance, and finance."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AI + Conversational Interfaces",
+            "value": "Agentic AI for automation, prioritization, and resident/agent communication."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "CRM + ERP Unified",
+            "value": "One system for marketing, leasing, operations, accounting, and reporting."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Open API Integrations",
+            "value": "Easily integrates with SAP, Oracle, Yardi, Salesforce, and other platforms."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Asset Marketing",
+            "value": "Lead and campaign management, digital asset management, and analytics to maximize leasing velocity."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Property Operations",
+            "value": "AI-enabled operations, automated billing, work order management, SLA tracking, and technician assignment."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Financial Suite",
+            "value": "Accounts receivable, budgeting & forecasting, accounts payable, procurement, and asset management."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Resident Experience",
+            "value": "ExelPersona™ branded portals with multilingual support, self-service, and AI chatbot."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Payments",
+            "value": "ExelPay™ integrated payments supporting ACH, checks, credit/debit cards with reconciliation."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "AI Assistant",
+            "value": "AgentChat conversational AI for residents, applicants, and property teams."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Security & Compliance",
+            "value": "Built on Salesforce with SOC2, HIPAA, GDPR, and FedRAMP compliance."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Scalability",
+            "value": "Supports residential, commercial, and mixed-use portfolios from 100 to 100,000+ units."
+        }
+    ]
 }
-
 export default function Page() {
     const features = [
         {
@@ -340,10 +314,10 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="MediAIna - Redefining Patient Journey Mapping in Healthcare"
-                description="MediAIna puts patients at the center by mapping every care moment with Salesforce Cloud and Rialtes' LifeAI+ to enable truly connected, human-first healthcare."
+                title="Exelona™ – Salesforce for Real Estate Property Management | Rialtes"
+                description="Exelona leverages AI and Salesforce for Real Estate to streamline intelligent property management, driving automation, insights, and operational excellence."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
+                canonical="https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/"
             />
             <Script
                 id="schema-grow"
