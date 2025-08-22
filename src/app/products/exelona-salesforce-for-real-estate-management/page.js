@@ -369,7 +369,17 @@ export default function Page() {
                         <div className="xl:col-span-12 col-span-12 pr-5 text-white">
                             <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-white text-[24px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
-                                    Exelona™
+                                    Exelona
+                                    <span className="align-super inline-block w-5 h-5 xl:w-12 xl:h-12">
+                                        <Image
+                                            src="/images/products/exelona/desktop/trademark.png"
+                                            alt="mask decoration"
+                                            width={500}
+                                            height={500}
+                                            className="object-contain mt-1"
+                                            priority
+                                        />
+                                    </span>
                                 </span>
                             </h1>
                             <h2 className="xl:font-bold font-semibold leading-tight pb-10 xl:pb-0 text-[20px] 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] mt-5 pr-16 4xl:pr-0 2xl:pr-0 xl:pr-0">
@@ -579,7 +589,7 @@ export default function Page() {
                         <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold leading-tight">Own your financials from billing to balance sheets.</h3>
                         <p className="xl:mt-[39px] mt-[16px]">Exelona’s financial modules deliver accuracy, automation, and clarity across your property finance stack.</p>
                     </>
-                    <div className="grid lg:grid-cols-2 4xl:gap-[140px] xl:gap-[60px] gap-10 xl:mt-[68px]">
+                    <div className="grid lg:grid-cols-2 4xl:gap-[140px] xl:gap-[60px] gap-10 xl:mt-[68px] lg:mt-[30px]">
                         {properties.map((feature, idx) => (
                             <div key={idx} className="flex flex-col space-y-10">
                                 <div className="order-first lg:order-none mt-10 lg:mt-0">
@@ -636,7 +646,16 @@ export default function Page() {
                     {/* Right Side - Content */}
                     <div className="4xl:px-16 text-white xl:col-span-8 col-span-12 2xl:px-14 xl:px-14">
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
-                            ExelPersona™ – The Ultimate Resident & Applicant Experience
+                            ExelPersona <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
+                                <Image
+                                    src="/images/products/exelona/desktop/trademark.png"
+                                    alt="mask decoration"
+                                    width={500}
+                                    height={500}
+                                    className="object-contain mt-[2px]"
+                                    priority
+                                />
+                            </span> – The Ultimate Resident & Applicant Experience
                         </h2>
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
                             Custom-branded portals. Multilingual access. Mobile-native by design.
@@ -677,12 +696,21 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 gap-0 mt-20 max-md:px-0">
                         {/* Left Side - Content (desktop first, mobile second) */}
                         <div className="xl:col-span-10 col-span-12 bg-[#B4F0D0] 
-                    xl:relative 4xl:pl-[280px] 4xl:pr-[460px]  
+                    xl:relative 4xl:pl-[280px] 4xl:pr-[436px]  
                     2xl:pl-[135px] 2xl:pr-[510px] xl:pl-[80px] xl:pr-[435px] 
                     pl-10 order-last xl:order-first mt-[-230px] 4xl:mt-0 2xl:mt-0 xl:mt-0 max-xl:px-[35px]">
                             {/* Text content */}
                             <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
-                                ExelPay™ <br /> Built-In Payments. Complete Control.
+                                ExelPay<span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
+                                    <Image
+                                        src="/images/products/exelona/desktop/black-trademark.png"
+                                        alt="mask decoration"
+                                        width={500}
+                                        height={500}
+                                        className="object-contain mt-[2px]"
+                                        priority
+                                    />
+                                </span> <br /> Built-In Payments. Complete Control.
                             </h2>
 
                             <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem]">
@@ -714,7 +742,7 @@ export default function Page() {
                                 <div className="xl:w-[200px]">
                                     <LearnMore bgcolor="#073259" bordercolor="#073259" />
                                 </div>
-                                <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px]">
+                                <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[18px]">
                                     Power up your collections with ExelPay
                                 </p>
                             </div>
@@ -848,7 +876,16 @@ export default function Page() {
                                 Trusted Infrastructure for the Real Estate Enterprise
                             </h3>
                             <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-[33px] mt-[22px]">
-                                Exelona™ is proudly built on the Salesforce platform, leveraging the
+                                Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
+                                    <Image
+                                        src="/images/products/exelona/desktop/trademark.png"
+                                        alt="mask decoration"
+                                        width={500}
+                                        height={500}
+                                        className="object-contain md:mt-[5px]"
+                                        priority
+                                    />
+                                </span> is proudly built on the Salesforce platform, leveraging the
                                 world’s #1 enterprise cloud to deliver unmatched performance, flexibility,
                                 and trust for real estate.
                             </p>
@@ -897,7 +934,7 @@ export default function Page() {
             </section>
 
             <section className="custom-container text-white bg-[#134874] py-16 max-md:mt-0">
-                <ContactForm title={'Let’s Begin.'} subtitle={"The future of patient experience is intelligent, connected, and outcome-driven. With MediAIna, Rialtes empowers you to reimagine every step of the journey—from identification to engagement, from trials to care, and from data to decisions."} className={"leading-tight  xl:w-[80%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
+                <ContactForm title={'Ready to Transform Your Real Estate Business?'} subtitle={"Let’s build it, automate it, and grow it—with Exelona."} className={"leading-tight  xl:w-[70%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
 
                 <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[91px] mt-[62px]">
                     Trusted Infrastructure for the Real Estate Enterprise
