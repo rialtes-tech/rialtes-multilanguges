@@ -9,6 +9,16 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+   {
+    id: 25,
+    image: "/images/blog/small-slider.webp", 
+    category: "Agentforce",
+    industry: "Generic",
+    date: "22 August 2025",
+    url: 'insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing',
+    title: "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
+    description: "Manufacturers today operate in a pressure cooker. You’re dealing with fluctuating demand, global supply chain fragility, rising customer expectations, and shrinking margins. It's not just about making products anymore",
+  },
      {
     id: 24,
     image: "/images/blog/sustain-small-slider.webp", 

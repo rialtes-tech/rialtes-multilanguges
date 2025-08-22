@@ -30,10 +30,21 @@ const schemaData={
 }
 
 const latestBlogs = [
+  {
+    id: 25,
+    image: "/images/blog/small-slider.webp", 
+    category: "Agentforce",
+    industry: "Generic",
+    date: "22 August 2025",
+    url: '/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing',
+    title: "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
+    description: "Manufacturers today operate in a pressure cooker. You’re dealing with fluctuating demand, global supply chain fragility, rising customer expectations, and shrinking margins. It's not just about making products anymore",
+  },
+
    {
     id: 24,
     image: "/images/blog/sustain-small-slider.webp", 
-    category: "Salesforce Agentforce",
+    category: "Artificial Intelligence",
     industry: "Generic",
     date: "21 August 2025",
     url: '/how-ai-is-powering-the-sustainable-future-of-our-planet',
