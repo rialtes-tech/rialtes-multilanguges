@@ -1,108 +1,386 @@
 {
-    "agentChat":{
-       "headerTitle": "Presentamos",
-       "headerSubTitle": "AgentChat:",
-       "headerOne": "Conversaciones fluidas de WhatsApp dentro de Salesforce",
-       "engageHeader": "Conecta, brinda soporte y cierra acuerdos: todo por WhatsApp. Todo dentro de Salesforce.",
-       "engageDescOne": "AgentChat es una aplicación de conversación bidireccional por WhatsApp, creada de forma nativa en Salesforce. Permite a tus equipos conectarse con los clientes al instante, gestionar conversaciones de manera eficiente y automatizar flujos de trabajo, todo sin salir de Salesforce.",
-       "engageDescTwo": "Ya sea que trabajes en Ventas, Servicio, Marketing, Operaciones de Campo o Educación, AgentChat funciona en todas las nubes de Salesforce y te permite convertir WhatsApp en una poderosa herramienta de interacción para cada equipo.",
-       "whyHeader": "¿Por qué AgentChat?",
-       "whySubHeader": "Conversaciones instantáneas por WhatsApp, directamente en Salesforce",
-       "whyDesc": "Conéctate y responde a los clientes por WhatsApp desde cualquier registro de Salesforce: clientes potenciales, casos, oportunidades, órdenes de trabajo u objetos personalizados.",
-       "rapidTitle": "Configuración rápida: ¡Ponte en marcha en minutos!",
-       "rapidDesc": "Sin integraciones complejas. Configuración plug-and-play en minutos. Comienza a interactuar de inmediato.",
-       "realTitle": "Mensajería bidireccional y en tiempo real",
-       "realDeac": "Las conversaciones se sincronizan en tiempo real, ya sea iniciadas desde WhatsApp o Salesforce.",
-       "delegateTitle": "Delegate Messages to the Right Team Automatically",
-       "delegateDesc": "Dirige automáticamente las conversaciones según el tipo de registro (por ejemplo, Casos, Clientes potenciales, Órdenes de trabajo), asegurando que el equipo adecuado responda rápidamente.",
-       "roleTitle": "Acceso y seguridad integrados basados en roles",
-       "roleDesc": "Controla quién puede chatear, ver y gestionar conversaciones con permisos avanzados basados en roles y el modelo de seguridad nativo de Salesforce.",
-        "keyTitle": "Funciones clave de AgentChat",
-         "features": [
-    {
-      "title": "Mensajería bidireccional en tiempo real por WhatsApp",
-      "image": "/images/industry/rialchat/Seamless Messaging.png",
-      "alt": "Mensajería en tiempo real por WhatsApp",
-      "points": [
-        "Inicia y gestiona conversaciones de WhatsApp directamente desde cualquier objeto de Salesforce.",
-        "Seguimiento automático de conversaciones vinculado a registros de Salesforce.",
-        "Historial completo de conversaciones y registros de auditoría."
-      ]
-    },
-    {
-      "title": "Mensajería con contexto",
-      "image": "/images/industry/rialchat/Rich Media Support.png",
-      "alt": "Mensajería con contexto",
-      "points": [
-        "Accede al contexto completo del cliente desde Salesforce mientras chateas.",
-        "Comparte archivos, medios y respuestas rápidas para resolver más rápido."
-      ]
-    },
-    {
-      "title": "Compatible con todas las nubes de Salesforce",
-      "image": "/images/industry/rialchat/Automated Conversation Logging.png",
-      "alt": "Compatible con todas las nubes de Salesforce",
-      "points": [
-        "<strong>Sales Cloud:</strong> Convierte chats en clientes potenciales y oportunidades.",
-        "<strong>Service Cloud:</strong> Gestiona casos y ofrece soporte instantáneo.",
-        "<strong>Field Service:</strong> Coordina operaciones de campo y órdenes de trabajo.",
-        "<strong>Education Cloud:</strong> Interactúa con estudiantes y exalumnos para inscripción, asesoría y soporte.",
-        "<strong>Nonprofit Cloud:</strong> Conecta con donantes, voluntarios y partes interesadas."
-      ]
-    },
-    {
-      "title": "Integración fluida con Salesforce",
-      "image": "/images/industry/rialchat/Seamless Messaging.png",
-      "alt": "Integración fluida con Salesforce",
-      "points": [
-        "Funciona desde el primer momento con Casos, Clientes potenciales, Oportunidades, Órdenes de trabajo y más.",
-        "Reglas de delegación y enrutamiento por tipo de registro — sin esfuerzo manual."
-      ]
-    },
-    {
-      "title": "Soporte para múltiples roles y equipos",
-      "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
-      "alt": "Soporte multiequipo",
-      "points": [
-        "Atiende a los clientes a través de equipos dedicados (Ventas, Soporte, Agentes de campo, Asesores).",
-        "Define quién puede iniciar, ver o responder según roles y unidades de negocio."
-      ]
-    },
-    {
-      "title": "Seguridad y cumplimiento nativos de Salesforce",
-      "image": "/images/industry/rialchat/Seamless Messaging.png",
-      "alt": "Seguridad y cumplimiento",
-      "points": [
-        "Aprovecha jerarquías de roles, reglas de uso compartido y seguridad a nivel de objeto de Salesforce.",
-        "Preparado para GDPR y HIPAA gracias a la plataforma segura de Salesforce."
-      ]
-    }
-  ],
-   "agentChatTitle": "Casos de uso de AgentChat",
+  "agentChat": {
+    "headerTitle": "Presentamos",
+    "headerSubTitle": "AgentChat:",
+    "headerOne": "Conversaciones fluidas de WhatsApp dentro de Salesforce",
+    "engageHeader": "Conecta, brinda soporte y cierra acuerdos: todo por WhatsApp. Todo dentro de Salesforce.",
+    "engageDescOne": "AgentChat es una aplicación de conversación bidireccional por WhatsApp, creada de forma nativa en Salesforce. Permite a tus equipos conectarse con los clientes al instante, gestionar conversaciones de manera eficiente y automatizar flujos de trabajo, todo sin salir de Salesforce.",
+    "engageDescTwo": "Ya sea que trabajes en Ventas, Servicio, Marketing, Operaciones de Campo o Educación, AgentChat funciona en todas las nubes de Salesforce y te permite convertir WhatsApp en una poderosa herramienta de interacción para cada equipo.",
+    "whyHeader": "¿Por qué AgentChat?",
+    "whySubHeader": "Conversaciones instantáneas por WhatsApp, directamente en Salesforce",
+    "whyDesc": "Conéctate y responde a los clientes por WhatsApp desde cualquier registro de Salesforce: clientes potenciales, casos, oportunidades, órdenes de trabajo u objetos personalizados.",
+    "rapidTitle": "Configuración rápida: ¡Ponte en marcha en minutos!",
+    "rapidDesc": "Sin integraciones complejas. Configuración plug-and-play en minutos. Comienza a interactuar de inmediato.",
+    "realTitle": "Mensajería bidireccional y en tiempo real",
+    "realDeac": "Las conversaciones se sincronizan en tiempo real, ya sea iniciadas desde WhatsApp o Salesforce.",
+    "delegateTitle": "Delegate Messages to the Right Team Automatically",
+    "delegateDesc": "Dirige automáticamente las conversaciones según el tipo de registro (por ejemplo, Casos, Clientes potenciales, Órdenes de trabajo), asegurando que el equipo adecuado responda rápidamente.",
+    "roleTitle": "Acceso y seguridad integrados basados en roles",
+    "roleDesc": "Controla quién puede chatear, ver y gestionar conversaciones con permisos avanzados basados en roles y el modelo de seguridad nativo de Salesforce.",
+    "keyTitle": "Funciones clave de AgentChat",
+    "features": [
+      {
+        "title": "Mensajería bidireccional en tiempo real por WhatsApp",
+        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "alt": "Mensajería en tiempo real por WhatsApp",
+        "points": [
+          "Inicia y gestiona conversaciones de WhatsApp directamente desde cualquier objeto de Salesforce.",
+          "Seguimiento automático de conversaciones vinculado a registros de Salesforce.",
+          "Historial completo de conversaciones y registros de auditoría."
+        ]
+      },
+      {
+        "title": "Mensajería con contexto",
+        "image": "/images/industry/rialchat/Rich Media Support.png",
+        "alt": "Mensajería con contexto",
+        "points": [
+          "Accede al contexto completo del cliente desde Salesforce mientras chateas.",
+          "Comparte archivos, medios y respuestas rápidas para resolver más rápido."
+        ]
+      },
+      {
+        "title": "Compatible con todas las nubes de Salesforce",
+        "image": "/images/industry/rialchat/Automated Conversation Logging.png",
+        "alt": "Compatible con todas las nubes de Salesforce",
+        "points": [
+          "<strong>Sales Cloud:</strong> Convierte chats en clientes potenciales y oportunidades.",
+          "<strong>Service Cloud:</strong> Gestiona casos y ofrece soporte instantáneo.",
+          "<strong>Field Service:</strong> Coordina operaciones de campo y órdenes de trabajo.",
+          "<strong>Education Cloud:</strong> Interactúa con estudiantes y exalumnos para inscripción, asesoría y soporte.",
+          "<strong>Nonprofit Cloud:</strong> Conecta con donantes, voluntarios y partes interesadas."
+        ]
+      },
+      {
+        "title": "Integración fluida con Salesforce",
+        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "alt": "Integración fluida con Salesforce",
+        "points": [
+          "Funciona desde el primer momento con Casos, Clientes potenciales, Oportunidades, Órdenes de trabajo y más.",
+          "Reglas de delegación y enrutamiento por tipo de registro — sin esfuerzo manual."
+        ]
+      },
+      {
+        "title": "Soporte para múltiples roles y equipos",
+        "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
+        "alt": "Soporte multiequipo",
+        "points": [
+          "Atiende a los clientes a través de equipos dedicados (Ventas, Soporte, Agentes de campo, Asesores).",
+          "Define quién puede iniciar, ver o responder según roles y unidades de negocio."
+        ]
+      },
+      {
+        "title": "Seguridad y cumplimiento nativos de Salesforce",
+        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "alt": "Seguridad y cumplimiento",
+        "points": [
+          "Aprovecha jerarquías de roles, reglas de uso compartido y seguridad a nivel de objeto de Salesforce.",
+          "Preparado para GDPR y HIPAA gracias a la plataforma segura de Salesforce."
+        ]
+      }
+    ],
+    "agentChatTitle": "Casos de uso de AgentChat",
     "tableTitleOne": "Caso de uso",
-  "tableTitleTwo": "Cómo ayuda AgentChat",
+    "tableTitleTwo": "Cómo ayuda AgentChat",
     "tableData": [
-    { "title": "Atención al cliente", "desc": "Gestiona casos de soporte a través de WhatsApp al instante." },
-    { "title": "Prospección de ventas", "desc": "Involucra a los clientes potenciales y cierra acuerdos con chats en tiempo real." },
-    { "title": "Operaciones de campo", "desc": "Coordina órdenes de trabajo y actualizaciones en tiempo real." },
-    { "title": "Interacción con estudiantes", "desc": "Conecta fácilmente con estudiantes y exalumnos." },
-    { "title": "Gestión de donantes", "desc": "Mantén el contacto con los donantes mediante chats personalizados." }
-  ],
+      {
+        "title": "Atención al cliente",
+        "desc": "Gestiona casos de soporte a través de WhatsApp al instante."
+      },
+      {
+        "title": "Prospección de ventas",
+        "desc": "Involucra a los clientes potenciales y cierra acuerdos con chats en tiempo real."
+      },
+      {
+        "title": "Operaciones de campo",
+        "desc": "Coordina órdenes de trabajo y actualizaciones en tiempo real."
+      },
+      {
+        "title": "Interacción con estudiantes",
+        "desc": "Conecta fácilmente con estudiantes y exalumnos."
+      },
+      {
+        "title": "Gestión de donantes",
+        "desc": "Mantén el contacto con los donantes mediante chats personalizados."
+      }
+    ],
     "setupTitle": "Configuración rápida. Máximo impacto.",
-     "descOne": "Instala AgentChat desde AppExchange.",
-  "descTwo": "Conecta tu cuenta de WhatsApp Business de forma segura.",
-  "descThree": "Asocia los tipos de registro de Salesforce (Casos, Clientes potenciales, Órdenes de trabajo, etc.).",
-  "descFour": "Configura roles y permisos para los equipos.",
-  "descFive": "¡Empieza a chatear directamente desde Salesforce!",
+    "descOne": "Instala AgentChat desde AppExchange.",
+    "descTwo": "Conecta tu cuenta de WhatsApp Business de forma segura.",
+    "descThree": "Asocia los tipos de registro de Salesforce (Casos, Clientes potenciales, Órdenes de trabajo, etc.).",
+    "descFour": "Configura roles y permisos para los equipos.",
+    "descFive": "¡Empieza a chatear directamente desde Salesforce!",
     "readyTitle": "¿Listo para potenciar el compromiso en WhatsApp desde Salesforce?",
-  "readyDesc": "Reserva una demo gratuita y descubre cómo AgentChat puede transformar la interacción con tus clientes a través de WhatsApp — directamente dentro de Salesforce.",
- "getStart": "Comienza ahora",
-  "contactUs": "Contáctanos",
-  "scheduled": "Agenda una demo",
+    "readyDesc": "Reserva una demo gratuita y descubre cómo AgentChat puede transformar la interacción con tus clientes a través de WhatsApp — directamente dentro de Salesforce.",
+    "getStart": "Comienza ahora",
+    "contactUs": "Contáctanos",
+    "scheduled": "Agenda una demo",
     "contactTitle": "¡Avísame si necesitas un diseño visual, variaciones de llamada a la acción o versiones más cortas del texto publicitario!"
-
-
-   
-    }
-
+  },
+  "exelona": {
+    "features": [
+      {
+        "img": "/images/products/exelona/mobile-enable.svg",
+        "alt": "Compatible con dispositivos móviles",
+        "title": "100% Compatible con Móviles",
+        "desc": "Gestione arrendamientos, mantenimiento y finanzas en cualquier dispositivo."
+      },
+      {
+        "img": "/images/products/exelona/web-chat.svg",
+        "alt": "Interfaces de IA",
+        "title": "IA Agente + Interfaces Conversacionales",
+        "desc": "IA que automatiza, prioriza y comunica."
+      },
+      {
+        "img": "/images/products/exelona/crm.svg",
+        "alt": "CRM + ERP",
+        "title": "CRM + ERP, Unificados",
+        "desc": "Un solo sistema para marketing, operaciones, arrendamientos y contabilidad."
+      },
+      {
+        "img": "/images/products/exelona/open-api.svg",
+        "alt": "API Abierta",
+        "title": "Arquitectura OPENAPI",
+        "desc": "Se integra fácilmente con SAP, Yardi, Oracle, Salesforce y más."
+      }
+    ],
+    "properties": [
+      {
+        "title": "Cuentas por Cobrar",
+        "img": "/images/products/exelona/desktop/account.webp",
+        "points": [
+          "Facturación automatizada de inquilinos y aplicación de recargos por mora.",
+          "Flujos de aprobación de cancelaciones y seguimiento histórico.",
+          "Procesamiento de recibos y conciliación de libros contables."
+        ],
+        "outcomes": [
+          "Mayor eficiencia en la cobranza.",
+          "Visibilidad en tiempo real de cuentas por cobrar en todas las propiedades."
+        ]
+      },
+      {
+        "title": "Presupuestación, Pronósticos y Reportes Financieros",
+        "img": "/images/products/exelona/desktop/budgeting.webp",
+        "points": [
+          "Presupuestos plurianuales con personalización a nivel de propiedad.",
+          "Pronósticos continuos basados en ocupación y datos de arrendamiento.",
+          "Estados financieros: Balance general, Balance de comprobación, Estado de resultados."
+        ],
+        "outcomes": [
+          "Planificación financiera precisa y dinámica.",
+          "Reportes en tiempo real listos para la junta directiva."
+        ]
+      },
+      {
+        "title": "Cuentas por Pagar y Adquisiciones",
+        "img": "/images/products/exelona/desktop/account-payble.webp",
+        "points": [
+          "Automatización de facturas por pagar y flujos de aprobación.",
+          "Creación de órdenes de compra y conciliación de recibos.",
+          "Programación de pagos multimodo y gestión de proveedores."
+        ],
+        "outcomes": [
+          "Compras centralizadas y cumplimiento de auditoría.",
+          "Control de gastos transparente en todo su portafolio."
+        ]
+      },
+      {
+        "title": "Gestión de Inventario y Activos",
+        "img": "/images/products/exelona/desktop/inventory.webp",
+        "points": [
+          "Seguimiento de inventario a nivel de unidad, edificio y almacén.",
+          "Gestión de activos de capital con cronogramas de depreciación.",
+          "Pronóstico de mantenimiento y reemplazo."
+        ],
+        "outcomes": [
+          "Mejor utilización y precisión de los activos.",
+          "Alineación financiera con la estrategia de CAPEX."
+        ]
+      }
+    ],
+    "assetMarketingData": [
+      {
+        "title": "Capacidades Clave",
+        "list": [
+          "Gestión de leads y campañas en correo electrónico, redes sociales y web.",
+          "Consistencia de marca a través de la gestión centralizada de activos digitales.",
+          "Analítica de campañas en tiempo real para el rendimiento específico de cada propiedad."
+        ]
+      },
+      {
+        "title": "Del Lead al Arrendamiento",
+        "list": [
+          "Genere leads a través de sitios web, páginas de destino y ExelPersona.",
+          "Clasifique y nutra leads usando flujos de trabajo de IA automatizados.",
+          "Convierta prospectos en solicitantes y residentes sin problemas dentro de Exelona."
+        ]
+      },
+      {
+        "title": "Resultados de Negocio",
+        "list": [
+          "Reducción del costo por lead y ciclos de arrendamiento más rápidos.",
+          "Mayor recordación de marca en todo su portafolio.",
+          "Mayor ocupación y mejor retorno de inversión en marketing."
+        ]
+      }
+    ],
+    "aiEnabledData": [
+      {
+        "title": "Características Clave",
+        "list": [
+          "Flujos de mudanza de residentes con listas de verificación automatizadas.",
+          "Facturación mensual habilitada por IA y cargos recurrentes.",
+          "Gestión inteligente de órdenes de trabajo con sugerencias de artículos de conocimiento.",
+          "Tableros en tiempo real con geolocalización y asignación de técnicos basada en habilidades.",
+          "Seguimiento de SLA, enrutamiento de mantenimiento y vinculación de inventario."
+        ]
+      },
+      {
+        "title": "Resultados de Negocio",
+        "list": [
+          "30% de mejora en el tiempo de resolución de mantenimiento.",
+          "Mayor satisfacción y retención de residentes.",
+          "Operaciones optimizadas en equipos distribuidos."
+        ]
+      }
+    ],
+    "excelPersonaData": [
+      {
+        "title": "Principales Funcionalidades",
+        "list": [
+          "Interfaz de usuario con marca para cada propiedad o región.",
+          "Diseño móvil primero con acceso nativo en iOS y Android.",
+          "Soporte multilingüe para comunidades diversas.",
+          "Estado de solicitud en tiempo real, firma de contrato, solicitudes de servicio y pagos.",
+          "Chatbot de IA integrado con tecnología de AgentChat."
+        ]
+      },
+      {
+        "title": "Resultados",
+        "list": [
+          "Ciclos de arrendamiento más cortos y mayor conversión.",
+          "Reducción del volumen de llamadas gracias al autoservicio.",
+          "Mayor satisfacción y retención de residentes."
+        ]
+      }
+    ],
+    "excelPayData": [
+      {
+        "title": "Capacidades",
+        "list": [
+          "Acepta cheques, ACH y tarjetas de crédito/débito.",
+          "Soporta pagos únicos, programados y recurrentes.",
+          "Sincronización automática con cuentas de inquilinos y reportes financieros."
+        ]
+      },
+      {
+        "title": "Resultados de Negocio",
+        "list": [
+          "Mejor flujo de caja y cobranzas más rápidas.",
+          "Reducción de errores de entrada manual y conciliación.",
+          "Transacciones seguras y compatibles con PCI."
+        ]
+      }
+    ],
+    "agentChatData": [
+      {
+        "title": "Capacidades Clave",
+        "list": [
+          "Consultas en lenguaje natural para actualizaciones, facturación y mantenimiento.",
+          "Integrado en ExelPersona, web y aplicaciones móviles.",
+          "Acceso multilingüe basado en roles."
+        ]
+      },
+      {
+        "title": "Resultados",
+        "list": [
+          "40–60% de reducción en tickets de soporte y correos electrónicos.",
+          "Disponibilidad 24/7 sin costo adicional de personal.",
+          "Mejora en la participación y satisfacción de los usuarios."
+        ]
+      }
+    ],
+    "builtData": [
+      "Usado por administradores de activos, operadores y desarrolladores.",
+      "Seguro, nativo en la nube y listo para cumplir normativas.",
+      "Escalable para portafolios residenciales, comerciales y de uso mixto.",
+      "Integrado con SAP, Oracle, Yardi, Salesforce y más."
+    ],
+    "buildSalesforceData": [
+      {
+        "title": "¿Por qué Salesforce?",
+        "list": [
+          {
+            "title": "Seguridad y Cumplimiento de Nivel Empresarial",
+            "desc": "Incluye SOC2, HIPAA, GDPR, FedRAMP y más."
+          },
+          {
+            "title": "Escalabilidad Sin Límites",
+            "desc": "Probado para soportar portafolios desde operadores de un solo sitio hasta REITs globales."
+          },
+          {
+            "title": "Innovación Continua",
+            "desc": "Benefíciese de tres actualizaciones principales de la plataforma cada año, sin interrupciones."
+          },
+          {
+            "title": "Ecosistema Extenso",
+            "desc": "Se integra de forma nativa con herramientas, aplicaciones y servicios de Salesforce AppExchange y más allá."
+          }
+        ]
+      },
+      {
+        "title": "Resultados",
+        "list": [
+          {
+            "desc": "Pila tecnológica preparada para el futuro con confiabilidad inigualable."
+          },
+          {
+            "desc": "Confianza en la estabilidad, escalabilidad y cumplimiento de la plataforma."
+          },
+          {
+            "desc": "Flexibilidad total para integrar, personalizar y extender según las necesidades inmobiliarias."
+          }
+        ]
+      }
+    ],
+    "headerTitle": "Exelona",
+    "headerSubTitle": "Impulsando la Empresa Inmobiliaria Moderna",
+    "pageDesc": "Bienvenido a Exelona, la plataforma inteligente en la nube para bienes raíces que unifica cada paso del ciclo de vida de la propiedad, desde la generación de leads hasta el cierre financiero. Construido para administradores de propiedades, desarrolladores y dueños de portafolios, Exelona ofrece automatización impulsada por IA, experiencias móviles y convergencia de CRM + ERP en una sola plataforma.",
+    "yourDigitalTitle": "Su columna vertebral digital inmobiliaria",
+    "yourDigitalDesc": "Diseñado para portafolios modernos, Exelona potencia a sus equipos con colaboración, automatización y escalabilidad sin fricciones.",
+    "yourDigitalSubTitle": "Lo que hace diferente a Exelona",
+    "assetMarketingTitle": "Marketing de Activos – Maximice la Velocidad de Arrendamiento y el Rendimiento de Marca",
+    "assetMarketingSubTitle": "Comercialice de forma más inteligente. Arriende más rápido.",
+    "assetMarketingDesc": "El módulo de Marketing de Activos de Exelona transforma la forma en que posiciona, promociona y arrienda sus propiedades.",
+    "assetMarketingBlueBox": "Vea cómo los principales portafolios aumentan la ocupación con Marketing de Activos",
+    "aiEnabledTitle": "Operaciones Inmobiliarias con IA – Gestione Mejor, Responda Más Rápido",
+    "aiEnabledDesc": "La excelencia operativa se encuentra con la automatización.",
+    "aiEnabledDesc2": "Las operaciones inmobiliarias habilitadas por IA de Exelona le brindan control total de las operaciones diarias con IA en el núcleo.",
+    "aiEnabledBlueBox": "Automatice y optimice las operaciones inmobiliarias",
+    "propertyTitle": "Suite Financiera de Propiedades – Finanzas Inmobiliarias Reimaginadas",
+    "propertySubTitle": "Controle sus finanzas desde la facturación hasta los balances.",
+    "propertyDesc": "Los módulos financieros de Exelona ofrecen precisión, automatización y claridad en toda la gestión financiera inmobiliaria.",
+    "outcomeTitle": "Resultados",
+    "propertyBlueBox": "Optimice sus finanzas inmobiliarias",
+    "excelPersonaTitle": "ExelPersona",
+    "excelPersonaTitle2": "La Experiencia Definitiva para Residentes y Solicitantes",
+    "excelPersonaSubTitle": "Portales personalizados. Acceso multilingüe. Nativo móvil por diseño.",
+    "excelPersonaDesc": "ExelPersona es su portal totalmente personalizable para solicitantes y residentes, creado para reflejar su marca y ofrecer autoservicio 24/7.",
+    "excelPersonaBlueBox": "Diseñe su experiencia residencial personalizada con ExelPersona",
+    "excelPayTitle": "ExelPay",
+    "excelPayTitle2": "Pagos Integrados. Control Total.",
+    "excelPayDesc": "Pagos integrados que funcionan como pagan sus residentes.",
+    "excelPayDesc2": "ExelPay es la pasarela de pagos segura de Exelona para cobrar alquileres, depósitos y tarifas con conciliación completa.",
+    "excelPayBlueBox": "Impulse sus cobranzas con ExelPay",
+    "agentchatTitle": "AgentChat – Asistente de IA en Tiempo Real para Residentes y Equipos",
+    "agentChatDesc": "Escale su soporte sin aumentar su personal.",
+    "agentChatDesc2": "AgentChat es la IA conversacional integrada en Exelona para residentes, solicitantes y equipos inmobiliarios.",
+    "agentChatBlueBox": "Experimente la comunicación inmobiliaria impulsada por IA",
+    "builtTitle": "Construido para Escalar. Confiado por Líderes Inmobiliarios.",
+    "builtDesc": "Ya administre 100 o 100,000 unidades, Exelona le brinda una plataforma flexible, inteligente y segura para gestionar su empresa inmobiliaria.",
+    "salesforceTitle": "Construido sobre Salesforce",
+    "salesforceSubTitle": "Infraestructura Confiable para la Empresa Inmobiliaria",
+    "salesforceDesc": "está orgullosamente construido sobre la plataforma Salesforce, aprovechando la nube empresarial #1 en el mundo para ofrecer rendimiento, flexibilidad y confianza sin igual al sector inmobiliario.",
+    "salesforceBlueBox": "Descubra el poder de Salesforce + Exelona",
+    "trustedTitle": "Infraestructura Confiable para la Empresa Inmobiliaria"
+  }
 }
