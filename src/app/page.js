@@ -1,7 +1,7 @@
 
 "use client";
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
@@ -9,7 +9,6 @@ import Link from 'next/link';
 const AutoTimerSlider = dynamic(() => import('./newHome/page'), { ssr: false });
 import { useMultipleScrollAnimation } from './hooks/useScrollAnimation';
 const ContactForm = dynamic(() => import('./components/contactform'), { ssr: false });
-
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
 import Seo from './components/Seo';
@@ -151,7 +150,15 @@ const Home = () => {
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
+    const [currentSlide, setCurrentSlide] = useState(0);
 
+
+    const slides = useMemo(() => [
+        { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
+        { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
+        { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success2.webp', title: "Success+", imageMobile: '/images/homepage/success-mobile2.webp' },
+
+    ], [])
     const handlePrevInsights = () => {
         setActiveIndexInsights((prevIndex) =>
             prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1
@@ -164,29 +171,13 @@ const Home = () => {
         );
     };
 
-
-    const [currentSlide, setCurrentSlide] = useState(0);
-
-    const nextSlide = () => {
-        setCurrentSlide((prev) => (prev + 1) % slides.length);
-    };
-
-    const prevSlide = () => {
-        setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-    };
-
-    const slides = [
-        { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
-        { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
-        { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success2.webp', title: "Success+", imageMobile: '/images/homepage/success-mobile2.webp' },
-
-    ]
     useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 3000);
-        return () => clearInterval(interval);
-    }, [slides.length]);
+        const timer = setInterval(() => {
+            setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+        }, 10000);
+        return () => clearInterval(timer);
+    }, [slides]);
+
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -214,88 +205,68 @@ const Home = () => {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <div className="relative">
-                <div className="absolute top-[400px] left-0 w-full  h-[calc(100vh+650px)] bg-[#F5F5F5] -z-10" />
-                <div className="relative">
-                    <div className="xl:w-[1360px] w-full xl:h-[711px] lg:h-[1200px] md:h-[1000px] sm:h-[800px] h-[500px] overflow-hidden relative custom-container">
-                        {slides.map((slide, index) => (
-                            <React.Fragment key={index}>
-                                <Link href={slide.link} aria-label={`Read more about ${slide.title}`}>
-
-                                    <div
-                                        className={`absolute inset-0 transition-transform transform xl:hidden object-cover ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
-                                            }`}
-
-                                    >
-                                        <Image
-                                            className="w-full h-auto"
-                                            src={slide.imageMobile}
-                                            alt="life at rialtes"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            priority
-                                            quality={60}
-                                            fetchPriority='high'
-                                        />
-
-                                        <div
-                                            ref={refs[6]}
-                                            className={`col-span-4 transition-all duration-1000 ease-out transform absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                                                }`}
-                                        />
-                                    </div>
-                                </Link>
-
-                                <Link rel="preload" href={slide.link} aria-label={`Read more about ${slide.title}`}>
-                                    <div
-                                        className={`absolute inset-0 transition-transform transform hidden xl:block ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'
-                                            }`}
-                                    >
-                                        <Image
-                                            className="w-full h-auto"
-                                            src={slide.image}
-                                            alt="life at rialtes"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            priority
-                                            quality={60}
-                                            fetchPriority="high"
-                                        />
-                                        <div
-                                            ref={refs[6]}
-                                            className={`absolute inset-0 bg-opacity-50 flex flex-col xl:pl-[118px] justify-center items-start text-white p-8 ${inViews[6] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                                                }`}
-                                        >
-                                            {/* text */}
-                                        </div>
-                                    </div>
-                                </Link>
-                            </React.Fragment>
-                        ))}
-
-                        <div className="absolute bottom-0 right-[-4rem] xl:right-[-6rem] gap-5 transform -translate-x-1/2 flex items-center rounded-full shadow-lg">
-                            <div className='text-white xl:text-[25px] font-light'>
-                                {currentSlide + 1}/{slides.length}
+            <div className="relative custom-container overflow-hidden">
+                <div className="w-full h-[400px] sm:h-[600px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
+                    {slides.map((s, i) => (
+                        <Link key={i} href={s.link}>
+                            <div
+                                className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${i === currentSlide ? "opacity-100 z-30" : "opacity-0 z-20"
+                                    }`}
+                            >
+                                {/* Desktop */}
+                                <div className="hidden md:block w-full h-full relative">
+                                    <Image
+                                        src={s.image}
+                                        alt={s.title}
+                                        fill
+                                        priority={i === 0}
+                                    />
+                                </div>
+                                {/* Mobile */}
+                                <div className="block md:hidden w-full h-full relative">
+                                    <Image
+                                        src={s.imageMobile}
+                                        alt={s.title}
+                                        fill
+                                        priority={i === 0}
+                                    />
+                                </div>
                             </div>
+                        </Link>
+                    ))}
 
-
-                            <div className="flex">
-                                <button aria-label="Previous slide" onClick={prevSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
-                                    <svg viewBox="0 0 24 24" fill="black" width="45">
-                                        <polygon points="15,6 9,12 15,18" />
-                                    </svg>
-                                </button>
-
-                                <button aria-label="Next slide" onClick={nextSlide} className="xl:h-[60px] xl:w-[60px] bg-white flex items-center justify-center  shadow-md hover:bg-gray-100">
-                                    <svg viewBox="0 0 24 24" fill="black" width="45">
-                                        <polygon points="9,6 15,12 9,18" />
-                                    </svg>
-                                </button>
-                            </div>
+                    {/* Arrows */}
+                    {/* <div className="absolute bottom-[-10px] right-0 z-30 flex gap-4">
+                        <div className='text-white xl:text-[25px] font-light'>
+                            {currentSlide + 1}/{slides.length}
                         </div>
-                    </div>
+                        <div>
+                            <button
+                                onClick={() =>
+                                    setCurrentSlide((prev) =>
+                                        prev === 0 ? slides.length - 1 : prev - 1
+                                    )
+                                }
+                                className="btn z-20 bg-white"
+                            >
+                                <svg viewBox="0 0 24 24" fill="black" width="45">
+                                    <polygon points="15,6 9,12 15,18" />
+                                </svg>
+                            </button>
+                            <button
+                                onClick={() =>
+                                    setCurrentSlide((prev) =>
+                                        prev === slides.length - 1 ? 0 : prev + 1
+                                    )
+                                }
+                                className="btn z-20 bg-white"
+                            >
+                                <svg viewBox="0 0 24 24" fill="black" width="45">
+                                    <polygon points="9,6 15,12 9,18" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div> */}
                 </div>
 
                 {/* //innovating section */}
@@ -391,6 +362,34 @@ const Home = () => {
                 </section>
             </div>
 
+            {/* innovating section */}
+            <section className='custom-container xl:mt-[98px] mt-[55px]'>
+                <Image
+                    priority
+                    height='100'
+                    width='280'
+                    alt='Success Stories'
+                    className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
+                    src='/images/homepage/AdobeStock_406847557.svg'
+                    fetchPriority='high'
+                />
+                <div
+                    ref={refs[7]}
+                    className={`transition-all duration-1000 ease-out transform grid xl:grid-cols-12 grid-cols-1 ${inViews[7] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                        }`}
+
+                >
+                    <div className='lg:col-span-4 col-span-12 lg:border-r-[2px] border-black-900'></div>
+
+                    <div className='lg:col-span-8 col-span-12 2xl:pl-[78px] lg:pl-[42px]'>
+                        <h3 className="4xl:text-[110px] xl:text-[80px] md:text-[60px] sm:text-[46px] font-bold text-[33px] outline-text border-l-[2px] xl:border-none border-gay-300 ml-[34%] sm:ml-[35%] md:ml-[32%] pl-[20px] xl:pl-0 xl:ml-auto mt-[20px] leading-tight">with Impact</h3>
+                        <h2 className='4xl:text-[32px] xl:text-[28px] text-[26px] text-[#0077CE] xl:mt-[30px] mt-[30px] font-bold leading-tight'>Beyond Business: A Commitment to Change</h2>
+                        <p className='xl:mt-[27px] mt-[16px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                    </div>
+
+                </div>
+
+            </section>
 
             {/* industry experties and solutions */}
             <section className='xl:mt-[158px] mt-[87px]'>
