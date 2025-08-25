@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "find-unused-images": "node scripts/find-unused-images.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

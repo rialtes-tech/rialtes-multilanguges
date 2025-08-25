@@ -9,6 +9,17 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
+
+    {
+    id: 26,
+    image: "/images/blog/reimagine-slider.webp", 
+    category: "Artificial Intelligence",
+    industry: "Generic",
+    date: "25 August 2025",
+    url: 'insights/blogs/reimagine-enterprise-using-agentic-ai-systems',
+    title: "Reimagine Enterprise Using Agentic AI Systems",
+    description: "The way humans interact with AI is evolving. From isolated tools that do one thing well to intelligent agents that can plan trips, monitor logistics, assist the elderly, or manage inventory across global supply chains",
+  },
    {
     id: 25,
     image: "/images/blog/small-slider.webp", 
@@ -26,7 +37,7 @@ export default function BlogsCarousel() {
     industry: "Generic",
     date: "21 August 2025",
     url: 'insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet',
-    title: "Artificial Intelligence isn’t just powering smart cities or automating industries. It’s quietly becoming one of the most effective tools in the fight against climate change.",
+    title: "How AI Is Powering the Sustainable Future of Our Planet",
     description: "We must reduce greenhouse gas emissions and transition to renewable energy sources to protect our planet and future generations. However, the hope for a sustainable future lies in conservation and innovation. Here’s how.",
   },
     {
