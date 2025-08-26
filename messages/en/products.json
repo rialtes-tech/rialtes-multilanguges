@@ -382,5 +382,243 @@
         "salesforceDesc": "is proudly built on the Salesforce platform, leveraging the world’s #1 enterprise cloud to deliver unmatched performance, flexibility, and trust for real estate.",
         "salesforceBlueBox": "Explore the power of Salesforce + Exelona",
         "trustedTitle": "Trusted Infrastructure for the Real Estate Enterprise"
+    },
+    "mediaina": {
+        "rialtesBenefits": [
+            "Accelerate product-to-market timelines with agile delivery models.",
+            "Enable smarter clinical trials, connected care, and digital therapeutics.",
+            "Leverage Salesforce, AI, and cloud platforms for compliant innovation."
+        ],
+        "headerTitle": "MediAIna",
+        "headerSubTitle": "Redefining the",
+        "headerSubTitle2": "Digital Patient Journey for the Life Sciences Industry",
+        "pageDesc": "MediAIna is Rialtes’ next-generation patient journey software designed to transform the healthcare patient journey. It integrates clinical, operational, and digital touchpoints across providers, payers, MedTech, and life sciences enterprises.",
+        "pageDesc2": "Backed by LifeAI+, Rialtes’ specialized healthcare consulting suite, MediAIna offers intelligent, scalable, and compliant solutions that accelerate innovation, improve outcomes, and deliver human-centered healthcare at scale.",
+        "visionTitle": "Rialtes LifeAI+",
+        "visionSubTitle": "Our Vision for Life Sciences",
+        "visionDesc": "As a consulting leader in digital transformation, Rialtes believes the future of healthcare is built on connected ecosystems, predictive insights, and intelligent automation. With LifeAI+, our dedicated consulting services for life sciences, we help organizations:",
+        "benefitsTitle": "Benefits",
+        "commonData": [
+            {
+                "title": "Patient Identification",
+                "desc": "Leverage AI to detect, segment, and activate the right candidates for therapies, care plans, and trials.",
+                "benefitList": [
+                    "Predictive models trained on clinical, claims, and wearable data.",
+                    "Smart filters for rare diseases, chronic care, and trial eligibility.",
+                    "Integration with EHRs and lab data sources."
+                ],
+                "outcomeList": [
+                    "Higher patient precision and faster enrollments.",
+                    "Reduced outreach cost and better ROI.",
+                    "Improved access to targeted care and therapies."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
+                "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
+                "imgAlt": "",
+                "bgColor":"#CCF7F5"
+            },
+            {
+                "title": "Candidate Education",
+                "desc": "Transforming candidates into informed partners with personalized digital education, a crucial step in optimizing the patient engagement journey for successful therapy adoption.",
+                "benefitList": [
+                    "Multilingual, interactive content for devices and therapies.",
+                    "Adaptive learning based on candidate behavior and feedback.",
+                    "Integrated care education journeys with chat support."
+                ],
+                "outcomeList": [
+                    "Increased therapy compliance and satisfaction.",
+                    "Reduced device misuse and support calls.",
+                    "Higher candidate engagement with digital tools."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/candidate.webp",
+                "mobImg": "/images/products/mediyana/mobile/candidate.webp",
+                "imgAlt": "",
+                "bgColor":"#C6E7FF"
+            },
+            {
+                "title": "Digital Prior Authorization (PA)",
+                "desc": "Automate complex prior authorization workflows and reduce treatment delays—an essential part of seamless patient journey in healthcare delivery.",
+                "benefitList": [
+                    "End-to-end PA workflow automation with real-time payer integration.",
+                    "Preconfigured rules for top payers and regulatory standards.",
+                    "Case routing, escalation, and tracking dashboards."
+                ],
+                "outcomeList": [
+                    "40–60% reduction in processing time. ",
+                    "Reduced manual errors and rework.",
+                    "Faster time-to-care with lower administrative overhead."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/digital.webp",
+                "mobImg": "/images/products/mediyana/mobile/digital.webp",
+                "imgAlt": "",
+                "bgColor":"#EDEDED"
+            },
+            {
+                "title": "Clinical Trial Management with 360° Patient View",
+                "desc": "Centralize trial operations with unified patient intelligence.",
+                "benefitList": [
+                    "Real-time patient profiles from EHR, labs, and wearables.",
+                    "Eligibility verification, onboarding, and compliance tracking.",
+                    "Integrated digital diaries and adverse event capture."
+                ],
+                "outcomeList": [
+                    "Better trial outcomes through continuous patient engagement.  ",
+                    "Enhanced trial efficiency and reduced dropouts.",
+                    "Actionable insights for sponsors and CROs."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/clinical.webp",
+                "mobImg": "/images/products/mediyana/mobile/clinical.webp",
+                "imgAlt": "",
+                "bgColor":"#CCF7F5"
+            },
+            {
+                "title": "Long-Term Care Management",
+                "desc": "Extend care beyond the clinic with automated, connected long-term care—empowering ongoing patient journey management and improving health outcomes.",
+                "benefitList": [
+                    "Personalized care pathways and remote monitoring.",
+                    "Real-time alerts for risk scores and care deviations.",
+                    "Multi-provider collaboration tools and mobile access"
+                ],
+                "outcomeList": [
+                    "Improved health outcomes and patient retention.",
+                    "Reduced readmissions and avoidable ER visits.",
+                    "End-to-end visibility across the care continuum."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/long.webp",
+                "mobImg": "/images/products/mediyana/mobile/long.webp",
+                "imgAlt": "",
+                "bgColor":"#C6E7FF"
+            },
+            {
+                "title": "Body MAP App – Track Pain & Progress Visually",
+                "desc": "A visual-first approach to understanding the patient’s symptoms and responses.",
+                "benefitList": [
+                    "10+ pain parameters visualized in one intuitive interface.",
+                    "Interactive 3D body mapping for patients and clinicians.",
+                    "Longitudinal tracking of pain vs. therapy progress."
+                ],
+                "outcomeList": [
+                    "Accelerated diagnostics and therapy adjustments.",
+                    "Enhanced patient-provider communication.",
+                    "Objective outcome measurement for chronic care."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/body.webp",
+                "mobImg": "/images/products/mediyana/mobile/body.webp",
+                "imgAlt": "",
+                "bgColor":"#EDEDED"
+            },
+            {
+                "title": "Conversational Insights with Agentforce",
+                "desc": "Ask questions. Get instant answers. Act faster—powered by Agentforce.",
+                "benefitList": [
+                    "Natural language queries across all MediAIna data.",
+                    "Automated insights on care gaps, patient status, and trial KPIs.",
+                    "Role-based access with HIPAA-compliant guardrails."
+                ],
+                "outcomeList": [
+                    "Time savings for care teams and researchers.",
+                    "Data democratization across departments.",
+                    "Empowered, insight-driven decision-making."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/conversational.webp",
+                "mobImg": "/images/products/mediyana/mobile/conver.webp",
+                "imgAlt": "",
+                "bgColor":"#CCF7F5"
+            },
+            {
+                "title": "Unified Intelligence with Salesforce Data Cloud",
+                "desc": "Bring every interaction, record, and insight into one powerful data platform.",
+                "benefitList": [
+                    "Harmonized data across providers, payers, trials, and patients.",
+                    "Predictive models for risk scoring, engagement, and resource planning.",
+                    "Real-time dashboards and cohort analytics."
+                ],
+                "outcomeList": [
+                    "Smarter, personalized healthcare delivery. ",
+                    "Holistic decision-making for patient outcomes.",
+                    "Improved population health management."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/unified.webp",
+                "mobImg": "/images/products/mediyana/mobile/unified.webp",
+                "imgAlt": "",
+                "bgColor":"#C6E7FF"
+            },
+            {
+                "title": "Seamless Integration with MuleSoft + Athenahealth",
+                "desc": "Enable a truly connected care ecosystem with secure, scalable integrations.",
+                "benefitList": [
+                    "API-led connectivity with Athenahealth, Epic, Cerner, and SAP. ",
+                    "Bi-directional data flow across EHR, CRM, and ERP systems.",
+                    "FHIR and HL7 standard compliance."
+                ],
+                "outcomeList": [
+                    "Unified patient records and device tracking.",
+                    "Reduced duplication and data silos.",
+                    "Faster implementation and interoperability at scale."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/seamless.webp",
+                "mobImg": "/images/products/mediyana/mobile/seamless.webp",
+                "imgAlt": "",
+                "bgColor":"#EDEDED"
+            },
+            {
+                "title": "Real-Time Patient Engagement with AgentChat",
+                "desc": "Drive proactive communication across the patient care journey with intelligent chat.",
+                "benefitList": [
+                    "Secure, HIPAA-compliant omnichannel chat for patients and staff. ",
+                    " AI and live agent handoffs for smarter conversations.",
+                    "Integrated with PA, education, and care workflows."
+                ],
+                "outcomeList": [
+                    "Higher satisfaction, better adherence, faster resolutions. ",
+                    " Reduced call volume and improved service metrics. ",
+                    "Consistent experience across every touchpoint."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/real.webp",
+                "mobImg": "/images/products/mediyana/mobile/real.webp",
+                "imgAlt": "",
+                "bgColor":"#CCF7F5"
+            },
+            {
+                "title": "Order & Inventory Management Integration with ERP (SAP)",
+                "desc": "Bridge clinical care with operational excellence.",
+                "benefitList": [
+                    "Real-time inventory visibility across warehouses and hospitals.",
+                    "Integration with SAP for procurement, fulfillment, and billing.",
+                    "Automated alerts for replenishment and stock optimization. "
+                ],
+                "outcomeList": [
+                    "360° product traceability from order to delivery.",
+                    "Improved device availability and logistics efficiency.",
+                    "  Better compliance and cost control. "
+                ],
+                "deskImg": "/images/products/mediyana/desktop/order.webp",
+                "mobImg": "/images/products/mediyana/mobile/order.webp",
+                "imgAlt": "",
+                "bgColor":"#C6E7FF"
+            },
+            {
+                "title": "Trusted by Salesforce. Certified by Rialtes.",
+                "desc": "Built on the Salesforce platform, MediAIna adheres to the most rigorous global security and privacy standards.",
+                "benefitList": [
+                    "HIPAA – Safeguarding electronic health data. ",
+                    " FedRAMP – Government-grade cloud security.",
+                    "SOC 2 Type II – Operational integrity and controls.",
+                    "GDPR – Privacy-compliant across the EU.",
+                    "Rialtes Certified Security Team – Continuous audits and governance."
+                ],
+                "outcomeList": [
+                    "Trusted by providers, payers, CROs, and regulators.",
+                    " Accelerated deployment in highly regulated environments. ",
+                    "Total peace of mind for your stakeholders and patients."
+                ],
+                "deskImg": "/images/products/mediyana/desktop/trusted.webp",
+                "mobImg": "/images/products/mediyana/mobile/trusted.webp",
+                "imgAlt": "",
+                "bgColor":"#EDEDED"
+            }
+        ],
+        "contactTitle": "Let’s Begin.",
+        "contactSubTitle": "The future of patient experience is intelligent, connected, and outcome-driven. With MediAIna, Rialtes empowers you to reimagine every step of the journey—from identification to engagement, from trials to care, and from data to decisions."
     }
 }

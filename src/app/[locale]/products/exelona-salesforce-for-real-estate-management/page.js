@@ -100,8 +100,8 @@ const schemaData = {
 export default function Page() {
     const t = useTranslations("exelona");
     const locale = useLocale();
-    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData } = homepageContent.exelona;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData } = content.exelona;
     return (
         <div className="min-h-screen bg-white">
             <Seo

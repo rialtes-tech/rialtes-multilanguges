@@ -382,5 +382,243 @@
     "salesforceDesc": "est fièrement construit sur la plateforme Salesforce, exploitant le cloud d’entreprise n°1 au monde pour offrir performance, flexibilité et confiance inégalées à l’immobilier.",
     "salesforceBlueBox": "Explorez la puissance de Salesforce + Exelona",
     "trustedTitle": "Infrastructure Fiable pour l’Entreprise Immobilière"
+  },
+  "mediaina": {
+    "rialtesBenefits": [
+      "Accélérez les délais de mise sur le marché grâce à des modèles de livraison agiles.",
+      "Permettez des essais cliniques plus intelligents, des soins connectés et des thérapies numériques.",
+      "Exploitez Salesforce, l’IA et les plateformes cloud pour une innovation conforme."
+    ],
+    "headerTitle": "MediAIna",
+    "headerSubTitle": "Redéfinir le",
+    "headerSubTitle2": "Parcours Numérique du Patient pour l’Industrie des Sciences de la Vie",
+    "pageDesc": "MediAIna est le logiciel de parcours patient nouvelle génération de Rialtes conçu pour transformer le parcours des patients en santé. Il intègre les points de contact cliniques, opérationnels et numériques entre fournisseurs, assureurs, MedTech et entreprises des sciences de la vie.",
+    "pageDesc2": "Soutenu par LifeAI+, la suite de conseil spécialisée en santé de Rialtes, MediAIna offre des solutions intelligentes, évolutives et conformes qui accélèrent l’innovation, améliorent les résultats et offrent des soins centrés sur l’humain à grande échelle.",
+    "visionTitle": "Rialtes LifeAI+",
+    "visionSubTitle": "Notre Vision pour les Sciences de la Vie",
+    "visionDesc": "En tant que leader du conseil en transformation digitale, Rialtes croit que l’avenir des soins de santé repose sur des écosystèmes connectés, des analyses prédictives et l’automatisation intelligente. Avec LifeAI+, nos services de conseil dédiés aux sciences de la vie, nous aidons les organisations à :",
+    "benefitsTitle": "Avantages",
+    "commonData": [
+      {
+        "title": "Identification des Patients",
+        "desc": "Exploitez l’IA pour détecter, segmenter et activer les bons candidats pour les thérapies, plans de soins et essais cliniques.",
+        "benefitList": [
+          "Modèles prédictifs entraînés sur des données cliniques, de réclamations et de dispositifs connectés.",
+          "Filtres intelligents pour maladies rares, soins chroniques et éligibilité aux essais.",
+          "Intégration avec les dossiers médicaux électroniques (DME) et sources de données de laboratoire."
+        ],
+        "outcomeList": [
+          "Précision accrue dans l’identification des patients et inscriptions plus rapides.",
+          "Réduction des coûts de contact et meilleur retour sur investissement.",
+          "Meilleur accès aux soins et aux thérapies ciblées."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
+        "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
+        "imgAlt": "",
+        "bgColor": "#CCF7F5"
+      },
+      {
+        "title": "Éducation des Candidats",
+        "desc": "Transformer les candidats en partenaires informés grâce à une éducation numérique personnalisée, une étape cruciale pour optimiser l’engagement patient et l’adoption réussie des thérapies.",
+        "benefitList": [
+          "Contenu interactif multilingue pour appareils et thérapies.",
+          "Apprentissage adaptatif basé sur le comportement et les retours des candidats.",
+          "Parcours éducatifs intégrés avec support par chat."
+        ],
+        "outcomeList": [
+          "Augmentation de l’adhérence aux thérapies et satisfaction.",
+          "Réduction des erreurs d’utilisation des dispositifs et des appels au support.",
+          "Engagement accru des candidats avec les outils numériques."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/candidate.webp",
+        "mobImg": "/images/products/mediyana/mobile/candidate.webp",
+        "imgAlt": "",
+        "bgColor": "#C6E7FF"
+      },
+      {
+        "title": "Autorisation Préalable Digitale (PA)",
+        "desc": "Automatisez les flux complexes d’autorisation préalable et réduisez les retards de traitement, élément essentiel d’un parcours patient fluide.",
+        "benefitList": [
+          "Automatisation complète du workflow PA avec intégration en temps réel aux assureurs.",
+          "Règles préconfigurées pour les principaux assureurs et normes réglementaires.",
+          "Routage des cas, escalade et tableaux de suivi."
+        ],
+        "outcomeList": [
+          "Réduction de 40 à 60 % du temps de traitement.",
+          "Moins d’erreurs manuelles et de retouches.",
+          "Délai de soins plus rapide avec moins de charges administratives."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/digital.webp",
+        "mobImg": "/images/products/mediyana/mobile/digital.webp",
+        "imgAlt": "",
+        "bgColor": "#EDEDED"
+      },
+      {
+        "title": "Gestion des Essais Cliniques avec Vue 360° du Patient",
+        "desc": "Centralisez les opérations des essais avec une intelligence unifiée du patient.",
+        "benefitList": [
+          "Profils patients en temps réel depuis DME, laboratoires et dispositifs connectés.",
+          "Vérification de l’éligibilité, intégration et suivi de conformité.",
+          "Journaux numériques intégrés et capture des événements indésirables."
+        ],
+        "outcomeList": [
+          "Meilleurs résultats d’essais grâce à un engagement patient continu.",
+          "Efficacité accrue et réduction des abandons.",
+          "Informations exploitables pour sponsors et CROs."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/clinical.webp",
+        "mobImg": "/images/products/mediyana/mobile/clinical.webp",
+        "imgAlt": "",
+        "bgColor": "#CCF7F5"
+      },
+      {
+        "title": "Gestion des Soins à Long Terme",
+        "desc": "Étendez les soins au-delà de la clinique avec des soins automatisés et connectés, améliorant la gestion du patient et les résultats de santé.",
+        "benefitList": [
+          "Parcours de soins personnalisés et suivi à distance.",
+          "Alertes en temps réel pour scores de risque et écarts de soins.",
+          "Outils de collaboration multi-fournisseurs et accès mobile."
+        ],
+        "outcomeList": [
+          "Meilleurs résultats de santé et fidélisation des patients.",
+          "Réduction des réadmissions et visites inutiles aux urgences.",
+          "Visibilité complète sur l’ensemble du continuum de soins."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/long.webp",
+        "mobImg": "/images/products/mediyana/mobile/long.webp",
+        "imgAlt": "",
+        "bgColor": "#C6E7FF"
+      },
+      {
+        "title": "Application Body MAP – Suivi Visuel de la Douleur et des Progrès",
+        "desc": "Une approche visuelle pour comprendre les symptômes et les réponses du patient.",
+        "benefitList": [
+          "Plus de 10 paramètres de douleur visualisés dans une interface intuitive.",
+          "Cartographie corporelle 3D interactive pour patients et cliniciens.",
+          "Suivi longitudinal de la douleur par rapport aux progrès thérapeutiques."
+        ],
+        "outcomeList": [
+          "Diagnostics et ajustements thérapeutiques plus rapides.",
+          "Meilleure communication patient-prestataire.",
+          "Mesure objective des résultats pour les soins chroniques."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/body.webp",
+        "mobImg": "/images/products/mediyana/mobile/body.webp",
+        "imgAlt": "",
+        "bgColor": "#EDEDED"
+      },
+      {
+        "title": "Insights Conversationnels avec Agentforce",
+        "desc": "Posez des questions. Obtenez des réponses instantanées. Agissez plus rapidement grâce à Agentforce.",
+        "benefitList": [
+          "Requêtes en langage naturel sur toutes les données de MediAIna.",
+          "Insights automatisés sur les écarts de soins, état des patients et KPIs des essais.",
+          "Accès basé sur les rôles avec conformité HIPAA."
+        ],
+        "outcomeList": [
+          "Gain de temps pour les équipes de soins et les chercheurs.",
+          "Démocratisation des données entre les départements.",
+          "Prise de décision basée sur les insights, renforcée."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/conversational.webp",
+        "mobImg": "/images/products/mediyana/mobile/conver.webp",
+        "imgAlt": "",
+        "bgColor": "#CCF7F5"
+      },
+      {
+        "title": "Intelligence Unifiée avec Salesforce Data Cloud",
+        "desc": "Centralisez chaque interaction, enregistrement et insight dans une puissante plateforme de données.",
+        "benefitList": [
+          "Données harmonisées entre fournisseurs, assureurs, essais et patients.",
+          "Modèles prédictifs pour scoring de risque, engagement et planification des ressources.",
+          "Tableaux de bord en temps réel et analyses de cohortes."
+        ],
+        "outcomeList": [
+          "Soins de santé plus intelligents et personnalisés.",
+          "Prise de décision globale pour les résultats des patients.",
+          "Amélioration de la gestion de la santé de la population."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/unified.webp",
+        "mobImg": "/images/products/mediyana/mobile/unified.webp",
+        "imgAlt": "",
+        "bgColor": "#C6E7FF"
+      },
+      {
+        "title": "Intégration Transparentes avec MuleSoft + Athenahealth",
+        "desc": "Permettez un véritable écosystème de soins connecté avec des intégrations sécurisées et évolutives.",
+        "benefitList": [
+          "Connectivité API avec Athenahealth, Epic, Cerner et SAP.",
+          "Flux de données bidirectionnel entre DME, CRM et ERP.",
+          "Conformité aux normes FHIR et HL7."
+        ],
+        "outcomeList": [
+          "Dossiers patients unifiés et suivi des dispositifs.",
+          "Réduction des duplications et des silos de données.",
+          "Mise en œuvre plus rapide et interopérabilité à grande échelle."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/seamless.webp",
+        "mobImg": "/images/products/mediyana/mobile/seamless.webp",
+        "imgAlt": "",
+        "bgColor": "#EDEDED"
+      },
+      {
+        "title": "Engagement du Patient en Temps Réel avec AgentChat",
+        "desc": "Favorisez la communication proactive tout au long du parcours patient avec un chat intelligent.",
+        "benefitList": [
+          "Chat sécurisé, multicanal et conforme HIPAA pour patients et personnel.",
+          "IA et transfert à des agents en direct pour des conversations plus intelligentes.",
+          "Intégré avec PA, éducation et flux de soins."
+        ],
+        "outcomeList": [
+          "Satisfaction accrue, meilleure adhésion, résolutions plus rapides.",
+          "Réduction du volume d’appels et amélioration des indicateurs de service.",
+          "Expérience cohérente à chaque point de contact."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/real.webp",
+        "mobImg": "/images/products/mediyana/mobile/real.webp",
+        "imgAlt": "",
+        "bgColor": "#CCF7F5"
+      },
+      {
+        "title": "Intégration de Gestion des Commandes et Inventaire avec ERP (SAP)",
+        "desc": "Reliez les soins cliniques à l’excellence opérationnelle.",
+        "benefitList": [
+          "Visibilité en temps réel de l’inventaire dans les entrepôts et hôpitaux.",
+          "Intégration avec SAP pour l’approvisionnement, l’exécution et la facturation.",
+          "Alertes automatiques pour le réapprovisionnement et l’optimisation des stocks."
+        ],
+        "outcomeList": [
+          "Traçabilité 360° du produit de la commande à la livraison.",
+          "Meilleure disponibilité des dispositifs et efficacité logistique.",
+          "Meilleure conformité et contrôle des coûts."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/order.webp",
+        "mobImg": "/images/products/mediyana/mobile/order.webp",
+        "imgAlt": "",
+        "bgColor": "#C6E7FF"
+      },
+      {
+        "title": "Fiable par Salesforce. Certifié par Rialtes.",
+        "desc": "Construit sur la plateforme Salesforce, MediAIna respecte les normes mondiales les plus strictes en matière de sécurité et de confidentialité.",
+        "benefitList": [
+          "HIPAA – Protection des données de santé électroniques.",
+          "FedRAMP – Sécurité cloud de niveau gouvernemental.",
+          "SOC 2 Type II – Intégrité opérationnelle et contrôles.",
+          "RGPD – Conformité à la vie privée dans l’UE.",
+          "Équipe de Sécurité Certifiée Rialtes – Audits et gouvernance continus."
+        ],
+        "outcomeList": [
+          "Fiable pour les fournisseurs, assureurs, CROs et régulateurs.",
+          "Déploiement accéléré dans des environnements hautement réglementés.",
+          "Tranquillité totale pour vos parties prenantes et patients."
+        ],
+        "deskImg": "/images/products/mediyana/desktop/trusted.webp",
+        "mobImg": "/images/products/mediyana/mobile/trusted.webp",
+        "imgAlt": "",
+        "bgColor": "#EDEDED"
+      }
+    ],
+    "contactTitle": "Commençons.",
+    "contactSubTitle": "L’avenir de l’expérience patient est intelligent, connecté et axé sur les résultats. Avec MediAIna, Rialtes vous permet de réimaginer chaque étape du parcours : de l’identification à l’engagement, des essais aux soins, et des données à la prise de décision."
   }
 }
