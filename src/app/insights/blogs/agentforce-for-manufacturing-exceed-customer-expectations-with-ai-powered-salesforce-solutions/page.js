@@ -358,7 +358,7 @@ export default function Page() {
                                 </li>
                                 <li>
                                     <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] ">Reduce response and resolution time dramatically </h3>-
-                                     No more "We'll get back to you in 24 hours." With AI agents handling FAQs, documentation pulls, and triage, and human agents focused on the critical cases, resolution times drop drastically from hours to minutes in many cases.
+                                    No more "We'll get back to you in 24 hours." With AI agents handling FAQs, documentation pulls, and triage, and human agents focused on the critical cases, resolution times drop drastically from hours to minutes in many cases.
                                 </li>
 
 
@@ -411,7 +411,27 @@ export default function Page() {
                             <h3 className="pb-4 h3-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                                 Give partners real-time access to inventory, returns, and service tools
                             </h3>
-                            <p className="4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Distributors, resellers, and OEM partners are critical to your customer experience. In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on. Agentforce 3.0 for automotive manufacturers delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:</p>
+                            <p className="4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Distributors, resellers, and OEM partners are critical to your
+
+                                <Link
+                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={
+                                        "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"
+                                    }
+                                >
+                                    <span className="pr-2"> customer experience.</span>
+                                </Link>
+                                In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on.
+                                <Link
+                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={
+                                        "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
+                                    }
+                                >
+                                    <span className="pr-2">  Agentforce 3.0 for automotive manufacturers</span>
+                                </Link>
+
+                                delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:</p>
                             <ol className="list-disc  marker:text-xl pl-4 marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]  font-medium space-y-3 mt-5">
                                 <li>Check current inventory status</li>
                                 <li>Initiate return or warranty claims</li>

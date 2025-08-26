@@ -284,11 +284,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] text-left hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Explore intelligent patient discovery
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -381,11 +381,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Explore intelligent patient discovery
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -429,11 +429,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Streamline your authorization process
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -524,11 +524,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Power smarter trials
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -573,11 +573,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Digitize long-term care management
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -667,11 +667,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Visualize outcomes with Body MAP
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -714,11 +714,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Talk to your healthcare data
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -809,11 +809,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Leverage predictive healthcare intelligence
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -858,11 +858,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Connect your digital health stack
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -952,11 +952,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Engage with AgentChat today
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -1000,11 +1000,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left w-full text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Synchronize operations with ERP
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
@@ -1096,11 +1096,11 @@ export default function Page() {
                                     Learn More
                                 </button>
                             </Link>
-                            <Link href="/contact-us">
+                            {/* <Link href="/contact-us">
                                 <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
                                     Read about our security and compliance practices
                                 </button>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>
