@@ -10,73 +10,177 @@ import FAQAccordion from "@/app/components/faqAccordion";
 const schemaData = {
 
     "@context": "https://schema.org",
+
     "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-    },
-    "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
-    "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
-    "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
+
+    "headline": "How AI Powers The Sustainable Future of Our Planet",
+
+    "description": "AI is a powerful ally in building a sustainable future by enhancing energy efficiency, protecting forests, preserving biodiversity, and enabling smarter climate solutions.",
+
+    "image": "https://www.rialtes.com/images/blog/sustainability-banner.webp",
+
     "author": {
+
         "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
+
+        "name": "Rialtes"
+
     },
+
     "publisher": {
+
         "@type": "Organization",
+
         "name": "Rialtes",
+
         "logo": {
+
             "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+
+            "url": " https://www.rialtes.com/images/homepage/logo.svg"
+
         }
+
     },
-    "datePublished": "2025-07-29",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Agentforce for Automotive?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
+
+    "mainEntityOfPage": {
+
+        "@type": "WebPage",
+
+        "@id": "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/"
+
+    },
+
+    "datePublished": "2025-08-21",
+
+    "mainEntity": {
+
+        "@type": "FAQPage",
+
+        "name": "AI and Sustainability FAQs",
+
+        "acceptedAnswer": [],
+
+        "mainEntity": [
+
+            {
+
+                "@type": "Question",
+
+                "name": "How is AI transforming energy management?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "AI improves how we generate, store, and use energy. It predicts demand, manages smart grids, and helps optimize performance in real time. Think solar panels that adjust based on weather forecasts or buildings that auto-regulate power consumption."
+
+                }
+
+            },
+
+            {
+
+                "@type": "Question",
+
+                "name": "What are smart grids, and how does AI support them?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "Smart grids are energy systems that adjust dynamically based on usage and supply. AI enables them to forecast demand, balance load, detect faults, and reduce outages. The result? Cleaner energy, fewer blackouts, and better integration of renewables like wind and solar."
+
+                }
+
+            },
+
+            {
+
+                "@type": "Question",
+
+                "name": "Can AI help fight deforestation?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "Yes. AI analyzes satellite imagery to detect illegal logging, predicts wildfire risks using weather data, and even listens for chainsaws in remote forests. These tools enable conservationists to act more quickly and protect more land more effectively."
+
+                }
+
+            },
+
+            {
+
+                "@type": "Question",
+
+                "name": "Is AI being used to protect biodiversity, too?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "Absolutely. AI-powered camera traps can identify species, track migrations, and monitor endangered populations without disturbing them. It’s helping researchers protect wildlife with minimal human intrusion."
+
+                }
+
+            },
+
+            {
+
+                "@type": "Question",
+
+                "name": "What role does AI play in ocean conservation?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "AI-guided underwater drones collect data on temperature, pH, and marine life. Algorithms track illegal fishing by flagging suspicious vessel behavior. It’s all about turning raw ocean data into insight—and action."
+
+                }
+
+            },
+
+            {
+
+                "@type": "Question",
+
+                "name": "Can AI predict natural disasters and climate shifts?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "Yes. AI-enhanced models predict floods, hurricanes, and rising sea levels faster and more accurately than traditional systems. That gives governments and communities the time to plan, adapt, and reduce damage."
+
+                }
+
+            },
+
+            {
+
+                "@type": "Question",
+
+                "name": "What are the risks of using AI for environmental goals?",
+
+                "acceptedAnswer": {
+
+                    "@type": "Answer",
+
+                    "text": "There are ethical concerns, bias in data, lack of transparency, or using AI in ways that harm local communities or ecosystems. That’s why responsible design, community involvement, and clear accountability are essential."
+
+                }
+
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does Agentforce integrate with existing automotive systems?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What use cases exist for Agentforce in automotive?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What is the future of AI in automotive manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
-            }
-        }
-    ]
-};
+
+        ]
+
+    }
+
+}
+
 const blogs = [
     {
         id: 1,
@@ -209,25 +313,25 @@ export default function Page() {
 
 
 
-   
-  
+
+
 
     const fullUrl =
         "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
 
     return (
         <div className="min-h-screen bg-white">
-            {/* <Seo
-                title="Agentforce 3.0 for Automotive Manufacturing Success | Rialtes"
-                description="Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor."
-                canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
+            <Seo
+                title="How AI Can Enable a Sustainable Future for Our Planet | Rialtes"
+                description="AI is helping protect the planet and make sustainability scalable, from tracking deforestation to predicting energy demand and preserving biodiversity."
+                canonical={"https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/"}
             />
 
             <Script
                 id="schema-discover"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
             <section className="relative  h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
@@ -337,8 +441,16 @@ export default function Page() {
                             </h2>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                Sustainability is crucial for ensuring that future generations can enjoy a quality of life comparable to ours. It’s about maintaining a balance between economic growth, environmental care, and social well-being so that future generations inherit a livable planet. The United Nations laid out 17 Sustainable Development Goals (SDGs) to help address critical issues like climate action, clean water, and responsible consumption.                            </p>
-
+                                Sustainability is crucial for ensuring that future generations can enjoy a quality of life comparable to ours. The United Nations has established 
+                                   <Link
+                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={
+                                        "https://sdgs.un.org/goals/"
+                                    }
+                                >
+                                    <span className="">17 Sustainable Development Goals</span>
+                                </Link>
+                                 (SDGs) as a roadmap to tackle global challenges like poverty, inequality, climate change, environmental degradation, peace, and justice.</p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                                 AI plays a growing role in this landscape. By analyzing massive datasets, spotting patterns humans miss, and making data-driven recommendations, AI enables smarter decision-making at every level. It helps cities become more energy-efficient, industries become cleaner, and farmers become more productive—all while reducing waste and emissions. Whether you're a policymaker, an enterprise leader, or a conservationist, AI can serve as a real-time compass for sustainability.                            </p>
@@ -377,7 +489,7 @@ export default function Page() {
 
 
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-5">
                                 Smart grids are essential for integrating variable energy sources like wind and solar, balancing sustainability with system resilience.
                             </p>
 
