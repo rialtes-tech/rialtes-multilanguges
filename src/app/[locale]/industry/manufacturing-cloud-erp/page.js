@@ -577,10 +577,10 @@ export default function Page() {
             </div>
           </div>
           <div className="xl:col-span-5 col-span-12">
-            <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('sapTitle')} SAP & Salesforce</h2>
-            <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('sapSubtitle')} The Power Duo for Intelligent Manufacturing</h3>
+            <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('sapTitle')}</h2>
+            <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('sapSubtitle')}</h3>
             <p className="mt-8 font-normal leading-tight pr-20">
-              {t('sapDesc')}  Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
+              {t('sapDesc')} 
             </p>
             <div className="mt-5">
               <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />

@@ -57,28 +57,29 @@
                 "description": "Lograr los objetivos de tu organización es una responsabilidad compartida por todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos organizacionales, hacer lo correcto se vuelve instintivo."
             }
         ],
-        "faqData": [
-            {
-                "question": "1. ¿Qué hace diferente a Agentforce de otras soluciones de IA para manufactura?",
-                "answer": "Agentforce está construido de forma nativa sobre Salesforce y diseñado específicamente para su uso operativo en entornos de manufactura. Va más allá de la IA genérica al ofrecer agentes entrenados en la industria que gestionan solicitudes de cadena de suministro, programación de servicios, reclamaciones de garantía y soporte a socios, sin necesidad de código personalizado."
-            },
-            {
-                "question": "2. ¿Puede Agentforce integrarse con nuestro Salesforce CPQ o Manufacturing Cloud existente?",
-                "answer": "Sí. Agentforce está diseñado para trabajar perfectamente con Salesforce CPQ, Manufacturing Cloud y otras soluciones nativas de Salesforce. Se conecta con tu catálogo de productos, motor de precios, contratos y flujos de trabajo. Así, tus agentes de IA pueden cotizar, configurar o dar soporte con lógica empresarial activa y datos en tiempo real."
-            },
-            {
-                "question": "3. ¿Cómo mejoran los agentes de IA de Agentforce el tiempo de actividad y reducen la carga manual?",
-                "answer": "Agentforce se conecta con Field Service, señales IoT e historiales de servicio para identificar posibles problemas antes de que causen tiempo de inactividad. Automatiza flujos de trabajo comunes como programación de envíos, pedidos de piezas o inicio de reclamaciones. Eso significa menos interrupciones y menos trabajo manual."
-            },
-            {
-                "question": "4. ¿Cómo ayuda Agentforce a mejorar la satisfacción del cliente?",
-                "answer": "Los clientes y socios obtienen respuestas rápidas y precisas mediante agentes de IA 24/7, sin esperas o seguimientos. Ya sea para rastrear un pedido, programar un servicio o descargar un manual, Agentforce ofrece una experiencia de autoservicio coherente en web, móvil, WhatsApp y SMS."
-            },
-            {
-                "question": "5. ¿Es Agentforce adecuado solo para empresas grandes o también para medianas?",
-                "answer": "Agentforce es escalable por diseño. Ya seas una empresa mediana en crecimiento o un fabricante global, puedes empezar automatizando unos pocos flujos de trabajo de alto volumen e ir expandiéndote con el tiempo. Sin necesidad de grandes cambios en la infraestructura. Solo soporte más rápido, operaciones más inteligentes y un ROI real."
-            }
-        ],
+       "faqData": [
+  {
+    "question": "1. ¿Qué hace que Agentforce sea diferente de otras soluciones de IA para manufactura?",
+    "answer": "Agentforce está construido de manera nativa sobre Salesforce y diseñado para su uso operativo en entornos de manufactura. A diferencia de las soluciones de IA genéricas, cuenta con agentes capacitados en la industria que gestionan de manera eficiente tareas como la gestión de la cadena de suministro, programación de servicios, reclamaciones de garantía y soporte a socios, sin necesidad de código personalizado."
+  },
+  {
+    "question": "2. ¿Puede Agentforce integrarse con nuestro Salesforce CPQ o Manufacturing Cloud existente?",
+    "answer": "Sí. Agentforce se integra de manera fluida con Salesforce CPQ, Manufacturing Cloud y otras soluciones nativas de Salesforce, conectándose a su catálogo de productos, motor de precios, contratos y flujos de trabajo. Esto permite que sus agentes de IA coticen, configuren y brinden soporte en tiempo real utilizando datos empresariales y lógica actualizados."
+  },
+  {
+    "question": "3. ¿Cómo los agentes de IA en Agentforce mejoran el tiempo de actividad y reducen la carga manual?",
+    "answer": "Agentforce se conecta con Field Service, señales IoT e historiales de servicio para identificar y señalar proactivamente posibles problemas antes de que provoquen interrupciones. Automatiza flujos de trabajo clave como programación de despachos, pedidos de piezas e inicio de reclamaciones, reduciendo significativamente fallos y la carga manual."
+  },
+  {
+    "question": "4. ¿Cómo ayuda Agentforce a mejorar la satisfacción del cliente?",
+    "answer": "Agentforce ofrece respuestas rápidas y precisas a clientes y socios a través de agentes de IA 24/7, eliminando tiempos de espera y seguimientos. Ya sea rastrear un pedido, programar un servicio o recuperar manuales de productos, Agentforce proporciona una experiencia de autoservicio consistente y fluida en web, móvil, WhatsApp y SMS."
+  },
+  {
+    "question": "5. ¿Agentforce es adecuado para empresas manufactureras medianas o solo para grandes corporaciones?",
+    "answer": "Agentforce está diseñado para ser escalable, lo que lo hace perfecto tanto para empresas medianas como para grandes corporaciones. Puede comenzar de manera pequeña, automatizando flujos clave, y expandirse con el tiempo, sin necesidad de cambios masivos en la infraestructura. Disfrute de soporte más rápido, operaciones más inteligentes y un ROI claro a medida que su negocio crece."
+  }
+]
+,
         "copilotData": [
             "Catálogos de SKU y piezas",
             "Acuerdos de nivel de servicio y reglas de derechos",
@@ -128,6 +129,7 @@
         "blogTopic": "Agentforce",
         "blogTitle": "Agentforce para Manufactura: Supera las Expectativas del Cliente con Soluciones Salesforce Impulsadas por IA",
         "blogMainData": "Sabemos que la inteligencia artificial ha transformado nuestra forma de trabajar, aumentando drásticamente la productividad al automatizar tareas manuales y permitir que los equipos se concentren en tareas de alto valor. Con expectativas cada vez más altas, los clientes exigen experiencias personalizadas y soporte instantáneo. Imagina una fuerza laboral sin restricciones, ofreciendo un servicio excepcional sin estar abrumada. Esa es la promesa de Agentforce. Combina la experiencia humana con agentes de IA en Salesforce para crear una fuerza laboral más inteligente y escalable.",
+        "the": " ",
         "blogMainDataLink": "la industria manufacturera está atravesando una transformación digital",
         "blogMainData2": "con la Industria 4.0, que requiere sistemas más inteligentes y conectados. Agentforce optimiza operaciones, mejora la productividad y eleva la satisfacción del cliente al integrar toda la cadena de valor.",
         "blogMainData3": "Veamos cómo Agentforce te ayuda a avanzar, no solo a mantenerte al día",
@@ -244,7 +246,7 @@
             },
             {
                 "title": "Marketplace Confiable",
-                "desc": "Explora e integra agentes de IA verificados en seguridad, cumplimiento y escalabilidad."
+                "desc": ": Explora e integra agentes de IA verificados en seguridad, cumplimiento y escalabilidad."
             }
         ],
         "whatLedData": [
@@ -500,19 +502,19 @@
         "whyPharmaDesc": "Las empresas farmacéuticas están especialmente bien posicionadas para aprovechar la IA Agentica debido a sus flujos de trabajo complejos, estrictas demandas regulatorias y un creciente enfoque en la atención centrada en el paciente. Los sectores de ciencias de la vida y la salud son notoriamente cautelosos al adoptar nuevas tecnologías, y con razón. La seguridad del paciente, los estándares éticos y las regulaciones estrictas exigen precisión y responsabilidad absolutas. Sin embargo, la misma complejidad de las operaciones farmacéuticas, desde el descubrimiento de fármacos hasta los ensayos clínicos y las presentaciones regulatorias, las convierte en un terreno ideal para sistemas autónomos inteligentes.",
         "whyPharmaData": [
             {
-                "title": "Aumento de la Complejidad Operativa en la Industria Farmacéutica:",
+                "title": "Aumento de la Complejidad Operativa en la Industria Farmacéutica",
                 "desc": "Coordinar ensayos clínicos, cumplimiento normativo, logística de la cadena de suministro y participación del paciente implica gestionar equipos diversos y sistemas de datos desconectados. Los procesos manuales pueden ralentizar las operaciones y aumentar el riesgo de errores humanos."
             },
             {
-                "title": "Crecientes Expectativas de los Pacientes:",
+                "title": "Crecientes Expectativas de los Pacientes",
                 "desc": "Los pacientes, especialmente aquellos con afecciones crónicas o complejas, esperan apoyo personalizado y en tiempo real. Los modelos de participación tradicionales no logran ofrecer personalización escalable sin aumentar significativamente los recursos necesarios."
             },
             {
-                "title": "Datos Fragmentados:",
+                "title": "Datos Fragmentados",
                 "desc": "Datos esenciales como registros de pacientes, historial de prescripciones y trayectorias de tratamiento a menudo están aislados entre departamentos o plataformas, lo que retrasa decisiones críticas y debilita la coordinación del cuidado."
             },
             {
-                "title": "Presiones Regulatorias y de Costos en Aumento:",
+                "title": "Presiones Regulatorias y de Costos en Aumento",
                 "desc": "Con regulaciones más estrictas y gastos operativos en alza, las compañías farmacéuticas deben mejorar la eficiencia, optimizar flujos de trabajo y reducir costos, todo ello manteniendo altos estándares de cumplimiento y atención."
             }
         ],
@@ -779,11 +781,11 @@
                 "desc": "SAP SuccessFactors se integra perfectamente con SAP S/4HANA y otros sistemas ERP para alinear las operaciones de RRHH con las funciones empresariales más amplias. Por ejemplo:",
                 "list": [
                     {
-                        "title": "Precisión en Nóminas",
+                        "title": "Precisión en Nóminas ",
                         "desc": ": La integración garantiza que los datos salariales, códigos fiscales y deducciones fluyan directamente desde SuccessFactors al sistema de nómina."
                     },
                     {
-                        "title": "Planificación Financiera",
+                        "title": "Planificación Financiera ",
                         "desc": ": El intercambio de datos en tiempo real apoya presupuestos y previsiones precisas al proporcionar visibilidad sobre los gastos de nómina."
                     }
                 ]
@@ -2168,7 +2170,7 @@
                 "list": [
                     {
                         "title": "Definir Escenarios de Revisión",
-                        "desc": "Identifica todas las entidades de terceros que requieren revisión. Ejemplos incluyen proveedores, operadores logísticos e instituciones financieras involucradas en tu cadena de suministro."
+                        "desc": ": Identifica todas las entidades de terceros que requieren revisión. Ejemplos incluyen proveedores, operadores logísticos e instituciones financieras involucradas en tu cadena de suministro."
                     },
                     {
                         "title": "Cargar entradas de la lista de partes sancionadas",
@@ -2909,7 +2911,7 @@
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
         "blogMainData": "A medida que las empresas escalan, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes.",
-        "blogMainDataLink": "Salesforce Agentforce ",
+        "blogMainDataLink": "Salesforce Agentforce",
         "blogMainData2": "proporciona una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine.",
         "blogMainData3": "Como el “cerebro” detrás de los agentes, Atlas formula un plan estratégico basado en el objetivo específico que el agente intenta alcanzar. Luego evalúa y refina este plan, repitiendo el ciclo para recopilar datos adicionales si es necesario. Al ejecutar una acción, evalúa qué proceso empresarial es el más adecuado y garantiza que se aplique el correcto. Interactúa con el cliente o empleado a través de su canal de comunicación preferido, ofreciendo una experiencia más fluida y personalizada. Esta adaptabilidad dinámica permite que Atlas optimice las interacciones, mejorando la eficiencia y la satisfacción de forma continua y en tiempo real. Veamos qué hace especial a las nuevas formas de razonamiento y planificación de Atlas.",
         "commonData": [
@@ -3075,7 +3077,7 @@
         "gettingLink": "Dreamforce",
         "gettingDesc2": "Las empresas pueden aprovechar Agentforce dentro de la plataforma Salesforce automatizando flujos de trabajo de ventas, mejorando la gestión de clientes potenciales y optimizando las interacciones con los clientes. Rialtes está especializada en",
         "gettingLink2": " soluciones de IA y análisis en Salesforce",
-        "gettingDesc3": ", y hemos ayudado a los clientes a lograr importantes mejoras de productividad utilizando herramientas basadas en IA para optimizar"
+        "gettingDesc3":  "y hemos ayudado a los clientes a lograr importantes incrementos de productividad mediante el uso de herramientas basadas en IA para mejorar sus procesos empresariales."
     },
     "agriculture": {
     "blogTopic": "Tecnología Verde",

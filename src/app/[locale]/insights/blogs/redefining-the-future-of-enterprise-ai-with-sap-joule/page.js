@@ -119,7 +119,7 @@ export default function Page() {
               <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[1084px] xl:w-[720px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">
                 {t('blogTitle')}</h1>
 
-              <p className="text-black">{t('blogMainData')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> {t('blogMainLink')}</Link>{t('blogMainData2')}  </p>
+              <p className="text-black">{t('blogMainData')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> {t('blogMainLink')}</Link> {t('blogMainData2')}  </p>
 
               {/* a quick glimpse section */}
               <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('quickGlimpseTitle')}</h2>
@@ -156,7 +156,7 @@ export default function Page() {
                 jouleData.map((data, ind) => {
                   return (
                     <div>
-                      <h3 className="h3-bold pb-4 mt-3">{ind + 1}.{data.title} </h3>
+                      <h3 className="h3-bold pb-4 mt-3">{ind + 1}. {data.title} </h3>
                       <p className="text-black">{data.desc}</p>
                     </div>
                   )
@@ -195,10 +195,7 @@ export default function Page() {
 
               <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('shiftFromTitle')}</h2>
               <p className="mt-3">{t('shiftFromDesc')}</p>
-              <p className="mt-3">{t('shiftFromDesc2')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">
-                {t('contactUsLink')}</Link>
-                {t('shiftFromDesc3')}
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink2')} </Link> {t('shiftFromAnd')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink3')}.</Link> </p>
+              <p className="mt-3">{t('shiftFromDesc2')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">{t('contactUsLink')}</Link> {t('shiftFromDesc3')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink2')}</Link> {t('shiftFromAnd')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink3')}.</Link> </p>
             </div>
           </div>
         </div>
