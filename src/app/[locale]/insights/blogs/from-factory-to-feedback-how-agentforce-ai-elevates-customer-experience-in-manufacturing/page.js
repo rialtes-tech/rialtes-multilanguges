@@ -4,8 +4,12 @@ import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/blogs.json';
+import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -90,122 +94,12 @@ const schemaData = {
     ]
 }
 
-const blogs = [
-    {
-        id: 1,
-        image: "/images/blog/blog-1.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "30 Sept 2024",
-        url: "how-salesforce-agentforce-actually-works",
-        title: "How Salesforce Agentforce Actually Works",
-        description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    },
-    {
-        id: 3,
-        image: "/images/blog/blog-3.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "28 Oct 2024",
-        title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-        description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-    },
-    {
-        id: 4,
-        image: "/images/blog/blog-4.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "25 Nov 2024",
-        title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-    },
-    {
-        id: 5,
-        image: "/images/blog/blog-5.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "24 Dec 2024",
-        title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-        description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },
-    {
-        id: 6,
-        image: "/images/blog/blog-6.webp",
-        category: "Cloud Green Technology",
-        industry: "Agriculture",
-        date: "17 Sept 2024",
-        title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-        description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    },
-    {
-        id: 7,
-        image: "/images/blog/blog-7.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "29 Oct 2024",
-        title: "SAP SuccessFactors Performance and Goal Management",
-        description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-    }
-];
-
 export default function Page() {
-
-    const faqs = [
-        {
-            question: "1. What is Agentforce, and how does it help manufacturers improve customer experience?",
-            answer: [
-                "Agentforce is an AI-powered platform built on Salesforce that enables manufacturers to deploy intelligent agents across sales, service, and operations. These agents monitor real-time data, predict customer-impacting issues, automate responses, and personalize engagement."
-            ]
-        },
-        {
-            question: "2. How does Agentforce detect and respond to problems before customers complain?",
-            answer: [
-                "Agentforce connects to ERP, CRM, and IoT systems to monitor operational signals like machine downtime, delivery delays, or part shortages. When a risk is detected, AI agents automatically notify account managers, trigger alerts, and in some cases, even inform customers before the issue escalates.",
-
-            ]
-        },
-        {
-            question: "3. Can Agentforce be integrated with existing systems like Salesforce CPQ or Manufacturing Cloud?",
-            answer: [
-                "Yes. Agentforce is natively built for Salesforce and integrates seamlessly with tools like Salesforce CPQ, Service Cloud, Manufacturing Cloud, and even third-party systems. It enhances existing workflows without requiring a complete system overhaul.",
-            ]
-        },
-        {
-            question: "4. How does Agentforce improve case resolution in manufacturing service centers?",
-            answer: [
-                "Agentforce uses AI agents to triage, route, and auto-fill service tickets based on priority, product history, and customer profile. It reduces resolution time by directing cases to the right reps or resolving simple issues autonomously.",
-            ]
-        },
-        {
-            question: "5. Is Agentforce suitable for small and mid-sized manufacturing businesses, or just enterprises?",
-            answer: [
-                "Agentforce scales easily across businesses of all sizes. For mid-sized manufacturers looking to modernize without large IT investments, it offers modular deployment, so you can start small (like automated case routing or proactive alerts) and expand as you grow.",
-
-            ]
-        },
-        {
-            question: "6. What kind of ROI can manufacturers expect from using Agentforce?",
-            answer: [
-                "While ROI varies by use case, manufacturers typically see measurable gains in first-response times, reduced service costs, and improved Net Promoter Scores (NPS). More importantly, Agentforce boosts customer loyalty by making every interaction faster, more informed, and more human.",
-
-            ]
-        },
-        {
-            question: "7. Is Agentforce secure and compliant for regulated industries?",
-            answer: [
-                "Yes. Agentforce adheres to Salesforce’s enterprise-grade security protocols and can be deployed in compliance with industry regulations like ISO, SOC 2, and HIPAA, making it suitable for manufacturers in aerospace, medical devices, automotive, and more",
-
-            ]
-        }
-    ];
-
-
-
-
-
-
-    const fullUrl =
-        "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+    const t = useTranslations('enhancingCompliance')
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { blogs, faqData } = blogsContent.enhancingCompliance;
+    const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
 
     return (
         <div className="min-h-screen bg-white">
@@ -243,10 +137,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section
-                className="
-       custom-container"
-            >
+            <section className="custom-container">
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
