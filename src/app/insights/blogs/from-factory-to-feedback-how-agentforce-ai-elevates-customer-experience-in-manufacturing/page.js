@@ -8,20 +8,14 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
-
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-    },
-    "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
-    "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
-    "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
+    "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
+    "description": "Agentforce for manufacturers reimagines Customer Experience with AI agents that predict disruptions, automate resolutions, and deliver smarter, seamless customer journeys.",
+    "image": " https://www.rialtes.com/images/blog/factory-banner.webp",
     "author": {
         "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
+        "name": "Rialtes"
     },
     "publisher": {
         "@type": "Organization",
@@ -31,52 +25,72 @@ const schemaData = {
             "url": "https://www.rialtes.com/images/homepage/logo.svg"
         }
     },
-    "datePublished": "2025-07-29",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blog/agentforce-for-manufacturers-cx"
+    },
+    "datePublished": "2025-08-22",
+
     "mainEntity": [
         {
             "@type": "Question",
-            "name": "What is Agentforce for Automotive?",
+            "name": "What is Agentforce, and how does it help manufacturers improve customer experience?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
+                "text": "Agentforce is an AI-powered platform built on Salesforce that enables manufacturers to deploy intelligent agents across sales, service, and operations. These agents monitor real-time data, predict customer-impacting issues, automate responses, and personalize engagement."
             }
         },
         {
             "@type": "Question",
-            "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
+            "name": "How does Agentforce detect and respond to problems before customers complain?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
+                "text": "Agentforce connects to ERP, CRM, and IoT systems to monitor operational signals like machine downtime, delivery delays, or part shortages. When a risk is detected, AI agents automatically notify account managers, trigger alerts, and in some cases, inform customers before the issue escalates."
             }
         },
         {
             "@type": "Question",
-            "name": "How does Agentforce integrate with existing automotive systems?",
+            "name": "Can Agentforce be integrated with existing systems like Salesforce CPQ or Manufacturing Cloud?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
+                "text": "Yes. Agentforce is natively built for Salesforce and integrates seamlessly with tools like Salesforce CPQ, Service Cloud, Manufacturing Cloud, and even third-party systems. It enhances existing workflows without requiring a complete system overhaul."
             }
         },
         {
             "@type": "Question",
-            "name": "What use cases exist for Agentforce in automotive?",
+            "name": "How does Agentforce improve case resolution in manufacturing service centers?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
+                "text": "Agentforce uses AI agents to triage, route, and auto-fill service tickets based on priority, product history, and customer profile. It reduces resolution time by directing cases to the right reps or resolving simple issues autonomously."
             }
         },
         {
             "@type": "Question",
-            "name": "What is the future of AI in automotive manufacturing?",
+            "name": "Is Agentforce suitable for small and mid-sized manufacturing businesses, or just enterprises?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
+                "text": "Agentforce scales easily across businesses of all sizes. For mid-sized manufacturers looking to modernize without large IT investments, it offers modular deployment, so you can start small and expand as you grow."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What kind of ROI can manufacturers expect from using Agentforce?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While ROI varies by use case, manufacturers typically see measurable gains in first-response times, reduced service costs, and improved Net Promoter Scores (NPS). More importantly, Agentforce boosts customer loyalty by making every interaction faster, more informed, and more human."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Agentforce secure and compliant for regulated industries?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Agentforce adheres to Salesforce’s enterprise-grade security protocols and can be deployed in compliance with industry regulations like ISO, SOC 2, and HIPAA, making it suitable for manufacturers in aerospace, medical devices, automotive, and more."
             }
         }
     ]
-};
+}
+
 const blogs = [
     {
         id: 1,
@@ -217,17 +231,17 @@ export default function Page() {
 
     return (
         <div className="min-h-screen bg-white">
-            {/* <Seo
-                title=""
-                description=""
-                canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
+            <Seo
+                title="Agentforce for Manufacturers: Smart AI for CX | Rialtes"
+                description="With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys."
+                canonical={"https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"}
             />
 
             <Script
                 id="schema-discover"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
             <section className="relative  h-[350px] md:h-[400px]  4xl:h-[600px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">

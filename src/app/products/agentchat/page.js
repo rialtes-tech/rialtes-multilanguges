@@ -60,7 +60,7 @@ export default function Page() {
     const features = [
         {
             title: "Real-Time, Two-Way WhatsApp Messaging",
-            image: "/images/industry/rialchat/Seamless Messaging.png",
+            image: "/images/industry/rialchat/Seamless Messaging.webp",
             alt: "Real-Time WhatsApp Messaging",
             points: [
                 "Start and manage WhatsApp conversations directly from any Salesforce object.",
@@ -70,7 +70,7 @@ export default function Page() {
         },
         {
             title: "Context-Aware Messaging",
-            image: "/images/industry/rialchat/Rich Media Support.png",
+            image: "/images/industry/rialchat/rich-media-support.webp",
             alt: "Context-Aware Messaging",
             points: [
                 "Access full customer context from Salesforce while chatting.",
@@ -79,7 +79,7 @@ export default function Page() {
         },
         {
             title: "Supports All Salesforce Clouds",
-            image: "/images/industry/rialchat/Automated Conversation Logging.png",
+            image: "/images/industry/rialchat/Automated Conversation Logging.webp",
             alt: "Supports All Salesforce Clouds",
             points: [
                 "<strong>Sales Cloud:</strong> Convert chats to Leads and Opportunities.",
@@ -91,7 +91,7 @@ export default function Page() {
         },
         {
             title: "Seamless Salesforce Integration",
-            image: "/images/industry/rialchat/Seamless Messaging.png",
+            image: "/images/industry/rialchat/Seamless Messaging.webp",
             alt: "Seamless Salesforce Integration",
             points: [
                 "Works out-of-the-box with Cases, Leads, Opportunities, Work Orders, and more.",
@@ -109,7 +109,7 @@ export default function Page() {
         },
         {
             title: "Salesforce-Native Security and Compliance",
-            image: "/images/industry/rialchat/Seamless Messaging.png",
+            image: "/images/industry/rialchat/Seamless Messaging.webp",
             alt: "Security and Compliance",
             points: [
                 "Leverages Salesforce’s role hierarchies, sharing rules, and object-level security.",
@@ -203,7 +203,7 @@ export default function Page() {
                     <div className="relative group overflow-hidden w-full">
                         <Image
                             className="w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-                            src='/images/industry/rialchat/Why AgentChat.png'
+                            src='/images/industry/rialchat/Why AgentChat.webp'
                             alt="Instant WhatsApp Conversations"
                             width={0}
                             height={0}

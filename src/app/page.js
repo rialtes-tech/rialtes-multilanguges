@@ -278,7 +278,7 @@ const Home = () => {
                     width='280'
                     alt='Success Stories'
                     className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
-                    src='/images/homepage/AdobeStock_406847557.svg'
+                    src='/images/homepage/innovative2.webp'
                     fetchPriority='high'
                 />
                 <div
