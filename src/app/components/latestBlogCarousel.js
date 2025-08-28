@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
-
+    
     {
     id: 26,
     image: "/images/blog/reimagine-slider.webp", 
@@ -51,7 +51,7 @@ export default function BlogsCarousel() {
     description: "Salesforce has launched Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024.",
   },
    {
-    id: 14,
+    id: 15,
     image: "/images/blog/blog-slider.webp", 
     category: "Salesforce Agentforce",
     industry: "Generic",
@@ -62,7 +62,7 @@ export default function BlogsCarousel() {
   },
 
      {
-     id: 13,
+     id: 14,
     image: "/images/blog/slider.webp",
     category: "Agentforce",
     industry: "General",
@@ -75,7 +75,7 @@ export default function BlogsCarousel() {
   
 
     {
-     id: 12,
+     id: 13,
     image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
     category: "Agentforce",
     industry: "General",
@@ -87,7 +87,7 @@ export default function BlogsCarousel() {
 
   
      {
-     id: 11,
+     id: 12,
     image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
     category: "General",
     industry: "Manufacturing",
@@ -96,7 +96,16 @@ export default function BlogsCarousel() {
     title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
     description: "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable.",
   },
-
+{
+    id: 11,
+    image: "/images/blog/signavio-blog-feature-thumb.webp",
+    category: "SAP Signavio",
+    industry: "Generic",
+    date: "Jun. 16, 2025",
+    url: 'insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation',
+    title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
+    description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
+  },
   {
       id: 10,
       image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
