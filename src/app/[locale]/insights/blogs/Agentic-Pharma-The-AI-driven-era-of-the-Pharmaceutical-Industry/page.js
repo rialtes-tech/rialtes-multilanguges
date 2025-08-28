@@ -160,13 +160,12 @@ export default function Page() {
               {/* why the pharma section */}
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">{t('whyPharmaTitle')}</h2>
               <p className="text-black pb-4">{t('whyPharmaDesc')}</p>
-              <ul className="list-disc text-black space-y-2">
+              <ul className="list-disc text-black space-y-2 text-[16px] sm:text-[20px]">
                 {
                   whyPharmaData.map((data, ind) => {
                     return (
                       <li key={ind}>
-                        <h3 className="font-bold text-[16px] sm:text-[20px]">{data.title}</h3>
-                        {data.desc}
+                        <h3 className="h3-bold inline ">{data.title} : </h3>{data.desc}
                       </li>
                     )
                   })

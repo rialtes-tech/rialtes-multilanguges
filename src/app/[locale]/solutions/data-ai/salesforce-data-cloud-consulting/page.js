@@ -11,7 +11,6 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",

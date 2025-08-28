@@ -134,11 +134,11 @@ export default function Page() {
             <h3 className="text-black pb-4 h3-bold">{t('keyFeaturesTitle')}</h3>
 
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
+              <ul className="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black pl-4 ">
                 {
                   keyFeaturesData.map((data, ind) => {
                     return (
-                      <li key={ind}><h4 className="inline">{data.title}</h4>{data.desc}</li>
+                      <li key={ind}><h4 className="inline">{data.title}{" "}</h4>{data.desc}</li>
                     )
                   })
                 }
@@ -150,11 +150,11 @@ export default function Page() {
             <p className="text-black pb-4">{t('howSapDesc')}</p>
 
             <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4">
+              <ul className="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black pl-4">
                 {
                   howSapData.map((data, ind) => {
                     return (
-                      <li key={ind}><h4 className="inline">{data.title}</h4>{data.desc}</li>
+                      <li key={ind}><h4 className="inline">{data.title}{" "}</h4>{data.desc}</li>
                     )
                   })
                 }

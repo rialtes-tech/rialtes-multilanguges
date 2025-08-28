@@ -572,7 +572,7 @@ export default function Page() {
       {/* related section */}
       <section className="custom-container xl:mt-[205px] lg:mt-[125px] mt-[44px]">
         <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[90%] lg:w-full">
-          {t('relatedTitle1')}<div className="md:block hidden" />{t('relatedTitle2')}
+          {t('relatedTitle1')}<div className="md:block hidden" /> {t('relatedTitle2')}
         </h2>
         <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
           {

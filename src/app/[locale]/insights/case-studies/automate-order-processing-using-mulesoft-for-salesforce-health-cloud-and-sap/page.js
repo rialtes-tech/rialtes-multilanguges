@@ -169,7 +169,7 @@ export default function Page() {
                     <li className="pb-4 last:pb-0" key={idx}>
                       <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
                         {item.title}
-                      </h3> : {item.description}
+                      </h3>{" "}{item.description}
                     </li>
                   ))}
                 </ul>

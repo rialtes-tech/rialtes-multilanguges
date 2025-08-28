@@ -155,7 +155,7 @@ export default function Page() {
           <div className="mx-auto">
             <div className="max-w-[1084px] xl:w-[1084px]">
               <p className="text-black pb-4">
-                {t('blogMainData')}
+                {t('blogMainData')}{" "}
                 <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/in/news/press-releases/2025/03/04/agentexchange-announcement/" target="_blank">{t('blogMainDataLink')}</Link>
                 {t('blogMainData2')}
               </p>
@@ -278,7 +278,7 @@ export default function Page() {
               </p>
 
               <p className="text-black">
-                {t('availabilityData2')}
+                {t('availabilityData2')}{" "}
                 <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic" target="_blank">
                   {t('availabilityLink')}   </Link>
                 {t('availabilityData3')} , 

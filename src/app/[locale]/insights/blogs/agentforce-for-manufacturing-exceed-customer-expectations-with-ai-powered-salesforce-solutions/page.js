@@ -171,16 +171,17 @@ export default function Page() {
           <div className="mx-auto">
             <div className="max-w-[1084px] xl:w-[1084px]">
               <p className="text-black pb-4">
-                {t('blogMainData')}   {" "}
+                {t('blogMainData')}  
+              </p>
+                <p className="text-black pb-4">
+                  {t('the')} {" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.salesforce.com/industry/manufacturing-cloud-erp/" target="_blank">
-                  {" "}
-                  {t('blogMainDataLink')}
-                </Link>
-                <br></br> {t('blogMainData2')}
-              </p>
-
+      
+                {t('blogMainDataLink')}
+                </Link>{" "}{t('blogMainData2')}
+                </p>
               <p className="text-black">
                 {t('blogMainData3')}
               </p>
@@ -302,15 +303,14 @@ export default function Page() {
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
                 {t('realTimeVisibilityTitle')}
               </h2>
-              <p className="mt-3">
+             
+              <div className="mt-3">
                 {realTimeVisibilityData.map((para, index) => (
-                  <span key={index}>
+                  <p key={index} className="mb-4">
                     {para}
-                    <br />
-                  </span>
+                  </p>
                 ))}
-
-              </p>
+              </div>
               <OrderedList arrName={realTimeData} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 mt-5" />
 
               <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">

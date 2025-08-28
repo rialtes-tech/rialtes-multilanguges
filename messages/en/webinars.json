@@ -1,7 +1,7 @@
 {
     "webinarComponent": {
         "speakerTitle": "Speaker",
-        "inThisWebinarTitle": "In This Webinar, You'll Get:",
+        "inThisWebinarTitle": "In This Webinar, You'll Learn :",
         "whotShouldAttendTitle": "Who Should Attend?",
         "watchNowBtn": "Watch Now",
         "howToJoinTitle": "How to Join:",
@@ -241,7 +241,7 @@
     },
     "letsWhatsappWebinar": {
         "webinarTitle": "Let’s WhatsApp in Salesforce with AgentChat",
-        "webinarInfo": "Don’t miss this exclusive webinar to discover how AgentChat our native, bidirectional Salesforce WhatsApp integration, transforms the way your teams communicate, directly within Salesforce. Whether you're in Sales, Service, Marketing, or Field Operations, AgentChat brings seamless, real-time WhatsApp conversations to your CRM environment.",
+        "webinarInfo": "Don’t miss this exclusive webinar to discover how AgentChat, our native, bidirectional Salesforce WhatsApp integration, transforms the way your teams communicate, directly within Salesforce. Whether you're in Sales, Service, Marketing, or Field Operations, AgentChat brings seamless, real-time WhatsApp conversations to your CRM environment.",
         "webinarAdvantagesData": [
             {
                 "title": "Cross-Cloud Compatibility:",

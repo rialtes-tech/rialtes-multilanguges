@@ -60,23 +60,23 @@
         "faqData": [
             {
                 "question": "1.What makes Agentforce different from other AI solutions for manufacturing?",
-                "answer": "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
+                "answer": "Agentforce is built natively on Salesforce and tailored for operational use in manufacturing environments. Unlike generic AI solutions, it features industry-trained agents that efficiently handle tasks like supply chain management, service scheduling, warranty claims, and partner support—without the need for custom code."
             },
             {
                 "question": "2. Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
-                "answer": "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
+                "answer": "Yes. Agentforce seamlessly integrates with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions, connecting to your product catalogue, pricing engine, contracts, and workflows. This enables your AI agents to quote, configure, and provide real-time support using live business data and logic."
             },
             {
                 "question": "3. How do AI agents in Agentforce improve uptime and reduce manual workload?",
-                "answer": "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
+                "answer": "Agentforce connects to Field Service, IoT signals, and service histories to proactively identify and flag potential issues before they result in downtime. It automates key workflows such as dispatch scheduling, parts ordering, and claim initiation, significantly reducing breakdowns and manual overhead."
             },
             {
                 "question": "4. How does Agentforce help improve customer satisfaction?",
-                "answer": "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
+                "answer": "Agentforce delivers fast, accurate answers to customers and channel partners through 24/7 AI agents—eliminating the need for hold times and chase-ups. Whether it's tracking an order, scheduling service, or retrieving product manuals, Agentforce provides a consistent, seamless self-service experience across web, mobile, WhatsApp, and SMS."
             },
             {
                 "question": "5. Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
-                "answer": "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
+                "answer": "Agentforce is designed for scalability, making it perfect for both mid-sized businesses and large enterprises. You can start small, automating key workflows, and expand over time—without needing massive infrastructure changes. Enjoy faster support, smarter operations, and a clear ROI as your business grows."
             }
         ],
         "copilotData": [
@@ -128,6 +128,7 @@
         "blogTopic": "Agentforce",
         "blogTitle": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
         "blogMainData": "We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support. Imagine a workforce free from constraints, delivering exceptional service without overwhelm. That’s the promise of Agentforce. It blends human expertise with AI-powered agents on the Salesforce platform to create a smarter, more scalable workforce. It frees your team to focus on building stronger relationships and driving real business outcomes.",
+        "the":"The",
         "blogMainDataLink": "manufacturing industry is undergoing a digital transformation",
         "blogMainData2": "with Industry 4.0, requiring smarter and more connected systems. Agentforce optimizes manufacturing operations, boosts productivity, and enhances customer satisfaction. By integrating the entire value chain from inventory to production to customer engagement, it helps manufacturing companies remain competitive. It’s an intelligence layer that helps manufacturers rethink how they engage, support, and grow customer relationships.",
         "blogMainData3": "Let’s break down how Agentforce helps you leap ahead, not just keep up",
@@ -244,7 +245,7 @@
             },
             {
                 "title": "Trusted Marketplace",
-                "desc": "Browse and integrate AI agents verified for security, compliance, and scalability."
+                "desc": ": Browse and integrate AI agents verified for security, compliance, and scalability."
             }
         ],
         "whatLedData": [
@@ -500,19 +501,19 @@
         "whyPharmaDesc": "Pharmaceutical companies are especially well-suited to leverage Agentic AI due to their complex workflows, strict regulatory demands, and increasing focus on patient-centered care. The life sciences and healthcare sectors are notoriously cautious when it comes to adopting emerging technologies, and for good reason. Patient safety, ethical standards, and stringent regulations demand absolute accuracy and accountability. However, the very complexity of pharmaceutical operations from drug discovery to clinical trials to regulatory submissions makes them an ideal ground for intelligent, autonomous systems.",
         "whyPharmaData": [
             {
-                "title": "Pharma’s Rising Operational Complexity:",
+                "title": "Pharma’s Rising Operational Complexity",
                 "desc": "Coordinating clinical trials, regulatory compliance, supply chain logistics, and patient engagement involves managing diverse teams and disconnected data systems. Manual processes can slow operations and heighten the risk of human error"
             },
             {
-                "title": "Growing Patient Expectations:",
+                "title": "Growing Patient Expectations",
                 "desc": "Patients, particularly those managing chronic or complex conditions, expect real-time, personalized support. Traditional engagement models struggle to deliver scalable personalization without significantly increasing resource requirements."
             },
             {
-                "title": "Fragmented Data:",
+                "title": "Fragmented Data",
                 "desc": "Essential data such as patient records, prescription history, and treatment journeys are often siloed within different departments or platforms, delaying critical decisions and undermining care coordination."
             },
             {
-                "title": "Intensifying Regulatory and Cost Pressures:",
+                "title": "Intensifying Regulatory and Cost Pressures",
                 "desc": "With stricter regulations and rising operational expenses, pharma companies must improve efficiency, streamline workflows, and reduce costs, all while maintaining high standards of compliance and care."
             }
         ],
@@ -779,7 +780,7 @@
                 "desc": "SAP SuccessFactors integrates seamlessly with SAP S/4HANA and other ERP systems to align HR operations with broader business functions. For example:",
                 "list": [
                     {
-                        "title": "Payroll Accuracy",
+                        "title": "Payroll Accuracy ",
                         "desc": ": Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system"
                     },
                     {
@@ -2168,7 +2169,7 @@
                 "list": [
                     {
                         "title": "Define Screening Scenarios",
-                        "desc": "Identify all third-party entities requiring screening. Examples include suppliers, logistics providers, and financial institutions involved in your supply chain."
+                        "desc": ": Identify all third-party entities requiring screening. Examples include suppliers, logistics providers, and financial institutions involved in your supply chain."
                     },
                     {
                         "title": "Upload sanctioned party list entries",
@@ -2909,7 +2910,7 @@
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
         "blogMainData": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.",
-        "blogMainDataLink": "Salesforce Agentforce ",
+        "blogMainDataLink": "Salesforce Agentforce",
         "blogMainData2": "provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
         "blogMainData3": "As the “brain” behind the agents, Atlas formulates a strategic plan based on the specific goal the agent is trying to achieve. It then evaluates and refines this plan, looping to gather additional data if necessary. When executing an action, it assesses which business process is most appropriate and ensures the right one is applied. It engages with the customer or employee through their preferred communication channel, delivering a more seamless and personalized experience. This dynamic adaptability enables Atlas to optimize interactions, driving efficiency and satisfaction in real-time continuously. Let’s dive into what makes Atlas’s new ways of reasoning and planning special.",
         "commonData": [
@@ -3075,7 +3076,7 @@
         "gettingLink": "Dreamforce",
         "gettingDesc2": "Businesses can leverage Agentforce within the Salesforce platform by automating sales workflows, enhancing lead management, and optimizing customer interactions. Rialtes specializes in",
         "gettingLink2": " AI and analytics solutions in Salesforce",
-        "gettingDesc3": ", and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance"
+        "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
         "blogTopic": "Green Technology",

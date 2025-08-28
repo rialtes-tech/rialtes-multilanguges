@@ -164,7 +164,7 @@ export default function Page() {
                         {
                           data.list.map((elem, ind) => {
                             return (
-                              <li className="pb-2" key={ind}><h4 className="inline text-black">{elem.title}</h4>{elem.desc}</li>
+                              <li className="pb-2" key={ind}><h4 className="inline text-black">{elem.title} </h4>{elem.desc}</li>
                             )
                           })
                         }

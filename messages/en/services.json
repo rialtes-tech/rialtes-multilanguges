@@ -215,6 +215,7 @@
         "ourZohoSubTitle": "Benefits of Migrating from ZOHO HR to SAP SuccessFactors:",
         "benefitsMigratingTitle": " Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+",
         "processTitle": "Process-Driven Success with SAP Signavio and SAP Activate Methodology",
+       
         "processDesc": "Rialtes leverages SAP Signavio’s powerful process intelligence combined with SAP Activate Methodology to ensure smooth and efficient implementation of SAP SuccessFactors.",
         "processSubTitle1": "SAP Activate Methodology -",
         "processSubTitle2": "Phased Approach with Rialtes:",
@@ -488,7 +489,7 @@
         "rialtesStrongTitle": "Rialtes’ Strong SAP BTP Competency",
         "rialtesStrongSubTitle": "Extending S/4 HANA Value",
         "rialtesStrongDesc": "Rialtes brings deep expertise in SAP Business Technology Platform (BTP) to extend, customize, and enhance S/4 HANA integration with Kinaxis:",
-        "rialtesStrongBlueBox": "Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.",
+        "rialtesStrongBlueBox": "Our certified BTP consultants ensure secure, scalable, and future-proof solutions for every client.",
         "bringingTitle": "Bringing Together Kinaxis and the Broader Enterprise Ecosystem",
         "bringingSubTitle": "Related SAP and Procurement Solutions with Rialtes:",
         "sapAribaTitle": " SAP ARIBA & Procurement",
@@ -1409,8 +1410,8 @@
         ],
         "hybridTitle": "Hybrid Delivery Model (Onsite + Offshore)",
         "rialtesTwentyData2": [
-            "Always-On SAP system monitoring, incident management, and functional/technical support.",
-            "Proactive alerts, real-time resolution, and service continuity — anywhere, anytime."
+            "Strategic blend of onsite expertise and offshore delivery for cost-effective yet personalized support.",
+            "Local leadership and customer-facing consultants backed by offshore SAP CoE teams for scalability."
         ],
         "onsiteDeliveryTitle": "Onsite Delivery Model",
         "onsiteDeliveryTitle2": "Fully Offshore Model",
@@ -1878,7 +1879,7 @@
         "introducingAgentChatDesc2": "AgentChat is the perfect solution for customer service, sales inquiries, order updates, and marketing outreach — all managed securely within Salesforce.",
         "yourGrowthTitle": " Your Growth Partners",
         "yourGrowthSubTitle": "Across Every Industry Touchpoint",
-        "yourGrowthDesc": " Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships,Rialtes’ Advantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.",
+        "yourGrowthDesc": " Whether you’re launching targeted campaigns, scaling global marketing, or deepening customer relationships, Rialtes’ Advantage+ Marketing Cloud Services are designed to drive growth, efficiency, and innovation.",
         "exploreMoreTitle": "Explore More with Salesforce",
         "contactTitle": "Ready to Accelerate Your Marketing? Let’s Talk!"
     },
